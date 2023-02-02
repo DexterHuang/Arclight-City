@@ -124,6 +124,62 @@
                 "FAIL": "You miss the opportunity to discover valuable loot"
             }
         ]
+    },{
+        "STORY": "You come across a malfunctioning security robot, what do you do?",
+        "CHOICES": [
+            {
+                "ACTION": "Fight the robot",
+                "SUCCESS": "You take down the robot and loot its parts",
+                "FAIL": "The robot proves to be too strong and you have to retreat"
+            },
+            {
+                "ACTION": "Hack the robot",
+                "SUCCESS": "You hack the robot and make it follow your commands",
+                "FAIL": "The hack fails and the robot attacks you"
+            }
+        ]
+    }, {
+        "STORY": "You find a room filled with advanced technology, what do you do?",
+        "CHOICES": [
+            {
+                "ACTION": "Take everything",
+                "SUCCESS": "You gather as much tech as you can carry and leave the room",
+                "FAIL": "The room's security systems activate and you are forced to retreat"
+            },
+            {
+                "ACTION": "Be selective",
+                "SUCCESS": "You carefully choose the most valuable and portable technology to take with you",
+                "FAIL": "As you try to be selective, the room's security systems activate and you are forced to retreat"
+            }
+        ]
+    }, {
+        "STORY": "You come across a room with a massive server, what do you do?",
+        "CHOICES": [
+            {
+                "ACTION": "Hack the server",
+                "SUCCESS": "You successfully hack the server and download valuable data",
+                "FAIL": "The server's security systems detect your hack and you are forced to retreat"
+            },
+            {
+                "ACTION": "Physically access the server",
+                "SUCCESS": "You find a way to physically access the server and extract its data",
+                "FAIL": "You find the server is too well-protected to access physically and you are forced to retreat"
+            }
+        ]
+    }, {
+        "STORY": "You find a locked safe, what do you do?",
+        "CHOICES": [
+            {
+                "ACTION": "Pick the lock",
+                "SUCCESS": "You successfully pick the lock and loot the safe",
+                "FAIL": "You can't seem to pick the lock and you move on"
+            },
+            {
+                "ACTION": "Blow it open",
+                "SUCCESS": "You blow the safe open and loot its contents",
+                "FAIL": "The safe is more secure than you thought and the explosion sets off alarms"
+            }
+        ]
     }
     ]
 }
