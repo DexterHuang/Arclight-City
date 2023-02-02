@@ -1,0 +1,75 @@
+{   
+    "VARIABLES": ["time"],
+    "SCENARIOS": [ 
+        {
+            "STORY": "You stumbled upon a locked chest filled with valuable items. The chest is booby-trapped with an electric shock device. Attempting to disarm it will cost you some health.",
+            "CONFIRM": "Disarm"
+        }, {
+            "STORY": "You come across a room filled with toxic gas. You need to get to the other side of the room to reach a hidden stash of weapons. The gas will damage your health if you choose to cross the room.",
+            "CONFIRM": "Cross"
+        }, {
+            "STORY": "You found a terminal that's required to unlock a secret door. The terminal is guarded by a high-tech security bot that's armed with a deadly laser. Hacking into the terminal will cause the bot to attack you and cost you some health.",
+            "CONFIRM": "Hack"
+        }, {
+            "STORY": "You discovered a room filled with a highly-flammable liquid. The room also contains valuable equipment that you need to acquire. Igniting the liquid will cause an explosion and cost you some health.",
+            "CONFIRM": "Ignite"
+        }, {
+            "STORY": "You found a hidden door that's guarded by a deadly laser grid. The door leads to a room filled with valuable items. Disabling the laser grid will cause the lasers to backfire and damage your health.",
+            "CONFIRM": "Disable"
+        }, {
+            "STORY": "You came across a room filled with highly-radioactive materials. The room also contains valuable tech that you need to acquire. Venturing into the room will cause you to take radiation damage and cost you some health.",
+            "CONFIRM": "Venture"
+        }, {
+            "STORY": "You found a room filled with dangerous robots. The room contains valuable equipment that you need to acquire. Engaging the robots will cost you some health.",
+            "CONFIRM": "Engage"
+        }, {
+            "STORY": "You stumbled upon a room filled with a highly-corrosive substance. The room also contains valuable tech that you need to acquire. Touching the substance will cause you to take damage and cost you some health.",
+            "CONFIRM": "Touch"
+        }, {
+            "STORY": "You discovered a room filled with intense heat. The room also contains valuable equipment that you need to acquire. Venturing into the room will cause you to take heat damage and cost you some health.",
+            "CONFIRM": "Venture"
+        }, {
+            "STORY": "You found a room filled with a deadly virus. The room also contains valuable tech that you need to acquire. Entering the room will cause you to take virus damage and cost you some health.",
+            "CONFIRM": "Enter"
+        }, {
+            "STORY": "You come across a locked safe that requires a passcode to unlock. You notice a computer terminal nearby and realize you could try to hack into the system to get the code, but there's a chance you might get caught and trigger an alarm.",
+            "CONFIRM": "Hack"
+        },
+        {
+            "STORY": "You find a room filled with toxic gas. You can see a valuable item sitting on a pedestal in the center of the room. To retrieve the item, you'll have to hold your breath and run through the gas, but it's likely to damage your health.",
+            "CONFIRM": "Retrieve item"
+        },
+        {
+            "STORY": "You come across a door that's blocked by a powerful electrical current. You could try to bypass the current by rerouting power from nearby systems, but it could result in a dangerous surge.",
+            "CONFIRM": "Bypass current"
+        },
+        {
+            "STORY": "You find a room filled with holographic traps. To get to the loot, you'll need to navigate through the traps, but you'll likely take some damage in the process.",
+            "CONFIRM": "Navigate traps"
+        },
+        {
+            "STORY": "You come across a room guarded by a powerful robot. You can try to deactivate it by hacking into its systems, but there's a chance it could detect and attack you.",
+            "CONFIRM": "Deactivate robot"
+        },
+        {
+            "STORY": "You find a locked door that requires a voice command to open. You can try to mimic the voice of the person who last spoke the command, but there's a risk that you'll make a mistake and trigger an alarm.",
+            "CONFIRM": "Mimic voice"
+        },
+        {
+            "STORY": "You come across a room filled with dangerous radiation. To retrieve the loot, you'll need to wear a protective suit, but even with the suit on, you'll still take some damage.",
+            "CONFIRM": "Retrieve loot"
+        },
+        {
+            "STORY": "You find a room guarded by a maze of laser beams. To get to the loot, you'll need to navigate through the beams, but they're likely to damage your health.",
+            "CONFIRM": "Navigate beams"
+        },
+        {
+            "STORY": "You come across a door that's sealed shut by a magnetic lock. You can try to deactivate the lock, but there's a chance that you'll get stuck and take damage from the magnetic field.",
+            "CONFIRM": "Deactivate lock"
+        },
+        {
+            "STORY": "You find a room filled with low-level noise that's causing interference with your equipment. To retrieve the loot, you'll need to enter the room and disable the source of the interference, but you'll likely take some damage from the noise.",
+            "CONFIRM": "Retrieve loot"
+        }
+    ]
+}
