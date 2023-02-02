@@ -1,0 +1,129 @@
+{
+
+    "SCENARIOS": [{
+        "STORY": "You found a locked container, it seems like it could contain some valuable stuff inside, what do you do?",
+        "CHOICES": [
+            {
+                 "ACTION": "Smash it open",
+                 "SUCCESS": "You successfully smashed the container open and find a cache of weapons and gadgets",
+                 "FAIL": "You tried to smash it open, but it doesn't budge event a bit"
+            },  
+            {
+                 "ACTION": "Hack the lock",
+                 "SUCCESS": "After a bit of tinkering with the system binaries, the lock opens with a mechanical sound, revealing a stash of precious gems and gold coins",
+                 "FAIL": "Hack successful, the container enters self-destruct mode, you quickly run away as it went up in a spectacular explosion"
+            }
+       ]
+    },
+    {
+        "STORY": "You come across a room filled with high-tech equipment, what do you do?",
+        "CHOICES": [
+            {
+                 "ACTION": "Hack the systems",
+                 "SUCCESS": "You manage to successfully hack the systems, retrieving valuable data and information",
+                 "FAIL": "The systems were too advanced, and your attempts to hack them only triggered the security systems, forcing you to retreat"
+            },  
+            {
+                 "ACTION": "Steal the equipment",
+                 "SUCCESS": "You manage to sneak away with some of the high-tech equipment, which could fetch a good price on the black market",
+                 "FAIL": "You were caught in the act of theft, and the guards chase after you, forcing you to fight or flee"
+            }
+       ]
+    },
+    {
+        "STORY": "You come across a group of rogue robots, what do you do?",
+        "CHOICES": [
+            {
+                 "ACTION": "Fight them",
+                 "SUCCESS": "You managed to defeat the rogue robots, and find a stash of valuable components and scrap metal",
+                 "FAIL": "The robots were too advanced, and you were badly beaten in the fight, barely managing to escape"
+            },  
+            {
+                 "ACTION": "Bargain with them",
+                 "SUCCESS": "You managed to negotiate with the rogue robots, trading information and supplies for valuable tech parts and software",
+                 "FAIL": "The negotiations failed, and the rogue robots attack you, forcing you to defend yourself"
+            }, 
+            {
+                 "ACTION": "Sneak past them",
+                 "SUCCESS": "You manage to sneak past the rogue robots, discovering a hidden cache of advanced tech components",
+                 "FAIL": "You were spotted by the rogue robots, and they chase after you, forcing you to fight or flee"
+            }
+       ]
+    },
+    {
+        "STORY": "You come across a broken down cyber-robot, what do you do?",
+        "CHOICES": [
+            {
+                "ACTION": "Attempt to fix it",
+                "SUCCESS": "You managed to repair the cyber-robot and it rewards you with valuable parts",
+                "FAIL": "Your attempts to fix the robot only made things worse, and it now malfunctions even more"
+            },
+            {
+                "ACTION": "Loot the remains",
+                "SUCCESS": "You manage to scavenge valuable parts and components from the robot",
+                "FAIL": "The remains are too damaged to yield anything of value"
+            }
+        ]
+    },
+    {
+        "STORY": "You come across a dead end with a holographic map, what do you do?",
+        "CHOICES": [
+            {
+                "ACTION": "Examine the map",
+                "SUCCESS": "You discover a hidden path that leads to valuable loot",
+                "FAIL": "The map is a fake and leads to a trap"
+            },
+            {
+                "ACTION": "Ignore the map",
+                "SUCCESS": "You stumble upon a secret stash of valuable loot by accident",
+                "FAIL": "You continue down the wrong path and waste time"
+            }
+        ]
+    },
+    {
+        "STORY": "You come across a locked door, what do you do?",
+        "CHOICES": [
+            {
+                "ACTION": "Pick the lock",
+                "SUCCESS": "You successfully pick the lock and find valuable loot inside",
+                "FAIL": "Your attempts to pick the lock only damage it, rendering it unusable"
+            },
+            {
+                "ACTION": "Force the door open",
+                "SUCCESS": "You successfully force the door open and find valuable loot inside",
+                "FAIL": "The door is too sturdy and doesn't budge even a little bit"
+            }
+        ]
+    },
+    {
+        "STORY": "You come across an old, rusty computer terminal, what do you do?",
+        "CHOICES": [
+            {
+                "ACTION": "Try to hack it",
+                "SUCCESS": "You successfully hack the terminal and find valuable data and information",
+                "FAIL": "The terminal is too old and hack-proof"
+            },
+            {
+                "ACTION": "Try to repair it",
+                "SUCCESS": "You successfully repair the terminal and find valuable data and information",
+                "FAIL": "Your attempts to repair the terminal only make things worse"
+            }
+        ]
+    },
+    {
+        "STORY": "You come across a holographic billboard, what do you do?",
+        "CHOICES": [
+            {
+                "ACTION": "Interact with it",
+                "SUCCESS": "You discover a hidden stash of valuable loot behind the billboard",
+                "FAIL": "The billboard is just a holographic advertisement and yields no reward"
+            },
+            {
+                "ACTION": "Ignore it",
+                "SUCCESS": "You continue on your way without wasting time on a distraction",
+                "FAIL": "You miss the opportunity to discover valuable loot"
+            }
+        ]
+    }
+    ]
+}
