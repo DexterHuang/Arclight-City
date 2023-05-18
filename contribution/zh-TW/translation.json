@@ -1,0 +1,1374 @@
+{
+	"ability": {
+		"attack": {
+			"description": {
+				"eng": "Attacks the enemy for certain amount of damage",
+				"trans": "對敵人造成一定量的傷害"
+			},
+			"triggered": {
+				"eng": "${playerName} Attacked for ${amount} damage",
+				"trans": "${playerName}造成${amount}傷害"
+			}
+		},
+		"attack_group": {
+			"description": {
+				"eng": "Attacks the enemy for certain amount of damage",
+				"trans": "對敵人造成一定量的傷害"
+			}
+		},
+		"heal": {
+			"description": {
+				"eng": "Heals your character for certain amount of health",
+				"trans": "治療你的角色一定量的生命值。"
+			},
+			"triggered": {
+				"eng": "${merc} Healed ${playerName} for ${amount} health",
+				"trans": "${merc}為${playerName}恢復了${amount}點生命值"
+			}
+		},
+		"heal_group": {
+			"description": {
+				"eng": "Heals your team for certain amount of health",
+				"trans": "治療你的隊伍一定量的生命值。"
+			},
+			"triggered": {
+				"eng": "${merc} healed the team for ${amount} health",
+				"trans": "${merc}為團隊恢復了${amount}點生命值"
+			}
+		},
+		"poisonGroup": {
+			"description": {
+				"eng": "Poisons the enemy for certain amount of damage",
+				"trans": "對敵人施加毒素，造成一定量的傷害。"
+			},
+			"triggered": {
+				"eng": "${merc} poisoned ${enemy}, ${enemy} received ${damage} damage.",
+				"trans": "${merc} 毒害了所有敵人，${enemy} 受到了 ${damage} 點傷害。"
+			}
+		},
+		"subtitle": {
+			"eng": "Ability",
+			"trans": "能力"
+		}
+	},
+	"apartment": {
+		"apartment0": {
+			"displayName": {
+				"eng": "Slum Apartment",
+				"trans": "貧民窟公寓"
+			}
+		},
+		"apartment1": {
+			"displayName": {
+				"eng": "Budget Studio",
+				"trans": "預算工作室"
+			}
+		},
+		"apartment2": {
+			"displayName": {
+				"eng": "Standard Studio",
+				"trans": "標準工作室"
+			}
+		},
+		"apartment3": {
+			"displayName": {
+				"eng": "Downtown Apartment",
+				"trans": "市中心公寓"
+			}
+		},
+		"guest": {
+			"eng": "guest",
+			"trans": "訪客"
+		},
+		"noApartment": {
+			"displayName": {
+				"eng": "No Apartment",
+				"trans": "沒有公寓"
+			}
+		},
+		"players": {
+			"eng": "players",
+			"trans": "玩家們"
+		}
+	},
+	"apartmentDetails": {
+		"inventorySlots": {
+			"eng": "additional inventory slots: ${slotCount}",
+			"trans": "額外的物品欄位: ${slotCount}"
+		},
+		"storageSlots": {
+			"eng": "additional vault slots: ${slotCount}",
+			"trans": "增加保險箱空間：${slotCount}格"
+		}
+	},
+	"apartmentPage": {
+		"kitchen": {
+			"title": {
+				"eng": "kitchen",
+				"trans": "廚房"
+			}
+		},
+		"purchase": {
+			"eng": "view apartments",
+			"trans": "查看公寓"
+		},
+		"vaultButton": {
+			"title": {
+				"eng": "Vault",
+				"trans": "倉庫"
+			}
+		}
+	},
+	"attackBar": {
+		"attack": {
+			"eng": "attack",
+			"trans": "攻擊"
+		},
+		"block": {
+			"eng": "block",
+			"trans": "封鎖"
+		},
+		"failArea": {
+			"eng": "Fail area",
+			"trans": "失敗區域"
+		},
+		"headshot": {
+			"eng": "headshot",
+			"trans": "爆頭"
+		},
+		"instruction": {
+			"eng": "hold and release to attack",
+			"trans": "按住並釋放以進行攻擊"
+		}
+	},
+	"backgroundTaskType": {
+		"netrunning": {
+			"description": {
+				"eng": "hack into the cyberspace and steal some useful data to sell in the black market",
+				"trans": "入侵網絡空間，竊取有用的數據並在黑市上出售。"
+			},
+			"displayName": {
+				"eng": "netrunning",
+				"trans": "網絡行走"
+			}
+		},
+		"scavenge": {
+			"description": {
+				"eng": "wonder around the outskirts of the city and find some loot",
+				"trans": "在城市周圍四處探索並尋找戰利品。"
+			},
+			"displayName": {
+				"eng": "scavenge",
+				"trans": "搜索"
+			}
+		},
+		"territory": {
+			"description": {
+				"eng": "Contribute to territory control for your gang",
+				"trans": "為你的幫派貢獻領地控制"
+			},
+			"displayName": {
+				"eng": "territory",
+				"trans": "領土"
+			}
+		}
+	},
+	"backpack": {
+		"multiSelect": {
+			"move": {
+				"title": {
+					"eng": "Move To Inventory",
+					"trans": "移至背包。"
+				}
+			}
+		}
+	},
+	"bundle": {
+		"mercenary": {
+			"name": {
+				"eng": "Mercenary Bundle",
+				"trans": "傭兵禮包"
+			}
+		},
+		"newbie": {
+			"name": {
+				"eng": "Welcome Bundle",
+				"trans": "歡迎禮包"
+			}
+		}
+	},
+	"chatPreview": {
+		"noMessage": {
+			"eng": "no message",
+			"trans": "沒有訊息。"
+		}
+	},
+	"circleLockMinigame": {
+		"unlockButton": {
+			"eng": "unlock",
+			"trans": "解鎖"
+		}
+	},
+	"circleMinigame": {
+		"title": {
+			"eng": "Rotate the circle to unlock",
+			"trans": "旋轉圓圈以解鎖"
+		}
+	},
+	"connectingOverlay": {
+		"connecting": {
+			"title": {
+				"eng": "Connecting to mainframe...",
+				"trans": "連接主機..."
+			}
+		},
+		"notLoggedIn": {
+			"reconnecting": {
+				"description": {
+					"eng": "Please ensure stable network connection. or server might be under maintenance.",
+					"trans": "請確保網路連線穩定，否則伺服器可能正在維護中。"
+				},
+				"title": {
+					"eng": "Failed to connect to server.",
+					"trans": "無法連接至伺服器。"
+				}
+			}
+		},
+		"reconnecting": {
+			"description": {
+				"eng": "Failed to connect to mainframe. Please ensure network connection is stable. or server is under maintenance.",
+				"trans": "無法連接主機。請確保網路連線穩定或伺服器正在進行維護。"
+			},
+			"title": {
+				"eng": "Reconnecting to mainframe... Attempt ${attempt}",
+				"trans": "重新連線至主機...第 ${attempt} 次嘗試"
+			}
+		}
+	},
+	"contributionNotice": {
+		"title": {
+			"eng": "This content is contributable by community, click here to edit or add your own content into the game.",
+			"trans": "這個內容可以由社群共同補充，點擊這裡來編輯或新增你自己的內容到遊戲"
+		}
+	},
+	"costDisplay": {
+		"level": {
+			"eng": "${levelName} ${level} ",
+			"trans": "${levelName} 等級 ${level}"
+		}
+	},
+	"dailyRewardType": {
+		"normal": {
+			"name": {
+				"eng": "Daily Reward",
+				"trans": "每日獎勵"
+			}
+		}
+	},
+	"deadthScreen": {
+		"decoText": {
+			"eng": "No existing insurance found",
+			"trans": "找不到現有的保險。"
+		},
+		"itemLost": {
+			"eng": "${amount} items from backpack was taken as compensation to Ripperdoc",
+			"trans": "已從背包中拿走${amount}件物品作為賠償給搶匪醫生。"
+		},
+		"respawnButton": {
+			"title": {
+				"eng": "Confirm",
+				"trans": "確認"
+			}
+		},
+		"subtitle": {
+			"eng": "Fatal injury detected",
+			"trans": "偵測到致命傷害"
+		},
+		"title": {
+			"eng": "Flatlined",
+			"trans": "心跳停止"
+		},
+		"upgradeItemHint": {
+			"eng": "Try level up and upgrade your items",
+			"trans": "嘗試升級和升級您的物品。"
+		},
+		"upgradeMercenary": {
+			"eng": "Upgrade or higher more mercenaries",
+			"trans": "升級或雇用更多的僱傭兵。"
+		}
+	},
+	"dungeon": {
+		"type": {
+			"hard": {
+				"description": {
+					"eng": "Hard difficulty stronghold.",
+					"trans": "困難難度地城。"
+				},
+				"name": {
+					"eng": "Hard",
+					"trans": "困難"
+				}
+			},
+			"normal": {
+				"description": {
+					"eng": "Normal difficulty stronghold.",
+					"trans": "普通難度地城。"
+				},
+				"name": {
+					"eng": "Normal",
+					"trans": "普通"
+				}
+			}
+		}
+	},
+	"dungeonEffect": {
+		"damageIncrease": {
+			"desc": {
+				"eng": "Increase damage dealt.",
+				"trans": "增加傷害。"
+			},
+			"name": {
+				"eng": "Damage Boost",
+				"trans": "傷害增強"
+			}
+		},
+		"enemyIncrease": {
+			"desc": {
+				"eng": "Increase number of enemies.",
+				"trans": "增加敵人數量。"
+			},
+			"name": {
+				"eng": "Crowded",
+				"trans": "擁擠的"
+			}
+		},
+		"expIncrease": {
+			"desc": {
+				"eng": "Increase exp gained.",
+				"trans": "增加經驗值獲得。"
+			},
+			"name": {
+				"eng": "Exp Boost",
+				"trans": "經驗加成"
+			}
+		},
+		"luckIncrease": {
+			"desc": {
+				"eng": "Increase drop quality",
+				"trans": "提高掉落品質"
+			},
+			"eng": "Lucky",
+			"trans": "幸運的"
+		}
+	},
+	"dungeonLobby": {
+		"createButton": {
+			"eng": "Enter Stronghold",
+			"trans": "進入地城"
+		},
+		"createButtonDisabled": {
+			"eng": "Waiting team to be ready",
+			"trans": "等待小隊就緒"
+		},
+		"dungeonType": {
+			"label": {
+				"eng": "Stronghold",
+				"trans": "堡壘"
+			}
+		},
+		"levelSelect": {
+			"label": {
+				"eng": "level",
+				"trans": "等級"
+			}
+		},
+		"manageInventoryButton": {
+			"title": {
+				"eng": "Manage Inventory",
+				"trans": "整理裝備"
+			}
+		},
+		"playerModal": {
+			"kick": {
+				"eng": "kick",
+				"trans": "踢出。"
+			},
+			"viewDetails": {
+				"eng": "details",
+				"trans": "細節"
+			}
+		},
+		"playerNotReady": {
+			"eng": "Not ready",
+			"trans": "未準備好"
+		},
+		"playerReady": {
+			"eng": "ready",
+			"trans": "就緒"
+		},
+		"players": {
+			"title": {
+				"eng": "Players (${current}/${max})",
+				"trans": "玩家（${current}/${max}）"
+			}
+		},
+		"public": {
+			"label": {
+				"eng": "Private / Public",
+				"trans": "私人 / 公開"
+			}
+		},
+		"ready": {
+			"eng": "Ready",
+			"trans": "準備就緒"
+		},
+		"territoryGang": {
+			"eng": "Strongholds created by member of ${gangName} in this district will receive extra buff",
+			"trans": "在這個地區由 ${gangName} 的成員所建立的要塞將會獲得額外的強化效果。"
+		},
+		"territoryNoGang": {
+			"eng": "Control this territory to get extra buff in this district",
+			"trans": "掌控此區域可在此地區獲得額外增益效果。"
+		},
+		"tip": {
+			"noHealing": {
+				"eng": "Looks like your are running low on healing items, purchase some so you can it in the stronghold",
+				"trans": "看起來你的回復物品不足，購買一些可以在地城中使用。"
+			}
+		},
+		"waitingToStart": {
+			"eng": "waiting for host to start",
+			"trans": "等待主機啟動中"
+		}
+	},
+	"dungeonTypeDisplay": {
+		"enterDungeon": {
+			"eng": "Enter Stronghold",
+			"trans": "進入地城"
+		}
+	},
+	"element": {
+		"cybernetic": {
+			"name": {
+				"eng": "Cybernetic",
+				"trans": "電馭"
+			}
+		},
+		"electric": {
+			"name": {
+				"eng": "Energy",
+				"trans": "能量"
+			}
+		},
+		"kinetic": {
+			"name": {
+				"eng": "Kinetic",
+				"trans": "動能"
+			}
+		},
+		"physical": {
+			"name": {
+				"eng": "Physical",
+				"trans": "物理的"
+			}
+		}
+	},
+	"enemyTrait": {
+		"damage": {
+			"desc": {
+				"eng": "Has higher damage than normal enemies",
+				"trans": "比普通敵人傷害更高"
+			},
+			"name": {
+				"eng": "Strong",
+				"trans": "地城"
+			}
+		},
+		"health": {
+			"desc": {
+				"eng": "Has higher health than normal enemies",
+				"trans": "比普通敵人有更高的生命值"
+			},
+			"name": {
+				"eng": "Tough",
+				"trans": "堅韌"
+			}
+		}
+	},
+	"equipmentSlot": {
+		"BOOTS": {
+			"name": {
+				"eng": "Boots",
+				"trans": "靴子"
+			}
+		},
+		"HELMET": {
+			"name": {
+				"eng": "Helmet",
+				"trans": "頭盔"
+			}
+		},
+		"IMPLANT_1": {
+			"name": {
+				"eng": "Implant 1",
+				"trans": "電馭元件 1"
+			}
+		},
+		"IMPLANT_2": {
+			"name": {
+				"eng": "Implant 2",
+				"trans": "電馭元件 2"
+			}
+		},
+		"LOWER_ARMOR": {
+			"name": {
+				"eng": "Lower Armor",
+				"trans": "下護甲"
+			}
+		},
+		"PENDANT": {
+			"name": {
+				"eng": "Pendant",
+				"trans": "吊墜"
+			}
+		},
+		"RING_1": {
+			"name": {
+				"eng": "Ring (Left)",
+				"trans": "戒指（左）"
+			}
+		},
+		"RING_2": {
+			"name": {
+				"eng": "Ring (Right)",
+				"trans": "戒指（右）"
+			}
+		},
+		"UPPER_ARMOR": {
+			"name": {
+				"eng": "Upper Armor",
+				"trans": "上半身裝甲"
+			}
+		},
+		"WEAPON": {
+			"name": {
+				"eng": "Weapon",
+				"trans": "武器"
+			}
+		}
+	},
+	"equipmentType": {
+		"BOOTS": {
+			"name": {
+				"eng": "Boots",
+				"trans": "靴子"
+			}
+		},
+		"HELMET": {
+			"name": {
+				"eng": "Helmet",
+				"trans": "頭盔"
+			}
+		},
+		"IMPLANT": {
+			"name": {
+				"eng": "Implant",
+				"trans": "電馭元件"
+			}
+		},
+		"LOWER_ARMOR": {
+			"name": {
+				"eng": "Lower Armor",
+				"trans": "下甲護甲"
+			}
+		},
+		"PENDANT": {
+			"name": {
+				"eng": "Pendant",
+				"trans": "吊墜"
+			}
+		},
+		"RING": {
+			"name": {
+				"eng": "Ring",
+				"trans": "戒指"
+			}
+		},
+		"UPPER_ARMOR": {
+			"name": {
+				"eng": "Upper Armor",
+				"trans": "上半身護甲"
+			}
+		},
+		"WEAPON": {
+			"name": {
+				"eng": "Weapon",
+				"trans": "武器"
+			}
+		}
+	},
+	"errorBoundary": {
+		"description": {
+			"eng": "Error report has been sent to the developer. \\nIf this error persists, please contact the developer at ${email}",
+			"trans": "錯誤報告已發送給開發人員。\\n如果這個問題仍然持續，請聯繫開發人員，"
+		},
+		"restart": {
+			"eng": "Restart",
+			"trans": "重新啟動"
+		},
+		"title": {
+			"eng": "Opps, something went wrong!",
+			"trans": "哎呀，出了點問題！"
+		}
+	},
+	"friendList": {
+		"search": {
+			"placeholder": {
+				"eng": "Search player",
+				"trans": "搜尋玩家"
+			}
+		}
+	},
+	"itemCard": {
+		"destroyed": {
+			"eng": "destroyed",
+			"trans": "被摧毀的"
+		},
+		"rarity": {
+			"eng": "${rarity} item",
+			"trans": "${rarity}物品"
+		}
+	},
+	"itemDestroyed": {
+		"description": {
+			"eng": "This item has been destroyed. You can attempt to repair it in the ${repairNpc}.",
+			"trans": "此項目已被摧毀。您可以在 ${repairNpc} 那裡嘗試修復它。"
+		},
+		"repairButton": {
+			"eng": "Repair",
+			"trans": "修復"
+		},
+		"title": {
+			"eng": "Item Destroyed",
+			"trans": "物品已摧毀"
+		}
+	},
+	"itemDetails": {
+		"levelUpBar": {
+			"title": {
+				"eng": "Level increased",
+				"trans": "等級提升了"
+			}
+		},
+		"upgrade": {
+			"eng": "Upgrade",
+			"title": {
+				"eng": "Calibration",
+				"trans": "校準"
+			},
+			"trans": "升級"
+		}
+	},
+	"itemDiff": {
+		"noChanges": {
+			"eng": "No changes",
+			"trans": "無更改。"
+		},
+		"stat": {
+			"eng": "stat",
+			"trans": "統計數據"
+		}
+	},
+	"itemSlot": {
+		"empty": {
+			"eng": "Empty",
+			"trans": "空的"
+		}
+	},
+	"itemSubType": {
+		"all": {
+			"name": {
+				"eng": "All",
+				"trans": "全部"
+			}
+		},
+		"backpack": {
+			"name": {
+				"eng": "Backpack",
+				"trans": "背包"
+			}
+		},
+		"boots": {
+			"name": {
+				"eng": "Boots",
+				"trans": "靴子"
+			}
+		},
+		"calibration": {
+			"name": {
+				"eng": "Calibration",
+				"trans": "校準"
+			}
+		},
+		"equipment": {
+			"name": {
+				"eng": "Equipment",
+				"trans": "裝備"
+			}
+		},
+		"healingHp": {
+			"name": {
+				"eng": "Healing HP",
+				"trans": "恢復生命值"
+			}
+		},
+		"helmet": {
+			"name": {
+				"eng": "Helmet",
+				"trans": "頭盔"
+			}
+		},
+		"implant": {
+			"name": {
+				"eng": "Implant",
+				"trans": "電馭元件"
+			}
+		},
+		"itemLevelShard": {
+			"name": {
+				"eng": "Item Level Shard",
+				"trans": "物品等級碎片"
+			}
+		},
+		"itemUpgrade": {
+			"name": {
+				"eng": "Upgrade",
+				"trans": "升級"
+			}
+		},
+		"lowerArmor": {
+			"name": {
+				"eng": "Lower Armor",
+				"trans": "下護甲"
+			}
+		},
+		"meleeWeapon": {
+			"name": {
+				"eng": "Melee Weapon",
+				"trans": "近戰武器"
+			}
+		},
+		"pendant": {
+			"name": {
+				"eng": "Pendant",
+				"trans": "吊墜"
+			}
+		},
+		"resetShard": {
+			"name": {
+				"eng": "Reset Shard",
+				"trans": "重置碎片"
+			}
+		},
+		"ring": {
+			"name": {
+				"eng": "Ring",
+				"trans": "戒指"
+			}
+		},
+		"upperArmor": {
+			"name": {
+				"eng": "Upper Armor",
+				"trans": "上半身護甲"
+			}
+		},
+		"weapon": {
+			"name": {
+				"eng": "Weapon",
+				"trans": "武器"
+			}
+		}
+	},
+	"localEnemy": {
+		"levelDisplay": {
+			"eng": "Level ${minLevel} - ${maxLevel}",
+			"trans": "等級 ${minLevel} - ${maxLevel}"
+		},
+		"selectLevelModal": {
+			"display": {
+				"eng": "Level ${level} (${min} - ${max})",
+				"trans": "等級 ${level} (${min} - ${max})"
+			}
+		}
+	},
+	"mainPage": {
+		"apartmentButton": {
+			"title": {
+				"eng": "back to apartment",
+				"trans": "回到公寓"
+			}
+		},
+		"chooseLocationButton": {
+			"title": {
+				"eng": "Travel [Current Level ${currentLevel}]",
+				"trans": "旅行 [當前等級 ${currentLevel}]"
+			}
+		},
+		"deathItemsButton": {
+			"title": {
+				"eng": "Death Items",
+				"trans": "死亡物品"
+			}
+		},
+		"dungeonButton": {
+			"title": {
+				"eng": "Explore stronghold",
+				"trans": "探索地城"
+			}
+		},
+		"inventoryButton": {
+			"eng": "inventory",
+			"trans": "庫存"
+		},
+		"levelDisplay": {
+			"title": {
+				"eng": "level ${level}",
+				"trans": "等級 ${level}"
+			}
+		},
+		"localEnemyButton": {
+			"title": {
+				"eng": "Scan nearby enemies",
+				"trans": "掃描附近敵人"
+			}
+		},
+		"mercenaryButton": {
+			"eng": "mercenary",
+			"trans": "僱傭兵"
+		},
+		"npcListButton": {
+			"title": {
+				"eng": "go to City Center",
+				"trans": "前往市中心。"
+			}
+		},
+		"profileButton": {
+			"eng": "profile",
+			"trans": "個人檔案"
+		},
+		"quests": {
+			"eng": "Quests",
+			"trans": "任務"
+		},
+		"rewardsIcon": {
+			"eng": "rewards",
+			"trans": "獎勵"
+		},
+		"socialButton": {
+			"eng": "social",
+			"trans": "社交"
+		}
+	},
+	"marketItemList": {
+		"header": {
+			"buyout": {
+				"eng": "Buyout",
+				"trans": "買斷"
+			},
+			"currentBid": {
+				"eng": "Bid",
+				"trans": "出價"
+			},
+			"item": {
+				"eng": "Item",
+				"trans": "物品"
+			},
+			"time": {
+				"eng": "Time Left",
+				"trans": "剩餘時間"
+			}
+		}
+	},
+	"mercenaryDetails": {
+		"ability": {
+			"title": {
+				"eng": "Ability",
+				"trans": "能力"
+			}
+		},
+		"level": {
+			"eng": "Level",
+			"trans": "等級"
+		},
+		"stats": {
+			"title": {
+				"eng": "stats",
+				"trans": "數據統計"
+			}
+		}
+	},
+	"mercenaryLevelDisplay": {
+		"levelUp": {
+			"eng": "Enhance",
+			"trans": "強化"
+		},
+		"upgrade": {
+			"eng": "Upgrade",
+			"trans": "升級"
+		}
+	},
+	"messageContainer": {
+		"noMessages": {
+			"eng": "No messages yet",
+			"trans": "暫時沒有訊息。"
+		}
+	},
+	"misc": {
+		"blackMarketCurrencyDescription": {
+			"eng": "The black market currency, can only be obtained from in game and premium store",
+			"trans": "黑市貨幣只能在遊戲內和高級商店中獲得。"
+		},
+		"blackMarketCurrencyName": {
+			"eng": "Netcoin",
+			"trans": "網路幣"
+		},
+		"currencyName": {
+			"eng": "Eurodollar",
+			"trans": "歐元美元"
+		},
+		"exp": {
+			"eng": "EXP",
+			"trans": "經驗值"
+		},
+		"free": {
+			"eng": "Free",
+			"trans": "免費"
+		},
+		"loading": {
+			"eng": "loading",
+			"trans": "載入中"
+		},
+		"mercExpCurrencyDescription": {
+			"eng": "A nano-machine injection device created by Taixing Cybernetics, providing unparalleled upgrades to cybernetic abilities. Inject into the neck for enhanced performance.",
+			"trans": "由台興電子製造的納米機器注射裝置，可提供無與倫比的電子增強能力。注射於"
+		},
+		"mercExpCurrencyName": {
+			"eng": "Cybernetic Enhancer",
+			"trans": "電馭增強器"
+		},
+		"mercUpgradeCurrencyDescription": {
+			"eng": "Neural Upgrade Augmenter is a cutting-edge implant that enables users to break past their mental limitations and reach untold levels of cognitive enhancement. With the ability to exceed typical neural barriers, users can unlock new levels of insight, creativity, and physical performance.",
+			"trans": "神經升級增強器是一種尖端的植入物，使使用者能夠突破其精神限制，達到無法想像的認知增強水平。憑藉超越典型神經屏障的能力，使用者可以解鎖新的洞察力、創造力和身體表現水平。"
+		},
+		"mercUpgradeCurrencyName": {
+			"eng": "Neural Upgrade Augmenter",
+			"trans": "神經升級增強器"
+		},
+		"multiSelect": {
+			"eng": "Multi Select",
+			"trans": "多選"
+		},
+		"normalCurrencyDescription": {
+			"eng": "A common currency that can be obtained from in game easily",
+			"trans": "一種可以輕鬆在遊戲中獲得的通用貨幣"
+		},
+		"normalCurrencyName": {
+			"eng": "Eurodollars",
+			"trans": "歐元美元"
+		},
+		"oneOf": {
+			"eng": "one of",
+			"trans": "其中之一"
+		},
+		"premiumCurrencyDescription": {
+			"eng": "Universal Dollars is a rare currency that can only be obtained through premium store.",
+			"trans": "通用幣是一種罕見的貨幣，只能通過高級商店獲得。"
+		},
+		"premiumCurrencyName": {
+			"eng": "Universal Dollars",
+			"trans": "通用幣"
+		}
+	},
+	"playerBackpack": {
+		"moveAllButton": {
+			"title": {
+				"eng": "Move all items",
+				"trans": "移動所有物品"
+			}
+		},
+		"upgrade": {
+			"eng": "Upgrade",
+			"trans": "升級"
+		}
+	},
+	"playerInventory": {
+		"empty": {
+			"eng": "Your backpack is empty",
+			"trans": "你的背包是空的。"
+		},
+		"multiSelect": {
+			"discard": {
+				"title": {
+					"eng": "Scrap",
+					"trans": "廢料"
+				}
+			}
+		},
+		"noItems": {
+			"eng": "No items",
+			"trans": "沒有物品"
+		}
+	},
+	"psychosisDisplay": {
+		"nextCycle": {
+			"eng": "${time} to next refresh",
+			"trans": "距離下一次更新還有${time}"
+		},
+		"title": {
+			"eng": "Cyber psychosis ${percent}%",
+			"trans": "網絡精神病 ${percent}%"
+		}
+	},
+	"quest": {
+		"completed": {
+			"eng": "Completed",
+			"trans": "已完成"
+		},
+		"progress": {
+			"collectQuestItem": {
+				"eng": "Collect ${required} ${itemName} from lv.${level}~ ${enemyName} (${current}/${required})",
+				"trans": "從等級${level}以上的${enemyName}收集${required}個${itemName}（${current}/${required}）"
+			},
+			"collectQuestItemInDungeon": {
+				"eng": "Collect ${required} ${itemName} from lv.${level}+ stronghold (${dungeonName}) (${current}/${required})",
+				"trans": "從等級${level}以上的地城(${dungeonName})收集${required}個${itemName} (${current}/${required})"
+			},
+			"defeatEnemy": {
+				"eng": "Defeat ${required} enemies (${current}/${required})",
+				"trans": "擊敗${required}個敵人 (${current}/${required})"
+			},
+			"defeatSpecificEnemy": {
+				"eng": "Defeat lv.${level}~ ${enemyName} (${current}/${required})",
+				"trans": "擊敗等級${level}的${enemyName} (${current}/${required})"
+			}
+		},
+		"returnToNpc": {
+			"eng": "Return to ${npcName}",
+			"trans": "返回${npcName}。"
+		}
+	},
+	"questPage": {
+		"abandonQuestModal": {
+			"confirmText": {
+				"eng": "Abandon",
+				"trans": "放棄"
+			},
+			"description": {
+				"eng": "Are you sure you want to abandon this quest?",
+				"trans": "您確定要放棄此任務嗎？"
+			},
+			"title": {
+				"eng": "Abandon Quest",
+				"trans": "放棄任務"
+			}
+		},
+		"complete": {
+			"eng": "complete",
+			"trans": "完成"
+		},
+		"pinQuest": {
+			"eng": "Track",
+			"trans": "追蹤"
+		}
+	},
+	"questPreview": {
+		"objectives": {
+			"eng": "objectives",
+			"trans": "目標"
+		},
+		"questName": {
+			"eng": "${npcName}'s request",
+			"trans": "${npcName}的請求"
+		},
+		"rewards": {
+			"eng": "rewards",
+			"trans": "獎勵"
+		}
+	},
+	"questTitle": {
+		"dungeonQuestTitle": {
+			"eng": "${npcName}'s Quest",
+			"trans": "${npcName}的任務"
+		},
+		"levelUpQuestTitle": {
+			"eng": "Progression",
+			"trans": "進度"
+		},
+		"questName": {
+			"eng": "${npcName}'s request",
+			"trans": "${npcName}的請求"
+		}
+	},
+	"quickSlotList": {
+		"empty": {
+			"eng": "empty",
+			"trans": "空的"
+		}
+	},
+	"reward": {
+		"exp": {
+			"increase": {
+				"eng": "+${amount} ${levelType} EXP",
+				"trans": "+${amount} ${levelType} 經驗值"
+			}
+		}
+	},
+	"sceneContainer": {
+		"skip": {
+			"eng": "Skip",
+			"trans": "跳過"
+		}
+	},
+	"selectAmountModal": {
+		"max": {
+			"eng": "max",
+			"trans": "最大值"
+		},
+		"min": {
+			"eng": "min",
+			"trans": "最小值"
+		}
+	},
+	"statusInventory": {
+		"discard": {
+			"eng": "Discard",
+			"trans": "放棄"
+		},
+		"dungeonDrop": {
+			"eng": "Your backpack was full.\\nPlease remove some stuff before picking up the loots.",
+			"trans": "你的背包已滿。\\n在撿拾戰利品之前，請先移除一些物品。"
+		},
+		"lootAll": {
+			"eng": "loot all",
+			"trans": "拾取全部"
+		},
+		"tabs": {
+			"backpack": {
+				"eng": "backpack",
+				"trans": "背包"
+			},
+			"source": {
+				"eng": "Loots",
+				"trans": "戰利品"
+			},
+			"target": {
+				"eng": "target",
+				"trans": "目標"
+			}
+		},
+		"target": {
+			"dungeonDrop": {
+				"title": {
+					"eng": "Backpack",
+					"trans": "背包"
+				}
+			},
+			"normal": {
+				"title": {
+					"eng": "Inventory",
+					"trans": "物品清單"
+				}
+			}
+		},
+		"targetInventory": {
+			"description": {
+				"eng": "Clear up some space here so you can pickup the loots.",
+				"trans": "清理一些空間，這樣你就可以撿起戰利品了。"
+			}
+		},
+		"title": {
+			"eng": "Loots",
+			"trans": "戰利品"
+		}
+	},
+	"territoryBanner": {
+		"gang": {
+			"title": {
+				"eng": "Territory controlled by",
+				"trans": "領土控制者："
+			}
+		},
+		"noGang": {
+			"title": {
+				"eng": "Territory open",
+				"trans": "領土開放"
+			}
+		}
+	},
+	"territoryDisplay": {
+		"hasTopGang": {
+			"title": {
+				"eng": "Controlled by ${name} [${tag}]",
+				"trans": "由${name} [${tag}]控制"
+			}
+		},
+		"noTopGang": {
+			"title": {
+				"eng": "Uncontrolled territory",
+				"trans": "未受控制的領土"
+			}
+		}
+	},
+	"timedRefreshButton": {
+		"refreshIn": {
+			"eng": "Refresh in:",
+			"trans": "刷新時間："
+		}
+	},
+	"toggleMinigame": {
+		"description": {
+			"eng": "Unlock by toggling the switches in correct sequence",
+			"trans": "透過正確順序切換開關來解鎖"
+		},
+		"title": {
+			"eng": "Sequential Unlock",
+			"trans": "連續解鎖"
+		}
+	},
+	"trade": {
+		"lock": {
+			"eng": "lock deal",
+			"trans": "封鎖交易"
+		},
+		"unlock": {
+			"eng": "unlock deal",
+			"trans": "解鎖交易"
+		}
+	},
+	"tutorial": {
+		"attack": {
+			"eng": "Hold and release at correct timing to perform attacks.",
+			"trans": "在正確的時機按住並釋放以進行攻擊。"
+		},
+		"crew1": {
+			"eng": "Click here to view your profile",
+			"trans": "點擊這裡查看您的個人資料。"
+		},
+		"crew2": {
+			"eng": "Click here to view your crew members",
+			"trans": "點擊這裡查看你的船員。"
+		},
+		"crew3": {
+			"eng": "Click on one of the slots to assign a crew member",
+			"trans": "點擊其中一個插槽以分配機組人員"
+		},
+		"dailyQuest": {
+			"eng": "You have completed daily quests. open this tab to view them.",
+			"trans": "您已完成每日任務。打開此選項卡以查看它們。"
+		},
+		"deathItem": {
+			"eng": "You can buy back the items you lost from clinic.",
+			"trans": "你可以從診所買回你失去的物品。"
+		},
+		"deathItem2": {
+			"eng": "Click here to view your lost items.",
+			"trans": "點擊這裡查看你失去的物品。"
+		},
+		"freeMerc1": {
+			"eng": "Click here for all kinds of benefits",
+			"trans": "點擊這裡以獲得各種好處"
+		},
+		"freeMerc2": {
+			"eng": "Click here to get free ${itemName}",
+			"trans": "點擊這裡以獲得免費的${itemName}"
+		},
+		"heal": {
+			"eng": "Click here to assign healing items to quick slots.",
+			"trans": "點擊這裡將治療物品分配到快速欄位。"
+		},
+		"localEnemy1": {
+			"eng": "Click here to scan for nearby enemies.",
+			"trans": "點擊這裡掃描附近的敵人。"
+		},
+		"localEnemy2": {
+			"eng": "Click on an enemy to engage in battle.",
+			"trans": "點擊敵人以進行戰鬥。"
+		},
+		"mercenary1": {
+			"eng": "Click here to view your mercenary contacts",
+			"trans": "點擊這裡查看傭兵聯絡人。"
+		},
+		"mercenary2": {
+			"eng": "Click here to recruit new mercenaries",
+			"trans": "點擊這裡招募新的傭兵。"
+		},
+		"mercenary3": {
+			"eng": "Click here to recruit 10 new mercenaries",
+			"trans": "點擊這裡招募10名新傭兵。"
+		},
+		"quest": {
+			"eng": "Click here to view your quests.",
+			"trans": "點擊這裡查看你的任務。"
+		},
+		"upgradeItem": {
+			"eng": "Click here to upgrade your items.",
+			"trans": "點擊這裡升級你的物品。"
+		},
+		"upgradeItemDetails": {
+			"eng": "Click here to upgrade this item.",
+			"trans": "點擊此處升級此物品。"
+		}
+	},
+	"ui": {
+		"back": {
+			"eng": "Back",
+			"trans": "返回"
+		},
+		"combat": {
+			"alreadyTriedEscape": {
+				"eng": "You already tried to escape in this turn!",
+				"trans": "你在這回合已經試過逃脫了！"
+			},
+			"escape": {
+				"eng": "escape",
+				"trans": "逃脫"
+			}
+		},
+		"dungeonUI": {
+			"backpack": {
+				"eng": "Backpack",
+				"trans": "背包"
+			},
+			"quest": {
+				"eng": "Quest",
+				"trans": "任務"
+			}
+		},
+		"health": {
+			"eng": "health",
+			"trans": "生命值"
+		},
+		"mainPage": {
+			"chatButton": {
+				"eng": "chat",
+				"trans": "聊天"
+			}
+		},
+		"shield": {
+			"eng": "shield",
+			"trans": "防護罩"
+		},
+		"travelBack": {
+			"title": {
+				"eng": "Back",
+				"trans": "返回"
+			}
+		}
+	},
+	"useItemButton": {
+		"use": {
+			"eng": "Use ${itemName}",
+			"trans": "使用${itemName}"
+		}
+	}
+}
