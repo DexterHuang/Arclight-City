@@ -1,0 +1,2311 @@
+{
+	"MercenaryDrawType": {
+		"ELITE": {
+			"description": {
+				"eng": "More experienced pro mercs hang out here",
+				"trans": "ここではより経験の豊富なプロの傭兵が集まっています。"
+			},
+			"title": {
+				"eng": "Inner tables",
+				"trans": "内部テーブル"
+			}
+		},
+		"NORMAL": {
+			"description": {
+				"eng": "Usually amateur mercs hang out here",
+				"trans": "通常、アマチュアの傭兵がここに集まっています。"
+			},
+			"title": {
+				"eng": "Bar table",
+				"trans": "バーカウンター"
+			}
+		},
+		"RARE": {
+			"description": {
+				"eng": "Professional mercs likes discuss about their gig here",
+				"trans": "プロの傭兵たちは、ここで自分たちの仕事について話し合います。"
+			},
+			"title": {
+				"eng": "Sofa tables",
+				"trans": "ソファテーブル"
+			}
+		}
+	},
+	"ability": {
+		"attack": {
+			"description": {
+				"eng": "Attacks the enemy for certain amount of damage",
+				"trans": "敵に一定のダメージを与える。"
+			},
+			"triggered": {
+				"eng": "${playerName} Attacked for ${amount} damage",
+				"trans": "${playerName}が${amount}ダメージを与えた。"
+			}
+		},
+		"attack_group": {
+			"description": {
+				"eng": "Attacks the enemy for certain amount of damage",
+				"trans": "敵に一定量のダメージを与えます。"
+			}
+		},
+		"heal": {
+			"description": {
+				"eng": "Heals your character for certain amount of health",
+				"trans": "キャラクターを特定の量だけ回復します。"
+			},
+			"triggered": {
+				"eng": "${merc} Healed ${playerName} for ${amount} health",
+				"trans": "${merc}が${playerName}を${amount}回復しました。"
+			}
+		},
+		"heal_group": {
+			"description": {
+				"eng": "Heals your team for certain amount of health",
+				"trans": "チームの体力を特定量回復します。"
+			},
+			"triggered": {
+				"eng": "${merc} healed the team for ${amount} health",
+				"trans": "${merc}はチームを${amount}回復しました。"
+			}
+		},
+		"poisonGroup": {
+			"description": {
+				"eng": "Poisons the enemy for certain amount of damage",
+				"trans": "敵を毒で攻撃し、一定量のダメージを与えます。"
+			},
+			"triggered": {
+				"eng": "${merc} poisoned ${enemy}, ${enemy} received ${damage} damage.",
+				"trans": "${merc}は${enemy}に毒を与え、${enemy}は${damage}のダメージを受けました。"
+			}
+		},
+		"subtitle": {
+			"eng": "Ability",
+			"trans": "能力"
+		}
+	},
+	"apartment": {
+		"apartment0": {
+			"displayName": {
+				"eng": "Slum Apartment",
+				"trans": "スラムのアパートメント"
+			}
+		},
+		"apartment1": {
+			"displayName": {
+				"eng": "Budget Studio",
+				"trans": "予算スタジオ"
+			}
+		},
+		"apartment2": {
+			"displayName": {
+				"eng": "Standard Studio",
+				"trans": "スタンダードスタジオ"
+			}
+		},
+		"apartment3": {
+			"displayName": {
+				"eng": "Downtown Apartment",
+				"trans": "ダウンタウンのアパートメント"
+			}
+		},
+		"guest": {
+			"eng": "guest",
+			"trans": "ゲスト"
+		},
+		"noApartment": {
+			"displayName": {
+				"eng": "No Apartment",
+				"trans": "アパートメントなし"
+			}
+		},
+		"players": {
+			"eng": "players",
+			"trans": "プレイヤー"
+		}
+	},
+	"apartmentDetails": {
+		"inventorySlots": {
+			"eng": "additional inventory slots: ${slotCount}",
+			"trans": "追加インベントリスロット：${slotCount}"
+		},
+		"storageSlots": {
+			"eng": "additional vault slots: ${slotCount}",
+			"trans": "追加された倉庫スロット数: ${slotCount}"
+		}
+	},
+	"apartmentPage": {
+		"kitchen": {
+			"title": {
+				"eng": "kitchen",
+				"trans": "キッチン"
+			}
+		},
+		"purchase": {
+			"eng": "view apartments",
+			"trans": "アパートを表示する"
+		},
+		"vaultButton": {
+			"title": {
+				"eng": "Vault",
+				"trans": "倉庫"
+			}
+		}
+	},
+	"attackBar": {
+		"attack": {
+			"eng": "attack",
+			"trans": "攻撃する"
+		},
+		"block": {
+			"eng": "block",
+			"trans": "封鎖"
+		},
+		"failArea": {
+			"eng": "Fail area",
+			"trans": "失敗エリア"
+		},
+		"headshot": {
+			"eng": "headshot",
+			"trans": "ヘッドショット"
+		},
+		"instruction": {
+			"eng": "hold and release to attack",
+			"trans": "攻撃するには、ホールドしてからリリースしてください。"
+		}
+	},
+	"backgroundTaskType": {
+		"netrunning": {
+			"description": {
+				"eng": "hack into the cyberspace and steal some useful data to sell in the black market",
+				"trans": "サイバースペースに侵入して有用なデータを盗み、ブラックマーケットで売る。"
+			},
+			"displayName": {
+				"eng": "netrunning",
+				"trans": "ネットランニング"
+			}
+		},
+		"scavenge": {
+			"description": {
+				"eng": "wonder around the outskirts of the city and find some loot",
+				"trans": "都市の周辺を散策して、戦利品を見つける。"
+			},
+			"displayName": {
+				"eng": "scavenge",
+				"trans": "スクavengeラップする"
+			}
+		},
+		"territory": {
+			"description": {
+				"eng": "Contribute to territory control for your gang",
+				"trans": "あなたのギャングの領土支配に貢献してください。"
+			},
+			"displayName": {
+				"eng": "territory",
+				"trans": "領土"
+			}
+		}
+	},
+	"backpack": {
+		"multiSelect": {
+			"move": {
+				"title": {
+					"eng": "Move To Inventory",
+					"trans": "インベントリに移動する"
+				}
+			}
+		}
+	},
+	"bundle": {
+		"mercenary": {
+			"name": {
+				"eng": "Mercenary Bundle",
+				"trans": "傭兵禮包"
+			}
+		},
+		"newbie": {
+			"name": {
+				"eng": "Welcome Bundle",
+				"trans": "ウェルカムバンドル"
+			}
+		}
+	},
+	"chatPreview": {
+		"noMessage": {
+			"eng": "no message",
+			"trans": "メッセージはありません。"
+		}
+	},
+	"circleLockMinigame": {
+		"unlockButton": {
+			"eng": "unlock",
+			"trans": "解除ロック"
+		}
+	},
+	"circleMinigame": {
+		"title": {
+			"eng": "Rotate the circle to unlock",
+			"trans": "円を回してロックを解除してください。"
+		}
+	},
+	"connectingOverlay": {
+		"connecting": {
+			"title": {
+				"eng": "Connecting to mainframe...",
+				"trans": "メインフレームに接続中..."
+			}
+		},
+		"notLoggedIn": {
+			"reconnecting": {
+				"description": {
+					"eng": "Please ensure stable network connection. or server might be under maintenance.",
+					"trans": "安定したネットワーク接続を確保してください。もしくは、サーバーがメンテナンス中である可能性があります。"
+				},
+				"title": {
+					"eng": "Failed to connect to server.",
+					"trans": "サーバーへの接続に失敗しました。"
+				}
+			}
+		},
+		"reconnecting": {
+			"description": {
+				"eng": "Failed to connect to mainframe. Please ensure network connection is stable. or server is under maintenance.",
+				"trans": "メインフレームに接続できませんでした。ネットワーク接続が安定しているか、サーバーがメンテナンス中でないか確認してください。"
+			},
+			"title": {
+				"eng": "Reconnecting to mainframe... Attempt ${attempt}",
+				"trans": "メインフレームに再接続中... ${attempt}回目の試行"
+			}
+		}
+	},
+	"contributionNotice": {
+		"title": {
+			"eng": "This content is contributable by community, click here to edit or add your own content into the game.",
+			"trans": "このコンテンツはコミュニティによって貢献されます。編集または独自のコンテンツをゲームに追加するには、ここをクリックしてください。"
+		}
+	},
+	"costDisplay": {
+		"level": {
+			"eng": "${levelName} ${level} ",
+			"trans": "${levelName} ${level}レベル"
+		}
+	},
+	"dailyRewardType": {
+		"normal": {
+			"name": {
+				"eng": "Daily Reward",
+				"trans": "デイリーリワード"
+			}
+		}
+	},
+	"deadthScreen": {
+		"decoText": {
+			"eng": "No existing insurance found",
+			"trans": "既存の保険が見つかりませんでした。"
+		},
+		"itemLost": {
+			"eng": "${amount} items from backpack was taken as compensation to Ripperdoc",
+			"trans": "リッパードクに補償としてバックパックから${amount}アイテムが取られました。"
+		},
+		"respawnButton": {
+			"title": {
+				"eng": "Confirm",
+				"trans": "確認する"
+			}
+		},
+		"subtitle": {
+			"eng": "Fatal injury detected",
+			"trans": "致命的な怪我が検出されました。"
+		},
+		"title": {
+			"eng": "Flatlined",
+			"trans": "フラットライン化"
+		},
+		"upgradeItemHint": {
+			"eng": "Try level up and upgrade your items",
+			"trans": "アイテムをレベルアップしてアップグレードしてください。"
+		},
+		"upgradeMercenary": {
+			"eng": "Upgrade or higher more mercenaries",
+			"trans": "傭兵をアップグレードするか、より多くの傭兵を雇う"
+		}
+	},
+	"dungeon": {
+		"type": {
+			"hard": {
+				"description": {
+					"eng": "Hard difficulty stronghold.",
+					"trans": "ハード難易度の地城。"
+				},
+				"name": {
+					"eng": "Hard",
+					"trans": "ハード"
+				}
+			},
+			"normal": {
+				"description": {
+					"eng": "Normal difficulty stronghold.",
+					"trans": "ノーマル難易度の地城。"
+				},
+				"name": {
+					"eng": "Normal",
+					"trans": "通常の"
+				}
+			}
+		}
+	},
+	"dungeonEffect": {
+		"damageIncrease": {
+			"desc": {
+				"eng": "Increase damage dealt.",
+				"trans": "与えるダメージを増やす。"
+			},
+			"name": {
+				"eng": "Damage Boost",
+				"trans": "ダメージブースト"
+			}
+		},
+		"enemyIncrease": {
+			"desc": {
+				"eng": "Increase number of enemies.",
+				"trans": "敵の数を増やす。"
+			},
+			"name": {
+				"eng": "Crowded",
+				"trans": "混雑した"
+			}
+		},
+		"expIncrease": {
+			"desc": {
+				"eng": "Increase exp gained.",
+				"trans": "獲得経験値を増やす。"
+			},
+			"name": {
+				"eng": "Exp Boost",
+				"trans": "経験値ブースト"
+			}
+		},
+		"luckIncrease": {
+			"desc": {
+				"eng": "Increase drop quality",
+				"trans": "ドロップ品質を向上させる"
+			},
+			"eng": "Lucky",
+			"trans": "ラッキー"
+		}
+	},
+	"dungeonLobby": {
+		"createButton": {
+			"eng": "Enter Stronghold",
+			"trans": "地城に入る"
+		},
+		"createButtonDisabled": {
+			"eng": "Waiting team to be ready",
+			"trans": "チームの準備ができるまでお待ちください。"
+		},
+		"dungeonType": {
+			"label": {
+				"eng": "Stronghold",
+				"trans": "地城"
+			}
+		},
+		"levelSelect": {
+			"label": {
+				"eng": "level",
+				"trans": "レベル"
+			}
+		},
+		"manageInventoryButton": {
+			"title": {
+				"eng": "Manage Inventory",
+				"trans": "インベントリを管理する"
+			}
+		},
+		"playerModal": {
+			"kick": {
+				"eng": "kick",
+				"trans": "キックする"
+			},
+			"viewDetails": {
+				"eng": "details",
+				"trans": "詳細"
+			}
+		},
+		"playerNotReady": {
+			"eng": "Not ready",
+			"trans": "未準備好"
+		},
+		"playerReady": {
+			"eng": "ready",
+			"trans": "準備完了"
+		},
+		"players": {
+			"title": {
+				"eng": "Players (${current}/${max})",
+				"trans": "プレイヤー(${current}/${max})"
+			}
+		},
+		"public": {
+			"label": {
+				"eng": "Private / Public",
+				"trans": "プライベート / パブリック"
+			}
+		},
+		"ready": {
+			"eng": "Ready",
+			"trans": "準備完了"
+		},
+		"territoryGang": {
+			"eng": "Strongholds created by member of ${gangName} in this district will receive extra buff",
+			"trans": "この地区で${gangName}のメンバーが作成した地城は、追加のバフを受けます。"
+		},
+		"territoryNoGang": {
+			"eng": "Control this territory to get extra buff in this district",
+			"trans": "この地域を制圧すると、この地区で追加のバフを得られます。"
+		},
+		"tip": {
+			"noHealing": {
+				"eng": "Looks like your are running low on healing items, purchase some so you can it in the stronghold",
+				"trans": "回復アイテムが不足しています。地城で使用するために購入してください。"
+			}
+		},
+		"waitingToStart": {
+			"eng": "waiting for host to start",
+			"trans": "ホストが開始するのを待っています。"
+		}
+	},
+	"dungeonTypeDisplay": {
+		"enterDungeon": {
+			"eng": "Enter Stronghold",
+			"trans": "地城に入る"
+		}
+	},
+	"element": {
+		"cybernetic": {
+			"name": {
+				"eng": "Cybernetic",
+				"trans": "サイバネティック"
+			}
+		},
+		"electric": {
+			"name": {
+				"eng": "Energy",
+				"trans": "エネルギー"
+			}
+		},
+		"kinetic": {
+			"name": {
+				"eng": "Kinetic",
+				"trans": "キネティック"
+			}
+		},
+		"physical": {
+			"name": {
+				"eng": "Physical",
+				"trans": "物理的"
+			}
+		}
+	},
+	"enemyTrait": {
+		"damage": {
+			"desc": {
+				"eng": "Has higher damage than normal enemies",
+				"trans": "通常の敵よりもダメージが高いです。"
+			},
+			"name": {
+				"eng": "Strong",
+				"trans": "ストロング"
+			}
+		},
+		"health": {
+			"desc": {
+				"eng": "Has higher health than normal enemies",
+				"trans": "通常の敵よりも高い体力を持っています。"
+			},
+			"name": {
+				"eng": "Tough",
+				"trans": "タフ"
+			}
+		}
+	},
+	"eng": [],
+	"equipmentSlot": {
+		"BOOTS": {
+			"name": {
+				"eng": "Boots",
+				"trans": "ブーツ"
+			}
+		},
+		"HELMET": {
+			"name": {
+				"eng": "Helmet",
+				"trans": "ヘルメット"
+			}
+		},
+		"IMPLANT_1": {
+			"name": {
+				"eng": "Implant 1",
+				"trans": "インプラント1"
+			}
+		},
+		"IMPLANT_2": {
+			"name": {
+				"eng": "Implant 2",
+				"trans": "インプラント2"
+			}
+		},
+		"LOWER_ARMOR": {
+			"name": {
+				"eng": "Lower Armor",
+				"trans": "アーマー低下"
+			}
+		},
+		"PENDANT": {
+			"name": {
+				"eng": "Pendant",
+				"trans": "ペンダント"
+			}
+		},
+		"RING_1": {
+			"name": {
+				"eng": "Ring (Left)",
+				"trans": "リング（左）"
+			}
+		},
+		"RING_2": {
+			"name": {
+				"eng": "Ring (Right)",
+				"trans": "リング（右）"
+			}
+		},
+		"UPPER_ARMOR": {
+			"name": {
+				"eng": "Upper Armor",
+				"trans": "アッパーアーマー"
+			}
+		},
+		"WEAPON": {
+			"name": {
+				"eng": "Weapon",
+				"trans": "武器"
+			}
+		}
+	},
+	"equipmentType": {
+		"BOOTS": {
+			"name": {
+				"eng": "Boots",
+				"trans": "ブーツ"
+			}
+		},
+		"HELMET": {
+			"name": {
+				"eng": "Helmet",
+				"trans": "ヘルメット"
+			}
+		},
+		"IMPLANT": {
+			"name": {
+				"eng": "Implant",
+				"trans": "インプラント"
+			}
+		},
+		"LOWER_ARMOR": {
+			"name": {
+				"eng": "Lower Armor",
+				"trans": "アーマーを下げる"
+			}
+		},
+		"PENDANT": {
+			"name": {
+				"eng": "Pendant",
+				"trans": "ペンダント"
+			}
+		},
+		"RING": {
+			"name": {
+				"eng": "Ring",
+				"trans": "リング"
+			}
+		},
+		"UPPER_ARMOR": {
+			"name": {
+				"eng": "Upper Armor",
+				"trans": "アッパー・アーマー"
+			}
+		},
+		"WEAPON": {
+			"name": {
+				"eng": "Weapon",
+				"trans": "武器"
+			}
+		}
+	},
+	"errorBoundary": {
+		"description": {
+			"eng": "Error report has been sent to the developer. \\nIf this error persists, please contact the developer at ${email}",
+			"trans": "エラーレポートは開発者に送信されました。\\nこのエラーが解決しない場合は、${email}で開発者に連絡してください。"
+		},
+		"restart": {
+			"eng": "Restart",
+			"trans": "再起動する"
+		},
+		"title": {
+			"eng": "Opps, something went wrong!",
+			"trans": "おっと、何かが間違っています！"
+		}
+	},
+	"friendList": {
+		"search": {
+			"placeholder": {
+				"eng": "Search player",
+				"trans": "プレイヤーを検索する"
+			}
+		}
+	},
+	"itemCard": {
+		"destroyed": {
+			"eng": "destroyed",
+			"trans": "破壊された"
+		},
+		"rarity": {
+			"eng": "${rarity} item",
+			"trans": "${rarity}アイテム"
+		}
+	},
+	"itemDestroyed": {
+		"description": {
+			"eng": "This item has been destroyed. You can attempt to repair it in the ${repairNpc}.",
+			"trans": "このアイテムは破壊されました。${repairNpc}で修理を試みることができます。"
+		},
+		"repairButton": {
+			"eng": "Repair",
+			"trans": "修理する"
+		},
+		"title": {
+			"eng": "Item Destroyed",
+			"trans": "アイテムが破壊されました。"
+		}
+	},
+	"itemDetails": {
+		"levelUpBar": {
+			"title": {
+				"eng": "Level increased",
+				"trans": "レベルが上がりました。"
+			}
+		},
+		"upgrade": {
+			"eng": "Upgrade",
+			"title": {
+				"eng": "Calibration",
+				"trans": "キャリブレーション"
+			},
+			"trans": "アップグレード"
+		}
+	},
+	"itemDiff": {
+		"noChanges": {
+			"eng": "No changes",
+			"trans": "Understood"
+		},
+		"stat": {
+			"eng": "stat",
+			"trans": "ステータス"
+		}
+	},
+	"itemSlot": {
+		"empty": {
+			"eng": "Empty",
+			"trans": "空のままです"
+		}
+	},
+	"itemSubType": {
+		"all": {
+			"name": {
+				"eng": "All",
+				"trans": "すべて"
+			}
+		},
+		"backpack": {
+			"name": {
+				"eng": "Backpack",
+				"trans": "バックパック"
+			}
+		},
+		"boots": {
+			"name": {
+				"eng": "Boots",
+				"trans": "ブーツ"
+			}
+		},
+		"calibration": {
+			"name": {
+				"eng": "Calibration",
+				"trans": "キャリブレーション"
+			}
+		},
+		"energyWeapon": {
+			"name": {
+				"eng": "Energy Weapon",
+				"trans": "エネルギー兵器"
+			}
+		},
+		"equipment": {
+			"name": {
+				"eng": "Equipment",
+				"trans": "装備"
+			}
+		},
+		"fireArm": {
+			"name": {
+				"eng": "Fire Arm",
+				"trans": "火器"
+			}
+		},
+		"food": {
+			"name": {
+				"eng": "Food",
+				"trans": "食物"
+			}
+		},
+		"healingHp": {
+			"name": {
+				"eng": "Healing HP",
+				"trans": "HP回復"
+			}
+		},
+		"helmet": {
+			"name": {
+				"eng": "Helmet",
+				"trans": "ヘルメット"
+			}
+		},
+		"implant": {
+			"name": {
+				"eng": "Implant",
+				"trans": "インプラント"
+			}
+		},
+		"ingredient": {
+			"name": {
+				"eng": "Ingredient",
+				"trans": "材料"
+			}
+		},
+		"itemLevelShard": {
+			"name": {
+				"eng": "Item Level Shard",
+				"trans": "アイテムレベルのシャード"
+			}
+		},
+		"itemUpgrade": {
+			"name": {
+				"eng": "Upgrade",
+				"trans": "アップグレードする"
+			}
+		},
+		"lowerArmor": {
+			"name": {
+				"eng": "Lower Armor",
+				"trans": "アーマーを下げる"
+			}
+		},
+		"meat": {
+			"name": {
+				"eng": "Fish",
+				"trans": "魚"
+			}
+		},
+		"meleeWeapon": {
+			"name": {
+				"eng": "Melee Weapon",
+				"trans": "近接武器"
+			}
+		},
+		"pendant": {
+			"name": {
+				"eng": "Pendant",
+				"trans": "ペンダント"
+			}
+		},
+		"resetShard": {
+			"name": {
+				"eng": "Reset Shard",
+				"trans": "シャードをリセットする"
+			}
+		},
+		"ring": {
+			"name": {
+				"eng": "Ring",
+				"trans": "リング"
+			}
+		},
+		"upperArmor": {
+			"name": {
+				"eng": "Upper Armor",
+				"trans": "アッパーアーマー"
+			}
+		},
+		"vegetable": {
+			"name": {
+				"eng": "Vegetable",
+				"trans": "野菜"
+			}
+		},
+		"weapon": {
+			"name": {
+				"eng": "Weapon",
+				"trans": "武器"
+			}
+		}
+	},
+	"itemType": {
+		"boots": {
+			"description": {
+				"eng": "A piece of equipment that protects the feet.",
+				"trans": "足を守る装備品。"
+			},
+			"name": {
+				"eng": "Boots",
+				"trans": "ブーツ"
+			}
+		},
+		"braisedPorkRice": {
+			"description": {
+				"eng": "A traditional dish of braised pork belly and rice.",
+				"trans": "豚バラ肉の煮込みとご飯の伝統的な料理。"
+			},
+			"name": {
+				"eng": "Braised Pork Rice",
+				"trans": "豚肉の煮込みご飯"
+			}
+		},
+		"bread": {
+			"description": {
+				"eng": "a rare delicacy made from real wheat flour, smuggled by rebels who oppose the synthetic food industry.",
+				"trans": "合成食品産業に反対する反乱軍が密輸した、本物の小麦粉を使った珍しい美食品。"
+			},
+			"name": {
+				"eng": "Bread",
+				"trans": "パン"
+			}
+		},
+		"burger": {
+			"description": {
+				"eng": "A cheap and addictive food made from synthetic meat and chemicals. Popular among lowlifes and hackers who need a quick energy boost.",
+				"trans": "合成肉と化学物質から作られた安価で中毒性のある食品。 低層民や急なエネルギー補給が必要なハッカーたちの間で人気がある。"
+			},
+			"name": {
+				"eng": "Burger",
+				"trans": "バーガー"
+			}
+		},
+		"calibrationShard": {
+			"description": {
+				"eng": "Universal calibration token for equipments, use to improve equipments",
+				"trans": "装備の汎用調整トークン、装備の改良に使用する。"
+			},
+			"name": {
+				"eng": "Calibration Shard",
+				"trans": "キャリブレーション・シャード"
+			}
+		},
+		"commonCalibrationSafety": {
+			"description": {
+				"eng": "Use to decrease chance of equipment destruction by ${percent}% when calibration failed",
+				"trans": "キャリブレーションに失敗した場合、機器破壊の確率を${percent}%減らすために使用します。"
+			},
+			"name": {
+				"eng": "Common Calibration Circuit Breaker",
+				"trans": "共通校正回路ブレーカー"
+			}
+		},
+		"commonLevelShard": {
+			"description": {
+				"eng": "Use to level up an common item to its next level",
+				"trans": "コモンアイテムを次のレベルにアップグレードするために使用する。"
+			},
+			"name": {
+				"eng": "Common Level Shard",
+				"trans": "コモンレベルシャード"
+			}
+		},
+		"commonUpgradeShard": {
+			"description": {
+				"eng": "Use to upgrade an common item to uncommon tier",
+				"trans": "コモンアイテムをアンコモンティアにアップグレードするために使用する。"
+			},
+			"name": {
+				"eng": "Common Upgrade Shard",
+				"trans": "共通アップグレード・シャード"
+			}
+		},
+		"dungeonActivator": {
+			"description": {
+				"eng": "Use to enter a dungeon",
+				"trans": "ダンジョンに入るために使用する。"
+			},
+			"name": {
+				"eng": "dungeon activator",
+				"trans": "ダンジョンアクティベーター"
+			}
+		},
+		"energyGun": {
+			"description": {
+				"eng": "A weapon that uses energy to fire.",
+				"trans": "エネルギーを使って発射する武器。"
+			},
+			"name": {
+				"eng": "Energy Weapon",
+				"trans": "エネルギー兵器"
+			}
+		},
+		"epicLevelShard": {
+			"description": {
+				"eng": "Use to level up an epic item to its next level",
+				"trans": "エピックアイテムを次のレベルにアップさせるために使用する。"
+			},
+			"name": {
+				"eng": "Epic Level Shard",
+				"trans": "エピックレベルのシャード"
+			}
+		},
+		"epicResetShard": {
+			"description": {
+				"eng": "Use to reset a epic item with new traits by chance",
+				"trans": "新しい特徴を備えたエピックアイテムをランダムにリセットするために使用する。"
+			},
+			"name": {
+				"eng": "Epic Reset Shard",
+				"trans": "エピックリセットシャード"
+			}
+		},
+		"epicUpgradeShard": {
+			"description": {
+				"eng": "Use to upgrade an unique item to epic tier",
+				"trans": "ユニークアイテムをエピックティアにアップグレードするために使用する"
+			},
+			"name": {
+				"eng": "Epic Upgrade Shard",
+				"trans": "エピックアップグレードシャード"
+			}
+		},
+		"fish": {
+			"description": {
+				"eng": "A medium sized vibrant fish, it's highly sought after for its psychedelic properties when consumed.",
+				"trans": "摂取するとサイケデリックな効果があるため、中型で鮮やかな魚は非常に人気が高い。"
+			},
+			"name": {
+				"eng": "Fish",
+				"trans": "魚"
+			}
+		},
+		"gangResource": {
+			"description": {
+				"eng": "Use to contribute to gang territory control",
+				"trans": "ギャング領土支配に貢献するために使用する"
+			},
+			"name": {
+				"eng": "Gang Control Resource",
+				"trans": "ギャングコントロールリソース"
+			}
+		},
+		"gun": {
+			"description": {
+				"eng": "A traditional firearm that uses gunpowder to fire bullets. cant go wrong with this one.",
+				"trans": "火薬を使って弾丸を発射する伝統的な火器です。これで間違いはありません。"
+			},
+			"name": {
+				"eng": "Gun",
+				"trans": "銃火器"
+			}
+		},
+		"healing1": {
+			"description": {
+				"eng": "Use to recover small amount of health",
+				"trans": "少量の体力を回復するために使用する"
+			},
+			"name": {
+				"eng": "Basic Healing Nanobot",
+				"trans": "基本治療ナノボット"
+			}
+		},
+		"healing2": {
+			"description": {
+				"eng": "Use to recover moderate amount of health",
+				"trans": "中程度の体力回復に使用する。"
+			},
+			"name": {
+				"eng": "Advance Healing Nanobot",
+				"trans": "高度治療ナノボット"
+			}
+		},
+		"helmet": {
+			"description": {
+				"eng": "A piece of equipment that protects the head.",
+				"trans": "頭部を保護する装備品。"
+			},
+			"name": {
+				"eng": "Helmet",
+				"trans": "ヘルメット"
+			}
+		},
+		"identificationShard": {
+			"description": {
+				"eng": "Use to identify unknown traits in a item",
+				"trans": "アイテムの未知の特性を識別するために使用する。"
+			},
+			"name": {
+				"eng": "Identification Shard",
+				"trans": "識別シャード"
+			}
+		},
+		"implant": {
+			"name": {
+				"eng": "Implant",
+				"trans": "インプラント"
+			}
+		},
+		"itemLevelupShard": {
+			"description": {
+				"eng": "Universal level up token for equipments, use to increase the level of an equipment",
+				"trans": "装備のレベルを上げるために使用する、装備の普遍的なレベルアップトークン"
+			},
+			"name": {
+				"eng": "Level Shard",
+				"trans": "レベルの欠片"
+			}
+		},
+		"lootBox1": {
+			"description": {
+				"eng": "A mysterious container that contains a random item.",
+				"trans": "ランダムなアイテムが含まれる謎のコンテナ。"
+			},
+			"name": {
+				"eng": "Common Container",
+				"trans": "共通コンテナ"
+			}
+		},
+		"lowerArmor": {
+			"description": {
+				"eng": "A piece of equipment that protects the lower body.",
+				"trans": "下半身を保護する装備品。"
+			},
+			"name": {
+				"eng": "Lower Armor",
+				"trans": "アーマーを下げる"
+			}
+		},
+		"mercToken1": {
+			"description": {
+				"eng": "Use this token to meet and recruit new mercenaries in Red Bar",
+				"trans": "このトークンを使用して、Red Barで新しい傭兵を募集して会うことができます。"
+			},
+			"name": {
+				"eng": "Red Bar VIP token",
+				"trans": "レッドバーVIPトークン"
+			}
+		},
+		"mercUpgrade": {
+			"description": {
+				"eng": "Neural Upgrade Augmenter is a cutting-edge implant that enables users to break past their mental limitations and reach untold levels of cognitive enhancement. With the ability to exceed typical neural barriers, users can unlock new levels of insight, creativity, and physical performance.",
+				"trans": "ニューラルアップグレードオーグメンターは、ユーザーが精神的な限界を超え、未知の認知向上レベルに達することを可能にする最新のインプラントです。典型的な神経障壁を超越する能力を持つことで、ユーザーは新しい洞察力、創造性、身体的パフォーマンスのレベルを開放することができます。"
+			},
+			"name": {
+				"eng": "Neural Upgrade Augmenter",
+				"trans": "神経強化増幅器"
+			}
+		},
+		"money": {
+			"description": {
+				"eng": "EuroDollar is a widely accepted currency in the continent, used for everyday purchases and transactions.",
+				"trans": "ユーロドルは大陸で広く受け入れられている通貨で、日常の購入や取引に使用されています。"
+			},
+			"name": {
+				"eng": "EuroDollar",
+				"trans": "ユーロドル"
+			}
+		},
+		"netcoin": {
+			"description": {
+				"eng": "NetCoin is a digital currency mainly used in black market transactions. It is untraceable and can be used to purchase illegal goods and services.",
+				"trans": "NetCoinは、主にブラックマーケット取引で使用されるデジタル通貨です。追跡ができず、違法な商品やサービスを購入するために使用されます。"
+			},
+			"name": {
+				"eng": "NetCoin",
+				"trans": "ネットコイン"
+			}
+		},
+		"neuroblocker": {
+			"description": {
+				"eng": "Neuroblockers were developed to counteract the negative effects that cybernetic implants had on the human body. By suppressing these effects, people were able to use these implants with reduced suffering from physical or mental issues",
+				"trans": "ネウロブロッカーは、サイバネティックインプラントが人体に与える負の影響を相殺するために開発されました。これらの影響を抑制することで、人々は身体的または精神的な問題に苦しむことなくこれらのインプラントを使用することができました。"
+			},
+			"name": {
+				"eng": "Neuroblocker",
+				"trans": "神経ブロッカー"
+			}
+		},
+		"pendant": {
+			"name": {
+				"eng": "Pendant",
+				"trans": "ペンダント"
+			}
+		},
+		"pork": {
+			"description": {
+				"eng": "Slice of ordinary synthetic pork",
+				"trans": "普通の合成豚肉のスライス"
+			},
+			"name": {
+				"eng": "Pork",
+				"trans": "豚肉"
+			}
+		},
+		"premiumCurrency": {
+			"description": {
+				"eng": "Premium Currency is a special currency that can be used to purchase premium items in the shop.",
+				"trans": "プレミアム通貨は、ショップでプレミアムアイテムを購入するために使用できる特別な通貨です。"
+			},
+			"name": {
+				"eng": "Premium Currency",
+				"trans": "プレミアム通貨"
+			}
+		},
+		"rareCalibrationSafety": {
+			"description": {
+				"eng": "Use to decrease chance of equipment destruction by ${percent}% when calibration failed",
+				"trans": "キャリブレーションに失敗した場合、装備品の破壊率を${percent}%減らすために使用します。"
+			},
+			"name": {
+				"eng": "Rare Calibration Circuit Breaker",
+				"trans": "レアキャリブレーション回路ブレーカー"
+			}
+		},
+		"rareLevelShard": {
+			"description": {
+				"eng": "Use to level up an rare item to its next level",
+				"trans": "レアアイテムを次のレベルにアップさせるために使用する。"
+			},
+			"name": {
+				"eng": "Rare Level Shard",
+				"trans": "レアレベルのシャード"
+			}
+		},
+		"rareResetShard": {
+			"description": {
+				"eng": "Use to reset a rare item with new traits by chance",
+				"trans": "新しい特徴を持つレアアイテムに再設定するために使用する。"
+			},
+			"name": {
+				"eng": "Rare Reset Shard",
+				"trans": "レアリセットシャード"
+			}
+		},
+		"rareUpgradeShard": {
+			"description": {
+				"eng": "Use to upgrade an uncommon item to rare tier",
+				"trans": "レアアイテムにアップグレードするために使用する、アンコモンアイテムを使用します。"
+			},
+			"name": {
+				"eng": "Rare Upgrade Shard",
+				"trans": "レアアップグレードシャード"
+			}
+		},
+		"repairKit": {
+			"description": {
+				"eng": "Use to repair equipments",
+				"trans": "装備修理に使用する"
+			},
+			"name": {
+				"eng": "Repair Kit",
+				"trans": "修理キット"
+			}
+		},
+		"rice": {
+			"description": {
+				"eng": "A staple food of the continent.",
+				"trans": "大陸の主食。"
+			},
+			"name": {
+				"eng": "Rice",
+				"trans": "米 (こめ)"
+			}
+		},
+		"ring": {
+			"name": {
+				"eng": "Ring",
+				"trans": "リング"
+			}
+		},
+		"sate": {
+			"description": {
+				"eng": "A traditional Indonesian dish made from skewered meat and rice.",
+				"trans": "串刺し肉とご飯で作られる、伝統的なインドネシア料理。"
+			},
+			"name": {
+				"eng": "Sate",
+				"trans": "状態表示"
+			}
+		},
+		"sushi": {
+			"description": {
+				"eng": "A traditional Japanese dish made from raw fish and rice.",
+				"trans": "刺身丼"
+			},
+			"name": {
+				"eng": "Sushi",
+				"trans": "寿司"
+			}
+		},
+		"sword": {
+			"description": {
+				"eng": "A melee weapon that has sharpened edges.",
+				"trans": "研ぎ澄まされた刃を持つ近接武器。"
+			},
+			"name": {
+				"eng": "Blade",
+				"trans": "ブレード"
+			}
+		},
+		"techScrap": {
+			"description": {
+				"eng": "A piece of tech scrap.",
+				"trans": "テックスクラップの一部。"
+			},
+			"name": {
+				"eng": "Tech Scrap",
+				"trans": "テック・スクラップ"
+			}
+		},
+		"uncommonCalibrationSafety": {
+			"description": {
+				"eng": "Use to decrease chance of equipment destruction by ${percent}% when calibration failed",
+				"trans": "キャリブレーションに失敗した場合、装備品の破壊確率を${percent}%減らすために使用してください。"
+			},
+			"name": {
+				"eng": "Uncommon Calibration Circuit Breaker",
+				"trans": "非常に珍しいキャリブレーション回路ブレーカー"
+			}
+		},
+		"uncommonLevelShard": {
+			"description": {
+				"eng": "Use to level up an uncommon item to its next level",
+				"trans": "レア度の低いアイテムを次のレベルにアップするために使用する。"
+			},
+			"name": {
+				"eng": "Uncommon Level Shard",
+				"trans": "ユニコムレベルのシャード"
+			}
+		},
+		"uncommonResetShard": {
+			"description": {
+				"eng": "Use to reset a uncommon item with new traits by chance",
+				"trans": "新しい特性で希少なアイテムをリセットするために使用する"
+			},
+			"name": {
+				"eng": "Uncommon Reset Shard",
+				"trans": "アンコモンリセットシャード"
+			}
+		},
+		"uniqueLevelShard": {
+			"description": {
+				"eng": "Use to level up an unique item to its next level",
+				"trans": "ユニークアイテムを次のレベルにアップさせるために使用する。"
+			},
+			"name": {
+				"eng": "Unique Level Shard",
+				"trans": "ユニークレベルのシャード"
+			}
+		},
+		"uniqueResetShard": {
+			"description": {
+				"eng": "Use to reset a unique item with new traits by chance",
+				"trans": "ユニークアイテムの特性をランダムにリセットするための使用"
+			},
+			"name": {
+				"eng": "Unique Reset Shard",
+				"trans": "ユニークリセットシャード"
+			}
+		},
+		"uniqueUpgradeShard": {
+			"description": {
+				"eng": "Use to upgrade an rare item to unique tier",
+				"trans": "レアアイテムをユニークティアにアップグレードするために使用する"
+			},
+			"name": {
+				"eng": "Unique Upgrade Shard",
+				"trans": "ユニークアップグレードシャード"
+			}
+		},
+		"upperArmor": {
+			"description": {
+				"eng": "A piece of equipment that protects the upper body.",
+				"trans": "上半身を保護する装備品。"
+			},
+			"name": {
+				"eng": "Upper Armor",
+				"trans": "アッパーアーマー"
+			}
+		}
+	},
+	"levelType": {
+		"character": {
+			"displayName": {
+				"eng": "Character Level",
+				"trans": "キャラクターレベル"
+			}
+		},
+		"hacking": {
+			"displayName": {
+				"eng": "Hacking",
+				"trans": "ハッキング"
+			}
+		},
+		"scavenge": {
+			"displayName": {
+				"eng": "Scavenge",
+				"trans": "スクラップ回収する"
+			}
+		}
+	},
+	"localEnemy": {
+		"levelDisplay": {
+			"eng": "Level ${minLevel} - ${maxLevel}",
+			"trans": "レベル ${minLevel} - ${maxLevel}"
+		},
+		"selectLevelModal": {
+			"display": {
+				"eng": "Level ${level} (${min} - ${max})",
+				"trans": "レベル${level} (${min} - ${max})"
+			}
+		}
+	},
+	"mainPage": {
+		"apartmentButton": {
+			"title": {
+				"eng": "back to apartment",
+				"trans": "アパートに戻る"
+			}
+		},
+		"chooseLocationButton": {
+			"title": {
+				"eng": "Travel [Current Level ${currentLevel}]",
+				"trans": "旅行 [現在のレベル ${currentLevel}]"
+			}
+		},
+		"deathItemsButton": {
+			"title": {
+				"eng": "Death Items",
+				"trans": "死亡アイテム"
+			}
+		},
+		"dungeonButton": {
+			"title": {
+				"eng": "Explore stronghold",
+				"trans": "地城を探索する"
+			}
+		},
+		"inventoryButton": {
+			"eng": "inventory",
+			"trans": "インベントリー"
+		},
+		"levelDisplay": {
+			"title": {
+				"eng": "level ${level}",
+				"trans": "レベル${level}"
+			}
+		},
+		"localEnemyButton": {
+			"title": {
+				"eng": "Scan nearby enemies",
+				"trans": "周辺の敵をスキャンする"
+			}
+		},
+		"mercenaryButton": {
+			"eng": "mercenary",
+			"trans": "傭兵"
+		},
+		"npcListButton": {
+			"title": {
+				"eng": "go to City Center",
+				"trans": "シティセンターに行く"
+			}
+		},
+		"profileButton": {
+			"eng": "profile",
+			"trans": "プロフィール"
+		},
+		"quests": {
+			"eng": "Quests",
+			"trans": "クエスト"
+		},
+		"rewardsIcon": {
+			"eng": "rewards",
+			"trans": "報酬"
+		},
+		"socialButton": {
+			"eng": "social",
+			"trans": "ソーシャル"
+		}
+	},
+	"marketItemList": {
+		"header": {
+			"buyout": {
+				"eng": "Buyout",
+				"trans": "買収"
+			},
+			"currentBid": {
+				"eng": "Bid",
+				"trans": "入札する"
+			},
+			"item": {
+				"eng": "Item",
+				"trans": "アイテム"
+			},
+			"time": {
+				"eng": "Time Left",
+				"trans": "残り時間"
+			}
+		}
+	},
+	"mercenaryDetails": {
+		"ability": {
+			"title": {
+				"eng": "Ability",
+				"trans": "能力"
+			}
+		},
+		"level": {
+			"eng": "Level",
+			"trans": "レベル"
+		},
+		"stats": {
+			"title": {
+				"eng": "stats",
+				"trans": "ステータス"
+			}
+		}
+	},
+	"mercenaryLevelDisplay": {
+		"levelUp": {
+			"eng": "Enhance",
+			"trans": "強化する"
+		},
+		"upgrade": {
+			"eng": "Upgrade",
+			"trans": "アップグレード"
+		}
+	},
+	"mercenaryType": {
+		"bountyHunter": {
+			"description": {
+				"eng": "A bounty hunter is a mercenary who uses their skills to hunt down their enemies",
+				"trans": "バウンティハンターとは、敵を追跡するために自分のスキルを利用する傭兵です。"
+			},
+			"displayName": {
+				"eng": "Bounty Hunter",
+				"trans": "バウンティハンター"
+			}
+		},
+		"netrunner": {
+			"description": {
+				"eng": "A netrunner is a hacker who uses their skills to infiltrate computer systems",
+				"trans": "ネットランナーとは、コンピューターシステムに侵入するためにスキルを使うハッカーのことです。"
+			},
+			"displayName": {
+				"eng": "Netrunner",
+				"trans": "ネットランナー"
+			}
+		},
+		"protector": {
+			"description": {
+				"eng": "A protector is a mercenary who uses their skills to protect their allies",
+				"trans": "プロテクターは、彼らのスキルを使って味方を守る傭兵です。"
+			},
+			"displayName": {
+				"eng": "Protector",
+				"trans": "プロテクター"
+			}
+		}
+	},
+	"messageContainer": {
+		"noMessages": {
+			"eng": "No messages yet",
+			"trans": "メッセージはありません。"
+		}
+	},
+	"misc": {
+		"blackMarketCurrencyDescription": {
+			"eng": "The black market currency, can only be obtained from in game and premium store",
+			"trans": "ゲーム内とプレミアムストアからしか入手できないブラックマーケット通貨。"
+		},
+		"blackMarketCurrencyName": {
+			"eng": "Netcoin",
+			"trans": "ネットコイン"
+		},
+		"currencyName": {
+			"eng": "Eurodollar",
+			"trans": "ユーロダラー"
+		},
+		"exp": {
+			"eng": "EXP",
+			"trans": "経験値"
+		},
+		"free": {
+			"eng": "Free",
+			"trans": "無料"
+		},
+		"loading": {
+			"eng": "loading",
+			"trans": "読み込み中"
+		},
+		"mercExpCurrencyDescription": {
+			"eng": "A nano-machine injection device created by Taixing Cybernetics, providing unparalleled upgrades to cybernetic abilities. Inject into the neck for enhanced performance.",
+			"trans": "タイシン・サイバネティックスが作成したナノマシン注入装置で、サイバネティック能力の向上に比類なきアップグレードを提供します。ネックに注入することでパフォーマンスが向上します。"
+		},
+		"mercExpCurrencyName": {
+			"eng": "Cybernetic Enhancer",
+			"trans": "電子増強装置"
+		},
+		"mercUpgradeCurrencyDescription": {
+			"eng": "Neural Upgrade Augmenter is a cutting-edge implant that enables users to break past their mental limitations and reach untold levels of cognitive enhancement. With the ability to exceed typical neural barriers, users can unlock new levels of insight, creativity, and physical performance.",
+			"trans": "ニューラルアップグレードオーグメンターは、ユーザーが精神的な制限を超え、洞察力、創造力、物理的パフォーマンスの新しいレベルを開放することができる、最先端のインプラントです。典型的なニューラルバリアを超える能力を持っているため、ユーザーは新しい洞察力、創造性、物理的パフォーマンスのレベルを開放することができます。"
+		},
+		"mercUpgradeCurrencyName": {
+			"eng": "Neural Upgrade Augmenter",
+			"trans": "ニューラルアップグレードオーグメンター"
+		},
+		"multiSelect": {
+			"eng": "Multi Select",
+			"trans": "複数選択"
+		},
+		"normalCurrencyDescription": {
+			"eng": "A common currency that can be obtained from in game easily",
+			"trans": "ゲーム内で簡単に入手できる共通通貨"
+		},
+		"normalCurrencyName": {
+			"eng": "Eurodollars",
+			"trans": "ユーロドル"
+		},
+		"oneOf": {
+			"eng": "one of",
+			"trans": "一つの"
+		},
+		"premiumCurrencyDescription": {
+			"eng": "Universal Dollars is a rare currency that can only be obtained through premium store.",
+			"trans": "ユニバーサルドルは、プレミアムストアでしか手に入らない珍しい通貨です。"
+		},
+		"premiumCurrencyName": {
+			"eng": "Universal Dollars",
+			"trans": "通貨幣"
+		}
+	},
+	"npc": {
+		"bar": {
+			"description": {
+				"eng": "Popular bar amounts mercenaries, you can find Chloe here and meet other mercenaries",
+				"trans": "人気のあるバーは傭兵たちの集まり場所であり、ここでクロエに会うことができ、他の傭兵たちとも出会えます。"
+			},
+			"greetings": {
+				"eng": [
+					"What can I get for you?",
+					"Make it quick, I don't have all day.",
+					"You're not from around here, are you?",
+					"I don't do small talk, what do you want to drink?",
+					"You're not the chatty type, I like that. What can I get you?"
+				],
+				"trans": [
+					"What can I get for you?",
+					"Make it quick, I don't have all day.",
+					"You're not from around here, are you?",
+					"I don't do small talk, what do you want to drink?",
+					"You're not the chatty type, I like that. What can I get you?"
+				]
+			},
+			"locationName": {
+				"eng": "Red Bar",
+				"trans": "赤いバー"
+			},
+			"npcName": {
+				"eng": "Chloe",
+				"trans": "クロエ"
+			},
+			"questLines": {
+				"eng": [
+					"Up for new gigs?"
+				],
+				"trans": [
+					"Up for new gigs?"
+				]
+			},
+			"questPendingLines": {
+				"eng": [
+					"Let me know when you have completed the objectives :)"
+				],
+				"trans": [
+					"Let me know when you have completed the objectives :)"
+				]
+			}
+		},
+		"blackMarket": {
+			"description": {
+				"eng": "A discreet trading post for mercs of ArcLight City, you can sell and buy items here with Ren.",
+				"trans": "アークライトシティの傭兵たちのための秘密の取引所です。ここではRenでアイテムを販売、購入できます。"
+			},
+			"greetings": {
+				"eng": [
+					"Look but don't touch. Unless you don't need your hands no more."
+				],
+				"trans": [
+					"Look but don't touch. Unless you don't need your hands no more."
+				]
+			},
+			"locationName": {
+				"eng": "Black Market",
+				"trans": "ブラックマーケット"
+			},
+			"npcName": {
+				"eng": "Ren",
+				"trans": "レン"
+			},
+			"questLines": {
+				"eng": [
+					"Up for new gigs?"
+				],
+				"trans": [
+					"Up for new gigs?"
+				]
+			},
+			"questPendingLines": {
+				"eng": [
+					"Quit wasting my time, unless you have done your job."
+				],
+				"trans": [
+					"Quit wasting my time, unless you have done your job."
+				]
+			}
+		},
+		"clinic": {
+			"description": {
+				"eng": "If you are injured, you can visit Oriana to fix you up, with a price of course.",
+				"trans": "貴方が負傷した場合、有償でオリアナに治療してもらうことができます。"
+			},
+			"greetings": {
+				"eng": [
+					"Upgrade some chromes today choom?"
+				],
+				"trans": [
+					"Upgrade some chromes today choom?"
+				]
+			},
+			"locationName": {
+				"eng": "Ripperdoc",
+				"trans": "リッパードク医師"
+			},
+			"npcName": {
+				"eng": "Oriana",
+				"trans": "オリアナ"
+			},
+			"questLines": {
+				"eng": [
+					"Up for new gigs?"
+				],
+				"trans": [
+					"Up for new gigs?"
+				]
+			},
+			"questPendingLines": {
+				"eng": [
+					"Let me know when you have completed the objectives :)"
+				],
+				"trans": [
+					"Let me know when you have completed the objectives :)"
+				]
+			},
+			"shopLines": {
+				"eng": [
+					"Don't just look, buy something."
+				],
+				"trans": [
+					"Don't just look, buy something."
+				]
+			}
+		},
+		"dailyReward": {
+			"characterDescription": {
+				"eng": "Hana is a resourceful and inventive young woman with a passion for tinkering and fixing machines. Despite her small stature, she has a sharp mind and a steady hand, which makes her a skilled mechanic. Her expertise has made her a valuable asset to those in need of repairs in the gritty cyberpunk world in which she lives. However, beneath her practical exterior, Hana has a quiet and introspective nature, and is often lost in thought. She has a keen eye for detail and is constantly seeking out new challenges to improve her skills. Hana also has a playful side to her, which she expresses through her love of pink, a color she finds both cute and cheerful. Despite the harsh realities of her world, Hana remains optimistic and hopeful, always seeking out ways to make things better for herself and those around her.",
+				"trans": "ハナは、機械をいじくり回して修理することに情熱を注ぐ、知恵と技術を持った小柄な女性です。彼女の専門知識は、彼女が住む荒涼としたサイバーパンクの世界で修理を必要とする人々にとって、貴重な資産となっています。しかし、実用的な外観の裏には、静かで内省的な性格があり、しばしば考え込んでいます。彼女は細かいところに目配りができ、自分のスキルを向上させるための新しいチャレン"
+			},
+			"greetings": {
+				"eng": [
+					"Hey there, stranger! Are you ready for a little boost to help you on your journey today?",
+					"Welcome back, hon! I've got some exciting things for you to help you kick some virtual butt today.",
+					"Hey, you! Don't forget to check in with me every day for some sweet loot to make your gameplay even more epic.",
+					"Well, well, well...look who decided to log in today! I've got something that I think you're going to love.",
+					"Greetings, fellow adventurer! Let's see what kind of loot we can scavenge for you today.",
+					"Hey, there! Feeling lucky today? I've got some rewards that just might make your day a little brighter.",
+					"Howdy, partner! I'm feeling extra generous today. Don't miss out on some top-notch gear.",
+					"Welcome back, my friend! Let's see what kind of treasure we can dig up for you today.",
+					"Salutations! I hope you're ready for some loot that's out of this world today.",
+					"Good day, mate! It's always a pleasure to see you. Let's make today a good one with some fantastic rewards."
+				],
+				"trans": [
+					"Hey there, stranger! Are you ready for a little boost to help you on your journey today?",
+					"Welcome back, hon! I've got some exciting things for you to help you kick some virtual butt today.",
+					"Hey, you! Don't forget to check in with me every day for some sweet loot to make your gameplay even more epic.",
+					"Well, well, well...look who decided to log in today! I've got something that I think you're going to love.",
+					"Greetings, fellow adventurer! Let's see what kind of loot we can scavenge for you today.",
+					"Hey, there! Feeling lucky today? I've got some rewards that just might make your day a little brighter.",
+					"Howdy, partner! I'm feeling extra generous today. Don't miss out on some top-notch gear.",
+					"Welcome back, my friend! Let's see what kind of treasure we can dig up for you today.",
+					"Salutations! I hope you're ready for some loot that's out of this world today.",
+					"Good day, mate! It's always a pleasure to see you. Let's make today a good one with some fantastic rewards."
+				]
+			},
+			"npcName": {
+				"eng": "Hana",
+				"trans": "花"
+			}
+		},
+		"functionality": {
+			"clinic": {
+				"eng": "Clinic",
+				"trans": "クリニック"
+			},
+			"market": {
+				"eng": "Player market",
+				"trans": "プレイヤーマーケット"
+			},
+			"mercenary": {
+				"eng": "Mercenary",
+				"trans": "傭兵"
+			},
+			"quest": {
+				"eng": "Quest",
+				"trans": "クエスト"
+			},
+			"repair": {
+				"eng": "Repair",
+				"trans": "修理"
+			},
+			"shop": {
+				"eng": "Shop",
+				"trans": "ショップ"
+			},
+			"upgrade": {
+				"eng": "Upgrade",
+				"trans": "アップグレード"
+			}
+		},
+		"generalStore": {
+			"description": {
+				"eng": "A general store, you can purchase common items here",
+				"trans": "一般商店、ここで一般的なアイテムを購入できます。"
+			},
+			"greetings": {
+				"eng": [
+					"Hey there, welcome to my store!"
+				],
+				"trans": [
+					"Hey there, welcome to my store!"
+				]
+			},
+			"locationName": {
+				"eng": "Lilith's Store",
+				"trans": "リリスの店"
+			},
+			"npcName": {
+				"eng": "Lilith",
+				"trans": "リリス"
+			},
+			"questLines": {
+				"eng": [
+					"Could you do this for me?"
+				],
+				"trans": [
+					"Could you do this for me?"
+				]
+			},
+			"questPendingLines": {
+				"eng": [
+					"Let me know when you have completed the objectives :)"
+				],
+				"trans": [
+					"Let me know when you have completed the objectives :)"
+				]
+			},
+			"shopName": {
+				"eng": "Lilith\\'s Store",
+				"trans": "リリスの店"
+			}
+		},
+		"mercDraw1": {
+			"greetings": {
+				"eng": [
+					"Ready for action? Meet your new crewmates.",
+					"Time to level up. Your new crewmates are here.",
+					"The dream team? These are your new crewmates.",
+					"Welcome aboard. Meet the crewmates you'll be working with.",
+					"You're in good hands. These are your new crewmates.",
+					"New job, new crew. Meet your teammates.",
+					"Mission critical. These are your new crewmates.",
+					"New allies in the fight. Meet your crewmates.",
+					"Looking for a crew? You just found your new teammates.",
+					"Teamwork makes the dream work. Meet your new crewmates."
+				],
+				"trans": [
+					"Ready for action? Meet your new crewmates.",
+					"Time to level up. Your new crewmates are here.",
+					"The dream team? These are your new crewmates.",
+					"Welcome aboard. Meet the crewmates you'll be working with.",
+					"You're in good hands. These are your new crewmates.",
+					"New job, new crew. Meet your teammates.",
+					"Mission critical. These are your new crewmates.",
+					"New allies in the fight. Meet your crewmates.",
+					"Looking for a crew? You just found your new teammates.",
+					"Teamwork makes the dream work. Meet your new crewmates."
+				]
+			},
+			"npcName": {
+				"eng": "Whisperer",
+				"trans": "ウィスパラー"
+			}
+		},
+		"weaponSmith": {
+			"description": {
+				"eng": "A local arms dealer, quality and price is guaranteed. You can upgrade and calibrate your items here too.",
+				"trans": "品質と価格が保証された地元の武器商人。ここではアイテムをアップグレードしてキャリブレーションすることもできます。"
+			},
+			"greetings": {
+				"eng": [
+					"Wanna calibrate your irons?",
+					"You break it, I fix it.\n You break it again, I break you.",
+					"I'm the best in the business. You want something done right, you come to me."
+				],
+				"trans": [
+					"Wanna calibrate your irons?",
+					"You break it, I fix it.\n You break it again, I break you.",
+					"I'm the best in the business. You want something done right, you come to me."
+				]
+			},
+			"locationName": {
+				"eng": "Weapon Smith",
+				"trans": "武器鍛冶"
+			},
+			"npcName": {
+				"eng": "Maxine",
+				"trans": "マキシン"
+			},
+			"questLines": {
+				"eng": [
+					"Up for new gigs?"
+				],
+				"trans": [
+					"Up for new gigs?"
+				]
+			},
+			"questPendingLines": {
+				"eng": [
+					"Let me know when you have completed the objectives :)"
+				],
+				"trans": [
+					"Let me know when you have completed the objectives :)"
+				]
+			}
+		}
+	},
+	"playerBackpack": {
+		"moveAllButton": {
+			"title": {
+				"eng": "Move all items",
+				"trans": "すべてのアイテムを移動する"
+			}
+		},
+		"upgrade": {
+			"eng": "Upgrade",
+			"trans": "アップグレードする"
+		}
+	},
+	"playerInventory": {
+		"empty": {
+			"eng": "Your backpack is empty",
+			"trans": "あなたのバックパックは空です。"
+		},
+		"multiSelect": {
+			"discard": {
+				"title": {
+					"eng": "Scrap",
+					"trans": "スクラップ"
+				}
+			}
+		},
+		"noItems": {
+			"eng": "No items",
+			"trans": "アイテムなし"
+		}
+	},
+	"psychosisDisplay": {
+		"nextCycle": {
+			"eng": "${time} to next refresh",
+			"trans": "次のリフレッシュまで${time}残っています。"
+		},
+		"title": {
+			"eng": "Cyber psychosis ${percent}%",
+			"trans": "サイバーサイコーシス${percent}%。"
+		}
+	},
+	"quest": {
+		"completed": {
+			"eng": "Completed",
+			"trans": "完了しました"
+		},
+		"progress": {
+			"collectQuestItem": {
+				"eng": "Collect ${required} ${itemName} from lv.${level}~ ${enemyName} (${current}/${required})",
+				"trans": "lv.${level}~の${enemyName}から${required}${itemName}を収集してください(${current}/${required})"
+			},
+			"collectQuestItemInDungeon": {
+				"eng": "Collect ${required} ${itemName} from lv.${level}+ stronghold (${dungeonName}) (${current}/${required})",
+				"trans": "レベル${level}以上の地城(${dungeonName})から${required}個の${itemName}を集める必要があります。 (${current}/${required})"
+			},
+			"defeatEnemy": {
+				"eng": "Defeat ${required} enemies (${current}/${required})",
+				"trans": "${required}体の敵を倒す必要があります（${current}/${required}）"
+			},
+			"defeatSpecificEnemy": {
+				"eng": "Defeat lv.${level}~ ${enemyName} (${current}/${required})",
+				"trans": "lv.${level}の${enemyName}を倒す (${current}/${required})"
+			}
+		},
+		"returnToNpc": {
+			"eng": "Return to ${npcName}",
+			"trans": "${npcName}に戻る"
+		}
+	},
+	"questPage": {
+		"abandonQuestModal": {
+			"confirmText": {
+				"eng": "Abandon",
+				"trans": "放棄する"
+			},
+			"description": {
+				"eng": "Are you sure you want to abandon this quest?",
+				"trans": "このクエストを放棄してよろしいですか？"
+			},
+			"title": {
+				"eng": "Abandon Quest",
+				"trans": "クエストを放棄する"
+			}
+		},
+		"complete": {
+			"eng": "complete",
+			"trans": "完了"
+		},
+		"pinQuest": {
+			"eng": "Track",
+			"trans": "トラック"
+		}
+	},
+	"questPreview": {
+		"objectives": {
+			"eng": "objectives",
+			"trans": "目的地"
+		},
+		"questName": {
+			"eng": "${npcName}'s request",
+			"trans": "${npcName}の要求"
+		},
+		"rewards": {
+			"eng": "rewards",
+			"trans": "報酬"
+		}
+	},
+	"questTitle": {
+		"dungeonQuestTitle": {
+			"eng": "${npcName}'s Quest",
+			"trans": "${npcName}のクエスト"
+		},
+		"levelUpQuestTitle": {
+			"eng": "Progression",
+			"trans": "進行状況"
+		},
+		"questName": {
+			"eng": "${npcName}'s request",
+			"trans": "${npcName}のリクエスト"
+		}
+	},
+	"quickSlotList": {
+		"empty": {
+			"eng": "empty",
+			"trans": "空の"
+		}
+	},
+	"reward": {
+		"exp": {
+			"increase": {
+				"eng": "+${amount} ${levelType} EXP",
+				"trans": "+${amount} ${levelType} 経験値"
+			}
+		}
+	},
+	"sceneContainer": {
+		"skip": {
+			"eng": "Skip",
+			"trans": "スキップ"
+		}
+	},
+	"selectAmountModal": {
+		"max": {
+			"eng": "max",
+			"trans": "マックス"
+		},
+		"min": {
+			"eng": "min",
+			"trans": "最小値"
+		}
+	},
+	"statusInventory": {
+		"discard": {
+			"eng": "Discard",
+			"trans": "破棄する"
+		},
+		"dungeonDrop": {
+			"eng": "Your backpack was full.\\nPlease remove some stuff before picking up the loots.",
+			"trans": "バックパックがいっぱいです。\\n戦利品を拾う前にいくつかのアイテムを削除してください。"
+		},
+		"lootAll": {
+			"eng": "loot all",
+			"trans": "すべての略奪品"
+		},
+		"tabs": {
+			"backpack": {
+				"eng": "backpack",
+				"trans": "バックパック"
+			},
+			"source": {
+				"eng": "Loots",
+				"trans": "戦利品"
+			},
+			"target": {
+				"eng": "target",
+				"trans": "ターゲット"
+			}
+		},
+		"target": {
+			"dungeonDrop": {
+				"title": {
+					"eng": "Backpack",
+					"trans": "バックパック"
+				}
+			},
+			"normal": {
+				"title": {
+					"eng": "Inventory",
+					"trans": "インベントリ"
+				}
+			}
+		},
+		"targetInventory": {
+			"description": {
+				"eng": "Clear up some space here so you can pickup the loots.",
+				"trans": "ここをスペースを空けて、アイテムを拾えるようにしてください。"
+			}
+		},
+		"title": {
+			"eng": "Loots",
+			"trans": "戦利品"
+		}
+	},
+	"territoryBanner": {
+		"gang": {
+			"title": {
+				"eng": "Territory controlled by",
+				"trans": "支配領域"
+			}
+		},
+		"noGang": {
+			"title": {
+				"eng": "Territory open",
+				"trans": "領土オープン"
+			}
+		}
+	},
+	"territoryDisplay": {
+		"hasTopGang": {
+			"title": {
+				"eng": "Controlled by ${name} [${tag}]",
+				"trans": "${name} [${tag}] によって制御されています"
+			}
+		},
+		"noTopGang": {
+			"title": {
+				"eng": "Uncontrolled territory",
+				"trans": "無制限領域"
+			}
+		}
+	},
+	"timedRefreshButton": {
+		"refreshIn": {
+			"eng": "Refresh in:",
+			"trans": "更新までの時間:"
+		}
+	},
+	"toggleMinigame": {
+		"description": {
+			"eng": "Unlock by toggling the switches in correct sequence",
+			"trans": "正しい順序でスイッチを切り替えて解除してください。"
+		},
+		"title": {
+			"eng": "Sequential Unlock",
+			"trans": "シーケンシャルロック解除"
+		}
+	},
+	"trade": {
+		"lock": {
+			"eng": "lock deal",
+			"trans": "取引をロックする"
+		},
+		"unlock": {
+			"eng": "unlock deal",
+			"trans": "ディールをアンロックする"
+		}
+	},
+	"trans": [
+		"アクションの準備はできましたか？新しいクルーメンバーに会いましょう。",
+		"レベルアップの時間です。あなたの新しいクルーメイトがここにいます。",
+		"夢のチーム？こちらが新しいクルーメイトです。",
+		"ようこそ。一緒に働くクルーたちに会ってください。",
+		"あなたは安心してください。これらがあなたの新しいクルーメイトです。",
+		"新しい仕事、新しいクルー。あなたのチームメイトに会いましょう。",
+		"ミッションクリティカルです。これがあなたの新しいクルーメイトです。",
+		"戦いに新たな仲間。クルーと出会おう。",
+		"クルーを探していますか？あなたの新しいチームメイトが見つかりました。",
+		"チームワークは夢を実現する。新しいクルーメンバーに会いましょう。"
+	],
+	"tutorial": {
+		"attack": {
+			"eng": "Hold and release at correct timing to perform attacks.",
+			"trans": "適切なタイミングでホールドしてリリースして攻撃を行います。"
+		},
+		"crew1": {
+			"eng": "Click here to view your profile",
+			"trans": "プロフィールを表示するにはここをクリックしてください。"
+		},
+		"crew2": {
+			"eng": "Click here to view your crew members",
+			"trans": "クルー・メンバーを表示するにはここをクリックしてください。"
+		},
+		"crew3": {
+			"eng": "Click on one of the slots to assign a crew member",
+			"trans": "クルーメンバーを割り当てるスロットをクリックしてください。"
+		},
+		"dailyQuest": {
+			"eng": "You have completed daily quests. open this tab to view them.",
+			"trans": "毎日のクエストが完了しました。このタブを開いて表示してください。"
+		},
+		"deathItem": {
+			"eng": "You can buy back the items you lost from clinic.",
+			"trans": "クリニックから失ったアイテムを買い戻すことができます。"
+		},
+		"deathItem2": {
+			"eng": "Click here to view your lost items.",
+			"trans": "紛失品を表示するにはここをクリックしてください。"
+		},
+		"freeMerc1": {
+			"eng": "Click here for all kinds of benefits",
+			"trans": "あらゆる種類の特典については、ここをクリックしてください。"
+		},
+		"freeMerc2": {
+			"eng": "Click here to get free ${itemName}",
+			"trans": "無料で${itemName}を入手するにはここをクリックしてください。"
+		},
+		"heal": {
+			"eng": "Click here to assign healing items to quick slots.",
+			"trans": "ここをクリックして、回復アイテムをクイックスロットに割り当てます。"
+		},
+		"localEnemy1": {
+			"eng": "Click here to scan for nearby enemies.",
+			"trans": "近くの敵をスキャンするにはここをクリックしてください。"
+		},
+		"localEnemy2": {
+			"eng": "Click on an enemy to engage in battle.",
+			"trans": "戦闘を開始するために敵をクリックしてください。"
+		},
+		"mercenary1": {
+			"eng": "Click here to view your mercenary contacts",
+			"trans": "傭兵連絡先を表示するにはここをクリックしてください。"
+		},
+		"mercenary2": {
+			"eng": "Click here to recruit new mercenaries",
+			"trans": "新しい傭兵を募集するにはここをクリックしてください。"
+		},
+		"mercenary3": {
+			"eng": "Click here to recruit 10 new mercenaries",
+			"trans": "10人の新しい傭兵を雇うためにここをクリックしてください。"
+		},
+		"quest": {
+			"eng": "Click here to view your quests.",
+			"trans": "クエストを表示するにはここをクリックしてください。"
+		},
+		"upgradeItem": {
+			"eng": "Click here to upgrade your items.",
+			"trans": "アイテムをアップグレードするにはここをクリックしてください。"
+		},
+		"upgradeItemDetails": {
+			"eng": "Click here to upgrade this item.",
+			"trans": "このアイテムをアップグレードするにはここをクリックしてください。"
+		}
+	},
+	"ui": {
+		"back": {
+			"eng": "Back",
+			"trans": "戻る"
+		},
+		"combat": {
+			"alreadyTriedEscape": {
+				"eng": "You already tried to escape in this turn!",
+				"trans": "このターンで既に逃げようとしました！"
+			},
+			"escape": {
+				"eng": "escape",
+				"trans": "脱出する"
+			}
+		},
+		"dungeonUI": {
+			"backpack": {
+				"eng": "Backpack",
+				"trans": "バックパック"
+			},
+			"quest": {
+				"eng": "Quest",
+				"trans": "クエスト"
+			}
+		},
+		"health": {
+			"eng": "health",
+			"trans": "ヘルス"
+		},
+		"mainPage": {
+			"chatButton": {
+				"eng": "chat",
+				"trans": "チャット"
+			}
+		},
+		"shield": {
+			"eng": "shield",
+			"trans": "シールド"
+		},
+		"travelBack": {
+			"title": {
+				"eng": "Back",
+				"trans": "戻る"
+			}
+		}
+	},
+	"useItemButton": {
+		"use": {
+			"eng": "Use ${itemName}",
+			"trans": "${itemName} を使用する"
+		}
+	}
+}

@@ -1,4 +1,36 @@
 {
+	"MercenaryDrawType": {
+		"ELITE": {
+			"description": {
+				"eng": "More experienced pro mercs hang out here",
+				"trans": "更有經驗的職業傭兵聚集在這裡"
+			},
+			"title": {
+				"eng": "Inner tables",
+				"trans": "內部表格"
+			}
+		},
+		"NORMAL": {
+			"description": {
+				"eng": "Usually amateur mercs hang out here",
+				"trans": "通常是業餘佣兵在這裡聚集"
+			},
+			"title": {
+				"eng": "Bar table",
+				"trans": "酒吧桌"
+			}
+		},
+		"RARE": {
+			"description": {
+				"eng": "Professional mercs likes discuss about their gig here",
+				"trans": "職業佣兵喜歡在這裡討論他們的任務。"
+			},
+			"title": {
+				"eng": "Sofa tables",
+				"trans": "沙發桌"
+			}
+		}
+	},
 	"ability": {
 		"attack": {
 			"description": {
@@ -710,10 +742,28 @@
 				"trans": "校準"
 			}
 		},
+		"energyWeapon": {
+			"name": {
+				"eng": "Energy Weapon",
+				"trans": "能量武器"
+			}
+		},
 		"equipment": {
 			"name": {
 				"eng": "Equipment",
 				"trans": "裝備"
+			}
+		},
+		"fireArm": {
+			"name": {
+				"eng": "Fire Arm",
+				"trans": "火器"
+			}
+		},
+		"food": {
+			"name": {
+				"eng": "Food",
+				"trans": "食物"
 			}
 		},
 		"healingHp": {
@@ -734,6 +784,12 @@
 				"trans": "電馭元件"
 			}
 		},
+		"ingredient": {
+			"name": {
+				"eng": "Ingredient",
+				"trans": "原料"
+			}
+		},
 		"itemLevelShard": {
 			"name": {
 				"eng": "Item Level Shard",
@@ -750,6 +806,12 @@
 			"name": {
 				"eng": "Lower Armor",
 				"trans": "下護甲"
+			}
+		},
+		"meat": {
+			"name": {
+				"eng": "Fish",
+				"trans": "魚"
 			}
 		},
 		"meleeWeapon": {
@@ -782,10 +844,526 @@
 				"trans": "上半身護甲"
 			}
 		},
+		"vegetable": {
+			"name": {
+				"eng": "Vegetable",
+				"trans": "蔬菜"
+			}
+		},
 		"weapon": {
 			"name": {
 				"eng": "Weapon",
 				"trans": "武器"
+			}
+		}
+	},
+	"itemType": {
+		"boots": {
+			"description": {
+				"eng": "A piece of equipment that protects the feet.",
+				"trans": "保護腳部的裝備。"
+			},
+			"name": {
+				"eng": "Boots",
+				"trans": "靴子"
+			}
+		},
+		"braisedPorkRice": {
+			"description": {
+				"eng": "A traditional dish of braised pork belly and rice.",
+				"trans": "紅燒肉飯"
+			},
+			"name": {
+				"eng": "Braised Pork Rice",
+				"trans": "滷肉飯"
+			}
+		},
+		"bread": {
+			"description": {
+				"eng": "a rare delicacy made from real wheat flour, smuggled by rebels who oppose the synthetic food industry.",
+				"trans": "由反對合成食品產業的叛亂分子走私而來，使用真正的小麥粉製成的稀有美食。"
+			},
+			"name": {
+				"eng": "Bread",
+				"trans": "麵包"
+			}
+		},
+		"burger": {
+			"description": {
+				"eng": "A cheap and addictive food made from synthetic meat and chemicals. Popular among lowlifes and hackers who need a quick energy boost.",
+				"trans": "一種由合成肉和化學物質製成的便宜且容易成癮的食品。受到低端人群和需要快速能量補充的駭客的歡迎。"
+			},
+			"name": {
+				"eng": "Burger",
+				"trans": "漢堡"
+			}
+		},
+		"calibrationShard": {
+			"description": {
+				"eng": "Universal calibration token for equipments, use to improve equipments",
+				"trans": "通用校準代幣用於裝備升級。"
+			},
+			"name": {
+				"eng": "Calibration Shard",
+				"trans": "校準碎片"
+			}
+		},
+		"commonCalibrationSafety": {
+			"description": {
+				"eng": "Use to decrease chance of equipment destruction by ${percent}% when calibration failed",
+				"trans": "當校準失敗時，使用可將設備損壞機率降低${percent}%。"
+			},
+			"name": {
+				"eng": "Common Calibration Circuit Breaker",
+				"trans": "常規校準電路斷路器"
+			}
+		},
+		"commonLevelShard": {
+			"description": {
+				"eng": "Use to level up an common item to its next level",
+				"trans": "使用以將普通物品升級到下一級"
+			},
+			"name": {
+				"eng": "Common Level Shard",
+				"trans": "普通等級碎片"
+			}
+		},
+		"commonUpgradeShard": {
+			"description": {
+				"eng": "Use to upgrade an common item to uncommon tier",
+				"trans": "使用以將普通物品升級為非凡級別"
+			},
+			"name": {
+				"eng": "Common Upgrade Shard",
+				"trans": "普通升級碎片"
+			}
+		},
+		"dungeonActivator": {
+			"description": {
+				"eng": "Use to enter a dungeon",
+				"trans": "使用進入地城。"
+			},
+			"name": {
+				"eng": "dungeon activator",
+				"trans": "地城啟動器"
+			}
+		},
+		"energyGun": {
+			"description": {
+				"eng": "A weapon that uses energy to fire.",
+				"trans": "一種使用能量開火的武器。"
+			},
+			"name": {
+				"eng": "Energy Weapon",
+				"trans": "能量武器"
+			}
+		},
+		"epicLevelShard": {
+			"description": {
+				"eng": "Use to level up an epic item to its next level",
+				"trans": "使用以將史詩物品升級到下一級"
+			},
+			"name": {
+				"eng": "Epic Level Shard",
+				"trans": "史詩等級碎片"
+			}
+		},
+		"epicResetShard": {
+			"description": {
+				"eng": "Use to reset a epic item with new traits by chance",
+				"trans": "使用以機率重置一件史詩物品的特性"
+			},
+			"name": {
+				"eng": "Epic Reset Shard",
+				"trans": "史詩重置碎片"
+			}
+		},
+		"epicUpgradeShard": {
+			"description": {
+				"eng": "Use to upgrade an unique item to epic tier",
+				"trans": "使用以將獨特道具升級至史詩級別"
+			},
+			"name": {
+				"eng": "Epic Upgrade Shard",
+				"trans": "史詩升級碎片"
+			}
+		},
+		"fish": {
+			"description": {
+				"eng": "A medium sized vibrant fish, it's highly sought after for its psychedelic properties when consumed.",
+				"trans": "一種中等大小的色彩鮮艷的魚，食用後具有迷幻作用，因此廣受追捧。"
+			},
+			"name": {
+				"eng": "Fish",
+				"trans": "魚"
+			}
+		},
+		"gangResource": {
+			"description": {
+				"eng": "Use to contribute to gang territory control",
+				"trans": "使用以貢獻幫派領地控制。"
+			},
+			"name": {
+				"eng": "Gang Control Resource",
+				"trans": "幫派控制資源"
+			}
+		},
+		"gun": {
+			"description": {
+				"eng": "A traditional firearm that uses gunpowder to fire bullets. cant go wrong with this one.",
+				"trans": "使用火藥發射子彈的傳統火器。這個是不會出差錯的。"
+			},
+			"name": {
+				"eng": "Gun",
+				"trans": "槍械"
+			}
+		},
+		"healing1": {
+			"description": {
+				"eng": "Use to recover small amount of health",
+				"trans": "使用以恢復少量生命值。"
+			},
+			"name": {
+				"eng": "Basic Healing Nanobot",
+				"trans": "基本治療納米機器人"
+			}
+		},
+		"healing2": {
+			"description": {
+				"eng": "Use to recover moderate amount of health",
+				"trans": "使用以恢復中等量的生命值"
+			},
+			"name": {
+				"eng": "Advance Healing Nanobot",
+				"trans": "先進治療納米機器人"
+			}
+		},
+		"helmet": {
+			"description": {
+				"eng": "A piece of equipment that protects the head.",
+				"trans": "頭部保護裝備。"
+			},
+			"name": {
+				"eng": "Helmet",
+				"trans": "頭盔"
+			}
+		},
+		"identificationShard": {
+			"description": {
+				"eng": "Use to identify unknown traits in a item",
+				"trans": "使用來辨認物品中未知的特徵"
+			},
+			"name": {
+				"eng": "Identification Shard",
+				"trans": "辨識晶片"
+			}
+		},
+		"implant": {
+			"name": {
+				"eng": "Implant",
+				"trans": "電馭元件"
+			}
+		},
+		"itemLevelupShard": {
+			"description": {
+				"eng": "Universal level up token for equipments, use to increase the level of an equipment",
+				"trans": "裝備通用等級提升代幣，用於提升裝備等級。"
+			},
+			"name": {
+				"eng": "Level Shard",
+				"trans": "等級碎片"
+			}
+		},
+		"lootBox1": {
+			"description": {
+				"eng": "A mysterious container that contains a random item.",
+				"trans": "一個包含隨機物品的神秘容器。"
+			},
+			"name": {
+				"eng": "Common Container",
+				"trans": "普通容器"
+			}
+		},
+		"lowerArmor": {
+			"description": {
+				"eng": "A piece of equipment that protects the lower body.",
+				"trans": "保護下半身的裝備。"
+			},
+			"name": {
+				"eng": "Lower Armor",
+				"trans": "降低護甲防禦"
+			}
+		},
+		"mercToken1": {
+			"description": {
+				"eng": "Use this token to meet and recruit new mercenaries in Red Bar",
+				"trans": "使用這個代幣在紅酒吧招募新的傭兵。"
+			},
+			"name": {
+				"eng": "Red Bar VIP token",
+				"trans": "紅條VIP代幣"
+			}
+		},
+		"mercUpgrade": {
+			"description": {
+				"eng": "Neural Upgrade Augmenter is a cutting-edge implant that enables users to break past their mental limitations and reach untold levels of cognitive enhancement. With the ability to exceed typical neural barriers, users can unlock new levels of insight, creativity, and physical performance.",
+				"trans": "神經升級增強器是一種尖端的植入物，可以讓使用者突破其精神限制，達到無法想像的認知增強水平。具有超越典型神經障礙的能力，使用者可以開啟新的洞察力、創造力和身體表現的水平。"
+			},
+			"name": {
+				"eng": "Neural Upgrade Augmenter",
+				"trans": "神經升級增強器"
+			}
+		},
+		"money": {
+			"description": {
+				"eng": "EuroDollar is a widely accepted currency in the continent, used for everyday purchases and transactions.",
+				"trans": "歐元是在這個大陸上被廣泛使用的貨幣，用於日常消費和交易。"
+			},
+			"name": {
+				"eng": "EuroDollar",
+				"trans": "歐元"
+			}
+		},
+		"netcoin": {
+			"description": {
+				"eng": "NetCoin is a digital currency mainly used in black market transactions. It is untraceable and can be used to purchase illegal goods and services.",
+				"trans": "NetCoin是一種主要用於黑市交易的數字貨幣。它是不可追蹤的，並可用於購買非法商品和服務。"
+			},
+			"name": {
+				"eng": "NetCoin",
+				"trans": "網絡幣"
+			}
+		},
+		"neuroblocker": {
+			"description": {
+				"eng": "Neuroblockers were developed to counteract the negative effects that cybernetic implants had on the human body. By suppressing these effects, people were able to use these implants with reduced suffering from physical or mental issues",
+				"trans": "神經阻斷劑被開發出來以對抗電馭元件對人體產生的負面影響。通過抑制這些影響，人們能夠使用這些元件，減少身體或心理問題所帶來的痛苦。"
+			},
+			"name": {
+				"eng": "Neuroblocker",
+				"trans": "神經封鎖劑"
+			}
+		},
+		"pendant": {
+			"name": {
+				"eng": "Pendant",
+				"trans": "吊墜"
+			}
+		},
+		"pork": {
+			"description": {
+				"eng": "Slice of ordinary synthetic pork",
+				"trans": "一片普通合成豬肉片"
+			},
+			"name": {
+				"eng": "Pork",
+				"trans": "豬肉"
+			}
+		},
+		"premiumCurrency": {
+			"description": {
+				"eng": "Premium Currency is a special currency that can be used to purchase premium items in the shop.",
+				"trans": "高級貨幣是一種特殊貨幣，可用於購買商店中的高級物品。"
+			},
+			"name": {
+				"eng": "Premium Currency",
+				"trans": "高級貨幣"
+			}
+		},
+		"rareCalibrationSafety": {
+			"description": {
+				"eng": "Use to decrease chance of equipment destruction by ${percent}% when calibration failed",
+				"trans": "當校準失敗時，使用可將裝備損壞機率減少${percent}%。"
+			},
+			"name": {
+				"eng": "Rare Calibration Circuit Breaker",
+				"trans": "稀有校準電路斷路器"
+			}
+		},
+		"rareLevelShard": {
+			"description": {
+				"eng": "Use to level up an rare item to its next level",
+				"trans": "使用以將稀有物品升級到下一級"
+			},
+			"name": {
+				"eng": "Rare Level Shard",
+				"trans": "稀有等級碎片"
+			}
+		},
+		"rareResetShard": {
+			"description": {
+				"eng": "Use to reset a rare item with new traits by chance",
+				"trans": "使用以機率重置稀有物品的特性"
+			},
+			"name": {
+				"eng": "Rare Reset Shard",
+				"trans": "罕見重置碎片"
+			}
+		},
+		"rareUpgradeShard": {
+			"description": {
+				"eng": "Use to upgrade an uncommon item to rare tier",
+				"trans": "使用以將不尋常的物品升級到稀有等級"
+			},
+			"name": {
+				"eng": "Rare Upgrade Shard",
+				"trans": "稀有升級碎片"
+			}
+		},
+		"repairKit": {
+			"description": {
+				"eng": "Use to repair equipments",
+				"trans": "使用來修復裝備"
+			},
+			"name": {
+				"eng": "Repair Kit",
+				"trans": "修理工具箱"
+			}
+		},
+		"rice": {
+			"description": {
+				"eng": "A staple food of the continent.",
+				"trans": "該大陸的主食。"
+			},
+			"name": {
+				"eng": "Rice",
+				"trans": "米飯"
+			}
+		},
+		"ring": {
+			"name": {
+				"eng": "Ring",
+				"trans": "戒指"
+			}
+		},
+		"sate": {
+			"description": {
+				"eng": "A traditional Indonesian dish made from skewered meat and rice.",
+				"trans": "印尼傳統菜肴，由串燒肉和米飯製成。"
+			},
+			"name": {
+				"eng": "Satay",
+				"trans": "沙爹"
+			}
+		},
+		"sushi": {
+			"description": {
+				"eng": "A traditional Japanese dish made from raw fish and rice.",
+				"trans": "一道由生魚和飯製成的日本傳統料理。"
+			},
+			"name": {
+				"eng": "Sushi",
+				"trans": "壽司"
+			}
+		},
+		"sword": {
+			"description": {
+				"eng": "A melee weapon that has sharpened edges.",
+				"trans": "一種帶有鋒利邊緣的近戰武器。"
+			},
+			"name": {
+				"eng": "Blade",
+				"trans": "刀刃"
+			}
+		},
+		"techScrap": {
+			"description": {
+				"eng": "A piece of tech scrap.",
+				"trans": "一份科技廢料。"
+			},
+			"name": {
+				"eng": "Tech Scrap",
+				"trans": "技術碎片"
+			}
+		},
+		"uncommonCalibrationSafety": {
+			"description": {
+				"eng": "Use to decrease chance of equipment destruction by ${percent}% when calibration failed",
+				"trans": "當校準失敗時，使用可以減少裝備損壞機率${percent}%。"
+			},
+			"name": {
+				"eng": "Uncommon Calibration Circuit Breaker",
+				"trans": "罕見的校準斷路器"
+			}
+		},
+		"uncommonLevelShard": {
+			"description": {
+				"eng": "Use to level up an uncommon item to its next level",
+				"trans": "使用以將不尋常物品升級到下一級"
+			},
+			"name": {
+				"eng": "Uncommon Level Shard",
+				"trans": "非普通等級碎片"
+			}
+		},
+		"uncommonResetShard": {
+			"description": {
+				"eng": "Use to reset a uncommon item with new traits by chance",
+				"trans": "使用機會重置罕見物品的屬性"
+			},
+			"name": {
+				"eng": "Uncommon Reset Shard",
+				"trans": "非凡重置碎片"
+			}
+		},
+		"uniqueLevelShard": {
+			"description": {
+				"eng": "Use to level up an unique item to its next level",
+				"trans": "使用以將獨特物品升級到下一級"
+			},
+			"name": {
+				"eng": "Unique Level Shard",
+				"trans": "獨特等級碎片"
+			}
+		},
+		"uniqueResetShard": {
+			"description": {
+				"eng": "Use to reset a unique item with new traits by chance",
+				"trans": "使用可隨機重置獨特物品的特性。"
+			},
+			"name": {
+				"eng": "Unique Reset Shard",
+				"trans": "獨特重置碎片"
+			}
+		},
+		"uniqueUpgradeShard": {
+			"description": {
+				"eng": "Use to upgrade an rare item to unique tier",
+				"trans": "使用來將稀有物品升級為獨特層級"
+			},
+			"name": {
+				"eng": "Unique Upgrade Shard",
+				"trans": "獨特升級碎片"
+			}
+		},
+		"upperArmor": {
+			"description": {
+				"eng": "A piece of equipment that protects the upper body.",
+				"trans": "保護上半身的裝備。"
+			},
+			"name": {
+				"eng": "Upper Armor",
+				"trans": "上半身裝甲"
+			}
+		}
+	},
+	"levelType": {
+		"character": {
+			"displayName": {
+				"eng": "Character Level",
+				"trans": "角色等級"
+			}
+		},
+		"hacking": {
+			"displayName": {
+				"eng": "Hacking",
+				"trans": "駭客入侵"
+			}
+		},
+		"scavenge": {
+			"displayName": {
+				"eng": "Scavenge",
+				"trans": "拾荒"
 			}
 		}
 	},
@@ -799,6 +1377,12 @@
 				"eng": "Level ${level} (${min} - ${max})",
 				"trans": "等級 ${level} (${min} - ${max})"
 			}
+		}
+	},
+	"mail": {
+		"notification": {
+			"eng": "${senderName} sent you a mail",
+			"trans": "${senderName}給您發了一封郵件"
 		}
 	},
 	"mainPage": {
@@ -917,6 +1501,38 @@
 			"trans": "升級"
 		}
 	},
+	"mercenaryType": {
+		"bountyHunter": {
+			"description": {
+				"eng": "A bounty hunter is a mercenary who uses their skills to hunt down their enemies",
+				"trans": "賞金獵人是一個僱傭兵，使用其技能追踪敵人。"
+			},
+			"displayName": {
+				"eng": "Bounty Hunter",
+				"trans": "賞金獵人"
+			}
+		},
+		"netrunner": {
+			"description": {
+				"eng": "A netrunner is a hacker who uses their skills to infiltrate computer systems",
+				"trans": "網絡行走是一名利用其技能滲透電腦系統的駭客。"
+			},
+			"displayName": {
+				"eng": "Netrunner",
+				"trans": "網絡行走者"
+			}
+		},
+		"protector": {
+			"description": {
+				"eng": "A protector is a mercenary who uses their skills to protect their allies",
+				"trans": "一位保護者是一名僱傭兵，利用他們的技能保護他們的盟友。"
+			},
+			"displayName": {
+				"eng": "Protector",
+				"trans": "守護者"
+			}
+		}
+	},
 	"messageContainer": {
 		"noMessages": {
 			"eng": "No messages yet",
@@ -987,6 +1603,85 @@
 		"premiumCurrencyName": {
 			"eng": "Universal Dollars",
 			"trans": "通用幣"
+		}
+	},
+	"npc": {
+		"bar": {
+			"description": {
+				"eng": "Popular bar amounts mercenaries, you can find Chloe here and meet other mercenaries",
+				"trans": "受歡迎的酒吧聚集了許多僱傭兵，你可以在這裡找到Chloe並與其他僱傭兵會面。"
+			},
+			"greetings": {
+				"eng": [],
+				"trans": [
+					"我不喜歡閒聊，你想喝什麼？",
+					"你不太健談，我喜歡。你要點什麼？"
+				]
+			},
+			"locationName": {
+				"eng": "Red Bar",
+				"trans": "紅色條形欄"
+			},
+			"npcName": {
+				"eng": "Chloe",
+				"trans": "克洛伊"
+			}
+		},
+		"clinic": {
+			"description": {
+				"eng": "If you are injured, you can visit Oriana to fix you up, with a price of course.",
+				"trans": "如果您受傷了，您可以拜訪Oriana進行治療，當然需要付費。"
+			},
+			"npcName": {
+				"eng": "Oriana",
+				"trans": "奧莉安娜"
+			}
+		},
+		"functionality": {
+			"mercenary": {
+				"eng": "Mercenary",
+				"trans": "僱傭兵"
+			},
+			"quest": {
+				"eng": "Quest",
+				"trans": "任務"
+			},
+			"shop": {
+				"eng": "Shop",
+				"trans": "商店"
+			}
+		},
+		"generalStore": {
+			"description": {
+				"eng": "A general store, you can purchase common items here",
+				"trans": "一般商店，你可以在這裡購買常見物品。"
+			},
+			"greetings": {
+				"eng": ["Hey there, welcome to my store!"],
+				"trans": ["嘿，歡迎來到我的商店！"]
+			},
+			"locationName": {
+				"eng": "Lilith's Store",
+				"trans": "莉莉絲商店"
+			},
+			"npcName": {
+				"eng": "Lilith",
+				"trans": "莉莉絲"
+			},
+			"questLines": {
+				"eng": ["Could you do this for me?"],
+				"trans": ["你能為我做這件事嗎？"]
+			},
+			"questPendingLines": {
+				"eng": [
+					"Let me know when you have completed the objectives :)"
+				],
+				"trans": ["完成目標後請讓我知道 :)"]
+			},
+			"shopName": {
+				"eng": "Lilith\\'s Store",
+				"trans": "莉莉絲商店"
+			}
 		}
 	},
 	"playerBackpack": {
