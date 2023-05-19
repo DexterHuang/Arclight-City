@@ -173,6 +173,48 @@
 			"trans": "攻撃するには、ホールドしてからリリースしてください。"
 		}
 	},
+	"attribute": {
+		"dex": {
+			"desc": {
+				"eng": "Increase firearm damage.",
+				"trans": "火器のダメージを増加する。"
+			},
+			"name": {
+				"eng": "Dexterity",
+				"trans": "器用さ"
+			}
+		},
+		"int": {
+			"desc": {
+				"eng": "Increase energy weapon damage",
+				"trans": "エネルギー武器のダメージを増やす"
+			},
+			"name": {
+				"eng": "Intelligence",
+				"trans": "知能"
+			}
+		},
+		"str": {
+			"desc": {
+				"eng": "Increase melee damage.",
+				"trans": "近接攻撃ダメージを増やす。"
+			},
+			"name": {
+				"eng": "Strength",
+				"trans": "強さ"
+			}
+		},
+		"vit": {
+			"desc": {
+				"eng": "Increases health",
+				"trans": "体力を増加します。"
+			},
+			"name": {
+				"eng": "Vitality",
+				"trans": "生命力"
+			}
+		}
+	},
 	"backgroundTaskType": {
 		"netrunning": {
 			"description": {
@@ -229,10 +271,22 @@
 			}
 		}
 	},
+	"bundleDetailsModal": {
+		"content": {
+			"eng": "content",
+			"trans": "コンテンツ"
+		}
+	},
 	"chatPreview": {
 		"noMessage": {
 			"eng": "no message",
 			"trans": "メッセージはありません。"
+		}
+	},
+	"chooseEquipmentSlotModal": {
+		"title": {
+			"eng": "Please choose an equipment slot",
+			"trans": "装備スロットを選択してください。"
 		}
 	},
 	"circleLockMinigame": {
@@ -245,6 +299,34 @@
 		"title": {
 			"eng": "Rotate the circle to unlock",
 			"trans": "円を回してロックを解除してください。"
+		}
+	},
+	"clanTab": {
+		"playerPopup": {
+			"eng": "kick player",
+			"kickPlayer": {
+				"eng": "Kick ${playerName}",
+				"trans": "${playerName}をキックする"
+			},
+			"kickPlayerConfirm": {
+				"eng": "Are you sure you want to kick this player from your gang?",
+				"trans": "あなたは本当にこのプレイヤーをギャングから追放しますか？"
+			},
+			"trans": "プレイヤーをキックする",
+			"viewProfile": {
+				"eng": "View profile",
+				"trans": "プロフィールを見る"
+			}
+		}
+	},
+	"confirmModal": {
+		"cancel": {
+			"eng": "Cancel",
+			"trans": "キャンセルする"
+		},
+		"confirm": {
+			"eng": "Confirm",
+			"trans": "確認する"
 		}
 	},
 	"connectingOverlay": {
@@ -287,6 +369,52 @@
 		"level": {
 			"eng": "${levelName} ${level} ",
 			"trans": "${levelName} ${level}レベル"
+		}
+	},
+	"crafting": {
+		"craftModal": {
+			"title": {
+				"eng": "Select Amount",
+				"trans": "金額を選択してください。"
+			}
+		}
+	},
+	"currencyCheck": {
+		"getMore": {
+			"eng": "get more",
+			"trans": "もっと入手する"
+		},
+		"notEnough": {
+			"eng": "Insufficient ${currency}",
+			"trans": "${currency}が不足しています。"
+		}
+	},
+	"dailyRewardPopup": {
+		"claim": {
+			"eng": "Claim",
+			"trans": "クレーム"
+		},
+		"claimAll": {
+			"eng": "Claim All",
+			"trans": "全てを獲得する"
+		},
+		"claimed": {
+			"eng": "Claimed",
+			"trans": "獲得済み"
+		},
+		"pending": {
+			"eng": "pending",
+			"trans": "保留中"
+		},
+		"randomizeConfirm": {
+			"description": {
+				"eng": "this will cost ${price} ${currency}",
+				"trans": "これは${price} ${currency}になります。"
+			},
+			"title": {
+				"eng": "Are you sure you want to re-roll?",
+				"trans": "リロールしてもよろしいですか？"
+			}
 		}
 	},
 	"dailyRewardType": {
@@ -479,6 +607,54 @@
 			"trans": "地城に入る"
 		}
 	},
+	"dungeonUI": {
+		"excessiveBackpackItemModal": {
+			"cancelText": {
+				"eng": "Manage Backpack",
+				"trans": "バックパックの管理"
+			},
+			"confirmText": {
+				"eng": "Continue",
+				"trans": "続ける"
+			},
+			"description": {
+				"eng": "Are you sure you want to bring them into stronghold? \\nIf you die you will lose them.",
+				"trans": "あなたは本当に彼らを地城に連れて行くことを望みますか？\\nもし死んだら彼らを失います。"
+			},
+			"title": {
+				"eng": "there are items in your backpack",
+				"trans": "バックパックにアイテムがあります。"
+			}
+		},
+		"invNoHealing": {
+			"cancel": {
+				"eng": "Continue",
+				"trans": "続ける"
+			},
+			"confirm": {
+				"eng": "purchase",
+				"trans": "購入する"
+			},
+			"message": {
+				"eng": "Seems like your are running low on heals, purchase some to bring it to strongholds.",
+				"trans": "ヒールアイテムが少なくなっているようです。地城に持って行くために購入してください。"
+			},
+			"title": {
+				"eng": "low healing items",
+				"trans": "低回復アイテム"
+			}
+		},
+		"leaveDungeonModal": {
+			"description": {
+				"eng": "Are you sure you want to quit the dungeon?",
+				"trans": "地城を終了してよろしいですか？"
+			},
+			"title": {
+				"eng": "quit Dungeon",
+				"trans": "ダンジョンを終了する"
+			}
+		}
+	},
 	"element": {
 		"cybernetic": {
 			"name": {
@@ -527,7 +703,6 @@
 			}
 		}
 	},
-	"eng": [],
 	"equipmentSlot": {
 		"BOOTS": {
 			"name": {
@@ -662,6 +837,114 @@
 			}
 		}
 	},
+	"gang": {
+		"nameError": {
+			"tooLong": {
+				"eng": "The gang name must be at most ${maxLength} characters long",
+				"trans": "ギャング名は最大${maxLength}文字までにしてください。"
+			},
+			"tooShort": {
+				"eng": "The gang name must be at least ${minLength} characters long",
+				"trans": "ギャング名は${minLength}文字以上である必要があります。"
+			}
+		},
+		"tagError": {
+			"invalidCharacters": {
+				"eng": "The gang tag must only contain letters and numbers",
+				"trans": "ギャングタグは文字と数字のみを含める必要があります。"
+			},
+			"tooLong": {
+				"eng": "The gang tag must be at most ${maxLength} characters long",
+				"trans": "ギャングタグは最大${maxLength}文字までです。"
+			},
+			"tooShort": {
+				"eng": "The gang tag must be at least ${minLength} characters long",
+				"trans": "ギャングタグは最低${minLength}文字である必要があります。"
+			}
+		}
+	},
+	"healthSacrificePopup": {
+		"activateButton": {
+			"description": {
+				"eng": "This action will sacrifice ${hp} of your heath",
+				"trans": "このアクションはあなたの体力を${hp}消費します。"
+			},
+			"title": {
+				"eng": "Activate",
+				"trans": "アクティベートする"
+			}
+		}
+	},
+	"infoModal": {
+		"closeButton": {
+			"title": {
+				"eng": "Close",
+				"trans": "閉じる"
+			}
+		}
+	},
+	"insufficientItemModal": {
+		"insufficientCurrency": {
+			"eng": "Insufficient ${name}",
+			"trans": "${name}が不十分です。"
+		}
+	},
+	"inventory": {
+		"move": {
+			"modal": {
+				"confirm": {
+					"eng": "Move",
+					"trans": "移動する"
+				},
+				"title": {
+					"eng": "Move item",
+					"trans": "アイテムを移動する"
+				}
+			}
+		},
+		"moveItem": {
+			"error": {
+				"fullStack": {
+					"eng": "The item in target inventory is already full.",
+					"trans": "対象のインベントリにアイテムが既にいっぱいです。"
+				},
+				"inDungeon": {
+					"eng": "You cannot move items while in a dungeon.",
+					"trans": "ダンジョン内ではアイテムを動かせません。"
+				}
+			}
+		},
+		"multiSelect": {
+			"discard": {
+				"modal": {
+					"confirm": {
+						"eng": "Scrap",
+						"trans": "スクラップ"
+					},
+					"description": {
+						"eng": "Are you sure you want to scrap these items?",
+						"trans": "これらのアイテムを報廃してもよろしいですか？"
+					},
+					"title": {
+						"eng": "scrap items",
+						"trans": "報廢物品"
+					}
+				}
+			}
+		},
+		"scrap": {
+			"modal": {
+				"description": {
+					"eng": "How many do you want to scrap?",
+					"trans": "何個廃棄しますか？"
+				},
+				"title": {
+					"eng": "Scrap item",
+					"trans": "報廢アイテム"
+				}
+			}
+		}
+	},
 	"itemCard": {
 		"destroyed": {
 			"eng": "destroyed",
@@ -716,6 +999,28 @@
 		"empty": {
 			"eng": "Empty",
 			"trans": "空のままです"
+		}
+	},
+	"itemSourceModal": {
+		"chestDrop": {
+			"eng": "Dungeon chest drop",
+			"trans": "ダンジョンの宝箱ドロップ"
+		},
+		"enemyDrop": {
+			"eng": "Enemy drop",
+			"trans": "敵のドロップ"
+		},
+		"obtainedFrom": {
+			"eng": "Obtained from",
+			"trans": "取得元"
+		},
+		"premiumCurrency": {
+			"eng": "Purchase from ${npc}",
+			"trans": "${npc}から購入する"
+		},
+		"title": {
+			"eng": "Insufficient ${itemName}",
+			"trans": "${itemName}が不足しています。"
 		}
 	},
 	"itemSubType": {
@@ -855,6 +1160,114 @@
 			"name": {
 				"eng": "Weapon",
 				"trans": "武器"
+			}
+		}
+	},
+	"itemTrait": {
+		"armor": {
+			"eng": "Armor",
+			"trans": "アーマー"
+		},
+		"autoAttackDamage": {
+			"name": {
+				"eng": "Auto Attack Damage",
+				"trans": "自動攻撃ダメージ"
+			}
+		},
+		"autoAttackDamageMult": {
+			"name": {
+				"eng": "Auto Attack Damage Multiplier",
+				"trans": "自動攻撃ダメージ乗数"
+			}
+		},
+		"backpackSpace": {
+			"name": {
+				"eng": "Backpack Space",
+				"trans": "バックパックのスペース"
+			}
+		},
+		"blockChance": {
+			"name": {
+				"eng": "Block Chance",
+				"trans": "格闘率"
+			}
+		},
+		"blockStrength": {
+			"name": {
+				"eng": "Block Strength",
+				"trans": "ブロック強度"
+			}
+		},
+		"critChance": {
+			"eng": "Critical Chance",
+			"trans": "クリティカル率"
+		},
+		"critDamage": {
+			"eng": "Critical Damage",
+			"trans": "致命的ダメージ"
+		},
+		"cyberneticResistance": {
+			"name": {
+				"eng": "Cybernetic Resistance",
+				"trans": "電馭抵抗性"
+			}
+		},
+		"damageMultiplier": {
+			"name": {
+				"eng": "Damage multiplier",
+				"trans": "ダメージ乗算器"
+			}
+		},
+		"energyResistance": {
+			"name": {
+				"eng": "Energy Resistance",
+				"trans": "エネルギー抵抗性"
+			}
+		},
+		"health": {
+			"eng": "Health",
+			"trans": "健康"
+		},
+		"healthMult": {
+			"name": {
+				"eng": "Health Multiplier",
+				"trans": "体力倍率"
+			}
+		},
+		"kineticResistance": {
+			"name": {
+				"eng": "Kinetic Resistance",
+				"trans": "運動抵抗性"
+			}
+		},
+		"physicalResistance": {
+			"name": {
+				"eng": "Physical Resistance",
+				"trans": "物理抵抗力"
+			}
+		},
+		"shield": {
+			"name": {
+				"eng": "Shield",
+				"trans": "シールド"
+			}
+		},
+		"shieldMult": {
+			"name": {
+				"eng": "Shield Multiplier",
+				"trans": "シールド乗数"
+			}
+		},
+		"str": {
+			"name": {
+				"eng": "Strength",
+				"trans": "強さ"
+			}
+		},
+		"vit": {
+			"name": {
+				"eng": "Vitality",
+				"trans": "活力"
 			}
 		}
 	},
@@ -1243,7 +1656,7 @@
 				"trans": "串刺し肉とご飯で作られる、伝統的なインドネシア料理。"
 			},
 			"name": {
-				"eng": "Sate",
+				"eng": "Satay",
 				"trans": "状態表示"
 			}
 		},
@@ -1380,6 +1793,28 @@
 			}
 		}
 	},
+	"location": {
+		"districtName": {
+			"eng": "District ${id}",
+			"trans": "地区${id}"
+		}
+	},
+	"loginPage": {
+		"serverUnavailable": {
+			"eng": "Server under maintenance. We are bring it back online soon.",
+			"trans": "サーバーメンテナンス中です。近日中にオンラインに復帰します。"
+		},
+		"unableToLogin": {
+			"eng": "Unable to login, unknown error occurred. Please try again later.",
+			"trans": "ログインできません。不明なエラーが発生しました。後でもう一度お試しください。"
+		}
+	},
+	"mail": {
+		"notification": {
+			"eng": "${senderName} sent you a mail",
+			"trans": "${senderName}がメールを送信しました。"
+		}
+	},
 	"mainPage": {
 		"apartmentButton": {
 			"title": {
@@ -1448,6 +1883,16 @@
 			"trans": "ソーシャル"
 		}
 	},
+	"marketItemDetailsModal": {
+		"cantRemove": {
+			"eng": "This item has a bid and can\\'t be removed",
+			"trans": "このアイテムは入札があるため削除できません。"
+		},
+		"removeButton": {
+			"eng": "Remove from market",
+			"trans": "市場から削除する"
+		}
+	},
 	"marketItemList": {
 		"header": {
 			"buyout": {
@@ -1466,6 +1911,56 @@
 				"eng": "Time Left",
 				"trans": "残り時間"
 			}
+		}
+	},
+	"marketPurchaseModal": {
+		"bidInput": {
+			"title": {
+				"eng": "Enter your bid",
+				"trans": "入札を入力してください。"
+			}
+		},
+		"buyout": {
+			"eng": "Buyout with ${symbol}${buyOutPrice}",
+			"trans": "${symbol}${buyOutPrice}で買い取る"
+		},
+		"confirmButton": {
+			"eng": "Confirm",
+			"trans": "確認する"
+		}
+	},
+	"marketSearchFilterModal": {
+		"applyButton": {
+			"title": {
+				"eng": "Apply",
+				"trans": "適用する"
+			}
+		},
+		"maxLevelInput": {
+			"title": {
+				"eng": "MaxLevel",
+				"trans": "最高レベル"
+			}
+		},
+		"minLevelInput": {
+			"title": {
+				"eng": "MinLevel",
+				"trans": "最低レベル"
+			}
+		},
+		"tierInput": {
+			"all": {
+				"eng": "All",
+				"trans": "すべて"
+			},
+			"title": {
+				"eng": "Tier",
+				"trans": "ティア"
+			}
+		},
+		"title": {
+			"eng": "Filters",
+			"trans": "フィルター"
 		}
 	},
 	"mercenaryDetails": {
@@ -1494,6 +1989,38 @@
 		"upgrade": {
 			"eng": "Upgrade",
 			"trans": "アップグレード"
+		}
+	},
+	"mercenaryReceivePopup": {
+		"nextButton": {
+			"eng": "next",
+			"trans": "次へ"
+		},
+		"skipButton": {
+			"eng": "skip",
+			"trans": "スキップ"
+		}
+	},
+	"mercenaryReceiveSummaryPopup": {
+		"continue": {
+			"eng": "Click to continue",
+			"trans": "続けるにはクリックしてください。"
+		},
+		"title": {
+			"eng": "Mercenaries",
+			"trans": "傭兵"
+		}
+	},
+	"mercenarySelectPopup": {
+		"confirmButton": {
+			"title": {
+				"eng": "confirm",
+				"trans": "確認する"
+			}
+		},
+		"noMercenaries": {
+			"eng": "No available mercenaries",
+			"trans": "傭兵不可用。"
 		}
 	},
 	"mercenaryType": {
@@ -1528,6 +2055,12 @@
 			}
 		}
 	},
+	"mercenaryUpgradeResultPopup": {
+		"title": {
+			"eng": "Enhanced",
+			"trans": "強化された"
+		}
+	},
 	"messageContainer": {
 		"noMessages": {
 			"eng": "No messages yet",
@@ -1543,9 +2076,17 @@
 			"eng": "Netcoin",
 			"trans": "ネットコイン"
 		},
+		"claim": {
+			"eng": "Claim",
+			"trans": "クレーム"
+		},
 		"currencyName": {
 			"eng": "Eurodollar",
 			"trans": "ユーロダラー"
+		},
+		"exchange": {
+			"eng": "Exchange",
+			"trans": "交換"
 		},
 		"exp": {
 			"eng": "EXP",
@@ -1591,6 +2132,10 @@
 			"eng": "one of",
 			"trans": "一つの"
 		},
+		"open": {
+			"eng": "open",
+			"trans": "オープンする"
+		},
 		"premiumCurrencyDescription": {
 			"eng": "Universal Dollars is a rare currency that can only be obtained through premium store.",
 			"trans": "ユニバーサルドルは、プレミアムストアでしか手に入らない珍しい通貨です。"
@@ -1598,6 +2143,26 @@
 		"premiumCurrencyName": {
 			"eng": "Universal Dollars",
 			"trans": "通貨幣"
+		},
+		"purchase": {
+			"eng": "Purchase",
+			"trans": "購入する"
+		}
+	},
+	"modal": {
+		"selectAmountModal": {
+			"cancel": {
+				"eng": "cancel",
+				"trans": "キャンセル"
+			},
+			"confirm": {
+				"eng": "confirm",
+				"trans": "確認する"
+			},
+			"invalidAmount": {
+				"eng": "Invalid amount",
+				"trans": "金額が無効です。"
+			}
 		}
 	},
 	"npc": {
@@ -1607,13 +2172,7 @@
 				"trans": "人気のあるバーは傭兵たちの集まり場所であり、ここでクロエに会うことができ、他の傭兵たちとも出会えます。"
 			},
 			"greetings": {
-				"eng": [
-					"What can I get for you?",
-					"Make it quick, I don't have all day.",
-					"You're not from around here, are you?",
-					"I don't do small talk, what do you want to drink?",
-					"You're not the chatty type, I like that. What can I get you?"
-				],
+				"eng": [],
 				"trans": [
 					"What can I get for you?",
 					"Make it quick, I don't have all day.",
@@ -1631,17 +2190,13 @@
 				"trans": "クロエ"
 			},
 			"questLines": {
-				"eng": [
-					"Up for new gigs?"
-				],
+				"eng": [],
 				"trans": [
 					"Up for new gigs?"
 				]
 			},
 			"questPendingLines": {
-				"eng": [
-					"Let me know when you have completed the objectives :)"
-				],
+				"eng": [],
 				"trans": [
 					"Let me know when you have completed the objectives :)"
 				]
@@ -1653,9 +2208,7 @@
 				"trans": "アークライトシティの傭兵たちのための秘密の取引所です。ここではRenでアイテムを販売、購入できます。"
 			},
 			"greetings": {
-				"eng": [
-					"Look but don't touch. Unless you don't need your hands no more."
-				],
+				"eng": [],
 				"trans": [
 					"Look but don't touch. Unless you don't need your hands no more."
 				]
@@ -1669,17 +2222,13 @@
 				"trans": "レン"
 			},
 			"questLines": {
-				"eng": [
-					"Up for new gigs?"
-				],
+				"eng": [],
 				"trans": [
 					"Up for new gigs?"
 				]
 			},
 			"questPendingLines": {
-				"eng": [
-					"Quit wasting my time, unless you have done your job."
-				],
+				"eng": [],
 				"trans": [
 					"Quit wasting my time, unless you have done your job."
 				]
@@ -1691,9 +2240,7 @@
 				"trans": "貴方が負傷した場合、有償でオリアナに治療してもらうことができます。"
 			},
 			"greetings": {
-				"eng": [
-					"Upgrade some chromes today choom?"
-				],
+				"eng": [],
 				"trans": [
 					"Upgrade some chromes today choom?"
 				]
@@ -1707,25 +2254,19 @@
 				"trans": "オリアナ"
 			},
 			"questLines": {
-				"eng": [
-					"Up for new gigs?"
-				],
+				"eng": [],
 				"trans": [
 					"Up for new gigs?"
 				]
 			},
 			"questPendingLines": {
-				"eng": [
-					"Let me know when you have completed the objectives :)"
-				],
+				"eng": [],
 				"trans": [
 					"Let me know when you have completed the objectives :)"
 				]
 			},
 			"shopLines": {
-				"eng": [
-					"Don't just look, buy something."
-				],
+				"eng": [],
 				"trans": [
 					"Don't just look, buy something."
 				]
@@ -1737,18 +2278,7 @@
 				"trans": "ハナは、機械をいじくり回して修理することに情熱を注ぐ、知恵と技術を持った小柄な女性です。彼女の専門知識は、彼女が住む荒涼としたサイバーパンクの世界で修理を必要とする人々にとって、貴重な資産となっています。しかし、実用的な外観の裏には、静かで内省的な性格があり、しばしば考え込んでいます。彼女は細かいところに目配りができ、自分のスキルを向上させるための新しいチャレン"
 			},
 			"greetings": {
-				"eng": [
-					"Hey there, stranger! Are you ready for a little boost to help you on your journey today?",
-					"Welcome back, hon! I've got some exciting things for you to help you kick some virtual butt today.",
-					"Hey, you! Don't forget to check in with me every day for some sweet loot to make your gameplay even more epic.",
-					"Well, well, well...look who decided to log in today! I've got something that I think you're going to love.",
-					"Greetings, fellow adventurer! Let's see what kind of loot we can scavenge for you today.",
-					"Hey, there! Feeling lucky today? I've got some rewards that just might make your day a little brighter.",
-					"Howdy, partner! I'm feeling extra generous today. Don't miss out on some top-notch gear.",
-					"Welcome back, my friend! Let's see what kind of treasure we can dig up for you today.",
-					"Salutations! I hope you're ready for some loot that's out of this world today.",
-					"Good day, mate! It's always a pleasure to see you. Let's make today a good one with some fantastic rewards."
-				],
+				"eng": [],
 				"trans": [
 					"Hey there, stranger! Are you ready for a little boost to help you on your journey today?",
 					"Welcome back, hon! I've got some exciting things for you to help you kick some virtual butt today.",
@@ -1803,9 +2333,7 @@
 				"trans": "一般商店、ここで一般的なアイテムを購入できます。"
 			},
 			"greetings": {
-				"eng": [
-					"Hey there, welcome to my store!"
-				],
+				"eng": [],
 				"trans": [
 					"Hey there, welcome to my store!"
 				]
@@ -1819,17 +2347,13 @@
 				"trans": "リリス"
 			},
 			"questLines": {
-				"eng": [
-					"Could you do this for me?"
-				],
+				"eng": [],
 				"trans": [
 					"Could you do this for me?"
 				]
 			},
 			"questPendingLines": {
-				"eng": [
-					"Let me know when you have completed the objectives :)"
-				],
+				"eng": [],
 				"trans": [
 					"Let me know when you have completed the objectives :)"
 				]
@@ -1841,18 +2365,7 @@
 		},
 		"mercDraw1": {
 			"greetings": {
-				"eng": [
-					"Ready for action? Meet your new crewmates.",
-					"Time to level up. Your new crewmates are here.",
-					"The dream team? These are your new crewmates.",
-					"Welcome aboard. Meet the crewmates you'll be working with.",
-					"You're in good hands. These are your new crewmates.",
-					"New job, new crew. Meet your teammates.",
-					"Mission critical. These are your new crewmates.",
-					"New allies in the fight. Meet your crewmates.",
-					"Looking for a crew? You just found your new teammates.",
-					"Teamwork makes the dream work. Meet your new crewmates."
-				],
+				"eng": [],
 				"trans": [
 					"Ready for action? Meet your new crewmates.",
 					"Time to level up. Your new crewmates are here.",
@@ -1877,11 +2390,7 @@
 				"trans": "品質と価格が保証された地元の武器商人。ここではアイテムをアップグレードしてキャリブレーションすることもできます。"
 			},
 			"greetings": {
-				"eng": [
-					"Wanna calibrate your irons?",
-					"You break it, I fix it.\n You break it again, I break you.",
-					"I'm the best in the business. You want something done right, you come to me."
-				],
+				"eng": [],
 				"trans": [
 					"Wanna calibrate your irons?",
 					"You break it, I fix it.\n You break it again, I break you.",
@@ -1897,21 +2406,32 @@
 				"trans": "マキシン"
 			},
 			"questLines": {
-				"eng": [
-					"Up for new gigs?"
-				],
+				"eng": [],
 				"trans": [
 					"Up for new gigs?"
 				]
 			},
 			"questPendingLines": {
-				"eng": [
-					"Let me know when you have completed the objectives :)"
-				],
+				"eng": [],
 				"trans": [
 					"Let me know when you have completed the objectives :)"
 				]
 			}
+		}
+	},
+	"player": {
+		"notEnoughItem": {
+			"eng": "Not enough item: ${itemName} x${amount}",
+			"trans": "アイテムが足りません: ${itemName} x${amount}",
+			"vars": []
+		},
+		"notEnoughLevel": {
+			"eng": "Not enough level: ${levelType} ${level}",
+			"trans": "レベル不足：${levelType} ${level}"
+		},
+		"notEnoughMoney": {
+			"eng": "Not enough ${currency}: ${$}${amount}",
+			"trans": "${currency}が不足しています: ${$}${amount}"
 		}
 	},
 	"playerBackpack": {
@@ -1944,6 +2464,40 @@
 			"trans": "アイテムなし"
 		}
 	},
+	"playerNameError": {
+		"invalidCharacters": {
+			"eng": "Name can only contain letters, numbers and underscores.",
+			"trans": "名前には、文字、数字、アンダースコアしか含めることができません。"
+		},
+		"tooLong": {
+			"eng": "Name must be at most ${max} characters long.",
+			"trans": "名前は最大${max}文字までです。"
+		},
+		"tooShort": {
+			"eng": "Name must be at least ${min} characters long.",
+			"trans": "名前は少なくとも${min}文字である必要があります。"
+		}
+	},
+	"premiumShopItem": {
+		"package1": {
+			"name": {
+				"eng": "Package 1",
+				"trans": "パッケージ1"
+			}
+		},
+		"package2": {
+			"name": {
+				"eng": "Package 2",
+				"trans": "パッケージ2"
+			}
+		},
+		"package3": {
+			"name": {
+				"eng": "Package 3",
+				"trans": "パッケージ3"
+			}
+		}
+	},
 	"psychosisDisplay": {
 		"nextCycle": {
 			"eng": "${time} to next refresh",
@@ -1952,6 +2506,70 @@
 		"title": {
 			"eng": "Cyber psychosis ${percent}%",
 			"trans": "サイバーサイコーシス${percent}%。"
+		}
+	},
+	"psychosisInfoModal": {
+		"button": {
+			"eng": "Close",
+			"trans": "閉じる"
+		},
+		"description": {
+			"eng": "Cyber-psychosis is a condition that occurs when a person overuses their cybernetic abilities without proper rest, leading to a breakdown in their mental and emotional state. The constant stimulation and processing of data can overwhelm the brain, causing the person to lose touch with reality and experience hallucinations and delusions.",
+			"trans": "サイバーサイコーシスとは、十分な休息をとらずにサイバネティックな能力を過剰に使用することで、精神的・感情的状態が崩壊する状態のことです。常に刺激やデータの処理にさらされることで、脳が過負荷になり、現実感を失い、幻覚や妄想を経験することがあります。"
+		},
+		"neuroblockerDescription": {
+			"eng": "use neuroblocker to reduce psychosis",
+			"trans": "サイコーシスを軽減するために神経ブロッカーを使用する。"
+		},
+		"title": {
+			"eng": "Cyber psychosis",
+			"trans": "サイバー病気状態"
+		}
+	},
+	"purchaseCycle": {
+		"daily": {
+			"description": {
+				"eng": "Can be purchased ${amount} times every day",
+				"trans": "1日に${amount}回購入できます。",
+				"vars": []
+			},
+			"name": {
+				"eng": "Daily",
+				"trans": "デイリー"
+			}
+		},
+		"monthly": {
+			"description": {
+				"eng": "Can be purchased ${amount} times every month",
+				"trans": "月に${amount}回購入可能です。",
+				"vars": []
+			},
+			"name": {
+				"eng": "Monthly",
+				"trans": "毎月の"
+			}
+		},
+		"once": {
+			"description": {
+				"eng": "Can be purchased ${amount} times per account",
+				"trans": "アカウントごとに${amount}回購入可能です。",
+				"vars": []
+			},
+			"name": {
+				"eng": "Once",
+				"trans": "一度"
+			}
+		},
+		"weekly": {
+			"description": {
+				"eng": "Can be purchased ${amount} times every week",
+				"trans": "1週間に${amount}回まで購入可能です。",
+				"vars": []
+			},
+			"name": {
+				"eng": "Weekly",
+				"trans": "週間の"
+			}
 		}
 	},
 	"quest": {
@@ -2040,11 +2658,53 @@
 			"trans": "空の"
 		}
 	},
+	"refreshShopModal": {
+		"cancel": {
+			"eng": "Cancel",
+			"trans": "キャンセル"
+		},
+		"description": {
+			"eng": "Refreshing the shop will randomize the items and discounts. this will cost ${price} ${currency}",
+			"trans": "ショップを更新すると、アイテムと割引がランダム化されます。これには${price} ${currency}が必要です。"
+		},
+		"refresh": {
+			"eng": "Refresh Now",
+			"trans": "今すぐ更新する"
+		},
+		"title": {
+			"eng": "Refresh shop items",
+			"trans": "ショップアイテムをリフレッシュする"
+		}
+	},
 	"reward": {
 		"exp": {
 			"increase": {
 				"eng": "+${amount} ${levelType} EXP",
 				"trans": "+${amount} ${levelType} 経験値"
+			}
+		}
+	},
+	"rewardReceivedModal": {
+		"defeatEnemy": {
+			"title": {
+				"eng": "Victory",
+				"trans": "勝利"
+			}
+		},
+		"description": {
+			"eng": "Click to close",
+			"trans": "閉じるをクリックする"
+		},
+		"questComplete": {
+			"title": {
+				"eng": "Quest Complete",
+				"trans": "クエスト完了"
+			}
+		},
+		"received": {
+			"title": {
+				"eng": "Received",
+				"trans": "受信しました。"
 			}
 		}
 	},
@@ -2062,6 +2722,178 @@
 		"min": {
 			"eng": "min",
 			"trans": "最小値"
+		}
+	},
+	"shop": {
+		"notEnoughCurrency": {
+			"eng": "You do not have enough ${currency}",
+			"trans": "${currency}が十分でありません。"
+		},
+		"selectAmountModel": {
+			"content": {
+				"eng": "You are about to purchase ${amount} ${item}, total: ${total}${currencySymbol}",
+				"trans": "${amount}個の${item}を購入しようとしています。合計金額は${total}${currencySymbol}です。"
+			},
+			"title": {
+				"eng": "How many would you like to purchase?",
+				"trans": "何個購入しますか？"
+			}
+		}
+	},
+	"stat": {
+		"armor": {
+			"eng": "Armor",
+			"trans": "防具"
+		},
+		"autoDmg": {
+			"eng": "Auto Attack Damage",
+			"trans": "自動攻撃のダメージ"
+		},
+		"autoDmgMult": {
+			"eng": "Auto Attack Damage Multiplier",
+			"trans": "自動攻撃のダメージ乗数"
+		},
+		"backpackSlot": {
+			"eng": "Backpack Slot",
+			"trans": "バックパックスロット"
+		},
+		"blockChance": {
+			"eng": "Block Chance",
+			"trans": "格闘率"
+		},
+		"blockStrength": {
+			"eng": "Block Strength",
+			"trans": "ブロック強度"
+		},
+		"critChance": {
+			"eng": "Critical Chance",
+			"trans": "クリティカル率"
+		},
+		"critDmg": {
+			"eng": "Critical Damage",
+			"trans": "致命的なダメージ"
+		},
+		"cyberneticResistance": {
+			"eng": "Cybernetic Resistance",
+			"trans": "電馭抵抗性"
+		},
+		"damageMult": {
+			"eng": "Damage Multiplier",
+			"trans": "ダメージ乗数"
+		},
+		"dex": {
+			"eng": "Dexterity",
+			"trans": "器用さ"
+		},
+		"dmg": {
+			"eng": "Damage",
+			"trans": "ダメージ"
+		},
+		"dmgResistance": {
+			"eng": "Damage Reduction",
+			"trans": "ダメージ軽減"
+		},
+		"energyResistance": {
+			"eng": "Energy Resistance",
+			"trans": "エネルギー耐性"
+		},
+		"escape": {
+			"eng": "Escape Chance",
+			"trans": "脱出確率"
+		},
+		"headshotMult": {
+			"eng": "Headshot Multiplier",
+			"trans": "ヘッドショット乗数"
+		},
+		"health": {
+			"eng": "Health",
+			"trans": "健康"
+		},
+		"healthPercent": {
+			"eng": "Max Health Multiplier",
+			"trans": "最大体力乗数"
+		},
+		"int": {
+			"eng": "Intelligence",
+			"trans": "知能"
+		},
+		"inventorySlot": {
+			"eng": "Inventory Slot",
+			"trans": "インベントリスロット"
+		},
+		"kineticResistance": {
+			"eng": "Kinetic Resistance",
+			"trans": "運動抵抗力"
+		},
+		"physicalResistance": {
+			"eng": "Physical Resistance",
+			"trans": "物理抵抗"
+		},
+		"shield": {
+			"eng": "Shield",
+			"trans": "シールド"
+		},
+		"shieldPercent": {
+			"eng": "Max Shield Multiplier",
+			"trans": "最大シールド乗数"
+		},
+		"str": {
+			"eng": "Strength",
+			"trans": "強さ"
+		},
+		"vit": {
+			"eng": "Vitality",
+			"trans": "生命力"
+		}
+	},
+	"statusEffect": {
+		"defense1": {
+			"desc": {
+				"eng": "Defended target will take ${percent}% less damage",
+				"trans": "防御されたターゲットはダメージを${percent}% 受けません。"
+			},
+			"name": {
+				"eng": "Defense I",
+				"trans": "防御"
+			}
+		},
+		"heal": {
+			"combatMsg": {
+				"eng": "${name} recovered ${heal} health",
+				"trans": "${name}は${heal}回復した。"
+			},
+			"desc": {
+				"eng": "Healed target will recover health every turn",
+				"trans": "回復された対象は、毎ターン体力を回復します。"
+			},
+			"name": {
+				"eng": "Healed",
+				"trans": "回復完了"
+			}
+		},
+		"poison": {
+			"combatMsg": {
+				"eng": "${name} received ${damage} damage from poison",
+				"trans": "${name}は毒により${damage}のダメージを受けました。"
+			},
+			"desc": {
+				"eng": "Poisoned target will receive damage every turn",
+				"trans": "毒を受けたターゲットは、毎ターンダメージを受けます。"
+			},
+			"name": {
+				"eng": "Poisoned",
+				"trans": "毒を受けた"
+			}
+		},
+		"power1": {
+			"desc": {
+				"eng": "Powered target will deal ${percent}% more damage",
+				"trans": "強化したターゲットはダメージが${percent}%増加します。"
+			},
+			"name": {
+				"eng": "Power I",
+				"trans": "パワー I"
+			}
 		}
 	},
 	"statusInventory": {
@@ -2144,6 +2976,89 @@
 			}
 		}
 	},
+	"textareaModal": {
+		"defaultConfirmButton": {
+			"eng": "Confirm",
+			"trans": "確認する"
+		}
+	},
+	"tier": {
+		"common": {
+			"name": {
+				"eng": "Common",
+				"trans": "コモン"
+			}
+		},
+		"epic": {
+			"name": {
+				"eng": "Epic",
+				"trans": "エピック"
+			}
+		},
+		"rare": {
+			"name": {
+				"eng": "Rare",
+				"trans": "希少な"
+			}
+		},
+		"uncommon": {
+			"name": {
+				"eng": "Uncommon",
+				"trans": "ユニコーン"
+			}
+		},
+		"unique": {
+			"name": {
+				"eng": "Unique",
+				"trans": "ユニーク"
+			}
+		}
+	},
+	"time": {
+		"distanceToNow": {
+			"ago": {
+				"eng": "${duration} ago",
+				"trans": "${duration}前"
+			},
+			"fromNow": {
+				"eng": "in ${duration}",
+				"trans": "${duration}中に"
+			}
+		},
+		"duration": {
+			"days": {
+				"eng": "${days} days",
+				"trans": "${days}日間",
+				"vars": []
+			},
+			"hours": {
+				"eng": "${hours} hours",
+				"trans": "${hours}時間",
+				"vars": []
+			},
+			"minutes": {
+				"eng": "${minutes} minutes",
+				"trans": "${minutes}分",
+				"vars": []
+			},
+			"seconds": {
+				"eng": "${seconds} seconds",
+				"trans": "${seconds} 秒",
+				"vars": []
+			},
+			"years": {
+				"eng": "${years} years",
+				"trans": "${years}年間",
+				"vars": []
+			}
+		}
+	},
+	"timeSacrificePopup": {
+		"remainingTime": {
+			"eng": "Remaining time",
+			"trans": "残り時間"
+		}
+	},
 	"timedRefreshButton": {
 		"refreshIn": {
 			"eng": "Refresh in:",
@@ -2161,27 +3076,43 @@
 		}
 	},
 	"trade": {
+		"accepted": {
+			"eng": "Trade accepted",
+			"trans": "取引が承認されました。"
+		},
+		"invitePopup": {
+			"acceptButton": {
+				"eng": "Accept",
+				"trans": "承認する"
+			},
+			"cancelButton": {
+				"eng": "Cancel",
+				"trans": "キャンセルする"
+			},
+			"description": {
+				"eng": "You have received a trade invite from ${inviter}.",
+				"trans": "${inviter}からトレードの招待が届きました。"
+			},
+			"title": {
+				"eng": "Trade invite",
+				"trans": "取引の招待"
+			}
+		},
 		"lock": {
 			"eng": "lock deal",
 			"trans": "取引をロックする"
+		},
+		"selectAmountModal": {
+			"title": {
+				"eng": "Select amount",
+				"trans": "金額を選択してください。"
+			}
 		},
 		"unlock": {
 			"eng": "unlock deal",
 			"trans": "ディールをアンロックする"
 		}
 	},
-	"trans": [
-		"アクションの準備はできましたか？新しいクルーメンバーに会いましょう。",
-		"レベルアップの時間です。あなたの新しいクルーメイトがここにいます。",
-		"夢のチーム？こちらが新しいクルーメイトです。",
-		"ようこそ。一緒に働くクルーたちに会ってください。",
-		"あなたは安心してください。これらがあなたの新しいクルーメイトです。",
-		"新しい仕事、新しいクルー。あなたのチームメイトに会いましょう。",
-		"ミッションクリティカルです。これがあなたの新しいクルーメイトです。",
-		"戦いに新たな仲間。クルーと出会おう。",
-		"クルーを探していますか？あなたの新しいチームメイトが見つかりました。",
-		"チームワークは夢を実現する。新しいクルーメンバーに会いましょう。"
-	],
 	"tutorial": {
 		"attack": {
 			"eng": "Hold and release at correct timing to perform attacks.",
@@ -2257,6 +3188,12 @@
 		}
 	},
 	"ui": {
+		"assignQuickSlotModal": {
+			"title": {
+				"eng": "Select an item to assign to quick slot ${slotIndex}",
+				"trans": "クイックスロット${slotIndex}に割り当てるアイテムを選択してください。"
+			}
+		},
 		"back": {
 			"eng": "Back",
 			"trans": "戻る"
@@ -2281,14 +3218,76 @@
 				"trans": "クエスト"
 			}
 		},
+		"equipmentModal": {
+			"changeEquipment": {
+				"eng": "Change equipment",
+				"trans": "装備を変更する"
+			},
+			"unequip": {
+				"eng": "Unequip",
+				"trans": "脱ぐ"
+			},
+			"viewDetails": {
+				"eng": "View details",
+				"trans": "詳細を見る"
+			}
+		},
 		"health": {
 			"eng": "health",
 			"trans": "ヘルス"
+		},
+		"itemModal": {
+			"viewDetails": {
+				"eng": "View Details",
+				"trans": "詳細を見る"
+			}
+		},
+		"itemSelectModal": {
+			"noItems": {
+				"eng": "No available items",
+				"trans": "利用可能なアイテムはありません。"
+			}
+		},
+		"mainMenu": {
+			"dailyReward": {
+				"eng": "Daily Reward",
+				"trans": "デイリーリワード"
+			},
+			"logoutButton": {
+				"eng": "logout",
+				"trans": "ログアウト"
+			},
+			"settings": {
+				"eng": "Settings",
+				"trans": "設定"
+			}
 		},
 		"mainPage": {
 			"chatButton": {
 				"eng": "chat",
 				"trans": "チャット"
+			}
+		},
+		"misc": {
+			"equip": {
+				"eng": "Equip",
+				"trans": "装備する"
+			}
+		},
+		"restart": {
+			"title": {
+				"eng": "Server is restarting...",
+				"trans": "サーバーが再起動しています..."
+			}
+		},
+		"selectItemModal": {
+			"noItems": {
+				"eng": "No available item",
+				"trans": "アイテムがありません。"
+			},
+			"title": {
+				"eng": "Select item",
+				"trans": "アイテムを選択してください。"
 			}
 		},
 		"shield": {
@@ -2299,6 +3298,34 @@
 			"title": {
 				"eng": "Back",
 				"trans": "戻る"
+			}
+		}
+	},
+	"upgradeItem": {
+		"error": {
+			"alreadyIdentified": {
+				"eng": "This item does not have unidentified traits",
+				"trans": "このアイテムには未識別の特性がありません。"
+			},
+			"levelNonTierMismatch": {
+				"eng": "Can't level a ${itemTier} item, ${shardName} can only be used with ${requiredTier} items",
+				"trans": "${itemTier}階アイテムをレベルアップできません。${shardName}は${requiredTier}階アイテムにのみ使用できます。"
+			},
+			"levelUpTooHigh": {
+				"eng": "You cannot level up an item higher than your level",
+				"trans": "アイテムのレベルは、プレイヤーのレベルより高くすることはできません。"
+			},
+			"maxLevelUpTimesReached": {
+				"eng": "Item has reached max amount of times it can be leveled up",
+				"trans": "アイテムは最大レベルに達しました。"
+			},
+			"resetNonTierMismatch": {
+				"eng": "Can't reset a ${itemTier} item, ${shardName} can only be used with ${requiredTier} items",
+				"trans": "${itemTier}アイテムをリセットできません。${shardName}は${requiredTier}アイテムにのみ使用できます。"
+			},
+			"upgradeNonTierMismatch": {
+				"eng": "Can't upgrade a ${itemTier} item, ${shardName} can only be used with ${requiredTier} items",
+				"trans": "${itemTier}のアイテムはアップグレードできません。${shardName}は${requiredTier}アイテムでのみ使用できます。"
 			}
 		}
 	},
