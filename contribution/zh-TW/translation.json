@@ -1607,80 +1607,85 @@
 	},
 	"npc": {
 		"bar": {
-			"description": {
-				"eng": "Popular bar amounts mercenaries, you can find Chloe here and meet other mercenaries",
-				"trans": "受歡迎的酒吧聚集了許多僱傭兵，你可以在這裡找到Chloe並與其他僱傭兵會面。"
-			},
 			"greetings": {
 				"eng": [],
 				"trans": [
+					"你不是這裡的人，對吧？",
 					"我不喜歡閒聊，你想喝什麼？",
-					"你不太健談，我喜歡。你要點什麼？"
+					"你不太健談，我喜歡。你想要什麼？"
 				]
 			},
-			"locationName": {
-				"eng": "Red Bar",
-				"trans": "紅色條形欄"
+			"questLines": {
+				"eng": [],
+				"trans": [
+					"有新的任務嗎？"
+				]
 			},
-			"npcName": {
-				"eng": "Chloe",
-				"trans": "克洛伊"
+			"questPendingLines": {
+				"eng": [],
+				"trans": [
+					"完成目標後請通知我 :)"
+				]
+			}
+		},
+		"blackMarket": {
+			"greetings": {
+				"eng": [],
+				"trans": [
+					"看看就好，別動。除非你不再需要你的手。"
+				]
+			},
+			"questLines": {
+				"eng": [],
+				"trans": [
+					"有新的工作嗎？"
+				]
 			}
 		},
 		"clinic": {
-			"description": {
-				"eng": "If you are injured, you can visit Oriana to fix you up, with a price of course.",
-				"trans": "如果您受傷了，您可以拜訪Oriana進行治療，當然需要付費。"
+			"greetings": {
+				"eng": [],
+				"trans": [
+					"今天升級一些電馭裝備嗎，朋友？"
+				]
 			},
-			"npcName": {
-				"eng": "Oriana",
-				"trans": "奧莉安娜"
-			}
-		},
-		"functionality": {
-			"mercenary": {
-				"eng": "Mercenary",
-				"trans": "僱傭兵"
+			"questLines": {
+				"eng": [],
+				"trans": [
+					"有新任務嗎？"
+				]
 			},
-			"quest": {
-				"eng": "Quest",
-				"trans": "任務"
+			"questPendingLines": {
+				"eng": [],
+				"trans": [
+					"完成目標後請通知我 :)"
+				]
 			},
-			"shop": {
-				"eng": "Shop",
-				"trans": "商店"
+			"shopLines": {
+				"eng": [],
+				"trans": [
+					"不要只是看，買些東西。"
+				]
 			}
 		},
 		"generalStore": {
-			"description": {
-				"eng": "A general store, you can purchase common items here",
-				"trans": "一般商店，你可以在這裡購買常見物品。"
-			},
 			"greetings": {
-				"eng": ["Hey there, welcome to my store!"],
-				"trans": ["嘿，歡迎來到我的商店！"]
-			},
-			"locationName": {
-				"eng": "Lilith's Store",
-				"trans": "莉莉絲商店"
-			},
-			"npcName": {
-				"eng": "Lilith",
-				"trans": "莉莉絲"
+				"eng": [],
+				"trans": [
+					"嘿，歡迎來到我的商店！"
+				]
 			},
 			"questLines": {
-				"eng": ["Could you do this for me?"],
-				"trans": ["你能為我做這件事嗎？"]
+				"eng": [],
+				"trans": [
+					"你能為我做這件事嗎？"
+				]
 			},
 			"questPendingLines": {
-				"eng": [
-					"Let me know when you have completed the objectives :)"
-				],
-				"trans": ["完成目標後請讓我知道 :)"]
-			},
-			"shopName": {
-				"eng": "Lilith\\'s Store",
-				"trans": "莉莉絲商店"
+				"eng": [],
+				"trans": [
+					"完成目標後請讓我知道 :)"
+				]
 			}
 		}
 	},
