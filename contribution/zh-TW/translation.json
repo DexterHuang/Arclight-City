@@ -34,7 +34,7 @@
 	"ability": {
 		"attack": {
 			"description": {
-				"eng": "Attacks the enemy for certain amount of damage",
+				"eng": "Attacks the enemy for ${amount}",
 				"trans": "對敵人造成一定量的傷害"
 			},
 			"triggered": {
@@ -44,18 +44,48 @@
 		},
 		"attack_group": {
 			"description": {
-				"eng": "Attacks the enemy for certain amount of damage",
+				"eng": "Attacks the enemy for ${amount}",
 				"trans": "對敵人造成一定量的傷害"
+			}
+		},
+		"burn": {
+			"description": {
+				"eng": "Burns targeted enemy for ${amount} damage for ${turns} turns",
+				"trans": "對目標敵人造成${amount}點傷害，持續${turns}回合"
+			},
+			"triggered": {
+				"eng": "${merc} burns ${enemy}, ${enemy} received ${damage} damage.",
+				"trans": "${merc}燃燒了${enemy}，${enemy}受到了${damage}的傷害。"
+			}
+		},
+		"burnGroup": {
+			"description": {
+				"eng": "Burns all enemies for ${amount} damage for ${turns} turns",
+				"trans": "對所有敵人造成${amount}點傷害，持續${turns}回合"
+			},
+			"triggered": {
+				"eng": "${merc} burns all enemies, dealt ${damage} damage each",
+				"trans": "${merc}燃燒所有敵人，每個敵人受到${damage}的傷害"
 			}
 		},
 		"heal": {
 			"description": {
-				"eng": "Heals your character for certain amount of health",
+				"eng": "Heals your character for ${amount} points",
 				"trans": "治療你的角色一定量的生命值。"
 			},
 			"triggered": {
 				"eng": "${merc} Healed ${playerName} for ${amount} health",
 				"trans": "${merc}為${playerName}恢復了${amount}點生命值"
+			}
+		},
+		"healGroup": {
+			"description": {
+				"eng": "Heals your team for ${amount} health",
+				"trans": "治療你的團隊${amount}點生命值"
+			},
+			"triggered": {
+				"eng": "${merc} healed the team for ${amount} health",
+				"trans": "${merc}為團隊恢復了${amount}點生命值"
 			}
 		},
 		"heal_group": {
@@ -68,14 +98,44 @@
 				"trans": "${merc}為團隊恢復了${amount}點生命值"
 			}
 		},
-		"poisonGroup": {
+		"poison": {
 			"description": {
-				"eng": "Poisons the enemy for certain amount of damage",
-				"trans": "對敵人施加毒素，造成一定量的傷害。"
+				"eng": "Poisons the enemy for ${amount}",
+				"trans": "對敵人進行${amount}的毒害"
 			},
 			"triggered": {
 				"eng": "${merc} poisoned ${enemy}, ${enemy} received ${damage} damage.",
+				"trans": "${merc}毒害了${enemy}，${enemy}受到了${damage}的傷害。"
+			}
+		},
+		"poisonGroup": {
+			"description": {
+				"eng": "Poisons all enemies for ${amount}",
+				"trans": "對敵人施加毒素，造成一定量的傷害。"
+			},
+			"triggered": {
+				"eng": "${merc} poisoned all enemies, dealt ${damage} damage each.",
 				"trans": "${merc} 毒害了所有敵人，${enemy} 受到了 ${damage} 點傷害。"
+			}
+		},
+		"shield": {
+			"description": {
+				"eng": "Recharge your character's shield for ${amount}",
+				"trans": "為您的角色充能${amount}的護盾"
+			},
+			"triggered": {
+				"eng": "${merc} shielded ${playerName} for ${amount} health",
+				"trans": "${merc}為${playerName}提供了${amount}點生命護盾"
+			}
+		},
+		"shieldGroup": {
+			"description": {
+				"eng": "Shields your team for ${amount} health",
+				"trans": "為您的隊伍護盾增加${amount}生命值"
+			},
+			"triggered": {
+				"eng": "${merc} shields the team for ${amount}",
+				"trans": "${merc}為隊伍提供${amount}的護盾"
 			}
 		},
 		"subtitle": {
@@ -92,13 +152,13 @@
 		},
 		"apartment1": {
 			"displayName": {
-				"eng": "Budget Studio",
+				"eng": "Low-end Apartment",
 				"trans": "預算工作室"
 			}
 		},
 		"apartment2": {
 			"displayName": {
-				"eng": "Standard Studio",
+				"eng": "Budget Studio",
 				"trans": "標準工作室"
 			}
 		},
@@ -108,9 +168,31 @@
 				"trans": "市中心公寓"
 			}
 		},
+		"enter": {
+			"blocked": {
+				"eng": "This apartment cannot entered at this moment.",
+				"trans": "此時無法進入該公寓。"
+			}
+		},
+		"error": {
+			"enterNotIdle": {
+				"eng": "You can only enter an apartment when you are idle",
+				"trans": "只有在閒置時才能進入公寓"
+			}
+		},
 		"guest": {
 			"eng": "guest",
 			"trans": "訪客"
+		},
+		"invite": {
+			"blocked": {
+				"eng": "This player cannot be invited at this moment.",
+				"trans": "此玩家目前無法被邀請。"
+			}
+		},
+		"kick": {
+			"eng": "${kicker} has removed you from apartment",
+			"trans": "${kicker}已將您從公寓中移除"
 		},
 		"noApartment": {
 			"displayName": {
@@ -123,9 +205,21 @@
 			"trans": "玩家們"
 		},
 		"purchase": {
+			"notEnoughMoney": {
+				"eng": "You do not have enough money to rent this apartment.",
+				"trans": "您沒有足夠的錢來租這間公寓。"
+			},
 			"success": {
 				"eng": "You have purchased the apartment.",
 				"trans": "你已經購買了公寓。"
+			}
+		},
+		"rental": {
+			"paid": {
+				"title": {
+					"eng": "Apartment rental fee ${amount} has been deducted from your account",
+					"trans": "您的帳戶已扣除公寓租金費用 ${amount}"
+				}
 			}
 		}
 	},
@@ -140,10 +234,52 @@
 		}
 	},
 	"apartmentPage": {
+		"deliveryButton": {
+			"title": {
+				"eng": "Deliveries",
+				"trans": "運送"
+			}
+		},
 		"kitchen": {
 			"title": {
 				"eng": "kitchen",
 				"trans": "廚房"
+			}
+		},
+		"kitchenButton": {
+			"title": {
+				"eng": "kitchen",
+				"trans": "廚房"
+			}
+		},
+		"nextRental": {
+			"eng": "Next rental date: ${date}",
+			"trans": "下一次租借日期：${date}"
+		},
+		"noApartment": {
+			"description": {
+				"eng": "view available apartments online",
+				"trans": "在線查看可用公寓"
+			},
+			"title": {
+				"eng": "No apartment",
+				"trans": "沒有公寓"
+			}
+		},
+		"noApartmentButton": {
+			"description": {
+				"eng": "View available apartments online",
+				"trans": "在線查看可用公寓"
+			}
+		},
+		"playerModal": {
+			"details": {
+				"eng": "details",
+				"trans": "詳細資料"
+			},
+			"kick": {
+				"eng": "kick from apartment",
+				"trans": "從公寓踢出"
 			}
 		},
 		"purchase": {
@@ -158,13 +294,29 @@
 		}
 	},
 	"apartmentPurchasePage": {
+		"confirmDescription": {
+			"eng": "Are you sure you want to rent this apartment?",
+			"trans": "您確定要租這間公寓嗎？"
+		},
+		"confirmTitle": {
+			"eng": "Confirm Rental",
+			"trans": "確認租借"
+		},
 		"owned": {
-			"eng": "owned",
+			"eng": "Owned",
 			"trans": "擁有的"
+		},
+		"perWeek": {
+			"eng": "Per week",
+			"trans": "每週"
 		},
 		"purchase": {
 			"eng": "upgrade",
 			"trans": "升級"
+		},
+		"rent": {
+			"eng": "Rent Now",
+			"trans": "立即租借"
 		}
 	},
 	"attackBar": {
@@ -232,6 +384,26 @@
 		}
 	},
 	"backgroundTask": {
+		"cancelConfirmCancel": {
+			"eng": "Terminate task",
+			"trans": "終止任務"
+		},
+		"cancelConfirmDescription": {
+			"eng": "Material and time consumed will be lost.",
+			"trans": "材料和時間消耗將會遺失。"
+		},
+		"cancelConfirmTitle": {
+			"eng": "Terminate task?",
+			"trans": "終止任務？"
+		},
+		"completeButton": {
+			"eng": "Complete",
+			"trans": "完成"
+		},
+		"completed": {
+			"eng": "Task completed",
+			"trans": "任務完成"
+		},
 		"emptyTask": {
 			"description": {
 				"eng": "Click to choose a task",
@@ -241,6 +413,10 @@
 				"eng": "Task slot available",
 				"trans": "任務欄位可用"
 			}
+		},
+		"inProgress": {
+			"eng": "Task in progress...",
+			"trans": "任務進行中..."
 		}
 	},
 	"backgroundTaskPage": {
@@ -249,11 +425,11 @@
 			"trans": "分配新任務"
 		},
 		"description": {
-			"eng": "Manage your known mercenaries adn assign gigs to them",
+			"eng": "Here shows all your tasks that you are performing.",
 			"trans": "管理你已知的傭兵並指派工作給他們"
 		},
 		"maxTasks": {
-			"eng": "Apartment Capacity: ${currentTasks} / ${maxTasks}",
+			"eng": "Max tasks: ${currentTasks} / ${maxTasks}",
 			"trans": "公寓容量：${currentTasks} / ${maxTasks}"
 		},
 		"slotAvailable": {
@@ -261,11 +437,91 @@
 			"trans": "第${i}個插槽可用"
 		},
 		"title": {
-			"eng": "Task Management",
+			"eng": "Tasks",
 			"trans": "任務管理"
 		}
 	},
+	"backgroundTaskStartPopup": {
+		"cost": {
+			"eng": "Cost",
+			"trans": "花費"
+		},
+		"rewards": {
+			"eng": "possible rewards",
+			"trans": "可能的獎勵"
+		},
+		"skipButton": {
+			"description": {
+				"eng": "Consumes ${price} ${currency}",
+				"trans": "消耗 ${price} ${currency}"
+			},
+			"title": {
+				"eng": "Instant Complete",
+				"trans": "立即完成"
+			}
+		},
+		"startButton": {
+			"description": {
+				"eng": "Takes ${time}",
+				"trans": "需要 ${time}"
+			},
+			"title": {
+				"eng": "start task",
+				"trans": "開始任務"
+			}
+		},
+		"time": {
+			"eng": "Time Required",
+			"trans": "所需時間"
+		}
+	},
 	"backgroundTaskType": {
+		"abandonedCity": {
+			"displayName": {
+				"eng": "Mirai District",
+				"trans": "未來區"
+			}
+		},
+		"bodyguard": {
+			"description": {
+				"eng": "Safeguard high-profile clients, engage in high-octane combat, and use advanced tech to ensure protection amidst urban dystopia.",
+				"trans": "保護高知名度的客戶，參與高強度的戰鬥，並使用先進的技術確保在都市末世中的保護。"
+			},
+			"displayName": {
+				"eng": "Bodyguard",
+				"trans": "保鏢"
+			}
+		},
+		"clanMaintenance": {
+			"description": {
+				"eng": "Contribute to clan maintenance",
+				"trans": "貢獻到氏族維護"
+			},
+			"displayName": {
+				"eng": "Clan Maintenance",
+				"trans": "氏族維護"
+			}
+		},
+		"hospital": {
+			"description": {
+				"eng": "Mirai; Once a picturesque tourist haven, it now stands abandoned, ravaged by soaring crime rates and leaked radiation. In this desolate landscape, only a handful of desperate junkies and ruthless mercenaries remain, scavenging for whatever loot they can find amidst the ruins.",
+				"trans": "作為創傷隊的提取專家，唯一的目標是從致命的情況中提取確保的客戶。"
+			},
+			"displayName": {
+				"eng": "Extraction Specialist",
+				"trans": "提取專家"
+			}
+		},
+		"junkyard1": {
+			"description": {
+				"eng": "Navigate hazardous junkyards, uncover hidden treasures, and salvage valuable tech",
+				"trans": "導航危險的廢品場，揭露隱藏的寶藏，並回收有價值的科技"
+			},
+			"displayName": {
+				"eng": "Salvaging Mission",
+				"trans": "拯救任務"
+			}
+		},
 		"netrunning": {
 			"description": {
 				"eng": "hack into the cyberspace and steal some useful data to sell in the black market",
@@ -292,10 +548,28 @@
 				"trans": "為你的幫派貢獻領地控制"
 			},
 			"displayName": {
-				"eng": "territory",
+				"eng": "Territory Control",
 				"trans": "領土"
 			}
+		},
+		"thieving": {
+			"description": {
+				"eng": "Infiltrate fortified corporate facilities, hack systems, and pilfer cutting-edge tech & secrets, all to satisfy shadowy clients' demands.",
+				"trans": "滲透堅固的企業設施，駭入系統，並竊取尖端科技和秘密，全都是為了滿足神秘客戶的需求。"
+			},
+			"displayName": {
+				"eng": "Thieving",
+				"trans": "偷竊"
+			}
 		}
+	},
+	"backgroundTaskUpgradePopup": {
+		"description": {
+			"eng": "Upgrade your slots to increase the amount of background tasks you can run at the same time.",
+			"trans": "升級您的插槽以增加您可以同時運行的背景任務數量。"
+		},
+		"eng": "Upgrade Slots",
+		"trans": "升級插槽"
 	},
 	"backpack": {
 		"multiSelect": {
@@ -326,6 +600,18 @@
 		}
 	},
 	"bundle": {
+		"dailyFree": {
+			"name": {
+				"eng": "Daily Free Bundle",
+				"trans": "每日免費禮包"
+			}
+		},
+		"itemUpgradeDeal": {
+			"name": {
+				"eng": "Item Upgrade Deal",
+				"trans": "物品升級交易"
+			}
+		},
 		"mercenary": {
 			"name": {
 				"eng": "Mercenary Bundle",
@@ -345,7 +631,47 @@
 			"trans": "內容"
 		}
 	},
+	"calibrationResultPopup": {
+		"calibrating": {
+			"eng": "Calibrating...",
+			"trans": "校準中..."
+		},
+		"confirm": {
+			"eng": "Confirm",
+			"trans": "確認"
+		},
+		"failed": {
+			"description": {
+				"eng": "Calibration was unsuccessful. item preserved.",
+				"trans": "校準失敗。物品已保留。"
+			},
+			"title": {
+				"eng": "Calibration failed",
+				"trans": "校準失敗"
+			}
+		},
+		"failedDestroyed": {
+			"description": {
+				"eng": "Item damaged, repair is possible.",
+				"trans": "物品損壞，可以修復。"
+			},
+			"title": {
+				"eng": "Item destroyed",
+				"trans": "物品已摧毀"
+			}
+		},
+		"success": {
+			"title": {
+				"eng": "Calibration success",
+				"trans": "校準成功"
+			}
+		}
+	},
 	"characterCreate": {
+		"confirm": {
+			"eng": "confirm",
+			"trans": "確認"
+		},
 		"confirmModal": {
 			"description": {
 				"eng": "Are you sure you want to create a character with this name?",
@@ -356,6 +682,16 @@
 				"trans": "你的名字是\"${name}\"？",
 				"vars": []
 			}
+		},
+		"createButton": {
+			"label": {
+				"eng": "create",
+				"trans": "創建"
+			}
+		},
+		"nameInput": {
+			"eng": "name",
+			"trans": "名稱"
 		}
 	},
 	"chatPreview": {
@@ -382,14 +718,78 @@
 			"trans": "旋轉圓圈以解鎖"
 		}
 	},
+	"clan": {
+		"imageBlocked": {
+			"text": {
+				"eng": "We use Google Image AI to scan for potentially inappropriate images. this may be cause by the image containing lewd, gore, violence or other inappropriate content.",
+				"trans": "我們使用Google圖像AI來掃描潛在的不適當圖像。這可能是由於圖像包含淫穢、血腥、暴力或其他不適當的內容。"
+			},
+			"title": {
+				"eng": "Selected image not allowed",
+				"trans": "所選圖片不允許使用"
+			}
+		},
+		"imageChanged": {
+			"eng": "Image updated successfully",
+			"trans": "圖片更新成功"
+		},
+		"notification": {
+			"collapsed": {
+				"title": {
+					"eng": "Your gang has collapsed!",
+					"trans": "你的幫派已經崩潰了！"
+				}
+			}
+		}
+	},
+	"clanDetailHeader": {
+		"isPrivate": {
+			"eng": "Private",
+			"trans": "私人"
+		},
+		"isPublic": {
+			"eng": "Public",
+			"trans": "公開的"
+		}
+	},
 	"clanDetailsPage": {
+		"depositButton": {
+			"eng": "Deposit",
+			"trans": "存款"
+		},
+		"depositModal": {
+			"description": {
+				"eng": "Enter the amount of funds you want to deposit to your gang",
+				"trans": "請輸入您要存入幫派的資金金額"
+			},
+			"title": {
+				"eng": "Deposit funds",
+				"trans": "存款資金"
+			}
+		},
 		"editMottoButton": {
 			"eng": "Edit Motto",
 			"trans": "編輯口號"
 		},
+		"funds": {
+			"eng": "Funds",
+			"trans": "資金"
+		},
+		"joinButton": {
+			"eng": "Join",
+			"trans": "加入"
+		},
 		"leaveClan": {
 			"eng": "leave gang",
 			"trans": "離開幫派"
+		},
+		"makePrivate": {
+			"eng": "Make Private",
+			"trans": "設為私人"
+		},
+		"makePublic": {
+			"eng": "Make Public",
+			"trans": "公開化"
 		},
 		"members": {
 			"eng": "Current Members: ${memberCount}/${maxMembers}",
@@ -405,6 +805,10 @@
 				"trans": "編輯幫派座右銘"
 			}
 		},
+		"nextUpkeepDate": {
+			"eng": "Next upkeep date: ${date} (${formatted})",
+			"trans": "下一次維護日期：${date} (${formatted})"
+		},
 		"noMotto": {
 			"eng": "There is no motto set for this gang yet",
 			"trans": "這個幫派還沒有口號。"
@@ -412,6 +816,38 @@
 		"playerListButton": {
 			"eng": "Member List",
 			"trans": "成員清單"
+		},
+		"resources": {
+			"eng": "Resources",
+			"trans": "資源"
+		},
+		"setImageButton": {
+			"eng": "Set Image",
+			"trans": "設置圖像"
+		},
+		"upkeepTip": {
+			"eng": "Ensure there is enough resources and funds to avoid losing the gang on the next upkeep date.",
+			"trans": "確保有足夠的資源和資金，以避免在下一次維護日期失去幫派。"
+		},
+		"upkeepTipTitle": {
+			"eng": "Insufficient Upkeep Resources",
+			"trans": "維護資源不足"
+		}
+	},
+	"clanDisplay": {
+		"unavailable": {
+			"eng": "This gang is unavailable",
+			"trans": "這個幫派不可用"
+		}
+	},
+	"clanPlayer": {
+		"fundsContributed": {
+			"eng": "funds: ${amount}",
+			"trans": "資金：${amount}"
+		},
+		"resourceContributed": {
+			"eng": "resource: ${amount}",
+			"trans": "資源: ${amount}"
 		}
 	},
 	"clanSearchPage": {
@@ -471,6 +907,10 @@
 			"eng": "${enemyName} is charging to attack ${player}",
 			"trans": "${enemyName}正在向${player}發起攻擊。"
 		},
+		"heal": {
+			"eng": "${enemyName} healed for ${healAmount} health",
+			"trans": "${enemyName} 恢復了 ${healAmount} 點生命值"
+		},
 		"normalAttack": {
 			"eng": "${enemyName} attacked ${player} for ${damage} damage",
 			"trans": "${enemyName}對${player}造成${damage}點傷害"
@@ -488,6 +928,14 @@
 	},
 	"connectingOverlay": {
 		"connecting": {
+			"description1": {
+				"eng": "Server is under maintenance or unstable connection.",
+				"trans": "伺服器正在維護或連接不穩定。"
+			},
+			"description2": {
+				"eng": "In case of server maintenance, it usually will be done within a few minutes.",
+				"trans": "如果有伺服器維護，通常會在幾分鐘內完成。"
+			},
 			"title": {
 				"eng": "Connecting to mainframe...",
 				"trans": "連接主機..."
@@ -496,7 +944,7 @@
 		"notLoggedIn": {
 			"reconnecting": {
 				"description": {
-					"eng": "Please ensure stable network connection. or server might be under maintenance.",
+					"eng": "No internet connection or server is under maintenance. Please try again later.",
 					"trans": "請確保網路連線穩定，否則伺服器可能正在維護中。"
 				},
 				"title": {
@@ -511,9 +959,19 @@
 				"trans": "無法連接主機。請確保網路連線穩定或伺服器正在進行維護。"
 			},
 			"title": {
-				"eng": "Reconnecting to mainframe... Attempt ${attempt}",
+				"eng": "Reconnecting to mainframe... (${attempt})",
 				"trans": "重新連線至主機...第 ${attempt} 次嘗試"
 			}
+		}
+	},
+	"contributable": {
+		"description": {
+			"eng": "This content can be edited by anyone, and is not official. you may submit your changes by clicking here!",
+			"trans": "此內容可由任何人編輯，並非官方版本。您可以點擊此處提交您的更改！"
+		},
+		"title": {
+			"eng": "Community Content",
+			"trans": "社群內容"
 		}
 	},
 	"contributionNotice": {
@@ -540,6 +998,38 @@
 		"level": {
 			"eng": "${levelName} ${level} ",
 			"trans": "${levelName} 等級 ${level}"
+		},
+		"psychosis": {
+			"eng": "- ${amount} psychosis",
+			"trans": "- ${amount} 網絡狂躁症"
+		}
+	},
+	"coupon": {
+		"alreadyRedeemed": {
+			"eng": "You have already redeemed this coupon.",
+			"trans": "您已經兌換過這張優惠券了。"
+		},
+		"invalid": {
+			"eng": "Invalid coupon.",
+			"trans": "無效的優惠券。"
+		}
+	},
+	"couponPage": {
+		"description": {
+			"eng": "Enter your coupon code to get your reward.",
+			"trans": "輸入您的優惠碼以獲得獎勵。"
+		},
+		"inputTitle": {
+			"eng": "Coupon",
+			"trans": "優惠券"
+		},
+		"submitButton": {
+			"eng": "Submit",
+			"trans": "提交"
+		},
+		"title": {
+			"eng": "Coupon",
+			"trans": "優惠券"
 		}
 	},
 	"crafting": {
@@ -568,7 +1058,7 @@
 			}
 		},
 		"description": {
-			"eng": "${$}${cost} is required to purchase the resources needed to start a new gang",
+			"eng": "Create your own gang and invite your friends to join!",
 			"trans": "購買所需資源以開始新幫派需要${$}${cost}。"
 		},
 		"gangNameInput": {
@@ -618,6 +1108,64 @@
 			}
 		}
 	},
+	"currency": {
+		"blackMarketCurrency": {
+			"description": {
+				"eng": "The Netcoin currency, can be obtained in game and from premium store",
+				"trans": "Netcoin貨幣，可以在遊戲中獲得，也可以從高級商店獲得"
+			},
+			"name": {
+				"eng": "Netcoin",
+				"trans": "網幣"
+			}
+		},
+		"error": {
+			"insufficient": {
+				"eng": "You do not have enough {currency}",
+				"trans": "你沒有足夠的{currency}"
+			}
+		},
+		"mercExpCurrency": {
+			"description": {
+				"eng": "A nano-machine injection device created by Taixing Cybernetics, providing unparalleled upgrades to cybernetic abilities. Inject into the neck for enhanced performance.",
+				"trans": "由台芯電子製造的納米機器注射裝置，為電子能力提供無與倫比的升級。注射到頸部以提高性能。"
+			},
+			"name": {
+				"eng": "Cybernetic Enhancer",
+				"trans": "電馭增強器"
+			}
+		},
+		"mercUpgradeCurrency": {
+			"description": {
+				"eng": "Neural Upgrade Augmenter is a cutting-edge implant that enables users to break past their mental limitations and reach untold levels of cognitive enhancement. With the ability to exceed typical neural barriers, users can unlock new levels of insight, creativity, and physical performance.",
+				"trans": "神經升級增強器是一種尖端的植入物，使用者能夠突破心智限制，達到前所未有的認知增強水平。有了超越典型神經障礙的能力，使用者可以解鎖新的洞察力、創造力和身體表現的層次。"
+			},
+			"name": {
+				"eng": "Neural Upgrade Augmenter",
+				"trans": "神經升級增強器"
+			}
+		},
+		"normal": {
+			"description": {
+				"eng": "A common currency that can be obtained from in game easily",
+				"trans": "一種可以在遊戲中輕易獲得的通用貨幣"
+			},
+			"name": {
+				"eng": "Eurodollars",
+				"trans": "歐元"
+			}
+		},
+		"universalDollars": {
+			"description": {
+				"eng": "Universal Dollars can be exchanged from Netcoin at a 1:1 ratio.",
+				"trans": "通用幣可以以1:1的比例從網幣兌換。"
+			},
+			"name": {
+				"eng": "Universal Dollars",
+				"trans": "通用幣"
+			}
+		}
+	},
 	"currencyCheck": {
 		"getMore": {
 			"eng": "get more",
@@ -660,6 +1208,10 @@
 				"eng": "Are you sure you want to re-roll?",
 				"trans": "您確定要重新擲骰嗎？"
 			}
+		},
+		"title": {
+			"eng": "Daily Reward",
+			"trans": "每日獎勵"
 		}
 	},
 	"dailyRewardType": {
@@ -698,7 +1250,7 @@
 			"trans": "嘗試升級和升級您的物品。"
 		},
 		"upgradeMercenary": {
-			"eng": "Upgrade or higher more mercenaries",
+			"eng": "Upgrade or hire more mercenaries",
 			"trans": "升級或雇用更多的僱傭兵。"
 		}
 	},
@@ -709,7 +1261,7 @@
 		},
 		"premiumCurrencyRecoverButton": {
 			"title": {
-				"eng": "Pay ${amount} ${$2}",
+				"eng": "Pay with ${currency}",
 				"trans": "支付${amount}${$2}"
 			}
 		},
@@ -718,6 +1270,24 @@
 				"eng": "Pay ${amount} ${$}",
 				"trans": "支付${amount}${$}"
 			}
+		}
+	},
+	"deleteCharacterModal": {
+		"deleteButton": {
+			"eng": "Delete",
+			"trans": "刪除"
+		},
+		"deleteButtonDescription": {
+			"eng": "Hold to delete character",
+			"trans": "按住以刪除角色"
+		},
+		"description": {
+			"eng": "Are you sure you want to delete this character? this action is permanent and cannot be undone.",
+			"trans": "您確定要刪除此角色嗎？此操作是永久性的，無法撤銷。"
+		},
+		"title": {
+			"eng": "Delete Character",
+			"trans": "刪除角色"
 		}
 	},
 	"dismantlePage": {
@@ -735,6 +1305,12 @@
 			"eng": "Dungeon cleared!",
 			"trans": "地城已清空！"
 		},
+		"error": {
+			"enemyInRoom": {
+				"eng": "You cannot do that while there are enemies nearby",
+				"trans": "在附近有敵人時，你不能這樣做。"
+			}
+		},
 		"type": {
 			"hard": {
 				"description": {
@@ -742,7 +1318,7 @@
 					"trans": "困難難度地城。"
 				},
 				"name": {
-					"eng": "Hard",
+					"eng": "Hard Difficulty",
 					"trans": "困難"
 				}
 			},
@@ -752,7 +1328,7 @@
 					"trans": "普通難度地城。"
 				},
 				"name": {
-					"eng": "Normal",
+					"eng": "Normal Difficulty",
 					"trans": "普通"
 				}
 			}
@@ -890,6 +1466,20 @@
 			"trans": "找不到任何大廳。"
 		}
 	},
+	"dungeonLootDoorPopup": {
+		"open": {
+			"eng": "unlock",
+			"trans": "解鎖"
+		},
+		"subtitle": {
+			"eng": "Requires",
+			"trans": "需要"
+		},
+		"title": {
+			"eng": "Unlock Door",
+			"trans": "解鎖門"
+		}
+	},
 	"dungeonQuestPage": {
 		"accept": {
 			"eng": "accept quest",
@@ -994,6 +1584,20 @@
 				"eng": "Physical",
 				"trans": "物理的"
 			}
+		}
+	},
+	"enemyTabContent": {
+		"addEnemy": {
+			"eng": "Add Enemies",
+			"trans": "新增敵人"
+		},
+		"removeEnemy": {
+			"eng": "Remove Enemy",
+			"trans": "移除敵人"
+		},
+		"viewProfile": {
+			"eng": "View Profile",
+			"trans": "查看個人資料"
 		}
 	},
 	"enemyTrait": {
@@ -1144,6 +1748,60 @@
 			"trans": "哎呀，出了點問題！"
 		}
 	},
+	"feedbackPopup": {
+		"back": {
+			"eng": "Skip",
+			"trans": "跳過"
+		},
+		"dialog1": {
+			"eng": "Complete the survey to earn rewards! 😊 I would love to hear your feedback!",
+			"trans": "完成調查以獲得獎勵！😊 我很樂意聽取您的意見！"
+		},
+		"dialog2": {
+			"eng": "Sorry about the bad experience 😢 I would love to hear your feedback!🙏",
+			"trans": "對於您的不愉快經歷感到抱歉 😢 我很樂意聽取您的反饋！🙏"
+		},
+		"dialog3": {
+			"eng": "Thank you! if you could rate on the app store, it would help me a lot! 🙏",
+			"trans": "謝謝！如果您能在應用商店給予評價，對我來說會非常有幫助！🙏"
+		},
+		"dialog4": {
+			"eng": "Thank you for your feedback! 🙏",
+			"trans": "感謝您的反饋！🙏"
+		},
+		"lowStarComment": {
+			"eng": "How can I improve to earn 5 stars?",
+			"trans": "如何提升以獲得五顆星？"
+		},
+		"lowStarCommentHint": {
+			"eng": "What you write here will be sent directly to me :)",
+			"trans": "你在這裡寫的內容將直接發送給我 :)"
+		},
+		"question1": {
+			"eng": "What do you think about the look and feel of the interface?",
+			"trans": "無論你的答案如何，你都會得到獎勵 💯"
+		},
+		"question2": {
+			"eng": "How do you feel about free benefits and items?",
+			"trans": "你對免費福利和物品有什麼感覺？"
+		},
+		"rewardSubtitle": {
+			"eng": "Rewards",
+			"trans": "獎勵"
+		},
+		"stars": {
+			"eng": "How many stars would you give this game?",
+			"trans": "你會給這款遊戲幾顆星？"
+		},
+		"submit1": {
+			"eng": "Submit",
+			"trans": "提交"
+		},
+		"submit2": {
+			"eng": "Rate and Claim Reward",
+			"trans": "評分並領取獎勵"
+		}
+	},
 	"friend": {
 		"error": {
 			"addNotFound": {
@@ -1161,6 +1819,13 @@
 				"trans": "你已從好友清單中刪除${friendName}。",
 				"vars": []
 			}
+		},
+		"removeEnemy": {
+			"success": {
+				"eng": "You have removed ${playerName} from your enemy list.",
+				"trans": "你已從敵人清單中移除了${playerName}。",
+				"vars": []
+			}
 		}
 	},
 	"friendList": {
@@ -1169,6 +1834,20 @@
 				"eng": "Search player",
 				"trans": "搜尋玩家"
 			}
+		}
+	},
+	"friendTabContent": {
+		"addFriend": {
+			"eng": "Add Friend",
+			"trans": "添加好友"
+		},
+		"removeFriend": {
+			"eng": "Remove Friend",
+			"trans": "移除好友"
+		},
+		"viewProfile": {
+			"eng": "View Profile",
+			"trans": "查看個人資料"
 		}
 	},
 	"gang": {
@@ -1229,6 +1908,12 @@
 			}
 		}
 	},
+	"googleLogin": {
+		"button": {
+			"eng": "Sign in with Google",
+			"trans": "使用Google帳號登入"
+		}
+	},
 	"healthSacrificePopup": {
 		"activateButton": {
 			"description": {
@@ -1238,6 +1923,40 @@
 			"title": {
 				"eng": "Activate",
 				"trans": "啟動"
+			}
+		}
+	},
+	"hitlist": {
+		"noBounties": {
+			"eng": "No bounties available",
+			"trans": "沒有賞金可用"
+		},
+		"optionsPopup": {
+			"attack": {
+				"eng": "Attack",
+				"trans": "攻擊"
+			},
+			"viewProfile": {
+				"eng": "View Profile",
+				"trans": "查看個人資料"
+			}
+		},
+		"placeHitButton": {
+			"title": {
+				"eng": "Place Hit",
+				"trans": "下達擊殺令"
+			}
+		},
+		"title": {
+			"eng": "Hit List",
+			"trans": "懸賞名單"
+		}
+	},
+	"hitman": {
+		"mail": {
+			"bountyAddedNotify": {
+				"eng": "A bounty has been placed on your head, current bounty - Eurodollar: ${money}, Universal Dollar: ${uni}",
+				"trans": "你的頭上有一個賞金，目前賞金 - 歐元：${money}，通用幣：${uni}"
 			}
 		}
 	},
@@ -1333,6 +2052,46 @@
 			}
 		}
 	},
+	"itemCalibrateTab": {
+		"caliButton": {
+			"des": {
+				"eng": "Comsumes one ${itemName}",
+				"trans": "消耗一個${itemName}"
+			},
+			"title": {
+				"eng": "Calibrate",
+				"trans": "校準"
+			}
+		},
+		"destroyChance": {
+			"eng": "There is ${destroyChance}% chance of item being destroyed on failure. You can attempt to repair a destroyed item in the ${repairNpc}.",
+			"trans": "失敗時物品被摧毀的機率為${destroyChance}%。您可以嘗試在${repairNpc}修復被摧毀的物品。"
+		},
+		"maxCalibration": {
+			"description": {
+				"eng": "This item has reached the maximum amount of calibrations. you may upgrade the tier of the item to increase the maximum times it can be calibrated.",
+				"trans": "該物品已達到最大校準次數。您可以升級該物品的等級以增加最大校準次數。"
+			},
+			"title": {
+				"eng": "Max Calibration",
+				"trans": "最大校準"
+			}
+		},
+		"selectOptimizer": {
+			"eng": "Select optimizer",
+			"trans": "選擇優化器"
+		},
+		"successChance": {
+			"eng": "Success chance",
+			"trans": "成功機率"
+		},
+		"tip": {
+			"noOptimizer": {
+				"eng": "You can use a optimizer to improve your calibration process",
+				"trans": "您可以使用優化器來改善校準過程"
+			}
+		}
+	},
 	"itemCard": {
 		"destroyed": {
 			"eng": "destroyed",
@@ -1341,9 +2100,17 @@
 		"rarity": {
 			"eng": "${rarity} item",
 			"trans": "${rarity}物品"
+		},
+		"useTitle": {
+			"eng": "Use",
+			"trans": "使用"
 		}
 	},
 	"itemDestroyed": {
+		"des2": {
+			"eng": "You can attempt to repair it in the ${repairNpc}",
+			"trans": "您可以嘗試在${repairNpc}進行修理"
+		},
 		"description": {
 			"eng": "This item has been destroyed. You can attempt to repair it in the ${repairNpc}.",
 			"trans": "此項目已被摧毀。您可以在 ${repairNpc} 那裡嘗試修復它。"
@@ -1365,6 +2132,12 @@
 		"cantScrapLocked": {
 			"eng": "You can\\'t scrap locked items",
 			"trans": "您無法報廢已鎖定的物品。"
+		},
+		"diff": {
+			"header1": {
+				"eng": "equipped item",
+				"trans": "已裝備的物品"
+			}
 		},
 		"dismantle": {
 			"eng": "Dismantle",
@@ -1486,6 +2259,10 @@
 				"trans": "選擇要修理的物品"
 			}
 		},
+		"noItemError": {
+			"eng": "Please select an item to repair",
+			"trans": "請選擇要修復的物品"
+		},
 		"repairButton": {
 			"title": {
 				"eng": "Repair",
@@ -1506,9 +2283,25 @@
 		}
 	},
 	"itemSourceModal": {
+		"blackMarket": {
+			"eng": "Black Market",
+			"trans": "黑市"
+		},
+		"boss": {
+			"eng": "Stronghold Bosses",
+			"trans": "地城首領"
+		},
 		"chestDrop": {
-			"eng": "Dungeon chest drop",
+			"eng": "Stronghold chest drop",
 			"trans": "地城寶箱掉落"
+		},
+		"cooking": {
+			"eng": "Cooking",
+			"trans": "烹飪"
+		},
+		"dailyQuest": {
+			"eng": "Daily quests",
+			"trans": "每日任務"
 		},
 		"enemyDrop": {
 			"eng": "Enemy drop",
@@ -1519,8 +2312,12 @@
 			"trans": "獲得自"
 		},
 		"premiumCurrency": {
-			"eng": "Purchase from ${npc}",
+			"eng": "Top up from ${npc} premium store",
 			"trans": "從${npc}購買"
+		},
+		"survey": {
+			"eng": "Survey Reward",
+			"trans": "調查獎勵"
 		},
 		"title": {
 			"eng": "Insufficient ${itemName}",
@@ -1616,6 +2413,12 @@
 			"name": {
 				"eng": "Lower Armor",
 				"trans": "下護甲"
+			}
+		},
+		"material": {
+			"name": {
+				"eng": "Material",
+				"trans": "材料"
 			}
 		},
 		"meat": {
@@ -1826,6 +2629,16 @@
 				"trans": "校準碎片"
 			}
 		},
+		"clanMaintenanceResource": {
+			"description": {
+				"eng": "Use to contribute to gang maintenance",
+				"trans": "使用來貢獻幫派維護"
+			},
+			"name": {
+				"eng": "Gang Maintenance Resource",
+				"trans": "幫派維護資源"
+			}
+		},
 		"commonCalibrationSafety": {
 			"description": {
 				"eng": "Use to decrease chance of equipment destruction by ${percent}% when calibration failed",
@@ -1906,6 +2719,16 @@
 				"trans": "史詩升級碎片"
 			}
 		},
+		"equipmentCalibrator": {
+			"description": {
+				"eng": "Used to calibrate equipments",
+				"trans": "用於校準設備"
+			},
+			"name": {
+				"eng": "Equipment Calibrator",
+				"trans": "裝備校準器"
+			}
+		},
 		"fish": {
 			"description": {
 				"eng": "A medium sized vibrant fish, it's highly sought after for its psychedelic properties when consumed.",
@@ -1914,6 +2737,12 @@
 			"name": {
 				"eng": "Fish",
 				"trans": "魚"
+			}
+		},
+		"gangControlResource": {
+			"name": {
+				"eng": "Gang Control Resource",
+				"trans": "幫派控制資源"
 			}
 		},
 		"gangResource": {
@@ -1994,12 +2823,32 @@
 		},
 		"lootBox1": {
 			"description": {
-				"eng": "A mysterious container that contains a random item.",
+				"eng": "A common container that contains a random item.",
 				"trans": "一個包含隨機物品的神秘容器。"
 			},
 			"name": {
 				"eng": "Common Container",
 				"trans": "普通容器"
+			}
+		},
+		"lootBox2": {
+			"description": {
+				"eng": "A uncommon container that contains a random item.",
+				"trans": "一個不常見的容器，裡面包含一個隨機物品。"
+			},
+			"name": {
+				"eng": "Uncommon Container",
+				"trans": "罕見容器"
+			}
+		},
+		"lootDoorKey": {
+			"description": {
+				"eng": "A cutting-edge cyberpunk device that serves as a key to unlock high-security doors in the dystopian strongholds, revealing valuable loot and hidden rewards.",
+				"trans": "一個尖端的賽博朋克裝置，作為解鎖高安全門的鑰匙，在末世地城中揭示有價值的戰利品和隱藏的獎勵。"
+			},
+			"name": {
+				"eng": "decryption Key",
+				"trans": "解密金鑰"
 			}
 		},
 		"lowerArmor": {
@@ -2010,6 +2859,16 @@
 			"name": {
 				"eng": "Lower Armor",
 				"trans": "降低護甲防禦"
+			}
+		},
+		"medicalTech": {
+			"description": {
+				"eng": "A piece of medical technology that can be used to craft ",
+				"trans": "一個可以用來製作的醫療技術"
+			},
+			"name": {
+				"eng": "Medical Tech Scrap",
+				"trans": "醫療科技報廢物品"
 			}
 		},
 		"mercToken1": {
@@ -2078,6 +2937,16 @@
 				"trans": "豬肉"
 			}
 		},
+		"prefixInjectorShard": {
+			"description": {
+				"eng": "Use to inject an additional prefix into a item, please note that if you re-roll the prefixes after using this item, the effect will be nullified.",
+				"trans": "使用以在物品中注入額外的前綴詞，請注意，如果在使用此物品後重新骰取前綴詞，效果將被無效化。"
+			},
+			"name": {
+				"eng": "Prefix Injector Shard",
+				"trans": "前綴注射器碎片"
+			}
+		},
 		"premiumCurrency": {
 			"description": {
 				"eng": "Premium Currency is a special currency that can be used to purchase premium items in the shop.",
@@ -2138,6 +3007,16 @@
 				"trans": "修理工具箱"
 			}
 		},
+		"rewardCipher": {
+			"description": {
+				"eng": "Used to re-roll quest reward.",
+				"trans": "用於重新擲骰任務獎勵。"
+			},
+			"name": {
+				"eng": "Reward Cipher",
+				"trans": "獎勵密碼"
+			}
+		},
 		"rice": {
 			"description": {
 				"eng": "A staple food of the continent.",
@@ -2162,6 +3041,16 @@
 			"name": {
 				"eng": "Satay",
 				"trans": "沙爹"
+			}
+		},
+		"shadowToken": {
+			"description": {
+				"eng": "A token can be used to trade with the merchants in strongholds.",
+				"trans": "令牌可以用來與地城中的商人進行交易。"
+			},
+			"name": {
+				"eng": "Shadow Token",
+				"trans": "暗影代幣"
 			}
 		},
 		"sushi": {
@@ -2254,6 +3143,16 @@
 				"trans": "獨特升級碎片"
 			}
 		},
+		"universalDollars": {
+			"description": {
+				"eng": "Universal Dollars is a rare currency that can only be obtained from premium shop.",
+				"trans": "通用幣是一種稀有貨幣，只能從高級商店獲得。"
+			},
+			"name": {
+				"eng": "Universal Dollars",
+				"trans": "通用幣"
+			}
+		},
 		"upperArmor": {
 			"description": {
 				"eng": "A piece of equipment that protects the upper body.",
@@ -2325,6 +3224,10 @@
 			}
 		},
 		"noItem": {
+			"des": {
+				"eng": "Click here to select an item",
+				"trans": "點擊這裡選擇一個物品"
+			},
 			"description": {
 				"eng": "Please select an equipment to upgrade or calibrate",
 				"trans": "請選擇一個裝備進行升級或校準。"
@@ -2368,10 +3271,26 @@
 		}
 	},
 	"levelType": {
+		"bodyguard": {
+			"description": {
+				"eng": "Increases strength attribute by 1 every level",
+				"trans": "每級增加1點力量屬性"
+			},
+			"displayName": {
+				"eng": "Bodyguard Level",
+				"trans": "保鏢等級"
+			}
+		},
 		"character": {
 			"displayName": {
 				"eng": "Character Level",
 				"trans": "角色等級"
+			}
+		},
+		"clan": {
+			"displayName": {
+				"eng": "Gang Level",
+				"trans": "幫派等級"
 			}
 		},
 		"hacking": {
@@ -2380,10 +3299,44 @@
 				"trans": "駭客入侵"
 			}
 		},
-		"scavenge": {
+		"medical": {
+			"description": {
+				"eng": "Increases intelligence attribute by 1 every level",
+				"trans": "每級增加1點智力屬性"
+			},
 			"displayName": {
-				"eng": "Scavenge",
+				"eng": "Medical Level",
+				"trans": "醫療等級"
+			}
+		},
+		"npcQuest": {
+			"description": {
+				"eng": "quest affinity level increases reward quality by a small amount",
+				"trans": "任務親和度提升，獎勵品質會稍微增加。"
+			},
+			"displayName": {
+				"eng": "${npcName} affinity level",
+				"trans": "${npcName}親和等級"
+			}
+		},
+		"scavenge": {
+			"description": {
+				"eng": "Increases vitality attribute by 1 every level",
+				"trans": "每級增加1點活力屬性"
+			},
+			"displayName": {
+				"eng": "Scavenging Level",
 				"trans": "拾荒"
+			}
+		},
+		"thieving": {
+			"description": {
+				"eng": "Increases dexterity attribute by 1 every level",
+				"trans": "每級增加1點敏捷屬性"
+			},
+			"displayName": {
+				"eng": "Thieving Level",
+				"trans": "竊取等級"
 			}
 		}
 	},
@@ -2406,6 +3359,10 @@
 		}
 	},
 	"locationListPage": {
+		"cleared": {
+			"eng": "Cleared",
+			"trans": "已清除"
+		},
 		"currentLocTitle": {
 			"eng": "Current Location",
 			"trans": "目前位置"
@@ -2423,9 +3380,43 @@
 			"eng": "Lv ${enemyMinLevel}-${enemyMaxLevel}",
 			"trans": "等級 ${enemyMinLevel}-${enemyMaxLevel}",
 			"vars": []
+		},
+		"listHeader": {
+			"title": {
+				"eng": "More levels will be unlocked when level up",
+				"trans": "升級後將解鎖更多關卡"
+			}
+		}
+	},
+	"loginFromOtherDevicePage": {
+		"back": {
+			"eng": "Back to Login",
+			"trans": "返回登錄"
+		},
+		"title": {
+			"eng": "Logged in from another device.",
+			"trans": "從另一個設備登入。"
 		}
 	},
 	"loginPage": {
+		"emailLoginBox": {
+			"login": {
+				"eng": "Login",
+				"trans": "登入"
+			},
+			"loginWithEmail": {
+				"eng": "Login with Email",
+				"trans": "使用電子郵件登錄"
+			},
+			"register": {
+				"eng": "Register",
+				"trans": "註冊"
+			}
+		},
+		"loginWithEmail": {
+			"eng": "Login with Email",
+			"trans": "使用電子郵件登錄"
+		},
 		"serverUnavailable": {
 			"eng": "Server under maintenance. We are bring it back online soon.",
 			"trans": "伺服器維護中，我們會盡快恢復線上。"
@@ -2433,18 +3424,49 @@
 		"unableToLogin": {
 			"eng": "Unable to login, unknown error occurred. Please try again later.",
 			"trans": "無法登入，發生未知錯誤。請稍後再試。"
+		},
+		"unableToRegister": {
+			"eng": "Failed to register: ${error}",
+			"trans": "註冊失敗：${error}"
 		}
 	},
 	"mail": {
 		"notification": {
 			"eng": "${senderName} sent you a mail",
+			"fromPlayer": {
+				"eng": "${senderName} sent you a mail",
+				"trans": "${senderName}給您發送了一封郵件"
+			},
 			"trans": "${senderName}給您發了一封郵件"
+		},
+		"pvpSuccess1": {
+			"body": {
+				"eng": "${playerName} mugged you, you have lost ${currency}, this player has been added to your enemies list",
+				"trans": "${playerName}搶劫了你，你失去了${currency}，這個玩家已經被添加到你的敵人列表中"
+			}
+		}
+	},
+	"mailModule": {
+		"error": {
+			"blocked": {
+				"eng": "This player cannot receive your mail at this time.",
+				"trans": "此玩家目前無法收到您的郵件。"
+			}
 		}
 	},
 	"mailTab": {
 		"empty": {
 			"eng": "currently you don\\'t have any chat",
 			"trans": "目前沒有聊天資訊。"
+		}
+	},
+	"mails": {
+		"iap": {
+			"purchase": {
+				"eng": "You have successfully received ${premiumAmount}",
+				"trans": "您已成功收到${premiumAmount}",
+				"vars": []
+			}
 		}
 	},
 	"mainPage": {
@@ -2513,12 +3535,18 @@
 		"socialButton": {
 			"eng": "social",
 			"trans": "社交"
+		},
+		"webItemButton": {
+			"title": {
+				"eng": "Cybernet",
+				"trans": "電馭"
+			}
 		}
 	},
 	"market": {
 		"completeMessage": {
 			"bidOutbidded": {
-				"eng": "${item} has been outbidded by another player with ${currency}${amount}. ${currency}${returnAmount} has been added back to your account",
+				"eng": "${item} has been outbidded by another player with ${amount}. ${returnAmount} has been added back to your account",
 				"trans": "${item}已被其他玩家以${currency}${amount}出價超過。已將${currency}${returnAmount}退還至您的帳戶。"
 			},
 			"bidPlaced": {
@@ -2713,6 +3741,12 @@
 			"trans": "篩選器"
 		}
 	},
+	"mercenary": {
+		"upgradeLevelError": {
+			"eng": "Level up to increase your mercenary's max level",
+			"trans": "升級以提高傭兵的最高等級"
+		}
+	},
 	"mercenaryDetails": {
 		"ability": {
 			"title": {
@@ -2720,14 +3754,44 @@
 				"trans": "能力"
 			}
 		},
+		"deleteMercenary": {
+			"eng": "Are you sure you want to dismiss this mercenary?",
+			"trans": "您確定要解雇這名傭兵嗎？"
+		},
+		"deleteMercenaryConfirm": {
+			"eng": "Dismiss now",
+			"trans": "現在解散"
+		},
+		"deleteMercenaryMessage": {
+			"eng": "You will irreversibly lose all progress on this mercenary and only portions of money spent will be returned.",
+			"trans": "您將永久失去此傭兵的所有進度，只能退還部分已花費的金錢。"
+		},
+		"dismiss": {
+			"eng": "Dismiss",
+			"trans": "解散"
+		},
 		"level": {
 			"eng": "Level",
 			"trans": "等級"
+		},
+		"levelUp": {
+			"eng": "Level Up",
+			"trans": "升級"
 		},
 		"stats": {
 			"title": {
 				"eng": "stats",
 				"trans": "數據統計"
+			}
+		},
+		"statsHeader": {
+			"current": {
+				"eng": "Current Level",
+				"trans": "當前等級"
+			},
+			"nextLevel": {
+				"eng": "Next Level",
+				"trans": "下一級"
 			}
 		}
 	},
@@ -2737,6 +3801,38 @@
 				"eng": "dismiss",
 				"trans": "解散"
 			}
+		}
+	},
+	"mercenaryDismissPage": {
+		"confirmModal": {
+			"confirmText": {
+				"eng": "Dismiss",
+				"trans": "解散"
+			},
+			"description": {
+				"eng": "Are you sure you want to dismiss the selected mercenaries?",
+				"trans": "您確定要解雇所選的傭兵嗎？"
+			},
+			"title": {
+				"eng": "Confirm Dismiss",
+				"trans": "確認解雇"
+			}
+		},
+		"description": {
+			"eng": "Dismissed mercenaries will be lost forever. However, you will receive a portion of the spent resources based on rarity.",
+			"trans": "解散的僱傭兵將永遠失去。然而，您將根據稀有度獲得一部分已使用的資源。"
+		},
+		"dismiss": {
+			"eng": "Dismiss",
+			"trans": "解散"
+		},
+		"noMercenaries": {
+			"eng": "No available mercenaries",
+			"trans": "沒有可用的僱傭兵"
+		},
+		"title": {
+			"eng": "Dismiss Mercenary",
+			"trans": "解雇傭兵"
 		}
 	},
 	"mercenaryDrawPage": {
@@ -2750,9 +3846,17 @@
 			"eng": "Recruit one",
 			"trans": "招募一名"
 		},
+		"recruitOneDescription": {
+			"eng": "one mercenary",
+			"trans": "一名僱傭兵"
+		},
 		"recruitTen": {
 			"eng": "Recruit 10",
 			"trans": "招募10人"
+		},
+		"recruitTenDescription": {
+			"eng": "Grantee a 4 star or higher mercenary",
+			"trans": "保證獲得4星或更高星級的傭兵"
 		}
 	},
 	"mercenaryLevelDisplay": {
@@ -2873,12 +3977,16 @@
 			"trans": "黑市貨幣只能在遊戲內和高級商店中獲得。"
 		},
 		"blackMarketCurrencyName": {
-			"eng": "Eurodollars",
+			"eng": "Netcoin",
 			"trans": "網路幣"
 		},
 		"claim": {
 			"eng": "Claim",
 			"trans": "領取"
+		},
+		"craft": {
+			"eng": "craft",
+			"trans": "製作"
 		},
 		"currencyName": {
 			"eng": "Eurodollar",
@@ -2905,7 +4013,7 @@
 			"trans": "載入中"
 		},
 		"mercExpCurrencyDescription": {
-			"eng": "A nano-machine injection device created by Taixing Cybernetics, providing unparalleled upgrades to cybernetic abilities. Inject into the neck for enhanced performance.",
+			"eng": "A nano-machine injection device created by TaiXing Cybernetics, providing unparalleled upgrades to cybernetic abilities. Inject into the neck for enhanced performance.",
 			"trans": "由台興電子製造的納米機器注射裝置，可提供無與倫比的電子增強能力。注射於"
 		},
 		"mercExpCurrencyName": {
@@ -2951,6 +4059,10 @@
 		"purchase": {
 			"eng": "Purchase",
 			"trans": "購買"
+		},
+		"upgrade": {
+			"eng": "Upgrade",
+			"trans": "升級"
 		}
 	},
 	"modal": {
@@ -2964,12 +4076,29 @@
 				"trans": "確認"
 			},
 			"invalidAmount": {
-				"eng": "Invalid amount",
-				"trans": "金額無效。"
+				"eng": "Amount must be between ${min} and ${max}",
+				"trans": "金額無效。",
+				"vars": []
 			}
 		}
 	},
+	"moderation": {
+		"error": {
+			"eng": "Your motto contains inappropriate words",
+			"trans": "您的座右銘包含不適當的詞語"
+		}
+	},
 	"notification": {
+		"apartmentInvite": {
+			"alreadyInvitedError": {
+				"eng": "You have already invited this player",
+				"trans": "您已經邀請過這位玩家了"
+			},
+			"message": {
+				"eng": "${playerName} has invited you to their apartment.",
+				"trans": "${playerName} 邀請你到他們的公寓。"
+			}
+		},
 		"clanInvite": {
 			"alreadyInvitedError": {
 				"eng": "You have already invited this player",
@@ -2988,10 +4117,20 @@
 			"message": {
 				"eng": "${playerName} has invited you to their stronghold lobby.",
 				"trans": "${playerName}邀請您加入他們的地城大廳。"
+			},
+			"title": {
+				"eng": "Stronghold Lobby Invite",
+				"trans": "地城大廳邀請"
 			}
 		}
 	},
 	"notificationPage": {
+		"apartmentInvite": {
+			"notIdle": {
+				"eng": "You are not idle",
+				"trans": "你沒有閒置中"
+			}
+		},
 		"clanInvite": {
 			"alreadyInClan": {
 				"eng": "You are already in a gang",
@@ -3039,39 +4178,79 @@
 				"eng": "Chloe",
 				"trans": "克洛伊"
 			},
+			"questCooldownLines": {
+				"eng": [],
+				"trans": [
+					"稍後再來，我現在沒有任何東西給你。",
+					"很抱歉，我現在沒有任何任務，親愛的。請另選時間再來。",
+					"抱歉，親愛的。目前任務架上是空的。稍後再來看看吧。"
+				]
+			},
 			"questLines": {
 				"eng": [],
-				"trans": ["準備好接收新的工作了嗎？"]
+				"trans": [
+					"準備好接收新的工作了嗎？"
+				]
 			},
 			"questPendingLines": {
 				"eng": [],
-				"trans": ["當任務完成後請通知我 :)"]
+				"trans": [
+					"當任務完成後請通知我 :)"
+				]
 			}
 		},
 		"blackMarket": {
+			"browseButton": {
+				"description": {
+					"noApartment": {
+						"eng": "You need an apartment to use the market",
+						"trans": "你需要一間公寓才能使用市場"
+					}
+				},
+				"eng": "Premium Shop",
+				"trans": "瀏覽市場"
+			},
 			"description": {
 				"eng": "A discreet trading post for mercs of ArcLight City, you can sell and buy items here with Ren.",
 				"trans": "一個為阿克萊特城傭兵打造的低調貿易站，您可以在此用Ren購買和出售物品。"
 			},
 			"greetings": {
 				"eng": [],
-				"trans": ["看看就好，除非你不需要手了。"]
+				"trans": [
+					"看看就好，除非你不需要手了。"
+				]
 			},
 			"locationName": {
 				"eng": "Black Market",
 				"trans": "黑市"
 			},
+			"myStuffButton": {
+				"eng": "show me my stuff on the market",
+				"trans": "顯示我在市場上的物品"
+			},
 			"npcName": {
 				"eng": "Ren",
 				"trans": "仁"
 			},
+			"questCooldownLines": {
+				"eng": [],
+				"trans": [
+					"暫時沒有，鉻頭。但別擔心。等我找到適合你技能的工作時，我會聯絡你的。",
+					"現在沒有，但還不要重新啟動。等我有什麼辣的東西要提供時，我會通知你。耐心點，夥計。",
+					"甜心，目前沒有任何任務。但保持警覺，因為當有一個好機會出現時，我會通知你。"
+				]
+			},
 			"questLines": {
 				"eng": [],
-				"trans": ["有新任務嗎？"]
+				"trans": [
+					"有新任務嗎？"
+				]
 			},
 			"questPendingLines": {
 				"eng": [],
-				"trans": ["除非你已經完成你的工作，否則不要浪費我的時間。"]
+				"trans": [
+					"除非你已經完成你的工作，否則不要浪費我的時間。"
+				]
 			}
 		},
 		"clinic": {
@@ -3081,7 +4260,9 @@
 			},
 			"greetings": {
 				"eng": [],
-				"trans": ["今天升級一些電馭嗎，夥計？"]
+				"trans": [
+					"今天升級一些電馭嗎，夥計？"
+				]
 			},
 			"locationName": {
 				"eng": "Ripperdoc",
@@ -3091,17 +4272,31 @@
 				"eng": "Oriana",
 				"trans": "奧莉安娜"
 			},
+			"questCooldownLines": {
+				"eng": [],
+				"trans": [
+					"新手，沒有任務給你。但別走得太遠。我很擅長碰上麻煩，到時候我會確保你置身其中。",
+					"目前沒有工作，但別急著重新啟動。我有什麼辣辣的東西要提供時，我會通知你的。耐心點，夥計。",
+					"找解決方法，是嗎？抱歉，在我的手術台上沒有新的任務。但是我會把你的名字留下，等我有一個需要一些...細緻的提取的工作。"
+				]
+			},
 			"questLines": {
 				"eng": [],
-				"trans": ["有新的任務嗎？"]
+				"trans": [
+					"有新的任務嗎？"
+				]
 			},
 			"questPendingLines": {
 				"eng": [],
-				"trans": ["完成任務後請告訴我 :)"]
+				"trans": [
+					"完成任務後請告訴我 :)"
+				]
 			},
 			"shopLines": {
 				"eng": [],
-				"trans": ["不要只看，買些東西。"]
+				"trans": [
+					"不要只看，買些東西。"
+				]
 			}
 		},
 		"dailyReward": {
@@ -3127,6 +4322,38 @@
 			"npcName": {
 				"eng": "Hana",
 				"trans": "華娜"
+			}
+		},
+		"dev": {
+			"bugReportButton": {
+				"eng": "Report Bug",
+				"trans": "回報錯誤"
+			},
+			"feedbackButton": {
+				"description": {
+					"eng": "Take a survey to earn reward and give your feedback!",
+					"trans": "參加調查以獲得獎勵並提供您的反饋意見！"
+				},
+				"title": {
+					"eng": "Take Survey",
+					"trans": "填寫調查"
+				}
+			},
+			"greetings": {
+				"eng": [],
+				"trans": [
+					"歡迎來到我的遊戲！如果有任何意見或錯誤報告，請告訴我 :)"
+				]
+			}
+		},
+		"dungeonSeller": {
+			"npcName": {
+				"eng": "Dungeon Seller",
+				"trans": "地城販賣者"
+			},
+			"shopName": {
+				"eng": "Shadow Merchant",
+				"trans": "暗影商人"
 			}
 		},
 		"functionality": {
@@ -3166,7 +4393,9 @@
 			},
 			"greetings": {
 				"eng": [],
-				"trans": ["嘿，歡迎來到我的商店！"]
+				"trans": [
+					"嘿，歡迎來到我的商店！"
+				]
 			},
 			"locationName": {
 				"eng": "Lilith's Store",
@@ -3176,13 +4405,26 @@
 				"eng": "Lilith",
 				"trans": "莉莉絲"
 			},
+			"questCooldownLines": {
+				"eng": [],
+				"trans": [
+					"啊，可惜，我現在沒有任何任務給你。但別擔心，我很快就會給你一個有趣的任務。",
+					"對不起，親愛的，目前沒有任務供您選擇。但請保持警覺，因為我很快就會有一些值得您花時間的事情。",
+					"啊，親愛的，你選錯了時間找我。我現在沒有任何任務可以提供，但我保證在你知道之前，我會給你一些驚人的冒險。",
+					"親愛的，我的任務銀行現在有點乾了。但繼續來，因為我很快就會為你準備一些辣辣的東西。"
+				]
+			},
 			"questLines": {
 				"eng": [],
-				"trans": ["你能為我做這件事嗎？"]
+				"trans": [
+					"你能為我做這件事嗎？"
+				]
 			},
 			"questPendingLines": {
 				"eng": [],
-				"trans": ["完成目標後請讓我知道 :)"]
+				"trans": [
+					"完成目標後請讓我知道 :)"
+				]
 			},
 			"shopName": {
 				"eng": "Lilith\\'s Store",
@@ -3214,10 +4456,38 @@
 				"trans": "耳語者"
 			}
 		},
+		"mercenaryButton": {
+			"eng": "I am looking for new crew members",
+			"trans": "我正在尋找新的隊伍成員"
+		},
+		"questButton": {
+			"eng": "Is there something I can help?",
+			"trans": "有什麼我可以幫忙的嗎？"
+		},
+		"recoverItemButton": {
+			"eng": "Gonna need my stuff back",
+			"trans": "我需要我的東西回來"
+		},
+		"repairButton": {
+			"eng": "Repair my equipment",
+			"trans": "修理我的裝備"
+		},
+		"shopButton": {
+			"eng": "I want to buy something",
+			"trans": "我想買東西"
+		},
+		"upgradeButton": {
+			"eng": "Upgrade my equipment",
+			"trans": "升級我的裝備"
+		},
 		"weaponSmith": {
 			"description": {
 				"eng": "A local arms dealer, quality and price is guaranteed. You can upgrade and calibrate your items here too.",
 				"trans": "一位當地的武器販子，品質和價格都有保證。你還可以在這裡升級和校準你的物品。"
+			},
+			"dismantleButton": {
+				"eng": "Dismantle items",
+				"trans": "拆解物品"
 			},
 			"greetings": {
 				"eng": [],
@@ -3235,13 +4505,36 @@
 				"eng": "Maxine",
 				"trans": "馬克辛"
 			},
+			"questCooldownLines": {
+				"eng": [],
+				"trans": [
+					"在找工作嗎？抱歉，我目前沒有任何消息。稍後再來看看，也許我會有一些值得你關注的事情。",
+					"聽著，老兄，我已經沒有任務了。等我補貨後再來吧。",
+					"找尋刺激的嗎？唉，運氣不好。目前沒有工作給你，帥哥。"
+				]
+			},
 			"questLines": {
 				"eng": [],
-				"trans": ["有新的工作嗎？"]
+				"trans": [
+					"有新的工作嗎？"
+				]
 			},
 			"questPendingLines": {
 				"eng": [],
-				"trans": ["完成目標後請告知我 :)"]
+				"trans": [
+					"完成目標後請告知我 :)"
+				]
+			},
+			"shopLines": {
+				"eng": [],
+				"trans": [
+					"在城市中尋求優勢？你來對地方了。",
+					"我會幫你修好的，不問任何問題。"
+				]
+			},
+			"shopName": {
+				"eng": "Maxine\\'s Shop",
+				"trans": "瑪克辛的商店"
 			}
 		}
 	},
@@ -3265,9 +4558,67 @@
 				"eng": "submit quest",
 				"trans": "提交任務"
 			}
+		},
+		"confirm": {
+			"title": {
+				"eng": "Skip quest cooldown?",
+				"trans": "跳過任務冷卻時間？"
+			}
+		},
+		"refreshIn": {
+			"eng": "New Quest in:",
+			"trans": "新任務："
+		},
+		"refreshReward": {
+			"eng": "Refresh Reward",
+			"trans": "刷新獎勵"
+		}
+	},
+	"npcShopPage": {
+		"buy": {
+			"eng": "Purchase",
+			"trans": "購買"
+		},
+		"cancel": {
+			"eng": "Cancel",
+			"trans": "取消"
+		},
+		"sell": {
+			"eng": "sell",
+			"trans": "出售"
+		}
+	},
+	"npcShopSellPage": {
+		"selectAmountModal": {
+			"title": {
+				"eng": "Please select the amount you want to sell",
+				"trans": "請選擇您要出售的數量"
+			}
+		},
+		"sell": {
+			"eng": "Sell",
+			"trans": "出售"
+		}
+	},
+	"placeHitPage": {
+		"placeHit": {
+			"eng": "Place hit",
+			"trans": "命中位置"
+		},
+		"selectPlayer": {
+			"eng": "Click to select a player",
+			"trans": "選擇玩家"
+		},
+		"tip": {
+			"eng": "You can place a hit on a player by paying a certain amount of money and/or unit.",
+			"trans": "您可以支付一定金額和/或單位來對玩家下殺手令。"
 		}
 	},
 	"player": {
+		"blockSuccess": {
+			"eng": "You have blocked ${playerName}",
+			"trans": "你已封鎖了${playerName}"
+		},
 		"notEnoughItem": {
 			"eng": "Not enough item: ${itemName} x${amount}",
 			"trans": "物品不足: ${itemName} x${amount}",
@@ -3280,6 +4631,31 @@
 		"notEnoughMoney": {
 			"eng": "Not enough ${currency}: ${$}${amount}",
 			"trans": "${currency}不足：${$}${amount}"
+		},
+		"notEnoughPsychosis": {
+			"eng": "Your Cyber-Psychosis symptom is too high to perform this action: ${psychosis}",
+			"trans": "您的網絡狂躁症狀太高，無法執行此操作：${psychosis}",
+			"vars": []
+		},
+		"reportSuccess": {
+			"eng": "You have reported ${}",
+			"trans": "你已經報告了 ${}"
+		}
+	},
+	"playerAssetsTab": {
+		"confirmModal": {
+			"description": {
+				"eng": "Are you sure you want to visit this apartment?",
+				"trans": "您確定要參觀這間公寓嗎？"
+			},
+			"title": {
+				"eng": "Visit apartment",
+				"trans": "參觀公寓"
+			}
+		},
+		"noAssets": {
+			"eng": "This player does not own any assets.",
+			"trans": "這個玩家沒有任何資產。"
 		}
 	},
 	"playerBackpack": {
@@ -3305,7 +4681,41 @@
 				"trans": "剩餘點數"
 			}
 		},
+		"menu": {
+			"addFriend": {
+				"eng": "Add Friend",
+				"trans": "新增好友"
+			},
+			"block": {
+				"eng": "Block",
+				"trans": "封鎖"
+			},
+			"close": {
+				"eng": "attack",
+				"trans": "攻擊"
+			},
+			"removeFriend": {
+				"eng": "Remove Friend",
+				"trans": "移除好友"
+			},
+			"report": {
+				"eng": "Report",
+				"trans": "報告"
+			},
+			"sendMessage": {
+				"eng": "Send Mail",
+				"trans": "發送郵件"
+			},
+			"unblock": {
+				"eng": "Unblock",
+				"trans": "解封"
+			}
+		},
 		"tabs": {
+			"assets": {
+				"eng": "Assets",
+				"trans": "資產"
+			},
 			"attribute": {
 				"eng": "Attribute",
 				"trans": "屬性"
@@ -3313,6 +4723,10 @@
 			"crew": {
 				"eng": "Crew",
 				"trans": "隊伍"
+			},
+			"job": {
+				"eng": "Job",
+				"trans": "工作"
 			},
 			"stats": {
 				"eng": "Stats",
@@ -3350,6 +4764,136 @@
 		"tooShort": {
 			"eng": "Name must be at least ${min} characters long.",
 			"trans": "名稱必須至少包含${min}個字符。"
+		}
+	},
+	"playerPhotoSelection": {
+		"eyeColor": {
+			"eng": "Eye Color",
+			"trans": "眼睛顏色"
+		},
+		"gender": {
+			"eng": "Body Type",
+			"trans": "體型"
+		},
+		"hairColor": {
+			"eng": "Hair Color",
+			"trans": "髮色"
+		},
+		"hairStyle": {
+			"eng": "Hair Style",
+			"trans": "髮型"
+		}
+	},
+	"playerPhotoVariationType": {
+		"eyeColor": {
+			"blue": {
+				"eng": "Blue Eyes",
+				"trans": "藍眼睛"
+			},
+			"brown": {
+				"eng": "Brown Eyes",
+				"trans": "棕色眼睛"
+			},
+			"gray": {
+				"eng": "Red Eyes",
+				"trans": "紅眼"
+			},
+			"green": {
+				"eng": "Green Eyes",
+				"trans": "綠眼睛"
+			},
+			"name": {
+				"eng": "Eye Color",
+				"trans": "眼睛顏色"
+			},
+			"purple": {
+				"eng": "Purple Eyes",
+				"trans": "紫色眼睛"
+			}
+		},
+		"gender": {
+			"gender1": {
+				"eng": "Type 1",
+				"trans": "類型 1"
+			},
+			"gender2": {
+				"eng": "Type 2",
+				"trans": "類型2"
+			},
+			"name": {
+				"eng": "Body Type",
+				"trans": "體型"
+			}
+		},
+		"hair": {
+			"longHair": {
+				"eng": "Long Hair",
+				"trans": "長髮"
+			},
+			"name": {
+				"eng": "Hair Length",
+				"trans": "髮長度"
+			},
+			"shortHair": {
+				"eng": "Short Hair",
+				"trans": "短髮"
+			}
+		},
+		"hairColor": {
+			"black": {
+				"eng": "Black",
+				"trans": "黑色"
+			},
+			"blonde": {
+				"eng": "Blonde",
+				"trans": "金髮"
+			},
+			"blue": {
+				"eng": "Blue",
+				"trans": "藍色"
+			},
+			"brown": {
+				"eng": "Brown",
+				"trans": "棕色"
+			},
+			"green": {
+				"eng": "Green",
+				"trans": "綠色"
+			},
+			"multiColor": {
+				"eng": "Multi Colored",
+				"trans": "多彩的"
+			},
+			"name": {
+				"eng": "Hair Color",
+				"trans": "髮色"
+			},
+			"purple": {
+				"eng": "Purple",
+				"trans": "紫色"
+			},
+			"red": {
+				"eng": "Red",
+				"trans": "紅色"
+			},
+			"white": {
+				"eng": "White",
+				"trans": "白色"
+			}
+		},
+		"skin": {
+			"dark": {
+				"eng": "variant 2",
+				"trans": "變體2"
+			},
+			"light": {
+				"eng": "variant 1",
+				"trans": "變體 1"
+			},
+			"name": {
+				"eng": "Skin Color",
+				"trans": "膚色"
+			}
 		}
 	},
 	"playerStatsTab": {
@@ -3392,6 +4936,13 @@
 			"trans": "儲值"
 		}
 	},
+	"premiumShopTopUpTab": {
+		"bonusAmount": {
+			"eng": "Bonus ${bonusRate}% [+${bonusAmount} N$]",
+			"trans": "額外 ${bonusRate}% 獎金 [+${bonusAmount} N$]",
+			"vars": []
+		}
+	},
 	"psychosisDisplay": {
 		"nextCycle": {
 			"eng": "${time} to next refresh",
@@ -3415,9 +4966,17 @@
 			"eng": "use neuroblocker to reduce psychosis",
 			"trans": "使用神經封鎖劑減輕網絡狂躁症"
 		},
+		"regenDescription": {
+			"eng": "Psychosis reduces by ${amount} every ${minute} minutes",
+			"trans": "網絡狂躁症每${minute}分鐘減少${amount}"
+		},
 		"title": {
 			"eng": "Cyber psychosis",
 			"trans": "網絡狂躁症"
+		},
+		"titleDescription": {
+			"eng": "Cyber-psychosis is caused by excessive use of cybernetic abilities, leading to hallucinations and delusions due to brain overload.",
+			"trans": "網絡狂躁症是由於過度使用電馭能力所引起的，導致大腦超負荷而產生幻覺和妄想。"
 		}
 	},
 	"purchaseCycle": {
@@ -3483,6 +5042,10 @@
 			"collectQuestItemInDungeon": {
 				"eng": "Collect ${required} ${itemName} from lv.${level}+ stronghold (${dungeonName}) (${current}/${required})",
 				"trans": "從等級${level}以上的地城(${dungeonName})收集${required}個${itemName} (${current}/${required})"
+			},
+			"completeDungeon": {
+				"eng": "Defeat lv.${level}+ stronghold boss (${current}/${required})",
+				"trans": "擊敗等級${level}+的地城首領(${current}/${required})"
 			},
 			"defeatEnemy": {
 				"eng": "Defeat ${required} enemies (${current}/${required})",
@@ -3630,12 +5193,79 @@
 			"trans": "刷新商店物品"
 		}
 	},
+	"reportPlayerPopup": {
+		"details": {
+			"eng": "Details",
+			"trans": "詳細資訊"
+		},
+		"report": {
+			"eng": "Report",
+			"trans": "報告"
+		},
+		"reportReason": {
+			"eng": "Report Reason",
+			"trans": "舉報原因"
+		}
+	},
+	"reportType": {
+		"harassment": {
+			"eng": "Harassment",
+			"trans": "騷擾"
+		},
+		"inappropriate": {
+			"eng": "Inappropriate",
+			"trans": "不適當"
+		},
+		"other": {
+			"eng": "Other",
+			"trans": "其他"
+		},
+		"spam": {
+			"eng": "Spam",
+			"trans": "垃圾郵件"
+		}
+	},
 	"reward": {
+		"clanResource": {
+			"eng": "+${clanResource} Gang Resource",
+			"trans": "+${clanResource} 幫派資源",
+			"vars": []
+		},
 		"exp": {
 			"increase": {
 				"eng": "+${amount} ${levelType} EXP",
 				"trans": "+${amount} ${levelType} 經驗值"
 			}
+		},
+		"territoryPoint": {
+			"eng": "+${territoryPoint} Territory Point",
+			"trans": "+${territoryPoint} 領土點數",
+			"vars": []
+		}
+	},
+	"rewardConfigDisplay": {
+		"clanControl": {
+			"eng": "+ ${amount} control on territory",
+			"trans": "+ 在領土上控制 ${amount} 點"
+		},
+		"clanResource": {
+			"eng": "+ ${amount} Gang resource",
+			"trans": "+ ${amount} 幫派資源"
+		},
+		"healRatio": {
+			"eng": "Heal ${percent}% of your max health",
+			"trans": "恢復你最大生命值的${percent}%"
+		},
+		"reducePsychosis": {
+			"eng": "Reduce psychosis by ${reducePsychosis}",
+			"trans": "減少網絡狂躁症 ${reducePsychosis}",
+			"vars": []
+		}
+	},
+	"rewardConfigPopup": {
+		"title": {
+			"eng": "Rewards",
+			"trans": "獎勵"
 		}
 	},
 	"rewardReceivedModal": {
@@ -3692,9 +5322,17 @@
 				"eng": "Ability is on cooldown",
 				"trans": "技能冷卻中"
 			},
+			"alreadyMugged": {
+				"eng": "You have already mugged this player in the last 24 hours",
+				"trans": "您在過去24小時內已經搶劫過這位玩家了"
+			},
 			"alreadyTriedEscape": {
 				"eng": "You have already tried to escape in this turn",
 				"trans": "這回合你已經試過逃脫了"
+			},
+			"cannotEngageAdmin": {
+				"eng": "You cannot engage this player",
+				"trans": "你無法與這位玩家互動"
 			},
 			"combatNotFound": {
 				"eng": "Combat has ended",
@@ -3703,6 +5341,14 @@
 			"escapeFailed": {
 				"eng": "You failed to escape (${chance}% success chance)",
 				"trans": "逃脫失敗(${chance}%成功率)"
+			},
+			"levelDiffTooHigh": {
+				"eng": "You cannot engage a player that is more than ${levelDiff} levels below you",
+				"trans": "你不能攻擊比你低${levelDiff}級的玩家"
+			},
+			"notEnoughPsychosis": {
+				"eng": "You need at least ${psychosis} psychosis to engage in PvP",
+				"trans": "你需要至少${psychosis}網絡狂躁症才能參與PvP戰鬥"
 			},
 			"notIdle": {
 				"eng": "You can't do this right now",
@@ -3835,9 +5481,17 @@
 				"eng": "Player is already in this lobby",
 				"trans": "玩家已經在這個大廳了"
 			},
+			"playerBlocked": {
+				"eng": "This player cannot receive your invite at this time",
+				"trans": "此玩家目前無法接受您的邀請"
+			},
 			"playerNotFound": {
 				"eng": "Player not found",
 				"trans": "找不到玩家"
+			},
+			"private": {
+				"eng": "This lobby is private",
+				"trans": "這個大廳是私人的"
 			}
 		},
 		"error": {
@@ -3890,7 +5544,7 @@
 		},
 		"player": {
 			"itemConsumed": {
-				"eng": "Consumed ${CreateMessageToken.ITEM_NAME_BY_TYPE(itemType)} x${amount}",
+				"eng": "Consumed ${itemName} x${amount}",
 				"trans": "消耗 ${CreateMessageToken.ITEM_NAME_BY_TYPE(itemType)} x${amount}"
 			},
 			"moneyConsumed": {
@@ -3933,6 +5587,10 @@
 				"questNotExist": {
 					"eng": "Quest not found",
 					"trans": "任務未找到"
+				},
+				"questNotOnCooldown": {
+					"eng": "Quest not on cooldown",
+					"trans": "任務不在冷卻中"
 				}
 			}
 		},
@@ -3958,6 +5616,10 @@
 				"trans": "刪除帳戶"
 			}
 		},
+		"deleteCharacter": {
+			"eng": "Delete character",
+			"trans": "刪除角色"
+		},
 		"enableBackgroundMusic": {
 			"eng": "Enable background music",
 			"trans": "啟用背景音樂"
@@ -3965,16 +5627,42 @@
 		"enableSoundEffect": {
 			"eng": "Enable sound effect",
 			"trans": "啟用音效"
+		},
+		"language": {
+			"eng": "Language",
+			"trans": "語言"
 		}
 	},
 	"shop": {
+		"alreadyOwnItem": {
+			"eng": "You already own this item",
+			"trans": "您已擁有此物品"
+		},
+		"confirmBuyModal": {
+			"title": {
+				"eng": "Purchase ${itemName}?",
+				"trans": "購買${itemName}？"
+			}
+		},
+		"inventoryFull": {
+			"eng": "Your inventory cannot carry any more of this item",
+			"trans": "您的背包無法再攜帶更多此物品。"
+		},
 		"notEnoughCurrency": {
 			"eng": "You do not have enough ${currency}",
 			"trans": "你的${currency}不足。"
 		},
+		"notEnoughItem": {
+			"eng": "You don\\'t have enough ${item} to purchase this item",
+			"trans": "你沒有足夠的${item}來購買這個物品"
+		},
 		"notEnoughMoney": {
-			"eng": "You don\\'t have enough ${currency} to buy this item",
+			"eng": "You don\\'t have enough ${currency} to purchase this item",
 			"trans": "你沒有足夠的${currency}購買此物品。"
+		},
+		"purchased": {
+			"eng": "You have purchased ${amount} ${item}",
+			"trans": "你已購買了${amount}個${item}"
 		},
 		"selectAmountModel": {
 			"content": {
@@ -3991,6 +5679,12 @@
 			"trans": "你購買了 ${amount} ${item}"
 		}
 	},
+	"shopPage": {
+		"cost": {
+			"eng": "cost:",
+			"trans": "成本："
+		}
+	},
 	"socialPage": {
 		"clanChatTab": {
 			"detailsButton": {
@@ -4003,6 +5697,12 @@
 				"title": {
 					"eng": "Gang",
 					"trans": "幫派"
+				}
+			},
+			"enemies": {
+				"title": {
+					"eng": "Enemies",
+					"trans": "敵人"
 				}
 			},
 			"friends": {
@@ -4068,6 +5768,10 @@
 			"eng": "Damage",
 			"trans": "傷害"
 		},
+		"dmgReductionFlat": {
+			"eng": "Damage Reduction",
+			"trans": "傷害減免"
+		},
 		"dmgResistance": {
 			"eng": "Damage Reduction",
 			"trans": "傷害減免"
@@ -4108,6 +5812,10 @@
 			"eng": "Physical Resistance",
 			"trans": "物理抗性"
 		},
+		"pvpDmgReceivedMult": {
+			"eng": "PvP Damage Received Multiplier",
+			"trans": "PvP受到傷害倍率"
+		},
 		"shield": {
 			"eng": "Shield",
 			"trans": "護盾"
@@ -4125,10 +5833,30 @@
 			"trans": "活力值"
 		}
 	},
+	"statDiff": {
+		"stat": {
+			"eng": "stat",
+			"trans": "狀態"
+		}
+	},
 	"statusEffect": {
+		"burn": {
+			"combatMsg": {
+				"eng": "${name} received ${damage} damage from burning",
+				"trans": "${name}因燃燒受到${damage}點傷害"
+			},
+			"desc": {
+				"eng": "Receive fire damage every turn",
+				"trans": "每回合受到火焰傷害"
+			},
+			"name": {
+				"eng": "Burned",
+				"trans": "燒毀"
+			}
+		},
 		"defense1": {
 			"desc": {
-				"eng": "Defended target will take ${percent}% less damage",
+				"eng": "Take ${percent}% less damage",
 				"trans": "防禦目標將承受${percent}%較少傷害"
 			},
 			"name": {
@@ -4142,7 +5870,7 @@
 				"trans": "${name}回復了${heal}點生命值"
 			},
 			"desc": {
-				"eng": "Healed target will recover health every turn",
+				"eng": "Recover health every turn",
 				"trans": "治療目標將在每個回合恢復生命值"
 			},
 			"name": {
@@ -4156,7 +5884,7 @@
 				"trans": "${name} 受到 ${damage} 點毒傷"
 			},
 			"desc": {
-				"eng": "Poisoned target will receive damage every turn",
+				"eng": "Receive poison damage every turn",
 				"trans": "中毒目標每回合會受到傷害"
 			},
 			"name": {
@@ -4166,13 +5894,33 @@
 		},
 		"power1": {
 			"desc": {
-				"eng": "Powered target will deal ${percent}% more damage",
+				"eng": "Deal ${percent}% more damage",
 				"trans": "動力目標將造成${percent}%更多傷害"
 			},
 			"name": {
 				"eng": "Power I",
 				"trans": "能量 I"
 			}
+		},
+		"pvp": {
+			"desc": {
+				"eng": "You receive Hostile status when you attack players who does not have Hostile status, Takes ${percent} more damage from players and receives higher the punishment when you lost a fight",
+				"trans": "當你攻擊沒有敵對狀態的玩家時，你會被標記為敵對狀態，受到玩家造成的傷害增加${percent}，並在失敗的戰鬥中受到更高的懲罰"
+			},
+			"name": {
+				"eng": "Hostile",
+				"trans": "敵對的"
+			}
+		}
+	},
+	"statusEffectModal": {
+		"duration": {
+			"eng": "duration",
+			"trans": "持續時間"
+		},
+		"remove": {
+			"eng": "remove",
+			"trans": "移除"
 		}
 	},
 	"statusInventory": {
@@ -4227,6 +5975,14 @@
 			"trans": "戰利品"
 		}
 	},
+	"stringHelper": {
+		"nameError": {
+			"englishOnly": {
+				"eng": "Must be english letters and _ and numbers",
+				"trans": "必須是英文字母、_和數字"
+			}
+		}
+	},
 	"task": {
 		"error": {
 			"gangRequired": {
@@ -4242,6 +5998,10 @@
 				"eng": "You have reached the maximum amount of tasks",
 				"trans": "您已達到任務最大量。"
 			},
+			"notEnoughCurrency": {
+				"eng": "You do not have enough ${currency}",
+				"trans": "你沒有足夠的${currency}"
+			},
 			"notFound": {
 				"eng": "Task not found",
 				"trans": "任務未找到"
@@ -4249,6 +6009,14 @@
 			"notIdle": {
 				"eng": "You are not idle",
 				"trans": "您沒有閒置"
+			}
+		},
+		"notification": {
+			"completed": {
+				"title": {
+					"eng": "Task completed",
+					"trans": "任務完成"
+				}
 			}
 		}
 	},
@@ -4312,6 +6080,10 @@
 		"title": {
 			"eng": "District ${id}",
 			"trans": "區域 ${id}"
+		},
+		"unclaimed": {
+			"eng": "This territory is unclaimed",
+			"trans": "這個領土尚未被佔領"
 		}
 	},
 	"textareaModal": {
@@ -4604,6 +6376,10 @@
 			"eng": "Click on an enemy to engage in battle.",
 			"trans": "點擊敵人以進行戰鬥。"
 		},
+		"locationChange": {
+			"eng": "You can travel to other locations with different levels from here",
+			"trans": "你可以從這裡前往不同等級的其他地點"
+		},
 		"mercenary1": {
 			"eng": "Click here to view your mercenary contacts",
 			"trans": "點擊這裡查看傭兵聯絡人。"
@@ -4658,6 +6434,14 @@
 			"createCharacter": {
 				"eng": "Create Character",
 				"trans": "創建角色"
+			},
+			"deleteCharacter": {
+				"eng": "Delete Character",
+				"trans": "刪除角色"
+			},
+			"playCharacter": {
+				"eng": "login",
+				"trans": "登入"
 			}
 		},
 		"combat": {
@@ -4751,6 +6535,14 @@
 			}
 		},
 		"mainMenu": {
+			"bugReport": {
+				"eng": "Bug Report",
+				"trans": "錯誤報告"
+			},
+			"coupon": {
+				"eng": "Coupon",
+				"trans": "優惠券"
+			},
 			"dailyReward": {
 				"eng": "Daily Reward",
 				"trans": "每日獎勵"
@@ -4795,11 +6587,15 @@
 			},
 			"mercenaryButton": {
 				"eng": [],
-				"trans": ["尋找僱傭兵"]
+				"trans": [
+					"尋找僱傭兵"
+				]
 			},
 			"questButton": {
 				"eng": [],
-				"trans": ["有什麼需要我幫忙的嗎？"]
+				"trans": [
+					"有什麼需要我幫忙的嗎？"
+				]
 			},
 			"recoverItemButton": {
 				"eng": "Gonna need my stuff back",
@@ -4811,7 +6607,9 @@
 			},
 			"shopButton": {
 				"eng": [],
-				"trans": ["我想買東西"]
+				"trans": [
+					"我想買東西"
+				]
 			},
 			"upgradeButton": {
 				"eng": "Upgrade my equipment",
@@ -4862,7 +6660,7 @@
 			"trans": "${currency}不足"
 		},
 		"slots": {
-			"eng": "+ ${slot} slots",
+			"eng": "${totalSlots} slots(+${slot})",
 			"trans": "+ ${slot}個插槽"
 		},
 		"trans": "升級背包",
@@ -4889,6 +6687,14 @@
 				"eng": "Item has reached max amount of times it can be leveled up",
 				"trans": "物品已達到最大可升級次數。"
 			},
+			"maxPrefixInjected": {
+				"eng": "You cannot inject more prefix into this item",
+				"trans": "您無法將更多前綴注入此物品中"
+			},
+			"prefixInjectNonTierMismatch": {
+				"eng": "This item is not high enough tier to inject prefix",
+				"trans": "這個物品的等級不夠高，無法注入前綴。"
+			},
 			"resetNonTierMismatch": {
 				"eng": "Can't reset a ${itemTier} item, ${shardName} can only be used with ${requiredTier} items",
 				"trans": "無法重置${itemTier}物品，${shardName}僅能使用於${requiredTier}物品。"
@@ -4903,6 +6709,12 @@
 		"use": {
 			"eng": "Use ${itemName}",
 			"trans": "使用${itemName}"
+		},
+		"useModal": {
+			"button": {
+				"eng": "Use",
+				"trans": "使用"
+			}
 		}
 	},
 	"vaultPage": {
@@ -4937,6 +6749,42 @@
 		"title": {
 			"eng": "Vault",
 			"trans": "倉庫"
+		}
+	},
+	"webHomePage": {
+		"hitmanAdvert": {
+			"subtitle": {
+				"eng": "We can help you get rid of them!",
+				"trans": "我們可以幫助你擺脫它們！"
+			},
+			"title": {
+				"eng": "Got a nemesis?",
+				"trans": "有宿敵嗎？"
+			}
+		},
+		"megaAd": {
+			"subtitle": {
+				"eng": "Mega Estate - the only agency that wont scam you!",
+				"trans": "超級地產-唯一不會騙你的中介！"
+			},
+			"title": {
+				"eng": "Cheap Price!!",
+				"trans": "超值價格！！"
+			}
+		}
+	},
+	"worldEventType": {
+		"mugged": {
+			"name": {
+				"eng": "Mugged",
+				"trans": "搶劫"
+			}
+		},
+		"muggedFailed": {
+			"name": {
+				"eng": "Mugged Failed",
+				"trans": "搶劫失敗"
+			}
 		}
 	}
 }
