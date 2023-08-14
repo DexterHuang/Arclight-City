@@ -489,6 +489,10 @@
 	},
 	"backgroundTaskType": {
 		"abandonedCity": {
+			"description": {
+				"eng": "Mirai; Once a picturesque tourist haven, it now stands abandoned, ravaged by soaring crime rates and leaked radiation. In this desolate landscape, only a handful of desperate junkies and ruthless mercenaries remain, scavenging for whatever loot they can find amidst the ruins.",
+				"trans": "未來之城；曾經是一個風景如畫的旅遊勝地，如今卻被犯罪率飆升和外洩的輻射所摧毀。在這片荒涼的景象中，只有少數絕望的吸毒者和無情的僱傭兵留下來，在廢墟中尋找他們能找到的任何戰利品。"
+			},
 			"displayName": {
 				"eng": "Mirai District",
 				"trans": "未來區"
@@ -506,18 +510,18 @@
 		},
 		"clanMaintenance": {
 			"description": {
-				"eng": "Contribute to clan maintenance",
-				"trans": "貢獻到氏族維護"
+				"eng": "Contribute to gang maintenance",
+				"trans": "貢獻給幫派維護"
 			},
 			"displayName": {
-				"eng": "Clan Maintenance",
-				"trans": "氏族維護"
+				"eng": "Gang Maintenance",
+				"trans": "幫派維護"
 			}
 		},
 		"hospital": {
 			"description": {
-				"eng": "Mirai; Once a picturesque tourist haven, it now stands abandoned, ravaged by soaring crime rates and leaked radiation. In this desolate landscape, only a handful of desperate junkies and ruthless mercenaries remain, scavenging for whatever loot they can find amidst the ruins.",
-				"trans": "作為創傷隊的提取專家，唯一的目標是從致命的情況中提取確保的客戶。"
+				"eng": "Work as an extraction specialist for Trauma Team, with the only goal of extracting ensured client from lethal situations. ",
+				"trans": "在Trauma Team中擔任提取專家，唯一目標是從致命情況中確保客戶的提取。"
 			},
 			"displayName": {
 				"eng": "Extraction Specialist",
@@ -546,12 +550,12 @@
 		},
 		"scavenge": {
 			"description": {
-				"eng": "wonder around the outskirts of the city and find some loot",
-				"trans": "在城市周圍四處探索並尋找戰利品。"
+				"eng": "Navigate hazardous junkyards, uncover hidden treasures, and salvage valuable tech",
+				"trans": "導航危險的垃圾場，揭開隱藏的寶藏，並回收有價值的科技"
 			},
 			"displayName": {
-				"eng": "scavenge",
-				"trans": "搜索"
+				"eng": "Scavenge Mission",
+				"trans": "搜索任務"
 			}
 		},
 		"territory": {
@@ -1083,6 +1087,12 @@
 			"title": {
 				"eng": "Gang Tag",
 				"trans": "幫派標記"
+			}
+		},
+		"joinButton": {
+			"title": {
+				"eng": "Join",
+				"trans": "加入"
 			}
 		},
 		"joinExistingClanButton": {
@@ -1791,7 +1801,7 @@
 		},
 		"question1": {
 			"eng": "What do you think about the look and feel of the interface?",
-			"trans": "無論你的答案如何，你都會得到獎勵 💯"
+			"trans": "你對界面的外觀和感覺有什麼想法？"
 		},
 		"question2": {
 			"eng": "How do you feel about free benefits and items?",
@@ -1804,6 +1814,10 @@
 		"stars": {
 			"eng": "How many stars would you give this game?",
 			"trans": "你會給這款遊戲幾顆星？"
+		},
+		"statement": {
+			"eng": "No matter whats your answer, you will always get the reward 💯",
+			"trans": "無論你的答案如何，你都會得到獎勵 💯"
 		},
 		"submit1": {
 			"eng": "Submit",
@@ -1989,8 +2003,12 @@
 	"inventory": {
 		"error": {
 			"addItemStackFull": {
+				"eng": "Can't add anymore ${name} to inventory because it reached stack limit",
+				"trans": "無法將更多的${name}添加到庫存中，因為已達到堆疊限制"
+			},
+			"notEnoughSlot": {
 				"eng": "Not enough slot for ${name}.",
-				"trans": "${name}沒有足夠的槽位。"
+				"trans": "${name}的槽位不足。"
 			}
 		},
 		"move": {
@@ -2383,6 +2401,12 @@
 				"trans": "火器"
 			}
 		},
+		"fish": {
+			"name": {
+				"eng": "Fish",
+				"trans": "魚"
+			}
+		},
 		"food": {
 			"name": {
 				"eng": "Food",
@@ -2439,8 +2463,8 @@
 		},
 		"meat": {
 			"name": {
-				"eng": "Fish",
-				"trans": "魚"
+				"eng": "Meat",
+				"trans": "肉"
 			}
 		},
 		"meleeWeapon": {
@@ -3239,6 +3263,10 @@
 				}
 			}
 		},
+		"levelUpButton": {
+			"eng": "level up",
+			"trans": "升級"
+		},
 		"noItem": {
 			"des": {
 				"eng": "Click here to select an item",
@@ -3429,6 +3457,10 @@
 				"trans": "註冊"
 			}
 		},
+		"loginError": {
+			"eng": "Failed to login: ${error}",
+			"trans": "登錄失敗：${error}"
+		},
 		"loginWithEmail": {
 			"eng": "Login with Email",
 			"trans": "使用電子郵件登錄"
@@ -3439,7 +3471,7 @@
 		},
 		"unableToLogin": {
 			"eng": "Unable to login, unknown error occurred. Please try again later.",
-			"trans": "無法登入，發生未知錯誤。請稍後再試。"
+			"trans": "無法登錄，發生未知錯誤。請稍後再試。"
 		},
 		"unableToRegister": {
 			"eng": "Failed to register: ${error}",
@@ -3552,6 +3584,12 @@
 			"eng": "social",
 			"trans": "社交"
 		},
+		"tasksButton": {
+			"title": {
+				"eng": "AFK Tasks",
+				"trans": "掛機任務"
+			}
+		},
 		"webItemButton": {
 			"title": {
 				"eng": "Cybernet",
@@ -3598,7 +3636,15 @@
 	"marketItemDetailsModal": {
 		"cantRemove": {
 			"eng": "This item has a bid and can\\'t be removed",
-			"trans": "此物品已有出價，無法移除。"
+			"trans": "此物品有出價，無法移除"
+		},
+		"cantRemoveBid": {
+			"eng": "This item has a bid and can\\'t be removed",
+			"trans": "此物品有出價，無法移除"
+		},
+		"cantRemoveTime": {
+			"eng": "This item has been on market for more than ${time} minutes and can\\'t be removed",
+			"trans": "此物品已在市場上超過${time}分鐘，無法移除"
 		},
 		"removeButton": {
 			"eng": "Remove from market",
@@ -3994,7 +4040,7 @@
 		},
 		"blackMarketCurrencyName": {
 			"eng": "Netcoin",
-			"trans": "網路幣"
+			"trans": "網幣"
 		},
 		"claim": {
 			"eng": "Claim",
@@ -4005,8 +4051,8 @@
 			"trans": "製作"
 		},
 		"currencyName": {
-			"eng": "Eurodollar",
-			"trans": "歐元美元"
+			"eng": "Eurodollars",
+			"trans": "歐元"
 		},
 		"exchange": {
 			"eng": "Exchange",
@@ -4077,7 +4123,7 @@
 			"trans": "購買"
 		},
 		"upgrade": {
-			"eng": "Upgrade",
+			"eng": "upgrade",
 			"trans": "升級"
 		}
 	},
@@ -4224,7 +4270,11 @@
 					}
 				},
 				"eng": "Premium Shop",
-				"trans": "瀏覽市場"
+				"title": {
+					"eng": "Browse the market",
+					"trans": "瀏覽市場"
+				},
+				"trans": "高級商店"
 			},
 			"description": {
 				"eng": "A discreet trading post for mercs of ArcLight City, you can sell and buy items here with Ren.",
@@ -4476,6 +4526,12 @@
 			"eng": "I am looking for new crew members",
 			"trans": "我正在尋找新的隊伍成員"
 		},
+		"premiumShop": {
+			"browseButton": {
+				"eng": "Premium Shop",
+				"trans": "高級商店"
+			}
+		},
 		"questButton": {
 			"eng": "Is there something I can help?",
 			"trans": "有什麼我可以幫忙的嗎？"
@@ -4622,8 +4678,12 @@
 			"trans": "命中位置"
 		},
 		"selectPlayer": {
-			"eng": "Click to select a player",
+			"eng": "Select player",
 			"trans": "選擇玩家"
+		},
+		"selectPlayerClick": {
+			"eng": "Click to select a player",
+			"trans": "點擊選擇玩家"
 		},
 		"tip": {
 			"eng": "You can place a hit on a player by paying a certain amount of money and/or unit.",
@@ -5043,8 +5103,12 @@
 	},
 	"quest": {
 		"collectItemFromEnemyNotification": {
+			"eng": "You have collected a ${itemName}(Quest) from ${enemyName}!",
+			"trans": "你從${enemyName}那裡收集到了一個${itemName}(任務)！"
+		},
+		"collectQuestItemNotification": {
 			"eng": "You found a ${itemName}(Quest)!",
-			"trans": "你發現了一個${itemName}(任務)!"
+			"trans": "你找到了一個${itemName}(任務)！"
 		},
 		"completed": {
 			"eng": "Completed",
@@ -5413,7 +5477,7 @@
 			},
 			"dungeonNotFound": {
 				"eng": "Stronghold not found",
-				"trans": "找不到地城。"
+				"trans": "找不到地城"
 			},
 			"dungeonPlayersNotFound": {
 				"eng": "Dungeon players not found",
@@ -5461,9 +5525,17 @@
 				"eng": "You cannot invite yourself",
 				"trans": "您無法邀請自己。"
 			},
+			"craeteNotIdle": {
+				"eng": "You must be idle to create a lobby",
+				"trans": "您必須處於閒置狀態才能創建大廳"
+			},
 			"inDungeon": {
 				"eng": "You are already in a dungeon",
 				"trans": "你已經在地城裡了"
+			},
+			"joinNotIdle": {
+				"eng": "You must be idle to join a lobby",
+				"trans": "您必須處於閒置狀態才能加入大廳"
 			},
 			"kicked": {
 				"eng": "You have been kicked from this lobby",
@@ -5483,7 +5555,7 @@
 			},
 			"notIdle": {
 				"eng": "You must be idle to join a lobby",
-				"trans": "你必須處於閒置狀態才能加入大廳。"
+				"trans": "您必須處於閒置狀態才能加入大廳"
 			},
 			"notInLobby": {
 				"eng": "You are not in a lobby",
@@ -5491,7 +5563,15 @@
 			},
 			"notOwner": {
 				"eng": "You must be the owner of the lobby to invite players",
-				"trans": "您必須是大廳的擁有者才能邀請玩家。"
+				"trans": "您必須是大廳的擁有者才能邀請玩家"
+			},
+			"notOwnerInvite": {
+				"eng": "You must be the owner of the lobby to invite players",
+				"trans": "您必須是大廳的擁有者才能邀請玩家"
+			},
+			"notOwnerKick": {
+				"eng": "You must be the owner of the lobby to kick players",
+				"trans": "你必須是大廳的擁有者才能踢出玩家"
 			},
 			"playerAlreadyInLobby": {
 				"eng": "Player is already in this lobby",
@@ -5957,9 +6037,13 @@
 				"eng": "backpack",
 				"trans": "背包"
 			},
-			"source": {
+			"loot": {
 				"eng": "Loots",
 				"trans": "戰利品"
+			},
+			"source": {
+				"eng": "from",
+				"trans": "從"
 			},
 			"target": {
 				"eng": "target",
@@ -6011,8 +6095,8 @@
 				"vars": []
 			},
 			"maxTasks": {
-				"eng": "You have reached the maximum amount of tasks",
-				"trans": "您已達到任務最大量。"
+				"eng": "You have reached the max amount of tasks",
+				"trans": "您已達到任務的最大數量"
 			},
 			"notEnoughCurrency": {
 				"eng": "You do not have enough ${currency}",
@@ -6269,8 +6353,8 @@
 			"trans": "${playerName} 沒有足夠的 ${itemName}"
 		},
 		"notEnoughMoney": {
-			"eng": "${playerName} doesn\\'t have enough ${currency}",
-			"trans": "${playerName}沒有足夠的${currency}。"
+			"eng": "You don\\'t have enough money",
+			"trans": "你的金錢不足"
 		},
 		"notInTrade": {
 			"eng": "You are not in a trade",
@@ -6279,6 +6363,10 @@
 		"notLocked": {
 			"eng": "You didn\\'t lock this trade",
 			"trans": "你沒有鎖定這筆交易"
+		},
+		"playerNotEnoughMoney": {
+			"eng": "${playerName} doesn\\'t have enough ${currency}",
+			"trans": "${playerName}沒有足夠的${currency}"
 		},
 		"selectAmountModal": {
 			"title": {

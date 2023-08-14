@@ -477,6 +477,10 @@
 	},
 	"backgroundTaskType": {
 		"abandonedCity": {
+			"description": {
+				"eng": "Mirai; Once a picturesque tourist haven, it now stands abandoned, ravaged by soaring crime rates and leaked radiation. In this desolate landscape, only a handful of desperate junkies and ruthless mercenaries remain, scavenging for whatever loot they can find amidst the ruins.",
+				"trans": "未来；かつては絵のような観光地でしたが、今では犯罪率が高く、漏れた放射線によって荒廃しています。この荒れ果てた風景の中で、わずかな絶望的な中毒者と冷酷な傭兵だけが残り、廃墟の中で見つけられる何でもかんでもを略奪しています。"
+			},
 			"displayName": {
 				"eng": "Mirai District",
 				"trans": "未来地区"
@@ -494,17 +498,17 @@
 		},
 		"clanMaintenance": {
 			"description": {
-				"eng": "Contribute to clan maintenance",
-				"trans": "クランのメンテナンスに貢献する"
+				"eng": "Contribute to gang maintenance",
+				"trans": "ギャングのメンテナンスに貢献する"
 			},
 			"displayName": {
-				"eng": "Clan Maintenance",
-				"trans": "クランのメンテナンス"
+				"eng": "Gang Maintenance",
+				"trans": "ギャングのメンテナンス"
 			}
 		},
 		"hospital": {
 			"description": {
-				"eng": "Mirai; Once a picturesque tourist haven, it now stands abandoned, ravaged by soaring crime rates and leaked radiation. In this desolate landscape, only a handful of desperate junkies and ruthless mercenaries remain, scavenging for whatever loot they can find amidst the ruins.",
+				"eng": "Work as an extraction specialist for Trauma Team, with the only goal of extracting ensured client from lethal situations. ",
 				"trans": "致命的な状況から確実にクライアントを救出するため、Trauma Teamの抽出専門家として働きます。"
 			},
 			"displayName": {
@@ -534,11 +538,11 @@
 		},
 		"scavenge": {
 			"description": {
-				"eng": "wonder around the outskirts of the city and find some loot",
+				"eng": "Navigate hazardous junkyards, uncover hidden treasures, and salvage valuable tech",
 				"trans": "都市の周辺を散策して、戦利品を見つける。"
 			},
 			"displayName": {
-				"eng": "scavenge",
+				"eng": "Scavenge Mission",
 				"trans": "スクavengeラップする"
 			}
 		},
@@ -1063,10 +1067,16 @@
 				"trans": "ギャングのタグ"
 			}
 		},
+		"joinButton": {
+			"title": {
+				"eng": "Join",
+				"trans": "参加する"
+			}
+		},
 		"joinExistingClanButton": {
 			"title": {
 				"eng": "Join existing gang",
-				"trans": "参加する"
+				"trans": "既存のギャングに参加する"
 			}
 		},
 		"title": {
@@ -1755,7 +1765,7 @@
 		},
 		"question1": {
 			"eng": "What do you think about the look and feel of the interface?",
-			"trans": "どんな答えでも、必ず報酬を受け取ることができます 💯"
+			"trans": "インターフェースの外観や感触についてどう思いますか？"
 		},
 		"question2": {
 			"eng": "How do you feel about free benefits and items?",
@@ -1768,6 +1778,10 @@
 		"stars": {
 			"eng": "How many stars would you give this game?",
 			"trans": "このゲームに何つ星をつけますか？"
+		},
+		"statement": {
+			"eng": "No matter whats your answer, you will always get the reward 💯",
+			"trans": "どんな答えでも、必ず報酬がもらえます 💯"
 		},
 		"submit1": {
 			"eng": "Submit",
@@ -1953,8 +1967,12 @@
 	"inventory": {
 		"error": {
 			"addItemStackFull": {
+				"eng": "Can't add anymore ${name} to inventory because it reached stack limit",
+				"trans": "スタック制限に達したため、もう${name}をインベントリに追加できません。"
+			},
+			"notEnoughSlot": {
 				"eng": "Not enough slot for ${name}.",
-				"trans": "インベントリに${name}を追加できません。スタック制限に達しました。"
+				"trans": "${name}のスロットが足りません。"
 			}
 		},
 		"move": {
@@ -2341,6 +2359,12 @@
 				"trans": "火器"
 			}
 		},
+		"fish": {
+			"name": {
+				"eng": "Fish",
+				"trans": "魚"
+			}
+		},
 		"food": {
 			"name": {
 				"eng": "Food",
@@ -2397,8 +2421,8 @@
 		},
 		"meat": {
 			"name": {
-				"eng": "Fish",
-				"trans": "魚"
+				"eng": "Meat",
+				"trans": "肉"
 			}
 		},
 		"meleeWeapon": {
@@ -3163,6 +3187,10 @@
 				}
 			}
 		},
+		"levelUpButton": {
+			"eng": "level up",
+			"trans": "レベルアップ"
+		},
 		"noItem": {
 			"des": {
 				"eng": "Click here to select an item",
@@ -3207,7 +3235,7 @@
 		},
 		"upgradeButton": {
 			"eng": "Upgrade",
-			"trans": "レベルアップ"
+			"trans": "アップグレード"
 		}
 	},
 	"levelType": {
@@ -3353,6 +3381,10 @@
 				"trans": "登録する"
 			}
 		},
+		"loginError": {
+			"eng": "Failed to login: ${error}",
+			"trans": "ログインに失敗しました：${error}"
+		},
 		"loginWithEmail": {
 			"eng": "Login with Email",
 			"trans": "メールでログインする"
@@ -3363,7 +3395,7 @@
 		},
 		"unableToLogin": {
 			"eng": "Unable to login, unknown error occurred. Please try again later.",
-			"trans": "ログインできません。不明なエラーが発生しました。後でもう一度お試しください。"
+			"trans": "ログインできません、不明なエラーが発生しました。後でもう一度お試しください。"
 		},
 		"unableToRegister": {
 			"eng": "Failed to register: ${error}",
@@ -3476,6 +3508,12 @@
 			"eng": "social",
 			"trans": "ソーシャル"
 		},
+		"tasksButton": {
+			"title": {
+				"eng": "AFK Tasks",
+				"trans": "AFKタスク"
+			}
+		},
 		"webItemButton": {
 			"title": {
 				"eng": "Cybernet",
@@ -3522,7 +3560,15 @@
 	"marketItemDetailsModal": {
 		"cantRemove": {
 			"eng": "This item has a bid and can\\'t be removed",
-			"trans": "このアイテムは入札があるため削除できません。"
+			"trans": "このアイテムには入札があり、削除できません。"
+		},
+		"cantRemoveBid": {
+			"eng": "This item has a bid and can\\'t be removed",
+			"trans": "このアイテムには入札があり、削除することはできません。"
+		},
+		"cantRemoveTime": {
+			"eng": "This item has been on market for more than ${time} minutes and can\\'t be removed",
+			"trans": "このアイテムは${time}分以上市場に出品されており、削除することはできません。"
 		},
 		"removeButton": {
 			"eng": "Remove from market",
@@ -3921,8 +3967,8 @@
 			"trans": "クラフトする"
 		},
 		"currencyName": {
-			"eng": "Eurodollar",
-			"trans": "ユーロダラー"
+			"eng": "Eurodollars",
+			"trans": "歐元"
 		},
 		"exchange": {
 			"eng": "Exchange",
@@ -3994,7 +4040,7 @@
 		},
 		"upgrade": {
 			"eng": "upgrade",
-			"trans": "アップグレードする"
+			"trans": "アップグレード"
 		}
 	},
 	"modal": {
@@ -4140,7 +4186,11 @@
 					}
 				},
 				"eng": "Premium Shop",
-				"trans": "マーケットを閲覧する"
+				"title": {
+					"eng": "Browse the market",
+					"trans": "マーケットを閲覧する"
+				},
+				"trans": "プレミアムショップ"
 			},
 			"description": {
 				"eng": "A discreet trading post for mercs of ArcLight City, you can sell and buy items here with Ren.",
@@ -4392,6 +4442,12 @@
 			"eng": "I am looking for new crew members",
 			"trans": "新しいクルーメンバーを探しています。"
 		},
+		"premiumShop": {
+			"browseButton": {
+				"eng": "Premium Shop",
+				"trans": "プレミアムショップ"
+			}
+		},
 		"questButton": {
 			"eng": "Is there something I can help?",
 			"trans": "何かお手伝いできることはありますか？"
@@ -4538,8 +4594,12 @@
 			"trans": "ヒット位置"
 		},
 		"selectPlayer": {
+			"eng": "Select player",
+			"trans": "プレイヤーを選択してください"
+		},
+		"selectPlayerClick": {
 			"eng": "Click to select a player",
-			"trans": "プレイヤーを選択してください。"
+			"trans": "プレイヤーを選択するにはクリックしてください"
 		},
 		"tip": {
 			"eng": "You can place a hit on a player by paying a certain amount of money and/or unit.",
@@ -4955,8 +5015,12 @@
 	},
 	"quest": {
 		"collectItemFromEnemyNotification": {
-			"eng": "You found a ${itemName}(Quest)!",
+			"eng": "You have collected a ${itemName}(Quest) from ${enemyName}!",
 			"trans": "${enemyName}から${itemName}(クエスト)を入手しました！"
+		},
+		"collectQuestItemNotification": {
+			"eng": "You found a ${itemName}(Quest)!",
+			"trans": "${itemName}(クエスト)を見つけました！"
 		},
 		"completed": {
 			"eng": "Completed",
@@ -5365,9 +5429,17 @@
 				"eng": "You cannot invite yourself",
 				"trans": "自分自身を招待することはできません。"
 			},
+			"craeteNotIdle": {
+				"eng": "You must be idle to create a lobby",
+				"trans": "ロビーを作成するにはアイドル状態である必要があります"
+			},
 			"inDungeon": {
 				"eng": "You are already in a dungeon",
 				"trans": "すでにダンジョンにいます"
+			},
+			"joinNotIdle": {
+				"eng": "You must be idle to join a lobby",
+				"trans": "ロビーに参加するにはアイドル状態である必要があります"
 			},
 			"lobbyFull": {
 				"eng": "Lobby is full",
@@ -5391,6 +5463,14 @@
 			},
 			"notOwner": {
 				"eng": "You must be the owner of the lobby to invite players",
+				"trans": "プレイヤーをキックするには、ロビーのオーナーである必要があります。"
+			},
+			"notOwnerInvite": {
+				"eng": "You must be the owner of the lobby to invite players",
+				"trans": "プレイヤーを招待するには、ロビーのオーナーである必要があります。"
+			},
+			"notOwnerKick": {
+				"eng": "You must be the owner of the lobby to kick players",
 				"trans": "プレイヤーをキックするには、ロビーのオーナーである必要があります。"
 			},
 			"playerAlreadyInLobby": {
@@ -5847,9 +5927,13 @@
 				"eng": "backpack",
 				"trans": "バックパック"
 			},
-			"source": {
+			"loot": {
 				"eng": "Loots",
 				"trans": "戦利品"
+			},
+			"source": {
+				"eng": "from",
+				"trans": "から"
 			},
 			"target": {
 				"eng": "target",
@@ -5901,8 +5985,8 @@
 				"vars": []
 			},
 			"maxTasks": {
-				"eng": "You have reached the maximum amount of tasks",
-				"trans": "タスクの最大数に達しました。"
+				"eng": "You have reached the max amount of tasks",
+				"trans": "タスクの最大数に達しました"
 			},
 			"notEnoughCurrency": {
 				"eng": "You do not have enough ${currency}",
@@ -6147,7 +6231,7 @@
 			"trans": "${playerName}は${itemName}が足りません"
 		},
 		"notEnoughMoney": {
-			"eng": "${playerName} doesn\\'t have enough ${currency}",
+			"eng": "You don\\'t have enough money",
 			"trans": "お金が足りません"
 		},
 		"notInTrade": {
@@ -6157,6 +6241,10 @@
 		"notLocked": {
 			"eng": "You didn\\'t lock this trade",
 			"trans": "この取引をロックしていませんでした。"
+		},
+		"playerNotEnoughMoney": {
+			"eng": "${playerName} doesn\\'t have enough ${currency}",
+			"trans": "${playerName}は${currency}が足りません"
 		},
 		"selectAmountModal": {
 			"title": {
