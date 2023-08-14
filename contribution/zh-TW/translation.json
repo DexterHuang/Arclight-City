@@ -88,16 +88,6 @@
 				"trans": "${merc}為團隊恢復了${amount}點生命值"
 			}
 		},
-		"heal_group": {
-			"description": {
-				"eng": "Heals your team for certain amount of health",
-				"trans": "治療你的隊伍一定量的生命值。"
-			},
-			"triggered": {
-				"eng": "${merc} healed the team for ${amount} health",
-				"trans": "${merc}為團隊恢復了${amount}點生命值"
-			}
-		},
 		"poison": {
 			"description": {
 				"eng": "Poisons the enemy for ${amount}",
@@ -137,10 +127,6 @@
 				"eng": "${merc} shields the team for ${amount}",
 				"trans": "${merc}為隊伍提供${amount}的護盾"
 			}
-		},
-		"subtitle": {
-			"eng": "Ability",
-			"trans": "能力"
 		}
 	},
 	"apartment": {
@@ -179,10 +165,6 @@
 				"eng": "You can only enter an apartment when you are idle",
 				"trans": "只有在閒置時才能進入公寓"
 			}
-		},
-		"guest": {
-			"eng": "guest",
-			"trans": "訪客"
 		},
 		"invite": {
 			"blocked": {
@@ -223,29 +205,7 @@
 			}
 		}
 	},
-	"apartmentDetails": {
-		"inventorySlots": {
-			"eng": "additional inventory slots: ${slotCount}",
-			"trans": "額外的物品欄位: ${slotCount}"
-		},
-		"storageSlots": {
-			"eng": "additional vault slots: ${slotCount}",
-			"trans": "增加保險箱空間：${slotCount}格"
-		}
-	},
 	"apartmentPage": {
-		"deliveryButton": {
-			"title": {
-				"eng": "Deliveries",
-				"trans": "運送"
-			}
-		},
-		"kitchen": {
-			"title": {
-				"eng": "kitchen",
-				"trans": "廚房"
-			}
-		},
 		"kitchenButton": {
 			"title": {
 				"eng": "kitchen",
@@ -315,10 +275,6 @@
 		"perWeek": {
 			"eng": "Per week",
 			"trans": "每週"
-		},
-		"purchase": {
-			"eng": "upgrade",
-			"trans": "升級"
 		},
 		"rent": {
 			"eng": "Rent Now",
@@ -432,10 +388,6 @@
 		}
 	},
 	"backgroundTaskPage": {
-		"assignTask": {
-			"eng": "Assign new gig",
-			"trans": "分配新任務"
-		},
 		"description": {
 			"eng": "Here shows all your tasks that you are performing.",
 			"trans": "管理你已知的傭兵並指派工作給他們"
@@ -443,10 +395,6 @@
 		"maxTasks": {
 			"eng": "Max tasks: ${currentTasks} / ${maxTasks}",
 			"trans": "公寓容量：${currentTasks} / ${maxTasks}"
-		},
-		"slotAvailable": {
-			"eng": "Slot ${i} Available",
-			"trans": "第${i}個插槽可用"
 		},
 		"title": {
 			"eng": "Tasks",
@@ -526,26 +474,6 @@
 			"displayName": {
 				"eng": "Extraction Specialist",
 				"trans": "提取專家"
-			}
-		},
-		"junkyard1": {
-			"description": {
-				"eng": "Navigate hazardous junkyards, uncover hidden treasures, and salvage valuable tech",
-				"trans": "導航危險的廢品場，揭露隱藏的寶藏，並回收有價值的科技"
-			},
-			"displayName": {
-				"eng": "Salvaging Mission",
-				"trans": "拯救任務"
-			}
-		},
-		"netrunning": {
-			"description": {
-				"eng": "hack into the cyberspace and steal some useful data to sell in the black market",
-				"trans": "入侵網絡空間，竊取有用的數據並在黑市上出售。"
-			},
-			"displayName": {
-				"eng": "netrunning",
-				"trans": "網絡行走"
 			}
 		},
 		"scavenge": {
@@ -807,10 +735,6 @@
 			"eng": "Make Public",
 			"trans": "公開化"
 		},
-		"members": {
-			"eng": "Current Members: ${memberCount}/${maxMembers}",
-			"trans": "當前成員數: ${memberCount}/${maxMembers}"
-		},
 		"mottoModal": {
 			"description": {
 				"eng": "Enter a new gang motto",
@@ -867,12 +791,6 @@
 		}
 	},
 	"clanSearchPage": {
-		"joinButton": {
-			"title": {
-				"eng": "Join",
-				"trans": "加入"
-			}
-		},
 		"searchBox": {
 			"title": {
 				"eng": "Gang name",
@@ -951,10 +869,6 @@
 			"description2": {
 				"eng": "In case of server maintenance, it usually will be done within a few minutes.",
 				"trans": "如果有伺服器維護，通常會在幾分鐘內完成。"
-			},
-			"title": {
-				"eng": "Connecting to mainframe...",
-				"trans": "連接主機..."
 			}
 		},
 		"notLoggedIn": {
@@ -970,10 +884,6 @@
 			}
 		},
 		"reconnecting": {
-			"description": {
-				"eng": "Failed to connect to mainframe. Please ensure network connection is stable. or server is under maintenance.",
-				"trans": "無法連接主機。請確保網路連線穩定或伺服器正在進行維護。"
-			},
 			"title": {
 				"eng": "Reconnecting to mainframe... (${attempt})",
 				"trans": "重新連線至主機...第 ${attempt} 次嘗試"
@@ -1286,12 +1196,6 @@
 				"eng": "Pay with ${currency}",
 				"trans": "支付${amount}${$2}"
 			}
-		},
-		"recoverButton": {
-			"title": {
-				"eng": "Pay ${amount} ${$}",
-				"trans": "支付${amount}${$}"
-			}
 		}
 	},
 	"deleteCharacterModal": {
@@ -1506,14 +1410,6 @@
 		"accept": {
 			"eng": "accept quest",
 			"trans": "接受任務"
-		},
-		"npcName": {
-			"eng": "name",
-			"trans": "名稱"
-		},
-		"profession": {
-			"eng": "profession",
-			"trans": "職業"
 		},
 		"questAccepted": {
 			"eng": "quest accepted",
@@ -2145,10 +2041,6 @@
 			"eng": "You can attempt to repair it in the ${repairNpc}",
 			"trans": "您可以嘗試在${repairNpc}進行修理"
 		},
-		"description": {
-			"eng": "This item has been destroyed. You can attempt to repair it in the ${repairNpc}.",
-			"trans": "此項目已被摧毀。您可以在 ${repairNpc} 那裡嘗試修復它。"
-		},
 		"repairButton": {
 			"eng": "Repair",
 			"trans": "修復"
@@ -2232,10 +2124,6 @@
 		"noChanges": {
 			"eng": "No changes",
 			"trans": "無更改。"
-		},
-		"stat": {
-			"eng": "stat",
-			"trans": "統計數據"
 		}
 	},
 	"itemInbox": {
@@ -2302,12 +2190,6 @@
 				"eng": "Repair",
 				"trans": "修復"
 			}
-		},
-		"repairKit": {
-			"title": {
-				"eng": "Repair kit",
-				"trans": "維修工具包"
-			}
 		}
 	},
 	"itemSlot": {
@@ -2363,12 +2245,6 @@
 			"name": {
 				"eng": "All",
 				"trans": "全部"
-			}
-		},
-		"backpack": {
-			"name": {
-				"eng": "Backpack",
-				"trans": "背包"
 			}
 		},
 		"boots": {
@@ -2789,10 +2665,6 @@
 			"description": {
 				"eng": "Use to contribute to gang territory control",
 				"trans": "使用以貢獻幫派領地控制。"
-			},
-			"name": {
-				"eng": "Gang Control Resource",
-				"trans": "幫派控制資源"
 			}
 		},
 		"gun": {
@@ -2985,16 +2857,6 @@
 			"name": {
 				"eng": "Prefix Injector Shard",
 				"trans": "前綴注射器碎片"
-			}
-		},
-		"premiumCurrency": {
-			"description": {
-				"eng": "Premium Currency is a special currency that can be used to purchase premium items in the shop.",
-				"trans": "高級貨幣是一種特殊貨幣，可用於購買商店中的高級物品。"
-			},
-			"name": {
-				"eng": "Premium Currency",
-				"trans": "高級貨幣"
 			}
 		},
 		"rareCalibrationSafety": {
@@ -3211,40 +3073,6 @@
 				"trans": "裝備"
 			}
 		},
-		"itemCalibrateTab": {
-			"calibrate": {
-				"eng": "Calibrate",
-				"trans": "校準"
-			},
-			"destroyChance": {
-				"eng": "There is ${destroyChance}% chance of item being destroyed on failure. You can attempt to repair a destroyed item in the ${repairNpc}.",
-				"trans": "失敗時物品被摧毀的機率為${destroyChance}%。你可以在${repairNpc}處嘗試修理被摧毀的物品。"
-			},
-			"maxCalibration": {
-				"description": {
-					"eng": "This item has reached the maximum amount of calibrations. you may upgrade the tier of the item to increase the maximum times it can be calibrated.",
-					"trans": "此物品已達到最大校準次數。您可以升級物品等級以增加最大校準次數。"
-				},
-				"title": {
-					"eng": "Max Calibration",
-					"trans": "最大校準值"
-				}
-			},
-			"selectOptimizer": {
-				"eng": "Select optimizer",
-				"trans": "選擇最佳化程式"
-			},
-			"successChance": {
-				"eng": "Success chance",
-				"trans": "成功機率"
-			},
-			"tip": {
-				"noOptimizer": {
-					"eng": "You can use a optimizer to improve your calibration process",
-					"trans": "你可以使用優化器來改善你的校準流程。"
-				}
-			}
-		},
 		"itemDiff": {
 			"headerA": {
 				"eng": "Current",
@@ -3337,12 +3165,6 @@
 				"trans": "幫派等級"
 			}
 		},
-		"hacking": {
-			"displayName": {
-				"eng": "Hacking",
-				"trans": "駭客入侵"
-			}
-		},
 		"medical": {
 			"description": {
 				"eng": "Increases intelligence attribute by 1 every level",
@@ -3394,12 +3216,6 @@
 				"eng": "Level ${level} (${min} - ${max})",
 				"trans": "等級 ${level} (${min} - ${max})"
 			}
-		}
-	},
-	"location": {
-		"districtName": {
-			"eng": "District ${id}",
-			"trans": "第 ${id} 區"
 		}
 	},
 	"locationListPage": {
@@ -3480,12 +3296,10 @@
 	},
 	"mail": {
 		"notification": {
-			"eng": "${senderName} sent you a mail",
 			"fromPlayer": {
 				"eng": "${senderName} sent you a mail",
 				"trans": "${senderName}給您發送了一封郵件"
-			},
-			"trans": "${senderName}給您發了一封郵件"
+			}
 		},
 		"pvpSuccess1": {
 			"body": {
@@ -3634,10 +3448,6 @@
 		}
 	},
 	"marketItemDetailsModal": {
-		"cantRemove": {
-			"eng": "This item has a bid and can\\'t be removed",
-			"trans": "此物品有出價，無法移除"
-		},
 		"cantRemoveBid": {
 			"eng": "This item has a bid and can\\'t be removed",
 			"trans": "此物品有出價，無法移除"
@@ -3857,14 +3667,6 @@
 			}
 		}
 	},
-	"mercenaryDetailsPage": {
-		"dismissButton": {
-			"title": {
-				"eng": "dismiss",
-				"trans": "解散"
-			}
-		}
-	},
 	"mercenaryDismissPage": {
 		"confirmModal": {
 			"confirmText": {
@@ -4034,10 +3836,6 @@
 		}
 	},
 	"misc": {
-		"blackMarketCurrencyDescription": {
-			"eng": "The black market currency, can only be obtained from in game and premium store",
-			"trans": "黑市貨幣只能在遊戲內和高級商店中獲得。"
-		},
 		"blackMarketCurrencyName": {
 			"eng": "Netcoin",
 			"trans": "網幣"
@@ -4082,37 +3880,17 @@
 			"eng": "Cybernetic Enhancer",
 			"trans": "電馭增強器"
 		},
-		"mercUpgradeCurrencyDescription": {
-			"eng": "Neural Upgrade Augmenter is a cutting-edge implant that enables users to break past their mental limitations and reach untold levels of cognitive enhancement. With the ability to exceed typical neural barriers, users can unlock new levels of insight, creativity, and physical performance.",
-			"trans": "神經升級增強器是一種尖端的植入物，使使用者能夠突破其精神限制，達到無法想像的認知增強水平。憑藉超越典型神經屏障的能力，使用者可以解鎖新的洞察力、創造力和身體表現水平。"
-		},
-		"mercUpgradeCurrencyName": {
-			"eng": "Neural Upgrade Augmenter",
-			"trans": "神經升級增強器"
-		},
 		"multiSelect": {
 			"eng": "Multi Select",
 			"trans": "多選"
-		},
-		"normalCurrencyDescription": {
-			"eng": "A common currency that can be obtained from in game easily",
-			"trans": "一種可以輕鬆在遊戲中獲得的通用貨幣"
 		},
 		"normalCurrencyName": {
 			"eng": "Eurodollars",
 			"trans": "歐元美元"
 		},
-		"oneOf": {
-			"eng": "one of",
-			"trans": "其中之一"
-		},
 		"open": {
 			"eng": "open",
 			"trans": "開啟"
-		},
-		"premiumCurrencyDescription": {
-			"eng": "Universal Dollars is a rare currency that can only be obtained through premium store.",
-			"trans": "通用幣是一種罕見的貨幣，只能通過高級商店獲得。"
 		},
 		"premiumCurrencyName": {
 			"eng": "Universal Dollars",
@@ -4223,7 +4001,13 @@
 				"trans": "熱門酒吧聚集了許多僱傭兵，你可以在這裡找到Chloe並認識其他僱傭兵。"
 			},
 			"greetings": {
-				"eng": [],
+				"eng": [
+					"What can I get for you?",
+					"Make it quick, I don't have all day.",
+					"You're not from around here, are you?",
+					"I don't do small talk, what do you want to drink?",
+					"You're not the chatty type, I like that. What can I get you?"
+				],
 				"trans": [
 					"我能為您做什麼？",
 					"快點，我沒有一整天的時間。",
@@ -4241,7 +4025,11 @@
 				"trans": "克洛伊"
 			},
 			"questCooldownLines": {
-				"eng": [],
+				"eng": [
+					"Come back later, I have nothing for you right now.",
+					"Afraid I'm fresh out of gigs, hon. Come back another time.",
+					"Sorry, darling. The quest shelf is empty at the moment. Swing by later."
+				],
 				"trans": [
 					"稍後再來，我現在沒有任何東西給你。",
 					"很抱歉，我現在沒有任何任務，親愛的。請另選時間再來。",
@@ -4249,13 +4037,17 @@
 				]
 			},
 			"questLines": {
-				"eng": [],
+				"eng": [
+					"Up for new gigs?"
+				],
 				"trans": [
 					"準備好接收新的工作了嗎？"
 				]
 			},
 			"questPendingLines": {
-				"eng": [],
+				"eng": [
+					"Let me know when you have completed the objectives :)"
+				],
 				"trans": [
 					"當任務完成後請通知我 :)"
 				]
@@ -4269,19 +4061,19 @@
 						"trans": "你需要一間公寓才能使用市場"
 					}
 				},
-				"eng": "Premium Shop",
 				"title": {
 					"eng": "Browse the market",
 					"trans": "瀏覽市場"
-				},
-				"trans": "高級商店"
+				}
 			},
 			"description": {
 				"eng": "A discreet trading post for mercs of ArcLight City, you can sell and buy items here with Ren.",
 				"trans": "一個為阿克萊特城傭兵打造的低調貿易站，您可以在此用Ren購買和出售物品。"
 			},
 			"greetings": {
-				"eng": [],
+				"eng": [
+					"Look but don't touch. Unless you don't need your hands no more."
+				],
 				"trans": [
 					"看看就好，除非你不需要手了。"
 				]
@@ -4299,7 +4091,11 @@
 				"trans": "仁"
 			},
 			"questCooldownLines": {
-				"eng": [],
+				"eng": [
+					"Not at the moment, chromehead. But don't sweat it. I'll hit you up when I've got a job that suits your skill set.",
+					"Nada right now, but don't go rebootin' just yet. I'll drop a line when I've got somethin' spicy to offer. Patience, choomba.",
+					"No gigs on tap, sweetheart. But stay frosty, 'cause I'll give you a holla when a sweet opportunity slides my way."
+				],
 				"trans": [
 					"暫時沒有，鉻頭。但別擔心。等我找到適合你技能的工作時，我會聯絡你的。",
 					"現在沒有，但還不要重新啟動。等我有什麼辣的東西要提供時，我會通知你。耐心點，夥計。",
@@ -4307,13 +4103,17 @@
 				]
 			},
 			"questLines": {
-				"eng": [],
+				"eng": [
+					"Up for new gigs?"
+				],
 				"trans": [
 					"有新任務嗎？"
 				]
 			},
 			"questPendingLines": {
-				"eng": [],
+				"eng": [
+					"Quit wasting my time, unless you have done your job."
+				],
 				"trans": [
 					"除非你已經完成你的工作，否則不要浪費我的時間。"
 				]
@@ -4325,7 +4125,9 @@
 				"trans": "如果你受傷了，你可以拜訪Oriana治療你的傷口，當然需要付費。"
 			},
 			"greetings": {
-				"eng": [],
+				"eng": [
+					"Upgrade some chromes today choom?"
+				],
 				"trans": [
 					"今天升級一些電馭嗎，夥計？"
 				]
@@ -4339,7 +4141,11 @@
 				"trans": "奧莉安娜"
 			},
 			"questCooldownLines": {
-				"eng": [],
+				"eng": [
+					"No gigs for you, rookie. But don't wander too far. I've got a knack for stumbling upon trouble, and I'll make sure you're front and center when the time comes.",
+					"No jobs at the moment, but don't go rebootin' just yet. I'll drop a line when I've got somethin' spicy to offer. Patience, choomba.",
+					"Looking for a fix, huh? Sorry, no new quests on my operating table. But I'll keep your name on file for when I've got a job that needs some... delicate extraction."
+				],
 				"trans": [
 					"新手，沒有任務給你。但別走得太遠。我很擅長碰上麻煩，到時候我會確保你置身其中。",
 					"目前沒有工作，但別急著重新啟動。我有什麼辣辣的東西要提供時，我會通知你的。耐心點，夥計。",
@@ -4347,19 +4153,25 @@
 				]
 			},
 			"questLines": {
-				"eng": [],
+				"eng": [
+					"Up for new gigs?"
+				],
 				"trans": [
 					"有新的任務嗎？"
 				]
 			},
 			"questPendingLines": {
-				"eng": [],
+				"eng": [
+					"Let me know when you have completed the objectives :)"
+				],
 				"trans": [
 					"完成任務後請告訴我 :)"
 				]
 			},
 			"shopLines": {
-				"eng": [],
+				"eng": [
+					"Don't just look, buy something."
+				],
 				"trans": [
 					"不要只看，買些東西。"
 				]
@@ -4371,7 +4183,18 @@
 				"trans": "Hana是一位充滿資源和創意的年輕女士，對於修補機器充滿熱情。儘管身材嬌小，她擁有敏銳的思維和穩定的手藝，使她成為一名嫻熟的機械師。她的專業知識使她成為那些需要修理的人在這個破爛的赛博朋克世界中不可或缺的資產。然而，在她實用的外表下，Hana有著安靜內省的天性，常常沉"
 			},
 			"greetings": {
-				"eng": [],
+				"eng": [
+					"Hey there, stranger! Are you ready for a little boost to help you on your journey today?",
+					"Welcome back, hon! I've got some exciting things for you to help you kick some virtual butt today.",
+					"Hey, you! Don't forget to check in with me every day for some sweet loots to make your gameplay even more epic.",
+					"Well, well, well...look who decided to log in today! I've got something that I think you're going to love.",
+					"Greetings, fellow adventurer! Let's see what kind of loot we can scavenge for you today.",
+					"Hey, there! Feeling lucky today? I've got some rewards that just might make your day a little brighter.",
+					"Howdy, partner! I'm feeling extra generous today. Don't miss out on some top-notch gear.",
+					"Welcome back, my friend! Let's see what kind of treasure we can dig up for you today.",
+					"Salutations! I hope you're ready for some loot that's out of this world today.",
+					"Good day, mate! It's always a pleasure to see you. Let's make today a good one with some fantastic rewards."
+				],
 				"trans": [
 					"嘿，陌生人！你準備好今天為了旅程而得到一點助力了嗎？",
 					"歡迎回來，親愛的！我有一些令人興奮的東西，可以幫助你今天踢虛擬的屁股。",
@@ -4406,7 +4229,9 @@
 				}
 			},
 			"greetings": {
-				"eng": [],
+				"eng": [
+					"Welcome to my game! let me know if you have any feedbacks or bug report :)"
+				],
 				"trans": [
 					"歡迎來到我的遊戲！如果有任何意見或錯誤報告，請告訴我 :)"
 				]
@@ -4458,7 +4283,9 @@
 				"trans": "一般商店，你可以在這裡購買常見物品"
 			},
 			"greetings": {
-				"eng": [],
+				"eng": [
+					"Hey there, welcome to my store!"
+				],
 				"trans": [
 					"嘿，歡迎來到我的商店！"
 				]
@@ -4472,7 +4299,12 @@
 				"trans": "莉莉絲"
 			},
 			"questCooldownLines": {
-				"eng": [],
+				"eng": [
+					"Aw, sugar, I'm all outta gigs for ya right now. But don't you worry, I'll have somethin' juicy for ya soon enough.",
+					"Sorry, hon, no quests on the menu for ya at the moment. But keep that shiny chrome eye open, 'cause I'll have somethin' worth your time real soon.",
+					"Aww, darlin', you caught me at a bad time. No quests to offer, but I promise I'll hook you up with some wicked adventures before you know it.",
+					"Sweetheart, my quest bank's runnin' a little dry right now. But keep swingin' by, 'cause I'll whip up somethin' spicy just for you soon."
+				],
 				"trans": [
 					"啊，可惜，我現在沒有任何任務給你。但別擔心，我很快就會給你一個有趣的任務。",
 					"對不起，親愛的，目前沒有任務供您選擇。但請保持警覺，因為我很快就會有一些值得您花時間的事情。",
@@ -4481,13 +4313,17 @@
 				]
 			},
 			"questLines": {
-				"eng": [],
+				"eng": [
+					"Could you do this for me?"
+				],
 				"trans": [
 					"你能為我做這件事嗎？"
 				]
 			},
 			"questPendingLines": {
-				"eng": [],
+				"eng": [
+					"Let me know when you have completed the objectives :)"
+				],
 				"trans": [
 					"完成目標後請讓我知道 :)"
 				]
@@ -4503,7 +4339,18 @@
 		},
 		"mercDraw1": {
 			"greetings": {
-				"eng": [],
+				"eng": [
+					"Ready for action? Meet your new crewmates.",
+					"Time to level up. Your new crewmates are here.",
+					"The dream team? These are your new crewmates.",
+					"Welcome aboard. Meet the crewmates you'll be working with.",
+					"You're in good hands. These are your new crewmates.",
+					"New job, new crew. Meet your teammates.",
+					"Mission critical. These are your new crewmates.",
+					"New allies in the fight. Meet your crewmates.",
+					"Looking for a crew? You just found your new teammates.",
+					"Teamwork makes the dream work. Meet your new crewmates."
+				],
 				"trans": [
 					"準備好行動了嗎？來見見你的新隊員。",
 					"升級的時候到了。你的新隊友已經到達。",
@@ -4562,7 +4409,11 @@
 				"trans": "拆解物品"
 			},
 			"greetings": {
-				"eng": [],
+				"eng": [
+					"Wanna calibrate your irons?",
+					"You break it, I fix it.\n You break it again, I break you.",
+					"I'm the best in the business. You want something done right, you come to me."
+				],
 				"trans": [
 					"想要校準您的鐵製品嗎？",
 					"你弄壞了它，我修好它。\n你再弄壞了它，我就弄壞你。",
@@ -4578,7 +4429,11 @@
 				"trans": "馬克辛"
 			},
 			"questCooldownLines": {
-				"eng": [],
+				"eng": [
+					"Looking for a gig, huh? Sorry, nothing on my radar right now. Check back later, maybe I'll have something worth your while.",
+					"Listen up, slick, I'm all tapped out on quests. Come back when I've restocked.",
+					"Looking for action, huh? Well, tough luck. No jobs for you at the moment, slick."
+				],
 				"trans": [
 					"在找工作嗎？抱歉，我目前沒有任何消息。稍後再來看看，也許我會有一些值得你關注的事情。",
 					"聽著，老兄，我已經沒有任務了。等我補貨後再來吧。",
@@ -4586,19 +4441,26 @@
 				]
 			},
 			"questLines": {
-				"eng": [],
+				"eng": [
+					"Up for new gigs?"
+				],
 				"trans": [
 					"有新的工作嗎？"
 				]
 			},
 			"questPendingLines": {
-				"eng": [],
+				"eng": [
+					"Let me know when you have completed the objectives :)"
+				],
 				"trans": [
 					"完成目標後請告知我 :)"
 				]
 			},
 			"shopLines": {
-				"eng": [],
+				"eng": [
+					"Seeking an edge in the city? You've come to the right place.",
+					"I'll fix you up real nice, no questions asked."
+				],
 				"trans": [
 					"在城市中尋求優勢？你來對地方了。",
 					"我會幫你修好的，不問任何問題。"
@@ -4740,10 +4602,6 @@
 				"eng": "Move all items",
 				"trans": "移動所有物品"
 			}
-		},
-		"upgrade": {
-			"eng": "Upgrade",
-			"trans": "升級"
 		}
 	},
 	"playerDetailsPage": {
@@ -4791,10 +4649,6 @@
 			"assets": {
 				"eng": "Assets",
 				"trans": "資產"
-			},
-			"attribute": {
-				"eng": "Attribute",
-				"trans": "屬性"
 			},
 			"crew": {
 				"eng": "Crew",
@@ -4982,26 +4836,6 @@
 			"trans": "狀態效果"
 		}
 	},
-	"premiumShopItem": {
-		"package1": {
-			"name": {
-				"eng": "Package 1",
-				"trans": "禮包1"
-			}
-		},
-		"package2": {
-			"name": {
-				"eng": "Package 2",
-				"trans": "禮包2"
-			}
-		},
-		"package3": {
-			"name": {
-				"eng": "Package 3",
-				"trans": "禮包3"
-			}
-		}
-	},
 	"premiumShopPage": {
 		"benefitsTabTitle": {
 			"eng": "Benefits",
@@ -5033,10 +4867,6 @@
 		"button": {
 			"eng": "Close",
 			"trans": "關閉"
-		},
-		"description": {
-			"eng": "Cyber-psychosis is a condition that occurs when a person overuses their cybernetic abilities without proper rest, leading to a breakdown in their mental and emotional state. The constant stimulation and processing of data can overwhelm the brain, causing the person to lose touch with reality and experience hallucinations and delusions.",
-			"trans": "網絡狂躁症是一種情況，當一個人沒有得到適當的休息，過度使用他們的電馭能力，導致他們的心理和情感狀態崩潰。持續的刺激和數據處理可能會壓垮大腦，導致人們失去對現實的感知，並體驗幻覺和妄想。"
 		},
 		"neuroblockerDescription": {
 			"eng": "use neuroblocker to reduce psychosis",
@@ -5188,10 +5018,6 @@
 			"eng": "complete",
 			"trans": "完成"
 		},
-		"completeButton": {
-			"eng": "Complete",
-			"trans": "完成"
-		},
 		"dailyQuests": {
 			"eng": "Daily",
 			"trans": "每日的"
@@ -5207,10 +5033,6 @@
 		"pinQuest": {
 			"eng": "Track",
 			"trans": "追蹤"
-		},
-		"tasks": {
-			"eng": "Tasks",
-			"trans": "任務"
 		}
 	},
 	"questPreview": {
@@ -5537,10 +5359,6 @@
 				"eng": "You must be idle to join a lobby",
 				"trans": "您必須處於閒置狀態才能加入大廳"
 			},
-			"kicked": {
-				"eng": "You have been kicked from this lobby",
-				"trans": "你已被踢出此大廳。"
-			},
 			"lobbyFull": {
 				"eng": "Lobby is full",
 				"trans": "大廳已滿"
@@ -5553,17 +5371,9 @@
 				"eng": "No lobby id found",
 				"trans": "未找到大廳ID"
 			},
-			"notIdle": {
-				"eng": "You must be idle to join a lobby",
-				"trans": "您必須處於閒置狀態才能加入大廳"
-			},
 			"notInLobby": {
 				"eng": "You are not in a lobby",
 				"trans": "您不在大廳中。"
-			},
-			"notOwner": {
-				"eng": "You must be the owner of the lobby to invite players",
-				"trans": "您必須是大廳的擁有者才能邀請玩家"
 			},
 			"notOwnerInvite": {
 				"eng": "You must be the owner of the lobby to invite players",
@@ -5706,12 +5516,6 @@
 			"eng": "Background music volume",
 			"trans": "背景音樂音量"
 		},
-		"deleteAccount": {
-			"button": {
-				"eng": "Delete Account",
-				"trans": "刪除帳戶"
-			}
-		},
 		"deleteCharacter": {
 			"eng": "Delete character",
 			"trans": "刪除角色"
@@ -5769,10 +5573,6 @@
 				"eng": "How many would you like to purchase?",
 				"trans": "你想購買多少個？"
 			}
-		},
-		"success": {
-			"eng": "You bought ${amount} ${item}",
-			"trans": "你購買了 ${amount} ${item}"
 		}
 	},
 	"shopPage": {
@@ -6157,17 +5957,9 @@
 		}
 	},
 	"territoryPage": {
-		"claimTerritoryTask": {
-			"eng": "Contribute to your gang to claim this territory",
-			"trans": "貢獻你的幫派以佔領這塊領地"
-		},
 		"description": {
 			"eng": "Claim control of this territory to gain ability to deploy territorial buffs",
 			"trans": "聲明對這個領土的控制，以獲得部署領土增益的能力。"
-		},
-		"free": {
-			"eng": "This territory is free",
-			"trans": "這片領土是自由的"
 		},
 		"gangRequired": {
 			"eng": "You must be in a gang to claim territory",
@@ -6176,10 +5968,6 @@
 		"territoryBuffs": {
 			"eng": "leaderboard",
 			"trans": "排行榜"
-		},
-		"title": {
-			"eng": "District ${id}",
-			"trans": "區域 ${id}"
 		},
 		"unclaimed": {
 			"eng": "This territory is unclaimed",
@@ -6408,11 +6196,6 @@
 			"eng": "Claim reward",
 			"trans": "領取獎勵"
 		},
-		"levelRange": {
-			"eng": "Lv ${enemyMinLevel}-${enemyMaxLevel}",
-			"trans": "等級 ${enemyMinLevel}-${enemyMaxLevel}",
-			"vars": []
-		},
 		"locationNotCleared": {
 			"eng": "Clear any of the level ${level} strongholds to unlock the rewards",
 			"trans": "清除任何${level}級地城以解鎖獎勵",
@@ -6519,20 +6302,6 @@
 		"back": {
 			"eng": "Back",
 			"trans": "返回"
-		},
-		"characterCreate": {
-			"createButton": {
-				"label": {
-					"eng": "create",
-					"trans": "創建"
-				}
-			},
-			"nameInput": {
-				"label": {
-					"eng": "character name",
-					"trans": "角色名稱"
-				}
-			}
 		},
 		"characterSelect": {
 			"createCharacter": {
@@ -6670,60 +6439,6 @@
 			"equip": {
 				"eng": "Equip",
 				"trans": "裝備"
-			}
-		},
-		"npc": {
-			"blackMarket": {
-				"browseButton": {
-					"eng": "Premium Shop",
-					"trans": "高級商店"
-				},
-				"myStuffButton": {
-					"eng": "show me my stuff on the market",
-					"trans": "顯示我在市場上的物品"
-				}
-			},
-			"healButton": {
-				"title": {
-					"eng": "I need healing (${price}${$})",
-					"trans": "我需要治療（${price}${$}）"
-				}
-			},
-			"mercenaryButton": {
-				"eng": [],
-				"trans": [
-					"尋找僱傭兵"
-				]
-			},
-			"questButton": {
-				"eng": [],
-				"trans": [
-					"有什麼需要我幫忙的嗎？"
-				]
-			},
-			"recoverItemButton": {
-				"eng": "Gonna need my stuff back",
-				"trans": "我需要我的東西回來"
-			},
-			"repairButton": {
-				"eng": "Repair my equipment",
-				"trans": "修復我的裝備"
-			},
-			"shopButton": {
-				"eng": [],
-				"trans": [
-					"我想買東西"
-				]
-			},
-			"upgradeButton": {
-				"eng": "Upgrade my equipment",
-				"trans": "升級我的裝備"
-			},
-			"weaponSmith": {
-				"dismantleButton": {
-					"eng": "Dismantle items",
-					"trans": "拆解物品"
-				}
 			}
 		},
 		"restart": {

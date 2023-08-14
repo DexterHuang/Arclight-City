@@ -88,16 +88,6 @@
 				"trans": "${merc}はチームを${amount}回復しました。"
 			}
 		},
-		"heal_group": {
-			"description": {
-				"eng": "Heals your team for certain amount of health",
-				"trans": "チームの体力を特定量回復します。"
-			},
-			"triggered": {
-				"eng": "${merc} healed the team for ${amount} health",
-				"trans": "${merc}はチームを${amount}回復しました。"
-			}
-		},
 		"poison": {
 			"description": {
 				"eng": "Poisons the enemy for ${amount}",
@@ -137,10 +127,6 @@
 				"eng": "${merc} shields the team for ${amount}",
 				"trans": "${merc}はチームを${amount}でシールドします。"
 			}
-		},
-		"subtitle": {
-			"eng": "Ability",
-			"trans": "能力"
 		}
 	},
 	"apartment": {
@@ -179,10 +165,6 @@
 				"eng": "You can only enter an apartment when you are idle",
 				"trans": "アパートに入ることは、アイドル状態の時にのみ可能です。"
 			}
-		},
-		"guest": {
-			"eng": "guest",
-			"trans": "ゲスト"
 		},
 		"invite": {
 			"blocked": {
@@ -223,29 +205,7 @@
 			}
 		}
 	},
-	"apartmentDetails": {
-		"inventorySlots": {
-			"eng": "additional inventory slots: ${slotCount}",
-			"trans": "追加インベントリスロット：${slotCount}"
-		},
-		"storageSlots": {
-			"eng": "additional vault slots: ${slotCount}",
-			"trans": "追加された倉庫スロット数: ${slotCount}"
-		}
-	},
 	"apartmentPage": {
-		"deliveryButton": {
-			"title": {
-				"eng": "Deliveries",
-				"trans": "配達"
-			}
-		},
-		"kitchen": {
-			"title": {
-				"eng": "kitchen",
-				"trans": "キッチン"
-			}
-		},
 		"kitchenButton": {
 			"title": {
 				"eng": "kitchen",
@@ -514,26 +474,6 @@
 			"displayName": {
 				"eng": "Extraction Specialist",
 				"trans": "抽出専門家"
-			}
-		},
-		"junkyard1": {
-			"description": {
-				"eng": "Navigate hazardous junkyards, uncover hidden treasures, and salvage valuable tech",
-				"trans": "危険なジャンクヤードを航海し、隠された宝物を発見し、貴重なテクノロジーを回収します。"
-			},
-			"displayName": {
-				"eng": "Salvaging Mission",
-				"trans": "サルベージミッション"
-			}
-		},
-		"netrunning": {
-			"description": {
-				"eng": "hack into the cyberspace and steal some useful data to sell in the black market",
-				"trans": "サイバースペースに侵入して有用なデータを盗み、ブラックマーケットで売る。"
-			},
-			"displayName": {
-				"eng": "netrunning",
-				"trans": "ネットランニング"
 			}
 		},
 		"scavenge": {
@@ -929,10 +869,6 @@
 			"description2": {
 				"eng": "In case of server maintenance, it usually will be done within a few minutes.",
 				"trans": "サーバーメンテナンスの場合、通常数分以内に完了します。"
-			},
-			"title": {
-				"eng": "Connecting to mainframe...",
-				"trans": "メインフレームに接続中..."
 			}
 		},
 		"notLoggedIn": {
@@ -948,10 +884,6 @@
 			}
 		},
 		"reconnecting": {
-			"description": {
-				"eng": "Failed to connect to mainframe. Please ensure network connection is stable. or server is under maintenance.",
-				"trans": "メインフレームに接続できませんでした。ネットワーク接続が安定しているか、サーバーがメンテナンス中でないか確認してください。"
-			},
 			"title": {
 				"eng": "Reconnecting to mainframe... (${attempt})",
 				"trans": "メインフレームに再接続中... ${attempt}回目の試行"
@@ -2109,10 +2041,6 @@
 			"eng": "You can attempt to repair it in the ${repairNpc}",
 			"trans": "${repairNpc}で修理を試みることができます。"
 		},
-		"description": {
-			"eng": "This item has been destroyed. You can attempt to repair it in the ${repairNpc}.",
-			"trans": "このアイテムは破壊されました。${repairNpc}で修理を試みることができます。"
-		},
 		"repairButton": {
 			"eng": "Repair",
 			"trans": "修理する"
@@ -2196,10 +2124,6 @@
 		"noChanges": {
 			"eng": "No changes",
 			"trans": "Understood"
-		},
-		"stat": {
-			"eng": "stat",
-			"trans": "ステータス"
 		}
 	},
 	"itemInbox": {
@@ -2321,12 +2245,6 @@
 			"name": {
 				"eng": "All",
 				"trans": "すべて"
-			}
-		},
-		"backpack": {
-			"name": {
-				"eng": "Backpack",
-				"trans": "バックパック"
 			}
 		},
 		"boots": {
@@ -2747,10 +2665,6 @@
 			"description": {
 				"eng": "Use to contribute to gang territory control",
 				"trans": "ギャング領土支配に貢献するために使用する"
-			},
-			"name": {
-				"eng": "Gang Control Resource",
-				"trans": "ギャングコントロールリソース"
 			}
 		},
 		"gun": {
@@ -2943,16 +2857,6 @@
 			"name": {
 				"eng": "Prefix Injector Shard",
 				"trans": "プレフィックスインジェクターシャード"
-			}
-		},
-		"premiumCurrency": {
-			"description": {
-				"eng": "Premium Currency is a special currency that can be used to purchase premium items in the shop.",
-				"trans": "プレミアム通貨は、ショップでプレミアムアイテムを購入するために使用できる特別な通貨です。"
-			},
-			"name": {
-				"eng": "Premium Currency",
-				"trans": "プレミアム通貨"
 			}
 		},
 		"rareCalibrationSafety": {
@@ -3261,12 +3165,6 @@
 				"trans": "ギャングレベル"
 			}
 		},
-		"hacking": {
-			"displayName": {
-				"eng": "Hacking",
-				"trans": "ハッキング"
-			}
-		},
 		"medical": {
 			"description": {
 				"eng": "Increases intelligence attribute by 1 every level",
@@ -3318,12 +3216,6 @@
 				"eng": "Level ${level} (${min} - ${max})",
 				"trans": "レベル${level} (${min} - ${max})"
 			}
-		}
-	},
-	"location": {
-		"districtName": {
-			"eng": "District ${id}",
-			"trans": "地区${id}"
 		}
 	},
 	"locationListPage": {
@@ -3404,12 +3296,10 @@
 	},
 	"mail": {
 		"notification": {
-			"eng": "${senderName} sent you a mail",
 			"fromPlayer": {
 				"eng": "${senderName} sent you a mail",
 				"trans": "${senderName}からメールが届きました。"
-			},
-			"trans": "${senderName}がメールを送信しました。"
+			}
 		},
 		"pvpSuccess1": {
 			"body": {
@@ -3558,10 +3448,6 @@
 		}
 	},
 	"marketItemDetailsModal": {
-		"cantRemove": {
-			"eng": "This item has a bid and can\\'t be removed",
-			"trans": "このアイテムには入札があり、削除できません。"
-		},
 		"cantRemoveBid": {
 			"eng": "This item has a bid and can\\'t be removed",
 			"trans": "このアイテムには入札があり、削除することはできません。"
@@ -3950,10 +3836,6 @@
 		}
 	},
 	"misc": {
-		"blackMarketCurrencyDescription": {
-			"eng": "The black market currency, can only be obtained from in game and premium store",
-			"trans": "ゲーム内とプレミアムストアからしか入手できないブラックマーケット通貨。"
-		},
 		"blackMarketCurrencyName": {
 			"eng": "Netcoin",
 			"trans": "ネットコイン"
@@ -3998,37 +3880,17 @@
 			"eng": "Cybernetic Enhancer",
 			"trans": "電子増強装置"
 		},
-		"mercUpgradeCurrencyDescription": {
-			"eng": "Neural Upgrade Augmenter is a cutting-edge implant that enables users to break past their mental limitations and reach untold levels of cognitive enhancement. With the ability to exceed typical neural barriers, users can unlock new levels of insight, creativity, and physical performance.",
-			"trans": "ニューラルアップグレードオーグメンターは、ユーザーが精神的な制限を超え、洞察力、創造力、物理的パフォーマンスの新しいレベルを開放することができる、最先端のインプラントです。典型的なニューラルバリアを超える能力を持っているため、ユーザーは新しい洞察力、創造性、物理的パフォーマンスのレベルを開放することができます。"
-		},
-		"mercUpgradeCurrencyName": {
-			"eng": "Neural Upgrade Augmenter",
-			"trans": "ニューラルアップグレードオーグメンター"
-		},
 		"multiSelect": {
 			"eng": "Multi Select",
 			"trans": "複数選択"
-		},
-		"normalCurrencyDescription": {
-			"eng": "A common currency that can be obtained from in game easily",
-			"trans": "ゲーム内で簡単に入手できる共通通貨"
 		},
 		"normalCurrencyName": {
 			"eng": "Eurodollars",
 			"trans": "ユーロドル"
 		},
-		"oneOf": {
-			"eng": "one of",
-			"trans": "一つの"
-		},
 		"open": {
 			"eng": "open",
 			"trans": "オープンする"
-		},
-		"premiumCurrencyDescription": {
-			"eng": "Universal Dollars is a rare currency that can only be obtained through premium store.",
-			"trans": "ユニバーサルドルは、プレミアムストアでしか手に入らない珍しい通貨です。"
 		},
 		"premiumCurrencyName": {
 			"eng": "Universal Dollars",
@@ -4139,13 +4001,19 @@
 				"trans": "人気のあるバーは傭兵たちの集まり場所であり、ここでクロエに会うことができ、他の傭兵たちとも出会えます。"
 			},
 			"greetings": {
-				"eng": [],
-				"trans": [
+				"eng": [
 					"What can I get for you?",
 					"Make it quick, I don't have all day.",
 					"You're not from around here, are you?",
 					"I don't do small talk, what do you want to drink?",
 					"You're not the chatty type, I like that. What can I get you?"
+				],
+				"trans": [
+					"何をお求めですか？",
+					"素早くやってください、一日中時間がありません。",
+					"あなたはここからではないですね、そうですか？",
+					"世間話はしない、何を飲みたい？",
+					"あなたはおしゃべり好きではないみたいですね。それはいいですね。何をお持ちしましょうか？"
 				]
 			},
 			"locationName": {
@@ -4157,7 +4025,11 @@
 				"trans": "クロエ"
 			},
 			"questCooldownLines": {
-				"eng": [],
+				"eng": [
+					"Come back later, I have nothing for you right now.",
+					"Afraid I'm fresh out of gigs, hon. Come back another time.",
+					"Sorry, darling. The quest shelf is empty at the moment. Swing by later."
+				],
 				"trans": [
 					"後で戻ってきてください、今は何もありません。",
 					"ギグがなくて残念だけど、また別の時に戻ってきてね。",
@@ -4165,15 +4037,19 @@
 				]
 			},
 			"questLines": {
-				"eng": [],
-				"trans": [
+				"eng": [
 					"Up for new gigs?"
+				],
+				"trans": [
+					"新しい仕事はいかがですか？"
 				]
 			},
 			"questPendingLines": {
-				"eng": [],
-				"trans": [
+				"eng": [
 					"Let me know when you have completed the objectives :)"
+				],
+				"trans": [
+					"目標を達成したら教えてください :)"
 				]
 			}
 		},
@@ -4185,21 +4061,21 @@
 						"trans": "マーケットを利用するにはアパートメントが必要です。"
 					}
 				},
-				"eng": "Premium Shop",
 				"title": {
 					"eng": "Browse the market",
 					"trans": "マーケットを閲覧する"
-				},
-				"trans": "プレミアムショップ"
+				}
 			},
 			"description": {
 				"eng": "A discreet trading post for mercs of ArcLight City, you can sell and buy items here with Ren.",
 				"trans": "アークライトシティの傭兵たちのための秘密の取引所です。ここではRenでアイテムを販売、購入できます。"
 			},
 			"greetings": {
-				"eng": [],
-				"trans": [
+				"eng": [
 					"Look but don't touch. Unless you don't need your hands no more."
+				],
+				"trans": [
+					"見るだけで触らないでください。手が必要なくなる場合を除いて。"
 				]
 			},
 			"locationName": {
@@ -4215,7 +4091,11 @@
 				"trans": "レン"
 			},
 			"questCooldownLines": {
-				"eng": [],
+				"eng": [
+					"Not at the moment, chromehead. But don't sweat it. I'll hit you up when I've got a job that suits your skill set.",
+					"Nada right now, but don't go rebootin' just yet. I'll drop a line when I've got somethin' spicy to offer. Patience, choomba.",
+					"No gigs on tap, sweetheart. But stay frosty, 'cause I'll give you a holla when a sweet opportunity slides my way."
+				],
 				"trans": [
 					"今はちょっと待っててくれ、クロームヘッド。でも心配しないで。あなたのスキルに合った仕事があるときに連絡するよ。",
 					"今は何もないけど、まだ再起動しないで。何かスパイシーなものがあるときに連絡するよ。辛抱して待ってて、チュームバ。",
@@ -4223,15 +4103,19 @@
 				]
 			},
 			"questLines": {
-				"eng": [],
-				"trans": [
+				"eng": [
 					"Up for new gigs?"
+				],
+				"trans": [
+					"新しい仕事はいかがですか？"
 				]
 			},
 			"questPendingLines": {
-				"eng": [],
-				"trans": [
+				"eng": [
 					"Quit wasting my time, unless you have done your job."
+				],
+				"trans": [
+					"あなたの時間を無駄にしないでください、あなたの仕事を終えているのでなければ。"
 				]
 			}
 		},
@@ -4241,9 +4125,11 @@
 				"trans": "貴方が負傷した場合、有償でオリアナに治療してもらうことができます。"
 			},
 			"greetings": {
-				"eng": [],
-				"trans": [
+				"eng": [
 					"Upgrade some chromes today choom?"
+				],
+				"trans": [
+					"今日はいくつかのクロームをアップグレードしますか、チューム？"
 				]
 			},
 			"locationName": {
@@ -4255,7 +4141,11 @@
 				"trans": "オリアナ"
 			},
 			"questCooldownLines": {
-				"eng": [],
+				"eng": [
+					"No gigs for you, rookie. But don't wander too far. I've got a knack for stumbling upon trouble, and I'll make sure you're front and center when the time comes.",
+					"No jobs at the moment, but don't go rebootin' just yet. I'll drop a line when I've got somethin' spicy to offer. Patience, choomba.",
+					"Looking for a fix, huh? Sorry, no new quests on my operating table. But I'll keep your name on file for when I've got a job that needs some... delicate extraction."
+				],
 				"trans": [
 					"新米の君には仕事はない。でもあまり遠くには行かないでほしい。私はトラブルに巻き込まれる才能があるから、その時が来たら君を前に出すよ。",
 					"現在は仕事はありませんが、まだ再起動しないでください。おいしいものを提供できるときに連絡します。忍耐力を持って待っていてください、チューバ。",
@@ -4263,21 +4153,27 @@
 				]
 			},
 			"questLines": {
-				"eng": [],
-				"trans": [
+				"eng": [
 					"Up for new gigs?"
+				],
+				"trans": [
+					"新しい仕事はいかがですか？"
 				]
 			},
 			"questPendingLines": {
-				"eng": [],
-				"trans": [
+				"eng": [
 					"Let me know when you have completed the objectives :)"
+				],
+				"trans": [
+					"目標を達成したら教えてください :)"
 				]
 			},
 			"shopLines": {
-				"eng": [],
-				"trans": [
+				"eng": [
 					"Don't just look, buy something."
+				],
+				"trans": [
+					"ただ見るだけでなく、何か買ってください。"
 				]
 			}
 		},
@@ -4287,11 +4183,10 @@
 				"trans": "ハナは、機械をいじくり回して修理することに情熱を注ぐ、知恵と技術を持った小柄な女性です。彼女の専門知識は、彼女が住む荒涼としたサイバーパンクの世界で修理を必要とする人々にとって、貴重な資産となっています。しかし、実用的な外観の裏には、静かで内省的な性格があり、しばしば考え込んでいます。彼女は細かいところに目配りができ、自分のスキルを向上させるための新しいチャレン"
 			},
 			"greetings": {
-				"eng": [],
-				"trans": [
+				"eng": [
 					"Hey there, stranger! Are you ready for a little boost to help you on your journey today?",
 					"Welcome back, hon! I've got some exciting things for you to help you kick some virtual butt today.",
-					"Hey, you! Don't forget to check in with me every day for some sweet loot to make your gameplay even more epic.",
+					"Hey, you! Don't forget to check in with me every day for some sweet loots to make your gameplay even more epic.",
 					"Well, well, well...look who decided to log in today! I've got something that I think you're going to love.",
 					"Greetings, fellow adventurer! Let's see what kind of loot we can scavenge for you today.",
 					"Hey, there! Feeling lucky today? I've got some rewards that just might make your day a little brighter.",
@@ -4299,6 +4194,18 @@
 					"Welcome back, my friend! Let's see what kind of treasure we can dig up for you today.",
 					"Salutations! I hope you're ready for some loot that's out of this world today.",
 					"Good day, mate! It's always a pleasure to see you. Let's make today a good one with some fantastic rewards."
+				],
+				"trans": [
+					"こんにちは、見知らぬ人！今日の旅を助けるためのちょっとしたブーストに準備はできていますか？",
+					"おかえりなさい、ハニー！今日は仮想世界でお尻を蹴るためのエキサイティングなことがいくつかありますよ。",
+					"Hey, you! Don't forget to check in with me every day for some sweet loot to make your gameplay even more epic.",
+					"まあ、まあ、まあ...今日ログインすることに決めたのは誰でしょう！君が大好きだと思うものを持ってきたよ。",
+					"こんにちは、仲間の冒険者よ！今日はどんな戦利品を回収できるか見てみましょう。",
+					"こんにちは！今日は運がいいですか？ちょっとした報酬がありますよ。それがあなたの日を少し明るくするかもしれません。",
+					"こんにちは、パートナー！今日は特に寛大な気分です。一流の装備を見逃さないでください。",
+					"お帰りなさい、友よ！今日はどんな宝物を掘り起こせるか見てみましょう。",
+					"挨拶！今日は宇宙外の戦利品に備えていることを願っています。",
+					"こんにちは、仲間！いつもお会いできて嬉しいです。素晴らしい報酬が得られる、今日も良い一日にしましょう。"
 				]
 			},
 			"npcName": {
@@ -4322,7 +4229,9 @@
 				}
 			},
 			"greetings": {
-				"eng": [],
+				"eng": [
+					"Welcome to my game! let me know if you have any feedbacks or bug report :)"
+				],
 				"trans": [
 					"私のゲームへようこそ！フィードバックやバグ報告があれば教えてください :)"
 				]
@@ -4374,9 +4283,11 @@
 				"trans": "一般商店、ここで一般的なアイテムを購入できます。"
 			},
 			"greetings": {
-				"eng": [],
-				"trans": [
+				"eng": [
 					"Hey there, welcome to my store!"
+				],
+				"trans": [
+					"こんにちは、私の店へようこそ！"
 				]
 			},
 			"locationName": {
@@ -4388,7 +4299,12 @@
 				"trans": "リリス"
 			},
 			"questCooldownLines": {
-				"eng": [],
+				"eng": [
+					"Aw, sugar, I'm all outta gigs for ya right now. But don't you worry, I'll have somethin' juicy for ya soon enough.",
+					"Sorry, hon, no quests on the menu for ya at the moment. But keep that shiny chrome eye open, 'cause I'll have somethin' worth your time real soon.",
+					"Aww, darlin', you caught me at a bad time. No quests to offer, but I promise I'll hook you up with some wicked adventures before you know it.",
+					"Sweetheart, my quest bank's runnin' a little dry right now. But keep swingin' by, 'cause I'll whip up somethin' spicy just for you soon."
+				],
 				"trans": [
 					"ああ、残念だけど、今は君には仕事がないんだ。でも心配しないで、すぐにおいしいものを用意するよ。",
 					"ごめんなさい、今のところクエストはありません。でも、その輝くクロムの目を開いておいてください。すぐにあなたの時間に値するものを用意しますよ。",
@@ -4397,15 +4313,19 @@
 				]
 			},
 			"questLines": {
-				"eng": [],
-				"trans": [
+				"eng": [
 					"Could you do this for me?"
+				],
+				"trans": [
+					"これを私のためにやってもらえますか？"
 				]
 			},
 			"questPendingLines": {
-				"eng": [],
-				"trans": [
+				"eng": [
 					"Let me know when you have completed the objectives :)"
+				],
+				"trans": [
+					"目標を達成したら教えてください :)"
 				]
 			},
 			"shopName": {
@@ -4419,8 +4339,7 @@
 		},
 		"mercDraw1": {
 			"greetings": {
-				"eng": [],
-				"trans": [
+				"eng": [
 					"Ready for action? Meet your new crewmates.",
 					"Time to level up. Your new crewmates are here.",
 					"The dream team? These are your new crewmates.",
@@ -4431,6 +4350,18 @@
 					"New allies in the fight. Meet your crewmates.",
 					"Looking for a crew? You just found your new teammates.",
 					"Teamwork makes the dream work. Meet your new crewmates."
+				],
+				"trans": [
+					"アクションの準備はできていますか？新しいクルーメンバーに会いましょう。",
+					"レベルアップの時間です。新しい仲間がここにいます。",
+					"夢のチーム？これがあなたの新しいクルーメイトです。",
+					"ようこそ。一緒に働くクルーメンバーに会いましょう。",
+					"あなたは安心しています。これがあなたの新しい仲間です。",
+					"新しい仕事、新しいクルー。チームメイトに会いましょう。",
+					"ミッションクリティカルです。これがあなたの新しいクルーメイトです。",
+					"戦いに新たな仲間。クルーメンバーに会いましょう。",
+					"クルーを探していますか？新しいチームメイトを見つけました。",
+					"チームワークは夢を実現させます。新しいクルーメンバーに会いましょう。"
 				]
 			},
 			"npcName": {
@@ -4478,11 +4409,15 @@
 				"trans": "アイテムを解体する"
 			},
 			"greetings": {
-				"eng": [],
-				"trans": [
+				"eng": [
 					"Wanna calibrate your irons?",
 					"You break it, I fix it.\n You break it again, I break you.",
 					"I'm the best in the business. You want something done right, you come to me."
+				],
+				"trans": [
+					"アイアンをキャリブレーションしますか？",
+					"あなたが壊すなら、私が修理します。\nもう一度壊すなら、私があなたを壊します。",
+					"私はこの業界で一番です。何かを正しくやりたいなら、私に頼んでください。"
 				]
 			},
 			"locationName": {
@@ -4494,7 +4429,11 @@
 				"trans": "マキシン"
 			},
 			"questCooldownLines": {
-				"eng": [],
+				"eng": [
+					"Looking for a gig, huh? Sorry, nothing on my radar right now. Check back later, maybe I'll have something worth your while.",
+					"Listen up, slick, I'm all tapped out on quests. Come back when I've restocked.",
+					"Looking for action, huh? Well, tough luck. No jobs for you at the moment, slick."
+				],
 				"trans": [
 					"ギグを探しているのか？残念ながら、今は私のレーダーには何もないよ。後でまたチェックしてみて、もしかしたら君にとって価値のあるものがあるかもしれない。",
 					"聞いてくれ、スリック、クエストは全部終わった。ストックが補充されるまで戻ってきてくれ。",
@@ -4502,19 +4441,26 @@
 				]
 			},
 			"questLines": {
-				"eng": [],
-				"trans": [
+				"eng": [
 					"Up for new gigs?"
+				],
+				"trans": [
+					"新しい仕事はいかがですか？"
 				]
 			},
 			"questPendingLines": {
-				"eng": [],
-				"trans": [
+				"eng": [
 					"Let me know when you have completed the objectives :)"
+				],
+				"trans": [
+					"目標を達成したら教えてください :)"
 				]
 			},
 			"shopLines": {
-				"eng": [],
+				"eng": [
+					"Seeking an edge in the city? You've come to the right place.",
+					"I'll fix you up real nice, no questions asked."
+				],
 				"trans": [
 					"都市で優位性を求めていますか？ 正しい場所に来ました。",
 					"問いません、あなたをきちんと修理します。"
@@ -4656,10 +4602,6 @@
 				"eng": "Move all items",
 				"trans": "すべてのアイテムを移動する"
 			}
-		},
-		"upgrade": {
-			"eng": "Upgrade",
-			"trans": "アップグレードする"
 		}
 	},
 	"playerDetailsPage": {
@@ -4894,26 +4836,6 @@
 			"trans": "ステータス効果"
 		}
 	},
-	"premiumShopItem": {
-		"package1": {
-			"name": {
-				"eng": "Package 1",
-				"trans": "パッケージ1"
-			}
-		},
-		"package2": {
-			"name": {
-				"eng": "Package 2",
-				"trans": "パッケージ2"
-			}
-		},
-		"package3": {
-			"name": {
-				"eng": "Package 3",
-				"trans": "パッケージ3"
-			}
-		}
-	},
 	"premiumShopPage": {
 		"benefitsTabTitle": {
 			"eng": "Benefits",
@@ -4945,10 +4867,6 @@
 		"button": {
 			"eng": "Close",
 			"trans": "閉じる"
-		},
-		"description": {
-			"eng": "Cyber-psychosis is a condition that occurs when a person overuses their cybernetic abilities without proper rest, leading to a breakdown in their mental and emotional state. The constant stimulation and processing of data can overwhelm the brain, causing the person to lose touch with reality and experience hallucinations and delusions.",
-			"trans": "サイバーサイコーシスとは、十分な休息をとらずにサイバネティックな能力を過剰に使用することで、精神的・感情的状態が崩壊する状態のことです。常に刺激やデータの処理にさらされることで、脳が過負荷になり、現実感を失い、幻覚や妄想を経験することがあります。"
 		},
 		"neuroblockerDescription": {
 			"eng": "use neuroblocker to reduce psychosis",
@@ -5453,17 +5371,9 @@
 				"eng": "No lobby id found",
 				"trans": "ロビーIDが見つかりません"
 			},
-			"notIdle": {
-				"eng": "You must be idle to join a lobby",
-				"trans": "ロビーを作成するにはアイドル状態である必要があります"
-			},
 			"notInLobby": {
 				"eng": "You are not in a lobby",
 				"trans": "ロビーにいません"
-			},
-			"notOwner": {
-				"eng": "You must be the owner of the lobby to invite players",
-				"trans": "プレイヤーをキックするには、ロビーのオーナーである必要があります。"
 			},
 			"notOwnerInvite": {
 				"eng": "You must be the owner of the lobby to invite players",
