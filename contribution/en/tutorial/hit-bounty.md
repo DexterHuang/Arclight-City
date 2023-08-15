@@ -6,4 +6,4 @@ To place a hit on a player, use the in-game web browser to access the CICUITBREA
 
 ## Becoming a Hitman
 To collect hits, simply defeat any player who has an active hit placed on them. If you win the PvP fight, you'll automatically receive the hit payout.
-You may enage PVP with other player by clicking `Attack` on their profile page
+You may engage PVP with other players by clicking the `Attack` button on their profile page
