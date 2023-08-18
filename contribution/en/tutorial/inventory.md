@@ -1,14 +1,13 @@
 ### What is Inventory?
-All adventurers has their inventory, it can be used to store items and loots. items stored in inventory will not be lost when you die in strongholds.
+Every adventurer has their own inventory, which can be used to store items and loot. Items stored in the inventory will not be lost when you die in strongholds.
 
 ### How do I increase inventory size?
-You may increase the slot amount of your inventory by:
-- Renting a apartment, the higher tier apartment comes with higher amount of slots
-- Upgrading your inventory by clicking the `+` button next to the slot counter 
+You can increase the number of slots in your inventory by following these methods:
 
-### What is Backpack
-Backpack is what you bring to strongholds, you can only access whats in your backpack when you venture into strongholds.
-Please keep in mind, if you die in strongholds, items in your backpack will be transfered to the Ripperdoc as a deposit for your medical care. You may buy back the items from the clinic if you wish.
+- Renting an apartment; higher-tier apartments come with a greater number of slots.
+- Upgrading your inventory by clicking the `+` button located next to the slot counter.
+### What is a Backpack?
+The backpack is what you carry with you into strongholds. You can only access items stored in your backpack while exploring strongholds. However, please be aware that if you die within a stronghold, the items in your backpack will be transferred to the Ripperdoc as a deposit to cover your medical expenses. You have the option to repurchase these items from the clinic if you so choose.
 
 ### How do I increase my backpack size?
-You may increase your backpack size by clicking the `+` button next to slot counter. 
+To expand your backpack's capacity, click on the `+` button next to the slot counter.
