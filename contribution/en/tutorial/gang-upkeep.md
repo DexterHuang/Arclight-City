@@ -1,4 +1,4 @@
-## What is it gang upkeep?
+## What is gang upkeep?
 Gang upkeep is a fee that all gangs must pay every 7 days to keep functioning. If a gang doesn't have enough funding or resources to pay the upkeep fee, it will fall apart. That's why it's important to always keep the resources and funding topped up. We recommend keeping more than enough resources in stock just to be safe.
 
 ## How is the required upkeep resource calculated?
