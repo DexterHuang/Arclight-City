@@ -261,8 +261,8 @@
 	},
 	"apartmentPurchasePage": {
 		"confirmDescription": {
-			"eng": "Are you sure you want to rent this apartment?",
-			"trans": "このアパートを借りることを確認しますか？"
+			"eng": "Are you sure you want to rent this apartment? if you already has an apartment, it will be dismissed.",
+			"trans": "このアパートを借りることを確認しますか？既にアパートを持っている場合は解雇されます。"
 		},
 		"confirmTitle": {
 			"eng": "Confirm Rental",
@@ -464,16 +464,6 @@
 			"displayName": {
 				"eng": "Gang Maintenance",
 				"trans": "ギャングのメンテナンス"
-			}
-		},
-		"hospital": {
-			"description": {
-				"eng": "Work as an extraction specialist for Trauma Team, with the only goal of extracting ensured client from lethal situations. ",
-				"trans": "致命的な状況から確実にクライアントを救出するため、Trauma Teamの抽出専門家として働きます。"
-			},
-			"displayName": {
-				"eng": "Extraction Specialist",
-				"trans": "抽出専門家"
 			}
 		},
 		"scavenge": {
@@ -697,6 +687,10 @@
 		}
 	},
 	"clanDetailsPage": {
+		"clanNotAvailable": {
+			"eng": "This gang no longer exists",
+			"trans": "このギャングはもはや存在しません"
+		},
 		"depositButton": {
 			"eng": "Deposit",
 			"trans": "預金"
@@ -756,6 +750,10 @@
 		"playerListButton": {
 			"eng": "Member List",
 			"trans": "メンバーリスト"
+		},
+		"requestToJoinButton": {
+			"eng": "Request to join",
+			"trans": "参加リクエストを送る"
 		},
 		"resources": {
 			"eng": "Resources",
@@ -892,8 +890,8 @@
 	},
 	"contributable": {
 		"description": {
-			"eng": "This content can be edited by anyone, and is not official. you may submit your changes by clicking here!",
-			"trans": "このコンテンツは誰でも編集できるものであり、公式ではありません。ここをクリックして変更を送信することができます！"
+			"eng": "This content can be edited by anyone, and is not official. \\nclick here to submit your edit!",
+			"trans": "このコンテンツは誰でも編集できますが、公式ではありません。\\n編集を提出するにはここをクリックしてください！"
 		},
 		"title": {
 			"eng": "Community Content",
@@ -926,8 +924,8 @@
 			"trans": "${levelName} ${level}レベル"
 		},
 		"psychosis": {
-			"eng": "- ${amount} psychosis",
-			"trans": "- ${amount}の狂躁症"
+			"eng": "+ ${amount} psychosis",
+			"trans": "+ ${amount} 網絡狂躁症"
 		}
 	},
 	"coupon": {
@@ -936,26 +934,26 @@
 			"trans": "このクーポンはすでに利用されています。"
 		},
 		"invalid": {
-			"eng": "Invalid coupon.",
-			"trans": "無効なクーポンです。"
+			"eng": "Invalid gift code.",
+			"trans": "無効なギフトコードです。"
 		}
 	},
 	"couponPage": {
 		"description": {
-			"eng": "Enter your coupon code to get your reward.",
-			"trans": "あなたの報酬を受け取るために、クーポンコードを入力してください。"
+			"eng": "Enter your gift code to get your reward.",
+			"trans": "ギフトコードを入力して、報酬を受け取ってください。"
 		},
 		"inputTitle": {
-			"eng": "Coupon",
-			"trans": "クーポン"
+			"eng": "Gift Code",
+			"trans": "ギフトコード"
 		},
 		"submitButton": {
 			"eng": "Submit",
 			"trans": "提出する"
 		},
 		"title": {
-			"eng": "Coupon",
-			"trans": "クーポン"
+			"eng": "Gift Code",
+			"trans": "ギフトコード"
 		}
 	},
 	"crafting": {
@@ -1217,9 +1215,61 @@
 		}
 	},
 	"dismantlePage": {
+		"confirmModal": {
+			"title": {
+				"eng": "dismantle ${itemName}?",
+				"trans": "${itemName}を解体しますか？"
+			}
+		},
 		"dismantleButton": {
 			"eng": "Dismantle",
 			"trans": "解体する"
+		}
+	},
+	"drawMercAnimation": {
+		"activate": {
+			"eng": "activate",
+			"trans": "アクティベート"
+		},
+		"activated": {
+			"textList1": {
+				"eng": "Allocating resources...",
+				"trans": "リソースを割り当て中..."
+			},
+			"textList2": {
+				"eng": "Loading assets...",
+				"trans": "アセットを読み込んでいます..."
+			},
+			"textList3": {
+				"eng": "Establishing secure channels",
+				"trans": "安全なチャネルの確立"
+			},
+			"textList4": {
+				"eng": "Contacting mercenaries",
+				"trans": "傭兵に連絡中です"
+			},
+			"title": {
+				"eng": "Loading...",
+				"trans": "読み込み中..."
+			}
+		},
+		"completed": {
+			"eng": "Completed",
+			"trans": "完了しました"
+		},
+		"loading": {
+			"eng": "LOADING..",
+			"trans": "読み込み中..."
+		},
+		"standby": {
+			"subtitle": {
+				"eng": "Drag the leaver down to active",
+				"trans": "レバーを下に引いてアクティブにしてください。"
+			},
+			"title": {
+				"eng": "System Standby",
+				"trans": "システム待機中"
+			}
 		}
 	},
 	"dungeon": {
@@ -1232,9 +1282,17 @@
 			"trans": "ダンジョンクリア！"
 		},
 		"error": {
+			"actionWhileHasEnemy": {
+				"eng": "You cannot perform this action while there are enemies nearby",
+				"trans": "敵が近くにいる間は、このアクションを実行することはできません。"
+			},
 			"enemyInRoom": {
 				"eng": "You cannot do that while there are enemies nearby",
 				"trans": "敵が近くにいる間はそれを行うことはできません"
+			},
+			"enemyInRoom2": {
+				"eng": "You cannot perform this action while there are enemies nearby",
+				"trans": "敵が近くにいる間は、このアクションを実行することはできません。"
 			}
 		},
 		"type": {
@@ -1476,6 +1534,12 @@
 				"eng": "quit Dungeon",
 				"trans": "ダンジョンを終了する"
 			}
+		}
+	},
+	"dungeonUi": {
+		"effectsTitle": {
+			"eng": "Effects",
+			"trans": "効果"
 		}
 	},
 	"element": {
@@ -1722,6 +1786,10 @@
 		"submit2": {
 			"eng": "Rate and Claim Reward",
 			"trans": "評価して報酬を受け取る"
+		},
+		"submit3": {
+			"eng": "Submit",
+			"trans": "提出する"
 		}
 	},
 	"friend": {
@@ -1773,10 +1841,42 @@
 		}
 	},
 	"gang": {
+		"createError": {
+			"notEnoughMoney": {
+				"eng": "You do not have enough money to create a gang",
+				"trans": "ギャングを作成するには十分なお金がありません。"
+			}
+		},
 		"error": {
 			"notFound": {
 				"eng": "Gang not found",
 				"trans": "ギャングが見つかりません"
+			},
+			"requestJoin": {
+				"alreadyRequested": {
+					"eng": "You have already requested to join this gang",
+					"trans": "すでにこのギャングに参加をリクエストしました"
+				},
+				"blockedByLeader": {
+					"eng": "Cannot request to join this gang at this time",
+					"trans": "現在はこのギャングに参加をリクエストすることはできません"
+				},
+				"clanIsPublic": {
+					"eng": "This gang is public, there is no need to request to join",
+					"trans": "このギャングは公開されていますので、参加をリクエストする必要はありません。"
+				},
+				"clanNotFound": {
+					"eng": "This gang no longer exists",
+					"trans": "このギャングはもはや存在しません"
+				},
+				"leaderIsAdmin": {
+					"eng": "You cannot request to join this gang",
+					"trans": "このギャングに参加を要求することはできません"
+				},
+				"leaderPlayerNotFound": {
+					"eng": "leader player not found",
+					"trans": "リーダープレイヤーが見つかりません"
+				}
 			}
 		},
 		"inviteSent": {
@@ -1809,6 +1909,12 @@
 			"tooShort": {
 				"eng": "The gang name must be at least ${minLength} characters long",
 				"trans": "ギャング名は${minLength}文字以上である必要があります。"
+			}
+		},
+		"requestJoin": {
+			"mail": {
+				"eng": "Hi, I would love to join your gang! ${request}",
+				"trans": "こんにちは、私はあなたのギャングに参加したいです！ ${request}"
 			}
 		},
 		"tagError": {
@@ -2051,6 +2157,14 @@
 		}
 	},
 	"itemDetails": {
+		"cantDismantleEquipped": {
+			"eng": "You can\\'t dismantle equipped items",
+			"trans": "装備されたアイテムは解体できません。"
+		},
+		"cantDismantleLocked": {
+			"eng": "You can\\'t dismantle locked items",
+			"trans": "ロックされたアイテムは解体できません。"
+		},
 		"cantScrapEquipped": {
 			"eng": "You can\\'t scrap equipped items",
 			"trans": "装備中のアイテムは廃棄できません。"
@@ -2575,16 +2689,6 @@
 				"trans": "コモンレベルシャード"
 			}
 		},
-		"commonUpgradeShard": {
-			"description": {
-				"eng": "Use to upgrade an common item to uncommon tier",
-				"trans": "コモンアイテムをアンコモンティアにアップグレードするために使用する。"
-			},
-			"name": {
-				"eng": "Common Upgrade Shard",
-				"trans": "共通アップグレード・シャード"
-			}
-		},
 		"dungeonActivator": {
 			"description": {
 				"eng": "Use to enter a dungeon",
@@ -3015,6 +3119,16 @@
 				"trans": "アンコモンリセットシャード"
 			}
 		},
+		"uncommonUpgradeShard": {
+			"description": {
+				"eng": "Use to upgrade an common item to uncommon tier",
+				"trans": "一般アイテムをアンコモンティアにアップグレードするために使用する"
+			},
+			"name": {
+				"eng": "Uncommon Upgrade Shard",
+				"trans": "レアなアップグレードシャード"
+			}
+		},
 		"uniqueLevelShard": {
 			"description": {
 				"eng": "Use to level up an unique item to its next level",
@@ -3145,8 +3259,8 @@
 	"levelType": {
 		"bodyguard": {
 			"description": {
-				"eng": "Increases strength attribute by 1 every level",
-				"trans": "レベルごとに力属性を1増加させます"
+				"eng": "Increases strength attribute by 1 every level, and increases profit from this job type",
+				"trans": "各レベルで力属性を1増加させ、この職種からの利益を増加させます。"
 			},
 			"displayName": {
 				"eng": "Bodyguard Level",
@@ -3167,8 +3281,8 @@
 		},
 		"medical": {
 			"description": {
-				"eng": "Increases intelligence attribute by 1 every level",
-				"trans": "レベルごとに知性属性を1増加させます。"
+				"eng": "Increases intelligence attribute by 1 every level, and increases profit from this job type",
+				"trans": "各レベルで知性属性を1増加させ、この職種からの利益を増加させます"
 			},
 			"displayName": {
 				"eng": "Medical Level",
@@ -3187,8 +3301,8 @@
 		},
 		"scavenge": {
 			"description": {
-				"eng": "Increases vitality attribute by 1 every level",
-				"trans": "各レベルごとに体力属性を1増加させます"
+				"eng": "Increases vitality attribute by 1 every level, and increases profit from this job type",
+				"trans": "各レベルごとに体力属性を1増やし、この職種からの利益を増やします"
 			},
 			"displayName": {
 				"eng": "Scavenging Level",
@@ -3197,8 +3311,8 @@
 		},
 		"thieving": {
 			"description": {
-				"eng": "Increases dexterity attribute by 1 every level",
-				"trans": "レベルごとに器用さ属性を1増加させます"
+				"eng": "Increases dexterity attribute by 1 every level, and increases profit from this job type",
+				"trans": "レベルごとに器用さ属性を1増加させ、この職種からの利益を増加させます"
 			},
 			"displayName": {
 				"eng": "Thieving Level",
@@ -3246,6 +3360,11 @@
 				"eng": "More levels will be unlocked when level up",
 				"trans": "レベルが上がると、さらにレベルが解放されます。"
 			}
+		},
+		"lockedError": {
+			"eng": "You can travel to this location when you reach level ${level}, or by completing the previous level stronghold.",
+			"trans": "この場所には、レベル${level}に達するか、前のレベルの地城をクリアすることで行くことができます。",
+			"vars": []
 		}
 	},
 	"loginFromOtherDevicePage": {
@@ -3411,6 +3530,44 @@
 			}
 		}
 	},
+	"markdownFile": {
+		"afkTask": {
+			"eng": "AFK Task",
+			"trans": "AFKタスク"
+		},
+		"attributes": {
+			"eng": "Attributes",
+			"trans": "属性"
+		},
+		"equipmentCalibration": {
+			"eng": "Equipment Calibration",
+			"trans": "装備のキャリブレーション"
+		},
+		"equipmentUpgrade": {
+			"eng": "Equipment Upgrade",
+			"trans": "装備のアップグレード"
+		},
+		"gangUpkeep": {
+			"eng": "Gang Upkeep",
+			"trans": "ギャングの維持費"
+		},
+		"hitBounty": {
+			"eng": "Hit Bounty",
+			"trans": "懸賞金を受ける"
+		},
+		"inventory": {
+			"eng": "Inventory",
+			"trans": "インベントリ"
+		},
+		"jobLevel": {
+			"eng": "Job Level",
+			"trans": "ジョブレベル"
+		},
+		"territory": {
+			"eng": "Territory",
+			"trans": "領土"
+		}
+	},
 	"market": {
 		"completeMessage": {
 			"bidOutbidded": {
@@ -3418,18 +3575,22 @@
 				"trans": "${item}は他のプレイヤーによって${amount}で上回られました。${returnAmount}がアカウントに返金されました。"
 			},
 			"bidPlaced": {
-				"eng": "A player has placed a ${currency}${amount} bid on ${item}.",
-				"trans": "プレイヤーが${item}に${currency}${amount}の入札をしました。"
+				"eng": "A player has placed a ${amount} bid on ${item}.",
+				"trans": "プレイヤーが${amount}の入札を${item}に置きました。"
 			},
 			"buyout": {
-				"eng": "${item} has been purchased with buyout, ${currency}${amount} has been added to your account",
-				"trans": "${item}が買い取りで購入されました、${currency}${amount}がアカウントに追加されました"
+				"eng": "${item} has been purchased with buyout, ${amount} has been added to your account",
+				"trans": "${item}が買い取りで購入されました、${amount}がアカウントに追加されました"
 			}
 		},
 		"error": {
 			"bidLowerThanCurrentBid": {
 				"eng": "You cannot place bid lower than current bid",
 				"trans": "現在の入札額より低い入札はできません。"
+			},
+			"bidderExists": {
+				"eng": "Someone has already bid on this item, you cannot remove it.",
+				"trans": "このアイテムにはすでに入札がありますので、削除することはできません。"
 			}
 		},
 		"itemExpired": {
@@ -3442,8 +3603,8 @@
 				"trans": "${item}の入札に勝ちました。アイテムはアイテム配送インターフェースに送信されました。"
 			},
 			"ownerMsg": {
-				"eng": "${item} has been sold on market to the highest bidder for ${currency}${price}",
-				"trans": "${item}は市場で最高入札者によって${currency}${price}で売却されました。"
+				"eng": "${item} has been sold on market to the highest bidder for ${price}",
+				"trans": "${item}は最高入札者によって${price}で市場で売却されました。"
 			}
 		}
 	},
@@ -3511,6 +3672,12 @@
 		"confirmButton": {
 			"eng": "Confirm",
 			"trans": "確認する"
+		},
+		"error": {
+			"notEnoughCurrency": {
+				"eng": "You do not have enough currency to place this bid",
+				"trans": "この入札をするには十分な通貨がありません。"
+			}
 		}
 	},
 	"marketPutItemPage": {
@@ -3614,6 +3781,12 @@
 		}
 	},
 	"mercenary": {
+		"error": {
+			"notEnoughSpace": {
+				"eng": "You have too many mercenaries now, you may upgrade the space by getting a better apartment.",
+				"trans": "現在傭兵が多すぎます。より良いアパートを手に入れてスペースをアップグレードすることができます。"
+			}
+		},
 		"upgradeLevelError": {
 			"eng": "Level up to increase your mercenary's max level",
 			"trans": "レベルアップして傭兵の最大レベルを上げます"
@@ -3634,9 +3807,9 @@
 			"eng": "Dismiss now",
 			"trans": "今すぐ解散します"
 		},
-		"deleteMercenaryMessage": {
-			"eng": "You will irreversibly lose all progress on this mercenary and only portions of money spent will be returned.",
-			"trans": "この傭兵の進行状況は不可逆的に失われ、費やした金額の一部のみが返金されます。"
+		"deleteMercenaryMessage2": {
+			"eng": "You will irreversibly lose all progress on this mercenary but a portion of resources spend will be returned.",
+			"trans": "この傭兵の進行状況は不可逆的に失われますが、使用したリソースの一部が返されます。"
 		},
 		"dismiss": {
 			"eng": "Dismiss",
@@ -3830,9 +4003,33 @@
 		}
 	},
 	"messageContainer": {
+		"developer": {
+			"eng": "Developer",
+			"trans": "開発者"
+		},
 		"noMessages": {
 			"eng": "No messages yet",
 			"trans": "メッセージはありません。"
+		}
+	},
+	"messageToken": {
+		"joinClanRequest": {
+			"button": {
+				"eng": "Send Invite",
+				"trans": "招待状を送る"
+			},
+			"confirm": {
+				"eng": "Invite now",
+				"trans": "今すぐ招待する"
+			},
+			"description": {
+				"eng": "Invite ${player} to your gang",
+				"trans": "あなたのギャングに${player}を招待します"
+			},
+			"title": {
+				"eng": "Send invite?",
+				"trans": "招待状を送りますか？"
+			}
 		}
 	},
 	"misc": {
@@ -4682,6 +4879,16 @@
 			"trans": "アイテムなし"
 		}
 	},
+	"playerJonLevelTab": {
+		"attributeTips": {
+			"eng": "Leveling up your job levels can increase your attributes",
+			"trans": "ジョブレベルを上げると、能力値が上昇します。"
+		},
+		"jobTips": {
+			"eng": "By doing AFK tasks you can level up your corresponding job level",
+			"trans": "AFKタスクを行うことで、対応するジョブレベルを上げることができます。"
+		}
+	},
 	"playerNameError": {
 		"invalidCharacters": {
 			"eng": "Name can only contain letters, numbers and underscores.",
@@ -4946,8 +5153,8 @@
 		},
 		"progress": {
 			"collectQuestItem": {
-				"eng": "Collect ${required} ${itemName} from lv.${level}~ ${enemyName} (${current}/${required})",
-				"trans": "lv.${level}~の${enemyName}から${required}${itemName}を収集してください(${current}/${required})"
+				"eng": "Collect ${required} ${itemName} from lv.${level}+ ${enemyName} (${current}/${required})",
+				"trans": "lv.${level}以上の${enemyName}から${required}個の${itemName}を集める（${current}/${required}）"
 			},
 			"collectQuestItemInDungeon": {
 				"eng": "Collect ${required} ${itemName} from lv.${level}+ stronghold (${dungeonName}) (${current}/${required})",
@@ -4962,8 +5169,8 @@
 				"trans": "${required}体の敵を倒す必要があります（${current}/${required}）"
 			},
 			"defeatSpecificEnemy": {
-				"eng": "Defeat lv.${level}~ ${enemyName} (${current}/${required})",
-				"trans": "lv.${level}の${enemyName}を倒す (${current}/${required})"
+				"eng": "Defeat lv.${level}+ ${enemyName} (${current}/${required})",
+				"trans": "lv.${level}+ ${enemyName}を撃破せよ (${current}/${required})"
 			}
 		},
 		"returnToNpc": {
@@ -5029,10 +5236,6 @@
 		"npcQuests": {
 			"eng": "Quests",
 			"trans": "クエスト"
-		},
-		"pinQuest": {
-			"eng": "Track",
-			"trans": "トラック"
 		}
 	},
 	"questPreview": {
@@ -5147,12 +5350,14 @@
 	},
 	"rewardConfigDisplay": {
 		"clanControl": {
-			"eng": "+ ${amount} control on territory",
-			"trans": "領土上の制御を${amount}増やす"
+			"eng": "+ ${clanControl} clan control",
+			"trans": "+ ${clanControl}クランコントロール",
+			"vars": []
 		},
 		"clanResource": {
-			"eng": "+ ${amount} Gang resource",
-			"trans": "+ ${amount} ギャングのリソース"
+			"eng": "+ ${clanResource} clan resource",
+			"trans": "+ ${clanResource} クランのリソース",
+			"vars": []
 		},
 		"healRatio": {
 			"eng": "Heal ${percent}% of your max health",
@@ -5689,8 +5894,8 @@
 			"trans": "健康"
 		},
 		"healthPercent": {
-			"eng": "Max Health Multiplier",
-			"trans": "最大体力乗数"
+			"eng": "Health Multiplier",
+			"trans": "ヘルス倍率"
 		},
 		"int": {
 			"eng": "Intelligence",
@@ -5717,8 +5922,8 @@
 			"trans": "シールド"
 		},
 		"shieldPercent": {
-			"eng": "Max Shield Multiplier",
-			"trans": "最大シールド乗数"
+			"eng": "Shield Multiplier",
+			"trans": "シールドの倍率"
 		},
 		"str": {
 			"eng": "Strength",
@@ -5965,6 +6170,10 @@
 			"eng": "You must be in a gang to claim territory",
 			"trans": "領土を主張するにはギャングに所属する必要があります"
 		},
+		"noClan": {
+			"eng": "No clan has claimed this territory",
+			"trans": "どのクランもこの領土を主張していません"
+		},
 		"territoryBuffs": {
 			"eng": "leaderboard",
 			"trans": "リーダーボード"
@@ -6010,6 +6219,32 @@
 				"eng": "Unique",
 				"trans": "ユニーク"
 			}
+		}
+	},
+	"tierFilterType": {
+		"all": {
+			"eng": "All",
+			"trans": "すべて"
+		},
+		"common": {
+			"eng": "Common",
+			"trans": "一般的な"
+		},
+		"epic": {
+			"eng": "Epic",
+			"trans": "エピック"
+		},
+		"rare": {
+			"eng": "Rare",
+			"trans": "レア"
+		},
+		"uncommon": {
+			"eng": "Uncommon",
+			"trans": "珍しい"
+		},
+		"unique": {
+			"eng": "Unique",
+			"trans": "ユニーク"
 		}
 	},
 	"time": {
@@ -6219,6 +6454,18 @@
 			"eng": "Hold and release at correct timing to perform attacks.",
 			"trans": "適切なタイミングでホールドしてリリースして攻撃を行います。"
 		},
+		"backgroundTask1": {
+			"eng": "You have a slot for AFK tasks, click here to view it.",
+			"trans": "AFKタスクのスロットがあります。ここをクリックして表示してください。"
+		},
+		"backgroundTask2": {
+			"eng": "Click here to start a task.",
+			"trans": "タスクを開始するにはここをクリックしてください。"
+		},
+		"backpackClear": {
+			"eng": "Move items from backpack to your inventory to ensure you don't lose them during stronghold exploration.",
+			"trans": "地城探索中にアイテムを失わないように、バックパックからインベントリにアイテムを移動してください。"
+		},
 		"crew1": {
 			"eng": "Click here to view your profile",
 			"trans": "プロフィールを表示するにはここをクリックしてください。"
@@ -6242,6 +6489,14 @@
 		"deathItem2": {
 			"eng": "Click here to view your lost items.",
 			"trans": "紛失品を表示するにはここをクリックしてください。"
+		},
+		"dungeon1": {
+			"eng": "click here to explore stronghold",
+			"trans": "地城を探索するためにここをクリックしてください。"
+		},
+		"dungeon2": {
+			"eng": "Select the normal difficulty, you will get ${percent}% extra exp from enemies in the stronghold",
+			"trans": "通常の難易度を選択してください。地城の敵から${percent}%の追加経験値を獲得します。"
 		},
 		"freeMerc1": {
 			"eng": "Click here for all kinds of benefits",
@@ -6305,16 +6560,24 @@
 		},
 		"characterSelect": {
 			"createCharacter": {
-				"eng": "Create Character",
-				"trans": "キャラクターを作成する"
+				"eng": "Create new character",
+				"trans": "新しいキャラクターを作成します。"
 			},
 			"deleteCharacter": {
 				"eng": "Delete Character",
 				"trans": "キャラクターを削除します"
 			},
+			"noCharacters": {
+				"eng": "You have no characters",
+				"trans": "キャラクターがありません"
+			},
 			"playCharacter": {
 				"eng": "login",
 				"trans": "ログイン"
+			},
+			"title": {
+				"eng": "Characters",
+				"trans": "キャラクター"
 			}
 		},
 		"combat": {
@@ -6412,13 +6675,13 @@
 				"eng": "Bug Report",
 				"trans": "バグ報告"
 			},
-			"coupon": {
-				"eng": "Coupon",
-				"trans": "クーポン"
-			},
 			"dailyReward": {
 				"eng": "Daily Reward",
 				"trans": "デイリーリワード"
+			},
+			"giftCode": {
+				"eng": "Gift Code",
+				"trans": "ギフトコード"
 			},
 			"logoutButton": {
 				"eng": "logout",
@@ -6427,6 +6690,10 @@
 			"settings": {
 				"eng": "Settings",
 				"trans": "設定"
+			},
+			"wiki": {
+				"eng": "tutorial",
+				"trans": "チュートリアル"
 			}
 		},
 		"mainPage": {
@@ -6483,6 +6750,27 @@
 			"trans": "${totalSlots}スロット（+${slot}）"
 		},
 		"trans": "バックパックのアップグレード",
+		"upgrade": {
+			"eng": "Upgrade ${index}",
+			"trans": "${index}をアップグレードする"
+		}
+	},
+	"upgradeInventoryPopup": {
+		"addedSlots": {
+			"eng": "${slots} slots (+${addedSlots})",
+			"trans": "${slots}スロット（+${addedSlots}）",
+			"vars": []
+		},
+		"description": {
+			"eng": "You can also upgrade your inventory space by renting a apartment",
+			"trans": "アパートを借りることでインベントリスペースを拡張することもできます。"
+		},
+		"eng": "Inventory upgrade",
+		"notEnoughCurrency": {
+			"eng": "Not enough ${currency}",
+			"trans": "${currency}が足りません"
+		},
+		"trans": "インベントリのアップグレード",
 		"upgrade": {
 			"eng": "Upgrade ${index}",
 			"trans": "${index}をアップグレードする"
@@ -6590,6 +6878,18 @@
 				"eng": "Cheap Price!!",
 				"trans": "安い価格！！"
 			}
+		},
+		"wiki": {
+			"subtitle": {
+				"eng": "the free encyclopedia that anyone can edit",
+				"trans": "誰でも編集できる無料の百科事典"
+			}
+		}
+	},
+	"wikiPage": {
+		"subtitle": {
+			"eng": "the free encyclopedia that anyone can edit",
+			"trans": "誰でも編集できる無料の百科事典"
 		}
 	},
 	"worldEventType": {
