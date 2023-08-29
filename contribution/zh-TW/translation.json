@@ -466,6 +466,16 @@
 				"trans": "幫派維護"
 			}
 		},
+		"hospital": {
+			"description": {
+				"eng": "Work as a part-time extraction force for Trauma Team, with the only goal of extracting ensured client from lethal situations. ",
+				"trans": "在創傷小隊中擔任兼職救援部隊，唯一目標是從致命情況中救出確保的客戶。"
+			},
+			"displayName": {
+				"eng": "Extraction Mission",
+				"trans": "救援任務"
+			}
+		},
 		"scavenge": {
 			"description": {
 				"eng": "Navigate hazardous junkyards, uncover hidden treasures, and salvage valuable tech",
@@ -2276,18 +2286,8 @@
 			}
 		},
 		"attemptsTip": {
-			"eng": "Each repair attempt has ${chance}% chance of success and costs 1 ${repairItem}. the 10th time is guaranteed to succeed.",
-			"trans": "每次修復嘗試有 ${chance}% 的成功率，並且需要花費 1 個 ${repairItem}。第 10 次修復保證成功。"
-		},
-		"itemSelect": {
-			"empty": {
-				"eng": "Click to select an item",
-				"trans": "點擊選擇物品"
-			},
-			"title": {
-				"eng": "item to repair",
-				"trans": "修復物品"
-			}
+			"eng": "Each repair attempt has ${chance}% chance of success and costs one ${repairItem}. the 10th time is guaranteed to succeed.",
+			"trans": "每次修理嘗試有${chance}%的成功機率，並且需要花費一個${repairItem}。第10次嘗試保證成功。"
 		},
 		"itemSelectModal": {
 			"title": {
@@ -3005,12 +3005,12 @@
 		},
 		"repairKit": {
 			"description": {
-				"eng": "Use to repair equipments",
-				"trans": "使用來修復裝備"
+				"eng": "The Nano Repairer is a state-of-the-art device developed by TaiXing Cybernetics for repairing a wide range of equipment intelligently with nano-machines. It's your go-to solution when your gear malfunctions due to calibration failure. Keep in mind, it doesn't guarantee a fix every time, but persistence pays off, after a few attempts, it'll get the job done.",
+				"trans": "納米修復器是台芯電馭為智能修復各種設備而開發的最先進裝置，利用納米機器智能修復。當您的裝備因校準失敗而發生故障時，它是您的首選解決方案。請記住，它不能保證每次修復都成功，但堅持不懈終將有所收獲，經過幾次嘗試，它會完成任務。"
 			},
 			"name": {
-				"eng": "Repair Kit",
-				"trans": "修理工具箱"
+				"eng": "Nano Repairer",
+				"trans": "納米修復器"
 			}
 		},
 		"rewardCipher": {
@@ -3538,6 +3538,10 @@
 		"attributes": {
 			"eng": "Attributes",
 			"trans": "屬性"
+		},
+		"backpack": {
+			"eng": "Backpack",
+			"trans": "背包"
 		},
 		"equipmentCalibration": {
 			"eng": "Equipment Calibration",
@@ -4732,6 +4736,10 @@
 		}
 	},
 	"placeHitPage": {
+		"notEnoughUnitError": {
+			"eng": "Minimum hit bounty is ${minNormal} and ${minUnit}",
+			"trans": "最低擊殺賞金為${minNormal}和${minUnit}"
+		},
 		"placeHit": {
 			"eng": "Place hit",
 			"trans": "命中位置"
@@ -4799,6 +4807,10 @@
 				"eng": "Move all items",
 				"trans": "移動所有物品"
 			}
+		},
+		"tip": {
+			"eng": "Items you loot from strongholds will be stored here, will be lost if you die in stronghold. so remember to move them to your inventory.",
+			"trans": "你從地城搜刮到的物品將會存放在這裡，如果你在地城中死亡，這些物品將會遺失，所以記得將它們移動到你的物品欄中。"
 		}
 	},
 	"playerDetailsPage": {
@@ -5226,8 +5238,8 @@
 			"trans": "完成"
 		},
 		"dailyQuests": {
-			"eng": "Daily",
-			"trans": "每日的"
+			"eng": "Daily Quests",
+			"trans": "每日任務"
 		},
 		"noQuests": {
 			"eng": "No active quests",

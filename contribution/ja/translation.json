@@ -466,6 +466,16 @@
 				"trans": "ギャングのメンテナンス"
 			}
 		},
+		"hospital": {
+			"description": {
+				"eng": "Work as a part-time extraction force for Trauma Team, with the only goal of extracting ensured client from lethal situations. ",
+				"trans": "トラウマチームの一員として、致命的な状況から確保されたクライアントを救出するためのパートタイムの救援部隊として働きます。"
+			},
+			"displayName": {
+				"eng": "Extraction Mission",
+				"trans": "救出ミッション"
+			}
+		},
 		"scavenge": {
 			"description": {
 				"eng": "Navigate hazardous junkyards, uncover hidden treasures, and salvage valuable tech",
@@ -2276,18 +2286,8 @@
 			}
 		},
 		"attemptsTip": {
-			"eng": "Each repair attempt has ${chance}% chance of success and costs 1 ${repairItem}. the 10th time is guaranteed to succeed.",
-			"trans": "各修理試行は成功する${chance}%の確率があり、1つの${repairItem}がかかります。10回目は必ず成功します。"
-		},
-		"itemSelect": {
-			"empty": {
-				"eng": "Click to select an item",
-				"trans": "アイテムを選択するにはクリックしてください"
-			},
-			"title": {
-				"eng": "item to repair",
-				"trans": "修理するアイテム"
-			}
+			"eng": "Each repair attempt has ${chance}% chance of success and costs one ${repairItem}. the 10th time is guaranteed to succeed.",
+			"trans": "各修復嘗試有${chance}%的成功機會，並且需要一個${repairItem}。第10次嘗試保證成功。"
 		},
 		"itemSelectModal": {
 			"title": {
@@ -3005,12 +3005,12 @@
 		},
 		"repairKit": {
 			"description": {
-				"eng": "Use to repair equipments",
-				"trans": "装備修理に使用する"
+				"eng": "The Nano Repairer is a state-of-the-art device developed by TaiXing Cybernetics for repairing a wide range of equipment intelligently with nano-machines. It's your go-to solution when your gear malfunctions due to calibration failure. Keep in mind, it doesn't guarantee a fix every time, but persistence pays off, after a few attempts, it'll get the job done.",
+				"trans": "ナノリペアラーは、台芯電馭が開発した最先端のデバイスで、ナノマシンを使用して幅広い装備を知能的に修復することができます。装置のキャリブレーションの失敗によるギアの故障が発生した場合、これが最適な解決策です。ただし、必ずしも修復が保証されるわけではありませんが、忍耐強く何度か試すことで、最終的に修復が完了します。"
 			},
 			"name": {
-				"eng": "Repair Kit",
-				"trans": "修理キット"
+				"eng": "Nano Repairer",
+				"trans": "ナノリペアラー"
 			}
 		},
 		"rewardCipher": {
@@ -3538,6 +3538,10 @@
 		"attributes": {
 			"eng": "Attributes",
 			"trans": "属性"
+		},
+		"backpack": {
+			"eng": "Backpack",
+			"trans": "バックパック"
 		},
 		"equipmentCalibration": {
 			"eng": "Equipment Calibration",
@@ -4732,6 +4736,10 @@
 		}
 	},
 	"placeHitPage": {
+		"notEnoughUnitError": {
+			"eng": "Minimum hit bounty is ${minNormal} and ${minUnit}",
+			"trans": "最低のヒット報酬は${minNormal}と${minUnit}です。"
+		},
 		"placeHit": {
 			"eng": "Place hit",
 			"trans": "ヒット位置"
@@ -4799,6 +4807,10 @@
 				"eng": "Move all items",
 				"trans": "すべてのアイテムを移動する"
 			}
+		},
+		"tip": {
+			"eng": "Items you loot from strongholds will be stored here, will be lost if you die in stronghold. so remember to move them to your inventory.",
+			"trans": "強固な要塞から略奪したアイテムはここに保存され、要塞内で死亡すると失われます。だから、インベントリに移動することを忘れないでください。"
 		}
 	},
 	"playerDetailsPage": {
@@ -5226,8 +5238,8 @@
 			"trans": "完了"
 		},
 		"dailyQuests": {
-			"eng": "Daily",
-			"trans": "デイリー"
+			"eng": "Daily Quests",
+			"trans": "デイリークエスト"
 		},
 		"noQuests": {
 			"eng": "No active quests",
