@@ -1770,12 +1770,12 @@
 			"trans": "ここに書かれたものは直接私に送信されます :)"
 		},
 		"question1": {
-			"eng": "What do you think about the look and feel of the interface?",
-			"trans": "インターフェースの外観や感触についてどう思いますか？"
+			"eng": "What do you think about the design of the game interface?",
+			"trans": "ゲームインターフェースのデザインについてどう思いますか？"
 		},
 		"question2": {
-			"eng": "How do you feel about free benefits and items?",
-			"trans": "無料の特典やアイテムについてどう思いますか？"
+			"eng": "Do you like to receive free rewards?",
+			"trans": "無料の報酬を受け取るのは好きですか？"
 		},
 		"rewardSubtitle": {
 			"eng": "Rewards",
@@ -2112,11 +2112,11 @@
 		"maxCalibration": {
 			"description": {
 				"eng": "This item has reached the maximum amount of calibrations. you may upgrade the tier of the item to increase the maximum times it can be calibrated.",
-				"trans": "このアイテムは最大キャリブレーション回数に達しました。アイテムのティアをアップグレードすることで、最大キャリブレーション回数を増やすことができます。"
+				"trans": "このアイテムは最大の校準回数に達しました。アイテムのティアをアップグレードすることで、校準回数を増やすことができます。"
 			},
 			"title": {
 				"eng": "Max Calibration",
-				"trans": "最大キャリブレーション"
+				"trans": "最大校準"
 			}
 		},
 		"selectOptimizer": {
@@ -2287,7 +2287,7 @@
 		},
 		"attemptsTip": {
 			"eng": "Each repair attempt has ${chance}% chance of success and costs one ${repairItem}. the 10th time is guaranteed to succeed.",
-			"trans": "各修復嘗試有${chance}%的成功機會，並且需要一個${repairItem}。第10次嘗試保證成功。"
+			"trans": "各修理試行は成功する${chance}%の確率があり、1つの${repairItem}が必要です。10回目は必ず成功します。"
 		},
 		"itemSelectModal": {
 			"title": {
@@ -3546,6 +3546,10 @@
 		"equipmentCalibration": {
 			"eng": "Equipment Calibration",
 			"trans": "装備のキャリブレーション"
+		},
+		"equipmentRepair": {
+			"eng": "Equipment Repair",
+			"trans": "装備修理"
 		},
 		"equipmentUpgrade": {
 			"eng": "Equipment Upgrade",
@@ -5310,6 +5314,52 @@
 			"trans": "ショップアイテムをリフレッシュする"
 		}
 	},
+	"repairAnimationPopup": {
+		"confirm": {
+			"eng": "Confirm",
+			"trans": "確認します"
+		},
+		"failed": {
+			"description": {
+				"eng": "Repair was unsuccessful. please try again.",
+				"trans": "修理は失敗しました。もう一度お試しください。"
+			},
+			"title": {
+				"eng": "Repair failed",
+				"trans": "修理に失敗しました"
+			}
+		},
+		"repairing": {
+			"eng": "Repairing...",
+			"trans": "修理中..."
+		},
+		"success": {
+			"title": {
+				"eng": "Repair Success!",
+				"trans": "修理成功！"
+			}
+		},
+		"terminalTitle": {
+			"eng": "Terminal",
+			"trans": "ターミナル"
+		},
+		"text1": {
+			"eng": "Analyzing item...",
+			"trans": "アイテムを解析中..."
+		},
+		"text2": {
+			"eng": "Booting cybernetic in recovery mode...",
+			"trans": "サイバネティックを回復モードで起動中..."
+		},
+		"text3": {
+			"eng": "Scanning for corrupted files...",
+			"trans": "破損したファイルをスキャン中..."
+		},
+		"text4": {
+			"eng": "Repairing corrupted files...",
+			"trans": "破損したファイルの修復中..."
+		}
+	},
 	"reportPlayerPopup": {
 		"details": {
 			"eng": "Details",
@@ -6690,6 +6740,10 @@
 			"dailyReward": {
 				"eng": "Daily Reward",
 				"trans": "デイリーリワード"
+			},
+			"discord": {
+				"eng": "Discord",
+				"trans": "ディスコード"
 			},
 			"giftCode": {
 				"eng": "Gift Code",

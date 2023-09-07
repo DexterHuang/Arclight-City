@@ -1770,12 +1770,12 @@
 			"trans": "你在這裡寫的內容將直接發送給我 :)"
 		},
 		"question1": {
-			"eng": "What do you think about the look and feel of the interface?",
-			"trans": "你對界面的外觀和感覺有什麼想法？"
+			"eng": "What do you think about the design of the game interface?",
+			"trans": "你對遊戲界面的設計有什麼看法？"
 		},
 		"question2": {
-			"eng": "How do you feel about free benefits and items?",
-			"trans": "你對免費福利和物品有什麼感覺？"
+			"eng": "Do you like to receive free rewards?",
+			"trans": "你喜歡獲得免費獎勵嗎？"
 		},
 		"rewardSubtitle": {
 			"eng": "Rewards",
@@ -3547,6 +3547,10 @@
 			"eng": "Equipment Calibration",
 			"trans": "設備校準"
 		},
+		"equipmentRepair": {
+			"eng": "Equipment Repair",
+			"trans": "裝備修理"
+		},
 		"equipmentUpgrade": {
 			"eng": "Equipment Upgrade",
 			"trans": "裝備升級"
@@ -5310,6 +5314,52 @@
 			"trans": "刷新商店物品"
 		}
 	},
+	"repairAnimationPopup": {
+		"confirm": {
+			"eng": "Confirm",
+			"trans": "確認"
+		},
+		"failed": {
+			"description": {
+				"eng": "Repair was unsuccessful. please try again.",
+				"trans": "修理失敗，請再試一次。"
+			},
+			"title": {
+				"eng": "Repair failed",
+				"trans": "修理失敗"
+			}
+		},
+		"repairing": {
+			"eng": "Repairing...",
+			"trans": "修復中..."
+		},
+		"success": {
+			"title": {
+				"eng": "Repair Success!",
+				"trans": "修理成功！"
+			}
+		},
+		"terminalTitle": {
+			"eng": "Terminal",
+			"trans": "終端機"
+		},
+		"text1": {
+			"eng": "Analyzing item...",
+			"trans": "分析物品中..."
+		},
+		"text2": {
+			"eng": "Booting cybernetic in recovery mode...",
+			"trans": "正在以恢復模式啟動電馭增強器..."
+		},
+		"text3": {
+			"eng": "Scanning for corrupted files...",
+			"trans": "掃描損壞的文件中..."
+		},
+		"text4": {
+			"eng": "Repairing corrupted files...",
+			"trans": "修復損壞的文件..."
+		}
+	},
 	"reportPlayerPopup": {
 		"details": {
 			"eng": "Details",
@@ -6690,6 +6740,10 @@
 			"dailyReward": {
 				"eng": "Daily Reward",
 				"trans": "每日獎勵"
+			},
+			"discord": {
+				"eng": "Discord",
+				"trans": "Discord"
 			},
 			"giftCode": {
 				"eng": "Gift Code",
