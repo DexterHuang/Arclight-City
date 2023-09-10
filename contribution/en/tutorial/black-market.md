@@ -1,20 +1,27 @@
 ## What is the Black Market?
-Black market is where you can buy and sell items with other players. 
-the trading currency is Netcoins, this is also one way to earn Netcoins in the game; by selling items to other players.
+The Black Market is where players trade items using a Netcoins currency. This is one of the way to earn Netcoins; by selling items to other players.
+
 
 ## Where is the Black Market?
-You may access the black market from city center.
+You can find the Black Market in the City Center.
 
-## How to place an item on the Black Market?
-First you should interact with the Black Market NPC from city center, and click `Show me my stuff on the market`, then click on one of the slots to place your item on the market.
-You will need to select an item from your inventory, set the minimum bid or buyout price, and the duration of the auction.
 
-## What is the starting bid and buyout price in Black Market?
-The starting bid is the minimum price that the item can be bid on, and the buyout price is the price that the item can be bought instantly without waiting for the auction to end.
-if you wish to sell your item quickly, you can set the buyout price to a reasonable price, and if you wish to sell your item for the highest price possible, you can set the starting bid to a reasonable price and wait for the auction to end.
+## How do I list an item on the Black Market?
+1. Interact with the Black Market NPC in the City Center.
+2. Choose "Show me my stuff on the market."
+3. Select an available slot to place your item.
+4. Pick an item from your inventory.
+5. Set a minimum bid price or a buyout price, and choose the auction duration.
 
-## What is the withdrawal period in Black Market?
-The withdrawal period is the time that you have before your item is locked in to the action, you can cancel the auction and get your item back during this period; and you will not be able to cancel the auction after the withdrawal period ends.
 
-## Why does my action gets extended in Black Market?
-If someone bids on your item, the auction will be extended for a short time, this is to prevent people from sniping the auction at the last second.
+## What are the starting bid and buyout prices on the Black Market?
+- The **starting bid** is the lowest amount others can bid.
+- The **buyout price** is the fixed amount for instant purchase. Set a reasonable buyout for quick sales or a competitive starting bid for higher potential returns.
+
+
+## What is the withdrawal period on the Black Market?
+The **withdrawal period** is the time when you can cancel your auction and get your item back. Once it ends, you can't cancel, and your item is locked in.
+
+
+## Why does my auction get extended on the Black Market?
+If someone bids on your item, the auction time extends briefly to prevent last-second sniping.
