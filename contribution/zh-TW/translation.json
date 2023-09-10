@@ -576,10 +576,6 @@
 		}
 	},
 	"calibrationResultPopup": {
-		"calibrating": {
-			"eng": "Calibrating...",
-			"trans": "校準中..."
-		},
 		"confirm": {
 			"eng": "Confirm",
 			"trans": "確認"
@@ -596,12 +592,12 @@
 		},
 		"failedDestroyed": {
 			"description": {
-				"eng": "Item damaged, repair is possible.",
-				"trans": "物品損壞，可以修復。"
+				"eng": "Item is broken during calibration, repair is possible.",
+				"trans": "校準過程中物品損壞，可以修復。"
 			},
 			"title": {
-				"eng": "Item destroyed",
-				"trans": "物品已摧毀"
+				"eng": "Item broken",
+				"trans": "物品損壞"
 			}
 		},
 		"success": {
@@ -609,6 +605,22 @@
 				"eng": "Calibration success",
 				"trans": "校準成功"
 			}
+		},
+		"text1": {
+			"eng": "Analyzing item...",
+			"trans": "分析物品中..."
+		},
+		"text2": {
+			"eng": "Rebooting to recovery mode...",
+			"trans": "重新啟動至恢復模式..."
+		},
+		"text3": {
+			"eng": "Decrypting BIOS...",
+			"trans": "解密BIOS..."
+		},
+		"text4": {
+			"eng": "Calibrating...",
+			"trans": "校準中..."
 		}
 	},
 	"characterCreate": {
@@ -663,6 +675,12 @@
 		}
 	},
 	"clan": {
+		"error": {
+			"clanIsFull": {
+				"eng": "this gang is current at max member capacity",
+				"trans": "這個幫派目前已達到最大成員容量。"
+			}
+		},
 		"imageBlocked": {
 			"text": {
 				"eng": "We use Google Image AI to scan for potentially inappropriate images. this may be cause by the image containing lewd, gore, violence or other inappropriate content.",
@@ -856,6 +874,16 @@
 		"normalAttack": {
 			"eng": "${enemyName} attacked ${player} for ${damage} damage",
 			"trans": "${enemyName}對${player}造成${damage}點傷害"
+		}
+	},
+	"compactRewardConfigDisplay": {
+		"clanControl": {
+			"eng": "+ ${amount} control on territory",
+			"trans": "+ 在領地上控制 ${amount} 個"
+		},
+		"clanResource": {
+			"eng": "+ ${amount} Gang resource",
+			"trans": "+ ${amount} 幫派資源"
 		}
 	},
 	"confirmModal": {
@@ -1242,34 +1270,34 @@
 			"trans": "啟動"
 		},
 		"activated": {
+			"continue": {
+				"eng": "VIEW MERCENARIES",
+				"trans": "查看佣兵"
+			},
+			"loadingBarTitle": {
+				"eng": "Decrypting mercenary contact info...",
+				"trans": "解密佣兵聯絡資訊中..."
+			},
+			"success": {
+				"eng": "Mercenary contact info received.",
+				"trans": "接收到佣兵聯絡資訊。"
+			},
 			"textList1": {
 				"eng": "Allocating resources...",
 				"trans": "分配資源中..."
 			},
 			"textList2": {
-				"eng": "Loading assets...",
-				"trans": "載入資源中..."
+				"eng": "Scanning mercenary network...",
+				"trans": "掃描佣兵網絡中..."
 			},
 			"textList3": {
 				"eng": "Establishing secure channels",
 				"trans": "建立安全通道"
 			},
 			"textList4": {
-				"eng": "Contacting mercenaries",
-				"trans": "聯絡傭兵"
-			},
-			"title": {
-				"eng": "Loading...",
-				"trans": "載入中..."
+				"eng": "Receiving data...",
+				"trans": "接收資料中..."
 			}
-		},
-		"completed": {
-			"eng": "Completed",
-			"trans": "已完成"
-		},
-		"loading": {
-			"eng": "LOADING..",
-			"trans": "載入中..."
 		},
 		"standby": {
 			"subtitle": {
@@ -1738,6 +1766,16 @@
 		"title": {
 			"eng": "Opps, something went wrong!",
 			"trans": "哎呀，出了點問題！"
+		},
+		"update": {
+			"description": {
+				"eng": "A update has been installed, please restart the game. \\nIf this page persists, please contact the developer at ${email}",
+				"trans": "已安裝更新，請重新啟動遊戲。\\n如果此頁面持續出現，請聯繫開發人員，電子郵件：${email}"
+			},
+			"title": {
+				"eng": "Update Received",
+				"trans": "更新已收到"
+			}
 		}
 	},
 	"feedbackPopup": {
@@ -1998,6 +2036,36 @@
 			}
 		}
 	},
+	"hostilePlayerListPage": {
+		"description": {
+			"eng": "Join the fight for justice in Arclight City! The ACPD calls upon vigilant citizens to aid in the pursuit of wanted criminals. Your city needs you! Bring in the fugitives, dead or alive, and earn substantial rewards. Together, we'll make Arclight City safer for all. 🌃👮‍♂️\\n#CitizenArrest #ACPDJustice",
+			"trans": "加入在幻光之城為正義而戰吧！幻光之城警察局呼籲警覺的市民協助追捕通緝犯。你的城市需要你！無論是活捉還是死捕，抓到逃犯將獲得豐厚的獎勵。讓我們一起讓幻光之城更安全。🌃👮‍♂️\\n#市民逮捕 #幻光之城警察局正義"
+		},
+		"level": {
+			"eng": "Level",
+			"trans": "等級"
+		},
+		"loading": {
+			"eng": "Loading...",
+			"trans": "載入中..."
+		},
+		"name": {
+			"eng": "Name",
+			"trans": "名稱"
+		},
+		"noPlayers": {
+			"eng": "No criminals with active arrest warrant.",
+			"trans": "沒有擁有有效逮捕令的罪犯。"
+		},
+		"time": {
+			"eng": "Arrest warrant expire date",
+			"trans": "逮捕令到期日期"
+		},
+		"title": {
+			"eng": "Wanted Criminals",
+			"trans": "通緝犯"
+		}
+	},
 	"infoModal": {
 		"closeButton": {
 			"title": {
@@ -2167,6 +2235,22 @@
 		}
 	},
 	"itemDetails": {
+		"attributeDamage": {
+			"modal": {
+				"description": {
+					"eng": "This item will deal ${damage} more damage based on your ${attribute} attribute",
+					"trans": "這個物品將根據你的${attribute}屬性增加${damage}點傷害"
+				},
+				"title": {
+					"eng": "Attribute added damage",
+					"trans": "屬性額外傷害"
+				}
+			},
+			"title": {
+				"eng": "Attribute Damage",
+				"trans": "屬性傷害"
+			}
+		},
 		"cantDismantleEquipped": {
 			"eng": "You can\\'t dismantle equipped items",
 			"trans": "你不能拆解已裝備的物品"
@@ -2304,6 +2388,10 @@
 				"eng": "Repair",
 				"trans": "修復"
 			}
+		},
+		"title": {
+			"eng": "Equipment Repair",
+			"trans": "裝備修理"
 		}
 	},
 	"itemSlot": {
@@ -2325,6 +2413,10 @@
 			"eng": "Stronghold chest drop",
 			"trans": "地城寶箱掉落"
 		},
+		"convertNetCoin": {
+			"eng": "Convert from ${netCoin}",
+			"trans": "轉換自 ${netCoin}"
+		},
 		"cooking": {
 			"eng": "Cooking",
 			"trans": "烹飪"
@@ -2332,6 +2424,14 @@
 		"dailyQuest": {
 			"eng": "Daily quests",
 			"trans": "每日任務"
+		},
+		"dismissingMerc": {
+			"eng": "Dismissing mercenaries",
+			"trans": "解雇傭兵"
+		},
+		"dungeonOnly": {
+			"eng": "This shop is only available in hard or higher difficulty strongholds.",
+			"trans": "這家商店只在困難或更高難度的地城中開放。"
 		},
 		"enemyDrop": {
 			"eng": "Enemy drop",
@@ -3258,6 +3358,10 @@
 	},
 	"levelType": {
 		"bodyguard": {
+			"currentEffectDescription": {
+				"eng": "Increases strength by ${strength} (increases melee weapons damage by ${dmg}) and bodyguard task profit to ${profit}",
+				"trans": "增加力量 ${strength} (增加近戰武器傷害 ${dmg}) 和保鏢任務利潤至 ${profit}"
+			},
 			"description": {
 				"eng": "Increases strength attribute by 1 every level, and increases profit from this job type",
 				"trans": "每級增加1點力量屬性，並增加此工作類型的利潤"
@@ -3280,6 +3384,10 @@
 			}
 		},
 		"medical": {
+			"currentEffectDescription": {
+				"eng": "Increases intelligence by ${intelligence} (increases damage by ${healing}) and Extraction Mission task profit to ${profit}",
+				"trans": "增加智力 ${intelligence}（增加傷害 ${healing}）和救援任務的利潤為 ${profit}"
+			},
 			"description": {
 				"eng": "Increases intelligence attribute by 1 every level, and increases profit from this job type",
 				"trans": "每級增加1點智力屬性，並增加此工作類型的利潤"
@@ -3300,6 +3408,10 @@
 			}
 		},
 		"scavenge": {
+			"currentEffectDescription": {
+				"eng": "Increases vitality by ${vitality} (increases health by ${health}) and scavenging task profit to ${profit}",
+				"trans": "增加活力 ${vitality} (增加生命 ${health}) 和拾荒任務的收益 ${profit}"
+			},
 			"description": {
 				"eng": "Increases vitality attribute by 1 every level, and increases profit from this job type",
 				"trans": "每級增加1點活力屬性，並增加這種工作類型的利潤"
@@ -3310,6 +3422,10 @@
 			}
 		},
 		"thieving": {
+			"currentEffectDescription": {
+				"eng": "Increases dexterity by ${dexterity} (increases fire-arm weapons damage by ${dmg}) and thieving task profit",
+				"trans": "增加敏捷${dexterity}點（增加火器武器傷害${dmg}點）和偷竊任務利潤"
+			},
 			"description": {
 				"eng": "Increases dexterity attribute by 1 every level, and increases profit from this job type",
 				"trans": "每級增加1點靈巧屬性，並增加此工作類型的利潤"
@@ -3513,6 +3629,12 @@
 			"eng": "rewards",
 			"trans": "獎勵"
 		},
+		"shopButton": {
+			"title": {
+				"eng": "Shop",
+				"trans": "商店"
+			}
+		},
 		"socialButton": {
 			"eng": "social",
 			"trans": "社交"
@@ -3542,6 +3664,10 @@
 		"backpack": {
 			"eng": "Backpack",
 			"trans": "背包"
+		},
+		"currency": {
+			"eng": "Currency",
+			"trans": "貨幣"
 		},
 		"equipmentCalibration": {
 			"eng": "Equipment Calibration",
@@ -3886,6 +4012,10 @@
 				"eng": "Drop Rate",
 				"trans": "掉落率"
 			}
+		},
+		"recruitMaxError": {
+			"eng": "You cannot recruit more than {max} mercenaries, you can increase the max mercenary by renting a better apartment. or you may dismiss your unwanted mercenary for resources.",
+			"trans": "您無法招募超過{max}名僱傭兵，您可以通過租用更好的公寓來增加最大僱傭兵數量。或者您可以為資源解雇您不需要的僱傭兵。"
 		},
 		"recruitOne": {
 			"eng": "Recruit one",
@@ -4682,6 +4812,11 @@
 			"eng": "Here you can find all the shops and services in the city.",
 			"trans": "在這裡你可以找到城市中所有商店和服務。"
 		},
+		"lockedMessage": {
+			"eng": "Unlocked at level ${levelRequired}",
+			"trans": "在等級${levelRequired}解鎖",
+			"vars": []
+		},
 		"title": {
 			"eng": "City Center",
 			"trans": "市中心"
@@ -4866,6 +5001,10 @@
 			"crew": {
 				"eng": "Crew",
 				"trans": "隊伍"
+			},
+			"equipment": {
+				"eng": "items",
+				"trans": "物品"
 			},
 			"job": {
 				"eng": "Job",
@@ -5064,6 +5203,10 @@
 			"eng": "Benefits",
 			"trans": "福利"
 		},
+		"topUpTabTip": {
+			"eng": "${netCoin} can be converted to ${universalDollars} at a rate of one to one, but not the other way around.",
+			"trans": "${netCoin}可以以一比一的匯率兌換成${universalDollars}，但不能反向兌換。"
+		},
 		"topUpTabTitle": {
 			"eng": "Top Up",
 			"trans": "儲值"
@@ -5074,6 +5217,10 @@
 			"eng": "Bonus ${bonusRate}% [+${bonusAmount} N$]",
 			"trans": "額外 ${bonusRate}% 獎金 [+${bonusAmount} N$]",
 			"vars": []
+		},
+		"equivalent": {
+			"eng": "can be converted to ${amount}",
+			"trans": "可以轉換成${amount}"
 		}
 	},
 	"psychosisDisplay": {
@@ -5185,8 +5332,8 @@
 				"trans": "擊敗${required}個敵人 (${current}/${required})"
 			},
 			"defeatSpecificEnemy": {
-				"eng": "Defeat lv.${level}+ ${enemyName} (${current}/${required})",
-				"trans": "擊敗等級${level}+的${enemyName} (${current}/${required})"
+				"eng": "Defeat lv.${minLevel}-${maxLevel} ${enemyName} (${current}/${required})",
+				"trans": "擊敗等級.${minLevel}-${maxLevel} ${enemyName} (${current}/${required})"
 			}
 		},
 		"returnToNpc": {
@@ -5328,10 +5475,6 @@
 				"eng": "Repair failed",
 				"trans": "修理失敗"
 			}
-		},
-		"repairing": {
-			"eng": "Repairing...",
-			"trans": "修復中..."
 		},
 		"success": {
 			"title": {
@@ -5811,13 +5954,15 @@
 				"trans": "購買${itemName}？"
 			}
 		},
+		"exchangeUnit": {
+			"title": {
+				"eng": "How many ${netcoin} would you like to exchange to ${unit}?",
+				"trans": "你想要將多少個${netcoin}兌換成${unit}？"
+			}
+		},
 		"inventoryFull": {
 			"eng": "Your inventory cannot carry any more of this item",
 			"trans": "您的背包無法再攜帶更多此物品。"
-		},
-		"notEnoughCurrency": {
-			"eng": "You do not have enough ${currency}",
-			"trans": "你的${currency}不足。"
 		},
 		"notEnoughItem": {
 			"eng": "You don\\'t have enough ${item} to purchase this item",
@@ -6084,16 +6229,29 @@
 		"remove": {
 			"eng": "remove",
 			"trans": "移除"
+		},
+		"turns": {
+			"eng": "${turns} combat turns",
+			"trans": "${turns}回合戰鬥",
+			"vars": []
 		}
 	},
 	"statusInventory": {
+		"description": {
+			"eng": "If your backpack or inventory is full.\\nPlease remove some stuff before picking up the loots.",
+			"trans": "如果你的背包或者物品欄已滿，\n請在撿取戰利品之前先移除一些物品。"
+		},
 		"discard": {
 			"eng": "Discard",
 			"trans": "放棄"
 		},
-		"dungeonDrop": {
-			"eng": "Your backpack was full.\\nPlease remove some stuff before picking up the loots.",
-			"trans": "你的背包已滿。\\n在撿拾戰利品之前，請先移除一些物品。"
+		"discardConfirm": {
+			"eng": "Discard all loots?",
+			"trans": "丟棄所有戰利品？"
+		},
+		"discardConfirmDescription": {
+			"eng": "Are you sure you want to discard all loots? this action is irreversible.",
+			"trans": "您確定要丟棄所有戰利品嗎？此操作是不可逆的。"
 		},
 		"lootAll": {
 			"eng": "loot all",
@@ -6104,17 +6262,17 @@
 				"eng": "backpack",
 				"trans": "背包"
 			},
+			"inventory": {
+				"eng": "inventory",
+				"trans": "物品欄"
+			},
 			"loot": {
 				"eng": "Loots",
 				"trans": "戰利品"
 			},
 			"source": {
-				"eng": "from",
-				"trans": "從"
-			},
-			"target": {
-				"eng": "target",
-				"trans": "目標"
+				"eng": "loots",
+				"trans": "戰利品"
 			}
 		},
 		"target": {
@@ -6185,6 +6343,12 @@
 					"trans": "任務完成"
 				}
 			}
+		}
+	},
+	"terminalLoadingAnimation": {
+		"defaultProgressTitle": {
+			"eng": "Loading...",
+			"trans": "載入中..."
 		}
 	},
 	"territory": {
@@ -6933,6 +7097,16 @@
 			"title": {
 				"eng": "Got a nemesis?",
 				"trans": "有宿敵嗎？"
+			}
+		},
+		"hostilePlayerList": {
+			"subtitle": {
+				"eng": "Arrest wanted criminals and get paid!",
+				"trans": "逮捕通緝犯並獲得報酬！"
+			},
+			"title": {
+				"eng": "Your safety, our mission.",
+				"trans": "您的安全，我們的使命。"
 			}
 		},
 		"megaAd": {

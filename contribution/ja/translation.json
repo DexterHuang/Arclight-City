@@ -576,10 +576,6 @@
 		}
 	},
 	"calibrationResultPopup": {
-		"calibrating": {
-			"eng": "Calibrating...",
-			"trans": "キャリブレーション中..."
-		},
 		"confirm": {
 			"eng": "Confirm",
 			"trans": "確認します"
@@ -596,12 +592,12 @@
 		},
 		"failedDestroyed": {
 			"description": {
-				"eng": "Item damaged, repair is possible.",
-				"trans": "アイテムが損傷しています。修理が可能です。"
+				"eng": "Item is broken during calibration, repair is possible.",
+				"trans": "キャリブレーション中にアイテムが壊れましたが、修理は可能です。"
 			},
 			"title": {
-				"eng": "Item destroyed",
-				"trans": "アイテムが破壊されました"
+				"eng": "Item broken",
+				"trans": "アイテムが壊れました"
 			}
 		},
 		"success": {
@@ -609,6 +605,22 @@
 				"eng": "Calibration success",
 				"trans": "キャリブレーション成功"
 			}
+		},
+		"text1": {
+			"eng": "Analyzing item...",
+			"trans": "アイテムの分析中..."
+		},
+		"text2": {
+			"eng": "Rebooting to recovery mode...",
+			"trans": "リカバリーモードに再起動しています..."
+		},
+		"text3": {
+			"eng": "Decrypting BIOS...",
+			"trans": "BIOSの解読中..."
+		},
+		"text4": {
+			"eng": "Calibrating...",
+			"trans": "調整中..."
 		}
 	},
 	"characterCreate": {
@@ -663,6 +675,12 @@
 		}
 	},
 	"clan": {
+		"error": {
+			"clanIsFull": {
+				"eng": "this gang is current at max member capacity",
+				"trans": "このギャングは現在、最大のメンバー数に達しています。"
+			}
+		},
 		"imageBlocked": {
 			"text": {
 				"eng": "We use Google Image AI to scan for potentially inappropriate images. this may be cause by the image containing lewd, gore, violence or other inappropriate content.",
@@ -856,6 +874,16 @@
 		"normalAttack": {
 			"eng": "${enemyName} attacked ${player} for ${damage} damage",
 			"trans": "${enemyName}が${player}に${damage}のダメージを与えました"
+		}
+	},
+	"compactRewardConfigDisplay": {
+		"clanControl": {
+			"eng": "+ ${amount} control on territory",
+			"trans": "+ 領地に${amount}の制御"
+		},
+		"clanResource": {
+			"eng": "+ ${amount} Gang resource",
+			"trans": "+ ${amount}のギャングリソース"
 		}
 	},
 	"confirmModal": {
@@ -1242,34 +1270,34 @@
 			"trans": "アクティベート"
 		},
 		"activated": {
+			"continue": {
+				"eng": "VIEW MERCENARIES",
+				"trans": "傭兵を表示する"
+			},
+			"loadingBarTitle": {
+				"eng": "Decrypting mercenary contact info...",
+				"trans": "傭兵の連絡先情報を復号化しています..."
+			},
+			"success": {
+				"eng": "Mercenary contact info received.",
+				"trans": "傭兵の連絡先情報を受け取りました。"
+			},
 			"textList1": {
 				"eng": "Allocating resources...",
 				"trans": "リソースを割り当て中..."
 			},
 			"textList2": {
-				"eng": "Loading assets...",
-				"trans": "アセットを読み込んでいます..."
+				"eng": "Scanning mercenary network...",
+				"trans": "傭兵ネットワークのスキャン中..."
 			},
 			"textList3": {
 				"eng": "Establishing secure channels",
 				"trans": "安全なチャネルの確立"
 			},
 			"textList4": {
-				"eng": "Contacting mercenaries",
-				"trans": "傭兵に連絡中です"
-			},
-			"title": {
-				"eng": "Loading...",
-				"trans": "読み込み中..."
+				"eng": "Receiving data...",
+				"trans": "データを受信中..."
 			}
-		},
-		"completed": {
-			"eng": "Completed",
-			"trans": "完了しました"
-		},
-		"loading": {
-			"eng": "LOADING..",
-			"trans": "読み込み中..."
 		},
 		"standby": {
 			"subtitle": {
@@ -1738,6 +1766,16 @@
 		"title": {
 			"eng": "Opps, something went wrong!",
 			"trans": "おっと、何かが間違っています！"
+		},
+		"update": {
+			"description": {
+				"eng": "A update has been installed, please restart the game. \\nIf this page persists, please contact the developer at ${email}",
+				"trans": "アップデートがインストールされました。ゲームを再起動してください。\\nこのページが続く場合は、開発者までお問い合わせください。メールアドレス：${email}"
+			},
+			"title": {
+				"eng": "Update Received",
+				"trans": "更新を受け取りました"
+			}
 		}
 	},
 	"feedbackPopup": {
@@ -1998,6 +2036,36 @@
 			}
 		}
 	},
+	"hostilePlayerListPage": {
+		"description": {
+			"eng": "Join the fight for justice in Arclight City! The ACPD calls upon vigilant citizens to aid in the pursuit of wanted criminals. Your city needs you! Bring in the fugitives, dead or alive, and earn substantial rewards. Together, we'll make Arclight City safer for all. 🌃👮‍♂️\\n#CitizenArrest #ACPDJustice",
+			"trans": "アークライトシティで正義の戦いに参加しましょう！ACPDは警戒心のある市民に、逃亡犯の追跡を手助けするよう呼びかけています。あなたの街はあなたの力を必要としています！逃亡犯を生け捕りにして報酬を得ましょう。一緒に、アークライトシティをより安全な場所にしましょう。🌃👮‍♂️\\n#市民の逮捕 #ACPDの正義"
+		},
+		"level": {
+			"eng": "Level",
+			"trans": "レベル"
+		},
+		"loading": {
+			"eng": "Loading...",
+			"trans": "読み込み中..."
+		},
+		"name": {
+			"eng": "Name",
+			"trans": "名前"
+		},
+		"noPlayers": {
+			"eng": "No criminals with active arrest warrant.",
+			"trans": "アクティブな逮捕状を持つ犯罪者はいません。"
+		},
+		"time": {
+			"eng": "Arrest warrant expire date",
+			"trans": "逮捕状の有効期限"
+		},
+		"title": {
+			"eng": "Wanted Criminals",
+			"trans": "指名手配犯"
+		}
+	},
 	"infoModal": {
 		"closeButton": {
 			"title": {
@@ -2167,6 +2235,22 @@
 		}
 	},
 	"itemDetails": {
+		"attributeDamage": {
+			"modal": {
+				"description": {
+					"eng": "This item will deal ${damage} more damage based on your ${attribute} attribute",
+					"trans": "このアイテムは、あなたの${attribute}属性に基づいて、${damage}ダメージを追加で与えます。"
+				},
+				"title": {
+					"eng": "Attribute added damage",
+					"trans": "属性追加ダメージ"
+				}
+			},
+			"title": {
+				"eng": "Attribute Damage",
+				"trans": "属性ダメージ"
+			}
+		},
 		"cantDismantleEquipped": {
 			"eng": "You can\\'t dismantle equipped items",
 			"trans": "装備されたアイテムは解体できません。"
@@ -2304,6 +2388,10 @@
 				"eng": "Repair",
 				"trans": "修理する"
 			}
+		},
+		"title": {
+			"eng": "Equipment Repair",
+			"trans": "装備修理"
 		}
 	},
 	"itemSlot": {
@@ -2325,6 +2413,10 @@
 			"eng": "Stronghold chest drop",
 			"trans": "ダンジョンの宝箱ドロップ"
 		},
+		"convertNetCoin": {
+			"eng": "Convert from ${netCoin}",
+			"trans": "${netCoin}から変換してください。"
+		},
 		"cooking": {
 			"eng": "Cooking",
 			"trans": "料理"
@@ -2332,6 +2424,14 @@
 		"dailyQuest": {
 			"eng": "Daily quests",
 			"trans": "デイリークエスト"
+		},
+		"dismissingMerc": {
+			"eng": "Dismissing mercenaries",
+			"trans": "傭兵を解雇する"
+		},
+		"dungeonOnly": {
+			"eng": "This shop is only available in hard or higher difficulty strongholds.",
+			"trans": "この店舗はハードまたはそれ以上の難易度の地城でのみ利用可能です。"
 		},
 		"enemyDrop": {
 			"eng": "Enemy drop",
@@ -3258,6 +3358,10 @@
 	},
 	"levelType": {
 		"bodyguard": {
+			"currentEffectDescription": {
+				"eng": "Increases strength by ${strength} (increases melee weapons damage by ${dmg}) and bodyguard task profit to ${profit}",
+				"trans": "力を${strength}増加させます（近接武器のダメージを${dmg}増加させ、ボディーガードの収益を${profit}にします）"
+			},
 			"description": {
 				"eng": "Increases strength attribute by 1 every level, and increases profit from this job type",
 				"trans": "各レベルで力属性を1増加させ、この職種からの利益を増加させます。"
@@ -3280,6 +3384,10 @@
 			}
 		},
 		"medical": {
+			"currentEffectDescription": {
+				"eng": "Increases intelligence by ${intelligence} (increases damage by ${healing}) and Extraction Mission task profit to ${profit}",
+				"trans": "知能を${intelligence}増加させます（ダメージを${healing}増加させます）そして救援任務の収益を${profit}に増やします。"
+			},
 			"description": {
 				"eng": "Increases intelligence attribute by 1 every level, and increases profit from this job type",
 				"trans": "各レベルで知性属性を1増加させ、この職種からの利益を増加させます"
@@ -3300,6 +3408,10 @@
 			}
 		},
 		"scavenge": {
+			"currentEffectDescription": {
+				"eng": "Increases vitality by ${vitality} (increases health by ${health}) and scavenging task profit to ${profit}",
+				"trans": "活力を${vitality}増加させます（体力を${health}増加させます）およびスカベンジングタスクの利益を${profit}に増やします。"
+			},
 			"description": {
 				"eng": "Increases vitality attribute by 1 every level, and increases profit from this job type",
 				"trans": "各レベルごとに体力属性を1増やし、この職種からの利益を増やします"
@@ -3310,6 +3422,10 @@
 			}
 		},
 		"thieving": {
+			"currentEffectDescription": {
+				"eng": "Increases dexterity by ${dexterity} (increases fire-arm weapons damage by ${dmg}) and thieving task profit",
+				"trans": "敏捷を${dexterity}上昇させます（火器のダメージを${dmg}上昇させます）および盗みのタスクの利益を増やします。"
+			},
 			"description": {
 				"eng": "Increases dexterity attribute by 1 every level, and increases profit from this job type",
 				"trans": "レベルごとに器用さ属性を1増加させ、この職種からの利益を増加させます"
@@ -3513,6 +3629,12 @@
 			"eng": "rewards",
 			"trans": "報酬"
 		},
+		"shopButton": {
+			"title": {
+				"eng": "Shop",
+				"trans": "ショップ"
+			}
+		},
 		"socialButton": {
 			"eng": "social",
 			"trans": "ソーシャル"
@@ -3542,6 +3664,10 @@
 		"backpack": {
 			"eng": "Backpack",
 			"trans": "バックパック"
+		},
+		"currency": {
+			"eng": "Currency",
+			"trans": "通貨"
 		},
 		"equipmentCalibration": {
 			"eng": "Equipment Calibration",
@@ -3887,6 +4013,10 @@
 				"trans": "ドロップ率"
 			}
 		},
+		"recruitMaxError": {
+			"eng": "You cannot recruit more than {max} mercenaries, you can increase the max mercenary by renting a better apartment. or you may dismiss your unwanted mercenary for resources.",
+			"trans": "最大傭兵数は{max}人を超えることはできません。より良いアパートを借りることで最大傭兵数を増やすことができます。または、不要な傭兵をリソースと引き換えに解雇することもできます。"
+		},
 		"recruitOne": {
 			"eng": "Recruit one",
 			"trans": "一人を雇用する"
@@ -3897,7 +4027,7 @@
 		},
 		"recruitTen": {
 			"eng": "Recruit 10",
-			"trans": "10人を募集する"
+			"trans": "10人の新人を募集"
 		},
 		"recruitTenDescription": {
 			"eng": "Grantee a 4 star or higher mercenary",
@@ -4682,6 +4812,11 @@
 			"eng": "Here you can find all the shops and services in the city.",
 			"trans": "ここでは、街のすべての店舗とサービスを見つけることができます。"
 		},
+		"lockedMessage": {
+			"eng": "Unlocked at level ${levelRequired}",
+			"trans": "レベル${levelRequired}で解除されます。",
+			"vars": []
+		},
 		"title": {
 			"eng": "City Center",
 			"trans": "都市中心"
@@ -4866,6 +5001,10 @@
 			"crew": {
 				"eng": "Crew",
 				"trans": "クルー"
+			},
+			"equipment": {
+				"eng": "items",
+				"trans": "アイテム"
 			},
 			"job": {
 				"eng": "Job",
@@ -5064,6 +5203,10 @@
 			"eng": "Benefits",
 			"trans": "利点"
 		},
+		"topUpTabTip": {
+			"eng": "${netCoin} can be converted to ${universalDollars} at a rate of one to one, but not the other way around.",
+			"trans": "${netCoin}は1対1のレートで${universalDollars}に変換できますが、逆はできません。"
+		},
 		"topUpTabTitle": {
 			"eng": "Top Up",
 			"trans": "チャージする"
@@ -5074,6 +5217,10 @@
 			"eng": "Bonus ${bonusRate}% [+${bonusAmount} N$]",
 			"trans": "ボーナス ${bonusRate}% [+${bonusAmount} N$]",
 			"vars": []
+		},
+		"equivalent": {
+			"eng": "can be converted to ${amount}",
+			"trans": "${amount}に変換できます。"
 		}
 	},
 	"psychosisDisplay": {
@@ -5185,8 +5332,8 @@
 				"trans": "${required}体の敵を倒す必要があります（${current}/${required}）"
 			},
 			"defeatSpecificEnemy": {
-				"eng": "Defeat lv.${level}+ ${enemyName} (${current}/${required})",
-				"trans": "lv.${level}+ ${enemyName}を撃破せよ (${current}/${required})"
+				"eng": "Defeat lv.${minLevel}-${maxLevel} ${enemyName} (${current}/${required})",
+				"trans": "lv.${minLevel}-${maxLevel}の${enemyName}を撃破しました (${current}/${required})"
 			}
 		},
 		"returnToNpc": {
@@ -5328,10 +5475,6 @@
 				"eng": "Repair failed",
 				"trans": "修理に失敗しました"
 			}
-		},
-		"repairing": {
-			"eng": "Repairing...",
-			"trans": "修理中..."
 		},
 		"success": {
 			"title": {
@@ -5811,13 +5954,15 @@
 				"trans": "${itemName}を購入しますか？"
 			}
 		},
+		"exchangeUnit": {
+			"title": {
+				"eng": "How many ${netcoin} would you like to exchange to ${unit}?",
+				"trans": "何${netcoin}を${unit}に交換しますか？"
+			}
+		},
 		"inventoryFull": {
 			"eng": "Your inventory cannot carry any more of this item",
 			"trans": "インベントリはこのアイテムをもう持てません。"
-		},
-		"notEnoughCurrency": {
-			"eng": "You do not have enough ${currency}",
-			"trans": "${currency}が十分でありません。"
 		},
 		"notEnoughItem": {
 			"eng": "You don\\'t have enough ${item} to purchase this item",
@@ -6084,16 +6229,29 @@
 		"remove": {
 			"eng": "remove",
 			"trans": "削除する"
+		},
+		"turns": {
+			"eng": "${turns} combat turns",
+			"trans": "${turns}の戦闘ターン",
+			"vars": []
 		}
 	},
 	"statusInventory": {
+		"description": {
+			"eng": "If your backpack or inventory is full.\\nPlease remove some stuff before picking up the loots.",
+			"trans": "バックパックまたはインベントリがいっぱいです。\\nアイテムをいくつか取り除いてから、戦利品を取得してください。"
+		},
 		"discard": {
 			"eng": "Discard",
 			"trans": "破棄する"
 		},
-		"dungeonDrop": {
-			"eng": "Your backpack was full.\\nPlease remove some stuff before picking up the loots.",
-			"trans": "バックパックがいっぱいです。\\n戦利品を拾う前にいくつかのアイテムを削除してください。"
+		"discardConfirm": {
+			"eng": "Discard all loots?",
+			"trans": "すべての戦利品を破棄しますか？"
+		},
+		"discardConfirmDescription": {
+			"eng": "Are you sure you want to discard all loots? this action is irreversible.",
+			"trans": "すべての戦利品を破棄してもよろしいですか？この操作は取り消すことができません。"
 		},
 		"lootAll": {
 			"eng": "loot all",
@@ -6104,17 +6262,17 @@
 				"eng": "backpack",
 				"trans": "バックパック"
 			},
+			"inventory": {
+				"eng": "inventory",
+				"trans": "物品欄"
+			},
 			"loot": {
 				"eng": "Loots",
 				"trans": "戦利品"
 			},
 			"source": {
-				"eng": "from",
-				"trans": "から"
-			},
-			"target": {
-				"eng": "target",
-				"trans": "ターゲット"
+				"eng": "loots",
+				"trans": "戦利品"
 			}
 		},
 		"target": {
@@ -6185,6 +6343,12 @@
 					"trans": "タスクが完了しました"
 				}
 			}
+		}
+	},
+	"terminalLoadingAnimation": {
+		"defaultProgressTitle": {
+			"eng": "Loading...",
+			"trans": "ローディング中..."
 		}
 	},
 	"territory": {
@@ -6933,6 +7097,16 @@
 			"title": {
 				"eng": "Got a nemesis?",
 				"trans": "宿敵はいますか？"
+			}
+		},
+		"hostilePlayerList": {
+			"subtitle": {
+				"eng": "Arrest wanted criminals and get paid!",
+				"trans": "指名手配犯を逮捕して報酬を受け取ろう！"
+			},
+			"title": {
+				"eng": "Your safety, our mission.",
+				"trans": "あなたの安全は、私たちの使命です。"
 			}
 		},
 		"megaAd": {
