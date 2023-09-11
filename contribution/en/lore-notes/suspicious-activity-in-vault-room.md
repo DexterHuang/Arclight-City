@@ -1,0 +1,4 @@
+>*Security Camera Footage*
+>----
+>At approximately 19:35 hours, an individual wearing a balaclava entered the premises carrying a heavy bag. He proceeded to the vault room and placed the bag on the floor before activating the override code on the door lock. Once inside, he began tampering with the safe containing confidential documents belonging to our client, CircuitBreak. After several minutes of fiddling around, he managed to crack open the safe and removed a thin metal case from within. As he turned towards the exit, he suddenly froze upon hearing approaching footsteps. It seemed like he had been caught red-handed!
+>However, just when it looked like everything was about to go south, the intruder swiftly pulled out a device from his pocket and aimed it at the surveillance cameras. Within seconds, the feed went blank, leaving us none the wiser as to what happened next.*
