@@ -846,6 +846,20 @@
 			}
 		}
 	},
+	"collectedLoreNotes": {
+		"description": {
+			"eng": "You have collected ${collected} of ${total} lore notes.",
+			"trans": "你已經收集了${collected}份中的${total}份知識筆記。"
+		},
+		"noNotes": {
+			"eng": "You have not collected any lore notes yet.",
+			"trans": "你尚未收集到任何遊戲背景筆記。"
+		},
+		"title": {
+			"eng": "Collected Lore Notes",
+			"trans": "收集的背景故事筆記"
+		}
+	},
 	"combatLog": {
 		"atk": {
 			"eng": "${attacker} has attacked ${enemyName} for ${damage} damage",
@@ -1500,6 +1514,12 @@
 		"title": {
 			"eng": "Unlock Door",
 			"trans": "解鎖門"
+		}
+	},
+	"dungeonLoreNotePopup": {
+		"close": {
+			"eng": "Close",
+			"trans": "關閉"
 		}
 	},
 	"dungeonQuestPage": {
@@ -3529,6 +3549,12 @@
 			"trans": "註冊失敗：${error}"
 		}
 	},
+	"loreNote": {
+		"collectedMessage": {
+			"eng": "You have collected a new lore note",
+			"trans": "你收集到了一份新的背景故事。"
+		}
+	},
 	"mail": {
 		"notification": {
 			"fromPlayer": {
@@ -3665,6 +3691,10 @@
 			"eng": "Backpack",
 			"trans": "背包"
 		},
+		"blackMarket": {
+			"eng": "Black Market",
+			"trans": "黑市"
+		},
 		"currency": {
 			"eng": "Currency",
 			"trans": "貨幣"
@@ -3712,9 +3742,13 @@
 				"eng": "A player has placed a ${amount} bid on ${item}.",
 				"trans": "一位玩家對${item}出價${amount}。"
 			},
+			"bidPlacedGrace": {
+				"eng": "A player has placed a ${amount} bid on ${item}. The auction has been extended by ${minutes} minutes.",
+				"trans": "一位玩家對${item}出價${amount}。拍賣時間延長了${minutes}分鐘。"
+			},
 			"buyout": {
-				"eng": "${item} has been purchased with buyout, ${amount} has been added to your account",
-				"trans": "已使用一口價購買${item}，${amount}已加入您的帳戶。"
+				"eng": "${item} has been purchased with buyout, ${amount} (${originalAmount} - ${tax}% tax) has been added to your account",
+				"trans": "${item}已通過買斷方式購買，${amount}（${originalAmount} - ${tax}% 稅）已加入您的帳戶。"
 			}
 		},
 		"error": {
@@ -3725,6 +3759,10 @@
 			"bidderExists": {
 				"eng": "Someone has already bid on this item, you cannot remove it.",
 				"trans": "有人已經對這個物品出價，你無法移除它。"
+			},
+			"itemNotFound": {
+				"eng": "this item no longer exists in your market items",
+				"trans": "此物品在您的市場物品中已不存在"
 			}
 		},
 		"itemExpired": {
@@ -3737,8 +3775,8 @@
 				"trans": "您已獲得${item}的競標，該物品已發送到您的物品交付介面。"
 			},
 			"ownerMsg": {
-				"eng": "${item} has been sold on market to the highest bidder for ${price}",
-				"trans": "${item}已被以最高出價者以${price}的價格在市場上售出"
+				"eng": "${item} has been sold on market to the highest bidder for ${price}, you received ${afterTax} (${price} - ${tax}% tax)",
+				"trans": "${item}已經以最高出價者的價格在市場上售出，你收到了${afterTax}（${price} - ${tax}% 稅）"
 			}
 		}
 	},
@@ -3837,11 +3875,11 @@
 			"noItemSelected": {
 				"eng": "Please select an item to put on the market",
 				"trans": "請選擇要上架的物品。"
+			},
+			"noPrice": {
+				"eng": "Please set minimum bid or buyout price",
+				"trans": "請設定最低競標或一口價格"
 			}
-		},
-		"error,noPrice": {
-			"eng": "Please set minimum bid or buyout price",
-			"trans": "請設置最低競標或一口價格"
 		},
 		"itemSelect": {
 			"title": {
@@ -3865,10 +3903,14 @@
 				"trans": "上架物品"
 			}
 		},
+		"tip": {
+			"eng": "Items you list in the market will initially have a withdrawal period of ${minute} minutes, during which no one can place a bid. After this withdrawal period ends, the system will require a minimum bid difference of at least ${minBidDiff} compared to the previous highest bid.",
+			"trans": "您在市場上列出的物品將有一個初始的提領期，為${minute}分鐘，在此期間內無法進行競標。提領期結束後，系統將要求最低競標差額至少為${minBidDiff}，相較於之前的最高競標價。"
+		},
 		"useBid": {
 			"title": {
-				"eng": "Minimum bid",
-				"trans": "最低競標價格"
+				"eng": "Starting bid",
+				"trans": "起始出價"
 			}
 		}
 	},
@@ -4391,6 +4433,10 @@
 		"blackMarket": {
 			"browseButton": {
 				"description": {
+					"lowLevel": {
+						"eng": "You need to be at least level ${level} to put item to the market",
+						"trans": "你需要達到至少${level}級才能將物品放到市場上"
+					},
 					"noApartment": {
 						"eng": "You need an apartment to use the market",
 						"trans": "你需要一間公寓才能使用市場"
@@ -4452,6 +4498,10 @@
 				"trans": [
 					"除非你已經完成你的工作，否則不要浪費我的時間。"
 				]
+			},
+			"tipBox": {
+				"eng": "You can sell your items here to other players, or buy items from other players.",
+				"trans": "你可以在這裡將物品賣給其他玩家，或是從其他玩家購買物品。"
 			}
 		},
 		"clinic": {
@@ -5692,6 +5742,10 @@
 				"eng": "the name \"${name}\" is already taken",
 				"trans": "\"${name}\"這個名字已經被使用了",
 				"vars": []
+			},
+			"nameNotAllowed": {
+				"eng": "This name contains text that is not allowed",
+				"trans": "此名稱包含不允許的文字"
 			}
 		},
 		"dungeon": {
@@ -5872,10 +5926,6 @@
 					"eng": "Name must only contain english characters, numbers and _",
 					"trans": "名稱只能包含英文字母、數字和_符號"
 				},
-				"profane": {
-					"eng": "Name contains blacklisted words",
-					"trans": "名稱包含黑名單詞彙"
-				},
 				"tooLong": {
 					"eng": "Name must be at most ${maxLength} characters long",
 					"trans": "名稱最多${maxLength}個字元。"
@@ -5933,6 +5983,10 @@
 		"enableBackgroundMusic": {
 			"eng": "Enable background music",
 			"trans": "啟用背景音樂"
+		},
+		"enableGangChatNotification": {
+			"eng": "Enable Gang Chat Notification",
+			"trans": "啟用幫派聊天通知"
 		},
 		"enableSoundEffect": {
 			"eng": "Enable sound effect",
@@ -6916,6 +6970,10 @@
 			"logoutButton": {
 				"eng": "logout",
 				"trans": "登出"
+			},
+			"loreNotes": {
+				"eng": "lore notes",
+				"trans": "劇情筆記"
 			},
 			"settings": {
 				"eng": "Settings",

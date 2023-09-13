@@ -846,6 +846,20 @@
 			}
 		}
 	},
+	"collectedLoreNotes": {
+		"description": {
+			"eng": "You have collected ${collected} of ${total} lore notes.",
+			"trans": "あなたは${total}個の背景故事のうち、${collected}個を集めました。"
+		},
+		"noNotes": {
+			"eng": "You have not collected any lore notes yet.",
+			"trans": "まだ背景故事を収集していません。"
+		},
+		"title": {
+			"eng": "Collected Lore Notes",
+			"trans": "収集した背景故事"
+		}
+	},
 	"combatLog": {
 		"atk": {
 			"eng": "${attacker} has attacked ${enemyName} for ${damage} damage",
@@ -1500,6 +1514,12 @@
 		"title": {
 			"eng": "Unlock Door",
 			"trans": "ドアを開ける"
+		}
+	},
+	"dungeonLoreNotePopup": {
+		"close": {
+			"eng": "Close",
+			"trans": "閉じる"
 		}
 	},
 	"dungeonQuestPage": {
@@ -3529,6 +3549,12 @@
 			"trans": "登録に失敗しました：${error}"
 		}
 	},
+	"loreNote": {
+		"collectedMessage": {
+			"eng": "You have collected a new lore note",
+			"trans": "新しい背景故事を入手しました"
+		}
+	},
 	"mail": {
 		"notification": {
 			"fromPlayer": {
@@ -3665,6 +3691,10 @@
 			"eng": "Backpack",
 			"trans": "バックパック"
 		},
+		"blackMarket": {
+			"eng": "Black Market",
+			"trans": "ブラックマーケット"
+		},
 		"currency": {
 			"eng": "Currency",
 			"trans": "通貨"
@@ -3712,9 +3742,13 @@
 				"eng": "A player has placed a ${amount} bid on ${item}.",
 				"trans": "プレイヤーが${amount}の入札を${item}に置きました。"
 			},
+			"bidPlacedGrace": {
+				"eng": "A player has placed a ${amount} bid on ${item}. The auction has been extended by ${minutes} minutes.",
+				"trans": "プレーヤーが${amount}の入札を${item}に行いました。オークションは${minutes}分延長されました。"
+			},
 			"buyout": {
-				"eng": "${item} has been purchased with buyout, ${amount} has been added to your account",
-				"trans": "${item}が買い取りで購入されました、${amount}がアカウントに追加されました"
+				"eng": "${item} has been purchased with buyout, ${amount} (${originalAmount} - ${tax}% tax) has been added to your account",
+				"trans": "${item}は買い取りで購入されました。${amount}（${originalAmount} - ${tax}%の税金）がアカウントに追加されました。"
 			}
 		},
 		"error": {
@@ -3725,6 +3759,10 @@
 			"bidderExists": {
 				"eng": "Someone has already bid on this item, you cannot remove it.",
 				"trans": "このアイテムにはすでに入札がありますので、削除することはできません。"
+			},
+			"itemNotFound": {
+				"eng": "this item no longer exists in your market items",
+				"trans": "このアイテムはもうあなたのマーケットアイテムに存在しません。"
 			}
 		},
 		"itemExpired": {
@@ -3737,8 +3775,8 @@
 				"trans": "${item}の入札に勝ちました。アイテムはアイテム配送インターフェースに送信されました。"
 			},
 			"ownerMsg": {
-				"eng": "${item} has been sold on market to the highest bidder for ${price}",
-				"trans": "${item}は最高入札者によって${price}で市場で売却されました。"
+				"eng": "${item} has been sold on market to the highest bidder for ${price}, you received ${afterTax} (${price} - ${tax}% tax)",
+				"trans": "${item}は市場で最高入札者に${price}で売却されました。税金${tax}%を差し引いた後、${afterTax}を受け取りました。"
 			}
 		}
 	},
@@ -3837,11 +3875,11 @@
 			"noItemSelected": {
 				"eng": "Please select an item to put on the market",
 				"trans": "マーケットに出品するアイテムを選択してください。"
+			},
+			"noPrice": {
+				"eng": "Please set minimum bid or buyout price",
+				"trans": "最低入札価格または即決価格を設定してください"
 			}
-		},
-		"error,noPrice": {
-			"eng": "Please set minimum bid or buyout price",
-			"trans": "最低入札価格または即決価格を設定してください。"
 		},
 		"itemSelect": {
 			"title": {
@@ -3865,10 +3903,14 @@
 				"trans": "アイテムを市場に出品する"
 			}
 		},
+		"tip": {
+			"eng": "Items you list in the market will initially have a withdrawal period of ${minute} minutes, during which no one can place a bid. After this withdrawal period ends, the system will require a minimum bid difference of at least ${minBidDiff} compared to the previous highest bid.",
+			"trans": "マーケットにリストされているアイテムは、最初の${minute}分間は引き出し期間があります。この期間中は誰も入札することはできません。この引き出し期間が終了すると、システムは前回の最高入札と比較して、最低入札差額が少なくとも${minBidDiff}必要とします。"
+		},
 		"useBid": {
 			"title": {
-				"eng": "Minimum bid",
-				"trans": "最低入札額"
+				"eng": "Starting bid",
+				"trans": "スタート価格"
 			}
 		}
 	},
@@ -4391,6 +4433,10 @@
 		"blackMarket": {
 			"browseButton": {
 				"description": {
+					"lowLevel": {
+						"eng": "You need to be at least level ${level} to put item to the market",
+						"trans": "アイテムをマーケットに出品するには、少なくともレベル${level}が必要です。"
+					},
 					"noApartment": {
 						"eng": "You need an apartment to use the market",
 						"trans": "マーケットを利用するにはアパートメントが必要です。"
@@ -4452,6 +4498,10 @@
 				"trans": [
 					"あなたの時間を無駄にしないでください、あなたの仕事を終えているのでなければ。"
 				]
+			},
+			"tipBox": {
+				"eng": "You can sell your items here to other players, or buy items from other players.",
+				"trans": "他のプレイヤーにアイテムを売ることもできますし、他のプレイヤーからアイテムを購入することもできます。"
 			}
 		},
 		"clinic": {
@@ -5692,6 +5742,10 @@
 				"eng": "the name \"${name}\" is already taken",
 				"trans": "名前\"${name}\"は既に使用されています",
 				"vars": []
+			},
+			"nameNotAllowed": {
+				"eng": "This name is not allowed",
+				"trans": "この名前は許可されていません。"
 			}
 		},
 		"dungeon": {
@@ -5872,10 +5926,6 @@
 					"eng": "Name must only contain english characters, numbers and _",
 					"trans": "名前は英字、数字、_のみを含める必要があります。"
 				},
-				"profane": {
-					"eng": "Name contains blacklisted words",
-					"trans": "名前にはブラックリストに登録されている単語が含まれています"
-				},
 				"tooLong": {
 					"eng": "Name must be at most ${maxLength} characters long",
 					"trans": "名前は最大${maxLength}文字までです"
@@ -5933,6 +5983,10 @@
 		"enableBackgroundMusic": {
 			"eng": "Enable background music",
 			"trans": "バックグラウンドミュージックを有効にする"
+		},
+		"enableGangChatNotification": {
+			"eng": "Enable Gang Chat Notification",
+			"trans": "ギャングチャットの通知を有効にする"
 		},
 		"enableSoundEffect": {
 			"eng": "Enable sound effect",
@@ -6916,6 +6970,10 @@
 			"logoutButton": {
 				"eng": "logout",
 				"trans": "ログアウト"
+			},
+			"loreNotes": {
+				"eng": "lore notes",
+				"trans": "背景ストーリーのノート"
 			},
 			"settings": {
 				"eng": "Settings",
