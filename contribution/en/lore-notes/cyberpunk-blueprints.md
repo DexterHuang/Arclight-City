@@ -1,0 +1,5 @@
+> You stumbled upon an old terminal in the corner of the room, its screen still flickering with faint light. As you approached closer, you could see the words "Blueprints and Schematics" flash across the screen before disappearing completely. With a quick glance around, you inserted a data chip into the slot provided and waited patiently for the information to load onto your device.
+
+> Finally, after several minutes of loading, the blueprints appeared on your HUD (Heads Up Display). It detailed intricate designs for various types of cybernetic enhancements – from simple augmentations like improved vision or strength enhancement modules to complex bioware implants capable of manipulating genetic code itself! There were also schematics for secret facilities scattered throughout the documents, hinting at clandestine operations conducted by unknown parties deep within Arclight City.
+
+> As you peruse through these highly classified files, you can't help but wonder about their origins... And more importantly, what kind of trouble you might find yourself in now that you possess such sensitive information.
