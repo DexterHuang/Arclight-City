@@ -1,5 +1,5 @@
 ## What are Mercenaries?
-Mercenaries are unique units available from the Red Bar that you can hire to join your crew. Each mercenary has distinct stats and a special ability for use in PvE combat. When you add a mercenary to your crew, their stats are added to your own, and you can use their ability when it's off cooldown. Think of them as special combat items with unique abilities.
+Mercenaries are unique units available from the Red Bar that you can recruit to join your crew. Each mercenary has distinct stats and a special ability for use in PvE combat. When you add a mercenary to your crew, their stats are added to your own, and you can use their ability when it's off cooldown. Think of them as special combat items with unique abilities.
 
 ## How to Obtain More Mercenaries
 You can recruit more mercenaries using your "Red Bar VIP Tokens" through two methods:
