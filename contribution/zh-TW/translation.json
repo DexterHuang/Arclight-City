@@ -411,20 +411,12 @@
 			"trans": "可能的獎勵"
 		},
 		"skipButton": {
-			"description": {
-				"eng": "Consumes ${price} ${currency}",
-				"trans": "消耗 ${price} ${currency}"
-			},
 			"title": {
 				"eng": "Instant Complete",
 				"trans": "立即完成"
 			}
 		},
 		"startButton": {
-			"description": {
-				"eng": "Takes ${time}",
-				"trans": "需要 ${time}"
-			},
 			"title": {
 				"eng": "start task",
 				"trans": "開始任務"
@@ -648,6 +640,10 @@
 		"nameInput": {
 			"eng": "name",
 			"trans": "名稱"
+		},
+		"referrerCheckbox": {
+			"eng": "I have a referrer",
+			"trans": "我有一位推薦人"
 		}
 	},
 	"chatPreview": {
@@ -895,6 +891,10 @@
 			"eng": "+ ${amount} control on territory",
 			"trans": "+ 在領地上控制 ${amount} 個"
 		},
+		"clanExp": {
+			"eng": "+ ${amount} Gang EXP",
+			"trans": "+ ${amount} 幫派經驗值"
+		},
 		"clanResource": {
 			"eng": "+ ${amount} Gang resource",
 			"trans": "+ ${amount} 幫派資源"
@@ -1036,6 +1036,12 @@
 		"description": {
 			"eng": "Create your own gang and invite your friends to join!",
 			"trans": "購買所需資源以開始新幫派需要${$}${cost}。"
+		},
+		"fullJoinButton": {
+			"title": {
+				"eng": "Members full",
+				"trans": "成員滿員"
+			}
 		},
 		"gangNameInput": {
 			"title": {
@@ -2297,6 +2303,12 @@
 			"eng": "Dismantle",
 			"trans": "拆解"
 		},
+		"error": {
+			"cantEquipFromBackpack": {
+				"eng": "You cannot equip equipment from your backpack",
+				"trans": "你無法從背包裝備裝備"
+			}
+		},
 		"levelUpBar": {
 			"title": {
 				"eng": "Level increased",
@@ -3376,6 +3388,56 @@
 			"trans": "升級"
 		}
 	},
+	"leaderboard": {
+		"clan": {
+			"name": {
+				"eng": "Gang Level",
+				"trans": "幫派等級"
+			}
+		},
+		"level": {
+			"name": {
+				"eng": "Character Level",
+				"trans": "角色等級"
+			}
+		},
+		"levelBodyguard": {
+			"name": {
+				"eng": "Bodyguard Level",
+				"trans": "保鏢等級"
+			}
+		},
+		"levelMedical": {
+			"name": {
+				"eng": "Medical Level",
+				"trans": "醫療等級"
+			}
+		},
+		"levelScavenge": {
+			"name": {
+				"eng": "Scavenging Level",
+				"trans": "拾荒等級"
+			}
+		},
+		"levelThieving": {
+			"name": {
+				"eng": "Thieving Level",
+				"trans": "偷竊等級"
+			}
+		},
+		"money": {
+			"name": {
+				"eng": "Eurodollars",
+				"trans": "歐元"
+			}
+		},
+		"pvp": {
+			"name": {
+				"eng": "PvP Kills",
+				"trans": "PvP 擊殺数"
+			}
+		}
+	},
 	"levelType": {
 		"bodyguard": {
 			"currentEffectDescription": {
@@ -3587,8 +3649,11 @@
 		"iap": {
 			"purchase": {
 				"eng": "You have successfully received ${premiumAmount}",
-				"trans": "您已成功收到${premiumAmount}",
-				"vars": []
+				"trans": "您已成功收到${premiumAmount}"
+			},
+			"referral": {
+				"eng": "You have received ${premiumAmount} from your referral to ${playerName}",
+				"trans": "你從推薦${playerName}收到了${premiumAmount}。"
 			}
 		}
 	},
@@ -3726,6 +3791,10 @@
 		"jobLevel": {
 			"eng": "Job Level",
 			"trans": "職業等級"
+		},
+		"mercenary": {
+			"eng": "Mercenary",
+			"trans": "僱傭兵"
 		},
 		"territory": {
 			"eng": "Territory",
@@ -4056,8 +4125,8 @@
 			}
 		},
 		"recruitMaxError": {
-			"eng": "You cannot recruit more than {max} mercenaries, you can increase the max mercenary by renting a better apartment. or you may dismiss your unwanted mercenary for resources.",
-			"trans": "您無法招募超過{max}名僱傭兵，您可以通過租用更好的公寓來增加最大僱傭兵數量。或者您可以為資源解雇您不需要的僱傭兵。"
+			"eng": "You cannot recruit more than ${max} mercenaries, you can increase the max mercenary by renting a better apartment. or you may dismiss your unwanted mercenary for resources.",
+			"trans": "你無法招募超過${max}名傭兵，你可以通過租用更好的公寓來增加最大傭兵數量。或者你可以為了資源解雇你不想要的傭兵。"
 		},
 		"recruitOne": {
 			"eng": "Recruit one",
@@ -4106,6 +4175,20 @@
 		"noMercenaries": {
 			"eng": "You do not have any mercenaries in your contact",
 			"trans": "你的聯絡人中沒有傭兵。"
+		},
+		"tip": {
+			"default": {
+				"eng": "Dismiss mercenaries to receive ${enhancer} and ${upgrade} base on their level and stars.",
+				"trans": "解散傭兵以依據他們的等級和星級獲得${enhancer}和${upgrade}。"
+			},
+			"noLevelUp": {
+				"eng": "Level up your mercenaries to improve their stats and ability",
+				"trans": "提升你的僱傭兵等級，以改善他們的屬性和能力"
+			},
+			"noMercenaries": {
+				"eng": "You can recruit mercenaries from the Red Bar.",
+				"trans": "你可以從霓虹酒吧招募傭兵。"
+			}
 		},
 		"title": {
 			"eng": "Mercenary Contact List",
@@ -5273,6 +5356,52 @@
 			"trans": "可以轉換成${amount}"
 		}
 	},
+	"promo": {
+		"referral": {
+			"howTo": {
+				"eng": "How to refer my friend?",
+				"trans": "如何推薦我的朋友？"
+			},
+			"howToDesc1": {
+				"eng": "Share the game to your friend",
+				"trans": "分享遊戲給你的朋友"
+			},
+			"howToDesc2": {
+				"eng": "Have your friend fill up your name in the referral field when they create their character",
+				"trans": "當你的朋友創建角色時，請讓他們在推薦欄位填寫你的名字。"
+			},
+			"howToDesc4": {
+				"eng": "Thats it!",
+				"trans": "就這樣！"
+			},
+			"rewards": {
+				"eng": "rewards",
+				"trans": "獎勵"
+			},
+			"rewardsDesc": {
+				"eng": "You will receive the following items when your friend reaches level ${level}.",
+				"trans": "當你的朋友達到${level}級時，你將收到以下物品。"
+			},
+			"title": {
+				"eng": "Invite your friends",
+				"trans": "邀請你的朋友"
+			},
+			"title2": {
+				"eng": "receive rewards & bonuses!",
+				"trans": "獲得獎勵和獎金！"
+			},
+			"unitBonus": {
+				"eng": "You will get 10% bonus ${universalDollars} when your friend makes a purchase",
+				"trans": "當您的朋友購買時，您將獲得10%的額外${universalDollars}獎勵"
+			}
+		}
+	},
+	"promotionPopup": {
+		"dontShowAgain": {
+			"eng": "Don\\'t show again",
+			"trans": "不再顯示"
+		}
+	},
 	"psychosisDisplay": {
 		"nextCycle": {
 			"eng": "${time} to next refresh",
@@ -5493,14 +5622,20 @@
 			}
 		}
 	},
+	"referral": {
+		"level20Mail": {
+			"eng": "Your referral ${player} has reached level ${level}! rewards has been sent to your apartment!",
+			"trans": "您的推薦${player}已達到${level}級！獎勵已發送到您的公寓！"
+		}
+	},
 	"refreshShopModal": {
 		"cancel": {
 			"eng": "Cancel",
 			"trans": "取消"
 		},
 		"description": {
-			"eng": "Refreshing the shop will randomize the items and discounts. this will cost ${price} ${currency}",
-			"trans": "刷新商店將會隨機更換物品和折扣，這將花費${price} ${currency}。"
+			"eng": "Refreshing the shop will randomize the items and discounts",
+			"trans": "刷新商店將隨機更換物品和折扣"
 		},
 		"refresh": {
 			"eng": "Refresh Now",
@@ -5586,6 +5721,11 @@
 		}
 	},
 	"reward": {
+		"clanExp": {
+			"eng": "+${clanExp} Gang EXP",
+			"trans": "+${clanExp} 幫派經驗值",
+			"vars": []
+		},
 		"clanResource": {
 			"eng": "+${clanResource} Gang Resource",
 			"trans": "+${clanResource} 幫派資源",
@@ -5609,6 +5749,11 @@
 			"trans": "+ ${clanControl}氏族控制",
 			"vars": []
 		},
+		"clanExp": {
+			"eng": "+ ${clanExp} gang exp",
+			"trans": "+ 幫派經驗值 ${clanExp}",
+			"vars": []
+		},
 		"clanResource": {
 			"eng": "+ ${clanResource} clan resource",
 			"trans": "+ ${clanResource}氏族資源",
@@ -5621,6 +5766,13 @@
 		"reducePsychosis": {
 			"eng": "Reduce psychosis by ${reducePsychosis}",
 			"trans": "減少網絡狂躁症 ${reducePsychosis}",
+			"vars": []
+		}
+	},
+	"rewardConfigItemDisplay": {
+		"oneOf": {
+			"eng": "one of the following x ${amount}:",
+			"trans": "以下其中一個 x ${amount}:",
 			"vars": []
 		}
 	},
@@ -5746,6 +5898,10 @@
 			"nameNotAllowed": {
 				"eng": "This name contains text that is not allowed",
 				"trans": "此名稱包含不允許的文字"
+			},
+			"referrerNotFound": {
+				"eng": "Referrer not found",
+				"trans": "找不到推薦人"
 			}
 		},
 		"dungeon": {
@@ -6039,12 +6195,6 @@
 				"eng": "How many would you like to purchase?",
 				"trans": "你想購買多少個？"
 			}
-		}
-	},
-	"shopPage": {
-		"cost": {
-			"eng": "cost:",
-			"trans": "成本："
 		}
 	},
 	"socialPage": {
@@ -6966,6 +7116,10 @@
 			"giftCode": {
 				"eng": "Gift Code",
 				"trans": "禮品碼"
+			},
+			"leaderboard": {
+				"eng": "leaderboard",
+				"trans": "排行榜"
 			},
 			"logoutButton": {
 				"eng": "logout",

@@ -411,20 +411,12 @@
 			"trans": "可能な報酬"
 		},
 		"skipButton": {
-			"description": {
-				"eng": "Consumes ${price} ${currency}",
-				"trans": "${price} ${currency}を消費します"
-			},
 			"title": {
 				"eng": "Instant Complete",
 				"trans": "即時完了"
 			}
 		},
 		"startButton": {
-			"description": {
-				"eng": "Takes ${time}",
-				"trans": "${time}をかかります"
-			},
 			"title": {
 				"eng": "start task",
 				"trans": "タスクを開始します。"
@@ -648,6 +640,10 @@
 		"nameInput": {
 			"eng": "name",
 			"trans": "名前"
+		},
+		"referrerCheckbox": {
+			"eng": "I have a referrer",
+			"trans": "私には紹介者がいます"
 		}
 	},
 	"chatPreview": {
@@ -895,6 +891,10 @@
 			"eng": "+ ${amount} control on territory",
 			"trans": "+ 領地に${amount}の制御"
 		},
+		"clanExp": {
+			"eng": "+ ${amount} Gang EXP",
+			"trans": "+ ${amount} ギャングの経験値"
+		},
 		"clanResource": {
 			"eng": "+ ${amount} Gang resource",
 			"trans": "+ ${amount}のギャングリソース"
@@ -1036,6 +1036,12 @@
 		"description": {
 			"eng": "Create your own gang and invite your friends to join!",
 			"trans": "自分のギャングを作り、友達を招待して参加してください！"
+		},
+		"fullJoinButton": {
+			"title": {
+				"eng": "Members full",
+				"trans": "メンバーの満員"
+			}
 		},
 		"gangNameInput": {
 			"title": {
@@ -2297,6 +2303,12 @@
 			"eng": "Dismantle",
 			"trans": "解体する"
 		},
+		"error": {
+			"cantEquipFromBackpack": {
+				"eng": "You cannot equip equipment from your backpack",
+				"trans": "バックパックから装備品を装備することはできません。"
+			}
+		},
 		"levelUpBar": {
 			"title": {
 				"eng": "Level increased",
@@ -3376,6 +3388,56 @@
 			"trans": "アップグレード"
 		}
 	},
+	"leaderboard": {
+		"clan": {
+			"name": {
+				"eng": "Gang Level",
+				"trans": "幫派レベル"
+			}
+		},
+		"level": {
+			"name": {
+				"eng": "Character Level",
+				"trans": "キャラクターレベル"
+			}
+		},
+		"levelBodyguard": {
+			"name": {
+				"eng": "Bodyguard Level",
+				"trans": "ボディーガードレベル"
+			}
+		},
+		"levelMedical": {
+			"name": {
+				"eng": "Medical Level",
+				"trans": "医療レベル"
+			}
+		},
+		"levelScavenge": {
+			"name": {
+				"eng": "Scavenging Level",
+				"trans": "スカベンジングレベル"
+			}
+		},
+		"levelThieving": {
+			"name": {
+				"eng": "Thieving Level",
+				"trans": "盗賊のレベル"
+			}
+		},
+		"money": {
+			"name": {
+				"eng": "Eurodollars",
+				"trans": "ユーロドル"
+			}
+		},
+		"pvp": {
+			"name": {
+				"eng": "PvP Kills",
+				"trans": "PvPキル"
+			}
+		}
+	},
 	"levelType": {
 		"bodyguard": {
 			"currentEffectDescription": {
@@ -3587,8 +3649,11 @@
 		"iap": {
 			"purchase": {
 				"eng": "You have successfully received ${premiumAmount}",
-				"trans": "${premiumAmount}を正常に受け取りました。",
-				"vars": []
+				"trans": "${premiumAmount}を正常に受け取りました。"
+			},
+			"referral": {
+				"eng": "You have received ${premiumAmount} from your referral to ${playerName}",
+				"trans": "あなたは${playerName}への紹介で${premiumAmount}を受け取りました。"
 			}
 		}
 	},
@@ -3726,6 +3791,10 @@
 		"jobLevel": {
 			"eng": "Job Level",
 			"trans": "ジョブレベル"
+		},
+		"mercenary": {
+			"eng": "Mercenary",
+			"trans": "傭兵"
 		},
 		"territory": {
 			"eng": "Territory",
@@ -4056,8 +4125,8 @@
 			}
 		},
 		"recruitMaxError": {
-			"eng": "You cannot recruit more than {max} mercenaries, you can increase the max mercenary by renting a better apartment. or you may dismiss your unwanted mercenary for resources.",
-			"trans": "最大傭兵数は{max}人を超えることはできません。より良いアパートを借りることで最大傭兵数を増やすことができます。または、不要な傭兵をリソースと引き換えに解雇することもできます。"
+			"eng": "You cannot recruit more than ${max} mercenaries, you can increase the max mercenary by renting a better apartment. or you may dismiss your unwanted mercenary for resources.",
+			"trans": "${max}人以上の傭兵を雇うことはできません。より良いアパートを借りることで最大傭兵数を増やすことができます。または、不要な傭兵をリソースと交換することで解雇することもできます。"
 		},
 		"recruitOne": {
 			"eng": "Recruit one",
@@ -4106,6 +4175,20 @@
 		"noMercenaries": {
 			"eng": "You do not have any mercenaries in your contact",
 			"trans": "あなたの連絡先には傭兵はいません"
+		},
+		"tip": {
+			"default": {
+				"eng": "Dismiss mercenaries to receive ${enhancer} and ${upgrade} base on their level and stars.",
+				"trans": "レベルと星の数に基づいて傭兵を解雇して、${enhancer}と${upgrade}を受け取ります。"
+			},
+			"noLevelUp": {
+				"eng": "Level up your mercenaries to improve their stats and ability",
+				"trans": "傭兵のレベルを上げて、ステータスと能力を向上させましょう。"
+			},
+			"noMercenaries": {
+				"eng": "You can recruit mercenaries from the Red Bar.",
+				"trans": "赤いバーから傭兵を雇うことができます。"
+			}
 		},
 		"title": {
 			"eng": "Mercenary Contact List",
@@ -5273,6 +5356,52 @@
 			"trans": "${amount}に変換できます。"
 		}
 	},
+	"promo": {
+		"referral": {
+			"howTo": {
+				"eng": "How to refer my friend?",
+				"trans": "友達を紹介する方法は？"
+			},
+			"howToDesc1": {
+				"eng": "Share the game to your friend",
+				"trans": "友達にゲームをシェアしてください"
+			},
+			"howToDesc2": {
+				"eng": "Have your friend fill up your name in the referral field when they create their character",
+				"trans": "友達には、キャラクターを作成する際に、紹介フィールドにあなたの名前を入力してもらってください。"
+			},
+			"howToDesc4": {
+				"eng": "Thats it!",
+				"trans": "それだけです！"
+			},
+			"rewards": {
+				"eng": "rewards",
+				"trans": "報酬"
+			},
+			"rewardsDesc": {
+				"eng": "You will receive the following items when your friend reaches level ${level}.",
+				"trans": "友達がレベル${level}に達すると、以下のアイテムを受け取ります。"
+			},
+			"title": {
+				"eng": "Invite your friends",
+				"trans": "友達を招待してください。"
+			},
+			"title2": {
+				"eng": "receive rewards & bonuses!",
+				"trans": "報酬とボーナスを受け取る！"
+			},
+			"unitBonus": {
+				"eng": "You will get 10% bonus ${universalDollars} when your friend makes a purchase",
+				"trans": "友達が購入すると、ユニバーサルドルの10%ボーナスを獲得します。"
+			}
+		}
+	},
+	"promotionPopup": {
+		"dontShowAgain": {
+			"eng": "Don\\'t show again",
+			"trans": "再び表示しない"
+		}
+	},
 	"psychosisDisplay": {
 		"nextCycle": {
 			"eng": "${time} to next refresh",
@@ -5493,14 +5622,20 @@
 			}
 		}
 	},
+	"referral": {
+		"level20Mail": {
+			"eng": "Your referral ${player} has reached level ${level}! rewards has been sent to your apartment!",
+			"trans": "あなたの推薦者${player}がレベル${level}に達しました！報酬はあなたのアパートに送られました！"
+		}
+	},
 	"refreshShopModal": {
 		"cancel": {
 			"eng": "Cancel",
 			"trans": "キャンセル"
 		},
 		"description": {
-			"eng": "Refreshing the shop will randomize the items and discounts. this will cost ${price} ${currency}",
-			"trans": "ショップを更新すると、アイテムと割引がランダム化されます。これには${price} ${currency}が必要です。"
+			"eng": "Refreshing the shop will randomize the items and discounts",
+			"trans": "ショップをリフレッシュすると、アイテムと割引がランダムに変更されます。"
 		},
 		"refresh": {
 			"eng": "Refresh Now",
@@ -5586,6 +5721,11 @@
 		}
 	},
 	"reward": {
+		"clanExp": {
+			"eng": "+${clanExp} Gang EXP",
+			"trans": "+${clanExp} 幫派経験値",
+			"vars": []
+		},
 		"clanResource": {
 			"eng": "+${clanResource} Gang Resource",
 			"trans": "+${clanResource} ギャングリソース",
@@ -5609,6 +5749,11 @@
 			"trans": "+ ${clanControl}クランコントロール",
 			"vars": []
 		},
+		"clanExp": {
+			"eng": "+ ${clanExp} gang exp",
+			"trans": "+ ${clanExp} 幫派経験値",
+			"vars": []
+		},
 		"clanResource": {
 			"eng": "+ ${clanResource} clan resource",
 			"trans": "+ ${clanResource} クランのリソース",
@@ -5621,6 +5766,13 @@
 		"reducePsychosis": {
 			"eng": "Reduce psychosis by ${reducePsychosis}",
 			"trans": "${reducePsychosis}によって狂躁症を軽減する",
+			"vars": []
+		}
+	},
+	"rewardConfigItemDisplay": {
+		"oneOf": {
+			"eng": "one of the following x ${amount}:",
+			"trans": "以下のうちの一つ x ${amount}：",
 			"vars": []
 		}
 	},
@@ -5744,8 +5896,12 @@
 				"vars": []
 			},
 			"nameNotAllowed": {
-				"eng": "This name is not allowed",
-				"trans": "この名前は許可されていません。"
+				"eng": "This name contains text that is not allowed",
+				"trans": "この名前には許可されていないテキストが含まれています。"
+			},
+			"referrerNotFound": {
+				"eng": "Referrer not found",
+				"trans": "推薦者が見つかりません"
 			}
 		},
 		"dungeon": {
@@ -6039,12 +6195,6 @@
 				"eng": "How many would you like to purchase?",
 				"trans": "何個購入しますか？"
 			}
-		}
-	},
-	"shopPage": {
-		"cost": {
-			"eng": "cost:",
-			"trans": "コスト："
 		}
 	},
 	"socialPage": {
@@ -6966,6 +7116,10 @@
 			"giftCode": {
 				"eng": "Gift Code",
 				"trans": "ギフトコード"
+			},
+			"leaderboard": {
+				"eng": "leaderboard",
+				"trans": "リーダーボード"
 			},
 			"logoutButton": {
 				"eng": "logout",
