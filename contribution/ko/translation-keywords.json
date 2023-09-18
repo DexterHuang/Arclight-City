@@ -1,0 +1,436 @@
+{
+  "keywords": [
+    {
+      "eng": "Player ${0} is ${1} has been killed during PVP",
+      "match": [
+        ""
+      ],
+      "trans": "플레이어 ${0}은(는) PVP 중 ${1} 상태로 사망했습니다.",
+      "important": true,
+      "desc": "Example of how to translate a sentence with variables"
+    },
+    {
+      "eng": "What is equipment calibration?",
+      "match": [
+        "calibrate"
+      ],
+      "trans": "장비 교정이란 무엇인가요?",
+      "important": true,
+      "desc": "An example for an sample question"
+    },
+    {
+      "eng": "Inventory",
+      "match": [],
+      "trans": "인벤토리",
+      "desc": "Player's main inventory"
+    },
+    {
+      "eng": "Backpack",
+      "match": [],
+      "trans": "배낭",
+      "desc": "A separate inventory that player brings to adventure"
+    },
+    {
+      "eng": "Vault",
+      "match": [],
+      "trans": "금고",
+      "desc": "A separate inventory that player stores in their apartment, can only be accessed in apartment"
+    },
+    {
+      "eng": "AFK Tasks",
+      "match": [
+        "afk"
+      ],
+      "trans": "AFK 작업",
+      "desc": "AFK = away from keyboard, tasks player can perform while they are not actively playing"
+    },
+    {
+      "eng": "AFK",
+      "match": [],
+      "trans": "자리 비움",
+      "desc": "Away from keyboard"
+    },
+    {
+      "eng": "Red Bar",
+      "match": [],
+      "trans": "빨간 막대기",
+      "desc": "A cool name of a bar player can visit"
+    },
+    {
+      "eng": "Deliveries",
+      "match": [],
+      "trans": "배송",
+      "desc": "Like an item inbox, player can receive items from other players through the market"
+    },
+    {
+      "eng": "Upper Armour",
+      "match": [],
+      "trans": "상의 방어구",
+      "desc": "A type of armor player can equip on their upper body"
+    },
+    {
+      "eng": "Lower Armour",
+      "match": [],
+      "trans": "하의 방어구",
+      "desc": "A type of armor player can equip on their lower body"
+    },
+    {
+      "eng": "Place Hit",
+      "match": [],
+      "trans": "타격 위치",
+      "desc": "Placing a bounty on another player for a hitman, synonym of \"place bounty\""
+    },
+    {
+      "eng": "Dismantle",
+      "match": [],
+      "trans": "분해하기",
+      "desc": "Dismantle an item to get components"
+    },
+    {
+      "eng": "Stronghold",
+      "match": [],
+      "trans": "거점",
+      "desc": "Like a dungeon but with a sci-fi name"
+    },
+    {
+      "eng": "Health",
+      "match": [],
+      "trans": "체력",
+      "desc": "Player's Health, also known as HP"
+    },
+    {
+      "eng": "Vitality",
+      "match": [],
+      "trans": "활력",
+      "desc": "An attribute name"
+    },
+    {
+      "eng": "Strength",
+      "match": [],
+      "trans": "힘",
+      "desc": "An attribute name"
+    },
+    {
+      "eng": "Intelligence",
+      "match": [],
+      "trans": "지능",
+      "desc": "An attribute name"
+    },
+    {
+      "eng": "Dexterity",
+      "match": [],
+      "trans": "민첩성",
+      "desc": "An attribute name"
+    },
+    {
+      "eng": "Vitality Attribute",
+      "match": [
+        "vitality"
+      ],
+      "trans": "활력 속성",
+      "desc": "An attribute name added a repeat for AI to easier to understand"
+    },
+    {
+      "eng": "Strength Attribute",
+      "match": [
+        "strength"
+      ],
+      "trans": "힘 속성",
+      "desc": "An attribute name added a repeat for AI to easier to understand"
+    },
+    {
+      "eng": "Intelligence Attribute",
+      "match": [
+        "intelligence"
+      ],
+      "trans": "지능 속성",
+      "desc": "An attribute name added a repeat for AI to easier to understand"
+    },
+    {
+      "eng": "Dexterity Attribute",
+      "match": [
+        "dexterity"
+      ],
+      "trans": "민첩성 속성",
+      "desc": "An attribute name added a repeat for AI to easier to understand"
+    },
+    {
+      "eng": "Thieving",
+      "match": [],
+      "trans": "도둑질",
+      "desc": "A job name player can perform"
+    },
+    {
+      "eng": "Scavenge",
+      "match": [],
+      "trans": "약탈하기",
+      "desc": "A job name player can perform"
+    },
+    {
+      "eng": "Extraction Mission",
+      "match": [],
+      "trans": "추출 미션",
+      "desc": "A job name player can perform"
+    },
+    {
+      "eng": "Arclight City",
+      "match": [
+        "arclight"
+      ],
+      "trans": "아크라이트 시티",
+      "desc": "Name of the game, also the name of the city set in the game, when translating this please make it sounds good, does not to be direct translation"
+    },
+    {
+      "eng": "Arclight",
+      "match": [],
+      "trans": "아크라이트",
+      "desc": "Short-term name of the game, also the name of the city set in the game"
+    },
+    {
+      "eng": "Territory",
+      "match": [],
+      "trans": "영토",
+      "desc": "A district area player can take control of"
+    },
+    {
+      "eng": "gang",
+      "match": [],
+      "trans": "갱",
+      "desc": "Like clans in other games"
+    },
+    {
+      "eng": "Gang Upkeep",
+      "match": [],
+      "trans": "갱 유지보수",
+      "desc": "A cost player needs to pay to maintain their gang"
+    },
+    {
+      "eng": "Gang Territory",
+      "match": [],
+      "trans": "갱 영토",
+      "desc": "A district area gang can take control of"
+    },
+    {
+      "eng": "Ripperdoc",
+      "match": [],
+      "trans": "리퍼닥",
+      "desc": "An NPC profession name, like a cybernetic doctor"
+    },
+    {
+      "eng": "money",
+      "match": [],
+      "trans": "돈",
+      "desc": "Main currency in the game, which is Eurodollars, please translate directly to Eurodollars or simply \"money\" if more appropriate"
+    },
+    {
+      "eng": "Nano Repairer",
+      "match": [],
+      "trans": "나노 수리기",
+      "desc": "An item name used to repair broken equipment"
+    },
+    {
+      "eng": "TaiXing Cybernetic",
+      "match": [
+        "taixing"
+      ],
+      "trans": "태싱 사이버네틱",
+      "desc": "A fake company name, specialized in making cybernetic implants and other tech"
+    },
+    {
+      "eng": "TaiXing",
+      "match": [],
+      "trans": "태싱",
+      "desc": "A fake company name, specialized in making cybernetic implants and other tech"
+    },
+    {
+      "eng": "Trauma Team",
+      "match": [],
+      "trans": "트라우마 팀",
+      "desc": "An NPC profession name, like a medical rescue team but with guns"
+    },
+    {
+      "eng": "extraction force",
+      "match": [],
+      "trans": "추출력",
+      "desc": "Teams work under Trauma Team, like a medical rescue team but with guns"
+    },
+    {
+      "eng": "crew",
+      "match": [],
+      "trans": "크루",
+      "desc": "A team of mercenaries player can hire to help them fight"
+    },
+    {
+      "eng": "Implant",
+      "match": [],
+      "trans": "이식",
+      "desc": "A cyberpunk term for cybernetic implants, if you don't know what it is please check google"
+    },
+    {
+      "eng": "Cyber psychosis",
+      "match": [
+        "psychosis"
+      ],
+      "trans": "사이버 싸이코시스",
+      "desc": "Same thing as in the Anime, when a person uses too much cybernetic ability, they will lose their mind"
+    },
+    {
+      "eng": "stats",
+      "match": [
+        "stat"
+      ],
+      "trans": "통계",
+      "desc": "The attributes of items, like damage, health, armor, etc"
+    },
+    {
+      "eng": "reward",
+      "match": [],
+      "trans": "보상",
+      "desc": "A reward player can get from doing quests or other stuff"
+    },
+    {
+      "eng": "calibration",
+      "match": [
+        "calibrate"
+      ],
+      "trans": "교정",
+      "desc": "A process to make equipment work better"
+    },
+    {
+      "eng": "calibrate",
+      "match": [],
+      "trans": "교정하다",
+      "desc": "A process to make equipment work better"
+    },
+    {
+      "eng": "upgrade",
+      "match": [],
+      "trans": "업그레이드",
+      "desc": "A process to make equipment work better, including increasing level, resetting, or adding new stats"
+    },
+    {
+      "eng": "place hit",
+      "match": [],
+      "trans": "피격 지점",
+      "desc": "Placing a bounty order on another player"
+    },
+    {
+      "eng": "netrunner",
+      "match": [],
+      "trans": "넷러너",
+      "desc": "Hacker in cyberpunk term"
+    },
+    {
+      "eng": "netrunning",
+      "match": [],
+      "trans": "넷런닝",
+      "desc": "Hacking in cyberpunk term"
+    },
+    {
+      "eng": "flatline",
+      "match": [],
+      "trans": "평탄한 라인",
+      "desc": "Dead in cyberpunk term, will show up in the dead screen with bit writing, supposed to look cool"
+    },
+    {
+      "eng": "cybernet",
+      "match": [],
+      "trans": "사이버넷",
+      "desc": "\"Internet\" in cyberpunk term"
+    },
+    {
+      "eng": "use",
+      "match": [],
+      "trans": "사용하다",
+      "desc": "Use an item"
+    },
+    {
+      "eng": "next",
+      "match": [],
+      "trans": "다음",
+      "desc": "In UI context, like a button"
+    },
+    {
+      "eng": "block",
+      "match": [],
+      "trans": "블록",
+      "desc": "Block a player from sending messages to you"
+    },
+    {
+      "eng": "bundle",
+      "match": [],
+      "trans": "번들",
+      "desc": "A bundle of items players can buy in most mobile games"
+    },
+    {
+      "eng": "block chance",
+      "match": [],
+      "trans": "블록 확률",
+      "desc": "A stat of equipment, a chance that players can block incoming damage"
+    },
+    {
+      "eng": "Universal Dollars",
+      "match": [],
+      "trans": "유니버설 달러",
+      "desc": "A fictional currency name in the game, translate to a suitable name in your language"
+    },
+    {
+      "eng": "Cybernetic Enhancer",
+      "match": [
+        "enhancer"
+      ],
+      "trans": "사이버네틱 강화제",
+      "desc": "An item name, a cybernetic implant that can enhance players' abilities"
+    },
+    {
+      "eng": "Eurodollars",
+      "match": [
+        "eddie"
+      ],
+      "trans": "유로달러",
+      "desc": "Main currency in the game, which is Eurodollars, please translate directly to Eurodollars or simply \"money\" if more appropriate"
+    },
+    {
+      "eng": "Lore note",
+      "match": [
+        "lore"
+      ],
+      "trans": "로어 노트",
+      "desc": "A note that players can find in the game and read to learn more about the game world"
+    },
+    {
+      "eng": "referral",
+      "match": [
+        "refer"
+      ],
+      "trans": "추천",
+      "desc": "Referral as in referring a friend to play the game"
+    },
+    {
+      "eng": "refer",
+      "match": [],
+      "trans": "추천",
+      "desc": "Referral as in referring a friend to play the game"
+    },
+    {
+      "eng": "Scrap Items",
+      "match": [
+        "scrap"
+      ],
+      "trans": "스크랩 아이템",
+      "desc": "Player can scrap items from their inventory, different from dismantle, scrap will give less or no components"
+    },
+    {
+      "eng": "All",
+      "match": [],
+      "trans": "모두",
+      "desc": "A generic word for 'all' in UI"
+    },
+    {
+      "eng": "Continue",
+      "match": [],
+      "trans": "계속하다",
+      "desc": "A generic word for 'continue' in UI"
+    }
+  ]
+}
