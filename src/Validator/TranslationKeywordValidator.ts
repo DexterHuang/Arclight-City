@@ -1,6 +1,5 @@
 import fs from 'fs';
 import { IValidator } from '../Interface/IValidator';
-import { FileHelper } from '../Helper/FileHelper';
 export class TranslationKeywordValidator implements IValidator {
   validate() {
     const langs = fs.readdirSync('contribution').filter(f => f.indexOf('.') <= 0 && f !== 'en');

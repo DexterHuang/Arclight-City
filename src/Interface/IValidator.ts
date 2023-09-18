@@ -1,5 +1,5 @@
 
 export interface IValidator {
 
-  validate: () => any;
+  validate(): any;
 }

@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch": "npx tsx watch src/Validate.ts"
+    "watch": "npx tsx watch src/Validate.ts",
+    "start": "npx tsx src/Validate.ts"
   },
   "dependencies": {
     "typescript": "^5.2.2"

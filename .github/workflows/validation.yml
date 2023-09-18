@@ -3,7 +3,13 @@
 
 name: Validation workflow
 
-on: [push]
+on:
+    pull_request:
+        branches:
+            - "*" # matches every branch that doesn't contain a '/'
+            - "*/*" # matches every branch containing a single '/'
+            - "**"
+        types: ["opened", "edited", "reopened", "synchronize"]
 jobs:
     Validate-Files:
         runs-on: ubuntu-latest
