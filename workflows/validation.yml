@@ -1,0 +1,27 @@
+# Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
+# More GitHub Actions for Azure: https://github.com/Azure/actions
+
+name: Validation workflow
+
+on:
+    push:
+        branches:
+            - /*
+    workflow_dispatch:
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+
+        steps:
+            - uses: actions/checkout@v2
+
+            - name: Set up Node.js version
+              uses: actions/setup-node@v1
+              with:
+                  node-version: "16.x"
+
+            - name: npm install, build, and test
+              run: |
+                  npm ci
+                  npx tsx src/Validate.ts
