@@ -3,14 +3,9 @@
 
 name: Validation workflow
 
-on:
-    push:
-        branches:
-            - /*
-    workflow_dispatch:
-
+on: [push]
 jobs:
-    build:
+    Validate-Files:
         runs-on: ubuntu-latest
 
         steps:
