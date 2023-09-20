@@ -4,6 +4,10 @@
 			"description": {
 				"eng": "More experienced pro mercs hang out here",
 				"trans": "更有經驗的職業傭兵聚集在這裡"
+			},
+			"title": {
+				"eng": "Inner tables",
+				"trans": "內部表格"
 			}
 		},
 		"NORMAL": {
@@ -251,7 +255,7 @@
 		"vaultButton": {
 			"title": {
 				"eng": "Vault",
-				"trans": "倉庫"
+				"trans": "保險箱"
 			}
 		}
 	},
@@ -1352,8 +1356,8 @@
 		"type": {
 			"hard": {
 				"description": {
-					"eng": "Hard difficulty stronghold.",
-					"trans": "困難地城。"
+					"eng": "Hard difficulty stronghold, Enemies are stronger and more numerous, but the EXP and rewards are greater.",
+					"trans": "困難難度的要塞，敵人更強大且更多，但經驗值和獎勵更豐厚。"
 				},
 				"name": {
 					"eng": "Hard Difficulty",
@@ -1390,7 +1394,7 @@
 			},
 			"name": {
 				"eng": "Crowded",
-				"trans": "人山人海"
+				"trans": "人多勢眾"
 			}
 		},
 		"expIncrease": {
@@ -1538,6 +1542,10 @@
 		"enterDungeon": {
 			"eng": "Enter Stronghold",
 			"trans": "進入地城"
+		},
+		"extraLoot": {
+			"eng": "+${percent}% loot rarity",
+			"trans": "+${percent}%戰利品稀有度"
 		}
 	},
 	"dungeonTypePage": {
@@ -2061,7 +2069,7 @@
 	"hostilePlayerListPage": {
 		"description": {
 			"eng": "Join the fight for justice in Arclight City! The ACPD calls upon vigilant citizens to aid in the pursuit of wanted criminals. Your city needs you! Bring in the fugitives, dead or alive, and earn substantial rewards. Together, we'll make Arclight City safer for all. 🌃👮‍♂️\\n#CitizenArrest #ACPDJustice",
-			"trans": "加入幻光之城為正義而戰吧！幻光城警局呼籲警覺的市民協助追捕通緝犯。您的城市需要您！不論生死，將逃犯繩之以法將獲得豐厚的獎勵。讓我們一起打造更安全的幻光之城。🌃👮‍♂️\\n#市民逮捕 #幻光城警局之義"
+			"trans": "加入幻光之城為正義而戰吧！幻光警局呼籲警覺的市民協助追捕通緝犯。您的城市需要您！不論生死，將逃犯繩之以法將獲得豐厚的獎勵。讓我們一起打造更安全的幻光之城。🌃👮‍♂️\\n#市民逮捕 #幻光警局之義"
 		},
 		"level": {
 			"eng": "Level",
@@ -4532,10 +4540,14 @@
 			},
 			"greetings": {
 				"eng": [
-					"Look but don't touch. Unless you don't need your hands no more."
+					"Welcome to the underbelly of this city. Hope you've got something worth trading.",
+					"Auction night is always full of surprises. Are you ready to bid on your fate?",
+					"They say in the black market, you can buy anything, even your own salvation. What's your salvation worth to you?"
 				],
 				"trans": [
-					"用眼睛看就好，除非您不想要您的手了。"
+					"歡迎來到這個城市的黑暗面。希望你有值得交易的東西。",
+					"拍賣之夜總是充滿驚喜。你準備好競標你的命運了嗎？",
+					"他們說在黑市上，你可以買到任何東西，甚至是自己的救贖。你的救贖對你來說值多少錢？"
 				]
 			},
 			"locationName": {
@@ -5798,7 +5810,7 @@
 		"received": {
 			"title": {
 				"eng": "Received",
-				"trans": "接收到了"
+				"trans": "已收到"
 			}
 		}
 	},
@@ -7265,8 +7277,8 @@
 	"vaultPage": {
 		"addItemButton": {
 			"title": {
-				"eng": "store item",
-				"trans": "儲存物品"
+				"eng": "Add item to vault",
+				"trans": "將物品加入保險庫"
 			}
 		},
 		"emptyVault": {

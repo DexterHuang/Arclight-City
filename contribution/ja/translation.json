@@ -1356,8 +1356,8 @@
 		"type": {
 			"hard": {
 				"description": {
-					"eng": "Hard difficulty stronghold.",
-					"trans": "ハード難易度の地城。"
+					"eng": "Hard difficulty stronghold, Enemies are stronger and more numerous, but the EXP and rewards are greater.",
+					"trans": "ハード難易度のストロングホールド、敵はより強力で数も多いですが、経験値と報酬もより大きいです。"
 				},
 				"name": {
 					"eng": "Hard Difficulty",
@@ -1542,6 +1542,10 @@
 		"enterDungeon": {
 			"eng": "Enter Stronghold",
 			"trans": "地城に入る"
+		},
+		"extraLoot": {
+			"eng": "+${percent}% loot rarity",
+			"trans": "+${percent}% のドロップレアリティ"
 		}
 	},
 	"dungeonTypePage": {
@@ -4536,10 +4540,14 @@
 			},
 			"greetings": {
 				"eng": [
-					"Look but don't touch. Unless you don't need your hands no more."
+					"Welcome to the underbelly of this city. Hope you've got something worth trading.",
+					"Auction night is always full of surprises. Are you ready to bid on your fate?",
+					"They say in the black market, you can buy anything, even your own salvation. What's your salvation worth to you?"
 				],
 				"trans": [
-					"見るだけで触らないでください。手が必要なくなる場合を除いて。"
+					"この街の裏側へようこそ。取引に値するものを持っていることを願っています。",
+					"オークションの夜はいつも驚きに満ちています。運命に入札する準備はできていますか？",
+					"黒市では、あらゆるもの、たとえ自分の救いでさえも買うことができると言われています。あなたにとって、救いとはどれくらいの価値がありますか？"
 				]
 			},
 			"locationName": {
@@ -7269,8 +7277,8 @@
 	"vaultPage": {
 		"addItemButton": {
 			"title": {
-				"eng": "store item",
-				"trans": "ストアアイテム"
+				"eng": "Add item to vault",
+				"trans": "アイテムをボールトに追加する"
 			}
 		},
 		"emptyVault": {
