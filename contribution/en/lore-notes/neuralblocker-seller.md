@@ -8,10 +8,6 @@
 
 **Mercenary**: RipperDoc, hear me clear. I'm diving headfirst into that gang's turf, and I want only the best Neuroblockers you've got.
 
-**RipperDoc**: You ain't gonna hack it, friend. These mods will fry your brainpan. Your gray matter can't handle the ride.
-
-**Mercenary**: RipperDoc, I'm not playing around. I'm about to breach that gang stronghold, and I damn well demand your strongest Neuroblockers.
-
 **RipperDoc**: You're on a suicide run, omae. My top-shelf mods would fry you to a crisp. You better hit up some other chrome surgeon for weaker drek.
 
 **Mercenary**: RipperDoc, cut the drek. I'm storming that stronghold, and I'm only interested in your finest Neuroblockers.
