@@ -3,17 +3,17 @@
 		"ELITE": {
 			"description": {
 				"eng": "More experienced pro mercs hang out here",
-				"trans": "ここではより経験の豊富なプロの傭兵が集まっています。"
+				"trans": "経験豊富なプロの傭兵が集まっています。"
 			},
 			"title": {
 				"eng": "Inner tables",
-				"trans": "内部テーブル"
+				"trans": "テーブル"
 			}
 		},
 		"NORMAL": {
 			"description": {
 				"eng": "Usually amateur mercs hang out here",
-				"trans": "通常、アマチュアの傭兵がここに集まっています。"
+				"trans": "アマチュアの傭兵がここに集まっています。"
 			},
 			"title": {
 				"eng": "Bar table",
@@ -27,7 +27,7 @@
 			},
 			"title": {
 				"eng": "Sofa tables",
-				"trans": "ソファテーブル"
+				"trans": "ソファーテーブル"
 			}
 		}
 	},
@@ -39,7 +39,7 @@
 			},
 			"triggered": {
 				"eng": "${playerName} Attacked for ${amount} damage",
-				"trans": "${playerName}が${amount}ダメージを与えた。"
+				"trans": "${playerName}が${amount}のダメージを与えた。"
 			}
 		},
 		"attack_group": {
@@ -133,37 +133,37 @@
 		"apartment0": {
 			"displayName": {
 				"eng": "Slum Apartment",
-				"trans": "スラムのアパートメント"
+				"trans": "スラムのアパート"
 			}
 		},
 		"apartment1": {
 			"displayName": {
 				"eng": "Low-end Apartment",
-				"trans": "予算スタジオ"
+				"trans": "お手頃なアパート"
 			}
 		},
 		"apartment2": {
 			"displayName": {
 				"eng": "Budget Studio",
-				"trans": "スタンダードスタジオ"
+				"trans": "普通のスタジオ"
 			}
 		},
 		"apartment3": {
 			"displayName": {
 				"eng": "Downtown Apartment",
-				"trans": "ダウンタウンのアパートメント"
+				"trans": "ダウンタウンのアパート"
 			}
 		},
 		"enter": {
 			"blocked": {
 				"eng": "This apartment cannot entered at this moment.",
-				"trans": "このアパートメントは現在入ることができません。"
+				"trans": "このアパートは現在入ることができません。"
 			}
 		},
 		"error": {
 			"enterNotIdle": {
 				"eng": "You can only enter an apartment when you are idle",
-				"trans": "アパートに入ることは、アイドル状態の時にのみ可能です。"
+				"trans": "アパートに入るには有効な状態にする必要があります。"
 			}
 		},
 		"invite": {
@@ -179,7 +179,7 @@
 		"noApartment": {
 			"displayName": {
 				"eng": "No Apartment",
-				"trans": "アパートメントなし"
+				"trans": "所有中のアパートはありません"
 			}
 		},
 		"players": {
@@ -189,11 +189,11 @@
 		"purchase": {
 			"notEnoughMoney": {
 				"eng": "You do not have enough money to rent this apartment.",
-				"trans": "このアパートを借りるには十分なお金がありません。"
+				"trans": "このアパートを借りるのに十分なお金がありません。"
 			},
 			"success": {
 				"eng": "You have purchased the apartment.",
-				"trans": "アパートメントを購入しました。"
+				"trans": "アパートを購入しました。"
 			}
 		},
 		"rental": {
@@ -223,13 +223,13 @@
 			},
 			"title": {
 				"eng": "No apartment",
-				"trans": "アパートメントなし"
+				"trans": "所有中のアパートはありません"
 			}
 		},
 		"noApartmentButton": {
 			"description": {
 				"eng": "View available apartments online",
-				"trans": "オンラインで利用可能なアパートメントを表示する"
+				"trans": "オンラインで利用可能なアパートを表示する"
 			}
 		},
 		"playerModal": {
@@ -249,7 +249,7 @@
 		"unclaimedDeliveries": {
 			"title": {
 				"eng": "Unclaimed deliveries",
-				"trans": "未受領の配達"
+				"trans": "受領していない配達物"
 			}
 		},
 		"vaultButton": {
@@ -262,7 +262,7 @@
 	"apartmentPurchasePage": {
 		"confirmDescription": {
 			"eng": "Are you sure you want to rent this apartment? if you already has an apartment, it will be dismissed.",
-			"trans": "このアパートを借りることを確認しますか？既にアパートを持っている場合は解雇されます。"
+			"trans": "このアパートを借りますか？既にアパートを持っている場合は解約されます。"
 		},
 		"confirmTitle": {
 			"eng": "Confirm Rental",
@@ -337,7 +337,7 @@
 			},
 			"name": {
 				"eng": "Strength",
-				"trans": "強さ"
+				"trans": "力"
 			}
 		},
 		"vit": {
@@ -347,7 +347,7 @@
 			},
 			"name": {
 				"eng": "Vitality",
-				"trans": "生命力"
+				"trans": "体力"
 			}
 		}
 	},
@@ -358,7 +358,7 @@
 		},
 		"cancelConfirmDescription": {
 			"eng": "Material and time consumed will be lost.",
-			"trans": "素材と時間が消失します。"
+			"trans": "素材と時間を消費します。"
 		},
 		"cancelConfirmTitle": {
 			"eng": "Terminate task?",
@@ -366,7 +366,7 @@
 		},
 		"completeButton": {
 			"eng": "Complete",
-			"trans": "完了します"
+			"trans": "完了"
 		},
 		"completed": {
 			"eng": "Task completed",
@@ -384,7 +384,7 @@
 		},
 		"inProgress": {
 			"eng": "Task in progress...",
-			"trans": "進行中のタスクです..."
+			"trans": "タスク進行中..."
 		}
 	},
 	"backgroundTaskPage": {
@@ -408,7 +408,7 @@
 		},
 		"rewards": {
 			"eng": "possible rewards",
-			"trans": "可能な報酬"
+			"trans": "報酬の可能性"
 		},
 		"skipButton": {
 			"title": {
@@ -431,17 +431,17 @@
 		"abandonedCity": {
 			"description": {
 				"eng": "Mirai; Once a picturesque tourist haven, it now stands abandoned, ravaged by soaring crime rates and leaked radiation. In this desolate landscape, only a handful of desperate junkies and ruthless mercenaries remain, scavenging for whatever loot they can find amidst the ruins.",
-				"trans": "未来；かつては絵のような観光地でしたが、今では犯罪率が高く、漏れた放射線によって荒廃しています。この荒れ果てた風景の中で、わずかな絶望的な中毒者と冷酷な傭兵だけが残り、廃墟の中で見つけられる何でもかんでもを略奪しています。"
+				"trans": "ミライ；かつては絵に描いたような観光地でしたが、今では犯罪率が高く、漏れた放射線によって荒廃しています。この荒れ果てた場所には、わずかな薬物中毒者と冷酷な傭兵だけが残り、廃墟の中で見つけられる僅かな物資を奪い合っています。"
 			},
 			"displayName": {
 				"eng": "Mirai District",
-				"trans": "未来地区"
+				"trans": "ミライ地区"
 			}
 		},
 		"bodyguard": {
 			"description": {
 				"eng": "Safeguard high-profile clients, engage in high-octane combat, and use advanced tech to ensure protection amidst urban dystopia.",
-				"trans": "高名なクライアントを保護し、ハイオクタンの戦闘に参加し、先進技術を使用して都市のディストピアの中で保護を確保します。"
+				"trans": "価値のある顧客を保護し、激しい戦闘を繰り広げ、高度なテクノロジーを駆使して都会のディストピアの中で身を守ります。"
 			},
 			"displayName": {
 				"eng": "Bodyguard",
@@ -461,7 +461,7 @@
 		"hospital": {
 			"description": {
 				"eng": "Work as a part-time extraction force for Trauma Team, with the only goal of extracting ensured client from lethal situations. ",
-				"trans": "トラウマチームの一員として、致命的な状況から確保されたクライアントを救出するためのパートタイムの救援部隊として働きます。"
+				"trans": "一時的にトラウマチームの一員として、致命的な状況から保護された顧客を助けるための救護部隊として働きます。"
 			},
 			"displayName": {
 				"eng": "Extraction Mission",
@@ -475,13 +475,13 @@
 			},
 			"displayName": {
 				"eng": "Scavenge Mission",
-				"trans": "スクavengeラップする"
+				"trans": "探索ミッション"
 			}
 		},
 		"territory": {
 			"description": {
 				"eng": "Contribute to territory control for your gang",
-				"trans": "あなたのギャングの領土支配に貢献してください。"
+				"trans": "ギャングの領土支配に貢献してください。"
 			},
 			"displayName": {
 				"eng": "Territory Control",
@@ -491,7 +491,7 @@
 		"thieving": {
 			"description": {
 				"eng": "Infiltrate fortified corporate facilities, hack systems, and pilfer cutting-edge tech & secrets, all to satisfy shadowy clients' demands.",
-				"trans": "強固な企業施設に潜入し、システムをハックし、最先端のテクノロジーや秘密を盗み出し、全ては謎のクライアントの要求を満たすために。"
+				"trans": "謎のクライアントから依頼を受けて強固な企業施設に潜入し、システムをハックして最先端のテクノロジーや機密情報を盗み出す。"
 			},
 			"displayName": {
 				"eng": "Thieving",
@@ -502,10 +502,10 @@
 	"backgroundTaskUpgradePopup": {
 		"description": {
 			"eng": "Upgrade your slots to increase the amount of background tasks you can run at the same time.",
-			"trans": "同時に実行できるバックグラウンドタスクの数を増やすために、スロットをアップグレードしてください。"
+			"trans": "同時に実行できるタスクの数を増やすために、スロットをアップグレードしてください。"
 		},
 		"eng": "Upgrade Slots",
-		"trans": "アップグレードスロット"
+		"trans": "スロットのアップグレード"
 	},
 	"backpack": {
 		"multiSelect": {
@@ -520,7 +520,7 @@
 	"backpackPage": {
 		"description": {
 			"eng": "Items collected in stronghold are stored in your backpack, if you died, the items in backpack will be used as deposit to revive you, you can buy back your items from the Clinic.",
-			"trans": "地城で集めたアイテムはバックパックに保存されます。もし死んだ場合、バックパックのアイテムはあなたを復活させるための預金として使用されます。クリニックからアイテムを買い戻すことができます。"
+			"trans": "要塞で集めたアイテムはバックパックに保存されます。死亡した場合はバックパックのアイテムはあなたを蘇生するための資金として失われますが、クリニックからアイテムを買い戻すこともできます。"
 		},
 		"multiSelect": {
 			"discard": {
@@ -539,7 +539,7 @@
 		"dailyFree": {
 			"name": {
 				"eng": "Daily Free Bundle",
-				"trans": "毎日無料の禮包"
+				"trans": "デイリー無料バンドル"
 			}
 		},
 		"itemUpgradeDeal": {
@@ -551,13 +551,13 @@
 		"mercenary": {
 			"name": {
 				"eng": "Mercenary Bundle",
-				"trans": "傭兵禮包"
+				"trans": "傭兵バンドル"
 			}
 		},
 		"newbie": {
 			"name": {
 				"eng": "Welcome Bundle",
-				"trans": "ウェルカムバンドル"
+				"trans": "歓迎バンドル"
 			}
 		}
 	},
@@ -585,7 +585,7 @@
 		"failedDestroyed": {
 			"description": {
 				"eng": "Item is broken during calibration, repair is possible.",
-				"trans": "キャリブレーション中にアイテムが壊れましたが、修理は可能です。"
+				"trans": "キャリブレーション中にアイテムが壊れましたが、修理可能です。"
 			},
 			"title": {
 				"eng": "Item broken",
@@ -604,7 +604,7 @@
 		},
 		"text2": {
 			"eng": "Rebooting to recovery mode...",
-			"trans": "リカバリーモードに再起動しています..."
+			"trans": "リカバリーモードで再起動しています..."
 		},
 		"text3": {
 			"eng": "Decrypting BIOS...",
@@ -627,7 +627,7 @@
 			},
 			"title": {
 				"eng": "Your name is \"${name}\"?",
-				"trans": "あなたの名前は\"${name}\"ですか？",
+				"trans": "あなたの名前は\"${name}\"でよろしいですか？",
 				"vars": []
 			}
 		},
@@ -674,17 +674,17 @@
 		"error": {
 			"clanIsFull": {
 				"eng": "this gang is current at max member capacity",
-				"trans": "このギャングは現在、最大のメンバー数に達しています。"
+				"trans": "このギャングは現在、最大メンバー数に達しています。"
 			}
 		},
 		"imageBlocked": {
 			"text": {
 				"eng": "We use Google Image AI to scan for potentially inappropriate images. this may be cause by the image containing lewd, gore, violence or other inappropriate content.",
-				"trans": "Google Image AIを使用して、ポテンシャルに不適切な画像をスキャンします。これは、画像にわいせつ、グロテスク、暴力、またはその他の不適切なコンテンツが含まれているためです。"
+				"trans": "我々はGoogle Image AIを使用して不適切な画像をスキャンします。これは猥褻、グロテスク、暴力、またはその他の不適切なコンテンツを防ぐためです。"
 			},
 			"title": {
 				"eng": "Selected image not allowed",
-				"trans": "選択した画像は許可されていません"
+				"trans": "選択した画像は使用できません"
 			}
 		},
 		"imageChanged": {
@@ -833,7 +833,7 @@
 			},
 			"kickPlayerConfirm": {
 				"eng": "Are you sure you want to kick this player from your gang?",
-				"trans": "あなたは本当にこのプレイヤーをギャングから追放しますか？"
+				"trans": "本当にこのプレイヤーをギャングから追放しますか？"
 			},
 			"trans": "プレイヤーをキックする",
 			"viewProfile": {
@@ -845,15 +845,15 @@
 	"collectedLoreNotes": {
 		"description": {
 			"eng": "You have collected ${collected} of ${total} lore notes.",
-			"trans": "あなたは${total}個の背景故事のうち、${collected}個を集めました。"
+			"trans": "あなたは${total}個のロールノートのうち、${collected}個を集めました。"
 		},
 		"noNotes": {
 			"eng": "You have not collected any lore notes yet.",
-			"trans": "まだ背景故事を収集していません。"
+			"trans": "まだロールノートを収集していません。"
 		},
 		"title": {
 			"eng": "Collected Lore Notes",
-			"trans": "収集した背景故事"
+			"trans": "収集したロールノート"
 		}
 	},
 	"combatLog": {
@@ -893,7 +893,7 @@
 		},
 		"clanExp": {
 			"eng": "+ ${amount} Gang EXP",
-			"trans": "+ ${amount} ギャングの経験値"
+			"trans": "+ ${amount} ギャング経験値"
 		},
 		"clanResource": {
 			"eng": "+ ${amount} Gang resource",
@@ -914,18 +914,18 @@
 		"connecting": {
 			"description1": {
 				"eng": "Server is under maintenance or unstable connection.",
-				"trans": "サーバーはメンテナンス中または接続が不安定です。"
+				"trans": "サーバーはメンテナンス中か、接続が不安定です。"
 			},
 			"description2": {
 				"eng": "In case of server maintenance, it usually will be done within a few minutes.",
-				"trans": "サーバーメンテナンスの場合、通常数分以内に完了します。"
+				"trans": "サーバーメンテナンスの場合は通常数分以内に完了します。"
 			}
 		},
 		"notLoggedIn": {
 			"reconnecting": {
 				"description": {
 					"eng": "No internet connection or server is under maintenance. Please try again later.",
-					"trans": "安定したネットワーク接続を確保してください。もしくは、サーバーがメンテナンス中である可能性があります。"
+					"trans": "安定したネットワーク接続を確保してください。もしくはサーバーメンテナンス中の可能性があります。"
 				},
 				"title": {
 					"eng": "Failed to connect to server.",
@@ -977,7 +977,7 @@
 		},
 		"psychosis": {
 			"eng": "+ ${amount} psychosis",
-			"trans": "+ ${amount} 網絡狂躁症"
+			"trans": "+ ${amount} サイコシス"
 		}
 	},
 	"coupon": {
@@ -993,7 +993,7 @@
 	"couponPage": {
 		"description": {
 			"eng": "Enter your gift code to get your reward.",
-			"trans": "ギフトコードを入力して、報酬を受け取ってください。"
+			"trans": "ギフトコードを入力して報酬を受け取ってください。"
 		},
 		"inputTitle": {
 			"eng": "Gift Code",
@@ -1020,7 +1020,7 @@
 		"confirmModal": {
 			"description": {
 				"eng": "Are you sure you want to create a gang with \\nthe name \"${name}\" and tag \"${tag}\"?",
-				"trans": "名前が\"${name}\"でタグが\"${tag}\"のギャングを作成してもよろしいですか？"
+				"trans": "名前が\"${name}\"でタグが\"${tag}\"のギャングを作成しますか？"
 			},
 			"title": {
 				"eng": "Create gang",
@@ -1035,12 +1035,12 @@
 		},
 		"description": {
 			"eng": "Create your own gang and invite your friends to join!",
-			"trans": "自分のギャングを作り、友達を招待して参加してください！"
+			"trans": "自分だけのギャングを作り、友達を招待しましょう！"
 		},
 		"fullJoinButton": {
 			"title": {
 				"eng": "Members full",
-				"trans": "メンバーの満員"
+				"trans": "メンバーは満員です"
 			}
 		},
 		"gangNameInput": {
@@ -1052,7 +1052,7 @@
 		"gangTagInput": {
 			"title": {
 				"eng": "Gang Tag",
-				"trans": "ギャングのタグ"
+				"trans": "ギャングタグ"
 			}
 		},
 		"joinButton": {
@@ -1080,7 +1080,7 @@
 			},
 			"remove": {
 				"eng": "Remove from crew",
-				"trans": "クルーから削除する"
+				"trans": "クルーから排除する"
 			}
 		},
 		"selectPopup": {
