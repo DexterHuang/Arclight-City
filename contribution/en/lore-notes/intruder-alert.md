@@ -1,3 +1,0 @@
-> You were deep inside the enemy gang stronghold, looking for anything useful when you stumbled upon an old terminal on the wall. Curiosity got the best of you and decided to have a look. As soon as you powered it up, a message flashed across the screen:
-> *HACKER ALERT! INTRUDER DETECTED.*
-> Your heart skipped a beat as you realized someone had been watching you. Quickly, you began scanning the system for any signs of surveillance or traps. After several tense minutes, you determined that the threat seemed to have passed. With renewed caution, you started exploring the files on the terminal...

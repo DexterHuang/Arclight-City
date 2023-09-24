@@ -1,6 +1,0 @@
->*Dr. Oriana's Voice Recorder*:
-----
-Hey everyone! It's Dr. Oriana again. I just finished another successful round of experiments today. Can you believe it? My latest creation is going to revolutionize the world of cybernetics! Well, maybe not *revolutionize*, but definitely shake things up a bit.
-So, without further ado, let me tell you about my newest baby – the "NeuroBoost". It's a tiny little chip that can be implanted directly onto the user's nervous system. Once activated, it enhances cognitive abilities beyond belief! You'll feel like your brain is on fire! But don't worry, it won't burn anything important... hopefully.
-Now, before anyone gets any ideas, let me clarify that this thing isn't meant for everyday use. It's still in its early stages of development, and we haven't figured out all the kinks yet. Plus, there are some pretty serious side effects that we're still trying to understand. So, unless you want to end up with split personalities or start seeing things that aren't really there, maybe hold off on getting one of these bad boys just yet.
-But hey, who am I kidding? We both know someone's gonna try it anyway. And when they do, please send them my way. I would love nothing more than to study the results firsthand. Until then, keep your fingers crossed for me and wish for continued success in my research endeavors! Bye now!

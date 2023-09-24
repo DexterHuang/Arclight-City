@@ -1,9 +1,0 @@
-> Date: 2085/9/23
-> Location: An abandoned warehouse in the Ghost District
-> Author: Dr. Olivia Chen
-> Purpose: To record my findings regarding the effects of prolonged exposure to VR environments on test subjects.
-> Backstory: I am a neuroscientist working for TaiXing Cybernetics, conducting top-secret research on enhancing human cognitive abilities using advanced technology. My team and I were given access to an abandoned warehouse in the Ghost District for our experiments.
-> Situation: We had been running tests on several volunteers for months now, subjecting them to extended periods of immersion in virtual reality simulations designed to stimulate various regions of the brain. Our aim was to observe any potential enhancements in memory retention, problem-solving skills, and decision-making capabilities.
-> Motivation: As a scientist driven by curiosity and the pursuit of knowledge, I am eager to push the boundaries of human potential. However, recent developments within my team have raised concerns about the ethical implications of our research.
-> Findings: Despite initial promising results, we have observed a disturbing trend among our test subjects. Prolonged exposure to these intense VR experiences appears to be causing severe mental instability in some individuals. Symptoms include hallucinations, paranoid delusions, and violent outbursts. Furthermore, upon removal from the simulated environment, these individuals exhibit difficulty readjusting to normal life, displaying signs of withdrawal similar to drug addiction.
-> Conclusion: While our findings may hold significant implications for future applications of VR technology, it is clear that further research must be conducted before any practical implementations can be considered safe. It is imperative that we proceed with caution and prioritize the wellbeing of both our subjects and society as a whole.

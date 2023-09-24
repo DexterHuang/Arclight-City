@@ -2,7 +2,7 @@
 
 Headline: **Church of Pachinko Cultists Arrested After Deadly Rampage**
 
-By: *Jane Smith*
+By: *Hana Li*
 
 In a shocking turn of events yesterday evening, members of the infamous Church of Pachinko were arrested after going on a deadly rampage near the Data Haven District. Eye witness accounts report seeing these individuals wielding modified pachinko machines as weapons against innocent civilians.
 
