@@ -1,3 +1,0 @@
-
----
-*Dr. Wei Chang*: Hey everyone! It's Dr. Wei Chang again. Today we're going to continue our research on the latest cyberware implant technology. Now, let me tell you about something really exciting that happened yesterday during our tests. We connected this new neural interface directly to Kipp's brain stem without any buffer or filter. Can you imagine how crazy that must have been? Well, apparently Kipp could because he started speaking fluent Mandarin Chinese! Like he had never stopped learning it. Of course, afterward, he couldn't remember why he knew it or how long he spoke it for. But man oh man, was it impressive! So yeah, progress is slow but steady in the lab right now. Stay tuned for more updates soon! Bye!
