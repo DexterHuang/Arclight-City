@@ -129,6 +129,32 @@
 			}
 		}
 	},
+	"abilityTag": {
+		"damageOverTime": {
+			"eng": "Damage Over Time",
+			"trans": "傷害隨時間推移"
+		},
+		"damageOverTimeDescription": {
+			"eng": "This ability will deal damage over time, this kind of ability usually has less damage than one-strike abilities, however, it deals more damage in total over time.",
+			"trans": "這個能力會隨著時間造成傷害，這種能力通常傷害比一次性能力低，但是總體而言隨著時間會造成更多傷害。"
+		},
+		"groupTarget": {
+			"eng": "Group Target",
+			"trans": "小組目標"
+		},
+		"groupTargetDescription": {
+			"eng": "This ability is multi-target and will target all alive allies, this kind of ability is usually weaker than single target abilities however, it would be more effective against multiple allies.",
+			"trans": "這個技能是多目標的，並且會鎖定所有在世的盟友，這種技能通常比單一目標技能弱，但對多個盟友會更有效。"
+		},
+		"singleTarget": {
+			"eng": "Single Target",
+			"trans": "單體"
+		},
+		"singleTargetDescription": {
+			"eng": "This ability is single target and will target yourself but not your allies.",
+			"trans": "這個技能是單一目標，並且會以你為目標，而不是你的盟友。"
+		}
+	},
 	"apartment": {
 		"apartment0": {
 			"displayName": {
@@ -192,8 +218,8 @@
 				"trans": "您沒有足夠的錢來租這間公寓。"
 			},
 			"success": {
-				"eng": "You have purchased the apartment.",
-				"trans": "您已經購買了公寓。"
+				"eng": "You have started the apartment rental.",
+				"trans": "您已開始出租公寓。"
 			}
 		},
 		"rental": {
@@ -1019,7 +1045,7 @@
 	"createGang": {
 		"confirmModal": {
 			"description": {
-				"eng": "Are you sure you want to create a gang with \\nthe name \"${name}\" and tag \"${tag}\"?",
+				"eng": "Are you sure you want to create a gang with \\nthe name \"${name}\"and tag \"${tag}\"?",
 				"trans": "您確定要建立名稱為\"${name}\"，標籤為\"${tag}\"的幫派嗎？"
 			},
 			"title": {
@@ -1595,8 +1621,8 @@
 		},
 		"leaveDungeonModal": {
 			"description": {
-				"eng": "Are you sure you want to quit the dungeon?",
-				"trans": "您確定要退出地城嗎？"
+				"eng": "Are you sure you want to leave the dungeon?\\nItems you collected will be moved to your inventory safely.",
+				"trans": "你確定要離開地城嗎？\\n你收集的物品將會被安全地移至你的倉庫。"
 			},
 			"title": {
 				"eng": "quit Dungeon",
@@ -1640,6 +1666,10 @@
 		"addEnemy": {
 			"eng": "Add Enemies",
 			"trans": "新增敵人"
+		},
+		"attack": {
+			"eng": "Attack",
+			"trans": "攻擊"
 		},
 		"removeEnemy": {
 			"eng": "Remove Enemy",
@@ -2067,9 +2097,17 @@
 		}
 	},
 	"hostilePlayerListPage": {
+		"arrest": {
+			"eng": "Attempt Arrest",
+			"trans": "拘捕"
+		},
 		"description": {
 			"eng": "Join the fight for justice in Arclight City! The ACPD calls upon vigilant citizens to aid in the pursuit of wanted criminals. Your city needs you! Bring in the fugitives, dead or alive, and earn substantial rewards. Together, we'll make Arclight City safer for all. 🌃👮‍♂️\\n#CitizenArrest #ACPDJustice",
 			"trans": "加入幻光之城為正義而戰吧！幻光警局呼籲警覺的市民協助追捕通緝犯。您的城市需要您！不論生死，將逃犯繩之以法將獲得豐厚的獎勵。讓我們一起打造更安全的幻光之城。🌃👮‍♂️\\n#市民逮捕 #幻光警局之義"
+		},
+		"expire": {
+			"eng": "expire date",
+			"trans": "有效日期"
 		},
 		"level": {
 			"eng": "Level",
@@ -2087,13 +2125,17 @@
 			"eng": "No criminals with active arrest warrant.",
 			"trans": "沒有逮捕令。"
 		},
-		"time": {
-			"eng": "Arrest warrant expire date",
-			"trans": "逮捕令到期日期"
-		},
 		"title": {
 			"eng": "Wanted Criminals",
 			"trans": "通緝犯"
+		},
+		"viewProfile": {
+			"eng": "View profile",
+			"trans": "查看個人資料"
+		},
+		"wantedLevel": {
+			"eng": "Wanted level",
+			"trans": "通緝等級"
 		}
 	},
 	"infoModal": {
@@ -3628,10 +3670,16 @@
 				"trans": "${senderName}寄給您一封郵件"
 			}
 		},
-		"pvpSuccess1": {
+		"pvpFailed1": {
 			"body": {
-				"eng": "${playerName} mugged you, you have lost ${currency}, this player has been added to your enemies list",
-				"trans": "${playerName}搶了您，您失去了${currency}，這個玩家已經被添加到您的敵人名單中"
+				"eng": "${playerName} tried to mug you but you won the fight",
+				"trans": "玩家${playerName} 企圖攻擊你，但你贏得了戰鬥"
+			}
+		},
+		"pvpFailed2": {
+			"body": {
+				"eng": "You tried to mug ${playerName} but you lost the fight, you lost ${amount} ${currencyName}",
+				"trans": "你試圖攻擊${playerName}，但你輸了，你損失了${amount} ${currencyName}"
 			}
 		}
 	},
@@ -3684,6 +3732,12 @@
 			"title": {
 				"eng": "Explore stronghold",
 				"trans": "探索地城"
+			}
+		},
+		"gangButton": {
+			"title": {
+				"eng": "Gang",
+				"trans": "幫派"
 			}
 		},
 		"inventoryButton": {
@@ -4299,6 +4353,14 @@
 			}
 		}
 	},
+	"minigame": {
+		"timingUnlock": {
+			"tip": {
+				"eng": "Activate all dots to unlock by clicking. The dots will rotate faster and faster.",
+				"trans": "點擊以激活所有點以解鎖。點會旋轉得越來越快。"
+			}
+		}
+	},
 	"misc": {
 		"blackMarketCurrencyName": {
 			"eng": "Netcoin",
@@ -4307,6 +4369,10 @@
 		"claim": {
 			"eng": "Claim",
 			"trans": "領取"
+		},
+		"claimed": {
+			"eng": "Claimed",
+			"trans": "已認領"
 		},
 		"craft": {
 			"eng": "craft",
@@ -4714,6 +4780,10 @@
 			}
 		},
 		"dungeonSeller": {
+			"npcName": {
+				"eng": "Shadow Merchant",
+				"trans": "暗影商人"
+			},
 			"shopName": {
 				"eng": "Shadow Merchant",
 				"trans": "暗影商人"
@@ -5085,8 +5155,8 @@
 			}
 		},
 		"tip": {
-			"eng": "Items you loot from strongholds will be stored here, will be lost if you die in stronghold. so remember to move them to your inventory.",
-			"trans": "您從地城搜刮到的物品將會存放在這裡，如果您在地城中死亡，這些物品將會遺失，所以記得將它們移動到您的倉庫中。"
+			"eng": "Items you loot from strongholds will be stored here. Contents in your backpack will be lost if you die in stronghold, so remember to move them to your inventory.",
+			"trans": "你在要塞中掠奪的物品將儲存在此。如果你在要塞中死亡，背包中的內容物將會遺失，所以記得將它們移至你的倉庫。"
 		}
 	},
 	"playerDetailsPage": {
@@ -5481,6 +5551,30 @@
 			"name": {
 				"eng": "Weekly",
 				"trans": "每週的"
+			}
+		}
+	},
+	"pvp": {
+		"mail": {
+			"citizenArrest1": {
+				"eng": "${playerName} have arrested you, you have lost ${currency}, this player has been added to your enemies list",
+				"trans": "${playerName}已逮捕你，你損失了${currency}，此玩家已被加入至你的敵人名單"
+			},
+			"citizenArrest2": {
+				"eng": "You have successfully arrested ${playerName}, the ACPD has rewarded you ${currency}",
+				"trans": "你已成功逮捕${playerName}，ACPD獎勵了你${currency}"
+			},
+			"mug1": {
+				"eng": "${playerName} mugged you, you have lost ${currency}, this player has been added to your enemies list",
+				"trans": "玩家${playerName} 搶劫了你，你損失了${currency}，此玩家已被加入至你的敵人名單"
+			},
+			"mug2": {
+				"eng": "You mugged ${playerName} and you won the fight, you gotten ${currency}",
+				"trans": "你痛宰了${playerName}，贏得了戰鬥，你得到了${currency}"
+			},
+			"successBounty": {
+				"eng": "You received bounty of ${money1} and ${money2} for eliminating ${targetPlayer}",
+				"trans": "你因消滅${targetPlayer}而獲得${money1}和${money2}的賞金"
 			}
 		}
 	},
@@ -5895,7 +5989,7 @@
 		},
 		"createCharacter": {
 			"nameAlreadyExists": {
-				"eng": "the name \"${name}\" is already taken",
+				"eng": "the name \"${name}\"is already taken",
 				"trans": "\"${name}\"這個名字已經被使用了",
 				"vars": []
 			},
@@ -6147,6 +6241,10 @@
 		"enableGangChatNotification": {
 			"eng": "Enable Gang Chat Notification",
 			"trans": "啟用幫派聊天通知"
+		},
+		"enablePowerSavingMode": {
+			"eng": "Enable Power Saving Mode",
+			"trans": "啟用省電模式"
 		},
 		"enableSoundEffect": {
 			"eng": "Enable sound effect",
@@ -6739,9 +6837,9 @@
 		}
 	},
 	"toggleMinigame": {
-		"description": {
-			"eng": "Unlock by toggling the switches in correct sequence",
-			"trans": "透過正確順序切換開關來解鎖"
+		"tip": {
+			"eng": "Toggle the switches in correct sequence to unlock",
+			"trans": "以正確的順序撥動開關以解鎖"
 		},
 		"title": {
 			"eng": "Sequential Unlock",
@@ -6861,6 +6959,10 @@
 		}
 	},
 	"travelToLocationModal": {
+		"alreadyAtLocation": {
+			"eng": "Already at location",
+			"trans": "已經在該地點"
+		},
 		"claimReward": {
 			"eng": "Claim reward",
 			"trans": "領取獎勵"
@@ -6887,6 +6989,14 @@
 		"attack": {
 			"eng": "Hold and release at correct timing to perform attacks.",
 			"trans": "按住並在正確的時機釋放以進行攻擊。"
+		},
+		"autoAttack": {
+			"eng": "Click here to toggle auto combat, which will allow you to attack enemies, use ability and heal automatically.",
+			"trans": "點擊這裡以切換自動戰鬥，這將使您能夠自動攻擊敵人、使用技能和自動治療。"
+		},
+		"backToMainPage": {
+			"eng": "You can always go back to main screen from here.",
+			"trans": "你可以隨時從這裡回到主畫面。"
 		},
 		"backgroundTask1": {
 			"eng": "You have a slot for AFK tasks, click here to view it.",
@@ -6944,6 +7054,10 @@
 			"eng": "Click here to assign healing items to quick slots.",
 			"trans": "點擊這裡將補藥分配到快速欄位。"
 		},
+		"leaveDungeon": {
+			"eng": "You can click here to leave the stronghold at any time.",
+			"trans": "你可以隨時點擊這裡離開地城。"
+		},
 		"localEnemy1": {
 			"eng": "Click here to scan for nearby enemies.",
 			"trans": "點擊這裡掃描附近的敵人。"
@@ -6972,6 +7086,10 @@
 			"eng": "Click here to view your quests.",
 			"trans": "點擊這裡查看您的任務。"
 		},
+		"travelToLevel2": {
+			"eng": "Click here to travel to the next area where enemies are stronger and give more exp.",
+			"trans": "按此前往下一個區域，那裡的敵人更強大，並提供更多經驗值。"
+		},
 		"upgradeItem": {
 			"eng": "Click here to upgrade your items.",
 			"trans": "點選這裡升級您的物品。"
@@ -6979,6 +7097,10 @@
 		"upgradeItemDetails": {
 			"eng": "Click here to upgrade this item.",
 			"trans": "點選此處升級此物品。"
+		},
+		"useSkill": {
+			"eng": "Click here to command your mercenary to use skill.",
+			"trans": "點擊以命令傭兵使用技能。"
 		}
 	},
 	"ui": {
@@ -7018,6 +7140,10 @@
 			"alreadyTriedEscape": {
 				"eng": "You already tried to escape in this turn!",
 				"trans": "您在這回合已經試過逃脫了！"
+			},
+			"autoAttackLevel": {
+				"eng": "You need to be level ${level} to use auto combat",
+				"trans": "自動戰鬥需要等級 ${level}"
 			},
 			"escape": {
 				"eng": "escape",
