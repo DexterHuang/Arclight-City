@@ -129,6 +129,48 @@
 			}
 		}
 	},
+	"abilityTag": {
+		"damageOverTime": {
+			"eng": "Damage Over Time",
+			"trans": "ダメージ継続時間"
+		},
+		"damageOverTimeDescription": {
+			"eng": "This ability will deal damage over time, this kind of ability usually has less damage than one-strike abilities, however, it deals more damage in total over time.",
+			"trans": "このアビリティは継続ダメージを与える、この種のバビリティは通常、一撃必殺のアビリティよりもダメージが少ないが、時間経過とともに合計ダメージ量が多くなる。"
+		},
+		"groupTargetAlly": {
+			"eng": "Group Target",
+			"trans": "グループターゲット"
+		},
+		"groupTargetAllyDescription": {
+			"eng": "This ability is multi-target and will target all alive allies, this kind of ability is usually weaker than single target abilities however, it would be more effective against multiple allies.",
+			"trans": "このアビリティは範囲攻撃で、生存しているすべて味方を対象とします。この種のバビリティは、通常、単体攻撃のアビリティよりも弱くなりますが、複数のアライに対してはより効果的です。"
+		},
+		"groupTargetEnemy": {
+			"eng": "Group Target",
+			"trans": "グループターゲット"
+		},
+		"groupTargetEnemyDescription": {
+			"eng": "This ability is multi-target and will target all alive enemies, this kind of ability is usually weaker than single target abilities however, it would be more effective against multiple enemies.",
+			"trans": "このアビリティは範囲攻撃で、生きている敵をすべて対象とします。この種の攻撃は、通常、単体攻撃よりも弱くなりますが、複数の敵に対してはより効果的です。"
+		},
+		"singleTargetAlly": {
+			"eng": "Single Target",
+			"trans": "シングルターゲット"
+		},
+		"singleTargetAllyDescription": {
+			"eng": "This ability is single target and will target yourself but not your allies.",
+			"trans": "このアビリティは単体対象で、自分自身を対象としますが、味方は対象としません。"
+		},
+		"singleTargetEnemy": {
+			"eng": "Single Target",
+			"trans": "シングルターゲット"
+		},
+		"singleTargetEnemyDescription": {
+			"eng": "This ability is single target and will target one enemy, this kind of ability is usually stronger than multi-target abilities however, it would be less effective against multiple enemies.",
+			"trans": "このアビリティは単体攻撃で、敵1体を対象とします。この種の攻撃は通常、範囲攻撃よりも強力ですが、複数の敵に対しては効果が低くなります。"
+		}
+	},
 	"apartment": {
 		"apartment0": {
 			"displayName": {
@@ -192,8 +234,8 @@
 				"trans": "このアパートを借りるのに十分なお金がありません。"
 			},
 			"success": {
-				"eng": "You have purchased the apartment.",
-				"trans": "アパートを購入しました。"
+				"eng": "You have started the apartment rental.",
+				"trans": "アパートの賃貸を開始しました。"
 			}
 		},
 		"rental": {
@@ -1595,8 +1637,8 @@
 		},
 		"leaveDungeonModal": {
 			"description": {
-				"eng": "Are you sure you want to quit the dungeon?",
-				"trans": "地城を終了してよろしいですか？"
+				"eng": "Are you sure you want to leave the dungeon?\\nItems you collected will be moved to your inventory safely.",
+				"trans": "ダンジョンから出てもよろしいですか？\n\n集めたアイテムはインベントリに移動されます。"
 			},
 			"title": {
 				"eng": "quit Dungeon",
@@ -1640,6 +1682,10 @@
 		"addEnemy": {
 			"eng": "Add Enemies",
 			"trans": "敵を追加する"
+		},
+		"attack": {
+			"eng": "Attack",
+			"trans": "攻撃"
 		},
 		"removeEnemy": {
 			"eng": "Remove Enemy",
@@ -2067,9 +2113,17 @@
 		}
 	},
 	"hostilePlayerListPage": {
+		"arrest": {
+			"eng": "Attempt Arrest",
+			"trans": "逮捕を試みる"
+		},
 		"description": {
 			"eng": "Join the fight for justice in Arclight City! The ACPD calls upon vigilant citizens to aid in the pursuit of wanted criminals. Your city needs you! Bring in the fugitives, dead or alive, and earn substantial rewards. Together, we'll make Arclight City safer for all. 🌃👮‍♂️\\n#CitizenArrest #ACPDJustice",
 			"trans": "アークライトシティで正義の戦いに参加しましょう！ACPDは警戒心のある市民に、逃亡犯の追跡を手助けするよう呼びかけています。あなたの街はあなたの力を必要としています！逃亡犯を生け捕りにして報酬を得ましょう。一緒に、アークライトシティをより安全な場所にしましょう。🌃👮‍♂️\\n#市民の逮捕 #ACPDの正義"
+		},
+		"expire": {
+			"eng": "expire date",
+			"trans": "有効期限"
 		},
 		"level": {
 			"eng": "Level",
@@ -2087,13 +2141,17 @@
 			"eng": "No criminals with active arrest warrant.",
 			"trans": "アクティブな逮捕状を持つ犯罪者はいません。"
 		},
-		"time": {
-			"eng": "Arrest warrant expire date",
-			"trans": "逮捕状の有効期限"
-		},
 		"title": {
 			"eng": "Wanted Criminals",
 			"trans": "指名手配犯"
+		},
+		"viewProfile": {
+			"eng": "View profile",
+			"trans": "プロフィールを見る"
+		},
+		"wantedLevel": {
+			"eng": "Wanted level",
+			"trans": "手配度"
 		}
 	},
 	"infoModal": {
@@ -3628,10 +3686,16 @@
 				"trans": "${senderName}からメールが届きました。"
 			}
 		},
-		"pvpSuccess1": {
+		"pvpFailed1": {
 			"body": {
-				"eng": "${playerName} mugged you, you have lost ${currency}, this player has been added to your enemies list",
-				"trans": "${playerName}に襲われ、${currency}を失いました。このプレイヤーは敵リストに追加されました。"
+				"eng": "${playerName} tried to mug you but you won the fight",
+				"trans": "プレイヤー${playerName}はあなたを襲おうとしたが、返り討ちにした。"
+			}
+		},
+		"pvpFailed2": {
+			"body": {
+				"eng": "You tried to mug ${playerName} but you lost the fight, you lost ${amount} ${currencyName}",
+				"trans": "プレイヤー${playerName}を襲おうとしたが返り討ちに遭い、${amount} ${currencyName}を失った"
 			}
 		}
 	},
@@ -3684,6 +3748,12 @@
 			"title": {
 				"eng": "Explore stronghold",
 				"trans": "地城を探索する"
+			}
+		},
+		"gangButton": {
+			"title": {
+				"eng": "Gang",
+				"trans": "ギャング"
 			}
 		},
 		"inventoryButton": {
@@ -4299,6 +4369,14 @@
 			}
 		}
 	},
+	"minigame": {
+		"timingUnlock": {
+			"tip": {
+				"eng": "Activate all dots to unlock by clicking. The dots will rotate faster and faster.",
+				"trans": "すべてのアクティブなドットをクリックしてロックを解除します。ドットの回転速度はどんどん速くなります。"
+			}
+		}
+	},
 	"misc": {
 		"blackMarketCurrencyName": {
 			"eng": "Netcoin",
@@ -4307,6 +4385,10 @@
 		"claim": {
 			"eng": "Claim",
 			"trans": "クレーム"
+		},
+		"claimed": {
+			"eng": "Claimed",
+			"trans": "受け取り済み"
 		},
 		"craft": {
 			"eng": "craft",
@@ -4714,6 +4796,10 @@
 			}
 		},
 		"dungeonSeller": {
+			"npcName": {
+				"eng": "Shadow Merchant",
+				"trans": "地下商人"
+			},
 			"shopName": {
 				"eng": "Shadow Merchant",
 				"trans": "シャドウマーチャント"
@@ -5085,8 +5171,8 @@
 			}
 		},
 		"tip": {
-			"eng": "Items you loot from strongholds will be stored here, will be lost if you die in stronghold. so remember to move them to your inventory.",
-			"trans": "強固な要塞から略奪したアイテムはここに保存され、要塞内で死亡すると失われます。だから、インベントリに移動することを忘れないでください。"
+			"eng": "Items you loot from strongholds will be stored here. Contents in your backpack will be lost if you die in stronghold, so remember to move them to your inventory.",
+			"trans": "要塞で略奪したアイテムはここに保管されます。要塞で死亡した場合、バックパックの中身は失われるため、インベントリに移動させることを忘れないでください。"
 		}
 	},
 	"playerDetailsPage": {
@@ -5481,6 +5567,30 @@
 			"name": {
 				"eng": "Weekly",
 				"trans": "週間の"
+			}
+		}
+	},
+	"pvp": {
+		"mail": {
+			"citizenArrest1": {
+				"eng": "${playerName} have arrested you, you have lost ${currency}, this player has been added to your enemies list",
+				"trans": "プレイヤー${playerName}に逮捕されました。${currency}を失いました。このプレイヤーはあなたの敵対リストに追加されました。"
+			},
+			"citizenArrest2": {
+				"eng": "You have successfully arrested ${playerName}, the ACPD has rewarded you ${currency}",
+				"trans": "プレイヤー${playerName}を逮捕することに成功しました。ACPDから${currency}の報酬を獲得しました。"
+			},
+			"mug1": {
+				"eng": "${playerName} mugged you, you have lost ${currency}, this player has been added to your enemies list",
+				"trans": "プレイヤー${playerName}に襲われ、${currency}を失いました。このプレイヤーはあなたの敵対リストに追加されました。"
+			},
+			"mug2": {
+				"eng": "You mugged ${playerName} and you won the fight, you gotten ${currency}",
+				"trans": "プレイヤー${playerName}を襲って勝利した。${currency}を獲得した。"
+			},
+			"successBounty": {
+				"eng": "You received bounty of ${money1} and ${money2} for eliminating ${targetPlayer}",
+				"trans": "ターゲットプレイヤーを排除したことにより、${money1}と${money2}のバウンティを獲得"
 			}
 		}
 	},
@@ -6148,6 +6258,10 @@
 			"eng": "Enable Gang Chat Notification",
 			"trans": "ギャングチャットの通知を有効にする"
 		},
+		"enablePowerSavingMode": {
+			"eng": "Enable Power Saving Mode",
+			"trans": "電力節約モードを有効にする"
+		},
 		"enableSoundEffect": {
 			"eng": "Enable sound effect",
 			"trans": "効果音を有効にする"
@@ -6739,9 +6853,9 @@
 		}
 	},
 	"toggleMinigame": {
-		"description": {
-			"eng": "Unlock by toggling the switches in correct sequence",
-			"trans": "正しい順序でスイッチを切り替えて解除してください。"
+		"tip": {
+			"eng": "Toggle the switches in correct sequence to unlock",
+			"trans": "スイッチを正しい順番に切り替えてロックを解除"
 		},
 		"title": {
 			"eng": "Sequential Unlock",
@@ -6861,6 +6975,10 @@
 		}
 	},
 	"travelToLocationModal": {
+		"alreadyAtLocation": {
+			"eng": "Already at location",
+			"trans": "既にその場所にいる"
+		},
 		"claimReward": {
 			"eng": "Claim reward",
 			"trans": "報酬を受け取る"
@@ -6887,6 +7005,14 @@
 		"attack": {
 			"eng": "Hold and release at correct timing to perform attacks.",
 			"trans": "適切なタイミングでホールドしてリリースして攻撃を行います。"
+		},
+		"autoAttack": {
+			"eng": "Click here to toggle auto combat, which will allow you to attack enemies, use ability and heal automatically.",
+			"trans": "自動戦闘を切り替えるにはここをクリックしてください。これにより、敵を攻撃したり、アビリティを使用したり、自動的に回復したりすることができます。"
+		},
+		"backToMainPage": {
+			"eng": "You can always go back to main screen from here.",
+			"trans": "ここからいつでもメイン画面に戻ることができます。"
 		},
 		"backgroundTask1": {
 			"eng": "You have a slot for AFK tasks, click here to view it.",
@@ -6944,6 +7070,10 @@
 			"eng": "Click here to assign healing items to quick slots.",
 			"trans": "ここをクリックして、回復アイテムをクイックスロットに割り当てます。"
 		},
+		"leaveDungeon": {
+			"eng": "You can click here to leave the stronghold at any time.",
+			"trans": "いつでもここをクリックして要塞から出ることができます。"
+		},
 		"localEnemy1": {
 			"eng": "Click here to scan for nearby enemies.",
 			"trans": "近くの敵をスキャンするにはここをクリックしてください。"
@@ -6972,6 +7102,10 @@
 			"eng": "Click here to view your quests.",
 			"trans": "クエストを表示するにはここをクリックしてください。"
 		},
+		"travelToLevel2": {
+			"eng": "Click here to travel to the next area where enemies are stronger and give more exp.",
+			"trans": "敵が強くてより多くの経験値が得られる次のエリアに移動するにはここをクリックしてください。"
+		},
 		"upgradeItem": {
 			"eng": "Click here to upgrade your items.",
 			"trans": "アイテムをアップグレードするにはここをクリックしてください。"
@@ -6979,6 +7113,10 @@
 		"upgradeItemDetails": {
 			"eng": "Click here to upgrade this item.",
 			"trans": "このアイテムをアップグレードするにはここをクリックしてください。"
+		},
+		"useSkill": {
+			"eng": "Click here to command your mercenary to use skill.",
+			"trans": "傭兵にスキルを発動させるにはここをクリックしてください。"
 		}
 	},
 	"ui": {
@@ -7018,6 +7156,10 @@
 			"alreadyTriedEscape": {
 				"eng": "You already tried to escape in this turn!",
 				"trans": "このターンで既に逃げようとしました！"
+			},
+			"autoAttackLevel": {
+				"eng": "You need to be level ${level} to use auto combat",
+				"trans": "自動戦闘するにはレベル${level}が必要です"
 			},
 			"escape": {
 				"eng": "escape",
