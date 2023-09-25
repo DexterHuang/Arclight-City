@@ -7,7 +7,6 @@
 
 **Luka Stewart**: "Oh no, please don't let this be another nightmare..."
 
----
 *He takes a deep breath before continuing.*
 
 **Luka Stewart**: "My name is Luka Stewart, and today marks the day that everything changed. It started with a simple job, just stealing data from a rival gang's hideout. But little did I know, it would lead me down a path of no return."
