@@ -3,7 +3,7 @@
 		"ELITE": {
 			"description": {
 				"eng": "More experienced pro mercs hang out here",
-				"trans": "더 경험이 많은 프로 용병들이 이곳에서 모이고 있습니다"
+				"trans": "경험이 풍부한 프로 용병들이 이곳에 모입니다."
 			},
 			"title": {
 				"eng": "Inner tables",
@@ -13,7 +13,7 @@
 		"NORMAL": {
 			"description": {
 				"eng": "Usually amateur mercs hang out here",
-				"trans": "보통 아마추어 용병들이 여기서 모이곤 합니다"
+				"trans": "평범한 아마추어 용병들이 이곳에 모입니다."
 			},
 			"title": {
 				"eng": "Bar table",
@@ -23,7 +23,7 @@
 		"RARE": {
 			"description": {
 				"eng": "Professional mercs likes discuss about their gig here",
-				"trans": "전문 용병들은 여기서 자신들의 계약에 대해 이야기하길 좋아합니다"
+				"trans": "전문 용병들은 이곳에서 자신들의 계약에 대해 논의하길 좋아합니다"
 			},
 			"title": {
 				"eng": "Sofa tables",
@@ -51,17 +51,17 @@
 		"burn": {
 			"description": {
 				"eng": "Burns targeted enemy for ${amount} damage for ${turns} turns",
-				"trans": "${amount}의 데미지로 대상 적을 ${turns}턴 동안 태우기"
+				"trans": "적을 ${amount}의 데미지로 ${turns}턴 동안 태우기"
 			},
 			"triggered": {
 				"eng": "${merc} burns ${enemy}, ${enemy} received ${damage} damage.",
-				"trans": "${merc}가 ${enemy}를 불태웠습니다, ${enemy}는 ${damage}의 피해를 입었습니다."
+				"trans": "${merc}이(가) ${enemy}를 불태웠습니다, ${enemy}은(는) ${damage}의 피해를 입었습니다."
 			}
 		},
 		"burnGroup": {
 			"description": {
 				"eng": "Burns all enemies for ${amount} damage for ${turns} turns",
-				"trans": "${amount}의 데미지로 모든 적을 ${turns}턴 동안 태웁니다"
+				"trans": "모든 적을 ${amount}의 데미지로 ${turns}턴 동안 태웁니다"
 			},
 			"triggered": {
 				"eng": "${merc} burns all enemies, dealt ${damage} damage each",
@@ -71,21 +71,21 @@
 		"heal": {
 			"description": {
 				"eng": "Heals your character for ${amount} points",
-				"trans": "캐릭터를 ${amount} 포인트만큼 회복시킵니다"
+				"trans": "캐릭터를 ${amount}회복시킵니다"
 			},
 			"triggered": {
 				"eng": "${merc} Healed ${playerName} for ${amount} health",
-				"trans": "${merc}은(는) ${playerName}의 체력을 ${amount} 회복했습니다"
+				"trans": "${merc}은(는) ${playerName}의 체력을 ${amount}회복했습니다"
 			}
 		},
 		"healGroup": {
 			"description": {
 				"eng": "Heals your team for ${amount} health",
-				"trans": "${amount}의 체력을 회복하는 팀 치유"
+				"trans": "팀을 ${amount}회복시킵니다"
 			},
 			"triggered": {
 				"eng": "${merc} healed the team for ${amount} health",
-				"trans": "${merc}이(가) 팀을 ${amount} 체력으로 회복했습니다"
+				"trans": "${merc}이(가) 팀의 체력을 ${amount}회복했습니다"
 			}
 		},
 		"poison": {
@@ -95,13 +95,13 @@
 			},
 			"triggered": {
 				"eng": "${merc} poisoned ${enemy}, ${enemy} received ${damage} damage.",
-				"trans": "${merc}가 ${enemy}에게 독을 살포하여 ${enemy}은(는) ${damage}의 피해를 입었습니다."
+				"trans": "${merc}이(가) ${enemy}에게 독을 퍼뜨려, ${enemy}은(는) ${damage}의 피해를 입었습니다."
 			}
 		},
 		"poisonGroup": {
 			"description": {
 				"eng": "Poisons all enemies for ${amount}",
-				"trans": "모든 적에게 ${amount}의 독을 가합니다"
+				"trans": "모든 적을 ${amount}만큼 중독시킵니다"
 			},
 			"triggered": {
 				"eng": "${merc} poisoned all enemies, dealt ${damage} damage each.",
@@ -111,17 +111,17 @@
 		"shield": {
 			"description": {
 				"eng": "Recharge your character's shield for ${amount}",
-				"trans": "캐릭터의 방어막을 ${amount}만큼 충전하세요"
+				"trans": "캐릭터의 방어막을 ${amount}충전합니다"
 			},
 			"triggered": {
 				"eng": "${merc} shielded ${playerName} for ${amount} health",
-				"trans": "${merc}가 ${playerName}의 체력을 ${amount}만큼 보호했습니다"
+				"trans": "${merc}가 ${playerName}를 ${amount}만큼 보호했습니다"
 			}
 		},
 		"shieldGroup": {
 			"description": {
 				"eng": "Shields your team for ${amount} health",
-				"trans": "${amount}의 체력을 팀에게 보호합니다"
+				"trans": "팀의 방어막을 ${amount}충전합니다"
 			},
 			"triggered": {
 				"eng": "${merc} shields the team for ${amount}",
@@ -136,7 +136,7 @@
 		},
 		"damageOverTimeDescription": {
 			"eng": "This ability will deal damage over time, this kind of ability usually has less damage than one-strike abilities, however, it deals more damage in total over time.",
-			"trans": "이 능력은 시간이 지남에 따라 피해를 입힙니다. 이러한 종류의 능력은 일격 능력보다 피해량이 적지만, 시간이 지남에 따라 총 피해량이 더 많이 입힙니다."
+			"trans": "이 능력은 시간이 지남에 따라 피해를 줍니다. 이러한 종류의 능력은 일격 능력보다 공격력이 낮지만, 시간이 지남에 따라 더 많은 양의 피해를 줍니다."
 		},
 		"groupTargetAlly": {
 			"eng": "Group Target",
@@ -144,7 +144,7 @@
 		},
 		"groupTargetAllyDescription": {
 			"eng": "This ability is multi-target and will target all alive allies, this kind of ability is usually weaker than single target abilities however, it would be more effective against multiple allies.",
-			"trans": "이 능력은 다중 대상을 대상으로 하며, 모든 생존한 아군을 대상으로 합니다. 이러한 종류의 능력은 일반적으로 단일 대상 능력보다는 약하지만, 여러 아군에 대해서는 더 효과적일 수 있습니다."
+			"trans": "이 능력은 다중 대상으로, 생존해 있는 모든 아군을 대상으로 합니다. 이러한 종류의 능력은 일반적으로 단일 대상 능력보다는 약하지만, 여러 아군에 대해서는 더 효과적일 것입니다."
 		},
 		"groupTargetEnemy": {
 			"eng": "Group Target",
@@ -152,7 +152,7 @@
 		},
 		"groupTargetEnemyDescription": {
 			"eng": "This ability is multi-target and will target all alive enemies, this kind of ability is usually weaker than single target abilities however, it would be more effective against multiple enemies.",
-			"trans": "이 능력은 다중 대상을 대상으로 하며, 모든 적을 대상으로 합니다. 이러한 종류의 능력은 일반적으로 단일 대상 능력보다는 약하지만, 여러 적에게는 더 효과적일 수 있습니다."
+			"trans": "이 능력은 다중 대상으로, 생존해 있는 모든 적을 대상으로 합니다. 이러한 종류의 능력은 일반적으로 단일 대상 능력보다는 약하지만, 여러 적에게는 더 효과적일 것입니다."
 		},
 		"singleTargetAlly": {
 			"eng": "Single Target",
@@ -160,7 +160,7 @@
 		},
 		"singleTargetAllyDescription": {
 			"eng": "This ability is single target and will target yourself but not your allies.",
-			"trans": "이 능력은 단일 대상을 대상으로 하며, 당신 자신을 대상으로 하지만 아군을 대상으로 하지는 않습니다."
+			"trans": "이 능력은 단일 대상으로, 당신 자신을 대상으로 하지만 아군을 대상으로 하지는 않습니다."
 		},
 		"singleTargetEnemy": {
 			"eng": "Single Target",
@@ -168,7 +168,7 @@
 		},
 		"singleTargetEnemyDescription": {
 			"eng": "This ability is single target and will target one enemy, this kind of ability is usually stronger than multi-target abilities however, it would be less effective against multiple enemies.",
-			"trans": "이 능력은 단일 대상을 대상으로 하며, 이러한 종류의 능력은 일반적으로 다중 대상 능력보다 강력하지만, 여러 적에 대해서는 효과가 떨어질 수 있습니다."
+			"trans": "이 능력은 단일 대상으로, 이러한 종류의 능력은 일반적으로 다중 대상 능력보다 강력하지만, 여러 적에 대해서는 효과가 떨어질 수 있습니다."
 		}
 	},
 	"apartment": {
@@ -187,13 +187,13 @@
 		"apartment2": {
 			"displayName": {
 				"eng": "Budget Studio",
-				"trans": "예산 스튜디오"
+				"trans": "공동 주택"
 			}
 		},
 		"apartment3": {
 			"displayName": {
 				"eng": "Downtown Apartment",
-				"trans": "도심 아파트"
+				"trans": "중심가 아파트"
 			}
 		},
 		"enter": {
@@ -216,7 +216,7 @@
 		},
 		"kick": {
 			"eng": "${kicker} has removed you from apartment",
-			"trans": "${kicker}님이 아파트에서 당신을 제거했습니다"
+			"trans": "${kicker}님이 아파트에서 당신을 추방했습니다"
 		},
 		"noApartment": {
 			"displayName": {
@@ -242,7 +242,7 @@
 			"paid": {
 				"title": {
 					"eng": "Apartment rental fee ${amount} has been deducted from your account",
-					"trans": "아파트 임대료 ${amount}이(가) 당신의 계좌에서 차감되었습니다"
+					"trans": "아파트 임대료가 ${amount}만큼 당신의 계좌에서 차감되었습니다"
 				}
 			}
 		}
@@ -336,11 +336,11 @@
 		},
 		"block": {
 			"eng": "block",
-			"trans": "차단"
+			"trans": "방해"
 		},
 		"failArea": {
 			"eng": "Fail area",
-			"trans": "실패 지역"
+			"trans": "실패 구역"
 		},
 		"headshot": {
 			"eng": "headshot",
@@ -348,7 +348,7 @@
 		},
 		"instruction": {
 			"eng": "hold and release to attack",
-			"trans": "공격하려면 누르고 놓으세요"
+			"trans": "누르다가 놓아서 공격"
 		}
 	},
 	"attribute": {
@@ -473,21 +473,21 @@
 		"abandonedCity": {
 			"description": {
 				"eng": "Mirai; Once a picturesque tourist haven, it now stands abandoned, ravaged by soaring crime rates and leaked radiation. In this desolate landscape, only a handful of desperate junkies and ruthless mercenaries remain, scavenging for whatever loot they can find amidst the ruins.",
-				"trans": "미라이; 한때는 아름다운 관광지였지만, 이제는 범죄율이 급증하고 유출된 방사능으로 인해 버려진 상태입니다. 이 황량한 풍경에서는 절박한 중독자들과 무자비한 용병들만이 남아서 폐허 속에서 찾을 수 있는 어떤 전리품이라도 노리고 있습니다."
+				"trans": "미라이. 한 때는 그림같이 아름다운 관광객들의 천국이었지만, 이제는 버려진 채로 치솟는 범죄와 유츨된 방사능으로 인해 황폐화 되었습니다. 이 황량한 풍경 속에서 소수의 무모한 마약 중독자들과 냉혹한 용병들만이 폐허 속에서 찾을 수 있는 모든 전리품을 뒤지고 있습니다."
 			},
 			"displayName": {
 				"eng": "Mirai District",
-				"trans": "미래 지구"
+				"trans": "미라이 지구"
 			}
 		},
 		"bodyguard": {
 			"description": {
 				"eng": "Safeguard high-profile clients, engage in high-octane combat, and use advanced tech to ensure protection amidst urban dystopia.",
-				"trans": "고위 프로필 고객을 보호하고 고강도 전투에 참여하며 고도의 기술을 사용하여 도시의 디스토피아에서 보호를 확실히 합니다."
+				"trans": "고위계층인 고객을 보호하고, 고강도 교전에 참여하며, 디스토피아인 도시 속에서 첨단 기술을 통한 보호를 보장합니다."
 			},
 			"displayName": {
 				"eng": "Bodyguard",
-				"trans": "보디가드"
+				"trans": "경호"
 			}
 		},
 		"clanMaintenance": {
@@ -503,37 +503,37 @@
 		"hospital": {
 			"description": {
 				"eng": "Work as a part-time extraction force for Trauma Team, with the only goal of extracting ensured client from lethal situations. ",
-				"trans": "트라우마 팀의 파트타임 익스트랙션 포스로 일하며, 유일한 목표는 치명적인 상황에서 확실한 고객을 추출하는 것입니다"
+				"trans": "트라우마 팀의 파트타임 익스트랙션 포스로 일하며, 죽을 위기의 상황에서 고객을 구출하는 것이 유일한 목표입니다."
 			},
 			"displayName": {
 				"eng": "Extraction Mission",
-				"trans": "추출 임무"
+				"trans": "구출 임무"
 			}
 		},
 		"scavenge": {
 			"description": {
 				"eng": "Navigate hazardous junkyards, uncover hidden treasures, and salvage valuable tech",
-				"trans": "위험한 고철장을 탐험하고 숨겨진 보물을 발견하며 귀중한 기술을 회수하세요"
+				"trans": "위험한 폐기장을 탐색해서 숨겨진 보물을 발견하고 귀중한 기술을 회수하세요"
 			},
 			"displayName": {
 				"eng": "Scavenge Mission",
-				"trans": "약탈 미션"
+				"trans": "탐색 미션"
 			}
 		},
 		"territory": {
 			"description": {
 				"eng": "Contribute to territory control for your gang",
-				"trans": "당신의 갱을 위한 영토 통제에 기여하세요"
+				"trans": "당신의 갱을 위해 영역 통제에 기여하세요"
 			},
 			"displayName": {
 				"eng": "Territory Control",
-				"trans": "영토 통제"
+				"trans": "영역 통제"
 			}
 		},
 		"thieving": {
 			"description": {
 				"eng": "Infiltrate fortified corporate facilities, hack systems, and pilfer cutting-edge tech & secrets, all to satisfy shadowy clients' demands.",
-				"trans": "강화된 기업 시설에 침투하고 시스템을 해킹하며 최첨단 기술과 비밀을 훔쳐내어 음산한 고객들의 요구를 충족시키세요."
+				"trans": "요새화된 기업의 시설에 침투하여 시스템을 해킹하고 최첨단 기술과 비밀을 훔쳐내 음습한 고객들의 요구를 만족시키세요."
 			},
 			"displayName": {
 				"eng": "Thieving",
@@ -547,7 +547,7 @@
 			"trans": "동시에 실행할 수 있는 백그라운드 작업의 양을 늘리려면 슬롯을 업그레이드하세요."
 		},
 		"eng": "Upgrade Slots",
-		"trans": "업그레이드 슬롯"
+		"trans": "슬롯 업그레이드"
 	},
 	"backpack": {
 		"multiSelect": {
@@ -562,7 +562,7 @@
 	"backpackPage": {
 		"description": {
 			"eng": "Items collected in stronghold are stored in your backpack, if you died, the items in backpack will be used as deposit to revive you, you can buy back your items from the Clinic.",
-			"trans": "소굴에서 수집한 아이템은 배낭에 저장되며, 만약 사망하게 된다면 배낭에 있는 아이템이 보증금으로 사용되어 부활할 수 있습니다. 클리닉에서 아이템을 다시 구매할 수 있습니다."
+			"trans": "소굴에서 수집한 아이템은 배낭에 저장되며, 만약 사망하게 된다면 배낭에 있는 아이템들은 당신을 되살리기 위한 보증금으로 사용될 것입니다. 당신은 클리닉에서 그 아이템들을 다시 구매할 수 있습니다."
 		},
 		"multiSelect": {
 			"discard": {
@@ -581,7 +581,7 @@
 		"dailyFree": {
 			"name": {
 				"eng": "Daily Free Bundle",
-				"trans": "매일 무료 번들"
+				"trans": "일일 무료 번들"
 			}
 		},
 		"itemUpgradeDeal": {
@@ -722,7 +722,7 @@
 		"imageBlocked": {
 			"text": {
 				"eng": "We use Google Image AI to scan for potentially inappropriate images. this may be cause by the image containing lewd, gore, violence or other inappropriate content.",
-				"trans": "우리는 Google 이미지 AI를 사용하여 음란, 고어, 폭력 또는 다른 부적절한 내용이 포함된 이미지를 스캔합니다."
+				"trans": "우리는 Google 이미지 AI를 사용하여 부적절한 내용이 포함된 이미지를 스캔합니다. 이는 이미지에 음란, 고어, 폭력 또는 기타 부적절한 내용이 포함되어 있을 수 있기 때문입니다."
 			},
 			"title": {
 				"eng": "Selected image not allowed",
@@ -781,7 +781,7 @@
 		},
 		"joinButton": {
 			"eng": "Join",
-			"trans": "참여하기"
+			"trans": "가입하기"
 		},
 		"leaveClan": {
 			"eng": "leave gang",
@@ -789,11 +789,11 @@
 		},
 		"makePrivate": {
 			"eng": "Make Private",
-			"trans": "비공개 설정"
+			"trans": "비공개로 설정"
 		},
 		"makePublic": {
 			"eng": "Make Public",
-			"trans": "공개하기"
+			"trans": "공개로 설정"
 		},
 		"mottoModal": {
 			"description": {
@@ -807,7 +807,7 @@
 		},
 		"nextUpkeepDate": {
 			"eng": "Next upkeep date: ${date} (${formatted})",
-			"trans": "다음 유지 보수 날짜: ${date} (${formatted})"
+			"trans": "다음 유지보수 날짜: ${date} (${formatted})"
 		},
 		"noMotto": {
 			"eng": "There is no motto set for this gang yet",
@@ -815,11 +815,11 @@
 		},
 		"playerListButton": {
 			"eng": "Member List",
-			"trans": "멤버 목록"
+			"trans": "갱원 목록"
 		},
 		"requestToJoinButton": {
 			"eng": "Request to join",
-			"trans": "참가 요청"
+			"trans": "가입 신청"
 		},
 		"resources": {
 			"eng": "Resources",
@@ -831,11 +831,11 @@
 		},
 		"upkeepTip": {
 			"eng": "Ensure there is enough resources and funds to avoid losing the gang on the next upkeep date.",
-			"trans": "다음 유지 기간에 갱을 잃지 않도록 충분한 자원과 자금이 확보되도록 해주세요."
+			"trans": "다음 유지보수 날에 갱을 잃지 않도록 충분한 자원과 자금을 확보해야 합니다."
 		},
 		"upkeepTipTitle": {
 			"eng": "Insufficient Upkeep Resources",
-			"trans": "자원 부족으로 유지 관리가 불가능합니다"
+			"trans": "유지보수 자원 부족"
 		}
 	},
 	"clanDisplay": {
@@ -901,19 +901,19 @@
 	"combatLog": {
 		"atk": {
 			"eng": "${attacker} has attacked ${enemyName} for ${damage} damage",
-			"trans": "${attacker}이(가) ${enemyName}을(를) ${damage}의 데미지로 공격했습니다"
+			"trans": "${attacker}이(가) ${enemyName}을(를) ${damage}데미지로 공격했습니다"
 		},
 		"blockFailed": {
 			"eng": "${player} tried to block damage from ${enemyName} but failed, received ${damage} damage",
-			"trans": "${player}은(는) ${enemyName}의 공격을 차단하려 했지만 실패하여 ${damage}의 피해를 입었습니다"
+			"trans": "${player}은(는) ${enemyName}의 공격을 방해하려 했지만 실패하여 ${damage}피해를 입었습니다"
 		},
 		"blockSuccess": {
 			"eng": "${player} blocked attack from ${enemyName}(${blockedPercent}%) received ${damage} damage",
-			"trans": "${player}은(는) ${enemyName}(${blockedPercent}%)의 공격을 차단하여 ${damage}의 피해를 입었습니다"
+			"trans": "${player}은(는) ${enemyName}의 공격을 ${blockedPercent}%방해하여 ${damage}피해를 입었습니다"
 		},
 		"chargedAttack": {
 			"eng": "${enemyName} attacked ${player} for ${damage} damage (charged)",
-			"trans": "${enemyName}이(가) ${player}을(를) 공격하여 ${damage}의 데미지를 입혔습니다 (충전됨)"
+			"trans": "${enemyName}이(가) ${player}을(를) 공격하여 ${damage}데미지를 입혔습니다 (차지공격)"
 		},
 		"charging": {
 			"eng": "${enemyName} is charging to attack ${player}",
@@ -921,17 +921,17 @@
 		},
 		"heal": {
 			"eng": "${enemyName} healed for ${healAmount} health",
-			"trans": "${enemyName}이(가) ${healAmount}의 체력을 회복했습니다"
+			"trans": "${enemyName}이(가) 체력을 ${healAmount}회복했습니다"
 		},
 		"normalAttack": {
 			"eng": "${enemyName} attacked ${player} for ${damage} damage",
-			"trans": "${enemyName}이(가) ${player}을(를) 공격하여 ${damage}의 데미지를 입혔습니다"
+			"trans": "${enemyName}이(가) ${player}을(를) 공격하여 ${damage}데미지를 입혔습니다"
 		}
 	},
 	"compactRewardConfigDisplay": {
 		"clanControl": {
 			"eng": "+ ${amount} control on territory",
-			"trans": "영토에 ${amount}의 통제력 추가"
+			"trans": "영역에 ${amount}통제력 추가"
 		},
 		"clanExp": {
 			"eng": "+ ${amount} Gang EXP",
@@ -939,7 +939,7 @@
 		},
 		"clanResource": {
 			"eng": "+ ${amount} Gang resource",
-			"trans": "+ ${amount} 갱 리소스"
+			"trans": "+ ${amount} 갱 자원"
 		}
 	},
 	"confirmModal": {
@@ -960,7 +960,7 @@
 			},
 			"description2": {
 				"eng": "In case of server maintenance, it usually will be done within a few minutes.",
-				"trans": "서버 유지보수가 필요한 경우, 일반적으로 몇 분 내에 완료됩니다."
+				"trans": "서버 유지보수중인 경우, 일반적으로 몇 분 내에 완료됩니다."
 			}
 		},
 		"notLoggedIn": {
@@ -995,13 +995,13 @@
 	"contributionNotice": {
 		"title": {
 			"eng": "This content is contributable by community, click here to edit or add your own content into the game.",
-			"trans": "이 내용은 커뮤니티에서 기여할 수 있으며, 게임에 직접 내용을 편집하거나 추가하려면 여기를 클릭하세요."
+			"trans": "이 내용은 커뮤니티에서 기여할 수 있습니다. 게임에 직접 내용을 편집하거나 추가하려면 여기를 클릭하세요."
 		}
 	},
 	"cookingPage": {
 		"cook": {
 			"eng": "Cook",
-			"trans": "요리사"
+			"trans": "요리"
 		},
 		"recipes": {
 			"eng": "Recipes",
@@ -1019,7 +1019,7 @@
 		},
 		"psychosis": {
 			"eng": "+ ${amount} psychosis",
-			"trans": "+ ${amount} 사이버 싸이코시스"
+			"trans": "+ ${amount} 사이버 싸이코"
 		}
 	},
 	"coupon": {
@@ -1043,7 +1043,7 @@
 		},
 		"submitButton": {
 			"eng": "Submit",
-			"trans": "제출"
+			"trans": "입력"
 		},
 		"title": {
 			"eng": "Gift Code",
@@ -1128,13 +1128,13 @@
 		"selectPopup": {
 			"title": {
 				"eng": "Select mercenary",
-				"trans": "우선, 용병을 선택하세요"
+				"trans": "용병 선택"
 			}
 		},
 		"viewListButton": {
 			"title": {
 				"eng": "View mercenary list",
-				"trans": "우리의 용병 목록을 확인하세요"
+				"trans": "용병 목록 확인"
 			}
 		}
 	},
@@ -1142,7 +1142,7 @@
 		"blackMarketCurrency": {
 			"description": {
 				"eng": "The Netcoin currency, can be obtained in game and from premium store",
-				"trans": "넷코인은 게임 내에서 얻을 수 있으며 프리미엄 스토어에서도 구매할 수 있는 통화입니다"
+				"trans": "넷코인 통화는 게임 내에서 얻을 수 있으며 프리미엄 스토어에서도 구매할 수 있습니다"
 			},
 			"name": {
 				"eng": "Netcoin",
@@ -1158,7 +1158,7 @@
 		"mercExpCurrency": {
 			"description": {
 				"eng": "A nano-machine injection device created by Taixing Cybernetics, providing unparalleled upgrades to cybernetic abilities. Inject into the neck for enhanced performance.",
-				"trans": "타이싱 사이버네틱에서 만든 나노 머신 주사기로 사이버네틱 능력을 비롯한 뛰어난 업그레이드를 제공합니다. 목에 주사하여 성능을 향상시킵니다."
+				"trans": "타이싱 사이버네틱에서 만든 나노 머신 주사기로, 사이버네틱 능력에 뛰어난 강화효과를 제공합니다. 목에 주사하여 성능을 향상시킵니다."
 			},
 			"name": {
 				"eng": "Cybernetic Enhancer",
@@ -1168,17 +1168,17 @@
 		"mercUpgradeCurrency": {
 			"description": {
 				"eng": "Neural Upgrade Augmenter is a cutting-edge implant that enables users to break past their mental limitations and reach untold levels of cognitive enhancement. With the ability to exceed typical neural barriers, users can unlock new levels of insight, creativity, and physical performance.",
-				"trans": "신경 강화 증강기는 최첨단 이식물로, 사용자들이 정신적 제한을 극복하고 놀라운 수준의 인지 향상을 이룰 수 있도록 도와줍니다. 일반적인 신경 장벽을 초월할 수 있는 능력으로, 사용자들은 새로운 통찰력, 창의성, 그리고 신체적 성능을 발휘할 수 있습니다."
+				"trans": "신경 강화 증강장치는 최첨단 임플란트로, 사용자의 정신적 제한을 극복하고 엄청난 수준의 인지 향상을 이룰 수 있도록 도와줍니다. 일반적인 신경 장벽을 초월할 수 있는 능력으로, 사용자는 새로운 수준의 통찰력, 창의력 그리고 신체적 성능을 발휘할 수 있습니다."
 			},
 			"name": {
 				"eng": "Neural Upgrade Augmenter",
-				"trans": "신경 강화 증강기"
+				"trans": "신경 강화 증강장치"
 			}
 		},
 		"normal": {
 			"description": {
 				"eng": "A common currency that can be obtained from in game easily",
-				"trans": "게임 내에서 쉽게 얻을 수 있는 공통 통화입니다"
+				"trans": "게임 내에서 쉽게 얻을 수 있는 공용 통화입니다"
 			},
 			"name": {
 				"eng": "Eurodollars",
@@ -1215,15 +1215,15 @@
 	"dailyRewardPopup": {
 		"claim": {
 			"eng": "Claim",
-			"trans": "요구"
+			"trans": "수령"
 		},
 		"claimAll": {
 			"eng": "Claim All",
-			"trans": "모두 수령하기"
+			"trans": "모두 수령"
 		},
 		"claimed": {
 			"eng": "Claimed",
-			"trans": "주장함"
+			"trans": "수령함"
 		},
 		"pending": {
 			"eng": "pending",
@@ -1232,34 +1232,34 @@
 		"randomizeConfirm": {
 			"description": {
 				"eng": "this will cost ${price} ${currency}",
-				"trans": "이것은 ${currency} ${price}이(가) 드릴 것입니다"
+				"trans": "이것은 ${currency} ${price}이(가) 들 것입니다"
 			},
 			"title": {
 				"eng": "Are you sure you want to re-roll?",
-				"trans": "재굴림하시겠습니까?"
+				"trans": "새로고침 하시겠습니까?"
 			}
 		},
 		"title": {
 			"eng": "Daily Reward",
-			"trans": "매일 보상"
+			"trans": "일일 보상"
 		}
 	},
 	"dailyRewardType": {
 		"normal": {
 			"name": {
 				"eng": "Daily Reward",
-				"trans": "매일 보상"
+				"trans": "일일 보상"
 			}
 		}
 	},
 	"deadthScreen": {
 		"decoText": {
 			"eng": "No existing insurance found",
-			"trans": "기존의 보험이 발견되지 않았습니다"
+			"trans": "보험이 없습니다"
 		},
 		"itemLost": {
 			"eng": "${amount} items from backpack was taken as compensation to Ripperdoc",
-			"trans": "배낭에서 ${amount}개의 아이템이 리퍼닥에게 보상으로 가져갔습니다"
+			"trans": "리퍼닥이 배낭에서 ${amount}개의 아이템을 보상으로 가져갔습니다"
 		},
 		"respawnButton": {
 			"title": {
@@ -1281,13 +1281,13 @@
 		},
 		"upgradeMercenary": {
 			"eng": "Upgrade or hire more mercenaries",
-			"trans": "업그레이드하거나 더 많은 용병을 고용하세요"
+			"trans": "업그레이드하거나 용병을 더 고용하세요"
 		}
 	},
 	"deathItemPage": {
 		"line": {
 			"eng": "I ain't doing charity here yo",
-			"trans": "나는 여기서 자선을 하지 않는다, 알겠지?"
+			"trans": "이봐, 나는 여기서 자선사업을 하는게 아니야"
 		},
 		"premiumCurrencyRecoverButton": {
 			"title": {
@@ -1307,7 +1307,7 @@
 		},
 		"description": {
 			"eng": "Are you sure you want to delete this character? this action is permanent and cannot be undone.",
-			"trans": "이 캐릭터를 삭제하시겠습니까? 이 작업은 영구적이며 되돌릴 수 없습니다."
+			"trans": "이 캐릭터를 삭제하시겠습니까? 이 행동은 영구적이며 되돌릴 수 없습니다."
 		},
 		"title": {
 			"eng": "Delete Character",
@@ -1342,7 +1342,7 @@
 			},
 			"success": {
 				"eng": "Mercenary contact info received.",
-				"trans": "용병 연락처 정보를 받았습니다."
+				"trans": "용병 연락처 정보 수신."
 			},
 			"textList1": {
 				"eng": "Allocating resources...",
@@ -1399,7 +1399,7 @@
 			"hard": {
 				"description": {
 					"eng": "Hard difficulty stronghold, Enemies are stronger and more numerous, but the EXP and rewards are greater.",
-					"trans": "\"어려운 난이도의 소굴, 적들은 더욱 강하고 많지만 경험치와 보상이 더 많습니다.\""
+					"trans": "\"어려운 난이도의 아지트. 적들은 더욱 강하고 많지만 경험치와 보상이 더 많습니다.\""
 				},
 				"name": {
 					"eng": "Hard Difficulty",
@@ -1409,7 +1409,7 @@
 			"normal": {
 				"description": {
 					"eng": "Normal difficulty stronghold.",
-					"trans": "보통 난이도의 소굴."
+					"trans": "보통 난이도의 아지트."
 				},
 				"name": {
 					"eng": "Normal Difficulty",
@@ -1432,11 +1432,11 @@
 		"enemyIncrease": {
 			"desc": {
 				"eng": "Increase number of enemies.",
-				"trans": "적의 수를 증가시키세요."
+				"trans": "적의 수 증가"
 			},
 			"name": {
 				"eng": "Crowded",
-				"trans": "혼잡한"
+				"trans": "혼잡"
 			}
 		},
 		"expIncrease": {
@@ -1446,13 +1446,13 @@
 			},
 			"name": {
 				"eng": "Exp Boost",
-				"trans": "경험치 증가"
+				"trans": "경험치 부스트"
 			}
 		},
 		"luckIncrease": {
 			"desc": {
 				"eng": "Increase drop quality",
-				"trans": "드롭 품질 향상"
+				"trans": "전리품 품질 향상"
 			},
 			"eng": "Lucky",
 			"trans": "행운"
@@ -1461,7 +1461,7 @@
 	"dungeonLobby": {
 		"createButton": {
 			"eng": "Enter Stronghold",
-			"trans": "소굴에 들어가기"
+			"trans": "아지트에 들어가기"
 		},
 		"createButtonDisabled": {
 			"eng": "Waiting team to be ready",
@@ -1470,7 +1470,7 @@
 		"dungeonType": {
 			"label": {
 				"eng": "Stronghold",
-				"trans": "소굴"
+				"trans": "아지트"
 			}
 		},
 		"levelSelect": {
@@ -1488,7 +1488,7 @@
 		"playerModal": {
 			"kick": {
 				"eng": "kick",
-				"trans": "킥"
+				"trans": "추방"
 			},
 			"viewDetails": {
 				"eng": "details",
@@ -1521,16 +1521,16 @@
 		},
 		"territoryGang": {
 			"eng": "Strongholds created by member of ${gangName} in this district will receive extra buff",
-			"trans": "이 지역에서 ${gangName}의 멤버가 만든 소굴은 추가 버프를 받습니다"
+			"trans": "이 지역에서 ${gangName}의 멤버가 만든 아지트는 추가 버프를 받습니다"
 		},
 		"territoryNoGang": {
 			"eng": "Control this territory to get extra buff in this district",
-			"trans": "이 지역을 지배하면 이 지구에서 추가 버프를 얻을 수 있습니다"
+			"trans": "이 영역을 지배하면 이 구역에서 추가 버프를 얻을 수 있습니다"
 		},
 		"tip": {
 			"noHealing": {
 				"eng": "Looks like your are running low on healing items, purchase some so you can it in the stronghold",
-				"trans": "회복 아이템이 부족해 보입니다. 소굴에서 사용할 수 있도록 구매해주세요"
+				"trans": "회복 아이템이 부족해 보입니다. 아지트에서 사용할 수 있도록 구매해주세요"
 			}
 		},
 		"waitingToStart": {
@@ -1583,7 +1583,7 @@
 	"dungeonTypeDisplay": {
 		"enterDungeon": {
 			"eng": "Enter Stronghold",
-			"trans": "소굴에 들어가기"
+			"trans": "아지트에 들어가기"
 		},
 		"extraLoot": {
 			"eng": "+${percent}% loot rarity",
@@ -1594,7 +1594,7 @@
 		"goToPublicDungeonListButton": {
 			"title": {
 				"eng": "Public strongholds",
-				"trans": "공개된 소굴"
+				"trans": "공개된 아지트"
 			}
 		}
 	},
@@ -1610,11 +1610,11 @@
 			},
 			"description": {
 				"eng": "Are you sure you want to bring them into stronghold? \\nIf you die you will lose them.",
-				"trans": "소굴로 그들을 데려오시겠습니까? \\n만약 사망하면 그들을 잃게 됩니다."
+				"trans": "그것들을 가지고 아지트로 가시겠습니까? \\n만약 사망하면 그것들을 잃게 됩니다."
 			},
 			"title": {
 				"eng": "there are items in your backpack",
-				"trans": "당신의 배낭에는 아이템이 있습니다"
+				"trans": "당신의 배낭에 아이템이 있습니다"
 			}
 		},
 		"invNoHealing": {
@@ -1628,11 +1628,11 @@
 			},
 			"message": {
 				"eng": "Seems like your are running low on heals, purchase some to bring it to strongholds.",
-				"trans": "회복제가 부족해 보입니다. 소굴로 가져오기 위해 구매해주세요."
+				"trans": "회복제가 부족해 보입니다. 아지트에 가지고 가기 위해 구매해주세요."
 			},
 			"title": {
 				"eng": "low healing items",
-				"trans": "낮은 치유 아이템"
+				"trans": "치유 아이템 부족"
 			}
 		},
 		"leaveDungeonModal": {
@@ -1668,20 +1668,20 @@
 		"kinetic": {
 			"name": {
 				"eng": "Kinetic",
-				"trans": "운동 에너지"
+				"trans": "키네틱"
 			}
 		},
 		"physical": {
 			"name": {
 				"eng": "Physical",
-				"trans": "물리적"
+				"trans": "물리"
 			}
 		}
 	},
 	"enemyTabContent": {
 		"addEnemy": {
 			"eng": "Add Enemies",
-			"trans": "적 추가하기"
+			"trans": "적 추가"
 		},
 		"attack": {
 			"eng": "Attack",
@@ -1714,7 +1714,7 @@
 			},
 			"name": {
 				"eng": "Tough",
-				"trans": "강한"
+				"trans": "터프한"
 			}
 		}
 	},
@@ -1722,7 +1722,7 @@
 		"BOOTS": {
 			"name": {
 				"eng": "Boots",
-				"trans": "부츠"
+				"trans": "신발"
 			}
 		},
 		"HELMET": {
@@ -1734,13 +1734,13 @@
 		"IMPLANT_1": {
 			"name": {
 				"eng": "Implant 1",
-				"trans": "이식 1"
+				"trans": "임플란트 1"
 			}
 		},
 		"IMPLANT_2": {
 			"name": {
 				"eng": "Implant 2",
-				"trans": "이식 2"
+				"trans": "임플란트 2"
 			}
 		},
 		"LOWER_ARMOR": {
@@ -1784,7 +1784,7 @@
 		"BOOTS": {
 			"name": {
 				"eng": "Boots",
-				"trans": "부츠"
+				"trans": "신발"
 			}
 		},
 		"HELMET": {
@@ -1796,7 +1796,7 @@
 		"IMPLANT": {
 			"name": {
 				"eng": "Implant",
-				"trans": "이식"
+				"trans": "임플란트"
 			}
 		},
 		"LOWER_ARMOR": {
@@ -1841,7 +1841,7 @@
 		},
 		"title": {
 			"eng": "Opps, something went wrong!",
-			"trans": "죄송합니다, 문제가 발생했습니다!"
+			"trans": "오 이런, 뭔가 잘못됐어요!"
 		},
 		"update": {
 			"description": {
@@ -1861,11 +1861,11 @@
 		},
 		"dialog1": {
 			"eng": "Complete the survey to earn rewards! 😊 I would love to hear your feedback!",
-			"trans": "보상을 받으려면 설문 조사를 완료하세요! 😊 여러분의 의견을 듣고 싶습니다!"
+			"trans": "설문조사를 완료하고 보상을 받으세요! 😊 여러분의 의견을 듣고 싶습니다!"
 		},
 		"dialog2": {
 			"eng": "Sorry about the bad experience 😢 I would love to hear your feedback!🙏",
-			"trans": "안타깝게도 나쁜 경험을 하셨군요 😢 피드백을 듣고 싶습니다! 🙏"
+			"trans": "안타깝게도 나쁜 경험을 하셨군요 😢 여러분의 의견을 듣고 싶습니다! 🙏"
 		},
 		"dialog3": {
 			"eng": "Thank you! if you could rate on the app store, it would help me a lot! 🙏",
@@ -1877,11 +1877,11 @@
 		},
 		"lowStarComment": {
 			"eng": "How can I improve to earn 5 stars?",
-			"trans": "어떻게 하면 5성을 받을 수 있을까요?"
+			"trans": "어떻게 하면 별을 5개 받을 수 있을까요?"
 		},
 		"lowStarCommentHint": {
 			"eng": "What you write here will be sent directly to me :)",
-			"trans": "여기에 쓴 내용은 나에게 직접 전송됩니다 :)"
+			"trans": "여기에 쓴 내용은 저에게 직접 전송됩니다 :)"
 		},
 		"question1": {
 			"eng": "What do you think about the design of the game interface?",
@@ -1901,7 +1901,7 @@
 		},
 		"statement": {
 			"eng": "No matter whats your answer, you will always get the reward 💯",
-			"trans": "어떤 답을 하더라도 보상은 항상 주어집니다 💯"
+			"trans": "어떤 답을 하더라도, 보상은 주어집니다 💯"
 		},
 		"submit1": {
 			"eng": "Submit",
@@ -1930,14 +1930,14 @@
 		"remove": {
 			"success": {
 				"eng": "You have removed ${friendName} from your friends list.",
-				"trans": "친구 목록에서 ${friendName}을(를) 삭제했습니다.",
+				"trans": "당신의 친구 목록에서 ${friendName}을(를) 삭제했습니다.",
 				"vars": []
 			}
 		},
 		"removeEnemy": {
 			"success": {
 				"eng": "You have removed ${playerName} from your enemy list.",
-				"trans": "적 목록에서 ${playerName}을(를) 제거했습니다.",
+				"trans": "당신의 적 목록에서 ${playerName}을(를) 제거했습니다.",
 				"vars": []
 			}
 		}
@@ -2070,11 +2070,11 @@
 		"activateButton": {
 			"description": {
 				"eng": "This action will sacrifice ${hp} of your heath",
-				"trans": "이 행동은 당신의 체력 ${hp}를 희생합니다"
+				"trans": "이 행동은 당신의 체력을 ${hp} 희생합니다"
 			},
 			"title": {
 				"eng": "Activate",
-				"trans": "활성화"
+				"trans": "확인"
 			}
 		}
 	},
@@ -2101,7 +2101,7 @@
 		},
 		"title": {
 			"eng": "Hit List",
-			"trans": "명중 목록"
+			"trans": "현상금 목록"
 		}
 	},
 	"hitman": {
@@ -2119,7 +2119,7 @@
 		},
 		"description": {
 			"eng": "Join the fight for justice in Arclight City! The ACPD calls upon vigilant citizens to aid in the pursuit of wanted criminals. Your city needs you! Bring in the fugitives, dead or alive, and earn substantial rewards. Together, we'll make Arclight City safer for all. 🌃👮‍♂️\\n#CitizenArrest #ACPDJustice",
-			"trans": "아크라이트 시티에서 정의를 위한 전투에 참여하세요! ACPD는 원하는 범죄자를 추적하는 데 도움을 줄 수 있는 경계심이 있는 시민들을 모집합니다. 당신의 도시가 당신을 필요로 합니다! 도망자를 살아있는 채로 체포하고 상당한 보상을 받으세요. 함께하면 모두를 위해 아크라이트 시티를 더 안전하게 만들 수 있습니다. 🌃👮‍♂️\\n#시민체포 #ACPD정의"
+			"trans": "아크라이트 시티의 정의를 위한 전투에 참여하세요! ACPD는 원하는 범죄자를 추적하는 데 도움을 줄 수 있는 경계심이 있는 시민들을 모집합니다. 당신의 도시가 당신을 필요로 합니다! 생사불문 도망자를 체포하고 상당한 보상을 받으세요. 함께 아크라이트 시티를 모두를 위해 더 안전하게 만들어 갑시다. 🌃👮‍♂️\\n#시민체포 #ACPD정의"
 		},
 		"expire": {
 			"eng": "expire date",
@@ -2258,7 +2258,7 @@
 			},
 			"title": {
 				"eng": "Calibrate",
-				"trans": "교정하다"
+				"trans": "교정"
 			}
 		},
 		"destroyChance": {
@@ -2286,7 +2286,7 @@
 		"tip": {
 			"noOptimizer": {
 				"eng": "You can use a optimizer to improve your calibration process",
-				"trans": "당신은 교정 과정을 개선하기 위해 최적화 도구를 사용할 수 있습니다"
+				"trans": "당신은 교정 과정을 개선하기 위해 옵티마이저를 사용할 수 있습니다"
 			}
 		}
 	},
@@ -2327,7 +2327,7 @@
 			"modal": {
 				"description": {
 					"eng": "This item will deal ${damage} more damage based on your ${attribute} attribute",
-					"trans": "이 아이템은 당신의 ${attribute} 속성에 따라 추가 ${damage}의 데미지를 입힐 수 있습니다"
+					"trans": "이 아이템은 당신의 ${attribute} 속성에 따라 추가 데미지를 ${damage}가할 수 있습니다"
 				},
 				"title": {
 					"eng": "Attribute added damage",
@@ -2363,7 +2363,7 @@
 		},
 		"dismantle": {
 			"eng": "Dismantle",
-			"trans": "분해하기"
+			"trans": "분해"
 		},
 		"error": {
 			"cantEquipFromBackpack": {
@@ -2374,7 +2374,7 @@
 		"levelUpBar": {
 			"title": {
 				"eng": "Level increased",
-				"trans": "레벨이 상승했습니다"
+				"trans": "레벨 상승"
 			}
 		},
 		"lockButton": {
@@ -2384,7 +2384,7 @@
 			},
 			"unlocked": {
 				"eng": "unlocked",
-				"trans": "해제됨"
+				"trans": "잠금 해제됨"
 			}
 		},
 		"mercToken1": {
@@ -2407,7 +2407,7 @@
 		},
 		"unequip": {
 			"eng": "Unequip",
-			"trans": "장비 해제"
+			"trans": "장착 해제"
 		},
 		"upgrade": {
 			"eng": "Upgrade",
@@ -2437,7 +2437,7 @@
 	"itemInboxPage": {
 		"collectAll": {
 			"eng": "Collect all",
-			"trans": "모두 모으기"
+			"trans": "전부 수령"
 		},
 		"description": {
 			"eng": "Here you can see all the items you have received. system will automatically collect items to your inventory when it has chance.",
@@ -2475,7 +2475,7 @@
 		},
 		"noItemError": {
 			"eng": "Please select an item to repair",
-			"trans": "수리할 아이템을 선택해주세요"
+			"trans": "수리할 아이템을 선택하세요"
 		},
 		"repairButton": {
 			"title": {
@@ -2497,11 +2497,11 @@
 	"itemSourceModal": {
 		"blackMarket": {
 			"eng": "Black Market",
-			"trans": "블랙마켓"
+			"trans": "암암시장"
 		},
 		"boss": {
 			"eng": "Stronghold Bosses",
-			"trans": "보스 소굴"
+			"trans": "보스 아지트"
 		},
 		"chestDrop": {
 			"eng": "Stronghold chest drop",
@@ -2509,7 +2509,7 @@
 		},
 		"convertNetCoin": {
 			"eng": "Convert from ${netCoin}",
-			"trans": "넷코인으로 변환"
+			"trans": "${netCoin}에서 변환"
 		},
 		"cooking": {
 			"eng": "Cooking",
@@ -2552,13 +2552,13 @@
 		"all": {
 			"name": {
 				"eng": "All",
-				"trans": "모두"
+				"trans": "전부"
 			}
 		},
 		"boots": {
 			"name": {
 				"eng": "Boots",
-				"trans": "부츠"
+				"trans": "신발"
 			}
 		},
 		"calibration": {
@@ -2582,7 +2582,7 @@
 		"fireArm": {
 			"name": {
 				"eng": "Fire Arm",
-				"trans": "불꽃 무기"
+				"trans": "화기"
 			}
 		},
 		"fish": {
@@ -2612,7 +2612,7 @@
 		"implant": {
 			"name": {
 				"eng": "Implant",
-				"trans": "이식"
+				"trans": "임플란트"
 			}
 		},
 		"ingredient": {
@@ -2666,7 +2666,7 @@
 		"resetShard": {
 			"name": {
 				"eng": "Reset Shard",
-				"trans": "샤드 초기화"
+				"trans": "초기화 샤드"
 			}
 		},
 		"ring": {
@@ -2697,7 +2697,7 @@
 	"itemTrait": {
 		"armor": {
 			"eng": "Armor",
-			"trans": "방어구"
+			"trans": "방어력"
 		},
 		"autoAttackDamage": {
 			"name": {
@@ -2720,13 +2720,13 @@
 		"blockChance": {
 			"name": {
 				"eng": "Block Chance",
-				"trans": "가드 확률"
+				"trans": "방해 확률"
 			}
 		},
 		"blockStrength": {
 			"name": {
 				"eng": "Block Strength",
-				"trans": "차단 강도"
+				"trans": "방해 강도"
 			}
 		},
 		"critChance": {
@@ -2735,7 +2735,7 @@
 		},
 		"critDamage": {
 			"eng": "Critical Damage",
-			"trans": "치명적인 피해"
+			"trans": "치명타 피해"
 		},
 		"cyberneticResistance": {
 			"name": {
@@ -2768,7 +2768,7 @@
 		"kineticResistance": {
 			"name": {
 				"eng": "Kinetic Resistance",
-				"trans": "운동 저항력"
+				"trans": "키네틱 저항력"
 			}
 		},
 		"physicalResistance": {
@@ -2786,7 +2786,7 @@
 		"shieldMult": {
 			"name": {
 				"eng": "Shield Multiplier",
-				"trans": "방패 배수"
+				"trans": "방어막 배수"
 			}
 		},
 		"str": {
@@ -2810,13 +2810,13 @@
 			},
 			"name": {
 				"eng": "Boots",
-				"trans": "부츠"
+				"trans": "신발"
 			}
 		},
 		"braisedPorkRice": {
 			"description": {
 				"eng": "A traditional dish of braised pork belly and rice.",
-				"trans": "돼지고기와 밥으로 만든 전통적인 요리."
+				"trans": "삼겹살 조림과 밥으로 만든 전통적인 요리."
 			},
 			"name": {
 				"eng": "Braised Pork Rice",
@@ -2846,7 +2846,7 @@
 		"calibrationShard": {
 			"description": {
 				"eng": "Universal calibration token for equipments, use to improve equipments",
-				"trans": "장비를 개선하기 위해 사용하는 장비 교정을 위한 범용 교정 토큰"
+				"trans": "장비 개선에 사용하는 범용 장비 교정 토큰"
 			},
 			"name": {
 				"eng": "Calibration Shard",
@@ -2856,7 +2856,7 @@
 		"clanMaintenanceResource": {
 			"description": {
 				"eng": "Use to contribute to gang maintenance",
-				"trans": "갱 유지에 기여하기 위해 사용하세요"
+				"trans": "갱 유지보수에 기여하기 위해 사용합니다"
 			},
 			"name": {
 				"eng": "Gang Maintenance Resource",
@@ -2866,17 +2866,17 @@
 		"commonCalibrationSafety": {
 			"description": {
 				"eng": "Use to decrease chance of equipment destruction by ${percent}% when calibration failed",
-				"trans": "교정 실패 시 장비 파괴 확률을 ${percent}% 감소시키는 데 사용합니다"
+				"trans": "교정 실패로 인한 장비 파괴 확률을 ${percent}% 감소시키기 위해 사용합니다"
 			},
 			"name": {
 				"eng": "Common Calibration Circuit Breaker",
-				"trans": "일반적인 교정 회로 차단기"
+				"trans": "평범한 교정 회로 차단기"
 			}
 		},
 		"commonLevelShard": {
 			"description": {
 				"eng": "Use to level up an common item to its next level",
-				"trans": "일반 아이템을 다음 레벨로 업그레이드하기 위해 사용합니다"
+				"trans": "평범한 아이템의 레벨을 상승시키기위해 사용합니다"
 			},
 			"name": {
 				"eng": "Common Level Shard",
@@ -2886,11 +2886,11 @@
 		"dungeonActivator": {
 			"description": {
 				"eng": "Use to enter a dungeon",
-				"trans": "던전에 들어가려면 사용하세요"
+				"trans": "던전에 들어가기 위해 사용합니다"
 			},
 			"name": {
 				"eng": "dungeon activator",
-				"trans": "던전 활성화기"
+				"trans": "던전 활성화 장치"
 			}
 		},
 		"energyGun": {
@@ -2906,7 +2906,7 @@
 		"epicLevelShard": {
 			"description": {
 				"eng": "Use to level up an epic item to its next level",
-				"trans": "에픽 아이템을 다음 레벨로 업그레이드하기 위해 사용합니다"
+				"trans": "영웅 아이템을 다음 레벨로 업그레이드하기 위해 사용합니다"
 			},
 			"name": {
 				"eng": "Epic Level Shard",
@@ -2916,7 +2916,7 @@
 		"epicResetShard": {
 			"description": {
 				"eng": "Use to reset a epic item with new traits by chance",
-				"trans": "새로운 특성을 가진 에픽 아이템을 우연히 얻기 위해 재설정하는 데 사용합니다"
+				"trans": "영웅의 아이템의 특성을 새로운 특성으로 재설정하기 위해 사용합니다"
 			},
 			"name": {
 				"eng": "Epic Reset Shard",
@@ -2926,17 +2926,17 @@
 		"epicUpgradeShard": {
 			"description": {
 				"eng": "Use to upgrade an unique item to epic tier",
-				"trans": "유니크 아이템을 에픽 등급으로 업그레이드하는 데 사용합니다"
+				"trans": "유일한 아이템을 영웅 등급으로 업그레이드하기 위해 사용합니다"
 			},
 			"name": {
 				"eng": "Epic Upgrade Shard",
-				"trans": "영웅의 강화 샤드"
+				"trans": "영웅의 업그레이드 샤드"
 			}
 		},
 		"equipmentCalibrator": {
 			"description": {
 				"eng": "Used to calibrate equipments",
-				"trans": "장비 교정에 사용됩니다"
+				"trans": "장비 교정에 사용합니다"
 			},
 			"name": {
 				"eng": "Equipment Calibrator",
@@ -2946,7 +2946,7 @@
 		"fish": {
 			"description": {
 				"eng": "A medium sized vibrant fish, it's highly sought after for its psychedelic properties when consumed.",
-				"trans": "중간 크기의 활기찬 물고기로, 섭취 시 환각적인 효과가 있는 것으로 매우 인기가 있습니다."
+				"trans": "적당한 크기의 활기찬 물고기로, 섭취 시 환각적인 효과가 있는 것으로 매우 인기가 있습니다."
 			},
 			"name": {
 				"eng": "Fish",
@@ -2962,13 +2962,13 @@
 		"gangResource": {
 			"description": {
 				"eng": "Use to contribute to gang territory control",
-				"trans": "갱 영토 통제에 기여하기 위해 사용하세요"
+				"trans": "갱 영역 통제에 기여하기 위해 사용하세요"
 			}
 		},
 		"gun": {
 			"description": {
 				"eng": "A traditional firearm that uses gunpowder to fire bullets. cant go wrong with this one.",
-				"trans": "총알을 발사하기 위해 화약을 사용하는 전통적인 총. 이걸로는 실수할 수 없습니다."
+				"trans": "총알을 발사하기 위해 화약을 사용하는 전통적인 화기. 이걸로는 실수할 수 없습니다."
 			},
 			"name": {
 				"eng": "Gun",
@@ -3008,17 +3008,17 @@
 		"identificationShard": {
 			"description": {
 				"eng": "Use to identify unknown traits in a item",
-				"trans": "아이템의 알려지지 않은 특성을 식별하는 데 사용합니다"
+				"trans": "아이템의 알수없는 특성을 식별하는 데 사용합니다"
 			},
 			"name": {
 				"eng": "Identification Shard",
-				"trans": "식별 샤드"
+				"trans": "감정 샤드"
 			}
 		},
 		"implant": {
 			"name": {
 				"eng": "Implant",
-				"trans": "이식"
+				"trans": "임플란트"
 			}
 		},
 		"itemLevelupShard": {
@@ -3034,27 +3034,27 @@
 		"lootBox1": {
 			"description": {
 				"eng": "A common container that contains a random item.",
-				"trans": "랜덤 아이템이 들어있는 평범한 컨테이너입니다."
+				"trans": "무작위 아이템이 들어있는 평범한 상자입니다."
 			},
 			"name": {
 				"eng": "Common Container",
-				"trans": "일반적인 컨테이너"
+				"trans": "평범한 상자"
 			}
 		},
 		"lootBox2": {
 			"description": {
 				"eng": "A uncommon container that contains a random item.",
-				"trans": "랜덤 아이템을 담고 있는 비범한 상자입니다."
+				"trans": "무작위 아이템이 들어있는 비범한 상자입니다."
 			},
 			"name": {
 				"eng": "Uncommon Container",
-				"trans": "특별한 상자"
+				"trans": "비범한 상자"
 			}
 		},
 		"lootDoorKey": {
 			"description": {
 				"eng": "A cutting-edge cyberpunk device that serves as a key to unlock high-security doors in the dystopian strongholds, revealing valuable loot and hidden rewards.",
-				"trans": "첨단 사이버펑크 장치로, 디스토피아 소굴의 엄중한 보안 시설을 여는 열쇠 역할을 하며 귀중한 전리품과 숨겨진 보상을 제공합니다."
+				"trans": "첨단 사이버펑크 장치로, 디스토피아 아지트의 엄중한 보안 시설을 여는 열쇠 역할을 하며 귀중한 전리품과 숨겨진 보상을 제공합니다."
 			},
 			"name": {
 				"eng": "decryption Key",
@@ -3074,7 +3074,7 @@
 		"medicalTech": {
 			"description": {
 				"eng": "A piece of medical technology that can be used to craft ",
-				"trans": "의료 기술을 사용하여 제작할 수 있는 조각입니다"
+				"trans": "제작에 사용할 수 있는 의료 공학의 조각입니다"
 			},
 			"name": {
 				"eng": "Medical Tech Scrap",
@@ -3094,11 +3094,11 @@
 		"mercUpgrade": {
 			"description": {
 				"eng": "Neural Upgrade Augmenter is a cutting-edge implant that enables users to break past their mental limitations and reach untold levels of cognitive enhancement. With the ability to exceed typical neural barriers, users can unlock new levels of insight, creativity, and physical performance.",
-				"trans": "신경 강화 증강기는 최첨단 이식물로, 사용자들이 정신적 제한을 극복하고 놀라운 수준의 인지 향상을 이룰 수 있도록 도와줍니다. 일반적인 신경 장벽을 초월할 수 있는 능력으로, 사용자들은 새로운 통찰력, 창의성, 그리고 신체적 성능을 발휘할 수 있습니다."
+				"trans": "신경 강화 증강장치는 최첨단 임플란트로, 사용자의 정신적 제한을 극복하고 엄청난 수준의 인지 향상을 이룰 수 있도록 도와줍니다. 일반적인 신경 장벽을 초월할 수 있는 능력으로, 사용자는 새로운 수준의 통찰력, 창의력 그리고 신체적 성능을 발휘할 수 있습니다."
 			},
 			"name": {
 				"eng": "Neural Upgrade Augmenter",
-				"trans": "신경 강화 증강기"
+				"trans": "신경 강화 증강장치"
 			}
 		},
 		"money": {
@@ -3114,7 +3114,7 @@
 		"netcoin": {
 			"description": {
 				"eng": "NetCoin is a digital currency mainly used in black market transactions. It is untraceable and can be used to purchase illegal goods and services.",
-				"trans": "넷코인은 주로 불법 거래에 사용되는 디지털 화폐입니다. 추적이 불가능하며 불법 물품과 서비스를 구매하는 데 사용될 수 있습니다."
+				"trans": "넷코인은 주로 암암시장에서 주로 사용하는 디지털 화폐입니다. 추적이 불가능하며 불법 물품과 서비스를 구매하는 데 사용될 수 있습니다."
 			},
 			"name": {
 				"eng": "NetCoin",
@@ -3124,7 +3124,7 @@
 		"neuroblocker": {
 			"description": {
 				"eng": "Neuroblockers were developed to counteract the negative effects that cybernetic implants had on the human body. By suppressing these effects, people were able to use these implants with reduced suffering from physical or mental issues",
-				"trans": "신경 차단제는 사이버넷 장비가 인체에 미치는 부정적인 영향을 상쇄하기 위해 개발되었습니다. 이를 억제함으로써, 사람들은 육체적 또는 정신적 문제로부터 덜 고통받고 이 장비를 사용할 수 있게 되었습니다"
+				"trans": "신경 차단제는 사이버네틱 임플란트가 인체에 미치는 부정적인 영향을 상쇄하기 위해 개발되었습니다. 이러한 영향을 억제함으로써, 사람들은 육체적 또는 정신적 문제로부터 덜 고통받고 임플란트를 사용할 수 있게 되었습니다"
 			},
 			"name": {
 				"eng": "Neuroblocker",
@@ -3140,7 +3140,7 @@
 		"pork": {
 			"description": {
 				"eng": "Slice of ordinary synthetic pork",
-				"trans": "일반 합성 돼지고기 한 조각"
+				"trans": "평범하게 합성한 돼지고기 한 조각"
 			},
 			"name": {
 				"eng": "Pork",
@@ -3150,7 +3150,7 @@
 		"prefixInjectorShard": {
 			"description": {
 				"eng": "Use to inject an additional prefix into a item, please note that if you re-roll the prefixes after using this item, the effect will be nullified.",
-				"trans": "아이템에 추가 접두사를 주입하는 데 사용하며, 이 아이템을 사용한 후 접두사를 다시 교체하면 효과가 사라집니다."
+				"trans": "아이템에 추가 접두사를 주입하는 데 사용하며, 이 아이템을 사용한 후 접두사를 새로고침하면 효과가 사라집니다."
 			},
 			"name": {
 				"eng": "Prefix Injector Shard",
@@ -3160,7 +3160,7 @@
 		"rareCalibrationSafety": {
 			"description": {
 				"eng": "Use to decrease chance of equipment destruction by ${percent}% when calibration failed",
-				"trans": "교정 실패 시 장비 파괴 확률을 ${percent}% 감소시키는 데 사용합니다"
+				"trans": "교정 실패로 인한 장비 파괴 확률을 ${percent}% 감소시키기 위해 사용합니다"
 			},
 			"name": {
 				"eng": "Rare Calibration Circuit Breaker",
@@ -3170,7 +3170,7 @@
 		"rareLevelShard": {
 			"description": {
 				"eng": "Use to level up an rare item to its next level",
-				"trans": "희귀 아이템을 다음 레벨로 업그레이드하기 위해 사용합니다"
+				"trans": "희귀한 아이템을 다음 레벨로 업그레이드하기 위해 사용합니다"
 			},
 			"name": {
 				"eng": "Rare Level Shard",
@@ -3180,11 +3180,11 @@
 		"rareResetShard": {
 			"description": {
 				"eng": "Use to reset a rare item with new traits by chance",
-				"trans": "새로운 특성을 가진 희귀 아이템을 우연히 재설정하는 데 사용합니다"
+				"trans": "희귀한 아이템의 특성을 새로운 특성으로 재설정하기 위해 사용합니다"
 			},
 			"name": {
 				"eng": "Rare Reset Shard",
-				"trans": "희귀 초기화 샤드"
+				"trans": "희귀한 초기화 샤드"
 			}
 		},
 		"rareUpgradeShard": {
@@ -3200,21 +3200,21 @@
 		"repairKit": {
 			"description": {
 				"eng": "The Nano Repairer is a state-of-the-art device developed by TaiXing Cybernetics for repairing a wide range of equipment intelligently with nano-machines. It's your go-to solution when your gear malfunctions due to calibration failure. Keep in mind, it doesn't guarantee a fix every time, but persistence pays off, after a few attempts, it'll get the job done.",
-				"trans": "나노 수리기는 타이싱 사이버네틱에서 개발한 최첨단 장비로, 나노 기계를 사용하여 다양한 장비를 지능적으로 수리합니다. 교정 실패로 인해 장비가 고장날 때는 이 장비를 사용하세요. 하지만 항상 고장을 고쳐주는 것은 아니니 몇 번 시도해보세요. 조금의 노력으로 고장을 해결할 수 있습니다."
+				"trans": "나노 수리장치는 타이싱 사이버네틱에서 개발한 최첨단 장비로, 나노 기계를 사용하여 다양한 장비를 지능적으로 수리합니다. 교정 실패로 인해 장비가 고장날 때는 이 장비를 사용하세요. 하지만 항상 고장을 고쳐주는 것은 아니니 몇 번 시도해보세요. 몇 번의 시도로 고장을 해결할 수 있을겁니다."
 			},
 			"name": {
 				"eng": "Nano Repairer",
-				"trans": "나노 수리기"
+				"trans": "나노 수리장치"
 			}
 		},
 		"rewardCipher": {
 			"description": {
 				"eng": "Used to re-roll quest reward.",
-				"trans": "퀘스트 보상을 다시 뽑는 데 사용됩니다."
+				"trans": "퀘스트 보상을 새로고침 할 때 사용됩니다."
 			},
 			"name": {
 				"eng": "Reward Cipher",
-				"trans": "보상 암호"
+				"trans": "보상 암호화"
 			}
 		},
 		"rice": {
@@ -3236,11 +3236,11 @@
 		"sate": {
 			"description": {
 				"eng": "A traditional Indonesian dish made from skewered meat and rice.",
-				"trans": "스테이크와 밥으로 만든 전통적인 인도네시아 요리입니다."
+				"trans": "꼬치살과 쌀로 만든 인도네시아의 전통 요리입니다."
 			},
 			"name": {
 				"eng": "Satay",
-				"trans": "사테이"
+				"trans": "사테"
 			}
 		},
 		"shadowToken": {
@@ -3266,17 +3266,17 @@
 		"sword": {
 			"description": {
 				"eng": "A melee weapon that has sharpened edges.",
-				"trans": "날카로운 모서리가 있는 근접 무기입니다."
+				"trans": "가장자리가 날카로운 근접 무기입니다."
 			},
 			"name": {
 				"eng": "Blade",
-				"trans": "칼날"
+				"trans": "블레이드"
 			}
 		},
 		"techScrap": {
 			"description": {
 				"eng": "A piece of tech scrap.",
-				"trans": "한 조각의 공학 조각."
+				"trans": "공학 조각의 한 조각."
 			},
 			"name": {
 				"eng": "Tech Scrap",
@@ -3296,7 +3296,7 @@
 		"uncommonLevelShard": {
 			"description": {
 				"eng": "Use to level up an uncommon item to its next level",
-				"trans": "희귀 아이템을 다음 레벨로 업그레이드하기 위해 사용합니다"
+				"trans": "비범 아이템을 다음 레벨로 업그레이드하기 위해 사용합니다"
 			},
 			"name": {
 				"eng": "Uncommon Level Shard",
@@ -3326,7 +3326,7 @@
 		"uniqueLevelShard": {
 			"description": {
 				"eng": "Use to level up an unique item to its next level",
-				"trans": "고유 아이템을 다음 레벨로 업그레이드하기 위해 사용합니다"
+				"trans": "유일 아이템을 다음 레벨로 업그레이드하기 위해 사용합니다"
 			},
 			"name": {
 				"eng": "Unique Level Shard",
@@ -3336,7 +3336,7 @@
 		"uniqueResetShard": {
 			"description": {
 				"eng": "Use to reset a unique item with new traits by chance",
-				"trans": "새로운 특성을 가진 독특한 아이템을 우연히 재설정하는 데 사용합니다"
+				"trans": "유일한 아이템의 특성을 새로운 특성으로 재설정하기 위해 사용합니다"
 			},
 			"name": {
 				"eng": "Unique Reset Shard",
@@ -3388,7 +3388,7 @@
 			},
 			"headerB": {
 				"eng": "Upgraded",
-				"trans": "업그레이드 완료"
+				"trans": "업그레이드됨"
 			}
 		},
 		"itemUpgradeTab": {
@@ -3410,7 +3410,7 @@
 			},
 			"description": {
 				"eng": "Please select an equipment to upgrade or calibrate",
-				"trans": "장비를 업그레이드하거나 교정할 장비를 선택해주세요"
+				"trans": "업그레이드하거나 교정할 장비를 선택해주세요"
 			},
 			"title": {
 				"eng": "No item selected",
@@ -3432,13 +3432,13 @@
 		"shard": {
 			"title": {
 				"eng": "shard",
-				"trans": "조각"
+				"trans": "샤드"
 			}
 		},
 		"tabs": {
 			"calibrate": {
 				"eng": "Calibrate",
-				"trans": "교정하다"
+				"trans": "교정"
 			},
 			"upgrade": {
 				"eng": "Upgrade",
@@ -3466,19 +3466,19 @@
 		"levelBodyguard": {
 			"name": {
 				"eng": "Bodyguard Level",
-				"trans": "보디가드 레벨"
+				"trans": "경호 레벨"
 			}
 		},
 		"levelMedical": {
 			"name": {
 				"eng": "Medical Level",
-				"trans": "의료 레벨"
+				"trans": "의학 레벨"
 			}
 		},
 		"levelScavenge": {
 			"name": {
 				"eng": "Scavenging Level",
-				"trans": "청소 수준"
+				"trans": "탐색 레벨"
 			}
 		},
 		"levelThieving": {
@@ -3504,7 +3504,7 @@
 		"bodyguard": {
 			"currentEffectDescription": {
 				"eng": "Increases strength by ${strength} (increases melee weapons damage by ${dmg}) and bodyguard task profit to ${profit}",
-				"trans": "힘을 ${strength}만큼 증가시키고(근접 무기 피해량을 ${dmg}만큼 증가시키고) 경호 임무 수익을 ${profit}로 늘립니다"
+				"trans": "힘을 ${strength}만큼 증가시키고(근접 무기 피해량 ${dmg}증가) 경호 임무 수익을 ${profit}만큼 증가시킵니다"
 			},
 			"description": {
 				"eng": "Increases strength attribute by 1 every level, and increases profit from this job type",
@@ -3512,7 +3512,7 @@
 			},
 			"displayName": {
 				"eng": "Bodyguard Level",
-				"trans": "보디가드 레벨"
+				"trans": "경호 레벨"
 			}
 		},
 		"character": {
@@ -3530,7 +3530,7 @@
 		"medical": {
 			"currentEffectDescription": {
 				"eng": "Increases intelligence by ${intelligence} (increases damage by ${healing}) and Extraction Mission task profit to ${profit}",
-				"trans": "지능을 ${intelligence}만큼 증가시키고(데미지를 ${healing}만큼 증가시키고) 임무 수행력을 ${profit}만큼 증가시킵니다"
+				"trans": "지능을 ${intelligence}만큼 증가시키고(피해량 ${healing}증가) 구출 임무 수익을 ${profit}만큼 증가시킵니다"
 			},
 			"description": {
 				"eng": "Increases intelligence attribute by 1 every level, and increases profit from this job type",
@@ -3538,7 +3538,7 @@
 			},
 			"displayName": {
 				"eng": "Medical Level",
-				"trans": "의료 레벨"
+				"trans": "의학 레벨"
 			}
 		},
 		"npcQuest": {
@@ -3554,7 +3554,7 @@
 		"scavenge": {
 			"currentEffectDescription": {
 				"eng": "Increases vitality by ${vitality} (increases health by ${health}) and scavenging task profit to ${profit}",
-				"trans": "활력을 ${vitality}만큼 증가시키고(체력을 ${health}만큼 증가시키고) 주변 수색 작업 수익을 ${profit}% 증가시킵니다"
+				"trans": "활력을 ${vitality}만큼 증가시키고(체력 ${health}증가) 탐색 임무 수익을 ${profit}% 증가시킵니다"
 			},
 			"description": {
 				"eng": "Increases vitality attribute by 1 every level, and increases profit from this job type",
@@ -3562,13 +3562,13 @@
 			},
 			"displayName": {
 				"eng": "Scavenging Level",
-				"trans": "청소 수준"
+				"trans": "탐색 레벨"
 			}
 		},
 		"thieving": {
 			"currentEffectDescription": {
 				"eng": "Increases dexterity by ${dexterity} (increases fire-arm weapons damage by ${dmg}) and thieving task profit",
-				"trans": "민첩성을 ${dexterity}만큼 증가시키고(화기 무기 데미지를 ${dmg}만큼 증가시킴) 도둑질 작업 수익 증가"
+				"trans": "민첩성을 ${dexterity}만큼 증가시키고(화기 무기 데미지 ${dmg}증가) 도둑질 작업 수익 증가"
 			},
 			"description": {
 				"eng": "Increases dexterity attribute by 1 every level, and increases profit from this job type",
@@ -3595,7 +3595,7 @@
 	"locationListPage": {
 		"cleared": {
 			"eng": "Cleared",
-			"trans": "클리어됨"
+			"trans": "클리어"
 		},
 		"currentLocTitle": {
 			"eng": "Current Location",
@@ -3612,18 +3612,18 @@
 		},
 		"levelRange": {
 			"eng": "Lv ${enemyMinLevel}-${enemyMaxLevel}",
-			"trans": "${enemyMinLevel}~${enemyMaxLevel} 레벨",
+			"trans": "Lv ${enemyMinLevel}~${enemyMaxLevel}",
 			"vars": []
 		},
 		"listHeader": {
 			"title": {
 				"eng": "More levels will be unlocked when level up",
-				"trans": "레벨이 올라갈 때마다 더 많은 레벨이 해제됩니다"
+				"trans": "레벨이 올라갈 때마다 더 많은 레벨이 해금됩니다"
 			}
 		},
 		"lockedError": {
 			"eng": "You can travel to this location when you reach level ${level}, or by completing the previous level stronghold.",
-			"trans": "레벨 ${level}에 도달하거나 이전 레벨의 소굴을 완료하면 이 위치로 여행할 수 있습니다.",
+			"trans": "레벨 ${level}에 도달하거나 이전 레벨의 아지트를 완료하면 이 위치로 여행할 수 있습니다.",
 			"vars": []
 		}
 	},
@@ -3689,7 +3689,7 @@
 		"pvpFailed1": {
 			"body": {
 				"eng": "${playerName} tried to mug you but you won the fight",
-				"trans": "${playerName}이(가) 당신을 노린 것 같지만 싸움에서 승리했습니다"
+				"trans": "${playerName}이(가) 당신을 노렸지만 당신이 싸움에서 승리했습니다"
 			}
 		},
 		"pvpFailed2": {
@@ -3721,7 +3721,7 @@
 			},
 			"referral": {
 				"eng": "You have received ${premiumAmount} from your referral to ${playerName}",
-				"trans": "당신은 ${playerName}에게 추천을 통해 ${premiumAmount}을(를) 받았습니다"
+				"trans": "${playerName}에게 보낸 추천을 통해 ${premiumAmount}을(를) 받았습니다"
 			}
 		}
 	},
@@ -3747,7 +3747,7 @@
 		"dungeonButton": {
 			"title": {
 				"eng": "Explore stronghold",
-				"trans": "소굴 탐험"
+				"trans": "아지트 탐험"
 			}
 		},
 		"gangButton": {
@@ -3802,7 +3802,7 @@
 		},
 		"socialButton": {
 			"eng": "social",
-			"trans": "사회적인"
+			"trans": "소셜"
 		},
 		"tasksButton": {
 			"title": {
@@ -3832,7 +3832,7 @@
 		},
 		"blackMarket": {
 			"eng": "Black Market",
-			"trans": "블랙마켓"
+			"trans": "암암시장"
 		},
 		"currency": {
 			"eng": "Currency",
@@ -3872,26 +3872,26 @@
 		},
 		"territory": {
 			"eng": "Territory",
-			"trans": "영토"
+			"trans": "영역"
 		}
 	},
 	"market": {
 		"completeMessage": {
 			"bidOutbidded": {
 				"eng": "${item} has been outbidded by another player with ${amount}. ${returnAmount} has been added back to your account",
-				"trans": "${item}이(가) 다른 플레이어에 의해 ${amount}로 입찰되었습니다. ${returnAmount}이(가) 계정에 반환되었습니다"
+				"trans": "${item}이(가) ${amount}을 입찰한 다른 플레이어에 의해 상회입찰 되었습니다. ${returnAmount}이(가) 계정에 반환되었습니다"
 			},
 			"bidPlaced": {
 				"eng": "A player has placed a ${amount} bid on ${item}.",
-				"trans": "플레이어가 ${item}에 ${amount}의 입찰을 냈습니다."
+				"trans": "플레이어가 ${item}에 ${amount}을 입찰했습니다."
 			},
 			"bidPlacedGrace": {
 				"eng": "A player has placed a ${amount} bid on ${item}. The auction has been extended by ${minutes} minutes.",
-				"trans": "플레이어가 ${item}에 ${amount}의 입찰을 했습니다. 경매가 ${minutes}분 연장되었습니다."
+				"trans": "플레이어가 ${item}에 ${amount}을 입찰했습니다. 경매가 ${minutes}분 연장되었습니다."
 			},
 			"buyout": {
 				"eng": "${item} has been purchased with buyout, ${amount} (${originalAmount} - ${tax}% tax) has been added to your account",
-				"trans": "${item}이(가) 바이아웃으로 구매되었습니다. ${amount} (${originalAmount} - 세금 ${tax}%)이(가) 계정에 추가되었습니다"
+				"trans": "${item}이(가) 즉시구매로 구매되었습니다. ${amount} (${originalAmount} - 세금 ${tax}%)이 계정에 추가되었습니다"
 			}
 		},
 		"error": {
@@ -3905,12 +3905,12 @@
 			},
 			"itemNotFound": {
 				"eng": "this item no longer exists in your market items",
-				"trans": "이 아이템은 더 이상 당신의 시장 아이템에 존재하지 않습니다"
+				"trans": "이 아이템은 더 이상 당신의 암시장 아이템에 존재하지 않습니다"
 			}
 		},
 		"itemExpired": {
 			"eng": "Your item ${item} has expired on market with no bidder, and has been returned to your delivery interface",
-			"trans": "당신의 아이템 ${item}은(는) 시장에서 입찰자 없이 만료되어 배송 인터페이스로 반환되었습니다"
+			"trans": "당신의 아이템 ${item}은(는) 암시장에서 입찰자 없이 만료되어 배송 인터페이스로 반송되었습니다"
 		},
 		"itemSold": {
 			"bidderMsg": {
@@ -3919,7 +3919,7 @@
 			},
 			"ownerMsg": {
 				"eng": "${item} has been sold on market to the highest bidder for ${price}, you received ${afterTax} (${price} - ${tax}% tax)",
-				"trans": "${item}이(가) ${price}에 최고 입찰가로 시장에서 판매되었습니다. 세금(${tax}%)을 제외한 ${price}을(를) 받았습니다"
+				"trans": "${item}이(가) ${price}에 최고 입찰가로 암시장에서 판매되었습니다. 세금(${tax}%)을 제외한 ${price}을 받았습니다"
 			}
 		}
 	},
@@ -3930,18 +3930,18 @@
 		},
 		"cantRemoveTime": {
 			"eng": "This item has been on market for more than ${time} minutes and can\\'t be removed",
-			"trans": "이 아이템은 ${time}분 이상 마켓에 판매 중이어서 내려놓을 수 없습니다"
+			"trans": "이 아이템은 암시장에 등록된 지 ${time}분 이상 지나서 제거할 수 없습니다"
 		},
 		"removeButton": {
 			"eng": "Remove from market",
-			"trans": "시장에서 제거"
+			"trans": "암시장에서 제거"
 		}
 	},
 	"marketItemList": {
 		"header": {
 			"buyout": {
 				"eng": "Buyout",
-				"trans": "구매 완료"
+				"trans": "즉시구매"
 			},
 			"currentBid": {
 				"eng": "Bid",
@@ -3982,7 +3982,7 @@
 		},
 		"buyout": {
 			"eng": "Buyout with ${symbol}${buyOutPrice}",
-			"trans": "${symbol}${buyOutPrice}로 매수"
+			"trans": "${symbol}${buyOutPrice}로 즉시구매"
 		},
 		"confirmButton": {
 			"eng": "Confirm",
@@ -3991,7 +3991,7 @@
 		"error": {
 			"notEnoughCurrency": {
 				"eng": "You do not have enough currency to place this bid",
-				"trans": "이 입찰을 하려면 화폐가 충분하지 않습니다"
+				"trans": "이 입찰을 할 만큼 화폐가 충분하지 않습니다"
 			}
 		}
 	},
@@ -4005,7 +4005,7 @@
 		"buyout": {
 			"title": {
 				"eng": "Buyout",
-				"trans": "구매 완료"
+				"trans": "즉시구매"
 			}
 		},
 		"duration": {
@@ -4017,7 +4017,7 @@
 		"error": {
 			"noItemSelected": {
 				"eng": "Please select an item to put on the market",
-				"trans": "시장에 올릴 아이템을 선택해주세요"
+				"trans": "암시장에 올릴 아이템을 선택해주세요"
 			},
 			"noPrice": {
 				"eng": "Please set minimum bid or buyout price",
@@ -4033,7 +4033,7 @@
 		"noItem": {
 			"description": {
 				"eng": "Please select an item to put on the market",
-				"trans": "시장에 올릴 아이템을 선택해주세요"
+				"trans": "암시장에 올릴 아이템을 선택해주세요"
 			},
 			"title": {
 				"eng": "No item selected",
@@ -4043,12 +4043,12 @@
 		"putItemButton": {
 			"title": {
 				"eng": "Put item on market",
-				"trans": "시장에 아이템을 등록하기"
+				"trans": "암시장에 아이템 등록하기"
 			}
 		},
 		"tip": {
 			"eng": "Items you list in the market will initially have a withdrawal period of ${minute} minutes, during which no one can place a bid. After this withdrawal period ends, the system will require a minimum bid difference of at least ${minBidDiff} compared to the previous highest bid.",
-			"trans": "마켓에 등록한 아이템은 처음 ${minute}분 동안 출품 기간이 있으며, 이 기간 동안 입찰이 불가능합니다. 출품 기간이 끝나면 시스템에서는 이전 최고 입찰가보다 적어도 ${minBidDiff} 이상의 차이를 요구합니다."
+			"trans": "암시장에 등록한 아이템은 처음 ${minute}분 동안 출품 기간이 있으며, 이 기간 동안 입찰이 불가능합니다. 출품 기간이 끝나면 시스템에서는 이전 최고 입찰가보다 적어도 ${minBidDiff} 이상의 차이를 요구합니다."
 		},
 		"useBid": {
 			"title": {
@@ -4061,7 +4061,7 @@
 		"selectItemModal": {
 			"title": {
 				"eng": "Select item to put on market",
-				"trans": "시장에 올릴 아이템을 선택하세요"
+				"trans": "암시장에 등록할 아이템을 선택하세요"
 			}
 		}
 	},
@@ -4069,7 +4069,7 @@
 		"applyButton": {
 			"title": {
 				"eng": "Apply",
-				"trans": "적용"
+				"trans": "확인"
 			}
 		},
 		"maxLevelInput": {
@@ -4091,7 +4091,7 @@
 			},
 			"title": {
 				"eng": "Tier",
-				"trans": "티어"
+				"trans": "등급"
 			}
 		},
 		"title": {
@@ -4103,7 +4103,7 @@
 		"error": {
 			"notEnoughSpace": {
 				"eng": "You have too many mercenaries now, you may upgrade the space by getting a better apartment.",
-				"trans": "지금 당신은 너무 많은 용병을 가지고 있습니다. 더 좋은 아파트를 구해서 공간을 업그레이드할 수 있습니다."
+				"trans": "너무 많은 용병을 가지고 있습니다. 더 좋은 아파트를 구해서 공간을 업그레이드할 수 있습니다."
 			}
 		},
 		"upgradeLevelError": {
@@ -4124,15 +4124,15 @@
 		},
 		"deleteMercenaryConfirm": {
 			"eng": "Dismiss now",
-			"trans": "지금 닫기"
+			"trans": "해고하기"
 		},
 		"deleteMercenaryMessage2": {
 			"eng": "You will irreversibly lose all progress on this mercenary but a portion of resources spend will be returned.",
-			"trans": "이 용병의 모든 진행 상황은 되돌릴 수 없게 손실될 것이지만 사용한 자원의 일부는 반환됩니다."
+			"trans": "이 용병의 모든 진행 상황은 되돌릴 수 없게 손실되지만, 사용한 자원의 일부는 반환됩니다."
 		},
 		"dismiss": {
 			"eng": "Dismiss",
-			"trans": "해제"
+			"trans": "해고"
 		},
 		"level": {
 			"eng": "Level",
@@ -4163,7 +4163,7 @@
 		"confirmModal": {
 			"confirmText": {
 				"eng": "Dismiss",
-				"trans": "해제"
+				"trans": "해고"
 			},
 			"description": {
 				"eng": "Are you sure you want to dismiss the selected mercenaries?",
@@ -4171,7 +4171,7 @@
 			},
 			"title": {
 				"eng": "Confirm Dismiss",
-				"trans": "확인 후 해제"
+				"trans": "해고 확정"
 			}
 		},
 		"description": {
@@ -4180,7 +4180,7 @@
 		},
 		"dismiss": {
 			"eng": "Dismiss",
-			"trans": "해제"
+			"trans": "해고"
 		},
 		"noMercenaries": {
 			"eng": "No available mercenaries",
@@ -4188,7 +4188,7 @@
 		},
 		"title": {
 			"eng": "Dismiss Mercenary",
-			"trans": "해고하기"
+			"trans": "용병 해고"
 		}
 	},
 	"mercenaryDrawPage": {
@@ -4216,7 +4216,7 @@
 		},
 		"recruitTenDescription": {
 			"eng": "Grantee a 4 star or higher mercenary",
-			"trans": "4성 이상의 용병을 수여하십시오"
+			"trans": "4성 이상의 용병 1명 보장"
 		}
 	},
 	"mercenaryLevelDisplay": {
@@ -4242,7 +4242,7 @@
 			"dismiss": {
 				"title": {
 					"eng": "Dismiss",
-					"trans": "해제"
+					"trans": "해고"
 				}
 			}
 		},
@@ -4253,11 +4253,11 @@
 		"tip": {
 			"default": {
 				"eng": "Dismiss mercenaries to receive ${enhancer} and ${upgrade} base on their level and stars.",
-				"trans": "우리는 우리의 용병들을 해고하여 그들의 레벨과 별에 따라 ${강화제}와 ${업그레이드}를 받을 수 있습니다."
+				"trans": "용병을 해고하여 그들의 레벨과 등급에 따라 ${enhancer}와 ${upgrade}를 얻을 수 있습니다."
 			},
 			"noLevelUp": {
 				"eng": "Level up your mercenaries to improve their stats and ability",
-				"trans": "우리의 용병들의 능력과 능력치를 향상시키기 위해 레벨을 올려주세요"
+				"trans": "레벨을 올려서 용병의 능력과 능력치를 향상시킬 수 있습니다."
 			},
 			"noMercenaries": {
 				"eng": "You can recruit mercenaries from the Red Bar.",
@@ -4305,7 +4305,7 @@
 		"bountyHunter": {
 			"description": {
 				"eng": "A bounty hunter is a mercenary who uses their skills to hunt down their enemies",
-				"trans": "바운티 헌터는 자신의 기술을 이용해 적을 추적하는 용병입니다"
+				"trans": "현상금 사냥꾼은 자신의 기술을 이용해 적을 추적하는 용병입니다"
 			},
 			"displayName": {
 				"eng": "Bounty Hunter",
@@ -4315,7 +4315,7 @@
 		"netrunner": {
 			"description": {
 				"eng": "A netrunner is a hacker who uses their skills to infiltrate computer systems",
-				"trans": "넷러너는 컴퓨터 시스템에 침투하는 능력을 이용하는 해커입니다"
+				"trans": "넷러너는 자신의 기술을 이용해 컴퓨터 시스템에 침투하는 해커입니다"
 			},
 			"displayName": {
 				"eng": "Netrunner",
@@ -4325,11 +4325,11 @@
 		"protector": {
 			"description": {
 				"eng": "A protector is a mercenary who uses their skills to protect their allies",
-				"trans": "보호자는 동료를 보호하기 위해 자신의 기술을 사용하는 용병입니다"
+				"trans": "수호자는 자신의 기술을 이용해 동료를 보호하는 용병입니다"
 			},
 			"displayName": {
 				"eng": "Protector",
-				"trans": "보호자"
+				"trans": "수호자"
 			}
 		}
 	},
@@ -4361,7 +4361,7 @@
 			},
 			"description": {
 				"eng": "Invite ${player} to your gang",
-				"trans": "${player}을(를) 당신의 갱에 초대하세요"
+				"trans": "${player}을(를) 당신의 갱에 초대합니다"
 			},
 			"title": {
 				"eng": "Send invite?",
@@ -4373,7 +4373,7 @@
 		"timingUnlock": {
 			"tip": {
 				"eng": "Activate all dots to unlock by clicking. The dots will rotate faster and faster.",
-				"trans": "클릭하여 모든 점을 활성화하면 잠금이 해제됩니다. 점들은 점점 더 빠르게 회전합니다."
+				"trans": "클릭으로 모든 점을 활성화하면 잠금이 해제됩니다. 점들은 점점 더 빠르게 회전합니다."
 			}
 		}
 	},
@@ -4384,11 +4384,11 @@
 		},
 		"claim": {
 			"eng": "Claim",
-			"trans": "요구"
+			"trans": "수령"
 		},
 		"claimed": {
 			"eng": "Claimed",
-			"trans": "주장함"
+			"trans": "수령함"
 		},
 		"craft": {
 			"eng": "craft",
@@ -4420,7 +4420,7 @@
 		},
 		"mercExpCurrencyDescription": {
 			"eng": "A nano-machine injection device created by TaiXing Cybernetics, providing unparalleled upgrades to cybernetic abilities. Inject into the neck for enhanced performance.",
-			"trans": "타이싱 사이버네틱에서 만든 나노 머신 주사기로 사이버네틱 능력을 비롯한 뛰어난 업그레이드를 제공합니다. 목에 주사하여 성능을 향상시킵니다."
+			"trans": "타이싱 사이버네틱에서 만든 나노 머신 주사기로, 사이버네틱 능력에 뛰어난 강화효과를 제공합니다. 목에 주사하여 성능을 향상시킵니다."
 		},
 		"mercExpCurrencyName": {
 			"eng": "Cybernetic Enhancer",
@@ -4502,11 +4502,11 @@
 			},
 			"message": {
 				"eng": "${playerName} has invited you to their stronghold lobby.",
-				"trans": "${playerName}님이 당신을 소굴 로비로 초대했습니다."
+				"trans": "${playerName}님이 당신을 아지트 로비로 초대했습니다."
 			},
 			"title": {
 				"eng": "Stronghold Lobby Invite",
-				"trans": "소굴 로비 초대"
+				"trans": "아지트 로비 초대"
 			}
 		}
 	},
@@ -4514,13 +4514,13 @@
 		"apartmentInvite": {
 			"notIdle": {
 				"eng": "You are not idle",
-				"trans": "당신은 게으르지 않습니다"
+				"trans": "당신은 휴식상태가 아닙니다"
 			}
 		},
 		"clanInvite": {
 			"alreadyInClan": {
 				"eng": "You are already in a gang",
-				"trans": "이미 갱에 속해 있습니다"
+				"trans": "당신은 이미 갱에 속해 있습니다"
 			}
 		},
 		"lobbyInvite": {
@@ -4544,7 +4544,7 @@
 		"bar": {
 			"description": {
 				"eng": "Popular bar amounts mercenaries, you can find Chloe here and meet other mercenaries",
-				"trans": "인기 있는 바에서 용병들의 수를 확인할 수 있으며, 여기서 클로이를 만나 다른 용병들과 만날 수 있습니다"
+				"trans": "용병들이 있는 인기있는 바. 여기서 클로이를 찾고 다른 용병들과 만날 수 있습니다"
 			},
 			"greetings": {
 				"eng": [
@@ -4555,11 +4555,11 @@
 					"You're not the chatty type, I like that. What can I get you?"
 				],
 				"trans": [
-					"무엇을 가져다 드릴까요?",
-					"빨리 해줘, 난 하루 종일 시간이 없어.",
-					"당신은 이 근처 사람이 아니시군요?",
-					"나는 사소한 대화는 하지 않아, 무엇을 마시고 싶어?",
-					"너는 수다스러운 타입은 아니구나, 나는 그걸 좋아해. 무엇을 가져다줄까?"
+					"뭘 가져다 줄까?",
+					"빨리 말해, 난 하루 종일 시간이 없어.",
+					"넌 이 근처 사람이 아니구나? 그치?",
+					"나는 수다 안떨어, 마시고 싶은거 있어?",
+					"너는 수다스러운 타입은 아니네? 마음에 들어. 뭘 가져다줄까?"
 				]
 			},
 			"locationName": {
@@ -4577,9 +4577,9 @@
 					"Sorry, darling. The quest shelf is empty at the moment. Swing by later."
 				],
 				"trans": [
-					"나중에 다시 오세요, 지금은 제가 드릴 것이 없어요.",
-					"\"미안하지만 나는 일을 다 끝냈어, 사랑. 다음에 다시 오세요.\"",
-					"미안해, 여보. 현재 퀘스트 선반은 비어 있어. 나중에 다시 들러봐."
+					"나중에 다시 와. 지금은 줄 수 있는게 없어.",
+					"안타깝게도 내 일은 끝났어 자기. 다음에 다시 와.",
+					"미안 자기. 지금은 퀘스트 선반이 비어 있어. 나중에 다시 와."
 				]
 			},
 			"questLines": {
@@ -4587,7 +4587,7 @@
 					"Up for new gigs?"
 				],
 				"trans": [
-					"새로운 기회를 찾고 계신가요?"
+					"일거리를 찾고 있나요?"
 				]
 			},
 			"questPendingLines": {
@@ -4604,21 +4604,21 @@
 				"description": {
 					"lowLevel": {
 						"eng": "You need to be at least level ${level} to put item to the market",
-						"trans": "아이템을 시장에 등록하려면 최소한 레벨 ${level} 이어야 합니다"
+						"trans": "아이템을 암시장에 등록하려면 레벨이 ${level}이상 이어야 합니다"
 					},
 					"noApartment": {
 						"eng": "You need an apartment to use the market",
-						"trans": "시장을 이용하려면 아파트가 필요합니다"
+						"trans": "암시장을 이용하려면 아파트가 필요합니다"
 					}
 				},
 				"title": {
 					"eng": "Browse the market",
-					"trans": "시장을 둘러보기"
+					"trans": "암시장 둘러보기"
 				}
 			},
 			"description": {
 				"eng": "A discreet trading post for mercs of ArcLight City, you can sell and buy items here with Ren.",
-				"trans": "아크라이트 시티의 신비한 거래소, 여기서는 렌과 함께 아이템을 판매하고 구매할 수 있습니다."
+				"trans": "아크라이트 시티의 하루살이들을 위한 신중한 거래소, 여기서 렌과 함께 아이템을 판매하고 구매할 수 있습니다."
 			},
 			"greetings": {
 				"eng": [
@@ -4627,18 +4627,18 @@
 					"They say in the black market, you can buy anything, even your own salvation. What's your salvation worth to you?"
 				],
 				"trans": [
-					"이 도시의 어둠 속으로 환영합니다. 교환할 가치 있는 물건이 있기를 바랍니다.",
-					"경매의 밤은 항상 뜻밖의 일로 가득 차 있습니다. 당신의 운명에 입찰할 준비가 되셨나요?",
-					"검은 시장에서는 무엇이든 구매할 수 있다고 합니다. 심지어 자신의 구원도 말이죠. 당신에게는 얼마나 값어치가 있나요?"
+					"이 도시의 어둠 속으로 환영해. 교환할 가치 있는 물건을 가져왔길 바랄게.",
+					"경매의 밤은 항상 놀라운 일로 가득 차 있지. 당신의 운명에 입찰할 준비가 됐어?",
+					"암시장에서는 무엇이든 구매할 수 있다는 말이 있어. 자신의 구원까지도. 당신의 구원은 당신에게 어느정도의 값어치일까?"
 				]
 			},
 			"locationName": {
 				"eng": "Black Market",
-				"trans": "블랙 마켓"
+				"trans": "암시장"
 			},
 			"myStuffButton": {
 				"eng": "show me my stuff on the market",
-				"trans": "나의 물건을 시장에서 보여줘"
+				"trans": "암시장에 있는 내 물건을 보여줘"
 			},
 			"npcName": {
 				"eng": "Ren",
@@ -4651,9 +4651,9 @@
 					"No gigs on tap, sweetheart. But stay frosty, 'cause I'll give you a holla when a sweet opportunity slides my way."
 				],
 				"trans": [
-					"지금은 아니야, 크롬헤드. 하지만 걱정하지 마. 내가 너의 기술에 맞는 일을 찾으면 연락할게.",
-					"지금은 아무것도 없지만, 아직 재부팅하지 마세요. 내가 맛있는 것을 제공할 때 알려드릴게요. 참을성을 갖춰주세요, 춤바.",
-					"\"스윗하트, 현재는 일거리가 없어. 하지만 차가운 마음으로 기다려봐, 내가 좋은 기회를 발견하면 알려줄게.\""
+					"지금은 아니야, 고철머리. 하지만 걱정마. 내가 너의 기술에 맞는 일을 찾으면 연락할게.",
+					"지금은 아무것도 없지만, 아직 재부팅하지 마. 매콤한 요청이 오면 연락할거야. 좀 참아, 이 자식아.",
+					"자기, 지금은 일거리가 없어. 머리 좀 식히고 기다려 봐, 달달한 일이 들어오면 연락 해줄 테니까."
 				]
 			},
 			"questLines": {
@@ -4661,7 +4661,7 @@
 					"Up for new gigs?"
 				],
 				"trans": [
-					"새로운 기회를 찾고 계신가요?"
+					"일거리를 찾고 있나?"
 				]
 			},
 			"questPendingLines": {
@@ -4669,7 +4669,7 @@
 					"Quit wasting my time, unless you have done your job."
 				],
 				"trans": [
-					"내 시간을 낭비하지 마세요, 일을 끝냈을 때만 말이죠."
+					"네 일을 끝내기 전엔 내 시간을 낭비하게 하지마."
 				]
 			},
 			"tipBox": {
@@ -4812,7 +4812,7 @@
 			},
 			"market": {
 				"eng": "Player market",
-				"trans": "플레이어 시장"
+				"trans": "플레이어 암시장"
 			},
 			"mercenary": {
 				"eng": "Mercenary",
@@ -5053,7 +5053,7 @@
 			},
 			"complete": {
 				"eng": "submit quest",
-				"trans": "퀘스트 제출"
+				"trans": "퀘스트 완료"
 			}
 		},
 		"confirm": {
@@ -5916,7 +5916,7 @@
 		"received": {
 			"title": {
 				"eng": "Received",
-				"trans": "받은"
+				"trans": "획득"
 			}
 		}
 	},
@@ -5933,7 +5933,7 @@
 		},
 		"min": {
 			"eng": "min",
-			"trans": "분"
+			"trans": "최소"
 		}
 	},
 	"server": {
@@ -6352,7 +6352,7 @@
 	"stat": {
 		"armor": {
 			"eng": "Armor",
-			"trans": "방어구"
+			"trans": "방어력"
 		},
 		"autoDmg": {
 			"eng": "Auto Attack Damage",
@@ -6368,11 +6368,11 @@
 		},
 		"blockChance": {
 			"eng": "Block Chance",
-			"trans": "가드 확률"
+			"trans": "방해 확률"
 		},
 		"blockStrength": {
 			"eng": "Block Strength",
-			"trans": "차단 강도"
+			"trans": "방해 강도"
 		},
 		"critChance": {
 			"eng": "Critical Chance",
