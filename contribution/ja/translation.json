@@ -713,6 +713,12 @@
 		}
 	},
 	"clan": {
+		"disbandMail": {
+			"subject": {
+				"eng": "Your gang has been disbanded",
+				"trans": "あなたのギャングは解散されました。"
+			}
+		},
 		"error": {
 			"clanIsFull": {
 				"eng": "this gang is current at max member capacity",
@@ -2250,6 +2256,20 @@
 			}
 		}
 	},
+	"itemCalibratePage": {
+		"noItem": {
+			"description": {
+				"eng": "Please select an equipment to calibrate",
+				"trans": "装備をキャリブレーションするために装備を選択してください。"
+			}
+		},
+		"selectItem": {
+			"title": {
+				"eng": "Select item to calibrate",
+				"trans": "キャリブレーションするアイテムを選択してください。"
+			}
+		}
+	},
 	"itemCalibrateTab": {
 		"caliButton": {
 			"des": {
@@ -3419,8 +3439,8 @@
 		},
 		"selectItem": {
 			"title": {
-				"eng": "Select item to calibrate",
-				"trans": "キャリブレーションするアイテムを選択してください"
+				"eng": "Select item to upgrade",
+				"trans": "アップグレードするアイテムを選択してください。"
 			}
 		},
 		"selectItemModal": {
@@ -6258,6 +6278,10 @@
 			"eng": "Enable Gang Chat Notification",
 			"trans": "ギャングチャットの通知を有効にする"
 		},
+		"enableInGameAnnouncement": {
+			"eng": "Enable In-Game Announcement",
+			"trans": "ゲーム内アナウンスを有効にする"
+		},
 		"enablePowerSavingMode": {
 			"eng": "Enable Power Saving Mode",
 			"trans": "電力節約モードを有効にする"
@@ -6983,9 +7007,9 @@
 			"eng": "Claim reward",
 			"trans": "報酬を受け取る"
 		},
-		"locationNotCleared": {
-			"eng": "Clear any of the level ${level} strongholds to unlock the rewards",
-			"trans": "レベル${level}の地城をクリアして報酬を解除します",
+		"locationNotCleared2": {
+			"eng": "Clear level ${level} hard difficulty strongholds to unlock the rewards",
+			"trans": "${level}のハード難易度の要塞をクリアして、報酬をアンロックしましょう。",
 			"vars": []
 		},
 		"rewardClaimed": {
@@ -7329,10 +7353,6 @@
 			"trans": "地城で運べるアイテムの量を増やすために、バックパックをアップグレードしてください。"
 		},
 		"eng": "Backpack upgrade",
-		"notEnoughCurrency": {
-			"eng": "Not enough ${currency}",
-			"trans": "${currency}が足りません"
-		},
 		"slots": {
 			"eng": "${totalSlots} slots(+${slot})",
 			"trans": "${totalSlots}スロット（+${slot}）"
@@ -7354,10 +7374,6 @@
 			"trans": "アパートを借りることでインベントリスペースを拡張することもできます。"
 		},
 		"eng": "Inventory upgrade",
-		"notEnoughCurrency": {
-			"eng": "Not enough ${currency}",
-			"trans": "${currency}が足りません"
-		},
 		"trans": "インベントリのアップグレード",
 		"upgrade": {
 			"eng": "Upgrade ${index}",
@@ -7491,6 +7507,16 @@
 		}
 	},
 	"worldEventType": {
+		"calibratedEpic": {
+			"announcement": {
+				"eng": "${playerName} has calibrated ${item}!",
+				"trans": "${playerName}が${item}をキャリブレーションしました！"
+			},
+			"name": {
+				"eng": "Calibrated Epic",
+				"trans": "キャリブレーション済みのエピック"
+			}
+		},
 		"mugged": {
 			"name": {
 				"eng": "Mugged",
@@ -7501,6 +7527,18 @@
 			"name": {
 				"eng": "Mugged Failed",
 				"trans": "襲撃失敗"
+			}
+		},
+		"purchasedEpic": {
+			"name": {
+				"eng": "Purchased Epic",
+				"trans": "購入済みのエピック"
+			}
+		},
+		"upgradedEpic": {
+			"name": {
+				"eng": "Upgraded Epic",
+				"trans": "アップグレードされたエピック"
 			}
 		}
 	}

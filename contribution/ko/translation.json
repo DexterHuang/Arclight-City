@@ -713,6 +713,12 @@
 		}
 	},
 	"clan": {
+		"disbandMail": {
+			"subject": {
+				"eng": "Your gang has been disbanded",
+				"trans": "당신의 갱이 해체되었습니다"
+			}
+		},
 		"error": {
 			"clanIsFull": {
 				"eng": "this gang is current at max member capacity",
@@ -1061,8 +1067,8 @@
 	"createGang": {
 		"confirmModal": {
 			"description": {
-				"eng": "Are you sure you want to create a gang with \\nthe name \"${name}\"and tag \"${tag}\"?",
-				"trans": "\"${name}\"이라는 이름과 \"${tag}\"태그를 가진 갱을 만드시겠습니까?"
+				"eng": "Are you sure you want to create a gang with \\nthe name \"${name}\" and tag \"${tag}\"?",
+				"trans": "\"${name}\" 이름과 \"${tag}\" 태그를 가진 갱을 생성하시겠습니까?"
 			},
 			"title": {
 				"eng": "Create gang",
@@ -2250,6 +2256,20 @@
 			}
 		}
 	},
+	"itemCalibratePage": {
+		"noItem": {
+			"description": {
+				"eng": "Please select an equipment to calibrate",
+				"trans": "장비 교정을 위해 장비를 선택해주세요"
+			}
+		},
+		"selectItem": {
+			"title": {
+				"eng": "Select item to calibrate",
+				"trans": "교정할 아이템을 선택하세요"
+			}
+		}
+	},
 	"itemCalibrateTab": {
 		"caliButton": {
 			"des": {
@@ -3419,8 +3439,8 @@
 		},
 		"selectItem": {
 			"title": {
-				"eng": "Select item to calibrate",
-				"trans": "교정할 아이템을 선택하세요"
+				"eng": "Select item to upgrade",
+				"trans": "업그레이드할 아이템을 선택하세요"
 			}
 		},
 		"selectItemModal": {
@@ -6005,7 +6025,7 @@
 		},
 		"createCharacter": {
 			"nameAlreadyExists": {
-				"eng": "the name \"${name}\"is already taken",
+				"eng": "the name \"${name}\" is already taken",
 				"trans": "\"${name}\"이(가) 이미 사용 중입니다",
 				"vars": []
 			},
@@ -6257,6 +6277,10 @@
 		"enableGangChatNotification": {
 			"eng": "Enable Gang Chat Notification",
 			"trans": "갱 채팅 알림 활성화"
+		},
+		"enableInGameAnnouncement": {
+			"eng": "Enable In-Game Announcement",
+			"trans": "게임 내 공지 활성화"
 		},
 		"enablePowerSavingMode": {
 			"eng": "Enable Power Saving Mode",
@@ -6983,9 +7007,9 @@
 			"eng": "Claim reward",
 			"trans": "보상 받기"
 		},
-		"locationNotCleared": {
-			"eng": "Clear any of the level ${level} strongholds to unlock the rewards",
-			"trans": "레벨 ${level} 소굴을 클리어하면 보상 잠금 해제",
+		"locationNotCleared2": {
+			"eng": "Clear level ${level} hard difficulty strongholds to unlock the rewards",
+			"trans": "레벨 ${level}의 어려운 난이도 소굴을 클리어하여 보상을 잠금 해제하세요",
 			"vars": []
 		},
 		"rewardClaimed": {
@@ -7329,10 +7353,6 @@
 			"trans": "소굴에 휴대할 수 있는 아이템 양을 늘리려면 배낭을 업그레이드하세요."
 		},
 		"eng": "Backpack upgrade",
-		"notEnoughCurrency": {
-			"eng": "Not enough ${currency}",
-			"trans": "${currency}이(가) 부족합니다"
-		},
 		"slots": {
 			"eng": "${totalSlots} slots(+${slot})",
 			"trans": "${totalSlots} 슬롯(+${slot})"
@@ -7354,10 +7374,6 @@
 			"trans": "아파트를 임대하여 인벤토리 공간을 업그레이드할 수도 있습니다"
 		},
 		"eng": "Inventory upgrade",
-		"notEnoughCurrency": {
-			"eng": "Not enough ${currency}",
-			"trans": "${currency}이(가) 부족합니다"
-		},
 		"trans": "인벤토리 업그레이드",
 		"upgrade": {
 			"eng": "Upgrade ${index}",
@@ -7491,6 +7507,16 @@
 		}
 	},
 	"worldEventType": {
+		"calibratedEpic": {
+			"announcement": {
+				"eng": "${playerName} has calibrated ${item}!",
+				"trans": "${playerName}님이 ${item}을(를) 교정했습니다!"
+			},
+			"name": {
+				"eng": "Calibrated Epic",
+				"trans": "교정된 에픽"
+			}
+		},
 		"mugged": {
 			"name": {
 				"eng": "Mugged",
@@ -7501,6 +7527,18 @@
 			"name": {
 				"eng": "Mugged Failed",
 				"trans": "강도질 실패"
+			}
+		},
+		"purchasedEpic": {
+			"name": {
+				"eng": "Purchased Epic",
+				"trans": "구매한 에픽"
+			}
+		},
+		"upgradedEpic": {
+			"name": {
+				"eng": "Upgraded Epic",
+				"trans": "업그레이드된 에픽"
 			}
 		}
 	}

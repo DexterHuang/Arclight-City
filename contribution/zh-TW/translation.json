@@ -713,6 +713,12 @@
 		}
 	},
 	"clan": {
+		"disbandMail": {
+			"subject": {
+				"eng": "Your gang has been disbanded",
+				"trans": "你的幫派已被解散"
+			}
+		},
 		"error": {
 			"clanIsFull": {
 				"eng": "this gang is current at max member capacity",
@@ -1061,7 +1067,7 @@
 	"createGang": {
 		"confirmModal": {
 			"description": {
-				"eng": "Are you sure you want to create a gang with \\nthe name \"${name}\"and tag \"${tag}\"?",
+				"eng": "Are you sure you want to create a gang with \\nthe name \"${name}\" and tag \"${tag}\"?",
 				"trans": "你確定要建立一個名為\"${name}\"且標籤為\"${tag}\"的幫派嗎？"
 			},
 			"title": {
@@ -2250,6 +2256,20 @@
 			}
 		}
 	},
+	"itemCalibratePage": {
+		"noItem": {
+			"description": {
+				"eng": "Please select an equipment to calibrate",
+				"trans": "請選擇一件裝備進行校準"
+			}
+		},
+		"selectItem": {
+			"title": {
+				"eng": "Select item to calibrate",
+				"trans": "選擇要校準的物品"
+			}
+		}
+	},
 	"itemCalibrateTab": {
 		"caliButton": {
 			"des": {
@@ -3419,8 +3439,8 @@
 		},
 		"selectItem": {
 			"title": {
-				"eng": "Select item to calibrate",
-				"trans": "選擇要校準的物品"
+				"eng": "Select item to upgrade",
+				"trans": "選擇要升級的物品"
 			}
 		},
 		"selectItemModal": {
@@ -6005,7 +6025,7 @@
 		},
 		"createCharacter": {
 			"nameAlreadyExists": {
-				"eng": "the name \"${name}\"is already taken",
+				"eng": "the name \"${name}\" is already taken",
 				"trans": "名稱\"${name}\"已被使用",
 				"vars": []
 			},
@@ -6257,6 +6277,10 @@
 		"enableGangChatNotification": {
 			"eng": "Enable Gang Chat Notification",
 			"trans": "啟用幫派聊天通知"
+		},
+		"enableInGameAnnouncement": {
+			"eng": "Enable In-Game Announcement",
+			"trans": "啟用遊戲公告"
 		},
 		"enablePowerSavingMode": {
 			"eng": "Enable Power Saving Mode",
@@ -6983,9 +7007,9 @@
 			"eng": "Claim reward",
 			"trans": "領取獎勵"
 		},
-		"locationNotCleared": {
-			"eng": "Clear any of the level ${level} strongholds to unlock the rewards",
-			"trans": "清除任何${level}級地城以解鎖獎勵",
+		"locationNotCleared2": {
+			"eng": "Clear level ${level} hard difficulty strongholds to unlock the rewards",
+			"trans": "通過${level}難度的地城來解鎖獎勵",
 			"vars": []
 		},
 		"rewardClaimed": {
@@ -7329,10 +7353,6 @@
 			"trans": "升級您的背包以增加在地城中可以攜帶的物品數量。"
 		},
 		"eng": "Backpack upgrade",
-		"notEnoughCurrency": {
-			"eng": "Not enough ${currency}",
-			"trans": "${currency}不足"
-		},
 		"slots": {
 			"eng": "${totalSlots} slots(+${slot})",
 			"trans": "+ ${slot}個欄位"
@@ -7354,10 +7374,6 @@
 			"trans": "您還可以透過租用公寓來升級您的倉庫"
 		},
 		"eng": "Inventory upgrade",
-		"notEnoughCurrency": {
-			"eng": "Not enough ${currency}",
-			"trans": "${currency}不足"
-		},
 		"trans": "背包升級",
 		"upgrade": {
 			"eng": "Upgrade ${index}",
@@ -7491,6 +7507,16 @@
 		}
 	},
 	"worldEventType": {
+		"calibratedEpic": {
+			"announcement": {
+				"eng": "${playerName} has calibrated ${item}!",
+				"trans": "${playerName}已校準${item}！"
+			},
+			"name": {
+				"eng": "Calibrated Epic",
+				"trans": "校準的史詩"
+			}
+		},
 		"mugged": {
 			"name": {
 				"eng": "Mugged",
@@ -7501,6 +7527,18 @@
 			"name": {
 				"eng": "Mugged Failed",
 				"trans": "搶劫失敗"
+			}
+		},
+		"purchasedEpic": {
+			"name": {
+				"eng": "Purchased Epic",
+				"trans": "已購買史詩級物品"
+			}
+		},
+		"upgradedEpic": {
+			"name": {
+				"eng": "Upgraded Epic",
+				"trans": "升級至史詩級"
 			}
 		}
 	}
