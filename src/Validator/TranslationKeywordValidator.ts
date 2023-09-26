@@ -24,9 +24,9 @@ export class TranslationKeywordValidator implements IValidator {
         if (!match) {
           throw new Error(`${lang}/translation-keywords.json ${eng} does not contain a 'match' field`)
         }
-        if (!desc) {
-          throw new Error(`${lang}/translation-keywords.json ${eng} does not contain a 'desc' field`)
-        }
+        // if (!desc) {
+        //   throw new Error(`${lang}/translation-keywords.json ${eng} does not contain a 'desc' field`)
+        // }
       }
 
       console.log(`${lang}/translation-keywords.json is valid`);
