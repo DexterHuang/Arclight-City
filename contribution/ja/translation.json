@@ -2535,6 +2535,10 @@
 			"eng": "Cooking",
 			"trans": "料理"
 		},
+		"crafting": {
+			"eng": "Crafting",
+			"trans": "クラフティング"
+		},
 		"dailyQuest": {
 			"eng": "Daily quests",
 			"trans": "デイリークエスト"
@@ -5523,10 +5527,6 @@
 		}
 	},
 	"psychosisInfoModal": {
-		"button": {
-			"eng": "Close",
-			"trans": "閉じる"
-		},
 		"neuroblockerDescription": {
 			"eng": "use neuroblocker to reduce psychosis",
 			"trans": "サイコーシスを軽減するために神経ブロッカーを使用する。"
@@ -6278,6 +6278,10 @@
 			"eng": "Enable Gang Chat Notification",
 			"trans": "ギャングチャットの通知を有効にする"
 		},
+		"enableGlobalNotification": {
+			"eng": "Enable Global Notification",
+			"trans": "グローバル通知を有効にする"
+		},
 		"enableInGameAnnouncement": {
 			"eng": "Enable In-Game Announcement",
 			"trans": "ゲーム内アナウンスを有効にする"
@@ -6746,6 +6750,10 @@
 			"eng": "No clan has claimed this territory",
 			"trans": "どのクランもこの領土を主張していません"
 		},
+		"resetTip": {
+			"eng": "Territory points reset every week",
+			"trans": "テリトリーポイントは毎週リセットされます。"
+		},
 		"territoryBuffs": {
 			"eng": "leaderboard",
 			"trans": "リーダーボード"
@@ -7008,9 +7016,8 @@
 			"trans": "報酬を受け取る"
 		},
 		"locationNotCleared2": {
-			"eng": "Clear level ${level} hard difficulty strongholds to unlock the rewards",
-			"trans": "${level}のハード難易度の要塞をクリアして、報酬をアンロックしましょう。",
-			"vars": []
+			"eng": "Clear level ${level} ${dungeonType} stronghold to unlock the rewards",
+			"trans": "${level}レベルの${dungeonType}要塞をクリアして、報酬をアンロックしましょう。"
 		},
 		"rewardClaimed": {
 			"eng": "claimed",
@@ -7507,38 +7514,40 @@
 		}
 	},
 	"worldEventType": {
-		"calibratedEpic": {
+		"calibrated10": {
 			"announcement": {
 				"eng": "${playerName} has calibrated ${item}!",
 				"trans": "${playerName}が${item}をキャリブレーションしました！"
-			},
-			"name": {
-				"eng": "Calibrated Epic",
-				"trans": "キャリブレーション済みのエピック"
+			}
+		},
+		"calibrated9": {
+			"announcement": {
+				"eng": "${playerName} has calibrated ${item}!",
+				"trans": "${playerName}が${item}をキャリブレーションしました！"
+			}
+		},
+		"calibrationFailed": {
+			"announcement": {
+				"eng": "${playerName} broke ${item} while calibrating",
+				"trans": "${playerName}がキャリブレーション中に${item}を壊しました。"
 			}
 		},
 		"mugged": {
-			"name": {
-				"eng": "Mugged",
-				"trans": "襲われました"
+			"announcement": {
+				"eng": "${playerName} mugged someone!",
+				"trans": "${playerName}が誰かを襲った！"
 			}
 		},
 		"muggedFailed": {
-			"name": {
-				"eng": "Mugged Failed",
-				"trans": "襲撃失敗"
-			}
-		},
-		"purchasedEpic": {
-			"name": {
-				"eng": "Purchased Epic",
-				"trans": "購入済みのエピック"
+			"announcement": {
+				"eng": "${playerName} tried to mug someone but failed!",
+				"trans": "${playerName}は誰かを脅してみましたが、失敗しました！"
 			}
 		},
 		"upgradedEpic": {
-			"name": {
-				"eng": "Upgraded Epic",
-				"trans": "アップグレードされたエピック"
+			"announcement": {
+				"eng": "${playerName} upgraded ${item}!",
+				"trans": "${playerName}が${item}をアップグレードしました！"
 			}
 		}
 	}
