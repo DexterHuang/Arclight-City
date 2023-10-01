@@ -85,7 +85,7 @@
 			},
 			"triggered": {
 				"eng": "${merc} healed the team for ${amount} health",
-				"trans": "${merc}はチームを${amount}回復しました。"
+				"trans": "${merc}はチーム全体を${amount}回復しました。"
 			}
 		},
 		"poison": {
@@ -95,7 +95,7 @@
 			},
 			"triggered": {
 				"eng": "${merc} poisoned ${enemy}, ${enemy} received ${damage} damage.",
-				"trans": "${merc}は${enemy}に毒を盛り、${enemy}は${damage}のダメージを受けました。"
+				"trans": "${merc}は${enemy}に毒を与え、${enemy}は${damage}のダメージを受けました。"
 			}
 		},
 		"poisonGroup": {
@@ -111,7 +111,7 @@
 		"shield": {
 			"description": {
 				"eng": "Recharge your character's shield for ${amount}",
-				"trans": "キャラクターのシールドを${amount}で再充電してください。"
+				"trans": "キャラクターのシールドを${amount}でリチャージする。"
 			},
 			"triggered": {
 				"eng": "${merc} shielded ${playerName} for ${amount} health",
@@ -121,22 +121,22 @@
 		"shieldGroup": {
 			"description": {
 				"eng": "Shields your team for ${amount} health",
-				"trans": "チームを${amount}の体力で守る"
+				"trans": "チーム全体を${amount}の体力で守る"
 			},
 			"triggered": {
 				"eng": "${merc} shields the team for ${amount}",
-				"trans": "${merc}はチームを${amount}でシールドします。"
+				"trans": "${merc}はチーム全体を${amount}でシールドします。"
 			}
 		}
 	},
 	"abilityTag": {
 		"damageOverTime": {
 			"eng": "Damage Over Time",
-			"trans": "ダメージ継続時間"
+			"trans": "継続ダメージ"
 		},
 		"damageOverTimeDescription": {
 			"eng": "This ability will deal damage over time, this kind of ability usually has less damage than one-strike abilities, however, it deals more damage in total over time.",
-			"trans": "このアビリティは継続ダメージを与える、この種のバビリティは通常、一撃必殺のアビリティよりもダメージが少ないが、時間経過とともに合計ダメージ量が多くなる。"
+			"trans": "このアビリティは継続ダメージを与える、このアビリティはワンストライクアビリティよりもダメージが少ないが、時間経過とともに合計ダメージ量が多くなる。"
 		},
 		"groupTargetAlly": {
 			"eng": "Group Target",
@@ -144,7 +144,7 @@
 		},
 		"groupTargetAllyDescription": {
 			"eng": "This ability is multi-target and will target all alive allies, this kind of ability is usually weaker than single target abilities however, it would be more effective against multiple allies.",
-			"trans": "このアビリティは範囲攻撃で、生存しているすべて味方を対象とします。この種のバビリティは、通常、単体攻撃のアビリティよりも弱くなりますが、複数のアライに対してはより効果的です。"
+			"trans": "このアビリティは範囲回復で、生存しているすべての味方を対象とします。1人を対象とするアビリティよりも弱くなりますが、チームを組んでいる場合に対してはより効果的です。"
 		},
 		"groupTargetEnemy": {
 			"eng": "Group Target",
@@ -152,7 +152,7 @@
 		},
 		"groupTargetEnemyDescription": {
 			"eng": "This ability is multi-target and will target all alive enemies, this kind of ability is usually weaker than single target abilities however, it would be more effective against multiple enemies.",
-			"trans": "このアビリティは範囲攻撃で、生きている敵をすべて対象とします。この種の攻撃は、通常、単体攻撃よりも弱くなりますが、複数の敵に対してはより効果的です。"
+			"trans": "このアビリティは範囲攻撃で、生きているすべての敵を対象とします。単体攻撃よりも弱くなりますが、複数の敵が相手の場合はより効果的です。"
 		},
 		"singleTargetAlly": {
 			"eng": "Single Target",
@@ -160,7 +160,7 @@
 		},
 		"singleTargetAllyDescription": {
 			"eng": "This ability is single target and will target yourself but not your allies.",
-			"trans": "このアビリティは単体対象で、自分自身を対象としますが、味方は対象としません。"
+			"trans": "このアビリティは自分自身に作用し、味方は対象としません。"
 		},
 		"singleTargetEnemy": {
 			"eng": "Single Target",
@@ -168,7 +168,7 @@
 		},
 		"singleTargetEnemyDescription": {
 			"eng": "This ability is single target and will target one enemy, this kind of ability is usually stronger than multi-target abilities however, it would be less effective against multiple enemies.",
-			"trans": "このアビリティは単体攻撃で、敵1体を対象とします。この種の攻撃は通常、範囲攻撃よりも強力ですが、複数の敵に対しては効果が低くなります。"
+			"trans": "このアビリティはターゲットした1体の敵を対象とします。範囲攻撃よりも強力ですが、複数の敵に対しては効果が低くなります。"
 		}
 	},
 	"apartment": {
@@ -187,7 +187,7 @@
 		"apartment2": {
 			"displayName": {
 				"eng": "Budget Studio",
-				"trans": "普通のスタジオ"
+				"trans": "普通のアパート"
 			}
 		},
 		"apartment3": {
@@ -242,7 +242,7 @@
 			"paid": {
 				"title": {
 					"eng": "Apartment rental fee ${amount} has been deducted from your account",
-					"trans": "アパートの賃料${amount}があなたの口座から引き落とされました。"
+					"trans": "アパートの料金${amount}があなたの口座から引き落とされました。"
 				}
 			}
 		}
@@ -336,11 +336,11 @@
 		},
 		"block": {
 			"eng": "block",
-			"trans": "ガード"
+			"trans": "防御"
 		},
 		"failArea": {
 			"eng": "Fail area",
-			"trans": "失敗エリア"
+			"trans": "失敗"
 		},
 		"headshot": {
 			"eng": "headshot",
@@ -348,14 +348,14 @@
 		},
 		"instruction": {
 			"eng": "hold and release to attack",
-			"trans": "攻撃するには、ホールドしてからリリースしてください。"
+			"trans": "攻撃するには、長押ししてからリリースしてください。"
 		}
 	},
 	"attribute": {
 		"dex": {
 			"desc": {
 				"eng": "Increase firearm damage.",
-				"trans": "火器のダメージを増加する。"
+				"trans": "銃火器のダメージを増加する。"
 			},
 			"name": {
 				"eng": "Dexterity",
@@ -450,7 +450,7 @@
 		},
 		"rewards": {
 			"eng": "possible rewards",
-			"trans": "報酬の可能性"
+			"trans": "入手できる報酬"
 		},
 		"skipButton": {
 			"title": {
@@ -473,7 +473,7 @@
 		"abandonedCity": {
 			"description": {
 				"eng": "Mirai; Once a picturesque tourist haven, it now stands abandoned, ravaged by soaring crime rates and leaked radiation. In this desolate landscape, only a handful of desperate junkies and ruthless mercenaries remain, scavenging for whatever loot they can find amidst the ruins.",
-				"trans": "ミライ；かつては絵に描いたような観光地でしたが、今では犯罪率が高く、漏れた放射線によって荒廃しています。この荒れ果てた場所には、わずかな薬物中毒者と冷酷な傭兵だけが残り、廃墟の中で見つけられる僅かな物資を奪い合っています。"
+				"trans": "ミライ:かつては絵に描いたような観光地でしたが、今では犯罪率が高く、漏れた放射線によって荒廃しています。この荒れ果てた場所には、わずかな薬物中毒者と冷酷な傭兵だけが残り、廃墟の中で見つけられる僅かな物資を奪い合っています。"
 			},
 			"displayName": {
 				"eng": "Mirai District",
@@ -483,7 +483,7 @@
 		"bodyguard": {
 			"description": {
 				"eng": "Safeguard high-profile clients, engage in high-octane combat, and use advanced tech to ensure protection amidst urban dystopia.",
-				"trans": "価値のある顧客を保護し、激しい戦闘を繰り広げ、高度なテクノロジーを駆使して都会のディストピアの中で身を守ります。"
+				"trans": "価値のある顧客を保護し、激しい戦闘を繰り広げ、高度なテクノロジーを駆使して都会のディストピアの中で顧客を守ります。"
 			},
 			"displayName": {
 				"eng": "Bodyguard",
@@ -527,7 +527,7 @@
 			},
 			"displayName": {
 				"eng": "Territory Control",
-				"trans": "領土"
+				"trans": "領地"
 			}
 		},
 		"thieving": {
@@ -703,20 +703,20 @@
 	"circleLockMinigame": {
 		"unlockButton": {
 			"eng": "unlock",
-			"trans": "解除ロック"
+			"trans": "解除"
 		}
 	},
 	"circleMinigame": {
 		"title": {
 			"eng": "Rotate the circle to unlock",
-			"trans": "円を回してロックを解除してください。"
+			"trans": "円を回して解除してください。"
 		}
 	},
 	"clan": {
 		"disbandMail": {
 			"subject": {
 				"eng": "Your gang has been disbanded",
-				"trans": "あなたのギャングは解散されました。"
+				"trans": "あなたのギャングは解散しました。"
 			}
 		},
 		"error": {
@@ -755,7 +755,7 @@
 		},
 		"isPublic": {
 			"eng": "Public",
-			"trans": "公共"
+			"trans": "パブリック"
 		}
 	},
 	"clanDetailsPage": {
@@ -795,7 +795,7 @@
 		},
 		"makePrivate": {
 			"eng": "Make Private",
-			"trans": "プライベートにする"
+			"trans": "プライベート"
 		},
 		"makePublic": {
 			"eng": "Make Public",
@@ -937,7 +937,7 @@
 	"compactRewardConfigDisplay": {
 		"clanControl": {
 			"eng": "+ ${amount} control on territory",
-			"trans": "+ 領地に${amount}の制御"
+			"trans": "+ 領地を${amount}コントロールした"
 		},
 		"clanExp": {
 			"eng": "+ ${amount} Gang EXP",
@@ -973,7 +973,7 @@
 			"reconnecting": {
 				"description": {
 					"eng": "No internet connection or server is under maintenance. Please try again later.",
-					"trans": "安定したネットワーク接続を確保してください。もしくはサーバーメンテナンス中の可能性があります。"
+					"trans": "安定したネットワーク接続を確保してください。改善されない場合はメンテナンス中の可能性があります。"
 				},
 				"title": {
 					"eng": "Failed to connect to server.",
@@ -1148,7 +1148,7 @@
 		"blackMarketCurrency": {
 			"description": {
 				"eng": "The Netcoin currency, can be obtained in game and from premium store",
-				"trans": "ゲーム内およびプレミアムストアから入手できるネットコイン通貨"
+				"trans": "ゲーム内およびプレミアムストアから入手できるネットコイン"
 			},
 			"name": {
 				"eng": "Netcoin",
@@ -1174,11 +1174,11 @@
 		"mercUpgradeCurrency": {
 			"description": {
 				"eng": "Neural Upgrade Augmenter is a cutting-edge implant that enables users to break past their mental limitations and reach untold levels of cognitive enhancement. With the ability to exceed typical neural barriers, users can unlock new levels of insight, creativity, and physical performance.",
-				"trans": "神経アップグレード増幅器は、使用者が精神的な制限を超えて未知のレベルの認知能力向上に到達することを可能にする最先端のインプラントです。典型的な神経的な障壁を超える能力を持つことで、ユーザーは新たな洞察力、創造力、そして身体的なパフォーマンスのレベルを開放することができます。"
+				"trans": "脳神経アップグレード増幅器は、使用者が身体や脳神経などの制限を超えて未知のレベルの認知能力向上に到達することを可能にする最先端のインプラントです。使用者は新たな洞察力、創造力、身体的なパフォーマンスの限界を開放することができます。"
 			},
 			"name": {
 				"eng": "Neural Upgrade Augmenter",
-				"trans": "神経アップグレード増幅器"
+				"trans": "脳神経アップグレード増幅器"
 			}
 		},
 		"normal": {
@@ -1194,11 +1194,11 @@
 		"universalDollars": {
 			"description": {
 				"eng": "Universal Dollars can be exchanged from Netcoin at a 1:1 ratio.",
-				"trans": "UNドルはネットコインと1:1の比率で交換できます。"
+				"trans": "ユニバーサルドルはネットコインと1:1の比率で交換できます。"
 			},
 			"name": {
 				"eng": "Universal Dollars",
-				"trans": "UNドル"
+				"trans": "ユニバーサルドル"
 			}
 		}
 	},
@@ -1344,11 +1344,11 @@
 			},
 			"loadingBarTitle": {
 				"eng": "Decrypting mercenary contact info...",
-				"trans": "傭兵の連絡先情報を復号化しています..."
+				"trans": "傭兵の情報を復号化しています..."
 			},
 			"success": {
 				"eng": "Mercenary contact info received.",
-				"trans": "傭兵の連絡先情報を受け取りました。"
+				"trans": "傭兵の情報を受け取りました。"
 			},
 			"textList1": {
 				"eng": "Allocating resources...",
@@ -1360,7 +1360,7 @@
 			},
 			"textList3": {
 				"eng": "Establishing secure channels",
-				"trans": "安全なチャネルの確立"
+				"trans": "安全なチャンネルの確立"
 			},
 			"textList4": {
 				"eng": "Receiving data...",
@@ -1390,36 +1390,36 @@
 		"error": {
 			"actionWhileHasEnemy": {
 				"eng": "You cannot perform this action while there are enemies nearby",
-				"trans": "敵が近くにいる間は、このアクションを実行することはできません。"
+				"trans": "敵が近くにいる間は実行できません。"
 			},
 			"enemyInRoom": {
 				"eng": "You cannot do that while there are enemies nearby",
-				"trans": "敵が近くにいる間はそれを行うことはできません"
+				"trans": "敵が近くにいる間は実行できません"
 			},
 			"enemyInRoom2": {
 				"eng": "You cannot perform this action while there are enemies nearby",
-				"trans": "敵が近くにいる間は、このアクションを実行することはできません。"
+				"trans": "敵が近くにいる間は実行できません。"
 			}
 		},
 		"type": {
 			"hard": {
 				"description": {
 					"eng": "Hard difficulty stronghold, Enemies are stronger and more numerous, but the EXP and rewards are greater.",
-					"trans": "ハード難易度のストロングホールド、敵はより強力で数も多いですが、経験値と報酬もより大きいです。"
+					"trans": "高難易度の要塞、敵はより強力で数も多いですが、経験値と報酬もより多く入手出来る。"
 				},
 				"name": {
 					"eng": "Hard Difficulty",
-					"trans": "ハード"
+					"trans": "難易度:ハード"
 				}
 			},
 			"normal": {
 				"description": {
 					"eng": "Normal difficulty stronghold.",
-					"trans": "ノーマル難易度の地城。"
+					"trans": "低難易度の要塞。"
 				},
 				"name": {
 					"eng": "Normal Difficulty",
-					"trans": "通常の"
+					"trans": "難易度:ノーマル"
 				}
 			}
 		}
@@ -1441,8 +1441,8 @@
 				"trans": "敵の数を増やす。"
 			},
 			"name": {
-				"eng": "Crowded",
-				"trans": "混雑した"
+				"eng": "Crowded"
+				"trans": "混雑"
 			}
 		},
 		"expIncrease": {
@@ -1467,7 +1467,7 @@
 	"dungeonLobby": {
 		"createButton": {
 			"eng": "Enter Stronghold",
-			"trans": "地城に入る"
+			"trans": "要塞に入る"
 		},
 		"createButtonDisabled": {
 			"eng": "Waiting team to be ready",
@@ -1476,7 +1476,7 @@
 		"dungeonType": {
 			"label": {
 				"eng": "Stronghold",
-				"trans": "地城"
+				"trans": "要塞"
 			}
 		},
 		"levelSelect": {
@@ -1503,7 +1503,7 @@
 		},
 		"playerNotReady": {
 			"eng": "Not ready",
-			"trans": "未準備好"
+			"trans": "準備未完了"
 		},
 		"playerReady": {
 			"eng": "ready",
@@ -1527,21 +1527,21 @@
 		},
 		"territoryGang": {
 			"eng": "Strongholds created by member of ${gangName} in this district will receive extra buff",
-			"trans": "この地区で${gangName}のメンバーが作成した地城は、追加のバフを受けます。"
+			"trans": "この地区で${gangName}のメンバーが作成した要塞は、追加のバフを受けます。"
 		},
 		"territoryNoGang": {
 			"eng": "Control this territory to get extra buff in this district",
-			"trans": "この地域を制圧すると、この地区で追加のバフを得られます。"
+			"trans": "この要塞を制圧すると、この地区で追加のバフを得られます。"
 		},
 		"tip": {
 			"noHealing": {
 				"eng": "Looks like your are running low on healing items, purchase some so you can it in the stronghold",
-				"trans": "回復アイテムが不足しています。地城で使用するために購入してください。"
+				"trans": "回復アイテムが不足しています。要塞で使用するために購入してください。"
 			}
 		},
 		"waitingToStart": {
 			"eng": "waiting for host to start",
-			"trans": "ホストが開始するのを待っています。"
+			"trans": "ホストの開始を待っています。"
 		}
 	},
 	"dungeonLobbyListPage": {
@@ -1583,13 +1583,13 @@
 		},
 		"questAccepted": {
 			"eng": "quest accepted",
-			"trans": "クエストが受け入れられました"
+			"trans": "クエストを承認"
 		}
 	},
 	"dungeonTypeDisplay": {
 		"enterDungeon": {
 			"eng": "Enter Stronghold",
-			"trans": "地城に入る"
+			"trans": "要塞に入る"
 		},
 		"extraLoot": {
 			"eng": "+${percent}% loot rarity",
@@ -1600,7 +1600,7 @@
 		"goToPublicDungeonListButton": {
 			"title": {
 				"eng": "Public strongholds",
-				"trans": "公共の地城"
+				"trans": "パブリックの要塞"
 			}
 		}
 	},
@@ -1616,7 +1616,7 @@
 			},
 			"description": {
 				"eng": "Are you sure you want to bring them into stronghold? \\nIf you die you will lose them.",
-				"trans": "あなたは本当に彼らを地城に連れて行くことを望みますか？\\nもし死んだら彼らを失います。"
+				"trans": "本当に彼らを要塞に連れて行くことを望みますか？\\n死亡した場合、彼らを失います。"
 			},
 			"title": {
 				"eng": "there are items in your backpack",
@@ -1634,7 +1634,7 @@
 			},
 			"message": {
 				"eng": "Seems like your are running low on heals, purchase some to bring it to strongholds.",
-				"trans": "ヒールアイテムが少なくなっているようです。地城に持って行くために購入してください。"
+				"trans": "ヒールアイテムが少なくなっているようです。要塞に持って行くために購入してください。"
 			},
 			"title": {
 				"eng": "low healing items",
@@ -1752,7 +1752,7 @@
 		"LOWER_ARMOR": {
 			"name": {
 				"eng": "Lower Armor",
-				"trans": "下半身のアーマー"
+				"trans": "下衣アーマー"
 			}
 		},
 		"PENDANT": {
@@ -1776,7 +1776,7 @@
 		"UPPER_ARMOR": {
 			"name": {
 				"eng": "Upper Armor",
-				"trans": "アッパーアーマー"
+				"trans": "上衣アーマー"
 			}
 		},
 		"WEAPON": {
@@ -1808,7 +1808,7 @@
 		"LOWER_ARMOR": {
 			"name": {
 				"eng": "Lower Armor",
-				"trans": "下半身のアーマー"
+				"trans": "下衣アーマー"
 			}
 		},
 		"PENDANT": {
@@ -1826,7 +1826,7 @@
 		"UPPER_ARMOR": {
 			"name": {
 				"eng": "Upper Armor",
-				"trans": "アッパー・アーマー"
+				"trans": "上衣アーマー"
 			}
 		},
 		"WEAPON": {
@@ -1871,7 +1871,7 @@
 		},
 		"dialog2": {
 			"eng": "Sorry about the bad experience 😢 I would love to hear your feedback!🙏",
-			"trans": "ごめんなさい、悪い経験をしてしまって申し訳ありません 😢 フィードバックをお聞かせいただけると嬉しいです！🙏"
+			"trans": "悪い経験をさせてしまい申し訳ありません 😢 フィードバックをお聞かせいただけると嬉しいです！🙏"
 		},
 		"dialog3": {
 			"eng": "Thank you! if you could rate on the app store, it would help me a lot! 🙏",
@@ -1989,11 +1989,11 @@
 				},
 				"blockedByLeader": {
 					"eng": "Cannot request to join this gang at this time",
-					"trans": "現在はこのギャングに参加をリクエストすることはできません"
+					"trans": "現在このギャングに参加をリクエストすることはできません"
 				},
 				"clanIsPublic": {
 					"eng": "This gang is public, there is no need to request to join",
-					"trans": "このギャングは公開されていますので、参加をリクエストする必要はありません。"
+					"trans": "このギャングは公開されているので参加をリクエストする必要はありません。"
 				},
 				"clanNotFound": {
 					"eng": "This gang no longer exists",
@@ -2107,14 +2107,14 @@
 		},
 		"title": {
 			"eng": "Hit List",
-			"trans": "命中リスト"
+			"trans": "暗殺依頼"
 		}
 	},
 	"hitman": {
 		"mail": {
 			"bountyAddedNotify": {
 				"eng": "A bounty has been placed on your head, current bounty - Eurodollar: ${money}, Universal Dollar: ${uni}",
-				"trans": "あなたの頭には賞金がかけられています、現在の賞金 - ユーロドル：${money}、ユニバーサルドル：${uni}"
+				"trans": "あなたは賞金がかけられています、現在の賞金 - ユーロドル：${money}、ユニバーサルドル：${uni}"
 			}
 		}
 	},
@@ -2125,7 +2125,7 @@
 		},
 		"description": {
 			"eng": "Join the fight for justice in Arclight City! The ACPD calls upon vigilant citizens to aid in the pursuit of wanted criminals. Your city needs you! Bring in the fugitives, dead or alive, and earn substantial rewards. Together, we'll make Arclight City safer for all. 🌃👮‍♂️\\n#CitizenArrest #ACPDJustice",
-			"trans": "アークライトシティで正義の戦いに参加しましょう！ACPDは警戒心のある市民に、逃亡犯の追跡を手助けするよう呼びかけています。あなたの街はあなたの力を必要としています！逃亡犯を生け捕りにして報酬を得ましょう。一緒に、アークライトシティをより安全な場所にしましょう。🌃👮‍♂️\\n#市民の逮捕 #ACPDの正義"
+			"trans": "アークライト・シティで正義の戦いに参加しましょう！ACPDは善良な市民に、逃亡犯の追跡を手助けするよう呼びかけています。街はあなたの力を必要としています！逃亡犯を生け捕りにして報酬を得ましょう。一緒に、アークライトシティをより安全な場所にしましょう。🌃👮‍♂️\\n#犯罪者の逮捕 #ACPDは正義！#ピンクの先輩！"
 		},
 		"expire": {
 			"eng": "expire date",
@@ -2145,7 +2145,7 @@
 		},
 		"noPlayers": {
 			"eng": "No criminals with active arrest warrant.",
-			"trans": "アクティブな逮捕状を持つ犯罪者はいません。"
+			"trans": "逮捕状を持つ犯罪者はいません。"
 		},
 		"title": {
 			"eng": "Wanted Criminals",
@@ -2218,11 +2218,11 @@
 					},
 					"description": {
 						"eng": "Are you sure you want to scrap these items?",
-						"trans": "これらのアイテムを報廃してもよろしいですか？"
+						"trans": "これらのアイテムを解体してもよろしいですか？"
 					},
 					"title": {
 						"eng": "scrap items",
-						"trans": "報廢物品"
+						"trans": "アイテムを解体"
 					}
 				}
 			}
@@ -2231,11 +2231,11 @@
 			"modal": {
 				"description": {
 					"eng": "How many do you want to scrap?",
-					"trans": "何個廃棄しますか？"
+					"trans": "何個解体しますか？"
 				},
 				"title": {
 					"eng": "Scrap item",
-					"trans": "報廢アイテム"
+					"trans": "アイテムの解体"
 				}
 			}
 		}
@@ -2288,11 +2288,11 @@
 		"maxCalibration": {
 			"description": {
 				"eng": "This item has reached the maximum amount of calibrations. you may upgrade the tier of the item to increase the maximum times it can be calibrated.",
-				"trans": "このアイテムは最大の校準回数に達しました。アイテムのティアをアップグレードすることで、校準回数を増やすことができます。"
+				"trans": "このアイテムは最大のキャリブレーション回数に達しました。アイテムのティアをアップグレードすることで、キャリブレーション回数を増やすことができます。"
 			},
 			"title": {
 				"eng": "Max Calibration",
-				"trans": "最大校準"
+				"trans": "キャリブレーション最大"
 			}
 		},
 		"selectOptimizer": {
@@ -2423,7 +2423,7 @@
 		},
 		"scrap": {
 			"eng": "scrap",
-			"trans": "報廢物品"
+			"trans": "スクラップ"
 		},
 		"unequip": {
 			"eng": "Unequip",
@@ -2445,7 +2445,7 @@
 	"itemDiff": {
 		"noChanges": {
 			"eng": "No changes",
-			"trans": "Understood"
+			"trans": "確率はゼロ"
 		}
 	},
 	"itemInbox": {
@@ -2457,7 +2457,7 @@
 	"itemInboxPage": {
 		"collectAll": {
 			"eng": "Collect all",
-			"trans": "すべてを集める"
+			"trans": "すべてを入手"
 		},
 		"description": {
 			"eng": "Here you can see all the items you have received. system will automatically collect items to your inventory when it has chance.",
@@ -2485,7 +2485,7 @@
 		},
 		"attemptsTip": {
 			"eng": "Each repair attempt has ${chance}% chance of success and costs one ${repairItem}. the 10th time is guaranteed to succeed.",
-			"trans": "各修理試行は成功する${chance}%の確率があり、1つの${repairItem}が必要です。10回目は必ず成功します。"
+			"trans": "修理の試行は${chance}%の成功確率があり、1つの${repairItem}が必要です。10回目は必ず成功します。"
 		},
 		"itemSelectModal": {
 			"title": {
@@ -2521,11 +2521,11 @@
 		},
 		"boss": {
 			"eng": "Stronghold Bosses",
-			"trans": "地城のボスたち"
+			"trans": "要塞のボスたち"
 		},
 		"chestDrop": {
 			"eng": "Stronghold chest drop",
-			"trans": "ダンジョンの宝箱ドロップ"
+			"trans": "要塞の宝箱ドロップ"
 		},
 		"convertNetCoin": {
 			"eng": "Convert from ${netCoin}",
@@ -2537,7 +2537,7 @@
 		},
 		"crafting": {
 			"eng": "Crafting",
-			"trans": "クラフティング"
+			"trans": "作成"
 		},
 		"dailyQuest": {
 			"eng": "Daily quests",
@@ -2549,7 +2549,7 @@
 		},
 		"dungeonOnly": {
 			"eng": "This shop is only available in hard or higher difficulty strongholds.",
-			"trans": "この店舗はハードまたはそれ以上の難易度の地城でのみ利用可能です。"
+			"trans": "この店舗はハードまたはそれ以上の難易度の要塞でのみ利用可能です。"
 		},
 		"enemyDrop": {
 			"eng": "Enemy drop",
@@ -2606,7 +2606,7 @@
 		"fireArm": {
 			"name": {
 				"eng": "Fire Arm",
-				"trans": "火器"
+				"trans": "銃火器"
 			}
 		},
 		"fish": {
@@ -2618,7 +2618,7 @@
 		"food": {
 			"name": {
 				"eng": "Food",
-				"trans": "食物"
+				"trans": "食べ物"
 			}
 		},
 		"healingHp": {
@@ -2648,7 +2648,7 @@
 		"itemLevelShard": {
 			"name": {
 				"eng": "Item Level Shard",
-				"trans": "アイテムレベルのシャード"
+				"trans": "アイテムレベル-シャード"
 			}
 		},
 		"itemUpgrade": {
@@ -2660,7 +2660,7 @@
 		"lowerArmor": {
 			"name": {
 				"eng": "Lower Armor",
-				"trans": "アーマーを下げる"
+				"trans": "下衣アーマー"
 			}
 		},
 		"material": {
@@ -2672,7 +2672,7 @@
 		"meat": {
 			"name": {
 				"eng": "Meat",
-				"trans": "肉"
+				"trans": "お肉"
 			}
 		},
 		"meleeWeapon": {
@@ -2690,7 +2690,7 @@
 		"resetShard": {
 			"name": {
 				"eng": "Reset Shard",
-				"trans": "シャードをリセットする"
+				"trans": "リセット-シャード"
 			}
 		},
 		"ring": {
@@ -2702,13 +2702,13 @@
 		"upperArmor": {
 			"name": {
 				"eng": "Upper Armor",
-				"trans": "アッパーアーマー"
+				"trans": "上衣アーマー"
 			}
 		},
 		"vegetable": {
 			"name": {
 				"eng": "Vegetable",
-				"trans": "野菜"
+				"trans": "お野菜"
 			}
 		},
 		"weapon": {
@@ -2732,7 +2732,7 @@
 		"autoAttackDamageMult": {
 			"name": {
 				"eng": "Auto Attack Damage Multiplier",
-				"trans": "自動攻撃ダメージ乗数"
+				"trans": "自動攻撃ダメージ倍率"
 			}
 		},
 		"backpackSpace": {
@@ -2744,13 +2744,13 @@
 		"blockChance": {
 			"name": {
 				"eng": "Block Chance",
-				"trans": "格闘率"
+				"trans": "防御率"
 			}
 		},
 		"blockStrength": {
 			"name": {
 				"eng": "Block Strength",
-				"trans": "ブロック強度"
+				"trans": "防御強度"
 			}
 		},
 		"critChance": {
@@ -2759,29 +2759,29 @@
 		},
 		"critDamage": {
 			"eng": "Critical Damage",
-			"trans": "致命的ダメージ"
+			"trans": "クリティカルダメージ"
 		},
 		"cyberneticResistance": {
 			"name": {
 				"eng": "Cybernetic Resistance",
-				"trans": "電馭抵抗性"
+				"trans": "サイバネティック-抵抗力"
 			}
 		},
 		"damageMultiplier": {
 			"name": {
 				"eng": "Damage multiplier",
-				"trans": "ダメージ乗算器"
+				"trans": "ダメージ倍率"
 			}
 		},
 		"energyResistance": {
 			"name": {
 				"eng": "Energy Resistance",
-				"trans": "エネルギー抵抗性"
+				"trans": "エネルギー-抵抗力"
 			}
 		},
 		"health": {
 			"eng": "Health",
-			"trans": "健康"
+			"trans": "体力"
 		},
 		"healthMult": {
 			"name": {
@@ -2792,13 +2792,13 @@
 		"kineticResistance": {
 			"name": {
 				"eng": "Kinetic Resistance",
-				"trans": "運動抵抗性"
+				"trans": "キネティック-抵抗力"
 			}
 		},
 		"physicalResistance": {
 			"name": {
 				"eng": "Physical Resistance",
-				"trans": "物理抵抗力"
+				"trans": "物理-抵抗力"
 			}
 		},
 		"shield": {
@@ -2810,7 +2810,7 @@
 		"shieldMult": {
 			"name": {
 				"eng": "Shield Multiplier",
-				"trans": "シールド乗数"
+				"trans": "シールド倍率"
 			}
 		},
 		"str": {
@@ -2822,7 +2822,7 @@
 		"vit": {
 			"name": {
 				"eng": "Vitality",
-				"trans": "活力"
+				"trans": "体力"
 			}
 		}
 	},
@@ -2844,13 +2844,13 @@
 			},
 			"name": {
 				"eng": "Braised Pork Rice",
-				"trans": "豚肉の煮込みご飯"
+				"trans": "豚の角煮ご飯"
 			}
 		},
 		"bread": {
 			"description": {
 				"eng": "a rare delicacy made from real wheat flour, smuggled by rebels who oppose the synthetic food industry.",
-				"trans": "合成食品産業に反対する反乱軍が密輸した、本物の小麦粉を使った珍しい美食品。"
+				"trans": "合成食品産業に反対する反乱軍が密輸した、本物の小麦粉を使った珍しい食品。"
 			},
 			"name": {
 				"eng": "Bread",
@@ -2860,21 +2860,21 @@
 		"burger": {
 			"description": {
 				"eng": "A cheap and addictive food made from synthetic meat and chemicals. Popular among lowlifes and hackers who need a quick energy boost.",
-				"trans": "合成肉と化学物質から作られた安価で中毒性のある食品。 低層民や急なエネルギー補給が必要なハッカーたちの間で人気がある。"
+				"trans": "合成肉と化学物質から作られた安価で中毒性のある食品。 貧困層や急なエネルギー補給が必要なハッカーたちの間で人気がある。"
 			},
 			"name": {
 				"eng": "Burger",
-				"trans": "バーガー"
+				"trans": "ハンバーガー"
 			}
 		},
 		"calibrationShard": {
 			"description": {
 				"eng": "Universal calibration token for equipments, use to improve equipments",
-				"trans": "装備の汎用調整トークン、装備の改良に使用する。"
+				"trans": "装備のキャリブレーションに使用する。"
 			},
 			"name": {
 				"eng": "Calibration Shard",
-				"trans": "キャリブレーション・シャード"
+				"trans": "キャリブレーション-シャード"
 			}
 		},
 		"clanMaintenanceResource": {
@@ -2884,17 +2884,17 @@
 			},
 			"name": {
 				"eng": "Gang Maintenance Resource",
-				"trans": "ギャングのメンテナンスリソース"
+				"trans": "ギャング-メンテナンスリソース"
 			}
 		},
 		"commonCalibrationSafety": {
 			"description": {
 				"eng": "Use to decrease chance of equipment destruction by ${percent}% when calibration failed",
-				"trans": "キャリブレーションに失敗した場合、機器破壊の確率を${percent}%減らすために使用します。"
+				"trans": "キャリブレーションに失敗した場合、装備の破壊確率を${percent}%減らすために使用します。"
 			},
 			"name": {
 				"eng": "Common Calibration Circuit Breaker",
-				"trans": "共通校正回路ブレーカー"
+				"trans": "コモン-キャリブレーション回路ブレーカー"
 			}
 		},
 		"commonLevelShard": {
@@ -2904,7 +2904,7 @@
 			},
 			"name": {
 				"eng": "Common Level Shard",
-				"trans": "コモンレベルシャード"
+				"trans": "コモン-レベルシャード"
 			}
 		},
 		"dungeonActivator": {
@@ -2924,17 +2924,17 @@
 			},
 			"name": {
 				"eng": "Energy Weapon",
-				"trans": "エネルギー兵器"
+				"trans": "エネルギー武器"
 			}
 		},
 		"epicLevelShard": {
 			"description": {
 				"eng": "Use to level up an epic item to its next level",
-				"trans": "エピックアイテムを次のレベルにアップさせるために使用する。"
+				"trans": "エピックアイテムを次のレベルに上げるために使用する。"
 			},
 			"name": {
 				"eng": "Epic Level Shard",
-				"trans": "エピックレベルのシャード"
+				"trans": "エピック-レベルシャード"
 			}
 		},
 		"epicResetShard": {
@@ -2944,7 +2944,7 @@
 			},
 			"name": {
 				"eng": "Epic Reset Shard",
-				"trans": "エピックリセットシャード"
+				"trans": "エピック-リセットシャード"
 			}
 		},
 		"epicUpgradeShard": {
@@ -2954,7 +2954,7 @@
 			},
 			"name": {
 				"eng": "Epic Upgrade Shard",
-				"trans": "エピックアップグレードシャード"
+				"trans": "エピック-アップグレードシャード"
 			}
 		},
 		"equipmentCalibrator": {
@@ -2970,29 +2970,29 @@
 		"fish": {
 			"description": {
 				"eng": "A medium sized vibrant fish, it's highly sought after for its psychedelic properties when consumed.",
-				"trans": "摂取するとサイケデリックな効果があるため、中型で鮮やかな魚は非常に人気が高い。"
+				"trans": "摂取するとサイケデリックな効果がある。中型で鮮やかな魚は非常に人気が高い。"
 			},
 			"name": {
 				"eng": "Fish",
-				"trans": "魚"
+				"trans": "”ヤバイ”お魚"
 			}
 		},
 		"gangControlResource": {
 			"name": {
 				"eng": "Gang Control Resource",
-				"trans": "ギャングコントロールリソース"
+				"trans": "ギャング-コントロールリソース"
 			}
 		},
 		"gangResource": {
 			"description": {
 				"eng": "Use to contribute to gang territory control",
-				"trans": "ギャング領土支配に貢献するために使用する"
+				"trans": "ギャングの領地支配に貢献するために使用する"
 			}
 		},
 		"gun": {
 			"description": {
 				"eng": "A traditional firearm that uses gunpowder to fire bullets. cant go wrong with this one.",
-				"trans": "火薬を使って弾丸を発射する伝統的な火器です。これで間違いはありません。"
+				"trans": "火薬を使って弾丸を発射する伝統的な銃火器です。これで間違いはありません。"
 			},
 			"name": {
 				"eng": "Gun",
@@ -3052,17 +3052,17 @@
 			},
 			"name": {
 				"eng": "Level Shard",
-				"trans": "レベルの欠片"
+				"trans": "レベル-シャード"
 			}
 		},
 		"lootBox1": {
 			"description": {
 				"eng": "A common container that contains a random item.",
-				"trans": "ランダムなアイテムが含まれる謎のコンテナ。"
+				"trans": "ランダムなアイテムが含まれるフツーのコンテナ。"
 			},
 			"name": {
 				"eng": "Common Container",
-				"trans": "共通コンテナ"
+				"trans": "コモン-コンテナ"
 			}
 		},
 		"lootBox2": {
@@ -3072,7 +3072,7 @@
 			},
 			"name": {
 				"eng": "Uncommon Container",
-				"trans": "珍しいコンテナ"
+				"trans": "アンコモン-コンテナ"
 			}
 		},
 		"lootDoorKey": {
@@ -3092,7 +3092,7 @@
 			},
 			"name": {
 				"eng": "Lower Armor",
-				"trans": "アーマーを下げる"
+				"trans": "下衣アーマー"
 			}
 		},
 		"medicalTech": {
@@ -3102,27 +3102,27 @@
 			},
 			"name": {
 				"eng": "Medical Tech Scrap",
-				"trans": "医療技術のスクラップ"
+				"trans": "医療機器スクラップ"
 			}
 		},
 		"mercToken1": {
 			"description": {
 				"eng": "Use this token to meet and recruit new mercenaries in Red Bar",
-				"trans": "このトークンを使用して、霓虹酒吧で新しい傭兵を募集してください。"
+				"trans": "このトークンを使用して、ネオン街のバーで新しい傭兵を募集してください。"
 			},
 			"name": {
 				"eng": "Red Bar VIP token",
-				"trans": "レッドバーのVIPトークン"
+				"trans": "ネオン街のバー-VIPトークン"
 			}
 		},
 		"mercUpgrade": {
 			"description": {
 				"eng": "Neural Upgrade Augmenter is a cutting-edge implant that enables users to break past their mental limitations and reach untold levels of cognitive enhancement. With the ability to exceed typical neural barriers, users can unlock new levels of insight, creativity, and physical performance.",
-				"trans": "ニューラルアップグレードオーグメンターは、ユーザーが精神的な限界を超え、未知の認知向上レベルに達することを可能にする最新のインプラントです。典型的な神経障壁を超越する能力を持つことで、ユーザーは新しい洞察力、創造性、身体的パフォーマンスのレベルを開放することができます。"
+				"trans": "脳神経アップグレード増幅器は、ユーザーが精神的な限界を超え、未知の認知向上レベルに達することを可能にする最新のインプラントです。典型的な神経障壁を超越する能力を持つことで、ユーザーは新しい洞察力、創造性、身体的パフォーマンスのレベルを開放することができます。"
 			},
 			"name": {
 				"eng": "Neural Upgrade Augmenter",
-				"trans": "神経強化増幅器"
+				"trans": "脳神経アップグレード増幅器"
 			}
 		},
 		"money": {
@@ -3148,11 +3148,11 @@
 		"neuroblocker": {
 			"description": {
 				"eng": "Neuroblockers were developed to counteract the negative effects that cybernetic implants had on the human body. By suppressing these effects, people were able to use these implants with reduced suffering from physical or mental issues",
-				"trans": "ネウロブロッカーは、サイバネティックインプラントが人体に与える負の影響を相殺するために開発されました。これらの影響を抑制することで、人々は身体的または精神的な問題に苦しむことなくこれらのインプラントを使用することができました。"
+				"trans": "ニューロブロッカーは、サイバネティックインプラントが人体に与えるマイナスな影響を相殺するために開発されました。これらの影響を抑制することで、人々は身体的または精神的な問題に苦しむことなくこれらのインプラントを使用することができました。"
 			},
 			"name": {
 				"eng": "Neuroblocker",
-				"trans": "神経ブロッカー"
+				"trans": "ニューロブロッカー"
 			}
 		},
 		"pendant": {
@@ -3164,7 +3164,7 @@
 		"pork": {
 			"description": {
 				"eng": "Slice of ordinary synthetic pork",
-				"trans": "普通の合成豚肉のスライス"
+				"trans": "ごく普通の合成豚肉のスライス"
 			},
 			"name": {
 				"eng": "Pork",
@@ -3188,7 +3188,7 @@
 			},
 			"name": {
 				"eng": "Rare Calibration Circuit Breaker",
-				"trans": "レアキャリブレーション回路ブレーカー"
+				"trans": "レア-キャリブレーション回路ブレーカー"
 			}
 		},
 		"rareLevelShard": {
@@ -3198,7 +3198,7 @@
 			},
 			"name": {
 				"eng": "Rare Level Shard",
-				"trans": "レアレベルのシャード"
+				"trans": "レア-レベルシャード"
 			}
 		},
 		"rareResetShard": {
@@ -3208,7 +3208,7 @@
 			},
 			"name": {
 				"eng": "Rare Reset Shard",
-				"trans": "レアリセットシャード"
+				"trans": "レア-リセットシャード"
 			}
 		},
 		"rareUpgradeShard": {
@@ -3218,13 +3218,13 @@
 			},
 			"name": {
 				"eng": "Rare Upgrade Shard",
-				"trans": "レアアップグレードシャード"
+				"trans": "レア-アップグレードシャード"
 			}
 		},
 		"repairKit": {
 			"description": {
 				"eng": "The Nano Repairer is a state-of-the-art device developed by TaiXing Cybernetics for repairing a wide range of equipment intelligently with nano-machines. It's your go-to solution when your gear malfunctions due to calibration failure. Keep in mind, it doesn't guarantee a fix every time, but persistence pays off, after a few attempts, it'll get the job done.",
-				"trans": "ナノリペアラーは、台芯電馭が開発した最先端のデバイスで、ナノマシンを使用して幅広い装備を知能的に修復することができます。装置のキャリブレーションの失敗によるギアの故障が発生した場合、これが最適な解決策です。ただし、必ずしも修復が保証されるわけではありませんが、忍耐強く何度か試すことで、最終的に修復が完了します。"
+				"trans": "ナノリペアラーは、台芯サイバネティック社が開発した最先端のデバイスで、ナノマシンを使用して幅広い装備を知能的に修復することができます。装置のキャリブレーションの失敗によるギアの故障が発生した場合、これが最適な解決策です。ただし、必ずしも修復が保証されるわけではありませんが、忍耐強く何度か試すことで、最終的に修復が完了します。"
 			},
 			"name": {
 				"eng": "Nano Repairer",
@@ -3234,7 +3234,7 @@
 		"rewardCipher": {
 			"description": {
 				"eng": "Used to re-roll quest reward.",
-				"trans": "クエストの報酬を再ロールするために使用します。"
+				"trans": "クエストの報酬をリロールするために使用します。"
 			},
 			"name": {
 				"eng": "Reward Cipher",
@@ -3248,7 +3248,7 @@
 			},
 			"name": {
 				"eng": "Rice",
-				"trans": "米 (こめ)"
+				"trans": "お米"
 			}
 		},
 		"ring": {
@@ -3264,7 +3264,7 @@
 			},
 			"name": {
 				"eng": "Satay",
-				"trans": "状態表示"
+				"trans": "サタイ"
 			}
 		},
 		"shadowToken": {
@@ -3280,7 +3280,7 @@
 		"sushi": {
 			"description": {
 				"eng": "A traditional Japanese dish made from raw fish and rice.",
-				"trans": "刺身丼"
+				"trans": "日本の伝統的な料理。おにぎりも忘れずに。"
 			},
 			"name": {
 				"eng": "Sushi",
@@ -3304,7 +3304,7 @@
 			},
 			"name": {
 				"eng": "Tech Scrap",
-				"trans": "テック・スクラップ"
+				"trans": "テックスクラップ"
 			}
 		},
 		"uncommonCalibrationSafety": {
@@ -3314,7 +3314,7 @@
 			},
 			"name": {
 				"eng": "Uncommon Calibration Circuit Breaker",
-				"trans": "非常に珍しいキャリブレーション回路ブレーカー"
+				"trans": "アンコモン-キャリブレーション回路ブレーカー"
 			}
 		},
 		"uncommonLevelShard": {
@@ -3324,7 +3324,7 @@
 			},
 			"name": {
 				"eng": "Uncommon Level Shard",
-				"trans": "ユニコムレベルのシャード"
+				"trans": "アンコモン-レベルシャード"
 			}
 		},
 		"uncommonResetShard": {
@@ -3334,7 +3334,7 @@
 			},
 			"name": {
 				"eng": "Uncommon Reset Shard",
-				"trans": "アンコモンリセットシャード"
+				"trans": "アンコモン-リセットシャード"
 			}
 		},
 		"uncommonUpgradeShard": {
@@ -3344,7 +3344,7 @@
 			},
 			"name": {
 				"eng": "Uncommon Upgrade Shard",
-				"trans": "レアなアップグレードシャード"
+				"trans": "アンコモン-アップグレードシャード"
 			}
 		},
 		"uniqueLevelShard": {
@@ -3354,7 +3354,7 @@
 			},
 			"name": {
 				"eng": "Unique Level Shard",
-				"trans": "ユニークレベルのシャード"
+				"trans": "ユニーク-レベルシャード"
 			}
 		},
 		"uniqueResetShard": {
@@ -3364,7 +3364,7 @@
 			},
 			"name": {
 				"eng": "Unique Reset Shard",
-				"trans": "ユニークリセットシャード"
+				"trans": "ユニーク-リセットシャード"
 			}
 		},
 		"uniqueUpgradeShard": {
@@ -3374,7 +3374,7 @@
 			},
 			"name": {
 				"eng": "Unique Upgrade Shard",
-				"trans": "ユニークアップグレードシャード"
+				"trans": "ユニーク-アップグレードシャード"
 			}
 		},
 		"universalDollars": {
@@ -3384,7 +3384,7 @@
 			},
 			"name": {
 				"eng": "Universal Dollars",
-				"trans": "通用幣"
+				"trans": "ユニバーサルドル"
 			}
 		},
 		"upperArmor": {
@@ -3394,7 +3394,7 @@
 			},
 			"name": {
 				"eng": "Upper Armor",
-				"trans": "アッパーアーマー"
+				"trans": "上衣アーマー"
 			}
 		}
 	},
@@ -3478,7 +3478,7 @@
 		"clan": {
 			"name": {
 				"eng": "Gang Level",
-				"trans": "幫派レベル"
+				"trans": "ギャングレベル"
 			}
 		},
 		"level": {
@@ -3502,13 +3502,13 @@
 		"levelScavenge": {
 			"name": {
 				"eng": "Scavenging Level",
-				"trans": "スカベンジングレベル"
+				"trans": "探索レベル"
 			}
 		},
 		"levelThieving": {
 			"name": {
 				"eng": "Thieving Level",
-				"trans": "盗賊のレベル"
+				"trans": "窃盗レベル"
 			}
 		},
 		"money": {
@@ -3759,7 +3759,7 @@
 		"chooseLocationButton": {
 			"title": {
 				"eng": "Travel [Current Level ${currentLevel}]",
-				"trans": "旅行 [現在のレベル ${currentLevel}]"
+				"trans": "トラベル [現在のレベル ${currentLevel}]"
 			}
 		},
 		"deathItemsButton": {
@@ -3771,7 +3771,7 @@
 		"dungeonButton": {
 			"title": {
 				"eng": "Explore stronghold",
-				"trans": "地城を探索する"
+				"trans": "要塞を探索する"
 			}
 		},
 		"gangButton": {
@@ -3803,7 +3803,7 @@
 		"npcListButton": {
 			"title": {
 				"eng": "go to City Center",
-				"trans": "シティセンターに行く"
+				"trans": "シティーセンターに行く"
 			}
 		},
 		"profileButton": {
@@ -3837,7 +3837,7 @@
 		"webItemButton": {
 			"title": {
 				"eng": "Cybernet",
-				"trans": "サイバネット"
+				"trans": "サイバーネット"
 			}
 		}
 	},
@@ -3896,7 +3896,7 @@
 		},
 		"territory": {
 			"eng": "Territory",
-			"trans": "領土"
+			"trans": "領地"
 		}
 	},
 	"market": {
@@ -4333,7 +4333,7 @@
 			},
 			"displayName": {
 				"eng": "Bounty Hunter",
-				"trans": "バウンティハンター"
+				"trans": "バウンティーハンター"
 			}
 		},
 		"netrunner": {
@@ -4408,7 +4408,7 @@
 		},
 		"claim": {
 			"eng": "Claim",
-			"trans": "クレーム"
+			"trans": "獲得"
 		},
 		"claimed": {
 			"eng": "Claimed",
@@ -4420,11 +4420,11 @@
 		},
 		"currencyName": {
 			"eng": "Eurodollars",
-			"trans": "歐元"
+			"trans": "ユーロドル"
 		},
 		"exchange": {
 			"eng": "Exchange",
-			"trans": "交換"
+			"trans": "両替"
 		},
 		"exp": {
 			"eng": "EXP",
@@ -4436,7 +4436,7 @@
 		},
 		"gameName": {
 			"eng": "Arclight City",
-			"trans": "アークライトシティ"
+			"trans": "アークライト・シティ"
 		},
 		"loading": {
 			"eng": "loading",
@@ -4444,11 +4444,11 @@
 		},
 		"mercExpCurrencyDescription": {
 			"eng": "A nano-machine injection device created by TaiXing Cybernetics, providing unparalleled upgrades to cybernetic abilities. Inject into the neck for enhanced performance.",
-			"trans": "タイシン・サイバネティックスが作成したナノマシン注入装置で、サイバネティック能力の向上に比類なきアップグレードを提供します。ネックに注入することでパフォーマンスが向上します。"
+			"trans": "台芯サイバネティックスが作成したナノマシン注入装置で、サイバネティック能力の向上に比類なきアップグレードを提供します。ネックに注入することでパフォーマンスが向上します。"
 		},
 		"mercExpCurrencyName": {
 			"eng": "Cybernetic Enhancer",
-			"trans": "電子増強装置"
+			"trans": "サイバネティックエンハンサー"
 		},
 		"multiSelect": {
 			"eng": "Multi Select",
@@ -4464,7 +4464,7 @@
 		},
 		"premiumCurrencyName": {
 			"eng": "Universal Dollars",
-			"trans": "通貨幣"
+			"trans": "ユニバーサルドル"
 		},
 		"purchase": {
 			"eng": "Purchase",
@@ -4530,7 +4530,7 @@
 			},
 			"title": {
 				"eng": "Stronghold Lobby Invite",
-				"trans": "地城ロビーに招待する"
+				"trans": "要塞のロビーに招待する"
 			}
 		}
 	},
@@ -4538,7 +4538,7 @@
 		"apartmentInvite": {
 			"notIdle": {
 				"eng": "You are not idle",
-				"trans": "アイドルではありません"
+				"trans": "あなたはアイドル状態ではありません"
 			}
 		},
 		"clanInvite": {
@@ -4579,16 +4579,16 @@
 					"You're not the chatty type, I like that. What can I get you?"
 				],
 				"trans": [
-					"何をお求めですか？",
-					"素早くやってください、一日中時間がありません。",
-					"あなたはここからではないですね、そうですか？",
-					"世間話はしない、何を飲みたい？",
-					"あなたはおしゃべり好きではないみたいですね。それはいいですね。何をお持ちしましょうか？"
+					"何がほしいんだ？",
+					"素早く動け、時間は有限だぞ。",
+					"あんた余所者だろ？どこから来たんだ？",
+					"世間話はしない、話したいなら何か頼みな？",
+					"あんたはそこら辺のと違っておしゃべり好きではないみたいだな。そういうヤツの方が私は好きだ。何か飲むか？"
 				]
 			},
 			"locationName": {
 				"eng": "Red Bar",
-				"trans": "赤いバー"
+				"trans": "ネオン街のバー"
 			},
 			"npcName": {
 				"eng": "Chloe",
@@ -4792,7 +4792,7 @@
 			},
 			"npcName": {
 				"eng": "Hana",
-				"trans": "花"
+				"trans": "ハナ"
 			}
 		},
 		"dev": {
@@ -4822,11 +4822,11 @@
 		"dungeonSeller": {
 			"npcName": {
 				"eng": "Shadow Merchant",
-				"trans": "地下商人"
+				"trans": "シャドウ・マーチャント"
 			},
 			"shopName": {
 				"eng": "Shadow Merchant",
-				"trans": "シャドウマーチャント"
+				"trans": "シャドウ・マーチャント"
 			}
 		},
 		"functionality": {
@@ -5523,25 +5523,25 @@
 		},
 		"title": {
 			"eng": "Cyber psychosis ${percent}%",
-			"trans": "サイバーサイコーシス${percent}%。"
+			"trans": "サイバーサイコシス${percent}%。"
 		}
 	},
 	"psychosisInfoModal": {
 		"neuroblockerDescription": {
 			"eng": "use neuroblocker to reduce psychosis",
-			"trans": "サイコーシスを軽減するために神経ブロッカーを使用する。"
+			"trans": "サイコシスを軽減するためにニューロブロッカーを使用する。"
 		},
 		"regenDescription": {
 			"eng": "Psychosis reduces by ${amount} every ${minute} minutes",
-			"trans": "狂躁症は${amount}ずつ${minute}分ごとに減少します"
+			"trans": "サイコシスは${amount}ずつ${minute}分ごとに減少します"
 		},
 		"title": {
 			"eng": "Cyber psychosis",
-			"trans": "サイバー病気状態"
+			"trans": "サイバーサイコシス"
 		},
 		"titleDescription": {
 			"eng": "Cyber-psychosis is caused by excessive use of cybernetic abilities, leading to hallucinations and delusions due to brain overload.",
-			"trans": "サイバーパイコーシスは、サイバネティック能力の過剰な使用によって引き起こされ、脳の過負荷による幻覚や妄想を引き起こします。"
+			"trans": "サイバーサイコシスは、サイバネティック能力の過剰な使用によって引き起こされ、脳の過負荷による幻覚や妄想を引き起こします。"
 		}
 	},
 	"purchaseCycle": {
@@ -6760,7 +6760,7 @@
 		},
 		"unclaimed": {
 			"eng": "This territory is unclaimed",
-			"trans": "この領土は無主地です"
+			"trans": "この領地は占領されていません"
 		}
 	},
 	"textareaModal": {
@@ -6785,13 +6785,13 @@
 		"rare": {
 			"name": {
 				"eng": "Rare",
-				"trans": "希少な"
+				"trans": "レア"
 			}
 		},
 		"uncommon": {
 			"name": {
 				"eng": "Uncommon",
-				"trans": "ユニコーン"
+				"trans": "アンコモン"
 			}
 		},
 		"unique": {
@@ -6808,7 +6808,7 @@
 		},
 		"common": {
 			"eng": "Common",
-			"trans": "一般的な"
+			"trans": "コモン"
 		},
 		"epic": {
 			"eng": "Epic",
@@ -6820,7 +6820,7 @@
 		},
 		"uncommon": {
 			"eng": "Uncommon",
-			"trans": "珍しい"
+			"trans": "アンコモン"
 		},
 		"unique": {
 			"eng": "Unique",
@@ -7304,7 +7304,7 @@
 			},
 			"loreNotes": {
 				"eng": "lore notes",
-				"trans": "背景ストーリーのノート"
+				"trans": "ロールノート"
 			},
 			"settings": {
 				"eng": "Settings",
