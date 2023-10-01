@@ -3433,8 +3433,8 @@
 				"trans": "點擊這裡選擇一個物品"
 			},
 			"description": {
-				"eng": "Please select an equipment to upgrade",
-				"trans": "請選擇要升級的裝備"
+				"eng": "Please select an equipment to upgrade or calibrate",
+				"trans": "請選擇要升級或校準的裝備"
 			},
 			"title": {
 				"eng": "No item selected",
@@ -3554,7 +3554,7 @@
 		"medical": {
 			"currentEffectDescription": {
 				"eng": "Increases intelligence by ${intelligence} (increases damage by ${healing}) and Extraction Mission task profit to ${profit}",
-				"trans": "增加智力 ${intelligence}（增加傷害 ${healing}）和救援任務的收益為 ${profit}"
+				"trans": "增加智力 ${intelligence}（增加傷害 ${healing}）和救援任務的收益至 ${profit}"
 			},
 			"description": {
 				"eng": "Increases intelligence attribute by 1 every level, and increases profit from this job type",
@@ -3578,7 +3578,7 @@
 		"scavenge": {
 			"currentEffectDescription": {
 				"eng": "Increases vitality by ${vitality} (increases health by ${health}) and scavenging task profit to ${profit}",
-				"trans": "增加活力 ${vitality} (增加生命 ${health}) 和搜索任務的收益 ${profit}"
+				"trans": "增加活力 ${vitality} (增加生命 ${health}) 和搜索任務的收益至 ${profit}"
 			},
 			"description": {
 				"eng": "Increases vitality attribute by 1 every level, and increases profit from this job type",
@@ -3586,13 +3586,13 @@
 			},
 			"displayName": {
 				"eng": "Scavenging Level",
-				"trans": "搜索"
+				"trans": "搜索等級"
 			}
 		},
 		"thieving": {
 			"currentEffectDescription": {
-				"eng": "Increases dexterity by ${dexterity} (increases fire-arm weapons damage by ${dmg}) and thieving task profit",
-				"trans": "增加敏捷${dexterity}點（增加槍械武器傷害${dmg}點）和偷竊任務收益"
+				"eng": "Increases dexterity by ${dexterity} (increases fire-arm weapons damage by ${dmg}) and thieving task profit to ${profit}",
+				"trans": "提高敏捷${dexterity}（增加火器武器傷害${dmg}）和偷竊任務收益至 ${profit}"
 			},
 			"description": {
 				"eng": "Increases dexterity attribute by 1 every level, and increases profit from this job type",
