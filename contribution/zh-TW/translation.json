@@ -2535,6 +2535,10 @@
 			"eng": "Cooking",
 			"trans": "烹飪"
 		},
+		"crafting": {
+			"eng": "Crafting",
+			"trans": "製作"
+		},
 		"dailyQuest": {
 			"eng": "Daily quests",
 			"trans": "每日任務"
@@ -3429,8 +3433,8 @@
 				"trans": "點擊這裡選擇一個物品"
 			},
 			"description": {
-				"eng": "Please select an equipment to upgrade or calibrate",
-				"trans": "請選擇一個裝備進行升級或校準。"
+				"eng": "Please select an equipment to upgrade",
+				"trans": "請選擇要升級的裝備"
 			},
 			"title": {
 				"eng": "No item selected",
@@ -5523,10 +5527,6 @@
 		}
 	},
 	"psychosisInfoModal": {
-		"button": {
-			"eng": "Close",
-			"trans": "關閉"
-		},
 		"neuroblockerDescription": {
 			"eng": "use neuroblocker to reduce psychosis",
 			"trans": "使用神經阻斷劑減輕網路狂躁症"
@@ -6278,6 +6278,10 @@
 			"eng": "Enable Gang Chat Notification",
 			"trans": "啟用幫派聊天通知"
 		},
+		"enableGlobalNotification": {
+			"eng": "Enable Global Notification",
+			"trans": "啟用全球通知"
+		},
 		"enableInGameAnnouncement": {
 			"eng": "Enable In-Game Announcement",
 			"trans": "啟用遊戲公告"
@@ -6746,6 +6750,10 @@
 			"eng": "No clan has claimed this territory",
 			"trans": "沒有任何幫派宣稱這片領地"
 		},
+		"resetTip": {
+			"eng": "Territory points reset every week",
+			"trans": "每週領地積分重置"
+		},
 		"territoryBuffs": {
 			"eng": "leaderboard",
 			"trans": "排行榜"
@@ -7008,9 +7016,8 @@
 			"trans": "領取獎勵"
 		},
 		"locationNotCleared2": {
-			"eng": "Clear level ${level} hard difficulty strongholds to unlock the rewards",
-			"trans": "通過${level}難度的地城來解鎖獎勵",
-			"vars": []
+			"eng": "Clear level ${level} ${dungeonType} stronghold to unlock the rewards",
+			"trans": "通過清除${level}級${dungeonType}地城，解鎖獎勵。"
 		},
 		"rewardClaimed": {
 			"eng": "claimed",
@@ -7507,38 +7514,40 @@
 		}
 	},
 	"worldEventType": {
-		"calibratedEpic": {
+		"calibrated10": {
 			"announcement": {
 				"eng": "${playerName} has calibrated ${item}!",
 				"trans": "${playerName}已校準${item}！"
-			},
-			"name": {
-				"eng": "Calibrated Epic",
-				"trans": "校準的史詩"
+			}
+		},
+		"calibrated9": {
+			"announcement": {
+				"eng": "${playerName} has calibrated ${item}!",
+				"trans": "${playerName}已校準${item}！"
+			}
+		},
+		"calibrationFailed": {
+			"announcement": {
+				"eng": "${playerName} broke ${item} while calibrating",
+				"trans": "${playerName}在校準時弄壞了${item}"
 			}
 		},
 		"mugged": {
-			"name": {
-				"eng": "Mugged",
-				"trans": "搶劫"
+			"announcement": {
+				"eng": "${playerName} mugged someone!",
+				"trans": "${playerName} 搶劫了某人！"
 			}
 		},
 		"muggedFailed": {
-			"name": {
-				"eng": "Mugged Failed",
-				"trans": "搶劫失敗"
-			}
-		},
-		"purchasedEpic": {
-			"name": {
-				"eng": "Purchased Epic",
-				"trans": "已購買史詩級物品"
+			"announcement": {
+				"eng": "${playerName} tried to mug someone but failed!",
+				"trans": "${playerName}試圖搶劫某人，但失敗了！"
 			}
 		},
 		"upgradedEpic": {
-			"name": {
-				"eng": "Upgraded Epic",
-				"trans": "升級至史詩級"
+			"announcement": {
+				"eng": "${playerName} upgraded ${item}!",
+				"trans": "${playerName} 升級了 ${item}！"
 			}
 		}
 	}

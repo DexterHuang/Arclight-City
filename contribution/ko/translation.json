@@ -2535,6 +2535,10 @@
 			"eng": "Cooking",
 			"trans": "요리"
 		},
+		"crafting": {
+			"eng": "Crafting",
+			"trans": "제작"
+		},
 		"dailyQuest": {
 			"eng": "Daily quests",
 			"trans": "일일 퀘스트"
@@ -5523,10 +5527,6 @@
 		}
 	},
 	"psychosisInfoModal": {
-		"button": {
-			"eng": "Close",
-			"trans": "닫기"
-		},
 		"neuroblockerDescription": {
 			"eng": "use neuroblocker to reduce psychosis",
 			"trans": "신경 차단제를 사용하여 싸이코 증세를 완화합니다"
@@ -6278,6 +6278,10 @@
 			"eng": "Enable Gang Chat Notification",
 			"trans": "갱 채팅 알림 활성화"
 		},
+		"enableGlobalNotification": {
+			"eng": "Enable Global Notification",
+			"trans": "글로벌 알림 활성화"
+		},
 		"enableInGameAnnouncement": {
 			"eng": "Enable In-Game Announcement",
 			"trans": "게임 내 공지 활성화"
@@ -6746,6 +6750,10 @@
 			"eng": "No clan has claimed this territory",
 			"trans": "어떤 클랜도 이 영역을 소유하지 않았습니다"
 		},
+		"resetTip": {
+			"eng": "Territory points reset every week",
+			"trans": "영토 점수는 매주 초기화됩니다"
+		},
 		"territoryBuffs": {
 			"eng": "leaderboard",
 			"trans": "리더보드"
@@ -7006,11 +7014,15 @@
 		"claimReward": {
 			"eng": "Claim reward",
 			"trans": "보상 수령"
-		},
+		}, 
 		"locationNotCleared": {
 			"eng": "Clear any of the level ${level} strongholds to unlock the rewards",
 			"trans": "${level}레벨 아지트를 클리어하여 보상 잠금 해제",
 			"vars": []
+    },
+		"locationNotCleared2": {
+			"eng": "Clear level ${level} ${dungeonType} stronghold to unlock the rewards",
+			"trans": "레벨 ${level} ${dungeonType} 소굴을 클리어하여 보상을 해제하세요" 
 		},
 		"rewardClaimed": {
 			"eng": "claimed",
@@ -7507,38 +7519,46 @@
 		}
 	},
 	"worldEventType": {
-		"calibratedEpic": {
+		"calibrated10": {
 			"announcement": {
 				"eng": "${playerName} has calibrated ${item}!",
 				"trans": "${playerName}님이 ${item}을(를) 교정했습니다!"
-			},
-			"name": {
-				"eng": "Calibrated Epic",
-				"trans": "교정된 에픽"
 			}
-		},
+		}, 
 		"mugged": {
 			"name": {
 				"eng": "Mugged",
 				"trans": "강도질 당함"
+      }
+    }, 
+		"calibrated9": {
+			"announcement": {
+				"eng": "${playerName} has calibrated ${item}!",
+				"trans": "${playerName}님이 ${item}을(를) 교정했습니다!" 
+			}
+		},
+		"calibrationFailed": {
+			"announcement": {
+				"eng": "${playerName} broke ${item} while calibrating",
+				"trans": "${playerName}이(가) ${item}을(를) 교정하는 도중 파손했습니다"
+			}
+		},
+		"mugged": {
+			"announcement": {
+				"eng": "${playerName} mugged someone!",
+				"trans": "${playerName}이(가) 누군가를 강탈했습니다!"
 			}
 		},
 		"muggedFailed": {
-			"name": {
-				"eng": "Mugged Failed",
-				"trans": "강도질 실패"
-			}
-		},
-		"purchasedEpic": {
-			"name": {
-				"eng": "Purchased Epic",
-				"trans": "구매한 에픽"
+			"announcement": {
+				"eng": "${playerName} tried to mug someone but failed!",
+				"trans": "${playerName}은(는) 누군가를 노린 시도를 했지만 실패했습니다!"
 			}
 		},
 		"upgradedEpic": {
-			"name": {
-				"eng": "Upgraded Epic",
-				"trans": "업그레이드된 에픽"
+			"announcement": {
+				"eng": "${playerName} upgraded ${item}!",
+				"trans": "${playerName}님이 ${item}을(를) 업그레이드했습니다!"
 			}
 		}
 	}
