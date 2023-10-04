@@ -577,6 +577,28 @@
 			"trans": "背包"
 		}
 	},
+	"buff": {
+		"defenseIncrease": {
+			"description": {
+				"eng": "Increase defense for all players in strongholds created by your gang members in ${minutes} minutes",
+				"trans": "在${minutes}分鐘內，增加幫派成員所創建的地城中所有玩家的防禦力"
+			},
+			"name": {
+				"eng": "Defense Increase",
+				"trans": "防禦增加"
+			}
+		},
+		"lootIncrease": {
+			"description": {
+				"eng": "Increase loot dropped by enemies and chests in strongholds for all strongholds created by your gang members in ${minutes} minutes",
+				"trans": "在${minutes}分鐘內，增加幫派成員所創建的所有地城中敵人和寶箱掉落的戰利品量。"
+			},
+			"name": {
+				"eng": "Loot Increase",
+				"trans": "戰利品增加"
+			}
+		}
+	},
 	"bundle": {
 		"dailyFree": {
 			"name": {
@@ -748,6 +770,36 @@
 			}
 		}
 	},
+	"clanBuffDeployPopup": {
+		"activated": {
+			"eng": "Buff Activated",
+			"trans": "增益效果已啟動"
+		},
+		"confirmDeploy": {
+			"eng": "Confirm deploy",
+			"trans": "確認部署"
+		},
+		"confirmDeployDescription": {
+			"eng": "Are you sure you want to deploy \"${buffName}\" buff?",
+			"trans": "您確定要使用\"${buffName}\"增益嗎？"
+		},
+		"deploy": {
+			"eng": "Deploy",
+			"trans": "部署"
+		},
+		"notInClan": {
+			"eng": "You can only deploy buffs if you are in a gang",
+			"trans": "只有在幫派中才能使用增益效果。"
+		},
+		"requires": {
+			"eng": "Requires",
+			"trans": "需要"
+		},
+		"tip": {
+			"eng": "Deploying buffs will give you and your gang temporary boost in the game.",
+			"trans": "部署增益將為您和您的幫派在遊戲中提供暫時的提升。"
+		}
+	},
 	"clanDetailHeader": {
 		"isPrivate": {
 			"eng": "Private",
@@ -858,6 +910,14 @@
 		"resourceContributed": {
 			"eng": "resource: ${amount}",
 			"trans": "資源: ${amount}"
+		},
+		"thisWeek": {
+			"eng": "this week",
+			"trans": "本週"
+		},
+		"total": {
+			"eng": "total",
+			"trans": "總計"
 		}
 	},
 	"clanSearchPage": {
@@ -972,8 +1032,8 @@
 		"notLoggedIn": {
 			"reconnecting": {
 				"description": {
-					"eng": "No internet connection or server is under maintenance. Please try again later.",
-					"trans": "伺服器正在維護或連線不穩定，請稍後再試。"
+					"eng": "No internet connection or server is restarting for update. Please try again later.",
+					"trans": "無網路連線或伺服器正在進行更新，請稍後再試。"
 				},
 				"title": {
 					"eng": "Failed to connect to server.",
@@ -1435,6 +1495,16 @@
 				"trans": "傷害增強"
 			}
 		},
+		"defenseIncrease": {
+			"desc": {
+				"eng": "Increase defense, takes less damage from enemies.",
+				"trans": "增加防禦力，減少來自敵人的傷害。"
+			},
+			"name": {
+				"eng": "Defense Boost",
+				"trans": "防禦提升"
+			}
+		},
 		"enemyIncrease": {
 			"desc": {
 				"eng": "Increase number of enemies.",
@@ -1455,6 +1525,16 @@
 				"trans": "經驗加成"
 			}
 		},
+		"lootIncrease": {
+			"desc": {
+				"eng": "Increase loot gained.",
+				"trans": "增加戰利品獲得量。"
+			},
+			"name": {
+				"eng": "Extra Loot",
+				"trans": "額外戰利品"
+			}
+		},
 		"luckIncrease": {
 			"desc": {
 				"eng": "Increase drop quality",
@@ -1465,6 +1545,16 @@
 		}
 	},
 	"dungeonLobby": {
+		"buff": {
+			"deploy": {
+				"eng": "Deploy Buff",
+				"trans": "部署增益"
+			},
+			"title": {
+				"eng": "Active Buffs",
+				"trans": "啟動增益"
+			}
+		},
 		"createButton": {
 			"eng": "Enter Stronghold",
 			"trans": "進入地城"
@@ -2907,6 +2997,16 @@
 				"trans": "普通等級碎片"
 			}
 		},
+		"defenseBoostBuffActivator": {
+			"description": {
+				"eng": "Deploy this buff in stronghold lobby to increase defense for all players in strongholds created by your gang members for ${minutes} minutes",
+				"trans": "在地城大廳部署此增益效果，可提升你幫派成員所創建的地城中所有玩家的防禦力，持續${minutes}分鐘。"
+			},
+			"name": {
+				"eng": "Defense Boot Buff Activator",
+				"trans": "防禦靴增益啟動器"
+			}
+		},
 		"dungeonActivator": {
 			"description": {
 				"eng": "Use to enter a dungeon",
@@ -3083,6 +3183,16 @@
 			"name": {
 				"eng": "decryption Key",
 				"trans": "解密金鑰"
+			}
+		},
+		"lootIncreaseBuffActivator": {
+			"description": {
+				"eng": "Deploy this buff in stronghold lobby to increase loot amount for all strongholds created by your gang members for ${minutes} minutes",
+				"trans": "在地城大廳部署此增益效果，可在${minutes}分鐘內提高幫派成員所創建的所有地城的戰利品數量。"
+			},
+			"name": {
+				"eng": "Loot Increase Buff Activator",
+				"trans": "戰利品增加增益啟動器"
 			}
 		},
 		"lowerArmor": {
@@ -3398,6 +3508,12 @@
 			}
 		}
 	},
+	"itemTypeInfoPopup": {
+		"obtainedFrom": {
+			"eng": "Obtained from",
+			"trans": "獲得自"
+		}
+	},
 	"itemUpgradePage": {
 		"item": {
 			"title": {
@@ -3432,13 +3548,27 @@
 				"eng": "Click here to select an item",
 				"trans": "點擊這裡選擇一個物品"
 			},
-			"description": {
-				"eng": "Please select an equipment to upgrade or calibrate",
-				"trans": "請選擇要升級或校準的裝備"
-			},
 			"title": {
 				"eng": "No item selected",
 				"trans": "未選擇物品"
+			}
+		},
+		"noItemCali": {
+			"description": {
+				"eng": "Please select an equipment to upgrade or calibrate",
+				"trans": "請選擇要升級或校準的裝備"
+			}
+		},
+		"noItemUpgrade": {
+			"description": {
+				"eng": "Please select an equipment to upgrade",
+				"trans": "請選擇要升級的裝備"
+			}
+		},
+		"noItemUpgradeOrCali": {
+			"description": {
+				"eng": "Please select an equipment to upgrade or calibrate",
+				"trans": "請選擇要升級或校準的裝備"
 			}
 		},
 		"selectItem": {
@@ -3756,10 +3886,16 @@
 				"trans": "回到公寓"
 			}
 		},
+		"chirp": {
+			"title": {
+				"eng": "Chirp",
+				"trans": "鳴叫"
+			}
+		},
 		"chooseLocationButton": {
 			"title": {
-				"eng": "Travel [Current Level ${currentLevel}]",
-				"trans": "旅行 [目前等級 ${currentLevel}]"
+				"eng": "Travel [Level ${currentLevel}]",
+				"trans": "前往 [等級 ${currentLevel}]"
 			}
 		},
 		"deathItemsButton": {
@@ -4371,6 +4507,10 @@
 		"noMessages": {
 			"eng": "No messages yet",
 			"trans": "暫時沒有訊息。"
+		},
+		"system": {
+			"eng": "System",
+			"trans": "系統"
 		}
 	},
 	"messageToken": {
@@ -4760,10 +4900,6 @@
 			}
 		},
 		"dailyReward": {
-			"characterDescription": {
-				"eng": "Hana is a resourceful and inventive young woman with a passion for tinkering and fixing machines. Despite her small stature, she has a sharp mind and a steady hand, which makes her a skilled mechanic. Her expertise has made her a valuable asset to those in need of repairs in the gritty cyberpunk world in which she lives. However, beneath her practical exterior, Hana has a quiet and introspective nature, and is often lost in thought. She has a keen eye for detail and is constantly seeking out new challenges to improve her skills. Hana also has a playful side to her, which she expresses through her love of pink, a color she finds both cute and cheerful. Despite the harsh realities of her world, Hana remains optimistic and hopeful, always seeking out ways to make things better for herself and those around her.",
-				"trans": "哈娜是一位充滿資源和創意的年輕女士，對於修補機器充滿熱情。儘管身材嬌小，她擁有敏銳的思緒和穩定的手藝，使她成為一名嫻熟的技師。她的專業知識使她成為這個破爛的赛博龐克世界中不可或缺的資產。"
-			},
 			"greetings": {
 				"eng": [
 					"Hey there, stranger! Are you ready for a little boost to help you on your journey today?",
@@ -6079,6 +6215,10 @@
 				"eng": "Lobby not found",
 				"trans": "未找到大廳"
 			},
+			"notEnoughPsyche": {
+				"eng": "Your psychosis is too high to enter the stronghold",
+				"trans": "你的網路狂躁症太高，無法進入地城。"
+			},
 			"notIdle": {
 				"eng": "You cannot do this now",
 				"trans": "現在無法進行此操作。"
@@ -6343,6 +6483,12 @@
 			}
 		}
 	},
+	"socialMedia": {
+		"noPostsYet": {
+			"eng": "No posts yet",
+			"trans": "尚無貼文"
+		}
+	},
 	"socialPage": {
 		"clanChatTab": {
 			"detailsButton": {
@@ -6522,6 +6668,16 @@
 				"trans": "防禦"
 			}
 		},
+		"defenseIncrease": {
+			"desc": {
+				"eng": "Increases your defense",
+				"trans": "增加你的防禦力"
+			},
+			"name": {
+				"eng": "Defense Increase",
+				"trans": "防禦增加"
+			}
+		},
 		"heal": {
 			"combatMsg": {
 				"eng": "${name} recovered ${heal} health",
@@ -6534,6 +6690,16 @@
 			"name": {
 				"eng": "Healed",
 				"trans": "治療完成"
+			}
+		},
+		"lootIncrease": {
+			"desc": {
+				"eng": "Increases the amount of loot from enemies and chests",
+				"trans": "增加從敵人和寶箱獲得的戰利品數量"
+			},
+			"name": {
+				"eng": "Loot Increase",
+				"trans": "戰利品增加"
 			}
 		},
 		"poison": {
@@ -7288,7 +7454,7 @@
 			},
 			"discord": {
 				"eng": "Discord",
-				"trans": "Discord"
+				"trans": "Discord\n不和諧"
 			},
 			"giftCode": {
 				"eng": "Gift Code",

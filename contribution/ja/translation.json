@@ -577,6 +577,28 @@
 			"trans": "バックパック"
 		}
 	},
+	"buff": {
+		"defenseIncrease": {
+			"description": {
+				"eng": "Increase defense for all players in strongholds created by your gang members in ${minutes} minutes",
+				"trans": "${minutes}分間、あなたのギャングメンバーが作成した要塞にいるすべてのプレイヤーの防御力を上げます。"
+			},
+			"name": {
+				"eng": "Defense Increase",
+				"trans": "防御力増加"
+			}
+		},
+		"lootIncrease": {
+			"description": {
+				"eng": "Increase loot dropped by enemies and chests in strongholds for all strongholds created by your gang members in ${minutes} minutes",
+				"trans": "${minutes}分間、あなたのギャングメンバーが作成したすべての要塞において、敵や宝箱からドロップするアイテムの量を増やします。"
+			},
+			"name": {
+				"eng": "Loot Increase",
+				"trans": "ルート増加"
+			}
+		}
+	},
 	"bundle": {
 		"dailyFree": {
 			"name": {
@@ -748,6 +770,36 @@
 			}
 		}
 	},
+	"clanBuffDeployPopup": {
+		"activated": {
+			"eng": "Buff Activated",
+			"trans": "バフが発動しました"
+		},
+		"confirmDeploy": {
+			"eng": "Confirm deploy",
+			"trans": "デプロイを確認しますか？"
+		},
+		"confirmDeployDescription": {
+			"eng": "Are you sure you want to deploy \"${buffName}\" buff?",
+			"trans": "\"${buffName}\"バフを展開しますか？"
+		},
+		"deploy": {
+			"eng": "Deploy",
+			"trans": "デプロイする"
+		},
+		"notInClan": {
+			"eng": "You can only deploy buffs if you are in a gang",
+			"trans": "ギャングに所属している場合のみ、バフを展開することができます。"
+		},
+		"requires": {
+			"eng": "Requires",
+			"trans": "必要条件"
+		},
+		"tip": {
+			"eng": "Deploying buffs will give you and your gang temporary boost in the game.",
+			"trans": "バフを展開すると、あなたとギャングに一時的な強化が与えられます。"
+		}
+	},
 	"clanDetailHeader": {
 		"isPrivate": {
 			"eng": "Private",
@@ -858,6 +910,14 @@
 		"resourceContributed": {
 			"eng": "resource: ${amount}",
 			"trans": "リソース: ${amount}"
+		},
+		"thisWeek": {
+			"eng": "this week",
+			"trans": "今週 (こんしゅう)"
+		},
+		"total": {
+			"eng": "total",
+			"trans": "合計"
 		}
 	},
 	"clanSearchPage": {
@@ -972,8 +1032,8 @@
 		"notLoggedIn": {
 			"reconnecting": {
 				"description": {
-					"eng": "No internet connection or server is under maintenance. Please try again later.",
-					"trans": "安定したネットワーク接続を確保してください。改善されない場合はメンテナンス中の可能性があります。"
+					"eng": "No internet connection or server is restarting for update. Please try again later.",
+					"trans": "インターネット接続がありません、またはサーバーがアップデートのため再起動中です。後でもう一度お試しください。"
 				},
 				"title": {
 					"eng": "Failed to connect to server.",
@@ -1435,6 +1495,16 @@
 				"trans": "ダメージブースト"
 			}
 		},
+		"defenseIncrease": {
+			"desc": {
+				"eng": "Increase defense, takes less damage from enemies.",
+				"trans": "防御力を上げ、敵からのダメージを軽減します。"
+			},
+			"name": {
+				"eng": "Defense Boost",
+				"trans": "防御ブースト"
+			}
+		},
 		"enemyIncrease": {
 			"desc": {
 				"eng": "Increase number of enemies.",
@@ -1455,6 +1525,16 @@
 				"trans": "経験値ブースト"
 			}
 		},
+		"lootIncrease": {
+			"desc": {
+				"eng": "Increase loot gained.",
+				"trans": "獲得するアイテムを増やす。"
+			},
+			"name": {
+				"eng": "Extra Loot",
+				"trans": "エクストラルート"
+			}
+		},
 		"luckIncrease": {
 			"desc": {
 				"eng": "Increase drop quality",
@@ -1465,6 +1545,16 @@
 		}
 	},
 	"dungeonLobby": {
+		"buff": {
+			"deploy": {
+				"eng": "Deploy Buff",
+				"trans": "バフを展開する"
+			},
+			"title": {
+				"eng": "Active Buffs",
+				"trans": "アクティブバフ"
+			}
+		},
 		"createButton": {
 			"eng": "Enter Stronghold",
 			"trans": "要塞に入る"
@@ -2907,6 +2997,16 @@
 				"trans": "コモン-レベルシャード"
 			}
 		},
+		"defenseBoostBuffActivator": {
+			"description": {
+				"eng": "Deploy this buff in stronghold lobby to increase defense for all players in strongholds created by your gang members for ${minutes} minutes",
+				"trans": "${minutes}分間、ギャングメンバーが作成した要塞にいるすべてのプレイヤーの防御力を上げるために、要塞ロビーでこのバフを展開してください。"
+			},
+			"name": {
+				"eng": "Defense Boot Buff Activator",
+				"trans": "防御ブートバフアクティベーター"
+			}
+		},
 		"dungeonActivator": {
 			"description": {
 				"eng": "Use to enter a dungeon",
@@ -3083,6 +3183,16 @@
 			"name": {
 				"eng": "decryption Key",
 				"trans": "復号キー"
+			}
+		},
+		"lootIncreaseBuffActivator": {
+			"description": {
+				"eng": "Deploy this buff in stronghold lobby to increase loot amount for all strongholds created by your gang members for ${minutes} minutes",
+				"trans": "このバフを要塞ロビーで展開し、${minutes}分間、ギャングメンバーが作成したすべての要塞のルート量を増加させます。"
+			},
+			"name": {
+				"eng": "Loot Increase Buff Activator",
+				"trans": "ルート増加バフアクティベーター"
 			}
 		},
 		"lowerArmor": {
@@ -3398,6 +3508,12 @@
 			}
 		}
 	},
+	"itemTypeInfoPopup": {
+		"obtainedFrom": {
+			"eng": "Obtained from",
+			"trans": "取得元"
+		}
+	},
 	"itemUpgradePage": {
 		"item": {
 			"title": {
@@ -3432,13 +3548,27 @@
 				"eng": "Click here to select an item",
 				"trans": "アイテムを選択するにはここをクリックしてください"
 			},
-			"description": {
-				"eng": "Please select an equipment to upgrade or calibrate",
-				"trans": "アップグレードまたはキャリブレーションする装備を選択してください。"
-			},
 			"title": {
 				"eng": "No item selected",
 				"trans": "アイテムが選択されていません"
+			}
+		},
+		"noItemCali": {
+			"description": {
+				"eng": "Please select an equipment to upgrade or calibrate",
+				"trans": "装備のアップグレードまたはキャリブレーションを行う装備を選択してください。"
+			}
+		},
+		"noItemUpgrade": {
+			"description": {
+				"eng": "Please select an equipment to upgrade",
+				"trans": "アップグレードする装備を選択してください。"
+			}
+		},
+		"noItemUpgradeOrCali": {
+			"description": {
+				"eng": "Please select an equipment to upgrade or calibrate",
+				"trans": "装備のアップグレードまたはキャリブレーションを行う装備を選択してください。"
 			}
 		},
 		"selectItem": {
@@ -3636,7 +3766,7 @@
 		},
 		"levelRange": {
 			"eng": "Lv ${enemyMinLevel}-${enemyMaxLevel}",
-			"trans": "Lv ${enemyMinLevel}-${enemyMaxLevel}",
+			"trans": "Lv ${enemyMinLevel}-${enemyMaxLevel}の敵レベル",
 			"vars": []
 		},
 		"listHeader": {
@@ -3756,10 +3886,16 @@
 				"trans": "アパートに戻る"
 			}
 		},
+		"chirp": {
+			"title": {
+				"eng": "Chirp",
+				"trans": "チャープ"
+			}
+		},
 		"chooseLocationButton": {
 			"title": {
-				"eng": "Travel [Current Level ${currentLevel}]",
-				"trans": "トラベル [現在のレベル ${currentLevel}]"
+				"eng": "Travel [Level ${currentLevel}]",
+				"trans": "移動 [レベル${currentLevel}]"
 			}
 		},
 		"deathItemsButton": {
@@ -4371,6 +4507,10 @@
 		"noMessages": {
 			"eng": "No messages yet",
 			"trans": "メッセージはありません。"
+		},
+		"system": {
+			"eng": "System",
+			"trans": "システム"
 		}
 	},
 	"messageToken": {
@@ -4760,10 +4900,6 @@
 			}
 		},
 		"dailyReward": {
-			"characterDescription": {
-				"eng": "Hana is a resourceful and inventive young woman with a passion for tinkering and fixing machines. Despite her small stature, she has a sharp mind and a steady hand, which makes her a skilled mechanic. Her expertise has made her a valuable asset to those in need of repairs in the gritty cyberpunk world in which she lives. However, beneath her practical exterior, Hana has a quiet and introspective nature, and is often lost in thought. She has a keen eye for detail and is constantly seeking out new challenges to improve her skills. Hana also has a playful side to her, which she expresses through her love of pink, a color she finds both cute and cheerful. Despite the harsh realities of her world, Hana remains optimistic and hopeful, always seeking out ways to make things better for herself and those around her.",
-				"trans": "ハナは、機械をいじくり回して修理することに情熱を注ぐ、知恵と技術を持った小柄な女性です。彼女の専門知識は、彼女が住む荒涼としたサイバーパンクの世界で修理を必要とする人々にとって、貴重な資産となっています。しかし、実用的な外観の裏には、静かで内省的な性格があり、しばしば考え込んでいます。彼女は細かいところに目配りができ、自分のスキルを向上させるための新しいチャレン"
-			},
 			"greetings": {
 				"eng": [
 					"Hey there, stranger! Are you ready for a little boost to help you on your journey today?",
@@ -6079,6 +6215,10 @@
 				"eng": "Lobby not found",
 				"trans": "ロビーが見つかりません"
 			},
+			"notEnoughPsyche": {
+				"eng": "Your psychosis is too high to enter the stronghold",
+				"trans": "あなたのサイコシスが高すぎて要塞に入ることができません。"
+			},
 			"notIdle": {
 				"eng": "You cannot do this now",
 				"trans": "現在はこれを行うことはできません"
@@ -6343,6 +6483,12 @@
 			}
 		}
 	},
+	"socialMedia": {
+		"noPostsYet": {
+			"eng": "No posts yet",
+			"trans": "まだ投稿はありません。"
+		}
+	},
 	"socialPage": {
 		"clanChatTab": {
 			"detailsButton": {
@@ -6522,6 +6668,16 @@
 				"trans": "防御"
 			}
 		},
+		"defenseIncrease": {
+			"desc": {
+				"eng": "Increases your defense",
+				"trans": "防御力を上げます"
+			},
+			"name": {
+				"eng": "Defense Increase",
+				"trans": "防御力増加"
+			}
+		},
 		"heal": {
 			"combatMsg": {
 				"eng": "${name} recovered ${heal} health",
@@ -6534,6 +6690,16 @@
 			"name": {
 				"eng": "Healed",
 				"trans": "回復完了"
+			}
+		},
+		"lootIncrease": {
+			"desc": {
+				"eng": "Increases the amount of loot from enemies and chests",
+				"trans": "敵や宝箱からの戦利品の量を増やします。"
+			},
+			"name": {
+				"eng": "Loot Increase",
+				"trans": "ルート増加"
 			}
 		},
 		"poison": {

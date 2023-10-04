@@ -577,6 +577,28 @@
 			"trans": "배낭"
 		}
 	},
+	"buff": {
+		"defenseIncrease": {
+			"description": {
+				"eng": "Increase defense for all players in strongholds created by your gang members in ${minutes} minutes",
+				"trans": "${minutes}분 동안 당신의 갱원이 만든 아지트에서 모든 플레이어의 방어력을 증가시킵니다"
+			},
+			"name": {
+				"eng": "Defense Increase",
+				"trans": "방어력 증가"
+			}
+		},
+		"lootIncrease": {
+			"description": {
+				"eng": "Increase loot dropped by enemies and chests in strongholds for all strongholds created by your gang members in ${minutes} minutes",
+				"trans": "${minutes}분 동안 갱원들이 만든 모든 아지트에서 적과 상자에서 드롭되는 전리품을 증가시킵니다"
+			},
+			"name": {
+				"eng": "Loot Increase",
+				"trans": "전리품 증가"
+			}
+		}
+	},
 	"bundle": {
 		"dailyFree": {
 			"name": {
@@ -748,6 +770,36 @@
 			}
 		}
 	},
+	"clanBuffDeployPopup": {
+		"activated": {
+			"eng": "Buff Activated",
+			"trans": "버프 활성화됨"
+		},
+		"confirmDeploy": {
+			"eng": "Confirm deploy",
+			"trans": "배치 확인"
+		},
+		"confirmDeployDescription": {
+			"eng": "Are you sure you want to deploy \"${buffName}\" buff?",
+			"trans": "\"${buffName}\" 버프를 사용하시겠습니까?"
+		},
+		"deploy": {
+			"eng": "Deploy",
+			"trans": "배치"
+		},
+		"notInClan": {
+			"eng": "You can only deploy buffs if you are in a gang",
+			"trans": "갱에 속해 있을 때만 버프를 사용할 수 있습니다"
+		},
+		"requires": {
+			"eng": "Requires",
+			"trans": "필요 사항"
+		},
+		"tip": {
+			"eng": "Deploying buffs will give you and your gang temporary boost in the game.",
+			"trans": "버프를 사용하면 게임에서 당신과 당신의 갱단에 일시적인 힘을 부여합니다."
+		}
+	},
 	"clanDetailHeader": {
 		"isPrivate": {
 			"eng": "Private",
@@ -858,6 +910,14 @@
 		"resourceContributed": {
 			"eng": "resource: ${amount}",
 			"trans": "자원: ${amount}"
+		},
+		"thisWeek": {
+			"eng": "this week",
+			"trans": "이번 주"
+		},
+		"total": {
+			"eng": "total",
+			"trans": "총계"
 		}
 	},
 	"clanSearchPage": {
@@ -972,8 +1032,8 @@
 		"notLoggedIn": {
 			"reconnecting": {
 				"description": {
-					"eng": "No internet connection or server is under maintenance. Please try again later.",
-					"trans": "인터넷 연결이 없거나 서버가 유지보수 중입니다. 나중에 다시 시도해주세요."
+					"eng": "No internet connection or server is restarting for update. Please try again later.",
+					"trans": "인터넷 연결이 없거나 서버가 업데이트를 위해 재시작 중입니다. 나중에 다시 시도해주세요."
 				},
 				"title": {
 					"eng": "Failed to connect to server.",
@@ -1435,6 +1495,16 @@
 				"trans": "데미지 부스트"
 			}
 		},
+		"defenseIncrease": {
+			"desc": {
+				"eng": "Increase defense, takes less damage from enemies.",
+				"trans": "방어력 증가, 적으로부터 받는 피해 감소."
+			},
+			"name": {
+				"eng": "Defense Boost",
+				"trans": "방어력 증가"
+			}
+		},
 		"enemyIncrease": {
 			"desc": {
 				"eng": "Increase number of enemies.",
@@ -1455,6 +1525,16 @@
 				"trans": "경험치 부스트"
 			}
 		},
+		"lootIncrease": {
+			"desc": {
+				"eng": "Increase loot gained.",
+				"trans": "전리품 획득량 증가."
+			},
+			"name": {
+				"eng": "Extra Loot",
+				"trans": "추가 전리품"
+			}
+		},
 		"luckIncrease": {
 			"desc": {
 				"eng": "Increase drop quality",
@@ -1465,6 +1545,16 @@
 		}
 	},
 	"dungeonLobby": {
+		"buff": {
+			"deploy": {
+				"eng": "Deploy Buff",
+				"trans": "버프 배치"
+			},
+			"title": {
+				"eng": "Active Buffs",
+				"trans": "활성 버프"
+			}
+		},
 		"createButton": {
 			"eng": "Enter Stronghold",
 			"trans": "아지트에 들어가기"
@@ -2907,6 +2997,16 @@
 				"trans": "평범한 레벨 샤드"
 			}
 		},
+		"defenseBoostBuffActivator": {
+			"description": {
+				"eng": "Deploy this buff in stronghold lobby to increase defense for all players in strongholds created by your gang members for ${minutes} minutes",
+				"trans": "이 버프를 아지트 로비에 배치하여 ${minutes}분 동안 갱원 멤버가 생성한 아지트의 모든 플레이어의 방어력을 증가시킵니다"
+			},
+			"name": {
+				"eng": "Defense Boot Buff Activator",
+				"trans": "방어 부츠 버프 활성화기"
+			}
+		},
 		"dungeonActivator": {
 			"description": {
 				"eng": "Use to enter a dungeon",
@@ -3083,6 +3183,16 @@
 			"name": {
 				"eng": "decryption Key",
 				"trans": "복호화 키"
+			}
+		},
+		"lootIncreaseBuffActivator": {
+			"description": {
+				"eng": "Deploy this buff in stronghold lobby to increase loot amount for all strongholds created by your gang members for ${minutes} minutes",
+				"trans": "이 버프를 아지트 로비에 배치하여 ${minutes}분 동안 당신의 갱 멤버가 생성한 모든 아지트의 전리품 양을 증가시킵니다"
+			},
+			"name": {
+				"eng": "Loot Increase Buff Activator",
+				"trans": "전리품 증가 버프 활성화기"
 			}
 		},
 		"lowerArmor": {
@@ -3398,6 +3508,12 @@
 			}
 		}
 	},
+	"itemTypeInfoPopup": {
+		"obtainedFrom": {
+			"eng": "Obtained from",
+			"trans": "획득처"
+		}
+	},
 	"itemUpgradePage": {
 		"item": {
 			"title": {
@@ -3432,13 +3548,27 @@
 				"eng": "Click here to select an item",
 				"trans": "아이템을 선택하려면 여기를 클릭하세요"
 			},
-			"description": {
-				"eng": "Please select an equipment to upgrade",
-				"trans": "장비를 업그레이드할 장비를 선택해주세요"
-			},
 			"title": {
 				"eng": "No item selected",
 				"trans": "선택된 아이템이 없습니다"
+			}
+		},
+		"noItemCali": {
+			"description": {
+				"eng": "Please select an equipment to upgrade or calibrate",
+				"trans": "장비를 업그레이드하거나 교정할 장비를 선택해주세요"
+			}
+		},
+		"noItemUpgrade": {
+			"description": {
+				"eng": "Please select an equipment to upgrade",
+				"trans": "장비를 업그레이드하려면 장비를 선택하세요"
+			}
+		},
+		"noItemUpgradeOrCali": {
+			"description": {
+				"eng": "Please select an equipment to upgrade or calibrate",
+				"trans": "장비를 업그레이드하거나 교정할 장비를 선택해주세요"
 			}
 		},
 		"selectItem": {
@@ -3756,10 +3886,16 @@
 				"trans": "아파트로 돌아가기"
 			}
 		},
+		"chirp": {
+			"title": {
+				"eng": "Chirp",
+				"trans": "짹짹"
+			}
+		},
 		"chooseLocationButton": {
 			"title": {
-				"eng": "Travel [Current Level ${currentLevel}]",
-				"trans": "여행 [현재 레벨 ${currentLevel}]"
+				"eng": "Travel [Level ${currentLevel}]",
+				"trans": "여행 [레벨 ${currentLevel}]"
 			}
 		},
 		"deathItemsButton": {
@@ -4371,6 +4507,10 @@
 		"noMessages": {
 			"eng": "No messages yet",
 			"trans": "아직 메시지가 없습니다"
+		},
+		"system": {
+			"eng": "System",
+			"trans": "시스템"
 		}
 	},
 	"messageToken": {
@@ -4760,10 +4900,6 @@
 			}
 		},
 		"dailyReward": {
-			"characterDescription": {
-				"eng": "Hana is a resourceful and inventive young woman with a passion for tinkering and fixing machines. Despite her small stature, she has a sharp mind and a steady hand, which makes her a skilled mechanic. Her expertise has made her a valuable asset to those in need of repairs in the gritty cyberpunk world in which she lives. However, beneath her practical exterior, Hana has a quiet and introspective nature, and is often lost in thought. She has a keen eye for detail and is constantly seeking out new challenges to improve her skills. Hana also has a playful side to her, which she expresses through her love of pink, a color she finds both cute and cheerful. Despite the harsh realities of her world, Hana remains optimistic and hopeful, always seeking out ways to make things better for herself and those around her.",
-				"trans": "하나는 기계를 고치고 만지작거리는걸 좋아하는 창의적이고 영리한 젊은 여성입니다. 작은 체구에도 불구하고 그녀를 숙려된 기계공으로 만들어주는 날카로운 지성와 안정된 손놀림을 가지고 있습니다. 그녀의 전문 지식은 거친 사이버 펑크 세계에서 수리가 필요한 사람들에게 소중한 자산이 되었습니다. 하지만 그녀의 실용적인 외모 아래에, 하나는 조용하고 내성적인 성격으로 생각에 자주 잠깁니다. 그녀는 세부적인 것에 예리한 안목을 가지고 있으며, 자신의 기술을 향상시키기 위해 끊임없이 새로운 도전을 찾고 있습니다. 하나는 귀여운 것과 즐거운 것을 모두 담고 있는 핑크색을 좋아하는 재미있는 면도 있습니다. 그녀의 세상이 가혹한 현실임에도 불구하고 하나는 낙천적이고 희망적이며 항상 자신과 주변 사람들을 위해 더 나은 방법을 찾아냅니다."
-			},
 			"greetings": {
 				"eng": [
 					"Hey there, stranger! Are you ready for a little boost to help you on your journey today?",
@@ -6079,6 +6215,10 @@
 				"eng": "Lobby not found",
 				"trans": "로비를 찾을 수 없습니다"
 			},
+			"notEnoughPsyche": {
+				"eng": "Your psychosis is too high to enter the stronghold",
+				"trans": "당신의 사이버 싸이코가 너무 높아 아지트에 들어갈 수 없습니다"
+			},
 			"notIdle": {
 				"eng": "You cannot do this now",
 				"trans": "지금은 이 작업을 할 수 없습니다"
@@ -6343,6 +6483,12 @@
 			}
 		}
 	},
+	"socialMedia": {
+		"noPostsYet": {
+			"eng": "No posts yet",
+			"trans": "아직 게시물이 없습니다"
+		}
+	},
 	"socialPage": {
 		"clanChatTab": {
 			"detailsButton": {
@@ -6522,6 +6668,16 @@
 				"trans": "방어력 I"
 			}
 		},
+		"defenseIncrease": {
+			"desc": {
+				"eng": "Increases your defense",
+				"trans": "방어력을 증가시킵니다"
+			},
+			"name": {
+				"eng": "Defense Increase",
+				"trans": "방어력 증가"
+			}
+		},
 		"heal": {
 			"combatMsg": {
 				"eng": "${name} recovered ${heal} health",
@@ -6534,6 +6690,16 @@
 			"name": {
 				"eng": "Healed",
 				"trans": "회복"
+			}
+		},
+		"lootIncrease": {
+			"desc": {
+				"eng": "Increases the amount of loot from enemies and chests",
+				"trans": "적과 상자에서 얻는 전리품의 양을 증가시킵니다"
+			},
+			"name": {
+				"eng": "Loot Increase",
+				"trans": "전리품 증가"
 			}
 		},
 		"poison": {
