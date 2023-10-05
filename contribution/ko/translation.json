@@ -581,7 +581,7 @@
 		"defenseIncrease": {
 			"description": {
 				"eng": "Increase defense for all players in strongholds created by your gang members in ${minutes} minutes",
-				"trans": "${minutes}분 동안 당신의 갱원이 만든 아지트에서 모든 플레이어의 방어력을 증가시킵니다"
+				"trans": "${minutes}분 동안 당신의 갱원들이 만든 아지트의 모든 플레이어의 방어력을 증가시킵니다"
 			},
 			"name": {
 				"eng": "Defense Increase",
@@ -591,7 +591,7 @@
 		"lootIncrease": {
 			"description": {
 				"eng": "Increase loot dropped by enemies and chests in strongholds for all strongholds created by your gang members in ${minutes} minutes",
-				"trans": "${minutes}분 동안 갱원들이 만든 모든 아지트에서 적과 상자에서 드롭되는 전리품을 증가시킵니다"
+				"trans": "${minutes}분 동안  당신의 갱원들이 만든 모든 아지트의 적과 상자에서 떨어지는 전리품을 증가시킵니다"
 			},
 			"name": {
 				"eng": "Loot Increase",
@@ -781,7 +781,7 @@
 		},
 		"confirmDeployDescription": {
 			"eng": "Are you sure you want to deploy \"${buffName}\" buff?",
-			"trans": "\"${buffName}\" 버프를 사용하시겠습니까?"
+			"trans": "\"${buffName}\" 버프를 배치하시겠습니까?"
 		},
 		"deploy": {
 			"eng": "Deploy",
@@ -789,7 +789,7 @@
 		},
 		"notInClan": {
 			"eng": "You can only deploy buffs if you are in a gang",
-			"trans": "갱에 속해 있을 때만 버프를 사용할 수 있습니다"
+			"trans": "갱에 속해 있을 때만 버프를 배치할 수 있습니다"
 		},
 		"requires": {
 			"eng": "Requires",
@@ -797,7 +797,7 @@
 		},
 		"tip": {
 			"eng": "Deploying buffs will give you and your gang temporary boost in the game.",
-			"trans": "버프를 사용하면 게임에서 당신과 당신의 갱단에 일시적인 힘을 부여합니다."
+			"trans": "버프를 배치하면 게임에서 당신과 당신의 갱단에 일시적으로 부스트를 부여합니다."
 		}
 	},
 	"clanDetailHeader": {
@@ -1552,7 +1552,7 @@
 			},
 			"title": {
 				"eng": "Active Buffs",
-				"trans": "활성 버프"
+				"trans": "버프 활성화"
 			}
 		},
 		"createButton": {
@@ -2607,7 +2607,7 @@
 	"itemSourceModal": {
 		"blackMarket": {
 			"eng": "Black Market",
-			"trans": "암암시장"
+			"trans": "암시장"
 		},
 		"boss": {
 			"eng": "Stronghold Bosses",
@@ -3000,11 +3000,11 @@
 		"defenseBoostBuffActivator": {
 			"description": {
 				"eng": "Deploy this buff in stronghold lobby to increase defense for all players in strongholds created by your gang members for ${minutes} minutes",
-				"trans": "이 버프를 아지트 로비에 배치하여 ${minutes}분 동안 갱원 멤버가 생성한 아지트의 모든 플레이어의 방어력을 증가시킵니다"
+				"trans": "이 버프를 아지트 로비에 배치하여 ${minutes}분 동안 갱원들이 생성한 아지트의 모든 플레이어의 방어력을 증가시킵니다"
 			},
 			"name": {
 				"eng": "Defense Boot Buff Activator",
-				"trans": "방어 부츠 버프 활성화기"
+				"trans": "방어 부스트 버프 활성화기"
 			}
 		},
 		"dungeonActivator": {
@@ -3188,7 +3188,7 @@
 		"lootIncreaseBuffActivator": {
 			"description": {
 				"eng": "Deploy this buff in stronghold lobby to increase loot amount for all strongholds created by your gang members for ${minutes} minutes",
-				"trans": "이 버프를 아지트 로비에 배치하여 ${minutes}분 동안 당신의 갱 멤버가 생성한 모든 아지트의 전리품 양을 증가시킵니다"
+				"trans": "이 버프를 아지트 로비에 배치하여 ${minutes}분 동안 당신의 갱 멤버들이 생성한 모든 아지트의 전리품 양을 증가시킵니다"
 			},
 			"name": {
 				"eng": "Loot Increase Buff Activator",
@@ -3248,7 +3248,7 @@
 		"netcoin": {
 			"description": {
 				"eng": "NetCoin is a digital currency mainly used in black market transactions. It is untraceable and can be used to purchase illegal goods and services.",
-				"trans": "넷코인은 주로 암암시장에서 주로 사용하는 디지털 화폐입니다. 추적이 불가능하며 불법 물품과 서비스를 구매하는 데 사용될 수 있습니다."
+				"trans": "넷코인은 주로 암시장에서 주로 사용하는 디지털 화폐입니다. 추적이 불가능하며 불법 물품과 서비스를 구매하는 데 사용될 수 있습니다."
 			},
 			"name": {
 				"eng": "NetCoin",
@@ -3556,7 +3556,7 @@
 		"noItemCali": {
 			"description": {
 				"eng": "Please select an equipment to upgrade or calibrate",
-				"trans": "장비를 업그레이드하거나 교정할 장비를 선택해주세요"
+				"trans": "업그레이드하거나 교정할 장비를 선택해주세요"
 			}
 		},
 		"noItemUpgrade": {
@@ -3568,7 +3568,7 @@
 		"noItemUpgradeOrCali": {
 			"description": {
 				"eng": "Please select an equipment to upgrade or calibrate",
-				"trans": "장비를 업그레이드하거나 교정할 장비를 선택해주세요"
+				"trans": "업그레이드하거나 교정할 장비를 선택해주세요"
 			}
 		},
 		"selectItem": {
@@ -3684,7 +3684,7 @@
 		"medical": {
 			"currentEffectDescription": {
 				"eng": "Increases intelligence by ${intelligence} (increases damage by ${healing}) and Extraction Mission task profit to ${profit}",
-				"trans": "지능을 ${intelligence}만큼 증가시키고(피해량 ${healing}증가) 구출 임무 수익을 ${profit}만큼 증가시킵니다"
+				"trans": "지능을 ${intelligence}만큼 증가시키고(에너지 무기 피해량 ${healing}증가) 구출 임무 수익을 ${profit}만큼 증가시킵니다"
 			},
 			"description": {
 				"eng": "Increases intelligence attribute by 1 every level, and increases profit from this job type",
@@ -3722,7 +3722,7 @@
 		"thieving": {
 			"currentEffectDescription": {
 				"eng": "Increases dexterity by ${dexterity} (increases fire-arm weapons damage by ${dmg}) and thieving task profit to ${profit}",
-				"trans": "민첩성을 ${dexterity}만큼 증가시킵니다 (화기 무기의 데미지를 ${dmg}만큼 증가시킵니다) 그리고 도둑질 작업의 수익을 ${profit}로 증가시킵니다"
+				"trans": "민첩성을 ${dexterity}만큼 증가시킵니다 (화기 무기의 피해량 ${dmg}증가) 그리고 도둑질 작업의 수익을 ${profit}로 증가시킵니다"
 			},
 			"description": {
 				"eng": "Increases dexterity attribute by 1 every level, and increases profit from this job type",
@@ -3992,7 +3992,7 @@
 		},
 		"blackMarket": {
 			"eng": "Black Market",
-			"trans": "암암시장"
+			"trans": "암시장"
 		},
 		"currency": {
 			"eng": "Currency",
@@ -6914,11 +6914,11 @@
 		},
 		"noClan": {
 			"eng": "No clan has claimed this territory",
-			"trans": "어떤 클랜도 이 영역을 소유하지 않았습니다"
+			"trans": "어떤 갱도 이 영역을 소유하지 않았습니다"
 		},
 		"resetTip": {
 			"eng": "Territory points reset every week",
-			"trans": "영토 점수는 매주 초기화됩니다"
+			"trans": "영역 컨트롤 점수는 매주 초기화됩니다"
 		},
 		"territoryBuffs": {
 			"eng": "leaderboard",
@@ -6926,7 +6926,7 @@
 		},
 		"unclaimed": {
 			"eng": "This territory is unclaimed",
-			"trans": "이 영토는 소유권이 없습니다"
+			"trans": "이 영역은 소유자가 없습니다"
 		}
 	},
 	"textareaModal": {
@@ -7695,19 +7695,19 @@
 		"calibrationFailed": {
 			"announcement": {
 				"eng": "${playerName} broke ${item} while calibrating",
-				"trans": "${playerName}이(가) ${item}을(를) 교정하는 도중 파손했습니다"
+				"trans": "${playerName}이(가) ${item}을(를) 교정하는 도중 부서졌습니다"
 			}
 		},
 		"mugged": {
 			"announcement": {
 				"eng": "${playerName} mugged someone!",
-				"trans": "${playerName}이(가) 누군가를 강탈했습니다!"
+				"trans": "${playerName}이(가) 누군가를 강도질 했습니다!"
 			}
 		},
 		"muggedFailed": {
 			"announcement": {
 				"eng": "${playerName} tried to mug someone but failed!",
-				"trans": "${playerName}은(는) 누군가를 노린 시도를 했지만 실패했습니다!"
+				"trans": "${playerName}은(는) 누군가를 강도질하려 했지만 실패했습니다!"
 			}
 		},
 		"upgradedEpic": {
