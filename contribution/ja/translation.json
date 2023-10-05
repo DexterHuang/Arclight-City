@@ -4856,7 +4856,7 @@
 			},
 			"locationName": {
 				"eng": "Ripperdoc",
-				"trans": "リッパードク医師"
+				"trans": "リパードク"
 			},
 			"npcName": {
 				"eng": "Oriana",
@@ -5202,7 +5202,7 @@
 		},
 		"title": {
 			"eng": "City Center",
-			"trans": "都市中心"
+			"trans": "シティーセンター"
 		}
 	},
 	"npcQuestPreviewPage": {
@@ -5213,7 +5213,7 @@
 			},
 			"complete": {
 				"eng": "submit quest",
-				"trans": "クエストを提出する"
+				"trans": "クエストを完了"
 			}
 		},
 		"confirm": {
@@ -5260,11 +5260,11 @@
 	"placeHitPage": {
 		"notEnoughUnitError": {
 			"eng": "Minimum hit bounty is ${minNormal} and ${minUnit}",
-			"trans": "最低のヒット報酬は${minNormal}と${minUnit}です。"
+			"trans": "最低額の暗殺酬額は${minNormal}と${minUnit}です。"
 		},
 		"placeHit": {
 			"eng": "Place hit",
-			"trans": "ヒット位置"
+			"trans": "暗殺依頼"
 		},
 		"selectPlayer": {
 			"eng": "Select player",
@@ -5299,7 +5299,7 @@
 		},
 		"notEnoughPsychosis": {
 			"eng": "Your Cyber-Psychosis symptom is too high to perform this action: ${psychosis}",
-			"trans": "このアクションを実行するには、サイバーパイコシスの症状が高すぎます：${psychosis}",
+			"trans": "このアクションを実行するには、サイバーサイコシスが高すぎます：${psychosis}",
 			"vars": []
 		},
 		"reportSuccess": {
@@ -5311,7 +5311,7 @@
 		"confirmModal": {
 			"description": {
 				"eng": "Are you sure you want to visit this apartment?",
-				"trans": "このアパートを訪れるのは本当にいいですか？"
+				"trans": "本当にこのアパートを訪れますか？"
 			},
 			"title": {
 				"eng": "Visit apartment",
@@ -5373,7 +5373,7 @@
 			},
 			"unblock": {
 				"eng": "Unblock",
-				"trans": "ブロック解除"
+				"trans": "解除"
 			}
 		},
 		"tabs": {
@@ -5742,11 +5742,11 @@
 			},
 			"mug2": {
 				"eng": "You mugged ${playerName} and you won the fight, you gotten ${currency}",
-				"trans": "プレイヤー${playerName}を襲って勝利した。${currency}を獲得した。"
+				"trans": "プレイヤー${playerName}を襲撃し勝利した。${currency}を獲得した。"
 			},
 			"successBounty": {
 				"eng": "You received bounty of ${money1} and ${money2} for eliminating ${targetPlayer}",
-				"trans": "ターゲットプレイヤーを排除したことにより、${money1}と${money2}のバウンティを獲得"
+				"trans": "ターゲットを排除したことにより、${money1}と${money2}のバウンティを獲得"
 			}
 		}
 	},
@@ -5770,11 +5770,11 @@
 			},
 			"collectQuestItemInDungeon": {
 				"eng": "Collect ${required} ${itemName} from lv.${level}+ stronghold (${dungeonName}) (${current}/${required})",
-				"trans": "レベル${level}以上の地城(${dungeonName})から${required}個の${itemName}を集める必要があります。 (${current}/${required})"
+				"trans": "レベル${level}以上の要塞(${dungeonName})から${required}個の${itemName}を集める必要があります。 (${current}/${required})"
 			},
 			"completeDungeon": {
 				"eng": "Defeat lv.${level}+ stronghold boss (${current}/${required})",
-				"trans": "レベル${level}以上のストロングホールドボスを撃破せよ (${current}/${required})"
+				"trans": "レベル${level}以上の要塞のボスを撃破せよ (${current}/${required})"
 			},
 			"defeatEnemy": {
 				"eng": "Defeat ${required} enemies (${current}/${required})",
@@ -5881,7 +5881,7 @@
 	"quickSlotList": {
 		"empty": {
 			"eng": "empty",
-			"trans": "空の"
+			"trans": "空"
 		}
 	},
 	"realtime": {
@@ -5895,7 +5895,7 @@
 	"referral": {
 		"level20Mail": {
 			"eng": "Your referral ${player} has reached level ${level}! rewards has been sent to your apartment!",
-			"trans": "あなたの推薦者${player}がレベル${level}に達しました！報酬はあなたのアパートに送られました！"
+			"trans": "あなたの紹介者${player}がレベル${level}に達しました！報酬はあなたのアパートに送られました！"
 		}
 	},
 	"refreshShopModal": {
@@ -5979,7 +5979,7 @@
 		},
 		"inappropriate": {
 			"eng": "Inappropriate",
-			"trans": "不適切です"
+			"trans": "不適切"
 		},
 		"other": {
 			"eng": "Other",
@@ -5987,13 +5987,13 @@
 		},
 		"spam": {
 			"eng": "Spam",
-			"trans": "スパム"
+			"trans": "迷惑行為"
 		}
 	},
 	"reward": {
 		"clanExp": {
 			"eng": "+${clanExp} Gang EXP",
-			"trans": "+${clanExp} 幫派経験値",
+			"trans": "+${clanExp} ギャング経験値",
 			"vars": []
 		},
 		"clanResource": {
@@ -6009,7 +6009,7 @@
 		},
 		"territoryPoint": {
 			"eng": "+${territoryPoint} Territory Point",
-			"trans": "+${territoryPoint} 領土ポイント",
+			"trans": "+${territoryPoint} 領地ポイント",
 			"vars": []
 		}
 	},
@@ -6021,7 +6021,7 @@
 		},
 		"clanExp": {
 			"eng": "+ ${clanExp} gang exp",
-			"trans": "+ ${clanExp} 幫派経験値",
+			"trans": "+ ${clanExp} ギャング経験値",
 			"vars": []
 		},
 		"clanResource": {
@@ -6035,7 +6035,7 @@
 		},
 		"reducePsychosis": {
 			"eng": "Reduce psychosis by ${reducePsychosis}",
-			"trans": "${reducePsychosis}によって狂躁症を軽減する",
+			"trans": "${reducePsychosis}によってサイコシスを軽減する",
 			"vars": []
 		}
 	},
@@ -6085,11 +6085,11 @@
 	"selectAmountModal": {
 		"max": {
 			"eng": "max",
-			"trans": "マックス"
+			"trans": "最大"
 		},
 		"min": {
 			"eng": "min",
-			"trans": "最小値"
+			"trans": "最小"
 		}
 	},
 	"server": {
@@ -6108,7 +6108,7 @@
 			},
 			"alreadyMugged": {
 				"eng": "You have already mugged this player in the last 24 hours",
-				"trans": "過去24時間以内にこのプレイヤーをすでに襲った"
+				"trans": "過去24時間以内にこのプレイヤーを既に襲撃しています"
 			},
 			"alreadyTriedEscape": {
 				"eng": "You have already tried to escape in this turn",
@@ -6132,7 +6132,7 @@
 			},
 			"notEnoughPsychosis": {
 				"eng": "You need at least ${psychosis} psychosis to engage in PvP",
-				"trans": "PvPに参加するには、少なくとも${psychosis}の狂躁症が必要です。"
+				"trans": "PvPに参加するには、少なくとも${psychosis}のサイコシスが必要です。"
 			},
 			"notIdle": {
 				"eng": "You can't do this right now",
@@ -6171,7 +6171,7 @@
 			},
 			"referrerNotFound": {
 				"eng": "Referrer not found",
-				"trans": "推薦者が見つかりません"
+				"trans": "紹介者が見つかりません"
 			}
 		},
 		"dungeon": {
@@ -6181,15 +6181,15 @@
 			},
 			"chestAlreadyOpened": {
 				"eng": "Chest already opened",
-				"trans": "チェストはすでに開かれています"
+				"trans": "チェストは既に開かれています"
 			},
 			"dungeonExpired": {
 				"eng": "Dungeon expired",
-				"trans": "地城の有効期限が切れました"
+				"trans": "要塞の有効期限が切れました"
 			},
 			"dungeonNotFound": {
 				"eng": "Stronghold not found",
-				"trans": "地城が見つかりません"
+				"trans": "要塞が見つかりません"
 			},
 			"dungeonPlayersNotFound": {
 				"eng": "Dungeon players not found",
@@ -6197,7 +6197,7 @@
 			},
 			"entityNotFound": {
 				"eng": "Entity not found",
-				"trans": "エンティティが見つかりません"
+				"trans": "対象が見つかりません"
 			},
 			"healAlreadyUsed": {
 				"eng": "Heal already used",
@@ -6221,11 +6221,11 @@
 			},
 			"notIdle": {
 				"eng": "You cannot do this now",
-				"trans": "現在はこれを行うことはできません"
+				"trans": "現在は実行できません"
 			},
 			"notInDungeon": {
 				"eng": "You are not in a stronghold",
-				"trans": "あなたは地城にいません"
+				"trans": "あなたは要塞にいません"
 			},
 			"notInLobby": {
 				"eng": "You are not in a lobby",
@@ -6243,15 +6243,15 @@
 			},
 			"craeteNotIdle": {
 				"eng": "You must be idle to create a lobby",
-				"trans": "ロビーを作成するにはアイドル状態である必要があります"
+				"trans": "ロビーを作成するには有効な状態である必要があります"
 			},
 			"inDungeon": {
 				"eng": "You are already in a dungeon",
-				"trans": "すでにダンジョンにいます"
+				"trans": "すでに要塞にいます"
 			},
 			"joinNotIdle": {
 				"eng": "You must be idle to join a lobby",
-				"trans": "ロビーに参加するにはアイドル状態である必要があります"
+				"trans": "ロビーに参加するには有効な状態である必要があります"
 			},
 			"lobbyFull": {
 				"eng": "Lobby is full",
@@ -6271,11 +6271,11 @@
 			},
 			"notOwnerInvite": {
 				"eng": "You must be the owner of the lobby to invite players",
-				"trans": "プレイヤーを招待するには、ロビーのオーナーである必要があります。"
+				"trans": "プレイヤーを招待するには、ホストである必要があります。"
 			},
 			"notOwnerKick": {
 				"eng": "You must be the owner of the lobby to kick players",
-				"trans": "プレイヤーをキックするには、ロビーのオーナーである必要があります。"
+				"trans": "プレイヤーをキックするには、ホストである必要があります。"
 			},
 			"playerAlreadyInLobby": {
 				"eng": "Player is already in this lobby",
@@ -6291,13 +6291,13 @@
 			},
 			"private": {
 				"eng": "This lobby is private",
-				"trans": "このロビーはプライベートです"
+				"trans": "このロビーは非公開です"
 			}
 		},
 		"error": {
 			"dungeonHasExpired": {
 				"eng": "Dungeon has expired",
-				"trans": "地城の有効期限が切れました"
+				"trans": "要塞の有効期限が切れました"
 			},
 			"itemLocked": {
 				"eng": "Item is locked",
@@ -6314,7 +6314,7 @@
 			"moveToInventory": {
 				"inDungeon": {
 					"eng": "You can't do that in a dungeon",
-					"trans": "ダンジョンではそれはできません"
+					"trans": "要塞内では実行できません"
 				}
 			},
 			"noEquipment": {
@@ -6354,7 +6354,7 @@
 			"name": {
 				"invalidCharacters": {
 					"eng": "Name must only contain english characters, numbers and _",
-					"trans": "名前は英字、数字、_のみを含める必要があります。"
+					"trans": "名前は英字、数字、_のみ使用できます。"
 				},
 				"tooLong": {
 					"eng": "Name must be at most ${maxLength} characters long",
@@ -6367,7 +6367,7 @@
 			},
 			"psychosisLimitReached": {
 				"eng": "Your action has been blocked by your cyber-psychosis monitor implant, as using more of your cybernetic abilities would be detrimental to your mental health.",
-				"trans": "あなたの行動は、精神的な健康に悪影響を及ぼす可能性があるため、サイバーパイコーシスモニターインプラントによってブロックされました。"
+				"trans": "あなたの行動は、精神的な健康に悪影響を及ぼす可能性があるため、サイバーサイコシス監視インプラントによってブロックされました。"
 			}
 		},
 		"quest": {
@@ -6404,7 +6404,7 @@
 	"settings": {
 		"backgroundVolume": {
 			"eng": "Background music volume",
-			"trans": "背景音楽の音量"
+			"trans": "BGM音量"
 		},
 		"deleteCharacter": {
 			"eng": "Delete character",
@@ -6412,7 +6412,7 @@
 		},
 		"enableBackgroundMusic": {
 			"eng": "Enable background music",
-			"trans": "バックグラウンドミュージックを有効にする"
+			"trans": "BGMを有効にする"
 		},
 		"enableGangChatNotification": {
 			"eng": "Enable Gang Chat Notification",
@@ -6506,7 +6506,7 @@
 			"enemies": {
 				"title": {
 					"eng": "Enemies",
-					"trans": "敵人"
+					"trans": "敵"
 				}
 			},
 			"friends": {
@@ -6526,7 +6526,7 @@
 	"stat": {
 		"armor": {
 			"eng": "Armor",
-			"trans": "防具"
+			"trans": "アーマー"
 		},
 		"autoDmg": {
 			"eng": "Auto Attack Damage",
@@ -6534,7 +6534,7 @@
 		},
 		"autoDmgMult": {
 			"eng": "Auto Attack Damage Multiplier",
-			"trans": "自動攻撃のダメージ乗数"
+			"trans": "自動攻撃のダメージ倍率"
 		},
 		"backpackSlot": {
 			"eng": "Backpack Slot",
@@ -6542,27 +6542,27 @@
 		},
 		"blockChance": {
 			"eng": "Block Chance",
-			"trans": "格闘率"
+			"trans": "防御確率"
 		},
 		"blockStrength": {
 			"eng": "Block Strength",
-			"trans": "ブロック強度"
+			"trans": "防御強度"
 		},
 		"critChance": {
 			"eng": "Critical Chance",
-			"trans": "クリティカル率"
+			"trans": "クリティカル確率"
 		},
 		"critDmg": {
 			"eng": "Critical Damage",
-			"trans": "致命的なダメージ"
+			"trans": "クリティカルダメージ"
 		},
 		"cyberneticResistance": {
 			"eng": "Cybernetic Resistance",
-			"trans": "電馭抵抗性"
+			"trans": "サイバネティック耐性"
 		},
 		"damageMult": {
 			"eng": "Damage Multiplier",
-			"trans": "ダメージ乗数"
+			"trans": "ダメージ倍率"
 		},
 		"dex": {
 			"eng": "Dexterity",
@@ -6590,11 +6590,11 @@
 		},
 		"headshotMult": {
 			"eng": "Headshot Multiplier",
-			"trans": "ヘッドショット乗数"
+			"trans": "ヘッドショット倍率"
 		},
 		"health": {
 			"eng": "Health",
-			"trans": "健康"
+			"trans": "体力"
 		},
 		"healthPercent": {
 			"eng": "Health Multiplier",
@@ -6610,15 +6610,15 @@
 		},
 		"kineticResistance": {
 			"eng": "Kinetic Resistance",
-			"trans": "運動抵抗力"
+			"trans": "運動エネルギー耐性"
 		},
 		"physicalResistance": {
 			"eng": "Physical Resistance",
-			"trans": "物理抵抗"
+			"trans": "物理耐性"
 		},
 		"pvpDmgReceivedMult": {
 			"eng": "PvP Damage Received Multiplier",
-			"trans": "PvPダメージ受ける倍率"
+			"trans": "PvPダメージ倍率"
 		},
 		"shield": {
 			"eng": "Shield",
@@ -6626,7 +6626,7 @@
 		},
 		"shieldPercent": {
 			"eng": "Shield Multiplier",
-			"trans": "シールドの倍率"
+			"trans": "シールド倍率"
 		},
 		"str": {
 			"eng": "Strength",
@@ -6771,7 +6771,7 @@
 		},
 		"lootAll": {
 			"eng": "loot all",
-			"trans": "すべての略奪品"
+			"trans": "すべて取得"
 		},
 		"tabs": {
 			"backpack": {
@@ -6780,7 +6780,7 @@
 			},
 			"inventory": {
 				"eng": "inventory",
-				"trans": "物品欄"
+				"trans": "インベントリ"
 			},
 			"loot": {
 				"eng": "Loots",
@@ -6808,7 +6808,7 @@
 		"targetInventory": {
 			"description": {
 				"eng": "Clear up some space here so you can pickup the loots.",
-				"trans": "ここをスペースを空けて、アイテムを拾えるようにしてください。"
+				"trans": "このスペースを空けて、アイテムを拾えるようにしてください。"
 			}
 		},
 		"title": {
@@ -6849,7 +6849,7 @@
 			},
 			"notIdle": {
 				"eng": "You are not idle",
-				"trans": "アイドルではありません"
+				"trans": "有効状態ではありません"
 			}
 		},
 		"notification": {
@@ -6871,7 +6871,7 @@
 		"error": {
 			"notFound": {
 				"eng": "Territory not found",
-				"trans": "領土が見つかりません"
+				"trans": "領地が見つかりません"
 			}
 		}
 	},
@@ -6885,7 +6885,7 @@
 		"noGang": {
 			"title": {
 				"eng": "Territory open",
-				"trans": "領土オープン"
+				"trans": "領地解放"
 			}
 		}
 	},
@@ -6893,28 +6893,28 @@
 		"hasTopGang": {
 			"title": {
 				"eng": "Controlled by ${name} [${tag}]",
-				"trans": "${name} [${tag}] によって制御されています"
+				"trans": "${name} [${tag}] によって支配されています"
 			}
 		},
 		"noTopGang": {
 			"title": {
 				"eng": "Uncontrolled territory",
-				"trans": "無制限領域"
+				"trans": "占領されていない領地"
 			}
 		}
 	},
 	"territoryPage": {
 		"description": {
 			"eng": "Claim control of this territory to gain ability to deploy territorial buffs",
-			"trans": "この領土の制御を主張して、領土バフを展開する能力を得ます。"
+			"trans": "この領地を占領し、領地バフを展開する能力を得る"
 		},
 		"gangRequired": {
 			"eng": "You must be in a gang to claim territory",
-			"trans": "領土を主張するにはギャングに所属する必要があります"
+			"trans": "領地を占領するにはギャングに所属する必要があります"
 		},
 		"noClan": {
 			"eng": "No clan has claimed this territory",
-			"trans": "どのクランもこの領土を主張していません"
+			"trans": "どのクランもこの領地を占領していません"
 		},
 		"resetTip": {
 			"eng": "Territory points reset every week",
@@ -7053,7 +7053,7 @@
 	"toggleMinigame": {
 		"tip": {
 			"eng": "Toggle the switches in correct sequence to unlock",
-			"trans": "スイッチを正しい順番に切り替えてロックを解除"
+			"trans": "正しい順番に切り替えてロックを解除"
 		},
 		"title": {
 			"eng": "Sequential Unlock",
@@ -7131,7 +7131,7 @@
 		},
 		"notLocked": {
 			"eng": "You didn\\'t lock this trade",
-			"trans": "この取引をロックしていませんでした。"
+			"trans": "この取引をロックしていません。"
 		},
 		"playerNotEnoughMoney": {
 			"eng": "${playerName} doesn\\'t have enough ${currency}",
@@ -7149,7 +7149,7 @@
 		},
 		"tooMuchMoney": {
 			"eng": "You can\\'t add more money to this trade",
-			"trans": "この取引にはもっとお金を追加することはできません"
+			"trans": "この取引には更にお金を追加することはできません"
 		},
 		"tradeCompleted": {
 			"eng": "Trade Completed",
@@ -7169,7 +7169,7 @@
 		},
 		"unlock": {
 			"eng": "unlock deal",
-			"trans": "ディールをアンロックする"
+			"trans": "取引を解除する"
 		}
 	},
 	"travelToLocationModal": {
@@ -7187,25 +7187,25 @@
 		},
 		"rewardClaimed": {
 			"eng": "claimed",
-			"trans": "主張されました"
+			"trans": "獲得しました。"
 		},
 		"rewardSubtitle": {
 			"eng": "raid rewards",
-			"trans": "レイドの報酬"
+			"trans": "レイド報酬"
 		},
 		"travelToLocation": {
 			"eng": "Travel to location",
-			"trans": "場所へ移動する"
+			"trans": "この場所へ移動する"
 		}
 	},
 	"tutorial": {
 		"attack": {
 			"eng": "Hold and release at correct timing to perform attacks.",
-			"trans": "適切なタイミングでホールドしてリリースして攻撃を行います。"
+			"trans": "適切なタイミングで長押ししてからリリースすることで攻撃を行います。"
 		},
 		"autoAttack": {
 			"eng": "Click here to toggle auto combat, which will allow you to attack enemies, use ability and heal automatically.",
-			"trans": "自動戦闘を切り替えるにはここをクリックしてください。これにより、敵を攻撃したり、アビリティを使用したり、自動的に回復したりすることができます。"
+			"trans": "自動戦闘を切り替えるにはここを選択してください。これにより、自動で敵を攻撃したり、アビリティを使用したり、回復することができます。"
 		},
 		"backToMainPage": {
 			"eng": "You can always go back to main screen from here.",
@@ -7213,31 +7213,31 @@
 		},
 		"backgroundTask1": {
 			"eng": "You have a slot for AFK tasks, click here to view it.",
-			"trans": "AFKタスクのスロットがあります。ここをクリックして表示してください。"
+			"trans": "AFKタスクのスロットがあります。ここを選択して表示してください。"
 		},
 		"backgroundTask2": {
 			"eng": "Click here to start a task.",
-			"trans": "タスクを開始するにはここをクリックしてください。"
+			"trans": "タスクを開始するにはここを選択してください。"
 		},
 		"backpackClear": {
 			"eng": "Move items from backpack to your inventory to ensure you don't lose them during stronghold exploration.",
-			"trans": "地城探索中にアイテムを失わないように、バックパックからインベントリにアイテムを移動してください。"
+			"trans": "要塞探索中にアイテムを失わないように、バックパックからインベントリにアイテムを移動してください。"
 		},
 		"crew1": {
 			"eng": "Click here to view your profile",
-			"trans": "プロフィールを表示するにはここをクリックしてください。"
+			"trans": "プロフィールを表示するにはここを選択してください。"
 		},
 		"crew2": {
 			"eng": "Click here to view your crew members",
-			"trans": "クルー・メンバーを表示するにはここをクリックしてください。"
+			"trans": "クルーメンバーを表示するにはここを選択してください。"
 		},
 		"crew3": {
 			"eng": "Click on one of the slots to assign a crew member",
-			"trans": "クルーメンバーを割り当てるスロットをクリックしてください。"
+			"trans": "クルーメンバーを割り当てるスロットを選択してください。"
 		},
 		"dailyQuest": {
 			"eng": "You have completed daily quests. open this tab to view them.",
-			"trans": "毎日のクエストが完了しました。このタブを開いて表示してください。"
+			"trans": "デイリークエストが完了しました。このタブを開いて表示してください。"
 		},
 		"deathItem": {
 			"eng": "You can buy back the items you lost from clinic.",
@@ -7245,75 +7245,75 @@
 		},
 		"deathItem2": {
 			"eng": "Click here to view your lost items.",
-			"trans": "紛失品を表示するにはここをクリックしてください。"
+			"trans": "失ったアイテムを表示するにはここを選択してください。"
 		},
 		"dungeon1": {
 			"eng": "click here to explore stronghold",
-			"trans": "地城を探索するためにここをクリックしてください。"
+			"trans": "要塞を探索するためにここを選択してください。"
 		},
 		"dungeon2": {
 			"eng": "Select the normal difficulty, you will get ${percent}% extra exp from enemies in the stronghold",
-			"trans": "通常の難易度を選択してください。地城の敵から${percent}%の追加経験値を獲得します。"
+			"trans": "通常の難易度を選択してください。要塞の敵から${percent}%の追加経験値を獲得します。"
 		},
 		"freeMerc1": {
 			"eng": "Click here for all kinds of benefits",
-			"trans": "あらゆる種類の特典については、ここをクリックしてください。"
+			"trans": "色々な種類の特典については、ここを選択してください。"
 		},
 		"freeMerc2": {
 			"eng": "Click here to get free ${itemName}",
-			"trans": "無料で${itemName}を入手するにはここをクリックしてください。"
+			"trans": "無料で${itemName}を入手するにはここを選択してください。"
 		},
 		"heal": {
 			"eng": "Click here to assign healing items to quick slots.",
-			"trans": "ここをクリックして、回復アイテムをクイックスロットに割り当てます。"
+			"trans": "ここを選択して、回復アイテムをクイックスロットに割り当てます。"
 		},
 		"leaveDungeon": {
 			"eng": "You can click here to leave the stronghold at any time.",
-			"trans": "いつでもここをクリックして要塞から出ることができます。"
+			"trans": "いつでもここを選択して要塞から出ることができます。"
 		},
 		"localEnemy1": {
 			"eng": "Click here to scan for nearby enemies.",
-			"trans": "近くの敵をスキャンするにはここをクリックしてください。"
+			"trans": "近くの敵をスキャンするにはここを選択してください。"
 		},
 		"localEnemy2": {
 			"eng": "Click on an enemy to engage in battle.",
-			"trans": "戦闘を開始するために敵をクリックしてください。"
+			"trans": "戦闘を開始するためには敵を選択してください。"
 		},
 		"locationChange": {
 			"eng": "You can travel to other locations with different levels from here",
-			"trans": "ここから他の場所に異なるレベルで移動できます"
+			"trans": "ここから他の異なるレベルの場所へ移動できます"
 		},
 		"mercenary1": {
 			"eng": "Click here to view your mercenary contacts",
-			"trans": "傭兵連絡先を表示するにはここをクリックしてください。"
+			"trans": "傭兵の連絡先を表示するにはここを選択してください。"
 		},
 		"mercenary2": {
 			"eng": "Click here to recruit new mercenaries",
-			"trans": "新しい傭兵を募集するにはここをクリックしてください。"
+			"trans": "新しい傭兵を募集するにはここを選択してください。"
 		},
 		"mercenary3": {
 			"eng": "Click here to recruit 10 new mercenaries",
-			"trans": "10人の新しい傭兵を雇うためにここをクリックしてください。"
+			"trans": "新しく10人の傭兵を雇うためにここを選択してください。"
 		},
 		"quest": {
 			"eng": "Click here to view your quests.",
-			"trans": "クエストを表示するにはここをクリックしてください。"
+			"trans": "クエストを表示するにはここを選択してください。"
 		},
 		"travelToLevel2": {
 			"eng": "Click here to travel to the next area where enemies are stronger and give more exp.",
-			"trans": "敵が強くてより多くの経験値が得られる次のエリアに移動するにはここをクリックしてください。"
+			"trans": "より強い敵、より多くの経験値が得られる次のエリアに移動するにはここを選択してください。"
 		},
 		"upgradeItem": {
 			"eng": "Click here to upgrade your items.",
-			"trans": "アイテムをアップグレードするにはここをクリックしてください。"
+			"trans": "アイテムをアップグレードするにはここを選択してください。"
 		},
 		"upgradeItemDetails": {
 			"eng": "Click here to upgrade this item.",
-			"trans": "このアイテムをアップグレードするにはここをクリックしてください。"
+			"trans": "このアイテムをアップグレードするにはここを選択してください。"
 		},
 		"useSkill": {
 			"eng": "Click here to command your mercenary to use skill.",
-			"trans": "傭兵にスキルを発動させるにはここをクリックしてください。"
+			"trans": "傭兵にスキルを発動させるにはここを選択してください。"
 		}
 	},
 	"ui": {
@@ -7352,11 +7352,11 @@
 		"combat": {
 			"alreadyTriedEscape": {
 				"eng": "You already tried to escape in this turn!",
-				"trans": "このターンで既に逃げようとしました！"
+				"trans": "既に逃げようとしました！"
 			},
 			"autoAttackLevel": {
 				"eng": "You need to be level ${level} to use auto combat",
-				"trans": "自動戦闘するにはレベル${level}が必要です"
+				"trans": "自動戦闘をするにはレベル${level}が必要です"
 			},
 			"escape": {
 				"eng": "escape",
@@ -7420,7 +7420,7 @@
 				"inventory": {
 					"title": {
 						"eng": "Inventory",
-						"trans": "インベントリー"
+						"trans": "インベントリ"
 					}
 				},
 				"questItems": {
@@ -7523,7 +7523,7 @@
 	"upgradeBackpackPopup": {
 		"description": {
 			"eng": "Upgrade your backpack to increase the amount of items you can carry in strongholds.",
-			"trans": "地城で運べるアイテムの量を増やすために、バックパックをアップグレードしてください。"
+			"trans": "要塞で運べるアイテムの量を増やすために、バックパックをアップグレードしてください。"
 		},
 		"eng": "Backpack upgrade",
 		"slots": {
@@ -7557,11 +7557,11 @@
 		"error": {
 			"alreadyIdentified": {
 				"eng": "This item does not have unidentified traits",
-				"trans": "このアイテムには未識別の特性がありません。"
+				"trans": "このアイテムには識別していない特性がありません。"
 			},
 			"levelNonTierMismatch": {
 				"eng": "Can't level a ${itemTier} item, ${shardName} can only be used with ${requiredTier} items",
-				"trans": "${itemTier}階アイテムをレベルアップできません。${shardName}は${requiredTier}階アイテムにのみ使用できます。"
+				"trans": "${itemTier}アイテムをレベルアップできません。${shardName}は${requiredTier}アイテムにのみ使用できます。"
 			},
 			"levelUpTooHigh": {
 				"eng": "You cannot level up an item higher than your level",
@@ -7605,7 +7605,7 @@
 		"addItemButton": {
 			"title": {
 				"eng": "Add item to vault",
-				"trans": "アイテムをボールトに追加する"
+				"trans": "アイテムを倉庫に追加する"
 			}
 		},
 		"emptyVault": {
@@ -7639,7 +7639,7 @@
 		"hitmanAdvert": {
 			"subtitle": {
 				"eng": "We can help you get rid of them!",
-				"trans": "私たちはそれらを取り除くのを手伝うことができます！"
+				"trans": "我々は対象の排除を手伝うことができます！"
 			},
 			"title": {
 				"eng": "Got a nemesis?",
@@ -7653,30 +7653,30 @@
 			},
 			"title": {
 				"eng": "Your safety, our mission.",
-				"trans": "あなたの安全は、私たちの使命です。"
+				"trans": "あなたの安全は、私たちの使命"
 			}
 		},
 		"megaAd": {
 			"subtitle": {
 				"eng": "Mega Estate - the only agency that wont scam you!",
-				"trans": "唯一の詐欺をしないエージェンシー、メガエステート！"
+				"trans": "メガエステート社 ─ 唯一詐欺をしない企業！"
 			},
 			"title": {
 				"eng": "Cheap Price!!",
-				"trans": "安い価格！！"
+				"trans": "お手頃価格！！"
 			}
 		},
 		"wiki": {
 			"subtitle": {
 				"eng": "the free encyclopedia that anyone can edit",
-				"trans": "誰でも編集できる無料の百科事典"
+				"trans": "誰でも編集できる無料アンサイクロペディア"
 			}
 		}
 	},
 	"wikiPage": {
 		"subtitle": {
 			"eng": "the free encyclopedia that anyone can edit",
-			"trans": "誰でも編集できる無料の百科事典"
+			"trans": "誰でも編集できる無料アンサイクロペディア"
 		}
 	},
 	"worldEventType": {
@@ -7707,7 +7707,7 @@
 		"muggedFailed": {
 			"announcement": {
 				"eng": "${playerName} tried to mug someone but failed!",
-				"trans": "${playerName}は誰かを脅してみましたが、失敗しました！"
+				"trans": "${playerName}は誰かを脅したが、失敗した！"
 			}
 		},
 		"upgradedEpic": {
