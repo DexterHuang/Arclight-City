@@ -1021,12 +1021,12 @@
 	"connectingOverlay": {
 		"connecting": {
 			"description1": {
-				"eng": "Server is under maintenance or unstable connection.",
-				"trans": "サーバーはメンテナンス中か、接続が不安定です。"
+				"eng": "Server is restarting for update or unstable connection.",
+				"trans": "サーバーはアップデートのために再起動するか、接続が不安定です。"
 			},
 			"description2": {
-				"eng": "In case of server maintenance, it usually will be done within a few minutes.",
-				"trans": "サーバーメンテナンスの場合は通常数分以内に完了します。"
+				"eng": "In case of server restarts, it usually will be done within a few minutes.",
+				"trans": "サーバーが再起動する場合、通常数分以内に完了します。"
 			}
 		},
 		"notLoggedIn": {
@@ -3003,8 +3003,8 @@
 				"trans": "${minutes}分間、ギャングメンバーが作成した要塞にいるすべてのプレイヤーの防御力を上げるために、要塞ロビーでこのバフを展開してください。"
 			},
 			"name": {
-				"eng": "Defense Boot Buff Activator",
-				"trans": "防御ブートバフアクティベーター"
+				"eng": "Defense Boost Buff Activator",
+				"trans": "防御ブーストバフアクティベーター"
 			}
 		},
 		"dungeonActivator": {
@@ -3257,8 +3257,8 @@
 		},
 		"neuroblocker": {
 			"description": {
-				"eng": "Neuroblockers were developed to counteract the negative effects that cybernetic implants had on the human body. By suppressing these effects, people were able to use these implants with reduced suffering from physical or mental issues",
-				"trans": "ニューロブロッカーは、サイバネティックインプラントが人体に与えるマイナスな影響を相殺するために開発されました。これらの影響を抑制することで、人々は身体的または精神的な問題に苦しむことなくこれらのインプラントを使用することができました。"
+				"eng": "Neuroblockers were developed to counteract the negative effects that cybernetic implants had on the human body. By suppressing these effects, people were able to use these implants with reduced suffering from physical or mental issues. When used, reduce cyber psychosis by ${amount}.",
+				"trans": "ニューラルブロッカーは、サイバーネットのインプラントが人体に与える負の影響を抑えるために開発されました。これらの影響を抑制することで、人々は身体や精神の問題から苦しみを軽減しながらこれらのインプラントを使用することができました。使用すると、サイバーサイコシスを${amount}減らします。"
 			},
 			"name": {
 				"eng": "Neuroblocker",
@@ -4052,6 +4052,10 @@
 			"buyout": {
 				"eng": "${item} has been purchased with buyout, ${amount} (${originalAmount} - ${tax}% tax) has been added to your account",
 				"trans": "${item}は買い取りで購入されました。${amount}（${originalAmount} - ${tax}%の税金）がアカウントに追加されました。"
+			},
+			"buyoutSuccess": {
+				"eng": "You have successfully purchased ${item} with buyout for ${amount}",
+				"trans": "${amount}で${item}を購入しました。"
 			}
 		},
 		"error": {
@@ -4063,9 +4067,17 @@
 				"eng": "Someone has already bid on this item, you cannot remove it.",
 				"trans": "このアイテムにはすでに入札がありますので、削除することはできません。"
 			},
+			"buyoutTooLow": {
+				"eng": "Buyout price is too low, minimum buyout price is ${minBid}",
+				"trans": "買い取り価格が低すぎます。最低買い取り価格は${minBid}です。"
+			},
 			"itemNotFound": {
 				"eng": "this item no longer exists in your market items",
 				"trans": "このアイテムはもうあなたのマーケットアイテムに存在しません。"
+			},
+			"minBidTooLow": {
+				"eng": "Minimum bid is too low, minimum bid is ${minBid}",
+				"trans": "最低入札額が低すぎます、最低入札額は${minBid}です。"
 			}
 		},
 		"itemExpired": {
@@ -6434,6 +6446,10 @@
 			"eng": "Enable sound effect",
 			"trans": "効果音を有効にする"
 		},
+		"enableVibration": {
+			"eng": "Enable Vibration",
+			"trans": "バイブレーションを有効にする"
+		},
 		"language": {
 			"eng": "Language",
 			"trans": "言語"
@@ -6872,6 +6888,16 @@
 			"notFound": {
 				"eng": "Territory not found",
 				"trans": "領地が見つかりません"
+			}
+		},
+		"resetNoti": {
+			"body": {
+				"eng": "All territory in Arclight City has been reset. let the gang wars begin!",
+				"trans": "アークライト・シティのすべてのテリトリーがリセットされました。ギャングの戦いが始まります！"
+			},
+			"title": {
+				"eng": "Territory Reset",
+				"trans": "領土リセット"
 			}
 		}
 	},
@@ -7401,6 +7427,12 @@
 					"title": {
 						"eng": "Quick Slots",
 						"trans": "クイックスロット"
+					}
+				},
+				"unAssignQuickSlot": {
+					"title": {
+						"eng": "Unassign Quick Slot",
+						"trans": "クイックスロットの割り当てを解除する"
 					}
 				}
 			},

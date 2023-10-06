@@ -1021,12 +1021,12 @@
 	"connectingOverlay": {
 		"connecting": {
 			"description1": {
-				"eng": "Server is under maintenance or unstable connection.",
-				"trans": "서버가 유지보수 중이거나 연결이 불안정합니다."
+				"eng": "Server is restarting for update or unstable connection.",
+				"trans": "서버가 업데이트 또는 불안정한 연결로 인해 재시작됩니다."
 			},
 			"description2": {
-				"eng": "In case of server maintenance, it usually will be done within a few minutes.",
-				"trans": "서버 유지보수중인 경우, 일반적으로 몇 분 내에 완료됩니다."
+				"eng": "In case of server restarts, it usually will be done within a few minutes.",
+				"trans": "서버 재시작이 필요한 경우, 일반적으로 몇 분 안에 완료됩니다."
 			}
 		},
 		"notLoggedIn": {
@@ -3003,7 +3003,7 @@
 				"trans": "이 버프를 아지트 로비에 배치하여 ${minutes}분 동안 갱원들이 생성한 아지트의 모든 플레이어의 방어력을 증가시킵니다"
 			},
 			"name": {
-				"eng": "Defense Boot Buff Activator",
+				"eng": "Defense Boost Buff Activator",
 				"trans": "방어 부스트 버프 활성화기"
 			}
 		},
@@ -3257,8 +3257,8 @@
 		},
 		"neuroblocker": {
 			"description": {
-				"eng": "Neuroblockers were developed to counteract the negative effects that cybernetic implants had on the human body. By suppressing these effects, people were able to use these implants with reduced suffering from physical or mental issues",
-				"trans": "신경 차단제는 사이버네틱 임플란트가 인체에 미치는 부정적인 영향을 상쇄하기 위해 개발되었습니다. 이러한 영향을 억제함으로써, 사람들은 육체적 또는 정신적 문제로부터 덜 고통받고 임플란트를 사용할 수 있게 되었습니다"
+				"eng": "Neuroblockers were developed to counteract the negative effects that cybernetic implants had on the human body. By suppressing these effects, people were able to use these implants with reduced suffering from physical or mental issues. When used, reduce cyber psychosis by ${amount}.",
+				"trans": "신경 차단제는 사이버넷 임플란트가 인체에 미치는 부정적인 영향을 상쇄하기 위해 개발되었습니다. 이러한 영향을 억제함으로써, 사람들은 신체적 또는 정신적 문제로부터 덜 고통받고 이 임플란트를 사용할 수 있게 되었습니다. 사용 시, 사이버 싸이코를 ${amount}만큼 감소시킵니다."
 			},
 			"name": {
 				"eng": "Neuroblocker",
@@ -4052,6 +4052,10 @@
 			"buyout": {
 				"eng": "${item} has been purchased with buyout, ${amount} (${originalAmount} - ${tax}% tax) has been added to your account",
 				"trans": "${item}이(가) 즉시구매로 구매되었습니다. ${amount} (${originalAmount} - 세금 ${tax}%)이 계정에 추가되었습니다"
+			},
+			"buyoutSuccess": {
+				"eng": "You have successfully purchased ${item} with buyout for ${amount}",
+				"trans": "${amount}의 구매금액으로 ${item}을(를) 성공적으로 구매했습니다"
 			}
 		},
 		"error": {
@@ -4063,9 +4067,17 @@
 				"eng": "Someone has already bid on this item, you cannot remove it.",
 				"trans": "이 아이템에 이미 입찰이 있어서 삭제할 수 없습니다."
 			},
+			"buyoutTooLow": {
+				"eng": "Buyout price is too low, minimum buyout price is ${minBid}",
+				"trans": "매입 가격이 너무 낮습니다. 최소 매입 가격은 ${minBid}입니다"
+			},
 			"itemNotFound": {
 				"eng": "this item no longer exists in your market items",
 				"trans": "이 아이템은 더 이상 당신의 암시장 아이템에 존재하지 않습니다"
+			},
+			"minBidTooLow": {
+				"eng": "Minimum bid is too low, minimum bid is ${minBid}",
+				"trans": "최소 입찰가가 너무 낮습니다. 최소 입찰가는 ${minBid}입니다"
 			}
 		},
 		"itemExpired": {
@@ -6434,6 +6446,10 @@
 			"eng": "Enable sound effect",
 			"trans": "사운드 효과 활성화"
 		},
+		"enableVibration": {
+			"eng": "Enable Vibration",
+			"trans": "진동 활성화"
+		},
 		"language": {
 			"eng": "Language",
 			"trans": "언어"
@@ -6872,6 +6888,16 @@
 			"notFound": {
 				"eng": "Territory not found",
 				"trans": "영역을 찾을 수 없습니다"
+			}
+		},
+		"resetNoti": {
+			"body": {
+				"eng": "All territory in Arclight City has been reset. let the gang wars begin!",
+				"trans": "아크라이트 시티의 모든 영역이 초기화되었습니다. 갱전이 시작됩니다!"
+			},
+			"title": {
+				"eng": "Territory Reset",
+				"trans": "영역 초기화"
 			}
 		}
 	},
@@ -7401,6 +7427,12 @@
 					"title": {
 						"eng": "Quick Slots",
 						"trans": "빠른 슬롯"
+					}
+				},
+				"unAssignQuickSlot": {
+					"title": {
+						"eng": "Unassign Quick Slot",
+						"trans": "퀵 슬롯 해제"
 					}
 				}
 			},

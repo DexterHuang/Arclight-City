@@ -1021,12 +1021,12 @@
 	"connectingOverlay": {
 		"connecting": {
 			"description1": {
-				"eng": "Server is under maintenance or unstable connection.",
-				"trans": "伺服器正在維護或連線不穩定。"
+				"eng": "Server is restarting for update or unstable connection.",
+				"trans": "伺服器正在進行更新或連線不穩定，將重新啟動。"
 			},
 			"description2": {
-				"eng": "In case of server maintenance, it usually will be done within a few minutes.",
-				"trans": "如果有伺服器維護，通常會在幾分鐘內完成。"
+				"eng": "In case of server restarts, it usually will be done within a few minutes.",
+				"trans": "如果伺服器重新啟動，通常會在幾分鐘內完成。"
 			}
 		},
 		"notLoggedIn": {
@@ -3003,8 +3003,8 @@
 				"trans": "在地城大廳部署此增益效果，可提升你幫派成員所創建的地城中所有玩家的防禦力，持續${minutes}分鐘。"
 			},
 			"name": {
-				"eng": "Defense Boot Buff Activator",
-				"trans": "防禦靴增益啟動器"
+				"eng": "Defense Boost Buff Activator",
+				"trans": "防禦增益啟動器"
 			}
 		},
 		"dungeonActivator": {
@@ -3257,8 +3257,8 @@
 		},
 		"neuroblocker": {
 			"description": {
-				"eng": "Neuroblockers were developed to counteract the negative effects that cybernetic implants had on the human body. By suppressing these effects, people were able to use these implants with reduced suffering from physical or mental issues",
-				"trans": "神經阻斷劑被開發出來以對抗電馭晶片對人體產生的負面影響。藉由抑制這些影響，人們能夠使用這些晶片，減少身體或心理問題所帶來的痛苦。"
+				"eng": "Neuroblockers were developed to counteract the negative effects that cybernetic implants had on the human body. By suppressing these effects, people were able to use these implants with reduced suffering from physical or mental issues. When used, reduce cyber psychosis by ${amount}.",
+				"trans": "神經阻斷劑的開發旨在對抗網路晶片對人體的負面影響。透過抑制這些影響，人們能夠使用這些晶片，同時減少身體或心理問題的痛苦。使用時，可減少${amount}的網路狂躁症。"
 			},
 			"name": {
 				"eng": "Neuroblocker",
@@ -4052,6 +4052,10 @@
 			"buyout": {
 				"eng": "${item} has been purchased with buyout, ${amount} (${originalAmount} - ${tax}% tax) has been added to your account",
 				"trans": "${item}已被買斷，${amount}（${originalAmount} - ${tax}% 稅）已加入您的帳戶。"
+			},
+			"buyoutSuccess": {
+				"eng": "You have successfully purchased ${item} with buyout for ${amount}",
+				"trans": "您已成功以${amount}的價格使用一次性購買方式購買了${item}。"
 			}
 		},
 		"error": {
@@ -4063,9 +4067,17 @@
 				"eng": "Someone has already bid on this item, you cannot remove it.",
 				"trans": "已經有人對這個物品競標，您無法移除它。"
 			},
+			"buyoutTooLow": {
+				"eng": "Buyout price is too low, minimum buyout price is ${minBid}",
+				"trans": "買斷價格太低，最低買斷價格為${minBid}。"
+			},
 			"itemNotFound": {
 				"eng": "this item no longer exists in your market items",
 				"trans": "此物品已不存在您的市場"
+			},
+			"minBidTooLow": {
+				"eng": "Minimum bid is too low, minimum bid is ${minBid}",
+				"trans": "最低出價太低，最低出價為${minBid}"
 			}
 		},
 		"itemExpired": {
@@ -6434,6 +6446,10 @@
 			"eng": "Enable sound effect",
 			"trans": "啟用音效"
 		},
+		"enableVibration": {
+			"eng": "Enable Vibration",
+			"trans": "啟用震動"
+		},
 		"language": {
 			"eng": "Language",
 			"trans": "語言"
@@ -6872,6 +6888,16 @@
 			"notFound": {
 				"eng": "Territory not found",
 				"trans": "找不到領地"
+			}
+		},
+		"resetNoti": {
+			"body": {
+				"eng": "All territory in Arclight City has been reset. let the gang wars begin!",
+				"trans": "幻光之城的所有領地已被重置，讓幫派之戰開始吧！"
+			},
+			"title": {
+				"eng": "Territory Reset",
+				"trans": "領地重置"
 			}
 		}
 	},
@@ -7402,6 +7428,12 @@
 						"eng": "Quick Slots",
 						"trans": "快速欄位"
 					}
+				},
+				"unAssignQuickSlot": {
+					"title": {
+						"eng": "Unassign Quick Slot",
+						"trans": "取消指定快捷欄位"
+					}
 				}
 			},
 			"tab": {
@@ -7454,7 +7486,7 @@
 			},
 			"discord": {
 				"eng": "Discord",
-				"trans": "Discord"
+				"trans": "Discord\n不和諧"
 			},
 			"giftCode": {
 				"eng": "Gift Code",
