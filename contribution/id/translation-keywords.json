@@ -1,0 +1,843 @@
+{
+  "keywords": [
+    {
+      "eng": "Player ${0} is ${1} has been killed during PVP",
+      "trans": "Pemain ${0} telah ${1} terbunuh selama PVP.",
+      "match": [
+        ""
+      ],
+      "desc": "Example of how to translate a sentence with variables",
+      "important": true
+    },
+    {
+      "eng": "What is equipment calibration?",
+      "trans": "Tentang apa kalibrasi peralatan?",
+      "match": [
+        "calibrate"
+      ],
+      "desc": "An example for an sample question",
+      "important": true
+    },
+    {
+      "eng": "Inventory",
+      "trans": "Inventori",
+      "match": [],
+      "desc": "Player's main inventory"
+    },
+    {
+      "eng": "Backpack",
+      "trans": "Ransel",
+      "match": [],
+      "desc": "A separate inventory that player brings to adventure"
+    },
+    {
+      "eng": "Vault",
+      "trans": "Brankas",
+      "match": [],
+      "desc": "A separate inventory that player stores in their apartment, can only be accessed in apartment"
+    },
+    {
+      "eng": "AFK Tasks",
+      "trans": "Tugas AFK",
+      "match": [
+        "afk"
+      ],
+      "desc": "AFK = away from keyboard, tasks player can perform while they are not actively playing"
+    },
+    {
+      "eng": "AFK",
+      "trans": "AFK",
+      "match": [],
+      "desc": "Away from keyboard"
+    },
+    {
+      "eng": "Red Bar",
+      "trans": "Bar Merah",
+      "match": [],
+      "desc": "A cool name of a bar player can visit"
+    },
+    {
+      "eng": "Deliveries",
+      "trans": "Pengiriman",
+      "match": [],
+      "desc": "delivery is like item inbox, its called delivery because its in your apartment, like how you receive delivery when you order stuff online"
+    },
+    {
+      "eng": "Upper Armour",
+      "trans": "Zirah Atas",
+      "match": [],
+      "desc": "A type of armor player can equip on their upper body"
+    },
+    {
+      "eng": "Lower Armour",
+      "trans": "Zirah Bawah",
+      "match": [],
+      "desc": "A type of armor player can equip on their lower body"
+    },
+    {
+      "eng": "Place Hit",
+      "trans": "Tempat Tertembak",
+      "match": [],
+      "desc": "Placing a bounty on another player for a hitman, synonym of \"place bounty\""
+    },
+    {
+      "eng": "Dismantle",
+      "trans": "Mematikan",
+      "match": [],
+      "desc": "Dismantle an item to get components"
+    },
+    {
+      "eng": "Stronghold",
+      "trans": "Benteng Kuat",
+      "match": [],
+      "desc": "Like a dungeon but with a sci-fi name"
+    },
+    {
+      "eng": "Health",
+      "trans": "Kesehatan",
+      "match": [],
+      "desc": "Player's Health, also known as HP"
+    },
+    {
+      "eng": "Vitality",
+      "trans": "Vitalitas",
+      "match": [],
+      "desc": "An attribute name"
+    },
+    {
+      "eng": "Strength",
+      "trans": "Kekuatan",
+      "match": [],
+      "desc": "An attribute name"
+    },
+    {
+      "eng": "Intelligence",
+      "trans": "Intelejensi",
+      "match": [],
+      "desc": "An attribute name"
+    },
+    {
+      "eng": "Dexterity",
+      "trans": "Ketangkasan",
+      "match": [],
+      "desc": "An attribute name"
+    },
+    {
+      "eng": "Vitality Attribute",
+      "trans": "Atribut Vitalitas",
+      "match": [
+        "vitality"
+      ],
+      "desc": "An attribute name added a repeat for AI to easier to understand"
+    },
+    {
+      "eng": "Strength Attribute",
+      "trans": "Atribut Kekuatan",
+      "match": [
+        "strength"
+      ],
+      "desc": "An attribute name added a repeat for AI to easier to understand"
+    },
+    {
+      "eng": "Intelligence Attribute",
+      "trans": "Atribut Intelijen",
+      "match": [
+        "intelligence"
+      ],
+      "desc": "An attribute name added a repeat for AI to easier to understand"
+    },
+    {
+      "eng": "Dexterity Attribute",
+      "trans": "Atribut Ketangkasan",
+      "match": [
+        "dexterity"
+      ],
+      "desc": "An attribute name added a repeat for AI to easier to understand"
+    },
+    {
+      "eng": "Thieving",
+      "trans": "Pencuri",
+      "match": [],
+      "desc": "A job name player can perform"
+    },
+    {
+      "eng": "Scavenge",
+      "trans": "Mengais",
+      "match": [],
+      "desc": "A job name player can perform"
+    },
+    {
+      "eng": "Extraction Mission",
+      "trans": "Misi Ekstraksi",
+      "match": [],
+      "desc": "A job player can perform to increase their medical level, the ideal is they will do part-time job as a member of Trauma Team's extraction force, to extract VIPs from dangerous situations"
+    },
+    {
+      "eng": "Arclight City",
+      "trans": "Kota Cahaya Arklit",
+      "match": [
+        "arclight"
+      ],
+      "desc": "Name of the game, also the name of the city set in the game, when translating this please make it sounds good, does not to be direct translation"
+    },
+    {
+      "eng": "Arclight",
+      "trans": "Cahaya Arklit",
+      "match": [],
+      "desc": "Short-term name of the game, also the name of the city set in the game"
+    },
+    {
+      "eng": "Territory",
+      "trans": "Wilayah",
+      "match": [],
+      "desc": "A district area player can take control of"
+    },
+    {
+      "eng": "gang",
+      "trans": "Geng",
+      "match": [],
+      "desc": "Like clans in other games"
+    },
+    {
+      "eng": "Gang Upkeep",
+      "trans": "Pemeliharaan Geng",
+      "match": [],
+      "desc": "A cost player needs to pay to maintain their gang"
+    },
+    {
+      "eng": "Gang Territory",
+      "trans": "Wilayah Geng",
+      "match": [],
+      "desc": "A district area gang can take control of"
+    },
+    {
+      "eng": "Ripperdoc",
+      "trans": "Dokter Modifikasi",
+      "match": [],
+      "desc": "An NPC profession name, like a cybernetic doctor"
+    },
+    {
+      "eng": "money",
+      "trans": "Uang",
+      "match": [],
+      "desc": "Main currency in the game, which is Eurodollars, please translate directly to Eurodollars or simply \"money\" if more appropriate"
+    },
+    {
+      "eng": "Nano Repairer",
+      "trans": "Perbaik Nano",
+      "match": [],
+      "desc": "An item name used to repair broken equipment"
+    },
+    {
+      "eng": "TaiXing Cybernetic",
+      "trans": "TaiXing Sibernetika",
+      "match": [
+        "taixing"
+      ],
+      "desc": "A fake company name, specialized in making cybernetic implants and other tech"
+    },
+    {
+      "eng": "TaiXing",
+      "trans": "TaiXing",
+      "match": [],
+      "desc": "A fake company name, specialized in making cybernetic implants and other tech"
+    },
+    {
+      "eng": "Trauma Team",
+      "trans": "Tim Trauma",
+      "match": [],
+      "desc": "An NPC profession name, like a medical rescue team but with guns"
+    },
+    {
+      "eng": "extraction force",
+      "trans": "Pasukan Ekstraksi",
+      "match": [],
+      "desc": "Teams work under Trauma Team, like a medical rescue team but with guns"
+    },
+    {
+      "eng": "crew",
+      "trans": "Kru",
+      "match": [],
+      "desc": "A team of mercenaries player can hire to help them fight"
+    },
+    {
+      "eng": "Implant",
+      "trans": "Implan",
+      "match": [],
+      "desc": "A cyberpunk term for cybernetic implants, if you don't know what it is please check google"
+    },
+    {
+      "eng": "Cyber psychosis",
+      "trans": "Psikosis Siber",
+      "match": [
+        "psychosis"
+      ],
+      "desc": "Same thing as in the Anime, when a person uses too much cybernetic ability, they will lose their mind"
+    },
+    {
+      "eng": "stats",
+      "trans": "statistik",
+      "match": [
+        "stat"
+      ],
+      "desc": "The attributes of items, like damage, health, armor, etc"
+    },
+    {
+      "eng": "reward",
+      "trans": "Hadiah",
+      "match": [],
+      "desc": "A reward player can get from doing quests or other stuff"
+    },
+    {
+      "eng": "calibration",
+      "trans": "Kalibrasi",
+      "match": [
+        "calibrate"
+      ],
+      "desc": "A process to make equipment work better"
+    },
+    {
+      "eng": "calibrate",
+      "trans": "mengkalibrasi",
+      "match": [],
+      "desc": "A process to make equipment work better"
+    },
+    {
+      "eng": "upgrade",
+      "trans": "Peningkatan",
+      "match": [],
+      "desc": "A process to make equipment work better, including increasing level, resetting, or adding new stats"
+    },
+    {
+      "eng": "place hit",
+      "trans": "Sasaran Pukulan",
+      "match": [],
+      "desc": "Placing a bounty order on another player"
+    },
+    {
+      "eng": "netrunner",
+      "trans": "Pelaku Jaringan",
+      "match": [],
+      "desc": "Hacker in cyberpunk term"
+    },
+    {
+      "eng": "netrunning",
+      "trans": "Penjelajah Jaringan",
+      "match": [],
+      "desc": "Hacking in cyberpunk term"
+    },
+    {
+      "eng": "flatline",
+      "trans": "Mati Mendadak",
+      "match": [],
+      "desc": "Dead in cyberpunk term, will show up in the dead screen with bit writing, supposed to look cool"
+    },
+    {
+      "eng": "cybernet",
+      "match": [],
+      "trans": "Teknologi siber",
+      "desc": "\"Internet\" in cyberpunk term"
+    },
+    {
+      "eng": "use",
+      "match": [],
+      "trans": "Menggunakan",
+      "desc": "Use an item"
+    },
+    {
+      "eng": "next",
+      "match": [],
+      "trans": "Berikutnya",
+      "desc": "In UI context, like a button"
+    },
+    {
+      "eng": "block",
+      "match": [],
+      "trans": "Blok",
+      "desc": "Block a player from sending messages to you"
+    },
+    {
+      "eng": "bundle",
+      "match": [],
+      "trans": "paket",
+      "desc": "A bundle of items players can buy in most mobile games"
+    },
+    {
+      "eng": "block chance",
+      "match": [],
+      "trans": "Peluang Untuk Memblokir",
+      "desc": "A stat of equipment, a chance that players can block incoming damage"
+    },
+    {
+      "eng": "Universal Dollars",
+      "match": [],
+      "trans": "Dolar Universal",
+      "desc": "A fictional currency name in the game, translate to a suitable name in your language"
+    },
+    {
+      "eng": "Cybernetic Enhancer",
+      "match": [
+        "enhancer"
+      ],
+      "trans": "Penguat Siber",
+      "desc": "An item name, a cybernetic implant that can enhance players' abilities"
+    },
+    {
+      "eng": "Eurodollars",
+      "match": [
+        "eddie"
+      ],
+      "trans": "Eurodolar",
+      "desc": "Main currency in the game, which is Eurodollars, please translate directly to Eurodollars or simply \"money\" if more appropriate"
+    },
+    {
+      "eng": "Lore note",
+      "match": [
+        "lore"
+      ],
+      "trans": "Catatan Cerita",
+      "desc": "A note that players can find in the game and read to learn more about the game world"
+    },
+    {
+      "eng": "referral",
+      "match": [
+        "refer"
+      ],
+      "trans": "Merujuk",
+      "desc": "Referral as in referring a friend to play the game"
+    },
+    {
+      "eng": "refer",
+      "match": [],
+      "trans": "Mengacu",
+      "desc": "Referral as in referring a friend to play the game"
+    },
+    {
+      "eng": "Scrap Items",
+      "match": [
+        "scrap"
+      ],
+      "trans": "Barang-Barang Serpihan",
+      "desc": "Player can scrap items from their inventory, different from dismantle, scrap will give less or no components"
+    },
+    {
+      "eng": "All",
+      "match": [],
+      "trans": "Semua",
+      "desc": "A generic word for 'all' in UI"
+    },
+    {
+      "eng": "Continue",
+      "match": [],
+      "trans": "Lanjutan",
+      "desc": "A generic word for 'continue' in UI"
+    },
+    {
+      "eng": "CircuitBreak",
+      "trans": "Pemutus Sirkuit",
+      "desc": "a megacorporation that specializes in security-related tasks, they also has a hitman service where people can place hit on their enemies",
+      "match": []
+    },
+    {
+      "eng": "Choom",
+      "match": [],
+      "trans": "Sobat",
+      "desc": "A slang word for friend/bro in cyberpunk term"
+    },
+    {
+      "eng": "Tech Scrap",
+      "trans": "Pengutipan Teknologi",
+      "match": [],
+      "desc": "A piece of tech scrap."
+    },
+    {
+      "eng": "Gun",
+      "trans": "Senjata",
+      "match": [],
+      "desc": "A traditional firearm that uses gunpowder to fire bullets. cant go wrong with this one."
+    },
+    {
+      "eng": "Energy Weapon",
+      "trans": "Senjata Energi",
+      "match": [],
+      "desc": "A weapon that uses energy to fire."
+    },
+    {
+      "eng": "Blade",
+      "trans": "Pedang",
+      "match": [],
+      "desc": "A melee weapon that has sharpened edges."
+    },
+    {
+      "eng": "Helmet",
+      "trans": "Helm",
+      "match": [],
+      "desc": "A piece of equipment that protects the head."
+    },
+    {
+      "eng": "Upper Armor",
+      "trans": "Baju Pelindung Atas",
+      "match": [],
+      "desc": "A piece of equipment that protects the upper body."
+    },
+    {
+      "eng": "Lower Armor",
+      "trans": "Baju Pelindung Bawah",
+      "match": [],
+      "desc": "A piece of equipment that protects the lower body."
+    },
+    {
+      "eng": "Boots",
+      "trans": "Sepatu",
+      "match": [],
+      "desc": "A piece of equipment that protects the feet."
+    },
+    {
+      "eng": "Ring",
+      "trans": "Cincin",
+      "match": []
+    },
+    {
+      "eng": "Pendant",
+      "trans": "Kalung",
+      "match": []
+    },
+    {
+      "eng": "Basic Healing Nanobot",
+      "trans": "Nanobot Perawatan Dasar",
+      "match": [],
+      "desc": "Use to recover small amount of health"
+    },
+    {
+      "eng": "Advance Healing Nanobot",
+      "trans": "Nanobot Perawatan Lanjut",
+      "match": [],
+      "desc": "Use to recover moderate amount of health"
+    },
+    {
+      "eng": "Equipment Calibrator",
+      "trans": "Pengkalibrasi Peralatan",
+      "match": [],
+      "desc": "Used to calibrate equipments"
+    },
+    {
+      "eng": "Common Calibration Circuit Breaker",
+      "trans": "Pemutus Sirkuit Kalibrasi Umum",
+      "match": [],
+      "desc": "Use to decrease chance of equipment destruction by ${percent}% when calibration failed"
+    },
+    {
+      "eng": "Uncommon Calibration Circuit Breaker",
+      "trans": "Pemutus Sirkuit Kalibrasi Tidak Umum",
+      "match": [],
+      "desc": "Use to decrease chance of equipment destruction by ${percent}% when calibration failed"
+    },
+    {
+      "eng": "Rare Calibration Circuit Breaker",
+      "trans": "Pemutus Sirkuit Kalibrasi Langka",
+      "match": [],
+      "desc": "Use to decrease chance of equipment destruction by ${percent}% when calibration failed"
+    },
+    {
+      "eng": "Uncommon Reset Shard",
+      "trans": "Shard PemulihanTidak Umum",
+      "match": [],
+      "desc": "Use to reset a uncommon item with new traits by chance"
+    },
+    {
+      "eng": "Rare Reset Shard",
+      "trans": "Shard Pemulihan Langka",
+      "match": [],
+      "desc": "Use to reset a rare item with new traits by chance"
+    },
+    {
+      "eng": "Unique Reset Shard",
+      "trans": "Shard Pemulihan Unik",
+      "match": [],
+      "desc": "Use to reset a unique item with new traits by chance"
+    },
+    {
+      "eng": "Epic Reset Shard",
+      "trans": "Shard Pemulihan Epik",
+      "match": [],
+      "desc": "Use to reset a epic item with new traits by chance"
+    },
+    {
+      "eng": "Uncommon Upgrade Shard",
+      "trans": "Shard Peningkatan Tidak Umum",
+      "match": [],
+      "desc": "Use to upgrade an common item to uncommon tier"
+    },
+    {
+      "eng": "Rare Upgrade Shard",
+      "trans": "Shard Peningkatan Langka",
+      "match": [],
+      "desc": "Use to upgrade an uncommon item to rare tier"
+    },
+    {
+      "eng": "Unique Upgrade Shard",
+      "trans": "Shard Peningkatan Unik",
+      "match": [],
+      "desc": "Use to upgrade an rare item to unique tier"
+    },
+    {
+      "eng": "Epic Upgrade Shard",
+      "trans": "Shard Peningkatan Epik",
+      "match": [],
+      "desc": "Use to upgrade an unique item to epic tier"
+    },
+    {
+      "eng": "Common Level Shard",
+      "trans": "Shard Tingkat Umum",
+      "match": [],
+      "desc": "Use to level up an common item to its next level"
+    },
+    {
+      "eng": "Uncommon Level Shard",
+      "trans": "Shard Tingkat Tidak Umum",
+      "match": [],
+      "desc": "Use to level up an uncommon item to its next level"
+    },
+    {
+      "eng": "Rare Level Shard",
+      "trans": "Shard Tingkat Langka",
+      "match": [],
+      "desc": "Use to level up an rare item to its next level"
+    },
+    {
+      "eng": "Unique Level Shard",
+      "trans": "Shard Tingkat Unik",
+      "match": [],
+      "desc": "Use to level up an unique item to its next level"
+    },
+    {
+      "eng": "Epic Level Shard",
+      "trans": "Shard Tingkat Epik",
+      "match": [],
+      "desc": "Use to level up an epic item to its next level"
+    },
+    {
+      "eng": "Identification Shard",
+      "trans": "Shard Identifikasi",
+      "match": [],
+      "desc": "Use to identify unknown traits in a item"
+    },
+    {
+      "eng": "Prefix Injector Shard",
+      "trans": "Shard Injektor Prefiks",
+      "match": [],
+      "desc": "Use to inject an additional prefix into a item, please note that if you re-roll the prefixes after using this item, the effect will be nullified."
+    },
+    {
+      "eng": "dungeon activator",
+      "trans": "Pengaktif Dungeon",
+      "match": [],
+      "desc": "Use to enter a dungeon"
+    },
+    {
+      "eng": "Red Bar VIP token",
+      "trans": "Token VIP Bar Merah ",
+      "match": [],
+      "desc": "Use this token to meet and recruit new mercenaries in Red Bar"
+    },
+    {
+      "eng": "Neural Upgrade Augmenter",
+      "trans": "Penguat Peningkatan Saraf Otak",
+      "match": [],
+      "desc": "Neural Upgrade Augmenter is a cutting-edge implant that enables users to break past their mental limitations and reach untold levels of cognitive enhancement. With the ability to exceed typical neural barriers, users can unlock new levels of insight, creativity, and physical performance."
+    },
+    {
+      "eng": "EuroDollar",
+      "trans": "EuroDolar",
+      "match": [],
+      "desc": "EuroDollar is a widely accepted currency in the continent, used for everyday purchases and transactions."
+    },
+    {
+      "eng": "NetCoin",
+      "trans": "Koin Jaringan",
+      "match": [],
+      "desc": "NetCoin is a digital currency mainly used in black market transactions. It is untraceable and can be used to purchase illegal goods and services."
+    },
+    {
+      "eng": "Level Shard",
+      "trans": "Shard Tingkat",
+      "match": [],
+      "desc": "Universal level up token for equipments, use to increase the level of an equipment"
+    },
+    {
+      "eng": "Calibration Shard",
+      "trans": "Shard Kalibrasi",
+      "match": [],
+      "desc": "Universal calibration token for equipments, use to improve equipments"
+    },
+    {
+      "eng": "Gang Control Resource",
+      "trans": "Sumber Daya Pengendalian Geng",
+      "match": [],
+      "desc": "Use to contribute to gang territory control"
+    },
+    {
+      "eng": "Gang Maintenance Resource",
+      "trans": "Sumber Daya Pemeliharaan Geng",
+      "match": [],
+      "desc": "Use to contribute to gang maintenance"
+    },
+    {
+      "eng": "Braised Pork Rice",
+      "trans": "Nasi dengan Daging Babi Panggang",
+      "match": [],
+      "desc": "A traditional dish of braised pork belly and rice."
+    },
+    {
+      "eng": "Rice",
+      "trans": "Nasi",
+      "match": [],
+      "desc": "A staple food of the continent."
+    },
+    {
+      "eng": "Pork",
+      "trans": "Daging Babi",
+      "match": [],
+      "desc": "Slice of ordinary synthetic pork"
+    },
+    {
+      "eng": "Bread",
+      "trans": "Roti",
+      "match": [],
+      "desc": "a rare delicacy made from real wheat flour, smuggled by rebels who oppose the synthetic food industry."
+    },
+    {
+      "eng": "Burger",
+      "trans": "Burger",
+      "match": [],
+      "desc": "A cheap and addictive food made from synthetic meat and chemicals. Popular among lowlifes and hackers who need a quick energy boost."
+    },
+    {
+      "eng": "Fish",
+      "trans": "Ikan",
+      "match": [],
+      "desc": "A medium sized vibrant fish, it's highly sought after for its psychedelic properties when consumed."
+    },
+    {
+      "eng": "Sushi",
+      "trans": "Sushi",
+      "match": [],
+      "desc": "A traditional Japanese dish made from raw fish and rice."
+    },
+    {
+      "eng": "Reward Cipher",
+      "trans": "Enkripsi Imbalan",
+      "match": [],
+      "desc": "Used to re-roll quest reward."
+    },
+    {
+      "eng": "Satay",
+      "trans": "Sate",
+      "match": [],
+      "desc": "A traditional Indonesian dish made from skewered meat and rice."
+    },
+    {
+      "eng": "Neuroblocker",
+      "trans": "Penghalang Neural",
+      "match": [],
+      "desc": "Neuroblockers were developed to counteract the negative effects that cybernetic implants had on the human body. By suppressing these effects, people were able to use these implants with reduced suffering from physical or mental issues"
+    },
+    {
+      "eng": "Common Container",
+      "trans": "Kontainer Umum",
+      "match": [],
+      "desc": "A common container that contains a random item."
+    },
+    {
+      "eng": "Uncommon Container",
+      "trans": "Kontainer Tidak Umum",
+      "match": [],
+      "desc": "A uncommon container that contains a random item."
+    },
+    {
+      "eng": "Medical Tech Scrap",
+      "trans": "Pengutipan Peralatan Medis",
+      "match": [],
+      "desc": "A piece of medical technology that can be used to craft "
+    },
+    {
+      "eng": "decryption Key",
+      "trans": "kunci dekripsi",
+      "match": [],
+      "desc": "A cutting-edge cyberpunk device that serves as a key to unlock high-security doors in the dystopian strongholds, revealing valuable loot and hidden rewards."
+    },
+    {
+      "eng": "Shadow Token",
+      "trans": "Token Bayangan",
+      "match": [],
+      "desc": "A token can be used to trade with the merchants in strongholds."
+    },
+    {
+      "eng": "Chloe",
+      "trans": "Chloe",
+      "match": [],
+      "desc": "One of the npc's name in the game, does not need to be direct translation from english"
+    },
+    {
+      "eng": "Lilith",
+      "trans": "Lilith",
+      "match": [],
+      "desc": "One of the npc's name in the game, does not need to be direct translation from english"
+    },
+    {
+      "eng": "Oriana",
+      "trans": "Oriana",
+      "match": [],
+      "desc": "One of the npc's name in the game, does not need to be direct translation from english"
+    },
+    {
+      "eng": "Maxine",
+      "trans": "Maxine",
+      "match": [],
+      "desc": "One of the npc's name in the game, does not need to be direct translation from english"
+    },
+    {
+      "eng": "Ren",
+      "trans": "Ren",
+      "match": [],
+      "desc": "One of the npc's name in the game, does not need to be direct translation from english"
+    },
+    {
+      "eng": "Hana",
+      "trans": "Hana",
+      "match": [],
+      "desc": "One of the npc's name in the game, does not need to be direct translation from english"
+    },
+    {
+      "eng": "Whisperer",
+      "trans": "Whisperer",
+      "match": [],
+      "desc": "One of the npc's name in the game, does not need to be direct translation from english"
+    },
+    {
+      "eng": "Shadow Merchant",
+      "trans": "Shadow Merchant",
+      "match": [],
+      "desc": "One of the npc's name in the game, does not need to be direct translation from english"
+    },
+    {
+      "eng": "eddies",
+      "match": [
+        "eddie"
+      ],
+      "trans": "uang"
+    },
+    {
+      "eng": "Loot Increase Buff Activator",
+      "trans": "Aktivator Peningkatan Rute Buff",
+      "match": [],
+      "desc": "Deploy this buff in stronghold lobby to increase loot amount for all strongholds created by your gang members for ${minutes} minutes"
+    },
+    {
+      "eng": "Defense Boost Buff Activator",
+      "trans": "Aktivator Peningkatan Pertahanan",
+      "match": [],
+      "desc": "Deploy this buff in stronghold lobby to increase defense for all players in strongholds created by your gang members for ${minutes} minutes"
+    }
+  ]
+    }
