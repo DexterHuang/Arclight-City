@@ -65,7 +65,7 @@
 			},
 			"triggered": {
 				"eng": "${merc} burns all enemies, dealt ${damage} damage each",
-				"trans": "`${merc} membakar semua musuh, memberikan ${damage} kerusakan masing-masing`"
+				"trans": "${merc} membakar semua musuh, memberikan ${damage} kerusakan masing-masing"
 			}
 		},
 		"heal": {
@@ -75,7 +75,7 @@
 			},
 			"triggered": {
 				"eng": "${merc} Healed ${playerName} for ${amount} health",
-				"trans": "`${merc} Menyembuhkan ${playerName} untuk ${amount} kesehatan`"
+				"trans": "${merc} Menyembuhkan ${playerName} untuk ${amount} kesehatan"
 			}
 		},
 		"healGroup": {
@@ -105,7 +105,7 @@
 			},
 			"triggered": {
 				"eng": "${merc} poisoned all enemies, dealt ${damage} damage each.",
-				"trans": "`${merc} meracuni semua musuh, memberikan ${damage} kerusakan masing-masing.`"
+				"trans": "${merc} meracuni semua musuh, memberikan ${damage} kerusakan masing-masing."
 			}
 		},
 		"shield": {
@@ -316,17 +316,17 @@
 		},
 		"perWeek": {
 			"eng": "Per week",
-			"trans": "`Per minggu`"
+			"trans": "Per minggu"
 		},
 		"rent": {
 			"eng": "Rent Now",
-			"trans": "`Sewa Sekarang`"
+			"trans": "Sewa Sekarang"
 		}
 	},
 	"appleLogin": {
 		"button": {
 			"eng": "Sign in with Apple",
-			"trans": "`Masuk dengan Apple`"
+			"trans": "Masuk dengan Apple"
 		}
 	},
 	"attackBar": {
@@ -385,7 +385,7 @@
 		"vit": {
 			"desc": {
 				"eng": "Increases health",
-				"trans": "`Meningkatkan kesehatan`"
+				"trans": "Meningkatkan kesehatan"
 			},
 			"name": {
 				"eng": "Vitality",
@@ -396,7 +396,7 @@
 	"backgroundTask": {
 		"cancelConfirmCancel": {
 			"eng": "Terminate task",
-			"trans": "`Menghentikan tugas`"
+			"trans": "Menghentikan tugas"
 		},
 		"cancelConfirmDescription": {
 			"eng": "Material and time consumed will be lost.",
@@ -404,7 +404,7 @@
 		},
 		"cancelConfirmTitle": {
 			"eng": "Terminate task?",
-			"trans": "`Menghentikan tugas?`"
+			"trans": "Menghentikan tugas?"
 		},
 		"completeButton": {
 			"eng": "Complete",
@@ -417,7 +417,7 @@
 		"emptyTask": {
 			"description": {
 				"eng": "Click to choose a task",
-				"trans": "`Klik untuk memilih tugas`"
+				"trans": "Klik untuk memilih tugas"
 			},
 			"title": {
 				"eng": "Task slot available",
@@ -446,7 +446,7 @@
 	"backgroundTaskStartPopup": {
 		"cost": {
 			"eng": "Cost",
-			"trans": "`Biaya`"
+			"trans": "Biaya"
 		},
 		"rewards": {
 			"eng": "possible rewards",
@@ -455,7 +455,7 @@
 		"skipButton": {
 			"title": {
 				"eng": "Instant Complete",
-				"trans": "`Selesaikan Seketika`"
+				"trans": "Selesaikan Seketika"
 			}
 		},
 		"startButton": {
@@ -523,7 +523,7 @@
 		"territory": {
 			"description": {
 				"eng": "Contribute to territory control for your gang",
-				"trans": "`Bantu menguasai wilayah untuk gengmu`"
+				"trans": "Bantu menguasai wilayah untuk gengmu"
 			},
 			"displayName": {
 				"eng": "Territory Control",
@@ -537,7 +537,7 @@
 			},
 			"displayName": {
 				"eng": "Thieving",
-				"trans": "`Pencurian`"
+				"trans": "Pencurian"
 			}
 		}
 	},
@@ -568,7 +568,7 @@
 			"discard": {
 				"title": {
 					"eng": "Discard",
-					"trans": "`Buang`"
+					"trans": "Buang"
 				}
 			}
 		},
@@ -634,7 +634,7 @@
 	"calibrationResultPopup": {
 		"confirm": {
 			"eng": "Confirm",
-			"trans": "`Konfirmasi`"
+			"trans": "Konfirmasi"
 		},
 		"failed": {
 			"description": {
@@ -664,7 +664,7 @@
 		},
 		"text1": {
 			"eng": "Analyzing item...",
-			"trans": "`Menganalisis item...`"
+			"trans": "Menganalisis item..."
 		},
 		"text2": {
 			"eng": "Rebooting to recovery mode...",
@@ -672,7 +672,7 @@
 		},
 		"text3": {
 			"eng": "Decrypting BIOS...",
-			"trans": "`Mendekripsi BIOS...`"
+			"trans": "Mendekripsi BIOS..."
 		},
 		"text4": {
 			"eng": "Calibrating...",
@@ -682,7 +682,7 @@
 	"characterCreate": {
 		"confirm": {
 			"eng": "confirm",
-			"trans": "`konfirmasi`"
+			"trans": "konfirmasi"
 		},
 		"confirmModal": {
 			"description": {
@@ -773,11 +773,11 @@
 	"clanBuffDeployPopup": {
 		"activated": {
 			"eng": "Buff Activated",
-			"trans": "`Buff Diaktifkan`"
+			"trans": "Buff Diaktifkan"
 		},
 		"confirmDeploy": {
 			"eng": "Confirm deploy",
-			"trans": "`Konfirmasi penempatan`"
+			"trans": "Konfirmasi penempatan"
 		},
 		"confirmDeployDescription": {
 			"eng": "Are you sure you want to deploy \"${buffName}\" buff?",
@@ -785,7 +785,7 @@
 		},
 		"deploy": {
 			"eng": "Deploy",
-			"trans": "`Terapkan`"
+			"trans": "Terapkan"
 		},
 		"notInClan": {
 			"eng": "You can only deploy buffs if you are in a gang",
@@ -807,7 +807,7 @@
 		},
 		"isPublic": {
 			"eng": "Public",
-			"trans": "`Publik`"
+			"trans": "Publik"
 		}
 	},
 	"clanDetailsPage": {
@@ -835,7 +835,7 @@
 		},
 		"funds": {
 			"eng": "Funds",
-			"trans": "`Dana`"
+			"trans": "Dana"
 		},
 		"joinButton": {
 			"eng": "Join",
@@ -847,11 +847,11 @@
 		},
 		"makePrivate": {
 			"eng": "Make Private",
-			"trans": "`Jadikan Pribadi`"
+			"trans": "Jadikan Pribadi"
 		},
 		"makePublic": {
 			"eng": "Make Public",
-			"trans": "`Buat Publik`"
+			"trans": "Buat Publik"
 		},
 		"mottoModal": {
 			"description": {
@@ -1011,11 +1011,11 @@
 	"confirmModal": {
 		"cancel": {
 			"eng": "Cancel",
-			"trans": "`Batal`"
+			"trans": "Batal"
 		},
 		"confirm": {
 			"eng": "Confirm",
-			"trans": "`Konfirmasi`"
+			"trans": "Konfirmasi"
 		}
 	},
 	"connectingOverlay": {
@@ -1109,7 +1109,7 @@
 		},
 		"submitButton": {
 			"eng": "Submit",
-			"trans": "`Kirim`"
+			"trans": "Kirim"
 		},
 		"title": {
 			"eng": "Gift Code",
@@ -1188,7 +1188,7 @@
 			},
 			"remove": {
 				"eng": "Remove from crew",
-				"trans": "`Hapus dari kru`"
+				"trans": "Hapus dari kru"
 			}
 		},
 		"selectPopup": {
@@ -1334,12 +1334,12 @@
 		"respawnButton": {
 			"title": {
 				"eng": "Confirm",
-				"trans": "`Konfirmasi`"
+				"trans": "Konfirmasi"
 			}
 		},
 		"subtitle": {
 			"eng": "Fatal injury detected",
-			"trans": "`Cedera fatal terdeteksi`"
+			"trans": "Cedera fatal terdeteksi"
 		},
 		"title": {
 			"eng": "Flatlined",
@@ -1393,13 +1393,13 @@
 		},
 		"dismantleButton": {
 			"eng": "Dismantle",
-			"trans": "`Mematikan`"
+			"trans": "Mematikan"
 		}
 	},
 	"drawMercAnimation": {
 		"activate": {
 			"eng": "activate",
-			"trans": "`aktifkan`"
+			"trans": "aktifkan"
 		},
 		"activated": {
 			"continue": {
@@ -1416,7 +1416,7 @@
 			},
 			"textList1": {
 				"eng": "Allocating resources...",
-				"trans": "`Mengalokasikan sumber daya...`"
+				"trans": "Mengalokasikan sumber daya..."
 			},
 			"textList2": {
 				"eng": "Scanning mercenary network...",
@@ -1428,7 +1428,7 @@
 			},
 			"textList4": {
 				"eng": "Receiving data...",
-				"trans": "`Menerima data...`"
+				"trans": "Menerima data..."
 			}
 		},
 		"standby": {
@@ -1512,11 +1512,11 @@
 		"enemyIncrease": {
 			"desc": {
 				"eng": "Increase number of enemies.",
-				"trans": "`Tingkatkan jumlah musuh.`"
+				"trans": "Tingkatkan jumlah musuh."
 			},
 			"name": {
 				"eng": "Crowded",
-				"trans": "`Ramai`"
+				"trans": "Ramai"
 			}
 		},
 		"expIncrease": {
@@ -1532,7 +1532,7 @@
 		"lootIncrease": {
 			"desc": {
 				"eng": "Increase loot gained.",
-				"trans": "`Tingkatkan hasil jarahan.`"
+				"trans": "Tingkatkan hasil jarahan."
 			},
 			"name": {
 				"eng": "Extra Loot",
@@ -1706,7 +1706,7 @@
 			},
 			"confirmText": {
 				"eng": "Continue",
-				"trans": "`Lanjutkan`"
+				"trans": "Lanjutkan"
 			},
 			"description": {
 				"eng": "Are you sure you want to bring them into stronghold? \\nIf you die you will lose them.",
@@ -1720,7 +1720,7 @@
 		"invNoHealing": {
 			"cancel": {
 				"eng": "Continue",
-				"trans": "`Lanjutkan`"
+				"trans": "Lanjutkan"
 			},
 			"confirm": {
 				"eng": "purchase",
@@ -1774,22 +1774,22 @@
 		"physical": {
 			"name": {
 				"eng": "Physical",
-				"trans": "`Fisik`"
+				"trans": "Fisik"
 			}
 		}
 	},
 	"enemyTabContent": {
 		"addEnemy": {
 			"eng": "Add Enemies",
-			"trans": "`Tambah Musuh`"
+			"trans": "Tambah Musuh"
 		},
 		"attack": {
 			"eng": "Attack",
-			"trans": "`Serang`"
+			"trans": "Serang"
 		},
 		"removeEnemy": {
 			"eng": "Remove Enemy",
-			"trans": "`Hapus Musuh`"
+			"trans": "Hapus Musuh"
 		},
 		"viewProfile": {
 			"eng": "View Profile",
@@ -1950,7 +1950,7 @@
 			},
 			"title": {
 				"eng": "Update Received",
-				"trans": "`Pembaruan Diterima`"
+				"trans": "Pembaruan Diterima"
 			}
 		}
 	},
@@ -2005,7 +2005,7 @@
 		},
 		"submit1": {
 			"eng": "Submit",
-			"trans": "`Kirim`"
+			"trans": "Kirim"
 		},
 		"submit2": {
 			"eng": "Rate and Claim Reward",
@@ -2013,7 +2013,7 @@
 		},
 		"submit3": {
 			"eng": "Submit",
-			"trans": "`Kirim`"
+			"trans": "Kirim"
 		}
 	},
 	"friend": {
@@ -2053,11 +2053,11 @@
 	"friendTabContent": {
 		"addFriend": {
 			"eng": "Add Friend",
-			"trans": "`Tambah Teman`"
+			"trans": "Tambah Teman"
 		},
 		"removeFriend": {
 			"eng": "Remove Friend",
-			"trans": "`Hapus Teman`"
+			"trans": "Hapus Teman"
 		},
 		"viewProfile": {
 			"eng": "View Profile",
@@ -2148,7 +2148,7 @@
 			},
 			"invalidCharacters": {
 				"eng": "The gang tag must only contain letters and numbers",
-				"trans": "`Tag geng hanya boleh berisi huruf dan angka.`"
+				"trans": "Tag geng hanya boleh berisi huruf dan angka."
 			},
 			"tooLong": {
 				"eng": "The gang tag must be at most ${maxLength} characters long",
@@ -2163,7 +2163,7 @@
 	"googleLogin": {
 		"button": {
 			"eng": "Sign in with Google",
-			"trans": "`Masuk dengan Google`"
+			"trans": "Masuk dengan Google"
 		}
 	},
 	"healthSacrificePopup": {
@@ -2174,7 +2174,7 @@
 			},
 			"title": {
 				"eng": "Activate",
-				"trans": "`Aktifkan`"
+				"trans": "Aktifkan"
 			}
 		}
 	},
@@ -2186,7 +2186,7 @@
 		"optionsPopup": {
 			"attack": {
 				"eng": "Attack",
-				"trans": "`Serang`"
+				"trans": "Serang"
 			},
 			"viewProfile": {
 				"eng": "View Profile",
@@ -2196,7 +2196,7 @@
 		"placeHitButton": {
 			"title": {
 				"eng": "Place Hit",
-				"trans": "`Sasaran Pukulan`"
+				"trans": "Sasaran Pukulan"
 			}
 		},
 		"title": {
@@ -2215,7 +2215,7 @@
 	"hostilePlayerListPage": {
 		"arrest": {
 			"eng": "Attempt Arrest",
-			"trans": "`Upaya Penangkapan`"
+			"trans": "Upaya Penangkapan"
 		},
 		"description": {
 			"eng": "Join the fight for justice in Arclight City! The ACPD calls upon vigilant citizens to aid in the pursuit of wanted criminals. Your city needs you! Bring in the fugitives, dead or alive, and earn substantial rewards. Together, we'll make Arclight City safer for all. 🌃👮‍♂️\\n#CitizenArrest #ACPDJustice",
@@ -2231,7 +2231,7 @@
 		},
 		"loading": {
 			"eng": "Loading...",
-			"trans": "`Sedang memuat...`"
+			"trans": "Sedang memuat..."
 		},
 		"name": {
 			"eng": "Name",
@@ -2308,7 +2308,7 @@
 				"modal": {
 					"confirm": {
 						"eng": "Scrap",
-						"trans": "`Serpihan`"
+						"trans": "Serpihan"
 					},
 					"description": {
 						"eng": "Are you sure you want to scrap these items?",
@@ -2429,11 +2429,11 @@
 		},
 		"repairButton": {
 			"eng": "Repair",
-			"trans": "`Perbaikan`"
+			"trans": "Perbaikan"
 		},
 		"title": {
 			"eng": "Item Destroyed",
-			"trans": "`Item Dihancurkan`"
+			"trans": "Item Dihancurkan"
 		}
 	},
 	"itemDetails": {
@@ -2477,7 +2477,7 @@
 		},
 		"dismantle": {
 			"eng": "Dismantle",
-			"trans": "`Mematikan`"
+			"trans": "Mematikan"
 		},
 		"error": {
 			"cantEquipFromBackpack": {
@@ -2509,7 +2509,7 @@
 		},
 		"moveToBackpack": {
 			"eng": "Move To Backpack",
-			"trans": "`Pindah ke Ransel`"
+			"trans": "Pindah ke Ransel"
 		},
 		"moveToInv": {
 			"eng": "Move To Inventory",
@@ -2594,12 +2594,12 @@
 		"repairButton": {
 			"title": {
 				"eng": "Repair",
-				"trans": "`Perbaikan`"
+				"trans": "Perbaikan"
 			}
 		},
 		"title": {
 			"eng": "Equipment Repair",
-			"trans": "`Perbaikan Peralatan`"
+			"trans": "Perbaikan Peralatan"
 		}
 	},
 	"itemSlot": {
@@ -2718,7 +2718,7 @@
 		"healingHp": {
 			"name": {
 				"eng": "Healing HP",
-				"trans": "`Pemulihan HP`"
+				"trans": "Pemulihan HP"
 			}
 		},
 		"helmet": {
@@ -3106,7 +3106,7 @@
 		"healing1": {
 			"description": {
 				"eng": "Use to recover small amount of health",
-				"trans": "`Gunakan untuk memulihkan sedikit kesehatan`"
+				"trans": "Gunakan untuk memulihkan sedikit kesehatan"
 			},
 			"name": {
 				"eng": "Basic Healing Nanobot",
@@ -3532,7 +3532,7 @@
 			},
 			"headerB": {
 				"eng": "Upgraded",
-				"trans": "`Ditingkatkan`"
+				"trans": "Ditingkatkan"
 			}
 		},
 		"itemUpgradeTab": {
@@ -3550,7 +3550,7 @@
 		"noItem": {
 			"des": {
 				"eng": "Click here to select an item",
-				"trans": "`Klik di sini untuk memilih item`"
+				"trans": "Klik di sini untuk memilih item"
 			},
 			"title": {
 				"eng": "No item selected",
@@ -3761,7 +3761,7 @@
 		},
 		"dangerTitle": {
 			"eng": "Danger",
-			"trans": "`Bahaya`"
+			"trans": "Bahaya"
 		},
 		"level": {
 			"eng": "Level ${level}",
@@ -3788,7 +3788,7 @@
 	"loginFromOtherDevicePage": {
 		"back": {
 			"eng": "Back to Login",
-			"trans": "`Kembali ke Masuk`"
+			"trans": "Kembali ke Masuk"
 		},
 		"title": {
 			"eng": "Logged in from another device.",
@@ -3803,7 +3803,7 @@
 			},
 			"loginWithEmail": {
 				"eng": "Login with Email",
-				"trans": "`Masuk dengan Email`"
+				"trans": "Masuk dengan Email"
 			},
 			"register": {
 				"eng": "Register",
@@ -3816,7 +3816,7 @@
 		},
 		"loginWithEmail": {
 			"eng": "Login with Email",
-			"trans": "`Masuk dengan Email`"
+			"trans": "Masuk dengan Email"
 		},
 		"serverUnavailable": {
 			"eng": "Server under maintenance. We are bring it back online soon.",
@@ -3917,7 +3917,7 @@
 		"gangButton": {
 			"title": {
 				"eng": "Gang",
-				"trans": "`Geng`"
+				"trans": "Geng"
 			}
 		},
 		"inventoryButton": {
@@ -3938,7 +3938,7 @@
 		},
 		"mercenaryButton": {
 			"eng": "mercenary",
-			"trans": "`Prajurit bayaran`"
+			"trans": "Prajurit bayaran"
 		},
 		"npcListButton": {
 			"title": {
@@ -4129,7 +4129,7 @@
 			},
 			"time": {
 				"eng": "Time Left",
-				"trans": "`Waktu Tersisa`"
+				"trans": "Waktu Tersisa"
 			}
 		}
 	},
@@ -4162,7 +4162,7 @@
 		},
 		"confirmButton": {
 			"eng": "Confirm",
-			"trans": "`Konfirmasi`"
+			"trans": "Konfirmasi"
 		},
 		"error": {
 			"notEnoughCurrency": {
@@ -4308,7 +4308,7 @@
 		},
 		"dismiss": {
 			"eng": "Dismiss",
-			"trans": "`Tutup`"
+			"trans": "Tutup"
 		},
 		"level": {
 			"eng": "Level",
@@ -4316,7 +4316,7 @@
 		},
 		"levelUp": {
 			"eng": "Level Up",
-			"trans": "`Naik Level`"
+			"trans": "Naik Level"
 		},
 		"stats": {
 			"title": {
@@ -4339,7 +4339,7 @@
 		"confirmModal": {
 			"confirmText": {
 				"eng": "Dismiss",
-				"trans": "`Tutup`"
+				"trans": "Tutup"
 			},
 			"description": {
 				"eng": "Are you sure you want to dismiss the selected mercenaries?",
@@ -4347,7 +4347,7 @@
 			},
 			"title": {
 				"eng": "Confirm Dismiss",
-				"trans": "`Konfirmasi Penolakan`"
+				"trans": "Konfirmasi Penolakan"
 			}
 		},
 		"description": {
@@ -4356,7 +4356,7 @@
 		},
 		"dismiss": {
 			"eng": "Dismiss",
-			"trans": "`Tutup`"
+			"trans": "Tutup"
 		},
 		"noMercenaries": {
 			"eng": "No available mercenaries",
@@ -4398,7 +4398,7 @@
 	"mercenaryLevelDisplay": {
 		"levelUp": {
 			"eng": "Enhance",
-			"trans": "`Meningkatkan`"
+			"trans": "Meningkatkan"
 		},
 		"upgrade": {
 			"eng": "Upgrade",
@@ -4418,7 +4418,7 @@
 			"dismiss": {
 				"title": {
 					"eng": "Dismiss",
-					"trans": "`Tutup`"
+					"trans": "Tutup"
 				}
 			}
 		},
@@ -4458,7 +4458,7 @@
 	"mercenaryReceiveSummaryPopup": {
 		"continue": {
 			"eng": "Click to continue",
-			"trans": "`Klik untuk melanjutkan`"
+			"trans": "Klik untuk melanjutkan"
 		},
 		"title": {
 			"eng": "Mercenaries",
@@ -4469,7 +4469,7 @@
 		"confirmButton": {
 			"title": {
 				"eng": "confirm",
-				"trans": "`konfirmasi`"
+				"trans": "konfirmasi"
 			}
 		},
 		"noMercenaries": {
@@ -4512,7 +4512,7 @@
 	"mercenaryUpgradeResultPopup": {
 		"title": {
 			"eng": "Enhanced",
-			"trans": "`Ditingkatkan`"
+			"trans": "Ditingkatkan"
 		}
 	},
 	"messageContainer": {
@@ -4580,7 +4580,7 @@
 		},
 		"exchange": {
 			"eng": "Exchange",
-			"trans": "`Pertukaran`"
+			"trans": "Pertukaran"
 		},
 		"exp": {
 			"eng": "EXP",
@@ -4624,7 +4624,7 @@
 		},
 		"purchase": {
 			"eng": "Purchase",
-			"trans": "`Beli`"
+			"trans": "Beli"
 		},
 		"upgrade": {
 			"eng": "upgrade",
@@ -4635,11 +4635,11 @@
 		"selectAmountModal": {
 			"cancel": {
 				"eng": "cancel",
-				"trans": "`Batal`"
+				"trans": "Batal"
 			},
 			"confirm": {
 				"eng": "confirm",
-				"trans": "`konfirmasi`"
+				"trans": "konfirmasi"
 			},
 			"invalidAmount": {
 				"eng": "Amount must be between ${min} and ${max}",
@@ -4710,7 +4710,7 @@
 			},
 			"decline": {
 				"eng": "Decline",
-				"trans": "`Tolak`"
+				"trans": "Tolak"
 			}
 		},
 		"noNotification": {
@@ -4793,7 +4793,7 @@
 				},
 				"title": {
 					"eng": "Browse the market",
-					"trans": "`Jelajahi pasar`"
+					"trans": "Jelajahi pasar"
 				}
 			},
 			"description": {
@@ -4959,7 +4959,7 @@
 				},
 				"title": {
 					"eng": "Take Survey",
-					"trans": "`Isi Survei`"
+					"trans": "Isi Survei"
 				}
 			},
 			"greetings": {
@@ -5000,7 +5000,7 @@
 			},
 			"repair": {
 				"eng": "Repair",
-				"trans": "`Perbaikan`"
+				"trans": "Perbaikan"
 			},
 			"shop": {
 				"eng": "Shop",
@@ -5091,7 +5091,7 @@
 					"Tim impian? Ini adalah rekan kru baru Anda.",
 					"Selamat datang di kapal. Temui kru yang akan bekerja bersama Anda.",
 					"Kamu berada di tangan yang tepat. Ini adalah kru barumu.",
-					"`Pekerjaan baru, kru baru. Temui rekan timmu.`",
+					"Pekerjaan baru, kru baru. Temui rekan timmu.",
 					"Misi kritis. Ini adalah rekan-rekan kru baru Anda.",
 					"Teman baru dalam pertarungan. Temui kru Anda.",
 					"Mencari kru? Kamu baru saja menemukan rekan tim baru kamu.",
@@ -5123,7 +5123,7 @@
 		},
 		"repairButton": {
 			"eng": "Repair my equipment",
-			"trans": "`Perbaiki peralatan saya`"
+			"trans": "Perbaiki peralatan saya"
 		},
 		"shopButton": {
 			"eng": "I want to buy something",
@@ -5131,7 +5131,7 @@
 		},
 		"upgradeButton": {
 			"eng": "Upgrade my equipment",
-			"trans": "`Tingkatkan peralatan saya`"
+			"trans": "Tingkatkan peralatan saya"
 		},
 		"weaponSmith": {
 			"description": {
@@ -5250,11 +5250,11 @@
 	"npcShopPage": {
 		"buy": {
 			"eng": "Purchase",
-			"trans": "`Beli`"
+			"trans": "Beli"
 		},
 		"cancel": {
 			"eng": "Cancel",
-			"trans": "`Batal`"
+			"trans": "Batal"
 		},
 		"sell": {
 			"eng": "sell",
@@ -5270,7 +5270,7 @@
 		},
 		"sell": {
 			"eng": "Sell",
-			"trans": "`Jual`"
+			"trans": "Jual"
 		}
 	},
 	"placeHitPage": {
@@ -5280,7 +5280,7 @@
 		},
 		"placeHit": {
 			"eng": "Place hit",
-			"trans": "`Sasaran Pukulan`"
+			"trans": "Sasaran Pukulan"
 		},
 		"selectPlayer": {
 			"eng": "Select player",
@@ -5365,7 +5365,7 @@
 		"menu": {
 			"addFriend": {
 				"eng": "Add Friend",
-				"trans": "`Tambah Teman`"
+				"trans": "Tambah Teman"
 			},
 			"block": {
 				"eng": "Block",
@@ -5377,11 +5377,11 @@
 			},
 			"removeFriend": {
 				"eng": "Remove Friend",
-				"trans": "`Hapus Teman`"
+				"trans": "Hapus Teman"
 			},
 			"report": {
 				"eng": "Report",
-				"trans": "`Laporan`"
+				"trans": "Laporan"
 			},
 			"sendMessage": {
 				"eng": "Send Mail",
@@ -5389,7 +5389,7 @@
 			},
 			"unblock": {
 				"eng": "Unblock",
-				"trans": "`Buka blokir`"
+				"trans": "Buka blokir"
 			}
 		},
 		"tabs": {
@@ -5424,7 +5424,7 @@
 			"discard": {
 				"title": {
 					"eng": "Scrap",
-					"trans": "`Serpihan`"
+					"trans": "Serpihan"
 				}
 			}
 		},
@@ -5533,7 +5533,7 @@
 		"hairColor": {
 			"black": {
 				"eng": "Black",
-				"trans": "`Hitam`"
+				"trans": "Hitam"
 			},
 			"blonde": {
 				"eng": "Blonde",
@@ -5553,7 +5553,7 @@
 			},
 			"multiColor": {
 				"eng": "Multi Colored",
-				"trans": "`Bermacam Warna`"
+				"trans": "Bermacam Warna"
 			},
 			"name": {
 				"eng": "Hair Color",
@@ -5608,7 +5608,7 @@
 		},
 		"topUpTabTitle": {
 			"eng": "Top Up",
-			"trans": "`Isi Ulang`"
+			"trans": "Isi Ulang"
 		}
 	},
 	"premiumShopTopUpTab": {
@@ -5671,7 +5671,7 @@
 	"psychosisDisplay": {
 		"nextCycle": {
 			"eng": "${time} to next refresh",
-			"trans": "`${time} ke penyegaran berikutnya`"
+			"trans": "${time} ke penyegaran berikutnya"
 		},
 		"title": {
 			"eng": "Cyber psychosis ${percent}%",
@@ -5777,7 +5777,7 @@
 		},
 		"completed": {
 			"eng": "Completed",
-			"trans": "`Selesai`"
+			"trans": "Selesai"
 		},
 		"progress": {
 			"collectQuestItem": {
@@ -5830,7 +5830,7 @@
 		"abandonQuestModal": {
 			"confirmText": {
 				"eng": "Abandon",
-				"trans": "`Meninggalkan`"
+				"trans": "Meninggalkan"
 			},
 			"description": {
 				"eng": "Are you sure you want to abandon this quest?",
@@ -5838,7 +5838,7 @@
 			},
 			"title": {
 				"eng": "Abandon Quest",
-				"trans": "`Tinggalkan Misi`"
+				"trans": "Tinggalkan Misi"
 			}
 		},
 		"backgroundTaskSubtitle": {
@@ -5917,15 +5917,15 @@
 	"refreshShopModal": {
 		"cancel": {
 			"eng": "Cancel",
-			"trans": "`Batal`"
+			"trans": "Batal"
 		},
 		"description": {
 			"eng": "Refreshing the shop will randomize the items and discounts",
-			"trans": "`Memperbarui toko akan mengacak item dan diskon yang ditawarkan.`"
+			"trans": "Memperbarui toko akan mengacak item dan diskon yang ditawarkan."
 		},
 		"refresh": {
 			"eng": "Refresh Now",
-			"trans": "`Segarkan Sekarang`"
+			"trans": "Segarkan Sekarang"
 		},
 		"title": {
 			"eng": "Refresh shop items",
@@ -5935,7 +5935,7 @@
 	"repairAnimationPopup": {
 		"confirm": {
 			"eng": "Confirm",
-			"trans": "`Konfirmasi`"
+			"trans": "Konfirmasi"
 		},
 		"failed": {
 			"description": {
@@ -5959,7 +5959,7 @@
 		},
 		"text1": {
 			"eng": "Analyzing item...",
-			"trans": "`Menganalisis item...`"
+			"trans": "Menganalisis item..."
 		},
 		"text2": {
 			"eng": "Booting cybernetic in recovery mode...",
@@ -5981,7 +5981,7 @@
 		},
 		"report": {
 			"eng": "Report",
-			"trans": "`Laporan`"
+			"trans": "Laporan"
 		},
 		"reportReason": {
 			"eng": "Report Reason",
@@ -5991,7 +5991,7 @@
 	"reportType": {
 		"harassment": {
 			"eng": "Harassment",
-			"trans": "`Penggangguan`"
+			"trans": "Penggangguan"
 		},
 		"inappropriate": {
 			"eng": "Inappropriate",
@@ -6009,7 +6009,7 @@
 	"reward": {
 		"clanExp": {
 			"eng": "+${clanExp} Gang EXP",
-			"trans": "`+${clanExp} Poin Geng EXP`",
+			"trans": "+${clanExp} Poin Geng EXP",
 			"vars": []
 		},
 		"clanResource": {
@@ -6025,7 +6025,7 @@
 		},
 		"territoryPoint": {
 			"eng": "+${territoryPoint} Territory Point",
-			"trans": "`+${territoryPoint} Poin Wilayah`",
+			"trans": "+${territoryPoint} Poin Wilayah",
 			"vars": []
 		}
 	},
@@ -6077,7 +6077,7 @@
 		},
 		"description": {
 			"eng": "Click to close",
-			"trans": "`Klik untuk menutup`"
+			"trans": "Klik untuk menutup"
 		},
 		"questComplete": {
 			"title": {
@@ -6095,7 +6095,7 @@
 	"sceneContainer": {
 		"skip": {
 			"eng": "Skip",
-			"trans": "`Lewati`"
+			"trans": "Lewati"
 		}
 	},
 	"selectAmountModal": {
@@ -6162,7 +6162,7 @@
 		"combatLog": {
 			"healing": {
 				"eng": "${player} used ${itemName}, healed ${healAmount} HP",
-				"trans": "`${player} menggunakan ${itemName}, memulihkan ${healAmount} HP`"
+				"trans": "${player} menggunakan ${itemName}, memulihkan ${healAmount} HP"
 			},
 			"usedStatusEffect": {
 				"eng": "${player} used ${itemName}, received ${effectName}",
@@ -6444,11 +6444,11 @@
 		},
 		"enablePowerSavingMode": {
 			"eng": "Enable Power Saving Mode",
-			"trans": "`Aktifkan Mode Hemat Daya`"
+			"trans": "Aktifkan Mode Hemat Daya"
 		},
 		"enableSoundEffect": {
 			"eng": "Enable sound effect",
-			"trans": "`Aktifkan efek suara`"
+			"trans": "Aktifkan efek suara"
 		},
 		"enableVibration": {
 			"eng": "Enable Vibration",
@@ -6675,7 +6675,7 @@
 			},
 			"name": {
 				"eng": "Burned",
-				"trans": "`Terbakar`"
+				"trans": "Terbakar"
 			}
 		},
 		"defense1": {
@@ -6691,7 +6691,7 @@
 		"defenseIncrease": {
 			"desc": {
 				"eng": "Increases your defense",
-				"trans": "`Meningkatkan pertahananmu`"
+				"trans": "Meningkatkan pertahananmu"
 			},
 			"name": {
 				"eng": "Defense Increase",
@@ -6705,17 +6705,17 @@
 			},
 			"desc": {
 				"eng": "Recover health every turn",
-				"trans": "`Pulihkan kesehatan setiap giliran`"
+				"trans": "Pulihkan kesehatan setiap giliran"
 			},
 			"name": {
 				"eng": "Healed",
-				"trans": "`Disembuhkan`"
+				"trans": "Disembuhkan"
 			}
 		},
 		"lootIncrease": {
 			"desc": {
 				"eng": "Increases the amount of loot from enemies and chests",
-				"trans": "`Meningkatkan jumlah barang jarahan dari musuh dan peti`"
+				"trans": "Meningkatkan jumlah barang jarahan dari musuh dan peti"
 			},
 			"name": {
 				"eng": "Loot Increase",
@@ -6753,7 +6753,7 @@
 			},
 			"name": {
 				"eng": "Hostile",
-				"trans": "`Musuh`"
+				"trans": "Musuh"
 			}
 		}
 	},
@@ -6779,7 +6779,7 @@
 		},
 		"discard": {
 			"eng": "Discard",
-			"trans": "`Buang`"
+			"trans": "Buang"
 		},
 		"discardConfirm": {
 			"eng": "Discard all loots?",
@@ -6787,7 +6787,7 @@
 		},
 		"discardConfirmDescription": {
 			"eng": "Are you sure you want to discard all loots? this action is irreversible.",
-			"trans": "Anda yakin ingin membuang semua jarahan? tindakan ini tidak dapat diubah.`"
+			"trans": "Anda yakin ingin membuang semua jarahan? tindakan ini tidak dapat diubah."
 		},
 		"lootAll": {
 			"eng": "loot all",
@@ -6884,7 +6884,7 @@
 	"terminalLoadingAnimation": {
 		"defaultProgressTitle": {
 			"eng": "Loading...",
-			"trans": "`Memuat...`"
+			"trans": "Memuat..."
 		}
 	},
 	"territory": {
@@ -6962,7 +6962,7 @@
 	"textareaModal": {
 		"defaultConfirmButton": {
 			"eng": "Confirm",
-			"trans": "`Konfirmasi`"
+			"trans": "Konfirmasi"
 		}
 	},
 	"tier": {
@@ -7077,7 +7077,7 @@
 	"timedRefreshButton": {
 		"refreshIn": {
 			"eng": "Refresh in:",
-			"trans": "`Segarkan dalam:`"
+			"trans": "Segarkan dalam:"
 		}
 	},
 	"toggleMinigame": {
@@ -7093,7 +7093,7 @@
 	"trade": {
 		"accepted": {
 			"eng": "Trade accepted",
-			"trans": "`Transaksi diterima`"
+			"trans": "Transaksi diterima"
 		},
 		"alreadyLocked": {
 			"eng": "You already locked this trade",
@@ -7120,7 +7120,7 @@
 			},
 			"cancelButton": {
 				"eng": "Cancel",
-				"trans": "`Batal`"
+				"trans": "Batal"
 			},
 			"description": {
 				"eng": "You have received a trade invite from ${inviter}.",
@@ -7195,7 +7195,7 @@
 		},
 		"tradeTerminated": {
 			"eng": "Trade was terminated",
-			"trans": "`Perdagangan telah dihentikan`"
+			"trans": "Perdagangan telah dihentikan"
 		},
 		"unlock": {
 			"eng": "unlock deal",
@@ -7247,7 +7247,7 @@
 		},
 		"backgroundTask2": {
 			"eng": "Click here to start a task.",
-			"trans": "`Klik di sini untuk memulai tugas.`"
+			"trans": "Klik di sini untuk memulai tugas."
 		},
 		"backpackClear": {
 			"eng": "Move items from backpack to your inventory to ensure you don't lose them during stronghold exploration.",
@@ -7327,7 +7327,7 @@
 		},
 		"quest": {
 			"eng": "Click here to view your quests.",
-			"trans": "`Klik di sini untuk melihat misi-mu.`"
+			"trans": "Klik di sini untuk melihat misi-mu."
 		},
 		"travelToLevel2": {
 			"eng": "Click here to travel to the next area where enemies are stronger and give more exp.",
@@ -7355,7 +7355,7 @@
 		},
 		"back": {
 			"eng": "Back",
-			"trans": "`Kembali`"
+			"trans": "Kembali"
 		},
 		"characterSelect": {
 			"createCharacter": {
@@ -7406,7 +7406,7 @@
 		"equipmentModal": {
 			"changeEquipment": {
 				"eng": "Change equipment",
-				"trans": "`Ubah peralatan`"
+				"trans": "Ubah peralatan"
 			},
 			"unequip": {
 				"eng": "Unequip",
@@ -7532,7 +7532,7 @@
 		"restart": {
 			"title": {
 				"eng": "Server is restarting...",
-				"trans": "`Server sedang dimulai ulang...`"
+				"trans": "Server sedang dimulai ulang..."
 			}
 		},
 		"selectItemModal": {
@@ -7552,7 +7552,7 @@
 		"travelBack": {
 			"title": {
 				"eng": "Back",
-				"trans": "`Kembali`"
+				"trans": "Kembali"
 			}
 		}
 	},
@@ -7566,10 +7566,10 @@
 			"eng": "${totalSlots} slots(+${slot})",
 			"trans": "${totalSlots} slot(+${slot})"
 		},
-		"trans": "`Peningkatan ransel`",
+		"trans": "Peningkatan ransel",
 		"upgrade": {
 			"eng": "Upgrade ${index}",
-			"trans": "`Peningkatan ${index}`"
+			"trans": "Peningkatan ${index}"
 		}
 	},
 	"upgradeInventoryPopup": {
@@ -7583,10 +7583,10 @@
 			"trans": "Anda juga dapat meningkatkan ruang inventaris Anda dengan menyewa apartemen"
 		},
 		"eng": "Inventory upgrade",
-		"trans": "`Peningkatan Inventori`",
+		"trans": "Peningkatan Inventori",
 		"upgrade": {
 			"eng": "Upgrade ${index}",
-			"trans": "`Peningkatan ${index}`"
+			"trans": "Peningkatan ${index}"
 		}
 	},
 	"upgradeItem": {
@@ -7699,7 +7699,7 @@
 			},
 			"title": {
 				"eng": "Cheap Price!!",
-				"trans": "`Harga Murah!!`"
+				"trans": "Harga Murah!!"
 			}
 		},
 		"wiki": {
