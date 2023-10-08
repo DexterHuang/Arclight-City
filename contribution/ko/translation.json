@@ -1297,13 +1297,17 @@
 		},
 		"randomizeConfirm": {
 			"description": {
-				"eng": "this will cost ${price} ${currency}",
-				"trans": "이것은 ${currency} ${price}이(가) 들 것입니다"
+				"eng": "This will reset your daily reward progress and randomize the reward items",
+				"trans": "이 작업은 매일 받는 보상 진행 상황을 초기화하고 보상 아이템을 무작위로 변경합니다"
 			},
 			"title": {
 				"eng": "Are you sure you want to re-roll?",
 				"trans": "새로고침 하시겠습니까?"
 			}
+		},
+		"refreshNow": {
+			"eng": "Refresh Rewards",
+			"trans": "보상 새로고침"
 		},
 		"title": {
 			"eng": "Daily Reward",
@@ -4387,8 +4391,8 @@
 			"trans": "10명 모집"
 		},
 		"recruitTenDescription": {
-			"eng": "Grantee a 4 star or higher mercenary",
-			"trans": "4성 이상의 용병 1명 보장"
+			"eng": "one 4 star or higher mercenary is guaranteed",
+			"trans": "4성 이상의 용병 하나가 보장됩니다"
 		}
 	},
 	"mercenaryLevelDisplay": {
@@ -5271,8 +5275,8 @@
 	},
 	"placeHitPage": {
 		"notEnoughUnitError": {
-			"eng": "Minimum hit bounty is ${minNormal} and ${minUnit}",
-			"trans": "현상금 의뢰 최소금액은 ${minNormal}와 ${minUnit}입니다"
+			"eng": "Minimum hit bounty is ${minNormal} or ${minUnit}",
+			"trans": "최소 피해 현상금은 ${minNormal} 또는 ${minUnit}입니다"
 		},
 		"placeHit": {
 			"eng": "Place hit",
@@ -6892,8 +6896,8 @@
 		},
 		"resetNoti": {
 			"body": {
-				"eng": "All territory in Arclight City has been reset. let the gang wars begin!",
-				"trans": "아크라이트 시티의 모든 영역이 초기화되었습니다. 갱전이 시작됩니다!"
+				"eng": "All territories in Arclight City have been reset. let the gang wars begin!",
+				"trans": "아크라이트 시티의 모든 지역이 초기화되었습니다. 갱전이 시작됩니다!"
 			},
 			"title": {
 				"eng": "Territory Reset",
@@ -7712,6 +7716,12 @@
 		}
 	},
 	"worldEventType": {
+		"bountyAdded": {
+			"announcement": {
+				"eng": "bounty of ${amount1}/${amount2} has been placed on ${targetName}!",
+				"trans": "${amount1}/${amount2}의 현상금이 ${targetName}에게 걸렸습니다!"
+			}
+		},
 		"calibrated10": {
 			"announcement": {
 				"eng": "${playerName} has calibrated ${item}!",
@@ -7728,6 +7738,12 @@
 			"announcement": {
 				"eng": "${playerName} broke ${item} while calibrating",
 				"trans": "${playerName}이(가) ${item}을(를) 교정하는 도중 부서졌습니다"
+			}
+		},
+		"citizenArrest": {
+			"announcement": {
+				"eng": "${playerName} arrested ${targetName}!",
+				"trans": "${playerName}이(가) ${targetName}을(를) 체포했습니다!"
 			}
 		},
 		"mugged": {

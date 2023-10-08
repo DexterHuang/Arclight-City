@@ -1297,13 +1297,17 @@
 		},
 		"randomizeConfirm": {
 			"description": {
-				"eng": "this will cost ${price} ${currency}",
-				"trans": "這將花費${price}${currency}。"
+				"eng": "This will reset your daily reward progress and randomize the reward items",
+				"trans": "這將重置您的每日獎勵進度並隨機分配獎勵物品。"
 			},
 			"title": {
 				"eng": "Are you sure you want to re-roll?",
 				"trans": "您確定要重新擲骰嗎？"
 			}
+		},
+		"refreshNow": {
+			"eng": "Refresh Rewards",
+			"trans": "更新獎勵"
 		},
 		"title": {
 			"eng": "Daily Reward",
@@ -4387,8 +4391,8 @@
 			"trans": "招募10名"
 		},
 		"recruitTenDescription": {
-			"eng": "Grantee a 4 star or higher mercenary",
-			"trans": "保證獲得4星或更高星級的傭兵"
+			"eng": "one 4 star or higher mercenary is guaranteed",
+			"trans": "保證至少一名四星或更高星級的傭兵"
 		}
 	},
 	"mercenaryLevelDisplay": {
@@ -5271,8 +5275,8 @@
 	},
 	"placeHitPage": {
 		"notEnoughUnitError": {
-			"eng": "Minimum hit bounty is ${minNormal} and ${minUnit}",
-			"trans": "最低賞金為${minNormal}和${minUnit}"
+			"eng": "Minimum hit bounty is ${minNormal} or ${minUnit}",
+			"trans": "最低擊殺賞金為${minNormal}或${minUnit}"
 		},
 		"placeHit": {
 			"eng": "Place hit",
@@ -6892,8 +6896,8 @@
 		},
 		"resetNoti": {
 			"body": {
-				"eng": "All territory in Arclight City has been reset. let the gang wars begin!",
-				"trans": "幻光之城的所有領地已被重置，讓幫派之戰開始吧！"
+				"eng": "All territories in Arclight City have been reset. let the gang wars begin!",
+				"trans": "幻光之城的所有領土已被重置，讓幫派之戰開始吧！"
 			},
 			"title": {
 				"eng": "Territory Reset",
@@ -7712,6 +7716,12 @@
 		}
 	},
 	"worldEventType": {
+		"bountyAdded": {
+			"announcement": {
+				"eng": "bounty of ${amount1}/${amount2} has been placed on ${targetName}!",
+				"trans": "${targetName}的懸賞金額已達${amount1}/${amount2}！"
+			}
+		},
 		"calibrated10": {
 			"announcement": {
 				"eng": "${playerName} has calibrated ${item}!",
@@ -7728,6 +7738,12 @@
 			"announcement": {
 				"eng": "${playerName} broke ${item} while calibrating",
 				"trans": "${playerName}在校準時弄壞了${item}"
+			}
+		},
+		"citizenArrest": {
+			"announcement": {
+				"eng": "${playerName} arrested ${targetName}!",
+				"trans": "${playerName}逮捕了${targetName}！"
 			}
 		},
 		"mugged": {
