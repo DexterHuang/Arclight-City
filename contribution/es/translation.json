@@ -905,11 +905,11 @@
 	"clanPlayer": {
 		"fundsContributed": {
 			"eng": "funds: ${amount}",
-			"trans": "fondos: ${cantidad}"
+			"trans": "fondos: ${amount}"
 		},
 		"resourceContributed": {
 			"eng": "resource: ${amount}",
-			"trans": "recurso: ${cantidad}"
+			"trans": "recurso: ${amount}"
 		},
 		"thisWeek": {
 			"eng": "this week",
@@ -997,15 +997,15 @@
 	"compactRewardConfigDisplay": {
 		"clanControl": {
 			"eng": "+ ${amount} control on territory",
-			"trans": "+ ${cantidad} control en territorio"
+			"trans": "+ ${amount} control en territorio"
 		},
 		"clanExp": {
 			"eng": "+ ${amount} Gang EXP",
-			"trans": "+ ${cantidad} EXP de Banda"
+			"trans": "+ ${amount} EXP de Banda"
 		},
 		"clanResource": {
 			"eng": "+ ${amount} Gang resource",
-			"trans": "+ ${cantidad} Recurso de banda"
+			"trans": "+ ${amount} Recurso de banda"
 		}
 	},
 	"confirmModal": {
@@ -1085,7 +1085,7 @@
 		},
 		"psychosis": {
 			"eng": "+ ${amount} psychosis",
-			"trans": "+ ${cantidad} psicosis"
+			"trans": "+ ${amount} psicosis"
 		}
 	},
 	"coupon": {
@@ -1362,7 +1362,7 @@
 		"premiumCurrencyRecoverButton": {
 			"title": {
 				"eng": "Pay with ${currency}",
-				"trans": "Pagar con ${moneda}"
+				"trans": "Pagar con ${currency}"
 			}
 		}
 	},
@@ -1687,7 +1687,7 @@
 		},
 		"extraLoot": {
 			"eng": "+${percent}% loot rarity",
-			"trans": "+${porcentaje}% rareza de botín"
+			"trans": "+${percent}% rareza de botín"
 		}
 	},
 	"dungeonTypePage": {
@@ -3688,7 +3688,7 @@
 		"medical": {
 			"currentEffectDescription": {
 				"eng": "Increases intelligence by ${intelligence} (increases damage by ${healing}) and Extraction Mission task profit to ${profit}",
-				"trans": "Aumenta la inteligencia en ${inteligencia} (aumenta el daño en ${healing}) y el beneficio de la misión de extracción a ${profit}"
+				"trans": "Aumenta la inteligencia en ${intelligence} (aumenta el daño en ${healing}) y el beneficio de la misión de extracción a ${profit}"
 			},
 			"description": {
 				"eng": "Increases intelligence attribute by 1 every level, and increases profit from this job type",
@@ -3712,7 +3712,7 @@
 		"scavenge": {
 			"currentEffectDescription": {
 				"eng": "Increases vitality by ${vitality} (increases health by ${health}) and scavenging task profit to ${profit}",
-				"trans": "Aumenta la vitalidad en ${vitalidad} (aumenta la salud en ${salud}) y el beneficio de la tarea de recolección a ${ganancia}"
+				"trans": "Aumenta la vitalidad en ${vitality} (aumenta la salud en ${health}) y el beneficio de la tarea de recolección a ${profit}"
 			},
 			"description": {
 				"eng": "Increases vitality attribute by 1 every level, and increases profit from this job type",
@@ -3726,7 +3726,7 @@
 		"thieving": {
 			"currentEffectDescription": {
 				"eng": "Increases dexterity by ${dexterity} (increases fire-arm weapons damage by ${dmg}) and thieving task profit to ${profit}",
-				"trans": "Aumenta la destreza en ${destreza} (aumenta el daño de las armas de fuego en ${dmg}) y el beneficio de las tareas de robo a ${beneficio}"
+				"trans": "Aumenta la destreza en ${dexterity} (aumenta el daño de las armas de fuego en ${dmg}) y el beneficio de las tareas de robo a ${profit}"
 			},
 			"description": {
 				"eng": "Increases dexterity attribute by 1 every level, and increases profit from this job type",
@@ -4158,7 +4158,7 @@
 		},
 		"buyout": {
 			"eng": "Buyout with ${symbol}${buyOutPrice}",
-			"trans": "Comprar con ${symbol}${precioDeCompra}"
+			"trans": "Comprar con ${symbol}${buyOutPrice}"
 		},
 		"confirmButton": {
 			"eng": "Confirm",
@@ -4429,7 +4429,7 @@
 		"tip": {
 			"default": {
 				"eng": "Dismiss mercenaries to receive ${enhancer} and ${upgrade} base on their level and stars.",
-				"trans": "Descarta a los mercenarios para recibir ${mejorador} y ${mejora} basado en su nivel y estrellas."
+				"trans": "Descarta a los mercenarios para recibir ${enhancer} y ${upgrade} basado en su nivel y estrellas."
 			},
 			"noLevelUp": {
 				"eng": "Level up your mercenaries to improve their stats and ability",
@@ -5311,7 +5311,7 @@
 		},
 		"notEnoughMoney": {
 			"eng": "Not enough ${currency}: ${$}${amount}",
-			"trans": "No hay suficiente ${moneda}: ${$}${cantidad}"
+			"trans": "No hay suficiente ${currency}: ${$}${amount}"
 		},
 		"notEnoughPsychosis": {
 			"eng": "Your Cyber-Psychosis symptom is too high to perform this action: ${psychosis}",
@@ -5619,7 +5619,7 @@
 		},
 		"equivalent": {
 			"eng": "can be converted to ${amount}",
-			"trans": "se puede convertir a ${cantidad}"
+			"trans": "se puede convertir a ${amount}"
 		}
 	},
 	"promo": {
@@ -5675,7 +5675,7 @@
 		},
 		"title": {
 			"eng": "Cyber psychosis ${percent}%",
-			"trans": "Psicosis cibernética ${porcentaje}%"
+			"trans": "Psicosis cibernética ${percent}%"
 		}
 	},
 	"psychosisInfoModal": {
@@ -6020,7 +6020,7 @@
 		"exp": {
 			"increase": {
 				"eng": "+${amount} ${levelType} EXP",
-				"trans": "+${cantidad} EXP de ${tipoNivel}"
+				"trans": "+${amount} EXP de ${levelType}"
 			}
 		},
 		"territoryPoint": {
@@ -6047,7 +6047,7 @@
 		},
 		"healRatio": {
 			"eng": "Heal ${percent}% of your max health",
-			"trans": "Sanar ${porcentaje}% de tu salud máxima"
+			"trans": "Sanar ${percent}% de tu salud máxima"
 		},
 		"reducePsychosis": {
 			"eng": "Reduce psychosis by ${reducePsychosis}",
@@ -6058,7 +6058,7 @@
 	"rewardConfigItemDisplay": {
 		"oneOf": {
 			"eng": "one of the following x ${amount}:",
-			"trans": "uno de los siguientes x ${cantidad}:",
+			"trans": "uno de los siguientes x ${amount}:",
 			"vars": []
 		}
 	},
@@ -6409,7 +6409,7 @@
 		"recoverDeathItems": {
 			"notEnoughCurrency": {
 				"eng": "Not enough ${currency}",
-				"trans": "No hay suficiente ${moneda}"
+				"trans": "No hay suficiente ${currency}"
 			},
 			"success": {
 				"eng": "Your items have been returned to your inventory",
@@ -6681,7 +6681,7 @@
 		"defense1": {
 			"desc": {
 				"eng": "Take ${percent}% less damage",
-				"trans": "Recibe ${porcentaje}% menos daño"
+				"trans": "Recibe ${percent}% menos daño"
 			},
 			"name": {
 				"eng": "Defense I",
@@ -6739,7 +6739,7 @@
 		"power1": {
 			"desc": {
 				"eng": "Deal ${percent}% more damage",
-				"trans": "Hacer ${porcentaje}% más daño"
+				"trans": "Hacer ${percent}% más daño"
 			},
 			"name": {
 				"eng": "Power I",
@@ -6749,7 +6749,7 @@
 		"pvp": {
 			"desc": {
 				"eng": "You receive Hostile status when you attack players who does not have Hostile status, Takes ${percent} more damage from players and receives higher the punishment when you lost a fight",
-				"trans": "Al atacar a jugadores que no tienen el estado Hostil, recibes el estado Hostil y recibes un ${porcentaje} más de daño de los jugadores. Además, recibirás un castigo mayor si pierdes una pelea"
+				"trans": "Al atacar a jugadores que no tienen el estado Hostil, recibes el estado Hostil y recibes un ${percent} más de daño de los jugadores. Además, recibirás un castigo mayor si pierdes una pelea"
 			},
 			"name": {
 				"eng": "Hostile",
@@ -7031,7 +7031,7 @@
 			},
 			"fromNow": {
 				"eng": "in ${duration}",
-				"trans": "en ${duración}"
+				"trans": "en ${duration}"
 			}
 		},
 		"duration": {
@@ -7042,7 +7042,7 @@
 			},
 			"hours": {
 				"eng": "${hours} hours",
-				"trans": "${horas} horas",
+				"trans": "${hours} horas",
 				"vars": []
 			},
 			"minutes": {
@@ -7052,7 +7052,7 @@
 			},
 			"seconds": {
 				"eng": "${seconds} seconds",
-				"trans": "${segundos} segundos",
+				"trans": "${seconds} segundos",
 				"vars": []
 			},
 			"years": {
