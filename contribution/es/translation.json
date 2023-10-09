@@ -1212,7 +1212,7 @@
 			},
 			"name": {
 				"eng": "Netcoin",
-				"trans": "Netcoin"
+				"trans": "NetCoin"
 			}
 		},
 		"error": {
@@ -3741,7 +3741,8 @@
 	"localEnemy": {
 		"levelDisplay": {
 			"eng": "Level ${minLevel} - ${maxLevel}",
-			"trans": "Nivel ${minLevel} - ${maxLevel}"
+			"trans": "Nivel ${minLevel} - ${maxLevel}",
+			"vars": []
 		},
 		"selectLevelModal": {
 			"display": {
@@ -4560,7 +4561,7 @@
 	"misc": {
 		"blackMarketCurrencyName": {
 			"eng": "Netcoin",
-			"trans": "Netcoin"
+			"trans": "NetCoin"
 		},
 		"claim": {
 			"eng": "Claim",
@@ -4728,11 +4729,11 @@
 			},
 			"greetings": {
 				"eng": [
-					"¿Qué puedo conseguirte?",
-					"Date prisa, no tengo todo el día.",
-					"¿No eres de por aquí, verdad?",
-					"No me gusta hablar de trivialidades, ¿qué quieres beber?",
-					"No eres de los que hablan mucho, me gusta eso. ¿Qué puedo ofrecerte?"
+					"What can I get for you?",
+					"Make it quick, I don't have all day.",
+					"You're not from around here, are you?",
+					"I don't do small talk, what do you want to drink?",
+					"You're not the chatty type, I like that. What can I get you?"
 				],
 				"trans": [
 					"¿Qué puedo conseguirte?",
@@ -4752,19 +4753,19 @@
 			},
 			"questCooldownLines": {
 				"eng": [
-					"Vuelve más tarde, ahora mismo no tengo nada para ti.",
-					"Me temo que no tengo más conciertos, cielo. Vuelve en otro momento.",
-					"Lo siento, cariño. La estantería de misiones está vacía en este momento. Pasa más tarde."
+					"Come back later, I have nothing for you right now.",
+					"Afraid I'm fresh out of gigs, hon. Come back another time.",
+					"Sorry, darling. The quest shelf is empty at the moment. Swing by later."
 				],
 				"trans": [
-					"Vuelve más tarde, ahora mismo no tengo nada para ti.",
-					"Me temo que no tengo más conciertos, cielo. Vuelve en otro momento.",
+					"Vuelve más tarde, no tengo nada para ti en este momento.",
+					"Lo siento, no tengo más trabajos disponibles en este momento, cariño. Vuelve en otro momento.",
 					"Lo siento, cariño. La estantería de misiones está vacía en este momento. Pasa más tarde."
 				]
 			},
 			"questLines": {
 				"eng": [
-					"¿Listo para nuevos trabajos?"
+					"Up for new gigs?"
 				],
 				"trans": [
 					"¿Listo para nuevos trabajos?"
@@ -4772,7 +4773,7 @@
 			},
 			"questPendingLines": {
 				"eng": [
-					"Avísame cuando hayas completado los objetivos :)"
+					"Let me know when you have completed the objectives :)"
 				],
 				"trans": [
 					"Avísame cuando hayas completado los objetivos :)"
@@ -4802,9 +4803,9 @@
 			},
 			"greetings": {
 				"eng": [
-					"Bienvenido al submundo de esta ciudad. Espero que tengas algo valioso para intercambiar.",
-					"La noche de subastas siempre está llena de sorpresas. ¿Estás listo para pujar por tu destino?",
-					"Dicen que en el mercado negro, puedes comprar cualquier cosa, incluso tu propia salvación. ¿Cuánto vale tu salvación para ti?"
+					"Welcome to the underbelly of this city. Hope you've got something worth trading.",
+					"Auction night is always full of surprises. Are you ready to bid on your fate?",
+					"They say in the black market, you can buy anything, even your own salvation. What's your salvation worth to you?"
 				],
 				"trans": [
 					"Bienvenido al submundo de esta ciudad. Espero que tengas algo valioso para intercambiar.",
@@ -4826,19 +4827,19 @@
 			},
 			"questCooldownLines": {
 				"eng": [
-					"No en este momento, chromehead. Pero no te preocupes. Te contactaré cuando tenga un trabajo que se adapte a tus habilidades.",
-					"Nada por ahora, pero no te reinicies todavía. Te avisaré cuando tenga algo interesante que ofrecer. Paciencia, choomba.",
-					"No hay trabajos disponibles, cariño. Pero mantente alerta, porque te avisaré cuando se presente una buena oportunidad."
+					"Not at the moment, chromehead. But don't sweat it. I'll hit you up when I've got a job that suits your skill set.",
+					"Nada right now, but don't go rebootin' just yet. I'll drop a line when I've got somethin' spicy to offer. Patience, choomba.",
+					"No gigs on tap, sweetheart. But stay frosty, 'cause I'll give you a holla when a sweet opportunity slides my way."
 				],
 				"trans": [
-					"No en este momento, chromehead. Pero no te preocupes. Te contactaré cuando tenga un trabajo que se adapte a tus habilidades.",
+					"No por el momento, cromecabeza. Pero no te preocupes. Te contactaré cuando tenga un trabajo que se adapte a tus habilidades.",
 					"Nada por ahora, pero no te reinicies todavía. Te avisaré cuando tenga algo interesante que ofrecer. Paciencia, choomba.",
 					"No hay trabajos disponibles, cariño. Pero mantente alerta, porque te avisaré cuando se presente una buena oportunidad."
 				]
 			},
 			"questLines": {
 				"eng": [
-					"¿Listo para nuevos trabajos?"
+					"Up for new gigs?"
 				],
 				"trans": [
 					"¿Listo para nuevos trabajos?"
@@ -4846,7 +4847,7 @@
 			},
 			"questPendingLines": {
 				"eng": [
-					"Deja de perder mi tiempo, a menos que hayas hecho tu trabajo."
+					"Quit wasting my time, unless you have done your job."
 				],
 				"trans": [
 					"Deja de perder mi tiempo, a menos que hayas hecho tu trabajo."
@@ -4864,7 +4865,7 @@
 			},
 			"greetings": {
 				"eng": [
-					"¿Mejorar algunos cromos hoy, amigo?"
+					"Upgrade some chromes today choom?"
 				],
 				"trans": [
 					"¿Mejorar algunos cromos hoy, amigo?"
@@ -4880,19 +4881,19 @@
 			},
 			"questCooldownLines": {
 				"eng": [
-					"No hay trabajos para ti, novato. Pero no te alejes demasiado. Tengo un don para meterme en problemas, y me aseguraré de que estés en primera fila cuando llegue el momento.",
-					"No hay trabajos en este momento, pero no te reinicies todavía. Te avisaré cuando tenga algo interesante que ofrecer. Paciencia, choomba.",
-					"¿Buscas una solución, eh? Lo siento, no hay nuevas misiones en mi mesa de operaciones. Pero dejaré tu nombre en el archivo para cuando tenga un trabajo que necesite una... delicada extracción."
+					"No gigs for you, rookie. But don't wander too far. I've got a knack for stumbling upon trouble, and I'll make sure you're front and center when the time comes.",
+					"No jobs at the moment, but don't go rebootin' just yet. I'll drop a line when I've got somethin' spicy to offer. Patience, choomba.",
+					"Looking for a fix, huh? Sorry, no new quests on my operating table. But I'll keep your name on file for when I've got a job that needs some... delicate extraction."
 				],
 				"trans": [
-					"No hay trabajos para ti, novato. Pero no te alejes demasiado. Tengo un don para meterme en problemas, y me aseguraré de que estés en primera fila cuando llegue el momento.",
+					"No hay trabajos para ti, novato. Pero no te alejes demasiado. Tengo un talento para meterme en problemas, y me aseguraré de que estés en primera fila cuando llegue el momento.",
 					"No hay trabajos en este momento, pero no te reinicies todavía. Te avisaré cuando tenga algo interesante que ofrecer. Paciencia, choomba.",
-					"¿Buscas una solución, eh? Lo siento, no hay nuevas misiones en mi mesa de operaciones. Pero dejaré tu nombre en el archivo para cuando tenga un trabajo que necesite una... delicada extracción."
+					"¿Buscando una solución, eh? Lo siento, no hay nuevas misiones en mi mesa de operaciones. Pero mantendré tu nombre en archivo para cuando tenga un trabajo que requiera una... extracción delicada."
 				]
 			},
 			"questLines": {
 				"eng": [
-					"¿Listo para nuevos trabajos?"
+					"Up for new gigs?"
 				],
 				"trans": [
 					"¿Listo para nuevos trabajos?"
@@ -4900,7 +4901,7 @@
 			},
 			"questPendingLines": {
 				"eng": [
-					"Avísame cuando hayas completado los objetivos :)"
+					"Let me know when you have completed the objectives :)"
 				],
 				"trans": [
 					"Avísame cuando hayas completado los objetivos :)"
@@ -4908,7 +4909,7 @@
 			},
 			"shopLines": {
 				"eng": [
-					"No solo mires, compra algo."
+					"Don't just look, buy something."
 				],
 				"trans": [
 					"No solo mires, compra algo."
@@ -4918,20 +4919,20 @@
 		"dailyReward": {
 			"greetings": {
 				"eng": [
-					"¡Hola, desconocido! ¿Estás listo para un pequeño impulso que te ayude en tu viaje hoy?",
-					"¡Bienvenido de vuelta, cariño! Tengo algunas cosas emocionantes para ayudarte a patear traseros virtuales hoy.",
-					"¡Oye tú! No olvides revisar conmigo todos los días para conseguir algunos botines increíbles y hacer tu juego aún más épico.",
-					"¡Vaya, vaya, vaya...mira quién decidió iniciar sesión hoy! Tengo algo que creo que te va a encantar.",
-					"¡Saludos, compañero aventurero! Veamos qué tipo de botín podemos buscar para ti hoy.",
-					"¡Hola! ¿Te sientes afortunado hoy? Tengo algunas recompensas que podrían hacer tu día un poco más brillante.",
-					"¡Hola, compañero! Hoy me siento especialmente generoso. No te pierdas algunos equipos de primera calidad.",
-					"¡Bienvenido de vuelta, amigo mío! Veamos qué tipo de tesoro podemos encontrar para ti hoy.",
-					"¡Saludos! Espero que estés listo para conseguir botín de otro mundo hoy.",
-					"¡Buen día, amigo! Siempre es un placer verte. Hagamos de hoy un buen día con fantásticas recompensas."
+					"Hey there, stranger! Are you ready for a little boost to help you on your journey today?",
+					"Welcome back, hon! I've got some exciting things for you to help you kick some virtual butt today.",
+					"Hey, you! Don't forget to check in with me every day for some sweet loots to make your gameplay even more epic.",
+					"Well, well, well...look who decided to log in today! I've got something that I think you're going to love.",
+					"Greetings, fellow adventurer! Let's see what kind of loot we can scavenge for you today.",
+					"Hey, there! Feeling lucky today? I've got some rewards that just might make your day a little brighter.",
+					"Howdy, partner! I'm feeling extra generous today. Don't miss out on some top-notch gear.",
+					"Welcome back, my friend! Let's see what kind of treasure we can dig up for you today.",
+					"Salutations! I hope you're ready for some loot that's out of this world today.",
+					"Good day, mate! It's always a pleasure to see you. Let's make today a good one with some fantastic rewards."
 				],
 				"trans": [
 					"¡Hola, desconocido! ¿Estás listo para un pequeño impulso que te ayude en tu viaje hoy?",
-					"¡Bienvenido de vuelta, cariño! Tengo algunas cosas emocionantes para ayudarte a patear traseros virtuales hoy.",
+					"¡Bienvenida de vuelta, cariño! Tengo algunas cosas emocionantes para ayudarte a patear traseros virtuales hoy.",
 					"¡Oye tú! No olvides revisar conmigo todos los días para conseguir algunos botines increíbles y hacer tu juego aún más épico.",
 					"¡Vaya, vaya, vaya...mira quién decidió iniciar sesión hoy! Tengo algo que creo que te va a encantar.",
 					"¡Saludos, compañero aventurero! Veamos qué tipo de botín podemos buscar para ti hoy.",
@@ -4964,7 +4965,7 @@
 			},
 			"greetings": {
 				"eng": [
-					"¡Bienvenido a mi juego! ¡Hágame saber si tiene algún comentario o informe de errores :)"
+					"Welcome to my game! let me know if you have any feedbacks or bug report :)"
 				],
 				"trans": [
 					"¡Bienvenido a mi juego! ¡Hágame saber si tiene algún comentario o informe de errores :)"
@@ -5018,7 +5019,7 @@
 			},
 			"greetings": {
 				"eng": [
-					"¡Hola, bienvenido a mi tienda!"
+					"Hey there, welcome to my store!"
 				],
 				"trans": [
 					"¡Hola, bienvenido a mi tienda!"
@@ -5034,21 +5035,21 @@
 			},
 			"questCooldownLines": {
 				"eng": [
-					"¡Ay, azúcar, ya no tengo más trabajos para ti en este momento! Pero no te preocupes, pronto tendré algo jugoso para ti.",
-					"Lo siento, cielo, no hay misiones en el menú para ti por el momento. Pero mantén ese brillante ojo cromado abierto, porque tendré algo que valga tu tiempo muy pronto.",
-					"Vaya, cielo, me pillas en mal momento. No tengo misiones que ofrecerte, pero te prometo que te prepararé unas cuantas aventuras increíbles antes de que te des cuenta.",
-					"Cariño, mi banco de misiones está un poco seco en este momento. Pero sigue pasando por aquí, porque pronto te prepararé algo picante solo para ti."
+					"Aw, sugar, I'm all outta gigs for ya right now. But don't you worry, I'll have somethin' juicy for ya soon enough.",
+					"Sorry, hon, no quests on the menu for ya at the moment. But keep that shiny chrome eye open, 'cause I'll have somethin' worth your time real soon.",
+					"Aww, darlin', you caught me at a bad time. No quests to offer, but I promise I'll hook you up with some wicked adventures before you know it.",
+					"Sweetheart, my quest bank's runnin' a little dry right now. But keep swingin' by, 'cause I'll whip up somethin' spicy just for you soon."
 				],
 				"trans": [
 					"¡Ay, azúcar, ya no tengo más trabajos para ti en este momento! Pero no te preocupes, pronto tendré algo jugoso para ti.",
-					"Lo siento, cielo, no hay misiones en el menú para ti por el momento. Pero mantén ese brillante ojo cromado abierto, porque tendré algo que valga tu tiempo muy pronto.",
-					"Vaya, cielo, me pillas en mal momento. No tengo misiones que ofrecerte, pero te prometo que te prepararé unas cuantas aventuras increíbles antes de que te des cuenta.",
-					"Cariño, mi banco de misiones está un poco seco en este momento. Pero sigue pasando por aquí, porque pronto te prepararé algo picante solo para ti."
+					"Lo siento, cariño, no hay misiones en el menú para ti en este momento. Pero mantén ese brillante ojo cibernético abierto, porque pronto tendré algo que valga tu tiempo.",
+					"Ay, cariño, me pillaste en un mal momento. No tengo misiones que ofrecerte, pero te prometo que te engancharé con algunas aventuras increíbles antes de que te des cuenta.",
+					"Cariño, mi banco de misiones está un poco vacío en este momento. Pero sigue pasando por aquí, porque pronto prepararé algo picante solo para ti."
 				]
 			},
 			"questLines": {
 				"eng": [
-					"¿Podrías hacer esto por mí?"
+					"Could you do this for me?"
 				],
 				"trans": [
 					"¿Podrías hacer esto por mí?"
@@ -5056,7 +5057,7 @@
 			},
 			"questPendingLines": {
 				"eng": [
-					"Avísame cuando hayas completado los objetivos :)"
+					"Let me know when you have completed the objectives :)"
 				],
 				"trans": [
 					"Avísame cuando hayas completado los objetivos :)"
@@ -5074,27 +5075,27 @@
 		"mercDraw1": {
 			"greetings": {
 				"eng": [
-					"¿Preparado para la acción? Conoce a tus nuevos compañeros de tripulación.",
-					"Es hora de subir de nivel. Tus nuevos compañeros de tripulación están aquí.",
-					"¿El equipo de ensueño? Estos son tus nuevos compañeros de equipo.",
-					"Bienvenido a bordo. Conoce a los miembros del equipo con los que trabajarás.",
-					"Estás en buenas manos. Estos son tus nuevos compañeros de equipo.",
-					"Nuevo trabajo, nuevo equipo. Conoce a tus compañeros.",
-					"Misión crítica. Estos son tus nuevos compañeros de equipo.",
-					"Nuevos aliados en la lucha. Conoce a tus compañeros de equipo.",
-					"¿Buscas un equipo? Ya encontraste a tus nuevos compañeros.",
-					"El trabajo en equipo hace realidad los sueños. Conoce a tus nuevos compañeros de equipo."
+					"Ready for action? Meet your new crewmates.",
+					"Time to level up. Your new crewmates are here.",
+					"The dream team? These are your new crewmates.",
+					"Welcome aboard. Meet the crewmates you'll be working with.",
+					"You're in good hands. These are your new crewmates.",
+					"New job, new crew. Meet your teammates.",
+					"Mission critical. These are your new crewmates.",
+					"New allies in the fight. Meet your crewmates.",
+					"Looking for a crew? You just found your new teammates.",
+					"Teamwork makes the dream work. Meet your new crewmates."
 				],
 				"trans": [
-					"¿Preparado para la acción? Conoce a tus nuevos compañeros de tripulación.",
-					"Es hora de subir de nivel. Tus nuevos compañeros de tripulación están aquí.",
+					"¿Listo para la acción? Conoce a tus nuevos compañeros de equipo.",
+					"¡Es hora de subir de nivel! Tus nuevos compañeros de equipo están aquí.",
 					"¿El equipo de ensueño? Estos son tus nuevos compañeros de equipo.",
 					"Bienvenido a bordo. Conoce a los miembros del equipo con los que trabajarás.",
 					"Estás en buenas manos. Estos son tus nuevos compañeros de equipo.",
-					"Nuevo trabajo, nuevo equipo. Conoce a tus compañeros.",
+					"Nuevo trabajo, nuevo equipo. Conoce a tus compañeros de equipo.",
 					"Misión crítica. Estos son tus nuevos compañeros de equipo.",
 					"Nuevos aliados en la lucha. Conoce a tus compañeros de equipo.",
-					"¿Buscas un equipo? Ya encontraste a tus nuevos compañeros.",
+					"¿Buscando un equipo? Acabas de encontrar a tus nuevos compañeros de equipo.",
 					"El trabajo en equipo hace realidad los sueños. Conoce a tus nuevos compañeros de equipo."
 				]
 			},
@@ -5144,9 +5145,9 @@
 			},
 			"greetings": {
 				"eng": [
-					"¿Quieres calibrar tus hierros?",
-					"Tú lo rompes, yo lo arreglo.\nTú lo vuelves a romper, yo te rompo a ti.",
-					"Soy el mejor en el negocio. Si quieres que algo se haga bien, ven a mí."
+					"Wanna calibrate your irons?",
+					"You break it, I fix it.\n You break it again, I break you.",
+					"I'm the best in the business. You want something done right, you come to me."
 				],
 				"trans": [
 					"¿Quieres calibrar tus hierros?",
@@ -5164,9 +5165,9 @@
 			},
 			"questCooldownLines": {
 				"eng": [
-					"¿Buscando un trabajo, eh? Lo siento, no hay nada en mi radar en este momento. Vuelve más tarde, tal vez tenga algo que valga la pena para ti.",
-					"¡Escucha, listillo, estoy agotado de misiones. Vuelve cuando haya reabastecido.",
-					"¿Buscando acción, eh? Bueno, mala suerte. No hay trabajos para ti en este momento, listillo."
+					"Looking for a gig, huh? Sorry, nothing on my radar right now. Check back later, maybe I'll have something worth your while.",
+					"Listen up, slick, I'm all tapped out on quests. Come back when I've restocked.",
+					"Looking for action, huh? Well, tough luck. No jobs for you at the moment, slick."
 				],
 				"trans": [
 					"¿Buscando un trabajo, eh? Lo siento, no hay nada en mi radar en este momento. Vuelve más tarde, tal vez tenga algo que valga la pena para ti.",
@@ -5176,7 +5177,7 @@
 			},
 			"questLines": {
 				"eng": [
-					"¿Listo para nuevos trabajos?"
+					"Up for new gigs?"
 				],
 				"trans": [
 					"¿Listo para nuevos trabajos?"
@@ -5184,7 +5185,7 @@
 			},
 			"questPendingLines": {
 				"eng": [
-					"Avísame cuando hayas completado los objetivos :)"
+					"Let me know when you have completed the objectives :)"
 				],
 				"trans": [
 					"Avísame cuando hayas completado los objetivos :)"
@@ -5192,8 +5193,8 @@
 			},
 			"shopLines": {
 				"eng": [
-					"¿Buscando una ventaja en la ciudad? Has venido al lugar correcto.",
-					"Te arreglaré muy bien, sin preguntas."
+					"Seeking an edge in the city? You've come to the right place.",
+					"I'll fix you up real nice, no questions asked."
 				],
 				"trans": [
 					"¿Buscando una ventaja en la ciudad? Has venido al lugar correcto.",
