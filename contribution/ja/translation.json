@@ -75,7 +75,7 @@
 			},
 			"triggered": {
 				"eng": "${merc} Healed ${playerName} for ${amount} health",
-				"trans": "${merc}が${playerName}を${amount}回復しました。"
+				"trans": "${merc}が${playerName}の体力を${amount}回復しました。"
 			}
 		},
 		"healGroup": {
@@ -121,7 +121,7 @@
 		"shieldGroup": {
 			"description": {
 				"eng": "Shields your team for ${amount} health",
-				"trans": "チーム全体を${amount}の体力で守る"
+				"trans": "チーム全体を${amount}でシールドします。"
 			},
 			"triggered": {
 				"eng": "${merc} shields the team for ${amount}",
@@ -369,7 +369,7 @@
 			},
 			"name": {
 				"eng": "Intelligence",
-				"trans": "知能"
+				"trans": "知力"
 			}
 		},
 		"str": {
@@ -389,7 +389,7 @@
 			},
 			"name": {
 				"eng": "Vitality",
-				"trans": "体力"
+				"trans": "生命力"
 			}
 		}
 	},
@@ -2910,13 +2910,13 @@
 		"str": {
 			"name": {
 				"eng": "Strength",
-				"trans": "強さ"
+				"trans": "力"
 			}
 		},
 		"vit": {
 			"name": {
 				"eng": "Vitality",
-				"trans": "体力"
+				"trans": "生命力"
 			}
 		}
 	},
@@ -3666,7 +3666,7 @@
 			},
 			"description": {
 				"eng": "Increases strength attribute by 1 every level, and increases profit from this job type",
-				"trans": "各レベルで力属性を1増加させ、この職種からの利益を増加させます。"
+				"trans": "各レベルで力属性を1増加させ、このジョブの利益を増加させます。"
 			},
 			"displayName": {
 				"eng": "Bodyguard Level",
@@ -3688,11 +3688,11 @@
 		"medical": {
 			"currentEffectDescription": {
 				"eng": "Increases intelligence by ${intelligence} (increases damage by ${healing}) and Extraction Mission task profit to ${profit}",
-				"trans": "知能を${intelligence}増加させます（ダメージを${healing}増加させます）そして救援任務の収益を${profit}に増やします。"
+				"trans": "知力を${intelligence}増加させます（エネルギー兵器のダメージを${healing}増加させます）そして救援任務の収益を${profit}に増やします。"
 			},
 			"description": {
 				"eng": "Increases intelligence attribute by 1 every level, and increases profit from this job type",
-				"trans": "各レベルで知性属性を1増加させ、この職種からの利益を増加させます"
+				"trans": "各レベルで知力属性を1増加させ、このジョブの利益を増加させます"
 			},
 			"displayName": {
 				"eng": "Medical Level",
@@ -3712,15 +3712,15 @@
 		"scavenge": {
 			"currentEffectDescription": {
 				"eng": "Increases vitality by ${vitality} (increases health by ${health}) and scavenging task profit to ${profit}",
-				"trans": "活力を${vitality}増加させます（体力を${health}増加させます）およびスカベンジングタスクの利益を${profit}に増やします。"
+				"trans": "生命力を${vitality}増加させます（体力を${health}増加させます）および探索タスクの利益を${profit}に増やします。"
 			},
 			"description": {
 				"eng": "Increases vitality attribute by 1 every level, and increases profit from this job type",
-				"trans": "各レベルごとに体力属性を1増やし、この職種からの利益を増やします"
+				"trans": "各レベルごとに生命力属性を1増やし、このジョブの利益を増やします"
 			},
 			"displayName": {
 				"eng": "Scavenging Level",
-				"trans": "スクラップ回収する"
+				"trans": "探索する"
 			}
 		},
 		"thieving": {
@@ -3730,7 +3730,7 @@
 			},
 			"description": {
 				"eng": "Increases dexterity attribute by 1 every level, and increases profit from this job type",
-				"trans": "レベルごとに器用さ属性を1増加させ、この職種からの利益を増加させます"
+				"trans": "レベルごとに器用さ属性を1増加させ、このジョブの利益を増加させます"
 			},
 			"displayName": {
 				"eng": "Thieving Level",
@@ -6048,7 +6048,7 @@
 		},
 		"healRatio": {
 			"eng": "Heal ${percent}% of your max health",
-			"trans": "最大体力の${percent}%回復する"
+			"trans": "最大体力を${percent}%回復する"
 		},
 		"reducePsychosis": {
 			"eng": "Reduce psychosis by ${reducePsychosis}",
@@ -6619,11 +6619,11 @@
 		},
 		"healthPercent": {
 			"eng": "Health Multiplier",
-			"trans": "ヘルス倍率"
+			"trans": "体力倍率"
 		},
 		"int": {
 			"eng": "Intelligence",
-			"trans": "知能"
+			"trans": "知力"
 		},
 		"inventorySlot": {
 			"eng": "Inventory Slot",
@@ -6651,7 +6651,7 @@
 		},
 		"str": {
 			"eng": "Strength",
-			"trans": "強さ"
+			"trans": "力"
 		},
 		"vit": {
 			"eng": "Vitality",
@@ -7420,7 +7420,7 @@
 		},
 		"health": {
 			"eng": "health",
-			"trans": "ヘルス"
+			"trans": "体力"
 		},
 		"inventoryPage": {
 			"equipmentTab": {
