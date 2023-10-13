@@ -35,7 +35,7 @@
 		"attack": {
 			"description": {
 				"eng": "Attacks the enemy for ${amount}",
-				"trans": "Menyerang musuh sebesar ${jumlah}"
+				"trans": "Menyerang musuh sebesar ${amount}"
 			},
 			"triggered": {
 				"eng": "${playerName} Attacked for ${amount} damage",
@@ -45,7 +45,7 @@
 		"attack_group": {
 			"description": {
 				"eng": "Attacks the enemy for ${amount}",
-				"trans": "Menyerang musuh sebesar ${jumlah}"
+				"trans": "Menyerang musuh sebesar ${amount}"
 			}
 		},
 		"burn": {
@@ -111,7 +111,7 @@
 		"shield": {
 			"description": {
 				"eng": "Recharge your character's shield for ${amount}",
-				"trans": "Isi kembali perisai karakter Anda sebesar ${jumlah}"
+				"trans": "Isi kembali perisai karakter Anda sebesar ${amount}"
 			},
 			"triggered": {
 				"eng": "${merc} shielded ${playerName} for ${amount} health",
@@ -905,11 +905,11 @@
 	"clanPlayer": {
 		"fundsContributed": {
 			"eng": "funds: ${amount}",
-			"trans": "Dana: ${jumlah}"
+			"trans": "Dana: ${amount}"
 		},
 		"resourceContributed": {
 			"eng": "resource: ${amount}",
-			"trans": "Sumber daya: ${jumlah}"
+			"trans": "Sumber daya: ${amount}"
 		},
 		"thisWeek": {
 			"eng": "this week",
@@ -995,7 +995,7 @@
 		},
 		"chargedAttack": {
 			"eng": "${enemyName} attacked ${player} for ${damage} damage (charged)",
-			"trans": "${enemyName} menyerang ${player} untuk ${damage} kerusakan (dibebankan)"
+			"trans": "${enemyName} menyerang ${player} untuk ${damage} kerusakan (charged)"
 		},
 		"charging": {
 			"eng": "${enemyName} is charging to attack ${player}",
@@ -1013,7 +1013,7 @@
 	"compactRewardConfigDisplay": {
 		"clanControl": {
 			"eng": "+ ${amount} control on territory",
-			"trans": "+ ${jumlah} kontrol di wilayah"
+			"trans": "+ ${amount} kontrol di wilayah"
 		},
 		"clanExp": {
 			"eng": "+ ${amount} Gang EXP",
@@ -1021,7 +1021,7 @@
 		},
 		"clanResource": {
 			"eng": "+ ${amount} Gang resource",
-			"trans": "+ ${jumlah} Sumber daya Geng"
+			"trans": "+ ${amount} Sumber daya Geng"
 		}
 	},
 	"confirmModal": {
@@ -1101,7 +1101,7 @@
 		},
 		"psychosis": {
 			"eng": "+ ${amount} psychosis",
-			"trans": "+ ${jumlah} psikosis"
+			"trans": "+ ${amount} psikosis"
 		}
 	},
 	"coupon": {
@@ -1234,7 +1234,7 @@
 		"error": {
 			"insufficient": {
 				"eng": "You do not have enough {currency}",
-				"trans": "Anda tidak memiliki cukup {mata uang}"
+				"trans": "Anda tidak memiliki cukup {currency}"
 			}
 		},
 		"mercExpCurrency": {
@@ -1285,7 +1285,7 @@
 		},
 		"notEnough": {
 			"eng": "Insufficient ${currency}",
-			"trans": "Kurang ${mata uang}"
+			"trans": "Kurang ${currency}"
 		}
 	},
 	"dailyQuestTab": {
@@ -1378,7 +1378,7 @@
 		"premiumCurrencyRecoverButton": {
 			"title": {
 				"eng": "Pay with ${currency}",
-				"trans": "Bayar dengan ${mata uang}"
+				"trans": "Bayar dengan ${currency}"
 			}
 		},
 		"removeItems": {
@@ -1719,7 +1719,7 @@
 		},
 		"extraLoot": {
 			"eng": "+${percent}% loot rarity",
-			"trans": "Loot langka +${persen}%"
+			"trans": "Loot langka +${percent}%"
 		}
 	},
 	"dungeonTypePage": {
@@ -2449,7 +2449,7 @@
 	"itemCard": {
 		"amount": {
 			"eng": "quantity ${amount}",
-			"trans": "Jumlah ${jumlah}"
+			"trans": "Jumlah ${amount}"
 		},
 		"destroyed": {
 			"eng": "destroyed",
