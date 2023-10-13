@@ -70,8 +70,8 @@
 		},
 		"heal": {
 			"description": {
-				"eng": "Heals your character for ${amount} points",
-				"trans": "Menyembuhkan karakter Anda sebesar ${amount} poin"
+				"eng": "Heals your character for ${amount} health point",
+				"trans": "Menyembuhkan karakter Anda sebesar ${amount} poin kesehatan"
 			},
 			"triggered": {
 				"eng": "${merc} Healed ${playerName} for ${amount} health",
@@ -4602,6 +4602,10 @@
 				"eng": "Invite ${player} to your gang",
 				"trans": "Undang ${player} ke gengmu"
 			},
+			"selfClickError": {
+				"eng": "This button is for others to click to invite you, to accept invites please click on accept button in notification center (bell icon in top right corner of main screen",
+				"trans": "Tombol ini untuk orang lain mengklik untuk mengundang Anda, untuk menerima undangan silakan klik tombol terima di pusat notifikasi (ikon lonceng di pojok kanan atas layar utama)"
+			},
 			"title": {
 				"eng": "Send invite?",
 				"trans": "Kirim undangan?"
@@ -5528,6 +5532,12 @@
 		"tooShort": {
 			"eng": "Name must be at least ${min} characters long.",
 			"trans": "Nama harus memiliki setidaknya ${min} karakter."
+		}
+	},
+	"playerPassport": {
+		"wanted": {
+			"eng": "Outstanding warrant found",
+			"trans": "Surat perintah penangkapan ditemukan"
 		}
 	},
 	"playerPhotoSelection": {

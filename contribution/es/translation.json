@@ -70,8 +70,8 @@
 		},
 		"heal": {
 			"description": {
-				"eng": "Heals your character for ${amount} points",
-				"trans": "Sana a tu personaje por ${amount} puntos"
+				"eng": "Heals your character for ${amount} health point",
+				"trans": "Sana a tu personaje por ${amount} puntos de salud"
 			},
 			"triggered": {
 				"eng": "${merc} Healed ${playerName} for ${amount} health",
@@ -4602,6 +4602,10 @@
 				"eng": "Invite ${player} to your gang",
 				"trans": "Invita a ${player} a unirse a tu banda"
 			},
+			"selfClickError": {
+				"eng": "This button is for others to click to invite you, to accept invites please click on accept button in notification center (bell icon in top right corner of main screen",
+				"trans": "Este botón es para que otros hagan clic y te inviten, para aceptar invitaciones, por favor haz clic en el botón de aceptar en el centro de notificaciones (ícono de campana en la esquina superior derecha de la pantalla principal)"
+			},
 			"title": {
 				"eng": "Send invite?",
 				"trans": "¿Enviar invitación?"
@@ -5528,6 +5532,12 @@
 		"tooShort": {
 			"eng": "Name must be at least ${min} characters long.",
 			"trans": "El nombre debe tener al menos ${min} caracteres de largo."
+		}
+	},
+	"playerPassport": {
+		"wanted": {
+			"eng": "Outstanding warrant found",
+			"trans": "Se ha encontrado una orden de arresto pendiente"
 		}
 	},
 	"playerPhotoSelection": {

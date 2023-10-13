@@ -70,8 +70,8 @@
 		},
 		"heal": {
 			"description": {
-				"eng": "Heals your character for ${amount} points",
-				"trans": "キャラクターを特定の量だけ回復します。"
+				"eng": "Heals your character for ${amount} health point",
+				"trans": "キャラクターを${amount}の体力ポイントで回復させます"
 			},
 			"triggered": {
 				"eng": "${merc} Healed ${playerName} for ${amount} health",
@@ -4602,6 +4602,10 @@
 				"eng": "Invite ${player} to your gang",
 				"trans": "あなたのギャングに${player}を招待します"
 			},
+			"selfClickError": {
+				"eng": "This button is for others to click to invite you, to accept invites please click on accept button in notification center (bell icon in top right corner of main screen",
+				"trans": "このボタンは他の人があなたを招待するためにクリックするためのものです。招待を受け入れるには、通知センターの受け入れボタン（メイン画面の右上隅のベルアイコン）をクリックしてください。"
+			},
 			"title": {
 				"eng": "Send invite?",
 				"trans": "招待状を送りますか？"
@@ -5528,6 +5532,12 @@
 		"tooShort": {
 			"eng": "Name must be at least ${min} characters long.",
 			"trans": "名前は少なくとも${min}文字である必要があります。"
+		}
+	},
+	"playerPassport": {
+		"wanted": {
+			"eng": "Outstanding warrant found",
+			"trans": "発見された未決裁判命令"
 		}
 	},
 	"playerPhotoSelection": {

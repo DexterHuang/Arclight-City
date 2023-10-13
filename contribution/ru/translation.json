@@ -70,7 +70,7 @@
 		},
 		"heal": {
 			"description": {
-				"eng": "Heals your character for ${amount} points",
+				"eng": "Heals your character for ${amount} health point",
 				"trans": "Восстанавливает ${amount} очков здоровья вашего персонажа"
 			},
 			"triggered": {
@@ -4602,6 +4602,10 @@
 				"eng": "Invite ${player} to your gang",
 				"trans": "Пригласить ${player} в свою банду"
 			},
+			"selfClickError": {
+				"eng": "This button is for others to click to invite you, to accept invites please click on accept button in notification center (bell icon in top right corner of main screen",
+				"trans": "Эта кнопка предназначена для того, чтобы другие могли пригласить вас, для принятия приглашений, пожалуйста, нажмите на кнопку \"Принять\" в центре уведомлений (значок колокольчика в правом верхнем углу главного экрана)"
+			},
 			"title": {
 				"eng": "Send invite?",
 				"trans": "Отправить приглашение?"
@@ -5528,6 +5532,12 @@
 		"tooShort": {
 			"eng": "Name must be at least ${min} characters long.",
 			"trans": "Имя должно быть не менее ${min} символов в длину."
+		}
+	},
+	"playerPassport": {
+		"wanted": {
+			"eng": "Outstanding warrant found",
+			"trans": "Обнаружен непогашенный ордер"
 		}
 	},
 	"playerPhotoSelection": {

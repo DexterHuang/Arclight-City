@@ -70,8 +70,8 @@
 		},
 		"heal": {
 			"description": {
-				"eng": "Heals your character for ${amount} points",
-				"trans": "治療您的角色一定量的生命值。"
+				"eng": "Heals your character for ${amount} health point",
+				"trans": "治療你的角色${amount}生命值"
 			},
 			"triggered": {
 				"eng": "${merc} Healed ${playerName} for ${amount} health",
@@ -4602,6 +4602,10 @@
 				"eng": "Invite ${player} to your gang",
 				"trans": "邀請${player}加入您的幫派"
 			},
+			"selfClickError": {
+				"eng": "This button is for others to click to invite you, to accept invites please click on accept button in notification center (bell icon in top right corner of main screen",
+				"trans": "這個按鈕是讓其他人點擊來邀請你，要接受邀請請點擊通知中心（主畫面右上角的鈴鐺圖示）的接受按鈕。"
+			},
 			"title": {
 				"eng": "Send invite?",
 				"trans": "傳送邀請？"
@@ -5528,6 +5532,12 @@
 		"tooShort": {
 			"eng": "Name must be at least ${min} characters long.",
 			"trans": "名稱最少需要${min}個字元。"
+		}
+	},
+	"playerPassport": {
+		"wanted": {
+			"eng": "Outstanding warrant found",
+			"trans": "發現傑出的逮捕令"
 		}
 	},
 	"playerPhotoSelection": {

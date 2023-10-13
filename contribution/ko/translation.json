@@ -70,8 +70,8 @@
 		},
 		"heal": {
 			"description": {
-				"eng": "Heals your character for ${amount} points",
-				"trans": "캐릭터를 ${amount}회복시킵니다"
+				"eng": "Heals your character for ${amount} health point",
+				"trans": "캐릭터의 체력을 ${amount} 포인트 회복합니다"
 			},
 			"triggered": {
 				"eng": "${merc} Healed ${playerName} for ${amount} health",
@@ -4602,6 +4602,10 @@
 				"eng": "Invite ${player} to your gang",
 				"trans": "${player}을(를) 당신의 갱에 초대합니다"
 			},
+			"selfClickError": {
+				"eng": "This button is for others to click to invite you, to accept invites please click on accept button in notification center (bell icon in top right corner of main screen",
+				"trans": "이 버튼은 다른 사람들이 당신을 초대할 수 있도록 클릭하는 버튼입니다. 초대를 수락하려면 알림 센터(메인 화면 오른쪽 상단의 벨 아이콘)의 수락 버튼을 클릭하세요"
+			},
 			"title": {
 				"eng": "Send invite?",
 				"trans": "초대를 보내시겠습니까?"
@@ -5528,6 +5532,12 @@
 		"tooShort": {
 			"eng": "Name must be at least ${min} characters long.",
 			"trans": "이름은 최소 ${min}자 이상이어야 합니다."
+		}
+	},
+	"playerPassport": {
+		"wanted": {
+			"eng": "Outstanding warrant found",
+			"trans": "미결 소명서 발견됨"
 		}
 	},
 	"playerPhotoSelection": {
