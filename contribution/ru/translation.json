@@ -90,8 +90,8 @@
 		},
 		"poison": {
 			"description": {
-				"eng": "Poisons the enemy for ${amount}",
-				"trans": "Отравляет врага на ${amount}"
+				"eng": "Poisons the enemy for ${amount} for ${turn} terns",
+				"trans": "Отравляет врага на ${amount} в течение ${turn} ходов"
 			},
 			"triggered": {
 				"eng": "${merc} poisoned ${enemy}, ${enemy} received ${damage} damage.",
@@ -100,8 +100,8 @@
 		},
 		"poisonGroup": {
 			"description": {
-				"eng": "Poisons all enemies for ${amount}",
-				"trans": "Отравляет всех врагов на ${amount}"
+				"eng": "Poisons all enemies for ${amount} for ${turns} turns",
+				"trans": "Отравляет всех врагов на ${amount} на ${turns} ходов"
 			},
 			"triggered": {
 				"eng": "${merc} poisoned all enemies, dealt ${damage} damage each.",
@@ -964,6 +964,22 @@
 			"trans": "Собранные заметки о лоре"
 		}
 	},
+	"combatHandler": {
+		"notEnoughPsyche": {
+			"eng": "Your cyber-psychosis level is too high to engage in fights",
+			"trans": "Ваш уровень киберпсихоза слишком высок для участия в боях"
+		},
+		"pvpProtection": {
+			"description": {
+				"eng": "You are under PVP protection until level ${level}, but if you actively engaged in PVP your PVP protection will be removed",
+				"trans": "Вы находитесь под защитой PVP до уровня ${level}, но если вы активно участвуете в PVP, ваша защита PVP будет снята"
+			},
+			"title": {
+				"eng": "PVP Protection",
+				"trans": "Защита PVP"
+			}
+		}
+	},
 	"combatLog": {
 		"atk": {
 			"eng": "${attacker} has attacked ${enemyName} for ${damage} damage",
@@ -1363,6 +1379,22 @@
 			"title": {
 				"eng": "Pay with ${currency}",
 				"trans": "Оплатить с помощью ${currency}"
+			}
+		},
+		"removeItems": {
+			"confirmModal": {
+				"description": {
+					"eng": "Are you sure you want to give up all your items? this is permanent and cannot be undone",
+					"trans": "Вы уверены, что хотите отказаться от всех своих предметов? Это будет постоянно и не может быть отменено"
+				},
+				"title": {
+					"eng": "Give up items",
+					"trans": "Отдать предметы"
+				}
+			},
+			"title": {
+				"eng": "give up items",
+				"trans": "Отказаться от предметов"
 			}
 		}
 	},
@@ -2351,6 +2383,16 @@
 		}
 	},
 	"itemCalibratePage": {
+		"multiplierInfo": {
+			"result": {
+				"eng": "+${percent}% stats multiplier",
+				"trans": "+${процент}% множитель статистики"
+			},
+			"title": {
+				"eng": "Calibration Multiplier Info",
+				"trans": "Информация о множителе калибровки"
+			}
+		},
 		"noItem": {
 			"description": {
 				"eng": "Please select an equipment to calibrate",
@@ -2543,6 +2585,10 @@
 		}
 	},
 	"itemInbox": {
+		"receivedItems": {
+			"eng": "You have received ${item} in your apartment delivery inbox",
+			"trans": "Вы получили ${item} в своем почтовом ящике для доставки в квартире"
+		},
 		"retrieved": {
 			"eng": "items have been moved to your inventory",
 			"trans": "Предметы были перемещены в ваш инвентарь"
@@ -2867,6 +2913,12 @@
 				"trans": "Множитель урона"
 			}
 		},
+		"dex": {
+			"name": {
+				"eng": "Dexterity",
+				"trans": "Ловкость"
+			}
+		},
 		"energyResistance": {
 			"name": {
 				"eng": "Energy Resistance",
@@ -2881,6 +2933,12 @@
 			"name": {
 				"eng": "Health Multiplier",
 				"trans": "Множитель здоровья"
+			}
+		},
+		"int": {
+			"name": {
+				"eng": "Intelligence",
+				"trans": "Интеллект\n\nEnglish: Intelligence Attribute\nрусский: Атрибут Интеллекта\n\nEnglish: Player ${0} is ${1} has been killed during PVP\nрусский: Игрок ${0} ${1} был убит во время PVP"
 			}
 		},
 		"kineticResistance": {
@@ -4729,16 +4787,16 @@
 			},
 			"greetings": {
 				"eng": [
-					"Что могу для вас сделать?",
-					"Поторопись, у меня нет целого дня.",
-					"Ты не отсюда, верно?",
-					"Я не люблю пустые разговоры, что вы хотите выпить?",
-					"Ты не любишь болтать, мне это нравится. Что могу для тебя сделать?"
+					"What can I get for you?",
+					"Make it quick, I don't have all day.",
+					"You're not from around here, are you?",
+					"I don't do small talk, what do you want to drink?",
+					"You're not the chatty type, I like that. What can I get you?"
 				],
 				"trans": [
 					"Что могу для вас сделать?",
 					"Поторопись, у меня нет целого дня.",
-					"Ты не отсюда, верно?",
+					"Ты не отсюда, правда?",
 					"Я не люблю пустые разговоры, что вы хотите выпить?",
 					"Ты не любишь болтать, мне это нравится. Что могу для тебя сделать?"
 				]
@@ -4753,19 +4811,19 @@
 			},
 			"questCooldownLines": {
 				"eng": [
-					"Вернитесь позже, у меня сейчас ничего нет для вас.",
-					"Боюсь, у меня нет свободных заданий, дорогуша. Возвращайся в другое время.",
-					"Извини, дорогой. Полка с квестами пуста на данный момент. Загляни позже."
+					"Come back later, I have nothing for you right now.",
+					"Afraid I'm fresh out of gigs, hon. Come back another time.",
+					"Sorry, darling. The quest shelf is empty at the moment. Swing by later."
 				],
 				"trans": [
 					"Вернитесь позже, у меня сейчас ничего нет для вас.",
 					"Боюсь, у меня нет свободных заданий, дорогуша. Возвращайся в другое время.",
-					"Извини, дорогой. Полка с квестами пуста на данный момент. Загляни позже."
+					"Извини, дорогой. Полка с квестами пока пуста. Загляни позже."
 				]
 			},
 			"questLines": {
 				"eng": [
-					"Готовы к новым заданиям?"
+					"Up for new gigs?"
 				],
 				"trans": [
 					"Готовы к новым заданиям?"
@@ -4773,7 +4831,7 @@
 			},
 			"questPendingLines": {
 				"eng": [
-					"Дайте мне знать, когда вы выполните задания :)"
+					"Let me know when you have completed the objectives :)"
 				],
 				"trans": [
 					"Дайте мне знать, когда вы выполните задания :)"
@@ -4803,12 +4861,12 @@
 			},
 			"greetings": {
 				"eng": [
-					"Добро пожаловать в подполье этого города. Надеюсь, у вас есть что-то ценное для обмена.",
-					"Ночь аукциона всегда полна сюрпризов. Готовы ли вы сделать ставку на свою судьбу?",
-					"Говорят, на черном рынке можно купить все, даже свое собственное спасение. Сколько твое спасение стоит для тебя?"
+					"Welcome to the underbelly of this city. Hope you've got something worth trading.",
+					"Auction night is always full of surprises. Are you ready to bid on your fate?",
+					"They say in the black market, you can buy anything, even your own salvation. What's your salvation worth to you?"
 				],
 				"trans": [
-					"Добро пожаловать в подполье этого города. Надеюсь, у вас есть что-то ценное для обмена.",
+					"Добро пожаловать в подполье этого города. Надеюсь, у тебя есть что-то стоящее для обмена.",
 					"Ночь аукциона всегда полна сюрпризов. Готовы ли вы сделать ставку на свою судьбу?",
 					"Говорят, на черном рынке можно купить все, даже свое собственное спасение. Сколько твое спасение стоит для тебя?"
 				]
@@ -4827,19 +4885,19 @@
 			},
 			"questCooldownLines": {
 				"eng": [
-					"В данный момент, хромоголовый, нет. Но не парься. Я свяжусь с тобой, когда у меня будет работа, подходящая для твоего набора навыков.",
-					"Пока ничего, но не спешите перезагружать. Я сообщу, когда у меня будет что-то интересное. Терпение, чумба.",
-					"Нет подходящих заданий, дорогая. Но будь на чеку, потому что я дам тебе знать, когда появится сладкая возможность."
+					"Not at the moment, chromehead. But don't sweat it. I'll hit you up when I've got a job that suits your skill set.",
+					"Nada right now, but don't go rebootin' just yet. I'll drop a line when I've got somethin' spicy to offer. Patience, choomba.",
+					"No gigs on tap, sweetheart. But stay frosty, 'cause I'll give you a holla when a sweet opportunity slides my way."
 				],
 				"trans": [
-					"В данный момент, хромоголовый, нет. Но не парься. Я свяжусь с тобой, когда у меня будет работа, подходящая для твоего набора навыков.",
+					"Пока нет, хромоголовый. Но не парься. Я свяжусь с тобой, когда у меня будет работа, подходящая для твоего набора навыков.",
 					"Пока ничего, но не спешите перезагружать. Я сообщу, когда у меня будет что-то интересное. Терпение, чумба.",
 					"Нет подходящих заданий, дорогая. Но будь на чеку, потому что я дам тебе знать, когда появится сладкая возможность."
 				]
 			},
 			"questLines": {
 				"eng": [
-					"Готовы к новым заданиям?"
+					"Up for new gigs?"
 				],
 				"trans": [
 					"Готовы к новым заданиям?"
@@ -4847,7 +4905,7 @@
 			},
 			"questPendingLines": {
 				"eng": [
-					"Не тратьте мое время зря, если вы не выполнили свою работу."
+					"Quit wasting my time, unless you have done your job."
 				],
 				"trans": [
 					"Не тратьте мое время зря, если вы не выполнили свою работу."
@@ -4865,7 +4923,7 @@
 			},
 			"greetings": {
 				"eng": [
-					"Хочешь улучшить несколько хромов сегодня, чум?"
+					"Upgrade some chromes today choom?"
 				],
 				"trans": [
 					"Хочешь улучшить несколько хромов сегодня, чум?"
@@ -4881,19 +4939,19 @@
 			},
 			"questCooldownLines": {
 				"eng": [
-					"Нет заданий для тебя, новичок. Но не уходи слишком далеко. У меня есть способность натыкаться на неприятности, и я обязательно поставлю тебя в центр событий, когда придет время.",
-					"В данный момент нет работы, но не спешите перезагружаться. Я свяжусь, когда у меня будет что-то интересное предложить. Терпение, чумба.",
-					"Ищешь исправление, да? Извини, на моем операционном столе нет новых заданий. Но я сохраню твое имя в файле, когда у меня будет работа, требующая... тонкого извлечения."
+					"No gigs for you, rookie. But don't wander too far. I've got a knack for stumbling upon trouble, and I'll make sure you're front and center when the time comes.",
+					"No jobs at the moment, but don't go rebootin' just yet. I'll drop a line when I've got somethin' spicy to offer. Patience, choomba.",
+					"Looking for a fix, huh? Sorry, no new quests on my operating table. But I'll keep your name on file for when I've got a job that needs some... delicate extraction."
 				],
 				"trans": [
-					"Нет заданий для тебя, новичок. Но не уходи слишком далеко. У меня есть способность натыкаться на неприятности, и я обязательно поставлю тебя в центр событий, когда придет время.",
+					"Нет заданий для тебя, новичок. Но не уходи слишком далеко. У меня есть талант натыкаться на неприятности, и я обязательно поставлю тебя в центр событий, когда придет время.",
 					"В данный момент нет работы, но не спешите перезагружаться. Я свяжусь, когда у меня будет что-то интересное предложить. Терпение, чумба.",
 					"Ищешь исправление, да? Извини, на моем операционном столе нет новых заданий. Но я сохраню твое имя в файле, когда у меня будет работа, требующая... тонкого извлечения."
 				]
 			},
 			"questLines": {
 				"eng": [
-					"Готовы к новым заданиям?"
+					"Up for new gigs?"
 				],
 				"trans": [
 					"Готовы к новым заданиям?"
@@ -4901,7 +4959,7 @@
 			},
 			"questPendingLines": {
 				"eng": [
-					"Дайте мне знать, когда вы выполните задания :)"
+					"Let me know when you have completed the objectives :)"
 				],
 				"trans": [
 					"Дайте мне знать, когда вы выполните задания :)"
@@ -4909,7 +4967,7 @@
 			},
 			"shopLines": {
 				"eng": [
-					"Не просто смотрите, купите что-то."
+					"Don't just look, buy something."
 				],
 				"trans": [
 					"Не просто смотрите, купите что-то."
@@ -4919,21 +4977,21 @@
 		"dailyReward": {
 			"greetings": {
 				"eng": [
-					"Привет, незнакомец! Готов ли ты получить небольшой подъем, чтобы помочь тебе в твоем путешествии сегодня?",
-					"Добро пожаловать, дорогой! У меня есть несколько захватывающих вещей, чтобы помочь тебе сегодня победить виртуальных противников.",
-					"Привет, ты! Не забывай заходить ко мне каждый день, чтобы получить крутые награды и сделать свою игру еще более эпической.",
-					"Ну, ну, ну...кто решил зайти сегодня! У меня есть что-то, что я думаю, тебе понравится.",
-					"Приветствую, товарищ-путешественник! Давай посмотрим, какие добычи мы можем собрать для тебя сегодня.",
-					"Привет! Сегодня чувствуешь себя удачливым? У меня есть награды, которые могут сделать твой день немного ярче.",
-					"Привет, партнер! Сегодня я чувствую себя особенно щедрым. Не упусти возможность получить первоклассное снаряжение.",
-					"Добро пожаловать, мой друг! Давай посмотрим, какие сокровища мы можем найти для тебя сегодня.",
-					"Приветствую! Надеюсь, ты готов к добыче, которая сегодня будет не из этого мира.",
-					"Добрый день, приятель! Всегда рад тебя видеть. Давай сделаем сегодня хорошим днем с невероятными наградами."
+					"Hey there, stranger! Are you ready for a little boost to help you on your journey today?",
+					"Welcome back, hon! I've got some exciting things for you to help you kick some virtual butt today.",
+					"Hey, you! Don't forget to check in with me every day for some sweet loots to make your gameplay even more epic.",
+					"Well, well, well...look who decided to log in today! I've got something that I think you're going to love.",
+					"Greetings, fellow adventurer! Let's see what kind of loot we can scavenge for you today.",
+					"Hey, there! Feeling lucky today? I've got some rewards that just might make your day a little brighter.",
+					"Howdy, partner! I'm feeling extra generous today. Don't miss out on some top-notch gear.",
+					"Welcome back, my friend! Let's see what kind of treasure we can dig up for you today.",
+					"Salutations! I hope you're ready for some loot that's out of this world today.",
+					"Good day, mate! It's always a pleasure to see you. Let's make today a good one with some fantastic rewards."
 				],
 				"trans": [
-					"Привет, незнакомец! Готов ли ты получить небольшой подъем, чтобы помочь тебе в твоем путешествии сегодня?",
+					"Привет, незнакомец! Готов ли ты к небольшому усилению, чтобы помочь тебе в твоем путешествии сегодня?",
 					"Добро пожаловать, дорогой! У меня есть несколько захватывающих вещей, чтобы помочь тебе сегодня победить виртуальных противников.",
-					"Привет, ты! Не забывай заходить ко мне каждый день, чтобы получить крутые награды и сделать свою игру еще более эпической.",
+					"Привет, ты! Не забудь заходить ко мне каждый день, чтобы получить крутые награды и сделать свою игру еще более эпической.",
 					"Ну, ну, ну...кто решил зайти сегодня! У меня есть что-то, что я думаю, тебе понравится.",
 					"Приветствую, товарищ-путешественник! Давай посмотрим, какие добычи мы можем собрать для тебя сегодня.",
 					"Привет! Сегодня чувствуешь себя удачливым? У меня есть награды, которые могут сделать твой день немного ярче.",
@@ -4965,7 +5023,7 @@
 			},
 			"greetings": {
 				"eng": [
-					"Добро пожаловать в мою игру! Пожалуйста, сообщите мне, если у вас есть какие-либо отзывы или сообщения об ошибках :)"
+					"Welcome to my game! let me know if you have any feedbacks or bug report :)"
 				],
 				"trans": [
 					"Добро пожаловать в мою игру! Пожалуйста, сообщите мне, если у вас есть какие-либо отзывы или сообщения об ошибках :)"
@@ -5019,7 +5077,7 @@
 			},
 			"greetings": {
 				"eng": [
-					"Привет, добро пожаловать в мой магазин!"
+					"Hey there, welcome to my store!"
 				],
 				"trans": [
 					"Привет, добро пожаловать в мой магазин!"
@@ -5035,21 +5093,21 @@
 			},
 			"questCooldownLines": {
 				"eng": [
-					"Ох, сахар, у меня сейчас нет никаких заданий для тебя. Но не волнуйся, скоро у меня будет что-то сочное для тебя.",
-					"Извини, дорогой, на данный момент у нас нет квестов в меню для тебя. Но держи свой блестящий хромированный глаз открытым, потому что скоро у меня будет что-то, что стоит твоего времени.",
-					"Ох, дорогая, ты поймала меня в неудобное время. Нет квестов для предложения, но я обещаю, что скоро подкину тебе пару злободневных приключений.",
-					"Дорогая, у меня сейчас немного пусто в моем квестовом банке. Но продолжай заходить, потому что я скоро приготовлю что-то острое специально для тебя."
+					"Aw, sugar, I'm all outta gigs for ya right now. But don't you worry, I'll have somethin' juicy for ya soon enough.",
+					"Sorry, hon, no quests on the menu for ya at the moment. But keep that shiny chrome eye open, 'cause I'll have somethin' worth your time real soon.",
+					"Aww, darlin', you caught me at a bad time. No quests to offer, but I promise I'll hook you up with some wicked adventures before you know it.",
+					"Sweetheart, my quest bank's runnin' a little dry right now. But keep swingin' by, 'cause I'll whip up somethin' spicy just for you soon."
 				],
 				"trans": [
-					"Ох, сахар, у меня сейчас нет никаких заданий для тебя. Но не волнуйся, скоро у меня будет что-то сочное для тебя.",
-					"Извини, дорогой, на данный момент у нас нет квестов в меню для тебя. Но держи свой блестящий хромированный глаз открытым, потому что скоро у меня будет что-то, что стоит твоего времени.",
-					"Ох, дорогая, ты поймала меня в неудобное время. Нет квестов для предложения, но я обещаю, что скоро подкину тебе пару злободневных приключений.",
-					"Дорогая, у меня сейчас немного пусто в моем квестовом банке. Но продолжай заходить, потому что я скоро приготовлю что-то острое специально для тебя."
+					"Ох, сахар, у меня сейчас нет гигов для тебя. Но не волнуйся, скоро у меня будет что-то сочное для тебя.",
+					"Извини, дорогой, на данный момент у нас нет заданий в меню для тебя. Но держи свой блестящий хромированный глаз открытым, потому что скоро у меня будет что-то, что стоит твоего времени.",
+					"Ой, дорогая, ты поймала меня в неподходящее время. Нет квестов на предложение, но я обещаю, что скоро подкину тебе пару злободневных приключений.",
+					"Дорогая, мой квестовый банк сейчас немного пуст. Но продолжай заходить, потому что я скоро приготовлю что-то острое специально для тебя."
 				]
 			},
 			"questLines": {
 				"eng": [
-					"Можете ли вы сделать это для меня?"
+					"Could you do this for me?"
 				],
 				"trans": [
 					"Можете ли вы сделать это для меня?"
@@ -5057,7 +5115,7 @@
 			},
 			"questPendingLines": {
 				"eng": [
-					"Дайте мне знать, когда вы выполните задания :)"
+					"Let me know when you have completed the objectives :)"
 				],
 				"trans": [
 					"Дайте мне знать, когда вы выполните задания :)"
@@ -5075,21 +5133,21 @@
 		"mercDraw1": {
 			"greetings": {
 				"eng": [
-					"Готовы к действию? Познакомьтесь с вашими новыми командирами.",
-					"Пора повысить уровень. Ваши новые члены команды здесь.",
-					"Команда мечты? Это твои новые члены команды.",
-					"Добро пожаловать на борт. Познакомьтесь с членами команды, с которыми вы будете работать.",
-					"Вы в надежных руках. Это ваши новые члены команды.",
-					"Новая работа, новая команда. Познакомьтесь с вашими товарищами по команде.",
-					"Критическая миссия. Это твои новые члены команды.",
-					"Новые союзники в борьбе. Познакомьтесь с членами вашей команды.",
-					"Ищете команду? Вы только что нашли своих новых товарищей.",
-					"Работа в команде делает мечту реальностью. Познакомьтесь с вашими новыми членами команды."
+					"Ready for action? Meet your new crewmates.",
+					"Time to level up. Your new crewmates are here.",
+					"The dream team? These are your new crewmates.",
+					"Welcome aboard. Meet the crewmates you'll be working with.",
+					"You're in good hands. These are your new crewmates.",
+					"New job, new crew. Meet your teammates.",
+					"Mission critical. These are your new crewmates.",
+					"New allies in the fight. Meet your crewmates.",
+					"Looking for a crew? You just found your new teammates.",
+					"Teamwork makes the dream work. Meet your new crewmates."
 				],
 				"trans": [
-					"Готовы к действию? Познакомьтесь с вашими новыми командирами.",
+					"Готовы к действию? Познакомьтесь с вашими новыми членами команды.",
 					"Пора повысить уровень. Ваши новые члены команды здесь.",
-					"Команда мечты? Это твои новые члены команды.",
+					"Команда мечты? Это твои новые команданты.",
 					"Добро пожаловать на борт. Познакомьтесь с членами команды, с которыми вы будете работать.",
 					"Вы в надежных руках. Это ваши новые члены команды.",
 					"Новая работа, новая команда. Познакомьтесь с вашими товарищами по команде.",
@@ -5145,13 +5203,13 @@
 			},
 			"greetings": {
 				"eng": [
-					"Хотите откалибровать свои железки?",
-					"Ты сломал, я починил.\nТы снова сломал, я сломаю тебя.",
-					"Я лучший в своем деле. Если хочешь, чтобы все было сделано правильно, обращайся ко мне."
+					"Wanna calibrate your irons?",
+					"You break it, I fix it.\n You break it again, I break you.",
+					"I'm the best in the business. You want something done right, you come to me."
 				],
 				"trans": [
 					"Хотите откалибровать свои железки?",
-					"Ты сломал, я починил.\nТы снова сломал, я сломаю тебя.",
+					"Ты сломал, я починю.\nТы снова сломал, я сломаю тебя.",
 					"Я лучший в своем деле. Если хочешь, чтобы все было сделано правильно, обращайся ко мне."
 				]
 			},
@@ -5165,19 +5223,19 @@
 			},
 			"questCooldownLines": {
 				"eng": [
-					"Ищешь работу, да? Извини, сейчас ничего не попадается на мой радар. Загляни позже, может быть, у меня будет что-то, что стоит твоего времени.",
-					"Слушай, красавчик, у меня закончились квесты. Возвращайся, когда я пополню запасы.",
-					"Ищешь приключений, да? Ну, не повезло. На данный момент нет работы для тебя, красавчик."
+					"Looking for a gig, huh? Sorry, nothing on my radar right now. Check back later, maybe I'll have something worth your while.",
+					"Listen up, slick, I'm all tapped out on quests. Come back when I've restocked.",
+					"Looking for action, huh? Well, tough luck. No jobs for you at the moment, slick."
 				],
 				"trans": [
 					"Ищешь работу, да? Извини, сейчас ничего не попадается на мой радар. Загляни позже, может быть, у меня будет что-то, что стоит твоего времени.",
-					"Слушай, красавчик, у меня закончились квесты. Возвращайся, когда я пополню запасы.",
+					"Слушай, красавчик, у меня нет больше квестов. Возвращайся, когда я пополню запасы.",
 					"Ищешь приключений, да? Ну, не повезло. На данный момент нет работы для тебя, красавчик."
 				]
 			},
 			"questLines": {
 				"eng": [
-					"Готовы к новым заданиям?"
+					"Up for new gigs?"
 				],
 				"trans": [
 					"Готовы к новым заданиям?"
@@ -5185,7 +5243,7 @@
 			},
 			"questPendingLines": {
 				"eng": [
-					"Дайте мне знать, когда вы выполните задания :)"
+					"Let me know when you have completed the objectives :)"
 				],
 				"trans": [
 					"Дайте мне знать, когда вы выполните задания :)"
@@ -5193,12 +5251,12 @@
 			},
 			"shopLines": {
 				"eng": [
-					"Ищете преимущество в городе? Вы пришли по адресу.",
-					"Я тебя приведу в порядок, без лишних вопросов."
+					"Seeking an edge in the city? You've come to the right place.",
+					"I'll fix you up real nice, no questions asked."
 				],
 				"trans": [
 					"Ищете преимущество в городе? Вы пришли по адресу.",
-					"Я тебя приведу в порядок, без лишних вопросов."
+					"Я тебя хорошенько починю, без лишних вопросов."
 				]
 			},
 			"shopName": {
@@ -5275,6 +5333,10 @@
 		}
 	},
 	"placeHitPage": {
+		"levelTooLow": {
+			"eng": "You need to be at least level {level} to place a hit.",
+			"trans": "Для нанесения удара необходимо иметь уровень не ниже {level}."
+		},
 		"notEnoughUnitError": {
 			"eng": "Minimum hit bounty is ${minNormal} or ${minUnit}",
 			"trans": "Минимальная награда за попадание составляет ${minNormal} или ${minUnit}"
@@ -5318,6 +5380,16 @@
 			"eng": "Your Cyber-Psychosis symptom is too high to perform this action: ${psychosis}",
 			"trans": "Ваш симптом киберпсихоза слишком высок, чтобы выполнить это действие: ${psychosis}",
 			"vars": []
+		},
+		"psychosisRechargedNoti": {
+			"body": {
+				"eng": "Your psyche has restored to normal level, you may use your cybernetic abilities safely now.",
+				"trans": "Ваша психика восстановилась до нормального уровня, теперь вы можете безопасно использовать свои кибернетические способности."
+			},
+			"title": {
+				"eng": "Psyche restored",
+				"trans": "Психика восстановлена"
+			}
 		},
 		"reportSuccess": {
 			"eng": "You have reported ${}",
@@ -6135,6 +6207,10 @@
 				"eng": "You cannot engage this player",
 				"trans": "Вы не можете вступить в бой с этим игроком"
 			},
+			"cannotEngageNewPlayer": {
+				"eng": "You cannot initiate PVP with a player that is below level ${level} and has not actively engaged in PVP",
+				"trans": "Вы не можете начать PVP с игроком, который находится ниже уровня ${level} и не активно участвовал в PVP"
+			},
 			"combatNotFound": {
 				"eng": "Combat has ended",
 				"trans": "Бой окончен"
@@ -6185,6 +6261,10 @@
 			"nameNotAllowed": {
 				"eng": "This name contains text that is not allowed",
 				"trans": "Это имя содержит недопустимый текст"
+			},
+			"referrerBlocked": {
+				"eng": "The referrer's referral privileges have been revoked",
+				"trans": "Привилегии реферера по рефералам были отозваны"
 			},
 			"referrerNotFound": {
 				"eng": "Referrer not found",
@@ -6843,6 +6923,28 @@
 				"eng": "Must be english letters and _ and numbers",
 				"trans": "Должны быть английские буквы и _ и цифры"
 			}
+		}
+	},
+	"suspendedScreen": {
+		"description1": {
+			"eng": "This can happen for a number of reasons, including but not limited to:",
+			"trans": "Это может произойти по множеству причин, включая, но не ограничиваясь:"
+		},
+		"description2": {
+			"eng": "- You have been caught cheating, hacking, automating or exploiting the game.",
+			"trans": "- Вы были пойманы на мошенничестве, взломе, автоматизации или эксплуатации игры."
+		},
+		"description3": {
+			"eng": "- You have been caught using multiple accounts to gain an unfair advantage.",
+			"trans": "- Вы были пойманы за использование нескольких аккаунтов для получения нечестного преимущества."
+		},
+		"description4": {
+			"eng": "If you feel this is a mistake, please contact the developer directly at: ching.huang.dexter@gmail.com",
+			"trans": "Если вы считаете, что это ошибка, пожалуйста, свяжитесь напрямую с разработчиком по адресу: ching.huang.dexter@gmail.com"
+		},
+		"title": {
+			"eng": "This account has been suspended.",
+			"trans": "Этот аккаунт был приостановлен."
 		}
 	},
 	"task": {

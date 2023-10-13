@@ -90,8 +90,8 @@
 		},
 		"poison": {
 			"description": {
-				"eng": "Poisons the enemy for ${amount}",
-				"trans": "敵を${amount}で毒します"
+				"eng": "Poisons the enemy for ${amount} for ${turn} terns",
+				"trans": "${turn}ターンの間、敵に${amount}の毒を与える"
 			},
 			"triggered": {
 				"eng": "${merc} poisoned ${enemy}, ${enemy} received ${damage} damage.",
@@ -100,8 +100,8 @@
 		},
 		"poisonGroup": {
 			"description": {
-				"eng": "Poisons all enemies for ${amount}",
-				"trans": "敵を毒で攻撃し、一定量のダメージを与えます。"
+				"eng": "Poisons all enemies for ${amount} for ${turns} turns",
+				"trans": "${turns}ターンの間、敵全体に${amount}の毒を与える"
 			},
 			"triggered": {
 				"eng": "${merc} poisoned all enemies, dealt ${damage} damage each.",
@@ -964,6 +964,22 @@
 			"trans": "収集したロールノート"
 		}
 	},
+	"combatHandler": {
+		"notEnoughPsyche": {
+			"eng": "Your cyber-psychosis level is too high to engage in fights",
+			"trans": "あなたのサイバーサイコシスレベルは高すぎて戦闘に参加できません"
+		},
+		"pvpProtection": {
+			"description": {
+				"eng": "You are under PVP protection until level ${level}, but if you actively engaged in PVP your PVP protection will be removed",
+				"trans": "レベル${level}までPVP保護がありますが、積極的にPVPに参加すると保護が解除されます。"
+			},
+			"title": {
+				"eng": "PVP Protection",
+				"trans": "PVP保護"
+			}
+		}
+	},
 	"combatLog": {
 		"atk": {
 			"eng": "${attacker} has attacked ${enemyName} for ${damage} damage",
@@ -1363,6 +1379,22 @@
 			"title": {
 				"eng": "Pay with ${currency}",
 				"trans": "${currency}で支払う"
+			}
+		},
+		"removeItems": {
+			"confirmModal": {
+				"description": {
+					"eng": "Are you sure you want to give up all your items? this is permanent and cannot be undone",
+					"trans": "すべてのアイテムを放棄してもよろしいですか？これは永久的なものであり、元に戻すことはできません。"
+				},
+				"title": {
+					"eng": "Give up items",
+					"trans": "アイテムを諦める"
+				}
+			},
+			"title": {
+				"eng": "give up items",
+				"trans": "アイテムを諦める"
 			}
 		}
 	},
@@ -2351,6 +2383,16 @@
 		}
 	},
 	"itemCalibratePage": {
+		"multiplierInfo": {
+			"result": {
+				"eng": "+${percent}% stats multiplier",
+				"trans": "+${percent}%のステータス倍率"
+			},
+			"title": {
+				"eng": "Calibration Multiplier Info",
+				"trans": "キャリブレーション倍率情報"
+			}
+		},
 		"noItem": {
 			"description": {
 				"eng": "Please select an equipment to calibrate",
@@ -2543,6 +2585,10 @@
 		}
 	},
 	"itemInbox": {
+		"receivedItems": {
+			"eng": "You have received ${item} in your apartment delivery inbox",
+			"trans": "アパートの配信受信ボックスに${item}が届きました。"
+		},
 		"retrieved": {
 			"eng": "items have been moved to your inventory",
 			"trans": "アイテムがインベントリに移動しました。"
@@ -2867,6 +2913,12 @@
 				"trans": "ダメージ倍率"
 			}
 		},
+		"dex": {
+			"name": {
+				"eng": "Dexterity",
+				"trans": "器用さ"
+			}
+		},
 		"energyResistance": {
 			"name": {
 				"eng": "Energy Resistance",
@@ -2881,6 +2933,12 @@
 			"name": {
 				"eng": "Health Multiplier",
 				"trans": "体力倍率"
+			}
+		},
+		"int": {
+			"name": {
+				"eng": "Intelligence",
+				"trans": "知力"
 			}
 		},
 		"kineticResistance": {
@@ -5275,6 +5333,10 @@
 		}
 	},
 	"placeHitPage": {
+		"levelTooLow": {
+			"eng": "You need to be at least level {level} to place a hit.",
+			"trans": "ヒットを発動するには、最低でもレベル{level}に達する必要があります。"
+		},
 		"notEnoughUnitError": {
 			"eng": "Minimum hit bounty is ${minNormal} or ${minUnit}",
 			"trans": "最低ヒット報酬は${minNormal}または${minUnit}です。"
@@ -5318,6 +5380,16 @@
 			"eng": "Your Cyber-Psychosis symptom is too high to perform this action: ${psychosis}",
 			"trans": "このアクションを実行するには、サイバーサイコシスが高すぎます：${psychosis}",
 			"vars": []
+		},
+		"psychosisRechargedNoti": {
+			"body": {
+				"eng": "Your psyche has restored to normal level, you may use your cybernetic abilities safely now.",
+				"trans": "あなたの精神は通常レベルに回復しました、今は安全にサイバネティックな能力を使用できます。"
+			},
+			"title": {
+				"eng": "Psyche restored",
+				"trans": "メンタル回復完了"
+			}
 		},
 		"reportSuccess": {
 			"eng": "You have reported ${}",
@@ -6135,6 +6207,10 @@
 				"eng": "You cannot engage this player",
 				"trans": "このプレイヤーとは対戦できません。"
 			},
+			"cannotEngageNewPlayer": {
+				"eng": "You cannot initiate PVP with a player that is below level ${level} and has not actively engaged in PVP",
+				"trans": "レベル${level}未満のプレイヤー、またはPVPに積極的に参加していないプレイヤーとはPVPを開始することはできません。"
+			},
 			"combatNotFound": {
 				"eng": "Combat has ended",
 				"trans": "戦闘が終了しました"
@@ -6185,6 +6261,10 @@
 			"nameNotAllowed": {
 				"eng": "This name contains text that is not allowed",
 				"trans": "この名前には許可されていないテキストが含まれています。"
+			},
+			"referrerBlocked": {
+				"eng": "The referrer's referral privileges have been revoked",
+				"trans": "紹介者の紹介特典が取り消されました"
 			},
 			"referrerNotFound": {
 				"eng": "Referrer not found",
@@ -6843,6 +6923,28 @@
 				"eng": "Must be english letters and _ and numbers",
 				"trans": "英字と_と数字である必要があります"
 			}
+		}
+	},
+	"suspendedScreen": {
+		"description1": {
+			"eng": "This can happen for a number of reasons, including but not limited to:",
+			"trans": "これは様々な理由で起こる可能性があります。例えば、以下のようなものがありますが、これに限定されるものではありません。"
+		},
+		"description2": {
+			"eng": "- You have been caught cheating, hacking, automating or exploiting the game.",
+			"trans": "- ゲームの不正行為、ハッキング、自動化、または悪用が発覚しました。"
+		},
+		"description3": {
+			"eng": "- You have been caught using multiple accounts to gain an unfair advantage.",
+			"trans": "- 不公平な利益を得るために複数のアカウントを使用したことが発覚しました。"
+		},
+		"description4": {
+			"eng": "If you feel this is a mistake, please contact the developer directly at: ching.huang.dexter@gmail.com",
+			"trans": "もし間違いだと感じた場合は、直接開発者にお問い合わせください。メールアドレス：ching.huang.dexter@gmail.com"
+		},
+		"title": {
+			"eng": "This account has been suspended.",
+			"trans": "このアカウントは停止されました。"
 		}
 	},
 	"task": {

@@ -90,8 +90,8 @@
 		},
 		"poison": {
 			"description": {
-				"eng": "Poisons the enemy for ${amount}",
-				"trans": "Envenena al enemigo por ${amount}"
+				"eng": "Poisons the enemy for ${amount} for ${turn} terns",
+				"trans": "Envenena al enemigo por ${amount} durante ${turn} turnos"
 			},
 			"triggered": {
 				"eng": "${merc} poisoned ${enemy}, ${enemy} received ${damage} damage.",
@@ -100,8 +100,8 @@
 		},
 		"poisonGroup": {
 			"description": {
-				"eng": "Poisons all enemies for ${amount}",
-				"trans": "Envenena a todos los enemigos por ${amount}"
+				"eng": "Poisons all enemies for ${amount} for ${turns} turns",
+				"trans": "Envenena a todos los enemigos por ${amount} durante ${turns} turnos"
 			},
 			"triggered": {
 				"eng": "${merc} poisoned all enemies, dealt ${damage} damage each.",
@@ -964,6 +964,22 @@
 			"trans": "Notas de historia recopiladas"
 		}
 	},
+	"combatHandler": {
+		"notEnoughPsyche": {
+			"eng": "Your cyber-psychosis level is too high to engage in fights",
+			"trans": "Tu nivel de ciberpsicosis es demasiado alto para participar en peleas"
+		},
+		"pvpProtection": {
+			"description": {
+				"eng": "You are under PVP protection until level ${level}, but if you actively engaged in PVP your PVP protection will be removed",
+				"trans": "Estás bajo protección de PVP hasta el nivel ${level}, pero si participas activamente en PVP, tu protección de PVP será eliminada"
+			},
+			"title": {
+				"eng": "PVP Protection",
+				"trans": "Protección PVP"
+			}
+		}
+	},
 	"combatLog": {
 		"atk": {
 			"eng": "${attacker} has attacked ${enemyName} for ${damage} damage",
@@ -1363,6 +1379,22 @@
 			"title": {
 				"eng": "Pay with ${currency}",
 				"trans": "Pagar con ${currency}"
+			}
+		},
+		"removeItems": {
+			"confirmModal": {
+				"description": {
+					"eng": "Are you sure you want to give up all your items? this is permanent and cannot be undone",
+					"trans": "¿Estás seguro de que quieres renunciar a todos tus objetos? Esto es permanente y no se puede deshacer"
+				},
+				"title": {
+					"eng": "Give up items",
+					"trans": "Renunciar a objetos"
+				}
+			},
+			"title": {
+				"eng": "give up items",
+				"trans": "Renunciar a objetos"
 			}
 		}
 	},
@@ -2351,6 +2383,16 @@
 		}
 	},
 	"itemCalibratePage": {
+		"multiplierInfo": {
+			"result": {
+				"eng": "+${percent}% stats multiplier",
+				"trans": "Multiplicador de estadísticas +${porcentaje}%"
+			},
+			"title": {
+				"eng": "Calibration Multiplier Info",
+				"trans": "Información del multiplicador de calibración"
+			}
+		},
 		"noItem": {
 			"description": {
 				"eng": "Please select an equipment to calibrate",
@@ -2543,6 +2585,10 @@
 		}
 	},
 	"itemInbox": {
+		"receivedItems": {
+			"eng": "You have received ${item} in your apartment delivery inbox",
+			"trans": "Has recibido ${item} en tu bandeja de entrada de entrega de apartamento"
+		},
 		"retrieved": {
 			"eng": "items have been moved to your inventory",
 			"trans": "Los objetos han sido movidos a tu inventario"
@@ -2867,6 +2913,12 @@
 				"trans": "Multiplicador de daño"
 			}
 		},
+		"dex": {
+			"name": {
+				"eng": "Dexterity",
+				"trans": "Destreza"
+			}
+		},
 		"energyResistance": {
 			"name": {
 				"eng": "Energy Resistance",
@@ -2881,6 +2933,12 @@
 			"name": {
 				"eng": "Health Multiplier",
 				"trans": "Multiplicador de salud"
+			}
+		},
+		"int": {
+			"name": {
+				"eng": "Intelligence",
+				"trans": "Inteligencia"
 			}
 		},
 		"kineticResistance": {
@@ -5275,6 +5333,10 @@
 		}
 	},
 	"placeHitPage": {
+		"levelTooLow": {
+			"eng": "You need to be at least level {level} to place a hit.",
+			"trans": "Necesitas ser al menos nivel {level} para realizar un ataque."
+		},
 		"notEnoughUnitError": {
 			"eng": "Minimum hit bounty is ${minNormal} or ${minUnit}",
 			"trans": "La recompensa mínima por golpe es de ${minNormal} o ${minUnit}"
@@ -5318,6 +5380,16 @@
 			"eng": "Your Cyber-Psychosis symptom is too high to perform this action: ${psychosis}",
 			"trans": "Tu síntoma de ciberpsicosis es demasiado alto para realizar esta acción: ${psychosis}",
 			"vars": []
+		},
+		"psychosisRechargedNoti": {
+			"body": {
+				"eng": "Your psyche has restored to normal level, you may use your cybernetic abilities safely now.",
+				"trans": "Tu psique ha vuelto a su nivel normal, ahora puedes utilizar tus habilidades cibernéticas con seguridad."
+			},
+			"title": {
+				"eng": "Psyche restored",
+				"trans": "Psique restaurada"
+			}
 		},
 		"reportSuccess": {
 			"eng": "You have reported ${}",
@@ -6135,6 +6207,10 @@
 				"eng": "You cannot engage this player",
 				"trans": "No puedes enfrentarte a este jugador"
 			},
+			"cannotEngageNewPlayer": {
+				"eng": "You cannot initiate PVP with a player that is below level ${level} and has not actively engaged in PVP",
+				"trans": "No puedes iniciar PVP con un jugador que esté por debajo del nivel ${level} y no haya participado activamente en PVP"
+			},
 			"combatNotFound": {
 				"eng": "Combat has ended",
 				"trans": "La batalla ha terminado"
@@ -6185,6 +6261,10 @@
 			"nameNotAllowed": {
 				"eng": "This name contains text that is not allowed",
 				"trans": "Este nombre contiene texto no permitido"
+			},
+			"referrerBlocked": {
+				"eng": "The referrer's referral privileges have been revoked",
+				"trans": "Los privilegios de recomendación del referidor han sido revocados"
 			},
 			"referrerNotFound": {
 				"eng": "Referrer not found",
@@ -6843,6 +6923,28 @@
 				"eng": "Must be english letters and _ and numbers",
 				"trans": "Deben ser letras en inglés y _ y números"
 			}
+		}
+	},
+	"suspendedScreen": {
+		"description1": {
+			"eng": "This can happen for a number of reasons, including but not limited to:",
+			"trans": "Esto puede suceder por varias razones, incluyendo pero no limitado a:"
+		},
+		"description2": {
+			"eng": "- You have been caught cheating, hacking, automating or exploiting the game.",
+			"trans": "- Has sido atrapado haciendo trampas, hackeando, automatizando o explotando el juego."
+		},
+		"description3": {
+			"eng": "- You have been caught using multiple accounts to gain an unfair advantage.",
+			"trans": "- Has sido atrapado utilizando múltiples cuentas para obtener una ventaja injusta."
+		},
+		"description4": {
+			"eng": "If you feel this is a mistake, please contact the developer directly at: ching.huang.dexter@gmail.com",
+			"trans": "Si crees que esto es un error, por favor contacta directamente al desarrollador en: ching.huang.dexter@gmail.com"
+		},
+		"title": {
+			"eng": "This account has been suspended.",
+			"trans": "Esta cuenta ha sido suspendida."
 		}
 	},
 	"task": {

@@ -90,8 +90,8 @@
 		},
 		"poison": {
 			"description": {
-				"eng": "Poisons the enemy for ${amount}",
-				"trans": "對敵人進行${amount}的毒害"
+				"eng": "Poisons the enemy for ${amount} for ${turn} terns",
+				"trans": "對敵人施加毒素，持續${turn}回合，每回合造成${amount}傷害"
 			},
 			"triggered": {
 				"eng": "${merc} poisoned ${enemy}, ${enemy} received ${damage} damage.",
@@ -100,8 +100,8 @@
 		},
 		"poisonGroup": {
 			"description": {
-				"eng": "Poisons all enemies for ${amount}",
-				"trans": "對敵人施加毒素，造成一定量的傷害。"
+				"eng": "Poisons all enemies for ${amount} for ${turns} turns",
+				"trans": "對所有敵人施加${amount}的毒素，持續${turns}回合"
 			},
 			"triggered": {
 				"eng": "${merc} poisoned all enemies, dealt ${damage} damage each.",
@@ -964,6 +964,22 @@
 			"trans": "已收集的背景故事"
 		}
 	},
+	"combatHandler": {
+		"notEnoughPsyche": {
+			"eng": "Your cyber-psychosis level is too high to engage in fights",
+			"trans": "你的網路狂躁症程度過高，無法參與戰鬥"
+		},
+		"pvpProtection": {
+			"description": {
+				"eng": "You are under PVP protection until level ${level}, but if you actively engaged in PVP your PVP protection will be removed",
+				"trans": "在達到${level}級之前，你將受到PVP保護，但如果你主動參與PVP，你的PVP保護將會被移除。"
+			},
+			"title": {
+				"eng": "PVP Protection",
+				"trans": "PVP保護"
+			}
+		}
+	},
 	"combatLog": {
 		"atk": {
 			"eng": "${attacker} has attacked ${enemyName} for ${damage} damage",
@@ -1363,6 +1379,22 @@
 			"title": {
 				"eng": "Pay with ${currency}",
 				"trans": "支付${amount}${$2}"
+			}
+		},
+		"removeItems": {
+			"confirmModal": {
+				"description": {
+					"eng": "Are you sure you want to give up all your items? this is permanent and cannot be undone",
+					"trans": "你確定要放棄所有物品嗎？這將是永久性的，無法撤銷。"
+				},
+				"title": {
+					"eng": "Give up items",
+					"trans": "放棄物品"
+				}
+			},
+			"title": {
+				"eng": "give up items",
+				"trans": "放棄物品"
 			}
 		}
 	},
@@ -2351,6 +2383,16 @@
 		}
 	},
 	"itemCalibratePage": {
+		"multiplierInfo": {
+			"result": {
+				"eng": "+${percent}% stats multiplier",
+				"trans": "屬性增益 +${percent}%"
+			},
+			"title": {
+				"eng": "Calibration Multiplier Info",
+				"trans": "校準倍率資訊"
+			}
+		},
 		"noItem": {
 			"description": {
 				"eng": "Please select an equipment to calibrate",
@@ -2543,6 +2585,10 @@
 		}
 	},
 	"itemInbox": {
+		"receivedItems": {
+			"eng": "You have received ${item} in your apartment delivery inbox",
+			"trans": "你在公寓郵件箱中收到了${item}"
+		},
 		"retrieved": {
 			"eng": "items have been moved to your inventory",
 			"trans": "物品已移至您的倉庫中。"
@@ -2867,6 +2913,12 @@
 				"trans": "傷害倍率"
 			}
 		},
+		"dex": {
+			"name": {
+				"eng": "Dexterity",
+				"trans": "敏捷"
+			}
+		},
 		"energyResistance": {
 			"name": {
 				"eng": "Energy Resistance",
@@ -2881,6 +2933,12 @@
 			"name": {
 				"eng": "Health Multiplier",
 				"trans": "生命值倍率"
+			}
+		},
+		"int": {
+			"name": {
+				"eng": "Intelligence",
+				"trans": "智力"
 			}
 		},
 		"kineticResistance": {
@@ -5275,6 +5333,10 @@
 		}
 	},
 	"placeHitPage": {
+		"levelTooLow": {
+			"eng": "You need to be at least level {level} to place a hit.",
+			"trans": "您需要達到至少{level}級才能發動攻擊。"
+		},
 		"notEnoughUnitError": {
 			"eng": "Minimum hit bounty is ${minNormal} or ${minUnit}",
 			"trans": "最低擊殺賞金為${minNormal}或${minUnit}"
@@ -5318,6 +5380,16 @@
 			"eng": "Your Cyber-Psychosis symptom is too high to perform this action: ${psychosis}",
 			"trans": "您的網路狂躁症狀太高，無法執行此操作：${psychosis}",
 			"vars": []
+		},
+		"psychosisRechargedNoti": {
+			"body": {
+				"eng": "Your psyche has restored to normal level, you may use your cybernetic abilities safely now.",
+				"trans": "你的心理狀態已恢復正常水平，現在可以安全地使用你的電驅路能力。"
+			},
+			"title": {
+				"eng": "Psyche restored",
+				"trans": "心智恢復"
+			}
 		},
 		"reportSuccess": {
 			"eng": "You have reported ${}",
@@ -6135,6 +6207,10 @@
 				"eng": "You cannot engage this player",
 				"trans": "您無法與這位玩家互動"
 			},
+			"cannotEngageNewPlayer": {
+				"eng": "You cannot initiate PVP with a player that is below level ${level} and has not actively engaged in PVP",
+				"trans": "你無法與等級低於${level}且未積極參與PVP的玩家發起PVP戰鬥"
+			},
 			"combatNotFound": {
 				"eng": "Combat has ended",
 				"trans": "戰鬥已結束。"
@@ -6185,6 +6261,10 @@
 			"nameNotAllowed": {
 				"eng": "This name contains text that is not allowed",
 				"trans": "此名稱包含不允許的文字"
+			},
+			"referrerBlocked": {
+				"eng": "The referrer's referral privileges have been revoked",
+				"trans": "推薦人的推薦權限已被撤銷"
 			},
 			"referrerNotFound": {
 				"eng": "Referrer not found",
@@ -6843,6 +6923,28 @@
 				"eng": "Must be english letters and _ and numbers",
 				"trans": "必須是英文字母、_和數字"
 			}
+		}
+	},
+	"suspendedScreen": {
+		"description1": {
+			"eng": "This can happen for a number of reasons, including but not limited to:",
+			"trans": "這可能是由於多種原因造成的，包括但不限於："
+		},
+		"description2": {
+			"eng": "- You have been caught cheating, hacking, automating or exploiting the game.",
+			"trans": "- 您被抓到作弊、駭客、自動化或利用遊戲漏洞。"
+		},
+		"description3": {
+			"eng": "- You have been caught using multiple accounts to gain an unfair advantage.",
+			"trans": "- 您被發現使用多個帳號以獲取不公平的優勢。"
+		},
+		"description4": {
+			"eng": "If you feel this is a mistake, please contact the developer directly at: ching.huang.dexter@gmail.com",
+			"trans": "如果您覺得這是一個錯誤，請直接聯繫開發人員：ching.huang.dexter@gmail.com"
+		},
+		"title": {
+			"eng": "This account has been suspended.",
+			"trans": "此帳號已被停權。"
 		}
 	},
 	"task": {

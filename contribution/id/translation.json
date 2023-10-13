@@ -90,8 +90,8 @@
 		},
 		"poison": {
 			"description": {
-				"eng": "Poisons the enemy for ${amount}",
-				"trans": "Meracuni musuh selama ${amount}"
+				"eng": "Poisons the enemy for ${amount} for ${turn} terns",
+				"trans": "Meracuni musuh sebesar ${amount} selama ${turn} putaran"
 			},
 			"triggered": {
 				"eng": "${merc} poisoned ${enemy}, ${enemy} received ${damage} damage.",
@@ -100,8 +100,8 @@
 		},
 		"poisonGroup": {
 			"description": {
-				"eng": "Poisons all enemies for ${amount}",
-				"trans": "Meracuni semua musuh selama ${amount}"
+				"eng": "Poisons all enemies for ${amount} for ${turns} turns",
+				"trans": "Meracuni semua musuh selama ${amount} selama ${turns} putaran"
 			},
 			"triggered": {
 				"eng": "${merc} poisoned all enemies, dealt ${damage} damage each.",
@@ -964,6 +964,22 @@
 			"trans": "Catatan Cerita yang Terkumpul"
 		}
 	},
+	"combatHandler": {
+		"notEnoughPsyche": {
+			"eng": "Your cyber-psychosis level is too high to engage in fights",
+			"trans": "Tingkat psikosis siber Anda terlalu tinggi untuk terlibat dalam pertarungan"
+		},
+		"pvpProtection": {
+			"description": {
+				"eng": "You are under PVP protection until level ${level}, but if you actively engaged in PVP your PVP protection will be removed",
+				"trans": "Kamu akan mendapat perlindungan PVP hingga level ${level}, tetapi jika kamu terlibat aktif dalam PVP, perlindungan PVP kamu akan dihapus"
+			},
+			"title": {
+				"eng": "PVP Protection",
+				"trans": "Perlindungan PVP"
+			}
+		}
+	},
 	"combatLog": {
 		"atk": {
 			"eng": "${attacker} has attacked ${enemyName} for ${damage} damage",
@@ -1363,6 +1379,22 @@
 			"title": {
 				"eng": "Pay with ${currency}",
 				"trans": "Bayar dengan ${mata uang}"
+			}
+		},
+		"removeItems": {
+			"confirmModal": {
+				"description": {
+					"eng": "Are you sure you want to give up all your items? this is permanent and cannot be undone",
+					"trans": "Apakah Anda yakin ingin menyerahkan semua item Anda? Ini permanen dan tidak dapat dibatalkan"
+				},
+				"title": {
+					"eng": "Give up items",
+					"trans": "Menyerah pada item"
+				}
+			},
+			"title": {
+				"eng": "give up items",
+				"trans": "Menyerahkan barang"
 			}
 		}
 	},
@@ -2351,6 +2383,16 @@
 		}
 	},
 	"itemCalibratePage": {
+		"multiplierInfo": {
+			"result": {
+				"eng": "+${percent}% stats multiplier",
+				"trans": "+${persen}% pengganda statistik"
+			},
+			"title": {
+				"eng": "Calibration Multiplier Info",
+				"trans": "Informasi Pengali Kalibrasi"
+			}
+		},
 		"noItem": {
 			"description": {
 				"eng": "Please select an equipment to calibrate",
@@ -2543,6 +2585,10 @@
 		}
 	},
 	"itemInbox": {
+		"receivedItems": {
+			"eng": "You have received ${item} in your apartment delivery inbox",
+			"trans": "Anda telah menerima ${item} di kotak masuk pengiriman apartemen Anda"
+		},
 		"retrieved": {
 			"eng": "items have been moved to your inventory",
 			"trans": "Item telah dipindahkan ke inventori Anda"
@@ -2867,6 +2913,12 @@
 				"trans": "Perkalian Kerusakan"
 			}
 		},
+		"dex": {
+			"name": {
+				"eng": "Dexterity",
+				"trans": "Ketangkasan"
+			}
+		},
 		"energyResistance": {
 			"name": {
 				"eng": "Energy Resistance",
@@ -2881,6 +2933,12 @@
 			"name": {
 				"eng": "Health Multiplier",
 				"trans": "Pengganda Kesehatan"
+			}
+		},
+		"int": {
+			"name": {
+				"eng": "Intelligence",
+				"trans": "Intelejensi"
 			}
 		},
 		"kineticResistance": {
@@ -5275,6 +5333,10 @@
 		}
 	},
 	"placeHitPage": {
+		"levelTooLow": {
+			"eng": "You need to be at least level {level} to place a hit.",
+			"trans": "Kamu harus mencapai level {level} untuk melakukan serangan."
+		},
 		"notEnoughUnitError": {
 			"eng": "Minimum hit bounty is ${minNormal} or ${minUnit}",
 			"trans": "Bounty minimum hit adalah ${minNormal} atau ${minUnit}"
@@ -5318,6 +5380,16 @@
 			"eng": "Your Cyber-Psychosis symptom is too high to perform this action: ${psychosis}",
 			"trans": "Gejala Psikosis Siber Anda terlalu tinggi untuk melakukan tindakan ini: ${psikosis}",
 			"vars": []
+		},
+		"psychosisRechargedNoti": {
+			"body": {
+				"eng": "Your psyche has restored to normal level, you may use your cybernetic abilities safely now.",
+				"trans": "Psikemu telah pulih ke tingkat normal, kini kamu dapat menggunakan kemampuan sibermu dengan aman."
+			},
+			"title": {
+				"eng": "Psyche restored",
+				"trans": "Psikis pulih"
+			}
 		},
 		"reportSuccess": {
 			"eng": "You have reported ${}",
@@ -6135,6 +6207,10 @@
 				"eng": "You cannot engage this player",
 				"trans": "Anda tidak dapat melawan pemain ini"
 			},
+			"cannotEngageNewPlayer": {
+				"eng": "You cannot initiate PVP with a player that is below level ${level} and has not actively engaged in PVP",
+				"trans": "Kamu tidak dapat memulai PVP dengan pemain yang berada di bawah level ${level} dan belum aktif terlibat dalam PVP"
+			},
 			"combatNotFound": {
 				"eng": "Combat has ended",
 				"trans": "Pertempuran telah berakhir"
@@ -6185,6 +6261,10 @@
 			"nameNotAllowed": {
 				"eng": "This name contains text that is not allowed",
 				"trans": "Nama ini mengandung teks yang tidak diizinkan"
+			},
+			"referrerBlocked": {
+				"eng": "The referrer's referral privileges have been revoked",
+				"trans": "Hak istimewa rujukan dari pemberi rujukan telah dicabut"
 			},
 			"referrerNotFound": {
 				"eng": "Referrer not found",
@@ -6843,6 +6923,28 @@
 				"eng": "Must be english letters and _ and numbers",
 				"trans": "Harus berupa huruf Inggris dan _ dan angka"
 			}
+		}
+	},
+	"suspendedScreen": {
+		"description1": {
+			"eng": "This can happen for a number of reasons, including but not limited to:",
+			"trans": "Ini bisa terjadi karena beberapa alasan, termasuk namun tidak terbatas pada:"
+		},
+		"description2": {
+			"eng": "- You have been caught cheating, hacking, automating or exploiting the game.",
+			"trans": "- Anda telah tertangkap melakukan kecurangan, hacking, otomatisasi, atau eksploitasi dalam permainan."
+		},
+		"description3": {
+			"eng": "- You have been caught using multiple accounts to gain an unfair advantage.",
+			"trans": "- Anda telah tertangkap menggunakan beberapa akun untuk mendapatkan keuntungan yang tidak adil."
+		},
+		"description4": {
+			"eng": "If you feel this is a mistake, please contact the developer directly at: ching.huang.dexter@gmail.com",
+			"trans": "Jika Anda merasa ini adalah kesalahan, silakan hubungi pengembang langsung di: ching.huang.dexter@gmail.com"
+		},
+		"title": {
+			"eng": "This account has been suspended.",
+			"trans": "Akun ini telah ditangguhkan."
 		}
 	},
 	"task": {

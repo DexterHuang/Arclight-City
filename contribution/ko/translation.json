@@ -90,8 +90,8 @@
 		},
 		"poison": {
 			"description": {
-				"eng": "Poisons the enemy for ${amount}",
-				"trans": "적을 ${amount}만큼 중독시킵니다"
+				"eng": "Poisons the enemy for ${amount} for ${turn} terns",
+				"trans": "적을 ${amount}의 독으로 ${turn}턴 동안 중독시킵니다"
 			},
 			"triggered": {
 				"eng": "${merc} poisoned ${enemy}, ${enemy} received ${damage} damage.",
@@ -100,8 +100,8 @@
 		},
 		"poisonGroup": {
 			"description": {
-				"eng": "Poisons all enemies for ${amount}",
-				"trans": "모든 적을 ${amount}만큼 중독시킵니다"
+				"eng": "Poisons all enemies for ${amount} for ${turns} turns",
+				"trans": "${amount}의 독으로 모든 적을 ${turns}턴 동안 중독시킵니다"
 			},
 			"triggered": {
 				"eng": "${merc} poisoned all enemies, dealt ${damage} damage each.",
@@ -964,6 +964,22 @@
 			"trans": "수집된 로어 노트"
 		}
 	},
+	"combatHandler": {
+		"notEnoughPsyche": {
+			"eng": "Your cyber-psychosis level is too high to engage in fights",
+			"trans": "전투에 참여하기에 사이버 싸이코 레벨이 너무 높습니다"
+		},
+		"pvpProtection": {
+			"description": {
+				"eng": "You are under PVP protection until level ${level}, but if you actively engaged in PVP your PVP protection will be removed",
+				"trans": "레벨 ${level}까지는 PVP 보호 상태입니다. 하지만 PVP에 적극적으로 참여하면 PVP 보호가 해제됩니다"
+			},
+			"title": {
+				"eng": "PVP Protection",
+				"trans": "PVP 보호"
+			}
+		}
+	},
 	"combatLog": {
 		"atk": {
 			"eng": "${attacker} has attacked ${enemyName} for ${damage} damage",
@@ -1363,6 +1379,22 @@
 			"title": {
 				"eng": "Pay with ${currency}",
 				"trans": "${currency}로 결제하기"
+			}
+		},
+		"removeItems": {
+			"confirmModal": {
+				"description": {
+					"eng": "Are you sure you want to give up all your items? this is permanent and cannot be undone",
+					"trans": "모든 아이템을 포기하시겠습니까? 이 작업은 영구적이며 되돌릴 수 없습니다"
+				},
+				"title": {
+					"eng": "Give up items",
+					"trans": "아이템 포기"
+				}
+			},
+			"title": {
+				"eng": "give up items",
+				"trans": "아이템 포기"
 			}
 		}
 	},
@@ -2351,6 +2383,16 @@
 		}
 	},
 	"itemCalibratePage": {
+		"multiplierInfo": {
+			"result": {
+				"eng": "+${percent}% stats multiplier",
+				"trans": "수치 배율 +${percent}%"
+			},
+			"title": {
+				"eng": "Calibration Multiplier Info",
+				"trans": "교정 배수 정보"
+			}
+		},
 		"noItem": {
 			"description": {
 				"eng": "Please select an equipment to calibrate",
@@ -2543,6 +2585,10 @@
 		}
 	},
 	"itemInbox": {
+		"receivedItems": {
+			"eng": "You have received ${item} in your apartment delivery inbox",
+			"trans": "아파트 배송함에서 ${item}을(를) 받았습니다"
+		},
 		"retrieved": {
 			"eng": "items have been moved to your inventory",
 			"trans": "아이템이 인벤토리로 이동되었습니다"
@@ -2867,6 +2913,12 @@
 				"trans": "데미지 배수"
 			}
 		},
+		"dex": {
+			"name": {
+				"eng": "Dexterity",
+				"trans": "민첩성"
+			}
+		},
 		"energyResistance": {
 			"name": {
 				"eng": "Energy Resistance",
@@ -2881,6 +2933,12 @@
 			"name": {
 				"eng": "Health Multiplier",
 				"trans": "체력 배수"
+			}
+		},
+		"int": {
+			"name": {
+				"eng": "Intelligence",
+				"trans": "지능"
 			}
 		},
 		"kineticResistance": {
@@ -5275,6 +5333,10 @@
 		}
 	},
 	"placeHitPage": {
+		"levelTooLow": {
+			"eng": "You need to be at least level {level} to place a hit.",
+			"trans": "공격을 하려면 최소한 레벨 {level}이 되어야 합니다."
+		},
 		"notEnoughUnitError": {
 			"eng": "Minimum hit bounty is ${minNormal} or ${minUnit}",
 			"trans": "최소 피해 현상금은 ${minNormal} 또는 ${minUnit}입니다"
@@ -5318,6 +5380,16 @@
 			"eng": "Your Cyber-Psychosis symptom is too high to perform this action: ${psychosis}",
 			"trans": "사이버 싸이코 수치가 너무 높아서 이 행동을 할 수 없습니다: ${psychosis}",
 			"vars": []
+		},
+		"psychosisRechargedNoti": {
+			"body": {
+				"eng": "Your psyche has restored to normal level, you may use your cybernetic abilities safely now.",
+				"trans": "당신의 정신 상태가 정상 수준으로 회복되었습니다. 이제 안전하게 사이버넷 능력을 사용할 수 있습니다."
+			},
+			"title": {
+				"eng": "Psyche restored",
+				"trans": "정신력 회복됨"
+			}
 		},
 		"reportSuccess": {
 			"eng": "You have reported ${}",
@@ -6135,6 +6207,10 @@
 				"eng": "You cannot engage this player",
 				"trans": "이 플레이어와는 전투할 수 없습니다"
 			},
+			"cannotEngageNewPlayer": {
+				"eng": "You cannot initiate PVP with a player that is below level ${level} and has not actively engaged in PVP",
+				"trans": "레벨 ${level} 이하이며 PVP에 적극적으로 참여하지 않은 플레이어와는 PVP를 시작할 수 없습니다"
+			},
 			"combatNotFound": {
 				"eng": "Combat has ended",
 				"trans": "전투가 종료되었습니다"
@@ -6185,6 +6261,10 @@
 			"nameNotAllowed": {
 				"eng": "This name contains text that is not allowed",
 				"trans": "이 이름에는 허용되지 않는 텍스트가 포함되어 있습니다"
+			},
+			"referrerBlocked": {
+				"eng": "The referrer's referral privileges have been revoked",
+				"trans": "추천인의 추천 권한이 취소되었습니다"
 			},
 			"referrerNotFound": {
 				"eng": "Referrer not found",
@@ -6843,6 +6923,28 @@
 				"eng": "Must be english letters and _ and numbers",
 				"trans": "영문자와 _ 그리고 숫자만 가능합니다"
 			}
+		}
+	},
+	"suspendedScreen": {
+		"description1": {
+			"eng": "This can happen for a number of reasons, including but not limited to:",
+			"trans": "이는 여러 가지 이유로 발생할 수 있습니다. 다만 이에 국한되지는 않습니다"
+		},
+		"description2": {
+			"eng": "- You have been caught cheating, hacking, automating or exploiting the game.",
+			"trans": "- 게임에서 부정행위, 해킹, 자동화 또는 악용을 한 것으로 적발되었습니다."
+		},
+		"description3": {
+			"eng": "- You have been caught using multiple accounts to gain an unfair advantage.",
+			"trans": "여러 계정을 사용하여 불공정한 이점을 얻으려고 한 것으로 확인되었습니다."
+		},
+		"description4": {
+			"eng": "If you feel this is a mistake, please contact the developer directly at: ching.huang.dexter@gmail.com",
+			"trans": "만약 이것이 실수라고 생각하신다면, 개발자에게 직접 연락해주세요: ching.huang.dexter@gmail.com"
+		},
+		"title": {
+			"eng": "This account has been suspended.",
+			"trans": "이 계정은 정지되었습니다."
 		}
 	},
 	"task": {
