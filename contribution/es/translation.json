@@ -969,10 +969,20 @@
 			"eng": "Your cyber-psychosis level is too high to engage in fights",
 			"trans": "Tu nivel de ciberpsicosis es demasiado alto para participar en peleas"
 		},
-		"pvpProtection": {
+		"pvpProtectionItemPopup": {
+			"description": {
+				"eng": "You are currently protected from PVP by ${item}, if you attack others now you will lose the buff, are you sure you want to proceed?",
+				"trans": "Actualmente estás protegido/a del PVP por ${item}, si atacas a otros ahora perderás el beneficio, ¿estás seguro/a de que quieres proceder?"
+			},
+			"title": {
+				"eng": "PVP Protection",
+				"trans": "Protección PVP"
+			}
+		},
+		"pvpProtectionLevelPopup": {
 			"description": {
 				"eng": "You are under PVP protection until level ${level}, but if you actively engaged in PVP your PVP protection will be removed",
-				"trans": "Estás bajo protección de PVP hasta el nivel ${level}, pero si participas activamente en PVP, tu protección de PVP será eliminada"
+				"trans": "Estás bajo protección PVP hasta el nivel ${level}, pero si participas activamente en PVP, tu protección PVP será eliminada"
 			},
 			"title": {
 				"eng": "PVP Protection",
@@ -1229,12 +1239,6 @@
 			"name": {
 				"eng": "Netcoin",
 				"trans": "NetCoin"
-			}
-		},
-		"error": {
-			"insufficient": {
-				"eng": "You do not have enough {currency}",
-				"trans": "No tienes suficiente {moneda}"
 			}
 		},
 		"mercExpCurrency": {
@@ -3353,6 +3357,16 @@
 				"trans": "Fragmento de Inyector de Prefijo"
 			}
 		},
+		"pvpProtection": {
+			"description": {
+				"eng": "Whoever invokes the Token of Peace shall not be attacked, use this to receive ${day} day of PVP protection buff",
+				"trans": "Quien invoque el Token de Paz no será atacado, úsalo para recibir un buff de protección de PVP por ${day} día"
+			},
+			"name": {
+				"eng": "Token of Peace",
+				"trans": "Símbolo de Paz"
+			}
+		},
 		"rareCalibrationSafety": {
 			"description": {
 				"eng": "Use to decrease chance of equipment destruction by ${percent}% when calibration failed",
@@ -3911,8 +3925,8 @@
 		},
 		"pvpFailed2": {
 			"body": {
-				"eng": "You tried to mug ${playerName} but you lost the fight, you lost ${amount} ${currencyName}",
-				"trans": "Intentaste asaltar a ${playerName}, pero perdiste la pelea, perdiste ${amount} ${currencyName}"
+				"eng": "You tried to mug ${playerName} but you lost the fight, you lost ${amount}",
+				"trans": "Intentaste asaltar a ${playerName}, pero perdiste la pelea, perdiste ${amount}"
 			}
 		}
 	},
@@ -5338,8 +5352,8 @@
 	},
 	"placeHitPage": {
 		"levelTooLow": {
-			"eng": "You need to be at least level {level} to place a hit.",
-			"trans": "Necesitas ser al menos nivel {level} para realizar un ataque."
+			"eng": "You need to be at least level ${level} to place a hit.",
+			"trans": "Necesitas ser al menos nivel ${level} para realizar un ataque."
 		},
 		"notEnoughUnitError": {
 			"eng": "Minimum hit bounty is ${minNormal} or ${minUnit}",
@@ -6221,6 +6235,10 @@
 				"eng": "You cannot initiate PVP with a player that is below level ${level} and has not actively engaged in PVP",
 				"trans": "No puedes iniciar PVP con un jugador que esté por debajo del nivel ${level} y no haya participado activamente en PVP"
 			},
+			"cannotEngageProtectedPlayer": {
+				"eng": "This player is protected with ${item}, you cannot engage them at this moment",
+				"trans": "Este jugador está protegido con ${item}, no puedes atacarlos en este momento"
+			},
 			"combatNotFound": {
 				"eng": "Combat has ended",
 				"trans": "La batalla ha terminado"
@@ -6402,6 +6420,10 @@
 			}
 		},
 		"error": {
+			"conflictStatus": {
+				"eng": "You can't use this item while ${status} statusEffect is active",
+				"trans": "No puedes utilizar este objeto mientras el efecto de estado ${status} esté activo"
+			},
 			"dungeonHasExpired": {
 				"eng": "Dungeon has expired",
 				"trans": "La mazmorra ha expirado"
@@ -6845,6 +6867,16 @@
 			"name": {
 				"eng": "Hostile",
 				"trans": "Hostil"
+			}
+		},
+		"pvpProtection": {
+			"desc": {
+				"eng": "While this status is active, you cannot be attacked by other players. This status will be removed when you attack another player.",
+				"trans": "Mientras este estado esté activo, no puedes ser atacado por otros jugadores. Este estado se eliminará cuando ataques a otro jugador."
+			},
+			"name": {
+				"eng": "PVP Protection",
+				"trans": "Protección PVP"
 			}
 		}
 	},
@@ -7836,6 +7868,18 @@
 			}
 		},
 		"calibrated10": {
+			"announcement": {
+				"eng": "${playerName} has calibrated ${item}!",
+				"trans": "¡${playerName} ha calibrado ${item}!"
+			}
+		},
+		"calibrated7": {
+			"announcement": {
+				"eng": "${playerName} has calibrated ${item}!",
+				"trans": "¡${playerName} ha calibrado ${item}!"
+			}
+		},
+		"calibrated8": {
 			"announcement": {
 				"eng": "${playerName} has calibrated ${item}!",
 				"trans": "¡${playerName} ha calibrado ${item}!"

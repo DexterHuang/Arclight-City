@@ -969,10 +969,20 @@
 			"eng": "Your cyber-psychosis level is too high to engage in fights",
 			"trans": "你的網路狂躁症程度過高，無法參與戰鬥"
 		},
-		"pvpProtection": {
+		"pvpProtectionItemPopup": {
+			"description": {
+				"eng": "You are currently protected from PVP by ${item}, if you attack others now you will lose the buff, are you sure you want to proceed?",
+				"trans": "目前你正受到${item}的PVP保護，如果現在攻擊其他玩家，將會失去此增益效果，你確定要繼續嗎？"
+			},
+			"title": {
+				"eng": "PVP Protection",
+				"trans": "PVP保護"
+			}
+		},
+		"pvpProtectionLevelPopup": {
 			"description": {
 				"eng": "You are under PVP protection until level ${level}, but if you actively engaged in PVP your PVP protection will be removed",
-				"trans": "在達到${level}級之前，你將受到PVP保護，但如果你主動參與PVP，你的PVP保護將會被移除。"
+				"trans": "在達到${level}級之前，您將受到PVP保護，但如果您主動參與PVP，將會移除您的PVP保護。"
 			},
 			"title": {
 				"eng": "PVP Protection",
@@ -1229,12 +1239,6 @@
 			"name": {
 				"eng": "Netcoin",
 				"trans": "網幣"
-			}
-		},
-		"error": {
-			"insufficient": {
-				"eng": "You do not have enough {currency}",
-				"trans": "您沒有足夠的{currency}"
 			}
 		},
 		"mercExpCurrency": {
@@ -3353,6 +3357,16 @@
 				"trans": "前綴注射器碎片"
 			}
 		},
+		"pvpProtection": {
+			"description": {
+				"eng": "Whoever invokes the Token of Peace shall not be attacked, use this to receive ${day} day of PVP protection buff",
+				"trans": "凡是使用和平令牌的人將不會受到攻擊，使用此令牌可獲得${day}天的PVP保護效果"
+			},
+			"name": {
+				"eng": "Token of Peace",
+				"trans": "和平徽章"
+			}
+		},
 		"rareCalibrationSafety": {
 			"description": {
 				"eng": "Use to decrease chance of equipment destruction by ${percent}% when calibration failed",
@@ -3911,8 +3925,8 @@
 		},
 		"pvpFailed2": {
 			"body": {
-				"eng": "You tried to mug ${playerName} but you lost the fight, you lost ${amount} ${currencyName}",
-				"trans": "你試圖攻擊${playerName}，但你輸了，你損失了${amount} ${currencyName}"
+				"eng": "You tried to mug ${playerName} but you lost the fight, you lost ${amount}",
+				"trans": "你試圖搶劫${playerName}，但你輸了這場戰鬥，你損失了${amount}"
 			}
 		}
 	},
@@ -5338,8 +5352,8 @@
 	},
 	"placeHitPage": {
 		"levelTooLow": {
-			"eng": "You need to be at least level {level} to place a hit.",
-			"trans": "您需要達到至少{level}級才能發動攻擊。"
+			"eng": "You need to be at least level ${level} to place a hit.",
+			"trans": "您需要達到至少${level}級才能發動攻擊。"
 		},
 		"notEnoughUnitError": {
 			"eng": "Minimum hit bounty is ${minNormal} or ${minUnit}",
@@ -6221,6 +6235,10 @@
 				"eng": "You cannot initiate PVP with a player that is below level ${level} and has not actively engaged in PVP",
 				"trans": "你無法與等級低於${level}且未積極參與PVP的玩家發起PVP戰鬥"
 			},
+			"cannotEngageProtectedPlayer": {
+				"eng": "This player is protected with ${item}, you cannot engage them at this moment",
+				"trans": "此玩家目前受到${item}的保護，您無法與其交戰。"
+			},
 			"combatNotFound": {
 				"eng": "Combat has ended",
 				"trans": "戰鬥已結束。"
@@ -6402,6 +6420,10 @@
 			}
 		},
 		"error": {
+			"conflictStatus": {
+				"eng": "You can't use this item while ${status} statusEffect is active",
+				"trans": "當${status}狀態效果仍然生效時，你無法使用這個物品。"
+			},
 			"dungeonHasExpired": {
 				"eng": "Dungeon has expired",
 				"trans": "地城已過期。"
@@ -6845,6 +6867,16 @@
 			"name": {
 				"eng": "Hostile",
 				"trans": "敵對的"
+			}
+		},
+		"pvpProtection": {
+			"desc": {
+				"eng": "While this status is active, you cannot be attacked by other players. This status will be removed when you attack another player.",
+				"trans": "當此狀態啟用時，其他玩家無法攻擊你。當你攻擊其他玩家時，此狀態將被移除。"
+			},
+			"name": {
+				"eng": "PVP Protection",
+				"trans": "PVP保護"
 			}
 		}
 	},
@@ -7836,6 +7868,18 @@
 			}
 		},
 		"calibrated10": {
+			"announcement": {
+				"eng": "${playerName} has calibrated ${item}!",
+				"trans": "${playerName}已校準${item}！"
+			}
+		},
+		"calibrated7": {
+			"announcement": {
+				"eng": "${playerName} has calibrated ${item}!",
+				"trans": "${playerName}已校準${item}！"
+			}
+		},
+		"calibrated8": {
 			"announcement": {
 				"eng": "${playerName} has calibrated ${item}!",
 				"trans": "${playerName}已校準${item}！"

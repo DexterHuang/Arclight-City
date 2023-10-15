@@ -969,7 +969,17 @@
 			"eng": "Your cyber-psychosis level is too high to engage in fights",
 			"trans": "Ваш уровень киберпсихоза слишком высок для участия в боях"
 		},
-		"pvpProtection": {
+		"pvpProtectionItemPopup": {
+			"description": {
+				"eng": "You are currently protected from PVP by ${item}, if you attack others now you will lose the buff, are you sure you want to proceed?",
+				"trans": "В данный момент вы защищены от PVP с помощью ${item}, если вы нападете на других сейчас, вы потеряете бафф, вы уверены, что хотите продолжить?"
+			},
+			"title": {
+				"eng": "PVP Protection",
+				"trans": "Защита PVP"
+			}
+		},
+		"pvpProtectionLevelPopup": {
 			"description": {
 				"eng": "You are under PVP protection until level ${level}, but if you actively engaged in PVP your PVP protection will be removed",
 				"trans": "Вы находитесь под защитой PVP до уровня ${level}, но если вы активно участвуете в PVP, ваша защита PVP будет снята"
@@ -1229,12 +1239,6 @@
 			"name": {
 				"eng": "Netcoin",
 				"trans": "НетКоин"
-			}
-		},
-		"error": {
-			"insufficient": {
-				"eng": "You do not have enough {currency}",
-				"trans": "У вас недостаточно {валюты}"
 			}
 		},
 		"mercExpCurrency": {
@@ -3353,6 +3357,16 @@
 				"trans": "Префиксный инжекторный осколок"
 			}
 		},
+		"pvpProtection": {
+			"description": {
+				"eng": "Whoever invokes the Token of Peace shall not be attacked, use this to receive ${day} day of PVP protection buff",
+				"trans": "Тот, кто призывает Токен Мира, не будет атакован, используйте его, чтобы получить ${day} дней баффа защиты в PVP"
+			},
+			"name": {
+				"eng": "Token of Peace",
+				"trans": "Знак мира"
+			}
+		},
 		"rareCalibrationSafety": {
 			"description": {
 				"eng": "Use to decrease chance of equipment destruction by ${percent}% when calibration failed",
@@ -3911,8 +3925,8 @@
 		},
 		"pvpFailed2": {
 			"body": {
-				"eng": "You tried to mug ${playerName} but you lost the fight, you lost ${amount} ${currencyName}",
-				"trans": "Вы попытались ограбить ${playerName}, но проиграли бой, вы потеряли ${amount} ${currencyName}"
+				"eng": "You tried to mug ${playerName} but you lost the fight, you lost ${amount}",
+				"trans": "Вы попытались ограбить ${playerName}, но проиграли бой, вы потеряли ${amount}"
 			}
 		}
 	},
@@ -5338,8 +5352,8 @@
 	},
 	"placeHitPage": {
 		"levelTooLow": {
-			"eng": "You need to be at least level {level} to place a hit.",
-			"trans": "Для нанесения удара необходимо иметь уровень не ниже {level}."
+			"eng": "You need to be at least level ${level} to place a hit.",
+			"trans": "Для совершения удара необходимо иметь уровень не ниже ${level}."
 		},
 		"notEnoughUnitError": {
 			"eng": "Minimum hit bounty is ${minNormal} or ${minUnit}",
@@ -6221,6 +6235,10 @@
 				"eng": "You cannot initiate PVP with a player that is below level ${level} and has not actively engaged in PVP",
 				"trans": "Вы не можете начать PVP с игроком, который находится ниже уровня ${level} и не активно участвовал в PVP"
 			},
+			"cannotEngageProtectedPlayer": {
+				"eng": "This player is protected with ${item}, you cannot engage them at this moment",
+				"trans": "Этот игрок защищен ${item}, вы не можете атаковать его в данный момент"
+			},
 			"combatNotFound": {
 				"eng": "Combat has ended",
 				"trans": "Бой окончен"
@@ -6402,6 +6420,10 @@
 			}
 		},
 		"error": {
+			"conflictStatus": {
+				"eng": "You can't use this item while ${status} statusEffect is active",
+				"trans": "Вы не можете использовать этот предмет, пока активен статус ${status}"
+			},
 			"dungeonHasExpired": {
 				"eng": "Dungeon has expired",
 				"trans": "Подземелье истекло срок действия"
@@ -6845,6 +6867,16 @@
 			"name": {
 				"eng": "Hostile",
 				"trans": "Враждебный"
+			}
+		},
+		"pvpProtection": {
+			"desc": {
+				"eng": "While this status is active, you cannot be attacked by other players. This status will be removed when you attack another player.",
+				"trans": "Во время активного статуса вы не можете быть атакованы другими игроками. Этот статус будет снят, когда вы атакуете другого игрока."
+			},
+			"name": {
+				"eng": "PVP Protection",
+				"trans": "Защита PVP"
 			}
 		}
 	},
@@ -7836,6 +7868,18 @@
 			}
 		},
 		"calibrated10": {
+			"announcement": {
+				"eng": "${playerName} has calibrated ${item}!",
+				"trans": "${playerName} откалибровал(а) ${item}!"
+			}
+		},
+		"calibrated7": {
+			"announcement": {
+				"eng": "${playerName} has calibrated ${item}!",
+				"trans": "${playerName} откалибровал(а) ${item}!"
+			}
+		},
+		"calibrated8": {
 			"announcement": {
 				"eng": "${playerName} has calibrated ${item}!",
 				"trans": "${playerName} откалибровал(а) ${item}!"

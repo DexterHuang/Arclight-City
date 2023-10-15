@@ -969,10 +969,20 @@
 			"eng": "Your cyber-psychosis level is too high to engage in fights",
 			"trans": "Tingkat psikosis siber Anda terlalu tinggi untuk terlibat dalam pertarungan"
 		},
-		"pvpProtection": {
+		"pvpProtectionItemPopup": {
+			"description": {
+				"eng": "You are currently protected from PVP by ${item}, if you attack others now you will lose the buff, are you sure you want to proceed?",
+				"trans": "Saat ini kamu dilindungi dari PVP oleh ${item}, jika kamu menyerang orang lain sekarang kamu akan kehilangan buff tersebut, apakah kamu yakin ingin melanjutkan?"
+			},
+			"title": {
+				"eng": "PVP Protection",
+				"trans": "Perlindungan PVP"
+			}
+		},
+		"pvpProtectionLevelPopup": {
 			"description": {
 				"eng": "You are under PVP protection until level ${level}, but if you actively engaged in PVP your PVP protection will be removed",
-				"trans": "Kamu akan mendapat perlindungan PVP hingga level ${level}, tetapi jika kamu terlibat aktif dalam PVP, perlindungan PVP kamu akan dihapus"
+				"trans": "Kamu akan mendapatkan perlindungan PVP hingga level ${level}, namun jika kamu terlibat aktif dalam PVP, perlindungan PVP kamu akan dihapus"
 			},
 			"title": {
 				"eng": "PVP Protection",
@@ -1229,12 +1239,6 @@
 			"name": {
 				"eng": "Netcoin",
 				"trans": "Koin Jaringan"
-			}
-		},
-		"error": {
-			"insufficient": {
-				"eng": "You do not have enough {currency}",
-				"trans": "Anda tidak memiliki cukup {currency}"
 			}
 		},
 		"mercExpCurrency": {
@@ -3353,6 +3357,16 @@
 				"trans": "Shard Injektor Prefiks"
 			}
 		},
+		"pvpProtection": {
+			"description": {
+				"eng": "Whoever invokes the Token of Peace shall not be attacked, use this to receive ${day} day of PVP protection buff",
+				"trans": "Siapa pun yang memanggil Token of Peace tidak akan diserang, gunakan ini untuk menerima buff perlindungan PVP selama ${day} hari"
+			},
+			"name": {
+				"eng": "Token of Peace",
+				"trans": "Tanda Perdamaian"
+			}
+		},
 		"rareCalibrationSafety": {
 			"description": {
 				"eng": "Use to decrease chance of equipment destruction by ${percent}% when calibration failed",
@@ -3911,8 +3925,8 @@
 		},
 		"pvpFailed2": {
 			"body": {
-				"eng": "You tried to mug ${playerName} but you lost the fight, you lost ${amount} ${currencyName}",
-				"trans": "Anda mencoba untuk menipu ${playerName} tetapi Anda kalah dalam pertarungan, Anda kehilangan ${amount} ${currencyName}"
+				"eng": "You tried to mug ${playerName} but you lost the fight, you lost ${amount}",
+				"trans": "Kamu mencoba merampok ${playerName} tapi kalah dalam pertarungan, kamu kehilangan ${amount}"
 			}
 		}
 	},
@@ -5338,8 +5352,8 @@
 	},
 	"placeHitPage": {
 		"levelTooLow": {
-			"eng": "You need to be at least level {level} to place a hit.",
-			"trans": "Kamu harus mencapai level {level} untuk melakukan serangan."
+			"eng": "You need to be at least level ${level} to place a hit.",
+			"trans": "Kamu harus mencapai level ${level} untuk dapat melakukan serangan."
 		},
 		"notEnoughUnitError": {
 			"eng": "Minimum hit bounty is ${minNormal} or ${minUnit}",
@@ -6221,6 +6235,10 @@
 				"eng": "You cannot initiate PVP with a player that is below level ${level} and has not actively engaged in PVP",
 				"trans": "Kamu tidak dapat memulai PVP dengan pemain yang berada di bawah level ${level} dan belum aktif terlibat dalam PVP"
 			},
+			"cannotEngageProtectedPlayer": {
+				"eng": "This player is protected with ${item}, you cannot engage them at this moment",
+				"trans": "Pemain ini dilindungi dengan ${item}, kamu tidak dapat menyerang mereka saat ini"
+			},
 			"combatNotFound": {
 				"eng": "Combat has ended",
 				"trans": "Pertempuran telah berakhir"
@@ -6402,6 +6420,10 @@
 			}
 		},
 		"error": {
+			"conflictStatus": {
+				"eng": "You can't use this item while ${status} statusEffect is active",
+				"trans": "Kamu tidak dapat menggunakan item ini saat status ${status} aktif"
+			},
 			"dungeonHasExpired": {
 				"eng": "Dungeon has expired",
 				"trans": "Dungeon telah kedaluwarsa"
@@ -6845,6 +6867,16 @@
 			"name": {
 				"eng": "Hostile",
 				"trans": "Musuh"
+			}
+		},
+		"pvpProtection": {
+			"desc": {
+				"eng": "While this status is active, you cannot be attacked by other players. This status will be removed when you attack another player.",
+				"trans": "Selama status ini aktif, kamu tidak dapat diserang oleh pemain lain. Status ini akan dihapus saat kamu menyerang pemain lain."
+			},
+			"name": {
+				"eng": "PVP Protection",
+				"trans": "Perlindungan PVP"
 			}
 		}
 	},
@@ -7836,6 +7868,18 @@
 			}
 		},
 		"calibrated10": {
+			"announcement": {
+				"eng": "${playerName} has calibrated ${item}!",
+				"trans": "${playerName} telah mengkalibrasi ${item}!"
+			}
+		},
+		"calibrated7": {
+			"announcement": {
+				"eng": "${playerName} has calibrated ${item}!",
+				"trans": "${playerName} telah mengkalibrasi ${item}!"
+			}
+		},
+		"calibrated8": {
 			"announcement": {
 				"eng": "${playerName} has calibrated ${item}!",
 				"trans": "${playerName} telah mengkalibrasi ${item}!"

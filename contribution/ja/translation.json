@@ -969,7 +969,17 @@
 			"eng": "Your cyber-psychosis level is too high to engage in fights",
 			"trans": "あなたのサイバーサイコシスレベルは高すぎて戦闘に参加できません"
 		},
-		"pvpProtection": {
+		"pvpProtectionItemPopup": {
+			"description": {
+				"eng": "You are currently protected from PVP by ${item}, if you attack others now you will lose the buff, are you sure you want to proceed?",
+				"trans": "現在、${item}によってPVPから保護されています。他のプレイヤーを攻撃するとバフが失われるので、本当に続行しますか？"
+			},
+			"title": {
+				"eng": "PVP Protection",
+				"trans": "PVP保護"
+			}
+		},
+		"pvpProtectionLevelPopup": {
 			"description": {
 				"eng": "You are under PVP protection until level ${level}, but if you actively engaged in PVP your PVP protection will be removed",
 				"trans": "レベル${level}までPVP保護がありますが、積極的にPVPに参加すると保護が解除されます。"
@@ -1229,12 +1239,6 @@
 			"name": {
 				"eng": "Netcoin",
 				"trans": "ネットコイン"
-			}
-		},
-		"error": {
-			"insufficient": {
-				"eng": "You do not have enough {currency}",
-				"trans": "{currency}が足りません"
 			}
 		},
 		"mercExpCurrency": {
@@ -3353,6 +3357,16 @@
 				"trans": "プレフィックスインジェクターシャード"
 			}
 		},
+		"pvpProtection": {
+			"description": {
+				"eng": "Whoever invokes the Token of Peace shall not be attacked, use this to receive ${day} day of PVP protection buff",
+				"trans": "平和のトークンを発動した者は攻撃されません、${day}日間のPVP保護バフを受け取るために使用してください。"
+			},
+			"name": {
+				"eng": "Token of Peace",
+				"trans": "平和の証"
+			}
+		},
 		"rareCalibrationSafety": {
 			"description": {
 				"eng": "Use to decrease chance of equipment destruction by ${percent}% when calibration failed",
@@ -3911,8 +3925,8 @@
 		},
 		"pvpFailed2": {
 			"body": {
-				"eng": "You tried to mug ${playerName} but you lost the fight, you lost ${amount} ${currencyName}",
-				"trans": "プレイヤー${playerName}を襲おうとしたが返り討ちに遭い、${amount} ${currencyName}を失った"
+				"eng": "You tried to mug ${playerName} but you lost the fight, you lost ${amount}",
+				"trans": "${playerName}を襲おうとしましたが、戦闘に負けてしまい、${amount}を失いました。"
 			}
 		}
 	},
@@ -5338,8 +5352,8 @@
 	},
 	"placeHitPage": {
 		"levelTooLow": {
-			"eng": "You need to be at least level {level} to place a hit.",
-			"trans": "ヒットを発動するには、最低でもレベル{level}に達する必要があります。"
+			"eng": "You need to be at least level ${level} to place a hit.",
+			"trans": "ヒットを発動するには、少なくともレベル${level}に達する必要があります。"
 		},
 		"notEnoughUnitError": {
 			"eng": "Minimum hit bounty is ${minNormal} or ${minUnit}",
@@ -6221,6 +6235,10 @@
 				"eng": "You cannot initiate PVP with a player that is below level ${level} and has not actively engaged in PVP",
 				"trans": "レベル${level}未満のプレイヤー、またはPVPに積極的に参加していないプレイヤーとはPVPを開始することはできません。"
 			},
+			"cannotEngageProtectedPlayer": {
+				"eng": "This player is protected with ${item}, you cannot engage them at this moment",
+				"trans": "このプレイヤーは${item}で保護されています、現在は攻撃できません。"
+			},
 			"combatNotFound": {
 				"eng": "Combat has ended",
 				"trans": "戦闘が終了しました"
@@ -6402,6 +6420,10 @@
 			}
 		},
 		"error": {
+			"conflictStatus": {
+				"eng": "You can't use this item while ${status} statusEffect is active",
+				"trans": "${status}の状態異常が発生している間は、このアイテムを使用することはできません。"
+			},
 			"dungeonHasExpired": {
 				"eng": "Dungeon has expired",
 				"trans": "要塞の有効期限が切れました"
@@ -6845,6 +6867,16 @@
 			"name": {
 				"eng": "Hostile",
 				"trans": "敵対的な"
+			}
+		},
+		"pvpProtection": {
+			"desc": {
+				"eng": "While this status is active, you cannot be attacked by other players. This status will be removed when you attack another player.",
+				"trans": "このステータスが有効な間は、他のプレイヤーから攻撃を受けることはできません。他のプレイヤーを攻撃すると、このステータスは解除されます。"
+			},
+			"name": {
+				"eng": "PVP Protection",
+				"trans": "PVP保護"
 			}
 		}
 	},
@@ -7839,6 +7871,18 @@
 			"announcement": {
 				"eng": "${playerName} has calibrated ${item}!",
 				"trans": "${playerName}が${item}をキャリブレーションしました！"
+			}
+		},
+		"calibrated7": {
+			"announcement": {
+				"eng": "${playerName} has calibrated ${item}!",
+				"trans": "${playerName}は${item}をキャリブレーションしました！"
+			}
+		},
+		"calibrated8": {
+			"announcement": {
+				"eng": "${playerName} has calibrated ${item}!",
+				"trans": "${playerName}は${item}をキャリブレーションしました！"
 			}
 		},
 		"calibrated9": {

@@ -969,7 +969,17 @@
 			"eng": "Your cyber-psychosis level is too high to engage in fights",
 			"trans": "전투에 참여하기에 사이버 싸이코 레벨이 너무 높습니다"
 		},
-		"pvpProtection": {
+		"pvpProtectionItemPopup": {
+			"description": {
+				"eng": "You are currently protected from PVP by ${item}, if you attack others now you will lose the buff, are you sure you want to proceed?",
+				"trans": "현재 ${item}으로 PVP로부터 보호받고 있습니다. 다른 플레이어를 공격하면 버프가 사라집니다. 계속 진행하시겠습니까?"
+			},
+			"title": {
+				"eng": "PVP Protection",
+				"trans": "PVP 보호"
+			}
+		},
+		"pvpProtectionLevelPopup": {
 			"description": {
 				"eng": "You are under PVP protection until level ${level}, but if you actively engaged in PVP your PVP protection will be removed",
 				"trans": "레벨 ${level}까지는 PVP 보호 상태입니다. 하지만 PVP에 적극적으로 참여하면 PVP 보호가 해제됩니다"
@@ -1229,12 +1239,6 @@
 			"name": {
 				"eng": "Netcoin",
 				"trans": "넷코인"
-			}
-		},
-		"error": {
-			"insufficient": {
-				"eng": "You do not have enough {currency}",
-				"trans": "{currency}이(가) 부족합니다"
 			}
 		},
 		"mercExpCurrency": {
@@ -3353,6 +3357,16 @@
 				"trans": "접두사 주입 샤드"
 			}
 		},
+		"pvpProtection": {
+			"description": {
+				"eng": "Whoever invokes the Token of Peace shall not be attacked, use this to receive ${day} day of PVP protection buff",
+				"trans": "평화의 토큰을 사용하는 자는 공격받지 않습니다. 이를 사용하여 PVP 보호 버프를 ${day}일 동안 받으세요"
+			},
+			"name": {
+				"eng": "Token of Peace",
+				"trans": "평화의 토큰"
+			}
+		},
 		"rareCalibrationSafety": {
 			"description": {
 				"eng": "Use to decrease chance of equipment destruction by ${percent}% when calibration failed",
@@ -3911,8 +3925,8 @@
 		},
 		"pvpFailed2": {
 			"body": {
-				"eng": "You tried to mug ${playerName} but you lost the fight, you lost ${amount} ${currencyName}",
-				"trans": "${playerName}을(를) 노린 당신은 싸움에서 패배했습니다. ${amount} ${currencyName}을(를) 잃었습니다"
+				"eng": "You tried to mug ${playerName} but you lost the fight, you lost ${amount}",
+				"trans": "${playerName}을(를) 노린 당신은 싸움에서 패배했습니다. ${amount}을(를) 잃었습니다"
 			}
 		}
 	},
@@ -5338,8 +5352,8 @@
 	},
 	"placeHitPage": {
 		"levelTooLow": {
-			"eng": "You need to be at least level {level} to place a hit.",
-			"trans": "공격을 하려면 최소한 레벨 {level}이 되어야 합니다."
+			"eng": "You need to be at least level ${level} to place a hit.",
+			"trans": "${level} 레벨 이상이어야 공격을 할 수 있습니다."
 		},
 		"notEnoughUnitError": {
 			"eng": "Minimum hit bounty is ${minNormal} or ${minUnit}",
@@ -6221,6 +6235,10 @@
 				"eng": "You cannot initiate PVP with a player that is below level ${level} and has not actively engaged in PVP",
 				"trans": "레벨 ${level} 이하이며 PVP에 적극적으로 참여하지 않은 플레이어와는 PVP를 시작할 수 없습니다"
 			},
+			"cannotEngageProtectedPlayer": {
+				"eng": "This player is protected with ${item}, you cannot engage them at this moment",
+				"trans": "이 플레이어는 ${item}으로 보호되어 있으므로, 현재 상황에서는 공격할 수 없습니다"
+			},
 			"combatNotFound": {
 				"eng": "Combat has ended",
 				"trans": "전투가 종료되었습니다"
@@ -6402,6 +6420,10 @@
 			}
 		},
 		"error": {
+			"conflictStatus": {
+				"eng": "You can't use this item while ${status} statusEffect is active",
+				"trans": "${status} 상태효과가 활성화되어 있는 동안 이 아이템을 사용할 수 없습니다"
+			},
 			"dungeonHasExpired": {
 				"eng": "Dungeon has expired",
 				"trans": "던전이 만료되었습니다"
@@ -6845,6 +6867,16 @@
 			"name": {
 				"eng": "Hostile",
 				"trans": "적대"
+			}
+		},
+		"pvpProtection": {
+			"desc": {
+				"eng": "While this status is active, you cannot be attacked by other players. This status will be removed when you attack another player.",
+				"trans": "이 상태가 활성화되어 있는 동안 다른 플레이어에게 공격받지 않습니다. 다른 플레이어를 공격할 경우 이 상태가 제거됩니다."
+			},
+			"name": {
+				"eng": "PVP Protection",
+				"trans": "PVP 보호"
 			}
 		}
 	},
@@ -7836,6 +7868,18 @@
 			}
 		},
 		"calibrated10": {
+			"announcement": {
+				"eng": "${playerName} has calibrated ${item}!",
+				"trans": "${playerName}님이 ${item}을(를) 교정했습니다!"
+			}
+		},
+		"calibrated7": {
+			"announcement": {
+				"eng": "${playerName} has calibrated ${item}!",
+				"trans": "${playerName}님이 ${item}을(를) 교정했습니다!"
+			}
+		},
+		"calibrated8": {
 			"announcement": {
 				"eng": "${playerName} has calibrated ${item}!",
 				"trans": "${playerName}님이 ${item}을(를) 교정했습니다!"
