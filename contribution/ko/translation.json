@@ -35,7 +35,7 @@
 		"attack": {
 			"description": {
 				"eng": "Attacks the enemy for ${amount} health points",
-				"trans": "${amount}의 체력 포인트를 상대에게 공격합니다"
+				"trans": "적을 ${amount}만큼 공격합니다"
 			},
 			"triggered": {
 				"eng": "${playerName} Attacked for ${amount} damage",
@@ -51,7 +51,7 @@
 		"burn": {
 			"description": {
 				"eng": "Burns targeted enemy for ${amount} damage for ${turns} turns",
-				"trans": "적을 ${amount}의 데미지로 ${turns}턴 동안 태우기"
+				"trans": "적을 ${amount}의 데미지로 ${turns}턴 동안 태웁니다"
 			},
 			"triggered": {
 				"eng": "${merc} burns ${enemy}, ${enemy} received ${damage} damage.",
@@ -71,7 +71,7 @@
 		"heal": {
 			"description": {
 				"eng": "Heals your character for ${amount} health point",
-				"trans": "캐릭터의 체력을 ${amount} 포인트 회복합니다"
+				"trans": "캐릭터의 체력을 ${amount}만큼 회복합니다"
 			},
 			"triggered": {
 				"eng": "${merc} Healed ${playerName} for ${amount} health",
@@ -105,7 +105,7 @@
 			},
 			"triggered": {
 				"eng": "${merc} poisoned all enemies, dealt ${damage} damage each.",
-				"trans": "${merc}은(는) 모든 적에게 독을 퍼뜨려, 각각 ${damage}의 피해를 입혔습니다."
+				"trans": "${merc}이(가) 모든 적에게 독을 퍼뜨려, 각각 ${damage}의 피해를 입혔습니다."
 			}
 		},
 		"shield": {
@@ -125,7 +125,7 @@
 			},
 			"triggered": {
 				"eng": "${merc} shields the team for ${amount}",
-				"trans": "${merc}이(가) 팀을 ${amount}만큼 보호합니다"
+				"trans": "${merc}이(가) 팀을 ${amount}만큼 보호했습니다"
 			}
 		}
 	},
@@ -2505,11 +2505,11 @@
 		},
 		"cantScrapEquipped": {
 			"eng": "You can\\'t scrap equipped items",
-			"trans": "장착한 아이템은 분해할 수 없습니다"
+			"trans": "장착한 아이템은 폐기할 수 없습니다"
 		},
 		"cantScrapLocked": {
 			"eng": "You can\\'t scrap locked items",
-			"trans": "잠긴 아이템은 분해할 수 없습니다"
+			"trans": "잠긴 아이템은 폐기할 수 없습니다"
 		},
 		"diff": {
 			"header1": {
@@ -2559,7 +2559,7 @@
 		},
 		"scrap": {
 			"eng": "scrap",
-			"trans": "분해"
+			"trans": "폐기"
 		},
 		"unequip": {
 			"eng": "Unequip",
@@ -4604,7 +4604,7 @@
 			},
 			"selfClickError": {
 				"eng": "This button is for others to click to invite you, to accept invites please click on accept button in notification center (bell icon in top right corner of main screen",
-				"trans": "이 버튼은 다른 사람들이 당신을 초대할 수 있도록 클릭하는 버튼입니다. 초대를 수락하려면 알림 센터(메인 화면 오른쪽 상단의 벨 아이콘)의 수락 버튼을 클릭하세요"
+				"trans": "이 버튼은 다른 사람들이 당신을 초대하기 위해 클릭하는 버튼입니다. 초대를 수락하려면 알림 센터의 수락 버튼을 클릭하세요 (메인 화면 오른쪽 상단의 벨 아이콘)"
 			},
 			"title": {
 				"eng": "Send invite?",
@@ -5501,7 +5501,7 @@
 			"discard": {
 				"title": {
 					"eng": "Scrap",
-					"trans": "분해"
+					"trans": "폐기"
 				}
 			}
 		},
@@ -5537,7 +5537,7 @@
 	"playerPassport": {
 		"hostile": {
 			"eng": "Hostile",
-			"trans": "적대적인"
+			"trans": "적대적"
 		}
 	},
 	"playerPhotoSelection": {
