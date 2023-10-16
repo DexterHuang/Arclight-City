@@ -355,7 +355,7 @@
 		"dex": {
 			"desc": {
 				"eng": "Increase firearm damage.",
-				"trans": "銃火器のダメージを増加する。"
+				"trans": "銃火器のダメージを増やす。"
 			},
 			"name": {
 				"eng": "Dexterity",
@@ -385,7 +385,7 @@
 		"vit": {
 			"desc": {
 				"eng": "Increases health",
-				"trans": "体力を増加します。"
+				"trans": "体力を増やす。"
 			},
 			"name": {
 				"eng": "Vitality",
@@ -639,7 +639,7 @@
 		"failed": {
 			"description": {
 				"eng": "Calibration was unsuccessful. item preserved.",
-				"trans": "キャリブレーションが失敗しました。アイテムは保護されました。"
+				"trans": "キャリブレーションが失敗しましたが、アイテムは失われませんでした。"
 			},
 			"title": {
 				"eng": "Calibration failed",
@@ -953,15 +953,15 @@
 	"collectedLoreNotes": {
 		"description": {
 			"eng": "You have collected ${collected} of ${total} lore notes.",
-			"trans": "あなたは${total}個のロールノートのうち、${collected}個を集めました。"
+			"trans": "あなたは${total}個のロアノートのうち、${collected}個を集めました。"
 		},
 		"noNotes": {
 			"eng": "You have not collected any lore notes yet.",
-			"trans": "まだロールノートを収集していません。"
+			"trans": "まだロアノートを収集していません。"
 		},
 		"title": {
 			"eng": "Collected Lore Notes",
-			"trans": "収集したロールノート"
+			"trans": "収集したロアノート"
 		}
 	},
 	"combatHandler": {
@@ -1327,18 +1327,18 @@
 		},
 		"refreshNow": {
 			"eng": "Refresh Rewards",
-			"trans": "リフレッシュ報酬"
+			"trans": "報酬をリフレッシュする"
 		},
 		"title": {
 			"eng": "Daily Reward",
-			"trans": "デイリーリワード"
+			"trans": "デイリー報酬"
 		}
 	},
 	"dailyRewardType": {
 		"normal": {
 			"name": {
 				"eng": "Daily Reward",
-				"trans": "デイリーリワード"
+				"trans": "デイリー報酬"
 			}
 		}
 	},
@@ -1363,7 +1363,7 @@
 		},
 		"title": {
 			"eng": "Flatlined",
-			"trans": "心肺停止"
+			"trans": "心停止"
 		},
 		"upgradeItemHint": {
 			"eng": "Try level up and upgrade your items",
@@ -3056,7 +3056,7 @@
 		"commonLevelShard": {
 			"description": {
 				"eng": "Use to level up an common item to its next level",
-				"trans": "コモンアイテムを次のレベルにアップグレードするために使用する。"
+				"trans": "コモンアイテムを次のレベルにアップします"
 			},
 			"name": {
 				"eng": "Common Level Shard",
@@ -3096,7 +3096,7 @@
 		"epicLevelShard": {
 			"description": {
 				"eng": "Use to level up an epic item to its next level",
-				"trans": "エピックアイテムを次のレベルに上げるために使用する。"
+				"trans": "エピックアイテムを次のレベルにアップします"
 			},
 			"name": {
 				"eng": "Epic Level Shard",
@@ -3106,7 +3106,7 @@
 		"epicResetShard": {
 			"description": {
 				"eng": "Use to reset a epic item with new traits by chance",
-				"trans": "新しい特徴を備えたエピックアイテムをランダムにリセットするために使用する。"
+				"trans": "エピックアイテムをリセットし、新しい特性を付与します"
 			},
 			"name": {
 				"eng": "Epic Reset Shard",
@@ -3116,7 +3116,7 @@
 		"epicUpgradeShard": {
 			"description": {
 				"eng": "Use to upgrade an unique item to epic tier",
-				"trans": "ユニークアイテムをエピックティアにアップグレードするために使用する"
+				"trans": "ユニークアイテムをエピック・ティアにアップグレードします"
 			},
 			"name": {
 				"eng": "Epic Upgrade Shard",
@@ -3244,7 +3244,7 @@
 		"lootDoorKey": {
 			"description": {
 				"eng": "A cutting-edge cyberpunk device that serves as a key to unlock high-security doors in the dystopian strongholds, revealing valuable loot and hidden rewards.",
-				"trans": "ディストピアの地城で高セキュリティのドアを解錠するための鍵となる、貴重なアイテムや隠された報酬を明らかにする、最先端のサイバーパンクデバイス。"
+				"trans": "ディストピアの要塞で高セキュリティのドアを解錠するための鍵となる、貴重なアイテムや隠された報酬を明らかにする、最先端のサイバーパンクデバイス。"
 			},
 			"name": {
 				"eng": "decryption Key",
@@ -3324,7 +3324,7 @@
 		"neuroblocker": {
 			"description": {
 				"eng": "Neuroblockers were developed to counteract the negative effects that cybernetic implants had on the human body. By suppressing these effects, people were able to use these implants with reduced suffering from physical or mental issues. When used, reduce cyber psychosis by ${amount}.",
-				"trans": "ニューラルブロッカーは、サイバーネットのインプラントが人体に与える負の影響を抑えるために開発されました。これらの影響を抑制することで、人々は身体や精神の問題から苦しみを軽減しながらこれらのインプラントを使用することができました。使用すると、サイバーサイコシスを${amount}減らします。"
+				"trans": "ニューロブロッカーは、サイバーネットのインプラントが人体に与える負の影響を抑えるために開発されました。これらの影響を抑制することで、人々は身体や精神の問題から苦しみを軽減しながらこれらのインプラントを使用することができました。使用すると、サイバーサイコシスを${amount}減らします。"
 			},
 			"name": {
 				"eng": "Neuroblocker",
@@ -3360,7 +3360,7 @@
 		"pvpProtection": {
 			"description": {
 				"eng": "Whoever invokes the Token of Peace shall not be attacked, use this to receive ${day} day of PVP protection buff",
-				"trans": "平和のトークンを発動した者は攻撃されません、${day}日間のPVP保護バフを受け取るために使用してください。"
+				"trans": "平和の証を発動した者は攻撃されません。${day}日間のPVP保護バフを受けることができます。"
 			},
 			"name": {
 				"eng": "Token of Peace",
@@ -3380,7 +3380,7 @@
 		"rareLevelShard": {
 			"description": {
 				"eng": "Use to level up an rare item to its next level",
-				"trans": "レアアイテムを次のレベルにアップさせるために使用する。"
+				"trans": "レアアイテムを次のレベルにアップさせるために使用します"
 			},
 			"name": {
 				"eng": "Rare Level Shard",
@@ -3390,7 +3390,7 @@
 		"rareResetShard": {
 			"description": {
 				"eng": "Use to reset a rare item with new traits by chance",
-				"trans": "新しい特徴を持つレアアイテムに再設定するために使用する。"
+				"trans": レアアイテムをリセットし、新しい特性を付与します"
 			},
 			"name": {
 				"eng": "Rare Reset Shard",
@@ -3400,7 +3400,7 @@
 		"rareUpgradeShard": {
 			"description": {
 				"eng": "Use to upgrade an uncommon item to rare tier",
-				"trans": "レアアイテムにアップグレードするために使用する、アンコモンアイテムを使用します。"
+				"trans": "アンコモンアイテムをレア・ティアにアップグレードします。"
 			},
 			"name": {
 				"eng": "Rare Upgrade Shard",
@@ -3450,13 +3450,13 @@
 			},
 			"name": {
 				"eng": "Satay",
-				"trans": "サタイ"
+				"trans": "サテー"
 			}
 		},
 		"shadowToken": {
 			"description": {
 				"eng": "A token can be used to trade with the merchants in strongholds.",
-				"trans": "トークンは地城の商人との取引に使用することができます。"
+				"trans": "トークンは要塞の商人との取引に使用することができます。"
 			},
 			"name": {
 				"eng": "Shadow Token",
@@ -3496,7 +3496,7 @@
 		"uncommonCalibrationSafety": {
 			"description": {
 				"eng": "Use to decrease chance of equipment destruction by ${percent}% when calibration failed",
-				"trans": "キャリブレーションに失敗した場合、装備品の破壊確率を${percent}%減らすために使用してください。"
+				"trans": "キャリブレーションに失敗した場合、装備品の破壊確率を${percent}%減らすために使用します"
 			},
 			"name": {
 				"eng": "Uncommon Calibration Circuit Breaker",
@@ -3506,7 +3506,7 @@
 		"uncommonLevelShard": {
 			"description": {
 				"eng": "Use to level up an uncommon item to its next level",
-				"trans": "レア度の低いアイテムを次のレベルにアップするために使用する。"
+				"trans": "アンコモンアイテムを次のレベルにアップします"
 			},
 			"name": {
 				"eng": "Uncommon Level Shard",
@@ -3516,7 +3516,7 @@
 		"uncommonResetShard": {
 			"description": {
 				"eng": "Use to reset a uncommon item with new traits by chance",
-				"trans": "新しい特性で希少なアイテムをリセットするために使用する"
+				"trans": "アンコモンアイテムをリセットし、新しい特性を付与します"
 			},
 			"name": {
 				"eng": "Uncommon Reset Shard",
@@ -3526,7 +3526,7 @@
 		"uncommonUpgradeShard": {
 			"description": {
 				"eng": "Use to upgrade an common item to uncommon tier",
-				"trans": "一般アイテムをアンコモンティアにアップグレードするために使用する"
+				"trans": "コモンアイテムをアンコモン・ティアにアップグレードします"
 			},
 			"name": {
 				"eng": "Uncommon Upgrade Shard",
@@ -3536,7 +3536,7 @@
 		"uniqueLevelShard": {
 			"description": {
 				"eng": "Use to level up an unique item to its next level",
-				"trans": "ユニークアイテムを次のレベルにアップさせるために使用する。"
+				"trans": "ユニークアイテムを次のレベルにアップします"
 			},
 			"name": {
 				"eng": "Unique Level Shard",
@@ -3546,7 +3546,7 @@
 		"uniqueResetShard": {
 			"description": {
 				"eng": "Use to reset a unique item with new traits by chance",
-				"trans": "ユニークアイテムの特性をランダムにリセットするための使用"
+				"trans": "ユニークアイテムをリセットし、新しい特性を付与します"
 			},
 			"name": {
 				"eng": "Unique Reset Shard",
@@ -3556,7 +3556,7 @@
 		"uniqueUpgradeShard": {
 			"description": {
 				"eng": "Use to upgrade an rare item to unique tier",
-				"trans": "レアアイテムをユニークティアにアップグレードするために使用する"
+				"trans": "レアアイテムをユニーク・ティアにアップグレードします"
 			},
 			"name": {
 				"eng": "Unique Upgrade Shard",
@@ -3760,7 +3760,7 @@
 		"medical": {
 			"currentEffectDescription": {
 				"eng": "Increases intelligence by ${intelligence} (increases damage by ${healing}) and Extraction Mission task profit to ${profit}",
-				"trans": "知力を${intelligence}増加させます（エネルギー兵器のダメージを${healing}増加させます）そして救援任務の収益を${profit}に増やします。"
+				"trans": "知力を${intelligence}増加させます（エネルギー兵器のダメージを${healing}増加させます）そして救出ミッションの収益を${profit}に増やします。"
 			},
 			"description": {
 				"eng": "Increases intelligence attribute by 1 every level, and increases profit from this job type",
@@ -3854,7 +3854,7 @@
 		},
 		"lockedError": {
 			"eng": "You can travel to this location when you reach level ${level}, or by completing the previous level stronghold.",
-			"trans": "この場所には、レベル${level}に達するか、前のレベルの地城をクリアすることで行くことができます。",
+			"trans": "この場所には、レベル${level}に達するか、前のレベルの要塞をクリアすることで行くことができます。",
 			"vars": []
 		}
 	},
@@ -3907,7 +3907,7 @@
 	"loreNote": {
 		"collectedMessage": {
 			"eng": "You have collected a new lore note",
-			"trans": "新しい背景故事を入手しました"
+			"trans": "新しいロアノートを入手しました"
 		}
 	},
 	"mail": {
@@ -4759,7 +4759,7 @@
 			},
 			"message": {
 				"eng": "${playerName} has invited you to their stronghold lobby.",
-				"trans": "${playerName}さんがあなたを彼らの地城ロビーに招待しました。"
+				"trans": "${playerName}さんがあなたを彼らの要塞ロビーに招待しました。"
 			},
 			"title": {
 				"eng": "Stronghold Lobby Invite",
@@ -4909,7 +4909,7 @@
 				],
 				"trans": [
 					"今はちょっと待っててくれ、クロームヘッド。でも心配しないで。あなたのスキルに合った仕事があるときに連絡するよ。",
-					"今は何もないけど、まだ再起動しないで。何かスパイシーなものがあるときに連絡するよ。辛抱して待ってて、チュームバ。",
+					"今は何もないけど、まだ再起動しないで。何かスパイシーなものがあるときに連絡するよ。辛抱して待ってて、チューマ。",
 					"甘い機会はないけど、冷静にしてて。いいチャンスが来たら連絡するよ。"
 				]
 			},
@@ -4944,7 +4944,7 @@
 					"Upgrade some chromes today choom?"
 				],
 				"trans": [
-					"今日はいくつかのクロームをアップグレードしますか、チューム？"
+					"今日はいくつかのクロームをアップグレードしますか、チューマ？"
 				]
 			},
 			"locationName": {
@@ -4963,7 +4963,7 @@
 				],
 				"trans": [
 					"新米の君には仕事はない。でもあまり遠くには行かないでほしい。私はトラブルに巻き込まれる才能があるから、その時が来たら君を前に出すよ。",
-					"現在は仕事はありませんが、まだ再起動しないでください。おいしいものを提供できるときに連絡します。忍耐力を持って待っていてください、チューバ。",
+					"現在は仕事はありませんが、まだ再起動しないでください。おいしいものを提供できるときに連絡します。忍耐力を持って待っていてください、チューム。",
 					"修理をお探しですか？残念ながら、私の手術台には新しいクエストはありません。しかし、繊細な抽出が必要な仕事がある時には、あなたの名前をファイルに保管しておきます。"
 				]
 			},
@@ -7651,7 +7651,7 @@
 			},
 			"loreNotes": {
 				"eng": "lore notes",
-				"trans": "ロールノート"
+				"trans": "ロアノート"
 			},
 			"settings": {
 				"eng": "Settings",
