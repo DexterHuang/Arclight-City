@@ -3360,11 +3360,11 @@
 		"pvpProtection": {
 			"description": {
 				"eng": "Whoever invokes the Token of Peace shall not be attacked, use this to receive ${day} day of PVP protection buff",
-				"trans": "평화의 토큰을 사용하는 자는 공격받지 않습니다. 이를 사용하여 PVP 보호 버프를 ${day}일 동안 받으세요"
+				"trans": "평화의 증표를 발동 중인 자는 공격받지 않습니다. 사용하여 PVP 보호 버프를 ${day}일 동안 받을 수 있습니다"
 			},
 			"name": {
 				"eng": "Token of Peace",
-				"trans": "평화의 토큰"
+				"trans": "평화의 증표"
 			}
 		},
 		"rareCalibrationSafety": {
@@ -3926,7 +3926,7 @@
 		"pvpFailed2": {
 			"body": {
 				"eng": "You tried to mug ${playerName} but you lost the fight, you lost ${amount}",
-				"trans": "${playerName}을(를) 노린 당신은 싸움에서 패배했습니다. ${amount}을(를) 잃었습니다"
+				"trans": "당신은 ${playerName}을(를) 노렸지만 싸움에서 패배했습니다. ${amount}을(를) 잃었습니다"
 			}
 		}
 	},
@@ -5353,7 +5353,7 @@
 	"placeHitPage": {
 		"levelTooLow": {
 			"eng": "You need to be at least level ${level} to place a hit.",
-			"trans": "${level} 레벨 이상이어야 공격을 할 수 있습니다."
+			"trans": "현상금을 걸기 위해선 ${level}레벨 이상이어야 합니다."
 		},
 		"notEnoughUnitError": {
 			"eng": "Minimum hit bounty is ${minNormal} or ${minUnit}",
@@ -6237,7 +6237,7 @@
 			},
 			"cannotEngageProtectedPlayer": {
 				"eng": "This player is protected with ${item}, you cannot engage them at this moment",
-				"trans": "이 플레이어는 ${item}으로 보호되어 있으므로, 현재 상황에서는 공격할 수 없습니다"
+				"trans": "이 플레이어는 ${item}으로 보호되고 있습니다. 지금은 대상을 공격할 수 없습니다"
 			},
 			"combatNotFound": {
 				"eng": "Combat has ended",
@@ -6422,7 +6422,7 @@
 		"error": {
 			"conflictStatus": {
 				"eng": "You can't use this item while ${status} statusEffect is active",
-				"trans": "${status} 상태효과가 활성화되어 있는 동안 이 아이템을 사용할 수 없습니다"
+				"trans": "${status} 상태가 활성화되어 있는 동안 이 아이템을 사용할 수 없습니다"
 			},
 			"dungeonHasExpired": {
 				"eng": "Dungeon has expired",
@@ -7864,37 +7864,37 @@
 		"bountyAdded": {
 			"announcement": {
 				"eng": "bounty of ${amount1}/${amount2} has been placed on ${targetName}!",
-				"trans": "${amount1}/${amount2}의 현상금이 ${targetName}에게 걸렸습니다!"
+				"trans": "${targetName}에게 ${amount1}/${amount2}의 현상금이 걸렸습니다!"
 			}
 		},
 		"calibrated10": {
 			"announcement": {
 				"eng": "${playerName} has calibrated ${item}!",
-				"trans": "${playerName}님이 ${item}을(를) 교정했습니다!"
+				"trans": "${playerName}이(가) ${item}을(를) 교정했습니다!"
 			}
 		},
 		"calibrated7": {
 			"announcement": {
 				"eng": "${playerName} has calibrated ${item}!",
-				"trans": "${playerName}님이 ${item}을(를) 교정했습니다!"
+				"trans": "${playerName}이(가) ${item}을(를) 교정했습니다!"
 			}
 		},
 		"calibrated8": {
 			"announcement": {
 				"eng": "${playerName} has calibrated ${item}!",
-				"trans": "${playerName}님이 ${item}을(를) 교정했습니다!"
+				"trans": "${playerName}이(가) ${item}을(를) 교정했습니다!"
 			}
 		},
 		"calibrated9": {
 			"announcement": {
 				"eng": "${playerName} has calibrated ${item}!",
-				"trans": "${playerName}님이 ${item}을(를) 교정했습니다!"
+				"trans": "${playerName}이(가) ${item}을(를) 교정했습니다!"
 			}
 		},
 		"calibrationFailed": {
 			"announcement": {
 				"eng": "${playerName} broke ${item} while calibrating",
-				"trans": "${playerName}이(가) ${item}을(를) 교정하는 도중 부서졌습니다"
+				"trans": "${playerName}의 ${item}이(가) 교정 중에 부서졌습니다"
 			}
 		},
 		"citizenArrest": {
@@ -7918,7 +7918,7 @@
 		"upgradedEpic": {
 			"announcement": {
 				"eng": "${playerName} upgraded ${item}!",
-				"trans": "${playerName}님이 ${item}을(를) 업그레이드했습니다!"
+				"trans": "${playerName}이(가) ${item}을(를) 업그레이드했습니다!"
 			}
 		}
 	}
