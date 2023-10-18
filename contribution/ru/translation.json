@@ -1,4 +1,10 @@
 {
+	"CrewTip": {
+		"tip1": {
+			"eng": "Looks like one or more of your mercenary is low level, you should level them up to match your level using ${item1} and ${item2}",
+			"trans": ""
+		}
+	},
 	"MercenaryDrawType": {
 		"ELITE": {
 			"description": {
@@ -90,8 +96,8 @@
 		},
 		"poison": {
 			"description": {
-				"eng": "Poisons the enemy for ${amount} for ${turn} terns",
-				"trans": "Отравляет врага на ${amount} в течение ${turn} ходов"
+				"eng": "Poisons the enemy for ${amount} for ${turn} turns",
+				"trans": ""
 			},
 			"triggered": {
 				"eng": "${merc} poisoned ${enemy}, ${enemy} received ${damage} damage.",
@@ -631,6 +637,12 @@
 			"trans": "содержание"
 		}
 	},
+	"caliTip": {
+		"1": {
+			"eng": "Seems like some of your equipments are still at +${cali} calibration level or lower. You should calibration them to at least +${targetCali} calibration level at the item calibration interface using ${calibrator}",
+			"trans": ""
+		}
+	},
 	"calibrationResultPopup": {
 		"confirm": {
 			"eng": "Confirm",
@@ -920,6 +932,38 @@
 			"trans": "общий"
 		}
 	},
+	"clanPlayerPermissionModal": {
+		"subtitle": {
+			"eng": "Editing permission for ${playerName}",
+			"trans": ""
+		},
+		"title": {
+			"eng": "Edit Permissions",
+			"trans": ""
+		}
+	},
+	"clanPlayerPopup": {
+		"kickPlayerButton": {
+			"eng": "kick player",
+			"trans": ""
+		},
+		"setPermissionButton": {
+			"eng": "Edit Permissions",
+			"trans": ""
+		},
+		"transferOwnership": {
+			"eng": "Transfer Ownership",
+			"trans": ""
+		},
+		"transferOwnershipButton": {
+			"eng": "Transfer Ownership",
+			"trans": ""
+		},
+		"transferOwnershipConfirm": {
+			"eng": "Are you sure you want to transfer ownership of the gang to ${playerName}?\\nthis cannot be undone.",
+			"trans": ""
+		}
+	},
 	"clanSearchPage": {
 		"searchBox": {
 			"title": {
@@ -934,7 +978,6 @@
 			"trans": "пригласить игрока"
 		},
 		"playerPopup": {
-			"eng": "kick player",
 			"kickPlayer": {
 				"eng": "Kick ${playerName}",
 				"trans": "Ударить ${playerName}"
@@ -943,7 +986,6 @@
 				"eng": "Are you sure you want to kick this player from your gang?",
 				"trans": "Вы уверены, что хотите исключить этого игрока из вашей банды?"
 			},
-			"trans": "выгнать игрока",
 			"viewProfile": {
 				"eng": "View profile",
 				"trans": "Просмотреть профиль"
@@ -1228,6 +1270,12 @@
 				"eng": "View mercenary list",
 				"trans": "Просмотреть список наемников"
 			}
+		}
+	},
+	"crewTip": {
+		"title": {
+			"eng": "Mercenary Recommendation",
+			"trans": ""
 		}
 	},
 	"currency": {
@@ -1916,6 +1964,20 @@
 			}
 		}
 	},
+	"equipmentTip": {
+		"1": {
+			"eng": "To ensure the best survivability and damage, equip the best equipment you have. you can also purchase equipments from ${npc} cheaply",
+			"trans": ""
+		},
+		"3": {
+			"eng": "Seems like some of your equipments are still at ${tierType} tier or lower. You should upgrade them to at least ${targetTier} tier  by using ${upgradeItem} at the item upgrade interface",
+			"trans": ""
+		},
+		"title": {
+			"eng": "Equipment Recommendation",
+			"trans": ""
+		}
+	},
 	"equipmentType": {
 		"BOOTS": {
 			"name": {
@@ -2241,6 +2303,16 @@
 		}
 	},
 	"hitman": {
+		"error": {
+			"cannotPlaceBountyOnAdmin": {
+				"eng": "You cannot place bounty on this player",
+				"trans": ""
+			},
+			"cannotPlaceBountyOnSelf": {
+				"eng": "You cannot place bounty on yourself",
+				"trans": ""
+			}
+		},
 		"mail": {
 			"bountyAddedNotify": {
 				"eng": "A bounty has been placed on your head, current bounty - Eurodollar: ${money}, Universal Dollar: ${uni}",
@@ -5350,6 +5422,24 @@
 			"trans": "Продать"
 		}
 	},
+	"permission": {
+		"clanEditMotto": {
+			"eng": "Edit Motto",
+			"trans": ""
+		},
+		"clanInvite": {
+			"eng": "Invite",
+			"trans": ""
+		},
+		"clanKick": {
+			"eng": "Kick",
+			"trans": ""
+		},
+		"clanSetImage": {
+			"eng": "Set Image",
+			"trans": ""
+		}
+	},
 	"placeHitPage": {
 		"levelTooLow": {
 			"eng": "You need to be at least level ${level} to place a hit.",
@@ -7869,8 +7959,8 @@
 		},
 		"calibrated10": {
 			"announcement": {
-				"eng": "${playerName} has calibrated ${item}!",
-				"trans": "${playerName} откалибровал(а) ${item}!"
+				"eng": "${playerName} has calibrated ${item} to calibration level +10, we need to have a drink named after this legend!",
+				"trans": ""
 			}
 		},
 		"calibrated7": {
