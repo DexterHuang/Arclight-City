@@ -2,7 +2,7 @@
 	"CrewTip": {
 		"tip1": {
 			"eng": "Looks like one or more of your mercenary is low level, you should level them up to match your level using ${item1} and ${item2}",
-			"trans": ""
+			"trans": "Похоже, что один или несколько из ваших наемников имеют низкий уровень, вам следует повысить их уровень, используя ${item1} и ${item2}, чтобы соответствовать вашему уровню"
 		}
 	},
 	"MercenaryDrawType": {
@@ -97,7 +97,7 @@
 		"poison": {
 			"description": {
 				"eng": "Poisons the enemy for ${amount} for ${turn} turns",
-				"trans": ""
+				"trans": "Отравляет врага на ${amount} в течение ${turn} ходов"
 			},
 			"triggered": {
 				"eng": "${merc} poisoned ${enemy}, ${enemy} received ${damage} damage.",
@@ -640,7 +640,7 @@
 	"caliTip": {
 		"1": {
 			"eng": "Seems like some of your equipments are still at +${cali} calibration level or lower. You should calibration them to at least +${targetCali} calibration level at the item calibration interface using ${calibrator}",
-			"trans": ""
+			"trans": "Кажется, некоторое из вашего оборудования все еще имеет уровень калибровки +${cali} или ниже. Вы должны калибровать их до уровня калибровки +${targetCali} на интерфейсе калибровки предметов, используя ${calibrator}"
 		}
 	},
 	"calibrationResultPopup": {
@@ -935,33 +935,33 @@
 	"clanPlayerPermissionModal": {
 		"subtitle": {
 			"eng": "Editing permission for ${playerName}",
-			"trans": ""
+			"trans": "Редактирование разрешений для ${playerName}"
 		},
 		"title": {
 			"eng": "Edit Permissions",
-			"trans": ""
+			"trans": "Изменить разрешения"
 		}
 	},
 	"clanPlayerPopup": {
 		"kickPlayerButton": {
 			"eng": "kick player",
-			"trans": ""
+			"trans": "выгнать игрока"
 		},
 		"setPermissionButton": {
 			"eng": "Edit Permissions",
-			"trans": ""
+			"trans": "Изменить разрешения"
 		},
 		"transferOwnership": {
 			"eng": "Transfer Ownership",
-			"trans": ""
+			"trans": "Передача собственности"
 		},
 		"transferOwnershipButton": {
 			"eng": "Transfer Ownership",
-			"trans": ""
+			"trans": "Передача собственности"
 		},
 		"transferOwnershipConfirm": {
 			"eng": "Are you sure you want to transfer ownership of the gang to ${playerName}?\\nthis cannot be undone.",
-			"trans": ""
+			"trans": "Вы уверены, что хотите передать владение бандой ${playerName}?\\nЭто действие нельзя будет отменить."
 		}
 	},
 	"clanSearchPage": {
@@ -1275,7 +1275,7 @@
 	"crewTip": {
 		"title": {
 			"eng": "Mercenary Recommendation",
-			"trans": ""
+			"trans": "Рекомендация наемника"
 		}
 	},
 	"currency": {
@@ -1967,15 +1967,15 @@
 	"equipmentTip": {
 		"1": {
 			"eng": "To ensure the best survivability and damage, equip the best equipment you have. you can also purchase equipments from ${npc} cheaply",
-			"trans": ""
+			"trans": "Для обеспечения наилучшей выживаемости и урона, экипируйте лучшее оборудование, которое у вас есть. Вы также можете приобрести оборудование у ${npc} по низкой цене"
 		},
 		"3": {
-			"eng": "Seems like some of your equipments are still at ${tierType} tier or lower. You should upgrade them to at least ${targetTier} tier  by using ${upgradeItem} at the item upgrade interface",
-			"trans": ""
+			"eng": "Seems like some of your equipments are still at ${tierType} tier or lower. You should upgrade them to at least ${targetTier} tier by using ${upgradeItem} at the item upgrade interface",
+			"trans": "Похоже, что некоторое из вашего оборудования все еще находится на уровне ${tierType} или ниже. Вы должны улучшить их до уровня ${targetTier} как минимум, используя ${upgradeItem} в интерфейсе улучшения предметов"
 		},
 		"title": {
 			"eng": "Equipment Recommendation",
-			"trans": ""
+			"trans": "Рекомендация оборудования"
 		}
 	},
 	"equipmentType": {
@@ -2306,11 +2306,11 @@
 		"error": {
 			"cannotPlaceBountyOnAdmin": {
 				"eng": "You cannot place bounty on this player",
-				"trans": ""
+				"trans": "Вы не можете назначить награду на этого игрока"
 			},
 			"cannotPlaceBountyOnSelf": {
 				"eng": "You cannot place bounty on yourself",
-				"trans": ""
+				"trans": "Вы не можете назначить награду на себя"
 			}
 		},
 		"mail": {
@@ -5425,19 +5425,19 @@
 	"permission": {
 		"clanEditMotto": {
 			"eng": "Edit Motto",
-			"trans": ""
+			"trans": "Редактировать девиз"
 		},
 		"clanInvite": {
 			"eng": "Invite",
-			"trans": ""
+			"trans": "Пригласить"
 		},
 		"clanKick": {
 			"eng": "Kick",
-			"trans": ""
+			"trans": "Пинок"
 		},
 		"clanSetImage": {
 			"eng": "Set Image",
-			"trans": ""
+			"trans": "Установить изображение"
 		}
 	},
 	"placeHitPage": {
@@ -7095,8 +7095,8 @@
 				"trans": "Вы достигли максимального количества задач"
 			},
 			"notEnoughCurrency": {
-				"eng": "You do not have enough currency: ${currency}",
-				"trans": "У вас недостаточно валюты: ${currency}"
+				"eng": "You do not have enough ${currency}",
+				"trans": "У вас недостаточно ${currency}"
 			},
 			"notFound": {
 				"eng": "Task not found",
@@ -7960,7 +7960,7 @@
 		"calibrated10": {
 			"announcement": {
 				"eng": "${playerName} has calibrated ${item} to calibration level +10, we need to have a drink named after this legend!",
-				"trans": ""
+				"trans": "${playerName} откалибровал ${item} до уровня калибровки +10, нам нужно придумать напиток в честь этой легенды!"
 			}
 		},
 		"calibrated7": {

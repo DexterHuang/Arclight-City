@@ -2,7 +2,7 @@
 	"CrewTip": {
 		"tip1": {
 			"eng": "Looks like one or more of your mercenary is low level, you should level them up to match your level using ${item1} and ${item2}",
-			"trans": ""
+			"trans": "당신의 용병 중 하나 이상이 낮은 레벨인 것 같습니다. ${item1}과(와) ${item2}를 사용하여 당신의 레벨에 맞춰 레벨을 올려야 합니다"
 		}
 	},
 	"MercenaryDrawType": {
@@ -97,7 +97,7 @@
 		"poison": {
 			"description": {
 				"eng": "Poisons the enemy for ${amount} for ${turn} turns",
-				"trans": ""
+				"trans": "적을 ${amount} 동안 ${turn} 턴 동안 중독시킵니다"
 			},
 			"triggered": {
 				"eng": "${merc} poisoned ${enemy}, ${enemy} received ${damage} damage.",
@@ -640,7 +640,7 @@
 	"caliTip": {
 		"1": {
 			"eng": "Seems like some of your equipments are still at +${cali} calibration level or lower. You should calibration them to at least +${targetCali} calibration level at the item calibration interface using ${calibrator}",
-			"trans": ""
+			"trans": "장비 교정 인터페이스에서 ${calibrator}을(를) 사용하여 최소 +${targetCali} 교정 수준까지 교정해야 합니다. 현재 장비 중 일부는 여전히 +${cali} 교정 수준 이하인 것 같습니다"
 		}
 	},
 	"calibrationResultPopup": {
@@ -935,33 +935,33 @@
 	"clanPlayerPermissionModal": {
 		"subtitle": {
 			"eng": "Editing permission for ${playerName}",
-			"trans": ""
+			"trans": "${playerName}의 편집 권한"
 		},
 		"title": {
 			"eng": "Edit Permissions",
-			"trans": ""
+			"trans": "권한 편집"
 		}
 	},
 	"clanPlayerPopup": {
 		"kickPlayerButton": {
 			"eng": "kick player",
-			"trans": ""
+			"trans": "플레이어 추방하기"
 		},
 		"setPermissionButton": {
 			"eng": "Edit Permissions",
-			"trans": ""
+			"trans": "권한 편집"
 		},
 		"transferOwnership": {
 			"eng": "Transfer Ownership",
-			"trans": ""
+			"trans": "소유권 이전"
 		},
 		"transferOwnershipButton": {
 			"eng": "Transfer Ownership",
-			"trans": ""
+			"trans": "소유권 이전"
 		},
 		"transferOwnershipConfirm": {
 			"eng": "Are you sure you want to transfer ownership of the gang to ${playerName}?\\nthis cannot be undone.",
-			"trans": ""
+			"trans": "${playerName}님에게 갱의 소유권을 이전하시겠습니까?\\n이 작업은 되돌릴 수 없습니다."
 		}
 	},
 	"clanSearchPage": {
@@ -1275,7 +1275,7 @@
 	"crewTip": {
 		"title": {
 			"eng": "Mercenary Recommendation",
-			"trans": ""
+			"trans": "용병 추천"
 		}
 	},
 	"currency": {
@@ -1967,15 +1967,15 @@
 	"equipmentTip": {
 		"1": {
 			"eng": "To ensure the best survivability and damage, equip the best equipment you have. you can also purchase equipments from ${npc} cheaply",
-			"trans": ""
+			"trans": "최상의 생존력과 데미지를 보장하기 위해 가지고 있는 최고의 장비를 착용하세요. 또한 ${npc}에서 저렴하게 장비를 구매할 수도 있습니다"
 		},
 		"3": {
-			"eng": "Seems like some of your equipments are still at ${tierType} tier or lower. You should upgrade them to at least ${targetTier} tier  by using ${upgradeItem} at the item upgrade interface",
-			"trans": ""
+			"eng": "Seems like some of your equipments are still at ${tierType} tier or lower. You should upgrade them to at least ${targetTier} tier by using ${upgradeItem} at the item upgrade interface",
+			"trans": "당신의 장비 중 일부는 아직 ${tierType} 티어 이하입니다. 아이템 업그레이드 인터페이스에서 ${upgradeItem}을(를) 사용하여 적어도 ${targetTier} 티어로 업그레이드해야 합니다"
 		},
 		"title": {
 			"eng": "Equipment Recommendation",
-			"trans": ""
+			"trans": "장비 추천"
 		}
 	},
 	"equipmentType": {
@@ -2306,11 +2306,11 @@
 		"error": {
 			"cannotPlaceBountyOnAdmin": {
 				"eng": "You cannot place bounty on this player",
-				"trans": ""
+				"trans": "이 플레이어에게는 현상금을 걸 수 없습니다"
 			},
 			"cannotPlaceBountyOnSelf": {
 				"eng": "You cannot place bounty on yourself",
-				"trans": ""
+				"trans": "자신에게 현상금을 걸 수 없습니다"
 			}
 		},
 		"mail": {
@@ -5425,19 +5425,19 @@
 	"permission": {
 		"clanEditMotto": {
 			"eng": "Edit Motto",
-			"trans": ""
+			"trans": "모토 편집"
 		},
 		"clanInvite": {
 			"eng": "Invite",
-			"trans": ""
+			"trans": "초대하기"
 		},
 		"clanKick": {
 			"eng": "Kick",
-			"trans": ""
+			"trans": "발차기"
 		},
 		"clanSetImage": {
 			"eng": "Set Image",
-			"trans": ""
+			"trans": "이미지 설정"
 		}
 	},
 	"placeHitPage": {
@@ -7095,7 +7095,7 @@
 				"trans": "당신의 작업 수량이 최대치에 도달했습니다"
 			},
 			"notEnoughCurrency": {
-				"eng": "You do not have enough currency: ${currency}",
+				"eng": "You do not have enough ${currency}",
 				"trans": "${currency}이(가) 부족합니다"
 			},
 			"notFound": {
@@ -7960,7 +7960,7 @@
 		"calibrated10": {
 			"announcement": {
 				"eng": "${playerName} has calibrated ${item} to calibration level +10, we need to have a drink named after this legend!",
-				"trans": ""
+				"trans": "${playerName}님이 ${item}을(를) 교정 레벨 +10로 교정했습니다. 이 전설을 기념하는 음료를 마셔야겠어요!"
 			}
 		},
 		"calibrated7": {

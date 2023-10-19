@@ -2,7 +2,7 @@
 	"CrewTip": {
 		"tip1": {
 			"eng": "Looks like one or more of your mercenary is low level, you should level them up to match your level using ${item1} and ${item2}",
-			"trans": ""
+			"trans": "あなたの傭兵の中にはレベルが低いものが1つ以上あるようです。${item1}と${item2}を使用してレベルを上げて、あなたのレベルに合わせる必要があります。"
 		}
 	},
 	"MercenaryDrawType": {
@@ -97,7 +97,7 @@
 		"poison": {
 			"description": {
 				"eng": "Poisons the enemy for ${amount} for ${turn} turns",
-				"trans": ""
+				"trans": "${turn}ターンの間、敵に${amount}の毒を与える"
 			},
 			"triggered": {
 				"eng": "${merc} poisoned ${enemy}, ${enemy} received ${damage} damage.",
@@ -640,7 +640,7 @@
 	"caliTip": {
 		"1": {
 			"eng": "Seems like some of your equipments are still at +${cali} calibration level or lower. You should calibration them to at least +${targetCali} calibration level at the item calibration interface using ${calibrator}",
-			"trans": ""
+			"trans": "あなたの装備の中には、まだ+${cali}のキャリブレーションレベル以下のものがあるようです。アイテムのキャリブレーションインターフェースで${calibrator}を使用して、少なくとも+${targetCali}のキャリブレーションレベルに調整する必要があります。"
 		}
 	},
 	"calibrationResultPopup": {
@@ -935,33 +935,33 @@
 	"clanPlayerPermissionModal": {
 		"subtitle": {
 			"eng": "Editing permission for ${playerName}",
-			"trans": ""
+			"trans": "プレイヤー${playerName}の編集権限"
 		},
 		"title": {
 			"eng": "Edit Permissions",
-			"trans": ""
+			"trans": "権限の編集"
 		}
 	},
 	"clanPlayerPopup": {
 		"kickPlayerButton": {
 			"eng": "kick player",
-			"trans": ""
+			"trans": "プレイヤーをキックする"
 		},
 		"setPermissionButton": {
 			"eng": "Edit Permissions",
-			"trans": ""
+			"trans": "権限の編集"
 		},
 		"transferOwnership": {
 			"eng": "Transfer Ownership",
-			"trans": ""
+			"trans": "所有権の移転"
 		},
 		"transferOwnershipButton": {
 			"eng": "Transfer Ownership",
-			"trans": ""
+			"trans": "所有権の移転"
 		},
 		"transferOwnershipConfirm": {
 			"eng": "Are you sure you want to transfer ownership of the gang to ${playerName}?\\nthis cannot be undone.",
-			"trans": ""
+			"trans": "${playerName}にギャングの所有権を移転しますか？\\nこの操作は元に戻せません。"
 		}
 	},
 	"clanSearchPage": {
@@ -1275,7 +1275,7 @@
 	"crewTip": {
 		"title": {
 			"eng": "Mercenary Recommendation",
-			"trans": ""
+			"trans": "傭兵の推薦"
 		}
 	},
 	"currency": {
@@ -1967,15 +1967,15 @@
 	"equipmentTip": {
 		"1": {
 			"eng": "To ensure the best survivability and damage, equip the best equipment you have. you can also purchase equipments from ${npc} cheaply",
-			"trans": ""
+			"trans": "最高の生存力とダメージを確保するために、最高の装備を装備してください。また、${npc}から安価に装備を購入することもできます。"
 		},
 		"3": {
-			"eng": "Seems like some of your equipments are still at ${tierType} tier or lower. You should upgrade them to at least ${targetTier} tier  by using ${upgradeItem} at the item upgrade interface",
-			"trans": ""
+			"eng": "Seems like some of your equipments are still at ${tierType} tier or lower. You should upgrade them to at least ${targetTier} tier by using ${upgradeItem} at the item upgrade interface",
+			"trans": "あなたの装備の中には、まだ${tierType}ティア以下のものがあるようです。アイテムアップグレードインターフェースで${upgradeItem}を使用して、少なくとも${targetTier}ティアにアップグレードする必要があります。"
 		},
 		"title": {
 			"eng": "Equipment Recommendation",
-			"trans": ""
+			"trans": "装備の推薦"
 		}
 	},
 	"equipmentType": {
@@ -2306,11 +2306,11 @@
 		"error": {
 			"cannotPlaceBountyOnAdmin": {
 				"eng": "You cannot place bounty on this player",
-				"trans": ""
+				"trans": "このプレイヤーには賞金をかけることはできません。"
 			},
 			"cannotPlaceBountyOnSelf": {
 				"eng": "You cannot place bounty on yourself",
-				"trans": ""
+				"trans": "自分自身に賞金をかけることはできません。"
 			}
 		},
 		"mail": {
@@ -5425,19 +5425,19 @@
 	"permission": {
 		"clanEditMotto": {
 			"eng": "Edit Motto",
-			"trans": ""
+			"trans": "モットーを編集する"
 		},
 		"clanInvite": {
 			"eng": "Invite",
-			"trans": ""
+			"trans": "招待する"
 		},
 		"clanKick": {
 			"eng": "Kick",
-			"trans": ""
+			"trans": "キック"
 		},
 		"clanSetImage": {
 			"eng": "Set Image",
-			"trans": ""
+			"trans": "画像を設定する"
 		}
 	},
 	"placeHitPage": {
@@ -7960,7 +7960,7 @@
 		"calibrated10": {
 			"announcement": {
 				"eng": "${playerName} has calibrated ${item} to calibration level +10, we need to have a drink named after this legend!",
-				"trans": ""
+				"trans": "${playerName}は${item}をキャリブレーションレベル+10に調整しました。この伝説にちなんだドリンクを飲まなければなりません！"
 			}
 		},
 		"calibrated7": {

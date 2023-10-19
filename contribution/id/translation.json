@@ -2,7 +2,7 @@
 	"CrewTip": {
 		"tip1": {
 			"eng": "Looks like one or more of your mercenary is low level, you should level them up to match your level using ${item1} and ${item2}",
-			"trans": ""
+			"trans": "Sepertinya salah satu atau lebih dari mercenary Anda memiliki level yang rendah, Anda harus meningkatkan level mereka untuk sesuai dengan level Anda menggunakan ${item1} dan ${item2}"
 		}
 	},
 	"MercenaryDrawType": {
@@ -97,7 +97,7 @@
 		"poison": {
 			"description": {
 				"eng": "Poisons the enemy for ${amount} for ${turn} turns",
-				"trans": ""
+				"trans": "Meracuni musuh sebesar ${amount} selama ${turn} putaran"
 			},
 			"triggered": {
 				"eng": "${merc} poisoned ${enemy}, ${enemy} received ${damage} damage.",
@@ -640,7 +640,7 @@
 	"caliTip": {
 		"1": {
 			"eng": "Seems like some of your equipments are still at +${cali} calibration level or lower. You should calibration them to at least +${targetCali} calibration level at the item calibration interface using ${calibrator}",
-			"trans": ""
+			"trans": "Tampaknya beberapa peralatanmu masih berada di level kalibrasi +${cali} atau lebih rendah. Kamu harus mengkalibrasinya hingga setidaknya mencapai level kalibrasi +${targetCali} di antarmuka kalibrasi peralatan menggunakan ${calibrator}"
 		}
 	},
 	"calibrationResultPopup": {
@@ -935,33 +935,33 @@
 	"clanPlayerPermissionModal": {
 		"subtitle": {
 			"eng": "Editing permission for ${playerName}",
-			"trans": ""
+			"trans": "Izin pengeditan untuk ${playerName}"
 		},
 		"title": {
 			"eng": "Edit Permissions",
-			"trans": ""
+			"trans": "Ubah Izin"
 		}
 	},
 	"clanPlayerPopup": {
 		"kickPlayerButton": {
 			"eng": "kick player",
-			"trans": ""
+			"trans": "tendang pemain"
 		},
 		"setPermissionButton": {
 			"eng": "Edit Permissions",
-			"trans": ""
+			"trans": "Ubah Izin"
 		},
 		"transferOwnership": {
 			"eng": "Transfer Ownership",
-			"trans": ""
+			"trans": "Transfer Kepemilikan"
 		},
 		"transferOwnershipButton": {
 			"eng": "Transfer Ownership",
-			"trans": ""
+			"trans": "Transfer Kepemilikan"
 		},
 		"transferOwnershipConfirm": {
 			"eng": "Are you sure you want to transfer ownership of the gang to ${playerName}?\\nthis cannot be undone.",
-			"trans": ""
+			"trans": "Apakah Anda yakin ingin mentransfer kepemilikan geng ke ${playerName}?\\nHal ini tidak dapat dibatalkan."
 		}
 	},
 	"clanSearchPage": {
@@ -1275,7 +1275,7 @@
 	"crewTip": {
 		"title": {
 			"eng": "Mercenary Recommendation",
-			"trans": ""
+			"trans": "Rekomendasi Mercenary"
 		}
 	},
 	"currency": {
@@ -1967,15 +1967,15 @@
 	"equipmentTip": {
 		"1": {
 			"eng": "To ensure the best survivability and damage, equip the best equipment you have. you can also purchase equipments from ${npc} cheaply",
-			"trans": ""
+			"trans": "Untuk memastikan kelangsungan hidup dan kerusakan terbaik, lengkapi diri Anda dengan peralatan terbaik yang Anda miliki. Anda juga dapat membeli peralatan dari ${npc} dengan harga murah"
 		},
 		"3": {
-			"eng": "Seems like some of your equipments are still at ${tierType} tier or lower. You should upgrade them to at least ${targetTier} tier  by using ${upgradeItem} at the item upgrade interface",
-			"trans": ""
+			"eng": "Seems like some of your equipments are still at ${tierType} tier or lower. You should upgrade them to at least ${targetTier} tier by using ${upgradeItem} at the item upgrade interface",
+			"trans": "Tampaknya beberapa peralatanmu masih berada di tingkat ${tierType} atau lebih rendah. Kamu sebaiknya meningkatkannya setidaknya ke tingkat ${targetTier} dengan menggunakan ${upgradeItem} di antarmuka peningkatan peralatan"
 		},
 		"title": {
 			"eng": "Equipment Recommendation",
-			"trans": ""
+			"trans": "Rekomendasi Peralatan"
 		}
 	},
 	"equipmentType": {
@@ -2306,11 +2306,11 @@
 		"error": {
 			"cannotPlaceBountyOnAdmin": {
 				"eng": "You cannot place bounty on this player",
-				"trans": ""
+				"trans": "Kamu tidak dapat menempatkan hadiah pada pemain ini"
 			},
 			"cannotPlaceBountyOnSelf": {
 				"eng": "You cannot place bounty on yourself",
-				"trans": ""
+				"trans": "Anda tidak dapat menempatkan bounty pada diri sendiri"
 			}
 		},
 		"mail": {
@@ -5425,19 +5425,19 @@
 	"permission": {
 		"clanEditMotto": {
 			"eng": "Edit Motto",
-			"trans": ""
+			"trans": "Ubah Motto"
 		},
 		"clanInvite": {
 			"eng": "Invite",
-			"trans": ""
+			"trans": "Undang"
 		},
 		"clanKick": {
 			"eng": "Kick",
-			"trans": ""
+			"trans": "Tendang"
 		},
 		"clanSetImage": {
 			"eng": "Set Image",
-			"trans": ""
+			"trans": "Atur Gambar"
 		}
 	},
 	"placeHitPage": {
@@ -7095,8 +7095,8 @@
 				"trans": "Anda telah mencapai jumlah maksimum tugas"
 			},
 			"notEnoughCurrency": {
-				"eng": "You do not have enough currency: ${currency}",
-				"trans": "Anda tidak memiliki cukup mata uang: ${mata uang}"
+				"eng": "You do not have enough ${currency}",
+				"trans": "Anda tidak memiliki cukup ${mata uang}"
 			},
 			"notFound": {
 				"eng": "Task not found",
@@ -7960,7 +7960,7 @@
 		"calibrated10": {
 			"announcement": {
 				"eng": "${playerName} has calibrated ${item} to calibration level +10, we need to have a drink named after this legend!",
-				"trans": ""
+				"trans": "${playerName} telah mengkalibrasi ${item} ke level kalibrasi +10, kita perlu minuman yang dinamai sesuai dengan legenda ini!"
 			}
 		},
 		"calibrated7": {
