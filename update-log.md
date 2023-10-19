@@ -1,8 +1,7 @@
 ## Update log
 ### Notice
 **This game is still in early Beta stage, please expect many changes such as new features, bug fixes, buffs and nerfs.
-If you find any bugs please report to our discord bug report channel [here](https://discord.com/channels/1140647450122657812/1146133684022415400) or email directly to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)
-**
+If you find any bugs please report to our discord bug report channel [here](https://discord.com/channels/1140647450122657812/1146133684022415400) or email directly to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
 ### 0.0.1
 - You can now transfer leadership of your gang to another gang member
