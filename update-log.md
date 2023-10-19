@@ -7,6 +7,8 @@
 **If you find a exploit please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
 ### 0.0.1
+- Added confirmation when starting pvp fight with players, to prevent accidental clicks
+- Fixed PvP protection not getting removed when player initiates PvP fight
 - Added market link to player profile, you can now see what items a player is selling in the market by clicking on their profile -> assets -> market
 - Fixed issue with duplicated item suffix when using identification shard
 - Fixed issue with level display in stronghold lobby when level is unlocked with defeating stronghold
