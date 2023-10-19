@@ -13,3 +13,4 @@ If you find a exploit please do not spread it to others and directly email the d
 - Fixed auto attack sometimes stop working if pause app and resume again
 - Fixed equipment tier display in details page
 - Fixed location page display issue when unlocked a higher level location by defeating stronghold
+- Added upload log
