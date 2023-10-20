@@ -10,6 +10,7 @@
 
 ### 0.0.2
 
+-   Increased shop item price tag size
 -   Improved Chipr post hashtag rendering
 -   Improved translation quality
 -   Added image view functionality for mercenary, you can open the full image by clicking the eye icon in mercenary details page
