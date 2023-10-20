@@ -10,6 +10,7 @@
 
 ### 0.0.2
 
+-   Increased calibration animation speed
 -   Increased shop item price tag size
 -   Improved Chipr post hashtag rendering
 -   Improved translation quality
