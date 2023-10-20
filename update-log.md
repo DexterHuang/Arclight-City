@@ -10,6 +10,7 @@
 
 ### 0.0.2
 
+-   Improved Chipr post hashtag rendering
 -   Improved translation quality
 -   Added image view functionality for mercenary, you can open the full image by clicking the eye icon in mercenary details page
 -   Fixed issue with PvP combat log where enemy player's name is displayed incorrectly
