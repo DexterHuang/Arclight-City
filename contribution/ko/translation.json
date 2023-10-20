@@ -796,8 +796,8 @@
 			"trans": "\"${buffName}\" 버프를 배치하시겠습니까?"
 		},
 		"deploy": {
-			"eng": "Deploy",
-			"trans": "배치"
+			"eng": "Deploy Now",
+			"trans": "지금 배치하기"
 		},
 		"notInClan": {
 			"eng": "You can only deploy buffs if you are in a gang",
@@ -1007,6 +1007,16 @@
 		}
 	},
 	"combatHandler": {
+		"engagePlayerPopup": {
+			"description": {
+				"eng": "Are you sure you want to attack this player?",
+				"trans": "이 플레이어를 공격하시겠습니까?"
+			},
+			"title": {
+				"eng": "Attack Player",
+				"trans": "플레이어 공격하기"
+			}
+		},
 		"notEnoughPsyche": {
 			"eng": "Your cyber-psychosis level is too high to engage in fights",
 			"trans": "전투에 참여하기에 사이버 싸이코 레벨이 너무 높습니다"
@@ -4182,6 +4192,10 @@
 		"territory": {
 			"eng": "Territory",
 			"trans": "영역"
+		},
+		"updateLog": {
+			"eng": "Update Log",
+			"trans": "업데이트 로그"
 		}
 	},
 	"market": {
@@ -5379,6 +5393,10 @@
 			"complete": {
 				"eng": "submit quest",
 				"trans": "퀘스트 완료"
+			},
+			"inProgress": {
+				"eng": "Quest In Progress",
+				"trans": "진행 중인 퀘스트"
 			}
 		},
 		"confirm": {
@@ -5515,6 +5533,14 @@
 				"trans": "아파트 방문"
 			}
 		},
+		"market": {
+			"eng": "${player}'s Market",
+			"trans": "${player}의 시장"
+		},
+		"marketDescription": {
+			"eng": "View ${player}\\'s items on the market",
+			"trans": "${player}의 아이템을 시장에서 확인하기"
+		},
 		"noAssets": {
 			"eng": "This player does not own any assets.",
 			"trans": "이 플레이어는 어떠한 자산도 소유하고 있지 않습니다."
@@ -5622,6 +5648,12 @@
 		"jobTips": {
 			"eng": "By doing AFK tasks you can level up your corresponding job level",
 			"trans": "AFK 작업을 하면 해당 직업 레벨을 올릴 수 있습니다"
+		}
+	},
+	"playerMarketPage": {
+		"noItems": {
+			"eng": "This player does not have any items on the market.",
+			"trans": "이 플레이어는 시장에 아이템이 없습니다."
 		}
 	},
 	"playerNameError": {
@@ -7746,6 +7778,10 @@
 			"settings": {
 				"eng": "Settings",
 				"trans": "설정"
+			},
+			"updateLog": {
+				"eng": "Update Log",
+				"trans": "업데이트 로그"
 			},
 			"wiki": {
 				"eng": "tutorial",

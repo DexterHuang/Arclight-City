@@ -796,8 +796,8 @@
 			"trans": "Apakah Anda yakin ingin menggunakan buff \"${buffName}\"?"
 		},
 		"deploy": {
-			"eng": "Deploy",
-			"trans": "Terapkan"
+			"eng": "Deploy Now",
+			"trans": "Terapkan Sekarang"
 		},
 		"notInClan": {
 			"eng": "You can only deploy buffs if you are in a gang",
@@ -1007,6 +1007,16 @@
 		}
 	},
 	"combatHandler": {
+		"engagePlayerPopup": {
+			"description": {
+				"eng": "Are you sure you want to attack this player?",
+				"trans": "Kamu yakin ingin menyerang pemain ini?"
+			},
+			"title": {
+				"eng": "Attack Player",
+				"trans": "Serang Pemain"
+			}
+		},
 		"notEnoughPsyche": {
 			"eng": "Your cyber-psychosis level is too high to engage in fights",
 			"trans": "Tingkat psikosis siber Anda terlalu tinggi untuk terlibat dalam pertarungan"
@@ -4182,6 +4192,10 @@
 		"territory": {
 			"eng": "Territory",
 			"trans": "Wilayah"
+		},
+		"updateLog": {
+			"eng": "Update Log",
+			"trans": "Catatan Pembaruan"
 		}
 	},
 	"market": {
@@ -5379,6 +5393,10 @@
 			"complete": {
 				"eng": "submit quest",
 				"trans": "Kirim misi"
+			},
+			"inProgress": {
+				"eng": "Quest In Progress",
+				"trans": "Sedang Menjalankan Quest"
 			}
 		},
 		"confirm": {
@@ -5515,6 +5533,14 @@
 				"trans": "Kunjungi apartemen"
 			}
 		},
+		"market": {
+			"eng": "${player}'s Market",
+			"trans": "Pasar ${player}"
+		},
+		"marketDescription": {
+			"eng": "View ${player}\\'s items on the market",
+			"trans": "Lihat item ${player} di pasar"
+		},
 		"noAssets": {
 			"eng": "This player does not own any assets.",
 			"trans": "Pemain ini tidak memiliki aset apa pun."
@@ -5622,6 +5648,12 @@
 		"jobTips": {
 			"eng": "By doing AFK tasks you can level up your corresponding job level",
 			"trans": "Dengan melakukan tugas AFK Anda dapat menaikkan level pekerjaan terkait Anda"
+		}
+	},
+	"playerMarketPage": {
+		"noItems": {
+			"eng": "This player does not have any items on the market.",
+			"trans": "Pemain ini tidak memiliki barang apa pun di pasar."
 		}
 	},
 	"playerNameError": {
@@ -7746,6 +7778,10 @@
 			"settings": {
 				"eng": "Settings",
 				"trans": "Pengaturan"
+			},
+			"updateLog": {
+				"eng": "Update Log",
+				"trans": "Catatan Pembaruan"
 			},
 			"wiki": {
 				"eng": "tutorial",

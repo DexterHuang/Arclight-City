@@ -796,8 +796,8 @@
 			"trans": "您確定要使用\"${buffName}\"增益嗎？"
 		},
 		"deploy": {
-			"eng": "Deploy",
-			"trans": "部署"
+			"eng": "Deploy Now",
+			"trans": "立即部署"
 		},
 		"notInClan": {
 			"eng": "You can only deploy buffs if you are in a gang",
@@ -1007,9 +1007,19 @@
 		}
 	},
 	"combatHandler": {
+		"engagePlayerPopup": {
+			"description": {
+				"eng": "Are you sure you want to attack this player?",
+				"trans": "你確定要攻擊這個玩家嗎？"
+			},
+			"title": {
+				"eng": "Attack Player",
+				"trans": "攻擊玩家"
+			}
+		},
 		"notEnoughPsyche": {
 			"eng": "Your cyber-psychosis level is too high to engage in fights",
-			"trans": "你的網路狂躁症程度過高，無法參與戰鬥"
+			"trans": "你的電馭狂躁症程度過高，無法參與戰鬥"
 		},
 		"pvpProtectionItemPopup": {
 			"description": {
@@ -4182,6 +4192,10 @@
 		"territory": {
 			"eng": "Territory",
 			"trans": "領地"
+		},
+		"updateLog": {
+			"eng": "Update Log",
+			"trans": "更新日誌"
 		}
 	},
 	"market": {
@@ -5379,6 +5393,10 @@
 			"complete": {
 				"eng": "submit quest",
 				"trans": "提交任務"
+			},
+			"inProgress": {
+				"eng": "Quest In Progress",
+				"trans": "任務進行中"
 			}
 		},
 		"confirm": {
@@ -5515,6 +5533,14 @@
 				"trans": "參觀公寓"
 			}
 		},
+		"market": {
+			"eng": "${player}'s Market",
+			"trans": "${player}的市場"
+		},
+		"marketDescription": {
+			"eng": "View ${player}\\'s items on the market",
+			"trans": "查看${player}在市場上的物品"
+		},
 		"noAssets": {
 			"eng": "This player does not own any assets.",
 			"trans": "這個玩家沒有任何資產。"
@@ -5622,6 +5648,12 @@
 		"jobTips": {
 			"eng": "By doing AFK tasks you can level up your corresponding job level",
 			"trans": "透過進行掛機任務，您可以提升相應的職業等級"
+		}
+	},
+	"playerMarketPage": {
+		"noItems": {
+			"eng": "This player does not have any items on the market.",
+			"trans": "這位玩家在市場上沒有任何物品。"
 		}
 	},
 	"playerNameError": {
@@ -7746,6 +7778,10 @@
 			"settings": {
 				"eng": "Settings",
 				"trans": "設定"
+			},
+			"updateLog": {
+				"eng": "Update Log",
+				"trans": "更新日誌"
 			},
 			"wiki": {
 				"eng": "tutorial",

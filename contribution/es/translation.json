@@ -796,8 +796,8 @@
 			"trans": "¿Estás seguro/a de que quieres activar el buff \"${buffName}\"?"
 		},
 		"deploy": {
-			"eng": "Deploy",
-			"trans": "Desplegar"
+			"eng": "Deploy Now",
+			"trans": "¡Desplegar ahora!"
 		},
 		"notInClan": {
 			"eng": "You can only deploy buffs if you are in a gang",
@@ -1007,6 +1007,16 @@
 		}
 	},
 	"combatHandler": {
+		"engagePlayerPopup": {
+			"description": {
+				"eng": "Are you sure you want to attack this player?",
+				"trans": "¿Estás seguro de que quieres atacar a este jugador?"
+			},
+			"title": {
+				"eng": "Attack Player",
+				"trans": "Atacar jugador"
+			}
+		},
 		"notEnoughPsyche": {
 			"eng": "Your cyber-psychosis level is too high to engage in fights",
 			"trans": "Tu nivel de ciberpsicosis es demasiado alto para participar en peleas"
@@ -4182,6 +4192,10 @@
 		"territory": {
 			"eng": "Territory",
 			"trans": "Territorio"
+		},
+		"updateLog": {
+			"eng": "Update Log",
+			"trans": "Registro de Actualización"
 		}
 	},
 	"market": {
@@ -5379,6 +5393,10 @@
 			"complete": {
 				"eng": "submit quest",
 				"trans": "Enviar misión"
+			},
+			"inProgress": {
+				"eng": "Quest In Progress",
+				"trans": "Misión en Progreso"
 			}
 		},
 		"confirm": {
@@ -5515,6 +5533,14 @@
 				"trans": "Visitar apartamento"
 			}
 		},
+		"market": {
+			"eng": "${player}'s Market",
+			"trans": "Mercado de ${player}"
+		},
+		"marketDescription": {
+			"eng": "View ${player}\\'s items on the market",
+			"trans": "Ver los objetos de ${player} en el mercado"
+		},
 		"noAssets": {
 			"eng": "This player does not own any assets.",
 			"trans": "Este jugador no posee ningún activo."
@@ -5622,6 +5648,12 @@
 		"jobTips": {
 			"eng": "By doing AFK tasks you can level up your corresponding job level",
 			"trans": "Al realizar tareas AFK, puedes subir de nivel en tu trabajo correspondiente"
+		}
+	},
+	"playerMarketPage": {
+		"noItems": {
+			"eng": "This player does not have any items on the market.",
+			"trans": "Este jugador no tiene ningún artículo en el mercado."
 		}
 	},
 	"playerNameError": {
@@ -7746,6 +7778,10 @@
 			"settings": {
 				"eng": "Settings",
 				"trans": "Configuración"
+			},
+			"updateLog": {
+				"eng": "Update Log",
+				"trans": "Registro de Actualización"
 			},
 			"wiki": {
 				"eng": "tutorial",

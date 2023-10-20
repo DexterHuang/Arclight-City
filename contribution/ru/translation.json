@@ -796,8 +796,8 @@
 			"trans": "Вы уверены, что хотите активировать бафф \"${buffName}\"?"
 		},
 		"deploy": {
-			"eng": "Deploy",
-			"trans": "Развернуть"
+			"eng": "Deploy Now",
+			"trans": "Развернуть сейчас"
 		},
 		"notInClan": {
 			"eng": "You can only deploy buffs if you are in a gang",
@@ -1007,6 +1007,16 @@
 		}
 	},
 	"combatHandler": {
+		"engagePlayerPopup": {
+			"description": {
+				"eng": "Are you sure you want to attack this player?",
+				"trans": "Ты уверен, что хочешь атаковать этого игрока?"
+			},
+			"title": {
+				"eng": "Attack Player",
+				"trans": "Атаковать игрока"
+			}
+		},
 		"notEnoughPsyche": {
 			"eng": "Your cyber-psychosis level is too high to engage in fights",
 			"trans": "Ваш уровень киберпсихоза слишком высок для участия в боях"
@@ -4182,6 +4192,10 @@
 		"territory": {
 			"eng": "Territory",
 			"trans": "Территория"
+		},
+		"updateLog": {
+			"eng": "Update Log",
+			"trans": "Журнал обновлений"
 		}
 	},
 	"market": {
@@ -5379,6 +5393,10 @@
 			"complete": {
 				"eng": "submit quest",
 				"trans": "отправить задание"
+			},
+			"inProgress": {
+				"eng": "Quest In Progress",
+				"trans": "Задание в процессе"
 			}
 		},
 		"confirm": {
@@ -5515,6 +5533,14 @@
 				"trans": "Посетить квартиру"
 			}
 		},
+		"market": {
+			"eng": "${player}'s Market",
+			"trans": "Рынок ${player}"
+		},
+		"marketDescription": {
+			"eng": "View ${player}\\'s items on the market",
+			"trans": "Посмотреть предметы ${player} на рынке"
+		},
 		"noAssets": {
 			"eng": "This player does not own any assets.",
 			"trans": "У этого игрока нет никаких активов."
@@ -5622,6 +5648,12 @@
 		"jobTips": {
 			"eng": "By doing AFK tasks you can level up your corresponding job level",
 			"trans": "Выполняя задания AFK, вы можете повысить уровень соответствующей работы"
+		}
+	},
+	"playerMarketPage": {
+		"noItems": {
+			"eng": "This player does not have any items on the market.",
+			"trans": "У этого игрока нет предметов на рынке."
 		}
 	},
 	"playerNameError": {
@@ -7746,6 +7778,10 @@
 			"settings": {
 				"eng": "Settings",
 				"trans": "Настройки"
+			},
+			"updateLog": {
+				"eng": "Update Log",
+				"trans": "Журнал обновлений"
 			},
 			"wiki": {
 				"eng": "tutorial",
