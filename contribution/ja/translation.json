@@ -4245,7 +4245,7 @@
 		},
 		"itemExpired": {
 			"eng": "Your item ${item} has expired on market with no bidder, and has been returned to your delivery interface",
-			"trans": "あなたのアイテム${item}は市場での入札者がいないまま期限切れとなり、配送インターフェースに返されました。"
+			"trans": "あなたのアイテム${item}はマーケットでの入札者がいないまま期限切れとなり、配送インターフェースに返されました。"
 		},
 		"itemSold": {
 			"bidderMsg": {
@@ -4254,7 +4254,7 @@
 			},
 			"ownerMsg": {
 				"eng": "${item} has been sold on market to the highest bidder for ${price}, you received ${afterTax} (${price} - ${tax}% tax)",
-				"trans": "${item}は市場で最高入札者に${price}で売却されました。税金${tax}%を差し引いた後、${afterTax}を受け取りました。"
+				"trans": "${item}はマーケットで最高入札者に${price}で売却されました。税金${tax}%を差し引いた後、${afterTax}を受け取りました。"
 			}
 		}
 	},
@@ -4265,11 +4265,11 @@
 		},
 		"cantRemoveTime": {
 			"eng": "This item has been on market for more than ${time} minutes and can\\'t be removed",
-			"trans": "このアイテムは${time}分以上市場に出品されており、削除することはできません。"
+			"trans": "このアイテムは${time}分以上マーケットに出品されており、削除することはできません。"
 		},
 		"removeButton": {
 			"eng": "Remove from market",
-			"trans": "市場から削除する"
+			"trans": "マーケットから削除する"
 		}
 	},
 	"marketItemList": {
@@ -4378,7 +4378,7 @@
 		"putItemButton": {
 			"title": {
 				"eng": "Put item on market",
-				"trans": "アイテムを市場に出品する"
+				"trans": "アイテムをマーケットに出品する"
 			}
 		},
 		"tip": {
@@ -4887,7 +4887,7 @@
 		"bar": {
 			"description": {
 				"eng": "Popular bar amounts mercenaries, you can find Chloe here and meet other mercenaries",
-				"trans": "人気のあるバーは傭兵たちの集まり場所であり、ここでクロエに会うことができ、他の傭兵たちとも出会えます。"
+				"trans": "この人気のあるバーは傭兵たちのたまり場であり、ここではクロエに会うことや、他の傭兵たちとも交流できます。"
 			},
 			"greetings": {
 				"eng": [
@@ -4898,11 +4898,11 @@
 					"You're not the chatty type, I like that. What can I get you?"
 				],
 				"trans": [
-					"何がほしいんだ？",
-					"素早く動け、時間は有限だぞ。",
-					"あんた余所者だろ？どこから来たんだ？",
-					"世間話はしない、話したいなら何か頼みな？",
-					"あんたはそこら辺のと違っておしゃべり好きではないみたいだな。そういうヤツの方が私は好きだ。何か飲むか？"
+					"何が欲しいの？",
+					"早く決めて、時間は無駄にできないわ。",
+					"あなた余所者でしょう、どこから来たの？",
+					"世間話は無用よ、何を飲むつもり？",
+					"おしゃべり好きじゃないんだね、私はそういうの好き。何にしようかしら？"
 				]
 			},
 			"locationName": {
@@ -4920,9 +4920,9 @@
 					"Sorry, darling. The quest shelf is empty at the moment. Swing by later."
 				],
 				"trans": [
-					"後で戻ってきてください、今は何もありません。",
-					"ギグがなくて残念だけど、また別の時に戻ってきてね。",
-					"ごめんなさい、ダーリン。クエストの棚は現在空です。後で立ち寄ってください。"
+					"後で戻ってきて。今は何も用意してないの。",
+					"ごめんなさい、仕事がなくなっちゃったわよ。また別の時に戻ってきてね。",
+					"ごめんなさい、ダーリン。クエストの依頼が今はないの。後でまた立ち寄ってね。"
 				]
 			},
 			"questLines": {
@@ -4930,7 +4930,7 @@
 					"Up for new gigs?"
 				],
 				"trans": [
-					"新しい仕事はいかがですか？"
+					"新しい仕事はいかが？"
 				]
 			},
 			"questPendingLines": {
@@ -4938,7 +4938,7 @@
 					"Let me know when you have completed the objectives :)"
 				],
 				"trans": [
-					"目標を達成したら教えてください :)"
+					"目標を達成したら教えてね :)"
 				]
 			}
 		},
@@ -4970,9 +4970,9 @@
 					"They say in the black market, you can buy anything, even your own salvation. What's your salvation worth to you?"
 				],
 				"trans": [
-					"この街の裏側へようこそ。取引に値するものを持っていることを願っています。",
-					"オークションの夜はいつも驚きに満ちています。運命に入札する準備はできていますか？",
-					"黒市では、あらゆるもの、たとえ自分の救いでさえも買うことができると言われています。あなたにとって、救いとはどれくらいの価値がありますか？"
+					"この街の裏側へようこそ。取引に値するものを持っていることを願っているわ",
+					"オークションの夜はいつも驚きに満ちているわ。運命に入札する覚悟はある？",
+					"ブラックマーケットでは、あらゆるもの、たとえ自分の救いでさえも手に入れられると言うわ。君にとって救済はどの程度の価値があるの？"
 				]
 			},
 			"locationName": {
@@ -4981,7 +4981,7 @@
 			},
 			"myStuffButton": {
 				"eng": "show me my stuff on the market",
-				"trans": "マーケットで私のアイテムを表示してください。"
+				"trans": "マーケットの私のアイテムを表示する"
 			},
 			"npcName": {
 				"eng": "Ren",
@@ -4994,9 +4994,9 @@
 					"No gigs on tap, sweetheart. But stay frosty, 'cause I'll give you a holla when a sweet opportunity slides my way."
 				],
 				"trans": [
-					"今はちょっと待っててくれ、クロームヘッド。でも心配しないで。あなたのスキルに合った仕事があるときに連絡するよ。",
-					"今は何もないけど、まだ再起動しないで。何かスパイシーなものがあるときに連絡するよ。辛抱して待ってて、チューマ。",
-					"甘い機会はないけど、冷静にしてて。いいチャンスが来たら連絡するよ。"
+					"今はちょっとないわ、クロームヘッド。でも心配しないで。あなたのスキルに合った仕事があるったら連絡するから。",
+					"今は何もないけど、まだ諦めないで。何か面白い仕事が見つかったら連絡するから。待っててよ、チューマ。",
+					"今のところ仕事はないわ、でも気を引き締めておいて。チャンスがあったら連絡するから。"
 				]
 			},
 			"questLines": {
@@ -5004,7 +5004,7 @@
 					"Up for new gigs?"
 				],
 				"trans": [
-					"新しい仕事はいかがですか？"
+					"新しい仕事はいかが？"
 				]
 			},
 			"questPendingLines": {
@@ -5012,7 +5012,7 @@
 					"Quit wasting my time, unless you have done your job."
 				],
 				"trans": [
-					"あなたの時間を無駄にしないでください、あなたの仕事を終えているのでなければ。"
+					"仕事が終わってないなら、さっさと消えて。私にはもっと大事なことがあるの。"
 				]
 			},
 			"tipBox": {
@@ -5286,15 +5286,15 @@
 		},
 		"repairButton": {
 			"eng": "Repair my equipment",
-			"trans": "装備を修理してください"
+			"trans": "装備を修理する"
 		},
 		"shopButton": {
 			"eng": "I want to buy something",
-			"trans": "何か買いたいです。"
+			"trans": "何か買いたいです"
 		},
 		"upgradeButton": {
 			"eng": "Upgrade my equipment",
-			"trans": "装備をアップグレードしてください"
+			"trans": "装備をアップグレードする"
 		},
 		"weaponSmith": {
 			"description": {
@@ -5312,9 +5312,9 @@
 					"I'm the best in the business. You want something done right, you come to me."
 				],
 				"trans": [
-					"アイアンをキャリブレーションしますか？",
-					"あなたが壊すなら、私が修理します。\nもう一度壊すなら、私があなたを壊します。",
-					"私はこの業界で一番です。何かを正しくやりたいなら、私に頼んでください。"
+					"あなたのサイバーウェアをキャリブレーションしたいの？",
+					"あなたが壊すなら、私が修理するわ。\nもう一度壊すなら、私があなたを壊すけどね。",
+					"私はこの業界で一番なの。何かをきちんとやりたいなら、私に頼むことね。"
 				]
 			},
 			"locationName": {
@@ -5332,9 +5332,9 @@
 					"Looking for action, huh? Well, tough luck. No jobs for you at the moment, slick."
 				],
 				"trans": [
-					"ギグを探しているのか？残念ながら、今は私のレーダーには何もないよ。後でまたチェックしてみて、もしかしたら君にとって価値のあるものがあるかもしれない。",
-					"聞いてくれ、スリック、クエストは全部終わった。ストックが補充されるまで戻ってきてくれ。",
-					"アクションを探しているのか？まあ、残念だが、今は仕事はないぜ、スマートなやつ。"
+					"仕事を探してるの？ごめん、今は手元に何もないわ。後でまたチェックしてみて、その時には何かお得なものがあるかもね。",
+					"ねえ聞いて、そこのイケてるあなた。クエストはもう全部終わったの。在庫が補充されたら戻ってきて。",
+					"やることを探しているの？あぁ、残念だけど、今のところ仕事はないの。そこのイケてるあなた。"
 				]
 			},
 			"questLines": {
@@ -5342,7 +5342,7 @@
 					"Up for new gigs?"
 				],
 				"trans": [
-					"新しい仕事はいかがですか？"
+					"新しい仕事はどう？"
 				]
 			},
 			"questPendingLines": {
@@ -5350,7 +5350,7 @@
 					"Let me know when you have completed the objectives :)"
 				],
 				"trans": [
-					"目標を達成したら教えてください :)"
+					"目標を達成したら教えて :)"
 				]
 			},
 			"shopLines": {
@@ -5359,8 +5359,8 @@
 					"I'll fix you up real nice, no questions asked."
 				],
 				"trans": [
-					"都市で優位性を求めていますか？ 正しい場所に来ました。",
-					"問いません、あなたをきちんと修理します。"
+					"この街で優位に立ちたいの？ ここなら安心よ。",
+					"何でもおまかせ、詮索はしないわ。"
 				]
 			},
 			"shopName": {
@@ -5539,7 +5539,7 @@
 		},
 		"marketDescription": {
 			"eng": "View ${player}\\'s items on the market",
-			"trans": "${player}のアイテムをマーケットで見る"
+			"trans": "マーケットの${player}のアイテムを見る"
 		},
 		"noAssets": {
 			"eng": "This player does not own any assets.",
@@ -5653,7 +5653,7 @@
 	"playerMarketPage": {
 		"noItems": {
 			"eng": "This player does not have any items on the market.",
-			"trans": "このプレイヤーは市場にアイテムを持っていません。"
+			"trans": "このプレイヤーはマーケットにアイテムがありません。"
 		}
 	},
 	"playerNameError": {
@@ -5894,7 +5894,7 @@
 		},
 		"title": {
 			"eng": "Cyber psychosis ${percent}%",
-			"trans": "サイバーサイコシス${percent}%。"
+			"trans": "サイバーサイコシス${percent}%"
 		}
 	},
 	"psychosisInfoModal": {
@@ -7996,7 +7996,7 @@
 		"calibrated10": {
 			"announcement": {
 				"eng": "${playerName} has calibrated ${item} to calibration level +10, we need to have a drink named after this legend!",
-				"trans": "${playerName}は${item}をキャリブレーションレベル+10に調整しました。この伝説にちなんだドリンクを飲まなければなりません！"
+				"trans": "${playerName}は${item}を+10にキャリブレーションしました。この伝説にちなんだ名前の飲み物が必要ですね！"
 			}
 		},
 		"calibrated7": {
