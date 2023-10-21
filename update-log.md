@@ -10,6 +10,7 @@
 
 ### 0.0.3
 
+-   Fixed(Hopefully!) unkillable dead enemy bug where enemy is dead but still stuck in dungeon
 -   Added `All` button in dismantle page, allowing quicker dismantling of all items 
 -   Fixed extraction task giving abnormal amount of eurodollars compare to other tasks
 -   Decreased enemy health
