@@ -20,6 +20,11 @@
 -   Added new Minigame
 -   Added UI scaling, can be changed in settings page, this is experimental, so please report any issues you have with it
 -   Adjusted main page layout
+-   Increased base mercenary contact max slot to 30
+-   Changed tutorial merc draw to fixed set of mercenary instead of random to ensure fairness
+-   Fix pvp protected player cannot break protection by attacking other players
+-   Fix Friend list UI issue
+-   Fixed player selection menu UI issue
 
 ### 0.0.2
 
