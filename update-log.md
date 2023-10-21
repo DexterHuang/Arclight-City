@@ -9,6 +9,10 @@
 **If you find a exploit please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
 ### 0.0.2
+-   Added UI scaling, can be changed in settings page, this is experimental, so please report any issues you have with it
+-   Adjusted main page layout
+
+### 0.0.2
 
 -   Increased calibration animation speed
 -   Increased shop item price tag size
