@@ -9,6 +9,9 @@
 **If you find a exploit please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
 ### 0.0.2
+-   Decreased enemy health
+-   Fixed issue with clicking empty equipment slot on other player's details page
+-   Fixed enemy level display in quest details
 -   Increased timing circle minigame response time, should be easier to press now
 -   Added new Minigame
 -   Added UI scaling, can be changed in settings page, this is experimental, so please report any issues you have with it
