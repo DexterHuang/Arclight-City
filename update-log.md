@@ -9,6 +9,9 @@
 **If you find a exploit please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
 ### 0.0.3
+
+-   Added `All` button in dismantle page, allowing quicker dismantling of all items 
+-   Fixed extraction task giving abnormal amount of eurodollars compare to other tasks
 -   Decreased enemy health
 -   Fixed issue with clicking empty equipment slot on other player's details page
 -   Fixed enemy level display in quest details
