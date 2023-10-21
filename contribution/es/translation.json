@@ -4436,6 +4436,10 @@
 	},
 	"mercenary": {
 		"error": {
+			"firstDraw": {
+				"eng": "You have to draw 10 mercenaries first",
+				"trans": "Tienes que dibujar primero 10 mercenarios"
+			},
 			"notEnoughSpace": {
 				"eng": "You have too many mercenaries now, you may upgrade the space by getting a better apartment.",
 				"trans": "Ahora tienes demasiados mercenarios, puedes mejorar el espacio consiguiendo un apartamento mejor."
@@ -4713,6 +4717,12 @@
 		}
 	},
 	"minigame": {
+		"tileTrack": {
+			"tip": {
+				"eng": "Click on the highlighted button to unlock",
+				"trans": "Haz clic en el botón resaltado para desbloquear"
+			}
+		},
 		"timingUnlock": {
 			"tip": {
 				"eng": "Activate all dots to unlock by clicking. The dots will rotate faster and faster.",
@@ -4788,6 +4798,10 @@
 		"purchase": {
 			"eng": "Purchase",
 			"trans": "Comprar"
+		},
+		"selectAll": {
+			"eng": "All",
+			"trans": "Todos"
 		},
 		"upgrade": {
 			"eng": "upgrade",
@@ -6369,9 +6383,9 @@
 				"eng": "You failed to escape (${chance}% success chance)",
 				"trans": "No lograste escapar (${chance}% de probabilidad de éxito)"
 			},
-			"levelDiffTooHigh": {
-				"eng": "You cannot engage a player that is more than ${levelDiff} levels below you",
-				"trans": "No puedes enfrentarte a un jugador que esté más de ${levelDiff} niveles por debajo de ti"
+			"levelTooDiff": {
+				"eng": "You cannot engage a player that is more than ${levelDiff} levels higher or below you",
+				"trans": "No puedes enfrentarte a un jugador que tenga ${levelDiff} niveles más altos o más bajos que tú"
 			},
 			"notEnoughPsychosis": {
 				"eng": "You need at least ${psychosis} psychosis to engage in PvP",
@@ -6692,6 +6706,10 @@
 		"language": {
 			"eng": "Language",
 			"trans": "Idioma"
+		},
+		"zoom": {
+			"eng": "UI Scaling (Experimental)",
+			"trans": "Escalado de interfaz de usuario (Experimental)"
 		}
 	},
 	"shop": {
@@ -7105,6 +7123,10 @@
 		"description4": {
 			"eng": "If you feel this is a mistake, please contact the developer directly at: ching.huang.dexter@gmail.com",
 			"trans": "Si crees que esto es un error, por favor contacta directamente al desarrollador en: ching.huang.dexter@gmail.com"
+		},
+		"logout": {
+			"eng": "Logout",
+			"trans": "Cerrar sesión"
 		},
 		"title": {
 			"eng": "This account has been suspended.",
@@ -7824,6 +7846,38 @@
 			"title": {
 				"eng": "Back",
 				"trans": "Atrás"
+			}
+		}
+	},
+	"uiScale": {
+		"huge": {
+			"name": {
+				"eng": "Huge",
+				"trans": "Enorme"
+			}
+		},
+		"large": {
+			"name": {
+				"eng": "Large",
+				"trans": "Grande"
+			}
+		},
+		"normal": {
+			"name": {
+				"eng": "Normal",
+				"trans": "Normal"
+			}
+		},
+		"small": {
+			"name": {
+				"eng": "Small",
+				"trans": "Pequeño"
+			}
+		},
+		"tiny": {
+			"name": {
+				"eng": "Tiny",
+				"trans": "Pequeño"
 			}
 		}
 	},
