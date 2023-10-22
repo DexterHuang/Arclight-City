@@ -12,7 +12,7 @@
 
 -   Buffed eurodollars gain from performing tasks
 -   Buffed `Cybernetic Enhancer` drastically increased drop amount for `Mirai District` task
--   You can now receive various rare items by clearing by clearing Difficult Dungeons; location clear reward now drop `Location Reward Container` which will contain random rare item, including `Cybernetic Enhancer`, `Token of Peace`, `Reward Cipher`, `Neural Upgrade Augmenter`, `Repair Kit` and `Red Bar VIP Token`
+-   You can now receive various rare items by clearing by clearing Difficult Dungeons; location clear reward now drop `Location Reward Container` which will contain random rare item, including `Cybernetic Enhancer`, `Token of Peace`, `Reward Cipher`, `Neural Upgrade Augmenter`, `Repair Kit` and `Red Bar VIP Token`. Additionally it will now give 2 free `Equipment Calibrator` and some Eurodollars base on level cleared!
 -   AFK task upgrade 3 has been removed as it caused some technical issues.
 -   Fixed Dungeon tile not align properly
 -   Fixed Equipment icon display incorrectly issue
