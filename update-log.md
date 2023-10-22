@@ -10,6 +10,10 @@
 
 ### 0.0.4
 
+-   Buffed eurodollars gain from performing tasks
+-   Buffed `Cybernetic Enhancer` drastically increased drop amount for `Mirai District` task
+-   Location reward for clearing Difficult Dungeons will now drop `Location Reward Container` which will contain random rare item, including `Cybernetic Enhancer`, `Token of Peace`, `Reward Cipher`, `Neural Upgrade Augmenter`, `Repair Kit` and `Red Bar VIP Token`
+-   AFK task upgrade 3 has been removed as it caused some technical issues.
 -   Fixed Dungeon tile not align properly
 -   Fixed Equipment icon display incorrectly issue
 -   Fixed quest boss level display incorrectly issue
