@@ -8,6 +8,11 @@
 
 **If you find a exploit please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
+### 0.0.6
+
+-   You will not get PvP debuff when arresting wanted player now
+-   Fixed issue with being able to sell locked items to NPCs
+
 ### 0.0.5
 
 -   Base on community feedback, we have buffed 5 stars mercenary power
