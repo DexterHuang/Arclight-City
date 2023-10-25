@@ -8,6 +8,14 @@
 
 **If you find a exploit please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
+### 0.0.7
+-   Daily reward reset will now reset the claimed reward as well
+-   Daily reward changes, Please keep in mine, due to technical reasons this WILL cause daily rewards to randomize to apply these changes: 
+    - Added `Neuroblocker`, `Token of Peace`, `Defense boost buff activator` and `Loot Increase Buff Activator` into possible rewards
+    - buffed equipment items rarity on daily reward
+-   Added feedback button in main menu
+-   Fixes issue with depositing funds to gang sometimes does not trigger UI update (the funds is still deposited correctly, just not showing correctly)
+
 ### 0.0.6
 
 -   You will not get PvP debuff when arresting wanted player now
