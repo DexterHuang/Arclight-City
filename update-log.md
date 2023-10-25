@@ -20,6 +20,8 @@
 -   Daily reward changes, Please keep in mine, due to technical reasons this WILL cause daily rewards to randomize to apply these changes: 
     - Added `Neuroblocker`, `Token of Peace`, `Defense boost buff activator` and `Loot Increase Buff Activator` into possible rewards
     - buffed equipment items rarity on daily reward
+
+    **IMPORTANT: the rewards is randomized, NOTHING is secretly removed, everyone's daily reward is different, some may get something they didn't have before update, some may see different stuff showing up, this is a technical side-effect of adding new items into the reward list**
 -   Added feedback button in main menu
 -   Fixes issue with depositing funds to gang sometimes does not trigger UI update (the funds is still deposited correctly, just not showing correctly)
 -   Added more tips to item source hint
