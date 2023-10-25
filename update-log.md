@@ -8,6 +8,13 @@
 
 **If you find a exploit please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
+### 0.0.8
+-   Lowered enemy damage
+-   Decreased enemy damage specially for lower level enemies
+-   Decreased eurodollars needed for upgrading mercenary specially for lower levels
+-   Increased quest reward to newbie quests
+-   Updated `Advance Healing Nanobot`'s icon
+
 ### 0.0.7
 -   Daily reward reset will now reset the claimed reward as well
 -   Daily reward changes, Please keep in mine, due to technical reasons this WILL cause daily rewards to randomize to apply these changes: 
@@ -15,6 +22,9 @@
     - buffed equipment items rarity on daily reward
 -   Added feedback button in main menu
 -   Fixes issue with depositing funds to gang sometimes does not trigger UI update (the funds is still deposited correctly, just not showing correctly)
+-   Added more tips to item source hint
+-   Fixed issue with able to place locked item on market
+-   Locked item will now display with a padlock icon on item selection modal
 
 ### 0.0.6
 
