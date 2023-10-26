@@ -232,16 +232,16 @@
 		},
 		"players": {
 			"eng": "players",
-			"trans": "玩家們"
+			"trans": "玩家"
 		},
 		"purchase": {
 			"notEnoughMoney": {
 				"eng": "You do not have enough money to rent this apartment.",
-				"trans": "您沒有足夠的錢來租這間公寓。"
+				"trans": "您沒有足夠的資金來租這間公寓。"
 			},
 			"success": {
 				"eng": "You have started the apartment rental.",
-				"trans": "您已開始出租公寓。"
+				"trans": "您已開始租用公寓。"
 			}
 		},
 		"rental": {
@@ -829,12 +829,12 @@
 		},
 		"depositButton": {
 			"eng": "Deposit",
-			"trans": "存款"
+			"trans": "捐獻"
 		},
 		"depositModal": {
 			"description": {
 				"eng": "Enter the amount of funds you want to deposit to your gang",
-				"trans": "請輸入您要存入幫派的資金金額"
+				"trans": "請輸入您要存入幫派帳戶的資金金額"
 			},
 			"title": {
 				"eng": "Deposit funds",
@@ -3936,7 +3936,7 @@
 		},
 		"lockedError": {
 			"eng": "You can travel to this location when you reach level ${level}, or by completing the previous level stronghold.",
-			"trans": "當您達到等級${level}或完成前一個等級的地城時，您可以前往這個地點。",
+			"trans": "當您達到等級${level}或完成前一關的地城時，您可以前往這個地點。",
 			"vars": []
 		}
 	},
@@ -4132,7 +4132,7 @@
 		"webItemButton": {
 			"title": {
 				"eng": "Cybernet",
-				"trans": "電馭"
+				"trans": "電馭網路"
 			}
 		}
 	},
@@ -4741,7 +4741,7 @@
 		},
 		"claimed": {
 			"eng": "Claimed",
-			"trans": "已認領"
+			"trans": "已領取"
 		},
 		"craft": {
 			"eng": "craft",
@@ -5406,7 +5406,7 @@
 			},
 			"complete": {
 				"eng": "submit quest",
-				"trans": "提交任務"
+				"trans": "完成任務"
 			},
 			"inProgress": {
 				"eng": "Quest In Progress",
@@ -5569,7 +5569,7 @@
 		},
 		"tip": {
 			"eng": "Items you loot from strongholds will be stored here. Contents in your backpack will be lost if you die in stronghold, so remember to move them to your inventory.",
-			"trans": "你在要塞中掠奪的物品將儲存在此。如果你在要塞中死亡，背包中的內容物將會遺失，所以記得將它們移至你的倉庫。"
+			"trans": "你在地城中掠奪的物品將儲存在此。如果你在地城中死亡，背包中的內容物將會遺失，所以記得將它們移至你的倉庫。"
 		}
 	},
 	"playerDetailsPage": {
@@ -7584,7 +7584,7 @@
 		},
 		"heal": {
 			"eng": "Click here to assign healing items to quick slots.",
-			"trans": "點擊這裡將補藥分配到快速欄位。"
+			"trans": "點擊這裡將補藥分配到快捷欄位。"
 		},
 		"leaveDungeon": {
 			"eng": "You can click here to leave the stronghold at any time.",
@@ -7719,13 +7719,13 @@
 				"quickSlots": {
 					"title": {
 						"eng": "Quick Slots",
-						"trans": "快速欄位"
+						"trans": "快捷欄位"
 					}
 				},
 				"unAssignQuickSlot": {
 					"title": {
 						"eng": "Unassign Quick Slot",
-						"trans": "取消指定快捷欄位"
+						"trans": "取消快捷欄位"
 					}
 				}
 			},
@@ -7853,13 +7853,13 @@
 		"huge": {
 			"name": {
 				"eng": "Huge",
-				"trans": "巨大的"
+				"trans": "超大"
 			}
 		},
 		"large": {
 			"name": {
 				"eng": "Large",
-				"trans": "巨大的"
+				"trans": "大"
 			}
 		},
 		"normal": {
@@ -7871,13 +7871,13 @@
 		"small": {
 			"name": {
 				"eng": "Small",
-				"trans": "小型"
+				"trans": "小"
 			}
 		},
 		"tiny": {
 			"name": {
 				"eng": "Tiny",
-				"trans": "小巧的"
+				"trans": "迷你"
 			}
 		}
 	},
@@ -7908,7 +7908,7 @@
 			"trans": "您還可以透過租用公寓來升級您的倉庫"
 		},
 		"eng": "Inventory upgrade",
-		"trans": "背包升級",
+		"trans": "倉庫升級",
 		"upgrade": {
 			"eng": "Upgrade ${index}",
 			"trans": "升級 ${index}"
@@ -8000,7 +8000,7 @@
 		"hitmanAdvert": {
 			"subtitle": {
 				"eng": "We can help you get rid of them!",
-				"trans": "我們可以幫助您擺脫它們！"
+				"trans": "我們可以幫助您擺脫他們！"
 			},
 			"title": {
 				"eng": "Got a nemesis?",
