@@ -722,6 +722,12 @@
 			"trans": "Tengo un referente"
 		}
 	},
+	"chat": {
+		"inputPlaceholder": {
+			"eng": "Type a message...",
+			"trans": "Escribe un mensaje..."
+		}
+	},
 	"chatPreview": {
 		"noMessage": {
 			"eng": "no message",
@@ -2675,6 +2681,12 @@
 			"eng": "You have received ${item} in your apartment delivery inbox",
 			"trans": "Has recibido ${item} en tu bandeja de entrada de entrega de apartamento"
 		},
+		"retrieveError": {
+			"invFull": {
+				"eng": "Your inventory is full",
+				"trans": "Tu inventario está lleno"
+			}
+		},
 		"retrieved": {
 			"eng": "items have been moved to your inventory",
 			"trans": "Los objetos han sido movidos a tu inventario"
@@ -2780,6 +2792,10 @@
 		"enemyDrop": {
 			"eng": "Enemy drop",
 			"trans": "Caída de enemigo"
+		},
+		"levelReward": {
+			"eng": "Defeating ${dungeonType} strongholds in various locations",
+			"trans": "Derrotar las fortalezas ${dungeonType} en diferentes ubicaciones"
 		},
 		"obtainedFrom": {
 			"eng": "Obtained from",
@@ -3301,6 +3317,16 @@
 			"name": {
 				"eng": "Level Shard",
 				"trans": "Fragmento de nivel"
+			}
+		},
+		"levelLootBox1": {
+			"description": {
+				"eng": "Special reward container obtained from clearing hard or above difficulty strongholds in locations",
+				"trans": "Contenedor de recompensa especial obtenido al completar fortalezas de dificultad alta o superior en ubicaciones"
+			},
+			"name": {
+				"eng": "Level Reward Container",
+				"trans": "Contenedor de recompensa de nivel"
 			}
 		},
 		"lootBox1": {
@@ -3841,8 +3867,8 @@
 		},
 		"medical": {
 			"currentEffectDescription": {
-				"eng": "Increases intelligence by ${intelligence} (increases damage by ${healing}) and Extraction Mission task profit to ${profit}",
-				"trans": "Aumenta la inteligencia en ${intelligence} (aumenta el daño en ${healing}) y el beneficio de la misión de extracción a ${profit}"
+				"eng": "Increases intelligence by ${intelligence} (increases energy weapon damage by ${healing}) and Extraction Mission task profit to ${profit}",
+				"trans": "Aumenta la inteligencia en ${inteligencia} (aumenta el daño del arma de energía en ${healing}) y el beneficio de la misión de extracción a ${profit}"
 			},
 			"description": {
 				"eng": "Increases intelligence attribute by 1 every level, and increases profit from this job type",
@@ -4393,6 +4419,12 @@
 		}
 	},
 	"marketPutItemPopup": {
+		"error": {
+			"itemLocked": {
+				"eng": "This item is locked, please unlock it before putting it on the market",
+				"trans": "Este objeto está bloqueado, por favor desbloquéalo antes de ponerlo en el mercado"
+			}
+		},
 		"selectItemModal": {
 			"title": {
 				"eng": "Select item to put on market",
@@ -4456,6 +4488,10 @@
 				"eng": "Ability",
 				"trans": "Habilidad"
 			}
+		},
+		"breakthrough": {
+			"eng": "Breakthrough",
+			"trans": "Avance"
 		},
 		"deleteMercenary": {
 			"eng": "Are you sure you want to dismiss this mercenary?",
@@ -4802,6 +4838,10 @@
 		"selectAll": {
 			"eng": "All",
 			"trans": "Todos"
+		},
+		"unlock": {
+			"eng": "unlock",
+			"trans": "desbloquear"
 		},
 		"upgrade": {
 			"eng": "upgrade",
@@ -5443,6 +5483,16 @@
 		}
 	},
 	"npcShopSellPage": {
+		"error": {
+			"cantSellLocked": {
+				"eng": "${itemName} is locked, you must unlock it before selling it",
+				"trans": "${itemName} está bloqueado, debes desbloquearlo antes de venderlo"
+			},
+			"cantSellLockedMulti": {
+				"eng": "${itemName} is locked, you must unlock it before selling it",
+				"trans": "${itemName} está bloqueado, debes desbloquearlo antes de venderlo"
+			}
+		},
 		"selectAmountModal": {
 			"title": {
 				"eng": "Please select the amount you want to sell",
@@ -5554,10 +5604,6 @@
 		"marketDescription": {
 			"eng": "View ${player}\\'s items on the market",
 			"trans": "Ver los objetos de ${player} en el mercado"
-		},
-		"noAssets": {
-			"eng": "This player does not own any assets.",
-			"trans": "Este jugador no posee ningún activo."
 		}
 	},
 	"playerBackpack": {
@@ -6616,20 +6662,6 @@
 				"eng": "{currencySymbol}${money} has been removed from your account",
 				"trans": "Se han eliminado {currencySymbol}${money} de tu cuenta"
 			},
-			"name": {
-				"invalidCharacters": {
-					"eng": "Name must only contain english characters, numbers and _",
-					"trans": "El nombre solo puede contener caracteres en inglés, números y _"
-				},
-				"tooLong": {
-					"eng": "Name must be at most ${maxLength} characters long",
-					"trans": "El nombre debe tener como máximo ${maxLength} caracteres"
-				},
-				"tooShort": {
-					"eng": "Name must be at least ${minLength} characters long",
-					"trans": "El nombre debe tener al menos ${minLength} caracteres de largo"
-				}
-			},
 			"psychosisLimitReached": {
 				"eng": "Your action has been blocked by your cyber-psychosis monitor implant, as using more of your cybernetic abilities would be detrimental to your mental health.",
 				"trans": "Tu acción ha sido bloqueada por tu implante monitor de psicosis cibernética, ya que usar más de tus habilidades cibernéticas sería perjudicial para tu salud mental."
@@ -6706,6 +6738,10 @@
 		"language": {
 			"eng": "Language",
 			"trans": "Idioma"
+		},
+		"languageTip": {
+			"eng": "Language translation is contributable by the community on GitHub, if you would like to make edits for your language, click here to view our GitHub repository.",
+			"trans": "La traducción del idioma es contribuible por la comunidad en GitHub, si deseas hacer ediciones para tu idioma, haz clic aquí para ver nuestro repositorio en GitHub."
 		},
 		"zoom": {
 			"eng": "UI Scaling (Experimental)",
@@ -7113,12 +7149,12 @@
 			"trans": "Esto puede suceder por varias razones, incluyendo pero no limitado a:"
 		},
 		"description2": {
-			"eng": "- You have been caught cheating, hacking, automating or exploiting the game.",
-			"trans": "- Has sido atrapado haciendo trampas, hackeando, automatizando o explotando el juego."
+			"eng": "- System has detected this account of cheating, hacking, automating or exploiting the game.",
+			"trans": "- El sistema ha detectado que esta cuenta está haciendo trampa, hackeando, automatizando o explotando el juego."
 		},
 		"description3": {
-			"eng": "- You have been caught using multiple accounts to gain an unfair advantage.",
-			"trans": "- Has sido atrapado utilizando múltiples cuentas para obtener una ventaja injusta."
+			"eng": "- System has detected using of multiple accounts to gain an unfair advantage.",
+			"trans": "- El sistema ha detectado el uso de múltiples cuentas para obtener una ventaja injusta."
 		},
 		"description4": {
 			"eng": "If you feel this is a mistake, please contact the developer directly at: ching.huang.dexter@gmail.com",
@@ -7781,6 +7817,24 @@
 				"eng": "Discord",
 				"trans": "Discordo"
 			},
+			"feedback": {
+				"eng": "Feedback",
+				"trans": "Retroalimentación"
+			},
+			"feedbackModal": {
+				"text1": {
+					"eng": "Do you want to send feedback to the developer(me)?",
+					"trans": "¿Quieres enviar comentarios al desarrollador (yo)?"
+				},
+				"text2": {
+					"eng": "Your message will be sent directly to me via direct message, I will try to respond as soon as possible! ❤️",
+					"trans": "Tu mensaje será enviado directamente a mí a través de mensaje directo, ¡trataré de responder lo antes posible! ❤️"
+				},
+				"title": {
+					"eng": "Feedback",
+					"trans": "Retroalimentación"
+				}
+			},
 			"giftCode": {
 				"eng": "Gift Code",
 				"trans": "Código de regalo"
@@ -7788,6 +7842,10 @@
 			"leaderboard": {
 				"eng": "leaderboard",
 				"trans": "tabla de clasificación"
+			},
+			"links": {
+				"eng": "links",
+				"trans": "enlaces"
 			},
 			"logoutButton": {
 				"eng": "logout",
@@ -7808,6 +7866,10 @@
 			"wiki": {
 				"eng": "tutorial",
 				"trans": "tutorial"
+			},
+			"workInProgress": {
+				"eng": "This page is still work in progress",
+				"trans": "Esta página todavía está en proceso de construcción"
 			}
 		},
 		"mainPage": {

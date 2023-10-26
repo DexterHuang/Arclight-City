@@ -722,6 +722,12 @@
 			"trans": "Saya memiliki referer"
 		}
 	},
+	"chat": {
+		"inputPlaceholder": {
+			"eng": "Type a message...",
+			"trans": "Ketik pesan..."
+		}
+	},
 	"chatPreview": {
 		"noMessage": {
 			"eng": "no message",
@@ -2675,6 +2681,12 @@
 			"eng": "You have received ${item} in your apartment delivery inbox",
 			"trans": "Anda telah menerima ${item} di kotak masuk pengiriman apartemen Anda"
 		},
+		"retrieveError": {
+			"invFull": {
+				"eng": "Your inventory is full",
+				"trans": "Inventori Anda penuh"
+			}
+		},
 		"retrieved": {
 			"eng": "items have been moved to your inventory",
 			"trans": "Item telah dipindahkan ke inventori Anda"
@@ -2780,6 +2792,10 @@
 		"enemyDrop": {
 			"eng": "Enemy drop",
 			"trans": "Drop musuh"
+		},
+		"levelReward": {
+			"eng": "Defeating ${dungeonType} strongholds in various locations",
+			"trans": "Mengalahkan benteng-benteng ${dungeonType} di berbagai lokasi"
 		},
 		"obtainedFrom": {
 			"eng": "Obtained from",
@@ -3301,6 +3317,16 @@
 			"name": {
 				"eng": "Level Shard",
 				"trans": "Tingkat Shard"
+			}
+		},
+		"levelLootBox1": {
+			"description": {
+				"eng": "Special reward container obtained from clearing hard or above difficulty strongholds in locations",
+				"trans": "Kontainer hadiah khusus yang diperoleh dari menyelesaikan benteng-benteng sulit atau di atasnya di lokasi-lokasi"
+			},
+			"name": {
+				"eng": "Level Reward Container",
+				"trans": "Kontainer Hadiah Level"
 			}
 		},
 		"lootBox1": {
@@ -3841,8 +3867,8 @@
 		},
 		"medical": {
 			"currentEffectDescription": {
-				"eng": "Increases intelligence by ${intelligence} (increases damage by ${healing}) and Extraction Mission task profit to ${profit}",
-				"trans": "Meningkatkan intelijen sebesar ${intelligence} (meningkatkan kerusakan sebesar ${healing}) dan keuntungan tugas Misi Ekstraksi menjadi ${profit}"
+				"eng": "Increases intelligence by ${intelligence} (increases energy weapon damage by ${healing}) and Extraction Mission task profit to ${profit}",
+				"trans": "Meningkatkan intelejensi sebesar ${intelejensi} (meningkatkan kerusakan senjata energi sebesar ${healing}) dan keuntungan tugas Misi Ekstraksi menjadi ${profit}"
 			},
 			"description": {
 				"eng": "Increases intelligence attribute by 1 every level, and increases profit from this job type",
@@ -4393,6 +4419,12 @@
 		}
 	},
 	"marketPutItemPopup": {
+		"error": {
+			"itemLocked": {
+				"eng": "This item is locked, please unlock it before putting it on the market",
+				"trans": "Item ini terkunci, silakan buka kuncinya sebelum memasarkannya"
+			}
+		},
 		"selectItemModal": {
 			"title": {
 				"eng": "Select item to put on market",
@@ -4456,6 +4488,10 @@
 				"eng": "Ability",
 				"trans": "Kemampuan"
 			}
+		},
+		"breakthrough": {
+			"eng": "Breakthrough",
+			"trans": "Terobosan"
 		},
 		"deleteMercenary": {
 			"eng": "Are you sure you want to dismiss this mercenary?",
@@ -4802,6 +4838,10 @@
 		"selectAll": {
 			"eng": "All",
 			"trans": "Semua"
+		},
+		"unlock": {
+			"eng": "unlock",
+			"trans": "membuka"
 		},
 		"upgrade": {
 			"eng": "upgrade",
@@ -5443,6 +5483,16 @@
 		}
 	},
 	"npcShopSellPage": {
+		"error": {
+			"cantSellLocked": {
+				"eng": "${itemName} is locked, you must unlock it before selling it",
+				"trans": "${itemName} terkunci, kamu harus membukanya sebelum menjualnya"
+			},
+			"cantSellLockedMulti": {
+				"eng": "${itemName} is locked, you must unlock it before selling it",
+				"trans": "${itemName} terkunci, kamu harus membukanya sebelum menjualnya"
+			}
+		},
 		"selectAmountModal": {
 			"title": {
 				"eng": "Please select the amount you want to sell",
@@ -5554,10 +5604,6 @@
 		"marketDescription": {
 			"eng": "View ${player}\\'s items on the market",
 			"trans": "Lihat item ${player} di pasar"
-		},
-		"noAssets": {
-			"eng": "This player does not own any assets.",
-			"trans": "Pemain ini tidak memiliki aset apa pun."
 		}
 	},
 	"playerBackpack": {
@@ -6616,20 +6662,6 @@
 				"eng": "{currencySymbol}${money} has been removed from your account",
 				"trans": "{currencySymbol}${money} telah dihapus dari akun Anda"
 			},
-			"name": {
-				"invalidCharacters": {
-					"eng": "Name must only contain english characters, numbers and _",
-					"trans": "Nama hanya boleh memuat karakter bahasa Inggris, angka, dan _"
-				},
-				"tooLong": {
-					"eng": "Name must be at most ${maxLength} characters long",
-					"trans": "Nama harus terdiri dari maksimal ${maxLength} karakter"
-				},
-				"tooShort": {
-					"eng": "Name must be at least ${minLength} characters long",
-					"trans": "Nama harus memiliki setidaknya ${minLength} karakter"
-				}
-			},
 			"psychosisLimitReached": {
 				"eng": "Your action has been blocked by your cyber-psychosis monitor implant, as using more of your cybernetic abilities would be detrimental to your mental health.",
 				"trans": "Tindakanmu telah diblokir oleh implan pemantau psikosis sibermu, karena menggunakan lebih banyak kemampuan siberikmu akan merugikan kesehatan mentalmu."
@@ -6706,6 +6738,10 @@
 		"language": {
 			"eng": "Language",
 			"trans": "Bahasa"
+		},
+		"languageTip": {
+			"eng": "Language translation is contributable by the community on GitHub, if you would like to make edits for your language, click here to view our GitHub repository.",
+			"trans": "Terjemahan bahasa dapat ditambahkan oleh komunitas di GitHub, jika Anda ingin membuat perubahan untuk bahasa Anda, klik di sini untuk melihat repositori GitHub kami."
 		},
 		"zoom": {
 			"eng": "UI Scaling (Experimental)",
@@ -7113,12 +7149,12 @@
 			"trans": "Ini bisa terjadi karena beberapa alasan, termasuk namun tidak terbatas pada:"
 		},
 		"description2": {
-			"eng": "- You have been caught cheating, hacking, automating or exploiting the game.",
-			"trans": "- Anda telah tertangkap melakukan kecurangan, hacking, otomatisasi, atau eksploitasi dalam permainan."
+			"eng": "- System has detected this account of cheating, hacking, automating or exploiting the game.",
+			"trans": "- Sistem telah mendeteksi akun ini melakukan kecurangan, hacking, otomatisasi, atau eksploitasi dalam permainan."
 		},
 		"description3": {
-			"eng": "- You have been caught using multiple accounts to gain an unfair advantage.",
-			"trans": "- Anda telah tertangkap menggunakan beberapa akun untuk mendapatkan keuntungan yang tidak adil."
+			"eng": "- System has detected using of multiple accounts to gain an unfair advantage.",
+			"trans": "Sistem telah mendeteksi penggunaan beberapa akun untuk mendapatkan keuntungan yang tidak adil."
 		},
 		"description4": {
 			"eng": "If you feel this is a mistake, please contact the developer directly at: ching.huang.dexter@gmail.com",
@@ -7781,6 +7817,24 @@
 				"eng": "Discord",
 				"trans": "Discord\nDiscord"
 			},
+			"feedback": {
+				"eng": "Feedback",
+				"trans": "Umpan balik"
+			},
+			"feedbackModal": {
+				"text1": {
+					"eng": "Do you want to send feedback to the developer(me)?",
+					"trans": "Mau memberikan masukan kepada pengembang?"
+				},
+				"text2": {
+					"eng": "Your message will be sent directly to me via direct message, I will try to respond as soon as possible! ❤️",
+					"trans": "Pesanmu akan dikirim langsung ke saya melalui pesan langsung, saya akan mencoba meresponsnya secepat mungkin! ❤️"
+				},
+				"title": {
+					"eng": "Feedback",
+					"trans": "Umpan balik"
+				}
+			},
 			"giftCode": {
 				"eng": "Gift Code",
 				"trans": "Kode Hadiah"
@@ -7788,6 +7842,10 @@
 			"leaderboard": {
 				"eng": "leaderboard",
 				"trans": "Papan peringkat"
+			},
+			"links": {
+				"eng": "links",
+				"trans": "tautan"
 			},
 			"logoutButton": {
 				"eng": "logout",
@@ -7808,6 +7866,10 @@
 			"wiki": {
 				"eng": "tutorial",
 				"trans": "Panduan"
+			},
+			"workInProgress": {
+				"eng": "This page is still work in progress",
+				"trans": "Halaman ini masih dalam proses pengembangan"
 			}
 		},
 		"mainPage": {

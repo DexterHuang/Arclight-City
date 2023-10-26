@@ -722,6 +722,12 @@
 			"trans": "У меня есть реферер"
 		}
 	},
+	"chat": {
+		"inputPlaceholder": {
+			"eng": "Type a message...",
+			"trans": "Введите сообщение..."
+		}
+	},
 	"chatPreview": {
 		"noMessage": {
 			"eng": "no message",
@@ -2675,6 +2681,12 @@
 			"eng": "You have received ${item} in your apartment delivery inbox",
 			"trans": "Вы получили ${item} в своем почтовом ящике для доставки в квартире"
 		},
+		"retrieveError": {
+			"invFull": {
+				"eng": "Your inventory is full",
+				"trans": "Твой инвентарь заполнен"
+			}
+		},
 		"retrieved": {
 			"eng": "items have been moved to your inventory",
 			"trans": "Предметы были перемещены в ваш инвентарь"
@@ -2780,6 +2792,10 @@
 		"enemyDrop": {
 			"eng": "Enemy drop",
 			"trans": "Падение врага"
+		},
+		"levelReward": {
+			"eng": "Defeating ${dungeonType} strongholds in various locations",
+			"trans": "Победа над крепостями ${dungeonType} в различных местах"
 		},
 		"obtainedFrom": {
 			"eng": "Obtained from",
@@ -3301,6 +3317,16 @@
 			"name": {
 				"eng": "Level Shard",
 				"trans": "Уровень осколка"
+			}
+		},
+		"levelLootBox1": {
+			"description": {
+				"eng": "Special reward container obtained from clearing hard or above difficulty strongholds in locations",
+				"trans": "Специальный контейнер с наградами, полученный после прохождения сложных или более высоких уровней крепостей в различных локациях"
+			},
+			"name": {
+				"eng": "Level Reward Container",
+				"trans": "Контейнер наград уровня\n\n"
 			}
 		},
 		"lootBox1": {
@@ -3841,8 +3867,8 @@
 		},
 		"medical": {
 			"currentEffectDescription": {
-				"eng": "Increases intelligence by ${intelligence} (increases damage by ${healing}) and Extraction Mission task profit to ${profit}",
-				"trans": "Увеличивает интеллект на ${intelligence} (увеличивает урон на ${healing}) и прибыль от миссии по извлечению на ${profit}"
+				"eng": "Increases intelligence by ${intelligence} (increases energy weapon damage by ${healing}) and Extraction Mission task profit to ${profit}",
+				"trans": "Увеличивает интеллект на ${intelligence} (увеличивает урон от энергетического оружия на ${healing}) и прибыль от заданий Спасательной операции на ${profit}"
 			},
 			"description": {
 				"eng": "Increases intelligence attribute by 1 every level, and increases profit from this job type",
@@ -4393,6 +4419,12 @@
 		}
 	},
 	"marketPutItemPopup": {
+		"error": {
+			"itemLocked": {
+				"eng": "This item is locked, please unlock it before putting it on the market",
+				"trans": "Этот предмет заблокирован, пожалуйста, разблокируйте его перед тем, как выставлять на рынок"
+			}
+		},
 		"selectItemModal": {
 			"title": {
 				"eng": "Select item to put on market",
@@ -4456,6 +4488,10 @@
 				"eng": "Ability",
 				"trans": "Способность"
 			}
+		},
+		"breakthrough": {
+			"eng": "Breakthrough",
+			"trans": "Прорыв"
 		},
 		"deleteMercenary": {
 			"eng": "Are you sure you want to dismiss this mercenary?",
@@ -4802,6 +4838,10 @@
 		"selectAll": {
 			"eng": "All",
 			"trans": "Все"
+		},
+		"unlock": {
+			"eng": "unlock",
+			"trans": "разблокировать"
 		},
 		"upgrade": {
 			"eng": "upgrade",
@@ -5443,6 +5483,16 @@
 		}
 	},
 	"npcShopSellPage": {
+		"error": {
+			"cantSellLocked": {
+				"eng": "${itemName} is locked, you must unlock it before selling it",
+				"trans": "${itemName} заблокирован, необходимо разблокировать перед продажей"
+			},
+			"cantSellLockedMulti": {
+				"eng": "${itemName} is locked, you must unlock it before selling it",
+				"trans": "${itemName} заблокирован, необходимо разблокировать перед продажей"
+			}
+		},
 		"selectAmountModal": {
 			"title": {
 				"eng": "Please select the amount you want to sell",
@@ -5554,10 +5604,6 @@
 		"marketDescription": {
 			"eng": "View ${player}\\'s items on the market",
 			"trans": "Посмотреть предметы ${player} на рынке"
-		},
-		"noAssets": {
-			"eng": "This player does not own any assets.",
-			"trans": "У этого игрока нет никаких активов."
 		}
 	},
 	"playerBackpack": {
@@ -6616,20 +6662,6 @@
 				"eng": "{currencySymbol}${money} has been removed from your account",
 				"trans": "Из вашего аккаунта было снято {currencySymbol}${money}"
 			},
-			"name": {
-				"invalidCharacters": {
-					"eng": "Name must only contain english characters, numbers and _",
-					"trans": "Имя должно содержать только английские буквы, цифры и _"
-				},
-				"tooLong": {
-					"eng": "Name must be at most ${maxLength} characters long",
-					"trans": "Имя должно быть не более ${maxLength} символов"
-				},
-				"tooShort": {
-					"eng": "Name must be at least ${minLength} characters long",
-					"trans": "Имя должно быть не менее ${minLength} символов в длину"
-				}
-			},
 			"psychosisLimitReached": {
 				"eng": "Your action has been blocked by your cyber-psychosis monitor implant, as using more of your cybernetic abilities would be detrimental to your mental health.",
 				"trans": "Ваше действие было заблокировано вашим имплантом мониторинга киберпсихоза, так как использование большего количества кибернетических способностей может нанести вред вашему психическому здоровью."
@@ -6706,6 +6738,10 @@
 		"language": {
 			"eng": "Language",
 			"trans": "Язык"
+		},
+		"languageTip": {
+			"eng": "Language translation is contributable by the community on GitHub, if you would like to make edits for your language, click here to view our GitHub repository.",
+			"trans": "Перевод языка вносится сообществом на GitHub, если вы хотите внести изменения для своего языка, нажмите здесь, чтобы просмотреть наш репозиторий на GitHub."
 		},
 		"zoom": {
 			"eng": "UI Scaling (Experimental)",
@@ -7113,12 +7149,12 @@
 			"trans": "Это может произойти по множеству причин, включая, но не ограничиваясь:"
 		},
 		"description2": {
-			"eng": "- You have been caught cheating, hacking, automating or exploiting the game.",
-			"trans": "- Вы были пойманы на мошенничестве, взломе, автоматизации или эксплуатации игры."
+			"eng": "- System has detected this account of cheating, hacking, automating or exploiting the game.",
+			"trans": "- Система обнаружила, что этот аккаунт использует читы, взламывает, автоматизирует или эксплуатирует игру."
 		},
 		"description3": {
-			"eng": "- You have been caught using multiple accounts to gain an unfair advantage.",
-			"trans": "- Вы были пойманы за использование нескольких аккаунтов для получения нечестного преимущества."
+			"eng": "- System has detected using of multiple accounts to gain an unfair advantage.",
+			"trans": "- Система обнаружила использование нескольких аккаунтов для получения нечестного преимущества."
 		},
 		"description4": {
 			"eng": "If you feel this is a mistake, please contact the developer directly at: ching.huang.dexter@gmail.com",
@@ -7781,6 +7817,24 @@
 				"eng": "Discord",
 				"trans": "Дискорд"
 			},
+			"feedback": {
+				"eng": "Feedback",
+				"trans": "Обратная связь"
+			},
+			"feedbackModal": {
+				"text1": {
+					"eng": "Do you want to send feedback to the developer(me)?",
+					"trans": "Хотите отправить обратную связь разработчику(мне)?"
+				},
+				"text2": {
+					"eng": "Your message will be sent directly to me via direct message, I will try to respond as soon as possible! ❤️",
+					"trans": "Твое сообщение будет отправлено мне напрямую через личное сообщение, постараюсь ответить как можно скорее! ❤️"
+				},
+				"title": {
+					"eng": "Feedback",
+					"trans": "Обратная связь"
+				}
+			},
 			"giftCode": {
 				"eng": "Gift Code",
 				"trans": "Код подарка"
@@ -7788,6 +7842,10 @@
 			"leaderboard": {
 				"eng": "leaderboard",
 				"trans": "таблица лидеров"
+			},
+			"links": {
+				"eng": "links",
+				"trans": "ссылки"
 			},
 			"logoutButton": {
 				"eng": "logout",
@@ -7808,6 +7866,10 @@
 			"wiki": {
 				"eng": "tutorial",
 				"trans": "обучение"
+			},
+			"workInProgress": {
+				"eng": "This page is still work in progress",
+				"trans": "Эта страница все еще находится в процессе разработки"
 			}
 		},
 		"mainPage": {

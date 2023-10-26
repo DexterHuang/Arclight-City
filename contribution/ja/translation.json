@@ -722,6 +722,12 @@
 			"trans": "私には紹介者がいます"
 		}
 	},
+	"chat": {
+		"inputPlaceholder": {
+			"eng": "Type a message...",
+			"trans": "メッセージを入力してください..."
+		}
+	},
 	"chatPreview": {
 		"noMessage": {
 			"eng": "no message",
@@ -2675,6 +2681,12 @@
 			"eng": "You have received ${item} in your apartment delivery inbox",
 			"trans": "アパートの配信受信ボックスに${item}が届きました。"
 		},
+		"retrieveError": {
+			"invFull": {
+				"eng": "Your inventory is full",
+				"trans": "あなたのインベントリはいっぱいです。"
+			}
+		},
 		"retrieved": {
 			"eng": "items have been moved to your inventory",
 			"trans": "アイテムがインベントリに移動しました。"
@@ -2780,6 +2792,10 @@
 		"enemyDrop": {
 			"eng": "Enemy drop",
 			"trans": "敵のドロップ"
+		},
+		"levelReward": {
+			"eng": "Defeating ${dungeonType} strongholds in various locations",
+			"trans": "様々な場所にある${dungeonType}の要塞を制覇する"
 		},
 		"obtainedFrom": {
 			"eng": "Obtained from",
@@ -3301,6 +3317,16 @@
 			"name": {
 				"eng": "Level Shard",
 				"trans": "レベル-シャード"
+			}
+		},
+		"levelLootBox1": {
+			"description": {
+				"eng": "Special reward container obtained from clearing hard or above difficulty strongholds in locations",
+				"trans": "ロケーション内のハード以上の難易度の要塞をクリアすることで入手できる特別な報酬コンテナ"
+			},
+			"name": {
+				"eng": "Level Reward Container",
+				"trans": "レベル報酬コンテナー"
 			}
 		},
 		"lootBox1": {
@@ -3841,8 +3867,8 @@
 		},
 		"medical": {
 			"currentEffectDescription": {
-				"eng": "Increases intelligence by ${intelligence} (increases damage by ${healing}) and Extraction Mission task profit to ${profit}",
-				"trans": "知力を${intelligence}増加させます（エネルギー兵器のダメージを${healing}増加させます）そして救出ミッションの収益を${profit}に増やします。"
+				"eng": "Increases intelligence by ${intelligence} (increases energy weapon damage by ${healing}) and Extraction Mission task profit to ${profit}",
+				"trans": "知力を${intelligence}増加させる（エネルギー兵器のダメージを${healing}増加させ、救護任務の収益を${profit}にする）"
 			},
 			"description": {
 				"eng": "Increases intelligence attribute by 1 every level, and increases profit from this job type",
@@ -4393,6 +4419,12 @@
 		}
 	},
 	"marketPutItemPopup": {
+		"error": {
+			"itemLocked": {
+				"eng": "This item is locked, please unlock it before putting it on the market",
+				"trans": "このアイテムはロックされています、市場に出す前にロックを解除してください。"
+			}
+		},
 		"selectItemModal": {
 			"title": {
 				"eng": "Select item to put on market",
@@ -4456,6 +4488,10 @@
 				"eng": "Ability",
 				"trans": "能力"
 			}
+		},
+		"breakthrough": {
+			"eng": "Breakthrough",
+			"trans": "ブレイクスルー"
 		},
 		"deleteMercenary": {
 			"eng": "Are you sure you want to dismiss this mercenary?",
@@ -4802,6 +4838,10 @@
 		"selectAll": {
 			"eng": "All",
 			"trans": "すべて"
+		},
+		"unlock": {
+			"eng": "unlock",
+			"trans": "解除する"
 		},
 		"upgrade": {
 			"eng": "upgrade",
@@ -5443,6 +5483,16 @@
 		}
 	},
 	"npcShopSellPage": {
+		"error": {
+			"cantSellLocked": {
+				"eng": "${itemName} is locked, you must unlock it before selling it",
+				"trans": "${itemName}はロックされています。売る前にロックを解除する必要があります。"
+			},
+			"cantSellLockedMulti": {
+				"eng": "${itemName} is locked, you must unlock it before selling it",
+				"trans": "${itemName}はロックされています。売る前にロックを解除する必要があります。"
+			}
+		},
 		"selectAmountModal": {
 			"title": {
 				"eng": "Please select the amount you want to sell",
@@ -5554,10 +5604,6 @@
 		"marketDescription": {
 			"eng": "View ${player}\\'s items on the market",
 			"trans": "マーケットの${player}のアイテムを見る"
-		},
-		"noAssets": {
-			"eng": "This player does not own any assets.",
-			"trans": "このプレイヤーは何の資産も所有していません。"
 		}
 	},
 	"playerBackpack": {
@@ -6616,20 +6662,6 @@
 				"eng": "{currencySymbol}${money} has been removed from your account",
 				"trans": "{currencySymbol}${money}がアカウントから削除されました"
 			},
-			"name": {
-				"invalidCharacters": {
-					"eng": "Name must only contain english characters, numbers and _",
-					"trans": "名前は英字、数字、_のみ使用できます。"
-				},
-				"tooLong": {
-					"eng": "Name must be at most ${maxLength} characters long",
-					"trans": "名前は最大${maxLength}文字までです"
-				},
-				"tooShort": {
-					"eng": "Name must be at least ${minLength} characters long",
-					"trans": "名前は最低でも${minLength}文字以上である必要があります"
-				}
-			},
 			"psychosisLimitReached": {
 				"eng": "Your action has been blocked by your cyber-psychosis monitor implant, as using more of your cybernetic abilities would be detrimental to your mental health.",
 				"trans": "あなたの行動は、精神的な健康に悪影響を及ぼす可能性があるため、サイバーサイコシス監視インプラントによってブロックされました。"
@@ -6706,6 +6738,10 @@
 		"language": {
 			"eng": "Language",
 			"trans": "言語"
+		},
+		"languageTip": {
+			"eng": "Language translation is contributable by the community on GitHub, if you would like to make edits for your language, click here to view our GitHub repository.",
+			"trans": "言語の翻訳はGitHubのコミュニティによって貢献されます。もし自分の言語の編集をしたい場合は、ここをクリックして私たちのGitHubリポジトリをご覧ください。"
 		},
 		"zoom": {
 			"eng": "UI Scaling (Experimental)",
@@ -7113,12 +7149,12 @@
 			"trans": "これは様々な理由で起こる可能性があります。例えば、以下のようなものがありますが、これに限定されるものではありません。"
 		},
 		"description2": {
-			"eng": "- You have been caught cheating, hacking, automating or exploiting the game.",
-			"trans": "- ゲームの不正行為、ハッキング、自動化、または悪用が発覚しました。"
+			"eng": "- System has detected this account of cheating, hacking, automating or exploiting the game.",
+			"trans": "- システムはこのアカウントがチート、ハッキング、自動化、またはゲームの悪用を検出しました。"
 		},
 		"description3": {
-			"eng": "- You have been caught using multiple accounts to gain an unfair advantage.",
-			"trans": "- 不公平な利益を得るために複数のアカウントを使用したことが発覚しました。"
+			"eng": "- System has detected using of multiple accounts to gain an unfair advantage.",
+			"trans": "システムは不公平な利益を得るために複数のアカウントを使用していることを検出しました。"
 		},
 		"description4": {
 			"eng": "If you feel this is a mistake, please contact the developer directly at: ching.huang.dexter@gmail.com",
@@ -7781,6 +7817,24 @@
 				"eng": "Discord",
 				"trans": "ディスコード"
 			},
+			"feedback": {
+				"eng": "Feedback",
+				"trans": "フィードバック"
+			},
+			"feedbackModal": {
+				"text1": {
+					"eng": "Do you want to send feedback to the developer(me)?",
+					"trans": "開発者(私)にフィードバックを送りますか？"
+				},
+				"text2": {
+					"eng": "Your message will be sent directly to me via direct message, I will try to respond as soon as possible! ❤️",
+					"trans": "あなたのメッセージはダイレクトメッセージで私に直接送信されます。できるだけ早く返信します！❤️"
+				},
+				"title": {
+					"eng": "Feedback",
+					"trans": "フィードバック"
+				}
+			},
 			"giftCode": {
 				"eng": "Gift Code",
 				"trans": "ギフトコード"
@@ -7788,6 +7842,10 @@
 			"leaderboard": {
 				"eng": "leaderboard",
 				"trans": "リーダーボード"
+			},
+			"links": {
+				"eng": "links",
+				"trans": "リンク"
 			},
 			"logoutButton": {
 				"eng": "logout",
@@ -7808,6 +7866,10 @@
 			"wiki": {
 				"eng": "tutorial",
 				"trans": "チュートリアル"
+			},
+			"workInProgress": {
+				"eng": "This page is still work in progress",
+				"trans": "このページはまだ作業中です。"
 			}
 		},
 		"mainPage": {

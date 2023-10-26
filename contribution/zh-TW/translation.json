@@ -722,6 +722,12 @@
 			"trans": "我有一位推薦人"
 		}
 	},
+	"chat": {
+		"inputPlaceholder": {
+			"eng": "Type a message...",
+			"trans": "輸入訊息..."
+		}
+	},
 	"chatPreview": {
 		"noMessage": {
 			"eng": "no message",
@@ -2675,6 +2681,12 @@
 			"eng": "You have received ${item} in your apartment delivery inbox",
 			"trans": "你在公寓郵件箱中收到了${item}"
 		},
+		"retrieveError": {
+			"invFull": {
+				"eng": "Your inventory is full",
+				"trans": "你的倉庫已滿了 (Nǐ de cāngkù yǐ mǎnle)"
+			}
+		},
 		"retrieved": {
 			"eng": "items have been moved to your inventory",
 			"trans": "物品已移至您的倉庫中。"
@@ -2780,6 +2792,10 @@
 		"enemyDrop": {
 			"eng": "Enemy drop",
 			"trans": "敵人掉落"
+		},
+		"levelReward": {
+			"eng": "Defeating ${dungeonType} strongholds in various locations",
+			"trans": "在不同地點擊敗${dungeonType}地城"
 		},
 		"obtainedFrom": {
 			"eng": "Obtained from",
@@ -3301,6 +3317,16 @@
 			"name": {
 				"eng": "Level Shard",
 				"trans": "升等碎片"
+			}
+		},
+		"levelLootBox1": {
+			"description": {
+				"eng": "Special reward container obtained from clearing hard or above difficulty strongholds in locations",
+				"trans": "從高難度地城中獲得的特殊獎勵容器"
+			},
+			"name": {
+				"eng": "Level Reward Container",
+				"trans": "等級獎勵容器"
 			}
 		},
 		"lootBox1": {
@@ -3841,8 +3867,8 @@
 		},
 		"medical": {
 			"currentEffectDescription": {
-				"eng": "Increases intelligence by ${intelligence} (increases damage by ${healing}) and Extraction Mission task profit to ${profit}",
-				"trans": "增加智力 ${intelligence}（增加傷害 ${healing}）和救援任務的收益至 ${profit}"
+				"eng": "Increases intelligence by ${intelligence} (increases energy weapon damage by ${healing}) and Extraction Mission task profit to ${profit}",
+				"trans": "智力增加${intelligence} (能量武器傷害增加${healing})，並提高救援任務的收益至${profit}"
 			},
 			"description": {
 				"eng": "Increases intelligence attribute by 1 every level, and increases profit from this job type",
@@ -4393,6 +4419,12 @@
 		}
 	},
 	"marketPutItemPopup": {
+		"error": {
+			"itemLocked": {
+				"eng": "This item is locked, please unlock it before putting it on the market",
+				"trans": "這件物品被鎖定，請在上架前解鎖"
+			}
+		},
 		"selectItemModal": {
 			"title": {
 				"eng": "Select item to put on market",
@@ -4456,6 +4488,10 @@
 				"eng": "Ability",
 				"trans": "能力"
 			}
+		},
+		"breakthrough": {
+			"eng": "Breakthrough",
+			"trans": "突破 (tū pò)\n\n"
 		},
 		"deleteMercenary": {
 			"eng": "Are you sure you want to dismiss this mercenary?",
@@ -4802,6 +4838,10 @@
 		"selectAll": {
 			"eng": "All",
 			"trans": "全部"
+		},
+		"unlock": {
+			"eng": "unlock",
+			"trans": "解鎖"
 		},
 		"upgrade": {
 			"eng": "upgrade",
@@ -5443,6 +5483,16 @@
 		}
 	},
 	"npcShopSellPage": {
+		"error": {
+			"cantSellLocked": {
+				"eng": "${itemName} is locked, you must unlock it before selling it",
+				"trans": "${itemName}已鎖定，必須解鎖後才能出售"
+			},
+			"cantSellLockedMulti": {
+				"eng": "${itemName} is locked, you must unlock it before selling it",
+				"trans": "${itemName}已鎖定，必須解鎖後才能出售"
+			}
+		},
 		"selectAmountModal": {
 			"title": {
 				"eng": "Please select the amount you want to sell",
@@ -5554,10 +5604,6 @@
 		"marketDescription": {
 			"eng": "View ${player}\\'s items on the market",
 			"trans": "查看${player}在市場上的物品"
-		},
-		"noAssets": {
-			"eng": "This player does not own any assets.",
-			"trans": "這個玩家沒有任何資產。"
 		}
 	},
 	"playerBackpack": {
@@ -6616,20 +6662,6 @@
 				"eng": "{currencySymbol}${money} has been removed from your account",
 				"trans": "從您的帳戶中扣除{currencySymbol}${money}"
 			},
-			"name": {
-				"invalidCharacters": {
-					"eng": "Name must only contain english characters, numbers and _",
-					"trans": "名稱只能包含英文字母、數字和_符號"
-				},
-				"tooLong": {
-					"eng": "Name must be at most ${maxLength} characters long",
-					"trans": "名稱最多${maxLength}個字元。"
-				},
-				"tooShort": {
-					"eng": "Name must be at least ${minLength} characters long",
-					"trans": "名稱最少${minLength}個字元"
-				}
-			},
 			"psychosisLimitReached": {
 				"eng": "Your action has been blocked by your cyber-psychosis monitor implant, as using more of your cybernetic abilities would be detrimental to your mental health.",
 				"trans": "您的電馭狂躁感應器封鎖了您的行動，因為使用更多的電馭能力將對您的心理健康造成不良影響。"
@@ -6706,6 +6738,10 @@
 		"language": {
 			"eng": "Language",
 			"trans": "語言"
+		},
+		"languageTip": {
+			"eng": "Language translation is contributable by the community on GitHub, if you would like to make edits for your language, click here to view our GitHub repository.",
+			"trans": "語言翻譯是由社群在GitHub上共同貢獻的，如果您想要為您的語言進行編輯，請點擊此處查看我們的GitHub存儲庫。"
 		},
 		"zoom": {
 			"eng": "UI Scaling (Experimental)",
@@ -7113,12 +7149,12 @@
 			"trans": "這可能是由於多種原因造成的，包括但不限於："
 		},
 		"description2": {
-			"eng": "- You have been caught cheating, hacking, automating or exploiting the game.",
-			"trans": "- 您被抓到作弊、駭客、自動化或利用遊戲漏洞。"
+			"eng": "- System has detected this account of cheating, hacking, automating or exploiting the game.",
+			"trans": "- 系統偵測到此帳號有作弊、駭客、自動化或濫用遊戲的行為。"
 		},
 		"description3": {
-			"eng": "- You have been caught using multiple accounts to gain an unfair advantage.",
-			"trans": "- 您被發現使用多個帳號以獲取不公平的優勢。"
+			"eng": "- System has detected using of multiple accounts to gain an unfair advantage.",
+			"trans": "- 系統偵測到使用多個帳號以獲取不公平優勢。"
 		},
 		"description4": {
 			"eng": "If you feel this is a mistake, please contact the developer directly at: ching.huang.dexter@gmail.com",
@@ -7781,6 +7817,24 @@
 				"eng": "Discord",
 				"trans": "Discord"
 			},
+			"feedback": {
+				"eng": "Feedback",
+				"trans": "回饋 (huí kuì)"
+			},
+			"feedbackModal": {
+				"text1": {
+					"eng": "Do you want to send feedback to the developer(me)?",
+					"trans": "你想要給開發者（我）發送回饋嗎？"
+				},
+				"text2": {
+					"eng": "Your message will be sent directly to me via direct message, I will try to respond as soon as possible! ❤️",
+					"trans": "你的訊息將會直接透過私訊傳送給我，我會盡快回覆！❤️"
+				},
+				"title": {
+					"eng": "Feedback",
+					"trans": "回饋 (huí kuì)"
+				}
+			},
 			"giftCode": {
 				"eng": "Gift Code",
 				"trans": "優惠碼"
@@ -7788,6 +7842,10 @@
 			"leaderboard": {
 				"eng": "leaderboard",
 				"trans": "排行榜"
+			},
+			"links": {
+				"eng": "links",
+				"trans": "連結"
 			},
 			"logoutButton": {
 				"eng": "logout",
@@ -7808,6 +7866,10 @@
 			"wiki": {
 				"eng": "tutorial",
 				"trans": "教學"
+			},
+			"workInProgress": {
+				"eng": "This page is still work in progress",
+				"trans": "這個頁面還在進行中"
 			}
 		},
 		"mainPage": {

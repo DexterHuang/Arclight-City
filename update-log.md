@@ -8,6 +8,13 @@
 
 **If you find a exploit please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
+### 0.0.9
+
+-   Fixed issue with PvP kills sometimes able to complete kill enemy quest
+-   Added edit translation link
+-   Improved chat UI with scroll interaction
+-   Typo fixes
+
 ### 0.0.8
 -   Lowered enemy damage
 -   Decreased enemy damage specially for lower level enemies
