@@ -17,7 +17,7 @@
 
 ### 0.0.7
 -   Daily reward reset will now reset the claimed reward as well
--   Daily reward changes, Please keep in mine, due to technical reasons this WILL cause daily rewards to randomize to apply these changes: 
+-   Daily reward buffed, Please keep in mine, due to technical reasons this WILL cause daily rewards to randomize to apply these changes: 
     - Added `Neuroblocker`, `Token of Peace`, `Defense boost buff activator` and `Loot Increase Buff Activator` into possible rewards
     - buffed equipment items rarity on daily reward
 
