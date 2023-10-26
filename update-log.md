@@ -14,6 +14,7 @@
 -   Added edit translation link
 -   Improved chat UI with scroll interaction
 -   Typo fixes
+-   Hide the dismantle button for buttons in a backpack, as items in backpack cannot be dismantled
 
 ### 0.0.8
 -   Lowered enemy damage
