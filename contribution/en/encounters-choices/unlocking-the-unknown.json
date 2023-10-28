@@ -1,0 +1,20 @@
+{
+  "story": "You come across a group of malfunctioning robots that have gone rogue. They have barricaded themselves in a room filled with valuable items. What do you do?",
+  "actions": [
+    {
+      "action": "Attempt to reason with the rogue robots and persuade them to let you pass",
+      "good": "After successful negotiations, the robots stand down and allow you to retrieve the loot peacefully.",
+      "bad": "Your attempt at reasoning falls short, and the robots become more aggressive. They fire at you, causing damage but failing to kill you. The loot remains hidden."
+    },
+    {
+      "action": "Force your way past the rogue robots using brute force",
+      "good": "With a show of great strength, you manage to overcome the rogue robots and lay claim to their valuable stash.",
+      "bad": "In your rush to force your way through, you accidentally trigger an alarm. Laser turrets emerge from the walls and fire at you, causing damage but failing to kill you. The loot remains hidden."
+    },
+    {
+      "action": "Search for another way around the room with the rogue robots",
+      "good": "Carefully exploring the area, you discover a concealed passage leading to the other side of the room. You evade the rogue robots and retrieve the loot undetected.",
+      "bad": "While searching for an alternate route, you accidentally activate a pressure plate that sets off a trap. Poisonous gas fills the corridor, causing damage before you narrowly escape. The loot remains out of reach."
+    }
+  ]
+}
