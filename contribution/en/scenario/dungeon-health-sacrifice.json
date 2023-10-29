@@ -1,37 +1,46 @@
-{   
-    "VARIABLES": ["time"],
-    "SCENARIOS": [ 
+{
+    "SCENARIOS": [
         {
             "STORY": "You stumbled upon a locked chest filled with valuable items. The chest is booby-trapped with an electric shock device. Attempting to disarm it will cost you some health.",
             "CONFIRM": "Disarm"
-        }, {
+        },
+        {
             "STORY": "You come across a room filled with toxic gas. You need to get to the other side of the room to reach a hidden stash of weapons. The gas will damage your health if you choose to cross the room.",
             "CONFIRM": "Cross"
-        }, {
+        },
+        {
             "STORY": "You found a terminal that's required to unlock a secret door. The terminal is guarded by a high-tech security bot that's armed with a deadly laser. Hacking into the terminal will cause the bot to attack you and cost you some health.",
             "CONFIRM": "Hack"
-        }, {
+        },
+        {
             "STORY": "You discovered a room filled with a highly-flammable liquid. The room also contains valuable equipment that you need to acquire. Igniting the liquid will cause an explosion and cost you some health.",
             "CONFIRM": "Ignite"
-        }, {
+        },
+        {
             "STORY": "You found a hidden door that's guarded by a deadly laser grid. The door leads to a room filled with valuable items. Disabling the laser grid will cause the lasers to backfire and damage your health.",
             "CONFIRM": "Disable"
-        }, {
+        },
+        {
             "STORY": "You came across a room filled with highly-radioactive materials. The room also contains valuable tech that you need to acquire. Venturing into the room will cause you to take radiation damage and cost you some health.",
             "CONFIRM": "Venture"
-        }, {
+        },
+        {
             "STORY": "You found a room filled with dangerous robots. The room contains valuable equipment that you need to acquire. Engaging the robots will cost you some health.",
             "CONFIRM": "Engage"
-        }, {
+        },
+        {
             "STORY": "You stumbled upon a room filled with a highly-corrosive substance. The room also contains valuable tech that you need to acquire. Touching the substance will cause you to take damage and cost you some health.",
             "CONFIRM": "Touch"
-        }, {
+        },
+        {
             "STORY": "You discovered a room filled with intense heat. The room also contains valuable equipment that you need to acquire. Venturing into the room will cause you to take heat damage and cost you some health.",
             "CONFIRM": "Venture"
-        }, {
+        },
+        {
             "STORY": "You found a room filled with a deadly virus. The room also contains valuable tech that you need to acquire. Entering the room will cause you to take virus damage and cost you some health.",
             "CONFIRM": "Enter"
-        }, {
+        },
+        {
             "STORY": "You come across a locked safe that requires a passcode to unlock. You notice a computer terminal nearby and realize you could try to hack into the system to get the code, but there's a chance you might get caught and trigger an alarm.",
             "CONFIRM": "Hack"
         },
@@ -70,7 +79,8 @@
         {
             "STORY": "You find a room filled with low-level noise that's causing interference with your equipment. To retrieve the loot, you'll need to enter the room and disable the source of the interference, but you'll likely take some damage from the noise.",
             "CONFIRM": "Retrieve loot"
-        },{
+        },
+        {
             "STORY": "You encountered a corrupted AI who is guarding a hidden room filled with valuable loot. The AI is willing to give you access, but it requires you to solve a complex puzzle within a limited time frame.",
             "CONFIRM": "Solve the puzzle"
         },
@@ -109,7 +119,8 @@
         {
             "STORY": "You found a room guarded by a powerful cyborg. In order to get the valuable technology inside the room, you must defeat the cyborg in combat, but doing so will cost you some health.",
             "CONFIRM": "Defeat the cyborg"
-        },{
+        },
+        {
             "STORY": "You encountered a corrupted AI who is guarding a hidden room filled with valuable loot. The AI is willing to give you access, but it requires you to solve a complex puzzle within a limited time frame.",
             "CONFIRM": "Solve the puzzle"
         },
