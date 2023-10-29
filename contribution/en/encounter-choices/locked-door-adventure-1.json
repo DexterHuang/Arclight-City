@@ -1,0 +1,20 @@
+{
+  "story": "As you explore the dimly lit corridors, you hear a metallic hum echoing through the shadows. You come across a locked door leading to an off-limits area. What do you do?",
+  "actions": [
+    {
+      "action": "Hack into the security panel",
+      "good": "With your impressive hacking skills, you bypass the security system and gain access to a hidden cache filled with valuable items. Your tech expertise pays off.",
+      "bad": "Your attempt to hack the panel triggers an alarm, causing automated defense systems to activate. Laser grids are deployed, causing damage but not killing you. The loot remains out of reach."
+    },
+    {
+      "action": "Brute force the door open",
+      "good": "With a show of power and determination, you forcibly open the door, revealing a stash filled with valuable items. Your strength pays off.",
+      "bad": "Your efforts to force the door trigger a hidden alarm, causing automated turrets to emerge from the walls. You take damage but are not killed. The loot remains out of reach."
+    },
+    {
+      "action": "Search for an alternate route",
+      "good": "By carefully searching nearby corridors, you discover a concealed passage leading to the other side of the locked door. You find the hidden stash and take the valuable items.",
+      "bad": "While attempting to find an alternate route, you step on a pressure plate that triggers a hidden trap. Poisonous gas begins to fill the corridor, causing damage but not killing you. The loot remains out of reach."
+    }
+  ]
+}

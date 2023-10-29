@@ -1,0 +1,20 @@
+{
+  "story": "Escuchas susurros resonando a través de los túneles laberínticos. Al seguir su rastro, te encuentras con una puerta con un escáner biométrico. ¿Qué haces?",
+  "actions": [
+    {
+      "action": "Escanear tu huella dactilar para saltar la seguridad",
+      "good": "El escáner reconoce tu identidad y te otorga acceso a una habitación oculta llena de componentes y recursos raros. Tu conocimiento de biometría da sus frutos.",
+      "bad": "Tu huella dactilar no es reconocida, activando una alarma. El sonido atrae torretas cercanas que comienzan a dispararte, causando daño. El botín queda fuera de tu alcance."
+    },
+    {
+      "action": "Hackear el sistema del escáner",
+      "good": "Con tus habilidades excepcionales de hacking, saltas la seguridad biométrica y obtienes acceso a una habitación oculta cargada de componentes y recursos raros. Tu destreza tecnológica demuestra ser valiosa una vez más.",
+      "bad": "Tu intento de hackear el sistema del escáner activa una alarma. El sonido alerta a torretas cercanas que comienzan a dispararte, causando daño. Escapas por poco, dejando el botín fuera de tu alcance."
+    },
+    {
+      "action": "Encontrar una forma de evitar la cerradura biométrica",
+      "good": "Explorando el área circundante, descubres un pasaje oculto que conduce a una ruta alternativa de la puerta. Pasas desapercibido y reclamas los componentes y recursos raros.",
+      "bad": "En tu búsqueda de una ruta alternativa, accidentalmente activas una trampa oculta que libera gas venenoso. La densa niebla obstruye tu visión, causando daño antes de que escapes por poco. El botín queda fuera de tu alcance."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "story": "Anda menemukan sekelompok robot yang bermasalah dan telah memberontak. Mereka telah memagari diri mereka di dalam ruangan yang penuh dengan barang berharga. Apa yang akan Anda lakukan?",
+  "actions": [
+    {
+      "action": "Mencoba untuk berunding dengan robot yang memberontak dan meyakinkan mereka untuk membiarkan Anda melewati",
+      "good": "Setelah berhasil bernegosiasi, robot tersebut menyerah dan membiarkan Anda mengambil barang dengan damai.",
+      "bad": "Upaya Anda untuk berunding tidak berhasil, dan robot tersebut menjadi lebih agresif. Mereka menembak Anda, menyebabkan kerusakan tetapi gagal membunuh Anda. Barang berharga tetap tersembunyi."
+    },
+    {
+      "action": "Memaksa melewati robot yang memberontak dengan kekuatan brute",
+      "good": "Dengan menunjukkan kekuatan yang hebat, Anda berhasil mengalahkan robot yang memberontak dan mengklaim barang berharga mereka.",
+      "bad": "Dalam kegagapan Anda untuk memaksa melewati, Anda secara tidak sengaja memicu alarm. Turret laser muncul dari dinding dan menembak Anda, menyebabkan kerusakan tetapi gagal membunuh Anda. Barang berharga tetap tersembunyi."
+    },
+    {
+      "action": "Mencari jalan lain di sekitar ruangan dengan robot yang memberontak",
+      "good": "Dengan hati-hati menjelajahi area tersebut, Anda menemukan lorong tersembunyi yang mengarah ke sisi lain ruangan. Anda berhasil menghindari robot yang memberontak dan mengambil barang berharga tanpa terdeteksi.",
+      "bad": "Saat mencari rute alternatif, Anda secara tidak sengaja mengaktifkan pelat tekan yang memicu perangkap. Gas beracun mengisi koridor, menyebabkan kerusakan sebelum Anda dengan susah payah melarikan diri. Barang berharga tetap tidak dapat dijangkau."
+    }
+  ]
+}

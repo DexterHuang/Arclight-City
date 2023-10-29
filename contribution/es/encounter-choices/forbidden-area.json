@@ -1,0 +1,20 @@
+{
+  "story": "Te encuentras en un pasillo poco iluminado lleno del zumbido de maquinaria. A medida que avanzas, te topas con una puerta cerrada que conduce a una zona restringida. ¿Qué haces?",
+  "actions": [
+    {
+      "action": "Intentar hackear el panel de seguridad de la puerta",
+      "good": "Con tus excepcionales habilidades de hacking, logras burlar el sistema de seguridad sin ser detectado, dándote acceso a un escondite de objetos valiosos. Tu destreza tecnológica da sus frutos.",
+      "bad": "Mientras intentas hackear la seguridad de la puerta, se activan sistemas de defensa automatizados. Las rejillas láser se activan y te causan daño. El botín sigue siendo inaccesible."
+    },
+    {
+      "action": "Forzar la puerta con fuerza bruta",
+      "good": "Usando toda tu fuerza, logras abrir la puerta, revelando un alijo de objetos valiosos. Tu determinación resulta gratificante.",
+      "bad": "Tus esfuerzos por forzar la puerta provocan la activación de una alarma oculta. Torretas automatizadas emergen de las paredes y te disparan, causándote daño. El botín sigue fuera de tu alcance."
+    },
+    {
+      "action": "Explorar en busca de una ruta alternativa",
+      "good": "Explorando cuidadosamente los pasillos cercanos, descubres un pasaje oculto que conduce al otro lado de la puerta cerrada. Descubres el escondite secreto de la banda y te ayudas a ti mismo con su contenido.",
+      "bad": "Mientras buscas una ruta alternativa, activas sin querer una placa de presión, desencadenando una trampa oculta. Gas venenoso comienza a llenar el pasillo, causándote daño antes de que logres escapar por poco. El botín sigue fuera de tu alcance."
+    }
+  ]
+}
