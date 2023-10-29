@@ -921,6 +921,10 @@
 		}
 	},
 	"clanPlayer": {
+		"controlPointContributed": {
+			"eng": "control points: ${amount}",
+			"trans": "Контрольные точки: ${amount}"
+		},
 		"fundsContributed": {
 			"eng": "funds: ${amount}",
 			"trans": "средства: ${amount}"
@@ -1484,6 +1488,14 @@
 			"trans": "Удалить персонаж"
 		}
 	},
+	"dismantle": {
+		"error": {
+			"notIdle": {
+				"eng": "You must be idle to dismantle items",
+				"trans": "Для разборки предметов вы должны быть бездействующим"
+			}
+		}
+	},
 	"dismantlePage": {
 		"confirmModal": {
 			"title": {
@@ -1586,6 +1598,16 @@
 					"trans": "Средняя сложность"
 				}
 			}
+		}
+	},
+	"dungeonChoicePopup": {
+		"actionsTitle": {
+			"eng": "Choose your action",
+			"trans": "Выберите действие"
+		},
+		"close": {
+			"eng": "Close",
+			"trans": "Закрыть"
 		}
 	},
 	"dungeonEffect": {
@@ -3836,6 +3858,12 @@
 				"eng": "PvP Kills",
 				"trans": "Убийства в PVP"
 			}
+		}
+	},
+	"levelTip": {
+		"1": {
+			"eng": "Seems like some of your equipments are still at level ${level} or lower. You should level them up your character level at the item upgrade interface",
+			"trans": "Кажется, что некоторое из вашего оборудования все еще на уровне ${level} или ниже. Вы должны повысить уровень своего персонажа в интерфейсе улучшения предметов"
 		}
 	},
 	"levelType": {
@@ -6489,6 +6517,10 @@
 			"chestAlreadyOpened": {
 				"eng": "Chest already opened",
 				"trans": "Сундук уже открыт"
+			},
+			"choiceNotFound": {
+				"eng": "This encounter no longer exists",
+				"trans": "Эта встреча больше не существует"
 			},
 			"dungeonExpired": {
 				"eng": "Dungeon expired",

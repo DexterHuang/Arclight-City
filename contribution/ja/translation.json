@@ -921,6 +921,10 @@
 		}
 	},
 	"clanPlayer": {
+		"controlPointContributed": {
+			"eng": "control points: ${amount}",
+			"trans": "コントロールポイント：${amount}"
+		},
 		"fundsContributed": {
 			"eng": "funds: ${amount}",
 			"trans": "資金：${amount}"
@@ -1484,6 +1488,14 @@
 			"trans": "キャラクターを削除します"
 		}
 	},
+	"dismantle": {
+		"error": {
+			"notIdle": {
+				"eng": "You must be idle to dismantle items",
+				"trans": "アイテムを解体するにはアイドル状態である必要があります。"
+			}
+		}
+	},
 	"dismantlePage": {
 		"confirmModal": {
 			"title": {
@@ -1586,6 +1598,16 @@
 					"trans": "難易度:ノーマル"
 				}
 			}
+		}
+	},
+	"dungeonChoicePopup": {
+		"actionsTitle": {
+			"eng": "Choose your action",
+			"trans": "アクションを選択してください"
+		},
+		"close": {
+			"eng": "Close",
+			"trans": "閉じる"
 		}
 	},
 	"dungeonEffect": {
@@ -3836,6 +3858,12 @@
 				"eng": "PvP Kills",
 				"trans": "PvPキル"
 			}
+		}
+	},
+	"levelTip": {
+		"1": {
+			"eng": "Seems like some of your equipments are still at level ${level} or lower. You should level them up your character level at the item upgrade interface",
+			"trans": "あなたの装備の中には、まだレベル${level}以下のものがあるようですね。アイテムアップグレード画面でキャラクターレベルを上げる必要があります。"
 		}
 	},
 	"levelType": {
@@ -6489,6 +6517,10 @@
 			"chestAlreadyOpened": {
 				"eng": "Chest already opened",
 				"trans": "チェストは既に開かれています"
+			},
+			"choiceNotFound": {
+				"eng": "This encounter no longer exists",
+				"trans": "このエンカウントはもう存在しません"
 			},
 			"dungeonExpired": {
 				"eng": "Dungeon expired",

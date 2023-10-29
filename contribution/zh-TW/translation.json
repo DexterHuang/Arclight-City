@@ -921,6 +921,10 @@
 		}
 	},
 	"clanPlayer": {
+		"controlPointContributed": {
+			"eng": "control points: ${amount}",
+			"trans": "控制點數量：${amount}"
+		},
 		"fundsContributed": {
 			"eng": "funds: ${amount}",
 			"trans": "資金：${amount}"
@@ -1484,6 +1488,14 @@
 			"trans": "刪除角色"
 		}
 	},
+	"dismantle": {
+		"error": {
+			"notIdle": {
+				"eng": "You must be idle to dismantle items",
+				"trans": "拆解物品前必須處於閒置狀態"
+			}
+		}
+	},
 	"dismantlePage": {
 		"confirmModal": {
 			"title": {
@@ -1586,6 +1598,16 @@
 					"trans": "普通"
 				}
 			}
+		}
+	},
+	"dungeonChoicePopup": {
+		"actionsTitle": {
+			"eng": "Choose your action",
+			"trans": "選擇你的行動"
+		},
+		"close": {
+			"eng": "Close",
+			"trans": "關閉"
 		}
 	},
 	"dungeonEffect": {
@@ -3836,6 +3858,12 @@
 				"eng": "PvP Kills",
 				"trans": "PvP 擊殺数"
 			}
+		}
+	},
+	"levelTip": {
+		"1": {
+			"eng": "Seems like some of your equipments are still at level ${level} or lower. You should level them up your character level at the item upgrade interface",
+			"trans": "看起來你的一些裝備仍然處於${level}級或更低的等級。你應該在裝備升級介面將它們升級到你的角色等級。"
 		}
 	},
 	"levelType": {
@@ -6489,6 +6517,10 @@
 			"chestAlreadyOpened": {
 				"eng": "Chest already opened",
 				"trans": "寶箱已經打開"
+			},
+			"choiceNotFound": {
+				"eng": "This encounter no longer exists",
+				"trans": "這次遭遇已經消失了"
 			},
 			"dungeonExpired": {
 				"eng": "Dungeon expired",

@@ -921,6 +921,10 @@
 		}
 	},
 	"clanPlayer": {
+		"controlPointContributed": {
+			"eng": "control points: ${amount}",
+			"trans": "제어 지점: ${amount}"
+		},
 		"fundsContributed": {
 			"eng": "funds: ${amount}",
 			"trans": "자금: ${amount}"
@@ -1484,6 +1488,14 @@
 			"trans": "캐릭터 삭제"
 		}
 	},
+	"dismantle": {
+		"error": {
+			"notIdle": {
+				"eng": "You must be idle to dismantle items",
+				"trans": "아이템을 분해하려면 아이들 상태여야 합니다"
+			}
+		}
+	},
 	"dismantlePage": {
 		"confirmModal": {
 			"title": {
@@ -1586,6 +1598,16 @@
 					"trans": "보통 난이도"
 				}
 			}
+		}
+	},
+	"dungeonChoicePopup": {
+		"actionsTitle": {
+			"eng": "Choose your action",
+			"trans": "행동을 선택하세요"
+		},
+		"close": {
+			"eng": "Close",
+			"trans": "닫기"
 		}
 	},
 	"dungeonEffect": {
@@ -3836,6 +3858,12 @@
 				"eng": "PvP Kills",
 				"trans": "PvP 킬"
 			}
+		}
+	},
+	"levelTip": {
+		"1": {
+			"eng": "Seems like some of your equipments are still at level ${level} or lower. You should level them up your character level at the item upgrade interface",
+			"trans": "네 장비 중 일부는 아직 레벨 ${level} 이하입니다. 아이템 업그레이드 인터페이스에서 캐릭터 레벨을 올려주세요"
 		}
 	},
 	"levelType": {
@@ -6489,6 +6517,10 @@
 			"chestAlreadyOpened": {
 				"eng": "Chest already opened",
 				"trans": "상자가 이미 열렸습니다"
+			},
+			"choiceNotFound": {
+				"eng": "This encounter no longer exists",
+				"trans": "이 대결은 더 이상 존재하지 않습니다"
 			},
 			"dungeonExpired": {
 				"eng": "Dungeon expired",
