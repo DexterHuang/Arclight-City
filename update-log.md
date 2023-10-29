@@ -10,6 +10,11 @@
 
 ### 0.0.10
 
+-   Added translation for dungeon time and health event.
+-   Bug fixes
+
+### 0.0.10
+
 -   Added new dungeon encounter system, there is a small chance of getting a random encounter in dungeons, you can choose different action for the encounter, and you might get rewarded or damaged base on your choice and chance. the encounter is translatable in Github.
 -   Reduced `Calibration Bundle` price
 -   Fixed issue with tile track minigame where clicking on wrong tile wont reset the minigame
