@@ -8,6 +8,12 @@
 
 **If you find a exploit please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
+### 0.0.10
+
+-   Added new dungeon encounter system, there is a small chance of getting a random encounter in dungeons, you can choose different action for the encounter, and you might get rewarded or damaged base on your choice and chance. the encounter is translatable in Github.
+-   Reduced `Calibration Bundle` price
+-   Fixed issue with tile track minigame where clicking on wrong tile wont reset the minigame
+
 ### 0.0.9
 
 -   Fixed issue with PvP kills sometimes able to complete kill enemy quest
