@@ -10,6 +10,11 @@
 
 ### 0.0.11
 
+-   Fixed bug with auto healing in combats
+-   Fixed issue with equipment tab UI
+
+### 0.0.11
+
 -   Added translation for dungeon time and health event.
 -   Bug fixes
 
