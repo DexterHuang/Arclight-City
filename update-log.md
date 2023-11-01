@@ -8,6 +8,10 @@
 
 **If you find a exploit please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
+### 0.0.12
+-   Fixed issue with purchasing bundle when inventory is full
+
+
 ### 0.0.11
 
 -   Fixed bug with auto healing in combats
