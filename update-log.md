@@ -8,6 +8,10 @@
 
 **If you find a exploit please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
+### 0.0.13
+-   Added first top-up discount, you can now get double value on first top-up
+-   Updated notice popup UI
+
 ### 0.0.12
 -   Fixed issue with purchasing bundle when inventory is full
 
