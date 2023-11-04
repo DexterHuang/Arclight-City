@@ -11,7 +11,7 @@
 ### 0.0.14
 
 -   Updated cooking interface
--   Improved PvP fairness, to attack an innocent player (player without hostile or wanted status) will:
+-   Improved PvP fairness, to protect innocent players (player without hostile or wanted status) now will:
     -  Require you to have at least 20,000 eurodollars in your character, to prevent people from using this advantage to pvp random players without significant risk
     -  incur a double psychosis usage as you are attacking an innocent player, this is to decrease the amount of mass killing of innocent players
 
