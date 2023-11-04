@@ -14,6 +14,7 @@
 -   Improved PvP fairness, to protect innocent players (player without hostile or wanted status) now will:
     -  Require you to have at least 20,000 eurodollars in your character, to prevent people from using this advantage to pvp random players without significant risk
     -  incur a double psychosis usage as you are attacking an innocent player, this is to decrease the amount of mass killing of innocent players
+-   Optimization, the game should run smoother and require less battery on some devices now
 
 *mechanic for arresting or attacking a player with hostile status will remain unchanged*
 -   Added protection against new players for placing hit, you can only place hit on players thats level 25 or above, this is to prevent people from placing hits on new players and players that are protected by pvp.
