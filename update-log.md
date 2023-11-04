@@ -11,7 +11,7 @@
 ### 0.0.14
 
 -   Updated cooking interface
--   Added protection against new players for placing hit, you can only place hit on players thats level 25 or above
+-   Added protection against new players for placing hit, you can only place hit on players thats level 25 or above, this is to prevent people from placing hits on new players and players that are protected by pvp.
 
 ### 0.0.13
 -   Added first top-up discount, you can now get double value on first top-up
