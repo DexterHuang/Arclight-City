@@ -8,6 +8,11 @@
 
 **If you find a exploit please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
+### 0.0.14
+
+-   Updated cooking interface
+-   Added protection against new players for placing hit, you can only place hit on players thats level 25 or above
+
 ### 0.0.13
 -   Added first top-up discount, you can now get double value on first top-up
 -   Updated notice popup UI
