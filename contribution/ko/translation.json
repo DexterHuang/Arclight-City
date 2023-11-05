@@ -923,7 +923,7 @@
 	"clanPlayer": {
 		"controlPointContributed": {
 			"eng": "control points: ${amount}",
-			"trans": "제어 지점: ${amount}"
+			"trans": "점령 점수: ${amount}"
 		},
 		"fundsContributed": {
 			"eng": "funds: ${amount}",
@@ -1492,7 +1492,7 @@
 		"error": {
 			"notIdle": {
 				"eng": "You must be idle to dismantle items",
-				"trans": "아이템을 분해하려면 아이들 상태여야 합니다"
+				"trans": "아이템을 분해하려면 기본 상태여야 합니다"
 			}
 		}
 	},
@@ -2155,11 +2155,11 @@
 	"firstPurchasePromoSmall": {
 		"description": {
 			"eng": "Top-up for the first time to get double value!",
-			"trans": "첫 충전 시 두 배의 가치를 받으세요!"
+			"trans": "첫 충전 시 두 배 획득 가능!"
 		},
 		"title": {
 			"eng": "First Top-up Double Value",
-			"trans": "첫 충전 두 배 혜택"
+			"trans": "첫 충전 시 두 배"
 		}
 	},
 	"friend": {
@@ -2827,11 +2827,11 @@
 		},
 		"levelReward": {
 			"eng": "Drop from Level Reward Container (${itemName})",
-			"trans": "레벨 보상 상자에서 (${itemName})을(를) 드롭합니다"
+			"trans": "레벨 보상 상자에서 드롭(${itemName})"
 		},
 		"levelRewardBox": {
 			"eng": "Defeating ${dungeonType} strongholds in various locations",
-			"trans": "다양한 지역에서 ${dungeonType} 아지트를 무찌르기"
+			"trans": "다양한 지역에서 ${dungeonType} 아지트를 격파"
 		},
 		"obtainedFrom": {
 			"eng": "Obtained from",
@@ -3877,7 +3877,7 @@
 	"levelTip": {
 		"1": {
 			"eng": "Seems like some of your equipments are still at level ${level} or lower. You should level them up your character level at the item upgrade interface",
-			"trans": "네 장비 중 일부는 아직 레벨 ${level} 이하입니다. 아이템 업그레이드 인터페이스에서 캐릭터 레벨을 올려주세요"
+			"trans": "당신의 장비 중 일부는 ${level}레벨 이하입니다. 아이템 업그레이드 인터페이스에서 캐릭터 레벨을 올려주세요"
 		}
 	},
 	"levelType": {
@@ -5944,7 +5944,7 @@
 		},
 		"firstPurchase": {
 			"eng": "First Top-up Double Value",
-			"trans": "첫 충전 두 배 혜택"
+			"trans": "첫 충전 시 두 배"
 		}
 	},
 	"promo": {
@@ -6250,7 +6250,7 @@
 		},
 		"title": {
 			"eng": "Refer a friend and get rewards!",
-			"trans": "친구를 추천하고 보상을 받으세요!"
+			"trans": "친구에게 추천하고 보상을 받으세요!"
 		}
 	},
 	"refreshShopModal": {
@@ -6552,7 +6552,7 @@
 			},
 			"choiceNotFound": {
 				"eng": "This encounter no longer exists",
-				"trans": "이 대결은 더 이상 존재하지 않습니다"
+				"trans": "이 전투는 더 이상 존재하지 않습니다"
 			},
 			"dungeonExpired": {
 				"eng": "Dungeon expired",
