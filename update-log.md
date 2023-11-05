@@ -8,6 +8,12 @@
 
 **If you find a exploit please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
+### 0.0.15
+
+-   added skip animation toggle, allowing you to calibrate equipments faster.
+-   Added skip animation and auto repair toggle to item repair interface; using auto repair will automatically retry repairing the item until it is repaired successfully, will only stop when the item is repaired successfully or you run out of `Nano Repairer` 
+-   Improved Calibration and item Upgrade interface, takes less space and more compact now
+
 ### 0.0.14
 
 -   Updated cooking interface
