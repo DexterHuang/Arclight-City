@@ -923,7 +923,7 @@
 	"clanPlayer": {
 		"controlPointContributed": {
 			"eng": "control points: ${amount}",
-			"trans": "제어 지점: ${amount}"
+			"trans": "점령 점수: ${amount}"
 		},
 		"fundsContributed": {
 			"eng": "funds: ${amount}",
@@ -1492,7 +1492,7 @@
 		"error": {
 			"notIdle": {
 				"eng": "You must be idle to dismantle items",
-				"trans": "아이템을 분해하려면 아이들 상태여야 합니다"
+				"trans": "아이템을 분해하려면 기본 상태여야 합니다"
 			}
 		}
 	},
@@ -2155,11 +2155,11 @@
 	"firstPurchasePromoSmall": {
 		"description": {
 			"eng": "Top-up for the first time to get double value!",
-			"trans": "첫 충전 시 두 배의 가치를 받으세요!"
+			"trans": "첫 충전 시 두 배 획득 가능!"
 		},
 		"title": {
 			"eng": "First Top-up Double Value",
-			"trans": "첫 충전 두 배 혜택"
+			"trans": "첫 충전 시 두 배"
 		}
 	},
 	"friend": {
@@ -2827,11 +2827,11 @@
 		},
 		"levelReward": {
 			"eng": "Drop from Level Reward Container (${itemName})",
-			"trans": "레벨 보상 상자에서 (${itemName})을(를) 드롭합니다"
+			"trans": "레벨 보상 상자에서 드롭(${itemName})"
 		},
 		"levelRewardBox": {
 			"eng": "Defeating ${dungeonType} strongholds in various locations",
-			"trans": "다양한 지역에서 ${dungeonType} 아지트를 무찌르기"
+			"trans": "다양한 지역에서 ${dungeonType} 아지트를 격파"
 		},
 		"obtainedFrom": {
 			"eng": "Obtained from",
@@ -3358,7 +3358,7 @@
 		"levelLootBox1": {
 			"description": {
 				"eng": "Special reward container obtained from clearing hard or above difficulty strongholds in locations",
-				"trans": "특별한 보상 컨테이너는 어려운 난이도의 아지트를 클리어하면 얻을 수 있습니다"
+				"trans": "지역의 어려운 난이도의 아지트를 클리어하면 얻을 수 있는 특별한 보상 컨테이너"
 			},
 			"name": {
 				"eng": "Level Reward Container",
@@ -3877,14 +3877,14 @@
 	"levelTip": {
 		"1": {
 			"eng": "Seems like some of your equipments are still at level ${level} or lower. You should level them up your character level at the item upgrade interface",
-			"trans": "네 장비 중 일부는 아직 레벨 ${level} 이하입니다. 아이템 업그레이드 인터페이스에서 캐릭터 레벨을 올려주세요"
+			"trans": "당신의 장비 중 일부는 ${level}레벨 이하입니다. 아이템 업그레이드 인터페이스에서 캐릭터 레벨을 올려주세요"
 		}
 	},
 	"levelType": {
 		"bodyguard": {
 			"currentEffectDescription": {
 				"eng": "Increases strength by ${strength} (increases melee weapons damage by ${dmg}) and bodyguard task profit to ${profit}",
-				"trans": "힘을 ${strength}만큼 증가시키고(근접 무기 피해량 ${dmg}증가) 경호 임무 수익을 ${profit}만큼 증가시킵니다"
+				"trans": "힘을 ${strength}만큼 증가시키고(근접 무기 피해량 ${dmg}증가) 경호 임무 수익을 ${profit}증가시킵니다"
 			},
 			"description": {
 				"eng": "Increases strength attribute by 1 every level, and increases profit from this job type",
@@ -3910,7 +3910,7 @@
 		"medical": {
 			"currentEffectDescription": {
 				"eng": "Increases intelligence by ${intelligence} (increases energy weapon damage by ${healing}) and Extraction Mission task profit to ${profit}",
-				"trans": "지능을 ${intelligence} 증가시킵니다 (에너지 무기 데미지를 ${healing} 증가시킵니다) 그리고 구출 임무 수익을 ${profit}로 증가시킵니다"
+				"trans": "지능을 ${intelligence} 증가시키고 (에너지 무기 데미지를 ${healing} 증가시킵니다) 구출 임무 수익을 ${profit}증가시킵니다"
 			},
 			"description": {
 				"eng": "Increases intelligence attribute by 1 every level, and increases profit from this job type",
@@ -3934,7 +3934,7 @@
 		"scavenge": {
 			"currentEffectDescription": {
 				"eng": "Increases vitality by ${vitality} (increases health by ${health}) and scavenging task profit to ${profit}",
-				"trans": "활력을 ${vitality}만큼 증가시키고(체력 ${health}증가) 탐색 임무 수익을 ${profit}% 증가시킵니다"
+				"trans": "활력을 ${vitality}만큼 증가시키고(체력 ${health}증가) 탐색 임무 수익을 ${profit}증가시킵니다"
 			},
 			"description": {
 				"eng": "Increases vitality attribute by 1 every level, and increases profit from this job type",
@@ -3948,7 +3948,7 @@
 		"thieving": {
 			"currentEffectDescription": {
 				"eng": "Increases dexterity by ${dexterity} (increases fire-arm weapons damage by ${dmg}) and thieving task profit to ${profit}",
-				"trans": "민첩성을 ${dexterity}만큼 증가시킵니다 (화기 무기의 피해량 ${dmg}증가) 그리고 도둑질 작업의 수익을 ${profit}로 증가시킵니다"
+				"trans": "민첩성을 ${dexterity}만큼 증가시키고 (화기 무기의 피해량 ${dmg}증가) 도둑질 작업의 수익을 ${profit}증가시킵니다"
 			},
 			"description": {
 				"eng": "Increases dexterity attribute by 1 every level, and increases profit from this job type",
@@ -5944,7 +5944,7 @@
 		},
 		"firstPurchase": {
 			"eng": "First Top-up Double Value",
-			"trans": "첫 충전 두 배 혜택"
+			"trans": "첫 충전 시 두 배"
 		}
 	},
 	"promo": {
@@ -6250,7 +6250,7 @@
 		},
 		"title": {
 			"eng": "Refer a friend and get rewards!",
-			"trans": "친구를 추천하고 보상을 받으세요!"
+			"trans": "친구에게 추천하고 보상을 받으세요!"
 		}
 	},
 	"refreshShopModal": {
@@ -6552,7 +6552,7 @@
 			},
 			"choiceNotFound": {
 				"eng": "This encounter no longer exists",
-				"trans": "이 대결은 더 이상 존재하지 않습니다"
+				"trans": "이 전투는 더 이상 존재하지 않습니다"
 			},
 			"dungeonExpired": {
 				"eng": "Dungeon expired",
@@ -6805,7 +6805,7 @@
 		},
 		"languageTip": {
 			"eng": "Language translation is contributable by the community on GitHub, if you would like to make edits for your language, click here to view our GitHub repository.",
-			"trans": "언어 번역은 GitHub 커뮤니티에서 기여할 수 있습니다. 만약 여러분의 언어로 수정하고 싶다면, GitHub 저장소를 확인하려면 여기를 클릭하세요."
+			"trans": "GitHub 커뮤니티에서 번역에 기여할 수 있습니다. 만약 여러분의 언어로 수정하고 싶다면, 여기를 클릭해 GitHub 저장소를 확인하세요."
 		},
 		"zoom": {
 			"eng": "UI Scaling (Experimental)",
@@ -7214,7 +7214,7 @@
 		},
 		"description2": {
 			"eng": "- System has detected this account of cheating, hacking, automating or exploiting the game.",
-			"trans": "- 시스템이 이 계정이 게임을 부정하게 하거나 해킹, 자동화 또는 악용하는 것을 감지했습니다."
+			"trans": "- 시스템이 이 계정이 치트, 해킹, 자동화 또는 악용하는 것을 감지했습니다."
 		},
 		"description3": {
 			"eng": "- System has detected using of multiple accounts to gain an unfair advantage.",
@@ -7892,7 +7892,7 @@
 				},
 				"text2": {
 					"eng": "Your message will be sent directly to me via direct message, I will try to respond as soon as possible! ❤️",
-					"trans": "당신의 메시지는 나에게 직접 메시지로 전송될 것이며, 가능한 빨리 답변해드리겠습니다! ❤️"
+					"trans": "당신의 메시지는 저에게 직접 메시지로 전송될 것입니다. 가능한 한 빨리 답변 해드리겠습니다! ❤️"
 				},
 				"title": {
 					"eng": "Feedback",
