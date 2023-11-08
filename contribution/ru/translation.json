@@ -309,8 +309,8 @@
 	},
 	"apartmentPurchasePage": {
 		"confirmDescription": {
-			"eng": "Are you sure you want to rent this apartment? if you already has an apartment, it will be dismissed.",
-			"trans": "Вы уверены, что хотите арендовать эту квартиру? Если у вас уже есть квартира, она будет отменена."
+			"eng": "Are you sure you want to rent this apartment? if you already have an apartment, it will be dismissed.",
+			"trans": "Ты уверен, что хочешь арендовать эту квартиру? Если у тебя уже есть квартира, она будет отменена."
 		},
 		"confirmTitle": {
 			"eng": "Confirm Rental",
@@ -397,6 +397,44 @@
 				"eng": "Vitality",
 				"trans": "Жизненная сила"
 			}
+		}
+	},
+	"autoCalibrationPage": {
+		"calibrate": {
+			"eng": "Start Auto Calibration",
+			"trans": "Начать автоматическую калибровку"
+		},
+		"description": {
+			"eng": "Calibrate to calibration level ${caliLevel}",
+			"trans": "Калибровать до уровня калибровки ${caliLevel}"
+		},
+		"destroyChance": {
+			"eng": "Destroy chance:",
+			"trans": "Шанс уничтожения:\n\n"
+		},
+		"maxed": {
+			"eng": "Max Calibration Reached",
+			"trans": "Максимальная калибровка достигнута"
+		},
+		"noChance": {
+			"eng": "Success chance is zero",
+			"trans": "Шанс успеха равен нулю"
+		},
+		"noItem": {
+			"eng": "No item found",
+			"trans": "Ничего не найдено"
+		},
+		"stop": {
+			"eng": "Interrupt Auto Calibration",
+			"trans": "Прервать автоматическую калибровку"
+		},
+		"successChance": {
+			"eng": "Success chance:",
+			"trans": "Шанс успеха:\n\n"
+		},
+		"tip": {
+			"eng": "Automatically calibrate and repair your item until it have successfully calibrated it once, or if you stopped the process.",
+			"trans": "Автоматически калибруйте и ремонтируйте свой предмет до тех пор, пока он не будет успешно откалиброван, или если вы остановили процесс."
 		}
 	},
 	"backgroundTask": {
@@ -1164,6 +1202,10 @@
 		"selectAmount": {
 			"eng": "Select amount",
 			"trans": "Выберите количество"
+		},
+		"selectRecipe": {
+			"eng": "Select a recipe below",
+			"trans": "Выберите рецепт ниже"
 		}
 	},
 	"costDisplay": {
@@ -2356,6 +2398,10 @@
 				"eng": "You cannot place bounty on this player",
 				"trans": "Вы не можете назначить награду на этого игрока"
 			},
+			"cannotPlaceBountyOnLowLevel": {
+				"eng": "You cannot place bounty on players lower than level ${level}",
+				"trans": "Вы не можете выставить награду на игроков ниже уровня ${level}"
+			},
 			"cannotPlaceBountyOnSelf": {
 				"eng": "You cannot place bounty on yourself",
 				"trans": "Вы не можете назначить награду на себя"
@@ -2531,9 +2577,13 @@
 		}
 	},
 	"itemCalibrateTab": {
+		"autoCalibrate": {
+			"eng": "Auto Calibrate",
+			"trans": "Автоматическая калибровка"
+		},
 		"caliButton": {
 			"des": {
-				"eng": "Comsumes one ${itemName}",
+				"eng": "Consumes one ${itemName}",
 				"trans": "Потребляет один ${itemName}"
 			},
 			"title": {
@@ -2541,23 +2591,45 @@
 				"trans": "Калибровать"
 			}
 		},
-		"destroyChance": {
-			"eng": "There is ${destroyChance}% chance of item being destroyed on failure. You can attempt to repair a destroyed item in the ${repairNpc}.",
-			"trans": "Существует ${destroyChance}% шанс того, что предмет будет уничтожен при неудаче. Вы можете попытаться восстановить уничтоженный предмет у ${repairNpc}."
+		"destroyChance2": {
+			"eng": "destroy chance",
+			"trans": "шанс уничтожения"
+		},
+		"destroyChanceInfo": {
+			"description1": {
+				"eng": "Destroy chance is the chance of the item being destroyed when calibration failed.",
+				"trans": "Шанс уничтожения - это вероятность того, что предмет будет уничтожен при неудачной калибровке."
+			},
+			"description2": {
+				"eng": "A destroyed item can be repaired at ${npcName} with ${item}",
+				"trans": "Поврежденный предмет можно отремонтировать у ${npcName} с помощью ${item}"
+			},
+			"title": {
+				"eng": "Destroy chance",
+				"trans": "Шанс уничтожения"
+			}
 		},
 		"maxCalibration": {
 			"description": {
-				"eng": "This item has reached the maximum amount of calibrations. you may upgrade the tier of the item to increase the maximum times it can be calibrated.",
-				"trans": "Этот предмет достиг максимального количества калибровок. Вы можете улучшить уровень предмета, чтобы увеличить максимальное количество калибровок."
+				"eng": "you can increase the max calibration capacity by upgrading the item using ${item}",
+				"trans": "Ты можешь увеличить максимальную емкость калибровки, улучшив предмет с помощью ${item}"
 			},
 			"title": {
 				"eng": "Max Calibration",
 				"trans": "Максимальная калибровка"
 			}
 		},
+		"noChance": {
+			"eng": "Success chance is zero",
+			"trans": "Шанс успеха равен нулю"
+		},
 		"selectOptimizer": {
 			"eng": "Select optimizer",
 			"trans": "Выбрать оптимизатор"
+		},
+		"skipAnimation": {
+			"eng": "Skip animation",
+			"trans": "Пропустить анимацию"
 		},
 		"successChance": {
 			"eng": "Success chance",
@@ -2565,8 +2637,8 @@
 		},
 		"tip": {
 			"noOptimizer": {
-				"eng": "You can use a optimizer to improve your calibration process",
-				"trans": "Вы можете использовать оптимизатор для улучшения процесса калибровки"
+				"eng": "You can use a optimizer to improve your calibration chances.",
+				"trans": "Ты можешь использовать оптимизатор, чтобы улучшить свои шансы на калибровку."
 			}
 		}
 	},
@@ -2590,8 +2662,8 @@
 	},
 	"itemDestroyed": {
 		"des2": {
-			"eng": "You can attempt to repair it in the ${repairNpc}",
-			"trans": "Вы можете попытаться отремонтировать его у ${repairNpc}"
+			"eng": "You can repair this item at the ${repairNpc}",
+			"trans": "Вы можете отремонтировать этот предмет у ${repairNpc}"
 		},
 		"repairButton": {
 			"eng": "Repair",
@@ -2757,6 +2829,16 @@
 			"eng": "Each repair attempt has ${chance}% chance of success and costs one ${repairItem}. the 10th time is guaranteed to succeed.",
 			"trans": "Каждая попытка ремонта имеет ${chance}% шанс на успех и стоит один ${repairItem}. Десятая попытка гарантированно приведет к успеху."
 		},
+		"autoRepair": {
+			"title": {
+				"eng": "Auto repair",
+				"trans": "Автоматический ремонт"
+			}
+		},
+		"autoRepairComplete": {
+			"eng": "Repair completed!",
+			"trans": "Ремонт завершен!"
+		},
 		"itemSelectModal": {
 			"title": {
 				"eng": "Select the item to repair",
@@ -2771,6 +2853,12 @@
 			"title": {
 				"eng": "Repair",
 				"trans": "Ремонт"
+			}
+		},
+		"skipAnimation": {
+			"title": {
+				"eng": "Skip animation",
+				"trans": "Пропустить анимацию"
 			}
 		},
 		"title": {
@@ -2933,6 +3021,12 @@
 			"name": {
 				"eng": "Upgrade",
 				"trans": "Улучшить"
+			}
+		},
+		"itemUpgradeShard": {
+			"name": {
+				"eng": "Item Upgrade Shard",
+				"trans": "Шард улучшения предмета"
 			}
 		},
 		"lowerArmor": {
@@ -3167,6 +3261,16 @@
 				"trans": "Калибровочный осколок"
 			}
 		},
+		"calibrationStabilizer1": {
+			"description": {
+				"eng": "Use during calibration to increase chance of success by ${percent}%",
+				"trans": "Используйте во время калибровки, чтобы увеличить шанс успеха на ${percent}%"
+			},
+			"name": {
+				"eng": "Calibration Stabilizer",
+				"trans": "Калибровочный стабилизатор"
+			}
+		},
 		"clanMaintenanceResource": {
 			"description": {
 				"eng": "Use to contribute to gang maintenance",
@@ -3189,8 +3293,8 @@
 		},
 		"commonLevelShard": {
 			"description": {
-				"eng": "Use to level up an common item to its next level",
-				"trans": "Используйте для повышения уровня обычного предмета до следующего уровня"
+				"eng": "you can use this item to level up an ${tier} item to its next level",
+				"trans": "Ты можешь использовать этот предмет, чтобы повысить уровень предмета ${tier} до следующего уровня"
 			},
 			"name": {
 				"eng": "Common Level Shard",
@@ -3228,30 +3332,18 @@
 			}
 		},
 		"epicLevelShard": {
-			"description": {
-				"eng": "Use to level up an epic item to its next level",
-				"trans": "Используйте, чтобы повысить уровень эпического предмета до следующего уровня"
-			},
 			"name": {
 				"eng": "Epic Level Shard",
 				"trans": "Эпический уровень осколка"
 			}
 		},
 		"epicResetShard": {
-			"description": {
-				"eng": "Use to reset a epic item with new traits by chance",
-				"trans": "Используйте для сброса эпического предмета с новыми характеристиками случайным образом"
-			},
 			"name": {
 				"eng": "Epic Reset Shard",
 				"trans": "Эпический Сброс Шард"
 			}
 		},
 		"epicUpgradeShard": {
-			"description": {
-				"eng": "Use to upgrade an unique item to epic tier",
-				"trans": "Используйте для улучшения уникального предмета до эпического уровня"
-			},
 			"name": {
 				"eng": "Epic Upgrade Shard",
 				"trans": "Эпический апгрейдный осколок"
@@ -3355,6 +3447,54 @@
 				"trans": "Уровень осколка"
 			}
 		},
+		"key": {
+			"generalDescription": {
+				"eng": "A key that can be used to unlock a ${containerName}.",
+				"trans": "Ключ, который можно использовать для открытия ${containerName}."
+			}
+		},
+		"key1": {
+			"name": {
+				"eng": "Uncommon Container Key",
+				"trans": "Ключ от необычного контейнера"
+			}
+		},
+		"key2": {
+			"name": {
+				"eng": "Rare Container Key",
+				"trans": "Ключ от редкого контейнера"
+			}
+		},
+		"key3": {
+			"name": {
+				"eng": "Unique Container Key",
+				"trans": "Уникальный ключ контейнера"
+			}
+		},
+		"keyFragment": {
+			"generalDescription": {
+				"eng": "Collect ${amount} of these to create a ${keyName} that can be used to unlock a ${containerName}.",
+				"trans": "Соберите ${amount} из них, чтобы создать ${keyName}, который можно использовать для открытия ${containerName}."
+			}
+		},
+		"keyFragment1": {
+			"name": {
+				"eng": "Uncommon Key Fragment",
+				"trans": "Необычный фрагмент ключа"
+			}
+		},
+		"keyFragment2": {
+			"name": {
+				"eng": "Rare Key Fragment",
+				"trans": "Редкий фрагмент ключа"
+			}
+		},
+		"keyFragment3": {
+			"name": {
+				"eng": "Unique Key Fragment",
+				"trans": "Уникальный фрагмент ключа"
+			}
+		},
 		"levelLootBox1": {
 			"description": {
 				"eng": "Special reward container obtained from clearing hard or above difficulty strongholds in locations",
@@ -3367,8 +3507,8 @@
 		},
 		"lootBox1": {
 			"description": {
-				"eng": "A common container that contains a random item.",
-				"trans": "Обычный контейнер, содержащий случайный предмет."
+				"eng": "A common container that contains random items.",
+				"trans": "Обычный контейнер, содержащий случайные предметы."
 			},
 			"name": {
 				"eng": "Common Container",
@@ -3377,12 +3517,22 @@
 		},
 		"lootBox2": {
 			"description": {
-				"eng": "A uncommon container that contains a random item.",
-				"trans": "Необычный контейнер, содержащий случайный предмет."
+				"eng": "A uncommon container that contains random items.",
+				"trans": "Необычный контейнер, содержащий случайные предметы."
 			},
 			"name": {
-				"eng": "Uncommon Container",
-				"trans": "Необычный контейнер"
+				"eng": "Locked Uncommon Container",
+				"trans": "Запертый необычный контейнер"
+			}
+		},
+		"lootBox3": {
+			"description": {
+				"eng": "A rare container that contains random items.",
+				"trans": "Редкий контейнер, содержащий случайные предметы."
+			},
+			"name": {
+				"eng": "Locked Rare Container",
+				"trans": "Запертый редкий контейнер"
 			}
 		},
 		"lootDoorKey": {
@@ -3455,6 +3605,24 @@
 				"trans": "Евродоллар"
 			}
 		},
+		"mythicLevelShard": {
+			"name": {
+				"eng": "Mythic Level Shard",
+				"trans": "Мифический фрагмент уровня"
+			}
+		},
+		"mythicResetShard": {
+			"name": {
+				"eng": "Mythic Reset Shard",
+				"trans": "Мифический камень сброса"
+			}
+		},
+		"mythicUpgradeShard": {
+			"name": {
+				"eng": "Mythic Upgrade Shard",
+				"trans": "Мифический апгрейдный осколок"
+			}
+		},
 		"netcoin": {
 			"description": {
 				"eng": "NetCoin is a digital currency mainly used in black market transactions. It is untraceable and can be used to purchase illegal goods and services.",
@@ -3522,30 +3690,18 @@
 			}
 		},
 		"rareLevelShard": {
-			"description": {
-				"eng": "Use to level up an rare item to its next level",
-				"trans": "Используйте для повышения уровня редкого предмета до следующего уровня"
-			},
 			"name": {
 				"eng": "Rare Level Shard",
 				"trans": "Редкий уровень осколка"
 			}
 		},
 		"rareResetShard": {
-			"description": {
-				"eng": "Use to reset a rare item with new traits by chance",
-				"trans": "Используйте для сброса редкого предмета с новыми характеристиками случайным образом"
-			},
 			"name": {
 				"eng": "Rare Reset Shard",
 				"trans": "Редкий сброс осколка"
 			}
 		},
 		"rareUpgradeShard": {
-			"description": {
-				"eng": "Use to upgrade an uncommon item to rare tier",
-				"trans": "Используйте для улучшения необычного предмета до редкого уровня"
-			},
 			"name": {
 				"eng": "Rare Upgrade Shard",
 				"trans": "Редкий апгрейдовый осколок"
@@ -3559,6 +3715,12 @@
 			"name": {
 				"eng": "Nano Repairer",
 				"trans": "Нано-ремонтник"
+			}
+		},
+		"resetGeneral": {
+			"description": {
+				"eng": "Use to reset a ${tier} item with new random prefixes",
+				"trans": "Используйте для сброса предмета ${tier} с новыми случайными префиксами"
 			}
 		},
 		"rewardCipher": {
@@ -3648,60 +3810,46 @@
 			}
 		},
 		"uncommonLevelShard": {
-			"description": {
-				"eng": "Use to level up an uncommon item to its next level",
-				"trans": "Используйте, чтобы повысить уровень необычного предмета до следующего уровня"
-			},
 			"name": {
 				"eng": "Uncommon Level Shard",
 				"trans": "Необычный уровень осколка"
 			}
 		},
 		"uncommonResetShard": {
-			"description": {
-				"eng": "Use to reset a uncommon item with new traits by chance",
-				"trans": "Используйте для сброса необычного предмета с новыми характеристиками случайным образом"
-			},
 			"name": {
 				"eng": "Uncommon Reset Shard",
 				"trans": "Необычный Кристалл Сброса"
 			}
 		},
 		"uncommonUpgradeShard": {
-			"description": {
-				"eng": "Use to upgrade an common item to uncommon tier",
-				"trans": "Используйте для улучшения обычного предмета до необычного уровня"
-			},
 			"name": {
 				"eng": "Uncommon Upgrade Shard",
 				"trans": "Необычный улучшающий осколок"
 			}
 		},
 		"uniqueLevelShard": {
-			"description": {
-				"eng": "Use to level up an unique item to its next level",
-				"trans": "Используйте для повышения уровня уникального предмета до следующего уровня"
-			},
 			"name": {
 				"eng": "Unique Level Shard",
 				"trans": "Уникальный уровень осколка"
 			}
 		},
-		"uniqueResetShard": {
+		"uniqueLootBox": {
 			"description": {
-				"eng": "Use to reset a unique item with new traits by chance",
-				"trans": "Используйте для сброса уникального предмета с новыми характеристиками случайным образом"
+				"eng": "A unique container that contains random items.",
+				"trans": "Уникальный контейнер, содержащий случайные предметы."
 			},
+			"name": {
+				"eng": "Locked Unique Container",
+				"trans": "Запертый уникальный контейнер"
+			}
+		},
+		"uniqueResetShard": {
 			"name": {
 				"eng": "Unique Reset Shard",
 				"trans": "Уникальный Сброс Шард"
 			}
 		},
 		"uniqueUpgradeShard": {
-			"description": {
-				"eng": "Use to upgrade an rare item to unique tier",
-				"trans": "Используйте для улучшения редкого предмета до уникального уровня"
-			},
 			"name": {
 				"eng": "Unique Upgrade Shard",
 				"trans": "Уникальный апгрейдный осколок"
@@ -3715,6 +3863,12 @@
 			"name": {
 				"eng": "Universal Dollars",
 				"trans": "Универсальные доллары"
+			}
+		},
+		"upgradeGeneral": {
+			"description": {
+				"eng": "Use to upgrade an ${fromTier} item to ${toTier}",
+				"trans": "Используйте для улучшения предмета ${fromTier} до ${toTier}"
 			}
 		},
 		"upperArmor": {
@@ -5569,9 +5723,9 @@
 			"eng": "You need to be at least level ${level} to place a hit.",
 			"trans": "Для совершения удара необходимо иметь уровень не ниже ${level}."
 		},
-		"notEnoughUnitError": {
-			"eng": "Minimum hit bounty is ${minNormal} or ${minUnit}",
-			"trans": "Минимальная награда за попадание составляет ${minNormal} или ${minUnit}"
+		"notEnoughUnitError1": {
+			"eng": "Minimum hit bounty is ${minNormal}",
+			"trans": "Минимальная награда за попадание составляет ${minNormal}"
 		},
 		"placeHit": {
 			"eng": "Place hit",
@@ -5973,6 +6127,14 @@
 				"eng": "You will receive the following items when your friend reaches level ${level}.",
 				"trans": "Вы получите следующие предметы, когда ваш друг достигнет уровня ${level}."
 			},
+			"share": {
+				"eng": "Share now",
+				"trans": "Поделиться сейчас"
+			},
+			"shareText": {
+				"eng": "hey! checkout this awesome text based MMORPG! enter my name \"${name}\" as referral when you create your character!",
+				"trans": "Привет! Проверь эту крутую текстовую MMORPG! Введи мое имя \"${name}\" как реферал при создании персонажа!"
+			},
 			"title": {
 				"eng": "Invite your friends",
 				"trans": "Пригласите своих друзей"
@@ -6271,6 +6433,12 @@
 			"trans": "Обновить предметы в магазине"
 		}
 	},
+	"renderMessage": {
+		"tier": {
+			"eng": "${tier} Tier",
+			"trans": "Тир ${tier}"
+		}
+	},
 	"repairAnimationPopup": {
 		"confirm": {
 			"eng": "Confirm",
@@ -6408,6 +6576,12 @@
 		}
 	},
 	"rewardReceivedModal": {
+		"calibrationSuccess": {
+			"title": {
+				"eng": "Calibration Success",
+				"trans": "Калибровка успешна"
+			}
+		},
 		"defeatEnemy": {
 			"title": {
 				"eng": "Victory",
@@ -6492,6 +6666,10 @@
 			"levelTooDiff": {
 				"eng": "You cannot engage a player that is more than ${levelDiff} levels higher or below you",
 				"trans": "Вы не можете атаковать игрока, который имеет разницу в уровнях больше чем ${levelDiff} или меньше вас"
+			},
+			"notEnoughMoneyPvp": {
+				"eng": "You need at least ${money} to engage in PvP",
+				"trans": "Для участия в PvP вам нужно как минимум ${money}"
 			},
 			"notEnoughPsychosis": {
 				"eng": "You need at least ${psychosis} psychosis to engage in PvP",
@@ -6846,9 +7024,9 @@
 			"trans": "Вы приобрели ${amount} ${item}"
 		},
 		"selectAmountModel": {
-			"content": {
-				"eng": "You are about to purchase ${amount} ${item}, total: ${total}${currencySymbol}",
-				"trans": "Вы собираетесь приобрести ${amount} ${item}, всего: ${total}${currencySymbol}"
+			"body": {
+				"eng": "You are about to purchase ${amount} ${item}, total: ${total}",
+				"trans": "Вы собираетесь приобрести ${amount} ${item}, итого: ${total}"
 			},
 			"title": {
 				"eng": "How many would you like to purchase?",
@@ -7365,6 +7543,12 @@
 			"name": {
 				"eng": "Epic",
 				"trans": "Эпический"
+			}
+		},
+		"mythic": {
+			"name": {
+				"eng": "Mythic",
+				"trans": "Мифический"
 			}
 		},
 		"rare": {
@@ -8070,6 +8254,14 @@
 				"eng": "Can't reset a ${itemTier} item, ${shardName} can only be used with ${requiredTier} items",
 				"trans": "Невозможно сбросить предмет ${itemTier} уровня, ${shardName} можно использовать только с предметами ${requiredTier} уровня"
 			},
+			"upgradeLevelTooLow": {
+				"eng": "Can't upgrade to a ${itemTier} item, ${shardName} can only be used with items that are at least level ${minLevel}",
+				"trans": "Невозможно улучшить предмет ${itemTier}, ${shardName} может быть использован только с предметами, которые имеют уровень не ниже ${minLevel}"
+			},
+			"upgradeLevelTooLowMythic": {
+				"eng": "${shardName} can only be used with items that are at least level ${minLevel}",
+				"trans": "${shardName} может быть использован только с предметами, которые имеют уровень не ниже ${minLevel}"
+			},
 			"upgradeNonTierMismatch": {
 				"eng": "Can't upgrade a ${itemTier} item, ${shardName} can only be used with ${requiredTier} items",
 				"trans": "Невозможно улучшить предмет ${itemTier} уровня, ${shardName} можно использовать только с предметами ${requiredTier} уровня"
@@ -8160,6 +8352,12 @@
 			}
 		}
 	},
+	"webLandingPage": {
+		"webNotAvailable": {
+			"eng": "Web version is not available yet.",
+			"trans": "Веб-версия пока недоступна."
+		}
+	},
 	"wikiPage": {
 		"subtitle": {
 			"eng": "the free encyclopedia that anyone can edit",
@@ -8175,8 +8373,20 @@
 		},
 		"calibrated10": {
 			"announcement": {
-				"eng": "${playerName} has calibrated ${item} to calibration level +10, we need to have a drink named after this legend!",
-				"trans": "${playerName} откалибровал ${item} до уровня калибровки +10, нам нужно придумать напиток в честь этой легенды!"
+				"eng": "${playerName} has calibrated ${item} to calibration level +10!",
+				"trans": "${playerName} откалибровал ${item} до уровня калибровки +10!"
+			}
+		},
+		"calibrated11": {
+			"announcement": {
+				"eng": "${playerName} has calibrated ${item} to calibration level +11!",
+				"trans": "${playerName} откалибровал ${item} до уровня калибровки +11!"
+			}
+		},
+		"calibrated12": {
+			"announcement": {
+				"eng": "${playerName} has calibrated ${item} to calibration level +12!",
+				"trans": "${playerName} откалибровал ${item} до уровня калибровки +12!"
 			}
 		},
 		"calibrated7": {
@@ -8223,8 +8433,14 @@
 		},
 		"upgradedEpic": {
 			"announcement": {
-				"eng": "${playerName} upgraded ${item}!",
-				"trans": "${playerName} улучшил(а) ${item}!"
+				"eng": "${playerName} upgraded ${item} to ${tier}!",
+				"trans": "${playerName} улучшил(а) ${item} до ${tier}!"
+			}
+		},
+		"upgradedMythic": {
+			"announcement": {
+				"eng": "${playerName} upgraded ${item} to ${tier}!",
+				"trans": "${playerName} улучшил(а) ${item} до ${tier}!"
 			}
 		}
 	}

@@ -309,8 +309,8 @@
 	},
 	"apartmentPurchasePage": {
 		"confirmDescription": {
-			"eng": "Are you sure you want to rent this apartment? if you already has an apartment, it will be dismissed.",
-			"trans": "¿Estás seguro de que quieres alquilar este apartamento? Si ya tienes un apartamento, se descartará."
+			"eng": "Are you sure you want to rent this apartment? if you already have an apartment, it will be dismissed.",
+			"trans": "¿Estás seguro/a de que quieres alquilar este apartamento? Si ya tienes un apartamento, se descartará."
 		},
 		"confirmTitle": {
 			"eng": "Confirm Rental",
@@ -397,6 +397,44 @@
 				"eng": "Vitality",
 				"trans": "Vitalidad"
 			}
+		}
+	},
+	"autoCalibrationPage": {
+		"calibrate": {
+			"eng": "Start Auto Calibration",
+			"trans": "Iniciar calibración automática"
+		},
+		"description": {
+			"eng": "Calibrate to calibration level ${caliLevel}",
+			"trans": "Calibrar al nivel de calibración ${caliLevel}"
+		},
+		"destroyChance": {
+			"eng": "Destroy chance:",
+			"trans": "Probabilidad de destrucción:"
+		},
+		"maxed": {
+			"eng": "Max Calibration Reached",
+			"trans": "Máxima Calibración Alcanzada"
+		},
+		"noChance": {
+			"eng": "Success chance is zero",
+			"trans": "La probabilidad de éxito es cero"
+		},
+		"noItem": {
+			"eng": "No item found",
+			"trans": "No se encontró ningún objeto"
+		},
+		"stop": {
+			"eng": "Interrupt Auto Calibration",
+			"trans": "Interrumpir Calibración Automática"
+		},
+		"successChance": {
+			"eng": "Success chance:",
+			"trans": "Probabilidad de éxito:"
+		},
+		"tip": {
+			"eng": "Automatically calibrate and repair your item until it have successfully calibrated it once, or if you stopped the process.",
+			"trans": "Calibra y repara automáticamente tu objeto hasta que se haya calibrado con éxito una vez, o si detuviste el proceso."
 		}
 	},
 	"backgroundTask": {
@@ -1164,6 +1202,10 @@
 		"selectAmount": {
 			"eng": "Select amount",
 			"trans": "Seleccionar cantidad"
+		},
+		"selectRecipe": {
+			"eng": "Select a recipe below",
+			"trans": "Selecciona una receta abajo"
 		}
 	},
 	"costDisplay": {
@@ -2356,6 +2398,10 @@
 				"eng": "You cannot place bounty on this player",
 				"trans": "No puedes poner una recompensa en este jugador"
 			},
+			"cannotPlaceBountyOnLowLevel": {
+				"eng": "You cannot place bounty on players lower than level ${level}",
+				"trans": "No puedes poner recompensa a jugadores de nivel inferior a ${level}"
+			},
 			"cannotPlaceBountyOnSelf": {
 				"eng": "You cannot place bounty on yourself",
 				"trans": "No puedes poner una recompensa sobre ti mismo"
@@ -2531,9 +2577,13 @@
 		}
 	},
 	"itemCalibrateTab": {
+		"autoCalibrate": {
+			"eng": "Auto Calibrate",
+			"trans": "Auto Calibrar"
+		},
 		"caliButton": {
 			"des": {
-				"eng": "Comsumes one ${itemName}",
+				"eng": "Consumes one ${itemName}",
 				"trans": "Consume uno ${itemName}"
 			},
 			"title": {
@@ -2541,23 +2591,45 @@
 				"trans": "Calibrar"
 			}
 		},
-		"destroyChance": {
-			"eng": "There is ${destroyChance}% chance of item being destroyed on failure. You can attempt to repair a destroyed item in the ${repairNpc}.",
-			"trans": "Hay un ${destroyChance}% de probabilidad de que el objeto se destruya en caso de fallo. Puedes intentar reparar un objeto destruido en el ${repairNpc}."
+		"destroyChance2": {
+			"eng": "destroy chance",
+			"trans": "oportunidad de destrucción"
+		},
+		"destroyChanceInfo": {
+			"description1": {
+				"eng": "Destroy chance is the chance of the item being destroyed when calibration failed.",
+				"trans": "La probabilidad de destrucción es la posibilidad de que el objeto se destruya cuando la calibración falla."
+			},
+			"description2": {
+				"eng": "A destroyed item can be repaired at ${npcName} with ${item}",
+				"trans": "Un objeto destruido puede ser reparado en ${npcName} con ${item}"
+			},
+			"title": {
+				"eng": "Destroy chance",
+				"trans": "Probabilidad de destrucción"
+			}
 		},
 		"maxCalibration": {
 			"description": {
-				"eng": "This item has reached the maximum amount of calibrations. you may upgrade the tier of the item to increase the maximum times it can be calibrated.",
-				"trans": "Este objeto ha alcanzado la cantidad máxima de calibraciones. Puedes mejorar el nivel del objeto para aumentar la cantidad máxima de veces que se puede calibrar."
+				"eng": "you can increase the max calibration capacity by upgrading the item using ${item}",
+				"trans": "Puedes aumentar la capacidad máxima de calibración mejorando el objeto usando ${item}"
 			},
 			"title": {
 				"eng": "Max Calibration",
 				"trans": "Calibración Máxima"
 			}
 		},
+		"noChance": {
+			"eng": "Success chance is zero",
+			"trans": "La probabilidad de éxito es cero"
+		},
 		"selectOptimizer": {
 			"eng": "Select optimizer",
 			"trans": "Seleccionar optimizador"
+		},
+		"skipAnimation": {
+			"eng": "Skip animation",
+			"trans": "Saltar animación"
 		},
 		"successChance": {
 			"eng": "Success chance",
@@ -2565,8 +2637,8 @@
 		},
 		"tip": {
 			"noOptimizer": {
-				"eng": "You can use a optimizer to improve your calibration process",
-				"trans": "Puedes utilizar un optimizador para mejorar tu proceso de calibración"
+				"eng": "You can use a optimizer to improve your calibration chances.",
+				"trans": "Puedes utilizar un optimizador para mejorar tus posibilidades de calibración."
 			}
 		}
 	},
@@ -2590,8 +2662,8 @@
 	},
 	"itemDestroyed": {
 		"des2": {
-			"eng": "You can attempt to repair it in the ${repairNpc}",
-			"trans": "Puedes intentar repararlo en el ${repairNpc}"
+			"eng": "You can repair this item at the ${repairNpc}",
+			"trans": "Puedes reparar este objeto en el ${repairNpc}"
 		},
 		"repairButton": {
 			"eng": "Repair",
@@ -2757,6 +2829,16 @@
 			"eng": "Each repair attempt has ${chance}% chance of success and costs one ${repairItem}. the 10th time is guaranteed to succeed.",
 			"trans": "Cada intento de reparación tiene una probabilidad de éxito de ${chance}% y cuesta un ${repairItem}. La décima vez tiene garantizado el éxito."
 		},
+		"autoRepair": {
+			"title": {
+				"eng": "Auto repair",
+				"trans": "Reparación automática"
+			}
+		},
+		"autoRepairComplete": {
+			"eng": "Repair completed!",
+			"trans": "¡Reparación completada!"
+		},
 		"itemSelectModal": {
 			"title": {
 				"eng": "Select the item to repair",
@@ -2771,6 +2853,12 @@
 			"title": {
 				"eng": "Repair",
 				"trans": "Reparar"
+			}
+		},
+		"skipAnimation": {
+			"title": {
+				"eng": "Skip animation",
+				"trans": "Saltar animación"
 			}
 		},
 		"title": {
@@ -2933,6 +3021,12 @@
 			"name": {
 				"eng": "Upgrade",
 				"trans": "Mejora"
+			}
+		},
+		"itemUpgradeShard": {
+			"name": {
+				"eng": "Item Upgrade Shard",
+				"trans": "Fragmento de mejora de objeto"
 			}
 		},
 		"lowerArmor": {
@@ -3167,6 +3261,16 @@
 				"trans": "Fragmento de calibración"
 			}
 		},
+		"calibrationStabilizer1": {
+			"description": {
+				"eng": "Use during calibration to increase chance of success by ${percent}%",
+				"trans": "Utilizar durante la calibración para aumentar la probabilidad de éxito en un ${percent}%"
+			},
+			"name": {
+				"eng": "Calibration Stabilizer",
+				"trans": "Estabilizador de calibración"
+			}
+		},
 		"clanMaintenanceResource": {
 			"description": {
 				"eng": "Use to contribute to gang maintenance",
@@ -3189,8 +3293,8 @@
 		},
 		"commonLevelShard": {
 			"description": {
-				"eng": "Use to level up an common item to its next level",
-				"trans": "Utilizar para subir de nivel un objeto común al siguiente nivel"
+				"eng": "you can use this item to level up an ${tier} item to its next level",
+				"trans": "Puedes utilizar este objeto para subir de nivel un objeto de ${tier} a su siguiente nivel"
 			},
 			"name": {
 				"eng": "Common Level Shard",
@@ -3228,30 +3332,18 @@
 			}
 		},
 		"epicLevelShard": {
-			"description": {
-				"eng": "Use to level up an epic item to its next level",
-				"trans": "Utilizar para subir de nivel un objeto épico al siguiente nivel"
-			},
 			"name": {
 				"eng": "Epic Level Shard",
 				"trans": "Fragmento de Nivel Épico"
 			}
 		},
 		"epicResetShard": {
-			"description": {
-				"eng": "Use to reset a epic item with new traits by chance",
-				"trans": "Utilizar para restablecer un objeto épico con nuevos rasgos al azar"
-			},
 			"name": {
 				"eng": "Epic Reset Shard",
 				"trans": "Fragmento de Reinicio Épico"
 			}
 		},
 		"epicUpgradeShard": {
-			"description": {
-				"eng": "Use to upgrade an unique item to epic tier",
-				"trans": "Utilizar para mejorar un objeto único a la categoría épica"
-			},
 			"name": {
 				"eng": "Epic Upgrade Shard",
 				"trans": "Fragmento de Mejora Épica"
@@ -3355,6 +3447,54 @@
 				"trans": "Fragmento de nivel"
 			}
 		},
+		"key": {
+			"generalDescription": {
+				"eng": "A key that can be used to unlock a ${containerName}.",
+				"trans": "Una llave que se puede utilizar para abrir un ${containerName}."
+			}
+		},
+		"key1": {
+			"name": {
+				"eng": "Uncommon Container Key",
+				"trans": "Llave de Contenedor Poco Común"
+			}
+		},
+		"key2": {
+			"name": {
+				"eng": "Rare Container Key",
+				"trans": "Llave de contenedor raro"
+			}
+		},
+		"key3": {
+			"name": {
+				"eng": "Unique Container Key",
+				"trans": "Llave de contenedor única"
+			}
+		},
+		"keyFragment": {
+			"generalDescription": {
+				"eng": "Collect ${amount} of these to create a ${keyName} that can be used to unlock a ${containerName}.",
+				"trans": "Recolecta ${amount} de estos para crear una ${keyName} que se puede utilizar para desbloquear un ${containerName}."
+			}
+		},
+		"keyFragment1": {
+			"name": {
+				"eng": "Uncommon Key Fragment",
+				"trans": "Fragmento de llave poco común"
+			}
+		},
+		"keyFragment2": {
+			"name": {
+				"eng": "Rare Key Fragment",
+				"trans": "Fragmento de llave raro"
+			}
+		},
+		"keyFragment3": {
+			"name": {
+				"eng": "Unique Key Fragment",
+				"trans": "Fragmento de llave único"
+			}
+		},
 		"levelLootBox1": {
 			"description": {
 				"eng": "Special reward container obtained from clearing hard or above difficulty strongholds in locations",
@@ -3367,8 +3507,8 @@
 		},
 		"lootBox1": {
 			"description": {
-				"eng": "A common container that contains a random item.",
-				"trans": "Un contenedor común que contiene un objeto aleatorio."
+				"eng": "A common container that contains random items.",
+				"trans": "Un contenedor común que contiene objetos aleatorios."
 			},
 			"name": {
 				"eng": "Common Container",
@@ -3377,12 +3517,22 @@
 		},
 		"lootBox2": {
 			"description": {
-				"eng": "A uncommon container that contains a random item.",
-				"trans": "Un contenedor poco común que contiene un objeto aleatorio."
+				"eng": "A uncommon container that contains random items.",
+				"trans": "Un contenedor poco común que contiene objetos aleatorios."
 			},
 			"name": {
-				"eng": "Uncommon Container",
-				"trans": "Contenedor Poco Común"
+				"eng": "Locked Uncommon Container",
+				"trans": "Contenedor Poco Común Bloqueado"
+			}
+		},
+		"lootBox3": {
+			"description": {
+				"eng": "A rare container that contains random items.",
+				"trans": "Un contenedor raro que contiene objetos aleatorios."
+			},
+			"name": {
+				"eng": "Locked Rare Container",
+				"trans": "Contenedor Raro Bloqueado"
 			}
 		},
 		"lootDoorKey": {
@@ -3455,6 +3605,24 @@
 				"trans": "EuroDólar"
 			}
 		},
+		"mythicLevelShard": {
+			"name": {
+				"eng": "Mythic Level Shard",
+				"trans": "Fragmento de nivel mítico"
+			}
+		},
+		"mythicResetShard": {
+			"name": {
+				"eng": "Mythic Reset Shard",
+				"trans": "Fragmento de Reinicio Mítico"
+			}
+		},
+		"mythicUpgradeShard": {
+			"name": {
+				"eng": "Mythic Upgrade Shard",
+				"trans": "Fragmento de Mejora Mítica"
+			}
+		},
 		"netcoin": {
 			"description": {
 				"eng": "NetCoin is a digital currency mainly used in black market transactions. It is untraceable and can be used to purchase illegal goods and services.",
@@ -3522,30 +3690,18 @@
 			}
 		},
 		"rareLevelShard": {
-			"description": {
-				"eng": "Use to level up an rare item to its next level",
-				"trans": "Utilizar para subir de nivel un objeto raro a su siguiente nivel"
-			},
 			"name": {
 				"eng": "Rare Level Shard",
 				"trans": "Fragmento de nivel raro"
 			}
 		},
 		"rareResetShard": {
-			"description": {
-				"eng": "Use to reset a rare item with new traits by chance",
-				"trans": "Utilizar para restablecer un objeto raro con nuevos rasgos al azar"
-			},
 			"name": {
 				"eng": "Rare Reset Shard",
 				"trans": "Fragmento de Reinicio Raro"
 			}
 		},
 		"rareUpgradeShard": {
-			"description": {
-				"eng": "Use to upgrade an uncommon item to rare tier",
-				"trans": "Utilizar para mejorar un objeto poco común a nivel de rareza épica"
-			},
 			"name": {
 				"eng": "Rare Upgrade Shard",
 				"trans": "Fragmento de mejora raro"
@@ -3559,6 +3715,12 @@
 			"name": {
 				"eng": "Nano Repairer",
 				"trans": "Reparador Nano"
+			}
+		},
+		"resetGeneral": {
+			"description": {
+				"eng": "Use to reset a ${tier} item with new random prefixes",
+				"trans": "Utilizar para reiniciar un objeto de ${tier} con nuevos prefijos aleatorios"
 			}
 		},
 		"rewardCipher": {
@@ -3648,60 +3810,46 @@
 			}
 		},
 		"uncommonLevelShard": {
-			"description": {
-				"eng": "Use to level up an uncommon item to its next level",
-				"trans": "Utilizar para subir de nivel un objeto poco común a su siguiente nivel"
-			},
 			"name": {
 				"eng": "Uncommon Level Shard",
 				"trans": "Fragmento de nivel poco común"
 			}
 		},
 		"uncommonResetShard": {
-			"description": {
-				"eng": "Use to reset a uncommon item with new traits by chance",
-				"trans": "Utilizar para restablecer un objeto poco común con nuevos rasgos por casualidad"
-			},
 			"name": {
 				"eng": "Uncommon Reset Shard",
 				"trans": "Fragmento de Reinicio Poco Común"
 			}
 		},
 		"uncommonUpgradeShard": {
-			"description": {
-				"eng": "Use to upgrade an common item to uncommon tier",
-				"trans": "Utilizar para mejorar un objeto común a una categoría poco común"
-			},
 			"name": {
 				"eng": "Uncommon Upgrade Shard",
 				"trans": "Fragmento de mejora poco común"
 			}
 		},
 		"uniqueLevelShard": {
-			"description": {
-				"eng": "Use to level up an unique item to its next level",
-				"trans": "Utilizar para subir de nivel un objeto único a su siguiente nivel"
-			},
 			"name": {
 				"eng": "Unique Level Shard",
 				"trans": "Fragmento de nivel único"
 			}
 		},
-		"uniqueResetShard": {
+		"uniqueLootBox": {
 			"description": {
-				"eng": "Use to reset a unique item with new traits by chance",
-				"trans": "Utilizar para restablecer un objeto único con nuevos rasgos al azar"
+				"eng": "A unique container that contains random items.",
+				"trans": "Un contenedor único que contiene objetos aleatorios."
 			},
+			"name": {
+				"eng": "Locked Unique Container",
+				"trans": "Contenedor Único Bloqueado"
+			}
+		},
+		"uniqueResetShard": {
 			"name": {
 				"eng": "Unique Reset Shard",
 				"trans": "Fragmento de Reinicio Único"
 			}
 		},
 		"uniqueUpgradeShard": {
-			"description": {
-				"eng": "Use to upgrade an rare item to unique tier",
-				"trans": "Utilizar para mejorar un objeto raro a la categoría única"
-			},
 			"name": {
 				"eng": "Unique Upgrade Shard",
 				"trans": "Fragmento de Mejora Único"
@@ -3715,6 +3863,12 @@
 			"name": {
 				"eng": "Universal Dollars",
 				"trans": "Dólares Universales"
+			}
+		},
+		"upgradeGeneral": {
+			"description": {
+				"eng": "Use to upgrade an ${fromTier} item to ${toTier}",
+				"trans": "Utilizar para mejorar un objeto de ${fromTier} a ${toTier}"
 			}
 		},
 		"upperArmor": {
@@ -5569,9 +5723,9 @@
 			"eng": "You need to be at least level ${level} to place a hit.",
 			"trans": "Necesitas ser al menos nivel ${level} para realizar un ataque."
 		},
-		"notEnoughUnitError": {
-			"eng": "Minimum hit bounty is ${minNormal} or ${minUnit}",
-			"trans": "La recompensa mínima por golpe es de ${minNormal} o ${minUnit}"
+		"notEnoughUnitError1": {
+			"eng": "Minimum hit bounty is ${minNormal}",
+			"trans": "La recompensa mínima por golpe es de ${minNormal}"
 		},
 		"placeHit": {
 			"eng": "Place hit",
@@ -5973,6 +6127,14 @@
 				"eng": "You will receive the following items when your friend reaches level ${level}.",
 				"trans": "Recibirás los siguientes objetos cuando tu amigo alcance el nivel ${level}."
 			},
+			"share": {
+				"eng": "Share now",
+				"trans": "Compartir ahora"
+			},
+			"shareText": {
+				"eng": "hey! checkout this awesome text based MMORPG! enter my name \"${name}\" as referral when you create your character!",
+				"trans": "¡Oye! ¡Echa un vistazo a este increíble MMORPG basado en texto! ¡Ingresa mi nombre \"${name}\" como recomendación cuando crees tu personaje!"
+			},
 			"title": {
 				"eng": "Invite your friends",
 				"trans": "Invita a tus amigos"
@@ -6271,6 +6433,12 @@
 			"trans": "Actualizar objetos de la tienda"
 		}
 	},
+	"renderMessage": {
+		"tier": {
+			"eng": "${tier} Tier",
+			"trans": "Nivel ${tier}"
+		}
+	},
 	"repairAnimationPopup": {
 		"confirm": {
 			"eng": "Confirm",
@@ -6408,6 +6576,12 @@
 		}
 	},
 	"rewardReceivedModal": {
+		"calibrationSuccess": {
+			"title": {
+				"eng": "Calibration Success",
+				"trans": "Calibración Exitosa"
+			}
+		},
 		"defeatEnemy": {
 			"title": {
 				"eng": "Victory",
@@ -6492,6 +6666,10 @@
 			"levelTooDiff": {
 				"eng": "You cannot engage a player that is more than ${levelDiff} levels higher or below you",
 				"trans": "No puedes enfrentarte a un jugador que tenga ${levelDiff} niveles más altos o más bajos que tú"
+			},
+			"notEnoughMoneyPvp": {
+				"eng": "You need at least ${money} to engage in PvP",
+				"trans": "Necesitas al menos ${dinero} para participar en PvP"
 			},
 			"notEnoughPsychosis": {
 				"eng": "You need at least ${psychosis} psychosis to engage in PvP",
@@ -6846,9 +7024,9 @@
 			"trans": "Has comprado ${amount} ${item}"
 		},
 		"selectAmountModel": {
-			"content": {
-				"eng": "You are about to purchase ${amount} ${item}, total: ${total}${currencySymbol}",
-				"trans": "Estás a punto de comprar ${amount} ${item}, total: ${total}${currencySymbol}"
+			"body": {
+				"eng": "You are about to purchase ${amount} ${item}, total: ${total}",
+				"trans": "Estás a punto de comprar ${amount} ${item}, total: ${total}"
 			},
 			"title": {
 				"eng": "How many would you like to purchase?",
@@ -7365,6 +7543,12 @@
 			"name": {
 				"eng": "Epic",
 				"trans": "Épico"
+			}
+		},
+		"mythic": {
+			"name": {
+				"eng": "Mythic",
+				"trans": "Mítico"
 			}
 		},
 		"rare": {
@@ -8070,6 +8254,14 @@
 				"eng": "Can't reset a ${itemTier} item, ${shardName} can only be used with ${requiredTier} items",
 				"trans": "No se puede reiniciar un objeto ${itemTier}, ${shardName} solo se puede usar con objetos ${requiredTier}"
 			},
+			"upgradeLevelTooLow": {
+				"eng": "Can't upgrade to a ${itemTier} item, ${shardName} can only be used with items that are at least level ${minLevel}",
+				"trans": "No se puede mejorar a un objeto de ${itemTier}, ${shardName} solo se puede utilizar con objetos que tengan al menos nivel ${minLevel}"
+			},
+			"upgradeLevelTooLowMythic": {
+				"eng": "${shardName} can only be used with items that are at least level ${minLevel}",
+				"trans": "${shardName} solo puede ser utilizado con objetos que tengan al menos nivel ${minLevel}"
+			},
 			"upgradeNonTierMismatch": {
 				"eng": "Can't upgrade a ${itemTier} item, ${shardName} can only be used with ${requiredTier} items",
 				"trans": "No se puede mejorar un objeto ${itemTier}, ${shardName} solo se puede usar con objetos ${requiredTier}"
@@ -8160,6 +8352,12 @@
 			}
 		}
 	},
+	"webLandingPage": {
+		"webNotAvailable": {
+			"eng": "Web version is not available yet.",
+			"trans": "La versión web aún no está disponible."
+		}
+	},
 	"wikiPage": {
 		"subtitle": {
 			"eng": "the free encyclopedia that anyone can edit",
@@ -8175,8 +8373,20 @@
 		},
 		"calibrated10": {
 			"announcement": {
-				"eng": "${playerName} has calibrated ${item} to calibration level +10, we need to have a drink named after this legend!",
-				"trans": "¡${playerName} ha calibrado ${item} al nivel de calibración +10, necesitamos tener una bebida con el nombre de esta leyenda!"
+				"eng": "${playerName} has calibrated ${item} to calibration level +10!",
+				"trans": "¡${playerName} ha calibrado ${item} al nivel de calibración +10!"
+			}
+		},
+		"calibrated11": {
+			"announcement": {
+				"eng": "${playerName} has calibrated ${item} to calibration level +11!",
+				"trans": "¡${playerName} ha calibrado ${item} al nivel de calibración +11!"
+			}
+		},
+		"calibrated12": {
+			"announcement": {
+				"eng": "${playerName} has calibrated ${item} to calibration level +12!",
+				"trans": "¡${playerName} ha calibrado ${item} al nivel de calibración +12!"
 			}
 		},
 		"calibrated7": {
@@ -8223,8 +8433,14 @@
 		},
 		"upgradedEpic": {
 			"announcement": {
-				"eng": "${playerName} upgraded ${item}!",
-				"trans": "¡${playerName} ha mejorado ${item}!"
+				"eng": "${playerName} upgraded ${item} to ${tier}!",
+				"trans": "¡${playerName} ha mejorado ${item} a ${tier}!"
+			}
+		},
+		"upgradedMythic": {
+			"announcement": {
+				"eng": "${playerName} upgraded ${item} to ${tier}!",
+				"trans": "¡${playerName} ha mejorado ${item} a ${tier}!"
 			}
 		}
 	}
