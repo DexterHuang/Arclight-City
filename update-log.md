@@ -16,6 +16,7 @@ the only way to obtain the shards for this tier is by unlocking `Unique Locked C
 -   Added `Common Container`, `Uncommon Locked Container`, `Rare Locked Container` and `Unique Locked Container`, each of the locked containers requires a respective container key to be unlocked, you can craft a container key with `Container Key Fragments`, all the keys and containers can only be obtained from strongholds currently.
 -   Added `Calibration Stabilizer`, use this item during calibration can increase the success chance by 1%, this will be required to calibrate items to +12 as +11 to +12 has base chance of 0%, system will prevent you from attempting to calibrate when there is zero chance of success.
 -   Added auto calibration & repair functionality, you can use that to automatically calibrate and repair the item until calibration success without doing manually and much faster.
+-   Fixed issue with being able to purchase same equipment from NPC multiple times, purchasing exact same item is blocked because it can cause problems with the game since each items are designed to be unique.
 -   Show player level on message
 -   Updated animation framework
 -   Buffed mercenary power on 100+ levels
