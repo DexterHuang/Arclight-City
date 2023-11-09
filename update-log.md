@@ -18,6 +18,7 @@ the only way to obtain the shards for this tier is by unlocking `Unique Locked C
 -   Added auto calibration & repair functionality, you can use that to automatically calibrate and repair the item until calibration success without doing manually and much faster.
 -   Fixed issue with being able to purchase same equipment from NPC multiple times, purchasing exact same item is blocked because it can cause problems with the game since each items are designed to be unique.
 -   Added skip animation toggle to mercenary draw page
+-   Fixed issue with chat due to third-party service downtime
 -   Show player level on message
 -   Updated animation framework
 -   Buffed mercenary power on 100+ levels
