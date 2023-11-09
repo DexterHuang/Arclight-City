@@ -3,33 +3,36 @@ import { IValidator } from '../Interface/IValidator';
 export class TranslationKeywordValidator implements IValidator {
   validate() {
     const langs = fs.readdirSync('contribution').filter(f => f.indexOf('.') <= 0 && f !== 'en');
-    for (const lang of langs) {
-      const path = `contribution/${lang}/translation-keywords.json`;
-      console.log(`Validating ${lang}/translation-keywords.json...`);
+    // get all json files in contribution folder recursively
+    const files: string[] = langs.map(lang => {
+      return fs.readdirSync(`contribution/${lang}`).filter(f => f.endsWith('.json')).map(f => `contribution/${lang}/${f}`);
+    }).reduce((a, b) => a.concat(b), []);
+    for (const path of files) {
+      console.log(`Validating ${path}...`);
       if (!fs.existsSync(path)) {
-        console.log(`${lang}/translation-keywords.json does not exist, skipping...`);
+        console.log(`${path} does not exist, skipping...`);
         continue;
       }
-      const json = JSON.parse(fs.readFileSync(path, 'utf8'));
-      if (!json.keywords) {
-        throw new Error(`${lang}/translation-keywords.json does not contain keyword list`)
-      }
-      for (const { eng, trans, desc, match } of json.keywords) {
-        if (!eng) {
-          throw new Error(`${lang}/translation-keywords.json contains a keyword without an English translation`)
+      const json = JSON.parse(fs.readFileSync(path, 'utf8') + '');
+      if (path.endsWith('translation-keywords.json')) {
+        // validate translation-keywords.json
+        if (!json.keywords) {
+          throw new Error(`${path}does not contain keyword list`)
         }
-        if (!trans) {
-          throw new Error(`${lang}/translation-keywords.json ${eng} does not contain a 'trans' field`)
+        for (const { eng, trans, desc, match } of json.keywords) {
+          if (!eng) {
+            throw new Error(`${path} contains a keyword without an English translation`)
+          }
+          if (!trans) {
+            throw new Error(`${path} ${eng} does not contain a 'trans' field`)
+          }
+          if (!match) {
+            throw new Error(`${path} ${eng} does not contain a 'match' field`)
+          }
         }
-        if (!match) {
-          throw new Error(`${lang}/translation-keywords.json ${eng} does not contain a 'match' field`)
-        }
-        // if (!desc) {
-        //   throw new Error(`${lang}/translation-keywords.json ${eng} does not contain a 'desc' field`)
-        // }
       }
 
-      console.log(`${lang}/translation-keywords.json is valid`);
+      console.log(`${path} is valid`);
     }
   }
 
