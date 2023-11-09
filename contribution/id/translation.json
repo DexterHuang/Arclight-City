@@ -2691,6 +2691,14 @@
 				"trans": "Kerusakan Atribut"
 			}
 		},
+		"cantDiscardEquipped": {
+			"eng": "You can't discard equipped items",
+			"trans": "Kamu tidak bisa membuang item yang sedang dipakai"
+		},
+		"cantDiscardLocked": {
+			"eng": "You can't discard locked items",
+			"trans": "Kamu tidak bisa membuang item yang terkunci"
+		},
 		"cantDismantleEquipped": {
 			"eng": "You can\\'t dismantle equipped items",
 			"trans": "Item yang sedang dipakai tidak bisa dibongkar"
@@ -2699,19 +2707,15 @@
 			"eng": "You can\\'t dismantle locked items",
 			"trans": "Kamu tidak dapat mematikan item yang terkunci"
 		},
-		"cantScrapEquipped": {
-			"eng": "You can\\'t scrap equipped items",
-			"trans": "Barang yang dipakai tidak bisa kamu jadikan serpihan"
-		},
-		"cantScrapLocked": {
-			"eng": "You can\\'t scrap locked items",
-			"trans": "Anda tidak dapat menghancurkan item yang terkunci"
-		},
 		"diff": {
 			"header1": {
 				"eng": "equipped item",
 				"trans": "Barang yang dipasang"
 			}
+		},
+		"discard": {
+			"eng": "discard",
+			"trans": "buang"
 		},
 		"dismantle": {
 			"eng": "Dismantle",
@@ -2752,10 +2756,6 @@
 		"moveToInv": {
 			"eng": "Move To Inventory",
 			"trans": "Pindahkan ke Inventori"
-		},
-		"scrap": {
-			"eng": "scrap",
-			"trans": "Serpihan"
 		},
 		"unequip": {
 			"eng": "Unequip",
@@ -4030,8 +4030,8 @@
 	},
 	"levelTip": {
 		"1": {
-			"eng": "Seems like some of your equipments are still at level ${level} or lower. You should level them up your character level at the item upgrade interface",
-			"trans": "Sepertinya beberapa peralatanmu masih berada di level ${level} atau lebih rendah. Kamu harus meningkatkan levelnya di antarmuka peningkatan peralatan karakter"
+			"eng": "Seems like some of your equipments are still at level ${level} or lower. upgrade their level with ${levelUpItem} in item upgrade page",
+			"trans": "Sepertinya beberapa peralatanmu masih berada di level ${level} atau lebih rendah. Tingkatkan level mereka dengan ${levelUpItem} di halaman peningkatan peralatan"
 		}
 	},
 	"levelType": {
@@ -4769,6 +4769,10 @@
 				"trans": "Tingkat Drop"
 			}
 		},
+		"manageMercenary": {
+			"eng": "Manage Mercenary",
+			"trans": "Mengelola Mercenary"
+		},
 		"recruitMaxError": {
 			"eng": "You cannot recruit more than ${max} mercenaries, you can increase the max mercenary by renting a better apartment. or you may dismiss your unwanted mercenary for resources.",
 			"trans": "Kamu tidak dapat merekrut lebih dari ${max} tentara bayaran, kamu dapat menambah tentara bayaran maksimum dengan menyewa apartemen yang lebih baik. atau kamu dapat memberhentikan tentara bayaran yang tidak kamu inginkan untuk mendapatkan sumber daya."
@@ -4788,6 +4792,10 @@
 		"recruitTenDescription": {
 			"eng": "one 4 star or higher mercenary is guaranteed",
 			"trans": "Satu mercenary bintang 4 atau lebih tinggi dijamin"
+		},
+		"skipAnimation": {
+			"eng": "Skip Animation",
+			"trans": "Lewati Animasi"
 		}
 	},
 	"mercenaryLevelDisplay": {
@@ -5065,6 +5073,10 @@
 		"error": {
 			"eng": "Your motto contains inappropriate words",
 			"trans": "Moto Anda mengandung kata-kata yang tidak pantas"
+		},
+		"serviceDown": {
+			"eng": "Motto editing is temporally disabled due to external service downtime, please try again later",
+			"trans": "Pengeditan motto sementara dinonaktifkan karena layanan eksternal sedang mengalami gangguan, silakan coba lagi nanti"
 		}
 	},
 	"notification": {
@@ -7846,6 +7858,10 @@
 			"eng": "You have completed daily quests. open this tab to view them.",
 			"trans": "Anda telah menyelesaikan tugas harian. Buka tab ini untuk melihatnya."
 		},
+		"dailyQuestClaim": {
+			"eng": "Click here to claim your rewards.",
+			"trans": "Klik di sini untuk mengklaim hadiahmu."
+		},
 		"deathItem": {
 			"eng": "You can buy back the items you lost from clinic.",
 			"trans": "Kamu dapat membeli kembali barang-barang yang hilang dari klinik."
@@ -7862,6 +7878,18 @@
 			"eng": "Select the normal difficulty, you will get ${percent}% extra exp from enemies in the stronghold",
 			"trans": "Pilih tingkat kesulitan normal, kamu akan memperoleh ${percent}% exp tambahan dari musuh di benteng"
 		},
+		"dungeonLevelChange": {
+			"eng": "You change level of the stronghold here if you want to fight stronger or weaker enemies.",
+			"trans": "Kamu bisa mengubah level benteng di sini jika ingin melawan musuh yang lebih kuat atau lebih lemah."
+		},
+		"dungeonStart": {
+			"eng": "Click here to enter the stronghold.",
+			"trans": "Klik di sini untuk masuk ke benteng kuat."
+		},
+		"equipItem": {
+			"eng": "Click here to automatically equip items, you can also equip items manually from by clicking the equipment slots or within item details page.",
+			"trans": "Klik di sini untuk secara otomatis memasang item, Anda juga dapat memasang item secara manual dengan mengklik slot peralatan atau di halaman detail item."
+		},
 		"freeMerc1": {
 			"eng": "Click here for all kinds of benefits",
 			"trans": "Klik di sini untuk semua jenis manfaat"
@@ -7869,6 +7897,10 @@
 		"freeMerc2": {
 			"eng": "Click here to get free ${itemName}",
 			"trans": "Klik di sini untuk mendapatkan ${itemName} gratis"
+		},
+		"freeMerc3": {
+			"eng": "Click back to return to main screen",
+			"trans": "Klik kembali untuk kembali ke layar utama"
 		},
 		"heal": {
 			"eng": "Click here to assign healing items to quick slots.",
@@ -7889,6 +7921,14 @@
 		"locationChange": {
 			"eng": "You can travel to other locations with different levels from here",
 			"trans": "Kamu dapat bepergian ke lokasi lain dengan level yang berbeda dari sini"
+		},
+		"locationRewards": {
+			"eng": "You can claim these reward after you have defeated the boss in the Hard Difficulty stronghold at this location.",
+			"trans": "Kamu bisa mengklaim hadiah ini setelah kamu berhasil mengalahkan bos di Benteng Kuat dengan tingkat kesulitan Hard di lokasi ini."
+		},
+		"locationTravelBtn": {
+			"eng": "Click here to travel to the location.",
+			"trans": "Klik di sini untuk pergi ke lokasi."
 		},
 		"mercenary1": {
 			"eng": "Click here to view your mercenary contacts",
@@ -7911,16 +7951,34 @@
 			"trans": "Klik di sini untuk pergi ke area berikutnya di mana musuh lebih kuat dan memberi lebih banyak exp."
 		},
 		"upgradeItem": {
-			"eng": "Click here to upgrade your items.",
-			"trans": "Klik di sini untuk meningkatkan item Anda."
+			"eng": "Click here to view your inventory.",
+			"trans": "Klik di sini untuk melihat inventori Anda."
+		},
+		"upgradeItemClickUpgrade": {
+			"eng": "Click \"Upgrade\" to level up this equipment.",
+			"trans": "Klik \"Peningkatan\" untuk meningkatkan level peralatan ini."
 		},
 		"upgradeItemDetails": {
 			"eng": "Click here to upgrade this item.",
 			"trans": "Klik di sini untuk meningkatkan item ini."
 		},
+		"upgradeItemSlot": {
+			"eng": "Click on an equipment slot to view the item details.",
+			"trans": "Klik pada slot peralatan untuk melihat detail item."
+		},
+		"upgradeItemTab": {
+			"eng": "You can upgrade your items by using the following shards, try ${itemName} first, it will allow you to level up your equipments",
+			"trans": "Kamu bisa meningkatkan itemmu dengan menggunakan pecahan berikut, coba ${itemName} dulu, itu akan memungkinkanmu untuk meningkatkan level peralatanmu"
+		},
 		"useSkill": {
 			"eng": "Click here to command your mercenary to use skill.",
 			"trans": "Klik di sini untuk memerintahkan tentara bayaranmu menggunakan keterampilan."
+		}
+	},
+	"tutorialContainer": {
+		"continue": {
+			"eng": "Click to continue",
+			"trans": "Klik untuk melanjutkan"
 		}
 	},
 	"ui": {
@@ -8371,8 +8429,8 @@
 	"worldEventType": {
 		"bountyAdded": {
 			"announcement": {
-				"eng": "bounty of ${amount1}/${amount2} has been placed on ${targetName}!",
-				"trans": "Hadiah sebesar ${amount1}/${amount2} telah ditempatkan pada ${targetName}!"
+				"eng": "bounty of ${amount1} has been placed on ${targetName}!",
+				"trans": "Ada hadiah ${amount1} yang ditempatkan pada ${targetName}!"
 			}
 		},
 		"calibrated10": {

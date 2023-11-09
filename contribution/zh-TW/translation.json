@@ -2691,6 +2691,14 @@
 				"trans": "屬性傷害"
 			}
 		},
+		"cantDiscardEquipped": {
+			"eng": "You can't discard equipped items",
+			"trans": "你不能丟棄已裝備的物品"
+		},
+		"cantDiscardLocked": {
+			"eng": "You can't discard locked items",
+			"trans": "你不能丟棄被鎖定的物品"
+		},
 		"cantDismantleEquipped": {
 			"eng": "You can\\'t dismantle equipped items",
 			"trans": "您不能拆解已裝備的物品"
@@ -2699,19 +2707,15 @@
 			"eng": "You can\\'t dismantle locked items",
 			"trans": "無法拆解已上鎖的物品"
 		},
-		"cantScrapEquipped": {
-			"eng": "You can\\'t scrap equipped items",
-			"trans": "您無法報廢已裝備的物品"
-		},
-		"cantScrapLocked": {
-			"eng": "You can\\'t scrap locked items",
-			"trans": "您無法報廢已加密的物品。"
-		},
 		"diff": {
 			"header1": {
 				"eng": "equipped item",
 				"trans": "已裝備的物品"
 			}
+		},
+		"discard": {
+			"eng": "discard",
+			"trans": "丟棄"
 		},
 		"dismantle": {
 			"eng": "Dismantle",
@@ -2752,10 +2756,6 @@
 		"moveToInv": {
 			"eng": "Move To Inventory",
 			"trans": "移至倉庫"
-		},
-		"scrap": {
-			"eng": "scrap",
-			"trans": "報廢"
 		},
 		"unequip": {
 			"eng": "Unequip",
@@ -4030,8 +4030,8 @@
 	},
 	"levelTip": {
 		"1": {
-			"eng": "Seems like some of your equipments are still at level ${level} or lower. You should level them up your character level at the item upgrade interface",
-			"trans": "看起來你的一些裝備仍然處於${level}級或更低的等級。你應該在裝備升級介面將它們升級到你的角色等級。"
+			"eng": "Seems like some of your equipments are still at level ${level} or lower. upgrade their level with ${levelUpItem} in item upgrade page",
+			"trans": "看起來你的一些裝備仍然處於${level}等級或更低。在物品升級頁面使用${levelUpItem}來提升它們的等級吧。"
 		}
 	},
 	"levelType": {
@@ -4769,6 +4769,10 @@
 				"trans": "掉落率"
 			}
 		},
+		"manageMercenary": {
+			"eng": "Manage Mercenary",
+			"trans": "管理傭兵"
+		},
 		"recruitMaxError": {
 			"eng": "You cannot recruit more than ${max} mercenaries, you can increase the max mercenary by renting a better apartment. or you may dismiss your unwanted mercenary for resources.",
 			"trans": "您無法招募超過${max}名傭兵，您可以透過租用更好的公寓來增加最大傭兵數量。或者您可以為了資源解僱您不想要的傭兵。"
@@ -4788,6 +4792,10 @@
 		"recruitTenDescription": {
 			"eng": "one 4 star or higher mercenary is guaranteed",
 			"trans": "保證至少一名四星或更高星級的傭兵"
+		},
+		"skipAnimation": {
+			"eng": "Skip Animation",
+			"trans": "跳過動畫"
 		}
 	},
 	"mercenaryLevelDisplay": {
@@ -5065,6 +5073,10 @@
 		"error": {
 			"eng": "Your motto contains inappropriate words",
 			"trans": "您的座右銘包含不適當的詞語"
+		},
+		"serviceDown": {
+			"eng": "Motto editing is temporally disabled due to external service downtime, please try again later",
+			"trans": "因外部服務暫時停止，座右銘編輯功能暫時無法使用，請稍後再試。"
 		}
 	},
 	"notification": {
@@ -7846,6 +7858,10 @@
 			"eng": "You have completed daily quests. open this tab to view them.",
 			"trans": "您已完成每日任務。打開此選項卡以查看它們。"
 		},
+		"dailyQuestClaim": {
+			"eng": "Click here to claim your rewards.",
+			"trans": "點擊這裡領取你的獎勵。"
+		},
 		"deathItem": {
 			"eng": "You can buy back the items you lost from clinic.",
 			"trans": "您可以從診所買回您失去的物品。"
@@ -7862,6 +7878,18 @@
 			"eng": "Select the normal difficulty, you will get ${percent}% extra exp from enemies in the stronghold",
 			"trans": "選擇普通難度，您將從地城的敵人獲得額外${percent}%的經驗值"
 		},
+		"dungeonLevelChange": {
+			"eng": "You change level of the stronghold here if you want to fight stronger or weaker enemies.",
+			"trans": "在這裡你可以調整地城的等級，如果想要與更強或更弱的敵人戰鬥。"
+		},
+		"dungeonStart": {
+			"eng": "Click here to enter the stronghold.",
+			"trans": "點擊進入地城。"
+		},
+		"equipItem": {
+			"eng": "Click here to automatically equip items, you can also equip items manually from by clicking the equipment slots or within item details page.",
+			"trans": "點擊此處自動裝備物品，也可以透過點擊裝備欄位或物品詳細資訊頁面手動裝備物品。"
+		},
 		"freeMerc1": {
 			"eng": "Click here for all kinds of benefits",
 			"trans": "點擊這裡以獲得各種好處"
@@ -7869,6 +7897,10 @@
 		"freeMerc2": {
 			"eng": "Click here to get free ${itemName}",
 			"trans": "點擊這裡以獲得免費的${itemName}"
+		},
+		"freeMerc3": {
+			"eng": "Click back to return to main screen",
+			"trans": "點擊返回主畫面"
 		},
 		"heal": {
 			"eng": "Click here to assign healing items to quick slots.",
@@ -7889,6 +7921,14 @@
 		"locationChange": {
 			"eng": "You can travel to other locations with different levels from here",
 			"trans": "您可以從這裡前往不同等級的其他地點"
+		},
+		"locationRewards": {
+			"eng": "You can claim these reward after you have defeated the boss in the Hard Difficulty stronghold at this location.",
+			"trans": "在這個地點的困難難度地城擊敗首領後，你可以領取這些獎勵。"
+		},
+		"locationTravelBtn": {
+			"eng": "Click here to travel to the location.",
+			"trans": "點擊這裡前往該位置。"
 		},
 		"mercenary1": {
 			"eng": "Click here to view your mercenary contacts",
@@ -7911,16 +7951,34 @@
 			"trans": "按此前往下一個區域，那裡的敵人更強大，並提供更多經驗值。"
 		},
 		"upgradeItem": {
-			"eng": "Click here to upgrade your items.",
-			"trans": "點選這裡升級您的物品。"
+			"eng": "Click here to view your inventory.",
+			"trans": "點擊這裡查看你的倉庫。"
+		},
+		"upgradeItemClickUpgrade": {
+			"eng": "Click \"Upgrade\" to level up this equipment.",
+			"trans": "點擊「升級」來提升這件裝備的等級。"
 		},
 		"upgradeItemDetails": {
 			"eng": "Click here to upgrade this item.",
 			"trans": "點選此處升級此物品。"
 		},
+		"upgradeItemSlot": {
+			"eng": "Click on an equipment slot to view the item details.",
+			"trans": "點擊裝備欄位以查看物品詳情。"
+		},
+		"upgradeItemTab": {
+			"eng": "You can upgrade your items by using the following shards, try ${itemName} first, it will allow you to level up your equipments",
+			"trans": "你可以使用以下碎片來升級你的物品，先試試${itemName}，它可以讓你的裝備升級。"
+		},
 		"useSkill": {
 			"eng": "Click here to command your mercenary to use skill.",
 			"trans": "點擊以命令傭兵使用技能。"
+		}
+	},
+	"tutorialContainer": {
+		"continue": {
+			"eng": "Click to continue",
+			"trans": "點擊繼續"
 		}
 	},
 	"ui": {
@@ -8371,8 +8429,8 @@
 	"worldEventType": {
 		"bountyAdded": {
 			"announcement": {
-				"eng": "bounty of ${amount1}/${amount2} has been placed on ${targetName}!",
-				"trans": "${targetName}的懸賞金額已達${amount1}/${amount2}！"
+				"eng": "bounty of ${amount1} has been placed on ${targetName}!",
+				"trans": "${amount1}的賞金已經放在${targetName}的頭上了！"
 			}
 		},
 		"calibrated10": {

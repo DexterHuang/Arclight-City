@@ -2691,6 +2691,14 @@
 				"trans": "속성 데미지"
 			}
 		},
+		"cantDiscardEquipped": {
+			"eng": "You can't discard equipped items",
+			"trans": "장착한 아이템은 버릴 수 없습니다"
+		},
+		"cantDiscardLocked": {
+			"eng": "You can't discard locked items",
+			"trans": "잠금된 아이템은 버릴 수 없습니다"
+		},
 		"cantDismantleEquipped": {
 			"eng": "You can\\'t dismantle equipped items",
 			"trans": "장착한 아이템은 분해할 수 없습니다"
@@ -2699,19 +2707,15 @@
 			"eng": "You can\\'t dismantle locked items",
 			"trans": "잠긴 아이템은 분해할 수 없습니다"
 		},
-		"cantScrapEquipped": {
-			"eng": "You can\\'t scrap equipped items",
-			"trans": "장착한 아이템은 폐기할 수 없습니다"
-		},
-		"cantScrapLocked": {
-			"eng": "You can\\'t scrap locked items",
-			"trans": "잠긴 아이템은 폐기할 수 없습니다"
-		},
 		"diff": {
 			"header1": {
 				"eng": "equipped item",
 				"trans": "장착된 아이템"
 			}
+		},
+		"discard": {
+			"eng": "discard",
+			"trans": "버리기"
 		},
 		"dismantle": {
 			"eng": "Dismantle",
@@ -2752,10 +2756,6 @@
 		"moveToInv": {
 			"eng": "Move To Inventory",
 			"trans": "인벤토리로 이동"
-		},
-		"scrap": {
-			"eng": "scrap",
-			"trans": "폐기"
 		},
 		"unequip": {
 			"eng": "Unequip",
@@ -4030,8 +4030,8 @@
 	},
 	"levelTip": {
 		"1": {
-			"eng": "Seems like some of your equipments are still at level ${level} or lower. You should level them up your character level at the item upgrade interface",
-			"trans": "당신의 장비 중 일부는 ${level}레벨 이하입니다. 아이템 업그레이드 인터페이스에서 캐릭터 레벨을 올려주세요"
+			"eng": "Seems like some of your equipments are still at level ${level} or lower. upgrade their level with ${levelUpItem} in item upgrade page",
+			"trans": "장비 중 일부는 아직 레벨 ${level} 이하입니다. 아이템 업그레이드 페이지에서 ${levelUpItem}을(를) 사용하여 레벨을 업그레이드하세요"
 		}
 	},
 	"levelType": {
@@ -4769,6 +4769,10 @@
 				"trans": "드롭 확률"
 			}
 		},
+		"manageMercenary": {
+			"eng": "Manage Mercenary",
+			"trans": "용병 관리하기"
+		},
 		"recruitMaxError": {
 			"eng": "You cannot recruit more than ${max} mercenaries, you can increase the max mercenary by renting a better apartment. or you may dismiss your unwanted mercenary for resources.",
 			"trans": "${max}명 이상의 용병을 고용할 수 없습니다. 더 좋은 아파트를 빌려 최대 용병 수를 늘릴 수 있습니다. 또는 원하지 않는 용병을 해고하여 자원을 얻을 수 있습니다."
@@ -4788,6 +4792,10 @@
 		"recruitTenDescription": {
 			"eng": "one 4 star or higher mercenary is guaranteed",
 			"trans": "4성 이상의 용병 하나가 보장됩니다"
+		},
+		"skipAnimation": {
+			"eng": "Skip Animation",
+			"trans": "애니메이션 건너뛰기"
 		}
 	},
 	"mercenaryLevelDisplay": {
@@ -5065,6 +5073,10 @@
 		"error": {
 			"eng": "Your motto contains inappropriate words",
 			"trans": "당신의 모토에는 부적절한 단어가 포함되어 있습니다"
+		},
+		"serviceDown": {
+			"eng": "Motto editing is temporally disabled due to external service downtime, please try again later",
+			"trans": "외부 서비스 다운으로 인해 모토 편집이 일시적으로 비활성화되었습니다. 나중에 다시 시도해주세요"
 		}
 	},
 	"notification": {
@@ -7846,6 +7858,10 @@
 			"eng": "You have completed daily quests. open this tab to view them.",
 			"trans": "일일 퀘스트를 완료했습니다. 이 탭을 열어서 확인하세요."
 		},
+		"dailyQuestClaim": {
+			"eng": "Click here to claim your rewards.",
+			"trans": "보상을 받으려면 여기를 클릭하세요."
+		},
 		"deathItem": {
 			"eng": "You can buy back the items you lost from clinic.",
 			"trans": "클리닉에서 잃어버린 아이템을 다시 구매할 수 있습니다."
@@ -7862,6 +7878,18 @@
 			"eng": "Select the normal difficulty, you will get ${percent}% extra exp from enemies in the stronghold",
 			"trans": "일반 난이도를 선택하면 아지트의 적으로부터 ${percent}%의 추가 경험치를 획득합니다"
 		},
+		"dungeonLevelChange": {
+			"eng": "You change level of the stronghold here if you want to fight stronger or weaker enemies.",
+			"trans": "여기서 아지트의 레벨을 변경하면 더 강한 적이나 더 약한 적과 싸울 수 있습니다."
+		},
+		"dungeonStart": {
+			"eng": "Click here to enter the stronghold.",
+			"trans": "아지트로 들어가려면 여기를 클릭하세요."
+		},
+		"equipItem": {
+			"eng": "Click here to automatically equip items, you can also equip items manually from by clicking the equipment slots or within item details page.",
+			"trans": "아이템을 자동으로 장착하려면 여기를 클릭하세요. 또한 장비 슬롯을 클릭하거나 아이템 상세 페이지에서 수동으로 장착할 수도 있습니다."
+		},
 		"freeMerc1": {
 			"eng": "Click here for all kinds of benefits",
 			"trans": "여기를 클릭해서 모든 혜택을 확인하세요"
@@ -7869,6 +7897,10 @@
 		"freeMerc2": {
 			"eng": "Click here to get free ${itemName}",
 			"trans": "여기를 클릭해서 무료로 ${itemName}을(를) 받을 수 있습니다"
+		},
+		"freeMerc3": {
+			"eng": "Click back to return to main screen",
+			"trans": "메인 화면으로 돌아가려면 뒤로 클릭하세요"
 		},
 		"heal": {
 			"eng": "Click here to assign healing items to quick slots.",
@@ -7889,6 +7921,14 @@
 		"locationChange": {
 			"eng": "You can travel to other locations with different levels from here",
 			"trans": "여기서 다른 레벨의 다른 위치로 여행할 수 있습니다"
+		},
+		"locationRewards": {
+			"eng": "You can claim these reward after you have defeated the boss in the Hard Difficulty stronghold at this location.",
+			"trans": "이 위치에서 하드 난이도 아지트의 보스를 물리친 후에 이 보상을 받을 수 있습니다."
+		},
+		"locationTravelBtn": {
+			"eng": "Click here to travel to the location.",
+			"trans": "해당 위치로 이동하려면 여기를 클릭하세요."
 		},
 		"mercenary1": {
 			"eng": "Click here to view your mercenary contacts",
@@ -7911,16 +7951,34 @@
 			"trans": "다음 지역으로 이동하여 적들이 더 강해지고 경험치를 더 많이 얻을 수 있습니다. 여기를 클릭하세요."
 		},
 		"upgradeItem": {
-			"eng": "Click here to upgrade your items.",
-			"trans": "아이템을 업그레이드하려면 여기를 클릭하세요."
+			"eng": "Click here to view your inventory.",
+			"trans": "인벤토리를 확인하려면 여기를 클릭하세요."
+		},
+		"upgradeItemClickUpgrade": {
+			"eng": "Click \"Upgrade\" to level up this equipment.",
+			"trans": "이 장비를 업그레이드하려면 \"업그레이드\"를 클릭하세요."
 		},
 		"upgradeItemDetails": {
 			"eng": "Click here to upgrade this item.",
 			"trans": "이 아이템을 업그레이드하려면 여기를 클릭하세요."
 		},
+		"upgradeItemSlot": {
+			"eng": "Click on an equipment slot to view the item details.",
+			"trans": "아이템 세부 정보를 보려면 장비 슬롯을 클릭하세요."
+		},
+		"upgradeItemTab": {
+			"eng": "You can upgrade your items by using the following shards, try ${itemName} first, it will allow you to level up your equipments",
+			"trans": "다음 샤드를 사용하여 아이템을 업그레이드할 수 있습니다. 먼저 ${itemName}을(를) 시도해보세요. 이를 통해 장비를 레벨 업할 수 있습니다"
+		},
 		"useSkill": {
 			"eng": "Click here to command your mercenary to use skill.",
 			"trans": "여기를 클릭하여 용병에게 스킬 사용을 지시하세요."
+		}
+	},
+	"tutorialContainer": {
+		"continue": {
+			"eng": "Click to continue",
+			"trans": "계속하기 클릭"
 		}
 	},
 	"ui": {
@@ -8371,8 +8429,8 @@
 	"worldEventType": {
 		"bountyAdded": {
 			"announcement": {
-				"eng": "bounty of ${amount1}/${amount2} has been placed on ${targetName}!",
-				"trans": "${targetName}에게 ${amount1}/${amount2}의 현상금이 걸렸습니다!"
+				"eng": "bounty of ${amount1} has been placed on ${targetName}!",
+				"trans": "${targetName}에게 ${amount1}의 현상금이 걸렸습니다!"
 			}
 		},
 		"calibrated10": {

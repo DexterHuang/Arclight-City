@@ -2691,6 +2691,14 @@
 				"trans": "Daño de Atributo"
 			}
 		},
+		"cantDiscardEquipped": {
+			"eng": "You can't discard equipped items",
+			"trans": "No puedes descartar objetos equipados"
+		},
+		"cantDiscardLocked": {
+			"eng": "You can't discard locked items",
+			"trans": "No puedes descartar objetos bloqueados"
+		},
 		"cantDismantleEquipped": {
 			"eng": "You can\\'t dismantle equipped items",
 			"trans": "No puedes desmontar objetos equipados"
@@ -2699,19 +2707,15 @@
 			"eng": "You can\\'t dismantle locked items",
 			"trans": "No puedes desmontar objetos bloqueados"
 		},
-		"cantScrapEquipped": {
-			"eng": "You can\\'t scrap equipped items",
-			"trans": "No puedes desechar los artículos equipados"
-		},
-		"cantScrapLocked": {
-			"eng": "You can\\'t scrap locked items",
-			"trans": "No puedes desechar objetos bloqueados"
-		},
 		"diff": {
 			"header1": {
 				"eng": "equipped item",
 				"trans": "objeto equipado"
 			}
+		},
+		"discard": {
+			"eng": "discard",
+			"trans": "descartar"
 		},
 		"dismantle": {
 			"eng": "Dismantle",
@@ -2752,10 +2756,6 @@
 		"moveToInv": {
 			"eng": "Move To Inventory",
 			"trans": "Mover al Inventario"
-		},
-		"scrap": {
-			"eng": "scrap",
-			"trans": "chatarra"
 		},
 		"unequip": {
 			"eng": "Unequip",
@@ -4030,8 +4030,8 @@
 	},
 	"levelTip": {
 		"1": {
-			"eng": "Seems like some of your equipments are still at level ${level} or lower. You should level them up your character level at the item upgrade interface",
-			"trans": "Parece que algunos de tus equipos todavía están en el nivel ${level} o más bajo. Deberías subirlos de nivel en la interfaz de mejora de objetos para que coincidan con el nivel de tu personaje"
+			"eng": "Seems like some of your equipments are still at level ${level} or lower. upgrade their level with ${levelUpItem} in item upgrade page",
+			"trans": "Parece que algunos de tus equipos todavía están en el nivel ${level} o más bajo. Mejora su nivel con ${levelUpItem} en la página de mejora de objetos"
 		}
 	},
 	"levelType": {
@@ -4769,6 +4769,10 @@
 				"trans": "Tasa de caída"
 			}
 		},
+		"manageMercenary": {
+			"eng": "Manage Mercenary",
+			"trans": "Administrar Mercenarios"
+		},
 		"recruitMaxError": {
 			"eng": "You cannot recruit more than ${max} mercenaries, you can increase the max mercenary by renting a better apartment. or you may dismiss your unwanted mercenary for resources.",
 			"trans": "No puedes reclutar más de ${max} mercenarios, puedes aumentar el máximo de mercenarios alquilando un apartamento mejor. O puedes despedir a tus mercenarios no deseados a cambio de recursos."
@@ -4788,6 +4792,10 @@
 		"recruitTenDescription": {
 			"eng": "one 4 star or higher mercenary is guaranteed",
 			"trans": "Se garantiza un mercenario de 4 estrellas o superior"
+		},
+		"skipAnimation": {
+			"eng": "Skip Animation",
+			"trans": "Saltar Animación"
 		}
 	},
 	"mercenaryLevelDisplay": {
@@ -5065,6 +5073,10 @@
 		"error": {
 			"eng": "Your motto contains inappropriate words",
 			"trans": "Tu lema contiene palabras inapropiadas"
+		},
+		"serviceDown": {
+			"eng": "Motto editing is temporally disabled due to external service downtime, please try again later",
+			"trans": "La edición de lemas está temporalmente deshabilitada debido a la interrupción del servicio externo, por favor inténtalo de nuevo más tarde"
 		}
 	},
 	"notification": {
@@ -7846,6 +7858,10 @@
 			"eng": "You have completed daily quests. open this tab to view them.",
 			"trans": "Has completado las misiones diarias. Abre esta pestaña para verlas."
 		},
+		"dailyQuestClaim": {
+			"eng": "Click here to claim your rewards.",
+			"trans": "Haz clic aquí para reclamar tus recompensas."
+		},
 		"deathItem": {
 			"eng": "You can buy back the items you lost from clinic.",
 			"trans": "Puedes comprar de vuelta los objetos que perdiste en la clínica."
@@ -7862,6 +7878,18 @@
 			"eng": "Select the normal difficulty, you will get ${percent}% extra exp from enemies in the stronghold",
 			"trans": "Selecciona la dificultad normal, obtendrás un ${percent}% de experiencia extra de los enemigos en la fortaleza"
 		},
+		"dungeonLevelChange": {
+			"eng": "You change level of the stronghold here if you want to fight stronger or weaker enemies.",
+			"trans": "Aquí puedes cambiar el nivel de la fortaleza si quieres enfrentarte a enemigos más fuertes o más débiles."
+		},
+		"dungeonStart": {
+			"eng": "Click here to enter the stronghold.",
+			"trans": "Haz clic aquí para entrar a la fortaleza."
+		},
+		"equipItem": {
+			"eng": "Click here to automatically equip items, you can also equip items manually from by clicking the equipment slots or within item details page.",
+			"trans": "Haz clic aquí para equipar automáticamente objetos, también puedes equipar objetos manualmente haciendo clic en los espacios de equipo o en la página de detalles del objeto."
+		},
 		"freeMerc1": {
 			"eng": "Click here for all kinds of benefits",
 			"trans": "Haz clic aquí para obtener todo tipo de beneficios"
@@ -7869,6 +7897,10 @@
 		"freeMerc2": {
 			"eng": "Click here to get free ${itemName}",
 			"trans": "Haz clic aquí para obtener ${itemName} gratis"
+		},
+		"freeMerc3": {
+			"eng": "Click back to return to main screen",
+			"trans": "Haz clic en volver para regresar a la pantalla principal"
 		},
 		"heal": {
 			"eng": "Click here to assign healing items to quick slots.",
@@ -7889,6 +7921,14 @@
 		"locationChange": {
 			"eng": "You can travel to other locations with different levels from here",
 			"trans": "Puedes viajar a otras ubicaciones con diferentes niveles desde aquí"
+		},
+		"locationRewards": {
+			"eng": "You can claim these reward after you have defeated the boss in the Hard Difficulty stronghold at this location.",
+			"trans": "Puedes reclamar estas recompensas después de haber derrotado al jefe en la fortaleza de Dificultad Difícil en esta ubicación."
+		},
+		"locationTravelBtn": {
+			"eng": "Click here to travel to the location.",
+			"trans": "Haz clic aquí para viajar a la ubicación."
 		},
 		"mercenary1": {
 			"eng": "Click here to view your mercenary contacts",
@@ -7911,16 +7951,34 @@
 			"trans": "Haz clic aquí para viajar a la siguiente área donde los enemigos son más fuertes y dan más experiencia."
 		},
 		"upgradeItem": {
-			"eng": "Click here to upgrade your items.",
-			"trans": "Haz clic aquí para mejorar tus objetos."
+			"eng": "Click here to view your inventory.",
+			"trans": "Haz clic aquí para ver tu inventario."
+		},
+		"upgradeItemClickUpgrade": {
+			"eng": "Click \"Upgrade\" to level up this equipment.",
+			"trans": "Haz clic en \"Mejora\" para subir de nivel este equipo."
 		},
 		"upgradeItemDetails": {
 			"eng": "Click here to upgrade this item.",
 			"trans": "Haz clic aquí para mejorar este objeto."
 		},
+		"upgradeItemSlot": {
+			"eng": "Click on an equipment slot to view the item details.",
+			"trans": "Haz clic en una ranura de equipo para ver los detalles del artículo."
+		},
+		"upgradeItemTab": {
+			"eng": "You can upgrade your items by using the following shards, try ${itemName} first, it will allow you to level up your equipments",
+			"trans": "Puedes mejorar tus objetos usando los siguientes fragmentos, prueba con ${itemName} primero, te permitirá subir de nivel tus equipos"
+		},
 		"useSkill": {
 			"eng": "Click here to command your mercenary to use skill.",
 			"trans": "Haz clic aquí para ordenar a tu mercenario que utilice su habilidad."
+		}
+	},
+	"tutorialContainer": {
+		"continue": {
+			"eng": "Click to continue",
+			"trans": "Haz clic para continuar"
 		}
 	},
 	"ui": {
@@ -8371,8 +8429,8 @@
 	"worldEventType": {
 		"bountyAdded": {
 			"announcement": {
-				"eng": "bounty of ${amount1}/${amount2} has been placed on ${targetName}!",
-				"trans": "¡Se ha colocado una recompensa de ${amount1}/${amount2} en ${targetName}!"
+				"eng": "bounty of ${amount1} has been placed on ${targetName}!",
+				"trans": "¡Se ha colocado una recompensa de ${amount1} en ${targetName}!"
 			}
 		},
 		"calibrated10": {

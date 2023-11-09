@@ -2691,6 +2691,14 @@
 				"trans": "Урон атрибута"
 			}
 		},
+		"cantDiscardEquipped": {
+			"eng": "You can't discard equipped items",
+			"trans": "Нельзя выбросить экипированные предметы"
+		},
+		"cantDiscardLocked": {
+			"eng": "You can't discard locked items",
+			"trans": "Нельзя выбросить заблокированные предметы"
+		},
 		"cantDismantleEquipped": {
 			"eng": "You can\\'t dismantle equipped items",
 			"trans": "Вы не можете разобрать экипированные предметы"
@@ -2699,19 +2707,15 @@
 			"eng": "You can\\'t dismantle locked items",
 			"trans": "Вы не можете разобрать заблокированные предметы"
 		},
-		"cantScrapEquipped": {
-			"eng": "You can\\'t scrap equipped items",
-			"trans": "Вы не можете разобрать экипированные предметы"
-		},
-		"cantScrapLocked": {
-			"eng": "You can\\'t scrap locked items",
-			"trans": "Вы не можете разобрать заблокированные предметы"
-		},
 		"diff": {
 			"header1": {
 				"eng": "equipped item",
 				"trans": "экипированный предмет"
 			}
+		},
+		"discard": {
+			"eng": "discard",
+			"trans": "выбросить"
 		},
 		"dismantle": {
 			"eng": "Dismantle",
@@ -2752,10 +2756,6 @@
 		"moveToInv": {
 			"eng": "Move To Inventory",
 			"trans": "Переместить в инвентарь"
-		},
-		"scrap": {
-			"eng": "scrap",
-			"trans": "металлолом"
 		},
 		"unequip": {
 			"eng": "Unequip",
@@ -4030,8 +4030,8 @@
 	},
 	"levelTip": {
 		"1": {
-			"eng": "Seems like some of your equipments are still at level ${level} or lower. You should level them up your character level at the item upgrade interface",
-			"trans": "Кажется, что некоторое из вашего оборудования все еще на уровне ${level} или ниже. Вы должны повысить уровень своего персонажа в интерфейсе улучшения предметов"
+			"eng": "Seems like some of your equipments are still at level ${level} or lower. upgrade their level with ${levelUpItem} in item upgrade page",
+			"trans": "Кажется, некоторое из вашего оборудования все еще находится на уровне ${level} или ниже. Повысьте их уровень с помощью ${levelUpItem} на странице улучшения предметов"
 		}
 	},
 	"levelType": {
@@ -4769,6 +4769,10 @@
 				"trans": "Шанс выпадения"
 			}
 		},
+		"manageMercenary": {
+			"eng": "Manage Mercenary",
+			"trans": "Управление наемниками"
+		},
 		"recruitMaxError": {
 			"eng": "You cannot recruit more than ${max} mercenaries, you can increase the max mercenary by renting a better apartment. or you may dismiss your unwanted mercenary for resources.",
 			"trans": "Вы не можете нанять больше ${max} наемников, вы можете увеличить максимальное количество наемников, арендуя лучшую квартиру. Или вы можете уволить ненужного наемника за ресурсы."
@@ -4788,6 +4792,10 @@
 		"recruitTenDescription": {
 			"eng": "one 4 star or higher mercenary is guaranteed",
 			"trans": "Гарантировано один наемник с 4 звездами или выше"
+		},
+		"skipAnimation": {
+			"eng": "Skip Animation",
+			"trans": "Пропустить анимацию"
 		}
 	},
 	"mercenaryLevelDisplay": {
@@ -5065,6 +5073,10 @@
 		"error": {
 			"eng": "Your motto contains inappropriate words",
 			"trans": "Ваш девиз содержит неприемлемые слова"
+		},
+		"serviceDown": {
+			"eng": "Motto editing is temporally disabled due to external service downtime, please try again later",
+			"trans": "Редактирование девиза временно отключено из-за сбоя во внешнем сервисе, пожалуйста, попробуйте позже"
 		}
 	},
 	"notification": {
@@ -7846,6 +7858,10 @@
 			"eng": "You have completed daily quests. open this tab to view them.",
 			"trans": "Вы выполнили ежедневные задания. Откройте эту вкладку, чтобы просмотреть их."
 		},
+		"dailyQuestClaim": {
+			"eng": "Click here to claim your rewards.",
+			"trans": "Нажмите здесь, чтобы получить свою награду."
+		},
 		"deathItem": {
 			"eng": "You can buy back the items you lost from clinic.",
 			"trans": "Вы можете выкупить потерянные предметы из клиники."
@@ -7862,6 +7878,18 @@
 			"eng": "Select the normal difficulty, you will get ${percent}% extra exp from enemies in the stronghold",
 			"trans": "Выберите обычную сложность, вы получите ${percent}% дополнительного опыта от врагов в крепости"
 		},
+		"dungeonLevelChange": {
+			"eng": "You change level of the stronghold here if you want to fight stronger or weaker enemies.",
+			"trans": "Здесь вы можете изменить уровень крепости, если хотите сражаться с более сильными или слабыми врагами."
+		},
+		"dungeonStart": {
+			"eng": "Click here to enter the stronghold.",
+			"trans": "Нажмите здесь, чтобы войти в крепость."
+		},
+		"equipItem": {
+			"eng": "Click here to automatically equip items, you can also equip items manually from by clicking the equipment slots or within item details page.",
+			"trans": "Нажмите здесь, чтобы автоматически экипировать предметы, также вы можете экипировать предметы вручную, нажав на слоты экипировки или на странице с подробностями предмета."
+		},
 		"freeMerc1": {
 			"eng": "Click here for all kinds of benefits",
 			"trans": "Нажмите здесь для получения всех видов выгод"
@@ -7869,6 +7897,10 @@
 		"freeMerc2": {
 			"eng": "Click here to get free ${itemName}",
 			"trans": "Нажмите здесь, чтобы получить бесплатно ${itemName}"
+		},
+		"freeMerc3": {
+			"eng": "Click back to return to main screen",
+			"trans": "Нажмите назад, чтобы вернуться на главный экран"
 		},
 		"heal": {
 			"eng": "Click here to assign healing items to quick slots.",
@@ -7889,6 +7921,14 @@
 		"locationChange": {
 			"eng": "You can travel to other locations with different levels from here",
 			"trans": "Вы можете перемещаться в другие локации с разными уровнями отсюда"
+		},
+		"locationRewards": {
+			"eng": "You can claim these reward after you have defeated the boss in the Hard Difficulty stronghold at this location.",
+			"trans": "Вы можете получить эти награды после победы над боссом в крепости на сложности \"Тяжело\" в этом месте."
+		},
+		"locationTravelBtn": {
+			"eng": "Click here to travel to the location.",
+			"trans": "Нажмите здесь, чтобы перейти в указанное место."
 		},
 		"mercenary1": {
 			"eng": "Click here to view your mercenary contacts",
@@ -7911,16 +7951,34 @@
 			"trans": "Нажмите здесь, чтобы перейти в следующую область, где враги сильнее и дают больше опыта."
 		},
 		"upgradeItem": {
-			"eng": "Click here to upgrade your items.",
-			"trans": "Нажмите здесь, чтобы улучшить свои предметы."
+			"eng": "Click here to view your inventory.",
+			"trans": "Нажмите здесь, чтобы просмотреть свой инвентарь."
+		},
+		"upgradeItemClickUpgrade": {
+			"eng": "Click \"Upgrade\" to level up this equipment.",
+			"trans": "Нажмите \"Улучшить\", чтобы повысить уровень этого оборудования."
 		},
 		"upgradeItemDetails": {
 			"eng": "Click here to upgrade this item.",
 			"trans": "Нажмите здесь, чтобы улучшить этот предмет."
 		},
+		"upgradeItemSlot": {
+			"eng": "Click on an equipment slot to view the item details.",
+			"trans": "Нажмите на слот оборудования, чтобы просмотреть подробную информацию об элементе."
+		},
+		"upgradeItemTab": {
+			"eng": "You can upgrade your items by using the following shards, try ${itemName} first, it will allow you to level up your equipments",
+			"trans": "Вы можете улучшить свои предметы, используя следующие осколки, попробуйте сначала ${itemName}, это позволит вам повысить уровень вашего оборудования"
+		},
 		"useSkill": {
 			"eng": "Click here to command your mercenary to use skill.",
 			"trans": "Нажмите здесь, чтобы приказать вашему наемнику использовать навык."
+		}
+	},
+	"tutorialContainer": {
+		"continue": {
+			"eng": "Click to continue",
+			"trans": "Нажмите, чтобы продолжить"
 		}
 	},
 	"ui": {
@@ -8371,8 +8429,8 @@
 	"worldEventType": {
 		"bountyAdded": {
 			"announcement": {
-				"eng": "bounty of ${amount1}/${amount2} has been placed on ${targetName}!",
-				"trans": "На ${targetName} была выставлена награда в размере ${amount1}/${amount2}!"
+				"eng": "bounty of ${amount1} has been placed on ${targetName}!",
+				"trans": "На ${targetName} была выставлена награда в размере ${amount1}!"
 			}
 		},
 		"calibrated10": {

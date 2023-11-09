@@ -2691,6 +2691,14 @@
 				"trans": "属性ダメージ"
 			}
 		},
+		"cantDiscardEquipped": {
+			"eng": "You can't discard equipped items",
+			"trans": "装備中のアイテムは捨てられません"
+		},
+		"cantDiscardLocked": {
+			"eng": "You can't discard locked items",
+			"trans": "ロックされたアイテムは捨てられません。"
+		},
 		"cantDismantleEquipped": {
 			"eng": "You can\\'t dismantle equipped items",
 			"trans": "装備されたアイテムは解体できません。"
@@ -2699,19 +2707,15 @@
 			"eng": "You can\\'t dismantle locked items",
 			"trans": "ロックされたアイテムは解体できません。"
 		},
-		"cantScrapEquipped": {
-			"eng": "You can\\'t scrap equipped items",
-			"trans": "装備中のアイテムは廃棄できません。"
-		},
-		"cantScrapLocked": {
-			"eng": "You can\\'t scrap locked items",
-			"trans": "ロックされたアイテムは廃棄できません。"
-		},
 		"diff": {
 			"header1": {
 				"eng": "equipped item",
 				"trans": "装備済みアイテム"
 			}
+		},
+		"discard": {
+			"eng": "discard",
+			"trans": "捨てる"
 		},
 		"dismantle": {
 			"eng": "Dismantle",
@@ -2752,10 +2756,6 @@
 		"moveToInv": {
 			"eng": "Move To Inventory",
 			"trans": "インベントリに移動"
-		},
-		"scrap": {
-			"eng": "scrap",
-			"trans": "スクラップ"
 		},
 		"unequip": {
 			"eng": "Unequip",
@@ -4030,8 +4030,8 @@
 	},
 	"levelTip": {
 		"1": {
-			"eng": "Seems like some of your equipments are still at level ${level} or lower. You should level them up your character level at the item upgrade interface",
-			"trans": "あなたの装備の中には、まだレベル${level}以下のものがあるようですね。アイテムアップグレード画面でキャラクターレベルを上げる必要があります。"
+			"eng": "Seems like some of your equipments are still at level ${level} or lower. upgrade their level with ${levelUpItem} in item upgrade page",
+			"trans": "あなたの装備の中にはまだレベル${level}以下のものがあるようですね。アイテムアップグレードページで${levelUpItem}を使ってレベルを上げましょう。"
 		}
 	},
 	"levelType": {
@@ -4769,6 +4769,10 @@
 				"trans": "ドロップ率"
 			}
 		},
+		"manageMercenary": {
+			"eng": "Manage Mercenary",
+			"trans": "マーセナリーの管理"
+		},
 		"recruitMaxError": {
 			"eng": "You cannot recruit more than ${max} mercenaries, you can increase the max mercenary by renting a better apartment. or you may dismiss your unwanted mercenary for resources.",
 			"trans": "${max}人以上の傭兵を雇うことはできません。より良いアパートを借りることで最大傭兵数を増やすことができます。または、不要な傭兵をリソースと交換することで解雇することもできます。"
@@ -4788,6 +4792,10 @@
 		"recruitTenDescription": {
 			"eng": "one 4 star or higher mercenary is guaranteed",
 			"trans": "4つ星以上の傭兵が1人確定します。"
+		},
+		"skipAnimation": {
+			"eng": "Skip Animation",
+			"trans": "アニメーションをスキップする"
 		}
 	},
 	"mercenaryLevelDisplay": {
@@ -5065,6 +5073,10 @@
 		"error": {
 			"eng": "Your motto contains inappropriate words",
 			"trans": "あなたのモットーには不適切な言葉が含まれています。"
+		},
+		"serviceDown": {
+			"eng": "Motto editing is temporally disabled due to external service downtime, please try again later",
+			"trans": "外部サービスのダウンタイムにより、編集機能が一時的に無効になっています。後でもう一度お試しください。"
 		}
 	},
 	"notification": {
@@ -7846,6 +7858,10 @@
 			"eng": "You have completed daily quests. open this tab to view them.",
 			"trans": "デイリークエストが完了しました。このタブを開いて表示してください。"
 		},
+		"dailyQuestClaim": {
+			"eng": "Click here to claim your rewards.",
+			"trans": "報酬を受け取るにはここをクリックしてください。"
+		},
 		"deathItem": {
 			"eng": "You can buy back the items you lost from clinic.",
 			"trans": "クリニックから失ったアイテムを買い戻すことができます。"
@@ -7862,6 +7878,18 @@
 			"eng": "Select the normal difficulty, you will get ${percent}% extra exp from enemies in the stronghold",
 			"trans": "通常の難易度を選択してください。要塞の敵から${percent}%の追加経験値を獲得します。"
 		},
+		"dungeonLevelChange": {
+			"eng": "You change level of the stronghold here if you want to fight stronger or weaker enemies.",
+			"trans": "ここで要塞のレベルを変更すると、より強いまたは弱い敵と戦うことができます。"
+		},
+		"dungeonStart": {
+			"eng": "Click here to enter the stronghold.",
+			"trans": "要塞に入るにはここをクリックしてください。"
+		},
+		"equipItem": {
+			"eng": "Click here to automatically equip items, you can also equip items manually from by clicking the equipment slots or within item details page.",
+			"trans": "アイテムを自動的に装備するにはここをクリックしてください。また、装備スロットをクリックするか、アイテム詳細ページから手動で装備することもできます。"
+		},
 		"freeMerc1": {
 			"eng": "Click here for all kinds of benefits",
 			"trans": "色々な種類の特典については、ここを選択してください。"
@@ -7869,6 +7897,10 @@
 		"freeMerc2": {
 			"eng": "Click here to get free ${itemName}",
 			"trans": "無料で${itemName}を入手するにはここを選択してください。"
+		},
+		"freeMerc3": {
+			"eng": "Click back to return to main screen",
+			"trans": "メイン画面に戻るには、バックをクリックしてください。"
 		},
 		"heal": {
 			"eng": "Click here to assign healing items to quick slots.",
@@ -7889,6 +7921,14 @@
 		"locationChange": {
 			"eng": "You can travel to other locations with different levels from here",
 			"trans": "ここから他の異なるレベルの場所へ移動できます"
+		},
+		"locationRewards": {
+			"eng": "You can claim these reward after you have defeated the boss in the Hard Difficulty stronghold at this location.",
+			"trans": "この場所でハード難易度の要塞のボスを倒した後、報酬を受け取ることができます。"
+		},
+		"locationTravelBtn": {
+			"eng": "Click here to travel to the location.",
+			"trans": "ここをクリックして場所に移動する。"
 		},
 		"mercenary1": {
 			"eng": "Click here to view your mercenary contacts",
@@ -7911,16 +7951,34 @@
 			"trans": "より強い敵、より多くの経験値が得られる次のエリアに移動するにはここを選択してください。"
 		},
 		"upgradeItem": {
-			"eng": "Click here to upgrade your items.",
-			"trans": "アイテムをアップグレードするにはここを選択してください。"
+			"eng": "Click here to view your inventory.",
+			"trans": "インベントリを確認するにはここをクリックしてください。"
+		},
+		"upgradeItemClickUpgrade": {
+			"eng": "Click \"Upgrade\" to level up this equipment.",
+			"trans": "この装備をレベルアップするには、「アップグレード」をクリックしてください。"
 		},
 		"upgradeItemDetails": {
 			"eng": "Click here to upgrade this item.",
 			"trans": "このアイテムをアップグレードするにはここを選択してください。"
 		},
+		"upgradeItemSlot": {
+			"eng": "Click on an equipment slot to view the item details.",
+			"trans": "アイテムの詳細を表示するには、装備スロットをクリックしてください。"
+		},
+		"upgradeItemTab": {
+			"eng": "You can upgrade your items by using the following shards, try ${itemName} first, it will allow you to level up your equipments",
+			"trans": "以下のシャードを使用してアイテムをアップグレードすることができます。まずは${itemName}を試してみてください。これにより、装備をレベルアップすることができます。"
+		},
 		"useSkill": {
 			"eng": "Click here to command your mercenary to use skill.",
 			"trans": "傭兵にスキルを発動させるにはここを選択してください。"
+		}
+	},
+	"tutorialContainer": {
+		"continue": {
+			"eng": "Click to continue",
+			"trans": "クリックして続ける"
 		}
 	},
 	"ui": {
@@ -8371,8 +8429,8 @@
 	"worldEventType": {
 		"bountyAdded": {
 			"announcement": {
-				"eng": "bounty of ${amount1}/${amount2} has been placed on ${targetName}!",
-				"trans": "${targetName}には${amount1}/${amount2}の賞金がかけられました！"
+				"eng": "bounty of ${amount1} has been placed on ${targetName}!",
+				"trans": "${targetName}に${amount1}の賞金がかけられました！"
 			}
 		},
 		"calibrated10": {
