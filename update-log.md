@@ -10,6 +10,15 @@
 
 ### 0.0.16
 
+-   Tweaks to UI to make it easier to know how to upgrade items
+-   Added many new tutorial to help new players understand the game better
+-   give new players a bunch of items get from for starting
+-   Added indication light on equipment page to show if item can be upgraded, encouraging new players to click on item to upgrade them.
+-   Multiple bug fixes
+-   Changed level required to put item on market to 30, to prevent alt issues and make it easier for me to give out items to new players in the future without worrying about problem caused by alt accounts
+
+### 0.0.16
+
 -   Added `Common Container`, `Uncommon Locked Container`, `Rare Locked Container` and `Unique Locked Container`, each of the locked containers requires a respective container key to be unlocked, you can craft a container key with `Container Key Fragments`, all the keys and containers can only be obtained from strongholds currently.
 -   New item tier `Mythic` has been added, it is higher then epic tier, Mythic tier is much stronger. you can only upgrade to this tier on item that is 60+ levels, additionally this tier allows you to calibrate the item up to +12, which is 2 more then epic tier with much higher stats.
 the level, upgrades and reset shards cannot be traded, but the equipment itself can be traded.
@@ -23,6 +32,8 @@ the only way to obtain the shards for this tier is by unlocking `Unique Locked C
 -   Updated animation framework
 -   Buffed mercenary power on 100+ levels
 -   Optimization on game rendering
+-   Improved tutorial
+-   Added button to manage mercenary at mercenary draw page to allow quicker access to mercenary management
 
 
 ### 0.0.15
