@@ -310,7 +310,7 @@
 	"apartmentPurchasePage": {
 		"confirmDescription": {
 			"eng": "Are you sure you want to rent this apartment? if you already have an apartment, it will be dismissed.",
-			"trans": "이 아파트를 빌리시겠습니까? 이미 아파트를 가지고 있다면 취소될 것입니다."
+			"trans": "이 아파트를 빌리시겠습니까? 이미 아파트를 가지고 있다면, 그 아파트의 대여는 취소될 것입니다."
 		},
 		"confirmTitle": {
 			"eng": "Confirm Rental",
@@ -406,7 +406,7 @@
 		},
 		"description": {
 			"eng": "Calibrate to calibration level ${caliLevel}",
-			"trans": "교정 레벨 ${caliLevel}로 교정하기"
+			"trans": "교정 레벨 ${caliLevel}으로 교정"
 		},
 		"destroyChance": {
 			"eng": "Destroy chance:",
@@ -2400,7 +2400,7 @@
 			},
 			"cannotPlaceBountyOnLowLevel": {
 				"eng": "You cannot place bounty on players lower than level ${level}",
-				"trans": "레벨 ${level}보다 낮은 플레이어에게는 현상금을 걸 수 없습니다"
+				"trans": "${level}레벨 이하의 플레이어에게는 현상금을 걸 수 없습니다"
 			},
 			"cannotPlaceBountyOnSelf": {
 				"eng": "You cannot place bounty on yourself",
@@ -2612,7 +2612,7 @@
 		"maxCalibration": {
 			"description": {
 				"eng": "you can increase the max calibration capacity by upgrading the item using ${item}",
-				"trans": "${item}을(를) 사용하여 아이템을 업그레이드하면 최대 교정 용량을 늘릴 수 있습니다"
+				"trans": "${item}을(를) 사용하여 아이템을 업그레이드하면 교정 최대치를 늘릴 수 있습니다"
 			},
 			"title": {
 				"eng": "Max Calibration",
@@ -2621,7 +2621,7 @@
 		},
 		"noChance": {
 			"eng": "Success chance is zero",
-			"trans": "성공 확률은 0입니다"
+			"trans": "성공 확률이 0입니다"
 		},
 		"selectOptimizer": {
 			"eng": "Select optimizer",
@@ -2638,7 +2638,7 @@
 		"tip": {
 			"noOptimizer": {
 				"eng": "You can use a optimizer to improve your calibration chances.",
-				"trans": "교정 확률을 높이기 위해 옵티마이저를 사용할 수 있습니다."
+				"trans": "옵티마이저를 사용하여 교정 확률을 높일 수 있습니다."
 			}
 		}
 	},
@@ -2663,7 +2663,7 @@
 	"itemDestroyed": {
 		"des2": {
 			"eng": "You can repair this item at the ${repairNpc}",
-			"trans": "${repairNpc}에서 이 아이템을 수리할 수 있습니다"
+			"trans": "${repairNpc}에게서 이 아이템을 수리할 수 있습니다"
 		},
 		"repairButton": {
 			"eng": "Repair",
@@ -3026,7 +3026,7 @@
 		"itemUpgradeShard": {
 			"name": {
 				"eng": "Item Upgrade Shard",
-				"trans": "아이템 업그레이드 조각"
+				"trans": "아이템 업그레이드 샤드"
 			}
 		},
 		"lowerArmor": {
@@ -3268,7 +3268,7 @@
 			},
 			"name": {
 				"eng": "Calibration Stabilizer",
-				"trans": "교정 스테빌라이저"
+				"trans": "교정 안정 장치"
 			}
 		},
 		"clanMaintenanceResource": {
@@ -3334,19 +3334,19 @@
 		"epicLevelShard": {
 			"name": {
 				"eng": "Epic Level Shard",
-				"trans": "영웅의 레벨 샤드"
+				"trans": "영웅적 레벨 샤드"
 			}
 		},
 		"epicResetShard": {
 			"name": {
 				"eng": "Epic Reset Shard",
-				"trans": "영웅의 초기화 샤드"
+				"trans": "영웅적 초기화 샤드"
 			}
 		},
 		"epicUpgradeShard": {
 			"name": {
 				"eng": "Epic Upgrade Shard",
-				"trans": "영웅의 업그레이드 샤드"
+				"trans": "영웅적 업그레이드 샤드"
 			}
 		},
 		"equipmentCalibrator": {
@@ -3456,31 +3456,31 @@
 		"key1": {
 			"name": {
 				"eng": "Uncommon Container Key",
-				"trans": "희귀한 상자 열쇠"
+				"trans": "비범한 상자 열쇠"
 			}
 		},
 		"key2": {
 			"name": {
 				"eng": "Rare Container Key",
-				"trans": "희귀한 컨테이너 열쇠"
+				"trans": "희귀한 상자 열쇠"
 			}
 		},
 		"key3": {
 			"name": {
 				"eng": "Unique Container Key",
-				"trans": "독특한 컨테이너 키"
+				"trans": "유일한 상자 열쇠"
 			}
 		},
 		"keyFragment": {
 			"generalDescription": {
 				"eng": "Collect ${amount} of these to create a ${keyName} that can be used to unlock a ${containerName}.",
-				"trans": "${amount}개를 모아 ${keyName}을(를) 만들어 ${containerName}을(를) 열 수 있습니다."
+				"trans": "${amount}개를 모아 ${keyName}를 만들어 ${containerName}를 열 수 있습니다."
 			}
 		},
 		"keyFragment1": {
 			"name": {
 				"eng": "Uncommon Key Fragment",
-				"trans": "희귀한 열쇠 조각"
+				"trans": "비범한 열쇠 조각"
 			}
 		},
 		"keyFragment2": {
@@ -3492,7 +3492,7 @@
 		"keyFragment3": {
 			"name": {
 				"eng": "Unique Key Fragment",
-				"trans": "유니크 키 조각"
+				"trans": "유일한 열쇠 조각"
 			}
 		},
 		"levelLootBox1": {
@@ -3518,7 +3518,7 @@
 		"lootBox2": {
 			"description": {
 				"eng": "A uncommon container that contains random items.",
-				"trans": "랜덤 아이템이 들어있는 비범한 상자."
+				"trans": "무작위 아이템이 들어있는 비범한 상자."
 			},
 			"name": {
 				"eng": "Locked Uncommon Container",
@@ -3528,11 +3528,11 @@
 		"lootBox3": {
 			"description": {
 				"eng": "A rare container that contains random items.",
-				"trans": "랜덤 아이템이 들어있는 희귀한 컨테이너."
+				"trans": "무작위 아이템이 들어있는 희귀한 컨테이너."
 			},
 			"name": {
 				"eng": "Locked Rare Container",
-				"trans": "잠긴 희귀한 컨테이너"
+				"trans": "잠긴 희귀한 상자"
 			}
 		},
 		"lootDoorKey": {
@@ -3608,19 +3608,19 @@
 		"mythicLevelShard": {
 			"name": {
 				"eng": "Mythic Level Shard",
-				"trans": "신화 레벨 샤드"
+				"trans": "신화적 레벨 샤드"
 			}
 		},
 		"mythicResetShard": {
 			"name": {
 				"eng": "Mythic Reset Shard",
-				"trans": "신화 리셋 샤드"
+				"trans": "신화적 리셋 샤드"
 			}
 		},
 		"mythicUpgradeShard": {
 			"name": {
 				"eng": "Mythic Upgrade Shard",
-				"trans": "신화 업그레이드 조각"
+				"trans": "신화적 업그레이드 샤드"
 			}
 		},
 		"netcoin": {
@@ -3720,7 +3720,7 @@
 		"resetGeneral": {
 			"description": {
 				"eng": "Use to reset a ${tier} item with new random prefixes",
-				"trans": "${tier} 등급 아이템을 새로운 무작위 접두사로 재설정하는 데 사용합니다"
+				"trans": "${tier} 아이템을 새로운 무작위 접두사로 재설정하는 데 사용합니다"
 			}
 		},
 		"rewardCipher": {
@@ -3836,11 +3836,11 @@
 		"uniqueLootBox": {
 			"description": {
 				"eng": "A unique container that contains random items.",
-				"trans": "무작위 아이템을 담고 있는 독특한 용기."
+				"trans": "무작위 아이템이 들어있는 유일한 상자."
 			},
 			"name": {
 				"eng": "Locked Unique Container",
-				"trans": "잠긴 유니크 컨테이너"
+				"trans": "잠긴 유일한 상자"
 			}
 		},
 		"uniqueResetShard": {
@@ -3868,7 +3868,7 @@
 		"upgradeGeneral": {
 			"description": {
 				"eng": "Use to upgrade an ${fromTier} item to ${toTier}",
-				"trans": "${fromTier} 등급 아이템을 ${toTier} 등급으로 업그레이드하려면 사용하세요"
+				"trans": "${fromTier}아이템을 ${toTier}으로 업그레이드 하기 위해 사용합니다.
 			}
 		},
 		"upperArmor": {
@@ -5725,7 +5725,7 @@
 		},
 		"notEnoughUnitError1": {
 			"eng": "Minimum hit bounty is ${minNormal}",
-			"trans": "최소 히트 바운티는 ${minNormal}입니다"
+			"trans": "최소 현상금은 ${minNormal}입니다"
 		},
 		"placeHit": {
 			"eng": "Place hit",
@@ -6133,7 +6133,7 @@
 			},
 			"shareText": {
 				"eng": "hey! checkout this awesome text based MMORPG! enter my name \"${name}\" as referral when you create your character!",
-				"trans": "얘들아! 이 멋진 텍스트 기반 MMORPG를 확인해봐! 캐릭터를 만들 때 내 이름 \"${name}\"을(를) 추천인으로 입력해줘!"
+				"trans": "이 멋진 텍스트 기반 MMORPG 한번 봐봐! 캐릭터를 만들 때 내 이름 \"${name}\"을(를) 추천인으로 입력해줘!"
 			},
 			"title": {
 				"eng": "Invite your friends",
@@ -6673,7 +6673,7 @@
 			},
 			"notEnoughPsychosis": {
 				"eng": "You need at least ${psychosis} psychosis to engage in PvP",
-				"trans": "PvP에 참여하려면 사이버 싸이코가 ${psychosis} 이상이어야 합니다"
+				"trans": "PvP에 참여하려면 사이버 싸이코가 ${psychosis}필요합니다"
 			},
 			"notIdle": {
 				"eng": "You can't do this right now",
@@ -7552,7 +7552,7 @@
 		"mythic": {
 			"name": {
 				"eng": "Mythic",
-				"trans": "신화적인"
+				"trans": "신화"
 			}
 		},
 		"rare": {
@@ -8256,19 +8256,19 @@
 			},
 			"resetNonTierMismatch": {
 				"eng": "Can't reset a ${itemTier} item, ${shardName} can only be used with ${requiredTier} items",
-				"trans": "${itemTier} 등급 아이템을 초기화할 수 없습니다. ${shardName}은(는) ${requiredTier} 등급 아이템에만 사용할 수 있습니다"
+				"trans": "${itemTier}아이템을 초기화할 수 없습니다. ${shardName}은(는) ${requiredTier}아이템에만 사용할 수 있습니다"
 			},
 			"upgradeLevelTooLow": {
 				"eng": "Can't upgrade to a ${itemTier} item, ${shardName} can only be used with items that are at least level ${minLevel}",
-				"trans": "${itemTier} 등급 아이템으로 업그레이드할 수 없습니다. ${shardName}은(는) 최소 레벨이 ${minLevel}인 아이템과만 사용할 수 있습니다"
+				"trans": "${itemTier}아이템으로 업그레이드할 수 없습니다. ${shardName}은(는) 레벨${minLevel} 이상의 아이템에만 사용할 수 있습니다"
 			},
 			"upgradeLevelTooLowMythic": {
 				"eng": "${shardName} can only be used with items that are at least level ${minLevel}",
-				"trans": "${shardName}은(는) 최소 레벨 ${minLevel} 이상의 아이템과 함께만 사용할 수 있습니다"
+				"trans": "${shardName}은(는) 레벨${minLevel} 이상의 아이템에만 사용할 수 있습니다"
 			},
 			"upgradeNonTierMismatch": {
 				"eng": "Can't upgrade a ${itemTier} item, ${shardName} can only be used with ${requiredTier} items",
-				"trans": "${itemTier} 등급 아이템을 업그레이드할 수 없습니다. ${shardName}은(는) ${requiredTier} 등급 아이템에만 사용할 수 있습니다"
+				"trans": "${itemTier}아이템을 업그레이드할 수 없습니다. ${shardName}은(는) ${requiredTier}아이템에만 사용할 수 있습니다"
 			}
 		}
 	},
@@ -8378,19 +8378,19 @@
 		"calibrated10": {
 			"announcement": {
 				"eng": "${playerName} has calibrated ${item} to calibration level +10!",
-				"trans": "${playerName}님이 ${item}을(를) 교정 레벨 +10으로 조정했습니다!"
+				"trans": "${playerName}님이 ${item}을(를) +10으로 교정했습니다!"
 			}
 		},
 		"calibrated11": {
 			"announcement": {
 				"eng": "${playerName} has calibrated ${item} to calibration level +11!",
-				"trans": "${playerName}님이 ${item}을(를) 교정 레벨 +11로 조정했습니다!"
+				"trans": "${playerName}님이 ${item}을(를) +11로 교정했습니다!"
 			}
 		},
 		"calibrated12": {
 			"announcement": {
 				"eng": "${playerName} has calibrated ${item} to calibration level +12!",
-				"trans": "${playerName}님이 ${item}을(를) 교정 레벨 +12로 조정했습니다!"
+				"trans": "${playerName}님이 ${item}을(를) +12로 교정했습니다!"
 			}
 		},
 		"calibrated7": {
@@ -8438,13 +8438,13 @@
 		"upgradedEpic": {
 			"announcement": {
 				"eng": "${playerName} upgraded ${item} to ${tier}!",
-				"trans": "${playerName}님이 ${item}을(를) ${tier}로 업그레이드했습니다!"
+				"trans": "${playerName}님이 ${item}을(를) ${tier}으로 업그레이드했습니다!"
 			}
 		},
 		"upgradedMythic": {
 			"announcement": {
 				"eng": "${playerName} upgraded ${item} to ${tier}!",
-				"trans": "${playerName}님이 ${item}을(를) ${tier}로 업그레이드했습니다!"
+				"trans": "${playerName}님이 ${item}을(를) ${tier}으로 업그레이드했습니다!"
 			}
 		}
 	}
