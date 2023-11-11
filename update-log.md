@@ -8,6 +8,14 @@
 
 **If you find a exploit please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
+### 0.0.17
+-   gives **additional** chance for 5 star mercenary when you have tried to draw them many times but still unable to get them due to statistically unluckiness, this is to prevent such extreme rare case from happening ensuring even if you are extremely unlucky you will still get them eventually much easier and faster.
+
+    **Please note, the base probability stated in game is not changed, this update only adds additional chance for rare unlucky case❤️**
+-   Added auto select to mercenary page, allowing you to customize which tiers to auto select, so you can dismiss them easier and faster
+-   Added average price hint at market placing item page, so you can use it to help determine what price to sell your item at
+-   Fixed gang motto word count issue 
+
 ### 0.0.16
 
 -   Tweaks to UI to make it easier to know how to upgrade items
