@@ -15,6 +15,7 @@
 -   Added auto select to mercenary page, allowing you to customize which tiers to auto select, so you can dismiss them easier and faster
 -   Added average price hint at market placing item page, so you can use it to help determine what price to sell your item at
 -   Fixed gang motto word count issue 
+-   Fixed issue with identifier able to identify unlimited amount of prefixes at once, its suppose to identify one at a time.
 
 ### 0.0.16
 
