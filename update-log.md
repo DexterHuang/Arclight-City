@@ -10,7 +10,7 @@
 
 ### 0.0.18
 
--   Increased drop chance of things like `Cybernetic Enhancer` and other regular loots items in dungeons
+-   Boost drop chance of of bunch of items in stronghold chest drop including `Cybernetic Enhancer` and other regular loots items in dungeons as player feedback saying after added many new items into the drop table the essential items should still drop more often then other items.
 -   Server Optimization
 -   Leaderboard loading optimization
 
