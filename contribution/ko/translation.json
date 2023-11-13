@@ -2471,6 +2471,18 @@
 		}
 	},
 	"inventory": {
+		"discard": {
+			"modal": {
+				"description": {
+					"eng": "How many do you want to discard?",
+					"trans": "버릴 개수는 몇 개입니까?"
+				},
+				"title": {
+					"eng": "Discard item",
+					"trans": "아이템 버리기"
+				}
+			}
+		},
 		"error": {
 			"addItemStackFull": {
 				"eng": "Can't add anymore ${name} to inventory because it reached stack limit",
@@ -2509,29 +2521,17 @@
 			"discard": {
 				"modal": {
 					"confirm": {
-						"eng": "Scrap",
-						"trans": "폐기"
+						"eng": "Discard",
+						"trans": "버리기"
 					},
 					"description": {
-						"eng": "Are you sure you want to scrap these items?",
-						"trans": "이 아이템들을 정말 버리시겠습니까?"
+						"eng": "Are you sure you want to discard these items?\\nThey will be destroyed permanently.",
+						"trans": "이 아이템들을 버리시겠습니까?\\n영구적으로 파괴될 것입니다."
 					},
 					"title": {
-						"eng": "scrap items",
-						"trans": "아이템 폐기"
+						"eng": "discard items",
+						"trans": "아이템 버리기"
 					}
-				}
-			}
-		},
-		"scrap": {
-			"modal": {
-				"description": {
-					"eng": "How many do you want to scrap?",
-					"trans": "몇 개를 폐기하시겠습니까?"
-				},
-				"title": {
-					"eng": "Scrap item",
-					"trans": "아이템 폐기"
 				}
 			}
 		}
@@ -2651,9 +2651,9 @@
 			"eng": "destroyed",
 			"trans": "파괴됨"
 		},
-		"rarity": {
-			"eng": "${rarity} item",
-			"trans": "${rarity} 등급 아이템"
+		"notTradable": {
+			"eng": "Not tradable",
+			"trans": "거래 불가능"
 		},
 		"useTitle": {
 			"eng": "Use",
@@ -5966,8 +5966,8 @@
 		"multiSelect": {
 			"discard": {
 				"title": {
-					"eng": "Scrap",
-					"trans": "폐기"
+					"eng": "Discard",
+					"trans": "버리기"
 				}
 			}
 		},

@@ -2471,6 +2471,18 @@
 		}
 	},
 	"inventory": {
+		"discard": {
+			"modal": {
+				"description": {
+					"eng": "How many do you want to discard?",
+					"trans": "Mau buang berapa?"
+				},
+				"title": {
+					"eng": "Discard item",
+					"trans": "Buang item"
+				}
+			}
+		},
 		"error": {
 			"addItemStackFull": {
 				"eng": "Can't add anymore ${name} to inventory because it reached stack limit",
@@ -2509,29 +2521,17 @@
 			"discard": {
 				"modal": {
 					"confirm": {
-						"eng": "Scrap",
-						"trans": "Serpihan"
+						"eng": "Discard",
+						"trans": "Buang"
 					},
 					"description": {
-						"eng": "Are you sure you want to scrap these items?",
-						"trans": "Apakah Anda yakin ingin membuang barang-barang ini?"
+						"eng": "Are you sure you want to discard these items?\\nThey will be destroyed permanently.",
+						"trans": "Apakah kamu yakin ingin membuang item-item ini?\\nMereka akan dihancurkan secara permanen."
 					},
 					"title": {
-						"eng": "scrap items",
-						"trans": "Barang Rongsokan"
+						"eng": "discard items",
+						"trans": "buang barang"
 					}
-				}
-			}
-		},
-		"scrap": {
-			"modal": {
-				"description": {
-					"eng": "How many do you want to scrap?",
-					"trans": "Berapa banyak yang ingin kamu serpihkan?"
-				},
-				"title": {
-					"eng": "Scrap item",
-					"trans": "Barang serpihan"
 				}
 			}
 		}
@@ -2651,9 +2651,9 @@
 			"eng": "destroyed",
 			"trans": "hancur"
 		},
-		"rarity": {
-			"eng": "${rarity} item",
-			"trans": "Item ${rarity}"
+		"notTradable": {
+			"eng": "Not tradable",
+			"trans": "Tidak dapat diperdagangkan"
 		},
 		"useTitle": {
 			"eng": "Use",
@@ -5966,8 +5966,8 @@
 		"multiSelect": {
 			"discard": {
 				"title": {
-					"eng": "Scrap",
-					"trans": "Serpihan"
+					"eng": "Discard",
+					"trans": "Buang"
 				}
 			}
 		},

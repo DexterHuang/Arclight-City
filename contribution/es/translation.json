@@ -2471,6 +2471,18 @@
 		}
 	},
 	"inventory": {
+		"discard": {
+			"modal": {
+				"description": {
+					"eng": "How many do you want to discard?",
+					"trans": "¿Cuántos quieres descartar?"
+				},
+				"title": {
+					"eng": "Discard item",
+					"trans": "Descartar objeto"
+				}
+			}
+		},
 		"error": {
 			"addItemStackFull": {
 				"eng": "Can't add anymore ${name} to inventory because it reached stack limit",
@@ -2509,29 +2521,17 @@
 			"discard": {
 				"modal": {
 					"confirm": {
-						"eng": "Scrap",
-						"trans": "Chatarra"
+						"eng": "Discard",
+						"trans": "Descartar"
 					},
 					"description": {
-						"eng": "Are you sure you want to scrap these items?",
-						"trans": "¿Estás seguro de que quieres desechar estos artículos?"
+						"eng": "Are you sure you want to discard these items?\\nThey will be destroyed permanently.",
+						"trans": "¿Estás seguro de que quieres desechar estos objetos?\\nSerán destruidos permanentemente."
 					},
 					"title": {
-						"eng": "scrap items",
-						"trans": "Artículos de chatarra"
+						"eng": "discard items",
+						"trans": "descartar objetos"
 					}
-				}
-			}
-		},
-		"scrap": {
-			"modal": {
-				"description": {
-					"eng": "How many do you want to scrap?",
-					"trans": "¿Cuántos quieres desechar?"
-				},
-				"title": {
-					"eng": "Scrap item",
-					"trans": "Artículo de chatarra"
 				}
 			}
 		}
@@ -2651,9 +2651,9 @@
 			"eng": "destroyed",
 			"trans": "destruido"
 		},
-		"rarity": {
-			"eng": "${rarity} item",
-			"trans": "Objeto de ${rarity}"
+		"notTradable": {
+			"eng": "Not tradable",
+			"trans": "No intercambiable"
 		},
 		"useTitle": {
 			"eng": "Use",
@@ -5966,8 +5966,8 @@
 		"multiSelect": {
 			"discard": {
 				"title": {
-					"eng": "Scrap",
-					"trans": "Chatarra"
+					"eng": "Discard",
+					"trans": "Descartar"
 				}
 			}
 		},

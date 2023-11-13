@@ -2471,6 +2471,18 @@
 		}
 	},
 	"inventory": {
+		"discard": {
+			"modal": {
+				"description": {
+					"eng": "How many do you want to discard?",
+					"trans": "你想要丟棄幾個？"
+				},
+				"title": {
+					"eng": "Discard item",
+					"trans": "丟棄物品"
+				}
+			}
+		},
 		"error": {
 			"addItemStackFull": {
 				"eng": "Can't add anymore ${name} to inventory because it reached stack limit",
@@ -2509,29 +2521,17 @@
 			"discard": {
 				"modal": {
 					"confirm": {
-						"eng": "Scrap",
-						"trans": "報廢物品"
+						"eng": "Discard",
+						"trans": "丟棄"
 					},
 					"description": {
-						"eng": "Are you sure you want to scrap these items?",
-						"trans": "您確定要報廢這些物品嗎？"
+						"eng": "Are you sure you want to discard these items?\\nThey will be destroyed permanently.",
+						"trans": "你確定要丟棄這些物品嗎？\\n它們將會被永久摧毀。"
 					},
 					"title": {
-						"eng": "scrap items",
-						"trans": "報廢物品"
+						"eng": "discard items",
+						"trans": "丟棄物品"
 					}
-				}
-			}
-		},
-		"scrap": {
-			"modal": {
-				"description": {
-					"eng": "How many do you want to scrap?",
-					"trans": "您想報廢多少？"
-				},
-				"title": {
-					"eng": "Scrap item",
-					"trans": "報廢物品"
 				}
 			}
 		}
@@ -2651,9 +2651,9 @@
 			"eng": "destroyed",
 			"trans": "被摧毀的"
 		},
-		"rarity": {
-			"eng": "${rarity} item",
-			"trans": "${rarity}物品"
+		"notTradable": {
+			"eng": "Not tradable",
+			"trans": "不可交易"
 		},
 		"useTitle": {
 			"eng": "Use",
@@ -5966,8 +5966,8 @@
 		"multiSelect": {
 			"discard": {
 				"title": {
-					"eng": "Scrap",
-					"trans": "報廢"
+					"eng": "Discard",
+					"trans": "丟棄"
 				}
 			}
 		},

@@ -2471,6 +2471,18 @@
 		}
 	},
 	"inventory": {
+		"discard": {
+			"modal": {
+				"description": {
+					"eng": "How many do you want to discard?",
+					"trans": "何枚捨てますか？"
+				},
+				"title": {
+					"eng": "Discard item",
+					"trans": "アイテムを捨てる"
+				}
+			}
+		},
 		"error": {
 			"addItemStackFull": {
 				"eng": "Can't add anymore ${name} to inventory because it reached stack limit",
@@ -2509,29 +2521,17 @@
 			"discard": {
 				"modal": {
 					"confirm": {
-						"eng": "Scrap",
-						"trans": "スクラップ"
+						"eng": "Discard",
+						"trans": "捨てる"
 					},
 					"description": {
-						"eng": "Are you sure you want to scrap these items?",
-						"trans": "これらのアイテムを解体してもよろしいですか？"
+						"eng": "Are you sure you want to discard these items?\\nThey will be destroyed permanently.",
+						"trans": "これらのアイテムを破棄しますか？\\n永久に破壊されます。"
 					},
 					"title": {
-						"eng": "scrap items",
-						"trans": "アイテムを解体"
+						"eng": "discard items",
+						"trans": "アイテムを捨てる"
 					}
-				}
-			}
-		},
-		"scrap": {
-			"modal": {
-				"description": {
-					"eng": "How many do you want to scrap?",
-					"trans": "何個解体しますか？"
-				},
-				"title": {
-					"eng": "Scrap item",
-					"trans": "アイテムの解体"
 				}
 			}
 		}
@@ -2651,9 +2651,9 @@
 			"eng": "destroyed",
 			"trans": "破壊された"
 		},
-		"rarity": {
-			"eng": "${rarity} item",
-			"trans": "${rarity}アイテム"
+		"notTradable": {
+			"eng": "Not tradable",
+			"trans": "交換不可"
 		},
 		"useTitle": {
 			"eng": "Use",
@@ -5966,8 +5966,8 @@
 		"multiSelect": {
 			"discard": {
 				"title": {
-					"eng": "Scrap",
-					"trans": "スクラップ"
+					"eng": "Discard",
+					"trans": "捨てる"
 				}
 			}
 		},

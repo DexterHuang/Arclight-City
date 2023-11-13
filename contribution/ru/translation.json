@@ -2471,6 +2471,18 @@
 		}
 	},
 	"inventory": {
+		"discard": {
+			"modal": {
+				"description": {
+					"eng": "How many do you want to discard?",
+					"trans": "Сколько вы хотите сбросить?"
+				},
+				"title": {
+					"eng": "Discard item",
+					"trans": "Выбросить предмет"
+				}
+			}
+		},
 		"error": {
 			"addItemStackFull": {
 				"eng": "Can't add anymore ${name} to inventory because it reached stack limit",
@@ -2509,29 +2521,17 @@
 			"discard": {
 				"modal": {
 					"confirm": {
-						"eng": "Scrap",
-						"trans": "Металлолом"
+						"eng": "Discard",
+						"trans": "Отбросить"
 					},
 					"description": {
-						"eng": "Are you sure you want to scrap these items?",
-						"trans": "Вы уверены, что хотите выбросить эти предметы?"
+						"eng": "Are you sure you want to discard these items?\\nThey will be destroyed permanently.",
+						"trans": "Вы уверены, что хотите выбросить эти предметы?\\nОни будут уничтожены навсегда."
 					},
 					"title": {
-						"eng": "scrap items",
-						"trans": "Металлоломные предметы"
+						"eng": "discard items",
+						"trans": "выбросить предметы"
 					}
-				}
-			}
-		},
-		"scrap": {
-			"modal": {
-				"description": {
-					"eng": "How many do you want to scrap?",
-					"trans": "Сколько вы хотите отправить на переработку?"
-				},
-				"title": {
-					"eng": "Scrap item",
-					"trans": "Металлоломный предмет"
 				}
 			}
 		}
@@ -2651,9 +2651,9 @@
 			"eng": "destroyed",
 			"trans": "уничтожено"
 		},
-		"rarity": {
-			"eng": "${rarity} item",
-			"trans": "Предмет ${rarity}"
+		"notTradable": {
+			"eng": "Not tradable",
+			"trans": "Не подлежит обмену"
 		},
 		"useTitle": {
 			"eng": "Use",
@@ -5966,8 +5966,8 @@
 		"multiSelect": {
 			"discard": {
 				"title": {
-					"eng": "Scrap",
-					"trans": "Металлолом"
+					"eng": "Discard",
+					"trans": "Отбросить"
 				}
 			}
 		},
