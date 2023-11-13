@@ -8,6 +8,10 @@
 
 **If you find a exploit please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
+### 0.0.18
+
+-   Increased drop chance of things like `Cybernetic Enhancer` and other regular loots items in dungeons
+
 ### 0.0.17
 -   gives **additional** chance for 5 star mercenary when you have tried to draw them many times but still unable to get them due to statistically unluckiness, this is to prevent such extreme rare case from happening ensuring even if you are extremely unlucky you will still get them eventually much easier and faster.
 
