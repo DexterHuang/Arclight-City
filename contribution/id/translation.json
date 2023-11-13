@@ -3917,6 +3917,20 @@
 			"eng": "level up",
 			"trans": "Naik level"
 		},
+		"lowLevelUpgrade": {
+			"confirm": {
+				"eng": "Yes, I understand",
+				"trans": "Iya, saya mengerti"
+			},
+			"description": {
+				"eng": "It is not recommended to upgrade your item to uncommon before level ${level}, as upgrading it will make it harder to level the item up, requiring a ${levelItem1} instead of ${levelItem2}\\nFor lower level players, its recommended to use ${levelItem2} to increase item level first instead of upgrading tier first.\\nAre you sure you want to continue? ",
+				"trans": "Tidak disarankan untuk meningkatkan item Anda menjadi tidak biasa sebelum mencapai level ${level}, karena meningkatkannya akan membuatnya lebih sulit untuk meningkatkan level item, memerlukan ${levelItem1} daripada ${levelItem2}\\nUntuk pemain level rendah, disarankan untuk menggunakan ${levelItem2} untuk meningkatkan level item terlebih dahulu daripada meningkatkan tier terlebih dahulu.\\nApakah Anda yakin ingin melanjutkan?"
+			},
+			"title": {
+				"eng": "Are you sure?",
+				"trans": "Kamu yakin?"
+			}
+		},
 		"noItem": {
 			"des": {
 				"eng": "Click here to select an item",
@@ -4550,6 +4564,10 @@
 				"eng": "You do not have enough currency to place this bid",
 				"trans": "Anda tidak memiliki cukup uang untuk memasang taruhan ini"
 			}
+		},
+		"tip": {
+			"eng": "Each equipment can only be traded on the market ${amount} time, after that it will become not tradable.",
+			"trans": "Setiap peralatan hanya dapat diperdagangkan di pasar ${jumlah} kali, setelah itu tidak dapat diperdagangkan lagi."
 		}
 	},
 	"marketPutItemPage": {
@@ -4557,6 +4575,12 @@
 			"title": {
 				"eng": "Sell Quantity",
 				"trans": "Jual Jumlah"
+			}
+		},
+		"averagePrice": {
+			"title": {
+				"eng": "Average price for ${amount} ${itemType} on market is ${total}",
+				"trans": "Harga rata-rata untuk ${amount} ${itemType} di pasar adalah ${total}"
 			}
 		},
 		"buyout": {
@@ -4798,6 +4822,36 @@
 			"trans": "Lewati Animasi"
 		}
 	},
+	"mercenaryFilterModal": {
+		"common": {
+			"eng": "Common",
+			"trans": "Umum\n\nPlayer ${0} is ${1} has been killed during PVP\nPemain ${0} telah ${1} tewas selama PVP.\n\nWhat is equipment calibration?\nApa itu kalibrasi peralatan?\n\n"
+		},
+		"epic": {
+			"eng": "Epic",
+			"trans": "Epik"
+		},
+		"leveled": {
+			"eng": "Ignore Leveled Up Mercenaries",
+			"trans": "Abaikan Pasukan Mercenary yang Naik Level"
+		},
+		"mythic": {
+			"eng": "Mythic",
+			"trans": "Mitos"
+		},
+		"rare": {
+			"eng": "Rare",
+			"trans": "Langka"
+		},
+		"uncommon": {
+			"eng": "Uncommon",
+			"trans": "Jarang"
+		},
+		"unique": {
+			"eng": "Unique",
+			"trans": "Unik"
+		}
+	},
 	"mercenaryLevelDisplay": {
 		"levelUp": {
 			"eng": "Enhance",
@@ -4819,9 +4873,19 @@
 		},
 		"multiSelectOptions": {
 			"dismiss": {
+				"confirmTitle": {
+					"eng": "Dismiss ${count} mercenaries?",
+					"trans": "Menolak ${count} tentara bayaran?"
+				},
 				"title": {
 					"eng": "Dismiss",
 					"trans": "Tutup"
+				}
+			},
+			"selectUncommonBelow": {
+				"title": {
+					"eng": "Auto Select",
+					"trans": "Pilihan Otomatis"
 				}
 			}
 		},
@@ -4982,6 +5046,10 @@
 		"claimed": {
 			"eng": "Claimed",
 			"trans": "Diklaim"
+		},
+		"confirm": {
+			"eng": "Confirm",
+			"trans": "Konfirmasi"
 		},
 		"craft": {
 			"eng": "craft",
@@ -6099,9 +6167,9 @@
 		}
 	},
 	"premiumShopTopUpTab": {
-		"bonusAmount": {
-			"eng": "Bonus ${bonusRate}% [+${bonusAmount} N$]",
-			"trans": "Bonus ${bonusRate}% [+${bonusAmount} N$]",
+		"bonusAmount2": {
+			"eng": "+${bonusRate}% Bonus [+${bonusAmount} N$]",
+			"trans": "+${bonusRate}% Bonus [+${bonusAmount} N$]",
 			"vars": []
 		},
 		"equivalent": {
@@ -6111,6 +6179,10 @@
 		"firstPurchase": {
 			"eng": "First Top-up Double Value",
 			"trans": "Top-up Pertama Kali Nilai Ganda"
+		},
+		"mostEfficient": {
+			"eng": "Best Value",
+			"trans": "Nilai Terbaik"
 		}
 	},
 	"promo": {

@@ -3917,6 +3917,20 @@
 			"eng": "level up",
 			"trans": "レベルアップ"
 		},
+		"lowLevelUpgrade": {
+			"confirm": {
+				"eng": "Yes, I understand",
+				"trans": "はい、わかりました。"
+			},
+			"description": {
+				"eng": "It is not recommended to upgrade your item to uncommon before level ${level}, as upgrading it will make it harder to level the item up, requiring a ${levelItem1} instead of ${levelItem2}\\nFor lower level players, its recommended to use ${levelItem2} to increase item level first instead of upgrading tier first.\\nAre you sure you want to continue? ",
+				"trans": "レベル${level}に達する前に、アイテムをアンコモンにアップグレードすることはお勧めしません。アップグレードすると、アイテムをレベルアップするのがより難しくなり、${levelItem2}ではなく${levelItem1}が必要になります。\\n低レベルのプレイヤーの場合、アイテムレベルを上げるためには、まず${levelItem2}を使用することをお勧めします。\\n続けますか？"
+			},
+			"title": {
+				"eng": "Are you sure?",
+				"trans": "確かに？"
+			}
+		},
 		"noItem": {
 			"des": {
 				"eng": "Click here to select an item",
@@ -4550,6 +4564,10 @@
 				"eng": "You do not have enough currency to place this bid",
 				"trans": "この入札をするには十分な通貨がありません。"
 			}
+		},
+		"tip": {
+			"eng": "Each equipment can only be traded on the market ${amount} time, after that it will become not tradable.",
+			"trans": "各装備は市場で${amount}回しか取引できません。その後、取引不可になります。"
 		}
 	},
 	"marketPutItemPage": {
@@ -4557,6 +4575,12 @@
 			"title": {
 				"eng": "Sell Quantity",
 				"trans": "販売数量"
+			}
+		},
+		"averagePrice": {
+			"title": {
+				"eng": "Average price for ${amount} ${itemType} on market is ${total}",
+				"trans": "市場での${itemType}の平均価格は${amount}で${total}です。"
 			}
 		},
 		"buyout": {
@@ -4798,6 +4822,36 @@
 			"trans": "アニメーションをスキップする"
 		}
 	},
+	"mercenaryFilterModal": {
+		"common": {
+			"eng": "Common",
+			"trans": "一般的な"
+		},
+		"epic": {
+			"eng": "Epic",
+			"trans": "エピック"
+		},
+		"leveled": {
+			"eng": "Ignore Leveled Up Mercenaries",
+			"trans": "レベルアップした傭兵を無視する"
+		},
+		"mythic": {
+			"eng": "Mythic",
+			"trans": "神話的な"
+		},
+		"rare": {
+			"eng": "Rare",
+			"trans": "レア (Rea)"
+		},
+		"uncommon": {
+			"eng": "Uncommon",
+			"trans": "珍しい"
+		},
+		"unique": {
+			"eng": "Unique",
+			"trans": "ユニーク"
+		}
+	},
 	"mercenaryLevelDisplay": {
 		"levelUp": {
 			"eng": "Enhance",
@@ -4819,9 +4873,19 @@
 		},
 		"multiSelectOptions": {
 			"dismiss": {
+				"confirmTitle": {
+					"eng": "Dismiss ${count} mercenaries?",
+					"trans": "${count}人の傭兵を解雇しますか？"
+				},
 				"title": {
 					"eng": "Dismiss",
 					"trans": "解散する"
+				}
+			},
+			"selectUncommonBelow": {
+				"title": {
+					"eng": "Auto Select",
+					"trans": "オートセレクト"
 				}
 			}
 		},
@@ -4982,6 +5046,10 @@
 		"claimed": {
 			"eng": "Claimed",
 			"trans": "受け取り済み"
+		},
+		"confirm": {
+			"eng": "Confirm",
+			"trans": "確認する"
 		},
 		"craft": {
 			"eng": "craft",
@@ -6099,9 +6167,9 @@
 		}
 	},
 	"premiumShopTopUpTab": {
-		"bonusAmount": {
-			"eng": "Bonus ${bonusRate}% [+${bonusAmount} N$]",
-			"trans": "ボーナス ${bonusRate}% [+${bonusAmount} N$]",
+		"bonusAmount2": {
+			"eng": "+${bonusRate}% Bonus [+${bonusAmount} N$]",
+			"trans": "+${bonusRate}% ボーナス [+${bonusAmount} N$]",
 			"vars": []
 		},
 		"equivalent": {
@@ -6111,6 +6179,10 @@
 		"firstPurchase": {
 			"eng": "First Top-up Double Value",
 			"trans": "初回チャージは倍の価値があります"
+		},
+		"mostEfficient": {
+			"eng": "Best Value",
+			"trans": "最高の価値"
 		}
 	},
 	"promo": {

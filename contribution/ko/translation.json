@@ -3917,6 +3917,20 @@
 			"eng": "level up",
 			"trans": "레벨 업"
 		},
+		"lowLevelUpgrade": {
+			"confirm": {
+				"eng": "Yes, I understand",
+				"trans": "네, 이해했습니다"
+			},
+			"description": {
+				"eng": "It is not recommended to upgrade your item to uncommon before level ${level}, as upgrading it will make it harder to level the item up, requiring a ${levelItem1} instead of ${levelItem2}\\nFor lower level players, its recommended to use ${levelItem2} to increase item level first instead of upgrading tier first.\\nAre you sure you want to continue? ",
+				"trans": "레벨 ${level} 이전에 아이템을 희귀 등급으로 업그레이드하는 것은 권장되지 않습니다. 업그레이드하면 아이템을 레벨업하기가 더 어려워지며, ${levelItem2} 대신 ${levelItem1}이(가) 필요합니다.\\n낮은 레벨 플레이어의 경우, 등급을 먼저 업그레이드하는 대신 아이템 레벨을 먼저 올리기 위해 ${levelItem2}을(를) 사용하는 것이 좋습니다.\\n계속하시겠습니까?"
+			},
+			"title": {
+				"eng": "Are you sure?",
+				"trans": "확실해?"
+			}
+		},
 		"noItem": {
 			"des": {
 				"eng": "Click here to select an item",
@@ -4550,6 +4564,10 @@
 				"eng": "You do not have enough currency to place this bid",
 				"trans": "이 입찰을 할 만큼 화폐가 충분하지 않습니다"
 			}
+		},
+		"tip": {
+			"eng": "Each equipment can only be traded on the market ${amount} time, after that it will become not tradable.",
+			"trans": "각 장비는 시장에서 ${amount}번만 거래할 수 있으며, 그 이후에는 거래할 수 없게 됩니다."
 		}
 	},
 	"marketPutItemPage": {
@@ -4557,6 +4575,12 @@
 			"title": {
 				"eng": "Sell Quantity",
 				"trans": "판매 수량"
+			}
+		},
+		"averagePrice": {
+			"title": {
+				"eng": "Average price for ${amount} ${itemType} on market is ${total}",
+				"trans": "시장에서 ${amount} ${itemType}의 평균 가격은 ${total}입니다"
 			}
 		},
 		"buyout": {
@@ -4798,6 +4822,36 @@
 			"trans": "애니메이션 건너뛰기"
 		}
 	},
+	"mercenaryFilterModal": {
+		"common": {
+			"eng": "Common",
+			"trans": "일반적인"
+		},
+		"epic": {
+			"eng": "Epic",
+			"trans": "에픽"
+		},
+		"leveled": {
+			"eng": "Ignore Leveled Up Mercenaries",
+			"trans": "레벨업한 용병들은 무시하세요"
+		},
+		"mythic": {
+			"eng": "Mythic",
+			"trans": "신화적인"
+		},
+		"rare": {
+			"eng": "Rare",
+			"trans": "희귀한"
+		},
+		"uncommon": {
+			"eng": "Uncommon",
+			"trans": "희귀한"
+		},
+		"unique": {
+			"eng": "Unique",
+			"trans": "독특한"
+		}
+	},
 	"mercenaryLevelDisplay": {
 		"levelUp": {
 			"eng": "Enhance",
@@ -4819,9 +4873,19 @@
 		},
 		"multiSelectOptions": {
 			"dismiss": {
+				"confirmTitle": {
+					"eng": "Dismiss ${count} mercenaries?",
+					"trans": "용병 ${count}명을 해고하시겠습니까?"
+				},
 				"title": {
 					"eng": "Dismiss",
 					"trans": "해고"
+				}
+			},
+			"selectUncommonBelow": {
+				"title": {
+					"eng": "Auto Select",
+					"trans": "자동 선택"
 				}
 			}
 		},
@@ -4982,6 +5046,10 @@
 		"claimed": {
 			"eng": "Claimed",
 			"trans": "수령함"
+		},
+		"confirm": {
+			"eng": "Confirm",
+			"trans": "확인"
 		},
 		"craft": {
 			"eng": "craft",
@@ -6099,9 +6167,9 @@
 		}
 	},
 	"premiumShopTopUpTab": {
-		"bonusAmount": {
-			"eng": "Bonus ${bonusRate}% [+${bonusAmount} N$]",
-			"trans": "보너스 ${bonusRate}% [+${bonusAmount} N$]",
+		"bonusAmount2": {
+			"eng": "+${bonusRate}% Bonus [+${bonusAmount} N$]",
+			"trans": "+${bonusRate}% 보너스 [+${bonusAmount} N$]",
 			"vars": []
 		},
 		"equivalent": {
@@ -6111,6 +6179,10 @@
 		"firstPurchase": {
 			"eng": "First Top-up Double Value",
 			"trans": "첫 충전 시 두 배"
+		},
+		"mostEfficient": {
+			"eng": "Best Value",
+			"trans": "최고의 가치"
 		}
 	},
 	"promo": {

@@ -3917,6 +3917,20 @@
 			"eng": "level up",
 			"trans": "Subir de nivel"
 		},
+		"lowLevelUpgrade": {
+			"confirm": {
+				"eng": "Yes, I understand",
+				"trans": "Sí, entiendo"
+			},
+			"description": {
+				"eng": "It is not recommended to upgrade your item to uncommon before level ${level}, as upgrading it will make it harder to level the item up, requiring a ${levelItem1} instead of ${levelItem2}\\nFor lower level players, its recommended to use ${levelItem2} to increase item level first instead of upgrading tier first.\\nAre you sure you want to continue? ",
+				"trans": "No se recomienda mejorar tu objeto a poco común antes del nivel ${level}, ya que hacerlo dificultará subir de nivel el objeto, requiriendo un ${levelItem1} en lugar de ${levelItem2}\\nPara jugadores de niveles más bajos, se recomienda utilizar ${levelItem2} para aumentar el nivel del objeto primero en lugar de mejorar el nivel primero.\\n¿Estás seguro/a de que quieres continuar?"
+			},
+			"title": {
+				"eng": "Are you sure?",
+				"trans": "¿Estás seguro/a?"
+			}
+		},
 		"noItem": {
 			"des": {
 				"eng": "Click here to select an item",
@@ -4550,6 +4564,10 @@
 				"eng": "You do not have enough currency to place this bid",
 				"trans": "No tienes suficiente moneda para realizar esta oferta"
 			}
+		},
+		"tip": {
+			"eng": "Each equipment can only be traded on the market ${amount} time, after that it will become not tradable.",
+			"trans": "Cada equipo solo puede ser intercambiado en el mercado ${amount} veces, después de eso no se podrá intercambiar."
 		}
 	},
 	"marketPutItemPage": {
@@ -4557,6 +4575,12 @@
 			"title": {
 				"eng": "Sell Quantity",
 				"trans": "Cantidad de venta"
+			}
+		},
+		"averagePrice": {
+			"title": {
+				"eng": "Average price for ${amount} ${itemType} on market is ${total}",
+				"trans": "El precio promedio de ${amount} ${itemType} en el mercado es ${total}"
 			}
 		},
 		"buyout": {
@@ -4798,6 +4822,36 @@
 			"trans": "Saltar Animación"
 		}
 	},
+	"mercenaryFilterModal": {
+		"common": {
+			"eng": "Common",
+			"trans": "Común"
+		},
+		"epic": {
+			"eng": "Epic",
+			"trans": "Épico"
+		},
+		"leveled": {
+			"eng": "Ignore Leveled Up Mercenaries",
+			"trans": "Ignorar Mercenarios Nivelados Mejorados"
+		},
+		"mythic": {
+			"eng": "Mythic",
+			"trans": "Mítico"
+		},
+		"rare": {
+			"eng": "Rare",
+			"trans": "Raro"
+		},
+		"uncommon": {
+			"eng": "Uncommon",
+			"trans": "Poco común"
+		},
+		"unique": {
+			"eng": "Unique",
+			"trans": "Único"
+		}
+	},
 	"mercenaryLevelDisplay": {
 		"levelUp": {
 			"eng": "Enhance",
@@ -4819,9 +4873,19 @@
 		},
 		"multiSelectOptions": {
 			"dismiss": {
+				"confirmTitle": {
+					"eng": "Dismiss ${count} mercenaries?",
+					"trans": "¿Descartar ${count} mercenarios?"
+				},
 				"title": {
 					"eng": "Dismiss",
 					"trans": "Descartar"
+				}
+			},
+			"selectUncommonBelow": {
+				"title": {
+					"eng": "Auto Select",
+					"trans": "Selección Automática"
 				}
 			}
 		},
@@ -4982,6 +5046,10 @@
 		"claimed": {
 			"eng": "Claimed",
 			"trans": "Reclamado"
+		},
+		"confirm": {
+			"eng": "Confirm",
+			"trans": "Confirmar"
 		},
 		"craft": {
 			"eng": "craft",
@@ -6099,9 +6167,9 @@
 		}
 	},
 	"premiumShopTopUpTab": {
-		"bonusAmount": {
-			"eng": "Bonus ${bonusRate}% [+${bonusAmount} N$]",
-			"trans": "Bono ${bonusRate}% [+${bonusAmount} N$]",
+		"bonusAmount2": {
+			"eng": "+${bonusRate}% Bonus [+${bonusAmount} N$]",
+			"trans": "+${bonusRate}% de bonificación [+${bonusAmount} N$]",
 			"vars": []
 		},
 		"equivalent": {
@@ -6111,6 +6179,10 @@
 		"firstPurchase": {
 			"eng": "First Top-up Double Value",
 			"trans": "¡Duplica el valor de tu primera recarga!"
+		},
+		"mostEfficient": {
+			"eng": "Best Value",
+			"trans": "Mejor Valor"
 		}
 	},
 	"promo": {

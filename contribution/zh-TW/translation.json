@@ -3917,6 +3917,20 @@
 			"eng": "level up",
 			"trans": "升級"
 		},
+		"lowLevelUpgrade": {
+			"confirm": {
+				"eng": "Yes, I understand",
+				"trans": "是的，我明白了。"
+			},
+			"description": {
+				"eng": "It is not recommended to upgrade your item to uncommon before level ${level}, as upgrading it will make it harder to level the item up, requiring a ${levelItem1} instead of ${levelItem2}\\nFor lower level players, its recommended to use ${levelItem2} to increase item level first instead of upgrading tier first.\\nAre you sure you want to continue? ",
+				"trans": "在達到${level}級之前，不建議將您的物品升級至非凡級別，因為升級會使物品增加等級更加困難，需要${levelItem1}而不是${levelItem2}。\\n對於低等級玩家，建議先使用${levelItem2}來提升物品等級，而不是先升級階級。\\n您確定要繼續嗎？"
+			},
+			"title": {
+				"eng": "Are you sure?",
+				"trans": "你確定嗎？"
+			}
+		},
 		"noItem": {
 			"des": {
 				"eng": "Click here to select an item",
@@ -4550,6 +4564,10 @@
 				"eng": "You do not have enough currency to place this bid",
 				"trans": "您的貨幣不足以進行此競標"
 			}
+		},
+		"tip": {
+			"eng": "Each equipment can only be traded on the market ${amount} time, after that it will become not tradable.",
+			"trans": "每件裝備只能在市場上交易${amount}次，之後將無法交易。"
 		}
 	},
 	"marketPutItemPage": {
@@ -4557,6 +4575,12 @@
 			"title": {
 				"eng": "Sell Quantity",
 				"trans": "出售數量"
+			}
+		},
+		"averagePrice": {
+			"title": {
+				"eng": "Average price for ${amount} ${itemType} on market is ${total}",
+				"trans": "市場上${amount}個${itemType}的平均價格為${total}"
 			}
 		},
 		"buyout": {
@@ -4798,6 +4822,36 @@
 			"trans": "跳過動畫"
 		}
 	},
+	"mercenaryFilterModal": {
+		"common": {
+			"eng": "Common",
+			"trans": "常見的\n\n"
+		},
+		"epic": {
+			"eng": "Epic",
+			"trans": "史詩級"
+		},
+		"leveled": {
+			"eng": "Ignore Leveled Up Mercenaries",
+			"trans": "忽略升級的傭兵"
+		},
+		"mythic": {
+			"eng": "Mythic",
+			"trans": "神話\n\n"
+		},
+		"rare": {
+			"eng": "Rare",
+			"trans": "稀有的"
+		},
+		"uncommon": {
+			"eng": "Uncommon",
+			"trans": "罕見的\n\n"
+		},
+		"unique": {
+			"eng": "Unique",
+			"trans": "獨特的"
+		}
+	},
 	"mercenaryLevelDisplay": {
 		"levelUp": {
 			"eng": "Enhance",
@@ -4819,9 +4873,19 @@
 		},
 		"multiSelectOptions": {
 			"dismiss": {
+				"confirmTitle": {
+					"eng": "Dismiss ${count} mercenaries?",
+					"trans": "是否解雇${count}名傭兵？"
+				},
 				"title": {
 					"eng": "Dismiss",
 					"trans": "解僱"
+				}
+			},
+			"selectUncommonBelow": {
+				"title": {
+					"eng": "Auto Select",
+					"trans": "自動選擇"
 				}
 			}
 		},
@@ -4982,6 +5046,10 @@
 		"claimed": {
 			"eng": "Claimed",
 			"trans": "已領取"
+		},
+		"confirm": {
+			"eng": "Confirm",
+			"trans": "確認\n\n"
 		},
 		"craft": {
 			"eng": "craft",
@@ -6099,9 +6167,9 @@
 		}
 	},
 	"premiumShopTopUpTab": {
-		"bonusAmount": {
-			"eng": "Bonus ${bonusRate}% [+${bonusAmount} N$]",
-			"trans": "額外 ${bonusRate}% 獎金 [+${bonusAmount} N$]",
+		"bonusAmount2": {
+			"eng": "+${bonusRate}% Bonus [+${bonusAmount} N$]",
+			"trans": "+${bonusRate}% 獎勵 [+${bonusAmount} N$]",
 			"vars": []
 		},
 		"equivalent": {
@@ -6111,6 +6179,10 @@
 		"firstPurchase": {
 			"eng": "First Top-up Double Value",
 			"trans": "首儲雙倍!"
+		},
+		"mostEfficient": {
+			"eng": "Best Value",
+			"trans": "最超值"
 		}
 	},
 	"promo": {
