@@ -22,6 +22,7 @@
 -   Added average price hint at market placing item page, so you can use it to help determine what price to sell your item at
 -   Fixed gang motto word count issue 
 -   Fixed issue with identifier able to identify unlimited amount of prefixes at once, its suppose to identify one at a time.
+-   Mythic equipments cannot be traded on black market
 
 ### 0.0.16
 
@@ -36,7 +37,7 @@
 
 -   Added `Common Container`, `Uncommon Locked Container`, `Rare Locked Container` and `Unique Locked Container`, each of the locked containers requires a respective container key to be unlocked, you can craft a container key with `Container Key Fragments`, all the keys and containers can only be obtained from strongholds currently.
 -   New item tier `Mythic` has been added, it is higher then epic tier, Mythic tier is much stronger. you can only upgrade to this tier on item that is 60+ levels, additionally this tier allows you to calibrate the item up to +12, which is 2 more then epic tier with much higher stats.
-the level, upgrades and reset shards cannot be traded, but the equipment itself can be traded.
+the level, upgrades, reset shards and item cannot be traded.
 the only way to obtain the shards for this tier is by unlocking `Unique Locked Containers`
 -   Added `Calibration Stabilizer`, use this item during calibration can increase the success chance by 1%, this will be required to calibrate items to +12 as +11 to +12 has base chance of 0%, system will prevent you from attempting to calibrate when there is zero chance of success.
 -   Added auto calibration & repair functionality, you can use that to automatically calibrate and repair the item until calibration success without doing manually and much faster.
