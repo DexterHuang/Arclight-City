@@ -8,6 +8,13 @@
 
 **If you find a exploit please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
+### 0.0.19
+
+-   Fixed issue with NPC not showing correctly
+-   Fixed issue where when you are not in the combat with boss, you will not receive "dungeon cleared" notification when your team mate cleared the dungeon
+-   Added clearer instruction on travel page for how to get level rewards
+-   Swapped position for attack button in hit list to make it consistent with wanted list
+
 ### 0.0.18
 
 -   Boost drop chance of of bunch of items in stronghold chest drop including `Cybernetic Enhancer` and other regular loots items in dungeons as player feedback saying after added many new items into the drop table the essential items should still drop more often then other items.
