@@ -1,0 +1,8581 @@
+{
+	"CrewTip": {
+		"tip1": {
+			"eng": "Looks like one or more of your mercenary is low level, you should level them up to match your level using ${item1} and ${item2}",
+			"trans": "看起来你的佣兵中有一个或多个等级较低，你应该使用${item1}和${item2}来提升他们的等级，以达到与你相同的等级。"
+		}
+	},
+	"MercenaryDrawType": {
+		"ELITE": {
+			"description": {
+				"eng": "More experienced pro mercs hang out here",
+				"trans": "更有经验的职业佣兵聚集在这里"
+			},
+			"title": {
+				"eng": "Inner tables",
+				"trans": "内部表格"
+			}
+		},
+		"NORMAL": {
+			"description": {
+				"eng": "Usually amateur mercs hang out here",
+				"trans": "通常业馀佣兵会在这里聚集"
+			},
+			"title": {
+				"eng": "Bar table",
+				"trans": "酒吧桌"
+			}
+		},
+		"RARE": {
+			"description": {
+				"eng": "Professional mercs likes discuss about their gig here",
+				"trans": "职业佣兵喜欢在这里讨论他们的任务。"
+			},
+			"title": {
+				"eng": "Sofa tables",
+				"trans": "沙发桌"
+			}
+		}
+	},
+	"ability": {
+		"attack": {
+			"description": {
+				"eng": "Attacks the enemy for ${amount} health points",
+				"trans": "对敌人造成${amount}生命点数的攻击"
+			},
+			"triggered": {
+				"eng": "${playerName} Attacked for ${amount} damage",
+				"trans": "${playerName}造成${amount}伤害"
+			}
+		},
+		"attack_group": {
+			"description": {
+				"eng": "Attacks the enemy for ${amount}",
+				"trans": "对敌人造成${amount}点伤害"
+			}
+		},
+		"burn": {
+			"description": {
+				"eng": "Burns targeted enemy for ${amount} damage for ${turns} turns",
+				"trans": "对目标敌人造成${amount}点伤害，持续${turns}回合"
+			},
+			"triggered": {
+				"eng": "${merc} burns ${enemy}, ${enemy} received ${damage} damage.",
+				"trans": "${merc}燃烧了${enemy}，${enemy}受到了${damage}的伤害。"
+			}
+		},
+		"burnGroup": {
+			"description": {
+				"eng": "Burns all enemies for ${amount} damage for ${turns} turns",
+				"trans": "对所有敌人造成${amount}点伤害，持续${turns}回合"
+			},
+			"triggered": {
+				"eng": "${merc} burns all enemies, dealt ${damage} damage each",
+				"trans": "${merc}燃烧所有敌人，每个敌人受到${damage}的伤害"
+			}
+		},
+		"heal": {
+			"description": {
+				"eng": "Heals your character for ${amount} health point",
+				"trans": "治疗你的角色${amount}生命值"
+			},
+			"triggered": {
+				"eng": "${merc} Healed ${playerName} for ${amount} health",
+				"trans": "${merc}为${playerName}恢复了${amount}点生命值"
+			}
+		},
+		"healGroup": {
+			"description": {
+				"eng": "Heals your team for ${amount} health",
+				"trans": "治疗您的团队${amount}点生命值"
+			},
+			"triggered": {
+				"eng": "${merc} healed the team for ${amount} health",
+				"trans": "${merc}为团队恢复了${amount}点生命值"
+			}
+		},
+		"poison": {
+			"description": {
+				"eng": "Poisons the enemy for ${amount} for ${turn} turns",
+				"trans": "对敌人施加毒素，持续${turn}回合，每回合造成${amount}伤害"
+			},
+			"triggered": {
+				"eng": "${merc} poisoned ${enemy}, ${enemy} received ${damage} damage.",
+				"trans": "${merc}毒害了${enemy}，${enemy}受到了${damage}的伤害。"
+			}
+		},
+		"poisonGroup": {
+			"description": {
+				"eng": "Poisons all enemies for ${amount} for ${turns} turns",
+				"trans": "对所有敌人施加${amount}的毒素，持续${turns}回合"
+			},
+			"triggered": {
+				"eng": "${merc} poisoned all enemies, dealt ${damage} damage each.",
+				"trans": "${merc} 毒害了所有敌人，${enemy} 受到了 ${damage} 点伤害。"
+			}
+		},
+		"shield": {
+			"description": {
+				"eng": "Recharge your character's shield for ${amount}",
+				"trans": "为您的角色充能${amount}的护盾"
+			},
+			"triggered": {
+				"eng": "${merc} shielded ${playerName} for ${amount} health",
+				"trans": "${merc}为${playerName}提供了${amount}点生命护盾"
+			}
+		},
+		"shieldGroup": {
+			"description": {
+				"eng": "Shields your team for ${amount} health",
+				"trans": "为您的队伍护盾增加${amount}生命值"
+			},
+			"triggered": {
+				"eng": "${merc} shields the team for ${amount}",
+				"trans": "${merc}为队伍提供${amount}的护盾"
+			}
+		}
+	},
+	"abilityTag": {
+		"damageOverTime": {
+			"eng": "Damage Over Time",
+			"trans": "伤害随时间推移"
+		},
+		"damageOverTimeDescription": {
+			"eng": "This ability will deal damage over time, this kind of ability usually has less damage than one-strike abilities, however, it deals more damage in total over time.",
+			"trans": "这个能力会随着时间造成伤害，这种能力通常伤害比一次性能力低，但是总体而言随着时间会造成更多伤害。"
+		},
+		"groupTargetAlly": {
+			"eng": "Group Target",
+			"trans": "团队目标"
+		},
+		"groupTargetAllyDescription": {
+			"eng": "This ability is multi-target and will target all alive allies, this kind of ability is usually weaker than single target abilities however, it would be more effective against multiple allies.",
+			"trans": "这个能力可以对多个目标使用，并会针对所有存活的盟友，这种能力通常比单一目标的能力弱，但对多个盟友来说更有效。"
+		},
+		"groupTargetEnemy": {
+			"eng": "Group Target",
+			"trans": "团队目标"
+		},
+		"groupTargetEnemyDescription": {
+			"eng": "This ability is multi-target and will target all alive enemies, this kind of ability is usually weaker than single target abilities however, it would be more effective against multiple enemies.",
+			"trans": "这个能力可以对多个目标造成伤害，通常比单一目标能力较弱，但对付多个敌人时会更有效。"
+		},
+		"singleTargetAlly": {
+			"eng": "Single Target",
+			"trans": "单一目标"
+		},
+		"singleTargetAllyDescription": {
+			"eng": "This ability is single target and will target yourself but not your allies.",
+			"trans": "这个能力只能针对单一目标，并且会以自己为目标，而不是盟友。"
+		},
+		"singleTargetEnemy": {
+			"eng": "Single Target",
+			"trans": "单一目标"
+		},
+		"singleTargetEnemyDescription": {
+			"eng": "This ability is single target and will target one enemy, this kind of ability is usually stronger than multi-target abilities however, it would be less effective against multiple enemies.",
+			"trans": "这个能力是单一目标的，会对一个敌人使用，这种能力通常比多目标能力更强大，但对抗多个敌人时效果会较弱。"
+		}
+	},
+	"apartment": {
+		"apartment0": {
+			"displayName": {
+				"eng": "Slum Apartment",
+				"trans": "贫民窟蚁居"
+			}
+		},
+		"apartment1": {
+			"displayName": {
+				"eng": "Low-end Apartment",
+				"trans": "廉价雅房"
+			}
+		},
+		"apartment2": {
+			"displayName": {
+				"eng": "Budget Studio",
+				"trans": "标准套房"
+			}
+		},
+		"apartment3": {
+			"displayName": {
+				"eng": "Downtown Apartment",
+				"trans": "市中心公寓"
+			}
+		},
+		"enter": {
+			"blocked": {
+				"eng": "This apartment cannot entered at this moment.",
+				"trans": "此时无法进入该公寓。"
+			}
+		},
+		"error": {
+			"enterNotIdle": {
+				"eng": "You can only enter an apartment when you are idle",
+				"trans": "只有在闲置时才能进入公寓。"
+			}
+		},
+		"invite": {
+			"blocked": {
+				"eng": "This player cannot be invited at this moment.",
+				"trans": "此玩家目前无法被邀请。"
+			}
+		},
+		"kick": {
+			"eng": "${kicker} has removed you from apartment",
+			"trans": "${kicker}已将您从公寓中移除"
+		},
+		"noApartment": {
+			"displayName": {
+				"eng": "No Apartment",
+				"trans": "没有公寓"
+			}
+		},
+		"players": {
+			"eng": "players",
+			"trans": "玩家"
+		},
+		"purchase": {
+			"notEnoughMoney": {
+				"eng": "You do not have enough money to rent this apartment.",
+				"trans": "您没有足够的资金来租这间公寓。"
+			},
+			"success": {
+				"eng": "You have started the apartment rental.",
+				"trans": "您已开始租用公寓。"
+			}
+		},
+		"rental": {
+			"paid": {
+				"title": {
+					"eng": "Apartment rental fee ${amount} has been deducted from your account",
+					"trans": "您的帐户已扣除公寓租金费用 ${amount}"
+				}
+			}
+		}
+	},
+	"apartmentPage": {
+		"kitchenButton": {
+			"title": {
+				"eng": "kitchen",
+				"trans": "厨房"
+			}
+		},
+		"nextRental": {
+			"eng": "Next rental date: ${date}",
+			"trans": "下一次租借日期：${date}"
+		},
+		"noApartment": {
+			"description": {
+				"eng": "view available apartments online",
+				"trans": "线上查看可用公寓"
+			},
+			"title": {
+				"eng": "No apartment",
+				"trans": "没有公寓"
+			}
+		},
+		"noApartmentButton": {
+			"description": {
+				"eng": "View available apartments online",
+				"trans": "线上查看可用公寓"
+			}
+		},
+		"playerModal": {
+			"details": {
+				"eng": "details",
+				"trans": "详细资料"
+			},
+			"kick": {
+				"eng": "kick from apartment",
+				"trans": "从公寓踢出"
+			}
+		},
+		"purchase": {
+			"eng": "view apartments",
+			"trans": "查看公寓"
+		},
+		"unclaimedDeliveries": {
+			"title": {
+				"eng": "Unclaimed deliveries",
+				"trans": "未领取的包裹"
+			}
+		},
+		"vaultButton": {
+			"title": {
+				"eng": "Vault",
+				"trans": "保险箱"
+			}
+		}
+	},
+	"apartmentPurchasePage": {
+		"confirmDescription": {
+			"eng": "Are you sure you want to rent this apartment? if you already have an apartment, it will be dismissed.",
+			"trans": "你确定要租这间公寓吗？如果你已经有一间公寓，它将被取消。"
+		},
+		"confirmTitle": {
+			"eng": "Confirm Rental",
+			"trans": "确认租借"
+		},
+		"owned": {
+			"eng": "Owned",
+			"trans": "拥有的"
+		},
+		"perWeek": {
+			"eng": "Per week",
+			"trans": "每週"
+		},
+		"rent": {
+			"eng": "Rent Now",
+			"trans": "立即租借"
+		}
+	},
+	"appleLogin": {
+		"button": {
+			"eng": "Sign in with Apple",
+			"trans": "使用苹果帐号登入"
+		}
+	},
+	"attackBar": {
+		"attack": {
+			"eng": "attack",
+			"trans": "攻击"
+		},
+		"block": {
+			"eng": "block",
+			"trans": "格挡"
+		},
+		"failArea": {
+			"eng": "Fail area",
+			"trans": "失败区域"
+		},
+		"headshot": {
+			"eng": "headshot",
+			"trans": "爆头"
+		},
+		"instruction": {
+			"eng": "hold and release to attack",
+			"trans": "按住并释放以进行攻击"
+		}
+	},
+	"attribute": {
+		"dex": {
+			"desc": {
+				"eng": "Increase firearm damage.",
+				"trans": "提高枪械伤害。"
+			},
+			"name": {
+				"eng": "Dexterity",
+				"trans": "敏捷度"
+			}
+		},
+		"int": {
+			"desc": {
+				"eng": "Increase energy weapon damage",
+				"trans": "增加能量武器伤害"
+			},
+			"name": {
+				"eng": "Intelligence",
+				"trans": "智能"
+			}
+		},
+		"str": {
+			"desc": {
+				"eng": "Increase melee damage.",
+				"trans": "增加近战伤害。"
+			},
+			"name": {
+				"eng": "Strength",
+				"trans": "力量"
+			}
+		},
+		"vit": {
+			"desc": {
+				"eng": "Increases health",
+				"trans": "增加生命值。"
+			},
+			"name": {
+				"eng": "Vitality",
+				"trans": "生命力"
+			}
+		}
+	},
+	"autoCalibrationPage": {
+		"calibrate": {
+			"eng": "Start Auto Calibration",
+			"trans": "开始自动校准"
+		},
+		"description": {
+			"eng": "Calibrate to calibration level ${caliLevel}",
+			"trans": "校准至校准等级${caliLevel}"
+		},
+		"destroyChance": {
+			"eng": "Destroy chance:",
+			"trans": "毁损机率"
+		},
+		"maxed": {
+			"eng": "Max Calibration Reached",
+			"trans": "最高校准达成"
+		},
+		"noChance": {
+			"eng": "Success chance is zero",
+			"trans": "成功机率为零"
+		},
+		"noItem": {
+			"eng": "No item found",
+			"trans": "找不到物品"
+		},
+		"stop": {
+			"eng": "Interrupt Auto Calibration",
+			"trans": "中断自动校准"
+		},
+		"successChance": {
+			"eng": "Success chance:",
+			"trans": "成功机率:"
+		},
+		"tip": {
+			"eng": "Automatically calibrate and repair your item until it have successfully calibrated it once, or if you stopped the process.",
+			"trans": "自动校准并修复您的物品，直到成功校准一次或是您手动停止。"
+		}
+	},
+	"backgroundTask": {
+		"cancelConfirmCancel": {
+			"eng": "Terminate task",
+			"trans": "终止任务"
+		},
+		"cancelConfirmDescription": {
+			"eng": "Material and time consumed will be lost.",
+			"trans": "材料和时间消耗将会遗失。"
+		},
+		"cancelConfirmTitle": {
+			"eng": "Terminate task?",
+			"trans": "终止任务？"
+		},
+		"completeButton": {
+			"eng": "Complete",
+			"trans": "完成"
+		},
+		"completed": {
+			"eng": "Task completed",
+			"trans": "任务完成"
+		},
+		"emptyTask": {
+			"description": {
+				"eng": "Click to choose a task",
+				"trans": "点击以选择任务。"
+			},
+			"title": {
+				"eng": "Task slot available",
+				"trans": "任务栏位可用"
+			}
+		},
+		"inProgress": {
+			"eng": "Task in progress...",
+			"trans": "任务进行中..."
+		}
+	},
+	"backgroundTaskPage": {
+		"description": {
+			"eng": "Here shows all your tasks that you are performing.",
+			"trans": "这里显示了正在执行的所有任务"
+		},
+		"maxTasks": {
+			"eng": "Max tasks: ${currentTasks} / ${maxTasks}",
+			"trans": "公寓容量：${currentTasks} / ${maxTasks}"
+		},
+		"title": {
+			"eng": "Tasks",
+			"trans": "任务管理"
+		}
+	},
+	"backgroundTaskStartPopup": {
+		"cost": {
+			"eng": "Cost",
+			"trans": "花费"
+		},
+		"rewards": {
+			"eng": "possible rewards",
+			"trans": "可能的奖励"
+		},
+		"skipButton": {
+			"title": {
+				"eng": "Instant Complete",
+				"trans": "立即完成"
+			}
+		},
+		"startButton": {
+			"title": {
+				"eng": "start task",
+				"trans": "开始任务"
+			}
+		},
+		"time": {
+			"eng": "Time Required",
+			"trans": "所需时间"
+		}
+	},
+	"backgroundTaskType": {
+		"abandonedCity": {
+			"description": {
+				"eng": "Mirai; Once a picturesque tourist haven, it now stands abandoned, ravaged by soaring crime rates and leaked radiation. In this desolate landscape, only a handful of desperate junkies and ruthless mercenaries remain, scavenging for whatever loot they can find amidst the ruins.",
+				"trans": "未来之城；曾经是一个风景如画的旅游胜地，如今却被犯罪率飙升和外洩的辐射所摧毁。在这片荒凉的景象中，只有少数绝望的吸毒者和无情的佣兵留下来，在废墟中寻找他们能找到的任何战利品。"
+			},
+			"displayName": {
+				"eng": "Mirai District",
+				"trans": "未来区"
+			}
+		},
+		"bodyguard": {
+			"description": {
+				"eng": "Safeguard high-profile clients, engage in high-octane combat, and use advanced tech to ensure protection amidst urban dystopia.",
+				"trans": "在都市末世中使用先进技术参与高强度战斗，以保护高知名度的客户。"
+			},
+			"displayName": {
+				"eng": "Bodyguard",
+				"trans": "保镖"
+			}
+		},
+		"clanMaintenance": {
+			"description": {
+				"eng": "Contribute to gang maintenance",
+				"trans": "贡献给帮派维护"
+			},
+			"displayName": {
+				"eng": "Gang Maintenance",
+				"trans": "帮派维护"
+			}
+		},
+		"hospital": {
+			"description": {
+				"eng": "Work as a part-time extraction force for Trauma Team, with the only goal of extracting ensured client from lethal situations. ",
+				"trans": "在创伤小队中担任兼职救援部队，唯一目标是从危急情况中救出客户。"
+			},
+			"displayName": {
+				"eng": "Extraction Mission",
+				"trans": "救援任务"
+			}
+		},
+		"scavenge": {
+			"description": {
+				"eng": "Navigate hazardous junkyards, uncover hidden treasures, and salvage valuable tech",
+				"trans": "探索危险的垃圾场，寻找隐藏的宝藏，并回收值钱的科技"
+			},
+			"displayName": {
+				"eng": "Scavenge Mission",
+				"trans": "搜索任务"
+			}
+		},
+		"territory": {
+			"description": {
+				"eng": "Contribute to territory control for your gang",
+				"trans": "为您的帮派贡献领地控制"
+			},
+			"displayName": {
+				"eng": "Territory Control",
+				"trans": "领地控制"
+			}
+		},
+		"thieving": {
+			"description": {
+				"eng": "Infiltrate fortified corporate facilities, hack systems, and pilfer cutting-edge tech & secrets, all to satisfy shadowy clients' demands.",
+				"trans": "渗透坚固的企业设施，骇入系统，并窃取尖端科技和机密，只为了满足神秘客户的需求。"
+			},
+			"displayName": {
+				"eng": "Thieving",
+				"trans": "偷窃"
+			}
+		}
+	},
+	"backgroundTaskUpgradePopup": {
+		"description": {
+			"eng": "Upgrade your slots to increase the amount of background tasks you can run at the same time.",
+			"trans": "升级您的插槽以增加您可以同时进行的背景任务数量。"
+		},
+		"eng": "Upgrade Slots",
+		"trans": "升级插槽"
+	},
+	"backpack": {
+		"multiSelect": {
+			"move": {
+				"title": {
+					"eng": "Move To Inventory",
+					"trans": "移至仓库。"
+				}
+			}
+		}
+	},
+	"backpackPage": {
+		"description": {
+			"eng": "Items collected in stronghold are stored in your backpack, if you died, the items in backpack will be used as deposit to revive you, you can buy back your items from the Clinic.",
+			"trans": "在地城中收集的物品将储存在您的背包中，如果您死亡，背包中的物品将被用作保证金来复活您，您可以从诊所买回您的物品。"
+		},
+		"multiSelect": {
+			"discard": {
+				"title": {
+					"eng": "Discard",
+					"trans": "丢弃"
+				}
+			}
+		},
+		"title": {
+			"eng": "Backpack",
+			"trans": "背包"
+		}
+	},
+	"buff": {
+		"defenseIncrease": {
+			"description": {
+				"eng": "Increase defense for all players in strongholds created by your gang members in ${minutes} minutes",
+				"trans": "在${minutes}分钟内，增加帮派成员所创建的地城中所有玩家的防御力"
+			},
+			"name": {
+				"eng": "Defense Increase",
+				"trans": "防御增加"
+			}
+		},
+		"lootIncrease": {
+			"description": {
+				"eng": "Increase loot dropped by enemies and chests in strongholds for all strongholds created by your gang members in ${minutes} minutes",
+				"trans": "在${minutes}分钟内，增加帮派成员所创建的所有地城中敌人和宝箱掉落的战利品量。"
+			},
+			"name": {
+				"eng": "Loot Increase",
+				"trans": "战利品增加"
+			}
+		}
+	},
+	"bundle": {
+		"dailyFree": {
+			"name": {
+				"eng": "Daily Free Bundle",
+				"trans": "每日免费礼包"
+			}
+		},
+		"itemUpgradeDeal": {
+			"name": {
+				"eng": "Item Upgrade Deal",
+				"trans": "物品升级交易"
+			}
+		},
+		"mercenary": {
+			"name": {
+				"eng": "Mercenary Bundle",
+				"trans": "佣兵礼包"
+			}
+		},
+		"newbie": {
+			"name": {
+				"eng": "Welcome Bundle",
+				"trans": "欢迎礼包"
+			}
+		}
+	},
+	"bundleDetailsModal": {
+		"content": {
+			"eng": "content",
+			"trans": "内容"
+		}
+	},
+	"caliTip": {
+		"1": {
+			"eng": "Seems like some of your equipments are still at +${cali} calibration level or lower. You should calibration them to at least +${targetCali} calibration level at the item calibration interface using ${calibrator}",
+			"trans": "看起来你的一些装备仍然处于+${cali}校准等级或更低。你应该在物品校准介面使用${calibrator}将它们校准至至少+${targetCali}校准等级。"
+		}
+	},
+	"calibrationResultPopup": {
+		"confirm": {
+			"eng": "Confirm",
+			"trans": "确认"
+		},
+		"failed": {
+			"description": {
+				"eng": "Calibration was unsuccessful. item preserved.",
+				"trans": "校准失败。物品已保留。"
+			},
+			"title": {
+				"eng": "Calibration failed",
+				"trans": "校准失败"
+			}
+		},
+		"failedDestroyed": {
+			"description": {
+				"eng": "Item is broken during calibration, repair is possible.",
+				"trans": "校准过程中物品损坏，可以修复。"
+			},
+			"title": {
+				"eng": "Item broken",
+				"trans": "物品损坏"
+			}
+		},
+		"success": {
+			"title": {
+				"eng": "Calibration success",
+				"trans": "校准成功"
+			}
+		},
+		"text1": {
+			"eng": "Analyzing item...",
+			"trans": "分析物品中..."
+		},
+		"text2": {
+			"eng": "Rebooting to recovery mode...",
+			"trans": "重新启动至恢复模式..."
+		},
+		"text3": {
+			"eng": "Decrypting BIOS...",
+			"trans": "解密BIOS..."
+		},
+		"text4": {
+			"eng": "Calibrating...",
+			"trans": "校准中..."
+		}
+	},
+	"characterCreate": {
+		"confirm": {
+			"eng": "confirm",
+			"trans": "确认"
+		},
+		"confirmModal": {
+			"description": {
+				"eng": "Are you sure you want to create a character with this name?",
+				"trans": "您确定要使用这个名字创建角色吗？"
+			},
+			"title": {
+				"eng": "Your name is \"${name}\"?",
+				"trans": "您的名字是\"${name}\"？",
+				"vars": []
+			}
+		},
+		"createButton": {
+			"label": {
+				"eng": "create",
+				"trans": "创建"
+			}
+		},
+		"nameInput": {
+			"eng": "name",
+			"trans": "名称"
+		},
+		"referrerCheckbox": {
+			"eng": "I have a referrer",
+			"trans": "我有一位推荐人"
+		}
+	},
+	"chat": {
+		"inputPlaceholder": {
+			"eng": "Type a message...",
+			"trans": "输入讯息..."
+		}
+	},
+	"chatPreview": {
+		"noMessage": {
+			"eng": "no message",
+			"trans": "没有讯息。"
+		}
+	},
+	"chooseEquipmentSlotModal": {
+		"title": {
+			"eng": "Please choose an equipment slot",
+			"trans": "请选择装备栏位"
+		}
+	},
+	"circleLockMinigame": {
+		"unlockButton": {
+			"eng": "unlock",
+			"trans": "解锁"
+		}
+	},
+	"circleMinigame": {
+		"title": {
+			"eng": "Rotate the circle to unlock",
+			"trans": "旋转圆圈以解锁"
+		}
+	},
+	"clan": {
+		"disbandMail": {
+			"subject": {
+				"eng": "Your gang has been disbanded",
+				"trans": "你的帮派已被解散"
+			}
+		},
+		"error": {
+			"clanIsFull": {
+				"eng": "this gang is current at max member capacity",
+				"trans": "这个帮派目前已满员。"
+			}
+		},
+		"imageBlocked": {
+			"text": {
+				"eng": "We use Google Image AI to scan for potentially inappropriate images. this may be cause by the image containing lewd, gore, violence or other inappropriate content.",
+				"trans": "我们使用Google图像AI来扫描潜在的不适当图像。这可能是由于图像包含淫秽、血腥、暴力或其他不适当的内容。"
+			},
+			"title": {
+				"eng": "Selected image not allowed",
+				"trans": "所选图片不允许使用"
+			}
+		},
+		"imageChanged": {
+			"eng": "Image updated successfully",
+			"trans": "图片更新成功"
+		},
+		"notification": {
+			"collapsed": {
+				"title": {
+					"eng": "Your gang has collapsed!",
+					"trans": "您的帮派已经溃散了！"
+				}
+			}
+		}
+	},
+	"clanBuffDeployPopup": {
+		"activated": {
+			"eng": "Buff Activated",
+			"trans": "增益效果已启动"
+		},
+		"confirmDeploy": {
+			"eng": "Confirm deploy",
+			"trans": "确认部署"
+		},
+		"confirmDeployDescription": {
+			"eng": "Are you sure you want to deploy \"${buffName}\" buff?",
+			"trans": "您确定要使用\"${buffName}\"增益吗？"
+		},
+		"deploy": {
+			"eng": "Deploy Now",
+			"trans": "立即部署"
+		},
+		"notInClan": {
+			"eng": "You can only deploy buffs if you are in a gang",
+			"trans": "只有在帮派中才能使用增益效果。"
+		},
+		"requires": {
+			"eng": "Requires",
+			"trans": "需要"
+		},
+		"tip": {
+			"eng": "Deploying buffs will give you and your gang temporary boost in the game.",
+			"trans": "部署增益将为您和您的帮派在游戏中提供暂时的提升。"
+		}
+	},
+	"clanDetailHeader": {
+		"isPrivate": {
+			"eng": "Private",
+			"trans": "私人"
+		},
+		"isPublic": {
+			"eng": "Public",
+			"trans": "公开的"
+		}
+	},
+	"clanDetailsPage": {
+		"clanNotAvailable": {
+			"eng": "This gang no longer exists",
+			"trans": "这个帮派已经不存在了"
+		},
+		"depositButton": {
+			"eng": "Deposit",
+			"trans": "捐献"
+		},
+		"depositModal": {
+			"description": {
+				"eng": "Enter the amount of funds you want to deposit to your gang",
+				"trans": "请输入您要存入帮派帐户的资金金额"
+			},
+			"title": {
+				"eng": "Deposit funds",
+				"trans": "存入资金"
+			}
+		},
+		"editMottoButton": {
+			"eng": "Edit Motto",
+			"trans": "编辑座右铭"
+		},
+		"funds": {
+			"eng": "Funds",
+			"trans": "资金"
+		},
+		"joinButton": {
+			"eng": "Join",
+			"trans": "加入"
+		},
+		"leaveClan": {
+			"eng": "leave gang",
+			"trans": "离开帮派"
+		},
+		"makePrivate": {
+			"eng": "Make Private",
+			"trans": "设为私人"
+		},
+		"makePublic": {
+			"eng": "Make Public",
+			"trans": "公开化"
+		},
+		"mottoModal": {
+			"description": {
+				"eng": "Enter a new gang motto",
+				"trans": "输入一个新的帮派座右铭。"
+			},
+			"title": {
+				"eng": "Edit gang motto",
+				"trans": "编辑帮派座右铭"
+			}
+		},
+		"nextUpkeepDate": {
+			"eng": "Next upkeep date: ${date} (${formatted})",
+			"trans": "下一次维护日期：${date} (${formatted})"
+		},
+		"noMotto": {
+			"eng": "There is no motto set for this gang yet",
+			"trans": "这个帮派还没有座右铭。"
+		},
+		"playerListButton": {
+			"eng": "Member List",
+			"trans": "成员清单"
+		},
+		"requestToJoinButton": {
+			"eng": "Request to join",
+			"trans": "请求加入"
+		},
+		"resources": {
+			"eng": "Resources",
+			"trans": "资源"
+		},
+		"setImageButton": {
+			"eng": "Set Image",
+			"trans": "设置图像"
+		},
+		"upkeepTip": {
+			"eng": "Ensure there is enough resources and funds to avoid losing the gang on the next upkeep date.",
+			"trans": "确保有足够的资源和资金，以避免在下一次维护日期失去帮派。"
+		},
+		"upkeepTipTitle": {
+			"eng": "Insufficient Upkeep Resources",
+			"trans": "维护资源不足"
+		}
+	},
+	"clanDisplay": {
+		"unavailable": {
+			"eng": "This gang is unavailable",
+			"trans": "这个帮派不可用"
+		}
+	},
+	"clanPlayer": {
+		"controlPointContributed": {
+			"eng": "control points: ${amount}",
+			"trans": "控制点数量：${amount}"
+		},
+		"fundsContributed": {
+			"eng": "funds: ${amount}",
+			"trans": "资金：${amount}"
+		},
+		"resourceContributed": {
+			"eng": "resource: ${amount}",
+			"trans": "资源: ${amount}"
+		},
+		"thisWeek": {
+			"eng": "this week",
+			"trans": "本週"
+		},
+		"total": {
+			"eng": "total",
+			"trans": "总计"
+		}
+	},
+	"clanPlayerPermissionModal": {
+		"subtitle": {
+			"eng": "Editing permission for ${playerName}",
+			"trans": "${playerName}的编辑权限"
+		},
+		"title": {
+			"eng": "Edit Permissions",
+			"trans": "编辑权限"
+		}
+	},
+	"clanPlayerPopup": {
+		"kickPlayerButton": {
+			"eng": "kick player",
+			"trans": "踢出玩家"
+		},
+		"setPermissionButton": {
+			"eng": "Edit Permissions",
+			"trans": "编辑权限"
+		},
+		"transferOwnership": {
+			"eng": "Transfer Ownership",
+			"trans": "转移所有权"
+		},
+		"transferOwnershipButton": {
+			"eng": "Transfer Ownership",
+			"trans": "转移所有权"
+		},
+		"transferOwnershipConfirm": {
+			"eng": "Are you sure you want to transfer ownership of the gang to ${playerName}?\\nthis cannot be undone.",
+			"trans": "你确定要将帮派所有权转移给${playerName}吗？\\n这将无法撤销。"
+		}
+	},
+	"clanSearchPage": {
+		"searchBox": {
+			"title": {
+				"eng": "Gang name",
+				"trans": "帮派名称"
+			}
+		}
+	},
+	"clanTab": {
+		"invitePlayer": {
+			"eng": "invite player",
+			"trans": "邀请玩家"
+		},
+		"playerPopup": {
+			"kickPlayer": {
+				"eng": "Kick ${playerName}",
+				"trans": "踢出${playerName}"
+			},
+			"kickPlayerConfirm": {
+				"eng": "Are you sure you want to kick this player from your gang?",
+				"trans": "您确定要把这个玩家从您的帮派中踢出去吗？"
+			},
+			"viewProfile": {
+				"eng": "View profile",
+				"trans": "查看个人资料"
+			}
+		}
+	},
+	"collectedLoreNotes": {
+		"description": {
+			"eng": "You have collected ${collected} of ${total} lore notes.",
+			"trans": "您已经收集了${collected}份中的${total}份背景故事。"
+		},
+		"noNotes": {
+			"eng": "You have not collected any lore notes yet.",
+			"trans": "您尚未收集到任何背景故事。"
+		},
+		"title": {
+			"eng": "Collected Lore Notes",
+			"trans": "已收集的背景故事"
+		}
+	},
+	"combatHandler": {
+		"engagePlayerPopup": {
+			"description": {
+				"eng": "Are you sure you want to attack this player?",
+				"trans": "你确定要攻击这个玩家吗？"
+			},
+			"title": {
+				"eng": "Attack Player",
+				"trans": "攻击玩家"
+			}
+		},
+		"notEnoughPsyche": {
+			"eng": "Your cyber-psychosis level is too high to engage in fights",
+			"trans": "你的电驭狂躁症程度过高，无法参与战斗"
+		},
+		"pvpProtectionItemPopup": {
+			"description": {
+				"eng": "You are currently protected from PVP by ${item}, if you attack others now you will lose the buff, are you sure you want to proceed?",
+				"trans": "目前你正受到${item}的PVP保护，如果现在攻击其他玩家，将会失去此增益效果，你确定要继续吗？"
+			},
+			"title": {
+				"eng": "PVP Protection",
+				"trans": "PVP保护"
+			}
+		},
+		"pvpProtectionLevelPopup": {
+			"description": {
+				"eng": "You are under PVP protection until level ${level}, but if you actively engaged in PVP your PVP protection will be removed",
+				"trans": "在达到${level}级之前，您将受到PVP保护，但如果您主动参与PVP，将会移除您的PVP保护。"
+			},
+			"title": {
+				"eng": "PVP Protection",
+				"trans": "PVP保护"
+			}
+		}
+	},
+	"combatLog": {
+		"atk": {
+			"eng": "${attacker} has attacked ${enemyName} for ${damage} damage",
+			"trans": "${attacker}对${enemyName}造成${damage}伤害"
+		},
+		"blockFailed": {
+			"eng": "${player} tried to block damage from ${enemyName} but failed, received ${damage} damage",
+			"trans": "${player}试图格挡${enemyName}的攻击，但失败了，受到了${damage}点伤害"
+		},
+		"blockSuccess": {
+			"eng": "${player} blocked attack from ${enemyName}(${blockedPercent}%) received ${damage} damage",
+			"trans": "${player}成功格挡${blockedPercent}%来自${enemyName}的攻击，但仍承受${damage}伤害。"
+		},
+		"chargedAttack": {
+			"eng": "${enemyName} attacked ${player} for ${damage} damage (charged)",
+			"trans": "${enemyName}对${player}造成${damage}点伤害（充能）"
+		},
+		"charging": {
+			"eng": "${enemyName} is charging to attack ${player}",
+			"trans": "${enemyName}正在向${player}发起攻击。"
+		},
+		"heal": {
+			"eng": "${enemyName} healed for ${healAmount} health",
+			"trans": "${enemyName} 恢复了 ${healAmount} 点生命值"
+		},
+		"normalAttack": {
+			"eng": "${enemyName} attacked ${player} for ${damage} damage",
+			"trans": "${enemyName}对${player}造成${damage}点伤害"
+		}
+	},
+	"compactRewardConfigDisplay": {
+		"clanControl": {
+			"eng": "+ ${amount} control on territory",
+			"trans": "+  ${amount} 领地控制"
+		},
+		"clanExp": {
+			"eng": "+ ${amount} Gang EXP",
+			"trans": "+ ${amount} 帮派经验值"
+		},
+		"clanResource": {
+			"eng": "+ ${amount} Gang resource",
+			"trans": "+ ${amount} 帮派资源"
+		}
+	},
+	"confirmModal": {
+		"cancel": {
+			"eng": "Cancel",
+			"trans": "取消"
+		},
+		"confirm": {
+			"eng": "Confirm",
+			"trans": "确认"
+		}
+	},
+	"connectingOverlay": {
+		"connecting": {
+			"description1": {
+				"eng": "Server is restarting for update or unstable connection.",
+				"trans": "伺服器正在进行更新或连线不稳定，将重新启动。"
+			},
+			"description2": {
+				"eng": "In case of server restarts, it usually will be done within a few minutes.",
+				"trans": "如果伺服器重新启动，通常会在几分钟内完成。"
+			}
+		},
+		"notLoggedIn": {
+			"reconnecting": {
+				"description": {
+					"eng": "No internet connection or server is restarting for update. Please try again later.",
+					"trans": "无网路连线或伺服器正在进行更新，请稍后再试。"
+				},
+				"title": {
+					"eng": "Failed to connect to server.",
+					"trans": "无法连线至伺服器。"
+				}
+			}
+		},
+		"reconnecting": {
+			"title": {
+				"eng": "Reconnecting to mainframe... (${attempt})",
+				"trans": "重新连线至主机...第 ${attempt} 次尝试"
+			}
+		}
+	},
+	"contributable": {
+		"description": {
+			"eng": "This content can be edited by anyone, and is not official. \\nclick here to submit your edit!",
+			"trans": "此内容可由任何人编辑，并非官方内容。 \\n点击这里上传您的编辑！"
+		},
+		"title": {
+			"eng": "Community Content",
+			"trans": "社群内容"
+		}
+	},
+	"contributionNotice": {
+		"title": {
+			"eng": "This content is contributable by community, click here to edit or add your own content into the game.",
+			"trans": "这个内容可以由社群共同补充，点击这里来编辑或新增您自己的内容到游戏"
+		}
+	},
+	"cookingPage": {
+		"cook": {
+			"eng": "Cook",
+			"trans": "烹饪"
+		},
+		"recipes": {
+			"eng": "Recipes",
+			"trans": "食谱"
+		},
+		"selectAmount": {
+			"eng": "Select amount",
+			"trans": "选择数量"
+		},
+		"selectRecipe": {
+			"eng": "Select a recipe below",
+			"trans": "选取食谱"
+		}
+	},
+	"costDisplay": {
+		"level": {
+			"eng": "${levelName} ${level} ",
+			"trans": "${levelName} 等级 ${level}"
+		},
+		"psychosis": {
+			"eng": "+ ${amount} psychosis",
+			"trans": "+ ${amount} 网路狂躁症"
+		}
+	},
+	"coupon": {
+		"alreadyRedeemed": {
+			"eng": "You have already redeemed this coupon.",
+			"trans": "您已经兑换过这张优惠券了。"
+		},
+		"invalid": {
+			"eng": "Invalid gift code.",
+			"trans": "无效的优惠码。"
+		}
+	},
+	"couponPage": {
+		"description": {
+			"eng": "Enter your gift code to get your reward.",
+			"trans": "输入您的优惠码以获得奖励。"
+		},
+		"inputTitle": {
+			"eng": "Gift Code",
+			"trans": "优惠码"
+		},
+		"submitButton": {
+			"eng": "Submit",
+			"trans": "提交"
+		},
+		"title": {
+			"eng": "Gift Code",
+			"trans": "优惠码"
+		}
+	},
+	"crafting": {
+		"craftModal": {
+			"title": {
+				"eng": "Select Amount",
+				"trans": "选择数量"
+			}
+		}
+	},
+	"createGang": {
+		"confirmModal": {
+			"description": {
+				"eng": "Are you sure you want to create a gang with \\nthe name \"${name}\" and tag \"${tag}\"?",
+				"trans": "你确定要建立一个名为\"${name}\"且标籤为\"${tag}\"的帮派吗？"
+			},
+			"title": {
+				"eng": "Create gang",
+				"trans": "建立帮派"
+			}
+		},
+		"createGangButton": {
+			"title": {
+				"eng": "Create new Gang",
+				"trans": "建立新帮派"
+			}
+		},
+		"description": {
+			"eng": "Create your own gang and invite your friends to join!",
+			"trans": "建立您的帮派并邀请朋友加入。"
+		},
+		"fullJoinButton": {
+			"title": {
+				"eng": "Members full",
+				"trans": "成员满员"
+			}
+		},
+		"gangNameInput": {
+			"title": {
+				"eng": "Gang Name",
+				"trans": "帮派名称"
+			}
+		},
+		"gangTagInput": {
+			"title": {
+				"eng": "Gang Tag",
+				"trans": "帮派标记"
+			}
+		},
+		"joinButton": {
+			"title": {
+				"eng": "Join",
+				"trans": "加入"
+			}
+		},
+		"joinExistingClanButton": {
+			"title": {
+				"eng": "Join existing gang",
+				"trans": "加入现有帮派"
+			}
+		},
+		"title": {
+			"eng": "Create new gang",
+			"trans": "建立新帮派"
+		}
+	},
+	"crewTab": {
+		"detailModal": {
+			"detail": {
+				"eng": "view details",
+				"trans": "查看详情"
+			},
+			"remove": {
+				"eng": "Remove from crew",
+				"trans": "从队伍中移除"
+			}
+		},
+		"selectPopup": {
+			"title": {
+				"eng": "Select mercenary",
+				"trans": "选择佣兵"
+			}
+		},
+		"viewListButton": {
+			"title": {
+				"eng": "View mercenary list",
+				"trans": "查看佣兵列表"
+			}
+		}
+	},
+	"crewTip": {
+		"title": {
+			"eng": "Mercenary Recommendation",
+			"trans": "雇佣兵推荐"
+		}
+	},
+	"currency": {
+		"blackMarketCurrency": {
+			"description": {
+				"eng": "The Netcoin currency, can be obtained in game and from premium store",
+				"trans": "Netcoin货币，可以在高级商店和游戏中获得"
+			},
+			"name": {
+				"eng": "Netcoin",
+				"trans": "网币"
+			}
+		},
+		"mercExpCurrency": {
+			"description": {
+				"eng": "A nano-machine injection device created by Taixing Cybernetics, providing unparalleled upgrades to cybernetic abilities. Inject into the neck for enhanced performance.",
+				"trans": "由台芯电驭制造的奈米机器注射装置，为电驭能力提供无与伦比的升级。注射到颈部以提高性能。"
+			},
+			"name": {
+				"eng": "Cybernetic Enhancer",
+				"trans": "电驭增强器"
+			}
+		},
+		"mercUpgradeCurrency": {
+			"description": {
+				"eng": "Neural Upgrade Augmenter is a cutting-edge implant that enables users to break past their mental limitations and reach untold levels of cognitive enhancement. With the ability to exceed typical neural barriers, users can unlock new levels of insight, creativity, and physical performance.",
+				"trans": "神经升级增强器是一种尖端的植入物，使用者能够突破心智限制，达到前所未有的认知增强水准。有了超越神经障碍的能力，使用者在洞察力、创造力和体能表现上都能打破过往的限制。"
+			},
+			"name": {
+				"eng": "Neural Upgrade Augmenter",
+				"trans": "神经升级增强器"
+			}
+		},
+		"normal": {
+			"description": {
+				"eng": "A common currency that can be obtained from in game easily",
+				"trans": "一种可以在游戏中轻易获得的通用货币"
+			},
+			"name": {
+				"eng": "Eurodollars",
+				"trans": "欧元"
+			}
+		},
+		"universalDollars": {
+			"description": {
+				"eng": "Universal Dollars can be exchanged from Netcoin at a 1:1 ratio.",
+				"trans": "通用币可以用1:1的比例兑换网币。"
+			},
+			"name": {
+				"eng": "Universal Dollars",
+				"trans": "通用币"
+			}
+		}
+	},
+	"currencyCheck": {
+		"getMore": {
+			"eng": "get more",
+			"trans": "获取更多"
+		},
+		"notEnough": {
+			"eng": "Insufficient ${currency}",
+			"trans": "${currency}不足"
+		}
+	},
+	"dailyQuestTab": {
+		"noDailyQuests": {
+			"eng": "No daily quests available",
+			"trans": "没有每日任务可用。"
+		}
+	},
+	"dailyRewardPopup": {
+		"claim": {
+			"eng": "Claim",
+			"trans": "领取"
+		},
+		"claimAll": {
+			"eng": "Claim All",
+			"trans": "全部领取"
+		},
+		"claimed": {
+			"eng": "Claimed",
+			"trans": "已领取"
+		},
+		"pending": {
+			"eng": "pending",
+			"trans": "等待中"
+		},
+		"randomizeConfirm": {
+			"description": {
+				"eng": "This will reset your daily reward progress and randomize the reward items",
+				"trans": "这将重置您的每日奖励进度并随机分配奖励物品。"
+			},
+			"title": {
+				"eng": "Are you sure you want to re-roll?",
+				"trans": "您确定要重新掷骰吗？"
+			}
+		},
+		"refreshNow": {
+			"eng": "Refresh Rewards",
+			"trans": "更新奖励"
+		},
+		"title": {
+			"eng": "Daily Reward",
+			"trans": "每日奖励"
+		}
+	},
+	"dailyRewardType": {
+		"normal": {
+			"name": {
+				"eng": "Daily Reward",
+				"trans": "每日奖励"
+			}
+		}
+	},
+	"deadthScreen": {
+		"decoText": {
+			"eng": "No existing insurance found",
+			"trans": "找不到现有的保险。"
+		},
+		"itemLost": {
+			"eng": "${amount} items from backpack was taken as compensation to Ripperdoc",
+			"trans": "已从背包中拿走${amount}件物品作为给电驭医生的费用。"
+		},
+		"respawnButton": {
+			"title": {
+				"eng": "Confirm",
+				"trans": "确认"
+			}
+		},
+		"subtitle": {
+			"eng": "Fatal injury detected",
+			"trans": "侦测到致命伤害"
+		},
+		"title": {
+			"eng": "Flatlined",
+			"trans": "心跳停止"
+		},
+		"upgradeItemHint": {
+			"eng": "Try level up and upgrade your items",
+			"trans": "尝试提升等级和升级您的物品。"
+		},
+		"upgradeMercenary": {
+			"eng": "Upgrade or hire more mercenaries",
+			"trans": "升级或雇用更多的佣兵。"
+		}
+	},
+	"deathItemPage": {
+		"line": {
+			"eng": "I ain't doing charity here yo",
+			"trans": "我不是做慈善的欸。"
+		},
+		"premiumCurrencyRecoverButton": {
+			"title": {
+				"eng": "Pay with ${currency}",
+				"trans": "支付${amount}${$2}"
+			}
+		},
+		"removeItems": {
+			"confirmModal": {
+				"description": {
+					"eng": "Are you sure you want to give up all your items? this is permanent and cannot be undone",
+					"trans": "你确定要放弃所有物品吗？这将是永久性的，无法撤销。"
+				},
+				"title": {
+					"eng": "Give up items",
+					"trans": "放弃物品"
+				}
+			},
+			"title": {
+				"eng": "give up items",
+				"trans": "放弃物品"
+			}
+		}
+	},
+	"deleteCharacterModal": {
+		"deleteButton": {
+			"eng": "Delete",
+			"trans": "删除"
+		},
+		"deleteButtonDescription": {
+			"eng": "Hold to delete character",
+			"trans": "按住以删除角色"
+		},
+		"description": {
+			"eng": "Are you sure you want to delete this character? this action is permanent and cannot be undone.",
+			"trans": "您确定要删除此角色吗？此操作是永久性的，无法撤销。"
+		},
+		"title": {
+			"eng": "Delete Character",
+			"trans": "删除角色"
+		}
+	},
+	"dismantle": {
+		"error": {
+			"notIdle": {
+				"eng": "You must be idle to dismantle items",
+				"trans": "拆解物品前必须处于闲置状态"
+			}
+		}
+	},
+	"dismantlePage": {
+		"confirmModal": {
+			"title": {
+				"eng": "dismantle ${itemName}?",
+				"trans": "拆解 ${itemName}？"
+			}
+		},
+		"dismantleButton": {
+			"eng": "Dismantle",
+			"trans": "拆解"
+		}
+	},
+	"drawMercAnimation": {
+		"activate": {
+			"eng": "activate",
+			"trans": "启动"
+		},
+		"activated": {
+			"continue": {
+				"eng": "VIEW MERCENARIES",
+				"trans": "查看佣兵"
+			},
+			"loadingBarTitle": {
+				"eng": "Decrypting mercenary contact info...",
+				"trans": "解密佣兵联络资讯中..."
+			},
+			"success": {
+				"eng": "Mercenary contact info received.",
+				"trans": "接收到佣兵联络资讯。"
+			},
+			"textList1": {
+				"eng": "Allocating resources...",
+				"trans": "分配资源中..."
+			},
+			"textList2": {
+				"eng": "Scanning mercenary network...",
+				"trans": "扫描佣兵网路中..."
+			},
+			"textList3": {
+				"eng": "Establishing secure channels",
+				"trans": "建立安全连线"
+			},
+			"textList4": {
+				"eng": "Receiving data...",
+				"trans": "接收资料中..."
+			}
+		},
+		"standby": {
+			"subtitle": {
+				"eng": "Drag the leaver down to active",
+				"trans": "拉下拉杆以启动"
+			},
+			"title": {
+				"eng": "System Standby",
+				"trans": "系统待机"
+			}
+		}
+	},
+	"dungeon": {
+		"backpackTransferPartialFail": {
+			"eng": "Some item in your backpack cannot be transferred to your inventory because there was no enough space",
+			"trans": "您的背包中有些物品无法转移到您的仓库中，因为空间不足。"
+		},
+		"dungeonCleared": {
+			"eng": "Dungeon cleared!",
+			"trans": "地城已清空！"
+		},
+		"error": {
+			"actionWhileHasEnemy": {
+				"eng": "You cannot perform this action while there are enemies nearby",
+				"trans": "当附近有敌人时，您无法执行此操作。"
+			},
+			"enemyInRoom": {
+				"eng": "You cannot do that while there are enemies nearby",
+				"trans": "在附近有敌人时，您不能这样做。"
+			},
+			"enemyInRoom2": {
+				"eng": "You cannot perform this action while there are enemies nearby",
+				"trans": "当附近有敌人时，您无法执行此操作。"
+			}
+		},
+		"type": {
+			"hard": {
+				"description": {
+					"eng": "Hard difficulty stronghold, Enemies are stronger and more numerous, but the EXP and rewards are greater.",
+					"trans": "困难难度的地城，敌人更强大且更多，但经验值和奖励更丰厚。"
+				},
+				"name": {
+					"eng": "Hard Difficulty",
+					"trans": "困难"
+				}
+			},
+			"normal": {
+				"description": {
+					"eng": "Normal difficulty stronghold.",
+					"trans": "普通地城。"
+				},
+				"name": {
+					"eng": "Normal Difficulty",
+					"trans": "普通"
+				}
+			}
+		}
+	},
+	"dungeonChoicePopup": {
+		"actionsTitle": {
+			"eng": "Choose your action",
+			"trans": "选择你的行动"
+		},
+		"close": {
+			"eng": "Close",
+			"trans": "关闭"
+		}
+	},
+	"dungeonEffect": {
+		"damageIncrease": {
+			"desc": {
+				"eng": "Increase damage dealt.",
+				"trans": "增加伤害。"
+			},
+			"name": {
+				"eng": "Damage Boost",
+				"trans": "伤害增强"
+			}
+		},
+		"defenseIncrease": {
+			"desc": {
+				"eng": "Increase defense, takes less damage from enemies.",
+				"trans": "增加防御力，减少来自敌人的伤害。"
+			},
+			"name": {
+				"eng": "Defense Boost",
+				"trans": "防御提升"
+			}
+		},
+		"enemyIncrease": {
+			"desc": {
+				"eng": "Increase number of enemies.",
+				"trans": "增加敌人数量。"
+			},
+			"name": {
+				"eng": "Crowded",
+				"trans": "人多势众"
+			}
+		},
+		"expIncrease": {
+			"desc": {
+				"eng": "Increase exp gained.",
+				"trans": "增加经验值获得。"
+			},
+			"name": {
+				"eng": "Exp Boost",
+				"trans": "经验加成"
+			}
+		},
+		"lootIncrease": {
+			"desc": {
+				"eng": "Increase loot gained.",
+				"trans": "增加战利品获得量。"
+			},
+			"name": {
+				"eng": "Extra Loot",
+				"trans": "额外战利品"
+			}
+		},
+		"luckIncrease": {
+			"desc": {
+				"eng": "Increase drop quality",
+				"trans": "提高掉落品质"
+			},
+			"eng": "Lucky",
+			"trans": "幸运"
+		}
+	},
+	"dungeonLobby": {
+		"buff": {
+			"deploy": {
+				"eng": "Deploy Buff",
+				"trans": "部署增益"
+			},
+			"title": {
+				"eng": "Active Buffs",
+				"trans": "启动增益"
+			}
+		},
+		"createButton": {
+			"eng": "Enter Stronghold",
+			"trans": "进入地城"
+		},
+		"createButtonDisabled": {
+			"eng": "Waiting team to be ready",
+			"trans": "等待小队就绪"
+		},
+		"dungeonType": {
+			"label": {
+				"eng": "Stronghold",
+				"trans": "地城"
+			}
+		},
+		"levelSelect": {
+			"label": {
+				"eng": "level",
+				"trans": "等级"
+			}
+		},
+		"manageInventoryButton": {
+			"title": {
+				"eng": "Manage Inventory",
+				"trans": "整理装备"
+			}
+		},
+		"playerModal": {
+			"kick": {
+				"eng": "kick",
+				"trans": "踢出。"
+			},
+			"viewDetails": {
+				"eng": "details",
+				"trans": "细节"
+			}
+		},
+		"playerNotReady": {
+			"eng": "Not ready",
+			"trans": "整装中"
+		},
+		"playerReady": {
+			"eng": "ready",
+			"trans": "就绪"
+		},
+		"players": {
+			"title": {
+				"eng": "Players (${current}/${max})",
+				"trans": "玩家（${current}/${max}）"
+			}
+		},
+		"public": {
+			"label": {
+				"eng": "Private / Public",
+				"trans": "私人 / 公开"
+			}
+		},
+		"ready": {
+			"eng": "Ready",
+			"trans": "准备就绪"
+		},
+		"territoryGang": {
+			"eng": "Strongholds created by member of ${gangName} in this district will receive extra buff",
+			"trans": "由 ${gangName} 成员所建立的地城在这个地区将会获得额外的强化效果。"
+		},
+		"territoryNoGang": {
+			"eng": "Control this territory to get extra buff in this district",
+			"trans": "掌控此区域可在此地区获得额外增益效果。"
+		},
+		"tip": {
+			"noHealing": {
+				"eng": "Looks like your are running low on healing items, purchase some so you can it in the stronghold",
+				"trans": "看起来您的回复物品不足，购买一些以在地城中使用。"
+			}
+		},
+		"waitingToStart": {
+			"eng": "waiting for host to start",
+			"trans": "等待主机启动中"
+		}
+	},
+	"dungeonLobbyListPage": {
+		"lobby": {
+			"name": {
+				"eng": "${playerName}'s lobby",
+				"trans": "${playerName}的大厅"
+			}
+		},
+		"noLobbiesFound": {
+			"eng": "No lobbies found",
+			"trans": "找不到任何大厅。"
+		}
+	},
+	"dungeonLootDoorPopup": {
+		"open": {
+			"eng": "unlock",
+			"trans": "解锁"
+		},
+		"subtitle": {
+			"eng": "Requires",
+			"trans": "需要"
+		},
+		"title": {
+			"eng": "Unlock Door",
+			"trans": "解锁门锁"
+		}
+	},
+	"dungeonLoreNotePopup": {
+		"close": {
+			"eng": "Close",
+			"trans": "关闭"
+		}
+	},
+	"dungeonQuestPage": {
+		"accept": {
+			"eng": "accept quest",
+			"trans": "接受任务"
+		},
+		"questAccepted": {
+			"eng": "quest accepted",
+			"trans": "接受任务"
+		}
+	},
+	"dungeonTypeDisplay": {
+		"enterDungeon": {
+			"eng": "Enter Stronghold",
+			"trans": "进入地城"
+		},
+		"extraLoot": {
+			"eng": "+${percent}% loot rarity",
+			"trans": "+${percent}%战利品稀有度"
+		}
+	},
+	"dungeonTypePage": {
+		"goToPublicDungeonListButton": {
+			"title": {
+				"eng": "Public strongholds",
+				"trans": "公共地城"
+			}
+		}
+	},
+	"dungeonUI": {
+		"excessiveBackpackItemModal": {
+			"cancelText": {
+				"eng": "Manage Backpack",
+				"trans": "管理背包"
+			},
+			"confirmText": {
+				"eng": "Continue",
+				"trans": "继续"
+			},
+			"description": {
+				"eng": "Are you sure you want to bring them into stronghold? \\nIf you die you will lose them.",
+				"trans": "您确定要带它们进地城吗？\\n如果您死了，物品就会消失。"
+			},
+			"title": {
+				"eng": "there are items in your backpack",
+				"trans": "您的背包中有物品。"
+			}
+		},
+		"invNoHealing": {
+			"cancel": {
+				"eng": "Continue",
+				"trans": "继续"
+			},
+			"confirm": {
+				"eng": "purchase",
+				"trans": "购买"
+			},
+			"message": {
+				"eng": "Seems like your are running low on heals, purchase some to bring it to strongholds.",
+				"trans": "看起来您的治疗补给品有点不足，购买一些补药到地城。"
+			},
+			"title": {
+				"eng": "low healing items",
+				"trans": "补药即将用完"
+			}
+		},
+		"leaveDungeonModal": {
+			"description": {
+				"eng": "Are you sure you want to leave the dungeon?\\nItems you collected will be moved to your inventory safely.",
+				"trans": "你确定要离开地城吗？\\n你收集的物品将会被安全地移至你的仓库。"
+			},
+			"title": {
+				"eng": "quit Dungeon",
+				"trans": "退出地城"
+			}
+		}
+	},
+	"dungeonUi": {
+		"effectsTitle": {
+			"eng": "Effects",
+			"trans": "效果"
+		}
+	},
+	"element": {
+		"cybernetic": {
+			"name": {
+				"eng": "Cybernetic",
+				"trans": "电驭"
+			}
+		},
+		"electric": {
+			"name": {
+				"eng": "Energy",
+				"trans": "能量"
+			}
+		},
+		"kinetic": {
+			"name": {
+				"eng": "Kinetic",
+				"trans": "动能"
+			}
+		},
+		"physical": {
+			"name": {
+				"eng": "Physical",
+				"trans": "物理的"
+			}
+		}
+	},
+	"enemyTabContent": {
+		"addEnemy": {
+			"eng": "Add Enemies",
+			"trans": "新增敌人"
+		},
+		"attack": {
+			"eng": "Attack",
+			"trans": "攻击"
+		},
+		"removeEnemy": {
+			"eng": "Remove Enemy",
+			"trans": "移除敌人"
+		},
+		"viewProfile": {
+			"eng": "View Profile",
+			"trans": "查看个人资料"
+		}
+	},
+	"enemyTrait": {
+		"damage": {
+			"desc": {
+				"eng": "Has higher damage than normal enemies",
+				"trans": "比普通敌人伤害更高"
+			},
+			"name": {
+				"eng": "Strong",
+				"trans": "强壮"
+			}
+		},
+		"health": {
+			"desc": {
+				"eng": "Has higher health than normal enemies",
+				"trans": "比普通敌人有更高的生命值"
+			},
+			"name": {
+				"eng": "Tough",
+				"trans": "坚韧"
+			}
+		}
+	},
+	"equipmentSlot": {
+		"BOOTS": {
+			"name": {
+				"eng": "Boots",
+				"trans": "靴子"
+			}
+		},
+		"HELMET": {
+			"name": {
+				"eng": "Helmet",
+				"trans": "头盔"
+			}
+		},
+		"IMPLANT_1": {
+			"name": {
+				"eng": "Implant 1",
+				"trans": "电驭晶片 1"
+			}
+		},
+		"IMPLANT_2": {
+			"name": {
+				"eng": "Implant 2",
+				"trans": "电驭晶片 2"
+			}
+		},
+		"LOWER_ARMOR": {
+			"name": {
+				"eng": "Lower Armor",
+				"trans": "下身装甲"
+			}
+		},
+		"PENDANT": {
+			"name": {
+				"eng": "Pendant",
+				"trans": "项鍊"
+			}
+		},
+		"RING_1": {
+			"name": {
+				"eng": "Ring (Left)",
+				"trans": "戒指（左）"
+			}
+		},
+		"RING_2": {
+			"name": {
+				"eng": "Ring (Right)",
+				"trans": "戒指（右）"
+			}
+		},
+		"UPPER_ARMOR": {
+			"name": {
+				"eng": "Upper Armor",
+				"trans": "上身装甲"
+			}
+		},
+		"WEAPON": {
+			"name": {
+				"eng": "Weapon",
+				"trans": "武器"
+			}
+		}
+	},
+	"equipmentTip": {
+		"1": {
+			"eng": "To ensure the best survivability and damage, equip the best equipment you have. you can also purchase equipments from ${npc} cheaply",
+			"trans": "为了确保最佳的生存能力和伤害，装备你拥有的最好装备。你也可以从${npc}便宜地购买装备。"
+		},
+		"3": {
+			"eng": "Seems like some of your equipments are still at ${tierType} tier or lower. You should upgrade them to at least ${targetTier} tier by using ${upgradeItem} at the item upgrade interface",
+			"trans": "看起来你的一些装备仍然处于${tierType}等级或更低。你应该在物品升级介面使用${upgradeItem}将它们升级至至少${targetTier}等级。"
+		},
+		"title": {
+			"eng": "Equipment Recommendation",
+			"trans": "装备推荐"
+		}
+	},
+	"equipmentType": {
+		"BOOTS": {
+			"name": {
+				"eng": "Boots",
+				"trans": "靴子"
+			}
+		},
+		"HELMET": {
+			"name": {
+				"eng": "Helmet",
+				"trans": "头盔"
+			}
+		},
+		"IMPLANT": {
+			"name": {
+				"eng": "Implant",
+				"trans": "电驭晶片"
+			}
+		},
+		"LOWER_ARMOR": {
+			"name": {
+				"eng": "Lower Armor",
+				"trans": "下身装甲"
+			}
+		},
+		"PENDANT": {
+			"name": {
+				"eng": "Pendant",
+				"trans": "项鍊"
+			}
+		},
+		"RING": {
+			"name": {
+				"eng": "Ring",
+				"trans": "戒指"
+			}
+		},
+		"UPPER_ARMOR": {
+			"name": {
+				"eng": "Upper Armor",
+				"trans": "上身装甲"
+			}
+		},
+		"WEAPON": {
+			"name": {
+				"eng": "Weapon",
+				"trans": "武器"
+			}
+		}
+	},
+	"errorBoundary": {
+		"description": {
+			"eng": "Error report has been sent to the developer. \\nIf this error persists, please contact the developer at ${email}",
+			"trans": "错误报告已传送给开发人员。\\n如果这个问题持续出现，请联系开发人员，"
+		},
+		"restart": {
+			"eng": "Restart",
+			"trans": "重新启动"
+		},
+		"title": {
+			"eng": "Opps, something went wrong!",
+			"trans": "哎呀，出了点问题！"
+		},
+		"update": {
+			"description": {
+				"eng": "A update has been installed, please restart the game. \\nIf this page persists, please contact the developer at ${email}",
+				"trans": "已安装更新，请重新启动游戏。\\n如果此页面持续出现，请联系开发人员，电子邮件：${email}"
+			},
+			"title": {
+				"eng": "Update Received",
+				"trans": "更新已完成"
+			}
+		}
+	},
+	"feedbackPopup": {
+		"back": {
+			"eng": "Skip",
+			"trans": "跳过"
+		},
+		"dialog1": {
+			"eng": "Complete the survey to earn rewards! 😊 I would love to hear your feedback!",
+			"trans": "完成调查以获得奖励！😊 我很乐意听取您的意见！"
+		},
+		"dialog2": {
+			"eng": "Sorry about the bad experience 😢 I would love to hear your feedback!🙏",
+			"trans": "对于您的不愉快经历感到抱歉 😢 我很乐意听取您的回馈！🙏"
+		},
+		"dialog3": {
+			"eng": "Thank you! if you could rate on the app store, it would help me a lot! 🙏",
+			"trans": "谢谢！如果您能在应用商店给予评价，对我来说会非常有帮助！🙏"
+		},
+		"dialog4": {
+			"eng": "Thank you for your feedback! 🙏",
+			"trans": "感谢您的回馈！🙏"
+		},
+		"lowStarComment": {
+			"eng": "How can I improve to earn 5 stars?",
+			"trans": "如何提升以获得五颗星？"
+		},
+		"lowStarCommentHint": {
+			"eng": "What you write here will be sent directly to me :)",
+			"trans": "您在这里写的内容将直接传送给我 :)"
+		},
+		"question1": {
+			"eng": "What do you think about the design of the game interface?",
+			"trans": "您对游戏介面的设计有什么看法？"
+		},
+		"question2": {
+			"eng": "Do you like to receive free rewards?",
+			"trans": "您喜欢获得免费奖励吗？"
+		},
+		"rewardSubtitle": {
+			"eng": "Rewards",
+			"trans": "奖励"
+		},
+		"stars": {
+			"eng": "How many stars would you give this game?",
+			"trans": "您会给这款游戏几颗星？"
+		},
+		"statement": {
+			"eng": "No matter whats your answer, you will always get the reward 💯",
+			"trans": "无论您的答案如何，您都会得到奖励 💯"
+		},
+		"submit1": {
+			"eng": "Submit",
+			"trans": "提交"
+		},
+		"submit2": {
+			"eng": "Rate and Claim Reward",
+			"trans": "评分并领取奖励"
+		},
+		"submit3": {
+			"eng": "Submit",
+			"trans": "提交"
+		}
+	},
+	"firstPurchasePromoSmall": {
+		"description": {
+			"eng": "Top-up for the first time to get double value!",
+			"trans": "首次储值即可获得双倍价值！"
+		},
+		"title": {
+			"eng": "First Top-up Double Value",
+			"trans": "首储双倍回馈"
+		}
+	},
+	"friend": {
+		"error": {
+			"addNotFound": {
+				"eng": "Player not found.",
+				"trans": "找不到玩家。"
+			},
+			"removeNotFound": {
+				"eng": "Player not found.",
+				"trans": "找不到玩家。"
+			}
+		},
+		"remove": {
+			"success": {
+				"eng": "You have removed ${friendName} from your friends list.",
+				"trans": "您已从好友名单中删除${friendName}。",
+				"vars": []
+			}
+		},
+		"removeEnemy": {
+			"success": {
+				"eng": "You have removed ${playerName} from your enemy list.",
+				"trans": "您已从敌人名单中移除了${playerName}。",
+				"vars": []
+			}
+		}
+	},
+	"friendList": {
+		"search": {
+			"placeholder": {
+				"eng": "Search player",
+				"trans": "搜寻玩家"
+			}
+		}
+	},
+	"friendTabContent": {
+		"addFriend": {
+			"eng": "Add Friend",
+			"trans": "加为好友"
+		},
+		"removeFriend": {
+			"eng": "Remove Friend",
+			"trans": "移除好友"
+		},
+		"viewProfile": {
+			"eng": "View Profile",
+			"trans": "查看个人资料"
+		}
+	},
+	"gang": {
+		"createError": {
+			"notEnoughMoney": {
+				"eng": "You do not have enough money to create a gang",
+				"trans": "您没有足够的资金来建立帮派。"
+			}
+		},
+		"error": {
+			"notFound": {
+				"eng": "Gang not found",
+				"trans": "找不到帮派。"
+			},
+			"requestJoin": {
+				"alreadyRequested": {
+					"eng": "You have already requested to join this gang",
+					"trans": "您已经申请加入这个帮派了"
+				},
+				"blockedByLeader": {
+					"eng": "Cannot request to join this gang at this time",
+					"trans": "目前无法申请加入此帮派"
+				},
+				"clanIsPublic": {
+					"eng": "This gang is public, there is no need to request to join",
+					"trans": "这个帮派是公开的，不需要申请加入"
+				},
+				"clanNotFound": {
+					"eng": "This gang no longer exists",
+					"trans": "这个帮派已经不存在了"
+				},
+				"leaderIsAdmin": {
+					"eng": "You cannot request to join this gang",
+					"trans": "您无法要求加入这个帮派"
+				},
+				"leaderPlayerNotFound": {
+					"eng": "leader player not found",
+					"trans": "找不到帮派老大"
+				}
+			}
+		},
+		"inviteSent": {
+			"eng": "A invite has been sent to ${playerName}",
+			"trans": "已传送邀请给${playerName}。"
+		},
+		"joinError": {
+			"notInvited": {
+				"eng": "This gang is currently invite only",
+				"trans": "这个帮派目前仅限邀请加入。"
+			}
+		},
+		"joinSuccess": {
+			"eng": "You have joined ${clanName}",
+			"trans": "您已加入${clanName}。"
+		},
+		"kicked": {
+			"eng": "You have been kicked by ${kickerName} from ${clanName}",
+			"trans": "您已被${kickerName}从${clanName}踢出。"
+		},
+		"nameError": {
+			"alreadyExists": {
+				"eng": "A gang with that name already exists",
+				"trans": "同名帮派已存在。"
+			},
+			"tooLong": {
+				"eng": "The gang name must be at most ${maxLength} characters long",
+				"trans": "帮派名称最多只能有${maxLength}个字元。"
+			},
+			"tooShort": {
+				"eng": "The gang name must be at least ${minLength} characters long",
+				"trans": "帮派名称至少需要 ${minLength} 个字元"
+			}
+		},
+		"requestJoin": {
+			"mail": {
+				"eng": "Hi, I would love to join your gang! ${request}",
+				"trans": "嗨，我很想加入您们的帮派！${request}"
+			}
+		},
+		"tagError": {
+			"alreadyExists": {
+				"eng": "A gang with that tag already exists",
+				"trans": "同标籤名的帮派已存在。"
+			},
+			"invalidCharacters": {
+				"eng": "The gang tag must only contain letters and numbers",
+				"trans": "帮派标籤只能包含字母和数字"
+			},
+			"tooLong": {
+				"eng": "The gang tag must be at most ${maxLength} characters long",
+				"trans": "帮派标籤最多只能有${maxLength}个字元。"
+			},
+			"tooShort": {
+				"eng": "The gang tag must be at least ${minLength} characters long",
+				"trans": "帮派标籤至少需要${minLength}个字元。"
+			}
+		}
+	},
+	"googleLogin": {
+		"button": {
+			"eng": "Sign in with Google",
+			"trans": "使用Google帐号登入"
+		}
+	},
+	"healthSacrificePopup": {
+		"activateButton": {
+			"description": {
+				"eng": "This action will sacrifice ${hp} of your heath",
+				"trans": "这个行动会牺牲您${hp}的生命值"
+			},
+			"title": {
+				"eng": "Activate",
+				"trans": "长按以启动"
+			}
+		}
+	},
+	"hitlist": {
+		"noBounties": {
+			"eng": "No bounties available",
+			"trans": "没有赏金可用"
+		},
+		"optionsPopup": {
+			"attack": {
+				"eng": "Attack",
+				"trans": "攻击"
+			},
+			"viewProfile": {
+				"eng": "View Profile",
+				"trans": "查看个人资料"
+			}
+		},
+		"placeHitButton": {
+			"title": {
+				"eng": "Place Hit",
+				"trans": "下达悬赏"
+			}
+		},
+		"title": {
+			"eng": "Hit List",
+			"trans": "悬赏名单"
+		}
+	},
+	"hitman": {
+		"error": {
+			"cannotPlaceBountyOnAdmin": {
+				"eng": "You cannot place bounty on this player",
+				"trans": "你无法对这位玩家悬赏"
+			},
+			"cannotPlaceBountyOnLowLevel": {
+				"eng": "You cannot place bounty on players lower than level ${level}",
+				"trans": "你无法对低于${level}等级的玩家设置悬赏。"
+			},
+			"cannotPlaceBountyOnSelf": {
+				"eng": "You cannot place bounty on yourself",
+				"trans": "你无法对自己设置悬赏"
+			}
+		},
+		"mail": {
+			"bountyAddedNotify": {
+				"eng": "A bounty has been placed on your head, current bounty - Eurodollar: ${money}, Universal Dollar: ${uni}",
+				"trans": "您被悬赏了，目前赏金 - 欧元：${money}，通用币：${uni}"
+			}
+		}
+	},
+	"hostilePlayerListPage": {
+		"arrest": {
+			"eng": "Attempt Arrest",
+			"trans": "拘捕"
+		},
+		"description": {
+			"eng": "Join the fight for justice in Arclight City! The ACPD calls upon vigilant citizens to aid in the pursuit of wanted criminals. Your city needs you! Bring in the fugitives, dead or alive, and earn substantial rewards. Together, we'll make Arclight City safer for all. 🌃👮‍♂️\\n#CitizenArrest #ACPDJustice",
+			"trans": "加入幻光之城为正义而战吧！幻光警局呼吁警觉的市民协助追捕通缉犯。您的城市需要您！不论生死，将逃犯绳之以法将获得丰厚的奖励。让我们一起打造更安全的幻光之城。🌃👮‍♂️\\n#市民逮捕 #幻光警局之义"
+		},
+		"expire": {
+			"eng": "expire date",
+			"trans": "有效日期"
+		},
+		"level": {
+			"eng": "Level",
+			"trans": "等级"
+		},
+		"loading": {
+			"eng": "Loading...",
+			"trans": "载入中..."
+		},
+		"name": {
+			"eng": "Name",
+			"trans": "名称"
+		},
+		"noPlayers": {
+			"eng": "No criminals with active arrest warrant.",
+			"trans": "没有逮捕令。"
+		},
+		"title": {
+			"eng": "Wanted Criminals",
+			"trans": "通缉犯"
+		},
+		"viewProfile": {
+			"eng": "View profile",
+			"trans": "查看个人资料"
+		},
+		"wantedLevel": {
+			"eng": "Wanted level",
+			"trans": "通缉等级"
+		}
+	},
+	"infoModal": {
+		"closeButton": {
+			"title": {
+				"eng": "Close",
+				"trans": "关闭"
+			}
+		}
+	},
+	"insufficientItemModal": {
+		"insufficientCurrency": {
+			"eng": "Insufficient ${name}",
+			"trans": "${name}不足"
+		}
+	},
+	"inventory": {
+		"discard": {
+			"modal": {
+				"description": {
+					"eng": "How many do you want to discard?",
+					"trans": "你想要丢弃几个？"
+				},
+				"title": {
+					"eng": "Discard item",
+					"trans": "丢弃物品"
+				}
+			}
+		},
+		"error": {
+			"addItemStackFull": {
+				"eng": "Can't add anymore ${name} to inventory because it reached stack limit",
+				"trans": "无法将更多的${name}添加到仓库中，因为已达到堆迭限制"
+			},
+			"notEnoughSlot": {
+				"eng": "Not enough slot for ${name}.",
+				"trans": "${name}的栏位不足。"
+			}
+		},
+		"move": {
+			"modal": {
+				"confirm": {
+					"eng": "Move",
+					"trans": "移动"
+				},
+				"title": {
+					"eng": "Move item",
+					"trans": "移动物品"
+				}
+			}
+		},
+		"moveItem": {
+			"error": {
+				"fullStack": {
+					"eng": "The item in target inventory is already full.",
+					"trans": "目标仓库已满。"
+				},
+				"inDungeon": {
+					"eng": "You cannot move items while in a dungeon.",
+					"trans": "在地城中无法移动物品。"
+				}
+			}
+		},
+		"multiSelect": {
+			"discard": {
+				"modal": {
+					"confirm": {
+						"eng": "Discard",
+						"trans": "丢弃"
+					},
+					"description": {
+						"eng": "Are you sure you want to discard these items?\\nThey will be destroyed permanently.",
+						"trans": "你确定要丢弃这些物品吗？\\n它们将会被永久摧毁。"
+					},
+					"title": {
+						"eng": "discard items",
+						"trans": "丢弃物品"
+					}
+				}
+			}
+		}
+	},
+	"item": {
+		"equipError": {
+			"destroyed": {
+				"eng": "This item is destroyed and cannot be equipped.",
+				"trans": "此物品已毁损，无法装备。"
+			},
+			"notEquipment": {
+				"eng": "This item is not equipment",
+				"trans": "这个物品不是装备。"
+			},
+			"playerLevelTooLow": {
+				"eng": "You must be at least ${level} to equip this item.",
+				"trans": "您必须达到${level}等才能装备此物品。"
+			}
+		}
+	},
+	"itemCalibratePage": {
+		"multiplierInfo": {
+			"result": {
+				"eng": "+${percent}% stats multiplier",
+				"trans": "属性增益 +${percent}%"
+			},
+			"title": {
+				"eng": "Calibration Multiplier Info",
+				"trans": "校准倍率资讯"
+			}
+		},
+		"noItem": {
+			"description": {
+				"eng": "Please select an equipment to calibrate",
+				"trans": "请选择一件装备进行校准"
+			}
+		},
+		"selectItem": {
+			"title": {
+				"eng": "Select item to calibrate",
+				"trans": "选择要校准的物品"
+			}
+		}
+	},
+	"itemCalibrateTab": {
+		"autoCalibrate": {
+			"eng": "Auto Calibrate",
+			"trans": "自动校准"
+		},
+		"caliButton": {
+			"des": {
+				"eng": "Consumes one ${itemName}",
+				"trans": "消耗一个${itemName}"
+			},
+			"title": {
+				"eng": "Calibrate",
+				"trans": "校准"
+			}
+		},
+		"destroyChance2": {
+			"eng": "destroy chance",
+			"trans": "毁损机率"
+		},
+		"destroyChanceInfo": {
+			"description1": {
+				"eng": "Destroy chance is the chance of the item being destroyed when calibration failed.",
+				"trans": "毁损机率是在校准失败时物品被毁坏的机率。"
+			},
+			"description2": {
+				"eng": "A destroyed item can be repaired at ${npcName} with ${item}",
+				"trans": "可以在${npcName}处用${item}修复损坏的物品。"
+			},
+			"title": {
+				"eng": "Destroy chance",
+				"trans": "毁损机率"
+			}
+		},
+		"maxCalibration": {
+			"description": {
+				"eng": "you can increase the max calibration capacity by upgrading the item using ${item}",
+				"trans": "你可以使用${item}升级物品来增加最大校准容量"
+			},
+			"title": {
+				"eng": "Max Calibration",
+				"trans": "最大校准"
+			}
+		},
+		"noChance": {
+			"eng": "Success chance is zero",
+			"trans": "成功机率为零"
+		},
+		"selectOptimizer": {
+			"eng": "Select optimizer",
+			"trans": "选择优化器"
+		},
+		"skipAnimation": {
+			"eng": "Skip animation",
+			"trans": "跳过动画"
+		},
+		"successChance": {
+			"eng": "Success chance",
+			"trans": "成功机率"
+		},
+		"tip": {
+			"noOptimizer": {
+				"eng": "You can use a optimizer to improve your calibration chances.",
+				"trans": "你可以使用优化器来提高你的校准机率。"
+			}
+		}
+	},
+	"itemCard": {
+		"amount": {
+			"eng": "quantity ${amount}",
+			"trans": "数量 ${amount}"
+		},
+		"destroyed": {
+			"eng": "destroyed",
+			"trans": "被摧毁的"
+		},
+		"notTradable": {
+			"eng": "Not tradable",
+			"trans": "不可交易"
+		},
+		"useTitle": {
+			"eng": "Use",
+			"trans": "使用"
+		}
+	},
+	"itemDestroyed": {
+		"des2": {
+			"eng": "You can repair this item at the ${repairNpc}",
+			"trans": "你可以在${repairNpc}处修复这件物品。"
+		},
+		"repairButton": {
+			"eng": "Repair",
+			"trans": "修复"
+		},
+		"title": {
+			"eng": "Item Destroyed",
+			"trans": "物品已摧毁"
+		}
+	},
+	"itemDetails": {
+		"attributeDamage": {
+			"modal": {
+				"description": {
+					"eng": "This item will deal ${damage} more damage based on your ${attribute} attribute",
+					"trans": "这个物品将根据您的${attribute}属性增加${damage}点伤害"
+				},
+				"title": {
+					"eng": "Attribute added damage",
+					"trans": "属性额外伤害"
+				}
+			},
+			"title": {
+				"eng": "Attribute Damage",
+				"trans": "属性伤害"
+			}
+		},
+		"cantDiscardEquipped": {
+			"eng": "You can't discard equipped items",
+			"trans": "你不能丢弃已装备的物品"
+		},
+		"cantDiscardLocked": {
+			"eng": "You can't discard locked items",
+			"trans": "你不能丢弃被锁定的物品"
+		},
+		"cantDismantleEquipped": {
+			"eng": "You can\\'t dismantle equipped items",
+			"trans": "您不能拆解已装备的物品"
+		},
+		"cantDismantleLocked": {
+			"eng": "You can\\'t dismantle locked items",
+			"trans": "无法拆解已上锁的物品"
+		},
+		"diff": {
+			"header1": {
+				"eng": "equipped item",
+				"trans": "已装备的物品"
+			}
+		},
+		"discard": {
+			"eng": "discard",
+			"trans": "丢弃"
+		},
+		"dismantle": {
+			"eng": "Dismantle",
+			"trans": "拆解"
+		},
+		"error": {
+			"cantEquipFromBackpack": {
+				"eng": "You cannot equip equipment from your backpack",
+				"trans": "您无法从背包装上装备"
+			}
+		},
+		"levelUpBar": {
+			"title": {
+				"eng": "Level increased",
+				"trans": "等级已提升"
+			}
+		},
+		"lockButton": {
+			"locked": {
+				"eng": "locked",
+				"trans": "已上锁"
+			},
+			"unlocked": {
+				"eng": "unlocked",
+				"trans": "已解锁"
+			}
+		},
+		"mercToken1": {
+			"useAction": {
+				"eng": "Recruit Mercenary",
+				"trans": "招募佣兵"
+			}
+		},
+		"moveToBackpack": {
+			"eng": "Move To Backpack",
+			"trans": "移动到背包"
+		},
+		"moveToInv": {
+			"eng": "Move To Inventory",
+			"trans": "移至仓库"
+		},
+		"unequip": {
+			"eng": "Unequip",
+			"trans": "卸下装备"
+		},
+		"upgrade": {
+			"eng": "Upgrade",
+			"title": {
+				"eng": "Calibration",
+				"trans": "校准"
+			},
+			"trans": "升级"
+		},
+		"use": {
+			"eng": "Use",
+			"trans": "使用"
+		}
+	},
+	"itemDiff": {
+		"noChanges": {
+			"eng": "No changes",
+			"trans": "无更改。"
+		}
+	},
+	"itemInbox": {
+		"receivedItems": {
+			"eng": "You have received ${item} in your apartment delivery inbox",
+			"trans": "你在公寓邮件箱中收到了${item}"
+		},
+		"retrieveError": {
+			"invFull": {
+				"eng": "Your inventory is full",
+				"trans": "你的仓库已满了"
+			}
+		},
+		"retrieved": {
+			"eng": "items have been moved to your inventory",
+			"trans": "物品已移至您的仓库中。"
+		}
+	},
+	"itemInboxPage": {
+		"collectAll": {
+			"eng": "Collect all",
+			"trans": "全部领取"
+		},
+		"description": {
+			"eng": "Here you can see all the items you have received. system will automatically collect items to your inventory when it has chance.",
+			"trans": "这里可以看到您收到的所有物品。系统会在有机会时自动将物品移动到您的仓库中。"
+		},
+		"noItems": {
+			"eng": "No items",
+			"trans": "没有物品"
+		},
+		"title": {
+			"eng": "item deliveries",
+			"trans": "物品交付"
+		}
+	},
+	"itemRepairPage": {
+		"attemptsProgress": {
+			"title": {
+				"eng": "Repair attempts",
+				"trans": "修复尝试"
+			},
+			"unit": {
+				"eng": "ATTEMPTS",
+				"trans": "尝试次数"
+			}
+		},
+		"attemptsTip": {
+			"eng": "Each repair attempt has ${chance}% chance of success and costs one ${repairItem}. the 10th time is guaranteed to succeed.",
+			"trans": "每次修复尝试有${chance}%的成功机率，并且需要花费一个${repairItem}。第10次尝试保证成功。"
+		},
+		"autoRepair": {
+			"title": {
+				"eng": "Auto repair",
+				"trans": "自动修复"
+			}
+		},
+		"autoRepairComplete": {
+			"eng": "Repair completed!",
+			"trans": "修复完成！"
+		},
+		"itemSelectModal": {
+			"title": {
+				"eng": "Select the item to repair",
+				"trans": "选择要修复的物品"
+			}
+		},
+		"noItemError": {
+			"eng": "Please select an item to repair",
+			"trans": "请选择要修复的物品"
+		},
+		"repairButton": {
+			"title": {
+				"eng": "Repair",
+				"trans": "修复"
+			}
+		},
+		"skipAnimation": {
+			"title": {
+				"eng": "Skip animation",
+				"trans": "跳过动画"
+			}
+		},
+		"title": {
+			"eng": "Equipment Repair",
+			"trans": "装备修复"
+		}
+	},
+	"itemSlot": {
+		"empty": {
+			"eng": "Empty",
+			"trans": "空的"
+		}
+	},
+	"itemSourceModal": {
+		"blackMarket": {
+			"eng": "Black Market",
+			"trans": "黑市"
+		},
+		"boss": {
+			"eng": "Stronghold Bosses",
+			"trans": "地城首领"
+		},
+		"chestDrop": {
+			"eng": "Stronghold chest drop",
+			"trans": "地城宝箱掉落"
+		},
+		"convertNetCoin": {
+			"eng": "Convert from ${netCoin}",
+			"trans": "转换自 ${netCoin}"
+		},
+		"cooking": {
+			"eng": "Cooking",
+			"trans": "烹饪"
+		},
+		"crafting": {
+			"eng": "Crafting",
+			"trans": "制作"
+		},
+		"dailyQuest": {
+			"eng": "Daily quests",
+			"trans": "每日任务"
+		},
+		"dismissingMerc": {
+			"eng": "Dismissing mercenaries",
+			"trans": "解僱佣兵"
+		},
+		"dungeonOnly": {
+			"eng": "This shop is only available in hard or higher difficulty strongholds.",
+			"trans": "这家商店只在困难或更高难度的地城中开放。"
+		},
+		"enemyDrop": {
+			"eng": "Enemy drop",
+			"trans": "敌人掉落"
+		},
+		"levelReward": {
+			"eng": "Drop from Level Reward Container (${itemName})",
+			"trans": "从等级奖励容器(${itemName})掉落"
+		},
+		"levelRewardBox": {
+			"eng": "Defeating ${dungeonType} strongholds in various locations",
+			"trans": "在不同地点击败${dungeonType}地城"
+		},
+		"obtainedFrom": {
+			"eng": "Obtained from",
+			"trans": "获得自"
+		},
+		"premiumCurrency": {
+			"eng": "Top up from ${npc} premium store",
+			"trans": "从${npc}购买"
+		},
+		"survey": {
+			"eng": "Survey Reward",
+			"trans": "调查奖励"
+		},
+		"title": {
+			"eng": "Insufficient ${itemName}",
+			"trans": "${itemName}不足"
+		}
+	},
+	"itemSubType": {
+		"all": {
+			"name": {
+				"eng": "All",
+				"trans": "全部"
+			}
+		},
+		"boots": {
+			"name": {
+				"eng": "Boots",
+				"trans": "靴子"
+			}
+		},
+		"calibration": {
+			"name": {
+				"eng": "Calibration",
+				"trans": "校准"
+			}
+		},
+		"energyWeapon": {
+			"name": {
+				"eng": "Energy Weapon",
+				"trans": "能量武器"
+			}
+		},
+		"equipment": {
+			"name": {
+				"eng": "Equipment",
+				"trans": "装备"
+			}
+		},
+		"fireArm": {
+			"name": {
+				"eng": "Fire Arm",
+				"trans": "枪械"
+			}
+		},
+		"fish": {
+			"name": {
+				"eng": "Fish",
+				"trans": "鱼"
+			}
+		},
+		"food": {
+			"name": {
+				"eng": "Food",
+				"trans": "食物"
+			}
+		},
+		"healingHp": {
+			"name": {
+				"eng": "Healing HP",
+				"trans": "恢复生命值"
+			}
+		},
+		"helmet": {
+			"name": {
+				"eng": "Helmet",
+				"trans": "头盔"
+			}
+		},
+		"implant": {
+			"name": {
+				"eng": "Implant",
+				"trans": "电驭晶片"
+			}
+		},
+		"ingredient": {
+			"name": {
+				"eng": "Ingredient",
+				"trans": "原料"
+			}
+		},
+		"itemLevelShard": {
+			"name": {
+				"eng": "Item Level Shard",
+				"trans": "物品升等碎片"
+			}
+		},
+		"itemUpgrade": {
+			"name": {
+				"eng": "Upgrade",
+				"trans": "升级"
+			}
+		},
+		"itemUpgradeShard": {
+			"name": {
+				"eng": "Item Upgrade Shard",
+				"trans": "装备阶级碎片"
+			}
+		},
+		"lowerArmor": {
+			"name": {
+				"eng": "Lower Armor",
+				"trans": "下身装甲"
+			}
+		},
+		"material": {
+			"name": {
+				"eng": "Material",
+				"trans": "材料"
+			}
+		},
+		"meat": {
+			"name": {
+				"eng": "Meat",
+				"trans": "肉"
+			}
+		},
+		"meleeWeapon": {
+			"name": {
+				"eng": "Melee Weapon",
+				"trans": "近战武器"
+			}
+		},
+		"pendant": {
+			"name": {
+				"eng": "Pendant",
+				"trans": "项鍊"
+			}
+		},
+		"resetShard": {
+			"name": {
+				"eng": "Reset Shard",
+				"trans": "重置碎片"
+			}
+		},
+		"ring": {
+			"name": {
+				"eng": "Ring",
+				"trans": "戒指"
+			}
+		},
+		"upperArmor": {
+			"name": {
+				"eng": "Upper Armor",
+				"trans": "上身装甲"
+			}
+		},
+		"vegetable": {
+			"name": {
+				"eng": "Vegetable",
+				"trans": "蔬菜"
+			}
+		},
+		"weapon": {
+			"name": {
+				"eng": "Weapon",
+				"trans": "武器"
+			}
+		}
+	},
+	"itemTrait": {
+		"armor": {
+			"eng": "Armor",
+			"trans": "装甲"
+		},
+		"autoAttackDamage": {
+			"name": {
+				"eng": "Auto Attack Damage",
+				"trans": "自动攻击伤害"
+			}
+		},
+		"autoAttackDamageMult": {
+			"name": {
+				"eng": "Auto Attack Damage Multiplier",
+				"trans": "自动攻击伤害倍率"
+			}
+		},
+		"backpackSpace": {
+			"name": {
+				"eng": "Backpack Space",
+				"trans": "背包空间"
+			}
+		},
+		"blockChance": {
+			"name": {
+				"eng": "Block Chance",
+				"trans": "格挡机率"
+			}
+		},
+		"blockStrength": {
+			"name": {
+				"eng": "Block Strength",
+				"trans": "格挡强度"
+			}
+		},
+		"critChance": {
+			"eng": "Critical Chance",
+			"trans": "爆击机率"
+		},
+		"critDamage": {
+			"eng": "Critical Damage",
+			"trans": "爆击伤害"
+		},
+		"cyberneticResistance": {
+			"name": {
+				"eng": "Cybernetic Resistance",
+				"trans": "电驭抗性"
+			}
+		},
+		"damageMultiplier": {
+			"name": {
+				"eng": "Damage multiplier",
+				"trans": "伤害倍率"
+			}
+		},
+		"dex": {
+			"name": {
+				"eng": "Dexterity",
+				"trans": "敏捷"
+			}
+		},
+		"energyResistance": {
+			"name": {
+				"eng": "Energy Resistance",
+				"trans": "能量抗性"
+			}
+		},
+		"health": {
+			"eng": "Health",
+			"trans": "生命值"
+		},
+		"healthMult": {
+			"name": {
+				"eng": "Health Multiplier",
+				"trans": "生命值倍率"
+			}
+		},
+		"int": {
+			"name": {
+				"eng": "Intelligence",
+				"trans": "智力"
+			}
+		},
+		"kineticResistance": {
+			"name": {
+				"eng": "Kinetic Resistance",
+				"trans": "动能抗性"
+			}
+		},
+		"physicalResistance": {
+			"name": {
+				"eng": "Physical Resistance",
+				"trans": "物理抗性"
+			}
+		},
+		"shield": {
+			"name": {
+				"eng": "Shield",
+				"trans": "护盾"
+			}
+		},
+		"shieldMult": {
+			"name": {
+				"eng": "Shield Multiplier",
+				"trans": "护盾加成倍率"
+			}
+		},
+		"str": {
+			"name": {
+				"eng": "Strength",
+				"trans": "力量"
+			}
+		},
+		"vit": {
+			"name": {
+				"eng": "Vitality",
+				"trans": "活力值"
+			}
+		}
+	},
+	"itemType": {
+		"boots": {
+			"description": {
+				"eng": "A piece of equipment that protects the feet.",
+				"trans": "保护脚部的装备。"
+			},
+			"name": {
+				"eng": "Boots",
+				"trans": "靴子"
+			}
+		},
+		"braisedPorkRice": {
+			"description": {
+				"eng": "A traditional dish of braised pork belly and rice.",
+				"trans": "白饭淋上卤汁的传统美食"
+			},
+			"name": {
+				"eng": "Braised Pork Rice",
+				"trans": "卤肉饭"
+			}
+		},
+		"bread": {
+			"description": {
+				"eng": "a rare delicacy made from real wheat flour, smuggled by rebels who oppose the synthetic food industry.",
+				"trans": "由反对食品合成业的叛乱分子走私而来，使用真正的面粉制成的稀有美食。"
+			},
+			"name": {
+				"eng": "Bread",
+				"trans": "面包"
+			}
+		},
+		"burger": {
+			"description": {
+				"eng": "A cheap and addictive food made from synthetic meat and chemicals. Popular among lowlifes and hackers who need a quick energy boost.",
+				"trans": "一种由合成肉和化学物质制成的便宜且易上瘾食品。受到下层阶级和需要快速能量补充的骇客喜爱。"
+			},
+			"name": {
+				"eng": "Burger",
+				"trans": "汉堡"
+			}
+		},
+		"calibrationShard": {
+			"description": {
+				"eng": "Universal calibration token for equipments, use to improve equipments",
+				"trans": "用于装备升级的通用校准代币。"
+			},
+			"name": {
+				"eng": "Calibration Shard",
+				"trans": "校准碎片"
+			}
+		},
+		"calibrationStabilizer1": {
+			"description": {
+				"eng": "Use during calibration to increase chance of success by ${percent}%",
+				"trans": "在校准时使用，可增加成功机率${percent}%"
+			},
+			"name": {
+				"eng": "Calibration Stabilizer",
+				"trans": "校准稳定器"
+			}
+		},
+		"clanMaintenanceResource": {
+			"description": {
+				"eng": "Use to contribute to gang maintenance",
+				"trans": "贡献帮派维护"
+			},
+			"name": {
+				"eng": "Gang Maintenance Resource",
+				"trans": "帮派维护资源"
+			}
+		},
+		"commonCalibrationSafety": {
+			"description": {
+				"eng": "Use to decrease chance of equipment destruction by ${percent}% when calibration failed",
+				"trans": "当校准失败时，使用可将装备损坏机率降低${percent}%。"
+			},
+			"name": {
+				"eng": "Common Calibration Circuit Breaker",
+				"trans": "普通校准电路断路器"
+			}
+		},
+		"commonLevelShard": {
+			"description": {
+				"eng": "you can use this item to level up an ${tier} item to its next level",
+				"trans": "你可以使用这个物品将一个${tier}等级的物品升级到下一级"
+			},
+			"name": {
+				"eng": "Common Level Shard",
+				"trans": "普通升等碎片"
+			}
+		},
+		"defenseBoostBuffActivator": {
+			"description": {
+				"eng": "Deploy this buff in stronghold lobby to increase defense for all players in strongholds created by your gang members for ${minutes} minutes",
+				"trans": "在地城大厅部署此增益效果，可提升你帮派成员所创建的地城中所有玩家的防御力，持续${minutes}分钟。"
+			},
+			"name": {
+				"eng": "Defense Boost Buff Activator",
+				"trans": "防御增益启动器"
+			}
+		},
+		"dungeonActivator": {
+			"description": {
+				"eng": "Use to enter a dungeon",
+				"trans": "用来进入地城。"
+			},
+			"name": {
+				"eng": "dungeon activator",
+				"trans": "地城启动器"
+			}
+		},
+		"energyGun": {
+			"description": {
+				"eng": "A weapon that uses energy to fire.",
+				"trans": "一种使用能量开火的武器。"
+			},
+			"name": {
+				"eng": "Energy Weapon",
+				"trans": "能量武器"
+			}
+		},
+		"epicLevelShard": {
+			"name": {
+				"eng": "Epic Level Shard",
+				"trans": "史诗升等碎片"
+			}
+		},
+		"epicResetShard": {
+			"name": {
+				"eng": "Epic Reset Shard",
+				"trans": "史诗重置碎片"
+			}
+		},
+		"epicUpgradeShard": {
+			"name": {
+				"eng": "Epic Upgrade Shard",
+				"trans": "史诗阶级碎片"
+			}
+		},
+		"equipmentCalibrator": {
+			"description": {
+				"eng": "Used to calibrate equipments",
+				"trans": "用于校准设备"
+			},
+			"name": {
+				"eng": "Equipment Calibrator",
+				"trans": "装备校准器"
+			}
+		},
+		"fish": {
+			"description": {
+				"eng": "A medium sized vibrant fish, it's highly sought after for its psychedelic properties when consumed.",
+				"trans": "一种中等大小的色彩鲜艳的鱼，食用后具有迷幻作用，因此广受追捧。"
+			},
+			"name": {
+				"eng": "Fish",
+				"trans": "鱼"
+			}
+		},
+		"gangControlResource": {
+			"name": {
+				"eng": "Gang Control Resource",
+				"trans": "帮派控制资源"
+			}
+		},
+		"gangResource": {
+			"description": {
+				"eng": "Use to contribute to gang territory control",
+				"trans": "贡献帮派领地控制。"
+			}
+		},
+		"gun": {
+			"description": {
+				"eng": "A traditional firearm that uses gunpowder to fire bullets. cant go wrong with this one.",
+				"trans": "使用火药发射子弹的传统枪械。这个是不会出差错的。"
+			},
+			"name": {
+				"eng": "Gun",
+				"trans": "枪械"
+			}
+		},
+		"healing1": {
+			"description": {
+				"eng": "Use to recover small amount of health",
+				"trans": "使用以恢复少量生命值。"
+			},
+			"name": {
+				"eng": "Basic Healing Nanobot",
+				"trans": "基本治疗奈米机器人"
+			}
+		},
+		"healing2": {
+			"description": {
+				"eng": "Use to recover moderate amount of health",
+				"trans": "使用以恢复中等量的生命值"
+			},
+			"name": {
+				"eng": "Advance Healing Nanobot",
+				"trans": "先进治疗奈米机器人"
+			}
+		},
+		"helmet": {
+			"description": {
+				"eng": "A piece of equipment that protects the head.",
+				"trans": "头部保护装备。"
+			},
+			"name": {
+				"eng": "Helmet",
+				"trans": "头盔"
+			}
+		},
+		"identificationShard": {
+			"description": {
+				"eng": "Use to identify unknown traits in a item",
+				"trans": "使用来辨认物品中未知的特征"
+			},
+			"name": {
+				"eng": "Identification Shard",
+				"trans": "辨识晶片"
+			}
+		},
+		"implant": {
+			"name": {
+				"eng": "Implant",
+				"trans": "电驭晶片"
+			}
+		},
+		"itemLevelupShard": {
+			"description": {
+				"eng": "Universal level up token for equipments, use to increase the level of an equipment",
+				"trans": "通用等级提升代币，用于提升装备等级。"
+			},
+			"name": {
+				"eng": "Level Shard",
+				"trans": "升等碎片"
+			}
+		},
+		"key": {
+			"generalDescription": {
+				"eng": "A key that can be used to unlock a ${containerName}.",
+				"trans": "一把可以用来解锁${containerName}的钥匙。"
+			}
+		},
+		"key1": {
+			"name": {
+				"eng": "Uncommon Container Key",
+				"trans": "高级容器钥匙"
+			}
+		},
+		"key2": {
+			"name": {
+				"eng": "Rare Container Key",
+				"trans": "稀有容器钥匙"
+			}
+		},
+		"key3": {
+			"name": {
+				"eng": "Unique Container Key",
+				"trans": "独特容器钥匙"
+			}
+		},
+		"keyFragment": {
+			"generalDescription": {
+				"eng": "Collect ${amount} of these to create a ${keyName} that can be used to unlock a ${containerName}.",
+				"trans": "收集${amount}个来制作一个可以用来解锁${containerName}的${keyName}。"
+			}
+		},
+		"keyFragment1": {
+			"name": {
+				"eng": "Uncommon Key Fragment",
+				"trans": "高级钥匙碎片"
+			}
+		},
+		"keyFragment2": {
+			"name": {
+				"eng": "Rare Key Fragment",
+				"trans": "稀有钥匙碎片"
+			}
+		},
+		"keyFragment3": {
+			"name": {
+				"eng": "Unique Key Fragment",
+				"trans": "独特钥匙碎片"
+			}
+		},
+		"levelLootBox1": {
+			"description": {
+				"eng": "Special reward container obtained from clearing hard or above difficulty strongholds in locations",
+				"trans": "从高难度地城中获得的特殊奖励容器"
+			},
+			"name": {
+				"eng": "Level Reward Container",
+				"trans": "等级奖励容器"
+			}
+		},
+		"lootBox1": {
+			"description": {
+				"eng": "A common container that contains random items.",
+				"trans": "一个普通容器，里面包含随机物品。"
+			},
+			"name": {
+				"eng": "Common Container",
+				"trans": "普通容器"
+			}
+		},
+		"lootBox2": {
+			"description": {
+				"eng": "A uncommon container that contains random items.",
+				"trans": "一个高级容器，里面包含随机物品。"
+			},
+			"name": {
+				"eng": "Locked Uncommon Container",
+				"trans": "加密高级容器"
+			}
+		},
+		"lootBox3": {
+			"description": {
+				"eng": "A rare container that contains random items.",
+				"trans": "一个高级容器，里面包含随机物品。"
+			},
+			"name": {
+				"eng": "Locked Rare Container",
+				"trans": "加密稀有容器"
+			}
+		},
+		"lootDoorKey": {
+			"description": {
+				"eng": "A cutting-edge cyberpunk device that serves as a key to unlock high-security doors in the dystopian strongholds, revealing valuable loot and hidden rewards.",
+				"trans": "一个尖端的赛博庞克装置，作为解锁高等安全门的钥匙，在末世地城中揭示高价战利品和隐藏的奖励。"
+			},
+			"name": {
+				"eng": "decryption Key",
+				"trans": "解密金钥"
+			}
+		},
+		"lootIncreaseBuffActivator": {
+			"description": {
+				"eng": "Deploy this buff in stronghold lobby to increase loot amount for all strongholds created by your gang members for ${minutes} minutes",
+				"trans": "在地城大厅部署此增益效果，可在${minutes}分钟内提高帮派成员所创建的所有地城的战利品数量。"
+			},
+			"name": {
+				"eng": "Loot Increase Buff Activator",
+				"trans": "战利品增加增益启动器"
+			}
+		},
+		"lowerArmor": {
+			"description": {
+				"eng": "A piece of equipment that protects the lower body.",
+				"trans": "保护下半身的装备。"
+			},
+			"name": {
+				"eng": "Lower Armor",
+				"trans": "下身装甲"
+			}
+		},
+		"medicalTech": {
+			"description": {
+				"eng": "A piece of medical technology that can be used to craft ",
+				"trans": "一个可以用来制作的医疗科技零件"
+			},
+			"name": {
+				"eng": "Medical Tech Scrap",
+				"trans": "医疗科技零件"
+			}
+		},
+		"mercToken1": {
+			"description": {
+				"eng": "Use this token to meet and recruit new mercenaries in Red Bar",
+				"trans": "在霓虹酒吧中使用这个代币以寻找并招募新的佣兵"
+			},
+			"name": {
+				"eng": "Red Bar VIP token",
+				"trans": "霓虹酒吧VIP代币"
+			}
+		},
+		"mercUpgrade": {
+			"description": {
+				"eng": "Neural Upgrade Augmenter is a cutting-edge implant that enables users to break past their mental limitations and reach untold levels of cognitive enhancement. With the ability to exceed typical neural barriers, users can unlock new levels of insight, creativity, and physical performance.",
+				"trans": "神经升级增强器是一种尖端的植入物，使用者能够突破心智限制，达到前所未有的认知增强水准。有了超越神经障碍的能力，使用者在洞察力、创造力和体能表现上都能打破过往的限制。"
+			},
+			"name": {
+				"eng": "Neural Upgrade Augmenter",
+				"trans": "神经升级增强器"
+			}
+		},
+		"money": {
+			"description": {
+				"eng": "EuroDollar is a widely accepted currency in the continent, used for everyday purchases and transactions.",
+				"trans": "欧元是在这个大陆上被广泛使用的货币，用于日常消费和交易。"
+			},
+			"name": {
+				"eng": "EuroDollar",
+				"trans": "欧元"
+			}
+		},
+		"mythicLevelShard": {
+			"name": {
+				"eng": "Mythic Level Shard",
+				"trans": "神话升等碎片"
+			}
+		},
+		"mythicResetShard": {
+			"name": {
+				"eng": "Mythic Reset Shard",
+				"trans": "神话重置碎片"
+			}
+		},
+		"mythicUpgradeShard": {
+			"name": {
+				"eng": "Mythic Upgrade Shard",
+				"trans": "神话阶级碎片"
+			}
+		},
+		"netcoin": {
+			"description": {
+				"eng": "NetCoin is a digital currency mainly used in black market transactions. It is untraceable and can be used to purchase illegal goods and services.",
+				"trans": "NetCoin是一种主要用于黑市交易的数位货币。无法追踪，并可用于购买非法商品和服务。"
+			},
+			"name": {
+				"eng": "NetCoin",
+				"trans": "网币"
+			}
+		},
+		"neuroblocker": {
+			"description": {
+				"eng": "Neuroblockers were developed to counteract the negative effects that cybernetic implants had on the human body. By suppressing these effects, people were able to use these implants with reduced suffering from physical or mental issues. When used, reduce cyber psychosis by ${amount}.",
+				"trans": "神经阻断剂的开发旨在对抗网路晶片对人体的负面影响。透过抑制这些影响，人们能够使用这些晶片，同时减少身体或心理问题的痛苦。使用时，可减少${amount}的网路狂躁症。"
+			},
+			"name": {
+				"eng": "Neuroblocker",
+				"trans": "神经阻断剂"
+			}
+		},
+		"pendant": {
+			"name": {
+				"eng": "Pendant",
+				"trans": "项鍊"
+			}
+		},
+		"pork": {
+			"description": {
+				"eng": "Slice of ordinary synthetic pork",
+				"trans": "一片普通合成猪肉片"
+			},
+			"name": {
+				"eng": "Pork",
+				"trans": "猪肉"
+			}
+		},
+		"prefixInjectorShard": {
+			"description": {
+				"eng": "Use to inject an additional prefix into a item, please note that if you re-roll the prefixes after using this item, the effect will be nullified.",
+				"trans": "使用以在物品中加入额外的前缀词，请注意，如果在使用后重新骰取前缀词，效果将被无效化。"
+			},
+			"name": {
+				"eng": "Prefix Injector Shard",
+				"trans": "前缀注射器碎片"
+			}
+		},
+		"pvpProtection": {
+			"description": {
+				"eng": "Whoever invokes the Token of Peace shall not be attacked, use this to receive ${day} day of PVP protection buff",
+				"trans": "凡是使用和平令牌的人将不会受到攻击，使用此令牌可获得${day}天的PVP保护效果"
+			},
+			"name": {
+				"eng": "Token of Peace",
+				"trans": "和平徽章"
+			}
+		},
+		"rareCalibrationSafety": {
+			"description": {
+				"eng": "Use to decrease chance of equipment destruction by ${percent}% when calibration failed",
+				"trans": "可将校准失败时的装备损坏机率减少${percent}%。"
+			},
+			"name": {
+				"eng": "Rare Calibration Circuit Breaker",
+				"trans": "稀有校准断路器"
+			}
+		},
+		"rareLevelShard": {
+			"name": {
+				"eng": "Rare Level Shard",
+				"trans": "稀有升等碎片"
+			}
+		},
+		"rareResetShard": {
+			"name": {
+				"eng": "Rare Reset Shard",
+				"trans": "稀有重置碎片"
+			}
+		},
+		"rareUpgradeShard": {
+			"name": {
+				"eng": "Rare Upgrade Shard",
+				"trans": "稀有阶级碎片"
+			}
+		},
+		"repairKit": {
+			"description": {
+				"eng": "The Nano Repairer is a state-of-the-art device developed by TaiXing Cybernetics for repairing a wide range of equipment intelligently with nano-machines. It's your go-to solution when your gear malfunctions due to calibration failure. Keep in mind, it doesn't guarantee a fix every time, but persistence pays off, after a few attempts, it'll get the job done.",
+				"trans": "奈米修复器是台芯电驭为了智能修复各种设备而开发的最先进装置。当您的装备因校准失败而发生故障时，它是您的首选解决方案。请记住，它不能保证每次修复都成功，但坚持不懈终将有所收获，经过几次尝试，它会完成任务。"
+			},
+			"name": {
+				"eng": "Nano Repairer",
+				"trans": "奈米修复器"
+			}
+		},
+		"resetGeneral": {
+			"description": {
+				"eng": "Use to reset a ${tier} item with new random prefixes",
+				"trans": "使用来重置一个${tier}等级的物品，并随机生成新的前缀词"
+			}
+		},
+		"rewardCipher": {
+			"description": {
+				"eng": "Used to re-roll quest reward.",
+				"trans": "用于重新掷骰任务奖励。"
+			},
+			"name": {
+				"eng": "Reward Cipher",
+				"trans": "奖励检索器"
+			}
+		},
+		"rice": {
+			"description": {
+				"eng": "A staple food of the continent.",
+				"trans": "该大陆的主食。"
+			},
+			"name": {
+				"eng": "Rice",
+				"trans": "米饭"
+			}
+		},
+		"ring": {
+			"name": {
+				"eng": "Ring",
+				"trans": "戒指"
+			}
+		},
+		"sate": {
+			"description": {
+				"eng": "A traditional Indonesian dish made from skewered meat and rice.",
+				"trans": "印尼传统菜肴，由串烧和米饭制成。"
+			},
+			"name": {
+				"eng": "Satay",
+				"trans": "沙嗲"
+			}
+		},
+		"shadowToken": {
+			"description": {
+				"eng": "A token can be used to trade with the merchants in strongholds.",
+				"trans": "可以用来与地城中的商人进行交易。"
+			},
+			"name": {
+				"eng": "Shadow Token",
+				"trans": "暗影代币"
+			}
+		},
+		"sushi": {
+			"description": {
+				"eng": "A traditional Japanese dish made from raw fish and rice.",
+				"trans": "一道由生鱼和饭制成的日本传统料理。"
+			},
+			"name": {
+				"eng": "Sushi",
+				"trans": "寿司"
+			}
+		},
+		"sword": {
+			"description": {
+				"eng": "A melee weapon that has sharpened edges.",
+				"trans": "一种带有锋利边缘的近战武器。"
+			},
+			"name": {
+				"eng": "Blade",
+				"trans": "刀刃"
+			}
+		},
+		"techScrap": {
+			"description": {
+				"eng": "A piece of tech scrap.",
+				"trans": "一片科技零件。"
+			},
+			"name": {
+				"eng": "Tech Scrap",
+				"trans": "科技零件"
+			}
+		},
+		"uncommonCalibrationSafety": {
+			"description": {
+				"eng": "Use to decrease chance of equipment destruction by ${percent}% when calibration failed",
+				"trans": "可将校准失败时的装备损坏机率减少${percent}%。"
+			},
+			"name": {
+				"eng": "Uncommon Calibration Circuit Breaker",
+				"trans": "高级校准断路器"
+			}
+		},
+		"uncommonLevelShard": {
+			"name": {
+				"eng": "Uncommon Level Shard",
+				"trans": "高级升等碎片"
+			}
+		},
+		"uncommonResetShard": {
+			"name": {
+				"eng": "Uncommon Reset Shard",
+				"trans": "高级重置碎片"
+			}
+		},
+		"uncommonUpgradeShard": {
+			"name": {
+				"eng": "Uncommon Upgrade Shard",
+				"trans": "高级阶级碎片"
+			}
+		},
+		"uniqueLevelShard": {
+			"name": {
+				"eng": "Unique Level Shard",
+				"trans": "独特升等碎片"
+			}
+		},
+		"uniqueLootBox": {
+			"description": {
+				"eng": "A unique container that contains random items.",
+				"trans": "一个独特的容器，里面包含随机物品。"
+			},
+			"name": {
+				"eng": "Locked Unique Container",
+				"trans": "加密独特容器"
+			}
+		},
+		"uniqueResetShard": {
+			"name": {
+				"eng": "Unique Reset Shard",
+				"trans": "独特重置碎片"
+			}
+		},
+		"uniqueUpgradeShard": {
+			"name": {
+				"eng": "Unique Upgrade Shard",
+				"trans": "独特阶级碎片"
+			}
+		},
+		"universalDollars": {
+			"description": {
+				"eng": "Universal Dollars is a rare currency that can only be obtained from premium shop.",
+				"trans": "通用币是一种稀有货币，只能从高级商店获得。"
+			},
+			"name": {
+				"eng": "Universal Dollars",
+				"trans": "通用币"
+			}
+		},
+		"upgradeGeneral": {
+			"description": {
+				"eng": "Use to upgrade an ${fromTier} item to ${toTier}",
+				"trans": "用以将${fromTier}阶级的物品升级为${toTier}阶级"
+			}
+		},
+		"upperArmor": {
+			"description": {
+				"eng": "A piece of equipment that protects the upper body.",
+				"trans": "保护上半身的装备。"
+			},
+			"name": {
+				"eng": "Upper Armor",
+				"trans": "上身装甲"
+			}
+		}
+	},
+	"itemTypeInfoPopup": {
+		"obtainedFrom": {
+			"eng": "Obtained from",
+			"trans": "获得自"
+		}
+	},
+	"itemUpgradePage": {
+		"item": {
+			"title": {
+				"eng": "equipment",
+				"trans": "装备"
+			}
+		},
+		"itemDiff": {
+			"headerA": {
+				"eng": "Current",
+				"trans": "目前的"
+			},
+			"headerB": {
+				"eng": "Upgraded",
+				"trans": "升级完成"
+			}
+		},
+		"itemUpgradeTab": {
+			"tip": {
+				"noShards": {
+					"eng": "Please select the type of upgrade below",
+					"trans": "请从以下升级类型中选择"
+				}
+			}
+		},
+		"levelUpButton": {
+			"eng": "level up",
+			"trans": "升级"
+		},
+		"lowLevelUpgrade": {
+			"confirm": {
+				"eng": "Yes, I understand",
+				"trans": "是的，我明白了。"
+			},
+			"description": {
+				"eng": "It is not recommended to upgrade your item to uncommon before level ${level}, as upgrading it will make it harder to level the item up, requiring a ${levelItem1} instead of ${levelItem2}\\nFor lower level players, its recommended to use ${levelItem2} to increase item level first instead of upgrading tier first.\\nAre you sure you want to continue? ",
+				"trans": "在达到${level}级之前，不建议将您的物品升级至高级阶级，因为升级会使物品增加等级更加困难，需要${levelItem1}而不是${levelItem2}。\\n对于低等级玩家，建议先使用${levelItem2}来提升物品等级，而不是先升级阶级。\\n您确定要继续吗？"
+			},
+			"title": {
+				"eng": "Are you sure?",
+				"trans": "你确定吗？"
+			}
+		},
+		"noItem": {
+			"des": {
+				"eng": "Click here to select an item",
+				"trans": "点击这里选择一个物品"
+			},
+			"title": {
+				"eng": "No item selected",
+				"trans": "未选择物品"
+			}
+		},
+		"noItemCali": {
+			"description": {
+				"eng": "Please select an equipment to upgrade or calibrate",
+				"trans": "请选择要升级或校准的装备"
+			}
+		},
+		"noItemUpgrade": {
+			"description": {
+				"eng": "Please select an equipment to upgrade",
+				"trans": "请选择要升级的装备"
+			}
+		},
+		"noItemUpgradeOrCali": {
+			"description": {
+				"eng": "Please select an equipment to upgrade or calibrate",
+				"trans": "请选择要升级或校准的装备"
+			}
+		},
+		"selectItem": {
+			"title": {
+				"eng": "Select item to upgrade",
+				"trans": "选择要升级的物品"
+			}
+		},
+		"selectItemModal": {
+			"title": {
+				"eng": "Select equipment",
+				"trans": "选择装备"
+			}
+		},
+		"shard": {
+			"title": {
+				"eng": "shard",
+				"trans": "碎片"
+			}
+		},
+		"tabs": {
+			"calibrate": {
+				"eng": "Calibrate",
+				"trans": "校准"
+			},
+			"upgrade": {
+				"eng": "Upgrade",
+				"trans": "升级"
+			}
+		},
+		"upgradeButton": {
+			"eng": "Upgrade",
+			"trans": "升级"
+		}
+	},
+	"leaderboard": {
+		"clan": {
+			"name": {
+				"eng": "Gang Level",
+				"trans": "帮派等级"
+			}
+		},
+		"level": {
+			"name": {
+				"eng": "Character Level",
+				"trans": "角色等级"
+			}
+		},
+		"levelBodyguard": {
+			"name": {
+				"eng": "Bodyguard Level",
+				"trans": "保镖等级"
+			}
+		},
+		"levelMedical": {
+			"name": {
+				"eng": "Medical Level",
+				"trans": "医疗等级"
+			}
+		},
+		"levelScavenge": {
+			"name": {
+				"eng": "Scavenging Level",
+				"trans": "搜索等级"
+			}
+		},
+		"levelThieving": {
+			"name": {
+				"eng": "Thieving Level",
+				"trans": "偷窃等级"
+			}
+		},
+		"money": {
+			"name": {
+				"eng": "Eurodollars",
+				"trans": "欧元"
+			}
+		},
+		"pvp": {
+			"name": {
+				"eng": "PvP Kills",
+				"trans": "PvP 击杀数"
+			}
+		}
+	},
+	"levelTip": {
+		"1": {
+			"eng": "Seems like some of your equipments are still at level ${level} or lower. upgrade their level with ${levelUpItem} in item upgrade page",
+			"trans": "看起来你的一些装备仍然处于${level}等级或更低。在物品升级页面使用${levelUpItem}来提升它们的等级吧。"
+		}
+	},
+	"levelType": {
+		"bodyguard": {
+			"currentEffectDescription": {
+				"eng": "Increases strength by ${strength} (increases melee weapons damage by ${dmg}) and bodyguard task profit to ${profit}",
+				"trans": "增加力量 ${strength} (增加近战武器伤害 ${dmg}) 和保镖任务收益至 ${profit}"
+			},
+			"description": {
+				"eng": "Increases strength attribute by 1 every level, and increases profit from this job type",
+				"trans": "每级增加1点力量属性，并增加此工作类型的收益"
+			},
+			"displayName": {
+				"eng": "Bodyguard Level",
+				"trans": "保镖等级"
+			}
+		},
+		"character": {
+			"displayName": {
+				"eng": "Character Level",
+				"trans": "角色等级"
+			}
+		},
+		"clan": {
+			"displayName": {
+				"eng": "Gang Level",
+				"trans": "帮派等级"
+			}
+		},
+		"medical": {
+			"currentEffectDescription": {
+				"eng": "Increases intelligence by ${intelligence} (increases energy weapon damage by ${healing}) and Extraction Mission task profit to ${profit}",
+				"trans": "智力增加${intelligence} (能量武器伤害增加${healing})，并提高救援任务的收益至${profit}"
+			},
+			"description": {
+				"eng": "Increases intelligence attribute by 1 every level, and increases profit from this job type",
+				"trans": "每级增加1点智力属性，并增加此工作类型的收益"
+			},
+			"displayName": {
+				"eng": "Medical Level",
+				"trans": "医疗等级"
+			}
+		},
+		"npcQuest": {
+			"description": {
+				"eng": "quest affinity level increases reward quality by a small amount",
+				"trans": "任务亲和度提升，奖励品质会稍微提升。"
+			},
+			"displayName": {
+				"eng": "${npcName} affinity level",
+				"trans": "${npcName}亲和等级"
+			}
+		},
+		"scavenge": {
+			"currentEffectDescription": {
+				"eng": "Increases vitality by ${vitality} (increases health by ${health}) and scavenging task profit to ${profit}",
+				"trans": "增加活力 ${vitality} (增加生命 ${health}) 和搜索任务的收益至 ${profit}"
+			},
+			"description": {
+				"eng": "Increases vitality attribute by 1 every level, and increases profit from this job type",
+				"trans": "每级增加1点活力属性，并增加这种工作类型的收益"
+			},
+			"displayName": {
+				"eng": "Scavenging Level",
+				"trans": "搜索等级"
+			}
+		},
+		"thieving": {
+			"currentEffectDescription": {
+				"eng": "Increases dexterity by ${dexterity} (increases fire-arm weapons damage by ${dmg}) and thieving task profit to ${profit}",
+				"trans": "提高敏捷${dexterity}（增加火器武器伤害${dmg}）和偷窃任务收益至 ${profit}"
+			},
+			"description": {
+				"eng": "Increases dexterity attribute by 1 every level, and increases profit from this job type",
+				"trans": "每级增加1点敏捷属性，并增加此工作类型的收益"
+			},
+			"displayName": {
+				"eng": "Thieving Level",
+				"trans": "偷窃等级"
+			}
+		}
+	},
+	"localEnemy": {
+		"levelDisplay": {
+			"eng": "Level ${minLevel} - ${maxLevel}",
+			"trans": "等级 ${minLevel} - ${maxLevel}",
+			"vars": []
+		},
+		"selectLevelModal": {
+			"display": {
+				"eng": "Level ${level} (${min} - ${max})",
+				"trans": "等级 ${level} (${min} - ${max})"
+			}
+		}
+	},
+	"locationListPage": {
+		"cleared": {
+			"eng": "Cleared",
+			"trans": "已清除"
+		},
+		"currentLocTitle": {
+			"eng": "Current Location",
+			"trans": "目前位置"
+		},
+		"dangerTitle": {
+			"eng": "Danger",
+			"trans": "危险"
+		},
+		"level": {
+			"eng": "Level ${level}",
+			"trans": "等级 ${level}",
+			"vars": []
+		},
+		"levelRange": {
+			"eng": "Lv ${enemyMinLevel}-${enemyMaxLevel}",
+			"trans": "等级 ${enemyMinLevel}-${enemyMaxLevel}",
+			"vars": []
+		},
+		"listHeader": {
+			"title": {
+				"eng": "More levels will be unlocked when level up",
+				"trans": "升等后将解锁更多关卡"
+			}
+		},
+		"lockedError": {
+			"eng": "You can travel to this location when you reach level ${level}, or by completing the previous level stronghold.",
+			"trans": "当您达到等级${level}或完成前一关的地城时，您可以前往这个地点。",
+			"vars": []
+		}
+	},
+	"loginFromOtherDevicePage": {
+		"back": {
+			"eng": "Back to Login",
+			"trans": "返回登入画面"
+		},
+		"title": {
+			"eng": "Logged in from another device.",
+			"trans": "已从另一个装置登入。"
+		}
+	},
+	"loginPage": {
+		"emailLoginBox": {
+			"login": {
+				"eng": "Login",
+				"trans": "登入"
+			},
+			"loginWithEmail": {
+				"eng": "Login with Email",
+				"trans": "使用电子邮件登入"
+			},
+			"register": {
+				"eng": "Register",
+				"trans": "注册"
+			}
+		},
+		"loginError": {
+			"eng": "Failed to login: ${error}",
+			"trans": "登入失败：${error}"
+		},
+		"loginWithEmail": {
+			"eng": "Login with Email",
+			"trans": "使用电子邮件登入"
+		},
+		"serverUnavailable": {
+			"eng": "Server under maintenance. We are bring it back online soon.",
+			"trans": "伺服器维护中，我们会尽快恢复服务。"
+		},
+		"unableToLogin": {
+			"eng": "Unable to login, unknown error occurred. Please try again later.",
+			"trans": "无法登入，发生未知错误。请稍后再试。"
+		},
+		"unableToRegister": {
+			"eng": "Failed to register: ${error}",
+			"trans": "注册失败：${error}"
+		}
+	},
+	"loreNote": {
+		"collectedMessage": {
+			"eng": "You have collected a new lore note",
+			"trans": "您收集到了一份新的背景故事。"
+		}
+	},
+	"mail": {
+		"notification": {
+			"fromPlayer": {
+				"eng": "${senderName} sent you a mail",
+				"trans": "${senderName}寄给您一封邮件"
+			}
+		},
+		"pvpFailed1": {
+			"body": {
+				"eng": "${playerName} tried to mug you but you won the fight",
+				"trans": "玩家${playerName} 企图攻击你，但你赢得了战斗"
+			}
+		},
+		"pvpFailed2": {
+			"body": {
+				"eng": "You tried to mug ${playerName} but you lost the fight, you lost ${amount}",
+				"trans": "你试图抢劫${playerName}，但你输了这场战斗，你损失了${amount}"
+			}
+		}
+	},
+	"mailModule": {
+		"error": {
+			"blocked": {
+				"eng": "This player cannot receive your mail at this time.",
+				"trans": "此玩家目前无法收到您的邮件。"
+			}
+		}
+	},
+	"mailTab": {
+		"empty": {
+			"eng": "currently you don\\'t have any chat",
+			"trans": "目前没有聊天资讯。"
+		}
+	},
+	"mails": {
+		"iap": {
+			"purchase": {
+				"eng": "You have successfully received ${premiumAmount}",
+				"trans": "您已成功收到${premiumAmount}"
+			},
+			"referral": {
+				"eng": "You have received ${premiumAmount} from your referral to ${playerName}",
+				"trans": "您从推荐人${playerName}收到了${premiumAmount}。"
+			}
+		}
+	},
+	"mainPage": {
+		"apartmentButton": {
+			"title": {
+				"eng": "back to apartment",
+				"trans": "回到公寓"
+			}
+		},
+		"chirp": {
+			"title": {
+				"eng": "Chirp",
+				"trans": "叽喳"
+			}
+		},
+		"chooseLocationButton": {
+			"title": {
+				"eng": "Travel [Level ${currentLevel}]",
+				"trans": "前往 [等级 ${currentLevel}]"
+			}
+		},
+		"deathItemsButton": {
+			"title": {
+				"eng": "Death Items",
+				"trans": "死亡物品"
+			}
+		},
+		"dungeonButton": {
+			"title": {
+				"eng": "Explore stronghold",
+				"trans": "探索地城"
+			}
+		},
+		"gangButton": {
+			"title": {
+				"eng": "Gang",
+				"trans": "帮派"
+			}
+		},
+		"inventoryButton": {
+			"eng": "inventory",
+			"trans": "仓库"
+		},
+		"levelDisplay": {
+			"title": {
+				"eng": "level ${level}",
+				"trans": "等级 ${level}"
+			}
+		},
+		"localEnemyButton": {
+			"title": {
+				"eng": "Scan nearby enemies",
+				"trans": "扫描附近敌人"
+			}
+		},
+		"mercenaryButton": {
+			"eng": "mercenary",
+			"trans": "佣兵"
+		},
+		"npcListButton": {
+			"title": {
+				"eng": "go to City Center",
+				"trans": "前往市中心"
+			}
+		},
+		"profileButton": {
+			"eng": "profile",
+			"trans": "个人档案"
+		},
+		"quests": {
+			"eng": "Quests",
+			"trans": "任务"
+		},
+		"rewardsIcon": {
+			"eng": "rewards",
+			"trans": "奖励"
+		},
+		"shopButton": {
+			"title": {
+				"eng": "Shop",
+				"trans": "商店"
+			}
+		},
+		"socialButton": {
+			"eng": "social",
+			"trans": "社交"
+		},
+		"tasksButton": {
+			"title": {
+				"eng": "AFK Tasks",
+				"trans": "挂机任务"
+			}
+		},
+		"webItemButton": {
+			"title": {
+				"eng": "Cybernet",
+				"trans": "电驭网路"
+			}
+		}
+	},
+	"markdownFile": {
+		"afkTask": {
+			"eng": "AFK Task",
+			"trans": "挂机任务"
+		},
+		"attributes": {
+			"eng": "Attributes",
+			"trans": "属性"
+		},
+		"backpack": {
+			"eng": "Backpack",
+			"trans": "背包"
+		},
+		"blackMarket": {
+			"eng": "Black Market",
+			"trans": "黑市"
+		},
+		"currency": {
+			"eng": "Currency",
+			"trans": "货币"
+		},
+		"equipmentCalibration": {
+			"eng": "Equipment Calibration",
+			"trans": "装备校准"
+		},
+		"equipmentRepair": {
+			"eng": "Equipment Repair",
+			"trans": "装备修复"
+		},
+		"equipmentUpgrade": {
+			"eng": "Equipment Upgrade",
+			"trans": "装备升级"
+		},
+		"gangUpkeep": {
+			"eng": "Gang Upkeep",
+			"trans": "帮派维护费用"
+		},
+		"hitBounty": {
+			"eng": "Hit Bounty",
+			"trans": "击杀赏金"
+		},
+		"inventory": {
+			"eng": "Inventory",
+			"trans": "仓库"
+		},
+		"jobLevel": {
+			"eng": "Job Level",
+			"trans": "职业等级"
+		},
+		"mercenary": {
+			"eng": "Mercenary",
+			"trans": "佣兵"
+		},
+		"territory": {
+			"eng": "Territory",
+			"trans": "领地"
+		},
+		"updateLog": {
+			"eng": "Update Log",
+			"trans": "更新日志"
+		}
+	},
+	"market": {
+		"completeMessage": {
+			"bidOutbidded": {
+				"eng": "${item} has been outbidded by another player with ${amount}. ${returnAmount} has been added back to your account",
+				"trans": "${item}被其他玩家以${currency}${amount}的竞标超过。已将${currency}${returnAmount}退还至您的帐户。"
+			},
+			"bidPlaced": {
+				"eng": "A player has placed a ${amount} bid on ${item}.",
+				"trans": "一位玩家对${item}竞标${amount}。"
+			},
+			"bidPlacedGrace": {
+				"eng": "A player has placed a ${amount} bid on ${item}. The auction has been extended by ${minutes} minutes.",
+				"trans": "一位玩家对${item}竞标${amount}。拍卖时间延长了${minutes}分钟。"
+			},
+			"buyout": {
+				"eng": "${item} has been purchased with buyout, ${amount} (${originalAmount} - ${tax}% tax) has been added to your account",
+				"trans": "${item}已被买断，${amount}（${originalAmount} - ${tax}% 税）已加入您的帐户。"
+			},
+			"buyoutSuccess": {
+				"eng": "You have successfully purchased ${item} with buyout for ${amount}",
+				"trans": "您已成功以${amount}的价格使用一次性购买方式购买了${item}。"
+			}
+		},
+		"error": {
+			"bidLowerThanCurrentBid": {
+				"eng": "You cannot place bid lower than current bid",
+				"trans": "您不能出比目前竞标价格更低的价格。"
+			},
+			"bidderExists": {
+				"eng": "Someone has already bid on this item, you cannot remove it.",
+				"trans": "已经有人对这个物品竞标，您无法移除它。"
+			},
+			"buyoutTooLow": {
+				"eng": "Buyout price is too low, minimum buyout price is ${minBid}",
+				"trans": "买断价格太低，最低买断价格为${minBid}。"
+			},
+			"itemNotFound": {
+				"eng": "this item no longer exists in your market items",
+				"trans": "此物品已不存在您的市场"
+			},
+			"minBidTooLow": {
+				"eng": "Minimum bid is too low, minimum bid is ${minBid}",
+				"trans": "最低出价太低，最低出价为${minBid}"
+			}
+		},
+		"itemExpired": {
+			"eng": "Your item ${item} has expired on market with no bidder, and has been returned to your delivery interface",
+			"trans": "您的物品${item}在市场上已到期且无人竞标，已退回到您的交付介面。"
+		},
+		"itemSold": {
+			"bidderMsg": {
+				"eng": "You have won the bid for ${item}. the item has been sent to your item delivery interface",
+				"trans": "您已赢得${item}的竞标，该物品已传送到您的物品交付介面。"
+			},
+			"ownerMsg": {
+				"eng": "${item} has been sold on market to the highest bidder for ${price}, you received ${afterTax} (${price} - ${tax}% tax)",
+				"trans": "${item}已卖给最高竞标者，您收到了${afterTax}（${price} - ${tax}% 税）"
+			}
+		}
+	},
+	"marketItemDetailsModal": {
+		"cantRemoveBid": {
+			"eng": "This item has a bid and can\\'t be removed",
+			"trans": "此物品有人竞标，无法移除"
+		},
+		"cantRemoveTime": {
+			"eng": "This item has been on market for more than ${time} minutes and can\\'t be removed",
+			"trans": "此物品已在市场上超过${time}分钟，无法移除"
+		},
+		"removeButton": {
+			"eng": "Remove from market",
+			"trans": "从市场移除"
+		}
+	},
+	"marketItemList": {
+		"header": {
+			"buyout": {
+				"eng": "Buyout",
+				"trans": "买断"
+			},
+			"currentBid": {
+				"eng": "Bid",
+				"trans": "竞标"
+			},
+			"item": {
+				"eng": "Item",
+				"trans": "物品"
+			},
+			"time": {
+				"eng": "Time Left",
+				"trans": "剩馀时间"
+			}
+		}
+	},
+	"marketItemListPage": {
+		"error": {
+			"alreadyBid": {
+				"eng": "You have already placed a bid on this item",
+				"trans": "您已经竞标过这个物品了。"
+			},
+			"ownItem": {
+				"eng": "You cannot bid on your own item",
+				"trans": "您无法竞标自己的商品。"
+			}
+		},
+		"noItem": {
+			"eng": "There is no item",
+			"trans": "没有物品。"
+		}
+	},
+	"marketPurchaseModal": {
+		"bidInput": {
+			"title": {
+				"eng": "Enter your bid",
+				"trans": "输入您的竞标"
+			}
+		},
+		"buyout": {
+			"eng": "Buyout with ${symbol}${buyOutPrice}",
+			"trans": "以${symbol}${buyOutPrice}购买"
+		},
+		"confirmButton": {
+			"eng": "Confirm",
+			"trans": "确认"
+		},
+		"error": {
+			"notEnoughCurrency": {
+				"eng": "You do not have enough currency to place this bid",
+				"trans": "您的货币不足以进行此竞标"
+			}
+		},
+		"tip": {
+			"eng": "Each equipment can only be traded on the market ${amount} time, after that it will become not tradable.",
+			"trans": "每件装备只能在市场上交易${amount}次，之后将无法交易。"
+		}
+	},
+	"marketPutItemPage": {
+		"amount": {
+			"title": {
+				"eng": "Sell Quantity",
+				"trans": "出售数量"
+			}
+		},
+		"averagePrice": {
+			"title": {
+				"eng": "Average price for ${amount} ${itemType} on market is ${total}",
+				"trans": "市场上${amount}个${itemType}的平均价格为${total}"
+			}
+		},
+		"buyout": {
+			"title": {
+				"eng": "Buyout",
+				"trans": "买断"
+			}
+		},
+		"duration": {
+			"title": {
+				"eng": "Select registration duration",
+				"trans": "选择注册期限"
+			}
+		},
+		"error": {
+			"noItemSelected": {
+				"eng": "Please select an item to put on the market",
+				"trans": "请选择要上架的物品。"
+			},
+			"noPrice": {
+				"eng": "Please set minimum bid or buyout price",
+				"trans": "请设定最低竞标或买断价格"
+			}
+		},
+		"itemSelect": {
+			"title": {
+				"eng": "Select item",
+				"trans": "选择物品"
+			}
+		},
+		"noItem": {
+			"description": {
+				"eng": "Please select an item to put on the market",
+				"trans": "请选择一件物品放到市场上。"
+			},
+			"title": {
+				"eng": "No item selected",
+				"trans": "未选择物品"
+			}
+		},
+		"putItemButton": {
+			"title": {
+				"eng": "Put item on market",
+				"trans": "上架物品"
+			}
+		},
+		"tip": {
+			"eng": "Items you list in the market will initially have a withdrawal period of ${minute} minutes, during which no one can place a bid. After this withdrawal period ends, the system will require a minimum bid difference of at least ${minBidDiff} compared to the previous highest bid.",
+			"trans": "您在市场上列出的物品将有一个初始的撤销期，为${minute}分钟，期间内无法竞标。撤销期结束后，系统将参考之前的最高竞价，设定最低差额至少为${minBidDiff}。"
+		},
+		"useBid": {
+			"title": {
+				"eng": "Starting bid",
+				"trans": "起始标价"
+			}
+		}
+	},
+	"marketPutItemPopup": {
+		"error": {
+			"itemLocked": {
+				"eng": "This item is locked, please unlock it before putting it on the market",
+				"trans": "这件物品被加密，请在上架前解锁"
+			}
+		},
+		"selectItemModal": {
+			"title": {
+				"eng": "Select item to put on market",
+				"trans": "选择要上架的物品"
+			}
+		}
+	},
+	"marketSearchFilterModal": {
+		"applyButton": {
+			"title": {
+				"eng": "Apply",
+				"trans": "套用"
+			}
+		},
+		"maxLevelInput": {
+			"title": {
+				"eng": "MaxLevel",
+				"trans": "最高等级"
+			}
+		},
+		"minLevelInput": {
+			"title": {
+				"eng": "MinLevel",
+				"trans": "最低等级"
+			}
+		},
+		"tierInput": {
+			"all": {
+				"eng": "All",
+				"trans": "全部"
+			},
+			"title": {
+				"eng": "Tier",
+				"trans": "阶级"
+			}
+		},
+		"title": {
+			"eng": "Filters",
+			"trans": "筛选器"
+		}
+	},
+	"mercenary": {
+		"error": {
+			"firstDraw": {
+				"eng": "You have to draw 10 mercenaries first",
+				"trans": "你必须先抽取10名佣兵"
+			},
+			"notEnoughSpace": {
+				"eng": "You have too many mercenaries now, you may upgrade the space by getting a better apartment.",
+				"trans": "您现在的佣兵太多了，您可以透过租一间更好的公寓来增加空间。"
+			}
+		},
+		"upgradeLevelError": {
+			"eng": "Level up to increase your mercenary's max level",
+			"trans": "升等以提高佣兵的最高等级"
+		}
+	},
+	"mercenaryDetails": {
+		"ability": {
+			"title": {
+				"eng": "Ability",
+				"trans": "能力"
+			}
+		},
+		"breakthrough": {
+			"eng": "Breakthrough",
+			"trans": "突破 (tū pò)\n\n"
+		},
+		"deleteMercenary": {
+			"eng": "Are you sure you want to dismiss this mercenary?",
+			"trans": "您确定要解僱这名佣兵吗？"
+		},
+		"deleteMercenaryConfirm": {
+			"eng": "Dismiss now",
+			"trans": "马上解僱"
+		},
+		"deleteMercenaryMessage2": {
+			"eng": "You will irreversibly lose all progress on this mercenary but a portion of resources spend will be returned.",
+			"trans": "您将永久失去此佣兵的所有进度，但部分已花费的资源将会退还。"
+		},
+		"dismiss": {
+			"eng": "Dismiss",
+			"trans": "解僱"
+		},
+		"level": {
+			"eng": "Level",
+			"trans": "等级"
+		},
+		"levelUp": {
+			"eng": "Level Up",
+			"trans": "升等"
+		},
+		"stats": {
+			"title": {
+				"eng": "stats",
+				"trans": "数据统计"
+			}
+		},
+		"statsHeader": {
+			"current": {
+				"eng": "Current Level",
+				"trans": "目前等级"
+			},
+			"nextLevel": {
+				"eng": "Next Level",
+				"trans": "下一级"
+			}
+		}
+	},
+	"mercenaryDismissPage": {
+		"confirmModal": {
+			"confirmText": {
+				"eng": "Dismiss",
+				"trans": "解僱"
+			},
+			"description": {
+				"eng": "Are you sure you want to dismiss the selected mercenaries?",
+				"trans": "您确定要解僱所选的佣兵吗？"
+			},
+			"title": {
+				"eng": "Confirm Dismiss",
+				"trans": "确认解僱"
+			}
+		},
+		"description": {
+			"eng": "Dismissed mercenaries will be lost forever. However, you will receive a portion of the spent resources based on rarity.",
+			"trans": "解僱的佣兵将永远失去。不过您将根据稀有度获得一部分已使用的资源。"
+		},
+		"dismiss": {
+			"eng": "Dismiss",
+			"trans": "解僱"
+		},
+		"noMercenaries": {
+			"eng": "No available mercenaries",
+			"trans": "没有可用的佣兵"
+		},
+		"title": {
+			"eng": "Dismiss Mercenary",
+			"trans": "解僱佣兵"
+		}
+	},
+	"mercenaryDrawPage": {
+		"dropRateModal": {
+			"title": {
+				"eng": "Drop Rate",
+				"trans": "掉落率"
+			}
+		},
+		"manageMercenary": {
+			"eng": "Manage Mercenary",
+			"trans": "管理佣兵"
+		},
+		"recruitMaxError": {
+			"eng": "You cannot recruit more than ${max} mercenaries, you can increase the max mercenary by renting a better apartment. or you may dismiss your unwanted mercenary for resources.",
+			"trans": "您无法招募超过${max}名佣兵，您可以透过租用更好的公寓来增加最大佣兵数量。或者您可以为了资源解僱您不想要的佣兵。"
+		},
+		"recruitOne": {
+			"eng": "Recruit one",
+			"trans": "招募1名"
+		},
+		"recruitOneDescription": {
+			"eng": "one mercenary",
+			"trans": "一名佣兵"
+		},
+		"recruitTen": {
+			"eng": "Recruit 10",
+			"trans": "招募10名"
+		},
+		"recruitTenDescription": {
+			"eng": "one 4 star or higher mercenary is guaranteed",
+			"trans": "保证至少一名四星或更高星级的佣兵"
+		},
+		"skipAnimation": {
+			"eng": "Skip Animation",
+			"trans": "跳过动画"
+		}
+	},
+	"mercenaryFilterModal": {
+		"common": {
+			"eng": "Common",
+			"trans": "普通\n\n"
+		},
+		"epic": {
+			"eng": "Epic",
+			"trans": "史诗"
+		},
+		"leveled": {
+			"eng": "Ignore Leveled Up Mercenaries",
+			"trans": "忽略升级的佣兵"
+		},
+		"mythic": {
+			"eng": "Mythic",
+			"trans": "神话\n\n"
+		},
+		"rare": {
+			"eng": "Rare",
+			"trans": "稀有"
+		},
+		"uncommon": {
+			"eng": "Uncommon",
+			"trans": "高级\n\n"
+		},
+		"unique": {
+			"eng": "Unique",
+			"trans": "独特"
+		}
+	},
+	"mercenaryLevelDisplay": {
+		"levelUp": {
+			"eng": "Enhance",
+			"trans": "强化"
+		},
+		"upgrade": {
+			"eng": "Upgrade",
+			"trans": "升级"
+		}
+	},
+	"mercenaryListPage": {
+		"description": {
+			"eng": "Contact capacity: ${current} / ${max}",
+			"trans": "联络人容量：${current} / ${max}"
+		},
+		"hireMercenary": {
+			"eng": "Recruit Mercenaries",
+			"trans": "招募佣兵"
+		},
+		"multiSelectOptions": {
+			"dismiss": {
+				"confirmTitle": {
+					"eng": "Dismiss ${count} mercenaries?",
+					"trans": "是否解雇${count}名佣兵？"
+				},
+				"title": {
+					"eng": "Dismiss",
+					"trans": "解僱"
+				}
+			},
+			"selectUncommonBelow": {
+				"title": {
+					"eng": "Auto Select",
+					"trans": "自动选择"
+				}
+			}
+		},
+		"noMercenaries": {
+			"eng": "You do not have any mercenaries in your contact",
+			"trans": "您的联络人中没有佣兵。"
+		},
+		"tip": {
+			"default": {
+				"eng": "Dismiss mercenaries to receive ${enhancer} and ${upgrade} base on their level and stars.",
+				"trans": "解僱佣兵以依据他们的等级和星等获得${enhancer}和${upgrade}。"
+			},
+			"noLevelUp": {
+				"eng": "Level up your mercenaries to improve their stats and ability",
+				"trans": "提升您的佣兵等级，以改善他们的属性和能力"
+			},
+			"noMercenaries": {
+				"eng": "You can recruit mercenaries from the Red Bar.",
+				"trans": "您可以从霓虹酒吧招募佣兵。"
+			}
+		},
+		"title": {
+			"eng": "Mercenary Contact List",
+			"trans": "佣兵联络人清单"
+		}
+	},
+	"mercenaryReceivePopup": {
+		"nextButton": {
+			"eng": "next",
+			"trans": "下一步"
+		},
+		"skipButton": {
+			"eng": "skip",
+			"trans": "跳过"
+		}
+	},
+	"mercenaryReceiveSummaryPopup": {
+		"continue": {
+			"eng": "Click to continue",
+			"trans": "点击以继续"
+		},
+		"title": {
+			"eng": "Mercenaries",
+			"trans": "佣兵"
+		}
+	},
+	"mercenarySelectPopup": {
+		"confirmButton": {
+			"title": {
+				"eng": "confirm",
+				"trans": "确认"
+			}
+		},
+		"noMercenaries": {
+			"eng": "No available mercenaries",
+			"trans": "没有可用的佣兵。"
+		}
+	},
+	"mercenaryType": {
+		"bountyHunter": {
+			"description": {
+				"eng": "A bounty hunter is a mercenary who uses their skills to hunt down their enemies",
+				"trans": "赏金猎人是能使用其技能追踪敌人的佣兵。"
+			},
+			"displayName": {
+				"eng": "Bounty Hunter",
+				"trans": "赏金猎人"
+			}
+		},
+		"netrunner": {
+			"description": {
+				"eng": "A netrunner is a hacker who uses their skills to infiltrate computer systems",
+				"trans": "网路行者是一名利用其技能渗透电脑系统的骇客。"
+			},
+			"displayName": {
+				"eng": "Netrunner",
+				"trans": "网路行者"
+			}
+		},
+		"protector": {
+			"description": {
+				"eng": "A protector is a mercenary who uses their skills to protect their allies",
+				"trans": "守护者是一名佣兵，利用他们的技能保护他们的盟友。"
+			},
+			"displayName": {
+				"eng": "Protector",
+				"trans": "守护者"
+			}
+		}
+	},
+	"mercenaryUpgradeResultPopup": {
+		"title": {
+			"eng": "Enhanced",
+			"trans": "已强化"
+		}
+	},
+	"messageContainer": {
+		"developer": {
+			"eng": "Developer",
+			"trans": "开发者"
+		},
+		"noMessages": {
+			"eng": "No messages yet",
+			"trans": "暂时没有讯息。"
+		},
+		"system": {
+			"eng": "System",
+			"trans": "系统"
+		}
+	},
+	"messageToken": {
+		"joinClanRequest": {
+			"button": {
+				"eng": "Send Invite",
+				"trans": "传送邀请"
+			},
+			"confirm": {
+				"eng": "Invite now",
+				"trans": "立即邀请"
+			},
+			"description": {
+				"eng": "Invite ${player} to your gang",
+				"trans": "邀请${player}加入您的帮派"
+			},
+			"selfClickError": {
+				"eng": "This button is for others to click to invite you, to accept invites please click on accept button in notification center (bell icon in top right corner of main screen",
+				"trans": "这个按钮是让其他人点击来邀请你，要接受邀请请点击通知中心（主画面右上角的铃铛图示）的接受按钮。"
+			},
+			"title": {
+				"eng": "Send invite?",
+				"trans": "传送邀请？"
+			}
+		}
+	},
+	"minigame": {
+		"tileTrack": {
+			"tip": {
+				"eng": "Click on the highlighted button to unlock",
+				"trans": "点击高亮按钮以解锁"
+			}
+		},
+		"timingUnlock": {
+			"tip": {
+				"eng": "Activate all dots to unlock by clicking. The dots will rotate faster and faster.",
+				"trans": "点击以激活所有点以解锁。点会旋转得越来越快。"
+			}
+		}
+	},
+	"misc": {
+		"blackMarketCurrencyName": {
+			"eng": "Netcoin",
+			"trans": "网币"
+		},
+		"claim": {
+			"eng": "Claim",
+			"trans": "领取"
+		},
+		"claimed": {
+			"eng": "Claimed",
+			"trans": "已领取"
+		},
+		"confirm": {
+			"eng": "Confirm",
+			"trans": "确认\n\n"
+		},
+		"craft": {
+			"eng": "craft",
+			"trans": "制作"
+		},
+		"currencyName": {
+			"eng": "Eurodollars",
+			"trans": "欧元"
+		},
+		"exchange": {
+			"eng": "Exchange",
+			"trans": "交易所"
+		},
+		"exp": {
+			"eng": "EXP",
+			"trans": "经验值"
+		},
+		"free": {
+			"eng": "Free",
+			"trans": "免费"
+		},
+		"gameName": {
+			"eng": "Arclight City",
+			"trans": "幻光之城"
+		},
+		"loading": {
+			"eng": "loading",
+			"trans": "载入中"
+		},
+		"mercExpCurrencyDescription": {
+			"eng": "A nano-machine injection device created by TaiXing Cybernetics, providing unparalleled upgrades to cybernetic abilities. Inject into the neck for enhanced performance.",
+			"trans": "由台芯电驭制造的奈米机器注射装置，为电驭能力提供无与伦比的升级。注射到颈部以提高性能"
+		},
+		"mercExpCurrencyName": {
+			"eng": "Cybernetic Enhancer",
+			"trans": "电驭增强器"
+		},
+		"multiSelect": {
+			"eng": "Multi Select",
+			"trans": "多选"
+		},
+		"normalCurrencyName": {
+			"eng": "Eurodollars",
+			"trans": "欧元"
+		},
+		"open": {
+			"eng": "open",
+			"trans": "开启"
+		},
+		"premiumCurrencyName": {
+			"eng": "Universal Dollars",
+			"trans": "通用币"
+		},
+		"purchase": {
+			"eng": "Purchase",
+			"trans": "购买"
+		},
+		"selectAll": {
+			"eng": "All",
+			"trans": "全部"
+		},
+		"unlock": {
+			"eng": "unlock",
+			"trans": "解锁"
+		},
+		"upgrade": {
+			"eng": "upgrade",
+			"trans": "升级"
+		}
+	},
+	"modal": {
+		"selectAmountModal": {
+			"cancel": {
+				"eng": "cancel",
+				"trans": "取消"
+			},
+			"confirm": {
+				"eng": "confirm",
+				"trans": "确认"
+			},
+			"invalidAmount": {
+				"eng": "Amount must be between ${min} and ${max}",
+				"trans": "金额无效。",
+				"vars": []
+			}
+		}
+	},
+	"moderation": {
+		"error": {
+			"eng": "Your motto contains inappropriate words",
+			"trans": "您的座右铭包含不适当的词语"
+		},
+		"serviceDown": {
+			"eng": "Motto editing is temporally disabled due to external service downtime, please try again later",
+			"trans": "因外部服务暂时停止，座右铭编辑功能暂时无法使用，请稍后再试。"
+		}
+	},
+	"notification": {
+		"apartmentInvite": {
+			"alreadyInvitedError": {
+				"eng": "You have already invited this player",
+				"trans": "您已经邀请过这位玩家了"
+			},
+			"message": {
+				"eng": "${playerName} has invited you to their apartment.",
+				"trans": "${playerName} 邀请您到他们的公寓。"
+			}
+		},
+		"clanInvite": {
+			"alreadyInvitedError": {
+				"eng": "You have already invited this player",
+				"trans": "您已经邀请过这个玩家了。"
+			},
+			"message": {
+				"eng": "${playerName} has invited you to their gang ${clanName}.",
+				"trans": "${playerName}邀请您加入他们的帮派${clanName}。"
+			}
+		},
+		"lobbyInvite": {
+			"alreadyInvitedError": {
+				"eng": "You have already invited this player",
+				"trans": "您已经邀请过这位玩家了。"
+			},
+			"message": {
+				"eng": "${playerName} has invited you to their stronghold lobby.",
+				"trans": "${playerName}邀请您加入他们的地城大厅。"
+			},
+			"title": {
+				"eng": "Stronghold Lobby Invite",
+				"trans": "地城大厅邀请"
+			}
+		}
+	},
+	"notificationPage": {
+		"apartmentInvite": {
+			"notIdle": {
+				"eng": "You are not idle",
+				"trans": "您不在闲置中"
+			}
+		},
+		"clanInvite": {
+			"alreadyInClan": {
+				"eng": "You are already in a gang",
+				"trans": "您已经加入一个帮派了"
+			}
+		},
+		"lobbyInvite": {
+			"accept": {
+				"eng": "Accept",
+				"trans": "接受"
+			},
+			"decline": {
+				"eng": "Decline",
+				"trans": "拒绝"
+			}
+		},
+		"noNotification": {
+			"title": {
+				"eng": "No notification",
+				"trans": "无通知"
+			}
+		}
+	},
+	"npc": {
+		"bar": {
+			"description": {
+				"eng": "Popular bar amounts mercenaries, you can find Chloe here and meet other mercenaries",
+				"trans": "聚集了许多佣兵的热门酒吧，您可以在这里找到Chloe并认识其他佣兵。"
+			},
+			"greetings": {
+				"eng": [
+					"What can I get for you?",
+					"Make it quick, I don't have all day.",
+					"You're not from around here, are you?",
+					"I don't do small talk, what do you want to drink?",
+					"You're not the chatty type, I like that. What can I get you?"
+				],
+				"trans": [
+					"我能为您做什么？",
+					"快点，我没有一整天可以耗。",
+					"您不是本地人，对吧？",
+					"我不喜欢闲聊，您想喝什么？",
+					"您不是那种爱说话的人，我喜欢。您想要点什么？"
+				]
+			},
+			"locationName": {
+				"eng": "Red Bar",
+				"trans": "霓虹酒吧"
+			},
+			"npcName": {
+				"eng": "Chloe",
+				"trans": "克萝伊"
+			},
+			"questCooldownLines": {
+				"eng": [
+					"Come back later, I have nothing for you right now.",
+					"Afraid I'm fresh out of gigs, hon. Come back another time.",
+					"Sorry, darling. The quest shelf is empty at the moment. Swing by later."
+				],
+				"trans": [
+					"稍后再来，我现在没有任何任务给您。",
+					"很抱歉，我现在没有任何任务，亲爱的。请另选时间再来。",
+					"抱歉，亲爱的。目前任务架上是空的。稍后再来看看吧。"
+				]
+			},
+			"questLines": {
+				"eng": [
+					"Up for new gigs?"
+				],
+				"trans": [
+					"准备好接收新的工作了吗？"
+				]
+			},
+			"questPendingLines": {
+				"eng": [
+					"Let me know when you have completed the objectives :)"
+				],
+				"trans": [
+					"当任务完成后请通知我 :)"
+				]
+			}
+		},
+		"blackMarket": {
+			"browseButton": {
+				"description": {
+					"lowLevel": {
+						"eng": "You need to be at least level ${level} to put item to the market",
+						"trans": "您需要达到至少${level}等才能将物品放到市场上"
+					},
+					"noApartment": {
+						"eng": "You need an apartment to use the market",
+						"trans": "您需要一间公寓才能使用市场"
+					}
+				},
+				"title": {
+					"eng": "Browse the market",
+					"trans": "浏览市场"
+				}
+			},
+			"description": {
+				"eng": "A discreet trading post for mercs of ArcLight City, you can sell and buy items here with Ren.",
+				"trans": "一个为幻光之城佣兵打造的低调贸易站，您可以跟仁交易物品。"
+			},
+			"greetings": {
+				"eng": [
+					"Welcome to the underbelly of this city. Hope you've got something worth trading.",
+					"Auction night is always full of surprises. Are you ready to bid on your fate?",
+					"They say in the black market, you can buy anything, even your own salvation. What's your salvation worth to you?"
+				],
+				"trans": [
+					"欢迎来到这个城市的黑暗面。希望你有值得交易的东西。",
+					"拍卖之夜总是充满惊喜。你准备好竞标你的命运了吗？",
+					"他们说在黑市上，你可以买到任何东西，甚至是自己的救赎。你的救赎对你来说值多少钱？"
+				]
+			},
+			"locationName": {
+				"eng": "Black Market",
+				"trans": "黑市"
+			},
+			"myStuffButton": {
+				"eng": "show me my stuff on the market",
+				"trans": "显示我在市场上的物品"
+			},
+			"npcName": {
+				"eng": "Ren",
+				"trans": "仁"
+			},
+			"questCooldownLines": {
+				"eng": [
+					"Not at the moment, chromehead. But don't sweat it. I'll hit you up when I've got a job that suits your skill set.",
+					"Nada right now, but don't go rebootin' just yet. I'll drop a line when I've got somethin' spicy to offer. Patience, choomba.",
+					"No gigs on tap, sweetheart. But stay frosty, 'cause I'll give you a holla when a sweet opportunity slides my way."
+				],
+				"trans": [
+					"暂时没有工作，老哥。但别担心。等我找到适合您技能的工作时，我会联络您的。",
+					"现在没料，但还不要重新启动。等我有什么好东西时，我会通知您。耐心点，伙计。",
+					"甜心，目前没有任何任务。但保持警觉，因为当有一个好机会出现时，我会通知您。"
+				]
+			},
+			"questLines": {
+				"eng": [
+					"Up for new gigs?"
+				],
+				"trans": [
+					"有新任务吗？"
+				]
+			},
+			"questPendingLines": {
+				"eng": [
+					"Quit wasting my time, unless you have done your job."
+				],
+				"trans": [
+					"除非您已经完成您的工作，否则不要浪费我的时间。"
+				]
+			},
+			"tipBox": {
+				"eng": "You can sell your items here to other players, or buy items from other players.",
+				"trans": "您可以在这里将物品卖给其他玩家，或是向其他玩家购买物品。"
+			}
+		},
+		"clinic": {
+			"description": {
+				"eng": "If you are injured, you can visit Oriana to fix you up, with a price of course.",
+				"trans": "如果您受伤了，您可以拜访奥莉安娜治疗您的伤口，当然不是免费的。"
+			},
+			"greetings": {
+				"eng": [
+					"Upgrade some chromes today choom?"
+				],
+				"trans": [
+					"今天要升级一下装备吗，伙计？"
+				]
+			},
+			"locationName": {
+				"eng": "Ripperdoc",
+				"trans": "电驭医生"
+			},
+			"npcName": {
+				"eng": "Oriana",
+				"trans": "奥莉安娜"
+			},
+			"questCooldownLines": {
+				"eng": [
+					"No gigs for you, rookie. But don't wander too far. I've got a knack for stumbling upon trouble, and I'll make sure you're front and center when the time comes.",
+					"No jobs at the moment, but don't go rebootin' just yet. I'll drop a line when I've got somethin' spicy to offer. Patience, choomba.",
+					"Looking for a fix, huh? Sorry, no new quests on my operating table. But I'll keep your name on file for when I've got a job that needs some... delicate extraction."
+				],
+				"trans": [
+					"菜鸟，没有任务给您。但别走得太远。我很擅长碰上麻烦，到时候我会确保您也参一咖。",
+					"现在没料，但还不要重新启动。等我有什么好东西时，我会通知您。耐心点，伙计。",
+					"找解决方法，是吗？抱歉，在我的手术台上没有新的任务。但是我会把您的名字留下以防我需要一些...细致的提取工作。"
+				]
+			},
+			"questLines": {
+				"eng": [
+					"Up for new gigs?"
+				],
+				"trans": [
+					"有新的任务吗？"
+				]
+			},
+			"questPendingLines": {
+				"eng": [
+					"Let me know when you have completed the objectives :)"
+				],
+				"trans": [
+					"完成任务后请告诉我 :)"
+				]
+			},
+			"shopLines": {
+				"eng": [
+					"Don't just look, buy something."
+				],
+				"trans": [
+					"不要光是看，买点东西。"
+				]
+			}
+		},
+		"dailyReward": {
+			"greetings": {
+				"eng": [
+					"Hey there, stranger! Are you ready for a little boost to help you on your journey today?",
+					"Welcome back, hon! I've got some exciting things for you to help you kick some virtual butt today.",
+					"Hey, you! Don't forget to check in with me every day for some sweet loots to make your gameplay even more epic.",
+					"Well, well, well...look who decided to log in today! I've got something that I think you're going to love.",
+					"Greetings, fellow adventurer! Let's see what kind of loot we can scavenge for you today.",
+					"Hey, there! Feeling lucky today? I've got some rewards that just might make your day a little brighter.",
+					"Howdy, partner! I'm feeling extra generous today. Don't miss out on some top-notch gear.",
+					"Welcome back, my friend! Let's see what kind of treasure we can dig up for you today.",
+					"Salutations! I hope you're ready for some loot that's out of this world today.",
+					"Good day, mate! It's always a pleasure to see you. Let's make today a good one with some fantastic rewards."
+				],
+				"trans": [
+					"嘿，陌生人！您今天准备好得到一点旅程上的助力了吗？",
+					"欢迎回来，亲爱的！我有一些令人兴奋的东西，可以帮助您揍些虚拟敌人。",
+					"嘿，您！不要忘记每天与我联系，以获得一些甜美的战利品，让您的游戏体验更加棒棒。",
+					"嘿嘿嘿...看看今天决定上线的是谁！我有一些东西，我认为您会喜欢。",
+					"您好，冒险家！让我们看看今天能为您搜刮到什么样的战利品。",
+					"嘿！今天心情如何？我有一些奖励，可能会让您的一天更加美好。",
+					"您好，伙伴！我今天感觉十分慷慨。不要错过一些最顶的装备。",
+					"欢迎回来，我的朋友！让我们看看今天能为您挖掘出什么样的宝藏。",
+					"安安！我希望您今天已经准备好迎接丰厚的物资了。",
+					"您好，伙伴！见到您总是很愉快。让我们用一些惊人的奖励把今天变得更美好。"
+				]
+			},
+			"npcName": {
+				"eng": "Hana",
+				"trans": "哈娜"
+			}
+		},
+		"dev": {
+			"bugReportButton": {
+				"eng": "Report Bug",
+				"trans": "回报错误"
+			},
+			"feedbackButton": {
+				"description": {
+					"eng": "Take a survey to earn reward and give your feedback!",
+					"trans": "参加问卷调查以获得奖励并提供您的回馈！"
+				},
+				"title": {
+					"eng": "Take Survey",
+					"trans": "填写问卷"
+				}
+			},
+			"greetings": {
+				"eng": [
+					"Welcome to my game! let me know if you have any feedbacks or bug report :)"
+				],
+				"trans": [
+					"欢迎来到我的游戏！如果有任何意见或错误报告，请告诉我 :)"
+				]
+			}
+		},
+		"dungeonSeller": {
+			"npcName": {
+				"eng": "Shadow Merchant",
+				"trans": "暗影商人"
+			},
+			"shopName": {
+				"eng": "Shadow Merchant",
+				"trans": "暗影商人"
+			}
+		},
+		"functionality": {
+			"clinic": {
+				"eng": "Clinic",
+				"trans": "诊所"
+			},
+			"market": {
+				"eng": "Player market",
+				"trans": "玩家市场"
+			},
+			"mercenary": {
+				"eng": "Mercenary",
+				"trans": "佣兵"
+			},
+			"quest": {
+				"eng": "Quest",
+				"trans": "任务"
+			},
+			"repair": {
+				"eng": "Repair",
+				"trans": "修复"
+			},
+			"shop": {
+				"eng": "Shop",
+				"trans": "商店"
+			},
+			"upgrade": {
+				"eng": "Upgrade",
+				"trans": "升级"
+			}
+		},
+		"generalStore": {
+			"description": {
+				"eng": "A general store, you can purchase common items here",
+				"trans": "一般商店，您可以在这里购买常见物品"
+			},
+			"greetings": {
+				"eng": [
+					"Hey there, welcome to my store!"
+				],
+				"trans": [
+					"嘿，欢迎来到我的商店！"
+				]
+			},
+			"locationName": {
+				"eng": "Lilith's Store",
+				"trans": "莉莉丝商店"
+			},
+			"npcName": {
+				"eng": "Lilith",
+				"trans": "莉莉丝"
+			},
+			"questCooldownLines": {
+				"eng": [
+					"Aw, sugar, I'm all outta gigs for ya right now. But don't you worry, I'll have somethin' juicy for ya soon enough.",
+					"Sorry, hon, no quests on the menu for ya at the moment. But keep that shiny chrome eye open, 'cause I'll have somethin' worth your time real soon.",
+					"Aww, darlin', you caught me at a bad time. No quests to offer, but I promise I'll hook you up with some wicked adventures before you know it.",
+					"Sweetheart, my quest bank's runnin' a little dry right now. But keep swingin' by, 'cause I'll whip up somethin' spicy just for you soon."
+				],
+				"trans": [
+					"啊，可惜，我现在没有任何任务给您。但别担心，我很快就会给您一个有趣的任务。",
+					"对不起，亲爱的，目前没有任务供您选择。但请保持警觉，因为我很快就会有一些值得您花时间的事情。",
+					"啊，亲爱的，您选错了时间找我。我现在无法提供任何任务，但我保证在您知道之前，我就会给您一些惊人的冒险。",
+					"亲爱的，我的任务银行现在有点破产了。但有空就来看看，因为我很快就会为您准备一些好料。"
+				]
+			},
+			"questLines": {
+				"eng": [
+					"Could you do this for me?"
+				],
+				"trans": [
+					"您能为我做这件事吗？"
+				]
+			},
+			"questPendingLines": {
+				"eng": [
+					"Let me know when you have completed the objectives :)"
+				],
+				"trans": [
+					"完成目标后请让我知道 :)"
+				]
+			},
+			"shopName": {
+				"eng": "Lilith\\'s Store",
+				"trans": "莉莉丝商店"
+			}
+		},
+		"healRestored": {
+			"eng": "Your health have been restored",
+			"trans": "您的生命值已恢复。"
+		},
+		"mercDraw1": {
+			"greetings": {
+				"eng": [
+					"Ready for action? Meet your new crewmates.",
+					"Time to level up. Your new crewmates are here.",
+					"The dream team? These are your new crewmates.",
+					"Welcome aboard. Meet the crewmates you'll be working with.",
+					"You're in good hands. These are your new crewmates.",
+					"New job, new crew. Meet your teammates.",
+					"Mission critical. These are your new crewmates.",
+					"New allies in the fight. Meet your crewmates.",
+					"Looking for a crew? You just found your new teammates.",
+					"Teamwork makes the dream work. Meet your new crewmates."
+				],
+				"trans": [
+					"准备好行动了吗？来见见您的新队员。",
+					"升等的时候到了。您的新队友已经抵达。",
+					"梦幻团队？这是您的新队员。",
+					"欢迎加入，这是您要与之合作的小组成员。",
+					"您会得到很好的照顾。这些是您的新队员。",
+					"新工作，新队伍。来认识您的队友。",
+					"任务的关键。这些是您的新队员。",
+					"在战斗中结识新盟友。与您的队员会面。",
+					"在找队友吗？您找对地方了，这就是您的新战友。",
+					"团队合作才能实现梦想。来认识您的新队友吧。"
+				]
+			},
+			"npcName": {
+				"eng": "Whisperer",
+				"trans": "轻语者"
+			}
+		},
+		"mercenaryButton": {
+			"eng": "I am looking for new crew members",
+			"trans": "我正在寻找新的队伍成员"
+		},
+		"premiumShop": {
+			"browseButton": {
+				"eng": "Premium Shop",
+				"trans": "高级商店"
+			}
+		},
+		"questButton": {
+			"eng": "Is there something I can help?",
+			"trans": "有什么我可以帮忙的吗？"
+		},
+		"recoverItemButton": {
+			"eng": "Gonna need my stuff back",
+			"trans": "我需要我的东西回来"
+		},
+		"repairButton": {
+			"eng": "Repair my equipment",
+			"trans": "修复我的装备"
+		},
+		"shopButton": {
+			"eng": "I want to buy something",
+			"trans": "我想买东西"
+		},
+		"upgradeButton": {
+			"eng": "Upgrade my equipment",
+			"trans": "升级我的装备"
+		},
+		"weaponSmith": {
+			"description": {
+				"eng": "A local arms dealer, quality and price is guaranteed. You can upgrade and calibrate your items here too.",
+				"trans": "一位当地的军火商，品质和价格都有保证。您还可以在这里升级和校准您的物品。"
+			},
+			"dismantleButton": {
+				"eng": "Dismantle items",
+				"trans": "拆解物品"
+			},
+			"greetings": {
+				"eng": [
+					"Wanna calibrate your irons?",
+					"You break it, I fix it.\n You break it again, I break you.",
+					"I'm the best in the business. You want something done right, you come to me."
+				],
+				"trans": [
+					"想要校准您的吃饭家伙吗？",
+					"您弄坏它，我修理它。\n您再弄坏它，我就修理您。",
+					"我是这行中的佼佼者。想要最好的，就来找我。"
+				]
+			},
+			"locationName": {
+				"eng": "Weapon Smith",
+				"trans": "武器锻造师"
+			},
+			"npcName": {
+				"eng": "Maxine",
+				"trans": "玛克心"
+			},
+			"questCooldownLines": {
+				"eng": [
+					"Looking for a gig, huh? Sorry, nothing on my radar right now. Check back later, maybe I'll have something worth your while.",
+					"Listen up, slick, I'm all tapped out on quests. Come back when I've restocked.",
+					"Looking for action, huh? Well, tough luck. No jobs for you at the moment, slick."
+				],
+				"trans": [
+					"在找工作吗？抱歉，我目前没有任何消息。稍后再来看看，也许我会有一些值得您关注的事情。",
+					"听着，老兄，我已经没有任务了。等我补货后再来吧。",
+					"在找刺激吗？唉，太衰了。目前没有工作给您，帅哥。"
+				]
+			},
+			"questLines": {
+				"eng": [
+					"Up for new gigs?"
+				],
+				"trans": [
+					"有新的工作吗？"
+				]
+			},
+			"questPendingLines": {
+				"eng": [
+					"Let me know when you have completed the objectives :)"
+				],
+				"trans": [
+					"完成目标后请告知我 :)"
+				]
+			},
+			"shopLines": {
+				"eng": [
+					"Seeking an edge in the city? You've come to the right place.",
+					"I'll fix you up real nice, no questions asked."
+				],
+				"trans": [
+					"在城市中寻求优势？您来对地方了。",
+					"我会帮您修好的，不问多馀问题。"
+				]
+			},
+			"shopName": {
+				"eng": "Maxine\\'s Shop",
+				"trans": "玛克心的商店"
+			}
+		}
+	},
+	"npcListPage": {
+		"description": {
+			"eng": "Here you can find all the shops and services in the city.",
+			"trans": "在这里您可以找到城市中所有商店和服务。"
+		},
+		"lockedMessage": {
+			"eng": "Unlocked at level ${levelRequired}",
+			"trans": "在${levelRequired}等解锁",
+			"vars": []
+		},
+		"title": {
+			"eng": "City Center",
+			"trans": "市中心"
+		}
+	},
+	"npcQuestPreviewPage": {
+		"button": {
+			"accept": {
+				"eng": "accept",
+				"trans": "接受"
+			},
+			"complete": {
+				"eng": "submit quest",
+				"trans": "完成任务"
+			},
+			"inProgress": {
+				"eng": "Quest In Progress",
+				"trans": "任务进行中"
+			}
+		},
+		"confirm": {
+			"title": {
+				"eng": "Skip quest cooldown?",
+				"trans": "跳过任务冷却时间？"
+			}
+		},
+		"refreshIn": {
+			"eng": "New Quest in:",
+			"trans": "新任务："
+		},
+		"refreshReward": {
+			"eng": "Refresh Reward",
+			"trans": "刷新奖励"
+		}
+	},
+	"npcShopPage": {
+		"buy": {
+			"eng": "Purchase",
+			"trans": "购买"
+		},
+		"cancel": {
+			"eng": "Cancel",
+			"trans": "取消"
+		},
+		"sell": {
+			"eng": "sell",
+			"trans": "出售"
+		}
+	},
+	"npcShopSellPage": {
+		"error": {
+			"cantSellLocked": {
+				"eng": "${itemName} is locked, you must unlock it before selling it",
+				"trans": "${itemName}已加密，必须解锁后才能出售"
+			},
+			"cantSellLockedMulti": {
+				"eng": "${itemName} is locked, you must unlock it before selling it",
+				"trans": "${itemName}已加密，必须解锁后才能出售"
+			}
+		},
+		"selectAmountModal": {
+			"title": {
+				"eng": "Please select the amount you want to sell",
+				"trans": "请选择您要出售的数量"
+			}
+		},
+		"sell": {
+			"eng": "Sell",
+			"trans": "出售"
+		}
+	},
+	"permission": {
+		"clanEditMotto": {
+			"eng": "Edit Motto",
+			"trans": "编辑座右铭"
+		},
+		"clanInvite": {
+			"eng": "Invite",
+			"trans": "邀请"
+		},
+		"clanKick": {
+			"eng": "Kick",
+			"trans": "踢出"
+		},
+		"clanSetImage": {
+			"eng": "Set Image",
+			"trans": "设定图像"
+		}
+	},
+	"placeHitPage": {
+		"levelTooLow": {
+			"eng": "You need to be at least level ${level} to place a hit.",
+			"trans": "您需要达到至少${level}级才能发动攻击。"
+		},
+		"notEnoughUnitError1": {
+			"eng": "Minimum hit bounty is ${minNormal}",
+			"trans": "最低击杀赏金为${minNormal}"
+		},
+		"placeHit": {
+			"eng": "Place hit",
+			"trans": "下达悬赏"
+		},
+		"selectPlayer": {
+			"eng": "Select player",
+			"trans": "选择玩家"
+		},
+		"selectPlayerClick": {
+			"eng": "Click to select a player",
+			"trans": "点击选择玩家"
+		},
+		"tip": {
+			"eng": "You can place a hit on a player by paying a certain amount of money and/or unit.",
+			"trans": "您可以支付一定金额和/或单位来悬赏玩家。"
+		}
+	},
+	"player": {
+		"blockSuccess": {
+			"eng": "You have blocked ${playerName}",
+			"trans": "您已封锁了${playerName}"
+		},
+		"notEnoughItem": {
+			"eng": "Not enough item: ${itemName} x${amount}",
+			"trans": "物品不足: ${itemName} x${amount}",
+			"vars": []
+		},
+		"notEnoughLevel": {
+			"eng": "Not enough level: ${levelType} ${level}",
+			"trans": "等级不足: ${levelType} ${level}"
+		},
+		"notEnoughMoney": {
+			"eng": "Not enough ${currency}: ${$}${amount}",
+			"trans": "${currency}不足：${$}${amount}"
+		},
+		"notEnoughPsychosis": {
+			"eng": "Your Cyber-Psychosis symptom is too high to perform this action: ${psychosis}",
+			"trans": "您的网路狂躁症状太高，无法执行此操作：${psychosis}",
+			"vars": []
+		},
+		"psychosisRechargedNoti": {
+			"body": {
+				"eng": "Your psyche has restored to normal level, you may use your cybernetic abilities safely now.",
+				"trans": "你的心理状态已恢复正常水平，现在可以安全地使用你的电驱路能力。"
+			},
+			"title": {
+				"eng": "Psyche restored",
+				"trans": "心智恢复"
+			}
+		},
+		"reportSuccess": {
+			"eng": "You have reported ${}",
+			"trans": "您已经检举了 ${}"
+		}
+	},
+	"playerAssetsTab": {
+		"confirmModal": {
+			"description": {
+				"eng": "Are you sure you want to visit this apartment?",
+				"trans": "您确定要参观这间公寓吗？"
+			},
+			"title": {
+				"eng": "Visit apartment",
+				"trans": "参观公寓"
+			}
+		},
+		"market": {
+			"eng": "${player}'s Market",
+			"trans": "${player}的市场"
+		},
+		"marketDescription": {
+			"eng": "View ${player}\\'s items on the market",
+			"trans": "查看${player}在市场上的物品"
+		}
+	},
+	"playerBackpack": {
+		"moveAllButton": {
+			"title": {
+				"eng": "Move all items",
+				"trans": "移动所有物品"
+			}
+		},
+		"tip": {
+			"eng": "Items you loot from strongholds will be stored here. Contents in your backpack will be lost if you die in stronghold, so remember to move them to your inventory.",
+			"trans": "你在地城中掠夺的物品将储存在此。如果你在地城中死亡，背包中的内容物将会遗失，所以记得将它们移至你的仓库。"
+		}
+	},
+	"playerDetailsPage": {
+		"attribute": {
+			"confirm": {
+				"eng": "Apply",
+				"trans": "套用"
+			},
+			"remaining": {
+				"eng": "Remaining Points",
+				"trans": "剩馀点数"
+			}
+		},
+		"menu": {
+			"addFriend": {
+				"eng": "Add Friend",
+				"trans": "新增好友"
+			},
+			"block": {
+				"eng": "Block",
+				"trans": "封锁"
+			},
+			"close": {
+				"eng": "attack",
+				"trans": "攻击"
+			},
+			"removeFriend": {
+				"eng": "Remove Friend",
+				"trans": "移除好友"
+			},
+			"report": {
+				"eng": "Report",
+				"trans": "检举"
+			},
+			"sendMessage": {
+				"eng": "Send Mail",
+				"trans": "传送讯息"
+			},
+			"unblock": {
+				"eng": "Unblock",
+				"trans": "解除封锁"
+			}
+		},
+		"tabs": {
+			"assets": {
+				"eng": "Assets",
+				"trans": "资产"
+			},
+			"crew": {
+				"eng": "Crew",
+				"trans": "队伍"
+			},
+			"equipment": {
+				"eng": "items",
+				"trans": "装备"
+			},
+			"job": {
+				"eng": "Job",
+				"trans": "工作"
+			},
+			"stats": {
+				"eng": "Stats",
+				"trans": "属性"
+			}
+		}
+	},
+	"playerInventory": {
+		"empty": {
+			"eng": "Your backpack is empty",
+			"trans": "您的背包是空的。"
+		},
+		"multiSelect": {
+			"discard": {
+				"title": {
+					"eng": "Discard",
+					"trans": "丢弃"
+				}
+			}
+		},
+		"noItems": {
+			"eng": "No items",
+			"trans": "没有物品"
+		}
+	},
+	"playerJonLevelTab": {
+		"attributeTips": {
+			"eng": "Leveling up your job levels can increase your attributes",
+			"trans": "提升职业等级可以增加您的属性"
+		},
+		"jobTips": {
+			"eng": "By doing AFK tasks you can level up your corresponding job level",
+			"trans": "透过进行挂机任务，您可以提升相应的职业等级"
+		}
+	},
+	"playerMarketPage": {
+		"noItems": {
+			"eng": "This player does not have any items on the market.",
+			"trans": "这位玩家在市场上没有任何物品。"
+		}
+	},
+	"playerNameError": {
+		"invalidCharacters": {
+			"eng": "Name can only contain letters, numbers and underscores.",
+			"trans": "名称只能包含字母、数字和底线。"
+		},
+		"tooLong": {
+			"eng": "Name must be at most ${max} characters long.",
+			"trans": "名称最多只能有${max}个字元。"
+		},
+		"tooShort": {
+			"eng": "Name must be at least ${min} characters long.",
+			"trans": "名称最少需要${min}个字元。"
+		}
+	},
+	"playerPassport": {
+		"hostile": {
+			"eng": "Hostile",
+			"trans": "敌对"
+		}
+	},
+	"playerPhotoSelection": {
+		"eyeColor": {
+			"eng": "Eye Color",
+			"trans": "眼睛颜色"
+		},
+		"gender": {
+			"eng": "Body Type",
+			"trans": "体型"
+		},
+		"hairColor": {
+			"eng": "Hair Color",
+			"trans": "髮色"
+		},
+		"hairStyle": {
+			"eng": "Hair Style",
+			"trans": "髮型"
+		}
+	},
+	"playerPhotoVariationType": {
+		"eyeColor": {
+			"blue": {
+				"eng": "Blue Eyes",
+				"trans": "蓝色眼睛"
+			},
+			"brown": {
+				"eng": "Brown Eyes",
+				"trans": "棕色眼睛"
+			},
+			"gray": {
+				"eng": "Red Eyes",
+				"trans": "红色眼睛"
+			},
+			"green": {
+				"eng": "Green Eyes",
+				"trans": "绿色眼睛"
+			},
+			"name": {
+				"eng": "Eye Color",
+				"trans": "眼睛颜色"
+			},
+			"purple": {
+				"eng": "Purple Eyes",
+				"trans": "紫色眼睛"
+			}
+		},
+		"gender": {
+			"gender1": {
+				"eng": "Type 1",
+				"trans": "类型 1"
+			},
+			"gender2": {
+				"eng": "Type 2",
+				"trans": "类型2"
+			},
+			"name": {
+				"eng": "Body Type",
+				"trans": "体型"
+			}
+		},
+		"hair": {
+			"longHair": {
+				"eng": "Long Hair",
+				"trans": "长髮"
+			},
+			"name": {
+				"eng": "Hair Length",
+				"trans": "头髮长度"
+			},
+			"shortHair": {
+				"eng": "Short Hair",
+				"trans": "短髮"
+			}
+		},
+		"hairColor": {
+			"black": {
+				"eng": "Black",
+				"trans": "黑色"
+			},
+			"blonde": {
+				"eng": "Blonde",
+				"trans": "金色"
+			},
+			"blue": {
+				"eng": "Blue",
+				"trans": "蓝色"
+			},
+			"brown": {
+				"eng": "Brown",
+				"trans": "棕色"
+			},
+			"green": {
+				"eng": "Green",
+				"trans": "绿色"
+			},
+			"multiColor": {
+				"eng": "Multi Colored",
+				"trans": "多彩的"
+			},
+			"name": {
+				"eng": "Hair Color",
+				"trans": "髮色"
+			},
+			"purple": {
+				"eng": "Purple",
+				"trans": "紫色"
+			},
+			"red": {
+				"eng": "Red",
+				"trans": "红色"
+			},
+			"white": {
+				"eng": "White",
+				"trans": "白色"
+			}
+		},
+		"skin": {
+			"dark": {
+				"eng": "variant 2",
+				"trans": "变体2"
+			},
+			"light": {
+				"eng": "variant 1",
+				"trans": "变体 1"
+			},
+			"name": {
+				"eng": "Skin Color",
+				"trans": "肤色"
+			}
+		}
+	},
+	"playerStatsTab": {
+		"statsTitle": {
+			"eng": "Stats",
+			"trans": "属性统计"
+		},
+		"statusEffectsTitle": {
+			"eng": "Status Effects",
+			"trans": "状态效果"
+		}
+	},
+	"premiumShopPage": {
+		"benefitsTabTitle": {
+			"eng": "Benefits",
+			"trans": "福利"
+		},
+		"topUpTabTip": {
+			"eng": "${netCoin} can be converted to ${universalDollars} at a rate of one to one, but not the other way around.",
+			"trans": "${netCoin}可以以一比一的汇率兑换成${universalDollars}，但不能反向兑换。"
+		},
+		"topUpTabTitle": {
+			"eng": "Top Up",
+			"trans": "储值"
+		}
+	},
+	"premiumShopTopUpTab": {
+		"bonusAmount2": {
+			"eng": "+${bonusRate}% Bonus [+${bonusAmount} N$]",
+			"trans": "+${bonusRate}% 奖励 [+${bonusAmount} N$]",
+			"vars": []
+		},
+		"equivalent": {
+			"eng": "can be converted to ${amount}",
+			"trans": "可以转换成${amount}"
+		},
+		"firstPurchase": {
+			"eng": "First Top-up Double Value",
+			"trans": "首储双倍!"
+		},
+		"mostEfficient": {
+			"eng": "Best Value",
+			"trans": "最超值"
+		}
+	},
+	"promo": {
+		"referral": {
+			"howTo": {
+				"eng": "How to refer my friend?",
+				"trans": "如何推荐我的朋友？"
+			},
+			"howToDesc1": {
+				"eng": "Share the game to your friend",
+				"trans": "分享游戏给您的朋友"
+			},
+			"howToDesc2": {
+				"eng": "Have your friend fill up your name in the referral field when they create their character",
+				"trans": "当您的朋友创建角色时，请让他们在推荐栏位填写您的名字。"
+			},
+			"howToDesc4": {
+				"eng": "Thats it!",
+				"trans": "就这么简单！"
+			},
+			"rewards": {
+				"eng": "rewards",
+				"trans": "奖励"
+			},
+			"rewardsDesc": {
+				"eng": "You will receive the following items when your friend reaches level ${level}.",
+				"trans": "当您的朋友达到${level}等时，您将收到以下物品。"
+			},
+			"share": {
+				"eng": "Share now",
+				"trans": "马上分享"
+			},
+			"shareText": {
+				"eng": "hey! checkout this awesome text based MMORPG! enter my name \"${name}\" as referral when you create your character!",
+				"trans": "嘿！来试试这款超棒的文字类MMORPG吧！在创建角色时，输入我的名字\"${name}\"作为推荐！"
+			},
+			"title": {
+				"eng": "Invite your friends",
+				"trans": "邀请您的朋友"
+			},
+			"title2": {
+				"eng": "receive rewards & bonuses!",
+				"trans": "获得奖励和奖金！"
+			},
+			"unitBonus": {
+				"eng": "You will get 10% bonus ${universalDollars} when your friend makes a purchase",
+				"trans": "当您的朋友储值时，您将获得10%的额外${universalDollars}奖励"
+			}
+		}
+	},
+	"promotionPopup": {
+		"dontShowAgain": {
+			"eng": "Don\\'t show again",
+			"trans": "不再显示"
+		}
+	},
+	"psychosisDisplay": {
+		"nextCycle": {
+			"eng": "${time} to next refresh",
+			"trans": "距离下一次更新还有${time}"
+		},
+		"title": {
+			"eng": "Cyber psychosis ${percent}%",
+			"trans": "网路狂躁症${percent}%"
+		}
+	},
+	"psychosisInfoModal": {
+		"neuroblockerDescription": {
+			"eng": "use neuroblocker to reduce psychosis",
+			"trans": "使用神经阻断剂减轻网路狂躁症"
+		},
+		"regenDescription": {
+			"eng": "Psychosis reduces by ${amount} every ${minute} minutes",
+			"trans": "网路狂躁症每${minute}分钟减少${amount}"
+		},
+		"title": {
+			"eng": "Cyber psychosis",
+			"trans": "网路狂躁症"
+		},
+		"titleDescription": {
+			"eng": "Cyber-psychosis is caused by excessive use of cybernetic abilities, leading to hallucinations and delusions due to brain overload.",
+			"trans": "网路狂躁症是由于过度使用电驭能力所引起的，导致大脑超负荷而产生幻觉和妄想。"
+		}
+	},
+	"purchaseCycle": {
+		"daily": {
+			"description": {
+				"eng": "Can be purchased ${amount} times every day",
+				"trans": "每天可以购买${amount}次",
+				"vars": []
+			},
+			"name": {
+				"eng": "Daily",
+				"trans": "每日"
+			}
+		},
+		"monthly": {
+			"description": {
+				"eng": "Can be purchased ${amount} times every month",
+				"trans": "每月可购买${amount}次",
+				"vars": []
+			},
+			"name": {
+				"eng": "Monthly",
+				"trans": "每月的"
+			}
+		},
+		"once": {
+			"description": {
+				"eng": "Can be purchased ${amount} times per account",
+				"trans": "每个帐户可购买${amount}次。",
+				"vars": []
+			},
+			"name": {
+				"eng": "Once",
+				"trans": "一次"
+			}
+		},
+		"weekly": {
+			"description": {
+				"eng": "Can be purchased ${amount} times every week",
+				"trans": "每週可购买${amount}次",
+				"vars": []
+			},
+			"name": {
+				"eng": "Weekly",
+				"trans": "每週的"
+			}
+		}
+	},
+	"pvp": {
+		"mail": {
+			"citizenArrest1": {
+				"eng": "${playerName} have arrested you, you have lost ${currency}, this player has been added to your enemies list",
+				"trans": "${playerName}已逮捕你，你损失了${currency}，此玩家已被加入至你的敌人名单"
+			},
+			"citizenArrest2": {
+				"eng": "You have successfully arrested ${playerName}, the ACPD has rewarded you ${currency}",
+				"trans": "你已成功逮捕${playerName}，ACPD奖励了你${currency}"
+			},
+			"mug1": {
+				"eng": "${playerName} mugged you, you have lost ${currency}, this player has been added to your enemies list",
+				"trans": "玩家${playerName} 抢劫了你，你损失了${currency}，此玩家已被加入至你的敌人名单"
+			},
+			"mug2": {
+				"eng": "You mugged ${playerName} and you won the fight, you gotten ${currency}",
+				"trans": "你痛宰了${playerName}，赢得了战斗，你得到了${currency}"
+			},
+			"successBounty": {
+				"eng": "You received bounty of ${money1} and ${money2} for eliminating ${targetPlayer}",
+				"trans": "你因消灭${targetPlayer}而获得${money1}和${money2}的赏金"
+			}
+		}
+	},
+	"quest": {
+		"collectItemFromEnemyNotification": {
+			"eng": "You have collected a ${itemName}(Quest) from ${enemyName}!",
+			"trans": "您从${enemyName}那里收集到了一个${itemName}(任务)！"
+		},
+		"collectQuestItemNotification": {
+			"eng": "You found a ${itemName}(Quest)!",
+			"trans": "您找到了一个${itemName}(任务)！"
+		},
+		"completed": {
+			"eng": "Completed",
+			"trans": "已完成"
+		},
+		"progress": {
+			"collectQuestItem": {
+				"eng": "Collect ${required} ${itemName} from lv.${level}+ ${enemyName} (${current}/${required})",
+				"trans": "从等级${level}以上的${enemyName}收集${required}个${itemName}（${current}/${required}）"
+			},
+			"collectQuestItemInDungeon": {
+				"eng": "Collect ${required} ${itemName} from lv.${level}+ stronghold (${dungeonName}) (${current}/${required})",
+				"trans": "从等级${level}以上的地城(${dungeonName})收集${required}个${itemName} (${current}/${required})"
+			},
+			"completeDungeon": {
+				"eng": "Defeat lv.${level}+ stronghold boss (${current}/${required})",
+				"trans": "击败等级${level}+的地城首领(${current}/${required})"
+			},
+			"defeatEnemy": {
+				"eng": "Defeat ${required} enemies (${current}/${required})",
+				"trans": "击败${required}个敌人 (${current}/${required})"
+			},
+			"defeatSpecificEnemy": {
+				"eng": "Defeat lv.${minLevel}-${maxLevel} ${enemyName} (${current}/${required})",
+				"trans": "击败等级.${minLevel}-${maxLevel} ${enemyName} (${current}/${required})"
+			}
+		},
+		"returnToNpc": {
+			"eng": "Return to ${npcName}",
+			"trans": "返回${npcName}。"
+		}
+	},
+	"questItem": {
+		"acquire": {
+			"eng": "Acquired from ${enemyName}",
+			"trans": "从${enemyName}获得"
+		},
+		"noItems": {
+			"eng": "No active quest that require items",
+			"trans": "没有需要物品的任务"
+		}
+	},
+	"questItemPage": {
+		"acquiredFrom": {
+			"eng": "Acquired from",
+			"trans": "获得自"
+		},
+		"description": {
+			"eng": "Generic quest item",
+			"trans": "一般任务物品"
+		}
+	},
+	"questPage": {
+		"abandonQuestModal": {
+			"confirmText": {
+				"eng": "Abandon",
+				"trans": "放弃"
+			},
+			"description": {
+				"eng": "Are you sure you want to abandon this quest?",
+				"trans": "您确定要放弃此任务吗？"
+			},
+			"title": {
+				"eng": "Abandon Quest",
+				"trans": "放弃任务"
+			}
+		},
+		"backgroundTaskSubtitle": {
+			"eng": "You may assign tasks to your crew to complete while you are away. Increase max capacity by upgrading your apartment.",
+			"trans": "当您离开时，可以分配任务给您的队伍完成。透过升级公寓来增加最大容量。"
+		},
+		"backgroundTaskTitle": {
+			"eng": "Misc Tasks",
+			"trans": "杂事任务"
+		},
+		"complete": {
+			"eng": "complete",
+			"trans": "完成"
+		},
+		"dailyQuests": {
+			"eng": "Daily Quests",
+			"trans": "每日任务"
+		},
+		"noQuests": {
+			"eng": "No active quests",
+			"trans": "没有进行中的任务"
+		},
+		"npcQuests": {
+			"eng": "Quests",
+			"trans": "任务"
+		}
+	},
+	"questPreview": {
+		"objectives": {
+			"eng": "objectives",
+			"trans": "目标"
+		},
+		"questName": {
+			"eng": "${npcName}'s request",
+			"trans": "${npcName}的请求"
+		},
+		"rewards": {
+			"eng": "rewards",
+			"trans": "奖励"
+		}
+	},
+	"questTitle": {
+		"dungeonQuestTitle": {
+			"eng": "${npcName}'s Quest",
+			"trans": "${npcName}的任务"
+		},
+		"levelUpQuestTitle": {
+			"eng": "Progression",
+			"trans": "进度"
+		},
+		"questName": {
+			"eng": "${npcName}'s request",
+			"trans": "${npcName}的请求"
+		}
+	},
+	"quickSlotList": {
+		"empty": {
+			"eng": "empty",
+			"trans": "空的"
+		}
+	},
+	"realtime": {
+		"error": {
+			"notSubscribed": {
+				"eng": "Not subscribed to this object",
+				"trans": "未订阅此物品"
+			}
+		}
+	},
+	"referral": {
+		"level20Mail": {
+			"eng": "Your referral ${player} has reached level ${level}! rewards has been sent to your apartment!",
+			"trans": "您的推荐${player}已达到${level}级！奖励已传送到您的公寓！"
+		}
+	},
+	"referralPromoSmall": {
+		"extra": {
+			"eng": "get 10% ${unit} for every purchase your friend makes!",
+			"trans": "每当你的朋友储值，你都可以获得10%的${unit}！"
+		},
+		"subtitle": {
+			"eng": "Rewards",
+			"trans": "奖励"
+		},
+		"title": {
+			"eng": "Refer a friend and get rewards!",
+			"trans": "推荐朋友并获得奖励！"
+		}
+	},
+	"refreshShopModal": {
+		"cancel": {
+			"eng": "Cancel",
+			"trans": "取消"
+		},
+		"description": {
+			"eng": "Refreshing the shop will randomize the items and discounts",
+			"trans": "刷新商店将随机更换物品和折扣"
+		},
+		"refresh": {
+			"eng": "Refresh Now",
+			"trans": "立即刷新"
+		},
+		"title": {
+			"eng": "Refresh shop items",
+			"trans": "刷新商店物品"
+		}
+	},
+	"renderMessage": {
+		"tier": {
+			"eng": "${tier} Tier",
+			"trans": "${tier} 阶级"
+		}
+	},
+	"repairAnimationPopup": {
+		"confirm": {
+			"eng": "Confirm",
+			"trans": "确认"
+		},
+		"failed": {
+			"description": {
+				"eng": "Repair was unsuccessful. please try again.",
+				"trans": "修复失败，请再试一次。"
+			},
+			"title": {
+				"eng": "Repair failed",
+				"trans": "修复失败"
+			}
+		},
+		"success": {
+			"title": {
+				"eng": "Repair Success!",
+				"trans": "修复成功！"
+			}
+		},
+		"terminalTitle": {
+			"eng": "Terminal",
+			"trans": "终端机"
+		},
+		"text1": {
+			"eng": "Analyzing item...",
+			"trans": "分析物品中..."
+		},
+		"text2": {
+			"eng": "Booting cybernetic in recovery mode...",
+			"trans": "正在以恢复模式启动电驭增强器..."
+		},
+		"text3": {
+			"eng": "Scanning for corrupted files...",
+			"trans": "扫描损坏的文件中..."
+		},
+		"text4": {
+			"eng": "Repairing corrupted files...",
+			"trans": "修复损坏的文件..."
+		}
+	},
+	"reportPlayerPopup": {
+		"details": {
+			"eng": "Details",
+			"trans": "详细资讯"
+		},
+		"report": {
+			"eng": "Report",
+			"trans": "检举"
+		},
+		"reportReason": {
+			"eng": "Report Reason",
+			"trans": "检举原因"
+		}
+	},
+	"reportType": {
+		"harassment": {
+			"eng": "Harassment",
+			"trans": "骚扰"
+		},
+		"inappropriate": {
+			"eng": "Inappropriate",
+			"trans": "不适当"
+		},
+		"other": {
+			"eng": "Other",
+			"trans": "其他"
+		},
+		"spam": {
+			"eng": "Spam",
+			"trans": "垃圾邮件"
+		}
+	},
+	"reward": {
+		"clanExp": {
+			"eng": "+${clanExp} Gang EXP",
+			"trans": "+${clanExp} 帮派经验值",
+			"vars": []
+		},
+		"clanResource": {
+			"eng": "+${clanResource} Gang Resource",
+			"trans": "+${clanResource} 帮派资源",
+			"vars": []
+		},
+		"exp": {
+			"increase": {
+				"eng": "+${amount} ${levelType} EXP",
+				"trans": "+${amount} ${levelType} 经验值"
+			}
+		},
+		"territoryPoint": {
+			"eng": "+${territoryPoint} Territory Point",
+			"trans": "+${territoryPoint} 领地点数",
+			"vars": []
+		}
+	},
+	"rewardConfigDisplay": {
+		"clanControl": {
+			"eng": "+ ${clanControl} clan control",
+			"trans": "+ ${clanControl}帮派控制",
+			"vars": []
+		},
+		"clanExp": {
+			"eng": "+ ${clanExp} gang exp",
+			"trans": "+ 帮派经验值 ${clanExp}",
+			"vars": []
+		},
+		"clanResource": {
+			"eng": "+ ${clanResource} clan resource",
+			"trans": "+ ${clanResource}帮派资源",
+			"vars": []
+		},
+		"healRatio": {
+			"eng": "Heal ${percent}% of your max health",
+			"trans": "恢复您最大生命值的${percent}%"
+		},
+		"reducePsychosis": {
+			"eng": "Reduce psychosis by ${reducePsychosis}",
+			"trans": "减少网路狂躁症 ${reducePsychosis}",
+			"vars": []
+		}
+	},
+	"rewardConfigItemDisplay": {
+		"oneOf": {
+			"eng": "one of the following x ${amount}:",
+			"trans": "以下其中一个 x ${amount}:",
+			"vars": []
+		}
+	},
+	"rewardConfigPopup": {
+		"title": {
+			"eng": "Rewards",
+			"trans": "奖励"
+		}
+	},
+	"rewardReceivedModal": {
+		"calibrationSuccess": {
+			"title": {
+				"eng": "Calibration Success",
+				"trans": "校准成功"
+			}
+		},
+		"defeatEnemy": {
+			"title": {
+				"eng": "Victory",
+				"trans": "胜利"
+			}
+		},
+		"description": {
+			"eng": "Click to close",
+			"trans": "点击关闭"
+		},
+		"questComplete": {
+			"title": {
+				"eng": "Quest Complete",
+				"trans": "任务完成"
+			}
+		},
+		"received": {
+			"title": {
+				"eng": "Received",
+				"trans": "已收到"
+			}
+		}
+	},
+	"sceneContainer": {
+		"skip": {
+			"eng": "Skip",
+			"trans": "跳过"
+		}
+	},
+	"selectAmountModal": {
+		"max": {
+			"eng": "max",
+			"trans": "最大值"
+		},
+		"min": {
+			"eng": "min",
+			"trans": "最小值"
+		}
+	},
+	"server": {
+		"clan": {
+			"join": {
+				"clanNotFound": {
+					"eng": "This clan no longer exists",
+					"trans": "这个帮派已经不存在了。"
+				}
+			}
+		},
+		"combat": {
+			"abilityOnCooldown": {
+				"eng": "Ability is on cooldown",
+				"trans": "技能冷却中"
+			},
+			"alreadyMugged": {
+				"eng": "You have already mugged this player in the last 24 hours",
+				"trans": "您在过去24小时内已经抢劫过这位玩家了"
+			},
+			"alreadyTriedEscape": {
+				"eng": "You have already tried to escape in this turn",
+				"trans": "这回合您已经试过逃脱了"
+			},
+			"cannotEngageAdmin": {
+				"eng": "You cannot engage this player",
+				"trans": "您无法与这位玩家互动"
+			},
+			"cannotEngageNewPlayer": {
+				"eng": "You cannot initiate PVP with a player that is below level ${level} and has not actively engaged in PVP",
+				"trans": "你无法与等级低于${level}且未积极参与PVP的玩家发起PVP战斗"
+			},
+			"cannotEngageProtectedPlayer": {
+				"eng": "This player is protected with ${item}, you cannot engage them at this moment",
+				"trans": "此玩家目前受到${item}的保护，您无法与其交战。"
+			},
+			"combatNotFound": {
+				"eng": "Combat has ended",
+				"trans": "战斗已结束。"
+			},
+			"escapeFailed": {
+				"eng": "You failed to escape (${chance}% success chance)",
+				"trans": "逃脱失败(${chance}%成功率)"
+			},
+			"levelTooDiff": {
+				"eng": "You cannot engage a player that is more than ${levelDiff} levels higher or below you",
+				"trans": "你无法攻击比你高${levelDiff}级或低${levelDiff}级的玩家"
+			},
+			"notEnoughMoneyPvp": {
+				"eng": "You need at least ${money} to engage in PvP",
+				"trans": "你至少需要${money}才能参与PVP战斗"
+			},
+			"notEnoughPsychosis": {
+				"eng": "You need at least ${psychosis} psychosis to engage in PvP",
+				"trans": "您需要至少${psychosis}网路狂躁症才能参与PvP战斗"
+			},
+			"notIdle": {
+				"eng": "You can't do this right now",
+				"trans": "现在无法执行此操作"
+			},
+			"notInCombat": {
+				"eng": "You are not in combat",
+				"trans": "您不在战斗中。"
+			}
+		},
+		"combatLog": {
+			"healing": {
+				"eng": "${player} used ${itemName}, healed ${healAmount} HP",
+				"trans": "${player}使用了${itemName}，恢复了${healAmount}点生命值"
+			},
+			"usedStatusEffect": {
+				"eng": "${player} used ${itemName}, received ${effectName}",
+				"trans": "${player}使用了${itemName}，获得了${effectName}效果"
+			}
+		},
+		"command": {
+			"success": {
+				"eng": "command executed successfully",
+				"trans": "指令已成功执行。"
+			}
+		},
+		"createCharacter": {
+			"nameAlreadyExists": {
+				"eng": "the name \"${name}\" is already taken",
+				"trans": "名称\"${name}\"已被使用",
+				"vars": []
+			},
+			"nameNotAllowed": {
+				"eng": "This name contains text that is not allowed",
+				"trans": "此名称包含不允许的文字"
+			},
+			"referrerBlocked": {
+				"eng": "The referrer's referral privileges have been revoked",
+				"trans": "推荐人的推荐权限已被撤销"
+			},
+			"referrerNotFound": {
+				"eng": "Referrer not found",
+				"trans": "找不到推荐人"
+			}
+		},
+		"dungeon": {
+			"bossSummoned": {
+				"eng": "${playerName} has summoned the boss",
+				"trans": "${playerName}召唤了BOSS。"
+			},
+			"chestAlreadyOpened": {
+				"eng": "Chest already opened",
+				"trans": "宝箱已经打开"
+			},
+			"choiceNotFound": {
+				"eng": "This encounter no longer exists",
+				"trans": "这次遭遇已经消失了"
+			},
+			"dungeonExpired": {
+				"eng": "Dungeon expired",
+				"trans": "地城已过期。"
+			},
+			"dungeonNotFound": {
+				"eng": "Stronghold not found",
+				"trans": "找不到地城"
+			},
+			"dungeonPlayersNotFound": {
+				"eng": "Dungeon players not found",
+				"trans": "没有找到地城玩家"
+			},
+			"entityNotFound": {
+				"eng": "Entity not found",
+				"trans": "找不到实体"
+			},
+			"healAlreadyUsed": {
+				"eng": "Heal already used",
+				"trans": "已使用补药"
+			},
+			"healSuccess": {
+				"eng": "You have healed yourself",
+				"trans": "您已经治疗自己。"
+			},
+			"keyCollected": {
+				"eng": "${playerName} has collected a key.",
+				"trans": "${playerName} 收集了一把钥匙。"
+			},
+			"lobbyNotFound": {
+				"eng": "Lobby not found",
+				"trans": "未找到大厅"
+			},
+			"notEnoughPsyche": {
+				"eng": "Your psychosis is too high to enter the stronghold",
+				"trans": "你的网路狂躁症太高，无法进入地城。"
+			},
+			"notIdle": {
+				"eng": "You cannot do this now",
+				"trans": "现在无法进行此操作。"
+			},
+			"notInDungeon": {
+				"eng": "You are not in a stronghold",
+				"trans": "您不在地城里。"
+			},
+			"notInLobby": {
+				"eng": "You are not in a lobby",
+				"trans": "您不在大厅中。"
+			},
+			"timeSacrifice": {
+				"eng": "${player} has sacrificed ${minutes} minutes to unlock a rare chest",
+				"trans": "${player}花费${minutes}分钟解锁了一个稀有宝箱"
+			}
+		},
+		"dungeonLobby": {
+			"cannotInviteSelf": {
+				"eng": "You cannot invite yourself",
+				"trans": "您无法邀请自己。"
+			},
+			"craeteNotIdle": {
+				"eng": "You must be idle to create a lobby",
+				"trans": "您必须处于闲置状态才能创建大厅"
+			},
+			"inDungeon": {
+				"eng": "You are already in a dungeon",
+				"trans": "您已经在地城里了"
+			},
+			"joinNotIdle": {
+				"eng": "You must be idle to join a lobby",
+				"trans": "您必须处于闲置状态才能加入大厅"
+			},
+			"lobbyFull": {
+				"eng": "Lobby is full",
+				"trans": "大厅已满"
+			},
+			"lobbyNotFound": {
+				"eng": "Lobby does not exist",
+				"trans": "大厅不存在"
+			},
+			"noLobbyId": {
+				"eng": "No lobby id found",
+				"trans": "未找到大厅ID"
+			},
+			"notInLobby": {
+				"eng": "You are not in a lobby",
+				"trans": "您不在大厅中。"
+			},
+			"notOwnerInvite": {
+				"eng": "You must be the owner of the lobby to invite players",
+				"trans": "您必须是大厅的拥有者才能邀请玩家"
+			},
+			"notOwnerKick": {
+				"eng": "You must be the owner of the lobby to kick players",
+				"trans": "您必须是大厅的拥有者才能踢出玩家"
+			},
+			"playerAlreadyInLobby": {
+				"eng": "Player is already in this lobby",
+				"trans": "玩家已经在这个大厅了"
+			},
+			"playerBlocked": {
+				"eng": "This player cannot receive your invite at this time",
+				"trans": "此玩家目前无法接受您的邀请"
+			},
+			"playerNotFound": {
+				"eng": "Player not found",
+				"trans": "找不到玩家"
+			},
+			"private": {
+				"eng": "This lobby is private",
+				"trans": "这个大厅是私人的"
+			}
+		},
+		"error": {
+			"conflictStatus": {
+				"eng": "You can't use this item while ${status} statusEffect is active",
+				"trans": "当${status}状态效果仍然生效时，你无法使用这个物品。"
+			},
+			"dungeonHasExpired": {
+				"eng": "Dungeon has expired",
+				"trans": "地城已过期。"
+			},
+			"itemLocked": {
+				"eng": "Item is locked",
+				"trans": "物品已加密"
+			},
+			"itemNotEquipment": {
+				"eng": "Item is not an equipment",
+				"trans": "物品并非装备"
+			},
+			"itemNotFound": {
+				"eng": "Item not found",
+				"trans": "找不到物品"
+			},
+			"moveToInventory": {
+				"inDungeon": {
+					"eng": "You can't do that in a dungeon",
+					"trans": "您无法在地城中这样做"
+				}
+			},
+			"noEquipment": {
+				"eng": "No equipment in this slot",
+				"trans": "此栏位没有装备。"
+			},
+			"notEnoughCurrency": {
+				"eng": "You do not have enough ${currencyType}",
+				"trans": "您的${currencyType}不足。"
+			},
+			"notEnoughItem": {
+				"eng": "Not enough item",
+				"trans": "物品不足"
+			},
+			"notInInventory": {
+				"eng": "You don't have an inventory open",
+				"trans": "您没有打开任何仓库。"
+			},
+			"onCooldown": {
+				"eng": "On cooldown",
+				"trans": "冷却中"
+			},
+			"restarting": {
+				"eng": "Server is restarting for update, please try again in a few minutes",
+				"trans": "伺服器正在进行更新，请稍候几分钟再试。"
+			}
+		},
+		"player": {
+			"itemConsumed": {
+				"eng": "Consumed ${itemName} x${amount}",
+				"trans": "消耗 ${itemName} x${amount}"
+			},
+			"moneyConsumed": {
+				"eng": "{currencySymbol}${money} has been removed from your account",
+				"trans": "从您的帐户中扣除{currencySymbol}${money}"
+			},
+			"psychosisLimitReached": {
+				"eng": "Your action has been blocked by your cyber-psychosis monitor implant, as using more of your cybernetic abilities would be detrimental to your mental health.",
+				"trans": "您的电驭狂躁感应器封锁了您的行动，因为使用更多的电驭能力将对您的心理健康造成不良影响。"
+			}
+		},
+		"quest": {
+			"error": {
+				"alreadyAccepted": {
+					"eng": "You have already accepted this quest.",
+					"trans": "您已经接受了这个任务。"
+				},
+				"notCompleted": {
+					"eng": "Quest not completed",
+					"trans": "任务未完成"
+				},
+				"questNotExist": {
+					"eng": "Quest not found",
+					"trans": "任务未找到"
+				},
+				"questNotOnCooldown": {
+					"eng": "Quest not on cooldown",
+					"trans": "任务不在冷却中"
+				}
+			}
+		},
+		"recoverDeathItems": {
+			"notEnoughCurrency": {
+				"eng": "Not enough ${currency}",
+				"trans": "${currency}不足"
+			},
+			"success": {
+				"eng": "Your items have been returned to your inventory",
+				"trans": "您的物品已经归还到您的仓库中。"
+			}
+		}
+	},
+	"settings": {
+		"backgroundVolume": {
+			"eng": "Background music volume",
+			"trans": "背景音乐音量"
+		},
+		"deleteCharacter": {
+			"eng": "Delete character",
+			"trans": "删除角色"
+		},
+		"enableBackgroundMusic": {
+			"eng": "Enable background music",
+			"trans": "启用背景音乐"
+		},
+		"enableGangChatNotification": {
+			"eng": "Enable Gang Chat Notification",
+			"trans": "启用帮派聊天通知"
+		},
+		"enableGlobalNotification": {
+			"eng": "Enable Global Notification",
+			"trans": "启用全球通知"
+		},
+		"enableInGameAnnouncement": {
+			"eng": "Enable In-Game Announcement",
+			"trans": "启用游戏公告"
+		},
+		"enablePowerSavingMode": {
+			"eng": "Enable Power Saving Mode",
+			"trans": "启用省电模式"
+		},
+		"enableSoundEffect": {
+			"eng": "Enable sound effect",
+			"trans": "启用音效"
+		},
+		"enableVibration": {
+			"eng": "Enable Vibration",
+			"trans": "启用震动"
+		},
+		"language": {
+			"eng": "Language",
+			"trans": "语言"
+		},
+		"languageTip": {
+			"eng": "Language translation is contributable by the community on GitHub, if you would like to make edits for your language, click here to view our GitHub repository.",
+			"trans": "语言翻译是由社群在GitHub上共同贡献的，如果您想要为您的语言进行编辑，请点击此处查看我们的GitHub存储库。"
+		},
+		"zoom": {
+			"eng": "UI Scaling (Experimental)",
+			"trans": "UI缩放（实验性）"
+		}
+	},
+	"shop": {
+		"alreadyOwnItem": {
+			"eng": "You already own this item",
+			"trans": "您已拥有此物品"
+		},
+		"alreadyPurchased": {
+			"eng": "You have already purchased this item once before, you cannot purchase it again.",
+			"trans": "你已经购买过这件物品了，无法再次购买。"
+		},
+		"confirmBuyModal": {
+			"title": {
+				"eng": "Purchase ${itemName}?",
+				"trans": "购买${itemName}？"
+			}
+		},
+		"exchangeUnit": {
+			"title": {
+				"eng": "How many ${netcoin} would you like to exchange to ${unit}?",
+				"trans": "您想要将多少个${netcoin}兑换成${unit}？"
+			}
+		},
+		"inventoryFull": {
+			"eng": "Your inventory cannot carry any more of this item",
+			"trans": "您的仓库无法再存放更多此物品。"
+		},
+		"notEnoughItem": {
+			"eng": "You don\\'t have enough ${item} to purchase this item",
+			"trans": "您没有足够的${item}来购买这个物品"
+		},
+		"notEnoughMoney": {
+			"eng": "You don\\'t have enough ${currency} to purchase this item",
+			"trans": "您没有足够的${currency}购买此物品。"
+		},
+		"purchased": {
+			"eng": "You have purchased ${amount} ${item}",
+			"trans": "您已购买了${amount}个${item}"
+		},
+		"selectAmountModel": {
+			"body": {
+				"eng": "You are about to purchase ${amount} ${item}, total: ${total}",
+				"trans": "你即将购买${amount}个${item}，总计：${total}"
+			},
+			"title": {
+				"eng": "How many would you like to purchase?",
+				"trans": "您想购买多少个？"
+			}
+		}
+	},
+	"socialMedia": {
+		"noPostsYet": {
+			"eng": "No posts yet",
+			"trans": "尚无贴文"
+		}
+	},
+	"socialPage": {
+		"clanChatTab": {
+			"detailsButton": {
+				"eng": "Gang Details",
+				"trans": "帮派详情"
+			}
+		},
+		"tabs": {
+			"clan": {
+				"title": {
+					"eng": "Gang",
+					"trans": "帮派"
+				}
+			},
+			"enemies": {
+				"title": {
+					"eng": "Enemies",
+					"trans": "敌人"
+				}
+			},
+			"friends": {
+				"title": {
+					"eng": "Friends",
+					"trans": "好友"
+				}
+			},
+			"mails": {
+				"title": {
+					"eng": "Mails",
+					"trans": "邮件"
+				}
+			}
+		}
+	},
+	"stat": {
+		"armor": {
+			"eng": "Armor",
+			"trans": "装甲"
+		},
+		"autoDmg": {
+			"eng": "Auto Attack Damage",
+			"trans": "自动攻击伤害"
+		},
+		"autoDmgMult": {
+			"eng": "Auto Attack Damage Multiplier",
+			"trans": "自动攻击伤害倍率"
+		},
+		"backpackSlot": {
+			"eng": "Backpack Slot",
+			"trans": "背包栏位"
+		},
+		"blockChance": {
+			"eng": "Block Chance",
+			"trans": "格挡机率"
+		},
+		"blockStrength": {
+			"eng": "Block Strength",
+			"trans": "格挡强度"
+		},
+		"critChance": {
+			"eng": "Critical Chance",
+			"trans": "爆击机率"
+		},
+		"critDmg": {
+			"eng": "Critical Damage",
+			"trans": "爆击伤害"
+		},
+		"cyberneticResistance": {
+			"eng": "Cybernetic Resistance",
+			"trans": "电驭抵抗力"
+		},
+		"damageMult": {
+			"eng": "Damage Multiplier",
+			"trans": "伤害倍率"
+		},
+		"dex": {
+			"eng": "Dexterity",
+			"trans": "敏捷度"
+		},
+		"dmg": {
+			"eng": "Damage",
+			"trans": "伤害"
+		},
+		"dmgReductionFlat": {
+			"eng": "Damage Reduction",
+			"trans": "伤害减免"
+		},
+		"dmgResistance": {
+			"eng": "Damage Reduction",
+			"trans": "伤害减免"
+		},
+		"energyResistance": {
+			"eng": "Energy Resistance",
+			"trans": "能量抗性"
+		},
+		"escape": {
+			"eng": "Escape Chance",
+			"trans": "逃脱机率"
+		},
+		"headshotMult": {
+			"eng": "Headshot Multiplier",
+			"trans": "爆头加成"
+		},
+		"health": {
+			"eng": "Health",
+			"trans": "生命值"
+		},
+		"healthPercent": {
+			"eng": "Health Multiplier",
+			"trans": "生命值倍率"
+		},
+		"int": {
+			"eng": "Intelligence",
+			"trans": "智力"
+		},
+		"inventorySlot": {
+			"eng": "Inventory Slot",
+			"trans": "仓库栏位"
+		},
+		"kineticResistance": {
+			"eng": "Kinetic Resistance",
+			"trans": "动能抗性"
+		},
+		"physicalResistance": {
+			"eng": "Physical Resistance",
+			"trans": "物理抗性"
+		},
+		"pvpDmgReceivedMult": {
+			"eng": "PvP Damage Received Multiplier",
+			"trans": "PvP受到伤害倍率"
+		},
+		"shield": {
+			"eng": "Shield",
+			"trans": "护盾"
+		},
+		"shieldPercent": {
+			"eng": "Shield Multiplier",
+			"trans": "护盾倍率"
+		},
+		"str": {
+			"eng": "Strength",
+			"trans": "力量"
+		},
+		"vit": {
+			"eng": "Vitality",
+			"trans": "活力值"
+		}
+	},
+	"statDiff": {
+		"stat": {
+			"eng": "stat",
+			"trans": "状态"
+		}
+	},
+	"statusEffect": {
+		"burn": {
+			"combatMsg": {
+				"eng": "${name} received ${damage} damage from burning",
+				"trans": "${name}因燃烧受到${damage}点伤害"
+			},
+			"desc": {
+				"eng": "Receive fire damage every turn",
+				"trans": "每回合受到火焰伤害"
+			},
+			"name": {
+				"eng": "Burned",
+				"trans": "燃烧"
+			}
+		},
+		"defense1": {
+			"desc": {
+				"eng": "Take ${percent}% less damage",
+				"trans": "目标将承受${percent}%较少伤害"
+			},
+			"name": {
+				"eng": "Defense I",
+				"trans": "防御"
+			}
+		},
+		"defenseIncrease": {
+			"desc": {
+				"eng": "Increases your defense",
+				"trans": "增加你的防御力"
+			},
+			"name": {
+				"eng": "Defense Increase",
+				"trans": "防御增加"
+			}
+		},
+		"heal": {
+			"combatMsg": {
+				"eng": "${name} recovered ${heal} health",
+				"trans": "${name}回复了${heal}点生命值"
+			},
+			"desc": {
+				"eng": "Recover health every turn",
+				"trans": "将在每个回合恢复生命值"
+			},
+			"name": {
+				"eng": "Healed",
+				"trans": "治疗完成"
+			}
+		},
+		"lootIncrease": {
+			"desc": {
+				"eng": "Increases the amount of loot from enemies and chests",
+				"trans": "增加从敌人和宝箱获得的战利品数量"
+			},
+			"name": {
+				"eng": "Loot Increase",
+				"trans": "战利品增加"
+			}
+		},
+		"poison": {
+			"combatMsg": {
+				"eng": "${name} received ${damage} damage from poison",
+				"trans": "${name} 受到 ${damage} 点毒伤"
+			},
+			"desc": {
+				"eng": "Receive poison damage every turn",
+				"trans": "中毒目标每回合会受到伤害"
+			},
+			"name": {
+				"eng": "Poisoned",
+				"trans": "中毒"
+			}
+		},
+		"power1": {
+			"desc": {
+				"eng": "Deal ${percent}% more damage",
+				"trans": "造成${percent}%更多伤害"
+			},
+			"name": {
+				"eng": "Power I",
+				"trans": "能量 I"
+			}
+		},
+		"pvp": {
+			"desc": {
+				"eng": "You receive Hostile status when you attack players who does not have Hostile status, Takes ${percent} more damage from players and receives higher the punishment when you lost a fight",
+				"trans": "当您攻击没有敌对状态的玩家时，您会被标记为敌对状态，受到玩家造成的伤害增加${percent}，并在失败的战斗中受到更高的惩罚"
+			},
+			"name": {
+				"eng": "Hostile",
+				"trans": "敌对的"
+			}
+		},
+		"pvpProtection": {
+			"desc": {
+				"eng": "While this status is active, you cannot be attacked by other players. This status will be removed when you attack another player.",
+				"trans": "当此状态启用时，其他玩家无法攻击你。当你攻击其他玩家时，此状态将被移除。"
+			},
+			"name": {
+				"eng": "PVP Protection",
+				"trans": "PVP保护"
+			}
+		}
+	},
+	"statusEffectModal": {
+		"duration": {
+			"eng": "duration",
+			"trans": "持续时间"
+		},
+		"remove": {
+			"eng": "remove",
+			"trans": "移除"
+		},
+		"turns": {
+			"eng": "${turns} combat turns",
+			"trans": "${turns}回合战斗",
+			"vars": []
+		}
+	},
+	"statusInventory": {
+		"description": {
+			"eng": "If your backpack or inventory is full.\\nPlease remove some stuff before picking up the loots.",
+			"trans": "如果您的背包或者仓库已满，\n请在捡取战利品之前先移除一些物品。"
+		},
+		"discard": {
+			"eng": "Discard",
+			"trans": "丢弃"
+		},
+		"discardConfirm": {
+			"eng": "Discard all loots?",
+			"trans": "丢弃所有战利品？"
+		},
+		"discardConfirmDescription": {
+			"eng": "Are you sure you want to discard all loots? this action is irreversible.",
+			"trans": "您确定要丢弃所有战利品吗？此操作是不可逆的。"
+		},
+		"lootAll": {
+			"eng": "loot all",
+			"trans": "捡取全部"
+		},
+		"tabs": {
+			"backpack": {
+				"eng": "backpack",
+				"trans": "背包"
+			},
+			"inventory": {
+				"eng": "inventory",
+				"trans": "仓库"
+			},
+			"loot": {
+				"eng": "Loots",
+				"trans": "战利品"
+			},
+			"source": {
+				"eng": "loots",
+				"trans": "战利品"
+			}
+		},
+		"target": {
+			"dungeonDrop": {
+				"title": {
+					"eng": "Backpack",
+					"trans": "背包"
+				}
+			},
+			"normal": {
+				"title": {
+					"eng": "Inventory",
+					"trans": "仓库"
+				}
+			}
+		},
+		"targetInventory": {
+			"description": {
+				"eng": "Clear up some space here so you can pickup the loots.",
+				"trans": "清理一些空间，这样您就可以捡起战利品了。"
+			}
+		},
+		"title": {
+			"eng": "Loots",
+			"trans": "战利品"
+		}
+	},
+	"stringHelper": {
+		"nameError": {
+			"englishOnly": {
+				"eng": "Must be english letters and _ and numbers",
+				"trans": "必须是英文字母、_和数字"
+			}
+		}
+	},
+	"suspendedScreen": {
+		"description1": {
+			"eng": "This can happen for a number of reasons, including but not limited to:",
+			"trans": "这可能是由于多种原因造成的，包括但不限于："
+		},
+		"description2": {
+			"eng": "- System has detected this account of cheating, hacking, automating or exploiting the game.",
+			"trans": "- 系统侦测到此帐号有作弊、骇客、自动化或滥用游戏的行为。"
+		},
+		"description3": {
+			"eng": "- System has detected using of multiple accounts to gain an unfair advantage.",
+			"trans": "- 系统侦测到使用多个帐号以获取不公平优势。"
+		},
+		"description4": {
+			"eng": "If you feel this is a mistake, please contact the developer directly at: ching.huang.dexter@gmail.com",
+			"trans": "如果您觉得这是一个错误，请直接联系开发人员：ching.huang.dexter@gmail.com"
+		},
+		"logout": {
+			"eng": "Logout",
+			"trans": "登出"
+		},
+		"title": {
+			"eng": "This account has been suspended.",
+			"trans": "此帐号已被停权。"
+		}
+	},
+	"task": {
+		"error": {
+			"gangRequired": {
+				"eng": "You are currently not in any gang",
+				"trans": "您目前没有加入任何帮派。"
+			},
+			"inProgress": {
+				"eng": "Task is still in progress, remaining seconds: ${remainingSeconds}",
+				"trans": "任务仍在进行中，剩馀时间：${remainingSeconds}秒",
+				"vars": []
+			},
+			"maxTasks": {
+				"eng": "You have reached the max amount of tasks",
+				"trans": "您已达到任务的最大数量"
+			},
+			"notEnoughCurrency": {
+				"eng": "You do not have enough ${currency}",
+				"trans": "你没有足够的${currency}"
+			},
+			"notFound": {
+				"eng": "Task not found",
+				"trans": "任务未找到"
+			},
+			"notIdle": {
+				"eng": "You are not idle",
+				"trans": "您没有闲置"
+			}
+		},
+		"notification": {
+			"completed": {
+				"title": {
+					"eng": "Task completed",
+					"trans": "任务完成"
+				}
+			}
+		}
+	},
+	"terminalLoadingAnimation": {
+		"defaultProgressTitle": {
+			"eng": "Loading...",
+			"trans": "载入中..."
+		}
+	},
+	"territory": {
+		"error": {
+			"notFound": {
+				"eng": "Territory not found",
+				"trans": "找不到领地"
+			}
+		},
+		"resetNoti": {
+			"body": {
+				"eng": "All territories in Arclight City have been reset. let the gang wars begin!",
+				"trans": "幻光之城的所有领土已被重置，让帮派之战开始吧！"
+			},
+			"title": {
+				"eng": "Territory Reset",
+				"trans": "领地重置"
+			}
+		}
+	},
+	"territoryBanner": {
+		"gang": {
+			"title": {
+				"eng": "Territory controlled by",
+				"trans": "领地控制者："
+			}
+		},
+		"noGang": {
+			"title": {
+				"eng": "Territory open",
+				"trans": "领地开放"
+			}
+		}
+	},
+	"territoryDisplay": {
+		"hasTopGang": {
+			"title": {
+				"eng": "Controlled by ${name} [${tag}]",
+				"trans": "由${name} [${tag}]控制"
+			}
+		},
+		"noTopGang": {
+			"title": {
+				"eng": "Uncontrolled territory",
+				"trans": "未受控制的领地"
+			}
+		}
+	},
+	"territoryPage": {
+		"description": {
+			"eng": "Claim control of this territory to gain ability to deploy territorial buffs",
+			"trans": "控制这个领地，以获得部署领地增益的能力。"
+		},
+		"gangRequired": {
+			"eng": "You must be in a gang to claim territory",
+			"trans": "要控制领地，必须加入一个帮派。"
+		},
+		"noClan": {
+			"eng": "No clan has claimed this territory",
+			"trans": "没有任何帮派控制这片领地"
+		},
+		"resetTip": {
+			"eng": "Territory points reset every week",
+			"trans": "每週领地积分重置"
+		},
+		"territoryBuffs": {
+			"eng": "leaderboard",
+			"trans": "排行榜"
+		},
+		"unclaimed": {
+			"eng": "This territory is unclaimed",
+			"trans": "这个区域尚未被占领"
+		}
+	},
+	"textareaModal": {
+		"defaultConfirmButton": {
+			"eng": "Confirm",
+			"trans": "确认"
+		}
+	},
+	"tier": {
+		"common": {
+			"name": {
+				"eng": "Common",
+				"trans": "普通"
+			}
+		},
+		"epic": {
+			"name": {
+				"eng": "Epic",
+				"trans": "史诗"
+			}
+		},
+		"mythic": {
+			"name": {
+				"eng": "Mythic",
+				"trans": "神话"
+			}
+		},
+		"rare": {
+			"name": {
+				"eng": "Rare",
+				"trans": "稀有"
+			}
+		},
+		"uncommon": {
+			"name": {
+				"eng": "Uncommon",
+				"trans": "高级"
+			}
+		},
+		"unique": {
+			"name": {
+				"eng": "Unique",
+				"trans": "独特"
+			}
+		}
+	},
+	"tierFilterType": {
+		"all": {
+			"eng": "All",
+			"trans": "全部"
+		},
+		"common": {
+			"eng": "Common",
+			"trans": "普通"
+		},
+		"epic": {
+			"eng": "Epic",
+			"trans": "史诗"
+		},
+		"rare": {
+			"eng": "Rare",
+			"trans": "稀有"
+		},
+		"uncommon": {
+			"eng": "Uncommon",
+			"trans": "高级"
+		},
+		"unique": {
+			"eng": "Unique",
+			"trans": "独特"
+		}
+	},
+	"time": {
+		"distanceToNow": {
+			"ago": {
+				"eng": "${duration} ago",
+				"trans": "${duration}前"
+			},
+			"fromNow": {
+				"eng": "in ${duration}",
+				"trans": "在${duration}内"
+			}
+		},
+		"duration": {
+			"days": {
+				"eng": "${days} days",
+				"trans": "${days} 天",
+				"vars": []
+			},
+			"hours": {
+				"eng": "${hours} hours",
+				"trans": "${hours} 小时",
+				"vars": []
+			},
+			"minutes": {
+				"eng": "${minutes} minutes",
+				"trans": "${minutes} 分钟",
+				"vars": []
+			},
+			"seconds": {
+				"eng": "${seconds} seconds",
+				"trans": "${seconds} 秒钟",
+				"vars": []
+			},
+			"years": {
+				"eng": "${years} years",
+				"trans": "${years}年",
+				"vars": []
+			}
+		}
+	},
+	"timeSacrificePopup": {
+		"activateButton": {
+			"description": {
+				"eng": "This action will sacrifice ${minutes} minutes of exploration time",
+				"trans": "这个动作将牺牲${minutes}分钟的探索时间"
+			}
+		},
+		"remainingTime": {
+			"eng": "Remaining time",
+			"trans": "剩馀时间"
+		}
+	},
+	"timedRefreshButton": {
+		"refreshIn": {
+			"eng": "Refresh in:",
+			"trans": "刷新时间："
+		}
+	},
+	"toggleMinigame": {
+		"tip": {
+			"eng": "Toggle the switches in correct sequence to unlock",
+			"trans": "以正确的顺序拨动开关以解锁"
+		},
+		"title": {
+			"eng": "Sequential Unlock",
+			"trans": "连续解锁"
+		}
+	},
+	"trade": {
+		"accepted": {
+			"eng": "Trade accepted",
+			"trans": "交易已接受"
+		},
+		"alreadyLocked": {
+			"eng": "You already locked this trade",
+			"trans": "您已经锁定了此交易。"
+		},
+		"cantAcceptWhileBusy": {
+			"eng": "You can\\'t accept a trade while you are busy",
+			"trans": "当您忙碌时，无法接受交易。"
+		},
+		"error": {
+			"inviteCooldown": {
+				"eng": "You can only send a trade invite once every ${seconds} seconds",
+				"trans": "您每隔${seconds}秒才能传送一次交易邀请。"
+			}
+		},
+		"inviteExpired": {
+			"eng": "Trade invite expired",
+			"trans": "交易邀请已过期"
+		},
+		"invitePopup": {
+			"acceptButton": {
+				"eng": "Accept",
+				"trans": "接受"
+			},
+			"cancelButton": {
+				"eng": "Cancel",
+				"trans": "取消"
+			},
+			"description": {
+				"eng": "You have received a trade invite from ${inviter}.",
+				"trans": "您收到了来自${inviter}的交易邀请。"
+			},
+			"title": {
+				"eng": "Trade invite",
+				"trans": "交易邀请"
+			}
+		},
+		"inviteRejected": {
+			"eng": "Trade invite was rejected",
+			"trans": "交易邀请被拒绝了。"
+		},
+		"inviteSent": {
+			"eng": "Trade invite sent",
+			"trans": "交易邀请已传送"
+		},
+		"inviterBusy": {
+			"eng": "Inviter is busy",
+			"trans": "邀请者忙碌中"
+		},
+		"lock": {
+			"eng": "lock deal",
+			"trans": "锁定交易"
+		},
+		"notEnoughItems": {
+			"eng": "${playerName} doesn\\'t have enough ${itemName}",
+			"trans": "${playerName} 没有足够的 ${itemName}"
+		},
+		"notEnoughMoney": {
+			"eng": "You don\\'t have enough money",
+			"trans": "您的金钱不足"
+		},
+		"notInTrade": {
+			"eng": "You are not in a trade",
+			"trans": "您不在交易中。"
+		},
+		"notLocked": {
+			"eng": "You didn\\'t lock this trade",
+			"trans": "您没有锁定这笔交易"
+		},
+		"playerNotEnoughMoney": {
+			"eng": "${playerName} doesn\\'t have enough ${currency}",
+			"trans": "${playerName}没有足够的${currency}"
+		},
+		"selectAmountModal": {
+			"title": {
+				"eng": "Select amount",
+				"trans": "选择数量"
+			}
+		},
+		"tooManyItems": {
+			"eng": "You can\\'t add more items to this trade",
+			"trans": "您无法在此交易中增加更多物品。"
+		},
+		"tooMuchMoney": {
+			"eng": "You can\\'t add more money to this trade",
+			"trans": "您无法在此交易中增加更多的钱。"
+		},
+		"tradeCompleted": {
+			"eng": "Trade Completed",
+			"trans": "交易完成"
+		},
+		"tradeExpired": {
+			"eng": "This trade session has expired",
+			"trans": "此交易已过期。"
+		},
+		"tradeNotFound": {
+			"eng": "This trade session has already been removed",
+			"trans": "此交易已被移除。"
+		},
+		"tradeTerminated": {
+			"eng": "Trade was terminated",
+			"trans": "交易已终止。"
+		},
+		"unlock": {
+			"eng": "unlock deal",
+			"trans": "解锁交易"
+		}
+	},
+	"travelToLocationModal": {
+		"alreadyAtLocation": {
+			"eng": "Already at location",
+			"trans": "已经在该地点"
+		},
+		"claimReward": {
+			"eng": "Claim reward",
+			"trans": "领取奖励"
+		},
+		"locationNotCleared2": {
+			"eng": "Clear level ${level} ${dungeonType} stronghold to unlock the rewards",
+			"trans": "通过清除${level}级${dungeonType}地城，解锁奖励。"
+		},
+		"rewardClaimed": {
+			"eng": "claimed",
+			"trans": "已领取"
+		},
+		"rewardSubtitle": {
+			"eng": "raid rewards",
+			"trans": "袭击奖励"
+		},
+		"travelToLocation": {
+			"eng": "Travel to location",
+			"trans": "前往地点"
+		}
+	},
+	"tutorial": {
+		"attack": {
+			"eng": "Hold and release at correct timing to perform attacks.",
+			"trans": "按住并在正确的时机释放以进行攻击。"
+		},
+		"autoAttack": {
+			"eng": "Click here to toggle auto combat, which will allow you to attack enemies, use ability and heal automatically.",
+			"trans": "点击这里以切换自动战斗，这将使您能够自动攻击敌人、使用技能和自动治疗。"
+		},
+		"backToMainPage": {
+			"eng": "You can always go back to main screen from here.",
+			"trans": "你可以随时从这里回到主画面。"
+		},
+		"backgroundTask1": {
+			"eng": "You have a slot for AFK tasks, click here to view it.",
+			"trans": "您有一个挂机任务的栏位，点击这里查看。"
+		},
+		"backgroundTask2": {
+			"eng": "Click here to start a task.",
+			"trans": "点击这里开始任务。"
+		},
+		"backpackClear": {
+			"eng": "Move items from backpack to your inventory to ensure you don't lose them during stronghold exploration.",
+			"trans": "将物品从背包移至您的仓库，以确保在地城探索期间不会丢失它们。"
+		},
+		"crew1": {
+			"eng": "Click here to view your profile",
+			"trans": "点击这里查看您的个人资料。"
+		},
+		"crew2": {
+			"eng": "Click here to view your crew members",
+			"trans": "点击这里查看您的队员。"
+		},
+		"crew3": {
+			"eng": "Click on one of the slots to assign a crew member",
+			"trans": "点击其中一个插槽以分配机组人员"
+		},
+		"dailyQuest": {
+			"eng": "You have completed daily quests. open this tab to view them.",
+			"trans": "您已完成每日任务。打开此选项卡以查看它们。"
+		},
+		"dailyQuestClaim": {
+			"eng": "Click here to claim your rewards.",
+			"trans": "点击这里领取你的奖励。"
+		},
+		"deathItem": {
+			"eng": "You can buy back the items you lost from clinic.",
+			"trans": "您可以从诊所买回您失去的物品。"
+		},
+		"deathItem2": {
+			"eng": "Click here to view your lost items.",
+			"trans": "点击这里查看您失去的物品。"
+		},
+		"dungeon1": {
+			"eng": "click here to explore stronghold",
+			"trans": "点击这里探索地城"
+		},
+		"dungeon2": {
+			"eng": "Select the normal difficulty, you will get ${percent}% extra exp from enemies in the stronghold",
+			"trans": "选择普通难度，您将从地城的敌人获得额外${percent}%的经验值"
+		},
+		"dungeonLevelChange": {
+			"eng": "You change level of the stronghold here if you want to fight stronger or weaker enemies.",
+			"trans": "如果你想要与更强或更弱的敌人战斗，可以在这里调整地城的等级，。"
+		},
+		"dungeonStart": {
+			"eng": "Click here to enter the stronghold.",
+			"trans": "点击进入地城。"
+		},
+		"equipItem": {
+			"eng": "Click here to automatically equip items, you can also equip items manually from by clicking the equipment slots or within item details page.",
+			"trans": "点击此处自动装备物品，也可以透过点击装备栏位或物品详细资讯页面手动装备物品。"
+		},
+		"freeMerc1": {
+			"eng": "Click here for all kinds of benefits",
+			"trans": "点击这里以获得各种好处"
+		},
+		"freeMerc2": {
+			"eng": "Click here to get free ${itemName}",
+			"trans": "点击这里以获得免费的${itemName}"
+		},
+		"freeMerc3": {
+			"eng": "Click back to return to main screen",
+			"trans": "点击返回主画面"
+		},
+		"heal": {
+			"eng": "Click here to assign healing items to quick slots.",
+			"trans": "点击这里将补药分配到快捷栏位。"
+		},
+		"leaveDungeon": {
+			"eng": "You can click here to leave the stronghold at any time.",
+			"trans": "你可以随时点击这里离开地城。"
+		},
+		"localEnemy1": {
+			"eng": "Click here to scan for nearby enemies.",
+			"trans": "点击这里扫描附近的敌人。"
+		},
+		"localEnemy2": {
+			"eng": "Click on an enemy to engage in battle.",
+			"trans": "点击敌人以进行战斗。"
+		},
+		"locationChange": {
+			"eng": "You can travel to other locations with different levels from here",
+			"trans": "您可以从这里前往不同等级的其他地点"
+		},
+		"locationRewards": {
+			"eng": "You can claim these reward after you have defeated the boss in the Hard Difficulty stronghold at this location.",
+			"trans": "你可以在击败此地区的困难地城首领后领取这些奖励。"
+		},
+		"locationTravelBtn": {
+			"eng": "Click here to travel to the location.",
+			"trans": "点击这里前往该位置。"
+		},
+		"mercenary1": {
+			"eng": "Click here to view your mercenary contacts",
+			"trans": "点击这里查看佣兵联络人。"
+		},
+		"mercenary2": {
+			"eng": "Click here to recruit new mercenaries",
+			"trans": "点击这里招募新的佣兵。"
+		},
+		"mercenary3": {
+			"eng": "Click here to recruit 10 new mercenaries",
+			"trans": "点击这里招募10名新佣兵。"
+		},
+		"quest": {
+			"eng": "Click here to view your quests.",
+			"trans": "点击这里查看您的任务。"
+		},
+		"travelToLevel2": {
+			"eng": "Click here to travel to the next area where enemies are stronger and give more exp.",
+			"trans": "按此前往下一个区域，那里的敌人更强大，并提供更多经验值。"
+		},
+		"upgradeItem": {
+			"eng": "Click here to view your inventory.",
+			"trans": "点击这里查看你的仓库。"
+		},
+		"upgradeItemClickUpgrade": {
+			"eng": "Click \"Upgrade\" to level up this equipment.",
+			"trans": "点击“升级”来提升这件装备的等级。"
+		},
+		"upgradeItemDetails": {
+			"eng": "Click here to upgrade this item.",
+			"trans": "点选此处升级此物品。"
+		},
+		"upgradeItemSlot": {
+			"eng": "Click on an equipment slot to view the item details.",
+			"trans": "点击装备栏位以查看物品详情。"
+		},
+		"upgradeItemTab": {
+			"eng": "You can upgrade your items by using the following shards, try ${itemName} first, it will allow you to level up your equipments",
+			"trans": "你可以使用以下碎片来升级你的物品，先试试${itemName}，它可以让你的装备升级。"
+		},
+		"useSkill": {
+			"eng": "Click here to command your mercenary to use skill.",
+			"trans": "点击以命令佣兵使用技能。"
+		}
+	},
+	"tutorialContainer": {
+		"continue": {
+			"eng": "Click to continue",
+			"trans": "点击继续"
+		}
+	},
+	"ui": {
+		"assignQuickSlotModal": {
+			"title": {
+				"eng": "Select an item to assign to quick slot ${slotIndex}",
+				"trans": "选择一个物品分配到快捷栏 ${slotIndex}"
+			}
+		},
+		"back": {
+			"eng": "Back",
+			"trans": "返回"
+		},
+		"characterSelect": {
+			"createCharacter": {
+				"eng": "Create new character",
+				"trans": "创建新角色"
+			},
+			"deleteCharacter": {
+				"eng": "Delete Character",
+				"trans": "删除角色"
+			},
+			"noCharacters": {
+				"eng": "You have no characters",
+				"trans": "您没有角色"
+			},
+			"playCharacter": {
+				"eng": "login",
+				"trans": "登入"
+			},
+			"title": {
+				"eng": "Characters",
+				"trans": "角色"
+			}
+		},
+		"combat": {
+			"alreadyTriedEscape": {
+				"eng": "You already tried to escape in this turn!",
+				"trans": "您在这回合已经试过逃脱了！"
+			},
+			"autoAttackLevel": {
+				"eng": "You need to be level ${level} to use auto combat",
+				"trans": "自动战斗需要等级 ${level}"
+			},
+			"escape": {
+				"eng": "escape",
+				"trans": "逃脱"
+			}
+		},
+		"dungeonUI": {
+			"backpack": {
+				"eng": "Backpack",
+				"trans": "背包"
+			},
+			"quest": {
+				"eng": "Quest",
+				"trans": "任务"
+			}
+		},
+		"equipmentModal": {
+			"changeEquipment": {
+				"eng": "Change equipment",
+				"trans": "更换装备"
+			},
+			"unequip": {
+				"eng": "Unequip",
+				"trans": "卸下装备"
+			},
+			"viewDetails": {
+				"eng": "View details",
+				"trans": "查看详情"
+			}
+		},
+		"health": {
+			"eng": "health",
+			"trans": "生命值"
+		},
+		"inventoryPage": {
+			"equipmentTab": {
+				"autoEquip": {
+					"eng": "Auto Equip",
+					"trans": "自动装备"
+				},
+				"quickSlots": {
+					"title": {
+						"eng": "Quick Slots",
+						"trans": "快捷栏位"
+					}
+				},
+				"unAssignQuickSlot": {
+					"title": {
+						"eng": "Unassign Quick Slot",
+						"trans": "取消快捷栏位"
+					}
+				}
+			},
+			"tab": {
+				"backpack": {
+					"title": {
+						"eng": "Backpack",
+						"trans": "背包"
+					}
+				},
+				"equipments": {
+					"title": {
+						"eng": "Equipments",
+						"trans": "装备"
+					}
+				},
+				"inventory": {
+					"title": {
+						"eng": "Inventory",
+						"trans": "仓库"
+					}
+				},
+				"questItems": {
+					"title": {
+						"eng": "Quest Items",
+						"trans": "任务物品"
+					}
+				}
+			}
+		},
+		"itemModal": {
+			"viewDetails": {
+				"eng": "View Details",
+				"trans": "查看详情"
+			}
+		},
+		"itemSelectModal": {
+			"noItems": {
+				"eng": "No available items",
+				"trans": "没有可用的物品。"
+			}
+		},
+		"mainMenu": {
+			"bugReport": {
+				"eng": "Bug Report",
+				"trans": "错误回报"
+			},
+			"dailyReward": {
+				"eng": "Daily Reward",
+				"trans": "每日奖励"
+			},
+			"discord": {
+				"eng": "Discord",
+				"trans": "Discord"
+			},
+			"feedback": {
+				"eng": "Feedback",
+				"trans": "回馈"
+			},
+			"feedbackModal": {
+				"text1": {
+					"eng": "Do you want to send feedback to the developer(me)?",
+					"trans": "你想要给开发者（我）发送回馈吗？"
+				},
+				"text2": {
+					"eng": "Your message will be sent directly to me via direct message, I will try to respond as soon as possible! ❤️",
+					"trans": "你的讯息将会直接透过私讯传送给我，我会尽快回覆！❤️"
+				},
+				"title": {
+					"eng": "Feedback",
+					"trans": "回馈 (huí kuì)"
+				}
+			},
+			"giftCode": {
+				"eng": "Gift Code",
+				"trans": "优惠码"
+			},
+			"leaderboard": {
+				"eng": "leaderboard",
+				"trans": "排行榜"
+			},
+			"links": {
+				"eng": "links",
+				"trans": "连结"
+			},
+			"logoutButton": {
+				"eng": "logout",
+				"trans": "登出"
+			},
+			"loreNotes": {
+				"eng": "lore notes",
+				"trans": "背景故事"
+			},
+			"settings": {
+				"eng": "Settings",
+				"trans": "设定"
+			},
+			"updateLog": {
+				"eng": "Update Log",
+				"trans": "更新日志"
+			},
+			"wiki": {
+				"eng": "tutorial",
+				"trans": "教学"
+			},
+			"workInProgress": {
+				"eng": "This page is still work in progress",
+				"trans": "页面开发中"
+			}
+		},
+		"mainPage": {
+			"chatButton": {
+				"eng": "chat",
+				"trans": "聊天"
+			}
+		},
+		"misc": {
+			"equip": {
+				"eng": "Equip",
+				"trans": "装备"
+			}
+		},
+		"restart": {
+			"title": {
+				"eng": "Server is restarting...",
+				"trans": "伺服器正在重新启动..."
+			}
+		},
+		"selectItemModal": {
+			"noItems": {
+				"eng": "No available item",
+				"trans": "没有可用的物品"
+			},
+			"title": {
+				"eng": "Select item",
+				"trans": "选择物品"
+			}
+		},
+		"shield": {
+			"eng": "shield",
+			"trans": "护盾"
+		},
+		"travelBack": {
+			"title": {
+				"eng": "Back",
+				"trans": "返回"
+			}
+		}
+	},
+	"uiScale": {
+		"huge": {
+			"name": {
+				"eng": "Huge",
+				"trans": "超大"
+			}
+		},
+		"large": {
+			"name": {
+				"eng": "Large",
+				"trans": "大"
+			}
+		},
+		"normal": {
+			"name": {
+				"eng": "Normal",
+				"trans": "正常\n\n"
+			}
+		},
+		"small": {
+			"name": {
+				"eng": "Small",
+				"trans": "小"
+			}
+		},
+		"tiny": {
+			"name": {
+				"eng": "Tiny",
+				"trans": "迷你"
+			}
+		}
+	},
+	"upgradeBackpackPopup": {
+		"description": {
+			"eng": "Upgrade your backpack to increase the amount of items you can carry in strongholds.",
+			"trans": "升级您的背包以增加在地城中可以携带的物品数量。"
+		},
+		"eng": "Backpack upgrade",
+		"slots": {
+			"eng": "${totalSlots} slots(+${slot})",
+			"trans": "+ ${slot}个栏位"
+		},
+		"trans": "升级背包",
+		"upgrade": {
+			"eng": "Upgrade ${index}",
+			"trans": "升级${index}"
+		}
+	},
+	"upgradeInventoryPopup": {
+		"addedSlots": {
+			"eng": "${slots} slots (+${addedSlots})",
+			"trans": "${slots}个栏位（+${addedSlots}）",
+			"vars": []
+		},
+		"description": {
+			"eng": "You can also upgrade your inventory space by renting a apartment",
+			"trans": "您还可以透过租用公寓来升级您的仓库"
+		},
+		"eng": "Inventory upgrade",
+		"trans": "仓库升级",
+		"upgrade": {
+			"eng": "Upgrade ${index}",
+			"trans": "升级 ${index}"
+		}
+	},
+	"upgradeItem": {
+		"error": {
+			"alreadyIdentified": {
+				"eng": "This item does not have unidentified traits",
+				"trans": "此物品没有未鑑定的属性。"
+			},
+			"levelNonTierMismatch": {
+				"eng": "Can't level a ${itemTier} item, ${shardName} can only be used with ${requiredTier} items",
+				"trans": "无法升等${itemTier}物品，${shardName}只能用于${requiredTier}物品。"
+			},
+			"levelUpTooHigh": {
+				"eng": "You cannot level up an item higher than your level",
+				"trans": "您无法将物品升等到高于您的等级"
+			},
+			"maxLevelUpTimesReached": {
+				"eng": "Item has reached max amount of times it can be leveled up",
+				"trans": "物品已达到最大可升等次数。"
+			},
+			"maxPrefixInjected": {
+				"eng": "You cannot inject more prefix into this item",
+				"trans": "您无法将更多前缀注入此物品中"
+			},
+			"prefixInjectNonTierMismatch": {
+				"eng": "This item is not high enough tier to inject prefix",
+				"trans": "这个物品的等级不够高，无法注入前缀。"
+			},
+			"resetNonTierMismatch": {
+				"eng": "Can't reset a ${itemTier} item, ${shardName} can only be used with ${requiredTier} items",
+				"trans": "无法重置${itemTier}物品，${shardName}仅能使用于${requiredTier}物品。"
+			},
+			"upgradeLevelTooLow": {
+				"eng": "Can't upgrade to a ${itemTier} item, ${shardName} can only be used with items that are at least level ${minLevel}",
+				"trans": "无法升级到${itemTier}级物品，${shardName}只能与至少等级为${minLevel}的物品一起使用。"
+			},
+			"upgradeLevelTooLowMythic": {
+				"eng": "${shardName} can only be used with items that are at least level ${minLevel}",
+				"trans": "${shardName}只能与等级至少为${minLevel}的物品一起使用。"
+			},
+			"upgradeNonTierMismatch": {
+				"eng": "Can't upgrade a ${itemTier} item, ${shardName} can only be used with ${requiredTier} items",
+				"trans": "无法升级${itemTier}物品，${shardName}只能用于${requiredTier}物品。"
+			}
+		}
+	},
+	"useItemButton": {
+		"use": {
+			"eng": "Use ${itemName}",
+			"trans": "使用${itemName}"
+		},
+		"useModal": {
+			"button": {
+				"eng": "Use",
+				"trans": "使用"
+			}
+		}
+	},
+	"vaultPage": {
+		"addItemButton": {
+			"title": {
+				"eng": "Add item to vault",
+				"trans": "将物品放入保险箱"
+			}
+		},
+		"emptyVault": {
+			"eng": "Your vault is empty",
+			"trans": "您的保险箱是空的。"
+		},
+		"selectAddAmountModal": {
+			"title": {
+				"eng": "Select amount to store",
+				"trans": "选择储存数量"
+			}
+		},
+		"selectItemModal": {
+			"title": {
+				"eng": "Select item to store",
+				"trans": "选择要储存的物品"
+			}
+		},
+		"selectTakeAmountModal": {
+			"title": {
+				"eng": "Select amount to withdraw",
+				"trans": "选择提款金额"
+			}
+		},
+		"title": {
+			"eng": "Vault",
+			"trans": "保险箱"
+		}
+	},
+	"webHomePage": {
+		"hitmanAdvert": {
+			"subtitle": {
+				"eng": "We can help you get rid of them!",
+				"trans": "我们可以帮助您摆脱他们！"
+			},
+			"title": {
+				"eng": "Got a nemesis?",
+				"trans": "有宿敌吗？"
+			}
+		},
+		"hostilePlayerList": {
+			"subtitle": {
+				"eng": "Arrest wanted criminals and get paid!",
+				"trans": "逮捕通缉犯并获得报酬！"
+			},
+			"title": {
+				"eng": "Your safety, our mission.",
+				"trans": "您的安全，我们的使命。"
+			}
+		},
+		"megaAd": {
+			"subtitle": {
+				"eng": "Mega Estate - the only agency that wont scam you!",
+				"trans": "超级地产-唯一不会骗您的仲介！"
+			},
+			"title": {
+				"eng": "Cheap Price!!",
+				"trans": "超值价格！！"
+			}
+		},
+		"wiki": {
+			"subtitle": {
+				"eng": "the free encyclopedia that anyone can edit",
+				"trans": "任何人都可以编辑的免费百科全书"
+			}
+		}
+	},
+	"webLandingPage": {
+		"webNotAvailable": {
+			"eng": "Web version is not available yet.",
+			"trans": "网页版尚未推出。"
+		}
+	},
+	"wikiPage": {
+		"subtitle": {
+			"eng": "the free encyclopedia that anyone can edit",
+			"trans": "任何人都可以编辑的免费百科全书"
+		}
+	},
+	"worldEventType": {
+		"bountyAdded": {
+			"announcement": {
+				"eng": "bounty of ${amount1} has been placed on ${targetName}!",
+				"trans": "${targetName}的头现在价值${amount1}赏金！"
+			}
+		},
+		"calibrated10": {
+			"announcement": {
+				"eng": "${playerName} has calibrated ${item} to calibration level +10!",
+				"trans": "${playerName} 将 ${item} 校准到 +10 级！"
+			}
+		},
+		"calibrated11": {
+			"announcement": {
+				"eng": "${playerName} has calibrated ${item} to calibration level +11!",
+				"trans": "${playerName} 将 ${item} 校准到 +11 级！"
+			}
+		},
+		"calibrated12": {
+			"announcement": {
+				"eng": "${playerName} has calibrated ${item} to calibration level +12!",
+				"trans": "${playerName} 将 ${item} 校准到 +12 级！"
+			}
+		},
+		"calibrated7": {
+			"announcement": {
+				"eng": "${playerName} has calibrated ${item}!",
+				"trans": "${playerName}已校准${item}！"
+			}
+		},
+		"calibrated8": {
+			"announcement": {
+				"eng": "${playerName} has calibrated ${item}!",
+				"trans": "${playerName}已校准${item}！"
+			}
+		},
+		"calibrated9": {
+			"announcement": {
+				"eng": "${playerName} has calibrated ${item}!",
+				"trans": "${playerName}已校准${item}！"
+			}
+		},
+		"calibrationFailed": {
+			"announcement": {
+				"eng": "${playerName} broke ${item} while calibrating",
+				"trans": "${playerName}在校准时弄坏了${item}"
+			}
+		},
+		"citizenArrest": {
+			"announcement": {
+				"eng": "${playerName} arrested ${targetName}!",
+				"trans": "${playerName}逮捕了${targetName}！"
+			}
+		},
+		"mugged": {
+			"announcement": {
+				"eng": "${playerName} mugged someone!",
+				"trans": "${playerName} 抢劫了某人！"
+			}
+		},
+		"muggedFailed": {
+			"announcement": {
+				"eng": "${playerName} tried to mug someone but failed!",
+				"trans": "${playerName}试图抢劫某人，但失败了！"
+			}
+		},
+		"upgradedEpic": {
+			"announcement": {
+				"eng": "${playerName} upgraded ${item} to ${tier}!",
+				"trans": "${playerName} 将 ${item} 升级至 ${tier}！"
+			}
+		},
+		"upgradedMythic": {
+			"announcement": {
+				"eng": "${playerName} upgraded ${item} to ${tier}!",
+				"trans": "${playerName} 将 ${item} 升级至 ${tier}！"
+			}
+		}
+	}
+}
