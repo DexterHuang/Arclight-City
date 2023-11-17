@@ -410,7 +410,7 @@
 		},
 		"destroyChance": {
 			"eng": "Destroy chance:",
-			"trans": "摧毀機會"
+			"trans": "毀損機率"
 		},
 		"maxed": {
 			"eng": "Max Calibration Reached",
@@ -434,7 +434,7 @@
 		},
 		"tip": {
 			"eng": "Automatically calibrate and repair your item until it have successfully calibrated it once, or if you stopped the process.",
-			"trans": "自動校準並修復您的物品，直到成功校準一次，或者如果您停止了該過程。"
+			"trans": "自動校準並修復您的物品，直到成功校準一次或是您手動停止。"
 		}
 	},
 	"backgroundTask": {
@@ -1197,7 +1197,7 @@
 		},
 		"recipes": {
 			"eng": "Recipes",
-			"trans": "配方"
+			"trans": "食譜"
 		},
 		"selectAmount": {
 			"eng": "Select amount",
@@ -1205,7 +1205,7 @@
 		},
 		"selectRecipe": {
 			"eng": "Select a recipe below",
-			"trans": "在下方選擇一個合成表"
+			"trans": "選取食譜"
 		}
 	},
 	"costDisplay": {
@@ -2400,7 +2400,7 @@
 			},
 			"cannotPlaceBountyOnLowLevel": {
 				"eng": "You cannot place bounty on players lower than level ${level}",
-				"trans": "你無法對低於${level}等級的玩家設置懸賞金。"
+				"trans": "你無法對低於${level}等級的玩家設置懸賞。"
 			},
 			"cannotPlaceBountyOnSelf": {
 				"eng": "You cannot place bounty on yourself",
@@ -2593,7 +2593,7 @@
 		},
 		"destroyChance2": {
 			"eng": "destroy chance",
-			"trans": "毀滅機會"
+			"trans": "毀損機率"
 		},
 		"destroyChanceInfo": {
 			"description1": {
@@ -2606,7 +2606,7 @@
 			},
 			"title": {
 				"eng": "Destroy chance",
-				"trans": "毀滅機會"
+				"trans": "毀損機率"
 			}
 		},
 		"maxCalibration": {
@@ -2638,7 +2638,7 @@
 		"tip": {
 			"noOptimizer": {
 				"eng": "You can use a optimizer to improve your calibration chances.",
-				"trans": "你可以使用優化器來提高你的校準機會。"
+				"trans": "你可以使用優化器來提高你的校準機率。"
 			}
 		}
 	},
@@ -3026,7 +3026,7 @@
 		"itemUpgradeShard": {
 			"name": {
 				"eng": "Item Upgrade Shard",
-				"trans": "裝備升級碎片"
+				"trans": "裝備階級碎片"
 			}
 		},
 		"lowerArmor": {
@@ -3474,7 +3474,7 @@
 		"keyFragment": {
 			"generalDescription": {
 				"eng": "Collect ${amount} of these to create a ${keyName} that can be used to unlock a ${containerName}.",
-				"trans": "收集${amount}個這些物品來製作一個可以用來解鎖${containerName}的${keyName}。"
+				"trans": "收集${amount}個來製作一個可以用來解鎖${containerName}的${keyName}。"
 			}
 		},
 		"keyFragment1": {
@@ -3620,7 +3620,7 @@
 		"mythicUpgradeShard": {
 			"name": {
 				"eng": "Mythic Upgrade Shard",
-				"trans": "神話級碎片"
+				"trans": "神話階級碎片"
 			}
 		},
 		"netcoin": {
@@ -3840,7 +3840,7 @@
 			},
 			"name": {
 				"eng": "Locked Unique Container",
-				"trans": "加密的獨特容器"
+				"trans": "加密獨特容器"
 			}
 		},
 		"uniqueResetShard": {
@@ -3868,7 +3868,7 @@
 		"upgradeGeneral": {
 			"description": {
 				"eng": "Use to upgrade an ${fromTier} item to ${toTier}",
-				"trans": "使用來將${fromTier}等級的物品升級為${toTier}等級"
+				"trans": "用以將${fromTier}階級的物品升級為${toTier}階級"
 			}
 		},
 		"upperArmor": {
@@ -3924,7 +3924,7 @@
 			},
 			"description": {
 				"eng": "It is not recommended to upgrade your item to uncommon before level ${level}, as upgrading it will make it harder to level the item up, requiring a ${levelItem1} instead of ${levelItem2}\\nFor lower level players, its recommended to use ${levelItem2} to increase item level first instead of upgrading tier first.\\nAre you sure you want to continue? ",
-				"trans": "在達到${level}級之前，不建議將您的物品升級至非凡級別，因為升級會使物品增加等級更加困難，需要${levelItem1}而不是${levelItem2}。\\n對於低等級玩家，建議先使用${levelItem2}來提升物品等級，而不是先升級階級。\\n您確定要繼續嗎？"
+				"trans": "在達到${level}級之前，不建議將您的物品升級至高級階級，因為升級會使物品增加等級更加困難，需要${levelItem1}而不是${levelItem2}。\\n對於低等級玩家，建議先使用${levelItem2}來提升物品等級，而不是先升級階級。\\n您確定要繼續嗎？"
 			},
 			"title": {
 				"eng": "Are you sure?",
@@ -4825,11 +4825,11 @@
 	"mercenaryFilterModal": {
 		"common": {
 			"eng": "Common",
-			"trans": "常見的\n\n"
+			"trans": "普通\n\n"
 		},
 		"epic": {
 			"eng": "Epic",
-			"trans": "史詩級"
+			"trans": "史詩"
 		},
 		"leveled": {
 			"eng": "Ignore Leveled Up Mercenaries",
@@ -4841,15 +4841,15 @@
 		},
 		"rare": {
 			"eng": "Rare",
-			"trans": "稀有的"
+			"trans": "稀有"
 		},
 		"uncommon": {
 			"eng": "Uncommon",
-			"trans": "罕見的\n\n"
+			"trans": "高級\n\n"
 		},
 		"unique": {
 			"eng": "Unique",
-			"trans": "獨特的"
+			"trans": "獨特"
 		}
 	},
 	"mercenaryLevelDisplay": {
@@ -6213,7 +6213,7 @@
 			},
 			"share": {
 				"eng": "Share now",
-				"trans": "現在分享"
+				"trans": "馬上分享"
 			},
 			"shareText": {
 				"eng": "hey! checkout this awesome text based MMORPG! enter my name \"${name}\" as referral when you create your character!",
@@ -6520,7 +6520,7 @@
 	"renderMessage": {
 		"tier": {
 			"eng": "${tier} Tier",
-			"trans": "${tier} 級別"
+			"trans": "${tier} 階級"
 		}
 	},
 	"repairAnimationPopup": {
@@ -7758,7 +7758,7 @@
 		},
 		"alreadyLocked": {
 			"eng": "You already locked this trade",
-			"trans": "您已經加密了此交易。"
+			"trans": "您已經鎖定了此交易。"
 		},
 		"cantAcceptWhileBusy": {
 			"eng": "You can\\'t accept a trade while you are busy",
@@ -7806,7 +7806,7 @@
 		},
 		"lock": {
 			"eng": "lock deal",
-			"trans": "加密交易"
+			"trans": "鎖定交易"
 		},
 		"notEnoughItems": {
 			"eng": "${playerName} doesn\\'t have enough ${itemName}",
@@ -7822,7 +7822,7 @@
 		},
 		"notLocked": {
 			"eng": "You didn\\'t lock this trade",
-			"trans": "您沒有加密這筆交易"
+			"trans": "您沒有鎖定這筆交易"
 		},
 		"playerNotEnoughMoney": {
 			"eng": "${playerName} doesn\\'t have enough ${currency}",
@@ -7952,7 +7952,7 @@
 		},
 		"dungeonLevelChange": {
 			"eng": "You change level of the stronghold here if you want to fight stronger or weaker enemies.",
-			"trans": "在這裡你可以調整地城的等級，如果想要與更強或更弱的敵人戰鬥。"
+			"trans": "如果你想要與更強或更弱的敵人戰鬥，可以在這裡調整地城的等級，。"
 		},
 		"dungeonStart": {
 			"eng": "Click here to enter the stronghold.",
@@ -7996,7 +7996,7 @@
 		},
 		"locationRewards": {
 			"eng": "You can claim these reward after you have defeated the boss in the Hard Difficulty stronghold at this location.",
-			"trans": "在這個地點的困難難度地城擊敗首領後，你可以領取這些獎勵。"
+			"trans": "你可以在擊敗此地區的困難地城首領後領取這些獎勵。"
 		},
 		"locationTravelBtn": {
 			"eng": "Click here to travel to the location.",
@@ -8251,7 +8251,7 @@
 			},
 			"workInProgress": {
 				"eng": "This page is still work in progress",
-				"trans": "這個頁面還在進行中"
+				"trans": "頁面開發中"
 			}
 		},
 		"mainPage": {
@@ -8502,7 +8502,7 @@
 		"bountyAdded": {
 			"announcement": {
 				"eng": "bounty of ${amount1} has been placed on ${targetName}!",
-				"trans": "${amount1}的賞金已經放在${targetName}的頭上了！"
+				"trans": "${targetName}的頭現在價值${amount1}賞金！"
 			}
 		},
 		"calibrated10": {
