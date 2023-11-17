@@ -621,6 +621,93 @@
 			"trans": "背包"
 		}
 	},
+	"battlePass": {
+		"mercEnhancer": {
+			"description": {
+				"eng": "Receive free ${item} every day",
+				"trans": "每天免費獲得${item}"
+			},
+			"pass1": {
+				"name": {
+					"eng": "Basic",
+					"trans": "基礎"
+				}
+			},
+			"pass2": {
+				"name": {
+					"eng": "Advanced",
+					"trans": "高級"
+				}
+			},
+			"subtitle": {
+				"eng": "Upgrade Mercenaries",
+				"trans": "升級傭兵"
+			},
+			"title": {
+				"eng": "Unleash Power",
+				"trans": "釋放力量"
+			}
+		}
+	},
+	"battlePassOverlay": {
+		"claimAll": {
+			"eng": "Claim All",
+			"trans": "全部領取"
+		},
+		"claimed": {
+			"eng": "Claimed",
+			"trans": "已領取"
+		},
+		"days": {
+			"eng": "Day ${num}",
+			"trans": "第${num}天"
+		},
+		"item": {
+			"claimed": {
+				"eng": "Claimed",
+				"trans": "已領取"
+			},
+			"locked": {
+				"eng": "Locked",
+				"trans": "鎖定"
+			},
+			"pending": {
+				"eng": "Pending",
+				"trans": "待處理"
+			},
+			"unclaimed": {
+				"eng": "Claim",
+				"trans": "領取"
+			}
+		},
+		"itemStillPending": {
+			"eng": "This item is still pending. Please wait until the next refresh.",
+			"trans": "這個物品還在等待中。請等待下一次更新。"
+		},
+		"timeToNextRefresh": {
+			"eng": "Time to next refresh",
+			"trans": "下次更新時間到了",
+			"vars": []
+		},
+		"unlock": {
+			"eng": "Unlock",
+			"trans": "解鎖"
+		}
+	},
+	"battlePassUnlockModal": {
+		"unlockBattlePass": {
+			"eng": "Unlock ${tier} Battle Pass",
+			"trans": "解鎖${tier}級戰鬥通行證"
+		},
+		"unlockBattlePassDescription": {
+			"eng": "Unlock this battle pass tier to make the ${tier} tier rewards available.",
+			"trans": "解鎖此戰鬥通行證層級，以獲得${tier}層級的獎勵。"
+		},
+		"unlockNow": {
+			"eng": "Unlock Now",
+			"trans": "立即解鎖"
+		}
+	},
 	"buff": {
 		"defenseIncrease": {
 			"description": {
@@ -7872,6 +7959,10 @@
 			"eng": "Claim reward",
 			"trans": "領取獎勵"
 		},
+		"locationBackground": {
+			"eng": "Background Story",
+			"trans": "背景故事"
+		},
 		"locationNotCleared2": {
 			"eng": "Clear level ${level} ${dungeonType} stronghold to unlock the rewards",
 			"trans": "通過清除${level}級${dungeonType}地城，解鎖獎勵。"
@@ -7879,6 +7970,10 @@
 		"rewardClaimed": {
 			"eng": "claimed",
 			"trans": "已領取"
+		},
+		"rewardDescription": {
+			"eng": "Rewards are claimed after clearing the ${difficulty} stronghold, you must participate in defeating the boss for it to count.\\nyou can only claim reward for each location once.",
+			"trans": "在清除${difficulty}地城後才能領取獎勵，你必須參與擊敗首領才能計算。\\n每個地點的獎勵只能領取一次。"
 		},
 		"rewardSubtitle": {
 			"eng": "raid rewards",
