@@ -621,6 +621,93 @@
 			"trans": "Mochila"
 		}
 	},
+	"battlePass": {
+		"mercEnhancer": {
+			"description": {
+				"eng": "Receive free ${item} every day",
+				"trans": "Recibe ${item} gratis todos los días"
+			},
+			"pass1": {
+				"name": {
+					"eng": "Basic",
+					"trans": "Básico"
+				}
+			},
+			"pass2": {
+				"name": {
+					"eng": "Advanced",
+					"trans": "Avanzado"
+				}
+			},
+			"subtitle": {
+				"eng": "Upgrade Mercenaries",
+				"trans": "Mejorar Mercenarios"
+			},
+			"title": {
+				"eng": "Unleash Power",
+				"trans": "Desatar Poder"
+			}
+		}
+	},
+	"battlePassOverlay": {
+		"claimAll": {
+			"eng": "Claim All",
+			"trans": "Reclamar Todo"
+		},
+		"claimed": {
+			"eng": "Claimed",
+			"trans": "Reclamado"
+		},
+		"days": {
+			"eng": "Day ${num}",
+			"trans": "Día ${num}"
+		},
+		"item": {
+			"claimed": {
+				"eng": "Claimed",
+				"trans": "Reclamado"
+			},
+			"locked": {
+				"eng": "Locked",
+				"trans": "Bloqueado"
+			},
+			"pending": {
+				"eng": "Pending",
+				"trans": "Pendiente"
+			},
+			"unclaimed": {
+				"eng": "Claim",
+				"trans": "Reclamar"
+			}
+		},
+		"itemStillPending": {
+			"eng": "This item is still pending. Please wait until the next refresh.",
+			"trans": "Este objeto aún está pendiente. Por favor, espera hasta la próxima actualización."
+		},
+		"timeToNextRefresh": {
+			"eng": "Time to next refresh",
+			"trans": "Tiempo hasta la próxima actualización",
+			"vars": []
+		},
+		"unlock": {
+			"eng": "Unlock",
+			"trans": "Desbloquear"
+		}
+	},
+	"battlePassUnlockModal": {
+		"unlockBattlePass": {
+			"eng": "Unlock ${tier} Battle Pass",
+			"trans": "Desbloquear Pase de Batalla ${tier}"
+		},
+		"unlockBattlePassDescription": {
+			"eng": "Unlock this battle pass tier to make the ${tier} tier rewards available.",
+			"trans": "Desbloquea este nivel del pase de batalla para hacer disponibles las recompensas del nivel ${tier}."
+		},
+		"unlockNow": {
+			"eng": "Unlock Now",
+			"trans": "Desbloquear Ahora"
+		}
+	},
 	"buff": {
 		"defenseIncrease": {
 			"description": {
@@ -7872,6 +7959,10 @@
 			"eng": "Claim reward",
 			"trans": "Reclamar recompensa"
 		},
+		"locationBackground": {
+			"eng": "Background Story",
+			"trans": "Historia de fondo"
+		},
 		"locationNotCleared2": {
 			"eng": "Clear level ${level} ${dungeonType} stronghold to unlock the rewards",
 			"trans": "Despeja el nivel ${level} de la fortaleza ${dungeonType} para desbloquear las recompensas"
@@ -7879,6 +7970,10 @@
 		"rewardClaimed": {
 			"eng": "claimed",
 			"trans": "reclamado"
+		},
+		"rewardDescription": {
+			"eng": "Rewards are claimed after clearing the ${difficulty} stronghold, you must participate in defeating the boss for it to count.\\nyou can only claim reward for each location once.",
+			"trans": "Las recompensas se reclaman después de completar la fortaleza de ${difficulty}, debes participar en derrotar al jefe para que cuente. Solo puedes reclamar la recompensa una vez por ubicación."
 		},
 		"rewardSubtitle": {
 			"eng": "raid rewards",

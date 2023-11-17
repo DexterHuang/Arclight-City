@@ -410,7 +410,7 @@
 		},
 		"destroyChance": {
 			"eng": "Destroy chance:",
-			"trans": "Шанс уничтожения:\n\n"
+			"trans": "Шанс уничтожения:"
 		},
 		"maxed": {
 			"eng": "Max Calibration Reached",
@@ -430,7 +430,7 @@
 		},
 		"successChance": {
 			"eng": "Success chance:",
-			"trans": "Шанс успеха:\n\n"
+			"trans": "Шанс успеха:"
 		},
 		"tip": {
 			"eng": "Automatically calibrate and repair your item until it have successfully calibrated it once, or if you stopped the process.",
@@ -619,6 +619,93 @@
 		"title": {
 			"eng": "Backpack",
 			"trans": "Рюкзак"
+		}
+	},
+	"battlePass": {
+		"mercEnhancer": {
+			"description": {
+				"eng": "Receive free ${item} every day",
+				"trans": "Получайте бесплатно ${item} каждый день"
+			},
+			"pass1": {
+				"name": {
+					"eng": "Basic",
+					"trans": "Основы"
+				}
+			},
+			"pass2": {
+				"name": {
+					"eng": "Advanced",
+					"trans": "Продвинутый"
+				}
+			},
+			"subtitle": {
+				"eng": "Upgrade Mercenaries",
+				"trans": "Улучшить наемников"
+			},
+			"title": {
+				"eng": "Unleash Power",
+				"trans": "Разблокируйте Силу"
+			}
+		}
+	},
+	"battlePassOverlay": {
+		"claimAll": {
+			"eng": "Claim All",
+			"trans": "Забрать все"
+		},
+		"claimed": {
+			"eng": "Claimed",
+			"trans": "Заявлено"
+		},
+		"days": {
+			"eng": "Day ${num}",
+			"trans": "День ${num}"
+		},
+		"item": {
+			"claimed": {
+				"eng": "Claimed",
+				"trans": "Заявлено"
+			},
+			"locked": {
+				"eng": "Locked",
+				"trans": "Заблокировано"
+			},
+			"pending": {
+				"eng": "Pending",
+				"trans": "В ожидании"
+			},
+			"unclaimed": {
+				"eng": "Claim",
+				"trans": "Заявка"
+			}
+		},
+		"itemStillPending": {
+			"eng": "This item is still pending. Please wait until the next refresh.",
+			"trans": "Этот предмет еще не подтвержден. Пожалуйста, подождите до следующего обновления."
+		},
+		"timeToNextRefresh": {
+			"eng": "Time to next refresh",
+			"trans": "Время до следующего обновления",
+			"vars": []
+		},
+		"unlock": {
+			"eng": "Unlock",
+			"trans": "Разблокировать"
+		}
+	},
+	"battlePassUnlockModal": {
+		"unlockBattlePass": {
+			"eng": "Unlock ${tier} Battle Pass",
+			"trans": "Разблокировать ${tier} Боевой пропуск"
+		},
+		"unlockBattlePassDescription": {
+			"eng": "Unlock this battle pass tier to make the ${tier} tier rewards available.",
+			"trans": "Разблокируйте этот уровень боевого пропуска, чтобы получить доступ к наградам ${tier} уровня."
+		},
+		"unlockNow": {
+			"eng": "Unlock Now",
+			"trans": "Разблокировать сейчас"
 		}
 	},
 	"buff": {
@@ -3502,7 +3589,7 @@
 			},
 			"name": {
 				"eng": "Level Reward Container",
-				"trans": "Контейнер наград уровня\n\n"
+				"trans": "Контейнер наград уровня"
 			}
 		},
 		"lootBox1": {
@@ -4825,7 +4912,7 @@
 	"mercenaryFilterModal": {
 		"common": {
 			"eng": "Common",
-			"trans": "Общее\n\n"
+			"trans": "Общее"
 		},
 		"epic": {
 			"eng": "Epic",
@@ -4841,7 +4928,7 @@
 		},
 		"rare": {
 			"eng": "Rare",
-			"trans": "Редкий\n\n"
+			"trans": "Редкий"
 		},
 		"uncommon": {
 			"eng": "Uncommon",
@@ -4885,7 +4972,7 @@
 			"selectUncommonBelow": {
 				"title": {
 					"eng": "Auto Select",
-					"trans": "Автоматический выбор\n\n"
+					"trans": "Автоматический выбор"
 				}
 			}
 		},
@@ -6182,7 +6269,7 @@
 		},
 		"mostEfficient": {
 			"eng": "Best Value",
-			"trans": "Лучшее значение\n\n"
+			"trans": "Лучшее значение"
 		}
 	},
 	"promo": {
@@ -7872,6 +7959,10 @@
 			"eng": "Claim reward",
 			"trans": "Получить награду"
 		},
+		"locationBackground": {
+			"eng": "Background Story",
+			"trans": "История фонового сюжета"
+		},
 		"locationNotCleared2": {
 			"eng": "Clear level ${level} ${dungeonType} stronghold to unlock the rewards",
 			"trans": "Очистите уровень ${level} ${dungeonType} крепости, чтобы разблокировать награды"
@@ -7879,6 +7970,10 @@
 		"rewardClaimed": {
 			"eng": "claimed",
 			"trans": "заявлено"
+		},
+		"rewardDescription": {
+			"eng": "Rewards are claimed after clearing the ${difficulty} stronghold, you must participate in defeating the boss for it to count.\\nyou can only claim reward for each location once.",
+			"trans": "Награды получаются после прохождения крепости ${difficulty}, вы должны принять участие в победе над боссом, чтобы это засчиталось. Вы можете получить награду только один раз за каждое местоположение."
 		},
 		"rewardSubtitle": {
 			"eng": "raid rewards",

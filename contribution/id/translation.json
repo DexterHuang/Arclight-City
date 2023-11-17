@@ -621,6 +621,93 @@
 			"trans": "Ransel"
 		}
 	},
+	"battlePass": {
+		"mercEnhancer": {
+			"description": {
+				"eng": "Receive free ${item} every day",
+				"trans": "Dapatkan ${item} gratis setiap hari"
+			},
+			"pass1": {
+				"name": {
+					"eng": "Basic",
+					"trans": "Dasar"
+				}
+			},
+			"pass2": {
+				"name": {
+					"eng": "Advanced",
+					"trans": "Lanjutan"
+				}
+			},
+			"subtitle": {
+				"eng": "Upgrade Mercenaries",
+				"trans": "Tingkatkan Pasukan Bayaran"
+			},
+			"title": {
+				"eng": "Unleash Power",
+				"trans": "Lepaskan Kekuatan"
+			}
+		}
+	},
+	"battlePassOverlay": {
+		"claimAll": {
+			"eng": "Claim All",
+			"trans": "Klaim Semua"
+		},
+		"claimed": {
+			"eng": "Claimed",
+			"trans": "Klaimed"
+		},
+		"days": {
+			"eng": "Day ${num}",
+			"trans": "Hari ${num}"
+		},
+		"item": {
+			"claimed": {
+				"eng": "Claimed",
+				"trans": "Klaimed"
+			},
+			"locked": {
+				"eng": "Locked",
+				"trans": "Terkunci"
+			},
+			"pending": {
+				"eng": "Pending",
+				"trans": "Menunggu"
+			},
+			"unclaimed": {
+				"eng": "Claim",
+				"trans": "Klaim"
+			}
+		},
+		"itemStillPending": {
+			"eng": "This item is still pending. Please wait until the next refresh.",
+			"trans": "Item ini masih tertunda. Mohon tunggu hingga refresh berikutnya."
+		},
+		"timeToNextRefresh": {
+			"eng": "Time to next refresh",
+			"trans": "Waktu untuk refresh berikutnya",
+			"vars": []
+		},
+		"unlock": {
+			"eng": "Unlock",
+			"trans": "Buka"
+		}
+	},
+	"battlePassUnlockModal": {
+		"unlockBattlePass": {
+			"eng": "Unlock ${tier} Battle Pass",
+			"trans": "Buka ${tier} Battle Pass"
+		},
+		"unlockBattlePassDescription": {
+			"eng": "Unlock this battle pass tier to make the ${tier} tier rewards available.",
+			"trans": "Buka tier battle pass ini untuk membuat hadiah tier ${tier} tersedia."
+		},
+		"unlockNow": {
+			"eng": "Unlock Now",
+			"trans": "Buka Sekarang"
+		}
+	},
 	"buff": {
 		"defenseIncrease": {
 			"description": {
@@ -4825,7 +4912,7 @@
 	"mercenaryFilterModal": {
 		"common": {
 			"eng": "Common",
-			"trans": "Umum\n\nPlayer ${0} is ${1} has been killed during PVP\nPemain ${0} telah ${1} tewas selama PVP.\n\nWhat is equipment calibration?\nApa itu kalibrasi peralatan?\n\n"
+			"trans": "Umum"
 		},
 		"epic": {
 			"eng": "Epic",
@@ -7872,6 +7959,10 @@
 			"eng": "Claim reward",
 			"trans": "Klaim hadiah"
 		},
+		"locationBackground": {
+			"eng": "Background Story",
+			"trans": "Latar Belakang Cerita"
+		},
 		"locationNotCleared2": {
 			"eng": "Clear level ${level} ${dungeonType} stronghold to unlock the rewards",
 			"trans": "Selesaikan level ${level} Benteng ${dungeonType} untuk membuka hadiah"
@@ -7879,6 +7970,10 @@
 		"rewardClaimed": {
 			"eng": "claimed",
 			"trans": "Diklaim"
+		},
+		"rewardDescription": {
+			"eng": "Rewards are claimed after clearing the ${difficulty} stronghold, you must participate in defeating the boss for it to count.\\nyou can only claim reward for each location once.",
+			"trans": "Hadiah akan diklaim setelah menyelesaikan benteng ${difficulty}, kamu harus berpartisipasi dalam mengalahkan bos agar dihitung.\\nKamu hanya dapat mengklaim hadiah untuk setiap lokasi sekali saja."
 		},
 		"rewardSubtitle": {
 			"eng": "raid rewards",
@@ -8309,7 +8404,7 @@
 		"normal": {
 			"name": {
 				"eng": "Normal",
-				"trans": "Biasa\n\nPlayer ${0} is ${1} has been killed during PVP\nPemain ${0} telah ${1} tewas selama PVP.\n\nWhat is equipment calibration?\nApa itu kalibrasi peralatan?"
+				"trans": "Biasa"
 			}
 		},
 		"small": {

@@ -621,6 +621,93 @@
 			"trans": "バックパック"
 		}
 	},
+	"battlePass": {
+		"mercEnhancer": {
+			"description": {
+				"eng": "Receive free ${item} every day",
+				"trans": "毎日無料で${item}を受け取る"
+			},
+			"pass1": {
+				"name": {
+					"eng": "Basic",
+					"trans": "基本的な"
+				}
+			},
+			"pass2": {
+				"name": {
+					"eng": "Advanced",
+					"trans": "上級"
+				}
+			},
+			"subtitle": {
+				"eng": "Upgrade Mercenaries",
+				"trans": "マーセナリーをアップグレードする"
+			},
+			"title": {
+				"eng": "Unleash Power",
+				"trans": "パワーを解き放て"
+			}
+		}
+	},
+	"battlePassOverlay": {
+		"claimAll": {
+			"eng": "Claim All",
+			"trans": "全てを受け取る"
+		},
+		"claimed": {
+			"eng": "Claimed",
+			"trans": "獲得済み (とくしゅうずみ)"
+		},
+		"days": {
+			"eng": "Day ${num}",
+			"trans": "${num}日目"
+		},
+		"item": {
+			"claimed": {
+				"eng": "Claimed",
+				"trans": "獲得済み (とくしゅうずみ)"
+			},
+			"locked": {
+				"eng": "Locked",
+				"trans": "ロックされています"
+			},
+			"pending": {
+				"eng": "Pending",
+				"trans": "未処理"
+			},
+			"unclaimed": {
+				"eng": "Claim",
+				"trans": "請求する"
+			}
+		},
+		"itemStillPending": {
+			"eng": "This item is still pending. Please wait until the next refresh.",
+			"trans": "このアイテムはまだ保留中です。次の更新までお待ちください。"
+		},
+		"timeToNextRefresh": {
+			"eng": "Time to next refresh",
+			"trans": "次のリフレッシュまでの時間",
+			"vars": []
+		},
+		"unlock": {
+			"eng": "Unlock",
+			"trans": "解除する"
+		}
+	},
+	"battlePassUnlockModal": {
+		"unlockBattlePass": {
+			"eng": "Unlock ${tier} Battle Pass",
+			"trans": "${tier}のバトルパスを解除する"
+		},
+		"unlockBattlePassDescription": {
+			"eng": "Unlock this battle pass tier to make the ${tier} tier rewards available.",
+			"trans": "このバトルパスのティアをアンロックして、${tier}ティアの報酬を利用できるようにする。"
+		},
+		"unlockNow": {
+			"eng": "Unlock Now",
+			"trans": "今すぐアンロックする"
+		}
+	},
 	"buff": {
 		"defenseIncrease": {
 			"description": {
@@ -1902,7 +1989,7 @@
 		"leaveDungeonModal": {
 			"description": {
 				"eng": "Are you sure you want to leave the dungeon?\\nItems you collected will be moved to your inventory safely.",
-				"trans": "ダンジョンから出てもよろしいですか？\n\n集めたアイテムはインベントリに移動されます。"
+				"trans": "ダンジョンから出てもよろしいですか？\n集めたアイテムはインベントリに移動されます。"
 			},
 			"title": {
 				"eng": "quit Dungeon",
@@ -7872,6 +7959,10 @@
 			"eng": "Claim reward",
 			"trans": "報酬を受け取る"
 		},
+		"locationBackground": {
+			"eng": "Background Story",
+			"trans": "背景ストーリー"
+		},
 		"locationNotCleared2": {
 			"eng": "Clear level ${level} ${dungeonType} stronghold to unlock the rewards",
 			"trans": "${level}レベルの${dungeonType}要塞をクリアして、報酬をアンロックしましょう。"
@@ -7879,6 +7970,10 @@
 		"rewardClaimed": {
 			"eng": "claimed",
 			"trans": "獲得しました。"
+		},
+		"rewardDescription": {
+			"eng": "Rewards are claimed after clearing the ${difficulty} stronghold, you must participate in defeating the boss for it to count.\\nyou can only claim reward for each location once.",
+			"trans": "${difficulty}の要塞をクリアすると報酬がもらえます。ボスを倒すために参加する必要があります。\\n各ロケーションで報酬を一度しか受け取ることはできません。"
 		},
 		"rewardSubtitle": {
 			"eng": "raid rewards",

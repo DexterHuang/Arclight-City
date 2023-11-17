@@ -621,6 +621,93 @@
 			"trans": "배낭"
 		}
 	},
+	"battlePass": {
+		"mercEnhancer": {
+			"description": {
+				"eng": "Receive free ${item} every day",
+				"trans": "매일 무료로 ${item}을(를) 받으세요"
+			},
+			"pass1": {
+				"name": {
+					"eng": "Basic",
+					"trans": "기본"
+				}
+			},
+			"pass2": {
+				"name": {
+					"eng": "Advanced",
+					"trans": "고급\nPlayer ${0} is ${1} has been killed during PVP\n플레이어 ${0}은(는) PVP 중 ${1} 상태로 사망했습니다.\n\nWhat is equipment calibration?\n장비 교정이란 무엇인가요?"
+				}
+			},
+			"subtitle": {
+				"eng": "Upgrade Mercenaries",
+				"trans": "용병 업그레이드"
+			},
+			"title": {
+				"eng": "Unleash Power",
+				"trans": "파워 발휘하기"
+			}
+		}
+	},
+	"battlePassOverlay": {
+		"claimAll": {
+			"eng": "Claim All",
+			"trans": "모두 수령하기"
+		},
+		"claimed": {
+			"eng": "Claimed",
+			"trans": "차지됨"
+		},
+		"days": {
+			"eng": "Day ${num}",
+			"trans": "${num}일"
+		},
+		"item": {
+			"claimed": {
+				"eng": "Claimed",
+				"trans": "차지됨"
+			},
+			"locked": {
+				"eng": "Locked",
+				"trans": "잠김"
+			},
+			"pending": {
+				"eng": "Pending",
+				"trans": "대기 중"
+			},
+			"unclaimed": {
+				"eng": "Claim",
+				"trans": "요청"
+			}
+		},
+		"itemStillPending": {
+			"eng": "This item is still pending. Please wait until the next refresh.",
+			"trans": "이 아이템은 아직 처리 중입니다. 다음 새로고침까지 기다려주세요."
+		},
+		"timeToNextRefresh": {
+			"eng": "Time to next refresh",
+			"trans": "다음 새로고침까지 남은 시간",
+			"vars": []
+		},
+		"unlock": {
+			"eng": "Unlock",
+			"trans": "잠금 해제"
+		}
+	},
+	"battlePassUnlockModal": {
+		"unlockBattlePass": {
+			"eng": "Unlock ${tier} Battle Pass",
+			"trans": "${tier} 배틀 패스 해제하기"
+		},
+		"unlockBattlePassDescription": {
+			"eng": "Unlock this battle pass tier to make the ${tier} tier rewards available.",
+			"trans": "${tier} 티어 보상을 사용할 수 있도록 이 배틀 패스 티어를 해제하세요."
+		},
+		"unlockNow": {
+			"eng": "Unlock Now",
+			"trans": "지금 잠금 해제하기"
+		}
+	},
 	"buff": {
 		"defenseIncrease": {
 			"description": {
@@ -6492,7 +6579,7 @@
 		},
 		"subtitle": {
 			"eng": "Rewards",
-			"trans": "보상\n\n"
+			"trans": "보상"
 		},
 		"title": {
 			"eng": "Refer a friend and get rewards!",
@@ -7872,6 +7959,10 @@
 			"eng": "Claim reward",
 			"trans": "보상 수령"
 		},
+		"locationBackground": {
+			"eng": "Background Story",
+			"trans": "배경 이야기"
+		},
 		"locationNotCleared2": {
 			"eng": "Clear level ${level} ${dungeonType} stronghold to unlock the rewards",
 			"trans": "레벨 ${level} ${dungeonType} 소굴을 클리어하여 보상을 해제하세요"
@@ -7879,6 +7970,10 @@
 		"rewardClaimed": {
 			"eng": "claimed",
 			"trans": "수령함"
+		},
+		"rewardDescription": {
+			"eng": "Rewards are claimed after clearing the ${difficulty} stronghold, you must participate in defeating the boss for it to count.\\nyou can only claim reward for each location once.",
+			"trans": "${difficulty} 아지트를 클리어한 후에 보상을 받을 수 있습니다. 보스를 물리치는 데 참여해야 보상이 지급됩니다. 각 지역의 보상은 한 번만 받을 수 있습니다."
 		},
 		"rewardSubtitle": {
 			"eng": "raid rewards",
