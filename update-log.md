@@ -8,6 +8,19 @@
 
 **If you find a exploit please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
+### 0.0.20 
+
+-   Added `Battle Track` functionality, currently there is `Mercenary Enhancer` track that gives you free `Mercenary Enhancer` every 24 hours (UTC time), you can redeem it in reward page. more tracks will be added in the future.
+-   Increased base inventory size by to 38, this will allow you to hold more items in your inventory for all players.
+-   Server optimization
+
+
+### 0.0.20 
+
+-   Fixed issue where when you are not in the combat with boss, you will not receive "dungeon cleared" notification when your team mate cleared the dungeon
+-   Added clearer instruction on travel page for how to get level rewards
+-   Swapped position for attack button in hit list to make it consistent with wanted list
+
 ### 0.0.19
 
 -   Fixed issue with NPC not showing correctly
