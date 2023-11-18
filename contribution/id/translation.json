@@ -29,7 +29,7 @@
 		"RARE": {
 			"description": {
 				"eng": "Professional mercs likes discuss about their gig here",
-				"trans": "Profesional傭兵 suka berdiskusi tentang mangsa mereka di sini"
+				"trans": "Tentara bayaran Propesional suka berdiskusi tentang mangsa mereka di sini"
 			},
 			"title": {
 				"eng": "Sofa tables",
@@ -57,7 +57,7 @@
 		"burn": {
 			"description": {
 				"eng": "Burns targeted enemy for ${amount} damage for ${turns} turns",
-				"trans": "Membakar musuh yang menjadi target untuk ${amount} kerusakan selama ${turns} giliran"
+				"trans": "Membakar musuh yang menjadi target untuk ${amount} kerusakan selama ${turns} putaran"
 			},
 			"triggered": {
 				"eng": "${merc} burns ${enemy}, ${enemy} received ${damage} damage.",
@@ -67,7 +67,7 @@
 		"burnGroup": {
 			"description": {
 				"eng": "Burns all enemies for ${amount} damage for ${turns} turns",
-				"trans": "Membakar semua musuh untuk ${amount} kerusakan untuk ${turns} giliran"
+				"trans": "Membakar semua musuh untuk ${amount} kerusakan untuk ${turns} putaran"
 			},
 			"triggered": {
 				"eng": "${merc} burns all enemies, dealt ${damage} damage each",
@@ -111,7 +111,7 @@
 			},
 			"triggered": {
 				"eng": "${merc} poisoned all enemies, dealt ${damage} damage each.",
-				"trans": "${merc} meracuni semua musuh, memberikan ${damage} kerusakan masing-masing."
+				"trans": "${merc} meracuni semua musuh, memberikan ${damage} damage masing-masing."
 			}
 		},
 		"shield": {
@@ -138,11 +138,11 @@
 	"abilityTag": {
 		"damageOverTime": {
 			"eng": "Damage Over Time",
-			"trans": "Kerusakan Selama Beberapa Waktu"
+			"trans": "Damage Selama Beberapa Waktu"
 		},
 		"damageOverTimeDescription": {
 			"eng": "This ability will deal damage over time, this kind of ability usually has less damage than one-strike abilities, however, it deals more damage in total over time.",
-			"trans": "Kemampuan ini akan memberikan kerusakan dari waktu ke waktu, kemampuan semacam ini biasanya memiliki kerusakan lebih sedikit daripada kemampuan satu serangan, tetapi, memberikan lebih banyak kerusakan total dari waktu ke waktu."
+			"trans": "Kemampuan ini akan memberikan damage dari waktu ke waktu, kemampuan semacam ini biasanya memiliki damage lebih sedikit daripada kemampuan satu serangan, tetapi, memberikan lebih banyak damage total dari waktu ke waktu."
 		},
 		"groupTargetAlly": {
 			"eng": "Group Target",
@@ -303,7 +303,7 @@
 		"vaultButton": {
 			"title": {
 				"eng": "Vault",
-				"trans": "Brankas"
+				"trans": "Gudang"
 			}
 		}
 	},
@@ -844,7 +844,7 @@
 		},
 		"referrerCheckbox": {
 			"eng": "I have a referrer",
-			"trans": "Saya memiliki referer"
+			"trans": "Saya memiliki referensi"
 		}
 	},
 	"chat": {
@@ -1302,7 +1302,7 @@
 		},
 		"psychosis": {
 			"eng": "+ ${amount} psychosis",
-			"trans": "+ ${amount} psikosis"
+			"trans": "+ ${amount} sikologi"
 		}
 	},
 	"coupon": {
