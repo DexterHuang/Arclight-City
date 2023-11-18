@@ -1,0 +1,878 @@
+{
+  "keywords": [
+    {
+      "eng": "Player ${0} is ${1} has been killed during PVP",
+      "trans": "玩家${0}在PVP战斗中被${1}击败",
+      "match": [
+        ""
+      ],
+      "desc": "Example of how to translate a sentence with variables",
+      "important": true
+    },
+    {
+      "eng": "What is equipment calibration?",
+      "trans": "装备校准是什么?",
+      "match": [
+        "calibrate"
+      ],
+      "desc": "An example for an sample question",
+      "important": true
+    },
+    {
+      "eng": "Inventory",
+      "trans": "仓库",
+      "match": [],
+      "desc": "Player's main inventory"
+    },
+    {
+      "eng": "Backpack",
+      "trans": "背包",
+      "match": [],
+      "desc": "A separate inventory that player brings to adventure"
+    },
+    {
+      "eng": "Vault",
+      "trans": "保险箱",
+      "match": [],
+      "desc": "A separate inventory that player stores in their apartment, can only be accessed in apartment"
+    },
+    {
+      "eng": "AFK Tasks",
+      "trans": "挂机任务",
+      "match": [
+        "afk"
+      ],
+      "desc": "AFK = away from keyboard, tasks player can perform while they are not actively playing"
+    },
+    {
+      "eng": "AFK",
+      "trans": "挂机",
+      "match": [],
+      "desc": "Away from keyboard"
+    },
+    {
+      "eng": "Red Bar",
+      "trans": "霓虹酒吧",
+      "match": [],
+      "desc": "A cool name of a bar player can visit"
+    },
+    {
+      "eng": "Deliveries",
+      "trans": "包裹",
+      "match": [],
+      "desc": "delivery is like item inbox, its called delivery because its in your apartment, like how you receive delivery when you order stuff online"
+    },
+    {
+      "eng": "Upper Armour",
+      "trans": "上身装甲",
+      "match": [],
+      "desc": "A type of armor player can equip on their upper body"
+    },
+    {
+      "eng": "Lower Armour",
+      "trans": "下身装甲",
+      "match": [],
+      "desc": "A type of armor player can equip on their lower body"
+    },
+    {
+      "eng": "Place Hit",
+      "trans": "下达悬赏",
+      "match": [],
+      "desc": "Placing a bounty on another player for a hitman, synonym of \"place bounty\""
+    },
+    {
+      "eng": "Dismantle",
+      "trans": "拆解",
+      "match": [],
+      "desc": "Dismantle an item to get components"
+    },
+    {
+      "eng": "Stronghold",
+      "trans": "地城",
+      "match": [],
+      "desc": "Like a dungeon but with a sci-fi name"
+    },
+    {
+      "eng": "Health",
+      "trans": "生命",
+      "match": [],
+      "desc": "Player's Health, also known as HP"
+    },
+    {
+      "eng": "Vitality",
+      "trans": "活力",
+      "match": [],
+      "desc": "An attribute name"
+    },
+    {
+      "eng": "Strength",
+      "trans": "力量",
+      "match": [],
+      "desc": "An attribute name"
+    },
+    {
+      "eng": "Intelligence",
+      "trans": "智力",
+      "match": [],
+      "desc": "An attribute name"
+    },
+    {
+      "eng": "Dexterity",
+      "trans": "敏捷",
+      "match": [],
+      "desc": "An attribute name"
+    },
+    {
+      "eng": "Vitality Attribute",
+      "trans": "活力属性",
+      "match": [
+        "vitality"
+      ],
+      "desc": "An attribute name added a repeat for AI to easier to understand"
+    },
+    {
+      "eng": "Strength Attribute",
+      "trans": "力量属性",
+      "match": [
+        "strength"
+      ],
+      "desc": "An attribute name added a repeat for AI to easier to understand"
+    },
+    {
+      "eng": "Intelligence Attribute",
+      "trans": "智力属性",
+      "match": [
+        "intelligence"
+      ],
+      "desc": "An attribute name added a repeat for AI to easier to understand"
+    },
+    {
+      "eng": "Dexterity Attribute",
+      "trans": "敏捷属性",
+      "match": [
+        "dexterity"
+      ],
+      "desc": "An attribute name added a repeat for AI to easier to understand"
+    },
+    {
+      "eng": "Thieving",
+      "trans": "偷窃",
+      "match": [],
+      "desc": "A job name player can perform"
+    },
+    {
+      "eng": "Scavenge",
+      "trans": "搜索",
+      "match": [],
+      "desc": "A job name player can perform"
+    },
+    {
+      "eng": "Extraction Mission",
+      "trans": "救援任务",
+      "match": [],
+      "desc": "A job player can perform to increase their medical level, the ideal is they will do part-time job as a member of Trauma Team's extraction force, to extract VIPs from dangerous situations"
+    },
+    {
+      "eng": "Arclight City",
+      "trans": "幻光之城",
+      "match": [
+        "arclight"
+      ],
+      "desc": "Name of the game, also the name of the city set in the game, when translating this please make it sounds good, does not to be direct translation"
+    },
+    {
+      "eng": "Arclight",
+      "trans": "幻光之城",
+      "match": [],
+      "desc": "Short-term name of the game, also the name of the city set in the game"
+    },
+    {
+      "eng": "Territory",
+      "trans": "领地",
+      "match": [],
+      "desc": "A district area player can take control of"
+    },
+    {
+      "eng": "gang",
+      "trans": "帮派",
+      "match": [],
+      "desc": "Like clans in other games"
+    },
+    {
+      "eng": "Gang Upkeep",
+      "trans": "帮派维护",
+      "match": [],
+      "desc": "A cost player needs to pay to maintain their gang"
+    },
+    {
+      "eng": "Gang Territory",
+      "trans": "帮派领地",
+      "match": [],
+      "desc": "A district area gang can take control of"
+    },
+    {
+      "eng": "Ripperdoc",
+      "trans": "电驭医生",
+      "match": [],
+      "desc": "An NPC profession name, like a cybernetic doctor"
+    },
+    {
+      "eng": "money",
+      "trans": "欧元",
+      "match": [],
+      "desc": "Main currency in the game, which is Eurodollars, please translate directly to Eurodollars or simply \"money\" if more appropriate"
+    },
+    {
+      "eng": "Nano Repairer",
+      "trans": "奈米修复器",
+      "match": [],
+      "desc": "An item name used to repair broken equipment"
+    },
+    {
+      "eng": "TaiXing Cybernetic",
+      "trans": "台芯电驭",
+      "match": [
+        "taixing"
+      ],
+      "desc": "A fake company name, specialized in making cybernetic implants and other tech"
+    },
+    {
+      "eng": "TaiXing",
+      "trans": "台芯",
+      "match": [],
+      "desc": "A fake company name, specialized in making cybernetic implants and other tech"
+    },
+    {
+      "eng": "Trauma Team",
+      "trans": "创伤小队",
+      "match": [],
+      "desc": "An NPC profession name, like a medical rescue team but with guns"
+    },
+    {
+      "eng": "extraction force",
+      "trans": "救援部队",
+      "match": [],
+      "desc": "Teams work under Trauma Team, like a medical rescue team but with guns"
+    },
+    {
+      "eng": "crew",
+      "trans": "队伍",
+      "match": [],
+      "desc": "A team of mercenaries player can hire to help them fight"
+    },
+    {
+      "eng": "Implant",
+      "trans": "电驭晶片",
+      "match": [],
+      "desc": "A cyberpunk term for cybernetic implants, if you don't know what it is please check google"
+    },
+    {
+      "eng": "Cyber psychosis",
+      "trans": "电驭狂躁症",
+      "match": [
+        "psychosis"
+      ],
+      "desc": "Same thing as in the Anime, when a person uses too much cybernetic ability, they will lose their mind"
+    },
+    {
+      "eng": "stats",
+      "trans": "属性",
+      "match": [
+        "stat"
+      ],
+      "desc": "The attributes of items, like damage, health, armor, etc"
+    },
+    {
+      "eng": "reward",
+      "trans": "奖励",
+      "match": [],
+      "desc": "A reward player can get from doing quests or other stuff"
+    },
+    {
+      "eng": "calibration",
+      "trans": "校准",
+      "match": [
+        "calibrate"
+      ],
+      "desc": "A process to make equipment work better"
+    },
+    {
+      "eng": "calibrate",
+      "trans": "校准",
+      "match": [],
+      "desc": "A process to make equipment work better"
+    },
+    {
+      "eng": "upgrade",
+      "trans": "升级",
+      "match": [],
+      "desc": "A process to make equipment work better, including increasing level, resetting, or adding new stats"
+    },
+    {
+      "eng": "place hit",
+      "trans": "下达悬赏",
+      "match": [],
+      "desc": "Placing a bounty order on another player"
+    },
+    {
+      "eng": "netrunner",
+      "trans": "网路行者",
+      "match": [],
+      "desc": "Hacker in cyberpunk term"
+    },
+    {
+      "eng": "netrunning",
+      "trans": "窜网",
+      "match": [],
+      "desc": "Hacking in cyberpunk term"
+    },
+    {
+      "eng": "flatline",
+      "trans": "心跳停止",
+      "match": [],
+      "desc": "Dead in cyberpunk term, will show up in the dead screen with bit writing, supposed to look cool"
+    },
+    {
+      "eng": "cybernet",
+      "trans": "网际网路",
+      "match": [],
+      "desc": "\"Internet\" in cyberpunk term"
+    },
+    {
+      "eng": "use",
+      "trans": "使用",
+      "match": [],
+      "desc": "Use an item"
+    },
+    {
+      "eng": "next",
+      "trans": "下一步",
+      "match": [],
+      "desc": "In UI context, like a button"
+    },
+    {
+      "eng": "block",
+      "trans": "封锁",
+      "match": [],
+      "desc": "Block a player from sending messages to you"
+    },
+    {
+      "eng": "bundle",
+      "trans": "礼包",
+      "match": [],
+      "desc": "A bundle of items players can buy in most mobile games"
+    },
+    {
+      "eng": "block chance",
+      "trans": "格挡机率",
+      "match": [],
+      "desc": "A stat of equipment, a chance that players can block incoming damage"
+    },
+    {
+      "eng": "Universal Dollars",
+      "trans": "通用币",
+      "match": [],
+      "desc": "A fictional currency name in the game, translate to a suitable name in your language"
+    },
+    {
+      "eng": "Cybernetic Enhancer",
+      "trans": "电驭增强器",
+      "match": [
+        "enhancer"
+      ],
+      "desc": "An item name, a cybernetic implant that can enhance players' abilities"
+    },
+    {
+      "eng": "Eurodollars",
+      "trans": "欧元",
+      "match": [
+        "eddie"
+      ],
+      "desc": "Main currency in the game, which is Eurodollars, please translate directly to Eurodollars or simply \"money\" if more appropriate"
+    },
+    {
+      "eng": "eddies",
+      "trans": "欧元",
+      "match": [
+        "eddie"
+      ]
+    },
+    {
+      "eng": "Lore note",
+      "trans": "背景故事",
+      "match": [
+        "lore"
+      ],
+      "desc": "A note that players can find in the game and read to learn more about the game world"
+    },
+    {
+      "eng": "referral",
+      "trans": "推荐",
+      "match": [
+        "refer"
+      ],
+      "desc": "Referral as in referring a friend to play the game"
+    },
+    {
+      "eng": "refer",
+      "trans": "推荐",
+      "match": [],
+      "desc": "Referral as in referring a friend to play the game"
+    },
+    {
+      "eng": "Scrap Items",
+      "trans": "报废物品",
+      "match": [
+        "scrap"
+      ],
+      "desc": "Player can scrap items from their inventory, different from dismantle, scrap will give less or no components"
+    },
+    {
+      "eng": "All",
+      "trans": "全部",
+      "match": [],
+      "desc": "A generic word for 'all' in UI"
+    },
+    {
+      "eng": "Continue",
+      "trans": "继续",
+      "match": [],
+      "desc": "A generic word for 'continue' in UI"
+    },
+    {
+      "eng": "CircuitBreak",
+      "trans": "网路安全集团",
+      "match": [],
+      "desc": "a megacorporation that specializes in security-related tasks, they also has a hitman service where people can place hit on their enemies"
+    },
+    {
+      "eng": "Choom",
+      "trans": "伙计",
+      "match": [],
+      "desc": "A slang word for friend/bro in cyberpunk term"
+    },
+    {
+      "eng": "Tech Scrap",
+      "trans": "科技零件",
+      "match": [],
+      "desc": "A piece of tech scrap."
+    },
+    {
+      "eng": "Gun",
+      "trans": "枪械",
+      "match": [],
+      "desc": "A traditional firearm that uses gunpowder to fire bullets. cant go wrong with this one."
+    },
+    {
+      "eng": "Energy Weapon",
+      "trans": "能量武器",
+      "match": [],
+      "desc": "A weapon that uses energy to fire."
+    },
+    {
+      "eng": "Blade",
+      "trans": "刀刃",
+      "match": [],
+      "desc": "A melee weapon that has sharpened edges."
+    },
+    {
+      "eng": "Helmet",
+      "trans": "头盔",
+      "match": [],
+      "desc": "A piece of equipment that protects the head."
+    },
+    {
+      "eng": "Upper Armor",
+      "trans": "上身装甲",
+      "match": [],
+      "desc": "A piece of equipment that protects the upper body."
+    },
+    {
+      "eng": "Lower Armor",
+      "trans": "下身装甲",
+      "match": [],
+      "desc": "A piece of equipment that protects the lower body."
+    },
+    {
+      "eng": "Boots",
+      "trans": "靴子",
+      "match": [],
+      "desc": "A piece of equipment that protects the feet."
+    },
+    {
+      "eng": "Ring",
+      "trans": "戒指",
+      "match": []
+    },
+    {
+      "eng": "Pendant",
+      "trans": "项鍊",
+      "match": []
+    },
+    {
+      "eng": "Basic Healing Nanobot",
+      "trans": "基本治疗奈米机器人",
+      "match": [],
+      "desc": "Use to recover small amount of health"
+    },
+    {
+      "eng": "Advance Healing Nanobot",
+      "trans": "先进治疗奈米机器人",
+      "match": [],
+      "desc": "Use to recover moderate amount of health"
+    },
+    {
+      "eng": "Equipment Calibrator",
+      "trans": "装备校准器",
+      "match": [],
+      "desc": "Used to calibrate equipments"
+    },
+    {
+      "eng": "Common Calibration Circuit Breaker",
+      "trans": "普通校准电路断路器",
+      "match": [],
+      "desc": "Use to decrease chance of equipment destruction by ${percent}% when calibration failed"
+    },
+    {
+      "eng": "Uncommon Calibration Circuit Breaker",
+      "trans": "高级校准断路器",
+      "match": [],
+      "desc": "Use to decrease chance of equipment destruction by ${percent}% when calibration failed"
+    },
+    {
+      "eng": "Rare Calibration Circuit Breaker",
+      "trans": "稀有校准断路器",
+      "match": [],
+      "desc": "Use to decrease chance of equipment destruction by ${percent}% when calibration failed"
+    },
+    {
+      "eng": "Uncommon Reset Shard",
+      "trans": "高级重置碎片",
+      "match": [],
+      "desc": "Use to reset a uncommon item with new traits by chance"
+    },
+    {
+      "eng": "Rare Reset Shard",
+      "trans": "稀有重置碎片",
+      "match": [],
+      "desc": "Use to reset a rare item with new traits by chance"
+    },
+    {
+      "eng": "Unique Reset Shard",
+      "trans": "独特重置碎片",
+      "match": [],
+      "desc": "Use to reset a unique item with new traits by chance"
+    },
+    {
+      "eng": "Epic Reset Shard",
+      "trans": "史诗重置碎片",
+      "match": [],
+      "desc": "Use to reset a epic item with new traits by chance"
+    },
+    {
+      "eng": "Uncommon Upgrade Shard",
+      "trans": "高级阶级碎片",
+      "match": [],
+      "desc": "Use to upgrade an common item to uncommon tier"
+    },
+    {
+      "eng": "Rare Upgrade Shard",
+      "trans": "稀有阶级碎片",
+      "match": [],
+      "desc": "Use to upgrade an uncommon item to rare tier"
+    },
+    {
+      "eng": "Unique Upgrade Shard",
+      "trans": "独特阶级碎片",
+      "match": [],
+      "desc": "Use to upgrade an rare item to unique tier"
+    },
+    {
+      "eng": "Epic Upgrade Shard",
+      "trans": "史诗阶级碎片",
+      "match": [],
+      "desc": "Use to upgrade an unique item to epic tier"
+    },
+    {
+      "eng": "Common Level Shard",
+      "trans": "普通升等碎片",
+      "match": [],
+      "desc": "Use to level up an common item to its next level"
+    },
+    {
+      "eng": "Uncommon Level Shard",
+      "trans": "高级升等碎片",
+      "match": [],
+      "desc": "Use to level up an uncommon item to its next level"
+    },
+    {
+      "eng": "Rare Level Shard",
+      "trans": "稀有升等碎片",
+      "match": [],
+      "desc": "Use to level up an rare item to its next level"
+    },
+    {
+      "eng": "Unique Level Shard",
+      "trans": "独特升等碎片",
+      "match": [],
+      "desc": "Use to level up an unique item to its next level"
+    },
+    {
+      "eng": "Epic Level Shard",
+      "trans": "史诗升等碎片",
+      "match": [],
+      "desc": "Use to level up an epic item to its next level"
+    },
+    {
+      "eng": "Identification Shard",
+      "trans": "辨识晶片",
+      "match": [],
+      "desc": "Use to identify unknown traits in a item"
+    },
+    {
+      "eng": "Prefix Injector Shard",
+      "trans": "前缀注射器碎片",
+      "match": [],
+      "desc": "Use to inject an additional prefix into a item, please note that if you re-roll the prefixes after using this item, the effect will be nullified."
+    },
+    {
+      "eng": "dungeon activator",
+      "trans": "地城启动器",
+      "match": [],
+      "desc": "Use to enter a dungeon"
+    },
+    {
+      "eng": "Red Bar VIP token",
+      "trans": "霓虹酒吧VIP代币",
+      "match": [],
+      "desc": "Use this token to meet and recruit new mercenaries in Red Bar"
+    },
+    {
+      "eng": "Neural Upgrade Augmenter",
+      "trans": "神经升级增强器",
+      "match": [],
+      "desc": "Neural Upgrade Augmenter is a cutting-edge implant that enables users to break past their mental limitations and reach untold levels of cognitive enhancement. With the ability to exceed typical neural barriers, users can unlock new levels of insight, creativity, and physical performance."
+    },
+    {
+      "eng": "EuroDollar",
+      "trans": "欧元",
+      "match": [],
+      "desc": "EuroDollar is a widely accepted currency in the continent, used for everyday purchases and transactions."
+    },
+    {
+      "eng": "NetCoin",
+      "trans": "网币",
+      "match": [],
+      "desc": "NetCoin is a digital currency mainly used in black market transactions. It is untraceable and can be used to purchase illegal goods and services."
+    },
+    {
+      "eng": "Level Shard",
+      "trans": "升等碎片",
+      "match": [],
+      "desc": "Universal level up token for equipments, use to increase the level of an equipment"
+    },
+    {
+      "eng": "Calibration Shard",
+      "trans": "校准碎片",
+      "match": [],
+      "desc": "Universal calibration token for equipments, use to improve equipments"
+    },
+    {
+      "eng": "Gang Control Resource",
+      "trans": "帮派控制资源",
+      "match": [],
+      "desc": "Use to contribute to gang territory control"
+    },
+    {
+      "eng": "Gang Maintenance Resource",
+      "trans": "帮派维护资源",
+      "match": [],
+      "desc": "Use to contribute to gang maintenance"
+    },
+    {
+      "eng": "Braised Pork Rice",
+      "trans": "卤肉饭",
+      "match": [],
+      "desc": "A traditional dish of braised pork belly and rice."
+    },
+    {
+      "eng": "Rice",
+      "trans": "米饭",
+      "match": [],
+      "desc": "A staple food of the continent."
+    },
+    {
+      "eng": "Pork",
+      "trans": "猪肉",
+      "match": [],
+      "desc": "Slice of ordinary synthetic pork"
+    },
+    {
+      "eng": "Bread",
+      "trans": "面包",
+      "match": [],
+      "desc": "a rare delicacy made from real wheat flour, smuggled by rebels who oppose the synthetic food industry."
+    },
+    {
+      "eng": "Burger",
+      "trans": "汉堡",
+      "match": [],
+      "desc": "A cheap and addictive food made from synthetic meat and chemicals. Popular among lowlifes and hackers who need a quick energy boost."
+    },
+    {
+      "eng": "Fish",
+      "trans": "鱼",
+      "match": [],
+      "desc": "A medium sized vibrant fish, it's highly sought after for its psychedelic properties when consumed."
+    },
+    {
+      "eng": "Sushi",
+      "trans": "寿司",
+      "match": [],
+      "desc": "A traditional Japanese dish made from raw fish and rice."
+    },
+    {
+      "eng": "Reward Cipher",
+      "trans": "奖励检索器",
+      "match": [],
+      "desc": "Used to re-roll quest reward."
+    },
+    {
+      "eng": "Satay",
+      "trans": "沙嗲",
+      "match": [],
+      "desc": "A traditional Indonesian dish made from skewered meat and rice."
+    },
+    {
+      "eng": "Neuroblocker",
+      "trans": "神经阻断剂",
+      "match": [],
+      "desc": "Neuroblockers were developed to counteract the negative effects that cybernetic implants had on the human body. By suppressing these effects, people were able to use these implants with reduced suffering from physical or mental issues"
+    },
+    {
+      "eng": "Common Container",
+      "trans": "普通容器",
+      "match": [],
+      "desc": "A common container that contains a random item."
+    },
+    {
+      "eng": "Uncommon Container",
+      "trans": "高级容器",
+      "match": [],
+      "desc": "A uncommon container that contains a random item."
+    },
+    {
+      "eng": "Medical Tech Scrap",
+      "trans": "医疗科技零件",
+      "match": [],
+      "desc": "A piece of medical technology that can be used to craft "
+    },
+    {
+      "eng": "decryption Key",
+      "trans": "解密金钥",
+      "match": [],
+      "desc": "A cutting-edge cyberpunk device that serves as a key to unlock high-security doors in the dystopian strongholds, revealing valuable loot and hidden rewards."
+    },
+    {
+      "eng": "Shadow Token",
+      "trans": "暗影代币",
+      "match": [],
+      "desc": "A token can be used to trade with the merchants in strongholds."
+    },
+    {
+      "eng": "Chloe",
+      "trans": "克萝伊",
+      "match": [],
+      "desc": "One of the npc's name in the game, does not need to be direct translation from english"
+    },
+    {
+      "eng": "Lilith",
+      "trans": "莉莉丝",
+      "match": [],
+      "desc": "One of the npc's name in the game, does not need to be direct translation from english"
+    },
+    {
+      "eng": "Oriana",
+      "trans": "奥莉安娜",
+      "match": [],
+      "desc": "One of the npc's name in the game, does not need to be direct translation from english"
+    },
+    {
+      "eng": "Maxine",
+      "trans": "玛克心",
+      "match": [],
+      "desc": "One of the npc's name in the game, does not need to be direct translation from english"
+    },
+    {
+      "eng": "Ren",
+      "trans": "仁",
+      "match": [],
+      "desc": "One of the npc's name in the game, does not need to be direct translation from english"
+    },
+    {
+      "eng": "Hana",
+      "trans": "哈娜",
+      "match": [],
+      "desc": "One of the npc's name in the game, does not need to be direct translation from english"
+    },
+    {
+      "eng": "Whisperer",
+      "trans": "轻语者",
+      "match": [],
+      "desc": "One of the npc's name in the game, does not need to be direct translation from english"
+    },
+    {
+      "eng": "Shadow Merchant",
+      "trans": "暗影商人",
+      "match": [],
+      "desc": "One of the npc's name in the game, does not need to be direct translation from english"
+    },
+    {
+      "eng": "Loot Increase Buff Activator",
+      "trans": "战利品增加增益启动器",
+      "match": [],
+      "desc": "Deploy this buff in stronghold lobby to increase loot amount for all strongholds created by your gang members for ${minutes} minutes"
+    },
+    {
+      "eng": "Defense Boost Buff Activator",
+      "trans": "防御增益启动器",
+      "match": [],
+      "desc": "Deploy this buff in stronghold lobby to increase defense for all players in strongholds created by your gang members for ${minutes} minutes"
+    },
+    {
+      "eng": "cybernetic ability",
+      "trans": "电驱能力",
+      "match": [
+        "cybernetic"
+      ]
+    },
+    {
+      "eng": "Token of Peace",
+      "trans": "和平徽章",
+      "match": [],
+      "desc": "Whoever invokes the Token of Peace shall not be attacked, use this to receive ${day} day of PVP protection buff"
+    },
+    {
+      "eng": "cyberpsycho",
+      "trans": "电驭狂躁患者",
+      "match": [
+        "psycho"
+      ],
+      "desc": "A person who has lost their mind due to excessive cybernetic implants"
+    },
+    {
+      "eng": "cyberpsychosis",
+      "trans": "电驭狂躁",
+      "match": [
+        "psycho"
+      ],
+      "desc": "A mental illness caused by excessive cybernetic implants"
+    },
+    {
+      "eng": "Level Reward Container",
+      "trans": "等级奖励容器",
+      "match": [],
+      "desc": "Special reward container obtained from clearing hard or above difficulty strongholds in locations"
+    }
+  ]
+}
