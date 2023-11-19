@@ -8,6 +8,12 @@
 
 **If you find a exploit please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
+### 0.0.21 
+
+-   Server optimization and upgraded server
+-   Bug fixes
+   
+
 ### 0.0.20 
 
 -   Added `Battle Track` functionality, currently there is `Mercenary Enhancer` track that gives you free `Mercenary Enhancer` every 24 hours (UTC time), you can redeem it in reward page. more tracks will be added in the future.
