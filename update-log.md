@@ -8,6 +8,19 @@
 
 **If you find a exploit please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
+
+### 0.0.22 
+
+-   Temporality changed long press buttons to normal buttons as some device are having issue with it
+-   Fixed problem with UI
+-   Fixed issue with psychosis popup can be called up within the popup again.
+-   Added ability to add NPC tag into text or messages
+-   Improved mail UI, showing player profile image and name on the top
+-   improved low healing item popup upon entering strongholds
+-   Improved server stability and performance
+-   Updated back button UI making it easier to see
+-   Fixed issue where when opening SYSTEM message shows an server error
+
 ### 0.0.21 
 
 -   Server optimization and upgraded server
