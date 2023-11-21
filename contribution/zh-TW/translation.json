@@ -682,11 +682,11 @@
 		},
 		"itemStillPending": {
 			"eng": "This item is still pending. Please wait until the next refresh.",
-			"trans": "這個物品還在等待中。請等待下一次更新。"
+			"trans": "這個物品還在冷卻中。請等待下一次重置。"
 		},
 		"timeToNextRefresh": {
 			"eng": "Time to next refresh",
-			"trans": "下次更新時間到了",
+			"trans": "下次重置時間還有",
 			"vars": []
 		},
 		"unlock": {
@@ -697,11 +697,11 @@
 	"battlePassUnlockModal": {
 		"unlockBattlePass": {
 			"eng": "Unlock ${tier} Battle Pass",
-			"trans": "解鎖${tier}級戰鬥通行證"
+			"trans": "解鎖${tier}戰鬥通行證"
 		},
 		"unlockBattlePassDescription": {
 			"eng": "Unlock this battle pass tier to make the ${tier} tier rewards available.",
-			"trans": "解鎖此戰鬥通行證層級，以獲得${tier}層級的獎勵。"
+			"trans": "解鎖此戰鬥通行證，以獲得${tier}的獎勵。"
 		},
 		"unlockNow": {
 			"eng": "Unlock Now",
@@ -2800,7 +2800,7 @@
 		},
 		"cantCraftInInventory": {
 			"eng": "You cannot craft while you have a temporary inventory open",
-			"trans": "當你有一個臨時倉庫打開時，你無法製作物品。"
+			"trans": "當臨時倉庫開啟時，你無法製作物品。"
 		},
 		"cantDiscardEquipped": {
 			"eng": "You can't discard equipped items",
@@ -8007,7 +8007,7 @@
 		},
 		"rewardDescription": {
 			"eng": "Rewards are claimed after clearing the ${difficulty} stronghold, you must participate in defeating the boss for it to count.\\nyou can only claim reward for each location once.",
-			"trans": "在清除${difficulty}地城後才能領取獎勵，你必須參與擊敗首領才能計算。\\n每個地點的獎勵只能領取一次。"
+			"trans": "在清除${difficulty}地城後才能獲得獎勵，你必須參與擊敗首領才能領取。\\n每個地點的獎勵只能領取一次。"
 		},
 		"rewardSubtitle": {
 			"eng": "raid rewards",
