@@ -848,9 +848,25 @@
 		}
 	},
 	"chat": {
+		"error": {
+			"link": {
+				"eng": "Links are not allowed in messages",
+				"trans": "Ссылки не разрешены в сообщениях"
+			}
+		},
+		"imageView": {
+			"close": {
+				"eng": "close",
+				"trans": "закрыть"
+			}
+		},
 		"inputPlaceholder": {
 			"eng": "Type a message...",
 			"trans": "Введите сообщение..."
+		},
+		"sendImage": {
+			"eng": "Send Image",
+			"trans": "Отправить изображение"
 		}
 	},
 	"chatPreview": {
@@ -1947,6 +1963,10 @@
 				"eng": "Public strongholds",
 				"trans": "Общественные крепости"
 			}
+		},
+		"notEnoughResources": {
+			"eng": "You do not have enough resources, you may try ${difficulty} instead, ${error}",
+			"trans": "У вас недостаточно ресурсов, попробуйте вместо этого ${difficulty}, ${error}"
 		}
 	},
 	"dungeonUI": {
@@ -1969,17 +1989,17 @@
 			}
 		},
 		"invNoHealing": {
-			"cancel": {
+			"confirm": {
 				"eng": "Continue",
 				"trans": "Продолжить"
 			},
-			"confirm": {
+			"message": {
+				"eng": "Seems like your are running low on healing items such as ${item1} or ${item2}\\nIt's recommended to purchase some from ${npc} before entering strongholds",
+				"trans": "Похоже, у вас заканчиваются предметы лечения, такие как ${item1} или ${item2}\\nРекомендуется приобрести их у ${npc} перед входом в крепости"
+			},
+			"purchase": {
 				"eng": "purchase",
 				"trans": "покупка"
-			},
-			"message": {
-				"eng": "Seems like your are running low on heals, purchase some to bring it to strongholds.",
-				"trans": "Похоже, что у вас заканчиваются аптечки, приобретите их, чтобы привезти в крепости."
 			},
 			"title": {
 				"eng": "low healing items",
@@ -2777,6 +2797,10 @@
 				"eng": "Attribute Damage",
 				"trans": "Урон атрибута"
 			}
+		},
+		"cantCraftInInventory": {
+			"eng": "You cannot craft while you have a temporary inventory open",
+			"trans": "Вы не можете создавать предметы, пока у вас открыт временный инвентарь"
 		},
 		"cantDiscardEquipped": {
 			"eng": "You can't discard equipped items",
@@ -4332,6 +4356,12 @@
 			"body": {
 				"eng": "You tried to mug ${playerName} but you lost the fight, you lost ${amount}",
 				"trans": "Вы попытались ограбить ${playerName}, но проиграли бой, вы потеряли ${amount}"
+			}
+		},
+		"system": {
+			"name": {
+				"eng": "System Message",
+				"trans": "Системное сообщение"
 			}
 		}
 	},
@@ -6437,6 +6467,10 @@
 			"eng": "Completed",
 			"trans": "Завершено"
 		},
+		"maxDungeonQuest": {
+			"eng": "You can only have ${max} quests from strongholds at a time",
+			"trans": "Вы можете иметь только ${max} заданий от крепостей одновременно"
+		},
 		"progress": {
 			"collectQuestItem": {
 				"eng": "Collect ${required} ${itemName} from lv.${level}+ ${enemyName} (${current}/${required})",
@@ -7490,8 +7524,8 @@
 	},
 	"statusInventory": {
 		"description": {
-			"eng": "If your backpack or inventory is full.\\nPlease remove some stuff before picking up the loots.",
-			"trans": "Если ваш рюкзак или инвентарь заполнен.\\nПожалуйста, удалите некоторые предметы перед подбором добычи."
+			"eng": "If your ${inv} is full or one of the item has reached its max stack limit.\\nPlease remove some stuff before picking up the loots.",
+			"trans": "Если ваш ${inv} заполнен или один из предметов достиг максимального количества в стопке.\\nПожалуйста, удалите некоторые вещи перед подбором добычи."
 		},
 		"discard": {
 			"eng": "Discard",

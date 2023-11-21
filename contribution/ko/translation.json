@@ -848,9 +848,25 @@
 		}
 	},
 	"chat": {
+		"error": {
+			"link": {
+				"eng": "Links are not allowed in messages",
+				"trans": "메시지에 링크는 허용되지 않습니다"
+			}
+		},
+		"imageView": {
+			"close": {
+				"eng": "close",
+				"trans": "닫기"
+			}
+		},
 		"inputPlaceholder": {
 			"eng": "Type a message...",
 			"trans": "메시지를 입력하세요..."
+		},
+		"sendImage": {
+			"eng": "Send Image",
+			"trans": "이미지 보내기"
 		}
 	},
 	"chatPreview": {
@@ -1947,6 +1963,10 @@
 				"eng": "Public strongholds",
 				"trans": "공개된 아지트"
 			}
+		},
+		"notEnoughResources": {
+			"eng": "You do not have enough resources, you may try ${difficulty} instead, ${error}",
+			"trans": "자원이 충분하지 않습니다. 대신 ${difficulty}을(를) 시도해보세요, ${error}"
 		}
 	},
 	"dungeonUI": {
@@ -1969,17 +1989,17 @@
 			}
 		},
 		"invNoHealing": {
-			"cancel": {
-				"eng": "Continue",
-				"trans": "계속"
-			},
 			"confirm": {
-				"eng": "purchase",
-				"trans": "구매"
+				"eng": "Continue",
+				"trans": "계속하기"
 			},
 			"message": {
-				"eng": "Seems like your are running low on heals, purchase some to bring it to strongholds.",
-				"trans": "회복제가 부족해 보입니다. 아지트에 가지고 가기 위해 구매해주세요."
+				"eng": "Seems like your are running low on healing items such as ${item1} or ${item2}\\nIt's recommended to purchase some from ${npc} before entering strongholds",
+				"trans": "${item1} 또는 ${item2}와 같은 치료 아이템이 부족한 것 같네요.\\n아지트에 들어가기 전에 ${npc}에서 구매하는 것이 좋습니다"
+			},
+			"purchase": {
+				"eng": "purchase",
+				"trans": "구매"
 			},
 			"title": {
 				"eng": "low healing items",
@@ -2777,6 +2797,10 @@
 				"eng": "Attribute Damage",
 				"trans": "속성 데미지"
 			}
+		},
+		"cantCraftInInventory": {
+			"eng": "You cannot craft while you have a temporary inventory open",
+			"trans": "임시 인벤토리가 열려 있는 동안에는 제작할 수 없습니다"
 		},
 		"cantDiscardEquipped": {
 			"eng": "You can't discard equipped items",
@@ -4332,6 +4356,12 @@
 			"body": {
 				"eng": "You tried to mug ${playerName} but you lost the fight, you lost ${amount}",
 				"trans": "당신은 ${playerName}을(를) 노렸지만 싸움에서 패배했습니다. ${amount}을(를) 잃었습니다"
+			}
+		},
+		"system": {
+			"name": {
+				"eng": "System Message",
+				"trans": "시스템 메시지"
 			}
 		}
 	},
@@ -6437,6 +6467,10 @@
 			"eng": "Completed",
 			"trans": "완료"
 		},
+		"maxDungeonQuest": {
+			"eng": "You can only have ${max} quests from strongholds at a time",
+			"trans": "한 번에 아지트에서 ${max}개의 퀘스트만 수행할 수 있습니다"
+		},
 		"progress": {
 			"collectQuestItem": {
 				"eng": "Collect ${required} ${itemName} from lv.${level}+ ${enemyName} (${current}/${required})",
@@ -7490,8 +7524,8 @@
 	},
 	"statusInventory": {
 		"description": {
-			"eng": "If your backpack or inventory is full.\\nPlease remove some stuff before picking up the loots.",
-			"trans": "만약 배낭이나 인벤토리가 가득 찼다면.\\n전리품을 줍기 전에 물건을 일부 제거하세요."
+			"eng": "If your ${inv} is full or one of the item has reached its max stack limit.\\nPlease remove some stuff before picking up the loots.",
+			"trans": "만약 ${inv}이(가) 가득 찼거나 아이템 중 하나가 최대 스택 한도에 도달했다면.\\n루팅을 진행하기 전에 물건을 일부 제거해주세요."
 		},
 		"discard": {
 			"eng": "Discard",

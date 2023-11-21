@@ -848,9 +848,25 @@
 		}
 	},
 	"chat": {
+		"error": {
+			"link": {
+				"eng": "Links are not allowed in messages",
+				"trans": "No se permiten enlaces en los mensajes"
+			}
+		},
+		"imageView": {
+			"close": {
+				"eng": "close",
+				"trans": "cerrar"
+			}
+		},
 		"inputPlaceholder": {
 			"eng": "Type a message...",
 			"trans": "Escribe un mensaje..."
+		},
+		"sendImage": {
+			"eng": "Send Image",
+			"trans": "Enviar imagen"
 		}
 	},
 	"chatPreview": {
@@ -1947,6 +1963,10 @@
 				"eng": "Public strongholds",
 				"trans": "Fortalezas públicas"
 			}
+		},
+		"notEnoughResources": {
+			"eng": "You do not have enough resources, you may try ${difficulty} instead, ${error}",
+			"trans": "No tienes suficientes recursos, puedes intentar ${difficulty} en su lugar, ${error}"
 		}
 	},
 	"dungeonUI": {
@@ -1969,17 +1989,17 @@
 			}
 		},
 		"invNoHealing": {
-			"cancel": {
+			"confirm": {
 				"eng": "Continue",
 				"trans": "Continuar"
 			},
-			"confirm": {
+			"message": {
+				"eng": "Seems like your are running low on healing items such as ${item1} or ${item2}\\nIt's recommended to purchase some from ${npc} before entering strongholds",
+				"trans": "Parece que estás quedando sin objetos de curación como ${item1} o ${item2}\\nSe recomienda comprar algunos de ${npc} antes de entrar en las fortalezas"
+			},
+			"purchase": {
 				"eng": "purchase",
 				"trans": "comprar"
-			},
-			"message": {
-				"eng": "Seems like your are running low on heals, purchase some to bring it to strongholds.",
-				"trans": "Parece que te estás quedando sin curaciones, compra algunas para llevarlas a las fortalezas."
 			},
 			"title": {
 				"eng": "low healing items",
@@ -2777,6 +2797,10 @@
 				"eng": "Attribute Damage",
 				"trans": "Daño de Atributo"
 			}
+		},
+		"cantCraftInInventory": {
+			"eng": "You cannot craft while you have a temporary inventory open",
+			"trans": "No puedes crear mientras tengas abierto un inventario temporal"
 		},
 		"cantDiscardEquipped": {
 			"eng": "You can't discard equipped items",
@@ -4332,6 +4356,12 @@
 			"body": {
 				"eng": "You tried to mug ${playerName} but you lost the fight, you lost ${amount}",
 				"trans": "Intentaste asaltar a ${playerName}, pero perdiste la pelea, perdiste ${amount}"
+			}
+		},
+		"system": {
+			"name": {
+				"eng": "System Message",
+				"trans": "Mensaje del sistema"
 			}
 		}
 	},
@@ -6437,6 +6467,10 @@
 			"eng": "Completed",
 			"trans": "Completado"
 		},
+		"maxDungeonQuest": {
+			"eng": "You can only have ${max} quests from strongholds at a time",
+			"trans": "Solo puedes tener ${max} misiones de fortalezas a la vez"
+		},
 		"progress": {
 			"collectQuestItem": {
 				"eng": "Collect ${required} ${itemName} from lv.${level}+ ${enemyName} (${current}/${required})",
@@ -7490,8 +7524,8 @@
 	},
 	"statusInventory": {
 		"description": {
-			"eng": "If your backpack or inventory is full.\\nPlease remove some stuff before picking up the loots.",
-			"trans": "Si tu mochila o inventario está lleno.\\nPor favor, retira algunos objetos antes de recoger los botines."
+			"eng": "If your ${inv} is full or one of the item has reached its max stack limit.\\nPlease remove some stuff before picking up the loots.",
+			"trans": "Si tu ${inv} está lleno o uno de los objetos ha alcanzado su límite máximo de pila.\\nPor favor, elimina algunos objetos antes de recoger los botines."
 		},
 		"discard": {
 			"eng": "Discard",

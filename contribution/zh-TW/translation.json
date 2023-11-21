@@ -848,9 +848,25 @@
 		}
 	},
 	"chat": {
+		"error": {
+			"link": {
+				"eng": "Links are not allowed in messages",
+				"trans": "訊息中不允許包含連結"
+			}
+		},
+		"imageView": {
+			"close": {
+				"eng": "close",
+				"trans": "關閉"
+			}
+		},
 		"inputPlaceholder": {
 			"eng": "Type a message...",
 			"trans": "輸入訊息..."
+		},
+		"sendImage": {
+			"eng": "Send Image",
+			"trans": "傳送圖片"
 		}
 	},
 	"chatPreview": {
@@ -1947,6 +1963,10 @@
 				"eng": "Public strongholds",
 				"trans": "公共地城"
 			}
+		},
+		"notEnoughResources": {
+			"eng": "You do not have enough resources, you may try ${difficulty} instead, ${error}",
+			"trans": "你沒有足夠的資源，你可以嘗試${difficulty}，${error}"
 		}
 	},
 	"dungeonUI": {
@@ -1969,17 +1989,17 @@
 			}
 		},
 		"invNoHealing": {
-			"cancel": {
+			"confirm": {
 				"eng": "Continue",
 				"trans": "繼續"
 			},
-			"confirm": {
+			"message": {
+				"eng": "Seems like your are running low on healing items such as ${item1} or ${item2}\\nIt's recommended to purchase some from ${npc} before entering strongholds",
+				"trans": "看起來你的治療物品，像是${item1}或${item2}，都快用完了\\n建議在進入地城前，先從${npc}購買一些。"
+			},
+			"purchase": {
 				"eng": "purchase",
 				"trans": "購買"
-			},
-			"message": {
-				"eng": "Seems like your are running low on heals, purchase some to bring it to strongholds.",
-				"trans": "看起來您的治療補給品有點不足，購買一些補藥到地城。"
 			},
 			"title": {
 				"eng": "low healing items",
@@ -2777,6 +2797,10 @@
 				"eng": "Attribute Damage",
 				"trans": "屬性傷害"
 			}
+		},
+		"cantCraftInInventory": {
+			"eng": "You cannot craft while you have a temporary inventory open",
+			"trans": "當你有一個臨時倉庫打開時，你無法製作物品。"
 		},
 		"cantDiscardEquipped": {
 			"eng": "You can't discard equipped items",
@@ -4332,6 +4356,12 @@
 			"body": {
 				"eng": "You tried to mug ${playerName} but you lost the fight, you lost ${amount}",
 				"trans": "你試圖搶劫${playerName}，但你輸了這場戰鬥，你損失了${amount}"
+			}
+		},
+		"system": {
+			"name": {
+				"eng": "System Message",
+				"trans": "系統訊息"
 			}
 		}
 	},
@@ -6437,6 +6467,10 @@
 			"eng": "Completed",
 			"trans": "已完成"
 		},
+		"maxDungeonQuest": {
+			"eng": "You can only have ${max} quests from strongholds at a time",
+			"trans": "你一次只能從地城接受${max}個任務"
+		},
 		"progress": {
 			"collectQuestItem": {
 				"eng": "Collect ${required} ${itemName} from lv.${level}+ ${enemyName} (${current}/${required})",
@@ -7490,8 +7524,8 @@
 	},
 	"statusInventory": {
 		"description": {
-			"eng": "If your backpack or inventory is full.\\nPlease remove some stuff before picking up the loots.",
-			"trans": "如果您的背包或者倉庫已滿，\n請在撿取戰利品之前先移除一些物品。"
+			"eng": "If your ${inv} is full or one of the item has reached its max stack limit.\\nPlease remove some stuff before picking up the loots.",
+			"trans": "如果你的${inv}已滿，或其中一項物品已達到最大堆疊限制。\\n請在拾取戰利品之前先清空一些物品。"
 		},
 		"discard": {
 			"eng": "Discard",

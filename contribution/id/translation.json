@@ -848,9 +848,25 @@
 		}
 	},
 	"chat": {
+		"error": {
+			"link": {
+				"eng": "Links are not allowed in messages",
+				"trans": "Tautan tidak diizinkan dalam pesan"
+			}
+		},
+		"imageView": {
+			"close": {
+				"eng": "close",
+				"trans": "tutup"
+			}
+		},
 		"inputPlaceholder": {
 			"eng": "Type a message...",
 			"trans": "Ketik pesan..."
+		},
+		"sendImage": {
+			"eng": "Send Image",
+			"trans": "Kirim Gambar"
 		}
 	},
 	"chatPreview": {
@@ -1947,6 +1963,10 @@
 				"eng": "Public strongholds",
 				"trans": "Benteng-benteng Publik"
 			}
+		},
+		"notEnoughResources": {
+			"eng": "You do not have enough resources, you may try ${difficulty} instead, ${error}",
+			"trans": "Kamu tidak memiliki cukup sumber daya, coba ${difficulty} saja, ${error}"
 		}
 	},
 	"dungeonUI": {
@@ -1969,17 +1989,17 @@
 			}
 		},
 		"invNoHealing": {
-			"cancel": {
-				"eng": "Continue",
-				"trans": "Lanjutkan"
-			},
 			"confirm": {
-				"eng": "purchase",
-				"trans": "Membeli"
+				"eng": "Continue",
+				"trans": "Lanjutan"
 			},
 			"message": {
-				"eng": "Seems like your are running low on heals, purchase some to bring it to strongholds.",
-				"trans": "Sepertinya Anda hampir kehabisan penyembuhan, beli beberapa untuk membawanya ke benteng."
+				"eng": "Seems like your are running low on healing items such as ${item1} or ${item2}\\nIt's recommended to purchase some from ${npc} before entering strongholds",
+				"trans": "Sepertinya kamu kehabisan item penyembuh seperti ${item1} atau ${item2}\\nDisarankan untuk membeli beberapa dari ${npc} sebelum memasuki benteng kuat"
+			},
+			"purchase": {
+				"eng": "purchase",
+				"trans": "membeli"
 			},
 			"title": {
 				"eng": "low healing items",
@@ -2777,6 +2797,10 @@
 				"eng": "Attribute Damage",
 				"trans": "Kerusakan Atribut"
 			}
+		},
+		"cantCraftInInventory": {
+			"eng": "You cannot craft while you have a temporary inventory open",
+			"trans": "Kamu tidak dapat membuat barang saat kamu memiliki inventori sementara yang terbuka"
 		},
 		"cantDiscardEquipped": {
 			"eng": "You can't discard equipped items",
@@ -4332,6 +4356,12 @@
 			"body": {
 				"eng": "You tried to mug ${playerName} but you lost the fight, you lost ${amount}",
 				"trans": "Kamu mencoba merampok ${playerName} tapi kalah dalam pertarungan, kamu kehilangan ${amount}"
+			}
+		},
+		"system": {
+			"name": {
+				"eng": "System Message",
+				"trans": "Pesan Sistem"
 			}
 		}
 	},
@@ -6437,6 +6467,10 @@
 			"eng": "Completed",
 			"trans": "Selesai"
 		},
+		"maxDungeonQuest": {
+			"eng": "You can only have ${max} quests from strongholds at a time",
+			"trans": "Kamu hanya bisa memiliki ${max} misi dari benteng-benteng pada satu waktu"
+		},
 		"progress": {
 			"collectQuestItem": {
 				"eng": "Collect ${required} ${itemName} from lv.${level}+ ${enemyName} (${current}/${required})",
@@ -7490,8 +7524,8 @@
 	},
 	"statusInventory": {
 		"description": {
-			"eng": "If your backpack or inventory is full.\\nPlease remove some stuff before picking up the loots.",
-			"trans": "Jika ransel atau inventori Anda penuh.\\nHarap hapus beberapa barang sebelum mengambil barang rampasan."
+			"eng": "If your ${inv} is full or one of the item has reached its max stack limit.\\nPlease remove some stuff before picking up the loots.",
+			"trans": "Jika ${inv} Anda penuh atau salah satu item telah mencapai batas tumpukan maksimumnya.\\nHarap hapus beberapa barang sebelum mengambil barang rampasan."
 		},
 		"discard": {
 			"eng": "Discard",

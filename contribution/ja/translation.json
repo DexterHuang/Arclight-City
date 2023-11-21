@@ -848,9 +848,25 @@
 		}
 	},
 	"chat": {
+		"error": {
+			"link": {
+				"eng": "Links are not allowed in messages",
+				"trans": "メッセージにリンクを貼ることは許可されていません。"
+			}
+		},
+		"imageView": {
+			"close": {
+				"eng": "close",
+				"trans": "閉じる"
+			}
+		},
 		"inputPlaceholder": {
 			"eng": "Type a message...",
 			"trans": "メッセージを入力してください..."
+		},
+		"sendImage": {
+			"eng": "Send Image",
+			"trans": "画像を送信する"
 		}
 	},
 	"chatPreview": {
@@ -1947,6 +1963,10 @@
 				"eng": "Public strongholds",
 				"trans": "パブリックの要塞"
 			}
+		},
+		"notEnoughResources": {
+			"eng": "You do not have enough resources, you may try ${difficulty} instead, ${error}",
+			"trans": "リソースが足りません。代わりに${difficulty}を試してみてください。${error}"
 		}
 	},
 	"dungeonUI": {
@@ -1969,17 +1989,17 @@
 			}
 		},
 		"invNoHealing": {
-			"cancel": {
+			"confirm": {
 				"eng": "Continue",
 				"trans": "続ける"
 			},
-			"confirm": {
+			"message": {
+				"eng": "Seems like your are running low on healing items such as ${item1} or ${item2}\\nIt's recommended to purchase some from ${npc} before entering strongholds",
+				"trans": "${item1}や${item2}などの回復アイテムが不足しているようですね。\\n要塞に入る前に${npc}から購入することをお勧めします。"
+			},
+			"purchase": {
 				"eng": "purchase",
 				"trans": "購入する"
-			},
-			"message": {
-				"eng": "Seems like your are running low on heals, purchase some to bring it to strongholds.",
-				"trans": "ヒールアイテムが少なくなっているようです。要塞に持って行くために購入してください。"
 			},
 			"title": {
 				"eng": "low healing items",
@@ -2777,6 +2797,10 @@
 				"eng": "Attribute Damage",
 				"trans": "属性ダメージ"
 			}
+		},
+		"cantCraftInInventory": {
+			"eng": "You cannot craft while you have a temporary inventory open",
+			"trans": "一時的なインベントリが開いている間はクラフトできません。"
 		},
 		"cantDiscardEquipped": {
 			"eng": "You can't discard equipped items",
@@ -4332,6 +4356,12 @@
 			"body": {
 				"eng": "You tried to mug ${playerName} but you lost the fight, you lost ${amount}",
 				"trans": "${playerName}を襲おうとしましたが、戦闘に負けてしまい、${amount}を失いました。"
+			}
+		},
+		"system": {
+			"name": {
+				"eng": "System Message",
+				"trans": "システムメッセージ"
 			}
 		}
 	},
@@ -6437,6 +6467,10 @@
 			"eng": "Completed",
 			"trans": "完了しました"
 		},
+		"maxDungeonQuest": {
+			"eng": "You can only have ${max} quests from strongholds at a time",
+			"trans": "同時に${max}の要塞からクエストを受けることができます。"
+		},
 		"progress": {
 			"collectQuestItem": {
 				"eng": "Collect ${required} ${itemName} from lv.${level}+ ${enemyName} (${current}/${required})",
@@ -7490,8 +7524,8 @@
 	},
 	"statusInventory": {
 		"description": {
-			"eng": "If your backpack or inventory is full.\\nPlease remove some stuff before picking up the loots.",
-			"trans": "バックパックまたはインベントリがいっぱいです。\\nアイテムをいくつか取り除いてから、戦利品を取得してください。"
+			"eng": "If your ${inv} is full or one of the item has reached its max stack limit.\\nPlease remove some stuff before picking up the loots.",
+			"trans": "もし${inv}がいっぱいであるか、アイテムの一つが最大スタック数に達した場合。\\nルートを拾う前にいくつかのアイテムを取り除いてください。"
 		},
 		"discard": {
 			"eng": "Discard",
