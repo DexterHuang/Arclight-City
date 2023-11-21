@@ -25,6 +25,7 @@
 -   Fixed problem with scrolling issue on edit profile picture page on shorter screen
 -   Optimized UI for smaller screen on main page
 -   Optimized UI for smaller screen on equipment page
+-   Fixed issue with kicking player from gang, player who got kicked bugged (already not in gang but still sees gang in main page), can manually click leave gang to fix it.
 
 ### 0.0.21 
 
