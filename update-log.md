@@ -20,6 +20,11 @@
 -   Improved server stability and performance
 -   Updated back button UI making it easier to see
 -   Fixed issue where when opening SYSTEM message shows an server error
+-   Fixed issue with crafting item overflow problem
+-   Now you can click on player's name & profile picture on mail page to view their profile
+-   Fixed problem with scrolling issue on edit profile picture page on shorter screen
+-   Optimized UI for smaller screen on main page
+-   Optimized UI for smaller screen on equipment page
 
 ### 0.0.21 
 
