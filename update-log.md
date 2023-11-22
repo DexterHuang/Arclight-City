@@ -8,6 +8,17 @@
 
 **If you find a exploit please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
+### 0.0.23 
+
+-   Fixed co-op combat lagginess issue! now it should be smooth and fast! please let me know if you still experience any lagginess in co-op combat.
+-   Fixed issue with sometimes attack bar cooldown is unusually slow due to local and servers time delta desync
+-   Fixed issue with loot level difference checking not working correctly, was checking 15 levels above instead of 15 levels below
+-   Added Social tab to dungeon UI so you can chat with your friends or clan while in dungeon
+-   Added chat to dungeon combat UI, so while doting battle you will still be able to use dungeon local chat
+-   Fixed problem with clicking escape while in the middle of attacking enemy causing lag
+-   Now if you have a mercenary with `Group Healing` ability, in auto mode, it will trigger its ability when any of your teammate needs healing instead of only triggering only for you.
+-   Improved server and database performance
+
 
 ### 0.0.22 
 
