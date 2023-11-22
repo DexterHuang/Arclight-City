@@ -8,6 +8,11 @@
 
 **If you find a exploit please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
+
+### 0.0.24 
+
+-   Fixed background task not working properly issue (like NPC chirp tweet and some market related task)
+
 ### 0.0.23 
 
 -   Fixed co-op combat lagginess issue! now it should be smooth and fast! please let me know if you still experience any lagginess in co-op combat.
