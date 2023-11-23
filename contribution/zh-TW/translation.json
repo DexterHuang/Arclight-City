@@ -1720,6 +1720,10 @@
 			"enemyInRoom2": {
 				"eng": "You cannot perform this action while there are enemies nearby",
 				"trans": "當附近有敵人時，您無法執行此操作。"
+			},
+			"maxLootLevelDifference": {
+				"eng": "You cannot loot this chest because your level is too high",
+				"trans": "你無法搜索這個寶箱，因為你的等級太高了。"
 			}
 		},
 		"type": {
@@ -3025,8 +3029,8 @@
 			"trans": "敵人掉落"
 		},
 		"levelReward": {
-			"eng": "Drop from Level Reward Container (${itemName})",
-			"trans": "從等級獎勵容器(${itemName})掉落"
+			"eng": "Drop from ${itemName}",
+			"trans": "從${itemName}掉落"
 		},
 		"levelRewardBox": {
 			"eng": "Defeating ${dungeonType} strongholds in various locations",
@@ -4988,6 +4992,10 @@
 			"eng": "Recruit Mercenaries",
 			"trans": "招募傭兵"
 		},
+		"manageCrew": {
+			"eng": "Manage Crew",
+			"trans": "管理隊伍"
+		},
 		"multiSelectOptions": {
 			"dismiss": {
 				"confirmTitle": {
@@ -6367,6 +6375,16 @@
 		}
 	},
 	"psychosisInfoModal": {
+		"background": {
+			"description": {
+				"eng": "Cyber-psychosis is caused by excessive use of cybernetic abilities, leading to hallucinations and delusions due to brain overload. ${item} can be used to reduce psychosis.",
+				"trans": "電馭狂躁是由於過度使用電驅能力所導致，因大腦過載而產生幻覺和妄想。${item}可以用來減輕狂躁症狀。"
+			},
+			"subtitle": {
+				"eng": "Background",
+				"trans": "背景"
+			}
+		},
 		"neuroblockerDescription": {
 			"eng": "use neuroblocker to reduce psychosis",
 			"trans": "使用神經阻斷劑減輕網路狂躁症"
@@ -6375,13 +6393,15 @@
 			"eng": "Psychosis reduces by ${amount} every ${minute} minutes",
 			"trans": "網路狂躁症每${minute}分鐘減少${amount}"
 		},
+		"source": {
+			"description": {
+				"eng": "You can get ${item} for free every day from ${npc} and they drop from strongholds.",
+				"trans": "每天你都可以從${npc}免費獲得${item}，而且它們也會從地城掉落。"
+			}
+		},
 		"title": {
 			"eng": "Cyber psychosis",
 			"trans": "網路狂躁症"
-		},
-		"titleDescription": {
-			"eng": "Cyber-psychosis is caused by excessive use of cybernetic abilities, leading to hallucinations and delusions due to brain overload.",
-			"trans": "網路狂躁症是由於過度使用電馭能力所引起的，導致大腦超負荷而產生幻覺和妄想。"
 		}
 	},
 	"purchaseCycle": {
@@ -6852,6 +6872,10 @@
 				"eng": "You cannot engage this player",
 				"trans": "您無法與這位玩家互動"
 			},
+			"cannotEngageInDungeon": {
+				"eng": "You cannot engage in PvP while in a dungeon",
+				"trans": "在地下城中無法進行PvP戰鬥"
+			},
 			"cannotEngageNewPlayer": {
 				"eng": "You cannot initiate PVP with a player that is below level ${level} and has not actively engaged in PVP",
 				"trans": "你無法與等級低於${level}且未積極參與PVP的玩家發起PVP戰鬥"
@@ -6973,10 +6997,6 @@
 				"eng": "Your psychosis is too high to enter the stronghold",
 				"trans": "你的網路狂躁症太高，無法進入地城。"
 			},
-			"notIdle": {
-				"eng": "You cannot do this now",
-				"trans": "現在無法進行此操作。"
-			},
 			"notInDungeon": {
 				"eng": "You are not in a stronghold",
 				"trans": "您不在地城裡。"
@@ -6988,6 +7008,10 @@
 			"timeSacrifice": {
 				"eng": "${player} has sacrificed ${minutes} minutes to unlock a rare chest",
 				"trans": "${player}花費${minutes}分鐘解鎖了一個稀有寶箱"
+			},
+			"tooHighLevel": {
+				"eng": "Your level is too high to interact with this",
+				"trans": "你的等級太高無法與此互動"
 			}
 		},
 		"dungeonLobby": {
@@ -7090,10 +7114,6 @@
 			"notInInventory": {
 				"eng": "You don't have an inventory open",
 				"trans": "您沒有打開任何倉庫。"
-			},
-			"onCooldown": {
-				"eng": "On cooldown",
-				"trans": "冷卻中"
 			},
 			"restarting": {
 				"eng": "Server is restarting for update, please try again in a few minutes",
@@ -8381,12 +8401,6 @@
 			"workInProgress": {
 				"eng": "This page is still work in progress",
 				"trans": "頁面開發中"
-			}
-		},
-		"mainPage": {
-			"chatButton": {
-				"eng": "chat",
-				"trans": "聊天"
 			}
 		},
 		"misc": {

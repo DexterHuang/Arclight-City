@@ -1720,6 +1720,10 @@
 			"enemyInRoom2": {
 				"eng": "You cannot perform this action while there are enemies nearby",
 				"trans": "Вы не можете выполнить это действие, пока рядом находятся враги"
+			},
+			"maxLootLevelDifference": {
+				"eng": "You cannot loot this chest because your level is too high",
+				"trans": "Ты не можешь обчистить этот сундук, потому что твой уровень слишком высокий"
 			}
 		},
 		"type": {
@@ -3025,8 +3029,8 @@
 			"trans": "Падение врага"
 		},
 		"levelReward": {
-			"eng": "Drop from Level Reward Container (${itemName})",
-			"trans": "Выпадение из Контейнера наград уровня (${itemName})"
+			"eng": "Drop from ${itemName}",
+			"trans": "Выбросить ${itemName}"
 		},
 		"levelRewardBox": {
 			"eng": "Defeating ${dungeonType} strongholds in various locations",
@@ -4988,6 +4992,10 @@
 			"eng": "Recruit Mercenaries",
 			"trans": "Нанять наёмников"
 		},
+		"manageCrew": {
+			"eng": "Manage Crew",
+			"trans": "Управление командой"
+		},
 		"multiSelectOptions": {
 			"dismiss": {
 				"confirmTitle": {
@@ -6367,6 +6375,16 @@
 		}
 	},
 	"psychosisInfoModal": {
+		"background": {
+			"description": {
+				"eng": "Cyber-psychosis is caused by excessive use of cybernetic abilities, leading to hallucinations and delusions due to brain overload. ${item} can be used to reduce psychosis.",
+				"trans": "Киберпсихоз вызывается избыточным использованием кибернетических способностей, что приводит к галлюцинациям и иллюзиям из-за перегрузки мозга. ${item} можно использовать для снижения психоза."
+			},
+			"subtitle": {
+				"eng": "Background",
+				"trans": "Фон"
+			}
+		},
 		"neuroblockerDescription": {
 			"eng": "use neuroblocker to reduce psychosis",
 			"trans": "Используйте нейроблокатор для снижения психоза"
@@ -6375,13 +6393,15 @@
 			"eng": "Psychosis reduces by ${amount} every ${minute} minutes",
 			"trans": "Психоз снижается на ${amount} каждые ${minute} минуты"
 		},
+		"source": {
+			"description": {
+				"eng": "You can get ${item} for free every day from ${npc} and they drop from strongholds.",
+				"trans": "Каждый день вы можете получить ${item} бесплатно от ${npc}, а также они выпадают из крепостей."
+			}
+		},
 		"title": {
 			"eng": "Cyber psychosis",
 			"trans": "Киберпсихоз"
-		},
-		"titleDescription": {
-			"eng": "Cyber-psychosis is caused by excessive use of cybernetic abilities, leading to hallucinations and delusions due to brain overload.",
-			"trans": "Киберпсихоз вызывается избыточным использованием кибернетических способностей, приводящим к галлюцинациям и бреду из-за перегрузки мозга."
 		}
 	},
 	"purchaseCycle": {
@@ -6852,6 +6872,10 @@
 				"eng": "You cannot engage this player",
 				"trans": "Вы не можете вступить в бой с этим игроком"
 			},
+			"cannotEngageInDungeon": {
+				"eng": "You cannot engage in PvP while in a dungeon",
+				"trans": "Вы не можете участвовать в PvP, находясь в подземелье"
+			},
 			"cannotEngageNewPlayer": {
 				"eng": "You cannot initiate PVP with a player that is below level ${level} and has not actively engaged in PVP",
 				"trans": "Вы не можете начать PVP с игроком, который находится ниже уровня ${level} и не активно участвовал в PVP"
@@ -6973,10 +6997,6 @@
 				"eng": "Your psychosis is too high to enter the stronghold",
 				"trans": "Ваш киберпсихоз слишком высок, чтобы войти в крепость"
 			},
-			"notIdle": {
-				"eng": "You cannot do this now",
-				"trans": "Вы не можете сделать это сейчас"
-			},
 			"notInDungeon": {
 				"eng": "You are not in a stronghold",
 				"trans": "Вы не находитесь в крепости"
@@ -6988,6 +7008,10 @@
 			"timeSacrifice": {
 				"eng": "${player} has sacrificed ${minutes} minutes to unlock a rare chest",
 				"trans": "${player} пожертвовал ${minutes} минут, чтобы открыть редкий сундук"
+			},
+			"tooHighLevel": {
+				"eng": "Your level is too high to interact with this",
+				"trans": "Твой уровень слишком высок для взаимодействия с этим"
 			}
 		},
 		"dungeonLobby": {
@@ -7090,10 +7114,6 @@
 			"notInInventory": {
 				"eng": "You don't have an inventory open",
 				"trans": "У вас не открыт инвентарь"
-			},
-			"onCooldown": {
-				"eng": "On cooldown",
-				"trans": "На перезарядке"
 			},
 			"restarting": {
 				"eng": "Server is restarting for update, please try again in a few minutes",
@@ -8381,12 +8401,6 @@
 			"workInProgress": {
 				"eng": "This page is still work in progress",
 				"trans": "Эта страница все еще находится в процессе разработки"
-			}
-		},
-		"mainPage": {
-			"chatButton": {
-				"eng": "chat",
-				"trans": "чат"
 			}
 		},
 		"misc": {

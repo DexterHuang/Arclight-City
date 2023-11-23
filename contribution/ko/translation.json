@@ -1720,6 +1720,10 @@
 			"enemyInRoom2": {
 				"eng": "You cannot perform this action while there are enemies nearby",
 				"trans": "주변에 적이 있을 때는 이 동작을 수행할 수 없습니다"
+			},
+			"maxLootLevelDifference": {
+				"eng": "You cannot loot this chest because your level is too high",
+				"trans": "너무 높은 레벨이라서 이 상자를 루팅할 수 없어"
 			}
 		},
 		"type": {
@@ -3025,8 +3029,8 @@
 			"trans": "적 드롭"
 		},
 		"levelReward": {
-			"eng": "Drop from Level Reward Container (${itemName})",
-			"trans": "레벨 보상 상자에서 드롭(${itemName})"
+			"eng": "Drop from ${itemName}",
+			"trans": "${itemName}에서 드롭"
 		},
 		"levelRewardBox": {
 			"eng": "Defeating ${dungeonType} strongholds in various locations",
@@ -4988,6 +4992,10 @@
 			"eng": "Recruit Mercenaries",
 			"trans": "용병 모집"
 		},
+		"manageCrew": {
+			"eng": "Manage Crew",
+			"trans": "크루 관리하기"
+		},
 		"multiSelectOptions": {
 			"dismiss": {
 				"confirmTitle": {
@@ -6367,6 +6375,16 @@
 		}
 	},
 	"psychosisInfoModal": {
+		"background": {
+			"description": {
+				"eng": "Cyber-psychosis is caused by excessive use of cybernetic abilities, leading to hallucinations and delusions due to brain overload. ${item} can be used to reduce psychosis.",
+				"trans": "사이버 싸이코시스는 사이버네틱 능력의 과도한 사용으로 인해 발생하며, 뇌 과부하로 인한 환각과 망상을 유발합니다. ${item}을(를) 사용하여 싸이코시스를 줄일 수 있습니다."
+			},
+			"subtitle": {
+				"eng": "Background",
+				"trans": "배경"
+			}
+		},
 		"neuroblockerDescription": {
 			"eng": "use neuroblocker to reduce psychosis",
 			"trans": "신경 차단제를 사용하여 싸이코 증세를 완화합니다"
@@ -6375,13 +6393,15 @@
 			"eng": "Psychosis reduces by ${amount} every ${minute} minutes",
 			"trans": "사이코싸이코는 ${minute}분마다 ${amount}씩 감소합니다"
 		},
+		"source": {
+			"description": {
+				"eng": "You can get ${item} for free every day from ${npc} and they drop from strongholds.",
+				"trans": "매일 ${npc}에서 무료로 ${item}을(를) 얻을 수 있으며 아지트에서도 드롭됩니다."
+			}
+		},
 		"title": {
 			"eng": "Cyber psychosis",
 			"trans": "사이버 싸이코"
-		},
-		"titleDescription": {
-			"eng": "Cyber-psychosis is caused by excessive use of cybernetic abilities, leading to hallucinations and delusions due to brain overload.",
-			"trans": "사이버 싸이코는 사이버네틱 능력의 과도한 사용으로 인해 발생하며, 뇌 과부하로 인한 환각과 망상으로 이어집니다."
 		}
 	},
 	"purchaseCycle": {
@@ -6852,6 +6872,10 @@
 				"eng": "You cannot engage this player",
 				"trans": "이 플레이어와는 전투할 수 없습니다"
 			},
+			"cannotEngageInDungeon": {
+				"eng": "You cannot engage in PvP while in a dungeon",
+				"trans": "던전 안에서는 PVP에 참여할 수 없습니다"
+			},
 			"cannotEngageNewPlayer": {
 				"eng": "You cannot initiate PVP with a player that is below level ${level} and has not actively engaged in PVP",
 				"trans": "레벨 ${level} 이하이며 PVP에 적극적으로 참여하지 않은 플레이어와는 PVP를 시작할 수 없습니다"
@@ -6973,10 +6997,6 @@
 				"eng": "Your psychosis is too high to enter the stronghold",
 				"trans": "당신의 사이버 싸이코가 너무 높아 아지트에 들어갈 수 없습니다"
 			},
-			"notIdle": {
-				"eng": "You cannot do this now",
-				"trans": "지금은 이 작업을 할 수 없습니다"
-			},
 			"notInDungeon": {
 				"eng": "You are not in a stronghold",
 				"trans": "당신은 아지트에 있지 않습니다"
@@ -6988,6 +7008,10 @@
 			"timeSacrifice": {
 				"eng": "${player} has sacrificed ${minutes} minutes to unlock a rare chest",
 				"trans": "${player}님이 희귀한 상자를 열기 위해 ${minutes}분을 소모했습니다"
+			},
+			"tooHighLevel": {
+				"eng": "Your level is too high to interact with this",
+				"trans": "이걸 상호작용하려면 당신의 레벨이 너무 높습니다"
 			}
 		},
 		"dungeonLobby": {
@@ -7090,10 +7114,6 @@
 			"notInInventory": {
 				"eng": "You don't have an inventory open",
 				"trans": "인벤토리를 열지 않았습니다"
-			},
-			"onCooldown": {
-				"eng": "On cooldown",
-				"trans": "재사용 대기 중"
 			},
 			"restarting": {
 				"eng": "Server is restarting for update, please try again in a few minutes",
@@ -8381,12 +8401,6 @@
 			"workInProgress": {
 				"eng": "This page is still work in progress",
 				"trans": "이 페이지는 아직 작업 중입니다"
-			}
-		},
-		"mainPage": {
-			"chatButton": {
-				"eng": "chat",
-				"trans": "채팅"
 			}
 		},
 		"misc": {

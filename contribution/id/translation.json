@@ -1720,6 +1720,10 @@
 			"enemyInRoom2": {
 				"eng": "You cannot perform this action while there are enemies nearby",
 				"trans": "Anda tidak dapat melakukan tindakan ini saat ada musuh di sekitar"
+			},
+			"maxLootLevelDifference": {
+				"eng": "You cannot loot this chest because your level is too high",
+				"trans": "Kamu tidak bisa merampok peti ini karena levelmu terlalu tinggi"
 			}
 		},
 		"type": {
@@ -3025,8 +3029,8 @@
 			"trans": "Drop musuh"
 		},
 		"levelReward": {
-			"eng": "Drop from Level Reward Container (${itemName})",
-			"trans": "Jatuh dari Kontainer Hadiah Level (${itemName})"
+			"eng": "Drop from ${itemName}",
+			"trans": "Jatuh dari ${itemName}"
 		},
 		"levelRewardBox": {
 			"eng": "Defeating ${dungeonType} strongholds in various locations",
@@ -4988,6 +4992,10 @@
 			"eng": "Recruit Mercenaries",
 			"trans": "Rekrut Mercenaries"
 		},
+		"manageCrew": {
+			"eng": "Manage Crew",
+			"trans": "Mengelola Kru"
+		},
 		"multiSelectOptions": {
 			"dismiss": {
 				"confirmTitle": {
@@ -6367,6 +6375,16 @@
 		}
 	},
 	"psychosisInfoModal": {
+		"background": {
+			"description": {
+				"eng": "Cyber-psychosis is caused by excessive use of cybernetic abilities, leading to hallucinations and delusions due to brain overload. ${item} can be used to reduce psychosis.",
+				"trans": "Psikosis siber disebabkan oleh penggunaan berlebihan kemampuan sibernetik, yang menyebabkan halusinasi dan delusi karena kelebihan beban otak. ${item} dapat digunakan untuk mengurangi psikosis."
+			},
+			"subtitle": {
+				"eng": "Background",
+				"trans": "Latar Belakang"
+			}
+		},
 		"neuroblockerDescription": {
 			"eng": "use neuroblocker to reduce psychosis",
 			"trans": "Gunakan penghalang neural untuk mengurangi psikosis"
@@ -6375,13 +6393,15 @@
 			"eng": "Psychosis reduces by ${amount} every ${minute} minutes",
 			"trans": "Psikosis berkurang sebesar ${amount} setiap ${minute} menit"
 		},
+		"source": {
+			"description": {
+				"eng": "You can get ${item} for free every day from ${npc} and they drop from strongholds.",
+				"trans": "Kamu bisa mendapatkan ${item} secara gratis setiap hari dari ${npc} dan mereka bisa didapatkan dari benteng kuat."
+			}
+		},
 		"title": {
 			"eng": "Cyber psychosis",
 			"trans": "Psikosis Siber"
-		},
-		"titleDescription": {
-			"eng": "Cyber-psychosis is caused by excessive use of cybernetic abilities, leading to hallucinations and delusions due to brain overload.",
-			"trans": "Psikosis siber disebabkan oleh penggunaan kemampuan sibernetik yang berlebihan, yang menyebabkan halusinasi dan delusi akibat kelebihan beban otak."
 		}
 	},
 	"purchaseCycle": {
@@ -6852,6 +6872,10 @@
 				"eng": "You cannot engage this player",
 				"trans": "Anda tidak dapat melawan pemain ini"
 			},
+			"cannotEngageInDungeon": {
+				"eng": "You cannot engage in PvP while in a dungeon",
+				"trans": "Kamu tidak dapat berpartisipasi dalam PvP saat berada di dalam dungeon"
+			},
 			"cannotEngageNewPlayer": {
 				"eng": "You cannot initiate PVP with a player that is below level ${level} and has not actively engaged in PVP",
 				"trans": "Kamu tidak dapat memulai PVP dengan pemain yang berada di bawah level ${level} dan belum aktif terlibat dalam PVP"
@@ -6973,10 +6997,6 @@
 				"eng": "Your psychosis is too high to enter the stronghold",
 				"trans": "Psikosismu terlalu tinggi untuk masuk ke benteng"
 			},
-			"notIdle": {
-				"eng": "You cannot do this now",
-				"trans": "Anda tidak dapat melakukan ini sekarang"
-			},
 			"notInDungeon": {
 				"eng": "You are not in a stronghold",
 				"trans": "Anda tidak berada di benteng"
@@ -6988,6 +7008,10 @@
 			"timeSacrifice": {
 				"eng": "${player} has sacrificed ${minutes} minutes to unlock a rare chest",
 				"trans": "${player} telah mengorbankan ${minutes} menit untuk membuka peti langka"
+			},
+			"tooHighLevel": {
+				"eng": "Your level is too high to interact with this",
+				"trans": "Level kamu terlalu tinggi untuk berinteraksi dengan ini"
 			}
 		},
 		"dungeonLobby": {
@@ -7090,10 +7114,6 @@
 			"notInInventory": {
 				"eng": "You don't have an inventory open",
 				"trans": "Anda tidak memiliki inventaris yang terbuka"
-			},
-			"onCooldown": {
-				"eng": "On cooldown",
-				"trans": "Sedang dalam masa tenang"
 			},
 			"restarting": {
 				"eng": "Server is restarting for update, please try again in a few minutes",
@@ -8381,12 +8401,6 @@
 			"workInProgress": {
 				"eng": "This page is still work in progress",
 				"trans": "Halaman ini masih dalam proses pengembangan"
-			}
-		},
-		"mainPage": {
-			"chatButton": {
-				"eng": "chat",
-				"trans": "Obrolan"
 			}
 		},
 		"misc": {

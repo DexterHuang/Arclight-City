@@ -1720,6 +1720,10 @@
 			"enemyInRoom2": {
 				"eng": "You cannot perform this action while there are enemies nearby",
 				"trans": "敵が近くにいる間は実行できません。"
+			},
+			"maxLootLevelDifference": {
+				"eng": "You cannot loot this chest because your level is too high",
+				"trans": "このチェストを略奪することはできません、あなたのレベルが高すぎるため"
 			}
 		},
 		"type": {
@@ -3025,8 +3029,8 @@
 			"trans": "敵のドロップ"
 		},
 		"levelReward": {
-			"eng": "Drop from Level Reward Container (${itemName})",
-			"trans": "レベル報酬コンテナーからドロップしました (${itemName})"
+			"eng": "Drop from ${itemName}",
+			"trans": "${itemName}からドロップ"
 		},
 		"levelRewardBox": {
 			"eng": "Defeating ${dungeonType} strongholds in various locations",
@@ -4988,6 +4992,10 @@
 			"eng": "Recruit Mercenaries",
 			"trans": "傭兵を雇う"
 		},
+		"manageCrew": {
+			"eng": "Manage Crew",
+			"trans": "クルーを管理する"
+		},
 		"multiSelectOptions": {
 			"dismiss": {
 				"confirmTitle": {
@@ -6367,6 +6375,16 @@
 		}
 	},
 	"psychosisInfoModal": {
+		"background": {
+			"description": {
+				"eng": "Cyber-psychosis is caused by excessive use of cybernetic abilities, leading to hallucinations and delusions due to brain overload. ${item} can be used to reduce psychosis.",
+				"trans": "サイバーサイコシスはサイバネティック能力の過剰な使用によって引き起こされ、脳の過負荷による幻覚や妄想を引き起こします。${item}を使用することでサイコシスを軽減することができます。"
+			},
+			"subtitle": {
+				"eng": "Background",
+				"trans": "背景"
+			}
+		},
 		"neuroblockerDescription": {
 			"eng": "use neuroblocker to reduce psychosis",
 			"trans": "サイコシスを軽減するためにニューロブロッカーを使用する。"
@@ -6375,13 +6393,15 @@
 			"eng": "Psychosis reduces by ${amount} every ${minute} minutes",
 			"trans": "サイコシスは${amount}ずつ${minute}分ごとに減少します"
 		},
+		"source": {
+			"description": {
+				"eng": "You can get ${item} for free every day from ${npc} and they drop from strongholds.",
+				"trans": "${npc}から毎日無料で${item}を入手でき、要塞からもドロップします。"
+			}
+		},
 		"title": {
 			"eng": "Cyber psychosis",
 			"trans": "サイバーサイコシス"
-		},
-		"titleDescription": {
-			"eng": "Cyber-psychosis is caused by excessive use of cybernetic abilities, leading to hallucinations and delusions due to brain overload.",
-			"trans": "サイバーサイコシスは、サイバネティック能力の過剰な使用によって引き起こされ、脳の過負荷による幻覚や妄想を引き起こします。"
 		}
 	},
 	"purchaseCycle": {
@@ -6852,6 +6872,10 @@
 				"eng": "You cannot engage this player",
 				"trans": "このプレイヤーとは対戦できません。"
 			},
+			"cannotEngageInDungeon": {
+				"eng": "You cannot engage in PvP while in a dungeon",
+				"trans": "ダンジョン内ではPvPに参加できません。"
+			},
 			"cannotEngageNewPlayer": {
 				"eng": "You cannot initiate PVP with a player that is below level ${level} and has not actively engaged in PVP",
 				"trans": "レベル${level}未満のプレイヤー、またはPVPに積極的に参加していないプレイヤーとはPVPを開始することはできません。"
@@ -6973,10 +6997,6 @@
 				"eng": "Your psychosis is too high to enter the stronghold",
 				"trans": "あなたのサイコシスが高すぎて要塞に入ることができません。"
 			},
-			"notIdle": {
-				"eng": "You cannot do this now",
-				"trans": "現在は実行できません"
-			},
 			"notInDungeon": {
 				"eng": "You are not in a stronghold",
 				"trans": "あなたは要塞にいません"
@@ -6988,6 +7008,10 @@
 			"timeSacrifice": {
 				"eng": "${player} has sacrificed ${minutes} minutes to unlock a rare chest",
 				"trans": "${player}は${minutes}分を犠牲にして、レアな宝箱を開けました。"
+			},
+			"tooHighLevel": {
+				"eng": "Your level is too high to interact with this",
+				"trans": "このアイテムとはやり取りするには、あなたのレベルが高すぎます。"
 			}
 		},
 		"dungeonLobby": {
@@ -7090,10 +7114,6 @@
 			"notInInventory": {
 				"eng": "You don't have an inventory open",
 				"trans": "インベントリが開いていません。"
-			},
-			"onCooldown": {
-				"eng": "On cooldown",
-				"trans": "クールダウン中"
 			},
 			"restarting": {
 				"eng": "Server is restarting for update, please try again in a few minutes",
@@ -8381,12 +8401,6 @@
 			"workInProgress": {
 				"eng": "This page is still work in progress",
 				"trans": "このページはまだ作業中です。"
-			}
-		},
-		"mainPage": {
-			"chatButton": {
-				"eng": "chat",
-				"trans": "チャット"
 			}
 		},
 		"misc": {

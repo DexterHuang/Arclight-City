@@ -1720,6 +1720,10 @@
 			"enemyInRoom2": {
 				"eng": "You cannot perform this action while there are enemies nearby",
 				"trans": "No puedes realizar esta acción mientras haya enemigos cerca"
+			},
+			"maxLootLevelDifference": {
+				"eng": "You cannot loot this chest because your level is too high",
+				"trans": "No puedes saquear este cofre porque tu nivel es demasiado alto"
 			}
 		},
 		"type": {
@@ -3025,8 +3029,8 @@
 			"trans": "Caída de enemigo"
 		},
 		"levelReward": {
-			"eng": "Drop from Level Reward Container (${itemName})",
-			"trans": "Caída del Contenedor de recompensa de nivel (${itemName})"
+			"eng": "Drop from ${itemName}",
+			"trans": "Soltar ${itemName}"
 		},
 		"levelRewardBox": {
 			"eng": "Defeating ${dungeonType} strongholds in various locations",
@@ -4988,6 +4992,10 @@
 			"eng": "Recruit Mercenaries",
 			"trans": "Reclutar Mercenarios"
 		},
+		"manageCrew": {
+			"eng": "Manage Crew",
+			"trans": "Administrar equipo"
+		},
 		"multiSelectOptions": {
 			"dismiss": {
 				"confirmTitle": {
@@ -6367,6 +6375,16 @@
 		}
 	},
 	"psychosisInfoModal": {
+		"background": {
+			"description": {
+				"eng": "Cyber-psychosis is caused by excessive use of cybernetic abilities, leading to hallucinations and delusions due to brain overload. ${item} can be used to reduce psychosis.",
+				"trans": "La ciberpsicosis es causada por el uso excesivo de habilidades cibernéticas, lo que lleva a alucinaciones y delirios debido a la sobrecarga del cerebro. ${item} se puede utilizar para reducir la psicosis."
+			},
+			"subtitle": {
+				"eng": "Background",
+				"trans": "Fondo"
+			}
+		},
 		"neuroblockerDescription": {
 			"eng": "use neuroblocker to reduce psychosis",
 			"trans": "Utiliza el neurobloqueador para reducir la psicosis"
@@ -6375,13 +6393,15 @@
 			"eng": "Psychosis reduces by ${amount} every ${minute} minutes",
 			"trans": "La psicosis disminuye en ${amount} cada ${minute} minutos"
 		},
+		"source": {
+			"description": {
+				"eng": "You can get ${item} for free every day from ${npc} and they drop from strongholds.",
+				"trans": "Puedes obtener ${item} gratis todos los días de ${npc} y también se pueden encontrar en las fortalezas."
+			}
+		},
 		"title": {
 			"eng": "Cyber psychosis",
 			"trans": "Psicosis cibernética"
-		},
-		"titleDescription": {
-			"eng": "Cyber-psychosis is caused by excessive use of cybernetic abilities, leading to hallucinations and delusions due to brain overload.",
-			"trans": "La ciberpsicosis es causada por el uso excesivo de habilidades cibernéticas, lo que lleva a alucinaciones y delirios debido a la sobrecarga cerebral."
 		}
 	},
 	"purchaseCycle": {
@@ -6852,6 +6872,10 @@
 				"eng": "You cannot engage this player",
 				"trans": "No puedes enfrentarte a este jugador"
 			},
+			"cannotEngageInDungeon": {
+				"eng": "You cannot engage in PvP while in a dungeon",
+				"trans": "No puedes participar en PVP mientras estás en una mazmorra"
+			},
 			"cannotEngageNewPlayer": {
 				"eng": "You cannot initiate PVP with a player that is below level ${level} and has not actively engaged in PVP",
 				"trans": "No puedes iniciar PVP con un jugador que esté por debajo del nivel ${level} y no haya participado activamente en PVP"
@@ -6973,10 +6997,6 @@
 				"eng": "Your psychosis is too high to enter the stronghold",
 				"trans": "Tu psicosis es demasiado alta para entrar en la fortaleza"
 			},
-			"notIdle": {
-				"eng": "You cannot do this now",
-				"trans": "No puedes hacer esto ahora"
-			},
 			"notInDungeon": {
 				"eng": "You are not in a stronghold",
 				"trans": "No estás en una fortaleza"
@@ -6988,6 +7008,10 @@
 			"timeSacrifice": {
 				"eng": "${player} has sacrificed ${minutes} minutes to unlock a rare chest",
 				"trans": "${player} ha sacrificado ${minutes} minutos para desbloquear un cofre raro"
+			},
+			"tooHighLevel": {
+				"eng": "Your level is too high to interact with this",
+				"trans": "Tu nivel es demasiado alto para interactuar con esto"
 			}
 		},
 		"dungeonLobby": {
@@ -7090,10 +7114,6 @@
 			"notInInventory": {
 				"eng": "You don't have an inventory open",
 				"trans": "No tienes el inventario abierto"
-			},
-			"onCooldown": {
-				"eng": "On cooldown",
-				"trans": "En enfriamiento"
 			},
 			"restarting": {
 				"eng": "Server is restarting for update, please try again in a few minutes",
@@ -8381,12 +8401,6 @@
 			"workInProgress": {
 				"eng": "This page is still work in progress",
 				"trans": "Esta página todavía está en proceso de construcción"
-			}
-		},
-		"mainPage": {
-			"chatButton": {
-				"eng": "chat",
-				"trans": "chat"
 			}
 		},
 		"misc": {
