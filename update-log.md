@@ -13,6 +13,7 @@
 -   Fixed issue with cyber-psychosis refresh time display is incorrect due to calculation error on client side, this was purely visual issue, the refresh time is still correct on server side, this update fixes the display issue.
 -   Fixed problem with sometimes error showing up during combat
 -   Fixed issue with sometimes after killing enemy in combat, the screen goes blank
+-   Added clearer explanation and instruction for cyber-psychosis, as well as showing how neuroblocker can be acquired. 
 
 ### 0.0.24 
 
