@@ -8,6 +8,11 @@
 
 **If you find a exploit please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
+### 0.0.25
+
+-   Fixed issue with cyber-psychosis refresh time display is incorrect due to calculation error on client side, this was purely visual issue, the refresh time is still correct on server side, this update fixes the display issue.
+-   Fixed problem with sometimes error showing up during combat
+-   Fixed issue with sometimes after killing enemy in combat, the screen goes blank
 
 ### 0.0.24 
 
