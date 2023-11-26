@@ -37,6 +37,32 @@
 			}
 		}
 	},
+	"RecipeType": {
+		"container": {
+			"title": {
+				"eng": "Containers",
+				"trans": "Contenedores"
+			}
+		},
+		"containerKey": {
+			"title": {
+				"eng": "Container Keys",
+				"trans": "Llaves de contenedor"
+			}
+		},
+		"others": {
+			"title": {
+				"eng": "Others",
+				"trans": "Otros"
+			}
+		},
+		"upgrades": {
+			"title": {
+				"eng": "Upgrade Materials",
+				"trans": "Materiales de mejora"
+			}
+		}
+	},
 	"ability": {
 		"attack": {
 			"description": {
@@ -1275,6 +1301,20 @@
 				"eng": "Reconnecting to mainframe... (${attempt})",
 				"trans": "Reconectando al mainframe... (${attempt})"
 			}
+		},
+		"updating": {
+			"description1": {
+				"eng": "Updating system, please standby...",
+				"trans": "Actualizando sistema, por favor espere..."
+			},
+			"description2": {
+				"eng": "This will not consume network data.",
+				"trans": "Esto no consumirá datos de red."
+			},
+			"title": {
+				"eng": "Server Updating...",
+				"trans": "Actualización del servidor..."
+			}
 		}
 	},
 	"contributable": {
@@ -1351,10 +1391,22 @@
 	},
 	"crafting": {
 		"craftModal": {
+			"cancel": {
+				"eng": "Cancel",
+				"trans": "Cancelar"
+			},
 			"title": {
 				"eng": "Select Amount",
 				"trans": "Seleccionar Cantidad"
 			}
+		},
+		"tip": {
+			"eng": "You can also craft directly from your inventory",
+			"trans": "También puedes crear directamente desde tu inventario"
+		},
+		"title": {
+			"eng": "Crafting",
+			"trans": "Creación de objetos"
 		}
 	},
 	"createGang": {
@@ -4414,6 +4466,12 @@
 				"trans": "Viajar [Nivel ${currentLevel}]"
 			}
 		},
+		"craft": {
+			"title": {
+				"eng": "Craft",
+				"trans": "Crear"
+			}
+		},
 		"deathItemsButton": {
 			"title": {
 				"eng": "Death Items",
@@ -4491,6 +4549,48 @@
 				"eng": "Cybernet",
 				"trans": "Cibernético"
 			}
+		}
+	},
+	"maintenanceScreen": {
+		"body1": {
+			"eng": "Hello, Cyberpunkers of Arclight City!",
+			"trans": "¡Hola, Cyberpunkers de la Ciudad Arclight!"
+		},
+		"body2": {
+			"eng": "Currently, Arclight City is undergoing maintenance to address a few unexpected issues. This is crucial for ensuring a top-notch gaming experience.",
+			"trans": "Actualmente, la Ciudad Arclight está en mantenimiento para solucionar algunos problemas inesperados. Esto es crucial para garantizar una experiencia de juego de primera calidad."
+		},
+		"body3": {
+			"eng": "🛠️ Maintenance Status",
+			"trans": "Estado de mantenimiento 🛠️"
+		},
+		"body4": {
+			"eng": "This maintenance is scheduled to finish in a few minutes, but I will keep you updated if that changes.",
+			"trans": "Esta mantenimiento está programado para terminar en unos minutos, pero te mantendré informado si eso cambia."
+		},
+		"body5": {
+			"eng": "The goal is to ensure that every aspect of Arclight City functions smoothly for your adventures.",
+			"trans": "El objetivo es asegurar que cada aspecto de la Ciudad Arclight funcione sin problemas para tus aventuras."
+		},
+		"body6": {
+			"eng": "I'm working diligently to address a few unexpected issues that have arisen.",
+			"trans": "Estoy trabajando diligentemente para resolver algunos problemas inesperados que han surgido."
+		},
+		"body7": {
+			"eng": "I understand the disruption this may cause change to your gaming plans and sincerely apologize for any inconvenience. Your experience in Arclight City is incredibly important to me, and I'm committed to completing this maintenance as quickly as possible",
+			"trans": "Entiendo que esta interrupción puede afectar tus planes de juego y sinceramente me disculpo por cualquier inconveniente. Tu experiencia en la Ciudad Arclight es increíblemente importante para mí y estoy comprometido a completar este mantenimiento lo más rápido posible"
+		},
+		"body8": {
+			"eng": "Thank you for your patience and understanding. Your support and enthusiasm for Arclight City are what drive these efforts.",
+			"trans": "Gracias por tu paciencia y comprensión. Tu apoyo y entusiasmo por Ciudad Arclight son lo que impulsan estos esfuerzos."
+		},
+		"body9": {
+			"eng": "Warm regards",
+			"trans": "Saludos cordiales"
+		},
+		"title": {
+			"eng": "🚀 Maintenance in Progress 🚀",
+			"trans": "🚀 Mantenimiento en Progreso 🚀"
 		}
 	},
 	"markdownFile": {
@@ -5235,10 +5335,6 @@
 		"selectAll": {
 			"eng": "All",
 			"trans": "Todos"
-		},
-		"unlock": {
-			"eng": "unlock",
-			"trans": "desbloquear"
 		},
 		"upgrade": {
 			"eng": "upgrade",
@@ -6888,6 +6984,10 @@
 				"eng": "Combat has ended",
 				"trans": "La batalla ha terminado"
 			},
+			"dungeonNotFound": {
+				"eng": "Dungeon has expired",
+				"trans": "La mazmorra ha expirado"
+			},
 			"escapeFailed": {
 				"eng": "You failed to escape (${chance}% success chance)",
 				"trans": "No lograste escapar (${chance}% de probabilidad de éxito)"
@@ -8409,12 +8509,6 @@
 				"trans": "Equipar"
 			}
 		},
-		"restart": {
-			"title": {
-				"eng": "Server is restarting...",
-				"trans": "El servidor se está reiniciando..."
-			}
-		},
 		"selectItemModal": {
 			"noItems": {
 				"eng": "No available item",
@@ -8466,6 +8560,16 @@
 				"eng": "Tiny",
 				"trans": "Pequeño"
 			}
+		}
+	},
+	"updatingOverlay": {
+		"description": {
+			"eng": "Hello, I'm quickly updating the server to improve the game! \\nIt's normal to see a reconnect or update screen for a few seconds.🚀\\nApologies for any inconvenience and thanks for your patience.🙏",
+			"trans": "¡Hola, estoy actualizando rápidamente el servidor para mejorar el juego! \\nEs normal ver una pantalla de reconexión o actualización durante unos segundos.🚀\\nDisculpe cualquier inconveniente y gracias por su paciencia.🙏"
+		},
+		"title": {
+			"eng": "🌟 Quick Update Notice!",
+			"trans": "🌟 ¡Aviso de Actualización Rápida!"
 		}
 	},
 	"upgradeBackpackPopup": {

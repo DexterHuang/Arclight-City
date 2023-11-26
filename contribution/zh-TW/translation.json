@@ -37,6 +37,32 @@
 			}
 		}
 	},
+	"RecipeType": {
+		"container": {
+			"title": {
+				"eng": "Containers",
+				"trans": "容器"
+			}
+		},
+		"containerKey": {
+			"title": {
+				"eng": "Container Keys",
+				"trans": "容器鑰匙"
+			}
+		},
+		"others": {
+			"title": {
+				"eng": "Others",
+				"trans": "其他"
+			}
+		},
+		"upgrades": {
+			"title": {
+				"eng": "Upgrade Materials",
+				"trans": "升級材料"
+			}
+		}
+	},
 	"ability": {
 		"attack": {
 			"description": {
@@ -1275,6 +1301,20 @@
 				"eng": "Reconnecting to mainframe... (${attempt})",
 				"trans": "重新連線至主機...第 ${attempt} 次嘗試"
 			}
+		},
+		"updating": {
+			"description1": {
+				"eng": "Updating system, please standby...",
+				"trans": "系統更新中，請稍候..."
+			},
+			"description2": {
+				"eng": "This will not consume network data.",
+				"trans": "這不會消耗網路流量。"
+			},
+			"title": {
+				"eng": "Server Updating...",
+				"trans": "伺服器更新中..."
+			}
 		}
 	},
 	"contributable": {
@@ -1351,10 +1391,22 @@
 	},
 	"crafting": {
 		"craftModal": {
+			"cancel": {
+				"eng": "Cancel",
+				"trans": "取消"
+			},
 			"title": {
 				"eng": "Select Amount",
 				"trans": "選擇數量"
 			}
+		},
+		"tip": {
+			"eng": "You can also craft directly from your inventory",
+			"trans": "你也可以直接從你的倉庫製作物品"
+		},
+		"title": {
+			"eng": "Crafting",
+			"trans": "製作"
 		}
 	},
 	"createGang": {
@@ -4414,6 +4466,12 @@
 				"trans": "前往 [等級 ${currentLevel}]"
 			}
 		},
+		"craft": {
+			"title": {
+				"eng": "Craft",
+				"trans": "合成"
+			}
+		},
 		"deathItemsButton": {
 			"title": {
 				"eng": "Death Items",
@@ -4491,6 +4549,48 @@
 				"eng": "Cybernet",
 				"trans": "電馭網路"
 			}
+		}
+	},
+	"maintenanceScreen": {
+		"body1": {
+			"eng": "Hello, Cyberpunkers of Arclight City!",
+			"trans": "嗨，幻光之城的賽博朋克們！"
+		},
+		"body2": {
+			"eng": "Currently, Arclight City is undergoing maintenance to address a few unexpected issues. This is crucial for ensuring a top-notch gaming experience.",
+			"trans": "目前，幻光之城正在進行維護以解決一系統問題。這對於確保一流的遊戲體驗至關重要。"
+		},
+		"body3": {
+			"eng": "🛠️ Maintenance Status",
+			"trans": "🛠️ 維護狀態"
+		},
+		"body4": {
+			"eng": "This maintenance is scheduled to finish in a few minutes, but I will keep you updated if that changes.",
+			"trans": "這次的維護預計在幾分鐘內完成，但如果有變動，我會隨時通知你。"
+		},
+		"body5": {
+			"eng": "The goal is to ensure that every aspect of Arclight City functions smoothly for your adventures.",
+			"trans": "我們的目標是確保幻光之城的每個方面都能順利運作，讓你的冒險更加順利。"
+		},
+		"body6": {
+			"eng": "I'm working diligently to address a few unexpected issues that have arisen.",
+			"trans": "我正在努力處理一些意外出現的問題。"
+		},
+		"body7": {
+			"eng": "I understand the disruption this may cause change to your gaming plans and sincerely apologize for any inconvenience. Your experience in Arclight City is incredibly important to me, and I'm committed to completing this maintenance as quickly as possible",
+			"trans": "我了解這可能會對你的遊戲計劃造成的干擾，並為任何不便深表歉意。你在幻光之城的遊戲體驗對我來說非常重要，我致力於盡快完成此次維護。"
+		},
+		"body8": {
+			"eng": "Thank you for your patience and understanding. Your support and enthusiasm for Arclight City are what drive these efforts.",
+			"trans": "感謝您的耐心和理解。您對幻光之城的支持和熱情是推動這些努力的動力。"
+		},
+		"body9": {
+			"eng": "Warm regards",
+			"trans": "誠摯的問候"
+		},
+		"title": {
+			"eng": "🚀 Maintenance in Progress 🚀",
+			"trans": "🚀 維護進行中 🚀"
 		}
 	},
 	"markdownFile": {
@@ -5235,10 +5335,6 @@
 		"selectAll": {
 			"eng": "All",
 			"trans": "全部"
-		},
-		"unlock": {
-			"eng": "unlock",
-			"trans": "解鎖"
 		},
 		"upgrade": {
 			"eng": "upgrade",
@@ -6888,6 +6984,10 @@
 				"eng": "Combat has ended",
 				"trans": "戰鬥已結束。"
 			},
+			"dungeonNotFound": {
+				"eng": "Dungeon has expired",
+				"trans": "地下城已過期"
+			},
 			"escapeFailed": {
 				"eng": "You failed to escape (${chance}% success chance)",
 				"trans": "逃脫失敗(${chance}%成功率)"
@@ -8409,12 +8509,6 @@
 				"trans": "裝備"
 			}
 		},
-		"restart": {
-			"title": {
-				"eng": "Server is restarting...",
-				"trans": "伺服器正在重新啟動..."
-			}
-		},
 		"selectItemModal": {
 			"noItems": {
 				"eng": "No available item",
@@ -8466,6 +8560,16 @@
 				"eng": "Tiny",
 				"trans": "迷你"
 			}
+		}
+	},
+	"updatingOverlay": {
+		"description": {
+			"eng": "Hello, I'm quickly updating the server to improve the game! \\nIt's normal to see a reconnect or update screen for a few seconds.🚀\\nApologies for any inconvenience and thanks for your patience.🙏",
+			"trans": "嗨，我正在快速更新伺服器以改善遊戲！\\n在幾秒鐘內看到重新連接或更新畫面是正常的。🚀\\n抱歉造成任何不便，感謝您的耐心。🙏"
+		},
+		"title": {
+			"eng": "🌟 Quick Update Notice!",
+			"trans": "🌟 快速更新通知！"
 		}
 	},
 	"upgradeBackpackPopup": {

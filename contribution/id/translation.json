@@ -37,6 +37,32 @@
 			}
 		}
 	},
+	"RecipeType": {
+		"container": {
+			"title": {
+				"eng": "Containers",
+				"trans": "Wadah"
+			}
+		},
+		"containerKey": {
+			"title": {
+				"eng": "Container Keys",
+				"trans": "Kunci Kontainer"
+			}
+		},
+		"others": {
+			"title": {
+				"eng": "Others",
+				"trans": "Lainnya"
+			}
+		},
+		"upgrades": {
+			"title": {
+				"eng": "Upgrade Materials",
+				"trans": "Bahan Peningkatan"
+			}
+		}
+	},
 	"ability": {
 		"attack": {
 			"description": {
@@ -1275,6 +1301,20 @@
 				"eng": "Reconnecting to mainframe... (${attempt})",
 				"trans": "Menghubungkan kembali ke mainframe... (${attempt})"
 			}
+		},
+		"updating": {
+			"description1": {
+				"eng": "Updating system, please standby...",
+				"trans": "Sedang memperbarui sistem, harap tunggu..."
+			},
+			"description2": {
+				"eng": "This will not consume network data.",
+				"trans": "Ini tidak akan mengonsumsi data jaringan."
+			},
+			"title": {
+				"eng": "Server Updating...",
+				"trans": "Server sedang diperbarui..."
+			}
 		}
 	},
 	"contributable": {
@@ -1351,10 +1391,22 @@
 	},
 	"crafting": {
 		"craftModal": {
+			"cancel": {
+				"eng": "Cancel",
+				"trans": "Batal"
+			},
 			"title": {
 				"eng": "Select Amount",
 				"trans": "Pilih Jumlah"
 			}
+		},
+		"tip": {
+			"eng": "You can also craft directly from your inventory",
+			"trans": "Kamu juga bisa membuat barang langsung dari inventori kamu"
+		},
+		"title": {
+			"eng": "Crafting",
+			"trans": "Membuat"
 		}
 	},
 	"createGang": {
@@ -4414,6 +4466,12 @@
 				"trans": "Perjalanan [Level ${currentLevel}]"
 			}
 		},
+		"craft": {
+			"title": {
+				"eng": "Craft",
+				"trans": "Kerajinan"
+			}
+		},
 		"deathItemsButton": {
 			"title": {
 				"eng": "Death Items",
@@ -4491,6 +4549,48 @@
 				"eng": "Cybernet",
 				"trans": "Teknologi siber"
 			}
+		}
+	},
+	"maintenanceScreen": {
+		"body1": {
+			"eng": "Hello, Cyberpunkers of Arclight City!",
+			"trans": "Halo, para Cyberpunkers dari Kota Cahaya Arklit!"
+		},
+		"body2": {
+			"eng": "Currently, Arclight City is undergoing maintenance to address a few unexpected issues. This is crucial for ensuring a top-notch gaming experience.",
+			"trans": "Saat ini, Kota Cahaya Arklit sedang menjalani pemeliharaan untuk menangani beberapa masalah yang tidak terduga. Hal ini sangat penting untuk memastikan pengalaman bermain game yang terbaik."
+		},
+		"body3": {
+			"eng": "🛠️ Maintenance Status",
+			"trans": "Status Pemeliharaan 🛠️"
+		},
+		"body4": {
+			"eng": "This maintenance is scheduled to finish in a few minutes, but I will keep you updated if that changes.",
+			"trans": "Pemeliharaan ini dijadwalkan selesai dalam beberapa menit, tapi saya akan tetap memberi kabar jika ada perubahan."
+		},
+		"body5": {
+			"eng": "The goal is to ensure that every aspect of Arclight City functions smoothly for your adventures.",
+			"trans": "Tujuannya adalah memastikan bahwa setiap aspek dari Kota Cahaya Arklit berjalan lancar untuk petualanganmu."
+		},
+		"body6": {
+			"eng": "I'm working diligently to address a few unexpected issues that have arisen.",
+			"trans": "Saya sedang bekerja dengan tekun untuk menangani beberapa masalah yang tidak terduga yang muncul."
+		},
+		"body7": {
+			"eng": "I understand the disruption this may cause change to your gaming plans and sincerely apologize for any inconvenience. Your experience in Arclight City is incredibly important to me, and I'm committed to completing this maintenance as quickly as possible",
+			"trans": "Saya mengerti bahwa perubahan ini dapat mengganggu rencana bermain game Anda dan dengan tulus meminta maaf atas segala ketidaknyamanan. Pengalaman Anda di Kota Cahaya Arklit sangat penting bagi saya, dan saya berkomitmen untuk menyelesaikan pemeliharaan ini secepat mungkin"
+		},
+		"body8": {
+			"eng": "Thank you for your patience and understanding. Your support and enthusiasm for Arclight City are what drive these efforts.",
+			"trans": "Terima kasih atas kesabaran dan pengertian Anda. Dukungan dan antusiasme Anda terhadap Kota Cahaya Arklit adalah yang mendorong upaya ini."
+		},
+		"body9": {
+			"eng": "Warm regards",
+			"trans": "Salam hangat"
+		},
+		"title": {
+			"eng": "🚀 Maintenance in Progress 🚀",
+			"trans": "🚀 Pemeliharaan Sedang Berlangsung 🚀"
 		}
 	},
 	"markdownFile": {
@@ -5235,10 +5335,6 @@
 		"selectAll": {
 			"eng": "All",
 			"trans": "Semua"
-		},
-		"unlock": {
-			"eng": "unlock",
-			"trans": "membuka"
 		},
 		"upgrade": {
 			"eng": "upgrade",
@@ -6888,6 +6984,10 @@
 				"eng": "Combat has ended",
 				"trans": "Pertempuran telah berakhir"
 			},
+			"dungeonNotFound": {
+				"eng": "Dungeon has expired",
+				"trans": "Dungeon telah kedaluwarsa"
+			},
 			"escapeFailed": {
 				"eng": "You failed to escape (${chance}% success chance)",
 				"trans": "Anda gagal melarikan diri (${chance}% peluang berhasil)"
@@ -8409,12 +8509,6 @@
 				"trans": "Persenjataan"
 			}
 		},
-		"restart": {
-			"title": {
-				"eng": "Server is restarting...",
-				"trans": "Server sedang dimulai ulang..."
-			}
-		},
 		"selectItemModal": {
 			"noItems": {
 				"eng": "No available item",
@@ -8466,6 +8560,16 @@
 				"eng": "Tiny",
 				"trans": "Kecil"
 			}
+		}
+	},
+	"updatingOverlay": {
+		"description": {
+			"eng": "Hello, I'm quickly updating the server to improve the game! \\nIt's normal to see a reconnect or update screen for a few seconds.🚀\\nApologies for any inconvenience and thanks for your patience.🙏",
+			"trans": "Halo, saya sedang memperbarui server untuk meningkatkan permainan! \\nBiasa jika Anda melihat layar reconnect atau update selama beberapa detik.🚀\\nMohon maaf atas ketidaknyamanan ini dan terima kasih atas kesabaran Anda.🙏"
+		},
+		"title": {
+			"eng": "🌟 Quick Update Notice!",
+			"trans": "🌟 Pemberitahuan Pembaruan Cepat!"
 		}
 	},
 	"upgradeBackpackPopup": {

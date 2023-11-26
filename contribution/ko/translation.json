@@ -37,6 +37,32 @@
 			}
 		}
 	},
+	"RecipeType": {
+		"container": {
+			"title": {
+				"eng": "Containers",
+				"trans": "보관함"
+			}
+		},
+		"containerKey": {
+			"title": {
+				"eng": "Container Keys",
+				"trans": "컨테이너 열쇠"
+			}
+		},
+		"others": {
+			"title": {
+				"eng": "Others",
+				"trans": "기타"
+			}
+		},
+		"upgrades": {
+			"title": {
+				"eng": "Upgrade Materials",
+				"trans": "업그레이드 재료"
+			}
+		}
+	},
 	"ability": {
 		"attack": {
 			"description": {
@@ -1275,6 +1301,20 @@
 				"eng": "Reconnecting to mainframe... (${attempt})",
 				"trans": "메인프레임에 재연결 중입니다... (${attempt}번 시도 중)"
 			}
+		},
+		"updating": {
+			"description1": {
+				"eng": "Updating system, please standby...",
+				"trans": "시스템 업데이트 중입니다, 잠시만 기다려주세요..."
+			},
+			"description2": {
+				"eng": "This will not consume network data.",
+				"trans": "이것은 네트워크 데이터를 소비하지 않습니다."
+			},
+			"title": {
+				"eng": "Server Updating...",
+				"trans": "서버 업데이트 중..."
+			}
 		}
 	},
 	"contributable": {
@@ -1351,10 +1391,22 @@
 	},
 	"crafting": {
 		"craftModal": {
+			"cancel": {
+				"eng": "Cancel",
+				"trans": "취소"
+			},
 			"title": {
 				"eng": "Select Amount",
 				"trans": "수량 선택"
 			}
+		},
+		"tip": {
+			"eng": "You can also craft directly from your inventory",
+			"trans": "인벤토리에서 직접 제작할 수도 있습니다"
+		},
+		"title": {
+			"eng": "Crafting",
+			"trans": "제작"
 		}
 	},
 	"createGang": {
@@ -4414,6 +4466,12 @@
 				"trans": "여행 [레벨 ${currentLevel}]"
 			}
 		},
+		"craft": {
+			"title": {
+				"eng": "Craft",
+				"trans": "제작"
+			}
+		},
 		"deathItemsButton": {
 			"title": {
 				"eng": "Death Items",
@@ -4491,6 +4549,48 @@
 				"eng": "Cybernet",
 				"trans": "사이버넷"
 			}
+		}
+	},
+	"maintenanceScreen": {
+		"body1": {
+			"eng": "Hello, Cyberpunkers of Arclight City!",
+			"trans": "안녕, 아크라이트 시티의 사이버펑커들!"
+		},
+		"body2": {
+			"eng": "Currently, Arclight City is undergoing maintenance to address a few unexpected issues. This is crucial for ensuring a top-notch gaming experience.",
+			"trans": "현재 아크라이트 시티는 몇 가지 예상치 못한 문제를 해결하기 위해 유지보수 중입니다. 이는 최고 수준의 게임 경험을 보장하기 위해 중요합니다."
+		},
+		"body3": {
+			"eng": "🛠️ Maintenance Status",
+			"trans": "🛠️ 유지보수 상태"
+		},
+		"body4": {
+			"eng": "This maintenance is scheduled to finish in a few minutes, but I will keep you updated if that changes.",
+			"trans": "이 유지보수는 몇 분 안에 완료될 예정이지만, 상황이 바뀌면 업데이트해 드리겠습니다."
+		},
+		"body5": {
+			"eng": "The goal is to ensure that every aspect of Arclight City functions smoothly for your adventures.",
+			"trans": "목표는 아크라이트 시티의 모든 측면이 모험을 위해 원활하게 작동하는 것을 보장하는 것입니다."
+		},
+		"body6": {
+			"eng": "I'm working diligently to address a few unexpected issues that have arisen.",
+			"trans": "몇 가지 예상치 못한 문제가 발생하여 열심히 작업 중입니다."
+		},
+		"body7": {
+			"eng": "I understand the disruption this may cause change to your gaming plans and sincerely apologize for any inconvenience. Your experience in Arclight City is incredibly important to me, and I'm committed to completing this maintenance as quickly as possible",
+			"trans": "게임 계획에 변화가 생길 수 있음을 이해하고 불편을 끼쳐드려 죄송합니다. 아크라이트 시티에서의 경험은 저에게 매우 중요하며, 이 유지보수를 최대한 빠르게 완료하기 위해 최선을 다하겠습니다"
+		},
+		"body8": {
+			"eng": "Thank you for your patience and understanding. Your support and enthusiasm for Arclight City are what drive these efforts.",
+			"trans": "기다려주셔서 감사합니다. 아크라이트 시티에 대한 지지와 열정이 이 노력을 이끌어냅니다."
+		},
+		"body9": {
+			"eng": "Warm regards",
+			"trans": "따뜻한 인사"
+		},
+		"title": {
+			"eng": "🚀 Maintenance in Progress 🚀",
+			"trans": "🚀 점검 중 🚀"
 		}
 	},
 	"markdownFile": {
@@ -5235,10 +5335,6 @@
 		"selectAll": {
 			"eng": "All",
 			"trans": "전체"
-		},
-		"unlock": {
-			"eng": "unlock",
-			"trans": "잠금 해제"
 		},
 		"upgrade": {
 			"eng": "upgrade",
@@ -6888,6 +6984,10 @@
 				"eng": "Combat has ended",
 				"trans": "전투가 종료되었습니다"
 			},
+			"dungeonNotFound": {
+				"eng": "Dungeon has expired",
+				"trans": "던전이 만료되었습니다"
+			},
 			"escapeFailed": {
 				"eng": "You failed to escape (${chance}% success chance)",
 				"trans": "당신은 탈출에 실패했습니다 (${chance}% 확률로 성공)"
@@ -8409,12 +8509,6 @@
 				"trans": "장비 착용"
 			}
 		},
-		"restart": {
-			"title": {
-				"eng": "Server is restarting...",
-				"trans": "서버가 재시작 중입니다..."
-			}
-		},
 		"selectItemModal": {
 			"noItems": {
 				"eng": "No available item",
@@ -8466,6 +8560,16 @@
 				"eng": "Tiny",
 				"trans": "아주 작은"
 			}
+		}
+	},
+	"updatingOverlay": {
+		"description": {
+			"eng": "Hello, I'm quickly updating the server to improve the game! \\nIt's normal to see a reconnect or update screen for a few seconds.🚀\\nApologies for any inconvenience and thanks for your patience.🙏",
+			"trans": "안녕하세요, 게임을 개선하기 위해 서버를 빠르게 업데이트하고 있습니다! \\n몇 초 동안 재접속 또는 업데이트 화면이 보이는 것은 정상입니다.🚀\\n불편을 드려 죄송하고, 여러분의 양해에 감사드립니다.🙏"
+		},
+		"title": {
+			"eng": "🌟 Quick Update Notice!",
+			"trans": "🌟 빠른 업데이트 알림!"
 		}
 	},
 	"upgradeBackpackPopup": {

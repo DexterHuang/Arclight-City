@@ -37,6 +37,32 @@
 			}
 		}
 	},
+	"RecipeType": {
+		"container": {
+			"title": {
+				"eng": "Containers",
+				"trans": "Контейнеры"
+			}
+		},
+		"containerKey": {
+			"title": {
+				"eng": "Container Keys",
+				"trans": "Ключи для контейнеров"
+			}
+		},
+		"others": {
+			"title": {
+				"eng": "Others",
+				"trans": "Другие"
+			}
+		},
+		"upgrades": {
+			"title": {
+				"eng": "Upgrade Materials",
+				"trans": "Материалы для улучшения"
+			}
+		}
+	},
 	"ability": {
 		"attack": {
 			"description": {
@@ -1275,6 +1301,20 @@
 				"eng": "Reconnecting to mainframe... (${attempt})",
 				"trans": "Подключение к главной системе... (${attempt})"
 			}
+		},
+		"updating": {
+			"description1": {
+				"eng": "Updating system, please standby...",
+				"trans": "Обновление системы, пожалуйста, подождите..."
+			},
+			"description2": {
+				"eng": "This will not consume network data.",
+				"trans": "Это не будет потреблять сетевые данные."
+			},
+			"title": {
+				"eng": "Server Updating...",
+				"trans": "Обновление сервера..."
+			}
 		}
 	},
 	"contributable": {
@@ -1351,10 +1391,22 @@
 	},
 	"crafting": {
 		"craftModal": {
+			"cancel": {
+				"eng": "Cancel",
+				"trans": "Отмена"
+			},
 			"title": {
 				"eng": "Select Amount",
 				"trans": "Выберите количество"
 			}
+		},
+		"tip": {
+			"eng": "You can also craft directly from your inventory",
+			"trans": "Вы также можете создавать предметы непосредственно из своего инвентаря"
+		},
+		"title": {
+			"eng": "Crafting",
+			"trans": "Крафтинг"
 		}
 	},
 	"createGang": {
@@ -4414,6 +4466,12 @@
 				"trans": "Путешествие [Уровень ${currentLevel}]"
 			}
 		},
+		"craft": {
+			"title": {
+				"eng": "Craft",
+				"trans": "Крафт"
+			}
+		},
 		"deathItemsButton": {
 			"title": {
 				"eng": "Death Items",
@@ -4491,6 +4549,48 @@
 				"eng": "Cybernet",
 				"trans": "Кибернет"
 			}
+		}
+	},
+	"maintenanceScreen": {
+		"body1": {
+			"eng": "Hello, Cyberpunkers of Arclight City!",
+			"trans": "Привет, киберпанки Арклайта!"
+		},
+		"body2": {
+			"eng": "Currently, Arclight City is undergoing maintenance to address a few unexpected issues. This is crucial for ensuring a top-notch gaming experience.",
+			"trans": "В данный момент Арклайт проходит техническое обслуживание для устранения нескольких неожиданных проблем. Это крайне важно для обеспечения первоклассного игрового опыта."
+		},
+		"body3": {
+			"eng": "🛠️ Maintenance Status",
+			"trans": "🛠️ Статус обслуживания"
+		},
+		"body4": {
+			"eng": "This maintenance is scheduled to finish in a few minutes, but I will keep you updated if that changes.",
+			"trans": "Это обслуживание запланировано на завершение в течение нескольких минут, но я буду держать вас в курсе, если что-то изменится."
+		},
+		"body5": {
+			"eng": "The goal is to ensure that every aspect of Arclight City functions smoothly for your adventures.",
+			"trans": "Цель - обеспечить плавное функционирование каждого аспекта Арклайт Сити для ваших приключений."
+		},
+		"body6": {
+			"eng": "I'm working diligently to address a few unexpected issues that have arisen.",
+			"trans": "Я усердно работаю над решением нескольких неожиданных проблем, которые возникли."
+		},
+		"body7": {
+			"eng": "I understand the disruption this may cause change to your gaming plans and sincerely apologize for any inconvenience. Your experience in Arclight City is incredibly important to me, and I'm committed to completing this maintenance as quickly as possible",
+			"trans": "Я понимаю, что это может нарушить ваши игровые планы, и искренне приношу извинения за любые неудобства. Ваш опыт в Арклайт Сити очень важен для меня, и я обязуюсь завершить это обслуживание как можно быстрее"
+		},
+		"body8": {
+			"eng": "Thank you for your patience and understanding. Your support and enthusiasm for Arclight City are what drive these efforts.",
+			"trans": "Спасибо за ваше терпение и понимание. Ваша поддержка и энтузиазм по отношению к Арклайту - это то, что движет этими усилиями."
+		},
+		"body9": {
+			"eng": "Warm regards",
+			"trans": "С наилучшими пожеланиями"
+		},
+		"title": {
+			"eng": "🚀 Maintenance in Progress 🚀",
+			"trans": "🚀 Техническое обслуживание в процессе 🚀"
 		}
 	},
 	"markdownFile": {
@@ -5235,10 +5335,6 @@
 		"selectAll": {
 			"eng": "All",
 			"trans": "Все"
-		},
-		"unlock": {
-			"eng": "unlock",
-			"trans": "разблокировать"
 		},
 		"upgrade": {
 			"eng": "upgrade",
@@ -6888,6 +6984,10 @@
 				"eng": "Combat has ended",
 				"trans": "Бой окончен"
 			},
+			"dungeonNotFound": {
+				"eng": "Dungeon has expired",
+				"trans": "Подземелье истекло срок действия"
+			},
 			"escapeFailed": {
 				"eng": "You failed to escape (${chance}% success chance)",
 				"trans": "Вы не смогли сбежать (${шанс}% шанс на успех)"
@@ -8409,12 +8509,6 @@
 				"trans": "Экипировать"
 			}
 		},
-		"restart": {
-			"title": {
-				"eng": "Server is restarting...",
-				"trans": "Сервер перезагружается..."
-			}
-		},
 		"selectItemModal": {
 			"noItems": {
 				"eng": "No available item",
@@ -8466,6 +8560,16 @@
 				"eng": "Tiny",
 				"trans": "Крошечный"
 			}
+		}
+	},
+	"updatingOverlay": {
+		"description": {
+			"eng": "Hello, I'm quickly updating the server to improve the game! \\nIt's normal to see a reconnect or update screen for a few seconds.🚀\\nApologies for any inconvenience and thanks for your patience.🙏",
+			"trans": "Привет, я быстро обновляю сервер, чтобы улучшить игру! \\nНормально видеть экран переподключения или обновления на несколько секунд.🚀\\nИзвините за неудобства и спасибо за ваше терпение.🙏"
+		},
+		"title": {
+			"eng": "🌟 Quick Update Notice!",
+			"trans": "🌟 Быстрое обновление!"
 		}
 	},
 	"upgradeBackpackPopup": {

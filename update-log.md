@@ -8,6 +8,13 @@
 
 **If you find a exploit please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
+
+### 0.0.26
+
+-   Added Crafting page, allowing you to see all recipes and craftable items in one place. this should allow new players to easier understand what items can be crafted and how to craft them.
+-   Added update screen, it shows up when server is being updated and generally it takes less then 30 seconds to complete the reboot and reconnect back to the game.
+-   Increased quest rewards for new players to provide more resource for new players to get started.
+
 ### 0.0.25
 
 -   Fixed issue with cyber-psychosis refresh time display is incorrect due to calculation error on client side, this was purely visual issue, the refresh time is still correct on server side, this update fixes the display issue.

@@ -37,6 +37,32 @@
 			}
 		}
 	},
+	"RecipeType": {
+		"container": {
+			"title": {
+				"eng": "Containers",
+				"trans": "コンテナー"
+			}
+		},
+		"containerKey": {
+			"title": {
+				"eng": "Container Keys",
+				"trans": "コンテナの鍵"
+			}
+		},
+		"others": {
+			"title": {
+				"eng": "Others",
+				"trans": "その他"
+			}
+		},
+		"upgrades": {
+			"title": {
+				"eng": "Upgrade Materials",
+				"trans": "アップグレード素材"
+			}
+		}
+	},
 	"ability": {
 		"attack": {
 			"description": {
@@ -1275,6 +1301,20 @@
 				"eng": "Reconnecting to mainframe... (${attempt})",
 				"trans": "メインフレームに再接続中... ${attempt}回目の試行"
 			}
+		},
+		"updating": {
+			"description1": {
+				"eng": "Updating system, please standby...",
+				"trans": "システムを更新中です、しばらくお待ちください..."
+			},
+			"description2": {
+				"eng": "This will not consume network data.",
+				"trans": "これはネットワークデータを消費しません。"
+			},
+			"title": {
+				"eng": "Server Updating...",
+				"trans": "サーバー更新中..."
+			}
 		}
 	},
 	"contributable": {
@@ -1351,10 +1391,22 @@
 	},
 	"crafting": {
 		"craftModal": {
+			"cancel": {
+				"eng": "Cancel",
+				"trans": "キャンセル"
+			},
 			"title": {
 				"eng": "Select Amount",
 				"trans": "金額を選択してください。"
 			}
+		},
+		"tip": {
+			"eng": "You can also craft directly from your inventory",
+			"trans": "インベントリから直接クラフトすることもできます。"
+		},
+		"title": {
+			"eng": "Crafting",
+			"trans": "クラフティング"
 		}
 	},
 	"createGang": {
@@ -4414,6 +4466,12 @@
 				"trans": "移動 [レベル${currentLevel}]"
 			}
 		},
+		"craft": {
+			"title": {
+				"eng": "Craft",
+				"trans": "クラフト"
+			}
+		},
 		"deathItemsButton": {
 			"title": {
 				"eng": "Death Items",
@@ -4491,6 +4549,48 @@
 				"eng": "Cybernet",
 				"trans": "サイバーネット"
 			}
+		}
+	},
+	"maintenanceScreen": {
+		"body1": {
+			"eng": "Hello, Cyberpunkers of Arclight City!",
+			"trans": "こんにちは、アークライト・シティのサイバーパンカーたち！"
+		},
+		"body2": {
+			"eng": "Currently, Arclight City is undergoing maintenance to address a few unexpected issues. This is crucial for ensuring a top-notch gaming experience.",
+			"trans": "現在、アークライト・シティは予期せぬ問題を解決するためのメンテナンス中です。これは最高のゲーム体験を保証するために重要です。"
+		},
+		"body3": {
+			"eng": "🛠️ Maintenance Status",
+			"trans": "🛠️ メンテナンス状況"
+		},
+		"body4": {
+			"eng": "This maintenance is scheduled to finish in a few minutes, but I will keep you updated if that changes.",
+			"trans": "このメンテナンスは数分で終了する予定ですが、変更があった場合はお知らせします。"
+		},
+		"body5": {
+			"eng": "The goal is to ensure that every aspect of Arclight City functions smoothly for your adventures.",
+			"trans": "アークライト・シティのあらゆる側面が、冒険にスムーズに機能するようにすることが目的です。"
+		},
+		"body6": {
+			"eng": "I'm working diligently to address a few unexpected issues that have arisen.",
+			"trans": "私はいくつかの予期せぬ問題に対処するために一生懸命働いています。"
+		},
+		"body7": {
+			"eng": "I understand the disruption this may cause change to your gaming plans and sincerely apologize for any inconvenience. Your experience in Arclight City is incredibly important to me, and I'm committed to completing this maintenance as quickly as possible",
+			"trans": "あなたのゲームプランに変更が生じることがどれほどの混乱を引き起こすか理解しており、ご迷惑をおかけして深くお詫び申し上げます。アークライト・シティでのあなたの体験は私にとって非常に重要であり、このメンテナンスをできるだけ早く完了することに専念しています。"
+		},
+		"body8": {
+			"eng": "Thank you for your patience and understanding. Your support and enthusiasm for Arclight City are what drive these efforts.",
+			"trans": "ご辛抱とご理解ありがとうございます。アークライト・シティへのサポートと熱意が、これらの取り組みを推進しています。"
+		},
+		"body9": {
+			"eng": "Warm regards",
+			"trans": "よろしくお願いします"
+		},
+		"title": {
+			"eng": "🚀 Maintenance in Progress 🚀",
+			"trans": "🚀 メンテナンス中 🚀"
 		}
 	},
 	"markdownFile": {
@@ -5235,10 +5335,6 @@
 		"selectAll": {
 			"eng": "All",
 			"trans": "すべて"
-		},
-		"unlock": {
-			"eng": "unlock",
-			"trans": "解除する"
 		},
 		"upgrade": {
 			"eng": "upgrade",
@@ -6888,6 +6984,10 @@
 				"eng": "Combat has ended",
 				"trans": "戦闘が終了しました"
 			},
+			"dungeonNotFound": {
+				"eng": "Dungeon has expired",
+				"trans": "ダンジョンは期限切れです"
+			},
 			"escapeFailed": {
 				"eng": "You failed to escape (${chance}% success chance)",
 				"trans": "脱出に失敗しました（成功確率${chance}%）"
@@ -8409,12 +8509,6 @@
 				"trans": "装備する"
 			}
 		},
-		"restart": {
-			"title": {
-				"eng": "Server is restarting...",
-				"trans": "サーバーが再起動しています..."
-			}
-		},
 		"selectItemModal": {
 			"noItems": {
 				"eng": "No available item",
@@ -8466,6 +8560,16 @@
 				"eng": "Tiny",
 				"trans": "小さな"
 			}
+		}
+	},
+	"updatingOverlay": {
+		"description": {
+			"eng": "Hello, I'm quickly updating the server to improve the game! \\nIt's normal to see a reconnect or update screen for a few seconds.🚀\\nApologies for any inconvenience and thanks for your patience.🙏",
+			"trans": "こんにちは、ゲームを改善するためにサーバーを素早く更新しています！\\n数秒間再接続やアップデート画面が表示されるのは正常です。🚀\\nご不便をおかけして申し訳ありませんが、ご理解とご協力ありがとうございます。🙏"
+		},
+		"title": {
+			"eng": "🌟 Quick Update Notice!",
+			"trans": "🌟 お知らせ！アップデートがあります！"
 		}
 	},
 	"upgradeBackpackPopup": {
