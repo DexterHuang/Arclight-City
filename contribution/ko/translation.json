@@ -41,13 +41,13 @@
 		"container": {
 			"title": {
 				"eng": "Containers",
-				"trans": "보관함"
+				"trans": "상자"
 			}
 		},
 		"containerKey": {
 			"title": {
 				"eng": "Container Keys",
-				"trans": "컨테이너 열쇠"
+				"trans": "상자 열쇠"
 			}
 		},
 		"others": {
@@ -877,7 +877,7 @@
 		"error": {
 			"link": {
 				"eng": "Links are not allowed in messages",
-				"trans": "메시지에 링크는 허용되지 않습니다"
+				"trans": "메시지에 링크를 넣을 수 없습니다"
 			}
 		},
 		"imageView": {
@@ -1775,7 +1775,7 @@
 			},
 			"maxLootLevelDifference": {
 				"eng": "You cannot loot this chest because your level is too high",
-				"trans": "너무 높은 레벨이라서 이 상자를 루팅할 수 없어"
+				"trans": "당신의 레벨이 너무 높아서 이 상자를 획득 할 수 없습니다"
 			}
 		},
 		"type": {
@@ -4554,11 +4554,11 @@
 	"maintenanceScreen": {
 		"body1": {
 			"eng": "Hello, Cyberpunkers of Arclight City!",
-			"trans": "안녕, 아크라이트 시티의 사이버펑커들!"
+			"trans": "안녕하세요, 아크라이트 시티의 사이버펑커분들!"
 		},
 		"body2": {
 			"eng": "Currently, Arclight City is undergoing maintenance to address a few unexpected issues. This is crucial for ensuring a top-notch gaming experience.",
-			"trans": "현재 아크라이트 시티는 몇 가지 예상치 못한 문제를 해결하기 위해 유지보수 중입니다. 이는 최고 수준의 게임 경험을 보장하기 위해 중요합니다."
+			"trans": "현재 아크라이트 시티는 몇 가지 예상치 못한 문제를 해결하기 위해 유지보수 중입니다. 이는 최고 수준의 게임 경험을 보장하기 위해 매우 중요한 작업입니다."
 		},
 		"body3": {
 			"eng": "🛠️ Maintenance Status",
@@ -4570,7 +4570,7 @@
 		},
 		"body5": {
 			"eng": "The goal is to ensure that every aspect of Arclight City functions smoothly for your adventures.",
-			"trans": "목표는 아크라이트 시티의 모든 측면이 모험을 위해 원활하게 작동하는 것을 보장하는 것입니다."
+			"trans": "목표는 여러분의 모험을 위해 아크라이트 시티의 모든 측면이 원활하게 작동하는 것을 보장하는 것입니다."
 		},
 		"body6": {
 			"eng": "I'm working diligently to address a few unexpected issues that have arisen.",
@@ -4578,19 +4578,19 @@
 		},
 		"body7": {
 			"eng": "I understand the disruption this may cause change to your gaming plans and sincerely apologize for any inconvenience. Your experience in Arclight City is incredibly important to me, and I'm committed to completing this maintenance as quickly as possible",
-			"trans": "게임 계획에 변화가 생길 수 있음을 이해하고 불편을 끼쳐드려 죄송합니다. 아크라이트 시티에서의 경험은 저에게 매우 중요하며, 이 유지보수를 최대한 빠르게 완료하기 위해 최선을 다하겠습니다"
+			"trans": "이로 인해 여러분의 게임 계획이 변경될 수 있음을 이해하며 불편을 드려 진심으로 사과드립니다. Arclight City에서의 당신의 경험은 저에게 엄청나게 중요합니다. 그리고 저는 이 유지보수를 가능한 한 빨리 완료할 것을 약속합니다"
 		},
 		"body8": {
 			"eng": "Thank you for your patience and understanding. Your support and enthusiasm for Arclight City are what drive these efforts.",
-			"trans": "기다려주셔서 감사합니다. 아크라이트 시티에 대한 지지와 열정이 이 노력을 이끌어냅니다."
+			"trans": "기다려주셔서 감사합니다. 아크라이트 시티에 대한 여러분의 지지와 열정이 이러한 노력의 원동력입니다."
 		},
 		"body9": {
 			"eng": "Warm regards",
-			"trans": "따뜻한 인사"
+			"trans": "대단히 감사합니다"
 		},
 		"title": {
 			"eng": "🚀 Maintenance in Progress 🚀",
-			"trans": "🚀 점검 중 🚀"
+			"trans": "🚀 점검 진행중 🚀"
 		}
 	},
 	"markdownFile": {
@@ -6474,7 +6474,7 @@
 		"background": {
 			"description": {
 				"eng": "Cyber-psychosis is caused by excessive use of cybernetic abilities, leading to hallucinations and delusions due to brain overload. ${item} can be used to reduce psychosis.",
-				"trans": "사이버 싸이코시스는 사이버네틱 능력의 과도한 사용으로 인해 발생하며, 뇌 과부하로 인한 환각과 망상을 유발합니다. ${item}을(를) 사용하여 싸이코시스를 줄일 수 있습니다."
+				"trans": "사이버 싸이코는 사이버네틱 능력의 과도한 사용으로 인해 발생하며, 뇌 과부하로 인한 환각과 망상을 유발합니다. ${item}을(를) 사용하여 싸이코를 줄일 수 있습니다."
 			},
 			"subtitle": {
 				"eng": "Background",
@@ -6585,7 +6585,7 @@
 		},
 		"maxDungeonQuest": {
 			"eng": "You can only have ${max} quests from strongholds at a time",
-			"trans": "한 번에 아지트에서 ${max}개의 퀘스트만 수행할 수 있습니다"
+			"trans": "한 개의 아지트에서 ${max}개의 퀘스트만 수락할 수 있습니다"
 		},
 		"progress": {
 			"collectQuestItem": {
@@ -7111,7 +7111,7 @@
 			},
 			"tooHighLevel": {
 				"eng": "Your level is too high to interact with this",
-				"trans": "이걸 상호작용하려면 당신의 레벨이 너무 높습니다"
+				"trans": "이것과 상호작용하기엔 당신의 레벨이 너무 높습니다"
 			}
 		},
 		"dungeonLobby": {
@@ -7645,7 +7645,7 @@
 	"statusInventory": {
 		"description": {
 			"eng": "If your ${inv} is full or one of the item has reached its max stack limit.\\nPlease remove some stuff before picking up the loots.",
-			"trans": "만약 ${inv}이(가) 가득 찼거나 아이템 중 하나가 최대 스택 한도에 도달했다면.\\n루팅을 진행하기 전에 물건을 일부 제거해주세요."
+			"trans": "만약 ${inv}이 가득 찼거나 아이템 중 하나가 최대 스택 한도에 도달했다면, 전리품을 얻기 전에 일부 아이템을 제거해 주세요."
 		},
 		"discard": {
 			"eng": "Discard",
