@@ -749,8 +749,8 @@
 			"trans": "${days} hari tersisa"
 		},
 		"endsIn": {
-			"eng": "${days} days redeemable window",
-			"trans": "Jendela penebusan selama ${days} hari"
+			"eng": "purchasable till ${date}",
+			"trans": "dapat dibeli hingga ${date}"
 		},
 		"item": {
 			"claimed": {
@@ -777,6 +777,10 @@
 		"itemStillPending": {
 			"eng": "This item is still pending. Please wait until the next refresh.",
 			"trans": "Item ini masih tertunda. Mohon tunggu hingga refresh berikutnya."
+		},
+		"redeemableWindow": {
+			"eng": "${days} days redeemable window",
+			"trans": "Jendela penebusan selama ${days} hari"
 		},
 		"timeToNextRefresh": {
 			"eng": "Time to next refresh",

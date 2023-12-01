@@ -749,8 +749,8 @@
 			"trans": "Quedan ${days} días"
 		},
 		"endsIn": {
-			"eng": "${days} days redeemable window",
-			"trans": "Ventana de canje de ${days} días"
+			"eng": "purchasable till ${date}",
+			"trans": "Disponible para comprar hasta el ${date}"
 		},
 		"item": {
 			"claimed": {
@@ -777,6 +777,10 @@
 		"itemStillPending": {
 			"eng": "This item is still pending. Please wait until the next refresh.",
 			"trans": "Este objeto aún está pendiente. Por favor, espera hasta la próxima actualización."
+		},
+		"redeemableWindow": {
+			"eng": "${days} days redeemable window",
+			"trans": "Ventana de canje de ${days} días"
 		},
 		"timeToNextRefresh": {
 			"eng": "Time to next refresh",

@@ -749,8 +749,8 @@
 			"trans": "剩餘${days}天"
 		},
 		"endsIn": {
-			"eng": "${days} days redeemable window",
-			"trans": "${days}天兌換期限"
+			"eng": "purchasable till ${date}",
+			"trans": "可購買直到${date}"
 		},
 		"item": {
 			"claimed": {
@@ -777,6 +777,10 @@
 		"itemStillPending": {
 			"eng": "This item is still pending. Please wait until the next refresh.",
 			"trans": "尚未開放，請等待下一次重置。"
+		},
+		"redeemableWindow": {
+			"eng": "${days} days redeemable window",
+			"trans": "可兌換${days}天期限"
 		},
 		"timeToNextRefresh": {
 			"eng": "Time to next refresh",
