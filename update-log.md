@@ -8,12 +8,19 @@
 
 **If you find a exploit please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
+### 0.0.27
+
+-   Fixed UI issue with npc page
+-   Added new item `Christmas Container` that contains various high value loots, this can only be obtained from Christmas battle track
+-   Added Christmas special battle track
+-   Fixed issue with group heal mercs not automatically using ability when there is no teammate in combat
 
 ### 0.0.26
 
 -   Added Crafting page, allowing you to see all recipes and craftable items in one place. this should allow new players to easier understand what items can be crafted and how to craft them.
 -   Added update screen, it shows up when server is being updated and generally it takes less then 30 seconds to complete the reboot and reconnect back to the game.
 -   Increased quest rewards for new players to provide more resource for new players to get started.
+-   Fixed issue with after restarting the game in dungeon, the player character will not show up visually until you moved.
 
 ### 0.0.25
 

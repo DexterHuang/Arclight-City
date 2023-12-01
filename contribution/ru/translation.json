@@ -1,4 +1,34 @@
 {
+	"BattlePassTimeLimitedInfoModal": {
+		"button": {
+			"eng": "Close",
+			"trans": "Закрыть"
+		},
+		"endDate": {
+			"desc": {
+				"eng": "This battle track will end at ${date}, and you will not be able purchase it after this date.",
+				"trans": "Этот боевой трек закончится ${date}, и вы не сможете его приобрести после этой даты."
+			},
+			"title": {
+				"eng": "Track End Date",
+				"trans": "Дата окончания трека"
+			}
+		},
+		"maxDays": {
+			"desc1": {
+				"eng": "battle track will remain available for unlock and redeem daily ${days} days after your first login date (${firstDay}), regardless of the end date.",
+				"trans": "Боевой трек будет доступен для разблокировки и получения ежедневно в течение ${days} дней после вашей первой даты входа (${firstDay}), независимо от конечной даты."
+			},
+			"desc2": {
+				"eng": "Once the redeemable days are over, you will not be able to unlock or redeem the rewards anymore. so make sure you login and redeem your rewards before the redeemable days are over.",
+				"trans": "После истечения срока действия возможности обмена, вы больше не сможете разблокировать или обменять награды. Поэтому убедитесь, что вы войдете в систему и обменяете свои награды до истечения срока действия возможности обмена."
+			},
+			"title": {
+				"eng": "Redeemable Days",
+				"trans": "Дни для выкупа"
+			}
+		}
+	},
 	"CrewTip": {
 		"tip1": {
 			"eng": "Looks like one or more of your mercenary is low level, you should level them up to match your level using ${item1} and ${item2}",
@@ -648,6 +678,32 @@
 		}
 	},
 	"battlePass": {
+		"christmas": {
+			"description": {
+				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
+				"trans": "Получайте различные награды ежедневно в течение 21 дня, а на 22-й день - до ${itemName}"
+			},
+			"pass1": {
+				"name": {
+					"eng": "Basic",
+					"trans": "Основы"
+				}
+			},
+			"pass2": {
+				"name": {
+					"eng": "Advanced",
+					"trans": "Продвинутый"
+				}
+			},
+			"subtitle": {
+				"eng": "Christmas Rewards",
+				"trans": "Рождественские награды"
+			},
+			"title": {
+				"eng": "Merry Mysteries",
+				"trans": "Веселые Тайны"
+			}
+		},
 		"mercEnhancer": {
 			"description": {
 				"eng": "Receive free ${item} every day",
@@ -688,6 +744,14 @@
 			"eng": "Day ${num}",
 			"trans": "День ${num}"
 		},
+		"daysRemaining": {
+			"eng": "${days} days remaining",
+			"trans": "Осталось ${days} дней"
+		},
+		"endsIn": {
+			"eng": "purchasable till ${date}",
+			"trans": "доступно для покупки до ${date}"
+		},
 		"item": {
 			"claimed": {
 				"eng": "Claimed",
@@ -704,6 +768,10 @@
 			"unclaimed": {
 				"eng": "Claim",
 				"trans": "Заявка"
+			},
+			"unlock": {
+				"eng": "Unlock",
+				"trans": "Разблокировать"
 			}
 		},
 		"itemStillPending": {
@@ -3436,6 +3504,16 @@
 			"name": {
 				"eng": "Calibration Stabilizer",
 				"trans": "Калибровочный стабилизатор"
+			}
+		},
+		"christmasLootBox": {
+			"description": {
+				"eng": "Event container that contains various rewards, can only be unlocked during December.",
+				"trans": "Контейнер событий, содержащий различные награды, может быть открыт только в декабре."
+			},
+			"name": {
+				"eng": "Christmas Container",
+				"trans": "Рождественский контейнер"
 			}
 		},
 		"clanMaintenanceResource": {
@@ -6714,6 +6792,12 @@
 				"eng": "Not subscribed to this object",
 				"trans": "Не подписан на этот объект"
 			}
+		}
+	},
+	"recipe": {
+		"notAvailableError": {
+			"eng": "this is only available during between ${dateStart} and ${dateEnd}",
+			"trans": "Это доступно только в период между ${dateStart} и ${dateEnd}"
 		}
 	},
 	"referral": {

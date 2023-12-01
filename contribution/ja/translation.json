@@ -1,4 +1,34 @@
 {
+	"BattlePassTimeLimitedInfoModal": {
+		"button": {
+			"eng": "Close",
+			"trans": "閉じる"
+		},
+		"endDate": {
+			"desc": {
+				"eng": "This battle track will end at ${date}, and you will not be able purchase it after this date.",
+				"trans": "このバトルトラックは${date}に終了します。この日以降は購入できません。"
+			},
+			"title": {
+				"eng": "Track End Date",
+				"trans": "トラック終了日"
+			}
+		},
+		"maxDays": {
+			"desc1": {
+				"eng": "battle track will remain available for unlock and redeem daily ${days} days after your first login date (${firstDay}), regardless of the end date.",
+				"trans": "バトルトラックは、最初のログイン日(${firstDay})から${days}日後まで毎日アンロックおよびリデムすることができます。終了日に関わらず、利用可能です。"
+			},
+			"desc2": {
+				"eng": "Once the redeemable days are over, you will not be able to unlock or redeem the rewards anymore. so make sure you login and redeem your rewards before the redeemable days are over.",
+				"trans": "報酬の受け取り期限が過ぎると、報酬をアンロックしたり受け取ったりすることができなくなります。ですので、報酬の受け取り期限が過ぎる前にログインして報酬を受け取るようにしてください。"
+			},
+			"title": {
+				"eng": "Redeemable Days",
+				"trans": "兌換可能な日々"
+			}
+		}
+	},
 	"CrewTip": {
 		"tip1": {
 			"eng": "Looks like one or more of your mercenary is low level, you should level them up to match your level using ${item1} and ${item2}",
@@ -648,6 +678,32 @@
 		}
 	},
 	"battlePass": {
+		"christmas": {
+			"description": {
+				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
+				"trans": "21日間毎日さまざまな報酬を受け取り、22日目には最大${itemName}を受け取ることができます。"
+			},
+			"pass1": {
+				"name": {
+					"eng": "Basic",
+					"trans": "基本"
+				}
+			},
+			"pass2": {
+				"name": {
+					"eng": "Advanced",
+					"trans": "上級"
+				}
+			},
+			"subtitle": {
+				"eng": "Christmas Rewards",
+				"trans": "クリスマスのご褒美"
+			},
+			"title": {
+				"eng": "Merry Mysteries",
+				"trans": "メリー・ミステリーズ"
+			}
+		},
 		"mercEnhancer": {
 			"description": {
 				"eng": "Receive free ${item} every day",
@@ -688,6 +744,14 @@
 			"eng": "Day ${num}",
 			"trans": "${num}日目"
 		},
+		"daysRemaining": {
+			"eng": "${days} days remaining",
+			"trans": "残り${days}日"
+		},
+		"endsIn": {
+			"eng": "purchasable till ${date}",
+			"trans": "${date}まで購入可能"
+		},
 		"item": {
 			"claimed": {
 				"eng": "Claimed",
@@ -704,6 +768,10 @@
 			"unclaimed": {
 				"eng": "Claim",
 				"trans": "請求する"
+			},
+			"unlock": {
+				"eng": "Unlock",
+				"trans": "解除する"
 			}
 		},
 		"itemStillPending": {
@@ -3436,6 +3504,16 @@
 			"name": {
 				"eng": "Calibration Stabilizer",
 				"trans": "キャリブレーションスタビライザー"
+			}
+		},
+		"christmasLootBox": {
+			"description": {
+				"eng": "Event container that contains various rewards, can only be unlocked during December.",
+				"trans": "12月中にのみアンロック可能な、様々な報酬を含むイベントコンテナー。"
+			},
+			"name": {
+				"eng": "Christmas Container",
+				"trans": "クリスマスコンテナ"
 			}
 		},
 		"clanMaintenanceResource": {
@@ -6714,6 +6792,12 @@
 				"eng": "Not subscribed to this object",
 				"trans": "このオブジェクトには登録されていません"
 			}
+		}
+	},
+	"recipe": {
+		"notAvailableError": {
+			"eng": "this is only available during between ${dateStart} and ${dateEnd}",
+			"trans": "この機能は${dateStart}と${dateEnd}の間にのみ利用可能です。"
 		}
 	},
 	"referral": {

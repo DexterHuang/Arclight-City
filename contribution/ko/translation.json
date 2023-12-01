@@ -1,4 +1,34 @@
 {
+	"BattlePassTimeLimitedInfoModal": {
+		"button": {
+			"eng": "Close",
+			"trans": "닫기"
+		},
+		"endDate": {
+			"desc": {
+				"eng": "This battle track will end at ${date}, and you will not be able purchase it after this date.",
+				"trans": "이 전투 트랙은 ${date}에 종료되며, 이 날짜 이후에는 구매할 수 없습니다."
+			},
+			"title": {
+				"eng": "Track End Date",
+				"trans": "추적 종료 날짜"
+			}
+		},
+		"maxDays": {
+			"desc1": {
+				"eng": "battle track will remain available for unlock and redeem daily ${days} days after your first login date (${firstDay}), regardless of the end date.",
+				"trans": "전투 트랙은 첫 로그인 날짜(${firstDay})로부터 ${days}일 후까지 잠금 해제 및 교환 가능합니다. 종료 날짜와는 상관없이 매일 이용 가능합니다."
+			},
+			"desc2": {
+				"eng": "Once the redeemable days are over, you will not be able to unlock or redeem the rewards anymore. so make sure you login and redeem your rewards before the redeemable days are over.",
+				"trans": "교환 가능한 날짜가 지나면 더 이상 보상을 해제하거나 교환할 수 없습니다. 따라서 교환 가능한 날짜가 지나기 전에 로그인하여 보상을 교환하십시오."
+			},
+			"title": {
+				"eng": "Redeemable Days",
+				"trans": "교환 가능한 날들"
+			}
+		}
+	},
 	"CrewTip": {
 		"tip1": {
 			"eng": "Looks like one or more of your mercenary is low level, you should level them up to match your level using ${item1} and ${item2}",
@@ -648,6 +678,32 @@
 		}
 	},
 	"battlePass": {
+		"christmas": {
+			"description": {
+				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
+				"trans": "21일 동안 매일 다양한 보상을 받으며, 22일째에는 최대 ${itemName}을(를) 받으세요"
+			},
+			"pass1": {
+				"name": {
+					"eng": "Basic",
+					"trans": "기본"
+				}
+			},
+			"pass2": {
+				"name": {
+					"eng": "Advanced",
+					"trans": "고급"
+				}
+			},
+			"subtitle": {
+				"eng": "Christmas Rewards",
+				"trans": "크리스마스 보상"
+			},
+			"title": {
+				"eng": "Merry Mysteries",
+				"trans": "메리 미스터리스"
+			}
+		},
 		"mercEnhancer": {
 			"description": {
 				"eng": "Receive free ${item} every day",
@@ -688,6 +744,14 @@
 			"eng": "Day ${num}",
 			"trans": "${num}일"
 		},
+		"daysRemaining": {
+			"eng": "${days} days remaining",
+			"trans": "${days}일 남음"
+		},
+		"endsIn": {
+			"eng": "purchasable till ${date}",
+			"trans": "${date}까지 구매 가능합니다"
+		},
 		"item": {
 			"claimed": {
 				"eng": "Claimed",
@@ -704,6 +768,10 @@
 			"unclaimed": {
 				"eng": "Claim",
 				"trans": "수령"
+			},
+			"unlock": {
+				"eng": "Unlock",
+				"trans": "잠금 해제"
 			}
 		},
 		"itemStillPending": {
@@ -3436,6 +3504,16 @@
 			"name": {
 				"eng": "Calibration Stabilizer",
 				"trans": "교정 안정 장치"
+			}
+		},
+		"christmasLootBox": {
+			"description": {
+				"eng": "Event container that contains various rewards, can only be unlocked during December.",
+				"trans": "12월에만 해제할 수 있는 다양한 보상이 들어있는 이벤트 컨테이너입니다."
+			},
+			"name": {
+				"eng": "Christmas Container",
+				"trans": "크리스마스 컨테이너"
 			}
 		},
 		"clanMaintenanceResource": {
@@ -6714,6 +6792,12 @@
 				"eng": "Not subscribed to this object",
 				"trans": "이 객체에 가입하지 않았습니다"
 			}
+		}
+	},
+	"recipe": {
+		"notAvailableError": {
+			"eng": "this is only available during between ${dateStart} and ${dateEnd}",
+			"trans": "이 기능은 ${dateStart}와(과) ${dateEnd} 사이에만 이용 가능합니다"
 		}
 	},
 	"referral": {
