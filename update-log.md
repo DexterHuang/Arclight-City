@@ -10,6 +10,10 @@
 
 ### 0.0.27
 
+-   Fixed issue with dungeon event UI display for smaller screen size
+
+### 0.0.27
+
 -   Fixed UI issue with npc page
 -   Added new item `Christmas Container` that contains various high value loots, this can only be obtained from Christmas battle track
 -   Added Christmas special battle track
