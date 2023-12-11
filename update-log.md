@@ -8,7 +8,12 @@
 
 **If you find a exploit please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
-### 0.0.27
+
+### 0.0.29
+
+-  Fixed server stability issue
+
+### 0.0.28
 
 -   Fixed issue with dungeon event UI display for smaller screen size
 
