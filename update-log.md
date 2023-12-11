@@ -8,6 +8,9 @@
 
 **If you find a exploit please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
+### 0.0.30
+
+-  Fixed issue with daily reward
 
 ### 0.0.29
 
