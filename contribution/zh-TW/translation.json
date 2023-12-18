@@ -845,6 +845,12 @@
 				"trans": "每日免費禮包"
 			}
 		},
+		"freeHideoutLocator": {
+			"name": {
+				"eng": "Free Hideout Locator",
+				"trans": "免費幫派藏身處定位器"
+			}
+		},
 		"itemUpgradeDeal": {
 			"name": {
 				"eng": "Item Upgrade Deal",
@@ -1586,6 +1592,16 @@
 			"name": {
 				"eng": "Netcoin",
 				"trans": "網幣"
+			}
+		},
+		"hideoutLocator": {
+			"description": {
+				"eng": "A device that can be used to locate hidden hideouts.",
+				"trans": "可定位隱藏據點的裝置。"
+			},
+			"name": {
+				"eng": "Hideout Locator",
+				"trans": "幫派藏身處定位器"
 			}
 		},
 		"mercExpCurrency": {
@@ -2723,6 +2739,72 @@
 			}
 		}
 	},
+	"instantDungeon": {
+		"locationNotCleared": {
+			"eng": "To raid gang hideout at level ${playerLevel}, you must clear level ${levelNeeded} stronghold with ${difficulty} difficulty first",
+			"trans": "要襲擊等級 ${playerLevel} 的幫派巢穴，你必須先以 ${difficulty} 難度通關等級 ${levelNeeded} 的地城"
+		}
+	},
+	"instantDungeonDisplay": {
+		"fastDungeonButton": {
+			"description": {
+				"eng": "Quick and instant gang hideout raid with cost of ${item} or ${item2}",
+				"trans": "快速即時幫派巢穴突襲，花費${item}或${item2}"
+			},
+			"title": {
+				"eng": "Raid Hideout",
+				"trans": "突襲藏身處"
+			}
+		},
+		"startRaid": {
+			"eng": "Start Raid",
+			"trans": "開始突襲"
+		}
+	},
+	"instantDungeonHandler": {
+		"selectAmountModal": {
+			"subtitle": {
+				"eng": "Cost Requirements",
+				"trans": "成本需求"
+			},
+			"title": {
+				"eng": "How many repeats?",
+				"trans": "重複幾次？"
+			}
+		}
+	},
+	"instantDungeonPage": {
+		"costs": {
+			"eng": "Costs",
+			"trans": "費用"
+		},
+		"description": {
+			"eng": "Quick and instant gang hideout raid with cost of ${item} or ${currency}",
+			"trans": "花費${item}或${currency}即可快速即時突襲幫派藏身處"
+		},
+		"levelDisplay": {
+			"title": {
+				"eng": "level ${level}",
+				"trans": "等級 ${level}"
+			}
+		},
+		"rewards": {
+			"eng": "Rewards",
+			"trans": "獎勵"
+		},
+		"startRaid": {
+			"eng": "Start Raid",
+			"trans": "開始突襲"
+		},
+		"title": {
+			"eng": "Raid Hideout",
+			"trans": "突襲藏身處"
+		},
+		"type": {
+			"eng": "Type",
+			"trans": "類型"
+		}
+	},
 	"insufficientItemModal": {
 		"insufficientCurrency": {
 			"eng": "Insufficient ${name}",
@@ -3692,6 +3774,26 @@
 			"name": {
 				"eng": "Helmet",
 				"trans": "頭盔"
+			}
+		},
+		"hideoutLocator": {
+			"description": {
+				"eng": "A device to locate gang hideouts in the city, you can use this item to perform a quick hideout raid.",
+				"trans": "城市中幫派藏身處的定位裝置，使用此道具可以進行快速藏身處突襲。"
+			},
+			"name": {
+				"eng": "Hideout Locator",
+				"trans": "幫派藏身處定位器"
+			}
+		},
+		"hideoutLocator2": {
+			"description": {
+				"eng": "A device to locate major gang hideouts in the city, you can use this item to perform a quick hideout raid with higher rewards.",
+				"trans": "定位城市主要幫派據點的裝置，使用此道具可進行快速據點掃蕩，獲得更高獎勵。"
+			},
+			"name": {
+				"eng": "Advance Hideout Locator",
+				"trans": "進階幫派藏身處定位器"
 			}
 		},
 		"identificationShard": {
@@ -4735,6 +4837,10 @@
 		"gangUpkeep": {
 			"eng": "Gang Upkeep",
 			"trans": "幫派維護费用"
+		},
+		"hideoutRaid": {
+			"eng": "Hideout Raid",
+			"trans": "藏身處突襲"
 		},
 		"hitBounty": {
 			"eng": "Hit Bounty",
@@ -7333,6 +7439,14 @@
 			}
 		},
 		"player": {
+			"currencyFull": {
+				"eng": "${currencyName} is full",
+				"trans": "${currencyName}已滿"
+			},
+			"currencyFullItem": {
+				"eng": "${currencyName} is full",
+				"trans": "${currencyName}已滿"
+			},
 			"itemConsumed": {
 				"eng": "Consumed ${itemName} x${amount}",
 				"trans": "消耗 ${itemName} x${amount}"

@@ -845,6 +845,12 @@
 				"trans": "デイリー無料バンドル"
 			}
 		},
+		"freeHideoutLocator": {
+			"name": {
+				"eng": "Free Hideout Locator",
+				"trans": "隠れ家ロケーション"
+			}
+		},
 		"itemUpgradeDeal": {
 			"name": {
 				"eng": "Item Upgrade Deal",
@@ -1586,6 +1592,16 @@
 			"name": {
 				"eng": "Netcoin",
 				"trans": "ネットコイン"
+			}
+		},
+		"hideoutLocator": {
+			"description": {
+				"eng": "A device that can be used to locate hidden hideouts.",
+				"trans": "隠れ家を発見するために使用できるデバイス"
+			},
+			"name": {
+				"eng": "Hideout Locator",
+				"trans": "隠れ家ロケーション"
 			}
 		},
 		"mercExpCurrency": {
@@ -2723,6 +2739,72 @@
 			}
 		}
 	},
+	"instantDungeon": {
+		"locationNotCleared": {
+			"eng": "To raid gang hideout at level ${playerLevel}, you must clear level ${levelNeeded} stronghold with ${difficulty} difficulty first",
+			"trans": "レベル${playerLevel}のギャングの隠れ家を襲撃するには、まず難易度${difficulty}のレベル${levelNeeded}の要塞をクリアする必要があります"
+		}
+	},
+	"instantDungeonDisplay": {
+		"fastDungeonButton": {
+			"description": {
+				"eng": "Quick and instant gang hideout raid with cost of ${item} or ${item2}",
+				"trans": "${item}または${item2}のコストで素早く即座にギャングの隠れ家を襲撃"
+			},
+			"title": {
+				"eng": "Raid Hideout",
+				"trans": "アジト襲撃"
+			}
+		},
+		"startRaid": {
+			"eng": "Start Raid",
+			"trans": "レイド開始"
+		}
+	},
+	"instantDungeonHandler": {
+		"selectAmountModal": {
+			"subtitle": {
+				"eng": "Cost Requirements",
+				"trans": "コスト要件"
+			},
+			"title": {
+				"eng": "How many repeats?",
+				"trans": "繰り返し回数"
+			}
+		}
+	},
+	"instantDungeonPage": {
+		"costs": {
+			"eng": "Costs",
+			"trans": "コスト"
+		},
+		"description": {
+			"eng": "Quick and instant gang hideout raid with cost of ${item} or ${currency}",
+			"trans": "${item}または${currency}のコストで素早く即座にギャングの隠れ家を襲撃"
+		},
+		"levelDisplay": {
+			"title": {
+				"eng": "level ${level}",
+				"trans": "レベル${level}"
+			}
+		},
+		"rewards": {
+			"eng": "Rewards",
+			"trans": "報酬"
+		},
+		"startRaid": {
+			"eng": "Start Raid",
+			"trans": "レイド開始"
+		},
+		"title": {
+			"eng": "Raid Hideout",
+			"trans": "アジト襲撃"
+		},
+		"type": {
+			"eng": "Type",
+			"trans": "タイプ"
+		}
+	},
 	"insufficientItemModal": {
 		"insufficientCurrency": {
 			"eng": "Insufficient ${name}",
@@ -3692,6 +3774,26 @@
 			"name": {
 				"eng": "Helmet",
 				"trans": "ヘルメット"
+			}
+		},
+		"hideoutLocator": {
+			"description": {
+				"eng": "A device to locate gang hideouts in the city, you can use this item to perform a quick hideout raid.",
+				"trans": "街のギャングの隠れ家を特定するデバイス。このアイテムを使用すると、隠れ家を素早く襲撃することができます。"
+			},
+			"name": {
+				"eng": "Hideout Locator",
+				"trans": "隠れ家ロケーション"
+			}
+		},
+		"hideoutLocator2": {
+			"description": {
+				"eng": "A device to locate major gang hideouts in the city, you can use this item to perform a quick hideout raid with higher rewards.",
+				"trans": "街の主要なギャングの隠れ家を特定するためのデバイス。このアイテムを使用すると、より高い報酬を得て隠れ家を素早く襲撃することができます。"
+			},
+			"name": {
+				"eng": "Advance Hideout Locator",
+				"trans": "隠れ家ロケーション"
 			}
 		},
 		"identificationShard": {
@@ -4735,6 +4837,10 @@
 		"gangUpkeep": {
 			"eng": "Gang Upkeep",
 			"trans": "ギャングの維持費"
+		},
+		"hideoutRaid": {
+			"eng": "Hideout Raid",
+			"trans": "アジト襲撃"
 		},
 		"hitBounty": {
 			"eng": "Hit Bounty",
@@ -7333,6 +7439,14 @@
 			}
 		},
 		"player": {
+			"currencyFull": {
+				"eng": "${currencyName} is full",
+				"trans": "${currencyName}は満タンです"
+			},
+			"currencyFullItem": {
+				"eng": "${currencyName} is full",
+				"trans": "${currencyName}は満タンです"
+			},
 			"itemConsumed": {
 				"eng": "Consumed ${itemName} x${amount}",
 				"trans": "${itemName}を${amount}個消費しました"

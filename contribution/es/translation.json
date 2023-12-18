@@ -845,6 +845,12 @@
 				"trans": "Paquete Diario Gratuito"
 			}
 		},
+		"freeHideoutLocator": {
+			"name": {
+				"eng": "Free Hideout Locator",
+				"trans": "Localizador de Escondites Gratis"
+			}
+		},
 		"itemUpgradeDeal": {
 			"name": {
 				"eng": "Item Upgrade Deal",
@@ -1586,6 +1592,16 @@
 			"name": {
 				"eng": "Netcoin",
 				"trans": "NetCoin"
+			}
+		},
+		"hideoutLocator": {
+			"description": {
+				"eng": "A device that can be used to locate hidden hideouts.",
+				"trans": "Un dispositivo que se puede utilizar para localizar escondites ocultos."
+			},
+			"name": {
+				"eng": "Hideout Locator",
+				"trans": "Localizador de Escondites"
 			}
 		},
 		"mercExpCurrency": {
@@ -2723,6 +2739,72 @@
 			}
 		}
 	},
+	"instantDungeon": {
+		"locationNotCleared": {
+			"eng": "To raid gang hideout at level ${playerLevel}, you must clear level ${levelNeeded} stronghold with ${difficulty} difficulty first",
+			"trans": "Para asaltar el escondite de la banda en el nivel ${playerLevel}, primero debes superar la fortaleza del nivel ${levelNeeded} con una dificultad de ${difficulty}"
+		}
+	},
+	"instantDungeonDisplay": {
+		"fastDungeonButton": {
+			"description": {
+				"eng": "Quick and instant gang hideout raid with cost of ${item} or ${item2}",
+				"trans": "Rápido y instantáneo asalto al escondite de la banda con un costo de ${item} o ${item2}"
+			},
+			"title": {
+				"eng": "Raid Hideout",
+				"trans": "Asalto al escondite"
+			}
+		},
+		"startRaid": {
+			"eng": "Start Raid",
+			"trans": "Iniciar incursión"
+		}
+	},
+	"instantDungeonHandler": {
+		"selectAmountModal": {
+			"subtitle": {
+				"eng": "Cost Requirements",
+				"trans": "Requisitos de costo"
+			},
+			"title": {
+				"eng": "How many repeats?",
+				"trans": "¿Cuántas repeticiones?"
+			}
+		}
+	},
+	"instantDungeonPage": {
+		"costs": {
+			"eng": "Costs",
+			"trans": "Costos"
+		},
+		"description": {
+			"eng": "Quick and instant gang hideout raid with cost of ${item} or ${currency}",
+			"trans": "Rápido y instantáneo asalto al escondite de la banda por ${item} o ${currency}"
+		},
+		"levelDisplay": {
+			"title": {
+				"eng": "level ${level}",
+				"trans": "nivel ${level}"
+			}
+		},
+		"rewards": {
+			"eng": "Rewards",
+			"trans": "recompensas"
+		},
+		"startRaid": {
+			"eng": "Start Raid",
+			"trans": "Iniciar incursión"
+		},
+		"title": {
+			"eng": "Raid Hideout",
+			"trans": "Asalto al escondite"
+		},
+		"type": {
+			"eng": "Type",
+			"trans": "Tipo"
+		}
+	},
 	"insufficientItemModal": {
 		"insufficientCurrency": {
 			"eng": "Insufficient ${name}",
@@ -3692,6 +3774,26 @@
 			"name": {
 				"eng": "Helmet",
 				"trans": "Casco"
+			}
+		},
+		"hideoutLocator": {
+			"description": {
+				"eng": "A device to locate gang hideouts in the city, you can use this item to perform a quick hideout raid.",
+				"trans": "Un dispositivo para localizar guaridas de bandas en la ciudad, puedes utilizar este objeto para llevar a cabo rápidas incursiones en las guaridas."
+			},
+			"name": {
+				"eng": "Hideout Locator",
+				"trans": "Localizador de Escondites"
+			}
+		},
+		"hideoutLocator2": {
+			"description": {
+				"eng": "A device to locate major gang hideouts in the city, you can use this item to perform a quick hideout raid with higher rewards.",
+				"trans": "Un dispositivo para localizar los escondites principales de las bandas en la ciudad, puedes utilizar este objeto para realizar rápidas incursiones a los escondites con mayores recompensas."
+			},
+			"name": {
+				"eng": "Advance Hideout Locator",
+				"trans": "Localizador de Escondite Avanzado"
 			}
 		},
 		"identificationShard": {
@@ -4735,6 +4837,10 @@
 		"gangUpkeep": {
 			"eng": "Gang Upkeep",
 			"trans": "Mantenimiento de Banda"
+		},
+		"hideoutRaid": {
+			"eng": "Hideout Raid",
+			"trans": "Incursión al escondite"
 		},
 		"hitBounty": {
 			"eng": "Hit Bounty",
@@ -7333,6 +7439,14 @@
 			}
 		},
 		"player": {
+			"currencyFull": {
+				"eng": "${currencyName} is full",
+				"trans": "${currencyName} está lleno"
+			},
+			"currencyFullItem": {
+				"eng": "${currencyName} is full",
+				"trans": "${currencyName} está lleno"
+			},
 			"itemConsumed": {
 				"eng": "Consumed ${itemName} x${amount}",
 				"trans": "Consumido ${itemName} x${amount}"

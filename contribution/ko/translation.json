@@ -845,6 +845,12 @@
 				"trans": "일일 무료 번들"
 			}
 		},
+		"freeHideoutLocator": {
+			"name": {
+				"eng": "Free Hideout Locator",
+				"trans": "은신처 위치 추적기 무료"
+			}
+		},
 		"itemUpgradeDeal": {
 			"name": {
 				"eng": "Item Upgrade Deal",
@@ -1586,6 +1592,16 @@
 			"name": {
 				"eng": "Netcoin",
 				"trans": "넷코인"
+			}
+		},
+		"hideoutLocator": {
+			"description": {
+				"eng": "A device that can be used to locate hidden hideouts.",
+				"trans": "은신처를 찾는 데 사용할 수 있는 장치."
+			},
+			"name": {
+				"eng": "Hideout Locator",
+				"trans": "은신처 위치 추적기"
 			}
 		},
 		"mercExpCurrency": {
@@ -2723,6 +2739,72 @@
 			}
 		}
 	},
+	"instantDungeon": {
+		"locationNotCleared": {
+			"eng": "To raid gang hideout at level ${playerLevel}, you must clear level ${levelNeeded} stronghold with ${difficulty} difficulty first",
+			"trans": "레벨 ${playerLevel}의 갱단 은신처를 습격하려면 먼저 난이도 ${difficulty}로 레벨 ${levelNeeded} 아지트를 클리어해야 합니다"
+		}
+	},
+	"instantDungeonDisplay": {
+		"fastDungeonButton": {
+			"description": {
+				"eng": "Quick and instant gang hideout raid with cost of ${item} or ${item2}",
+				"trans": "${item} 또는 ${item2}의 비용으로 빠르고 즉각적인 갱단 은신처 습격"
+			},
+			"title": {
+				"eng": "Raid Hideout",
+				"trans": "레이드 은신처"
+			}
+		},
+		"startRaid": {
+			"eng": "Start Raid",
+			"trans": "레이드 시작"
+		}
+	},
+	"instantDungeonHandler": {
+		"selectAmountModal": {
+			"subtitle": {
+				"eng": "Cost Requirements",
+				"trans": "비용 요구 사항"
+			},
+			"title": {
+				"eng": "How many repeats?",
+				"trans": "반복 횟수"
+			}
+		}
+	},
+	"instantDungeonPage": {
+		"costs": {
+			"eng": "Costs",
+			"trans": "비용"
+		},
+		"description": {
+			"eng": "Quick and instant gang hideout raid with cost of ${item} or ${currency}",
+			"trans": "${item} 또는 ${currency}를 소모하여 갱의 은신처를 빠르고 즉각적으로 습격"
+		},
+		"levelDisplay": {
+			"title": {
+				"eng": "level ${level}",
+				"trans": "레벨 ${level}"
+			}
+		},
+		"rewards": {
+			"eng": "Rewards",
+			"trans": "보상"
+		},
+		"startRaid": {
+			"eng": "Start Raid",
+			"trans": "레이드 시작"
+		},
+		"title": {
+			"eng": "Raid Hideout",
+			"trans": "레이드 은신처"
+		},
+		"type": {
+			"eng": "Type",
+			"trans": "타입"
+		}
+	},
 	"insufficientItemModal": {
 		"insufficientCurrency": {
 			"eng": "Insufficient ${name}",
@@ -3692,6 +3774,26 @@
 			"name": {
 				"eng": "Helmet",
 				"trans": "헬멧"
+			}
+		},
+		"hideoutLocator": {
+			"description": {
+				"eng": "A device to locate gang hideouts in the city, you can use this item to perform a quick hideout raid.",
+				"trans": "도시의 갱단 은신처를 찾는 장치로, 이 아이템을 사용하면 은신처를 빠르게 습격할 수 있습니다."
+			},
+			"name": {
+				"eng": "Hideout Locator",
+				"trans": "은신처 위치 추적기"
+			}
+		},
+		"hideoutLocator2": {
+			"description": {
+				"eng": "A device to locate major gang hideouts in the city, you can use this item to perform a quick hideout raid with higher rewards.",
+				"trans": "도시의 주요 갱단의 은신처를 찾아내는 장치로, 이 아이템을 사용하면 보상이 더 높은 은신처 급습을 빠르게 수행할 수 있습니다."
+			},
+			"name": {
+				"eng": "Advance Hideout Locator",
+				"trans": "진보적 은신처 위치 추적기"
 			}
 		},
 		"identificationShard": {
@@ -4735,6 +4837,10 @@
 		"gangUpkeep": {
 			"eng": "Gang Upkeep",
 			"trans": "갱 유지보수"
+		},
+		"hideoutRaid": {
+			"eng": "Hideout Raid",
+			"trans": "하이드아웃 레이드"
 		},
 		"hitBounty": {
 			"eng": "Hit Bounty",
@@ -7333,6 +7439,14 @@
 			}
 		},
 		"player": {
+			"currencyFull": {
+				"eng": "${currencyName} is full",
+				"trans": "${currencyName}이 가득 찼습니다"
+			},
+			"currencyFullItem": {
+				"eng": "${currencyName} is full",
+				"trans": "${currencyName}이 가득 찼습니다"
+			},
 			"itemConsumed": {
 				"eng": "Consumed ${itemName} x${amount}",
 				"trans": "${itemName}을(를) ${amount}개 소비했습니다"

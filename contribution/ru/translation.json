@@ -845,6 +845,12 @@
 				"trans": "Ежедневный бесплатный пакет"
 			}
 		},
+		"freeHideoutLocator": {
+			"name": {
+				"eng": "Free Hideout Locator",
+				"trans": "Бесплатный Локатор Укрытий"
+			}
+		},
 		"itemUpgradeDeal": {
 			"name": {
 				"eng": "Item Upgrade Deal",
@@ -1586,6 +1592,16 @@
 			"name": {
 				"eng": "Netcoin",
 				"trans": "НетКоин"
+			}
+		},
+		"hideoutLocator": {
+			"description": {
+				"eng": "A device that can be used to locate hidden hideouts.",
+				"trans": "Устройство, которое можно использовать для обнаружения скрытых убежищ."
+			},
+			"name": {
+				"eng": "Hideout Locator",
+				"trans": "Локатор укрытий"
 			}
 		},
 		"mercExpCurrency": {
@@ -2723,6 +2739,72 @@
 			}
 		}
 	},
+	"instantDungeon": {
+		"locationNotCleared": {
+			"eng": "To raid gang hideout at level ${playerLevel}, you must clear level ${levelNeeded} stronghold with ${difficulty} difficulty first",
+			"trans": "Чтобы напасть на убежище банды на уровне ${playerLevel}, сначала нужно очистить крепость уровня ${levelNeeded} с уровнем сложности ${difficulty}"
+		}
+	},
+	"instantDungeonDisplay": {
+		"fastDungeonButton": {
+			"description": {
+				"eng": "Quick and instant gang hideout raid with cost of ${item} or ${item2}",
+				"trans": "Быстрое и мгновенное нападение на укрытие банды за ${item} или ${item2}"
+			},
+			"title": {
+				"eng": "Raid Hideout",
+				"trans": "Рейд на укрытие"
+			}
+		},
+		"startRaid": {
+			"eng": "Start Raid",
+			"trans": "Начать рейд"
+		}
+	},
+	"instantDungeonHandler": {
+		"selectAmountModal": {
+			"subtitle": {
+				"eng": "Cost Requirements",
+				"trans": "Требования к стоимости"
+			},
+			"title": {
+				"eng": "How many repeats?",
+				"trans": "Сколько повторений?"
+			}
+		}
+	},
+	"instantDungeonPage": {
+		"costs": {
+			"eng": "Costs",
+			"trans": "Стоимость"
+		},
+		"description": {
+			"eng": "Quick and instant gang hideout raid with cost of ${item} or ${currency}",
+			"trans": "Быстрое и мгновенное нападение на укрытие банды за ${item} или ${currency}"
+		},
+		"levelDisplay": {
+			"title": {
+				"eng": "level ${level}",
+				"trans": "уровень ${level}"
+			}
+		},
+		"rewards": {
+			"eng": "Rewards",
+			"trans": "награды"
+		},
+		"startRaid": {
+			"eng": "Start Raid",
+			"trans": "Начать рейд"
+		},
+		"title": {
+			"eng": "Raid Hideout",
+			"trans": "Рейд на укрытие"
+		},
+		"type": {
+			"eng": "Type",
+			"trans": "Тип"
+		}
+	},
 	"insufficientItemModal": {
 		"insufficientCurrency": {
 			"eng": "Insufficient ${name}",
@@ -3692,6 +3774,26 @@
 			"name": {
 				"eng": "Helmet",
 				"trans": "Шлем"
+			}
+		},
+		"hideoutLocator": {
+			"description": {
+				"eng": "A device to locate gang hideouts in the city, you can use this item to perform a quick hideout raid.",
+				"trans": "Устройство для обнаружения убежищ банд в городе, с помощью этого предмета вы можете быстро совершить рейд на убежище."
+			},
+			"name": {
+				"eng": "Hideout Locator",
+				"trans": "Локатор укрытий"
+			}
+		},
+		"hideoutLocator2": {
+			"description": {
+				"eng": "A device to locate major gang hideouts in the city, you can use this item to perform a quick hideout raid with higher rewards.",
+				"trans": "Устройство для обнаружения основных убежищ банд в городе, вы можете использовать этот предмет для быстрого рейда по убежищу с более высокими наградами."
+			},
+			"name": {
+				"eng": "Advance Hideout Locator",
+				"trans": "Продвинутый локатор укрытий"
 			}
 		},
 		"identificationShard": {
@@ -4735,6 +4837,10 @@
 		"gangUpkeep": {
 			"eng": "Gang Upkeep",
 			"trans": "Обслуживание банды"
+		},
+		"hideoutRaid": {
+			"eng": "Hideout Raid",
+			"trans": "Рейд на укрытие"
 		},
 		"hitBounty": {
 			"eng": "Hit Bounty",
@@ -7333,6 +7439,14 @@
 			}
 		},
 		"player": {
+			"currencyFull": {
+				"eng": "${currencyName} is full",
+				"trans": "${currencyName} заполнен"
+			},
+			"currencyFullItem": {
+				"eng": "${currencyName} is full",
+				"trans": "${currencyName} заполнен"
+			},
 			"itemConsumed": {
 				"eng": "Consumed ${itemName} x${amount}",
 				"trans": "Использовано ${itemName} x${amount}"

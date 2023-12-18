@@ -845,6 +845,12 @@
 				"trans": "Paket Gratis Harian"
 			}
 		},
+		"freeHideoutLocator": {
+			"name": {
+				"eng": "Free Hideout Locator",
+				"trans": "Pencari Tempat Persembunyian Gratis"
+			}
+		},
 		"itemUpgradeDeal": {
 			"name": {
 				"eng": "Item Upgrade Deal",
@@ -1586,6 +1592,16 @@
 			"name": {
 				"eng": "Netcoin",
 				"trans": "Koin Jaringan"
+			}
+		},
+		"hideoutLocator": {
+			"description": {
+				"eng": "A device that can be used to locate hidden hideouts.",
+				"trans": "Sebuah perangkat yang dapat digunakan untuk menemukan tempat persembunyian yang tersembunyi."
+			},
+			"name": {
+				"eng": "Hideout Locator",
+				"trans": "Pencari Tempat Persembunyian"
 			}
 		},
 		"mercExpCurrency": {
@@ -2723,6 +2739,72 @@
 			}
 		}
 	},
+	"instantDungeon": {
+		"locationNotCleared": {
+			"eng": "To raid gang hideout at level ${playerLevel}, you must clear level ${levelNeeded} stronghold with ${difficulty} difficulty first",
+			"trans": "Untuk merampok markas geng pada level ${playerLevel}, kamu harus mengalahkan benteng level ${levelNeeded} dengan tingkat kesulitan ${difficulty} terlebih dahulu"
+		}
+	},
+	"instantDungeonDisplay": {
+		"fastDungeonButton": {
+			"description": {
+				"eng": "Quick and instant gang hideout raid with cost of ${item} or ${item2}",
+				"trans": "Serangan markas geng yang cepat dan instan dengan biaya ${item} atau ${item2}"
+			},
+			"title": {
+				"eng": "Raid Hideout",
+				"trans": "Serang Markas Tersembunyi"
+			}
+		},
+		"startRaid": {
+			"eng": "Start Raid",
+			"trans": "Mulai Raid"
+		}
+	},
+	"instantDungeonHandler": {
+		"selectAmountModal": {
+			"subtitle": {
+				"eng": "Cost Requirements",
+				"trans": "Persyaratan Biaya"
+			},
+			"title": {
+				"eng": "How many repeats?",
+				"trans": "Berapa kali pengulangan?"
+			}
+		}
+	},
+	"instantDungeonPage": {
+		"costs": {
+			"eng": "Costs",
+			"trans": "Biaya"
+		},
+		"description": {
+			"eng": "Quick and instant gang hideout raid with cost of ${item} or ${currency}",
+			"trans": "Serangan kilat dan instan ke markas geng dengan biaya ${item} atau ${currency}"
+		},
+		"levelDisplay": {
+			"title": {
+				"eng": "level ${level}",
+				"trans": "level ${level}"
+			}
+		},
+		"rewards": {
+			"eng": "Rewards",
+			"trans": "Hadiah"
+		},
+		"startRaid": {
+			"eng": "Start Raid",
+			"trans": "Mulai Raid"
+		},
+		"title": {
+			"eng": "Raid Hideout",
+			"trans": "Serang Markas Tersembunyi"
+		},
+		"type": {
+			"eng": "Type",
+			"trans": "Jenis"
+		}
+	},
 	"insufficientItemModal": {
 		"insufficientCurrency": {
 			"eng": "Insufficient ${name}",
@@ -3692,6 +3774,26 @@
 			"name": {
 				"eng": "Helmet",
 				"trans": "Helm"
+			}
+		},
+		"hideoutLocator": {
+			"description": {
+				"eng": "A device to locate gang hideouts in the city, you can use this item to perform a quick hideout raid.",
+				"trans": "Sebuah perangkat untuk menemukan markas geng di kota, kamu bisa menggunakan item ini untuk melakukan serangan mendadak ke markas mereka."
+			},
+			"name": {
+				"eng": "Hideout Locator",
+				"trans": "Pencari Tempat Persembunyian"
+			}
+		},
+		"hideoutLocator2": {
+			"description": {
+				"eng": "A device to locate major gang hideouts in the city, you can use this item to perform a quick hideout raid with higher rewards.",
+				"trans": "Sebuah perangkat untuk menemukan tempat persembunyian geng besar di kota, kamu bisa menggunakan item ini untuk melakukan serangan cepat ke tempat persembunyian dengan hadiah yang lebih tinggi."
+			},
+			"name": {
+				"eng": "Advance Hideout Locator",
+				"trans": "Pencari Lokasi Markas Lanjutan"
 			}
 		},
 		"identificationShard": {
@@ -4735,6 +4837,10 @@
 		"gangUpkeep": {
 			"eng": "Gang Upkeep",
 			"trans": "Pemeliharaan Geng"
+		},
+		"hideoutRaid": {
+			"eng": "Hideout Raid",
+			"trans": "Serbuan ke Tempat Persembunyian"
 		},
 		"hitBounty": {
 			"eng": "Hit Bounty",
@@ -7333,6 +7439,14 @@
 			}
 		},
 		"player": {
+			"currencyFull": {
+				"eng": "${currencyName} is full",
+				"trans": "${currencyName} penuh"
+			},
+			"currencyFullItem": {
+				"eng": "${currencyName} is full",
+				"trans": "${currencyName} penuh"
+			},
 			"itemConsumed": {
 				"eng": "Consumed ${itemName} x${amount}",
 				"trans": "Terpakai ${itemName} x${amount}"
