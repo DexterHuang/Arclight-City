@@ -8,6 +8,18 @@
 
 **If you find a exploit please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
+### 0.0.31
+
+-   Improved item source modal's bundle display UI, now shows more info on the bundle such as the name, price and cycle period.
+-   Added Hideout Raid feature, allowing you to quickly perform small instant raid to gang hideout with cost of `Hideout Locator` or `Advance Hideout Locator`, with the later having higher reward. the drop for the two different hideout raid are different, exp and eurodollars scales proportionally with stronghold. Additionally you need to clear your character's level +5 Hard Difficulty Stronghold to be able to perform hideout raid, this is to prevent being able to level up solely by hideout raiding.
+-   Added `Hideout Locator`, this item currently can only be obtained freely via daily bundle from `Lilth's Store`, with max stack of 5, meaning if you have five of this item, you will not be able to claim the bundle until you use one of them. this item also does not take up any inventory slot. 
+-   Added `Advance Hideout Locator`, this item currently can only be purchased from `Lilth's Store`, unlike the normal one this does not have stack limit and does take up storage slot.
+
+**Please note, Hideout Raid is new and still in beta test stage, things may be changed or rebalanced base on situation, so please use up the `Advance Hideout Locator` immediately if you decide to purchase to avoid issues**
+-   Several miscellaneous bug fixes and improvements
+-   Improved item source hint, now you can purchase item directly from the popup if its available instead of redirecting to the NPC to find it manually
+-   Switching to use the latest AI model for translation and Chirp post generation. this should improve the quality of translation and Chirp post in natural language.
+
 ### 0.0.30
 
 -  Fixed issue with daily reward
