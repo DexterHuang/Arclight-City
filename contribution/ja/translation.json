@@ -2217,6 +2217,28 @@
 			}
 		}
 	},
+	"enemyEvent": {
+		"description": {
+			"eng": "This event triggers rarely when you are exploring and fighting enemies",
+			"trans": "このイベントは、探索や敵との戦闘中にまれに発生します"
+		},
+		"startMinigame": {
+			"eng": "Unlock",
+			"trans": "アンロック"
+		},
+		"title": {
+			"eng": "Encounter Event",
+			"trans": "エンカウンターイベント"
+		},
+		"unlockDescription": {
+			"eng": "Receive reward by solving the minigame",
+			"trans": "ミニゲームをクリアして報酬を獲得"
+		},
+		"unlockTitle": {
+			"eng": "unlock",
+			"trans": "アンロック"
+		}
+	},
 	"enemyTabContent": {
 		"addEnemy": {
 			"eng": "Add Enemies",
@@ -5586,8 +5608,8 @@
 	},
 	"moderation": {
 		"error": {
-			"eng": "Your motto contains inappropriate words",
-			"trans": "あなたのモットーには不適切な言葉が含まれています"
+			"eng": "The motto contains reserved words",
+			"trans": "モットーには予約語が含まれています"
 		},
 		"serviceDown": {
 			"eng": "Motto editing is temporally disabled due to external service downtime, please try again later",

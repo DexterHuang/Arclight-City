@@ -2217,6 +2217,28 @@
 			}
 		}
 	},
+	"enemyEvent": {
+		"description": {
+			"eng": "This event triggers rarely when you are exploring and fighting enemies",
+			"trans": "此事件在您探索和戰鬥敵人時很少觸發"
+		},
+		"startMinigame": {
+			"eng": "Unlock",
+			"trans": "解鎖"
+		},
+		"title": {
+			"eng": "Encounter Event",
+			"trans": "遭遇事件"
+		},
+		"unlockDescription": {
+			"eng": "Receive reward by solving the minigame",
+			"trans": "解謎小遊戲獲得獎勵"
+		},
+		"unlockTitle": {
+			"eng": "unlock",
+			"trans": "解鎖"
+		}
+	},
 	"enemyTabContent": {
 		"addEnemy": {
 			"eng": "Add Enemies",
@@ -2637,7 +2659,7 @@
 			},
 			"title": {
 				"eng": "Activate",
-				"trans": "長按以啟動"
+				"trans": "啟動"
 			}
 		}
 	},
@@ -5586,8 +5608,8 @@
 	},
 	"moderation": {
 		"error": {
-			"eng": "Your motto contains inappropriate words",
-			"trans": "你的座右銘含有不適當的字詞"
+			"eng": "The motto contains reserved words",
+			"trans": "標語包含保留字"
 		},
 		"serviceDown": {
 			"eng": "Motto editing is temporally disabled due to external service downtime, please try again later",

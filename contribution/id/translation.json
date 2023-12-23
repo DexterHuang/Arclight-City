@@ -2217,6 +2217,28 @@
 			}
 		}
 	},
+	"enemyEvent": {
+		"description": {
+			"eng": "This event triggers rarely when you are exploring and fighting enemies",
+			"trans": "Acara ini jarang terjadi saat kamu sedang menjelajah dan melawan musuh"
+		},
+		"startMinigame": {
+			"eng": "Unlock",
+			"trans": "Buka kunci"
+		},
+		"title": {
+			"eng": "Encounter Event",
+			"trans": "Acara Pertemuan"
+		},
+		"unlockDescription": {
+			"eng": "Receive reward by solving the minigame",
+			"trans": "Dapatkan hadiah dengan menyelesaikan minigame"
+		},
+		"unlockTitle": {
+			"eng": "unlock",
+			"trans": "membuka"
+		}
+	},
 	"enemyTabContent": {
 		"addEnemy": {
 			"eng": "Add Enemies",
@@ -5586,8 +5608,8 @@
 	},
 	"moderation": {
 		"error": {
-			"eng": "Your motto contains inappropriate words",
-			"trans": "Moto Anda mengandung kata-kata yang tidak pantas"
+			"eng": "The motto contains reserved words",
+			"trans": "Maaf, tetapi motto tersebut mengandung kata-kata yang tidak dapat diubah"
 		},
 		"serviceDown": {
 			"eng": "Motto editing is temporally disabled due to external service downtime, please try again later",

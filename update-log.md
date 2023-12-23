@@ -20,6 +20,10 @@
 -   Improved item source hint, now you can purchase item directly from the popup if its available instead of redirecting to the NPC to find it manually
 -   Switching to use the latest AI model for translation and Chirp post generation. this should improve the quality of translation and Chirp post in natural language.
 
+### 0.0.31
+
+-  Added encounter events for enemies outside dungeon, upon defeating an enemy, there will be a chance of triggering an encounter event, when that happens, you will be prompted a locked container which you need to unlock by completing a minigame. once you unlocked the container, you will receive random reward from it, the reward is usually better than usual enemy drops
+
 ### 0.0.30
 
 -  Fixed issue with daily reward

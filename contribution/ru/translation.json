@@ -2217,6 +2217,28 @@
 			}
 		}
 	},
+	"enemyEvent": {
+		"description": {
+			"eng": "This event triggers rarely when you are exploring and fighting enemies",
+			"trans": "Это событие редко срабатывает, когда вы исследуете и сражаетесь с врагами"
+		},
+		"startMinigame": {
+			"eng": "Unlock",
+			"trans": "Разблокировать"
+		},
+		"title": {
+			"eng": "Encounter Event",
+			"trans": "Событие встречи"
+		},
+		"unlockDescription": {
+			"eng": "Receive reward by solving the minigame",
+			"trans": "Получи награду, решив мини-игру"
+		},
+		"unlockTitle": {
+			"eng": "unlock",
+			"trans": "разблокировать"
+		}
+	},
 	"enemyTabContent": {
 		"addEnemy": {
 			"eng": "Add Enemies",
@@ -5586,8 +5608,8 @@
 	},
 	"moderation": {
 		"error": {
-			"eng": "Your motto contains inappropriate words",
-			"trans": "Ваш девиз содержит нецензурные слова"
+			"eng": "The motto contains reserved words",
+			"trans": "Девиз содержит зарезервированные слова"
 		},
 		"serviceDown": {
 			"eng": "Motto editing is temporally disabled due to external service downtime, please try again later",

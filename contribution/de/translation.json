@@ -2217,6 +2217,28 @@
 			}
 		}
 	},
+	"enemyEvent": {
+		"description": {
+			"eng": "This event triggers rarely when you are exploring and fighting enemies",
+			"trans": "Dieses Ereignis wird selten ausgelöst, wenn du die Gegend erkundest und gegen Feinde kämpfst"
+		},
+		"startMinigame": {
+			"eng": "Unlock",
+			"trans": "Freischalten"
+		},
+		"title": {
+			"eng": "Encounter Event",
+			"trans": "Begegnungsereignis"
+		},
+		"unlockDescription": {
+			"eng": "Receive reward by solving the minigame",
+			"trans": "Erhalte Belohnung durch Lösen des Minispiels"
+		},
+		"unlockTitle": {
+			"eng": "unlock",
+			"trans": "freischalten"
+		}
+	},
 	"enemyTabContent": {
 		"addEnemy": {
 			"eng": "Add Enemies",
@@ -5586,8 +5608,8 @@
 	},
 	"moderation": {
 		"error": {
-			"eng": "Your motto contains inappropriate words",
-			"trans": "Dein Motto enthält unangemessene Wörter"
+			"eng": "The motto contains reserved words",
+			"trans": "Das Motto enthält reservierte Wörter"
 		},
 		"serviceDown": {
 			"eng": "Motto editing is temporally disabled due to external service downtime, please try again later",

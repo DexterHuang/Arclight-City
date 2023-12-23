@@ -2217,6 +2217,28 @@
 			}
 		}
 	},
+	"enemyEvent": {
+		"description": {
+			"eng": "This event triggers rarely when you are exploring and fighting enemies",
+			"trans": "이 이벤트는 탐험하고 적과 싸울 때 드물게 발생합니다"
+		},
+		"startMinigame": {
+			"eng": "Unlock",
+			"trans": "잠금 해제하기"
+		},
+		"title": {
+			"eng": "Encounter Event",
+			"trans": "조우 이벤트"
+		},
+		"unlockDescription": {
+			"eng": "Receive reward by solving the minigame",
+			"trans": "미니게임을 해결하여 보상을 받으세요"
+		},
+		"unlockTitle": {
+			"eng": "unlock",
+			"trans": "잠금 해제"
+		}
+	},
 	"enemyTabContent": {
 		"addEnemy": {
 			"eng": "Add Enemies",
@@ -5586,8 +5608,8 @@
 	},
 	"moderation": {
 		"error": {
-			"eng": "Your motto contains inappropriate words",
-			"trans": "귀하의 모토에 부적절한 단어가 포함되어 있습니다"
+			"eng": "The motto contains reserved words",
+			"trans": "슬로건에 예약된 단어가 포함되어 있습니다"
 		},
 		"serviceDown": {
 			"eng": "Motto editing is temporally disabled due to external service downtime, please try again later",
