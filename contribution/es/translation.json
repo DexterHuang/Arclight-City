@@ -2779,8 +2779,8 @@
 			"trans": "Costos"
 		},
 		"description": {
-			"eng": "Quick and instant gang hideout raid with cost of ${item} or ${currency}",
-			"trans": "Rápido y instantáneo asalto al escondite de la banda por ${item} o ${currency}"
+			"eng": "Quick and instant gang hideout raid with cost of ${item} or ${item2}",
+			"trans": "Incursión rápida e instantánea a guarida de banda con costo de ${item} o ${item2}"
 		},
 		"levelDisplay": {
 			"title": {
@@ -3266,6 +3266,10 @@
 			"eng": "Defeating ${dungeonType} strongholds in various locations",
 			"trans": "Derrotar las fortalezas ${dungeonType} en diferentes ubicaciones"
 		},
+		"npcShop": {
+			"eng": "Purchase from ${npc}",
+			"trans": "Comprar a ${npc}"
+		},
 		"obtainedFrom": {
 			"eng": "Obtained from",
 			"trans": "Obtenido de"
@@ -3281,6 +3285,12 @@
 		"title": {
 			"eng": "Insufficient ${itemName}",
 			"trans": "${itemName} insuficiente"
+		},
+		"topUp": {
+			"discountAvailable": {
+				"eng": "Discount Available!",
+				"trans": "¡Descuento disponible!"
+			}
 		}
 	},
 	"itemSubType": {
@@ -4858,6 +4868,10 @@
 			"eng": "Mercenary",
 			"trans": "Mercenario"
 		},
+		"psychosis": {
+			"eng": "Psychosis",
+			"trans": "Psicosis"
+		},
 		"territory": {
 			"eng": "Territory",
 			"trans": "Territorio"
@@ -6378,8 +6392,8 @@
 				"trans": "Equipo"
 			},
 			"equipment": {
-				"eng": "items",
-				"trans": "objetos"
+				"eng": "Equipment",
+				"trans": "Equipo"
 			},
 			"job": {
 				"eng": "Job",
@@ -6710,6 +6724,52 @@
 		"title": {
 			"eng": "Cyber psychosis",
 			"trans": "Psicosis cibernética"
+		}
+	},
+	"psychosisPopup": {
+		"clickToPurchase": {
+			"eng": "Click to purchase",
+			"trans": "Haz clic para comprar"
+		},
+		"confirmPurchase": {
+			"eng": "Click to Confirm",
+			"trans": "Clic para confirmar"
+		},
+		"confirmPurchaseBlocker": {
+			"eng": "Are you sure you want to purchase ${item} from ${npc}?",
+			"trans": "¿Estás seguro de que quieres comprar ${item} de ${npc}?"
+		},
+		"hasBlocker": {
+			"eng": "Your cyberpsychosis is critically high, would you like to use an ${item} to reduce it?",
+			"trans": "Tu ciberpsicosis está críticamente alta, ¿quieres utilizar un ${item} para reducirla?"
+		},
+		"noBlocker": {
+			"eng": "You are out of ${item}, you can purchase from ${npc}, would you like to proceed?",
+			"trans": "Te has quedado sin ${item}, puedes comprarlo a ${npc}, ¿quieres continuar?"
+		},
+		"noBlockerNoMoney": {
+			"eng": "You are out of ${item} and you do not have enough ${currency} to purchase from ${npc}.\\nWould you like to top up?",
+			"trans": "Te has quedado sin ${item} y no tienes suficiente ${currency} para comprar a ${npc}.\\n¿Quieres recargar?"
+		},
+		"subtitle": {
+			"eng": "Your cyber-psychosis level is critically high. you can use ${item} to reduce your cyber-psychosis symptom.",
+			"trans": "Tu nivel de ciberpsicosis es críticamente alto. Puedes utilizar ${item} para reducir tu síntoma de ciberpsicosis."
+		},
+		"tip": {
+			"eng": "Learn more about cyberpsychosis here",
+			"trans": "Más información sobre la psicosis cibernética aquí"
+		},
+		"title": {
+			"eng": "High Cyber-Psychosis",
+			"trans": "Alta ciberpsicosis"
+		},
+		"topUp": {
+			"eng": "Click to top up",
+			"trans": "Toca para recargar"
+		},
+		"useBlocker": {
+			"eng": "Click to use",
+			"trans": "Hacer clic para usar"
 		}
 	},
 	"purchaseCycle": {
@@ -7078,18 +7138,15 @@
 	"rewardConfigDisplay": {
 		"clanControl": {
 			"eng": "+ ${clanControl} clan control",
-			"trans": "+ Control de clan ${clanControl}",
-			"vars": []
+			"trans": "+ Control de clan ${clanControl}"
 		},
 		"clanExp": {
 			"eng": "+ ${clanExp} gang exp",
-			"trans": "+ ${clanExp} exp de banda",
-			"vars": []
+			"trans": "+ ${clanExp} exp de banda"
 		},
 		"clanResource": {
 			"eng": "+ ${clanResource} clan resource",
-			"trans": "+ ${clanResource} recurso del clan",
-			"vars": []
+			"trans": "+ ${clanResource} recurso del clan"
 		},
 		"healRatio": {
 			"eng": "Heal ${percent}% of your max health",
@@ -7587,6 +7644,12 @@
 				"eng": "How many would you like to purchase?",
 				"trans": "¿Cuántos te gustaría comprar?"
 			}
+		}
+	},
+	"shopItemDisplay": {
+		"discount": {
+			"eng": "Discount",
+			"trans": "Descuento"
 		}
 	},
 	"socialMedia": {

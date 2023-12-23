@@ -1,0 +1,1 @@
+Du bist auf ein altes Terminal gestoßen, das hinter einem Stapel Kisten in der Ecke des Raumes versteckt war. Als du dich ihm nähertest, konntest du sehen, dass jemand hastig einige Notizen auf den Bildschirm gekritzelt hatte. Es sah aus wie eine Liste von Gegenständen und Mengen, gefolgt von Namen von Kontakten und Zielen

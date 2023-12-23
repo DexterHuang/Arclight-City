@@ -2779,8 +2779,8 @@
 			"trans": "コスト"
 		},
 		"description": {
-			"eng": "Quick and instant gang hideout raid with cost of ${item} or ${currency}",
-			"trans": "${item}または${currency}のコストで素早く即座にギャングの隠れ家を襲撃"
+			"eng": "Quick and instant gang hideout raid with cost of ${item} or ${item2}",
+			"trans": "${item}または${item2}のコストで素早く即座にギャングの隠れ家を襲撃"
 		},
 		"levelDisplay": {
 			"title": {
@@ -3266,6 +3266,10 @@
 			"eng": "Defeating ${dungeonType} strongholds in various locations",
 			"trans": "様々な場所にある${dungeonType}の要塞を攻略する"
 		},
+		"npcShop": {
+			"eng": "Purchase from ${npc}",
+			"trans": "${npc}から購入"
+		},
 		"obtainedFrom": {
 			"eng": "Obtained from",
 			"trans": "取得元"
@@ -3281,6 +3285,12 @@
 		"title": {
 			"eng": "Insufficient ${itemName}",
 			"trans": "${itemName}が不足しています。"
+		},
+		"topUp": {
+			"discountAvailable": {
+				"eng": "Discount Available!",
+				"trans": "割引あり！"
+			}
 		}
 	},
 	"itemSubType": {
@@ -4858,6 +4868,10 @@
 			"eng": "Mercenary",
 			"trans": "傭兵"
 		},
+		"psychosis": {
+			"eng": "Psychosis",
+			"trans": "サイバーサイコシス"
+		},
 		"territory": {
 			"eng": "Territory",
 			"trans": "領地"
@@ -5573,7 +5587,7 @@
 	"moderation": {
 		"error": {
 			"eng": "Your motto contains inappropriate words",
-			"trans": "あなたのモットーには不適切な言葉が含まれています。"
+			"trans": "あなたのモットーには不適切な言葉が含まれています"
 		},
 		"serviceDown": {
 			"eng": "Motto editing is temporally disabled due to external service downtime, please try again later",
@@ -6378,8 +6392,8 @@
 				"trans": "クルー"
 			},
 			"equipment": {
-				"eng": "items",
-				"trans": "アイテム"
+				"eng": "Equipment",
+				"trans": "装備"
 			},
 			"job": {
 				"eng": "Job",
@@ -6710,6 +6724,52 @@
 		"title": {
 			"eng": "Cyber psychosis",
 			"trans": "サイバーサイコシス"
+		}
+	},
+	"psychosisPopup": {
+		"clickToPurchase": {
+			"eng": "Click to purchase",
+			"trans": "クリックして購入"
+		},
+		"confirmPurchase": {
+			"eng": "Click to Confirm",
+			"trans": "クリックして確認"
+		},
+		"confirmPurchaseBlocker": {
+			"eng": "Are you sure you want to purchase ${item} from ${npc}?",
+			"trans": "${npc}から${item}を購入しますか？"
+		},
+		"hasBlocker": {
+			"eng": "Your cyberpsychosis is critically high, would you like to use an ${item} to reduce it?",
+			"trans": "サイバーサイコシスのレベルが極めて高いです。${item}を使って下げますか？"
+		},
+		"noBlocker": {
+			"eng": "You are out of ${item}, you can purchase from ${npc}, would you like to proceed?",
+			"trans": "${item}が不足しています。${npc}から購入できますが、よろしいですか？"
+		},
+		"noBlockerNoMoney": {
+			"eng": "You are out of ${item} and you do not have enough ${currency} to purchase from ${npc}.\\nWould you like to top up?",
+			"trans": "${item}が不足しており、${npc}から購入するのに十分な${currency}がありません。\\nチャージしますか？"
+		},
+		"subtitle": {
+			"eng": "Your cyber-psychosis level is critically high. you can use ${item} to reduce your cyber-psychosis symptom.",
+			"trans": "サイバーサイコシスのレベルが非常に高いです。${item}を使用してサイバーサイコシスの症状を軽減できます。"
+		},
+		"tip": {
+			"eng": "Learn more about cyberpsychosis here",
+			"trans": "サイバーサイコシスについてはこちらで詳しく"
+		},
+		"title": {
+			"eng": "High Cyber-Psychosis",
+			"trans": "ハイパーサイコシス"
+		},
+		"topUp": {
+			"eng": "Click to top up",
+			"trans": "タップしてチャージ"
+		},
+		"useBlocker": {
+			"eng": "Click to use",
+			"trans": "クリックして使用する"
 		}
 	},
 	"purchaseCycle": {
@@ -7078,18 +7138,15 @@
 	"rewardConfigDisplay": {
 		"clanControl": {
 			"eng": "+ ${clanControl} clan control",
-			"trans": "+ ${clanControl}クランコントロール",
-			"vars": []
+			"trans": "+ ${clanControl}クランコントロール"
 		},
 		"clanExp": {
 			"eng": "+ ${clanExp} gang exp",
-			"trans": "+ ${clanExp} ギャング経験値",
-			"vars": []
+			"trans": "+ ${clanExp} ギャング経験値"
 		},
 		"clanResource": {
 			"eng": "+ ${clanResource} clan resource",
-			"trans": "+ ${clanResource} クランのリソース",
-			"vars": []
+			"trans": "+ ${clanResource} クランのリソース"
 		},
 		"healRatio": {
 			"eng": "Heal ${percent}% of your max health",
@@ -7587,6 +7644,12 @@
 				"eng": "How many would you like to purchase?",
 				"trans": "何個購入しますか？"
 			}
+		}
+	},
+	"shopItemDisplay": {
+		"discount": {
+			"eng": "Discount",
+			"trans": "割引"
 		}
 	},
 	"socialMedia": {
