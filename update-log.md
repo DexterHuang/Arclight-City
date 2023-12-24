@@ -8,7 +8,11 @@
 
 **If you find a exploit please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
-### 0.0.31
+### 0.0.33
+
+-  Referral reward has been adjusted to include `Rare Upgrade Shard` and `Rare Level Shard` and excluded Universal Dollars, as there were several players trying to systematically abuse/exploit of the referral system using alts and or bots. this change is to prevent such abuse from happening again.
+
+### 0.0.32
 
 -   Improved item source modal's bundle display UI, now shows more info on the bundle such as the name, price and cycle period.
 -   Added Hideout Raid feature, allowing you to quickly perform small instant raid to gang hideout with cost of `Hideout Locator` or `Advance Hideout Locator`, with the later having higher reward. the drop for the two different hideout raid are different, exp and eurodollars scales proportionally with stronghold. Additionally you need to clear your character's level +5 Hard Difficulty Stronghold to be able to perform hideout raid, this is to prevent being able to level up solely by hideout raiding.
@@ -19,10 +23,6 @@
 -   Several miscellaneous bug fixes and improvements
 -   Improved item source hint, now you can purchase item directly from the popup if its available instead of redirecting to the NPC to find it manually
 -   Switching to use the latest AI model for translation and Chirp post generation. this should improve the quality of translation and Chirp post in natural language.
-
-### 0.0.32
-
--  Referral reward has been adjusted to include `Rare Upgrade Shard` and `Rare Level Shard` and excluded Universal Dollars, as there were several players trying to systematically abuse/exploit of the referral system using alts and or bots. this change is to prevent such abuse from happening again.
 
 
 ### 0.0.31
