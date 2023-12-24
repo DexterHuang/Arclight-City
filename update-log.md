@@ -10,7 +10,7 @@
 
 ### 0.0.33
 
--  Referral reward has been adjusted to include `Rare Upgrade Shard` and `Rare Level Shard` and excluded Universal Dollars, as there were several players trying to systematically abuse/exploit of the referral system using alts and or bots. this change is to prevent such abuse from happening again.
+-  Referral reward has been adjusted to include `Rare Upgrade Shard` and `Rare Level Shard` and excluded Universal Dollars, as there were several person trying to systematically abuse/exploit of the referral system using alts and or bots. this change is to prevent such abuse from happening again.
 
 ### 0.0.32
 
