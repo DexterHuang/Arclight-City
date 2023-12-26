@@ -2217,6 +2217,28 @@
 			}
 		}
 	},
+	"enemyEvent": {
+		"description": {
+			"eng": "This event triggers rarely when you are exploring and fighting enemies",
+			"trans": "Это событие редко срабатывает, когда вы исследуете и сражаетесь с врагами"
+		},
+		"startMinigame": {
+			"eng": "Unlock",
+			"trans": "Разблокировать"
+		},
+		"title": {
+			"eng": "Encounter Event",
+			"trans": "Событие встречи"
+		},
+		"unlockDescription": {
+			"eng": "Receive reward by solving the minigame",
+			"trans": "Получи награду, решив мини-игру"
+		},
+		"unlockTitle": {
+			"eng": "unlock",
+			"trans": "разблокировать"
+		}
+	},
 	"enemyTabContent": {
 		"addEnemy": {
 			"eng": "Add Enemies",
@@ -2779,8 +2801,8 @@
 			"trans": "Стоимость"
 		},
 		"description": {
-			"eng": "Quick and instant gang hideout raid with cost of ${item} or ${currency}",
-			"trans": "Быстрое и мгновенное нападение на укрытие банды за ${item} или ${currency}"
+			"eng": "Quick and instant gang hideout raid with cost of ${item} or ${item2}",
+			"trans": "Быстрый и мгновенный рейд на бандитское убежище за ${item} или ${item2}"
 		},
 		"levelDisplay": {
 			"title": {
@@ -3266,6 +3288,10 @@
 			"eng": "Defeating ${dungeonType} strongholds in various locations",
 			"trans": "Победа над крепостями ${dungeonType} в различных местах"
 		},
+		"npcShop": {
+			"eng": "Purchase from ${npc}",
+			"trans": "Купить у ${npc}"
+		},
 		"obtainedFrom": {
 			"eng": "Obtained from",
 			"trans": "Получено из"
@@ -3281,6 +3307,12 @@
 		"title": {
 			"eng": "Insufficient ${itemName}",
 			"trans": "Недостаточно ${itemName}"
+		},
+		"topUp": {
+			"discountAvailable": {
+				"eng": "Discount Available!",
+				"trans": "Скидка!"
+			}
 		}
 	},
 	"itemSubType": {
@@ -4858,6 +4890,10 @@
 			"eng": "Mercenary",
 			"trans": "Наемник"
 		},
+		"psychosis": {
+			"eng": "Psychosis",
+			"trans": "Психоз"
+		},
 		"territory": {
 			"eng": "Territory",
 			"trans": "Территория"
@@ -5572,8 +5608,8 @@
 	},
 	"moderation": {
 		"error": {
-			"eng": "Your motto contains inappropriate words",
-			"trans": "Ваш девиз содержит неприемлемые слова"
+			"eng": "The motto contains reserved words",
+			"trans": "Девиз содержит зарезервированные слова"
 		},
 		"serviceDown": {
 			"eng": "Motto editing is temporally disabled due to external service downtime, please try again later",
@@ -6378,8 +6414,8 @@
 				"trans": "Команда"
 			},
 			"equipment": {
-				"eng": "items",
-				"trans": "предметы"
+				"eng": "Equipment",
+				"trans": "Оборудование"
 			},
 			"job": {
 				"eng": "Job",
@@ -6710,6 +6746,52 @@
 		"title": {
 			"eng": "Cyber psychosis",
 			"trans": "Киберпсихоз"
+		}
+	},
+	"psychosisPopup": {
+		"clickToPurchase": {
+			"eng": "Click to purchase",
+			"trans": "Нажмите, чтобы купить"
+		},
+		"confirmPurchase": {
+			"eng": "Click to Confirm",
+			"trans": "Нажмите, чтобы подтвердить"
+		},
+		"confirmPurchaseBlocker": {
+			"eng": "Are you sure you want to purchase ${item} from ${npc}?",
+			"trans": "Вы уверены, что хотите купить ${item} у ${npc}?"
+		},
+		"hasBlocker": {
+			"eng": "Your cyberpsychosis is critically high, would you like to use an ${item} to reduce it?",
+			"trans": "Ваш киберпсихоз критически высок, хотите использовать ${item}, чтобы снизить его?"
+		},
+		"noBlocker": {
+			"eng": "You are out of ${item}, you can purchase from ${npc}, would you like to proceed?",
+			"trans": "У вас закончился ${item}, вы можете купить у ${npc}, хотите продолжить?"
+		},
+		"noBlockerNoMoney": {
+			"eng": "You are out of ${item} and you do not have enough ${currency} to purchase from ${npc}.\\nWould you like to top up?",
+			"trans": "У вас закончились ${item}, и у вас недостаточно ${currency} для покупки у ${npc}.\\nХотите пополнить?"
+		},
+		"subtitle": {
+			"eng": "Your cyber-psychosis level is critically high. you can use ${item} to reduce your cyber-psychosis symptom.",
+			"trans": "Ваш уровень киберпсихоза критически высок. Вы можете использовать ${item}, чтобы уменьшить симптомы киберпсихоза."
+		},
+		"tip": {
+			"eng": "Learn more about cyberpsychosis here",
+			"trans": "Узнайте больше о киберпсихозе здесь"
+		},
+		"title": {
+			"eng": "High Cyber-Psychosis",
+			"trans": "Высокий уровень киберпсихоза"
+		},
+		"topUp": {
+			"eng": "Click to top up",
+			"trans": "Нажмите, чтобы пополнить"
+		},
+		"useBlocker": {
+			"eng": "Click to use",
+			"trans": "Нажмите, чтобы использовать"
 		}
 	},
 	"purchaseCycle": {
@@ -7078,18 +7160,15 @@
 	"rewardConfigDisplay": {
 		"clanControl": {
 			"eng": "+ ${clanControl} clan control",
-			"trans": "+ ${clanControl} контроль клана",
-			"vars": []
+			"trans": "+ ${clanControl} контроль клана"
 		},
 		"clanExp": {
 			"eng": "+ ${clanExp} gang exp",
-			"trans": "+ ${clanExp} опыт банды",
-			"vars": []
+			"trans": "+ ${clanExp} опыт банды"
 		},
 		"clanResource": {
 			"eng": "+ ${clanResource} clan resource",
-			"trans": "+ ${clanResource} ресурсов клана",
-			"vars": []
+			"trans": "+ ${clanResource} ресурсов клана"
 		},
 		"healRatio": {
 			"eng": "Heal ${percent}% of your max health",
@@ -7587,6 +7666,12 @@
 				"eng": "How many would you like to purchase?",
 				"trans": "Сколько вы хотели бы приобрести?"
 			}
+		}
+	},
+	"shopItemDisplay": {
+		"discount": {
+			"eng": "Discount",
+			"trans": "Скидка"
 		}
 	},
 	"socialMedia": {

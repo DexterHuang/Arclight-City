@@ -2217,6 +2217,28 @@
 			}
 		}
 	},
+	"enemyEvent": {
+		"description": {
+			"eng": "This event triggers rarely when you are exploring and fighting enemies",
+			"trans": "此事件在您探索和戰鬥敵人時很少觸發"
+		},
+		"startMinigame": {
+			"eng": "Unlock",
+			"trans": "解鎖"
+		},
+		"title": {
+			"eng": "Encounter Event",
+			"trans": "遭遇事件"
+		},
+		"unlockDescription": {
+			"eng": "Receive reward by solving the minigame",
+			"trans": "解謎小遊戲獲得獎勵"
+		},
+		"unlockTitle": {
+			"eng": "unlock",
+			"trans": "解鎖"
+		}
+	},
 	"enemyTabContent": {
 		"addEnemy": {
 			"eng": "Add Enemies",
@@ -2637,7 +2659,7 @@
 			},
 			"title": {
 				"eng": "Activate",
-				"trans": "長按以啟動"
+				"trans": "啟動"
 			}
 		}
 	},
@@ -3266,6 +3288,10 @@
 			"eng": "Defeating ${dungeonType} strongholds in various locations",
 			"trans": "在不同地點擊敗${dungeonType}地城"
 		},
+		"npcShop": {
+			"eng": "Purchase from ${npc}",
+			"trans": "向${npc}購買"
+		},
 		"obtainedFrom": {
 			"eng": "Obtained from",
 			"trans": "獲得自"
@@ -3281,6 +3307,12 @@
 		"title": {
 			"eng": "Insufficient ${itemName}",
 			"trans": "${itemName}不足"
+		},
+		"topUp": {
+			"discountAvailable": {
+				"eng": "Discount Available!",
+				"trans": "折扣優惠！"
+			}
 		}
 	},
 	"itemSubType": {
@@ -4858,6 +4890,10 @@
 			"eng": "Mercenary",
 			"trans": "傭兵"
 		},
+		"psychosis": {
+			"eng": "Psychosis",
+			"trans": "電馭狂躁"
+		},
 		"territory": {
 			"eng": "Territory",
 			"trans": "領地"
@@ -5572,8 +5608,8 @@
 	},
 	"moderation": {
 		"error": {
-			"eng": "Your motto contains inappropriate words",
-			"trans": "您的座右銘包含不適當的詞語"
+			"eng": "The motto contains reserved words",
+			"trans": "標語包含保留字"
 		},
 		"serviceDown": {
 			"eng": "Motto editing is temporally disabled due to external service downtime, please try again later",
@@ -6378,7 +6414,7 @@
 				"trans": "隊伍"
 			},
 			"equipment": {
-				"eng": "items",
+				"eng": "Equipment",
 				"trans": "裝備"
 			},
 			"job": {
@@ -6710,6 +6746,52 @@
 		"title": {
 			"eng": "Cyber psychosis",
 			"trans": "網路狂躁症"
+		}
+	},
+	"psychosisPopup": {
+		"clickToPurchase": {
+			"eng": "Click to purchase",
+			"trans": "點擊購買"
+		},
+		"confirmPurchase": {
+			"eng": "Click to Confirm",
+			"trans": "點擊確認"
+		},
+		"confirmPurchaseBlocker": {
+			"eng": "Are you sure you want to purchase ${item} from ${npc}?",
+			"trans": "你確定要從${npc}購買${item}嗎？"
+		},
+		"hasBlocker": {
+			"eng": "Your cyberpsychosis is critically high, would you like to use an ${item} to reduce it?",
+			"trans": "你的電馭狂躁症過高，是否要使用${item}降低？"
+		},
+		"noBlocker": {
+			"eng": "You are out of ${item}, you can purchase from ${npc}, would you like to proceed?",
+			"trans": "${item}不足，可以向${npc}購買，是否繼續？"
+		},
+		"noBlockerNoMoney": {
+			"eng": "You are out of ${item} and you do not have enough ${currency} to purchase from ${npc}.\\nWould you like to top up?",
+			"trans": "您沒有${item}，而且您沒有足夠的${currency}向${npc}購買。\\n您要儲值嗎？"
+		},
+		"subtitle": {
+			"eng": "Your cyber-psychosis level is critically high. you can use ${item} to reduce your cyber-psychosis symptom.",
+			"trans": "你的電馭狂躁症等級極高，你可以使用${item}來降低你的電馭狂躁症狀。"
+		},
+		"tip": {
+			"eng": "Learn more about cyberpsychosis here",
+			"trans": "在此瞭解更多關於電馭狂躁症"
+		},
+		"title": {
+			"eng": "High Cyber-Psychosis",
+			"trans": "高電馭狂躁"
+		},
+		"topUp": {
+			"eng": "Click to top up",
+			"trans": "點擊充值"
+		},
+		"useBlocker": {
+			"eng": "Click to use",
+			"trans": "點擊使用"
 		}
 	},
 	"purchaseCycle": {
@@ -7078,18 +7160,15 @@
 	"rewardConfigDisplay": {
 		"clanControl": {
 			"eng": "+ ${clanControl} clan control",
-			"trans": "+ ${clanControl}幫派控制",
-			"vars": []
+			"trans": "+ ${clanControl}幫派控制"
 		},
 		"clanExp": {
 			"eng": "+ ${clanExp} gang exp",
-			"trans": "+ 幫派經驗值 ${clanExp}",
-			"vars": []
+			"trans": "+ 幫派經驗值 ${clanExp}"
 		},
 		"clanResource": {
 			"eng": "+ ${clanResource} clan resource",
-			"trans": "+ ${clanResource}幫派資源",
-			"vars": []
+			"trans": "+ ${clanResource}幫派資源"
 		},
 		"healRatio": {
 			"eng": "Heal ${percent}% of your max health",
@@ -7587,6 +7666,12 @@
 				"eng": "How many would you like to purchase?",
 				"trans": "您想購買多少個？"
 			}
+		}
+	},
+	"shopItemDisplay": {
+		"discount": {
+			"eng": "Discount",
+			"trans": "折扣"
 		}
 	},
 	"socialMedia": {

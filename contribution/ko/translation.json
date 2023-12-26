@@ -2217,6 +2217,28 @@
 			}
 		}
 	},
+	"enemyEvent": {
+		"description": {
+			"eng": "This event triggers rarely when you are exploring and fighting enemies",
+			"trans": "이 이벤트는 탐험하고 적과 싸울 때 드물게 발생합니다"
+		},
+		"startMinigame": {
+			"eng": "Unlock",
+			"trans": "잠금 해제하기"
+		},
+		"title": {
+			"eng": "Encounter Event",
+			"trans": "조우 이벤트"
+		},
+		"unlockDescription": {
+			"eng": "Receive reward by solving the minigame",
+			"trans": "미니게임을 해결하여 보상을 받으세요"
+		},
+		"unlockTitle": {
+			"eng": "unlock",
+			"trans": "잠금 해제"
+		}
+	},
 	"enemyTabContent": {
 		"addEnemy": {
 			"eng": "Add Enemies",
@@ -2779,8 +2801,8 @@
 			"trans": "비용"
 		},
 		"description": {
-			"eng": "Quick and instant gang hideout raid with cost of ${item} or ${currency}",
-			"trans": "${item} 또는 ${currency}를 소모하여 갱의 은신처를 빠르고 즉각적으로 습격"
+			"eng": "Quick and instant gang hideout raid with cost of ${item} or ${item2}",
+			"trans": "${item} 또는 ${item2} 비용으로 빠르고 즉각적인 갱단 은신처 습격"
 		},
 		"levelDisplay": {
 			"title": {
@@ -3266,6 +3288,10 @@
 			"eng": "Defeating ${dungeonType} strongholds in various locations",
 			"trans": "다양한 지역에서 ${dungeonType} 아지트를 격파"
 		},
+		"npcShop": {
+			"eng": "Purchase from ${npc}",
+			"trans": "${npc}에게서 구매"
+		},
 		"obtainedFrom": {
 			"eng": "Obtained from",
 			"trans": "획득처"
@@ -3281,6 +3307,12 @@
 		"title": {
 			"eng": "Insufficient ${itemName}",
 			"trans": "${itemName}이(가) 부족합니다"
+		},
+		"topUp": {
+			"discountAvailable": {
+				"eng": "Discount Available!",
+				"trans": "할인 중!"
+			}
 		}
 	},
 	"itemSubType": {
@@ -4858,6 +4890,10 @@
 			"eng": "Mercenary",
 			"trans": "용병"
 		},
+		"psychosis": {
+			"eng": "Psychosis",
+			"trans": "사이버 싸이코시스"
+		},
 		"territory": {
 			"eng": "Territory",
 			"trans": "영역"
@@ -5572,8 +5608,8 @@
 	},
 	"moderation": {
 		"error": {
-			"eng": "Your motto contains inappropriate words",
-			"trans": "당신의 모토에는 부적절한 단어가 포함되어 있습니다"
+			"eng": "The motto contains reserved words",
+			"trans": "슬로건에 예약된 단어가 포함되어 있습니다"
 		},
 		"serviceDown": {
 			"eng": "Motto editing is temporally disabled due to external service downtime, please try again later",
@@ -6378,8 +6414,8 @@
 				"trans": "크루"
 			},
 			"equipment": {
-				"eng": "items",
-				"trans": "아이템"
+				"eng": "Equipment",
+				"trans": "장비"
 			},
 			"job": {
 				"eng": "Job",
@@ -6710,6 +6746,52 @@
 		"title": {
 			"eng": "Cyber psychosis",
 			"trans": "사이버 싸이코"
+		}
+	},
+	"psychosisPopup": {
+		"clickToPurchase": {
+			"eng": "Click to purchase",
+			"trans": "클릭하여 구매"
+		},
+		"confirmPurchase": {
+			"eng": "Click to Confirm",
+			"trans": "확인을 클릭하세요"
+		},
+		"confirmPurchaseBlocker": {
+			"eng": "Are you sure you want to purchase ${item} from ${npc}?",
+			"trans": "${npc}에게서 ${item}을 구매하시겠습니까?"
+		},
+		"hasBlocker": {
+			"eng": "Your cyberpsychosis is critically high, would you like to use an ${item} to reduce it?",
+			"trans": "사이버 싸이코시스가 매우 높습니다. ${item}을 사용하여 줄이시겠습니까?"
+		},
+		"noBlocker": {
+			"eng": "You are out of ${item}, you can purchase from ${npc}, would you like to proceed?",
+			"trans": "${item}이 부족합니다. ${npc}에게서 구입하시겠습니까?"
+		},
+		"noBlockerNoMoney": {
+			"eng": "You are out of ${item} and you do not have enough ${currency} to purchase from ${npc}.\\nWould you like to top up?",
+			"trans": "${item}이 부족하고 ${npc}에서 구매할 ${currency}가 충분하지 않습니다.\\n충전하시겠습니까?"
+		},
+		"subtitle": {
+			"eng": "Your cyber-psychosis level is critically high. you can use ${item} to reduce your cyber-psychosis symptom.",
+			"trans": "사이버 사이코시스 수치가 매우 높습니다. ${item}을 사용하여 사이버 사이코시스 증상을 줄일 수 있습니다."
+		},
+		"tip": {
+			"eng": "Learn more about cyberpsychosis here",
+			"trans": "사이버 싸이코시스에 대해 더 자세히 알아보기"
+		},
+		"title": {
+			"eng": "High Cyber-Psychosis",
+			"trans": "사이버 싸이코시스 심화"
+		},
+		"topUp": {
+			"eng": "Click to top up",
+			"trans": "클릭하여 충전"
+		},
+		"useBlocker": {
+			"eng": "Click to use",
+			"trans": "클릭하여 사용"
 		}
 	},
 	"purchaseCycle": {
@@ -7078,18 +7160,15 @@
 	"rewardConfigDisplay": {
 		"clanControl": {
 			"eng": "+ ${clanControl} clan control",
-			"trans": "+ ${clanControl} 클랜 제어",
-			"vars": []
+			"trans": "+ ${clanControl} 클랜 제어"
 		},
 		"clanExp": {
 			"eng": "+ ${clanExp} gang exp",
-			"trans": "+ ${clanExp} 갱 경험치",
-			"vars": []
+			"trans": "+ ${clanExp} 갱 경험치"
 		},
 		"clanResource": {
 			"eng": "+ ${clanResource} clan resource",
-			"trans": "+ ${clanResource} 클랜 자원",
-			"vars": []
+			"trans": "+ ${clanResource} 클랜 자원"
 		},
 		"healRatio": {
 			"eng": "Heal ${percent}% of your max health",
@@ -7587,6 +7666,12 @@
 				"eng": "How many would you like to purchase?",
 				"trans": "몇 개를 구매하시겠습니까?"
 			}
+		}
+	},
+	"shopItemDisplay": {
+		"discount": {
+			"eng": "Discount",
+			"trans": "할인"
 		}
 	},
 	"socialMedia": {

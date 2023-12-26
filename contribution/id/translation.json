@@ -2217,6 +2217,28 @@
 			}
 		}
 	},
+	"enemyEvent": {
+		"description": {
+			"eng": "This event triggers rarely when you are exploring and fighting enemies",
+			"trans": "Acara ini jarang terjadi saat kamu sedang menjelajah dan melawan musuh"
+		},
+		"startMinigame": {
+			"eng": "Unlock",
+			"trans": "Buka kunci"
+		},
+		"title": {
+			"eng": "Encounter Event",
+			"trans": "Acara Pertemuan"
+		},
+		"unlockDescription": {
+			"eng": "Receive reward by solving the minigame",
+			"trans": "Dapatkan hadiah dengan menyelesaikan minigame"
+		},
+		"unlockTitle": {
+			"eng": "unlock",
+			"trans": "membuka"
+		}
+	},
 	"enemyTabContent": {
 		"addEnemy": {
 			"eng": "Add Enemies",
@@ -2779,8 +2801,8 @@
 			"trans": "Biaya"
 		},
 		"description": {
-			"eng": "Quick and instant gang hideout raid with cost of ${item} or ${currency}",
-			"trans": "Serangan kilat dan instan ke markas geng dengan biaya ${item} atau ${currency}"
+			"eng": "Quick and instant gang hideout raid with cost of ${item} or ${item2}",
+			"trans": "Serbuan tempat persembunyian geng cepat dan instan dengan biaya ${item} atau ${item2}"
 		},
 		"levelDisplay": {
 			"title": {
@@ -3266,6 +3288,10 @@
 			"eng": "Defeating ${dungeonType} strongholds in various locations",
 			"trans": "Mengalahkan benteng-benteng ${dungeonType} di berbagai lokasi"
 		},
+		"npcShop": {
+			"eng": "Purchase from ${npc}",
+			"trans": "Beli dari ${npc}"
+		},
 		"obtainedFrom": {
 			"eng": "Obtained from",
 			"trans": "Diperoleh dari"
@@ -3281,6 +3307,12 @@
 		"title": {
 			"eng": "Insufficient ${itemName}",
 			"trans": "Tidak cukup ${itemName}"
+		},
+		"topUp": {
+			"discountAvailable": {
+				"eng": "Discount Available!",
+				"trans": "Diskon Tersedia!"
+			}
 		}
 	},
 	"itemSubType": {
@@ -4858,6 +4890,10 @@
 			"eng": "Mercenary",
 			"trans": "Pasukan bayaran"
 		},
+		"psychosis": {
+			"eng": "Psychosis",
+			"trans": "Psikosis"
+		},
 		"territory": {
 			"eng": "Territory",
 			"trans": "Wilayah"
@@ -5572,8 +5608,8 @@
 	},
 	"moderation": {
 		"error": {
-			"eng": "Your motto contains inappropriate words",
-			"trans": "Moto Anda mengandung kata-kata yang tidak pantas"
+			"eng": "The motto contains reserved words",
+			"trans": "Maaf, tetapi motto tersebut mengandung kata-kata yang tidak dapat diubah"
 		},
 		"serviceDown": {
 			"eng": "Motto editing is temporally disabled due to external service downtime, please try again later",
@@ -6378,8 +6414,8 @@
 				"trans": "Kru"
 			},
 			"equipment": {
-				"eng": "items",
-				"trans": "Barang"
+				"eng": "Equipment",
+				"trans": "Peralatan"
 			},
 			"job": {
 				"eng": "Job",
@@ -6710,6 +6746,52 @@
 		"title": {
 			"eng": "Cyber psychosis",
 			"trans": "Psikosis Siber"
+		}
+	},
+	"psychosisPopup": {
+		"clickToPurchase": {
+			"eng": "Click to purchase",
+			"trans": "Klik untuk membeli"
+		},
+		"confirmPurchase": {
+			"eng": "Click to Confirm",
+			"trans": "Klik untuk Konfirmasi"
+		},
+		"confirmPurchaseBlocker": {
+			"eng": "Are you sure you want to purchase ${item} from ${npc}?",
+			"trans": "Apakah Anda yakin ingin membeli ${item} dari ${npc}?"
+		},
+		"hasBlocker": {
+			"eng": "Your cyberpsychosis is critically high, would you like to use an ${item} to reduce it?",
+			"trans": "Psikosis siber Anda sangat tinggi, apakah Anda ingin menggunakan ${item} untuk menguranginya?"
+		},
+		"noBlocker": {
+			"eng": "You are out of ${item}, you can purchase from ${npc}, would you like to proceed?",
+			"trans": "Anda kehabisan ${item}, Anda dapat membelinya dari ${npc}, apakah Anda ingin melanjutkan?"
+		},
+		"noBlockerNoMoney": {
+			"eng": "You are out of ${item} and you do not have enough ${currency} to purchase from ${npc}.\\nWould you like to top up?",
+			"trans": "Anda kehabisan ${item} dan Anda tidak memiliki cukup ${currency} untuk membeli dari ${npc}.\\nApakah Anda ingin menambah?"
+		},
+		"subtitle": {
+			"eng": "Your cyber-psychosis level is critically high. you can use ${item} to reduce your cyber-psychosis symptom.",
+			"trans": "Tingkat psikosis siber Anda sangat tinggi. Anda dapat menggunakan ${item} untuk mengurangi gejala psikosis siber Anda."
+		},
+		"tip": {
+			"eng": "Learn more about cyberpsychosis here",
+			"trans": "Pelajari lebih lanjut tentang psikosis siber di sini"
+		},
+		"title": {
+			"eng": "High Cyber-Psychosis",
+			"trans": "Psikosis Siber Tinggi"
+		},
+		"topUp": {
+			"eng": "Click to top up",
+			"trans": "Klik untuk isi ulang"
+		},
+		"useBlocker": {
+			"eng": "Click to use",
+			"trans": "Klik untuk menggunakan"
 		}
 	},
 	"purchaseCycle": {
@@ -7078,18 +7160,15 @@
 	"rewardConfigDisplay": {
 		"clanControl": {
 			"eng": "+ ${clanControl} clan control",
-			"trans": "Kontrol klan ${clanControl}",
-			"vars": []
+			"trans": "Kontrol klan ${clanControl}"
 		},
 		"clanExp": {
 			"eng": "+ ${clanExp} gang exp",
-			"trans": "+${clanExp} poin EXP Geng",
-			"vars": []
+			"trans": "+${clanExp} poin EXP Geng"
 		},
 		"clanResource": {
 			"eng": "+ ${clanResource} clan resource",
-			"trans": "+ Sumber daya klan ${clanResource}",
-			"vars": []
+			"trans": "+ Sumber daya klan ${clanResource}"
 		},
 		"healRatio": {
 			"eng": "Heal ${percent}% of your max health",
@@ -7587,6 +7666,12 @@
 				"eng": "How many would you like to purchase?",
 				"trans": "Berapa banyak yang ingin Anda beli?"
 			}
+		}
+	},
+	"shopItemDisplay": {
+		"discount": {
+			"eng": "Discount",
+			"trans": "Diskon"
 		}
 	},
 	"socialMedia": {

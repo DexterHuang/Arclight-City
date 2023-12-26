@@ -1,0 +1,20 @@
+{
+  "story": "Du hörst ein Flüstern, das durch die labyrinthartigen Tunnel hallt. Als du dem Pfad folgst, stößt du auf eine Tür mit einem biometrischen Scanner. Was tust du?",
+  "actions": [
+    {
+      "action": "Scanne deinen Fingerabdruck, um die Sicherheit zu umgehen",
+      "good": "Der Scanner erkennt deine Identität und gewährt dir Zugang zu einem versteckten Raum, der mit seltenen Komponenten und Ressourcen gefüllt ist. Deine Kenntnisse in der Biometrie zahlen sich aus.",
+      "bad": "Dein Fingerabdruck wird nicht erkannt, was einen Alarm auslöst. Der Ton lockt nahegelegene Geschütztürme an, die auf dich feuern und Schaden verursachen. Die Beute bleibt unerreichbar."
+    },
+    {
+      "action": "Hacke das System des Scanners",
+      "good": "Mit deinen außergewöhnlichen Hacking-Fähigkeiten umgehst du die biometrische Sicherheit und erhältst Zugang zu einem versteckten Raum, der mit seltenen Komponenten und Ressourcen gefüllt ist. Deine technischen Fähigkeiten erweisen sich erneut als wertvoll.",
+      "bad": "Dein Versuch, dich in das System des Scanners zu hacken, löst einen Alarm aus. Der Ton alarmiert nahegelegene Geschütztürme, die auf dich feuern und Schaden verursachen. Du entkommst knapp und lässt die Beute außer Reichweite."
+    },
+    {
+      "action": "Finde einen Weg um die biometrische Sperre herum",
+      "good": "Bei der Erkundung der Umgebung entdeckst du einen versteckten Durchgang, der zu einem alternativen Weg zur Tür führt. Du passierst ihn unentdeckt und beanspruchst die seltenen Komponenten und Ressourcen.",
+      "bad": "Bei deiner Suche nach einem alternativen Weg löst du versehentlich eine versteckte Falle aus, die giftiges Gas freisetzt. Der dichte Nebel trübt deine Sicht und verursacht Schaden, bevor du knapp entkommst. Die Beute bleibt unerreichbar."
+    }
+  ]
+}

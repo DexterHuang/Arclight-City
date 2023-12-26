@@ -1,0 +1,1 @@
+_Du gingst einen dunklen Seitenweg entlang, als du Schreie aus einem verlassenen Lagerhaus hörtest. Vorsichtig nähernd, sahst du zwei Gestalten, die miteinander kämpften - eine war eindeutig menschlich, während die andere mehrere kybernetische Verbesserungen hatte und sich mit unmöglicher Geschwindigkeit bewegte._

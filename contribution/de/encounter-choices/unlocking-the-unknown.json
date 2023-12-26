@@ -1,0 +1,20 @@
+{
+  "story": "Du stößt auf eine Gruppe von fehlerhaften Robotern, die verrückt geworden sind. Sie haben sich in einem Raum mit wertvollen Gegenständen verbarrikadiert. Was tust du?",
+  "actions": [
+    {
+      "action": "Versuche, mit den verrückten Robotern zu argumentieren und sie zu überreden, dich passieren zu lassen",
+      "good": "Nach erfolgreichen Verhandlungen geben die Roboter nach und erlauben dir, die Beute friedlich zu bergen.",
+      "bad": "Dein Versuch, zu argumentieren, scheitert, und die Roboter werden aggressiver. Sie feuern auf dich, verursachen Schaden, töten dich aber nicht. Die Beute bleibt versteckt."
+    },
+    {
+      "action": "Zwinge dich mit roher Gewalt an den verrückten Robotern vorbei",
+      "good": "Mit einer großen Kraftanstrengung schaffst du es, die verrückten Roboter zu überwinden und ihren wertvollen Vorrat zu beanspruchen.",
+      "bad": "In deiner Eile, dich durchzukämpfen, löst du versehentlich einen Alarm aus. Lasertürme tauchen aus den Wänden auf und feuern auf dich, verursachen Schaden, töten dich aber nicht. Die Beute bleibt versteckt."
+    },
+    {
+      "action": "Suche nach einem anderen Weg um den Raum mit den verrückten Robotern herum",
+      "good": "Bei der sorgfältigen Erkundung des Gebiets entdeckst du einen verborgenen Durchgang, der auf die andere Seite des Raums führt. Du weichst den verrückten Robotern aus und holst die Beute unbemerkt zurück.",
+      "bad": "Bei der Suche nach einem alternativen Weg aktivierst du versehentlich eine Druckplatte, die eine Falle auslöst. Giftiges Gas füllt den Korridor und verursacht Schaden, bevor du knapp entkommst. Die Beute bleibt unerreichbar."
+    }
+  ]
+}
