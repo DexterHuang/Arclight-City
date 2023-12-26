@@ -2762,9 +2762,9 @@
 		}
 	},
 	"instantDungeon": {
-		"locationNotCleared": {
-			"eng": "To raid gang hideout at level ${playerLevel}, you must clear level ${levelNeeded} stronghold with ${difficulty} difficulty first",
-			"trans": "Чтобы напасть на убежище банды на уровне ${playerLevel}, сначала нужно очистить крепость уровня ${levelNeeded} с уровнем сложности ${difficulty}"
+		"locationNotCleared2": {
+			"eng": "To raid gang hideout at level ${playerLevel}, you must clear the level ${levelNeeded} ${difficulty} difficulty stronghold first, you can unlock higher level strongholds by clearing ${difficulty} strongholds a level below it.",
+			"trans": "Чтобы совершить набег на убежище банды на уровне ${playerLevel}, сначала нужно зачистить крепость уровня ${levelNeeded} сложности ${difficulty}, можно разблокировать крепости более высокого уровня, зачищая крепости ${difficulty} на уровень ниже."
 		}
 	},
 	"instantDungeonDisplay": {
@@ -2796,6 +2796,12 @@
 		}
 	},
 	"instantDungeonPage": {
+		"advanced": {
+			"banner": {
+				"eng": "Increased EXP and Loot",
+				"trans": "Увеличение опыта и добычи"
+			}
+		},
 		"costs": {
 			"eng": "Costs",
 			"trans": "Стоимость"
@@ -5607,7 +5613,11 @@
 		}
 	},
 	"moderation": {
-		"error": {
+		"aierror": {
+			"eng": "Your motto contains inappropriate words",
+			"trans": "Ваш девиз содержит нецензурные слова"
+		},
+		"merror": {
 			"eng": "The motto contains reserved words",
 			"trans": "Девиз содержит зарезервированные слова"
 		},

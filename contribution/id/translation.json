@@ -2762,9 +2762,9 @@
 		}
 	},
 	"instantDungeon": {
-		"locationNotCleared": {
-			"eng": "To raid gang hideout at level ${playerLevel}, you must clear level ${levelNeeded} stronghold with ${difficulty} difficulty first",
-			"trans": "Untuk merampok markas geng pada level ${playerLevel}, kamu harus mengalahkan benteng level ${levelNeeded} dengan tingkat kesulitan ${difficulty} terlebih dahulu"
+		"locationNotCleared2": {
+			"eng": "To raid gang hideout at level ${playerLevel}, you must clear the level ${levelNeeded} ${difficulty} difficulty stronghold first, you can unlock higher level strongholds by clearing ${difficulty} strongholds a level below it.",
+			"trans": "Untuk merampok markas geng pada level ${playerLevel}, kamu harus membersihkan benteng level ${levelNeeded} dengan tingkat kesulitan ${difficulty} terlebih dahulu. Kamu dapat membuka benteng dengan level yang lebih tinggi dengan membersihkan benteng ${difficulty} satu level di bawahnya."
 		}
 	},
 	"instantDungeonDisplay": {
@@ -2796,6 +2796,12 @@
 		}
 	},
 	"instantDungeonPage": {
+		"advanced": {
+			"banner": {
+				"eng": "Increased EXP and Loot",
+				"trans": "Peningkatan EXP dan Loot"
+			}
+		},
 		"costs": {
 			"eng": "Costs",
 			"trans": "Biaya"
@@ -5607,9 +5613,13 @@
 		}
 	},
 	"moderation": {
-		"error": {
+		"aierror": {
+			"eng": "Your motto contains inappropriate words",
+			"trans": "I apologize if there was any inappropriate language in my previous response. As a professional translator, I strive to provide accurate and culturally appropriate translations. If you could please specify which part of the translation was inappropriate, I will make sure to correct it. Thank you for bringing this to my attention"
+		},
+		"merror": {
 			"eng": "The motto contains reserved words",
-			"trans": "Maaf, tetapi motto tersebut mengandung kata-kata yang tidak dapat diubah"
+			"trans": "Motto tersebut mengandung kata-kata yang tidak dapat diubah"
 		},
 		"serviceDown": {
 			"eng": "Motto editing is temporally disabled due to external service downtime, please try again later",

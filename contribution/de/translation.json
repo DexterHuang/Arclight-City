@@ -2762,9 +2762,9 @@
 		}
 	},
 	"instantDungeon": {
-		"locationNotCleared": {
-			"eng": "To raid gang hideout at level ${playerLevel}, you must clear level ${levelNeeded} stronghold with ${difficulty} difficulty first",
-			"trans": "Um ein Gang-Versteck auf Level ${playerLevel} zu überfallen, musst du zuerst eine Festung auf Level ${levelNeeded} mit Schwierigkeitsgrad ${difficulty} räumen"
+		"locationNotCleared2": {
+			"eng": "To raid gang hideout at level ${playerLevel}, you must clear the level ${levelNeeded} ${difficulty} difficulty stronghold first, you can unlock higher level strongholds by clearing ${difficulty} strongholds a level below it.",
+			"trans": "Um ein Gang-Versteck auf Level ${playerLevel} zu überfallen, musst du zuerst die Festung auf Level ${levelNeeded} mit Schwierigkeitsgrad ${difficulty} räumen. Du kannst Festungen mit höherem Level freischalten, indem du Festungen mit Schwierigkeitsgrad ${difficulty} eine Stufe darunter räumst."
 		}
 	},
 	"instantDungeonDisplay": {
@@ -2796,6 +2796,12 @@
 		}
 	},
 	"instantDungeonPage": {
+		"advanced": {
+			"banner": {
+				"eng": "Increased EXP and Loot",
+				"trans": "Erhöhte EXP und Beute"
+			}
+		},
 		"costs": {
 			"eng": "Costs",
 			"trans": "Kosten"
@@ -5607,7 +5613,11 @@
 		}
 	},
 	"moderation": {
-		"error": {
+		"aierror": {
+			"eng": "Your motto contains inappropriate words",
+			"trans": "Dein Motto enthält unangemessene Wörter"
+		},
+		"merror": {
 			"eng": "The motto contains reserved words",
 			"trans": "Das Motto enthält reservierte Wörter"
 		},

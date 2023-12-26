@@ -2762,9 +2762,9 @@
 		}
 	},
 	"instantDungeon": {
-		"locationNotCleared": {
-			"eng": "To raid gang hideout at level ${playerLevel}, you must clear level ${levelNeeded} stronghold with ${difficulty} difficulty first",
-			"trans": "レベル${playerLevel}のギャングの隠れ家を襲撃するには、まず難易度${difficulty}のレベル${levelNeeded}の要塞をクリアする必要があります"
+		"locationNotCleared2": {
+			"eng": "To raid gang hideout at level ${playerLevel}, you must clear the level ${levelNeeded} ${difficulty} difficulty stronghold first, you can unlock higher level strongholds by clearing ${difficulty} strongholds a level below it.",
+			"trans": "レベル${playerLevel}のギャングの隠れ家を襲撃するには、まずレベル${levelNeeded}の${difficulty}難易度要塞をクリアする必要があります。レベルの低い${difficulty}要塞をクリアすることで、より高いレベルの要塞のロックを解除できます。"
 		}
 	},
 	"instantDungeonDisplay": {
@@ -2796,6 +2796,12 @@
 		}
 	},
 	"instantDungeonPage": {
+		"advanced": {
+			"banner": {
+				"eng": "Increased EXP and Loot",
+				"trans": "経験値と戦利品増加"
+			}
+		},
 		"costs": {
 			"eng": "Costs",
 			"trans": "コスト"
@@ -5607,7 +5613,11 @@
 		}
 	},
 	"moderation": {
-		"error": {
+		"aierror": {
+			"eng": "Your motto contains inappropriate words",
+			"trans": "モットーに不適切な言葉が含まれています"
+		},
+		"merror": {
 			"eng": "The motto contains reserved words",
 			"trans": "モットーには予約語が含まれています"
 		},

@@ -2762,9 +2762,9 @@
 		}
 	},
 	"instantDungeon": {
-		"locationNotCleared": {
-			"eng": "To raid gang hideout at level ${playerLevel}, you must clear level ${levelNeeded} stronghold with ${difficulty} difficulty first",
-			"trans": "要襲擊等級 ${playerLevel} 的幫派據點，你必須先以 ${difficulty} 難度通關等級 ${levelNeeded} 的地城"
+		"locationNotCleared2": {
+			"eng": "To raid gang hideout at level ${playerLevel}, you must clear the level ${levelNeeded} ${difficulty} difficulty stronghold first, you can unlock higher level strongholds by clearing ${difficulty} strongholds a level below it.",
+			"trans": "要突襲等級 ${playerLevel} 的幫派據點，你必須先清除等級 ${levelNeeded} ${difficulty} 難度的地城，你可以透過清除比它低一級的 ${difficulty} 地城來解鎖更高等級的地城。"
 		}
 	},
 	"instantDungeonDisplay": {
@@ -2796,13 +2796,19 @@
 		}
 	},
 	"instantDungeonPage": {
+		"advanced": {
+			"banner": {
+				"eng": "Increased EXP and Loot",
+				"trans": "經驗值和戰利品增加"
+			}
+		},
 		"costs": {
 			"eng": "Costs",
 			"trans": "費用"
 		},
 		"description": {
-			"eng": "Quick and instant gang hideout raid with cost of ${item} or ${currency}",
-			"trans": "消耗${item}或${currency}即可快速即時突襲幫派據點"
+			"eng": "Quick and instant gang hideout raid with cost of ${item} or ${item2}",
+			"trans": "快速即時幫派巢穴突襲，花費${item}或${item2}"
 		},
 		"levelDisplay": {
 			"title": {
@@ -5607,9 +5613,13 @@
 		}
 	},
 	"moderation": {
-		"error": {
+		"aierror": {
+			"eng": "Your motto contains inappropriate words",
+			"trans": "您的座右銘含有不適當的詞彙"
+		},
+		"merror": {
 			"eng": "The motto contains reserved words",
-			"trans": "標語包含保留字"
+			"trans": "標語含有保留字"
 		},
 		"serviceDown": {
 			"eng": "Motto editing is temporally disabled due to external service downtime, please try again later",

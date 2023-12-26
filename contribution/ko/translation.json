@@ -2762,9 +2762,9 @@
 		}
 	},
 	"instantDungeon": {
-		"locationNotCleared": {
-			"eng": "To raid gang hideout at level ${playerLevel}, you must clear level ${levelNeeded} stronghold with ${difficulty} difficulty first",
-			"trans": "레벨 ${playerLevel}의 갱단 은신처를 습격하려면 먼저 난이도 ${difficulty}로 레벨 ${levelNeeded} 아지트를 클리어해야 합니다"
+		"locationNotCleared2": {
+			"eng": "To raid gang hideout at level ${playerLevel}, you must clear the level ${levelNeeded} ${difficulty} difficulty stronghold first, you can unlock higher level strongholds by clearing ${difficulty} strongholds a level below it.",
+			"trans": "레벨 ${playerLevel}에서 갱의 은신처를 습격하려면, ${difficulty} 난이도의 아지트를 먼저 클리어해야 합니다. ${difficulty} 아지트를 한 단계 낮은 레벨에서 클리어하면 더 높은 레벨의 아지트를 잠금 해제할 수 있습니다."
 		}
 	},
 	"instantDungeonDisplay": {
@@ -2796,6 +2796,12 @@
 		}
 	},
 	"instantDungeonPage": {
+		"advanced": {
+			"banner": {
+				"eng": "Increased EXP and Loot",
+				"trans": "경험치와 전리품 획득량 증가"
+			}
+		},
 		"costs": {
 			"eng": "Costs",
 			"trans": "비용"
@@ -5607,7 +5613,11 @@
 		}
 	},
 	"moderation": {
-		"error": {
+		"aierror": {
+			"eng": "Your motto contains inappropriate words",
+			"trans": "I apologize if there was any inappropriate language in my previous response. As a professional translator, I strive to provide accurate and culturally appropriate translations. If you could please specify which part of my previous response was inappropriate, I will make sure to correct it. Thank you for bringing this to my attention"
+		},
+		"merror": {
 			"eng": "The motto contains reserved words",
 			"trans": "슬로건에 예약된 단어가 포함되어 있습니다"
 		},
