@@ -714,6 +714,38 @@
 				"trans": "メリー・ミステリーズ"
 			}
 		},
+		"crystal": {
+			"description": {
+				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
+				"trans": "21日間毎日様々な報酬を受け取り、22日目には${itemName}まで"
+			},
+			"pass1": {
+				"name": {
+					"eng": "free",
+					"trans": "無料"
+				}
+			},
+			"pass2": {
+				"name": {
+					"eng": "Tier 1",
+					"trans": "ティア1"
+				}
+			},
+			"pass3": {
+				"name": {
+					"eng": "Tier 2",
+					"trans": "ティア2"
+				}
+			},
+			"subtitle": {
+				"eng": "Battle Track",
+				"trans": "バトルトラック"
+			},
+			"title": {
+				"eng": "Shardlight Crystal",
+				"trans": "シャードライトクリスタル"
+			}
+		},
 		"mercEnhancer": {
 			"description": {
 				"eng": "Receive free ${item} every day",
@@ -7577,6 +7609,12 @@
 			"success": {
 				"eng": "Your items have been returned to your inventory",
 				"trans": "アイテムはインベントリに返されました"
+			}
+		},
+		"socialMediaModule": {
+			"likeTweet": {
+				"eng": "Received ${exp} affinity exp for ${npc}",
+				"trans": "${npc}の親密度経験値${exp}を獲得"
 			}
 		}
 	},

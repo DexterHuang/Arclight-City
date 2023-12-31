@@ -8,6 +8,14 @@
 
 **If you find a exploit please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
+### 0.0.34
+
+-  You will now receive small amount of NPC Affinity when liking their Chirp post.
+-  Added a new battle track available during January
+-  Adjusted UI and misc bug fixes
+-  Fixed issue with battle tracks not showing correctly
+
+
 ### 0.0.33
 
 -  Referral reward has been adjusted to include `Rare Upgrade Shard` and `Rare Level Shard` and excluded Universal Dollars, as there were several person trying to systematically abuse/exploit of the referral system using alts and or bots. this change is to prevent such abuse from happening again.
