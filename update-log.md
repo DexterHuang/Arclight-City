@@ -10,8 +10,10 @@
 
 ### 0.0.34
 
--  You will now receive small amount of NPC Affinity when liking their Chirp post.
 -  Added a new battle track available during January
+-  Fixed issue with Hideout Raid reward showing incorrectly
+-  Fixed Hideout Raid giving more reward then is displayed
+-  You will now receive small amount of NPC Affinity when liking their Chirp post.
 -  Adjusted UI and misc bug fixes
 -  Fixed issue with battle tracks not showing correctly
 
