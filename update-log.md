@@ -16,6 +16,7 @@
 -  You will now receive small amount of NPC Affinity when liking their Chirp post.
 -  Adjusted UI and misc bug fixes
 -  Fixed issue with battle tracks not showing correctly
+-  Updated Raid Hideout UI, showing the reward info in more compact way, you can click on it to see the details
 
 
 ### 0.0.33
