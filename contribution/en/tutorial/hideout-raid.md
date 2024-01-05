@@ -8,7 +8,7 @@ To initiate a Hideout Raid, click on the `Hideout Raid` button found on the stro
 
 ### Are there any requirements to perform a Hideout Raid?
 
-Yes, there are prerequisites for conducting a Hideout Raid. You must have cleared a Hard Difficulty Stronghold with a level that is at least 5 levels higher than your character's level. This requirement is implemented to prevent players from solely leveling up through hideout raiding.
+Yes, there are prerequisites for conducting a Hideout Raid. You must have cleared a Hard Difficulty Stronghold with a level that is at least 4 levels higher than your character's level. This requirement is implemented to prevent players from solely leveling up through hideout raiding.
 
 ### How do I clear strongholds higher than my character's level?
 

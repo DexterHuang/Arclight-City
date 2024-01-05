@@ -503,6 +503,52 @@
 			"trans": "自動校準並修復您的物品，直到成功校準一次或是您手動停止。"
 		}
 	},
+	"autoResetPage": {
+		"complete": {
+			"eng": "Auto reset success!",
+			"trans": "自動重置成功！"
+		},
+		"error": {
+			"duplicateTraits": {
+				"eng": "You cannot select the same trait more than once",
+				"trans": "無法選擇重複的特性"
+			}
+		},
+		"expectedChance": {
+			"eng": "The expected chance for this specific combination of prefixes is ${percentFrom}% ~ ${percentTo}%",
+			"trans": "此特定組合的前綴預期機率為 ${percentFrom}% ~ ${percentTo}%"
+		},
+		"reset": {
+			"eng": "Reset",
+			"trans": "重設"
+		},
+		"resources": {
+			"title": {
+				"eng": "Resources",
+				"trans": "資源"
+			}
+		},
+		"selectShard": {
+			"label": {
+				"eng": "Trait ${index}",
+				"trans": "特質 ${index}"
+			},
+			"title": {
+				"eng": "Select shard",
+				"trans": "選擇碎片"
+			}
+		},
+		"selectTraits": {
+			"title": {
+				"eng": "Select traits",
+				"trans": "選擇特質"
+			}
+		},
+		"stop": {
+			"eng": "Stop",
+			"trans": "停止"
+		}
+	},
 	"backgroundTask": {
 		"cancelConfirmCancel": {
 			"eng": "Terminate task",
@@ -4334,6 +4380,12 @@
 		}
 	},
 	"itemUpgradePage": {
+		"autoReset": {
+			"title": {
+				"eng": "Auto reset",
+				"trans": "自動重置"
+			}
+		},
 		"item": {
 			"title": {
 				"eng": "equipment",
@@ -7767,113 +7819,225 @@
 			"eng": "Armor",
 			"trans": "裝甲"
 		},
+		"armorDesc": {
+			"eng": "Increases your armor.",
+			"trans": "增加你的護甲。"
+		},
 		"autoDmg": {
 			"eng": "Auto Attack Damage",
 			"trans": "自動攻擊傷害"
+		},
+		"autoDmgDesc": {
+			"eng": "Increases the damage of your auto attacks.",
+			"trans": "增加你的自動攻擊傷害。"
 		},
 		"autoDmgMult": {
 			"eng": "Auto Attack Damage Multiplier",
 			"trans": "自動攻擊傷害倍率"
 		},
+		"autoDmgMultDesc": {
+			"eng": "Increases the damage of your auto attacks.",
+			"trans": "增加你的自動攻擊傷害。"
+		},
 		"backpackSlot": {
 			"eng": "Backpack Slot",
 			"trans": "背包欄位"
+		},
+		"backpackSlotDesc": {
+			"eng": "Increases your maximum backpack slot.",
+			"trans": "增加背包最大格數。"
 		},
 		"blockChance": {
 			"eng": "Block Chance",
 			"trans": "格擋機率"
 		},
+		"blockChanceDesc": {
+			"eng": "Increases your chance to successfully block an attack when attempt to block.",
+			"trans": "增加你嘗試格擋時成功格擋攻擊的機率。"
+		},
 		"blockStrength": {
 			"eng": "Block Strength",
 			"trans": "格擋強度"
+		},
+		"blockStrengthDesc": {
+			"eng": "Increases the amount of damage blocked when attempt to block.",
+			"trans": "增加嘗試格擋時格擋的傷害量。"
 		},
 		"critChance": {
 			"eng": "Critical Chance",
 			"trans": "爆擊機率"
 		},
+		"critChanceDesc": {
+			"eng": "Increases the chance of your attacks being critical.",
+			"trans": "增加你的攻擊有機會變成暴擊。"
+		},
 		"critDmg": {
 			"eng": "Critical Damage",
 			"trans": "爆擊傷害"
+		},
+		"critDmgDesc": {
+			"eng": "Increases the damage of your critical attacks.",
+			"trans": "增加你的爆擊傷害。"
 		},
 		"cyberneticResistance": {
 			"eng": "Cybernetic Resistance",
 			"trans": "電馭抵抗力"
 		},
+		"cyberneticResistanceDesc": {
+			"eng": "Increases your resistance against enemy using cybernetic attack.",
+			"trans": "增加你對使用電驅攻擊的敵人的抗性。"
+		},
 		"damageMult": {
 			"eng": "Damage Multiplier",
 			"trans": "傷害倍率"
+		},
+		"damageMultDesc": {
+			"eng": "Increases the damage of your attacks.",
+			"trans": "增加你的攻擊傷害。"
 		},
 		"dex": {
 			"eng": "Dexterity",
 			"trans": "敏捷度"
 		},
+		"dexDesc": {
+			"eng": "Increases your dexterity attribute, which in turn increases your damage with fire arm weapons.",
+			"trans": "增加你的敏捷屬性，進而增加你使用火器武器的傷害。"
+		},
 		"dmg": {
 			"eng": "Damage",
 			"trans": "傷害"
+		},
+		"dmgDesc": {
+			"eng": "Increases the damage of your attacks.",
+			"trans": "增加你的攻擊傷害。"
 		},
 		"dmgReductionFlat": {
 			"eng": "Damage Reduction",
 			"trans": "傷害減免"
 		},
+		"dmgReductionFlatDesc": {
+			"eng": "Reduces the damage you receive.",
+			"trans": "減少你所受到的傷害。"
+		},
 		"dmgResistance": {
 			"eng": "Damage Reduction",
 			"trans": "傷害減免"
+		},
+		"dmgResistanceDesc": {
+			"eng": "Reduces the damage you receive.",
+			"trans": "減少你所受到的傷害。"
 		},
 		"energyResistance": {
 			"eng": "Energy Resistance",
 			"trans": "能量抗性"
 		},
+		"energyResistanceDesc": {
+			"eng": "Increases your resistance against enemy using weapon.",
+			"trans": "增加你對使用武器的敵人的抗性。"
+		},
 		"escape": {
 			"eng": "Escape Chance",
 			"trans": "逃脫機率"
+		},
+		"escapeDesc": {
+			"eng": "Increases your chance to escape from enemies.",
+			"trans": "增加你逃離敵人的機會。"
 		},
 		"headshotMult": {
 			"eng": "Headshot Multiplier",
 			"trans": "爆頭加成"
 		},
+		"headshotMultDesc": {
+			"eng": "Increases the damage of your headshots attacks",
+			"trans": "增加爆頭攻擊傷害"
+		},
 		"health": {
 			"eng": "Health",
 			"trans": "生命值"
+		},
+		"healthDesc": {
+			"eng": "Increases your maximum health.",
+			"trans": "增加你的最大生命值。"
 		},
 		"healthPercent": {
 			"eng": "Health Multiplier",
 			"trans": "生命值倍率"
 		},
+		"healthPercentDesc": {
+			"eng": "Increases your maximum health.",
+			"trans": "增加你的最大生命值。"
+		},
 		"int": {
 			"eng": "Intelligence",
 			"trans": "智力"
+		},
+		"intDesc": {
+			"eng": "Increases your intelligence attribute, which in turn increases your damage with energy weapons.",
+			"trans": "提升你的智力屬性，進而提升你的能量武器傷害。"
 		},
 		"inventorySlot": {
 			"eng": "Inventory Slot",
 			"trans": "倉庫欄位"
 		},
+		"inventorySlotDesc": {
+			"eng": "Increases your maximum inventory slot.",
+			"trans": "增加你的最大倉庫空間。"
+		},
 		"kineticResistance": {
 			"eng": "Kinetic Resistance",
 			"trans": "動能抗性"
+		},
+		"kineticResistanceDesc": {
+			"eng": "Increases your resistance against enemy using kinetic attack.",
+			"trans": "增加你對使用動能攻擊的敵人的抗性。"
 		},
 		"physicalResistance": {
 			"eng": "Physical Resistance",
 			"trans": "物理抗性"
 		},
+		"physicalResistanceDesc": {
+			"eng": "Increases your resistance against enemy using melee attack.",
+			"trans": "增加你對使用近戰攻擊的敵人的抗性。"
+		},
 		"pvpDmgReceivedMult": {
 			"eng": "PvP Damage Received Multiplier",
 			"trans": "PvP受到傷害倍率"
+		},
+		"pvpDmgReceivedMultDesc": {
+			"eng": "Increases the damage you receive from players.",
+			"trans": "增加你受到玩家的傷害。"
 		},
 		"shield": {
 			"eng": "Shield",
 			"trans": "護盾"
 		},
+		"shieldDesc": {
+			"eng": "Increases your maximum shield.",
+			"trans": "增加你的最大護盾。"
+		},
 		"shieldPercent": {
 			"eng": "Shield Multiplier",
 			"trans": "護盾倍率"
+		},
+		"shieldPercentDesc": {
+			"eng": "Increases your maximum shield.",
+			"trans": "增加你的最大護盾。"
 		},
 		"str": {
 			"eng": "Strength",
 			"trans": "力量"
 		},
+		"strDesc": {
+			"eng": "Increases your strength attribute, which in turn increases your damage with melee weapons.",
+			"trans": "提升你的力量屬性，進而提升你的近戰武器傷害。"
+		},
 		"vit": {
 			"eng": "Vitality",
 			"trans": "活力值"
+		},
+		"vitDesc": {
+			"eng": "Increases your vitality attribute, which in turn increases your maximum health.",
+			"trans": "提升你的活力屬性，進而增加你的最大生命值。"
 		}
 	},
 	"statDiff": {

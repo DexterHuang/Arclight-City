@@ -503,6 +503,52 @@
 			"trans": "아이템을 자동으로 교정하고 수리하며, 한 번 성공적으로 교정되거나 프로세스를 중지할 때까지 계속 교정합니다."
 		}
 	},
+	"autoResetPage": {
+		"complete": {
+			"eng": "Auto reset success!",
+			"trans": "자동 재설정 성공!"
+		},
+		"error": {
+			"duplicateTraits": {
+				"eng": "You cannot select the same trait more than once",
+				"trans": "같은 특성을 한 번 이상 선택할 수 없습니다"
+			}
+		},
+		"expectedChance": {
+			"eng": "The expected chance for this specific combination of prefixes is ${percentFrom}% ~ ${percentTo}%",
+			"trans": "이 특정 접두사 조합의 예상 확률은 ${percentFrom}% ~ ${percentTo}%입니다"
+		},
+		"reset": {
+			"eng": "Reset",
+			"trans": "재설정"
+		},
+		"resources": {
+			"title": {
+				"eng": "Resources",
+				"trans": "자원"
+			}
+		},
+		"selectShard": {
+			"label": {
+				"eng": "Trait ${index}",
+				"trans": "특성 ${index}"
+			},
+			"title": {
+				"eng": "Select shard",
+				"trans": "샤드 선택하기"
+			}
+		},
+		"selectTraits": {
+			"title": {
+				"eng": "Select traits",
+				"trans": "특성 선택하기"
+			}
+		},
+		"stop": {
+			"eng": "Stop",
+			"trans": "그만해주세요"
+		}
+	},
 	"backgroundTask": {
 		"cancelConfirmCancel": {
 			"eng": "Terminate task",
@@ -4334,6 +4380,12 @@
 		}
 	},
 	"itemUpgradePage": {
+		"autoReset": {
+			"title": {
+				"eng": "Auto reset",
+				"trans": "자동 재설정"
+			}
+		},
 		"item": {
 			"title": {
 				"eng": "equipment",
@@ -7767,113 +7819,225 @@
 			"eng": "Armor",
 			"trans": "방어력"
 		},
+		"armorDesc": {
+			"eng": "Increases your armor.",
+			"trans": "방어력을 증가시킵니다."
+		},
 		"autoDmg": {
 			"eng": "Auto Attack Damage",
 			"trans": "자동 공격 데미지"
+		},
+		"autoDmgDesc": {
+			"eng": "Increases the damage of your auto attacks.",
+			"trans": "자동 공격의 데미지를 증가시킵니다."
 		},
 		"autoDmgMult": {
 			"eng": "Auto Attack Damage Multiplier",
 			"trans": "자동 공격 데미지 배수"
 		},
+		"autoDmgMultDesc": {
+			"eng": "Increases the damage of your auto attacks.",
+			"trans": "자동 공격의 데미지를 증가시킵니다."
+		},
 		"backpackSlot": {
 			"eng": "Backpack Slot",
 			"trans": "배낭 칸"
+		},
+		"backpackSlotDesc": {
+			"eng": "Increases your maximum backpack slot.",
+			"trans": "배낭 슬롯을 최대로 늘려줍니다."
 		},
 		"blockChance": {
 			"eng": "Block Chance",
 			"trans": "방해 확률"
 		},
+		"blockChanceDesc": {
+			"eng": "Increases your chance to successfully block an attack when attempt to block.",
+			"trans": "차단을 시도할 때 공격을 성공적으로 차단할 확률을 높입니다."
+		},
 		"blockStrength": {
 			"eng": "Block Strength",
 			"trans": "방해 강도"
+		},
+		"blockStrengthDesc": {
+			"eng": "Increases the amount of damage blocked when attempt to block.",
+			"trans": "차단 시 차단한 피해량을 증가시킵니다."
 		},
 		"critChance": {
 			"eng": "Critical Chance",
 			"trans": "치명타 확률"
 		},
+		"critChanceDesc": {
+			"eng": "Increases the chance of your attacks being critical.",
+			"trans": "공격이 치명타가 될 확률을 높입니다."
+		},
 		"critDmg": {
 			"eng": "Critical Damage",
 			"trans": "치명타 피해"
+		},
+		"critDmgDesc": {
+			"eng": "Increases the damage of your critical attacks.",
+			"trans": "크리티컬 공격의 데미지를 증가시킵니다."
 		},
 		"cyberneticResistance": {
 			"eng": "Cybernetic Resistance",
 			"trans": "사이버네틱 저항력"
 		},
+		"cyberneticResistanceDesc": {
+			"eng": "Increases your resistance against enemy using cybernetic attack.",
+			"trans": "사이버네틱 공격에 대한 적의 저항력을 증가시킵니다."
+		},
 		"damageMult": {
 			"eng": "Damage Multiplier",
 			"trans": "데미지 배수"
+		},
+		"damageMultDesc": {
+			"eng": "Increases the damage of your attacks.",
+			"trans": "공격력을 증가시킵니다."
 		},
 		"dex": {
 			"eng": "Dexterity",
 			"trans": "민첩성"
 		},
+		"dexDesc": {
+			"eng": "Increases your dexterity attribute, which in turn increases your damage with fire arm weapons.",
+			"trans": "민첩성 속성을 증가시켜, 그로 인해 화기 무기로 입히는 피해가 증가합니다."
+		},
 		"dmg": {
 			"eng": "Damage",
 			"trans": "데미지"
+		},
+		"dmgDesc": {
+			"eng": "Increases the damage of your attacks.",
+			"trans": "공격력을 증가시킵니다."
 		},
 		"dmgReductionFlat": {
 			"eng": "Damage Reduction",
 			"trans": "데미지 감소"
 		},
+		"dmgReductionFlatDesc": {
+			"eng": "Reduces the damage you receive.",
+			"trans": "받는 피해를 감소시킵니다."
+		},
 		"dmgResistance": {
 			"eng": "Damage Reduction",
 			"trans": "데미지 감소"
+		},
+		"dmgResistanceDesc": {
+			"eng": "Reduces the damage you receive.",
+			"trans": "받는 피해를 감소시킵니다."
 		},
 		"energyResistance": {
 			"eng": "Energy Resistance",
 			"trans": "에너지 저항력"
 		},
+		"energyResistanceDesc": {
+			"eng": "Increases your resistance against enemy using weapon.",
+			"trans": "적이 무기를 사용하여 공격할 때 저항력을 증가시킵니다."
+		},
 		"escape": {
 			"eng": "Escape Chance",
 			"trans": "탈출 확률"
+		},
+		"escapeDesc": {
+			"eng": "Increases your chance to escape from enemies.",
+			"trans": "적으로부터 도망칠 확률을 높입니다."
 		},
 		"headshotMult": {
 			"eng": "Headshot Multiplier",
 			"trans": "헤드샷 배수"
 		},
+		"headshotMultDesc": {
+			"eng": "Increases the damage of your headshots attacks",
+			"trans": "헤드샷 공격의 데미지를 증가시킵니다"
+		},
 		"health": {
 			"eng": "Health",
 			"trans": "체력"
+		},
+		"healthDesc": {
+			"eng": "Increases your maximum health.",
+			"trans": "최대 체력을 증가시킵니다."
 		},
 		"healthPercent": {
 			"eng": "Health Multiplier",
 			"trans": "체력 배수"
 		},
+		"healthPercentDesc": {
+			"eng": "Increases your maximum health.",
+			"trans": "최대 체력을 증가시킵니다."
+		},
 		"int": {
 			"eng": "Intelligence",
 			"trans": "지능"
+		},
+		"intDesc": {
+			"eng": "Increases your intelligence attribute, which in turn increases your damage with energy weapons.",
+			"trans": "지능 속성을 증가시켜 에너지 무기로 입히는 피해를 증가시킵니다."
 		},
 		"inventorySlot": {
 			"eng": "Inventory Slot",
 			"trans": "인벤토리 칸"
 		},
+		"inventorySlotDesc": {
+			"eng": "Increases your maximum inventory slot.",
+			"trans": "인벤토리 슬롯을 최대로 늘려줍니다."
+		},
 		"kineticResistance": {
 			"eng": "Kinetic Resistance",
 			"trans": "키네틱 저항력"
+		},
+		"kineticResistanceDesc": {
+			"eng": "Increases your resistance against enemy using kinetic attack.",
+			"trans": "적의 키네틱 공격에 대한 저항력을 증가시킵니다."
 		},
 		"physicalResistance": {
 			"eng": "Physical Resistance",
 			"trans": "물리 저항력"
 		},
+		"physicalResistanceDesc": {
+			"eng": "Increases your resistance against enemy using melee attack.",
+			"trans": "적의 근접 공격에 대한 저항력을 증가시킵니다."
+		},
 		"pvpDmgReceivedMult": {
 			"eng": "PvP Damage Received Multiplier",
 			"trans": "PvP 데미지 피격 배율"
+		},
+		"pvpDmgReceivedMultDesc": {
+			"eng": "Increases the damage you receive from players.",
+			"trans": "플레이어로부터 받는 피해량을 증가시킵니다."
 		},
 		"shield": {
 			"eng": "Shield",
 			"trans": "방어막"
 		},
+		"shieldDesc": {
+			"eng": "Increases your maximum shield.",
+			"trans": "최대 방어막을 증가시킵니다."
+		},
 		"shieldPercent": {
 			"eng": "Shield Multiplier",
 			"trans": "방어막 배수"
+		},
+		"shieldPercentDesc": {
+			"eng": "Increases your maximum shield.",
+			"trans": "최대 방어막을 증가시킵니다."
 		},
 		"str": {
 			"eng": "Strength",
 			"trans": "힘"
 		},
+		"strDesc": {
+			"eng": "Increases your strength attribute, which in turn increases your damage with melee weapons.",
+			"trans": "근접 무기로 입히는 피해량을 증가시키는 힘 속성을 강화합니다."
+		},
 		"vit": {
 			"eng": "Vitality",
 			"trans": "활력"
+		},
+		"vitDesc": {
+			"eng": "Increases your vitality attribute, which in turn increases your maximum health.",
+			"trans": "활력 속성을 증가시켜 최대 체력을 높입니다."
 		}
 	},
 	"statDiff": {

@@ -503,6 +503,52 @@
 			"trans": "Автоматически калибруйте и ремонтируйте свой предмет до тех пор, пока он не будет успешно откалиброван, или если вы остановили процесс."
 		}
 	},
+	"autoResetPage": {
+		"complete": {
+			"eng": "Auto reset success!",
+			"trans": "Автосброс выполнен успешно!"
+		},
+		"error": {
+			"duplicateTraits": {
+				"eng": "You cannot select the same trait more than once",
+				"trans": "Нельзя выбрать одну и ту же черту более одного раза"
+			}
+		},
+		"expectedChance": {
+			"eng": "The expected chance for this specific combination of prefixes is ${percentFrom}% ~ ${percentTo}%",
+			"trans": "Ожидаемый шанс для этой конкретной комбинации префиксов составляет ${percentFrom}% ~ ${percentTo}%"
+		},
+		"reset": {
+			"eng": "Reset",
+			"trans": "Сброс"
+		},
+		"resources": {
+			"title": {
+				"eng": "Resources",
+				"trans": "Ресурсы"
+			}
+		},
+		"selectShard": {
+			"label": {
+				"eng": "Trait ${index}",
+				"trans": "Характеристика ${index}"
+			},
+			"title": {
+				"eng": "Select shard",
+				"trans": "Выбрать осколок"
+			}
+		},
+		"selectTraits": {
+			"title": {
+				"eng": "Select traits",
+				"trans": "Выбрать черты"
+			}
+		},
+		"stop": {
+			"eng": "Stop",
+			"trans": "Стоп"
+		}
+	},
 	"backgroundTask": {
 		"cancelConfirmCancel": {
 			"eng": "Terminate task",
@@ -4334,6 +4380,12 @@
 		}
 	},
 	"itemUpgradePage": {
+		"autoReset": {
+			"title": {
+				"eng": "Auto reset",
+				"trans": "Автосброс"
+			}
+		},
 		"item": {
 			"title": {
 				"eng": "equipment",
@@ -7767,113 +7819,225 @@
 			"eng": "Armor",
 			"trans": "Броня"
 		},
+		"armorDesc": {
+			"eng": "Increases your armor.",
+			"trans": "Увеличивает вашу броню."
+		},
 		"autoDmg": {
 			"eng": "Auto Attack Damage",
 			"trans": "Урон автоатаки"
+		},
+		"autoDmgDesc": {
+			"eng": "Increases the damage of your auto attacks.",
+			"trans": "Увеличивает урон от ваших автоатак."
 		},
 		"autoDmgMult": {
 			"eng": "Auto Attack Damage Multiplier",
 			"trans": "Множитель урона автоматической атаки"
 		},
+		"autoDmgMultDesc": {
+			"eng": "Increases the damage of your auto attacks.",
+			"trans": "Увеличивает урон от ваших автоатак."
+		},
 		"backpackSlot": {
 			"eng": "Backpack Slot",
 			"trans": "Слот рюкзака"
+		},
+		"backpackSlotDesc": {
+			"eng": "Increases your maximum backpack slot.",
+			"trans": "Увеличивает максимальное количество слотов в рюкзаке."
 		},
 		"blockChance": {
 			"eng": "Block Chance",
 			"trans": "Шанс блокировки"
 		},
+		"blockChanceDesc": {
+			"eng": "Increases your chance to successfully block an attack when attempt to block.",
+			"trans": "Увеличивает шанс успешно заблокировать атаку при попытке блокировки."
+		},
 		"blockStrength": {
 			"eng": "Block Strength",
 			"trans": "Сила блокировки"
+		},
+		"blockStrengthDesc": {
+			"eng": "Increases the amount of damage blocked when attempt to block.",
+			"trans": "Увеличивает количество блокируемого урона при попытке блокирования."
 		},
 		"critChance": {
 			"eng": "Critical Chance",
 			"trans": "Шанс критического удара"
 		},
+		"critChanceDesc": {
+			"eng": "Increases the chance of your attacks being critical.",
+			"trans": "Увеличивает вероятность критического удара."
+		},
 		"critDmg": {
 			"eng": "Critical Damage",
 			"trans": "Критический урон"
+		},
+		"critDmgDesc": {
+			"eng": "Increases the damage of your critical attacks.",
+			"trans": "Увеличивает урон критических атак."
 		},
 		"cyberneticResistance": {
 			"eng": "Cybernetic Resistance",
 			"trans": "Кибернетическое Сопротивление"
 		},
+		"cyberneticResistanceDesc": {
+			"eng": "Increases your resistance against enemy using cybernetic attack.",
+			"trans": "Увеличивает сопротивление атакам противника, использующего кибернетические способности."
+		},
 		"damageMult": {
 			"eng": "Damage Multiplier",
 			"trans": "Множитель урона"
+		},
+		"damageMultDesc": {
+			"eng": "Increases the damage of your attacks.",
+			"trans": "Увеличивает урон ваших атак."
 		},
 		"dex": {
 			"eng": "Dexterity",
 			"trans": "Ловкость"
 		},
+		"dexDesc": {
+			"eng": "Increases your dexterity attribute, which in turn increases your damage with fire arm weapons.",
+			"trans": "Увеличивает атрибут ловкости, что в свою очередь увеличивает урон от огнестрельного оружия."
+		},
 		"dmg": {
 			"eng": "Damage",
 			"trans": "Урон"
+		},
+		"dmgDesc": {
+			"eng": "Increases the damage of your attacks.",
+			"trans": "Увеличивает урон ваших атак."
 		},
 		"dmgReductionFlat": {
 			"eng": "Damage Reduction",
 			"trans": "Снижение урона"
 		},
+		"dmgReductionFlatDesc": {
+			"eng": "Reduces the damage you receive.",
+			"trans": "Уменьшает получаемый урон."
+		},
 		"dmgResistance": {
 			"eng": "Damage Reduction",
 			"trans": "Снижение урона"
+		},
+		"dmgResistanceDesc": {
+			"eng": "Reduces the damage you receive.",
+			"trans": "Уменьшает получаемый урон."
 		},
 		"energyResistance": {
 			"eng": "Energy Resistance",
 			"trans": "Сопротивление энергии"
 		},
+		"energyResistanceDesc": {
+			"eng": "Increases your resistance against enemy using weapon.",
+			"trans": "Увеличивает сопротивление врагу, использующему оружие."
+		},
 		"escape": {
 			"eng": "Escape Chance",
 			"trans": "Шанс на побег"
+		},
+		"escapeDesc": {
+			"eng": "Increases your chance to escape from enemies.",
+			"trans": "Увеличивает шанс сбежать от врагов."
 		},
 		"headshotMult": {
 			"eng": "Headshot Multiplier",
 			"trans": "Множитель головы"
 		},
+		"headshotMultDesc": {
+			"eng": "Increases the damage of your headshots attacks",
+			"trans": "Увеличивает урон от атак в голову"
+		},
 		"health": {
 			"eng": "Health",
 			"trans": "Здоровье"
+		},
+		"healthDesc": {
+			"eng": "Increases your maximum health.",
+			"trans": "Увеличивает максимальное здоровье."
 		},
 		"healthPercent": {
 			"eng": "Health Multiplier",
 			"trans": "Множитель здоровья"
 		},
+		"healthPercentDesc": {
+			"eng": "Increases your maximum health.",
+			"trans": "Увеличивает максимальное здоровье."
+		},
 		"int": {
 			"eng": "Intelligence",
 			"trans": "Интеллект"
+		},
+		"intDesc": {
+			"eng": "Increases your intelligence attribute, which in turn increases your damage with energy weapons.",
+			"trans": "Увеличивает атрибут интеллекта, что в свою очередь увеличивает урон от энергетического оружия."
 		},
 		"inventorySlot": {
 			"eng": "Inventory Slot",
 			"trans": "Слот инвентаря"
 		},
+		"inventorySlotDesc": {
+			"eng": "Increases your maximum inventory slot.",
+			"trans": "Увеличивает максимальное количество слотов в инвентаре."
+		},
 		"kineticResistance": {
 			"eng": "Kinetic Resistance",
 			"trans": "Кинетическое сопротивление"
+		},
+		"kineticResistanceDesc": {
+			"eng": "Increases your resistance against enemy using kinetic attack.",
+			"trans": "Увеличивает сопротивление противнику, использующему кинетическую атаку."
 		},
 		"physicalResistance": {
 			"eng": "Physical Resistance",
 			"trans": "Физическое сопротивление"
 		},
+		"physicalResistanceDesc": {
+			"eng": "Increases your resistance against enemy using melee attack.",
+			"trans": "Увеличивает сопротивление врагу, использующему рукопашную атаку."
+		},
 		"pvpDmgReceivedMult": {
 			"eng": "PvP Damage Received Multiplier",
 			"trans": "Множитель полученного урона в PvP"
+		},
+		"pvpDmgReceivedMultDesc": {
+			"eng": "Increases the damage you receive from players.",
+			"trans": "Увеличивает урон, получаемый от игроков."
 		},
 		"shield": {
 			"eng": "Shield",
 			"trans": "Щит"
 		},
+		"shieldDesc": {
+			"eng": "Increases your maximum shield.",
+			"trans": "Увеличивает максимальный щит."
+		},
 		"shieldPercent": {
 			"eng": "Shield Multiplier",
 			"trans": "Множитель щита"
+		},
+		"shieldPercentDesc": {
+			"eng": "Increases your maximum shield.",
+			"trans": "Увеличивает максимальный щит."
 		},
 		"str": {
 			"eng": "Strength",
 			"trans": "Сила"
 		},
+		"strDesc": {
+			"eng": "Increases your strength attribute, which in turn increases your damage with melee weapons.",
+			"trans": "Увеличивает атрибут силы, что в свою очередь увеличивает урон от оружия ближнего боя."
+		},
 		"vit": {
 			"eng": "Vitality",
 			"trans": "Жизненная сила"
+		},
+		"vitDesc": {
+			"eng": "Increases your vitality attribute, which in turn increases your maximum health.",
+			"trans": "Увеличивает атрибут живучести, что в свою очередь увеличивает максимальное здоровье."
 		}
 	},
 	"statDiff": {

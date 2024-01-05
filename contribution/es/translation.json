@@ -503,6 +503,52 @@
 			"trans": "Calibra y repara automáticamente tu objeto hasta que se haya calibrado con éxito una vez, o si detuviste el proceso."
 		}
 	},
+	"autoResetPage": {
+		"complete": {
+			"eng": "Auto reset success!",
+			"trans": "¡Reinicio automático exitoso!"
+		},
+		"error": {
+			"duplicateTraits": {
+				"eng": "You cannot select the same trait more than once",
+				"trans": "No puedes seleccionar el mismo rasgo más de una vez"
+			}
+		},
+		"expectedChance": {
+			"eng": "The expected chance for this specific combination of prefixes is ${percentFrom}% ~ ${percentTo}%",
+			"trans": "La probabilidad esperada para esta combinación específica de prefijos es del ${percentFrom}% al ${percentTo}%"
+		},
+		"reset": {
+			"eng": "Reset",
+			"trans": "Restablecer"
+		},
+		"resources": {
+			"title": {
+				"eng": "Resources",
+				"trans": "Recursos"
+			}
+		},
+		"selectShard": {
+			"label": {
+				"eng": "Trait ${index}",
+				"trans": "Rasgo ${index}"
+			},
+			"title": {
+				"eng": "Select shard",
+				"trans": "Seleccionar fragmento"
+			}
+		},
+		"selectTraits": {
+			"title": {
+				"eng": "Select traits",
+				"trans": "Seleccionar rasgos"
+			}
+		},
+		"stop": {
+			"eng": "Stop",
+			"trans": "Detener"
+		}
+	},
 	"backgroundTask": {
 		"cancelConfirmCancel": {
 			"eng": "Terminate task",
@@ -4334,6 +4380,12 @@
 		}
 	},
 	"itemUpgradePage": {
+		"autoReset": {
+			"title": {
+				"eng": "Auto reset",
+				"trans": "Reinicio automático"
+			}
+		},
 		"item": {
 			"title": {
 				"eng": "equipment",
@@ -7767,113 +7819,225 @@
 			"eng": "Armor",
 			"trans": "Armadura"
 		},
+		"armorDesc": {
+			"eng": "Increases your armor.",
+			"trans": "Aumenta tu armadura."
+		},
 		"autoDmg": {
 			"eng": "Auto Attack Damage",
 			"trans": "Daño de Ataque Automático"
+		},
+		"autoDmgDesc": {
+			"eng": "Increases the damage of your auto attacks.",
+			"trans": "Aumenta el daño de tus ataques automáticos."
 		},
 		"autoDmgMult": {
 			"eng": "Auto Attack Damage Multiplier",
 			"trans": "Multiplicador de Daño de Ataque Automático"
 		},
+		"autoDmgMultDesc": {
+			"eng": "Increases the damage of your auto attacks.",
+			"trans": "Aumenta el daño de tus ataques automáticos."
+		},
 		"backpackSlot": {
 			"eng": "Backpack Slot",
 			"trans": "Espacio de la mochila"
+		},
+		"backpackSlotDesc": {
+			"eng": "Increases your maximum backpack slot.",
+			"trans": "Aumenta el número máximo de espacios en tu mochila."
 		},
 		"blockChance": {
 			"eng": "Block Chance",
 			"trans": "Probabilidad de Bloqueo"
 		},
+		"blockChanceDesc": {
+			"eng": "Increases your chance to successfully block an attack when attempt to block.",
+			"trans": "Aumenta tu probabilidad de bloquear exitosamente un ataque al intentar bloquear."
+		},
 		"blockStrength": {
 			"eng": "Block Strength",
 			"trans": "Fuerza de Bloqueo"
+		},
+		"blockStrengthDesc": {
+			"eng": "Increases the amount of damage blocked when attempt to block.",
+			"trans": "Aumenta la cantidad de daño bloqueado al intentar bloquear."
 		},
 		"critChance": {
 			"eng": "Critical Chance",
 			"trans": "Probabilidad de crítico"
 		},
+		"critChanceDesc": {
+			"eng": "Increases the chance of your attacks being critical.",
+			"trans": "Aumenta la probabilidad de que tus ataques sean críticos."
+		},
 		"critDmg": {
 			"eng": "Critical Damage",
 			"trans": "Daño Crítico"
+		},
+		"critDmgDesc": {
+			"eng": "Increases the damage of your critical attacks.",
+			"trans": "Aumenta el daño de tus ataques críticos."
 		},
 		"cyberneticResistance": {
 			"eng": "Cybernetic Resistance",
 			"trans": "Resistencia Cibernética"
 		},
+		"cyberneticResistanceDesc": {
+			"eng": "Increases your resistance against enemy using cybernetic attack.",
+			"trans": "Aumenta tu resistencia contra los enemigos que utilizan ataques cibernéticos."
+		},
 		"damageMult": {
 			"eng": "Damage Multiplier",
 			"trans": "Multiplicador de Daño"
+		},
+		"damageMultDesc": {
+			"eng": "Increases the damage of your attacks.",
+			"trans": "Aumenta el daño de tus ataques."
 		},
 		"dex": {
 			"eng": "Dexterity",
 			"trans": "Destreza"
 		},
+		"dexDesc": {
+			"eng": "Increases your dexterity attribute, which in turn increases your damage with fire arm weapons.",
+			"trans": "Aumenta tu atributo de destreza, lo cual a su vez incrementa tu daño con armas de fuego."
+		},
 		"dmg": {
 			"eng": "Damage",
 			"trans": "Daño"
+		},
+		"dmgDesc": {
+			"eng": "Increases the damage of your attacks.",
+			"trans": "Aumenta el daño de tus ataques."
 		},
 		"dmgReductionFlat": {
 			"eng": "Damage Reduction",
 			"trans": "Reducción de Daño"
 		},
+		"dmgReductionFlatDesc": {
+			"eng": "Reduces the damage you receive.",
+			"trans": "Reduce el daño que recibes."
+		},
 		"dmgResistance": {
 			"eng": "Damage Reduction",
 			"trans": "Reducción de Daño"
+		},
+		"dmgResistanceDesc": {
+			"eng": "Reduces the damage you receive.",
+			"trans": "Reduce el daño que recibes."
 		},
 		"energyResistance": {
 			"eng": "Energy Resistance",
 			"trans": "Resistencia de Energía"
 		},
+		"energyResistanceDesc": {
+			"eng": "Increases your resistance against enemy using weapon.",
+			"trans": "Aumenta tu resistencia contra enemigos que usan armas."
+		},
 		"escape": {
 			"eng": "Escape Chance",
 			"trans": "Oportunidad de escape"
+		},
+		"escapeDesc": {
+			"eng": "Increases your chance to escape from enemies.",
+			"trans": "Aumenta tu probabilidad de escapar de los enemigos."
 		},
 		"headshotMult": {
 			"eng": "Headshot Multiplier",
 			"trans": "Multiplicador de disparo a la cabeza"
 		},
+		"headshotMultDesc": {
+			"eng": "Increases the damage of your headshots attacks",
+			"trans": "Aumenta el daño de tus ataques de disparo a la cabeza"
+		},
 		"health": {
 			"eng": "Health",
 			"trans": "Salud"
+		},
+		"healthDesc": {
+			"eng": "Increases your maximum health.",
+			"trans": "Aumenta tu salud máxima."
 		},
 		"healthPercent": {
 			"eng": "Health Multiplier",
 			"trans": "Multiplicador de salud"
 		},
+		"healthPercentDesc": {
+			"eng": "Increases your maximum health.",
+			"trans": "Aumenta tu salud máxima."
+		},
 		"int": {
 			"eng": "Intelligence",
 			"trans": "Inteligencia"
+		},
+		"intDesc": {
+			"eng": "Increases your intelligence attribute, which in turn increases your damage with energy weapons.",
+			"trans": "Aumenta tu atributo de inteligencia, lo cual a su vez incrementa tu daño con armas de energía."
 		},
 		"inventorySlot": {
 			"eng": "Inventory Slot",
 			"trans": "Espacio de Inventario"
 		},
+		"inventorySlotDesc": {
+			"eng": "Increases your maximum inventory slot.",
+			"trans": "Aumenta tu capacidad máxima de inventario."
+		},
 		"kineticResistance": {
 			"eng": "Kinetic Resistance",
 			"trans": "Resistencia Cinética"
+		},
+		"kineticResistanceDesc": {
+			"eng": "Increases your resistance against enemy using kinetic attack.",
+			"trans": "Aumenta tu resistencia contra enemigos que utilizan ataques cinéticos."
 		},
 		"physicalResistance": {
 			"eng": "Physical Resistance",
 			"trans": "Resistencia Física"
 		},
+		"physicalResistanceDesc": {
+			"eng": "Increases your resistance against enemy using melee attack.",
+			"trans": "Aumenta tu resistencia contra enemigos que utilizan ataques cuerpo a cuerpo."
+		},
 		"pvpDmgReceivedMult": {
 			"eng": "PvP Damage Received Multiplier",
 			"trans": "Multiplicador de Daño Recibido en PvP"
+		},
+		"pvpDmgReceivedMultDesc": {
+			"eng": "Increases the damage you receive from players.",
+			"trans": "Aumenta el daño que recibes de otros jugadores."
 		},
 		"shield": {
 			"eng": "Shield",
 			"trans": "Escudo"
 		},
+		"shieldDesc": {
+			"eng": "Increases your maximum shield.",
+			"trans": "Aumenta tu escudo máximo."
+		},
 		"shieldPercent": {
 			"eng": "Shield Multiplier",
 			"trans": "Multiplicador de escudo"
+		},
+		"shieldPercentDesc": {
+			"eng": "Increases your maximum shield.",
+			"trans": "Aumenta tu escudo máximo."
 		},
 		"str": {
 			"eng": "Strength",
 			"trans": "Fuerza"
 		},
+		"strDesc": {
+			"eng": "Increases your strength attribute, which in turn increases your damage with melee weapons.",
+			"trans": "Aumenta tu atributo de fuerza, lo cual a su vez incrementa tu daño con armas cuerpo a cuerpo."
+		},
 		"vit": {
 			"eng": "Vitality",
 			"trans": "Vitalidad"
+		},
+		"vitDesc": {
+			"eng": "Increases your vitality attribute, which in turn increases your maximum health.",
+			"trans": "Aumenta tu atributo de vitalidad, lo cual a su vez aumenta tu salud máxima."
 		}
 	},
 	"statDiff": {

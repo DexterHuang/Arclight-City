@@ -5,7 +5,7 @@ Penyerbuan Markas Tersembunyi adalah fitur yang memungkinkan serangan instan kec
 Untuk memulai Penyerbuan Markas Tersembunyi, klik tombol `Serang Markas Tersembunyi` yang terdapat pada halaman pemilihan benteng kuat.
 
 ### Apakah ada persyaratan untuk melakukan Penyerbuan Markas Tersembunyi?
-Ya, terdapat persyaratan untuk melakukan Penyerbuan Markas Tersembunyi. Anda harus telah menyelesaikan Benteng Kesulitan Tinggi dengan level yang setidaknya 5 level lebih tinggi daripada level karakter Anda. Persyaratan ini diterapkan untuk mencegah pemain hanya naik level melalui penyerbuan Markas Tersembunyi.
+Ya, terdapat persyaratan untuk melakukan Penyerbuan Markas Tersembunyi. Anda harus telah menyelesaikan Benteng Kesulitan Tinggi dengan level yang setidaknya 4 level lebih tinggi daripada level karakter Anda. Persyaratan ini diterapkan untuk mencegah pemain hanya naik level melalui penyerbuan Markas Tersembunyi.
 
 ### Bagaimana cara menyelesaikan benteng yang levelnya lebih tinggi daripada level karakter saya?
 Secara default, Anda dapat mengakses benteng yang memiliki level sama dengan level karakter Anda. Namun, Anda dapat mengakses benteng dengan level yang lebih tinggi dengan menyelesaikan benteng kesulitan tinggi satu level di bawahnya. Misalnya, jika Anda berada di level 10, Anda dapat mengakses benteng dengan level 10 secara default, tetapi Anda dapat mengakses benteng dengan level 11 jika Anda telah menyelesaikan benteng kesulitan tinggi level 10.

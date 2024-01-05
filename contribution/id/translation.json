@@ -503,6 +503,52 @@
 			"trans": "Secara otomatis mengkalibrasi dan memperbaiki item Anda hingga berhasil dikalibrasi sekali, atau jika Anda menghentikan prosesnya."
 		}
 	},
+	"autoResetPage": {
+		"complete": {
+			"eng": "Auto reset success!",
+			"trans": "Berhasil melakukan reset otomatis!"
+		},
+		"error": {
+			"duplicateTraits": {
+				"eng": "You cannot select the same trait more than once",
+				"trans": "Kamu tidak bisa memilih sifat yang sama lebih dari sekali"
+			}
+		},
+		"expectedChance": {
+			"eng": "The expected chance for this specific combination of prefixes is ${percentFrom}% ~ ${percentTo}%",
+			"trans": "Peluang yang diharapkan untuk kombinasi awalan ini adalah ${percentFrom}% ~ ${percentTo}%"
+		},
+		"reset": {
+			"eng": "Reset",
+			"trans": "Atur ulang"
+		},
+		"resources": {
+			"title": {
+				"eng": "Resources",
+				"trans": "Sumber daya"
+			}
+		},
+		"selectShard": {
+			"label": {
+				"eng": "Trait ${index}",
+				"trans": "Ciri ${index}"
+			},
+			"title": {
+				"eng": "Select shard",
+				"trans": "Pilih shard"
+			}
+		},
+		"selectTraits": {
+			"title": {
+				"eng": "Select traits",
+				"trans": "Pilih sifat-sifat"
+			}
+		},
+		"stop": {
+			"eng": "Stop",
+			"trans": "Berhenti"
+		}
+	},
 	"backgroundTask": {
 		"cancelConfirmCancel": {
 			"eng": "Terminate task",
@@ -4334,6 +4380,12 @@
 		}
 	},
 	"itemUpgradePage": {
+		"autoReset": {
+			"title": {
+				"eng": "Auto reset",
+				"trans": "Reset otomatis"
+			}
+		},
 		"item": {
 			"title": {
 				"eng": "equipment",
@@ -7767,113 +7819,225 @@
 			"eng": "Armor",
 			"trans": "Baju besi"
 		},
+		"armorDesc": {
+			"eng": "Increases your armor.",
+			"trans": "Meningkatkan pertahananmu."
+		},
 		"autoDmg": {
 			"eng": "Auto Attack Damage",
 			"trans": "Kerusakan Serangan Otomatis"
+		},
+		"autoDmgDesc": {
+			"eng": "Increases the damage of your auto attacks.",
+			"trans": "Meningkatkan kerusakan serangan otomatis Anda."
 		},
 		"autoDmgMult": {
 			"eng": "Auto Attack Damage Multiplier",
 			"trans": "Pengganda Kerusakan Serangan Otomatis"
 		},
+		"autoDmgMultDesc": {
+			"eng": "Increases the damage of your auto attacks.",
+			"trans": "Meningkatkan kerusakan serangan otomatis Anda."
+		},
 		"backpackSlot": {
 			"eng": "Backpack Slot",
 			"trans": "Slot Ransel"
+		},
+		"backpackSlotDesc": {
+			"eng": "Increases your maximum backpack slot.",
+			"trans": "Meningkatkan jumlah slot maksimum ransel Anda."
 		},
 		"blockChance": {
 			"eng": "Block Chance",
 			"trans": "Peluang Blok"
 		},
+		"blockChanceDesc": {
+			"eng": "Increases your chance to successfully block an attack when attempt to block.",
+			"trans": "Meningkatkan peluangmu untuk berhasil memblokir serangan saat mencoba untuk memblokir."
+		},
 		"blockStrength": {
 			"eng": "Block Strength",
 			"trans": "Kekuatan Blok"
+		},
+		"blockStrengthDesc": {
+			"eng": "Increases the amount of damage blocked when attempt to block.",
+			"trans": "Meningkatkan jumlah kerusakan yang diblokir saat mencoba untuk memblok."
 		},
 		"critChance": {
 			"eng": "Critical Chance",
 			"trans": "Peluang Kritis"
 		},
+		"critChanceDesc": {
+			"eng": "Increases the chance of your attacks being critical.",
+			"trans": "Meningkatkan peluang seranganmu menjadi kritis."
+		},
 		"critDmg": {
 			"eng": "Critical Damage",
 			"trans": "Kerusakan Kritis"
+		},
+		"critDmgDesc": {
+			"eng": "Increases the damage of your critical attacks.",
+			"trans": "Meningkatkan kerusakan serangan kritismu."
 		},
 		"cyberneticResistance": {
 			"eng": "Cybernetic Resistance",
 			"trans": "Perlawanan Cybernetik"
 		},
+		"cyberneticResistanceDesc": {
+			"eng": "Increases your resistance against enemy using cybernetic attack.",
+			"trans": "Meningkatkan ketahananmu terhadap serangan musuh menggunakan serangan sibernetik."
+		},
 		"damageMult": {
 			"eng": "Damage Multiplier",
 			"trans": "Pengganda Kerusakan"
+		},
+		"damageMultDesc": {
+			"eng": "Increases the damage of your attacks.",
+			"trans": "Meningkatkan kerusakan seranganmu."
 		},
 		"dex": {
 			"eng": "Dexterity",
 			"trans": "Ketangkasan"
 		},
+		"dexDesc": {
+			"eng": "Increases your dexterity attribute, which in turn increases your damage with fire arm weapons.",
+			"trans": "Meningkatkan atribut ketangkasanmu, yang pada gilirannya meningkatkan kerusakanmu dengan senjata api."
+		},
 		"dmg": {
 			"eng": "Damage",
 			"trans": "Kerusakan"
+		},
+		"dmgDesc": {
+			"eng": "Increases the damage of your attacks.",
+			"trans": "Meningkatkan kerusakan seranganmu."
 		},
 		"dmgReductionFlat": {
 			"eng": "Damage Reduction",
 			"trans": "Pengurangan Kerusakan"
 		},
+		"dmgReductionFlatDesc": {
+			"eng": "Reduces the damage you receive.",
+			"trans": "Mengurangi kerusakan yang kamu terima."
+		},
 		"dmgResistance": {
 			"eng": "Damage Reduction",
 			"trans": "Pengurangan Kerusakan"
+		},
+		"dmgResistanceDesc": {
+			"eng": "Reduces the damage you receive.",
+			"trans": "Mengurangi kerusakan yang kamu terima."
 		},
 		"energyResistance": {
 			"eng": "Energy Resistance",
 			"trans": "Tahanan Energi"
 		},
+		"energyResistanceDesc": {
+			"eng": "Increases your resistance against enemy using weapon.",
+			"trans": "Meningkatkan ketahananmu terhadap musuh yang menggunakan senjata."
+		},
 		"escape": {
 			"eng": "Escape Chance",
 			"trans": "Peluang Melarikan Diri"
+		},
+		"escapeDesc": {
+			"eng": "Increases your chance to escape from enemies.",
+			"trans": "Meningkatkan peluangmu untuk melarikan diri dari musuh-musuh."
 		},
 		"headshotMult": {
 			"eng": "Headshot Multiplier",
 			"trans": "Perkalian Tembakan Kepala"
 		},
+		"headshotMultDesc": {
+			"eng": "Increases the damage of your headshots attacks",
+			"trans": "Meningkatkan kerusakan serangan tembakan ke kepala Anda"
+		},
 		"health": {
 			"eng": "Health",
 			"trans": "Kesehatan"
+		},
+		"healthDesc": {
+			"eng": "Increases your maximum health.",
+			"trans": "Meningkatkan jumlah maksimum kesehatanmu."
 		},
 		"healthPercent": {
 			"eng": "Health Multiplier",
 			"trans": "Pengganda Kesehatan"
 		},
+		"healthPercentDesc": {
+			"eng": "Increases your maximum health.",
+			"trans": "Meningkatkan jumlah maksimum kesehatanmu."
+		},
 		"int": {
 			"eng": "Intelligence",
 			"trans": "Intelejensi"
+		},
+		"intDesc": {
+			"eng": "Increases your intelligence attribute, which in turn increases your damage with energy weapons.",
+			"trans": "Meningkatkan atribut intelejensi Anda, yang pada gilirannya meningkatkan kerusakan Anda dengan senjata energi."
 		},
 		"inventorySlot": {
 			"eng": "Inventory Slot",
 			"trans": "Slot Inventori"
 		},
+		"inventorySlotDesc": {
+			"eng": "Increases your maximum inventory slot.",
+			"trans": "Meningkatkan jumlah slot inventori maksimum Anda."
+		},
 		"kineticResistance": {
 			"eng": "Kinetic Resistance",
 			"trans": "Resistensi Kinetik"
+		},
+		"kineticResistanceDesc": {
+			"eng": "Increases your resistance against enemy using kinetic attack.",
+			"trans": "Meningkatkan ketahananmu terhadap serangan kinetik dari musuh."
 		},
 		"physicalResistance": {
 			"eng": "Physical Resistance",
 			"trans": "Ketahanan Fisik"
 		},
+		"physicalResistanceDesc": {
+			"eng": "Increases your resistance against enemy using melee attack.",
+			"trans": "Meningkatkan ketahananmu terhadap serangan musuh menggunakan serangan jarak dekat."
+		},
 		"pvpDmgReceivedMult": {
 			"eng": "PvP Damage Received Multiplier",
 			"trans": "Pengali Kerusakan PvP yang Diterima"
+		},
+		"pvpDmgReceivedMultDesc": {
+			"eng": "Increases the damage you receive from players.",
+			"trans": "Meningkatkan kerusakan yang kamu terima dari pemain."
 		},
 		"shield": {
 			"eng": "Shield",
 			"trans": "Perisai"
 		},
+		"shieldDesc": {
+			"eng": "Increases your maximum shield.",
+			"trans": "Meningkatkan batas maksimum perisai Anda."
+		},
 		"shieldPercent": {
 			"eng": "Shield Multiplier",
 			"trans": "Perkalian Perisai"
+		},
+		"shieldPercentDesc": {
+			"eng": "Increases your maximum shield.",
+			"trans": "Meningkatkan batas maksimum perisai Anda."
 		},
 		"str": {
 			"eng": "Strength",
 			"trans": "Kekuatan"
 		},
+		"strDesc": {
+			"eng": "Increases your strength attribute, which in turn increases your damage with melee weapons.",
+			"trans": "Meningkatkan atribut kekuatanmu, yang pada gilirannya meningkatkan kerusakanmu dengan senjata melee."
+		},
 		"vit": {
 			"eng": "Vitality",
 			"trans": "Vitalitas"
+		},
+		"vitDesc": {
+			"eng": "Increases your vitality attribute, which in turn increases your maximum health.",
+			"trans": "Meningkatkan atribut vitalitasmu, yang pada gilirannya meningkatkan kesehatan maksimummu."
 		}
 	},
 	"statDiff": {

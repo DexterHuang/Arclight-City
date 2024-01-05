@@ -503,6 +503,52 @@
 			"trans": "アイテムを自動的にキャリブレーションして修理し、一度成功するまで続けるか、プロセスを停止するまでキャリブレーションを行います。"
 		}
 	},
+	"autoResetPage": {
+		"complete": {
+			"eng": "Auto reset success!",
+			"trans": "オートリセット成功！"
+		},
+		"error": {
+			"duplicateTraits": {
+				"eng": "You cannot select the same trait more than once",
+				"trans": "同じ特性を複数回選択することはできません"
+			}
+		},
+		"expectedChance": {
+			"eng": "The expected chance for this specific combination of prefixes is ${percentFrom}% ~ ${percentTo}%",
+			"trans": "この特定の接頭辞の組み合わせの予想される確率は${percentFrom}% ~ ${percentTo}%です"
+		},
+		"reset": {
+			"eng": "Reset",
+			"trans": "リセット"
+		},
+		"resources": {
+			"title": {
+				"eng": "Resources",
+				"trans": "資源"
+			}
+		},
+		"selectShard": {
+			"label": {
+				"eng": "Trait ${index}",
+				"trans": "特性 ${index}"
+			},
+			"title": {
+				"eng": "Select shard",
+				"trans": "シャードを選択"
+			}
+		},
+		"selectTraits": {
+			"title": {
+				"eng": "Select traits",
+				"trans": "特性を選択"
+			}
+		},
+		"stop": {
+			"eng": "Stop",
+			"trans": "停止"
+		}
+	},
 	"backgroundTask": {
 		"cancelConfirmCancel": {
 			"eng": "Terminate task",
@@ -4334,6 +4380,12 @@
 		}
 	},
 	"itemUpgradePage": {
+		"autoReset": {
+			"title": {
+				"eng": "Auto reset",
+				"trans": "オートリセット"
+			}
+		},
 		"item": {
 			"title": {
 				"eng": "equipment",
@@ -7767,113 +7819,225 @@
 			"eng": "Armor",
 			"trans": "アーマー"
 		},
+		"armorDesc": {
+			"eng": "Increases your armor.",
+			"trans": "アーマーが増加します。"
+		},
 		"autoDmg": {
 			"eng": "Auto Attack Damage",
 			"trans": "自動攻撃のダメージ"
+		},
+		"autoDmgDesc": {
+			"eng": "Increases the damage of your auto attacks.",
+			"trans": "オートアタックのダメージが増加します。"
 		},
 		"autoDmgMult": {
 			"eng": "Auto Attack Damage Multiplier",
 			"trans": "自動攻撃のダメージ倍率"
 		},
+		"autoDmgMultDesc": {
+			"eng": "Increases the damage of your auto attacks.",
+			"trans": "オートアタックのダメージが増加します。"
+		},
 		"backpackSlot": {
 			"eng": "Backpack Slot",
 			"trans": "バックパックスロット"
+		},
+		"backpackSlotDesc": {
+			"eng": "Increases your maximum backpack slot.",
+			"trans": "バックパックの最大スロット数を増やします。"
 		},
 		"blockChance": {
 			"eng": "Block Chance",
 			"trans": "防御確率"
 		},
+		"blockChanceDesc": {
+			"eng": "Increases your chance to successfully block an attack when attempt to block.",
+			"trans": "攻撃をブロックしようとした際にブロックを成功させる確率を上昇させます。"
+		},
 		"blockStrength": {
 			"eng": "Block Strength",
 			"trans": "防御強度"
+		},
+		"blockStrengthDesc": {
+			"eng": "Increases the amount of damage blocked when attempt to block.",
+			"trans": "ブロックしようとした時のダメージ軽減量が増加します。"
 		},
 		"critChance": {
 			"eng": "Critical Chance",
 			"trans": "クリティカル確率"
 		},
+		"critChanceDesc": {
+			"eng": "Increases the chance of your attacks being critical.",
+			"trans": "攻撃がクリティカルヒットする確率が上昇します。"
+		},
 		"critDmg": {
 			"eng": "Critical Damage",
 			"trans": "クリティカルダメージ"
+		},
+		"critDmgDesc": {
+			"eng": "Increases the damage of your critical attacks.",
+			"trans": "クリティカル攻撃のダメージが増加します。"
 		},
 		"cyberneticResistance": {
 			"eng": "Cybernetic Resistance",
 			"trans": "サイバネティック耐性"
 		},
+		"cyberneticResistanceDesc": {
+			"eng": "Increases your resistance against enemy using cybernetic attack.",
+			"trans": "サイバネティック攻撃を行う敵に対する耐性を増加させます。"
+		},
 		"damageMult": {
 			"eng": "Damage Multiplier",
 			"trans": "ダメージ倍率"
+		},
+		"damageMultDesc": {
+			"eng": "Increases the damage of your attacks.",
+			"trans": "攻撃のダメージが増加します。"
 		},
 		"dex": {
 			"eng": "Dexterity",
 			"trans": "器用さ"
 		},
+		"dexDesc": {
+			"eng": "Increases your dexterity attribute, which in turn increases your damage with fire arm weapons.",
+			"trans": "器用属性を増加させ、火器のダメージが増加します。"
+		},
 		"dmg": {
 			"eng": "Damage",
 			"trans": "ダメージ"
 		},
+		"dmgDesc": {
+			"eng": "Increases the damage of your attacks.",
+			"trans": "攻撃のダメージが増加します。"
+		},
 		"dmgReductionFlat": {
 			"eng": "Damage Reduction",
+			"trans": "ダメージ軽減"
+		},
+		"dmgReductionFlatDesc": {
+			"eng": "Reduces the damage you receive.",
 			"trans": "ダメージ軽減"
 		},
 		"dmgResistance": {
 			"eng": "Damage Reduction",
 			"trans": "ダメージ軽減"
 		},
+		"dmgResistanceDesc": {
+			"eng": "Reduces the damage you receive.",
+			"trans": "ダメージ軽減"
+		},
 		"energyResistance": {
 			"eng": "Energy Resistance",
 			"trans": "エネルギー耐性"
+		},
+		"energyResistanceDesc": {
+			"eng": "Increases your resistance against enemy using weapon.",
+			"trans": "武器を使用する敵に対する耐性を増加させます。"
 		},
 		"escape": {
 			"eng": "Escape Chance",
 			"trans": "脱出確率"
 		},
+		"escapeDesc": {
+			"eng": "Increases your chance to escape from enemies.",
+			"trans": "敵から逃れやすくなる。"
+		},
 		"headshotMult": {
 			"eng": "Headshot Multiplier",
 			"trans": "ヘッドショット倍率"
+		},
+		"headshotMultDesc": {
+			"eng": "Increases the damage of your headshots attacks",
+			"trans": "ヘッドショット攻撃のダメージが増加"
 		},
 		"health": {
 			"eng": "Health",
 			"trans": "体力"
 		},
+		"healthDesc": {
+			"eng": "Increases your maximum health.",
+			"trans": "最大生命力が増加します。"
+		},
 		"healthPercent": {
 			"eng": "Health Multiplier",
 			"trans": "体力倍率"
+		},
+		"healthPercentDesc": {
+			"eng": "Increases your maximum health.",
+			"trans": "最大生命力が増加します。"
 		},
 		"int": {
 			"eng": "Intelligence",
 			"trans": "知力"
 		},
+		"intDesc": {
+			"eng": "Increases your intelligence attribute, which in turn increases your damage with energy weapons.",
+			"trans": "知力属性を増加させ、エネルギー兵器のダメージが増加します。"
+		},
 		"inventorySlot": {
 			"eng": "Inventory Slot",
 			"trans": "インベントリスロット"
+		},
+		"inventorySlotDesc": {
+			"eng": "Increases your maximum inventory slot.",
+			"trans": "最大インベントリスロットが増加します。"
 		},
 		"kineticResistance": {
 			"eng": "Kinetic Resistance",
 			"trans": "運動エネルギー耐性"
 		},
+		"kineticResistanceDesc": {
+			"eng": "Increases your resistance against enemy using kinetic attack.",
+			"trans": "運動エネルギー攻撃に対する敵の耐性を増加させます。"
+		},
 		"physicalResistance": {
 			"eng": "Physical Resistance",
 			"trans": "物理耐性"
+		},
+		"physicalResistanceDesc": {
+			"eng": "Increases your resistance against enemy using melee attack.",
+			"trans": "近接攻撃を行う敵に対する耐性を増加させます。"
 		},
 		"pvpDmgReceivedMult": {
 			"eng": "PvP Damage Received Multiplier",
 			"trans": "PvPダメージ倍率"
 		},
+		"pvpDmgReceivedMultDesc": {
+			"eng": "Increases the damage you receive from players.",
+			"trans": "プレイヤーからのダメージが増加します。"
+		},
 		"shield": {
 			"eng": "Shield",
 			"trans": "シールド"
+		},
+		"shieldDesc": {
+			"eng": "Increases your maximum shield.",
+			"trans": "シールドの上限が増加します。"
 		},
 		"shieldPercent": {
 			"eng": "Shield Multiplier",
 			"trans": "シールド倍率"
 		},
+		"shieldPercentDesc": {
+			"eng": "Increases your maximum shield.",
+			"trans": "シールドの上限が増加します。"
+		},
 		"str": {
 			"eng": "Strength",
 			"trans": "力"
 		},
+		"strDesc": {
+			"eng": "Increases your strength attribute, which in turn increases your damage with melee weapons.",
+			"trans": "近接武器のダメージが増加する力属性が増加します。"
+		},
 		"vit": {
 			"eng": "Vitality",
 			"trans": "生命力"
+		},
+		"vitDesc": {
+			"eng": "Increases your vitality attribute, which in turn increases your maximum health.",
+			"trans": "体力を増加させ、最大生命値を増加させます。"
 		}
 	},
 	"statDiff": {
