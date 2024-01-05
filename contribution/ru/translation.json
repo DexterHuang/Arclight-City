@@ -512,6 +512,10 @@
 			"duplicateTraits": {
 				"eng": "You cannot select the same trait more than once",
 				"trans": "Нельзя выбрать одну и ту же черту более одного раза"
+			},
+			"emptyTraits": {
+				"eng": "You must select a prefix for each slot",
+				"trans": "Для каждого слота необходимо выбрать префикс"
 			}
 		},
 		"expectedChance": {
@@ -530,8 +534,8 @@
 		},
 		"selectShard": {
 			"label": {
-				"eng": "Trait ${index}",
-				"trans": "Характеристика ${index}"
+				"eng": "Prefix ${index}",
+				"trans": "Префикс ${index}"
 			},
 			"title": {
 				"eng": "Select shard",
@@ -547,6 +551,10 @@
 		"stop": {
 			"eng": "Stop",
 			"trans": "Стоп"
+		},
+		"tip": {
+			"eng": "The chances of rolling traits is exactly the same as manually re-rolling, this is just a automatic re-roll feature for convenience.",
+			"trans": "Вероятность выпадения характеристик такая же, как и при ручном перебрасывании, это просто автоматическая функция перебрасывания для удобства."
 		}
 	},
 	"backgroundTask": {

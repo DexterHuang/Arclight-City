@@ -512,6 +512,10 @@
 			"duplicateTraits": {
 				"eng": "You cannot select the same trait more than once",
 				"trans": "같은 특성을 한 번 이상 선택할 수 없습니다"
+			},
+			"emptyTraits": {
+				"eng": "You must select a prefix for each slot",
+				"trans": "각 슬롯에 접두사를 선택해야 합니다"
 			}
 		},
 		"expectedChance": {
@@ -530,8 +534,8 @@
 		},
 		"selectShard": {
 			"label": {
-				"eng": "Trait ${index}",
-				"trans": "특성 ${index}"
+				"eng": "Prefix ${index}",
+				"trans": "접두사 ${index}"
 			},
 			"title": {
 				"eng": "Select shard",
@@ -547,6 +551,10 @@
 		"stop": {
 			"eng": "Stop",
 			"trans": "그만해주세요"
+		},
+		"tip": {
+			"eng": "The chances of rolling traits is exactly the same as manually re-rolling, this is just a automatic re-roll feature for convenience.",
+			"trans": "특성을 굴릴 확률은 수동으로 다시 굴리는 것과 정확히 동일합니다. 이것은 편의를 위한 자동 재굴림 기능일 뿐입니다."
 		}
 	},
 	"backgroundTask": {

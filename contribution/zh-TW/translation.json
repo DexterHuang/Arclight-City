@@ -512,6 +512,10 @@
 			"duplicateTraits": {
 				"eng": "You cannot select the same trait more than once",
 				"trans": "無法選擇重複的特性"
+			},
+			"emptyTraits": {
+				"eng": "You must select a prefix for each slot",
+				"trans": "每個插槽都必須選擇一個前綴詞"
 			}
 		},
 		"expectedChance": {
@@ -530,8 +534,8 @@
 		},
 		"selectShard": {
 			"label": {
-				"eng": "Trait ${index}",
-				"trans": "特質 ${index}"
+				"eng": "Prefix ${index}",
+				"trans": "詞綴 ${index}"
 			},
 			"title": {
 				"eng": "Select shard",
@@ -547,6 +551,10 @@
 		"stop": {
 			"eng": "Stop",
 			"trans": "停止"
+		},
+		"tip": {
+			"eng": "The chances of rolling traits is exactly the same as manually re-rolling, this is just a automatic re-roll feature for convenience.",
+			"trans": "抽取特質的機率與手動重新抽取完全相同，這只是一個自動重新抽取的功能，以方便玩家。"
 		}
 	},
 	"backgroundTask": {

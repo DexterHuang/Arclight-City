@@ -512,6 +512,10 @@
 			"duplicateTraits": {
 				"eng": "You cannot select the same trait more than once",
 				"trans": "同じ特性を複数回選択することはできません"
+			},
+			"emptyTraits": {
+				"eng": "You must select a prefix for each slot",
+				"trans": "各スロットに接頭辞を選択する必要があります"
 			}
 		},
 		"expectedChance": {
@@ -530,8 +534,8 @@
 		},
 		"selectShard": {
 			"label": {
-				"eng": "Trait ${index}",
-				"trans": "特性 ${index}"
+				"eng": "Prefix ${index}",
+				"trans": "接頭辞 ${index}"
 			},
 			"title": {
 				"eng": "Select shard",
@@ -547,6 +551,10 @@
 		"stop": {
 			"eng": "Stop",
 			"trans": "停止"
+		},
+		"tip": {
+			"eng": "The chances of rolling traits is exactly the same as manually re-rolling, this is just a automatic re-roll feature for convenience.",
+			"trans": "トレイトの排出確率は手動でリロールするのと全く同じで、これは単に利便性のための自動リロール機能です。"
 		}
 	},
 	"backgroundTask": {

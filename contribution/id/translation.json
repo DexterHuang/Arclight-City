@@ -512,6 +512,10 @@
 			"duplicateTraits": {
 				"eng": "You cannot select the same trait more than once",
 				"trans": "Kamu tidak bisa memilih sifat yang sama lebih dari sekali"
+			},
+			"emptyTraits": {
+				"eng": "You must select a prefix for each slot",
+				"trans": "Anda harus memilih awalan untuk setiap slot"
 			}
 		},
 		"expectedChance": {
@@ -530,8 +534,8 @@
 		},
 		"selectShard": {
 			"label": {
-				"eng": "Trait ${index}",
-				"trans": "Ciri ${index}"
+				"eng": "Prefix ${index}",
+				"trans": "Awalan ${index}"
 			},
 			"title": {
 				"eng": "Select shard",
@@ -547,6 +551,10 @@
 		"stop": {
 			"eng": "Stop",
 			"trans": "Berhenti"
+		},
+		"tip": {
+			"eng": "The chances of rolling traits is exactly the same as manually re-rolling, this is just a automatic re-roll feature for convenience.",
+			"trans": "Peluang untuk mendapatkan atribut yang diacak sama persis dengan mengacak secara manual, ini hanya fitur pengacak otomatis untuk kenyamanan."
 		}
 	},
 	"backgroundTask": {

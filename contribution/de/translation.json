@@ -512,6 +512,10 @@
 			"duplicateTraits": {
 				"eng": "You cannot select the same trait more than once",
 				"trans": "Du kannst ein Merkmal nicht mehrmals auswählen"
+			},
+			"emptyTraits": {
+				"eng": "You must select a prefix for each slot",
+				"trans": "Du musst für jeden Slot ein Präfix auswählen"
 			}
 		},
 		"expectedChance": {
@@ -530,8 +534,8 @@
 		},
 		"selectShard": {
 			"label": {
-				"eng": "Trait ${index}",
-				"trans": "Eigenschaft ${index}"
+				"eng": "Prefix ${index}",
+				"trans": "Präfix ${index}"
 			},
 			"title": {
 				"eng": "Select shard",
@@ -547,6 +551,10 @@
 		"stop": {
 			"eng": "Stop",
 			"trans": "Stopp"
+		},
+		"tip": {
+			"eng": "The chances of rolling traits is exactly the same as manually re-rolling, this is just a automatic re-roll feature for convenience.",
+			"trans": "Die Wahrscheinlichkeit, Eigenschaften zu würfeln, ist genau dieselbe wie beim manuellen erneuten Würfeln. Dies ist nur eine automatische erneute Würfelfunktion für mehr Komfort."
 		}
 	},
 	"backgroundTask": {

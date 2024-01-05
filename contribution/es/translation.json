@@ -512,6 +512,10 @@
 			"duplicateTraits": {
 				"eng": "You cannot select the same trait more than once",
 				"trans": "No puedes seleccionar el mismo rasgo más de una vez"
+			},
+			"emptyTraits": {
+				"eng": "You must select a prefix for each slot",
+				"trans": "Debes seleccionar un prefijo para cada ranura"
 			}
 		},
 		"expectedChance": {
@@ -530,8 +534,8 @@
 		},
 		"selectShard": {
 			"label": {
-				"eng": "Trait ${index}",
-				"trans": "Rasgo ${index}"
+				"eng": "Prefix ${index}",
+				"trans": "Prefijo ${index}"
 			},
 			"title": {
 				"eng": "Select shard",
@@ -547,6 +551,10 @@
 		"stop": {
 			"eng": "Stop",
 			"trans": "Detener"
+		},
+		"tip": {
+			"eng": "The chances of rolling traits is exactly the same as manually re-rolling, this is just a automatic re-roll feature for convenience.",
+			"trans": "Las probabilidades de obtener rasgos son exactamente las mismas que al volver a tirar manualmente, esta función solo es una opción de repetición automática para mayor comodidad."
 		}
 	},
 	"backgroundTask": {
