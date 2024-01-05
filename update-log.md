@@ -16,6 +16,7 @@
 
 ### 0.0.34
 
+-  Reduced `Hideout Raid` requirement from clearing level +5 Hard Difficulty Stronghold to clearing level +4 Hard Difficulty Stronghold
 -  Added a new battle track available during January
 -  Fixed issue with Hideout Raid reward showing incorrectly
 -  Fixed Hideout Raid giving more reward then is displayed
