@@ -8,6 +8,10 @@
 
 **If you find a exploit please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
+### 0.0.36
+
+-  Added time limit to receiving NPC affinity from liking their Chirp post, you can only receive NPC affinity from liking their Chirp post once that is posted within 6 hours
+
 ### 0.0.35
 
 -  Added auto reset functionality to item prefix reset, you can now select up to two prefix of your desire and the system will automatically try to reset your item until it has all the prefixes you selected. this is to make it easier to get the prefix you want without having to manually reset it over and over again.
