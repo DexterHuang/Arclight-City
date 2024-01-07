@@ -11,6 +11,9 @@
 ### 0.0.36
 
 -  Added time limit to receiving NPC affinity from liking their Chirp post, you can only receive NPC affinity from liking their Chirp post once that is posted within 6 hours
+-  Adjusted stronghold lobby UI to make it easier for reading
+-  Adjusted shop item display when there is discount
+-  Updated UI for main screen, should solve some issue with smaller screen size
 
 ### 0.0.35
 
