@@ -8,6 +8,10 @@
 
 **If you find a exploit please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
+### 0.0.37
+
+-  Allowing Christmas Gift to be unlocked until the end of March, so player who missed it can still unlock it.
+
 ### 0.0.36
 
 -  Added time limit to receiving NPC affinity from liking their Chirp post, you can only receive NPC affinity from liking their Chirp post once that is posted within 6 hours
