@@ -10,6 +10,10 @@
 
 ### 0.0.37
 
+-  Sorry about the longer mentainance time today, there was some unforeseen issue with third party server, it is been fixed now. and I have taken the opportunity to add in under-the-hood updates to support the lunar new year update :)
+
+### 0.0.37
+
 -  Allowing Christmas Gift to be unlocked until the end of March, so player who missed it can still unlock it.
 
 ### 0.0.36
