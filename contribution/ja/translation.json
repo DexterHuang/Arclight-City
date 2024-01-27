@@ -123,37 +123,37 @@
 		"burn": {
 			"description": {
 				"eng": "Burns targeted enemy for ${amount} damage for ${turns} turns",
-				"trans": "${amount}のダメージを与え、${turns}ターンの間、対象の敵を燃やす"
+				"trans": "対象の敵を燃焼状態にし、${turns}ターンの間、${amount}のダメージを与える"
 			},
 			"triggered": {
 				"eng": "${merc} burns ${enemy}, ${enemy} received ${damage} damage.",
-				"trans": "${merc}が${enemy}を燃やしました、${enemy}は${damage}のダメージを受けました。"
+				"trans": "${merc}が${enemy}に炎を放ち、${damage}のダメージを与えた。"
 			}
 		},
 		"burnGroup": {
 			"description": {
 				"eng": "Burns all enemies for ${amount} damage for ${turns} turns",
-				"trans": "${amount}のダメージを与え、${turns}ターンの間、すべての敵を燃やす"
+				"trans": "全ての敵を燃焼状態にし、${turns}ターンの間、${amount}のダメージを与える"
 			},
 			"triggered": {
 				"eng": "${merc} burns all enemies, dealt ${damage} damage each",
-				"trans": "${merc}は全ての敵に炎を放ち、それぞれ${damage}のダメージを与えました。"
+				"trans": "${merc}は全ての敵に炎を放ち、それぞれ${damage}のダメージを与えた。"
 			}
 		},
 		"heal": {
 			"description": {
 				"eng": "Heals your character for ${amount} health point",
-				"trans": "キャラクターを${amount}の体力ポイントで回復させます"
+				"trans": "キャラクターを${amount}回復します"
 			},
 			"triggered": {
 				"eng": "${merc} Healed ${playerName} for ${amount} health",
-				"trans": "${merc}が${playerName}の体力を${amount}回復しました。"
+				"trans": "${merc}が${playerName}を${amount}回復しました。"
 			}
 		},
 		"healGroup": {
 			"description": {
 				"eng": "Heals your team for ${amount} health",
-				"trans": "チーム全体の体力を${amount}回復します"
+				"trans": "チーム全体を${amount}回復します"
 			},
 			"triggered": {
 				"eng": "${merc} healed the team for ${amount} health",
@@ -163,21 +163,21 @@
 		"poison": {
 			"description": {
 				"eng": "Poisons the enemy for ${amount} for ${turn} turns",
-				"trans": "${turn}ターンの間、敵に${amount}の毒を与える"
+				"trans": "対象の敵を毒状態にし、${turns}ターンの間、${amount}のダメージを与える"
 			},
 			"triggered": {
 				"eng": "${merc} poisoned ${enemy}, ${enemy} received ${damage} damage.",
-				"trans": "${merc}は${enemy}に毒を与え、${enemy}は${damage}のダメージを受けました。"
+				"trans": "${merc}は${enemy}に毒を放ち、${damage}のダメージを与えた。"
 			}
 		},
 		"poisonGroup": {
 			"description": {
 				"eng": "Poisons all enemies for ${amount} for ${turns} turns",
-				"trans": "${turns}ターンの間、敵全体に${amount}の毒を与える"
+				"trans": "全ての敵を毒状態にし、${turns}ターンの間、${amount}のダメージを与える"
 			},
 			"triggered": {
 				"eng": "${merc} poisoned all enemies, dealt ${damage} damage each.",
-				"trans": "${merc}は${enemy}に毒を与え、${enemy}は${damage}のダメージを受けました。"
+				"trans": "${merc}は全ての敵に毒を放ち、それぞれ${damage}のダメージを与えた。"
 			}
 		},
 		"shield": {
@@ -197,7 +197,7 @@
 			},
 			"triggered": {
 				"eng": "${merc} shields the team for ${amount}",
-				"trans": "${merc}はチーム全体を${amount}でシールドします。"
+				"trans": "${merc}はチーム全体のシールドを${amount}回復しました。"
 			}
 		}
 	},
@@ -208,7 +208,7 @@
 		},
 		"damageOverTimeDescription": {
 			"eng": "This ability will deal damage over time, this kind of ability usually has less damage than one-strike abilities, however, it deals more damage in total over time.",
-			"trans": "このアビリティは継続ダメージを与える、このアビリティはワンストライクアビリティよりもダメージが少ないが、時間経過とともに合計ダメージ量が多くなる。"
+			"trans": "このアビリティは継続ダメージを与える、このアビリティは単発攻撃のアビリティよりもダメージが少ないが、時間経過とともに合計ダメージ量が多くなる。"
 		},
 		"groupTargetAlly": {
 			"eng": "Group Target",
@@ -376,11 +376,11 @@
 	"apartmentPurchasePage": {
 		"confirmDescription": {
 			"eng": "Are you sure you want to rent this apartment? if you already have an apartment, it will be dismissed.",
-			"trans": "このアパートを借りることを確認しますか？すでにアパートを持っている場合は、無効になります。"
+			"trans": "このアパートを借りますか？すでにアパートを持っている場合は、無効になります。"
 		},
 		"confirmTitle": {
 			"eng": "Confirm Rental",
-			"trans": "レンタルを確認します。"
+			"trans": "賃貸契約の確認"
 		},
 		"owned": {
 			"eng": "Owned",
@@ -476,7 +476,7 @@
 		},
 		"destroyChance": {
 			"eng": "Destroy chance:",
-			"trans": "破壊のチャンス"
+			"trans": "破損確率:"
 		},
 		"maxed": {
 			"eng": "Max Calibration Reached",
@@ -1416,7 +1416,7 @@
 		},
 		"heal": {
 			"eng": "${enemyName} healed for ${healAmount} health",
-			"trans": "${enemyName}は${healAmount}の体力を回復しました"
+			"trans": "${enemyName}は${healAmount}回復しました"
 		},
 		"normalAttack": {
 			"eng": "${enemyName} attacked ${player} for ${damage} damage",
@@ -1451,18 +1451,18 @@
 		"connecting": {
 			"description1": {
 				"eng": "Server is restarting for update or unstable connection.",
-				"trans": "サーバーはアップデートのために再起動するか、接続が不安定です。"
+				"trans": "サーバーがアップデートのための再起動中、または接続が不安定です。"
 			},
 			"description2": {
 				"eng": "In case of server restarts, it usually will be done within a few minutes.",
-				"trans": "サーバーが再起動する場合、通常数分以内に完了します。"
+				"trans": "サーバーの再起動は通常数分以内に完了します。"
 			}
 		},
 		"notLoggedIn": {
 			"reconnecting": {
 				"description": {
 					"eng": "No internet connection or server is restarting for update. Please try again later.",
-					"trans": "インターネット接続がありません、またはサーバーがアップデートのため再起動中です。後でもう一度お試しください。"
+					"trans": "インターネット接続がありません、またはサーバーがアップデートのために再起動中です。後でもう一度お試しください。"
 				},
 				"title": {
 					"eng": "Failed to connect to server.",
@@ -2235,7 +2235,7 @@
 			},
 			"description": {
 				"eng": "Are you sure you want to bring them into stronghold? \\nIf you die you will lose them.",
-				"trans": "本当に彼らを要塞に連れて行くことを望みますか？\\n死亡した場合、彼らを失います。"
+				"trans": "本当にこれらのアイテムを要塞に持ち込みますか？\\n死亡した場合これらのアイテムは失われます。"
 			},
 			"title": {
 				"eng": "there are items in your backpack",
@@ -3048,12 +3048,12 @@
 		},
 		"destroyChance2": {
 			"eng": "destroy chance",
-			"trans": "デストロイチャンス"
+			"trans": "破損確率"
 		},
 		"destroyChanceInfo": {
 			"description1": {
 				"eng": "Destroy chance is the chance of the item being destroyed when calibration failed.",
-				"trans": "キャリブレーションに失敗した場合、アイテムが破壊される可能性がある破壊確率です。"
+				"trans": "キャリブレーションに失敗した場合アイテムが破壊される確率です。"
 			},
 			"description2": {
 				"eng": "A destroyed item can be repaired at ${npcName} with ${item}",
@@ -3061,7 +3061,7 @@
 			},
 			"title": {
 				"eng": "Destroy chance",
-				"trans": "破壊のチャンス"
+				"trans": "破損確率"
 			}
 		},
 		"maxCalibration": {
@@ -3104,7 +3104,7 @@
 		},
 		"destroyed": {
 			"eng": "destroyed",
-			"trans": "破壊された"
+			"trans": "破損中"
 		},
 		"notTradable": {
 			"eng": "Not tradable",
@@ -5366,11 +5366,11 @@
 		},
 		"recruitMaxError": {
 			"eng": "You cannot recruit more than ${max} mercenaries, you can increase the max mercenary by renting a better apartment. or you may dismiss your unwanted mercenary for resources.",
-			"trans": "${max}人以上の傭兵を雇うことはできません。より良いアパートを借りることで最大傭兵数を増やすことができます。または、不要な傭兵をリソースと交換することで解雇することもできます。"
+			"trans": "${max}人以上の傭兵を雇うことはできません。より良いアパートを借りることで最大傭兵数を増やすことができます。または、不要な傭兵を解雇することでリソースと交換することもできます。"
 		},
 		"recruitOne": {
 			"eng": "Recruit one",
-			"trans": "一人を雇用する"
+			"trans": "一人雇う"
 		},
 		"recruitOneDescription": {
 			"eng": "one mercenary",
@@ -5378,7 +5378,7 @@
 		},
 		"recruitTen": {
 			"eng": "Recruit 10",
-			"trans": "10人の新人を募集"
+			"trans": "10人雇う"
 		},
 		"recruitTenDescription": {
 			"eng": "one 4 star or higher mercenary is guaranteed",
@@ -5432,7 +5432,7 @@
 	"mercenaryListPage": {
 		"description": {
 			"eng": "Contact capacity: ${current} / ${max}",
-			"trans": "コンタクト容量：${current} / ${max}"
+			"trans": "傭兵連絡リスト容量：${current} / ${max}"
 		},
 		"hireMercenary": {
 			"eng": "Recruit Mercenaries",
@@ -5512,7 +5512,7 @@
 		},
 		"noMercenaries": {
 			"eng": "No available mercenaries",
-			"trans": "傭兵不可用。"
+			"trans": "選択可能な傭兵が見つかりません"
 		}
 	},
 	"mercenaryType": {
@@ -8058,7 +8058,7 @@
 		"burn": {
 			"combatMsg": {
 				"eng": "${name} received ${damage} damage from burning",
-				"trans": "${name}は燃えて${damage}のダメージを受けました。"
+				"trans": "${name}は燃焼により${damage}のダメージを受けました。"
 			},
 			"desc": {
 				"eng": "Receive fire damage every turn",
@@ -8066,7 +8066,7 @@
 			},
 			"name": {
 				"eng": "Burned",
-				"trans": "燃えた"
+				"trans": "燃焼"
 			}
 		},
 		"defense1": {
@@ -8124,7 +8124,7 @@
 			},
 			"name": {
 				"eng": "Poisoned",
-				"trans": "毒を受けた"
+				"trans": "毒"
 			}
 		},
 		"power1": {
@@ -8516,7 +8516,7 @@
 	"toggleMinigame": {
 		"tip": {
 			"eng": "Toggle the switches in correct sequence to unlock",
-			"trans": "正しい順番に切り替えてロックを解除"
+			"trans": "ロックを解除するには正しい順序でスイッチを切り替えてください"
 		},
 		"title": {
 			"eng": "Sequential Unlock",
@@ -8654,7 +8654,7 @@
 		},
 		"rewardClaimed": {
 			"eng": "claimed",
-			"trans": "獲得しました。"
+			"trans": "獲得済"
 		},
 		"rewardDescription": {
 			"eng": "Rewards are claimed after clearing the ${difficulty} stronghold, you must participate in defeating the boss for it to count.\\nyou can only claim reward for each location once.",
@@ -9065,38 +9065,38 @@
 		"huge": {
 			"name": {
 				"eng": "Huge",
-				"trans": "巨大な"
+				"trans": "極大"
 			}
 		},
 		"large": {
 			"name": {
 				"eng": "Large",
-				"trans": "大きい"
+				"trans": "大"
 			}
 		},
 		"normal": {
 			"name": {
 				"eng": "Normal",
-				"trans": "通常"
+				"trans": "普通"
 			}
 		},
 		"small": {
 			"name": {
 				"eng": "Small",
-				"trans": "小さな"
+				"trans": "小"
 			}
 		},
 		"tiny": {
 			"name": {
 				"eng": "Tiny",
-				"trans": "小さな"
+				"trans": "極小"
 			}
 		}
 	},
 	"updatingOverlay": {
 		"description": {
 			"eng": "Hello, I'm quickly updating the server to improve the game! \\nIt's normal to see a reconnect or update screen for a few seconds.🚀\\nApologies for any inconvenience and thanks for your patience.🙏",
-			"trans": "こんにちは、ゲームを改善するためにサーバーを素早く更新しています！\\n数秒間再接続やアップデート画面が表示されるのは正常です。🚀\\nご不便をおかけして申し訳ありませんが、ご理解とご協力ありがとうございます。🙏"
+			"trans": "こんにちは、ゲームを改善するためにサーバーを頻繁に更新しています！\\n数秒間の再接続やアップデート画面が表示されるのは正常です。🚀\\nご不便をおかけして申し訳ありませんが、ご理解とご協力ありがとうございます。🙏"
 		},
 		"title": {
 			"eng": "🌟 Quick Update Notice!",
