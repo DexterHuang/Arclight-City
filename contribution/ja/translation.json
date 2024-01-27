@@ -107,7 +107,7 @@
 		"attack": {
 			"description": {
 				"eng": "Attacks the enemy for ${amount} health points",
-				"trans": "${amount}の体力ポイントを消費して敵を攻撃する"
+				"trans": "${amount}の生命力を消費して敵を攻撃する"
 			},
 			"triggered": {
 				"eng": "${playerName} Attacked for ${amount} damage",
@@ -457,11 +457,11 @@
 		"vit": {
 			"desc": {
 				"eng": "Increases health",
-				"trans": "体力を増やす。"
+				"trans": "生命力を増やす。"
 			},
 			"name": {
 				"eng": "Vitality",
-				"trans": "生命力"
+				"trans": "体力"
 			}
 		}
 	},
@@ -2357,7 +2357,7 @@
 		"health": {
 			"desc": {
 				"eng": "Has higher health than normal enemies",
-				"trans": "通常の敵よりも高い体力を持っています。"
+				"trans": "通常の敵よりも高い生命力を持っています。"
 			},
 			"name": {
 				"eng": "Tough",
@@ -2741,7 +2741,7 @@
 		"activateButton": {
 			"description": {
 				"eng": "This action will sacrifice ${hp} of your heath",
-				"trans": "このアクションはあなたの体力を${hp}消費します。"
+				"trans": "このアクションはあなたの生命力を${hp}消費します。"
 			},
 			"title": {
 				"eng": "Activate",
@@ -3628,12 +3628,12 @@
 		},
 		"health": {
 			"eng": "Health",
-			"trans": "体力"
+			"trans": "生命力"
 		},
 		"healthMult": {
 			"name": {
 				"eng": "Health Multiplier",
-				"trans": "体力倍率"
+				"trans": "生命力倍率"
 			}
 		},
 		"int": {
@@ -3675,7 +3675,7 @@
 		"vit": {
 			"name": {
 				"eng": "Vitality",
-				"trans": "生命力"
+				"trans": "体力"
 			}
 		}
 	},
@@ -3873,7 +3873,7 @@
 		"healing1": {
 			"description": {
 				"eng": "Use to recover small amount of health",
-				"trans": "少量の体力を回復するために使用する"
+				"trans": "少量の生命力を回復するために使用する"
 			},
 			"name": {
 				"eng": "Basic Healing Nanobot",
@@ -3883,7 +3883,7 @@
 		"healing2": {
 			"description": {
 				"eng": "Use to recover moderate amount of health",
-				"trans": "中程度の体力回復に使用する。"
+				"trans": "中程度の生命力回復に使用する。"
 			},
 			"name": {
 				"eng": "Advance Healing Nanobot",
@@ -4607,11 +4607,11 @@
 		"scavenge": {
 			"currentEffectDescription": {
 				"eng": "Increases vitality by ${vitality} (increases health by ${health}) and scavenging task profit to ${profit}",
-				"trans": "生命力を${vitality}増加させます（体力を${health}増加させます）および探索タスクの利益を${profit}に増やします。"
+				"trans": "体力を${vitality}増加させます（生命力を${health}増加させます）および探索タスクの利益を${profit}に増やします。"
 			},
 			"description": {
 				"eng": "Increases vitality attribute by 1 every level, and increases profit from this job type",
-				"trans": "各レベルごとに生命力属性を1増やし、このジョブの利益を増やします"
+				"trans": "各レベルごとに体力属性を1増やし、このジョブの利益を増やします"
 			},
 			"displayName": {
 				"eng": "Scavenging Level",
@@ -7274,7 +7274,7 @@
 		},
 		"healRatio": {
 			"eng": "Heal ${percent}% of your max health",
-			"trans": "最大体力を${percent}%回復する"
+			"trans": "最大生命力を${percent}%回復する"
 		},
 		"reducePsychosis": {
 			"eng": "Reduce psychosis by ${reducePsychosis}",
@@ -7961,7 +7961,7 @@
 		},
 		"health": {
 			"eng": "Health",
-			"trans": "体力"
+			"trans": "生命力"
 		},
 		"healthDesc": {
 			"eng": "Increases your maximum health.",
@@ -7969,7 +7969,7 @@
 		},
 		"healthPercent": {
 			"eng": "Health Multiplier",
-			"trans": "体力倍率"
+			"trans": "生命力倍率"
 		},
 		"healthPercentDesc": {
 			"eng": "Increases your maximum health.",
@@ -8041,11 +8041,11 @@
 		},
 		"vit": {
 			"eng": "Vitality",
-			"trans": "生命力"
+			"trans": "体力"
 		},
 		"vitDesc": {
 			"eng": "Increases your vitality attribute, which in turn increases your maximum health.",
-			"trans": "体力を増加させ、最大生命値を増加させます。"
+			"trans": "体力を増加させ、最大生命力を増加させます。"
 		}
 	},
 	"statDiff": {
@@ -8096,7 +8096,7 @@
 			},
 			"desc": {
 				"eng": "Recover health every turn",
-				"trans": "回復された対象は、毎ターン体力を回復します。"
+				"trans": "回復された対象は、毎ターン生命力を回復します。"
 			},
 			"name": {
 				"eng": "Healed",
@@ -8906,7 +8906,7 @@
 		},
 		"health": {
 			"eng": "health",
-			"trans": "体力"
+			"trans": "生命力"
 		},
 		"inventoryPage": {
 			"equipmentTab": {
