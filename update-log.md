@@ -8,6 +8,10 @@
 
 **If you find a exploit please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
+### 0.0.39
+
+-  Added battle track for Lunar New Year, you can receive red envelope from the track, the red envelope contains various high value loots, this can only be obtained from Lunar New Year battle track
+
 ### 0.0.38
 
 -  Sorry about the longer mentainance time today, there was some unforeseen issue with third party server, it is been fixed now. and I have taken the opportunity to add in under-the-hood updates to support the lunar new year update :)
