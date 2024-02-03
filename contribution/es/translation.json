@@ -800,6 +800,20 @@
 				"trans": "Cristal de Fragmento de Luz"
 			}
 		},
+		"lunar": {
+			"description": {
+				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
+				"trans": "Recibe varias recompensas diarias durante 21 días, y hasta ${itemName} en el día 22"
+			},
+			"subtitle": {
+				"eng": "Golden Blessings",
+				"trans": "Bendiciones Doradas"
+			},
+			"title": {
+				"eng": "Lunar Bliss",
+				"trans": "Luna de Ensueño"
+			}
+		},
 		"mercEnhancer": {
 			"description": {
 				"eng": "Receive free ${item} every day",
@@ -4206,6 +4220,16 @@
 				"trans": "Fragmento de mejora raro"
 			}
 		},
+		"redEnvelope": {
+			"description": {
+				"eng": "A traditional lunar new year gift, you can open it to receive random rewards.",
+				"trans": "Un regalo tradicional de Año Nuevo lunar, puedes abrirlo para recibir recompensas aleatorias."
+			},
+			"name": {
+				"eng": "Red Envelope",
+				"trans": "Sobre el sobre rojo"
+			}
+		},
 		"repairKit": {
 			"description": {
 				"eng": "The Nano Repairer is a state-of-the-art device developed by TaiXing Cybernetics for repairing a wide range of equipment intelligently with nano-machines. It's your go-to solution when your gear malfunctions due to calibration failure. Keep in mind, it doesn't guarantee a fix every time, but persistence pays off, after a few attempts, it'll get the job done.",
@@ -7114,8 +7138,8 @@
 	},
 	"recipe": {
 		"notAvailableError": {
-			"eng": "this is only available during between ${dateStart} and ${dateEnd}",
-			"trans": "Esto solo está disponible entre ${dateStart} y ${dateEnd}"
+			"eng": "this is only available between ${dateStart} and ${dateEnd}",
+			"trans": "esto solo está disponible entre ${dateStart} y ${dateEnd}"
 		}
 	},
 	"referral": {
@@ -7786,6 +7810,10 @@
 		"noPostsYet": {
 			"eng": "No posts yet",
 			"trans": "No hay publicaciones todavía"
+		},
+		"tweetPosted": {
+			"eng": "${npc} has posted a chirp",
+			"trans": "${npc} ha publicado un chirp"
 		}
 	},
 	"socialPage": {

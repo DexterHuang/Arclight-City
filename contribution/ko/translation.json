@@ -800,6 +800,20 @@
 				"trans": "샤드라이트 크리스탈"
 			}
 		},
+		"lunar": {
+			"description": {
+				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
+				"trans": "21일 동안 매일 다양한 보상을 받으세요. 그리고 22일에는 최대 ${itemName}을(를) 받을 수 있습니다"
+			},
+			"subtitle": {
+				"eng": "Golden Blessings",
+				"trans": "황금 축복"
+			},
+			"title": {
+				"eng": "Lunar Bliss",
+				"trans": "달의 황홀함"
+			}
+		},
 		"mercEnhancer": {
 			"description": {
 				"eng": "Receive free ${item} every day",
@@ -4206,6 +4220,16 @@
 				"trans": "희귀한 업그레이드 샤드"
 			}
 		},
+		"redEnvelope": {
+			"description": {
+				"eng": "A traditional lunar new year gift, you can open it to receive random rewards.",
+				"trans": "전통적인 설날 선물로, 열면 무작위 보상을 받을 수 있습니다."
+			},
+			"name": {
+				"eng": "Red Envelope",
+				"trans": "빨간 봉투"
+			}
+		},
 		"repairKit": {
 			"description": {
 				"eng": "The Nano Repairer is a state-of-the-art device developed by TaiXing Cybernetics for repairing a wide range of equipment intelligently with nano-machines. It's your go-to solution when your gear malfunctions due to calibration failure. Keep in mind, it doesn't guarantee a fix every time, but persistence pays off, after a few attempts, it'll get the job done.",
@@ -7114,8 +7138,8 @@
 	},
 	"recipe": {
 		"notAvailableError": {
-			"eng": "this is only available during between ${dateStart} and ${dateEnd}",
-			"trans": "이 기능은 ${dateStart}와(과) ${dateEnd} 사이에만 이용 가능합니다"
+			"eng": "this is only available between ${dateStart} and ${dateEnd}",
+			"trans": "이 기능은 ${dateStart}부터 ${dateEnd}까지만 사용할 수 있습니다"
 		}
 	},
 	"referral": {
@@ -7786,6 +7810,10 @@
 		"noPostsYet": {
 			"eng": "No posts yet",
 			"trans": "아직 게시물이 없습니다"
+		},
+		"tweetPosted": {
+			"eng": "${npc} has posted a chirp",
+			"trans": "${npc}이(가) 치르프를 게시했습니다"
 		}
 	},
 	"socialPage": {
