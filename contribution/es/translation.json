@@ -42,7 +42,7 @@
 	"CrewTip": {
 		"tip1": {
 			"eng": "Looks like one or more of your mercenary is low level, you should level them up to match your level using ${item1} and ${item2}",
-			"trans": "Parece que uno o más de tus mercenarios tienen un nivel bajo, deberías subirlos de nivel para que coincidan con tu nivel usando ${item1} y ${item2}"
+			"trans": "Parece que uno o más de tus mercenarios son de nivel bajo, deberías subirlos de nivel para que coincidan con tu nivel usando ${item1} y ${item2}"
 		}
 	},
 	"MercenaryDrawType": {
@@ -204,7 +204,7 @@
 	"abilityTag": {
 		"damageOverTime": {
 			"eng": "Damage Over Time",
-			"trans": "Daño en el tiempo"
+			"trans": "Daño con el tiempo"
 		},
 		"damageOverTimeDescription": {
 			"eng": "This ability will deal damage over time, this kind of ability usually has less damage than one-strike abilities, however, it deals more damage in total over time.",
@@ -247,7 +247,7 @@
 		"apartment0": {
 			"displayName": {
 				"eng": "Slum Apartment",
-				"trans": "Apartamento en la zona marginal"
+				"trans": "Apartamento marginal"
 			}
 		},
 		"apartment1": {
@@ -271,7 +271,7 @@
 		"enter": {
 			"blocked": {
 				"eng": "This apartment cannot entered at this moment.",
-				"trans": "Este apartamento no puede ser ingresado en este momento."
+				"trans": "No se puede ingresar a este apartamento por ahora."
 			}
 		},
 		"error": {
@@ -314,7 +314,7 @@
 			"paid": {
 				"title": {
 					"eng": "Apartment rental fee ${amount} has been deducted from your account",
-					"trans": "Se han deducido ${amount} de tu cuenta en concepto de alquiler del apartamento"
+					"trans": "Se han deducido ${amount} de tu cuenta por el alquier del apartamento"
 				}
 			}
 		}
@@ -416,7 +416,7 @@
 		},
 		"headshot": {
 			"eng": "headshot",
-			"trans": "disparo en la cabeza"
+			"trans": "tiro en la cabeza"
 		},
 		"instruction": {
 			"eng": "hold and release to attack",
@@ -480,7 +480,7 @@
 		},
 		"maxed": {
 			"eng": "Max Calibration Reached",
-			"trans": "Máxima Calibración Alcanzada"
+			"trans": "Máx. Calibración Alcanzada"
 		},
 		"noChance": {
 			"eng": "Success chance is zero",
@@ -488,7 +488,7 @@
 		},
 		"noItem": {
 			"eng": "No item found",
-			"trans": "No se encontró ningún objeto"
+			"trans": "Ningún objeto encontrado"
 		},
 		"stop": {
 			"eng": "Interrupt Auto Calibration",
@@ -500,7 +500,7 @@
 		},
 		"tip": {
 			"eng": "Automatically calibrate and repair your item until it have successfully calibrated it once, or if you stopped the process.",
-			"trans": "Calibra y repara automáticamente tu objeto hasta que se haya calibrado con éxito una vez, o si detuviste el proceso."
+			"trans": "Calibra y repara automáticamente tu objeto hasta la calibración exitosa una vez, o si detuviste el proceso."
 		}
 	},
 	"autoResetPage": {
@@ -515,7 +515,7 @@
 			},
 			"emptyTraits": {
 				"eng": "You must select a prefix for each slot",
-				"trans": "Debes seleccionar un prefijo para cada ranura"
+				"trans": "Debes elegir un prefijo para cada ranura"
 			}
 		},
 		"expectedChance": {
@@ -637,7 +637,7 @@
 		"abandonedCity": {
 			"description": {
 				"eng": "Mirai; Once a picturesque tourist haven, it now stands abandoned, ravaged by soaring crime rates and leaked radiation. In this desolate landscape, only a handful of desperate junkies and ruthless mercenaries remain, scavenging for whatever loot they can find amidst the ruins.",
-				"trans": "Mirai: antaño un pintoresco paraíso turístico, ahora está abandonado y devastado por las altas tasas de criminalidad y las fugas radiactivas. En este paisaje desolador, solo quedan unos pocos yonquis desesperados y mercenarios despiadados que buscan cualquier botín que puedan encontrar entre las ruinas."
+				"trans": "Mirai: Antes un paraiso turistíco, ahora abandonado y afectado por la alta criminalidad y fugas radiactivas.En este paisaje desolador, solo quedan yonquis desesperados y mercenarios implacables que buscan cualquier botin entre las ruinas."
 			},
 			"displayName": {
 				"eng": "Mirai District",
@@ -798,20 +798,6 @@
 			"title": {
 				"eng": "Shardlight Crystal",
 				"trans": "Cristal de Fragmento de Luz"
-			}
-		},
-		"lunar": {
-			"description": {
-				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
-				"trans": "Recibe varias recompensas diarias durante 21 días, y hasta ${itemName} en el día 22"
-			},
-			"subtitle": {
-				"eng": "Golden Blessings",
-				"trans": "Bendiciones Doradas"
-			},
-			"title": {
-				"eng": "Lunar Bliss",
-				"trans": "Luna de Ensueño"
 			}
 		},
 		"mercEnhancer": {
@@ -979,7 +965,7 @@
 	"caliTip": {
 		"1": {
 			"eng": "Seems like some of your equipments are still at +${cali} calibration level or lower. You should calibration them to at least +${targetCali} calibration level at the item calibration interface using ${calibrator}",
-			"trans": "Parece que algunos de tus equipos todavía están en el nivel de calibración +${cali} o inferior. Deberías calibrarlos al menos al nivel de calibración +${targetCali} en la interfaz de calibración de objetos usando ${calibrador}"
+			"trans": "Parece que algunos de tus equipos estan calibrado en el nivel +${cali} o inferior. Deberías calibrarlos al menos al nivel de calibración +${targetCali} en la interfaz de calibración de objetos usando ${calibrador}"
 		}
 	},
 	"calibrationResultPopup": {
@@ -1707,7 +1693,7 @@
 		"mercExpCurrency": {
 			"description": {
 				"eng": "A nano-machine injection device created by Taixing Cybernetics, providing unparalleled upgrades to cybernetic abilities. Inject into the neck for enhanced performance.",
-				"trans": "Un dispositivo de inyección de nanomáquinas creado por TaiXing Cibernético que proporciona mejoras sin precedentes a las habilidades cibernéticas. Inyectar en el cuello para mejorar el rendimiento."
+				"trans": "Un dispositivo de inyección de nanomáquinas creado por TaiXing Cibernetics que proporciona mejoras sin precedentes a las habilidades cibernéticas. Inyectar en el cuello para mejorar el rendimiento."
 			},
 			"name": {
 				"eng": "Cybernetic Enhancer",
@@ -1717,11 +1703,11 @@
 		"mercUpgradeCurrency": {
 			"description": {
 				"eng": "Neural Upgrade Augmenter is a cutting-edge implant that enables users to break past their mental limitations and reach untold levels of cognitive enhancement. With the ability to exceed typical neural barriers, users can unlock new levels of insight, creativity, and physical performance.",
-				"trans": "El Mejorador de Mejora Neural es un implante de vanguardia que permite a los usuarios traspasar sus limitaciones mentales y alcanzar niveles inauditos de mejora cognitiva. Con la capacidad de superar las barreras neuronales típicas, los usuarios pueden desbloquear nuevos niveles de conocimiento, creatividad y rendimiento físico."
+				"trans": "El Mejorador Neural es un avanzado implante que capacita a los usuarios para superar sus limitaciones mentales, logrando niveles excepcionales de mejora cognitiva. Al vencer las barreras neuronales convencionales, posibilita desbloquear niveles inéditos de conocimiento, creatividad y rendimiento físico."
 			},
 			"name": {
 				"eng": "Neural Upgrade Augmenter",
-				"trans": "Mejorador de Mejora Neural"
+				"trans": "Aumentador de Mejora Neural"
 			}
 		},
 		"normal": {
@@ -1822,7 +1808,7 @@
 	"deadthScreen": {
 		"decoText": {
 			"eng": "No existing insurance found",
-			"trans": "No se encontró ningún seguro existente"
+			"trans": "No se Halló ningún seguro existente"
 		},
 		"itemLost": {
 			"eng": "${amount} items from backpack was taken as compensation to Ripperdoc",
@@ -1848,13 +1834,13 @@
 		},
 		"upgradeMercenary": {
 			"eng": "Upgrade or hire more mercenaries",
-			"trans": "Mejorar o contratar más mercenarios"
+			"trans": "Mejora o contratar más mercenarios"
 		}
 	},
 	"deathItemPage": {
 		"line": {
 			"eng": "I ain't doing charity here yo",
-			"trans": "No estoy haciendo caridad aquí, amigo"
+			"trans": "No hago caridad aquí, sabes?"
 		},
 		"premiumCurrencyRecoverButton": {
 			"title": {
@@ -1966,7 +1952,7 @@
 	"dungeon": {
 		"backpackTransferPartialFail": {
 			"eng": "Some item in your backpack cannot be transferred to your inventory because there was no enough space",
-			"trans": "Algunos objetos en tu mochila no pueden ser transferidos a tu inventario porque no hay suficiente espacio"
+			"trans": "Algunos objetos en tu mochila no se pueden transferir a tu inventario debido a la falta de espacio"
 		},
 		"dungeonCleared": {
 			"eng": "Dungeon cleared!",
@@ -4218,16 +4204,6 @@
 			"name": {
 				"eng": "Rare Upgrade Shard",
 				"trans": "Fragmento de mejora raro"
-			}
-		},
-		"redEnvelope": {
-			"description": {
-				"eng": "A traditional lunar new year gift, you can open it to receive random rewards.",
-				"trans": "Un regalo tradicional de Año Nuevo lunar, puedes abrirlo para recibir recompensas aleatorias."
-			},
-			"name": {
-				"eng": "Red Envelope",
-				"trans": "Sobre el sobre rojo"
 			}
 		},
 		"repairKit": {
@@ -7138,8 +7114,8 @@
 	},
 	"recipe": {
 		"notAvailableError": {
-			"eng": "this is only available between ${dateStart} and ${dateEnd}",
-			"trans": "esto solo está disponible entre ${dateStart} y ${dateEnd}"
+			"eng": "this is only available during between ${dateStart} and ${dateEnd}",
+			"trans": "Esto solo está disponible entre ${dateStart} y ${dateEnd}"
 		}
 	},
 	"referral": {
@@ -7810,10 +7786,6 @@
 		"noPostsYet": {
 			"eng": "No posts yet",
 			"trans": "No hay publicaciones todavía"
-		},
-		"tweetPosted": {
-			"eng": "${npc} has posted a chirp",
-			"trans": "${npc} ha publicado un chirp"
 		}
 	},
 	"socialPage": {
