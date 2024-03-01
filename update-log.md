@@ -8,6 +8,13 @@
 
 **If you find a exploit please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
+### 0.0.40
+
+-  Added cherry blossom battle pass
+-  Fixed issue with the server sending notifications multiple times
+-  General bug fixes
+-  Minor UI changes
+
 ### 0.0.39
 
 -  Added battle track for Lunar New Year, you can receive red envelope from the track, the red envelope contains various high value loots, this can only be obtained from Lunar New Year battle track
