@@ -81,7 +81,7 @@
 		"container": {
 			"title": {
 				"eng": "Containers",
-				"trans": "コンテナー"
+				"trans": "コンテナ"
 			}
 		},
 		"containerKey": {
@@ -107,7 +107,7 @@
 		"attack": {
 			"description": {
 				"eng": "Attacks the enemy for ${amount} health points",
-				"trans": "${amount}の体力ポイントを消費して敵を攻撃する"
+				"trans": "${amount}の生命力を消費して敵を攻撃する"
 			},
 			"triggered": {
 				"eng": "${playerName} Attacked for ${amount} damage",
@@ -123,37 +123,37 @@
 		"burn": {
 			"description": {
 				"eng": "Burns targeted enemy for ${amount} damage for ${turns} turns",
-				"trans": "${amount}のダメージを与え、${turns}ターンの間、対象の敵を燃やす"
+				"trans": "対象の敵を燃焼状態にし、${turns}ターンの間、${amount}のダメージを与える"
 			},
 			"triggered": {
 				"eng": "${merc} burns ${enemy}, ${enemy} received ${damage} damage.",
-				"trans": "${merc}が${enemy}を燃やしました、${enemy}は${damage}のダメージを受けました。"
+				"trans": "${merc}が${enemy}に炎を放ち、${damage}のダメージを与えた。"
 			}
 		},
 		"burnGroup": {
 			"description": {
 				"eng": "Burns all enemies for ${amount} damage for ${turns} turns",
-				"trans": "${amount}のダメージを与え、${turns}ターンの間、すべての敵を燃やす"
+				"trans": "全ての敵を燃焼状態にし、${turns}ターンの間、${amount}のダメージを与える"
 			},
 			"triggered": {
 				"eng": "${merc} burns all enemies, dealt ${damage} damage each",
-				"trans": "${merc}は全ての敵に炎を放ち、それぞれ${damage}のダメージを与えました。"
+				"trans": "${merc}は全ての敵に炎を放ち、それぞれ${damage}のダメージを与えた。"
 			}
 		},
 		"heal": {
 			"description": {
 				"eng": "Heals your character for ${amount} health point",
-				"trans": "キャラクターを${amount}の体力ポイントで回復させます"
+				"trans": "キャラクターを${amount}回復します"
 			},
 			"triggered": {
 				"eng": "${merc} Healed ${playerName} for ${amount} health",
-				"trans": "${merc}が${playerName}の体力を${amount}回復しました。"
+				"trans": "${merc}が${playerName}を${amount}回復しました。"
 			}
 		},
 		"healGroup": {
 			"description": {
 				"eng": "Heals your team for ${amount} health",
-				"trans": "チーム全体の体力を${amount}回復します"
+				"trans": "チーム全体を${amount}回復します"
 			},
 			"triggered": {
 				"eng": "${merc} healed the team for ${amount} health",
@@ -163,21 +163,21 @@
 		"poison": {
 			"description": {
 				"eng": "Poisons the enemy for ${amount} for ${turn} turns",
-				"trans": "${turn}ターンの間、敵に${amount}の毒を与える"
+				"trans": "対象の敵を毒状態にし、${turns}ターンの間、${amount}のダメージを与える"
 			},
 			"triggered": {
 				"eng": "${merc} poisoned ${enemy}, ${enemy} received ${damage} damage.",
-				"trans": "${merc}は${enemy}に毒を与え、${enemy}は${damage}のダメージを受けました。"
+				"trans": "${merc}は${enemy}に毒を放ち、${damage}のダメージを与えた。"
 			}
 		},
 		"poisonGroup": {
 			"description": {
 				"eng": "Poisons all enemies for ${amount} for ${turns} turns",
-				"trans": "${turns}ターンの間、敵全体に${amount}の毒を与える"
+				"trans": "全ての敵を毒状態にし、${turns}ターンの間、${amount}のダメージを与える"
 			},
 			"triggered": {
 				"eng": "${merc} poisoned all enemies, dealt ${damage} damage each.",
-				"trans": "${merc}は${enemy}に毒を与え、${enemy}は${damage}のダメージを受けました。"
+				"trans": "${merc}は全ての敵に毒を放ち、それぞれ${damage}のダメージを与えた。"
 			}
 		},
 		"shield": {
@@ -197,7 +197,7 @@
 			},
 			"triggered": {
 				"eng": "${merc} shields the team for ${amount}",
-				"trans": "${merc}はチーム全体を${amount}でシールドします。"
+				"trans": "${merc}はチーム全体のシールドを${amount}回復しました。"
 			}
 		}
 	},
@@ -208,7 +208,7 @@
 		},
 		"damageOverTimeDescription": {
 			"eng": "This ability will deal damage over time, this kind of ability usually has less damage than one-strike abilities, however, it deals more damage in total over time.",
-			"trans": "このアビリティは継続ダメージを与える、このアビリティはワンストライクアビリティよりもダメージが少ないが、時間経過とともに合計ダメージ量が多くなる。"
+			"trans": "このアビリティは継続ダメージを与える、このアビリティは単発攻撃のアビリティよりもダメージが少ないが、時間経過とともに合計ダメージ量が多くなる。"
 		},
 		"groupTargetAlly": {
 			"eng": "Group Target",
@@ -376,11 +376,11 @@
 	"apartmentPurchasePage": {
 		"confirmDescription": {
 			"eng": "Are you sure you want to rent this apartment? if you already have an apartment, it will be dismissed.",
-			"trans": "このアパートを借りることを確認しますか？すでにアパートを持っている場合は、無効になります。"
+			"trans": "このアパートを借りますか？すでにアパートを持っている場合は、無効になります。"
 		},
 		"confirmTitle": {
 			"eng": "Confirm Rental",
-			"trans": "レンタルを確認します。"
+			"trans": "賃貸契約の確認"
 		},
 		"owned": {
 			"eng": "Owned",
@@ -437,7 +437,7 @@
 		"int": {
 			"desc": {
 				"eng": "Increase energy weapon damage",
-				"trans": "エネルギー武器のダメージを増やす"
+				"trans": "エネルギー兵器のダメージを増やす"
 			},
 			"name": {
 				"eng": "Intelligence",
@@ -447,7 +447,7 @@
 		"str": {
 			"desc": {
 				"eng": "Increase melee damage.",
-				"trans": "近接攻撃ダメージを増やす。"
+				"trans": "近接武器ダメージを増やす。"
 			},
 			"name": {
 				"eng": "Strength",
@@ -457,11 +457,11 @@
 		"vit": {
 			"desc": {
 				"eng": "Increases health",
-				"trans": "体力を増やす。"
+				"trans": "生命力を増やす。"
 			},
 			"name": {
 				"eng": "Vitality",
-				"trans": "生命力"
+				"trans": "体力"
 			}
 		}
 	},
@@ -476,7 +476,7 @@
 		},
 		"destroyChance": {
 			"eng": "Destroy chance:",
-			"trans": "破壊のチャンス"
+			"trans": "破損確率:"
 		},
 		"maxed": {
 			"eng": "Max Calibration Reached",
@@ -833,7 +833,7 @@
 			},
 			"subtitle": {
 				"eng": "Upgrade Mercenaries",
-				"trans": "マーセナリーをアップグレードする"
+				"trans": "傭兵をアップグレードする"
 			},
 			"title": {
 				"eng": "Unleash Power",
@@ -974,7 +974,7 @@
 		"freeHideoutLocator": {
 			"name": {
 				"eng": "Free Hideout Locator",
-				"trans": "隠れ家ロケーション"
+				"trans": "無料の隠れ家探索装置"
 			}
 		},
 		"itemUpgradeDeal": {
@@ -1011,7 +1011,7 @@
 	"calibrationResultPopup": {
 		"confirm": {
 			"eng": "Confirm",
-			"trans": "確認します"
+			"trans": "確認"
 		},
 		"failed": {
 			"description": {
@@ -1059,7 +1059,7 @@
 	"characterCreate": {
 		"confirm": {
 			"eng": "confirm",
-			"trans": "確認します"
+			"trans": "確定"
 		},
 		"confirmModal": {
 			"description": {
@@ -1176,7 +1176,7 @@
 		},
 		"confirmDeploy": {
 			"eng": "Confirm deploy",
-			"trans": "デプロイを確認しますか？"
+			"trans": "展開を確定"
 		},
 		"confirmDeployDescription": {
 			"eng": "Are you sure you want to deploy \"${buffName}\" buff?",
@@ -1456,7 +1456,7 @@
 		},
 		"heal": {
 			"eng": "${enemyName} healed for ${healAmount} health",
-			"trans": "${enemyName}は${healAmount}の体力を回復しました"
+			"trans": "${enemyName}は${healAmount}回復しました"
 		},
 		"normalAttack": {
 			"eng": "${enemyName} attacked ${player} for ${damage} damage",
@@ -1484,25 +1484,25 @@
 		},
 		"confirm": {
 			"eng": "Confirm",
-			"trans": "確認する"
+			"trans": "確定する"
 		}
 	},
 	"connectingOverlay": {
 		"connecting": {
 			"description1": {
 				"eng": "Server is restarting for update or unstable connection.",
-				"trans": "サーバーはアップデートのために再起動するか、接続が不安定です。"
+				"trans": "サーバーがアップデートのための再起動中、または接続が不安定です。"
 			},
 			"description2": {
 				"eng": "In case of server restarts, it usually will be done within a few minutes.",
-				"trans": "サーバーが再起動する場合、通常数分以内に完了します。"
+				"trans": "サーバーの再起動は通常数分以内に完了します。"
 			}
 		},
 		"notLoggedIn": {
 			"reconnecting": {
 				"description": {
 					"eng": "No internet connection or server is restarting for update. Please try again later.",
-					"trans": "インターネット接続がありません、またはサーバーがアップデートのため再起動中です。後でもう一度お試しください。"
+					"trans": "インターネット接続がありません、またはサーバーがアップデートのために再起動中です。後でもう一度お試しください。"
 				},
 				"title": {
 					"eng": "Failed to connect to server.",
@@ -1727,7 +1727,7 @@
 			},
 			"name": {
 				"eng": "Hideout Locator",
-				"trans": "隠れ家ロケーション"
+				"trans": "隠れ家探索装置"
 			}
 		},
 		"mercExpCurrency": {
@@ -1857,7 +1857,7 @@
 		"respawnButton": {
 			"title": {
 				"eng": "Confirm",
-				"trans": "確認する"
+				"trans": "確認"
 			}
 		},
 		"subtitle": {
@@ -2275,7 +2275,7 @@
 			},
 			"description": {
 				"eng": "Are you sure you want to bring them into stronghold? \\nIf you die you will lose them.",
-				"trans": "本当に彼らを要塞に連れて行くことを望みますか？\\n死亡した場合、彼らを失います。"
+				"trans": "本当にこれらのアイテムを要塞に持ち込みますか？\\n死亡した場合これらのアイテムは失われます。"
 			},
 			"title": {
 				"eng": "there are items in your backpack",
@@ -2339,7 +2339,7 @@
 		"physical": {
 			"name": {
 				"eng": "Physical",
-				"trans": "物理的"
+				"trans": "フィジカル"
 			}
 		}
 	},
@@ -2397,7 +2397,7 @@
 		"health": {
 			"desc": {
 				"eng": "Has higher health than normal enemies",
-				"trans": "通常の敵よりも高い体力を持っています。"
+				"trans": "通常の敵よりも高い生命力を持っています。"
 			},
 			"name": {
 				"eng": "Tough",
@@ -2781,7 +2781,7 @@
 		"activateButton": {
 			"description": {
 				"eng": "This action will sacrifice ${hp} of your heath",
-				"trans": "このアクションはあなたの体力を${hp}消費します。"
+				"trans": "このアクションはあなたの生命力を${hp}消費します。"
 			},
 			"title": {
 				"eng": "Activate",
@@ -3088,12 +3088,12 @@
 		},
 		"destroyChance2": {
 			"eng": "destroy chance",
-			"trans": "デストロイチャンス"
+			"trans": "破損確率"
 		},
 		"destroyChanceInfo": {
 			"description1": {
 				"eng": "Destroy chance is the chance of the item being destroyed when calibration failed.",
-				"trans": "キャリブレーションに失敗した場合、アイテムが破壊される可能性がある破壊確率です。"
+				"trans": "キャリブレーションに失敗した場合アイテムが破壊される確率です。"
 			},
 			"description2": {
 				"eng": "A destroyed item can be repaired at ${npcName} with ${item}",
@@ -3101,7 +3101,7 @@
 			},
 			"title": {
 				"eng": "Destroy chance",
-				"trans": "破壊のチャンス"
+				"trans": "破損確率"
 			}
 		},
 		"maxCalibration": {
@@ -3144,7 +3144,7 @@
 		},
 		"destroyed": {
 			"eng": "destroyed",
-			"trans": "破壊された"
+			"trans": "破損中"
 		},
 		"notTradable": {
 			"eng": "Not tradable",
@@ -3523,7 +3523,7 @@
 		"itemLevelShard": {
 			"name": {
 				"eng": "Item Level Shard",
-				"trans": "アイテムレベル-シャード"
+				"trans": "アイテムレベルシャード"
 			}
 		},
 		"itemUpgrade": {
@@ -3571,7 +3571,7 @@
 		"resetShard": {
 			"name": {
 				"eng": "Reset Shard",
-				"trans": "リセット-シャード"
+				"trans": "リセットシャード"
 			}
 		},
 		"ring": {
@@ -3645,7 +3645,7 @@
 		"cyberneticResistance": {
 			"name": {
 				"eng": "Cybernetic Resistance",
-				"trans": "サイバネティック-抵抗力"
+				"trans": "サイバネティック耐性"
 			}
 		},
 		"damageMultiplier": {
@@ -3663,17 +3663,17 @@
 		"energyResistance": {
 			"name": {
 				"eng": "Energy Resistance",
-				"trans": "エネルギー-抵抗力"
+				"trans": "エネルギー耐性"
 			}
 		},
 		"health": {
 			"eng": "Health",
-			"trans": "体力"
+			"trans": "生命力"
 		},
 		"healthMult": {
 			"name": {
 				"eng": "Health Multiplier",
-				"trans": "体力倍率"
+				"trans": "生命力倍率"
 			}
 		},
 		"int": {
@@ -3685,13 +3685,13 @@
 		"kineticResistance": {
 			"name": {
 				"eng": "Kinetic Resistance",
-				"trans": "キネティック-抵抗力"
+				"trans": "キネティック耐性"
 			}
 		},
 		"physicalResistance": {
 			"name": {
 				"eng": "Physical Resistance",
-				"trans": "物理-抵抗力"
+				"trans": "フィジカル耐性"
 			}
 		},
 		"shield": {
@@ -3715,7 +3715,7 @@
 		"vit": {
 			"name": {
 				"eng": "Vitality",
-				"trans": "生命力"
+				"trans": "体力"
 			}
 		}
 	},
@@ -3767,7 +3767,7 @@
 			},
 			"name": {
 				"eng": "Calibration Shard",
-				"trans": "キャリブレーション-シャード"
+				"trans": "キャリブレーションシャード"
 			}
 		},
 		"calibrationStabilizer1": {
@@ -3783,7 +3783,7 @@
 		"christmasLootBox": {
 			"description": {
 				"eng": "Event container that contains various rewards, can only be unlocked during December.",
-				"trans": "12月中にのみアンロック可能な、様々な報酬を含むイベントコンテナー。"
+				"trans": "12月中にのみアンロック可能な、様々な報酬を含むイベントコンテナ。"
 			},
 			"name": {
 				"eng": "Christmas Container",
@@ -3797,7 +3797,7 @@
 			},
 			"name": {
 				"eng": "Gang Maintenance Resource",
-				"trans": "ギャング-メンテナンスリソース"
+				"trans": "ギャングメンテナンスリソース"
 			}
 		},
 		"commonCalibrationSafety": {
@@ -3807,7 +3807,7 @@
 			},
 			"name": {
 				"eng": "Common Calibration Circuit Breaker",
-				"trans": "コモン-キャリブレーション回路ブレーカー"
+				"trans": "コモン・キャリブレーション回路ブレーカー"
 			}
 		},
 		"commonLevelShard": {
@@ -3817,7 +3817,7 @@
 			},
 			"name": {
 				"eng": "Common Level Shard",
-				"trans": "コモン-レベルシャード"
+				"trans": "コモン・レベルシャード"
 			}
 		},
 		"defenseBoostBuffActivator": {
@@ -3847,25 +3847,25 @@
 			},
 			"name": {
 				"eng": "Energy Weapon",
-				"trans": "エネルギー武器"
+				"trans": "エネルギー兵器"
 			}
 		},
 		"epicLevelShard": {
 			"name": {
 				"eng": "Epic Level Shard",
-				"trans": "エピック-レベルシャード"
+				"trans": "エピック・レベルシャード"
 			}
 		},
 		"epicResetShard": {
 			"name": {
 				"eng": "Epic Reset Shard",
-				"trans": "エピック-リセットシャード"
+				"trans": "エピック・リセットシャード"
 			}
 		},
 		"epicUpgradeShard": {
 			"name": {
 				"eng": "Epic Upgrade Shard",
-				"trans": "エピック-アップグレードシャード"
+				"trans": "エピック・アップグレードシャード"
 			}
 		},
 		"equipmentCalibrator": {
@@ -3891,7 +3891,7 @@
 		"gangControlResource": {
 			"name": {
 				"eng": "Gang Control Resource",
-				"trans": "ギャング-コントロールリソース"
+				"trans": "ギャングコントロールリソース"
 			}
 		},
 		"gangResource": {
@@ -3913,7 +3913,7 @@
 		"healing1": {
 			"description": {
 				"eng": "Use to recover small amount of health",
-				"trans": "少量の体力を回復するために使用する"
+				"trans": "少量の生命力を回復するために使用する"
 			},
 			"name": {
 				"eng": "Basic Healing Nanobot",
@@ -3923,7 +3923,7 @@
 		"healing2": {
 			"description": {
 				"eng": "Use to recover moderate amount of health",
-				"trans": "中程度の体力回復に使用する。"
+				"trans": "中程度の生命力回復に使用する。"
 			},
 			"name": {
 				"eng": "Advance Healing Nanobot",
@@ -3947,17 +3947,17 @@
 			},
 			"name": {
 				"eng": "Hideout Locator",
-				"trans": "隠れ家ロケーション"
+				"trans": "隠れ家探索装置"
 			}
 		},
 		"hideoutLocator2": {
 			"description": {
 				"eng": "A device to locate major gang hideouts in the city, you can use this item to perform a quick hideout raid with higher rewards.",
-				"trans": "街の主要なギャングの隠れ家を特定するためのデバイス。このアイテムを使用すると、より高い報酬を得て隠れ家を素早く襲撃することができます。"
+				"trans": "街の主要なギャングの隠れ家を特定するためのデバイス。このアイテムを使用すると、隠れ家を素早く襲撃することができ、より高い報酬を獲得できます。"
 			},
 			"name": {
 				"eng": "Advance Hideout Locator",
-				"trans": "隠れ家ロケーション"
+				"trans": "高性能隠れ家探索装置"
 			}
 		},
 		"identificationShard": {
@@ -3983,7 +3983,7 @@
 			},
 			"name": {
 				"eng": "Level Shard",
-				"trans": "レベル-シャード"
+				"trans": "レベルシャード"
 			}
 		},
 		"key": {
@@ -3995,19 +3995,19 @@
 		"key1": {
 			"name": {
 				"eng": "Uncommon Container Key",
-				"trans": "アンコモン-コンテナの鍵"
+				"trans": "アンコモン・コンテナの鍵"
 			}
 		},
 		"key2": {
 			"name": {
 				"eng": "Rare Container Key",
-				"trans": "レアコンテナの鍵"
+				"trans": "レア・コンテナの鍵"
 			}
 		},
 		"key3": {
 			"name": {
 				"eng": "Unique Container Key",
-				"trans": "ユニークなコンテナーキー"
+				"trans": "ユニーク・コンテナの鍵"
 			}
 		},
 		"keyFragment": {
@@ -4019,19 +4019,19 @@
 		"keyFragment1": {
 			"name": {
 				"eng": "Uncommon Key Fragment",
-				"trans": "珍しいキーの欠片"
+				"trans": "アンコモン・キーの欠片"
 			}
 		},
 		"keyFragment2": {
 			"name": {
 				"eng": "Rare Key Fragment",
-				"trans": "レアな鍵の欠片"
+				"trans": "レア・キーの欠片"
 			}
 		},
 		"keyFragment3": {
 			"name": {
 				"eng": "Unique Key Fragment",
-				"trans": "ユニークなキーの断片"
+				"trans": "ユニーク・キーの欠片"
 			}
 		},
 		"levelLootBox1": {
@@ -4041,27 +4041,27 @@
 			},
 			"name": {
 				"eng": "Level Reward Container",
-				"trans": "レベル報酬コンテナー"
+				"trans": "レベル報酬コンテナ"
 			}
 		},
 		"lootBox1": {
 			"description": {
 				"eng": "A common container that contains random items.",
-				"trans": "ランダムなアイテムが入ったコモン-コンテナ。"
+				"trans": "ランダムなアイテムが入ったコモン・コンテナ。"
 			},
 			"name": {
 				"eng": "Common Container",
-				"trans": "コモン-コンテナ"
+				"trans": "コモン・コンテナ"
 			}
 		},
 		"lootBox2": {
 			"description": {
 				"eng": "A uncommon container that contains random items.",
-				"trans": "ランダムなアイテムが入ったアンコモン-コンテナです。"
+				"trans": "ランダムなアイテムが入ったアンコモン・コンテナです。"
 			},
 			"name": {
 				"eng": "Locked Uncommon Container",
-				"trans": "ロックされたアンコモン-コンテナ"
+				"trans": "ロックされたアンコモン・コンテナ"
 			}
 		},
 		"lootBox3": {
@@ -4071,7 +4071,7 @@
 			},
 			"name": {
 				"eng": "Locked Rare Container",
-				"trans": "ロックされたレアコンテナ"
+				"trans": "ロックされたレア・コンテナ"
 			}
 		},
 		"lootDoorKey": {
@@ -4121,7 +4121,7 @@
 			},
 			"name": {
 				"eng": "Red Bar VIP token",
-				"trans": "ネオン街のバー-VIPトークン"
+				"trans": "ネオン街のバーのVIPトークン"
 			}
 		},
 		"mercUpgrade": {
@@ -4147,19 +4147,19 @@
 		"mythicLevelShard": {
 			"name": {
 				"eng": "Mythic Level Shard",
-				"trans": "神話のレベルシャード"
+				"trans": "ミシック・レベルシャード"
 			}
 		},
 		"mythicResetShard": {
 			"name": {
 				"eng": "Mythic Reset Shard",
-				"trans": "神話のリセットシャード"
+				"trans": "ミシック・リセットシャード"
 			}
 		},
 		"mythicUpgradeShard": {
 			"name": {
 				"eng": "Mythic Upgrade Shard",
-				"trans": "神話のアップグレードシャード"
+				"trans": "ミシック・アップグレードシャード"
 			}
 		},
 		"netcoin": {
@@ -4225,25 +4225,25 @@
 			},
 			"name": {
 				"eng": "Rare Calibration Circuit Breaker",
-				"trans": "レア-キャリブレーション回路ブレーカー"
+				"trans": "レア・キャリブレーション回路ブレーカー"
 			}
 		},
 		"rareLevelShard": {
 			"name": {
 				"eng": "Rare Level Shard",
-				"trans": "レア-レベルシャード"
+				"trans": "レア・レベルシャード"
 			}
 		},
 		"rareResetShard": {
 			"name": {
 				"eng": "Rare Reset Shard",
-				"trans": "レア-リセットシャード"
+				"trans": "レア・リセットシャード"
 			}
 		},
 		"rareUpgradeShard": {
 			"name": {
 				"eng": "Rare Upgrade Shard",
-				"trans": "レア-アップグレードシャード"
+				"trans": "レア・アップグレードシャード"
 			}
 		},
 		"redEnvelope": {
@@ -4279,7 +4279,7 @@
 			},
 			"name": {
 				"eng": "Reward Cipher",
-				"trans": "報酬の暗号化"
+				"trans": "報酬の暗号"
 			}
 		},
 		"rice": {
@@ -4355,53 +4355,53 @@
 			},
 			"name": {
 				"eng": "Uncommon Calibration Circuit Breaker",
-				"trans": "アンコモン-キャリブレーション回路ブレーカー"
+				"trans": "アンコモン・キャリブレーション回路ブレーカー"
 			}
 		},
 		"uncommonLevelShard": {
 			"name": {
 				"eng": "Uncommon Level Shard",
-				"trans": "アンコモン-レベルシャード"
+				"trans": "アンコモン・レベルシャード"
 			}
 		},
 		"uncommonResetShard": {
 			"name": {
 				"eng": "Uncommon Reset Shard",
-				"trans": "アンコモン-リセットシャード"
+				"trans": "アンコモン・リセットシャード"
 			}
 		},
 		"uncommonUpgradeShard": {
 			"name": {
 				"eng": "Uncommon Upgrade Shard",
-				"trans": "アンコモン-アップグレードシャード"
+				"trans": "アンコモン・アップグレードシャード"
 			}
 		},
 		"uniqueLevelShard": {
 			"name": {
 				"eng": "Unique Level Shard",
-				"trans": "ユニーク-レベルシャード"
+				"trans": "ユニーク・レベルシャード"
 			}
 		},
 		"uniqueLootBox": {
 			"description": {
 				"eng": "A unique container that contains random items.",
-				"trans": "ランダムなアイテムを含むユニークなコンテナーです。"
+				"trans": "ランダムなアイテムを含むユニーク・コンテナです。"
 			},
 			"name": {
 				"eng": "Locked Unique Container",
-				"trans": "ロックされたユニークなコンテナー"
+				"trans": "ロックされたユニーク・コンテナ"
 			}
 		},
 		"uniqueResetShard": {
 			"name": {
 				"eng": "Unique Reset Shard",
-				"trans": "ユニーク-リセットシャード"
+				"trans": "ユニーク・リセットシャード"
 			}
 		},
 		"uniqueUpgradeShard": {
 			"name": {
 				"eng": "Unique Upgrade Shard",
-				"trans": "ユニーク-アップグレードシャード"
+				"trans": "ユニーク・アップグレードシャード"
 			}
 		},
 		"universalDollars": {
@@ -4657,11 +4657,11 @@
 		"scavenge": {
 			"currentEffectDescription": {
 				"eng": "Increases vitality by ${vitality} (increases health by ${health}) and scavenging task profit to ${profit}",
-				"trans": "生命力を${vitality}増加させます（体力を${health}増加させます）および探索タスクの利益を${profit}に増やします。"
+				"trans": "体力を${vitality}増加させます（生命力を${health}増加させます）および探索タスクの利益を${profit}に増やします。"
 			},
 			"description": {
 				"eng": "Increases vitality attribute by 1 every level, and increases profit from this job type",
-				"trans": "各レベルごとに生命力属性を1増やし、このジョブの利益を増やします"
+				"trans": "各レベルごとに体力属性を1増やし、このジョブの利益を増やします"
 			},
 			"displayName": {
 				"eng": "Scavenging Level",
@@ -4671,7 +4671,7 @@
 		"thieving": {
 			"currentEffectDescription": {
 				"eng": "Increases dexterity by ${dexterity} (increases fire-arm weapons damage by ${dmg}) and thieving task profit to ${profit}",
-				"trans": "器用さを${dexterity}上げます（火器のダメージを${dmg}上げます）そして窃盗のタスクの利益を${profit}にします。"
+				"trans": "器用さを${dexterity}上げます（銃火器のダメージを${dmg}上げます）そして窃盗のタスクの利益を${profit}にします。"
 			},
 			"description": {
 				"eng": "Increases dexterity attribute by 1 every level, and increases profit from this job type",
@@ -5174,7 +5174,7 @@
 		},
 		"confirmButton": {
 			"eng": "Confirm",
-			"trans": "確認する"
+			"trans": "確定"
 		},
 		"error": {
 			"notEnoughCurrency": {
@@ -5336,7 +5336,7 @@
 		},
 		"deleteMercenaryConfirm": {
 			"eng": "Dismiss now",
-			"trans": "今すぐ解散します"
+			"trans": "解雇する"
 		},
 		"deleteMercenaryMessage2": {
 			"eng": "You will irreversibly lose all progress on this mercenary but a portion of resources spend will be returned.",
@@ -5344,7 +5344,7 @@
 		},
 		"dismiss": {
 			"eng": "Dismiss",
-			"trans": "解散する"
+			"trans": "解雇"
 		},
 		"level": {
 			"eng": "Level",
@@ -5375,7 +5375,7 @@
 		"confirmModal": {
 			"confirmText": {
 				"eng": "Dismiss",
-				"trans": "解散する"
+				"trans": "解雇"
 			},
 			"description": {
 				"eng": "Are you sure you want to dismiss the selected mercenaries?",
@@ -5383,7 +5383,7 @@
 			},
 			"title": {
 				"eng": "Confirm Dismiss",
-				"trans": "解雇を確認しますか？"
+				"trans": "解雇の確認"
 			}
 		},
 		"description": {
@@ -5392,7 +5392,7 @@
 		},
 		"dismiss": {
 			"eng": "Dismiss",
-			"trans": "解散する"
+			"trans": "解雇"
 		},
 		"noMercenaries": {
 			"eng": "No available mercenaries",
@@ -5412,15 +5412,15 @@
 		},
 		"manageMercenary": {
 			"eng": "Manage Mercenary",
-			"trans": "マーセナリーの管理"
+			"trans": "傭兵の管理"
 		},
 		"recruitMaxError": {
 			"eng": "You cannot recruit more than ${max} mercenaries, you can increase the max mercenary by renting a better apartment. or you may dismiss your unwanted mercenary for resources.",
-			"trans": "${max}人以上の傭兵を雇うことはできません。より良いアパートを借りることで最大傭兵数を増やすことができます。または、不要な傭兵をリソースと交換することで解雇することもできます。"
+			"trans": "${max}人以上の傭兵を雇うことはできません。より良いアパートを借りることで最大傭兵数を増やすことができます。または、不要な傭兵を解雇することでリソースと交換することもできます。"
 		},
 		"recruitOne": {
 			"eng": "Recruit one",
-			"trans": "一人を雇用する"
+			"trans": "一人雇う"
 		},
 		"recruitOneDescription": {
 			"eng": "one mercenary",
@@ -5428,7 +5428,7 @@
 		},
 		"recruitTen": {
 			"eng": "Recruit 10",
-			"trans": "10人の新人を募集"
+			"trans": "10人雇う"
 		},
 		"recruitTenDescription": {
 			"eng": "one 4 star or higher mercenary is guaranteed",
@@ -5442,7 +5442,7 @@
 	"mercenaryFilterModal": {
 		"common": {
 			"eng": "Common",
-			"trans": "一般的な"
+			"trans": "コモン"
 		},
 		"epic": {
 			"eng": "Epic",
@@ -5454,15 +5454,15 @@
 		},
 		"mythic": {
 			"eng": "Mythic",
-			"trans": "神話的な"
+			"trans": "ミシック"
 		},
 		"rare": {
 			"eng": "Rare",
-			"trans": "レア (Rea)"
+			"trans": "レア"
 		},
 		"uncommon": {
 			"eng": "Uncommon",
-			"trans": "珍しい"
+			"trans": "アンコモン"
 		},
 		"unique": {
 			"eng": "Unique",
@@ -5482,7 +5482,7 @@
 	"mercenaryListPage": {
 		"description": {
 			"eng": "Contact capacity: ${current} / ${max}",
-			"trans": "コンタクト容量：${current} / ${max}"
+			"trans": "傭兵連絡リスト容量：${current} / ${max}"
 		},
 		"hireMercenary": {
 			"eng": "Recruit Mercenaries",
@@ -5500,7 +5500,7 @@
 				},
 				"title": {
 					"eng": "Dismiss",
-					"trans": "解散する"
+					"trans": "解雇"
 				}
 			},
 			"selectUncommonBelow": {
@@ -5525,7 +5525,7 @@
 			},
 			"noMercenaries": {
 				"eng": "You can recruit mercenaries from the Red Bar.",
-				"trans": "赤いバーから傭兵を雇うことができます。"
+				"trans": "ネオン街のバーから傭兵を雇うことができます。"
 			}
 		},
 		"title": {
@@ -5557,12 +5557,12 @@
 		"confirmButton": {
 			"title": {
 				"eng": "confirm",
-				"trans": "確認する"
+				"trans": "確定"
 			}
 		},
 		"noMercenaries": {
 			"eng": "No available mercenaries",
-			"trans": "傭兵不可用。"
+			"trans": "選択可能な傭兵が見つかりません"
 		}
 	},
 	"mercenaryType": {
@@ -5670,7 +5670,7 @@
 		},
 		"confirm": {
 			"eng": "Confirm",
-			"trans": "確認する"
+			"trans": "確定"
 		},
 		"craft": {
 			"eng": "craft",
@@ -5745,7 +5745,7 @@
 			},
 			"confirm": {
 				"eng": "confirm",
-				"trans": "確認する"
+				"trans": "確定"
 			},
 			"invalidAmount": {
 				"eng": "Amount must be between ${min} and ${max}",
@@ -7215,7 +7215,7 @@
 	"repairAnimationPopup": {
 		"confirm": {
 			"eng": "Confirm",
-			"trans": "確認します"
+			"trans": "確定"
 		},
 		"failed": {
 			"description": {
@@ -7324,7 +7324,7 @@
 		},
 		"healRatio": {
 			"eng": "Heal ${percent}% of your max health",
-			"trans": "最大体力を${percent}%回復する"
+			"trans": "最大生命力を${percent}%回復する"
 		},
 		"reducePsychosis": {
 			"eng": "Reduce psychosis by ${reducePsychosis}",
@@ -7891,7 +7891,7 @@
 		},
 		"autoDmgDesc": {
 			"eng": "Increases the damage of your auto attacks.",
-			"trans": "オートアタックのダメージが増加します。"
+			"trans": "自動攻撃のダメージが増加します。"
 		},
 		"autoDmgMult": {
 			"eng": "Auto Attack Damage Multiplier",
@@ -7899,7 +7899,7 @@
 		},
 		"autoDmgMultDesc": {
 			"eng": "Increases the damage of your auto attacks.",
-			"trans": "オートアタックのダメージが増加します。"
+			"trans": "自動攻撃のダメージが増加します。"
 		},
 		"backpackSlot": {
 			"eng": "Backpack Slot",
@@ -7963,7 +7963,7 @@
 		},
 		"dexDesc": {
 			"eng": "Increases your dexterity attribute, which in turn increases your damage with fire arm weapons.",
-			"trans": "器用属性を増加させ、火器のダメージが増加します。"
+			"trans": "器用属性を増加させ、銃火器のダメージが増加します。"
 		},
 		"dmg": {
 			"eng": "Damage",
@@ -7995,7 +7995,7 @@
 		},
 		"energyResistanceDesc": {
 			"eng": "Increases your resistance against enemy using weapon.",
-			"trans": "武器を使用する敵に対する耐性を増加させます。"
+			"trans": "エネルギー攻撃を行う敵に対する耐性を増加させます。"
 		},
 		"escape": {
 			"eng": "Escape Chance",
@@ -8015,7 +8015,7 @@
 		},
 		"health": {
 			"eng": "Health",
-			"trans": "体力"
+			"trans": "生命力"
 		},
 		"healthDesc": {
 			"eng": "Increases your maximum health.",
@@ -8023,7 +8023,7 @@
 		},
 		"healthPercent": {
 			"eng": "Health Multiplier",
-			"trans": "体力倍率"
+			"trans": "生命力倍率"
 		},
 		"healthPercentDesc": {
 			"eng": "Increases your maximum health.",
@@ -8047,19 +8047,19 @@
 		},
 		"kineticResistance": {
 			"eng": "Kinetic Resistance",
-			"trans": "運動エネルギー耐性"
+			"trans": "キネティック耐性"
 		},
 		"kineticResistanceDesc": {
 			"eng": "Increases your resistance against enemy using kinetic attack.",
-			"trans": "運動エネルギー攻撃に対する敵の耐性を増加させます。"
+			"trans": "キネティック攻撃を行う敵に対する耐性を増加させます。"
 		},
 		"physicalResistance": {
 			"eng": "Physical Resistance",
-			"trans": "物理耐性"
+			"trans": "フィジカル耐性"
 		},
 		"physicalResistanceDesc": {
 			"eng": "Increases your resistance against enemy using melee attack.",
-			"trans": "近接攻撃を行う敵に対する耐性を増加させます。"
+			"trans": "フィジカル攻撃を行う敵に対する耐性を増加させます。"
 		},
 		"pvpDmgReceivedMult": {
 			"eng": "PvP Damage Received Multiplier",
@@ -8095,11 +8095,11 @@
 		},
 		"vit": {
 			"eng": "Vitality",
-			"trans": "生命力"
+			"trans": "体力"
 		},
 		"vitDesc": {
 			"eng": "Increases your vitality attribute, which in turn increases your maximum health.",
-			"trans": "体力を増加させ、最大生命値を増加させます。"
+			"trans": "体力を増加させ、最大生命力を増加させます。"
 		}
 	},
 	"statDiff": {
@@ -8112,7 +8112,7 @@
 		"burn": {
 			"combatMsg": {
 				"eng": "${name} received ${damage} damage from burning",
-				"trans": "${name}は燃えて${damage}のダメージを受けました。"
+				"trans": "${name}は燃焼により${damage}のダメージを受けました。"
 			},
 			"desc": {
 				"eng": "Receive fire damage every turn",
@@ -8120,7 +8120,7 @@
 			},
 			"name": {
 				"eng": "Burned",
-				"trans": "燃えた"
+				"trans": "燃焼"
 			}
 		},
 		"defense1": {
@@ -8150,7 +8150,7 @@
 			},
 			"desc": {
 				"eng": "Recover health every turn",
-				"trans": "回復された対象は、毎ターン体力を回復します。"
+				"trans": "回復された対象は、毎ターン生命力を回復します。"
 			},
 			"name": {
 				"eng": "Healed",
@@ -8178,7 +8178,7 @@
 			},
 			"name": {
 				"eng": "Poisoned",
-				"trans": "毒を受けた"
+				"trans": "毒"
 			}
 		},
 		"power1": {
@@ -8462,7 +8462,7 @@
 		"mythic": {
 			"name": {
 				"eng": "Mythic",
-				"trans": "神話的"
+				"trans": "ミシック"
 			}
 		},
 		"rare": {
@@ -8570,7 +8570,7 @@
 	"toggleMinigame": {
 		"tip": {
 			"eng": "Toggle the switches in correct sequence to unlock",
-			"trans": "正しい順番に切り替えてロックを解除"
+			"trans": "ロックを解除するには正しい順序でスイッチを切り替えてください"
 		},
 		"title": {
 			"eng": "Sequential Unlock",
@@ -8708,7 +8708,7 @@
 		},
 		"rewardClaimed": {
 			"eng": "claimed",
-			"trans": "獲得しました。"
+			"trans": "獲得済"
 		},
 		"rewardDescription": {
 			"eng": "Rewards are claimed after clearing the ${difficulty} stronghold, you must participate in defeating the boss for it to count.\\nyou can only claim reward for each location once.",
@@ -8960,7 +8960,7 @@
 		},
 		"health": {
 			"eng": "health",
-			"trans": "体力"
+			"trans": "生命力"
 		},
 		"inventoryPage": {
 			"equipmentTab": {
@@ -9119,38 +9119,38 @@
 		"huge": {
 			"name": {
 				"eng": "Huge",
-				"trans": "巨大な"
+				"trans": "極大"
 			}
 		},
 		"large": {
 			"name": {
 				"eng": "Large",
-				"trans": "大きい"
+				"trans": "大"
 			}
 		},
 		"normal": {
 			"name": {
 				"eng": "Normal",
-				"trans": "通常"
+				"trans": "普通"
 			}
 		},
 		"small": {
 			"name": {
 				"eng": "Small",
-				"trans": "小さな"
+				"trans": "小"
 			}
 		},
 		"tiny": {
 			"name": {
 				"eng": "Tiny",
-				"trans": "小さな"
+				"trans": "極小"
 			}
 		}
 	},
 	"updatingOverlay": {
 		"description": {
 			"eng": "Hello, I'm quickly updating the server to improve the game! \\nIt's normal to see a reconnect or update screen for a few seconds.🚀\\nApologies for any inconvenience and thanks for your patience.🙏",
-			"trans": "こんにちは、ゲームを改善するためにサーバーを素早く更新しています！\\n数秒間再接続やアップデート画面が表示されるのは正常です。🚀\\nご不便をおかけして申し訳ありませんが、ご理解とご協力ありがとうございます。🙏"
+			"trans": "こんにちは、ゲームを改善するためにサーバーを頻繁に更新しています！\\n数秒間の再接続やアップデート画面が表示されるのは正常です。🚀\\nご不便をおかけして申し訳ありませんが、ご理解とご協力ありがとうございます。🙏"
 		},
 		"title": {
 			"eng": "🌟 Quick Update Notice!",
