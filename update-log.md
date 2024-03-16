@@ -10,6 +10,7 @@
 
 ### 0.0.41
 
+-  Fixed issue with gang motto moderation
 -  Fixed issue related to NPC AI causing issue in the server 
 -  Updated Android version to be compliant with Google's requirement
 
