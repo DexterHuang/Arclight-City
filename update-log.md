@@ -10,6 +10,10 @@
 
 ### 0.0.41
 
+-  Added Chat system, you may access it through `Chirp` and click `Chat`. this feature is still beta and may be adjusted or changed in the future.
+
+### 0.0.41
+
 -  Fixed issue with gang motto moderation
 -  Fixed issue related to NPC AI causing issue in the server 
 -  Updated Android version to be compliant with Google's requirement
