@@ -10,7 +10,7 @@
 
 ### 0.0.41
 
--  Added Chat system, you may access it through `Chirp` and click `Chat`. this feature is still beta and may be adjusted or changed in the future.
+-  Added Chat system, you may access it through `Chirp` and click `Chat`. this feature is still beta, it could still have bugs and may be adjusted or changed in the future.
 
 ### 0.0.41
 
