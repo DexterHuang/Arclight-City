@@ -2,13 +2,18 @@
 
 ### Notice
 
-**This game is still in early Beta stage, please expect many changes such as new features, bug fixes, buffs and nerfs.**
+**This game is still in the early Beta stage, please expect many changes such as new features, bug fixes, buffs and nerfs.**
 
-**If you find any bugs please report to our discord bug report channel [here](https://discord.com/channels/1140647450122657812/1146133684022415400)**
+**If you find any bugs please report them to our discord bug report channel [here](https://discord.com/channels/1140647450122657812/1146133684022415400)**
 
-**If you find a exploit please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
+**If you find an exploit please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
-### 0.0.41
+### 0.0.43
+
+-  Now on the player stats page, you can see the player's gang if they are in one
+
+
+### 0.0.42
 
 -  Added Chat system, you may access it through `Chirp` and click `Chat`. this feature is still beta, it could still have bugs and may be adjusted or changed in the future.
 
