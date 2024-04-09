@@ -1,0 +1,7 @@
+Wenn du durch die neonbeleuchteten Straßen von Arclight City schlenderst, werden deine Augen von einer holografischen Werbetafel angezogen, die zum Leben erwacht. Es ist eine Werbung von niemand anderem als CircuitBreak - dem Sicherheitsunternehmen mit dem Händchen dafür, Ziele präzise zu treffen.
+
+Die Anzeige ist raffiniert und zeigt einen höflichen, kybernetisch verbesserten Sprecher mit einem fast beunruhigenden Grinsen. In seiner behandschuhten Hand hält er eine schlanke, futuristische Pistole, die vor potenzieller Tödlichkeit zu summen scheint. Der Slogan blinkt über den Bildschirm: "Auf der Suche nach Schutz? Wir treffen nicht nur unsere Ziele - wir vernichten sie."
+
+Die Werbetafel wechselt dann zu einer Reihe actiongeladener Clips, die das Elite-Team von CircuitBreak in verschiedenen gewagten Szenarien zeigen, wobei ihre Hightech-Waffen bei jedem Abzug des Abzugs aufleuchten. Der Höhepunkt zeigt den Sprecher in der Luft, der mehrere Cyberpsychos mit einer gut platzierten Kugelserie ausschaltet, bevor er sanft auf dem Dach darunter landet.
+
+Die Anzeige endet mit einer kühnen Erklärung: "Tritt noch heute der CircuitBreak-Familie bei und sichere deine Sicherheit in der knallharten Welt von Arclight City." Das Hologramm verblasst und hinterlässt ein anhaltendes Gefühl von Ehrfurcht und Unbehagen - schließlich muss das Sicherheitsunternehmen, das verspricht, seine Ziele auszulöschen, ziemlich rücksichtslos sein
