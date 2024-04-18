@@ -10,6 +10,12 @@
 
 ### 0.0.43
 
+-  Added updated mercenary images, new mercenaries with 4 stars and 5 stars will now have updated images, the mercenary you draw before will not be changed so you can still have the old image if you had them before the update.
+-  Added many new lore notes in dungeon
+
+
+### 0.0.43
+
 -  Now on the player stats page, you can see the player's gang if they are in one
 
 
