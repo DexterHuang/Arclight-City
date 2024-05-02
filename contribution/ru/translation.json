@@ -840,6 +840,32 @@
 				"trans": "Лунное блаженство"
 			}
 		},
+		"may": {
+			"description": {
+				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
+				"trans": "Получайте различные награды ежедневно в течение 21 дня и до ${itemName} на 22-й день"
+			},
+			"pass1": {
+				"name": {
+					"eng": "Basic",
+					"trans": "Базовый"
+				}
+			},
+			"pass2": {
+				"name": {
+					"eng": "Advanced",
+					"trans": "Продвинутый"
+				}
+			},
+			"subtitle": {
+				"eng": "Battle Pass",
+				"trans": "Боевой пропуск"
+			},
+			"title": {
+				"eng": "Vector Force Assault",
+				"trans": "Векторный штурм"
+			}
+		},
 		"mercEnhancer": {
 			"description": {
 				"eng": "Receive free ${item} every day",
@@ -966,6 +992,16 @@
 		"unlockNow": {
 			"eng": "Unlock Now",
 			"trans": "Разблокировать сейчас"
+		}
+	},
+	"blockedPlayerListPage": {
+		"noBlockedPlayers": {
+			"eng": "No blocked players",
+			"trans": "Нет заблокированных игроков"
+		},
+		"unblock": {
+			"eng": "Unblock",
+			"trans": "Разблокировать"
 		}
 	},
 	"buff": {
@@ -1129,6 +1165,12 @@
 		"inputPlaceholder": {
 			"eng": "Type a message...",
 			"trans": "Введите сообщение..."
+		},
+		"mention": {
+			"title": {
+				"eng": "${sender} has mentioned you",
+				"trans": "${sender} упомянул вас"
+			}
 		},
 		"sendImage": {
 			"eng": "Send Image",
@@ -4815,6 +4857,82 @@
 			"trans": "Вы собрали новую заметку о лоре"
 		}
 	},
+	"lottery": {
+		"error": {
+			"noWin": {
+				"eng": "Almost! Better luck next time!",
+				"trans": "Почти! В следующий раз повезет больше!"
+			},
+			"notEnoughCurrency": {
+				"eng": "Insufficient currency, required: ${required}",
+				"trans": "Недостаточно валюты, требуется: ${required}"
+			},
+			"notEnoughItem": {
+				"eng": "Insufficient ${required}",
+				"trans": "Недостаточно ${required}"
+			}
+		},
+		"winMessage": {
+			"eng": "You received ${itemName}",
+			"trans": "Вы получили ${itemName}"
+		}
+	},
+	"lotteryAnimationPopup": {
+		"activated": {
+			"loadingBarTitle": {
+				"eng": "Receiving result...",
+				"trans": "Получение результата..."
+			},
+			"textList3": {
+				"eng": "Randomizing...",
+				"trans": "Рандомизация..."
+			}
+		},
+		"close": {
+			"eng": "Close",
+			"trans": "Закрыть"
+		}
+	},
+	"lotteryPage": {
+		"dropRateModal": {
+			"title": {
+				"eng": "Reward List",
+				"trans": "Список наград"
+			}
+		},
+		"pachinkoTip": {
+			"eng": "Each round of Pachinko you will receive one of the reward from the reward list.",
+			"trans": "Каждый раунд Пачинко вы получите одну из наград из списка наград."
+		},
+		"skipAnimation": {
+			"eng": "Skip Animation",
+			"trans": "Пропустить анимацию"
+		}
+	},
+	"lotteryType": {
+		"pachinko": {
+			"activateVerb": {
+				"eng": "Play Pachinko",
+				"trans": "Играть в патинко"
+			},
+			"againText": {
+				"eng": "Play Again",
+				"trans": "Играть снова"
+			},
+			"lostSubtitle": {
+				"eng": "Keep playing, your win awaits!",
+				"trans": "Продолжай играть, победа ждет тебя!"
+			},
+			"lostTitle": {
+				"eng": "So close!",
+				"trans": "Так близко!"
+			},
+			"winTitle": {
+				"eng": "You won!",
+				"trans": "Вы победили!"
+			}
+		}
+	},
 	"mail": {
 		"notification": {
 			"fromPlayer": {
@@ -5636,6 +5754,10 @@
 		}
 	},
 	"messageContainer": {
+		"block": {
+			"eng": "Block",
+			"trans": "блокировать"
+		},
 		"developer": {
 			"eng": "Developer",
 			"trans": "Разработчик"
@@ -5644,9 +5766,25 @@
 			"eng": "No messages yet",
 			"trans": "Нет сообщений пока"
 		},
+		"reply": {
+			"eng": "Reply",
+			"trans": "Ответить"
+		},
+		"replyingTo": {
+			"eng": "Replying to ${playerName}",
+			"trans": "Ответ ${playerName}"
+		},
+		"report": {
+			"eng": "Report & Block",
+			"trans": "Пожаловаться и заблокировать"
+		},
 		"system": {
 			"eng": "System",
 			"trans": "Система"
+		},
+		"viewProfile": {
+			"eng": "View Profile",
+			"trans": "Просмотр профиля"
 		}
 	},
 	"messageToken": {
@@ -5895,6 +6033,10 @@
 			"npcName": {
 				"eng": "Chloe",
 				"trans": "Хлоя"
+			},
+			"pachinkoButton": {
+				"eng": "Talk to pachinko guy in the corner",
+				"trans": "Поговори с чуваком с пачинко в углу"
 			},
 			"questCooldownLines": {
 				"eng": [
@@ -6252,6 +6394,26 @@
 		"mercenaryButton": {
 			"eng": "I am looking for new crew members",
 			"trans": "Я ищу новых членов команды"
+		},
+		"pachinko": {
+			"greetings": {
+				"eng": [
+					"Как я должен пить с этой маской? Не волнуйся, просто пей прямо из нее",
+					"А, амиго. Хочешь попытать счастья со мной? Под покровительством богини наша судьба раскроется сегодня",
+					"Hola. Если мы верим, богиня направит наш стальной шар к победе. Сегодня наш черёд?",
+					"Эй, заходи в это святое место. Если веришь в богиню, увидишь, как удача растет с каждой игрой"
+				],
+				"trans": [
+					"Как я должен пить с этой маской? Не волнуйся, просто пей прямо из нее",
+					"А, амиго. Хочешь попытать счастья со мной? Под покровительством богини наша судьба раскроется сегодня",
+					"Hola. Если мы верим, богиня направит наш стальной шар к победе. Сегодня наш черёд?",
+					"Эй, заходи в это святое место. Если веришь в богиню, увидишь, как удача растет с каждой игрой"
+				]
+			},
+			"npcName": {
+				"eng": "Pachinko Devotee",
+				"trans": "Любитель патинко"
+			}
 		},
 		"premiumShop": {
 			"browseButton": {
@@ -9061,6 +9223,10 @@
 			}
 		},
 		"mainMenu": {
+			"blockedPlayer": {
+				"eng": "blocked",
+				"trans": "заблокирован"
+			},
 			"bugReport": {
 				"eng": "Bug Report",
 				"trans": "Отчет об ошибке"

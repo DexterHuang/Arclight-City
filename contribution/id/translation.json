@@ -840,6 +840,32 @@
 				"trans": "Kebahagiaan Lunar"
 			}
 		},
+		"may": {
+			"description": {
+				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
+				"trans": "Dapatkan berbagai hadiah setiap hari selama 21 hari, dan hingga ${itemName} pada hari ke-22"
+			},
+			"pass1": {
+				"name": {
+					"eng": "Basic",
+					"trans": "Dasar"
+				}
+			},
+			"pass2": {
+				"name": {
+					"eng": "Advanced",
+					"trans": "Lanjutan"
+				}
+			},
+			"subtitle": {
+				"eng": "Battle Pass",
+				"trans": "Battle Pass"
+			},
+			"title": {
+				"eng": "Vector Force Assault",
+				"trans": "Serangan Pasukan Vektor"
+			}
+		},
 		"mercEnhancer": {
 			"description": {
 				"eng": "Receive free ${item} every day",
@@ -966,6 +992,16 @@
 		"unlockNow": {
 			"eng": "Unlock Now",
 			"trans": "Buka Sekarang"
+		}
+	},
+	"blockedPlayerListPage": {
+		"noBlockedPlayers": {
+			"eng": "No blocked players",
+			"trans": "Tidak ada pemain yang diblokir"
+		},
+		"unblock": {
+			"eng": "Unblock",
+			"trans": "Buka blokir"
 		}
 	},
 	"buff": {
@@ -1129,6 +1165,12 @@
 		"inputPlaceholder": {
 			"eng": "Type a message...",
 			"trans": "Ketik pesan..."
+		},
+		"mention": {
+			"title": {
+				"eng": "${sender} has mentioned you",
+				"trans": "${sender} telah menyebut kamu"
+			}
 		},
 		"sendImage": {
 			"eng": "Send Image",
@@ -4815,6 +4857,82 @@
 			"trans": "Anda telah mengumpulkan catatan cerita baru"
 		}
 	},
+	"lottery": {
+		"error": {
+			"noWin": {
+				"eng": "Almost! Better luck next time!",
+				"trans": "Hampir berhasil! Semoga lebih beruntung lain kali!"
+			},
+			"notEnoughCurrency": {
+				"eng": "Insufficient currency, required: ${required}",
+				"trans": "Mata uang tidak mencukupi, diperlukan: ${required}"
+			},
+			"notEnoughItem": {
+				"eng": "Insufficient ${required}",
+				"trans": "${required} tidak mencukupi"
+			}
+		},
+		"winMessage": {
+			"eng": "You received ${itemName}",
+			"trans": "Kamu menerima ${itemName}"
+		}
+	},
+	"lotteryAnimationPopup": {
+		"activated": {
+			"loadingBarTitle": {
+				"eng": "Receiving result...",
+				"trans": "Menerima hasil..."
+			},
+			"textList3": {
+				"eng": "Randomizing...",
+				"trans": "Mengacak-acak..."
+			}
+		},
+		"close": {
+			"eng": "Close",
+			"trans": "Tutup"
+		}
+	},
+	"lotteryPage": {
+		"dropRateModal": {
+			"title": {
+				"eng": "Reward List",
+				"trans": "Daftar Hadiah"
+			}
+		},
+		"pachinkoTip": {
+			"eng": "Each round of Pachinko you will receive one of the reward from the reward list.",
+			"trans": "Setiap putaran Pachinko, kamu akan menerima salah satu hadiah dari daftar hadiah."
+		},
+		"skipAnimation": {
+			"eng": "Skip Animation",
+			"trans": "Lewati Animasi"
+		}
+	},
+	"lotteryType": {
+		"pachinko": {
+			"activateVerb": {
+				"eng": "Play Pachinko",
+				"trans": "Main Pachinko"
+			},
+			"againText": {
+				"eng": "Play Again",
+				"trans": "Main Lagi"
+			},
+			"lostSubtitle": {
+				"eng": "Keep playing, your win awaits!",
+				"trans": "Terus main, kemenanganmu menunggu!"
+			},
+			"lostTitle": {
+				"eng": "So close!",
+				"trans": "Hampir berhasil!"
+			},
+			"winTitle": {
+				"eng": "You won!",
+				"trans": "Kamu menang!"
+			}
+		}
+	},
 	"mail": {
 		"notification": {
 			"fromPlayer": {
@@ -5636,6 +5754,10 @@
 		}
 	},
 	"messageContainer": {
+		"block": {
+			"eng": "Block",
+			"trans": "Blok"
+		},
 		"developer": {
 			"eng": "Developer",
 			"trans": "Pengembang"
@@ -5644,9 +5766,25 @@
 			"eng": "No messages yet",
 			"trans": "Belum ada pesan"
 		},
+		"reply": {
+			"eng": "Reply",
+			"trans": "Balas"
+		},
+		"replyingTo": {
+			"eng": "Replying to ${playerName}",
+			"trans": "Membalas kepada ${playerName}"
+		},
+		"report": {
+			"eng": "Report & Block",
+			"trans": "Laporkan & Blokir"
+		},
 		"system": {
 			"eng": "System",
 			"trans": "Sistem"
+		},
+		"viewProfile": {
+			"eng": "View Profile",
+			"trans": "Lihat Profil"
 		}
 	},
 	"messageToken": {
@@ -5895,6 +6033,10 @@
 			"npcName": {
 				"eng": "Chloe",
 				"trans": "Chloe"
+			},
+			"pachinkoButton": {
+				"eng": "Talk to pachinko guy in the corner",
+				"trans": "Ngobrol sama si pria pachinko di pojokan"
 			},
 			"questCooldownLines": {
 				"eng": [
@@ -6252,6 +6394,26 @@
 		"mercenaryButton": {
 			"eng": "I am looking for new crew members",
 			"trans": "Saya sedang mencari anggota kru baru"
+		},
+		"pachinko": {
+			"greetings": {
+				"eng": [
+					"Pake masker ini trus minum gimana? Gausah mikirin gituan, langsung aja minum aja",
+					"Ah, kawan. Mau coba peruntungan bareng aku? Di bawah lindungan dewi, nasib kita akan terungkap hari ini",
+					"Halo. Jika kita percaya, dewi akan membimbing bola baja kita menuju kemenangan. Apakah hari ini giliran kita?",
+					"Ayo masuk ke tempat suci ini. Jika kamu percaya pada dewi, kita bisa melihat keberuntungan meningkat di setiap permainan"
+				],
+				"trans": [
+					"Pake masker ini trus minum gimana? Gausah mikirin gituan, langsung aja minum aja",
+					"Ah, kawan. Mau coba peruntungan bareng aku? Di bawah lindungan dewi, nasib kita akan terungkap hari ini",
+					"Halo. Jika kita percaya, dewi akan membimbing bola baja kita menuju kemenangan. Apakah hari ini giliran kita?",
+					"Ayo masuk ke tempat suci ini. Jika kamu percaya pada dewi, kita bisa melihat keberuntungan meningkat di setiap permainan"
+				]
+			},
+			"npcName": {
+				"eng": "Pachinko Devotee",
+				"trans": "Pecandu Pachinko"
+			}
 		},
 		"premiumShop": {
 			"browseButton": {
@@ -9061,6 +9223,10 @@
 			}
 		},
 		"mainMenu": {
+			"blockedPlayer": {
+				"eng": "blocked",
+				"trans": "Diblokir"
+			},
 			"bugReport": {
 				"eng": "Bug Report",
 				"trans": "Laporan Bug"

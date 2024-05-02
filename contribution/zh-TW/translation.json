@@ -840,6 +840,32 @@
 				"trans": "新年快樂"
 			}
 		},
+		"may": {
+			"description": {
+				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
+				"trans": "每日登入領取好禮，連續21天登入，第22天最高可領取${itemName}"
+			},
+			"pass1": {
+				"name": {
+					"eng": "Basic",
+					"trans": "基礎"
+				}
+			},
+			"pass2": {
+				"name": {
+					"eng": "Advanced",
+					"trans": "進階"
+				}
+			},
+			"subtitle": {
+				"eng": "Battle Pass",
+				"trans": "戰鬥通行證"
+			},
+			"title": {
+				"eng": "Vector Force Assault",
+				"trans": "原力突擊"
+			}
+		},
 		"mercEnhancer": {
 			"description": {
 				"eng": "Receive free ${item} every day",
@@ -966,6 +992,16 @@
 		"unlockNow": {
 			"eng": "Unlock Now",
 			"trans": "立即解鎖"
+		}
+	},
+	"blockedPlayerListPage": {
+		"noBlockedPlayers": {
+			"eng": "No blocked players",
+			"trans": "沒有封鎖玩家"
+		},
+		"unblock": {
+			"eng": "Unblock",
+			"trans": "解鎖"
 		}
 	},
 	"buff": {
@@ -1129,6 +1165,12 @@
 		"inputPlaceholder": {
 			"eng": "Type a message...",
 			"trans": "輸入訊息..."
+		},
+		"mention": {
+			"title": {
+				"eng": "${sender} has mentioned you",
+				"trans": "${sender} 提及你"
+			}
 		},
 		"sendImage": {
 			"eng": "Send Image",
@@ -4815,6 +4857,82 @@
 			"trans": "您收集到了一份新的背景故事。"
 		}
 	},
+	"lottery": {
+		"error": {
+			"noWin": {
+				"eng": "Almost! Better luck next time!",
+				"trans": "差點！下次加油！"
+			},
+			"notEnoughCurrency": {
+				"eng": "Insufficient currency, required: ${required}",
+				"trans": "貨幣不足，需要：${required}"
+			},
+			"notEnoughItem": {
+				"eng": "Insufficient ${required}",
+				"trans": "${required}不足"
+			}
+		},
+		"winMessage": {
+			"eng": "You received ${itemName}",
+			"trans": "你獲得了${itemName}"
+		}
+	},
+	"lotteryAnimationPopup": {
+		"activated": {
+			"loadingBarTitle": {
+				"eng": "Receiving result...",
+				"trans": "接收結果中..."
+			},
+			"textList3": {
+				"eng": "Randomizing...",
+				"trans": "計算隨機..."
+			}
+		},
+		"close": {
+			"eng": "Close",
+			"trans": "關閉"
+		}
+	},
+	"lotteryPage": {
+		"dropRateModal": {
+			"title": {
+				"eng": "Reward List",
+				"trans": "獎勵清單"
+			}
+		},
+		"pachinkoTip": {
+			"eng": "Each round of Pachinko you will receive one of the reward from the reward list.",
+			"trans": "每一輪彈珠台你將會從獎勵清單中獲得其中一個獎勵。"
+		},
+		"skipAnimation": {
+			"eng": "Skip Animation",
+			"trans": "跳過動畫"
+		}
+	},
+	"lotteryType": {
+		"pachinko": {
+			"activateVerb": {
+				"eng": "Play Pachinko",
+				"trans": "玩彈珠台"
+			},
+			"againText": {
+				"eng": "Play Again",
+				"trans": "再玩一次"
+			},
+			"lostSubtitle": {
+				"eng": "Keep playing, your win awaits!",
+				"trans": "再接再厲，你的勝利就在前方！"
+			},
+			"lostTitle": {
+				"eng": "So close!",
+				"trans": "差點就成功了！"
+			},
+			"winTitle": {
+				"eng": "You won!",
+				"trans": "你贏了！"
+			}
+		}
+	},
 	"mail": {
 		"notification": {
 			"fromPlayer": {
@@ -5636,6 +5754,10 @@
 		}
 	},
 	"messageContainer": {
+		"block": {
+			"eng": "Block",
+			"trans": "封鎖"
+		},
 		"developer": {
 			"eng": "Developer",
 			"trans": "開發者"
@@ -5644,9 +5766,25 @@
 			"eng": "No messages yet",
 			"trans": "暫時沒有訊息。"
 		},
+		"reply": {
+			"eng": "Reply",
+			"trans": "回覆"
+		},
+		"replyingTo": {
+			"eng": "Replying to ${playerName}",
+			"trans": "回覆${playerName}"
+		},
+		"report": {
+			"eng": "Report & Block",
+			"trans": "檢舉 & 封鎖"
+		},
 		"system": {
 			"eng": "System",
 			"trans": "系統"
+		},
+		"viewProfile": {
+			"eng": "View Profile",
+			"trans": "查看個人資料"
 		}
 	},
 	"messageToken": {
@@ -5895,6 +6033,10 @@
 			"npcName": {
 				"eng": "Chloe",
 				"trans": "克蘿伊"
+			},
+			"pachinkoButton": {
+				"eng": "Talk to pachinko guy in the corner",
+				"trans": "跟角落的彈珠台男講話"
 			},
 			"questCooldownLines": {
 				"eng": [
@@ -6252,6 +6394,26 @@
 		"mercenaryButton": {
 			"eng": "I am looking for new crew members",
 			"trans": "我正在尋找新的隊伍成員"
+		},
+		"pachinko": {
+			"greetings": {
+				"eng": [
+					"別問我戴著這個面具怎麼喝，我就是喝。",
+					"啊，同道中人。來和我一起試試手氣嗎？在女神的祝福下，我們今天可能會揭曉我們的運勢。",
+					"你好。他們說，有信仰，女神會引導我們的鋼球走向勝利。我們看看今天是不是我們的日子？",
+					"歡迎新面孔來到這神聖之地。相信女神，或許我們都能在每次遊戲中見證自己的運勢高漲。"
+				],
+				"trans": [
+					"別問我戴著這個面具怎麼喝，我就是喝。",
+					"啊，同道中人。來和我一起試試手氣嗎？在女神的祝福下，我們今天可能會揭曉我們的運勢。",
+					"你好。他們說，有信仰，女神會引導我們的鋼球走向勝利。我們看看今天是不是我們的日子？",
+					"歡迎新面孔來到這神聖之地。相信女神，或許我們都能在每次遊戲中見證自己的運勢高漲。"
+				]
+			},
+			"npcName": {
+				"eng": "Pachinko Devotee",
+				"trans": "柏青哥愛好者"
+			}
 		},
 		"premiumShop": {
 			"browseButton": {
@@ -9061,6 +9223,10 @@
 			}
 		},
 		"mainMenu": {
+			"blockedPlayer": {
+				"eng": "blocked",
+				"trans": "封鎖"
+			},
 			"bugReport": {
 				"eng": "Bug Report",
 				"trans": "錯誤回報"

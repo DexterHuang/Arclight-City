@@ -840,6 +840,32 @@
 				"trans": "달의 황홀함"
 			}
 		},
+		"may": {
+			"description": {
+				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
+				"trans": "매일 다양한 보상을 21일 동안 받고, 22일째에는 최대 ${itemName}까지 받을 수 있습니다"
+			},
+			"pass1": {
+				"name": {
+					"eng": "Basic",
+					"trans": "기본적인"
+				}
+			},
+			"pass2": {
+				"name": {
+					"eng": "Advanced",
+					"trans": "고급"
+				}
+			},
+			"subtitle": {
+				"eng": "Battle Pass",
+				"trans": "배틀 패스"
+			},
+			"title": {
+				"eng": "Vector Force Assault",
+				"trans": "벡터 포스 어썰트"
+			}
+		},
 		"mercEnhancer": {
 			"description": {
 				"eng": "Receive free ${item} every day",
@@ -966,6 +992,16 @@
 		"unlockNow": {
 			"eng": "Unlock Now",
 			"trans": "지금 해제하기"
+		}
+	},
+	"blockedPlayerListPage": {
+		"noBlockedPlayers": {
+			"eng": "No blocked players",
+			"trans": "차단된 플레이어 없음"
+		},
+		"unblock": {
+			"eng": "Unblock",
+			"trans": "차단 해제"
 		}
 	},
 	"buff": {
@@ -1129,6 +1165,12 @@
 		"inputPlaceholder": {
 			"eng": "Type a message...",
 			"trans": "메시지를 입력하세요..."
+		},
+		"mention": {
+			"title": {
+				"eng": "${sender} has mentioned you",
+				"trans": "${sender}님이 당신을 언급했습니다"
+			}
 		},
 		"sendImage": {
 			"eng": "Send Image",
@@ -4815,6 +4857,82 @@
 			"trans": "새로운 로어 노트를 수집했습니다"
 		}
 	},
+	"lottery": {
+		"error": {
+			"noWin": {
+				"eng": "Almost! Better luck next time!",
+				"trans": "거의 성공했어! 다음에 더 좋은 운을 빌어봐!"
+			},
+			"notEnoughCurrency": {
+				"eng": "Insufficient currency, required: ${required}",
+				"trans": "통화가 부족합니다, 필요한 금액: ${required}"
+			},
+			"notEnoughItem": {
+				"eng": "Insufficient ${required}",
+				"trans": "${required}이(가) 부족합니다"
+			}
+		},
+		"winMessage": {
+			"eng": "You received ${itemName}",
+			"trans": "당신은 ${itemName}을(를) 받았습니다"
+		}
+	},
+	"lotteryAnimationPopup": {
+		"activated": {
+			"loadingBarTitle": {
+				"eng": "Receiving result...",
+				"trans": "결과 수신 중..."
+			},
+			"textList3": {
+				"eng": "Randomizing...",
+				"trans": "랜덤화 중..."
+			}
+		},
+		"close": {
+			"eng": "Close",
+			"trans": "가까이 닫기"
+		}
+	},
+	"lotteryPage": {
+		"dropRateModal": {
+			"title": {
+				"eng": "Reward List",
+				"trans": "보상 목록"
+			}
+		},
+		"pachinkoTip": {
+			"eng": "Each round of Pachinko you will receive one of the reward from the reward list.",
+			"trans": "파친코 한 판마다 보상 목록 중 하나를 받게 됩니다."
+		},
+		"skipAnimation": {
+			"eng": "Skip Animation",
+			"trans": "애니메이션 건너뛰기"
+		}
+	},
+	"lotteryType": {
+		"pachinko": {
+			"activateVerb": {
+				"eng": "Play Pachinko",
+				"trans": "파친코를 플레이하세요"
+			},
+			"againText": {
+				"eng": "Play Again",
+				"trans": "다시 플레이하기"
+			},
+			"lostSubtitle": {
+				"eng": "Keep playing, your win awaits!",
+				"trans": "계속해서 플레이하면 승리가 기다리고 있어!"
+			},
+			"lostTitle": {
+				"eng": "So close!",
+				"trans": "거의 성공했어!"
+			},
+			"winTitle": {
+				"eng": "You won!",
+				"trans": "이겼다!"
+			}
+		}
+	},
 	"mail": {
 		"notification": {
 			"fromPlayer": {
@@ -5636,6 +5754,10 @@
 		}
 	},
 	"messageContainer": {
+		"block": {
+			"eng": "Block",
+			"trans": "차단"
+		},
 		"developer": {
 			"eng": "Developer",
 			"trans": "개발자"
@@ -5644,9 +5766,25 @@
 			"eng": "No messages yet",
 			"trans": "아직 메시지가 없습니다"
 		},
+		"reply": {
+			"eng": "Reply",
+			"trans": "답변하세요"
+		},
+		"replyingTo": {
+			"eng": "Replying to ${playerName}",
+			"trans": "${playerName}에게 회신합니다"
+		},
+		"report": {
+			"eng": "Report & Block",
+			"trans": "신고 및 차단"
+		},
 		"system": {
 			"eng": "System",
 			"trans": "시스템"
+		},
+		"viewProfile": {
+			"eng": "View Profile",
+			"trans": "프로필 보기"
 		}
 	},
 	"messageToken": {
@@ -5895,6 +6033,10 @@
 			"npcName": {
 				"eng": "Chloe",
 				"trans": "클로이"
+			},
+			"pachinkoButton": {
+				"eng": "Talk to pachinko guy in the corner",
+				"trans": "모퉁이에 있는 파친코 아저씨와 얘기해 보세요"
 			},
 			"questCooldownLines": {
 				"eng": [
@@ -6252,6 +6394,26 @@
 		"mercenaryButton": {
 			"eng": "I am looking for new crew members",
 			"trans": "새로운 크루 멤버를 찾고 있습니다"
+		},
+		"pachinko": {
+			"greetings": {
+				"eng": [
+					"이 마스크를 쓰고 어떻게 마실 거냐고? 그런 건 신경 쓰지 말고 그냥 마시면 돼",
+					"아, 동지여. 나랑 함께 운을 시험해볼래? 여신의 가호 아래, 우리에게 오늘의 운세가 밝혀질 거야",
+					"안녕하세요. 믿음이 있다면, 여신이 우리의 스틸볼을 승리로 이끌어 줄 거라고 합니다. 오늘은 우리 차례일까요?",
+					"어서 오십시오, 이 신성한 곳으로. 여신을 믿는다면, 우리는 모든 게임에서 행운이 상승하는 것을 볼 수 있을 거야"
+				],
+				"trans": [
+					"이 마스크를 쓰고 어떻게 마실 거냐고? 그런 건 신경 쓰지 말고 그냥 마시면 돼",
+					"아, 동지여. 나랑 함께 운을 시험해볼래? 여신의 가호 아래, 우리에게 오늘의 운세가 밝혀질 거야",
+					"안녕하세요. 믿음이 있다면, 여신이 우리의 스틸볼을 승리로 이끌어 줄 거라고 합니다. 오늘은 우리 차례일까요?",
+					"어서 오십시오, 이 신성한 곳으로. 여신을 믿는다면, 우리는 모든 게임에서 행운이 상승하는 것을 볼 수 있을 거야"
+				]
+			},
+			"npcName": {
+				"eng": "Pachinko Devotee",
+				"trans": "파친코 중독자"
+			}
 		},
 		"premiumShop": {
 			"browseButton": {
@@ -9061,6 +9223,10 @@
 			}
 		},
 		"mainMenu": {
+			"blockedPlayer": {
+				"eng": "blocked",
+				"trans": "차단됨"
+			},
 			"bugReport": {
 				"eng": "Bug Report",
 				"trans": "버그 신고"

@@ -840,6 +840,32 @@
 				"trans": "Mondseligkeit"
 			}
 		},
+		"may": {
+			"description": {
+				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
+				"trans": "Erhalte täglich verschiedene Belohnungen für 21 Tage und bis zu ${itemName} am 22. Tag"
+			},
+			"pass1": {
+				"name": {
+					"eng": "Basic",
+					"trans": "Basis"
+				}
+			},
+			"pass2": {
+				"name": {
+					"eng": "Advanced",
+					"trans": "Fortgeschritten"
+				}
+			},
+			"subtitle": {
+				"eng": "Battle Pass",
+				"trans": "Battle Pass"
+			},
+			"title": {
+				"eng": "Vector Force Assault",
+				"trans": "Vector Force Assault"
+			}
+		},
 		"mercEnhancer": {
 			"description": {
 				"eng": "Receive free ${item} every day",
@@ -966,6 +992,16 @@
 		"unlockNow": {
 			"eng": "Unlock Now",
 			"trans": "Jetzt freischalten"
+		}
+	},
+	"blockedPlayerListPage": {
+		"noBlockedPlayers": {
+			"eng": "No blocked players",
+			"trans": "Keine blockierten Spieler"
+		},
+		"unblock": {
+			"eng": "Unblock",
+			"trans": "Entsperren"
 		}
 	},
 	"buff": {
@@ -1129,6 +1165,12 @@
 		"inputPlaceholder": {
 			"eng": "Type a message...",
 			"trans": "Schreibe eine Nachricht..."
+		},
+		"mention": {
+			"title": {
+				"eng": "${sender} has mentioned you",
+				"trans": "${sender} hat dich erwähnt"
+			}
 		},
 		"sendImage": {
 			"eng": "Send Image",
@@ -4815,6 +4857,82 @@
 			"trans": "Du hast eine neue Überlieferungsnotiz gesammelt"
 		}
 	},
+	"lottery": {
+		"error": {
+			"noWin": {
+				"eng": "Almost! Better luck next time!",
+				"trans": "Fast geschafft! Beim nächsten Mal klappt's bestimmt!"
+			},
+			"notEnoughCurrency": {
+				"eng": "Insufficient currency, required: ${required}",
+				"trans": "Unzureichende Währung, benötigt: ${required}"
+			},
+			"notEnoughItem": {
+				"eng": "Insufficient ${required}",
+				"trans": "Unzureichend ${required}"
+			}
+		},
+		"winMessage": {
+			"eng": "You received ${itemName}",
+			"trans": "Du hast ${itemName} erhalten"
+		}
+	},
+	"lotteryAnimationPopup": {
+		"activated": {
+			"loadingBarTitle": {
+				"eng": "Receiving result...",
+				"trans": "Ergebnis wird empfangen..."
+			},
+			"textList3": {
+				"eng": "Randomizing...",
+				"trans": "Zufällig..."
+			}
+		},
+		"close": {
+			"eng": "Close",
+			"trans": "Schließen"
+		}
+	},
+	"lotteryPage": {
+		"dropRateModal": {
+			"title": {
+				"eng": "Reward List",
+				"trans": "Belohnungsliste"
+			}
+		},
+		"pachinkoTip": {
+			"eng": "Each round of Pachinko you will receive one of the reward from the reward list.",
+			"trans": "Jede Runde Pachinko erhältst du eine der Belohnungen aus der Belohnungsliste."
+		},
+		"skipAnimation": {
+			"eng": "Skip Animation",
+			"trans": "Animation überspringen"
+		}
+	},
+	"lotteryType": {
+		"pachinko": {
+			"activateVerb": {
+				"eng": "Play Pachinko",
+				"trans": "Pachinko spielen"
+			},
+			"againText": {
+				"eng": "Play Again",
+				"trans": "Nochmal spielen"
+			},
+			"lostSubtitle": {
+				"eng": "Keep playing, your win awaits!",
+				"trans": "Weiter spielen, dein Sieg wartet!"
+			},
+			"lostTitle": {
+				"eng": "So close!",
+				"trans": "So knapp!"
+			},
+			"winTitle": {
+				"eng": "You won!",
+				"trans": "Du hast gewonnen!"
+			}
+		}
+	},
 	"mail": {
 		"notification": {
 			"fromPlayer": {
@@ -5636,6 +5754,10 @@
 		}
 	},
 	"messageContainer": {
+		"block": {
+			"eng": "Block",
+			"trans": "Block"
+		},
 		"developer": {
 			"eng": "Developer",
 			"trans": "Entwickler"
@@ -5644,9 +5766,25 @@
 			"eng": "No messages yet",
 			"trans": "Noch keine Nachrichten"
 		},
+		"reply": {
+			"eng": "Reply",
+			"trans": "Antworten"
+		},
+		"replyingTo": {
+			"eng": "Replying to ${playerName}",
+			"trans": "Antwort an ${playerName}"
+		},
+		"report": {
+			"eng": "Report & Block",
+			"trans": "Melden & Blocken"
+		},
 		"system": {
 			"eng": "System",
 			"trans": "System"
+		},
+		"viewProfile": {
+			"eng": "View Profile",
+			"trans": "Profil ansehen"
 		}
 	},
 	"messageToken": {
@@ -5895,6 +6033,10 @@
 			"npcName": {
 				"eng": "Chloe",
 				"trans": "Chloe"
+			},
+			"pachinkoButton": {
+				"eng": "Talk to pachinko guy in the corner",
+				"trans": "Sprich mit dem Pachinko-Typen in der Ecke"
 			},
 			"questCooldownLines": {
 				"eng": [
@@ -6252,6 +6394,26 @@
 		"mercenaryButton": {
 			"eng": "I am looking for new crew members",
 			"trans": "Ich suche neue Crewmitglieder"
+		},
+		"pachinko": {
+			"greetings": {
+				"eng": [
+					"Wie soll ich mit dieser Maske trinken? Keine Sorge, trink einfach direkt daraus",
+					"А, амиго. Хочешь попытать счастья со мной? Под покровительством богини наша судьба раскроется сегодня",
+					"Hola. Wenn wir glauben, wird die Göttin unsere Stahlkugel zum Sieg führen. Sind wir heute dran?",
+					"Ey, komm in diesen heiligen Ort. Wenn du an die Göttin glaubst, wirst du sehen, wie das Glück mit jedem Spiel wächst"
+				],
+				"trans": [
+					"Wie soll ich mit dieser Maske trinken? Keine Sorge, trink einfach direkt daraus",
+					"А, амиго. Хочешь попытать счастья со мной? Под покровительством богини наша судьба раскроется сегодня",
+					"Hola. Wenn wir glauben, wird die Göttin unsere Stahlkugel zum Sieg führen. Sind wir heute dran?",
+					"Ey, komm in diesen heiligen Ort. Wenn du an die Göttin glaubst, wirst du sehen, wie das Glück mit jedem Spiel wächst"
+				]
+			},
+			"npcName": {
+				"eng": "Pachinko Devotee",
+				"trans": "Pachinko-Anhänger"
+			}
 		},
 		"premiumShop": {
 			"browseButton": {
@@ -9061,6 +9223,10 @@
 			}
 		},
 		"mainMenu": {
+			"blockedPlayer": {
+				"eng": "blocked",
+				"trans": "blockiert"
+			},
 			"bugReport": {
 				"eng": "Bug Report",
 				"trans": "Fehlerbericht"

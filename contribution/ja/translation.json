@@ -840,6 +840,32 @@
 				"trans": "ルナ・ブリス"
 			}
 		},
+		"may": {
+			"description": {
+				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
+				"trans": "21日間毎日様々な報酬を受け取ることができ、22日目には${itemName}まで"
+			},
+			"pass1": {
+				"name": {
+					"eng": "Basic",
+					"trans": "ベーシック"
+				}
+			},
+			"pass2": {
+				"name": {
+					"eng": "Advanced",
+					"trans": "アドバンス"
+				}
+			},
+			"subtitle": {
+				"eng": "Battle Pass",
+				"trans": "バトルパス"
+			},
+			"title": {
+				"eng": "Vector Force Assault",
+				"trans": "ベクターフォースアサルト"
+			}
+		},
 		"mercEnhancer": {
 			"description": {
 				"eng": "Receive free ${item} every day",
@@ -966,6 +992,16 @@
 		"unlockNow": {
 			"eng": "Unlock Now",
 			"trans": "今すぐアンロックする"
+		}
+	},
+	"blockedPlayerListPage": {
+		"noBlockedPlayers": {
+			"eng": "No blocked players",
+			"trans": "ブロックされたプレイヤーはいません"
+		},
+		"unblock": {
+			"eng": "Unblock",
+			"trans": "ブロック解除"
 		}
 	},
 	"buff": {
@@ -1129,6 +1165,12 @@
 		"inputPlaceholder": {
 			"eng": "Type a message...",
 			"trans": "メッセージを入力してください..."
+		},
+		"mention": {
+			"title": {
+				"eng": "${sender} has mentioned you",
+				"trans": "${sender}があなたにメンションしました"
+			}
 		},
 		"sendImage": {
 			"eng": "Send Image",
@@ -4815,6 +4857,82 @@
 			"trans": "新しいロアノートを入手しました"
 		}
 	},
+	"lottery": {
+		"error": {
+			"noWin": {
+				"eng": "Almost! Better luck next time!",
+				"trans": "あと少し！次は頑張ろう！"
+			},
+			"notEnoughCurrency": {
+				"eng": "Insufficient currency, required: ${required}",
+				"trans": "所持金が不足しています。必要金額: ${required}"
+			},
+			"notEnoughItem": {
+				"eng": "Insufficient ${required}",
+				"trans": "${required}不足"
+			}
+		},
+		"winMessage": {
+			"eng": "You received ${itemName}",
+			"trans": "${itemName}を受け取りました"
+		}
+	},
+	"lotteryAnimationPopup": {
+		"activated": {
+			"loadingBarTitle": {
+				"eng": "Receiving result...",
+				"trans": "受信中..."
+			},
+			"textList3": {
+				"eng": "Randomizing...",
+				"trans": "ランダム化中..."
+			}
+		},
+		"close": {
+			"eng": "Close",
+			"trans": "閉じる"
+		}
+	},
+	"lotteryPage": {
+		"dropRateModal": {
+			"title": {
+				"eng": "Reward List",
+				"trans": "報酬リスト"
+			}
+		},
+		"pachinkoTip": {
+			"eng": "Each round of Pachinko you will receive one of the reward from the reward list.",
+			"trans": "パチンコをプレイするごとに、報酬リストから報酬を1つ受け取ることができます。"
+		},
+		"skipAnimation": {
+			"eng": "Skip Animation",
+			"trans": "スキップアニメーション"
+		}
+	},
+	"lotteryType": {
+		"pachinko": {
+			"activateVerb": {
+				"eng": "Play Pachinko",
+				"trans": "パチンコをプレイする"
+			},
+			"againText": {
+				"eng": "Play Again",
+				"trans": "もう一度プレイ"
+			},
+			"lostSubtitle": {
+				"eng": "Keep playing, your win awaits!",
+				"trans": "遊び続けろ、勝利が待っているぞ！"
+			},
+			"lostTitle": {
+				"eng": "So close!",
+				"trans": "あと少し！"
+			},
+			"winTitle": {
+				"eng": "You won!",
+				"trans": "勝利！"
+			}
+		}
+	},
 	"mail": {
 		"notification": {
 			"fromPlayer": {
@@ -5636,6 +5754,10 @@
 		}
 	},
 	"messageContainer": {
+		"block": {
+			"eng": "Block",
+			"trans": "ブロック"
+		},
 		"developer": {
 			"eng": "Developer",
 			"trans": "開発者"
@@ -5644,9 +5766,25 @@
 			"eng": "No messages yet",
 			"trans": "メッセージはありません。"
 		},
+		"reply": {
+			"eng": "Reply",
+			"trans": "返信"
+		},
+		"replyingTo": {
+			"eng": "Replying to ${playerName}",
+			"trans": "${playerName}に返信中"
+		},
+		"report": {
+			"eng": "Report & Block",
+			"trans": "通報＆ブロック"
+		},
 		"system": {
 			"eng": "System",
 			"trans": "システム"
+		},
+		"viewProfile": {
+			"eng": "View Profile",
+			"trans": "プロフィールを見る"
 		}
 	},
 	"messageToken": {
@@ -5895,6 +6033,10 @@
 			"npcName": {
 				"eng": "Chloe",
 				"trans": "クロエ"
+			},
+			"pachinkoButton": {
+				"eng": "Talk to pachinko guy in the corner",
+				"trans": "隅にいるパチンコ屋に話しかける"
 			},
 			"questCooldownLines": {
 				"eng": [
@@ -6252,6 +6394,26 @@
 		"mercenaryButton": {
 			"eng": "I am looking for new crew members",
 			"trans": "新しいクルーメンバーを探しています。"
+		},
+		"pachinko": {
+			"greetings": {
+				"eng": [
+					"このマスクを着けてどうやって飲むのかって？そんなの気にせず飲むだけさ。",
+					"ああ、同道中人。来和我一起に運試しをしてみないか？女神の加護のもと、我らに今日の運勢が明かされるだろう。",
+					"こんにちは。信仰があれば、女神が私たちの鋼球を勝利へと導いてくれると言われています。今日は私たちの番でしょうか？",
+					"ようこそ、この聖域へ。女神を信じれば、我々はすべてのゲームで運勢が上昇するのを見ることになるだろう。"
+				],
+				"trans": [
+					"このマスクを着けてどうやって飲むのかって？そんなの気にせず飲むだけさ。",
+					"ああ、同道中人。来和我一起に運試しをしてみないか？女神の加護のもと、我らに今日の運勢が明かされるだろう。",
+					"こんにちは。信仰があれば、女神が私たちの鋼球を勝利へと導いてくれると言われています。今日は私たちの番でしょうか？",
+					"ようこそ、この聖域へ。女神を信じれば、我々はすべてのゲームで運勢が上昇するのを見ることになるだろう。"
+				]
+			},
+			"npcName": {
+				"eng": "Pachinko Devotee",
+				"trans": "パチンコ愛好家"
+			}
 		},
 		"premiumShop": {
 			"browseButton": {
@@ -9061,6 +9223,10 @@
 			}
 		},
 		"mainMenu": {
+			"blockedPlayer": {
+				"eng": "blocked",
+				"trans": "ブロック"
+			},
 			"bugReport": {
 				"eng": "Bug Report",
 				"trans": "バグ報告"
