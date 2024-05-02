@@ -8,6 +8,11 @@
 
 **If you find an exploit please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
+### 0.0.44
+
+-  Added Pachinko guy in Red Bar, you can play one pachinko for free and get random rewards everyday, this mechanic(lucky draw) will be expanded for event use in the future
+-  Refined Chloe's art image
+
 ### 0.0.43
 
 -  Updated all background image for locations and districts
