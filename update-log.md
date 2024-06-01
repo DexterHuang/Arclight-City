@@ -8,6 +8,12 @@
 
 **If you find an exploit please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
+
+### 0.0.45
+
+-  Base on player feedback, hideout raid level  requirement is has been reduced from level +4 Hard Difficulty Stronghold to level +2 Hard Difficulty Stronghold, this is to make it easier for players to access hideout raid and get more rewards from it. we will monitor the situation and adjust it further if needed.
+
+
 ### 0.0.44
 
 -  Added Pachinko guy in Red Bar, you can play one pachinko for free and get random rewards everyday, this mechanic(lucky draw) will be expanded for event use in the future
