@@ -1,14 +1,19 @@
-### Apa itu Penyerbuan Markas Tersembunyi?
-Penyerbuan Markas Tersembunyi adalah fitur yang memungkinkan serangan instan kecil dan cepat pada markas geng. Serangan-serangan ini memerlukan sebuah `Pencari Tempat Persembunyian` atau `Pencari Lokasi Markas Lanjutan`.
+### Apa itu Serbuan Tempat Persembunyian?
 
-### Bagaimana cara melakukan Penyerbuan Markas Tersembunyi?
-Untuk memulai Penyerbuan Markas Tersembunyi, klik tombol `Serang Markas Tersembunyi` yang terdapat pada halaman pemilihan benteng kuat.
+Serbuan Tempat Persembunyian adalah fitur yang memungkinkan serbuan cepat, kecil, dan instan ke tempat persembunyian geng. Serbuan ini memerlukan baik `Pencari Tempat Persembunyian` maupun `Pencari Tempat Persembunyian Lanjutan`.
 
-### Apakah ada persyaratan untuk melakukan Penyerbuan Markas Tersembunyi?
-Ya, terdapat persyaratan untuk melakukan Penyerbuan Markas Tersembunyi. Anda harus telah menyelesaikan Benteng Kesulitan Tinggi dengan level yang setidaknya 4 level lebih tinggi daripada level karakter Anda. Persyaratan ini diterapkan untuk mencegah pemain hanya naik level melalui penyerbuan Markas Tersembunyi.
+### Bagaimana cara melakukan Serbuan Tempat Persembunyian?
 
-### Bagaimana cara menyelesaikan benteng yang levelnya lebih tinggi daripada level karakter saya?
-Secara default, Anda dapat mengakses benteng yang memiliki level sama dengan level karakter Anda. Namun, Anda dapat mengakses benteng dengan level yang lebih tinggi dengan menyelesaikan benteng kesulitan tinggi satu level di bawahnya. Misalnya, jika Anda berada di level 10, Anda dapat mengakses benteng dengan level 10 secara default, tetapi Anda dapat mengakses benteng dengan level 11 jika Anda telah menyelesaikan benteng kesulitan tinggi level 10.
+Untuk memulai Serbuan Tempat Persembunyian, klik tombol `Serbuan Tempat Persembunyian` yang terdapat pada halaman pemilihan benteng kuat.
 
-### Apa saja hadiah yang didapatkan dari Penyerbuan Markas Tersembunyi?
-Penyerbuan Markas Tersembunyi memberikan hadiah seperti poin pengalaman (exp) dan eurodollar, bersama dengan bonus lainnya. Jumlah exp dan eurodollar yang Anda terima berbanding lurus dengan jumlah musuh yang ada di markas pada level karakter Anda. `Pencari Lokasi Markas Lanjutan` menawarkan hadiah yang lebih baik dibandingkan dengan `Pencari Tempat Persembunyian` biasa.
+### Apakah ada persyaratan untuk melakukan Serbuan Tempat Persembunyian?
+
+Ya, ada persyaratan untuk melakukan Serbuan Tempat Persembunyian. Anda harus telah membersihkan Benteng Kuat dengan tingkat Kesulitan Tinggi yang setidaknya 2 level lebih tinggi dari level karakter Anda. Persyaratan ini diterapkan untuk mencegah pemain hanya naik level melalui serbuan tempat persembunyian.
+
+### Bagaimana cara membersihkan benteng kuat yang lebih tinggi dari level karakter saya?
+
+Secara default, Anda dapat mengakses benteng kuat yang selevel dengan level karakter Anda, namun Anda dapat mengakses benteng kuat dengan level lebih tinggi dengan membersihkan benteng kuat tingkat kesulitan tinggi satu level di bawahnya. Misalnya, jika Anda berada di level 10, Anda dapat mengakses benteng kuat level 10 secara default, namun Anda dapat mengakses benteng kuat level 11 jika Anda membersihkan benteng kuat level 10 dengan tingkat kesulitan tinggi.
+
+### Apa saja hadiah dari Serbuan Tempat Persembunyian?
+
+Serbuan Tempat Persembunyian memberikan hadiah berupa poin pengalaman (exp) dan eurodolar, bersama dengan bonus lainnya. Jumlah exp dan eurodolar yang Anda terima akan meningkat seiring dengan jumlah musuh yang ada di benteng kuat pada level karakter Anda. `Pencari Tempat Persembunyian Lanjutan` menawarkan hadiah yang lebih baik dibandingkan dengan `Pencari Tempat Persembunyian` biasa

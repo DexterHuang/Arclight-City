@@ -8,7 +8,7 @@ Um einen Versteck-Überfall zu starten, klicke auf die Schaltfläche Versteck-Ü
 
 ### Gibt es Voraussetzungen für einen Versteck-Überfall?
 
-Ja, es gibt Voraussetzungen für die Durchführung eines Versteck-Überfalls. Du musst eine Festung mit hohem Schwierigkeitsgrad und einer Stufe, die mindestens 4 Stufen höher ist als die Stufe deines Charakters, abgeschlossen haben. Diese Anforderung wurde implementiert, um zu verhindern, dass Spieler nur durch Versteck-Überfälle aufsteigen.
+Ja, es gibt Voraussetzungen für die Durchführung eines Versteck-Überfalls. Du musst eine Festung mit hohem Schwierigkeitsgrad und einer Stufe, die mindestens 2 Stufen höher ist als die Stufe deines Charakters, abgeschlossen haben. Diese Anforderung wurde implementiert, um zu verhindern, dass Spieler nur durch Versteck-Überfälle aufsteigen.
 
 ### Wie schließe ich Festungen ab, die höher sind als die Stufe meines Charakters?
 
