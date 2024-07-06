@@ -9,7 +9,7 @@
 **If you find an exploit please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
 
-### 0.0.46
+### 0.0.47
 
 -  Added many new lore notes in stronghold
 -  Optimized stronghold lore note page
