@@ -8,11 +8,20 @@
 
 **If you find an exploit please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
+
+### 0.0.46
+
+-  Added many new lore notes in stronghold
+-  Optimized stronghold lore note page
+-  Optimized location selection page
+-  Updated background images for all locations
+
+
 ### 0.0.46
 
 -  Added pixel art styled image for all stronghold notes, you can see them by opening the lore-notes page from the main menu or when picking up the note in strongholds
 
-<img width="354" alt="Screenshot 2024-06-28 at 8 40 11 PM" src="https://github.com/DexterHuang/Arclight-City/assets/18545294/97154138-9b17-4d28-af64-8648917912ab">
+![image](https://github.com/DexterHuang/Arclight-City/assets/18545294/97154138-9b17-4d28-af64-8648917912ab) 
 
 ### 0.0.45
 
