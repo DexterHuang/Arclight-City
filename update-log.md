@@ -12,6 +12,7 @@
 
 -  you can now choose to switch between local and regional channels in Chirp chat (only when your UI language is not set to English)
 -  updated chat message UI, your profile image and gang tag will be displayed on the top of the message
+-  Ren from blackmarket will now post chirp post too
 
 ### 0.0.47
 
