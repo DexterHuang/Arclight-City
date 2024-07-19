@@ -8,6 +8,13 @@
 
 **If you find an exploit please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
+### 0.0.49
+
+-  Fixed issue with chat reply function causing UI to shift in an unexpected way
+-  Minor chat message update for self-sent messages
+-  Updated AI for NPC chirp post generation
+
+
 ### 0.0.48
 
 -  you can now choose to switch between local and regional channels in Chirp chat (only when your UI language is not set to English)
