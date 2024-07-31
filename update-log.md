@@ -8,6 +8,13 @@
 
 **If you find an exploit please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
+
+### 0.0.49
+
+-  Doubled amount of possible encounters(the one with choices) in strongholds
+-  Added pixel art illustration for all encounters
+-  Fixed issue with chat UI
+
 ### 0.0.49
 
 -  Fixed issue with chat reply function causing UI to shift in an unexpected way
