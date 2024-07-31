@@ -1,0 +1,20 @@
+{
+  "story": "You find yourself standing in front of a large, metallic door with a series of complex-looking panels on it. The door is adorned with warning signs and hazard symbols, indicating that whatever is behind it is not for the faint of heart.",
+  "actions": [
+    {
+      "action": "Try to pry open the loose panel",
+      "good": "You manage to remove the panel, revealing a hidden compartment containing valuable items and tools. Your curiosity has paid off.",
+      "bad": "The loose panel triggers a hidden mechanism, causing the door to begin sealing shut. You narrowly avoid being trapped, but you take damage from the door's defensive systems."
+    },
+    {
+      "action": "Use your cyberdeck to hack into the door's security system",
+      "good": "Your hacking skills allow you to bypass the security system, granting you access to the other side of the door and potentially valuable loot.",
+      "bad": "Your hacking attempt is detected by the door's AI, which responds by activating a swarm of micro-drones that attack you. You take damage from the drones' attacks."
+    },
+    {
+      "action": "Search for an alternate way into the secured area",
+      "good": "After searching the nearby corridors, you discover a hidden air vent that leads to the other side of the door. You find valuable loot and tools inside.",
+      "bad": "While searching for an alternate route, you accidentally trigger a trap, causing the floor beneath you to collapse. You fall into a pit filled with toxic waste, taking damage but managing to escape."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "story": "You cautiously approach the large, metallic door, its surface crackling with high-voltage energy. The air is charged with electricity, and you can feel the hairs on your arm standing on end. A tattered screen of circuit boards hangs from the wall above the keypad, partially covering it. You notice that the screen flickers with a faint blue light, as if trying to convey a message. What do you do?",
+  "actions": [
+    {
+      "action": "Attempt to hack the keypad",
+      "good": "Your fingers dance across the keypad with precision, and you manage to bypass the security systems. The door slides open, revealing a hidden cache of valuable items.",
+      "bad": "Your attempt to hack the keypad triggers an automatic shutdown sequence. The door slams shut, and you take damage from the energy discharge."
+    },
+    {
+      "action": "Force the door open with brute strength",
+      "good": "With a show of great strength, you pry the door open, revealing a stash of valuable items. Your determination reaps rewards.",
+      "bad": "Your efforts to force the door open trigger an energy trap. A blast of electricity knocks you back, causing damage and leaving the loot out of reach."
+    },
+    {
+      "action": "Try to decipher the message on the circuit board screen",
+      "good": "You carefully examine the flickering blue light and manage to decode a hidden message. The message leads you to a secret stash of valuable items.",
+      "bad": "While trying to decipher the message, you accidentally trigger an alarm system. Automated turrets emerge from the walls, firing in your direction. You take damage, but the loot remains out of reach."
+    }
+  ]
+}

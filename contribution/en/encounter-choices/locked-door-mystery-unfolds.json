@@ -1,0 +1,20 @@
+{
+  "story": "You're in a dimly lit storage room within the gang stronghold, searching for valuable parts to repair a crucial piece of equipment. You notice that several boxes are locked with complex-looking combination locks.",
+  "actions": [
+    {
+      "action": "Use your knowledge of cryptography to try and decipher the symbol on the crate",
+      "good": "You successfully decode the symbol, granting you access to valuable parts. Your cryptographic skills pay off.",
+      "bad": "Your attempt triggers an alarm, and automated security systems engage. You take damage while trying to escape."
+    },
+    {
+      "action": "Search for a hidden pattern or sequence",
+      "good": "You find the correct pattern, unlocking the crate and granting you access to valuable parts. Your attention to detail is rewarded.",
+      "bad": "While searching, you trigger a trap, taking damage as poisonous gas fills the room."
+    },
+    {
+      "action": "Try brute force by using a lockpick set",
+      "good": "With your advanced lockpicks, you successfully manipulate the internal mechanisms of the combination lock. You gain access to valuable parts.",
+      "bad": "The lock shatters under your attempts, and you take damage from flying debris."
+    }
+  ]
+}

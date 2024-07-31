@@ -1,0 +1,20 @@
+{
+  "story": "You stumble upon an abandoned laboratory deep in the stronghold's basement, filled with ancient machinery and discarded tech. A mysterious server room lies hidden behind a false wall, containing sensitive data and valuable technology. What do you do?",
+  "actions": [
+    {
+      "action": "Disable the lab's security cameras using your knowledge of electronics",
+      "good": "You successfully disable the security cameras, allowing you to access the server room without triggering alarms. You find a hidden cache of valuable items.",
+      "bad": "Your attempts to disable the cameras trigger a secondary alarm system, and you take damage from a nearby trap."
+    },
+    {
+      "action": "Use a nearby 3D printer to create a keycard or access token",
+      "good": "You successfully print a keycard that grants you access to the server room. You discover valuable technology and sensitive data.",
+      "bad": "The 3D printer malfunctions, causing a chain reaction of events that trigger alarms and damage you."
+    },
+    {
+      "action": "Attempt to outrun the lab's automated defense drones",
+      "good": "You manage to evade the drones and access the server room. You find valuable technology and sensitive data.",
+      "bad": "The drones are too fast, and you take damage while trying to outrun them. The loot remains out of reach."
+    }
+  ]
+}

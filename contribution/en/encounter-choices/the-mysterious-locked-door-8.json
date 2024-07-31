@@ -1,0 +1,20 @@
+{
+  "story": "You stand before a massive, metal door with a keypad locked in place. The wall above displays a countdown timer, and the air is thick with tension.",
+  "actions": [
+    {
+      "action": "Enter the correct code to unlock the door",
+      "good": "You enter the code correctly, and the door slides open, revealing a hidden cache of valuable items.",
+      "bad": "You enter an incorrect code, triggering an alarm that deals damage to you. The loot remains out of reach."
+    },
+    {
+      "action": "Try to smash through the door with brute force",
+      "good": "With great strength, you pry the door open, revealing a stash of valuable items.",
+      "bad": "Your efforts trigger a hidden trap, causing damage to you. The loot remains just out of reach."
+    },
+    {
+      "action": "Use your cyberdeck to bypass the security system",
+      "good": "You successfully hack into the system, granting you access to a hidden cache of valuable items.",
+      "bad": "Your attempt triggers an automated defense system, dealing damage to you. The loot remains tantalizingly out of reach."
+    }
+  ]
+}

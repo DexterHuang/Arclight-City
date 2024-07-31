@@ -1,0 +1,20 @@
+{
+  "story": "You find yourself standing at the edge of a large, dimly lit chamber filled with toxic waste. The air is thick with noxious fumes, and you can hear the sound of machinery malfunctioning in the distance. A narrow catwalk stretches across the room, but it's unclear if it's safe to cross. What do you do?",
+  "actions": [
+    {
+      "action": "Cautiously make your way across the catwalk",
+      "good": "You manage to navigate the treacherous path without taking damage, and find a hidden stash of valuable items on the other side. Your quick thinking pays off.",
+      "bad": "As you step onto the catwalk, it gives way beneath you. You fall into the toxic waste below, taking damage but managing to escape with your life. The loot remains out of reach."
+    },
+    {
+      "action": "Search for a way to bypass the catwalk and find an alternate route",
+      "good": "You discover a hidden passage that allows you to avoid the catwalk altogether. You find a stash of valuable items and make your way back to safety.",
+      "bad": "While searching for an alternate route, you trigger a deadly trap. A massive weight falls from the ceiling, but you just manage to dodge it. The loot remains out of reach."
+    },
+    {
+      "action": "Try to repair the malfunctioning machinery",
+      "good": "You successfully repair the machinery, and it begins to clean up some of the toxic waste in the room. You find a stash of valuable items hidden beneath the debris.",
+      "bad": "Your attempts to repair the machinery trigger a chain reaction that makes the situation worse. The toxic waste becomes even more deadly, and you take damage trying to escape. The loot remains out of reach."
+    }
+  ]
+}

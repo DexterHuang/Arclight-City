@@ -1,0 +1,20 @@
+{
+  "story": "You find yourself standing in front of an old, rusted robotic maintenance drone. It's lying on its side, partially buried under a pile of debris. The drone's limbs are twisted and damaged, but it seems to still be operational. The drone's screen flickers with error codes and warning messages. What do you do?",
+  "actions": [
+    {
+      "action": "Attempt to repair the drone",
+      "good": "With your technical expertise, you manage to bypass the drone's malfunctioning systems and reactivate its maintenance functions. You're rewarded with a cache of valuable items and tools.",
+      "bad": "Your attempts to repair the drone trigger a chain reaction that causes it to malfunction even further. The drone begins to emit a high-pitched whine, attracting unwanted attention from other gang members. You take damage as they investigate the noise."
+    },
+    {
+      "action": "Scavenge the drone for parts",
+      "good": "You carefully disassemble the drone, salvaging useful components and tools that can aid you in your future endeavors.",
+      "bad": "As you start to dismantle the drone, its systems begin to shut down, causing it to lock into a failsafe mode. The drone's limbs lunge out, attempting to grasp and restrain you. You take damage as you struggle to free yourself."
+    },
+    {
+      "action": "Activate the drone remotely",
+      "good": "Using your hacking skills, you manage to regain control of the drone's systems and activate its maintenance functions. You're rewarded with a cache of valuable items and tools.",
+      "bad": "Your attempt to activate the drone remotely triggers a security protocol that alerts the gang's AI system. The AI launches a counterattack, deploying turrets and drones to suppress you. You take damage as they try to overwhelm you."
+    }
+  ]
+}

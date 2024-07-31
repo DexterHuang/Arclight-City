@@ -1,0 +1,20 @@
+{
+  "story": "You push open the creaky door to reveal a cluttered workshop filled with discarded machinery and half-finished projects. A peculiar drone prototype lies on a workbench, surrounded by scattered tools and wires.",
+  "actions": [
+    {
+      "action": "Attempt to reassemble the drone prototype",
+      "good": "Your expertise in robotics allows you to quickly assemble the device, granting access to a hidden compartment containing valuable items.",
+      "bad": "Your attempt at reassembly triggers an unstable power surge, causing the drone's components to malfunction and deal damage to you."
+    },
+    {
+      "action": "Search for tools to aid in disassembling the prototype",
+      "good": "You find a set of specialized tools that help you safely disassemble the drone, revealing a hidden compartment containing valuable items.",
+      "bad": "Your search for tools distracts you from potential dangers, causing you to overlook an active trap that deals damage."
+    },
+    {
+      "action": "Investigate the scattered wires and components on the workbench",
+      "good": "You discover a crucial connection between the drone's systems, granting access to a hidden compartment containing valuable items.",
+      "bad": "Your investigation causes a short circuit, dealing damage to you as sparks fly from the electrical components."
+    }
+  ]
+}

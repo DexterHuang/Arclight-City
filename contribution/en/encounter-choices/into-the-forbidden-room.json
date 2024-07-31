@@ -1,0 +1,20 @@
+{
+  "story": "You stumble upon a hidden ventilation shaft in one of the stronghold's corridors. As you peer into the darkness, you notice a faint glow emanating from within. The shaft appears to lead to an unknown part of the complex. What do you do?",
+  "actions": [
+    {
+      "action": "Climb down into the ventilation shaft",
+      "good": "You navigate through the narrow ducts and find yourself in a small, dimly lit room filled with rows of humming servers. The air is thick with the smell of ozone and burned circuitry. You manage to scavenge a few valuable components from the wreckage.",
+      "bad": "Your descent into the shaft triggers a security alarm, and the room begins to fill with noxious gas. You take damage as you try to find an escape route amidst the toxic fumes."
+    },
+    {
+      "action": "Search the ventilation grille for a hidden panel or access point",
+      "good": "You notice a slight discrepancy in the grille's design and manage to pry it open, revealing a hidden compartment containing a few useful gadgets. Your keen eye for detail pays off.",
+      "bad": "Your search for a hidden panel triggers a trap, causing the ventilation shaft to start spinning at high speed. You take damage as you struggle to hold on."
+    },
+    {
+      "action": "Call out for maintenance personnel to assist with accessing the ventilation shaft",
+      "good": "You hear the sound of footsteps approaching and soon find yourself face-to-face with a gruff but friendly maintenance worker who helps you navigate the ventilation system. They even hand you a few valuable tools.",
+      "bad": "Your call for help is misinterpreted as a distress signal, and a team of heavily armed gang members arrives to 'rescue' you. You take damage in the ensuing chaos."
+    }
+  ]
+}

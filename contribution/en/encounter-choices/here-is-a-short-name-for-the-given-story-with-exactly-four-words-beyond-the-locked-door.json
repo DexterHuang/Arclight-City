@@ -1,0 +1,20 @@
+{
+  "story": "You stand before an ancient safe, its keypad beckoning you to enter a code. The air is charged with anticipation as you ponder your next move. What do you do?",
+  "actions": [
+    {
+      "action": "Enter a random code and see if it works",
+      "good": "Your lucky guess pays off; the safe's door swings open, revealing a treasure trove of valuable items inside. You feel like you've hit the jackpot.",
+      "bad": "You enter a wrong code, causing the keypad to lock up. The safe's internal mechanisms spring into action, releasing a blast of compressed air that grazes you and causes damage."
+    },
+    {
+      "action": "Search for any hidden clues or patterns on the keypad",
+      "good": "By carefully examining the keypad, you notice a subtle pattern of indentations that correspond to specific numbers. You enter the correct sequence, and the safe's door opens with a satisfying click.",
+      "bad": "You spend too long searching for clues, only to realize you've set off a timer. The safe's internal mechanisms begin to reset, and you're left with nothing but a partially opened door that slams shut in your face."
+    },
+    {
+      "action": "Use brute force to try and open the safe",
+      "good": "With a combination of strength and luck, you manage to pry open the safe's door. Inside, you find a stash of valuable items, including some rare tech components.",
+      "bad": "Your attempt to force the safe open triggers its internal security mechanisms. The safe emits a high-pitched whine as it releases a localized energy field that deals damage and leaves you shaken."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "story": "You find yourself in a cramped storage room deep within the gang stronghold. Shelves lined with crates and boxes stretch towards the ceiling, casting long shadows across the floor. A faint smell of disinfectant wafts through the air, and the soft hum of machinery echoes from somewhere beyond the walls.",
+  "actions": [
+    {
+      "action": "Open the crate labeled 'biohazard'",
+      "good": "You cautiously lift the lid to reveal a stash of valuable items and a note that reads \"For eyes only\". Your curiosity is rewarded.",
+      "bad": "As you open the crate, a cloud of noxious gas is released, causing minor damage."
+    },
+    {
+      "action": "Search for an air vent in the storage room",
+      "good": "You find a hidden panel to the ventilation system, which leads you to a cache of valuable items and a cryptic message that hints at a deeper conspiracy.",
+      "bad": "As you climb into the vent, you trigger a security mechanism that causes the vents to fill with a noxious gas. You take damage before managing to escape."
+    },
+    {
+      "action": "Use nearby crates to create a barricade",
+      "good": "You quickly gather crates and boxes to block the door, securing a hidden stash of valuable items within the storage room.",
+      "bad": "Your attempt at creating a barricade attracts unwanted attention from the gang's security forces. They break through the barrier, and you take damage in the ensuing scuffle."
+    }
+  ]
+}
