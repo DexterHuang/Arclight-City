@@ -1,0 +1,20 @@
+{
+  "story": "Du stößt auf ein verlassenes Labor tief im Keller der Festung, gefüllt mit antiker Maschinen und verworfenem Tech. Ein mysteriöser Serverraum liegt hinter einer falschen Wand verborgen und enthält sensible Daten sowie wertvolle Technologie. Was tust du?",
+  "actions": [
+    {
+      "action": "Deaktiviere die Sicherheitskameras des Labors mit deinem Wissen über Elektronik",
+      "good": "Du deaktivierst erfolgreich die Sicherheitskameras, was dir den Zugang zum Serverraum ermöglicht, ohne Alarm auszulösen. Du findest ein verstecktes Versteck mit wertvollen Gegenständen.",
+      "bad": "Deine Versuche, die Kameras zu deaktivieren, lösen ein sekundäres Alarmsystem aus, und du erleidest Schaden durch eine nahegelegene Falle."
+    },
+    {
+      "action": "Nutze einen nahegelegenen 3D-Drucker, um eine Schlüsselkarte oder einen Zugangstoken zu erstellen",
+      "good": "Du druckst erfolgreich eine Schlüsselkarte, die dir Zugang zum Serverraum gewährt. Du entdeckst wertvolle Technologie und sensible Daten.",
+      "bad": "Der 3D-Drucker funktioniert nicht richtig, was eine Kettenreaktion auslöst, die Alarme auslöst und dir Schaden zufügt."
+    },
+    {
+      "action": "Versuche, den automatisierten Verteidigungsdrohnen des Labors zu entkommen",
+      "good": "Es gelingt dir, den Drohnen zu entkommen und den Serverraum zu betreten. Du findest wertvolle Technologie und sensible Daten.",
+      "bad": "Die Drohnen sind zu schnell, und du erleidest Schaden, während du versuchst, ihnen zu entkommen. Die Beute bleibt unerreichbar."
+    }
+  ]
+}

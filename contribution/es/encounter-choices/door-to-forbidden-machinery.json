@@ -1,0 +1,20 @@
+{
+  "story": "Entras cuidadosamente en la habitación, tus ojos se ajustan a las luces brillantes de la maquinaria. Notas una serie de grandes tanques cilíndricos en el centro de la sala, cada uno emitiendo un suave silbido mientras bombea un flujo constante de gas. El aire está denso con el olor a combustible y ozono.",
+  "actions": [
+    {
+      "action": "Intenta acceder a la consola bloqueada",
+      "good": "Tus habilidades te permiten eludir el bloqueo y accedes a un menú oculto. Descubres un valioso escondite de objetos, incluyendo una célula de energía rara y un conjunto de herramientas avanzadas.",
+      "bad": "Intentas forzar la cerradura, pero activa una alarma. Una máquina cercana emite una explosión de chispas, y recibes daño por la descarga eléctrica."
+    },
+    {
+      "action": "Investiga el cartel de advertencia en uno de los tanques",
+      "good": "Descubres que el tanque está filtrando una pequeña cantidad de gas, pero no es crítico. Logras encontrar una válvula para cerrar la fuga, y accedes a un compartimento de almacenamiento oculto que contiene objetos valiosos.",
+      "bad": "El tanque está filtrando más de lo que pensabas inicialmente, y el gas comienza a expandirse rápidamente. Recibes daño por los vapores nocivos, y la fuga sigue creciendo."
+    },
+    {
+      "action": "Revisa la maquinaria en busca de pistas o peligros",
+      "good": "Notas que una de las máquinas tiene un panel oculto con un mensaje críptico grabado en él. Logras descifrar el código y accedes a un valioso escondite de objetos.",
+      "bad": "Mientras investigas la maquinaria, activas una trampa oculta. Una máquina cercana emite una explosión de chispas, y recibes daño por la descarga eléctrica."
+    }
+  ]
+}

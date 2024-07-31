@@ -1,0 +1,20 @@
+{
+  "story": "Du durchsuchst einen staubigen Lagerraum in der Festung der Gang, als du auf eine alte, geheimnisvolle Konsole stößt. Sie ist mit Kabeln bedeckt und scheint ein schwaches Summen von sich zu geben. Die Konsole ist von alten Computerteilen, Werkzeugen und einer Art improvisierter Reparaturstation umgeben. Ein Schild an der Wand besagt: \"Experimentelle Projekte - Nicht anfassen.\" Was tust du?",
+  "actions": [
+    {
+      "action": "Versuche, dein Cyberdeck mit der Konsole zu verbinden",
+      "good": "Dein Cyberdeck verbindet sich mit der Konsole, und du erhältst Zugang zu einer versteckten Datenbank mit wertvollen Informationen über die Operationen der Gang und potenzielle Ziele. Du entdeckst auch ein paar nützliche Werkzeuge und Gadgets, die zurückgelassen wurden.",
+      "bad": "Die Verbindung deines Cyberdecks mit der Konsole führt zu einer Systemüberlastung, die die Ausrüstung beschädigt und dich anfällig für Hackerangriffe von unbekannten Quellen macht. Du erleidest Schaden, schaffst es aber, mit deinem Leben zu entkommen."
+    },
+    {
+      "action": "Untersuche die Reparaturstation und schau, ob du etwas lernen kannst",
+      "good": "Nach genauer Untersuchung der Reparaturstation entdeckst du ein verstecktes Fach mit einem Satz fortschrittlicher Werkzeuge, die von einem ehemaligen Gangmitglied zurückgelassen wurden. Die Werkzeuge sind nützlich, um dein Cyberdeck aufzurüsten oder andere Ausrüstungen zu reparieren.",
+      "bad": "Während du versuchst, die Reparaturstation zu untersuchen, löst du versehentlich einen Sicherheitsmechanismus aus, der den Raum mit giftigen Dämpfen füllt. Du erleidest Schaden und musst schnell entkommen, bevor die Dämpfe zu stark werden."
+    },
+    {
+      "action": "Versuche, die Konsole zu aktivieren und schau, was passiert",
+      "good": "Die Aktivierung der Konsole enthüllt eine versteckte Schnittstelle, die dir den Zugang zu einem sicheren Server ermöglicht, der wertvolle Informationen über die Operationen der Gang und potenzielle Ziele enthält. Du entdeckst auch ein paar nützliche Werkzeuge und Gadgets, die zurückgelassen wurden.",
+      "bad": "Die Aktivierung der Konsole führt zu einem Fehlfunktion, die einen Energiestoß freisetzt, der nahegelegene Ausrüstungen beschädigt und dich anfällig für elektrische Angriffe macht. Du erleidest Schaden, schaffst es aber, mit deinem Leben zu entkommen."
+    }
+  ]
+}

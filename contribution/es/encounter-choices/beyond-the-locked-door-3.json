@@ -1,0 +1,20 @@
+{
+  "story": "Te encuentras en un almacén tenuemente iluminado, en lo profundo de la fortaleza de la banda. El aire está cargado de polvo y el olor a maquinaria vieja. Al escanear la habitación, notas un gran contenedor en el centro, adornado con señales de advertencia y sellos de seguridad. De repente, el sonido del metal chirriante resuena en la habitación y el contenedor comienza a moverse.",
+  "actions": [
+    {
+      "action": "Intentar abrir el contenedor a la fuerza",
+      "good": "Con un poco de esfuerzo, logras aflojar los sellos y levantar la tapa. Dentro, encuentras un escondite de objetos valiosos que los líderes de la banda habían estado ocultando.",
+      "bad": "Al intentar forzar la apertura del contenedor, activas un mecanismo de seguridad que libera una nube de gas nocivo. Recibes daño por inhalar los vapores, pero el contenedor permanece cerrado."
+    },
+    {
+      "action": "Buscar una forma de desactivar los sellos de seguridad",
+      "good": "Después de examinar el contenedor y el área circundante, encuentras un panel oculto con un teclado. Al hackear el teclado, desactivas los sellos de seguridad y accedes al contenido del contenedor.",
+      "bad": "Tu intento de hackear el teclado activa una alarma que alerta a los líderes de la banda sobre tu presencia. Recibes daño por una bala perdida disparada por uno de sus guardias, pero el contenedor sigue sellado."
+    },
+    {
+      "action": "Intentar mover el contenedor",
+      "good": "Con gran esfuerzo, logras rodar el contenedor fuera del almacén y hacia un pasillo cercano. Al investigar más, descubres que el contenedor es en realidad una ruta de salida oculta para los líderes de la banda. Encuentras un escondite de objetos valiosos y te ayudas.",
+      "bad": "Tu intento de mover el contenedor activa una trampa que hace que caiga sobre ti. Recibes daño por el impacto, pero el contenedor permanece en su lugar."
+    }
+  ]
+}

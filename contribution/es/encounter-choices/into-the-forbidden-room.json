@@ -1,0 +1,20 @@
+{
+  "story": "Te topas con un conducto de ventilación oculto en uno de los pasillos de la fortaleza. Al asomarte a la oscuridad, notas un tenue resplandor que emana desde dentro. El conducto parece llevar a una parte desconocida del complejo. ¿Qué haces?",
+  "actions": [
+    {
+      "action": "Bajar al conducto de ventilación",
+      "good": "Navegas a través de los estrechos ductos y te encuentras en una pequeña habitación tenue llena de filas de servidores zumbantes. El aire está cargado con el olor a ozono y circuitos quemados. Logras buscar algunos componentes valiosos entre los escombros.",
+      "bad": "Tu descenso al conducto activa una alarma de seguridad, y la habitación comienza a llenarse de gas nocivo. Recibes daño mientras intentas encontrar una ruta de escape entre los vapores tóxicos."
+    },
+    {
+      "action": "Buscar en la rejilla de ventilación un panel oculto o punto de acceso",
+      "good": "Notas una ligera discrepancia en el diseño de la rejilla y logras abrirla, revelando un compartimento oculto que contiene algunos gadgets útiles. Tu ojo agudo para los detalles da sus frutos.",
+      "bad": "Tu búsqueda de un panel oculto activa una trampa, haciendo que el conducto de ventilación comience a girar a alta velocidad. Recibes daño mientras luchas por mantenerte agarrado."
+    },
+    {
+      "action": "Llamar al personal de mantenimiento para que te ayude a acceder al conducto de ventilación",
+      "good": "Escuchas el sonido de pasos acercándose y pronto te encuentras cara a cara con un trabajador de mantenimiento rudo pero amigable que te ayuda a navegar por el sistema de ventilación. Incluso te entrega algunas herramientas valiosas.",
+      "bad": "Tu llamada de ayuda es malinterpretada como una señal de socorro, y un equipo de miembros de banda fuertemente armados llega para 'rescatarte'. Recibes daño en el caos que sigue."
+    }
+  ]
+}

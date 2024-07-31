@@ -1,0 +1,20 @@
+{
+  "story": "Du stehst vor einem großen, metallischen Aufzug, der anscheinend zwischen den Etagen feststeckt. Die Anzeigeleuchten über den Türen flackern und werfen ein unheimliches Licht über den Bereich. Du warst auf dem Weg zu einem Treffen mit einem hochrangigen Mitglied deiner Gang, als du auf diesen defekten Aufzug gestoßen bist. Die Türen sind blockiert, und es gibt keine klare Möglichkeit, wie du weiterkommst. Der Aufzug steckt zwischen den Etagen fest, aber es sieht so aus, als könnte er zugänglich sein, wenn du einen Weg findest, die Sicherheitsmechanismen zu umgehen oder die automatische Abschaltsequenz zu deaktivieren.",
+  "actions": [
+    {
+      "action": "Versuche, die Türen mit roher Gewalt zu öffnen",
+      "good": "Es gelingt dir, die Türen aufzubrechen und ein verstecktes Fach mit wertvollen Gegenständen zu entdecken. Dein Durchhaltevermögen zahlt sich aus.",
+      "bad": "Deine Versuche, die Türen aufzubrechen, lösen einen Alarm aus, und die automatisierten Sicherheitssysteme werden aktiviert. Du erleidest Schaden, als die Sicherheitsmechanismen des Aufzugs aktiv werden."
+    },
+    {
+      "action": "Versuche, das Steuerpanel des Aufzugs zu hacken",
+      "good": "Es gelingt dir, die Sicherheitsprotokolle zu umgehen, und der Aufzug beginnt sich wieder zu bewegen. Drinnen findest du einen Vorrat an wertvollen Gegenständen.",
+      "bad": "Dein Hacking-Versuch löst eine Notabschaltung aus, und der Aufzug wird dunkel. Du erleidest Schaden, während die automatischen Systeme versuchen, sich neu zu initialisieren."
+    },
+    {
+      "action": "Suche nach einem alternativen Weg um den feststeckenden Aufzug",
+      "good": "Du entdeckst einen versteckten Durchgang, der es dir ermöglicht, den Aufzug ganz zu umgehen. Drinnen findest du einen wertvollen Vorrat an Gegenständen.",
+      "bad": "Während du nach einem alternativen Weg suchst, bleibst du in einem engen Luftschacht stecken. Du erleidest Schaden, während du versuchst, dich zu befreien."
+    }
+  ]
+}

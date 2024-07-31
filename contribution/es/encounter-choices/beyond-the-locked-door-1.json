@@ -1,0 +1,20 @@
+{
+  "story": "Te encuentras en una sección de la fortaleza de la banda que ha sido acordonada debido a un proyecto experimental que salió mal. El aire está denso con vapores nocivos, y señales de advertencia pegadas en las paredes advierten sobre un peligro inminente. Necesitas navegar a través de esta área traicionera sin activar ninguna alarma ni lastimarte. ¿Qué haces?",
+  "actions": [
+    {
+      "action": "Avanzas con cautela, esquivando las áreas peligrosas",
+      "good": "Logras evitar activar trampas o alarmas, y al llegar al otro lado, descubres una sala de almacenamiento oculta que contiene objetos valiosos. Tu navegación cuidadosa da sus frutos.",
+      "bad": "Mientras te mueves por el área, accidentalmente activas una placa de presión, haciendo que una sección del suelo se derrumbe bajo tus pies. Recibes daño por la caída, pero logras escapar con vida. El botín sigue fuera de alcance."
+    },
+    {
+      "action": "Usa tu conocimiento de los sistemas de seguridad de la banda para desactivar cualquier amenaza potencial",
+      "good": "Desactivas hábilmente los sistemas de seguridad en el área, lo que te permite avanzar sin preocuparte por alarmas o trampas. Encuentras un escondite de objetos valiosos y los reclamas como tuyos.",
+      "bad": "Tu intento de desactivar los sistemas de seguridad activa un protocolo de respaldo, sellando toda el área. Recibes daño por los vapores tóxicos, pero logras escapar con vida. El botín sigue fuera de alcance."
+    },
+    {
+      "action": "Busca una ruta alternativa que evite las áreas peligrosas",
+      "good": "Encuentras un pasaje oculto que te lleva alrededor del área traicionera, y al llegar al otro lado, descubres un escondite valioso de objetos. Tu ingenio da sus frutos.",
+      "bad": "Mientras buscas una ruta alternativa, quedas atrapado en un conducto de ventilación y te quedas atascado. Recibes daño por el espacio confinado, pero logras escapar con vida. El botín sigue fuera de alcance."
+    }
+  ]
+}

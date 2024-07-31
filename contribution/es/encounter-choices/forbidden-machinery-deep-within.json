@@ -1,0 +1,20 @@
+{
+  "story": "Estás navegando por los oscuros pasillos de la fortaleza de la banda cuando te topas con una habitación llena de filas y filas de servidores y maquinaria zumbante. El aire está cargado con el olor a circuitos quemados y ozono. En el centro de la habitación, un gran dispositivo cilíndrico pulsa con energía, emitiendo un zumbido bajo que parece sincronizarse con las máquinas a su alrededor. De repente, las luces del dispositivo comienzan a parpadear rápidamente, y las máquinas empiezan a fallar.",
+  "actions": [
+    {
+      "action": "Intentar apagar el dispositivo",
+      "good": "Logras desactivar el dispositivo, y las máquinas vuelven a sus funciones normales. Como recompensa, encuentras un compartimento oculto que contiene un objeto valioso. ¡Tu rápida reacción ha salvado el día!",
+      "bad": "Tu intento de apagar el dispositivo desencadena una reacción en cadena de explosiones. La habitación ahora está llena de escombros, y recibes daño mientras intentas escapar."
+    },
+    {
+      "action": "Intentar acceder a los servidores",
+      "good": "Hackeas los servidores y obtienes información valiosa sobre las operaciones de la banda. Encuentras un escondite de objetos, incluyendo una mejora rara para tu ciberdeck. ¡Tus habilidades de hackeo han dado sus frutos!",
+      "bad": "Tu intento de acceder a los servidores activa una respuesta de seguridad automática. Los firewalls y los sistemas de detección de intrusiones se activan, y recibes daño mientras intentas navegar por el laberinto digital."
+    },
+    {
+      "action": "¡Sal de ahí!",
+      "good": "Sales rápidamente de la habitación, evitando el caos que se desata. Al emerger del pasillo, encuentras un pasaje oculto que lleva a un escondite secreto de objetos. Tu escape ha sido recompensado.",
+      "bad": "En tu prisa por salir, accidentalmente activas una trampilla. Caes en un pozo oculto y recibes daño mientras intentas salir. El botín permanece fuera de alcance."
+    }
+  ]
+}

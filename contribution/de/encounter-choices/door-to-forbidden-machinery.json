@@ -1,0 +1,20 @@
+{
+  "story": "Du trittst vorsichtig in den Raum, deine Augen gewöhnen sich an das grelle Licht der Maschinen. In der Mitte des Raumes bemerkst du eine Reihe großer, zylindrischer Tanks, die ein leises Zischen von sich geben, während sie einen stetigen Strom Gas ausstoßen. Die Luft ist dick vom Geruch nach Treibstoff und Ozon.",
+  "actions": [
+    {
+      "action": "Versuche, auf die gesperrte Konsole zuzugreifen",
+      "good": "Deine Fähigkeiten ermöglichen es dir, das Schloss zu umgehen, und du erhältst Zugang zu einem versteckten Menü. Du entdeckst einen wertvollen Vorrat an Gegenständen, darunter eine seltene Energiezelle und ein Set fortschrittlicher Werkzeuge.",
+      "bad": "Du versuchst, das Schloss gewaltsam zu öffnen, aber es löst einen Alarm aus. Eine nahegelegene Maschine stößt einen Funkenregen aus, und du erleidest Schaden durch die elektrische Entladung."
+    },
+    {
+      "action": "Untersuche das Warnschild an einem der Tanks",
+      "good": "Du stellst fest, dass der Tank eine kleine Menge Gas leckt, aber es ist nicht kritisch. Du findest ein Ventil, um das Leck abzudichten, und erhältst Zugang zu einem versteckten Stauraum mit wertvollen Gegenständen.",
+      "bad": "Der Tank leckt mehr, als du zunächst gedacht hast, und das Gas breitet sich schnell aus. Du erleidest Schaden durch die giftigen Dämpfe, und das Leck wächst weiter."
+    },
+    {
+      "action": "Überprüfe die Maschinen auf weitere Hinweise oder Gefahren",
+      "good": "Du bemerkst, dass eine der Maschinen ein verstecktes Panel mit einer kryptischen Nachricht darauf hat. Du schaffst es, den Code zu entschlüsseln, und erhältst Zugang zu einem wertvollen Vorrat an Gegenständen.",
+      "bad": "Während du die Maschinen untersuchst, löst du eine versteckte Falle aus. Eine nahegelegene Maschine stößt einen Funkenregen aus, und du erleidest Schaden durch die elektrische Entladung."
+    }
+  ]
+}

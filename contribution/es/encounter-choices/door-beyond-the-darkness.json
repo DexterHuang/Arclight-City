@@ -1,0 +1,20 @@
+{
+  "story": "Te encuentras en una habitación débilmente iluminada, llena de maquinaria antigua y herramientas esparcidas. El aire está cargado con el olor a grasa y ozono. En el centro de la habitación hay una impresora 3D de aspecto antiguo, su estructura metálica cubierta de polvo y telarañas. ¿Qué haces?",
+  "actions": [
+    {
+      "action": "Intentar interactuar con la impresora 3D",
+      "good": "La impresora 3D cobra vida, y un pequeño compartimento se abre, revelando un botín de objetos valiosos. Te llevas el botín.",
+      "bad": "Tu intento de interactuar con la impresora 3D provoca una descarga eléctrica. Recibes daño, pero logras escapar."
+    },
+    {
+      "action": "Buscar un manual o instrucciones sobre cómo usar la impresora 3D",
+      "good": "Encuentras un compartimento oculto que contiene un manual detallado y un conjunto de herramientas especializadas. Con esto, logras ensamblar un nuevo componente de la impresora 3D.",
+      "bad": "Tu búsqueda de un manual te lleva a descubrir que la habitación ha sido comprometida. Recibes daño mientras el área comienza a llenarse de gas nocivo."
+    },
+    {
+      "action": "Salir de la habitación y explorar otras áreas de la fortaleza de la banda",
+      "good": "Logras escapar de la habitación sin activar ninguna alarma, encontrando nuevos caminos y oportunidades para adquirir objetos valiosos.",
+      "bad": "Al salir de la habitación, accidentalmente activas un sensor oculto. Recibes daño por una secuencia de eliminación automática iniciada por los sistemas de seguridad de la fortaleza."
+    }
+  ]
+}

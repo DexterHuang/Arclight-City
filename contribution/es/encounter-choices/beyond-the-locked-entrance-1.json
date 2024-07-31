@@ -1,0 +1,20 @@
+{
+  "story": "Te encuentras en un estrecho cuarto de almacenamiento, en lo profundo de la fortaleza de la banda. Estantes llenos de cajas y contenedores se extienden hacia el techo, proyectando largas sombras sobre el suelo. Un leve olor a desinfectante flota en el aire, y el suave zumbido de maquinaria resuena desde algún lugar más allá de las paredes.",
+  "actions": [
+    {
+      "action": "Abre la caja etiquetada como 'peligro biológico'",
+      "good": "Con precaución, levantas la tapa y revelas un escondite de objetos valiosos y una nota que dice \"Solo para ojos\". Tu curiosidad es recompensada.",
+      "bad": "Al abrir la caja, se libera una nube de gas nocivo, causando daño menor."
+    },
+    {
+      "action": "Busca un respiradero en el cuarto de almacenamiento",
+      "good": "Encuentras un panel oculto del sistema de ventilación, que te lleva a un escondite de objetos valiosos y un mensaje críptico que insinúa una conspiración más profunda.",
+      "bad": "Al trepar al respiradero, activas un mecanismo de seguridad que hace que los conductos se llenen de gas nocivo. Recibes daño antes de lograr escapar."
+    },
+    {
+      "action": "Usa las cajas cercanas para crear una barricada",
+      "good": "Rápidamente reúnes cajas y contenedores para bloquear la puerta, asegurando un escondite de objetos valiosos dentro del cuarto de almacenamiento.",
+      "bad": "Tu intento de crear una barricada atrae la atención no deseada de las fuerzas de seguridad de la banda. Rompen la barrera y recibes daño en la pelea que sigue."
+    }
+  ]
+}

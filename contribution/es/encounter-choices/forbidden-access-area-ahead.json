@@ -1,0 +1,20 @@
+{
+  "story": "Estás rebuscando en un polvoriento cuarto de almacenamiento en la fortaleza de la banda cuando te topas con una antigua consola de aspecto misterioso. Está cubierta de cables y parece emitir un zumbido tenue. La consola está rodeada de viejas piezas de computadora, herramientas y lo que parece ser una estación de reparación improvisada. Un cartel en la pared dice \"Proyectos Experimentales - No Tocar.\" ¿Qué haces?",
+  "actions": [
+    {
+      "action": "Intentar conectar tu ciberdeck a la consola",
+      "good": "Tu ciberdeck se conecta con la consola y accedes a una base de datos oculta que contiene información valiosa sobre las operaciones de la banda y posibles objetivos. También descubres algunas herramientas y gadgets útiles que han sido dejados atrás.",
+      "bad": "Conectar tu ciberdeck a la consola provoca una sobrecarga de sistemas, dañando el equipo y dejándote vulnerable a intentos de hackeo de fuentes desconocidas. Recibes daño pero logras escapar con vida."
+    },
+    {
+      "action": "Examinar la estación de reparación y ver si puedes aprender algo",
+      "good": "Después de examinar detenidamente la estación de reparación, descubres un compartimento oculto que contiene un conjunto de herramientas avanzadas que han sido dejadas por un antiguo miembro de la banda. Las herramientas son útiles para mejorar tu ciberdeck o reparar otro equipo.",
+      "bad": "Mientras intentas examinar la estación de reparación, accidentalmente activas un mecanismo de seguridad que hace que la habitación se llene de vapores nocivos. Recibes daño y debes escapar rápidamente antes de que los vapores se vuelvan demasiado potentes."
+    },
+    {
+      "action": "Intentar activar la consola y ver qué pasa",
+      "good": "Activar la consola revela una interfaz oculta que te permite acceder a un servidor seguro que contiene información valiosa sobre las operaciones de la banda y posibles objetivos. También descubres algunas herramientas y gadgets útiles que han sido dejados atrás.",
+      "bad": "Activar la consola provoca que falle, liberando una explosión de energía que daña el equipo cercano y te deja vulnerable a ataques eléctricos. Recibes daño pero logras escapar con vida."
+    }
+  ]
+}

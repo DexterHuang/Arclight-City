@@ -1,0 +1,20 @@
+{
+  "story": "Te encuentras ante una antigua caja fuerte, su teclado te invita a ingresar un código. El aire está cargado de anticipación mientras piensas en tu próximo movimiento. ¿Qué haces?",
+  "actions": [
+    {
+      "action": "Ingresa un código al azar y ve si funciona",
+      "good": "Tu suerte te acompaña; la puerta de la caja fuerte se abre de golpe, revelando un tesoro de objetos valiosos en su interior. Sientes que has dado en el blanco.",
+      "bad": "Ingresas un código incorrecto, lo que provoca que el teclado se bloquee. Los mecanismos internos de la caja fuerte se activan, liberando una ráfaga de aire comprimido que te roza y te causa daño."
+    },
+    {
+      "action": "Busca pistas o patrones ocultos en el teclado",
+      "good": "Al examinar cuidadosamente el teclado, notas un sutil patrón de hendiduras que corresponden a números específicos. Ingresas la secuencia correcta, y la puerta de la caja fuerte se abre con un satisfactorio clic.",
+      "bad": "Pasas demasiado tiempo buscando pistas, solo para darte cuenta de que has activado un temporizador. Los mecanismos internos de la caja fuerte comienzan a reiniciarse, y te quedas con nada más que una puerta parcialmente abierta que se cierra de golpe en tu cara."
+    },
+    {
+      "action": "Usa la fuerza bruta para intentar abrir la caja fuerte",
+      "good": "Con una combinación de fuerza y suerte, logras forzar la puerta de la caja fuerte. Dentro, encuentras un alijo de objetos valiosos, incluyendo algunos componentes tecnológicos raros.",
+      "bad": "Tu intento de abrir la caja fuerte a la fuerza activa sus mecanismos de seguridad internos. La caja fuerte emite un zumbido agudo mientras libera un campo de energía localizado que causa daño y te deja aturdido."
+    }
+  ]
+}

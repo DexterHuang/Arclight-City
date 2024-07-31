@@ -1,0 +1,20 @@
+{
+  "story": "Kamu menemukan dirimu berdiri di depan sebuah lift besar yang terbuat dari logam dan tampaknya terjebak di antara lantai. Lampu indikator di atas pintu berkedip-kedip, memancarkan cahaya menyeramkan di area tersebut. Kamu sedang dalam perjalanan menuju pertemuan dengan anggota tinggi dari gengmu ketika kamu tersandung pada lift yang bermasalah ini. Pintu-pintu terjebak, dan tidak ada petunjuk jelas tentang bagaimana melanjutkan. Lift terjebak di antara lantai, tetapi tampaknya bisa diakses jika kamu bisa menemukan cara untuk melewati mekanisme keamanan atau menonaktifkan urutan shutdown otomatis.",
+  "actions": [
+    {
+      "action": "Coba paksa pintu terbuka dengan kekuatan kasar",
+      "good": "Kamu berhasil membuka pintu, mengungkapkan kompartemen tersembunyi yang berisi barang-barang berharga. Ketekunanmu terbayar.",
+      "bad": "Usahamu untuk memaksa pintu terbuka memicu alarm, dan sistem keamanan otomatis aktif. Kamu menerima kerusakan saat mekanisme keamanan lift berfungsi."
+    },
+    {
+      "action": "Coba hack panel kontrol lift",
+      "good": "Kamu berhasil melewati protokol keamanan, dan lift mulai bergerak lagi. Di dalam, kamu menemukan tumpukan barang berharga.",
+      "bad": "Usahamu untuk hack memicu urutan shutdown darurat, dan lift menjadi gelap. Kamu menerima kerusakan saat sistem otomatis mencoba untuk memulai ulang."
+    },
+    {
+      "action": "Cari rute alternatif di sekitar lift yang terjebak",
+      "good": "Kamu menemukan jalur tersembunyi yang memungkinkanmu untuk melewati lift sepenuhnya. Di dalam, kamu menemukan cache barang berharga.",
+      "bad": "Saat mencari rute alternatif, kamu terjebak di ventilasi udara yang sempit. Kamu menerima kerusakan saat berjuang untuk membebaskan diri."
+    }
+  ]
+}

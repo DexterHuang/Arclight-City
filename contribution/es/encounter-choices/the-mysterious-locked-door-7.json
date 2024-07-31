@@ -1,0 +1,20 @@
+{
+  "story": "Entras a un laboratorio tenuemente iluminado en lo profundo de la fortaleza de la banda, donde has oído rumores sobre un dispositivo experimental que ha quedado desatendido. Al acercarte a la mesa de trabajo central, notas una consola elegante y de alta tecnología rodeada de varios componentes y cables. El dispositivo parece ser una especie de prototipo, pero está claro que algo ha salido terriblemente mal. ¿Qué haces?",
+  "actions": [
+    {
+      "action": "Intentar reiniciar el dispositivo",
+      "good": "Con un destello de esperanza, el dispositivo se enciende de nuevo y un compartimento oculto se abre, revelando un alijo de objetos valiosos. Tu experiencia técnica ayuda a estabilizar el sistema.",
+      "bad": "Tu intento de reiniciar el dispositivo provoca una reacción inestable, causando una cadena de descargas eléctricas que te dañan. El botín permanece fuera de alcance."
+    },
+    {
+      "action": "Desactivar la fuente de energía",
+      "good": "Desconectas cuidadosamente la fuente de alimentación, evitando más fallos y ganando acceso al compartimento de almacenamiento del dispositivo. Tu precaución da sus frutos al encontrar objetos valiosos dentro.",
+      "bad": "Tu decisión de desactivar la fuente de energía activa un sistema de respaldo, liberando una explosión de energía que te empuja hacia atrás y te causa daño. El botín sigue oculto."
+    },
+    {
+      "action": "Buscar componentes para reparar el dispositivo",
+      "good": "Después de buscar en estaciones de trabajo y gabinetes cercanos, logras encontrar las piezas necesarias para reparar el dispositivo. Tu ingenio te da acceso a un alijo de objetos valiosos.",
+      "bad": "Tu búsqueda de componentes te distrae de los peligros potenciales en la zona, y accidentalmente activas una trampa oculta, recibiendo daño antes de escapar. El botín sigue siendo esquivo."
+    }
+  ]
+}

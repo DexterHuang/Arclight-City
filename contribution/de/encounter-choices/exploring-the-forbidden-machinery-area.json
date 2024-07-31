@@ -1,0 +1,20 @@
+{
+  "story": "Du stehst am Rand einer großen, schwach beleuchteten Kammer, die mit giftigem Abfall gefüllt ist. Die Luft ist dick von schädlichen Dämpfen, und in der Ferne hörst du das Geräusch von defekter Maschinen. Ein schmaler Steg zieht sich durch den Raum, aber es ist unklar, ob es sicher ist, ihn zu überqueren. Was tust du?",
+  "actions": [
+    {
+      "action": "Vorsichtig über den Steg gehen",
+      "good": "Du schaffst es, den tückischen Weg ohne Schaden zu überwinden und findest auf der anderen Seite einen versteckten Vorrat an wertvollen Gegenständen. Dein schnelles Denken zahlt sich aus.",
+      "bad": "Als du auf den Steg trittst, bricht er unter dir zusammen. Du fällst in den giftigen Abfall darunter, nimmst Schaden, schaffst es aber, mit deinem Leben zu entkommen. Die Beute bleibt unerreichbar."
+    },
+    {
+      "action": "Nach einem Weg suchen, um den Steg zu umgehen und einen alternativen Pfad zu finden",
+      "good": "Du entdeckst einen versteckten Durchgang, der es dir ermöglicht, den Steg ganz zu umgehen. Du findest einen Vorrat an wertvollen Gegenständen und machst dich auf den Weg zurück in die Sicherheit.",
+      "bad": "Während du nach einem alternativen Weg suchst, löst du eine tödliche Falle aus. Ein massives Gewicht fällt von der Decke, aber du schaffst es gerade noch, ihm auszuweichen. Die Beute bleibt unerreichbar."
+    },
+    {
+      "action": "Versuche, die defekte Maschine zu reparieren",
+      "good": "Du reparierst die Maschine erfolgreich, und sie beginnt, einen Teil des giftigen Abfalls im Raum zu beseitigen. Du findest einen Vorrat an wertvollen Gegenständen, der unter den Trümmern versteckt ist.",
+      "bad": "Deine Versuche, die Maschine zu reparieren, lösen eine Kettenreaktion aus, die die Situation verschlimmert. Der giftige Abfall wird noch tödlicher, und du nimmst Schaden, während du versuchst zu entkommen. Die Beute bleibt unerreichbar."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "story": "Kamu menemukan dirimu di sebuah ruangan server yang remang-remang di dalam benteng geng. Barisan server dan mesin yang berdengung menghiasi dinding, memancarkan cahaya aneh di lantai. Di tengah ruangan, kamu melihat sebuah pintu besar dari logam dengan lampu berkedip dan tanda yang bertuliskan \"Hanya untuk Personel yang Berwenang\". Udara tebal dengan bau sirkuit yang terbakar dan ozon. Suara dengungan listrik samar berasal dari server, membuat sulit untuk berkonsentrasi. Kamu melihat beberapa panel pemeliharaan di dinding, masing-masing dilengkapi dengan keypad kecil dan serangkaian lampu berkedip.",
+  "actions": [
+    {
+      "action": "Coba untuk meretas salah satu panel pemeliharaan",
+      "good": "Keterampilan meretasmu memberimu akses ke panel tersembunyi yang berisi barang berharga. Isi panel sekarang dapat dijangkau.",
+      "bad": "Usahamu untuk meretas memicu alarm, dan ruangan dipenuhi dengan kilatan cahaya yang menyilaukan. Kamu mengalami kerusakan akibat radiasi yang intens, tetapi barang-barang tetap tidak terlihat."
+    },
+    {
+      "action": "Nonaktifkan panel pemeliharaan untuk mencegah jebakan potensial",
+      "good": "Kamu dengan hati-hati menonaktifkan panel-panel tersebut, mencegah jebakan atau alarm potensial terpicu. Sebuah kompartemen tersembunyi terbuka, mengungkapkan barang-barang berharga.",
+      "bad": "Tindakanmu secara tidak sengaja memicu jebakan, dan kamu disemprot dengan zat lengket yang lengket. Barang-barang sekarang tidak dapat dijangkau karena keadaanmu."
+    },
+    {
+      "action": "Cari ruangan untuk metode alternatif mengakses pintu terkunci",
+      "good": "Setelah mencari, kamu menemukan sebuah kartu kunci tersembunyi di salah satu server. Kamu menggunakannya untuk membuka pintu, memberimu akses ke barang-barang berharga.",
+      "bad": "Saat mencari, kamu secara tidak sengaja memicu pelat tekanan, menyebabkan lantai mulai dipenuhi gas beracun. Kamu mengalami kerusakan saat mencoba melarikan diri."
+    }
+  ]
+}

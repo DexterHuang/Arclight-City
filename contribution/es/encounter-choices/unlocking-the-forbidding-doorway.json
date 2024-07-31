@@ -1,0 +1,20 @@
+{
+  "story": "Te encuentras frente a un gran ascensor metálico en la fortaleza de la banda. Las puertas están cerradas, pero puedes escuchar el suave zumbido de la maquinaria que proviene del interior. Te han dicho que este ascensor lleva a un área de almacenamiento secreta, pero necesitarás averiguar cómo acceder a ella.",
+  "actions": [
+    {
+      "action": "Intenta forzar la apertura del ascensor",
+      "good": "Logras abrir las puertas a la fuerza, revelando una habitación tenuemente iluminada llena de estanterías repletas de objetos valiosos. Tu fuerza y determinación dan sus frutos.",
+      "bad": "Tus esfuerzos por forzar la apertura del ascensor activan un mecanismo de seguridad, haciendo que las puertas se cierren de golpe y te causen algo de daño. El botín permanece oculto."
+    },
+    {
+      "action": "Busca un botón oculto o un panel de control para activar el ascensor",
+      "good": "Después de buscar en el área, encuentras un pequeño botón discreto que activa los sistemas del ascensor. Obtienes acceso al área de almacenamiento y descubres algunos objetos valiosos.",
+      "bad": "Tu búsqueda de un botón oculto activa un sistema de seguridad, haciendo que las luces de la habitación parpadeen y te causen algo de daño. El botín sigue fuera de alcance."
+    },
+    {
+      "action": "Usa tu conocimiento del diseño de la fortaleza para encontrar una ruta alternativa hacia el área de almacenamiento",
+      "good": "Navegas por los pasillos, utilizando tu conocimiento del diseño de la fortaleza para encontrar un pasaje oculto que lleva directamente al área de almacenamiento. Descubres algunos objetos valiosos y te sientes orgulloso de tu ingenio.",
+      "bad": "Mientras navegas por los pasillos, te pierdes en el laberinto de la fortaleza. Te topas con un callejón sin salida y sufres algo de daño antes de encontrar el camino de regreso al ascensor."
+    }
+  ]
+}

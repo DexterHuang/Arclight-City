@@ -1,0 +1,20 @@
+{
+  "story": "Kamu menemukan dirimu di koridor yang redup di benteng geng, dikelilingi oleh mesin tua dan serpihan teknologi. Udara terasa berat dengan polutan dari sistem penyaringan udara yang ditinggalkan dan telah diubah untuk mengedarkan gas beracun di seluruh koridor.",
+  "actions": [
+    {
+      "action": "Coba perbaiki protokol keamanan sistem penyaringan udara",
+      "good": "Kepintaranmu memungkinkanmu untuk melewati protokol keamanan dan memperbaiki filter udara. Udara segar mulai beredar, dan kamu mendapatkan akses ke tempat tersembunyi yang berisi barang-barang berharga.",
+      "bad": "Kamu mencoba memperbaiki sistem penyaringan udara tetapi tanpa sengaja memicu protokol sekunder yang melepaskan semburan gas beracun yang terkonsentrasi. Kamu menerima 10 damage akibat paparan tersebut."
+    },
+    {
+      "action": "Cari rute alternatif di sekitar koridor yang terkontaminasi",
+      "good": "Dengan menjelajahi area sekitar, kamu menemukan jalur tersembunyi yang melewati koridor terkontaminasi dan menuju ke ruangan aman yang berisi barang-barang berharga.",
+      "bad": "Saat menavigasi melalui rute alternatif, kamu terjatuh pada pelat tekanan yang memicu jebakan tersembunyi. Gas beracun mulai memenuhi area, tetapi kamu berhasil melarikan diri dengan 5 damage."
+    },
+    {
+      "action": "Hati-hati mengeluarkan gas beracun dari sistem penyaringan udara",
+      "good": "Penangananmu yang hati-hati memungkinkanmu untuk mengeluarkan gas beracun tanpa memicu alarm atau protokol keamanan tambahan. Kamu mendapatkan akses ke tempat tersembunyi dan memperoleh barang-barang berharga.",
+      "bad": "Dalam upayamu untuk mengeluarkan gas beracun, kamu secara tidak sengaja memicu alarm yang memberi tahu sistem keamanan geng. Turret otomatis muncul, menembaki ke arahmu dan menyebabkan 15 damage."
+    }
+  ]
+}

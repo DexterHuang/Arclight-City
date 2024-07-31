@@ -1,0 +1,20 @@
+{
+  "story": "Te encuentras de pie en una habitación débilmente iluminada, rodeado de un mar de desechos peligrosos. El aire está denso con vapores nocivos, y los escombros de una explosión reciente flotan en el aire. Un leve zumbido emana de las paredes mientras los sistemas de soporte vital improvisados de la banda luchan por mantener una atmósfera estable. ¿Qué haces?",
+  "actions": [
+    {
+      "action": "Usa tu gancho de agarre para atravesar los escombros",
+      "good": "Navegas con éxito por el entorno traicionero, emergiendo al otro lado con un pequeño botín de objetos valiosos que habían estado ocultos entre los escombros.",
+      "bad": "Tu gancho de agarre falla, haciendo que te enredes en los escombros. Productos químicos tóxicos comienzan a filtrarse en tu traje, y sufres daño antes de lograr liberarte."
+    },
+    {
+      "action": "Intenta despejar un camino a través de los escombros usando tus habilidades de combate",
+      "good": "Usas tu agilidad y entrenamiento en combate para navegar por el entorno traicionero, despejando un camino hacia un escondite de objetos valiosos.",
+      "bad": "Tus habilidades de combate son puestas a prueba mientras intentas despejar un camino. Sin embargo, terminas atrapado en una explosión causada por uno de los fragmentos de escombros, sufriendo daño pero logrando sobrevivir."
+    },
+    {
+      "action": "Busca una esclusa de aire o una salida de emergencia",
+      "good": "Rápidamente encuentras una esclusa de aire y te diriges fuera de la habitación, escapando del entorno peligroso. Te topas con un escondite de objetos valiosos que dejaron otros miembros de la banda.",
+      "bad": "Mientras buscas una esclusa de aire, activas una explosión secundaria que daña los sistemas de soporte vital. El aire en la habitación se vuelve aún más tóxico, y sufres daño antes de lograr encontrar una salida."
+    }
+  ]
+}

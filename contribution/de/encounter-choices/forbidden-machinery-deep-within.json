@@ -1,0 +1,20 @@
+{
+  "story": "Du navigierst durch die schwach beleuchteten Korridore der Gangfestung, als du auf einen Raum stößt, der mit Reihen von summenden Servern und Maschinen gefüllt ist. Die Luft ist dick vom Geruch verbrannter Schaltkreise und Ozon. In der Mitte des Raumes pulsiert ein großes, zylindrisches Gerät mit Energie und gibt ein tiefes Summen von sich, das anscheinend mit den Maschinen um es herum synchronisiert ist. Plötzlich beginnen die Lichter des Geräts schnell zu blinken, und die Maschinen fangen an, Fehlfunktionen zu zeigen.",
+  "actions": [
+    {
+      "action": "Versuche, das Gerät abzuschalten",
+      "good": "Es gelingt dir, das Gerät zu deaktivieren, und die Maschinen kehren zu ihren normalen Funktionen zurück. Als Belohnung findest du ein verstecktes Fach mit einem wertvollen Gegenstand. Dein schnelles Denken hat den Tag gerettet!",
+      "bad": "Dein Versuch, das Gerät abzuschalten, löst eine Kettenreaktion von Explosionen aus. Der Raum ist jetzt mit Trümmern gefüllt, und du erleidest Schaden, während du versuchst zu entkommen."
+    },
+    {
+      "action": "Versuche, auf die Server zuzugreifen",
+      "good": "Du hackst dich in die Server und erhältst wertvolle Informationen über die Operationen der Gang. Du findest einen versteckten Vorrat an Gegenständen, darunter ein seltener Upgrade für dein Cyberdeck. Deine Hacking-Fähigkeiten haben sich ausgezahlt!",
+      "bad": "Dein Versuch, auf die Server zuzugreifen, löst eine automatische Sicherheitsreaktion aus. Firewalls und Eindringungserkennungssysteme werden aktiviert, und du erleidest Schaden, während du versuchst, dich durch das digitale Labyrinth zu navigieren."
+    },
+    {
+      "action": "Komm da raus!",
+      "good": "Du verlässt schnell den Raum und vermeidest das Chaos, das sich entfaltet. Als du aus dem Korridor trittst, findest du einen versteckten Durchgang zu einem geheimen Vorrat an Gegenständen. Deine Flucht wurde belohnt.",
+      "bad": "In deiner Eile zu gehen, löst du versehentlich eine Falltür aus. Du fällst in eine versteckte Grube und erleidest Schaden, während du versuchst, herauszuklettern. Die Beute bleibt unerreichbar."
+    }
+  ]
+}

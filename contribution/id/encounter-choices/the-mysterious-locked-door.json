@@ -1,0 +1,20 @@
+{
+  "story": "Kamu menemukan sebuah laboratorium yang ditinggalkan di dalam basement benteng, dipenuhi dengan mesin kuno dan teknologi yang dibuang. Sebuah ruang server misterius tersembunyi di balik dinding palsu, berisi data sensitif dan teknologi berharga. Apa yang akan kamu lakukan?",
+  "actions": [
+    {
+      "action": "Nonaktifkan kamera keamanan lab menggunakan pengetahuan elektronikmu",
+      "good": "Kamu berhasil menonaktifkan kamera keamanan, memungkinkanmu mengakses ruang server tanpa memicu alarm. Kamu menemukan cache tersembunyi berisi barang berharga.",
+      "bad": "Usahamu untuk menonaktifkan kamera memicu sistem alarm sekunder, dan kamu mengalami kerusakan akibat jebakan di dekatnya."
+    },
+    {
+      "action": "Gunakan printer 3D terdekat untuk membuat kartu akses atau token akses",
+      "good": "Kamu berhasil mencetak kartu akses yang memberimu akses ke ruang server. Kamu menemukan teknologi berharga dan data sensitif.",
+      "bad": "Printer 3D mengalami kerusakan, menyebabkan reaksi berantai yang memicu alarm dan merusakmu."
+    },
+    {
+      "action": "Coba untuk menghindari drone pertahanan otomatis lab",
+      "good": "Kamu berhasil menghindari drone dan mengakses ruang server. Kamu menemukan teknologi berharga dan data sensitif.",
+      "bad": "Drone terlalu cepat, dan kamu mengalami kerusakan saat mencoba menghindarinya. Barang-barang tetap di luar jangkauan."
+    }
+  ]
+}

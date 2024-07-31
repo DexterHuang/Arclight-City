@@ -1,0 +1,20 @@
+{
+  "story": "Du stehst vor einem großen, metallischen Aufzug in der Festung der Gang. Die Türen sind geschlossen, aber du kannst das leise Surren von Maschinen aus dem Inneren hören. Man hat dir gesagt, dass dieser Aufzug zu einem geheimen Lagerbereich führt, aber du musst herausfinden, wie du darauf zugreifen kannst.",
+  "actions": [
+    {
+      "action": "Versuche, den Aufzug gewaltsam zu öffnen",
+      "good": "Es gelingt dir, die Türen aufzubrechen und einen schwach beleuchteten Raum mit Regalen voller wertvoller Gegenstände zu enthüllen. Deine Stärke und Entschlossenheit zahlen sich aus.",
+      "bad": "Deine Versuche, den Aufzug gewaltsam zu öffnen, aktivieren einen Sicherheitsmechanismus, der die Türen zuschlagen lässt und dir Schaden zufügt. Die Beute bleibt verborgen."
+    },
+    {
+      "action": "Suche nach einem versteckten Knopf oder Bedienfeld, um den Aufzug zu aktivieren",
+      "good": "Nach einer Suche in der Umgebung findest du einen kleinen, unauffälligen Knopf, der die Systeme des Aufzugs aktiviert. Du erhältst Zugang zum Lagerbereich und entdeckst einige wertvolle Gegenstände.",
+      "bad": "Deine Suche nach einem versteckten Knopf aktiviert ein Sicherheitssystem, das die Lichter im Raum flackern lässt und dir Schaden zufügt. Die Beute bleibt unerreichbar."
+    },
+    {
+      "action": "Nutze dein Wissen über den Grundriss der Festung, um einen alternativen Weg zum Lagerbereich zu finden",
+      "good": "Du navigierst durch die Korridore und nutzt dein Wissen über den Grundriss der Festung, um einen versteckten Durchgang zu finden, der direkt zum Lagerbereich führt. Du entdeckst einige wertvolle Gegenstände und bist stolz auf deine Einfallsreichtum.",
+      "bad": "Während du durch die Korridore navigierst, verlierst du dich im labyrinthartigen Layout der Festung. Du stößt auf eine Sackgasse und erleidest Schaden, bevor du deinen Weg zurück zum Aufzug findest."
+    }
+  ]
+}

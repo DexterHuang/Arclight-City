@@ -1,0 +1,20 @@
+{
+  "story": "Te encuentras en un corredor tenuemente iluminado de la fortaleza de la banda, rodeado de maquinaria vieja y chatarra tecnológica. El aire está cargado de contaminantes de un sistema de filtración de aire abandonado que ha sido improvisado para circular gas tóxico por todo el corredor.",
+  "actions": [
+    {
+      "action": "Intentar reparar los protocolos de seguridad del sistema de filtración de aire",
+      "good": "Tu rápida reacción te permite eludir los protocolos de seguridad y arreglar el filtro de aire. El aire fresco comienza a circular y accedes a un escondite que contiene objetos valiosos.",
+      "bad": "Intentas reparar el sistema de filtración de aire, pero accidentalmente activas un protocolo secundario que libera una explosión concentrada de gas tóxico. Recibes 10 de daño por la exposición."
+    },
+    {
+      "action": "Buscar una ruta alternativa alrededor del corredor contaminado",
+      "good": "Al explorar las áreas cercanas, descubres un pasaje oculto que elude el corredor contaminado y conduce a una sala segura que contiene objetos valiosos.",
+      "bad": "Mientras navegas por la ruta alternativa, tropiezas con una placa de presión que activa una trampa oculta. El gas venenoso comienza a llenar el área, pero logras escapar con 5 de daño."
+    },
+    {
+      "action": "Eliminar cuidadosamente el gas tóxico del sistema de filtración de aire",
+      "good": "Tu manejo cuidadoso de la situación te permite eliminar el gas tóxico sin activar ninguna alarma o protocolo de seguridad adicional. Accedes a un escondite oculto y adquieres objetos valiosos.",
+      "bad": "En tu intento de eliminar el gas tóxico, accidentalmente activas una alarma que alerta a los sistemas de seguridad de la banda. Torretas automáticas emergen, disparando en tu dirección y causando 15 de daño."
+    }
+  ]
+}

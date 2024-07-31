@@ -1,0 +1,20 @@
+{
+  "story": "Te encuentras frente a una enorme puerta de metal con un teclado bloqueado en su lugar. La pared de arriba muestra un temporizador de cuenta regresiva, y el aire está cargado de tensión.",
+  "actions": [
+    {
+      "action": "Introduce el código correcto para desbloquear la puerta",
+      "good": "Introduces el código correctamente, y la puerta se desliza abriendo, revelando un escondite de objetos valiosos.",
+      "bad": "Introduces un código incorrecto, activando una alarma que te causa daño. El botín permanece fuera de alcance."
+    },
+    {
+      "action": "Intenta romper la puerta con fuerza bruta",
+      "good": "Con gran fuerza, logras abrir la puerta, revelando un escondite de objetos valiosos.",
+      "bad": "Tus esfuerzos activan una trampa oculta, causándote daño. El botín sigue estando justo fuera de alcance."
+    },
+    {
+      "action": "Usa tu ciberdeck para eludir el sistema de seguridad",
+      "good": "Logras hackear el sistema con éxito, dándote acceso a un escondite de objetos valiosos.",
+      "bad": "Tu intento activa un sistema de defensa automatizado, causándote daño. El botín permanece tentadoramente fuera de alcance."
+    }
+  ]
+}

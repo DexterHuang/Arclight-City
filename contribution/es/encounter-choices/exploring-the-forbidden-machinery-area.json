@@ -1,0 +1,20 @@
+{
+  "story": "Te encuentras de pie al borde de una gran cámara débilmente iluminada, llena de desechos tóxicos. El aire está denso con vapores nocivos, y puedes escuchar el sonido de maquinaria fallando a lo lejos. Un estrecho pasarela se extiende a través de la habitación, pero no está claro si es seguro cruzarla. ¿Qué haces?",
+  "actions": [
+    {
+      "action": "Cruza la pasarela con cautela",
+      "good": "Logras navegar por el camino traicionero sin sufrir daño y encuentras un escondite de objetos valiosos al otro lado. Tu rápida decisión da sus frutos.",
+      "bad": "Al pisar la pasarela, esta se derrumba bajo ti. Caes en los desechos tóxicos de abajo, sufriendo daño pero logrando escapar con vida. El botín permanece fuera de alcance."
+    },
+    {
+      "action": "Busca una forma de evitar la pasarela y encontrar una ruta alternativa",
+      "good": "Descubres un pasaje oculto que te permite evitar la pasarela por completo. Encuentras un escondite de objetos valiosos y regresas a un lugar seguro.",
+      "bad": "Mientras buscas una ruta alternativa, activas una trampa mortal. Un peso masivo cae del techo, pero logras esquivarlo por poco. El botín permanece fuera de alcance."
+    },
+    {
+      "action": "Intenta reparar la maquinaria defectuosa",
+      "good": "Logras reparar la maquinaria con éxito, y comienza a limpiar parte de los desechos tóxicos en la habitación. Encuentras un escondite de objetos valiosos ocultos bajo los escombros.",
+      "bad": "Tus intentos de reparar la maquinaria desencadenan una reacción en cadena que empeora la situación. Los desechos tóxicos se vuelven aún más mortales, y sufres daño al intentar escapar. El botín permanece fuera de alcance."
+    }
+  ]
+}

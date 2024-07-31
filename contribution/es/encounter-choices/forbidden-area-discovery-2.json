@@ -1,0 +1,20 @@
+{
+  "story": "Te encuentras de pie en el borde de una gran sala tenue dentro de la fortaleza de la banda. Las paredes están llenas de viejos servidores de computadora, cuyas pantallas parpadean con estática. En el centro de la sala, un enorme servidor principal zumba fuertemente, proyectando un resplandor inquietante sobre el espacio. De repente, notas que varias de las pantallas de los servidores comienzan a parpadear con mensajes urgentes. ¿Qué haces?",
+  "actions": [
+    {
+      "action": "Intentar acceder y leer los mensajes en las pantallas de los servidores",
+      "good": "Logras acceder a los mensajes, que revelan un escondite oculto de valiosos componentes tecnológicos. Tu rápida reacción te otorga un botín útil.",
+      "bad": "Tu intento de acceder a los mensajes activa un bloqueo de seguridad, y el servidor principal comienza a sobrecalentarse. Recibes daño por el intenso calor, pero el botín sigue fuera de alcance."
+    },
+    {
+      "action": "Intentar desactivar el servidor principal para evitar posibles alarmas",
+      "good": "Logras desactivar el servidor principal, silenciando sus alarmas y permitiéndote buscar compartimentos o escondites ocultos. Tu ingenio te recompensa con un botín valioso.",
+      "bad": "Tu intento de desactivar el servidor principal provoca un mal funcionamiento, lanzando chispas y descargas eléctricas en todas direcciones. Recibes daño por el caos, pero el botín sigue fuera de alcance."
+    },
+    {
+      "action": "Salir de la sala y explorar otras áreas de la fortaleza de la banda",
+      "good": "Decides salir de la sala y explorar otras áreas de la fortaleza de la banda, donde te topas con un escondite oculto de valiosos objetos. Tu curiosidad te recompensa con un botín útil.",
+      "bad": "Al salir de la sala, activas una alarma que alerta al resto de la banda. Recibes daño por el caos que sigue, pero el botín sigue fuera de alcance."
+    }
+  ]
+}

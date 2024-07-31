@@ -1,0 +1,20 @@
+{
+  "story": "Du befindest dich in einem schwach beleuchteten Serverraum innerhalb der Festung der Gang. Reihen von summenden Servern und Maschinen säumen die Wände und werfen ein unheimliches Licht auf den Boden. In der Mitte des Raumes bemerkst du eine große, metallische Tür mit blinkenden Lichtern und einem Schild, auf dem \"Nur autorisiertes Personal\" steht. Die Luft ist dick vom Geruch verbrannter Schaltkreise und Ozon. Ein leises Summen von Elektrizität geht von den Servern aus, was es schwierig macht, sich zu konzentrieren. Du bemerkst mehrere Wartungspanels an den Wänden, jedes mit einem kleinen Tastenfeld und einer Reihe von blinkenden Lichtern.",
+  "actions": [
+    {
+      "action": "Versuche, in eines der Wartungspanels einzuhacken",
+      "good": "Deine Hacking-Fähigkeiten gewähren dir Zugang zu einem versteckten Panel mit wertvollen Gegenständen. Der Inhalt des Panels ist jetzt in Reichweite.",
+      "bad": "Dein Versuch zu hacken löst einen Alarm aus, und der Raum wird von einem blendenden Lichtblitz erfüllt. Du erleidest Schaden durch die intensive Strahlung, aber die Beute bleibt außer Sicht."
+    },
+    {
+      "action": "Deaktiviere die Wartungspanels, um potenzielle Fallen zu verhindern",
+      "good": "Du deaktivierst die Panels sorgfältig und verhinderst, dass potenzielle Fallen oder Alarme ausgelöst werden. Ein verstecktes Fach öffnet sich und zeigt wertvolle Gegenstände.",
+      "bad": "Deine Aktionen lösen versehentlich eine Falle aus, und du wirst mit einer klebrigen, haftenden Substanz besprüht. Die Beute ist aufgrund deiner misslichen Lage jetzt unerreichbar."
+    },
+    {
+      "action": "Durchsuche den Raum nach einer alternativen Methode, um die verschlossene Tür zu öffnen",
+      "good": "Nach der Durchsuchung findest du eine versteckte Zugangskarte auf einem der Server. Du benutzt sie, um die Tür zu öffnen und Zugang zu wertvollen Gegenständen zu erhalten.",
+      "bad": "Während du suchst, löst du versehentlich eine Druckplatte aus, die den Boden mit einem giftigen Gas füllt. Du erleidest Schaden, während du versuchst zu entkommen."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "story": "Te encuentras frente a un viejo dron de mantenimiento robótico, oxidado y tirado de lado, parcialmente enterrado bajo un montón de escombros. Las extremidades del dron están torcidas y dañadas, pero parece que aún está operativo. La pantalla del dron parpadea con códigos de error y mensajes de advertencia. ¿Qué haces?",
+  "actions": [
+    {
+      "action": "Intentar reparar el dron",
+      "good": "Con tu experiencia técnica, logras eludir los sistemas defectuosos del dron y reactivar sus funciones de mantenimiento. Te recompensan con un lote de objetos y herramientas valiosas.",
+      "bad": "Tus intentos de reparar el dron desencadenan una reacción en cadena que provoca que funcione aún peor. El dron comienza a emitir un zumbido agudo, atrayendo la atención no deseada de otros miembros de la banda. Recibes daño mientras investigan el ruido."
+    },
+    {
+      "action": "Buscar piezas en el dron",
+      "good": "Desmontas cuidadosamente el dron, recuperando componentes y herramientas útiles que pueden ayudarte en tus futuras aventuras.",
+      "bad": "Al comenzar a desmontar el dron, sus sistemas comienzan a apagarse, haciendo que se bloquee en un modo de seguridad. Las extremidades del dron se lanzan hacia ti, intentando atraparte y restringirte. Recibes daño mientras luchas por liberarte."
+    },
+    {
+      "action": "Activar el dron de forma remota",
+      "good": "Usando tus habilidades de hackeo, logras recuperar el control de los sistemas del dron y activar sus funciones de mantenimiento. Te recompensan con un lote de objetos y herramientas valiosas.",
+      "bad": "Tu intento de activar el dron de forma remota desencadena un protocolo de seguridad que alerta al sistema de IA de la banda. La IA lanza un contraataque, desplegando torretas y drones para suprimirte. Recibes daño mientras intentan abrumarte."
+    }
+  ]
+}

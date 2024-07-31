@@ -1,0 +1,20 @@
+{
+  "story": "Te encuentras frente a una enorme puerta de metal con un letrero que dice \"Solo Personal Autorizado.\" La puerta conduce a un estrecho sistema de túneles de mantenimiento, que se rumorea que alberga objetos valiosos escondidos por el experto en tecnología de la banda. ¿Qué haces?",
+  "actions": [
+    {
+      "action": "Intenta colarte por los túneles sin ser detectado",
+      "good": "Te mueves sigilosamente, evitando trampas mortales y encontrando un escondite de objetos valiosos.",
+      "bad": "Tu imprudencia activa una trampa, causándote daño pero sin matarte."
+    },
+    {
+      "action": "Busca un conducto de ventilación o una entrada alternativa",
+      "good": "Encuentras un conducto de ventilación que lleva directamente al escondite, permitiéndote recuperar algunos objetos valiosos sin activar trampas.",
+      "bad": "Mientras buscas, accidentalmente activas una trampa, recibiendo daño pero sin morir."
+    },
+    {
+      "action": "Usa tu conocimiento de los sistemas de seguridad de la banda para desactivar las alarmas y las luces",
+      "good": "Desactivas con éxito los sistemas de seguridad, lo que te permite moverte por los túneles sin ser detectado y encontrar objetos valiosos.",
+      "bad": "Tu intento activa una fuente de energía de respaldo, causándote daño pero sin matarte."
+    }
+  ]
+}

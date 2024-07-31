@@ -1,0 +1,20 @@
+{
+  "story": "Te encuentras en una sala de servidores débilmente iluminada dentro de la fortaleza de la banda. Filas de servidores y maquinaria zumbando alinean las paredes, proyectando un brillo inquietante en el suelo. En el centro de la sala, notas una gran puerta metálica con luces intermitentes y un letrero que dice \"Solo Personal Autorizado\". El aire está cargado con el olor a circuitos quemados y ozono. Un leve zumbido de electricidad emana de los servidores, dificultando la concentración. Observas varios paneles de mantenimiento en las paredes, cada uno con un pequeño teclado y una serie de luces parpadeantes.",
+  "actions": [
+    {
+      "action": "Intentar hackear uno de los paneles de mantenimiento",
+      "good": "Tus habilidades de hackeo te otorgan acceso a un panel oculto que contiene objetos valiosos. El contenido del panel ahora está al alcance.",
+      "bad": "Tu intento de hackeo activa una alarma, y la sala se llena de un destello cegador de luz. Recibes daño por la intensa radiación, pero el botín permanece fuera de la vista."
+    },
+    {
+      "action": "Desactivar los paneles de mantenimiento para prevenir trampas potenciales",
+      "good": "Desactivas cuidadosamente los paneles, evitando que se activen trampas o alarmas. Un compartimento oculto se abre, revelando objetos valiosos.",
+      "bad": "Tus acciones activan inadvertidamente una trampa, y te rocían con una sustancia adhesiva y pegajosa. El botín ahora está fuera de alcance debido a tu situación."
+    },
+    {
+      "action": "Buscar en la sala un método alternativo para acceder a la puerta cerrada",
+      "good": "Después de buscar, encuentras una tarjeta de acceso oculta en uno de los servidores. La usas para desbloquear la puerta, dándote acceso a objetos valiosos.",
+      "bad": "Mientras buscas, accidentalmente activas una placa de presión, haciendo que el suelo comience a llenarse de un gas nocivo. Recibes daño mientras intentas escapar."
+    }
+  ]
+}

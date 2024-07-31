@@ -1,0 +1,20 @@
+{
+  "story": "Te encuentras en un almacén tenuemente iluminado, en lo profundo de la fortaleza de la banda. El aire está cargado con el olor a ozono y circuitos quemados. Al mirar a tu alrededor, notas una extraña fuente de energía que emite un resplandor pulsante desde un consola cercana. La energía parece fluctuar salvajemente, causando que el equipo cercano funcione mal.",
+  "actions": [
+    {
+      "action": "Intentar estabilizar la fuente de energía",
+      "good": "Tu experiencia técnica te permite calibrar la fuente de energía, y comienza a estabilizarse. Un compartimento oculto se abre, revelando un escondite de objetos valiosos. Tu rápida decisión da sus frutos.",
+      "bad": "Tu intento de estabilizar la fuente de energía provoca un bucle de retroalimentación, lo que lleva a un aumento de potencia que daña el equipo cercano. Recibes daño por los escombros voladores, pero logras evitar consecuencias más graves."
+    },
+    {
+      "action": "Intentar desconectar la fuente de energía",
+      "good": "Desconectas cuidadosamente la fuente de energía, y deja de funcionar mal. Una puerta oculta se abre, revelando un área secreta que contiene objetos valiosos. Tu enfoque cauteloso da sus frutos.",
+      "bad": "Tu intento de desconectar la fuente de energía activa un protocolo de seguridad automático, liberando una nube de gas nocivo que te hace retroceder. Recibes daño por los vapores tóxicos."
+    },
+    {
+      "action": "Experimentar con la fuente de energía para ver qué pasa",
+      "good": "Decides experimentar con la fuente de energía, y sorprendentemente comienza a cargar tu equipo cercano. Se revela un escondite de objetos valiosos, y puedes reclamarlos como tuyos.",
+      "bad": "Tu experimentación provoca que la fuente de energía se sobrecaliente, llevando a una falla catastrófica que destruye el equipo cercano. Recibes daño por los escombros voladores, pero logras evitar consecuencias más graves."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "story": "Du befindest dich in einem schwach beleuchteten Lagerraum tief im Inneren der Festung der Gang. Die Luft ist dick von Staub und dem Geruch alter Maschinen. Während du den Raum absuchst, bemerkst du eine große Kiste in der Mitte, geschmückt mit Warnschildern und Sicherheitsversiegelungen. Plötzlich hallt das Geräusch von knarrendem Metall durch den Raum, und die Kiste beginnt sich zu bewegen.",
+  "actions": [
+    {
+      "action": "Versuche, die Kiste zu öffnen",
+      "good": "Mit ein wenig Mühe gelingt es dir, die Versiegelungen zu lockern und den Deckel anzuheben. Darin findest du einen Vorrat an wertvollen Gegenständen, die die Anführer der Gang versteckt hatten.",
+      "bad": "Als du versuchst, die Kiste gewaltsam zu öffnen, löst du einen Sicherheitsmechanismus aus, der eine Wolke aus giftigem Gas freisetzt. Du erleidest Schaden durch das Einatmen der Dämpfe, aber die Kiste bleibt geschlossen."
+    },
+    {
+      "action": "Suche nach einer Möglichkeit, die Sicherheitsversiegelungen zu deaktivieren",
+      "good": "Nachdem du die Kiste und die Umgebung untersucht hast, findest du ein verstecktes Panel mit einer Tastatur. Indem du die Tastatur hackst, deaktivierst du die Sicherheitsversiegelungen und erhältst Zugang zu den Inhalten der Kiste.",
+      "bad": "Dein Versuch, die Tastatur zu hacken, löst einen Alarm aus, der die Anführer der Gang auf deine Anwesenheit aufmerksam macht. Du erleidest Schaden durch eine verirrte Kugel, die von einem ihrer Wachen abgefeuert wurde, aber die Kiste bleibt versiegelt."
+    },
+    {
+      "action": "Versuche, die Kiste zu bewegen",
+      "good": "Mit großer Anstrengung gelingt es dir, die Kiste aus dem Lagerraum und in einen nahegelegenen Flur zu rollen. Während du weiter untersuchst, entdeckst du, dass die Kiste tatsächlich ein geheimer Ausgang für die Anführer der Gang ist. Du findest einen Vorrat an wertvollen Gegenständen und nimmst dir etwas.",
+      "bad": "Dein Versuch, die Kiste zu bewegen, löst eine Falle aus, die dazu führt, dass sie auf dich fällt. Du erleidest Schaden durch den Aufprall, aber die Kiste bleibt stationär."
+    }
+  ]
+}

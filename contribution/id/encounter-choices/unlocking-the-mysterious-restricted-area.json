@@ -1,0 +1,20 @@
+{
+  "story": "Kamu berdiri di depan pintu logam besar dengan tanda yang bertuliskan \"Hanya untuk Personel yang Berwenang.\" Pintu ini mengarah ke sistem terowongan pemeliharaan yang sempit, yang konon menyimpan barang berharga yang disimpan oleh ahli teknologi geng. Apa yang akan kamu lakukan?",
+  "actions": [
+    {
+      "action": "Coba menyelinap melalui terowongan tanpa terdeteksi",
+      "good": "Kamu bergerak dengan hati-hati, menghindari jebakan mematikan dan menemukan tempat persembunyian barang berharga.",
+      "bad": "Kecerobohanmu memicu jebakan, menyebabkan kamu terluka tetapi tidak sampai mati."
+    },
+    {
+      "action": "Cari saluran ventilasi atau pintu masuk alternatif",
+      "good": "Kamu menemukan saluran ventilasi yang langsung mengarah ke tempat penyimpanan, memungkinkanmu mengambil beberapa barang berharga tanpa memicu jebakan.",
+      "bad": "Saat mencari, kamu secara tidak sengaja memicu jebakan, terluka tetapi tidak sampai mati."
+    },
+    {
+      "action": "Gunakan pengetahuanmu tentang sistem keamanan geng untuk menonaktifkan alarm dan lampu",
+      "good": "Kamu berhasil menonaktifkan sistem keamanan, memungkinkanmu menjelajahi terowongan tanpa terdeteksi dan menemukan barang berharga.",
+      "bad": "Usahamu memicu sumber daya cadangan, menyebabkan kamu terluka tetapi tidak sampai mati."
+    }
+  ]
+}

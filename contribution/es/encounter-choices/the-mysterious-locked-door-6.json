@@ -1,0 +1,20 @@
+{
+  "story": "Te topas con una habitación llena de maquinaria zumbante. El aire está cargado de una energía sobrenatural. Notas tres dispositivos que emiten un resplandor pulsante. ¿Qué haces?",
+  "actions": [
+    {
+      "action": "Intentar hackear el dispositivo central",
+      "good": "Tus habilidades de hackeo eluden la seguridad, dándote acceso a un compartimento oculto que contiene objetos valiosos.",
+      "bad": "Tu intento de hackeo activa una respuesta automática, y los dispositivos comienzan a fallar. Recibes daño por una explosión de energía cercana."
+    },
+    {
+      "action": "Forzar los dispositivos a abrirse con fuerza bruta",
+      "good": "Con una demostración de gran fuerza, logras abrir uno de los dispositivos, revelando un escondite de objetos valiosos.",
+      "bad": "Tus esfuerzos provocan una explosión, y la habitación se llena de escombros. Recibes daño, pero logras escapar."
+    },
+    {
+      "action": "Examinar cuidadosamente cada dispositivo en busca de pistas ocultas",
+      "good": "Descubres un panel oculto en uno de los dispositivos, que contiene un mensaje críptico que te lleva a un escondite secreto de objetos valiosos.",
+      "bad": "Mientras examinas los dispositivos, accidentalmente activas una trampa. La habitación comienza a llenarse de un gas tóxico, y recibes daño antes de escapar."
+    }
+  ]
+}

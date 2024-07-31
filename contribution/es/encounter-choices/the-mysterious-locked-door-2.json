@@ -1,0 +1,20 @@
+{
+  "story": "Te encuentras de pie frente a un gran incinerador de aspecto ominoso en el corazón de La Instalación de Reciclaje. El aire está denso con vapores tóxicos y el olor a plástico quemado. De repente, escuchas el sonido de maquinaria cobrando vida detrás de las puertas del incinerador. ¿Qué haces?",
+  "actions": [
+    {
+      "action": "Investigar la fuente del ruido",
+      "good": "Te acercas con cautela al incinerador y encuentras un compartimento oculto que contiene objetos valiosos. Tu curiosidad da sus frutos y descubres un escondite de equipo útil.",
+      "bad": "Mientras investigas, la maquinaria detrás de las puertas del incinerador comienza a fallar, provocando un sobrecalentamiento y expulsando humo tóxico. Sufres daño por inhalar los vapores, pero el botín permanece oculto."
+    },
+    {
+      "action": "Intentar desactivar el incinerador",
+      "good": "Con tus habilidades, logras sabotear los controles del incinerador, apagándolo y evitando una explosión catastrófica. Al hacerlo, encuentras un compartimento oculto que contiene objetos valiosos.",
+      "bad": "Tu intento de desactivar el incinerador activa un protocolo de apagado de emergencia, haciendo que los sistemas de seguridad de la instalación entren en modo de bloqueo. Sufres daño por el caos resultante, pero el botín sigue fuera de alcance."
+    },
+    {
+      "action": "Escapar del área y encontrar una ruta más segura",
+      "good": "Rápidamente te diriges fuera de La Instalación de Reciclaje, encontrando un pasaje oculto que te lleva de regreso a una parte más segura del fuerte de la banda. Descubres un escondite de objetos útiles en el camino.",
+      "bad": "Mientras intentas escapar, quedas atrapado en una trampa de seguridad establecida por la IA de la instalación. Sufres daño por la trampa, pero logras liberarte y continuar tu camino."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "story": "Te encuentras frente a una enorme puerta de acero, su superficie rayada y golpeada. El aire a su alrededor parece vibrar con el zumbido de la maquinaria. Puedes sentir el peso de los secretos de la banda detrás de esta puerta. ¿Qué haces?",
+  "actions": [
+    {
+      "action": "Utiliza tu conocimiento de los sistemas internos de la fortaleza para intentar desactivar la seguridad de la puerta",
+      "good": "Después de unos momentos tensos, logras eludir los protocolos de seguridad. La puerta se desliza abriéndose con un susurro, revelando una habitación llena de cajas y contenedores. Al buscar entre ellos, encuentras algunos objetos valiosos que te ayudarán en tus futuros esfuerzos.",
+      "bad": "Tu intento de desactivar la seguridad de la puerta activa una alarma. La habitación comienza a llenarse de gas nocivo, causándote daño. Logras escapar de lo peor, pero la puerta permanece cerrada tras de ti."
+    },
+    {
+      "action": "Intenta forzar la puerta con tu fuerza",
+      "good": "Con un poderoso rugido, te lanzas contra la puerta y la atraviesas. Al otro lado, encuentras una habitación llena de equipo y herramientas valiosas. Te llevas todo lo que puedes cargar.",
+      "bad": "Tu intento de forzar la puerta activa una serie de trampas. La puerta se cierra de golpe detrás de ti, y te enfrentas a una pared de picos. Sufres daño pero logras escapar con vida."
+    },
+    {
+      "action": "Busca una ruta alternativa alrededor de la puerta cerrada",
+      "good": "Exploras cuidadosamente los pasillos circundantes y encuentras un pasaje oculto que lleva al otro lado de la puerta cerrada. Mientras avanzas, te topas con una pequeña habitación llena de objetos valiosos. Te llevas todo lo que puedes cargar.",
+      "bad": "Tu búsqueda de una ruta alternativa te lleva por un pasillo estrecho que parece no tener fin. Finalmente te pierdes y sufres daño por las duras condiciones."
+    }
+  ]
+}

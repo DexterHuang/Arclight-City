@@ -1,0 +1,20 @@
+{
+  "story": "Te encuentras frente a una gran puerta metálica adornada con intrincados cables y luces LED parpadeantes. El aire está impregnado del olor a ozono y circuitos quemados. Un letrero sobre la puerta dice \"Solo Personal Autorizado - Laboratorio de Bio-Regeneración.\" Tu curiosidad te puede, y te preguntas qué secretos se esconden detrás de esta puerta. ¿Qué haces?",
+  "actions": [
+    {
+      "action": "Intentar acceder al laboratorio a través de la interfaz de computadora de la puerta",
+      "good": "Logras hackear el sistema y accedes a un compartimento oculto que contiene objetos valiosos. La tecnología avanzada del laboratorio ha sido comprometida, pero has logrado aprovecharla a tu favor.",
+      "bad": "Tu intento de hackeo activa un protocolo de seguridad que sella la puerta, atrapándote afuera. Los sistemas de defensa automáticos se activan, disparando proyectiles no letales hacia ti, causando daño y dejándote temporalmente ciego."
+    },
+    {
+      "action": "Forzar la puerta usando tus mejoras cibernéticas",
+      "good": "Con tu fuerza y agilidad mejoradas, logras abrir la puerta a la fuerza, revelando un laboratorio lleno de objetos valiosos y tecnología de vanguardia. Tus mejoras te han dado una ventaja en esta situación.",
+      "bad": "Tu entrada forzada activa un mecanismo de seguridad, liberando una nube de gas nocivo que causa daño pero no te mata. El equipo del laboratorio falla, y te quedas navegando en el caos."
+    },
+    {
+      "action": "Buscar una entrada alternativa al laboratorio, quizás a través de un conducto de ventilación",
+      "good": "Descubres un conducto de ventilación oculto que lleva directamente al laboratorio. Te metes dentro y te encuentras en una habitación llena de objetos valiosos y tecnología avanzada. Tu sigilo y agilidad han dado sus frutos.",
+      "bad": "Mientras buscas una entrada alternativa, tropiezas con una placa de presión que activa una trampa. Una lluvia de proyectiles no letales se dispara hacia ti, causando daño y dejándote aturdido temporalmente."
+    }
+  ]
+}

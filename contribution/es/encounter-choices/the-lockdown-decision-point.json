@@ -1,0 +1,20 @@
+{
+  "story": "Te encuentras de pie frente a un gran ascensor metálico que parece estar atascado entre pisos. Las luces indicadoras sobre las puertas parpadean, proyectando un brillo inquietante sobre el área. Estabas en camino a una reunión con un miembro de alto rango de tu banda cuando te topaste con este ascensor averiado. Las puertas están atascadas y no hay una indicación clara de cómo proceder. El ascensor está atascado entre pisos, pero parece que podría ser accesible si encuentras una manera de eludir los mecanismos de seguridad o desactivar la secuencia de apagado automático.",
+  "actions": [
+    {
+      "action": "Intenta forzar las puertas con fuerza bruta",
+      "good": "Logras abrir las puertas a la fuerza, revelando un compartimento oculto que contiene objetos valiosos. Tu determinación da sus frutos.",
+      "bad": "Tus esfuerzos por forzar las puertas activan una alarma y los sistemas de seguridad automatizados se ponen en marcha. Recibes daño cuando los mecanismos de seguridad del ascensor se activan."
+    },
+    {
+      "action": "Intenta hackear el panel de control del ascensor",
+      "good": "Logras eludir los protocolos de seguridad y el ascensor comienza a moverse de nuevo. Dentro, encuentras un escondite de objetos valiosos.",
+      "bad": "Tu intento de hackeo activa una secuencia de apagado de emergencia y el ascensor se queda a oscuras. Recibes daño mientras los sistemas automáticos intentan reiniciarse."
+    },
+    {
+      "action": "Busca una ruta alternativa alrededor del ascensor atascado",
+      "good": "Descubres un pasaje oculto que te permite eludir el ascensor por completo. Dentro, encuentras un valioso escondite de objetos.",
+      "bad": "Mientras buscas una ruta alternativa, quedas atrapado en un estrecho conducto de aire. Recibes daño mientras luchas por liberarte."
+    }
+  ]
+}

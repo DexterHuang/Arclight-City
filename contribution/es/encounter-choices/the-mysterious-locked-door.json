@@ -1,0 +1,20 @@
+{
+  "story": "Te topas con un laboratorio abandonado en lo profundo del sótano de la fortaleza, lleno de maquinaria antigua y tecnología desechada. Una misteriosa sala de servidores está oculta tras una pared falsa, conteniendo datos sensibles y tecnología valiosa. ¿Qué haces?",
+  "actions": [
+    {
+      "action": "Desactivar las cámaras de seguridad del laboratorio utilizando tus conocimientos de electrónica",
+      "good": "Desactivas con éxito las cámaras de seguridad, lo que te permite acceder a la sala de servidores sin activar alarmas. Encuentras un escondite con objetos valiosos.",
+      "bad": "Tus intentos de desactivar las cámaras activan un sistema de alarma secundario, y recibes daño de una trampa cercana."
+    },
+    {
+      "action": "Usar una impresora 3D cercana para crear una tarjeta de acceso o token",
+      "good": "Imprimes con éxito una tarjeta de acceso que te permite entrar a la sala de servidores. Descubres tecnología valiosa y datos sensibles.",
+      "bad": "La impresora 3D falla, causando una reacción en cadena de eventos que activan alarmas y te dañan."
+    },
+    {
+      "action": "Intentar escapar de los drones de defensa automatizados del laboratorio",
+      "good": "Logras evadir a los drones y acceder a la sala de servidores. Encuentras tecnología valiosa y datos sensibles.",
+      "bad": "Los drones son demasiado rápidos, y recibes daño mientras intentas escapar de ellos. El botín permanece fuera de tu alcance."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "story": "Te encuentras frente a una gran puerta metálica con una serie de paneles de aspecto complejo. La puerta está adornada con señales de advertencia y símbolos de peligro, indicando que lo que hay detrás no es para los débiles de corazón.",
+  "actions": [
+    {
+      "action": "Intenta abrir el panel suelto",
+      "good": "Logras quitar el panel, revelando un compartimento oculto que contiene objetos y herramientas valiosas. Tu curiosidad ha valido la pena.",
+      "bad": "El panel suelto activa un mecanismo oculto, haciendo que la puerta comience a sellarse. Logras evitar quedar atrapado por poco, pero recibes daño de los sistemas defensivos de la puerta."
+    },
+    {
+      "action": "Usa tu ciberdeck para hackear el sistema de seguridad de la puerta",
+      "good": "Tus habilidades de hackeo te permiten eludir el sistema de seguridad, dándote acceso al otro lado de la puerta y potencialmente a botín valioso.",
+      "bad": "Tu intento de hackeo es detectado por la IA de la puerta, que responde activando un enjambre de micro-drones que te atacan. Recibes daño por los ataques de los drones."
+    },
+    {
+      "action": "Busca una forma alternativa de entrar en el área asegurada",
+      "good": "Después de buscar en los pasillos cercanos, descubres un conducto de aire oculto que lleva al otro lado de la puerta. Encuentras botín y herramientas valiosas dentro.",
+      "bad": "Mientras buscas una ruta alternativa, accidentalmente activas una trampa, haciendo que el suelo debajo de ti colapse. Caes en un pozo lleno de desechos tóxicos, recibiendo daño pero logrando escapar."
+    }
+  ]
+}
