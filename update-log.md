@@ -4,8 +4,6 @@
 
 **This game is still in the early Beta stage, please expect many changes such as new features, bug fixes, buffs and nerfs.**
 
-**If you find any bugs please report them to our discord bug report channel [here](https://discord.com/channels/1140647450122657812/1146133684022415400)**
-
 **If you find an exploit please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
 ### 0.0.51
