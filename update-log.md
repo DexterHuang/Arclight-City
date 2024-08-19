@@ -8,8 +8,14 @@
 
 **If you find an exploit please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
+### 0.0.51
 
-### 0.0.49
+-  Added pixel art illustration for all encounters
+-  Updated all pixel art illustrations for lore notes with higher-quality ones
+-  Updated UI display for gang that holds control of territory on the main page
+-  Updated leaderboard display on the territory page
+
+### 0.0.50
 
 -  Doubled amount of possible encounters(the one with choices) in strongholds
 -  Added pixel art illustration for all encounters
