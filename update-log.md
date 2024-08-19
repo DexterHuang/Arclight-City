@@ -11,9 +11,18 @@
 ### 0.0.51
 
 -  Added pixel art illustration for all encounters
+
+![image](https://github.com/user-attachments/assets/3b9ac63a-ac85-4d0e-9abd-e8487eb71d06)
+
+-  Updated UI display for gang that holds control of territory on the main page, image and level will only display correctly after your gang has done territory control task at least once after update
+
+![image](https://github.com/user-attachments/assets/a6f136b7-10d7-4b8f-988d-d1c3a79b3f6a)
+
+-  Updated leaderboard display on the territory page, image and level will only display correctly after your gang has done territory control task at least once after update
+
+![image](https://github.com/user-attachments/assets/ad83d887-4bf8-4a7b-a5b5-d2a3a83786dd)
+
 -  Updated all pixel art illustrations for lore notes with higher-quality ones
--  Updated UI display for gang that holds control of territory on the main page
--  Updated leaderboard display on the territory page
 
 ### 0.0.50
 
