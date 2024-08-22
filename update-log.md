@@ -8,6 +8,7 @@
 
 ### 0.0.52
 
+-  Fixed issue with some player cannot be attacked due to some bug
 -  Fixed issue with gang image display on the main page
 -  Fixed issue with gang level not display correctly, **The correct level will only show up after you have done one control territory task**
 -  Updated travel to location UI
