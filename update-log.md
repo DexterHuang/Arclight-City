@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/a5eb3265-5160-4b43-a6a5-6aab0de10565)## Update log
+## Update log
 
 ### Notice
 
