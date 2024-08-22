@@ -1,4 +1,4 @@
-## Update log
+![image](https://github.com/user-attachments/assets/a5eb3265-5160-4b43-a6a5-6aab0de10565)## Update log
 
 ### Notice
 
@@ -6,6 +6,15 @@
 
 **If you find an exploit please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
+### 0.0.52
+
+-  Fixed issue with gang image display on the main page
+-  Fixed issue with gang level not display correctly, **The correct level will only show up after you have done one control territory task**
+-  Updated travel to location UI
+
+![image](https://github.com/user-attachments/assets/9619a953-94ea-4c24-ad15-d333afac8720)
+
+-  Updated all location images with higher quality ones
 ### 0.0.51
 
 -  Added pixel art illustration for all encounters
