@@ -8,8 +8,8 @@
 
 ### 0.0.53
 
--  Now new players that has purchased Eurodollars with Gifted Universal Dollar cannot deposit Eurodollars to gangs, until they have reached level 30, this is to prevent abuse of the system mechanic and protect fair gang competition.
--  Now free Universal Dollar cannot be used to instant-complete gang related tasks (currently only territory control), Only if you have top up Netcoins it will be enabled, this is to prevent abuse of the system mechanic and protect fair gang competition. all other tasks are not affected by this change.
+-  Gang tasks instant complete now uses Netcoin instead of Universal Dollars, this is to prevent abuser from abusing the system and cause unfairness in gang competition
+-  Now Eurodollar in premium shop is exchanged with Netcoin instead of Universal Dollars, this is to prevent abuser from abusing the system and cause unfairness in gang competition
 
 ### 0.0.52
 
