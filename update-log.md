@@ -4,10 +4,18 @@
 
 **This game is still in the early Beta stage, please expect many changes such as new features, bug fixes, buffs and nerfs.**
 
-**If you find any bugs please report them to our discord bug report channel [here](https://discord.com/channels/1140647450122657812/1146133684022415400)**
-
 **If you find an exploit please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
+### 0.0.52
+
+-  Fixed issue with some player cannot be attacked due to some bug
+-  Fixed issue with gang image display on the main page
+-  Fixed issue with gang level not display correctly, **The correct level will only show up after you have done one control territory task**
+-  Updated travel to location UI
+
+![image](https://github.com/user-attachments/assets/9619a953-94ea-4c24-ad15-d333afac8720)
+
+-  Updated all location images with higher quality ones
 ### 0.0.51
 
 -  Now new players that has purchased Eurodollars with Gifted Universal Dollar cannot deposit Eurodollars to gangs, until they have reached level 30, this is to prevent abuse of the system mechanic and protect fair gang competition.
@@ -16,9 +24,18 @@
 ### 0.0.51
 
 -  Added pixel art illustration for all encounters
+
+![image](https://github.com/user-attachments/assets/3b9ac63a-ac85-4d0e-9abd-e8487eb71d06)
+
+-  Updated UI display for gang that holds control of territory on the main page, image and level will only display correctly after your gang has done territory control task at least once after update
+
+![image](https://github.com/user-attachments/assets/a6f136b7-10d7-4b8f-988d-d1c3a79b3f6a)
+
+-  Updated leaderboard display on the territory page, image and level will only display correctly after your gang has done territory control task at least once after update
+
+![image](https://github.com/user-attachments/assets/ad83d887-4bf8-4a7b-a5b5-d2a3a83786dd)
+
 -  Updated all pixel art illustrations for lore notes with higher-quality ones
--  Updated UI display for gang that holds control of territory on the main page
--  Updated leaderboard display on the territory page
 
 ### 0.0.50
 
