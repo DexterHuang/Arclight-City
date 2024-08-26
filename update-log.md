@@ -6,6 +6,11 @@
 
 **If you find an exploit please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
+### 0.0.54
+
+-  Added social and chirp button at stronghold lobby, so you can communicate with your gang and chat in lobby
+-  Added password reset at login screen for email logins
+
 ### 0.0.53
 
 -  Gang tasks instant complete now uses Netcoin instead of Universal Dollars, this is to prevent abuser from abusing the system and cause unfairness in gang competition
