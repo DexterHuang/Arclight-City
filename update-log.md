@@ -6,12 +6,17 @@
 
 **If you find an exploit please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
-### 0.0.54
+### 0.0.55
 
 -  You will now be notified through system email when an NPC mentioned you on a Chirp post
 -  You can now click on player's name on Chirp posts to go to their details
 -  Updated all enemy images to higher quality ones
 -  Minor bug fixes
+
+### 0.0.54
+
+-  Added social and chirp button at stronghold lobby, so you can communicate with your gang and chat in lobby
+-  Added password reset at login screen for email logins
 
 ### 0.0.53
 
