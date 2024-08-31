@@ -6,6 +6,13 @@
 
 **If you find an exploit please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
+### 0.0.54
+
+-  You will now be notified through system email when an NPC mentioned you on a Chirp post
+-  You can now click on player's name on Chirp posts to go to their details
+-  Updated all enemy images to higher quality ones
+-  Minor bug fixes
+
 ### 0.0.53
 
 -  Gang tasks instant complete now uses Netcoin instead of Universal Dollars, this is to prevent abuser from abusing the system and cause unfairness in gang competition
