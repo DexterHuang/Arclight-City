@@ -6,6 +6,20 @@
 
 **If you find an exploit please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
+### 0.0.56
+
+-  Added gang tag to chat messages; you can now see the sender's gang tag
+  
+![image](https://github.com/user-attachments/assets/491363ef-8d72-444a-90d2-6df0ce178d30)
+
+-  Now CircuitBreak's hit list page shows the player's level next to their name
+  
+![image](https://github.com/user-attachments/assets/e48366a4-5dae-48f8-ae87-06bcdb2c7219)
+
+-  Now, when there is an update to the update log, a popup will show up allowing you to know the newest update, this can be disabled in the setting menu
+![image](https://github.com/user-attachments/assets/30a54548-db14-4c26-8a24-59a7ca636cf8)
+
+
 ### 0.0.55
 
 -  You will now be notified through system email when an NPC mentioned you on a Chirp post
