@@ -16,7 +16,8 @@
   
 ![image](https://github.com/user-attachments/assets/e48366a4-5dae-48f8-ae87-06bcdb2c7219)
 
--  Now, when there is an update to the update log, a popup will show up allowing you to know the newest update, this can be disabled in the setting menu
+-  Now, when there is an update to the update log, a popup will show up allowing you to know the newest update, this can be disabled in the settings menu
+
 ![image](https://github.com/user-attachments/assets/30a54548-db14-4c26-8a24-59a7ca636cf8)
 
 
