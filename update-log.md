@@ -11,6 +11,9 @@
 -  Halloween Event: during October, `Pumpkin` will drop in strongholds, you can use it to cook `Pumpkin Pie` in your apartment, when used, it provides healing and buff
 -  Added `Flour`, `Egg` and `Milk` that drops from doing `Extraction Mission`
 -  You can now cook `Tea Egg` and `Cake` in your apartment
+  
+![image](https://github.com/user-attachments/assets/104c4d3c-bff4-4750-a8fc-6787ef05a62f)
+
 
 ### 0.0.56
 
