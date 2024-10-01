@@ -7,7 +7,7 @@
 **If you find an exploit please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
 ### 0.0.58
-
+-  Improved responsiveness of tagging/mentioning people in chat input
 -  Now system messages show individual message's timestamp
 
 ![image](https://github.com/user-attachments/assets/6b008688-9ddf-4232-bd88-53935a7a4ca9)
