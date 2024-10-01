@@ -6,6 +6,13 @@
 
 **If you find an exploit please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
+### 0.0.58
+
+-  Now system messages show individual message's timestamp
+![image](https://github.com/user-attachments/assets/6b008688-9ddf-4232-bd88-53935a7a4ca9)
+
+-  Now in gang player list screen, player's level will be shown
+
 ### 0.0.57
 
 -  Halloween Event: during October, `Pumpkin` will drop in strongholds, you can use it to cook `Pumpkin Pie` in your apartment, when used, it provides healing and buff
