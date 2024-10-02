@@ -7,6 +7,9 @@
 **If you find an exploit please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
 ### 0.0.58
+
+-  Added two new BGM for stronghold boss and chirp chat screen
+-  Added several new sound effects, for equipment equip, unequip, item page, item upgrade and calibration
 -  Improved responsiveness of tagging/mentioning people in chat input
 -  Now system messages show individual message's timestamp
 
@@ -16,8 +19,6 @@
 
 ### 0.0.57
 
--  Added two new BGM for stronghold boss and chirp chat screen
--  Added several new sound effects, for equipment equip, unequip, item page, item upgrade and calibration
 -  Halloween Event: during October, `Pumpkin` will drop in strongholds, you can use it to cook `Pumpkin Pie` in your apartment, when used, it provides healing and buff
 -  Added `Flour`, `Egg` and `Milk` that drops from doing `Extraction Mission`
 -  You can now cook `Tea Egg` and `Cake` in your apartment
