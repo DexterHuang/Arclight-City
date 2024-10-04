@@ -8,6 +8,11 @@
 
 ### 0.0.58
 
+-  Vault UI has been reworked, now there is a filter similar to inventory
+-  Updated login screen and character select screen
+
+### 0.0.58
+
 -  Added two new BGM for stronghold boss and chirp chat screen
 -  Added several new sound effects, for equipment equip, unequip, item page, item upgrade and calibration
 -  Improved responsiveness of tagging/mentioning people in chat input
