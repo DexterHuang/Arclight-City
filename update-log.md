@@ -8,6 +8,7 @@
 
 ### 0.0.59
 
+-  Now Stronghold Raids only require you to complete a hard stronghold with 1 level above your character level to start 
 -  Vault UI has been reworked, now there is a filter similar to inventory
 -  Updated login screen and character select screen
 
