@@ -6,7 +6,7 @@
 
 **If you find an exploit please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
-### 0.0.58
+### 0.0.59
 
 -  Vault UI has been reworked, now there is a filter similar to inventory
 -  Updated login screen and character select screen
