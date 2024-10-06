@@ -503,6 +503,32 @@
 			"trans": "Secara otomatis mengkalibrasi dan memperbaiki item Anda hingga berhasil dikalibrasi sekali, atau jika Anda menghentikan prosesnya."
 		}
 	},
+	"autoFarm": {
+		"finish": {
+			"eng": "Interrupt Auto Gather",
+			"trans": "Hentikan Pengumpulan Otomatis"
+		},
+		"level": {
+			"eng": "Gathering Zone:",
+			"trans": "Zona Pengumpulan:"
+		},
+		"rewards": {
+			"eng": "Gathered Rewards",
+			"trans": "Hadiah yang Diperoleh"
+		},
+		"start": {
+			"eng": "Start",
+			"trans": "Mulai"
+		},
+		"tip": {
+			"eng": "You can unlock higher gathering zones by clearing ${difficulty} strongholds, the zone level is capped at your character level.",
+			"trans": "Anda dapat membuka zona pengumpulan yang lebih tinggi dengan menyelesaikan benteng ${difficulty}, level zona dibatasi pada level karakter Anda."
+		},
+		"title": {
+			"eng": "Auto Gather Progress",
+			"trans": "Progres Pengumpulan Otomatis"
+		}
+	},
 	"autoResetPage": {
 		"complete": {
 			"eng": "Auto reset success!",
@@ -826,6 +852,26 @@
 				"trans": "Kristal Shardlight"
 			}
 		},
+		"halloween": {
+			"description": {
+				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
+				"trans": "Dapatkan berbagai hadiah setiap hari selama 21 hari, dan hingga ${itemName} pada hari ke-22"
+			},
+			"pass1": {
+				"name": {
+					"eng": "Basic",
+					"trans": "Dasar"
+				}
+			},
+			"subtitle": {
+				"eng": "halloween Package",
+				"trans": "Paket Halloween"
+			},
+			"title": {
+				"eng": "Battle Pass",
+				"trans": "Battle Pass"
+			}
+		},
 		"july": {
 			"description": {
 				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
@@ -968,6 +1014,32 @@
 			"title": {
 				"eng": "Sakura Byte",
 				"trans": "Sakura Byte"
+			}
+		},
+		"september": {
+			"description": {
+				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
+				"trans": "Dapatkan berbagai hadiah setiap hari selama 21 hari, dan hingga ${itemName} pada hari ke-22"
+			},
+			"pass1": {
+				"name": {
+					"eng": "Basic",
+					"trans": "Dasar"
+				}
+			},
+			"pass2": {
+				"name": {
+					"eng": "Advanced",
+					"trans": "Lanjutan"
+				}
+			},
+			"subtitle": {
+				"eng": "september Package",
+				"trans": "Paket September"
+			},
+			"title": {
+				"eng": "Battle Pass",
+				"trans": "Battle Pass"
 			}
 		},
 		"summer": {
@@ -2294,16 +2366,16 @@
 				"trans": "Benteng Kuat"
 			}
 		},
+		"inventoryButton": {
+			"title": {
+				"eng": "Inventory",
+				"trans": "Inventori"
+			}
+		},
 		"levelSelect": {
 			"label": {
 				"eng": "level",
 				"trans": "Tingkat"
-			}
-		},
-		"manageInventoryButton": {
-			"title": {
-				"eng": "Manage Inventory",
-				"trans": "Kelola Inventori"
 			}
 		},
 		"playerModal": {
@@ -2339,6 +2411,10 @@
 		"ready": {
 			"eng": "Ready",
 			"trans": "Siap"
+		},
+		"socialButton": {
+			"eng": "social",
+			"trans": "sosial"
 		},
 		"territoryGang": {
 			"eng": "Strongholds created by member of ${gangName} in this district will receive extra buff",
@@ -2785,6 +2861,20 @@
 		"title": {
 			"eng": "First Top-up Double Value",
 			"trans": "Top-up Pertama Kali Nilai Ganda"
+		}
+	},
+	"forgotPasswordPopup": {
+		"enterEmail": {
+			"eng": "Enter your email to reset your password. an reset link will be sent to your email.",
+			"trans": "Masukkan email Anda untuk mengatur ulang kata sandi. Tautan pengaturan ulang akan dikirim ke email Anda."
+		},
+		"forgotPassword": {
+			"eng": "Forgot Password",
+			"trans": "Lupa Kata Sandi"
+		},
+		"send": {
+			"eng": "Send Reset Link",
+			"trans": "Kirim Tautan Reset"
 		}
 	},
 	"friend": {
@@ -3920,6 +4010,16 @@
 				"trans": "Burger"
 			}
 		},
+		"cake": {
+			"description": {
+				"eng": "A sweet dessert made from flour, sugar, and eggs.",
+				"trans": "Makanan penutup manis yang terbuat dari tepung, gula, dan telur."
+			},
+			"name": {
+				"eng": "Cake",
+				"trans": "Kue"
+			}
+		},
 		"calibrationShard": {
 			"description": {
 				"eng": "Universal calibration token for equipments, use to improve equipments",
@@ -4000,6 +4100,16 @@
 				"trans": "Pengaktif Dungeon"
 			}
 		},
+		"egg": {
+			"description": {
+				"eng": "A synthetic egg, used in many dishes.",
+				"trans": "Telur sintetis, digunakan dalam banyak hidangan."
+			},
+			"name": {
+				"eng": "Egg",
+				"trans": "Telur"
+			}
+		},
 		"energyGun": {
 			"description": {
 				"eng": "A weapon that uses energy to fire.",
@@ -4046,6 +4156,16 @@
 			"name": {
 				"eng": "Fish",
 				"trans": "Ikan"
+			}
+		},
+		"flour": {
+			"description": {
+				"eng": "A basic ingredient used in baking.",
+				"trans": "Bahan dasar yang digunakan dalam memanggang."
+			},
+			"name": {
+				"eng": "Flour",
+				"trans": "Tepung"
 			}
 		},
 		"gangControlResource": {
@@ -4294,6 +4414,16 @@
 				"trans": "Penguat Peningkatan Saraf Otak"
 			}
 		},
+		"milk": {
+			"description": {
+				"eng": "A synthetic milk, used in many dishes.",
+				"trans": "Susu sintetis, digunakan dalam banyak hidangan."
+			},
+			"name": {
+				"eng": "Milk",
+				"trans": "Susu"
+			}
+		},
 		"money": {
 			"description": {
 				"eng": "EuroDollar is a widely accepted currency in the continent, used for everyday purchases and transactions.",
@@ -4366,6 +4496,26 @@
 			"name": {
 				"eng": "Prefix Injector Shard",
 				"trans": "Shard Injektor Prefiks"
+			}
+		},
+		"pumpkin": {
+			"description": {
+				"eng": "A large orange fruit, used in many dishes.",
+				"trans": "Buah jeruk besar, digunakan dalam banyak hidangan."
+			},
+			"name": {
+				"eng": "Pumpkin",
+				"trans": "Pumpkin"
+			}
+		},
+		"pumpkinPie": {
+			"description": {
+				"eng": "A dessert made from pumpkin, eggs, and milk.",
+				"trans": "Sebuah makanan penutup yang terbuat dari labu, telur, dan susu."
+			},
+			"name": {
+				"eng": "Pumpkin Pie",
+				"trans": "Pumpkin Pie"
 			}
 		},
 		"pvpProtection": {
@@ -4496,6 +4646,16 @@
 			"name": {
 				"eng": "Blade",
 				"trans": "Pedang"
+			}
+		},
+		"teaEgg": {
+			"description": {
+				"eng": "A traditional dish made from eggs boiled in tea, soy sauce, and spices.",
+				"trans": "Hidangan tradisional yang terbuat dari telur yang direbus dalam teh, kecap, dan rempah-rempah."
+			},
+			"name": {
+				"eng": "Tea Egg",
+				"trans": "Telur Teh"
 			}
 		},
 		"techScrap": {
@@ -4903,6 +5063,10 @@
 	},
 	"loginPage": {
 		"emailLoginBox": {
+			"forgotPassword": {
+				"eng": "Forgot Password?",
+				"trans": "Lupa Kata Sandi?"
+			},
 			"login": {
 				"eng": "Login",
 				"trans": "Masuk"
@@ -4914,6 +5078,10 @@
 			"register": {
 				"eng": "Register",
 				"trans": "Daftar"
+			},
+			"registerWithEmail": {
+				"eng": "Register with Email",
+				"trans": "Daftar dengan Email"
 			}
 		},
 		"loginError": {
@@ -4923,6 +5091,10 @@
 		"loginWithEmail": {
 			"eng": "Login with Email",
 			"trans": "Masuk dengan Email"
+		},
+		"resetEmailSent": {
+			"eng": "Reset email sent. Check your email.",
+			"trans": "Email reset telah dikirim. Cek email kamu."
 		},
 		"serverUnavailable": {
 			"eng": "Server under maintenance. We are bring it back online soon.",
@@ -4935,6 +5107,10 @@
 		"unableToRegister": {
 			"eng": "Failed to register: ${error}",
 			"trans": "Gagal mendaftar: ${error} gagal"
+		},
+		"unableToSendResetEmail": {
+			"eng": "Failed to send reset email: ${error}",
+			"trans": "Gagal mengirim email reset: ${error}"
 		}
 	},
 	"loreNote": {
@@ -5076,6 +5252,12 @@
 			"title": {
 				"eng": "back to apartment",
 				"trans": "Kembali ke apartemen"
+			}
+		},
+		"autoGather": {
+			"title": {
+				"eng": "Auto Gather",
+				"trans": "Pengumpulan Otomatis"
 			}
 		},
 		"chirp": {
@@ -5225,6 +5407,10 @@
 		"attributes": {
 			"eng": "Attributes",
 			"trans": "Atribut"
+		},
+		"autoGather": {
+			"eng": "Auto Gather",
+			"trans": "Pengumpulan Otomatis"
 		},
 		"backpack": {
 			"eng": "Backpack",
@@ -6654,6 +6840,14 @@
 			"eng": "Cancel",
 			"trans": "Batal"
 		},
+		"confirmDepositMoney": {
+			"eng": "Confirm purchase?",
+			"trans": "Konfirmasi pembelian?"
+		},
+		"confirmDepositMoneyDescription": {
+			"eng": "By purchasing ${money} from shop, you will be barred from depositing fund to gangs until you reach level ${level} or top up your account with ${unit}. Are you sure you want to proceed?",
+			"trans": "Dengan membeli ${money} dari toko, Anda akan dilarang untuk menyetor dana ke geng sampai Anda mencapai level ${level} atau mengisi ulang akun Anda dengan ${unit}. Apakah Anda yakin ingin melanjutkan?"
+		},
 		"sell": {
 			"eng": "sell",
 			"trans": "Jual"
@@ -6836,6 +7030,10 @@
 				"trans": "Buka blokir"
 			}
 		},
+		"playerNotFound": {
+			"eng": "Player not found",
+			"trans": "Pemain tidak ditemukan"
+		},
 		"tabs": {
 			"assets": {
 				"eng": "Assets",
@@ -6959,17 +7157,17 @@
 			}
 		},
 		"gender": {
-			"gender1": {
-				"eng": "Type 1",
-				"trans": "Jenis 1"
+			"gender1v2": {
+				"eng": "Female",
+				"trans": "Perempuan"
 			},
-			"gender2": {
-				"eng": "Type 2",
-				"trans": "Jenis 2"
+			"gender2v2": {
+				"eng": "Male",
+				"trans": "Pria"
 			},
-			"name": {
-				"eng": "Body Type",
-				"trans": "Tipe Tubuh"
+			"namev2": {
+				"eng": "Gender",
+				"trans": "Jenis Kelamin"
 			}
 		},
 		"hair": {
@@ -8057,6 +8255,10 @@
 			"eng": "Language translation is contributable by the community on GitHub, if you would like to make edits for your language, click here to view our GitHub repository.",
 			"trans": "Terjemahan bahasa dapat ditambahkan oleh komunitas di GitHub, jika Anda ingin membuat perubahan untuk bahasa Anda, klik di sini untuk melihat repositori GitHub kami."
 		},
+		"neverShowUpdateNote": {
+			"eng": "Never show update note",
+			"trans": "Jangan pernah tampilkan catatan pembaruan"
+		},
 		"zoom": {
 			"eng": "UI Scaling (Experimental)",
 			"trans": "Skalabilitas UI (Eksperimental)"
@@ -8117,6 +8319,10 @@
 		}
 	},
 	"socialMedia": {
+		"mention": {
+			"eng": "${npc} has mentioned you in a Chirp post",
+			"trans": "${npc} telah menyebutmu dalam postingan Chirp"
+		},
 		"noPostsYet": {
 			"eng": "No posts yet",
 			"trans": "Belum ada postingan"
@@ -8686,9 +8892,9 @@
 	},
 	"territoryDisplay": {
 		"hasTopGang": {
-			"title": {
-				"eng": "Controlled by ${name} [${tag}]",
-				"trans": "Dikendalikan oleh ${name} [${tag}]"
+			"titlev2": {
+				"eng": "View Territory",
+				"trans": "Lihat Wilayah"
 			}
 		},
 		"noTopGang": {
@@ -8702,6 +8908,12 @@
 		"description": {
 			"eng": "Claim control of this territory to gain ability to deploy territorial buffs",
 			"trans": "Klaim kendali wilayah ini untuk mendapatkan kemampuan untuk memasang buff wilayah"
+		},
+		"gang": {
+			"controlPoints": {
+				"eng": "${amount} Control Points",
+				"trans": "${amount} Poin Kontrol"
+			}
 		},
 		"gangRequired": {
 			"eng": "You must be in a gang to claim territory",
@@ -9570,6 +9782,10 @@
 		"title": {
 			"eng": "Vault",
 			"trans": "Brankas"
+		},
+		"vaultSlots": {
+			"eng": "Slots ${size}",
+			"trans": "Slot ${size}"
 		}
 	},
 	"webHomePage": {

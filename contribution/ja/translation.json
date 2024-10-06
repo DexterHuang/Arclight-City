@@ -503,6 +503,32 @@
 			"trans": "アイテムを自動的にキャリブレーションして修理し、一度成功するまで続けるか、プロセスを停止するまでキャリブレーションを行います。"
 		}
 	},
+	"autoFarm": {
+		"finish": {
+			"eng": "Interrupt Auto Gather",
+			"trans": "オート収集を中断する"
+		},
+		"level": {
+			"eng": "Gathering Zone:",
+			"trans": "集会ゾーン:"
+		},
+		"rewards": {
+			"eng": "Gathered Rewards",
+			"trans": "獲得した報酬"
+		},
+		"start": {
+			"eng": "Start",
+			"trans": "スタート"
+		},
+		"tip": {
+			"eng": "You can unlock higher gathering zones by clearing ${difficulty} strongholds, the zone level is capped at your character level.",
+			"trans": "${difficulty}の要塞をクリアすることで、より高い採集ゾーンをアンロックできます。ゾーンレベルはキャラクターレベルに制限されています。"
+		},
+		"title": {
+			"eng": "Auto Gather Progress",
+			"trans": "自動収集進捗"
+		}
+	},
 	"autoResetPage": {
 		"complete": {
 			"eng": "Auto reset success!",
@@ -826,6 +852,26 @@
 				"trans": "シャードライトクリスタル"
 			}
 		},
+		"halloween": {
+			"description": {
+				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
+				"trans": "21日間、さまざまな報酬を受け取り、22日目には${itemName}を手に入れよう！"
+			},
+			"pass1": {
+				"name": {
+					"eng": "Basic",
+					"trans": "基本"
+				}
+			},
+			"subtitle": {
+				"eng": "halloween Package",
+				"trans": "ハロウィンパッケージ"
+			},
+			"title": {
+				"eng": "Battle Pass",
+				"trans": "バトルパス"
+			}
+		},
 		"july": {
 			"description": {
 				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
@@ -968,6 +1014,32 @@
 			"title": {
 				"eng": "Sakura Byte",
 				"trans": "サクラバイト"
+			}
+		},
+		"september": {
+			"description": {
+				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
+				"trans": "21日間、さまざまな報酬を受け取り、22日目には${itemName}を手に入れよう！"
+			},
+			"pass1": {
+				"name": {
+					"eng": "Basic",
+					"trans": "基本"
+				}
+			},
+			"pass2": {
+				"name": {
+					"eng": "Advanced",
+					"trans": "アドバンスド"
+				}
+			},
+			"subtitle": {
+				"eng": "september Package",
+				"trans": "9月パッケージ"
+			},
+			"title": {
+				"eng": "Battle Pass",
+				"trans": "バトルパス"
 			}
 		},
 		"summer": {
@@ -2294,16 +2366,16 @@
 				"trans": "要塞"
 			}
 		},
+		"inventoryButton": {
+			"title": {
+				"eng": "Inventory",
+				"trans": "インベントリ"
+			}
+		},
 		"levelSelect": {
 			"label": {
 				"eng": "level",
 				"trans": "レベル"
-			}
-		},
-		"manageInventoryButton": {
-			"title": {
-				"eng": "Manage Inventory",
-				"trans": "インベントリを管理する"
 			}
 		},
 		"playerModal": {
@@ -2339,6 +2411,10 @@
 		"ready": {
 			"eng": "Ready",
 			"trans": "準備完了"
+		},
+		"socialButton": {
+			"eng": "social",
+			"trans": "ソーシャル"
 		},
 		"territoryGang": {
 			"eng": "Strongholds created by member of ${gangName} in this district will receive extra buff",
@@ -2785,6 +2861,20 @@
 		"title": {
 			"eng": "First Top-up Double Value",
 			"trans": "初回チャージは倍の価値があります"
+		}
+	},
+	"forgotPasswordPopup": {
+		"enterEmail": {
+			"eng": "Enter your email to reset your password. an reset link will be sent to your email.",
+			"trans": "メールアドレスを入力してパスワードをリセットしてください。リセットリンクがあなたのメールに送信されます。"
+		},
+		"forgotPassword": {
+			"eng": "Forgot Password",
+			"trans": "パスワードを忘れました"
+		},
+		"send": {
+			"eng": "Send Reset Link",
+			"trans": "リセットリンクを送信"
 		}
 	},
 	"friend": {
@@ -3920,6 +4010,16 @@
 				"trans": "ハンバーガー"
 			}
 		},
+		"cake": {
+			"description": {
+				"eng": "A sweet dessert made from flour, sugar, and eggs.",
+				"trans": "小麦粉、砂糖、卵から作られた甘いデザート。"
+			},
+			"name": {
+				"eng": "Cake",
+				"trans": "ケーキ"
+			}
+		},
 		"calibrationShard": {
 			"description": {
 				"eng": "Universal calibration token for equipments, use to improve equipments",
@@ -4000,6 +4100,16 @@
 				"trans": "ダンジョンアクティベーター"
 			}
 		},
+		"egg": {
+			"description": {
+				"eng": "A synthetic egg, used in many dishes.",
+				"trans": "合成卵、さまざまな料理に使用される。"
+			},
+			"name": {
+				"eng": "Egg",
+				"trans": "卵"
+			}
+		},
 		"energyGun": {
 			"description": {
 				"eng": "A weapon that uses energy to fire.",
@@ -4046,6 +4156,16 @@
 			"name": {
 				"eng": "Fish",
 				"trans": "”ヤバイ”お魚"
+			}
+		},
+		"flour": {
+			"description": {
+				"eng": "A basic ingredient used in baking.",
+				"trans": "焼き菓子に使われる基本的な材料。"
+			},
+			"name": {
+				"eng": "Flour",
+				"trans": "小麦粉"
 			}
 		},
 		"gangControlResource": {
@@ -4294,6 +4414,16 @@
 				"trans": "脳神経アップグレード増幅器"
 			}
 		},
+		"milk": {
+			"description": {
+				"eng": "A synthetic milk, used in many dishes.",
+				"trans": "合成ミルク、さまざまな料理に使用される。"
+			},
+			"name": {
+				"eng": "Milk",
+				"trans": "ミルク"
+			}
+		},
 		"money": {
 			"description": {
 				"eng": "EuroDollar is a widely accepted currency in the continent, used for everyday purchases and transactions.",
@@ -4366,6 +4496,26 @@
 			"name": {
 				"eng": "Prefix Injector Shard",
 				"trans": "プレフィックスインジェクターシャード"
+			}
+		},
+		"pumpkin": {
+			"description": {
+				"eng": "A large orange fruit, used in many dishes.",
+				"trans": "多くの料理に使われる大きなオレンジ色の果物。"
+			},
+			"name": {
+				"eng": "Pumpkin",
+				"trans": "パンプキン"
+			}
+		},
+		"pumpkinPie": {
+			"description": {
+				"eng": "A dessert made from pumpkin, eggs, and milk.",
+				"trans": "かぼちゃ、卵、牛乳を使ったデザート。"
+			},
+			"name": {
+				"eng": "Pumpkin Pie",
+				"trans": "パンプキンパイ"
 			}
 		},
 		"pvpProtection": {
@@ -4496,6 +4646,16 @@
 			"name": {
 				"eng": "Blade",
 				"trans": "ブレード"
+			}
+		},
+		"teaEgg": {
+			"description": {
+				"eng": "A traditional dish made from eggs boiled in tea, soy sauce, and spices.",
+				"trans": "お茶、醤油、スパイスで煮た卵を使った伝統的な料理。"
+			},
+			"name": {
+				"eng": "Tea Egg",
+				"trans": "茶葉卵"
 			}
 		},
 		"techScrap": {
@@ -4903,6 +5063,10 @@
 	},
 	"loginPage": {
 		"emailLoginBox": {
+			"forgotPassword": {
+				"eng": "Forgot Password?",
+				"trans": "パスワードを忘れましたか？"
+			},
 			"login": {
 				"eng": "Login",
 				"trans": "ログイン"
@@ -4914,6 +5078,10 @@
 			"register": {
 				"eng": "Register",
 				"trans": "登録する"
+			},
+			"registerWithEmail": {
+				"eng": "Register with Email",
+				"trans": "メールで登録"
 			}
 		},
 		"loginError": {
@@ -4923,6 +5091,10 @@
 		"loginWithEmail": {
 			"eng": "Login with Email",
 			"trans": "メールでログインする"
+		},
+		"resetEmailSent": {
+			"eng": "Reset email sent. Check your email.",
+			"trans": "リセットメールを送信しました。メールを確認してください。"
 		},
 		"serverUnavailable": {
 			"eng": "Server under maintenance. We are bring it back online soon.",
@@ -4935,6 +5107,10 @@
 		"unableToRegister": {
 			"eng": "Failed to register: ${error}",
 			"trans": "登録に失敗しました：${error}"
+		},
+		"unableToSendResetEmail": {
+			"eng": "Failed to send reset email: ${error}",
+			"trans": "リセットメールの送信に失敗しました: ${error}"
 		}
 	},
 	"loreNote": {
@@ -5076,6 +5252,12 @@
 			"title": {
 				"eng": "back to apartment",
 				"trans": "アパートに戻る"
+			}
+		},
+		"autoGather": {
+			"title": {
+				"eng": "Auto Gather",
+				"trans": "自動収集"
 			}
 		},
 		"chirp": {
@@ -5225,6 +5407,10 @@
 		"attributes": {
 			"eng": "Attributes",
 			"trans": "属性"
+		},
+		"autoGather": {
+			"eng": "Auto Gather",
+			"trans": "自動収集"
 		},
 		"backpack": {
 			"eng": "Backpack",
@@ -6654,6 +6840,14 @@
 			"eng": "Cancel",
 			"trans": "キャンセル"
 		},
+		"confirmDepositMoney": {
+			"eng": "Confirm purchase?",
+			"trans": "購入を確認しますか？"
+		},
+		"confirmDepositMoneyDescription": {
+			"eng": "By purchasing ${money} from shop, you will be barred from depositing fund to gangs until you reach level ${level} or top up your account with ${unit}. Are you sure you want to proceed?",
+			"trans": "${money}をショップで購入すると、レベル${level}に達するか、${unit}でアカウントをチャージするまでギャングへの資金の入金が禁止されます。本当に続行してもよろしいですか？"
+		},
 		"sell": {
 			"eng": "sell",
 			"trans": "売る"
@@ -6836,6 +7030,10 @@
 				"trans": "解除"
 			}
 		},
+		"playerNotFound": {
+			"eng": "Player not found",
+			"trans": "プレイヤーが見つかりません"
+		},
 		"tabs": {
 			"assets": {
 				"eng": "Assets",
@@ -6959,17 +7157,17 @@
 			}
 		},
 		"gender": {
-			"gender1": {
-				"eng": "Type 1",
-				"trans": "タイプ1"
+			"gender1v2": {
+				"eng": "Female",
+				"trans": "女性"
 			},
-			"gender2": {
-				"eng": "Type 2",
-				"trans": "タイプ2"
+			"gender2v2": {
+				"eng": "Male",
+				"trans": "男性"
 			},
-			"name": {
-				"eng": "Body Type",
-				"trans": "体型"
+			"namev2": {
+				"eng": "Gender",
+				"trans": "性別"
 			}
 		},
 		"hair": {
@@ -8057,6 +8255,10 @@
 			"eng": "Language translation is contributable by the community on GitHub, if you would like to make edits for your language, click here to view our GitHub repository.",
 			"trans": "言語の翻訳はGitHubのコミュニティによって貢献されます。もし自分の言語の編集をしたい場合は、ここをクリックして私たちのGitHubリポジトリをご覧ください。"
 		},
+		"neverShowUpdateNote": {
+			"eng": "Never show update note",
+			"trans": "更新ノートを表示しない"
+		},
 		"zoom": {
 			"eng": "UI Scaling (Experimental)",
 			"trans": "UIスケーリング（実験中）"
@@ -8117,6 +8319,10 @@
 		}
 	},
 	"socialMedia": {
+		"mention": {
+			"eng": "${npc} has mentioned you in a Chirp post",
+			"trans": "${npc}がチュアープの投稿であなたに言及しました"
+		},
 		"noPostsYet": {
 			"eng": "No posts yet",
 			"trans": "まだ投稿はありません。"
@@ -8686,9 +8892,9 @@
 	},
 	"territoryDisplay": {
 		"hasTopGang": {
-			"title": {
-				"eng": "Controlled by ${name} [${tag}]",
-				"trans": "${name} [${tag}] によって支配されています"
+			"titlev2": {
+				"eng": "View Territory",
+				"trans": "テリトリーを表示"
 			}
 		},
 		"noTopGang": {
@@ -8702,6 +8908,12 @@
 		"description": {
 			"eng": "Claim control of this territory to gain ability to deploy territorial buffs",
 			"trans": "この領地を占領し、領地バフを展開する能力を得る"
+		},
+		"gang": {
+			"controlPoints": {
+				"eng": "${amount} Control Points",
+				"trans": "${amount} コントロールポイント"
+			}
 		},
 		"gangRequired": {
 			"eng": "You must be in a gang to claim territory",
@@ -9570,6 +9782,10 @@
 		"title": {
 			"eng": "Vault",
 			"trans": "倉庫"
+		},
+		"vaultSlots": {
+			"eng": "Slots ${size}",
+			"trans": "スロット${size}"
 		}
 	},
 	"webHomePage": {

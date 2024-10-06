@@ -503,6 +503,32 @@
 			"trans": "自動校準並修復您的物品，直到成功校準一次或是您手動停止。"
 		}
 	},
+	"autoFarm": {
+		"finish": {
+			"eng": "Interrupt Auto Gather",
+			"trans": "中斷自動採集"
+		},
+		"level": {
+			"eng": "Gathering Zone:",
+			"trans": "採集區域："
+		},
+		"rewards": {
+			"eng": "Gathered Rewards",
+			"trans": "獲得的獎勵"
+		},
+		"start": {
+			"eng": "Start",
+			"trans": "開始"
+		},
+		"tip": {
+			"eng": "You can unlock higher gathering zones by clearing ${difficulty} strongholds, the zone level is capped at your character level.",
+			"trans": "你可以透過清除${difficulty}地城來解鎖更高的採集區域，該區域的等級上限為你的角色等級。"
+		},
+		"title": {
+			"eng": "Auto Gather Progress",
+			"trans": "自動收集進度"
+		}
+	},
 	"autoResetPage": {
 		"complete": {
 			"eng": "Auto reset success!",
@@ -826,6 +852,26 @@
 				"trans": "碎片水晶"
 			}
 		},
+		"halloween": {
+			"description": {
+				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
+				"trans": "每日獲得各種獎勵，持續21天，並在第22天獲得${itemName}。"
+			},
+			"pass1": {
+				"name": {
+					"eng": "Basic",
+					"trans": "基本"
+				}
+			},
+			"subtitle": {
+				"eng": "halloween Package",
+				"trans": "萬聖節包裹"
+			},
+			"title": {
+				"eng": "Battle Pass",
+				"trans": "戰鬥通行證"
+			}
+		},
 		"july": {
 			"description": {
 				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
@@ -968,6 +1014,32 @@
 			"title": {
 				"eng": "Sakura Byte",
 				"trans": "櫻花位元"
+			}
+		},
+		"september": {
+			"description": {
+				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
+				"trans": "每日獲得各種獎勵，持續21天，並在第22天獲得${itemName}。"
+			},
+			"pass1": {
+				"name": {
+					"eng": "Basic",
+					"trans": "基本"
+				}
+			},
+			"pass2": {
+				"name": {
+					"eng": "Advanced",
+					"trans": "進階"
+				}
+			},
+			"subtitle": {
+				"eng": "september Package",
+				"trans": "九月通行證"
+			},
+			"title": {
+				"eng": "Battle Pass",
+				"trans": "戰鬥通行證"
 			}
 		},
 		"summer": {
@@ -2294,16 +2366,16 @@
 				"trans": "地城"
 			}
 		},
+		"inventoryButton": {
+			"title": {
+				"eng": "Inventory",
+				"trans": "倉庫"
+			}
+		},
 		"levelSelect": {
 			"label": {
 				"eng": "level",
 				"trans": "等級"
-			}
-		},
-		"manageInventoryButton": {
-			"title": {
-				"eng": "Manage Inventory",
-				"trans": "整理裝備"
 			}
 		},
 		"playerModal": {
@@ -2339,6 +2411,10 @@
 		"ready": {
 			"eng": "Ready",
 			"trans": "準備就緒"
+		},
+		"socialButton": {
+			"eng": "social",
+			"trans": "社交"
 		},
 		"territoryGang": {
 			"eng": "Strongholds created by member of ${gangName} in this district will receive extra buff",
@@ -2785,6 +2861,20 @@
 		"title": {
 			"eng": "First Top-up Double Value",
 			"trans": "首儲雙倍回饋"
+		}
+	},
+	"forgotPasswordPopup": {
+		"enterEmail": {
+			"eng": "Enter your email to reset your password. an reset link will be sent to your email.",
+			"trans": "請輸入您的電子郵件以重設密碼。重設連結將會發送到您的電子郵件。"
+		},
+		"forgotPassword": {
+			"eng": "Forgot Password",
+			"trans": "忘記密碼"
+		},
+		"send": {
+			"eng": "Send Reset Link",
+			"trans": "發送重置連結"
 		}
 	},
 	"friend": {
@@ -3920,6 +4010,16 @@
 				"trans": "漢堡"
 			}
 		},
+		"cake": {
+			"description": {
+				"eng": "A sweet dessert made from flour, sugar, and eggs.",
+				"trans": "用麵粉、糖和雞蛋製作的甜點。"
+			},
+			"name": {
+				"eng": "Cake",
+				"trans": "蛋糕"
+			}
+		},
 		"calibrationShard": {
 			"description": {
 				"eng": "Universal calibration token for equipments, use to improve equipments",
@@ -4000,6 +4100,16 @@
 				"trans": "地城啟動器"
 			}
 		},
+		"egg": {
+			"description": {
+				"eng": "A synthetic egg, used in many dishes.",
+				"trans": "合成蛋，廣泛用於多種料理中。"
+			},
+			"name": {
+				"eng": "Egg",
+				"trans": "蛋"
+			}
+		},
 		"energyGun": {
 			"description": {
 				"eng": "A weapon that uses energy to fire.",
@@ -4046,6 +4156,16 @@
 			"name": {
 				"eng": "Fish",
 				"trans": "魚"
+			}
+		},
+		"flour": {
+			"description": {
+				"eng": "A basic ingredient used in baking.",
+				"trans": "烘焙中使用的基本成分。"
+			},
+			"name": {
+				"eng": "Flour",
+				"trans": "麵粉"
 			}
 		},
 		"gangControlResource": {
@@ -4294,6 +4414,16 @@
 				"trans": "神經升級增強器"
 			}
 		},
+		"milk": {
+			"description": {
+				"eng": "A synthetic milk, used in many dishes.",
+				"trans": "合成牛奶，廣泛用於多種菜餚中。"
+			},
+			"name": {
+				"eng": "Milk",
+				"trans": "牛奶"
+			}
+		},
 		"money": {
 			"description": {
 				"eng": "EuroDollar is a widely accepted currency in the continent, used for everyday purchases and transactions.",
@@ -4366,6 +4496,26 @@
 			"name": {
 				"eng": "Prefix Injector Shard",
 				"trans": "前綴注射器碎片"
+			}
+		},
+		"pumpkin": {
+			"description": {
+				"eng": "A large orange fruit, used in many dishes.",
+				"trans": "一種大型橙色水果，常用於許多菜餚中。"
+			},
+			"name": {
+				"eng": "Pumpkin",
+				"trans": "南瓜"
+			}
+		},
+		"pumpkinPie": {
+			"description": {
+				"eng": "A dessert made from pumpkin, eggs, and milk.",
+				"trans": "用南瓜、雞蛋和牛奶製作的甜點。"
+			},
+			"name": {
+				"eng": "Pumpkin Pie",
+				"trans": "南瓜派"
 			}
 		},
 		"pvpProtection": {
@@ -4496,6 +4646,16 @@
 			"name": {
 				"eng": "Blade",
 				"trans": "刀刃"
+			}
+		},
+		"teaEgg": {
+			"description": {
+				"eng": "A traditional dish made from eggs boiled in tea, soy sauce, and spices.",
+				"trans": "用茶、醬油和香料煮的傳統蛋料理。"
+			},
+			"name": {
+				"eng": "Tea Egg",
+				"trans": "茶葉蛋"
 			}
 		},
 		"techScrap": {
@@ -4903,6 +5063,10 @@
 	},
 	"loginPage": {
 		"emailLoginBox": {
+			"forgotPassword": {
+				"eng": "Forgot Password?",
+				"trans": "忘記密碼了？"
+			},
 			"login": {
 				"eng": "Login",
 				"trans": "登入"
@@ -4914,6 +5078,10 @@
 			"register": {
 				"eng": "Register",
 				"trans": "註冊"
+			},
+			"registerWithEmail": {
+				"eng": "Register with Email",
+				"trans": "使用電子郵件註冊"
 			}
 		},
 		"loginError": {
@@ -4923,6 +5091,10 @@
 		"loginWithEmail": {
 			"eng": "Login with Email",
 			"trans": "使用電子郵件登入"
+		},
+		"resetEmailSent": {
+			"eng": "Reset email sent. Check your email.",
+			"trans": "重設郵件已發送。請檢查您的電子郵件。"
 		},
 		"serverUnavailable": {
 			"eng": "Server under maintenance. We are bring it back online soon.",
@@ -4935,6 +5107,10 @@
 		"unableToRegister": {
 			"eng": "Failed to register: ${error}",
 			"trans": "註冊失敗：${error}"
+		},
+		"unableToSendResetEmail": {
+			"eng": "Failed to send reset email: ${error}",
+			"trans": "無法發送重置郵件：${error}"
 		}
 	},
 	"loreNote": {
@@ -5076,6 +5252,12 @@
 			"title": {
 				"eng": "back to apartment",
 				"trans": "回到公寓"
+			}
+		},
+		"autoGather": {
+			"title": {
+				"eng": "Auto Gather",
+				"trans": "自動收集"
 			}
 		},
 		"chirp": {
@@ -5225,6 +5407,10 @@
 		"attributes": {
 			"eng": "Attributes",
 			"trans": "屬性"
+		},
+		"autoGather": {
+			"eng": "Auto Gather",
+			"trans": "自動收集"
 		},
 		"backpack": {
 			"eng": "Backpack",
@@ -6654,6 +6840,14 @@
 			"eng": "Cancel",
 			"trans": "取消"
 		},
+		"confirmDepositMoney": {
+			"eng": "Confirm purchase?",
+			"trans": "確認購買嗎？"
+		},
+		"confirmDepositMoneyDescription": {
+			"eng": "By purchasing ${money} from shop, you will be barred from depositing fund to gangs until you reach level ${level} or top up your account with ${unit}. Are you sure you want to proceed?",
+			"trans": "購買${money}後，您將無法向幫派存入資金，直到您達到${level}級或用${unit}為您的帳戶充值。您確定要繼續嗎？"
+		},
 		"sell": {
 			"eng": "sell",
 			"trans": "出售"
@@ -6836,6 +7030,10 @@
 				"trans": "解除封鎖"
 			}
 		},
+		"playerNotFound": {
+			"eng": "Player not found",
+			"trans": "找不到玩家"
+		},
 		"tabs": {
 			"assets": {
 				"eng": "Assets",
@@ -6959,17 +7157,17 @@
 			}
 		},
 		"gender": {
-			"gender1": {
-				"eng": "Type 1",
-				"trans": "類型 1"
+			"gender1v2": {
+				"eng": "Female",
+				"trans": "女性"
 			},
-			"gender2": {
-				"eng": "Type 2",
-				"trans": "類型2"
+			"gender2v2": {
+				"eng": "Male",
+				"trans": "男性"
 			},
-			"name": {
-				"eng": "Body Type",
-				"trans": "體型"
+			"namev2": {
+				"eng": "Gender",
+				"trans": "性別"
 			}
 		},
 		"hair": {
@@ -8057,6 +8255,10 @@
 			"eng": "Language translation is contributable by the community on GitHub, if you would like to make edits for your language, click here to view our GitHub repository.",
 			"trans": "語言翻譯是由社群在GitHub上共同貢獻的，如果您想要為您的語言進行編輯，請點擊此處查看我們的GitHub存儲庫。"
 		},
+		"neverShowUpdateNote": {
+			"eng": "Never show update note",
+			"trans": "永不顯示更新說明"
+		},
 		"zoom": {
 			"eng": "UI Scaling (Experimental)",
 			"trans": "UI縮放（實驗性）"
@@ -8117,6 +8319,10 @@
 		}
 	},
 	"socialMedia": {
+		"mention": {
+			"eng": "${npc} has mentioned you in a Chirp post",
+			"trans": "${npc} 再一則推文內提起了您"
+		},
 		"noPostsYet": {
 			"eng": "No posts yet",
 			"trans": "尚無貼文"
@@ -8686,9 +8892,9 @@
 	},
 	"territoryDisplay": {
 		"hasTopGang": {
-			"title": {
-				"eng": "Controlled by ${name} [${tag}]",
-				"trans": "由${name} [${tag}]控制"
+			"titlev2": {
+				"eng": "View Territory",
+				"trans": "查看領地"
 			}
 		},
 		"noTopGang": {
@@ -8702,6 +8908,12 @@
 		"description": {
 			"eng": "Claim control of this territory to gain ability to deploy territorial buffs",
 			"trans": "控制這個領地，以獲得部署領地增益的能力。"
+		},
+		"gang": {
+			"controlPoints": {
+				"eng": "${amount} Control Points",
+				"trans": "${amount} 控制點數"
+			}
 		},
 		"gangRequired": {
 			"eng": "You must be in a gang to claim territory",
@@ -9570,6 +9782,10 @@
 		"title": {
 			"eng": "Vault",
 			"trans": "保險箱"
+		},
+		"vaultSlots": {
+			"eng": "Slots ${size}",
+			"trans": "欄位 ${size}"
 		}
 	},
 	"webHomePage": {

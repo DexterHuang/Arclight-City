@@ -503,6 +503,32 @@
 			"trans": "Автоматически калибруйте и ремонтируйте свой предмет до тех пор, пока он не будет успешно откалиброван, или если вы остановили процесс."
 		}
 	},
+	"autoFarm": {
+		"finish": {
+			"eng": "Interrupt Auto Gather",
+			"trans": "Прервать автоматический сбор"
+		},
+		"level": {
+			"eng": "Gathering Zone:",
+			"trans": "Зона сбора:"
+		},
+		"rewards": {
+			"eng": "Gathered Rewards",
+			"trans": "Собранные награды"
+		},
+		"start": {
+			"eng": "Start",
+			"trans": "Начать"
+		},
+		"tip": {
+			"eng": "You can unlock higher gathering zones by clearing ${difficulty} strongholds, the zone level is capped at your character level.",
+			"trans": "Вы можете разблокировать более высокие зоны сбора, очистив крепости ${difficulty}, уровень зоны ограничен уровнем вашего персонажа."
+		},
+		"title": {
+			"eng": "Auto Gather Progress",
+			"trans": "Автоматический сбор: Прогресс"
+		}
+	},
 	"autoResetPage": {
 		"complete": {
 			"eng": "Auto reset success!",
@@ -826,6 +852,26 @@
 				"trans": "Кристалл осколка света"
 			}
 		},
+		"halloween": {
+			"description": {
+				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
+				"trans": "Получайте различные награды ежедневно в течение 21 дня, а на 22-й день — до ${itemName}"
+			},
+			"pass1": {
+				"name": {
+					"eng": "Basic",
+					"trans": "Базовый"
+				}
+			},
+			"subtitle": {
+				"eng": "halloween Package",
+				"trans": "Хэллоуинский пакет"
+			},
+			"title": {
+				"eng": "Battle Pass",
+				"trans": "Боевой Пропуск"
+			}
+		},
 		"july": {
 			"description": {
 				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
@@ -968,6 +1014,32 @@
 			"title": {
 				"eng": "Sakura Byte",
 				"trans": "Sakura Byte"
+			}
+		},
+		"september": {
+			"description": {
+				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
+				"trans": "Получайте различные награды ежедневно в течение 21 дня, а на 22-й день — до ${itemName}"
+			},
+			"pass1": {
+				"name": {
+					"eng": "Basic",
+					"trans": "Базовый"
+				}
+			},
+			"pass2": {
+				"name": {
+					"eng": "Advanced",
+					"trans": "Продвинутый"
+				}
+			},
+			"subtitle": {
+				"eng": "september Package",
+				"trans": "сентябрьский пакет"
+			},
+			"title": {
+				"eng": "Battle Pass",
+				"trans": "Боевой Пропуск"
 			}
 		},
 		"summer": {
@@ -2294,16 +2366,16 @@
 				"trans": "Крепость"
 			}
 		},
+		"inventoryButton": {
+			"title": {
+				"eng": "Inventory",
+				"trans": "Инвентарь"
+			}
+		},
 		"levelSelect": {
 			"label": {
 				"eng": "level",
 				"trans": "уровень"
-			}
-		},
-		"manageInventoryButton": {
-			"title": {
-				"eng": "Manage Inventory",
-				"trans": "Управление инвентарем"
 			}
 		},
 		"playerModal": {
@@ -2339,6 +2411,10 @@
 		"ready": {
 			"eng": "Ready",
 			"trans": "Готово"
+		},
+		"socialButton": {
+			"eng": "social",
+			"trans": "социальный"
 		},
 		"territoryGang": {
 			"eng": "Strongholds created by member of ${gangName} in this district will receive extra buff",
@@ -2785,6 +2861,20 @@
 		"title": {
 			"eng": "First Top-up Double Value",
 			"trans": "Первое пополнение - удвоенная стоимость"
+		}
+	},
+	"forgotPasswordPopup": {
+		"enterEmail": {
+			"eng": "Enter your email to reset your password. an reset link will be sent to your email.",
+			"trans": "Введите свой адрес электронной почты, чтобы сбросить пароль. Ссылка для сброса будет отправлена на вашу электронную почту."
+		},
+		"forgotPassword": {
+			"eng": "Forgot Password",
+			"trans": "Забыли пароль"
+		},
+		"send": {
+			"eng": "Send Reset Link",
+			"trans": "Отправить ссылку для сброса пароля"
 		}
 	},
 	"friend": {
@@ -3920,6 +4010,16 @@
 				"trans": "Бургер"
 			}
 		},
+		"cake": {
+			"description": {
+				"eng": "A sweet dessert made from flour, sugar, and eggs.",
+				"trans": "Сладкий десерт, приготовленный из муки, сахара и яиц."
+			},
+			"name": {
+				"eng": "Cake",
+				"trans": "Торт"
+			}
+		},
 		"calibrationShard": {
 			"description": {
 				"eng": "Universal calibration token for equipments, use to improve equipments",
@@ -4000,6 +4100,16 @@
 				"trans": "активатор подземелья"
 			}
 		},
+		"egg": {
+			"description": {
+				"eng": "A synthetic egg, used in many dishes.",
+				"trans": "Синтетическое яйцо, используемое во многих блюдах."
+			},
+			"name": {
+				"eng": "Egg",
+				"trans": "Яйцо"
+			}
+		},
 		"energyGun": {
 			"description": {
 				"eng": "A weapon that uses energy to fire.",
@@ -4046,6 +4156,16 @@
 			"name": {
 				"eng": "Fish",
 				"trans": "Рыба"
+			}
+		},
+		"flour": {
+			"description": {
+				"eng": "A basic ingredient used in baking.",
+				"trans": "Основной ингредиент, используемый в выпечке."
+			},
+			"name": {
+				"eng": "Flour",
+				"trans": "Мука"
 			}
 		},
 		"gangControlResource": {
@@ -4294,6 +4414,16 @@
 				"trans": "Нейро-улучшающий аугментатор"
 			}
 		},
+		"milk": {
+			"description": {
+				"eng": "A synthetic milk, used in many dishes.",
+				"trans": "Синтетическое молоко, используемое во многих блюдах."
+			},
+			"name": {
+				"eng": "Milk",
+				"trans": "Молоко"
+			}
+		},
 		"money": {
 			"description": {
 				"eng": "EuroDollar is a widely accepted currency in the continent, used for everyday purchases and transactions.",
@@ -4366,6 +4496,26 @@
 			"name": {
 				"eng": "Prefix Injector Shard",
 				"trans": "Префиксный инжекторный осколок"
+			}
+		},
+		"pumpkin": {
+			"description": {
+				"eng": "A large orange fruit, used in many dishes.",
+				"trans": "Большой оранжевый фрукт, используемый во многих блюдах."
+			},
+			"name": {
+				"eng": "Pumpkin",
+				"trans": "Тыква"
+			}
+		},
+		"pumpkinPie": {
+			"description": {
+				"eng": "A dessert made from pumpkin, eggs, and milk.",
+				"trans": "Десерт из тыквы, яиц и молока."
+			},
+			"name": {
+				"eng": "Pumpkin Pie",
+				"trans": "Тыквенный пирог"
 			}
 		},
 		"pvpProtection": {
@@ -4496,6 +4646,16 @@
 			"name": {
 				"eng": "Blade",
 				"trans": "Клинок"
+			}
+		},
+		"teaEgg": {
+			"description": {
+				"eng": "A traditional dish made from eggs boiled in tea, soy sauce, and spices.",
+				"trans": "Традиционное блюдо, приготовленное из яиц, сваренных в чае, соевом соусе и специях."
+			},
+			"name": {
+				"eng": "Tea Egg",
+				"trans": "Чайное яйцо"
 			}
 		},
 		"techScrap": {
@@ -4903,6 +5063,10 @@
 	},
 	"loginPage": {
 		"emailLoginBox": {
+			"forgotPassword": {
+				"eng": "Forgot Password?",
+				"trans": "Забыли пароль?"
+			},
 			"login": {
 				"eng": "Login",
 				"trans": "Вход"
@@ -4914,6 +5078,10 @@
 			"register": {
 				"eng": "Register",
 				"trans": "Зарегистрироваться"
+			},
+			"registerWithEmail": {
+				"eng": "Register with Email",
+				"trans": "Зарегистрироваться по электронной почте"
 			}
 		},
 		"loginError": {
@@ -4923,6 +5091,10 @@
 		"loginWithEmail": {
 			"eng": "Login with Email",
 			"trans": "Войти с помощью электронной почты"
+		},
+		"resetEmailSent": {
+			"eng": "Reset email sent. Check your email.",
+			"trans": "Сброс пароля отправлен. Проверьте свою почту."
 		},
 		"serverUnavailable": {
 			"eng": "Server under maintenance. We are bring it back online soon.",
@@ -4935,6 +5107,10 @@
 		"unableToRegister": {
 			"eng": "Failed to register: ${error}",
 			"trans": "Не удалось зарегистрироваться: ${error}"
+		},
+		"unableToSendResetEmail": {
+			"eng": "Failed to send reset email: ${error}",
+			"trans": "Не удалось отправить письмо для сброса: ${error}"
 		}
 	},
 	"loreNote": {
@@ -5076,6 +5252,12 @@
 			"title": {
 				"eng": "back to apartment",
 				"trans": "вернуться в квартиру"
+			}
+		},
+		"autoGather": {
+			"title": {
+				"eng": "Auto Gather",
+				"trans": "Авто Сбор"
 			}
 		},
 		"chirp": {
@@ -5225,6 +5407,10 @@
 		"attributes": {
 			"eng": "Attributes",
 			"trans": "Атрибуты"
+		},
+		"autoGather": {
+			"eng": "Auto Gather",
+			"trans": "Авто Сбор"
 		},
 		"backpack": {
 			"eng": "Backpack",
@@ -6654,6 +6840,14 @@
 			"eng": "Cancel",
 			"trans": "Отмена"
 		},
+		"confirmDepositMoney": {
+			"eng": "Confirm purchase?",
+			"trans": "Подтвердить покупку?"
+		},
+		"confirmDepositMoneyDescription": {
+			"eng": "By purchasing ${money} from shop, you will be barred from depositing fund to gangs until you reach level ${level} or top up your account with ${unit}. Are you sure you want to proceed?",
+			"trans": "При покупке ${money} в магазине, вам будет запрещено вносить средства в банды, пока вы не достигнете уровня ${level} или не пополните свой счет на ${unit}. Вы уверены, что хотите продолжить?"
+		},
 		"sell": {
 			"eng": "sell",
 			"trans": "продать"
@@ -6836,6 +7030,10 @@
 				"trans": "Разблокировать"
 			}
 		},
+		"playerNotFound": {
+			"eng": "Player not found",
+			"trans": "Игрок не найден"
+		},
 		"tabs": {
 			"assets": {
 				"eng": "Assets",
@@ -6959,17 +7157,17 @@
 			}
 		},
 		"gender": {
-			"gender1": {
-				"eng": "Type 1",
-				"trans": "Тип 1"
+			"gender1v2": {
+				"eng": "Female",
+				"trans": "Женский"
 			},
-			"gender2": {
-				"eng": "Type 2",
-				"trans": "Тип 2"
+			"gender2v2": {
+				"eng": "Male",
+				"trans": "Мужчина"
 			},
-			"name": {
-				"eng": "Body Type",
-				"trans": "Тип тела"
+			"namev2": {
+				"eng": "Gender",
+				"trans": "Пол"
 			}
 		},
 		"hair": {
@@ -8057,6 +8255,10 @@
 			"eng": "Language translation is contributable by the community on GitHub, if you would like to make edits for your language, click here to view our GitHub repository.",
 			"trans": "Перевод языка вносится сообществом на GitHub, если вы хотите внести изменения для своего языка, нажмите здесь, чтобы просмотреть наш репозиторий на GitHub."
 		},
+		"neverShowUpdateNote": {
+			"eng": "Never show update note",
+			"trans": "Никогда не показывать заметки об обновлении"
+		},
 		"zoom": {
 			"eng": "UI Scaling (Experimental)",
 			"trans": "Масштабирование интерфейса (Экспериментальное)"
@@ -8117,6 +8319,10 @@
 		}
 	},
 	"socialMedia": {
+		"mention": {
+			"eng": "${npc} has mentioned you in a Chirp post",
+			"trans": "${npc} упомянул(а) вас в посте на Chirp"
+		},
 		"noPostsYet": {
 			"eng": "No posts yet",
 			"trans": "Пока нет сообщений"
@@ -8686,9 +8892,9 @@
 	},
 	"territoryDisplay": {
 		"hasTopGang": {
-			"title": {
-				"eng": "Controlled by ${name} [${tag}]",
-				"trans": "Управляется ${name} [${tag}]"
+			"titlev2": {
+				"eng": "View Territory",
+				"trans": "Просмотр территории"
 			}
 		},
 		"noTopGang": {
@@ -8702,6 +8908,12 @@
 		"description": {
 			"eng": "Claim control of this territory to gain ability to deploy territorial buffs",
 			"trans": "Захватите контроль над этой территорией, чтобы получить возможность размещать территориальные баффы"
+		},
+		"gang": {
+			"controlPoints": {
+				"eng": "${amount} Control Points",
+				"trans": "${amount} Контрольных Точек"
+			}
 		},
 		"gangRequired": {
 			"eng": "You must be in a gang to claim territory",
@@ -9570,6 +9782,10 @@
 		"title": {
 			"eng": "Vault",
 			"trans": "Хранилище"
+		},
+		"vaultSlots": {
+			"eng": "Slots ${size}",
+			"trans": "Слоты ${size}"
 		}
 	},
 	"webHomePage": {
