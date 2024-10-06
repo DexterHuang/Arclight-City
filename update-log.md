@@ -6,6 +6,10 @@
 
 **If you find an exploit please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
+### 0.0.60
+
+-  Auto Gather is now added, you can now let your character automatically gather resources and EXP while AFK, please see tutorial at auto gather interface for more info
+
 ### 0.0.59
 
 -  Now Stronghold Raids only require you to complete a hard stronghold with 1 level above your character level to start 
