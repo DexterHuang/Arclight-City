@@ -8,7 +8,11 @@
 
 ### 0.0.60
 
--  Auto Gather is now added, you can now let your character automatically gather resources and EXP while AFK, please see tutorial at auto gather interface for more info
+-  Fixed Auto Gather exp calculation, now it should correctly scale similar to nearby enemies
+
+### 0.0.60
+
+-  Auto Gather is now added, you can now let your character automatically gather resources and EXP while AFK, please see the tutorial at auto gather interface for more info
 
 ### 0.0.59
 
