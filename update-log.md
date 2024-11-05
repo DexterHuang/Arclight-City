@@ -6,12 +6,12 @@
 
 **If you find an exploit please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
-### 0.0.61
+### 0.0.62
 
 -  Drastically improved stronghold rendering pipline, should improve performance, reduce system load and mitigate crashs
 -  Added `Auto Gather Boost`, using it will drastically increase EXP and reward gained, currenly can only be obtained from stronghold chests
 
-### 0.0.60
+### 0.0.61
 
 -  Fixed Auto Gather exp calculation, now it should correctly scale similar to nearby enemies
 
