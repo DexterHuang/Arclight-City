@@ -9,6 +9,7 @@
 ### 0.0.62
 
 -  Drastically improved stronghold rendering pipline, should improve performance, reduce system load and mitigate crashs
+-  Other player in your stronghold but in different room, should display correctly and tracked in real-time
 -  Added `Auto Gather Boost`, using it will drastically increase EXP and reward gained, currenly can only be obtained from stronghold chests
 
 ### 0.0.61
