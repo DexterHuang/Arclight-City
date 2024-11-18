@@ -243,6 +243,60 @@
 			"trans": "Эта способность направлена на одну цель и будет атаковать одного врага. Такие способности обычно сильнее, чем множественные, однако они менее эффективны против нескольких врагов."
 		}
 	},
+	"accountPage": {
+		"createdDate": {
+			"eng": "Created on ${date}",
+			"trans": "Создано ${date}"
+		},
+		"deleteAccount": {
+			"confirm": {
+				"eng": "Enter \"${DELETE}\" here to confirm",
+				"trans": "Введите \"${DELETE}\" здесь для подтверждения"
+			},
+			"confirmError": {
+				"eng": "You must type \"${delete}\" to confirm",
+				"trans": "Вы должны ввести \"${delete}\", чтобы подтвердить"
+			},
+			"eng": "Delete Account",
+			"title": {
+				"eng": "Danger Zone",
+				"trans": "Опасная зона"
+			},
+			"trans": "Удалить аккаунт",
+			"warning": {
+				"eng": "This action is irreversible and will permanently delete your account and all associated data. Proceed with caution.",
+				"trans": "Это действие необратимо и приведет к постоянному удалению вашей учетной записи и всех связанных данных. Продолжайте с осторожностью."
+			}
+		},
+		"linkApple": {
+			"success": {
+				"eng": "Account successfully linked with Apple Account",
+				"trans": "Учетная запись успешно связана с учетной записью Apple"
+			}
+		},
+		"linkEmail": {
+			"failed": {
+				"eng": "Failed to link account: ${error}",
+				"trans": "Не удалось связать аккаунт: ${error}"
+			},
+			"success": {
+				"eng": "Account successfully linked with email",
+				"trans": "Учетная запись успешно связана с электронной почтой"
+			}
+		},
+		"linkError": {
+			"alreadyInUse": {
+				"eng": "Cannot link account with this credential because it is already associated with another account",
+				"trans": "Невозможно связать аккаунт с этими учетными данными, так как они уже связаны с другим аккаунтом"
+			}
+		},
+		"linkGoogle": {
+			"success": {
+				"eng": "Account successfully linked with Google Account",
+				"trans": "Учетная запись успешно связана с учетной записью Google"
+			}
+		}
+	},
 	"apartment": {
 		"apartment0": {
 			"displayName": {
@@ -504,9 +558,9 @@
 		}
 	},
 	"autoFarm": {
-		"finish": {
-			"eng": "Interrupt Auto Gather",
-			"trans": "Прервать автоматический сбор"
+		"interrupt": {
+			"eng": "Interrupt",
+			"trans": "Прерывание"
 		},
 		"level": {
 			"eng": "Gathering Zone:",
@@ -515,6 +569,10 @@
 		"rewards": {
 			"eng": "Gathered Rewards",
 			"trans": "Собранные награды"
+		},
+		"rush": {
+			"eng": "Rush",
+			"trans": "Раш"
 		},
 		"start": {
 			"eng": "Start",
@@ -988,6 +1046,32 @@
 			"title": {
 				"eng": "Unleash Power",
 				"trans": "Разблокируйте Силу"
+			}
+		},
+		"november": {
+			"description": {
+				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
+				"trans": "Получайте различные награды ежедневно в течение 21 дня, а на 22-й день — до ${itemName}"
+			},
+			"pass1": {
+				"name": {
+					"eng": "Basic",
+					"trans": "Базовый"
+				}
+			},
+			"pass2": {
+				"name": {
+					"eng": "Advanced",
+					"trans": "Продвинутый"
+				}
+			},
+			"subtitle": {
+				"eng": "November Package",
+				"trans": "Ноябрьский пакет"
+			},
+			"title": {
+				"eng": "Battle Pass",
+				"trans": "Боевой Пропуск"
 			}
 		},
 		"sakura": {
@@ -2378,6 +2462,10 @@
 				"trans": "уровень"
 			}
 		},
+		"loading": {
+			"eng": "Connecting to lobby...",
+			"trans": "Подключение к лобби..."
+		},
 		"playerModal": {
 			"kick": {
 				"eng": "kick",
@@ -2925,6 +3013,56 @@
 			"trans": "Просмотреть профиль"
 		}
 	},
+	"gameEventType": {
+		"april": {
+			"eng": "April",
+			"trans": "Апрель"
+		},
+		"august": {
+			"eng": "August",
+			"trans": "Август"
+		},
+		"chineseNewYear": {
+			"eng": "Chinese New Year",
+			"trans": "Китайский Новый год"
+		},
+		"christmas": {
+			"eng": "Christmas",
+			"trans": "Рождество"
+		},
+		"crystal": {
+			"eng": "Crystal",
+			"trans": "Кристалл"
+		},
+		"halloween": {
+			"eng": "Halloween",
+			"trans": "Хэллоуин"
+		},
+		"july": {
+			"eng": "July",
+			"trans": "Июль"
+		},
+		"june": {
+			"eng": "June",
+			"trans": "Июнь"
+		},
+		"may": {
+			"eng": "May",
+			"trans": "Май"
+		},
+		"sakura": {
+			"eng": "Sakura",
+			"trans": "Сакура"
+		},
+		"september": {
+			"eng": "September",
+			"trans": "Сентябрь"
+		},
+		"thanksgiving": {
+			"eng": "Thanksgiving",
+			"trans": "День благодарения"
+		}
+	},
 	"gang": {
 		"createError": {
 			"notEnoughMoney": {
@@ -3025,6 +3163,38 @@
 		"button": {
 			"eng": "Sign in with Google",
 			"trans": "Войти с помощью Google"
+		}
+	},
+	"guestLinkModal": {
+		"cancel": {
+			"eng": "Later",
+			"trans": "Позже"
+		},
+		"description": {
+			"eng": "Please link your account to finish signing up to use this feature",
+			"trans": "Пожалуйста, свяжите свою учетную запись, чтобы завершить регистрацию для использования этой функции"
+		},
+		"linkAccount": {
+			"eng": "Finish Sign up",
+			"trans": "Завершить регистрацию"
+		},
+		"premiumPurchase": {
+			"eng": "To prevent accidental lost of your top-up, please finish signing up so you may login to your account at any time",
+			"trans": "Чтобы избежать случайной потери вашего пополнения, пожалуйста, завершите регистрацию, чтобы вы могли в любое время войти в свой аккаунт"
+		},
+		"tip": {
+			"eng": "You can use a fake email if you have privacy concerns, but you will not be able to receive reset password emails, so please remember your email and password.",
+			"trans": "Вы можете использовать фейковый адрес электронной почты, если у вас есть опасения по поводу конфиденциальности, но вы не сможете получать письма для сброса пароля, поэтому, пожалуйста, запомните свой адрес электронной почты и пароль."
+		},
+		"title": {
+			"eng": "Functionality not available for guest accounts",
+			"trans": "Функциональность недоступна для гостевых аккаунтов"
+		}
+	},
+	"guestLoginButton": {
+		"title": {
+			"eng": "Guest Login",
+			"trans": "Гостевой вход"
 		}
 	},
 	"healthSacrificePopup": {
@@ -3391,6 +3561,10 @@
 		"amount": {
 			"eng": "quantity ${amount}",
 			"trans": "количество ${amount}"
+		},
+		"availableDuringEvent": {
+			"eng": "Event Item",
+			"trans": "Событийный предмет"
 		},
 		"destroyed": {
 			"eng": "destroyed",
@@ -3970,6 +4144,16 @@
 		}
 	},
 	"itemType": {
+		"autoFarmBoost": {
+			"description": {
+				"eng": "When used during auto gather, it will increase EXP gained by ${expPercent}% and increase the reward gained by ${rewardPercent}%\\nThis will be consumed after one auto gather cycle",
+				"trans": "При использовании во время автоматического сбора, это увеличит получаемый опыт на ${expPercent}% и увеличит награду на ${rewardPercent}%\\nЭто будет消耗 после одного цикла автоматического сбора"
+			},
+			"name": {
+				"eng": "Auto Gather Boost",
+				"trans": "Авто-сбор ресурсов"
+			}
+		},
 		"boots": {
 			"description": {
 				"eng": "A piece of equipment that protects the feet.",
@@ -4668,6 +4852,26 @@
 				"trans": "Технологический металл"
 			}
 		},
+		"turkeyDinner": {
+			"description": {
+				"eng": "A traditional dish made from turkey meat, rice.",
+				"trans": "Традиционное блюдо из индейки и риса."
+			},
+			"name": {
+				"eng": "Turkey Dinner",
+				"trans": "Индейка на ужин"
+			}
+		},
+		"turkeyMeat": {
+			"description": {
+				"eng": "A synthetic turkey meat, can be used to craft turkey dinner.",
+				"trans": "Синтетическое индейское мясо можно использовать для приготовления индейки на ужин."
+			},
+			"name": {
+				"eng": "Synthetic Turkey Meat",
+				"trans": "Синтетическое индейское мясо"
+			}
+		},
 		"uncommonCalibrationSafety": {
 			"description": {
 				"eng": "Use to decrease chance of equipment destruction by ${percent}% when calibration failed",
@@ -5001,6 +5205,26 @@
 				"eng": "Thieving Level",
 				"trans": "Уровень воровства"
 			}
+		}
+	},
+	"linkAccount": {
+		"description": {
+			"eng": "Make your guest account a permanent to keep your progress safe.",
+			"trans": "Сделайте свою гостевую учетную запись постоянной, чтобы сохранить свой прогресс в безопасности."
+		},
+		"email": {
+			"description": {
+				"eng": "You can use an fake email if you have privacy concerns, but you will not be able to receive reset password emails, so please remember your email and password.",
+				"trans": "Вы можете использовать фейковый email, если у вас есть опасения по поводу конфиденциальности, но вы не сможете получать письма для сброса пароля, поэтому, пожалуйста, запомните свой email и пароль."
+			}
+		},
+		"linkWithEmail": {
+			"eng": "Link with Email",
+			"trans": "Связать с электронной почтой"
+		},
+		"title": {
+			"eng": "Finish Signing Up",
+			"trans": "Завершите регистрацию"
 		}
 	},
 	"localEnemy": {
@@ -7097,8 +7321,8 @@
 			"trans": "Имя может содержать только буквы, цифры и подчеркивания."
 		},
 		"tooLong": {
-			"eng": "Name must be at most ${max} characters long.",
-			"trans": "Имя должно быть не более ${max} символов в длину."
+			"eng": "Name must be less than or equal to ${max} characters long.",
+			"trans": "Имя должно содержать не более ${max} символов."
 		},
 		"tooShort": {
 			"eng": "Name must be at least ${min} characters long.",
@@ -8210,6 +8434,28 @@
 			}
 		}
 	},
+	"serverStatusDisplay": {
+		"noInternet": {
+			"message": {
+				"eng": "The app is unable to connect to the internet, please check your connection and try again",
+				"trans": "Приложение не может подключиться к интернету, пожалуйста, проверьте ваше соединение и попробуйте снова"
+			},
+			"title": {
+				"eng": "No internet connection",
+				"trans": "Нет подключения к интернету"
+			}
+		},
+		"serverDown": {
+			"message": {
+				"eng": "We are working on an update, this usually takes only a few minutes.\\nThank you for your patience!",
+				"trans": "Мы работаем над обновлением, это обычно занимает всего несколько минут.\\nСпасибо за ваше терпение!"
+			},
+			"title": {
+				"eng": "Server under maintenance",
+				"trans": "Сервер на обслуживании"
+			}
+		}
+	},
 	"settings": {
 		"backgroundVolume": {
 			"eng": "Background music volume",
@@ -8218,6 +8464,14 @@
 		"deleteCharacter": {
 			"eng": "Delete character",
 			"trans": "Удалить персонаж"
+		},
+		"enableAttackBarPopup": {
+			"eng": "Enable Attack Bar popup",
+			"trans": "Включить всплывающее окно панели атаки"
+		},
+		"enableAttackBarPopupDescription": {
+			"eng": "When enabled, the attack bar will move upwards when pressed, allowing you to see it clearer",
+			"trans": "Когда включено, панель атаки будет подниматься вверх при нажатии, что позволит вам лучше её видеть"
 		},
 		"enableBackgroundMusic": {
 			"eng": "Enable background music",
@@ -9228,6 +9482,26 @@
 			"eng": "Click here to toggle auto combat, which will allow you to attack enemies, use ability and heal automatically.",
 			"trans": "Нажмите здесь, чтобы включить автоматический бой, который позволит вам автоматически атаковать врагов, использовать способности и лечиться."
 		},
+		"autoFarm": {
+			"eng": "click here to start the auto gathering process",
+			"trans": "нажмите здесь, чтобы начать процесс автоматического сбора"
+		},
+		"autoFarm1": {
+			"eng": "You can use auto gather to gain rewards and exp passively while leaving your device on",
+			"trans": "Вы можете использовать автоматический сбор, чтобы получать награды и опыт пассивно, пока ваше устройство включено"
+		},
+		"autoFarmBoost": {
+			"eng": "Boost allow you to gain ${expPercent}% EXP and ${rewardPercent}% rewards, You can toggle to this to enable or disable boost during auto gather",
+			"trans": "Буст позволяет вам получить ${expPercent}% опыта и ${rewardPercent}% наград. Вы можете включить или отключить буст во время автоматического сбора"
+		},
+		"autoFarmStop": {
+			"eng": "You can click here to stop at any time.",
+			"trans": "Вы можете нажать здесь, чтобы остановиться в любое время."
+		},
+		"autoGatherRush": {
+			"eng": "Spam click here to fill the rush bar and get extra rewards!",
+			"trans": "Быстро нажимайте здесь, чтобы заполнить панель ускорения и получить дополнительные награды!"
+		},
 		"backToMainPage": {
 			"eng": "You can always go back to main screen from here.",
 			"trans": "Вы всегда можете вернуться на главный экран отсюда."
@@ -9521,6 +9795,10 @@
 			}
 		},
 		"mainMenu": {
+			"account": {
+				"eng": "Account",
+				"trans": "Учетная запись"
+			},
 			"blockedPlayer": {
 				"eng": "blocked",
 				"trans": "заблокирован"

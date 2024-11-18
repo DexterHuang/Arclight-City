@@ -243,6 +243,60 @@
 			"trans": "這個能力是單一目標的，會對一個敵人使用，這種能力通常比多目標能力更強大，但對抗多個敵人時效果會較弱。"
 		}
 	},
+	"accountPage": {
+		"createdDate": {
+			"eng": "Created on ${date}",
+			"trans": "創建於${date}"
+		},
+		"deleteAccount": {
+			"confirm": {
+				"eng": "Enter \"${DELETE}\" here to confirm",
+				"trans": "在此輸入\"${DELETE}\"以確認"
+			},
+			"confirmError": {
+				"eng": "You must type \"${delete}\" to confirm",
+				"trans": "您必須輸入\"${delete}\"以確認"
+			},
+			"eng": "Delete Account",
+			"title": {
+				"eng": "Danger Zone",
+				"trans": "危險區域"
+			},
+			"trans": "刪除帳號",
+			"warning": {
+				"eng": "This action is irreversible and will permanently delete your account and all associated data. Proceed with caution.",
+				"trans": "此操作不可逆，將永久刪除您的帳戶及所有相關數據。請謹慎操作。"
+			}
+		},
+		"linkApple": {
+			"success": {
+				"eng": "Account successfully linked with Apple Account",
+				"trans": "帳號已成功連結至Apple帳號"
+			}
+		},
+		"linkEmail": {
+			"failed": {
+				"eng": "Failed to link account: ${error}",
+				"trans": "無法連結帳號：${error}"
+			},
+			"success": {
+				"eng": "Account successfully linked with email",
+				"trans": "帳號已成功與電子郵件連結"
+			}
+		},
+		"linkError": {
+			"alreadyInUse": {
+				"eng": "Cannot link account with this credential because it is already associated with another account",
+				"trans": "無法使用此憑證連結帳號，因為它已與另一個帳號關聯。"
+			}
+		},
+		"linkGoogle": {
+			"success": {
+				"eng": "Account successfully linked with Google Account",
+				"trans": "帳號已成功與Google帳號連結"
+			}
+		}
+	},
 	"apartment": {
 		"apartment0": {
 			"displayName": {
@@ -504,9 +558,9 @@
 		}
 	},
 	"autoFarm": {
-		"finish": {
-			"eng": "Interrupt Auto Gather",
-			"trans": "中斷自動採集"
+		"interrupt": {
+			"eng": "Interrupt",
+			"trans": "中斷"
 		},
 		"level": {
 			"eng": "Gathering Zone:",
@@ -515,6 +569,10 @@
 		"rewards": {
 			"eng": "Gathered Rewards",
 			"trans": "獲得的獎勵"
+		},
+		"rush": {
+			"eng": "Rush",
+			"trans": "衝刺"
 		},
 		"start": {
 			"eng": "Start",
@@ -988,6 +1046,32 @@
 			"title": {
 				"eng": "Unleash Power",
 				"trans": "釋放力量"
+			}
+		},
+		"november": {
+			"description": {
+				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
+				"trans": "每日獲得各種獎勵，持續21天，並在第22天獲得${itemName}。"
+			},
+			"pass1": {
+				"name": {
+					"eng": "Basic",
+					"trans": "基本"
+				}
+			},
+			"pass2": {
+				"name": {
+					"eng": "Advanced",
+					"trans": "進階"
+				}
+			},
+			"subtitle": {
+				"eng": "November Package",
+				"trans": "十一月包裹"
+			},
+			"title": {
+				"eng": "Battle Pass",
+				"trans": "戰鬥通行證"
 			}
 		},
 		"sakura": {
@@ -2378,6 +2462,10 @@
 				"trans": "等級"
 			}
 		},
+		"loading": {
+			"eng": "Connecting to lobby...",
+			"trans": "連接到大廳中..."
+		},
 		"playerModal": {
 			"kick": {
 				"eng": "kick",
@@ -2925,6 +3013,56 @@
 			"trans": "查看個人資料"
 		}
 	},
+	"gameEventType": {
+		"april": {
+			"eng": "April",
+			"trans": "四月"
+		},
+		"august": {
+			"eng": "August",
+			"trans": "八月"
+		},
+		"chineseNewYear": {
+			"eng": "Chinese New Year",
+			"trans": "農曆新年"
+		},
+		"christmas": {
+			"eng": "Christmas",
+			"trans": "聖誕節"
+		},
+		"crystal": {
+			"eng": "Crystal",
+			"trans": "水晶"
+		},
+		"halloween": {
+			"eng": "Halloween",
+			"trans": "萬聖節"
+		},
+		"july": {
+			"eng": "July",
+			"trans": "七月"
+		},
+		"june": {
+			"eng": "June",
+			"trans": "六月"
+		},
+		"may": {
+			"eng": "May",
+			"trans": "五月"
+		},
+		"sakura": {
+			"eng": "Sakura",
+			"trans": "櫻花"
+		},
+		"september": {
+			"eng": "September",
+			"trans": "九月"
+		},
+		"thanksgiving": {
+			"eng": "Thanksgiving",
+			"trans": "感恩節"
+		}
+	},
 	"gang": {
 		"createError": {
 			"notEnoughMoney": {
@@ -3025,6 +3163,38 @@
 		"button": {
 			"eng": "Sign in with Google",
 			"trans": "使用Google帳號登入"
+		}
+	},
+	"guestLinkModal": {
+		"cancel": {
+			"eng": "Later",
+			"trans": "稍後"
+		},
+		"description": {
+			"eng": "Please link your account to finish signing up to use this feature",
+			"trans": "請連結您的帳號以完成註冊以使用此功能"
+		},
+		"linkAccount": {
+			"eng": "Finish Sign up",
+			"trans": "完成註冊"
+		},
+		"premiumPurchase": {
+			"eng": "To prevent accidental lost of your top-up, please finish signing up so you may login to your account at any time",
+			"trans": "為了避免意外失去您的充值，請完成註冊，以便您隨時登入您的帳戶。"
+		},
+		"tip": {
+			"eng": "You can use a fake email if you have privacy concerns, but you will not be able to receive reset password emails, so please remember your email and password.",
+			"trans": "如果您有隱私顧慮，可以使用假電子郵件，但您將無法接收重設密碼的電子郵件，因此請記住您的電子郵件和密碼。"
+		},
+		"title": {
+			"eng": "Functionality not available for guest accounts",
+			"trans": "來賓帳號無法使用此功能"
+		}
+	},
+	"guestLoginButton": {
+		"title": {
+			"eng": "Guest Login",
+			"trans": "訪客登入"
 		}
 	},
 	"healthSacrificePopup": {
@@ -3391,6 +3561,10 @@
 		"amount": {
 			"eng": "quantity ${amount}",
 			"trans": "數量 ${amount}"
+		},
+		"availableDuringEvent": {
+			"eng": "Event Item",
+			"trans": "事件物品"
 		},
 		"destroyed": {
 			"eng": "destroyed",
@@ -3970,6 +4144,16 @@
 		}
 	},
 	"itemType": {
+		"autoFarmBoost": {
+			"description": {
+				"eng": "When used during auto gather, it will increase EXP gained by ${expPercent}% and increase the reward gained by ${rewardPercent}%\\nThis will be consumed after one auto gather cycle",
+				"trans": "在自動採集期間使用時，將增加獲得的經驗值${expPercent}%和獲得的獎勵${rewardPercent}%\\n這將在一次自動採集循環後消耗完畢"
+			},
+			"name": {
+				"eng": "Auto Gather Boost",
+				"trans": "自動收集增益"
+			}
+		},
 		"boots": {
 			"description": {
 				"eng": "A piece of equipment that protects the feet.",
@@ -4668,6 +4852,26 @@
 				"trans": "科技零件"
 			}
 		},
+		"turkeyDinner": {
+			"description": {
+				"eng": "A traditional dish made from turkey meat, rice.",
+				"trans": "用火雞肉和米飯製作的傳統菜餚。"
+			},
+			"name": {
+				"eng": "Turkey Dinner",
+				"trans": "火雞晚餐"
+			}
+		},
+		"turkeyMeat": {
+			"description": {
+				"eng": "A synthetic turkey meat, can be used to craft turkey dinner.",
+				"trans": "合成火雞肉，可用來製作火雞晚餐。"
+			},
+			"name": {
+				"eng": "Synthetic Turkey Meat",
+				"trans": "合成火雞肉"
+			}
+		},
 		"uncommonCalibrationSafety": {
 			"description": {
 				"eng": "Use to decrease chance of equipment destruction by ${percent}% when calibration failed",
@@ -5001,6 +5205,26 @@
 				"eng": "Thieving Level",
 				"trans": "偷竊等級"
 			}
+		}
+	},
+	"linkAccount": {
+		"description": {
+			"eng": "Make your guest account a permanent to keep your progress safe.",
+			"trans": "將您的訪客帳號轉換為永久帳號，以保護您的進度。"
+		},
+		"email": {
+			"description": {
+				"eng": "You can use an fake email if you have privacy concerns, but you will not be able to receive reset password emails, so please remember your email and password.",
+				"trans": "如果您有隱私顧慮，可以使用假電子郵件，但您將無法接收重設密碼的電子郵件，因此請記住您的電子郵件和密碼。"
+			}
+		},
+		"linkWithEmail": {
+			"eng": "Link with Email",
+			"trans": "用電子郵件連結"
+		},
+		"title": {
+			"eng": "Finish Signing Up",
+			"trans": "完成註冊"
 		}
 	},
 	"localEnemy": {
@@ -6323,14 +6547,20 @@
 				]
 			},
 			"questLines": {
-				"eng": ["Up for new gigs?"],
-				"trans": ["準備好接收新的工作了嗎？"]
+				"eng": [
+					"Up for new gigs?"
+				],
+				"trans": [
+					"準備好接收新的工作了嗎？"
+				]
 			},
 			"questPendingLines": {
 				"eng": [
 					"Let me know when you have completed the objectives :)"
 				],
-				"trans": ["當任務完成後請通知我 :)"]
+				"trans": [
+					"當任務完成後請通知我 :)"
+				]
 			}
 		},
 		"blackMarket": {
@@ -6391,12 +6621,20 @@
 				]
 			},
 			"questLines": {
-				"eng": ["Up for new gigs?"],
-				"trans": ["有新任務嗎？"]
+				"eng": [
+					"Up for new gigs?"
+				],
+				"trans": [
+					"有新任務嗎？"
+				]
 			},
 			"questPendingLines": {
-				"eng": ["Quit wasting my time, unless you have done your job."],
-				"trans": ["除非您已經完成您的工作，否則不要浪費我的時間。"]
+				"eng": [
+					"Quit wasting my time, unless you have done your job."
+				],
+				"trans": [
+					"除非您已經完成您的工作，否則不要浪費我的時間。"
+				]
 			},
 			"tipBox": {
 				"eng": "You can sell your items here to other players, or buy items from other players.",
@@ -6409,8 +6647,12 @@
 				"trans": "如果您受傷了，您可以拜訪奧莉安娜治療您的傷口，當然不是免費的。"
 			},
 			"greetings": {
-				"eng": ["Upgrade some chromes today choom?"],
-				"trans": ["今天要升級一下裝備嗎，夥計？"]
+				"eng": [
+					"Upgrade some chromes today choom?"
+				],
+				"trans": [
+					"今天要升級一下裝備嗎，夥計？"
+				]
 			},
 			"locationName": {
 				"eng": "Ripperdoc",
@@ -6433,18 +6675,28 @@
 				]
 			},
 			"questLines": {
-				"eng": ["Up for new gigs?"],
-				"trans": ["有新的任務嗎？"]
+				"eng": [
+					"Up for new gigs?"
+				],
+				"trans": [
+					"有新的任務嗎？"
+				]
 			},
 			"questPendingLines": {
 				"eng": [
 					"Let me know when you have completed the objectives :)"
 				],
-				"trans": ["完成任務後請告訴我 :)"]
+				"trans": [
+					"完成任務後請告訴我 :)"
+				]
 			},
 			"shopLines": {
-				"eng": ["Don't just look, buy something."],
-				"trans": ["不要光是看，買點東西。"]
+				"eng": [
+					"Don't just look, buy something."
+				],
+				"trans": [
+					"不要光是看，買點東西。"
+				]
 			}
 		},
 		"dailyReward": {
@@ -6549,8 +6801,12 @@
 				"trans": "一般商店，您可以在這裡購買常見物品"
 			},
 			"greetings": {
-				"eng": ["Hey there, welcome to my store!"],
-				"trans": ["嘿，歡迎來到我的商店！"]
+				"eng": [
+					"Hey there, welcome to my store!"
+				],
+				"trans": [
+					"嘿，歡迎來到我的商店！"
+				]
 			},
 			"locationName": {
 				"eng": "Lilith's Store",
@@ -6575,14 +6831,20 @@
 				]
 			},
 			"questLines": {
-				"eng": ["Could you do this for me?"],
-				"trans": ["您能為我做這件事嗎？"]
+				"eng": [
+					"Could you do this for me?"
+				],
+				"trans": [
+					"您能為我做這件事嗎？"
+				]
 			},
 			"questPendingLines": {
 				"eng": [
 					"Let me know when you have completed the objectives :)"
 				],
-				"trans": ["完成目標後請讓我知道 :)"]
+				"trans": [
+					"完成目標後請讓我知道 :)"
+				]
 			},
 			"shopName": {
 				"eng": "Lilith\\'s Store",
@@ -6717,14 +6979,20 @@
 				]
 			},
 			"questLines": {
-				"eng": ["Up for new gigs?"],
-				"trans": ["有新的工作嗎？"]
+				"eng": [
+					"Up for new gigs?"
+				],
+				"trans": [
+					"有新的工作嗎？"
+				]
 			},
 			"questPendingLines": {
 				"eng": [
 					"Let me know when you have completed the objectives :)"
 				],
-				"trans": ["完成目標後請告知我 :)"]
+				"trans": [
+					"完成目標後請告知我 :)"
+				]
 			},
 			"shopLines": {
 				"eng": [
@@ -7053,8 +7321,8 @@
 			"trans": "名稱只能包含字母、數字和底線。"
 		},
 		"tooLong": {
-			"eng": "Name must be at most ${max} characters long.",
-			"trans": "名稱最多只能有${max}個字元。"
+			"eng": "Name must be less than or equal to ${max} characters long.",
+			"trans": "名稱長度必須小於或等於${max}個字元。"
 		},
 		"tooShort": {
 			"eng": "Name must be at least ${min} characters long.",
@@ -8166,6 +8434,28 @@
 			}
 		}
 	},
+	"serverStatusDisplay": {
+		"noInternet": {
+			"message": {
+				"eng": "The app is unable to connect to the internet, please check your connection and try again",
+				"trans": "應用程式無法連接到網路，請檢查您的連線並再試一次。"
+			},
+			"title": {
+				"eng": "No internet connection",
+				"trans": "無法連接到網路"
+			}
+		},
+		"serverDown": {
+			"message": {
+				"eng": "We are working on an update, this usually takes only a few minutes.\\nThank you for your patience!",
+				"trans": "我們正在進行更新，這通常只需要幾分鐘。\\n感謝您的耐心等候！"
+			},
+			"title": {
+				"eng": "Server under maintenance",
+				"trans": "伺服器維護中"
+			}
+		}
+	},
 	"settings": {
 		"backgroundVolume": {
 			"eng": "Background music volume",
@@ -8174,6 +8464,14 @@
 		"deleteCharacter": {
 			"eng": "Delete character",
 			"trans": "刪除角色"
+		},
+		"enableAttackBarPopup": {
+			"eng": "Enable Attack Bar popup",
+			"trans": "啟用攻擊條彈出視窗"
+		},
+		"enableAttackBarPopupDescription": {
+			"eng": "When enabled, the attack bar will move upwards when pressed, allowing you to see it clearer",
+			"trans": "啟用後，攻擊條在按下時會向上移動，讓你能更清楚地看到它。"
 		},
 		"enableBackgroundMusic": {
 			"eng": "Enable background music",
@@ -9184,6 +9482,26 @@
 			"eng": "Click here to toggle auto combat, which will allow you to attack enemies, use ability and heal automatically.",
 			"trans": "點擊這裡以切換自動戰鬥，這將使您能夠自動攻擊敵人、使用技能和自動治療。"
 		},
+		"autoFarm": {
+			"eng": "click here to start the auto gathering process",
+			"trans": "點擊這裡開始自動採集過程"
+		},
+		"autoFarm1": {
+			"eng": "You can use auto gather to gain rewards and exp passively while leaving your device on",
+			"trans": "你可以使用自動採集來在設備開啟時被動獲得獎勵和經驗值。"
+		},
+		"autoFarmBoost": {
+			"eng": "Boost allow you to gain ${expPercent}% EXP and ${rewardPercent}% rewards, You can toggle to this to enable or disable boost during auto gather",
+			"trans": "增益讓你獲得${expPercent}%經驗值和${rewardPercent}%獎勵，你可以切換此選項以在自動採集期間啟用或禁用增益。"
+		},
+		"autoFarmStop": {
+			"eng": "You can click here to stop at any time.",
+			"trans": "你可以隨時點擊這裡停止。"
+		},
+		"autoGatherRush": {
+			"eng": "Spam click here to fill the rush bar and get extra rewards!",
+			"trans": "狂點這裡填滿衝刺條，獲得額外獎勵！"
+		},
 		"backToMainPage": {
 			"eng": "You can always go back to main screen from here.",
 			"trans": "你可以隨時從這裡回到主畫面。"
@@ -9477,6 +9795,10 @@
 			}
 		},
 		"mainMenu": {
+			"account": {
+				"eng": "Account",
+				"trans": "帳號"
+			},
 			"blockedPlayer": {
 				"eng": "blocked",
 				"trans": "封鎖"

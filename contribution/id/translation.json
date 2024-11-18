@@ -243,6 +243,60 @@
 			"trans": "Kemampuan ini hanya menargetkan satu musuh, jenis kemampuan ini biasanya lebih kuat daripada kemampuan yang menargetkan banyak musuh, namun akan kurang efektif jika digunakan melawan banyak musuh."
 		}
 	},
+	"accountPage": {
+		"createdDate": {
+			"eng": "Created on ${date}",
+			"trans": "Dibuat pada ${date}"
+		},
+		"deleteAccount": {
+			"confirm": {
+				"eng": "Enter \"${DELETE}\" here to confirm",
+				"trans": "Masukkan \"${DELETE}\" di sini untuk mengonfirmasi"
+			},
+			"confirmError": {
+				"eng": "You must type \"${delete}\" to confirm",
+				"trans": "Anda harus mengetik \"${delete}\" untuk mengonfirmasi"
+			},
+			"eng": "Delete Account",
+			"title": {
+				"eng": "Danger Zone",
+				"trans": "Zona Berbahaya"
+			},
+			"trans": "Hapus Akun",
+			"warning": {
+				"eng": "This action is irreversible and will permanently delete your account and all associated data. Proceed with caution.",
+				"trans": "Tindakan ini tidak dapat dibatalkan dan akan menghapus akun Anda serta semua data terkait secara permanen. Lanjutkan dengan hati-hati."
+			}
+		},
+		"linkApple": {
+			"success": {
+				"eng": "Account successfully linked with Apple Account",
+				"trans": "Akun berhasil terhubung dengan Akun Apple"
+			}
+		},
+		"linkEmail": {
+			"failed": {
+				"eng": "Failed to link account: ${error}",
+				"trans": "Gagal menghubungkan akun: ${error}"
+			},
+			"success": {
+				"eng": "Account successfully linked with email",
+				"trans": "Akun berhasil terhubung dengan email"
+			}
+		},
+		"linkError": {
+			"alreadyInUse": {
+				"eng": "Cannot link account with this credential because it is already associated with another account",
+				"trans": "Tidak dapat menghubungkan akun dengan kredensial ini karena sudah terhubung dengan akun lain"
+			}
+		},
+		"linkGoogle": {
+			"success": {
+				"eng": "Account successfully linked with Google Account",
+				"trans": "Akun berhasil terhubung dengan Akun Google"
+			}
+		}
+	},
 	"apartment": {
 		"apartment0": {
 			"displayName": {
@@ -504,9 +558,9 @@
 		}
 	},
 	"autoFarm": {
-		"finish": {
-			"eng": "Interrupt Auto Gather",
-			"trans": "Hentikan Pengumpulan Otomatis"
+		"interrupt": {
+			"eng": "Interrupt",
+			"trans": "Ganggu"
 		},
 		"level": {
 			"eng": "Gathering Zone:",
@@ -515,6 +569,10 @@
 		"rewards": {
 			"eng": "Gathered Rewards",
 			"trans": "Hadiah yang Diperoleh"
+		},
+		"rush": {
+			"eng": "Rush",
+			"trans": "Rush"
 		},
 		"start": {
 			"eng": "Start",
@@ -988,6 +1046,32 @@
 			"title": {
 				"eng": "Unleash Power",
 				"trans": "Lepaskan Kekuatan"
+			}
+		},
+		"november": {
+			"description": {
+				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
+				"trans": "Dapatkan berbagai hadiah setiap hari selama 21 hari, dan hingga ${itemName} di hari ke-22"
+			},
+			"pass1": {
+				"name": {
+					"eng": "Basic",
+					"trans": "Dasar"
+				}
+			},
+			"pass2": {
+				"name": {
+					"eng": "Advanced",
+					"trans": "Lanjutan"
+				}
+			},
+			"subtitle": {
+				"eng": "November Package",
+				"trans": "Paket November"
+			},
+			"title": {
+				"eng": "Battle Pass",
+				"trans": "Battle Pass"
 			}
 		},
 		"sakura": {
@@ -2378,6 +2462,10 @@
 				"trans": "Tingkat"
 			}
 		},
+		"loading": {
+			"eng": "Connecting to lobby...",
+			"trans": "Menghubungkan ke lobi..."
+		},
 		"playerModal": {
 			"kick": {
 				"eng": "kick",
@@ -2925,6 +3013,56 @@
 			"trans": "Lihat Profil"
 		}
 	},
+	"gameEventType": {
+		"april": {
+			"eng": "April",
+			"trans": "April"
+		},
+		"august": {
+			"eng": "August",
+			"trans": "Agustus"
+		},
+		"chineseNewYear": {
+			"eng": "Chinese New Year",
+			"trans": "Tahun Baru Imlek"
+		},
+		"christmas": {
+			"eng": "Christmas",
+			"trans": "Natal"
+		},
+		"crystal": {
+			"eng": "Crystal",
+			"trans": "Kristal"
+		},
+		"halloween": {
+			"eng": "Halloween",
+			"trans": "Halloween"
+		},
+		"july": {
+			"eng": "July",
+			"trans": "Juli"
+		},
+		"june": {
+			"eng": "June",
+			"trans": "Juni"
+		},
+		"may": {
+			"eng": "May",
+			"trans": "Mei"
+		},
+		"sakura": {
+			"eng": "Sakura",
+			"trans": "Sakura"
+		},
+		"september": {
+			"eng": "September",
+			"trans": "September"
+		},
+		"thanksgiving": {
+			"eng": "Thanksgiving",
+			"trans": "Hari Bersyukur"
+		}
+	},
 	"gang": {
 		"createError": {
 			"notEnoughMoney": {
@@ -3025,6 +3163,38 @@
 		"button": {
 			"eng": "Sign in with Google",
 			"trans": "Masuk dengan Google"
+		}
+	},
+	"guestLinkModal": {
+		"cancel": {
+			"eng": "Later",
+			"trans": "Nanti"
+		},
+		"description": {
+			"eng": "Please link your account to finish signing up to use this feature",
+			"trans": "Silakan tautkan akun Anda untuk menyelesaikan pendaftaran dan menggunakan fitur ini"
+		},
+		"linkAccount": {
+			"eng": "Finish Sign up",
+			"trans": "Selesaikan Pendaftaran"
+		},
+		"premiumPurchase": {
+			"eng": "To prevent accidental lost of your top-up, please finish signing up so you may login to your account at any time",
+			"trans": "Untuk mencegah kehilangan saldo top-up Anda secara tidak sengaja, silakan selesaikan pendaftaran agar Anda dapat masuk ke akun Anda kapan saja"
+		},
+		"tip": {
+			"eng": "You can use a fake email if you have privacy concerns, but you will not be able to receive reset password emails, so please remember your email and password.",
+			"trans": "Anda dapat menggunakan email palsu jika Anda memiliki kekhawatiran tentang privasi, tetapi Anda tidak akan dapat menerima email reset kata sandi, jadi harap ingat email dan kata sandi Anda."
+		},
+		"title": {
+			"eng": "Functionality not available for guest accounts",
+			"trans": "Fungsi ini tidak tersedia untuk akun tamu"
+		}
+	},
+	"guestLoginButton": {
+		"title": {
+			"eng": "Guest Login",
+			"trans": "Login Tamu"
 		}
 	},
 	"healthSacrificePopup": {
@@ -3391,6 +3561,10 @@
 		"amount": {
 			"eng": "quantity ${amount}",
 			"trans": "Jumlah ${amount}"
+		},
+		"availableDuringEvent": {
+			"eng": "Event Item",
+			"trans": "Item Acara"
 		},
 		"destroyed": {
 			"eng": "destroyed",
@@ -3970,6 +4144,16 @@
 		}
 	},
 	"itemType": {
+		"autoFarmBoost": {
+			"description": {
+				"eng": "When used during auto gather, it will increase EXP gained by ${expPercent}% and increase the reward gained by ${rewardPercent}%\\nThis will be consumed after one auto gather cycle",
+				"trans": "Saat digunakan selama pengumpulan otomatis, ini akan meningkatkan EXP yang didapat sebesar ${expPercent}% dan meningkatkan hadiah yang didapat sebesar ${rewardPercent}%\\nIni akan terpakai setelah satu siklus pengumpulan otomatis"
+			},
+			"name": {
+				"eng": "Auto Gather Boost",
+				"trans": "Peningkatan Pengumpulan Otomatis"
+			}
+		},
 		"boots": {
 			"description": {
 				"eng": "A piece of equipment that protects the feet.",
@@ -4668,6 +4852,26 @@
 				"trans": "Pengutipan Teknologi"
 			}
 		},
+		"turkeyDinner": {
+			"description": {
+				"eng": "A traditional dish made from turkey meat, rice.",
+				"trans": "Hidangan tradisional yang terbuat dari daging kalkun, nasi."
+			},
+			"name": {
+				"eng": "Turkey Dinner",
+				"trans": "Makan Malam Kalkun"
+			}
+		},
+		"turkeyMeat": {
+			"description": {
+				"eng": "A synthetic turkey meat, can be used to craft turkey dinner.",
+				"trans": "Daging kalkun sintetis dapat digunakan untuk membuat makan malam kalkun."
+			},
+			"name": {
+				"eng": "Synthetic Turkey Meat",
+				"trans": "Daging Kalkun Sintetis"
+			}
+		},
 		"uncommonCalibrationSafety": {
 			"description": {
 				"eng": "Use to decrease chance of equipment destruction by ${percent}% when calibration failed",
@@ -5001,6 +5205,26 @@
 				"eng": "Thieving Level",
 				"trans": "Tingkat Pencurian"
 			}
+		}
+	},
+	"linkAccount": {
+		"description": {
+			"eng": "Make your guest account a permanent to keep your progress safe.",
+			"trans": "Jadikan akun tamu Anda permanen untuk menjaga kemajuan Anda tetap aman."
+		},
+		"email": {
+			"description": {
+				"eng": "You can use an fake email if you have privacy concerns, but you will not be able to receive reset password emails, so please remember your email and password.",
+				"trans": "Anda dapat menggunakan email palsu jika Anda memiliki kekhawatiran tentang privasi, tetapi Anda tidak akan dapat menerima email reset kata sandi, jadi harap ingat email dan kata sandi Anda."
+			}
+		},
+		"linkWithEmail": {
+			"eng": "Link with Email",
+			"trans": "Tautkan dengan Email"
+		},
+		"title": {
+			"eng": "Finish Signing Up",
+			"trans": "Selesaikan Pendaftaran"
 		}
 	},
 	"localEnemy": {
@@ -7097,8 +7321,8 @@
 			"trans": "Nama hanya dapat mengandung huruf, angka, dan garis bawah."
 		},
 		"tooLong": {
-			"eng": "Name must be at most ${max} characters long.",
-			"trans": "Nama harus maksimal ${max} karakter."
+			"eng": "Name must be less than or equal to ${max} characters long.",
+			"trans": "Nama harus kurang dari atau sama dengan ${max} karakter."
 		},
 		"tooShort": {
 			"eng": "Name must be at least ${min} characters long.",
@@ -8210,6 +8434,28 @@
 			}
 		}
 	},
+	"serverStatusDisplay": {
+		"noInternet": {
+			"message": {
+				"eng": "The app is unable to connect to the internet, please check your connection and try again",
+				"trans": "Aplikasi tidak dapat terhubung ke internet, silakan periksa koneksi Anda dan coba lagi"
+			},
+			"title": {
+				"eng": "No internet connection",
+				"trans": "Tidak ada koneksi internet"
+			}
+		},
+		"serverDown": {
+			"message": {
+				"eng": "We are working on an update, this usually takes only a few minutes.\\nThank you for your patience!",
+				"trans": "Kami sedang mengerjakan pembaruan, ini biasanya hanya memakan waktu beberapa menit.\\nTerima kasih atas kesabaran Anda!"
+			},
+			"title": {
+				"eng": "Server under maintenance",
+				"trans": "Server sedang dalam pemeliharaan"
+			}
+		}
+	},
 	"settings": {
 		"backgroundVolume": {
 			"eng": "Background music volume",
@@ -8218,6 +8464,14 @@
 		"deleteCharacter": {
 			"eng": "Delete character",
 			"trans": "Hapus karakter"
+		},
+		"enableAttackBarPopup": {
+			"eng": "Enable Attack Bar popup",
+			"trans": "Aktifkan popup Bar Serangan"
+		},
+		"enableAttackBarPopupDescription": {
+			"eng": "When enabled, the attack bar will move upwards when pressed, allowing you to see it clearer",
+			"trans": "Saat diaktifkan, bilah serangan akan bergerak ke atas saat ditekan, memungkinkan Anda untuk melihatnya dengan lebih jelas"
 		},
 		"enableBackgroundMusic": {
 			"eng": "Enable background music",
@@ -9228,6 +9482,26 @@
 			"eng": "Click here to toggle auto combat, which will allow you to attack enemies, use ability and heal automatically.",
 			"trans": "Klik di sini untuk mengaktifkan/menonaktifkan pertarungan otomatis, yang memungkinkan Anda untuk menyerang musuh, menggunakan kemampuan, dan memulihkan secara otomatis."
 		},
+		"autoFarm": {
+			"eng": "click here to start the auto gathering process",
+			"trans": "klik di sini untuk memulai proses pengumpulan otomatis"
+		},
+		"autoFarm1": {
+			"eng": "You can use auto gather to gain rewards and exp passively while leaving your device on",
+			"trans": "Anda dapat menggunakan pengumpulan otomatis untuk mendapatkan hadiah dan pengalaman secara pasif sambil membiarkan perangkat Anda menyala"
+		},
+		"autoFarmBoost": {
+			"eng": "Boost allow you to gain ${expPercent}% EXP and ${rewardPercent}% rewards, You can toggle to this to enable or disable boost during auto gather",
+			"trans": "Boost memungkinkan Anda untuk mendapatkan ${expPercent}% EXP dan ${rewardPercent}% hadiah. Anda dapat mengaktifkan atau menonaktifkan boost ini selama pengumpulan otomatis"
+		},
+		"autoFarmStop": {
+			"eng": "You can click here to stop at any time.",
+			"trans": "Anda bisa klik di sini untuk berhenti kapan saja."
+		},
+		"autoGatherRush": {
+			"eng": "Spam click here to fill the rush bar and get extra rewards!",
+			"trans": "Klik cepat di sini untuk mengisi bar rush dan dapatkan hadiah ekstra!"
+		},
 		"backToMainPage": {
 			"eng": "You can always go back to main screen from here.",
 			"trans": "Anda selalu dapat kembali ke layar utama dari sini."
@@ -9521,6 +9795,10 @@
 			}
 		},
 		"mainMenu": {
+			"account": {
+				"eng": "Account",
+				"trans": "Akun"
+			},
 			"blockedPlayer": {
 				"eng": "blocked",
 				"trans": "Diblokir"

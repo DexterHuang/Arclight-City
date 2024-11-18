@@ -243,6 +243,60 @@
 			"trans": "このアビリティはターゲットした1体の敵を対象とします。範囲攻撃よりも強力ですが、複数の敵に対しては効果が低くなります。"
 		}
 	},
+	"accountPage": {
+		"createdDate": {
+			"eng": "Created on ${date}",
+			"trans": "${date}に作成されました"
+		},
+		"deleteAccount": {
+			"confirm": {
+				"eng": "Enter \"${DELETE}\" here to confirm",
+				"trans": "ここに\"${DELETE}\"を入力して確認してください"
+			},
+			"confirmError": {
+				"eng": "You must type \"${delete}\" to confirm",
+				"trans": "\"${delete}\"と入力して確認してください"
+			},
+			"eng": "Delete Account",
+			"title": {
+				"eng": "Danger Zone",
+				"trans": "デンジャーゾーン"
+			},
+			"trans": "アカウントを削除する",
+			"warning": {
+				"eng": "This action is irreversible and will permanently delete your account and all associated data. Proceed with caution.",
+				"trans": "この操作は元に戻せず、あなたのアカウントと関連データが永久に削除されます。慎重に進めてください。"
+			}
+		},
+		"linkApple": {
+			"success": {
+				"eng": "Account successfully linked with Apple Account",
+				"trans": "Appleアカウントとのリンクが成功しました"
+			}
+		},
+		"linkEmail": {
+			"failed": {
+				"eng": "Failed to link account: ${error}",
+				"trans": "アカウントのリンクに失敗しました: ${error}"
+			},
+			"success": {
+				"eng": "Account successfully linked with email",
+				"trans": "メールとアカウントが正常にリンクされました"
+			}
+		},
+		"linkError": {
+			"alreadyInUse": {
+				"eng": "Cannot link account with this credential because it is already associated with another account",
+				"trans": "この認証情報は別のアカウントに既に関連付けられているため、アカウントをリンクできません。"
+			}
+		},
+		"linkGoogle": {
+			"success": {
+				"eng": "Account successfully linked with Google Account",
+				"trans": "Googleアカウントとのリンクが成功しました"
+			}
+		}
+	},
 	"apartment": {
 		"apartment0": {
 			"displayName": {
@@ -504,9 +558,9 @@
 		}
 	},
 	"autoFarm": {
-		"finish": {
-			"eng": "Interrupt Auto Gather",
-			"trans": "オート収集を中断する"
+		"interrupt": {
+			"eng": "Interrupt",
+			"trans": "中断"
 		},
 		"level": {
 			"eng": "Gathering Zone:",
@@ -515,6 +569,10 @@
 		"rewards": {
 			"eng": "Gathered Rewards",
 			"trans": "獲得した報酬"
+		},
+		"rush": {
+			"eng": "Rush",
+			"trans": "ラッシュ"
 		},
 		"start": {
 			"eng": "Start",
@@ -988,6 +1046,32 @@
 			"title": {
 				"eng": "Unleash Power",
 				"trans": "パワーを解き放て"
+			}
+		},
+		"november": {
+			"description": {
+				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
+				"trans": "21日間、さまざまな報酬を受け取り、22日目には${itemName}を手に入れよう！"
+			},
+			"pass1": {
+				"name": {
+					"eng": "Basic",
+					"trans": "基本"
+				}
+			},
+			"pass2": {
+				"name": {
+					"eng": "Advanced",
+					"trans": "アドバンスド"
+				}
+			},
+			"subtitle": {
+				"eng": "November Package",
+				"trans": "11月パッケージ"
+			},
+			"title": {
+				"eng": "Battle Pass",
+				"trans": "バトルパス"
 			}
 		},
 		"sakura": {
@@ -2378,6 +2462,10 @@
 				"trans": "レベル"
 			}
 		},
+		"loading": {
+			"eng": "Connecting to lobby...",
+			"trans": "ロビーに接続中..."
+		},
 		"playerModal": {
 			"kick": {
 				"eng": "kick",
@@ -2925,6 +3013,56 @@
 			"trans": "プロフィールを表示する"
 		}
 	},
+	"gameEventType": {
+		"april": {
+			"eng": "April",
+			"trans": "4月"
+		},
+		"august": {
+			"eng": "August",
+			"trans": "8月"
+		},
+		"chineseNewYear": {
+			"eng": "Chinese New Year",
+			"trans": "春節"
+		},
+		"christmas": {
+			"eng": "Christmas",
+			"trans": "クリスマス"
+		},
+		"crystal": {
+			"eng": "Crystal",
+			"trans": "クリスタル"
+		},
+		"halloween": {
+			"eng": "Halloween",
+			"trans": "ハロウィン"
+		},
+		"july": {
+			"eng": "July",
+			"trans": "7月"
+		},
+		"june": {
+			"eng": "June",
+			"trans": "6月"
+		},
+		"may": {
+			"eng": "May",
+			"trans": "5月"
+		},
+		"sakura": {
+			"eng": "Sakura",
+			"trans": "桜"
+		},
+		"september": {
+			"eng": "September",
+			"trans": "9月"
+		},
+		"thanksgiving": {
+			"eng": "Thanksgiving",
+			"trans": "感謝祭"
+		}
+	},
 	"gang": {
 		"createError": {
 			"notEnoughMoney": {
@@ -3025,6 +3163,38 @@
 		"button": {
 			"eng": "Sign in with Google",
 			"trans": "Googleでサインインする"
+		}
+	},
+	"guestLinkModal": {
+		"cancel": {
+			"eng": "Later",
+			"trans": "後で"
+		},
+		"description": {
+			"eng": "Please link your account to finish signing up to use this feature",
+			"trans": "この機能を利用するには、アカウントをリンクしてサインアップを完了してください。"
+		},
+		"linkAccount": {
+			"eng": "Finish Sign up",
+			"trans": "サインアップを完了する"
+		},
+		"premiumPurchase": {
+			"eng": "To prevent accidental lost of your top-up, please finish signing up so you may login to your account at any time",
+			"trans": "トップアップの誤っての喪失を防ぐために、サインアップを完了させて、いつでもアカウントにログインできるようにしてください。"
+		},
+		"tip": {
+			"eng": "You can use a fake email if you have privacy concerns, but you will not be able to receive reset password emails, so please remember your email and password.",
+			"trans": "プライバシーに懸念がある場合は、偽のメールアドレスを使用できますが、パスワードリセットのメールを受け取ることができなくなるので、メールアドレスとパスワードを忘れないようにしてください。"
+		},
+		"title": {
+			"eng": "Functionality not available for guest accounts",
+			"trans": "ゲストアカウントではこの機能は利用できません。"
+		}
+	},
+	"guestLoginButton": {
+		"title": {
+			"eng": "Guest Login",
+			"trans": "ゲストログイン"
 		}
 	},
 	"healthSacrificePopup": {
@@ -3391,6 +3561,10 @@
 		"amount": {
 			"eng": "quantity ${amount}",
 			"trans": "数量 ${amount}"
+		},
+		"availableDuringEvent": {
+			"eng": "Event Item",
+			"trans": "イベントアイテム"
 		},
 		"destroyed": {
 			"eng": "destroyed",
@@ -3970,6 +4144,16 @@
 		}
 	},
 	"itemType": {
+		"autoFarmBoost": {
+			"description": {
+				"eng": "When used during auto gather, it will increase EXP gained by ${expPercent}% and increase the reward gained by ${rewardPercent}%\\nThis will be consumed after one auto gather cycle",
+				"trans": "自動収集中に使用すると、獲得する経験値が${expPercent}%増加し、得られる報酬が${rewardPercent}%増加します。\\nこれは1回の自動収集サイクルの後に消費されます。"
+			},
+			"name": {
+				"eng": "Auto Gather Boost",
+				"trans": "オート収集ブースト"
+			}
+		},
 		"boots": {
 			"description": {
 				"eng": "A piece of equipment that protects the feet.",
@@ -4668,6 +4852,26 @@
 				"trans": "テックスクラップ"
 			}
 		},
+		"turkeyDinner": {
+			"description": {
+				"eng": "A traditional dish made from turkey meat, rice.",
+				"trans": "七面鳥の肉と米を使った伝統的な料理。"
+			},
+			"name": {
+				"eng": "Turkey Dinner",
+				"trans": "ターキーディナー"
+			}
+		},
+		"turkeyMeat": {
+			"description": {
+				"eng": "A synthetic turkey meat, can be used to craft turkey dinner.",
+				"trans": "合成ターキー肉は、ターキー・ディナーを作るために使用できます。"
+			},
+			"name": {
+				"eng": "Synthetic Turkey Meat",
+				"trans": "合成ターキー肉"
+			}
+		},
 		"uncommonCalibrationSafety": {
 			"description": {
 				"eng": "Use to decrease chance of equipment destruction by ${percent}% when calibration failed",
@@ -5001,6 +5205,26 @@
 				"eng": "Thieving Level",
 				"trans": "窃盗レベル"
 			}
+		}
+	},
+	"linkAccount": {
+		"description": {
+			"eng": "Make your guest account a permanent to keep your progress safe.",
+			"trans": "ゲストアカウントを永久にして、進行状況を安全に保ちましょう。"
+		},
+		"email": {
+			"description": {
+				"eng": "You can use an fake email if you have privacy concerns, but you will not be able to receive reset password emails, so please remember your email and password.",
+				"trans": "プライバシーに懸念がある場合は、偽のメールアドレスを使用できますが、パスワードリセットのメールを受け取ることができなくなるので、メールアドレスとパスワードを忘れないようにしてください。"
+			}
+		},
+		"linkWithEmail": {
+			"eng": "Link with Email",
+			"trans": "メールでリンクする"
+		},
+		"title": {
+			"eng": "Finish Signing Up",
+			"trans": "サインアップを完了する"
 		}
 	},
 	"localEnemy": {
@@ -7097,8 +7321,8 @@
 			"trans": "名前には、文字、数字、アンダースコアしか含めることができません。"
 		},
 		"tooLong": {
-			"eng": "Name must be at most ${max} characters long.",
-			"trans": "名前は最大${max}文字までです。"
+			"eng": "Name must be less than or equal to ${max} characters long.",
+			"trans": "名前は${max}文字以下でなければなりません。"
 		},
 		"tooShort": {
 			"eng": "Name must be at least ${min} characters long.",
@@ -8210,6 +8434,28 @@
 			}
 		}
 	},
+	"serverStatusDisplay": {
+		"noInternet": {
+			"message": {
+				"eng": "The app is unable to connect to the internet, please check your connection and try again",
+				"trans": "アプリがインターネットに接続できません。接続を確認して、再試行してください。"
+			},
+			"title": {
+				"eng": "No internet connection",
+				"trans": "インターネット接続がありません"
+			}
+		},
+		"serverDown": {
+			"message": {
+				"eng": "We are working on an update, this usually takes only a few minutes.\\nThank you for your patience!",
+				"trans": "アップデート作業中です。通常、数分で完了します。\\nご理解いただきありがとうございます！"
+			},
+			"title": {
+				"eng": "Server under maintenance",
+				"trans": "サーバーはメンテナンス中です"
+			}
+		}
+	},
 	"settings": {
 		"backgroundVolume": {
 			"eng": "Background music volume",
@@ -8218,6 +8464,14 @@
 		"deleteCharacter": {
 			"eng": "Delete character",
 			"trans": "キャラクターを削除します。"
+		},
+		"enableAttackBarPopup": {
+			"eng": "Enable Attack Bar popup",
+			"trans": "攻撃バーのポップアップを有効にする"
+		},
+		"enableAttackBarPopupDescription": {
+			"eng": "When enabled, the attack bar will move upwards when pressed, allowing you to see it clearer",
+			"trans": "有効にすると、攻撃バーが押されたときに上に移動し、より見やすくなります。"
 		},
 		"enableBackgroundMusic": {
 			"eng": "Enable background music",
@@ -9228,6 +9482,26 @@
 			"eng": "Click here to toggle auto combat, which will allow you to attack enemies, use ability and heal automatically.",
 			"trans": "自動戦闘を切り替えるにはここを選択してください。これにより、自動で敵を攻撃したり、アビリティを使用したり、回復することができます。"
 		},
+		"autoFarm": {
+			"eng": "click here to start the auto gathering process",
+			"trans": "ここをクリックして自動収集プロセスを開始してください"
+		},
+		"autoFarm1": {
+			"eng": "You can use auto gather to gain rewards and exp passively while leaving your device on",
+			"trans": "デバイスをオンにしたまま、自動収集を利用して報酬と経験値をパッシブに獲得できます。"
+		},
+		"autoFarmBoost": {
+			"eng": "Boost allow you to gain ${expPercent}% EXP and ${rewardPercent}% rewards, You can toggle to this to enable or disable boost during auto gather",
+			"trans": "ブーストを使用すると、${expPercent}%の経験値と${rewardPercent}%の報酬を獲得できます。この設定を切り替えることで、自動収集中にブーストを有効または無効にできます。"
+		},
+		"autoFarmStop": {
+			"eng": "You can click here to stop at any time.",
+			"trans": "いつでもここをクリックして停止できます。"
+		},
+		"autoGatherRush": {
+			"eng": "Spam click here to fill the rush bar and get extra rewards!",
+			"trans": "急いで報酬を得るために、ここを連打してラッシュバーを満たそう！"
+		},
 		"backToMainPage": {
 			"eng": "You can always go back to main screen from here.",
 			"trans": "ここからいつでもメイン画面に戻ることができます。"
@@ -9521,6 +9795,10 @@
 			}
 		},
 		"mainMenu": {
+			"account": {
+				"eng": "Account",
+				"trans": "アカウント"
+			},
 			"blockedPlayer": {
 				"eng": "blocked",
 				"trans": "ブロック"

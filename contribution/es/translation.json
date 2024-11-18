@@ -243,6 +243,60 @@
 			"trans": "Esta habilidad es de un solo objetivo y se dirigirá a un enemigo. Este tipo de habilidad suele ser más fuerte que las habilidades de varios objetivos; sin embargo, sería menos efectiva contra varios enemigos."
 		}
 	},
+	"accountPage": {
+		"createdDate": {
+			"eng": "Created on ${date}",
+			"trans": "Creado el ${date}"
+		},
+		"deleteAccount": {
+			"confirm": {
+				"eng": "Enter \"${DELETE}\" here to confirm",
+				"trans": "Ingresa \"${DELETE}\" aquí para confirmar"
+			},
+			"confirmError": {
+				"eng": "You must type \"${delete}\" to confirm",
+				"trans": "Debes escribir \"${delete}\" para confirmar"
+			},
+			"eng": "Delete Account",
+			"title": {
+				"eng": "Danger Zone",
+				"trans": "Zona de Peligro"
+			},
+			"trans": "Eliminar cuenta",
+			"warning": {
+				"eng": "This action is irreversible and will permanently delete your account and all associated data. Proceed with caution.",
+				"trans": "Esta acción es irreversible y eliminará permanentemente tu cuenta y todos los datos asociados. Procede con precaución."
+			}
+		},
+		"linkApple": {
+			"success": {
+				"eng": "Account successfully linked with Apple Account",
+				"trans": "Cuenta vinculada con éxito a la cuenta de Apple"
+			}
+		},
+		"linkEmail": {
+			"failed": {
+				"eng": "Failed to link account: ${error}",
+				"trans": "Error al vincular la cuenta: ${error}"
+			},
+			"success": {
+				"eng": "Account successfully linked with email",
+				"trans": "Cuenta vinculada con éxito al correo electrónico"
+			}
+		},
+		"linkError": {
+			"alreadyInUse": {
+				"eng": "Cannot link account with this credential because it is already associated with another account",
+				"trans": "No se puede vincular la cuenta con estas credenciales porque ya está asociada a otra cuenta"
+			}
+		},
+		"linkGoogle": {
+			"success": {
+				"eng": "Account successfully linked with Google Account",
+				"trans": "Cuenta vinculada con éxito a la cuenta de Google"
+			}
+		}
+	},
 	"apartment": {
 		"apartment0": {
 			"displayName": {
@@ -504,9 +558,9 @@
 		}
 	},
 	"autoFarm": {
-		"finish": {
-			"eng": "Interrupt Auto Gather",
-			"trans": "Interrumpir Recolección Automática"
+		"interrupt": {
+			"eng": "Interrupt",
+			"trans": "Interrumpir"
 		},
 		"level": {
 			"eng": "Gathering Zone:",
@@ -515,6 +569,10 @@
 		"rewards": {
 			"eng": "Gathered Rewards",
 			"trans": "Recompensas Recolectadas"
+		},
+		"rush": {
+			"eng": "Rush",
+			"trans": "Rush"
 		},
 		"start": {
 			"eng": "Start",
@@ -988,6 +1046,32 @@
 			"title": {
 				"eng": "Unleash Power",
 				"trans": "Desatar Poder"
+			}
+		},
+		"november": {
+			"description": {
+				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
+				"trans": "Recibe varias recompensas diarias durante 21 días, y hasta ${itemName} en el día 22"
+			},
+			"pass1": {
+				"name": {
+					"eng": "Basic",
+					"trans": "Básico"
+				}
+			},
+			"pass2": {
+				"name": {
+					"eng": "Advanced",
+					"trans": "Avanzado"
+				}
+			},
+			"subtitle": {
+				"eng": "November Package",
+				"trans": "Paquete de noviembre"
+			},
+			"title": {
+				"eng": "Battle Pass",
+				"trans": "Pase de Batalla"
 			}
 		},
 		"sakura": {
@@ -2378,6 +2462,10 @@
 				"trans": "nivel"
 			}
 		},
+		"loading": {
+			"eng": "Connecting to lobby...",
+			"trans": "Conectando al lobby..."
+		},
 		"playerModal": {
 			"kick": {
 				"eng": "kick",
@@ -2925,6 +3013,56 @@
 			"trans": "Ver Perfil"
 		}
 	},
+	"gameEventType": {
+		"april": {
+			"eng": "April",
+			"trans": "Abril"
+		},
+		"august": {
+			"eng": "August",
+			"trans": "Agosto"
+		},
+		"chineseNewYear": {
+			"eng": "Chinese New Year",
+			"trans": "Año Nuevo Chino"
+		},
+		"christmas": {
+			"eng": "Christmas",
+			"trans": "Navidad"
+		},
+		"crystal": {
+			"eng": "Crystal",
+			"trans": "Cristal"
+		},
+		"halloween": {
+			"eng": "Halloween",
+			"trans": "Halloween"
+		},
+		"july": {
+			"eng": "July",
+			"trans": "Julio"
+		},
+		"june": {
+			"eng": "June",
+			"trans": "Junio"
+		},
+		"may": {
+			"eng": "May",
+			"trans": "Mayo"
+		},
+		"sakura": {
+			"eng": "Sakura",
+			"trans": "Sakura"
+		},
+		"september": {
+			"eng": "September",
+			"trans": "Septiembre"
+		},
+		"thanksgiving": {
+			"eng": "Thanksgiving",
+			"trans": "Día de Acción de Gracias"
+		}
+	},
 	"gang": {
 		"createError": {
 			"notEnoughMoney": {
@@ -3025,6 +3163,38 @@
 		"button": {
 			"eng": "Sign in with Google",
 			"trans": "Iniciar sesión con Google"
+		}
+	},
+	"guestLinkModal": {
+		"cancel": {
+			"eng": "Later",
+			"trans": "Más tarde"
+		},
+		"description": {
+			"eng": "Please link your account to finish signing up to use this feature",
+			"trans": "Por favor, vincula tu cuenta para completar el registro y poder utilizar esta función"
+		},
+		"linkAccount": {
+			"eng": "Finish Sign up",
+			"trans": "Completar registro"
+		},
+		"premiumPurchase": {
+			"eng": "To prevent accidental lost of your top-up, please finish signing up so you may login to your account at any time",
+			"trans": "Para evitar la pérdida accidental de tu recarga, por favor completa el registro para que puedas iniciar sesión en tu cuenta en cualquier momento"
+		},
+		"tip": {
+			"eng": "You can use a fake email if you have privacy concerns, but you will not be able to receive reset password emails, so please remember your email and password.",
+			"trans": "Puedes utilizar un correo electrónico falso si tienes preocupaciones de privacidad, pero no podrás recibir correos electrónicos para restablecer la contraseña, así que recuerda tu correo y contraseña."
+		},
+		"title": {
+			"eng": "Functionality not available for guest accounts",
+			"trans": "Funcionalidad no disponible para cuentas de invitado"
+		}
+	},
+	"guestLoginButton": {
+		"title": {
+			"eng": "Guest Login",
+			"trans": "Inicio de sesión como invitado"
 		}
 	},
 	"healthSacrificePopup": {
@@ -3391,6 +3561,10 @@
 		"amount": {
 			"eng": "quantity ${amount}",
 			"trans": "cantidad ${amount}"
+		},
+		"availableDuringEvent": {
+			"eng": "Event Item",
+			"trans": "Artículo de Evento"
 		},
 		"destroyed": {
 			"eng": "destroyed",
@@ -3970,6 +4144,16 @@
 		}
 	},
 	"itemType": {
+		"autoFarmBoost": {
+			"description": {
+				"eng": "When used during auto gather, it will increase EXP gained by ${expPercent}% and increase the reward gained by ${rewardPercent}%\\nThis will be consumed after one auto gather cycle",
+				"trans": "Cuando se utiliza durante la recolección automática, aumentará la EXP ganada en un ${expPercent}% y aumentará la recompensa obtenida en un ${rewardPercent}%\\nEsto se consumirá después de un ciclo de recolección automática"
+			},
+			"name": {
+				"eng": "Auto Gather Boost",
+				"trans": "Aumento de Recolección Automática"
+			}
+		},
 		"boots": {
 			"description": {
 				"eng": "A piece of equipment that protects the feet.",
@@ -4668,6 +4852,26 @@
 				"trans": "Chatarra tecnológica"
 			}
 		},
+		"turkeyDinner": {
+			"description": {
+				"eng": "A traditional dish made from turkey meat, rice.",
+				"trans": "Un plato tradicional hecho de carne de pavo y arroz."
+			},
+			"name": {
+				"eng": "Turkey Dinner",
+				"trans": "Cena de pavo"
+			}
+		},
+		"turkeyMeat": {
+			"description": {
+				"eng": "A synthetic turkey meat, can be used to craft turkey dinner.",
+				"trans": "La carne de pavo sintético se puede utilizar para crear una cena de pavo."
+			},
+			"name": {
+				"eng": "Synthetic Turkey Meat",
+				"trans": "Carne de pavo sintético"
+			}
+		},
 		"uncommonCalibrationSafety": {
 			"description": {
 				"eng": "Use to decrease chance of equipment destruction by ${percent}% when calibration failed",
@@ -5001,6 +5205,26 @@
 				"eng": "Thieving Level",
 				"trans": "Nivel de Robo"
 			}
+		}
+	},
+	"linkAccount": {
+		"description": {
+			"eng": "Make your guest account a permanent to keep your progress safe.",
+			"trans": "Haz que tu cuenta de invitado sea permanente para mantener tu progreso a salvo."
+		},
+		"email": {
+			"description": {
+				"eng": "You can use an fake email if you have privacy concerns, but you will not be able to receive reset password emails, so please remember your email and password.",
+				"trans": "Puedes utilizar un correo electrónico falso si tienes preocupaciones de privacidad, pero no podrás recibir correos electrónicos para restablecer la contraseña, así que recuerda tu correo y contraseña."
+			}
+		},
+		"linkWithEmail": {
+			"eng": "Link with Email",
+			"trans": "Enlace con correo electrónico"
+		},
+		"title": {
+			"eng": "Finish Signing Up",
+			"trans": "Completar el registro"
 		}
 	},
 	"localEnemy": {
@@ -7097,8 +7321,8 @@
 			"trans": "El nombre solo puede contener letras, números y guiones bajos."
 		},
 		"tooLong": {
-			"eng": "Name must be at most ${max} characters long.",
-			"trans": "El nombre debe tener como máximo ${max} caracteres."
+			"eng": "Name must be less than or equal to ${max} characters long.",
+			"trans": "El nombre debe tener una longitud menor o igual a ${max} caracteres."
 		},
 		"tooShort": {
 			"eng": "Name must be at least ${min} characters long.",
@@ -8210,6 +8434,28 @@
 			}
 		}
 	},
+	"serverStatusDisplay": {
+		"noInternet": {
+			"message": {
+				"eng": "The app is unable to connect to the internet, please check your connection and try again",
+				"trans": "La aplicación no puede conectarse a Internet, por favor verifica tu conexión y vuelve a intentarlo"
+			},
+			"title": {
+				"eng": "No internet connection",
+				"trans": "Sin conexión a Internet"
+			}
+		},
+		"serverDown": {
+			"message": {
+				"eng": "We are working on an update, this usually takes only a few minutes.\\nThank you for your patience!",
+				"trans": "Estamos trabajando en una actualización, esto suele tardar solo unos minutos.\\n¡Gracias por tu paciencia!"
+			},
+			"title": {
+				"eng": "Server under maintenance",
+				"trans": "Servidor en mantenimiento"
+			}
+		}
+	},
 	"settings": {
 		"backgroundVolume": {
 			"eng": "Background music volume",
@@ -8218,6 +8464,14 @@
 		"deleteCharacter": {
 			"eng": "Delete character",
 			"trans": "Borrar personaje"
+		},
+		"enableAttackBarPopup": {
+			"eng": "Enable Attack Bar popup",
+			"trans": "Habilitar el popup de la barra de ataque"
+		},
+		"enableAttackBarPopupDescription": {
+			"eng": "When enabled, the attack bar will move upwards when pressed, allowing you to see it clearer",
+			"trans": "Cuando está habilitada, la barra de ataque se moverá hacia arriba al presionarla, permitiéndote verla más claramente"
 		},
 		"enableBackgroundMusic": {
 			"eng": "Enable background music",
@@ -9228,6 +9482,26 @@
 			"eng": "Click here to toggle auto combat, which will allow you to attack enemies, use ability and heal automatically.",
 			"trans": "Haz clic aquí para alternar el combate automático, que te permitirá atacar enemigos, usar habilidades y curarte automáticamente."
 		},
+		"autoFarm": {
+			"eng": "click here to start the auto gathering process",
+			"trans": "haz clic aquí para comenzar el proceso de recolección automática"
+		},
+		"autoFarm1": {
+			"eng": "You can use auto gather to gain rewards and exp passively while leaving your device on",
+			"trans": "Puedes utilizar la recolección automática para obtener recompensas y experiencia de forma pasiva mientras dejas tu dispositivo encendido"
+		},
+		"autoFarmBoost": {
+			"eng": "Boost allow you to gain ${expPercent}% EXP and ${rewardPercent}% rewards, You can toggle to this to enable or disable boost during auto gather",
+			"trans": "El impulso te permite ganar un ${expPercent}% de EXP y un ${rewardPercent}% de recompensas. Puedes activar o desactivar esta opción para habilitar o deshabilitar el impulso durante la recolección automática"
+		},
+		"autoFarmStop": {
+			"eng": "You can click here to stop at any time.",
+			"trans": "Puedes hacer clic aquí para detenerte en cualquier momento."
+		},
+		"autoGatherRush": {
+			"eng": "Spam click here to fill the rush bar and get extra rewards!",
+			"trans": "¡Haz clic aquí repetidamente para llenar la barra de prisa y obtener recompensas extra!"
+		},
 		"backToMainPage": {
 			"eng": "You can always go back to main screen from here.",
 			"trans": "Puedes volver siempre a la pantalla principal desde aquí."
@@ -9521,6 +9795,10 @@
 			}
 		},
 		"mainMenu": {
+			"account": {
+				"eng": "Account",
+				"trans": "Cuenta"
+			},
 			"blockedPlayer": {
 				"eng": "blocked",
 				"trans": "bloqueado"

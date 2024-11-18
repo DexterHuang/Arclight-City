@@ -243,6 +243,60 @@
 			"trans": "이 능력은 단일 대상으로, 이러한 종류의 능력은 일반적으로 다중 대상 능력보다 강력하지만, 여러 적에 대해서는 효과가 떨어질 수 있습니다."
 		}
 	},
+	"accountPage": {
+		"createdDate": {
+			"eng": "Created on ${date}",
+			"trans": "${date}에 생성됨"
+		},
+		"deleteAccount": {
+			"confirm": {
+				"eng": "Enter \"${DELETE}\" here to confirm",
+				"trans": "여기에 \"${DELETE}\"를 입력하여 확인하세요"
+			},
+			"confirmError": {
+				"eng": "You must type \"${delete}\" to confirm",
+				"trans": "\"${delete}\"를 입력하여 확인해야 합니다"
+			},
+			"eng": "Delete Account",
+			"title": {
+				"eng": "Danger Zone",
+				"trans": "위험 지역"
+			},
+			"trans": "계정 삭제",
+			"warning": {
+				"eng": "This action is irreversible and will permanently delete your account and all associated data. Proceed with caution.",
+				"trans": "이 작업은 되돌릴 수 없으며 귀하의 계정과 모든 관련 데이터가 영구적으로 삭제됩니다. 신중하게 진행하세요."
+			}
+		},
+		"linkApple": {
+			"success": {
+				"eng": "Account successfully linked with Apple Account",
+				"trans": "Apple 계정과 성공적으로 연결되었습니다"
+			}
+		},
+		"linkEmail": {
+			"failed": {
+				"eng": "Failed to link account: ${error}",
+				"trans": "계정 연결 실패: ${error}"
+			},
+			"success": {
+				"eng": "Account successfully linked with email",
+				"trans": "계정이 이메일과 성공적으로 연결되었습니다"
+			}
+		},
+		"linkError": {
+			"alreadyInUse": {
+				"eng": "Cannot link account with this credential because it is already associated with another account",
+				"trans": "이 자격 증명으로 계정을 연결할 수 없습니다. 이미 다른 계정과 연결되어 있습니다"
+			}
+		},
+		"linkGoogle": {
+			"success": {
+				"eng": "Account successfully linked with Google Account",
+				"trans": "계정이 Google 계정과 성공적으로 연결되었습니다"
+			}
+		}
+	},
 	"apartment": {
 		"apartment0": {
 			"displayName": {
@@ -504,9 +558,9 @@
 		}
 	},
 	"autoFarm": {
-		"finish": {
-			"eng": "Interrupt Auto Gather",
-			"trans": "자동 수집 중단"
+		"interrupt": {
+			"eng": "Interrupt",
+			"trans": "중단"
 		},
 		"level": {
 			"eng": "Gathering Zone:",
@@ -515,6 +569,10 @@
 		"rewards": {
 			"eng": "Gathered Rewards",
 			"trans": "모은 보상"
+		},
+		"rush": {
+			"eng": "Rush",
+			"trans": "돌진"
 		},
 		"start": {
 			"eng": "Start",
@@ -988,6 +1046,32 @@
 			"title": {
 				"eng": "Unleash Power",
 				"trans": "힘 해방"
+			}
+		},
+		"november": {
+			"description": {
+				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
+				"trans": "21일 동안 매일 다양한 보상을 받고, 22일째에는 최대 ${itemName}을(를) 받으세요"
+			},
+			"pass1": {
+				"name": {
+					"eng": "Basic",
+					"trans": "기본"
+				}
+			},
+			"pass2": {
+				"name": {
+					"eng": "Advanced",
+					"trans": "고급"
+				}
+			},
+			"subtitle": {
+				"eng": "November Package",
+				"trans": "11월 패키지"
+			},
+			"title": {
+				"eng": "Battle Pass",
+				"trans": "배틀 패스"
 			}
 		},
 		"sakura": {
@@ -2378,6 +2462,10 @@
 				"trans": "레벨"
 			}
 		},
+		"loading": {
+			"eng": "Connecting to lobby...",
+			"trans": "로비에 연결 중..."
+		},
 		"playerModal": {
 			"kick": {
 				"eng": "kick",
@@ -2925,6 +3013,56 @@
 			"trans": "프로필 보기"
 		}
 	},
+	"gameEventType": {
+		"april": {
+			"eng": "April",
+			"trans": "4월"
+		},
+		"august": {
+			"eng": "August",
+			"trans": "8월"
+		},
+		"chineseNewYear": {
+			"eng": "Chinese New Year",
+			"trans": "중국 설날"
+		},
+		"christmas": {
+			"eng": "Christmas",
+			"trans": "크리스마스"
+		},
+		"crystal": {
+			"eng": "Crystal",
+			"trans": "크리스탈"
+		},
+		"halloween": {
+			"eng": "Halloween",
+			"trans": "할로윈"
+		},
+		"july": {
+			"eng": "July",
+			"trans": "7월"
+		},
+		"june": {
+			"eng": "June",
+			"trans": "6월"
+		},
+		"may": {
+			"eng": "May",
+			"trans": "May"
+		},
+		"sakura": {
+			"eng": "Sakura",
+			"trans": "사쿠라"
+		},
+		"september": {
+			"eng": "September",
+			"trans": "9월"
+		},
+		"thanksgiving": {
+			"eng": "Thanksgiving",
+			"trans": "추수감사절"
+		}
+	},
 	"gang": {
 		"createError": {
 			"notEnoughMoney": {
@@ -3025,6 +3163,38 @@
 		"button": {
 			"eng": "Sign in with Google",
 			"trans": "구글로 로그인하기"
+		}
+	},
+	"guestLinkModal": {
+		"cancel": {
+			"eng": "Later",
+			"trans": "나중에"
+		},
+		"description": {
+			"eng": "Please link your account to finish signing up to use this feature",
+			"trans": "이 기능을 사용하려면 계정을 연결하여 가입을 완료하세요"
+		},
+		"linkAccount": {
+			"eng": "Finish Sign up",
+			"trans": "가입 완료"
+		},
+		"premiumPurchase": {
+			"eng": "To prevent accidental lost of your top-up, please finish signing up so you may login to your account at any time",
+			"trans": "우발적인 충전 손실을 방지하기 위해, 가입 절차를 완료하여 언제든지 계정에 로그인할 수 있도록 해주세요"
+		},
+		"tip": {
+			"eng": "You can use a fake email if you have privacy concerns, but you will not be able to receive reset password emails, so please remember your email and password.",
+			"trans": "개인정보 보호에 대한 우려가 있다면 가짜 이메일을 사용할 수 있지만, 비밀번호 재설정 이메일을 받을 수 없으니 이메일과 비밀번호를 꼭 기억해 두세요."
+		},
+		"title": {
+			"eng": "Functionality not available for guest accounts",
+			"trans": "게스트 계정에서는 이 기능을 사용할 수 없습니다"
+		}
+	},
+	"guestLoginButton": {
+		"title": {
+			"eng": "Guest Login",
+			"trans": "게스트 로그인"
 		}
 	},
 	"healthSacrificePopup": {
@@ -3391,6 +3561,10 @@
 		"amount": {
 			"eng": "quantity ${amount}",
 			"trans": "수량 ${amount}"
+		},
+		"availableDuringEvent": {
+			"eng": "Event Item",
+			"trans": "이벤트 아이템"
 		},
 		"destroyed": {
 			"eng": "destroyed",
@@ -3970,6 +4144,16 @@
 		}
 	},
 	"itemType": {
+		"autoFarmBoost": {
+			"description": {
+				"eng": "When used during auto gather, it will increase EXP gained by ${expPercent}% and increase the reward gained by ${rewardPercent}%\\nThis will be consumed after one auto gather cycle",
+				"trans": "자동 채집 중 사용하면 경험치가 ${expPercent}% 증가하고 보상이 ${rewardPercent}% 증가합니다.\\n이 아이템은 한 번의 자동 채집 사이클 후 소모됩니다"
+			},
+			"name": {
+				"eng": "Auto Gather Boost",
+				"trans": "자동 수집 부스트"
+			}
+		},
 		"boots": {
 			"description": {
 				"eng": "A piece of equipment that protects the feet.",
@@ -4668,6 +4852,26 @@
 				"trans": "공학 조각"
 			}
 		},
+		"turkeyDinner": {
+			"description": {
+				"eng": "A traditional dish made from turkey meat, rice.",
+				"trans": "칠면조 고기와 밥으로 만든 전통 요리."
+			},
+			"name": {
+				"eng": "Turkey Dinner",
+				"trans": "칠면조 저녁식사"
+			}
+		},
+		"turkeyMeat": {
+			"description": {
+				"eng": "A synthetic turkey meat, can be used to craft turkey dinner.",
+				"trans": "합성 칠면조 고기로, 칠면조 저녁을 만드는 데 사용할 수 있습니다."
+			},
+			"name": {
+				"eng": "Synthetic Turkey Meat",
+				"trans": "합성 칠면조 고기"
+			}
+		},
 		"uncommonCalibrationSafety": {
 			"description": {
 				"eng": "Use to decrease chance of equipment destruction by ${percent}% when calibration failed",
@@ -5001,6 +5205,26 @@
 				"eng": "Thieving Level",
 				"trans": "도둑질 레벨"
 			}
+		}
+	},
+	"linkAccount": {
+		"description": {
+			"eng": "Make your guest account a permanent to keep your progress safe.",
+			"trans": "게스트 계정을 영구적으로 만들어 진행 상황을 안전하게 유지하세요."
+		},
+		"email": {
+			"description": {
+				"eng": "You can use an fake email if you have privacy concerns, but you will not be able to receive reset password emails, so please remember your email and password.",
+				"trans": "개인정보 보호에 대한 우려가 있다면 가짜 이메일을 사용할 수 있지만, 비밀번호 재설정 이메일을 받을 수 없으니 이메일과 비밀번호를 꼭 기억해 두세요."
+			}
+		},
+		"linkWithEmail": {
+			"eng": "Link with Email",
+			"trans": "이메일로 연결하기"
+		},
+		"title": {
+			"eng": "Finish Signing Up",
+			"trans": "가입 완료하기"
 		}
 	},
 	"localEnemy": {
@@ -7097,8 +7321,8 @@
 			"trans": "이름에는 문자, 숫자 그리고 밑줄만 사용할 수 있습니다."
 		},
 		"tooLong": {
-			"eng": "Name must be at most ${max} characters long.",
-			"trans": "이름은 최대 ${max}자까지 가능합니다."
+			"eng": "Name must be less than or equal to ${max} characters long.",
+			"trans": "이름은 ${max}자 이하이어야 합니다."
 		},
 		"tooShort": {
 			"eng": "Name must be at least ${min} characters long.",
@@ -8210,6 +8434,28 @@
 			}
 		}
 	},
+	"serverStatusDisplay": {
+		"noInternet": {
+			"message": {
+				"eng": "The app is unable to connect to the internet, please check your connection and try again",
+				"trans": "앱이 인터넷에 연결할 수 없습니다. 연결 상태를 확인하고 다시 시도해 주세요"
+			},
+			"title": {
+				"eng": "No internet connection",
+				"trans": "인터넷 연결이 없습니다"
+			}
+		},
+		"serverDown": {
+			"message": {
+				"eng": "We are working on an update, this usually takes only a few minutes.\\nThank you for your patience!",
+				"trans": "업데이트 작업 중입니다. 보통 몇 분 정도 소요됩니다.\\n기다려 주셔서 감사합니다!"
+			},
+			"title": {
+				"eng": "Server under maintenance",
+				"trans": "서버 점검 중입니다"
+			}
+		}
+	},
 	"settings": {
 		"backgroundVolume": {
 			"eng": "Background music volume",
@@ -8218,6 +8464,14 @@
 		"deleteCharacter": {
 			"eng": "Delete character",
 			"trans": "캐릭터 삭제"
+		},
+		"enableAttackBarPopup": {
+			"eng": "Enable Attack Bar popup",
+			"trans": "공격 바 팝업 활성화"
+		},
+		"enableAttackBarPopupDescription": {
+			"eng": "When enabled, the attack bar will move upwards when pressed, allowing you to see it clearer",
+			"trans": "활성화되면 공격 바가 눌렸을 때 위로 올라가 더 잘 보이게 됩니다"
 		},
 		"enableBackgroundMusic": {
 			"eng": "Enable background music",
@@ -9228,6 +9482,26 @@
 			"eng": "Click here to toggle auto combat, which will allow you to attack enemies, use ability and heal automatically.",
 			"trans": "여기를 클릭하면 자동 전투를 전환할 수 있습니다. 이를 통해 자동을 적을 공격하고 능력을 사용하고 치료할 수 있습니다."
 		},
+		"autoFarm": {
+			"eng": "click here to start the auto gathering process",
+			"trans": "여기를 클릭하여 자동 수집 프로세스를 시작하세요"
+		},
+		"autoFarm1": {
+			"eng": "You can use auto gather to gain rewards and exp passively while leaving your device on",
+			"trans": "자동 수집 기능을 사용하면 기기를 켜둔 채로 보상과 경험치를 수동으로 얻을 수 있습니다"
+		},
+		"autoFarmBoost": {
+			"eng": "Boost allow you to gain ${expPercent}% EXP and ${rewardPercent}% rewards, You can toggle to this to enable or disable boost during auto gather",
+			"trans": "부스트를 사용하면 ${expPercent}% 경험치와 ${rewardPercent}% 보상을 얻을 수 있습니다. 자동 수집 중 부스트를 활성화하거나 비활성화하려면 이 옵션을 전환할 수 있습니다"
+		},
+		"autoFarmStop": {
+			"eng": "You can click here to stop at any time.",
+			"trans": "언제든지 여기 클릭하여 중지할 수 있습니다."
+		},
+		"autoGatherRush": {
+			"eng": "Spam click here to fill the rush bar and get extra rewards!",
+			"trans": "여기를 스팸 클릭하여 러시 바를 채우고 추가 보상을 받으세요!"
+		},
 		"backToMainPage": {
 			"eng": "You can always go back to main screen from here.",
 			"trans": "여기서 언제든지 메인 화면으로 돌아갈 수 있습니다."
@@ -9521,6 +9795,10 @@
 			}
 		},
 		"mainMenu": {
+			"account": {
+				"eng": "Account",
+				"trans": "계정"
+			},
 			"blockedPlayer": {
 				"eng": "blocked",
 				"trans": "차단됨"
