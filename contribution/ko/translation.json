@@ -675,6 +675,10 @@
 		"inProgress": {
 			"eng": "Task in progress...",
 			"trans": "진행 중인 작업..."
+		},
+		"instantFinish": {
+			"eng": "Finish Now",
+			"trans": "지금 끝내기"
 		}
 	},
 	"backgroundTaskPage": {
@@ -3183,8 +3187,8 @@
 			"trans": "우발적인 충전 손실을 방지하기 위해, 가입 절차를 완료하여 언제든지 계정에 로그인할 수 있도록 해주세요"
 		},
 		"tip": {
-			"eng": "You can use a fake email if you have privacy concerns, but you will not be able to receive reset password emails, so please remember your email and password.",
-			"trans": "개인정보 보호에 대한 우려가 있다면 가짜 이메일을 사용할 수 있지만, 비밀번호 재설정 이메일을 받을 수 없으니 이메일과 비밀번호를 꼭 기억해 두세요."
+			"eng": "You are welcome to use a fake email as your account email if you have privacy concerns",
+			"trans": "개인 정보 보호에 대한 우려가 있다면 가짜 이메일을 계정 이메일로 사용하셔도 됩니다"
 		},
 		"title": {
 			"eng": "Functionality not available for guest accounts",
@@ -5209,13 +5213,21 @@
 	},
 	"linkAccount": {
 		"description": {
-			"eng": "Make your guest account a permanent to keep your progress safe.",
-			"trans": "게스트 계정을 영구적으로 만들어 진행 상황을 안전하게 유지하세요."
+			"eng": "Make your guest account permanent to prevent accidental loss of progress.",
+			"trans": "게스트 계정을 영구적으로 만들어 진행 상황이 우연히 손실되는 것을 방지하세요."
 		},
 		"email": {
-			"description": {
-				"eng": "You can use an fake email if you have privacy concerns, but you will not be able to receive reset password emails, so please remember your email and password.",
-				"trans": "개인정보 보호에 대한 우려가 있다면 가짜 이메일을 사용할 수 있지만, 비밀번호 재설정 이메일을 받을 수 없으니 이메일과 비밀번호를 꼭 기억해 두세요."
+			"description1": {
+				"eng": "You can use an fake email if you have privacy concerns",
+				"trans": "개인정보 보호에 대한 우려가 있다면 가짜 이메일을 사용할 수 있습니다"
+			},
+			"descriptionPopover": {
+				"eng": "but you will not be able to receive reset password emails, so please remember your email and password.",
+				"trans": "하지만 비밀번호 재설정 이메일을 받을 수 없으니, 이메일과 비밀번호를 꼭 기억해 주세요."
+			},
+			"title": {
+				"eng": "Email & Password",
+				"trans": "이메일 & 비밀번호"
 			}
 		},
 		"linkWithEmail": {

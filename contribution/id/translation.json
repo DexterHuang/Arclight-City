@@ -675,6 +675,10 @@
 		"inProgress": {
 			"eng": "Task in progress...",
 			"trans": "Tugas sedang berlangsung..."
+		},
+		"instantFinish": {
+			"eng": "Finish Now",
+			"trans": "Selesaikan Sekarang"
 		}
 	},
 	"backgroundTaskPage": {
@@ -3183,8 +3187,8 @@
 			"trans": "Untuk mencegah kehilangan saldo top-up Anda secara tidak sengaja, silakan selesaikan pendaftaran agar Anda dapat masuk ke akun Anda kapan saja"
 		},
 		"tip": {
-			"eng": "You can use a fake email if you have privacy concerns, but you will not be able to receive reset password emails, so please remember your email and password.",
-			"trans": "Anda dapat menggunakan email palsu jika Anda memiliki kekhawatiran tentang privasi, tetapi Anda tidak akan dapat menerima email reset kata sandi, jadi harap ingat email dan kata sandi Anda."
+			"eng": "You are welcome to use a fake email as your account email if you have privacy concerns",
+			"trans": "Anda dipersilakan untuk menggunakan email palsu sebagai email akun Anda jika Anda memiliki kekhawatiran tentang privasi"
 		},
 		"title": {
 			"eng": "Functionality not available for guest accounts",
@@ -5209,13 +5213,21 @@
 	},
 	"linkAccount": {
 		"description": {
-			"eng": "Make your guest account a permanent to keep your progress safe.",
-			"trans": "Jadikan akun tamu Anda permanen untuk menjaga kemajuan Anda tetap aman."
+			"eng": "Make your guest account permanent to prevent accidental loss of progress.",
+			"trans": "Buat akun tamu Anda permanen untuk mencegah kehilangan kemajuan secara tidak sengaja."
 		},
 		"email": {
-			"description": {
-				"eng": "You can use an fake email if you have privacy concerns, but you will not be able to receive reset password emails, so please remember your email and password.",
-				"trans": "Anda dapat menggunakan email palsu jika Anda memiliki kekhawatiran tentang privasi, tetapi Anda tidak akan dapat menerima email reset kata sandi, jadi harap ingat email dan kata sandi Anda."
+			"description1": {
+				"eng": "You can use an fake email if you have privacy concerns",
+				"trans": "Anda dapat menggunakan email palsu jika Anda memiliki kekhawatiran tentang privasi"
+			},
+			"descriptionPopover": {
+				"eng": "but you will not be able to receive reset password emails, so please remember your email and password.",
+				"trans": "tapi kamu tidak akan bisa menerima email reset kata sandi, jadi harap ingat email dan kata sandimu."
+			},
+			"title": {
+				"eng": "Email & Password",
+				"trans": "Email & Kata Sandi"
 			}
 		},
 		"linkWithEmail": {

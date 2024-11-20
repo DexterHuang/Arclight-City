@@ -6,6 +6,17 @@
 
 **If you find an exploit please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
+### 0.0.64
+
+-  Improved power saving mode
+-  Some optimizations on rendering
+-  Minor bug fixes
+-  Added account page, accounts can now be deleted permanently leaving no private info or any backup at all.
+-  You can now finish AFK task immediately even after started
+-  Now when you click on other player's mercenary you will directly go to the mercenary details page instead of opening up a popup
+-  Auto Gather can now be exchanged from shop
+
+
 ### 0.0.63
 
 -  Now attack bar will popup when pressing, avoiding the bar being blocked by your finger

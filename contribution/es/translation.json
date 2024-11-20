@@ -675,6 +675,10 @@
 		"inProgress": {
 			"eng": "Task in progress...",
 			"trans": "Tarea en progreso..."
+		},
+		"instantFinish": {
+			"eng": "Finish Now",
+			"trans": "Termina ahora"
 		}
 	},
 	"backgroundTaskPage": {
@@ -3183,8 +3187,8 @@
 			"trans": "Para evitar la pérdida accidental de tu recarga, por favor completa el registro para que puedas iniciar sesión en tu cuenta en cualquier momento"
 		},
 		"tip": {
-			"eng": "You can use a fake email if you have privacy concerns, but you will not be able to receive reset password emails, so please remember your email and password.",
-			"trans": "Puedes utilizar un correo electrónico falso si tienes preocupaciones de privacidad, pero no podrás recibir correos electrónicos para restablecer la contraseña, así que recuerda tu correo y contraseña."
+			"eng": "You are welcome to use a fake email as your account email if you have privacy concerns",
+			"trans": "Puedes usar un correo electrónico falso como tu correo de cuenta si tienes preocupaciones de privacidad"
 		},
 		"title": {
 			"eng": "Functionality not available for guest accounts",
@@ -5209,13 +5213,21 @@
 	},
 	"linkAccount": {
 		"description": {
-			"eng": "Make your guest account a permanent to keep your progress safe.",
-			"trans": "Haz que tu cuenta de invitado sea permanente para mantener tu progreso a salvo."
+			"eng": "Make your guest account permanent to prevent accidental loss of progress.",
+			"trans": "Haz que tu cuenta de invitado sea permanente para evitar la pérdida accidental de progreso."
 		},
 		"email": {
-			"description": {
-				"eng": "You can use an fake email if you have privacy concerns, but you will not be able to receive reset password emails, so please remember your email and password.",
-				"trans": "Puedes utilizar un correo electrónico falso si tienes preocupaciones de privacidad, pero no podrás recibir correos electrónicos para restablecer la contraseña, así que recuerda tu correo y contraseña."
+			"description1": {
+				"eng": "You can use an fake email if you have privacy concerns",
+				"trans": "Puedes utilizar un correo electrónico falso si tienes preocupaciones de privacidad"
+			},
+			"descriptionPopover": {
+				"eng": "but you will not be able to receive reset password emails, so please remember your email and password.",
+				"trans": "pero no podrás recibir correos electrónicos para restablecer la contraseña, así que recuerda tu correo electrónico y contraseña."
+			},
+			"title": {
+				"eng": "Email & Password",
+				"trans": "Correo electrónico y contraseña"
 			}
 		},
 		"linkWithEmail": {

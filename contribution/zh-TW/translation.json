@@ -675,6 +675,10 @@
 		"inProgress": {
 			"eng": "Task in progress...",
 			"trans": "任務進行中..."
+		},
+		"instantFinish": {
+			"eng": "Finish Now",
+			"trans": "現在完成"
 		}
 	},
 	"backgroundTaskPage": {
@@ -3183,8 +3187,8 @@
 			"trans": "為了避免意外失去您的充值，請完成註冊，以便您隨時登入您的帳戶。"
 		},
 		"tip": {
-			"eng": "You can use a fake email if you have privacy concerns, but you will not be able to receive reset password emails, so please remember your email and password.",
-			"trans": "如果您有隱私顧慮，可以使用假電子郵件，但您將無法接收重設密碼的電子郵件，因此請記住您的電子郵件和密碼。"
+			"eng": "You are welcome to use a fake email as your account email if you have privacy concerns",
+			"trans": "如果您有隱私顧慮，歡迎使用假電子郵件作為您的帳戶電子郵件。"
 		},
 		"title": {
 			"eng": "Functionality not available for guest accounts",
@@ -5209,13 +5213,21 @@
 	},
 	"linkAccount": {
 		"description": {
-			"eng": "Make your guest account a permanent to keep your progress safe.",
-			"trans": "將您的訪客帳號轉換為永久帳號，以保護您的進度。"
+			"eng": "Make your guest account permanent to prevent accidental loss of progress.",
+			"trans": "將您的訪客帳號轉為永久帳號，以防止意外丟失進度。"
 		},
 		"email": {
-			"description": {
-				"eng": "You can use an fake email if you have privacy concerns, but you will not be able to receive reset password emails, so please remember your email and password.",
-				"trans": "如果您有隱私顧慮，可以使用假電子郵件，但您將無法接收重設密碼的電子郵件，因此請記住您的電子郵件和密碼。"
+			"description1": {
+				"eng": "You can use an fake email if you have privacy concerns",
+				"trans": "如果你有隱私顧慮，可以使用假電子郵件。"
+			},
+			"descriptionPopover": {
+				"eng": "but you will not be able to receive reset password emails, so please remember your email and password.",
+				"trans": "但您將無法收到重設密碼的電子郵件，因此請記住您的電子郵件和密碼。"
+			},
+			"title": {
+				"eng": "Email & Password",
+				"trans": "電子郵件與密碼"
 			}
 		},
 		"linkWithEmail": {

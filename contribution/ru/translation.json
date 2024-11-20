@@ -675,6 +675,10 @@
 		"inProgress": {
 			"eng": "Task in progress...",
 			"trans": "Задача в процессе..."
+		},
+		"instantFinish": {
+			"eng": "Finish Now",
+			"trans": "Закончить сейчас"
 		}
 	},
 	"backgroundTaskPage": {
@@ -3183,8 +3187,8 @@
 			"trans": "Чтобы избежать случайной потери вашего пополнения, пожалуйста, завершите регистрацию, чтобы вы могли в любое время войти в свой аккаунт"
 		},
 		"tip": {
-			"eng": "You can use a fake email if you have privacy concerns, but you will not be able to receive reset password emails, so please remember your email and password.",
-			"trans": "Вы можете использовать фейковый адрес электронной почты, если у вас есть опасения по поводу конфиденциальности, но вы не сможете получать письма для сброса пароля, поэтому, пожалуйста, запомните свой адрес электронной почты и пароль."
+			"eng": "You are welcome to use a fake email as your account email if you have privacy concerns",
+			"trans": "Вы можете использовать фейковый адрес электронной почты в качестве адреса вашей учетной записи, если у вас есть опасения по поводу конфиденциальности"
 		},
 		"title": {
 			"eng": "Functionality not available for guest accounts",
@@ -5209,13 +5213,21 @@
 	},
 	"linkAccount": {
 		"description": {
-			"eng": "Make your guest account a permanent to keep your progress safe.",
-			"trans": "Сделайте свою гостевую учетную запись постоянной, чтобы сохранить свой прогресс в безопасности."
+			"eng": "Make your guest account permanent to prevent accidental loss of progress.",
+			"trans": "Сделайте свою учетную запись гостя постоянной, чтобы избежать случайной потери прогресса."
 		},
 		"email": {
-			"description": {
-				"eng": "You can use an fake email if you have privacy concerns, but you will not be able to receive reset password emails, so please remember your email and password.",
-				"trans": "Вы можете использовать фейковый email, если у вас есть опасения по поводу конфиденциальности, но вы не сможете получать письма для сброса пароля, поэтому, пожалуйста, запомните свой email и пароль."
+			"description1": {
+				"eng": "You can use an fake email if you have privacy concerns",
+				"trans": "Вы можете использовать поддельный адрес электронной почты, если у вас есть опасения по поводу конфиденциальности"
+			},
+			"descriptionPopover": {
+				"eng": "but you will not be able to receive reset password emails, so please remember your email and password.",
+				"trans": "но вы не сможете получать письма для сброса пароля, поэтому, пожалуйста, запомните свой адрес электронной почты и пароль."
+			},
+			"title": {
+				"eng": "Email & Password",
+				"trans": "Электронная почта и пароль"
 			}
 		},
 		"linkWithEmail": {

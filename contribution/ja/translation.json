@@ -675,6 +675,10 @@
 		"inProgress": {
 			"eng": "Task in progress...",
 			"trans": "タスク進行中..."
+		},
+		"instantFinish": {
+			"eng": "Finish Now",
+			"trans": "今すぐ終了"
 		}
 	},
 	"backgroundTaskPage": {
@@ -3183,8 +3187,8 @@
 			"trans": "トップアップの誤っての喪失を防ぐために、サインアップを完了させて、いつでもアカウントにログインできるようにしてください。"
 		},
 		"tip": {
-			"eng": "You can use a fake email if you have privacy concerns, but you will not be able to receive reset password emails, so please remember your email and password.",
-			"trans": "プライバシーに懸念がある場合は、偽のメールアドレスを使用できますが、パスワードリセットのメールを受け取ることができなくなるので、メールアドレスとパスワードを忘れないようにしてください。"
+			"eng": "You are welcome to use a fake email as your account email if you have privacy concerns",
+			"trans": "プライバシーに懸念がある場合は、アカウントのメールとして偽のメールアドレスを使用しても構いません。"
 		},
 		"title": {
 			"eng": "Functionality not available for guest accounts",
@@ -5209,13 +5213,21 @@
 	},
 	"linkAccount": {
 		"description": {
-			"eng": "Make your guest account a permanent to keep your progress safe.",
-			"trans": "ゲストアカウントを永久にして、進行状況を安全に保ちましょう。"
+			"eng": "Make your guest account permanent to prevent accidental loss of progress.",
+			"trans": "ゲストアカウントを永久にすることで、進行状況の誤っての喪失を防ぎましょう。"
 		},
 		"email": {
-			"description": {
-				"eng": "You can use an fake email if you have privacy concerns, but you will not be able to receive reset password emails, so please remember your email and password.",
-				"trans": "プライバシーに懸念がある場合は、偽のメールアドレスを使用できますが、パスワードリセットのメールを受け取ることができなくなるので、メールアドレスとパスワードを忘れないようにしてください。"
+			"description1": {
+				"eng": "You can use an fake email if you have privacy concerns",
+				"trans": "プライバシーに懸念がある場合は、偽のメールアドレスを使用できます。"
+			},
+			"descriptionPopover": {
+				"eng": "but you will not be able to receive reset password emails, so please remember your email and password.",
+				"trans": "ただし、パスワードリセットのメールを受け取ることができないため、メールアドレスとパスワードを必ず覚えておいてください。"
+			},
+			"title": {
+				"eng": "Email & Password",
+				"trans": "メールアドレスとパスワード"
 			}
 		},
 		"linkWithEmail": {
