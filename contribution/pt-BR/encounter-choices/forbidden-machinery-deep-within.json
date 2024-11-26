@@ -1,0 +1,20 @@
+{
+  "story": "You're navigating through the dimly lit corridors of the gang stronghold when you stumble upon a room filled with row upon row of humming servers and machinery. The air is thick with the smell of burning circuits and ozone. In the center of the room, a large, cylindrical device pulsates with energy, emitting a low hum that seems to be synchronizing with the machines around it. Suddenly, the device's lights begin to flash rapidly, and the machines start to malfunction.",
+  "actions": [
+    {
+      "action": "Attempt to shut down the device",
+      "good": "You manage to disable the device, and the machines return to their normal functions. As a reward, you find a hidden compartment containing a valuable item. Your quick thinking has saved the day!",
+      "bad": "Your attempt to shut down the device triggers a chain reaction of explosions. The room is now filled with debris, and you take damage while trying to escape."
+    },
+    {
+      "action": "Try to access the servers",
+      "good": "You hack into the servers and gain valuable information about the gang's operations. You find a hidden stash of items, including a rare upgrade for your cyberdeck. Your hacking skills have paid off!",
+      "bad": "Your attempt to access the servers triggers an automatic security response. Firewalls and intrusion detection systems activate, and you take damage while trying to navigate through the digital maze."
+    },
+    {
+      "action": "Get out of there!",
+      "good": "You quickly exit the room, avoiding the chaos that's unfolding. As you emerge from the corridor, you find a hidden passage leading to a secret stash of items. Your escape has been rewarded.",
+      "bad": "In your haste to leave, you accidentally trigger a trapdoor. You fall into a hidden pit, and take damage while trying to climb out. The loot remains out of reach."
+    }
+  ]
+}

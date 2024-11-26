@@ -1,0 +1,20 @@
+{
+  "story": "You find yourself standing in front of a large, metallic elevator in the gang's stronghold. The doors are closed, but you can hear the faint whirring of machinery coming from within. You've been told that this elevator leads to a secret storage area, but you'll need to figure out how to access it.",
+  "actions": [
+    {
+      "action": "Try to force the elevator open",
+      "good": "You manage to pry the doors open, revealing a dimly lit room filled with rows of shelves stocked with valuable items. Your strength and determination pay off.",
+      "bad": "Your efforts to force the elevator open trigger a safety mechanism, causing the doors to slam shut and deal you some damage. The loot remains hidden from view."
+    },
+    {
+      "action": "Look for a hidden button or control panel to activate the elevator",
+      "good": "After searching the area, you find a small, discreet button that activates the elevator's systems. You gain access to the storage area and discover some valuable items.",
+      "bad": "Your search for a hidden button triggers a security system, causing the lights in the room to flicker and deal you some damage. The loot remains out of reach."
+    },
+    {
+      "action": "Use your knowledge of the stronghold's layout to find an alternative route to the storage area",
+      "good": "You navigate through the corridors, using your knowledge of the stronghold's layout to find a hidden passage that leads directly to the storage area. You discover some valuable items and feel proud of your ingenuity.",
+      "bad": "While navigating through the corridors, you get lost in the maze-like layout of the stronghold. You stumble upon a dead end and take some damage before finding your way back to the elevator."
+    }
+  ]
+}

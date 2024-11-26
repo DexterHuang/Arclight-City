@@ -1,0 +1,20 @@
+{
+  "story": "You find yourself in a dimly lit room filled with old machinery and scattered tools. The air is thick with the smell of grease and ozone. In the center of the room stands an ancient-looking 3D printer, its metal frame covered in dust and cobwebs. What do you do?",
+  "actions": [
+    {
+      "action": "Attempt to interact with the 3D printer",
+      "good": "The 3D printer whirs to life, and a small compartment opens, revealing a stash of valuable items. You take the loot.",
+      "bad": "Your attempt to interact with the 3D printer triggers an electrical shock. You take damage but manage to escape."
+    },
+    {
+      "action": "Search for a manual or instructions on how to use the 3D printer",
+      "good": "You find a hidden compartment containing a detailed manual and a set of specialized tools. With these, you successfully assemble a new component from the 3D printer.",
+      "bad": "Your search for a manual leads you to discover that the room has been compromised. You take damage as the area begins to fill with noxious gas."
+    },
+    {
+      "action": "Leave the room and explore other areas of the gang stronghold",
+      "good": "You successfully escape the room without triggering any alarms, finding new paths and opportunities to acquire valuable items.",
+      "bad": "As you leave the room, you accidentally trigger a hidden sensor. You take damage from an automatic takedown sequence initiated by the stronghold's security systems."
+    }
+  ]
+}

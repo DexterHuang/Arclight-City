@@ -1,0 +1,20 @@
+{
+  "story": "You find yourself in a dimly lit storage room deep within the gang's stronghold. The air is thick with dust and the smell of old machinery. As you scan the room, you notice a large crate in the center, adorned with warning signs and security seals. Suddenly, the sound of creaking metal echoes through the room, and the crate begins to shift.",
+  "actions": [
+    {
+      "action": "Attempt to pry the crate open",
+      "good": "With a bit of effort, you manage to loosen the seals and lift the lid. Inside, you find a stash of valuable items that the gang's leaders had been hiding.",
+      "bad": "As you try to force the crate open, it triggers a security mechanism that releases a cloud of noxious gas. You take damage from inhaling the fumes, but the crate remains closed."
+    },
+    {
+      "action": "Search for a way to disable the security seals",
+      "good": "After examining the crate and surrounding area, you find a hidden panel with a keypad. By hacking the keypad, you disable the security seals and gain access to the contents of the crate.",
+      "bad": "Your attempt to hack the keypad triggers an alarm that alerts the gang's leaders to your presence. You take damage from a stray bullet fired by one of their guards, but the crate remains sealed."
+    },
+    {
+      "action": "Try to move the crate",
+      "good": "With great effort, you manage to roll the crate out of the storage room and into a nearby corridor. As you investigate further, you discover that the crate is actually a hidden exit route for the gang's leaders. You find a stash of valuable items and help yourself.",
+      "bad": "Your attempt to move the crate triggers a trap that causes it to fall on top of you. You take damage from the impact, but the crate remains stationary."
+    }
+  ]
+}

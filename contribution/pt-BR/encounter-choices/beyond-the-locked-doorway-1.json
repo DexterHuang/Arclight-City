@@ -1,0 +1,20 @@
+{
+  "story": "You're faced with a massive steel door, its surface etched with intricate patterns and warning signs. The machinery humming around you grows louder, as if sensing your presence. What do you do?",
+  "actions": [
+    {
+      "action": "Try to disable the lock mechanism",
+      "good": "Your expertise in bypassing security systems pays off, and the lock disengages with a click. You push the door open, revealing a room filled with valuable items.",
+      "bad": "Your attempt to disable the lock triggers an automated response, and a nearby machine spews out a cloud of noxious gas, causing you damage."
+    },
+    {
+      "action": "Force the door open",
+      "good": "With a surge of adrenaline, you charge at the door and manage to pry it open. Inside, you find a stash of valuable items, but as you grab them, the machinery around you begins to malfunction.",
+      "bad": "Your brute strength triggers an overload in the machinery, causing it to short circuit and deal damage to you."
+    },
+    {
+      "action": "Investigate the warning signs on the door",
+      "good": "As you study the warning signs, you notice a hidden pattern that, when decoded, reveals a secret code. You use this code to unlock a nearby panel, which opens to reveal a cache of valuable items.",
+      "bad": "Your investigation triggers an alarm, and the machinery around you begins to move in a threatening manner, forcing you to retreat."
+    }
+  ]
+}

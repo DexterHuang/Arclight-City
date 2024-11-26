@@ -1,0 +1,20 @@
+{
+  "story": "You stumble upon a room filled with humming machinery. The air is thick with an otherworldly energy. You notice three devices emitting a pulsating glow. What do you do?",
+  "actions": [
+    {
+      "action": "Attempt to hack into the central device",
+      "good": "Your hacking skills bypass the security, granting you access to a hidden compartment containing valuable items.",
+      "bad": "Your attempt to hack triggers an automated response, and the devices begin to malfunction. You take damage from a nearby energy blast."
+    },
+    {
+      "action": "Force the devices open with brute strength",
+      "good": "With a show of great strength, you pry open one of the devices, revealing a stash of valuable items.",
+      "bad": "Your efforts trigger an explosion, and the room is filled with debris. You take damage, but manage to escape."
+    },
+    {
+      "action": "Carefully examine each device for hidden clues",
+      "good": "You discover a hidden panel on one of the devices, containing a cryptic message that leads you to a secret stash of valuable items.",
+      "bad": "While examining the devices, you accidentally trigger a trap. The room begins to fill with a toxic gas, and you take damage before escaping."
+    }
+  ]
+}

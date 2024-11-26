@@ -1,0 +1,20 @@
+{
+  "story": "You hear a faint hum of machinery coming from a nearby room. As you cautiously approach, you see a door with a blinking green light, indicating a locked area. What do you do?",
+  "actions": [
+    {
+      "action": "Hack the door's security panel",
+      "good": "Your skilled hacking abilities bypass the door's security, granting you access to a hidden stash of valuable items. Your technical know-how proves fruitful.",
+      "bad": "While attempting to hack the door, an alarm is triggered, causing the automated defense systems to activate. Laser grids appear and cause damage, but you manage to avoid them. The loot remains out of reach."
+    },
+    {
+      "action": "Forcefully break open the door",
+      "good": "With a display of brute strength, you crash through the door, revealing a concealed cache of valuable items. Your determination pays off.",
+      "bad": "As you forcefully break into the room, automated turrets emerge from the walls and fire upon you, causing damage. The loot remains out of reach."
+    },
+    {
+      "action": "Search for an alternate route",
+      "good": "Carefully exploring nearby corridors, you discover a hidden passage leading to the other side of the locked door. You successfully claim the gang's concealed stash and leave unnoticed.",
+      "bad": "While searching for an alternate route, you accidentally step on a pressure plate, triggering a concealed trap. Poisonous gas begins to fill the corridor, causing damage before you narrowly escape. The loot remains out of reach."
+    }
+  ]
+}

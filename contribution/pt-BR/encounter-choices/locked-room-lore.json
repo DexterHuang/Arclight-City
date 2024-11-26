@@ -1,0 +1,20 @@
+{
+  "story": "You hear whispers echoing through the maze-like tunnels. As you follow their trail, you come across a door with a biometric scanner. What do you do?",
+  "actions": [
+    {
+      "action": "Scan your fingerprint to bypass the security",
+      "good": "The scanner recognizes your identity and grants you access to a hidden room filled with rare components and resources. Your knowledge of biometrics pays off.",
+      "bad": "Your fingerprint is not recognized, triggering an alarm. The sound attracts nearby turrets that begin to fire at you, causing damage. The loot remains out of reach."
+    },
+    {
+      "action": "Hack the scanner's system",
+      "good": "With your exceptional hacking skills, you bypass the biometric security and gain access to a hidden room loaded with rare components and resources. Your tech prowess proves valuable once again.",
+      "bad": "Your attempt to hack into the scanner's system triggers an alarm. The sound alerts nearby turrets that begin firing at you, causing damage. You narrowly escape, leaving the loot out of reach."
+    },
+    {
+      "action": "Find a way around the biometric lock",
+      "good": "Exploring the surrounding area, you discover a hidden passage leading to the door's alternate route. You pass through undetected and claim the rare components and resources.",
+      "bad": "In your search for an alternate route, you accidentally set off a concealed trap that releases poisonous gas. The thick fog obscures your vision, causing damage before you narrowly escape. The loot remains out of reach."
+    }
+  ]
+}

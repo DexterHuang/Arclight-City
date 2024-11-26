@@ -1,0 +1,20 @@
+{
+  "story": "You find yourself standing before an old, mysterious computer, its screens glowing with an otherworldly light. The air is thick with the scent of ozone and burning circuits. You can feel the weight of the machine's power coursing through your veins. Suddenly, you hear a warning voice echoing from the computer's speakers, \"System breach imminent! Prepare for reboot sequence!\" What do you do?",
+  "actions": [
+    {
+      "action": "Attempt to interface directly with the computer using a nearby neural jack",
+      "good": "Your direct connection grants access to a hidden folder containing valuable data and items. You feel a surge of energy as you download the information.",
+      "bad": "The neural jack's power surges through your body, causing damage to your cybernetic implants. The system breach warning continues, and you're unsure what other consequences await."
+    },
+    {
+      "action": "Hack into the computer's mainframe using your cyberdeck",
+      "good": "Your hacking skills allow you to bypass the reboot sequence, and you gain access to a secret data stream containing valuable intel and items.",
+      "bad": "Your actions trigger a system-wide response, and you take damage from the computer's defensive protocols. The warning voice continues to echo through the room, and you're unsure what other dangers lie ahead."
+    },
+    {
+      "action": "Search the room for any physical clues or data storage devices",
+      "good": "You find a hidden console containing a valuable item and some cryptic notes that might aid in your future endeavors.",
+      "bad": "Your search disturbs a nearby trap, causing damage to your body and potentially revealing your presence to others."
+    }
+  ]
+}

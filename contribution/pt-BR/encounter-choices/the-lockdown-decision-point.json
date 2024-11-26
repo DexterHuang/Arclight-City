@@ -1,0 +1,20 @@
+{
+  "story": "You find yourself standing in front of a large, metallic elevator that appears to be stuck between floors. The indicator lights above the doors are flickering, casting an eerie glow over the area. You were on your way to a meeting with a high-ranking member of your gang when you stumbled upon this malfunctioning elevator. The doors are stuck, and there's no clear indication of how to proceed. The elevator is stuck between floors, but it looks like it might be accessible if you can find a way to bypass the safety mechanisms or disable the automatic shutdown sequence.",
+  "actions": [
+    {
+      "action": "Try to force the doors open with brute strength",
+      "good": "You manage to pry the doors open, revealing a hidden compartment containing valuable items. Your determination pays off.",
+      "bad": "Your efforts to force the doors open trigger an alarm, and automated security systems activate. You take damage as the elevator's safety mechanisms engage."
+    },
+    {
+      "action": " Attempt to hack the elevator's control panel",
+      "good": "You successfully bypass the safety protocols, and the elevator begins to move again. Inside, you find a stash of valuable items.",
+      "bad": "Your hacking attempt triggers an emergency shutdown sequence, and the elevator goes dark. You take damage as the automatic systems try to reinitialize."
+    },
+    {
+      "action": "Look for an alternate route around the stuck elevator",
+      "good": "You discover a hidden passage that allows you to bypass the elevator altogether. Inside, you find a valuable cache of items.",
+      "bad": "While searching for an alternate route, you get trapped in a narrow air vent. You take damage as you struggle to free yourself."
+    }
+  ]
+}
