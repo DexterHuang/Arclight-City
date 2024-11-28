@@ -10,6 +10,7 @@
 
 -  You will now receive notification to gang chat when other gang has taken control of a territory that you previous had control of, you can turn off this notification in setting
 -  You can upload a separate banner for image for horizontal display of your gang, it will be shown at the main screen and territory screen
+-  Fixed issue with message sometimes get delayed
 
 ### 0.0.64
 
