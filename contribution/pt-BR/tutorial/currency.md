@@ -1,17 +1,17 @@
-## What is Netcoin?
-Netcoin is a currency used for black market transactions and can be converted to Universal Dollars in a one-to-one ratio but cannot be converted back once converted.
+## O que é Netcoin?
+A Netcoin é uma moeda usada para transações no mercado negro e pode ser convertida em dólares universais em uma proporção de um para um, mas não pode ser convertida de volta depois de ter sido convertida.
 
-## How do I obtain Netcoin?
-You may get Netcoins by selling items in the black market or purchasing them from the premium store.
+## Como posso obter a Netcoin?
+Você pode obter Netcoins vendendo itens no mercado negro ou comprando-os na loja premium.
 
-## What is Universal Dollars?
-Universal Dollar is a valuable currency used to purchase various items in the game.
+## O que são Dólares Universais?
+Dólar Universal é uma moeda valiosa usada para comprar vários itens no jogo.
 
-## How do I obtain Universal Dollars?
-You may obtain Universal Dollars from:
-- Selling items in the Black Market and converting the earned Netcoin to Universal Dollars.
-- Purchasing Netcoin from the premium store and converting the Netcoin to Universal Dollars.
-- Earning them from various in-game activities such as daily rewards, surveys, and others.
+## Como faço para obter Dólares Universais?
+Você pode obter Dólares Universais em:
+- Vender itens no Mercado Negro e converter o Netcoin ganho em Dólares Universais.
+- Comprando Netcoin na loja premium e convertendo o Netcoin em Dólares Universais.
+- Ganhe-os em várias atividades no jogo, como recompensas diárias, pesquisas e outros.
 
-## What is Eurodollars?
-Eurodollars is a common currency used in Arclight City, and you will earn it just by doing almost anything in the game, such as defeating enemies or completing quests.
+## O que é Eurodólar?
+Eurodólares é uma moeda comum usada em Arclight City, e você a ganhará ao fazer quase tudo no jogo, como derrotar inimigos ou concluir missões.
