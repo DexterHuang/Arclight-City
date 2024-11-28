@@ -1,10 +1,10 @@
-## Whats calibration?
-You can calibrate your item to increase it's effectiveness.
-each time you upgrade there is a certain chance to fail or success, if the calibration failed there is a chance that your equipment will be destroyed, but that does not happen every time. Each time you calibrate your item, the difficulty of advancing to the next level of calibration becomes higher.
+## O que é a calibração?
+Você pode calibrar seu item para aumentar sua eficácia.
+Cada vez que você faz uma atualização, há uma certa chance de falha ou sucesso; se a calibração falhar, há uma chance de seu equipamento ser destruído, mas isso não acontece todas as vezes. Cada vez que você calibra o item, a dificuldade de avançar para o próximo nível de calibração aumenta.
 
-## Tips for calibration
-You can decrease the chance of destructive failure by using Calibration Circuit Breakers, each circuit breaker can decrease different amount of chance, so you should use depending on the current destructive failure chance shown.
+## Dicas para calibração
+Você pode diminuir a chance de falha destrutiva usando disjuntores de calibração. Cada disjuntor pode diminuir uma quantidade diferente de chance, portanto, você deve usá-lo dependendo da chance de falha destrutiva atual mostrada.
 
 
-## How to calibrate equipments?
-You may calibrate your item by going to the item details page -> Upgrade -> Calibrate tab.
+## Como calibrar os equipamentos?
+Você pode calibrar seu item acessando a página de detalhes do item -> Atualização -> aba Calibrar.
