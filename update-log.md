@@ -6,9 +6,14 @@
 
 **If you find an exploit please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
+### 0.0.65
+
+-  You will now receive notification to gang chat when other gang has taken control of a territory that you previous had control of, you can turn off this notification in setting
+-  You can upload a separate banner for image for horizontal display of your gang, it will be shown at the main screen and territory screen
+
 ### 0.0.64
 
--  Improved power saving mode
+-  Improved power-saving mode
 -  Some optimizations on rendering
 -  Minor bug fixes
 -  Added account page, accounts can now be deleted permanently leaving no private info or any backup at all.
