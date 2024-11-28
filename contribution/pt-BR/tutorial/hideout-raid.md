@@ -1,19 +1,19 @@
-### What is Hideout Raid?
+### O que é o Raid de Esconderijo?
 
-Hideout Raid is a feature that enables quick, small instant raids on gang hideouts. These raids necessitate either a `Hideout Locator` or an `Advanced Hideout Locator`.
+A Raid de Esconderijo é um recurso que permite invasões rápidas, pequenas e instantâneas em esconderijos de gangues. Essas invasões requerem um `Localizador de Esconderijo` ou um `Localizador de Esconderijo Avançado`.
 
-### How do I perform a Hideout Raid?
+### Como faço para realizar um Raid de Esconderijo?
 
-To initiate a Hideout Raid, click on the `Hideout Raid` button found on the stronghold selection page.
+Para iniciar uma Raid de Esconderijo, clique no botão `Raid de Esconderijo` encontrado na página de seleção da fortaleza.
 
-### Are there any requirements to perform a Hideout Raid?
+### Há algum requisito para realizar uma Raid de Esconderijo?
 
-Yes, there are prerequisites for conducting a Hideout Raid. You must have cleared a Hard Difficulty Stronghold with a level that is at least 2 levels higher than your character's level. This requirement is implemented to prevent players from solely leveling up through hideout raiding.
+Sim, há pré-requisitos para realizar uma Raid de Esconderijo. Você deve ter concluído uma fortaleza de dificuldade difícil com um nível que seja pelo menos 2 níveis mais alto do que o nível do seu personagem. Esse requisito foi implementado para evitar que os jogadores subam de nível somente por meio de raids de esconderijos.
 
-### How do I clear strongholds higher than my character's level?
+### Como faço para limpar fortalezas mais altas do que o nível do meu personagem?
 
-By default you can access strongholds equal to your character level, however you can access strongholds of higher level by clearing the hard difficulty stronghold a level below it. For example, if you are level 10, you can access strongholds of level 10 by default, however you can access strongholds of level 11 if you cleared the level 10 hard difficulty stronghold.
+Por padrão, você pode acessar fortalezas iguais ao seu nível de personagem, mas pode acessar fortalezas de nível mais alto ao eliminar a fortaleza de dificuldade difícil de um nível abaixo dela. Por exemplo, se você estiver no nível 10, poderá acessar as fortalezas de nível 10 por padrão, mas poderá acessar as fortalezas de nível 11 se tiver eliminado a fortaleza de dificuldade difícil de nível 10.
 
-### What are the rewards for Hideout Raids?
+### Quais são as recompensas das Raids de Esconderijos?
 
-Hideout Raids yield rewards such as experience points (exp) and eurodollars, alongside other bonuses. The amount of exp and eurodollars you receive scales in proportion to the enemies present in the stronghold at your character's level. The `Advanced Hideout Locator` offers superior rewards compared to the regular `Hideout Locator`.
+As Raids de Esconderijo rendem recompensas como pontos de experiência (exp) e eurodólares, além de outros bônus. A quantidade de exp e eurodólares que você recebe é proporcional aos inimigos presentes na fortaleza no nível do seu personagem. O `Localizador de Esconderijo Avançado` oferece recompensas superiores em comparação com o `Localizador de Esconderijo` normal.
