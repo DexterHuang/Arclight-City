@@ -1,17 +1,17 @@
 
-## What is Auto Gather?
-Auto gather allows you to enter an AFK mode to gather small amount of EXP and items passively without touching your phone, 
-When auto gather process is started, the game will reduce power consumption and screen will go dark to preserve battery allowing you to AFK for long period of time
+## O que é a Coleta Automática?
+A coleta automática permite que você entre no modo AFK para coletar pequenas quantidades de EXP e itens passivamente, sem tocar no telefone.
+Quando o processo de coleta automática for iniciado, o jogo reduzirá o consumo de energia e a tela ficará escura para preservar a bateria, permitindo que você fique AFK por um longo período de tempo.
 
-## What is Gathering Zones?
-Gathering zones are level for auto gathering, the higher level you are gathering at, the better rewards you will receive
+## O que são Zonas de Coleta?
+As zonas de coleta são niveladas para coleta automática. Quanto mais alto for o nível de coleta, melhores serão as recompensas recebidas.
 
 
-## How to unlock higher zones
-You can unlock higher gathering zone by clearing `Hard Difficulty Strongholds`, the gathering zone is the highest level Hard Stronghold you have cleared, but it cannot go higher than your character level
+## Como desbloquear zonas superiores
+Você pode desbloquear uma zona de coleta superior ao limpar `Fortalezas de Nível Difícil`A zona de coleta é a fortaleza difícil de nível mais alto que você tiver limpado, mas não pode ser mais alta do que o nível do seu personagem.
 
-## What is Auto Gathering for?
-Auto gathering is primarily designed to be used when you are busy in real-life or when you don't have time to play the game, allowing you to continue farming just by leaving your game open
+## Para que serve a Coleta Automática?
+A coleta automática foi projetada principalmente para ser usada quando você estiver ocupado na vida real ou quando não tiver tempo para jogar, permitindo que você continue cultivando apenas deixando o jogo aberto.
 
-## What is Auto Gather Rush?
-You can click on the rush button to fill up the rush bar, once the bar is full, you will get extra rewards at the next gather cycle
+## O que é a Coleta Rush Automática?
+Você pode clicar no botão rush para encher a barra de rush. Quando a barra estiver cheia, você receberá recompensas extras no próximo ciclo de coleta.
