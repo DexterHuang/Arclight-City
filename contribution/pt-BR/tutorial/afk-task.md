@@ -1,7 +1,7 @@
 
-## What does AFK tasks do?
-AFK tasks are tasks you can do in the background, you just need to wait a certain amount of time and when the task is completed, you simply click `Complete` to receive your rewards.
+## O que as tarefas AFK fazem?
+AAs tarefas AFK são tarefas que você pode realizar em segundo plano, basta esperar um determinado período de tempo e, quando a tarefa for concluída, basta clicar em `Concluir` para receber suas recompensas.
 
-## Jobs and AFK tasks
-Each type of job and job level has its own AFK tasks, by performing and completing the tasks, you will level up your corresponding job level, and intern receive slightly better reward and additional `Attribute Points` depending on the job type
+## Trabalhos e tarefas AFK
+Cada tipo de trabalho e nível de trabalho tem suas próprias tarefas AFK. Ao executar e concluir as tarefas, você subirá de nível no trabalho correspondente e receberá uma recompensa um pouco melhor e `Pontos de Atributo` adicionais, dependendo do tipo de trabalho.
 
