@@ -1,8 +1,8 @@
-## What is Inventory?
-Every adventurer has their own inventory, which can be used to store items and loot. Items stored in the inventory will not be lost when you die in strongholds.
+## O que é o Inventário?
+Cada aventureiro tem seu próprio inventário, que pode ser usado para armazenar itens e saques. Os itens armazenados no inventário não serão perdidos quando você morrer em fortalezas.
 
 
-## How do I increase inventory size?
-You can increase the number of slots in your inventory by following these methods:
-- Renting an apartment; higher-tier apartments come with a greater number of slots.
-- Upgrading your inventory by clicking the `+` button located next to the slot counter.
+## Como faço para aumentar o tamanho do inventário?
+Você pode aumentar o número de espaços em seu inventário seguindo estes métodos:
+- Alugar um apartamento; os apartamentos de nível mais alto vêm com um número maior de slots.
+- Atualizar seu inventário clicando no botão `+` localizado ao lado do contador de espaços.
