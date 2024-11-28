@@ -1,30 +1,30 @@
-## What is the Black Market?
-The Black Market is where players trade items using a Netcoins currency. This is one of the way to earn Netcoins; by selling items to other players.
+## O que é o Mercado Negro?
+O Mercado Negro é onde os jogadores negociam itens usando a moeda Netcoins. Essa é uma das maneiras de ganhar Netcoins; vendendo itens para outros jogadores.
 
 
-## Where is the Black Market?
-You can find the Black Market in the City Center.
+## Onde está o Mercado Negro?
+Você pode encontrar o Mercado Negro no centro da cidade.
 
 
-## How do I list an item on the Black Market?
-1. Interact with the Black Market NPC in the City Center.
-2. Choose "Show me my stuff on the market."
-3. Select an available slot to place your item.
-4. Pick an item from your inventory.
-5. Set a minimum bid price or a buyout price, and choose the auction duration.
+## Como faço para listar um item no Mercado Negro?
+1. Interaja com o NPC do Mercado Negro no centro da cidade.
+2. Escolha "Mostre-me meu material no mercado".
+3. Selecione um espaço disponível para colocar seu item.
+4. Escolha um item de seu inventário.
+5. Defina um preço mínimo de lance ou um preço de compra e escolha a duração do leilão.
 
 
-## What are the starting bid and buyout prices on the Black Market?
-- The **starting bid** is the lowest amount others can bid; suitable for maximum profit.
-- The **buyout price** is the fixed amount for instant purchase; suitable for quick sale if have good idea of the item's value.
+## Quais são os preços iniciais de compra e venda no Mercado Negro?
+- O **lance inicial** é o valor mais baixo que os outros podem oferecer; adequado para obter o lucro máximo.
+- O **preço de compra** é o valor fixo para compra imediata; adequado para venda rápida se você tiver uma boa ideia do valor do item.
 
 
-## What is the withdrawal period on the Black Market?
-The **withdrawal period** is the time when you can cancel your auction and get your item back. Once it ends, you can't cancel, and your item is locked in.
+## Qual é o período de retirada no Mercado Negro?
+O **período de retirada** é o tempo em que você pode cancelar seu leilão e receber seu item de volta. Depois que ele termina, você não pode cancelar e seu item fica bloqueado.
 
 
-## Why does my auction get extended on the Black Market?
-If someone bids on your item, the auction time extends briefly to prevent last-second sniping.
+## Por que meu leilão é prorrogado no Mercado Negro?
+Se alguém der um lance em seu item, o tempo de leilão se estenderá brevemente para evitar ataques de última hora.
 
-## Is there tax on the Black Market?
-Yes, the Black Market system will take a 15% tax from the final sale price of your item. the reason for this is to prevent inflation and to keep the economy healthy.
+## Existe imposto no Mercado Negro?
+Sim, o sistema do Mercado Negro cobrará um imposto de 15% sobre o preço final da venda de seu item. O motivo disso é evitar a inflação e manter a economia saudável.
