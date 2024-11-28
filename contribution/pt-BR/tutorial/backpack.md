@@ -1,7 +1,7 @@
-## What is a Backpack?
-The backpack is what you carry with you into strongholds. You can only access items in your backpack while in strongholds and items you pickup in strongholds will be stored in your backpack until you leave the stronghold. 
-However, please be aware that if you die within a stronghold, the items in your backpack will be transferred to the Ripperdoc as a deposit to cover your medical expenses. You have the option to repurchase these items from the clinic if you so choose.
+## O que é a Mochila?
+A mochila é o que você leva consigo para as fortalezas. Você só pode acessar os itens da mochila enquanto estiver nas fortalezas e os itens que você pegar nas fortalezas serão armazenados na mochila até que você saia da fortaleza. 
+No entanto, esteja ciente de que, se você morrer em uma fortaleza, os itens em sua mochila serão transferidos para o Ripperdoc como um depósito para cobrir suas despesas médicas. Você tem a opção de recomprar esses itens da clínica, se assim desejar.
 
 
-## How do I increase my backpack size?
-To expand your backpack's capacity, click on the `+` button next to the slot counter.
+## Como faço para aumentar a capacidade da mochila?
+Para aumentar a capacidade de sua mochila, clique no botão `+` ao lado do contador de slots.
