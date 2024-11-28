@@ -1,11 +1,11 @@
-## What is gang upkeep?
-Gang upkeep is a fee that all gangs must pay every 7 days to keep functioning. If a gang doesn't have enough funding or resources to pay the upkeep fee, it will fall apart. That's why it's important to always keep the resources and funding topped up. We recommend keeping more than enough resources in stock just to be safe.
+## O que é manutenção de gangues?
+A manutenção de gangues é uma taxa que todas as gangues devem pagar a cada 7 dias para continuar funcionando. Se uma gangue não tiver fundos ou recursos suficientes para pagar a taxa de manutenção, ela se desintegrará. Por isso, é importante manter os recursos e o financiamento sempre atualizados. Recomendamos manter recursos mais do que suficientes em estoque, por segurança.
 
-## How is the required upkeep resource calculated?
-The upkeep fee is calculated based on the level of your gang and the number of members in it. The higher the level of your gang and the more members you have, the more upkeep resources you'll need.
+## Como é calculado o recurso de manutenção necessário?
+A taxa de manutenção é calculada com base no nível de sua gangue e no número de membros nela. Quanto mais alto for o nível da sua gangue e quanto mais membros você tiver, mais recursos de manutenção serão necessários.
 
-## How can I increase resources for my gang?
-You or your gang members can perform the `Gang Maintenance` AFK task for your gang. This task requires a gang maintenance resource crate, which can be obtained from strongholds, quests, or purchased from NPCs.
+## Como posso aumentar os recursos para minha gangue?
+Você ou os membros de sua gangue podem executar a tarefa `Manutenção da Gangue` no modo AFK para sua gangue. Essa tarefa requer uma caixa de recursos de manutenção de gangue, que pode ser obtida em fortalezas, missões ou comprada de NPCs.
 
-## How can I increase funding for my gang?
-You or your gang members can click on the `Deposit` button in the gang details page to transfer money into the gang account.
+## Como posso aumentar o financiamento para minha gangue?
+Você ou os membros de sua gangue podem clicar no botão `Depósito` na página de detalhes da gangue para transferir dinheiro para a conta da gangue.
