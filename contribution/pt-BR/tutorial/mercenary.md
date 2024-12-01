@@ -1,21 +1,21 @@
-## What are Mercenaries?
-Mercenaries are unique units available from the Red Bar that you can recruit to join your crew. Each mercenary has distinct stats and a special ability for use in PvE combat. When you add a mercenary to your crew, their stats are added to your own, and you can use their ability when it's off cooldown. Think of them as special combat items with unique abilities.
+## O que são mercenários?
+Os mercenários são unidades exclusivas disponíveis na Red Bar que você pode recrutar para se juntar à sua equipe. Cada mercenário tem estatísticas distintas e uma habilidade especial para uso em combate PvE. Quando você adiciona um mercenário à sua tripulação, as estatísticas dele são adicionadas às suas e você pode usar a habilidade dele quando ela estiver fora do tempo de recarga. Pense neles como itens de combate especiais com habilidades exclusivas.
 
-## How to Obtain More Mercenaries
-You can recruit more mercenaries using your "Red Bar VIP Tokens" through two methods:
-- **Recruit One:** Spend 1 token to get a random mercenary.
-- **Recruit Ten:** Spend 10 tokens to get 10 random mercenaries, with a guaranteed chance of receiving at least one 4-star or higher mercenary.
+## Como Obter Mais Mercenários
+Você pode recrutar mais mercenários usando seus "Fichas VIP do Red Bar" through two methods:
+- **Recrutar Um:** Gaste 1 ficha para obter um mercenário aleatório.
+- **Recrutar Dez:** Gaste 10 fichas para obter 10 mercenários aleatórios, com uma chance garantida de receber pelo menos um mercenário de 4 estrelas ou superior.
 
-## Upgrading Your Mercenaries
-To upgrade your mercenaries, go to the mercenary's details page and click the upgrade button. This process consumes a specific amount of "Cybernetic Enhancers", "Neural Upgrade Augmenters" and Eurodollars depending on the mercenary's level.
+## Melhorar seus Mercenários
+Para aprimorar seus mercenários, vá até a página de detalhes do mercenário e clique no botão de atualização. Esse processo consome uma quantidade específica de "Aprimoradores Cibernéticos", "Amplificadores de Aprimoramento Neural" e Eurodólares, dependendo do nível do mercenário.
 
-## Obtaining Cybernetic Enhancers or Neural Upgrade Augmenters
-You can acquire these items through various means:
-- **Dismissal:** Dismiss your mercenaries to receive Cybernetic Enhancers or Neural Upgrade Augmenters based on their level and rarity. Dismissing higher-star-rated mercenaries is an effective way to obtain more Neural Upgrade Augmenters quickly.
-- **Looting:** Obtain them from strongholds, AFK tasks, daily rewards, and daily quests.
-- **Purchase:** You can directly purchase them from the premium shop.
+## Como obter Aprimoradores Cibernéticos ou Amplificadores de Aprimoramento Neural
+Você pode adquirir esses itens de várias maneiras:
+- **Demissão:** Dispense seus mercenários para receber Aprimoradores Cibernéticos ou Amplificadores de Aprimoramento Neural com base no nível e na raridade deles. Dispensar mercenários com estrelas mais altas é uma maneira eficaz de obter mais Amplificadores de Aprimoramento Neural rapidamente.
+- **Saques:** Obtenha-os em fortalezas, tarefas AFK, recompensas diárias e missões diárias.
+- **Comprando:** Você pode comprá-los diretamente na loja premium.
 
-## Improving Mercenary Abilities
-If you find your mercenary's ability to be weak, consider:
-- **Upgrading:** Increase your mercenary's level to enhance their abilities.
-- **Understanding Abilities:** Carefully read the mercenary's ability description. Some abilities are multi-targeted or damage-over-time based, which may seem weaker initially. However, they can be more effective in certain situations. For example, a mercenary with a multi-heal ability might heal less per target than one with a single-target healing ability. Still, in combat with multiple players, the multi-heal benefits can surpass the single-target healing ability. The same principle applies to multi-targeted damage abilities.
+## Aprimorando as Habilidades dos Mercenários
+Se você achar que a habilidade do seu mercenário é fraca, pense nisso:
+- **Atualizando:** Aumente o nível de seu mercenário para aprimorar suas habilidades.
+- **Entendendo as Habilidades:** Leia atentamente a descrição da habilidade do mercenário. Algumas habilidades têm vários alvos ou são baseadas em dano ao longo do tempo, o que pode parecer mais fraco inicialmente. No entanto, elas podem ser mais eficazes em determinadas situações. Por exemplo, um mercenário com uma habilidade de cura múltipla pode curar menos por alvo do que um com uma habilidade de cura de alvo único. Ainda assim, em combate com vários jogadores, os benefícios da cura múltipla podem superar a habilidade de cura de alvo único. O mesmo princípio se aplica às habilidades de dano com vários alvos.
