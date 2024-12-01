@@ -1,5 +1,5 @@
-## What is cyberpsychosis?
-Psychosis is a mental disorder characterized by a disconnection from reality. usually caused miss-using or overusing of cybernetic implants. at severe cases, it can cause the patient to become violent and attack anyone around them. therefor all legal implants are required to have a cyberpsychosis limit, which ensures that the user cannot overuse the implant. if the user reaches the limit, the implant will shut down and the user will be unable to use it until the limit is reset by either resting or using a cyberpsychosis stabilizer, such as `NeuroBlocker`.
+## O que é a ciberpsicose?
+A psicose é um distúrbio mental caracterizado por uma desconexão da realidade. Geralmente, é causada pelo uso indevido ou excessivo de implantes cibernéticos. Em casos graves, pode fazer com que o paciente se torne violento e ataque qualquer pessoa ao seu redor. Por isso, todos os implantes legais devem ter um limite de psicose cibernética, o que garante que o usuário não possa usar o implante em excesso. Se o usuário atingir o limite, o implante será desligado e o usuário não poderá usá-lo até que o limite seja redefinido por meio de repouso ou do uso de um estabilizador de ciberpsicose, como o `NeuroBlocker`.
 
-## How to reduce cyberpsychosis level?
-Cyberpsychosis level can be reduced by resting or using a cyberpsychosis stabilizer, such as `NeuroBlocker`. resting will reduce the level every 15 minutes, while `NeuroBlocker` will reduce it by a massive amount the instant its used.
+## Como reduzir o nível de cyberpsicose?
+O nível de ciberpsicose pode ser reduzido por meio de repouso ou do uso de um estabilizador de ciberpsicose, como o `NeuroBlocker`. O repouso reduzirá o nível a cada 15 minutos, enquanto o `NeuroBlocker` o reduzirá em uma quantidade enorme no instante em que for usado.
