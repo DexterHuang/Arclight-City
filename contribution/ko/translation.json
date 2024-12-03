@@ -1621,6 +1621,20 @@
 			"trans": "이 갱은 사용할 수 없습니다"
 		}
 	},
+	"clanImagePage": {
+		"bannerImage": {
+			"title": {
+				"eng": "Banner Image",
+				"trans": "배너 이미지"
+			}
+		},
+		"mainImage": {
+			"title": {
+				"eng": "Main Image",
+				"trans": "메인 이미지"
+			}
+		}
+	},
 	"clanPlayer": {
 		"controlPointContributed": {
 			"eng": "control points: ${amount}",
@@ -4366,6 +4380,16 @@
 			"description": {
 				"eng": "Use to contribute to gang territory control",
 				"trans": "갱 영역 통제에 기여하기 위해 사용하세요"
+			}
+		},
+		"gingerbreadCookie": {
+			"description": {
+				"eng": "A festive cookie that looks like a cute little man.",
+				"trans": "귀여운 작은 남자처럼 생긴 축제 쿠키."
+			},
+			"name": {
+				"eng": "Gingerbread Cookie",
+				"trans": "진저브레드 쿠키"
 			}
 		},
 		"gun": {
@@ -8489,21 +8513,21 @@
 			"eng": "Enable background music",
 			"trans": "배경 음악 활성화"
 		},
-		"enableGangChatNotification": {
-			"eng": "Enable Gang Chat Notification",
-			"trans": "갱 채팅 알림 활성화"
-		},
-		"enableGlobalNotification": {
-			"eng": "Enable Global Notification",
-			"trans": "글로벌 알림 활성화"
-		},
 		"enableInGameAnnouncement": {
 			"eng": "Enable In-Game Announcement",
 			"trans": "게임 내 공지 활성화"
 		},
+		"enableInGameAnnouncementDescription": {
+			"eng": "Show in-game notification such as PVP event, bounty and global chat",
+			"trans": "PVP 이벤트, 현상금, 글로벌 채팅과 같은 게임 내 알림 표시"
+		},
 		"enablePowerSavingMode": {
 			"eng": "Enable Power Saving Mode",
 			"trans": "전력 절약 모드 활성화"
+		},
+		"enablePowerSavingModeDescription": {
+			"eng": "Disables some resource intensive effects, turn on if you experience UI slowness",
+			"trans": "리소스를 많이 사용하는 효과를 비활성화합니다. UI 속도가 느려지는 경우 활성화하세요"
 		},
 		"enableSoundEffect": {
 			"eng": "Enable sound effect",
@@ -8524,6 +8548,44 @@
 		"neverShowUpdateNote": {
 			"eng": "Never show update note",
 			"trans": "업데이트 노트 표시 안 함"
+		},
+		"notification": {
+			"eng": "Notification",
+			"gangChat": {
+				"description": {
+					"eng": "Receive notification when your gang members send messages to gang chat",
+					"trans": "갱원들이 갱 채팅에 메시지를 보낼 때 알림 받기"
+				},
+				"title": {
+					"eng": "Gang Chat",
+					"trans": "갱 채팅"
+				}
+			},
+			"global": {
+				"description": {
+					"eng": "Receive notification for general game events, such as AFK task completion, etc.",
+					"trans": "AFK 작업 완료와 같은 일반 게임 이벤트에 대한 알림 받기."
+				},
+				"title": {
+					"eng": "General Game Notification",
+					"trans": "일반 게임 알림"
+				}
+			},
+			"territoryTopGangChange": {
+				"description": {
+					"eng": "Receive notification when your gang territory has been taken over by other gangs",
+					"trans": "다른 갱에 의해 당신의 갱 영역이 점령되었을 때 알림을 받습니다"
+				},
+				"title": {
+					"eng": "Territory Top Gang Change",
+					"trans": "영역 상위 갱 변경"
+				}
+			},
+			"trans": "알림"
+		},
+		"others": {
+			"eng": "Others",
+			"trans": "기타"
 		},
 		"zoom": {
 			"eng": "UI Scaling (Experimental)",
@@ -8825,6 +8887,14 @@
 			"eng": "Increases the damage you receive from players.",
 			"trans": "플레이어로부터 받는 피해량을 증가시킵니다."
 		},
+		"raidExpMult": {
+			"eng": "Hideout Raid EXP Multiplier",
+			"trans": "은신처 습격 경험치 배율"
+		},
+		"raidExpMultDesc": {
+			"eng": "Increases the EXP you receive from hideout raids.",
+			"trans": "은신처 습격에서 받는 경험치를 증가시킵니다."
+		},
 		"shield": {
 			"eng": "Shield",
 			"trans": "방어막"
@@ -8965,6 +9035,16 @@
 			"name": {
 				"eng": "PVP Protection",
 				"trans": "PVP 보호"
+			}
+		},
+		"raidExpMult5": {
+			"desc": {
+				"eng": "Increases the EXP you receive from hideout raids by ${percent}%",
+				"trans": "은신처 습격에서 받는 경험치가 ${percent}% 증가합니다"
+			},
+			"name": {
+				"eng": "Hideout Raid EXP Multiplier V",
+				"trans": "은신처 습격 경험치 배율 V"
 			}
 		}
 	},
@@ -9111,9 +9191,9 @@
 		},
 		"notification": {
 			"completed": {
-				"title": {
-					"eng": "Task completed",
-					"trans": "작업 완료"
+				"title2": {
+					"eng": "🔔AFK Task completed",
+					"trans": "🔔자리 비움 작업 완료"
 				}
 			}
 		}
@@ -9129,6 +9209,20 @@
 			"notFound": {
 				"eng": "Territory not found",
 				"trans": "영역을 찾을 수 없습니다"
+			}
+		},
+		"message": {
+			"topClanChange": {
+				"eng": "${newTopClanName} has taken over ${territoryName}",
+				"trans": "${newTopClanName}이(가) ${territoryName}을(를) 점령했습니다"
+			},
+			"topClanChangeBody": {
+				"eng": "${newTopClanName} has overtaken one of your gang's territory",
+				"trans": "${newTopClanName}이(가) 당신의 갱 중 하나의 영역을 차지했습니다"
+			},
+			"topClanChangeTitle": {
+				"eng": "Territory lost!",
+				"trans": "영역을 잃었습니다!"
 			}
 		},
 		"resetNoti": {

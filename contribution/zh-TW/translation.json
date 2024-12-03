@@ -1621,6 +1621,20 @@
 			"trans": "這個幫派不可用"
 		}
 	},
+	"clanImagePage": {
+		"bannerImage": {
+			"title": {
+				"eng": "Banner Image",
+				"trans": "橫幅圖片"
+			}
+		},
+		"mainImage": {
+			"title": {
+				"eng": "Main Image",
+				"trans": "主圖像"
+			}
+		}
+	},
 	"clanPlayer": {
 		"controlPointContributed": {
 			"eng": "control points: ${amount}",
@@ -4366,6 +4380,16 @@
 			"description": {
 				"eng": "Use to contribute to gang territory control",
 				"trans": "貢獻幫派領地控制。"
+			}
+		},
+		"gingerbreadCookie": {
+			"description": {
+				"eng": "A festive cookie that looks like a cute little man.",
+				"trans": "一個看起來像可愛小人的節慶餅乾。"
+			},
+			"name": {
+				"eng": "Gingerbread Cookie",
+				"trans": "薑餅餅乾"
 			}
 		},
 		"gun": {
@@ -8489,21 +8513,21 @@
 			"eng": "Enable background music",
 			"trans": "啟用背景音樂"
 		},
-		"enableGangChatNotification": {
-			"eng": "Enable Gang Chat Notification",
-			"trans": "啟用幫派聊天通知"
-		},
-		"enableGlobalNotification": {
-			"eng": "Enable Global Notification",
-			"trans": "啟用全球通知"
-		},
 		"enableInGameAnnouncement": {
 			"eng": "Enable In-Game Announcement",
 			"trans": "啟用遊戲公告"
 		},
+		"enableInGameAnnouncementDescription": {
+			"eng": "Show in-game notification such as PVP event, bounty and global chat",
+			"trans": "顯示遊戲內通知，例如PVP事件、賞金和全球聊天"
+		},
 		"enablePowerSavingMode": {
 			"eng": "Enable Power Saving Mode",
 			"trans": "啟用省電模式"
+		},
+		"enablePowerSavingModeDescription": {
+			"eng": "Disables some resource intensive effects, turn on if you experience UI slowness",
+			"trans": "禁用某些資源密集型效果，如果您遇到UI延遲，請開啟此選項。"
 		},
 		"enableSoundEffect": {
 			"eng": "Enable sound effect",
@@ -8524,6 +8548,44 @@
 		"neverShowUpdateNote": {
 			"eng": "Never show update note",
 			"trans": "永不顯示更新說明"
+		},
+		"notification": {
+			"eng": "Notification",
+			"gangChat": {
+				"description": {
+					"eng": "Receive notification when your gang members send messages to gang chat",
+					"trans": "當你的幫派成員發送訊息到幫派聊天時接收通知"
+				},
+				"title": {
+					"eng": "Gang Chat",
+					"trans": "幫派聊天"
+				}
+			},
+			"global": {
+				"description": {
+					"eng": "Receive notification for general game events, such as AFK task completion, etc.",
+					"trans": "接收一般遊戲事件的通知，例如掛機任務完成等。"
+				},
+				"title": {
+					"eng": "General Game Notification",
+					"trans": "遊戲通知"
+				}
+			},
+			"territoryTopGangChange": {
+				"description": {
+					"eng": "Receive notification when your gang territory has been taken over by other gangs",
+					"trans": "當你的幫派領地被其他幫派佔領時接收通知"
+				},
+				"title": {
+					"eng": "Territory Top Gang Change",
+					"trans": "領地頂尖幫派變更"
+				}
+			},
+			"trans": "通知"
+		},
+		"others": {
+			"eng": "Others",
+			"trans": "其他"
 		},
 		"zoom": {
 			"eng": "UI Scaling (Experimental)",
@@ -8825,6 +8887,14 @@
 			"eng": "Increases the damage you receive from players.",
 			"trans": "增加你受到玩家的傷害。"
 		},
+		"raidExpMult": {
+			"eng": "Hideout Raid EXP Multiplier",
+			"trans": "藏身處突襲經驗值倍增器"
+		},
+		"raidExpMultDesc": {
+			"eng": "Increases the EXP you receive from hideout raids.",
+			"trans": "增加你從藏身處突襲中獲得的經驗值。"
+		},
 		"shield": {
 			"eng": "Shield",
 			"trans": "護盾"
@@ -8965,6 +9035,16 @@
 			"name": {
 				"eng": "PVP Protection",
 				"trans": "PVP保護"
+			}
+		},
+		"raidExpMult5": {
+			"desc": {
+				"eng": "Increases the EXP you receive from hideout raids by ${percent}%",
+				"trans": "增加你從藏身處突襲中獲得的經驗值${percent}%。"
+			},
+			"name": {
+				"eng": "Hideout Raid EXP Multiplier V",
+				"trans": "藏身處突襲經驗值倍增器 V"
 			}
 		}
 	},
@@ -9111,9 +9191,9 @@
 		},
 		"notification": {
 			"completed": {
-				"title": {
-					"eng": "Task completed",
-					"trans": "任務完成"
+				"title2": {
+					"eng": "🔔AFK Task completed",
+					"trans": "🔔掛機任務完成"
 				}
 			}
 		}
@@ -9129,6 +9209,20 @@
 			"notFound": {
 				"eng": "Territory not found",
 				"trans": "找不到領地"
+			}
+		},
+		"message": {
+			"topClanChange": {
+				"eng": "${newTopClanName} has taken over ${territoryName}",
+				"trans": "${newTopClanName}已佔領${territoryName}"
+			},
+			"topClanChangeBody": {
+				"eng": "${newTopClanName} has overtaken one of your gang's territory",
+				"trans": "${newTopClanName}已經佔領了你們幫派的一個領地"
+			},
+			"topClanChangeTitle": {
+				"eng": "Territory lost!",
+				"trans": "領地喪失！"
 			}
 		},
 		"resetNoti": {

@@ -1621,6 +1621,20 @@
 			"trans": "このギャングは利用できません"
 		}
 	},
+	"clanImagePage": {
+		"bannerImage": {
+			"title": {
+				"eng": "Banner Image",
+				"trans": "バナー画像"
+			}
+		},
+		"mainImage": {
+			"title": {
+				"eng": "Main Image",
+				"trans": "メイン画像"
+			}
+		}
+	},
 	"clanPlayer": {
 		"controlPointContributed": {
 			"eng": "control points: ${amount}",
@@ -4366,6 +4380,16 @@
 			"description": {
 				"eng": "Use to contribute to gang territory control",
 				"trans": "ギャングの領地支配に貢献するために使用する"
+			}
+		},
+		"gingerbreadCookie": {
+			"description": {
+				"eng": "A festive cookie that looks like a cute little man.",
+				"trans": "かわいい小さな男の子のように見えるお祝いのクッキー。"
+			},
+			"name": {
+				"eng": "Gingerbread Cookie",
+				"trans": "ジンジャーブレッドクッキー"
 			}
 		},
 		"gun": {
@@ -8489,21 +8513,21 @@
 			"eng": "Enable background music",
 			"trans": "BGMを有効にする"
 		},
-		"enableGangChatNotification": {
-			"eng": "Enable Gang Chat Notification",
-			"trans": "ギャングチャットの通知を有効にする"
-		},
-		"enableGlobalNotification": {
-			"eng": "Enable Global Notification",
-			"trans": "グローバル通知を有効にする"
-		},
 		"enableInGameAnnouncement": {
 			"eng": "Enable In-Game Announcement",
 			"trans": "ゲーム内アナウンスを有効にする"
 		},
+		"enableInGameAnnouncementDescription": {
+			"eng": "Show in-game notification such as PVP event, bounty and global chat",
+			"trans": "PVPイベント、バウンティ、グローバルチャットなどのゲーム内通知を表示する"
+		},
 		"enablePowerSavingMode": {
 			"eng": "Enable Power Saving Mode",
 			"trans": "電力節約モードを有効にする"
+		},
+		"enablePowerSavingModeDescription": {
+			"eng": "Disables some resource intensive effects, turn on if you experience UI slowness",
+			"trans": "リソースを多く消費するエフェクトを無効にします。UIの遅延を感じた場合はオンにしてください。"
 		},
 		"enableSoundEffect": {
 			"eng": "Enable sound effect",
@@ -8524,6 +8548,44 @@
 		"neverShowUpdateNote": {
 			"eng": "Never show update note",
 			"trans": "更新ノートを表示しない"
+		},
+		"notification": {
+			"eng": "Notification",
+			"gangChat": {
+				"description": {
+					"eng": "Receive notification when your gang members send messages to gang chat",
+					"trans": "ギャングメンバーがギャングチャットにメッセージを送信したときに通知を受け取る"
+				},
+				"title": {
+					"eng": "Gang Chat",
+					"trans": "ギャングチャット"
+				}
+			},
+			"global": {
+				"description": {
+					"eng": "Receive notification for general game events, such as AFK task completion, etc.",
+					"trans": "AFKタスクの完了など、一般的なゲームイベントの通知を受け取る"
+				},
+				"title": {
+					"eng": "General Game Notification",
+					"trans": "ゲーム通知"
+				}
+			},
+			"territoryTopGangChange": {
+				"description": {
+					"eng": "Receive notification when your gang territory has been taken over by other gangs",
+					"trans": "他のギャングにギャングテリトリーを奪われた際に通知を受け取る"
+				},
+				"title": {
+					"eng": "Territory Top Gang Change",
+					"trans": "テリトリーのトップギャング変更"
+				}
+			},
+			"trans": "通知"
+		},
+		"others": {
+			"eng": "Others",
+			"trans": "その他"
 		},
 		"zoom": {
 			"eng": "UI Scaling (Experimental)",
@@ -8825,6 +8887,14 @@
 			"eng": "Increases the damage you receive from players.",
 			"trans": "プレイヤーからのダメージが増加します。"
 		},
+		"raidExpMult": {
+			"eng": "Hideout Raid EXP Multiplier",
+			"trans": "隠れ家襲撃経験値倍率"
+		},
+		"raidExpMultDesc": {
+			"eng": "Increases the EXP you receive from hideout raids.",
+			"trans": "隠れ家の襲撃から得られる経験値が増加します。"
+		},
 		"shield": {
 			"eng": "Shield",
 			"trans": "シールド"
@@ -8965,6 +9035,16 @@
 			"name": {
 				"eng": "PVP Protection",
 				"trans": "PVP保護"
+			}
+		},
+		"raidExpMult5": {
+			"desc": {
+				"eng": "Increases the EXP you receive from hideout raids by ${percent}%",
+				"trans": "隠れ家襲撃から得られる経験値が${percent}%増加します"
+			},
+			"name": {
+				"eng": "Hideout Raid EXP Multiplier V",
+				"trans": "隠れ家襲撃経験値倍率V"
 			}
 		}
 	},
@@ -9111,9 +9191,9 @@
 		},
 		"notification": {
 			"completed": {
-				"title": {
-					"eng": "Task completed",
-					"trans": "タスクが完了しました"
+				"title2": {
+					"eng": "🔔AFK Task completed",
+					"trans": "🔔AFKタスクが完了しました"
 				}
 			}
 		}
@@ -9129,6 +9209,20 @@
 			"notFound": {
 				"eng": "Territory not found",
 				"trans": "領地が見つかりません"
+			}
+		},
+		"message": {
+			"topClanChange": {
+				"eng": "${newTopClanName} has taken over ${territoryName}",
+				"trans": "${newTopClanName}が${territoryName}を制圧しました"
+			},
+			"topClanChangeBody": {
+				"eng": "${newTopClanName} has overtaken one of your gang's territory",
+				"trans": "${newTopClanName}があなたのギャングのテリトリーを奪いました"
+			},
+			"topClanChangeTitle": {
+				"eng": "Territory lost!",
+				"trans": "テリトリーを失いました！"
 			}
 		},
 		"resetNoti": {

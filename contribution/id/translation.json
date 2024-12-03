@@ -1621,6 +1621,20 @@
 			"trans": "Geng ini tidak tersedia"
 		}
 	},
+	"clanImagePage": {
+		"bannerImage": {
+			"title": {
+				"eng": "Banner Image",
+				"trans": "Gambar Spanduk"
+			}
+		},
+		"mainImage": {
+			"title": {
+				"eng": "Main Image",
+				"trans": "Gambar Utama"
+			}
+		}
+	},
 	"clanPlayer": {
 		"controlPointContributed": {
 			"eng": "control points: ${amount}",
@@ -4366,6 +4380,16 @@
 			"description": {
 				"eng": "Use to contribute to gang territory control",
 				"trans": "Gunakan untuk berkontribusi pada pengendalian wilayah geng"
+			}
+		},
+		"gingerbreadCookie": {
+			"description": {
+				"eng": "A festive cookie that looks like a cute little man.",
+				"trans": "Kue meriah yang terlihat seperti pria kecil yang imut."
+			},
+			"name": {
+				"eng": "Gingerbread Cookie",
+				"trans": "Kue Jahe"
 			}
 		},
 		"gun": {
@@ -8489,21 +8513,21 @@
 			"eng": "Enable background music",
 			"trans": "Aktifkan musik latar belakang"
 		},
-		"enableGangChatNotification": {
-			"eng": "Enable Gang Chat Notification",
-			"trans": "Aktifkan Notifikasi Obrolan Geng"
-		},
-		"enableGlobalNotification": {
-			"eng": "Enable Global Notification",
-			"trans": "Aktifkan Notifikasi Global"
-		},
 		"enableInGameAnnouncement": {
 			"eng": "Enable In-Game Announcement",
 			"trans": "Aktifkan Pengumuman Dalam Permainan"
 		},
+		"enableInGameAnnouncementDescription": {
+			"eng": "Show in-game notification such as PVP event, bounty and global chat",
+			"trans": "Tampilkan notifikasi dalam permainan seperti acara PVP, bounty, dan obrolan global"
+		},
 		"enablePowerSavingMode": {
 			"eng": "Enable Power Saving Mode",
 			"trans": "Aktifkan Mode Hemat Daya"
+		},
+		"enablePowerSavingModeDescription": {
+			"eng": "Disables some resource intensive effects, turn on if you experience UI slowness",
+			"trans": "Disables some resource intensive effects, turn on if you experience UI slowness"
 		},
 		"enableSoundEffect": {
 			"eng": "Enable sound effect",
@@ -8524,6 +8548,44 @@
 		"neverShowUpdateNote": {
 			"eng": "Never show update note",
 			"trans": "Jangan pernah tampilkan catatan pembaruan"
+		},
+		"notification": {
+			"eng": "Notification",
+			"gangChat": {
+				"description": {
+					"eng": "Receive notification when your gang members send messages to gang chat",
+					"trans": "Terima notifikasi saat anggota gengmu mengirim pesan ke obrolan geng"
+				},
+				"title": {
+					"eng": "Gang Chat",
+					"trans": "Obrolan Geng"
+				}
+			},
+			"global": {
+				"description": {
+					"eng": "Receive notification for general game events, such as AFK task completion, etc.",
+					"trans": "Terima notifikasi untuk acara permainan umum, seperti penyelesaian tugas AFK, dll."
+				},
+				"title": {
+					"eng": "General Game Notification",
+					"trans": "Notifikasi Permainan Umum"
+				}
+			},
+			"territoryTopGangChange": {
+				"description": {
+					"eng": "Receive notification when your gang territory has been taken over by other gangs",
+					"trans": "Terima notifikasi saat wilayah gengmu diambil alih oleh geng lain"
+				},
+				"title": {
+					"eng": "Territory Top Gang Change",
+					"trans": "Perubahan Geng Teratas Wilayah"
+				}
+			},
+			"trans": "Notifikasi"
+		},
+		"others": {
+			"eng": "Others",
+			"trans": "Lainnya"
 		},
 		"zoom": {
 			"eng": "UI Scaling (Experimental)",
@@ -8825,6 +8887,14 @@
 			"eng": "Increases the damage you receive from players.",
 			"trans": "Meningkatkan kerusakan yang kamu terima dari pemain."
 		},
+		"raidExpMult": {
+			"eng": "Hideout Raid EXP Multiplier",
+			"trans": "Pengganda EXP Serangan Tempat Persembunyian"
+		},
+		"raidExpMultDesc": {
+			"eng": "Increases the EXP you receive from hideout raids.",
+			"trans": "Meningkatkan EXP yang kamu terima dari serangan tempat persembunyian."
+		},
 		"shield": {
 			"eng": "Shield",
 			"trans": "Perisai"
@@ -8965,6 +9035,16 @@
 			"name": {
 				"eng": "PVP Protection",
 				"trans": "Perlindungan PVP"
+			}
+		},
+		"raidExpMult5": {
+			"desc": {
+				"eng": "Increases the EXP you receive from hideout raids by ${percent}%",
+				"trans": "Meningkatkan EXP yang kamu terima dari serangan tempat persembunyian sebesar ${percent}%"
+			},
+			"name": {
+				"eng": "Hideout Raid EXP Multiplier V",
+				"trans": "Penggandaan EXP Serangan Tempat Persembunyian V"
 			}
 		}
 	},
@@ -9111,9 +9191,9 @@
 		},
 		"notification": {
 			"completed": {
-				"title": {
-					"eng": "Task completed",
-					"trans": "Tugas selesai"
+				"title2": {
+					"eng": "🔔AFK Task completed",
+					"trans": "🔔AFK Task completed"
 				}
 			}
 		}
@@ -9129,6 +9209,20 @@
 			"notFound": {
 				"eng": "Territory not found",
 				"trans": "Wilayah tidak ditemukan"
+			}
+		},
+		"message": {
+			"topClanChange": {
+				"eng": "${newTopClanName} has taken over ${territoryName}",
+				"trans": "${newTopClanName} has taken over ${territoryName}"
+			},
+			"topClanChangeBody": {
+				"eng": "${newTopClanName} has overtaken one of your gang's territory",
+				"trans": "${newTopClanName} has overtaken one of your gang's territory"
+			},
+			"topClanChangeTitle": {
+				"eng": "Territory lost!",
+				"trans": "Territory lost!"
 			}
 		},
 		"resetNoti": {
