@@ -6,11 +6,16 @@
 
 **If you find an exploit please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
+### 0.0.66
+
+-  Updated rendering engine, stronghold should render faster/consume less battery. 
+-  New behaviour: Battery Saver mode will also reduce the resolution of stronghold rendering, this is so that lower end devices will not have issue with it
+
 ### 0.0.65
 
--  You will now receive notification to gang chat when other gang has taken control of a territory that you previous had control of, you can turn off this notification in setting
+-  You will now receive notification to gang chat when another gang has taken control of a territory that you previously had control of, you can turn off this notification in the setting
 -  You can upload a separate banner for image for horizontal display of your gang, it will be shown at the main screen and territory screen
--  Fixed issue with message sometimes get delayed
+-  Fixed issue with messages sometimes getting delayed
 
 ### 0.0.64
 
@@ -18,9 +23,9 @@
 -  Some optimizations on rendering
 -  Minor bug fixes
 -  Added account page, accounts can now be deleted permanently leaving no private info or any backup at all.
--  You can now finish AFK task immediately even after started
--  Now when you click on other player's mercenary you will directly go to the mercenary details page instead of opening up a popup
--  Auto Gather can now be exchanged from shop
+-  You can now finish the AFK task immediately even after you have started
+-  Now when you click on another player's mercenary you will directly go to the mercenary details page instead of opening up a popup
+-  Auto Gather can now be exchanged from the shop
 
 
 ### 0.0.63
