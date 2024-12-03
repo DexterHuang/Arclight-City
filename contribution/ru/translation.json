@@ -250,8 +250,14 @@
 		},
 		"deleteAccount": {
 			"confirm": {
-				"eng": "Enter \"${DELETE}\" here to confirm",
-				"trans": "Введите \"${DELETE}\" здесь для подтверждения"
+				"placeholder": {
+					"eng": "Enter \"${DELETE}\" here to confirm",
+					"trans": "Введите \"${DELETE}\" здесь для подтверждения"
+				},
+				"title": {
+					"eng": "Type \"${delete}\" to confirm",
+					"trans": "Введите \"${delete}\", чтобы подтвердить"
+				}
 			},
 			"confirmError": {
 				"eng": "You must type \"${delete}\" to confirm",
@@ -1619,6 +1625,20 @@
 		"unavailable": {
 			"eng": "This gang is unavailable",
 			"trans": "Эта банда недоступна"
+		}
+	},
+	"clanImagePage": {
+		"bannerImage": {
+			"title": {
+				"eng": "Banner Image",
+				"trans": "Изображение баннера"
+			}
+		},
+		"mainImage": {
+			"title": {
+				"eng": "Main Image",
+				"trans": "Основное изображение"
+			}
 		}
 	},
 	"clanPlayer": {
@@ -3567,8 +3587,14 @@
 			"trans": "количество ${amount}"
 		},
 		"availableDuringEvent": {
-			"eng": "Event Item",
-			"trans": "Событийный предмет"
+			"description": {
+				"eng": "Available during ${event}, after the event has ended this item will be automatically removed",
+				"trans": "Доступно во время ${event}, после окончания события этот предмет будет автоматически удалён"
+			},
+			"title": {
+				"eng": "Event Item",
+				"trans": "Предмет события"
+			}
 		},
 		"destroyed": {
 			"eng": "destroyed",
@@ -4366,6 +4392,16 @@
 			"description": {
 				"eng": "Use to contribute to gang territory control",
 				"trans": "Используйте для вклада в контроль над территорией банды"
+			}
+		},
+		"gingerbreadCookie": {
+			"description": {
+				"eng": "A festive cookie that looks like a cute little man.",
+				"trans": "Праздничное печенье, которое выглядит как миленький человечек."
+			},
+			"name": {
+				"eng": "Gingerbread Cookie",
+				"trans": "Имбирный пряник"
 			}
 		},
 		"gun": {
@@ -8489,21 +8525,21 @@
 			"eng": "Enable background music",
 			"trans": "Включить фоновую музыку"
 		},
-		"enableGangChatNotification": {
-			"eng": "Enable Gang Chat Notification",
-			"trans": "Включить уведомления чата банды"
-		},
-		"enableGlobalNotification": {
-			"eng": "Enable Global Notification",
-			"trans": "Включить глобальные уведомления"
-		},
 		"enableInGameAnnouncement": {
 			"eng": "Enable In-Game Announcement",
 			"trans": "Включить игровое объявление"
 		},
+		"enableInGameAnnouncementDescription": {
+			"eng": "Show in-game notification such as PVP event, bounty and global chat",
+			"trans": "Показать уведомления в игре, такие как событие PVP, награда и глобальный чат"
+		},
 		"enablePowerSavingMode": {
 			"eng": "Enable Power Saving Mode",
 			"trans": "Включить режим энергосбережения"
+		},
+		"enablePowerSavingModeDescription": {
+			"eng": "Disables some resource intensive effects, turn on if you experience UI slowness",
+			"trans": "Отключает некоторые ресурсоемкие эффекты, включите, если вы испытываете замедление интерфейса"
 		},
 		"enableSoundEffect": {
 			"eng": "Enable sound effect",
@@ -8524,6 +8560,44 @@
 		"neverShowUpdateNote": {
 			"eng": "Never show update note",
 			"trans": "Никогда не показывать заметки об обновлении"
+		},
+		"notification": {
+			"eng": "Notification",
+			"gangChat": {
+				"description": {
+					"eng": "Receive notification when your gang members send messages to gang chat",
+					"trans": "Получать уведомления, когда члены вашей банды отправляют сообщения в чат банды"
+				},
+				"title": {
+					"eng": "Gang Chat",
+					"trans": "Чат банды"
+				}
+			},
+			"global": {
+				"description": {
+					"eng": "Receive notification for general game events, such as AFK task completion, etc.",
+					"trans": "Получать уведомления о общих игровых событиях, таких как завершение AFK заданий и т.д."
+				},
+				"title": {
+					"eng": "General Game Notification",
+					"trans": "Общее уведомление игры"
+				}
+			},
+			"territoryTopGangChange": {
+				"description": {
+					"eng": "Receive notification when your gang territory has been taken over by other gangs",
+					"trans": "Получайте уведомление, когда вашу территорию банды захватят другие банды"
+				},
+				"title": {
+					"eng": "Territory Top Gang Change",
+					"trans": "Изменение главной банды территории"
+				}
+			},
+			"trans": "Уведомление"
+		},
+		"others": {
+			"eng": "Others",
+			"trans": "Другие"
 		},
 		"zoom": {
 			"eng": "UI Scaling (Experimental)",
@@ -8825,6 +8899,14 @@
 			"eng": "Increases the damage you receive from players.",
 			"trans": "Увеличивает урон, получаемый от игроков."
 		},
+		"raidExpMult": {
+			"eng": "Hideout Raid EXP Multiplier",
+			"trans": "Множитель опыта за рейд на укрытие"
+		},
+		"raidExpMultDesc": {
+			"eng": "Increases the EXP you receive from hideout raids.",
+			"trans": "Увеличивает количество опыта, получаемого за рейды на укрытия."
+		},
 		"shield": {
 			"eng": "Shield",
 			"trans": "Щит"
@@ -8965,6 +9047,16 @@
 			"name": {
 				"eng": "PVP Protection",
 				"trans": "Защита PVP"
+			}
+		},
+		"raidExpMult5": {
+			"desc": {
+				"eng": "Increases the EXP you receive from hideout raids by ${percent}%",
+				"trans": "Увеличивает получаемый вами опыт от рейдов на укрытия на ${percent}%"
+			},
+			"name": {
+				"eng": "Hideout Raid EXP Multiplier V",
+				"trans": "Множитель опыта за рейд на укрытие V"
 			}
 		}
 	},
@@ -9111,9 +9203,9 @@
 		},
 		"notification": {
 			"completed": {
-				"title": {
-					"eng": "Task completed",
-					"trans": "Задание выполнено"
+				"title2": {
+					"eng": "🔔AFK Task completed",
+					"trans": "🔔AFK задание выполнено"
 				}
 			}
 		}
@@ -9129,6 +9221,20 @@
 			"notFound": {
 				"eng": "Territory not found",
 				"trans": "Территория не найдена"
+			}
+		},
+		"message": {
+			"topClanChange": {
+				"eng": "${newTopClanName} has taken over ${territoryName}",
+				"trans": "${newTopClanName} захватил(а) ${territoryName}"
+			},
+			"topClanChangeBody": {
+				"eng": "${newTopClanName} has overtaken one of your gang's territory",
+				"trans": "${newTopClanName} захватил одну из территорий вашей банды"
+			},
+			"topClanChangeTitle": {
+				"eng": "Territory lost!",
+				"trans": "Территория потеряна!"
 			}
 		},
 		"resetNoti": {

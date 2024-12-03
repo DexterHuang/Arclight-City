@@ -250,8 +250,14 @@
 		},
 		"deleteAccount": {
 			"confirm": {
-				"eng": "Enter \"${DELETE}\" here to confirm",
-				"trans": "Masukkan \"${DELETE}\" di sini untuk mengonfirmasi"
+				"placeholder": {
+					"eng": "Enter \"${DELETE}\" here to confirm",
+					"trans": "Masukkan \"${DELETE}\" di sini untuk mengonfirmasi"
+				},
+				"title": {
+					"eng": "Type \"${delete}\" to confirm",
+					"trans": "Ketik \"${delete}\" untuk mengonfirmasi"
+				}
 			},
 			"confirmError": {
 				"eng": "You must type \"${delete}\" to confirm",
@@ -3581,8 +3587,14 @@
 			"trans": "Jumlah ${amount}"
 		},
 		"availableDuringEvent": {
-			"eng": "Event Item",
-			"trans": "Item Acara"
+			"description": {
+				"eng": "Available during ${event}, after the event has ended this item will be automatically removed",
+				"trans": "Tersedia selama ${event}, setelah acara berakhir item ini akan dihapus secara otomatis"
+			},
+			"title": {
+				"eng": "Event Item",
+				"trans": "Item Acara"
+			}
 		},
 		"destroyed": {
 			"eng": "destroyed",
@@ -8527,7 +8539,7 @@
 		},
 		"enablePowerSavingModeDescription": {
 			"eng": "Disables some resource intensive effects, turn on if you experience UI slowness",
-			"trans": "Disables some resource intensive effects, turn on if you experience UI slowness"
+			"trans": "Menonaktifkan beberapa efek yang memakan sumber daya, aktifkan jika Anda mengalami keterlambatan UI"
 		},
 		"enableSoundEffect": {
 			"eng": "Enable sound effect",
@@ -9193,7 +9205,7 @@
 			"completed": {
 				"title2": {
 					"eng": "🔔AFK Task completed",
-					"trans": "🔔AFK Task completed"
+					"trans": "🔔Tugas AFK selesai"
 				}
 			}
 		}
@@ -9214,15 +9226,15 @@
 		"message": {
 			"topClanChange": {
 				"eng": "${newTopClanName} has taken over ${territoryName}",
-				"trans": "${newTopClanName} has taken over ${territoryName}"
+				"trans": "${newTopClanName} telah mengambil alih ${territoryName}"
 			},
 			"topClanChangeBody": {
 				"eng": "${newTopClanName} has overtaken one of your gang's territory",
-				"trans": "${newTopClanName} has overtaken one of your gang's territory"
+				"trans": "${newTopClanName} telah mengambil alih salah satu wilayah gengmu"
 			},
 			"topClanChangeTitle": {
 				"eng": "Territory lost!",
-				"trans": "Territory lost!"
+				"trans": "Wilayah hilang!"
 			}
 		},
 		"resetNoti": {

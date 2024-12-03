@@ -250,8 +250,14 @@
 		},
 		"deleteAccount": {
 			"confirm": {
-				"eng": "Enter \"${DELETE}\" here to confirm",
-				"trans": "在此輸入\"${DELETE}\"以確認"
+				"placeholder": {
+					"eng": "Enter \"${DELETE}\" here to confirm",
+					"trans": "在此輸入\"${DELETE}\"以確認"
+				},
+				"title": {
+					"eng": "Type \"${delete}\" to confirm",
+					"trans": "輸入\"${delete}\"以確認"
+				}
 			},
 			"confirmError": {
 				"eng": "You must type \"${delete}\" to confirm",
@@ -3581,8 +3587,14 @@
 			"trans": "數量 ${amount}"
 		},
 		"availableDuringEvent": {
-			"eng": "Event Item",
-			"trans": "事件物品"
+			"description": {
+				"eng": "Available during ${event}, after the event has ended this item will be automatically removed",
+				"trans": "在${event}期間可用，活動結束後此物品將自動移除"
+			},
+			"title": {
+				"eng": "Event Item",
+				"trans": "事件物品"
+			}
 		},
 		"destroyed": {
 			"eng": "destroyed",

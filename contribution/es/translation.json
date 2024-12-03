@@ -250,8 +250,14 @@
 		},
 		"deleteAccount": {
 			"confirm": {
-				"eng": "Enter \"${DELETE}\" here to confirm",
-				"trans": "Ingresa \"${DELETE}\" aquí para confirmar"
+				"placeholder": {
+					"eng": "Enter \"${DELETE}\" here to confirm",
+					"trans": "Ingresa \"${DELETE}\" aquí para confirmar"
+				},
+				"title": {
+					"eng": "Type \"${delete}\" to confirm",
+					"trans": "Escribe \"${delete}\" para confirmar"
+				}
 			},
 			"confirmError": {
 				"eng": "You must type \"${delete}\" to confirm",
@@ -1619,6 +1625,20 @@
 		"unavailable": {
 			"eng": "This gang is unavailable",
 			"trans": "Esta banda no está disponible"
+		}
+	},
+	"clanImagePage": {
+		"bannerImage": {
+			"title": {
+				"eng": "Banner Image",
+				"trans": "Imagen del banner"
+			}
+		},
+		"mainImage": {
+			"title": {
+				"eng": "Main Image",
+				"trans": "Imagen Principal"
+			}
 		}
 	},
 	"clanPlayer": {
@@ -3567,8 +3587,14 @@
 			"trans": "cantidad ${amount}"
 		},
 		"availableDuringEvent": {
-			"eng": "Event Item",
-			"trans": "Artículo de Evento"
+			"description": {
+				"eng": "Available during ${event}, after the event has ended this item will be automatically removed",
+				"trans": "Disponible durante ${event}, después de que el evento haya terminado, este artículo será eliminado automáticamente"
+			},
+			"title": {
+				"eng": "Event Item",
+				"trans": "Artículo de Evento"
+			}
 		},
 		"destroyed": {
 			"eng": "destroyed",
@@ -4366,6 +4392,16 @@
 			"description": {
 				"eng": "Use to contribute to gang territory control",
 				"trans": "Utilizar para contribuir al control del territorio de pandillas"
+			}
+		},
+		"gingerbreadCookie": {
+			"description": {
+				"eng": "A festive cookie that looks like a cute little man.",
+				"trans": "Una galleta festiva que parece un lindo muñeco."
+			},
+			"name": {
+				"eng": "Gingerbread Cookie",
+				"trans": "Galleta de jengibre"
 			}
 		},
 		"gun": {
@@ -8489,21 +8525,21 @@
 			"eng": "Enable background music",
 			"trans": "Activar música de fondo"
 		},
-		"enableGangChatNotification": {
-			"eng": "Enable Gang Chat Notification",
-			"trans": "Habilitar Notificación de Chat de Banda"
-		},
-		"enableGlobalNotification": {
-			"eng": "Enable Global Notification",
-			"trans": "Habilitar Notificación Global"
-		},
 		"enableInGameAnnouncement": {
 			"eng": "Enable In-Game Announcement",
 			"trans": "Habilitar Anuncio en Juego"
 		},
+		"enableInGameAnnouncementDescription": {
+			"eng": "Show in-game notification such as PVP event, bounty and global chat",
+			"trans": "Mostrar notificaciones en el juego como eventos PVP, recompensas y chat global"
+		},
 		"enablePowerSavingMode": {
 			"eng": "Enable Power Saving Mode",
 			"trans": "Activar modo de ahorro de energía"
+		},
+		"enablePowerSavingModeDescription": {
+			"eng": "Disables some resource intensive effects, turn on if you experience UI slowness",
+			"trans": "Desactiva algunos efectos que consumen muchos recursos, actívalo si experimentas lentitud en la interfaz"
 		},
 		"enableSoundEffect": {
 			"eng": "Enable sound effect",
@@ -8524,6 +8560,44 @@
 		"neverShowUpdateNote": {
 			"eng": "Never show update note",
 			"trans": "Nunca mostrar nota de actualización"
+		},
+		"notification": {
+			"eng": "Notification",
+			"gangChat": {
+				"description": {
+					"eng": "Receive notification when your gang members send messages to gang chat",
+					"trans": "Recibe notificaciones cuando tus miembros de la banda envíen mensajes al chat de la banda"
+				},
+				"title": {
+					"eng": "Gang Chat",
+					"trans": "Chat de Banda"
+				}
+			},
+			"global": {
+				"description": {
+					"eng": "Receive notification for general game events, such as AFK task completion, etc.",
+					"trans": "Recibir notificaciones sobre eventos generales del juego, como la finalización de tareas AFK, etc."
+				},
+				"title": {
+					"eng": "General Game Notification",
+					"trans": "Notificación General del Juego"
+				}
+			},
+			"territoryTopGangChange": {
+				"description": {
+					"eng": "Receive notification when your gang territory has been taken over by other gangs",
+					"trans": "Recibe una notificación cuando tu territorio de pandilla haya sido tomado por otras bandas"
+				},
+				"title": {
+					"eng": "Territory Top Gang Change",
+					"trans": "Cambio de Banda Principal del Territorio"
+				}
+			},
+			"trans": "Notificación"
+		},
+		"others": {
+			"eng": "Others",
+			"trans": "Otros"
 		},
 		"zoom": {
 			"eng": "UI Scaling (Experimental)",
@@ -8825,6 +8899,14 @@
 			"eng": "Increases the damage you receive from players.",
 			"trans": "Aumenta el daño que recibes de otros jugadores."
 		},
+		"raidExpMult": {
+			"eng": "Hideout Raid EXP Multiplier",
+			"trans": "Multiplicador de EXP de Incursión en el Refugio"
+		},
+		"raidExpMultDesc": {
+			"eng": "Increases the EXP you receive from hideout raids.",
+			"trans": "Aumenta la EXP que recibes de las incursiones en el escondite."
+		},
 		"shield": {
 			"eng": "Shield",
 			"trans": "Escudo"
@@ -8965,6 +9047,16 @@
 			"name": {
 				"eng": "PVP Protection",
 				"trans": "Protección PVP"
+			}
+		},
+		"raidExpMult5": {
+			"desc": {
+				"eng": "Increases the EXP you receive from hideout raids by ${percent}%",
+				"trans": "Aumenta la EXP que recibes de las incursiones en el escondite en un ${percent}%"
+			},
+			"name": {
+				"eng": "Hideout Raid EXP Multiplier V",
+				"trans": "Multiplicador de EXP de Incursión en Refugio V"
 			}
 		}
 	},
@@ -9111,9 +9203,9 @@
 		},
 		"notification": {
 			"completed": {
-				"title": {
-					"eng": "Task completed",
-					"trans": "Tarea completada"
+				"title2": {
+					"eng": "🔔AFK Task completed",
+					"trans": "🔔Tarea AFK completada"
 				}
 			}
 		}
@@ -9129,6 +9221,20 @@
 			"notFound": {
 				"eng": "Territory not found",
 				"trans": "Territorio no encontrado"
+			}
+		},
+		"message": {
+			"topClanChange": {
+				"eng": "${newTopClanName} has taken over ${territoryName}",
+				"trans": "${newTopClanName} ha tomado el control de ${territoryName}"
+			},
+			"topClanChangeBody": {
+				"eng": "${newTopClanName} has overtaken one of your gang's territory",
+				"trans": "${newTopClanName} ha tomado el control de uno de los territorios de tu banda"
+			},
+			"topClanChangeTitle": {
+				"eng": "Territory lost!",
+				"trans": "¡Territorio perdido!"
 			}
 		},
 		"resetNoti": {
