@@ -1421,6 +1421,12 @@
 			"trans": "傳送圖片"
 		}
 	},
+	"chatMessageModal": {
+		"gangNotFound": {
+			"eng": "Gang not found",
+			"trans": "找不到幫派"
+		}
+	},
 	"chatPreview": {
 		"noMessage": {
 			"eng": "no message",
@@ -1629,12 +1635,20 @@
 	},
 	"clanImagePage": {
 		"bannerImage": {
+			"description": {
+				"eng": "Banner image will be displayed on the territory banner, recommended size is ${ratio}",
+				"trans": "橫幅圖片將顯示在領地橫幅上，建議尺寸為${ratio}"
+			},
 			"title": {
 				"eng": "Banner Image",
 				"trans": "橫幅圖片"
 			}
 		},
 		"mainImage": {
+			"description": {
+				"eng": "Main image will be displayed on the gang page, recommended size is ${ratio}",
+				"trans": "主圖將顯示在幫派頁面上，建議尺寸為${ratio}"
+			},
 			"title": {
 				"eng": "Main Image",
 				"trans": "主圖像"
@@ -2350,6 +2364,10 @@
 			"enemyInRoom2": {
 				"eng": "You cannot perform this action while there are enemies nearby",
 				"trans": "當附近有敵人時，您無法執行此操作。"
+			},
+			"failedToLoadAssets": {
+				"eng": "Failed to load assets: ${error}",
+				"trans": "無法載入資源：${error}"
 			},
 			"maxLootLevelDifference": {
 				"eng": "You cannot loot this chest because your level is too high",
@@ -6322,6 +6340,10 @@
 			"eng": "Report & Block",
 			"trans": "檢舉 & 封鎖"
 		},
+		"sendMail": {
+			"eng": "Send Mail",
+			"trans": "發送郵件"
+		},
 		"system": {
 			"eng": "System",
 			"trans": "系統"
@@ -6480,6 +6502,36 @@
 		"serviceDown": {
 			"eng": "Motto editing is temporally disabled due to external service downtime, please try again later",
 			"trans": "因外部服務暫時停止，座右銘編輯功能暫時無法使用，請稍後再試。"
+		}
+	},
+	"moralityMeter": {
+		"criminal": {
+			"title": {
+				"eng": "Criminal",
+				"trans": "罪犯"
+			}
+		},
+		"neutral": {
+			"count": {
+				"eng": "${amount} Citizen arrests",
+				"trans": "${amount} 名市民逮捕"
+			},
+			"title": {
+				"eng": "Neutral",
+				"trans": "中立"
+			}
+		},
+		"vigilante": {
+			"title": {
+				"eng": "Vigilante",
+				"trans": "義警"
+			}
+		},
+		"villainous": {
+			"count": {
+				"eng": "${amount} PvP initiated",
+				"trans": "${amount} PvP已啟動"
+			}
 		}
 	},
 	"notification": {
@@ -8127,12 +8179,6 @@
 				"eng": "Received",
 				"trans": "已收到"
 			}
-		}
-	},
-	"sceneContainer": {
-		"skip": {
-			"eng": "Skip",
-			"trans": "跳過"
 		}
 	},
 	"selectAmountModal": {
@@ -10016,6 +10062,10 @@
 		}
 	},
 	"uiScale": {
+		"auto": {
+			"eng": "Auto",
+			"trans": "自動"
+		},
 		"huge": {
 			"name": {
 				"eng": "Huge",

@@ -1421,6 +1421,12 @@
 			"trans": "画像を送信する"
 		}
 	},
+	"chatMessageModal": {
+		"gangNotFound": {
+			"eng": "Gang not found",
+			"trans": "ギャングが見つかりません"
+		}
+	},
 	"chatPreview": {
 		"noMessage": {
 			"eng": "no message",
@@ -1629,12 +1635,20 @@
 	},
 	"clanImagePage": {
 		"bannerImage": {
+			"description": {
+				"eng": "Banner image will be displayed on the territory banner, recommended size is ${ratio}",
+				"trans": "バナー画像はテリトリーバナーに表示されます。推奨サイズは${ratio}です。"
+			},
 			"title": {
 				"eng": "Banner Image",
 				"trans": "バナー画像"
 			}
 		},
 		"mainImage": {
+			"description": {
+				"eng": "Main image will be displayed on the gang page, recommended size is ${ratio}",
+				"trans": "ギャングページに表示されるメイン画像の推奨サイズは${ratio}です。"
+			},
 			"title": {
 				"eng": "Main Image",
 				"trans": "メイン画像"
@@ -2350,6 +2364,10 @@
 			"enemyInRoom2": {
 				"eng": "You cannot perform this action while there are enemies nearby",
 				"trans": "敵が近くにいる間は実行できません。"
+			},
+			"failedToLoadAssets": {
+				"eng": "Failed to load assets: ${error}",
+				"trans": "アセットの読み込みに失敗しました: ${error}"
 			},
 			"maxLootLevelDifference": {
 				"eng": "You cannot loot this chest because your level is too high",
@@ -6322,6 +6340,10 @@
 			"eng": "Report & Block",
 			"trans": "通報＆ブロック"
 		},
+		"sendMail": {
+			"eng": "Send Mail",
+			"trans": "メールを送信"
+		},
 		"system": {
 			"eng": "System",
 			"trans": "システム"
@@ -6480,6 +6502,36 @@
 		"serviceDown": {
 			"eng": "Motto editing is temporally disabled due to external service downtime, please try again later",
 			"trans": "外部サービスのダウンタイムにより、編集機能が一時的に無効になっています。後でもう一度お試しください。"
+		}
+	},
+	"moralityMeter": {
+		"criminal": {
+			"title": {
+				"eng": "Criminal",
+				"trans": "犯罪者"
+			}
+		},
+		"neutral": {
+			"count": {
+				"eng": "${amount} Citizen arrests",
+				"trans": "${amount}人の市民逮捕"
+			},
+			"title": {
+				"eng": "Neutral",
+				"trans": "ニュートラル"
+			}
+		},
+		"vigilante": {
+			"title": {
+				"eng": "Vigilante",
+				"trans": "自警団"
+			}
+		},
+		"villainous": {
+			"count": {
+				"eng": "${amount} PvP initiated",
+				"trans": "${amount}のPvPが開始されました"
+			}
 		}
 	},
 	"notification": {
@@ -8127,12 +8179,6 @@
 				"eng": "Received",
 				"trans": "受信しました。"
 			}
-		}
-	},
-	"sceneContainer": {
-		"skip": {
-			"eng": "Skip",
-			"trans": "スキップ"
 		}
 	},
 	"selectAmountModal": {
@@ -10016,6 +10062,10 @@
 		}
 	},
 	"uiScale": {
+		"auto": {
+			"eng": "Auto",
+			"trans": "オート"
+		},
 		"huge": {
 			"name": {
 				"eng": "Huge",

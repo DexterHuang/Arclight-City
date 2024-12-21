@@ -1421,6 +1421,12 @@
 			"trans": "Kirim Gambar"
 		}
 	},
+	"chatMessageModal": {
+		"gangNotFound": {
+			"eng": "Gang not found",
+			"trans": "Geng tidak ditemukan"
+		}
+	},
 	"chatPreview": {
 		"noMessage": {
 			"eng": "no message",
@@ -1629,12 +1635,20 @@
 	},
 	"clanImagePage": {
 		"bannerImage": {
+			"description": {
+				"eng": "Banner image will be displayed on the territory banner, recommended size is ${ratio}",
+				"trans": "Gambar banner akan ditampilkan di banner wilayah, ukuran yang disarankan adalah ${ratio}"
+			},
 			"title": {
 				"eng": "Banner Image",
 				"trans": "Gambar Spanduk"
 			}
 		},
 		"mainImage": {
+			"description": {
+				"eng": "Main image will be displayed on the gang page, recommended size is ${ratio}",
+				"trans": "Gambar utama akan ditampilkan di halaman geng, ukuran yang disarankan adalah ${ratio}"
+			},
 			"title": {
 				"eng": "Main Image",
 				"trans": "Gambar Utama"
@@ -2350,6 +2364,10 @@
 			"enemyInRoom2": {
 				"eng": "You cannot perform this action while there are enemies nearby",
 				"trans": "Anda tidak dapat melakukan tindakan ini saat ada musuh di sekitar"
+			},
+			"failedToLoadAssets": {
+				"eng": "Failed to load assets: ${error}",
+				"trans": "Gagal memuat aset: ${error}"
 			},
 			"maxLootLevelDifference": {
 				"eng": "You cannot loot this chest because your level is too high",
@@ -6322,6 +6340,10 @@
 			"eng": "Report & Block",
 			"trans": "Laporkan & Blokir"
 		},
+		"sendMail": {
+			"eng": "Send Mail",
+			"trans": "Kirim Email"
+		},
 		"system": {
 			"eng": "System",
 			"trans": "Sistem"
@@ -6480,6 +6502,36 @@
 		"serviceDown": {
 			"eng": "Motto editing is temporally disabled due to external service downtime, please try again later",
 			"trans": "Pengeditan motto sementara dinonaktifkan karena layanan eksternal sedang mengalami gangguan, silakan coba lagi nanti"
+		}
+	},
+	"moralityMeter": {
+		"criminal": {
+			"title": {
+				"eng": "Criminal",
+				"trans": "Kejahatan"
+			}
+		},
+		"neutral": {
+			"count": {
+				"eng": "${amount} Citizen arrests",
+				"trans": "${amount} Penangkapan Warga"
+			},
+			"title": {
+				"eng": "Neutral",
+				"trans": "Netral"
+			}
+		},
+		"vigilante": {
+			"title": {
+				"eng": "Vigilante",
+				"trans": "Vigilante"
+			}
+		},
+		"villainous": {
+			"count": {
+				"eng": "${amount} PvP initiated",
+				"trans": "${amount} PvP dimulai"
+			}
 		}
 	},
 	"notification": {
@@ -8127,12 +8179,6 @@
 				"eng": "Received",
 				"trans": "Diterima"
 			}
-		}
-	},
-	"sceneContainer": {
-		"skip": {
-			"eng": "Skip",
-			"trans": "Lewati"
 		}
 	},
 	"selectAmountModal": {
@@ -10016,6 +10062,10 @@
 		}
 	},
 	"uiScale": {
+		"auto": {
+			"eng": "Auto",
+			"trans": "Auto"
+		},
 		"huge": {
 			"name": {
 				"eng": "Huge",
