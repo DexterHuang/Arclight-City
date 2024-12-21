@@ -6,6 +6,14 @@
 
 **If you find an exploit please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
+
+### 0.0.66
+
+-  Added morality meter on player's profile, it is defined by the amount of citizen arrest and pvp initiated (attacking an non-hostile/non-wanted player)
+-  Added gang display when clicking on player's message
+-  Multiple optimization
+
+
 ### 0.0.66
 
 -  Updated rendering engine, stronghold should render faster/consume less battery. 
