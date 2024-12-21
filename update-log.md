@@ -7,9 +7,9 @@
 **If you find an exploit please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
 
-### 0.0.66
+### 0.0.67
 
--  Added morality meter on player's profile, it is defined by the amount of citizen arrest and pvp initiated (attacking an non-hostile/non-wanted player)
+-  Added morality meter on player's profile, it is defined by the amount of citizen arrest and pvp initiated (attacking an non-hostile/non-wanted player), this morality will only start counting on this update, previous pvp actions does not affect your current morality status
 -  Added gang display when clicking on player's message
 -  Multiple optimization
 
