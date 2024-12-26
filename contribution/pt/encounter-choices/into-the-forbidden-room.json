@@ -1,0 +1,20 @@
+{
+  "story": "Você se depara com um duto de ventilação escondido em um dos corredores da fortaleza. Ao olhar para a escuridão, você nota um brilho fraco emanando de dentro. O duto parece levar a uma parte desconhecida do complexo. O que você faz?",
+  "actions": [
+    {
+      "action": "Descer pelo duto de ventilação",
+      "good": "Você navega pelos dutos estreitos e se encontra em uma pequena sala mal iluminada, cheia de fileiras de servidores zumbindo. O ar está carregado com o cheiro de ozônio e circuitos queimados. Você consegue sondar alguns componentes valiosos dos destroços.",
+      "bad": "Sua descida pelo duto aciona um alarme de segurança, e a sala começa a se encher de gás nocivo. Você leva dano enquanto tenta encontrar uma rota de escape em meio aos vapores tóxicos."
+    },
+    {
+      "action": "Procurar na grade de ventilação por um painel oculto ou ponto de acesso",
+      "good": "Você nota uma leve discrepância no design da grade e consegue abri-la, revelando um compartimento escondido contendo alguns gadgets úteis. Seu olhar atento aos detalhes valeu a pena.",
+      "bad": "Sua busca por um painel oculto ativa uma armadilha, fazendo com que o duto de ventilação comece a girar em alta velocidade. Você leva dano enquanto luta para se segurar."
+    },
+    {
+      "action": "Chamar o pessoal de manutenção para ajudar a acessar o duto de ventilação",
+      "good": "Você ouve o som de passos se aproximando e logo se vê cara a cara com um trabalhador de manutenção carrancudo, mas amigável, que o ajuda a navegar pelo sistema de ventilação. Ele até lhe entrega algumas ferramentas valiosas.",
+      "bad": "Seu pedido de ajuda é mal interpretado como um sinal de socorro, e uma equipe de membros de gangue fortemente armados chega para 'resgatá-lo'. Você leva dano no caos que se segue."
+    }
+  ]
+}

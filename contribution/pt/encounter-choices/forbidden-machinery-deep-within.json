@@ -1,0 +1,20 @@
+{
+  "story": "Você está navegando pelos corredores mal iluminados da fortaleza da gangue quando se depara com uma sala cheia de fileiras de servidores e maquinários zumbindo. O ar está carregado com o cheiro de circuitos queimados e ozônio. No centro da sala, um grande dispositivo cilíndrico pulsa com energia, emitindo um zumbido baixo que parece estar sincronizado com as máquinas ao seu redor. De repente, as luzes do dispositivo começam a piscar rapidamente, e as máquinas começam a falhar.",
+  "actions": [
+    {
+      "action": "Tentar desligar o dispositivo",
+      "good": "Você consegue desativar o dispositivo, e as máquinas voltam a funcionar normalmente. Como recompensa, você encontra um compartimento escondido contendo um item valioso. Seu raciocínio rápido salvou o dia!",
+      "bad": "Sua tentativa de desligar o dispositivo aciona uma reação em cadeia de explosões. A sala agora está cheia de destroços, e você leva dano enquanto tenta escapar."
+    },
+    {
+      "action": "Tentar acessar os servidores",
+      "good": "Você invade os servidores e obtém informações valiosas sobre as operações da gangue. Você encontra um esconderijo de itens, incluindo uma atualização rara para seu cyberdeck. Suas habilidades de hacking valeram a pena!",
+      "bad": "Sua tentativa de acessar os servidores aciona uma resposta automática de segurança. Firewalls e sistemas de detecção de intrusões são ativados, e você leva dano enquanto tenta navegar pelo labirinto digital."
+    },
+    {
+      "action": "Saia daí!",
+      "good": "Você rapidamente sai da sala, evitando o caos que está se desenrolando. Ao emergir do corredor, você encontra uma passagem secreta levando a um esconderijo de itens. Sua fuga foi recompensada.",
+      "bad": "Na sua pressa para sair, você acidentalmente aciona uma armadilha. Você cai em um buraco escondido e leva dano enquanto tenta escalar para fora. O loot permanece fora de alcance."
+    }
+  ]
+}

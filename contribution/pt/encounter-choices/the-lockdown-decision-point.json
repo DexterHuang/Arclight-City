@@ -1,0 +1,20 @@
+{
+  "story": "Você se encontra em frente a um grande elevador metálico que parece estar preso entre andares. As luzes indicadoras acima das portas estão piscando, lançando um brilho sinistro sobre a área. Você estava a caminho de uma reunião com um membro de alto escalão da sua gangue quando se deparou com este elevador com defeito. As portas estão emperradas, e não há uma indicação clara de como prosseguir. O elevador está preso entre andares, mas parece que pode ser acessível se você conseguir encontrar uma maneira de contornar os mecanismos de segurança ou desativar a sequência de desligamento automático.",
+  "actions": [
+    {
+      "action": "Tentar forçar as portas a abrir com força bruta",
+      "good": "Você consegue abrir as portas, revelando um compartimento oculto contendo itens valiosos. Sua determinação valeu a pena.",
+      "bad": "Seus esforços para forçar as portas a abrir acionam um alarme, e os sistemas de segurança automatizados são ativados. Você leva dano enquanto os mecanismos de segurança do elevador entram em ação."
+    },
+    {
+      "action": "Tentar hackear o painel de controle do elevador",
+      "good": "Você consegue contornar os protocolos de segurança, e o elevador começa a se mover novamente. Dentro, você encontra um estoque de itens valiosos.",
+      "bad": "Sua tentativa de hackeamento aciona uma sequência de desligamento de emergência, e o elevador fica às escuras. Você leva dano enquanto os sistemas automáticos tentam reinicializar."
+    },
+    {
+      "action": "Procurar uma rota alternativa ao redor do elevador preso",
+      "good": "Você descobre um passageiro oculto que permite contornar o elevador completamente. Dentro, você encontra um cache valioso de itens.",
+      "bad": "Enquanto procura uma rota alternativa, você fica preso em um duto de ar estreito. Você leva dano enquanto luta para se libertar."
+    }
+  ]
+}

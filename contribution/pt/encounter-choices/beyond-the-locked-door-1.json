@@ -1,0 +1,20 @@
+{
+  "story": "Você se encontra em uma seção da fortaleza da gangue que foi isolada devido a um projeto experimental que deu errado. O ar está denso com fumaças nocivas, e placas de aviso coladas nas paredes alertam sobre o perigo iminente. Você precisa navegar por essa área traiçoeira sem ativar alarmes ou se machucar. O que você faz?",
+  "actions": [
+    {
+      "action": "Avançar cautelosamente, desviando das áreas perigosas",
+      "good": "Você consegue evitar ativar armadilhas ou alarmes, e ao chegar do outro lado, descobre uma sala de armazenamento secreta contendo itens valiosos. Sua navegação cuidadosa valeu a pena.",
+      "bad": "Enquanto você se move pela área, acidentalmente ativa uma placa de pressão, fazendo com que uma parte do chão desmorone sob seus pés. Você leva dano da queda, mas consegue escapar com vida. O loot permanece fora de alcance."
+    },
+    {
+      "action": "Usar seu conhecimento dos sistemas de segurança da gangue para desativar potenciais ameaças",
+      "good": "Você desativa habilidosamente os sistemas de segurança da área, permitindo que você prossiga sem se preocupar com alarmes ou armadilhas. Você encontra um esconderijo de itens valiosos e os reivindica como seus.",
+      "bad": "Sua tentativa de desativar os sistemas de segurança ativa um protocolo de backup, fazendo com que toda a área seja selada. Você leva dano das fumaças tóxicas, mas consegue escapar com vida. O loot permanece fora de alcance."
+    },
+    {
+      "action": "Procurar uma rota alternativa que evite as áreas perigosas",
+      "good": "Você encontra uma passagem secreta que o leva ao redor da área traiçoeira, e ao chegar do outro lado, descobre um esconderijo valioso de itens. Sua engenhosidade valeu a pena.",
+      "bad": "Enquanto procura uma rota alternativa, você fica preso em um duto de ventilação. Você leva dano pelo espaço confinado, mas consegue escapar com vida. O loot permanece fora de alcance."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "story": "Você se encontra em frente a um grande incinerador de aparência ominosa no coração da Instalação de Reciclagem. O ar está denso com fumaças tóxicas e o cheiro de plástico queimado. De repente, você ouve o som de máquinas ganhando vida atrás das portas do incinerador. O que você faz?",
+  "actions": [
+    {
+      "action": "Investigar a fonte do barulho",
+      "good": "Você se aproxima cautelosamente do incinerador e encontra um compartimento escondido contendo itens valiosos. Sua curiosidade compensa, e você descobre um estoque de equipamentos úteis.",
+      "bad": "Enquanto você investiga, as máquinas atrás das portas do incinerador começam a falhar, fazendo com que superaqueçam e soltem fumaça tóxica. Você sofre dano ao inalar as fumaças, mas o loot permanece escondido."
+    },
+    {
+      "action": "Tentar desativar o incinerador",
+      "good": "Com suas habilidades, você consegue sabotar os controles do incinerador, desligando-o e evitando uma explosão catastrófica. Ao fazer isso, você encontra um compartimento escondido contendo itens valiosos.",
+      "bad": "Sua tentativa de desativar o incinerador aciona um protocolo de desligamento de emergência, fazendo com que os sistemas de segurança da instalação entrem em lockdown. Você sofre dano devido ao caos resultante, mas o loot permanece fora de alcance."
+    },
+    {
+      "action": "Escapar da área e encontrar uma rota mais segura",
+      "good": "Você rapidamente sai da Instalação de Reciclagem, encontrando uma passagem secreta que o leva de volta a uma parte mais segura da fortaleza da gangue. Você descobre um estoque de itens úteis ao longo do caminho.",
+      "bad": "Enquanto tenta escapar, você cai em uma armadilha de segurança armada pela IA da instalação. Você sofre dano pela armadilha, mas consegue se libertar e continuar seu caminho."
+    }
+  ]
+}

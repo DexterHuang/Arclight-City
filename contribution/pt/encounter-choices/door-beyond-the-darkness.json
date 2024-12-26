@@ -1,0 +1,20 @@
+{
+  "story": "Você se encontra em uma sala mal iluminada, cheia de máquinas antigas e ferramentas espalhadas. O ar está denso com o cheiro de graxa e ozônio. No centro da sala, há uma impressora 3D de aparência antiga, com sua estrutura de metal coberta de poeira e teias de aranha. O que você faz?",
+  "actions": [
+    {
+      "action": "Tentar interagir com a impressora 3D",
+      "good": "A impressora 3D ganha vida, e um pequeno compartimento se abre, revelando um estoque de itens valiosos. Você pega o loot.",
+      "bad": "Sua tentativa de interagir com a impressora 3D provoca uma descarga elétrica. Você leva dano, mas consegue escapar."
+    },
+    {
+      "action": "Procurar um manual ou instruções sobre como usar a impressora 3D",
+      "good": "Você encontra um compartimento escondido contendo um manual detalhado e um conjunto de ferramentas especializadas. Com isso, você consegue montar um novo componente da impressora 3D.",
+      "bad": "Sua busca por um manual leva você a descobrir que a sala foi comprometida. Você leva dano enquanto a área começa a se encher de gás nocivo."
+    },
+    {
+      "action": "Sair da sala e explorar outras áreas da fortaleza da gangue",
+      "good": "Você consegue escapar da sala sem acionar alarmes, encontrando novos caminhos e oportunidades para adquirir itens valiosos.",
+      "bad": "Ao sair da sala, você acidentalmente ativa um sensor escondido. Você leva dano de uma sequência automática de derrubada iniciada pelos sistemas de segurança da fortaleza."
+    }
+  ]
+}

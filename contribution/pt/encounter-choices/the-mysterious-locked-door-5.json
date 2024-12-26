@@ -1,0 +1,20 @@
+{
+  "story": "Você se encontra em uma sala de servidores mal iluminada dentro da fortaleza da gangue. Fileiras de servidores e maquinários zumbindo alinham-se nas paredes, lançando um brilho sinistro no chão. No centro da sala, você nota uma grande porta metálica com luzes piscando e uma placa que diz \"Apenas Pessoal Autorizado\". O ar está carregado com o cheiro de circuitos queimados e ozônio. Um leve zumbido de eletricidade emana dos servidores, dificultando a concentração. Você percebe vários painéis de manutenção nas paredes, cada um com um pequeno teclado e uma série de luzes piscando.",
+  "actions": [
+    {
+      "action": "Tentar hackear um dos painéis de manutenção",
+      "good": "Suas habilidades de hackeamento lhe concedem acesso a um painel oculto contendo itens valiosos. O conteúdo do painel agora está ao seu alcance.",
+      "bad": "Sua tentativa de hackear ativa um alarme, e a sala é preenchida com um flash ofuscante de luz. Você sofre dano devido à intensa radiação, mas o loot permanece fora de vista."
+    },
+    {
+      "action": "Desativar os painéis de manutenção para evitar armadilhas potenciais",
+      "good": "Você desativa cuidadosamente os painéis, evitando que armadilhas ou alarmes sejam acionados. Um compartimento oculto se abre, revelando itens valiosos.",
+      "bad": "Suas ações acionam inadvertidamente uma armadilha, e você é pulverizado com uma substância adesiva e pegajosa. O loot agora está fora de alcance devido à sua situação."
+    },
+    {
+      "action": "Procurar na sala um método alternativo para acessar a porta trancada",
+      "good": "Após procurar, você encontra um cartão-chave escondido em um dos servidores. Você o usa para destrancar a porta, garantindo acesso a itens valiosos.",
+      "bad": "Enquanto procura, você acidentalmente ativa uma placa de pressão, fazendo com que o chão comece a se encher com um gás nocivo. Você sofre dano enquanto tenta escapar."
+    }
+  ]
+}

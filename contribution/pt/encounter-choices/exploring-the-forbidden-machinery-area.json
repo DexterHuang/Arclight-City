@@ -1,0 +1,20 @@
+{
+  "story": "Você se encontra na borda de uma grande câmara mal iluminada, cheia de resíduos tóxicos. O ar está denso com vapores nocivos, e você pode ouvir o som de máquinas falhando à distância. Uma estreita passarela se estende pela sala, mas não está claro se é seguro atravessá-la. O que você faz?",
+  "actions": [
+    {
+      "action": "Atravessar a passarela com cautela",
+      "good": "Você consegue navegar pelo caminho traiçoeiro sem sofrer danos e encontra um esconderijo de itens valiosos do outro lado. Sua rapidez de raciocínio compensa.",
+      "bad": "Ao pisar na passarela, ela cede sob você. Você cai nos resíduos tóxicos abaixo, levando dano, mas consegue escapar com vida. O loot permanece fora de alcance."
+    },
+    {
+      "action": "Procurar uma maneira de contornar a passarela e encontrar uma rota alternativa",
+      "good": "Você descobre uma passagem secreta que permite evitar a passarela completamente. Você encontra um esconderijo de itens valiosos e volta para a segurança.",
+      "bad": "Enquanto procura uma rota alternativa, você ativa uma armadilha mortal. Um peso enorme cai do teto, mas você consegue desviar a tempo. O loot permanece fora de alcance."
+    },
+    {
+      "action": "Tentar consertar a maquinaria com defeito",
+      "good": "Você consegue consertar a maquinaria, que começa a limpar parte dos resíduos tóxicos na sala. Você encontra um esconderijo de itens valiosos escondido sob os destroços.",
+      "bad": "Suas tentativas de consertar a maquinaria acionam uma reação em cadeia que piora a situação. Os resíduos tóxicos se tornam ainda mais mortais, e você leva dano ao tentar escapar. O loot permanece fora de alcance."
+    }
+  ]
+}

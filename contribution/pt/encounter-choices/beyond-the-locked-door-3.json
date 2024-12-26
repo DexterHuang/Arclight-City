@@ -1,0 +1,20 @@
+{
+  "story": "Você se encontra em um depósito mal iluminado, no fundo da fortaleza da gangue. O ar está carregado de poeira e o cheiro de máquinas antigas. Ao examinar o local, você nota uma grande caixa no centro, adornada com sinais de aviso e selos de segurança. De repente, o som de metal rangendo ecoa pela sala, e a caixa começa a se mover.",
+  "actions": [
+    {
+      "action": "Tentar abrir a caixa à força",
+      "good": "Com um pouco de esforço, você consegue soltar os selos e levantar a tampa. Dentro, você encontra um estoque de itens valiosos que os líderes da gangue estavam escondendo.",
+      "bad": "Ao tentar forçar a caixa, você ativa um mecanismo de segurança que libera uma nuvem de gás tóxico. Você sofre dano ao inalar os vapores, mas a caixa permanece fechada."
+    },
+    {
+      "action": "Procurar uma maneira de desativar os selos de segurança",
+      "good": "Depois de examinar a caixa e a área ao redor, você encontra um painel oculto com um teclado. Ao hackear o teclado, você desativa os selos de segurança e ganha acesso ao conteúdo da caixa.",
+      "bad": "Sua tentativa de hackear o teclado dispara um alarme que alerta os líderes da gangue sobre sua presença. Você sofre dano de uma bala perdida disparada por um dos guardas, mas a caixa permanece selada."
+    },
+    {
+      "action": "Tentar mover a caixa",
+      "good": "Com grande esforço, você consegue rolar a caixa para fora do depósito e para um corredor próximo. Ao investigar mais, você descobre que a caixa é na verdade uma rota de saída secreta para os líderes da gangue. Você encontra um estoque de itens valiosos e se ajuda.",
+      "bad": "Sua tentativa de mover a caixa ativa uma armadilha que faz com que ela caia em cima de você. Você sofre dano do impacto, mas a caixa permanece estacionária."
+    }
+  ]
+}

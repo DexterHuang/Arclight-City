@@ -1,0 +1,20 @@
+{
+  "story": "Você se encontra em frente a um antigo drone de manutenção robótico enferrujado. Ele está deitado de lado, parcialmente enterrado sob um monte de destroços. Os membros do drone estão torcidos e danificados, mas parece que ainda está operacional. A tela do drone pisca com códigos de erro e mensagens de aviso. O que você faz?",
+  "actions": [
+    {
+      "action": "Tentar consertar o drone",
+      "good": "Com sua expertise técnica, você consegue contornar os sistemas com defeito do drone e reativar suas funções de manutenção. Você é recompensado com um estoque de itens e ferramentas valiosas.",
+      "bad": "Suas tentativas de consertar o drone acionam uma reação em cadeia que faz com que ele funcione ainda pior. O drone começa a emitir um zumbido agudo, atraindo a atenção indesejada de outros membros da gangue. Você leva dano enquanto eles investigam o barulho."
+    },
+    {
+      "action": "Sondar o drone em busca de peças",
+      "good": "Você desmonta cuidadosamente o drone, salvando componentes e ferramentas úteis que podem te ajudar em suas futuras empreitadas.",
+      "bad": "Enquanto você começa a desmantelar o drone, seus sistemas começam a desligar, fazendo com que ele entre em um modo de segurança. Os membros do drone se lançam para fora, tentando agarrá-lo e restringi-lo. Você leva dano enquanto luta para se libertar."
+    },
+    {
+      "action": "Ativar o drone remotamente",
+      "good": "Usando suas habilidades de hacking, você consegue retomar o controle dos sistemas do drone e ativar suas funções de manutenção. Você é recompensado com um estoque de itens e ferramentas valiosas.",
+      "bad": "Sua tentativa de ativar o drone remotamente aciona um protocolo de segurança que alerta o sistema de IA da gangue. A IA lança um contra-ataque, implantando torres e drones para te suprimir. Você leva dano enquanto eles tentam te sobrecarregar."
+    }
+  ]
+}

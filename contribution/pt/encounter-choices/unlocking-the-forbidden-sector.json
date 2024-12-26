@@ -1,0 +1,20 @@
+{
+  "story": "Você está navegando por uma seção labiríntica da fortaleza da gangue, tentando encontrar uma saída.",
+  "actions": [
+    {
+      "action": "Tente contornar o mecanismo de bloqueio da porta usando seu conhecimento de cibernética e eletrônicos",
+      "good": "Depois de examinar cuidadosamente a fiação da fechadura, você consegue desativar suas medidas de segurança sem acionar alarmes. Você encontra um painel oculto contendo itens valiosos.",
+      "bad": "Suas tentativas de contornar a fechadura acionam um alarme, fazendo com que câmeras próximas foquem na sua localização. Você leva dano de uma granada de atordoamento próxima."
+    },
+    {
+      "action": "Use força bruta para tentar arrombar a porta",
+      "good": "Com grande esforço, você consegue abrir a porta, revelando uma sala secreta cheia de itens valiosos. Sua força compensa.",
+      "bad": "Você se exaure tentando arrombar a porta, apenas para descobrir que ela estava reforçada com uma armadilha. A porta se fecha com força atrás de você, e você leva dano do impacto."
+    },
+    {
+      "action": "Procure uma rota alternativa ao redor da porta trancada",
+      "good": "Depois de vasculhar os corredores próximos, você encontra um passagem secreta levando para o outro lado da porta trancada. Você descobre itens valiosos sem acionar alarmes.",
+      "bad": "Enquanto tenta encontrar uma rota alternativa, você cai em uma armadilha armada pela equipe de segurança da gangue. Você leva dano da armadilha e é forçado a recuar."
+    }
+  ]
+}

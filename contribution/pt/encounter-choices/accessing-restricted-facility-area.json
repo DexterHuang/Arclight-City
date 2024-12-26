@@ -1,0 +1,20 @@
+{
+  "story": "Você se encontra em frente a uma grande porta metálica com uma série de painéis complexos. A porta está adornada com sinais de aviso e símbolos de perigo, indicando que o que quer que esteja atrás dela não é para os fracos de coração.",
+  "actions": [
+    {
+      "action": "Tentar abrir o painel solto",
+      "good": "Você consegue remover o painel, revelando um compartimento oculto contendo itens e ferramentas valiosos. Sua curiosidade valeu a pena.",
+      "bad": "O painel solto aciona um mecanismo oculto, fazendo com que a porta comece a se fechar. Você quase fica preso, mas leva dano dos sistemas de defesa da porta."
+    },
+    {
+      "action": "Usar seu cyberdeck para invadir o sistema de segurança da porta",
+      "good": "Suas habilidades de hacking permitem que você contorne o sistema de segurança, concedendo acesso ao outro lado da porta e potencialmente loot valioso.",
+      "bad": "Sua tentativa de hacking é detectada pela IA da porta, que responde ativando um enxame de micro-drones que atacam você. Você leva dano dos ataques dos drones."
+    },
+    {
+      "action": "Procurar uma maneira alternativa de entrar na área segura",
+      "good": "Após explorar os corredores próximos, você descobre um duto de ar oculto que leva ao outro lado da porta. Você encontra loot e ferramentas valiosas dentro.",
+      "bad": "Enquanto procura uma rota alternativa, você acidentalmente aciona uma armadilha, fazendo com que o chão sob você desmorone. Você cai em um buraco cheio de resíduos tóxicos, levando dano, mas consegue escapar."
+    }
+  ]
+}

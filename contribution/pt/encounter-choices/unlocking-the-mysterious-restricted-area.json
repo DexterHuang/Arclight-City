@@ -1,0 +1,20 @@
+{
+  "story": "Você está diante de uma enorme porta de metal com uma placa que diz \"Apenas Pessoal Autorizado.\" A porta leva a um estreito sistema de túneis de manutenção, que dizem conter itens valiosos escondidos pelo especialista em tecnologia da gangue. O que você faz?",
+  "actions": [
+    {
+      "action": "Tentar se esgueirar pelos túneis sem ser detectado",
+      "good": "Você se move furtivamente, evitando armadilhas mortais e encontrando um esconderijo de itens valiosos.",
+      "bad": "Sua imprudência ativa uma armadilha, causando dano, mas não te matando."
+    },
+    {
+      "action": "Procurar um duto de ventilação ou uma entrada alternativa",
+      "good": "Você encontra um duto de ventilação que leva diretamente ao esconderijo, permitindo que você recupere alguns itens valiosos sem ativar armadilhas.",
+      "bad": "Enquanto procura, você acidentalmente ativa uma armadilha, levando dano, mas não te matando."
+    },
+    {
+      "action": "Usar seu conhecimento dos sistemas de segurança da gangue para desativar os alarmes e luzes",
+      "good": "Você desativa com sucesso os sistemas de segurança, permitindo que você navegue pelos túneis sem ser detectado e encontre itens valiosos.",
+      "bad": "Sua tentativa ativa uma fonte de energia reserva, causando dano, mas não te matando."
+    }
+  ]
+}

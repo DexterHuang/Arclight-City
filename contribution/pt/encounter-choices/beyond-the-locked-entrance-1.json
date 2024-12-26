@@ -1,0 +1,20 @@
+{
+  "story": "Você se encontra em um apertado depósito no fundo da fortaleza da gangue. Prateleiras repletas de caixas e baús se estendem até o teto, projetando longas sombras pelo chão. Um leve cheiro de desinfetante paira no ar, e o suave zumbido de máquinas ecoa de algum lugar além das paredes.",
+  "actions": [
+    {
+      "action": "Abra a caixa rotulada como 'perigo biológico'",
+      "good": "Você levanta cautelosamente a tampa e revela um estoque de itens valiosos e uma nota que diz \"Para olhos apenas\". Sua curiosidade é recompensada.",
+      "bad": "Ao abrir a caixa, uma nuvem de gás nocivo é liberada, causando danos leves."
+    },
+    {
+      "action": "Procure por um duto de ar no depósito",
+      "good": "Você encontra um painel escondido do sistema de ventilação, que leva a um esconderijo de itens valiosos e uma mensagem enigmática que sugere uma conspiração mais profunda.",
+      "bad": "Ao subir no duto, você aciona um mecanismo de segurança que faz os dutos se encherem de gás nocivo. Você sofre danos antes de conseguir escapar."
+    },
+    {
+      "action": "Use caixas próximas para criar uma barricada",
+      "good": "Você rapidamente reúne caixas e baús para bloquear a porta, garantindo um esconderijo de itens valiosos dentro do depósito.",
+      "bad": "Sua tentativa de criar uma barricada atrai a atenção indesejada das forças de segurança da gangue. Eles quebram a barreira, e você sofre danos na confusão que se segue."
+    }
+  ]
+}

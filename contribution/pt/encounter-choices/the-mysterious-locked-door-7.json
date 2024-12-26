@@ -1,0 +1,20 @@
+{
+  "story": "Você entra em um laboratório mal iluminado, no fundo da fortaleza da gangue, onde ouviu rumores sobre um dispositivo experimental que foi deixado sem supervisão. Ao se aproximar da bancada central, você nota um console elegante e de alta tecnologia cercado por vários componentes e fios. O dispositivo parece ser algum tipo de protótipo, mas está claro que algo deu terrivelmente errado. O que você faz?",
+  "actions": [
+    {
+      "action": "Tentar reiniciar o dispositivo",
+      "good": "Com um lampejo de esperança, o dispositivo liga novamente, e um compartimento oculto se abre, revelando um estoque de itens valiosos. Sua expertise em tecnologia ajuda a estabilizar o sistema.",
+      "bad": "Sua tentativa de reiniciar o dispositivo provoca uma reação instável, causando uma cadeia de descargas elétricas que causam dano a você. O loot permanece fora de alcance."
+    },
+    {
+      "action": "Desativar a fonte de energia",
+      "good": "Você desconecta cuidadosamente a fonte de energia, evitando mais falhas e ganhando acesso ao compartimento de armazenamento do dispositivo. Sua cautela compensa ao encontrar itens valiosos dentro.",
+      "bad": "Sua decisão de desativar a fonte de energia faz um sistema de backup ser ativado, liberando uma explosão de energia que te empurra para trás e causa dano. O loot permanece escondido."
+    },
+    {
+      "action": "Sondar por componentes para consertar o dispositivo",
+      "good": "Depois de vasculhar estações de trabalho e armários próximos, você consegue encontrar as peças necessárias para consertar o dispositivo. Sua engenhosidade lhe garante acesso a um estoque de itens valiosos.",
+      "bad": "Sua busca por componentes te distrai de perigos potenciais na área, e você acidentalmente ativa uma armadilha oculta, levando dano antes de escapar. O loot permanece elusivo."
+    }
+  ]
+}

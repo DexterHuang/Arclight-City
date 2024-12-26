@@ -1,0 +1,20 @@
+{
+  "story": "Você se aproxima cautelosamente da grande porta metálica, sua superfície crepitando com energia de alta voltagem. O ar está carregado de eletricidade, e você pode sentir os pelos do seu braço se eriçando. Uma tela esfarrapada de placas de circuito pendura-se na parede acima do teclado, cobrindo-o parcialmente. Você nota que a tela pisca com uma luz azul fraca, como se tentasse transmitir uma mensagem. O que você faz?",
+  "actions": [
+    {
+      "action": "Tentar hackear o teclado",
+      "good": "Seus dedos dançam pelo teclado com precisão, e você consegue contornar os sistemas de segurança. A porta se abre, revelando um esconderijo de itens valiosos.",
+      "bad": "Sua tentativa de hackear o teclado aciona uma sequência de desligamento automático. A porta se fecha com força, e você leva dano da descarga elétrica."
+    },
+    {
+      "action": "Forçar a porta a abrir com força bruta",
+      "good": "Com uma demonstração de grande força, você consegue abrir a porta, revelando um estoque de itens valiosos. Sua determinação traz recompensas.",
+      "bad": "Seus esforços para forçar a porta a abrir acionam uma armadilha elétrica. Uma explosão de eletricidade te empurra para trás, causando dano e deixando o loot fora de alcance."
+    },
+    {
+      "action": "Tentar decifrar a mensagem na tela da placa de circuito",
+      "good": "Você examina cuidadosamente a luz azul piscante e consegue decifrar uma mensagem oculta. A mensagem te leva a um esconderijo secreto de itens valiosos.",
+      "bad": "Enquanto tenta decifrar a mensagem, você acidentalmente ativa um sistema de alarme. Torres automatizadas surgem das paredes, disparando em sua direção. Você leva dano, mas o loot permanece fora de alcance."
+    }
+  ]
+}

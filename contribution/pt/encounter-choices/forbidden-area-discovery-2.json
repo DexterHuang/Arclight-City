@@ -1,0 +1,20 @@
+{
+  "story": "Você se encontra parado na borda de uma grande sala mal iluminada dentro da fortaleza da gangue. As paredes estão forradas com antigos servidores de computador, cujas telas piscam com estática. No centro da sala, um enorme servidor principal zune alto, lançando um brilho sinistro sobre o espaço. De repente, você nota que várias telas dos servidores começam a piscar com mensagens urgentes. O que você faz?",
+  "actions": [
+    {
+      "action": "Tentar acessar e ler as mensagens nas telas dos servidores",
+      "good": "Você consegue acessar as mensagens, que revelam um esconderijo secreto de componentes tecnológicos valiosos. Seu raciocínio rápido lhe rende um loot útil.",
+      "bad": "Sua tentativa de acessar as mensagens aciona um bloqueio de segurança, e o servidor principal começa a superaquecer. Você sofre dano devido ao calor intenso, mas o loot permanece fora de alcance."
+    },
+    {
+      "action": "Tentar desativar o servidor principal para evitar qualquer alarme potencial",
+      "good": "Você consegue desativar o servidor principal, silenciando seus alarmes e permitindo que você procure por compartimentos ou esconderijos secretos. Sua engenhosidade compensa com um loot valioso.",
+      "bad": "Sua tentativa de desativar o servidor principal faz com que ele apresente uma falha, soltando faíscas e descargas elétricas em todas as direções. Você sofre dano devido ao caos, mas o loot permanece fora de alcance."
+    },
+    {
+      "action": "Sair da sala e explorar outras áreas da fortaleza da gangue",
+      "good": "Você decide sair da sala e explorar outras áreas da fortaleza da gangue, onde você se depara com um esconderijo secreto de itens valiosos. Sua curiosidade lhe rende um loot útil.",
+      "bad": "Ao sair da sala, você aciona um alarme que alerta o resto da gangue. Você sofre dano devido ao caos que se segue, mas o loot permanece fora de alcance."
+    }
+  ]
+}

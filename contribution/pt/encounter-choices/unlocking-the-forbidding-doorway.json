@@ -1,0 +1,20 @@
+{
+  "story": "Você se encontra em frente a um grande elevador metálico na fortaleza da gangue. As portas estão fechadas, mas você pode ouvir o suave zumbido de máquinas vindo de dentro. Disseram que esse elevador leva a uma área de armazenamento secreta, mas você precisará descobrir como acessá-la.",
+  "actions": [
+    {
+      "action": "Tentar forçar o elevador a abrir",
+      "good": "Você consegue abrir as portas, revelando uma sala mal iluminada cheia de prateleiras repletas de itens valiosos. Sua força e determinação valem a pena.",
+      "bad": "Seus esforços para forçar o elevador a abrir acionam um mecanismo de segurança, fazendo com que as portas se fechem com força e causando dano a você. O loot permanece escondido."
+    },
+    {
+      "action": "Procurar um botão oculto ou painel de controle para ativar o elevador",
+      "good": "Depois de vasculhar a área, você encontra um pequeno botão discreto que ativa os sistemas do elevador. Você ganha acesso à área de armazenamento e descobre alguns itens valiosos.",
+      "bad": "Sua busca por um botão oculto ativa um sistema de segurança, fazendo com que as luzes da sala pisquem e causando dano a você. O loot permanece fora de alcance."
+    },
+    {
+      "action": "Usar seu conhecimento do layout da fortaleza para encontrar uma rota alternativa para a área de armazenamento",
+      "good": "Você navega pelos corredores, usando seu conhecimento do layout da fortaleza para encontrar uma passagem secreta que leva diretamente à área de armazenamento. Você descobre alguns itens valiosos e se sente orgulhoso de sua engenhosidade.",
+      "bad": "Enquanto navega pelos corredores, você se perde no layout labiríntico da fortaleza. Você se depara com um beco sem saída e leva algum dano antes de encontrar o caminho de volta para o elevador."
+    }
+  ]
+}

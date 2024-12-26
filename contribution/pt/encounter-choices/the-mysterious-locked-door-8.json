@@ -1,0 +1,20 @@
+{
+  "story": "Você está diante de uma enorme porta de metal com um teclado bloqueado. A parede acima exibe um cronômetro de contagem regressiva, e o ar está carregado de tensão.",
+  "actions": [
+    {
+      "action": "Digite o código correto para desbloquear a porta",
+      "good": "Você digita o código corretamente, e a porta se abre, revelando um esconderijo de itens valiosos.",
+      "bad": "Você digita um código incorreto, acionando um alarme que causa dano a você. O loot permanece fora de alcance."
+    },
+    {
+      "action": "Tente arrombar a porta com força bruta",
+      "good": "Com grande força, você consegue abrir a porta, revelando um estoque de itens valiosos.",
+      "bad": "Seus esforços acionam uma armadilha escondida, causando dano a você. O loot permanece apenas fora de alcance."
+    },
+    {
+      "action": "Use seu cyberdeck para contornar o sistema de segurança",
+      "good": "Você consegue hackear o sistema, garantindo acesso a um esconderijo de itens valiosos.",
+      "bad": "Sua tentativa aciona um sistema de defesa automatizado, causando dano a você. O loot permanece tentadoramente fora de alcance."
+    }
+  ]
+}

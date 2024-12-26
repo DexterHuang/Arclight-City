@@ -1,0 +1,20 @@
+{
+  "story": "Você se encontra em um depósito mal iluminado, profundo na fortaleza da gangue. O ar está carregado com o cheiro de ozônio e circuitos queimados. Ao olhar ao redor, você nota uma estranha fonte de energia emitindo um brilho pulsante de um console próximo. A energia parece estar flutuando de forma selvagem, causando mau funcionamento nos equipamentos ao redor.",
+  "actions": [
+    {
+      "action": "Tentar estabilizar a fonte de energia",
+      "good": "Sua expertise técnica permite que você calibre a fonte de energia, e ela começa a se estabilizar. Um compartimento oculto se abre, revelando um estoque de itens valiosos. Seu pensamento rápido compensa.",
+      "bad": "Sua tentativa de estabilizar a fonte de energia causa um loop de feedback, levando a um aumento de potência que danifica os equipamentos próximos. Você sofre dano com os detritos voadores, mas consegue evitar consequências mais graves."
+    },
+    {
+      "action": "Tentar desconectar a fonte de energia",
+      "good": "Você desconecta cuidadosamente a fonte de energia, e ela para de apresentar falhas. Uma porta secreta se abre, revelando uma área secreta contendo itens valiosos. Sua abordagem cautelosa compensa.",
+      "bad": "Sua tentativa de desconectar a fonte de energia aciona um protocolo de segurança automático, liberando uma nuvem de gás nocivo que faz você tropeçar para trás. Você sofre dano com os vapores tóxicos."
+    },
+    {
+      "action": "Experimentar com a fonte de energia para ver o que acontece",
+      "good": "Você decide experimentar com a fonte de energia, e surpreendentemente ela começa a carregar seus equipamentos próximos. Um esconderijo de itens valiosos é revelado, e você consegue reivindicá-los como seus.",
+      "bad": "Sua experimentação faz com que a fonte de energia superaqueça, levando a uma falha catastrófica que destrói os equipamentos próximos. Você sofre dano com os detritos voadores, mas consegue evitar consequências mais graves."
+    }
+  ]
+}

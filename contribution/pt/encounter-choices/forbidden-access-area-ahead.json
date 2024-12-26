@@ -1,0 +1,20 @@
+{
+  "story": "Você está revirando um depósito empoeirado na fortaleza da gangue quando se depara com um console antigo e misterioso. Ele está coberto de fios e parece emitir um zumbido suave. O console está cercado por peças de computador antigas, ferramentas e o que parece ser uma estação de reparo improvisada. Uma placa na parede diz \"Projetos Experimentais - Não Toque.\" O que você faz?",
+  "actions": [
+    {
+      "action": "Tentar conectar seu cyberdeck ao console",
+      "good": "Seu cyberdeck se conecta ao console, e você ganha acesso a um banco de dados oculto contendo informações valiosas sobre as operações da gangue e possíveis alvos. Você também descobre algumas ferramentas e gadgets úteis que foram deixados para trás.",
+      "bad": "Conectar seu cyberdeck ao console causa uma sobrecarga nos sistemas, danificando o equipamento e deixando você vulnerável a tentativas de hacking de fontes desconhecidas. Você leva dano, mas consegue escapar com vida."
+    },
+    {
+      "action": "Examinar a estação de reparo e ver se consegue aprender algo",
+      "good": "Após examinar de perto a estação de reparo, você descobre um compartimento oculto contendo um conjunto de ferramentas avançadas que foram deixadas por um ex-membro da gangue. As ferramentas são úteis para atualizar seu cyberdeck ou reparar outros equipamentos.",
+      "bad": "Enquanto tenta examinar a estação de reparo, você acidentalmente ativa um mecanismo de segurança que faz o quarto se encher de fumaças nocivas. Você leva dano e precisa escapar rapidamente antes que as fumaças se tornem muito potentes."
+    },
+    {
+      "action": "Tentar ativar o console e ver o que acontece",
+      "good": "Ativar o console revela uma interface oculta que permite acessar um servidor seguro contendo informações valiosas sobre as operações da gangue e possíveis alvos. Você também descobre algumas ferramentas e gadgets úteis que foram deixados para trás.",
+      "bad": "Ativar o console faz com que ele apresente uma falha, liberando uma explosão de energia que danifica equipamentos próximos e deixa você vulnerável a ataques elétricos. Você leva dano, mas consegue escapar com vida."
+    }
+  ]
+}
