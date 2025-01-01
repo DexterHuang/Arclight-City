@@ -6,6 +6,11 @@
 
 **If you find an exploit please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
+### 0.0.68
+
+-  Fixed issues with unable to claim or use battle passes
+-  Minor update to UI
+-  Changed display method for morality meter to social credit point based
 
 ### 0.0.67
 
