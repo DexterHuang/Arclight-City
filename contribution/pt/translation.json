@@ -685,6 +685,10 @@
 		"instantFinish": {
 			"eng": "Finish Now",
 			"trans": "Terminar Agora"
+		},
+		"instantFinishConfirmTitle": {
+			"eng": "Finish task now?",
+			"trans": "Finalizar a tarefa agora?"
 		}
 	},
 	"backgroundTaskPage": {
@@ -1222,6 +1226,12 @@
 		"unlock": {
 			"eng": "Unlock",
 			"trans": "Desbloquear"
+		}
+	},
+	"battlePassSmall": {
+		"discount": {
+			"eng": "Discount",
+			"trans": "Desconto"
 		}
 	},
 	"battlePassUnlockModal": {
@@ -3923,7 +3933,7 @@
 		"all": {
 			"name": {
 				"eng": "All",
-				"trans": "All"
+				"trans": "Tudo"
 			}
 		},
 		"boots": {
@@ -6003,7 +6013,7 @@
 		"tierInput": {
 			"all": {
 				"eng": "All",
-				"trans": "All"
+				"trans": "Tudo"
 			},
 			"title": {
 				"eng": "Tier",
@@ -6466,7 +6476,7 @@
 		},
 		"selectAll": {
 			"eng": "All",
-			"trans": "All"
+			"trans": "Tudo"
 		},
 		"upgrade": {
 			"eng": "upgrade",
@@ -6512,25 +6522,19 @@
 			}
 		},
 		"neutral": {
-			"count": {
-				"eng": "${amount} Citizen arrests",
-				"trans": "${amount} Prisões de cidadãos"
-			},
 			"title": {
 				"eng": "Neutral",
 				"trans": "Neutro"
 			}
 		},
+		"socialCreditScore": {
+			"eng": "${amount} social credit score",
+			"trans": "${amount} de pontuação de crédito social"
+		},
 		"vigilante": {
 			"title": {
 				"eng": "Vigilante",
 				"trans": "Vigilante"
-			}
-		},
-		"villainous": {
-			"count": {
-				"eng": "${amount} PvP initiated",
-				"trans": "${amount} PvP iniciado"
 			}
 		}
 	},
@@ -6636,13 +6640,13 @@
 			},
 			"questCooldownLines": {
 				"eng": [
-					"Volte mais tarde, não tenho nada para você no momento.",
-					"Desculpe, mas estou sem trabalhos no momento, querida. Volte outra hora.",
-					"Desculpe, querida. A prateleira de missões está vazia no momento. Volte mais tarde."
+					"Come back later, I have nothing for you right now.",
+					"Afraid I'm fresh out of gigs, hon. Come back another time.",
+					"Sorry, darling. The quest shelf is empty at the moment. Swing by later."
 				],
 				"trans": [
 					"Volte mais tarde, não tenho nada para você no momento.",
-					"Desculpe, mas estou sem trabalhos no momento, querida. Volte outra hora.",
+					"Desculpe, estou sem trabalhos no momento, querida. Volte outra hora.",
 					"Desculpe, querida. A prateleira de missões está vazia no momento. Volte mais tarde."
 				]
 			},
@@ -6686,14 +6690,14 @@
 			},
 			"greetings": {
 				"eng": [
-					"Bem-vindo ao submundo desta cidade. Espero que você tenha algo valioso para negociar.",
-					"A noite do leilão está sempre cheia de surpresas. Você está pronto para apostar no seu destino?",
-					"Dizem que no mercado negro, você pode comprar qualquer coisa, até mesmo a sua própria salvação. Quanto vale a sua salvação para você?"
+					"Welcome to the underbelly of this city. Hope you've got something worth trading.",
+					"Auction night is always full of surprises. Are you ready to bid on your fate?",
+					"They say in the black market, you can buy anything, even your own salvation. What's your salvation worth to you?"
 				],
 				"trans": [
 					"Bem-vindo ao submundo desta cidade. Espero que você tenha algo valioso para negociar.",
-					"A noite do leilão está sempre cheia de surpresas. Você está pronto para apostar no seu destino?",
-					"Dizem que no mercado negro, você pode comprar qualquer coisa, até mesmo a sua própria salvação. Quanto vale a sua salvação para você?"
+					"A noite de leilão está sempre cheia de surpresas. Você está pronto para dar um lance no seu destino?",
+					"Dizem que no mercado negro você pode comprar qualquer coisa, até mesmo a sua própria salvação. Quanto vale a sua salvação para você?"
 				]
 			},
 			"locationName": {
@@ -6710,14 +6714,14 @@
 			},
 			"questCooldownLines": {
 				"eng": [
-					"Não agora, chromehead. Mas não se preocupe. Vou te chamar quando tiver um trampo que se encaixe nas suas habilidades.",
-					"Nada por enquanto, mas não vai reiniciar só ainda. Vou te avisar quando tiver algo picante pra oferecer. Paciência, choomba.",
-					"Sem trabalhos disponíveis, querida. Mas fique ligada, porque eu vou te chamar quando uma oportunidade irada aparecer."
+					"Not at the moment, chromehead. But don't sweat it. I'll hit you up when I've got a job that suits your skill set.",
+					"Nada right now, but don't go rebootin' just yet. I'll drop a line when I've got somethin' spicy to offer. Patience, choomba.",
+					"No gigs on tap, sweetheart. But stay frosty, 'cause I'll give you a holla when a sweet opportunity slides my way."
 				],
 				"trans": [
-					"Não agora, chromehead. Mas não se preocupe. Vou te chamar quando tiver um trampo que se encaixe nas suas habilidades.",
-					"Nada por enquanto, mas não vai reiniciar só ainda. Vou te avisar quando tiver algo picante pra oferecer. Paciência, choomba.",
-					"Sem trabalhos disponíveis, querida. Mas fique ligada, porque eu vou te chamar quando uma oportunidade irada aparecer."
+					"Não agora, chromehead. Mas não se preocupe. Eu te chamo quando tiver um trabalho que se encaixe nas suas habilidades.",
+					"Nada por enquanto, mas não vá reiniciar só ainda. Vou te avisar quando tiver algo picante pra oferecer. Paciência, choomba.",
+					"Sem trabalhos disponíveis, querida. Mas fique atenta, porque eu vou te chamar quando uma oportunidade bacana aparecer."
 				]
 			},
 			"questLines": {
@@ -6764,14 +6768,14 @@
 			},
 			"questCooldownLines": {
 				"eng": [
-					"Sem trabalhos para você, novato. Mas não se afaste muito. Eu tenho um talento para me meter em encrenca, e vou garantir que você esteja bem na frente quando a hora chegar.",
-					"Sem trabalhos no momento, mas não fique reiniciando só ainda. Vou te avisar quando tiver algo picante pra oferecer. Paciência, choomba.",
-					"Procurando uma solução, né? Desculpe, não tenho novas missões na minha mesa de operações. Mas vou manter seu nome no arquivo para quando eu tiver um trabalho que precise de uma... extração delicada."
+					"No gigs for you, rookie. But don't wander too far. I've got a knack for stumbling upon trouble, and I'll make sure you're front and center when the time comes.",
+					"No jobs at the moment, but don't go rebootin' just yet. I'll drop a line when I've got somethin' spicy to offer. Patience, choomba.",
+					"Looking for a fix, huh? Sorry, no new quests on my operating table. But I'll keep your name on file for when I've got a job that needs some... delicate extraction."
 				],
 				"trans": [
-					"Sem trabalhos para você, novato. Mas não se afaste muito. Eu tenho um talento para me meter em encrenca, e vou garantir que você esteja bem na frente quando a hora chegar.",
-					"Sem trabalhos no momento, mas não fique reiniciando só ainda. Vou te avisar quando tiver algo picante pra oferecer. Paciência, choomba.",
-					"Procurando uma solução, né? Desculpe, não tenho novas missões na minha mesa de operações. Mas vou manter seu nome no arquivo para quando eu tiver um trabalho que precise de uma... extração delicada."
+					"Sem trabalhos para você, novato. Mas não se afaste muito. Eu tenho um talento para me meter em encrenca, e vou garantir que você esteja bem no centro quando a hora chegar.",
+					"Sem trabalhos no momento, mas não vá reiniciar só ainda. Vou te avisar quando tiver algo picante para oferecer. Paciência, choomba.",
+					"Procurando uma solução, né? Desculpe, não tenho novas missões na minha mesa de operações. Mas vou manter seu nome arquivado para quando eu tiver um trabalho que precise de uma... extração delicada."
 				]
 			},
 			"questLines": {
@@ -6848,10 +6852,10 @@
 			},
 			"greetings": {
 				"eng": [
-					"Bem-vindo ao meu jogo! Me avise se você tiver algum feedback ou relatório de bug :)"
+					"Welcome to my game! let me know if you have any feedbacks or bug report :)"
 				],
 				"trans": [
-					"Bem-vindo ao meu jogo! Me avise se você tiver algum feedback ou relatório de bug :)"
+					"Bem-vindo ao meu jogo! Me avise se você tiver algum feedback ou relatório de bugs :)"
 				]
 			}
 		},
@@ -6918,16 +6922,16 @@
 			},
 			"questCooldownLines": {
 				"eng": [
-					"Ah, querida, tô sem trampo pra você no momento. Mas não se preocupe, logo vou ter algo interessante pra você.",
-					"Desculpa, amor, mas não há missões disponíveis pra você no momento. Mas fique de olho nesse olho de chrome brilhante, porque em breve vou ter algo que vale a sua atenção.",
-					"Ah, querida, você me pegou em um momento ruim. Não tenho missões para oferecer, mas prometo que vou te arranjar umas aventuras insanas antes que você perceba.",
-					"Querida, meu banco de missões tá meio vazio agora. Mas continua aparecendo, porque eu vou preparar algo picante só pra você em breve."
+					"Aw, sugar, I'm all outta gigs for ya right now. But don't you worry, I'll have somethin' juicy for ya soon enough.",
+					"Sorry, hon, no quests on the menu for ya at the moment. But keep that shiny chrome eye open, 'cause I'll have somethin' worth your time real soon.",
+					"Aww, darlin', you caught me at a bad time. No quests to offer, but I promise I'll hook you up with some wicked adventures before you know it.",
+					"Sweetheart, my quest bank's runnin' a little dry right now. But keep swingin' by, 'cause I'll whip up somethin' spicy just for you soon."
 				],
 				"trans": [
-					"Ah, querida, tô sem trampo pra você no momento. Mas não se preocupe, logo vou ter algo interessante pra você.",
-					"Desculpa, amor, mas não há missões disponíveis pra você no momento. Mas fique de olho nesse olho de chrome brilhante, porque em breve vou ter algo que vale a sua atenção.",
-					"Ah, querida, você me pegou em um momento ruim. Não tenho missões para oferecer, mas prometo que vou te arranjar umas aventuras insanas antes que você perceba.",
-					"Querida, meu banco de missões tá meio vazio agora. Mas continua aparecendo, porque eu vou preparar algo picante só pra você em breve."
+					"Ah, querido, estou sem trabalhos pra você no momento. Mas não se preocupe, em breve terei algo suculento pra você.",
+					"Desculpe, querida, não há missões no menu para você no momento. Mas fique de olho nesse olho cromado brilhante, porque eu vou ter algo que vale seu tempo muito em breve.",
+					"Aww, querida, você me pegou em um momento ruim. Não tenho missões para oferecer, mas prometo que vou te arranjar algumas aventuras iradas antes que você perceba.",
+					"Querido, meu banco de missões está meio seco no momento. Mas continue aparecendo, porque eu vou preparar algo picante só para você em breve."
 				]
 			},
 			"questLines": {
@@ -7068,14 +7072,14 @@
 			},
 			"questCooldownLines": {
 				"eng": [
-					"Procurando um trampo, né? Desculpa, mas não tenho nada no meu radar agora. Volte mais tarde, quem sabe eu tenha algo que valha a pena pra você.",
-					"Escuta aqui, estiloso, estou sem missões no momento. Volte quando eu tiver reabastecido.",
-					"Procurando por ação, né? Pois é, azar o seu. Não tem trabalho pra você no momento, camarada."
+					"Looking for a gig, huh? Sorry, nothing on my radar right now. Check back later, maybe I'll have something worth your while.",
+					"Listen up, slick, I'm all tapped out on quests. Come back when I've restocked.",
+					"Looking for action, huh? Well, tough luck. No jobs for you at the moment, slick."
 				],
 				"trans": [
-					"Procurando um trampo, né? Desculpa, mas não tenho nada no meu radar agora. Volte mais tarde, quem sabe eu tenha algo que valha a pena pra você.",
-					"Escuta aqui, estiloso, estou sem missões no momento. Volte quando eu tiver reabastecido.",
-					"Procurando por ação, né? Pois é, azar o seu. Não tem trabalho pra você no momento, camarada."
+					"Procurando um trampo, né? Desculpa, mas não tenho nada no meu radar agora. Volte mais tarde, talvez eu tenha algo que valha a pena pra você.",
+					"Escuta aqui, estiloso, estou sem quests no momento. Volte quando eu tiver reabastecido.",
+					"Procurando por ação, né? Bem, azar o seu. Não há trabalhos para você no momento, camarada."
 				]
 			},
 			"questLines": {
@@ -7096,12 +7100,12 @@
 			},
 			"shopLines": {
 				"eng": [
-					"Procurando uma vantagem na cidade? Você veio ao lugar certo.",
-					"Vou te deixar em ótima forma, sem perguntas."
+					"Seeking an edge in the city? You've come to the right place.",
+					"I'll fix you up real nice, no questions asked."
 				],
 				"trans": [
 					"Procurando uma vantagem na cidade? Você veio ao lugar certo.",
-					"Vou te deixar em ótima forma, sem perguntas."
+					"Vou te deixar em ordem, sem perguntas."
 				]
 			},
 			"shopName": {
@@ -9401,7 +9405,7 @@
 	"tierFilterType": {
 		"all": {
 			"eng": "All",
-			"trans": "All"
+			"trans": "Tudo"
 		},
 		"common": {
 			"eng": "Common",

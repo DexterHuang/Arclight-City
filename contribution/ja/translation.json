@@ -685,6 +685,10 @@
 		"instantFinish": {
 			"eng": "Finish Now",
 			"trans": "今すぐ終了"
+		},
+		"instantFinishConfirmTitle": {
+			"eng": "Finish task now?",
+			"trans": "今すぐタスクを完了しますか？"
 		}
 	},
 	"backgroundTaskPage": {
@@ -1222,6 +1226,12 @@
 		"unlock": {
 			"eng": "Unlock",
 			"trans": "解除する"
+		}
+	},
+	"battlePassSmall": {
+		"discount": {
+			"eng": "Discount",
+			"trans": "ディスカウント"
 		}
 	},
 	"battlePassUnlockModal": {
@@ -6512,25 +6522,19 @@
 			}
 		},
 		"neutral": {
-			"count": {
-				"eng": "${amount} Citizen arrests",
-				"trans": "${amount}人の市民逮捕"
-			},
 			"title": {
 				"eng": "Neutral",
 				"trans": "ニュートラル"
 			}
 		},
+		"socialCreditScore": {
+			"eng": "${amount} social credit score",
+			"trans": "${amount}ソーシャルクレジットスコア"
+		},
 		"vigilante": {
 			"title": {
 				"eng": "Vigilante",
 				"trans": "自警団"
-			}
-		},
-		"villainous": {
-			"count": {
-				"eng": "${amount} PvP initiated",
-				"trans": "${amount}のPvPが開始されました"
 			}
 		}
 	},
