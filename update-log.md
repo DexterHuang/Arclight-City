@@ -8,9 +8,24 @@
 
 ### 0.0.69
 
--  Improved UI for the 'no gang' social tab screen, now shows a list of gangs and has a button at the bottom to create your own gang
+-  Gang chat now sends notifications to all members in chat, if you do not want to receive notifications, you may disable it in the settings or click the bell icon on top of the gang chat page
+
+![image](https://github.com/user-attachments/assets/aef9bd94-d888-447c-9d9f-77e8a04ed8b1)
+
+-  Improved UI for the 'no gang' social tab screen, now shows a list of gangs and has a button at the bottom to create your gang
+
+![image](https://github.com/user-attachments/assets/6d282fd5-e744-47e8-8152-4ac1a1e31191)
+
+
 -  Added a feature to rename your character, you can change your character name in your profile by clicking on your passport name. this costs 1,000 Netcoins, this is so to prevent people from changing it too often to cause confusion
+
+![image](https://github.com/user-attachments/assets/7121ca89-2901-4b9b-9ad5-2f90cd37084f)
+
+
 -  Enhance gang UI, now if you are viewing another player's gang, it shows the player list on the detail page, and you can see the player's online status
+
+![image](https://github.com/user-attachments/assets/2b1a57ef-8e9a-48f3-80a4-04d2dcb4798b)
+
 -  Fixed travel menu rendering issue on some devices
 -  Added online or idle status to friend & enemy list
 -  Fixed Attack bar moved too high when holding on to some devices
