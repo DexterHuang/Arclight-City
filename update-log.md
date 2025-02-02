@@ -6,17 +6,31 @@
 
 **If you find an exploit please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
+### 0.0.69
+
+-  Improved UI for the 'no gang' social tab screen, now shows a list of gangs and has a button at the bottom to create your own gang
+-  Added a feature to rename your character, you can change your character name in your profile by clicking on your passport name. this costs 1,000 Netcoins, this is so to prevent people from changing it too often to cause confusion
+-  Enhance gang UI, now if you are viewing another player's gang, it shows the player list on the detail page, and you can seethe  player's online status
+-  Fixed travel menu rendering issue on some devices
+-  Added online or idle status to friend & enemy list
+-  Fixed Attack bar moved too high when holding on to some devices
+-  Multiple UI fixes
+-  Improved Auto UI scaling to be compatible with more devices
+-  Fixed issue with battle pass end day
+-  Fixed issue with some mercenary image display
+
+
 ### 0.0.68
 
--  Fixed issues with unable to claim or use battle passes
+-  Fixed issues with the inability to claim or use battle passes
 -  Minor update to UI
--  Changed display method for morality meter to social credit point based
+-  Changed display method for morality meter to social credit point-based
 
 ### 0.0.67
 
--  Added morality meter on player's profile, it is defined by the amount of citizen arrest and pvp initiated (attacking an non-hostile/non-wanted player), this morality will only start counting on this update, previous pvp actions does not affect your current morality status
--  Added gang display when clicking on player's message
--  Multiple optimization
+-  Added morality meter on player's profile, it is defined by the amount of citizen arrests and PvP initiated (attacking a non-hostile/non-wanted player), this morality will only start counting on this update, previous PvP actions does not affect your current morality status
+-  Added gang display when clicking on the player's message
+-  Multiple optimizations
 
 
 ### 0.0.66
