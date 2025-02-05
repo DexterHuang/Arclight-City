@@ -525,6 +525,12 @@
 			}
 		}
 	},
+	"auth": {
+		"loggingIn": {
+			"eng": "Logging in...",
+			"trans": "ログイン中..."
+		}
+	},
 	"autoCalibrationPage": {
 		"calibrate": {
 			"eng": "Start Auto Calibration",
@@ -1509,6 +1515,10 @@
 					"trans": "あなたのギャングは崩壊しました！"
 				}
 			}
+		},
+		"requestSent": {
+			"eng": "Request sent successfully",
+			"trans": "リクエストが正常に送信されました"
 		}
 	},
 	"clanBuffDeployPopup": {
@@ -1577,6 +1587,12 @@
 		"funds": {
 			"eng": "Funds",
 			"trans": "資金"
+		},
+		"gang": {
+			"members": {
+				"eng": "${amount} members",
+				"trans": "${amount}人のメンバー"
+			}
 		},
 		"joinButton": {
 			"eng": "Join",
@@ -1720,6 +1736,38 @@
 		}
 	},
 	"clanSearchPage": {
+		"noClan": {
+			"ConfirmJoinButton": {
+				"description": {
+					"eng": "Are you sure you want to join the gang with the name \"${name}\" and tag \"${tag}\"?",
+					"trans": "本当に\"${name}\"という名前と\"${tag}\"というタグのギャングに参加しますか？"
+				},
+				"title": {
+					"eng": "Join",
+					"trans": "参加する"
+				}
+			},
+			"joinButton": {
+				"title": {
+					"eng": "Join Gang",
+					"trans": "ギャングに参加する"
+				}
+			},
+			"requestButton": {
+				"description": {
+					"eng": "Are you sure you want to send a request to join the gang with the name \"${name}\" and tag \"${tag}\"?",
+					"trans": "本当にギャング「${name}」に参加するリクエストを送信してもよろしいですか？タグは「${tag}」です。"
+				},
+				"title": {
+					"eng": "Send Request",
+					"trans": "リクエストを送信"
+				}
+			},
+			"title": {
+				"eng": "No gang found",
+				"trans": "ギャングが見つかりませんでした"
+			}
+		},
 		"searchBox": {
 			"title": {
 				"eng": "Gang name",
@@ -1748,13 +1796,19 @@
 		}
 	},
 	"collectedLoreNotes": {
-		"description": {
-			"eng": "You have collected ${collected} of ${total} lore notes.",
-			"trans": "あなたは${total}個のロアノートのうち、${collected}個を集めました。"
-		},
 		"noNotes": {
 			"eng": "You have not collected any lore notes yet.",
 			"trans": "まだロアノートを収集していません。"
+		},
+		"progressBar": {
+			"title": {
+				"eng": "Notes Collected",
+				"trans": "収集したノート"
+			},
+			"unit": {
+				"eng": "Lore Notes",
+				"trans": "ロアノート"
+			}
 		},
 		"title": {
 			"eng": "Collected Lore Notes",
@@ -1988,14 +2042,10 @@
 		}
 	},
 	"createGang": {
-		"confirmModal": {
-			"description": {
-				"eng": "Are you sure you want to create a gang with \\nthe name \"${name}\" and tag \"${tag}\"?",
-				"trans": "名前が\"${name}\"でタグが\"${tag}\"のギャングを作成しますか？"
-			},
+		"createButton": {
 			"title": {
-				"eng": "Create gang",
-				"trans": "ギャングを作成する"
+				"eng": "Create New Gang",
+				"trans": "新しいギャングを作成"
 			}
 		},
 		"createGangButton": {
@@ -2008,12 +2058,6 @@
 			"eng": "Create your own gang and invite your friends to join!",
 			"trans": "自分だけのギャングを作り、友達を招待しましょう！"
 		},
-		"fullJoinButton": {
-			"title": {
-				"eng": "Members full",
-				"trans": "メンバーは満員です"
-			}
-		},
 		"gangNameInput": {
 			"title": {
 				"eng": "Gang Name",
@@ -2024,18 +2068,6 @@
 			"title": {
 				"eng": "Gang Tag",
 				"trans": "ギャングタグ"
-			}
-		},
-		"joinButton": {
-			"title": {
-				"eng": "Join",
-				"trans": "参加する"
-			}
-		},
-		"joinExistingClanButton": {
-			"title": {
-				"eng": "Join existing gang",
-				"trans": "既存のギャングに参加する"
 			}
 		},
 		"title": {
@@ -2742,9 +2774,9 @@
 		}
 	},
 	"enemyTabContent": {
-		"addEnemy": {
-			"eng": "Add Enemies",
-			"trans": "敵を追加する"
+		"addToEnemyList": {
+			"eng": "Add To Enemy List",
+			"trans": "敵リストに追加"
 		},
 		"attack": {
 			"eng": "Attack",
@@ -3200,6 +3232,10 @@
 			"invalidCharacters": {
 				"eng": "The gang tag must only contain letters and numbers",
 				"trans": "ギャングタグは文字と数字のみを含める必要があります。"
+			},
+			"moderation": {
+				"eng": "The tag contains inappropriate content: ${type}",
+				"trans": "タグには不適切なコンテンツが含まれています: ${type}"
 			},
 			"tooLong": {
 				"eng": "The gang tag must be at most ${maxLength} characters long",
@@ -6385,6 +6421,12 @@
 				"eng": "Send invite?",
 				"trans": "招待状を送りますか？"
 			}
+		},
+		"joinClanRequestByMe": {
+			"button": {
+				"eng": "Request Sent",
+				"trans": "リクエストが送信されました"
+			}
 		}
 	},
 	"minigame": {
@@ -7280,6 +7322,12 @@
 				"trans": "メンタル回復完了"
 			}
 		},
+		"rename": {
+			"nameAlreadyExists": {
+				"eng": "The name you are trying to use is already taken",
+				"trans": "その名前はすでに使用されています"
+			}
+		},
 		"reportSuccess": {
 			"eng": "You have reported ${}",
 			"trans": "あなたは${}を報告しました"
@@ -7419,10 +7467,28 @@
 			"trans": "このプレイヤーはマーケットにアイテムがありません。"
 		}
 	},
+	"playerName": {
+		"idle": {
+			"eng": "Idle",
+			"trans": "アイドル"
+		},
+		"online": {
+			"eng": "Online",
+			"trans": "オンライン"
+		}
+	},
 	"playerNameError": {
+		"blockedSequence": {
+			"eng": "This name contains text that is not allowed: ${string}",
+			"trans": "この名前には許可されていない文字が含まれています: ${string}"
+		},
 		"invalidCharacters": {
 			"eng": "Name can only contain letters, numbers and underscores.",
 			"trans": "名前には、文字、数字、アンダースコアしか含めることができません。"
+		},
+		"notAllowedName": {
+			"eng": "This name cannot be used",
+			"trans": "この名前は使用できません"
 		},
 		"tooLong": {
 			"eng": "Name must be less than or equal to ${max} characters long.",
@@ -8014,6 +8080,26 @@
 		"title": {
 			"eng": "Refresh shop items",
 			"trans": "ショップアイテムをリフレッシュする"
+		}
+	},
+	"renameModal": {
+		"confirm": {
+			"eng": "Confirm",
+			"trans": "確認する"
+		},
+		"error": {
+			"sameName": {
+				"eng": "You cannot use the same name as your current name",
+				"trans": "現在の名前と同じ名前は使用できません。"
+			}
+		},
+		"inputPlaceholder": {
+			"eng": "Enter your new name",
+			"trans": "新しい名前を入力してください"
+		},
+		"success": {
+			"eng": "You have successfully changed your name",
+			"trans": "あなたは名前を変更しました。"
 		}
 	},
 	"renderMessage": {
@@ -8617,6 +8703,14 @@
 				"description": {
 					"eng": "Receive notification when your gang members send messages to gang chat",
 					"trans": "ギャングメンバーがギャングチャットにメッセージを送信したときに通知を受け取る"
+				},
+				"disabled": {
+					"eng": "Gang chat notification disabled",
+					"trans": "ギャングチャット通知が無効になりました"
+				},
+				"enabled": {
+					"eng": "Gang chat notification enabled",
+					"trans": "ギャングチャット通知が有効になりました"
 				},
 				"title": {
 					"eng": "Gang Chat",

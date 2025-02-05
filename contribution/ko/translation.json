@@ -525,6 +525,12 @@
 			}
 		}
 	},
+	"auth": {
+		"loggingIn": {
+			"eng": "Logging in...",
+			"trans": "로그인 중..."
+		}
+	},
 	"autoCalibrationPage": {
 		"calibrate": {
 			"eng": "Start Auto Calibration",
@@ -1509,6 +1515,10 @@
 					"trans": "당신의 갱이 붕괴되었습니다!"
 				}
 			}
+		},
+		"requestSent": {
+			"eng": "Request sent successfully",
+			"trans": "요청이 성공적으로 전송되었습니다"
 		}
 	},
 	"clanBuffDeployPopup": {
@@ -1577,6 +1587,12 @@
 		"funds": {
 			"eng": "Funds",
 			"trans": "자금"
+		},
+		"gang": {
+			"members": {
+				"eng": "${amount} members",
+				"trans": "${amount}명의 회원"
+			}
 		},
 		"joinButton": {
 			"eng": "Join",
@@ -1720,6 +1736,38 @@
 		}
 	},
 	"clanSearchPage": {
+		"noClan": {
+			"ConfirmJoinButton": {
+				"description": {
+					"eng": "Are you sure you want to join the gang with the name \"${name}\" and tag \"${tag}\"?",
+					"trans": "\"${name}\"라는 이름과 \"${tag}\"라는 태그를 가진 갱에 가입하시겠습니까?"
+				},
+				"title": {
+					"eng": "Join",
+					"trans": "참여하기"
+				}
+			},
+			"joinButton": {
+				"title": {
+					"eng": "Join Gang",
+					"trans": "갱에 가입하기"
+				}
+			},
+			"requestButton": {
+				"description": {
+					"eng": "Are you sure you want to send a request to join the gang with the name \"${name}\" and tag \"${tag}\"?",
+					"trans": "\"${name}\"라는 이름과 \"${tag}\" 태그로 갱 가입 요청을 보내시겠습니까?"
+				},
+				"title": {
+					"eng": "Send Request",
+					"trans": "요청 보내기"
+				}
+			},
+			"title": {
+				"eng": "No gang found",
+				"trans": "갱을 찾을 수 없습니다"
+			}
+		},
 		"searchBox": {
 			"title": {
 				"eng": "Gang name",
@@ -1748,13 +1796,19 @@
 		}
 	},
 	"collectedLoreNotes": {
-		"description": {
-			"eng": "You have collected ${collected} of ${total} lore notes.",
-			"trans": "당신은 ${total}개 중 ${collected}개의 로어 노트를 수집했습니다."
-		},
 		"noNotes": {
 			"eng": "You have not collected any lore notes yet.",
 			"trans": "아직 로어 노트를 수집하지 않았습니다."
+		},
+		"progressBar": {
+			"title": {
+				"eng": "Notes Collected",
+				"trans": "수집한 노트"
+			},
+			"unit": {
+				"eng": "Lore Notes",
+				"trans": "로어 노트"
+			}
 		},
 		"title": {
 			"eng": "Collected Lore Notes",
@@ -1988,14 +2042,10 @@
 		}
 	},
 	"createGang": {
-		"confirmModal": {
-			"description": {
-				"eng": "Are you sure you want to create a gang with \\nthe name \"${name}\" and tag \"${tag}\"?",
-				"trans": "\"${name}\" 이름과 \"${tag}\" 태그를 가진 갱을 생성하시겠습니까?"
-			},
+		"createButton": {
 			"title": {
-				"eng": "Create gang",
-				"trans": "갱 생성"
+				"eng": "Create New Gang",
+				"trans": "새 갱 만들기"
 			}
 		},
 		"createGangButton": {
@@ -2008,12 +2058,6 @@
 			"eng": "Create your own gang and invite your friends to join!",
 			"trans": "자신만의 갱을 만들고 친구들을 초대해 가입하세요!"
 		},
-		"fullJoinButton": {
-			"title": {
-				"eng": "Members full",
-				"trans": "멤버가 가득 찼습니다"
-			}
-		},
 		"gangNameInput": {
 			"title": {
 				"eng": "Gang Name",
@@ -2024,18 +2068,6 @@
 			"title": {
 				"eng": "Gang Tag",
 				"trans": "갱단 태그"
-			}
-		},
-		"joinButton": {
-			"title": {
-				"eng": "Join",
-				"trans": "참여하기"
-			}
-		},
-		"joinExistingClanButton": {
-			"title": {
-				"eng": "Join existing gang",
-				"trans": "기존 갱에 가입하기"
 			}
 		},
 		"title": {
@@ -2742,9 +2774,9 @@
 		}
 	},
 	"enemyTabContent": {
-		"addEnemy": {
-			"eng": "Add Enemies",
-			"trans": "적 추가"
+		"addToEnemyList": {
+			"eng": "Add To Enemy List",
+			"trans": "적 목록에 추가"
 		},
 		"attack": {
 			"eng": "Attack",
@@ -3200,6 +3232,10 @@
 			"invalidCharacters": {
 				"eng": "The gang tag must only contain letters and numbers",
 				"trans": "갱 태그는 문자와 숫자만 포함해야 합니다"
+			},
+			"moderation": {
+				"eng": "The tag contains inappropriate content: ${type}",
+				"trans": "태그에 부적절한 내용이 포함되어 있습니다: ${type}"
 			},
 			"tooLong": {
 				"eng": "The gang tag must be at most ${maxLength} characters long",
@@ -6385,6 +6421,12 @@
 				"eng": "Send invite?",
 				"trans": "초대를 보내시겠습니까?"
 			}
+		},
+		"joinClanRequestByMe": {
+			"button": {
+				"eng": "Request Sent",
+				"trans": "요청이 전송되었습니다"
+			}
 		}
 	},
 	"minigame": {
@@ -7280,6 +7322,12 @@
 				"trans": "정신력 회복됨"
 			}
 		},
+		"rename": {
+			"nameAlreadyExists": {
+				"eng": "The name you are trying to use is already taken",
+				"trans": "사용하려는 이름은 이미 사용 중입니다"
+			}
+		},
 		"reportSuccess": {
 			"eng": "You have reported ${}",
 			"trans": "당신은 ${}을(를) 신고했습니다"
@@ -7419,10 +7467,28 @@
 			"trans": "이 플레이어는 시장에 아이템이 없습니다."
 		}
 	},
+	"playerName": {
+		"idle": {
+			"eng": "Idle",
+			"trans": "대기 중"
+		},
+		"online": {
+			"eng": "Online",
+			"trans": "온라인"
+		}
+	},
 	"playerNameError": {
+		"blockedSequence": {
+			"eng": "This name contains text that is not allowed: ${string}",
+			"trans": "이 이름에는 허용되지 않는 텍스트가 포함되어 있습니다: ${string}"
+		},
 		"invalidCharacters": {
 			"eng": "Name can only contain letters, numbers and underscores.",
 			"trans": "이름에는 문자, 숫자 그리고 밑줄만 사용할 수 있습니다."
+		},
+		"notAllowedName": {
+			"eng": "This name cannot be used",
+			"trans": "이 이름은 사용할 수 없습니다"
 		},
 		"tooLong": {
 			"eng": "Name must be less than or equal to ${max} characters long.",
@@ -8014,6 +8080,26 @@
 		"title": {
 			"eng": "Refresh shop items",
 			"trans": "상점 아이템 새로고침"
+		}
+	},
+	"renameModal": {
+		"confirm": {
+			"eng": "Confirm",
+			"trans": "확인"
+		},
+		"error": {
+			"sameName": {
+				"eng": "You cannot use the same name as your current name",
+				"trans": "현재 이름과 동일한 이름을 사용할 수 없습니다"
+			}
+		},
+		"inputPlaceholder": {
+			"eng": "Enter your new name",
+			"trans": "새 이름을 입력하세요"
+		},
+		"success": {
+			"eng": "You have successfully changed your name",
+			"trans": "이름을 성공적으로 변경했습니다"
 		}
 	},
 	"renderMessage": {
@@ -8617,6 +8703,14 @@
 				"description": {
 					"eng": "Receive notification when your gang members send messages to gang chat",
 					"trans": "갱원들이 갱 채팅에 메시지를 보낼 때 알림 받기"
+				},
+				"disabled": {
+					"eng": "Gang chat notification disabled",
+					"trans": "갱 채팅 알림이 비활성화되었습니다"
+				},
+				"enabled": {
+					"eng": "Gang chat notification enabled",
+					"trans": "갱 채팅 알림이 활성화되었습니다"
 				},
 				"title": {
 					"eng": "Gang Chat",

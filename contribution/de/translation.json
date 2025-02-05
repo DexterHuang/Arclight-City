@@ -525,6 +525,12 @@
 			}
 		}
 	},
+	"auth": {
+		"loggingIn": {
+			"eng": "Logging in...",
+			"trans": "Anmelden..."
+		}
+	},
 	"autoCalibrationPage": {
 		"calibrate": {
 			"eng": "Start Auto Calibration",
@@ -1509,6 +1515,10 @@
 					"trans": "Deine Gang ist zusammengebrochen!"
 				}
 			}
+		},
+		"requestSent": {
+			"eng": "Request sent successfully",
+			"trans": "Anfrage erfolgreich gesendet"
 		}
 	},
 	"clanBuffDeployPopup": {
@@ -1577,6 +1587,12 @@
 		"funds": {
 			"eng": "Funds",
 			"trans": "Fonds"
+		},
+		"gang": {
+			"members": {
+				"eng": "${amount} members",
+				"trans": "${amount} Mitglieder"
+			}
 		},
 		"joinButton": {
 			"eng": "Join",
@@ -1720,6 +1736,38 @@
 		}
 	},
 	"clanSearchPage": {
+		"noClan": {
+			"ConfirmJoinButton": {
+				"description": {
+					"eng": "Are you sure you want to join the gang with the name \"${name}\" and tag \"${tag}\"?",
+					"trans": "Bist du dir sicher, dass du der Gang mit dem Namen \"${name}\" und dem Tag \"${tag}\" beitreten möchtest?"
+				},
+				"title": {
+					"eng": "Join",
+					"trans": "Beitreten"
+				}
+			},
+			"joinButton": {
+				"title": {
+					"eng": "Join Gang",
+					"trans": "Gang beitreten"
+				}
+			},
+			"requestButton": {
+				"description": {
+					"eng": "Are you sure you want to send a request to join the gang with the name \"${name}\" and tag \"${tag}\"?",
+					"trans": "Bist du dir sicher, dass du eine Anfrage senden möchtest, um der Gang mit dem Namen \"${name}\" und dem Tag \"${tag}\" beizutreten?"
+				},
+				"title": {
+					"eng": "Send Request",
+					"trans": "Anfrage senden"
+				}
+			},
+			"title": {
+				"eng": "No gang found",
+				"trans": "Keine Gang gefunden"
+			}
+		},
 		"searchBox": {
 			"title": {
 				"eng": "Gang name",
@@ -1748,13 +1796,19 @@
 		}
 	},
 	"collectedLoreNotes": {
-		"description": {
-			"eng": "You have collected ${collected} of ${total} lore notes.",
-			"trans": "Du hast ${collected} von ${total} Überlieferungsnotizen gesammelt."
-		},
 		"noNotes": {
 			"eng": "You have not collected any lore notes yet.",
 			"trans": "Du hast noch keine Überlieferungsnotizen gesammelt."
+		},
+		"progressBar": {
+			"title": {
+				"eng": "Notes Collected",
+				"trans": "Gesammelte Notizen"
+			},
+			"unit": {
+				"eng": "Lore Notes",
+				"trans": "Überlieferungsnotizen"
+			}
 		},
 		"title": {
 			"eng": "Collected Lore Notes",
@@ -1988,14 +2042,10 @@
 		}
 	},
 	"createGang": {
-		"confirmModal": {
-			"description": {
-				"eng": "Are you sure you want to create a gang with \\nthe name \"${name}\" and tag \"${tag}\"?",
-				"trans": "Willst du wirklich eine Gang mit dem \\nNamen \"${name}\" und dem Tag \"${tag}\" erstellen?"
-			},
+		"createButton": {
 			"title": {
-				"eng": "Create gang",
-				"trans": "Gang erstellen"
+				"eng": "Create New Gang",
+				"trans": "Neue Gang erstellen"
 			}
 		},
 		"createGangButton": {
@@ -2008,12 +2058,6 @@
 			"eng": "Create your own gang and invite your friends to join!",
 			"trans": "Erstelle deine eigene Gang und lade deine Freunde ein, sich anzuschließen!"
 		},
-		"fullJoinButton": {
-			"title": {
-				"eng": "Members full",
-				"trans": "Mitglieder voll"
-			}
-		},
 		"gangNameInput": {
 			"title": {
 				"eng": "Gang Name",
@@ -2024,18 +2068,6 @@
 			"title": {
 				"eng": "Gang Tag",
 				"trans": "Gang-Tag"
-			}
-		},
-		"joinButton": {
-			"title": {
-				"eng": "Join",
-				"trans": "Beitreten"
-			}
-		},
-		"joinExistingClanButton": {
-			"title": {
-				"eng": "Join existing gang",
-				"trans": "Einer bestehenden Gang beitreten"
 			}
 		},
 		"title": {
@@ -2742,9 +2774,9 @@
 		}
 	},
 	"enemyTabContent": {
-		"addEnemy": {
-			"eng": "Add Enemies",
-			"trans": "Gegner hinzufügen"
+		"addToEnemyList": {
+			"eng": "Add To Enemy List",
+			"trans": "Zur Feindliste hinzufügen"
 		},
 		"attack": {
 			"eng": "Attack",
@@ -3200,6 +3232,10 @@
 			"invalidCharacters": {
 				"eng": "The gang tag must only contain letters and numbers",
 				"trans": "Der Gang-Tag darf nur Buchstaben und Zahlen enthalten"
+			},
+			"moderation": {
+				"eng": "The tag contains inappropriate content: ${type}",
+				"trans": "Das Tag enthält unangemessene Inhalte: ${type}"
 			},
 			"tooLong": {
 				"eng": "The gang tag must be at most ${maxLength} characters long",
@@ -6385,6 +6421,12 @@
 				"eng": "Send invite?",
 				"trans": "Einladung senden?"
 			}
+		},
+		"joinClanRequestByMe": {
+			"button": {
+				"eng": "Request Sent",
+				"trans": "Anfrage gesendet"
+			}
 		}
 	},
 	"minigame": {
@@ -7280,6 +7322,12 @@
 				"trans": "Psyche wiederhergestellt"
 			}
 		},
+		"rename": {
+			"nameAlreadyExists": {
+				"eng": "The name you are trying to use is already taken",
+				"trans": "Der Name, den Sie verwenden möchten, ist bereits vergeben"
+			}
+		},
 		"reportSuccess": {
 			"eng": "You have reported ${}",
 			"trans": "Du hast ${} gemeldet"
@@ -7419,10 +7467,28 @@
 			"trans": "Dieser Spieler hat keine Gegenstände auf dem Markt."
 		}
 	},
+	"playerName": {
+		"idle": {
+			"eng": "Idle",
+			"trans": "Inaktiv"
+		},
+		"online": {
+			"eng": "Online",
+			"trans": "Online"
+		}
+	},
 	"playerNameError": {
+		"blockedSequence": {
+			"eng": "This name contains text that is not allowed: ${string}",
+			"trans": "Dieser Name enthält nicht erlaubten Text: ${string}"
+		},
 		"invalidCharacters": {
 			"eng": "Name can only contain letters, numbers and underscores.",
 			"trans": "Name darf nur Buchstaben, Zahlen und Unterstriche enthalten."
+		},
+		"notAllowedName": {
+			"eng": "This name cannot be used",
+			"trans": "Dieser Name kann nicht verwendet werden"
 		},
 		"tooLong": {
 			"eng": "Name must be less than or equal to ${max} characters long.",
@@ -8014,6 +8080,26 @@
 		"title": {
 			"eng": "Refresh shop items",
 			"trans": "Shop-Artikel aktualisieren"
+		}
+	},
+	"renameModal": {
+		"confirm": {
+			"eng": "Confirm",
+			"trans": "Bestätigen"
+		},
+		"error": {
+			"sameName": {
+				"eng": "You cannot use the same name as your current name",
+				"trans": "Du kannst nicht denselben Namen wie deinen aktuellen Namen verwenden"
+			}
+		},
+		"inputPlaceholder": {
+			"eng": "Enter your new name",
+			"trans": "Gib deinen neuen Namen ein"
+		},
+		"success": {
+			"eng": "You have successfully changed your name",
+			"trans": "Du hast deinen Namen erfolgreich geändert"
 		}
 	},
 	"renderMessage": {
@@ -8617,6 +8703,14 @@
 				"description": {
 					"eng": "Receive notification when your gang members send messages to gang chat",
 					"trans": "Benachrichtigung erhalten, wenn deine Gangmitglieder Nachrichten im Gang-Chat senden"
+				},
+				"disabled": {
+					"eng": "Gang chat notification disabled",
+					"trans": "Gang-Chat-Benachrichtigung deaktiviert"
+				},
+				"enabled": {
+					"eng": "Gang chat notification enabled",
+					"trans": "Gang-Chat-Benachrichtigung aktiviert"
 				},
 				"title": {
 					"eng": "Gang Chat",

@@ -525,6 +525,12 @@
 			}
 		}
 	},
+	"auth": {
+		"loggingIn": {
+			"eng": "Logging in...",
+			"trans": "Вход в систему..."
+		}
+	},
 	"autoCalibrationPage": {
 		"calibrate": {
 			"eng": "Start Auto Calibration",
@@ -1509,6 +1515,10 @@
 					"trans": "Ваша банда развалилась!"
 				}
 			}
+		},
+		"requestSent": {
+			"eng": "Request sent successfully",
+			"trans": "Запрос успешно отправлен"
 		}
 	},
 	"clanBuffDeployPopup": {
@@ -1577,6 +1587,12 @@
 		"funds": {
 			"eng": "Funds",
 			"trans": "Фонды"
+		},
+		"gang": {
+			"members": {
+				"eng": "${amount} members",
+				"trans": "${amount} участников"
+			}
 		},
 		"joinButton": {
 			"eng": "Join",
@@ -1720,6 +1736,38 @@
 		}
 	},
 	"clanSearchPage": {
+		"noClan": {
+			"ConfirmJoinButton": {
+				"description": {
+					"eng": "Are you sure you want to join the gang with the name \"${name}\" and tag \"${tag}\"?",
+					"trans": "Вы уверены, что хотите присоединиться к банде с названием \"${name}\" и тегом \"${tag}\"?"
+				},
+				"title": {
+					"eng": "Join",
+					"trans": "Присоединиться"
+				}
+			},
+			"joinButton": {
+				"title": {
+					"eng": "Join Gang",
+					"trans": "Присоединиться к банде"
+				}
+			},
+			"requestButton": {
+				"description": {
+					"eng": "Are you sure you want to send a request to join the gang with the name \"${name}\" and tag \"${tag}\"?",
+					"trans": "Вы уверены, что хотите отправить запрос на加入 банду с именем \"${name}\" и тегом \"${tag}\"?"
+				},
+				"title": {
+					"eng": "Send Request",
+					"trans": "Отправить запрос"
+				}
+			},
+			"title": {
+				"eng": "No gang found",
+				"trans": "Банда не найдена"
+			}
+		},
 		"searchBox": {
 			"title": {
 				"eng": "Gang name",
@@ -1748,13 +1796,19 @@
 		}
 	},
 	"collectedLoreNotes": {
-		"description": {
-			"eng": "You have collected ${collected} of ${total} lore notes.",
-			"trans": "Вы собрали ${collected} из ${total} заметок о лоре."
-		},
 		"noNotes": {
 			"eng": "You have not collected any lore notes yet.",
 			"trans": "Вы еще не собрали ни одной заметки о лоре."
+		},
+		"progressBar": {
+			"title": {
+				"eng": "Notes Collected",
+				"trans": "Собранные заметки"
+			},
+			"unit": {
+				"eng": "Lore Notes",
+				"trans": "Части лора"
+			}
 		},
 		"title": {
 			"eng": "Collected Lore Notes",
@@ -1988,14 +2042,10 @@
 		}
 	},
 	"createGang": {
-		"confirmModal": {
-			"description": {
-				"eng": "Are you sure you want to create a gang with \\nthe name \"${name}\" and tag \"${tag}\"?",
-				"trans": "Вы уверены, что хотите создать банду с названием \"${name}\" и тегом \"${tag}\"?"
-			},
+		"createButton": {
 			"title": {
-				"eng": "Create gang",
-				"trans": "Создать банду"
+				"eng": "Create New Gang",
+				"trans": "Создать новую банду"
 			}
 		},
 		"createGangButton": {
@@ -2008,12 +2058,6 @@
 			"eng": "Create your own gang and invite your friends to join!",
 			"trans": "Создайте свою собственную банду и пригласите друзей присоединиться!"
 		},
-		"fullJoinButton": {
-			"title": {
-				"eng": "Members full",
-				"trans": "Полный состав участников"
-			}
-		},
 		"gangNameInput": {
 			"title": {
 				"eng": "Gang Name",
@@ -2024,18 +2068,6 @@
 			"title": {
 				"eng": "Gang Tag",
 				"trans": "Тег банды"
-			}
-		},
-		"joinButton": {
-			"title": {
-				"eng": "Join",
-				"trans": "Присоединиться"
-			}
-		},
-		"joinExistingClanButton": {
-			"title": {
-				"eng": "Join existing gang",
-				"trans": "Присоединиться к существующей банде"
 			}
 		},
 		"title": {
@@ -2742,9 +2774,9 @@
 		}
 	},
 	"enemyTabContent": {
-		"addEnemy": {
-			"eng": "Add Enemies",
-			"trans": "Добавить врагов"
+		"addToEnemyList": {
+			"eng": "Add To Enemy List",
+			"trans": "Добавить в список врагов"
 		},
 		"attack": {
 			"eng": "Attack",
@@ -3200,6 +3232,10 @@
 			"invalidCharacters": {
 				"eng": "The gang tag must only contain letters and numbers",
 				"trans": "Тег банды должен содержать только буквы и цифры"
+			},
+			"moderation": {
+				"eng": "The tag contains inappropriate content: ${type}",
+				"trans": "Тег содержит неприемлемый контент: ${type}"
 			},
 			"tooLong": {
 				"eng": "The gang tag must be at most ${maxLength} characters long",
@@ -6385,6 +6421,12 @@
 				"eng": "Send invite?",
 				"trans": "Отправить приглашение?"
 			}
+		},
+		"joinClanRequestByMe": {
+			"button": {
+				"eng": "Request Sent",
+				"trans": "Запрос отправлен"
+			}
 		}
 	},
 	"minigame": {
@@ -7280,6 +7322,12 @@
 				"trans": "Психика восстановлена"
 			}
 		},
+		"rename": {
+			"nameAlreadyExists": {
+				"eng": "The name you are trying to use is already taken",
+				"trans": "Имя, которое вы пытаетесь использовать, уже занято"
+			}
+		},
 		"reportSuccess": {
 			"eng": "You have reported ${}",
 			"trans": "Вы сообщили о ${}"
@@ -7419,10 +7467,28 @@
 			"trans": "У этого игрока нет предметов на рынке."
 		}
 	},
+	"playerName": {
+		"idle": {
+			"eng": "Idle",
+			"trans": "Без дела"
+		},
+		"online": {
+			"eng": "Online",
+			"trans": "Онлайн"
+		}
+	},
 	"playerNameError": {
+		"blockedSequence": {
+			"eng": "This name contains text that is not allowed: ${string}",
+			"trans": "Это имя содержит недопустимый текст: ${string}"
+		},
 		"invalidCharacters": {
 			"eng": "Name can only contain letters, numbers and underscores.",
 			"trans": "Имя может содержать только буквы, цифры и подчеркивания."
+		},
+		"notAllowedName": {
+			"eng": "This name cannot be used",
+			"trans": "Это имя не может быть использовано"
 		},
 		"tooLong": {
 			"eng": "Name must be less than or equal to ${max} characters long.",
@@ -8014,6 +8080,26 @@
 		"title": {
 			"eng": "Refresh shop items",
 			"trans": "Обновить предметы в магазине"
+		}
+	},
+	"renameModal": {
+		"confirm": {
+			"eng": "Confirm",
+			"trans": "Подтвердить"
+		},
+		"error": {
+			"sameName": {
+				"eng": "You cannot use the same name as your current name",
+				"trans": "Вы не можете использовать то же имя, что и ваше текущее имя"
+			}
+		},
+		"inputPlaceholder": {
+			"eng": "Enter your new name",
+			"trans": "Введите ваше новое имя"
+		},
+		"success": {
+			"eng": "You have successfully changed your name",
+			"trans": "Вы успешно изменили свое имя"
 		}
 	},
 	"renderMessage": {
@@ -8617,6 +8703,14 @@
 				"description": {
 					"eng": "Receive notification when your gang members send messages to gang chat",
 					"trans": "Получать уведомления, когда члены вашей банды отправляют сообщения в чат банды"
+				},
+				"disabled": {
+					"eng": "Gang chat notification disabled",
+					"trans": "Уведомления чата банды отключены"
+				},
+				"enabled": {
+					"eng": "Gang chat notification enabled",
+					"trans": "Уведомление о чате банды включено"
 				},
 				"title": {
 					"eng": "Gang Chat",

@@ -525,6 +525,12 @@
 			}
 		}
 	},
+	"auth": {
+		"loggingIn": {
+			"eng": "Logging in...",
+			"trans": "Logging in..."
+		}
+	},
 	"autoCalibrationPage": {
 		"calibrate": {
 			"eng": "Start Auto Calibration",
@@ -1509,6 +1515,10 @@
 					"trans": "Gengmu telah runtuh!"
 				}
 			}
+		},
+		"requestSent": {
+			"eng": "Request sent successfully",
+			"trans": "Permintaan berhasil dikirim"
 		}
 	},
 	"clanBuffDeployPopup": {
@@ -1577,6 +1587,12 @@
 		"funds": {
 			"eng": "Funds",
 			"trans": "Dana"
+		},
+		"gang": {
+			"members": {
+				"eng": "${amount} members",
+				"trans": "${amount} anggota"
+			}
 		},
 		"joinButton": {
 			"eng": "Join",
@@ -1720,6 +1736,38 @@
 		}
 	},
 	"clanSearchPage": {
+		"noClan": {
+			"ConfirmJoinButton": {
+				"description": {
+					"eng": "Are you sure you want to join the gang with the name \"${name}\" and tag \"${tag}\"?",
+					"trans": "Apakah kamu yakin ingin bergabung dengan geng bernama \"${name}\" dan tag \"${tag}\"?"
+				},
+				"title": {
+					"eng": "Join",
+					"trans": "Bergabung"
+				}
+			},
+			"joinButton": {
+				"title": {
+					"eng": "Join Gang",
+					"trans": "Bergabung dengan Geng"
+				}
+			},
+			"requestButton": {
+				"description": {
+					"eng": "Are you sure you want to send a request to join the gang with the name \"${name}\" and tag \"${tag}\"?",
+					"trans": "Apakah Anda yakin ingin mengirim permintaan untuk bergabung dengan geng bernama \"${name}\" dan tag \"${tag}\"?"
+				},
+				"title": {
+					"eng": "Send Request",
+					"trans": "Kirim Permintaan"
+				}
+			},
+			"title": {
+				"eng": "No gang found",
+				"trans": "Tidak ada geng ditemukan"
+			}
+		},
 		"searchBox": {
 			"title": {
 				"eng": "Gang name",
@@ -1748,13 +1796,19 @@
 		}
 	},
 	"collectedLoreNotes": {
-		"description": {
-			"eng": "You have collected ${collected} of ${total} lore notes.",
-			"trans": "Kamu telah mengumpulkan ${collected} dari ${total} catatan cerita."
-		},
 		"noNotes": {
 			"eng": "You have not collected any lore notes yet.",
 			"trans": "Anda belum mengumpulkan catatan cerita apapun."
+		},
+		"progressBar": {
+			"title": {
+				"eng": "Notes Collected",
+				"trans": "Catatan Diperoleh"
+			},
+			"unit": {
+				"eng": "Lore Notes",
+				"trans": "Catatan Cerita"
+			}
 		},
 		"title": {
 			"eng": "Collected Lore Notes",
@@ -1988,14 +2042,10 @@
 		}
 	},
 	"createGang": {
-		"confirmModal": {
-			"description": {
-				"eng": "Are you sure you want to create a gang with \\nthe name \"${name}\" and tag \"${tag}\"?",
-				"trans": "Apakah Anda yakin ingin membuat geng dengan nama \"${name}\" dan tag \"${tag}\"?"
-			},
+		"createButton": {
 			"title": {
-				"eng": "Create gang",
-				"trans": "Buat geng"
+				"eng": "Create New Gang",
+				"trans": "Buat Geng Baru"
 			}
 		},
 		"createGangButton": {
@@ -2008,12 +2058,6 @@
 			"eng": "Create your own gang and invite your friends to join!",
 			"trans": "Buat gengmu sendiri dan undang teman-temanmu untuk bergabung!"
 		},
-		"fullJoinButton": {
-			"title": {
-				"eng": "Members full",
-				"trans": "Anggota penuh"
-			}
-		},
 		"gangNameInput": {
 			"title": {
 				"eng": "Gang Name",
@@ -2024,18 +2068,6 @@
 			"title": {
 				"eng": "Gang Tag",
 				"trans": "Tag Geng"
-			}
-		},
-		"joinButton": {
-			"title": {
-				"eng": "Join",
-				"trans": "Bergabung"
-			}
-		},
-		"joinExistingClanButton": {
-			"title": {
-				"eng": "Join existing gang",
-				"trans": "Bergabung dengan Geng yang ada"
 			}
 		},
 		"title": {
@@ -2742,9 +2774,9 @@
 		}
 	},
 	"enemyTabContent": {
-		"addEnemy": {
-			"eng": "Add Enemies",
-			"trans": "Tambah Musuh"
+		"addToEnemyList": {
+			"eng": "Add To Enemy List",
+			"trans": "Tambahkan ke Daftar Musuh"
 		},
 		"attack": {
 			"eng": "Attack",
@@ -3200,6 +3232,10 @@
 			"invalidCharacters": {
 				"eng": "The gang tag must only contain letters and numbers",
 				"trans": "Tag geng hanya boleh berisi huruf dan angka."
+			},
+			"moderation": {
+				"eng": "The tag contains inappropriate content: ${type}",
+				"trans": "Tag tersebut mengandung konten yang tidak pantas: ${type}"
 			},
 			"tooLong": {
 				"eng": "The gang tag must be at most ${maxLength} characters long",
@@ -6385,6 +6421,12 @@
 				"eng": "Send invite?",
 				"trans": "Kirim undangan?"
 			}
+		},
+		"joinClanRequestByMe": {
+			"button": {
+				"eng": "Request Sent",
+				"trans": "Permintaan Dikirim"
+			}
 		}
 	},
 	"minigame": {
@@ -7280,6 +7322,12 @@
 				"trans": "Psikis pulih"
 			}
 		},
+		"rename": {
+			"nameAlreadyExists": {
+				"eng": "The name you are trying to use is already taken",
+				"trans": "Nama yang Anda coba gunakan sudah diambil"
+			}
+		},
 		"reportSuccess": {
 			"eng": "You have reported ${}",
 			"trans": "Anda telah melaporkan ${}"
@@ -7419,10 +7467,28 @@
 			"trans": "Pemain ini tidak memiliki barang apa pun di pasar."
 		}
 	},
+	"playerName": {
+		"idle": {
+			"eng": "Idle",
+			"trans": "Menganggur"
+		},
+		"online": {
+			"eng": "Online",
+			"trans": "Online"
+		}
+	},
 	"playerNameError": {
+		"blockedSequence": {
+			"eng": "This name contains text that is not allowed: ${string}",
+			"trans": "Nama ini mengandung teks yang tidak diizinkan: ${string}"
+		},
 		"invalidCharacters": {
 			"eng": "Name can only contain letters, numbers and underscores.",
 			"trans": "Nama hanya dapat mengandung huruf, angka, dan garis bawah."
+		},
+		"notAllowedName": {
+			"eng": "This name cannot be used",
+			"trans": "Nama ini tidak dapat digunakan"
 		},
 		"tooLong": {
 			"eng": "Name must be less than or equal to ${max} characters long.",
@@ -8014,6 +8080,26 @@
 		"title": {
 			"eng": "Refresh shop items",
 			"trans": "Segarkan item toko"
+		}
+	},
+	"renameModal": {
+		"confirm": {
+			"eng": "Confirm",
+			"trans": "Konfirmasi"
+		},
+		"error": {
+			"sameName": {
+				"eng": "You cannot use the same name as your current name",
+				"trans": "Anda tidak dapat menggunakan nama yang sama dengan nama Anda saat ini"
+			}
+		},
+		"inputPlaceholder": {
+			"eng": "Enter your new name",
+			"trans": "Masukkan nama baru Anda"
+		},
+		"success": {
+			"eng": "You have successfully changed your name",
+			"trans": "Anda telah berhasil mengubah nama Anda"
 		}
 	},
 	"renderMessage": {
@@ -8617,6 +8703,14 @@
 				"description": {
 					"eng": "Receive notification when your gang members send messages to gang chat",
 					"trans": "Terima notifikasi saat anggota gengmu mengirim pesan ke obrolan geng"
+				},
+				"disabled": {
+					"eng": "Gang chat notification disabled",
+					"trans": "Notifikasi obrolan geng dinonaktifkan"
+				},
+				"enabled": {
+					"eng": "Gang chat notification enabled",
+					"trans": "Notifikasi obrolan geng diaktifkan"
 				},
 				"title": {
 					"eng": "Gang Chat",

@@ -525,6 +525,12 @@
 			}
 		}
 	},
+	"auth": {
+		"loggingIn": {
+			"eng": "Logging in...",
+			"trans": "登入中..."
+		}
+	},
 	"autoCalibrationPage": {
 		"calibrate": {
 			"eng": "Start Auto Calibration",
@@ -1509,6 +1515,10 @@
 					"trans": "您的幫派已經潰散了！"
 				}
 			}
+		},
+		"requestSent": {
+			"eng": "Request sent successfully",
+			"trans": "請求已成功發送"
 		}
 	},
 	"clanBuffDeployPopup": {
@@ -1577,6 +1587,12 @@
 		"funds": {
 			"eng": "Funds",
 			"trans": "資金"
+		},
+		"gang": {
+			"members": {
+				"eng": "${amount} members",
+				"trans": "${amount} 名成員"
+			}
 		},
 		"joinButton": {
 			"eng": "Join",
@@ -1720,6 +1736,38 @@
 		}
 	},
 	"clanSearchPage": {
+		"noClan": {
+			"ConfirmJoinButton": {
+				"description": {
+					"eng": "Are you sure you want to join the gang with the name \"${name}\" and tag \"${tag}\"?",
+					"trans": "你確定要加入名為\"${name}\"，標籤為\"${tag}\"的幫派嗎？"
+				},
+				"title": {
+					"eng": "Join",
+					"trans": "加入"
+				}
+			},
+			"joinButton": {
+				"title": {
+					"eng": "Join Gang",
+					"trans": "加入幫派"
+				}
+			},
+			"requestButton": {
+				"description": {
+					"eng": "Are you sure you want to send a request to join the gang with the name \"${name}\" and tag \"${tag}\"?",
+					"trans": "您確定要發送請求加入名為\"${name}\"、標籤為\"${tag}\"的幫派嗎？"
+				},
+				"title": {
+					"eng": "Send Request",
+					"trans": "發送請求"
+				}
+			},
+			"title": {
+				"eng": "No gang found",
+				"trans": "未找到幫派"
+			}
+		},
 		"searchBox": {
 			"title": {
 				"eng": "Gang name",
@@ -1748,13 +1796,19 @@
 		}
 	},
 	"collectedLoreNotes": {
-		"description": {
-			"eng": "You have collected ${collected} of ${total} lore notes.",
-			"trans": "您已經收集了${collected}份中的${total}份背景故事。"
-		},
 		"noNotes": {
 			"eng": "You have not collected any lore notes yet.",
 			"trans": "您尚未收集到任何背景故事。"
+		},
+		"progressBar": {
+			"title": {
+				"eng": "Notes Collected",
+				"trans": "收集的筆記"
+			},
+			"unit": {
+				"eng": "Lore Notes",
+				"trans": "背景故事筆記"
+			}
 		},
 		"title": {
 			"eng": "Collected Lore Notes",
@@ -1988,14 +2042,10 @@
 		}
 	},
 	"createGang": {
-		"confirmModal": {
-			"description": {
-				"eng": "Are you sure you want to create a gang with \\nthe name \"${name}\" and tag \"${tag}\"?",
-				"trans": "你確定要建立一個名為\"${name}\"且標籤為\"${tag}\"的幫派嗎？"
-			},
+		"createButton": {
 			"title": {
-				"eng": "Create gang",
-				"trans": "建立幫派"
+				"eng": "Create New Gang",
+				"trans": "創建新幫派"
 			}
 		},
 		"createGangButton": {
@@ -2008,12 +2058,6 @@
 			"eng": "Create your own gang and invite your friends to join!",
 			"trans": "建立您的幫派並邀請朋友加入。"
 		},
-		"fullJoinButton": {
-			"title": {
-				"eng": "Members full",
-				"trans": "成員滿員"
-			}
-		},
 		"gangNameInput": {
 			"title": {
 				"eng": "Gang Name",
@@ -2024,18 +2068,6 @@
 			"title": {
 				"eng": "Gang Tag",
 				"trans": "幫派標記"
-			}
-		},
-		"joinButton": {
-			"title": {
-				"eng": "Join",
-				"trans": "加入"
-			}
-		},
-		"joinExistingClanButton": {
-			"title": {
-				"eng": "Join existing gang",
-				"trans": "加入現有幫派"
 			}
 		},
 		"title": {
@@ -2742,9 +2774,9 @@
 		}
 	},
 	"enemyTabContent": {
-		"addEnemy": {
-			"eng": "Add Enemies",
-			"trans": "新增敵人"
+		"addToEnemyList": {
+			"eng": "Add To Enemy List",
+			"trans": "加入敵人名單"
 		},
 		"attack": {
 			"eng": "Attack",
@@ -3200,6 +3232,10 @@
 			"invalidCharacters": {
 				"eng": "The gang tag must only contain letters and numbers",
 				"trans": "幫派標籤只能包含字母和數字"
+			},
+			"moderation": {
+				"eng": "The tag contains inappropriate content: ${type}",
+				"trans": "標籤包含不當內容：${type}"
 			},
 			"tooLong": {
 				"eng": "The gang tag must be at most ${maxLength} characters long",
@@ -6385,6 +6421,12 @@
 				"eng": "Send invite?",
 				"trans": "傳送邀請？"
 			}
+		},
+		"joinClanRequestByMe": {
+			"button": {
+				"eng": "Request Sent",
+				"trans": "請求已發送"
+			}
 		}
 	},
 	"minigame": {
@@ -7280,6 +7322,12 @@
 				"trans": "心智恢復"
 			}
 		},
+		"rename": {
+			"nameAlreadyExists": {
+				"eng": "The name you are trying to use is already taken",
+				"trans": "您嘗試使用的名稱已被佔用"
+			}
+		},
 		"reportSuccess": {
 			"eng": "You have reported ${}",
 			"trans": "您已經檢舉了 ${}"
@@ -7419,10 +7467,28 @@
 			"trans": "這位玩家在市場上沒有任何物品。"
 		}
 	},
+	"playerName": {
+		"idle": {
+			"eng": "Idle",
+			"trans": "閒置"
+		},
+		"online": {
+			"eng": "Online",
+			"trans": "在線"
+		}
+	},
 	"playerNameError": {
+		"blockedSequence": {
+			"eng": "This name contains text that is not allowed: ${string}",
+			"trans": "此名稱包含不允許的文字：${string}"
+		},
 		"invalidCharacters": {
 			"eng": "Name can only contain letters, numbers and underscores.",
 			"trans": "名稱只能包含字母、數字和底線。"
+		},
+		"notAllowedName": {
+			"eng": "This name cannot be used",
+			"trans": "此名稱無法使用"
 		},
 		"tooLong": {
 			"eng": "Name must be less than or equal to ${max} characters long.",
@@ -8014,6 +8080,26 @@
 		"title": {
 			"eng": "Refresh shop items",
 			"trans": "刷新商店物品"
+		}
+	},
+	"renameModal": {
+		"confirm": {
+			"eng": "Confirm",
+			"trans": "確認"
+		},
+		"error": {
+			"sameName": {
+				"eng": "You cannot use the same name as your current name",
+				"trans": "您不能使用與當前名稱相同的名稱"
+			}
+		},
+		"inputPlaceholder": {
+			"eng": "Enter your new name",
+			"trans": "輸入你的新名字"
+		},
+		"success": {
+			"eng": "You have successfully changed your name",
+			"trans": "您已成功更改您的名稱"
 		}
 	},
 	"renderMessage": {
@@ -8617,6 +8703,14 @@
 				"description": {
 					"eng": "Receive notification when your gang members send messages to gang chat",
 					"trans": "當你的幫派成員發送訊息到幫派聊天時接收通知"
+				},
+				"disabled": {
+					"eng": "Gang chat notification disabled",
+					"trans": "幫派聊天通知已禁用"
+				},
+				"enabled": {
+					"eng": "Gang chat notification enabled",
+					"trans": "幫派聊天通知已啟用"
 				},
 				"title": {
 					"eng": "Gang Chat",

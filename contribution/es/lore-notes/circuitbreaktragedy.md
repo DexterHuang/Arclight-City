@@ -1,0 +1,35 @@
+
+---
+
+> **Entrada de Diario: Registro de Terminal Encontrado**  
+> *Accedido por Usuario: DESCONOCIDO el 15/7/2084*
+
+---
+
+_La pantalla holográfica cobró vida, proyectando una luz azul inquietante por toda la habitación. Apenas podías distinguir las palabras grabadas en la memoria del terminal._
+
+---
+
+```
+> [INICIO DEL REGISTRO]
+> FECHA: 11/9/2063
+> HORA: 14:47
+
+> ME QUITARON TODO.
+
+> SOLÍA TENER UNA FAMILIA, UNA HERMANA QUE TRABAJABA EN INTERUPCIÓN DE CIRCUITO. ERA TAN BRILLANTE, TAN LLENA DE VIDA. PERO LLEGÓ AQUEL DÍA—EL ATAQUE A LA OFICINA CENTRAL. AÚN RECUERDO LA EXPLOSIÓN, EL DESTELLO DESLUMBRANTE, LOS GRITOS.
+
+> EL GOBIERNO DICE QUE FUE UN GRUPO TERRORISTA, UNOS BOMBEROS AFICIONADOS QUE CONSIGUIERON UN DISPOSITIVO NUCLEAR TÁCTICO DEL MERCADO NEGRO. PERO YO SÉ QUE NO ES ASÍ. ESTÁN OCULTANDO ALGO. ¿POR QUÉ MÁS NOS OPRIMIRÍAN HACIA EL SILENCIO?
+
+> MI HERMANA ESTABA EN EL EDIFICIO AQUEL DÍA. NUNCA SALIÓ. AHORA SOY LO ÚNICO QUE QUEDA, Y AUN ASÍ, EL DOLOR NUNCA SE VA.
+
+> CADA NOCHE, SUEÑO CON LA TORRE COLAPSADA, LOS HOLOGRAMAS FALLANDO DE PERSONAS ATRAPADAS DENTRO. DICEN QUE INTERUPCIÓN DE CIRCUITO RECONSTRUYÓ LA OFICINA CENTRAL, PERO NO ES LO MISMO. ES COMO UN MONSTRUO, QUE HA RESUCITADO DE LAS CENIZAS PERO AÚN NOS ACECHA.
+
+> ESTOY EMPEZANDO A PENSAR QUE NUNCA ARREGLARON NADA REALMENTE. SOLO CONSTRUYERON SOBRE LAS RUINAS.
+
+> [FIN DEL REGISTRO]
+```
+
+---
+
+_El terminal cayó en silencio, su luz azul desvaneciéndose en la oscuridad de la habitación. Sentiste un escalofrío recorrer tu espalda mientras retrocedías, dejando atrás las palabras inquietantes de alguien que había perdido todo en las sombras de la Ciudad Arclight._

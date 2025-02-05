@@ -525,6 +525,12 @@
 			}
 		}
 	},
+	"auth": {
+		"loggingIn": {
+			"eng": "Logging in...",
+			"trans": "Fazendo login..."
+		}
+	},
 	"autoCalibrationPage": {
 		"calibrate": {
 			"eng": "Start Auto Calibration",
@@ -1509,6 +1515,10 @@
 					"trans": "Sua gangue desmoronou!"
 				}
 			}
+		},
+		"requestSent": {
+			"eng": "Request sent successfully",
+			"trans": "Solicitação enviada com sucesso"
 		}
 	},
 	"clanBuffDeployPopup": {
@@ -1577,6 +1587,12 @@
 		"funds": {
 			"eng": "Funds",
 			"trans": "Fundos"
+		},
+		"gang": {
+			"members": {
+				"eng": "${amount} members",
+				"trans": "${amount} membros"
+			}
 		},
 		"joinButton": {
 			"eng": "Join",
@@ -1720,6 +1736,38 @@
 		}
 	},
 	"clanSearchPage": {
+		"noClan": {
+			"ConfirmJoinButton": {
+				"description": {
+					"eng": "Are you sure you want to join the gang with the name \"${name}\" and tag \"${tag}\"?",
+					"trans": "Você tem certeza de que quer entrar na gangue chamada \"${name}\" com a tag \"${tag}\"?"
+				},
+				"title": {
+					"eng": "Join",
+					"trans": "Junte-se"
+				}
+			},
+			"joinButton": {
+				"title": {
+					"eng": "Join Gang",
+					"trans": "Junte-se à Gangue"
+				}
+			},
+			"requestButton": {
+				"description": {
+					"eng": "Are you sure you want to send a request to join the gang with the name \"${name}\" and tag \"${tag}\"?",
+					"trans": "Você tem certeza de que deseja enviar um pedido para entrar na gangue com o nome \"${name}\" e tag \"${tag}\"?"
+				},
+				"title": {
+					"eng": "Send Request",
+					"trans": "Enviar Solicitação"
+				}
+			},
+			"title": {
+				"eng": "No gang found",
+				"trans": "Nenhuma gangue encontrada"
+			}
+		},
 		"searchBox": {
 			"title": {
 				"eng": "Gang name",
@@ -1748,13 +1796,19 @@
 		}
 	},
 	"collectedLoreNotes": {
-		"description": {
-			"eng": "You have collected ${collected} of ${total} lore notes.",
-			"trans": "Você coletou ${collected} de ${total} notas de lore."
-		},
 		"noNotes": {
 			"eng": "You have not collected any lore notes yet.",
 			"trans": "Você ainda não coletou nenhuma nota de lore."
+		},
+		"progressBar": {
+			"title": {
+				"eng": "Notes Collected",
+				"trans": "Notas Coletadas"
+			},
+			"unit": {
+				"eng": "Lore Notes",
+				"trans": "Notas de Lore"
+			}
 		},
 		"title": {
 			"eng": "Collected Lore Notes",
@@ -1988,14 +2042,10 @@
 		}
 	},
 	"createGang": {
-		"confirmModal": {
-			"description": {
-				"eng": "Are you sure you want to create a gang with \\nthe name \"${name}\" and tag \"${tag}\"?",
-				"trans": "Você tem certeza de que deseja criar uma gangue com o nome \"${name}\" e a tag \"${tag}\"?"
-			},
+		"createButton": {
 			"title": {
-				"eng": "Create gang",
-				"trans": "Criar gangue"
+				"eng": "Create New Gang",
+				"trans": "Criar Nova Gangue"
 			}
 		},
 		"createGangButton": {
@@ -2008,12 +2058,6 @@
 			"eng": "Create your own gang and invite your friends to join!",
 			"trans": "Crie sua própria gangue e convide seus amigos para se juntarem!"
 		},
-		"fullJoinButton": {
-			"title": {
-				"eng": "Members full",
-				"trans": "Membros completos"
-			}
-		},
 		"gangNameInput": {
 			"title": {
 				"eng": "Gang Name",
@@ -2024,18 +2068,6 @@
 			"title": {
 				"eng": "Gang Tag",
 				"trans": "Tag de Gangue"
-			}
-		},
-		"joinButton": {
-			"title": {
-				"eng": "Join",
-				"trans": "Junte-se"
-			}
-		},
-		"joinExistingClanButton": {
-			"title": {
-				"eng": "Join existing gang",
-				"trans": "Junte-se a uma gangue existente"
 			}
 		},
 		"title": {
@@ -2742,9 +2774,9 @@
 		}
 	},
 	"enemyTabContent": {
-		"addEnemy": {
-			"eng": "Add Enemies",
-			"trans": "Adicionar Inimigos"
+		"addToEnemyList": {
+			"eng": "Add To Enemy List",
+			"trans": "Adicionar à Lista de Inimigos"
 		},
 		"attack": {
 			"eng": "Attack",
@@ -3200,6 +3232,10 @@
 			"invalidCharacters": {
 				"eng": "The gang tag must only contain letters and numbers",
 				"trans": "A tag da gangue deve conter apenas letras e números"
+			},
+			"moderation": {
+				"eng": "The tag contains inappropriate content: ${type}",
+				"trans": "A tag contém conteúdo inadequado: ${type}"
 			},
 			"tooLong": {
 				"eng": "The gang tag must be at most ${maxLength} characters long",
@@ -6385,6 +6421,12 @@
 				"eng": "Send invite?",
 				"trans": "Enviar convite?"
 			}
+		},
+		"joinClanRequestByMe": {
+			"button": {
+				"eng": "Request Sent",
+				"trans": "Solicitação Enviada"
+			}
 		}
 	},
 	"minigame": {
@@ -6628,7 +6670,7 @@
 			},
 			"locationName": {
 				"eng": "Red Bar",
-				"trans": "Red Bar"
+				"trans": "Barra Vermelha"
 			},
 			"npcName": {
 				"eng": "Chloe",
@@ -7280,6 +7322,12 @@
 				"trans": "Psique restaurada"
 			}
 		},
+		"rename": {
+			"nameAlreadyExists": {
+				"eng": "The name you are trying to use is already taken",
+				"trans": "O nome que você está tentando usar já está em uso"
+			}
+		},
 		"reportSuccess": {
 			"eng": "You have reported ${}",
 			"trans": "Você reportou ${}"
@@ -7419,10 +7467,28 @@
 			"trans": "Este jogador não possui nenhum item no mercado."
 		}
 	},
+	"playerName": {
+		"idle": {
+			"eng": "Idle",
+			"trans": "Inativo"
+		},
+		"online": {
+			"eng": "Online",
+			"trans": "Online"
+		}
+	},
 	"playerNameError": {
+		"blockedSequence": {
+			"eng": "This name contains text that is not allowed: ${string}",
+			"trans": "Este nome contém texto que não é permitido: ${string}"
+		},
 		"invalidCharacters": {
 			"eng": "Name can only contain letters, numbers and underscores.",
 			"trans": "O nome pode conter apenas letras, números e underscores."
+		},
+		"notAllowedName": {
+			"eng": "This name cannot be used",
+			"trans": "Este nome não pode ser usado"
 		},
 		"tooLong": {
 			"eng": "Name must be less than or equal to ${max} characters long.",
@@ -8014,6 +8080,26 @@
 		"title": {
 			"eng": "Refresh shop items",
 			"trans": "Atualizar itens da loja"
+		}
+	},
+	"renameModal": {
+		"confirm": {
+			"eng": "Confirm",
+			"trans": "Confirmar"
+		},
+		"error": {
+			"sameName": {
+				"eng": "You cannot use the same name as your current name",
+				"trans": "Você não pode usar o mesmo nome que seu nome atual"
+			}
+		},
+		"inputPlaceholder": {
+			"eng": "Enter your new name",
+			"trans": "Digite seu novo nome"
+		},
+		"success": {
+			"eng": "You have successfully changed your name",
+			"trans": "Você mudou seu nome com sucesso"
 		}
 	},
 	"renderMessage": {
@@ -8617,6 +8703,14 @@
 				"description": {
 					"eng": "Receive notification when your gang members send messages to gang chat",
 					"trans": "Receba notificações quando seus membros de gangue enviarem mensagens no chat da gangue"
+				},
+				"disabled": {
+					"eng": "Gang chat notification disabled",
+					"trans": "Notificação de chat da gangue desativada"
+				},
+				"enabled": {
+					"eng": "Gang chat notification enabled",
+					"trans": "Notificação de chat da gangue ativada"
 				},
 				"title": {
 					"eng": "Gang Chat",
