@@ -6430,6 +6430,76 @@
 		}
 	},
 	"minigame": {
+		"circuitSync": {
+			"instruction": {
+				"eng": "Click when the pulse aligns with the connection point",
+				"trans": "接続ポイントとパルスが一致したらクリックしてください"
+			},
+			"status": {
+				"progress": {
+					"eng": "${current}/${total} Synchronized",
+					"trans": "${current}/${total} 同期完了"
+				},
+				"title": {
+					"eng": "System Status",
+					"trans": "システムステータス"
+				}
+			},
+			"title": {
+				"eng": "Circuit Synchronization Required",
+				"trans": "回路の同期が必要です"
+			}
+		},
+		"gameName": {
+			"instructions": {
+				"eng": "How to play",
+				"trans": "どうやってプレイするのか?"
+			},
+			"title": {
+				"eng": "Game Title",
+				"trans": "ゲームタイトル"
+			}
+		},
+		"neonFuse": {
+			"hint": {
+				"eng": "Watch and remember the sequence...",
+				"trans": "シーケンスを見て、覚えておいてください..."
+			},
+			"instruction": {
+				"eng": "Recreate the sequence. Any mistake will reset with a new pattern.",
+				"trans": "シーケンスを再現してください。間違えると新しいパターンでリセットされます。"
+			},
+			"progress": {
+				"eng": "Progress",
+				"trans": "進捗"
+			},
+			"sequenceIndicator": {
+				"eng": "Remember the sequence...",
+				"trans": "シーケンスを覚えておいてください..."
+			},
+			"success": {
+				"eng": "Hack successful!",
+				"trans": "ハッキング成功！"
+			},
+			"successIndicator": {
+				"eng": "Access Granted",
+				"trans": "アクセス許可されました"
+			},
+			"title": {
+				"eng": "Neon Fuse Hack",
+				"trans": "ネオンフューズハック"
+			}
+		},
+		"targetTap": {
+			"description": {
+				"eng": "Tap the target to acquire it",
+				"trans": "ターゲットをタップして取得してください"
+			},
+			"title": {
+				"eng": "ACQUIRE TARGET",
+				"trans": "ターゲットを取得する"
+			}
+		},
 		"tileTrack": {
 			"tip": {
 				"eng": "Click on the highlighted button to unlock",

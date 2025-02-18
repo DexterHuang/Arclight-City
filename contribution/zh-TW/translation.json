@@ -6430,6 +6430,76 @@
 		}
 	},
 	"minigame": {
+		"circuitSync": {
+			"instruction": {
+				"eng": "Click when the pulse aligns with the connection point",
+				"trans": "當脈衝與連接點對齊時點擊"
+			},
+			"status": {
+				"progress": {
+					"eng": "${current}/${total} Synchronized",
+					"trans": "${current}/${total} 同步中"
+				},
+				"title": {
+					"eng": "System Status",
+					"trans": "系統狀態"
+				}
+			},
+			"title": {
+				"eng": "Circuit Synchronization Required",
+				"trans": "需要電路同步"
+			}
+		},
+		"gameName": {
+			"instructions": {
+				"eng": "How to play",
+				"trans": "如何遊玩"
+			},
+			"title": {
+				"eng": "Game Title",
+				"trans": "遊戲標題"
+			}
+		},
+		"neonFuse": {
+			"hint": {
+				"eng": "Watch and remember the sequence...",
+				"trans": "觀察並記住這個序列..."
+			},
+			"instruction": {
+				"eng": "Recreate the sequence. Any mistake will reset with a new pattern.",
+				"trans": "重新創建序列。任何錯誤將會重置為新模式。"
+			},
+			"progress": {
+				"eng": "Progress",
+				"trans": "進度"
+			},
+			"sequenceIndicator": {
+				"eng": "Remember the sequence...",
+				"trans": "記住這個序列..."
+			},
+			"success": {
+				"eng": "Hack successful!",
+				"trans": "駭客入侵成功！"
+			},
+			"successIndicator": {
+				"eng": "Access Granted",
+				"trans": "訪問已授權"
+			},
+			"title": {
+				"eng": "Neon Fuse Hack",
+				"trans": "霓虹熔接駭客"
+			}
+		},
+		"targetTap": {
+			"description": {
+				"eng": "Tap the target to acquire it",
+				"trans": "點擊目標以獲取它"
+			},
+			"title": {
+				"eng": "ACQUIRE TARGET",
+				"trans": "獲取目標"
+			}
+		},
 		"tileTrack": {
 			"tip": {
 				"eng": "Click on the highlighted button to unlock",

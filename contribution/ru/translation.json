@@ -6430,6 +6430,76 @@
 		}
 	},
 	"minigame": {
+		"circuitSync": {
+			"instruction": {
+				"eng": "Click when the pulse aligns with the connection point",
+				"trans": "Нажмите, когда импульс совпадет с точкой соединения"
+			},
+			"status": {
+				"progress": {
+					"eng": "${current}/${total} Synchronized",
+					"trans": "${current}/${total} Синхронизировано"
+				},
+				"title": {
+					"eng": "System Status",
+					"trans": "Состояние системы"
+				}
+			},
+			"title": {
+				"eng": "Circuit Synchronization Required",
+				"trans": "Требуется синхронизация цепей"
+			}
+		},
+		"gameName": {
+			"instructions": {
+				"eng": "How to play",
+				"trans": "Как играть"
+			},
+			"title": {
+				"eng": "Game Title",
+				"trans": "Название игры"
+			}
+		},
+		"neonFuse": {
+			"hint": {
+				"eng": "Watch and remember the sequence...",
+				"trans": "Смотри и запоминай последовательность..."
+			},
+			"instruction": {
+				"eng": "Recreate the sequence. Any mistake will reset with a new pattern.",
+				"trans": "Воссоздайте последовательность. Любая ошибка приведет к сбросу на новую схему."
+			},
+			"progress": {
+				"eng": "Progress",
+				"trans": "Прогресс"
+			},
+			"sequenceIndicator": {
+				"eng": "Remember the sequence...",
+				"trans": "Запомни последовательность..."
+			},
+			"success": {
+				"eng": "Hack successful!",
+				"trans": "Взлом успешен!"
+			},
+			"successIndicator": {
+				"eng": "Access Granted",
+				"trans": "Доступ разрешен"
+			},
+			"title": {
+				"eng": "Neon Fuse Hack",
+				"trans": "Неоновый взлом предохранителя"
+			}
+		},
+		"targetTap": {
+			"description": {
+				"eng": "Tap the target to acquire it",
+				"trans": "Нажмите на цель, чтобы захватить её"
+			},
+			"title": {
+				"eng": "ACQUIRE TARGET",
+				"trans": "ЗАХВАТИТЬ ЦЕЛЬ"
+			}
+		},
 		"tileTrack": {
 			"tip": {
 				"eng": "Click on the highlighted button to unlock",
