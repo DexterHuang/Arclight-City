@@ -1,0 +1,1058 @@
+{
+  "keywords": [
+    {
+      "eng": "Player ${0} is ${1} has been killed during PVP",
+      "trans": "Le joueur ${0} a été tué par ${1} lors d'un combat en PVP",
+      "match": [
+        ""
+      ],
+      "desc": "Example of how to translate a sentence with variables",
+      "important": true
+    },
+    {
+      "eng": "What is equipment calibration?",
+      "trans": "Qu'est-ce que la calibration de l'équipement ?",
+      "match": [
+        "calibrate"
+      ],
+      "desc": "An example for an sample question",
+      "important": true
+    },
+    {
+      "eng": "Inventory",
+      "trans": "Inventaire",
+      "match": [],
+      "desc": "Player's main inventory"
+    },
+    {
+      "eng": "Backpack",
+      "trans": "Sac à dos",
+      "match": [],
+      "desc": "A separate inventory that player brings to adventure"
+    },
+    {
+      "eng": "Vault",
+      "trans": "Coffre",
+      "match": [],
+      "desc": "A separate inventory that player stores in their apartment, can only be accessed in apartment"
+    },
+    {
+      "eng": "AFK Tasks",
+      "trans": "Tâches AFK",
+      "match": [
+        "afk"
+      ],
+      "desc": "AFK = away from keyboard, tasks player can perform while they are not actively playing"
+    },
+    {
+      "eng": "AFK",
+      "trans": "AFK",
+      "match": [],
+      "desc": "Away from keyboard"
+    },
+    {
+      "eng": "Red Bar",
+      "trans": "Bar Rouge",
+      "match": [],
+      "desc": "A cool name of a bar player can visit"
+    },
+    {
+      "eng": "Deliveries",
+      "trans": "Colis",
+      "match": [],
+      "desc": "delivery is like item inbox, its called delivery because its in your apartment, like how you receive delivery when you order stuff online"
+    },
+    {
+      "eng": "Upper Armour",
+      "trans": "Armure supérieure",
+      "match": [],
+      "desc": "A type of armor player can equip on their upper body"
+    },
+    {
+      "eng": "Lower Armour",
+      "trans": "Armure inférieure",
+      "match": [],
+      "desc": "A type of armor player can equip on their lower body"
+    },
+    {
+      "eng": "Place Hit",
+      "trans": "Passer une prime",
+      "match": [],
+      "desc": "Placing a bounty on another player for a hitman, synonym of \"place bounty\""
+    },
+    {
+      "eng": "Dismantle",
+      "trans": "Démonter",
+      "match": [],
+      "desc": "Dismantle an item to get components"
+    },
+    {
+      "eng": "Stronghold",
+      "trans": "Forteresse",
+      "match": [],
+      "desc": "Like a dungeon but with a sci-fi name"
+    },
+    {
+      "eng": "Health",
+      "trans": "Santé",
+      "match": [],
+      "desc": "Player's Health, also known as HP"
+    },
+    {
+      "eng": "Vitality",
+      "trans": "Vitalité",
+      "match": [],
+      "desc": "An attribute name"
+    },
+    {
+      "eng": "Strength",
+      "trans": "Force",
+      "match": [],
+      "desc": "An attribute name"
+    },
+    {
+      "eng": "Intelligence",
+      "trans": "Intelligence",
+      "match": [],
+      "desc": "An attribute name"
+    },
+    {
+      "eng": "Dexterity",
+      "trans": "Dextérité",
+      "match": [],
+      "desc": "An attribute name"
+    },
+    {
+      "eng": "Vitality Attribute",
+      "trans": "Attribut Vitalité",
+      "match": [
+        "vitality"
+      ],
+      "desc": "An attribute name added a repeat for AI to easier to understand"
+    },
+    {
+      "eng": "Strength Attribute",
+      "trans": "Attribut Force",
+      "match": [
+        "strength"
+      ],
+      "desc": "An attribute name added a repeat for AI to easier to understand"
+    },
+    {
+      "eng": "Intelligence Attribute",
+      "trans": "Attribut Intelligence",
+      "match": [
+        "intelligence"
+      ],
+      "desc": "An attribute name added a repeat for AI to easier to understand"
+    },
+    {
+      "eng": "Dexterity Attribute",
+      "trans": "Attribut Dextérité",
+      "match": [
+        "dexterity"
+      ],
+      "desc": "An attribute name added a repeat for AI to easier to understand"
+    },
+    {
+      "eng": "Thieving",
+      "trans": "Vol",
+      "match": [],
+      "desc": "A job name player can perform"
+    },
+    {
+      "eng": "Scavenge",
+      "trans": "Fouiller",
+      "match": [],
+      "desc": "A job name player can perform"
+    },
+    {
+      "eng": "Extraction Mission",
+      "trans": "Mission d'extraction",
+      "match": [],
+      "desc": "A job player can perform to increase their medical level, the ideal is they will do part-time job as a member of Trauma Team's extraction force, to extract VIPs from dangerous situations"
+    },
+    {
+      "eng": "Arclight City",
+      "trans": "Cité Arclight",
+      "match": [
+        "arclight"
+      ],
+      "desc": "Name of the game, also the name of the city set in the game, when translating this please make it sounds good, does not to be direct translation"
+    },
+    {
+      "eng": "Arclight",
+      "trans": "Arclight",
+      "match": [],
+      "desc": "Short-term name of the game, also the name of the city set in the game"
+    },
+    {
+      "eng": "Territory",
+      "trans": "Territoire",
+      "match": [],
+      "desc": "A district area player can take control of"
+    },
+    {
+      "eng": "gang",
+      "trans": "Gang",
+      "match": [],
+      "desc": "Like clans in other games"
+    },
+    {
+      "eng": "Gang Upkeep",
+      "trans": "Maintenance du gang",
+      "match": [],
+      "desc": "A cost player needs to pay to maintain their gang"
+    },
+    {
+      "eng": "Gang Territory",
+      "trans": "Territoire du gang",
+      "match": [],
+      "desc": "A district area gang can take control of"
+    },
+    {
+      "eng": "Ripperdoc",
+      "trans": "Ripperdoc",
+      "match": [],
+      "desc": "An NPC profession name, like a cybernetic doctor"
+    },
+    {
+      "eng": "money",
+      "trans": "Eurodollars",
+      "match": [],
+      "desc": "Main currency in the game, which is Eurodollars, please translate directly to Eurodollars or simply \"money\" if more appropriate"
+    },
+    {
+      "eng": "Nano Repairer",
+      "trans": "Nano Réparateur",
+      "match": [],
+      "desc": "An item name used to repair broken equipment"
+    },
+    {
+      "eng": "TaiXing Cybernetic",
+      "trans": "TaiXing Cybernétique",
+      "match": [
+        "taixing"
+      ],
+      "desc": "A fake company name, specialized in making cybernetic implants and other tech"
+    },
+    {
+      "eng": "TaiXing",
+      "trans": "TaiXing",
+      "match": [],
+      "desc": "A fake company name, specialized in making cybernetic implants and other tech"
+    },
+    {
+      "eng": "Trauma Team",
+      "trans": "Équipe Trauma",
+      "match": [],
+      "desc": "An NPC profession name, like a medical rescue team but with guns"
+    },
+    {
+      "eng": "extraction force",
+      "trans": "Force d'extraction",
+      "match": [],
+      "desc": "Teams work under Trauma Team, like a medical rescue team but with guns"
+    },
+    {
+      "eng": "crew",
+      "trans": "Équipe",
+      "match": [],
+      "desc": "A team of mercenaries player can hire to help them fight"
+    },
+    {
+      "eng": "Implant",
+      "trans": "Implant",
+      "match": [],
+      "desc": "A cyberpunk term for cybernetic implants, if you don't know what it is please check google"
+    },
+    {
+      "eng": "Cyber psychosis",
+      "trans": "Cyberpsychose",
+      "match": [
+        "psychosis"
+      ],
+      "desc": "Same thing as in the Anime, when a person uses too much cybernetic ability, they will lose their mind"
+    },
+    {
+      "eng": "stats",
+      "trans": "Statistiques",
+      "match": [
+        "stat"
+      ],
+      "desc": "The attributes of items, like damage, health, armor, etc"
+    },
+    {
+      "eng": "reward",
+      "trans": "Récompense",
+      "match": [],
+      "desc": "A reward player can get from doing quests or other stuff"
+    },
+    {
+      "eng": "calibration",
+      "trans": "Calibration",
+      "match": [
+        "calibrate"
+      ],
+      "desc": "A process to make equipment work better"
+    },
+    {
+      "eng": "calibrate",
+      "trans": "Calibrer",
+      "match": [],
+      "desc": "A process to make equipment work better"
+    },
+    {
+      "eng": "upgrade",
+      "trans": "Améliorer",
+      "match": [],
+      "desc": "A process to make equipment work better, including increasing level, resetting, or adding new stats"
+    },
+    {
+      "eng": "place hit",
+      "trans": "Passer une prime",
+      "match": [],
+      "desc": "Placing a bounty order on another player"
+    },
+    {
+      "eng": "netrunner",
+      "trans": "Netrunner",
+      "match": [],
+      "desc": "Hacker in cyberpunk term"
+    },
+    {
+      "eng": "netrunning",
+      "trans": "Netrunning",
+      "match": [],
+      "desc": "Hacking in cyberpunk term"
+    },
+    {
+      "eng": "flatline",
+      "trans": "Flatline",
+      "match": [],
+      "desc": "Dead in cyberpunk term, will show up in the dead screen with bit writing, supposed to look cool"
+    },
+    {
+      "eng": "cybernet",
+      "trans": "Cybernet",
+      "match": [],
+      "desc": "\"Internet\" in cyberpunk term"
+    },
+    {
+      "eng": "use",
+      "trans": "Utiliser",
+      "match": [],
+      "desc": "Use an item"
+    },
+    {
+      "eng": "next",
+      "trans": "Suivant",
+      "match": [],
+      "desc": "In UI context, like a button"
+    },
+    {
+      "eng": "block",
+      "trans": "Bloquer",
+      "match": [],
+      "desc": "Block a player from sending messages to you"
+    },
+    {
+      "eng": "bundle",
+      "trans": "Lot",
+      "match": [],
+      "desc": "A bundle of items players can buy in most mobile games"
+    },
+    {
+      "eng": "block chance",
+      "trans": "Chance de blocage",
+      "match": [],
+      "desc": "A stat of equipment, a chance that players can block incoming damage"
+    },
+    {
+      "eng": "Universal Dollars",
+      "trans": "Dollars universels",
+      "match": [],
+      "desc": "A fictional currency name in the game, translate to a suitable name in your language"
+    },
+    {
+      "eng": "Cybernetic Enhancer",
+      "trans": "Améliorateur cybernétique",
+      "match": [
+        "enhancer"
+      ],
+      "desc": "An item name, a cybernetic implant that can enhance players' abilities"
+    },
+    {
+      "eng": "Eurodollars",
+      "trans": "Eurodollars",
+      "match": [
+        "eddie"
+      ],
+      "desc": "Main currency in the game, which is Eurodollars, please translate directly to Eurodollars or simply \"money\" if more appropriate"
+    },
+    {
+      "eng": "eddies",
+      "trans": "Eurodollars",
+      "match": [
+        "eddie"
+      ]
+    },
+    {
+      "eng": "Lore note",
+      "trans": "Note de lore",
+      "match": [
+        "lore"
+      ],
+      "desc": "A note that players can find in the game and read to learn more about the game world"
+    },
+    {
+      "eng": "referral",
+      "trans": "Parrainage",
+      "match": [
+        "refer"
+      ],
+      "desc": "Referral as in referring a friend to play the game"
+    },
+    {
+      "eng": "refer",
+      "trans": "Parrainer",
+      "match": [],
+      "desc": "Referral as in referring a friend to play the game"
+    },
+    {
+      "eng": "Scrap Items",
+      "trans": "Objets à recycler",
+      "match": [
+        "scrap"
+      ],
+      "desc": "Player can scrap items from their inventory, different from dismantle, scrap will give less or no components"
+    },
+    {
+      "eng": "All",
+      "trans": "Tout",
+      "match": [],
+      "desc": "A generic word for 'all' in UI"
+    },
+    {
+      "eng": "Continue",
+      "trans": "Continuer",
+      "match": [],
+      "desc": "A generic word for 'continue' in UI"
+    },
+    {
+      "eng": "CircuitBreak",
+      "trans": "CircuitBreak - Groupe de sécurité",
+      "match": [],
+      "desc": "a megacorporation that specializes in security-related tasks, they also has a hitman service where people can place hit on their enemies"
+    },
+    {
+      "eng": "Choom",
+      "trans": "Pote",
+      "match": [],
+      "desc": "A slang word for friend/bro in cyberpunk term"
+    },
+    {
+      "eng": "Tech Scrap",
+      "trans": "Rebut technologique",
+      "match": [],
+      "desc": "A piece of tech scrap."
+    },
+    {
+      "eng": "Gun",
+      "trans": "Arme à feu",
+      "match": [],
+      "desc": "A traditional firearm that uses gunpowder to fire bullets. cant go wrong with this one."
+    },
+    {
+      "eng": "Energy Weapon",
+      "trans": "Arme à énergie",
+      "match": [],
+      "desc": "A weapon that uses energy to fire."
+    },
+    {
+      "eng": "Blade",
+      "trans": "Lame",
+      "match": [],
+      "desc": "A melee weapon that has sharpened edges."
+    },
+    {
+      "eng": "Helmet",
+      "trans": "Casque",
+      "match": [],
+      "desc": "A piece of equipment that protects the head."
+    },
+    {
+      "eng": "Upper Armor",
+      "trans": "Armure supérieure",
+      "match": [],
+      "desc": "A piece of equipment that protects the upper body."
+    },
+    {
+      "eng": "Lower Armor",
+      "trans": "Armure inférieure",
+      "match": [],
+      "desc": "A piece of equipment that protects the lower body."
+    },
+    {
+      "eng": "Boots",
+      "trans": "Bottes",
+      "match": [],
+      "desc": "A piece of equipment that protects the feet."
+    },
+    {
+      "eng": "Ring",
+      "trans": "Anneau",
+      "match": []
+    },
+    {
+      "eng": "Pendant",
+      "trans": "Pendentif",
+      "match": []
+    },
+    {
+      "eng": "Basic Healing Nanobot",
+      "trans": "Nanobot de soin basique",
+      "match": [],
+      "desc": "Use to recover small amount of health"
+    },
+    {
+      "eng": "Advance Healing Nanobot",
+      "trans": "Nanobot de soin avancé",
+      "match": [],
+      "desc": "Use to recover moderate amount of health"
+    },
+    {
+      "eng": "Equipment Calibrator",
+      "trans": "Calibrateur d'équipement",
+      "match": [],
+      "desc": "Used to calibrate equipments"
+    },
+    {
+      "eng": "Common Calibration Circuit Breaker",
+      "trans": "Disjoncteur de calibration commun",
+      "match": [],
+      "desc": "Use to decrease chance of equipment destruction by ${percent}% when calibration failed"
+    },
+    {
+      "eng": "Uncommon Calibration Circuit Breaker",
+      "trans": "Disjoncteur de calibration peu commun",
+      "match": [],
+      "desc": "Use to decrease chance of equipment destruction by ${percent}% when calibration failed"
+    },
+    {
+      "eng": "Rare Calibration Circuit Breaker",
+      "trans": "Disjoncteur de calibration rare",
+      "match": [],
+      "desc": "Use to decrease chance of equipment destruction by ${percent}% when calibration failed"
+    },
+    {
+      "eng": "Uncommon Reset Shard",
+      "trans": "Fragment de réinitialisation peu commun",
+      "match": [],
+      "desc": "Use to reset a uncommon item with new traits by chance"
+    },
+    {
+      "eng": "Rare Reset Shard",
+      "trans": "Fragment de réinitialisation rare",
+      "match": [],
+      "desc": "Use to reset a rare item with new traits by chance"
+    },
+    {
+      "eng": "Unique Reset Shard",
+      "trans": "Fragment de réinitialisation unique",
+      "match": [],
+      "desc": "Use to reset a unique item with new traits by chance"
+    },
+    {
+      "eng": "Epic Reset Shard",
+      "trans": "Fragment de réinitialisation épique",
+      "match": [],
+      "desc": "Use to reset a epic item with new traits by chance"
+    },
+    {
+      "eng": "Uncommon Upgrade Shard",
+      "trans": "Fragment d'amélioration peu commun",
+      "match": [],
+      "desc": "Use to upgrade an common item to uncommon tier"
+    },
+    {
+      "eng": "Rare Upgrade Shard",
+      "trans": "Fragment d'amélioration rare",
+      "match": [],
+      "desc": "Use to upgrade an uncommon item to rare tier"
+    },
+    {
+      "eng": "Unique Upgrade Shard",
+      "trans": "Fragment d'amélioration unique",
+      "match": [],
+      "desc": "Use to upgrade an rare item to unique tier"
+    },
+    {
+      "eng": "Epic Upgrade Shard",
+      "trans": "Fragment d'amélioration épique",
+      "match": [],
+      "desc": "Use to upgrade an unique item to epic tier"
+    },
+    {
+      "eng": "Common Level Shard",
+      "trans": "Fragment de niveau commun",
+      "match": [],
+      "desc": "Use to level up an common item to its next level"
+    },
+    {
+      "eng": "Uncommon Level Shard",
+      "trans": "Fragment de niveau peu commun",
+      "match": [],
+      "desc": "Use to level up an uncommon item to its next level"
+    },
+    {
+      "eng": "Rare Level Shard",
+      "trans": "Fragment de niveau rare",
+      "match": [],
+      "desc": "Use to level up an rare item to its next level"
+    },
+    {
+      "eng": "Unique Level Shard",
+      "trans": "Fragment de niveau unique",
+      "match": [],
+      "desc": "Use to level up an unique item to its next level"
+    },
+    {
+      "eng": "Epic Level Shard",
+      "trans": "Fragment de niveau épique",
+      "match": [],
+      "desc": "Use to level up an epic item to its next level"
+    },
+    {
+      "eng": "Identification Shard",
+      "trans": "Fragment d'identification",
+      "match": [],
+      "desc": "Use to identify unknown traits in a item"
+    },
+    {
+      "eng": "Prefix Injector Shard",
+      "trans": "Fragment d'injecteur de préfixe",
+      "match": [],
+      "desc": "Use to inject an additional prefix into a item, please note that if you re-roll the prefixes after using this item, the effect will be nullified."
+    },
+    {
+      "eng": "dungeon activator",
+      "trans": "Activateur de forteresse",
+      "match": [],
+      "desc": "Use to enter a dungeon"
+    },
+    {
+      "eng": "Red Bar VIP token",
+      "trans": "Jeton VIP du Bar Rouge",
+      "match": [],
+      "desc": "Use this token to meet and recruit new mercenaries in Red Bar"
+    },
+    {
+      "eng": "Neural Upgrade Augmenter",
+      "trans": "Augmentateur de mise à niveau neurale",
+      "match": [],
+      "desc": "Neural Upgrade Augmenter is a cutting-edge implant that enables users to break past their mental limitations and reach untold levels of cognitive enhancement. With the ability to exceed typical neural barriers, users can unlock new levels of insight, creativity, and physical performance."
+    },
+    {
+      "eng": "EuroDollar",
+      "trans": "EuroDollar",
+      "match": [],
+      "desc": "EuroDollar is a widely accepted currency in the continent, used for everyday purchases and transactions."
+    },
+    {
+      "eng": "NetCoin",
+      "trans": "NetCoin",
+      "match": [],
+      "desc": "NetCoin is a digital currency mainly used in black market transactions. It is untraceable and can be used to purchase illegal goods and services."
+    },
+    {
+      "eng": "Level Shard",
+      "trans": "Fragment de niveau",
+      "match": [],
+      "desc": "Universal level up token for equipments, use to increase the level of an equipment"
+    },
+    {
+      "eng": "Calibration Shard",
+      "trans": "Fragment de calibration",
+      "match": [],
+      "desc": "Universal calibration token for equipments, use to improve equipments"
+    },
+    {
+      "eng": "Gang Control Resource",
+      "trans": "Ressource de contrôle de gang",
+      "match": [],
+      "desc": "Use to contribute to gang territory control"
+    },
+    {
+      "eng": "Gang Maintenance Resource",
+      "trans": "Ressource de maintenance de gang",
+      "match": [],
+      "desc": "Use to contribute to gang maintenance"
+    },
+    {
+      "eng": "Braised Pork Rice",
+      "trans": "Riz au porc braisé",
+      "match": [],
+      "desc": "A traditional dish of braised pork belly and rice."
+    },
+    {
+      "eng": "Rice",
+      "trans": "Riz",
+      "match": [],
+      "desc": "A staple food of the continent."
+    },
+    {
+      "eng": "Pork",
+      "trans": "Porc",
+      "match": [],
+      "desc": "Slice of ordinary synthetic pork"
+    },
+    {
+      "eng": "Bread",
+      "trans": "Pain",
+      "match": [],
+      "desc": "a rare delicacy made from real wheat flour, smuggled by rebels who oppose the synthetic food industry."
+    },
+    {
+      "eng": "Burger",
+      "trans": "Burger",
+      "match": [],
+      "desc": "A cheap and addictive food made from synthetic meat and chemicals. Popular among lowlifes and hackers who need a quick energy boost."
+    },
+    {
+      "eng": "Fish",
+      "trans": "Poisson",
+      "match": [],
+      "desc": "A medium sized vibrant fish, it's highly sought after for its psychedelic properties when consumed."
+    },
+    {
+      "eng": "Sushi",
+      "trans": "Sushi",
+      "match": [],
+      "desc": "A traditional Japanese dish made from raw fish and rice."
+    },
+    {
+      "eng": "Reward Cipher",
+      "trans": "Code de récompense",
+      "match": [],
+      "desc": "Used to re-roll quest reward."
+    },
+    {
+      "eng": "Satay",
+      "trans": "Satay",
+      "match": [],
+      "desc": "A traditional Indonesian dish made from skewered meat and rice."
+    },
+    {
+      "eng": "Neuroblocker",
+      "trans": "Neurobloqueur",
+      "match": [],
+      "desc": "Neuroblockers were developed to counteract the negative effects that cybernetic implants had on the human body. By suppressing these effects, people were able to use these implants with reduced suffering from physical or mental issues"
+    },
+    {
+      "eng": "Common Container",
+      "trans": "Conteneur commun",
+      "match": [],
+      "desc": "A common container that contains a random item."
+    },
+    {
+      "eng": "Uncommon Container",
+      "trans": "Conteneur peu commun",
+      "match": [],
+      "desc": "A uncommon container that contains a random item."
+    },
+    {
+      "eng": "Medical Tech Scrap",
+      "trans": "Débris de technologie médicale",
+      "match": [],
+      "desc": "A piece of medical technology that can be used to craft "
+    },
+    {
+      "eng": "decryption Key",
+      "trans": "Clé de décryptage",
+      "match": [],
+      "desc": "A cutting-edge cyberpunk device that serves as a key to unlock high-security doors in the dystopian strongholds, revealing valuable loot and hidden rewards."
+    },
+    {
+      "eng": "Shadow Token",
+      "trans": "Jeton de l'ombre",
+      "match": [],
+      "desc": "A token can be used to trade with the merchants in strongholds."
+    },
+    {
+      "eng": "Chloe",
+      "trans": "Chloé",
+      "match": [],
+      "desc": "One of the npc's name in the game, does not need to be direct translation from english"
+    },
+    {
+      "eng": "Lilith",
+      "trans": "Lilith",
+      "match": [],
+      "desc": "One of the npc's name in the game, does not need to be direct translation from english"
+    },
+    {
+      "eng": "Oriana",
+      "trans": "Oriana",
+      "match": [],
+      "desc": "One of the npc's name in the game, does not need to be direct translation from english"
+    },
+    {
+      "eng": "Maxine",
+      "trans": "Maxine",
+      "match": [],
+      "desc": "One of the npc's name in the game, does not need to be direct translation from english"
+    },
+    {
+      "eng": "Ren",
+      "trans": "Ren",
+      "match": [],
+      "desc": "One of the npc's name in the game, does not need to be direct translation from english"
+    },
+    {
+      "eng": "Hana",
+      "trans": "Hana",
+      "match": [],
+      "desc": "One of the npc's name in the game, does not need to be direct translation from english"
+    },
+    {
+      "eng": "Whisperer",
+      "trans": "Murmureur",
+      "match": [],
+      "desc": "One of the npc's name in the game, does not need to be direct translation from english"
+    },
+    {
+      "eng": "Shadow Merchant",
+      "trans": "Marchand de l'ombre",
+      "match": [],
+      "desc": "One of the npc's name in the game, does not need to be direct translation from english"
+    },
+    {
+      "eng": "Loot Increase Buff Activator",
+      "trans": "Activateur d'augmentation de butin",
+      "match": [],
+      "desc": "Deploy this buff in stronghold lobby to increase loot amount for all strongholds created by your gang members for ${minutes} minutes"
+    },
+    {
+      "eng": "Defense Boost Buff Activator",
+      "trans": "Activateur de bonus de défense",
+      "match": [],
+      "desc": "Deploy this buff in stronghold lobby to increase defense for all players in strongholds created by your gang members for ${minutes} minutes"
+    },
+    {
+      "eng": "cybernetic ability",
+      "trans": "Capacité cybernétique",
+      "match": [
+        "cybernetic"
+      ]
+    },
+    {
+      "eng": "Token of Peace",
+      "trans": "Insigne de paix",
+      "match": [],
+      "desc": "Whoever invokes the Token of Peace shall not be attacked, use this to receive ${day} day of PVP protection buff"
+    },
+    {
+      "eng": "cyberpsycho",
+      "trans": "Cyberpsychotique",
+      "match": [
+        "psycho"
+      ],
+      "desc": "A person who has lost their mind due to excessive cybernetic implants"
+    },
+    {
+      "eng": "cyberpsychosis",
+      "trans": "Cyberpsychose",
+      "match": [
+        "psycho"
+      ],
+      "desc": "A mental illness caused by excessive cybernetic implants"
+    },
+    {
+      "eng": "Level Reward Container",
+      "trans": "Conteneur de récompense de niveau",
+      "match": [],
+      "desc": "Special reward container obtained from clearing hard or above difficulty strongholds in locations"
+    },
+    {
+      "eng": "Calibration Stabilizer",
+      "trans": "Stabilisateur de calibration",
+      "match": [],
+      "desc": "Use during calibration to increase chance of success by ${percent}%"
+    },
+    {
+      "eng": "Mythic Reset Shard",
+      "trans": "Fragment de réinitialisation mythique",
+      "match": [],
+      "desc": "Use to reset a ${tier} item with new random prefixes"
+    },
+    {
+      "eng": "Mythic Upgrade Shard",
+      "trans": "Fragment d'amélioration mythique",
+      "match": [],
+      "desc": "Use to upgrade an ${fromTier} item to ${toTier}"
+    },
+    {
+      "eng": "Mythic Level Shard",
+      "trans": "Fragment de niveau mythique",
+      "match": [],
+      "desc": "you can use this item to level up an ${tier} item to its next level"
+    },
+    {
+      "eng": "Locked Uncommon Container",
+      "trans": "Conteneur peu commun verrouillé",
+      "match": [],
+      "desc": "A uncommon container that contains random items."
+    },
+    {
+      "eng": "Locked Rare Container",
+      "trans": "Conteneur rare verrouillé",
+      "match": [],
+      "desc": "A rare container that contains random items."
+    },
+    {
+      "eng": "Locked Unique Container",
+      "trans": "Conteneur unique verrouillé",
+      "match": [],
+      "desc": "A unique container that contains random items."
+    },
+    {
+      "eng": "Uncommon Container Key",
+      "trans": "Clé de conteneur peu commun",
+      "match": [],
+      "desc": "A key that can be used to unlock a ${containerName}."
+    },
+    {
+      "eng": "Uncommon Key Fragment",
+      "trans": "Fragment de clé peu commun",
+      "match": [],
+      "desc": "Collect ${amount} of these to create a ${keyName} that can be used to unlock a ${containerName}."
+    },
+    {
+      "eng": "Rare Container Key",
+      "trans": "Clé de conteneur rare",
+      "match": [],
+      "desc": "A key that can be used to unlock a ${containerName}."
+    },
+    {
+      "eng": "Rare Key Fragment",
+      "trans": "Fragment de clé rare",
+      "match": [],
+      "desc": "Collect ${amount} of these to create a ${keyName} that can be used to unlock a ${containerName}."
+    },
+    {
+      "eng": "Unique Container Key",
+      "trans": "Clé de conteneur unique",
+      "match": [],
+      "desc": "A key that can be used to unlock a ${containerName}."
+    },
+    {
+      "eng": "Unique Key Fragment",
+      "trans": "Fragment de clé unique",
+      "match": [],
+      "desc": "Collect ${amount} of these to create a ${keyName} that can be used to unlock a ${containerName}."
+    },
+    {
+      "eng": "Christmas Container",
+      "trans": "Conteneur de Noël",
+      "match": [],
+      "desc": "Event container that contains various rewards, can only be unlocked during December."
+    },
+    {
+      "eng": "Hideout Locator",
+      "trans": "Localisateur de repaire de gang",
+      "match": [],
+      "desc": "A device to locate gang hideouts in the city, you can use this item to perform a quick hideout raid."
+    },
+    {
+      "eng": "Advance Hideout Locator",
+      "trans": "Localisateur de repaire de gang avancé",
+      "match": [],
+      "desc": "A device to locate major gang hideouts in the city, you can use this item to perform a quick hideout raid with higher rewards."
+    },
+    {
+      "eng": "Red Envelope",
+      "trans": "Enveloppe rouge",
+      "match": [],
+      "desc": "A traditional lunar new year gift, you can open it to receive random rewards."
+    },
+    {
+      "eng": "Pachinko Devotee",
+      "trans": "Passionné de pachinko",
+      "match": [],
+      "desc": "One of the npc's name in the game, does not need to be direct translation from english"
+    },
+    {
+      "eng": "cybernetic",
+      "trans": "Cybernétique",
+      "match": [],
+      "desc": "A term used to describe cybernetic implants"
+    },
+    {
+      "eng": "Egg",
+      "trans": "Œuf",
+      "match": [],
+      "desc": "A synthetic egg, used in many dishes."
+    },
+    {
+      "eng": "Flour",
+      "trans": "Farine",
+      "match": [],
+      "desc": "A basic ingredient used in baking."
+    },
+    {
+      "eng": "Milk",
+      "trans": "Lait",
+      "match": [],
+      "desc": "A synthetic milk, used in many dishes."
+    },
+    {
+      "eng": "Tea Egg",
+      "trans": "Œuf au thé",
+      "match": [],
+      "desc": "A traditional dish made from eggs boiled in tea, soy sauce, and spices."
+    },
+    {
+      "eng": "Pumpkin Pie",
+      "trans": "Tarte à la citrouille",
+      "match": [],
+      "desc": "A dessert made from pumpkin, eggs, and milk."
+    },
+    {
+      "eng": "Pumpkin",
+      "trans": "Citrouille",
+      "match": [],
+      "desc": "A large orange fruit, used in many dishes."
+    },
+    {
+      "eng": "Cake",
+      "trans": "Gâteau",
+      "match": [],
+      "desc": "A sweet dessert made from flour, sugar, and eggs."
+    },
+    {
+      "eng": "Synthetic Turkey Meat",
+      "trans": "Viande de dinde synthétique",
+      "match": [],
+      "desc": "A synthetic turkey meat, can be used to craft turkey dinner."
+    },
+    {
+      "eng": "Turkey Dinner",
+      "trans": "Dîner de dinde",
+      "match": [],
+      "desc": "A traditional dish made from turkey meat, rice."
+    },
+    {
+      "eng": "Auto Gather Boost",
+      "trans": "Boost de collecte automatique",
+      "match": [],
+      "desc": "When used during auto gather, it will increase EXP gained by ${expPercent}% and increase the reward gained by ${rewardPercent}%\nThis will be consumed after one auto gather cycle"
+    },
+    {
+      "eng": "Gingerbread Cookie",
+      "trans": "Biscuit pain d'épices",
+      "match": [],
+      "desc": "A festive cookie that looks like a cute little man."
+    }
+  ]
+}
