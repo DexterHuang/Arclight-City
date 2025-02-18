@@ -6,6 +6,20 @@
 
 **If you find an exploit please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
+### 0.0.70
+
+-  Added new Neon Fuse Hack minigame, click the box in correct sequence to complete the minigame
+![image](https://github.com/user-attachments/assets/08e82871-458b-41c0-9250-663b3d5f3d04)
+
+-  Added new Acquire Target minigame, click the target to complete the mningame
+![image](https://github.com/user-attachments/assets/a0c5a783-ec3d-4f94-ace6-e1f9d66134be)
+
+-  Added Circuit Synchronization minigame, click the bar at the correct timing to win
+![image](https://github.com/user-attachments/assets/5f90df66-e3e8-44bc-808b-614bebeffd73)
+
+-  Optimized loading of the game, it should now load much faster
+-  Upgraded backend server, it should run faster and have quicker upadate wait time
+
 ### 0.0.69
 
 -  Gang chat now sends notifications to all members in chat, if you do not want to receive notifications, you may disable it in the settings or click the bell icon on top of the gang chat page
