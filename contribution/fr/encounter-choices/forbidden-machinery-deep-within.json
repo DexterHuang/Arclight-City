@@ -1,0 +1,20 @@
+{
+  "story": "Vous naviguez à travers les couloirs faiblement éclairés de la forteresse du gang lorsque vous tombez sur une pièce remplie de rangées de serveurs et de machines bourdonnantes. L'air est chargé de l'odeur de circuits brûlés et d'ozone. Au centre de la pièce, un grand dispositif cylindrique pulse d'énergie, émettant un bourdonnement sourd qui semble se synchroniser avec les machines autour de lui. Soudain, les lumières du dispositif commencent à clignoter rapidement, et les machines commencent à mal fonctionner.",
+  "actions": [
+    {
+      "action": "Tenter d'éteindre le dispositif",
+      "good": "Vous parvenez à désactiver le dispositif, et les machines retrouvent leurs fonctions normales. En récompense, vous trouvez un compartiment caché contenant un objet précieux. Votre rapidité d'esprit a sauvé la mise !",
+      "bad": "Votre tentative d'éteindre le dispositif déclenche une réaction en chaîne d'explosions. La pièce est maintenant remplie de débris, et vous subissez des dégâts en essayant de vous échapper."
+    },
+    {
+      "action": "Essayer d'accéder aux serveurs",
+      "good": "Vous piratez les serveurs et obtenez des informations précieuses sur les opérations du gang. Vous trouvez une cachette d'objets, y compris une mise à niveau rare pour votre cyberdeck. Vos compétences en hacking ont porté leurs fruits !",
+      "bad": "Votre tentative d'accéder aux serveurs déclenche une réponse de sécurité automatique. Les pare-feu et les systèmes de détection d'intrusion s'activent, et vous subissez des dégâts en essayant de naviguer à travers le labyrinthe numérique."
+    },
+    {
+      "action": "Sortez de là !",
+      "good": "Vous quittez rapidement la pièce, évitant le chaos qui se déroule. En émergeant du couloir, vous trouvez un passage secret menant à une cachette d'objets. Votre fuite a été récompensée.",
+      "bad": "Dans votre empressement à partir, vous déclenchez accidentellement une trappe. Vous tombez dans un trou caché et subissez des dégâts en essayant de grimper. Le butin reste hors de portée."
+    }
+  ]
+}

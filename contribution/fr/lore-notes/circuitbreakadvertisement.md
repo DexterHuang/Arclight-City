@@ -1,0 +1,7 @@
+Alors que vous vous promenez dans les rues illuminées au néon de la Cité Arclight, vos yeux sont attirés par un panneau publicitaire holographique qui s'illumine. C'est une publicité de CircuitBreak - la société de sécurité qui a le don de frapper ses cibles avec précision.
+
+La pub est soignée, mettant en avant un porte-parole cybernétiquement amélioré avec un sourire presque dérangeant. Dans sa main gantée, il tient un pistolet futuriste élégant qui semble vibrer de potentiel létal. Le slogan clignote à l'écran : "Vous cherchez une protection ? Nous ne nous contentons pas de frapper nos cibles - nous les anéantissons."
+
+Le panneau passe ensuite à une série de clips remplis d'action montrant l'équipe d'élite de CircuitBreak dans divers scénarios audacieux, leur armement high-tech flamboyant à chaque pression sur la gâchette. Le point culminant montre le porte-parole, en plein vol, abattant plusieurs cyberpsychos avec une rafale de balles bien placée avant d'atterrir en douceur sur le toit en dessous.
+
+La publicité se termine par une déclaration audacieuse : "Rejoignez la famille CircuitBreak aujourd'hui et assurez votre sécurité dans le monde impitoyable de la Cité Arclight." L'hologramme s'estompe, vous laissant avec un sentiment persistant à la fois d'émerveillement et d'inquiétude - après tout, la société de sécurité qui promet d'anéantir ses cibles doit être plutôt impitoyable

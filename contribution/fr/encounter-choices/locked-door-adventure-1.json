@@ -1,0 +1,20 @@
+{
+  "story": "Alors que vous explorez les couloirs faiblement éclairés, vous entendez un bourdonnement métallique résonner à travers les ombres. Vous tombez sur une porte verrouillée menant à une zone interdite. Que faites-vous ?",
+  "actions": [
+    {
+      "action": "Pirater le panneau de sécurité",
+      "good": "Avec vos compétences impressionnantes en piratage, vous contournez le système de sécurité et accédez à un cache caché rempli d'objets précieux. Votre expertise technique porte ses fruits.",
+      "bad": "Votre tentative de piratage du panneau déclenche une alarme, provoquant l'activation des systèmes de défense automatisés. Des grilles laser sont déployées, causant des dégâts mais ne vous tuant pas. Le butin reste hors de portée."
+    },
+    {
+      "action": "Forcer la porte",
+      "good": "Avec une démonstration de puissance et de détermination, vous ouvrez la porte de force, révélant un stock rempli d'objets précieux. Votre force porte ses fruits.",
+      "bad": "Vos efforts pour forcer la porte déclenchent une alarme cachée, provoquant l'émergence de tourelles automatisées des murs. Vous subissez des dégâts mais n'êtes pas tué. Le butin reste hors de portée."
+    },
+    {
+      "action": "Chercher un chemin alternatif",
+      "good": "En fouillant soigneusement les couloirs voisins, vous découvrez un passage dissimulé menant de l'autre côté de la porte verrouillée. Vous trouvez le stock caché et prenez les objets précieux.",
+      "bad": "En tentant de trouver un chemin alternatif, vous marchez sur une plaque de pression qui déclenche un piège caché. Un gaz toxique commence à remplir le couloir, causant des dégâts mais ne vous tuant pas. Le butin reste hors de portée."
+    }
+  ]
+}

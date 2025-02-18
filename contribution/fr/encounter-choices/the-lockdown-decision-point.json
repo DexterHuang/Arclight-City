@@ -1,0 +1,20 @@
+{
+  "story": "Vous vous trouvez devant un grand ascenseur métallique qui semble bloqué entre deux étages. Les lumières indicatrices au-dessus des portes clignotent, projetant une lueur étrange sur la zone. Vous étiez en route pour une réunion avec un membre haut placé de votre gang lorsque vous êtes tombé sur cet ascenseur en panne. Les portes sont coincées, et il n'y a pas d'indication claire sur la façon de procéder. L'ascenseur est bloqué entre les étages, mais il semble qu'il pourrait être accessible si vous parvenez à contourner les mécanismes de sécurité ou à désactiver la séquence d'arrêt automatique.",
+  "actions": [
+    {
+      "action": "Essayez de forcer les portes avec votre force brute",
+      "good": "Vous parvenez à ouvrir les portes, révélant un compartiment caché contenant des objets précieux. Votre détermination porte ses fruits.",
+      "bad": "Vos efforts pour forcer les portes déclenchent une alarme, et les systèmes de sécurité automatisés s'activent. Vous subissez des dégâts lorsque les mécanismes de sécurité de l'ascenseur se mettent en marche."
+    },
+    {
+      "action": "Essayez de pirater le panneau de contrôle de l'ascenseur",
+      "good": "Vous contournez avec succès les protocoles de sécurité, et l'ascenseur recommence à bouger. À l'intérieur, vous trouvez un stock d'objets précieux.",
+      "bad": "Votre tentative de piratage déclenche une séquence d'arrêt d'urgence, et l'ascenseur s'éteint. Vous subissez des dégâts alors que les systèmes automatiques tentent de se réinitialiser."
+    },
+    {
+      "action": "Cherchez un chemin alternatif autour de l'ascenseur bloqué",
+      "good": "Vous découvrez un passage secret qui vous permet de contourner complètement l'ascenseur. À l'intérieur, vous trouvez un précieux cache d'objets.",
+      "bad": "En cherchant un chemin alternatif, vous vous retrouvez piégé dans un conduit d'air étroit. Vous subissez des dégâts en luttant pour vous libérer."
+    }
+  ]
+}

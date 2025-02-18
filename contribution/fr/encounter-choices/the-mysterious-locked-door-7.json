@@ -1,0 +1,20 @@
+{
+  "story": "Vous entrez dans un laboratoire faiblement éclairé, profondément enfoui dans la forteresse du gang, où vous avez entendu des rumeurs sur un dispositif expérimental laissé sans surveillance. En vous approchant de la table de travail centrale, vous remarquez une console élégante et high-tech entourée de divers composants et câbles. Le dispositif semble être une sorte de prototype, mais il est clair que quelque chose a mal tourné. Que faites-vous ?",
+  "actions": [
+    {
+      "action": "Essayer de redémarrer le dispositif",
+      "good": "Avec une lueur d'espoir, le dispositif se remet en marche, et un compartiment caché s'ouvre, révélant un stock d'objets précieux. Votre expertise technique aide à stabiliser le système.",
+      "bad": "Votre tentative de redémarrer le dispositif déclenche une réaction instable, provoquant une chaîne de décharges électriques qui vous infligent des dégâts. Le butin reste hors de portée."
+    },
+    {
+      "action": "Désactiver la source d'alimentation",
+      "good": "Vous déconnectez soigneusement l'alimentation, empêchant d'autres dysfonctionnements et accédant au compartiment de stockage du dispositif. Votre prudence porte ses fruits lorsque vous trouvez des objets précieux à l'intérieur.",
+      "bad": "Votre décision de désactiver la source d'alimentation active un système de secours, libérant une explosion d'énergie qui vous projette en arrière et vous inflige des dégâts. Le butin reste caché."
+    },
+    {
+      "action": "Fouiller des composants pour réparer le dispositif",
+      "good": "Après avoir fouillé les postes de travail et les armoires à proximité, vous parvenez à trouver les pièces nécessaires pour réparer le dispositif. Votre ingéniosité vous donne accès à un stock d'objets précieux.",
+      "bad": "Votre recherche de composants vous distrait des dangers potentiels dans la zone, et vous déclenchez accidentellement un piège caché, subissant des dégâts avant de vous échapper. Le butin reste insaisissable."
+    }
+  ]
+}

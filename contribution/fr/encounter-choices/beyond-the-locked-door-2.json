@@ -1,0 +1,20 @@
+{
+  "story": "Vous vous trouvez dans un couloir faiblement éclairé, les murs bordés de vieux terminaux informatiques et d'écrans clignotants projetant des ombres inquiétantes sur le sol. L'air est chargé de l'odeur de circuits brûlés et d'ozone. Vous explorez ces couloirs depuis ce qui semble des heures, mais vous n'êtes pas sûr de leur destination ni de ce que vous y trouverez.",
+  "actions": [
+    {
+      "action": "Examiner un terminal étrange et pulsant dans le coin",
+      "good": "Votre inspection révèle un message caché d'un expéditeur inconnu détaillant un possible chemin d'évasion. Vous ressentez un sentiment d'espoir et de soulagement.",
+      "bad": "Le terminal est trop chaud pour être touché en toute sécurité, et alors que vous essayez de vous rapprocher, il émet des étincelles violemment, vous infligeant des dégâts à cause de la décharge électrique."
+    },
+    {
+      "action": "Suivre le bruit d'une machinerie bourdonnante dans un couloir latéral",
+      "good": "Le bruit vous mène à un vieux atelier où vous trouvez des outils et équipements utiles. Votre ingéniosité porte ses fruits.",
+      "bad": "Dans votre empressement, vous ne remarquez pas un panneau d'avertissement, et en entrant dans l'atelier, vous êtes frappé par des débris tombant d'en haut, subissant des dégâts mais sans vous blesser gravement."
+    },
+    {
+      "action": "Chercher des panneaux cachés ou des portes secrètes qui pourraient dissimuler quelque chose de précieux",
+      "good": "Après quelques efforts, vous trouvez un panneau caché contenant des objets précieux, y compris de la nourriture et de l'eau. Votre persévérance est récompensée.",
+      "bad": "La recherche vous épuise, rendant plus difficile la navigation dans les couloirs en toute sécurité, et vous trébuchez, tombant dans un trou caché mais parvenant à en sortir rapidement."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "story": "Vous entendez des murmures résonner à travers les tunnels labyrinthiques. En suivant leur trace, vous tombez sur une porte avec un scanner biométrique. Que faites-vous ?",
+  "actions": [
+    {
+      "action": "Scannez votre empreinte digitale pour contourner la sécurité",
+      "good": "Le scanner reconnaît votre identité et vous accorde l'accès à une pièce cachée remplie de composants et de ressources rares. Vos connaissances en biométrie portent leurs fruits.",
+      "bad": "Votre empreinte digitale n'est pas reconnue, déclenchant une alarme. Le bruit attire des tourelles à proximité qui commencent à tirer sur vous, causant des dégâts. Le butin reste hors de portée."
+    },
+    {
+      "action": "Piratez le système du scanner",
+      "good": "Avec vos compétences exceptionnelles en piratage, vous contournez la sécurité biométrique et accédez à une pièce cachée chargée de composants et de ressources rares. Votre maîtrise de la technologie s'avère précieuse une fois de plus.",
+      "bad": "Votre tentative de pirater le système du scanner déclenche une alarme. Le bruit alerte les tourelles à proximité qui commencent à tirer sur vous, causant des dégâts. Vous échappez de justesse, laissant le butin hors de portée."
+    },
+    {
+      "action": "Trouvez un moyen de contourner le verrou biométrique",
+      "good": "En explorant la zone environnante, vous découvrez un passage secret menant à un itinéraire alternatif de la porte. Vous passez inaperçu et récupérez les composants et ressources rares.",
+      "bad": "Dans votre recherche d'un itinéraire alternatif, vous déclenchez accidentellement un piège dissimulé qui libère un gaz toxique. Le brouillard épais obscurcit votre vision, causant des dégâts avant que vous ne vous échappiez de justesse. Le butin reste hors de portée."
+    }
+  ]
+}

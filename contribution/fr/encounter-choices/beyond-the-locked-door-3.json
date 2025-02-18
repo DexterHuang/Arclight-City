@@ -1,0 +1,20 @@
+{
+  "story": "Vous vous trouvez dans une salle de stockage faiblement éclairée, au cœur de la forteresse du gang. L'air est chargé de poussière et d'odeur de vieux machines. En scrutant la pièce, vous remarquez une grande caisse au centre, ornée de panneaux d'avertissement et de sceaux de sécurité. Soudain, le bruit du métal qui grince résonne dans la pièce, et la caisse commence à bouger.",
+  "actions": [
+    {
+      "action": "Essayer d'ouvrir la caisse",
+      "good": "Avec un peu d'effort, vous parvenez à desserrer les sceaux et à soulever le couvercle. À l'intérieur, vous trouvez un stock d'objets précieux que les chefs du gang avaient cachés.",
+      "bad": "En essayant de forcer la caisse, vous déclenchez un mécanisme de sécurité qui libère un nuage de gaz nocif. Vous subissez des dégâts en inhalant les fumées, mais la caisse reste fermée."
+    },
+    {
+      "action": "Chercher un moyen de désactiver les sceaux de sécurité",
+      "good": "Après avoir examiné la caisse et les environs, vous trouvez un panneau caché avec un clavier. En piratant le clavier, vous désactivez les sceaux de sécurité et accédez au contenu de la caisse.",
+      "bad": "Votre tentative de piratage du clavier déclenche une alarme qui avertit les chefs du gang de votre présence. Vous subissez des dégâts à cause d'une balle perdue tirée par l'un de leurs gardes, mais la caisse reste scellée."
+    },
+    {
+      "action": "Essayer de déplacer la caisse",
+      "good": "Avec un grand effort, vous parvenez à faire rouler la caisse hors de la salle de stockage et dans un couloir voisin. En enquêtant davantage, vous découvrez que la caisse est en réalité une sortie secrète pour les chefs du gang. Vous trouvez un stock d'objets précieux et vous en servez.",
+      "bad": "Votre tentative de déplacer la caisse déclenche un piège qui la fait tomber sur vous. Vous subissez des dégâts à cause de l'impact, mais la caisse reste immobile."
+    }
+  ]
+}

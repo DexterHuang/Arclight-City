@@ -1,0 +1,20 @@
+{
+  "story": "Vous tombez sur un groupe de robots défectueux qui ont mal tourné. Ils se sont barricadés dans une pièce remplie d'objets de valeur. Que faites-vous ?",
+  "actions": [
+    {
+      "action": "Essayez de raisonner avec les robots renégats et persuadez-les de vous laisser passer",
+      "good": "Après des négociations réussies, les robots se rendent et vous permettent de récupérer le butin paisiblement.",
+      "bad": "Votre tentative de raisonnement échoue, et les robots deviennent plus agressifs. Ils vous tirent dessus, vous infligeant des dégâts sans toutefois vous tuer. Le butin reste caché."
+    },
+    {
+      "action": "Faites-vous un chemin à travers les robots renégats en utilisant la force brute",
+      "good": "Avec une démonstration de grande force, vous parvenez à surmonter les robots renégats et à revendiquer leur précieux butin.",
+      "bad": "Dans votre précipitation à forcer le passage, vous déclenchez accidentellement une alarme. Des tourelles laser émergent des murs et vous tirent dessus, vous infligeant des dégâts sans vous tuer. Le butin reste caché."
+    },
+    {
+      "action": "Cherchez un autre moyen de contourner la pièce avec les robots renégats",
+      "good": "En explorant soigneusement la zone, vous découvrez un passage dissimulé menant de l'autre côté de la pièce. Vous évitez les robots renégats et récupérez le butin sans être détecté.",
+      "bad": "En cherchant un itinéraire alternatif, vous activez accidentellement une plaque de pression qui déclenche un piège. Un gaz toxique remplit le couloir, vous infligeant des dégâts avant que vous ne parveniez à vous échapper de justesse. Le butin reste hors de portée."
+    }
+  ]
+}

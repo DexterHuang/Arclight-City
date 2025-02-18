@@ -1,0 +1,20 @@
+{
+  "story": "Vous êtes dans une salle de stockage faiblement éclairée au sein de la forteresse du gang, à la recherche de pièces précieuses pour réparer un équipement crucial. Vous remarquez que plusieurs caisses sont verrouillées avec des cadenas à combinaison complexes.",
+  "actions": [
+    {
+      "action": "Utilisez vos connaissances en cryptographie pour essayer de déchiffrer le symbole sur la caisse",
+      "good": "Vous décodez avec succès le symbole, vous donnant accès à des pièces précieuses. Vos compétences en cryptographie portent leurs fruits.",
+      "bad": "Votre tentative déclenche une alarme, et les systèmes de sécurité automatisés s'activent. Vous subissez des dégâts en essayant de vous échapper."
+    },
+    {
+      "action": "Cherchez un motif ou une séquence cachée",
+      "good": "Vous trouvez le bon motif, déverrouillant la caisse et vous donnant accès à des pièces précieuses. Votre attention aux détails est récompensée.",
+      "bad": "En cherchant, vous déclenchez un piège, subissant des dégâts alors que du gaz toxique emplit la pièce."
+    },
+    {
+      "action": "Essayez la force brute en utilisant un kit de crochetage",
+      "good": "Avec vos crochets avancés, vous manipulez avec succès les mécanismes internes du cadenas à combinaison. Vous accédez à des pièces précieuses.",
+      "bad": "Le cadenas se brise sous vos tentatives, et vous subissez des dégâts à cause des débris volants."
+    }
+  ]
+}

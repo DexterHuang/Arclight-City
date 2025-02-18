@@ -1,0 +1,20 @@
+{
+  "story": "Vous vous trouvez dans une section de la forteresse du gang qui a été isolée en raison d'un projet expérimental qui a mal tourné. L'air est chargé de fumées nocives, et des panneaux d'avertissement collés sur les murs signalent un danger imminent. Vous devez naviguer à travers cette zone traîtresse sans déclencher d'alarmes ni vous blesser. Que faites-vous ?",
+  "actions": [
+    {
+      "action": "Avancer prudemment, en contournant les zones dangereuses",
+      "good": "Vous parvenez à éviter de déclencher des pièges ou des alarmes, et en atteignant l'autre côté, vous découvrez une salle de stockage cachée contenant des objets précieux. Votre navigation prudente porte ses fruits.",
+      "bad": "Alors que vous vous déplacez dans la zone, vous déclenchez accidentellement une plaque de pression, provoquant un effondrement d'une partie du sol sous vos pieds. Vous subissez des dégâts à cause de la chute, mais parvenez à vous échapper sain et sauf. Le butin reste hors de portée."
+    },
+    {
+      "action": "Utiliser vos connaissances des systèmes de sécurité du gang pour désactiver les menaces potentielles",
+      "good": "Vous désactivez habilement les systèmes de sécurité dans la zone, vous permettant de progresser sans vous soucier des alarmes ou des pièges. Vous trouvez un stock d'objets précieux et les réclamez comme étant les vôtres.",
+      "bad": "Votre tentative de désactiver les systèmes de sécurité déclenche un protocole de secours, scellant toute la zone. Vous subissez des dégâts à cause des fumées toxiques, mais parvenez à vous échapper sain et sauf. Le butin reste hors de portée."
+    },
+    {
+      "action": "Chercher un itinéraire alternatif qui évite les zones dangereuses",
+      "good": "Vous trouvez un passage caché qui vous fait contourner la zone traîtresse, et en atteignant l'autre côté, vous découvrez un précieux stock d'objets. Votre ingéniosité porte ses fruits.",
+      "bad": "En cherchant un itinéraire alternatif, vous vous retrouvez coincé dans un conduit de ventilation. Vous subissez des dégâts à cause de l'espace confiné, mais parvenez à vous échapper sain et sauf. Le butin reste hors de portée."
+    }
+  ]
+}

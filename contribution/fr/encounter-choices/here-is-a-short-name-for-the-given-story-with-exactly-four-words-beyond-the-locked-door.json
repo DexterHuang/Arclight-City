@@ -1,0 +1,20 @@
+{
+  "story": "Vous vous tenez devant un coffre-fort ancien, son clavier vous invitant à entrer un code. L'air est chargé d'anticipation alors que vous réfléchissez à votre prochain mouvement. Que faites-vous ?",
+  "actions": [
+    {
+      "action": "Entrez un code au hasard et voyez si ça fonctionne",
+      "good": "Votre coup de chance porte ses fruits ; la porte du coffre-fort s'ouvre, révélant un trésor d'objets précieux à l'intérieur. Vous avez l'impression d'avoir gagné le gros lot.",
+      "bad": "Vous entrez un code incorrect, ce qui fait verrouiller le clavier. Les mécanismes internes du coffre-fort se mettent en action, libérant un souffle d'air comprimé qui vous effleure et vous cause des dégâts."
+    },
+    {
+      "action": "Cherchez des indices ou des motifs cachés sur le clavier",
+      "good": "En examinant attentivement le clavier, vous remarquez un subtil motif d'indentations correspondant à des chiffres spécifiques. Vous entrez la bonne séquence, et la porte du coffre-fort s'ouvre avec un clic satisfaisant.",
+      "bad": "Vous passez trop de temps à chercher des indices, pour réaliser que vous avez déclenché un minuteur. Les mécanismes internes du coffre-fort commencent à se réinitialiser, et il ne vous reste qu'une porte à moitié ouverte qui se claque au visage."
+    },
+    {
+      "action": "Utilisez la force brute pour essayer d'ouvrir le coffre-fort",
+      "good": "Avec un mélange de force et de chance, vous parvenez à forcer la porte du coffre-fort. À l'intérieur, vous trouvez un stock d'objets précieux, y compris des composants technologiques rares.",
+      "bad": "Votre tentative de forcer le coffre-fort déclenche ses mécanismes de sécurité internes. Le coffre-fort émet un gémissement aigu en libérant un champ d'énergie localisé qui inflige des dégâts et vous laisse secoué."
+    }
+  ]
+}

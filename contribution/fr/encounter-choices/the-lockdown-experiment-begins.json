@@ -1,0 +1,20 @@
+{
+  "story": "Vous vous trouvez dans une salle de stockage faiblement éclairée, au cœur de la forteresse du gang. L'air est chargé de l'odeur de l'ozone et des circuits brûlés. En regardant autour de vous, vous remarquez une étrange source d'énergie émettant une lueur pulsante depuis un console à proximité. L'énergie semble fluctuer de manière sauvage, provoquant des dysfonctionnements sur l'équipement alentour.",
+  "actions": [
+    {
+      "action": "Essayer de stabiliser la source d'énergie",
+      "good": "Votre expertise technique vous permet de calibrer la source d'énergie, et elle commence à se stabiliser. Un compartiment caché s'ouvre, révélant un stock d'objets précieux. Votre rapidité d'esprit porte ses fruits.",
+      "bad": "Votre tentative de stabiliser la source d'énergie provoque une boucle de rétroaction, entraînant une montée de puissance qui endommage l'équipement à proximité. Vous subissez des dégâts à cause des débris volants, mais parvenez à éviter des conséquences plus graves."
+    },
+    {
+      "action": "Essayer de déconnecter la source d'énergie",
+      "good": "Vous déconnectez soigneusement la source d'énergie, et elle cesse de mal fonctionner. Une porte cachée s'ouvre, révélant une zone secrète contenant des objets précieux. Votre approche prudente porte ses fruits.",
+      "bad": "Votre tentative de déconnecter la source d'énergie déclenche un protocole de sécurité automatique, libérant un nuage de gaz nocif qui vous fait reculer. Vous subissez des dégâts à cause des fumées toxiques."
+    },
+    {
+      "action": "Expérimenter avec la source d'énergie pour voir ce qui se passe",
+      "good": "Vous décidez d'expérimenter avec la source d'énergie, et elle commence étonnamment à recharger votre équipement à proximité. Un cache caché d'objets précieux est révélé, et vous pouvez les revendiquer comme les vôtres.",
+      "bad": "Votre expérimentation provoque une surchauffe de la source d'énergie, entraînant une défaillance catastrophique qui détruit l'équipement à proximité. Vous subissez des dégâts à cause des débris volants, mais parvenez à éviter des conséquences plus graves."
+    }
+  ]
+}

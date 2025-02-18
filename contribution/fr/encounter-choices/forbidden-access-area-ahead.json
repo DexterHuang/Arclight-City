@@ -1,0 +1,20 @@
+{
+  "story": "Vous fouillez une salle de stockage poussiéreuse dans la forteresse du gang lorsque vous tombez sur une vieille console mystérieuse. Elle est couverte de fils et semble émettre un léger bourdonnement. La console est entourée de vieilles pièces d'ordinateur, d'outils et de ce qui semble être une station de réparation improvisée. Un panneau sur le mur indique \"Projets expérimentaux - Ne pas toucher.\" Que faites-vous ?",
+  "actions": [
+    {
+      "action": "Essayez de connecter votre cyberdeck à la console",
+      "good": "Votre cyberdeck s'interface avec la console, et vous accédez à une base de données cachée contenant des informations précieuses sur les opérations du gang et des cibles potentielles. Vous découvrez également quelques outils et gadgets utiles laissés derrière.",
+      "bad": "Connecter votre cyberdeck à la console provoque une surcharge des systèmes, endommageant l'équipement et vous rendant vulnérable aux tentatives de piratage provenant de sources inconnues. Vous subissez des dégâts mais parvenez à vous échapper sain et sauf."
+    },
+    {
+      "action": "Examinez la station de réparation et voyez si vous pouvez apprendre quelque chose",
+      "good": "Après avoir examiné de près la station de réparation, vous découvrez un compartiment caché contenant un ensemble d'outils avancés laissés par un ancien membre du gang. Les outils sont utiles pour améliorer votre cyberdeck ou réparer d'autres équipements.",
+      "bad": "En essayant d'examiner la station de réparation, vous déclenchez accidentellement un mécanisme de sécurité qui remplit la pièce de fumées nocives. Vous subissez des dégâts et devez rapidement vous échapper avant que les fumées ne deviennent trop puissantes."
+    },
+    {
+      "action": "Essayez d'activer la console et voyez ce qui se passe",
+      "good": "Activer la console révèle une interface cachée qui vous permet d'accéder à un serveur sécurisé contenant des informations précieuses sur les opérations du gang et des cibles potentielles. Vous découvrez également quelques outils et gadgets utiles laissés derrière.",
+      "bad": "Activer la console provoque un dysfonctionnement, libérant une décharge d'énergie qui endommage l'équipement à proximité et vous rend vulnérable aux attaques électriques. Vous subissez des dégâts mais parvenez à vous échapper sain et sauf."
+    }
+  ]
+}

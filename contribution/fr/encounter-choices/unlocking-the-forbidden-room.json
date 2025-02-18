@@ -1,0 +1,20 @@
+{
+  "story": "Vous êtes dans une pièce faiblement éclairée, au cœur de la forteresse du gang, entouré de rangées de machines bourdonnantes. Un affichage holographique clignotant sur le mur projette une lueur étrange, mettant en évidence une série de codes et de diagrammes cryptiques. Soudain, les machines s'animent, et un bourdonnement à basse fréquence devient de plus en plus fort. L'air est électrique d'anticipation alors que vous réalisez que quelque chose est sur le point de se produire.",
+  "actions": [
+    {
+      "action": "Essayer d'éteindre les machines",
+      "good": "Votre rapidité d'esprit vous permet de contourner la source d'alimentation principale, et les machines tombent silencieuses. Un compartiment caché s'ouvre, révélant un stock d'objets précieux.",
+      "bad": "Votre tentative d'éteindre les machines déclenche une réaction en chaîne, provoquant un dysfonctionnement des machines qui émettent un éclair de lumière aveuglant. Vous subissez des dégâts à cause de la radiation intense."
+    },
+    {
+      "action": "Examiner l'affichage holographique",
+      "good": "En étudiant les codes et les diagrammes, vous réalisez qu'ils font partie d'une langue ancienne utilisée par les prédécesseurs du gang. Déchiffrer le message révèle un motif caché qui mène à une cache secrète d'objets précieux.",
+      "bad": "Votre fascination pour l'hologramme vous fait négliger un panneau d'avertissement, et vous déclenchez accidentellement un piège. L'affichage active une nuée de petits drones qui bourdonnent autour de votre tête, provoquant de la désorientation et des dégâts à cause de leurs attaques mineures."
+    },
+    {
+      "action": "Chercher un bouton d'arrêt d'urgence",
+      "good": "Vous trouvez un panneau caché avec un bouton d'arrêt d'urgence. En l'appuyant, les machines s'éteignent, et un compartiment caché s'ouvre, révélant des objets précieux.",
+      "bad": "Votre recherche du bouton d'arrêt vous mène à une impasse, où vous êtes confronté à une salve de systèmes de défense automatisés. Les machines vous attaquent de tous les côtés, causant des dégâts mais ne vous tuant pas."
+    }
+  ]
+}

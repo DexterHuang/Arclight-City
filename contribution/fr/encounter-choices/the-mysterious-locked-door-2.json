@@ -1,0 +1,20 @@
+{
+  "story": "Vous vous trouvez devant un grand incinérateur au look menaçant, au cœur de l'Usine de Recyclage. L'air est chargé de fumées toxiques et l'odeur de plastique brûlé est omniprésente. Soudain, vous entendez le bruit de machines qui s'activent derrière les portes de l'incinérateur. Que faites-vous ?",
+  "actions": [
+    {
+      "action": "Enquêter sur la source du bruit",
+      "good": "Vous vous approchez prudemment de l'incinérateur et trouvez un compartiment caché contenant des objets précieux. Votre curiosité porte ses fruits, et vous découvrez un stock d'équipement utile.",
+      "bad": "En enquêtant, les machines derrière les portes de l'incinérateur commencent à mal fonctionner, provoquant une surchauffe et dégageant une fumée toxique. Vous subissez des dégâts en inhalant les fumées, mais le butin reste caché."
+    },
+    {
+      "action": "Essayer de désactiver l'incinérateur",
+      "good": "Avec vos compétences, vous parvenez à saboter les commandes de l'incinérateur, le mettant hors service et évitant une explosion catastrophique. Ce faisant, vous trouvez un compartiment caché contenant des objets précieux.",
+      "bad": "Votre tentative de désactiver l'incinérateur déclenche un protocole d'arrêt d'urgence, provoquant le verrouillage des systèmes de sécurité de l'usine. Vous subissez des dégâts à cause du chaos qui s'ensuit, mais le butin reste hors de portée."
+    },
+    {
+      "action": "Échapper à la zone et trouver un chemin plus sûr",
+      "good": "Vous vous frayez rapidement un chemin hors de l'Usine de Recyclage, découvrant un passage secret qui vous ramène vers une partie plus sécurisée du fort du gang. Vous trouvez un stock d'objets utiles en chemin.",
+      "bad": "Alors que vous essayez de vous échapper, vous tombez dans un piège de sécurité tendu par l'IA de l'usine. Vous subissez des dégâts à cause du piège, mais parvenez à vous libérer et à continuer votre chemin."
+    }
+  ]
+}

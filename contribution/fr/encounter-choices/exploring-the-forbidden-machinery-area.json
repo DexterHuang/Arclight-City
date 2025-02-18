@@ -1,0 +1,20 @@
+{
+  "story": "Vous vous trouvez au bord d'une grande chambre faiblement éclairée remplie de déchets toxiques. L'air est chargé de fumées nocives, et vous pouvez entendre le bruit de machines en panne au loin. Un étroit passerelle s'étend à travers la pièce, mais il n'est pas clair si elle est sûre à traverser. Que faites-vous ?",
+  "actions": [
+    {
+      "action": "Traversez prudemment la passerelle",
+      "good": "Vous parvenez à naviguer sur ce chemin traître sans subir de dégâts et découvrez un stash d'objets précieux de l'autre côté. Votre rapidité d'esprit porte ses fruits.",
+      "bad": "Alors que vous mettez le pied sur la passerelle, elle cède sous vous. Vous tombez dans les déchets toxiques en dessous, subissant des dégâts mais réussissant à échapper à la mort. Le butin reste hors de portée."
+    },
+    {
+      "action": "Cherchez un moyen de contourner la passerelle et trouvez un itinéraire alternatif",
+      "good": "Vous découvrez un passage secret qui vous permet d'éviter complètement la passerelle. Vous trouvez un stash d'objets précieux et faites votre chemin vers la sécurité.",
+      "bad": "En cherchant un itinéraire alternatif, vous déclenchez un piège mortel. Un poids massif tombe du plafond, mais vous parvenez à l'esquiver de justesse. Le butin reste hors de portée."
+    },
+    {
+      "action": "Essayez de réparer les machines en panne",
+      "good": "Vous réussissez à réparer les machines, et elles commencent à nettoyer une partie des déchets toxiques dans la pièce. Vous trouvez un stash d'objets précieux caché sous les débris.",
+      "bad": "Vos tentatives de réparer les machines déclenchent une réaction en chaîne qui aggrave la situation. Les déchets toxiques deviennent encore plus mortels, et vous subissez des dégâts en essayant de vous échapper. Le butin reste hors de portée."
+    }
+  ]
+}

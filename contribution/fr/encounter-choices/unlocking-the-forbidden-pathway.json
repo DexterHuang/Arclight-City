@@ -1,0 +1,20 @@
+{
+  "story": "Vous vous trouvez devant un ancien drone de maintenance robotique rouillé. Il est couché sur le côté, partiellement enfoui sous un tas de débris. Les membres du drone sont tordus et endommagés, mais il semble encore opérationnel. L'écran du drone clignote avec des codes d'erreur et des messages d'avertissement. Que faites-vous ?",
+  "actions": [
+    {
+      "action": "Essayer de réparer le drone",
+      "good": "Avec votre expertise technique, vous parvenez à contourner les systèmes défaillants du drone et à réactiver ses fonctions de maintenance. Vous êtes récompensé par un cache d'objets et d'outils précieux.",
+      "bad": "Vos tentatives de réparation du drone déclenchent une réaction en chaîne qui provoque un dysfonctionnement encore plus grave. Le drone commence à émettre un sifflement aigu, attirant l'attention indésirable d'autres membres du gang. Vous subissez des dégâts alors qu'ils enquêtent sur le bruit."
+    },
+    {
+      "action": "Fouiller le drone pour des pièces",
+      "good": "Vous démontez soigneusement le drone, récupérant des composants et des outils utiles qui pourront vous aider dans vos futures aventures.",
+      "bad": "Alors que vous commencez à démonter le drone, ses systèmes commencent à s'éteindre, le faisant passer en mode de sécurité. Les membres du drone se jettent vers vous, tentant de vous saisir et de vous retenir. Vous subissez des dégâts en luttant pour vous libérer."
+    },
+    {
+      "action": "Activer le drone à distance",
+      "good": "En utilisant vos compétences en hacking, vous parvenez à reprendre le contrôle des systèmes du drone et à activer ses fonctions de maintenance. Vous êtes récompensé par un cache d'objets et d'outils précieux.",
+      "bad": "Votre tentative d'activer le drone à distance déclenche un protocole de sécurité qui alerte le système d'IA du gang. L'IA lance une contre-attaque, déployant des tourelles et des drones pour vous neutraliser. Vous subissez des dégâts alors qu'ils essaient de vous submerger."
+    }
+  ]
+}

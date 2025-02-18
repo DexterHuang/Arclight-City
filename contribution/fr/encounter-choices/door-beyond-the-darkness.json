@@ -1,0 +1,20 @@
+{
+  "story": "Vous vous trouvez dans une pièce faiblement éclairée remplie de vieilles machines et d'outils éparpillés. L'air est chargé de l'odeur de graisse et d'ozone. Au centre de la pièce se dresse une imprimante 3D au look ancien, son cadre en métal couvert de poussière et de toiles d'araignée. Que faites-vous ?",
+  "actions": [
+    {
+      "action": "Tenter d'interagir avec l'imprimante 3D",
+      "good": "L'imprimante 3D s'active avec un bourdonnement, et un petit compartiment s'ouvre, révélant un stock d'objets précieux. Vous prenez le butin.",
+      "bad": "Votre tentative d'interaction avec l'imprimante 3D déclenche une décharge électrique. Vous subissez des dégâts mais parvenez à vous échapper."
+    },
+    {
+      "action": "Chercher un manuel ou des instructions sur l'utilisation de l'imprimante 3D",
+      "good": "Vous trouvez un compartiment caché contenant un manuel détaillé et un ensemble d'outils spécialisés. Avec cela, vous assemblez avec succès un nouveau composant à partir de l'imprimante 3D.",
+      "bad": "Votre recherche de manuel vous amène à découvrir que la pièce a été compromise. Vous subissez des dégâts alors que la zone commence à se remplir de gaz nocifs."
+    },
+    {
+      "action": "Quitter la pièce et explorer d'autres zones de la forteresse du gang",
+      "good": "Vous parvenez à quitter la pièce sans déclencher d'alarmes, découvrant de nouveaux chemins et opportunités pour acquérir des objets précieux.",
+      "bad": "En quittant la pièce, vous déclenchez accidentellement un capteur caché. Vous subissez des dégâts à cause d'une séquence de neutralisation automatique initiée par les systèmes de sécurité de la forteresse."
+    }
+  ]
+}

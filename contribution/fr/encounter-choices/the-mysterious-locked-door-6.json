@@ -1,0 +1,20 @@
+{
+  "story": "Vous tombez sur une pièce remplie de machines bourdonnantes. L'air est chargé d'une énergie d'un autre monde. Vous remarquez trois dispositifs émettant une lueur pulsante. Que faites-vous ?",
+  "actions": [
+    {
+      "action": "Tenter de pirater le dispositif central",
+      "good": "Vos compétences en piratage contournent la sécurité, vous donnant accès à un compartiment caché contenant des objets précieux.",
+      "bad": "Votre tentative de piratage déclenche une réponse automatique, et les dispositifs commencent à mal fonctionner. Vous subissez des dégâts à cause d'une explosion d'énergie à proximité."
+    },
+    {
+      "action": "Forcer les dispositifs à s'ouvrir par la force brute",
+      "good": "Avec une démonstration de grande force, vous parvenez à ouvrir l'un des dispositifs, révélant un stock d'objets précieux.",
+      "bad": "Vos efforts déclenchent une explosion, et la pièce se remplit de débris. Vous subissez des dégâts, mais parvenez à vous échapper."
+    },
+    {
+      "action": "Examiner soigneusement chaque dispositif à la recherche d'indices cachés",
+      "good": "Vous découvrez un panneau caché sur l'un des dispositifs, contenant un message cryptique qui vous mène à un stash secret d'objets précieux.",
+      "bad": "En examinant les dispositifs, vous déclenchez accidentellement un piège. La pièce commence à se remplir d'un gaz toxique, et vous subissez des dégâts avant de vous échapper."
+    }
+  ]
+}

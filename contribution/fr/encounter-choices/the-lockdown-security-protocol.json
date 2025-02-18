@@ -1,0 +1,20 @@
+{
+  "story": "Vous vous trouvez dans un couloir faiblement éclairé de la forteresse du gang, entouré de vieilles machines et de morceaux de technologie. L'air est chargé de polluants provenant d'un système de filtration d'air abandonné qui a été bricolé pour faire circuler des gaz toxiques dans tout le couloir.",
+  "actions": [
+    {
+      "action": "Essayer de réparer les protocoles de sécurité du système de filtration d'air",
+      "good": "Votre rapidité d'esprit vous permet de contourner les protocoles de sécurité et de réparer le filtre à air. L'air frais commence à circuler, et vous accédez à une cachette secrète contenant des objets précieux.",
+      "bad": "Vous essayez de réparer le système de filtration d'air mais déclenchez involontairement un protocole secondaire qui libère une explosion concentrée de gaz toxique. Vous subissez 10 points de dégâts à cause de l'exposition."
+    },
+    {
+      "action": "Chercher un itinéraire alternatif autour du couloir contaminé",
+      "good": "En explorant les zones voisines, vous découvrez un passage secret qui contourne le couloir contaminé et mène à une salle sécurisée contenant des objets précieux.",
+      "bad": "En naviguant à travers l'itinéraire alternatif, vous tombez sur une plaque de pression qui déclenche un piège dissimulé. Le gaz toxique commence à remplir la zone, mais vous parvenez à vous échapper avec 5 points de dégâts."
+    },
+    {
+      "action": "Retirer soigneusement le gaz toxique du système de filtration d'air",
+      "good": "Votre gestion prudente de la situation vous permet de retirer le gaz toxique sans déclencher d'alarmes ou de protocoles de sécurité supplémentaires. Vous accédez à une cache secrète et acquérez des objets précieux.",
+      "bad": "Dans votre tentative de retirer le gaz toxique, vous déclenchez accidentellement une alarme qui alerte les systèmes de sécurité du gang. Des tourelles automatiques émergent, tirant dans votre direction et causant 15 points de dégâts."
+    }
+  ]
+}

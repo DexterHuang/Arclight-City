@@ -1,0 +1,20 @@
+{
+  "story": "Vous tombez sur un laboratoire abandonné au fond du sous-sol de la forteresse, rempli de machines anciennes et de technologies jetées. Une salle de serveurs mystérieuse se cache derrière un faux mur, contenant des données sensibles et des technologies précieuses. Que faites-vous ?",
+  "actions": [
+    {
+      "action": "Désactiver les caméras de sécurité du laboratoire en utilisant vos connaissances en électronique",
+      "good": "Vous désactivez avec succès les caméras de sécurité, vous permettant d'accéder à la salle des serveurs sans déclencher d'alarmes. Vous trouvez un cache caché d'objets précieux.",
+      "bad": "Vos tentatives de désactiver les caméras déclenchent un système d'alarme secondaire, et vous subissez des dégâts à cause d'un piège à proximité."
+    },
+    {
+      "action": "Utiliser une imprimante 3D à proximité pour créer une carte d'accès ou un jeton d'accès",
+      "good": "Vous imprimez avec succès une carte d'accès qui vous permet d'entrer dans la salle des serveurs. Vous découvrez des technologies précieuses et des données sensibles.",
+      "bad": "L'imprimante 3D tombe en panne, provoquant une réaction en chaîne d'événements qui déclenchent des alarmes et vous infligent des dégâts."
+    },
+    {
+      "action": "Essayer de distancer les drones de défense automatisés du laboratoire",
+      "good": "Vous parvenez à éviter les drones et à accéder à la salle des serveurs. Vous trouvez des technologies précieuses et des données sensibles.",
+      "bad": "Les drones sont trop rapides, et vous subissez des dégâts en essayant de les distancer. Le butin reste hors de portée."
+    }
+  ]
+}

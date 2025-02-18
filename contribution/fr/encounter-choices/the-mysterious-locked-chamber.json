@@ -1,0 +1,20 @@
+{
+  "story": "Vous vous trouvez devant une grande porte métallique ornée de câblages complexes et de lumières LED pulsantes. L'air est chargé de l'odeur de l'ozone et des circuits brûlés. Un panneau au-dessus de la porte indique \"Accès réservé au personnel autorisé - Laboratoire de bio-régénération.\" Votre curiosité prend le dessus, et vous vous demandez quels secrets se cachent derrière cette porte. Que faites-vous ?",
+  "actions": [
+    {
+      "action": "Tenter d'accéder au laboratoire via l'interface informatique de la porte",
+      "good": "Vous parvenez à pirater le système et à accéder à un compartiment caché contenant des objets précieux. La technologie avancée du laboratoire a été compromise, mais vous avez réussi à en tirer profit.",
+      "bad": "Votre tentative de piratage déclenche un protocole de sécurité qui scelle la porte, vous piégeant à l'extérieur. Des systèmes de défense automatisés s'activent, tirant des projectiles non létaux sur vous, causant des dégâts et vous aveuglant temporairement."
+    },
+    {
+      "action": "Forcer la porte avec vos améliorations cybernétiques",
+      "good": "Avec votre force et votre agilité améliorées, vous parvenez à ouvrir la porte, révélant un laboratoire rempli d'objets précieux et de technologies de pointe. Vos améliorations vous ont donné un avantage dans cette situation.",
+      "bad": "Votre entrée forcée déclenche un mécanisme de sécurité, libérant un nuage de gaz nocif qui cause des dégâts mais ne vous tue pas. L'équipement du laboratoire tombe en panne, et vous devez naviguer dans le chaos."
+    },
+    {
+      "action": "Chercher une entrée alternative au laboratoire, peut-être par une conduite de ventilation",
+      "good": "Vous découvrez une conduite de ventilation cachée qui mène directement au laboratoire. Vous grimpez à l'intérieur et vous vous retrouvez dans une pièce remplie d'objets précieux et de technologies avancées. Votre discrétion et votre agilité ont porté leurs fruits.",
+      "bad": "En cherchant une entrée alternative, vous tombez sur une plaque de pression qui déclenche un piège. Une pluie de projectiles non létaux est tirée sur vous, causant des dégâts et vous étourdissant temporairement."
+    }
+  ]
+}

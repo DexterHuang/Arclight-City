@@ -1,0 +1,20 @@
+{
+  "story": "Vous vous tenez devant une immense porte en métal avec un panneau indiquant \"Accès réservé au personnel autorisé.\" La porte mène à un étroit système de tunnels de maintenance, réputé pour renfermer des objets de valeur cachés par l'expert en technologie du gang. Que faites-vous ?",
+  "actions": [
+    {
+      "action": "Essayer de traverser les tunnels sans être détecté",
+      "good": "Vous vous déplacez furtivement, évitant les pièges mortels et découvrant un cachette secrète d'objets de valeur.",
+      "bad": "Votre imprudence déclenche un piège, vous infligeant des dégâts sans vous tuer."
+    },
+    {
+      "action": "Chercher un conduit de ventilation ou une entrée alternative",
+      "good": "Vous trouvez un conduit de ventilation qui mène directement à la cachette, vous permettant de récupérer des objets de valeur sans déclencher de pièges.",
+      "bad": "En cherchant, vous déclenchez accidentellement un piège, subissant des dégâts sans être tué."
+    },
+    {
+      "action": "Utiliser vos connaissances des systèmes de sécurité du gang pour désactiver les alarmes et les lumières",
+      "good": "Vous désactivez avec succès les systèmes de sécurité, vous permettant de naviguer dans les tunnels sans être détecté et de trouver des objets de valeur.",
+      "bad": "Votre tentative déclenche une source d'alimentation de secours, vous infligeant des dégâts sans vous tuer."
+    }
+  ]
+}

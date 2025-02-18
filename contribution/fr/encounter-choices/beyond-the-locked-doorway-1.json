@@ -1,0 +1,20 @@
+{
+  "story": "Vous êtes face à une immense porte en acier, sa surface gravée de motifs complexes et de panneaux d'avertissement. La machinerie qui vous entoure bourdonne de plus en plus fort, comme si elle détectait votre présence. Que faites-vous ?",
+  "actions": [
+    {
+      "action": "Essayer de désactiver le mécanisme de verrouillage",
+      "good": "Votre expertise en contournement des systèmes de sécurité porte ses fruits, et le verrou se déverrouille avec un clic. Vous poussez la porte, révélant une pièce remplie d'objets précieux.",
+      "bad": "Votre tentative de désactiver le verrou déclenche une réponse automatique, et une machine à proximité rejette un nuage de gaz nocif, vous infligeant des dégâts."
+    },
+    {
+      "action": "Forcer la porte",
+      "good": "Avec une montée d'adrénaline, vous foncez vers la porte et parvenez à l'ouvrir de force. À l'intérieur, vous trouvez un stock d'objets précieux, mais alors que vous les saisissez, la machinerie autour de vous commence à mal fonctionner.",
+      "bad": "Votre force brute déclenche une surcharge dans la machinerie, provoquant un court-circuit qui vous inflige des dégâts."
+    },
+    {
+      "action": "Examiner les panneaux d'avertissement sur la porte",
+      "good": "En étudiant les panneaux d'avertissement, vous remarquez un motif caché qui, une fois décodé, révèle un code secret. Vous utilisez ce code pour déverrouiller un panneau à proximité, qui s'ouvre pour révéler un cache d'objets précieux.",
+      "bad": "Votre enquête déclenche une alarme, et la machinerie autour de vous commence à bouger de manière menaçante, vous forçant à battre en retraite."
+    }
+  ]
+}

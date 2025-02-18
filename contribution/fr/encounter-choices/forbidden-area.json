@@ -1,0 +1,20 @@
+{
+  "story": "Vous vous trouvez dans un couloir faiblement éclairé rempli du bourdonnement des machines. En avançant, vous tombez sur une porte verrouillée menant à une zone restreinte. Que faites-vous ?",
+  "actions": [
+    {
+      "action": "Essayez de pirater le panneau de sécurité de la porte",
+      "good": "Avec vos compétences de piratage exceptionnelles, vous parvenez à contourner le système de sécurité sans être détecté, vous donnant accès à un cache caché d'objets précieux. Votre maîtrise de la technologie porte ses fruits.",
+      "bad": "En essayant de pirater la sécurité de la porte, des systèmes de défense automatisés se déclenchent. Des grilles laser s'activent et causent des dégâts à votre corps. Le butin reste inaccessible."
+    },
+    {
+      "action": "Forcer la porte avec votre force brute",
+      "good": "En utilisant toute votre force, vous parvenez à ouvrir la porte, révélant un stock d'objets précieux. Votre détermination s'avère payante.",
+      "bad": "Vos efforts pour forcer la porte entraînent l'activation d'une alarme cachée. Des tourelles automatisées émergent des murs et tirent sur vous, causant des dégâts. Le butin reste hors de portée."
+    },
+    {
+      "action": "Explorer pour une route alternative",
+      "good": "En explorant soigneusement les couloirs voisins, vous découvrez un passage dissimulé qui mène de l'autre côté de la porte verrouillée. Vous déterrez le stock caché du gang et vous aidez à son contenu.",
+      "bad": "Alors que vous cherchez une route alternative, vous déclenchez accidentellement une plaque de pression, déclenchant un piège dissimulé. Un gaz toxique commence à remplir le couloir, causant des dégâts à votre corps avant que vous ne parveniez à vous échapper de justesse. Le butin reste hors de portée."
+    }
+  ]
+}

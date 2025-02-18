@@ -1,0 +1,20 @@
+{
+  "story": "Vous vous trouvez dans une salle de serveurs faiblement éclairée au sein de la forteresse du gang. Des rangées de serveurs et de machines bourdonnantes bordent les murs, projetant une lueur étrange sur le sol. Au centre de la pièce, vous remarquez une grande porte métallique avec des lumières clignotantes et un panneau indiquant \"Accès réservé au personnel autorisé\". L'air est chargé de l'odeur de circuits brûlés et d'ozone. Un léger bourdonnement électrique émane des serveurs, rendant la concentration difficile. Vous remarquez plusieurs panneaux de maintenance sur les murs, chacun avec un petit clavier et une série de lumières clignotantes.",
+  "actions": [
+    {
+      "action": "Essayer de pirater l'un des panneaux de maintenance",
+      "good": "Vos compétences en piratage vous donnent accès à un panneau caché contenant des objets précieux. Le contenu du panneau est maintenant à portée de main.",
+      "bad": "Votre tentative de piratage déclenche une alarme, et la pièce est remplie d'un éclair de lumière aveuglante. Vous subissez des dégâts à cause de la radiation intense, mais le butin reste hors de portée."
+    },
+    {
+      "action": "Désactiver les panneaux de maintenance pour éviter d'éventuels pièges",
+      "good": "Vous désactivez soigneusement les panneaux, empêchant tout piège ou alarme potentiel d'être déclenché. Un compartiment caché s'ouvre, révélant des objets précieux.",
+      "bad": "Vos actions déclenchent involontairement un piège, et vous êtes aspergé d'une substance collante et adhésive. Le butin est maintenant hors de portée à cause de votre situation."
+    },
+    {
+      "action": "Explorer la pièce pour trouver un moyen alternatif d'accéder à la porte verrouillée",
+      "good": "Après avoir fouillé, vous trouvez une carte d'accès cachée sur l'un des serveurs. Vous l'utilisez pour déverrouiller la porte, vous donnant accès à des objets précieux.",
+      "bad": "En fouillant, vous déclenchez accidentellement une plaque de pression, provoquant le remplissage du sol avec un gaz nocif. Vous subissez des dégâts en essayant de vous échapper."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "story": "Vous vous trouvez devant une grande porte métallique ornée de panneaux complexes. La porte est décorée de panneaux d'avertissement et de symboles de danger, indiquant que ce qui se cache derrière n'est pas pour les âmes sensibles.",
+  "actions": [
+    {
+      "action": "Essayer de déloger le panneau lâche",
+      "good": "Vous parvenez à retirer le panneau, révélant un compartiment caché contenant des objets et des outils précieux. Votre curiosité a porté ses fruits.",
+      "bad": "Le panneau lâche déclenche un mécanisme caché, faisant commencer à sceller la porte. Vous évitez de justesse d'être piégé, mais vous subissez des dégâts à cause des systèmes de défense de la porte."
+    },
+    {
+      "action": "Utiliser votre cyberdeck pour pirater le système de sécurité de la porte",
+      "good": "Vos compétences en hacking vous permettent de contourner le système de sécurité, vous donnant accès à l'autre côté de la porte et potentiellement à un butin précieux.",
+      "bad": "Votre tentative de hacking est détectée par l'IA de la porte, qui réagit en activant un essaim de micro-drones qui vous attaquent. Vous subissez des dégâts à cause des attaques des drones."
+    },
+    {
+      "action": "Chercher un moyen alternatif d'entrer dans la zone sécurisée",
+      "good": "Après avoir fouillé les couloirs voisins, vous découvrez une ventilation cachée qui mène de l'autre côté de la porte. Vous trouvez des objets et des outils précieux à l'intérieur.",
+      "bad": "En cherchant un itinéraire alternatif, vous déclenchez accidentellement un piège, faisant s'effondrer le sol sous vous. Vous tombez dans un trou rempli de déchets toxiques, subissant des dégâts mais parvenant à vous échapper."
+    }
+  ]
+}

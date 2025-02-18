@@ -1,0 +1,20 @@
+{
+  "story": "Vous êtes dans une partie encombrée de la forteresse du gang où sont entreposés de vieux appareils électroniques et de la machinerie. Vous remarquez un vieux distributeur automatique qui semble hors de propos parmi les autres déchets. On dirait qu'il n'a pas été utilisé depuis des années, mais vous vous demandez s'il pourrait encore fonctionner.",
+  "actions": [
+    {
+      "action": "Essayer de réparer ou de pirater le distributeur automatique",
+      "good": "Avec un peu de bricolage, vous parvenez à remettre le distributeur automatique en marche. Il dispense un petit stock d'objets utiles et de collations.",
+      "bad": "Votre tentative de pirater le distributeur automatique déclenche une légère surtension électrique qui vous frôle avec des étincelles. La machine reste inutilisable, mais au moins, elle n'est plus un danger."
+    },
+    {
+      "action": "Laisser le distributeur automatique tranquille et chercher ailleurs",
+      "good": "Vous continuez à explorer d'autres parties de la zone et trouvez une cachette secrète d'objets précieux.",
+      "bad": "Vous décidez de laisser le distributeur automatique derrière vous et de passer à autre chose, mais vous déclenchez accidentellement un piège de sécurité en fouillant. Vous subissez des dégâts mineurs et devez être plus prudent."
+    },
+    {
+      "action": "Utiliser votre environnement pour désactiver d'éventuelles mesures de sécurité",
+      "good": "Vous inspectez soigneusement la zone autour du distributeur automatique et trouvez un moyen de désactiver son système de sécurité. Il est maintenant sûr d'y accéder, et vous découvrez un compartiment caché contenant des objets précieux.",
+      "bad": "Votre tentative de désactiver les mesures de sécurité déclenche une alarme, mais elle est rapidement étouffée par un autre membre du gang qui arrive sur les lieux. Vous subissez des dégâts mineurs lors d'une échauffourée avec eux."
+    }
+  ]
+}

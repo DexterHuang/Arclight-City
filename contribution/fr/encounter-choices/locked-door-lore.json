@@ -1,0 +1,20 @@
+{
+  "story": "Vous entendez un léger bourdonnement de machines provenant d'une pièce voisine. En vous approchant prudemment, vous apercevez une porte avec une lumière verte clignotante, indiquant une zone verrouillée. Que faites-vous ?",
+  "actions": [
+    {
+      "action": "Pirater le panneau de sécurité de la porte",
+      "good": "Vos compétences en piratage vous permettent de contourner la sécurité de la porte, vous donnant accès à un stash caché d'objets précieux. Votre savoir-faire technique porte ses fruits.",
+      "bad": "En essayant de pirater la porte, une alarme se déclenche, provoquant l'activation des systèmes de défense automatisés. Des grilles laser apparaissent et causent des dégâts, mais vous parvenez à les éviter. Le butin reste hors de portée."
+    },
+    {
+      "action": "Forcer l'ouverture de la porte",
+      "good": "Avec une démonstration de force brute, vous défoncez la porte, révélant un cachet dissimulé d'objets précieux. Votre détermination porte ses fruits.",
+      "bad": "Alors que vous forcez l'entrée dans la pièce, des tourelles automatisées émergent des murs et tirent sur vous, causant des dégâts. Le butin reste hors de portée."
+    },
+    {
+      "action": "Chercher un chemin alternatif",
+      "good": "En explorant prudemment les couloirs voisins, vous découvrez un passage secret menant de l'autre côté de la porte verrouillée. Vous récupérez avec succès le stash caché du gang et partez sans être remarqué.",
+      "bad": "En cherchant un chemin alternatif, vous marchez accidentellement sur une plaque de pression, déclenchant un piège dissimulé. Un gaz toxique commence à remplir le couloir, causant des dégâts avant que vous ne parveniez à vous échapper de justesse. Le butin reste hors de portée."
+    }
+  ]
+}

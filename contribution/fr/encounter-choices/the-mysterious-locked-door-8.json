@@ -1,0 +1,20 @@
+{
+  "story": "Vous vous tenez devant une immense porte en métal avec un clavier verrouillé en place. Le mur au-dessus affiche un compte à rebours, et l'air est chargé de tension.",
+  "actions": [
+    {
+      "action": "Entrez le code correct pour déverrouiller la porte",
+      "good": "Vous entrez le code correctement, et la porte s'ouvre, révélant un cache caché d'objets précieux.",
+      "bad": "Vous entrez un code incorrect, déclenchant une alarme qui vous inflige des dégâts. Le butin reste hors de portée."
+    },
+    {
+      "action": "Essayez de défoncer la porte par la force brute",
+      "good": "Avec une grande force, vous parvenez à ouvrir la porte, révélant un stock d'objets précieux.",
+      "bad": "Vos efforts déclenchent un piège caché, vous infligeant des dégâts. Le butin reste juste hors de portée."
+    },
+    {
+      "action": "Utilisez votre cyberdeck pour contourner le système de sécurité",
+      "good": "Vous parvenez à pirater le système, vous donnant accès à un cache caché d'objets précieux.",
+      "bad": "Votre tentative déclenche un système de défense automatisé, vous infligeant des dégâts. Le butin reste désespérément hors de portée."
+    }
+  ]
+}

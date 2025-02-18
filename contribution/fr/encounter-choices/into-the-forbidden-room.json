@@ -1,0 +1,20 @@
+{
+  "story": "Vous tombez sur un conduit de ventilation caché dans l'un des couloirs de la forteresse. En regardant dans l'obscurité, vous remarquez une lueur faible émanant de l'intérieur. Le conduit semble mener à une partie inconnue du complexe. Que faites-vous ?",
+  "actions": [
+    {
+      "action": "Descendre dans le conduit de ventilation",
+      "good": "Vous naviguez à travers les conduits étroits et vous vous retrouvez dans une petite pièce faiblement éclairée remplie de rangées de serveurs bourdonnants. L'air est chargé de l'odeur de l'ozone et des circuits brûlés. Vous parvenez à fouiller quelques composants précieux dans les débris.",
+      "bad": "Votre descente dans le conduit déclenche une alarme de sécurité, et la pièce commence à se remplir de gaz nocifs. Vous subissez des dégâts en essayant de trouver une issue au milieu des fumées toxiques."
+    },
+    {
+      "action": "Chercher dans la grille de ventilation un panneau caché ou un point d'accès",
+      "good": "Vous remarquez une légère anomalie dans le design de la grille et parvenez à l'ouvrir, révélant un compartiment caché contenant quelques gadgets utiles. Votre œil attentif aux détails porte ses fruits.",
+      "bad": "Votre recherche d'un panneau caché déclenche un piège, faisant tourner le conduit de ventilation à grande vitesse. Vous subissez des dégâts en luttant pour vous accrocher."
+    },
+    {
+      "action": "Appeler le personnel de maintenance pour obtenir de l'aide pour accéder au conduit de ventilation",
+      "good": "Vous entendez le bruit de pas qui s'approchent et vous vous retrouvez bientôt face à un travailleur de maintenance bourru mais amical qui vous aide à naviguer dans le système de ventilation. Il vous remet même quelques outils précieux.",
+      "bad": "Votre appel à l'aide est mal interprété comme un signal de détresse, et une équipe de membres de gang lourdement armés arrive pour vous 'secourir'. Vous subissez des dégâts dans le chaos qui s'ensuit."
+    }
+  ]
+}

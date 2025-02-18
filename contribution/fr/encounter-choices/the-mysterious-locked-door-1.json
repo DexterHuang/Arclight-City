@@ -1,0 +1,20 @@
+{
+  "story": "Vous vous trouvez devant une grande porte en métal, ornée de circuits et de fils complexes. La porte est légèrement entrouverte, comme si quelqu'un ou quelque chose était récemment passé par là. Vous pouvez entendre le léger bourdonnement de la machinerie venant de l'autre côté.",
+  "actions": [
+    {
+      "action": "Poussez lentement la porte pour enquêter",
+      "good": "En poussant la porte, vous découvrez une petite pièce remplie de rangées de terminaux informatiques et de serveurs bourdonnant doucement en arrière-plan. En explorant davantage, vous trouvez un compartiment caché contenant des objets précieux.",
+      "bad": "La porte grince bruyamment lorsque vous la poussez, attirant l'attention indésirable des systèmes de sécurité à l'intérieur de la forteresse. Des tourelles automatiques commencent à tirer sur vous, causant des dégâts mais ne vous tuant pas."
+    },
+    {
+      "action": "Utilisez votre cyberdeck pour pirater les terminaux informatiques à proximité",
+      "good": "Vos compétences en piratage vous permettent d'accéder à des informations sensibles stockées sur les terminaux informatiques, révélant des données précieuses sur les opérations du gang et des moyens possibles d'obtenir plus de butin.",
+      "bad": "La tentative de piratage déclenche un protocole de sécurité qui fait afficher des messages d'avertissement sur les écrans des terminaux avec des lumières vives, vous éblouissant momentanément. Lorsque votre vision revient, vous réalisez que votre cyberdeck a été endommagé."
+    },
+    {
+      "action": "Cherchez dans la zone environnante des dangers cachés ou des indices",
+      "good": "Vous découvrez un petit compartiment caché dans le mur contenant des objets précieux et une note avec des informations cryptiques sur la disposition de la forteresse.",
+      "bad": "En fouillant, vous activez une plaque de pression, déclenchant une alarme qui alerte les systèmes de sécurité à l'intérieur de la forteresse. Des tourelles commencent à tirer sur vous, causant des dégâts mais ne vous tuant pas."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "story": "Vous vous trouvez devant un grand ascenseur métallique dans la forteresse du gang. Les portes sont fermées, mais vous pouvez entendre le léger bourdonnement des machines venant de l'intérieur. On vous a dit que cet ascenseur mène à une zone de stockage secrète, mais vous devrez trouver comment y accéder.",
+  "actions": [
+    {
+      "action": "Essayer de forcer l'ascenseur à s'ouvrir",
+      "good": "Vous parvenez à ouvrir les portes, révélant une pièce faiblement éclairée remplie de rangées d'étagères chargées d'objets précieux. Votre force et votre détermination portent leurs fruits.",
+      "bad": "Vos efforts pour forcer l'ascenseur déclenchent un mécanisme de sécurité, provoquant la fermeture brutale des portes et vous infligeant des dégâts. Le butin reste caché."
+    },
+    {
+      "action": "Chercher un bouton caché ou un panneau de contrôle pour activer l'ascenseur",
+      "good": "Après avoir fouillé la zone, vous trouvez un petit bouton discret qui active les systèmes de l'ascenseur. Vous accédez à la zone de stockage et découvrez des objets précieux.",
+      "bad": "Votre recherche d'un bouton caché déclenche un système de sécurité, faisant clignoter les lumières de la pièce et vous infligeant des dégâts. Le butin reste hors de portée."
+    },
+    {
+      "action": "Utiliser vos connaissances de la disposition de la forteresse pour trouver un chemin alternatif vers la zone de stockage",
+      "good": "Vous naviguez à travers les couloirs, utilisant vos connaissances de la disposition de la forteresse pour trouver un passage secret menant directement à la zone de stockage. Vous découvrez des objets précieux et vous vous sentez fier de votre ingéniosité.",
+      "bad": "En naviguant à travers les couloirs, vous vous perdez dans le dédale de la forteresse. Vous tombez sur une impasse et subissez des dégâts avant de retrouver votre chemin vers l'ascenseur."
+    }
+  ]
+}

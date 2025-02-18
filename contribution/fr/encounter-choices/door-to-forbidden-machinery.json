@@ -1,0 +1,20 @@
+{
+  "story": "Vous entrez prudemment dans la pièce, vos yeux s'ajustant à la lumière vive des machines. Vous remarquez une série de grands réservoirs cylindriques au centre de la pièce, chacun émettant un léger sifflement alors qu'ils libèrent un flux constant de gaz. L'air est chargé de l'odeur de carburant et d'ozone.",
+  "actions": [
+    {
+      "action": "Essayer d'accéder à la console verrouillée",
+      "good": "Vos compétences vous permettent de contourner le verrou, et vous accédez à un menu caché. Vous découvrez un précieux stock d'objets, y compris une cellule d'énergie rare et un ensemble d'outils avancés.",
+      "bad": "Vous tentez de forcer le verrou, mais cela déclenche une alarme. Une machine à proximité émet une explosion d'étincelles, et vous subissez des dégâts à cause de la décharge électrique."
+    },
+    {
+      "action": "Examiner le panneau d'avertissement sur l'un des réservoirs",
+      "good": "Vous découvrez que le réservoir fuit une petite quantité de gaz, mais ce n'est pas critique. Vous parvenez à trouver une vanne pour arrêter la fuite, et vous accédez à un compartiment de stockage caché contenant des objets précieux.",
+      "bad": "Le réservoir fuit plus que vous ne le pensiez au départ, et le gaz commence à se répandre rapidement. Vous subissez des dégâts à cause des fumées nocives, et la fuite continue de s'aggraver."
+    },
+    {
+      "action": "Vérifier les machines pour d'autres indices ou dangers",
+      "good": "Vous remarquez qu'une des machines a un panneau caché avec un message cryptique gravé dessus. Vous parvenez à déchiffrer le code, et vous accédez à un précieux stock d'objets.",
+      "bad": "En examinant les machines, vous déclenchez un piège caché. Une machine à proximité émet une explosion d'étincelles, et vous subissez des dégâts à cause de la décharge électrique."
+    }
+  ]
+}
