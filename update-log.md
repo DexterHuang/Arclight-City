@@ -6,6 +6,11 @@
 
 **If you find an exploit please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
+### 0.0.71
+
+-  Added setting to disable in game chat announcement
+-  Fixed acuire target minigame target not moving issue
+
 ### 0.0.70
 
 -  Added new Neon Fuse Hack minigame, click the box in correct sequence to complete the minigame
