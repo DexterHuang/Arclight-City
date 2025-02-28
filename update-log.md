@@ -6,6 +6,17 @@
 
 **If you find an exploit please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
+### 0.0.72
+
+-  Added new minigame - Code deofuscation, it looks complicated but all you need to do is click the random letter looking bits
+
+![image](https://github.com/user-attachments/assets/c2f733f9-7435-4093-a37b-22a2f3c60489)
+
+-  Added new item Synaptic Enhancer, currently can optained freely from this month's battle pass or the premium shop, it increasses efficiency of doing hideout raid
+
+![image](https://github.com/user-attachments/assets/dca17078-1975-4441-bb4b-f85932da2792)
+
+
 ### 0.0.71
 
 -  Added setting to disable in game chat announcement
