@@ -6465,6 +6465,14 @@
 			}
 		},
 		"codeMinigame": {
+			"accessGranted": {
+				"eng": "ACCESS GRANTED",
+				"trans": "ДОСТУП ПРЕДОСТАВЛЕН"
+			},
+			"breachProgress": {
+				"eng": "BREACH PROGRESS",
+				"trans": "ПРОГРЕСС ВЗЛОМA"
+			},
 			"example": {
 				"eng": "Example of obfuscated code:",
 				"trans": "Пример запутанного кода:"
@@ -6472,6 +6480,10 @@
 			"instructions": {
 				"eng": "Identify and execute all obfuscated code to breach the system firewall.",
 				"trans": "Идентифицируйте и выполните весь зашифрованный код, чтобы проникнуть в системный файрвол."
+			},
+			"securityBypassed": {
+				"eng": "SECURITY BYPASSED",
+				"trans": "БЕЗОПАСНОСТЬ ОБОЙДЕНА"
 			}
 		},
 		"dataNodeSync": {
@@ -6538,7 +6550,46 @@
 				"trans": "ЗАХВАТИТЬ ЦЕЛЬ"
 			}
 		},
+		"terminalHacking": {
+			"header": {
+				"status": {
+					"eng": "Tap the decrypted keywords to unlock the terminal",
+					"trans": "Нажмите на расшифрованные ключевые слова, чтобы разблокировать терминал"
+				},
+				"title": {
+					"eng": "CIRCUITBREAK TERMLINK PROTOCOL",
+					"trans": "ПРОТОКОЛ ССЫЛКИ РАЗРЫВА ЦЕПИ"
+				}
+			},
+			"progress": {
+				"eng": "SECURITY NODES: ${found}/${total}",
+				"trans": "УЗЛЫ БЕЗОПАСНОСТИ: ${found}/${total}"
+			},
+			"status": {
+				"initial": {
+					"eng": "INITIALIZING TERMINAL ACCESS...",
+					"trans": "ИНИЦИАЛИЗАЦИЯ ДОСТУПА К ТЕРМИНАЛУ..."
+				},
+				"progress": {
+					"eng": "SECURITY NODE BYPASSED. ${remaining} REMAINING.",
+					"trans": "УЗЕЛ БЕЗОПАСНОСТИ ОБОЙДЕН. ОСТАЛОСЬ ${remaining}.",
+					"vars": []
+				},
+				"success": {
+					"eng": "ACCESS GRANTED. TERMINAL UNLOCKED.",
+					"trans": "ДОСТУП ПРЕДОСТАВЛЕН. ТЕРМИНАЛ РАСКРЫТ."
+				}
+			},
+			"success": {
+				"eng": "ACCESS GRANTED",
+				"trans": "ДОСТУП ПРЕДОСТАВЛЕН"
+			}
+		},
 		"tileTrack": {
+			"clickHere": {
+				"eng": "Click",
+				"trans": "Нажмите"
+			},
 			"tip": {
 				"eng": "Click on the highlighted button to unlock",
 				"trans": "Нажмите на выделенную кнопку, чтобы разблокировать"
@@ -10091,10 +10142,6 @@
 				"eng": "Backpack",
 				"trans": "Рюкзак"
 			},
-			"chat": {
-				"eng": "Chat",
-				"trans": "Чат"
-			},
 			"quest": {
 				"eng": "Quest",
 				"trans": "Задание"
@@ -10115,7 +10162,7 @@
 			}
 		},
 		"health": {
-			"eng": "health",
+			"eng": "HEALTH",
 			"trans": "Здоровье"
 		},
 		"inventoryPage": {
@@ -10269,8 +10316,8 @@
 			}
 		},
 		"shield": {
-			"eng": "shield",
-			"trans": "щит"
+			"eng": "SHIELD",
+			"trans": "ЩИТ"
 		},
 		"travelBack": {
 			"title": {

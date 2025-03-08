@@ -6465,6 +6465,14 @@
 			}
 		},
 		"codeMinigame": {
+			"accessGranted": {
+				"eng": "ACCESS GRANTED",
+				"trans": "ACCÈS AUTORISÉ"
+			},
+			"breachProgress": {
+				"eng": "BREACH PROGRESS",
+				"trans": "PROGRÈS DE LA VIOLATION"
+			},
 			"example": {
 				"eng": "Example of obfuscated code:",
 				"trans": "Exemple de code obfusqué :"
@@ -6472,6 +6480,10 @@
 			"instructions": {
 				"eng": "Identify and execute all obfuscated code to breach the system firewall.",
 				"trans": "Identifiez et exécutez tout code obfusqué pour pénétrer le pare-feu du système."
+			},
+			"securityBypassed": {
+				"eng": "SECURITY BYPASSED",
+				"trans": "SÉCURITÉ CONTOURNÉE"
 			}
 		},
 		"dataNodeSync": {
@@ -6538,7 +6550,46 @@
 				"trans": "ACQUÉRIR LA CIBLE"
 			}
 		},
+		"terminalHacking": {
+			"header": {
+				"status": {
+					"eng": "Tap the decrypted keywords to unlock the terminal",
+					"trans": "Appuyez sur les mots-clés déchiffrés pour déverrouiller le terminal"
+				},
+				"title": {
+					"eng": "CIRCUITBREAK TERMLINK PROTOCOL",
+					"trans": "PROTOCOLE TERMLINK CIRCUITBREAK"
+				}
+			},
+			"progress": {
+				"eng": "SECURITY NODES: ${found}/${total}",
+				"trans": "NODES DE SÉCURITÉ : ${found}/${total}"
+			},
+			"status": {
+				"initial": {
+					"eng": "INITIALIZING TERMINAL ACCESS...",
+					"trans": "INITIALISATION DE L'ACCÈS AU TERMINAL..."
+				},
+				"progress": {
+					"eng": "SECURITY NODE BYPASSED. ${remaining} REMAINING.",
+					"trans": "NŒUD DE SÉCURITÉ CONTREPASSÉ. ${remaining} RESTANT.",
+					"vars": []
+				},
+				"success": {
+					"eng": "ACCESS GRANTED. TERMINAL UNLOCKED.",
+					"trans": "ACCÈS AUTORISÉ. TERMINAL DÉVERROUILLÉ."
+				}
+			},
+			"success": {
+				"eng": "ACCESS GRANTED",
+				"trans": "ACCÈS AUTORISÉ"
+			}
+		},
 		"tileTrack": {
+			"clickHere": {
+				"eng": "Click",
+				"trans": "Cliquez"
+			},
 			"tip": {
 				"eng": "Click on the highlighted button to unlock",
 				"trans": "Cliquez sur le bouton surligné pour déverrouiller"
@@ -10091,10 +10142,6 @@
 				"eng": "Backpack",
 				"trans": "Sac à dos"
 			},
-			"chat": {
-				"eng": "Chat",
-				"trans": "Chat"
-			},
 			"quest": {
 				"eng": "Quest",
 				"trans": "Quête"
@@ -10115,8 +10162,8 @@
 			}
 		},
 		"health": {
-			"eng": "health",
-			"trans": "santé"
+			"eng": "HEALTH",
+			"trans": "SANTÉ"
 		},
 		"inventoryPage": {
 			"equipmentTab": {
@@ -10269,8 +10316,8 @@
 			}
 		},
 		"shield": {
-			"eng": "shield",
-			"trans": "bouclier"
+			"eng": "SHIELD",
+			"trans": "BARRIÈRE"
 		},
 		"travelBack": {
 			"title": {

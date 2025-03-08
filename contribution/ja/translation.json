@@ -6465,6 +6465,14 @@
 			}
 		},
 		"codeMinigame": {
+			"accessGranted": {
+				"eng": "ACCESS GRANTED",
+				"trans": "アクセス許可されました"
+			},
+			"breachProgress": {
+				"eng": "BREACH PROGRESS",
+				"trans": "侵入進捗"
+			},
 			"example": {
 				"eng": "Example of obfuscated code:",
 				"trans": "難読化されたコードの例:"
@@ -6472,6 +6480,10 @@
 			"instructions": {
 				"eng": "Identify and execute all obfuscated code to breach the system firewall.",
 				"trans": "すべての難読化されたコードを特定し、システムファイアウォールを突破するために実行してください。"
+			},
+			"securityBypassed": {
+				"eng": "SECURITY BYPASSED",
+				"trans": "セキュリティバイパス成功"
 			}
 		},
 		"dataNodeSync": {
@@ -6538,7 +6550,46 @@
 				"trans": "ターゲットを取得する"
 			}
 		},
+		"terminalHacking": {
+			"header": {
+				"status": {
+					"eng": "Tap the decrypted keywords to unlock the terminal",
+					"trans": "タップして復号化されたキーワードを使い、ターミナルを解除してください"
+				},
+				"title": {
+					"eng": "CIRCUITBREAK TERMLINK PROTOCOL",
+					"trans": "CIRCUITBREAKタームリンクプロトコル"
+				}
+			},
+			"progress": {
+				"eng": "SECURITY NODES: ${found}/${total}",
+				"trans": "セキュリティノード: ${found}/${total}"
+			},
+			"status": {
+				"initial": {
+					"eng": "INITIALIZING TERMINAL ACCESS...",
+					"trans": "ターミナルアクセスを初期化中..."
+				},
+				"progress": {
+					"eng": "SECURITY NODE BYPASSED. ${remaining} REMAINING.",
+					"trans": "セキュリティノードがバイパスされました。残り${remaining}。",
+					"vars": []
+				},
+				"success": {
+					"eng": "ACCESS GRANTED. TERMINAL UNLOCKED.",
+					"trans": "アクセス許可。ターミナルが解除されました。"
+				}
+			},
+			"success": {
+				"eng": "ACCESS GRANTED",
+				"trans": "アクセス許可されました"
+			}
+		},
 		"tileTrack": {
+			"clickHere": {
+				"eng": "Click",
+				"trans": "クリック"
+			},
 			"tip": {
 				"eng": "Click on the highlighted button to unlock",
 				"trans": "ハイライトされたボタンをクリックして解除する"
@@ -10091,10 +10142,6 @@
 				"eng": "Backpack",
 				"trans": "バックパック"
 			},
-			"chat": {
-				"eng": "Chat",
-				"trans": "チャット"
-			},
 			"quest": {
 				"eng": "Quest",
 				"trans": "クエスト"
@@ -10115,7 +10162,7 @@
 			}
 		},
 		"health": {
-			"eng": "health",
+			"eng": "HEALTH",
 			"trans": "生命力"
 		},
 		"inventoryPage": {
@@ -10269,7 +10316,7 @@
 			}
 		},
 		"shield": {
-			"eng": "shield",
+			"eng": "SHIELD",
 			"trans": "シールド"
 		},
 		"travelBack": {

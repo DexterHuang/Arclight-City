@@ -6465,6 +6465,14 @@
 			}
 		},
 		"codeMinigame": {
+			"accessGranted": {
+				"eng": "ACCESS GRANTED",
+				"trans": "存取已授權"
+			},
+			"breachProgress": {
+				"eng": "BREACH PROGRESS",
+				"trans": "突破進度"
+			},
 			"example": {
 				"eng": "Example of obfuscated code:",
 				"trans": "混淆代碼範例："
@@ -6472,6 +6480,10 @@
 			"instructions": {
 				"eng": "Identify and execute all obfuscated code to breach the system firewall.",
 				"trans": "識別並執行所有混淆代碼以突破系統防火牆。"
+			},
+			"securityBypassed": {
+				"eng": "SECURITY BYPASSED",
+				"trans": "安全系統已被繞過"
 			}
 		},
 		"dataNodeSync": {
@@ -6538,7 +6550,46 @@
 				"trans": "獲取目標"
 			}
 		},
+		"terminalHacking": {
+			"header": {
+				"status": {
+					"eng": "Tap the decrypted keywords to unlock the terminal",
+					"trans": "點擊已解密的關鍵字以解鎖終端機"
+				},
+				"title": {
+					"eng": "CIRCUITBREAK TERMLINK PROTOCOL",
+					"trans": "CIRCUITBREAK 連結協議"
+				}
+			},
+			"progress": {
+				"eng": "SECURITY NODES: ${found}/${total}",
+				"trans": "安全節點：${found}/${total}"
+			},
+			"status": {
+				"initial": {
+					"eng": "INITIALIZING TERMINAL ACCESS...",
+					"trans": "初始化終端機存取..."
+				},
+				"progress": {
+					"eng": "SECURITY NODE BYPASSED. ${remaining} REMAINING.",
+					"trans": "安全節點已被繞過。還剩${remaining}。",
+					"vars": []
+				},
+				"success": {
+					"eng": "ACCESS GRANTED. TERMINAL UNLOCKED.",
+					"trans": "訪問已授權。終端已解鎖。"
+				}
+			},
+			"success": {
+				"eng": "ACCESS GRANTED",
+				"trans": "存取已授權"
+			}
+		},
 		"tileTrack": {
+			"clickHere": {
+				"eng": "Click",
+				"trans": "點擊"
+			},
 			"tip": {
 				"eng": "Click on the highlighted button to unlock",
 				"trans": "點擊高亮按鈕以解鎖"
@@ -10091,10 +10142,6 @@
 				"eng": "Backpack",
 				"trans": "背包"
 			},
-			"chat": {
-				"eng": "Chat",
-				"trans": "聊天"
-			},
 			"quest": {
 				"eng": "Quest",
 				"trans": "任務"
@@ -10115,8 +10162,8 @@
 			}
 		},
 		"health": {
-			"eng": "health",
-			"trans": "生命值"
+			"eng": "HEALTH",
+			"trans": "生命"
 		},
 		"inventoryPage": {
 			"equipmentTab": {
@@ -10269,7 +10316,7 @@
 			}
 		},
 		"shield": {
-			"eng": "shield",
+			"eng": "SHIELD",
 			"trans": "護盾"
 		},
 		"travelBack": {

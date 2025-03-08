@@ -6465,6 +6465,14 @@
 			}
 		},
 		"codeMinigame": {
+			"accessGranted": {
+				"eng": "ACCESS GRANTED",
+				"trans": "ZUGRIFF GEWÄHRT"
+			},
+			"breachProgress": {
+				"eng": "BREACH PROGRESS",
+				"trans": "EINBRUCHSPROGRESS"
+			},
 			"example": {
 				"eng": "Example of obfuscated code:",
 				"trans": "Beispiel für obfuskierten Code:"
@@ -6472,6 +6480,10 @@
 			"instructions": {
 				"eng": "Identify and execute all obfuscated code to breach the system firewall.",
 				"trans": "Identifizieren und führen Sie allen obfuskierten Code aus, um die Systemfirewall zu durchbrechen."
+			},
+			"securityBypassed": {
+				"eng": "SECURITY BYPASSED",
+				"trans": "SICHERHEIT UMGEHEN"
 			}
 		},
 		"dataNodeSync": {
@@ -6538,7 +6550,46 @@
 				"trans": "ZIEL ERWERBEN"
 			}
 		},
+		"terminalHacking": {
+			"header": {
+				"status": {
+					"eng": "Tap the decrypted keywords to unlock the terminal",
+					"trans": "Tippe auf die entschlüsselten Schlüsselwörter, um das Terminal zu entsperren"
+				},
+				"title": {
+					"eng": "CIRCUITBREAK TERMLINK PROTOCOL",
+					"trans": "CIRCUITBREAK TERMLINK PROTOKOLL"
+				}
+			},
+			"progress": {
+				"eng": "SECURITY NODES: ${found}/${total}",
+				"trans": "SICHERHEITSKNOTEN: ${found}/${total}"
+			},
+			"status": {
+				"initial": {
+					"eng": "INITIALIZING TERMINAL ACCESS...",
+					"trans": "INITIALIZING TERMINAL ACCESS..."
+				},
+				"progress": {
+					"eng": "SECURITY NODE BYPASSED. ${remaining} REMAINING.",
+					"trans": "SICHERHEITSKNOTEN UMGEHEN. ${remaining} VERBLEIBEND.",
+					"vars": []
+				},
+				"success": {
+					"eng": "ACCESS GRANTED. TERMINAL UNLOCKED.",
+					"trans": "ZUGRIFF GEWÄHRT. TERMINAL ENTSCHLÜSSELT."
+				}
+			},
+			"success": {
+				"eng": "ACCESS GRANTED",
+				"trans": "ZUGRIFF GEWÄHRT"
+			}
+		},
 		"tileTrack": {
+			"clickHere": {
+				"eng": "Click",
+				"trans": "Klicken"
+			},
 			"tip": {
 				"eng": "Click on the highlighted button to unlock",
 				"trans": "Klicken Sie auf die hervorgehobene Schaltfläche, um sie freizuschalten"
@@ -10091,10 +10142,6 @@
 				"eng": "Backpack",
 				"trans": "Rucksack"
 			},
-			"chat": {
-				"eng": "Chat",
-				"trans": "Chat"
-			},
 			"quest": {
 				"eng": "Quest",
 				"trans": "Quest"
@@ -10115,8 +10162,8 @@
 			}
 		},
 		"health": {
-			"eng": "health",
-			"trans": "Gesundheit"
+			"eng": "HEALTH",
+			"trans": "GESUNDHEIT"
 		},
 		"inventoryPage": {
 			"equipmentTab": {
@@ -10269,8 +10316,8 @@
 			}
 		},
 		"shield": {
-			"eng": "shield",
-			"trans": "Schild"
+			"eng": "SHIELD",
+			"trans": "SCHILD"
 		},
 		"travelBack": {
 			"title": {
