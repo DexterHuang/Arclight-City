@@ -13,6 +13,7 @@
 -  Redesigned login page
 -  Work in progress for desktop version
 -  Multiple under the hood optimizations
+-  Added support for wider screen size like tablets
 
 ### 0.0.72
 
