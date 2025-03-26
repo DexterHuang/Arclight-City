@@ -6,6 +6,14 @@
 
 **If you find an exploit please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
+### 0.0.723
+
+-  Switching to brand new client bundler, this should slightly improve loading time, it is a huge change but there should not be any difference in the game experience.
+-  Fixed issue with enemy image not displaying correctly in stronghold
+-  Redesigned login page
+-  Work in progress for desktop version
+-  Multiple under the hood optimizations
+
 ### 0.0.72
 
 -  Added new minigame - Code deofuscation, it looks complicated but all you need to do is click the random letter looking bits
