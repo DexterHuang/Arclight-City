@@ -15,6 +15,11 @@
 -  Multiple under the hood optimizations
 -  Added support for wider screen size like tablets
 
+### 0.0.73
+
+-  With feedback from players, due to some player have been abusing alternate accounts to boost gang related activities, we have added detection and prevent alts from doing tasks, this should not affact you if you do not engage in similar activities, do not exchange account with other players, if you do you might get flagged as their alt. 
+-  Improved chat auto filter base on player feedback, racial slurs and hate speech will get filtered automatically (these filter rules were already in place previously since the begining, just adjusting the sensitivity base on player feedback)
+
 ### 0.0.72
 
 -  Added new minigame - Code deofuscation, it looks complicated but all you need to do is click the random letter looking bits
