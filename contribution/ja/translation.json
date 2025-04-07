@@ -7522,6 +7522,52 @@
 			"trans": "PayPalのウィンドウが閉じました。もし請求された場合は、注文ID: {orderId}を使ってサポートに連絡してください。"
 		}
 	},
+	"paypalCheckoutPage": {
+		"error": {
+			"productNotFound": {
+				"description": {
+					"eng": "The product you are looking for is not available.",
+					"trans": "ご覧になっている商品は現在入手できません。"
+				},
+				"goBackButton": {
+					"eng": "Go Back",
+					"trans": "戻る"
+				},
+				"title": {
+					"eng": "Product Not Found",
+					"trans": "商品が見つかりません"
+				}
+			}
+		},
+		"header": {
+			"description": {
+				"eng": "Please review your purchase before proceeding to payment.",
+				"trans": "お支払いに進む前に購入内容を確認してください。"
+			},
+			"title": {
+				"eng": "Review Order",
+				"trans": "注文を確認する"
+			}
+		},
+		"summary": {
+			"title": {
+				"eng": "Order Summary",
+				"trans": "注文サマリー"
+			},
+			"totalNetcoinsLabel": {
+				"eng": "Total NetCoins",
+				"trans": "トータルネットコイン"
+			},
+			"totalPriceLabel": {
+				"eng": "Total Price",
+				"trans": "総額"
+			},
+			"totalPriceValue": {
+				"eng": "${price} USD",
+				"trans": "${price}米ドル"
+			}
+		}
+	},
 	"permission": {
 		"clanEditMotto": {
 			"eng": "Edit Motto",
@@ -9582,7 +9628,7 @@
 			"trans": "有効なページ番号を入力してください"
 		},
 		"next": {
-			"eng": "Next →",
+			"eng": "Next",
 			"trans": "次へ"
 		},
 		"noStories": {
@@ -9614,7 +9660,7 @@
 			"trans": "アークライト・シティの物語 - サイバーパンクロア集"
 		},
 		"previous": {
-			"eng": "← Prev",
+			"eng": "Prev",
 			"trans": "戻る"
 		},
 		"subtitle": {

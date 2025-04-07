@@ -7522,6 +7522,52 @@
 			"trans": "Окно PayPal закрыто. Если с вас списали деньги, свяжитесь с поддержкой, указав ID заказа: {orderId}."
 		}
 	},
+	"paypalCheckoutPage": {
+		"error": {
+			"productNotFound": {
+				"description": {
+					"eng": "The product you are looking for is not available.",
+					"trans": "Товар, который вы ищете, отсутствует."
+				},
+				"goBackButton": {
+					"eng": "Go Back",
+					"trans": "Назад"
+				},
+				"title": {
+					"eng": "Product Not Found",
+					"trans": "Товар не найден"
+				}
+			}
+		},
+		"header": {
+			"description": {
+				"eng": "Please review your purchase before proceeding to payment.",
+				"trans": "Пожалуйста, проверьте свой заказ перед тем, как завершить оплату."
+			},
+			"title": {
+				"eng": "Review Order",
+				"trans": "Проверить заказ"
+			}
+		},
+		"summary": {
+			"title": {
+				"eng": "Order Summary",
+				"trans": "Обзор заказа"
+			},
+			"totalNetcoinsLabel": {
+				"eng": "Total NetCoins",
+				"trans": "Всего НетКоинов"
+			},
+			"totalPriceLabel": {
+				"eng": "Total Price",
+				"trans": "Итоговая цена"
+			},
+			"totalPriceValue": {
+				"eng": "${price} USD",
+				"trans": "${price} долларов США"
+			}
+		}
+	},
 	"permission": {
 		"clanEditMotto": {
 			"eng": "Edit Motto",
@@ -9582,8 +9628,8 @@
 			"trans": "Пожалуйста, введите корректный номер страницы"
 		},
 		"next": {
-			"eng": "Next →",
-			"trans": "Далее →"
+			"eng": "Next",
+			"trans": "Следующий"
 		},
 		"noStories": {
 			"eng": "No stories available",
@@ -9614,7 +9660,7 @@
 			"trans": "Арклайт Сити: Истории - Коллекция киберпанковского лора"
 		},
 		"previous": {
-			"eng": "← Prev",
+			"eng": "Prev",
 			"trans": "Назад"
 		},
 		"subtitle": {

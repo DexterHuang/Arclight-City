@@ -7489,7 +7489,8 @@
 			"trans": "Pembayaran dibatalkan."
 		},
 		"paymentError": {
-			"eng": "Payment failed. Please try again."
+			"eng": "Payment failed. Please try again.",
+			"trans": "Pembayaran gagal. Silakan coba lagi."
 		},
 		"paymentErrorWithOrder": {
 			"eng": "Payment failed. If you were charged, contact support with order ID: {orderId}",
@@ -7518,6 +7519,52 @@
 		"windowClosedWithOrder": {
 			"eng": "PayPal window closed. If you were charged, contact support with order ID: {orderId}",
 			"trans": "Jendela PayPal sudah ditutup. Jika Anda telah dikenakan biaya, silakan hubungi dukungan dengan ID pesanan: {orderId}."
+		}
+	},
+	"paypalCheckoutPage": {
+		"error": {
+			"productNotFound": {
+				"description": {
+					"eng": "The product you are looking for is not available.",
+					"trans": "Produk yang Anda cari tidak tersedia."
+				},
+				"goBackButton": {
+					"eng": "Go Back",
+					"trans": "Kembali"
+				},
+				"title": {
+					"eng": "Product Not Found",
+					"trans": "Produk Tidak Ditemukan"
+				}
+			}
+		},
+		"header": {
+			"description": {
+				"eng": "Please review your purchase before proceeding to payment.",
+				"trans": "Silakan tinjau pembelian Anda sebelum melanjutkan ke pembayaran."
+			},
+			"title": {
+				"eng": "Review Order",
+				"trans": "Tinjau Pesanan"
+			}
+		},
+		"summary": {
+			"title": {
+				"eng": "Order Summary",
+				"trans": "Ringkasan Pesanan"
+			},
+			"totalNetcoinsLabel": {
+				"eng": "Total NetCoins",
+				"trans": "Total Koin"
+			},
+			"totalPriceLabel": {
+				"eng": "Total Price",
+				"trans": "Harga Total"
+			},
+			"totalPriceValue": {
+				"eng": "${price} USD",
+				"trans": "${price} Dolar AS"
+			}
 		}
 	},
 	"permission": {
@@ -9580,7 +9627,7 @@
 			"trans": "Silakan masukkan nomor halaman yang valid."
 		},
 		"next": {
-			"eng": "Next →",
+			"eng": "Next",
 			"trans": "Berikutnya"
 		},
 		"noStories": {
@@ -9612,7 +9659,7 @@
 			"trans": "Kisah Kota Cahaya Arklit - Koleksi Lore Cyberpunk"
 		},
 		"previous": {
-			"eng": "← Prev",
+			"eng": "Prev",
 			"trans": "Sebelumnya"
 		},
 		"subtitle": {

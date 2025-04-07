@@ -7521,6 +7521,52 @@
 			"trans": "Das PayPal-Fenster ist geschlossen. Falls Ihnen Kosten entstanden sind, wenden Sie sich bitte mit der Bestell-ID: {orderId} an den Support."
 		}
 	},
+	"paypalCheckoutPage": {
+		"error": {
+			"productNotFound": {
+				"description": {
+					"eng": "The product you are looking for is not available.",
+					"trans": "Das gesuchte Produkt ist nicht verfügbar."
+				},
+				"goBackButton": {
+					"eng": "Go Back",
+					"trans": "Zurück"
+				},
+				"title": {
+					"eng": "Product Not Found",
+					"trans": "Produkt nicht gefunden"
+				}
+			}
+		},
+		"header": {
+			"description": {
+				"eng": "Please review your purchase before proceeding to payment.",
+				"trans": "Bitte überprüfen Sie Ihre Bestellung, bevor Sie mit der Zahlung fortfahren."
+			},
+			"title": {
+				"eng": "Review Order",
+				"trans": "Bestellung Prüfen"
+			}
+		},
+		"summary": {
+			"title": {
+				"eng": "Order Summary",
+				"trans": "Bestellübersicht"
+			},
+			"totalNetcoinsLabel": {
+				"eng": "Total NetCoins",
+				"trans": "Gesamte NetCoins"
+			},
+			"totalPriceLabel": {
+				"eng": "Total Price",
+				"trans": "Gesamtpreis"
+			},
+			"totalPriceValue": {
+				"eng": "${price} USD",
+				"trans": "${price} US-Dollar"
+			}
+		}
+	},
 	"permission": {
 		"clanEditMotto": {
 			"eng": "Edit Motto",
@@ -9581,7 +9627,7 @@
 			"trans": "Bitte geben Sie eine gültige Seitenzahl ein."
 		},
 		"next": {
-			"eng": "Next →",
+			"eng": "Next",
 			"trans": "Weiter"
 		},
 		"noStories": {
@@ -9613,8 +9659,8 @@
 			"trans": "Arclight City Erzählungen - Cyberpunk Lore Sammlung"
 		},
 		"previous": {
-			"eng": "← Prev",
-			"trans": "← Zurück"
+			"eng": "Prev",
+			"trans": "Zurück"
 		},
 		"subtitle": {
 			"eng": "Discover the lore of the cyberpunk world",

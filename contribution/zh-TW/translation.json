@@ -7522,6 +7522,52 @@
 			"trans": "PayPal窗口已關閉。如果您已被收費，請聯絡客服並提供訂單ID：{orderId}"
 		}
 	},
+	"paypalCheckoutPage": {
+		"error": {
+			"productNotFound": {
+				"description": {
+					"eng": "The product you are looking for is not available.",
+					"trans": "您要找的商品目前沒有庫存。"
+				},
+				"goBackButton": {
+					"eng": "Go Back",
+					"trans": "返回"
+				},
+				"title": {
+					"eng": "Product Not Found",
+					"trans": "找不到產品"
+				}
+			}
+		},
+		"header": {
+			"description": {
+				"eng": "Please review your purchase before proceeding to payment.",
+				"trans": "請在付款前檢查您的訂單。"
+			},
+			"title": {
+				"eng": "Review Order",
+				"trans": "檢查訂單"
+			}
+		},
+		"summary": {
+			"title": {
+				"eng": "Order Summary",
+				"trans": "訂單摘要"
+			},
+			"totalNetcoinsLabel": {
+				"eng": "Total NetCoins",
+				"trans": "總網幣"
+			},
+			"totalPriceLabel": {
+				"eng": "Total Price",
+				"trans": "總價"
+			},
+			"totalPriceValue": {
+				"eng": "${price} USD",
+				"trans": "${price} 美金"
+			}
+		}
+	},
 	"permission": {
 		"clanEditMotto": {
 			"eng": "Edit Motto",
@@ -9582,8 +9628,8 @@
 			"trans": "請輸入有效的頁碼"
 		},
 		"next": {
-			"eng": "Next →",
-			"trans": "下一步 →"
+			"eng": "Next",
+			"trans": "下一頁"
 		},
 		"noStories": {
 			"eng": "No stories available",
@@ -9614,7 +9660,7 @@
 			"trans": "幻光之城故事 - 賽博朋克傳說集"
 		},
 		"previous": {
-			"eng": "← Prev",
+			"eng": "Prev",
 			"trans": "上一頁"
 		},
 		"subtitle": {

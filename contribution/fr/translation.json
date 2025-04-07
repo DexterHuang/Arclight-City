@@ -7485,7 +7485,8 @@
 			"trans": "En complétant cet achat, vous acceptez nos Conditions de Service et notre Politique de Confidentialité. Tous les achats sont définitifs. Pour toute assistance, veuillez contacter ${email}."
 		},
 		"paymentCancelled": {
-			"eng": "Payment cancelled."
+			"eng": "Payment cancelled.",
+			"trans": "Paiement annulé."
 		},
 		"paymentError": {
 			"eng": "Payment failed. Please try again.",
@@ -7518,6 +7519,52 @@
 		"windowClosedWithOrder": {
 			"eng": "PayPal window closed. If you were charged, contact support with order ID: {orderId}",
 			"trans": "La fenêtre de PayPal est maintenant fermée. Si vous avez été débité, veuillez contacter le support avec l'ID de commande : {orderId}."
+		}
+	},
+	"paypalCheckoutPage": {
+		"error": {
+			"productNotFound": {
+				"description": {
+					"eng": "The product you are looking for is not available.",
+					"trans": "Le produit que vous cherchez n'est pas disponible."
+				},
+				"goBackButton": {
+					"eng": "Go Back",
+					"trans": "Retour"
+				},
+				"title": {
+					"eng": "Product Not Found",
+					"trans": "Article introuvable"
+				}
+			}
+		},
+		"header": {
+			"description": {
+				"eng": "Please review your purchase before proceeding to payment.",
+				"trans": "Merci de vérifier votre commande avant de passer au paiement."
+			},
+			"title": {
+				"eng": "Review Order",
+				"trans": "Revoir la commande"
+			}
+		},
+		"summary": {
+			"title": {
+				"eng": "Order Summary",
+				"trans": "Résumé de commande"
+			},
+			"totalNetcoinsLabel": {
+				"eng": "Total NetCoins",
+				"trans": "Total des NetCoins"
+			},
+			"totalPriceLabel": {
+				"eng": "Total Price",
+				"trans": "Prix total"
+			},
+			"totalPriceValue": {
+				"eng": "${price} USD",
+				"trans": "${price} dollars américains"
+			}
 		}
 	},
 	"permission": {
@@ -9580,7 +9627,7 @@
 			"trans": "Entrez un numéro de page valide, s'il vous plaît."
 		},
 		"next": {
-			"eng": "Next →",
+			"eng": "Next",
 			"trans": "Suivant"
 		},
 		"noStories": {
@@ -9612,7 +9659,7 @@
 			"trans": "Récits de la Cité Arclight - Collection de Lore Cyberpunk"
 		},
 		"previous": {
-			"eng": "← Prev",
+			"eng": "Prev",
 			"trans": "Précédent"
 		},
 		"subtitle": {

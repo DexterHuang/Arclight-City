@@ -7522,6 +7522,52 @@
 			"trans": "PayPal 창이 닫혔습니다. 요금이 청구되었다면, 주문 ID: {orderId}와 함께 지원팀에 문의하세요."
 		}
 	},
+	"paypalCheckoutPage": {
+		"error": {
+			"productNotFound": {
+				"description": {
+					"eng": "The product you are looking for is not available.",
+					"trans": "원하시는 제품은 현재 재고가 없습니다."
+				},
+				"goBackButton": {
+					"eng": "Go Back",
+					"trans": "돌아가기"
+				},
+				"title": {
+					"eng": "Product Not Found",
+					"trans": "상품을 찾을 수 없습니다."
+				}
+			}
+		},
+		"header": {
+			"description": {
+				"eng": "Please review your purchase before proceeding to payment.",
+				"trans": "결제하기 전에 구매를 다시 확인해 주세요."
+			},
+			"title": {
+				"eng": "Review Order",
+				"trans": "주문 검토"
+			}
+		},
+		"summary": {
+			"title": {
+				"eng": "Order Summary",
+				"trans": "주문 요약"
+			},
+			"totalNetcoinsLabel": {
+				"eng": "Total NetCoins",
+				"trans": "총 넷코인"
+			},
+			"totalPriceLabel": {
+				"eng": "Total Price",
+				"trans": "총 가격"
+			},
+			"totalPriceValue": {
+				"eng": "${price} USD",
+				"trans": "${price} 미국 달러"
+			}
+		}
+	},
 	"permission": {
 		"clanEditMotto": {
 			"eng": "Edit Motto",
@@ -9582,8 +9628,8 @@
 			"trans": "올바른 페이지 번호를 입력해 주세요."
 		},
 		"next": {
-			"eng": "Next →",
-			"trans": "다음 →"
+			"eng": "Next",
+			"trans": "다음"
 		},
 		"noStories": {
 			"eng": "No stories available",
@@ -9614,7 +9660,7 @@
 			"trans": "아크라이트 시티 이야기 - 사이버펑크 로어 모음집"
 		},
 		"previous": {
-			"eng": "← Prev",
+			"eng": "Prev",
 			"trans": "이전"
 		},
 		"subtitle": {
