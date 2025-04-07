@@ -7,6 +7,12 @@
 **If you find an exploit please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
 
+### 0.0.75
+
+-  Desktop/Web version is now available, you can access the game with web browser on https://arclightcity.net
+
+**This mode is still in beta and may be unstable, please report any bug/issue you find to ching.huang.dexter@gmail.com**
+
 ### 0.0.74
 
 -  With feedback from players, due to some player have been abusing alternate accounts to boost gang related activities, we have added detection and prevent alts from doing tasks, this should not affact you if you do not engage in similar activities, do not exchange account with other players, if you do you might get flagged as their alt.
