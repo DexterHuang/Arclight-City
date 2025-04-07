@@ -1414,6 +1414,28 @@
 		}
 	},
 	"chat": {
+		"channel": {
+			"clan": {
+				"eng": "Clan",
+				"trans": "Klan"
+			},
+			"global": {
+				"eng": "Global",
+				"trans": "Global"
+			},
+			"local": {
+				"eng": "Local",
+				"trans": "Lokal"
+			},
+			"private": {
+				"eng": "Private",
+				"trans": "Pribadi"
+			},
+			"system": {
+				"eng": "System",
+				"trans": "Sistem"
+			}
+		},
 		"error": {
 			"link": {
 				"eng": "Links are not allowed in messages",
@@ -2323,6 +2345,37 @@
 			"trans": "Hapus Karakter"
 		}
 	},
+	"desktopLayout": {
+		"rightSidebar": {
+			"clanChatDescription": {
+				"eng": "Gang chat is only available when you are in a gang.",
+				"trans": "Chat geng hanya bisa diakses saat kamu berada di dalam geng."
+			},
+			"notAvailable": {
+				"eng": "Not Available"
+			}
+		}
+	},
+	"desktopRightSidebar": {
+		"channel": {
+			"chirp": {
+				"eng": "Chirp",
+				"trans": "Chirp"
+			},
+			"clan": {
+				"eng": "Gang Chat",
+				"trans": "Chat Geng"
+			},
+			"global": {
+				"eng": "Global",
+				"trans": "Global"
+			},
+			"mail": {
+				"eng": "Mail",
+				"trans": "Pesan"
+			}
+		}
+	},
 	"dismantle": {
 		"error": {
 			"notIdle": {
@@ -2451,6 +2504,10 @@
 		"close": {
 			"eng": "Close",
 			"trans": "Tutup"
+		},
+		"resultTitle": {
+			"eng": "Result",
+			"trans": "Hasil"
 		}
 	},
 	"dungeonEffect": {
@@ -5442,6 +5499,14 @@
 			"eng": "Login with Email",
 			"trans": "Masuk dengan Email"
 		},
+		"pageDescription": {
+			"eng": "Explore the dark streets of Arclight City, a cyberpunk text-based MMORPG. Dive into a world of corporate intrigue, mercenaries, and cybernetic enhancements.",
+			"trans": "Jelajahi jalan-jalan gelap di Kota Cahaya Arklit, sebuah MMORPG berbasis teks bertema cyberpunk. Masuki dunia intrik korporat, tentara bayaran, dan peningkatan sibernetik."
+		},
+		"pageTitle": {
+			"eng": "Arclight City - Cyberpunk Text-Based MMORPG",
+			"trans": "Arklit City - MMORPG Teks Cyberpunk"
+		},
 		"resetEmailSent": {
 			"eng": "Reset email sent. Check your email.",
 			"trans": "Email reset telah dikirim. Cek email kamu."
@@ -6739,6 +6804,12 @@
 			}
 		}
 	},
+	"noLoginSidebar": {
+		"accessNeeded": {
+			"eng": "LOGIN REQUIRED TO ACCESS NETWORK",
+			"trans": "LOGIN WAJIB UNTUK MENGAKSES JARINGAN"
+		}
+	},
 	"notification": {
 		"apartmentInvite": {
 			"alreadyInvitedError": {
@@ -7404,6 +7475,51 @@
 			"trans": "Jual"
 		}
 	},
+	"paypal": {
+		"checkoutComplete": {
+			"eng": "Checkout complete",
+			"trans": "Checkout berhasil"
+		},
+		"disclaimer": {
+			"eng": "By completing this purchase, you agree to our Terms of Service and Privacy Policy. All purchases are final. For support, please contact ${email}.",
+			"trans": "Dengan menyelesaikan pembelian ini, Anda setuju dengan Syarat Layanan dan Kebijakan Privasi kami. Semua pembelian bersifat final. Untuk dukungan, silakan hubungi ${email}."
+		},
+		"paymentCancelled": {
+			"eng": "Payment cancelled.",
+			"trans": "Pembayaran dibatalkan."
+		},
+		"paymentError": {
+			"eng": "Payment failed. Please try again."
+		},
+		"paymentErrorWithOrder": {
+			"eng": "Payment failed. If you were charged, contact support with order ID: {orderId}",
+			"trans": "Pembayaran tidak berhasil. Jika Anda sudah dibebankan, silakan hubungi layanan pelanggan dengan ID pesanan: {orderId}."
+		},
+		"paymentProcessingError": {
+			"eng": "Error processing payment. Please contact support.",
+			"trans": "Terjadi kesalahan saat memproses pembayaran. Harap hubungi layanan pelanggan."
+		},
+		"paymentSuccess": {
+			"eng": "Payment successful! Your account has been credited.",
+			"trans": "Pembayaran sukses! Saldo akun Anda telah ditambahkan."
+		},
+		"processing": {
+			"eng": "Processing your payment...",
+			"trans": "Sedang memproses pembayaran Anda..."
+		},
+		"securePayment": {
+			"eng": "Secure Payment",
+			"trans": "Pembayaran Aman"
+		},
+		"securityNotice": {
+			"eng": "SECURE TRANSACTION VIA PAYPAL",
+			"trans": "TRANSAKSI AMAN MELALUI PAYPAL"
+		},
+		"windowClosedWithOrder": {
+			"eng": "PayPal window closed. If you were charged, contact support with order ID: {orderId}",
+			"trans": "Jendela PayPal sudah ditutup. Jika Anda telah dikenakan biaya, silakan hubungi dukungan dengan ID pesanan: {orderId}."
+		}
+	},
 	"permission": {
 		"clanEditMotto": {
 			"eng": "Edit Motto",
@@ -7820,6 +7936,10 @@
 		"topUpTabTitle": {
 			"eng": "Top Up",
 			"trans": "Isi Ulang"
+		},
+		"webPlatformNote": {
+			"eng": "On web platform, you can purchase NetCoins using PayPal. Click on a package to see payment options.",
+			"trans": "Di platform web, Anda bisa membeli NetCoins dengan PayPal. Klik pada paket untuk melihat pilihan pembayaran."
 		}
 	},
 	"premiumShopTopUpTab": {
@@ -9454,6 +9574,73 @@
 			"trans": "Harta Rampasan"
 		}
 	},
+	"storyListPage": {
+		"invalidPage": {
+			"eng": "Please enter a valid page number",
+			"trans": "Silakan masukkan nomor halaman yang valid."
+		},
+		"next": {
+			"eng": "Next →",
+			"trans": "Berikutnya"
+		},
+		"noStories": {
+			"eng": "No stories available",
+			"trans": "Tidak ada cerita yang tersedia"
+		},
+		"pageDescription": {
+			"eng": "Discover the rich lore of Arclight City. Browse our collection of cyberpunk stories set in a dystopian future of corporate control and technological revolution.",
+			"trans": "Temukan kisah kaya dari Kota Arklit. Jelajahi koleksi cerita cyberpunk kami yang berlatar di masa depan distopia dengan kontrol korporat dan revolusi teknologi."
+		},
+		"pageIndicator": {
+			"eng": "${current} / ${total}",
+			"trans": "${current} / ${total}"
+		},
+		"pageInputAriaLabel": {
+			"eng": "Enter page number",
+			"trans": "Masukkan nomor halaman"
+		},
+		"pageInputPlaceholder": {
+			"eng": "Page #",
+			"trans": "Halaman #"
+		},
+		"pageOutOfRange": {
+			"eng": "Page number exceeds total pages",
+			"trans": "Nomor halaman melebihi jumlah halaman"
+		},
+		"pageTitle": {
+			"eng": "Arclight City Stories - Cyberpunk Lore Collection",
+			"trans": "Kisah Kota Cahaya Arklit - Koleksi Lore Cyberpunk"
+		},
+		"previous": {
+			"eng": "← Prev",
+			"trans": "Sebelumnya"
+		},
+		"subtitle": {
+			"eng": "Discover the lore of the cyberpunk world",
+			"trans": "Jelajahi lore dunia cyberpunk"
+		},
+		"tapToRead": {
+			"eng": "Tap to read this story",
+			"trans": "Ketuk untuk membaca cerita ini"
+		},
+		"title": {
+			"eng": "Game Stories",
+			"trans": "Kisah Permainan"
+		}
+	},
+	"storyPage": {
+		"pageDescription": {
+			"eng": "Read the cyberpunk story ${storyTitle} from the Arclight City cyberpunk universe."
+		},
+		"pageTitle": {
+			"eng": "Arclight Cyberpunk Story - ${storyTitle}",
+			"trans": "Arclight Cerita Cyberpunk - ${storyTitle}"
+		},
+		"returnToStories": {
+			"eng": "Return to all stories",
+			"trans": "Kembali ke semua cerita"
+		}
+	},
 	"stringHelper": {
 		"nameError": {
 			"englishOnly": {
@@ -9490,6 +9677,10 @@
 	},
 	"task": {
 		"error": {
+			"altError": {
+				"eng": "Alternate accounts are not allowed to contribute to gang tasks",
+				"trans": "Akun alternatif tidak diizinkan untuk berkontribusi pada tugas geng."
+			},
 			"gangRequired": {
 				"eng": "You are currently not in any gang",
 				"trans": "Kamu saat ini tidak dalam geng mana pun"
@@ -10132,6 +10323,10 @@
 				"eng": "You need to be level ${level} to use auto combat",
 				"trans": "Kamu harus mencapai level ${level} untuk menggunakan pertarungan otomatis"
 			},
+			"criticalHealth": {
+				"eng": "Critical Health Warning",
+				"trans": "Peringatan Kesehatan Kritis"
+			},
 			"escape": {
 				"eng": "escape",
 				"trans": "Melarikan diri"
@@ -10277,6 +10472,16 @@
 			"logoutButton": {
 				"eng": "logout",
 				"trans": "Keluar"
+			},
+			"logoutModal": {
+				"description": {
+					"eng": "Are you sure you want to logout?\\nLogging out will automatically cancel all your unfinished background tasks, resources used to start the tasks will be lost",
+					"trans": "Apakah Anda yakin ingin keluar?\\nKeluar dari sistem akan secara otomatis membatalkan semua tugas latar belakang yang belum selesai, dan sumber daya yang digunakan untuk memulai tugas tersebut akan hilang."
+				},
+				"title": {
+					"eng": "Cancel all background tasks?",
+					"trans": "Batal semua tugas latar belakang?"
+				}
 			},
 			"loreNotes": {
 				"eng": "lore notes",
@@ -10541,6 +10746,12 @@
 		"webNotAvailable": {
 			"eng": "Web version is not available yet.",
 			"trans": "Versi web belum tersedia."
+		}
+	},
+	"webNavBar": {
+		"viewStories": {
+			"eng": "Stories",
+			"trans": "Cerita"
 		}
 	},
 	"wikiPage": {

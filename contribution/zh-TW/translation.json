@@ -1414,6 +1414,28 @@
 		}
 	},
 	"chat": {
+		"channel": {
+			"clan": {
+				"eng": "Clan",
+				"trans": "部落"
+			},
+			"global": {
+				"eng": "Global",
+				"trans": "全球"
+			},
+			"local": {
+				"eng": "Local",
+				"trans": "本地"
+			},
+			"private": {
+				"eng": "Private",
+				"trans": "私密"
+			},
+			"system": {
+				"eng": "System",
+				"trans": "系統"
+			}
+		},
 		"error": {
 			"link": {
 				"eng": "Links are not allowed in messages",
@@ -2323,6 +2345,38 @@
 			"trans": "刪除角色"
 		}
 	},
+	"desktopLayout": {
+		"rightSidebar": {
+			"clanChatDescription": {
+				"eng": "Gang chat is only available when you are in a gang.",
+				"trans": "幫派聊天只有在您是幫派成員時才可用。"
+			},
+			"notAvailable": {
+				"eng": "Not Available",
+				"trans": "不可用"
+			}
+		}
+	},
+	"desktopRightSidebar": {
+		"channel": {
+			"chirp": {
+				"eng": "Chirp",
+				"trans": "Chirp"
+			},
+			"clan": {
+				"eng": "Gang Chat",
+				"trans": "幫派聊天"
+			},
+			"global": {
+				"eng": "Global",
+				"trans": "全球"
+			},
+			"mail": {
+				"eng": "Mail",
+				"trans": "郵件"
+			}
+		}
+	},
 	"dismantle": {
 		"error": {
 			"notIdle": {
@@ -2451,6 +2505,10 @@
 		"close": {
 			"eng": "Close",
 			"trans": "關閉"
+		},
+		"resultTitle": {
+			"eng": "Result",
+			"trans": "結果"
 		}
 	},
 	"dungeonEffect": {
@@ -5442,6 +5500,14 @@
 			"eng": "Login with Email",
 			"trans": "使用電子郵件登入"
 		},
+		"pageDescription": {
+			"eng": "Explore the dark streets of Arclight City, a cyberpunk text-based MMORPG. Dive into a world of corporate intrigue, mercenaries, and cybernetic enhancements.",
+			"trans": "探索幻光之城的黑暗街道，這是一款以文字為基礎的電驅朋克MMORPG。潛入一個充滿企業陰謀、雇傭兵和電驅增強的世界。"
+		},
+		"pageTitle": {
+			"eng": "Arclight City - Cyberpunk Text-Based MMORPG",
+			"trans": "幻光之城 - 賽博朋克文字型MMORPG"
+		},
 		"resetEmailSent": {
 			"eng": "Reset email sent. Check your email.",
 			"trans": "重設郵件已發送。請檢查您的電子郵件。"
@@ -6739,6 +6805,12 @@
 			}
 		}
 	},
+	"noLoginSidebar": {
+		"accessNeeded": {
+			"eng": "LOGIN REQUIRED TO ACCESS NETWORK",
+			"trans": "登入以訪問網絡"
+		}
+	},
 	"notification": {
 		"apartmentInvite": {
 			"alreadyInvitedError": {
@@ -7404,6 +7476,52 @@
 			"trans": "出售"
 		}
 	},
+	"paypal": {
+		"checkoutComplete": {
+			"eng": "Checkout complete",
+			"trans": "結帳已完成"
+		},
+		"disclaimer": {
+			"eng": "By completing this purchase, you agree to our Terms of Service and Privacy Policy. All purchases are final. For support, please contact ${email}.",
+			"trans": "完成此購買即表示您同意我們的服務條款及隱私政策。所有購買均為最終交易。如需支援，請聯絡${email}。"
+		},
+		"paymentCancelled": {
+			"eng": "Payment cancelled.",
+			"trans": "付款已取消。"
+		},
+		"paymentError": {
+			"eng": "Payment failed. Please try again.",
+			"trans": "付款失敗，請再試一次。"
+		},
+		"paymentErrorWithOrder": {
+			"eng": "Payment failed. If you were charged, contact support with order ID: {orderId}",
+			"trans": "付款未成功。如果您已經被扣款，請聯絡客服並提供訂單ID：{orderId}"
+		},
+		"paymentProcessingError": {
+			"eng": "Error processing payment. Please contact support.",
+			"trans": "付款處理出現問題。請聯繫客服。"
+		},
+		"paymentSuccess": {
+			"eng": "Payment successful! Your account has been credited.",
+			"trans": "付款成功！您的帳戶已經入帳。"
+		},
+		"processing": {
+			"eng": "Processing your payment...",
+			"trans": "付款處理中..."
+		},
+		"securePayment": {
+			"eng": "Secure Payment",
+			"trans": "安全支付"
+		},
+		"securityNotice": {
+			"eng": "SECURE TRANSACTION VIA PAYPAL",
+			"trans": "使用PayPal進行安全交易"
+		},
+		"windowClosedWithOrder": {
+			"eng": "PayPal window closed. If you were charged, contact support with order ID: {orderId}",
+			"trans": "PayPal窗口已關閉。如果您已被收費，請聯絡客服並提供訂單ID：{orderId}"
+		}
+	},
 	"permission": {
 		"clanEditMotto": {
 			"eng": "Edit Motto",
@@ -7820,6 +7938,10 @@
 		"topUpTabTitle": {
 			"eng": "Top Up",
 			"trans": "儲值"
+		},
+		"webPlatformNote": {
+			"eng": "On web platform, you can purchase NetCoins using PayPal. Click on a package to see payment options.",
+			"trans": "在網頁平台上，您可以透過PayPal購買網幣。點擊一個套餐以查看付款方式。"
 		}
 	},
 	"premiumShopTopUpTab": {
@@ -9454,6 +9576,74 @@
 			"trans": "戰利品"
 		}
 	},
+	"storyListPage": {
+		"invalidPage": {
+			"eng": "Please enter a valid page number",
+			"trans": "請輸入有效的頁碼"
+		},
+		"next": {
+			"eng": "Next →",
+			"trans": "下一步 →"
+		},
+		"noStories": {
+			"eng": "No stories available",
+			"trans": "目前沒有故事可用"
+		},
+		"pageDescription": {
+			"eng": "Discover the rich lore of Arclight City. Browse our collection of cyberpunk stories set in a dystopian future of corporate control and technological revolution.",
+			"trans": "探索幻光之城的豐富背景故事。瀏覽我們的收藏，這些故事設定在一個充滿企業控制和科技革命的反烏托邦未來。"
+		},
+		"pageIndicator": {
+			"eng": "${current} / ${total}",
+			"trans": "${current} / ${total}"
+		},
+		"pageInputAriaLabel": {
+			"eng": "Enter page number",
+			"trans": "輸入頁碼"
+		},
+		"pageInputPlaceholder": {
+			"eng": "Page #",
+			"trans": "第 # 頁"
+		},
+		"pageOutOfRange": {
+			"eng": "Page number exceeds total pages",
+			"trans": "頁碼已超出總頁數"
+		},
+		"pageTitle": {
+			"eng": "Arclight City Stories - Cyberpunk Lore Collection",
+			"trans": "幻光之城故事 - 賽博朋克傳說集"
+		},
+		"previous": {
+			"eng": "← Prev",
+			"trans": "上一頁"
+		},
+		"subtitle": {
+			"eng": "Discover the lore of the cyberpunk world",
+			"trans": "探索賽博朋克世界的背景故事"
+		},
+		"tapToRead": {
+			"eng": "Tap to read this story",
+			"trans": "輕觸以閱讀這個故事"
+		},
+		"title": {
+			"eng": "Game Stories",
+			"trans": "遊戲故事"
+		}
+	},
+	"storyPage": {
+		"pageDescription": {
+			"eng": "Read the cyberpunk story ${storyTitle} from the Arclight City cyberpunk universe.",
+			"trans": "請閱讀${storyTitle}，這是來自幻光之城的賽博朋克故事。"
+		},
+		"pageTitle": {
+			"eng": "Arclight Cyberpunk Story - ${storyTitle}",
+			"trans": "幻光賽博朋克故事 - ${storyTitle}"
+		},
+		"returnToStories": {
+			"eng": "Return to all stories",
+			"trans": "回到所有故事"
+		}
+	},
 	"stringHelper": {
 		"nameError": {
 			"englishOnly": {
@@ -9490,6 +9680,10 @@
 	},
 	"task": {
 		"error": {
+			"altError": {
+				"eng": "Alternate accounts are not allowed to contribute to gang tasks",
+				"trans": "另類帳號不得參加幫派任務"
+			},
 			"gangRequired": {
 				"eng": "You are currently not in any gang",
 				"trans": "您目前沒有加入任何幫派。"
@@ -10132,6 +10326,10 @@
 				"eng": "You need to be level ${level} to use auto combat",
 				"trans": "自動戰鬥需要等級 ${level}"
 			},
+			"criticalHealth": {
+				"eng": "Critical Health Warning",
+				"trans": "生命危急警告"
+			},
 			"escape": {
 				"eng": "escape",
 				"trans": "逃脫"
@@ -10277,6 +10475,16 @@
 			"logoutButton": {
 				"eng": "logout",
 				"trans": "登出"
+			},
+			"logoutModal": {
+				"description": {
+					"eng": "Are you sure you want to logout?\\nLogging out will automatically cancel all your unfinished background tasks, resources used to start the tasks will be lost",
+					"trans": "您確定要登出嗎？\\n登出將自動取消您所有未完成的背景任務，啟動這些任務所使用的資源將會損失。"
+				},
+				"title": {
+					"eng": "Cancel all background tasks?",
+					"trans": "要取消所有背景任務嗎？"
+				}
 			},
 			"loreNotes": {
 				"eng": "lore notes",
@@ -10541,6 +10749,12 @@
 		"webNotAvailable": {
 			"eng": "Web version is not available yet.",
 			"trans": "網頁版尚未推出。"
+		}
+	},
+	"webNavBar": {
+		"viewStories": {
+			"eng": "Stories",
+			"trans": "故事"
 		}
 	},
 	"wikiPage": {

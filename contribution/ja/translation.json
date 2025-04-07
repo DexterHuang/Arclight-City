@@ -1414,6 +1414,28 @@
 		}
 	},
 	"chat": {
+		"channel": {
+			"clan": {
+				"eng": "Clan",
+				"trans": "クラン"
+			},
+			"global": {
+				"eng": "Global",
+				"trans": "グローバル"
+			},
+			"local": {
+				"eng": "Local",
+				"trans": "ローカル"
+			},
+			"private": {
+				"eng": "Private",
+				"trans": "プライベート"
+			},
+			"system": {
+				"eng": "System",
+				"trans": "システム"
+			}
+		},
 		"error": {
 			"link": {
 				"eng": "Links are not allowed in messages",
@@ -2323,6 +2345,38 @@
 			"trans": "キャラクターを削除します"
 		}
 	},
+	"desktopLayout": {
+		"rightSidebar": {
+			"clanChatDescription": {
+				"eng": "Gang chat is only available when you are in a gang.",
+				"trans": "ギャングチャットは、ギャングに入っているときだけ使えます。"
+			},
+			"notAvailable": {
+				"eng": "Not Available",
+				"trans": "利用不可"
+			}
+		}
+	},
+	"desktopRightSidebar": {
+		"channel": {
+			"chirp": {
+				"eng": "Chirp",
+				"trans": "ピッ"
+			},
+			"clan": {
+				"eng": "Gang Chat",
+				"trans": "ギャングチャット"
+			},
+			"global": {
+				"eng": "Global",
+				"trans": "グローバル"
+			},
+			"mail": {
+				"eng": "Mail",
+				"trans": "メール"
+			}
+		}
+	},
 	"dismantle": {
 		"error": {
 			"notIdle": {
@@ -2451,6 +2505,10 @@
 		"close": {
 			"eng": "Close",
 			"trans": "閉じる"
+		},
+		"resultTitle": {
+			"eng": "Result",
+			"trans": "結果"
 		}
 	},
 	"dungeonEffect": {
@@ -5442,6 +5500,14 @@
 			"eng": "Login with Email",
 			"trans": "メールでログインする"
 		},
+		"pageDescription": {
+			"eng": "Explore the dark streets of Arclight City, a cyberpunk text-based MMORPG. Dive into a world of corporate intrigue, mercenaries, and cybernetic enhancements.",
+			"trans": "アークライト・シティの暗い通りを探索しよう。サイバーパンクのテキストベースMMORPGで、企業の陰謀、傭兵、サイバネティックな強化の世界に飛び込もう。"
+		},
+		"pageTitle": {
+			"eng": "Arclight City - Cyberpunk Text-Based MMORPG",
+			"trans": "アークライト・シティ - サイバーパンクのテキストベースMMORPG"
+		},
 		"resetEmailSent": {
 			"eng": "Reset email sent. Check your email.",
 			"trans": "リセットメールを送信しました。メールを確認してください。"
@@ -6739,6 +6805,12 @@
 			}
 		}
 	},
+	"noLoginSidebar": {
+		"accessNeeded": {
+			"eng": "LOGIN REQUIRED TO ACCESS NETWORK",
+			"trans": "ネットワークにアクセスするにはログインが必要です"
+		}
+	},
 	"notification": {
 		"apartmentInvite": {
 			"alreadyInvitedError": {
@@ -7404,6 +7476,52 @@
 			"trans": "売る"
 		}
 	},
+	"paypal": {
+		"checkoutComplete": {
+			"eng": "Checkout complete",
+			"trans": "チェックアウト完了"
+		},
+		"disclaimer": {
+			"eng": "By completing this purchase, you agree to our Terms of Service and Privacy Policy. All purchases are final. For support, please contact ${email}.",
+			"trans": "この購入を完了することで、利用規約およびプライバシーポリシーに同意したことになります。すべての購入は最終的なものです。サポートが必要な場合は、${email}までご連絡ください。"
+		},
+		"paymentCancelled": {
+			"eng": "Payment cancelled.",
+			"trans": "支払いがキャンセルされました。"
+		},
+		"paymentError": {
+			"eng": "Payment failed. Please try again.",
+			"trans": "支払いができませんでした。再度お試しください。"
+		},
+		"paymentErrorWithOrder": {
+			"eng": "Payment failed. If you were charged, contact support with order ID: {orderId}",
+			"trans": "支払いが失敗しました。もし請求された場合は、注文ID: {orderId}を添えてサポートに連絡してください。"
+		},
+		"paymentProcessingError": {
+			"eng": "Error processing payment. Please contact support.",
+			"trans": "支払い処理にエラーが発生しました。サポートにご連絡ください。"
+		},
+		"paymentSuccess": {
+			"eng": "Payment successful! Your account has been credited.",
+			"trans": "支払いが成功しました！アカウントにチャージされました。"
+		},
+		"processing": {
+			"eng": "Processing your payment...",
+			"trans": "お支払いを処理しています..."
+		},
+		"securePayment": {
+			"eng": "Secure Payment",
+			"trans": "安全な決済"
+		},
+		"securityNotice": {
+			"eng": "SECURE TRANSACTION VIA PAYPAL",
+			"trans": "PayPal経由の安全な取引"
+		},
+		"windowClosedWithOrder": {
+			"eng": "PayPal window closed. If you were charged, contact support with order ID: {orderId}",
+			"trans": "PayPalのウィンドウが閉じました。もし請求された場合は、注文ID: {orderId}を使ってサポートに連絡してください。"
+		}
+	},
 	"permission": {
 		"clanEditMotto": {
 			"eng": "Edit Motto",
@@ -7820,6 +7938,10 @@
 		"topUpTabTitle": {
 			"eng": "Top Up",
 			"trans": "チャージする"
+		},
+		"webPlatformNote": {
+			"eng": "On web platform, you can purchase NetCoins using PayPal. Click on a package to see payment options.",
+			"trans": "ウェブサイト上で、PayPalを使ってネットコインを購入できます。パッケージをクリックして支払い方法を見てください。"
 		}
 	},
 	"premiumShopTopUpTab": {
@@ -9454,6 +9576,74 @@
 			"trans": "戦利品"
 		}
 	},
+	"storyListPage": {
+		"invalidPage": {
+			"eng": "Please enter a valid page number",
+			"trans": "有効なページ番号を入力してください"
+		},
+		"next": {
+			"eng": "Next →",
+			"trans": "次へ"
+		},
+		"noStories": {
+			"eng": "No stories available",
+			"trans": "ストーリーはありません"
+		},
+		"pageDescription": {
+			"eng": "Discover the rich lore of Arclight City. Browse our collection of cyberpunk stories set in a dystopian future of corporate control and technological revolution.",
+			"trans": "アークライト・シティの豊かなロアを発見しよう。企業支配と技術革命が支配するディストピアの未来を舞台にしたサイバーパンクストーリーのコレクションをブラウズしよう。"
+		},
+		"pageIndicator": {
+			"eng": "${current} / ${total}",
+			"trans": "${current} / ${total}"
+		},
+		"pageInputAriaLabel": {
+			"eng": "Enter page number",
+			"trans": "ページ番号を入力してください"
+		},
+		"pageInputPlaceholder": {
+			"eng": "Page #",
+			"trans": "ページ #"
+		},
+		"pageOutOfRange": {
+			"eng": "Page number exceeds total pages",
+			"trans": "ページ数が総ページ数を超えています"
+		},
+		"pageTitle": {
+			"eng": "Arclight City Stories - Cyberpunk Lore Collection",
+			"trans": "アークライト・シティの物語 - サイバーパンクロア集"
+		},
+		"previous": {
+			"eng": "← Prev",
+			"trans": "戻る"
+		},
+		"subtitle": {
+			"eng": "Discover the lore of the cyberpunk world",
+			"trans": "サイバーパンクの世界の物語を探求する"
+		},
+		"tapToRead": {
+			"eng": "Tap to read this story",
+			"trans": "このストーリーを読むにはタップしてください"
+		},
+		"title": {
+			"eng": "Game Stories",
+			"trans": "ゲームの物語"
+		}
+	},
+	"storyPage": {
+		"pageDescription": {
+			"eng": "Read the cyberpunk story ${storyTitle} from the Arclight City cyberpunk universe.",
+			"trans": "アークライト・シティのサイバーパンクユニバースからの物語${storyTitle}を読んでください。"
+		},
+		"pageTitle": {
+			"eng": "Arclight Cyberpunk Story - ${storyTitle}",
+			"trans": "アークライトのサイバーパンク物語 - ${storyTitle}"
+		},
+		"returnToStories": {
+			"eng": "Return to all stories",
+			"trans": "すべてのストーリーに戻る"
+		}
+	},
 	"stringHelper": {
 		"nameError": {
 			"englishOnly": {
@@ -9490,6 +9680,10 @@
 	},
 	"task": {
 		"error": {
+			"altError": {
+				"eng": "Alternate accounts are not allowed to contribute to gang tasks",
+				"trans": "別のアカウントはギャングのタスクに参加することができません。"
+			},
 			"gangRequired": {
 				"eng": "You are currently not in any gang",
 				"trans": "現在、どのギャングにも所属していません。"
@@ -10132,6 +10326,10 @@
 				"eng": "You need to be level ${level} to use auto combat",
 				"trans": "自動戦闘をするにはレベル${level}が必要です"
 			},
+			"criticalHealth": {
+				"eng": "Critical Health Warning",
+				"trans": "重要な健康警告"
+			},
 			"escape": {
 				"eng": "escape",
 				"trans": "脱出する"
@@ -10277,6 +10475,16 @@
 			"logoutButton": {
 				"eng": "logout",
 				"trans": "ログアウト"
+			},
+			"logoutModal": {
+				"description": {
+					"eng": "Are you sure you want to logout?\\nLogging out will automatically cancel all your unfinished background tasks, resources used to start the tasks will be lost",
+					"trans": "ログアウトしてもよろしいですか？\\nログアウトすると、未完了のバックグラウンドタスクがすべて自動的にキャンセルされ、タスクを開始するために使用したリソースは失われます。"
+				},
+				"title": {
+					"eng": "Cancel all background tasks?",
+					"trans": "バックグラウンドタスクをすべてキャンセルしますか？"
+				}
 			},
 			"loreNotes": {
 				"eng": "lore notes",
@@ -10541,6 +10749,12 @@
 		"webNotAvailable": {
 			"eng": "Web version is not available yet.",
 			"trans": "ウェブ版はまだ利用できません。"
+		}
+	},
+	"webNavBar": {
+		"viewStories": {
+			"eng": "Stories",
+			"trans": "ストーリー"
 		}
 	},
 	"wikiPage": {

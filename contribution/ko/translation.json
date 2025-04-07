@@ -1414,6 +1414,28 @@
 		}
 	},
 	"chat": {
+		"channel": {
+			"clan": {
+				"eng": "Clan",
+				"trans": "클랜"
+			},
+			"global": {
+				"eng": "Global",
+				"trans": "글로벌"
+			},
+			"local": {
+				"eng": "Local",
+				"trans": "로컬"
+			},
+			"private": {
+				"eng": "Private",
+				"trans": "사적인"
+			},
+			"system": {
+				"eng": "System",
+				"trans": "시스템"
+			}
+		},
 		"error": {
 			"link": {
 				"eng": "Links are not allowed in messages",
@@ -2323,6 +2345,38 @@
 			"trans": "캐릭터 삭제"
 		}
 	},
+	"desktopLayout": {
+		"rightSidebar": {
+			"clanChatDescription": {
+				"eng": "Gang chat is only available when you are in a gang.",
+				"trans": "갱에 있을 때만 갱 채팅을 사용할 수 있습니다."
+			},
+			"notAvailable": {
+				"eng": "Not Available",
+				"trans": "이용 불가"
+			}
+		}
+	},
+	"desktopRightSidebar": {
+		"channel": {
+			"chirp": {
+				"eng": "Chirp",
+				"trans": "Chirp"
+			},
+			"clan": {
+				"eng": "Gang Chat",
+				"trans": "갱톡"
+			},
+			"global": {
+				"eng": "Global",
+				"trans": "글로벌"
+			},
+			"mail": {
+				"eng": "Mail",
+				"trans": "메일"
+			}
+		}
+	},
 	"dismantle": {
 		"error": {
 			"notIdle": {
@@ -2451,6 +2505,10 @@
 		"close": {
 			"eng": "Close",
 			"trans": "닫기"
+		},
+		"resultTitle": {
+			"eng": "Result",
+			"trans": "결과"
 		}
 	},
 	"dungeonEffect": {
@@ -5442,6 +5500,14 @@
 			"eng": "Login with Email",
 			"trans": "이메일로 로그인하기"
 		},
+		"pageDescription": {
+			"eng": "Explore the dark streets of Arclight City, a cyberpunk text-based MMORPG. Dive into a world of corporate intrigue, mercenaries, and cybernetic enhancements.",
+			"trans": "아크라이트 시티의 어두운 거리를 탐험하세요. 사이버펑크 텍스트 기반 MMORPG에 빠져들어 기업의 음모, 용병, 그리고 사이버네틱 강화의 세계로 들어가세요."
+		},
+		"pageTitle": {
+			"eng": "Arclight City - Cyberpunk Text-Based MMORPG",
+			"trans": "아크라이트 시티 - 사이버펑크 텍스트 기반 MMORPG"
+		},
 		"resetEmailSent": {
 			"eng": "Reset email sent. Check your email.",
 			"trans": "이메일 재설정이 전송되었습니다. 이메일을 확인하세요."
@@ -6739,6 +6805,12 @@
 			}
 		}
 	},
+	"noLoginSidebar": {
+		"accessNeeded": {
+			"eng": "LOGIN REQUIRED TO ACCESS NETWORK",
+			"trans": "네트워크에 접속하려면 로그인이 필요합니다."
+		}
+	},
 	"notification": {
 		"apartmentInvite": {
 			"alreadyInvitedError": {
@@ -7404,6 +7476,52 @@
 			"trans": "판매"
 		}
 	},
+	"paypal": {
+		"checkoutComplete": {
+			"eng": "Checkout complete",
+			"trans": "결제가 완료되었습니다."
+		},
+		"disclaimer": {
+			"eng": "By completing this purchase, you agree to our Terms of Service and Privacy Policy. All purchases are final. For support, please contact ${email}.",
+			"trans": "이 구매를 완료함으로써, 귀하는 서비스 약관 및 개인정보 처리방침에 동의하게 됩니다. 모든 구매는 최종적입니다. 지원이 필요하시면 ${email}으로 연락해 주십시오."
+		},
+		"paymentCancelled": {
+			"eng": "Payment cancelled.",
+			"trans": "결제 취소."
+		},
+		"paymentError": {
+			"eng": "Payment failed. Please try again.",
+			"trans": "결제가 실패했습니다. 다시 시도해 주세요."
+		},
+		"paymentErrorWithOrder": {
+			"eng": "Payment failed. If you were charged, contact support with order ID: {orderId}",
+			"trans": "결제에 실패했습니다. 만약 요금이 청구되었다면, 주문 ID: {orderId}를 가지고 고객 지원에 연락하세요."
+		},
+		"paymentProcessingError": {
+			"eng": "Error processing payment. Please contact support.",
+			"trans": "결제 처리에 문제가 발생했습니다. 고객 지원에 연락해 주세요."
+		},
+		"paymentSuccess": {
+			"eng": "Payment successful! Your account has been credited.",
+			"trans": "결제가 성공했습니다! 귀하의 계정에 금액이 추가되었습니다."
+		},
+		"processing": {
+			"eng": "Processing your payment...",
+			"trans": "결제 처리 중입니다..."
+		},
+		"securePayment": {
+			"eng": "Secure Payment",
+			"trans": "안전한 결제"
+		},
+		"securityNotice": {
+			"eng": "SECURE TRANSACTION VIA PAYPAL",
+			"trans": "PayPal로 안전한 거래"
+		},
+		"windowClosedWithOrder": {
+			"eng": "PayPal window closed. If you were charged, contact support with order ID: {orderId}",
+			"trans": "PayPal 창이 닫혔습니다. 요금이 청구되었다면, 주문 ID: {orderId}와 함께 지원팀에 문의하세요."
+		}
+	},
 	"permission": {
 		"clanEditMotto": {
 			"eng": "Edit Motto",
@@ -7820,6 +7938,10 @@
 		"topUpTabTitle": {
 			"eng": "Top Up",
 			"trans": "충전"
+		},
+		"webPlatformNote": {
+			"eng": "On web platform, you can purchase NetCoins using PayPal. Click on a package to see payment options.",
+			"trans": "웹 플랫폼에서 PayPal로 넷코인을 구매할 수 있습니다. 패키지를 클릭하여 결제 옵션을 확인하세요."
 		}
 	},
 	"premiumShopTopUpTab": {
@@ -9454,6 +9576,74 @@
 			"trans": "전리품"
 		}
 	},
+	"storyListPage": {
+		"invalidPage": {
+			"eng": "Please enter a valid page number",
+			"trans": "올바른 페이지 번호를 입력해 주세요."
+		},
+		"next": {
+			"eng": "Next →",
+			"trans": "다음 →"
+		},
+		"noStories": {
+			"eng": "No stories available",
+			"trans": "스토리가 없습니다."
+		},
+		"pageDescription": {
+			"eng": "Discover the rich lore of Arclight City. Browse our collection of cyberpunk stories set in a dystopian future of corporate control and technological revolution.",
+			"trans": "아크라이트 시티의 풍부한 로어를 발견하세요. 기업의 통제와 기술 혁명이 얽힌 디스토피아적 미래를 배경으로 한 사이버펑크 이야기 컬렉션을 둘러보세요."
+		},
+		"pageIndicator": {
+			"eng": "${current} / ${total}",
+			"trans": "${current} / ${total}"
+		},
+		"pageInputAriaLabel": {
+			"eng": "Enter page number",
+			"trans": "페이지 번호를 입력해 주세요."
+		},
+		"pageInputPlaceholder": {
+			"eng": "Page #",
+			"trans": "페이지 #"
+		},
+		"pageOutOfRange": {
+			"eng": "Page number exceeds total pages",
+			"trans": "페이지 번호가 총 페이지 수를 초과했습니다."
+		},
+		"pageTitle": {
+			"eng": "Arclight City Stories - Cyberpunk Lore Collection",
+			"trans": "아크라이트 시티 이야기 - 사이버펑크 로어 모음집"
+		},
+		"previous": {
+			"eng": "← Prev",
+			"trans": "이전"
+		},
+		"subtitle": {
+			"eng": "Discover the lore of the cyberpunk world",
+			"trans": "사이버펑크 세계의 로어를 탐험하세요."
+		},
+		"tapToRead": {
+			"eng": "Tap to read this story",
+			"trans": "이 스토리를 읽으려면 탭하세요."
+		},
+		"title": {
+			"eng": "Game Stories",
+			"trans": "게임 이야기"
+		}
+	},
+	"storyPage": {
+		"pageDescription": {
+			"eng": "Read the cyberpunk story ${storyTitle} from the Arclight City cyberpunk universe.",
+			"trans": "아크라이트 시티 사이버펑크 세계의 ${storyTitle} 이야기를 읽어보세요."
+		},
+		"pageTitle": {
+			"eng": "Arclight Cyberpunk Story - ${storyTitle}",
+			"trans": "아크라이트 사이버펑크 이야기 - ${storyTitle}"
+		},
+		"returnToStories": {
+			"eng": "Return to all stories",
+			"trans": "모든 이야기로 돌아가기"
+		}
+	},
 	"stringHelper": {
 		"nameError": {
 			"englishOnly": {
@@ -9490,6 +9680,10 @@
 	},
 	"task": {
 		"error": {
+			"altError": {
+				"eng": "Alternate accounts are not allowed to contribute to gang tasks",
+				"trans": "대체 계정은 갱 작업에 기여할 수 없습니다."
+			},
 			"gangRequired": {
 				"eng": "You are currently not in any gang",
 				"trans": "당신은 현재 어떤 갱에도 속해 있지 않습니다"
@@ -10132,6 +10326,10 @@
 				"eng": "You need to be level ${level} to use auto combat",
 				"trans": "자동 전투를 사용하려면 ${level}레벨이 되어야 합니다"
 			},
+			"criticalHealth": {
+				"eng": "Critical Health Warning",
+				"trans": "치명적인 건강 경고"
+			},
 			"escape": {
 				"eng": "escape",
 				"trans": "탈출"
@@ -10277,6 +10475,16 @@
 			"logoutButton": {
 				"eng": "logout",
 				"trans": "로그아웃"
+			},
+			"logoutModal": {
+				"description": {
+					"eng": "Are you sure you want to logout?\\nLogging out will automatically cancel all your unfinished background tasks, resources used to start the tasks will be lost",
+					"trans": "로그아웃 하시겠습니까?\\n로그아웃하면 모든 미완료 백그라운드 작업이 자동으로 취소되며, 작업 시작에 사용된 자원이 손실됩니다."
+				},
+				"title": {
+					"eng": "Cancel all background tasks?",
+					"trans": "모든 백그라운드 작업을 중단하시겠습니까?"
+				}
 			},
 			"loreNotes": {
 				"eng": "lore notes",
@@ -10541,6 +10749,12 @@
 		"webNotAvailable": {
 			"eng": "Web version is not available yet.",
 			"trans": "웹 버전은 아직 제공되지 않습니다."
+		}
+	},
+	"webNavBar": {
+		"viewStories": {
+			"eng": "Stories",
+			"trans": "스토리"
 		}
 	},
 	"wikiPage": {

@@ -1414,6 +1414,28 @@
 		}
 	},
 	"chat": {
+		"channel": {
+			"clan": {
+				"eng": "Clan",
+				"trans": "Клан"
+			},
+			"global": {
+				"eng": "Global",
+				"trans": "Глобальный"
+			},
+			"local": {
+				"eng": "Local",
+				"trans": "Местный"
+			},
+			"private": {
+				"eng": "Private",
+				"trans": "Приватный"
+			},
+			"system": {
+				"eng": "System",
+				"trans": "Система"
+			}
+		},
 		"error": {
 			"link": {
 				"eng": "Links are not allowed in messages",
@@ -2323,6 +2345,38 @@
 			"trans": "Удалить персонаж"
 		}
 	},
+	"desktopLayout": {
+		"rightSidebar": {
+			"clanChatDescription": {
+				"eng": "Gang chat is only available when you are in a gang.",
+				"trans": "Чат гангстеров доступен только если вы в банде."
+			},
+			"notAvailable": {
+				"eng": "Not Available",
+				"trans": "Недоступно"
+			}
+		}
+	},
+	"desktopRightSidebar": {
+		"channel": {
+			"chirp": {
+				"eng": "Chirp",
+				"trans": "Чирик"
+			},
+			"clan": {
+				"eng": "Gang Chat",
+				"trans": "Чат банды"
+			},
+			"global": {
+				"eng": "Global",
+				"trans": "Глобальный"
+			},
+			"mail": {
+				"eng": "Mail",
+				"trans": "Почта"
+			}
+		}
+	},
 	"dismantle": {
 		"error": {
 			"notIdle": {
@@ -2451,6 +2505,10 @@
 		"close": {
 			"eng": "Close",
 			"trans": "Закрыть"
+		},
+		"resultTitle": {
+			"eng": "Result",
+			"trans": "Результат"
 		}
 	},
 	"dungeonEffect": {
@@ -5442,6 +5500,14 @@
 			"eng": "Login with Email",
 			"trans": "Войти с помощью электронной почты"
 		},
+		"pageDescription": {
+			"eng": "Explore the dark streets of Arclight City, a cyberpunk text-based MMORPG. Dive into a world of corporate intrigue, mercenaries, and cybernetic enhancements.",
+			"trans": "Исследуйте темные улицы Арклайт Сити, текстовую MMORPG в стиле киберпанк. Погрузитесь в мир корпоративных интриг, наемников и кибернетических улучшений."
+		},
+		"pageTitle": {
+			"eng": "Arclight City - Cyberpunk Text-Based MMORPG",
+			"trans": "Арклайт Сити - Киберпанковая текстовая MMORPG"
+		},
 		"resetEmailSent": {
 			"eng": "Reset email sent. Check your email.",
 			"trans": "Сброс пароля отправлен. Проверьте свою почту."
@@ -6739,6 +6805,12 @@
 			}
 		}
 	},
+	"noLoginSidebar": {
+		"accessNeeded": {
+			"eng": "LOGIN REQUIRED TO ACCESS NETWORK",
+			"trans": "Для доступа к сети требуется вход"
+		}
+	},
 	"notification": {
 		"apartmentInvite": {
 			"alreadyInvitedError": {
@@ -7404,6 +7476,52 @@
 			"trans": "Продать"
 		}
 	},
+	"paypal": {
+		"checkoutComplete": {
+			"eng": "Checkout complete",
+			"trans": "Заказ успешно оформлен"
+		},
+		"disclaimer": {
+			"eng": "By completing this purchase, you agree to our Terms of Service and Privacy Policy. All purchases are final. For support, please contact ${email}.",
+			"trans": "Завершая эту покупку, вы соглашаетесь с нашими Условиями обслуживания и Политикой конфиденциальности. Все покупки являются окончательными. Для получения поддержки, пожалуйста, свяжитесь с ${email}."
+		},
+		"paymentCancelled": {
+			"eng": "Payment cancelled.",
+			"trans": "Платеж отменен."
+		},
+		"paymentError": {
+			"eng": "Payment failed. Please try again.",
+			"trans": "Оплата не удалась. Пожалуйста, повторите попытку."
+		},
+		"paymentErrorWithOrder": {
+			"eng": "Payment failed. If you were charged, contact support with order ID: {orderId}",
+			"trans": "Платеж не удался. Если вы были списаны, свяжитесь с поддержкой, указав номер заказа: {orderId}."
+		},
+		"paymentProcessingError": {
+			"eng": "Error processing payment. Please contact support.",
+			"trans": "Не удалось обработать платеж. Обратитесь в службу поддержки."
+		},
+		"paymentSuccess": {
+			"eng": "Payment successful! Your account has been credited.",
+			"trans": "Платеж прошел успешно! Ваш счет был зачислен."
+		},
+		"processing": {
+			"eng": "Processing your payment...",
+			"trans": "Идет обработка вашего платежа..."
+		},
+		"securePayment": {
+			"eng": "Secure Payment",
+			"trans": "Безопасный платеж"
+		},
+		"securityNotice": {
+			"eng": "SECURE TRANSACTION VIA PAYPAL",
+			"trans": "Защищенная сделка с использованием PayPal"
+		},
+		"windowClosedWithOrder": {
+			"eng": "PayPal window closed. If you were charged, contact support with order ID: {orderId}",
+			"trans": "Окно PayPal закрыто. Если с вас списали деньги, свяжитесь с поддержкой, указав ID заказа: {orderId}."
+		}
+	},
 	"permission": {
 		"clanEditMotto": {
 			"eng": "Edit Motto",
@@ -7820,6 +7938,10 @@
 		"topUpTabTitle": {
 			"eng": "Top Up",
 			"trans": "Пополнить баланс"
+		},
+		"webPlatformNote": {
+			"eng": "On web platform, you can purchase NetCoins using PayPal. Click on a package to see payment options.",
+			"trans": "На веб-платформе можно купить НетКоины через PayPal. Кликните на пакет, чтобы посмотреть способы оплаты."
 		}
 	},
 	"premiumShopTopUpTab": {
@@ -9454,6 +9576,74 @@
 			"trans": "Добыча"
 		}
 	},
+	"storyListPage": {
+		"invalidPage": {
+			"eng": "Please enter a valid page number",
+			"trans": "Пожалуйста, введите корректный номер страницы"
+		},
+		"next": {
+			"eng": "Next →",
+			"trans": "Далее →"
+		},
+		"noStories": {
+			"eng": "No stories available",
+			"trans": "Нет историй"
+		},
+		"pageDescription": {
+			"eng": "Discover the rich lore of Arclight City. Browse our collection of cyberpunk stories set in a dystopian future of corporate control and technological revolution.",
+			"trans": "Откройте для себя богатую историю Арклайт Сити. Просмотрите нашу коллекцию киберпанковых историй, действие которых происходит в дистопическом будущем корпоративного контроля и технологической революции."
+		},
+		"pageIndicator": {
+			"eng": "${current} / ${total}",
+			"trans": "${current} из ${total}"
+		},
+		"pageInputAriaLabel": {
+			"eng": "Enter page number",
+			"trans": "Введите номер страницы"
+		},
+		"pageInputPlaceholder": {
+			"eng": "Page #",
+			"trans": "Страница #"
+		},
+		"pageOutOfRange": {
+			"eng": "Page number exceeds total pages",
+			"trans": "Номер страницы превышает общее количество страниц"
+		},
+		"pageTitle": {
+			"eng": "Arclight City Stories - Cyberpunk Lore Collection",
+			"trans": "Арклайт Сити: Истории - Коллекция киберпанковского лора"
+		},
+		"previous": {
+			"eng": "← Prev",
+			"trans": "Назад"
+		},
+		"subtitle": {
+			"eng": "Discover the lore of the cyberpunk world",
+			"trans": "Откройте для себя лор киберпанковского мира"
+		},
+		"tapToRead": {
+			"eng": "Tap to read this story",
+			"trans": "Коснитесь, чтобы прочитать эту историю"
+		},
+		"title": {
+			"eng": "Game Stories",
+			"trans": "Игровые истории"
+		}
+	},
+	"storyPage": {
+		"pageDescription": {
+			"eng": "Read the cyberpunk story ${storyTitle} from the Arclight City cyberpunk universe.",
+			"trans": "Ознакомьтесь с киберпанковской историей ${storyTitle} из вселенной Арклайт Сити."
+		},
+		"pageTitle": {
+			"eng": "Arclight Cyberpunk Story - ${storyTitle}",
+			"trans": "Арклайт Киберпанк История - ${storyTitle}"
+		},
+		"returnToStories": {
+			"eng": "Return to all stories",
+			"trans": "Вернуться ко всем историям"
+		}
+	},
 	"stringHelper": {
 		"nameError": {
 			"englishOnly": {
@@ -9490,6 +9680,10 @@
 	},
 	"task": {
 		"error": {
+			"altError": {
+				"eng": "Alternate accounts are not allowed to contribute to gang tasks",
+				"trans": "Альтернативные аккаунты не допускаются к участию в заданиях банды."
+			},
 			"gangRequired": {
 				"eng": "You are currently not in any gang",
 				"trans": "Вы в настоящее время не состоите в какой-либо банде"
@@ -10132,6 +10326,10 @@
 				"eng": "You need to be level ${level} to use auto combat",
 				"trans": "Для использования автоматического боя необходим уровень ${level}"
 			},
+			"criticalHealth": {
+				"eng": "Critical Health Warning",
+				"trans": "Критическое предупреждение о здоровье"
+			},
 			"escape": {
 				"eng": "escape",
 				"trans": "побег"
@@ -10277,6 +10475,16 @@
 			"logoutButton": {
 				"eng": "logout",
 				"trans": "выход"
+			},
+			"logoutModal": {
+				"description": {
+					"eng": "Are you sure you want to logout?\\nLogging out will automatically cancel all your unfinished background tasks, resources used to start the tasks will be lost",
+					"trans": "Вы уверены, что хотите выйти из системы?\\nВыход из системы автоматически отменит все ваши незавершенные фоновые задачи, ресурсы, использованные для начала задач, будут потеряны."
+				},
+				"title": {
+					"eng": "Cancel all background tasks?",
+					"trans": "Отменить все фоновые задачи?"
+				}
 			},
 			"loreNotes": {
 				"eng": "lore notes",
@@ -10541,6 +10749,12 @@
 		"webNotAvailable": {
 			"eng": "Web version is not available yet.",
 			"trans": "Веб-версия пока недоступна."
+		}
+	},
+	"webNavBar": {
+		"viewStories": {
+			"eng": "Stories",
+			"trans": "Истории"
 		}
 	},
 	"wikiPage": {

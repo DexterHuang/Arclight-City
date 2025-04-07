@@ -1414,6 +1414,27 @@
 		}
 	},
 	"chat": {
+		"channel": {
+			"clan": {
+				"eng": "Clan",
+				"trans": "Clan"
+			},
+			"global": {
+				"eng": "Global",
+				"trans": "Global"
+			},
+			"local": {
+				"eng": "Local",
+				"trans": "Local"
+			},
+			"private": {
+				"eng": "Private",
+				"trans": "Privado"
+			},
+			"system": {
+				"eng": "System"
+			}
+		},
 		"error": {
 			"link": {
 				"eng": "Links are not allowed in messages",
@@ -2323,6 +2344,38 @@
 			"trans": "Borrar Personaje"
 		}
 	},
+	"desktopLayout": {
+		"rightSidebar": {
+			"clanChatDescription": {
+				"eng": "Gang chat is only available when you are in a gang.",
+				"trans": "El chat de la banda solo está disponible cuando estás en una banda."
+			},
+			"notAvailable": {
+				"eng": "Not Available",
+				"trans": "No disponible"
+			}
+		}
+	},
+	"desktopRightSidebar": {
+		"channel": {
+			"chirp": {
+				"eng": "Chirp",
+				"trans": "Chirp"
+			},
+			"clan": {
+				"eng": "Gang Chat",
+				"trans": "Chat de Banda"
+			},
+			"global": {
+				"eng": "Global",
+				"trans": "Global"
+			},
+			"mail": {
+				"eng": "Mail",
+				"trans": "Correo"
+			}
+		}
+	},
 	"dismantle": {
 		"error": {
 			"notIdle": {
@@ -2451,6 +2504,10 @@
 		"close": {
 			"eng": "Close",
 			"trans": "Cerrar"
+		},
+		"resultTitle": {
+			"eng": "Result",
+			"trans": "Resultado"
 		}
 	},
 	"dungeonEffect": {
@@ -5442,6 +5499,14 @@
 			"eng": "Login with Email",
 			"trans": "Inicia sesión con el correo electrónico"
 		},
+		"pageDescription": {
+			"eng": "Explore the dark streets of Arclight City, a cyberpunk text-based MMORPG. Dive into a world of corporate intrigue, mercenaries, and cybernetic enhancements.",
+			"trans": "Explora las oscuras calles de la Ciudad Arclight, un MMORPG basado en texto de temática cibernética. Sumérgete en un mundo de intriga corporativa, mercenarios y mejoras cibernéticas."
+		},
+		"pageTitle": {
+			"eng": "Arclight City - Cyberpunk Text-Based MMORPG",
+			"trans": "Arclight City - MMORPG de texto ciberpunk"
+		},
 		"resetEmailSent": {
 			"eng": "Reset email sent. Check your email.",
 			"trans": "Correo de restablecimiento enviado. Revisa tu correo electrónico."
@@ -6739,6 +6804,12 @@
 			}
 		}
 	},
+	"noLoginSidebar": {
+		"accessNeeded": {
+			"eng": "LOGIN REQUIRED TO ACCESS NETWORK",
+			"trans": "NECESITAS INICIAR SESIÓN PARA ACCEDER A LA RED"
+		}
+	},
 	"notification": {
 		"apartmentInvite": {
 			"alreadyInvitedError": {
@@ -7404,6 +7475,51 @@
 			"trans": "Vender"
 		}
 	},
+	"paypal": {
+		"checkoutComplete": {
+			"eng": "Checkout complete",
+			"trans": "Compra finalizada"
+		},
+		"disclaimer": {
+			"eng": "By completing this purchase, you agree to our Terms of Service and Privacy Policy. All purchases are final. For support, please contact ${email}.",
+			"trans": "Al completar esta compra, aceptas nuestros Términos de Servicio y Política de Privacidad. Todas las compras son finales. Para soporte, por favor contacta a ${email}."
+		},
+		"paymentCancelled": {
+			"eng": "Payment cancelled."
+		},
+		"paymentError": {
+			"eng": "Payment failed. Please try again.",
+			"trans": "El pago ha fallado. Por favor, inténtalo de nuevo."
+		},
+		"paymentErrorWithOrder": {
+			"eng": "Payment failed. If you were charged, contact support with order ID: {orderId}",
+			"trans": "El pago no se ha procesado. Si te han cobrado, comunícate con el soporte usando el ID de pedido: {orderId}."
+		},
+		"paymentProcessingError": {
+			"eng": "Error processing payment. Please contact support.",
+			"trans": "Ha ocurrido un error al procesar el pago. Comunícate con el soporte."
+		},
+		"paymentSuccess": {
+			"eng": "Payment successful! Your account has been credited.",
+			"trans": "¡Pago realizado con éxito! Se ha acreditado su cuenta."
+		},
+		"processing": {
+			"eng": "Processing your payment...",
+			"trans": "Procesando tu pago..."
+		},
+		"securePayment": {
+			"eng": "Secure Payment",
+			"trans": "Pago Seguro"
+		},
+		"securityNotice": {
+			"eng": "SECURE TRANSACTION VIA PAYPAL",
+			"trans": "Transacción segura a través de PayPal"
+		},
+		"windowClosedWithOrder": {
+			"eng": "PayPal window closed. If you were charged, contact support with order ID: {orderId}",
+			"trans": "La ventana de PayPal está cerrada. Si te han cobrado, comunícate con el soporte usando el ID de pedido: {orderId}."
+		}
+	},
 	"permission": {
 		"clanEditMotto": {
 			"eng": "Edit Motto",
@@ -7820,6 +7936,10 @@
 		"topUpTabTitle": {
 			"eng": "Top Up",
 			"trans": "Recargar"
+		},
+		"webPlatformNote": {
+			"eng": "On web platform, you can purchase NetCoins using PayPal. Click on a package to see payment options.",
+			"trans": "En la plataforma web, puedes comprar NetCoins usando PayPal. Haz clic en un paquete para ver las opciones de pago."
 		}
 	},
 	"premiumShopTopUpTab": {
@@ -9454,6 +9574,71 @@
 			"trans": "Botines"
 		}
 	},
+	"storyListPage": {
+		"invalidPage": {
+			"eng": "Please enter a valid page number",
+			"trans": "Por favor, introduce un número de página válido."
+		},
+		"next": {
+			"eng": "Next →"
+		},
+		"noStories": {
+			"eng": "No stories available",
+			"trans": "No hay historias disponibles."
+		},
+		"pageDescription": {
+			"eng": "Discover the rich lore of Arclight City. Browse our collection of cyberpunk stories set in a dystopian future of corporate control and technological revolution.",
+			"trans": "Descubre la rica historia de la Ciudad Arclight. Explora nuestra colección de relatos ciberpunk ambientados en un futuro distópico de control corporativo y revolución tecnológica."
+		},
+		"pageIndicator": {
+			"eng": "${current} / ${total}",
+			"trans": "${current} / ${total}"
+		},
+		"pageInputAriaLabel": {
+			"eng": "Enter page number",
+			"trans": "Ingrese el número de página"
+		},
+		"pageInputPlaceholder": {
+			"eng": "Page #"
+		},
+		"pageOutOfRange": {
+			"eng": "Page number exceeds total pages",
+			"trans": "El número de página excede el total de páginas."
+		},
+		"pageTitle": {
+			"eng": "Arclight City Stories - Cyberpunk Lore Collection",
+			"trans": "Historias de la Ciudad Arclight - Colección de Lore Cyberpunk"
+		},
+		"previous": {
+			"eng": "← Prev",
+			"trans": "← Anterior"
+		},
+		"subtitle": {
+			"eng": "Discover the lore of the cyberpunk world",
+			"trans": "Explora la narrativa del mundo ciberpunk."
+		},
+		"tapToRead": {
+			"eng": "Tap to read this story"
+		},
+		"title": {
+			"eng": "Game Stories",
+			"trans": "Historias del Juego"
+		}
+	},
+	"storyPage": {
+		"pageDescription": {
+			"eng": "Read the cyberpunk story ${storyTitle} from the Arclight City cyberpunk universe.",
+			"trans": "Lee la historia ciberpunk ${storyTitle} del universo ciberpunk de Arclight."
+		},
+		"pageTitle": {
+			"eng": "Arclight Cyberpunk Story - ${storyTitle}",
+			"trans": "Historia Ciberpunk de Arclight - ${storyTitle}"
+		},
+		"returnToStories": {
+			"eng": "Return to all stories",
+			"trans": "Volver a todas las historias"
+		}
+	},
 	"stringHelper": {
 		"nameError": {
 			"englishOnly": {
@@ -9490,6 +9675,10 @@
 	},
 	"task": {
 		"error": {
+			"altError": {
+				"eng": "Alternate accounts are not allowed to contribute to gang tasks",
+				"trans": "No se permiten cuentas alternativas para contribuir a las tareas de la banda."
+			},
 			"gangRequired": {
 				"eng": "You are currently not in any gang",
 				"trans": "Actualmente no perteneces a ninguna banda"
@@ -10132,6 +10321,10 @@
 				"eng": "You need to be level ${level} to use auto combat",
 				"trans": "Necesitas ser nivel ${level} para utilizar el combate automático"
 			},
+			"criticalHealth": {
+				"eng": "Critical Health Warning",
+				"trans": "Alerta Crítica de Salud"
+			},
 			"escape": {
 				"eng": "escape",
 				"trans": "escapar"
@@ -10277,6 +10470,16 @@
 			"logoutButton": {
 				"eng": "logout",
 				"trans": "Cerrar sesión"
+			},
+			"logoutModal": {
+				"description": {
+					"eng": "Are you sure you want to logout?\\nLogging out will automatically cancel all your unfinished background tasks, resources used to start the tasks will be lost",
+					"trans": "¿Estás seguro de que quieres cerrar sesión?\\nCerrar sesión cancelará automáticamente todas tus tareas en segundo plano que no hayas terminado, y los recursos utilizados para iniciar las tareas se perderán."
+				},
+				"title": {
+					"eng": "Cancel all background tasks?",
+					"trans": "¿Deseas cancelar todas las tareas en segundo plano?"
+				}
 			},
 			"loreNotes": {
 				"eng": "lore notes",
@@ -10541,6 +10744,12 @@
 		"webNotAvailable": {
 			"eng": "Web version is not available yet.",
 			"trans": "La versión web aún no está disponible."
+		}
+	},
+	"webNavBar": {
+		"viewStories": {
+			"eng": "Stories",
+			"trans": "Historias"
 		}
 	},
 	"wikiPage": {
