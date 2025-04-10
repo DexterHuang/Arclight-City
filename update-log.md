@@ -6,6 +6,10 @@
 
 **If you find an exploit please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
+### 0.0.76
+
+-  You can now voluntarily terminate lease to your apartment, this open is visible at the top right corner of your apartment screen
+
 
 ### 0.0.75
 
