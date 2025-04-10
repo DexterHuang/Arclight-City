@@ -406,6 +406,16 @@
 				"trans": "Lihat apartemen yang tersedia secara daring"
 			}
 		},
+		"options": {
+			"terminateLease": {
+				"eng": "terminate lease",
+				"trans": "Menghentikan kontrak sewa"
+			},
+			"title": {
+				"eng": "Apartment Options",
+				"trans": "Pilihan Apartemen"
+			}
+		},
 		"playerModal": {
 			"details": {
 				"eng": "details",
@@ -419,6 +429,24 @@
 		"purchase": {
 			"eng": "view apartments",
 			"trans": "Lihat apartemen"
+		},
+		"terminateLease": {
+			"cancel": {
+				"eng": "cancel",
+				"trans": "Batalkan"
+			},
+			"confirm": {
+				"eng": "terminate lease",
+				"trans": "Menghentikan kontrak sewa"
+			},
+			"title": {
+				"eng": "Terminate Lease",
+				"trans": "Akhiri Sewa"
+			},
+			"warning": {
+				"eng": "This will immediately terminate your apartment lease. You will NOT receive a refund.",
+				"trans": "Ini akan segera mengakhiri kontrak sewa apartemen Anda. Anda TIDAK akan menerima pengembalian dana."
+			}
 		},
 		"unclaimedDeliveries": {
 			"title": {
@@ -2352,7 +2380,8 @@
 				"trans": "Chat geng hanya bisa diakses saat kamu berada di dalam geng."
 			},
 			"notAvailable": {
-				"eng": "Not Available"
+				"eng": "Not Available",
+				"trans": "Tidak Tersedia"
 			}
 		}
 	},
@@ -9677,7 +9706,8 @@
 	},
 	"storyPage": {
 		"pageDescription": {
-			"eng": "Read the cyberpunk story ${storyTitle} from the Arclight City cyberpunk universe."
+			"eng": "Read the cyberpunk story ${storyTitle} from the Arclight City cyberpunk universe.",
+			"trans": "Baca cerita cyberpunk ${storyTitle} dari jagat cyberpunk Kota Cahaya Arklit."
 		},
 		"pageTitle": {
 			"eng": "Arclight Cyberpunk Story - ${storyTitle}",
