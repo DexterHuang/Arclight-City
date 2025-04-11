@@ -406,16 +406,6 @@
 				"trans": "Voir les appartements disponibles en ligne"
 			}
 		},
-		"options": {
-			"terminateLease": {
-				"eng": "terminate lease",
-				"trans": "Résilier le bail"
-			},
-			"title": {
-				"eng": "Apartment Options",
-				"trans": "Choix d'appartements"
-			}
-		},
 		"playerModal": {
 			"details": {
 				"eng": "details",
@@ -429,24 +419,6 @@
 		"purchase": {
 			"eng": "view apartments",
 			"trans": "voir les appartements"
-		},
-		"terminateLease": {
-			"cancel": {
-				"eng": "cancel",
-				"trans": "Annuler"
-			},
-			"confirm": {
-				"eng": "terminate lease",
-				"trans": "Résilier le bail"
-			},
-			"title": {
-				"eng": "Terminate Lease",
-				"trans": "Résilier le bail"
-			},
-			"warning": {
-				"eng": "This will immediately terminate your apartment lease. You will NOT receive a refund.",
-				"trans": "Cela résiliera immédiatement votre bail d'appartement. Vous ne recevrez PAS de remboursement."
-			}
 		},
 		"unclaimedDeliveries": {
 			"title": {
@@ -1460,7 +1432,8 @@
 				"trans": "Privé"
 			},
 			"system": {
-				"eng": "System"
+				"eng": "System",
+				"trans": "Système"
 			}
 		},
 		"error": {
@@ -5274,6 +5247,32 @@
 			"trans": "Améliorer"
 		}
 	},
+	"journalist": {
+		"anyaPetrova": {
+			"displayName": {
+				"eng": "Anya Petrova",
+				"trans": "Anya Petrova"
+			}
+		},
+		"jackJackson": {
+			"displayName": {
+				"eng": "Jack Jackson",
+				"trans": "Jack Jackson"
+			}
+		},
+		"kaiTanaka": {
+			"displayName": {
+				"eng": "Kai Tanaka",
+				"trans": "Kai Tanaka"
+			}
+		},
+		"zaraKhan": {
+			"displayName": {
+				"eng": "Zara Khan",
+				"trans": "Zara Khan"
+			}
+		}
+	},
 	"leaderboard": {
 		"clan": {
 			"name": {
@@ -6830,6 +6829,92 @@
 				"eng": "Vigilante",
 				"trans": "Vigilante"
 			}
+		}
+	},
+	"newsPage": {
+		"aboutAuthor": {
+			"eng": "ABOUT THE AUTHOR",
+			"trans": "À PROPOS DE L'AUTEUR"
+		},
+		"backToList": {
+			"eng": "RETURN TO NEWS FEED",
+			"trans": "REVENIR AU FIL D'ACTU"
+		},
+		"breaking": {
+			"eng": "BREAKING",
+			"trans": "FLASH INFO"
+		},
+		"error": {
+			"fetchFailed": {
+				"eng": "Failed to fetch news data",
+				"trans": "Récupération des infos échouée."
+			},
+			"loadMoreFailed": {
+				"eng": "Failed to load more news reports",
+				"trans": "Impossible de charger d'autres rapports d'actualités."
+			},
+			"missingId": {
+				"eng": "Missing report ID",
+				"trans": "ID de rapport absent"
+			},
+			"reportNotFound": {
+				"eng": "News report not found",
+				"trans": "Rapport introuvable."
+			}
+		},
+		"keyPoints": {
+			"eng": "KEY POINTS",
+			"trans": "Points clés"
+		},
+		"latestNews": {
+			"eng": "LATEST REPORTS",
+			"trans": "BRÈVES DU NET"
+		},
+		"loadMore": {
+			"eng": "LOAD MORE NEWS",
+			"trans": "Voir plus"
+		},
+		"loading": {
+			"eng": "ACCESSING DATA...",
+			"trans": "ANALYSE DES DONNÉES..."
+		},
+		"loadingMore": {
+			"eng": "LOADING MORE...",
+			"trans": "CHARGEMENT SUPPLÉMENTAIRE..."
+		},
+		"noNews": {
+			"eng": "NO NEWS DATA AVAILABLE",
+			"trans": "AUCUNE INFO DISPONIBLE"
+		},
+		"published": {
+			"eng": "PUBLISHED",
+			"trans": "*   **Publié** (General)\n*   **Diffusé** (For broadcasts or data releases)\n*   **Sorti** (For game updates or releases)\n*   **En ligne** (If the content is online)\n*   **Mis en ligne** (If the content is posted online)\n*   **Live** (If the content is live)"
+		},
+		"readMore": {
+			"eng": "READ MORE",
+			"trans": "Plus d'infos"
+		},
+		"reportBy": {
+			"eng": "REPORT BY",
+			"trans": "SOURCE :"
+		},
+		"reportNotFound": {
+			"eng": "NEWS REPORT NOT FOUND",
+			"trans": "ERREUR : RAPPORT INTROUVABLE"
+		},
+		"share": {
+			"eng": "SHARE",
+			"trans": "Partager"
+		},
+		"slogan": {
+			"eng": "YOUR TRUSTED SOURCE FOR ARCLIGHT CITY NEWS AND EVENTS",
+			"trans": "Arclight City : Votre info fiable sur l'actu et les événements."
+		}
+	},
+	"newsReport": {
+		"newReportAvailable": {
+			"eng": "The Arclight Chronicle has published today\\'s news report!",
+			"trans": "La Chronique d'Arclight balance son reportage du jour !"
 		}
 	},
 	"noLoginSidebar": {
@@ -10811,6 +10896,20 @@
 				"trans": "Prix bas !!"
 			}
 		},
+		"news": {
+			"adAction": {
+				"eng": "READ NOW",
+				"trans": "LIRE TOUT DE SUITE"
+			},
+			"live": {
+				"eng": "LIVE",
+				"trans": "EN DIRECT"
+			},
+			"subtitle": {
+				"eng": "Latest updates from around Arclight City",
+				"trans": "Arclight City : Les dernières du coin"
+			}
+		},
 		"wiki": {
 			"subtitle": {
 				"eng": "the free encyclopedia that anyone can edit",
@@ -10901,6 +11000,12 @@
 			"announcement": {
 				"eng": "${playerName} tried to mug someone but failed!",
 				"trans": "${playerName} a essayé de voler quelqu'un mais a échoué !"
+			}
+		},
+		"territoryControlTakeOver": {
+			"announcement": {
+				"eng": "${gang1} has taken over ${gang2} territory!",
+				"trans": "${gang1} s'est emparé du territoire de ${gang2} !"
 			}
 		},
 		"upgradedEpic": {

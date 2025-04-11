@@ -406,16 +406,6 @@
 				"trans": "Просмотреть доступные квартиры онлайн"
 			}
 		},
-		"options": {
-			"terminateLease": {
-				"eng": "terminate lease",
-				"trans": "прекратить аренду"
-			},
-			"title": {
-				"eng": "Apartment Options",
-				"trans": "Варианты апартаментов"
-			}
-		},
 		"playerModal": {
 			"details": {
 				"eng": "details",
@@ -429,24 +419,6 @@
 		"purchase": {
 			"eng": "view apartments",
 			"trans": "просмотреть квартиры"
-		},
-		"terminateLease": {
-			"cancel": {
-				"eng": "cancel",
-				"trans": "отменить"
-			},
-			"confirm": {
-				"eng": "terminate lease",
-				"trans": "прекратить аренду"
-			},
-			"title": {
-				"eng": "Terminate Lease",
-				"trans": "Прекратить аренду"
-			},
-			"warning": {
-				"eng": "This will immediately terminate your apartment lease. You will NOT receive a refund.",
-				"trans": "Это приведет к немедленному расторжению вашего договора аренды. Возврат средств не предусмотрен."
-			}
 		},
 		"unclaimedDeliveries": {
 			"title": {
@@ -5275,6 +5247,32 @@
 			"trans": "Улучшить"
 		}
 	},
+	"journalist": {
+		"anyaPetrova": {
+			"displayName": {
+				"eng": "Anya Petrova",
+				"trans": "Аня Петрова"
+			}
+		},
+		"jackJackson": {
+			"displayName": {
+				"eng": "Jack Jackson",
+				"trans": "Джек Джексон"
+			}
+		},
+		"kaiTanaka": {
+			"displayName": {
+				"eng": "Kai Tanaka",
+				"trans": "Кай Танака"
+			}
+		},
+		"zaraKhan": {
+			"displayName": {
+				"eng": "Zara Khan",
+				"trans": "Zara Khan (Зара Хан)"
+			}
+		}
+	},
 	"leaderboard": {
 		"clan": {
 			"name": {
@@ -6831,6 +6829,92 @@
 				"eng": "Vigilante",
 				"trans": "Мститель"
 			}
+		}
+	},
+	"newsPage": {
+		"aboutAuthor": {
+			"eng": "ABOUT THE AUTHOR",
+			"trans": "Автор"
+		},
+		"backToList": {
+			"eng": "RETURN TO NEWS FEED",
+			"trans": "Назад к новостям"
+		},
+		"breaking": {
+			"eng": "BREAKING",
+			"trans": "Срочно"
+		},
+		"error": {
+			"fetchFailed": {
+				"eng": "Failed to fetch news data",
+				"trans": "Ошибка при загрузке новостей."
+			},
+			"loadMoreFailed": {
+				"eng": "Failed to load more news reports",
+				"trans": "Система не смогла подтянуть больше новостей."
+			},
+			"missingId": {
+				"eng": "Missing report ID",
+				"trans": "ID отчёта не найден"
+			},
+			"reportNotFound": {
+				"eng": "News report not found",
+				"trans": "Ошибка: Новостной репортаж не найден."
+			}
+		},
+		"keyPoints": {
+			"eng": "KEY POINTS",
+			"trans": "Главное"
+		},
+		"latestNews": {
+			"eng": "LATEST REPORTS",
+			"trans": "Свежие данные"
+		},
+		"loadMore": {
+			"eng": "LOAD MORE NEWS",
+			"trans": "Подгрузить новостей"
+		},
+		"loading": {
+			"eng": "ACCESSING DATA...",
+			"trans": "Загрузка данных..."
+		},
+		"loadingMore": {
+			"eng": "LOADING MORE...",
+			"trans": "Подгружаем..."
+		},
+		"noNews": {
+			"eng": "NO NEWS DATA AVAILABLE",
+			"trans": "Нет новостей."
+		},
+		"published": {
+			"eng": "PUBLISHED",
+			"trans": "Выпущено (If it's a content release)\n    Опубликовано (Otherwise)"
+		},
+		"readMore": {
+			"eng": "READ MORE",
+			"trans": "Подробнее"
+		},
+		"reportBy": {
+			"eng": "REPORT BY",
+			"trans": "Автор:"
+		},
+		"reportNotFound": {
+			"eng": "NEWS REPORT NOT FOUND",
+			"trans": "Нет данных по репортажу."
+		},
+		"share": {
+			"eng": "SHARE",
+			"trans": "Расшарить"
+		},
+		"slogan": {
+			"eng": "YOUR TRUSTED SOURCE FOR ARCLIGHT CITY NEWS AND EVENTS",
+			"trans": "Арклайт Сити: Самые свежие новости и события."
+		}
+	},
+	"newsReport": {
+		"newReportAvailable": {
+			"eng": "The Arclight Chronicle has published today\\'s news report!",
+			"trans": "Арклайт Хроники: свежий репортаж уже доступен!"
 		}
 	},
 	"noLoginSidebar": {
@@ -10812,6 +10896,20 @@
 				"trans": "Дешевая цена!!"
 			}
 		},
+		"news": {
+			"adAction": {
+				"eng": "READ NOW",
+				"trans": "Читай!"
+			},
+			"live": {
+				"eng": "LIVE",
+				"trans": "Жив (Zhív)"
+			},
+			"subtitle": {
+				"eng": "Latest updates from around Arclight City",
+				"trans": "Свежие новости из Арклайт Сити"
+			}
+		},
 		"wiki": {
 			"subtitle": {
 				"eng": "the free encyclopedia that anyone can edit",
@@ -10902,6 +11000,12 @@
 			"announcement": {
 				"eng": "${playerName} tried to mug someone but failed!",
 				"trans": "${playerName} попытался ограбить кого-то, но не удалось!"
+			}
+		},
+		"territoryControlTakeOver": {
+			"announcement": {
+				"eng": "${gang1} has taken over ${gang2} territory!",
+				"trans": "Территорию ${gang2} отжала банда ${gang1}!"
 			}
 		},
 		"upgradedEpic": {

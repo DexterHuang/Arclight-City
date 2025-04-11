@@ -406,16 +406,6 @@
 				"trans": "Veja os apartamentos disponíveis online"
 			}
 		},
-		"options": {
-			"terminateLease": {
-				"eng": "terminate lease",
-				"trans": "Rescindir contrato de locação"
-			},
-			"title": {
-				"eng": "Apartment Options",
-				"trans": "Opções de Apartamentos"
-			}
-		},
 		"playerModal": {
 			"details": {
 				"eng": "details",
@@ -429,24 +419,6 @@
 		"purchase": {
 			"eng": "view apartments",
 			"trans": "ver apartamentos"
-		},
-		"terminateLease": {
-			"cancel": {
-				"eng": "cancel",
-				"trans": "cancelar"
-			},
-			"confirm": {
-				"eng": "terminate lease",
-				"trans": "Rescindir contrato de locação"
-			},
-			"title": {
-				"eng": "Terminate Lease",
-				"trans": "Cancelar Locação"
-			},
-			"warning": {
-				"eng": "This will immediately terminate your apartment lease. You will NOT receive a refund.",
-				"trans": "Isso vai encerrar imediatamente o seu contrato de locação. Você NÃO receberá reembolso."
-			}
 		},
 		"unclaimedDeliveries": {
 			"title": {
@@ -5275,6 +5247,31 @@
 			"trans": "Atualizar"
 		}
 	},
+	"journalist": {
+		"anyaPetrova": {
+			"displayName": {
+				"eng": "Anya Petrova",
+				"trans": "Anya Petrova"
+			}
+		},
+		"jackJackson": {
+			"displayName": {
+				"eng": "Jack Jackson",
+				"trans": "Jack Jackson"
+			}
+		},
+		"kaiTanaka": {
+			"displayName": {
+				"eng": "Kai Tanaka"
+			}
+		},
+		"zaraKhan": {
+			"displayName": {
+				"eng": "Zara Khan",
+				"trans": "Zara Khan"
+			}
+		}
+	},
 	"leaderboard": {
 		"clan": {
 			"name": {
@@ -6831,6 +6828,91 @@
 				"eng": "Vigilante",
 				"trans": "Vigilante"
 			}
+		}
+	},
+	"newsPage": {
+		"aboutAuthor": {
+			"eng": "ABOUT THE AUTHOR"
+		},
+		"backToList": {
+			"eng": "RETURN TO NEWS FEED",
+			"trans": "Voltar para o Feed de Notícias"
+		},
+		"breaking": {
+			"eng": "BREAKING",
+			"trans": "URGENTE"
+		},
+		"error": {
+			"fetchFailed": {
+				"eng": "Failed to fetch news data",
+				"trans": "Falha ao buscar os dados de notícias."
+			},
+			"loadMoreFailed": {
+				"eng": "Failed to load more news reports",
+				"trans": "Falha ao carregar mais relatórios de notícias."
+			},
+			"missingId": {
+				"eng": "Missing report ID",
+				"trans": "ID do relatório faltando"
+			},
+			"reportNotFound": {
+				"eng": "News report not found",
+				"trans": "Reportagem não encontrada"
+			}
+		},
+		"keyPoints": {
+			"eng": "KEY POINTS",
+			"trans": "PONTOS CHAVE"
+		},
+		"latestNews": {
+			"eng": "LATEST REPORTS",
+			"trans": "ÚLTIMOS RELATÓRIOS"
+		},
+		"loadMore": {
+			"eng": "LOAD MORE NEWS",
+			"trans": "CARREGAR MAIS NOTÍCIAS"
+		},
+		"loading": {
+			"eng": "ACCESSING DATA...",
+			"trans": "Acessando dados..."
+		},
+		"loadingMore": {
+			"eng": "LOADING MORE...",
+			"trans": "CARREGANDO MAIS..."
+		},
+		"noNews": {
+			"eng": "NO NEWS DATA AVAILABLE",
+			"trans": "Não há dados de notícias disponíveis"
+		},
+		"published": {
+			"eng": "PUBLISHED",
+			"trans": "Publicado"
+		},
+		"readMore": {
+			"eng": "READ MORE",
+			"trans": "LEIA MAIS"
+		},
+		"reportBy": {
+			"eng": "REPORT BY",
+			"trans": "RELATADO POR"
+		},
+		"reportNotFound": {
+			"eng": "NEWS REPORT NOT FOUND",
+			"trans": "Notícia não encontrada"
+		},
+		"share": {
+			"eng": "SHARE",
+			"trans": "COMPARTILHAR"
+		},
+		"slogan": {
+			"eng": "YOUR TRUSTED SOURCE FOR ARCLIGHT CITY NEWS AND EVENTS",
+			"trans": "A SUA FONTE DE CONFIANÇA PARA NOTÍCIAS E EVENTOS DE ARCLIGHT CITY"
+		}
+	},
+	"newsReport": {
+		"newReportAvailable": {
+			"eng": "The Arclight Chronicle has published today\\'s news report!",
+			"trans": "O Arclight Chronicle publicou o boletim de notícias de hoje!"
 		}
 	},
 	"noLoginSidebar": {
@@ -10812,6 +10894,20 @@
 				"trans": "Preço Barato!!"
 			}
 		},
+		"news": {
+			"adAction": {
+				"eng": "READ NOW",
+				"trans": "LEIA JÁ"
+			},
+			"live": {
+				"eng": "LIVE",
+				"trans": "AO VIVO"
+			},
+			"subtitle": {
+				"eng": "Latest updates from around Arclight City",
+				"trans": "Novidades de Arclight City"
+			}
+		},
 		"wiki": {
 			"subtitle": {
 				"eng": "the free encyclopedia that anyone can edit",
@@ -10902,6 +10998,12 @@
 			"announcement": {
 				"eng": "${playerName} tried to mug someone but failed!",
 				"trans": "${playerName} tentou assaltar alguém, mas se deu mal!"
+			}
+		},
+		"territoryControlTakeOver": {
+			"announcement": {
+				"eng": "${gang1} has taken over ${gang2} territory!",
+				"trans": "${gang1} conquistou o território de ${gang2}!"
 			}
 		},
 		"upgradedEpic": {

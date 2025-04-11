@@ -406,16 +406,6 @@
 				"trans": "線上查看可用公寓"
 			}
 		},
-		"options": {
-			"terminateLease": {
-				"eng": "terminate lease",
-				"trans": "終止租約"
-			},
-			"title": {
-				"eng": "Apartment Options",
-				"trans": "公寓選項"
-			}
-		},
 		"playerModal": {
 			"details": {
 				"eng": "details",
@@ -429,24 +419,6 @@
 		"purchase": {
 			"eng": "view apartments",
 			"trans": "查看公寓"
-		},
-		"terminateLease": {
-			"cancel": {
-				"eng": "cancel",
-				"trans": "取消"
-			},
-			"confirm": {
-				"eng": "terminate lease",
-				"trans": "終止租約"
-			},
-			"title": {
-				"eng": "Terminate Lease",
-				"trans": "終止租約"
-			},
-			"warning": {
-				"eng": "This will immediately terminate your apartment lease. You will NOT receive a refund.",
-				"trans": "這將立即終止您的公寓租約。您將不會獲得退款。"
-			}
 		},
 		"unclaimedDeliveries": {
 			"title": {
@@ -5275,6 +5247,32 @@
 			"trans": "升級"
 		}
 	},
+	"journalist": {
+		"anyaPetrova": {
+			"displayName": {
+				"eng": "Anya Petrova",
+				"trans": "安雅·彼得羅娃"
+			}
+		},
+		"jackJackson": {
+			"displayName": {
+				"eng": "Jack Jackson",
+				"trans": "傑克·傑克森"
+			}
+		},
+		"kaiTanaka": {
+			"displayName": {
+				"eng": "Kai Tanaka",
+				"trans": "凱・田中"
+			}
+		},
+		"zaraKhan": {
+			"displayName": {
+				"eng": "Zara Khan",
+				"trans": "莎拉·罕"
+			}
+		}
+	},
 	"leaderboard": {
 		"clan": {
 			"name": {
@@ -6831,6 +6829,92 @@
 				"eng": "Vigilante",
 				"trans": "義警"
 			}
+		}
+	},
+	"newsPage": {
+		"aboutAuthor": {
+			"eng": "ABOUT THE AUTHOR",
+			"trans": "關於作者"
+		},
+		"backToList": {
+			"eng": "RETURN TO NEWS FEED",
+			"trans": "回到資訊流"
+		},
+		"breaking": {
+			"eng": "BREAKING",
+			"trans": "快訊"
+		},
+		"error": {
+			"fetchFailed": {
+				"eng": "Failed to fetch news data",
+				"trans": "新聞資料抓取失敗"
+			},
+			"loadMoreFailed": {
+				"eng": "Failed to load more news reports",
+				"trans": "更多新聞報導載入失敗"
+			},
+			"missingId": {
+				"eng": "Missing report ID",
+				"trans": "報告ID未找到"
+			},
+			"reportNotFound": {
+				"eng": "News report not found",
+				"trans": "新聞報導未找到"
+			}
+		},
+		"keyPoints": {
+			"eng": "KEY POINTS",
+			"trans": "關鍵"
+		},
+		"latestNews": {
+			"eng": "LATEST REPORTS",
+			"trans": "最新消息"
+		},
+		"loadMore": {
+			"eng": "LOAD MORE NEWS",
+			"trans": "刷更多"
+		},
+		"loading": {
+			"eng": "ACCESSING DATA...",
+			"trans": "數據載入中..."
+		},
+		"loadingMore": {
+			"eng": "LOADING MORE...",
+			"trans": "更多內容載入中..."
+		},
+		"noNews": {
+			"eng": "NO NEWS DATA AVAILABLE",
+			"trans": "訊號中斷"
+		},
+		"published": {
+			"eng": "PUBLISHED",
+			"trans": "發布"
+		},
+		"readMore": {
+			"eng": "READ MORE",
+			"trans": "查看更多"
+		},
+		"reportBy": {
+			"eng": "REPORT BY",
+			"trans": "BY:"
+		},
+		"reportNotFound": {
+			"eng": "NEWS REPORT NOT FOUND",
+			"trans": "系統找不到報導"
+		},
+		"share": {
+			"eng": "SHARE",
+			"trans": "分享"
+		},
+		"slogan": {
+			"eng": "YOUR TRUSTED SOURCE FOR ARCLIGHT CITY NEWS AND EVENTS",
+			"trans": "幻光之城情報站，給你最靠譜的新聞與活動！"
+		}
+	},
+	"newsReport": {
+		"newReportAvailable": {
+			"eng": "The Arclight Chronicle has published today\\'s news report!",
+			"trans": "幻光編年史，今日快訊已上線！"
 		}
 	},
 	"noLoginSidebar": {
@@ -10812,6 +10896,20 @@
 				"trans": "超值價格！！"
 			}
 		},
+		"news": {
+			"adAction": {
+				"eng": "READ NOW",
+				"trans": "速看"
+			},
+			"live": {
+				"eng": "LIVE",
+				"trans": "實況"
+			},
+			"subtitle": {
+				"eng": "Latest updates from around Arclight City",
+				"trans": "幻光之城週邊快訊"
+			}
+		},
 		"wiki": {
 			"subtitle": {
 				"eng": "the free encyclopedia that anyone can edit",
@@ -10902,6 +11000,12 @@
 			"announcement": {
 				"eng": "${playerName} tried to mug someone but failed!",
 				"trans": "${playerName}試圖搶劫某人，但失敗了！"
+			}
+		},
+		"territoryControlTakeOver": {
+			"announcement": {
+				"eng": "${gang1} has taken over ${gang2} territory!",
+				"trans": "${gang1} 抄了 ${gang2} 的場！"
 			}
 		},
 		"upgradedEpic": {

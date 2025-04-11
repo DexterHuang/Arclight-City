@@ -406,16 +406,6 @@
 				"trans": "Online verfügbare Wohnungen ansehen"
 			}
 		},
-		"options": {
-			"terminateLease": {
-				"eng": "terminate lease",
-				"trans": "Mietvertrag kündigen"
-			},
-			"title": {
-				"eng": "Apartment Options",
-				"trans": "Wohnungsoptionen"
-			}
-		},
 		"playerModal": {
 			"details": {
 				"eng": "details",
@@ -429,24 +419,6 @@
 		"purchase": {
 			"eng": "view apartments",
 			"trans": "Wohnungen ansehen"
-		},
-		"terminateLease": {
-			"cancel": {
-				"eng": "cancel",
-				"trans": "Abbrechen"
-			},
-			"confirm": {
-				"eng": "terminate lease",
-				"trans": "Mietvertrag kündigen"
-			},
-			"title": {
-				"eng": "Terminate Lease",
-				"trans": "Mietvertrag kündigen"
-			},
-			"warning": {
-				"eng": "This will immediately terminate your apartment lease. You will NOT receive a refund.",
-				"trans": "Dies beendet umgehend Ihren Mietvertrag. Eine Rückerstattung wird NICHT gewährt."
-			}
 		},
 		"unclaimedDeliveries": {
 			"title": {
@@ -1452,7 +1424,8 @@
 				"trans": "Global"
 			},
 			"local": {
-				"eng": "Local"
+				"eng": "Local",
+				"trans": "Lokal"
 			},
 			"private": {
 				"eng": "Private",
@@ -5274,6 +5247,32 @@
 			"trans": "Aufrüsten"
 		}
 	},
+	"journalist": {
+		"anyaPetrova": {
+			"displayName": {
+				"eng": "Anya Petrova",
+				"trans": "Anya Petrova"
+			}
+		},
+		"jackJackson": {
+			"displayName": {
+				"eng": "Jack Jackson",
+				"trans": "Jake Jäger"
+			}
+		},
+		"kaiTanaka": {
+			"displayName": {
+				"eng": "Kai Tanaka",
+				"trans": "Kai Tanaka"
+			}
+		},
+		"zaraKhan": {
+			"displayName": {
+				"eng": "Zara Khan",
+				"trans": "Zara Khan"
+			}
+		}
+	},
 	"leaderboard": {
 		"clan": {
 			"name": {
@@ -6830,6 +6829,92 @@
 				"eng": "Vigilante",
 				"trans": "Vigilante"
 			}
+		}
+	},
+	"newsPage": {
+		"aboutAuthor": {
+			"eng": "ABOUT THE AUTHOR",
+			"trans": "ÜBER DEN AUTOR"
+		},
+		"backToList": {
+			"eng": "RETURN TO NEWS FEED",
+			"trans": "ZURÜCK ZU DEN NEWS"
+		},
+		"breaking": {
+			"eng": "BREAKING",
+			"trans": "Eilmeldung"
+		},
+		"error": {
+			"fetchFailed": {
+				"eng": "Failed to fetch news data",
+				"trans": "Nachrichten-Abruf fehlgeschlagen."
+			},
+			"loadMoreFailed": {
+				"eng": "Failed to load more news reports",
+				"trans": "Weitere Nachrichten konnten nicht geladen werden."
+			},
+			"missingId": {
+				"eng": "Missing report ID",
+				"trans": "Bericht-ID fehlt"
+			},
+			"reportNotFound": {
+				"eng": "News report not found",
+				"trans": "Zugriff fehlgeschlagen: Nachrichten"
+			}
+		},
+		"keyPoints": {
+			"eng": "KEY POINTS",
+			"trans": "KERNPUNKTE"
+		},
+		"latestNews": {
+			"eng": "LATEST REPORTS",
+			"trans": "Aktuelle Meldungen"
+		},
+		"loadMore": {
+			"eng": "LOAD MORE NEWS",
+			"trans": "Weitere Meldungen abrufen"
+		},
+		"loading": {
+			"eng": "ACCESSING DATA...",
+			"trans": "DATEN LADEN..."
+		},
+		"loadingMore": {
+			"eng": "LOADING MORE...",
+			"trans": "LÄDT NACH..."
+		},
+		"noNews": {
+			"eng": "NO NEWS DATA AVAILABLE",
+			"trans": "DATEN NICHT VERFÜGBAR"
+		},
+		"published": {
+			"eng": "PUBLISHED",
+			"trans": "Veröffentlicht"
+		},
+		"readMore": {
+			"eng": "READ MORE",
+			"trans": "Mehr erfahren"
+		},
+		"reportBy": {
+			"eng": "REPORT BY",
+			"trans": "Quelle"
+		},
+		"reportNotFound": {
+			"eng": "NEWS REPORT NOT FOUND",
+			"trans": "DATENSATZ NICHT GEFUNDEN"
+		},
+		"share": {
+			"eng": "SHARE",
+			"trans": "TEILEN"
+		},
+		"slogan": {
+			"eng": "YOUR TRUSTED SOURCE FOR ARCLIGHT CITY NEWS AND EVENTS",
+			"trans": "ARCLIGHT CITY AKTUELL: IHR VERTRAUTER NEWS- UND EVENT-SPOT"
+		}
+	},
+	"newsReport": {
+		"newReportAvailable": {
+			"eng": "The Arclight Chronicle has published today\\'s news report!",
+			"trans": "Die Arclight Chronik meldet: Der Nachrichtenbericht von heute ist draußen!"
 		}
 	},
 	"noLoginSidebar": {
@@ -10811,6 +10896,20 @@
 				"trans": "Günstiger Preis!!"
 			}
 		},
+		"news": {
+			"adAction": {
+				"eng": "READ NOW",
+				"trans": "ZUGREIFEN"
+			},
+			"live": {
+				"eng": "LIVE",
+				"trans": "LIVE"
+			},
+			"subtitle": {
+				"eng": "Latest updates from around Arclight City",
+				"trans": "Aktuelle Updates aus Arclight City"
+			}
+		},
 		"wiki": {
 			"subtitle": {
 				"eng": "the free encyclopedia that anyone can edit",
@@ -10901,6 +11000,12 @@
 			"announcement": {
 				"eng": "${playerName} tried to mug someone but failed!",
 				"trans": "${playerName} hat versucht, jemanden zu überfallen, ist aber gescheitert!"
+			}
+		},
+		"territoryControlTakeOver": {
+			"announcement": {
+				"eng": "${gang1} has taken over ${gang2} territory!",
+				"trans": "${gang1} hat das Revier von ${gang2} eingenommen!"
 			}
 		},
 		"upgradedEpic": {

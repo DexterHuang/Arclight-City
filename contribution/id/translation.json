@@ -406,16 +406,6 @@
 				"trans": "Lihat apartemen yang tersedia secara daring"
 			}
 		},
-		"options": {
-			"terminateLease": {
-				"eng": "terminate lease",
-				"trans": "Menghentikan kontrak sewa"
-			},
-			"title": {
-				"eng": "Apartment Options",
-				"trans": "Pilihan Apartemen"
-			}
-		},
 		"playerModal": {
 			"details": {
 				"eng": "details",
@@ -429,24 +419,6 @@
 		"purchase": {
 			"eng": "view apartments",
 			"trans": "Lihat apartemen"
-		},
-		"terminateLease": {
-			"cancel": {
-				"eng": "cancel",
-				"trans": "Batalkan"
-			},
-			"confirm": {
-				"eng": "terminate lease",
-				"trans": "Menghentikan kontrak sewa"
-			},
-			"title": {
-				"eng": "Terminate Lease",
-				"trans": "Akhiri Sewa"
-			},
-			"warning": {
-				"eng": "This will immediately terminate your apartment lease. You will NOT receive a refund.",
-				"trans": "Ini akan segera mengakhiri kontrak sewa apartemen Anda. Anda TIDAK akan menerima pengembalian dana."
-			}
 		},
 		"unclaimedDeliveries": {
 			"title": {
@@ -5275,6 +5247,32 @@
 			"trans": "Peningkatan"
 		}
 	},
+	"journalist": {
+		"anyaPetrova": {
+			"displayName": {
+				"eng": "Anya Petrova",
+				"trans": "Anya Petrova"
+			}
+		},
+		"jackJackson": {
+			"displayName": {
+				"eng": "Jack Jackson",
+				"trans": "Jack Jackson"
+			}
+		},
+		"kaiTanaka": {
+			"displayName": {
+				"eng": "Kai Tanaka",
+				"trans": "Kai Tanaka"
+			}
+		},
+		"zaraKhan": {
+			"displayName": {
+				"eng": "Zara Khan",
+				"trans": "Zara Khan"
+			}
+		}
+	},
 	"leaderboard": {
 		"clan": {
 			"name": {
@@ -6831,6 +6829,92 @@
 				"eng": "Vigilante",
 				"trans": "Vigilante"
 			}
+		}
+	},
+	"newsPage": {
+		"aboutAuthor": {
+			"eng": "ABOUT THE AUTHOR",
+			"trans": "INFO PENULIS"
+		},
+		"backToList": {
+			"eng": "RETURN TO NEWS FEED",
+			"trans": "Kembali ke Umpan Berita"
+		},
+		"breaking": {
+			"eng": "BREAKING",
+			"trans": "DARURAT"
+		},
+		"error": {
+			"fetchFailed": {
+				"eng": "Failed to fetch news data",
+				"trans": "Gagal mendapatkan berita."
+			},
+			"loadMoreFailed": {
+				"eng": "Failed to load more news reports",
+				"trans": "Gagal memuat berita tambahan."
+			},
+			"missingId": {
+				"eng": "Missing report ID",
+				"trans": "Gagal menemukan ID laporan."
+			},
+			"reportNotFound": {
+				"eng": "News report not found",
+				"trans": "Gagal: Laporan berita tidak ditemukan."
+			}
+		},
+		"keyPoints": {
+			"eng": "KEY POINTS",
+			"trans": "Poin Penting"
+		},
+		"latestNews": {
+			"eng": "LATEST REPORTS",
+			"trans": "Laporan Kilat"
+		},
+		"loadMore": {
+			"eng": "LOAD MORE NEWS",
+			"trans": "Muat Berita Berikutnya"
+		},
+		"loading": {
+			"eng": "ACCESSING DATA...",
+			"trans": "MEMUAT DATA..."
+		},
+		"loadingMore": {
+			"eng": "LOADING MORE...",
+			"trans": "PROSES..."
+		},
+		"noNews": {
+			"eng": "NO NEWS DATA AVAILABLE",
+			"trans": "FEED KOSONG"
+		},
+		"published": {
+			"eng": "PUBLISHED",
+			"trans": "DIPUBLIKASIKAN"
+		},
+		"readMore": {
+			"eng": "READ MORE",
+			"trans": "Selengkapnya"
+		},
+		"reportBy": {
+			"eng": "REPORT BY",
+			"trans": "SUMBER:"
+		},
+		"reportNotFound": {
+			"eng": "NEWS REPORT NOT FOUND",
+			"trans": "Laporan Berita Tidak Ditemukan"
+		},
+		"share": {
+			"eng": "SHARE",
+			"trans": "POST"
+		},
+		"slogan": {
+			"eng": "YOUR TRUSTED SOURCE FOR ARCLIGHT CITY NEWS AND EVENTS",
+			"trans": "RUJUKAN UTAMA ANDA UNTUK INFO DAN EVENT KOTA CAHAYA ARKLIT"
+		}
+	},
+	"newsReport": {
+		"newReportAvailable": {
+			"eng": "The Arclight Chronicle has published today\\'s news report!",
+			"trans": "The Arclight Chronicle: Laporan hari ini sudah keluar!"
 		}
 	},
 	"noLoginSidebar": {
@@ -10812,6 +10896,20 @@
 				"trans": "Harga Murah!!"
 			}
 		},
+		"news": {
+			"adAction": {
+				"eng": "READ NOW",
+				"trans": "GASKEUN!"
+			},
+			"live": {
+				"eng": "LIVE",
+				"trans": "LANGSUNG"
+			},
+			"subtitle": {
+				"eng": "Latest updates from around Arclight City",
+				"trans": "Update Arclight: Yang Terbaru"
+			}
+		},
 		"wiki": {
 			"subtitle": {
 				"eng": "the free encyclopedia that anyone can edit",
@@ -10902,6 +11000,12 @@
 			"announcement": {
 				"eng": "${playerName} tried to mug someone but failed!",
 				"trans": "${playerName} mencoba merampok seseorang namun gagal!"
+			}
+		},
+		"territoryControlTakeOver": {
+			"announcement": {
+				"eng": "${gang1} has taken over ${gang2} territory!",
+				"trans": "${gang1} rebut wilayah ${gang2}!"
 			}
 		},
 		"upgradedEpic": {

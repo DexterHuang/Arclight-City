@@ -406,16 +406,6 @@
 				"trans": "オンラインで利用可能なアパートを表示する"
 			}
 		},
-		"options": {
-			"terminateLease": {
-				"eng": "terminate lease",
-				"trans": "リースを解約する"
-			},
-			"title": {
-				"eng": "Apartment Options",
-				"trans": "アパート選択肢"
-			}
-		},
 		"playerModal": {
 			"details": {
 				"eng": "details",
@@ -429,24 +419,6 @@
 		"purchase": {
 			"eng": "view apartments",
 			"trans": "アパートを表示する"
-		},
-		"terminateLease": {
-			"cancel": {
-				"eng": "cancel",
-				"trans": "キャンセル"
-			},
-			"confirm": {
-				"eng": "terminate lease",
-				"trans": "リースを解約する"
-			},
-			"title": {
-				"eng": "Terminate Lease",
-				"trans": "リース契約を解除する"
-			},
-			"warning": {
-				"eng": "This will immediately terminate your apartment lease. You will NOT receive a refund.",
-				"trans": "これによって、あなたのアパートのリースが即時に終了します。返金は受けられません。"
-			}
 		},
 		"unclaimedDeliveries": {
 			"title": {
@@ -5275,6 +5247,32 @@
 			"trans": "アップグレード"
 		}
 	},
+	"journalist": {
+		"anyaPetrova": {
+			"displayName": {
+				"eng": "Anya Petrova",
+				"trans": "アニャ・ペトロワ"
+			}
+		},
+		"jackJackson": {
+			"displayName": {
+				"eng": "Jack Jackson",
+				"trans": "ジャック・ジャクソン"
+			}
+		},
+		"kaiTanaka": {
+			"displayName": {
+				"eng": "Kai Tanaka",
+				"trans": "田中 カイ (Tanaka Kai)"
+			}
+		},
+		"zaraKhan": {
+			"displayName": {
+				"eng": "Zara Khan",
+				"trans": "ザラ・カーン"
+			}
+		}
+	},
 	"leaderboard": {
 		"clan": {
 			"name": {
@@ -6831,6 +6829,92 @@
 				"eng": "Vigilante",
 				"trans": "自警団"
 			}
+		}
+	},
+	"newsPage": {
+		"aboutAuthor": {
+			"eng": "ABOUT THE AUTHOR",
+			"trans": "クリエイターについて"
+		},
+		"backToList": {
+			"eng": "RETURN TO NEWS FEED",
+			"trans": "ニュースハブへ"
+		},
+		"breaking": {
+			"eng": "BREAKING",
+			"trans": "速報！"
+		},
+		"error": {
+			"fetchFailed": {
+				"eng": "Failed to fetch news data",
+				"trans": "ニュース、アクセス不可。"
+			},
+			"loadMoreFailed": {
+				"eng": "Failed to load more news reports",
+				"trans": "ニュースフィードの読み込みエラー。"
+			},
+			"missingId": {
+				"eng": "Missing report ID",
+				"trans": "レポートID エラー"
+			},
+			"reportNotFound": {
+				"eng": "News report not found",
+				"trans": "ニュースレポート未発見"
+			}
+		},
+		"keyPoints": {
+			"eng": "KEY POINTS",
+			"trans": "要点 (You-ten)"
+		},
+		"latestNews": {
+			"eng": "LATEST REPORTS",
+			"trans": "最新情報"
+		},
+		"loadMore": {
+			"eng": "LOAD MORE NEWS",
+			"trans": "ニュース追加"
+		},
+		"loading": {
+			"eng": "ACCESSING DATA...",
+			"trans": "データ読み込み中..."
+		},
+		"loadingMore": {
+			"eng": "LOADING MORE...",
+			"trans": "もっと読み込んでる..."
+		},
+		"noNews": {
+			"eng": "NO NEWS DATA AVAILABLE",
+			"trans": "ニュースフィード、オフライン。"
+		},
+		"published": {
+			"eng": "PUBLISHED",
+			"trans": "リリース"
+		},
+		"readMore": {
+			"eng": "READ MORE",
+			"trans": "詳しく見る"
+		},
+		"reportBy": {
+			"eng": "REPORT BY",
+			"trans": "発信元"
+		},
+		"reportNotFound": {
+			"eng": "NEWS REPORT NOT FOUND",
+			"trans": "ニュースレポート取得失敗"
+		},
+		"share": {
+			"eng": "SHARE",
+			"trans": "シェア"
+		},
+		"slogan": {
+			"eng": "YOUR TRUSTED SOURCE FOR ARCLIGHT CITY NEWS AND EVENTS",
+			"trans": "アークライト・シティ情報局。信頼できるニュースとイベント。"
+		}
+	},
+	"newsReport": {
+		"newReportAvailable": {
+			"eng": "The Arclight Chronicle has published today\\'s news report!",
+			"trans": "アークライト・クロニクル、速報！今日のニュース！"
 		}
 	},
 	"noLoginSidebar": {
@@ -10812,6 +10896,20 @@
 				"trans": "お手頃価格！！"
 			}
 		},
+		"news": {
+			"adAction": {
+				"eng": "READ NOW",
+				"trans": "今すぐアクセス"
+			},
+			"live": {
+				"eng": "LIVE",
+				"trans": "オン (on)"
+			},
+			"subtitle": {
+				"eng": "Latest updates from around Arclight City",
+				"trans": "アークライト・シティの裏情報アップデート"
+			}
+		},
 		"wiki": {
 			"subtitle": {
 				"eng": "the free encyclopedia that anyone can edit",
@@ -10902,6 +11000,12 @@
 			"announcement": {
 				"eng": "${playerName} tried to mug someone but failed!",
 				"trans": "${playerName}は誰かを脅したが、失敗した！"
+			}
+		},
+		"territoryControlTakeOver": {
+			"announcement": {
+				"eng": "${gang1} has taken over ${gang2} territory!",
+				"trans": "${gang1}が${gang2}の縄張りをブッ潰した！"
 			}
 		},
 		"upgradedEpic": {

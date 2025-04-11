@@ -406,16 +406,6 @@
 				"trans": "온라인으로 이용 가능한 아파트를 확인하세요"
 			}
 		},
-		"options": {
-			"terminateLease": {
-				"eng": "terminate lease",
-				"trans": "임대 계약 해지"
-			},
-			"title": {
-				"eng": "Apartment Options",
-				"trans": "아파트 선택"
-			}
-		},
 		"playerModal": {
 			"details": {
 				"eng": "details",
@@ -429,24 +419,6 @@
 		"purchase": {
 			"eng": "view apartments",
 			"trans": "아파트 보기"
-		},
-		"terminateLease": {
-			"cancel": {
-				"eng": "cancel",
-				"trans": "취소"
-			},
-			"confirm": {
-				"eng": "terminate lease",
-				"trans": "임대 계약 해지"
-			},
-			"title": {
-				"eng": "Terminate Lease",
-				"trans": "임대 계약 해지"
-			},
-			"warning": {
-				"eng": "This will immediately terminate your apartment lease. You will NOT receive a refund.",
-				"trans": "이로 인해 당신의 아파트 임대 계약이 즉시 해지됩니다. 환불은 제공되지 않습니다."
-			}
 		},
 		"unclaimedDeliveries": {
 			"title": {
@@ -5275,6 +5247,32 @@
 			"trans": "업그레이드"
 		}
 	},
+	"journalist": {
+		"anyaPetrova": {
+			"displayName": {
+				"eng": "Anya Petrova",
+				"trans": "Anya Petrova"
+			}
+		},
+		"jackJackson": {
+			"displayName": {
+				"eng": "Jack Jackson",
+				"trans": "잭 잭슨"
+			}
+		},
+		"kaiTanaka": {
+			"displayName": {
+				"eng": "Kai Tanaka",
+				"trans": "카이 타나카"
+			}
+		},
+		"zaraKhan": {
+			"displayName": {
+				"eng": "Zara Khan",
+				"trans": "자라 칸"
+			}
+		}
+	},
 	"leaderboard": {
 		"clan": {
 			"name": {
@@ -6831,6 +6829,92 @@
 				"eng": "Vigilante",
 				"trans": "자경단"
 			}
+		}
+	},
+	"newsPage": {
+		"aboutAuthor": {
+			"eng": "ABOUT THE AUTHOR",
+			"trans": "작가 소개"
+		},
+		"backToList": {
+			"eng": "RETURN TO NEWS FEED",
+			"trans": "뉴스 확인"
+		},
+		"breaking": {
+			"eng": "BREAKING",
+			"trans": "터졌다!"
+		},
+		"error": {
+			"fetchFailed": {
+				"eng": "Failed to fetch news data",
+				"trans": "뉴스 로드 실패."
+			},
+			"loadMoreFailed": {
+				"eng": "Failed to load more news reports",
+				"trans": "추가 뉴스 로딩 실패."
+			},
+			"missingId": {
+				"eng": "Missing report ID",
+				"trans": "보고서 ID를 찾을 수 없음."
+			},
+			"reportNotFound": {
+				"eng": "News report not found",
+				"trans": "데이터 없음."
+			}
+		},
+		"keyPoints": {
+			"eng": "KEY POINTS",
+			"trans": "핵심"
+		},
+		"latestNews": {
+			"eng": "LATEST REPORTS",
+			"trans": "최신 리포트 (Choesin riporteu)"
+		},
+		"loadMore": {
+			"eng": "LOAD MORE NEWS",
+			"trans": "뉴스 더 보기"
+		},
+		"loading": {
+			"eng": "ACCESSING DATA...",
+			"trans": "데이터 로딩..."
+		},
+		"loadingMore": {
+			"eng": "LOADING MORE...",
+			"trans": "데이터 긁어오는 중..."
+		},
+		"noNews": {
+			"eng": "NO NEWS DATA AVAILABLE",
+			"trans": "데이터 없음"
+		},
+		"published": {
+			"eng": "PUBLISHED",
+			"trans": "공개됨 (gong-gae-doem) - General release/publication.\n게시됨 (gye-si-doem) - Posted/Published (for news, updates, etc.)\n배포됨 (bae-po-doem) - Distributed/Released (for content)\n업로드됨 (eop-ro-deu-doem) - Uploaded (for user-generated content)\n뿌려짐 (ppeu-ryeo-jim) - Scattered/Spread (for a more cyberpunk feel)"
+		},
+		"readMore": {
+			"eng": "READ MORE",
+			"trans": "자세히 보기"
+		},
+		"reportBy": {
+			"eng": "REPORT BY",
+			"trans": "출처"
+		},
+		"reportNotFound": {
+			"eng": "NEWS REPORT NOT FOUND",
+			"trans": "뉴스 보고서 없음"
+		},
+		"share": {
+			"eng": "SHARE",
+			"trans": "퍼가기"
+		},
+		"slogan": {
+			"eng": "YOUR TRUSTED SOURCE FOR ARCLIGHT CITY NEWS AND EVENTS",
+			"trans": "아크라이트 시티, 믿고 보는 뉴스! (Arclight City, news you can trust!)"
+		}
+	},
+	"newsReport": {
+		"newReportAvailable": {
+			"eng": "The Arclight Chronicle has published today\\'s news report!",
+			"trans": "오늘, 아크라이트 크로니클에서 최신 뉴스 속보가 떴다!"
 		}
 	},
 	"noLoginSidebar": {
@@ -10812,6 +10896,20 @@
 				"trans": "싸다!!"
 			}
 		},
+		"news": {
+			"adAction": {
+				"eng": "READ NOW",
+				"trans": "지금 읽어봐"
+			},
+			"live": {
+				"eng": "LIVE",
+				"trans": "살아있음"
+			},
+			"subtitle": {
+				"eng": "Latest updates from around Arclight City",
+				"trans": "아크라이트 시티 핫이슈"
+			}
+		},
 		"wiki": {
 			"subtitle": {
 				"eng": "the free encyclopedia that anyone can edit",
@@ -10902,6 +11000,12 @@
 			"announcement": {
 				"eng": "${playerName} tried to mug someone but failed!",
 				"trans": "${playerName}은(는) 누군가를 강도질하려 했지만 실패했습니다!"
+			}
+		},
+		"territoryControlTakeOver": {
+			"announcement": {
+				"eng": "${gang1} has taken over ${gang2} territory!",
+				"trans": "${gang1} 패거리가 ${gang2} 구역을 접수했어!"
 			}
 		},
 		"upgradedEpic": {
