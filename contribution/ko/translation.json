@@ -406,6 +406,16 @@
 				"trans": "온라인으로 이용 가능한 아파트를 확인하세요"
 			}
 		},
+		"options": {
+			"terminateLease": {
+				"eng": "terminate lease",
+				"trans": "계약 해지"
+			},
+			"title": {
+				"eng": "Apartment Options",
+				"trans": "아파트 설정"
+			}
+		},
 		"playerModal": {
 			"details": {
 				"eng": "details",
@@ -419,6 +429,24 @@
 		"purchase": {
 			"eng": "view apartments",
 			"trans": "아파트 보기"
+		},
+		"terminateLease": {
+			"cancel": {
+				"eng": "cancel",
+				"trans": "취소"
+			},
+			"confirm": {
+				"eng": "terminate lease",
+				"trans": "계약 해지"
+			},
+			"title": {
+				"eng": "Terminate Lease",
+				"trans": "리스 청산"
+			},
+			"warning": {
+				"eng": "This will immediately terminate your apartment lease. You will NOT receive a refund.",
+				"trans": "이걸로 아파트 임대 계약은 즉시 파기. 환불은 없다."
+			}
 		},
 		"unclaimedDeliveries": {
 			"title": {
@@ -2813,6 +2841,62 @@
 			}
 		}
 	},
+	"emoji": {
+		"angry": {
+			"displayName": {
+				"eng": "Angry",
+				"trans": "빡침"
+			}
+		},
+		"eyes": {
+			"displayName": {
+				"eng": "Eyes",
+				"trans": "눈"
+			}
+		},
+		"fire": {
+			"displayName": {
+				"eng": "Fire",
+				"trans": "발사"
+			}
+		},
+		"heart": {
+			"displayName": {
+				"eng": "Love",
+				"trans": "러브"
+			}
+		},
+		"potato": {
+			"displayName": {
+				"eng": "Potato",
+				"trans": "허접"
+			}
+		},
+		"sad": {
+			"displayName": {
+				"eng": "Sad",
+				"trans": "우울"
+			}
+		},
+		"thumbsup": {
+			"displayName": {
+				"eng": "Like",
+				"trans": "좋아요"
+			}
+		},
+		"worship": {
+			"displayName": {
+				"eng": "worship",
+				"trans": "숭배"
+			}
+		},
+		"wow": {
+			"displayName": {
+				"eng": "Wow",
+				"trans": "대박"
+			}
+		}
+	},
 	"enemyEvent": {
 		"description": {
 			"eng": "This event triggers rarely when you are exploring and fighting enemies",
@@ -3002,9 +3086,9 @@
 		}
 	},
 	"errorBoundary": {
-		"description": {
-			"eng": "Error report has been sent to the developer. \\nIf this error persists, please contact the developer at ${email}",
-			"trans": "오류 보고서가 개발자에게 전송되었습니다. \\n만약 이 오류가 계속 발생한다면, ${email}으로 개발자에게 연락해주세요"
+		"description1": {
+			"eng": "Error report has been sent to the developer. \\nIf this error persists, please contact the developer",
+			"trans": "오류 리포트가 개발자에게 전송되었습니다.\n문제가 지속되면 개발자에게 문의해주세요."
 		},
 		"restart": {
 			"eng": "Restart",
@@ -6836,6 +6920,10 @@
 			"eng": "ABOUT THE AUTHOR",
 			"trans": "작가 소개"
 		},
+		"backButton": {
+			"eng": "ALL NEWS",
+			"trans": "뉴스 전체"
+		},
 		"backToList": {
 			"eng": "RETURN TO NEWS FEED",
 			"trans": "뉴스 확인"
@@ -6844,15 +6932,13 @@
 			"eng": "BREAKING",
 			"trans": "터졌다!"
 		},
+		"emoji": {
+			"noEmojiYet": {
+				"eng": "No reactions yet",
+				"trans": "아직 반응이 없습니다"
+			}
+		},
 		"error": {
-			"fetchFailed": {
-				"eng": "Failed to fetch news data",
-				"trans": "뉴스 로드 실패."
-			},
-			"loadMoreFailed": {
-				"eng": "Failed to load more news reports",
-				"trans": "추가 뉴스 로딩 실패."
-			},
 			"missingId": {
 				"eng": "Missing report ID",
 				"trans": "보고서 ID를 찾을 수 없음."
@@ -6862,25 +6948,21 @@
 				"trans": "데이터 없음."
 			}
 		},
+		"featuredStory": {
+			"eng": "FEATURED STORY",
+			"trans": "특집 스토리"
+		},
 		"keyPoints": {
 			"eng": "KEY POINTS",
 			"trans": "핵심"
 		},
 		"latestNews": {
 			"eng": "LATEST REPORTS",
-			"trans": "최신 리포트 (Choesin riporteu)"
-		},
-		"loadMore": {
-			"eng": "LOAD MORE NEWS",
-			"trans": "뉴스 더 보기"
+			"trans": "최신 뉴스"
 		},
 		"loading": {
 			"eng": "ACCESSING DATA...",
 			"trans": "데이터 로딩..."
-		},
-		"loadingMore": {
-			"eng": "LOADING MORE...",
-			"trans": "데이터 긁어오는 중..."
 		},
 		"noNews": {
 			"eng": "NO NEWS DATA AVAILABLE",
@@ -6889,6 +6971,20 @@
 		"published": {
 			"eng": "PUBLISHED",
 			"trans": "공개됨 (gong-gae-doem) - General release/publication.\n게시됨 (gye-si-doem) - Posted/Published (for news, updates, etc.)\n배포됨 (bae-po-doem) - Distributed/Released (for content)\n업로드됨 (eop-ro-deu-doem) - Uploaded (for user-generated content)\n뿌려짐 (ppeu-ryeo-jim) - Scattered/Spread (for a more cyberpunk feel)"
+		},
+		"reactions": {
+			"loginPrompt": {
+				"eng": "You need to log in to react to news posts",
+				"trans": "로그인해야 뉴스 게시물에 반응할 수 있습니다."
+			},
+			"react": {
+				"eng": "REACT",
+				"trans": "실행"
+			},
+			"total": {
+				"eng": "reactions",
+				"trans": "리액션"
+			}
 		},
 		"readMore": {
 			"eng": "READ MORE",
@@ -6915,6 +7011,10 @@
 		"newReportAvailable": {
 			"eng": "The Arclight Chronicle has published today\\'s news report!",
 			"trans": "오늘, 아크라이트 크로니클에서 최신 뉴스 속보가 떴다!"
+		},
+		"newsReportGenerated": {
+			"eng": "Arclight Times posted a new news report",
+			"trans": "아크라이트 타임즈, 속보: 새 뉴스."
 		}
 	},
 	"noLoginSidebar": {
@@ -8746,6 +8846,10 @@
 				"eng": "You cannot engage this player",
 				"trans": "이 플레이어와는 전투할 수 없습니다"
 			},
+			"cannotEngageAlt": {
+				"eng": "You cannot attack this player due to alt detection",
+				"trans": "알트 감지 시스템에 의해 이 플레이어는 공격 불가."
+			},
 			"cannotEngageInDungeon": {
 				"eng": "You cannot engage in PvP while in a dungeon",
 				"trans": "던전 안에서는 PVP에 참여할 수 없습니다"
@@ -10402,6 +10506,10 @@
 		"mercenary3": {
 			"eng": "Click here to recruit 10 new mercenaries",
 			"trans": "10명의 신규 용병을 모집하려면 여기를 클릭하세요"
+		},
+		"newsReaction": {
+			"eng": "React to news reports to receive Credits and gain points for your Corporation!",
+			"trans": "뉴스 보도에 반응하면 크레딧 획득, 기업 기여도 상승!"
 		},
 		"quest": {
 			"eng": "Click here to view your quests.",

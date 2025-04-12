@@ -406,6 +406,16 @@
 				"trans": "オンラインで利用可能なアパートを表示する"
 			}
 		},
+		"options": {
+			"terminateLease": {
+				"eng": "terminate lease",
+				"trans": "契約を打ち切り"
+			},
+			"title": {
+				"eng": "Apartment Options",
+				"trans": "アパート設定"
+			}
+		},
 		"playerModal": {
 			"details": {
 				"eng": "details",
@@ -419,6 +429,24 @@
 		"purchase": {
 			"eng": "view apartments",
 			"trans": "アパートを表示する"
+		},
+		"terminateLease": {
+			"cancel": {
+				"eng": "cancel",
+				"trans": "キャンセル"
+			},
+			"confirm": {
+				"eng": "terminate lease",
+				"trans": "契約を打ち切り"
+			},
+			"title": {
+				"eng": "Terminate Lease",
+				"trans": "リースの解約"
+			},
+			"warning": {
+				"eng": "This will immediately terminate your apartment lease. You will NOT receive a refund.",
+				"trans": "この件で、アパートの契約は即時解除。返金はゼロだ。"
+			}
 		},
 		"unclaimedDeliveries": {
 			"title": {
@@ -2813,6 +2841,62 @@
 			}
 		}
 	},
+	"emoji": {
+		"angry": {
+			"displayName": {
+				"eng": "Angry",
+				"trans": "キレてる"
+			}
+		},
+		"eyes": {
+			"displayName": {
+				"eng": "Eyes",
+				"trans": "アイズ"
+			}
+		},
+		"fire": {
+			"displayName": {
+				"eng": "Fire",
+				"trans": "ファイア"
+			}
+		},
+		"heart": {
+			"displayName": {
+				"eng": "Love",
+				"trans": "執着"
+			}
+		},
+		"potato": {
+			"displayName": {
+				"eng": "Potato",
+				"trans": "ポンコツ"
+			}
+		},
+		"sad": {
+			"displayName": {
+				"eng": "Sad",
+				"trans": "ロー"
+			}
+		},
+		"thumbsup": {
+			"displayName": {
+				"eng": "Like",
+				"trans": "いいね"
+			}
+		},
+		"worship": {
+			"displayName": {
+				"eng": "worship",
+				"trans": "傾倒"
+			}
+		},
+		"wow": {
+			"displayName": {
+				"eng": "Wow",
+				"trans": "やばい"
+			}
+		}
+	},
 	"enemyEvent": {
 		"description": {
 			"eng": "This event triggers rarely when you are exploring and fighting enemies",
@@ -3002,9 +3086,9 @@
 		}
 	},
 	"errorBoundary": {
-		"description": {
-			"eng": "Error report has been sent to the developer. \\nIf this error persists, please contact the developer at ${email}",
-			"trans": "エラーレポートは開発者に送信されました。\\nこのエラーが解決しない場合は、${email}で開発者に連絡してください。"
+		"description1": {
+			"eng": "Error report has been sent to the developer. \\nIf this error persists, please contact the developer",
+			"trans": "エラーが発生しました。開発者へ報告済みです。\\nまだ問題が解決しない場合は、開発者にご連絡ください。"
 		},
 		"restart": {
 			"eng": "Restart",
@@ -6836,6 +6920,10 @@
 			"eng": "ABOUT THE AUTHOR",
 			"trans": "クリエイターについて"
 		},
+		"backButton": {
+			"eng": "ALL NEWS",
+			"trans": "全ニュース"
+		},
 		"backToList": {
 			"eng": "RETURN TO NEWS FEED",
 			"trans": "ニュースハブへ"
@@ -6844,15 +6932,13 @@
 			"eng": "BREAKING",
 			"trans": "速報！"
 		},
+		"emoji": {
+			"noEmojiYet": {
+				"eng": "No reactions yet",
+				"trans": "反応なし"
+			}
+		},
 		"error": {
-			"fetchFailed": {
-				"eng": "Failed to fetch news data",
-				"trans": "ニュース、アクセス不可。"
-			},
-			"loadMoreFailed": {
-				"eng": "Failed to load more news reports",
-				"trans": "ニュースフィードの読み込みエラー。"
-			},
 			"missingId": {
 				"eng": "Missing report ID",
 				"trans": "レポートID エラー"
@@ -6862,6 +6948,10 @@
 				"trans": "ニュースレポート未発見"
 			}
 		},
+		"featuredStory": {
+			"eng": "FEATURED STORY",
+			"trans": "ハイライトストーリー"
+		},
 		"keyPoints": {
 			"eng": "KEY POINTS",
 			"trans": "要点 (You-ten)"
@@ -6870,17 +6960,9 @@
 			"eng": "LATEST REPORTS",
 			"trans": "最新情報"
 		},
-		"loadMore": {
-			"eng": "LOAD MORE NEWS",
-			"trans": "ニュース追加"
-		},
 		"loading": {
 			"eng": "ACCESSING DATA...",
 			"trans": "データ読み込み中..."
-		},
-		"loadingMore": {
-			"eng": "LOADING MORE...",
-			"trans": "もっと読み込んでる..."
 		},
 		"noNews": {
 			"eng": "NO NEWS DATA AVAILABLE",
@@ -6889,6 +6971,20 @@
 		"published": {
 			"eng": "PUBLISHED",
 			"trans": "リリース"
+		},
+		"reactions": {
+			"loginPrompt": {
+				"eng": "You need to log in to react to news posts",
+				"trans": "ニュースにイイネとかしたいなら、ログインしてね。"
+			},
+			"react": {
+				"eng": "REACT",
+				"trans": "実行"
+			},
+			"total": {
+				"eng": "reactions",
+				"trans": "リアクション"
+			}
 		},
 		"readMore": {
 			"eng": "READ MORE",
@@ -6915,6 +7011,10 @@
 		"newReportAvailable": {
 			"eng": "The Arclight Chronicle has published today\\'s news report!",
 			"trans": "アークライト・クロニクル、速報！今日のニュース！"
+		},
+		"newsReportGenerated": {
+			"eng": "Arclight Times posted a new news report",
+			"trans": "アークライト・タイムズ、ニュース速報。"
 		}
 	},
 	"noLoginSidebar": {
@@ -8746,6 +8846,10 @@
 				"eng": "You cannot engage this player",
 				"trans": "このプレイヤーとは対戦できません。"
 			},
+			"cannotEngageAlt": {
+				"eng": "You cannot attack this player due to alt detection",
+				"trans": "サブ垢(アルト)とシステムが判断したため、攻撃できません。"
+			},
 			"cannotEngageInDungeon": {
 				"eng": "You cannot engage in PvP while in a dungeon",
 				"trans": "ダンジョン内ではPvPに参加できません。"
@@ -10402,6 +10506,10 @@
 		"mercenary3": {
 			"eng": "Click here to recruit 10 new mercenaries",
 			"trans": "新しく10人の傭兵を雇うためにここを選択してください。"
+		},
+		"newsReaction": {
+			"eng": "React to news reports to receive Credits and gain points for your Corporation!",
+			"trans": "ニュースを読んで、クレジットとコーポレートポイントをゲット！所属企業への貢献度もアップ！"
 		},
 		"quest": {
 			"eng": "Click here to view your quests.",

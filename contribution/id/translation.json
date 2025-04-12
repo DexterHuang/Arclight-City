@@ -406,6 +406,16 @@
 				"trans": "Lihat apartemen yang tersedia secara daring"
 			}
 		},
+		"options": {
+			"terminateLease": {
+				"eng": "terminate lease",
+				"trans": "Akhiri sewa"
+			},
+			"title": {
+				"eng": "Apartment Options",
+				"trans": "Pilihan Apartemen"
+			}
+		},
 		"playerModal": {
 			"details": {
 				"eng": "details",
@@ -419,6 +429,24 @@
 		"purchase": {
 			"eng": "view apartments",
 			"trans": "Lihat apartemen"
+		},
+		"terminateLease": {
+			"cancel": {
+				"eng": "cancel",
+				"trans": "Batal"
+			},
+			"confirm": {
+				"eng": "terminate lease",
+				"trans": "Akhiri sewa"
+			},
+			"title": {
+				"eng": "Terminate Lease",
+				"trans": "Sewa Diputus"
+			},
+			"warning": {
+				"eng": "This will immediately terminate your apartment lease. You will NOT receive a refund.",
+				"trans": "Sewa apartemenmu langsung diputus. Tanpa refund, titik."
+			}
 		},
 		"unclaimedDeliveries": {
 			"title": {
@@ -2813,6 +2841,62 @@
 			}
 		}
 	},
+	"emoji": {
+		"angry": {
+			"displayName": {
+				"eng": "Angry",
+				"trans": "Marah"
+			}
+		},
+		"eyes": {
+			"displayName": {
+				"eng": "Eyes",
+				"trans": "Penglihatan"
+			}
+		},
+		"fire": {
+			"displayName": {
+				"eng": "Fire",
+				"trans": "Tembak"
+			}
+		},
+		"heart": {
+			"displayName": {
+				"eng": "Love",
+				"trans": "Cinta"
+			}
+		},
+		"potato": {
+			"displayName": {
+				"eng": "Potato",
+				"trans": "Kentang"
+			}
+		},
+		"sad": {
+			"displayName": {
+				"eng": "Sad",
+				"trans": "Ngenes"
+			}
+		},
+		"thumbsup": {
+			"displayName": {
+				"eng": "Like",
+				"trans": "Suka"
+			}
+		},
+		"worship": {
+			"displayName": {
+				"eng": "worship",
+				"trans": "Pengagungan"
+			}
+		},
+		"wow": {
+			"displayName": {
+				"eng": "Wow",
+				"trans": "Gila"
+			}
+		}
+	},
 	"enemyEvent": {
 		"description": {
 			"eng": "This event triggers rarely when you are exploring and fighting enemies",
@@ -3002,9 +3086,9 @@
 		}
 	},
 	"errorBoundary": {
-		"description": {
-			"eng": "Error report has been sent to the developer. \\nIf this error persists, please contact the developer at ${email}",
-			"trans": "Laporan kesalahan telah dikirim ke pengembang. \nJika kesalahan ini berlanjut, silakan hubungi pengembang di ${email}"
+		"description1": {
+			"eng": "Error report has been sent to the developer. \\nIf this error persists, please contact the developer",
+			"trans": "Laporan galat sudah dikirim ke developer.\nKalau galat ini masih muncul, hubungi developernya."
 		},
 		"restart": {
 			"eng": "Restart",
@@ -6836,6 +6920,10 @@
 			"eng": "ABOUT THE AUTHOR",
 			"trans": "INFO PENULIS"
 		},
+		"backButton": {
+			"eng": "ALL NEWS",
+			"trans": "BERITA LENGKAP"
+		},
 		"backToList": {
 			"eng": "RETURN TO NEWS FEED",
 			"trans": "Kembali ke Umpan Berita"
@@ -6844,15 +6932,13 @@
 			"eng": "BREAKING",
 			"trans": "DARURAT"
 		},
+		"emoji": {
+			"noEmojiYet": {
+				"eng": "No reactions yet",
+				"trans": "Nggak ada reaksi."
+			}
+		},
 		"error": {
-			"fetchFailed": {
-				"eng": "Failed to fetch news data",
-				"trans": "Gagal mendapatkan berita."
-			},
-			"loadMoreFailed": {
-				"eng": "Failed to load more news reports",
-				"trans": "Gagal memuat berita tambahan."
-			},
 			"missingId": {
 				"eng": "Missing report ID",
 				"trans": "Gagal menemukan ID laporan."
@@ -6862,6 +6948,10 @@
 				"trans": "Gagal: Laporan berita tidak ditemukan."
 			}
 		},
+		"featuredStory": {
+			"eng": "FEATURED STORY",
+			"trans": "SOROTAN CERITA"
+		},
 		"keyPoints": {
 			"eng": "KEY POINTS",
 			"trans": "Poin Penting"
@@ -6870,17 +6960,9 @@
 			"eng": "LATEST REPORTS",
 			"trans": "Laporan Kilat"
 		},
-		"loadMore": {
-			"eng": "LOAD MORE NEWS",
-			"trans": "Muat Berita Berikutnya"
-		},
 		"loading": {
 			"eng": "ACCESSING DATA...",
 			"trans": "MEMUAT DATA..."
-		},
-		"loadingMore": {
-			"eng": "LOADING MORE...",
-			"trans": "PROSES..."
 		},
 		"noNews": {
 			"eng": "NO NEWS DATA AVAILABLE",
@@ -6889,6 +6971,20 @@
 		"published": {
 			"eng": "PUBLISHED",
 			"trans": "DIPUBLIKASIKAN"
+		},
+		"reactions": {
+			"loginPrompt": {
+				"eng": "You need to log in to react to news posts",
+				"trans": "Login dulu, baru bisa bereaksi di postingan berita."
+			},
+			"react": {
+				"eng": "REACT",
+				"trans": "AKTIFKAN"
+			},
+			"total": {
+				"eng": "reactions",
+				"trans": "Reaksi"
+			}
 		},
 		"readMore": {
 			"eng": "READ MORE",
@@ -6915,6 +7011,10 @@
 		"newReportAvailable": {
 			"eng": "The Arclight Chronicle has published today\\'s news report!",
 			"trans": "The Arclight Chronicle: Laporan hari ini sudah keluar!"
+		},
+		"newsReportGenerated": {
+			"eng": "Arclight Times posted a new news report",
+			"trans": "Arclight Times: Laporan berita baru."
 		}
 	},
 	"noLoginSidebar": {
@@ -8746,6 +8846,10 @@
 				"eng": "You cannot engage this player",
 				"trans": "Anda tidak dapat melawan pemain ini"
 			},
+			"cannotEngageAlt": {
+				"eng": "You cannot attack this player due to alt detection",
+				"trans": "Tidak bisa menyerang. Terdeteksi akun lain dari pemain ini."
+			},
 			"cannotEngageInDungeon": {
 				"eng": "You cannot engage in PvP while in a dungeon",
 				"trans": "Kamu tidak dapat berpartisipasi dalam PvP saat berada di dalam dungeon"
@@ -10402,6 +10506,10 @@
 		"mercenary3": {
 			"eng": "Click here to recruit 10 new mercenaries",
 			"trans": "Klik di sini untuk merekrut 10 tentara bayaran baru"
+		},
+		"newsReaction": {
+			"eng": "React to news reports to receive Credits and gain points for your Corporation!",
+			"trans": "Sambut laporan berita untuk raih Kredit dan poin Korporasi!"
 		},
 		"quest": {
 			"eng": "Click here to view your quests.",

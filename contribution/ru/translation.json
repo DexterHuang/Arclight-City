@@ -406,6 +406,16 @@
 				"trans": "Просмотреть доступные квартиры онлайн"
 			}
 		},
+		"options": {
+			"terminateLease": {
+				"eng": "terminate lease",
+				"trans": "Деактивировать договор"
+			},
+			"title": {
+				"eng": "Apartment Options",
+				"trans": "Настройки квартиры"
+			}
+		},
 		"playerModal": {
 			"details": {
 				"eng": "details",
@@ -419,6 +429,24 @@
 		"purchase": {
 			"eng": "view apartments",
 			"trans": "просмотреть квартиры"
+		},
+		"terminateLease": {
+			"cancel": {
+				"eng": "cancel",
+				"trans": "Отмена"
+			},
+			"confirm": {
+				"eng": "terminate lease",
+				"trans": "Деактивировать договор"
+			},
+			"title": {
+				"eng": "Terminate Lease",
+				"trans": "Расторгнуть договор"
+			},
+			"warning": {
+				"eng": "This will immediately terminate your apartment lease. You will NOT receive a refund.",
+				"trans": "Ваш договор аренды будет расторгнут немедленно. Возврат средств НЕ предусмотрен."
+			}
 		},
 		"unclaimedDeliveries": {
 			"title": {
@@ -2813,6 +2841,62 @@
 			}
 		}
 	},
+	"emoji": {
+		"angry": {
+			"displayName": {
+				"eng": "Angry",
+				"trans": "Разъяренный"
+			}
+		},
+		"eyes": {
+			"displayName": {
+				"eng": "Eyes",
+				"trans": "Оптика"
+			}
+		},
+		"fire": {
+			"displayName": {
+				"eng": "Fire",
+				"trans": "Огонь!"
+			}
+		},
+		"heart": {
+			"displayName": {
+				"eng": "Love",
+				"trans": "Любовь"
+			}
+		},
+		"potato": {
+			"displayName": {
+				"eng": "Potato",
+				"trans": "Картошка"
+			}
+		},
+		"sad": {
+			"displayName": {
+				"eng": "Sad",
+				"trans": "Уныло"
+			}
+		},
+		"thumbsup": {
+			"displayName": {
+				"eng": "Like",
+				"trans": "Лайк"
+			}
+		},
+		"worship": {
+			"displayName": {
+				"eng": "worship",
+				"trans": "Культ"
+			}
+		},
+		"wow": {
+			"displayName": {
+				"eng": "Wow",
+				"trans": "Чётко!"
+			}
+		}
+	},
 	"enemyEvent": {
 		"description": {
 			"eng": "This event triggers rarely when you are exploring and fighting enemies",
@@ -3002,9 +3086,9 @@
 		}
 	},
 	"errorBoundary": {
-		"description": {
-			"eng": "Error report has been sent to the developer. \\nIf this error persists, please contact the developer at ${email}",
-			"trans": "Отчет об ошибке был отправлен разработчику. \\nЕсли ошибка продолжает возникать, пожалуйста, свяжитесь с разработчиком по адресу ${email}"
+		"description1": {
+			"eng": "Error report has been sent to the developer. \\nIf this error persists, please contact the developer",
+			"trans": "Сообщение об ошибке отправлено разработчику.\nЕсли проблема не исчезнет, обратитесь к разработчику."
 		},
 		"restart": {
 			"eng": "Restart",
@@ -6836,6 +6920,10 @@
 			"eng": "ABOUT THE AUTHOR",
 			"trans": "Автор"
 		},
+		"backButton": {
+			"eng": "ALL NEWS",
+			"trans": "Все новости"
+		},
 		"backToList": {
 			"eng": "RETURN TO NEWS FEED",
 			"trans": "Назад к новостям"
@@ -6844,15 +6932,13 @@
 			"eng": "BREAKING",
 			"trans": "Срочно"
 		},
+		"emoji": {
+			"noEmojiYet": {
+				"eng": "No reactions yet",
+				"trans": "Нет реакции."
+			}
+		},
 		"error": {
-			"fetchFailed": {
-				"eng": "Failed to fetch news data",
-				"trans": "Ошибка при загрузке новостей."
-			},
-			"loadMoreFailed": {
-				"eng": "Failed to load more news reports",
-				"trans": "Система не смогла подтянуть больше новостей."
-			},
 			"missingId": {
 				"eng": "Missing report ID",
 				"trans": "ID отчёта не найден"
@@ -6862,6 +6948,10 @@
 				"trans": "Ошибка: Новостной репортаж не найден."
 			}
 		},
+		"featuredStory": {
+			"eng": "FEATURED STORY",
+			"trans": "Избранная история"
+		},
 		"keyPoints": {
 			"eng": "KEY POINTS",
 			"trans": "Главное"
@@ -6870,17 +6960,9 @@
 			"eng": "LATEST REPORTS",
 			"trans": "Свежие данные"
 		},
-		"loadMore": {
-			"eng": "LOAD MORE NEWS",
-			"trans": "Подгрузить новостей"
-		},
 		"loading": {
 			"eng": "ACCESSING DATA...",
 			"trans": "Загрузка данных..."
-		},
-		"loadingMore": {
-			"eng": "LOADING MORE...",
-			"trans": "Подгружаем..."
 		},
 		"noNews": {
 			"eng": "NO NEWS DATA AVAILABLE",
@@ -6889,6 +6971,20 @@
 		"published": {
 			"eng": "PUBLISHED",
 			"trans": "Выпущено (If it's a content release)\n    Опубликовано (Otherwise)"
+		},
+		"reactions": {
+			"loginPrompt": {
+				"eng": "You need to log in to react to news posts",
+				"trans": "Нужно войти, чтобы реагировать на новости."
+			},
+			"react": {
+				"eng": "REACT",
+				"trans": "ДЕЙСТВУЙ"
+			},
+			"total": {
+				"eng": "reactions",
+				"trans": "Отклики"
+			}
 		},
 		"readMore": {
 			"eng": "READ MORE",
@@ -6915,6 +7011,10 @@
 		"newReportAvailable": {
 			"eng": "The Arclight Chronicle has published today\\'s news report!",
 			"trans": "Арклайт Хроники: свежий репортаж уже доступен!"
+		},
+		"newsReportGenerated": {
+			"eng": "Arclight Times posted a new news report",
+			"trans": "Arclight Times выложила новый репортаж."
 		}
 	},
 	"noLoginSidebar": {
@@ -8746,6 +8846,10 @@
 				"eng": "You cannot engage this player",
 				"trans": "Вы не можете вступить в бой с этим игроком"
 			},
+			"cannotEngageAlt": {
+				"eng": "You cannot attack this player due to alt detection",
+				"trans": "Нельзя атаковать. Альт-детект."
+			},
 			"cannotEngageInDungeon": {
 				"eng": "You cannot engage in PvP while in a dungeon",
 				"trans": "Вы не можете участвовать в PvP, находясь в подземелье"
@@ -10402,6 +10506,10 @@
 		"mercenary3": {
 			"eng": "Click here to recruit 10 new mercenaries",
 			"trans": "Нажмите здесь, чтобы нанять 10 новых наемников"
+		},
+		"newsReaction": {
+			"eng": "React to news reports to receive Credits and gain points for your Corporation!",
+			"trans": "Реагируйте на новостяк, чтобы получить Кредиты и набить очки своей Корпе!"
 		},
 		"quest": {
 			"eng": "Click here to view your quests.",

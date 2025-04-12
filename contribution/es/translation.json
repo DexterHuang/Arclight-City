@@ -406,6 +406,16 @@
 				"trans": "Ver apartamentos disponibles en línea"
 			}
 		},
+		"options": {
+			"terminateLease": {
+				"eng": "terminate lease",
+				"trans": "Cancelar contrato"
+			},
+			"title": {
+				"eng": "Apartment Options",
+				"trans": "Apartamento: Configuración"
+			}
+		},
 		"playerModal": {
 			"details": {
 				"eng": "details",
@@ -419,6 +429,24 @@
 		"purchase": {
 			"eng": "view apartments",
 			"trans": "Ver apartamentos"
+		},
+		"terminateLease": {
+			"cancel": {
+				"eng": "cancel",
+				"trans": "Cancelar"
+			},
+			"confirm": {
+				"eng": "terminate lease",
+				"trans": "Cancelar contrato"
+			},
+			"title": {
+				"eng": "Terminate Lease",
+				"trans": "Cancelar Contrato"
+			},
+			"warning": {
+				"eng": "This will immediately terminate your apartment lease. You will NOT receive a refund.",
+				"trans": "Esto cancelará tu contrato de alquiler al instante. No se te devolverá el dinero."
+			}
 		},
 		"unclaimedDeliveries": {
 			"title": {
@@ -2813,6 +2841,62 @@
 			}
 		}
 	},
+	"emoji": {
+		"angry": {
+			"displayName": {
+				"eng": "Angry",
+				"trans": "Enfadado/a"
+			}
+		},
+		"eyes": {
+			"displayName": {
+				"eng": "Eyes",
+				"trans": "Ojos"
+			}
+		},
+		"fire": {
+			"displayName": {
+				"eng": "Fire",
+				"trans": "Fuego"
+			}
+		},
+		"heart": {
+			"displayName": {
+				"eng": "Love",
+				"trans": "Amor"
+			}
+		},
+		"potato": {
+			"displayName": {
+				"eng": "Potato",
+				"trans": "Chatarra"
+			}
+		},
+		"sad": {
+			"displayName": {
+				"eng": "Sad",
+				"trans": "Triste"
+			}
+		},
+		"thumbsup": {
+			"displayName": {
+				"eng": "Like",
+				"trans": "Me gusta"
+			}
+		},
+		"worship": {
+			"displayName": {
+				"eng": "worship",
+				"trans": "Adorar"
+			}
+		},
+		"wow": {
+			"displayName": {
+				"eng": "Wow",
+				"trans": "¡Hostia!"
+			}
+		}
+	},
 	"enemyEvent": {
 		"description": {
 			"eng": "This event triggers rarely when you are exploring and fighting enemies",
@@ -3002,9 +3086,9 @@
 		}
 	},
 	"errorBoundary": {
-		"description": {
-			"eng": "Error report has been sent to the developer. \\nIf this error persists, please contact the developer at ${email}",
-			"trans": "Se ha enviado un informe de error al desarrollador. \\nSi este error persiste, por favor contacte al desarrollador en ${email}"
+		"description1": {
+			"eng": "Error report has been sent to the developer. \\nIf this error persists, please contact the developer",
+			"trans": "Se ha enviado un reporte de error al desarrollador.\nSi el error persiste, ponte en contacto con el desarrollador."
 		},
 		"restart": {
 			"eng": "Restart",
@@ -6836,6 +6920,10 @@
 			"eng": "ABOUT THE AUTHOR",
 			"trans": "SOBRE EL AUTOR"
 		},
+		"backButton": {
+			"eng": "ALL NEWS",
+			"trans": "TODAS LAS NOTICIAS"
+		},
 		"backToList": {
 			"eng": "RETURN TO NEWS FEED",
 			"trans": "VOLVER AL FEED DE NOTICIAS"
@@ -6844,15 +6932,13 @@
 			"eng": "BREAKING",
 			"trans": "ÚLTIMA HORA"
 		},
+		"emoji": {
+			"noEmojiYet": {
+				"eng": "No reactions yet",
+				"trans": "Todavía no hay reacciones."
+			}
+		},
 		"error": {
-			"fetchFailed": {
-				"eng": "Failed to fetch news data",
-				"trans": "No se pudieron obtener los datos de noticias."
-			},
-			"loadMoreFailed": {
-				"eng": "Failed to load more news reports",
-				"trans": "Fallo al cargar más noticias."
-			},
 			"missingId": {
 				"eng": "Missing report ID",
 				"trans": "ID de informe no encontrado"
@@ -6862,6 +6948,10 @@
 				"trans": "No se encontró el informe de noticias."
 			}
 		},
+		"featuredStory": {
+			"eng": "FEATURED STORY",
+			"trans": "Historia Destacada"
+		},
 		"keyPoints": {
 			"eng": "KEY POINTS",
 			"trans": "Datos Clave"
@@ -6870,17 +6960,9 @@
 			"eng": "LATEST REPORTS",
 			"trans": "ÚLTIMOS REPORTES"
 		},
-		"loadMore": {
-			"eng": "LOAD MORE NEWS",
-			"trans": "CARGAR MÁS"
-		},
 		"loading": {
 			"eng": "ACCESSING DATA...",
 			"trans": "Cargando datos..."
-		},
-		"loadingMore": {
-			"eng": "LOADING MORE...",
-			"trans": "CARGANDO..."
 		},
 		"noNews": {
 			"eng": "NO NEWS DATA AVAILABLE",
@@ -6889,6 +6971,20 @@
 		"published": {
 			"eng": "PUBLISHED",
 			"trans": "Lanzado"
+		},
+		"reactions": {
+			"loginPrompt": {
+				"eng": "You need to log in to react to news posts",
+				"trans": "Necesitas iniciar sesión para reaccionar a las noticias."
+			},
+			"react": {
+				"eng": "REACT",
+				"trans": "¡Reacciona!"
+			},
+			"total": {
+				"eng": "reactions",
+				"trans": "Reacciones"
+			}
 		},
 		"readMore": {
 			"eng": "READ MORE",
@@ -6915,6 +7011,10 @@
 		"newReportAvailable": {
 			"eng": "The Arclight Chronicle has published today\\'s news report!",
 			"trans": "¡El Arclight Chronicle publicó el reporte de noticias de hoy!"
+		},
+		"newsReportGenerated": {
+			"eng": "Arclight Times posted a new news report",
+			"trans": "Arclight Times soltó un nuevo informe."
 		}
 	},
 	"noLoginSidebar": {
@@ -8746,6 +8846,10 @@
 				"eng": "You cannot engage this player",
 				"trans": "No puedes enfrentarte a este jugador"
 			},
+			"cannotEngageAlt": {
+				"eng": "You cannot attack this player due to alt detection",
+				"trans": "Imposible atacar a este jugador: detección de alt."
+			},
 			"cannotEngageInDungeon": {
 				"eng": "You cannot engage in PvP while in a dungeon",
 				"trans": "No puedes participar en PVP mientras estás en una mazmorra"
@@ -10402,6 +10506,10 @@
 		"mercenary3": {
 			"eng": "Click here to recruit 10 new mercenaries",
 			"trans": "Haz clic aquí para reclutar 10 nuevos mercenarios"
+		},
+		"newsReaction": {
+			"eng": "React to news reports to receive Credits and gain points for your Corporation!",
+			"trans": "¡Entérate de las noticias, cobra tus Créditos y sube de nivel en tu Corporación!"
 		},
 		"quest": {
 			"eng": "Click here to view your quests.",

@@ -406,6 +406,16 @@
 				"trans": "線上查看可用公寓"
 			}
 		},
+		"options": {
+			"terminateLease": {
+				"eng": "terminate lease",
+				"trans": "結束租約"
+			},
+			"title": {
+				"eng": "Apartment Options",
+				"trans": "公寓設定"
+			}
+		},
 		"playerModal": {
 			"details": {
 				"eng": "details",
@@ -419,6 +429,24 @@
 		"purchase": {
 			"eng": "view apartments",
 			"trans": "查看公寓"
+		},
+		"terminateLease": {
+			"cancel": {
+				"eng": "cancel",
+				"trans": "取消"
+			},
+			"confirm": {
+				"eng": "terminate lease",
+				"trans": "結束租約"
+			},
+			"title": {
+				"eng": "Terminate Lease",
+				"trans": "退租"
+			},
+			"warning": {
+				"eng": "This will immediately terminate your apartment lease. You will NOT receive a refund.",
+				"trans": "注意：本操作將立即終止您的租賃。您不會收到退款。"
+			}
 		},
 		"unclaimedDeliveries": {
 			"title": {
@@ -2813,6 +2841,62 @@
 			}
 		}
 	},
+	"emoji": {
+		"angry": {
+			"displayName": {
+				"eng": "Angry",
+				"trans": "火大"
+			}
+		},
+		"eyes": {
+			"displayName": {
+				"eng": "Eyes",
+				"trans": "眼睛"
+			}
+		},
+		"fire": {
+			"displayName": {
+				"eng": "Fire",
+				"trans": "開火"
+			}
+		},
+		"heart": {
+			"displayName": {
+				"eng": "Love",
+				"trans": "愛"
+			}
+		},
+		"potato": {
+			"displayName": {
+				"eng": "Potato",
+				"trans": "洋芋"
+			}
+		},
+		"sad": {
+			"displayName": {
+				"eng": "Sad",
+				"trans": "慘"
+			}
+		},
+		"thumbsup": {
+			"displayName": {
+				"eng": "Like",
+				"trans": "讚"
+			}
+		},
+		"worship": {
+			"displayName": {
+				"eng": "worship",
+				"trans": "崇拜"
+			}
+		},
+		"wow": {
+			"displayName": {
+				"eng": "Wow",
+				"trans": "酷"
+			}
+		}
+	},
 	"enemyEvent": {
 		"description": {
 			"eng": "This event triggers rarely when you are exploring and fighting enemies",
@@ -3002,9 +3086,9 @@
 		}
 	},
 	"errorBoundary": {
-		"description": {
-			"eng": "Error report has been sent to the developer. \\nIf this error persists, please contact the developer at ${email}",
-			"trans": "錯誤報告已傳送給開發人員。\\n如果這個問題持續出現，請聯繫開發人員，"
+		"description1": {
+			"eng": "Error report has been sent to the developer. \\nIf this error persists, please contact the developer",
+			"trans": "出錯回報已送出給開發者。\\n如果問題還是存在，請跟開發者聯絡。"
 		},
 		"restart": {
 			"eng": "Restart",
@@ -6836,6 +6920,10 @@
 			"eng": "ABOUT THE AUTHOR",
 			"trans": "關於作者"
 		},
+		"backButton": {
+			"eng": "ALL NEWS",
+			"trans": "全部新聞"
+		},
 		"backToList": {
 			"eng": "RETURN TO NEWS FEED",
 			"trans": "回到資訊流"
@@ -6844,15 +6932,13 @@
 			"eng": "BREAKING",
 			"trans": "快訊"
 		},
+		"emoji": {
+			"noEmojiYet": {
+				"eng": "No reactions yet",
+				"trans": "沒動靜"
+			}
+		},
 		"error": {
-			"fetchFailed": {
-				"eng": "Failed to fetch news data",
-				"trans": "新聞資料抓取失敗"
-			},
-			"loadMoreFailed": {
-				"eng": "Failed to load more news reports",
-				"trans": "更多新聞報導載入失敗"
-			},
 			"missingId": {
 				"eng": "Missing report ID",
 				"trans": "報告ID未找到"
@@ -6862,6 +6948,10 @@
 				"trans": "新聞報導未找到"
 			}
 		},
+		"featuredStory": {
+			"eng": "FEATURED STORY",
+			"trans": "主打故事"
+		},
 		"keyPoints": {
 			"eng": "KEY POINTS",
 			"trans": "關鍵"
@@ -6870,17 +6960,9 @@
 			"eng": "LATEST REPORTS",
 			"trans": "最新消息"
 		},
-		"loadMore": {
-			"eng": "LOAD MORE NEWS",
-			"trans": "刷更多"
-		},
 		"loading": {
 			"eng": "ACCESSING DATA...",
 			"trans": "數據載入中..."
-		},
-		"loadingMore": {
-			"eng": "LOADING MORE...",
-			"trans": "更多內容載入中..."
 		},
 		"noNews": {
 			"eng": "NO NEWS DATA AVAILABLE",
@@ -6889,6 +6971,20 @@
 		"published": {
 			"eng": "PUBLISHED",
 			"trans": "發布"
+		},
+		"reactions": {
+			"loginPrompt": {
+				"eng": "You need to log in to react to news posts",
+				"trans": "要留言、按讚，請先登入"
+			},
+			"react": {
+				"eng": "REACT",
+				"trans": "反應"
+			},
+			"total": {
+				"eng": "reactions",
+				"trans": "應變"
+			}
 		},
 		"readMore": {
 			"eng": "READ MORE",
@@ -6915,6 +7011,10 @@
 		"newReportAvailable": {
 			"eng": "The Arclight Chronicle has published today\\'s news report!",
 			"trans": "幻光編年史，今日快訊已上線！"
+		},
+		"newsReportGenerated": {
+			"eng": "Arclight Times posted a new news report",
+			"trans": "幻光時報推送了新報導。"
 		}
 	},
 	"noLoginSidebar": {
@@ -8746,6 +8846,10 @@
 				"eng": "You cannot engage this player",
 				"trans": "您無法與這位玩家互動"
 			},
+			"cannotEngageAlt": {
+				"eng": "You cannot attack this player due to alt detection",
+				"trans": "系統判定此玩家為分身，你無法攻擊。"
+			},
 			"cannotEngageInDungeon": {
 				"eng": "You cannot engage in PvP while in a dungeon",
 				"trans": "在地下城中無法進行PvP戰鬥"
@@ -10402,6 +10506,10 @@
 		"mercenary3": {
 			"eng": "Click here to recruit 10 new mercenaries",
 			"trans": "點擊這裡招募10名新傭兵。"
+		},
+		"newsReaction": {
+			"eng": "React to news reports to receive Credits and gain points for your Corporation!",
+			"trans": "點擊新聞報導，領取信用點，替你的企業衝人氣！"
 		},
 		"quest": {
 			"eng": "Click here to view your quests.",
