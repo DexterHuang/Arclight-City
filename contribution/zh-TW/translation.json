@@ -2928,6 +2928,10 @@
 			"eng": "Attack",
 			"trans": "攻擊"
 		},
+		"enemiesList": {
+			"eng": "Enemies List",
+			"trans": "目標清單"
+		},
 		"removeEnemy": {
 			"eng": "Remove Enemy",
 			"trans": "移除敵人"
@@ -3201,6 +3205,14 @@
 				"eng": "Player not found.",
 				"trans": "找不到玩家。"
 			},
+			"maxEnemyLimit": {
+				"eng": "You have reached the maximum number of enemies.",
+				"trans": "敵人數量已達上限。"
+			},
+			"maxLimit": {
+				"eng": "You have reached the maximum number of friends.",
+				"trans": "你已達到好友上限。"
+			},
 			"removeNotFound": {
 				"eng": "Player not found.",
 				"trans": "找不到玩家。"
@@ -3233,6 +3245,10 @@
 		"addFriend": {
 			"eng": "Add Friend",
 			"trans": "加為好友"
+		},
+		"friendsList": {
+			"eng": "Friends List",
+			"trans": "好友列表"
 		},
 		"removeFriend": {
 			"eng": "Remove Friend",
@@ -6931,6 +6947,12 @@
 			}
 		}
 	},
+	"newsCard": {
+		"new": {
+			"eng": "NEW",
+			"trans": "新"
+		}
+	},
 	"newsPage": {
 		"aboutAuthor": {
 			"eng": "ABOUT THE AUTHOR",
@@ -6989,17 +7011,13 @@
 			"trans": "發布"
 		},
 		"reactions": {
-			"loginPrompt": {
-				"eng": "You need to log in to react to news posts",
-				"trans": "要留言、按讚，請先登入"
-			},
 			"react": {
 				"eng": "REACT",
 				"trans": "反應"
 			},
-			"total": {
-				"eng": "reactions",
-				"trans": "應變"
+			"totalCount": {
+				"eng": "${amount} reactions",
+				"trans": "${amount} 反應數"
 			}
 		},
 		"readMore": {
@@ -7021,9 +7039,17 @@
 		"slogan": {
 			"eng": "YOUR TRUSTED SOURCE FOR ARCLIGHT CITY NEWS AND EVENTS",
 			"trans": "幻光之城情報站，給你最靠譜的新聞與活動！"
+		},
+		"totalReactions": {
+			"eng": "${totalReactions} reactions",
+			"trans": "`${totalReactions} 次互動`"
 		}
 	},
 	"newsReport": {
+		"gangMention": {
+			"eng": "The Arclight Times has mentioned your gang in a news article",
+			"trans": "幻光時報新聞有提到你的幫派喔！"
+		},
 		"newReportAvailable": {
 			"eng": "The Arclight Chronicle has published today\\'s news report!",
 			"trans": "幻光編年史，今日快訊已上線！"
@@ -7031,6 +7057,10 @@
 		"newsReportGenerated": {
 			"eng": "Arclight Times posted a new news report",
 			"trans": "幻光時報推送了新報導。"
+		},
+		"playerMention": {
+			"eng": "The Arclight Times has mentioned you in a news article",
+			"trans": "幻光時報報導提到你了啦！"
 		}
 	},
 	"noLoginSidebar": {
@@ -11048,6 +11078,10 @@
 		}
 	},
 	"webNavBar": {
+		"viewNews": {
+			"eng": "News",
+			"trans": "新聞"
+		},
 		"viewStories": {
 			"eng": "Stories",
 			"trans": "故事"
