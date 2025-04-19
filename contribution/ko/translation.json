@@ -2928,6 +2928,10 @@
 			"eng": "Attack",
 			"trans": "공격"
 		},
+		"enemiesList": {
+			"eng": "Enemies List",
+			"trans": "적 리스트"
+		},
 		"removeEnemy": {
 			"eng": "Remove Enemy",
 			"trans": "적 제거"
@@ -3201,6 +3205,14 @@
 				"eng": "Player not found.",
 				"trans": "플레이어를 찾을 수 없습니다."
 			},
+			"maxEnemyLimit": {
+				"eng": "You have reached the maximum number of enemies.",
+				"trans": "최대 적 수 제한입니다."
+			},
+			"maxLimit": {
+				"eng": "You have reached the maximum number of friends.",
+				"trans": "친구 수가 가득 찼습니다."
+			},
 			"removeNotFound": {
 				"eng": "Player not found.",
 				"trans": "플레이어를 찾을 수 없습니다."
@@ -3233,6 +3245,10 @@
 		"addFriend": {
 			"eng": "Add Friend",
 			"trans": "친구 추가"
+		},
+		"friendsList": {
+			"eng": "Friends List",
+			"trans": "친구 목록"
 		},
 		"removeFriend": {
 			"eng": "Remove Friend",
@@ -6931,6 +6947,12 @@
 			}
 		}
 	},
+	"newsCard": {
+		"new": {
+			"eng": "NEW",
+			"trans": "신규"
+		}
+	},
 	"newsPage": {
 		"aboutAuthor": {
 			"eng": "ABOUT THE AUTHOR",
@@ -6989,17 +7011,13 @@
 			"trans": "공개됨 (gong-gae-doem) - General release/publication.\n게시됨 (gye-si-doem) - Posted/Published (for news, updates, etc.)\n배포됨 (bae-po-doem) - Distributed/Released (for content)\n업로드됨 (eop-ro-deu-doem) - Uploaded (for user-generated content)\n뿌려짐 (ppeu-ryeo-jim) - Scattered/Spread (for a more cyberpunk feel)"
 		},
 		"reactions": {
-			"loginPrompt": {
-				"eng": "You need to log in to react to news posts",
-				"trans": "로그인해야 뉴스 게시물에 반응할 수 있습니다."
-			},
 			"react": {
 				"eng": "REACT",
 				"trans": "실행"
 			},
-			"total": {
-				"eng": "reactions",
-				"trans": "리액션"
+			"totalCount": {
+				"eng": "${amount} reactions",
+				"trans": "${amount} 리액션"
 			}
 		},
 		"readMore": {
@@ -7021,9 +7039,17 @@
 		"slogan": {
 			"eng": "YOUR TRUSTED SOURCE FOR ARCLIGHT CITY NEWS AND EVENTS",
 			"trans": "아크라이트 시티, 믿고 보는 뉴스! (Arclight City, news you can trust!)"
+		},
+		"totalReactions": {
+			"eng": "${totalReactions} reactions",
+			"trans": "반응: ${totalReactions}"
 		}
 	},
 	"newsReport": {
+		"gangMention": {
+			"eng": "The Arclight Times has mentioned your gang in a news article",
+			"trans": "아크라이트 타임즈, 당신 갱 기사 떴네."
+		},
 		"newReportAvailable": {
 			"eng": "The Arclight Chronicle has published today\\'s news report!",
 			"trans": "오늘, 아크라이트 크로니클에서 최신 뉴스 속보가 떴다!"
@@ -7031,6 +7057,10 @@
 		"newsReportGenerated": {
 			"eng": "Arclight Times posted a new news report",
 			"trans": "아크라이트 타임즈, 속보: 새 뉴스."
+		},
+		"playerMention": {
+			"eng": "The Arclight Times has mentioned you in a news article",
+			"trans": "아크라이트 타임즈에서 당신 관련 뉴스 기사가 나왔습니다."
 		}
 	},
 	"noLoginSidebar": {
@@ -11048,6 +11078,10 @@
 		}
 	},
 	"webNavBar": {
+		"viewNews": {
+			"eng": "News",
+			"trans": "뉴스"
+		},
 		"viewStories": {
 			"eng": "Stories",
 			"trans": "스토리"

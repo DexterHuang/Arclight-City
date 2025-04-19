@@ -2928,6 +2928,10 @@
 			"eng": "Attack",
 			"trans": "Serang"
 		},
+		"enemiesList": {
+			"eng": "Enemies List",
+			"trans": "Daftar Musuh"
+		},
 		"removeEnemy": {
 			"eng": "Remove Enemy",
 			"trans": "Hapus Musuh"
@@ -3201,6 +3205,14 @@
 				"eng": "Player not found.",
 				"trans": "Pemain tidak ditemukan."
 			},
+			"maxEnemyLimit": {
+				"eng": "You have reached the maximum number of enemies.",
+				"trans": "Musuh: Maksimum tercapai."
+			},
+			"maxLimit": {
+				"eng": "You have reached the maximum number of friends.",
+				"trans": "Kamu sudah mencapai batas maksimal teman."
+			},
 			"removeNotFound": {
 				"eng": "Player not found.",
 				"trans": "Pemain tidak ditemukan."
@@ -3233,6 +3245,10 @@
 		"addFriend": {
 			"eng": "Add Friend",
 			"trans": "Tambah Teman"
+		},
+		"friendsList": {
+			"eng": "Friends List",
+			"trans": "Daftar Teman"
 		},
 		"removeFriend": {
 			"eng": "Remove Friend",
@@ -6931,6 +6947,12 @@
 			}
 		}
 	},
+	"newsCard": {
+		"new": {
+			"eng": "NEW",
+			"trans": "BARU"
+		}
+	},
 	"newsPage": {
 		"aboutAuthor": {
 			"eng": "ABOUT THE AUTHOR",
@@ -6989,17 +7011,13 @@
 			"trans": "DIPUBLIKASIKAN"
 		},
 		"reactions": {
-			"loginPrompt": {
-				"eng": "You need to log in to react to news posts",
-				"trans": "Login dulu, baru bisa bereaksi di postingan berita."
-			},
 			"react": {
 				"eng": "REACT",
 				"trans": "AKTIFKAN"
 			},
-			"total": {
-				"eng": "reactions",
-				"trans": "Reaksi"
+			"totalCount": {
+				"eng": "${amount} reactions",
+				"trans": "${amount} reaksi"
 			}
 		},
 		"readMore": {
@@ -7021,9 +7039,17 @@
 		"slogan": {
 			"eng": "YOUR TRUSTED SOURCE FOR ARCLIGHT CITY NEWS AND EVENTS",
 			"trans": "RUJUKAN UTAMA ANDA UNTUK INFO DAN EVENT KOTA CAHAYA ARKLIT"
+		},
+		"totalReactions": {
+			"eng": "${totalReactions} reactions",
+			"trans": "${totalReactions} reaksi"
 		}
 	},
 	"newsReport": {
+		"gangMention": {
+			"eng": "The Arclight Times has mentioned your gang in a news article",
+			"trans": "Gengmu masuk berita di The Arclight Times."
+		},
 		"newReportAvailable": {
 			"eng": "The Arclight Chronicle has published today\\'s news report!",
 			"trans": "The Arclight Chronicle: Laporan hari ini sudah keluar!"
@@ -7031,6 +7057,10 @@
 		"newsReportGenerated": {
 			"eng": "Arclight Times posted a new news report",
 			"trans": "Arclight Times: Laporan berita baru."
+		},
+		"playerMention": {
+			"eng": "The Arclight Times has mentioned you in a news article",
+			"trans": "Ada artikel berita dari The Arclight Times yang menyebut namamu."
 		}
 	},
 	"noLoginSidebar": {
@@ -11048,6 +11078,10 @@
 		}
 	},
 	"webNavBar": {
+		"viewNews": {
+			"eng": "News",
+			"trans": "Info"
+		},
 		"viewStories": {
 			"eng": "Stories",
 			"trans": "Cerita"

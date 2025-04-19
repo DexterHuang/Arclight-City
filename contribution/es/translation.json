@@ -2928,6 +2928,10 @@
 			"eng": "Attack",
 			"trans": "Ataque"
 		},
+		"enemiesList": {
+			"eng": "Enemies List",
+			"trans": "Registro de Hostiles"
+		},
 		"removeEnemy": {
 			"eng": "Remove Enemy",
 			"trans": "Eliminar Enemigo"
@@ -3201,6 +3205,14 @@
 				"eng": "Player not found.",
 				"trans": "Jugador no encontrado."
 			},
+			"maxEnemyLimit": {
+				"eng": "You have reached the maximum number of enemies.",
+				"trans": "Máximo de enemigos alcanzado."
+			},
+			"maxLimit": {
+				"eng": "You have reached the maximum number of friends.",
+				"trans": "No puedes agregar más amigos. Has alcanzado el máximo."
+			},
 			"removeNotFound": {
 				"eng": "Player not found.",
 				"trans": "Jugador no encontrado."
@@ -3233,6 +3245,10 @@
 		"addFriend": {
 			"eng": "Add Friend",
 			"trans": "Añadir Amigo"
+		},
+		"friendsList": {
+			"eng": "Friends List",
+			"trans": "Contactos"
 		},
 		"removeFriend": {
 			"eng": "Remove Friend",
@@ -6931,6 +6947,12 @@
 			}
 		}
 	},
+	"newsCard": {
+		"new": {
+			"eng": "NEW",
+			"trans": "NUEVO"
+		}
+	},
 	"newsPage": {
 		"aboutAuthor": {
 			"eng": "ABOUT THE AUTHOR",
@@ -6989,17 +7011,13 @@
 			"trans": "Lanzado"
 		},
 		"reactions": {
-			"loginPrompt": {
-				"eng": "You need to log in to react to news posts",
-				"trans": "Necesitas iniciar sesión para reaccionar a las noticias."
-			},
 			"react": {
 				"eng": "REACT",
 				"trans": "¡Reacciona!"
 			},
-			"total": {
-				"eng": "reactions",
-				"trans": "Reacciones"
+			"totalCount": {
+				"eng": "${amount} reactions",
+				"trans": "${amount} reacciones"
 			}
 		},
 		"readMore": {
@@ -7021,9 +7039,17 @@
 		"slogan": {
 			"eng": "YOUR TRUSTED SOURCE FOR ARCLIGHT CITY NEWS AND EVENTS",
 			"trans": "ARCLIGHT CITY AL DÍA: TU FUENTE DE CONFIANZA."
+		},
+		"totalReactions": {
+			"eng": "${totalReactions} reactions",
+			"trans": "${totalReactions} reacciones totales"
 		}
 	},
 	"newsReport": {
+		"gangMention": {
+			"eng": "The Arclight Times has mentioned your gang in a news article",
+			"trans": "Tu banda en las noticias: The Arclight Times te menciona."
+		},
 		"newReportAvailable": {
 			"eng": "The Arclight Chronicle has published today\\'s news report!",
 			"trans": "¡El Arclight Chronicle publicó el reporte de noticias de hoy!"
@@ -7031,6 +7057,10 @@
 		"newsReportGenerated": {
 			"eng": "Arclight Times posted a new news report",
 			"trans": "Arclight Times soltó un nuevo informe."
+		},
+		"playerMention": {
+			"eng": "The Arclight Times has mentioned you in a news article",
+			"trans": "Te han mencionado en un artículo de The Arclight Times."
 		}
 	},
 	"noLoginSidebar": {
@@ -11048,6 +11078,10 @@
 		}
 	},
 	"webNavBar": {
+		"viewNews": {
+			"eng": "News",
+			"trans": "Noticias"
+		},
 		"viewStories": {
 			"eng": "Stories",
 			"trans": "Historias"
