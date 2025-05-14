@@ -1468,6 +1468,10 @@
 			"link": {
 				"eng": "Links are not allowed in messages",
 				"trans": "訊息中不允許包含連結"
+			},
+			"tooLong": {
+				"eng": "Message is too long",
+				"trans": "字數上限已達"
 			}
 		},
 		"imageView": {
@@ -6748,6 +6752,16 @@
 				"trans": "霓虹熔接駭客"
 			}
 		},
+		"neuralSignalSynchronizer": {
+			"downHint": {
+				"eng": "Down",
+				"trans": "停用"
+			},
+			"upHint": {
+				"eng": "Up",
+				"trans": "提升"
+			}
+		},
 		"targetTap": {
 			"description": {
 				"eng": "Tap the target to acquire it",
@@ -8179,10 +8193,6 @@
 			"green": {
 				"eng": "Green",
 				"trans": "綠色"
-			},
-			"multiColor": {
-				"eng": "Multi Colored",
-				"trans": "多彩的"
 			},
 			"name": {
 				"eng": "Hair Color",
@@ -10608,6 +10618,14 @@
 			"trans": "返回"
 		},
 		"characterSelect": {
+			"badgeTitle": {
+				"eng": "IDENTITY",
+				"trans": "識別碼"
+			},
+			"bottomBadge": {
+				"eng": "RESTRICTED ACCESS",
+				"trans": "權限不足"
+			},
 			"createCharacter": {
 				"eng": "Create new character",
 				"trans": "創建新角色"
@@ -10615,6 +10633,10 @@
 			"deleteCharacter": {
 				"eng": "Delete Character",
 				"trans": "刪除角色"
+			},
+			"location": {
+				"eng": "Arclight City - Character Database",
+				"trans": "幻光之城 - 角色資料庫"
 			},
 			"noCharacters": {
 				"eng": "You have no characters",

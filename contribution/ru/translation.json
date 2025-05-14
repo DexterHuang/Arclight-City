@@ -1468,6 +1468,10 @@
 			"link": {
 				"eng": "Links are not allowed in messages",
 				"trans": "Ссылки не разрешены в сообщениях"
+			},
+			"tooLong": {
+				"eng": "Message is too long",
+				"trans": "Сообщение слишком длинное."
 			}
 		},
 		"imageView": {
@@ -6748,6 +6752,16 @@
 				"trans": "Неоновый взлом предохранителя"
 			}
 		},
+		"neuralSignalSynchronizer": {
+			"downHint": {
+				"eng": "Down",
+				"trans": "Отключено"
+			},
+			"upHint": {
+				"eng": "Up",
+				"trans": "Вверх"
+			}
+		},
 		"targetTap": {
 			"description": {
 				"eng": "Tap the target to acquire it",
@@ -8179,10 +8193,6 @@
 			"green": {
 				"eng": "Green",
 				"trans": "Зеленый"
-			},
-			"multiColor": {
-				"eng": "Multi Colored",
-				"trans": "Многоцветный"
 			},
 			"name": {
 				"eng": "Hair Color",
@@ -10608,6 +10618,14 @@
 			"trans": "Назад"
 		},
 		"characterSelect": {
+			"badgeTitle": {
+				"eng": "IDENTITY",
+				"trans": "Идентификация"
+			},
+			"bottomBadge": {
+				"eng": "RESTRICTED ACCESS",
+				"trans": "Доступ закрыт"
+			},
 			"createCharacter": {
 				"eng": "Create new character",
 				"trans": "Создать нового персонажа"
@@ -10615,6 +10633,10 @@
 			"deleteCharacter": {
 				"eng": "Delete Character",
 				"trans": "Удалить персонаж"
+			},
+			"location": {
+				"eng": "Arclight City - Character Database",
+				"trans": "Arclight City: Досье Персонажей"
 			},
 			"noCharacters": {
 				"eng": "You have no characters",

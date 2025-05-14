@@ -1468,6 +1468,10 @@
 			"link": {
 				"eng": "Links are not allowed in messages",
 				"trans": "メッセージにリンクを貼ることは許可されていません。"
+			},
+			"tooLong": {
+				"eng": "Message is too long",
+				"trans": "文字数オーバー"
 			}
 		},
 		"imageView": {
@@ -6748,6 +6752,16 @@
 				"trans": "ネオンフューズハック"
 			}
 		},
+		"neuralSignalSynchronizer": {
+			"downHint": {
+				"eng": "Down",
+				"trans": "ダウン"
+			},
+			"upHint": {
+				"eng": "Up",
+				"trans": "↑"
+			}
+		},
 		"targetTap": {
 			"description": {
 				"eng": "Tap the target to acquire it",
@@ -8179,10 +8193,6 @@
 			"green": {
 				"eng": "Green",
 				"trans": "緑"
-			},
-			"multiColor": {
-				"eng": "Multi Colored",
-				"trans": "マルチカラー"
 			},
 			"name": {
 				"eng": "Hair Color",
@@ -10608,6 +10618,14 @@
 			"trans": "戻る"
 		},
 		"characterSelect": {
+			"badgeTitle": {
+				"eng": "IDENTITY",
+				"trans": "アイデンティティ"
+			},
+			"bottomBadge": {
+				"eng": "RESTRICTED ACCESS",
+				"trans": "アクセス制限"
+			},
 			"createCharacter": {
 				"eng": "Create new character",
 				"trans": "新しいキャラクターを作成します。"
@@ -10615,6 +10633,10 @@
 			"deleteCharacter": {
 				"eng": "Delete Character",
 				"trans": "キャラクターを削除します"
+			},
+			"location": {
+				"eng": "Arclight City - Character Database",
+				"trans": "アークライトシティ - キャラクター情報"
 			},
 			"noCharacters": {
 				"eng": "You have no characters",

@@ -1468,6 +1468,10 @@
 			"link": {
 				"eng": "Links are not allowed in messages",
 				"trans": "메시지에 링크를 넣을 수 없습니다"
+			},
+			"tooLong": {
+				"eng": "Message is too long",
+				"trans": "글자 수 초과!"
 			}
 		},
 		"imageView": {
@@ -6748,6 +6752,16 @@
 				"trans": "네온 퓨즈 해킹"
 			}
 		},
+		"neuralSignalSynchronizer": {
+			"downHint": {
+				"eng": "Down",
+				"trans": "무력화"
+			},
+			"upHint": {
+				"eng": "Up",
+				"trans": "업"
+			}
+		},
 		"targetTap": {
 			"description": {
 				"eng": "Tap the target to acquire it",
@@ -8179,10 +8193,6 @@
 			"green": {
 				"eng": "Green",
 				"trans": "초록색"
-			},
-			"multiColor": {
-				"eng": "Multi Colored",
-				"trans": "여러 색상"
 			},
 			"name": {
 				"eng": "Hair Color",
@@ -10608,6 +10618,14 @@
 			"trans": "뒤로"
 		},
 		"characterSelect": {
+			"badgeTitle": {
+				"eng": "IDENTITY",
+				"trans": "ID"
+			},
+			"bottomBadge": {
+				"eng": "RESTRICTED ACCESS",
+				"trans": "접근 불가"
+			},
 			"createCharacter": {
 				"eng": "Create new character",
 				"trans": "새 캐릭터 생성"
@@ -10615,6 +10633,10 @@
 			"deleteCharacter": {
 				"eng": "Delete Character",
 				"trans": "캐릭터 삭제"
+			},
+			"location": {
+				"eng": "Arclight City - Character Database",
+				"trans": "아크라이트 시티 - 캐릭터 정보"
 			},
 			"noCharacters": {
 				"eng": "You have no characters",

@@ -1468,6 +1468,10 @@
 			"link": {
 				"eng": "Links are not allowed in messages",
 				"trans": "Les liens ne sont pas autorisés dans les messages"
+			},
+			"tooLong": {
+				"eng": "Message is too long",
+				"trans": "Message trop long"
 			}
 		},
 		"imageView": {
@@ -6748,6 +6752,16 @@
 				"trans": "Hack de la Fusion Néon"
 			}
 		},
+		"neuralSignalSynchronizer": {
+			"downHint": {
+				"eng": "Down",
+				"trans": "Désactivé"
+			},
+			"upHint": {
+				"eng": "Up",
+				"trans": "Haut"
+			}
+		},
 		"targetTap": {
 			"description": {
 				"eng": "Tap the target to acquire it",
@@ -8179,10 +8193,6 @@
 			"green": {
 				"eng": "Green",
 				"trans": "Vert"
-			},
-			"multiColor": {
-				"eng": "Multi Colored",
-				"trans": "Multicolore"
 			},
 			"name": {
 				"eng": "Hair Color",
@@ -10608,6 +10618,14 @@
 			"trans": "Retour"
 		},
 		"characterSelect": {
+			"badgeTitle": {
+				"eng": "IDENTITY",
+				"trans": "PROFIL"
+			},
+			"bottomBadge": {
+				"eng": "RESTRICTED ACCESS",
+				"trans": "Accès interdit"
+			},
 			"createCharacter": {
 				"eng": "Create new character",
 				"trans": "Créer un nouveau personnage"
@@ -10615,6 +10633,10 @@
 			"deleteCharacter": {
 				"eng": "Delete Character",
 				"trans": "Supprimer le personnage"
+			},
+			"location": {
+				"eng": "Arclight City - Character Database",
+				"trans": "Arclight City - Fiche des Personnages"
 			},
 			"noCharacters": {
 				"eng": "You have no characters",
