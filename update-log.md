@@ -6,6 +6,28 @@
 
 **If you find an exploit please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
+
+### 0.0.78
+
+-  Added new mini game for unlocking chests in stronghold; Neural Signal Synchronizer: all you need to do is click the upper or lower part of the graph to make the signal go green at the middle. this minigame is designed to be easy to play (actually the only one if you just leave it there long enough it will just randomly win)
+-  Added automatic chat translation (BETA), now in chat, your message will be automatically translated to the following languages:
+  -  English
+  -  Traditional Chinese
+  -  Japanese
+  -  Korean
+  -  Bahasa Indonesia (Hopefully out Malaysian friends can understand it good enough)
+  -  Russian
+
+While it will only translate to the above languages, it should be able to translate FROM any language to the above languages. meaning if you type French, which isn't in the target list, it will still be translated to all those languages.
+If your UIlanguage is set to one of the above, the chat will automatically show the translated message. if your UI language is not in the target languages, translated English will be shown.
+You can turn off the translation in the setting menu.
+
+The original message will also be shown in the chat as greyed out text.
+This can also be turned off in the setting menu.
+
+-  Added new profile phot image to exchange with netcoins, please note, similar to normal profile photo change, your credit is deducted per change.
+
+
 ### 0.0.76
 
 -  You can now voluntarily terminate lease to your apartment, this open is visible at the top right corner of your apartment screen
