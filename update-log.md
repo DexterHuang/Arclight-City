@@ -6,6 +6,13 @@
 
 **If you find an exploit, please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
+### 0.0.79
+
+-  Majority of code for stock market is now completed, however it is not yet open to the public, more test will be conducted before you can start playing with it, more details will be announced soon
+-  Improved crew UI, you can click on the crew member to directly open their details page, and click the small 'x' button to remove them from the crew
+-  Added tooltip to unknown trait, it will show the correct trait name and description when you use identification shard on it
+-  Fixed issue with trying to arrest a player that is already been arrested will put you to hostile status (since they are no longer wanted when you finish attacking them)
+
 
 ### 0.0.78
 

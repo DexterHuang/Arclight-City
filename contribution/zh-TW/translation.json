@@ -303,6 +303,12 @@
 			}
 		}
 	},
+	"alertModal": {
+		"ok": {
+			"eng": "OK",
+			"trans": "好的"
+		}
+	},
 	"apartment": {
 		"apartment0": {
 			"displayName": {
@@ -2134,16 +2140,6 @@
 		}
 	},
 	"crewTab": {
-		"detailModal": {
-			"detail": {
-				"eng": "view details",
-				"trans": "查看詳情"
-			},
-			"remove": {
-				"eng": "Remove from crew",
-				"trans": "從隊伍中移除"
-			}
-		},
 		"selectPopup": {
 			"title": {
 				"eng": "Select mercenary",
@@ -8515,21 +8511,37 @@
 	},
 	"pvp": {
 		"mail": {
-			"citizenArrest1": {
-				"eng": "${playerName} have arrested you, you have lost ${currency}, this player has been added to your enemies list",
-				"trans": "${playerName}已逮捕你，你損失了${currency}，此玩家已被加入至你的敵人名單"
+			"attackedStockLiquidation": {
+				"eng": "${playerName} hacked your portfolio and stole ${shares} shares of ${symbol}",
+				"trans": "玩家${playerName}入侵你的資產並竊取${shares}股${symbol}"
+			},
+			"attackerStockLiquidation": {
+				"eng": "You received ${totalValue} from liquidating ${targetPlayer}'s stocks",
+				"trans": "您收到${totalValue}來自${targetPlayer}的股票套現"
 			},
 			"citizenArrest2": {
 				"eng": "You have successfully arrested ${playerName}, the ACPD has rewarded you ${currency}",
 				"trans": "你已成功逮捕${playerName}，ACPD獎勵了你${currency}"
 			},
-			"mug1": {
-				"eng": "${playerName} mugged you, you have lost ${currency}, this player has been added to your enemies list",
-				"trans": "玩家${playerName} 搶劫了你，你損失了${currency}，此玩家已被加入至你的敵人名單"
+			"citizenArrestAddedEnemy": {
+				"eng": "${playerName} have arrested you, you have lost ${currency}, this player has been added to your enemies list",
+				"trans": "玩家${playerName}已將你拘捕，你被奪走了${currency}，此玩家已被加入你的敵人列表。"
+			},
+			"citizenArrestNoAddEnemy": {
+				"eng": "${playerName} have arrested you, you have lost ${currency}, your enemy list is full so this player has not been added to your enemies list, remove enemy to allow system to automatically add them when you were attacked",
+				"trans": "玩家${playerName}已將您拘捕，您失去了${currency}，您的敵人清單已滿，因此此玩家未被加入您的敵人清單，移除一名敵人，以讓系統在您遭攻擊時自動新增"
 			},
 			"mug2": {
 				"eng": "You mugged ${playerName} and you won the fight, you gotten ${currency}",
 				"trans": "你痛宰了${playerName}，贏得了戰鬥，你得到了${currency}"
+			},
+			"mugAddedEnemy": {
+				"eng": "${playerName} mugged you, you have lost ${currency}, this player has been added to your enemies list",
+				"trans": "${playerName}搶了你，你失去了${currency}，此玩家已被加入你的敵人列表"
+			},
+			"mugNoAddEnemy": {
+				"eng": "${playerName} mugged you, you have lost ${currency}, your enemy list is full so this player has not been added to your enemies list, remove enemy to allow system to automatically add them when you were attacked",
+				"trans": "${playerName}搶劫了你，你失去了${currency}，你的敵人清單已滿，因此此玩家未被加入你的敵人清單中。請移除一名敵人，以讓系統在你遭攻擊時自動添加。"
 			},
 			"successBounty": {
 				"eng": "You received bounty of ${money1} and ${money2} for eliminating ${targetPlayer}",
@@ -8999,6 +9011,10 @@
 			"notInCombat": {
 				"eng": "You are not in combat",
 				"trans": "您不在戰鬥中。"
+			},
+			"pvpArrestDismissed": {
+				"eng": "This player has already been arrested",
+				"trans": "此玩家已遭逮捕"
 			}
 		},
 		"combatLog": {
@@ -9960,6 +9976,182 @@
 			"trans": "戰利品"
 		}
 	},
+	"stock": {
+		"notEnoughMoney": {
+			"eng": "You don't have enough Eurodollar to buy purchase ${company}, current price: ${price}, needed: ${total}",
+			"trans": "您沒有足夠的歐元來購買${company}，當前價格：${price}，所需：${total}"
+		},
+		"tradeCooldown": {
+			"eng": "You can only sell stocks once per ${cooldown} minutes",
+			"trans": "您每${cooldown}分鐘只能出售一次股票。"
+		}
+	},
+	"stockExchange": {
+		"availableFunds": {
+			"eng": "Available Funds",
+			"trans": "可用資金"
+		},
+		"averageCost": {
+			"eng": "Average Cost",
+			"trans": "平均成本"
+		},
+		"buy": {
+			"eng": "BUY",
+			"trans": "購買"
+		},
+		"buyShares": {
+			"eng": "Buy Shares",
+			"trans": "購買股票"
+		},
+		"companyColumn": {
+			"eng": "Company",
+			"trans": "公司"
+		},
+		"confirmBuy": {
+			"eng": "Confirm Buy",
+			"trans": "確定購買"
+		},
+		"confirmSell": {
+			"eng": "Confirm Sell",
+			"trans": "確認出售"
+		},
+		"currentPrice": {
+			"eng": "Current Price",
+			"trans": "目前的價格"
+		},
+		"invalidStock": {
+			"eng": "Invalid stock selected",
+			"trans": "已選取無效的庫存"
+		},
+		"invested": {
+			"eng": "Total Asset Value",
+			"trans": "總資產價值"
+		},
+		"liveIndicator": {
+			"eng": "LIVE MARKET",
+			"trans": "實時市場"
+		},
+		"loading": {
+			"eng": "Loading market data...",
+			"trans": "載入市場資料..."
+		},
+		"loadingPrices": {
+			"eng": "Loading prices...",
+			"trans": "載入價格..."
+		},
+		"marketPriceWarning": {
+			"eng": "The actual price may differ slightly from the displayed price due to market spreads, timing, and demand.",
+			"trans": "實際價格可能與顯示價格略有差異，由於市場價差、時點及需求等因素可能有所波動。"
+		},
+		"max": {
+			"eng": "MAX",
+			"trans": "最大值"
+		},
+		"maxAffordable": {
+			"eng": "Max affordable: ${count} shares",
+			"trans": "最大可負擔數量: ${count} 股"
+		},
+		"noShares": {
+			"eng": "You don't own any shares of this stock",
+			"trans": "您不持有任何這支股票的股份"
+		},
+		"portfolioOverview": {
+			"eng": "Portfolio Overview",
+			"trans": "投資組合概覽"
+		},
+		"priceColumn": {
+			"eng": "Price / Change",
+			"trans": "價格 / 兌換"
+		},
+		"processing": {
+			"eng": "Processing...",
+			"trans": "處理中"
+		},
+		"profitLoss": {
+			"eng": "Unrealized P&L",
+			"trans": "未實現損益"
+		},
+		"purchaseFailed": {
+			"eng": "Purchase Failed",
+			"trans": "購買失敗"
+		},
+		"purchaseFailedGeneric": {
+			"eng": "Unable to complete purchase",
+			"trans": "購買失敗"
+		},
+		"purchaseSuccessful": {
+			"eng": "Purchase Successful",
+			"trans": "已購買"
+		},
+		"saleFailed": {
+			"eng": "Sale Failed",
+			"trans": "賣出失敗"
+		},
+		"saleFailedGeneric": {
+			"eng": "Unable to complete sale",
+			"trans": "交易失敗"
+		},
+		"saleSuccessful": {
+			"eng": "Sale Successful",
+			"trans": "成交!"
+		},
+		"saleSuccessfulMessage": {
+			"eng": "You have successfully sold ${shares} shares of ${company} at ${price} per share.",
+			"trans": "你已成功賣出${company}的${shares}股，每股${price}。"
+		},
+		"sell": {
+			"eng": "SELL",
+			"trans": "出售"
+		},
+		"sellShares": {
+			"eng": "Sell Shares",
+			"trans": "賣股份"
+		},
+		"shares": {
+			"eng": "Shares",
+			"trans": "股份"
+		},
+		"sharesOwned": {
+			"eng": "${shares} shares",
+			"trans": "${shares} 股份"
+		},
+		"stockValue": {
+			"eng": "Stock Value",
+			"trans": "股票價值"
+		},
+		"totalCost": {
+			"eng": "Total Cost: ",
+			"trans": "總計費用："
+		},
+		"totalRealizedProfit": {
+			"eng": "Realized P&L",
+			"trans": "已實現損益"
+		},
+		"totalReceived": {
+			"eng": "Total Received",
+			"trans": "總計收到"
+		},
+		"totalReturn": {
+			"eng": "Total Return: ",
+			"trans": "總回報:"
+		},
+		"trade": {
+			"eng": "Trade",
+			"trans": "交易"
+		},
+		"tradeButton": {
+			"eng": "Trade",
+			"trans": "交易"
+		},
+		"tradingFee": {
+			"eng": "Trading Fee",
+			"trans": "交易費用"
+		},
+		"transactionSection": {
+			"eng": "BUY & SELL",
+			"trans": "買賣"
+		}
+	},
 	"storyListPage": {
 		"invalidPage": {
 			"eng": "Please enter a valid page number",
@@ -10448,6 +10640,12 @@
 		"unlock": {
 			"eng": "unlock deal",
 			"trans": "解鎖交易"
+		}
+	},
+	"traitDisplay": {
+		"unknownTrait": {
+			"eng": "This is an encrypted trait, use ${item} to decrypt and identify its true potential",
+			"trans": "這是加密的屬性，用${item}解鎖，看清它的真面目。"
 		}
 	},
 	"travelToLocationModal": {
@@ -11150,6 +11348,24 @@
 			"subtitle": {
 				"eng": "Latest updates from around Arclight City",
 				"trans": "幻光之城週邊快訊"
+			}
+		},
+		"stockAd": {
+			"feature1": {
+				"eng": "Minimal extraction fees - the house always wins, but barely",
+				"trans": "最低的提煉費用 - 賭場永遠有優勢，但極小"
+			},
+			"feature2": {
+				"eng": "Live market data from the corporate towers",
+				"trans": "來自企業大樓的即時市場數據"
+			},
+			"liveIndicator": {
+				"eng": "LIVE",
+				"trans": "實時"
+			},
+			"subtitle": {
+				"eng": "Trade corporate futures in Arclight's shadow markets.",
+				"trans": "在幻光的暗市中交易企業期貨。"
 			}
 		},
 		"wiki": {

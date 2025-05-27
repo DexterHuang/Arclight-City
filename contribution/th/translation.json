@@ -303,6 +303,12 @@
 			}
 		}
 	},
+	"alertModal": {
+		"ok": {
+			"eng": "OK",
+			"trans": "โอเค"
+		}
+	},
 	"apartment": {
 		"apartment0": {
 			"displayName": {
@@ -2134,16 +2140,6 @@
 		}
 	},
 	"crewTab": {
-		"detailModal": {
-			"detail": {
-				"eng": "view details",
-				"trans": "ดูรายละเอียด"
-			},
-			"remove": {
-				"eng": "Remove from crew",
-				"trans": "เตะออกจากแก๊ง"
-			}
-		},
 		"selectPopup": {
 			"title": {
 				"eng": "Select mercenary",
@@ -8515,21 +8511,37 @@
 	},
 	"pvp": {
 		"mail": {
-			"citizenArrest1": {
-				"eng": "${playerName} have arrested you, you have lost ${currency}, this player has been added to your enemies list",
-				"trans": "${playerName} จับกุมคุณ คุณเสีย ${currency} ผู้เล่นคนนี้ถูกเพิ่มในรายชื่อคู่อริของคุณ"
+			"attackedStockLiquidation": {
+				"eng": "${playerName} hacked your portfolio and stole ${shares} shares of ${symbol}",
+				"trans": "ผู้เล่น ${playerName} แฮกพอร์ตโฟลิโอของคุณและขโมยหุ้น ${shares} ของ ${symbol}"
+			},
+			"attackerStockLiquidation": {
+				"eng": "You received ${totalValue} from liquidating ${targetPlayer}'s stocks",
+				"trans": "คุณได้รับ ${totalValue} จากการขายหุ้นของ ${targetPlayer}"
 			},
 			"citizenArrest2": {
 				"eng": "You have successfully arrested ${playerName}, the ACPD has rewarded you ${currency}",
 				"trans": "${playerName} โดนรวบเรียบร้อย, ACPD เปย์คุณ ${currency} ว่ะ"
 			},
-			"mug1": {
-				"eng": "${playerName} mugged you, you have lost ${currency}, this player has been added to your enemies list",
-				"trans": "${playerName} ปล้นคุณไป, คุณเสีย ${currency} แล้ว, ผู้เล่นคนนี้ถูกเพิ่มในรายชื่อศัตรูของคุณ"
+			"citizenArrestAddedEnemy": {
+				"eng": "${playerName} have arrested you, you have lost ${currency}, this player has been added to your enemies list",
+				"trans": "ผู้เล่น ${playerName} ได้จับคุณ คุณเสีย ${currency} ผู้เล่นนี้ถูกเพิ่มลงในลิสต์ศัตรูของคุณ"
+			},
+			"citizenArrestNoAddEnemy": {
+				"eng": "${playerName} have arrested you, you have lost ${currency}, your enemy list is full so this player has not been added to your enemies list, remove enemy to allow system to automatically add them when you were attacked",
+				"trans": "ผู้เล่น ${playerName} ได้จับคุณ คุณเสีย ${currency} ไป รายการศัตรูของคุณเต็มแล้ว ดังนั้นผู้เล่นนี้จึงไม่ได้ถูกเพิ่มเข้าไปในรายการศัตรูของคุณ ลบศัตรูออกเพื่อให้ระบบสามารถเพิ่มพวกเขาโดยอัตโนมัติเมื่อคุณถูกโจมตี"
 			},
 			"mug2": {
 				"eng": "You mugged ${playerName} and you won the fight, you gotten ${currency}",
 				"trans": "คุณซิว ${playerName} แล้วกินเรียบ ได้ ${currency}"
+			},
+			"mugAddedEnemy": {
+				"eng": "${playerName} mugged you, you have lost ${currency}, this player has been added to your enemies list",
+				"trans": "ผู้เล่น ${playerName} ปล้นคุณ คุณเสีย ${currency} ผู้เล่นนี้ถูกเพิ่มลงในลิสต์ศัตรู"
+			},
+			"mugNoAddEnemy": {
+				"eng": "${playerName} mugged you, you have lost ${currency}, your enemy list is full so this player has not been added to your enemies list, remove enemy to allow system to automatically add them when you were attacked",
+				"trans": "${playerName} ปล้นคุณ คุณสูญเสีย ${currency} รายชื่อศัตรูของคุณเต็มแล้ว ดังนั้นผู้เล่นคนนี้จึงไม่ได้ถูกเพิ่มเข้าไป ลบศัตรูออกเพื่อให้ระบบสามารถเพิ่มพวกเขาโดยอัตโนมัติเมื่อคุณถูกโจมตี"
 			},
 			"successBounty": {
 				"eng": "You received bounty of ${money1} and ${money2} for eliminating ${targetPlayer}",
@@ -8999,6 +9011,10 @@
 			"notInCombat": {
 				"eng": "You are not in combat",
 				"trans": "ไม่ได้อยู่ในโหมดต่อสู้"
+			},
+			"pvpArrestDismissed": {
+				"eng": "This player has already been arrested",
+				"trans": "ผู้เล่นนี้ถูกจับแล้ว"
 			}
 		},
 		"combatLog": {
@@ -9960,6 +9976,182 @@
 			"trans": "ของเถื่อน"
 		}
 	},
+	"stock": {
+		"notEnoughMoney": {
+			"eng": "You don't have enough Eurodollar to buy purchase ${company}, current price: ${price}, needed: ${total}",
+			"trans": "คุณไม่มียูโรดอลเพียงพอที่จะซื้อบริษัท ${company} ราคาปัจจุบัน: ${price}, ต้องการ: ${total}"
+		},
+		"tradeCooldown": {
+			"eng": "You can only sell stocks once per ${cooldown} minutes",
+			"trans": "คุณสามารถขายหุ้นได้แค่หนึ่งครั้งต่อ ${cooldown} นาที"
+		}
+	},
+	"stockExchange": {
+		"availableFunds": {
+			"eng": "Available Funds",
+			"trans": "เงินที่พร้อมใช้"
+		},
+		"averageCost": {
+			"eng": "Average Cost",
+			"trans": "ต้นทุนเฉลี่ย"
+		},
+		"buy": {
+			"eng": "BUY",
+			"trans": "ซื้อ"
+		},
+		"buyShares": {
+			"eng": "Buy Shares",
+			"trans": "ซื้อหุ้น"
+		},
+		"companyColumn": {
+			"eng": "Company",
+			"trans": "บริษัท"
+		},
+		"confirmBuy": {
+			"eng": "Confirm Buy",
+			"trans": "ยืนยันการซื้อ"
+		},
+		"confirmSell": {
+			"eng": "Confirm Sell",
+			"trans": "ยืนยันการขาย"
+		},
+		"currentPrice": {
+			"eng": "Current Price",
+			"trans": "ราคาปัจจุบัน"
+		},
+		"invalidStock": {
+			"eng": "Invalid stock selected",
+			"trans": "สต็อกที่เลือกไม่ถูกต้อง"
+		},
+		"invested": {
+			"eng": "Total Asset Value",
+			"trans": "มูลค่าสินทรัพย์รวม"
+		},
+		"liveIndicator": {
+			"eng": "LIVE MARKET",
+			"trans": "ตลาดไลฟ์"
+		},
+		"loading": {
+			"eng": "Loading market data...",
+			"trans": "กำลังโหลดข้อมูลตลาด..."
+		},
+		"loadingPrices": {
+			"eng": "Loading prices...",
+			"trans": "กำลังโหลดราคา..."
+		},
+		"marketPriceWarning": {
+			"eng": "The actual price may differ slightly from the displayed price due to market spreads, timing, and demand.",
+			"trans": "ราคาจริงอาจมีความแตกต่างเล็กน้อยจากราคาที่แสดง เนื่องจากสเปรดตลาด เวลา และความต้องการ"
+		},
+		"max": {
+			"eng": "MAX",
+			"trans": "สูงสุด"
+		},
+		"maxAffordable": {
+			"eng": "Max affordable: ${count} shares",
+			"trans": "จำนวนที่ซื้อได้สูงสุด: ${count} หุ้น"
+		},
+		"noShares": {
+			"eng": "You don't own any shares of this stock",
+			"trans": "คุณไม่มีหุ้นใด ๆ ของหุ้นนี้"
+		},
+		"portfolioOverview": {
+			"eng": "Portfolio Overview",
+			"trans": "ภาพรวมพอร์ตโฟลิโอ"
+		},
+		"priceColumn": {
+			"eng": "Price / Change",
+			"trans": "ราคา / ปรับ"
+		},
+		"processing": {
+			"eng": "Processing...",
+			"trans": "กำลังประมวลผล..."
+		},
+		"profitLoss": {
+			"eng": "Unrealized P&L",
+			"trans": "กำไรและขาดทุนที่ยังไม่ได้รับการรับรู้"
+		},
+		"purchaseFailed": {
+			"eng": "Purchase Failed",
+			"trans": "การซื้อไม่สำเร็จ"
+		},
+		"purchaseFailedGeneric": {
+			"eng": "Unable to complete purchase",
+			"trans": "การซื้อไม่สำเร็จ"
+		},
+		"purchaseSuccessful": {
+			"eng": "Purchase Successful",
+			"trans": "การซื้อสำเร็จ"
+		},
+		"saleFailed": {
+			"eng": "Sale Failed",
+			"trans": "การทำธุรกรรมล้มเหลว"
+		},
+		"saleFailedGeneric": {
+			"eng": "Unable to complete sale",
+			"trans": "ไม่สามารถดำเนินการขายได้"
+		},
+		"saleSuccessful": {
+			"eng": "Sale Successful",
+			"trans": "ขายสำเร็จ"
+		},
+		"saleSuccessfulMessage": {
+			"eng": "You have successfully sold ${shares} shares of ${company} at ${price} per share.",
+			"trans": "คุณได้ขายส่วนแบ่ง ${shares} ของบริษัท ${company} ที่ราคา ${price} ต่อหุ้น"
+		},
+		"sell": {
+			"eng": "SELL",
+			"trans": "ขาย"
+		},
+		"sellShares": {
+			"eng": "Sell Shares",
+			"trans": "ขายหุ้น"
+		},
+		"shares": {
+			"eng": "Shares",
+			"trans": "หุ้น"
+		},
+		"sharesOwned": {
+			"eng": "${shares} shares",
+			"trans": "${shares} หุ้น"
+		},
+		"stockValue": {
+			"eng": "Stock Value",
+			"trans": "มูลค่าหุ้น"
+		},
+		"totalCost": {
+			"eng": "Total Cost: ",
+			"trans": "ค่าใช้จ่ายทั้งหมด:"
+		},
+		"totalRealizedProfit": {
+			"eng": "Realized P&L",
+			"trans": "กำไรและขาดทุนที่ได้รับการรับรู้"
+		},
+		"totalReceived": {
+			"eng": "Total Received",
+			"trans": "รวมที่ได้รับ"
+		},
+		"totalReturn": {
+			"eng": "Total Return: ",
+			"trans": "ผลตอบแทนรวม:"
+		},
+		"trade": {
+			"eng": "Trade",
+			"trans": "แลกเปลี่ยน"
+		},
+		"tradeButton": {
+			"eng": "Trade",
+			"trans": "แลกเปลี่ยน"
+		},
+		"tradingFee": {
+			"eng": "Trading Fee",
+			"trans": "ค่าธรรมเนียมการซื้อขาย"
+		},
+		"transactionSection": {
+			"eng": "BUY & SELL",
+			"trans": "ซื้อ & ขาย"
+		}
+	},
 	"storyListPage": {
 		"invalidPage": {
 			"eng": "Please enter a valid page number",
@@ -10448,6 +10640,12 @@
 		"unlock": {
 			"eng": "unlock deal",
 			"trans": "รับข้อเสนอเลย"
+		}
+	},
+	"traitDisplay": {
+		"unknownTrait": {
+			"eng": "This is an encrypted trait, use ${item} to decrypt and identify its true potential",
+			"trans": "นี่คือคุณสมบัติที่ถูกเข้ารหัส ใช้ ${item} เพื่อถอดรหัสและระบุศักยภาพที่แท้จริง"
 		}
 	},
 	"travelToLocationModal": {
@@ -11150,6 +11348,24 @@
 			"subtitle": {
 				"eng": "Latest updates from around Arclight City",
 				"trans": "อัพเดทล่าสุดจากเมืองอาร์คไลท์"
+			}
+		},
+		"stockAd": {
+			"feature1": {
+				"eng": "Minimal extraction fees - the house always wins, but barely",
+				"trans": "ค่าธรรมเนียมการดึงข้อมูลต่ำสุด - บ้านชนะเสมอ แต่แค่เล็กน้อย"
+			},
+			"feature2": {
+				"eng": "Live market data from the corporate towers",
+				"trans": "ข้อมูลตลาดแบบเรียลไทม์จากหอคอยองค์กร"
+			},
+			"liveIndicator": {
+				"eng": "LIVE",
+				"trans": "ไลฟ์"
+			},
+			"subtitle": {
+				"eng": "Trade corporate futures in Arclight's shadow markets.",
+				"trans": "ซื้อขายสัญญาฟิวเจอร์ของบริษัทในตลาดมืดอาร์คลายต์"
 			}
 		},
 		"wiki": {

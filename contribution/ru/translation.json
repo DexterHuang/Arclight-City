@@ -303,6 +303,12 @@
 			}
 		}
 	},
+	"alertModal": {
+		"ok": {
+			"eng": "OK",
+			"trans": "Хорошо"
+		}
+	},
 	"apartment": {
 		"apartment0": {
 			"displayName": {
@@ -2134,16 +2140,6 @@
 		}
 	},
 	"crewTab": {
-		"detailModal": {
-			"detail": {
-				"eng": "view details",
-				"trans": "Просмотреть подробности"
-			},
-			"remove": {
-				"eng": "Remove from crew",
-				"trans": "Удалить из команды"
-			}
-		},
 		"selectPopup": {
 			"title": {
 				"eng": "Select mercenary",
@@ -8515,21 +8511,37 @@
 	},
 	"pvp": {
 		"mail": {
-			"citizenArrest1": {
-				"eng": "${playerName} have arrested you, you have lost ${currency}, this player has been added to your enemies list",
-				"trans": "${playerName} арестовал вас, вы потеряли ${currency}, этот игрок был добавлен в ваш список врагов"
+			"attackedStockLiquidation": {
+				"eng": "${playerName} hacked your portfolio and stole ${shares} shares of ${symbol}",
+				"trans": "${playerName} хакнул ваш портфель и украл ${shares} акций по тикеру ${symbol}"
+			},
+			"attackerStockLiquidation": {
+				"eng": "You received ${totalValue} from liquidating ${targetPlayer}'s stocks",
+				"trans": "Получено ${totalValue} от ликвидации акций ${targetPlayer}"
 			},
 			"citizenArrest2": {
 				"eng": "You have successfully arrested ${playerName}, the ACPD has rewarded you ${currency}",
 				"trans": "Вы успешно арестовали ${playerName}, АСПД наградила вас ${currency}"
 			},
-			"mug1": {
-				"eng": "${playerName} mugged you, you have lost ${currency}, this player has been added to your enemies list",
-				"trans": "${playerName} ограбил вас, вы потеряли ${currency}, этот игрок был добавлен в ваш список врагов"
+			"citizenArrestAddedEnemy": {
+				"eng": "${playerName} have arrested you, you have lost ${currency}, this player has been added to your enemies list",
+				"trans": "${playerName} арестовал вас, вы потеряли ${currency}, этот игрок был добавлен в ваш список врагов"
+			},
+			"citizenArrestNoAddEnemy": {
+				"eng": "${playerName} have arrested you, you have lost ${currency}, your enemy list is full so this player has not been added to your enemies list, remove enemy to allow system to automatically add them when you were attacked",
+				"trans": "Игрок ${playerName} арестовал вас, вы потеряли ${currency}, ваш список врагов заполнен, поэтому этот игрок не был добавлен в ваш список врагов. Удалите врага из списка, чтобы система автоматически добавила их при атаке."
 			},
 			"mug2": {
 				"eng": "You mugged ${playerName} and you won the fight, you gotten ${currency}",
 				"trans": "Вы ограбили ${playerName} и выиграли бой, вы получили ${currency}"
+			},
+			"mugAddedEnemy": {
+				"eng": "${playerName} mugged you, you have lost ${currency}, this player has been added to your enemies list",
+				"trans": "Игрок ${playerName} ограбил вас, вы потеряли ${currency}, этот игрок был добавлен в ваш список врагов"
+			},
+			"mugNoAddEnemy": {
+				"eng": "${playerName} mugged you, you have lost ${currency}, your enemy list is full so this player has not been added to your enemies list, remove enemy to allow system to automatically add them when you were attacked",
+				"trans": "${playerName} ограбил вас, вы потеряли ${currency}, ваш список врагов заполнен, поэтому этот игрок не был добавлен. Удалите врага, чтобы разрешить системе автоматически добавлять их при атаке"
 			},
 			"successBounty": {
 				"eng": "You received bounty of ${money1} and ${money2} for eliminating ${targetPlayer}",
@@ -8999,6 +9011,10 @@
 			"notInCombat": {
 				"eng": "You are not in combat",
 				"trans": "Вы не в бою"
+			},
+			"pvpArrestDismissed": {
+				"eng": "This player has already been arrested",
+				"trans": "Этот игрок уже был арестован"
 			}
 		},
 		"combatLog": {
@@ -9960,6 +9976,182 @@
 			"trans": "Добыча"
 		}
 	},
+	"stock": {
+		"notEnoughMoney": {
+			"eng": "You don't have enough Eurodollar to buy purchase ${company}, current price: ${price}, needed: ${total}",
+			"trans": "У вас недостаточно Евродолларов, чтобы приобрести ${company}, текущая цена: ${price}, требуется: ${total}"
+		},
+		"tradeCooldown": {
+			"eng": "You can only sell stocks once per ${cooldown} minutes",
+			"trans": "Можно продавать акции только раз в ${cooldown} минут"
+		}
+	},
+	"stockExchange": {
+		"availableFunds": {
+			"eng": "Available Funds",
+			"trans": "Доступные средства"
+		},
+		"averageCost": {
+			"eng": "Average Cost",
+			"trans": "Средняя стоимость"
+		},
+		"buy": {
+			"eng": "BUY",
+			"trans": "КУПИТЬ"
+		},
+		"buyShares": {
+			"eng": "Buy Shares",
+			"trans": "Купить акции"
+		},
+		"companyColumn": {
+			"eng": "Company",
+			"trans": "Компания"
+		},
+		"confirmBuy": {
+			"eng": "Confirm Buy",
+			"trans": "Подтвердить покупку"
+		},
+		"confirmSell": {
+			"eng": "Confirm Sell",
+			"trans": "Подтвердить продажу"
+		},
+		"currentPrice": {
+			"eng": "Current Price",
+			"trans": "Текущая цена"
+		},
+		"invalidStock": {
+			"eng": "Invalid stock selected",
+			"trans": "Выбранный предмет недействителен"
+		},
+		"invested": {
+			"eng": "Total Asset Value",
+			"trans": "Общая стоимость активов"
+		},
+		"liveIndicator": {
+			"eng": "LIVE MARKET",
+			"trans": "ЖИВОЙ РЫНОК"
+		},
+		"loading": {
+			"eng": "Loading market data...",
+			"trans": "Загрузка данных рынка..."
+		},
+		"loadingPrices": {
+			"eng": "Loading prices...",
+			"trans": "Загрузка цен..."
+		},
+		"marketPriceWarning": {
+			"eng": "The actual price may differ slightly from the displayed price due to market spreads, timing, and demand.",
+			"trans": "Фактическая цена может незначительно отличаться от отображаемой цены из-за рыночных спредов, времени и спроса."
+		},
+		"max": {
+			"eng": "MAX",
+			"trans": "Макс"
+		},
+		"maxAffordable": {
+			"eng": "Max affordable: ${count} shares",
+			"trans": "Макс. доступно: ${count} акций"
+		},
+		"noShares": {
+			"eng": "You don't own any shares of this stock",
+			"trans": "У вас нет акций этой компании"
+		},
+		"portfolioOverview": {
+			"eng": "Portfolio Overview",
+			"trans": "Обзор портфеля"
+		},
+		"priceColumn": {
+			"eng": "Price / Change",
+			"trans": "Цена / Изменение"
+		},
+		"processing": {
+			"eng": "Processing...",
+			"trans": "Обработка..."
+		},
+		"profitLoss": {
+			"eng": "Unrealized P&L",
+			"trans": "Нереализованный прибыль и убыток"
+		},
+		"purchaseFailed": {
+			"eng": "Purchase Failed",
+			"trans": "Покупка не удалась"
+		},
+		"purchaseFailedGeneric": {
+			"eng": "Unable to complete purchase",
+			"trans": "Не удалось завершить покупку"
+		},
+		"purchaseSuccessful": {
+			"eng": "Purchase Successful",
+			"trans": "Покупка успешна"
+		},
+		"saleFailed": {
+			"eng": "Sale Failed",
+			"trans": "Провал продажи"
+		},
+		"saleFailedGeneric": {
+			"eng": "Unable to complete sale",
+			"trans": "Не удалось завершить продажу"
+		},
+		"saleSuccessful": {
+			"eng": "Sale Successful",
+			"trans": "Продажа успешна"
+		},
+		"saleSuccessfulMessage": {
+			"eng": "You have successfully sold ${shares} shares of ${company} at ${price} per share.",
+			"trans": "Вы успешно продали ${shares} акций компании ${company} по цене ${price} за акцию."
+		},
+		"sell": {
+			"eng": "SELL",
+			"trans": "Продать"
+		},
+		"sellShares": {
+			"eng": "Sell Shares",
+			"trans": "Продать акции"
+		},
+		"shares": {
+			"eng": "Shares",
+			"trans": "Акции"
+		},
+		"sharesOwned": {
+			"eng": "${shares} shares",
+			"trans": "${shares} акции"
+		},
+		"stockValue": {
+			"eng": "Stock Value",
+			"trans": "Стоимость акции"
+		},
+		"totalCost": {
+			"eng": "Total Cost: ",
+			"trans": "Общая стоимость"
+		},
+		"totalRealizedProfit": {
+			"eng": "Realized P&L",
+			"trans": "Реализованный П&Л"
+		},
+		"totalReceived": {
+			"eng": "Total Received",
+			"trans": "Всего получено"
+		},
+		"totalReturn": {
+			"eng": "Total Return: ",
+			"trans": "Общий возврат:"
+		},
+		"trade": {
+			"eng": "Trade",
+			"trans": "Торговля"
+		},
+		"tradeButton": {
+			"eng": "Trade",
+			"trans": "Торговля"
+		},
+		"tradingFee": {
+			"eng": "Trading Fee",
+			"trans": "Комиссия за торговлю"
+		},
+		"transactionSection": {
+			"eng": "BUY & SELL",
+			"trans": "КУПИТЬ И ПРОДАТЬ"
+		}
+	},
 	"storyListPage": {
 		"invalidPage": {
 			"eng": "Please enter a valid page number",
@@ -10448,6 +10640,12 @@
 		"unlock": {
 			"eng": "unlock deal",
 			"trans": "разблокировать сделку"
+		}
+	},
+	"traitDisplay": {
+		"unknownTrait": {
+			"eng": "This is an encrypted trait, use ${item} to decrypt and identify its true potential",
+			"trans": "Это зашифрованное свойство. Используйте ${item} для расшифровки и определения его истинного потенциала."
 		}
 	},
 	"travelToLocationModal": {
@@ -11150,6 +11348,24 @@
 			"subtitle": {
 				"eng": "Latest updates from around Arclight City",
 				"trans": "Свежие новости из Арклайт Сити"
+			}
+		},
+		"stockAd": {
+			"feature1": {
+				"eng": "Minimal extraction fees - the house always wins, but barely",
+				"trans": "Минимальные сборы за извлечение — дом всегда выигрывает, но едва ли"
+			},
+			"feature2": {
+				"eng": "Live market data from the corporate towers",
+				"trans": "Живые рыночные данные с корпоративных башен"
+			},
+			"liveIndicator": {
+				"eng": "LIVE",
+				"trans": "Вживую"
+			},
+			"subtitle": {
+				"eng": "Trade corporate futures in Arclight's shadow markets.",
+				"trans": "Торгуйте корпоративными фьючерсами на теневых рынках Арклайта."
 			}
 		},
 		"wiki": {

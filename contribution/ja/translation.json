@@ -303,6 +303,12 @@
 			}
 		}
 	},
+	"alertModal": {
+		"ok": {
+			"eng": "OK",
+			"trans": "オーケー"
+		}
+	},
 	"apartment": {
 		"apartment0": {
 			"displayName": {
@@ -2134,16 +2140,6 @@
 		}
 	},
 	"crewTab": {
-		"detailModal": {
-			"detail": {
-				"eng": "view details",
-				"trans": "詳細を表示する"
-			},
-			"remove": {
-				"eng": "Remove from crew",
-				"trans": "クルーから排除する"
-			}
-		},
 		"selectPopup": {
 			"title": {
 				"eng": "Select mercenary",
@@ -8515,21 +8511,37 @@
 	},
 	"pvp": {
 		"mail": {
-			"citizenArrest1": {
-				"eng": "${playerName} have arrested you, you have lost ${currency}, this player has been added to your enemies list",
-				"trans": "プレイヤー${playerName}に逮捕されました。${currency}を失いました。このプレイヤーはあなたの敵対リストに追加されました。"
+			"attackedStockLiquidation": {
+				"eng": "${playerName} hacked your portfolio and stole ${shares} shares of ${symbol}",
+				"trans": "プレイヤー${playerName}があなたのポートフォリオを乗っ取り、${shares}株式の${symbol}を盗んだ。"
+			},
+			"attackerStockLiquidation": {
+				"eng": "You received ${totalValue} from liquidating ${targetPlayer}'s stocks",
+				"trans": "${targetPlayer}の株式を売却し、${totalValue}を受け取りました。"
 			},
 			"citizenArrest2": {
 				"eng": "You have successfully arrested ${playerName}, the ACPD has rewarded you ${currency}",
 				"trans": "プレイヤー${playerName}を逮捕することに成功しました。ACPDから${currency}の報酬を獲得しました。"
 			},
-			"mug1": {
-				"eng": "${playerName} mugged you, you have lost ${currency}, this player has been added to your enemies list",
-				"trans": "プレイヤー${playerName}に襲われ、${currency}を失いました。このプレイヤーはあなたの敵対リストに追加されました。"
+			"citizenArrestAddedEnemy": {
+				"eng": "${playerName} have arrested you, you have lost ${currency}, this player has been added to your enemies list",
+				"trans": "${playerName}によって逮捕されました。あなたは${currency}を失いました。このプレイヤーは敵リストに追加されました。"
+			},
+			"citizenArrestNoAddEnemy": {
+				"eng": "${playerName} have arrested you, you have lost ${currency}, your enemy list is full so this player has not been added to your enemies list, remove enemy to allow system to automatically add them when you were attacked",
+				"trans": "${playerName}があなたを拘束しました、あなたは${currency}を失いました。敵リストが満杯のため、このプレイヤーは敵リストに追加されませんでした。攻撃された際にシステムが自動で追加できるようにするには、敵を削除してください。"
 			},
 			"mug2": {
 				"eng": "You mugged ${playerName} and you won the fight, you gotten ${currency}",
 				"trans": "プレイヤー${playerName}を襲撃し勝利した。${currency}を獲得した。"
+			},
+			"mugAddedEnemy": {
+				"eng": "${playerName} mugged you, you have lost ${currency}, this player has been added to your enemies list",
+				"trans": "${playerName}があなたから強奪しました。${currency}を失いました。このプレイヤーは敵リストに追加されました。"
+			},
+			"mugNoAddEnemy": {
+				"eng": "${playerName} mugged you, you have lost ${currency}, your enemy list is full so this player has not been added to your enemies list, remove enemy to allow system to automatically add them when you were attacked",
+				"trans": "${playerName}が強奪しました。あなたは${currency}を失いました。敵リストが満杯のため、このプレイヤーは敵リストに追加されませんでした。敵を削除して、システムが自動的に追加できるようにしてください。あなたが攻撃されたときに"
 			},
 			"successBounty": {
 				"eng": "You received bounty of ${money1} and ${money2} for eliminating ${targetPlayer}",
@@ -8999,6 +9011,10 @@
 			"notInCombat": {
 				"eng": "You are not in combat",
 				"trans": "戦闘中ではありません"
+			},
+			"pvpArrestDismissed": {
+				"eng": "This player has already been arrested",
+				"trans": "プレイヤーはすでに捕まった"
 			}
 		},
 		"combatLog": {
@@ -9960,6 +9976,182 @@
 			"trans": "戦利品"
 		}
 	},
+	"stock": {
+		"notEnoughMoney": {
+			"eng": "You don't have enough Eurodollar to buy purchase ${company}, current price: ${price}, needed: ${total}",
+			"trans": "エウロドルが不足しています。${company}を購入するには、現在の価格は${price}、必要な金額は${total}です。"
+		},
+		"tradeCooldown": {
+			"eng": "You can only sell stocks once per ${cooldown} minutes",
+			"trans": "X分ごとに一度だけ株を売却できます"
+		}
+	},
+	"stockExchange": {
+		"availableFunds": {
+			"eng": "Available Funds",
+			"trans": "利用可能資金"
+		},
+		"averageCost": {
+			"eng": "Average Cost",
+			"trans": "平均コスト"
+		},
+		"buy": {
+			"eng": "BUY",
+			"trans": "買う"
+		},
+		"buyShares": {
+			"eng": "Buy Shares",
+			"trans": "株式を購入"
+		},
+		"companyColumn": {
+			"eng": "Company",
+			"trans": "会社"
+		},
+		"confirmBuy": {
+			"eng": "Confirm Buy",
+			"trans": "購入確認"
+		},
+		"confirmSell": {
+			"eng": "Confirm Sell",
+			"trans": "売却を確認"
+		},
+		"currentPrice": {
+			"eng": "Current Price",
+			"trans": "現在価格"
+		},
+		"invalidStock": {
+			"eng": "Invalid stock selected",
+			"trans": "無効な選択です"
+		},
+		"invested": {
+			"eng": "Total Asset Value",
+			"trans": "総資産価値"
+		},
+		"liveIndicator": {
+			"eng": "LIVE MARKET",
+			"trans": "ライブマーケット"
+		},
+		"loading": {
+			"eng": "Loading market data...",
+			"trans": "マーケットデータを読み込み中..."
+		},
+		"loadingPrices": {
+			"eng": "Loading prices...",
+			"trans": "価格を読み込み中..."
+		},
+		"marketPriceWarning": {
+			"eng": "The actual price may differ slightly from the displayed price due to market spreads, timing, and demand.",
+			"trans": "実際の価格は、表示価格と比べて市場のスプレッド、タイミング、需要により多少異なる可能性があります。"
+		},
+		"max": {
+			"eng": "MAX",
+			"trans": "マックス"
+		},
+		"maxAffordable": {
+			"eng": "Max affordable: ${count} shares",
+			"trans": "最大購入可能: ${count} シェア"
+		},
+		"noShares": {
+			"eng": "You don't own any shares of this stock",
+			"trans": "この株を持っていません"
+		},
+		"portfolioOverview": {
+			"eng": "Portfolio Overview",
+			"trans": "ポートフォリオ概要"
+		},
+		"priceColumn": {
+			"eng": "Price / Change",
+			"trans": "価格 / 変更"
+		},
+		"processing": {
+			"eng": "Processing...",
+			"trans": "処理中"
+		},
+		"profitLoss": {
+			"eng": "Unrealized P&L",
+			"trans": "未実現利益と損失"
+		},
+		"purchaseFailed": {
+			"eng": "Purchase Failed",
+			"trans": "購入に失敗しました"
+		},
+		"purchaseFailedGeneric": {
+			"eng": "Unable to complete purchase",
+			"trans": "購入が完了できません"
+		},
+		"purchaseSuccessful": {
+			"eng": "Purchase Successful",
+			"trans": "購入に成功しました"
+		},
+		"saleFailed": {
+			"eng": "Sale Failed",
+			"trans": "販売失敗"
+		},
+		"saleFailedGeneric": {
+			"eng": "Unable to complete sale",
+			"trans": "販売を完了できませんでした"
+		},
+		"saleSuccessful": {
+			"eng": "Sale Successful",
+			"trans": "販売成功"
+		},
+		"saleSuccessfulMessage": {
+			"eng": "You have successfully sold ${shares} shares of ${company} at ${price} per share.",
+			"trans": "${shares}株を${company}から1株あたり${price}で売却しました。"
+		},
+		"sell": {
+			"eng": "SELL",
+			"trans": "売却"
+		},
+		"sellShares": {
+			"eng": "Sell Shares",
+			"trans": "株を売る"
+		},
+		"shares": {
+			"eng": "Shares",
+			"trans": "シェア"
+		},
+		"sharesOwned": {
+			"eng": "${shares} shares",
+			"trans": "${shares} 株式"
+		},
+		"stockValue": {
+			"eng": "Stock Value",
+			"trans": "株価"
+		},
+		"totalCost": {
+			"eng": "Total Cost: ",
+			"trans": "総コスト:"
+		},
+		"totalRealizedProfit": {
+			"eng": "Realized P&L",
+			"trans": "実現損益"
+		},
+		"totalReceived": {
+			"eng": "Total Received",
+			"trans": "合計を受け取った"
+		},
+		"totalReturn": {
+			"eng": "Total Return: ",
+			"trans": "総リターン:"
+		},
+		"trade": {
+			"eng": "Trade",
+			"trans": "トレード"
+		},
+		"tradeButton": {
+			"eng": "Trade",
+			"trans": "トレード"
+		},
+		"tradingFee": {
+			"eng": "Trading Fee",
+			"trans": "トレードフィー"
+		},
+		"transactionSection": {
+			"eng": "BUY & SELL",
+			"trans": "購入 & 売却"
+		}
+	},
 	"storyListPage": {
 		"invalidPage": {
 			"eng": "Please enter a valid page number",
@@ -10448,6 +10640,12 @@
 		"unlock": {
 			"eng": "unlock deal",
 			"trans": "取引を解除する"
+		}
+	},
+	"traitDisplay": {
+		"unknownTrait": {
+			"eng": "This is an encrypted trait, use ${item} to decrypt and identify its true potential",
+			"trans": "これは暗号化された特性です。${item}を使用して復号し、その真の力を明らかにしてください。"
 		}
 	},
 	"travelToLocationModal": {
@@ -11150,6 +11348,24 @@
 			"subtitle": {
 				"eng": "Latest updates from around Arclight City",
 				"trans": "アークライト・シティの裏情報アップデート"
+			}
+		},
+		"stockAd": {
+			"feature1": {
+				"eng": "Minimal extraction fees - the house always wins, but barely",
+				"trans": "最小限の抽出手数料 - ハウスは常に勝つが、わずかに"
+			},
+			"feature2": {
+				"eng": "Live market data from the corporate towers",
+				"trans": "コロナタワーからのリアルタイムマーケットデータ"
+			},
+			"liveIndicator": {
+				"eng": "LIVE",
+				"trans": "ライブ"
+			},
+			"subtitle": {
+				"eng": "Trade corporate futures in Arclight's shadow markets.",
+				"trans": "アーライティングのシャドウマーケットで企業の先物取引をトレード"
 			}
 		},
 		"wiki": {

@@ -303,6 +303,12 @@
 			}
 		}
 	},
+	"alertModal": {
+		"ok": {
+			"eng": "OK",
+			"trans": "확인"
+		}
+	},
 	"apartment": {
 		"apartment0": {
 			"displayName": {
@@ -2134,16 +2140,6 @@
 		}
 	},
 	"crewTab": {
-		"detailModal": {
-			"detail": {
-				"eng": "view details",
-				"trans": "세부 정보 보기"
-			},
-			"remove": {
-				"eng": "Remove from crew",
-				"trans": "크루에서 제거하기"
-			}
-		},
 		"selectPopup": {
 			"title": {
 				"eng": "Select mercenary",
@@ -8515,21 +8511,37 @@
 	},
 	"pvp": {
 		"mail": {
-			"citizenArrest1": {
-				"eng": "${playerName} have arrested you, you have lost ${currency}, this player has been added to your enemies list",
-				"trans": "${playerName}님이 당신을 체포했습니다. ${currency}를 잃었습니다. 이 플레이어가 당신의 적 목록에 추가되었습니다"
+			"attackedStockLiquidation": {
+				"eng": "${playerName} hacked your portfolio and stole ${shares} shares of ${symbol}",
+				"trans": "${playerName}이 포트폴리오에 해킹하여 ${shares} 주식의 ${symbol}을 빼앗았습니다."
+			},
+			"attackerStockLiquidation": {
+				"eng": "You received ${totalValue} from liquidating ${targetPlayer}'s stocks",
+				"trans": "${targetPlayer}의 주식을 매도하여 ${totalValue}를 받았습니다."
 			},
 			"citizenArrest2": {
 				"eng": "You have successfully arrested ${playerName}, the ACPD has rewarded you ${currency}",
 				"trans": "당신은 ${playerName}을(를) 성공적으로 체포했습니다. ACPD에서 당신에게 ${currency}의 보상을 주었습니다"
 			},
-			"mug1": {
-				"eng": "${playerName} mugged you, you have lost ${currency}, this player has been added to your enemies list",
-				"trans": "${playerName}님이 당신을 강도질 했습니다. ${currency}를 잃었습니다. 이 플레이어는 당신의 적 목록에 추가되었습니다"
+			"citizenArrestAddedEnemy": {
+				"eng": "${playerName} have arrested you, you have lost ${currency}, this player has been added to your enemies list",
+				"trans": "플레이어 ${playerName}이(가) 당신을 체포했습니다. 당신은 총 ${currency}을 잃었습니다. 이 플레이어가 적 목록에 추가되었습니다."
+			},
+			"citizenArrestNoAddEnemy": {
+				"eng": "${playerName} have arrested you, you have lost ${currency}, your enemy list is full so this player has not been added to your enemies list, remove enemy to allow system to automatically add them when you were attacked",
+				"trans": "${playerName}이(가) 당신을 체포했습니다. ${currency}을(를) 잃게 되었습니다. 적 목록이 가득 차 있어 이 플레이어는 당신의 적 목록에 추가되지 않았습니다. 공격받았을 때 시스템이 자동으로 추가할 수 있도록 하려면 적을 제거하세요."
 			},
 			"mug2": {
 				"eng": "You mugged ${playerName} and you won the fight, you gotten ${currency}",
 				"trans": "당신은 ${playerName}을(를) 강도질하고 전투에서 승리하여 ${currency}을(를) 얻었습니다"
+			},
+			"mugAddedEnemy": {
+				"eng": "${playerName} mugged you, you have lost ${currency}, this player has been added to your enemies list",
+				"trans": "플레이어 ${playerName}가 강도당했습니다. 총 ${currency}을 잃었습니다. 이 플레이어는 적 목록에 추가되었습니다."
+			},
+			"mugNoAddEnemy": {
+				"eng": "${playerName} mugged you, you have lost ${currency}, your enemy list is full so this player has not been added to your enemies list, remove enemy to allow system to automatically add them when you were attacked",
+				"trans": "${playerName}이 당신을 강도당했습니다. 총 ${currency}을 잃었습니다. 적 목록이 가득 차서 이 플레이어는 적 목록에 추가되지 않았습니다. 공격받았을 때 시스템이 자동으로 추가할 수 있도록 하려면 적을 제거해 주세요."
 			},
 			"successBounty": {
 				"eng": "You received bounty of ${money1} and ${money2} for eliminating ${targetPlayer}",
@@ -8999,6 +9011,10 @@
 			"notInCombat": {
 				"eng": "You are not in combat",
 				"trans": "전투 중이 아닙니다"
+			},
+			"pvpArrestDismissed": {
+				"eng": "This player has already been arrested",
+				"trans": "이 플레이어는 이미 체포되었습니다."
 			}
 		},
 		"combatLog": {
@@ -9960,6 +9976,182 @@
 			"trans": "전리품"
 		}
 	},
+	"stock": {
+		"notEnoughMoney": {
+			"eng": "You don't have enough Eurodollar to buy purchase ${company}, current price: ${price}, needed: ${total}",
+			"trans": "충분한 유로달러가 없어 ${company}을(를) 구매할 수 없습니다. 현재 가격: ${price}, 필요 금액: ${total}."
+		},
+		"tradeCooldown": {
+			"eng": "You can only sell stocks once per ${cooldown} minutes",
+			"trans": "주식을 ${cooldown}분마다 한 번만 매도할 수 있습니다."
+		}
+	},
+	"stockExchange": {
+		"availableFunds": {
+			"eng": "Available Funds",
+			"trans": "사용 가능한 자금"
+		},
+		"averageCost": {
+			"eng": "Average Cost",
+			"trans": "평균 비용"
+		},
+		"buy": {
+			"eng": "BUY",
+			"trans": "구매"
+		},
+		"buyShares": {
+			"eng": "Buy Shares",
+			"trans": "주식 구매"
+		},
+		"companyColumn": {
+			"eng": "Company",
+			"trans": "회사"
+		},
+		"confirmBuy": {
+			"eng": "Confirm Buy",
+			"trans": "구매 확인"
+		},
+		"confirmSell": {
+			"eng": "Confirm Sell",
+			"trans": "판매 확인"
+		},
+		"currentPrice": {
+			"eng": "Current Price",
+			"trans": "현재 가격"
+		},
+		"invalidStock": {
+			"eng": "Invalid stock selected",
+			"trans": "선택한 재고가 잘못되었습니다."
+		},
+		"invested": {
+			"eng": "Total Asset Value",
+			"trans": "총 자산 가치"
+		},
+		"liveIndicator": {
+			"eng": "LIVE MARKET",
+			"trans": "라이브 마켓"
+		},
+		"loading": {
+			"eng": "Loading market data...",
+			"trans": "로딩 중... 마켓 데이터"
+		},
+		"loadingPrices": {
+			"eng": "Loading prices...",
+			"trans": "가격 로딩 중..."
+		},
+		"marketPriceWarning": {
+			"eng": "The actual price may differ slightly from the displayed price due to market spreads, timing, and demand.",
+			"trans": "실제 가격은 시장 변동, 타이밍 및 수요의 영향으로 표시된 가격과 약간 다를 수 있습니다."
+		},
+		"max": {
+			"eng": "MAX",
+			"trans": "최대"
+		},
+		"maxAffordable": {
+			"eng": "Max affordable: ${count} shares",
+			"trans": "최대 구매 가능: ${count} 주"
+		},
+		"noShares": {
+			"eng": "You don't own any shares of this stock",
+			"trans": "당신은 이 주식을 보유하고 있지 않습니다."
+		},
+		"portfolioOverview": {
+			"eng": "Portfolio Overview",
+			"trans": "포트폴리오 개요"
+		},
+		"priceColumn": {
+			"eng": "Price / Change",
+			"trans": "가격 / 변경"
+		},
+		"processing": {
+			"eng": "Processing...",
+			"trans": "처리 중..."
+		},
+		"profitLoss": {
+			"eng": "Unrealized P&L",
+			"trans": "미실현 손익"
+		},
+		"purchaseFailed": {
+			"eng": "Purchase Failed",
+			"trans": "구매 실패"
+		},
+		"purchaseFailedGeneric": {
+			"eng": "Unable to complete purchase",
+			"trans": "구매를 완료할 수 없습니다"
+		},
+		"purchaseSuccessful": {
+			"eng": "Purchase Successful",
+			"trans": "구매 성공"
+		},
+		"saleFailed": {
+			"eng": "Sale Failed",
+			"trans": "판매 실패"
+		},
+		"saleFailedGeneric": {
+			"eng": "Unable to complete sale",
+			"trans": "거래 실패"
+		},
+		"saleSuccessful": {
+			"eng": "Sale Successful",
+			"trans": "판매 성공"
+		},
+		"saleSuccessfulMessage": {
+			"eng": "You have successfully sold ${shares} shares of ${company} at ${price} per share.",
+			"trans": "성공적으로 ${shares} 주식을 ${company}에 ${price} 단가로 판매했습니다."
+		},
+		"sell": {
+			"eng": "SELL",
+			"trans": "팔다"
+		},
+		"sellShares": {
+			"eng": "Sell Shares",
+			"trans": "주식 판매"
+		},
+		"shares": {
+			"eng": "Shares",
+			"trans": "주식"
+		},
+		"sharesOwned": {
+			"eng": "${shares} shares",
+			"trans": "${shares} 주식"
+		},
+		"stockValue": {
+			"eng": "Stock Value",
+			"trans": "주식 가치"
+		},
+		"totalCost": {
+			"eng": "Total Cost: ",
+			"trans": "총 비용:"
+		},
+		"totalRealizedProfit": {
+			"eng": "Realized P&L",
+			"trans": "실현 손익"
+		},
+		"totalReceived": {
+			"eng": "Total Received",
+			"trans": "총 수령량"
+		},
+		"totalReturn": {
+			"eng": "Total Return: ",
+			"trans": "총 수익:"
+		},
+		"trade": {
+			"eng": "Trade",
+			"trans": "트레이드"
+		},
+		"tradeButton": {
+			"eng": "Trade",
+			"trans": "트레이드"
+		},
+		"tradingFee": {
+			"eng": "Trading Fee",
+			"trans": "거래 수수료"
+		},
+		"transactionSection": {
+			"eng": "BUY & SELL",
+			"trans": "구매 & 판매"
+		}
+	},
 	"storyListPage": {
 		"invalidPage": {
 			"eng": "Please enter a valid page number",
@@ -10448,6 +10640,12 @@
 		"unlock": {
 			"eng": "unlock deal",
 			"trans": "잠금 해제"
+		}
+	},
+	"traitDisplay": {
+		"unknownTrait": {
+			"eng": "This is an encrypted trait, use ${item} to decrypt and identify its true potential",
+			"trans": "이것은 암호화된 특성입니다. 해독하고 진정한 잠재력을 확인하려면 ${item}을(를) 사용하세요."
 		}
 	},
 	"travelToLocationModal": {
@@ -11150,6 +11348,24 @@
 			"subtitle": {
 				"eng": "Latest updates from around Arclight City",
 				"trans": "아크라이트 시티 핫이슈"
+			}
+		},
+		"stockAd": {
+			"feature1": {
+				"eng": "Minimal extraction fees - the house always wins, but barely",
+				"trans": "최소 추출 수수료 - 하우스는 항상 승리하지만, 극히 미약한 승리다"
+			},
+			"feature2": {
+				"eng": "Live market data from the corporate towers",
+				"trans": "기업 타워에서의 실시간 시장 데이터"
+			},
+			"liveIndicator": {
+				"eng": "LIVE",
+				"trans": "라이브"
+			},
+			"subtitle": {
+				"eng": "Trade corporate futures in Arclight's shadow markets.",
+				"trans": "아크라이트의 암시장에서 기업 선물을 거래하세요"
 			}
 		},
 		"wiki": {

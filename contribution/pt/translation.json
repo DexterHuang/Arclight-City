@@ -303,6 +303,12 @@
 			}
 		}
 	},
+	"alertModal": {
+		"ok": {
+			"eng": "OK",
+			"trans": "Okay"
+		}
+	},
 	"apartment": {
 		"apartment0": {
 			"displayName": {
@@ -2134,16 +2140,6 @@
 		}
 	},
 	"crewTab": {
-		"detailModal": {
-			"detail": {
-				"eng": "view details",
-				"trans": "ver detalhes"
-			},
-			"remove": {
-				"eng": "Remove from crew",
-				"trans": "Remover da equipe"
-			}
-		},
 		"selectPopup": {
 			"title": {
 				"eng": "Select mercenary",
@@ -8515,21 +8511,37 @@
 	},
 	"pvp": {
 		"mail": {
-			"citizenArrest1": {
-				"eng": "${playerName} have arrested you, you have lost ${currency}, this player has been added to your enemies list",
-				"trans": "${playerName} te prendeu, você perdeu ${currency}, esse jogador foi adicionado à sua lista de inimigos"
+			"attackedStockLiquidation": {
+				"eng": "${playerName} hacked your portfolio and stole ${shares} shares of ${symbol}",
+				"trans": "O ${playerName} hackeou seu portfólio e roubou ${shares} ações do ${symbol}"
+			},
+			"attackerStockLiquidation": {
+				"eng": "You received ${totalValue} from liquidating ${targetPlayer}'s stocks",
+				"trans": "Recebeu ${totalValue} ao liquidar as ações de ${targetPlayer}"
 			},
 			"citizenArrest2": {
 				"eng": "You have successfully arrested ${playerName}, the ACPD has rewarded you ${currency}",
 				"trans": "Você prendeu com sucesso ${playerName}, a ACPD te recompensou com ${currency}"
 			},
-			"mug1": {
-				"eng": "${playerName} mugged you, you have lost ${currency}, this player has been added to your enemies list",
-				"trans": "${playerName} te assaltou, você perdeu ${currency}, esse jogador foi adicionado à sua lista de inimigos"
+			"citizenArrestAddedEnemy": {
+				"eng": "${playerName} have arrested you, you have lost ${currency}, this player has been added to your enemies list",
+				"trans": "O jogador ${playerName} te prendeu, você perdeu ${currency}, e esse jogador foi adicionado à sua lista de inimigos."
+			},
+			"citizenArrestNoAddEnemy": {
+				"eng": "${playerName} have arrested you, you have lost ${currency}, your enemy list is full so this player has not been added to your enemies list, remove enemy to allow system to automatically add them when you were attacked",
+				"trans": "O jogador ${playerName} o preso, você perdeu ${currency}, sua lista de inimigos está cheia, então este jogador não foi adicionado à sua lista de inimigos. Remova um inimigo para permitir que o sistema os adicione automaticamente quando você for atacado."
 			},
 			"mug2": {
 				"eng": "You mugged ${playerName} and you won the fight, you gotten ${currency}",
 				"trans": "Você assaltou ${playerName} e venceu a luta, você ganhou ${currency}"
+			},
+			"mugAddedEnemy": {
+				"eng": "${playerName} mugged you, you have lost ${currency}, this player has been added to your enemies list",
+				"trans": "O jogador ${playerName} roubou você, você perdeu ${currency}, este jogador foi adicionado à sua lista de inimigos"
+			},
+			"mugNoAddEnemy": {
+				"eng": "${playerName} mugged you, you have lost ${currency}, your enemy list is full so this player has not been added to your enemies list, remove enemy to allow system to automatically add them when you were attacked",
+				"trans": "O jogador ${playerName} assediou você, você perdeu ${currency}, sua lista de inimigos está cheia, então este jogador não foi adicionado à sua lista de inimigos. Remova um inimigo para permitir que o sistema os adicione automaticamente quando você for atacado."
 			},
 			"successBounty": {
 				"eng": "You received bounty of ${money1} and ${money2} for eliminating ${targetPlayer}",
@@ -8999,6 +9011,10 @@
 			"notInCombat": {
 				"eng": "You are not in combat",
 				"trans": "Você não está em combate"
+			},
+			"pvpArrestDismissed": {
+				"eng": "This player has already been arrested",
+				"trans": "Este jogador já foi preso"
 			}
 		},
 		"combatLog": {
@@ -9960,6 +9976,182 @@
 			"trans": "Saques"
 		}
 	},
+	"stock": {
+		"notEnoughMoney": {
+			"eng": "You don't have enough Eurodollar to buy purchase ${company}, current price: ${price}, needed: ${total}",
+			"trans": "Você não possui saldo suficiente para comprar a empresa ${company}, preço atual: ${price}, valor necessário: ${total}"
+		},
+		"tradeCooldown": {
+			"eng": "You can only sell stocks once per ${cooldown} minutes",
+			"trans": "Você só pode vender ações uma vez a cada ${cooldown} minutos"
+		}
+	},
+	"stockExchange": {
+		"availableFunds": {
+			"eng": "Available Funds",
+			"trans": "Fundos Disponíveis"
+		},
+		"averageCost": {
+			"eng": "Average Cost",
+			"trans": "Custo Médio"
+		},
+		"buy": {
+			"eng": "BUY",
+			"trans": "COMPRAR"
+		},
+		"buyShares": {
+			"eng": "Buy Shares",
+			"trans": "Comprar Ações"
+		},
+		"companyColumn": {
+			"eng": "Company",
+			"trans": "empresa"
+		},
+		"confirmBuy": {
+			"eng": "Confirm Buy",
+			"trans": "Confirmar Compra"
+		},
+		"confirmSell": {
+			"eng": "Confirm Sell",
+			"trans": "Confirmar Venda"
+		},
+		"currentPrice": {
+			"eng": "Current Price",
+			"trans": "Preço Atual"
+		},
+		"invalidStock": {
+			"eng": "Invalid stock selected",
+			"trans": "Estoque selecionado inválido"
+		},
+		"invested": {
+			"eng": "Total Asset Value",
+			"trans": "Valor Total dos Ativos"
+		},
+		"liveIndicator": {
+			"eng": "LIVE MARKET",
+			"trans": "MERCADO VIVO"
+		},
+		"loading": {
+			"eng": "Loading market data...",
+			"trans": "Carregando dados do mercado..."
+		},
+		"loadingPrices": {
+			"eng": "Loading prices...",
+			"trans": "Carregando preços..."
+		},
+		"marketPriceWarning": {
+			"eng": "The actual price may differ slightly from the displayed price due to market spreads, timing, and demand.",
+			"trans": "O preço real pode diferir ligeiramente do preço exibido devido às diferenças de mercado, ao momento e à demanda."
+		},
+		"max": {
+			"eng": "MAX",
+			"trans": "MÁXIMO"
+		},
+		"maxAffordable": {
+			"eng": "Max affordable: ${count} shares",
+			"trans": "Máximo comprável: ${count} ações"
+		},
+		"noShares": {
+			"eng": "You don't own any shares of this stock",
+			"trans": "Você não possui nenhuma ação dessa."
+		},
+		"portfolioOverview": {
+			"eng": "Portfolio Overview",
+			"trans": "Visão Geral do Portfólio"
+		},
+		"priceColumn": {
+			"eng": "Price / Change",
+			"trans": "Preço / Alteração"
+		},
+		"processing": {
+			"eng": "Processing...",
+			"trans": "Processando..."
+		},
+		"profitLoss": {
+			"eng": "Unrealized P&L",
+			"trans": "Lucro e Prejuízo Não Realizado"
+		},
+		"purchaseFailed": {
+			"eng": "Purchase Failed",
+			"trans": "Falha na Compra"
+		},
+		"purchaseFailedGeneric": {
+			"eng": "Unable to complete purchase",
+			"trans": "Não foi possível completar a compra"
+		},
+		"purchaseSuccessful": {
+			"eng": "Purchase Successful",
+			"trans": "Compra Bem-sucedida"
+		},
+		"saleFailed": {
+			"eng": "Sale Failed",
+			"trans": "Venda Falhou"
+		},
+		"saleFailedGeneric": {
+			"eng": "Unable to complete sale",
+			"trans": "Não foi possível concluir a venda"
+		},
+		"saleSuccessful": {
+			"eng": "Sale Successful",
+			"trans": "Venda Bem-Sucedida"
+		},
+		"saleSuccessfulMessage": {
+			"eng": "You have successfully sold ${shares} shares of ${company} at ${price} per share.",
+			"trans": "Você vendeu com sucesso ${shares} ações da ${company} a ${price} por ação."
+		},
+		"sell": {
+			"eng": "SELL",
+			"trans": "VENDER"
+		},
+		"sellShares": {
+			"eng": "Sell Shares",
+			"trans": "Vender Ações"
+		},
+		"shares": {
+			"eng": "Shares",
+			"trans": "Ações"
+		},
+		"sharesOwned": {
+			"eng": "${shares} shares",
+			"trans": "${shares} ações"
+		},
+		"stockValue": {
+			"eng": "Stock Value",
+			"trans": "Valor de Ação"
+		},
+		"totalCost": {
+			"eng": "Total Cost: ",
+			"trans": "Custo Total:"
+		},
+		"totalRealizedProfit": {
+			"eng": "Realized P&L",
+			"trans": "Lucro e Prejuízo Realizado"
+		},
+		"totalReceived": {
+			"eng": "Total Received",
+			"trans": "Total Recebido"
+		},
+		"totalReturn": {
+			"eng": "Total Return: ",
+			"trans": "Retorno Total:"
+		},
+		"trade": {
+			"eng": "Trade",
+			"trans": "Troca"
+		},
+		"tradeButton": {
+			"eng": "Trade",
+			"trans": "Troca"
+		},
+		"tradingFee": {
+			"eng": "Trading Fee",
+			"trans": "Taxa de Comércio"
+		},
+		"transactionSection": {
+			"eng": "BUY & SELL",
+			"trans": "COMPRAR & VENDER"
+		}
+	},
 	"storyListPage": {
 		"invalidPage": {
 			"eng": "Please enter a valid page number",
@@ -10448,6 +10640,12 @@
 		"unlock": {
 			"eng": "unlock deal",
 			"trans": "desbloquear oferta"
+		}
+	},
+	"traitDisplay": {
+		"unknownTrait": {
+			"eng": "This is an encrypted trait, use ${item} to decrypt and identify its true potential",
+			"trans": "Este é um traço criptografado, use ${item} para descriptografar e identificar seu verdadeiro potencial"
 		}
 	},
 	"travelToLocationModal": {
@@ -11150,6 +11348,24 @@
 			"subtitle": {
 				"eng": "Latest updates from around Arclight City",
 				"trans": "Novidades de Arclight City"
+			}
+		},
+		"stockAd": {
+			"feature1": {
+				"eng": "Minimal extraction fees - the house always wins, but barely",
+				"trans": "Taxas de extração mínimas - a casa sempre ganha, mas por pouco"
+			},
+			"feature2": {
+				"eng": "Live market data from the corporate towers",
+				"trans": "Dados de mercado ao vivo das torres corporativas"
+			},
+			"liveIndicator": {
+				"eng": "LIVE",
+				"trans": "Ao Vivo"
+			},
+			"subtitle": {
+				"eng": "Trade corporate futures in Arclight's shadow markets.",
+				"trans": "Negocie futuros corporativos nos mercados de sombra de Arclight."
 			}
 		},
 		"wiki": {

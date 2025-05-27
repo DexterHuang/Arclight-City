@@ -303,6 +303,12 @@
 			}
 		}
 	},
+	"alertModal": {
+		"ok": {
+			"eng": "OK",
+			"trans": "Oke"
+		}
+	},
 	"apartment": {
 		"apartment0": {
 			"displayName": {
@@ -2134,16 +2140,6 @@
 		}
 	},
 	"crewTab": {
-		"detailModal": {
-			"detail": {
-				"eng": "view details",
-				"trans": "Lihat rincian"
-			},
-			"remove": {
-				"eng": "Remove from crew",
-				"trans": "Hapus dari kru"
-			}
-		},
 		"selectPopup": {
 			"title": {
 				"eng": "Select mercenary",
@@ -8515,21 +8511,37 @@
 	},
 	"pvp": {
 		"mail": {
-			"citizenArrest1": {
-				"eng": "${playerName} have arrested you, you have lost ${currency}, this player has been added to your enemies list",
-				"trans": "${playerName} telah menangkapmu, kamu telah kehilangan ${currency}, pemain ini telah ditambahkan ke daftar musuhmu"
+			"attackedStockLiquidation": {
+				"eng": "${playerName} hacked your portfolio and stole ${shares} shares of ${symbol}",
+				"trans": "Pemain ${playerName} menghack portofolio Anda dan mencuri ${shares} saham dari ${symbol}"
+			},
+			"attackerStockLiquidation": {
+				"eng": "You received ${totalValue} from liquidating ${targetPlayer}'s stocks",
+				"trans": "Anda menerima ${totalValue} dari menjual saham ${targetPlayer}"
 			},
 			"citizenArrest2": {
 				"eng": "You have successfully arrested ${playerName}, the ACPD has rewarded you ${currency}",
 				"trans": "Anda telah berhasil menangkap ${playerName}, ACPD telah memberi Anda hadiah ${currency}"
 			},
-			"mug1": {
-				"eng": "${playerName} mugged you, you have lost ${currency}, this player has been added to your enemies list",
-				"trans": "${playerName} telah merampokmu, kamu kehilangan ${currency}, pemain ini telah ditambahkan ke daftar musuhmu"
+			"citizenArrestAddedEnemy": {
+				"eng": "${playerName} have arrested you, you have lost ${currency}, this player has been added to your enemies list",
+				"trans": "Pemain ${playerName} telah menangkap Anda, Anda kehilangan ${currency}, pemain ini ditambahkan ke daftar musuh Anda."
+			},
+			"citizenArrestNoAddEnemy": {
+				"eng": "${playerName} have arrested you, you have lost ${currency}, your enemy list is full so this player has not been added to your enemies list, remove enemy to allow system to automatically add them when you were attacked",
+				"trans": "Pemain ${playerName} telah menangkap kamu, kamu telah kehilangan ${currency}, daftar musuhmu penuh jadi pemain ini tidak ditambahkan ke daftar musuhmu, hapus musuh untuk memungkinkan sistem menambahkan mereka secara otomatis saat kamu diserang."
 			},
 			"mug2": {
 				"eng": "You mugged ${playerName} and you won the fight, you gotten ${currency}",
 				"trans": "Anda menghajar ${playerName} dan memenangkan pertarungan, Anda memperoleh ${currency}"
+			},
+			"mugAddedEnemy": {
+				"eng": "${playerName} mugged you, you have lost ${currency}, this player has been added to your enemies list",
+				"trans": "Pemain ${playerName} merampok Anda, Anda kehilangan ${currency}, pemain ini telah ditambahkan ke daftar musuh Anda."
+			},
+			"mugNoAddEnemy": {
+				"eng": "${playerName} mugged you, you have lost ${currency}, your enemy list is full so this player has not been added to your enemies list, remove enemy to allow system to automatically add them when you were attacked",
+				"trans": "${playerName} merampok Anda, Anda kehilangan ${currency}, daftar musuh Anda penuh sehingga pemain ini tidak ditambahkan ke daftar musuh Anda. Hapus musuh untuk memungkinkan sistem menambahkan mereka secara otomatis saat Anda diserang."
 			},
 			"successBounty": {
 				"eng": "You received bounty of ${money1} and ${money2} for eliminating ${targetPlayer}",
@@ -8999,6 +9011,10 @@
 			"notInCombat": {
 				"eng": "You are not in combat",
 				"trans": "Anda tidak dalam pertempuran"
+			},
+			"pvpArrestDismissed": {
+				"eng": "This player has already been arrested",
+				"trans": "Pemain ini telah ditangkap"
 			}
 		},
 		"combatLog": {
@@ -9960,6 +9976,182 @@
 			"trans": "Harta Rampasan"
 		}
 	},
+	"stock": {
+		"notEnoughMoney": {
+			"eng": "You don't have enough Eurodollar to buy purchase ${company}, current price: ${price}, needed: ${total}",
+			"trans": "Anda tidak memiliki cukup EuroDolar untuk membeli saham perusahaan ${company}, harga saat ini: ${price}, dibutuhkan: ${total}"
+		},
+		"tradeCooldown": {
+			"eng": "You can only sell stocks once per ${cooldown} minutes",
+			"trans": "Hanya bisa menjual saham sekali setiap ${cooldown} menit"
+		}
+	},
+	"stockExchange": {
+		"availableFunds": {
+			"eng": "Available Funds",
+			"trans": "Dana Tersedia"
+		},
+		"averageCost": {
+			"eng": "Average Cost",
+			"trans": "Biaya Rata-Rata"
+		},
+		"buy": {
+			"eng": "BUY",
+			"trans": "BELI"
+		},
+		"buyShares": {
+			"eng": "Buy Shares",
+			"trans": "Beli Saham"
+		},
+		"companyColumn": {
+			"eng": "Company",
+			"trans": "Perusahaan"
+		},
+		"confirmBuy": {
+			"eng": "Confirm Buy",
+			"trans": "Konfirmasi Beli"
+		},
+		"confirmSell": {
+			"eng": "Confirm Sell",
+			"trans": "Konfirmasi Jual"
+		},
+		"currentPrice": {
+			"eng": "Current Price",
+			"trans": "Harga Saat Ini"
+		},
+		"invalidStock": {
+			"eng": "Invalid stock selected",
+			"trans": "Stok yang dipilih tidak valid"
+		},
+		"invested": {
+			"eng": "Total Asset Value",
+			"trans": "Nilai Total Aset"
+		},
+		"liveIndicator": {
+			"eng": "LIVE MARKET",
+			"trans": "PASAR LIVE"
+		},
+		"loading": {
+			"eng": "Loading market data...",
+			"trans": "Memuat data pasar..."
+		},
+		"loadingPrices": {
+			"eng": "Loading prices...",
+			"trans": "Memuat harga..."
+		},
+		"marketPriceWarning": {
+			"eng": "The actual price may differ slightly from the displayed price due to market spreads, timing, and demand.",
+			"trans": "Harga sebenarnya mungkin sedikit berbeda dari harga yang ditampilkan karena spread pasar, waktu, dan permintaan."
+		},
+		"max": {
+			"eng": "MAX",
+			"trans": "Maksimum"
+		},
+		"maxAffordable": {
+			"eng": "Max affordable: ${count} shares",
+			"trans": "Maksimum yang bisa dibeli: ${count} saham"
+		},
+		"noShares": {
+			"eng": "You don't own any shares of this stock",
+			"trans": "Anda tidak memiliki saham apa pun dari saham ini"
+		},
+		"portfolioOverview": {
+			"eng": "Portfolio Overview",
+			"trans": "Ringkasan Portofolio"
+		},
+		"priceColumn": {
+			"eng": "Price / Change",
+			"trans": "Harga / Perubahan"
+		},
+		"processing": {
+			"eng": "Processing...",
+			"trans": "Memproses..."
+		},
+		"profitLoss": {
+			"eng": "Unrealized P&L",
+			"trans": "Laba Rugi Tidak Terealisasi"
+		},
+		"purchaseFailed": {
+			"eng": "Purchase Failed",
+			"trans": "Gagal Membeli"
+		},
+		"purchaseFailedGeneric": {
+			"eng": "Unable to complete purchase",
+			"trans": "Tidak dapat menyelesaikan pembelian"
+		},
+		"purchaseSuccessful": {
+			"eng": "Purchase Successful",
+			"trans": "Pembelian Berhasil"
+		},
+		"saleFailed": {
+			"eng": "Sale Failed",
+			"trans": "Penjualan Gagal"
+		},
+		"saleFailedGeneric": {
+			"eng": "Unable to complete sale",
+			"trans": "Tidak dapat menyelesaikan penjualan"
+		},
+		"saleSuccessful": {
+			"eng": "Sale Successful",
+			"trans": "Penjualan Berhasil"
+		},
+		"saleSuccessfulMessage": {
+			"eng": "You have successfully sold ${shares} shares of ${company} at ${price} per share.",
+			"trans": "Anda telah berhasil menjual ${shares} saham dari ${company} dengan harga ${price} per saham."
+		},
+		"sell": {
+			"eng": "SELL",
+			"trans": "JUAL"
+		},
+		"sellShares": {
+			"eng": "Sell Shares",
+			"trans": "Jual Saham"
+		},
+		"shares": {
+			"eng": "Shares",
+			"trans": "saham"
+		},
+		"sharesOwned": {
+			"eng": "${shares} shares",
+			"trans": "${saham} saham"
+		},
+		"stockValue": {
+			"eng": "Stock Value",
+			"trans": "Nilai Saham"
+		},
+		"totalCost": {
+			"eng": "Total Cost: ",
+			"trans": "Biaya Total:"
+		},
+		"totalRealizedProfit": {
+			"eng": "Realized P&L",
+			"trans": "Labarugi Nyata"
+		},
+		"totalReceived": {
+			"eng": "Total Received",
+			"trans": "Total Diterima"
+		},
+		"totalReturn": {
+			"eng": "Total Return: ",
+			"trans": "Total Pengembalian:"
+		},
+		"trade": {
+			"eng": "Trade",
+			"trans": "Perdagangan"
+		},
+		"tradeButton": {
+			"eng": "Trade",
+			"trans": "Perdagangan"
+		},
+		"tradingFee": {
+			"eng": "Trading Fee",
+			"trans": "Biaya Trading"
+		},
+		"transactionSection": {
+			"eng": "BUY & SELL",
+			"trans": "BELI & JUAL"
+		}
+	},
 	"storyListPage": {
 		"invalidPage": {
 			"eng": "Please enter a valid page number",
@@ -10448,6 +10640,12 @@
 		"unlock": {
 			"eng": "unlock deal",
 			"trans": "Buka penawaran"
+		}
+	},
+	"traitDisplay": {
+		"unknownTrait": {
+			"eng": "This is an encrypted trait, use ${item} to decrypt and identify its true potential",
+			"trans": "Ini adalah ciri yang terenkripsi, gunakan ${item} untuk mendekripsi dan mengenali potensi sejatinya."
 		}
 	},
 	"travelToLocationModal": {
@@ -11150,6 +11348,24 @@
 			"subtitle": {
 				"eng": "Latest updates from around Arclight City",
 				"trans": "Update Arclight: Yang Terbaru"
+			}
+		},
+		"stockAd": {
+			"feature1": {
+				"eng": "Minimal extraction fees - the house always wins, but barely",
+				"trans": "Biaya penarikan minimal - rumah selalu menang, tapi hanya sedikit"
+			},
+			"feature2": {
+				"eng": "Live market data from the corporate towers",
+				"trans": "Data pasar real-time dari menara perusahaan"
+			},
+			"liveIndicator": {
+				"eng": "LIVE",
+				"trans": "HIDUP"
+			},
+			"subtitle": {
+				"eng": "Trade corporate futures in Arclight's shadow markets.",
+				"trans": "Perdagangkan kontrak futures korporasi di pasaran gelap Arclight."
 			}
 		},
 		"wiki": {
