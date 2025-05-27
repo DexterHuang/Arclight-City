@@ -6757,6 +6757,42 @@
 				"eng": "Down",
 				"trans": "ダウン"
 			},
+			"instructions": {
+				"eng": "Keep the signal in the green zone to synchronize. Tap the UP arrow to move the signal up, and the DOWN arrow to move it down.",
+				"trans": "同期させるため、シグナルをグリーンゾーン内に維持してください。上矢印でシグナルを上げ、下矢印で下げてください。"
+			},
+			"progressTitle": {
+				"eng": "SYNC PROGRESS",
+				"trans": "同期進捗"
+			},
+			"signalStrength": {
+				"eng": "Signal Quality",
+				"trans": "シグナル品質"
+			},
+			"status": {
+				"eng": "NEURAL SYNC STATUS",
+				"trans": "NS同期"
+			},
+			"statusStable": {
+				"eng": "STABILIZING... ${percent}%",
+				"trans": "安定中... ${percent}%"
+			},
+			"statusSuccess": {
+				"eng": "SYNCHRONIZED",
+				"trans": "シンクロ"
+			},
+			"statusUnstable": {
+				"eng": "UNSTABLE",
+				"trans": "不安定 (アンステーブル)"
+			},
+			"subtitle": {
+				"eng": "System Access Protocol",
+				"trans": "システム侵入プロトコル"
+			},
+			"title": {
+				"eng": "Neural Signal Synchronizer",
+				"trans": "ニューロシグナルシンクロナイザー"
+			},
 			"upHint": {
 				"eng": "Up",
 				"trans": "↑"
@@ -8101,13 +8137,17 @@
 		}
 	},
 	"playerPhotoSelection": {
+		"Variation": {
+			"eng": "Variation",
+			"trans": "バリエーション"
+		},
 		"eyeColor": {
 			"eng": "Eye Color",
 			"trans": "目の色"
 		},
-		"gender": {
-			"eng": "Body Type",
-			"trans": "体型"
+		"genderv2": {
+			"eng": "Gender",
+			"trans": "性別"
 		},
 		"hairColor": {
 			"eng": "Hair Color",
@@ -8116,6 +8156,12 @@
 		"hairStyle": {
 			"eng": "Hair Style",
 			"trans": "ヘアスタイル"
+		}
+	},
+	"playerPhotoType": {
+		"v1": {
+			"eng": "default",
+			"trans": "デフォルト"
 		}
 	},
 	"playerPhotoVariationType": {
@@ -8193,6 +8239,10 @@
 			"green": {
 				"eng": "Green",
 				"trans": "緑"
+			},
+			"multiColor": {
+				"eng": "Multi Colored",
+				"trans": "マルチカラー"
 			},
 			"name": {
 				"eng": "Hair Color",
@@ -9353,6 +9403,22 @@
 		"others": {
 			"eng": "Others",
 			"trans": "その他"
+		},
+		"showOriginalChatMessage": {
+			"eng": "Show Original Chat Message",
+			"trans": "オリジナルチャットを表示"
+		},
+		"showOriginalChatMessageDescription": {
+			"eng": "Show original chat messages for translated chat messages",
+			"trans": "原文チャットを表示"
+		},
+		"showTranslatedChat": {
+			"eng": "Show Translated Chat",
+			"trans": "翻訳チャットON"
+		},
+		"showTranslatedChatDescription": {
+			"eng": "Show translated chat messages in the global chat",
+			"trans": "グローバルチャットで翻訳チャットを表示"
 		},
 		"zoom": {
 			"eng": "UI Scaling (Experimental)",

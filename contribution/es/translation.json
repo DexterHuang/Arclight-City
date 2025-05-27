@@ -6757,6 +6757,42 @@
 				"eng": "Down",
 				"trans": "Derribado"
 			},
+			"instructions": {
+				"eng": "Keep the signal in the green zone to synchronize. Tap the UP arrow to move the signal up, and the DOWN arrow to move it down.",
+				"trans": "Mantén la señal en la zona verde para sincronizar. Toca la flecha ARRIBA para subir la señal y la flecha ABAJO para bajarla."
+			},
+			"progressTitle": {
+				"eng": "SYNC PROGRESS",
+				"trans": "SYNC en curso"
+			},
+			"signalStrength": {
+				"eng": "Signal Quality",
+				"trans": "Calidad de la señal"
+			},
+			"status": {
+				"eng": "NEURAL SYNC STATUS",
+				"trans": "Estado de Sincronización Neural"
+			},
+			"statusStable": {
+				"eng": "STABILIZING... ${percent}%",
+				"trans": "ESTABILIZANDO... ${percent}%"
+			},
+			"statusSuccess": {
+				"eng": "SYNCHRONIZED",
+				"trans": "Sincronizado"
+			},
+			"statusUnstable": {
+				"eng": "UNSTABLE",
+				"trans": "VOLÁTIL"
+			},
+			"subtitle": {
+				"eng": "System Access Protocol",
+				"trans": "Acceso al Sistema"
+			},
+			"title": {
+				"eng": "Neural Signal Synchronizer",
+				"trans": "Sincronizador Neuronal"
+			},
 			"upHint": {
 				"eng": "Up",
 				"trans": "Arriba"
@@ -8101,13 +8137,17 @@
 		}
 	},
 	"playerPhotoSelection": {
+		"Variation": {
+			"eng": "Variation",
+			"trans": "Variación"
+		},
 		"eyeColor": {
 			"eng": "Eye Color",
 			"trans": "Color de ojos"
 		},
-		"gender": {
-			"eng": "Body Type",
-			"trans": "Tipo de Cuerpo"
+		"genderv2": {
+			"eng": "Gender",
+			"trans": "Género"
 		},
 		"hairColor": {
 			"eng": "Hair Color",
@@ -8116,6 +8156,12 @@
 		"hairStyle": {
 			"eng": "Hair Style",
 			"trans": "Estilo de pelo"
+		}
+	},
+	"playerPhotoType": {
+		"v1": {
+			"eng": "default",
+			"trans": "Por defecto"
 		}
 	},
 	"playerPhotoVariationType": {
@@ -8193,6 +8239,10 @@
 			"green": {
 				"eng": "Green",
 				"trans": "Verde"
+			},
+			"multiColor": {
+				"eng": "Multi Colored",
+				"trans": "Multicromático"
 			},
 			"name": {
 				"eng": "Hair Color",
@@ -9353,6 +9403,22 @@
 		"others": {
 			"eng": "Others",
 			"trans": "Otros"
+		},
+		"showOriginalChatMessage": {
+			"eng": "Show Original Chat Message",
+			"trans": "Ver chat original"
+		},
+		"showOriginalChatMessageDescription": {
+			"eng": "Show original chat messages for translated chat messages",
+			"trans": "Mostrar chat original para chat traducido."
+		},
+		"showTranslatedChat": {
+			"eng": "Show Translated Chat",
+			"trans": "Traducir Chat"
+		},
+		"showTranslatedChatDescription": {
+			"eng": "Show translated chat messages in the global chat",
+			"trans": "Mostrar chat global traducido"
 		},
 		"zoom": {
 			"eng": "UI Scaling (Experimental)",

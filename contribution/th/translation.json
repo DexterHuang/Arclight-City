@@ -6757,6 +6757,42 @@
 				"eng": "Down",
 				"trans": "เดี้ยง"
 			},
+			"instructions": {
+				"eng": "Keep the signal in the green zone to synchronize. Tap the UP arrow to move the signal up, and the DOWN arrow to move it down.",
+				"trans": "รักษาคลื่นสัญญาณให้อยู่ในโซนสีเขียวเพื่อซิงค์ แตะลูกศรขึ้นเพื่อเลื่อนสัญญาณขึ้น, ลงเพื่อลง"
+			},
+			"progressTitle": {
+				"eng": "SYNC PROGRESS",
+				"trans": "กำลังซิงค์"
+			},
+			"signalStrength": {
+				"eng": "Signal Quality",
+				"trans": "เกรดสัญญาณ"
+			},
+			"status": {
+				"eng": "NEURAL SYNC STATUS",
+				"trans": "สถานะการซิงค์"
+			},
+			"statusStable": {
+				"eng": "STABILIZING... ${percent}%",
+				"trans": "กำลังเซ็ตตัว... ${percent}%"
+			},
+			"statusSuccess": {
+				"eng": "SYNCHRONIZED",
+				"trans": "ซิงค์"
+			},
+			"statusUnstable": {
+				"eng": "UNSTABLE",
+				"trans": "รวน"
+			},
+			"subtitle": {
+				"eng": "System Access Protocol",
+				"trans": "โปรโตคอลเข้าถึงระบบ"
+			},
+			"title": {
+				"eng": "Neural Signal Synchronizer",
+				"trans": "ซิงโครประสาท"
+			},
 			"upHint": {
 				"eng": "Up",
 				"trans": "อัพ"
@@ -8101,13 +8137,17 @@
 		}
 	},
 	"playerPhotoSelection": {
+		"Variation": {
+			"eng": "Variation",
+			"trans": "ตัวแปร"
+		},
 		"eyeColor": {
 			"eng": "Eye Color",
 			"trans": "สีตา"
 		},
-		"gender": {
-			"eng": "Body Type",
-			"trans": "รูปร่าง"
+		"genderv2": {
+			"eng": "Gender",
+			"trans": "เพศ"
 		},
 		"hairColor": {
 			"eng": "Hair Color",
@@ -8116,6 +8156,12 @@
 		"hairStyle": {
 			"eng": "Hair Style",
 			"trans": "ทรงผม"
+		}
+	},
+	"playerPhotoType": {
+		"v1": {
+			"eng": "default",
+			"trans": "ค่าเริ่มต้น"
 		}
 	},
 	"playerPhotoVariationType": {
@@ -8193,6 +8239,10 @@
 			"green": {
 				"eng": "Green",
 				"trans": "เขียว"
+			},
+			"multiColor": {
+				"eng": "Multi Colored",
+				"trans": "หลากสี"
 			},
 			"name": {
 				"eng": "Hair Color",
@@ -9353,6 +9403,22 @@
 		"others": {
 			"eng": "Others",
 			"trans": "อื่นๆ"
+		},
+		"showOriginalChatMessage": {
+			"eng": "Show Original Chat Message",
+			"trans": "ดูข้อความแชทดั้งเดิม"
+		},
+		"showOriginalChatMessageDescription": {
+			"eng": "Show original chat messages for translated chat messages",
+			"trans": "เปิดแชทต้นฉบับ & แชทแปล"
+		},
+		"showTranslatedChat": {
+			"eng": "Show Translated Chat",
+			"trans": "เปิดแชทแปล"
+		},
+		"showTranslatedChatDescription": {
+			"eng": "Show translated chat messages in the global chat",
+			"trans": "แชทโลก: แสดงข้อความแปล"
 		},
 		"zoom": {
 			"eng": "UI Scaling (Experimental)",

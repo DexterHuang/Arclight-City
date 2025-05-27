@@ -6757,6 +6757,42 @@
 				"eng": "Down",
 				"trans": "Nonaktif"
 			},
+			"instructions": {
+				"eng": "Keep the signal in the green zone to synchronize. Tap the UP arrow to move the signal up, and the DOWN arrow to move it down.",
+				"trans": "Pertahankan sinyal di zona hijau untuk sinkronisasi. Ketuk panah ATAS untuk menggerakkan sinyal ke atas, dan panah BAWAH untuk menggerakkannya ke bawah."
+			},
+			"progressTitle": {
+				"eng": "SYNC PROGRESS",
+				"trans": "Progres Sinkron"
+			},
+			"signalStrength": {
+				"eng": "Signal Quality",
+				"trans": "Kualitas Sinyal"
+			},
+			"status": {
+				"eng": "NEURAL SYNC STATUS",
+				"trans": "STATUS SYNC SARAF"
+			},
+			"statusStable": {
+				"eng": "STABILIZING... ${percent}%",
+				"trans": "PROSES STABIL... ${percent}%"
+			},
+			"statusSuccess": {
+				"eng": "SYNCHRONIZED",
+				"trans": "SINKRON"
+			},
+			"statusUnstable": {
+				"eng": "UNSTABLE",
+				"trans": "Eror"
+			},
+			"subtitle": {
+				"eng": "System Access Protocol",
+				"trans": "Protokol Masuk Sistem"
+			},
+			"title": {
+				"eng": "Neural Signal Synchronizer",
+				"trans": "Penyinkron Neural"
+			},
 			"upHint": {
 				"eng": "Up",
 				"trans": "Tingkatkan"
@@ -8101,13 +8137,17 @@
 		}
 	},
 	"playerPhotoSelection": {
+		"Variation": {
+			"eng": "Variation",
+			"trans": "Modifikasi"
+		},
 		"eyeColor": {
 			"eng": "Eye Color",
 			"trans": "Warna Mata"
 		},
-		"gender": {
-			"eng": "Body Type",
-			"trans": "Tipe Tubuh"
+		"genderv2": {
+			"eng": "Gender",
+			"trans": "Gender"
 		},
 		"hairColor": {
 			"eng": "Hair Color",
@@ -8116,6 +8156,12 @@
 		"hairStyle": {
 			"eng": "Hair Style",
 			"trans": "Gaya Rambut"
+		}
+	},
+	"playerPhotoType": {
+		"v1": {
+			"eng": "default",
+			"trans": "Standar"
 		}
 	},
 	"playerPhotoVariationType": {
@@ -8193,6 +8239,10 @@
 			"green": {
 				"eng": "Green",
 				"trans": "Hijau"
+			},
+			"multiColor": {
+				"eng": "Multi Colored",
+				"trans": "Warna-warni"
 			},
 			"name": {
 				"eng": "Hair Color",
@@ -9353,6 +9403,22 @@
 		"others": {
 			"eng": "Others",
 			"trans": "Lainnya"
+		},
+		"showOriginalChatMessage": {
+			"eng": "Show Original Chat Message",
+			"trans": "Lihat Pesan Obrolan Asli"
+		},
+		"showOriginalChatMessageDescription": {
+			"eng": "Show original chat messages for translated chat messages",
+			"trans": "Tampilkan pesan asli"
+		},
+		"showTranslatedChat": {
+			"eng": "Show Translated Chat",
+			"trans": "Tampilkan Chat Terjemahan"
+		},
+		"showTranslatedChatDescription": {
+			"eng": "Show translated chat messages in the global chat",
+			"trans": "Obrolan global: Tampilkan terjemahan"
 		},
 		"zoom": {
 			"eng": "UI Scaling (Experimental)",

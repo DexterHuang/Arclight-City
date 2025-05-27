@@ -6757,6 +6757,42 @@
 				"eng": "Down",
 				"trans": "停用"
 			},
+			"instructions": {
+				"eng": "Keep the signal in the green zone to synchronize. Tap the UP arrow to move the signal up, and the DOWN arrow to move it down.",
+				"trans": "將訊號保持在綠色區域以進行同步。點擊向上箭頭將訊號向上移動，點擊向下箭頭將其向下移動。"
+			},
+			"progressTitle": {
+				"eng": "SYNC PROGRESS",
+				"trans": "同步中"
+			},
+			"signalStrength": {
+				"eng": "Signal Quality",
+				"trans": "訊號品質"
+			},
+			"status": {
+				"eng": "NEURAL SYNC STATUS",
+				"trans": "神經連結"
+			},
+			"statusStable": {
+				"eng": "STABILIZING... ${percent}%",
+				"trans": "穩定... ${percent}%"
+			},
+			"statusSuccess": {
+				"eng": "SYNCHRONIZED",
+				"trans": "已同步"
+			},
+			"statusUnstable": {
+				"eng": "UNSTABLE",
+				"trans": "故障"
+			},
+			"subtitle": {
+				"eng": "System Access Protocol",
+				"trans": "系統通行協議"
+			},
+			"title": {
+				"eng": "Neural Signal Synchronizer",
+				"trans": "腦神經同步器"
+			},
 			"upHint": {
 				"eng": "Up",
 				"trans": "提升"
@@ -8101,13 +8137,17 @@
 		}
 	},
 	"playerPhotoSelection": {
+		"Variation": {
+			"eng": "Variation",
+			"trans": "變體"
+		},
 		"eyeColor": {
 			"eng": "Eye Color",
 			"trans": "眼睛顏色"
 		},
-		"gender": {
-			"eng": "Body Type",
-			"trans": "體型"
+		"genderv2": {
+			"eng": "Gender",
+			"trans": "性別"
 		},
 		"hairColor": {
 			"eng": "Hair Color",
@@ -8116,6 +8156,12 @@
 		"hairStyle": {
 			"eng": "Hair Style",
 			"trans": "髮型"
+		}
+	},
+	"playerPhotoType": {
+		"v1": {
+			"eng": "default",
+			"trans": "預設"
 		}
 	},
 	"playerPhotoVariationType": {
@@ -8193,6 +8239,10 @@
 			"green": {
 				"eng": "Green",
 				"trans": "綠色"
+			},
+			"multiColor": {
+				"eng": "Multi Colored",
+				"trans": "炫彩"
 			},
 			"name": {
 				"eng": "Hair Color",
@@ -9353,6 +9403,22 @@
 		"others": {
 			"eng": "Others",
 			"trans": "其他"
+		},
+		"showOriginalChatMessage": {
+			"eng": "Show Original Chat Message",
+			"trans": "顯示原文"
+		},
+		"showOriginalChatMessageDescription": {
+			"eng": "Show original chat messages for translated chat messages",
+			"trans": "查看翻譯訊息的原文"
+		},
+		"showTranslatedChat": {
+			"eng": "Show Translated Chat",
+			"trans": "翻譯訊息"
+		},
+		"showTranslatedChatDescription": {
+			"eng": "Show translated chat messages in the global chat",
+			"trans": "顯示翻譯過的全球聊天訊息"
 		},
 		"zoom": {
 			"eng": "UI Scaling (Experimental)",

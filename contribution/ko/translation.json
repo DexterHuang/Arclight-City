@@ -6757,6 +6757,42 @@
 				"eng": "Down",
 				"trans": "무력화"
 			},
+			"instructions": {
+				"eng": "Keep the signal in the green zone to synchronize. Tap the UP arrow to move the signal up, and the DOWN arrow to move it down.",
+				"trans": "신호를 녹색 영역에 유지하여 동기화하세요. 신호를 위로 이동하려면 위쪽 화살표를, 아래로 이동하려면 아래쪽 화살표를 탭하세요."
+			},
+			"progressTitle": {
+				"eng": "SYNC PROGRESS",
+				"trans": "동기화 중..."
+			},
+			"signalStrength": {
+				"eng": "Signal Quality",
+				"trans": "신호 강도"
+			},
+			"status": {
+				"eng": "NEURAL SYNC STATUS",
+				"trans": "신경 동기화 상태"
+			},
+			"statusStable": {
+				"eng": "STABILIZING... ${percent}%",
+				"trans": "안정화... ${percent}%"
+			},
+			"statusSuccess": {
+				"eng": "SYNCHRONIZED",
+				"trans": "싱크 완료"
+			},
+			"statusUnstable": {
+				"eng": "UNSTABLE",
+				"trans": "불안정"
+			},
+			"subtitle": {
+				"eng": "System Access Protocol",
+				"trans": "시스템 접속 프로토콜"
+			},
+			"title": {
+				"eng": "Neural Signal Synchronizer",
+				"trans": "신경 신호 동조기"
+			},
 			"upHint": {
 				"eng": "Up",
 				"trans": "업"
@@ -8101,13 +8137,17 @@
 		}
 	},
 	"playerPhotoSelection": {
+		"Variation": {
+			"eng": "Variation",
+			"trans": "바리에이션"
+		},
 		"eyeColor": {
 			"eng": "Eye Color",
 			"trans": "눈 색상"
 		},
-		"gender": {
-			"eng": "Body Type",
-			"trans": "신체 유형"
+		"genderv2": {
+			"eng": "Gender",
+			"trans": "성별"
 		},
 		"hairColor": {
 			"eng": "Hair Color",
@@ -8116,6 +8156,12 @@
 		"hairStyle": {
 			"eng": "Hair Style",
 			"trans": "머리 스타일"
+		}
+	},
+	"playerPhotoType": {
+		"v1": {
+			"eng": "default",
+			"trans": "기본"
 		}
 	},
 	"playerPhotoVariationType": {
@@ -8193,6 +8239,10 @@
 			"green": {
 				"eng": "Green",
 				"trans": "초록색"
+			},
+			"multiColor": {
+				"eng": "Multi Colored",
+				"trans": "컬러풀"
 			},
 			"name": {
 				"eng": "Hair Color",
@@ -9353,6 +9403,22 @@
 		"others": {
 			"eng": "Others",
 			"trans": "기타"
+		},
+		"showOriginalChatMessage": {
+			"eng": "Show Original Chat Message",
+			"trans": "원문 보기"
+		},
+		"showOriginalChatMessageDescription": {
+			"eng": "Show original chat messages for translated chat messages",
+			"trans": "원문 보기"
+		},
+		"showTranslatedChat": {
+			"eng": "Show Translated Chat",
+			"trans": "번역 채팅 표시"
+		},
+		"showTranslatedChatDescription": {
+			"eng": "Show translated chat messages in the global chat",
+			"trans": "글로벌 채팅에서 번역 메시지 표시"
 		},
 		"zoom": {
 			"eng": "UI Scaling (Experimental)",

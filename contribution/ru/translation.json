@@ -6757,6 +6757,42 @@
 				"eng": "Down",
 				"trans": "Отключено"
 			},
+			"instructions": {
+				"eng": "Keep the signal in the green zone to synchronize. Tap the UP arrow to move the signal up, and the DOWN arrow to move it down.",
+				"trans": "Удерживайте сигнал в зеленой зоне для синхронизации. Нажмите стрелку ВВЕРХ, чтобы поднять сигнал, и стрелку ВНИЗ, чтобы опустить его."
+			},
+			"progressTitle": {
+				"eng": "SYNC PROGRESS",
+				"trans": "Прогресс синхронизации"
+			},
+			"signalStrength": {
+				"eng": "Signal Quality",
+				"trans": "Качество сигнала"
+			},
+			"status": {
+				"eng": "NEURAL SYNC STATUS",
+				"trans": "Состояние нейросинхронизации"
+			},
+			"statusStable": {
+				"eng": "STABILIZING... ${percent}%",
+				"trans": "Стабилизируется... ${percent}%"
+			},
+			"statusSuccess": {
+				"eng": "SYNCHRONIZED",
+				"trans": "СИНХ"
+			},
+			"statusUnstable": {
+				"eng": "UNSTABLE",
+				"trans": "В Разносе"
+			},
+			"subtitle": {
+				"eng": "System Access Protocol",
+				"trans": "Протокол доступа к системе"
+			},
+			"title": {
+				"eng": "Neural Signal Synchronizer",
+				"trans": "Нейросинхронизатор"
+			},
 			"upHint": {
 				"eng": "Up",
 				"trans": "Вверх"
@@ -8101,13 +8137,17 @@
 		}
 	},
 	"playerPhotoSelection": {
+		"Variation": {
+			"eng": "Variation",
+			"trans": "Вариация"
+		},
 		"eyeColor": {
 			"eng": "Eye Color",
 			"trans": "Цвет глаз"
 		},
-		"gender": {
-			"eng": "Body Type",
-			"trans": "Тип тела"
+		"genderv2": {
+			"eng": "Gender",
+			"trans": "Пол"
 		},
 		"hairColor": {
 			"eng": "Hair Color",
@@ -8116,6 +8156,12 @@
 		"hairStyle": {
 			"eng": "Hair Style",
 			"trans": "Стиль волос"
+		}
+	},
+	"playerPhotoType": {
+		"v1": {
+			"eng": "default",
+			"trans": "По умолчанию"
 		}
 	},
 	"playerPhotoVariationType": {
@@ -8193,6 +8239,10 @@
 			"green": {
 				"eng": "Green",
 				"trans": "Зеленый"
+			},
+			"multiColor": {
+				"eng": "Multi Colored",
+				"trans": "Разноцветный"
 			},
 			"name": {
 				"eng": "Hair Color",
@@ -9353,6 +9403,22 @@
 		"others": {
 			"eng": "Others",
 			"trans": "Другие"
+		},
+		"showOriginalChatMessage": {
+			"eng": "Show Original Chat Message",
+			"trans": "Исходник сообщения"
+		},
+		"showOriginalChatMessageDescription": {
+			"eng": "Show original chat messages for translated chat messages",
+			"trans": "Исходники чата рядом с переводом"
+		},
+		"showTranslatedChat": {
+			"eng": "Show Translated Chat",
+			"trans": "Перевести чат"
+		},
+		"showTranslatedChatDescription": {
+			"eng": "Show translated chat messages in the global chat",
+			"trans": "Переводить сообщения в глобальном чате"
 		},
 		"zoom": {
 			"eng": "UI Scaling (Experimental)",

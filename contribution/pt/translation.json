@@ -6757,6 +6757,42 @@
 				"eng": "Down",
 				"trans": "Derrubado"
 			},
+			"instructions": {
+				"eng": "Keep the signal in the green zone to synchronize. Tap the UP arrow to move the signal up, and the DOWN arrow to move it down.",
+				"trans": "Mantenha o sinal na zona verde para sincronizar. Toque na seta para CIMA para mover o sinal para cima e na seta para BAIXO para movê-lo para baixo."
+			},
+			"progressTitle": {
+				"eng": "SYNC PROGRESS",
+				"trans": "Progresso de Sincronização"
+			},
+			"signalStrength": {
+				"eng": "Signal Quality",
+				"trans": "Qualidade do Sinal"
+			},
+			"status": {
+				"eng": "NEURAL SYNC STATUS",
+				"trans": "ESTADO DE SINCRONIZAÇÃO NEURAL"
+			},
+			"statusStable": {
+				"eng": "STABILIZING... ${percent}%",
+				"trans": "Estabilizando... ${percent}%"
+			},
+			"statusSuccess": {
+				"eng": "SYNCHRONIZED",
+				"trans": "Sincronizado"
+			},
+			"statusUnstable": {
+				"eng": "UNSTABLE",
+				"trans": "instável"
+			},
+			"subtitle": {
+				"eng": "System Access Protocol",
+				"trans": "Protocolo de Acesso ao Sistema"
+			},
+			"title": {
+				"eng": "Neural Signal Synchronizer",
+				"trans": "Sincronizador de Sinais Neurais"
+			},
 			"upHint": {
 				"eng": "Up",
 				"trans": "Para cima"
@@ -8101,13 +8137,17 @@
 		}
 	},
 	"playerPhotoSelection": {
+		"Variation": {
+			"eng": "Variation",
+			"trans": "Variação"
+		},
 		"eyeColor": {
 			"eng": "Eye Color",
 			"trans": "Cor dos Olhos"
 		},
-		"gender": {
-			"eng": "Body Type",
-			"trans": "Tipo de Corpo"
+		"genderv2": {
+			"eng": "Gender",
+			"trans": "Gênero"
 		},
 		"hairColor": {
 			"eng": "Hair Color",
@@ -8116,6 +8156,12 @@
 		"hairStyle": {
 			"eng": "Hair Style",
 			"trans": "Estilo de Cabelo"
+		}
+	},
+	"playerPhotoType": {
+		"v1": {
+			"eng": "default",
+			"trans": "padrão"
 		}
 	},
 	"playerPhotoVariationType": {
@@ -8193,6 +8239,10 @@
 			"green": {
 				"eng": "Green",
 				"trans": "Verde"
+			},
+			"multiColor": {
+				"eng": "Multi Colored",
+				"trans": "multicolorido"
 			},
 			"name": {
 				"eng": "Hair Color",
@@ -9353,6 +9403,22 @@
 		"others": {
 			"eng": "Others",
 			"trans": "Outros"
+		},
+		"showOriginalChatMessage": {
+			"eng": "Show Original Chat Message",
+			"trans": "Mostrar Mensagem de Chat Original"
+		},
+		"showOriginalChatMessageDescription": {
+			"eng": "Show original chat messages for translated chat messages",
+			"trans": "Exibir mensagens de chat originais para mensagens de chat traduzidas"
+		},
+		"showTranslatedChat": {
+			"eng": "Show Translated Chat",
+			"trans": "Mostrar Chat Traduzido"
+		},
+		"showTranslatedChatDescription": {
+			"eng": "Show translated chat messages in the global chat",
+			"trans": "Mostrar mensagens de chat traduzidas no chat global"
 		},
 		"zoom": {
 			"eng": "UI Scaling (Experimental)",
