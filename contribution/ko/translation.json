@@ -489,6 +489,20 @@
 			"trans": "지금 빌리기"
 		}
 	},
+	"appProductType": {
+		"premium5": {
+			"tag": {
+				"eng": "Popular",
+				"trans": "인기"
+			}
+		},
+		"premium6": {
+			"tag": {
+				"eng": "Best Value",
+				"trans": "가성비 최고"
+			}
+		}
+	},
 	"appleLogin": {
 		"button": {
 			"eng": "Sign in with Apple",
@@ -1014,6 +1028,12 @@
 			"description": {
 				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
 				"trans": "매일 다양한 보상을 받아 21일 동안, 그리고 22일째에는 최대 ${itemName}까지 받을 수 있습니다"
+			},
+			"pass0": {
+				"name": {
+					"eng": "free",
+					"trans": "공짜"
+				}
 			},
 			"pass1": {
 				"name": {
@@ -7976,8 +7996,8 @@
 			"trans": "${player}의 시장"
 		},
 		"marketDescription": {
-			"eng": "View ${player}\\'s items on the market",
-			"trans": "${player}의 아이템을 시장에서 확인하기"
+			"eng": "View ${player}'s items on the market",
+			"trans": "${player}의 판매 목록 확인"
 		}
 	},
 	"playerBackpack": {
@@ -8284,6 +8304,46 @@
 		"statusEffectsTitle": {
 			"eng": "Status Effects",
 			"trans": "상태 효과"
+		}
+	},
+	"playerStockHoldings": {
+		"noHoldings": {
+			"eng": "No Stock Holdings",
+			"trans": "주식 잔고 없음"
+		},
+		"realizedProfitLoss": {
+			"eng": "Realized P&L",
+			"trans": "정산 수익"
+		},
+		"shares": {
+			"eng": "shares",
+			"trans": "공유"
+		},
+		"title": {
+			"eng": "Portfolio",
+			"trans": "프로필"
+		},
+		"totalValue": {
+			"eng": "Total Value",
+			"trans": "합계"
+		},
+		"visitExchange": {
+			"eng": "Tap to visit Stock Exchange",
+			"trans": "거래소 바로가기"
+		}
+	},
+	"portfolioSummary": {
+		"averageCost": {
+			"eng": "Average Cost",
+			"trans": "평균 가격"
+		},
+		"profitLoss": {
+			"eng": "Profit/Loss",
+			"trans": "수익/손실"
+		},
+		"sharesOwned": {
+			"eng": "Shares Owned",
+			"trans": "소유 주식 수"
 		}
 	},
 	"premiumShopPage": {
@@ -9982,8 +10042,10 @@
 			"trans": "충분한 유로달러가 없어 ${company}을(를) 구매할 수 없습니다. 현재 가격: ${price}, 필요 금액: ${total}."
 		},
 		"tradeCooldown": {
-			"eng": "You can only sell stocks once per ${cooldown} minutes",
-			"trans": "주식을 ${cooldown}분마다 한 번만 매도할 수 있습니다."
+			"sell": {
+				"eng": "You can only sell this stock once per ${cooldown} minutes",
+				"trans": "해당 주식은 ${cooldown}분 동안 한 번만 거래 가능합니다."
+			}
 		}
 	},
 	"stockExchange": {
@@ -9991,17 +10053,9 @@
 			"eng": "Available Funds",
 			"trans": "사용 가능한 자금"
 		},
-		"averageCost": {
-			"eng": "Average Cost",
-			"trans": "평균 비용"
-		},
 		"buy": {
-			"eng": "BUY",
-			"trans": "구매"
-		},
-		"buyShares": {
-			"eng": "Buy Shares",
-			"trans": "주식 구매"
+			"eng": "Buy",
+			"trans": "사다"
 		},
 		"companyColumn": {
 			"eng": "Company",
@@ -10047,14 +10101,6 @@
 			"eng": "MAX",
 			"trans": "최대"
 		},
-		"maxAffordable": {
-			"eng": "Max affordable: ${count} shares",
-			"trans": "최대 구매 가능: ${count} 주"
-		},
-		"noShares": {
-			"eng": "You don't own any shares of this stock",
-			"trans": "당신은 이 주식을 보유하고 있지 않습니다."
-		},
 		"portfolioOverview": {
 			"eng": "Portfolio Overview",
 			"trans": "포트폴리오 개요"
@@ -10095,17 +10141,9 @@
 			"eng": "Sale Successful",
 			"trans": "판매 성공"
 		},
-		"saleSuccessfulMessage": {
-			"eng": "You have successfully sold ${shares} shares of ${company} at ${price} per share.",
-			"trans": "성공적으로 ${shares} 주식을 ${company}에 ${price} 단가로 판매했습니다."
-		},
 		"sell": {
-			"eng": "SELL",
-			"trans": "팔다"
-		},
-		"sellShares": {
-			"eng": "Sell Shares",
-			"trans": "주식 판매"
+			"eng": "Sell",
+			"trans": "판매"
 		},
 		"shares": {
 			"eng": "Shares",
@@ -10120,8 +10158,8 @@
 			"trans": "주식 가치"
 		},
 		"totalCost": {
-			"eng": "Total Cost: ",
-			"trans": "총 비용:"
+			"eng": "Total Cost",
+			"trans": "총 비용"
 		},
 		"totalRealizedProfit": {
 			"eng": "Realized P&L",
@@ -10130,10 +10168,6 @@
 		"totalReceived": {
 			"eng": "Total Received",
 			"trans": "총 수령량"
-		},
-		"totalReturn": {
-			"eng": "Total Return: ",
-			"trans": "총 수익:"
 		},
 		"trade": {
 			"eng": "Trade",
@@ -10146,10 +10180,6 @@
 		"tradingFee": {
 			"eng": "Trading Fee",
 			"trans": "거래 수수료"
-		},
-		"transactionSection": {
-			"eng": "BUY & SELL",
-			"trans": "구매 & 판매"
 		}
 	},
 	"storyListPage": {

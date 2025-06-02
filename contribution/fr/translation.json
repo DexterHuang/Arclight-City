@@ -489,6 +489,20 @@
 			"trans": "Louer maintenant"
 		}
 	},
+	"appProductType": {
+		"premium5": {
+			"tag": {
+				"eng": "Popular",
+				"trans": "Tendance"
+			}
+		},
+		"premium6": {
+			"tag": {
+				"eng": "Best Value",
+				"trans": "Meilleure affaire"
+			}
+		}
+	},
 	"appleLogin": {
 		"button": {
 			"eng": "Sign in with Apple",
@@ -1014,6 +1028,12 @@
 			"description": {
 				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
 				"trans": "Recevez diverses récompenses chaque jour pendant 21 jours, et jusqu'à ${itemName} le 22ème jour"
+			},
+			"pass0": {
+				"name": {
+					"eng": "free",
+					"trans": "libre"
+				}
 			},
 			"pass1": {
 				"name": {
@@ -7976,7 +7996,7 @@
 			"trans": "Marché de ${player}"
 		},
 		"marketDescription": {
-			"eng": "View ${player}\\'s items on the market",
+			"eng": "View ${player}'s items on the market",
 			"trans": "Voir les objets de ${player} sur le marché"
 		}
 	},
@@ -8284,6 +8304,46 @@
 		"statusEffectsTitle": {
 			"eng": "Status Effects",
 			"trans": "Effets de statut"
+		}
+	},
+	"playerStockHoldings": {
+		"noHoldings": {
+			"eng": "No Stock Holdings",
+			"trans": "Aucune action détenue"
+		},
+		"realizedProfitLoss": {
+			"eng": "Realized P&L",
+			"trans": "Bénéfices Actualisés"
+		},
+		"shares": {
+			"eng": "shares",
+			"trans": "répartitions"
+		},
+		"title": {
+			"eng": "Portfolio",
+			"trans": "Vitrine"
+		},
+		"totalValue": {
+			"eng": "Total Value",
+			"trans": "Valeur Totale"
+		},
+		"visitExchange": {
+			"eng": "Tap to visit Stock Exchange",
+			"trans": "Bourse : Appuyez pour y accéder"
+		}
+	},
+	"portfolioSummary": {
+		"averageCost": {
+			"eng": "Average Cost",
+			"trans": "Prix moyen"
+		},
+		"profitLoss": {
+			"eng": "Profit/Loss",
+			"trans": "Bénéfice/Perte"
+		},
+		"sharesOwned": {
+			"eng": "Shares Owned",
+			"trans": "Actions Possédées"
 		}
 	},
 	"premiumShopPage": {
@@ -9982,8 +10042,10 @@
 			"trans": "Vous n'avez pas assez d'EuroDollars pour acheter l'entreprise ${company}, prix actuel : ${price}, nécessaire : ${total}"
 		},
 		"tradeCooldown": {
-			"eng": "You can only sell stocks once per ${cooldown} minutes",
-			"trans": "Vous ne pouvez vendre des actions qu'une fois tous les ${cooldown} minutes"
+			"sell": {
+				"eng": "You can only sell this stock once per ${cooldown} minutes",
+				"trans": "Vente limitée à une fois toutes les ${cooldown} minutes."
+			}
 		}
 	},
 	"stockExchange": {
@@ -9991,17 +10053,9 @@
 			"eng": "Available Funds",
 			"trans": "Fonds disponibles"
 		},
-		"averageCost": {
-			"eng": "Average Cost",
-			"trans": "Coût moyen"
-		},
 		"buy": {
-			"eng": "BUY",
-			"trans": "ACHETER"
-		},
-		"buyShares": {
-			"eng": "Buy Shares",
-			"trans": "Acheter des actions"
+			"eng": "Buy",
+			"trans": "Acheter"
 		},
 		"companyColumn": {
 			"eng": "Company",
@@ -10047,14 +10101,6 @@
 			"eng": "MAX",
 			"trans": "MAX"
 		},
-		"maxAffordable": {
-			"eng": "Max affordable: ${count} shares",
-			"trans": "Maximum abordable : ${count} actions"
-		},
-		"noShares": {
-			"eng": "You don't own any shares of this stock",
-			"trans": "Vous n'avez pas d'actions de ce titre."
-		},
 		"portfolioOverview": {
 			"eng": "Portfolio Overview",
 			"trans": "Aperçu du portefeuille"
@@ -10095,17 +10141,9 @@
 			"eng": "Sale Successful",
 			"trans": "Vente réussie"
 		},
-		"saleSuccessfulMessage": {
-			"eng": "You have successfully sold ${shares} shares of ${company} at ${price} per share.",
-			"trans": "Vous avez vendu avec succès ${shares} actions de ${company} à ${price} par action."
-		},
 		"sell": {
-			"eng": "SELL",
-			"trans": "VENDRE"
-		},
-		"sellShares": {
-			"eng": "Sell Shares",
-			"trans": "Vendre des actions"
+			"eng": "Sell",
+			"trans": "Vendre"
 		},
 		"shares": {
 			"eng": "Shares",
@@ -10120,8 +10158,8 @@
 			"trans": "Valeur du stock"
 		},
 		"totalCost": {
-			"eng": "Total Cost: ",
-			"trans": "Coût total :"
+			"eng": "Total Cost",
+			"trans": "Coût total"
 		},
 		"totalRealizedProfit": {
 			"eng": "Realized P&L",
@@ -10130,10 +10168,6 @@
 		"totalReceived": {
 			"eng": "Total Received",
 			"trans": "Total Reçu"
-		},
-		"totalReturn": {
-			"eng": "Total Return: ",
-			"trans": "Retour total :"
 		},
 		"trade": {
 			"eng": "Trade",
@@ -10146,10 +10180,6 @@
 		"tradingFee": {
 			"eng": "Trading Fee",
 			"trans": "Frais de transaction"
-		},
-		"transactionSection": {
-			"eng": "BUY & SELL",
-			"trans": "ACHETER & VENDRE"
 		}
 	},
 	"storyListPage": {

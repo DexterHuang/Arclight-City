@@ -489,6 +489,20 @@
 			"trans": "กดเช่า"
 		}
 	},
+	"appProductType": {
+		"premium5": {
+			"tag": {
+				"eng": "Popular",
+				"trans": "ฮิต"
+			}
+		},
+		"premium6": {
+			"tag": {
+				"eng": "Best Value",
+				"trans": "คุ้มค่าที่สุด"
+			}
+		}
+	},
 	"appleLogin": {
 		"button": {
 			"eng": "Sign in with Apple",
@@ -1014,6 +1028,12 @@
 			"description": {
 				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
 				"trans": "รับของรางวัลต่างๆ ทุกวัน 21 วันเต็ม! วันที่ 22 รับเลย ${itemName}"
+			},
+			"pass0": {
+				"name": {
+					"eng": "free",
+					"trans": "ฟรี"
+				}
 			},
 			"pass1": {
 				"name": {
@@ -7976,7 +7996,7 @@
 			"trans": "ร้านค้าของ ${player}"
 		},
 		"marketDescription": {
-			"eng": "View ${player}\\'s items on the market",
+			"eng": "View ${player}'s items on the market",
 			"trans": "ดูไอเทมของ ${player} ในตลาด"
 		}
 	},
@@ -8284,6 +8304,46 @@
 		"statusEffectsTitle": {
 			"eng": "Status Effects",
 			"trans": "เอฟเฟกต์สถานะ"
+		}
+	},
+	"playerStockHoldings": {
+		"noHoldings": {
+			"eng": "No Stock Holdings",
+			"trans": "ไม่มีหุ้นในครอบครอง"
+		},
+		"realizedProfitLoss": {
+			"eng": "Realized P&L",
+			"trans": "ผลกำไรสะสม"
+		},
+		"shares": {
+			"eng": "shares",
+			"trans": "ส่วนแบ่ง"
+		},
+		"title": {
+			"eng": "Portfolio",
+			"trans": "หน้าตัวตน"
+		},
+		"totalValue": {
+			"eng": "Total Value",
+			"trans": "ผลรวม"
+		},
+		"visitExchange": {
+			"eng": "Tap to visit Stock Exchange",
+			"trans": "เข้าตลาดหลักทรัพย์"
+		}
+	},
+	"portfolioSummary": {
+		"averageCost": {
+			"eng": "Average Cost",
+			"trans": "ราคาเฉลี่ย"
+		},
+		"profitLoss": {
+			"eng": "Profit/Loss",
+			"trans": "กำไร/ขาดทุน"
+		},
+		"sharesOwned": {
+			"eng": "Shares Owned",
+			"trans": "จำนวนหุ้นที่ถือ"
 		}
 	},
 	"premiumShopPage": {
@@ -9982,8 +10042,10 @@
 			"trans": "คุณไม่มียูโรดอลเพียงพอที่จะซื้อบริษัท ${company} ราคาปัจจุบัน: ${price}, ต้องการ: ${total}"
 		},
 		"tradeCooldown": {
-			"eng": "You can only sell stocks once per ${cooldown} minutes",
-			"trans": "คุณสามารถขายหุ้นได้แค่หนึ่งครั้งต่อ ${cooldown} นาที"
+			"sell": {
+				"eng": "You can only sell this stock once per ${cooldown} minutes",
+				"trans": "ขายหุ้นนี้ได้อีกครั้งใน ${cooldown} นาที"
+			}
 		}
 	},
 	"stockExchange": {
@@ -9991,17 +10053,9 @@
 			"eng": "Available Funds",
 			"trans": "เงินที่พร้อมใช้"
 		},
-		"averageCost": {
-			"eng": "Average Cost",
-			"trans": "ต้นทุนเฉลี่ย"
-		},
 		"buy": {
-			"eng": "BUY",
+			"eng": "Buy",
 			"trans": "ซื้อ"
-		},
-		"buyShares": {
-			"eng": "Buy Shares",
-			"trans": "ซื้อหุ้น"
 		},
 		"companyColumn": {
 			"eng": "Company",
@@ -10047,14 +10101,6 @@
 			"eng": "MAX",
 			"trans": "สูงสุด"
 		},
-		"maxAffordable": {
-			"eng": "Max affordable: ${count} shares",
-			"trans": "จำนวนที่ซื้อได้สูงสุด: ${count} หุ้น"
-		},
-		"noShares": {
-			"eng": "You don't own any shares of this stock",
-			"trans": "คุณไม่มีหุ้นใด ๆ ของหุ้นนี้"
-		},
 		"portfolioOverview": {
 			"eng": "Portfolio Overview",
 			"trans": "ภาพรวมพอร์ตโฟลิโอ"
@@ -10095,33 +10141,25 @@
 			"eng": "Sale Successful",
 			"trans": "ขายสำเร็จ"
 		},
-		"saleSuccessfulMessage": {
-			"eng": "You have successfully sold ${shares} shares of ${company} at ${price} per share.",
-			"trans": "คุณได้ขายส่วนแบ่ง ${shares} ของบริษัท ${company} ที่ราคา ${price} ต่อหุ้น"
-		},
 		"sell": {
-			"eng": "SELL",
+			"eng": "Sell",
 			"trans": "ขาย"
-		},
-		"sellShares": {
-			"eng": "Sell Shares",
-			"trans": "ขายหุ้น"
 		},
 		"shares": {
 			"eng": "Shares",
 			"trans": "หุ้น"
 		},
 		"sharesOwned": {
-			"eng": "${shares} shares",
-			"trans": "${shares} หุ้น"
+			"eng": "Shares Owned",
+			"trans": "จำนวนหุ้นที่ถือ"
 		},
 		"stockValue": {
 			"eng": "Stock Value",
 			"trans": "มูลค่าหุ้น"
 		},
 		"totalCost": {
-			"eng": "Total Cost: ",
-			"trans": "ค่าใช้จ่ายทั้งหมด:"
+			"eng": "Total Cost",
+			"trans": "ราคารวม"
 		},
 		"totalRealizedProfit": {
 			"eng": "Realized P&L",
@@ -10130,10 +10168,6 @@
 		"totalReceived": {
 			"eng": "Total Received",
 			"trans": "รวมที่ได้รับ"
-		},
-		"totalReturn": {
-			"eng": "Total Return: ",
-			"trans": "ผลตอบแทนรวม:"
 		},
 		"trade": {
 			"eng": "Trade",
@@ -10146,10 +10180,6 @@
 		"tradingFee": {
 			"eng": "Trading Fee",
 			"trans": "ค่าธรรมเนียมการซื้อขาย"
-		},
-		"transactionSection": {
-			"eng": "BUY & SELL",
-			"trans": "ซื้อ & ขาย"
 		}
 	},
 	"storyListPage": {

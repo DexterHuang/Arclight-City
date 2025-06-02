@@ -489,6 +489,20 @@
 			"trans": "Sewa Sekarang"
 		}
 	},
+	"appProductType": {
+		"premium5": {
+			"tag": {
+				"eng": "Popular",
+				"trans": "Populer"
+			}
+		},
+		"premium6": {
+			"tag": {
+				"eng": "Best Value",
+				"trans": "Nilai Terbaik"
+			}
+		}
+	},
 	"appleLogin": {
 		"button": {
 			"eng": "Sign in with Apple",
@@ -1014,6 +1028,12 @@
 			"description": {
 				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
 				"trans": "Dapatkan berbagai hadiah setiap hari selama 21 hari, dan hingga ${itemName} pada hari ke-22"
+			},
+			"pass0": {
+				"name": {
+					"eng": "free",
+					"trans": "Gratis"
+				}
 			},
 			"pass1": {
 				"name": {
@@ -7976,8 +7996,8 @@
 			"trans": "Pasar ${player}"
 		},
 		"marketDescription": {
-			"eng": "View ${player}\\'s items on the market",
-			"trans": "Lihat item ${player} di pasar"
+			"eng": "View ${player}'s items on the market",
+			"trans": "Cek barang dagangan ${player}"
 		}
 	},
 	"playerBackpack": {
@@ -8284,6 +8304,46 @@
 		"statusEffectsTitle": {
 			"eng": "Status Effects",
 			"trans": "Efek Status"
+		}
+	},
+	"playerStockHoldings": {
+		"noHoldings": {
+			"eng": "No Stock Holdings",
+			"trans": "Tidak Ada Saham"
+		},
+		"realizedProfitLoss": {
+			"eng": "Realized P&L",
+			"trans": "Laba Rugi Realisasi"
+		},
+		"shares": {
+			"eng": "shares",
+			"trans": "bagian"
+		},
+		"title": {
+			"eng": "Portfolio",
+			"trans": "Portofolio"
+		},
+		"totalValue": {
+			"eng": "Total Value",
+			"trans": "Total"
+		},
+		"visitExchange": {
+			"eng": "Tap to visit Stock Exchange",
+			"trans": "Buka Bursa Perdagangan dengan mengetuk"
+		}
+	},
+	"portfolioSummary": {
+		"averageCost": {
+			"eng": "Average Cost",
+			"trans": "Harga Rata-Rata"
+		},
+		"profitLoss": {
+			"eng": "Profit/Loss",
+			"trans": "Keuntungan/Kerugian"
+		},
+		"sharesOwned": {
+			"eng": "Shares Owned",
+			"trans": "Saham Milik Anda"
 		}
 	},
 	"premiumShopPage": {
@@ -9982,8 +10042,10 @@
 			"trans": "Anda tidak memiliki cukup EuroDolar untuk membeli saham perusahaan ${company}, harga saat ini: ${price}, dibutuhkan: ${total}"
 		},
 		"tradeCooldown": {
-			"eng": "You can only sell stocks once per ${cooldown} minutes",
-			"trans": "Hanya bisa menjual saham sekali setiap ${cooldown} menit"
+			"sell": {
+				"eng": "You can only sell this stock once per ${cooldown} minutes",
+				"trans": "Saham ini hanya bisa dijual sekali dalam ${cooldown} menit."
+			}
 		}
 	},
 	"stockExchange": {
@@ -9991,17 +10053,9 @@
 			"eng": "Available Funds",
 			"trans": "Dana Tersedia"
 		},
-		"averageCost": {
-			"eng": "Average Cost",
-			"trans": "Biaya Rata-Rata"
-		},
 		"buy": {
-			"eng": "BUY",
-			"trans": "BELI"
-		},
-		"buyShares": {
-			"eng": "Buy Shares",
-			"trans": "Beli Saham"
+			"eng": "Buy",
+			"trans": "Beli"
 		},
 		"companyColumn": {
 			"eng": "Company",
@@ -10047,14 +10101,6 @@
 			"eng": "MAX",
 			"trans": "Maksimum"
 		},
-		"maxAffordable": {
-			"eng": "Max affordable: ${count} shares",
-			"trans": "Maksimum yang bisa dibeli: ${count} saham"
-		},
-		"noShares": {
-			"eng": "You don't own any shares of this stock",
-			"trans": "Anda tidak memiliki saham apa pun dari saham ini"
-		},
 		"portfolioOverview": {
 			"eng": "Portfolio Overview",
 			"trans": "Ringkasan Portofolio"
@@ -10095,17 +10141,9 @@
 			"eng": "Sale Successful",
 			"trans": "Penjualan Berhasil"
 		},
-		"saleSuccessfulMessage": {
-			"eng": "You have successfully sold ${shares} shares of ${company} at ${price} per share.",
-			"trans": "Anda telah berhasil menjual ${shares} saham dari ${company} dengan harga ${price} per saham."
-		},
 		"sell": {
-			"eng": "SELL",
-			"trans": "JUAL"
-		},
-		"sellShares": {
-			"eng": "Sell Shares",
-			"trans": "Jual Saham"
+			"eng": "Sell",
+			"trans": "Jual"
 		},
 		"shares": {
 			"eng": "Shares",
@@ -10120,8 +10158,8 @@
 			"trans": "Nilai Saham"
 		},
 		"totalCost": {
-			"eng": "Total Cost: ",
-			"trans": "Biaya Total:"
+			"eng": "Total Cost",
+			"trans": "Harga Total"
 		},
 		"totalRealizedProfit": {
 			"eng": "Realized P&L",
@@ -10130,10 +10168,6 @@
 		"totalReceived": {
 			"eng": "Total Received",
 			"trans": "Total Diterima"
-		},
-		"totalReturn": {
-			"eng": "Total Return: ",
-			"trans": "Total Pengembalian:"
 		},
 		"trade": {
 			"eng": "Trade",
@@ -10146,10 +10180,6 @@
 		"tradingFee": {
 			"eng": "Trading Fee",
 			"trans": "Biaya Trading"
-		},
-		"transactionSection": {
-			"eng": "BUY & SELL",
-			"trans": "BELI & JUAL"
 		}
 	},
 	"storyListPage": {

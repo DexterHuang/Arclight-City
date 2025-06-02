@@ -489,6 +489,20 @@
 			"trans": "Арендовать сейчас"
 		}
 	},
+	"appProductType": {
+		"premium5": {
+			"tag": {
+				"eng": "Popular",
+				"trans": "Популярный"
+			}
+		},
+		"premium6": {
+			"tag": {
+				"eng": "Best Value",
+				"trans": "Выгодное предложение"
+			}
+		}
+	},
 	"appleLogin": {
 		"button": {
 			"eng": "Sign in with Apple",
@@ -1014,6 +1028,12 @@
 			"description": {
 				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
 				"trans": "Получай различные награды ежедневно в течение 21 дня, и до ${itemName} на 22-й день"
+			},
+			"pass0": {
+				"name": {
+					"eng": "free",
+					"trans": "бесплатный"
+				}
 			},
 			"pass1": {
 				"name": {
@@ -7976,8 +7996,8 @@
 			"trans": "Рынок ${player}"
 		},
 		"marketDescription": {
-			"eng": "View ${player}\\'s items on the market",
-			"trans": "Посмотреть предметы ${player} на рынке"
+			"eng": "View ${player}'s items on the market",
+			"trans": "Предметы ${player} на продажу"
 		}
 	},
 	"playerBackpack": {
@@ -8284,6 +8304,46 @@
 		"statusEffectsTitle": {
 			"eng": "Status Effects",
 			"trans": "Состояния персонажа"
+		}
+	},
+	"playerStockHoldings": {
+		"noHoldings": {
+			"eng": "No Stock Holdings",
+			"trans": "Пустой портфель"
+		},
+		"realizedProfitLoss": {
+			"eng": "Realized P&L",
+			"trans": "Реализованная прибыль/убыток"
+		},
+		"shares": {
+			"eng": "shares",
+			"trans": "доля́"
+		},
+		"title": {
+			"eng": "Portfolio",
+			"trans": "Досье"
+		},
+		"totalValue": {
+			"eng": "Total Value",
+			"trans": "Суммарная ценность"
+		},
+		"visitExchange": {
+			"eng": "Tap to visit Stock Exchange",
+			"trans": "Зайти на рынок"
+		}
+	},
+	"portfolioSummary": {
+		"averageCost": {
+			"eng": "Average Cost",
+			"trans": "Средняя стоимость"
+		},
+		"profitLoss": {
+			"eng": "Profit/Loss",
+			"trans": "Прибыль/Убыток"
+		},
+		"sharesOwned": {
+			"eng": "Shares Owned",
+			"trans": "Количество акций"
 		}
 	},
 	"premiumShopPage": {
@@ -9982,8 +10042,10 @@
 			"trans": "У вас недостаточно Евродолларов, чтобы приобрести ${company}, текущая цена: ${price}, требуется: ${total}"
 		},
 		"tradeCooldown": {
-			"eng": "You can only sell stocks once per ${cooldown} minutes",
-			"trans": "Можно продавать акции только раз в ${cooldown} минут"
+			"sell": {
+				"eng": "You can only sell this stock once per ${cooldown} minutes",
+				"trans": "Эту акцию можно продать не чаще одного раза в ${cooldown} минут."
+			}
 		}
 	},
 	"stockExchange": {
@@ -9991,17 +10053,9 @@
 			"eng": "Available Funds",
 			"trans": "Доступные средства"
 		},
-		"averageCost": {
-			"eng": "Average Cost",
-			"trans": "Средняя стоимость"
-		},
 		"buy": {
-			"eng": "BUY",
-			"trans": "КУПИТЬ"
-		},
-		"buyShares": {
-			"eng": "Buy Shares",
-			"trans": "Купить акции"
+			"eng": "Buy",
+			"trans": "Купить"
 		},
 		"companyColumn": {
 			"eng": "Company",
@@ -10047,14 +10101,6 @@
 			"eng": "MAX",
 			"trans": "Макс"
 		},
-		"maxAffordable": {
-			"eng": "Max affordable: ${count} shares",
-			"trans": "Макс. доступно: ${count} акций"
-		},
-		"noShares": {
-			"eng": "You don't own any shares of this stock",
-			"trans": "У вас нет акций этой компании"
-		},
 		"portfolioOverview": {
 			"eng": "Portfolio Overview",
 			"trans": "Обзор портфеля"
@@ -10095,33 +10141,25 @@
 			"eng": "Sale Successful",
 			"trans": "Продажа успешна"
 		},
-		"saleSuccessfulMessage": {
-			"eng": "You have successfully sold ${shares} shares of ${company} at ${price} per share.",
-			"trans": "Вы успешно продали ${shares} акций компании ${company} по цене ${price} за акцию."
-		},
 		"sell": {
-			"eng": "SELL",
+			"eng": "Sell",
 			"trans": "Продать"
-		},
-		"sellShares": {
-			"eng": "Sell Shares",
-			"trans": "Продать акции"
 		},
 		"shares": {
 			"eng": "Shares",
 			"trans": "Акции"
 		},
 		"sharesOwned": {
-			"eng": "${shares} shares",
-			"trans": "${shares} акции"
+			"eng": "Shares Owned",
+			"trans": "Количество акций"
 		},
 		"stockValue": {
 			"eng": "Stock Value",
 			"trans": "Стоимость акции"
 		},
 		"totalCost": {
-			"eng": "Total Cost: ",
-			"trans": "Общая стоимость"
+			"eng": "Total Cost",
+			"trans": "Всего"
 		},
 		"totalRealizedProfit": {
 			"eng": "Realized P&L",
@@ -10130,10 +10168,6 @@
 		"totalReceived": {
 			"eng": "Total Received",
 			"trans": "Всего получено"
-		},
-		"totalReturn": {
-			"eng": "Total Return: ",
-			"trans": "Общий возврат:"
 		},
 		"trade": {
 			"eng": "Trade",
@@ -10146,10 +10180,6 @@
 		"tradingFee": {
 			"eng": "Trading Fee",
 			"trans": "Комиссия за торговлю"
-		},
-		"transactionSection": {
-			"eng": "BUY & SELL",
-			"trans": "КУПИТЬ И ПРОДАТЬ"
 		}
 	},
 	"storyListPage": {

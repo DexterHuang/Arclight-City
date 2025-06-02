@@ -489,6 +489,20 @@
 			"trans": "今すぐ借りる"
 		}
 	},
+	"appProductType": {
+		"premium5": {
+			"tag": {
+				"eng": "Popular",
+				"trans": "人気"
+			}
+		},
+		"premium6": {
+			"tag": {
+				"eng": "Best Value",
+				"trans": "高コスパ"
+			}
+		}
+	},
 	"appleLogin": {
 		"button": {
 			"eng": "Sign in with Apple",
@@ -1014,6 +1028,12 @@
 			"description": {
 				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
 				"trans": "21日間毎日様々な報酬を獲得し、22日目には${itemName}まで獲得できます。 \n"
+			},
+			"pass0": {
+				"name": {
+					"eng": "free",
+					"trans": "無料"
+				}
 			},
 			"pass1": {
 				"name": {
@@ -7976,8 +7996,8 @@
 			"trans": "${player}のマーケット"
 		},
 		"marketDescription": {
-			"eng": "View ${player}\\'s items on the market",
-			"trans": "マーケットの${player}のアイテムを見る"
+			"eng": "View ${player}'s items on the market",
+			"trans": "マーケットで${player}の出品を見る"
 		}
 	},
 	"playerBackpack": {
@@ -8284,6 +8304,46 @@
 		"statusEffectsTitle": {
 			"eng": "Status Effects",
 			"trans": "ステータス効果"
+		}
+	},
+	"playerStockHoldings": {
+		"noHoldings": {
+			"eng": "No Stock Holdings",
+			"trans": "在庫なし"
+		},
+		"realizedProfitLoss": {
+			"eng": "Realized P&L",
+			"trans": "損益確定"
+		},
+		"shares": {
+			"eng": "shares",
+			"trans": "株式"
+		},
+		"title": {
+			"eng": "Portfolio",
+			"trans": "プロフィール"
+		},
+		"totalValue": {
+			"eng": "Total Value",
+			"trans": "総合値"
+		},
+		"visitExchange": {
+			"eng": "Tap to visit Stock Exchange",
+			"trans": "株式取引所に移動"
+		}
+	},
+	"portfolioSummary": {
+		"averageCost": {
+			"eng": "Average Cost",
+			"trans": "平均価格"
+		},
+		"profitLoss": {
+			"eng": "Profit/Loss",
+			"trans": "黒字/赤字"
+		},
+		"sharesOwned": {
+			"eng": "Shares Owned",
+			"trans": "保有株数"
 		}
 	},
 	"premiumShopPage": {
@@ -9982,8 +10042,10 @@
 			"trans": "エウロドルが不足しています。${company}を購入するには、現在の価格は${price}、必要な金額は${total}です。"
 		},
 		"tradeCooldown": {
-			"eng": "You can only sell stocks once per ${cooldown} minutes",
-			"trans": "X分ごとに一度だけ株を売却できます"
+			"sell": {
+				"eng": "You can only sell this stock once per ${cooldown} minutes",
+				"trans": "この株の売却は、${cooldown}分に一度までです。"
+			}
 		}
 	},
 	"stockExchange": {
@@ -9991,17 +10053,9 @@
 			"eng": "Available Funds",
 			"trans": "利用可能資金"
 		},
-		"averageCost": {
-			"eng": "Average Cost",
-			"trans": "平均コスト"
-		},
 		"buy": {
-			"eng": "BUY",
+			"eng": "Buy",
 			"trans": "買う"
-		},
-		"buyShares": {
-			"eng": "Buy Shares",
-			"trans": "株式を購入"
 		},
 		"companyColumn": {
 			"eng": "Company",
@@ -10047,14 +10101,6 @@
 			"eng": "MAX",
 			"trans": "マックス"
 		},
-		"maxAffordable": {
-			"eng": "Max affordable: ${count} shares",
-			"trans": "最大購入可能: ${count} シェア"
-		},
-		"noShares": {
-			"eng": "You don't own any shares of this stock",
-			"trans": "この株を持っていません"
-		},
 		"portfolioOverview": {
 			"eng": "Portfolio Overview",
 			"trans": "ポートフォリオ概要"
@@ -10069,7 +10115,7 @@
 		},
 		"profitLoss": {
 			"eng": "Unrealized P&L",
-			"trans": "未実現利益と損失"
+			"trans": "未実現損益"
 		},
 		"purchaseFailed": {
 			"eng": "Purchase Failed",
@@ -10095,17 +10141,9 @@
 			"eng": "Sale Successful",
 			"trans": "販売成功"
 		},
-		"saleSuccessfulMessage": {
-			"eng": "You have successfully sold ${shares} shares of ${company} at ${price} per share.",
-			"trans": "${shares}株を${company}から1株あたり${price}で売却しました。"
-		},
 		"sell": {
-			"eng": "SELL",
-			"trans": "売却"
-		},
-		"sellShares": {
-			"eng": "Sell Shares",
-			"trans": "株を売る"
+			"eng": "Sell",
+			"trans": "売る"
 		},
 		"shares": {
 			"eng": "Shares",
@@ -10113,15 +10151,15 @@
 		},
 		"sharesOwned": {
 			"eng": "${shares} shares",
-			"trans": "${shares} 株式"
+			"trans": "${shares} 株"
 		},
 		"stockValue": {
 			"eng": "Stock Value",
 			"trans": "株価"
 		},
 		"totalCost": {
-			"eng": "Total Cost: ",
-			"trans": "総コスト:"
+			"eng": "Total Cost",
+			"trans": "合計金額"
 		},
 		"totalRealizedProfit": {
 			"eng": "Realized P&L",
@@ -10130,10 +10168,6 @@
 		"totalReceived": {
 			"eng": "Total Received",
 			"trans": "合計を受け取った"
-		},
-		"totalReturn": {
-			"eng": "Total Return: ",
-			"trans": "総リターン:"
 		},
 		"trade": {
 			"eng": "Trade",
@@ -10146,10 +10180,6 @@
 		"tradingFee": {
 			"eng": "Trading Fee",
 			"trans": "トレードフィー"
-		},
-		"transactionSection": {
-			"eng": "BUY & SELL",
-			"trans": "購入 & 売却"
 		}
 	},
 	"storyListPage": {

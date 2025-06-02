@@ -489,6 +489,20 @@
 			"trans": "立即租借"
 		}
 	},
+	"appProductType": {
+		"premium5": {
+			"tag": {
+				"eng": "Popular",
+				"trans": "熱門"
+			}
+		},
+		"premium6": {
+			"tag": {
+				"eng": "Best Value",
+				"trans": "超值優惠"
+			}
+		}
+	},
 	"appleLogin": {
 		"button": {
 			"eng": "Sign in with Apple",
@@ -1014,6 +1028,12 @@
 			"description": {
 				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
 				"trans": "21 天內每天獲得各種獎勵，第 22 天可獲得最高 ${itemName} 獎勵 \n"
+			},
+			"pass0": {
+				"name": {
+					"eng": "free",
+					"trans": "免費"
+				}
 			},
 			"pass1": {
 				"name": {
@@ -7976,8 +7996,8 @@
 			"trans": "${player}的市場"
 		},
 		"marketDescription": {
-			"eng": "View ${player}\\'s items on the market",
-			"trans": "查看${player}在市場上的物品"
+			"eng": "View ${player}'s items on the market",
+			"trans": "看${player}的市場商品"
 		}
 	},
 	"playerBackpack": {
@@ -8284,6 +8304,46 @@
 		"statusEffectsTitle": {
 			"eng": "Status Effects",
 			"trans": "狀態效果"
+		}
+	},
+	"playerStockHoldings": {
+		"noHoldings": {
+			"eng": "No Stock Holdings",
+			"trans": "尚無股票持有"
+		},
+		"realizedProfitLoss": {
+			"eng": "Realized P&L",
+			"trans": "確定損益"
+		},
+		"shares": {
+			"eng": "shares",
+			"trans": "分配"
+		},
+		"title": {
+			"eng": "Portfolio",
+			"trans": "資產目錄"
+		},
+		"totalValue": {
+			"eng": "Total Value",
+			"trans": "總價值"
+		},
+		"visitExchange": {
+			"eng": "Tap to visit Stock Exchange",
+			"trans": "前往股市"
+		}
+	},
+	"portfolioSummary": {
+		"averageCost": {
+			"eng": "Average Cost",
+			"trans": "均價"
+		},
+		"profitLoss": {
+			"eng": "Profit/Loss",
+			"trans": "收益/損失"
+		},
+		"sharesOwned": {
+			"eng": "Shares Owned",
+			"trans": "持有股份"
 		}
 	},
 	"premiumShopPage": {
@@ -9982,8 +10042,10 @@
 			"trans": "您沒有足夠的歐元來購買${company}，當前價格：${price}，所需：${total}"
 		},
 		"tradeCooldown": {
-			"eng": "You can only sell stocks once per ${cooldown} minutes",
-			"trans": "您每${cooldown}分鐘只能出售一次股票。"
+			"sell": {
+				"eng": "You can only sell this stock once per ${cooldown} minutes",
+				"trans": "此股票 ${cooldown} 分鐘內僅可賣出一次。"
+			}
 		}
 	},
 	"stockExchange": {
@@ -9991,17 +10053,9 @@
 			"eng": "Available Funds",
 			"trans": "可用資金"
 		},
-		"averageCost": {
-			"eng": "Average Cost",
-			"trans": "平均成本"
-		},
 		"buy": {
-			"eng": "BUY",
-			"trans": "購買"
-		},
-		"buyShares": {
-			"eng": "Buy Shares",
-			"trans": "購買股票"
+			"eng": "Buy",
+			"trans": "入手"
 		},
 		"companyColumn": {
 			"eng": "Company",
@@ -10047,14 +10101,6 @@
 			"eng": "MAX",
 			"trans": "最大值"
 		},
-		"maxAffordable": {
-			"eng": "Max affordable: ${count} shares",
-			"trans": "最大可負擔數量: ${count} 股"
-		},
-		"noShares": {
-			"eng": "You don't own any shares of this stock",
-			"trans": "您不持有任何這支股票的股份"
-		},
 		"portfolioOverview": {
 			"eng": "Portfolio Overview",
 			"trans": "投資組合概覽"
@@ -10095,17 +10141,9 @@
 			"eng": "Sale Successful",
 			"trans": "成交!"
 		},
-		"saleSuccessfulMessage": {
-			"eng": "You have successfully sold ${shares} shares of ${company} at ${price} per share.",
-			"trans": "你已成功賣出${company}的${shares}股，每股${price}。"
-		},
 		"sell": {
-			"eng": "SELL",
-			"trans": "出售"
-		},
-		"sellShares": {
-			"eng": "Sell Shares",
-			"trans": "賣股份"
+			"eng": "Sell",
+			"trans": "賣"
 		},
 		"shares": {
 			"eng": "Shares",
@@ -10120,8 +10158,8 @@
 			"trans": "股票價值"
 		},
 		"totalCost": {
-			"eng": "Total Cost: ",
-			"trans": "總計費用："
+			"eng": "Total Cost",
+			"trans": "總價"
 		},
 		"totalRealizedProfit": {
 			"eng": "Realized P&L",
@@ -10130,10 +10168,6 @@
 		"totalReceived": {
 			"eng": "Total Received",
 			"trans": "總計收到"
-		},
-		"totalReturn": {
-			"eng": "Total Return: ",
-			"trans": "總回報:"
 		},
 		"trade": {
 			"eng": "Trade",
@@ -10146,10 +10180,6 @@
 		"tradingFee": {
 			"eng": "Trading Fee",
 			"trans": "交易費用"
-		},
-		"transactionSection": {
-			"eng": "BUY & SELL",
-			"trans": "買賣"
 		}
 	},
 	"storyListPage": {
