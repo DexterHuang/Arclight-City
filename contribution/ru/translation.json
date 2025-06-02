@@ -5457,6 +5457,44 @@
 				"eng": "PvP Kills",
 				"trans": "Убийства в PVP"
 			}
+		},
+		"stockChirp": {
+			"name": {
+				"eng": "Chirp Shares",
+				"trans": "Обмен Пакетами"
+			}
+		},
+		"stockCircuitbreak": {
+			"name": {
+				"eng": "Circuitbreak Shares",
+				"trans": "Акции Circuitbreak"
+			}
+		},
+		"stockMegaestate": {
+			"name": {
+				"eng": "Mega Estate Shares",
+				"trans": "Акции Мега-Недвижимость"
+			}
+		}
+	},
+	"leaderboardTypes": {
+		"categories": {
+			"combat": {
+				"eng": "COMBAT",
+				"trans": "Бой"
+			},
+			"economy": {
+				"eng": "ECONOMIC ",
+				"trans": "ЭКОНОМИЧЕСКИЙ"
+			},
+			"gang": {
+				"eng": "GANG",
+				"trans": "Банда"
+			},
+			"skills": {
+				"eng": "SKILL",
+				"trans": "Навык"
+			}
 		}
 	},
 	"levelTip": {
@@ -6041,6 +6079,10 @@
 		"psychosis": {
 			"eng": "Psychosis",
 			"trans": "Психоз"
+		},
+		"stockMarket": {
+			"eng": "Stock Market",
+			"trans": "Биржа"
 		},
 		"territory": {
 			"eng": "Territory",
@@ -10042,6 +10084,10 @@
 			"trans": "У вас недостаточно Евродолларов, чтобы приобрести ${company}, текущая цена: ${price}, требуется: ${total}"
 		},
 		"tradeCooldown": {
+			"buy": {
+				"eng": "You can only sell this stock once per ${cooldown} minutes",
+				"trans": "Продажа этой акции возможна не чаще одного раза в ${cooldown} минут."
+			},
 			"sell": {
 				"eng": "You can only sell this stock once per ${cooldown} minutes",
 				"trans": "Эту акцию можно продать не чаще одного раза в ${cooldown} минут."

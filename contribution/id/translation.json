@@ -5457,6 +5457,44 @@
 				"eng": "PvP Kills",
 				"trans": "Pembunuhan PvP"
 			}
+		},
+		"stockChirp": {
+			"name": {
+				"eng": "Chirp Shares",
+				"trans": "Info Kilat"
+			}
+		},
+		"stockCircuitbreak": {
+			"name": {
+				"eng": "Circuitbreak Shares",
+				"trans": "Saham Pengaman Sirkuit"
+			}
+		},
+		"stockMegaestate": {
+			"name": {
+				"eng": "Mega Estate Shares",
+				"trans": "Saham Mega Estate"
+			}
+		}
+	},
+	"leaderboardTypes": {
+		"categories": {
+			"combat": {
+				"eng": "COMBAT",
+				"trans": "Pertempuran"
+			},
+			"economy": {
+				"eng": "ECONOMIC ",
+				"trans": "Ekonomi"
+			},
+			"gang": {
+				"eng": "GANG",
+				"trans": "Geng"
+			},
+			"skills": {
+				"eng": "SKILL",
+				"trans": "Keahlian"
+			}
 		}
 	},
 	"levelTip": {
@@ -6041,6 +6079,10 @@
 		"psychosis": {
 			"eng": "Psychosis",
 			"trans": "Psikosis"
+		},
+		"stockMarket": {
+			"eng": "Stock Market",
+			"trans": "Pasar Saham"
 		},
 		"territory": {
 			"eng": "Territory",
@@ -10042,6 +10084,10 @@
 			"trans": "Anda tidak memiliki cukup EuroDolar untuk membeli saham perusahaan ${company}, harga saat ini: ${price}, dibutuhkan: ${total}"
 		},
 		"tradeCooldown": {
+			"buy": {
+				"eng": "You can only sell this stock once per ${cooldown} minutes",
+				"trans": "Saham ini hanya bisa dijual satu kali per ${cooldown} menit."
+			},
 			"sell": {
 				"eng": "You can only sell this stock once per ${cooldown} minutes",
 				"trans": "Saham ini hanya bisa dijual sekali dalam ${cooldown} menit."

@@ -5457,6 +5457,44 @@
 				"eng": "PvP Kills",
 				"trans": "Eliminações PvP"
 			}
+		},
+		"stockChirp": {
+			"name": {
+				"eng": "Chirp Shares",
+				"trans": "Compartilhamentos Chirp"
+			}
+		},
+		"stockCircuitbreak": {
+			"name": {
+				"eng": "Circuitbreak Shares",
+				"trans": "Ações da Circuitbreak"
+			}
+		},
+		"stockMegaestate": {
+			"name": {
+				"eng": "Mega Estate Shares",
+				"trans": "Ações da Propriedade Mega"
+			}
+		}
+	},
+	"leaderboardTypes": {
+		"categories": {
+			"combat": {
+				"eng": "COMBAT",
+				"trans": "Combate"
+			},
+			"economy": {
+				"eng": "ECONOMIC ",
+				"trans": "Econômico"
+			},
+			"gang": {
+				"eng": "GANG",
+				"trans": "Gangue"
+			},
+			"skills": {
+				"eng": "SKILL",
+				"trans": "Habilidade"
+			}
 		}
 	},
 	"levelTip": {
@@ -6041,6 +6079,10 @@
 		"psychosis": {
 			"eng": "Psychosis",
 			"trans": "Psicose"
+		},
+		"stockMarket": {
+			"eng": "Stock Market",
+			"trans": "Bolsa de Valores"
 		},
 		"territory": {
 			"eng": "Territory",
@@ -10042,6 +10084,10 @@
 			"trans": "Você não possui saldo suficiente para comprar a empresa ${company}, preço atual: ${price}, valor necessário: ${total}"
 		},
 		"tradeCooldown": {
+			"buy": {
+				"eng": "You can only sell this stock once per ${cooldown} minutes",
+				"trans": "Você só pode vender esta ação uma vez a cada ${cooldown} minutos."
+			},
 			"sell": {
 				"eng": "You can only sell this stock once per ${cooldown} minutes",
 				"trans": "Esta ação só pode ser vendida uma vez a cada ${cooldown} minutos."

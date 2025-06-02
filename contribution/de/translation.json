@@ -5457,6 +5457,44 @@
 				"eng": "PvP Kills",
 				"trans": "PvP-Kills"
 			}
+		},
+		"stockChirp": {
+			"name": {
+				"eng": "Chirp Shares",
+				"trans": "Chirp-Streams"
+			}
+		},
+		"stockCircuitbreak": {
+			"name": {
+				"eng": "Circuitbreak Shares",
+				"trans": "Circuitbreak-Anteile"
+			}
+		},
+		"stockMegaestate": {
+			"name": {
+				"eng": "Mega Estate Shares",
+				"trans": "Mega-Grundstücksanteile"
+			}
+		}
+	},
+	"leaderboardTypes": {
+		"categories": {
+			"combat": {
+				"eng": "COMBAT",
+				"trans": "Kampf"
+			},
+			"economy": {
+				"eng": "ECONOMIC ",
+				"trans": "Wirtschaftlich"
+			},
+			"gang": {
+				"eng": "GANG",
+				"trans": "Bande"
+			},
+			"skills": {
+				"eng": "SKILL",
+				"trans": "Fähigkeit"
+			}
 		}
 	},
 	"levelTip": {
@@ -6041,6 +6079,10 @@
 		"psychosis": {
 			"eng": "Psychosis",
 			"trans": "Psychose"
+		},
+		"stockMarket": {
+			"eng": "Stock Market",
+			"trans": "Börse"
 		},
 		"territory": {
 			"eng": "Territory",
@@ -10042,6 +10084,10 @@
 			"trans": "Sie haben nicht genug Eurodollar, um ${company} zu kaufen. Aktueller Preis: ${price}, benötigt: ${total}."
 		},
 		"tradeCooldown": {
+			"buy": {
+				"eng": "You can only sell this stock once per ${cooldown} minutes",
+				"trans": "Du kannst diese Aktie nur einmal alle ${cooldown} Minuten verkaufen."
+			},
 			"sell": {
 				"eng": "You can only sell this stock once per ${cooldown} minutes",
 				"trans": "Diese Aktie kann nur alle ${cooldown} Minuten verkauft werden."

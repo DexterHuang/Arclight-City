@@ -5457,6 +5457,44 @@
 				"eng": "PvP Kills",
 				"trans": "สังหาร PvP"
 			}
+		},
+		"stockChirp": {
+			"name": {
+				"eng": "Chirp Shares",
+				"trans": "ส่งต่อชิป"
+			}
+		},
+		"stockCircuitbreak": {
+			"name": {
+				"eng": "Circuitbreak Shares",
+				"trans": "หุ้นวงจรตัด"
+			}
+		},
+		"stockMegaestate": {
+			"name": {
+				"eng": "Mega Estate Shares",
+				"trans": "หุ้นอสังหาริมทรัพย์เมกะ"
+			}
+		}
+	},
+	"leaderboardTypes": {
+		"categories": {
+			"combat": {
+				"eng": "COMBAT",
+				"trans": "รบ"
+			},
+			"economy": {
+				"eng": "ECONOMIC ",
+				"trans": "เศรษฐกิจ"
+			},
+			"gang": {
+				"eng": "GANG",
+				"trans": "แก๊ง"
+			},
+			"skills": {
+				"eng": "SKILL",
+				"trans": "เชิง"
+			}
 		}
 	},
 	"levelTip": {
@@ -6041,6 +6079,10 @@
 		"psychosis": {
 			"eng": "Psychosis",
 			"trans": "เสียสติ"
+		},
+		"stockMarket": {
+			"eng": "Stock Market",
+			"trans": "ตลาดหุ้น"
 		},
 		"territory": {
 			"eng": "Territory",
@@ -10042,6 +10084,10 @@
 			"trans": "คุณไม่มียูโรดอลเพียงพอที่จะซื้อบริษัท ${company} ราคาปัจจุบัน: ${price}, ต้องการ: ${total}"
 		},
 		"tradeCooldown": {
+			"buy": {
+				"eng": "You can only sell this stock once per ${cooldown} minutes",
+				"trans": "ขายหุ้นนี้ได้ครั้งเดียวทุกๆ ${cooldown} นาที"
+			},
 			"sell": {
 				"eng": "You can only sell this stock once per ${cooldown} minutes",
 				"trans": "ขายหุ้นนี้ได้อีกครั้งใน ${cooldown} นาที"
