@@ -5457,6 +5457,44 @@
 				"eng": "PvP Kills",
 				"trans": "PvPキル"
 			}
+		},
+		"stockChirp": {
+			"name": {
+				"eng": "Chirp Shares",
+				"trans": "電脳シェア"
+			}
+		},
+		"stockCircuitbreak": {
+			"name": {
+				"eng": "Circuitbreak Shares",
+				"trans": "サーキットブレイク・シェア"
+			}
+		},
+		"stockMegaestate": {
+			"name": {
+				"eng": "Mega Estate Shares",
+				"trans": "メガエステートシェア"
+			}
+		}
+	},
+	"leaderboardTypes": {
+		"categories": {
+			"combat": {
+				"eng": "COMBAT",
+				"trans": "バトル"
+			},
+			"economy": {
+				"eng": "ECONOMIC ",
+				"trans": "経済"
+			},
+			"gang": {
+				"eng": "GANG",
+				"trans": "クラン"
+			},
+			"skills": {
+				"eng": "SKILL",
+				"trans": "スキル"
+			}
 		}
 	},
 	"levelTip": {
@@ -10042,6 +10080,10 @@
 			"trans": "エウロドルが不足しています。${company}を購入するには、現在の価格は${price}、必要な金額は${total}です。"
 		},
 		"tradeCooldown": {
+			"buy": {
+				"eng": "You can only sell this stock once per ${cooldown} minutes",
+				"trans": "この株、${cooldown}分に1回だけ売れる。"
+			},
 			"sell": {
 				"eng": "You can only sell this stock once per ${cooldown} minutes",
 				"trans": "この株の売却は、${cooldown}分に一度までです。"

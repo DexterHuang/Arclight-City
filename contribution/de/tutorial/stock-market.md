@@ -4,14 +4,14 @@ Der Aktienmarkt ist ein Ort, an dem du deine Eurodollars in verschiedene Unterne
 
 ## Wo finde ich den Aktienmarkt?
 
-Du findest ihn im Cybernet-Menü.
+Du kannst ihn über das Cybernet-Menü aufrufen.
 
 ## Wie kaufe ich Aktien?
 
-1. Tippe auf ein beliebiges Unternehmen in der Aktienlistenansicht.
+1. Tippe auf ein beliebiges Unternehmen aus der Aktienlistenansicht.
 2. Auf der Detailseite des Unternehmens tippe auf die Schaltfläche **HANDELN**.
 3. Wähle den Reiter **KAUFEN** im Handelsfenster.
-4. Gib die Anzahl der Anteile ein, die du kaufen möchtest, entweder über das Eingabefeld oder den Schieberegler.
+4. Gib die Anzahl der Anteile ein, die du kaufen möchtest, mithilfe des Eingabefelds oder des Schiebereglers.
 5. Überprüfe die Transaktionsdetails einschließlich der 1%igen Handelsgebühr.
 6. Tippe auf **KAUF BESTÄTIGEN**, um den Kauf abzuschließen.
 
@@ -35,7 +35,7 @@ Für alle Aktien Transaktionen fallen **1% Handelsgebühr** an:
 
 ## Wie werden die Aktienkurse bestimmt?
 
-Der Aktienmarkt im Spiel verfolgt den realen Aktienmarkt und kombiniert mehrere nicht offengelegte reale Werte, um einen dynamischen und unvorhersehbaren Markt zu schaffen. Dies geschieht, damit niemand den Markt durch Kauf oder Verkauf großer Mengen an Aktien manipulieren kann – ähnlich wie beim realen Aktienmarkt. Deine Kauf- oder Verkaufsaufträge können den Aktienkurs nicht beeinflussen (es sei denn, du bist Multimilliardär).
+Der Aktienmarkt im Spiel verfolgt den realen Aktienmarkt und kombiniert mehrere nicht offengelegte reale Werte, um einen dynamischen und unvorhersehbaren Markt zu schaffen. Dies geschieht, damit niemand den Markt durch Kauf oder Verkauf großer Mengen an Aktien manipulieren kann – ähnlich wie beim realen Aktienmarkt; deine Kauf- oder Verkaufsaufträge können den Aktienkurs nicht beeinflussen (es sei denn, du bist Multimilliardär).
 
 ## Wie werden die Verkaufs- und Kaufpreise ermittelt?
 
@@ -43,12 +43,12 @@ Der Preis wird in Echtzeit anhand der realen Aktienmarktdaten berechnet. Aufgrun
 
 ## Wie oft werden die Aktienkurse aktualisiert?
 
-Der Aktienchart wird während der normalen Handelszeiten alle **5 Minuten** aktualisiert. Käufe und Verkäufe erfolgen jedoch zu Echtzeitmarktpreisen.
+Der Aktienchart wird während des normalen Handels alle **5 Minuten** aktualisiert. Käufe und Verkäufe erfolgen jedoch zu Echtzeitmarktpreisen.
 
-## Was ist Unrealisierter Gewinn/Verlust im Vergleich zu Realisiertem Gewinn/Verlust?
+## Was ist Unrealisierter Gewinn/Verlust im Vergleich zu Realisierter Gewinn/Verlust?
 
 - **Unrealisierter Gewinn/Verlust**: Dein aktueller Gewinn oder Verlust bei Aktien, die du noch besitzt. Dieser ändert sich mit den Schwankungen der Aktienkurse und zeigt potenzielle Gewinne oder Verluste an.
-- **Realisierter Gewinn/Verlust**: Dein tatsächlicher Gewinn oder Verlust aus abgeschlossenen Trades. Dieser wird aktualisiert, wenn du Aktien verkaufst und deine dauerhafte Handelsleistung widerspiegelt.
+- **Realisierter Gewinn/Verlust**: Dein tatsächlicher Gewinn oder Verlust aus abgeschlossenen Trades. Dieser wird aktualisiert, wenn du Aktien verkaufst und deine dauerhafte Handelsleistung darstellt.
 
 ## Welche Informationen kann ich auf der Detailseite einer Aktie sehen?
 
@@ -70,17 +70,21 @@ Für jede Aktie kannst du Folgendes einsehen:
 
 Deine Portfolioübersicht zeigt:
 
-- **Gesamtwert des Vermögens**: Der aktuelle Wert aller deiner Aktienbestände
-- **Unrealisierter Gewinn/Verlust**: Aktuelle Gewinne/Verluste bei aktiven Positionen (grün für Gewinne, rot für Verluste)
-- **Realisierter Gewinn/Verlust**: Gesamtgewinn/Verlust aus allen abgeschlossenen Trades
+- **Gesamtwert des Vermögens**: Aktueller Wert aller deiner Aktienbestände
+- **Unrealisierter Gewinn/Verlust**: Aktuelle Gewinne oder Verluste bei aktiven Positionen (grün für Gewinne, rot für Verluste)
+- **Realisierter Gewinn/Verlust**: Gesamtgewinn oder -verlust aus allen abgeschlossenen Trades
 
 ## Was sind einige Handelstipps?
 
 - **Diversifiziere**: Stecke nicht dein gesamtes Geld in eine Aktie.
 - **Beobachte Trends**: Nutze die Kurscharts, um historische Leistungen zu analysieren.
-- **Timing deiner Trades**: Achte auf die 20-minütige Verkaufsabkühlungszeit.
-- **Halte Bargeldreserven bereit**: Behalte einige Eurodollars für neue Möglichkeiten bei.
+- **Plane deine Trades**: Beachte die 20-minütige Verkaufsabkühlungszeit.
+- **Halte Bargeldreserven bereit**: Bewahre einige Eurodollars für neue Möglichkeiten auf.
 - **Fang klein an**: Lerne die Marktmuster kennen, bevor du große Investitionen tätigst.
+
+## Was passiert mit meinen Aktien, wenn ich ausgeraubt oder verhaftet werde?
+
+Wenn du ein PvP-Gefecht verlierst (entweder durch einen Überfall oder eine Verhaftung), verlierst du einen Prozentsatz deiner Aktienbestände. Das System rundet alle Bruchteile von Aktien auf – wenn die Strafe beispielsweise auf 1,1 Aktien berechnet wird, verlierst du 2 Aktien. Diese Aktien werden sofort zu den aktuellen Marktpreisen liquidiert, wobei der Standard-PvP-Steuer vor der Gutschrift an den Angreifer abgezogen wird.
 
 ---
 

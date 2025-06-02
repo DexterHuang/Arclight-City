@@ -5457,6 +5457,44 @@
 				"eng": "PvP Kills",
 				"trans": "PvP 킬"
 			}
+		},
+		"stockChirp": {
+			"name": {
+				"eng": "Chirp Shares",
+				"trans": "Chirp Shares"
+			}
+		},
+		"stockCircuitbreak": {
+			"name": {
+				"eng": "Circuitbreak Shares",
+				"trans": "Circuitbreak Shares"
+			}
+		},
+		"stockMegaestate": {
+			"name": {
+				"eng": "Mega Estate Shares",
+				"trans": "Mega Estate Shares"
+			}
+		}
+	},
+	"leaderboardTypes": {
+		"categories": {
+			"combat": {
+				"eng": "COMBAT",
+				"trans": "COMBAT"
+			},
+			"economy": {
+				"eng": "ECONOMIC ",
+				"trans": "ECONOMIC "
+			},
+			"gang": {
+				"eng": "GANG",
+				"trans": "GANG"
+			},
+			"skills": {
+				"eng": "SKILL",
+				"trans": "SKILL"
+			}
 		}
 	},
 	"levelTip": {
@@ -10042,6 +10080,10 @@
 			"trans": "충분한 유로달러가 없어 ${company}을(를) 구매할 수 없습니다. 현재 가격: ${price}, 필요 금액: ${total}."
 		},
 		"tradeCooldown": {
+			"buy": {
+				"eng": "You can only sell this stock once per ${cooldown} minutes",
+				"trans": "You can only sell this stock once per ${cooldown} minutes"
+			},
 			"sell": {
 				"eng": "You can only sell this stock once per ${cooldown} minutes",
 				"trans": "해당 주식은 ${cooldown}분 동안 한 번만 거래 가능합니다."

@@ -5457,6 +5457,44 @@
 				"eng": "PvP Kills",
 				"trans": "PvP 擊殺数"
 			}
+		},
+		"stockChirp": {
+			"name": {
+				"eng": "Chirp Shares",
+				"trans": "啾啾幣"
+			}
+		},
+		"stockCircuitbreak": {
+			"name": {
+				"eng": "Circuitbreak Shares",
+				"trans": "破壞者股票"
+			}
+		},
+		"stockMegaestate": {
+			"name": {
+				"eng": "Mega Estate Shares",
+				"trans": "超大地產股"
+			}
+		}
+	},
+	"leaderboardTypes": {
+		"categories": {
+			"combat": {
+				"eng": "COMBAT",
+				"trans": "戰鬥"
+			},
+			"economy": {
+				"eng": "ECONOMIC ",
+				"trans": "經濟"
+			},
+			"gang": {
+				"eng": "GANG",
+				"trans": "幫派"
+			},
+			"skills": {
+				"eng": "SKILL",
+				"trans": "技能"
+			}
 		}
 	},
 	"levelTip": {
@@ -10042,6 +10080,10 @@
 			"trans": "您沒有足夠的歐元來購買${company}，當前價格：${price}，所需：${total}"
 		},
 		"tradeCooldown": {
+			"buy": {
+				"eng": "You can only sell this stock once per ${cooldown} minutes",
+				"trans": "此股票每${cooldown}分鐘限售一次"
+			},
 			"sell": {
 				"eng": "You can only sell this stock once per ${cooldown} minutes",
 				"trans": "此股票 ${cooldown} 分鐘內僅可賣出一次。"

@@ -69,6 +69,9 @@ Your portfolio overview shows:
 - **Keep cash reserves**: Maintain some Eurodollars for new opportunities
 - **Start small**: Learn the market patterns before making large investments
 
+## What happens to my stocks if I'm mugged or arrested?
+When you lose a PvP encounter (either by being mugged or arrested), you'll lose a percentage of your stock holdings. The system rounds up any fractional shares - for example, if the penalty calculates to 1.1 shares, you'll lose 2 shares. These shares are immediately liquidated at current market prices, with the standard PvP tax deducted before the attacker receives the proceeds.
+
 ---
 **Legal Disclaimer**:
 None of the information on this page or in the game is financial advice. this is a video game fictional/fake stock market with no real money involved.

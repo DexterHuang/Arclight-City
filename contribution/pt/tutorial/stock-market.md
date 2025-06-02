@@ -23,7 +23,7 @@ Você pode acessá-lo pelo menu cybernet.
 4. Revise os detalhes da transação, incluindo a taxa de negociação de 1%.
 5. Toque em **CONFIRMAR VENDA** para concluir a venda.
 
-**Importante**: Há um tempo de espera de 20 minutos entre as transações de venda.
+**Importante**: Há um tempo de espera de 20 minutos entre as vendas.
 
 ## Quais são as taxas de negociação?
 
@@ -35,7 +35,7 @@ Todas as transações de ações incorrem em uma taxa de negociação de **1%**:
 
 ## Como os preços das ações são determinados?
 
-O mercado de ações do jogo acompanha o mercado de ações mundial real e combina vários tickers reais não divulgados para criar um mercado dinâmico e imprevisível. Isso é feito para que as pessoas não possam manipular o mercado comprando ou vendendo grandes quantidades de ações, semelhante ao funcionamento do mercado de ações mundial real; suas ordens de compra ou venda não poderão mover o preço da ação (a menos que você seja um bilionário).
+O mercado de ações do jogo acompanha o mercado de ações mundial real e combina vários tickers reais não divulgados para criar um mercado dinâmico e imprevisível. Isso é feito para que as pessoas não possam manipular o mercado comprando ou vendendo grandes quantidades de ações, semelhante a como o mercado de ações mundial real funciona; suas ordens de compra ou venda não poderão mover o preço da ação (a menos que você seja um bilionário).
 
 ## Como os preços de venda e compra são determinados?
 
@@ -47,23 +47,23 @@ O gráfico de ações é atualizado a cada **5 minutos** durante o horário norm
 
 ## O que é Lucro/Prejuízo Não Realizado vs. Lucro/Prejuízo Realizado?
 
-- **Lucro/Prejuízo Não Realizado**: Seu lucro/prejuízo atual nas ações que você ainda possui. Isso muda conforme os preços das ações flutuam e mostra ganhos/perdas potenciais.
+- **Lucro/Prejuízo Não Realizado**: Seu lucro/prejuízo atual nas ações que você ainda possui. Isso muda à medida que os preços das ações flutuam e mostra ganhos/perdas potenciais.
 - **Lucro/Prejuízo Realizado**: Seu lucro/prejuízo real de negociações concluídas. Isso é atualizado quando você vende ações e representa seu desempenho comercial permanente.
 
 ## Quais informações posso ver na página de Detalhes das Ações?
 
 Para cada ação, você pode visualizar:
 
-- Preço atual e variação diária do preço
-- Gráfico de preços interativo com dados históricos
-- Seus ativos atuais (número de ações possuídas)
-- Preço médio de compra de suas ações
-- Valor atual do lucro/prejuízo em valor e porcentagem
-- Valor total de mercado da sua posição
+- Preço atual e variação diária do preço.
+- Gráfico de preços interativo com dados históricos.
+- Suas participações atuais (número de ações possuídas).
+- Preço médio de compra de suas ações.
+- Valor atual do lucro/prejuízo em valor e porcentagem.
+- Valor total de mercado da sua posição.
 
 ## O que devo saber sobre os riscos do mercado?
 
-- O mercado acompanha o mercado mundial real, portanto, é **EXPECTADO** ser volátil de tempos em tempos; ele pode disparar para a lua ou cair no chão devido a eventos mundiais, notícias, etc.
+- O mercado acompanha o mercado mundial real, portanto, é **ESPERADO** ser volátil de tempos em tempos; ele pode disparar para a lua ou cair no chão devido a eventos mundiais, notícias, etc.
 - Eu (Dexter) não tenho controle sobre o mercado mundial real e, portanto, não posso controlar o preço das ações do jogo também.
 
 ## Como posso acompanhar o desempenho da minha carteira?
@@ -82,7 +82,11 @@ A visão geral da sua carteira mostra:
 - **Mantenha reservas de caixa**: Mantenha alguns Eurodólares para novas oportunidades.
 - **Comece pequeno**: Aprenda os padrões do mercado antes de fazer grandes investimentos.
 
+## O que acontece com minhas ações se eu for assaltado ou preso?
+
+Quando você perder um confronto PvP (seja por roubo ou prisão), perderá uma porcentagem de suas participações em ações. O sistema arredonda qualquer fração de ação - por exemplo, se a penalidade calcular 1,1 ações, você perderá 2 ações. Essas ações são liquidadas imediatamente aos preços atuais do mercado, com o imposto PvP padrão deduzido antes que o atacante receba o produto.
+
 ---
 
 **Aviso Legal**:
-Nenhuma das informações nesta página ou no jogo é aconselhamento financeiro. Este é um mercado de ações fictício/falso de videogame sem dinheiro real envolvido.
+Nenhuma das informações nesta página ou no jogo é aconselhamento financeiro. este é um mercado de ações fictício/falso de videogame sem dinheiro real envolvido.

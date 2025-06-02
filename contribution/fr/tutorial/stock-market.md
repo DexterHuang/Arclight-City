@@ -31,15 +31,15 @@ Toutes les transactions boursières entraînent des **frais de négociation de 1
 
 - **Ordres d'achat** : Les frais sont ajoutés à votre coût total.
 - **Ordres de vente** : Les frais sont déduits de vos revenus.
-- Les frais sont calculés automatiquement et affichés avant que vous ne confirmiez un échange.
+- Les frais sont calculés automatiquement et affichés avant que vous ne confirmiez une transaction.
 
 ## Comment les prix des actions sont-ils déterminés ?
 
 Le marché boursier du jeu suit le marché boursier réel et combine plusieurs valeurs mobilières réelles non divulguées pour créer un marché dynamique et imprévisible. Cela est fait afin que personne ne puisse manipuler le marché en achetant ou en vendant de grandes quantités d'actions, comme c'est le cas sur le marché boursier réel ; vos ordres d'achat ou de vente ne pourront pas modifier le prix de l'action (à moins que vous ne soyez un multimilliardaire).
 
-## Comment les prix de vente et d'achat sont-ils déterminés ?
+## Comment sont déterminés les prix de vente et d'achat ?
 
-Le prix est calculé en temps réel à partir des valeurs mobilières du marché boursier réel. En raison de la latence du réseau, de la fourchette et d'autres facteurs, le prix que vous voyez sur votre écran peut différer légèrement du prix réel auquel vous achèterez ou vendrez.
+Le prix est calculé en temps réel à partir des valeurs mobilières du marché boursier réel. En raison de la latence du réseau, de la dispersion et d'autres facteurs, le prix que vous voyez sur votre écran peut différer légèrement du prix réel auquel vous achèterez ou vendrez.
 
 ## À quelle fréquence les prix des actions sont-ils mis à jour ?
 
@@ -82,7 +82,11 @@ Votre aperçu de portefeuille affiche :
 - **Conservez des réserves de trésorerie** : Conservez quelques Eurodollars pour saisir de nouvelles opportunités.
 - **Commencez petit** : Apprenez les tendances du marché avant d'effectuer de gros investissements.
 
+## Que se passe-t-il avec mes actions si je suis agressé ou arrêté ?
+
+Lorsque vous perdez une rencontre PvP (soit en étant agressé, soit en étant arrêté), vous perdrez un pourcentage de vos avoirs en actions. Le système arrondit les fractions d'actions - par exemple, si la pénalité est calculée à 1,1 action, vous en perdrez 2. Ces actions sont immédiatement liquidées aux prix du marché actuels, avec la taxe PvP standard déduite avant que l'attaquant ne reçoive le produit de la vente.
+
 ---
 
 **Avertissement légal**:
-Aucune information sur cette page ou dans le jeu ne constitue un conseil financier. Il s'agit d'un marché boursier fictif/factice dans un jeu vidéo sans argent réel impliqué.
+Aucune information sur cette page ou dans le jeu ne constitue un conseil financier. Il s'agit d'un marché boursier fictif/factice de jeu vidéo sans argent réel impliqué.
