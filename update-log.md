@@ -10,6 +10,11 @@
 
 -  Stock Market is now live! You can now invest your Eurodollars in various corporations and trade stocks using real-time market data. Access the Stock Market through the CyberNet menu. For detailed information on how to trade, fees, risks, and tips, please read the comprehensive tutorial in CyberWiki.
 
+![image](https://github.com/user-attachments/assets/81723de9-e253-48b8-9893-6c96f68ab60b)
+
+![image](https://github.com/user-attachments/assets/42116414-5708-4f64-b4f8-ec66c50c4d8e)
+
+
 ### 0.0.79
 
 -  Majority of code for stock market is now completed, however it is not yet open to the public, more test will be conducted before you can start playing with it, more details will be announced soon
