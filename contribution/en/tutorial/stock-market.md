@@ -71,7 +71,7 @@ Your portfolio overview shows:
 
 ## What happens to my stocks if I'm mugged or arrested?
 When you lose a PvP encounter (either by being mugged or arrested), you'll lose a percentage of your stock holdings. The system rounds up any fractional shares - for example, if the penalty calculates to 1.1 shares, you'll lose 2 shares. These shares are immediately liquidated at current market prices, with the standard PvP tax deducted before the attacker receives the proceeds.
-**Important**: Unlike Eurodollars, there is no upper cap of 10,000 Eurodollars for stock holdings when you lose a PvP encounter. however you get the possibility of making a profit from the stock market and slightly more discreet way of allocating your wealth.
+**Important**: When losing a PvP encounter, the percentage of stocks lost is same as your Eurodollar loss percentage. However, unlike Eurodollars which have a 10,000 cap, stock losses have no upper limit. on the upside, stocks offer potential market gains and a more discreet wealth storage option.
 
 ---
 **Legal Disclaimer**:

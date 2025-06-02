@@ -8,30 +8,30 @@ Vous y accédez depuis le menu cybernétique.
 
 ## Comment acheter des actions ?
 
-1. Appuyez sur n'importe quelle entreprise de la liste boursière.
-2. Sur la page des détails de l'action, appuyez sur le bouton **TRADER**.
-3. Sélectionnez l'onglet **ACHETER** dans la fenêtre modale de trading.
-4. Entrez le nombre d'actions que vous souhaitez acheter à l'aide du champ de saisie ou du curseur.
-5. Vérifiez les détails de la transaction, y compris les frais de négociation de 1 %.
-6. Appuyez sur **CONFIRMER L'ACHAT** pour finaliser l'achat.
+1. Appuyez sur n'importe quelle entreprise de la liste de la Bourse
+2. Sur la page des détails de l'action, appuyez sur le bouton **TRADER**
+3. Sélectionnez l'onglet **ACHETER** dans la fenêtre modale de trading
+4. Entrez le nombre d'actions que vous souhaitez acheter à l'aide du champ de saisie ou du curseur
+5. Vérifiez les détails de la transaction, y compris les frais de négociation de 1 %
+6. Appuyez sur **CONFIRMER L'ACHAT** pour finaliser l'achat
 
 ## Comment vendre des actions ?
 
-1. Ouvrez la fenêtre modale de trading pour une action que vous possédez.
-2. Sélectionnez l'onglet **VENDRE**.
-3. Entrez le nombre d'actions à vendre (vous ne pouvez vendre que ce que vous possédez).
-4. Vérifiez les détails de la transaction, y compris les frais de négociation de 1 %.
-5. Appuyez sur **CONFIRMER LA VENTE** pour finaliser la vente.
+1. Ouvrez la fenêtre modale de trading pour une action que vous possédez
+2. Sélectionnez l'onglet **VENDRE**
+3. Entrez le nombre d'actions à vendre (vous ne pouvez vendre que ce que vous possédez)
+4. Vérifiez les détails de la transaction, y compris les frais de négociation de 1 %
+5. Appuyez sur **CONFIRMER LA VENTE** pour finaliser la vente
 
-**Important :** Il existe un délai de récupération de 20 minutes entre les transactions de vente.
+**Important**: Il existe un délai de récupération de 20 minutes entre les transactions de vente.
 
 ## Quels sont les frais de négociation ?
 
 Toutes les transactions boursières entraînent des **frais de négociation de 1 %** :
 
-- **Ordres d'achat** : Les frais sont ajoutés à votre coût total.
-- **Ordres de vente** : Les frais sont déduits de vos revenus.
-- Les frais sont calculés automatiquement et affichés avant que vous ne confirmiez une transaction.
+- **Ordres d'achat** : Les frais sont ajoutés à votre coût total
+- **Ordres de vente** : Les frais sont déduits de vos revenus
+- Les frais sont calculés automatiquement et affichés avant que vous ne confirmiez une transaction
 
 ## Comment les prix des actions sont-ils déterminés ?
 
@@ -47,10 +47,10 @@ Le graphique boursier est mis à jour toutes les **5 minutes** pendant les heure
 
 ## Qu'est-ce que le P&L non réalisé par rapport au P&L réalisé ?
 
-- **P&L non réalisé** : Votre profit/perte actuel sur les actions que vous possédez encore. Cela change à mesure que les prix des actions fluctuent et montre des gains/pertes potentiels.
+- **P&L non réalisé** : Votre profit/perte actuel sur les actions que vous possédez encore. Cela change à mesure que les prix des actions fluctuent et montre les gains/pertes potentiels.
 - **P&L réalisé** : Votre profit/perte réel provenant des transactions conclues. Ceci est mis à jour lorsque vous vendez des actions et représente votre performance commerciale permanente.
 
-## Quelles informations puis-je consulter sur la page des détails de l'action ?
+## Quelles informations puis-je voir sur la page des détails de l'action ?
 
 Pour chaque action, vous pouvez consulter :
 
@@ -63,31 +63,31 @@ Pour chaque action, vous pouvez consulter :
 
 ## Qu'est-ce que je dois savoir sur les risques du marché ?
 
-- Le marché suit le marché réel, il est donc **NORMAL** qu'il soit volatil de temps en temps ; il peut monter en flèche ou s'effondrer à cause d'événements réels, de nouvelles, etc.
+- Le marché suit le marché réel, il est donc **NORMAL** qu'il soit parfois volatil ; il peut monter en flèche ou s'effondrer à cause d'événements, de nouvelles, etc. réels.
 - Je (Dexter) n'ai aucun contrôle sur le marché réel et ne peux donc pas contrôler le prix des actions du jeu non plus.
 
 ## Comment puis-je suivre les performances de mon portefeuille ?
 
 Votre aperçu de portefeuille affiche :
 
-- **Valeur totale des actifs** : La valeur actuelle de tous vos avoirs en actions
-- **P&L non réalisé** : Gains/pertes actuels sur les positions ouvertes (vert pour les bénéfices, rouge pour les pertes)
+- **Valeur totale des actifs** : Valeur actuelle de tous vos avoirs en actions
+- **P&L non réalisé** : Gains/pertes actuels sur les positions actives (vert pour les bénéfices, rouge pour les pertes)
 - **P&L réalisé** : Profit/perte total de toutes les transactions conclues
 
 ## Quels sont quelques conseils de trading ?
 
-- **Diversifiez** : Ne mettez pas tout votre argent dans une seule action.
-- **Surveillez les tendances** : Utilisez les graphiques des prix pour analyser les performances historiques.
-- **Synchronisez vos transactions** : Tenez compte du délai de refroidissement de 20 minutes pour la vente.
-- **Conservez des réserves de trésorerie** : Conservez quelques Eurodollars pour saisir de nouvelles opportunités.
-- **Commencez petit** : Apprenez les tendances du marché avant d'effectuer de gros investissements.
+- **Diversifiez** : Ne mettez pas tout votre argent dans une seule action
+- **Surveillez les tendances** : Utilisez les graphiques des prix pour analyser les performances historiques
+- **Synchronisez vos transactions** : Tenez compte du délai de refroidissement de 20 minutes pour la vente
+- **Conservez des réserves de trésorerie** : Conservez quelques Eurodollars pour saisir de nouvelles opportunités
+- **Commencez petit** : Apprenez les tendances du marché avant d'effectuer de gros investissements
 
-## Que se passe-t-il avec mes actions si je suis agressé ou arrêté ?
+## Que se passe-t-il avec mes actions si je suis victime d'un vol ou arrêté ?
 
-Lorsque vous perdez une rencontre PvP (soit en étant agressé, soit en étant arrêté), vous perdrez un pourcentage de vos avoirs en actions. Le système arrondit les parts fractionnaires - par exemple, si la pénalité est calculée à 1,1 action, vous en perdrez 2. Ces actions sont immédiatement liquidées aux prix du marché actuels, avec la taxe PvP standard déduite avant que l'attaquant ne reçoive le produit de la vente.
-**Important**: Contrairement aux Eurodollars, il n'y a pas de limite supérieure de 10 000 Eurodollars pour les avoirs en actions lorsque vous perdez une rencontre PvP. Cependant, vous avez la possibilité de réaliser des bénéfices sur le marché boursier et un moyen plus discret d'allouer votre richesse.
+Lorsque vous perdez une rencontre PvP (soit en étant victime d'un vol, soit en étant arrêté), vous perdrez un pourcentage de vos avoirs en actions. Le système arrondit toute fraction d'action - par exemple, si la pénalité est calculée à 1,1 action, vous en perdrez 2. Ces actions sont immédiatement liquidées aux prix du marché actuels, avec la taxe PvP standard déduite avant que l'attaquant ne reçoive le produit de la vente.
+**Important**: Lorsque vous perdez une rencontre PvP, le pourcentage d'actions perdues est le même que votre pourcentage de perte en Eurodollars. Cependant, contrairement aux Eurodollars qui ont un plafond de 10 000, les pertes d'actions n'ont pas de limite supérieure. Côté positif, les actions offrent des gains potentiels sur le marché et une option de stockage de richesse plus discrète.
 
 ---
 
 **Avertissement légal**:
-Aucune information contenue dans cette page ou dans le jeu ne constitue un conseil financier. Il s'agit d'un marché boursier fictif/factice de jeu vidéo sans argent réel impliqué.
+Aucune information sur cette page ou dans le jeu ne constitue un conseil financier. Il s'agit d'un marché boursier fictif/factice dans un jeu vidéo sans argent réel impliqué.

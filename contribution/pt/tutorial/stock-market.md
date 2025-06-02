@@ -54,25 +54,25 @@ O gráfico de ações é atualizado a cada **5 minutos** durante o horário norm
 
 Para cada ação, você pode visualizar:
 
-- Preço atual e variação diária do preço
-- Gráfico de preços interativo com dados históricos
-- Seus ativos atuais (número de ações possuídas)
-- Preço médio de compra de suas ações
-- Valor atual do lucro/prejuízo em valor e porcentagem
-- Valor total de mercado da sua posição
+- Preço atual e variação diária do preço.
+- Gráfico de preços interativo com dados históricos.
+- Suas participações atuais (número de ações possuídas).
+- Preço médio de compra de suas ações.
+- Valor atual do lucro/prejuízo em valor e porcentagem.
+- Valor total de mercado da sua posição.
 
 ## O que devo saber sobre os riscos do mercado?
 
-- O mercado acompanha o mercado mundial real, portanto, é **EXPECTADO** ser volátil de tempos em tempos; ele pode disparar para a lua ou cair no chão devido a eventos mundiais, notícias, etc.
+- O mercado acompanha o mercado mundial real, portanto, é **ESPERADO** ser volátil de tempos em tempos; ele pode disparar para a lua ou cair no chão devido a eventos mundiais reais, notícias, etc.
 - Eu (Dexter) não tenho controle sobre o mercado mundial real e, portanto, não posso controlar o preço das ações do jogo também.
 
 ## Como posso acompanhar o desempenho da minha carteira?
 
 A visão geral da sua carteira mostra:
 
-- **Valor Total dos Ativos**: Valor atual de todas as suas participações em ações
-- **Lucro/Prejuízo Não Realizado**: Ganhos/perdas atuais em posições ativas (verde para lucros, vermelho para perdas)
-- **Lucro/Prejuízo Realizado**: Lucro/prejuízo total de todas as negociações concluídas
+- **Valor Total dos Ativos**: Valor atual de todas as suas participações em ações.
+- **Lucro/Prejuízo Não Realizado**: Ganhos/perdas atuais em posições ativas (verde para lucros, vermelho para perdas).
+- **Lucro/Prejuízo Realizado**: Lucro/prejuízo total de todas as negociações concluídas.
 
 ## Quais são algumas dicas de negociação?
 
@@ -85,7 +85,7 @@ A visão geral da sua carteira mostra:
 ## O que acontece com minhas ações se eu for assaltado ou preso?
 
 Quando você perder um confronto PvP (seja por roubo ou prisão), perderá uma porcentagem de suas participações em ações. O sistema arredonda qualquer fração de ação - por exemplo, se a penalidade calcular 1,1 ações, você perderá 2 ações. Essas ações são liquidadas imediatamente aos preços atuais do mercado, com o imposto PvP padrão deduzido antes que o atacante receba os recursos.
-**Importante**: Ao contrário dos Eurodólares, não há limite máximo de 10.000 Eurodólares para participações em ações quando você perde um confronto PvP. No entanto, você tem a possibilidade de obter lucro no mercado de ações e uma forma ligeiramente mais discreta de alocar sua riqueza.
+**Importante**: Ao perder um confronto PvP, a porcentagem de ações perdidas é a mesma da sua porcentagem de perda de Eurodólares. No entanto, ao contrário dos Eurodólares, que têm um limite de 10.000, as perdas de ações não têm limite superior. Por outro lado, as ações oferecem ganhos potenciais no mercado e uma opção de armazenamento de riqueza mais discreta.
 
 ---
 

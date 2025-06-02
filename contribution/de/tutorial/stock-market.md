@@ -11,7 +11,7 @@ Du findest ihn im Cybernet-Menü.
 1. Tippe auf ein beliebiges Unternehmen aus der Aktienlistenansicht.
 2. Auf der Aktiendetailseite tippe auf die Schaltfläche **HANDELN**.
 3. Wähle den Reiter **KAUFEN** im Handelsfenster.
-4. Gib die Anzahl der Anteile ein, die du kaufen möchtest, mithilfe des Eingabefelds oder des Schiebereglers.
+4. Gib die Anzahl der Anteile ein, die du kaufen möchtest, mithilfe des Eingabefelds oder Schiebereglers.
 5. Überprüfe die Transaktionsdetails einschließlich der 1%igen Handelsgebühr.
 6. Tippe auf **KAUFEN BESTÄTIGEN**, um den Kauf abzuschließen.
 
@@ -23,7 +23,7 @@ Du findest ihn im Cybernet-Menü.
 4. Überprüfe die Transaktionsdetails einschließlich der 1%igen Handelsgebühr.
 5. Tippe auf **VERKAUFEN BESTÄTIGEN**, um den Verkauf abzuschließen.
 
-**Wichtig**: Zwischen Verkaufsaufträgen gibt es eine Wartezeit von 20 Minuten.
+**Wichtig**: Zwischen Verkaufsaufträgen besteht eine Wartezeit von 20 Minuten.
 
 ## Was sind Handelsgebühren?
 
@@ -35,9 +35,9 @@ Für alle Aktien Transaktionen fallen **1% Handelsgebühr** an:
 
 ## Wie werden die Aktienkurse bestimmt?
 
-Der Aktienmarkt im Spiel verfolgt den realen Aktienmarkt und kombiniert mehrere nicht offengelegte reale Werte, um einen dynamischen und unvorhersehbaren Markt zu schaffen. Dies geschieht, damit niemand den Markt durch Kauf oder Verkauf großer Mengen an Aktien manipulieren kann – ähnlich wie beim realen Aktienmarkt. Deine Kauf- oder Verkaufsaufträge können den Aktienkurs (vorausgesetzt, du bist kein Multimilliardär) nicht beeinflussen.
+Der Aktienmarkt im Spiel verfolgt den realen Aktienmarkt und kombiniert mehrere nicht offengelegte reale Werte, um einen dynamischen und unvorhersehbaren Markt zu schaffen. Dies geschieht, damit niemand den Markt manipulieren kann, indem er große Mengen an Aktien kauft oder verkauft – ähnlich wie beim realen Aktienmarkt; deine Kauf- oder Verkaufsaufträge können den Aktienkurs nicht beeinflussen (es sei denn, du bist Multimilliardär).
 
-## Wie werden die Verkaufs- und Einkaufspreise ermittelt?
+## Wie werden die Verkaufs- und Kaufpreise ermittelt?
 
 Der Preis wird in Echtzeit anhand der realen Aktienmarktdaten berechnet. Aufgrund von Netzwerkverzögerungen, Spreads und anderen Faktoren kann der auf deinem Bildschirm angezeigte Preis geringfügig vom tatsächlichen Marktpreis abweichen, zu dem du kaufst oder verkaufst.
 
@@ -47,8 +47,8 @@ Der Aktienchart wird während des normalen Handels alle **5 Minuten** aktualisie
 
 ## Was ist Unrealisierter Gewinn/Verlust im Vergleich zu Realisiertem Gewinn/Verlust?
 
-- **Unrealisierter Gewinn/Verlust**: Dein aktueller Gewinn oder Verlust bei Aktien, die du noch besitzt. Dieser ändert sich mit den Schwankungen der Aktienkurse und zeigt potenzielle Gewinne oder Verluste an.
-- **Realisierter Gewinn/Verlust**: Dein tatsächlicher Gewinn oder Verlust aus abgeschlossenen Trades. Dieser wird aktualisiert, wenn du Aktien verkaufst und deine dauerhafte Handelsleistung widerspiegelt.
+- **Unrealisierter Gewinn/Verlust**: Dein aktueller Gewinn oder Verlust bei Aktien, die du noch besitzt. Dies ändert sich mit den Schwankungen der Aktienkurse und zeigt potenzielle Gewinne oder Verluste an.
+- **Realisierter Gewinn/Verlust**: Dein tatsächlicher Gewinn oder Verlust aus abgeschlossenen Trades. Dieser wird aktualisiert, wenn du Aktien verkaufst und deine dauerhafte Handelsperformance widerspiegelt.
 
 ## Welche Informationen kann ich auf der Aktiendetailseite sehen?
 
@@ -56,7 +56,7 @@ Für jede Aktie kannst du Folgendes einsehen:
 
 - Aktueller Preis und tägliche Preisänderung
 - Interaktiver Preisdiagramm mit historischen Daten
-- Dein aktueller Bestand (Anzahl der besessenen Aktien)
+- Dein aktueller Bestand (Anzahl der Anteile im Besitz)
 - Durchschnittlicher Kaufpreis deiner Aktien
 - Aktueller Gewinn-/Verlustbetrag und -prozentsatz
 - Gesamter Marktwert deiner Position
@@ -76,16 +76,16 @@ Deine Portfolioübersicht zeigt:
 
 ## Was sind einige Handelstipps?
 
-- **Diversifiziere**: Stecke nicht dein gesamtes Geld in eine Aktie.
-- **Beobachte Trends**: Nutze die Preisdiagramme, um historische Leistungen zu analysieren.
-- **Timing deiner Trades**: Achte auf die 20-minütige Verkaufsabklingzeit.
-- **Halte Bargeldreserven bereit**: Behalte einige Eurodollars für neue Möglichkeiten bei.
-- **Fang klein an**: Lerne die Marktmuster kennen, bevor du große Investitionen tätigst.
+- **Diversifizieren**: Lege nicht dein gesamtes Geld in eine Aktie.
+- **Trends beobachten**: Nutze die Preisdiagramme, um historische Leistungen zu analysieren.
+- **Trades zeitlich abstimmen**: Beachte die 20-minütige Verkaufsabklingzeit.
+- **Bargeldreserven behalten**: Halte einige Eurodollars für neue Möglichkeiten bereit.
+- **Klein anfangen**: Lerne die Marktmuster kennen, bevor du große Investitionen tätigst.
 
 ## Was passiert mit meinen Aktien, wenn ich überfallen oder verhaftet werde?
 
-Wenn du ein PvP-Gefecht verlierst (entweder durch einen Überfall oder eine Verhaftung), verlierst du einen Prozentsatz deiner Aktienbestände. Das System rundet alle Bruchteile auf – zum Beispiel, wenn die Strafe auf 1,1 Aktien berechnet wird, verlierst du 2 Aktien. Diese Aktien werden sofort zu den aktuellen Marktpreisen liquidiert, wobei die Standard-PvP-Steuer abgezogen wird, bevor der Angreifer den Erlös erhält.
-**Wichtig**: Im Gegensatz zu Eurodollars gibt es keine Obergrenze von 10.000 Eurodollars für Aktienbestände, wenn du ein PvP-Gefecht verlierst. Du hast jedoch die Möglichkeit, mit dem Aktienmarkt Gewinne zu erzielen und dein Vermögen etwas diskreter zu verteilen.
+Wenn du ein PvP-Gefecht verlierst (entweder durch einen Überfall oder eine Verhaftung), verlierst du einen Prozentsatz deiner Aktienbestände. Das System rundet alle Bruchteile von Aktien auf – zum Beispiel, wenn die Strafe auf 1,1 Aktien berechnet wird, verlierst du 2 Aktien. Diese Aktien werden sofort zu den aktuellen Marktpreisen liquidiert, wobei der Standard-PvP-Steuer vor der Gutschrift an den Angreifer abgezogen wird.
+**Wichtig**: Der Prozentsatz der verlorenen Aktien bei einem PvP-Gefecht entspricht dem Prozentsatz des Eurodollar-Verlusts. Im Gegensatz zu Eurodollars, die eine Obergrenze von 10.000 haben, gibt es jedoch keine Obergrenze für Aktienverluste. Auf der positiven Seite bieten Aktien potenzielle Marktgewinne und eine diskrete Möglichkeit zur Vermögensspeicherung.
 
 ---
 
