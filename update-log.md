@@ -5,6 +5,10 @@
 **This game is still in the early Beta stage, please expect many changes such as new features, bug fixes, buffs and nerfs.**
 
 **If you find an exploit, please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
+ 
+### 0.0.80
+
+-  Stock Market is now live! You can now invest your Eurodollars in various corporations and trade stocks using real-time market data. Access the Stock Market through the CyberNet menu. For detailed information on how to trade, fees, risks, and tips, please read the comprehensive tutorial in CyberWiki.
 
 ### 0.0.79
 
