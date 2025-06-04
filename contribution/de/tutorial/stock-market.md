@@ -4,7 +4,7 @@ Der Aktienmarkt ist ein Ort, an dem du deine Eurodollars in verschiedene Unterne
 
 ## Wo finde ich den Aktienmarkt?
 
-Du findest ihn im Cybernet-Menü.
+Du kannst ihn über das Cybernet-Menü aufrufen.
 
 ## Wie kaufe ich Aktien?
 
@@ -12,30 +12,35 @@ Du findest ihn im Cybernet-Menü.
 2. Auf der Aktiendetailseite tippe auf die Schaltfläche **HANDELN**.
 3. Wähle den Reiter **KAUFEN** im Handelsfenster.
 4. Gib die Anzahl der Anteile ein, die du kaufen möchtest, mithilfe des Eingabefelds oder Schiebereglers.
-5. Überprüfe die Transaktionsdetails einschließlich der 1%igen Handelsgebühr.
-6. Tippe auf **KAUFEN BESTÄTIGEN**, um den Kauf abzuschließen.
+5. Überprüfe die Transaktionsdetails einschließlich der Handelskosten (0,4 % + 20 Eurodollar feste Gebühr).
+6. Tippe auf **KAUF BESTÄTIGEN**, um den Kauf abzuschließen.
 
 ## Wie verkaufe ich Aktien?
 
 1. Öffne das Handelsfenster für eine Aktie, die du besitzt.
 2. Wähle den Reiter **VERKAUFEN**.
 3. Gib die Anzahl der zu verkaufenden Anteile ein (du kannst nur so viele verkaufen, wie du besitzt).
-4. Überprüfe die Transaktionsdetails einschließlich der 1%igen Handelsgebühr.
-5. Tippe auf **VERKAUFEN BESTÄTIGEN**, um den Verkauf abzuschließen.
+4. Überprüfe die Transaktionsdetails einschließlich der Handelskosten (0,4 % + 20 Eurodollar feste Gebühr).
+5. Tippe auf **VERKAUF BESTÄTIGEN**, um den Verkauf abzuschließen.
 
-**Wichtig**: Zwischen Verkaufsaufträgen besteht eine Wartezeit von 20 Minuten.
+## Was sind die Handelskosten?
 
-## Was sind Handelsgebühren?
+Für alle Aktien-Transaktionen fallen **zwei Arten von Gebühren** an:
 
-Für alle Aktien Transaktionen fallen **1% Handelsgebühr** an:
+- **Prozentuale Gebühr**: 0,4 % des Transaktionswerts.
+- **Pauschale Gebühr**: 20 Eurodollar pro Transaktion.
 
-- **Kaufaufträge**: Die Gebühr wird zu deinen Gesamtkosten addiert.
-- **Verkaufsaufträge**: Die Gebühr wird aus deinem Erlös abgezogen.
-- Die Gebühren werden automatisch berechnet und angezeigt, bevor du einen Handel bestätigst.
+**So werden die Gebühren angewendet**:
+
+- **Kaufaufträge**: Beide Gebühren werden zu deinen Gesamtkosten addiert (Aktienkurs + 0,4 % + 20 ED).
+- **Verkaufsaufträge**: Beide Gebühren werden von deinem Erlös abgezogen (Aktienkurs - 0,4 % - 20 ED).
+- Alle Gebühren werden automatisch berechnet und angezeigt, bevor du einen Handel bestätigst.
+
+**Beispiel**: Der Handel mit Aktien im Wert von 10.000 ED verursacht 40 ED (0,4 %) + 20 ED (pauschal) = 60 ED Gesamtkosten.
 
 ## Wie werden die Aktienkurse bestimmt?
 
-Der Aktienmarkt im Spiel verfolgt den realen Aktienmarkt und kombiniert mehrere nicht offengelegte reale Werte, um einen dynamischen und unvorhersehbaren Markt zu schaffen. Dies geschieht, damit niemand den Markt manipulieren kann, indem er große Mengen an Aktien kauft oder verkauft – ähnlich wie beim realen Aktienmarkt; deine Kauf- oder Verkaufsaufträge können den Aktienkurs nicht beeinflussen (es sei denn, du bist Multimilliardär).
+Der Aktienmarkt im Spiel verfolgt den realen Aktienmarkt und kombiniert mehrere nicht offengelegte reale Werte, um einen dynamischen und unvorhersehbaren Markt zu schaffen. Dies geschieht, damit niemand den Markt durch Kauf oder Verkauf großer Mengen an Aktien manipulieren kann – ähnlich wie beim realen Aktienmarkt; deine Kauf- oder Verkaufsaufträge können den Aktienkurs nicht beeinflussen (es sei denn, du bist Milliardär).
 
 ## Wie werden die Verkaufs- und Kaufpreise ermittelt?
 
@@ -48,44 +53,61 @@ Der Aktienchart wird während des normalen Handels alle **5 Minuten** aktualisie
 ## Was ist Unrealisierter Gewinn/Verlust im Vergleich zu Realisiertem Gewinn/Verlust?
 
 - **Unrealisierter Gewinn/Verlust**: Dein aktueller Gewinn oder Verlust bei Aktien, die du noch besitzt. Dies ändert sich mit den Schwankungen der Aktienkurse und zeigt potenzielle Gewinne oder Verluste an.
-- **Realisierter Gewinn/Verlust**: Dein tatsächlicher Gewinn oder Verlust aus abgeschlossenen Trades. Dieser wird aktualisiert, wenn du Aktien verkaufst und deine dauerhafte Handelsperformance widerspiegelt.
+- **Realisierter Gewinn/Verlust**: Dein tatsächlicher Gewinn oder Verlust aus abgeschlossenen Trades. Dieser wird aktualisiert, wenn du Aktien verkaufst und deine dauerhafte Handelsleistung widerspiegelt.
 
 ## Welche Informationen kann ich auf der Aktiendetailseite sehen?
 
 Für jede Aktie kannst du Folgendes einsehen:
 
-- Aktueller Preis und tägliche Preisänderung
-- Interaktiver Preisdiagramm mit historischen Daten
-- Dein aktueller Bestand (Anzahl der Anteile im Besitz)
-- Durchschnittlicher Kaufpreis deiner Aktien
-- Aktueller Gewinn-/Verlustbetrag und -prozentsatz
-- Gesamter Marktwert deiner Position
+- Aktueller Preis und tägliche Preisänderung.
+- Interaktiver Kurschart mit historischen Daten.
+- Dein aktueller Bestand (Anzahl der besessenen Aktien).
+- Durchschnittlicher Kaufpreis deiner Aktien.
+- Aktueller Gewinn-/Verlustbetrag und -prozentsatz.
+- Gesamter Marktwert deiner Position.
 
 ## Was sollte ich über Marktrisiken wissen?
 
-- Der Markt verfolgt den realen Markt, daher ist es zu erwarten, dass er von Zeit zu Zeit volatil ist. Er kann aufgrund realer Ereignisse, Nachrichten usw. in die Höhe schießen oder abstürzen.
+- Der Markt verfolgt den realen Markt, daher ist es zu erwarten, dass er von Zeit zu Zeit volatil ist; er kann aufgrund realer Ereignisse, Nachrichten usw. in die Höhe schnellen oder abstürzen.
 - Ich (Dexter) habe keine Kontrolle über den realen Markt und kann daher auch den Preis der Aktien im Spiel nicht kontrollieren.
 
 ## Wie kann ich meine Portfolio-Performance verfolgen?
 
 Deine Portfolioübersicht zeigt:
 
-- **Gesamtwert des Vermögens**: Aktueller Wert aller deiner Aktienbestände
-- **Unrealisierter Gewinn/Verlust**: Aktuelle Gewinne/Verluste bei aktiven Positionen (grün für Gewinne, rot für Verluste)
-- **Realisierter Gewinn/Verlust**: Gesamtgewinn/Verlust aus allen abgeschlossenen Trades
+- **Gesamtwert des Vermögens**: Aktueller Wert aller deiner Aktienbestände.
+- **Unrealisierter Gewinn/Verlust**: Aktuelle Gewinne oder Verluste bei aktiven Positionen (grün für Gewinne, rot für Verluste).
+- **Realisierter Gewinn/Verlust**: Gesamtgewinn oder -verlust aus allen abgeschlossenen Trades.
 
 ## Was sind einige Handelstipps?
 
-- **Diversifizieren**: Lege nicht dein gesamtes Geld in eine Aktie.
-- **Trends beobachten**: Nutze die Preisdiagramme, um historische Leistungen zu analysieren.
-- **Trades zeitlich abstimmen**: Beachte die 20-minütige Verkaufsabklingzeit.
-- **Bargeldreserven behalten**: Halte einige Eurodollars für neue Möglichkeiten bereit.
-- **Klein anfangen**: Lerne die Marktmuster kennen, bevor du große Investitionen tätigst.
+- **Diversifiziere**: Stecke nicht dein gesamtes Geld in eine Aktie.
+- **Beobachte Trends**: Nutze die Kurscharts, um historische Leistungen zu analysieren.
+- **Halte Bargeldreserven bereit**: Behalte etwas Eurodollars für neue Möglichkeiten bei.
+- **Fang klein an**: Lerne die Marktmuster kennen, bevor du große Investitionen tätigst.
 
 ## Was passiert mit meinen Aktien, wenn ich überfallen oder verhaftet werde?
 
-Wenn du ein PvP-Gefecht verlierst (entweder durch einen Überfall oder eine Verhaftung), verlierst du einen Prozentsatz deiner Aktienbestände. Das System rundet alle Bruchteile von Aktien auf – zum Beispiel, wenn die Strafe auf 1,1 Aktien berechnet wird, verlierst du 2 Aktien. Diese Aktien werden sofort zu den aktuellen Marktpreisen liquidiert, wobei der Standard-PvP-Steuer vor der Gutschrift an den Angreifer abgezogen wird.
-**Wichtig**: Der Prozentsatz der verlorenen Aktien bei einem PvP-Gefecht entspricht dem Prozentsatz des Eurodollar-Verlusts. Im Gegensatz zu Eurodollars, die eine Obergrenze von 10.000 haben, gibt es jedoch keine Obergrenze für Aktienverluste. Auf der positiven Seite bieten Aktien potenzielle Marktgewinne und eine diskrete Möglichkeit zur Vermögensspeicherung.
+Wenn du in einer PvP-Begegnung verlierst, können deine Aktienbestände je nach Art der Begegnung gefährdet sein:
+
+**Verhaftungen (Bürgerfestnahme):**
+
+- **100% Wahrscheinlichkeit**: Die ACPD wird bei deiner Verhaftung immer einen Prozentsatz deiner Aktienbestände beschlagnahmen.
+- **Vermögensverfall**: Beschlagnahmte Anteile werden sofort liquidiert und der Erlös geht an den verhaftenden Spieler (abzüglich PvP-Steuer).
+
+**Überfall:**
+
+- **Wahrscheinlichkeitsbasiertes System**: Aktienraub ist nicht garantiert – er hängt davon ab, ob der Angreifer dein Portfolio erfolgreich hackt.
+- **Geringere Wahrscheinlichkeit**: Überfallversuche haben eine geringere Chance auf einen erfolgreichen Aktienraub als Verhaftungen.
+
+**Allgemeine Mechanik für beide:**
+
+- **Niedrigere Verlustrate**: Der Prozentsatz der verlorenen Aktien ist niedriger als dein Eurodollar-Verlustprozentsatz.
+- **Aufgerundete Verluste**: Wenn du Bruchteile von Aktien verlierst (z. B. 1,1 Anteile), rundet das System auf die nächste ganze Zahl auf (2 Anteile).
+- **Sofortige Liquidation**: Gestohlene oder beschlagnahmte Aktien werden sofort zu aktuellen Marktpreisen verkauft.
+- **Der Angreifer erhält den Erlös**: Der Angreifer erhält den Barwert deiner liquidierten Aktien abzüglich der Standard-PvP-Steuer.
+
+**Wichtig**: Im Gegensatz zu Eurodollars, die eine Verlustgrenze von 10.000 haben, gibt es für Aktienverluste keine Obergrenze. Die im Allgemeinen geringeren Verlustraten und die zufallsbasierte Natur (bei Überfällen) sowie die Tatsache, dass es sich um eine verdecktere Möglichkeit handelt, dein Vermögen zu speichern, machen Aktien zu einer interessanten Option für die Vermögensverwaltung.
 
 ---
 

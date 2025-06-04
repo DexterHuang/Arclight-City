@@ -12,7 +12,7 @@ Você pode acessá-lo pelo menu cybernet.
 2. Na Página de Detalhes das Ações, toque no botão **NEGOCIAR**.
 3. Selecione a aba **COMPRAR** no modal de negociação.
 4. Insira o número de ações que deseja comprar usando o campo de entrada ou o controle deslizante.
-5. Revise os detalhes da transação, incluindo a taxa de negociação de 1%.
+5. Revise os detalhes da transação, incluindo as taxas de negociação (0,4% + 20 Eurodólares de taxa fixa).
 6. Toque em **CONFIRMAR COMPRA** para concluir a compra.
 
 ## Como vendo ações?
@@ -20,22 +20,27 @@ Você pode acessá-lo pelo menu cybernet.
 1. Abra o modal de negociação para uma ação que você possui.
 2. Selecione a aba **VENDER**.
 3. Insira o número de ações para vender (você só pode vender o que possui).
-4. Revise os detalhes da transação, incluindo a taxa de negociação de 1%.
+4. Revise os detalhes da transação, incluindo as taxas de negociação (0,4% + 20 Eurodólares de taxa fixa).
 5. Toque em **CONFIRMAR VENDA** para concluir a venda.
-
-**Importante**: Há um tempo de espera de 20 minutos entre as vendas.
 
 ## Quais são as taxas de negociação?
 
-Todas as transações de ações incorrem em uma taxa de negociação de **1%**:
+Todas as transações de ações incorrem em **dois tipos de taxas**:
 
-- **Ordens de compra**: A taxa é adicionada ao seu custo total.
-- **Ordens de venda**: A taxa é deduzida do seu rendimento.
-- As taxas são calculadas automaticamente e exibidas antes de você confirmar qualquer negociação.
+- **Taxa percentual**: 0,4% do valor da transação.
+- **Taxa fixa**: 20 Eurodólares por transação.
+
+**Como as taxas são aplicadas**:
+
+- **Ordens de compra**: Ambas as taxas são adicionadas ao seu custo total (preço da ação + 0,4% + 20 ED).
+- **Ordens de venda**: Ambas as taxas são deduzidas do seu lucro (preço da ação - 0,4% - 20 ED).
+- Todas as taxas são calculadas automaticamente e exibidas antes de você confirmar qualquer negociação.
+
+**Exemplo**: Negociar ações no valor de 10.000 ED incorre em 40 ED (0,4%) + 20 ED (taxa fixa) = 60 ED de taxas totais.
 
 ## Como os preços das ações são determinados?
 
-O mercado de ações do jogo acompanha o mercado de ações mundial real e combina vários tickers reais não divulgados para criar um mercado dinâmico e imprevisível. Isso é feito para que as pessoas não possam manipular o mercado comprando ou vendendo grandes quantidades de ações, semelhante ao funcionamento do mercado de ações mundial real; suas ordens de compra ou venda não poderão mover o preço da ação (a menos que você seja um bilionário).
+O mercado de ações do jogo acompanha o mercado de ações mundial real e combina vários tickers reais não divulgados para criar um mercado dinâmico e imprevisível. Isso é feito para que as pessoas não possam manipular o mercado comprando ou vendendo grandes quantidades de ações, semelhante a como o mercado de ações mundial real funciona; suas ordens de compra ou venda não poderão mover o preço da ação (a menos que você seja um bilionário).
 
 ## Como os preços de venda e compra são determinados?
 
@@ -47,10 +52,10 @@ O gráfico de ações é atualizado a cada **5 minutos** durante o horário norm
 
 ## O que é Lucro/Prejuízo Não Realizado vs. Lucro/Prejuízo Realizado?
 
-- **Lucro/Prejuízo Não Realizado**: Seu lucro/prejuízo atual nas ações que você ainda possui. Isso muda conforme os preços das ações flutuam e mostra ganhos/perdas potenciais.
+- **Lucro/Prejuízo Não Realizado**: Seu lucro/prejuízo atual nas ações que você ainda possui. Isso muda à medida que os preços das ações flutuam e mostra ganhos/perdas potenciais.
 - **Lucro/Prejuízo Realizado**: Seu lucro/prejuízo real de negociações concluídas. Isso é atualizado quando você vende ações e representa seu desempenho comercial permanente.
 
-## Quais informações posso ver na página de Detalhes das Ações?
+## Quais informações posso ver na Página de Detalhes das Ações?
 
 Para cada ação, você pode visualizar:
 
@@ -63,7 +68,7 @@ Para cada ação, você pode visualizar:
 
 ## O que devo saber sobre os riscos do mercado?
 
-- O mercado acompanha o mercado mundial real, portanto, é **ESPERADO** ser volátil de tempos em tempos; ele pode disparar para a lua ou cair no chão devido a eventos mundiais reais, notícias, etc.
+- O mercado acompanha o mercado mundial real, portanto, **É** esperado que seja volátil de tempos em tempos; ele pode disparar para a lua ou cair no chão devido a eventos mundiais, notícias, etc.
 - Eu (Dexter) não tenho controle sobre o mercado mundial real e, portanto, não posso controlar o preço das ações do jogo também.
 
 ## Como posso acompanhar o desempenho da minha carteira?
@@ -78,14 +83,31 @@ A visão geral da sua carteira mostra:
 
 - **Diversifique**: Não coloque todo o seu dinheiro em uma única ação.
 - **Monitore as tendências**: Use os gráficos de preços para analisar o desempenho histórico.
-- **Programe suas negociações**: Esteja atento ao tempo de espera de 20 minutos para vendas.
 - **Mantenha reservas de caixa**: Mantenha alguns Eurodólares para novas oportunidades.
 - **Comece pequeno**: Aprenda os padrões do mercado antes de fazer grandes investimentos.
 
 ## O que acontece com minhas ações se eu for assaltado ou preso?
 
-Quando você perder um confronto PvP (seja por roubo ou prisão), perderá uma porcentagem de suas participações em ações. O sistema arredonda qualquer fração de ação - por exemplo, se a penalidade calcular 1,1 ações, você perderá 2 ações. Essas ações são liquidadas imediatamente aos preços atuais do mercado, com o imposto PvP padrão deduzido antes que o atacante receba os recursos.
-**Importante**: Ao perder um confronto PvP, a porcentagem de ações perdidas é a mesma da sua porcentagem de perda de Eurodólares. No entanto, ao contrário dos Eurodólares, que têm um limite de 10.000, as perdas de ações não têm limite superior. Por outro lado, as ações oferecem ganhos potenciais no mercado e uma opção de armazenamento de riqueza mais discreta.
+Quando você perde um confronto PvP, suas participações em ações podem estar em risco dependendo do tipo de encontro:
+
+**Prisões (Prisão Cidadã):**
+
+- **100% de chance**: A ACPD sempre apreenderá uma porcentagem de suas participações em ações quando você for preso.
+- **Confisco de bens**: As ações apreendidas são liquidadas imediatamente e o produto vai para o jogador que prendeu (menos o imposto PvP).
+
+**Assalto:**
+
+- **Sistema baseado em chances**: O roubo de ações não é garantido - depende se o atacante conseguir hackear sua carteira com sucesso.
+- **Probabilidade mais baixa**: As tentativas de assalto têm uma chance menor de roubo bem-sucedido de ações em comparação com prisões.
+
+**Mecânicas gerais para ambos:**
+
+- **Taxa de perda mais baixa**: A porcentagem de ações perdidas é menor do que a porcentagem de perda de Eurodólares.
+- **Perdas arredondadas para cima**: Se você perder frações de ações (por exemplo, 1,1 ações), o sistema arredonda para o número inteiro superior (2 ações).
+- **Liquidação imediata**: As ações roubadas/apreendidas são vendidas instantaneamente aos preços atuais do mercado.
+- **O atacante recebe o produto**: O atacante obtém o valor em dinheiro de suas ações liquidadas, menos o imposto PvP padrão.
+
+**Importante**: Ao contrário dos Eurodólares, que têm um limite de perda de 10.000, as perdas de ações não têm limite superior. No entanto, as taxas de perda geralmente mais baixas e a natureza baseada em chances (para assaltos) mais o fato de ser uma forma mais discreta de armazenar sua riqueza tornam as ações uma opção interessante para armazenamento de riqueza.
 
 ---
 

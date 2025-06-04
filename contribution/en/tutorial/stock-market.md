@@ -9,23 +9,27 @@ You can access from the cybernet menu
 2. On the Stock Details Page, tap the **TRADE** button
 3. Select the **BUY** tab in the trading modal
 4. Enter the number of shares you want to purchase using the input field or slider
-5. Review the transaction details including the 1% trading fee
+5. Review the transaction details including the trading fees (0.4% + 20 Eurodollar flat fee)
 6. Tap **CONFIRM BUY** to complete the purchase
 
 ## How do I sell stocks?
 1. Open the trading modal for a stock you own
 2. Select the **SELL** tab
 3. Enter the number of shares to sell (you can only sell what you own) 
-4. Review the transaction details including the 1% trading fee
+4. Review the transaction details including the trading fees (0.4% + 20 Eurodollar flat fee)
 5. Tap **CONFIRM SELL** to complete the sale
 
-**Important**: There's a 20-minute cooldown between sell transactions.
-
 ## What are trading fees?
-All stock transactions incur a **1% trading fee**:
-- **Buy orders**: Fee is added to your total cost
-- **Sell orders**: Fee is deducted from your proceeds
-- Fees are automatically calculated and shown before you confirm any trade
+All stock transactions incur **two types of fees**:
+- **Percentage fee**: 0.4% of the transaction value
+- **Flat fee**: 20 Eurodollars per transaction
+
+**How fees are applied**:
+- **Buy orders**: Both fees are added to your total cost (stock price + 0.4% + 20 ED)
+- **Sell orders**: Both fees are deducted from your proceeds (stock price - 0.4% - 20 ED)
+- All fees are automatically calculated and shown before you confirm any trade
+
+**Example**: Trading 10,000 ED worth of stock incurs 40 ED (0.4%) + 20 ED (flat) = 60 ED total fees
 
 ## How are stock price determined?
 The in game stock market tracks the real world stock market and combines multiple undisclosed real tickers to create a dynamic and unpredictable market.
@@ -65,13 +69,27 @@ Your portfolio overview shows:
 ## What are some trading tips?
 - **Diversify**: Don't put all your money in one stock
 - **Monitor trends**: Use the price charts to analyze historical performance  
-- **Time your trades**: Be mindful of the 20-minute sell cooldown
 - **Keep cash reserves**: Maintain some Eurodollars for new opportunities
 - **Start small**: Learn the market patterns before making large investments
 
 ## What happens to my stocks if I'm mugged or arrested?
-When you lose a PvP encounter (either by being mugged or arrested), you'll lose a percentage of your stock holdings. The system rounds up any fractional shares - for example, if the penalty calculates to 1.1 shares, you'll lose 2 shares. These shares are immediately liquidated at current market prices, with the standard PvP tax deducted before the attacker receives the proceeds.
-**Important**: When losing a PvP encounter, the percentage of stocks lost is same as your Eurodollar loss percentage. However, unlike Eurodollars which have a 10,000 cap, stock losses have no upper limit. on the upside, stocks offer potential market gains and a more discreet wealth storage option.
+When you lose a PvP encounter, your stock holdings may be at risk depending on the type of encounter:
+
+**Arrests (Citizen's Arrest):**
+- **100% chance**: The ACPD will always seize a percentage of your stock holdings when you're arrested
+- **Asset forfeiture**: Seized shares are immediately liquidated and the proceeds go to the arresting player (minus PvP tax)
+
+**Mugging:**
+- **Chance-based system**: Stock theft is not guaranteed - it depends on whether the attacker successfully hacks your portfolio
+- **Lower probability**: Mugging attempts have a lower chance of successful stock theft compared to arrests
+
+**General mechanics for both:**
+- **Lower loss rate**: The percentage of stocks lost is lower than your Eurodollar loss percentage
+- **Rounded up losses**: If you lose fractional shares (e.g., 1.1 shares), the system rounds up to the next whole number (2 shares)
+- **Immediate liquidation**: Stolen/seized shares are instantly sold at current market prices
+- **Attacker receives proceeds**: The attacker gets the cash value of your liquidated stocks, minus the standard PvP tax
+
+**Important**: Unlike Eurodollars which have a 10,000 loss cap, stock losses have no upper limit. However, the generally lower loss rates and chance-based nature (for mugging) plus that it is a more covert way to store your wealth make stocks a interesting option for wealth storage.
 
 ---
 **Legal Disclaimer**:

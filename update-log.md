@@ -5,7 +5,28 @@
 **This game is still in the early Beta stage, please expect many changes such as new features, bug fixes, buffs and nerfs.**
 
 **If you find an exploit, please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
- 
+
+
+### 0.0.81
+
+-  **Stock Market Trading Fee Adjustments**: Updated trading fees to better balance the market economy
+   -  Commission fee decreased from 1% to 0.4% of transaction value
+   -  Flat fee 20 Eurodollars per transaction
+   -  Example: Trading 10,000 ED worth of stock now incurs 40 ED (0.4%) + 20 ED (flat) = 60 ED total fees
+
+-  **Enhanced PVP Stock Mechanics**: Improved the stock theft system for more strategic gameplay
+   -  **Arrests (Citizen's Arrest)**: ACPD now has 100% chance to seize a percentage of criminal's stock holdings as asset forfeiture
+   -  **Mugging**: Stock theft is chance-based - attackers must successfully hack into victim's portfolio
+   -  **Lower Loss Rates**: Stock loss percentages are now lower than Eurodollar loss rates, making stocks a more secure wealth storage option
+   -  **Attacker Compensation**: Attackers receive the liquidated proceeds minus standard PvP tax
+
+**Please note that we will continue to monitor and adjust the specific values base on player feedback and situation**
+
+-  Updated stock market listing UI to show current stock profit/loss
+
+-  **Added Stock RealizedProfit Leaderboard**: New leaderboard category added to track players' realized stock market profits
+
+
 ### 0.0.80
 
 -  Stock Market is now live! You can now invest your Eurodollars in various corporations and trade stocks using real-time market data. Access the Stock Market through the CyberNet menu. For detailed information on how to trade, fees, risks, and tips, please read the comprehensive tutorial in CyberWiki.
