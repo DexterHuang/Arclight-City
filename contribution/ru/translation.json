@@ -5475,6 +5475,12 @@
 				"eng": "Mega Estate Shares",
 				"trans": "Акции Мега-Недвижимость"
 			}
+		},
+		"stockProfit": {
+			"name": {
+				"eng": "Stock Realized Profit",
+				"trans": "Реализованная прибыль по акциям"
+			}
 		}
 	},
 	"leaderboardTypes": {
@@ -8613,6 +8619,10 @@
 	},
 	"pvp": {
 		"mail": {
+			"arrestedStockLiquidation": {
+				"eng": "${playerName} have arrested you, ACPD have seized ${shares} shares of ${symbol}",
+				"trans": "Вы арестованы ${playerName}, ACPD конфисковала ${shares} акций ${symbol}."
+			},
 			"attackedStockLiquidation": {
 				"eng": "${playerName} hacked your portfolio and stole ${shares} shares of ${symbol}",
 				"trans": "${playerName} хакнул ваш портфель и украл ${shares} акций по тикеру ${symbol}"
@@ -10118,6 +10128,10 @@
 		"currentPrice": {
 			"eng": "Current Price",
 			"trans": "Текущая цена"
+		},
+		"dailyChange": {
+			"eng": "24h Change",
+			"trans": "Изменение за 24ч"
 		},
 		"invalidStock": {
 			"eng": "Invalid stock selected",

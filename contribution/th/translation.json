@@ -5475,6 +5475,12 @@
 				"eng": "Mega Estate Shares",
 				"trans": "หุ้นอสังหาริมทรัพย์เมกะ"
 			}
+		},
+		"stockProfit": {
+			"name": {
+				"eng": "Stock Realized Profit",
+				"trans": "ผลกำไรจากการขายหุ้น"
+			}
 		}
 	},
 	"leaderboardTypes": {
@@ -8613,6 +8619,10 @@
 	},
 	"pvp": {
 		"mail": {
+			"arrestedStockLiquidation": {
+				"eng": "${playerName} have arrested you, ACPD have seized ${shares} shares of ${symbol}",
+				"trans": "คุณถูก ${playerName} จับกุม, ACPD ได้ทำการยึด ${shares} หุ้น ${symbol}"
+			},
 			"attackedStockLiquidation": {
 				"eng": "${playerName} hacked your portfolio and stole ${shares} shares of ${symbol}",
 				"trans": "ผู้เล่น ${playerName} แฮกพอร์ตโฟลิโอของคุณและขโมยหุ้น ${shares} ของ ${symbol}"
@@ -10118,6 +10128,10 @@
 		"currentPrice": {
 			"eng": "Current Price",
 			"trans": "ราคาปัจจุบัน"
+		},
+		"dailyChange": {
+			"eng": "24h Change",
+			"trans": "24 ชม.ล่าสุด"
 		},
 		"invalidStock": {
 			"eng": "Invalid stock selected",

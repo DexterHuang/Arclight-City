@@ -5475,6 +5475,12 @@
 				"eng": "Mega Estate Shares",
 				"trans": "Saham Mega Estate"
 			}
+		},
+		"stockProfit": {
+			"name": {
+				"eng": "Stock Realized Profit",
+				"trans": "Keuntungan Saham Terealisasi"
+			}
 		}
 	},
 	"leaderboardTypes": {
@@ -8613,6 +8619,10 @@
 	},
 	"pvp": {
 		"mail": {
+			"arrestedStockLiquidation": {
+				"eng": "${playerName} have arrested you, ACPD have seized ${shares} shares of ${symbol}",
+				"trans": "${playerName} telah menangkap Anda, ACPD menyita ${shares} saham dari ${symbol}."
+			},
 			"attackedStockLiquidation": {
 				"eng": "${playerName} hacked your portfolio and stole ${shares} shares of ${symbol}",
 				"trans": "Pemain ${playerName} menghack portofolio Anda dan mencuri ${shares} saham dari ${symbol}"
@@ -10118,6 +10128,10 @@
 		"currentPrice": {
 			"eng": "Current Price",
 			"trans": "Harga Saat Ini"
+		},
+		"dailyChange": {
+			"eng": "24h Change",
+			"trans": "24 Jam Terakhir"
 		},
 		"invalidStock": {
 			"eng": "Invalid stock selected",

@@ -5475,6 +5475,12 @@
 				"eng": "Mega Estate Shares",
 				"trans": "메가 에스테이트 지분"
 			}
+		},
+		"stockProfit": {
+			"name": {
+				"eng": "Stock Realized Profit",
+				"trans": "주식 차익 실현"
+			}
 		}
 	},
 	"leaderboardTypes": {
@@ -8613,6 +8619,10 @@
 	},
 	"pvp": {
 		"mail": {
+			"arrestedStockLiquidation": {
+				"eng": "${playerName} have arrested you, ACPD have seized ${shares} shares of ${symbol}",
+				"trans": "${playerName}에게 체포당했으며, ACPD에서 ${symbol} ${shares}주를 몰수했습니다."
+			},
 			"attackedStockLiquidation": {
 				"eng": "${playerName} hacked your portfolio and stole ${shares} shares of ${symbol}",
 				"trans": "${playerName}이 포트폴리오에 해킹하여 ${shares} 주식의 ${symbol}을 빼앗았습니다."
@@ -10118,6 +10128,10 @@
 		"currentPrice": {
 			"eng": "Current Price",
 			"trans": "현재 가격"
+		},
+		"dailyChange": {
+			"eng": "24h Change",
+			"trans": "24시간 업데이트"
 		},
 		"invalidStock": {
 			"eng": "Invalid stock selected",

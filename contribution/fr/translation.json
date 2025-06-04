@@ -5475,6 +5475,12 @@
 				"eng": "Mega Estate Shares",
 				"trans": "Titres Immobiliers Mega"
 			}
+		},
+		"stockProfit": {
+			"name": {
+				"eng": "Stock Realized Profit",
+				"trans": "Gain Réalisé en Bourse"
+			}
 		}
 	},
 	"leaderboardTypes": {
@@ -8613,6 +8619,10 @@
 	},
 	"pvp": {
 		"mail": {
+			"arrestedStockLiquidation": {
+				"eng": "${playerName} have arrested you, ACPD have seized ${shares} shares of ${symbol}",
+				"trans": "${playerName} vous a appréhendé. L'ACPD a saisi ${shares} titres de ${symbol}."
+			},
 			"attackedStockLiquidation": {
 				"eng": "${playerName} hacked your portfolio and stole ${shares} shares of ${symbol}",
 				"trans": "${playerName} a hacké votre portefeuille et a volé ${shares} actions de ${symbol}"
@@ -10118,6 +10128,10 @@
 		"currentPrice": {
 			"eng": "Current Price",
 			"trans": "Prix actuel"
+		},
+		"dailyChange": {
+			"eng": "24h Change",
+			"trans": "Évolution sur 24h"
 		},
 		"invalidStock": {
 			"eng": "Invalid stock selected",

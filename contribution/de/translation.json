@@ -5475,6 +5475,12 @@
 				"eng": "Mega Estate Shares",
 				"trans": "Mega-Grundstücksanteile"
 			}
+		},
+		"stockProfit": {
+			"name": {
+				"eng": "Stock Realized Profit",
+				"trans": "Gewinn durch Aktienverkauf"
+			}
 		}
 	},
 	"leaderboardTypes": {
@@ -8613,6 +8619,10 @@
 	},
 	"pvp": {
 		"mail": {
+			"arrestedStockLiquidation": {
+				"eng": "${playerName} have arrested you, ACPD have seized ${shares} shares of ${symbol}",
+				"trans": "Sie wurden von ${playerName} verhaftet. Die ACPD hat ${shares} Anteile an ${symbol} sichergestellt."
+			},
 			"attackedStockLiquidation": {
 				"eng": "${playerName} hacked your portfolio and stole ${shares} shares of ${symbol}",
 				"trans": "Der Spieler ${playerName} hat dein Portfolio gehackt und ${shares} Anteile von ${symbol} gestohlen"
@@ -10118,6 +10128,10 @@
 		"currentPrice": {
 			"eng": "Current Price",
 			"trans": "Aktueller Preis"
+		},
+		"dailyChange": {
+			"eng": "24h Change",
+			"trans": "24-Stunden-Änderung"
 		},
 		"invalidStock": {
 			"eng": "Invalid stock selected",
