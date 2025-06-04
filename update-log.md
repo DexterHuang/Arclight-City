@@ -26,6 +26,8 @@
 
 -  **Added Stock RealizedProfit Leaderboard**: New leaderboard category added to track players' realized stock market profits
 
+-  Player asset tab now also shows unrealized profit/loss, the UI is slightly adjusted
+
 
 ### 0.0.80
 
