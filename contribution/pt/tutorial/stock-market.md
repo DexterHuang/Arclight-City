@@ -36,23 +36,51 @@ Todas as transações de ações incorrem em **dois tipos de taxas**:
 - **Ordens de venda**: Ambas as taxas são deduzidas do seu lucro (preço da ação - 0,4% - 20 ED).
 - Todas as taxas são calculadas automaticamente e exibidas antes de você confirmar qualquer negociação.
 
-**Exemplo**: Negociar ações no valor de 10.000 ED incorre em 40 ED (0,4%) + 20 ED (taxa fixa) = 60 ED de taxas totais.
+**Exemplo**: Negociar 10.000 ED em ações incorre em 40 ED (0,4%) + 20 ED (taxa fixa) = 60 ED de taxas totais.
 
-## Como os preços das ações são determinados?
+## Como o preço das ações é determinado?
 
-O mercado de ações do jogo acompanha o mercado de ações mundial real e combina vários tickers reais não divulgados para criar um mercado dinâmico e imprevisível. Isso é feito para que as pessoas não possam manipular o mercado comprando ou vendendo grandes quantidades de ações, semelhante a como o mercado de ações mundial real funciona; suas ordens de compra ou venda não poderão mover o preço da ação (a menos que você seja um bilionário).
+O mercado de ações do jogo acompanha o mercado de ações real e combina vários tickers reais não divulgados para criar um mercado dinâmico e imprevisível. Isso é feito para que as pessoas não possam manipular o mercado comprando ou vendendo grandes quantidades de ações, semelhante ao funcionamento do mercado de ações real; suas ordens de compra ou venda não poderão mover o preço da ação (a menos que você seja um bilionário).
 
 ## Como os preços de venda e compra são determinados?
 
-O preço é calculado em tempo real a partir dos tickers do mercado de ações mundial real. Devido à latência da rede, spread e outros fatores, o preço exibido na sua tela pode diferir ligeiramente do preço real do mercado no qual você comprará ou venderá.
+O preço é calculado em tempo real a partir dos tickers do mercado de ações real. Devido à latência da rede, spread e outros fatores, o preço exibido na sua tela pode diferir ligeiramente do preço real do mercado no qual você comprará ou venderá.
 
 ## Com que frequência os preços das ações são atualizados?
 
 O gráfico de ações é atualizado a cada **5 minutos** durante o horário normal de negociação. No entanto, compras e vendas utilizam preços de mercado em tempo real.
 
+## Meus negócios afetam os preços das ações?
+
+**Não, suas ordens individuais de compra e venda NÃO afetarão os preços das ações de forma alguma.**
+
+Isso é **intencional por design** por várias razões importantes:
+
+**Justiça e Anti-Manipulação:**
+
+- Queremos garantir um ambiente de negociação justo para todos os jogadores.
+- Nenhum jogador ou grupo pode manipular os preços das ações em seu benefício.
+- Impede esquemas de "pump and dump" ou manipulação coordenada do mercado.
+- Todos negociam aos mesmos preços determinados pelo mercado, independentemente do seu nível de riqueza.
+
+**Acompanhamento do Mercado Real:**
+
+- Os preços das ações são derivados de dados do mercado real e vários tickers não divulgados.
+- Isso cria uma imprevisibilidade genuína que não pode ser manipulada ou prevista.
+- Os movimentos do mercado refletem eventos e tendências econômicas reais, não as ações dos jogadores.
+- Garante que o sucesso dependa das habilidades de análise de mercado, não da manipulação do mercado.
+
+**Campo de Jogo Igualitário:**
+
+- Novos jogadores não são prejudicados por jogadores ricos controlando os preços.
+- O sucesso na negociação é baseado no tempo e no conhecimento do mercado, não na dominação financeira.
+- Mantém o equilíbrio competitivo entre todos os níveis de riqueza dos jogadores.
+
+Este sistema espelha como os mercados de ações reais funcionam para investidores individuais - a menos que você esteja negociando bilhões, suas ordens individuais não movem o preço de mercado.
+
 ## O que é Lucro/Prejuízo Não Realizado vs. Lucro/Prejuízo Realizado?
 
-- **Lucro/Prejuízo Não Realizado**: Seu lucro/prejuízo atual nas ações que você ainda possui. Isso muda à medida que os preços das ações flutuam e mostra ganhos/perdas potenciais.
+- **Lucro/Prejuízo Não Realizado**: Seu lucro/prejuízo atual em ações que você ainda possui. Isso muda à medida que os preços das ações flutuam e mostra ganhos/perdas potenciais.
 - **Lucro/Prejuízo Realizado**: Seu lucro/prejuízo real de negociações concluídas. Isso é atualizado quando você vende ações e representa seu desempenho comercial permanente.
 
 ## Quais informações posso ver na Página de Detalhes das Ações?
@@ -68,12 +96,12 @@ Para cada ação, você pode visualizar:
 
 ## O que devo saber sobre os riscos do mercado?
 
-- O mercado acompanha o mercado mundial real, portanto, **É** esperado que seja volátil de tempos em tempos; ele pode disparar para a lua ou cair no chão devido a eventos mundiais, notícias, etc.
-- Eu (Dexter) não tenho controle sobre o mercado mundial real e, portanto, não posso controlar o preço das ações do jogo também.
+- O mercado acompanha o mercado real, portanto, **É** esperado ser volátil de tempos em tempos; ele pode disparar para a lua ou cair no chão devido a eventos mundiais, notícias, etc.
+- Eu (Dexter) não tenho controle sobre o mercado real e, portanto, não posso controlar o preço das ações do jogo também.
 
 ## Como posso acompanhar o desempenho da minha carteira?
 
-A visão geral da sua carteira mostra:
+Sua visão geral da carteira mostra:
 
 - **Valor Total dos Ativos**: Valor atual de todas as suas participações em ações.
 - **Lucro/Prejuízo Não Realizado**: Ganhos/perdas atuais em posições ativas (verde para lucros, vermelho para perdas).
@@ -93,12 +121,12 @@ Quando você perde um confronto PvP, suas participações em ações podem estar
 **Prisões (Prisão Cidadã):**
 
 - **100% de chance**: A ACPD sempre apreenderá uma porcentagem de suas participações em ações quando você for preso.
-- **Confisco de bens**: As ações apreendidas são liquidadas imediatamente e o produto vai para o jogador que prendeu (menos o imposto PvP).
+- **Confisco de bens**: As ações apreendidas são liquidadas imediatamente e o produto é entregue ao jogador que fez a prisão (deduzido o imposto PvP).
 
 **Assalto:**
 
-- **Sistema baseado em chances**: O roubo de ações não é garantido - depende se o atacante conseguir hackear sua carteira com sucesso.
-- **Probabilidade mais baixa**: As tentativas de assalto têm uma chance menor de roubo bem-sucedido de ações em comparação com prisões.
+- **Sistema baseado em chances**: O roubo de ações não é garantido - depende se o atacante conseguir invadir sua carteira com sucesso.
+- **Probabilidade menor**: As tentativas de assalto têm uma probabilidade menor de roubo bem-sucedido de ações em comparação com prisões.
 
 **Mecânicas gerais para ambos:**
 

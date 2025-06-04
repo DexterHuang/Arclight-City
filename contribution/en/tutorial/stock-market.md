@@ -42,6 +42,30 @@ the price is calculated in realtime from the real world stock market tickers, du
 The stock chart is updated every **5 minutes** during normal trading. 
 however purchases and sales are realtime market prices.
 
+## Do my trades affect stock prices?
+**No, your individual buy and sell orders will NOT affect the stock prices in any way.**
+
+This is **intentional by design** for several important reasons:
+
+**Fairness & Anti-Manipulation:**
+- We want to ensure a fair trading environment for all players
+- No single player or group can manipulate stock prices for their advantage
+- Prevents "pump and dump" schemes or coordinated market manipulation
+- Everyone trades at the same market-driven prices regardless of their wealth level
+
+**Real-World Market Tracking:**
+- Stock prices are derived from real-world market data and multiple undisclosed tickers
+- This creates genuine unpredictability that cannot be gamed or predicted
+- Market movements reflect actual economic events and trends, not player actions
+- Ensures that success depends on market analysis skills, not market manipulation
+
+**Equal Playing Field:**
+- New players aren't disadvantaged by wealthy players controlling prices
+- Trading success is based on timing and market knowledge, not financial dominance
+- Maintains competitive balance across all player wealth levels
+
+This system mirrors how real-world stock markets work for individual retail investors - unless you're trading billions, your individual orders don't move the market price.
+
 ## What is Unrealized P&L vs Realized P&L?
 - **Unrealized P&L**: Your current profit/loss on stocks you still own. This changes as stock prices fluctuate and shows potential gains/losses.
 - **Realized P&L**: Your actual profit/loss from completed trades. This is updated when you sell stocks and represents your permanent trading performance.
