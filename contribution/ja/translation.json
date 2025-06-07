@@ -509,6 +509,40 @@
 			"trans": "Appleでサインインする"
 		}
 	},
+	"arrestPlayerModal": {
+		"arrestReward": {
+			"eng": "You will receive rewards from ACPD if you arrest them",
+			"trans": "彼らを逮捕した場合、ACPDから報酬がもらえます。"
+		},
+		"cancel": {
+			"eng": "ABORT",
+			"trans": "アボート"
+		},
+		"confirm": {
+			"eng": "EXECUTE ARREST",
+			"trans": "逮捕を実行"
+		},
+		"description": {
+			"eng": "You are about to arrest a wanted criminal.",
+			"trans": "あなたは指名手配犯を逮捕するところです。"
+		},
+		"level": {
+			"eng": "LVL ${level}",
+			"trans": "レベル ${level}"
+		},
+		"targetLabel": {
+			"eng": "WANTED CRIMINAL",
+			"trans": "指名手配犯"
+		},
+		"title": {
+			"eng": "ARREST WARRANT",
+			"trans": "逮捕状"
+		},
+		"wantedLevel": {
+			"eng": "WANTED LVL ${level}",
+			"trans": "ウォンテッド レベル ${level}"
+		}
+	},
 	"attackBar": {
 		"attack": {
 			"eng": "attack",
@@ -529,6 +563,56 @@
 		"instruction": {
 			"eng": "hold and release to attack",
 			"trans": "攻撃するには、長押ししてからリリースしてください。"
+		}
+	},
+	"attackPlayerModal": {
+		"acpdWarning": {
+			"eng": "ACPD will list you as wanted for attacking other players",
+			"trans": "ACPDはあなたを他のプレイヤーを攻撃したとして指名手配にします"
+		},
+		"aggressiveAction": {
+			"eng": "This is an aggressive action",
+			"trans": "これは攻撃的な行動です"
+		},
+		"cancel": {
+			"eng": "STAND DOWN",
+			"trans": "ステンドダウン"
+		},
+		"confirm": {
+			"eng": "ENGAGE COMBAT",
+			"trans": "戦闘開始"
+		},
+		"description": {
+			"eng": "You are about to engage in hostile combat. This action cannot be undone.",
+			"trans": "あなたは敵対戦闘に突入します。この操作は取り消しできません。"
+		},
+		"hostileWarning": {
+			"eng": "You will be marked as Hostile for attacking non-hostile players",
+			"trans": "敵対していないプレイヤーを攻撃すると、敵対者とみなされます"
+		},
+		"level": {
+			"eng": "LVL ${level}",
+			"trans": "レベル ${level}"
+		},
+		"riskDescription": {
+			"eng": "PVP combat has consequences. Make sure you're ready for the fight.",
+			"trans": "PVP戦闘には後果がある。戦闘に備えてください。"
+		},
+		"riskWarning": {
+			"eng": "HIGH RISK OPERATION",
+			"trans": "ハイリスクオペレーション"
+		},
+		"targetLabel": {
+			"eng": "TARGET",
+			"trans": "ターゲット"
+		},
+		"title": {
+			"eng": "INITIATE COMBAT",
+			"trans": "戦闘開始"
+		},
+		"wantedLevel": {
+			"eng": "WANTED",
+			"trans": "ターゲット"
 		}
 	},
 	"attribute": {
@@ -1900,16 +1984,6 @@
 		}
 	},
 	"combatHandler": {
-		"engagePlayerPopup": {
-			"description": {
-				"eng": "Are you sure you want to attack this player?",
-				"trans": "このプレイヤーを攻撃しますか？"
-			},
-			"title": {
-				"eng": "Attack Player",
-				"trans": "プレイヤーを攻撃する"
-			}
-		},
 		"notEnoughPsyche": {
 			"eng": "Your cyber-psychosis level is too high to engage in fights",
 			"trans": "あなたのサイバーサイコシスレベルは高すぎて戦闘に参加できません"
@@ -9071,6 +9145,10 @@
 			"alreadyTriedEscape": {
 				"eng": "You have already tried to escape in this turn",
 				"trans": "このターンで既に脱出を試みました"
+			},
+			"attemptedArrestOnNonWanted": {
+				"eng": "Target is no longer wanted",
+				"trans": "ターゲットはもう必要ない"
 			},
 			"cannotEngageAdmin": {
 				"eng": "You cannot engage this player",

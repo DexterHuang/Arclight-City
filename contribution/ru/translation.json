@@ -509,6 +509,40 @@
 			"trans": "Войти с помощью Apple"
 		}
 	},
+	"arrestPlayerModal": {
+		"arrestReward": {
+			"eng": "You will receive rewards from ACPD if you arrest them",
+			"trans": "Вы получите вознаграждение от ACPD, если арестуете их"
+		},
+		"cancel": {
+			"eng": "ABORT",
+			"trans": "ПРЕРВАТЬ"
+		},
+		"confirm": {
+			"eng": "EXECUTE ARREST",
+			"trans": "Выполнить задержание"
+		},
+		"description": {
+			"eng": "You are about to arrest a wanted criminal.",
+			"trans": "Вы готовы арестовать разыскиваемого преступника."
+		},
+		"level": {
+			"eng": "LVL ${level}",
+			"trans": "Ур. ${level}"
+		},
+		"targetLabel": {
+			"eng": "WANTED CRIMINAL",
+			"trans": "Преступник в розыске"
+		},
+		"title": {
+			"eng": "ARREST WARRANT",
+			"trans": "ОРДЕР НА ЗАДЕРЖАНИЕ"
+		},
+		"wantedLevel": {
+			"eng": "WANTED LVL ${level}",
+			"trans": "ЦЕЛЬ УРОВНЯ ${level}"
+		}
+	},
 	"attackBar": {
 		"attack": {
 			"eng": "attack",
@@ -529,6 +563,56 @@
 		"instruction": {
 			"eng": "hold and release to attack",
 			"trans": "удерживайте и отпускайте для атаки"
+		}
+	},
+	"attackPlayerModal": {
+		"acpdWarning": {
+			"eng": "ACPD will list you as wanted for attacking other players",
+			"trans": "ACPD зарегистрирует вас как разыскиваемого за нападение на других игроков"
+		},
+		"aggressiveAction": {
+			"eng": "This is an aggressive action",
+			"trans": "Это агрессивное действие"
+		},
+		"cancel": {
+			"eng": "STAND DOWN",
+			"trans": "Отступите"
+		},
+		"confirm": {
+			"eng": "ENGAGE COMBAT",
+			"trans": "Начать бой"
+		},
+		"description": {
+			"eng": "You are about to engage in hostile combat. This action cannot be undone.",
+			"trans": "Вы готовитесь к вражескому бою. Это действие нельзя отменить."
+		},
+		"hostileWarning": {
+			"eng": "You will be marked as Hostile for attacking non-hostile players",
+			"trans": "Вы будете помечены как враждебные за атаку на не враждебных игроков."
+		},
+		"level": {
+			"eng": "LVL ${level}",
+			"trans": "Ур. ${level}"
+		},
+		"riskDescription": {
+			"eng": "PVP combat has consequences. Make sure you're ready for the fight.",
+			"trans": "Бои PVP имеют последствия. Убедитесь, что вы готовы к битве."
+		},
+		"riskWarning": {
+			"eng": "HIGH RISK OPERATION",
+			"trans": "ОПАСНАЯ ОПЕРАЦИЯ"
+		},
+		"targetLabel": {
+			"eng": "TARGET",
+			"trans": "Цель"
+		},
+		"title": {
+			"eng": "INITIATE COMBAT",
+			"trans": "Запустить бой"
+		},
+		"wantedLevel": {
+			"eng": "WANTED",
+			"trans": "ЦЕЛЬ"
 		}
 	},
 	"attribute": {
@@ -1900,16 +1984,6 @@
 		}
 	},
 	"combatHandler": {
-		"engagePlayerPopup": {
-			"description": {
-				"eng": "Are you sure you want to attack this player?",
-				"trans": "Ты уверен, что хочешь атаковать этого игрока?"
-			},
-			"title": {
-				"eng": "Attack Player",
-				"trans": "Атаковать игрока"
-			}
-		},
 		"notEnoughPsyche": {
 			"eng": "Your cyber-psychosis level is too high to engage in fights",
 			"trans": "Ваш уровень киберпсихоза слишком высок для участия в боях"
@@ -9071,6 +9145,10 @@
 			"alreadyTriedEscape": {
 				"eng": "You have already tried to escape in this turn",
 				"trans": "Вы уже пытались сбежать в этом ходу"
+			},
+			"attemptedArrestOnNonWanted": {
+				"eng": "Target is no longer wanted",
+				"trans": "Цель больше не нужна"
 			},
 			"cannotEngageAdmin": {
 				"eng": "You cannot engage this player",

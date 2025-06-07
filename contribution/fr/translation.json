@@ -509,6 +509,40 @@
 			"trans": "Se connecter avec Apple"
 		}
 	},
+	"arrestPlayerModal": {
+		"arrestReward": {
+			"eng": "You will receive rewards from ACPD if you arrest them",
+			"trans": "Vous recevrez des récompenses de l'ACPD si vous les arrêtez."
+		},
+		"cancel": {
+			"eng": "ABORT",
+			"trans": "ARRÊTER"
+		},
+		"confirm": {
+			"eng": "EXECUTE ARREST",
+			"trans": "EXÉCUTER ARRÊT"
+		},
+		"description": {
+			"eng": "You are about to arrest a wanted criminal.",
+			"trans": "Vous êtes sur le point d'arrêter un criminel recherché."
+		},
+		"level": {
+			"eng": "LVL ${level}",
+			"trans": "NIV ${level}"
+		},
+		"targetLabel": {
+			"eng": "WANTED CRIMINAL",
+			"trans": "CRIMINEL RECHERCHÉ"
+		},
+		"title": {
+			"eng": "ARREST WARRANT",
+			"trans": "MANDAT D'ARRESTATION"
+		},
+		"wantedLevel": {
+			"eng": "WANTED LVL ${level}",
+			"trans": "RECHERCHÉ NIV ${level}"
+		}
+	},
 	"attackBar": {
 		"attack": {
 			"eng": "attack",
@@ -529,6 +563,56 @@
 		"instruction": {
 			"eng": "hold and release to attack",
 			"trans": "maintenez et relâchez pour attaquer"
+		}
+	},
+	"attackPlayerModal": {
+		"acpdWarning": {
+			"eng": "ACPD will list you as wanted for attacking other players",
+			"trans": "L'ACPD vous ajoutera à la liste des individus recherchés pour avoir attaqué d'autres joueurs."
+		},
+		"aggressiveAction": {
+			"eng": "This is an aggressive action",
+			"trans": "C'est une action agressive"
+		},
+		"cancel": {
+			"eng": "STAND DOWN",
+			"trans": "DÉGAGEZ"
+		},
+		"confirm": {
+			"eng": "ENGAGE COMBAT",
+			"trans": "Engager le combat"
+		},
+		"description": {
+			"eng": "You are about to engage in hostile combat. This action cannot be undone.",
+			"trans": "Vous allez engager un combat hostile. Cette action ne peut pas être annulée."
+		},
+		"hostileWarning": {
+			"eng": "You will be marked as Hostile for attacking non-hostile players",
+			"trans": "Vous serez marqué comme hostile pour avoir attaqué des joueurs non hostiles."
+		},
+		"level": {
+			"eng": "LVL ${level}",
+			"trans": "NIV ${level}"
+		},
+		"riskDescription": {
+			"eng": "PVP combat has consequences. Make sure you're ready for the fight.",
+			"trans": "Les combats PVP ont des répercussions. Soyez prêt pour le combat."
+		},
+		"riskWarning": {
+			"eng": "HIGH RISK OPERATION",
+			"trans": "OPÉRATION À HAUT RISQUE"
+		},
+		"targetLabel": {
+			"eng": "TARGET",
+			"trans": "Cible"
+		},
+		"title": {
+			"eng": "INITIATE COMBAT",
+			"trans": "Lancer le Combat"
+		},
+		"wantedLevel": {
+			"eng": "WANTED",
+			"trans": "RECHERCHÉ"
 		}
 	},
 	"attribute": {
@@ -1900,16 +1984,6 @@
 		}
 	},
 	"combatHandler": {
-		"engagePlayerPopup": {
-			"description": {
-				"eng": "Are you sure you want to attack this player?",
-				"trans": "Êtes-vous sûr de vouloir attaquer ce joueur ?"
-			},
-			"title": {
-				"eng": "Attack Player",
-				"trans": "Attaquer le joueur"
-			}
-		},
 		"notEnoughPsyche": {
 			"eng": "Your cyber-psychosis level is too high to engage in fights",
 			"trans": "Votre niveau de cyberpsychose est trop élevé pour vous engager dans des combats"
@@ -9071,6 +9145,10 @@
 			"alreadyTriedEscape": {
 				"eng": "You have already tried to escape in this turn",
 				"trans": "Vous avez déjà essayé de vous échapper ce tour-ci"
+			},
+			"attemptedArrestOnNonWanted": {
+				"eng": "Target is no longer wanted",
+				"trans": "La cible n'est plus recherchée"
 			},
 			"cannotEngageAdmin": {
 				"eng": "You cannot engage this player",

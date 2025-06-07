@@ -509,6 +509,40 @@
 			"trans": "Mit Apple anmelden"
 		}
 	},
+	"arrestPlayerModal": {
+		"arrestReward": {
+			"eng": "You will receive rewards from ACPD if you arrest them",
+			"trans": "Sie erhalten Belohnungen von ACPD, wenn Sie sie verhaften."
+		},
+		"cancel": {
+			"eng": "ABORT",
+			"trans": "ABBRECHEN"
+		},
+		"confirm": {
+			"eng": "EXECUTE ARREST",
+			"trans": "Verhaftung durchführen"
+		},
+		"description": {
+			"eng": "You are about to arrest a wanted criminal.",
+			"trans": "Du wirst einen gesuchten Verbrecher festnehmen."
+		},
+		"level": {
+			"eng": "LVL ${level}",
+			"trans": "LVL ${level}"
+		},
+		"targetLabel": {
+			"eng": "WANTED CRIMINAL",
+			"trans": "GESUCHTER KRIMINELLER"
+		},
+		"title": {
+			"eng": "ARREST WARRANT",
+			"trans": "Haftbefehl"
+		},
+		"wantedLevel": {
+			"eng": "WANTED LVL ${level}",
+			"trans": "GESUCHT LVL ${level}"
+		}
+	},
 	"attackBar": {
 		"attack": {
 			"eng": "attack",
@@ -529,6 +563,56 @@
 		"instruction": {
 			"eng": "hold and release to attack",
 			"trans": "Halten und loslassen zum Angreifen"
+		}
+	},
+	"attackPlayerModal": {
+		"acpdWarning": {
+			"eng": "ACPD will list you as wanted for attacking other players",
+			"trans": "ACPD setzt Sie auf die Gesuchtsliste, weil Sie andere Spieler angegriffen haben."
+		},
+		"aggressiveAction": {
+			"eng": "This is an aggressive action",
+			"trans": "Das ist eine aggressive Aktion"
+		},
+		"cancel": {
+			"eng": "STAND DOWN",
+			"trans": "Stehen bleiben"
+		},
+		"confirm": {
+			"eng": "ENGAGE COMBAT",
+			"trans": "Kampf starten"
+		},
+		"description": {
+			"eng": "You are about to engage in hostile combat. This action cannot be undone.",
+			"trans": "Sie sind dabei, in einen feindlichen Kampf einzutreten. Dieser Schritt lässt sich nicht rückgängig machen."
+		},
+		"hostileWarning": {
+			"eng": "You will be marked as Hostile for attacking non-hostile players",
+			"trans": "Sie werden als Feindlich markiert, wenn Sie nicht-feindliche Spieler angreifen."
+		},
+		"level": {
+			"eng": "LVL ${level}",
+			"trans": "LVL ${level}"
+		},
+		"riskDescription": {
+			"eng": "PVP combat has consequences. Make sure you're ready for the fight.",
+			"trans": "PVP-Kampf hat Folgen. Sei bereit für die Schlacht."
+		},
+		"riskWarning": {
+			"eng": "HIGH RISK OPERATION",
+			"trans": "HOHE RISIKO-OPERATION"
+		},
+		"targetLabel": {
+			"eng": "TARGET",
+			"trans": "Ziel"
+		},
+		"title": {
+			"eng": "INITIATE COMBAT",
+			"trans": "Kampf starten"
+		},
+		"wantedLevel": {
+			"eng": "WANTED",
+			"trans": "GESUCHT"
 		}
 	},
 	"attribute": {
@@ -1900,16 +1984,6 @@
 		}
 	},
 	"combatHandler": {
-		"engagePlayerPopup": {
-			"description": {
-				"eng": "Are you sure you want to attack this player?",
-				"trans": "Willst du diesen Spieler wirklich angreifen?"
-			},
-			"title": {
-				"eng": "Attack Player",
-				"trans": "Spieler angreifen"
-			}
-		},
 		"notEnoughPsyche": {
 			"eng": "Your cyber-psychosis level is too high to engage in fights",
 			"trans": "Dein Cyberpsychose-Level ist zu hoch, um an Kämpfen teilzunehmen"
@@ -9071,6 +9145,10 @@
 			"alreadyTriedEscape": {
 				"eng": "You have already tried to escape in this turn",
 				"trans": "Du hast in diesem Zug bereits versucht zu fliehen"
+			},
+			"attemptedArrestOnNonWanted": {
+				"eng": "Target is no longer wanted",
+				"trans": "Ziel ist nicht mehr gewünscht"
 			},
 			"cannotEngageAdmin": {
 				"eng": "You cannot engage this player",

@@ -509,6 +509,40 @@
 			"trans": "使用蘋果帳號登入"
 		}
 	},
+	"arrestPlayerModal": {
+		"arrestReward": {
+			"eng": "You will receive rewards from ACPD if you arrest them",
+			"trans": "如果你逮捕他們，你將從ACPD獲得獎勵。"
+		},
+		"cancel": {
+			"eng": "ABORT",
+			"trans": "中止"
+		},
+		"confirm": {
+			"eng": "EXECUTE ARREST",
+			"trans": "執行逮捕"
+		},
+		"description": {
+			"eng": "You are about to arrest a wanted criminal.",
+			"trans": "你即將逮捕一名通緝犯。"
+		},
+		"level": {
+			"eng": "LVL ${level}",
+			"trans": "等級 ${level}"
+		},
+		"targetLabel": {
+			"eng": "WANTED CRIMINAL",
+			"trans": "通緝犯"
+		},
+		"title": {
+			"eng": "ARREST WARRANT",
+			"trans": "逮捕令"
+		},
+		"wantedLevel": {
+			"eng": "WANTED LVL ${level}",
+			"trans": "通緝等級 ${level}"
+		}
+	},
 	"attackBar": {
 		"attack": {
 			"eng": "attack",
@@ -529,6 +563,56 @@
 		"instruction": {
 			"eng": "hold and release to attack",
 			"trans": "按住並釋放以進行攻擊"
+		}
+	},
+	"attackPlayerModal": {
+		"acpdWarning": {
+			"eng": "ACPD will list you as wanted for attacking other players",
+			"trans": "ACPD將您列為通緝犯，因攻擊其他玩家。"
+		},
+		"aggressiveAction": {
+			"eng": "This is an aggressive action",
+			"trans": "這是一個具攻擊性的行動"
+		},
+		"cancel": {
+			"eng": "STAND DOWN",
+			"trans": "遵從指令"
+		},
+		"confirm": {
+			"eng": "ENGAGE COMBAT",
+			"trans": "進入戰鬥"
+		},
+		"description": {
+			"eng": "You are about to engage in hostile combat. This action cannot be undone.",
+			"trans": "您即將進入敵對戰鬥。此行動無法撤回。"
+		},
+		"hostileWarning": {
+			"eng": "You will be marked as Hostile for attacking non-hostile players",
+			"trans": "攻擊非敵對玩家將被標記為敵對。"
+		},
+		"level": {
+			"eng": "LVL ${level}",
+			"trans": "等級 ${level}"
+		},
+		"riskDescription": {
+			"eng": "PVP combat has consequences. Make sure you're ready for the fight.",
+			"trans": "PVP戰鬥有後果。請確保你已準備好迎戰。"
+		},
+		"riskWarning": {
+			"eng": "HIGH RISK OPERATION",
+			"trans": "高風險作戰"
+		},
+		"targetLabel": {
+			"eng": "TARGET",
+			"trans": "目標"
+		},
+		"title": {
+			"eng": "INITIATE COMBAT",
+			"trans": "啟動戰鬥"
+		},
+		"wantedLevel": {
+			"eng": "WANTED",
+			"trans": "通緝"
 		}
 	},
 	"attribute": {
@@ -1900,16 +1984,6 @@
 		}
 	},
 	"combatHandler": {
-		"engagePlayerPopup": {
-			"description": {
-				"eng": "Are you sure you want to attack this player?",
-				"trans": "你確定要攻擊這個玩家嗎？"
-			},
-			"title": {
-				"eng": "Attack Player",
-				"trans": "攻擊玩家"
-			}
-		},
 		"notEnoughPsyche": {
 			"eng": "Your cyber-psychosis level is too high to engage in fights",
 			"trans": "你的電馭狂躁症程度過高，無法參與戰鬥"
@@ -9071,6 +9145,10 @@
 			"alreadyTriedEscape": {
 				"eng": "You have already tried to escape in this turn",
 				"trans": "這回合您已經試過逃脫了"
+			},
+			"attemptedArrestOnNonWanted": {
+				"eng": "Target is no longer wanted",
+				"trans": "目標已不再被追蹤"
 			},
 			"cannotEngageAdmin": {
 				"eng": "You cannot engage this player",

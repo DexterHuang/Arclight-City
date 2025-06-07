@@ -509,6 +509,40 @@
 			"trans": "애플로 로그인하기"
 		}
 	},
+	"arrestPlayerModal": {
+		"arrestReward": {
+			"eng": "You will receive rewards from ACPD if you arrest them",
+			"trans": "그들을 체포하면 ACPD에서 보상을 받게 됩니다."
+		},
+		"cancel": {
+			"eng": "ABORT",
+			"trans": "취소"
+		},
+		"confirm": {
+			"eng": "EXECUTE ARREST",
+			"trans": "체포 실행"
+		},
+		"description": {
+			"eng": "You are about to arrest a wanted criminal.",
+			"trans": "수배자를 체포할 예정입니다."
+		},
+		"level": {
+			"eng": "LVL ${level}",
+			"trans": "Lv. ${level}"
+		},
+		"targetLabel": {
+			"eng": "WANTED CRIMINAL",
+			"trans": "추적 중인 범죄자"
+		},
+		"title": {
+			"eng": "ARREST WARRANT",
+			"trans": "체포 영장"
+		},
+		"wantedLevel": {
+			"eng": "WANTED LVL ${level}",
+			"trans": "사건 레벨 ${level}"
+		}
+	},
 	"attackBar": {
 		"attack": {
 			"eng": "attack",
@@ -529,6 +563,56 @@
 		"instruction": {
 			"eng": "hold and release to attack",
 			"trans": "누르다가 놓아서 공격"
+		}
+	},
+	"attackPlayerModal": {
+		"acpdWarning": {
+			"eng": "ACPD will list you as wanted for attacking other players",
+			"trans": "ACPD가 당신을 다른 플레이어를 공격한 죄로 추적 대상에 등록합니다."
+		},
+		"aggressiveAction": {
+			"eng": "This is an aggressive action",
+			"trans": "이것은 공격적인 행동입니다."
+		},
+		"cancel": {
+			"eng": "STAND DOWN",
+			"trans": "중지하라"
+		},
+		"confirm": {
+			"eng": "ENGAGE COMBAT",
+			"trans": "전투 시작"
+		},
+		"description": {
+			"eng": "You are about to engage in hostile combat. This action cannot be undone.",
+			"trans": "적대적 전투를 시작합니다. 이 행동은 되돌릴 수 없습니다."
+		},
+		"hostileWarning": {
+			"eng": "You will be marked as Hostile for attacking non-hostile players",
+			"trans": "적대적이지 않은 플레이어를 공격하면 적대 상태로 표시됩니다."
+		},
+		"level": {
+			"eng": "LVL ${level}",
+			"trans": "Lv. ${level}"
+		},
+		"riskDescription": {
+			"eng": "PVP combat has consequences. Make sure you're ready for the fight.",
+			"trans": "PVP 전투에는 대가가 있다. 싸움에 완벽하게 준비해라."
+		},
+		"riskWarning": {
+			"eng": "HIGH RISK OPERATION",
+			"trans": "고위험 작전"
+		},
+		"targetLabel": {
+			"eng": "TARGET",
+			"trans": "타겟"
+		},
+		"title": {
+			"eng": "INITIATE COMBAT",
+			"trans": "전투 시작"
+		},
+		"wantedLevel": {
+			"eng": "WANTED",
+			"trans": "타겟"
 		}
 	},
 	"attribute": {
@@ -1900,16 +1984,6 @@
 		}
 	},
 	"combatHandler": {
-		"engagePlayerPopup": {
-			"description": {
-				"eng": "Are you sure you want to attack this player?",
-				"trans": "이 플레이어를 공격하시겠습니까?"
-			},
-			"title": {
-				"eng": "Attack Player",
-				"trans": "플레이어 공격하기"
-			}
-		},
 		"notEnoughPsyche": {
 			"eng": "Your cyber-psychosis level is too high to engage in fights",
 			"trans": "전투에 참여하기에 사이버 싸이코 레벨이 너무 높습니다"
@@ -9071,6 +9145,10 @@
 			"alreadyTriedEscape": {
 				"eng": "You have already tried to escape in this turn",
 				"trans": "이번 턴에 이미 탈출을 시도했습니다"
+			},
+			"attemptedArrestOnNonWanted": {
+				"eng": "Target is no longer wanted",
+				"trans": "타겟은 더 이상 필요하지 않음"
 			},
 			"cannotEngageAdmin": {
 				"eng": "You cannot engage this player",

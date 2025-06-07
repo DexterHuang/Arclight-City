@@ -509,6 +509,40 @@
 			"trans": "เข้าสู่ระบบด้วย Apple"
 		}
 	},
+	"arrestPlayerModal": {
+		"arrestReward": {
+			"eng": "You will receive rewards from ACPD if you arrest them",
+			"trans": "คุณจะได้รับโบนัสจาก ACPD หากคุณจับพวกเขา"
+		},
+		"cancel": {
+			"eng": "ABORT",
+			"trans": "ยกเลิก"
+		},
+		"confirm": {
+			"eng": "EXECUTE ARREST",
+			"trans": "ดำเนินการจับกุม"
+		},
+		"description": {
+			"eng": "You are about to arrest a wanted criminal.",
+			"trans": "คุณกำลังจะจับผู้ต้องหาที่มีหมายจับ"
+		},
+		"level": {
+			"eng": "LVL ${level}",
+			"trans": "เลเวล ${level}"
+		},
+		"targetLabel": {
+			"eng": "WANTED CRIMINAL",
+			"trans": "เป้าหมายอาชญากร"
+		},
+		"title": {
+			"eng": "ARREST WARRANT",
+			"trans": "หมายจับ"
+		},
+		"wantedLevel": {
+			"eng": "WANTED LVL ${level}",
+			"trans": "เลเวล ต้องการ"
+		}
+	},
 	"attackBar": {
 		"attack": {
 			"eng": "attack",
@@ -529,6 +563,56 @@
 		"instruction": {
 			"eng": "hold and release to attack",
 			"trans": "ค้างไว้แล้วปล่อยเพื่อโจมตี"
+		}
+	},
+	"attackPlayerModal": {
+		"acpdWarning": {
+			"eng": "ACPD will list you as wanted for attacking other players",
+			"trans": "ACPD จะระบุคุณเป็นผู้ต้องการเนื่องจากการโจมตีผู้เล่นคนอื่น"
+		},
+		"aggressiveAction": {
+			"eng": "This is an aggressive action",
+			"trans": "นี่คือการกระทำที่ก้าวร้าว"
+		},
+		"cancel": {
+			"eng": "STAND DOWN",
+			"trans": "ยืนลง"
+		},
+		"confirm": {
+			"eng": "ENGAGE COMBAT",
+			"trans": "เปิดฉากสงคราม"
+		},
+		"description": {
+			"eng": "You are about to engage in hostile combat. This action cannot be undone.",
+			"trans": "คุณกำลังจะเข้าสู่การรบอย่างรุนแรง การดำเนินการนี้ไม่สามารถย้อนกลับได้"
+		},
+		"hostileWarning": {
+			"eng": "You will be marked as Hostile for attacking non-hostile players",
+			"trans": "คุณจะถูกจัดว่าเป็นศัตรูหากโจมตีผู้เล่นที่ไม่ใช่ศัตรู"
+		},
+		"level": {
+			"eng": "LVL ${level}",
+			"trans": "เลเวล ${level}"
+		},
+		"riskDescription": {
+			"eng": "PVP combat has consequences. Make sure you're ready for the fight.",
+			"trans": "การต่อสู้ PVP มีผลลัพธ์ที่ร้ายแรง ให้แน่ใจว่าคุณพร้อมสำหรับการต่อสู้"
+		},
+		"riskWarning": {
+			"eng": "HIGH RISK OPERATION",
+			"trans": "ปฏิบัติการเสี่ยงสูง"
+		},
+		"targetLabel": {
+			"eng": "TARGET",
+			"trans": "เป้าหมาย"
+		},
+		"title": {
+			"eng": "INITIATE COMBAT",
+			"trans": "เปิดฉากการต่อสู้"
+		},
+		"wantedLevel": {
+			"eng": "WANTED",
+			"trans": "ต้องการตัว"
 		}
 	},
 	"attribute": {
@@ -1900,16 +1984,6 @@
 		}
 	},
 	"combatHandler": {
-		"engagePlayerPopup": {
-			"description": {
-				"eng": "Are you sure you want to attack this player?",
-				"trans": "แน่ใจนะว่าจะเล่นงานผู้เล่นคนนี้?"
-			},
-			"title": {
-				"eng": "Attack Player",
-				"trans": "บวกผู้เล่น"
-			}
-		},
 		"notEnoughPsyche": {
 			"eng": "Your cyber-psychosis level is too high to engage in fights",
 			"trans": "ค่าจิตหลอนทะลุเพดาน! เข้าบู๊ไม่ได้"
@@ -9071,6 +9145,10 @@
 			"alreadyTriedEscape": {
 				"eng": "You have already tried to escape in this turn",
 				"trans": "คุณลองหนีไปแล้วในเทิร์นนี้"
+			},
+			"attemptedArrestOnNonWanted": {
+				"eng": "Target is no longer wanted",
+				"trans": "เป้าหมายถูกยกเลิกแล้ว"
 			},
 			"cannotEngageAdmin": {
 				"eng": "You cannot engage this player",

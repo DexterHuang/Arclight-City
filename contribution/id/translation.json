@@ -509,6 +509,40 @@
 			"trans": "Masuk dengan Apple"
 		}
 	},
+	"arrestPlayerModal": {
+		"arrestReward": {
+			"eng": "You will receive rewards from ACPD if you arrest them",
+			"trans": "Anda akan menerima hadiah dari ACPD jika Anda menangkap mereka."
+		},
+		"cancel": {
+			"eng": "ABORT",
+			"trans": "BATAL"
+		},
+		"confirm": {
+			"eng": "EXECUTE ARREST",
+			"trans": "Laksanakan Penangkapan"
+		},
+		"description": {
+			"eng": "You are about to arrest a wanted criminal.",
+			"trans": "Anda akan segera menangkap orang yang diburu."
+		},
+		"level": {
+			"eng": "LVL ${level}",
+			"trans": "LVL ${level}"
+		},
+		"targetLabel": {
+			"eng": "WANTED CRIMINAL",
+			"trans": "PEMILIK KEJAHATAN YANG DICARI"
+		},
+		"title": {
+			"eng": "ARREST WARRANT",
+			"trans": "Wajib Tangkap"
+		},
+		"wantedLevel": {
+			"eng": "WANTED LVL ${level}",
+			"trans": "DIBUTUHKAN LVL ${level}"
+		}
+	},
 	"attackBar": {
 		"attack": {
 			"eng": "attack",
@@ -529,6 +563,56 @@
 		"instruction": {
 			"eng": "hold and release to attack",
 			"trans": "Tahan dan lepaskan untuk menyerang"
+		}
+	},
+	"attackPlayerModal": {
+		"acpdWarning": {
+			"eng": "ACPD will list you as wanted for attacking other players",
+			"trans": "ACPD akan mendaftarkan Anda sebagai yang diburu karena menyerang pemain lain"
+		},
+		"aggressiveAction": {
+			"eng": "This is an aggressive action",
+			"trans": "Ini adalah aksi agresif"
+		},
+		"cancel": {
+			"eng": "STAND DOWN",
+			"trans": "BERHENTI"
+		},
+		"confirm": {
+			"eng": "ENGAGE COMBAT",
+			"trans": "MULAI PERTEMPURAN"
+		},
+		"description": {
+			"eng": "You are about to engage in hostile combat. This action cannot be undone.",
+			"trans": "Anda akan terlibat dalam pertempuran musuh. Tindakan ini tidak dapat dibatalkan."
+		},
+		"hostileWarning": {
+			"eng": "You will be marked as Hostile for attacking non-hostile players",
+			"trans": "Anda akan ditandai sebagai Musuh karena menyerang pemain yang tidak bersifat musuh."
+		},
+		"level": {
+			"eng": "LVL ${level}",
+			"trans": "LVL ${level}"
+		},
+		"riskDescription": {
+			"eng": "PVP combat has consequences. Make sure you're ready for the fight.",
+			"trans": "Pertarungan PVP memiliki konsekuensi. Pastikan kamu siap menghadapi pertarungan."
+		},
+		"riskWarning": {
+			"eng": "HIGH RISK OPERATION",
+			"trans": "OPERASI BERISIKO TINGGI"
+		},
+		"targetLabel": {
+			"eng": "TARGET",
+			"trans": "TARGET"
+		},
+		"title": {
+			"eng": "INITIATE COMBAT",
+			"trans": "Mulai Pertarungan"
+		},
+		"wantedLevel": {
+			"eng": "WANTED",
+			"trans": "DICARI"
 		}
 	},
 	"attribute": {
@@ -1900,16 +1984,6 @@
 		}
 	},
 	"combatHandler": {
-		"engagePlayerPopup": {
-			"description": {
-				"eng": "Are you sure you want to attack this player?",
-				"trans": "Kamu yakin ingin menyerang pemain ini?"
-			},
-			"title": {
-				"eng": "Attack Player",
-				"trans": "Serang Pemain"
-			}
-		},
 		"notEnoughPsyche": {
 			"eng": "Your cyber-psychosis level is too high to engage in fights",
 			"trans": "Tingkat psikosis siber Anda terlalu tinggi untuk terlibat dalam pertarungan"
@@ -9071,6 +9145,10 @@
 			"alreadyTriedEscape": {
 				"eng": "You have already tried to escape in this turn",
 				"trans": "Anda telah mencoba melarikan diri di giliran ini"
+			},
+			"attemptedArrestOnNonWanted": {
+				"eng": "Target is no longer wanted",
+				"trans": "Tujuan tidak lagi diinginkan"
 			},
 			"cannotEngageAdmin": {
 				"eng": "You cannot engage this player",
