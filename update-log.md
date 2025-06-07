@@ -29,6 +29,14 @@
 -  Player asset tab now also shows unrealized profit/loss, the UI is slightly adjusted
 
 
+### 0.0.81
+
+-  Added confirmation popup when attacking or arresting players, showing player details and warnings to prevent accidental attacks
+-  Improved enemy pvp initialization UI
+-  Fixed issue with leaderboard not loading correctly
+-  Fixed issue with trying to arrest a player but that player has was already arrested resulting you getting flagged as hostile
+
+
 ### 0.0.80
 
 -  Stock Market is now live! You can now invest your Eurodollars in various corporations and trade stocks using real-time market data. Access the Stock Market through the CyberNet menu. For detailed information on how to trade, fees, risks, and tips, please read the comprehensive tutorial in CyberWiki.
