@@ -1,5 +1,37 @@
 
-## What does AFK tasks do?
+## What are AFK Tasks?
+AFK Tasks are tasks you can complete in the background for rewards. When starting an AFK Task, you can choose to complete it up to 16 times, after which you can click 'complete' to receive your rewards.
+When you complete an AFK Task, you get rewards corresponding to the task, and certain AFK Tasks will give you job experience as well. Starting an AFK Task costs 4 cyber psychosis (and an additional 4 for each repitition).
+
+## What is Job Level?
+When you complete a Scavenging, Thieving, Bodyguard, or Extraction AFK Task, you receive experience for your corresponding Job Level. The higher your Job Level, the more EuroDollars you will gain from completing that AFK Task. Your job level also increases the corresponding attribute by one for each level. The corresponding attributes are as follows:
+Scavenging: `Vitality`
+Thieving: `Dexterity`
+Bodyguard: `Strength`
+Medical: `Intelligence`
+
+You can view your Job Levels by navigating to `Profile` -> `Job`.
+Note that your Job Level cannot pass your Character Level.
+
+## How do I increase my AFK Task slots?
+In the AFK Tasks screen, you can click upgrade to buy more AFK Task slots, up to a total of five.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 AFK tasks are tasks you can do in the background, you just need to wait a certain amount of time and when the task is completed, you simply click `Complete` to receive your rewards.
 
 ## Jobs and AFK tasks
