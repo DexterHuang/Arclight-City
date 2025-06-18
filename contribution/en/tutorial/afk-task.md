@@ -16,3 +16,6 @@ Note that your Job Levels cannot pass your Character Level.
 
 ## How do I increase my AFK Task slots?
 In the AFK Tasks screen, you can click `upgrade` to buy more AFK Task slots, up to a total of five.
+
+## What is Gang Maintenance?
+See the `Gang Upkeep` CyberWiki page.
