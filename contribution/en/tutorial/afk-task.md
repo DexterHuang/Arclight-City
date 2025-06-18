@@ -12,7 +12,7 @@ Bodyguard: `Strength` <br/>
 Medical: `Intelligence` <br/>
 <br/>
 You can view your Job Levels by navigating to `Profile` -> `Job`. <br/>
-Note that your Job Level cannot pass your Character Level.
+Note that your Job Levels cannot pass your Character Level.
 
 ## How do I increase my AFK Task slots?
 In the AFK Tasks screen, you can click upgrade to buy more AFK Task slots, up to a total of five.
