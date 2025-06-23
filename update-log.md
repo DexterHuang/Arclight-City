@@ -6,8 +6,11 @@
 
 **If you find an exploit, please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
+### 0.0.83
 
-### 0.0.81
+-  Added confirmation popup when trying to leave gang from gang details page
+
+### 0.0.82
 
 -  **Stock Market Trading Fee Adjustments**: Updated trading fees to better balance the market economy
    -  Commission fee decreased from 1% to 0.4% of transaction value
@@ -27,10 +30,6 @@
 -  **Added Stock RealizedProfit Leaderboard**: New leaderboard category added to track players' realized stock market profits
 
 -  Player asset tab now also shows unrealized profit/loss, the UI is slightly adjusted
-
-### 0.0.82
-
--  Added confirmation popup when trying to leave gang from gang details page
 
 ### 0.0.81
 
