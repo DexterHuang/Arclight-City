@@ -28,6 +28,9 @@
 
 -  Player asset tab now also shows unrealized profit/loss, the UI is slightly adjusted
 
+### 0.0.82
+
+-  Added confirmation popup when trying to leave gang from gang details page
 
 ### 0.0.81
 
