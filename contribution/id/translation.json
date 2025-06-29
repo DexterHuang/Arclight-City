@@ -387,6 +387,10 @@
 	},
 	"apartmentPage": {
 		"kitchenButton": {
+			"error": {
+				"eng": "You must be the owner of the apartment to access the kitchen",
+				"trans": "Dapur hanya dapat diakses oleh pemilik apartemen"
+			},
 			"title": {
 				"eng": "kitchen",
 				"trans": "Dapur"
@@ -1769,6 +1773,16 @@
 		"leaveClan": {
 			"eng": "leave gang",
 			"trans": "Tinggalkan geng"
+		},
+		"leaveClanModal": {
+			"description": {
+				"eng": "Are you sure you want to leave this gang?",
+				"trans": "Yakin mau keluar dari geng ini?"
+			},
+			"title": {
+				"eng": "Leave gang",
+				"trans": "Keluar geng"
+			}
 		},
 		"makePrivate": {
 			"eng": "Make Private",
@@ -3279,6 +3293,150 @@
 			"trans": "Top-up Pertama Kali Nilai Ganda"
 		}
 	},
+	"followLottery": {
+		"error": {
+			"invalidPrimeTargetIndex": {
+				"eng": "Invalid prime target index",
+				"trans": "Indeks sasaran utama tidak valid"
+			},
+			"noPrimeTargetSelected": {
+				"eng": "Please select a prime target first",
+				"trans": "Silakan pilih target utama terlebih dahulu"
+			},
+			"notEnoughCurrency": {
+				"eng": "Insufficient ${currency}",
+				"trans": "Tidak cukup ${currency}"
+			}
+		}
+	},
+	"followUpLottery": {
+		"cyberCache": {
+			"displayName": {
+				"eng": "Cyber Cache",
+				"trans": "Penyimpanan Siber"
+			}
+		},
+		"description": {
+			"eng": "Follow-Up Lottery",
+			"trans": "Lotere Tambahan"
+		},
+		"main": {
+			"currentTarget": {
+				"eng": "Current Prime Target",
+				"trans": "Sasaran Prioritas Sekarang"
+			},
+			"normalRewards": {
+				"eng": "Normal Rewards",
+				"trans": "Reward Biasa"
+			},
+			"resetPrimeTarget": {
+				"eng": "RESET",
+				"trans": "Reset"
+			},
+			"roll": {
+				"eng": "ROLL",
+				"trans": "Lempar"
+			},
+			"rolling": {
+				"eng": "ROLLING...",
+				"trans": "Diproses..."
+			},
+			"selectPrimeTarget": {
+				"eng": "Select Prime Target",
+				"trans": "Pilih Sasaran Utama"
+			},
+			"targetSelected": {
+				"eng": "Target Selected",
+				"trans": "Target terpilih"
+			},
+			"tierProgress": {
+				"eng": "TIER PROGRESS",
+				"trans": "Progres Tingkat"
+			}
+		},
+		"resetConfirm": {
+			"afterReset": {
+				"eng": "After Reset",
+				"trans": "Setelah Reset"
+			},
+			"currentProgress": {
+				"eng": "Current Progress",
+				"trans": "Progres Sekarang"
+			},
+			"description": {
+				"eng": "You can choose a new Prime Target after resetting, but you will lose your current progress.",
+				"trans": "Anda dapat memilih Prime Target baru setelah mereset, tetapi Anda akan kehilangan kemajuan saat ini."
+			},
+			"title": {
+				"eng": "Reset Prime Target?",
+				"trans": "Atur Ulang Target Utama?"
+			}
+		},
+		"result": {
+			"continue": {
+				"eng": "CONTINUE",
+				"trans": "Lanjutkan"
+			},
+			"desc": {
+				"eng": "Data decrypted. Contents are as follows:",
+				"trans": "Data telah didekripsi. Berikut isinya:"
+			},
+			"title": {
+				"eng": "PRIZE ACQUIRED",
+				"trans": "Hadiah diperoleh"
+			}
+		},
+		"selectTarget": {
+			"description": {
+				"eng": "Do you want to select this item as your Prime Target?",
+				"trans": "Mau pilih barang ini sebagai Target Utama mu?"
+			},
+			"error": {
+				"eng": "Failed to select target. Please try again.",
+				"trans": "Gagal memilih target. Silakan coba lagi."
+			},
+			"title": {
+				"eng": "Select Prime Target",
+				"trans": "Pilih Sasaran Utama"
+			}
+		},
+		"tip": {
+			"explain": {
+				"eng": "Select your prime prize. Each roll increases the chance of winning the selected target prize. click here for more information.",
+				"trans": "Pilih hadiah utama Anda. Setiap putaran meningkatkan peluang untuk memenangkan hadiah utama yang dipilih. Klik di sini untuk informasi lebih lanjut."
+			}
+		}
+	},
+	"followUpLotteryNormalRewards": {
+		"additional": {
+			"eng": "Normal rewards are ALWAYS given in addition to any Prime Target wins",
+			"trans": "Hadiah biasa selalu diberikan tambahan pada kemenangan Prime Target apapun"
+		},
+		"close": {
+			"eng": "UNDERSTOOD",
+			"trans": "Mengerti"
+		},
+		"description": {
+			"eng": "Drop rates for normal rewards from ${lotteryName}",
+			"trans": "Peluang mendapatkan hadiah normal dari ${lotteryName}"
+		},
+		"dropRates": {
+			"eng": "Drop Chances",
+			"trans": "Peluang Drop"
+		},
+		"guarantee": {
+			"eng": "100% chance to receive one normal reward per roll",
+			"trans": "Peluang 100% untuk mendapatkan satu hadiah biasa setiap kali putaran"
+		},
+		"random": {
+			"eng": "Item is randomly selected based on the chance shown below",
+			"trans": "Item dipilih secara random berdasarkan kesempatan yang terlihat dibawah"
+		},
+		"title": {
+			"eng": "Normal Rewards",
+			"trans": "Reward Biasa"
+		}
+	},
 	"forgotPasswordPopup": {
 		"enterEmail": {
 			"eng": "Enter your email to reset your password. an reset link will be sent to your email.",
@@ -3554,6 +3712,10 @@
 		}
 	},
 	"hitlist": {
+		"loading": {
+			"eng": "Loading bounties...",
+			"trans": "Sedang memuat pencarian hadiah..."
+		},
 		"noBounties": {
 			"eng": "No bounties available",
 			"trans": "Tidak ada hadiah yang tersedia"
@@ -7239,8 +7401,8 @@
 			"trans": "Gengmu masuk berita di The Arclight Times."
 		},
 		"newReportAvailable": {
-			"eng": "The Arclight Chronicle has published today\\'s news report!",
-			"trans": "The Arclight Chronicle: Laporan hari ini sudah keluar!"
+			"eng": "The Arclight Chronicle has published today's news report!",
+			"trans": "Berita terbaru dari Arclight Chronicle sudah tersedia!"
 		},
 		"newsReportGenerated": {
 			"eng": "Arclight Times posted a new news report",
@@ -7670,7 +7832,7 @@
 				]
 			},
 			"shopName": {
-				"eng": "Lilith\\'s Store",
+				"eng": "Lilith's Store",
 				"trans": "Toko Lilith"
 			}
 		},
@@ -7828,7 +7990,7 @@
 				]
 			},
 			"shopName": {
-				"eng": "Maxine\\'s Shop",
+				"eng": "Maxine's Shop",
 				"trans": "Toko Maxine"
 			}
 		}
@@ -8732,6 +8894,12 @@
 			"successBounty": {
 				"eng": "You received bounty of ${money1} and ${money2} for eliminating ${targetPlayer}",
 				"trans": "Anda menerima hadiah sebesar ${money1} dan ${money2} karena telah membunuh ${targetPlayer}"
+			}
+		},
+		"toast": {
+			"statCooldown": {
+				"eng": "Because you have recently attacked this player so it does not count towards statistic record",
+				"trans": "Serangan terakhirmu terhadap pemain ini tidak terhitung dalam statistik."
 			}
 		}
 	},

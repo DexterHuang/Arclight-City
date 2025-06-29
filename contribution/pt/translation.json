@@ -387,6 +387,10 @@
 	},
 	"apartmentPage": {
 		"kitchenButton": {
+			"error": {
+				"eng": "You must be the owner of the apartment to access the kitchen",
+				"trans": "Só pode entrar na cozinha se for o dono do apartamento."
+			},
 			"title": {
 				"eng": "kitchen",
 				"trans": "cozinha"
@@ -1769,6 +1773,16 @@
 		"leaveClan": {
 			"eng": "leave gang",
 			"trans": "sair da gangue"
+		},
+		"leaveClanModal": {
+			"description": {
+				"eng": "Are you sure you want to leave this gang?",
+				"trans": "Tem certeza de que deseja sair desta gangue?"
+			},
+			"title": {
+				"eng": "Leave gang",
+				"trans": "Sair da gangue"
+			}
 		},
 		"makePrivate": {
 			"eng": "Make Private",
@@ -3279,6 +3293,150 @@
 			"trans": "Primeiro Recarregue e Ganhe o Dobro!"
 		}
 	},
+	"followLottery": {
+		"error": {
+			"invalidPrimeTargetIndex": {
+				"eng": "Invalid prime target index",
+				"trans": "Índice de alvo principal inválido"
+			},
+			"noPrimeTargetSelected": {
+				"eng": "Please select a prime target first",
+				"trans": "Por favor, selecione um alvo principal primeiro"
+			},
+			"notEnoughCurrency": {
+				"eng": "Insufficient ${currency}",
+				"trans": "Moeda insuficiente"
+			}
+		}
+	},
+	"followUpLottery": {
+		"cyberCache": {
+			"displayName": {
+				"eng": "Cyber Cache",
+				"trans": "Cache Digital"
+			}
+		},
+		"description": {
+			"eng": "Follow-Up Lottery",
+			"trans": "Sorteio de Acompanhamento"
+		},
+		"main": {
+			"currentTarget": {
+				"eng": "Current Prime Target",
+				"trans": "Alvo Prioritário Atual"
+			},
+			"normalRewards": {
+				"eng": "Normal Rewards",
+				"trans": "Recompensas Normais"
+			},
+			"resetPrimeTarget": {
+				"eng": "RESET",
+				"trans": "Redefinir"
+			},
+			"roll": {
+				"eng": "ROLL",
+				"trans": "Rolar"
+			},
+			"rolling": {
+				"eng": "ROLLING...",
+				"trans": "RODANDO..."
+			},
+			"selectPrimeTarget": {
+				"eng": "Select Prime Target",
+				"trans": "Alvo Principal"
+			},
+			"targetSelected": {
+				"eng": "Target Selected",
+				"trans": "Alvo Selecionado"
+			},
+			"tierProgress": {
+				"eng": "TIER PROGRESS",
+				"trans": "Avanço de Tier"
+			}
+		},
+		"resetConfirm": {
+			"afterReset": {
+				"eng": "After Reset",
+				"trans": "Pós-Reset"
+			},
+			"currentProgress": {
+				"eng": "Current Progress",
+				"trans": "Progresso Atual"
+			},
+			"description": {
+				"eng": "You can choose a new Prime Target after resetting, but you will lose your current progress.",
+				"trans": "Após resetar, você pode selecionar um novo Alvo Principal, porém perderá o progresso atual."
+			},
+			"title": {
+				"eng": "Reset Prime Target?",
+				"trans": "Resetar Alvo Primário?"
+			}
+		},
+		"result": {
+			"continue": {
+				"eng": "CONTINUE",
+				"trans": "Continuar"
+			},
+			"desc": {
+				"eng": "Data decrypted. Contents are as follows:",
+				"trans": "Dados decifrados. Aqui está o conteúdo:"
+			},
+			"title": {
+				"eng": "PRIZE ACQUIRED",
+				"trans": "Prêmio adquirido"
+			}
+		},
+		"selectTarget": {
+			"description": {
+				"eng": "Do you want to select this item as your Prime Target?",
+				"trans": "Quer selecionar este item como seu Alvo Principal?"
+			},
+			"error": {
+				"eng": "Failed to select target. Please try again.",
+				"trans": "Falha ao selecionar alvo. Tente novamente."
+			},
+			"title": {
+				"eng": "Select Prime Target",
+				"trans": "Alvo Principal"
+			}
+		},
+		"tip": {
+			"explain": {
+				"eng": "Select your prime prize. Each roll increases the chance of winning the selected target prize. click here for more information.",
+				"trans": "Selecione seu prêmio principal. Cada rolagem aumenta a chance de ganhar o prêmio alvo selecionado. clique aqui para mais informações."
+			}
+		}
+	},
+	"followUpLotteryNormalRewards": {
+		"additional": {
+			"eng": "Normal rewards are ALWAYS given in addition to any Prime Target wins",
+			"trans": "Recompensas normais são SEMPRE dadas em adição a quaisquer vitórias de Alvo Principal."
+		},
+		"close": {
+			"eng": "UNDERSTOOD",
+			"trans": "Entendido"
+		},
+		"description": {
+			"eng": "Drop rates for normal rewards from ${lotteryName}",
+			"trans": "Probabilidades de obtenção de recompensas normais do ${lotteryName}"
+		},
+		"dropRates": {
+			"eng": "Drop Chances",
+			"trans": "Chance de Drop"
+		},
+		"guarantee": {
+			"eng": "100% chance to receive one normal reward per roll",
+			"trans": "100% de chance de receber um prêmio normal por rolagem"
+		},
+		"random": {
+			"eng": "Item is randomly selected based on the chance shown below",
+			"trans": "O item é sorteado com base na chance exibida abaixo"
+		},
+		"title": {
+			"eng": "Normal Rewards",
+			"trans": "Recompensas Normais"
+		}
+	},
 	"forgotPasswordPopup": {
 		"enterEmail": {
 			"eng": "Enter your email to reset your password. an reset link will be sent to your email.",
@@ -3554,6 +3712,10 @@
 		}
 	},
 	"hitlist": {
+		"loading": {
+			"eng": "Loading bounties...",
+			"trans": "Carregando recompensas..."
+		},
 		"noBounties": {
 			"eng": "No bounties available",
 			"trans": "Nenhuma recompensa disponível"
@@ -7239,8 +7401,8 @@
 			"trans": "O Arclight Times citou sua gangue em uma matéria."
 		},
 		"newReportAvailable": {
-			"eng": "The Arclight Chronicle has published today\\'s news report!",
-			"trans": "O Arclight Chronicle publicou o boletim de notícias de hoje!"
+			"eng": "The Arclight Chronicle has published today's news report!",
+			"trans": "O Arclight Chronicle publicou o relatório de notícias de hoje!"
 		},
 		"newsReportGenerated": {
 			"eng": "Arclight Times posted a new news report",
@@ -7670,7 +7832,7 @@
 				]
 			},
 			"shopName": {
-				"eng": "Lilith\\'s Store",
+				"eng": "Lilith's Store",
 				"trans": "Loja da Lilith"
 			}
 		},
@@ -7828,7 +7990,7 @@
 				]
 			},
 			"shopName": {
-				"eng": "Maxine\\'s Shop",
+				"eng": "Maxine's Shop",
 				"trans": "Loja da Maxine"
 			}
 		}
@@ -8732,6 +8894,12 @@
 			"successBounty": {
 				"eng": "You received bounty of ${money1} and ${money2} for eliminating ${targetPlayer}",
 				"trans": "Você recebeu uma recompensa de ${money1} e ${money2} por eliminar ${targetPlayer}"
+			}
+		},
+		"toast": {
+			"statCooldown": {
+				"eng": "Because you have recently attacked this player so it does not count towards statistic record",
+				"trans": "Você atacou recentemente este jogador, por isso não conta para o registro de estatísticas"
 			}
 		}
 	},

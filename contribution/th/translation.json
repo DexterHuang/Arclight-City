@@ -387,6 +387,10 @@
 	},
 	"apartmentPage": {
 		"kitchenButton": {
+			"error": {
+				"eng": "You must be the owner of the apartment to access the kitchen",
+				"trans": "ต้องเป็นเจ้าของอพาร์ทเมนต์เพื่อเข้าถึงห้องครัว"
+			},
 			"title": {
 				"eng": "kitchen",
 				"trans": "โรงครัว"
@@ -1769,6 +1773,16 @@
 		"leaveClan": {
 			"eng": "leave gang",
 			"trans": "ออกจากแก๊ง"
+		},
+		"leaveClanModal": {
+			"description": {
+				"eng": "Are you sure you want to leave this gang?",
+				"trans": "คุณต้องการออกจากแก๊งนี้จริงๆหรือไม่"
+			},
+			"title": {
+				"eng": "Leave gang",
+				"trans": "ออกจากแก๊ง"
+			}
 		},
 		"makePrivate": {
 			"eng": "Make Private",
@@ -3279,6 +3293,150 @@
 			"trans": "เติมปุ๊บ รับสองเท่า"
 		}
 	},
+	"followLottery": {
+		"error": {
+			"invalidPrimeTargetIndex": {
+				"eng": "Invalid prime target index",
+				"trans": "ดัชนีเป้าหมายหลักไม่ถูกต้อง"
+			},
+			"noPrimeTargetSelected": {
+				"eng": "Please select a prime target first",
+				"trans": "กรุณาเลือกเป้าหมายหลักก่อน"
+			},
+			"notEnoughCurrency": {
+				"eng": "Insufficient ${currency}",
+				"trans": "${currency} ไม่เพียงพอ"
+			}
+		}
+	},
+	"followUpLottery": {
+		"cyberCache": {
+			"displayName": {
+				"eng": "Cyber Cache",
+				"trans": "เกมซ่อน"
+			}
+		},
+		"description": {
+			"eng": "Follow-Up Lottery",
+			"trans": "หวยต่อจาก"
+		},
+		"main": {
+			"currentTarget": {
+				"eng": "Current Prime Target",
+				"trans": "เป้าหมายหลักปัจจุบัน"
+			},
+			"normalRewards": {
+				"eng": "Normal Rewards",
+				"trans": "รางวัลปกติ"
+			},
+			"resetPrimeTarget": {
+				"eng": "RESET",
+				"trans": "รีเซ็ต"
+			},
+			"roll": {
+				"eng": "ROLL",
+				"trans": "รีบอล"
+			},
+			"rolling": {
+				"eng": "ROLLING...",
+				"trans": "กำลังหมุน..."
+			},
+			"selectPrimeTarget": {
+				"eng": "Select Prime Target",
+				"trans": "เลือกเป้าหมายหลัก"
+			},
+			"targetSelected": {
+				"eng": "Target Selected",
+				"trans": "เลือกเป้าหมายแล้ว"
+			},
+			"tierProgress": {
+				"eng": "TIER PROGRESS",
+				"trans": "ก้าวหน้าในระดับ"
+			}
+		},
+		"resetConfirm": {
+			"afterReset": {
+				"eng": "After Reset",
+				"trans": "หลังรีเซ็ต"
+			},
+			"currentProgress": {
+				"eng": "Current Progress",
+				"trans": "ความก้าวหน้า"
+			},
+			"description": {
+				"eng": "You can choose a new Prime Target after resetting, but you will lose your current progress.",
+				"trans": "หลังจากรีเซ็ต คุณจะสูญเสียความก้าวหน้าในเกมของคุณ แต่สามารถเลือกเป้าหมายหลักใหม่ได้"
+			},
+			"title": {
+				"eng": "Reset Prime Target?",
+				"trans": "ต้องการรีเซ็ตเป้าหมายหลักหรือไม่"
+			}
+		},
+		"result": {
+			"continue": {
+				"eng": "CONTINUE",
+				"trans": "ต่อไป"
+			},
+			"desc": {
+				"eng": "Data decrypted. Contents are as follows:",
+				"trans": "ข้อมูลถูกรหัสลับแล้ว เนื้อหาดังนี้:"
+			},
+			"title": {
+				"eng": "PRIZE ACQUIRED",
+				"trans": "ได้รับรางวัล"
+			}
+		},
+		"selectTarget": {
+			"description": {
+				"eng": "Do you want to select this item as your Prime Target?",
+				"trans": "ต้องการเลือกไอเทมนี้เป็นเป้าหมายหลักใช่ไหม"
+			},
+			"error": {
+				"eng": "Failed to select target. Please try again.",
+				"trans": "ไม่สามารถเลือกเป้าหมายได้ กรุณาลองอีก"
+			},
+			"title": {
+				"eng": "Select Prime Target",
+				"trans": "เลือกเป้าหมายหลัก"
+			}
+		},
+		"tip": {
+			"explain": {
+				"eng": "Select your prime prize. Each roll increases the chance of winning the selected target prize. click here for more information.",
+				"trans": "เลือกรางวัลหลักของคุณ รอบเล่นแต่ละครั้งจะเพิ่มโอกาสในการชนะรางวัลที่เลือก คลิกที่นี่เพื่อข้อมูลเพิ่มเติม"
+			}
+		}
+	},
+	"followUpLotteryNormalRewards": {
+		"additional": {
+			"eng": "Normal rewards are ALWAYS given in addition to any Prime Target wins",
+			"trans": "รางวัลปกติจะได้เสมอพร้อมกับการชนะเป้าหมายหลัก"
+		},
+		"close": {
+			"eng": "UNDERSTOOD",
+			"trans": "เข้าใจแล้ว"
+		},
+		"description": {
+			"eng": "Drop rates for normal rewards from ${lotteryName}",
+			"trans": "อัตราโอกาสในการได้รางวัลปกติจาก ${lotteryName}"
+		},
+		"dropRates": {
+			"eng": "Drop Chances",
+			"trans": "โอกาสได้"
+		},
+		"guarantee": {
+			"eng": "100% chance to receive one normal reward per roll",
+			"trans": "มีโอกาส 100% ได้รางวัลปกติหนึ่งครั้งต่อการหมุน"
+		},
+		"random": {
+			"eng": "Item is randomly selected based on the chance shown below",
+			"trans": "รายการนี้จะถูกสุ่มเลือกตามโอกาสที่แสดงด้านล่าง"
+		},
+		"title": {
+			"eng": "Normal Rewards",
+			"trans": "โบนัสปกติ"
+		}
+	},
 	"forgotPasswordPopup": {
 		"enterEmail": {
 			"eng": "Enter your email to reset your password. an reset link will be sent to your email.",
@@ -3554,6 +3712,10 @@
 		}
 	},
 	"hitlist": {
+		"loading": {
+			"eng": "Loading bounties...",
+			"trans": "บาวนตี้กำลังโหลด..."
+		},
 		"noBounties": {
 			"eng": "No bounties available",
 			"trans": "ไม่มีงาน"
@@ -7239,8 +7401,8 @@
 			"trans": "'The Arclight Times' ลงข่าวแก๊งค์ของคุณแล้ว"
 		},
 		"newReportAvailable": {
-			"eng": "The Arclight Chronicle has published today\\'s news report!",
-			"trans": "The Arclight Chronicle เผยแพร่ข่าววันนี้แล้ว!"
+			"eng": "The Arclight Chronicle has published today's news report!",
+			"trans": "ประกายอาร์คมีรายงานข่าววันนี้!"
 		},
 		"newsReportGenerated": {
 			"eng": "Arclight Times posted a new news report",
@@ -7670,7 +7832,7 @@
 				]
 			},
 			"shopName": {
-				"eng": "Lilith\\'s Store",
+				"eng": "Lilith's Store",
 				"trans": "ร้านลิลิธ"
 			}
 		},
@@ -7828,8 +7990,8 @@
 				]
 			},
 			"shopName": {
-				"eng": "Maxine\\'s Shop",
-				"trans": "ร้านแม็กซีน"
+				"eng": "Maxine's Shop",
+				"trans": "ร้านของแม็กซีน"
 			}
 		}
 	},
@@ -8732,6 +8894,12 @@
 			"successBounty": {
 				"eng": "You received bounty of ${money1} and ${money2} for eliminating ${targetPlayer}",
 				"trans": "ได้ค่าหัว ${money1} กับ ${money2} มาจากการสอย ${targetPlayer} ร่วง"
+			}
+		},
+		"toast": {
+			"statCooldown": {
+				"eng": "Because you have recently attacked this player so it does not count towards statistic record",
+				"trans": "เพราะคุณโจมตีผู้เล่นคนนี้เร็วๆ นี้ จึงไม่ได้รับการบันทึกในสถิติ"
 			}
 		}
 	},

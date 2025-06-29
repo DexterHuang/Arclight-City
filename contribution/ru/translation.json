@@ -387,6 +387,10 @@
 	},
 	"apartmentPage": {
 		"kitchenButton": {
+			"error": {
+				"eng": "You must be the owner of the apartment to access the kitchen",
+				"trans": "Вы должны быть владельцем квартиры, чтобы получить доступ к кухне"
+			},
 			"title": {
 				"eng": "kitchen",
 				"trans": "кухня"
@@ -1769,6 +1773,16 @@
 		"leaveClan": {
 			"eng": "leave gang",
 			"trans": "покинуть банду"
+		},
+		"leaveClanModal": {
+			"description": {
+				"eng": "Are you sure you want to leave this gang?",
+				"trans": "Вы действительно хотите выйти из этой группировки?"
+			},
+			"title": {
+				"eng": "Leave gang",
+				"trans": "Выйти из банды"
+			}
 		},
 		"makePrivate": {
 			"eng": "Make Private",
@@ -3279,6 +3293,150 @@
 			"trans": "Первое пополнение - удвоенная стоимость"
 		}
 	},
+	"followLottery": {
+		"error": {
+			"invalidPrimeTargetIndex": {
+				"eng": "Invalid prime target index",
+				"trans": "Недопустимый индекс приоритетной цели"
+			},
+			"noPrimeTargetSelected": {
+				"eng": "Please select a prime target first",
+				"trans": "Сначала выберите главную цель"
+			},
+			"notEnoughCurrency": {
+				"eng": "Insufficient ${currency}",
+				"trans": "Недостаточно ${currency}"
+			}
+		}
+	},
+	"followUpLottery": {
+		"cyberCache": {
+			"displayName": {
+				"eng": "Cyber Cache",
+				"trans": "Кибертайник"
+			}
+		},
+		"description": {
+			"eng": "Follow-Up Lottery",
+			"trans": "Дополнительная лотерея"
+		},
+		"main": {
+			"currentTarget": {
+				"eng": "Current Prime Target",
+				"trans": "Приоритетная цель"
+			},
+			"normalRewards": {
+				"eng": "Normal Rewards",
+				"trans": "Обычные награды"
+			},
+			"resetPrimeTarget": {
+				"eng": "RESET",
+				"trans": "сброс"
+			},
+			"roll": {
+				"eng": "ROLL",
+				"trans": "Бросок"
+			},
+			"rolling": {
+				"eng": "ROLLING...",
+				"trans": "КРУТИТСЯ..."
+			},
+			"selectPrimeTarget": {
+				"eng": "Select Prime Target",
+				"trans": "Выберите основную цель"
+			},
+			"targetSelected": {
+				"eng": "Target Selected",
+				"trans": "Цель выбрана"
+			},
+			"tierProgress": {
+				"eng": "TIER PROGRESS",
+				"trans": "Прогресс уровней"
+			}
+		},
+		"resetConfirm": {
+			"afterReset": {
+				"eng": "After Reset",
+				"trans": "После сброса"
+			},
+			"currentProgress": {
+				"eng": "Current Progress",
+				"trans": "Текущий прогресс"
+			},
+			"description": {
+				"eng": "You can choose a new Prime Target after resetting, but you will lose your current progress.",
+				"trans": "Вы можете выбрать новую основную цель после сброса, но вы потеряете свой текущий прогресс."
+			},
+			"title": {
+				"eng": "Reset Prime Target?",
+				"trans": "Сбросить приоритетную цель?"
+			}
+		},
+		"result": {
+			"continue": {
+				"eng": "CONTINUE",
+				"trans": "Продолжить"
+			},
+			"desc": {
+				"eng": "Data decrypted. Contents are as follows:",
+				"trans": "Данные расшифрованы. Содержание следующее:"
+			},
+			"title": {
+				"eng": "PRIZE ACQUIRED",
+				"trans": "Приз получен"
+			}
+		},
+		"selectTarget": {
+			"description": {
+				"eng": "Do you want to select this item as your Prime Target?",
+				"trans": "Выбрать этот предмет в качестве основной цели?"
+			},
+			"error": {
+				"eng": "Failed to select target. Please try again.",
+				"trans": "Не удалось выбрать цель. Пожалуйста, попробуйте снова."
+			},
+			"title": {
+				"eng": "Select Prime Target",
+				"trans": "Выберите основную цель"
+			}
+		},
+		"tip": {
+			"explain": {
+				"eng": "Select your prime prize. Each roll increases the chance of winning the selected target prize. click here for more information.",
+				"trans": "Выберите главный приз. Каждый прокрут увеличивает шанс выиграть выбранный целевой приз. Нажмите здесь для получения дополнительной информации."
+			}
+		}
+	},
+	"followUpLotteryNormalRewards": {
+		"additional": {
+			"eng": "Normal rewards are ALWAYS given in addition to any Prime Target wins",
+			"trans": "Нормальные вознаграждения всегда выдаются дополнительно к любой победе над Prime Target"
+		},
+		"close": {
+			"eng": "UNDERSTOOD",
+			"trans": "Понял"
+		},
+		"description": {
+			"eng": "Drop rates for normal rewards from ${lotteryName}",
+			"trans": "Шансы выпадения обычных наград из ${lotteryName}"
+		},
+		"dropRates": {
+			"eng": "Drop Chances",
+			"trans": "Шанс выпадения"
+		},
+		"guarantee": {
+			"eng": "100% chance to receive one normal reward per roll",
+			"trans": "Гарантированно один обычный приз за прокрутку"
+		},
+		"random": {
+			"eng": "Item is randomly selected based on the chance shown below",
+			"trans": "Предмет выбирается случайно с вероятностью, указанной ниже"
+		},
+		"title": {
+			"eng": "Normal Rewards",
+			"trans": "Обычные награды"
+		}
+	},
 	"forgotPasswordPopup": {
 		"enterEmail": {
 			"eng": "Enter your email to reset your password. an reset link will be sent to your email.",
@@ -3554,6 +3712,10 @@
 		}
 	},
 	"hitlist": {
+		"loading": {
+			"eng": "Loading bounties...",
+			"trans": "Загрузка наград..."
+		},
 		"noBounties": {
 			"eng": "No bounties available",
 			"trans": "Нет доступных наград"
@@ -7239,8 +7401,8 @@
 			"trans": "Вашу банду засветили в «Арклайт Таймс»."
 		},
 		"newReportAvailable": {
-			"eng": "The Arclight Chronicle has published today\\'s news report!",
-			"trans": "Арклайт Хроники: свежий репортаж уже доступен!"
+			"eng": "The Arclight Chronicle has published today's news report!",
+			"trans": "Сегодня вышел новостной репортаж от Арклайт Хроники!"
 		},
 		"newsReportGenerated": {
 			"eng": "Arclight Times posted a new news report",
@@ -7670,8 +7832,8 @@
 				]
 			},
 			"shopName": {
-				"eng": "Lilith\\'s Store",
-				"trans": "Магазин Лилит"
+				"eng": "Lilith's Store",
+				"trans": "Лавка Лилит"
 			}
 		},
 		"healRestored": {
@@ -7828,7 +7990,7 @@
 				]
 			},
 			"shopName": {
-				"eng": "Maxine\\'s Shop",
+				"eng": "Maxine's Shop",
 				"trans": "Магазин Максин"
 			}
 		}
@@ -8732,6 +8894,12 @@
 			"successBounty": {
 				"eng": "You received bounty of ${money1} and ${money2} for eliminating ${targetPlayer}",
 				"trans": "Вы получили награду в размере ${money1} и ${money2} за устранение ${targetPlayer}"
+			}
+		},
+		"toast": {
+			"statCooldown": {
+				"eng": "Because you have recently attacked this player so it does not count towards statistic record",
+				"trans": "Поскольку вы недавно атаковали этого игрока, это не учитывается в статистике"
 			}
 		}
 	},

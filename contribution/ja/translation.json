@@ -387,6 +387,10 @@
 	},
 	"apartmentPage": {
 		"kitchenButton": {
+			"error": {
+				"eng": "You must be the owner of the apartment to access the kitchen",
+				"trans": "アパートのオーナーでなければキッチンは使えません"
+			},
 			"title": {
 				"eng": "kitchen",
 				"trans": "キッチン"
@@ -1769,6 +1773,16 @@
 		"leaveClan": {
 			"eng": "leave gang",
 			"trans": "ギャングを脱退する"
+		},
+		"leaveClanModal": {
+			"description": {
+				"eng": "Are you sure you want to leave this gang?",
+				"trans": "本当にこのギャングから離脱しますか？"
+			},
+			"title": {
+				"eng": "Leave gang",
+				"trans": "ギャングを脱退する"
+			}
 		},
 		"makePrivate": {
 			"eng": "Make Private",
@@ -3279,6 +3293,150 @@
 			"trans": "初回チャージは倍の価値があります"
 		}
 	},
+	"followLottery": {
+		"error": {
+			"invalidPrimeTargetIndex": {
+				"eng": "Invalid prime target index",
+				"trans": "無効な主目標インデックスです"
+			},
+			"noPrimeTargetSelected": {
+				"eng": "Please select a prime target first",
+				"trans": "まずは主目標を選択してください"
+			},
+			"notEnoughCurrency": {
+				"eng": "Insufficient ${currency}",
+				"trans": "通貨がたりません"
+			}
+		}
+	},
+	"followUpLottery": {
+		"cyberCache": {
+			"displayName": {
+				"eng": "Cyber Cache",
+				"trans": "サイバーキャッシュ"
+			}
+		},
+		"description": {
+			"eng": "Follow-Up Lottery",
+			"trans": "追加抽選"
+		},
+		"main": {
+			"currentTarget": {
+				"eng": "Current Prime Target",
+				"trans": "現在の主目標"
+			},
+			"normalRewards": {
+				"eng": "Normal Rewards",
+				"trans": "通常報酬"
+			},
+			"resetPrimeTarget": {
+				"eng": "RESET",
+				"trans": "リセット"
+			},
+			"roll": {
+				"eng": "ROLL",
+				"trans": "ロール"
+			},
+			"rolling": {
+				"eng": "ROLLING...",
+				"trans": "ローリング..."
+			},
+			"selectPrimeTarget": {
+				"eng": "Select Prime Target",
+				"trans": "主目標を選択してください"
+			},
+			"targetSelected": {
+				"eng": "Target Selected",
+				"trans": "対象を選択しました"
+			},
+			"tierProgress": {
+				"eng": "TIER PROGRESS",
+				"trans": "ティア進捗"
+			}
+		},
+		"resetConfirm": {
+			"afterReset": {
+				"eng": "After Reset",
+				"trans": "リセット後"
+			},
+			"currentProgress": {
+				"eng": "Current Progress",
+				"trans": "進行状況"
+			},
+			"description": {
+				"eng": "You can choose a new Prime Target after resetting, but you will lose your current progress.",
+				"trans": "リセット後、新しいプライムターゲットを選択できますが、現在の進捗は失われます。"
+			},
+			"title": {
+				"eng": "Reset Prime Target?",
+				"trans": "主目標をリセットしますか？"
+			}
+		},
+		"result": {
+			"continue": {
+				"eng": "CONTINUE",
+				"trans": "続ける"
+			},
+			"desc": {
+				"eng": "Data decrypted. Contents are as follows:",
+				"trans": "復号化完了。以下の内容です："
+			},
+			"title": {
+				"eng": "PRIZE ACQUIRED",
+				"trans": "獲得した"
+			}
+		},
+		"selectTarget": {
+			"description": {
+				"eng": "Do you want to select this item as your Prime Target?",
+				"trans": "このアイテムを主要な標的として選択しますか？"
+			},
+			"error": {
+				"eng": "Failed to select target. Please try again.",
+				"trans": "対象を選択できませんでした。もう一度やり直してください。"
+			},
+			"title": {
+				"eng": "Select Prime Target",
+				"trans": "主目標を選択してください"
+			}
+		},
+		"tip": {
+			"explain": {
+				"eng": "Select your prime prize. Each roll increases the chance of winning the selected target prize. click here for more information.",
+				"trans": "メイン賞を選択してください。各回転ごとに選んだ賞品の当選確率が上がります。詳細はこちら"
+			}
+		}
+	},
+	"followUpLotteryNormalRewards": {
+		"additional": {
+			"eng": "Normal rewards are ALWAYS given in addition to any Prime Target wins",
+			"trans": "通常報酬は常にプライムターゲット勝利に加えられます"
+		},
+		"close": {
+			"eng": "UNDERSTOOD",
+			"trans": "分かりました"
+		},
+		"description": {
+			"eng": "Drop rates for normal rewards from ${lotteryName}",
+			"trans": "${lotteryName}からの通常報酬のドロップ率"
+		},
+		"dropRates": {
+			"eng": "Drop Chances",
+			"trans": "ドロップ確率"
+		},
+		"guarantee": {
+			"eng": "100% chance to receive one normal reward per roll",
+			"trans": "回ごとに通常報酬を必ず獲得"
+		},
+		"random": {
+			"eng": "Item is randomly selected based on the chance shown below",
+			"trans": "アイテムは以下の確率でランダムに選択されます"
+		},
+		"title": {
+			"eng": "Normal Rewards",
+			"trans": "通常報酬"
+		}
+	},
 	"forgotPasswordPopup": {
 		"enterEmail": {
 			"eng": "Enter your email to reset your password. an reset link will be sent to your email.",
@@ -3554,6 +3712,10 @@
 		}
 	},
 	"hitlist": {
+		"loading": {
+			"eng": "Loading bounties...",
+			"trans": "ボウティー情報を取得中..."
+		},
 		"noBounties": {
 			"eng": "No bounties available",
 			"trans": "バウンティは利用できません"
@@ -7239,8 +7401,8 @@
 			"trans": "アークライト・タイムズのニュース記事で、お前のチームが話題になってるぜ。"
 		},
 		"newReportAvailable": {
-			"eng": "The Arclight Chronicle has published today\\'s news report!",
-			"trans": "アークライト・クロニクル、速報！今日のニュース！"
+			"eng": "The Arclight Chronicle has published today's news report!",
+			"trans": "アークライト・クロニクル、今日も最新ニュースをお届けします！"
 		},
 		"newsReportGenerated": {
 			"eng": "Arclight Times posted a new news report",
@@ -7670,7 +7832,7 @@
 				]
 			},
 			"shopName": {
-				"eng": "Lilith\\'s Store",
+				"eng": "Lilith's Store",
 				"trans": "リリスの店"
 			}
 		},
@@ -7828,7 +7990,7 @@
 				]
 			},
 			"shopName": {
-				"eng": "Maxine\\'s Shop",
+				"eng": "Maxine's Shop",
 				"trans": "マキシンのショップ"
 			}
 		}
@@ -8732,6 +8894,12 @@
 			"successBounty": {
 				"eng": "You received bounty of ${money1} and ${money2} for eliminating ${targetPlayer}",
 				"trans": "ターゲットを排除したことにより、${money1}と${money2}のバウンティを獲得"
+			}
+		},
+		"toast": {
+			"statCooldown": {
+				"eng": "Because you have recently attacked this player so it does not count towards statistic record",
+				"trans": "このプレイヤーへの最近の攻撃は統計記録に含まれません"
 			}
 		}
 	},

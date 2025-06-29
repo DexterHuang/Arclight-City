@@ -387,6 +387,10 @@
 	},
 	"apartmentPage": {
 		"kitchenButton": {
+			"error": {
+				"eng": "You must be the owner of the apartment to access the kitchen",
+				"trans": "해당 아파트의 주인만이 주방에 들어갈 수 있습니다"
+			},
 			"title": {
 				"eng": "kitchen",
 				"trans": "주방"
@@ -1769,6 +1773,16 @@
 		"leaveClan": {
 			"eng": "leave gang",
 			"trans": "갱에서 나가기"
+		},
+		"leaveClanModal": {
+			"description": {
+				"eng": "Are you sure you want to leave this gang?",
+				"trans": "정말 이 갱을 떠나시겠어요?"
+			},
+			"title": {
+				"eng": "Leave gang",
+				"trans": "갱을 나가다"
+			}
 		},
 		"makePrivate": {
 			"eng": "Make Private",
@@ -3279,6 +3293,150 @@
 			"trans": "첫 충전 시 두 배"
 		}
 	},
+	"followLottery": {
+		"error": {
+			"invalidPrimeTargetIndex": {
+				"eng": "Invalid prime target index",
+				"trans": "유효하지 않은 프라임 타겟 인덱스"
+			},
+			"noPrimeTargetSelected": {
+				"eng": "Please select a prime target first",
+				"trans": "먼저 주요 목표를 선택하세요"
+			},
+			"notEnoughCurrency": {
+				"eng": "Insufficient ${currency}",
+				"trans": "${currency}가 부족합니다."
+			}
+		}
+	},
+	"followUpLottery": {
+		"cyberCache": {
+			"displayName": {
+				"eng": "Cyber Cache",
+				"trans": "사이버 캐시"
+			}
+		},
+		"description": {
+			"eng": "Follow-Up Lottery",
+			"trans": "후속 추첨"
+		},
+		"main": {
+			"currentTarget": {
+				"eng": "Current Prime Target",
+				"trans": "현재 주목표"
+			},
+			"normalRewards": {
+				"eng": "Normal Rewards",
+				"trans": "일반 보상"
+			},
+			"resetPrimeTarget": {
+				"eng": "RESET",
+				"trans": "리셋"
+			},
+			"roll": {
+				"eng": "ROLL",
+				"trans": "굴리기"
+			},
+			"rolling": {
+				"eng": "ROLLING...",
+				"trans": "진행 중..."
+			},
+			"selectPrimeTarget": {
+				"eng": "Select Prime Target",
+				"trans": "주 타겟 선택"
+			},
+			"targetSelected": {
+				"eng": "Target Selected",
+				"trans": "표적 선택됨"
+			},
+			"tierProgress": {
+				"eng": "TIER PROGRESS",
+				"trans": "등급 진전"
+			}
+		},
+		"resetConfirm": {
+			"afterReset": {
+				"eng": "After Reset",
+				"trans": "리셋 후"
+			},
+			"currentProgress": {
+				"eng": "Current Progress",
+				"trans": "현재 진행도"
+			},
+			"description": {
+				"eng": "You can choose a new Prime Target after resetting, but you will lose your current progress.",
+				"trans": "초기화 후 새로운 프리마 타겟을 선택할 수 있지만, 현재 진행 상황을 잃게 됩니다."
+			},
+			"title": {
+				"eng": "Reset Prime Target?",
+				"trans": "주 목표 리셋"
+			}
+		},
+		"result": {
+			"continue": {
+				"eng": "CONTINUE",
+				"trans": "계속"
+			},
+			"desc": {
+				"eng": "Data decrypted. Contents are as follows:",
+				"trans": "데이터를 해독했습니다. 내용은 아래와 같습니다:"
+			},
+			"title": {
+				"eng": "PRIZE ACQUIRED",
+				"trans": "보상 획득"
+			}
+		},
+		"selectTarget": {
+			"description": {
+				"eng": "Do you want to select this item as your Prime Target?",
+				"trans": "이 항목을 주 목표로 지정하시겠어요?"
+			},
+			"error": {
+				"eng": "Failed to select target. Please try again.",
+				"trans": "대상을 선택하지 못했습니다. 다시 시도해 주세요."
+			},
+			"title": {
+				"eng": "Select Prime Target",
+				"trans": "주 타겟 선택"
+			}
+		},
+		"tip": {
+			"explain": {
+				"eng": "Select your prime prize. Each roll increases the chance of winning the selected target prize. click here for more information.",
+				"trans": "주요 보상을 선택하세요. 각 회전마다 선택한 대상 보상의 당첨 확률이 증가합니다. 더 자세한 정보는 여기를 클릭하세요."
+			}
+		}
+	},
+	"followUpLotteryNormalRewards": {
+		"additional": {
+			"eng": "Normal rewards are ALWAYS given in addition to any Prime Target wins",
+			"trans": "노멀 보상은 프라임 타겟 승리 외에 추가로 항상 지급됩니다"
+		},
+		"close": {
+			"eng": "UNDERSTOOD",
+			"trans": "알겠습니다"
+		},
+		"description": {
+			"eng": "Drop rates for normal rewards from ${lotteryName}",
+			"trans": "${lotteryName}의 일반 보상 드롭률"
+		},
+		"dropRates": {
+			"eng": "Drop Chances",
+			"trans": "드롭 확률"
+		},
+		"guarantee": {
+			"eng": "100% chance to receive one normal reward per roll",
+			"trans": "한 번의 회당 일반 보상을 100% 확률로 획득합니다."
+		},
+		"random": {
+			"eng": "Item is randomly selected based on the chance shown below",
+			"trans": "아래 확률에 따라 아이템이 무작위로 선택됩니다"
+		},
+		"title": {
+			"eng": "Normal Rewards",
+			"trans": "일반 보상"
+		}
+	},
 	"forgotPasswordPopup": {
 		"enterEmail": {
 			"eng": "Enter your email to reset your password. an reset link will be sent to your email.",
@@ -3554,6 +3712,10 @@
 		}
 	},
 	"hitlist": {
+		"loading": {
+			"eng": "Loading bounties...",
+			"trans": "현상금 정보를 로드 중..."
+		},
 		"noBounties": {
 			"eng": "No bounties available",
 			"trans": "사냥 대상이 없습니다"
@@ -7239,8 +7401,8 @@
 			"trans": "아크라이트 타임즈, 당신 갱 기사 떴네."
 		},
 		"newReportAvailable": {
-			"eng": "The Arclight Chronicle has published today\\'s news report!",
-			"trans": "오늘, 아크라이트 크로니클에서 최신 뉴스 속보가 떴다!"
+			"eng": "The Arclight Chronicle has published today's news report!",
+			"trans": "아크라이트 연대기가 오늘의 뉴스를 게시했습니다!"
 		},
 		"newsReportGenerated": {
 			"eng": "Arclight Times posted a new news report",
@@ -7670,8 +7832,8 @@
 				]
 			},
 			"shopName": {
-				"eng": "Lilith\\'s Store",
-				"trans": "릴리스의 상점"
+				"eng": "Lilith's Store",
+				"trans": "릴리스 상점"
 			}
 		},
 		"healRestored": {
@@ -7828,8 +7990,8 @@
 				]
 			},
 			"shopName": {
-				"eng": "Maxine\\'s Shop",
-				"trans": "맥신의 상점"
+				"eng": "Maxine's Shop",
+				"trans": "맥신의 매장"
 			}
 		}
 	},
@@ -8732,6 +8894,12 @@
 			"successBounty": {
 				"eng": "You received bounty of ${money1} and ${money2} for eliminating ${targetPlayer}",
 				"trans": "당신은 ${targetPlayer}을(를) 제거하여 ${money1}과(와) ${money2}의 현상금을 받았습니다"
+			}
+		},
+		"toast": {
+			"statCooldown": {
+				"eng": "Because you have recently attacked this player so it does not count towards statistic record",
+				"trans": "최근에 이 플레이어를 공격했으므로 통계 기록에 반영되지 않습니다"
 			}
 		}
 	},

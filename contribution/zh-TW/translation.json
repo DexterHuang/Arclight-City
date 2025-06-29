@@ -387,6 +387,10 @@
 	},
 	"apartmentPage": {
 		"kitchenButton": {
+			"error": {
+				"eng": "You must be the owner of the apartment to access the kitchen",
+				"trans": "您必須是公寓的主人才能進入廚房"
+			},
 			"title": {
 				"eng": "kitchen",
 				"trans": "廚房"
@@ -1769,6 +1773,16 @@
 		"leaveClan": {
 			"eng": "leave gang",
 			"trans": "離開幫派"
+		},
+		"leaveClanModal": {
+			"description": {
+				"eng": "Are you sure you want to leave this gang?",
+				"trans": "您真的要退出此幫派嗎？"
+			},
+			"title": {
+				"eng": "Leave gang",
+				"trans": "離開幫派"
+			}
 		},
 		"makePrivate": {
 			"eng": "Make Private",
@@ -3279,6 +3293,150 @@
 			"trans": "首儲雙倍回饋"
 		}
 	},
+	"followLottery": {
+		"error": {
+			"invalidPrimeTargetIndex": {
+				"eng": "Invalid prime target index",
+				"trans": "主要目標索引無效"
+			},
+			"noPrimeTargetSelected": {
+				"eng": "Please select a prime target first",
+				"trans": "請先選擇主要目標"
+			},
+			"notEnoughCurrency": {
+				"eng": "Insufficient ${currency}",
+				"trans": "${currency}不足"
+			}
+		}
+	},
+	"followUpLottery": {
+		"cyberCache": {
+			"displayName": {
+				"eng": "Cyber Cache",
+				"trans": "資料快取"
+			}
+		},
+		"description": {
+			"eng": "Follow-Up Lottery",
+			"trans": "加碼抽獎"
+		},
+		"main": {
+			"currentTarget": {
+				"eng": "Current Prime Target",
+				"trans": "目前首要目標"
+			},
+			"normalRewards": {
+				"eng": "Normal Rewards",
+				"trans": "普通獎勵"
+			},
+			"resetPrimeTarget": {
+				"eng": "RESET",
+				"trans": "重置"
+			},
+			"roll": {
+				"eng": "ROLL",
+				"trans": "投骰子"
+			},
+			"rolling": {
+				"eng": "ROLLING...",
+				"trans": "滾動中..."
+			},
+			"selectPrimeTarget": {
+				"eng": "Select Prime Target",
+				"trans": "選擇主要目標"
+			},
+			"targetSelected": {
+				"eng": "Target Selected",
+				"trans": "目標已鎖定"
+			},
+			"tierProgress": {
+				"eng": "TIER PROGRESS",
+				"trans": "階級進度"
+			}
+		},
+		"resetConfirm": {
+			"afterReset": {
+				"eng": "After Reset",
+				"trans": "重置後"
+			},
+			"currentProgress": {
+				"eng": "Current Progress",
+				"trans": "當前進度"
+			},
+			"description": {
+				"eng": "You can choose a new Prime Target after resetting, but you will lose your current progress.",
+				"trans": "重置後可以選擇新的主要目標，但會失去當前進度。"
+			},
+			"title": {
+				"eng": "Reset Prime Target?",
+				"trans": "重置主要目標？"
+			}
+		},
+		"result": {
+			"continue": {
+				"eng": "CONTINUE",
+				"trans": "繼續"
+			},
+			"desc": {
+				"eng": "Data decrypted. Contents are as follows:",
+				"trans": "資料已解密，內容如下"
+			},
+			"title": {
+				"eng": "PRIZE ACQUIRED",
+				"trans": "獎勵獲得"
+			}
+		},
+		"selectTarget": {
+			"description": {
+				"eng": "Do you want to select this item as your Prime Target?",
+				"trans": "您想選擇此物品作為您的首要目標嗎？"
+			},
+			"error": {
+				"eng": "Failed to select target. Please try again.",
+				"trans": "無法選取目標，請重新嘗試。"
+			},
+			"title": {
+				"eng": "Select Prime Target",
+				"trans": "選擇主要目標"
+			}
+		},
+		"tip": {
+			"explain": {
+				"eng": "Select your prime prize. Each roll increases the chance of winning the selected target prize. click here for more information.",
+				"trans": "選擇你的首獎獎品。每次抽獎都會增加贏得所選目標獎品的機率。點此查看更多資訊。"
+			}
+		}
+	},
+	"followUpLotteryNormalRewards": {
+		"additional": {
+			"eng": "Normal rewards are ALWAYS given in addition to any Prime Target wins",
+			"trans": "普通獎勵始終會在擊敗主要目標後另行給予"
+		},
+		"close": {
+			"eng": "UNDERSTOOD",
+			"trans": "了解"
+		},
+		"description": {
+			"eng": "Drop rates for normal rewards from ${lotteryName}",
+			"trans": "${lotteryName}普通獎勵的掉落機率"
+		},
+		"dropRates": {
+			"eng": "Drop Chances",
+			"trans": "掉落機率"
+		},
+		"guarantee": {
+			"eng": "100% chance to receive one normal reward per roll",
+			"trans": "每次抽獎有100%的機率獲得一個普通獎勵"
+		},
+		"random": {
+			"eng": "Item is randomly selected based on the chance shown below",
+			"trans": "物品將依照以下機率隨機抽取"
+		},
+		"title": {
+			"eng": "Normal Rewards",
+			"trans": "普通獎勵"
+		}
+	},
 	"forgotPasswordPopup": {
 		"enterEmail": {
 			"eng": "Enter your email to reset your password. an reset link will be sent to your email.",
@@ -3554,6 +3712,10 @@
 		}
 	},
 	"hitlist": {
+		"loading": {
+			"eng": "Loading bounties...",
+			"trans": "載入賞金任務中..."
+		},
 		"noBounties": {
 			"eng": "No bounties available",
 			"trans": "沒有賞金可用"
@@ -7239,8 +7401,8 @@
 			"trans": "幻光時報新聞有提到你的幫派喔！"
 		},
 		"newReportAvailable": {
-			"eng": "The Arclight Chronicle has published today\\'s news report!",
-			"trans": "幻光編年史，今日快訊已上線！"
+			"eng": "The Arclight Chronicle has published today's news report!",
+			"trans": "幻光紀事報已發佈今天的新聞報導！"
 		},
 		"newsReportGenerated": {
 			"eng": "Arclight Times posted a new news report",
@@ -7670,7 +7832,7 @@
 				]
 			},
 			"shopName": {
-				"eng": "Lilith\\'s Store",
+				"eng": "Lilith's Store",
 				"trans": "莉莉絲商店"
 			}
 		},
@@ -7828,8 +7990,8 @@
 				]
 			},
 			"shopName": {
-				"eng": "Maxine\\'s Shop",
-				"trans": "瑪克心的商店"
+				"eng": "Maxine's Shop",
+				"trans": "瑪克心店"
 			}
 		}
 	},
@@ -8732,6 +8894,12 @@
 			"successBounty": {
 				"eng": "You received bounty of ${money1} and ${money2} for eliminating ${targetPlayer}",
 				"trans": "你因消滅${targetPlayer}而獲得${money1}和${money2}的賞金"
+			}
+		},
+		"toast": {
+			"statCooldown": {
+				"eng": "Because you have recently attacked this player so it does not count towards statistic record",
+				"trans": "由於你最近攻擊過此玩家，因此不列入統計紀錄"
 			}
 		}
 	},
