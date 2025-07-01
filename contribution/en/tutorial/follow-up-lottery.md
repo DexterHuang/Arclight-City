@@ -16,9 +16,6 @@ Think of tiers as leveling up your luck. Every time a roll doesn't grant the Pri
 ## Where can I see the Follow-Up Lottery chances?
 With full transparency, all probabilities and cost for each tier for prime target and normal rewards are displayed clearly in-game. Just tap the information icon on the lottery screen for a full breakdown of your current odds.
 
-## What happens during the Follow-Up Lottery's reset?
-The lottery page **resets** when the timer expires. If you haven't won your prize by then, your current tier progress and chosen Prime Target will also **reset**. You can then select a new Prime Target again.
-
 ## What happens when the Follow-Up Lottery resets?
 The lottery page **resets** when the timer expires. If you haven't won your prize by then, your current tier progress and chosen Prime Target will also **reset**. You can then select a new Prime Target again.
 
