@@ -16,16 +16,21 @@ Think of tiers as leveling up your luck. Every time a roll doesn't grant the Pri
 ## Where can I see the Follow-Up Lottery chances?
 With full transparency, all probabilities and cost for each tier for prime target and normal rewards are displayed clearly in-game. Just tap the information icon on the lottery screen for a full breakdown of your current odds.
 
-## What happens during the Follow-Up Lottery's daily reset?
-The lottery page **resets** once per day. If you haven't won your prize by then, your current tier progress and chosen Prime Target will also **reset**. You can then select a prime target again. You can also reset it manually at any time.
+## What happens during the Follow-Up Lottery's reset?
+The lottery page **resets** when the timer expires. If you haven't won your prize by then, your current tier progress and chosen Prime Target will also **reset**. You can then select a new Prime Target again.
 
-## How does manual reset work in the Follow-Up Lottery?
-You can use the manual reset feature at any time if you want to start over or pick a different Prime Target. Just tap **RESET TARGET** on the lottery screen. This will reset your current tier progress and let you choose a new Prime Target right away. Use this if you change your mind or want to try for a different prize!
+## What happens when the Follow-Up Lottery resets?
+The lottery page **resets** when the timer expires. If you haven't won your prize by then, your current tier progress and chosen Prime Target will also **reset**. You can then select a new Prime Target again.
 
 ## Can I change my Prime Target in the Follow-Up Lottery?
-Absolutely! If you want to switch your **Prime Target**, just use the manual reset feature by tapping **RESET TARGET**. This will reset your tier progress and let you choose a different prize right away.
+Once you've locked in your **Prime Target**, it stays fixed until one of two events occur:
+1. **You win the Prime Target:** Congratulations, the hunt is over and you may pick a new target next time.
+2. **Reset Timer Expires:** When the timer expires, the lottery resets and you can choose a new Prime Target.
+
+Choose wisely before locking in your Prime Target!
 
 ## Any tips for the Follow-Up Lottery?
+- **Lock In Carefully:** You cannot change your Prime Target once selected until you win it or the reset occurs, so be sure it's the prize you truly want.
 - **Stay Focused:** Sticking with your chosen target makes the most of your increasing odds from climbing tiers.
 - **It's Guaranteed:** Remember, the Prime Target is a guaranteed drop. Every roll gets you closer to victory!
 - **Enjoy the Hunt:** Each roll brings potential rewards, and the main prize is always within reach.
