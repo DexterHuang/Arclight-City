@@ -987,18 +987,6 @@
 				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
 				"trans": "連續21天每日領取不同獎勵，第22天最高可領取${itemName}"
 			},
-			"pass1": {
-				"name": {
-					"eng": "Basic",
-					"trans": "基礎"
-				}
-			},
-			"pass2": {
-				"name": {
-					"eng": "Advanced",
-					"trans": "進階"
-				}
-			},
 			"subtitle": {
 				"eng": "Battle Pass",
 				"trans": "戰鬥通行證"
@@ -1012,18 +1000,6 @@
 			"description": {
 				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
 				"trans": "可連續21天獲得各種每日獎勵，第22天更可獲得最多${itemName}"
-			},
-			"pass1": {
-				"name": {
-					"eng": "Basic",
-					"trans": "基礎"
-				}
-			},
-			"pass2": {
-				"name": {
-					"eng": "Advanced",
-					"trans": "高級"
-				}
 			},
 			"subtitle": {
 				"eng": "Christmas Rewards",
@@ -1039,24 +1015,6 @@
 				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
 				"trans": "連續21天每日領取不同獎勵，第22天最高可領取${itemName}"
 			},
-			"pass1": {
-				"name": {
-					"eng": "free",
-					"trans": "免費"
-				}
-			},
-			"pass2": {
-				"name": {
-					"eng": "Tier 1",
-					"trans": "一階"
-				}
-			},
-			"pass3": {
-				"name": {
-					"eng": "Tier 2",
-					"trans": "二階"
-				}
-			},
 			"subtitle": {
 				"eng": "Battle Track",
 				"trans": "戰鬥軌跡"
@@ -1071,12 +1029,6 @@
 				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
 				"trans": "每日獲得各種獎勵，持續21天，並在第22天獲得${itemName}。"
 			},
-			"pass1": {
-				"name": {
-					"eng": "Basic",
-					"trans": "基本"
-				}
-			},
 			"subtitle": {
 				"eng": "halloween Package",
 				"trans": "萬聖節包裹"
@@ -1090,18 +1042,6 @@
 			"description": {
 				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
 				"trans": "每日獲得各種獎勵，持續21天，並在第22天獲得${itemName}。"
-			},
-			"pass1": {
-				"name": {
-					"eng": "Basic",
-					"trans": "基本"
-				}
-			},
-			"pass2": {
-				"name": {
-					"eng": "Advanced",
-					"trans": "進階"
-				}
 			},
 			"subtitle": {
 				"eng": "July Package",
@@ -1163,18 +1103,6 @@
 				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
 				"trans": "每日登入領取好禮，連續21天登入，第22天最高可領取${itemName}"
 			},
-			"pass1": {
-				"name": {
-					"eng": "Basic",
-					"trans": "基礎"
-				}
-			},
-			"pass2": {
-				"name": {
-					"eng": "Advanced",
-					"trans": "進階"
-				}
-			},
 			"subtitle": {
 				"eng": "Battle Pass",
 				"trans": "戰鬥通行證"
@@ -1215,18 +1143,6 @@
 				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
 				"trans": "每日獲得各種獎勵，持續21天，並在第22天獲得${itemName}。"
 			},
-			"pass1": {
-				"name": {
-					"eng": "Basic",
-					"trans": "基本"
-				}
-			},
-			"pass2": {
-				"name": {
-					"eng": "Advanced",
-					"trans": "進階"
-				}
-			},
 			"subtitle": {
 				"eng": "November Package",
 				"trans": "十一月包裹"
@@ -1240,18 +1156,6 @@
 			"description": {
 				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
 				"trans": "每日登入領取好禮，連續21天登入可領取${itemName}"
-			},
-			"pass1": {
-				"name": {
-					"eng": "Basic",
-					"trans": "基礎"
-				}
-			},
-			"pass2": {
-				"name": {
-					"eng": "Advanced",
-					"trans": "進階"
-				}
 			},
 			"subtitle": {
 				"eng": "Neon Bloom",
@@ -1267,18 +1171,6 @@
 				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
 				"trans": "每日獲得各種獎勵，持續21天，並在第22天獲得${itemName}。"
 			},
-			"pass1": {
-				"name": {
-					"eng": "Basic",
-					"trans": "基本"
-				}
-			},
-			"pass2": {
-				"name": {
-					"eng": "Advanced",
-					"trans": "進階"
-				}
-			},
 			"subtitle": {
 				"eng": "september Package",
 				"trans": "九月通行證"
@@ -1288,15 +1180,17 @@
 				"trans": "戰鬥通行證"
 			}
 		},
-		"summer": {
-			"description": {
-				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
-				"trans": "每日獲得各種獎勵，持續21天，並在第22天獲得${itemName}。"
+		"standard": {
+			"pass0": {
+				"name": {
+					"eng": "free",
+					"trans": "免費"
+				}
 			},
 			"pass1": {
 				"name": {
 					"eng": "Basic",
-					"trans": "基本"
+					"trans": "基礎"
 				}
 			},
 			"pass2": {
@@ -1304,6 +1198,12 @@
 					"eng": "Advanced",
 					"trans": "進階"
 				}
+			}
+		},
+		"summer": {
+			"description": {
+				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
+				"trans": "每日獲得各種獎勵，持續21天，並在第22天獲得${itemName}。"
 			},
 			"subtitle": {
 				"eng": "summer Package",
@@ -3307,39 +3207,95 @@
 				"eng": "Insufficient ${currency}",
 				"trans": "${currency}不足"
 			}
+		},
+		"mail": {
+			"normalWin": {
+				"eng": "You received: ${normalItem} from the ${lotteryType} Follow-Up Lottery. Better luck next time! The reward will be sent to your apartment.",
+				"trans": "你從${lotteryType}追加抽獎中獲得了${normalItem}，下次再接再厲！獎勵將寄送至你的公寓。"
+			},
+			"primeWin": {
+				"eng": "Congratulations! You won the Prime Target: ${primeItem} from the ${lotteryType} Follow-Up Lottery, plus a bonus: ${normalItem}! The rewards will be sent to your apartment.",
+				"trans": "恭喜！你在${lotteryType}追加抽獎中獲得了首獎：${primeItem}，還有額外獎勵：${normalItem}！獎品將寄送至你的公寓。"
+			}
 		}
 	},
 	"followUpLottery": {
+		"animation": {
+			"analyzing": {
+				"eng": "ANALYZING TARGET",
+				"trans": "分析目標"
+			},
+			"calculatingTitle": {
+				"eng": "CALCULATING PRIME...",
+				"trans": "計算中..."
+			},
+			"completeTitle": {
+				"eng": "RESULTS ARE IN!",
+				"trans": "結果出爐了!"
+			},
+			"primeNotWon": {
+				"eng": "No prime target this time, chance will be higher next roll!",
+				"trans": "這次沒中首選目標，下一輪機會更大！"
+			},
+			"primeWon": {
+				"eng": "PRIME TARGET ACQUIRED!",
+				"trans": "主要目標已鎖定!"
+			},
+			"title": {
+				"eng": "ROLLING...",
+				"trans": "進行中..."
+			}
+		},
 		"cyberCache": {
 			"displayName": {
 				"eng": "Cyber Cache",
 				"trans": "資料快取"
+			},
+			"subtitle": {
+				"eng": "Advanced tech rewards await",
+				"trans": "高科技獎勵等你來拿"
 			}
 		},
 		"description": {
 			"eng": "Follow-Up Lottery",
 			"trans": "加碼抽獎"
 		},
+		"error": {
+			"periodEnded": {
+				"eng": "The lottery period has ended. Please select a target again.",
+				"trans": "抽獎時間已結束。請重新選擇目標。"
+			},
+			"selectTargetFirst": {
+				"eng": "Please select a prime target first!",
+				"trans": "請先選擇主要目標！"
+			}
+		},
+		"info": {
+			"currentChance": {
+				"eng": "Prime Chance",
+				"trans": "頂級機會"
+			},
+			"reset": {
+				"eng": "The lottery period has ended and was reset.",
+				"trans": "抽獎期間已結束並重置。"
+			},
+			"resetIn": {
+				"eng": "Resets In",
+				"trans": "倒計時重置"
+			}
+		},
 		"main": {
 			"currentTarget": {
 				"eng": "Current Prime Target",
 				"trans": "目前首要目標"
 			},
-			"normalRewards": {
-				"eng": "Normal Rewards",
-				"trans": "普通獎勵"
-			},
-			"resetPrimeTarget": {
-				"eng": "RESET",
-				"trans": "重置"
+			"guaranteedRewards": {
+				"eng": "Guaranteed Rewards",
+				"trans": "保證獎勵"
 			},
 			"roll": {
 				"eng": "ROLL",
 				"trans": "投骰子"
-			},
-			"rolling": {
-				"eng": "ROLLING...",
-				"trans": "滾動中..."
 			},
 			"selectPrimeTarget": {
 				"eng": "Select Prime Target",
@@ -3352,6 +3308,30 @@
 			"tierProgress": {
 				"eng": "TIER PROGRESS",
 				"trans": "階級進度"
+			}
+		},
+		"preRoll": {
+			"desc": {
+				"eng": "Prizes will be selected from the pool below. Good luck.",
+				"trans": "獎品會從下面的獎池中選出。祝你走運！"
+			},
+			"normalPrizes": {
+				"eng": "Normal Prize Pool",
+				"trans": "普通獎池"
+			},
+			"primeTarget": {
+				"eng": "Your Prime Target",
+				"trans": "你的頭號目標"
+			},
+			"title": {
+				"eng": "PREPARE TO ROLL",
+				"trans": "即將滾動"
+			}
+		},
+		"prompt": {
+			"selectTarget": {
+				"eng": "Select a Prime Target below to begin.",
+				"trans": "選取下列主要目標後即可開始"
 			}
 		},
 		"resetConfirm": {
@@ -3388,8 +3368,8 @@
 		},
 		"selectTarget": {
 			"description": {
-				"eng": "Do you want to select this item as your Prime Target?",
-				"trans": "您想選擇此物品作為您的首要目標嗎？"
+				"eng": "You cannot change your prime target once selected until the next reset (${time})",
+				"trans": "選定主要目標後，在下次重置（${time}）之前不能變更。"
 			},
 			"error": {
 				"eng": "Failed to select target. Please try again.",
@@ -3405,6 +3385,12 @@
 				"eng": "Select your prime prize. Each roll increases the chance of winning the selected target prize. click here for more information.",
 				"trans": "選擇你的首獎獎品。每次抽獎都會增加贏得所選目標獎品的機率。點此查看更多資訊。"
 			}
+		}
+	},
+	"followUpLotteryBanner": {
+		"primeTargets": {
+			"eng": "Rewards:",
+			"trans": "獎勵："
 		}
 	},
 	"followUpLotteryNormalRewards": {
@@ -6293,6 +6279,10 @@
 		"equipmentUpgrade": {
 			"eng": "Equipment Upgrade",
 			"trans": "裝備升級"
+		},
+		"followUpLottery": {
+			"eng": "Follow Up Lottery",
+			"trans": "跟進抽獎"
 		},
 		"gangUpkeep": {
 			"eng": "Gang Upkeep",
