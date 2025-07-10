@@ -2006,6 +2006,20 @@
 				"trans": "메인프레임에 재연결 중입니다... (${attempt}번 시도 중)"
 			}
 		},
+		"resuming": {
+			"description1": {
+				"eng": "Establishing connection to mainframe.",
+				"trans": "메인프레임에 연결 중입니다"
+			},
+			"description2": {
+				"eng": "All systems nominal, please standby...",
+				"trans": "모든 시스템이 정상 상태입니다. 잠시만 기다려 주세요..."
+			},
+			"title": {
+				"eng": "Connecting to server...",
+				"trans": "서버 연결 중..."
+			}
+		},
 		"updating": {
 			"description1": {
 				"eng": "Updating system, please standby...",
@@ -3376,8 +3390,8 @@
 				"trans": "대상을 선택하지 못했습니다. 다시 시도해 주세요."
 			},
 			"title": {
-				"eng": "Select Prime Target",
-				"trans": "주 타겟 선택"
+				"eng": "Do you want to select this item as your Prime Target?",
+				"trans": "이 아이템을 주요 표적으로 지정하시겠습니까?"
 			}
 		},
 		"tip": {

@@ -2006,6 +2006,20 @@
 				"trans": "Verbindung zum Mainframe wird wiederhergestellt... (${attempt})"
 			}
 		},
+		"resuming": {
+			"description1": {
+				"eng": "Establishing connection to mainframe.",
+				"trans": "Verbindung zum Hauptrechner wird hergestellt."
+			},
+			"description2": {
+				"eng": "All systems nominal, please standby...",
+				"trans": "Alle Systeme normal, bitte warten..."
+			},
+			"title": {
+				"eng": "Connecting to server...",
+				"trans": "Verbinde mit dem Server..."
+			}
+		},
 		"updating": {
 			"description1": {
 				"eng": "Updating system, please standby...",
@@ -3376,8 +3390,8 @@
 				"trans": "Konnte Ziel nicht auswählen. Versuchen Sie es nochmal."
 			},
 			"title": {
-				"eng": "Select Prime Target",
-				"trans": "Primärziel auswählen"
+				"eng": "Do you want to select this item as your Prime Target?",
+				"trans": "Möchten Sie diesen Gegenstand als Ihr Hauptziel auswählen?"
 			}
 		},
 		"tip": {

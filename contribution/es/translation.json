@@ -2006,6 +2006,20 @@
 				"trans": "Reconectando al mainframe... (${attempt})"
 			}
 		},
+		"resuming": {
+			"description1": {
+				"eng": "Establishing connection to mainframe.",
+				"trans": "Conectando a la mainframe"
+			},
+			"description2": {
+				"eng": "All systems nominal, please standby...",
+				"trans": "Todos los sistemas están operativos, manténgase a la espera..."
+			},
+			"title": {
+				"eng": "Connecting to server...",
+				"trans": "Conectando al servidor..."
+			}
+		},
 		"updating": {
 			"description1": {
 				"eng": "Updating system, please standby...",
@@ -3376,8 +3390,8 @@
 				"trans": "No se pudo seleccionar el objetivo. Por favor, intente nuevamente."
 			},
 			"title": {
-				"eng": "Select Prime Target",
-				"trans": "Marca el objetivo clave"
+				"eng": "Do you want to select this item as your Prime Target?",
+				"trans": "¿Quieres seleccionar este elemento como tu objetivo principal?"
 			}
 		},
 		"tip": {

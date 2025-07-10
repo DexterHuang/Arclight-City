@@ -2006,6 +2006,20 @@
 				"trans": "Reconnaissance de la connexion au mainframe... (${attempt})"
 			}
 		},
+		"resuming": {
+			"description1": {
+				"eng": "Establishing connection to mainframe.",
+				"trans": "Établissement de la connexion à l'ordinateur central."
+			},
+			"description2": {
+				"eng": "All systems nominal, please standby...",
+				"trans": "Tous les systèmes fonctionnent normalement, veuillez patienter..."
+			},
+			"title": {
+				"eng": "Connecting to server...",
+				"trans": "Connexion au serveur..."
+			}
+		},
 		"updating": {
 			"description1": {
 				"eng": "Updating system, please standby...",
@@ -3376,8 +3390,8 @@
 				"trans": "Impossible de sélectionner la cible. Essayez à nouveau."
 			},
 			"title": {
-				"eng": "Select Prime Target",
-				"trans": "Choisissez la cible prioritaire"
+				"eng": "Do you want to select this item as your Prime Target?",
+				"trans": "Voulez-vous sélectionner cet objet comme votre cible principale ?"
 			}
 		},
 		"tip": {

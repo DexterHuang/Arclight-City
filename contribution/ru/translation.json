@@ -2006,6 +2006,20 @@
 				"trans": "Подключение к главной системе... (${attempt})"
 			}
 		},
+		"resuming": {
+			"description1": {
+				"eng": "Establishing connection to mainframe.",
+				"trans": "Устанавливается соединение с главным сервером."
+			},
+			"description2": {
+				"eng": "All systems nominal, please standby...",
+				"trans": "Все системы в порядке, ожидайте..."
+			},
+			"title": {
+				"eng": "Connecting to server...",
+				"trans": "Подключение к серверу..."
+			}
+		},
 		"updating": {
 			"description1": {
 				"eng": "Updating system, please standby...",
@@ -3376,8 +3390,8 @@
 				"trans": "Не удалось выбрать цель. Пожалуйста, попробуйте снова."
 			},
 			"title": {
-				"eng": "Select Prime Target",
-				"trans": "Выберите основную цель"
+				"eng": "Do you want to select this item as your Prime Target?",
+				"trans": "Выбрать этот предмет в качестве основной цели?"
 			}
 		},
 		"tip": {

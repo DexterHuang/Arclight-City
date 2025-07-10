@@ -2006,6 +2006,20 @@
 				"trans": "メインフレームに再接続中... ${attempt}回目の試行"
 			}
 		},
+		"resuming": {
+			"description1": {
+				"eng": "Establishing connection to mainframe.",
+				"trans": "メインフレームへ接続中"
+			},
+			"description2": {
+				"eng": "All systems nominal, please standby...",
+				"trans": "全システム正常、準備してください..."
+			},
+			"title": {
+				"eng": "Connecting to server...",
+				"trans": "サーバーに接続中..."
+			}
+		},
 		"updating": {
 			"description1": {
 				"eng": "Updating system, please standby...",
@@ -3376,8 +3390,8 @@
 				"trans": "対象を選択できませんでした。もう一度やり直してください。"
 			},
 			"title": {
-				"eng": "Select Prime Target",
-				"trans": "主目標を選択してください"
+				"eng": "Do you want to select this item as your Prime Target?",
+				"trans": "このアイテムをメインターゲットに設定しますか？"
 			}
 		},
 		"tip": {
