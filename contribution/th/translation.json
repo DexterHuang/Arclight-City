@@ -377,6 +377,12 @@
 			}
 		},
 		"rental": {
+			"notPaid": {
+				"title": {
+					"eng": "Apartment rental fee ${amount} has not been paid and your apartment has been removed",
+					"trans": "ค่าเช่าอพาร์ทเมนต์ ${amount} ยังไม่ได้ชำระ และอพาร์ทเมนต์ของคุณถูกยกเลิกแล้ว"
+				}
+			},
 			"paid": {
 				"title": {
 					"eng": "Apartment rental fee ${amount} has been deducted from your account",
@@ -544,7 +550,7 @@
 		},
 		"wantedLevel": {
 			"eng": "WANTED LVL ${level}",
-			"trans": "เลเวล ต้องการ"
+			"trans": "ค้นหาผู้ร้าย LVL ${level}"
 		}
 	},
 	"attackBar": {
@@ -1268,8 +1274,7 @@
 		},
 		"timeToNextRefresh": {
 			"eng": "Time to next refresh",
-			"trans": "รีเฟรชครั้งต่อไปในอีก",
-			"vars": []
+			"trans": "รีเฟรชครั้งต่อไปในอีก"
 		},
 		"unlock": {
 			"eng": "Unlock",
@@ -1436,8 +1441,7 @@
 			},
 			"title": {
 				"eng": "Your name is \"${name}\"?",
-				"trans": "นาย/เธอชื่อ \"${name}\" ใช่มั้ย?",
-				"vars": []
+				"trans": "นาย/เธอชื่อ \"${name}\" ใช่มั้ย?"
 			}
 		},
 		"createButton": {
@@ -1582,6 +1586,10 @@
 		},
 		"notification": {
 			"collapsed": {
+				"body": {
+					"eng": "Your gang has collapsed due to lack of resources and funds.",
+					"trans": "แก๊งของคุณล่มสลายเนื่องจากขาดแคลนทรัพยากรและเงิน"
+				},
 				"title": {
 					"eng": "Your gang has collapsed!",
 					"trans": "แก๊งค์ของคุณเละแล้ว!"
@@ -1663,7 +1671,7 @@
 		"gang": {
 			"members": {
 				"eng": "${amount} members",
-				"trans": "\\[จำนวน] พวก"
+				"trans": "${amount} สมาชิก"
 			}
 		},
 		"joinButton": {
@@ -3382,16 +3390,20 @@
 		},
 		"selectTarget": {
 			"description": {
+				"eng": "Do you want to select this item as your Prime Target?",
+				"trans": "คุณต้องการเลือกไอเทมนี้เป็นเป้าหมายหลักหรือไม่"
+			},
+			"description2": {
 				"eng": "You cannot change your prime target once selected until the next reset (${time})",
-				"trans": "เมื่อเลือกเป้าหมายหลักแล้ว คุณจะไม่สามารถเปลี่ยนได้จนถึงการรีเซ็ตครั้งต่อไป (${time})"
+				"trans": "เมื่อเลือกเป้าหมายหลักแล้ว คุณจะไม่สามารถเปลี่ยนได้จนถึงการรีเซ็ตถัดไป (${time})"
 			},
 			"error": {
 				"eng": "Failed to select target. Please try again.",
 				"trans": "ไม่สามารถเลือกเป้าหมายได้ กรุณาลองอีก"
 			},
 			"title": {
-				"eng": "Do you want to select this item as your Prime Target?",
-				"trans": "ต้องการเลือกไอเทมนี้เป็นเป้าหมายหลักใช่ไหม"
+				"eng": "Select Prime Target",
+				"trans": "เลือกเป้าหมายหลัก"
 			}
 		},
 		"tip": {
@@ -3473,15 +3485,13 @@
 		"remove": {
 			"success": {
 				"eng": "You have removed ${friendName} from your friends list.",
-				"trans": "คุณลบ ${friendName} ไปจากเพื่อนแล้ว",
-				"vars": []
+				"trans": "คุณลบ ${friendName} ไปจากเพื่อนแล้ว"
 			}
 		},
 		"removeEnemy": {
 			"success": {
 				"eng": "You have removed ${playerName} from your enemy list.",
-				"trans": "แก/นาย ลบ ${playerName} ออกจากลิสต์ศัตรูไปแล้ว",
-				"vars": []
+				"trans": "แก/นาย ลบ ${playerName} ออกจากลิสต์ศัตรูไปแล้ว"
 			}
 		}
 	},
@@ -5856,8 +5866,7 @@
 	"localEnemy": {
 		"levelDisplay": {
 			"eng": "Level ${minLevel} - ${maxLevel}",
-			"trans": "LV. ${minLevel} ถึง ${maxLevel}",
-			"vars": []
+			"trans": "LV. ${minLevel} ถึง ${maxLevel}"
 		},
 		"selectLevelModal": {
 			"display": {
@@ -5881,13 +5890,11 @@
 		},
 		"level": {
 			"eng": "Level ${level}",
-			"trans": "เลเวล ${level}",
-			"vars": []
+			"trans": "เลเวล ${level}"
 		},
 		"levelRange": {
 			"eng": "Lv ${enemyMinLevel}-${enemyMaxLevel}",
-			"trans": "Lv. ${enemyMinLevel}-${enemyMaxLevel}",
-			"vars": []
+			"trans": "Lv. ${enemyMinLevel}-${enemyMaxLevel}"
 		},
 		"listHeader": {
 			"title": {
@@ -5897,8 +5904,7 @@
 		},
 		"lockedError": {
 			"eng": "You can travel to this location when you reach level ${level}, or by completing the previous level stronghold.",
-			"trans": "คุณสามารถเดินทางไปยังสถานที่แห่งนี้ได้เมื่อถึงเลเวล ${level} หรือเมื่อทำภารกิจป้อมปราการในด่านก่อนหน้าสำเร็จ",
-			"vars": []
+			"trans": "คุณสามารถเดินทางไปยังสถานที่แห่งนี้ได้เมื่อถึงเลเวล ${level} หรือเมื่อทำภารกิจป้อมปราการในด่านก่อนหน้าสำเร็จ"
 		}
 	},
 	"loginFromOtherDevicePage": {
@@ -6058,6 +6064,10 @@
 			"fromPlayer": {
 				"eng": "${senderName} sent you a mail",
 				"trans": "${senderName} ส่งข่าวให้คุณ"
+			},
+			"fromSystem": {
+				"eng": "You received a System Mail",
+				"trans": "คุณได้รับเมลจากระบบ"
 			}
 		},
 		"pvpFailed1": {
@@ -7016,14 +7026,38 @@
 				"trans": "ซิงค์ข้อมูลโหนด"
 			}
 		},
-		"gameName": {
+		"dialMatch": {
+			"complete": {
+				"eng": "▲ CALIBRATION COMPLETE ▲",
+				"trans": "ปรับแต่งเสร็จสิ้น"
+			},
+			"dialLabel": {
+				"eng": "DIAL-${dialNumber}",
+				"trans": "ดีอัล-${dialNumber}"
+			},
+			"howToPlay": {
+				"eng": "Click each dial to rotate it and match the target position",
+				"trans": "เลือกแต่ละไดอัลแล้วหมุนให้ตรงกับตำแหน่งเป้าหมาย"
+			},
 			"instructions": {
-				"eng": "How to play",
-				"trans": "วิธีเล่น"
+				"eng": "CLICK DIALS TO ROTATE AND MATCH TARGET POSITIONS",
+				"trans": "กดปุ่มหมุนและจับคู่ตำแหน่งเป้าหมาย"
+			},
+			"status": {
+				"eng": "STATUS: ${current}/${total} SYNCHRONIZED",
+				"trans": "สถานะ: ${current}/${total} ซิงโครไนซ์"
+			},
+			"statusSync": {
+				"eng": "SYNC",
+				"trans": "สิงค์"
+			},
+			"statusUnsync": {
+				"eng": "UNSYNC",
+				"trans": "ไม่ซิงค์"
 			},
 			"title": {
-				"eng": "Game Title",
-				"trans": "เมืองมืด"
+				"eng": "SYSTEM CALIBRATION",
+				"trans": "การปรับเทียบระบบ"
 			}
 		},
 		"neonFuse": {
@@ -7134,8 +7168,7 @@
 				},
 				"progress": {
 					"eng": "SECURITY NODE BYPASSED. ${remaining} REMAINING.",
-					"trans": "ผ่านด่านความปลอดภัยแล้ว เหลือ ${remaining} จุด",
-					"vars": []
+					"trans": "ผ่านด่านความปลอดภัยแล้ว เหลือ ${remaining} จุด"
 				},
 				"success": {
 					"eng": "ACCESS GRANTED. TERMINAL UNLOCKED.",
@@ -7258,8 +7291,7 @@
 			},
 			"invalidAmount": {
 				"eng": "Amount must be between ${min} and ${max}",
-				"trans": "ใส่ได้แค่ ${min} ถึง ${max} นะ",
-				"vars": []
+				"trans": "ใส่ได้แค่ ${min} ถึง ${max} นะ"
 			}
 		}
 	},
@@ -7396,7 +7428,7 @@
 		},
 		"totalReactions": {
 			"eng": "${totalReactions} reactions",
-			"trans": "${0} รีแอคชั่น"
+			"trans": "มีปฏิกิริยา ${totalReactions}"
 		}
 	},
 	"newsReport": {
@@ -7429,9 +7461,17 @@
 				"eng": "You have already invited this player",
 				"trans": "คุณเชิญผู้เล่นคนนี้ไปแล้ว"
 			},
+			"body": {
+				"eng": "${inviter} have invited you to their apartment",
+				"trans": "${inviter} ได้เชิญคุณไปที่อพาร์ทเมนต์ของเขา/เธอ"
+			},
 			"message": {
 				"eng": "${playerName} has invited you to their apartment.",
 				"trans": "${playerName} ชวนคุณไปห้องแล้วนะ"
+			},
+			"title": {
+				"eng": "Apartment Invite",
+				"trans": "อพาร์ทเมนต์เชิญคุณ"
 			}
 		},
 		"clanInvite": {
@@ -7439,15 +7479,27 @@
 				"eng": "You have already invited this player",
 				"trans": "คุณเชิญผู้เล่นคนนี้ไปแล้ว"
 			},
+			"body": {
+				"eng": "${inviter} have invited you to their gang ${clanName}",
+				"trans": "${inviter} เชิญคุณเข้าร่วมแก๊ง ${clanName}"
+			},
 			"message": {
 				"eng": "${playerName} has invited you to their gang ${clanName}.",
 				"trans": "`${playerName} ชวนเข้าแก็งค์ ${clanName} เลยเว้ย`"
+			},
+			"title": {
+				"eng": "Gang Invite",
+				"trans": "การเชิญเข้ากลุ่ม"
 			}
 		},
 		"lobbyInvite": {
 			"alreadyInvitedError": {
 				"eng": "You have already invited this player",
 				"trans": "คุณเชิญผู้เล่นคนนี้ไปแล้ว"
+			},
+			"body": {
+				"eng": "${inviter} have invited you to their stronghold lobby",
+				"trans": "${inviter} เชิญคุณเข้าร่วมโลบี้ป้อมไซเบอร์ของพวกเขา"
 			},
 			"message": {
 				"eng": "${playerName} has invited you to their stronghold lobby.",
@@ -8006,8 +8058,7 @@
 		},
 		"lockedMessage": {
 			"eng": "Unlocked at level ${levelRequired}",
-			"trans": "เปิดได้ที่เลเวล ${levelRequired}",
-			"vars": []
+			"trans": "เปิดได้ที่เลเวล ${levelRequired}"
 		},
 		"title": {
 			"eng": "City Center",
@@ -8106,8 +8157,8 @@
 			"trans": "พลาด! ลองใหม่"
 		},
 		"paymentErrorWithOrder": {
-			"eng": "Payment failed. If you were charged, contact support with order ID: {orderId}",
-			"trans": "จ่ายเงินไม่ได้ หากโดนหักเงินไปแล้ว ติดต่อซัพพอร์ตพร้อม Order ID: {orderId}"
+			"eng": "Payment failed. If you were charged, contact support with order ID: ${orderId}",
+			"trans": "การชำระเงินไม่สำเร็จ หากคุณถูกลงบัญชี โปรดติดต่อฝ่ายสนับสนุนด้วยรหัสออเดอร์: ${orderId}"
 		},
 		"paymentProcessingError": {
 			"eng": "Error processing payment. Please contact support.",
@@ -8130,8 +8181,8 @@
 			"trans": "ธุรกรรมปลอดภัยผ่าน PayPal"
 		},
 		"windowClosedWithOrder": {
-			"eng": "PayPal window closed. If you were charged, contact support with order ID: {orderId}",
-			"trans": "PayPal window ปิดไปแล้วนะ ถ้าโดนหักเงิน ติดต่อ Support พร้อม Order ID: {orderId}"
+			"eng": "PayPal window closed. If you were charged, contact support with order ID: ${orderId}",
+			"trans": "หน้าต่างของ PayPal ปิดแล้ว หากคุณถูกลงเงิน โปรดติดต่อฝ่ายสนับสนุนด้วยหมายเลขออเดอร์: ${orderId}"
 		}
 	},
 	"paypalCheckoutPage": {
@@ -8176,7 +8227,7 @@
 			},
 			"totalPriceValue": {
 				"eng": "${price} USD",
-				"trans": "${price} USD"
+				"trans": "${price} ดอลลาร์"
 			}
 		}
 	},
@@ -8231,8 +8282,7 @@
 		},
 		"notEnoughItem": {
 			"eng": "Not enough item: ${itemName} x${amount}",
-			"trans": "ของไม่พอ: ${itemName} x${amount}",
-			"vars": []
+			"trans": "ของไม่พอ: ${itemName} x${amount}"
 		},
 		"notEnoughLevel": {
 			"eng": "Not enough level: ${levelType} ${level}",
@@ -8244,8 +8294,7 @@
 		},
 		"notEnoughPsychosis": {
 			"eng": "Your Cyber-Psychosis symptom is too high to perform this action: ${psychosis}",
-			"trans": "อาการไซโคของคุณพุ่งสูง! ทำแบบนี้ไม่ได้: ${psychosis}",
-			"vars": []
+			"trans": "อาการไซโคของคุณพุ่งสูง! ทำแบบนี้ไม่ได้: ${psychosis}"
 		},
 		"psychosisRechargedNoti": {
 			"body": {
@@ -8641,7 +8690,7 @@
 		},
 		"topUpTabTip": {
 			"eng": "${netCoin} can be converted to ${universalDollars} at a rate of one to one, but not the other way around.",
-			"trans": "NetCoin สามารถแลกเป็น Universal Dollars ในอัตราส่วนหนึ่งต่อหนึ่ง แต่ไม่สามารถแลกกลับได้"
+			"trans": "${netCoin} สามารถแลกเปลี่ยนเป็น ${universalDollars} ด้วยอัตราส่วน 1:1 แต่ไม่สามารถทำได้อย่างกลับกัน"
 		},
 		"topUpTabTitle": {
 			"eng": "Top Up",
@@ -8655,8 +8704,7 @@
 	"premiumShopTopUpTab": {
 		"bonusAmount2": {
 			"eng": "+${bonusRate}% Bonus [+${bonusAmount} N$]",
-			"trans": "เพิ่ม +${bonusRate}% [+${bonusAmount} N$]",
-			"vars": []
+			"trans": "เพิ่ม +${bonusRate}% [+${bonusAmount} N$]"
 		},
 		"equivalent": {
 			"eng": "can be converted to ${amount}",
@@ -8788,7 +8836,7 @@
 		},
 		"noBlockerNoMoney": {
 			"eng": "You are out of ${item} and you do not have enough ${currency} to purchase from ${npc}.\\nWould you like to top up?",
-			"trans": "คุณไม่มี ${item} เหลือแล้ว และคุณมีเงินไม่พอที่จะซื้อจาก ${npc} \\nคุณต้องการเติมเงินไหม?"
+			"trans": "คุณหมด ${item} และไม่มี ${currency} เพียงพอที่จะซื้อจาก ${npc}\\nต้องการเติมเงินหรือไม่"
 		},
 		"subtitle": {
 			"eng": "Your cyber-psychosis level is critically high. you can use ${item} to reduce your cyber-psychosis symptom.",
@@ -8815,8 +8863,7 @@
 		"daily": {
 			"description": {
 				"eng": "Can be purchased ${amount} times every day",
-				"trans": "ซื้อได้ ${amount} ครั้งต่อวัน",
-				"vars": []
+				"trans": "ซื้อได้ ${amount} ครั้งต่อวัน"
 			},
 			"name": {
 				"eng": "Daily",
@@ -8826,8 +8873,7 @@
 		"monthly": {
 			"description": {
 				"eng": "Can be purchased ${amount} times every month",
-				"trans": "เดือนละซื้อได้ ${amount} ครั้ง",
-				"vars": []
+				"trans": "เดือนละซื้อได้ ${amount} ครั้ง"
 			},
 			"name": {
 				"eng": "Monthly",
@@ -8837,8 +8883,7 @@
 		"once": {
 			"description": {
 				"eng": "Can be purchased ${amount} times per account",
-				"trans": "จำกัดการซื้อ ${amount} ครั้งต่อบัญชี",
-				"vars": []
+				"trans": "จำกัดการซื้อ ${amount} ครั้งต่อบัญชี"
 			},
 			"name": {
 				"eng": "Once",
@@ -8848,8 +8893,7 @@
 		"weekly": {
 			"description": {
 				"eng": "Can be purchased ${amount} times every week",
-				"trans": "ซื้อได้ ${amount} ครั้งต่อสัปดาห์",
-				"vars": []
+				"trans": "ซื้อได้ ${amount} ครั้งต่อสัปดาห์"
 			},
 			"name": {
 				"eng": "Weekly",
@@ -9200,13 +9244,11 @@
 	"reward": {
 		"clanExp": {
 			"eng": "+${clanExp} Gang EXP",
-			"trans": "+${clanExp} แต้มแก๊งค์",
-			"vars": []
+			"trans": "+${clanExp} แต้มแก๊งค์"
 		},
 		"clanResource": {
 			"eng": "+${clanResource} Gang Resource",
-			"trans": "+${clanResource} ทรัพย์แก๊งค์",
-			"vars": []
+			"trans": "+${clanResource} ทรัพย์แก๊งค์"
 		},
 		"exp": {
 			"increase": {
@@ -9216,8 +9258,7 @@
 		},
 		"territoryPoint": {
 			"eng": "+${territoryPoint} Territory Point",
-			"trans": "+${territoryPoint} พอยท์ยึดครอง",
-			"vars": []
+			"trans": "+${territoryPoint} พอยท์ยึดครอง"
 		}
 	},
 	"rewardConfigDisplay": {
@@ -9239,15 +9280,13 @@
 		},
 		"reducePsychosis": {
 			"eng": "Reduce psychosis by ${reducePsychosis}",
-			"trans": "ลดไซโค ${reducePsychosis}",
-			"vars": []
+			"trans": "ลดไซโค ${reducePsychosis}"
 		}
 	},
 	"rewardConfigItemDisplay": {
 		"oneOf": {
 			"eng": "one of the following x ${amount}:",
-			"trans": "เลือกอย่างใดอย่างหนึ่งจากรายการต่อไปนี้ x ${amount}:",
-			"vars": []
+			"trans": "เลือกอย่างใดอย่างหนึ่งจากรายการต่อไปนี้ x ${amount}:"
 		}
 	},
 	"rewardConfigPopup": {
@@ -9398,8 +9437,7 @@
 		"createCharacter": {
 			"nameAlreadyExists": {
 				"eng": "the name \"${name}\" is already taken",
-				"trans": "\"${name}\" ไม่ว่าง",
-				"vars": []
+				"trans": "\"${name}\" ไม่ว่าง"
 			},
 			"nameNotAllowed": {
 				"eng": "This name contains text that is not allowed",
@@ -10270,8 +10308,7 @@
 		},
 		"turns": {
 			"eng": "${turns} combat turns",
-			"trans": "${turns} รอบ",
-			"vars": []
+			"trans": "${turns} รอบ"
 		}
 	},
 	"statusInventory": {
@@ -10612,8 +10649,7 @@
 			},
 			"inProgress": {
 				"eng": "Task is still in progress, remaining seconds: ${remainingSeconds}",
-				"trans": "กำลังเดินเรื่อง เหลืออีก ${remainingSeconds} วิ",
-				"vars": []
+				"trans": "กำลังเดินเรื่อง เหลืออีก ${remainingSeconds} วิ"
 			},
 			"maxTasks": {
 				"eng": "You have reached the max amount of tasks",
@@ -10634,6 +10670,10 @@
 		},
 		"notification": {
 			"completed": {
+				"message2": {
+					"eng": "${count} of your AFK tasks are completed, click to claim your rewards!",
+					"trans": "มีภารกิจ AFK ที่เสร็จสิ้น ${count} ข้อ คลิกเพื่อรับรางวัล!"
+				},
 				"title2": {
 					"eng": "🔔AFK Task completed",
 					"trans": "🔔 งาน AFK เสร็จ!"
@@ -10823,28 +10863,23 @@
 		"duration": {
 			"days": {
 				"eng": "${days} days",
-				"trans": "${days} วัน",
-				"vars": []
+				"trans": "${days} วัน"
 			},
 			"hours": {
 				"eng": "${hours} hours",
-				"trans": "${hours} ชม.",
-				"vars": []
+				"trans": "${hours} ชม."
 			},
 			"minutes": {
 				"eng": "${minutes} minutes",
-				"trans": "${minutes} นาที",
-				"vars": []
+				"trans": "${minutes} นาที"
 			},
 			"seconds": {
 				"eng": "${seconds} seconds",
-				"trans": "`${seconds} วิ`",
-				"vars": []
+				"trans": "`${seconds} วิ`"
 			},
 			"years": {
 				"eng": "${years} years",
-				"trans": "${years} ปี",
-				"vars": []
+				"trans": "${years} ปี"
 			}
 		}
 	},
@@ -11543,8 +11578,7 @@
 	"upgradeInventoryPopup": {
 		"addedSlots": {
 			"eng": "${slots} slots (+${addedSlots})",
-			"trans": "${slots} ช่อง (+เพิ่ม ${addedSlots} ช่อง)",
-			"vars": []
+			"trans": "${slots} ช่อง (+เพิ่ม ${addedSlots} ช่อง)"
 		},
 		"description": {
 			"eng": "You can also upgrade your inventory space by renting a apartment",
