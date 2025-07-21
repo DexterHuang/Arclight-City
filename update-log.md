@@ -6,6 +6,12 @@
 
 **If you find an exploit, please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
+### 0.0.84
+
+-  Added new minigame - Dial Match, it is a simple minigame where you just need to click on the dial to make all of them turn to the correct rotation
+
+
+
 ### 0.0.83
 
 -  Added confirmation popup when trying to leave gang from gang details page
