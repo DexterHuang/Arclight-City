@@ -10,6 +10,7 @@
 
 -  Added new minigame - Dial Match, it is a simple minigame where you just need to click on the dial to make all of them turn to the correct rotation
 
+<img width="452" height="518" alt="image" src="https://github.com/user-attachments/assets/a7e8202c-a48c-4b10-b7e5-4eb140d2f659" />
 
 
 ### 0.0.83
