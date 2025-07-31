@@ -6,6 +6,20 @@
 
 **If you find an exploit, please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
+### 0.0.85
+
+-  Privacy improvements:
+   -  **Enhanced Mail Privacy Controls**: New privacy settings for better mail management
+   -  **Easier Blocking From Mail**: 
+      -  New Block/Unblock button in mail page for easy player management
+      -  Blocked players' messages are hidden in mail preview with "Message hidden - player blocked" indicator
+   -  **Friend Mail Only Setting**: Players can now restrict mail to friends-only in Settings
+   -  **New player level restriction**: Players below level 10 cannot initiate new mail conversations (Others still can send mail to low level players)  
+   -  You can now block players from your friend list, this will prevent them from sending you mail
+
+-  Added animation framework allowing NPCs to be animated, this is still in beta phrases please let me know if you experiences crashes or issues
+
+
 ### 0.0.84
 
 -  Added new minigame - Dial Match, it is a simple minigame where you just need to click on the dial to make all of them turn to the correct rotation
