@@ -1063,24 +1063,6 @@
 				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
 				"trans": "매일 다양한 보상을 받아 21일 동안, 그리고 22일째에는 최대 ${itemName}까지 받을 수 있습니다"
 			},
-			"pass0": {
-				"name": {
-					"eng": "free",
-					"trans": "공짜"
-				}
-			},
-			"pass1": {
-				"name": {
-					"eng": "Basic",
-					"trans": "기본적인"
-				}
-			},
-			"pass2": {
-				"name": {
-					"eng": "Advanced",
-					"trans": "고급화"
-				}
-			},
 			"subtitle": {
 				"eng": "June Package",
 				"trans": "6월 패키지"
@@ -6089,12 +6071,64 @@
 			}
 		}
 	},
+	"mailDetails": {
+		"blockAndReport": {
+			"eng": "Block & Report",
+			"trans": "차단 및 신고"
+		},
+		"blockOnly": {
+			"eng": "Block Only",
+			"trans": "블록 전용"
+		},
+		"blockPlayer": {
+			"eng": "Block Player",
+			"trans": "플레이어 차단"
+		},
+		"blockPlayerConfirm": {
+			"eng": "Choose how you want to proceed with this player:",
+			"trans": "이 플레이어와 어떻게 진행할지 선택하세요."
+		},
+		"playerBlocked": {
+			"eng": "Player Blocked",
+			"trans": "플레이어 차단됨"
+		},
+		"playerBlockedMessage": {
+			"eng": "You have blocked this player. Unblock them to view messages and send new ones.",
+			"trans": "이 플레이어를 차단했습니다. 메시지 보기와 보내기 위해 차단을 해제하세요."
+		},
+		"unblock": {
+			"eng": "Unblock",
+			"trans": "차단 해제"
+		},
+		"unblockPlayer": {
+			"eng": "Unblock Player",
+			"trans": "플레이어 차단 해제"
+		},
+		"unblockPlayerConfirm": {
+			"eng": "Are you sure you want to unblock this player?",
+			"trans": "이 플레이어의 차단을 해제하시겠습니까?"
+		}
+	},
 	"mailModule": {
 		"error": {
 			"blocked": {
 				"eng": "This player cannot receive your mail at this time.",
 				"trans": "이 플레이어는 현재 당신의 메일을 받을 수 없습니다."
+			},
+			"notEnoughLevel": {
+				"eng": "You need to be at least level ${level} to initiate a mail.",
+				"trans": "레벨 ${level} 이상이어야 메일을 보낼 수 있습니다."
+			},
+			"notFriend": {
+				"eng": "This player only allows mails from players in their friend list.",
+				"trans": "이 플레이어는 친구 목록에 있는 사람만 메일을 받습니다."
 			}
+		}
+	},
+	"mailPreview": {
+		"blockedMessage": {
+			"eng": "Message hidden - player blocked",
+			"trans": "메시지 숨김 - 플레이어 차단됨"
 		}
 	},
 	"mailTab": {
@@ -9761,6 +9795,16 @@
 		"enableVibration": {
 			"eng": "Enable Vibration",
 			"trans": "진동 활성화"
+		},
+		"friendMailOnly": {
+			"description": {
+				"eng": "Only allow mails from players in your friend list to mail you",
+				"trans": "친구 목록에 있는 플레이어만 메일을 받을 수 있도록 허용하세요."
+			},
+			"title": {
+				"eng": "Friend Mail Only",
+				"trans": "친구 메일만 수신"
+			}
 		},
 		"language": {
 			"eng": "Language",

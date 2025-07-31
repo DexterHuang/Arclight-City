@@ -1063,24 +1063,6 @@
 				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
 				"trans": "21日間毎日様々な報酬を獲得し、22日目には${itemName}まで獲得できます。 \n"
 			},
-			"pass0": {
-				"name": {
-					"eng": "free",
-					"trans": "無料"
-				}
-			},
-			"pass1": {
-				"name": {
-					"eng": "Basic",
-					"trans": "にほんご: 基本 \n"
-				}
-			},
-			"pass2": {
-				"name": {
-					"eng": "Advanced",
-					"trans": "にほんご: 上級 \n"
-				}
-			},
 			"subtitle": {
 				"eng": "June Package",
 				"trans": "6月パック \n"
@@ -6089,12 +6071,64 @@
 			}
 		}
 	},
+	"mailDetails": {
+		"blockAndReport": {
+			"eng": "Block & Report",
+			"trans": "ブロック & 通報"
+		},
+		"blockOnly": {
+			"eng": "Block Only",
+			"trans": "ブロックのみ"
+		},
+		"blockPlayer": {
+			"eng": "Block Player",
+			"trans": "プレイヤーをブロック"
+		},
+		"blockPlayerConfirm": {
+			"eng": "Choose how you want to proceed with this player:",
+			"trans": "このプレイヤーとどうするか選んでください。"
+		},
+		"playerBlocked": {
+			"eng": "Player Blocked",
+			"trans": "プレイヤーがブロックされた"
+		},
+		"playerBlockedMessage": {
+			"eng": "You have blocked this player. Unblock them to view messages and send new ones.",
+			"trans": "このプレイヤーをブロックしています。メッセージを確認したり送信したりするには、ブロックを解除してください。"
+		},
+		"unblock": {
+			"eng": "Unblock",
+			"trans": "ブロック解除"
+		},
+		"unblockPlayer": {
+			"eng": "Unblock Player",
+			"trans": "プレイヤーのブロックを解除"
+		},
+		"unblockPlayerConfirm": {
+			"eng": "Are you sure you want to unblock this player?",
+			"trans": "このプレイヤーのブロックを解除してもよろしいですか？"
+		}
+	},
 	"mailModule": {
 		"error": {
 			"blocked": {
 				"eng": "This player cannot receive your mail at this time.",
 				"trans": "このプレイヤーは現在、メールを受け取ることができません。"
+			},
+			"notEnoughLevel": {
+				"eng": "You need to be at least level ${level} to initiate a mail.",
+				"trans": "メールを送るには、最低レベル${level}が必要です。"
+			},
+			"notFriend": {
+				"eng": "This player only allows mails from players in their friend list.",
+				"trans": "このプレイヤーは友達のみからのメールを受け付けています。"
 			}
+		}
+	},
+	"mailPreview": {
+		"blockedMessage": {
+			"eng": "Message hidden - player blocked",
+			"trans": "メッセージが非表示に - プレイヤーがブロックされました"
 		}
 	},
 	"mailTab": {
@@ -9761,6 +9795,16 @@
 		"enableVibration": {
 			"eng": "Enable Vibration",
 			"trans": "バイブレーションを有効にする"
+		},
+		"friendMailOnly": {
+			"description": {
+				"eng": "Only allow mails from players in your friend list to mail you",
+				"trans": "友達リスト内のプレイヤーからのみメールを許可する"
+			},
+			"title": {
+				"eng": "Friend Mail Only",
+				"trans": "フレンドメールのみ"
+			}
 		},
 		"language": {
 			"eng": "Language",

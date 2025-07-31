@@ -1063,24 +1063,6 @@
 				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
 				"trans": "รับของรางวัลต่างๆ ทุกวัน 21 วันเต็ม! วันที่ 22 รับเลย ${itemName}"
 			},
-			"pass0": {
-				"name": {
-					"eng": "free",
-					"trans": "ฟรี"
-				}
-			},
-			"pass1": {
-				"name": {
-					"eng": "Basic",
-					"trans": "พื้นฐาน"
-				}
-			},
-			"pass2": {
-				"name": {
-					"eng": "Advanced",
-					"trans": "แอดวานซ์"
-				}
-			},
 			"subtitle": {
 				"eng": "June Package",
 				"trans": "แพ็คเกจเดือนมิถุนายน"
@@ -6089,12 +6071,64 @@
 			}
 		}
 	},
+	"mailDetails": {
+		"blockAndReport": {
+			"eng": "Block & Report",
+			"trans": "บล็อกและรายงาน"
+		},
+		"blockOnly": {
+			"eng": "Block Only",
+			"trans": "บล็อกเฉพาะ"
+		},
+		"blockPlayer": {
+			"eng": "Block Player",
+			"trans": "บล็อกผู้เล่น"
+		},
+		"blockPlayerConfirm": {
+			"eng": "Choose how you want to proceed with this player:",
+			"trans": "เลือกว่าจะทำอย่างไรกับผู้เล่นคนนี้"
+		},
+		"playerBlocked": {
+			"eng": "Player Blocked",
+			"trans": "ผู้เล่นบล็อก"
+		},
+		"playerBlockedMessage": {
+			"eng": "You have blocked this player. Unblock them to view messages and send new ones.",
+			"trans": "คุณบล็อกผู้เล่นคนนี้แล้ว ยกเลิกบล็อกเพื่ออ่านข้อความและส่งข้อความใหม่ได้"
+		},
+		"unblock": {
+			"eng": "Unblock",
+			"trans": "ปลดบล็อก"
+		},
+		"unblockPlayer": {
+			"eng": "Unblock Player",
+			"trans": "ปลดบล็อกผู้เล่น"
+		},
+		"unblockPlayerConfirm": {
+			"eng": "Are you sure you want to unblock this player?",
+			"trans": "คุณต้องการปลดบล็อกผู้เล่นนี้ใช่ไหม?"
+		}
+	},
 	"mailModule": {
 		"error": {
 			"blocked": {
 				"eng": "This player cannot receive your mail at this time.",
 				"trans": "ผู้เล่นนี้รับเมลของคุณไม่ได้ตอนนี้"
+			},
+			"notEnoughLevel": {
+				"eng": "You need to be at least level ${level} to initiate a mail.",
+				"trans": "ต้องอยู่ที่เลเวล ${level} ขึ้นไป ถึงจะส่งจดหมายได้"
+			},
+			"notFriend": {
+				"eng": "This player only allows mails from players in their friend list.",
+				"trans": "ผู้เล่นนี้รับจดหมายได้เฉพาะจากเพื่อนในรายชื่อเท่านั้น"
 			}
+		}
+	},
+	"mailPreview": {
+		"blockedMessage": {
+			"eng": "Message hidden - player blocked",
+			"trans": "ข้อความซ่อนไว้ - ผู้เล่นถูกบล็อก"
 		}
 	},
 	"mailTab": {
@@ -9761,6 +9795,16 @@
 		"enableVibration": {
 			"eng": "Enable Vibration",
 			"trans": "เปิดการสั่น"
+		},
+		"friendMailOnly": {
+			"description": {
+				"eng": "Only allow mails from players in your friend list to mail you",
+				"trans": "เปิดรับจดหมายจากเพื่อนในรายชื่อเท่านั้น"
+			},
+			"title": {
+				"eng": "Friend Mail Only",
+				"trans": "จดหมายจากเพื่อนเท่านั้น"
+			}
 		},
 		"language": {
 			"eng": "Language",

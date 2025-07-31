@@ -1063,24 +1063,6 @@
 				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
 				"trans": "21 天內每天獲得各種獎勵，第 22 天可獲得最高 ${itemName} 獎勵 \n"
 			},
-			"pass0": {
-				"name": {
-					"eng": "free",
-					"trans": "免費"
-				}
-			},
-			"pass1": {
-				"name": {
-					"eng": "Basic",
-					"trans": "基本"
-				}
-			},
-			"pass2": {
-				"name": {
-					"eng": "Advanced",
-					"trans": "進階"
-				}
-			},
 			"subtitle": {
 				"eng": "June Package",
 				"trans": "六月禮包"
@@ -6089,12 +6071,64 @@
 			}
 		}
 	},
+	"mailDetails": {
+		"blockAndReport": {
+			"eng": "Block & Report",
+			"trans": "封鎖並舉報"
+		},
+		"blockOnly": {
+			"eng": "Block Only",
+			"trans": "僅封鎖"
+		},
+		"blockPlayer": {
+			"eng": "Block Player",
+			"trans": "封鎖玩家"
+		},
+		"blockPlayerConfirm": {
+			"eng": "Choose how you want to proceed with this player:",
+			"trans": "請選擇與此玩家的後續動作："
+		},
+		"playerBlocked": {
+			"eng": "Player Blocked",
+			"trans": "玩家被擋下"
+		},
+		"playerBlockedMessage": {
+			"eng": "You have blocked this player. Unblock them to view messages and send new ones.",
+			"trans": "你已封鎖此玩家。請解除封鎖以查看訊息並發送新訊息。"
+		},
+		"unblock": {
+			"eng": "Unblock",
+			"trans": "解封"
+		},
+		"unblockPlayer": {
+			"eng": "Unblock Player",
+			"trans": "解除玩家封鎖"
+		},
+		"unblockPlayerConfirm": {
+			"eng": "Are you sure you want to unblock this player?",
+			"trans": "確定要解除此玩家的封鎖嗎？"
+		}
+	},
 	"mailModule": {
 		"error": {
 			"blocked": {
 				"eng": "This player cannot receive your mail at this time.",
 				"trans": "此玩家目前無法收到您的郵件。"
+			},
+			"notEnoughLevel": {
+				"eng": "You need to be at least level ${level} to initiate a mail.",
+				"trans": "需等級${level}以上方可寄信。"
+			},
+			"notFriend": {
+				"eng": "This player only allows mails from players in their friend list.",
+				"trans": "這名玩家只接受好友清單內玩家的郵件。"
 			}
+		}
+	},
+	"mailPreview": {
+		"blockedMessage": {
+			"eng": "Message hidden - player blocked",
+			"trans": "訊息隱藏 - 玩家已封鎖"
 		}
 	},
 	"mailTab": {
@@ -9761,6 +9795,16 @@
 		"enableVibration": {
 			"eng": "Enable Vibration",
 			"trans": "啟用震動"
+		},
+		"friendMailOnly": {
+			"description": {
+				"eng": "Only allow mails from players in your friend list to mail you",
+				"trans": "僅允許好友清單中的玩家寄信給你"
+			},
+			"title": {
+				"eng": "Friend Mail Only",
+				"trans": "僅接收好友郵件"
+			}
 		},
 		"language": {
 			"eng": "Language",

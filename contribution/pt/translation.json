@@ -1063,24 +1063,6 @@
 				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
 				"trans": "Receba várias recompensas diariamente por 21 dias, e até ${itemName} no 22º dia"
 			},
-			"pass0": {
-				"name": {
-					"eng": "free",
-					"trans": "grátis"
-				}
-			},
-			"pass1": {
-				"name": {
-					"eng": "Basic",
-					"trans": "Básico"
-				}
-			},
-			"pass2": {
-				"name": {
-					"eng": "Advanced",
-					"trans": "Avançado"
-				}
-			},
 			"subtitle": {
 				"eng": "June Package",
 				"trans": "Pacote de Junho"
@@ -6089,12 +6071,64 @@
 			}
 		}
 	},
+	"mailDetails": {
+		"blockAndReport": {
+			"eng": "Block & Report",
+			"trans": "Bloquear e Denunciar"
+		},
+		"blockOnly": {
+			"eng": "Block Only",
+			"trans": "Apenas Bloquear"
+		},
+		"blockPlayer": {
+			"eng": "Block Player",
+			"trans": "Bloquear Jogador"
+		},
+		"blockPlayerConfirm": {
+			"eng": "Choose how you want to proceed with this player:",
+			"trans": "Escolha o que fazer com este jogador:"
+		},
+		"playerBlocked": {
+			"eng": "Player Blocked",
+			"trans": "Jogador Bloqueado"
+		},
+		"playerBlockedMessage": {
+			"eng": "You have blocked this player. Unblock them to view messages and send new ones.",
+			"trans": "Você bloqueou esse jogador. Desbloqueie para ver mensagens e enviar novas."
+		},
+		"unblock": {
+			"eng": "Unblock",
+			"trans": "Desbloquear"
+		},
+		"unblockPlayer": {
+			"eng": "Unblock Player",
+			"trans": "Desbloquear Jogador"
+		},
+		"unblockPlayerConfirm": {
+			"eng": "Are you sure you want to unblock this player?",
+			"trans": "Tem certeza que quer desbloquear este jogador?"
+		}
+	},
 	"mailModule": {
 		"error": {
 			"blocked": {
 				"eng": "This player cannot receive your mail at this time.",
 				"trans": "Este jogador não pode receber sua mensagem no momento."
+			},
+			"notEnoughLevel": {
+				"eng": "You need to be at least level ${level} to initiate a mail.",
+				"trans": "Você precisa ter no mínimo nível ${level} para enviar uma mensagem."
+			},
+			"notFriend": {
+				"eng": "This player only allows mails from players in their friend list.",
+				"trans": "Esse jogador só permite mensagens de jogadores da sua lista de amigos."
 			}
+		}
+	},
+	"mailPreview": {
+		"blockedMessage": {
+			"eng": "Message hidden - player blocked",
+			"trans": "Mensagem oculta - jogador bloqueado"
 		}
 	},
 	"mailTab": {
@@ -9761,6 +9795,16 @@
 		"enableVibration": {
 			"eng": "Enable Vibration",
 			"trans": "Ativar Vibração"
+		},
+		"friendMailOnly": {
+			"description": {
+				"eng": "Only allow mails from players in your friend list to mail you",
+				"trans": "Permitir mensagens apenas de amigos"
+			},
+			"title": {
+				"eng": "Friend Mail Only",
+				"trans": "Apenas mensagens de amigos"
+			}
 		},
 		"language": {
 			"eng": "Language",

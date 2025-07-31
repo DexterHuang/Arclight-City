@@ -1063,24 +1063,6 @@
 				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
 				"trans": "Dapatkan berbagai hadiah setiap hari selama 21 hari, dan hingga ${itemName} pada hari ke-22"
 			},
-			"pass0": {
-				"name": {
-					"eng": "free",
-					"trans": "Gratis"
-				}
-			},
-			"pass1": {
-				"name": {
-					"eng": "Basic",
-					"trans": "Dasar"
-				}
-			},
-			"pass2": {
-				"name": {
-					"eng": "Advanced",
-					"trans": "Maju"
-				}
-			},
 			"subtitle": {
 				"eng": "June Package",
 				"trans": "Paket Juni"
@@ -6089,12 +6071,64 @@
 			}
 		}
 	},
+	"mailDetails": {
+		"blockAndReport": {
+			"eng": "Block & Report",
+			"trans": "Blokir & Laporkan"
+		},
+		"blockOnly": {
+			"eng": "Block Only",
+			"trans": "Blok Saja"
+		},
+		"blockPlayer": {
+			"eng": "Block Player",
+			"trans": "Blokir Pemain"
+		},
+		"blockPlayerConfirm": {
+			"eng": "Choose how you want to proceed with this player:",
+			"trans": "Pilih tindakan Anda terhadap pemain ini:"
+		},
+		"playerBlocked": {
+			"eng": "Player Blocked",
+			"trans": "Pemain Diblokir"
+		},
+		"playerBlockedMessage": {
+			"eng": "You have blocked this player. Unblock them to view messages and send new ones.",
+			"trans": "Anda telah memblokir pemain ini. Buka blokir untuk melihat pesan dan mengirim pesan baru."
+		},
+		"unblock": {
+			"eng": "Unblock",
+			"trans": "Buka Blokir"
+		},
+		"unblockPlayer": {
+			"eng": "Unblock Player",
+			"trans": "Lepaskan Blokir Pemain"
+		},
+		"unblockPlayerConfirm": {
+			"eng": "Are you sure you want to unblock this player?",
+			"trans": "Yakin ingin membuka blokir pemain ini?"
+		}
+	},
 	"mailModule": {
 		"error": {
 			"blocked": {
 				"eng": "This player cannot receive your mail at this time.",
 				"trans": "Pemain ini tidak dapat menerima suratmu saat ini."
+			},
+			"notEnoughLevel": {
+				"eng": "You need to be at least level ${level} to initiate a mail.",
+				"trans": "Anda perlu setidaknya level ${level} untuk mengirim surat."
+			},
+			"notFriend": {
+				"eng": "This player only allows mails from players in their friend list.",
+				"trans": "Pemain ini hanya menerima pesan dari teman yang telah ditambahkan."
 			}
+		}
+	},
+	"mailPreview": {
+		"blockedMessage": {
+			"eng": "Message hidden - player blocked",
+			"trans": "Pesan tersembunyi - pemain diblokir"
 		}
 	},
 	"mailTab": {
@@ -9761,6 +9795,16 @@
 		"enableVibration": {
 			"eng": "Enable Vibration",
 			"trans": "Aktifkan Getaran"
+		},
+		"friendMailOnly": {
+			"description": {
+				"eng": "Only allow mails from players in your friend list to mail you",
+				"trans": "Hanya izinkan pesan dari pemain yang ada di daftar temanmu"
+			},
+			"title": {
+				"eng": "Friend Mail Only",
+				"trans": "Hanya Teman yang Bisa Kirim Pesan"
+			}
 		},
 		"language": {
 			"eng": "Language",

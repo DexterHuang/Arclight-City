@@ -1063,24 +1063,6 @@
 				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
 				"trans": "Recevez diverses récompenses chaque jour pendant 21 jours, et jusqu'à ${itemName} le 22ème jour"
 			},
-			"pass0": {
-				"name": {
-					"eng": "free",
-					"trans": "libre"
-				}
-			},
-			"pass1": {
-				"name": {
-					"eng": "Basic",
-					"trans": "De base"
-				}
-			},
-			"pass2": {
-				"name": {
-					"eng": "Advanced",
-					"trans": "Avancé"
-				}
-			},
 			"subtitle": {
 				"eng": "June Package",
 				"trans": "Pack de juin"
@@ -6089,12 +6071,64 @@
 			}
 		}
 	},
+	"mailDetails": {
+		"blockAndReport": {
+			"eng": "Block & Report",
+			"trans": "Bloquer & Signaler"
+		},
+		"blockOnly": {
+			"eng": "Block Only",
+			"trans": "Bloquer uniquement"
+		},
+		"blockPlayer": {
+			"eng": "Block Player",
+			"trans": "Bloquer le joueur"
+		},
+		"blockPlayerConfirm": {
+			"eng": "Choose how you want to proceed with this player:",
+			"trans": "Choisissez votre prochaine action avec ce joueur :"
+		},
+		"playerBlocked": {
+			"eng": "Player Blocked",
+			"trans": "Joueur bloqué"
+		},
+		"playerBlockedMessage": {
+			"eng": "You have blocked this player. Unblock them to view messages and send new ones.",
+			"trans": "Vous avez bloqué ce joueur. Débloquez-le pour voir les messages et en envoyer de nouveaux."
+		},
+		"unblock": {
+			"eng": "Unblock",
+			"trans": "Débloquer"
+		},
+		"unblockPlayer": {
+			"eng": "Unblock Player",
+			"trans": "Débloquer le joueur"
+		},
+		"unblockPlayerConfirm": {
+			"eng": "Are you sure you want to unblock this player?",
+			"trans": "Êtes-vous sûr de vouloir débloquer ce joueur ?"
+		}
+	},
 	"mailModule": {
 		"error": {
 			"blocked": {
 				"eng": "This player cannot receive your mail at this time.",
 				"trans": "Ce joueur ne peut pas recevoir votre message pour le moment."
+			},
+			"notEnoughLevel": {
+				"eng": "You need to be at least level ${level} to initiate a mail.",
+				"trans": "Vous devez être au moins niveau ${level} pour envoyer un courrier."
+			},
+			"notFriend": {
+				"eng": "This player only allows mails from players in their friend list.",
+				"trans": "Ce joueur autorise les messages uniquement des joueurs de sa liste d'amis."
 			}
+		}
+	},
+	"mailPreview": {
+		"blockedMessage": {
+			"eng": "Message hidden - player blocked",
+			"trans": "Message masqué – joueur bloqué"
 		}
 	},
 	"mailTab": {
@@ -9761,6 +9795,16 @@
 		"enableVibration": {
 			"eng": "Enable Vibration",
 			"trans": "Activer la vibration"
+		},
+		"friendMailOnly": {
+			"description": {
+				"eng": "Only allow mails from players in your friend list to mail you",
+				"trans": "Autoriser uniquement les messages des joueurs de votre liste d'amis."
+			},
+			"title": {
+				"eng": "Friend Mail Only",
+				"trans": "Messages amis uniquement"
+			}
 		},
 		"language": {
 			"eng": "Language",
