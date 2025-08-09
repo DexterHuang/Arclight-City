@@ -6,6 +6,12 @@
 
 **If you find an exploit, please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
+
+### 0.0.86
+
+-  Added gang notice, gang leaders can now post notice to the gang chat, it will show up as a banner, the banner will expire after 3 days, phone notification will only be sent every 6 hours and each notice post will cost 1000 eurodollars, this is to prevent abuse spam of the system and cause other player to receive too many notifications
+-  Added experiemntal animation system
+
 ### 0.0.85
 
 -  Privacy improvements:
