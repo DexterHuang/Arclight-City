@@ -1,0 +1,1064 @@
+{
+  "keywords": [
+    {
+      "eng": "Tech Scrap",
+      "trans": "Technologický odpad",
+      "match": [],
+      "desc": "A piece of tech scrap."
+    },
+    {
+      "eng": "Gun",
+      "trans": "Zbraň",
+      "match": [],
+      "desc": "A traditional firearm that uses gunpowder to fire bullets. cant go wrong with this one."
+    },
+    {
+      "eng": "Energy Weapon",
+      "trans": "Energická zbraň",
+      "match": [],
+      "desc": "A weapon that uses energy to fire."
+    },
+    {
+      "eng": "Blade",
+      "trans": "Nůž",
+      "match": [],
+      "desc": "A melee weapon that has sharpened edges."
+    },
+    {
+      "eng": "Helmet",
+      "trans": "Helma",
+      "match": [],
+      "desc": "A piece of equipment that protects the head."
+    },
+    {
+      "eng": "Upper Armor",
+      "trans": "Horní brnění",
+      "match": [],
+      "desc": "A piece of equipment that protects the upper body."
+    },
+    {
+      "eng": "Lower Armor",
+      "trans": "Snížit zbroj",
+      "match": [],
+      "desc": "A piece of equipment that protects the lower body."
+    },
+    {
+      "eng": "Boots",
+      "trans": "boty",
+      "match": [],
+      "desc": "A piece of equipment that protects the feet."
+    },
+    {
+      "eng": "Implant",
+      "trans": "implant",
+      "match": [],
+      "desc": "A cyberpunk term for cybernetic implants, if you don't know what it is please check google"
+    },
+    {
+      "eng": "Ring",
+      "trans": "Prsten",
+      "match": []
+    },
+    {
+      "eng": "Pendant",
+      "trans": "pendant",
+      "match": []
+    },
+    {
+      "eng": "Basic Healing Nanobot",
+      "trans": "Základní léčitelský nanobot",
+      "match": [],
+      "desc": "Use to recover small amount of health"
+    },
+    {
+      "eng": "Advance Healing Nanobot",
+      "trans": "Pokročilý léčitelský nanobot",
+      "match": [],
+      "desc": "Use to recover moderate amount of health"
+    },
+    {
+      "eng": "Equipment Calibrator",
+      "trans": "Kalibrátor vybavení",
+      "match": [],
+      "desc": "Used to calibrate equipments"
+    },
+    {
+      "eng": "Common Calibration Circuit Breaker",
+      "trans": "Společný kalibrační jistič",
+      "match": [],
+      "desc": "Use to decrease chance of equipment destruction by ${percent}% when calibration failed"
+    },
+    {
+      "eng": "Uncommon Calibration Circuit Breaker",
+      "trans": "Neobvyklý kalibrační jistič",
+      "match": [],
+      "desc": "Use to decrease chance of equipment destruction by ${percent}% when calibration failed"
+    },
+    {
+      "eng": "Rare Calibration Circuit Breaker",
+      "trans": "Vzácný kalibrační jistič",
+      "match": [],
+      "desc": "Use to decrease chance of equipment destruction by ${percent}% when calibration failed"
+    },
+    {
+      "eng": "Calibration Stabilizer",
+      "trans": "Kalibrační stabilizátor",
+      "match": [],
+      "desc": "Use during calibration to increase chance of success by ${percent}%"
+    },
+    {
+      "eng": "Uncommon Reset Shard",
+      "trans": "Neobvyklý resetovací fragment",
+      "match": [],
+      "desc": "Use to reset a uncommon item with new traits by chance"
+    },
+    {
+      "eng": "Rare Reset Shard",
+      "trans": "Vzácný fragment resetu",
+      "match": [],
+      "desc": "Use to reset a rare item with new traits by chance"
+    },
+    {
+      "eng": "Unique Reset Shard",
+      "trans": "Jedinečný resetovací fragment",
+      "match": [],
+      "desc": "Use to reset a unique item with new traits by chance"
+    },
+    {
+      "eng": "Epic Reset Shard",
+      "trans": "Epický resetní fragment",
+      "match": [],
+      "desc": "Use to reset a epic item with new traits by chance"
+    },
+    {
+      "eng": "Mythic Reset Shard",
+      "trans": "Mytický resetní fragment",
+      "match": [],
+      "desc": "Use to reset a ${tier} item with new random prefixes"
+    },
+    {
+      "eng": "Uncommon Upgrade Shard",
+      "trans": "Neobvyklý fragment upgradu",
+      "match": [],
+      "desc": "Use to upgrade an common item to uncommon tier"
+    },
+    {
+      "eng": "Rare Upgrade Shard",
+      "trans": "Vzácný fragment upgradu",
+      "match": [],
+      "desc": "Use to upgrade an uncommon item to rare tier"
+    },
+    {
+      "eng": "Unique Upgrade Shard",
+      "trans": "Unikátní fragment upgradu",
+      "match": [],
+      "desc": "Use to upgrade an rare item to unique tier"
+    },
+    {
+      "eng": "Epic Upgrade Shard",
+      "trans": "Epický upgrade fragment",
+      "match": [],
+      "desc": "Use to upgrade an unique item to epic tier"
+    },
+    {
+      "eng": "Mythic Upgrade Shard",
+      "trans": "Mytický fragment upgradu",
+      "match": [],
+      "desc": "Use to upgrade an ${fromTier} item to ${toTier}"
+    },
+    {
+      "eng": "Common Level Shard",
+      "trans": "Běžný úrovňový fragment",
+      "match": [],
+      "desc": "Use to level up an common item to its next level"
+    },
+    {
+      "eng": "Uncommon Level Shard",
+      "trans": "Neobvyklý fragment úrovně",
+      "match": [],
+      "desc": "Use to level up an uncommon item to its next level"
+    },
+    {
+      "eng": "Rare Level Shard",
+      "trans": "Fragment vzácné úrovně",
+      "match": [],
+      "desc": "Use to level up an rare item to its next level"
+    },
+    {
+      "eng": "Unique Level Shard",
+      "trans": "Unikátní fragment úrovně",
+      "match": [],
+      "desc": "Use to level up an unique item to its next level"
+    },
+    {
+      "eng": "Epic Level Shard",
+      "trans": "Epický fragment",
+      "match": [],
+      "desc": "Use to level up an epic item to its next level"
+    },
+    {
+      "eng": "Mythic Level Shard",
+      "trans": "Fragment mýtické úrovně",
+      "match": [],
+      "desc": "you can use this item to level up an ${tier} item to its next level"
+    },
+    {
+      "eng": "Identification Shard",
+      "trans": "Identifikační fragment",
+      "match": [],
+      "desc": "Use to identify unknown traits in a item"
+    },
+    {
+      "eng": "Prefix Injector Shard",
+      "trans": "Fragment předponového injektoru",
+      "match": [],
+      "desc": "Use to inject an additional prefix into a item, please note that if you re-roll the prefixes after using this item, the effect will be nullified."
+    },
+    {
+      "eng": "dungeon activator",
+      "trans": "aktivátor jeskyně",
+      "match": [],
+      "desc": "Use to enter a dungeon"
+    },
+    {
+      "eng": "Red Bar VIP token",
+      "trans": "VIP token Red Bar",
+      "match": [],
+      "desc": "Use this token to meet and recruit new mercenaries in Red Bar"
+    },
+    {
+      "eng": "Neural Upgrade Augmenter",
+      "trans": "Neurální vylepšovač",
+      "match": [],
+      "desc": "Neural Upgrade Augmenter is a cutting-edge implant that enables users to break past their mental limitations and reach untold levels of cognitive enhancement. With the ability to exceed typical neural barriers, users can unlock new levels of insight, creativity, and physical performance."
+    },
+    {
+      "eng": "Cybernetic Enhancer",
+      "trans": "Kybernetický vylepšovač",
+      "match": [
+        "enhancer"
+      ],
+      "desc": "An item name, a cybernetic implant that can enhance players' abilities"
+    },
+    {
+      "eng": "EuroDollar",
+      "trans": "Eurodolar",
+      "match": [],
+      "desc": "EuroDollar is a widely accepted currency in the continent, used for everyday purchases and transactions."
+    },
+    {
+      "eng": "NetCoin",
+      "trans": "NetCoin",
+      "match": [],
+      "desc": "NetCoin is a digital currency mainly used in black market transactions. It is untraceable and can be used to purchase illegal goods and services."
+    },
+    {
+      "eng": "Universal Dollars",
+      "trans": "Univerzální dolary",
+      "match": [],
+      "desc": "A fictional currency name in the game, translate to a suitable name in your language"
+    },
+    {
+      "eng": "Level Shard",
+      "trans": "Fragment úrovně",
+      "match": [],
+      "desc": "Universal level up token for equipments, use to increase the level of an equipment"
+    },
+    {
+      "eng": "Calibration Shard",
+      "trans": "Kalibrační fragment",
+      "match": [],
+      "desc": "Universal calibration token for equipments, use to improve equipments"
+    },
+    {
+      "eng": "Gang Control Resource",
+      "trans": "Zdroj kontroly gangů",
+      "match": [],
+      "desc": "Use to contribute to gang territory control"
+    },
+    {
+      "eng": "Gang Maintenance Resource",
+      "trans": "Zdroj údržby gangu",
+      "match": [],
+      "desc": "Use to contribute to gang maintenance"
+    },
+    {
+      "eng": "Nano Repairer",
+      "trans": "Nanoreparátor",
+      "match": [],
+      "desc": "An item name used to repair broken equipment"
+    },
+    {
+      "eng": "Braised Pork Rice",
+      "trans": "Dušené vepřové s rýží",
+      "match": [],
+      "desc": "A traditional dish of braised pork belly and rice."
+    },
+    {
+      "eng": "Rice",
+      "trans": "rýže",
+      "match": [],
+      "desc": "A staple food of the continent."
+    },
+    {
+      "eng": "Pork",
+      "trans": "svinina",
+      "match": [],
+      "desc": "Slice of ordinary synthetic pork"
+    },
+    {
+      "eng": "Bread",
+      "trans": "chleba",
+      "match": [],
+      "desc": "a rare delicacy made from real wheat flour, smuggled by rebels who oppose the synthetic food industry."
+    },
+    {
+      "eng": "Burger",
+      "trans": "burger",
+      "match": [],
+      "desc": "A cheap and addictive food made from synthetic meat and chemicals. Popular among lowlifes and hackers who need a quick energy boost."
+    },
+    {
+      "eng": "Fish",
+      "trans": "ryba",
+      "match": [],
+      "desc": "A medium sized vibrant fish, it's highly sought after for its psychedelic properties when consumed."
+    },
+    {
+      "eng": "Egg",
+      "trans": "Vejce",
+      "match": [],
+      "desc": "A synthetic egg, used in many dishes."
+    },
+    {
+      "eng": "Flour",
+      "trans": "mouka",
+      "match": [],
+      "desc": "A basic ingredient used in baking."
+    },
+    {
+      "eng": "Milk",
+      "trans": "mléko",
+      "match": [],
+      "desc": "A synthetic milk, used in many dishes."
+    },
+    {
+      "eng": "Synthetic Turkey Meat",
+      "trans": "Syntetické maso z krůty",
+      "match": [],
+      "desc": "A synthetic turkey meat, can be used to craft turkey dinner."
+    },
+    {
+      "eng": "Turkey Dinner",
+      "trans": "Krůtí večeře",
+      "match": [],
+      "desc": "A traditional dish made from turkey meat, rice."
+    },
+    {
+      "eng": "Tea Egg",
+      "trans": "Čajové vejce",
+      "match": [],
+      "desc": "A traditional dish made from eggs boiled in tea, soy sauce, and spices."
+    },
+    {
+      "eng": "Pumpkin Pie",
+      "trans": "dýňový koláč",
+      "match": [],
+      "desc": "A dessert made from pumpkin, eggs, and milk."
+    },
+    {
+      "eng": "Pumpkin",
+      "trans": "dýně",
+      "match": [],
+      "desc": "A large orange fruit, used in many dishes."
+    },
+    {
+      "eng": "Cake",
+      "trans": "tort",
+      "match": [],
+      "desc": "A sweet dessert made from flour, sugar, and eggs."
+    },
+    {
+      "eng": "Sushi",
+      "trans": "sushi",
+      "match": [],
+      "desc": "A traditional Japanese dish made from raw fish and rice."
+    },
+    {
+      "eng": "Reward Cipher",
+      "trans": "Odměnová šifra",
+      "match": [],
+      "desc": "Used to re-roll quest reward."
+    },
+    {
+      "eng": "Satay",
+      "trans": "Satay",
+      "match": [],
+      "desc": "A traditional Indonesian dish made from skewered meat and rice."
+    },
+    {
+      "eng": "Neuroblocker",
+      "trans": "Neuroblokátor",
+      "match": [],
+      "desc": "Neuroblockers were developed to counteract the negative effects that cybernetic implants had on the human body. By suppressing these effects, people were able to use these implants with reduced suffering from physical or mental issues"
+    },
+    {
+      "eng": "Common Container",
+      "trans": "Běžný kontejner",
+      "match": [],
+      "desc": "A common container that contains a random item."
+    },
+    {
+      "eng": "Locked Uncommon Container",
+      "trans": "Zamčený neobvyklý kontejner",
+      "match": [],
+      "desc": "A uncommon container that contains random items."
+    },
+    {
+      "eng": "Locked Rare Container",
+      "trans": "Zamčený vzácný kontejner",
+      "match": [],
+      "desc": "A rare container that contains random items."
+    },
+    {
+      "eng": "Locked Unique Container",
+      "trans": "Zamčený unikátní kontejner",
+      "match": [],
+      "desc": "A unique container that contains random items."
+    },
+    {
+      "eng": "Uncommon Container Key",
+      "trans": "Klíč neobvyklého kontejneru",
+      "match": [],
+      "desc": "A key that can be used to unlock a ${containerName}."
+    },
+    {
+      "eng": "Uncommon Key Fragment",
+      "trans": "Neobvyklý fragment klíče",
+      "match": [],
+      "desc": "Collect ${amount} of these to create a ${keyName} that can be used to unlock a ${containerName}."
+    },
+    {
+      "eng": "Rare Container Key",
+      "trans": "Vzácný klíč zásobníku",
+      "match": [],
+      "desc": "A key that can be used to unlock a ${containerName}."
+    },
+    {
+      "eng": "Rare Key Fragment",
+      "trans": "Vzácný fragment klíče",
+      "match": [],
+      "desc": "Collect ${amount} of these to create a ${keyName} that can be used to unlock a ${containerName}."
+    },
+    {
+      "eng": "Unique Container Key",
+      "trans": "Jedinečný klíč kontejneru",
+      "match": [],
+      "desc": "A key that can be used to unlock a ${containerName}."
+    },
+    {
+      "eng": "Unique Key Fragment",
+      "trans": "Fragment unikátního klíče",
+      "match": [],
+      "desc": "Collect ${amount} of these to create a ${keyName} that can be used to unlock a ${containerName}."
+    },
+    {
+      "eng": "Level Reward Container",
+      "trans": "Kontejner odměn za úroveň",
+      "match": [],
+      "desc": "Special reward container obtained from clearing hard or above difficulty strongholds in locations"
+    },
+    {
+      "eng": "Christmas Container",
+      "trans": "Vánoční kontejner",
+      "match": [],
+      "desc": "Event container that contains various rewards, can only be unlocked during December."
+    },
+    {
+      "eng": "Medical Tech Scrap",
+      "trans": "Zlomek medicínské technologie",
+      "match": [],
+      "desc": "A piece of medical technology that can be used to craft "
+    },
+    {
+      "eng": "decryption Key",
+      "trans": "Dešifrovací klíč",
+      "match": [],
+      "desc": "A cutting-edge cyberpunk device that serves as a key to unlock high-security doors in the dystopian strongholds, revealing valuable loot and hidden rewards."
+    },
+    {
+      "eng": "Shadow Token",
+      "trans": "Stínový token",
+      "match": [],
+      "desc": "A token can be used to trade with the merchants in strongholds."
+    },
+    {
+      "eng": "Loot Increase Buff Activator",
+      "trans": "Aktivátor buffu pro zvýšení lootu",
+      "match": [],
+      "desc": "Deploy this buff in stronghold lobby to increase loot amount for all strongholds created by your gang members for ${minutes} minutes"
+    },
+    {
+      "eng": "Defense Boost Buff Activator",
+      "trans": "Aktivátor zvýšení obrany",
+      "match": [],
+      "desc": "Deploy this buff in stronghold lobby to increase defense for all players in strongholds created by your gang members for ${minutes} minutes"
+    },
+    {
+      "eng": "Token of Peace",
+      "trans": "Symbol míru",
+      "match": [],
+      "desc": "Whoever invokes the Token of Peace shall not be attacked, use this to receive ${day} day of PVP protection buff"
+    },
+    {
+      "eng": "Hideout Locator",
+      "trans": "Lokalizátor úkrytů",
+      "match": [],
+      "desc": "A device to locate gang hideouts in the city, you can use this item to perform a quick hideout raid."
+    },
+    {
+      "eng": "Advance Hideout Locator",
+      "trans": "Pokročilý lokalizátor úkrytu",
+      "match": [],
+      "desc": "A device to locate major gang hideouts in the city, you can use this item to perform a quick hideout raid with higher rewards."
+    },
+    {
+      "eng": "Red Envelope",
+      "trans": "Červená obálka",
+      "match": [],
+      "desc": "A traditional lunar new year gift, you can open it to receive random rewards."
+    },
+    {
+      "eng": "Auto Gather Boost",
+      "trans": "Automatické zrychlení sběru",
+      "match": [],
+      "desc": "When used during auto gather, it will increase EXP gained by ${expPercent}% and increase the reward gained by ${rewardPercent}%\nThis will be consumed after one auto gather cycle"
+    },
+    {
+      "eng": "Gingerbread Cookie",
+      "trans": "Perníková sušenka",
+      "match": [],
+      "desc": "A festive cookie that looks like a cute little man."
+    },
+    {
+      "eng": "Synaptic Enhancer",
+      "trans": "Synaptický posilovač",
+      "match": [],
+      "desc": "Synaptic Enhancer injects nanobots into your bloodstream to enhance your intelligence and rate of learning."
+    },
+    {
+      "eng": "Chloe",
+      "trans": "Chloe",
+      "match": [],
+      "desc": "One of the npc's name in the game, does not need to be direct translation from english"
+    },
+    {
+      "eng": "Lilith",
+      "trans": "Lilith",
+      "match": [],
+      "desc": "One of the npc's name in the game, does not need to be direct translation from english"
+    },
+    {
+      "eng": "Oriana",
+      "trans": "Oriana",
+      "match": [],
+      "desc": "One of the npc's name in the game, does not need to be direct translation from english"
+    },
+    {
+      "eng": "Maxine",
+      "trans": "Maxine",
+      "match": [],
+      "desc": "One of the npc's name in the game, does not need to be direct translation from english"
+    },
+    {
+      "eng": "Ren",
+      "trans": "Ren",
+      "match": [],
+      "desc": "One of the npc's name in the game, does not need to be direct translation from english"
+    },
+    {
+      "eng": "Hana",
+      "trans": "Hana",
+      "match": [],
+      "desc": "One of the npc's name in the game, does not need to be direct translation from english"
+    },
+    {
+      "eng": "Whisperer",
+      "trans": "Šepotář",
+      "match": [],
+      "desc": "One of the npc's name in the game, does not need to be direct translation from english"
+    },
+    {
+      "eng": "Shadow Merchant",
+      "trans": "Stínový obchodník",
+      "match": [],
+      "desc": "One of the npc's name in the game, does not need to be direct translation from english"
+    },
+    {
+      "eng": "Pachinko Devotee",
+      "trans": "Fanoušek pachinků",
+      "match": [],
+      "desc": "One of the npc's name in the game, does not need to be direct translation from english"
+    },
+    {
+      "eng": "Player ${0} is ${1} has been killed during PVP",
+      "match": [
+        ""
+      ],
+      "trans": "Hráč ${0} (${1}) byl zabit během PvP.",
+      "important": true,
+      "desc": "Example of how to translate a sentence with variables"
+    },
+    {
+      "eng": "What is equipment calibration?",
+      "match": [
+        "calibrate"
+      ],
+      "trans": "Co je kalibrace zařízení?",
+      "important": true,
+      "desc": "An example for an sample question"
+    },
+    {
+      "eng": "Inventory",
+      "match": [],
+      "trans": "Inventář",
+      "desc": "Player's main inventory"
+    },
+    {
+      "eng": "Backpack",
+      "match": [],
+      "trans": "batoh",
+      "desc": "A separate inventory that player brings to adventure"
+    },
+    {
+      "eng": "Vault",
+      "match": [],
+      "trans": "Úložiště",
+      "desc": "A separate inventory that player stores in their apartment, can only be accessed in apartment"
+    },
+    {
+      "eng": "AFK Tasks",
+      "match": [
+        "afk"
+      ],
+      "trans": "Úkoly AFK",
+      "desc": "AFK = away from keyboard, tasks player can perform while they are not actively playing"
+    },
+    {
+      "eng": "AFK",
+      "match": [],
+      "trans": "Odloučený od klávesnice",
+      "desc": "Away from keyboard"
+    },
+    {
+      "eng": "Red Bar",
+      "match": [],
+      "trans": "Červený bar",
+      "desc": "A cool name of a bar player can visit"
+    },
+    {
+      "eng": "Deliveries",
+      "match": [],
+      "trans": "Doručení",
+      "desc": "delivery is like item inbox, its called delivery because its in your apartment, like how you receive delivery when you order stuff online"
+    },
+    {
+      "eng": "Upper Armour",
+      "match": [],
+      "trans": "Horní zbroj",
+      "desc": "A type of armor player can equip on their upper body"
+    },
+    {
+      "eng": "Lower Armour",
+      "match": [],
+      "trans": "Dolní zbroj",
+      "desc": "A type of armor player can equip on their lower body"
+    },
+    {
+      "eng": "Place Hit",
+      "match": [],
+      "trans": "Přidat odměnu",
+      "desc": "Placing a bounty on another player for a hitman, synonym of \"place bounty\""
+    },
+    {
+      "eng": "Dismantle",
+      "match": [],
+      "trans": "Rozebrat",
+      "desc": "Dismantle an item to get components"
+    },
+    {
+      "eng": "Stronghold",
+      "match": [],
+      "trans": "pevnost",
+      "desc": "Like a dungeon but with a sci-fi name"
+    },
+    {
+      "eng": "Health",
+      "match": [],
+      "trans": "Zdraví",
+      "desc": "Player's Health, also known as HP"
+    },
+    {
+      "eng": "Vitality",
+      "match": [],
+      "trans": "Vitalita",
+      "desc": "An attribute name"
+    },
+    {
+      "eng": "Strength",
+      "match": [],
+      "trans": "Síla",
+      "desc": "An attribute name"
+    },
+    {
+      "eng": "Intelligence",
+      "match": [],
+      "trans": "Inteligence",
+      "desc": "An attribute name"
+    },
+    {
+      "eng": "Dexterity",
+      "match": [],
+      "trans": "Obratnost",
+      "desc": "An attribute name"
+    },
+    {
+      "eng": "Vitality Attribute",
+      "match": [
+        "vitality"
+      ],
+      "trans": "Vitalita",
+      "desc": "An attribute name added a repeat for AI to easier to understand"
+    },
+    {
+      "eng": "Strength Attribute",
+      "match": [
+        "strength"
+      ],
+      "trans": "Síla",
+      "desc": "An attribute name added a repeat for AI to easier to understand"
+    },
+    {
+      "eng": "Intelligence Attribute",
+      "match": [
+        "intelligence"
+      ],
+      "trans": "Inteligence",
+      "desc": "An attribute name added a repeat for AI to easier to understand"
+    },
+    {
+      "eng": "Dexterity Attribute",
+      "match": [
+        "dexterity"
+      ],
+      "trans": "Zručnost",
+      "desc": "An attribute name added a repeat for AI to easier to understand"
+    },
+    {
+      "eng": "Thieving",
+      "match": [],
+      "trans": "Krádež",
+      "desc": "A job name player can perform"
+    },
+    {
+      "eng": "Scavenge",
+      "match": [],
+      "trans": "Sbírání",
+      "desc": "A job name player can perform"
+    },
+    {
+      "eng": "Extraction Mission",
+      "match": [],
+      "trans": "Mise extrakce",
+      "desc": "A job player can perform to increase their medical level, the ideal is they will do part-time job as a member of Trauma Team's extraction force, to extract VIPs from dangerous situations"
+    },
+    {
+      "eng": "Arclight City",
+      "match": [
+        "arclight"
+      ],
+      "trans": "Město Arclight",
+      "desc": "Name of the game, also the name of the city set in the game, when translating this please make it sounds good, does not to be direct translation"
+    },
+    {
+      "eng": "Arclight",
+      "match": [],
+      "trans": "Arclight",
+      "desc": "Short-term name of the game, also the name of the city set in the game"
+    },
+    {
+      "eng": "Territory",
+      "match": [],
+      "trans": "Teritorium",
+      "desc": "A district area player can take control of"
+    },
+    {
+      "eng": "gang",
+      "match": [],
+      "trans": "klan",
+      "desc": "Like clans in other games"
+    },
+    {
+      "eng": "Gang Upkeep",
+      "match": [],
+      "trans": "Údržba gangu",
+      "desc": "A cost player needs to pay to maintain their gang"
+    },
+    {
+      "eng": "Gang Territory",
+      "match": [],
+      "trans": "Gangové území",
+      "desc": "A district area gang can take control of"
+    },
+    {
+      "eng": "Ripperdoc",
+      "match": [],
+      "trans": "ripperdok",
+      "desc": "An NPC profession name, like a cybernetic doctor"
+    },
+    {
+      "eng": "money",
+      "match": [],
+      "trans": "peníze",
+      "desc": "Main currency in the game, which is Eurodollars, please translate directly to Eurodollars or simply \"money\" if more appropriate"
+    },
+    {
+      "eng": "TaiXing Cybernetic",
+      "match": [
+        "taixing"
+      ],
+      "trans": "TaiXing Kybernetika",
+      "desc": "A fake company name, specialized in making cybernetic implants and other tech"
+    },
+    {
+      "eng": "TaiXing",
+      "match": [],
+      "trans": "TaiXing",
+      "desc": "A fake company name, specialized in making cybernetic implants and other tech"
+    },
+    {
+      "eng": "Trauma Team",
+      "match": [],
+      "trans": "Tým trauma",
+      "desc": "An NPC profession name, like a medical rescue team but with guns"
+    },
+    {
+      "eng": "extraction force",
+      "match": [],
+      "trans": "Jednotka extrakce",
+      "desc": "Teams work under Trauma Team, like a medical rescue team but with guns"
+    },
+    {
+      "eng": "crew",
+      "match": [],
+      "trans": "posádka",
+      "desc": "A team of mercenaries player can hire to help them fight"
+    },
+    {
+      "eng": "Cyber psychosis",
+      "match": [
+        "psychosis"
+      ],
+      "trans": "Kybernetická psychóza",
+      "desc": "Same thing as in the Anime, when a person uses too much cybernetic ability, they will lose their mind"
+    },
+    {
+      "eng": "stats",
+      "match": [
+        "stat"
+      ],
+      "trans": "Statistiky",
+      "desc": "The attributes of items, like damage, health, armor, etc"
+    },
+    {
+      "eng": "reward",
+      "match": [],
+      "trans": "odměna",
+      "desc": "A reward player can get from doing quests or other stuff"
+    },
+    {
+      "eng": "calibration",
+      "match": [
+        "calibrate"
+      ],
+      "trans": "kalibrace",
+      "desc": "A process to make equipment work better"
+    },
+    {
+      "eng": "calibrate",
+      "match": [],
+      "trans": "kalibrovat",
+      "desc": "A process to make equipment work better"
+    },
+    {
+      "eng": "upgrade",
+      "match": [],
+      "trans": "vylepšení",
+      "desc": "A process to make equipment work better, including increasing level, resetting, or adding new stats"
+    },
+    {
+      "eng": "place hit",
+      "match": [],
+      "trans": "nastavit odměnu",
+      "desc": "Placing a bounty order on another player"
+    },
+    {
+      "eng": "netrunner",
+      "match": [],
+      "trans": "netrunner",
+      "desc": "Hacker in cyberpunk term"
+    },
+    {
+      "eng": "netrunning",
+      "match": [],
+      "trans": "sítové hackování",
+      "desc": "Hacking in cyberpunk term"
+    },
+    {
+      "eng": "flatline",
+      "match": [],
+      "trans": "plochá křivka",
+      "desc": "Dead in cyberpunk term, will show up in the dead screen with bit writing, supposed to look cool"
+    },
+    {
+      "eng": "cybernet",
+      "match": [],
+      "trans": "cybersíť",
+      "desc": "\"Internet\" in cyberpunk term"
+    },
+    {
+      "eng": "use",
+      "match": [],
+      "trans": "Použít",
+      "desc": "Use an item"
+    },
+    {
+      "eng": "next",
+      "match": [],
+      "trans": "Další",
+      "desc": "In UI context, like a button"
+    },
+    {
+      "eng": "block",
+      "match": [],
+      "trans": "Blokovat",
+      "desc": "Block a player from sending messages to you"
+    },
+    {
+      "eng": "bundle",
+      "match": [],
+      "trans": "balíček",
+      "desc": "A bundle of items players can buy in most mobile games"
+    },
+    {
+      "eng": "block chance",
+      "match": [],
+      "trans": "Blokovací šance",
+      "desc": "A stat of equipment, a chance that players can block incoming damage"
+    },
+    {
+      "eng": "Eurodollars",
+      "match": [
+        "eddie"
+      ],
+      "trans": "eurodolar",
+      "desc": "Main currency in the game, which is Eurodollars, please translate directly to Eurodollars or simply \"money\" if more appropriate"
+    },
+    {
+      "eng": "eddies",
+      "match": [
+        "eddie"
+      ],
+      "trans": "víry"
+    },
+    {
+      "eng": "Lore note",
+      "match": [
+        "lore"
+      ],
+      "trans": "Příběhová poznámka",
+      "desc": "A note that players can find in the game and read to learn more about the game world"
+    },
+    {
+      "eng": "referral",
+      "match": [
+        "refer"
+      ],
+      "trans": "odkaz",
+      "desc": "Referral as in referring a friend to play the game"
+    },
+    {
+      "eng": "refer",
+      "match": [],
+      "trans": "odkazovat",
+      "desc": "Referral as in referring a friend to play the game"
+    },
+    {
+      "eng": "Scrap Items",
+      "match": [
+        "scrap"
+      ],
+      "trans": "Zlikvidovat položky",
+      "desc": "Player can scrap items from their inventory, different from dismantle, scrap will give less or no components"
+    },
+    {
+      "eng": "All",
+      "match": [],
+      "trans": "Vše",
+      "desc": "A generic word for 'all' in UI"
+    },
+    {
+      "eng": "Continue",
+      "match": [],
+      "trans": "Pokračovat",
+      "desc": "A generic word for 'continue' in UI"
+    },
+    {
+      "eng": "CircuitBreak",
+      "match": [],
+      "trans": "CircuitBreak",
+      "desc": "a megacorporation that specializes in security-related tasks, they also has a hitman service where people can place hit on their enemies"
+    },
+    {
+      "eng": "Choom",
+      "match": [],
+      "trans": "brácho",
+      "desc": "A slang word for friend/bro in cyberpunk term"
+    },
+    {
+      "eng": "Uncommon Container",
+      "match": [],
+      "trans": "Neobvyklý kontejner",
+      "desc": "A uncommon container that contains a random item."
+    },
+    {
+      "eng": "cybernetic ability",
+      "match": [
+        "cybernetic"
+      ],
+      "trans": "kibernetická schopnost"
+    },
+    {
+      "eng": "cyberpsycho",
+      "match": [
+        "psycho"
+      ],
+      "trans": "cyberpsychopat",
+      "desc": "A person who has lost their mind due to excessive cybernetic implants"
+    },
+    {
+      "eng": "cyberpsychosis",
+      "match": [
+        "psycho"
+      ],
+      "trans": "cyberpsychóza",
+      "desc": "A mental illness caused by excessive cybernetic implants"
+    },
+    {
+      "eng": "cybernetic",
+      "match": [],
+      "trans": "cybernetický",
+      "desc": "A term used to describe cybernetic implants"
+    }
+  ]
+}
