@@ -520,10 +520,6 @@
 		}
 	},
 	"arrestPlayerModal": {
-		"arrestReward": {
-			"eng": "You will receive rewards from ACPD if you arrest them",
-			"trans": "그들을 체포하면 ACPD에서 보상을 받게 됩니다."
-		},
 		"cancel": {
 			"eng": "ABORT",
 			"trans": "취소"
@@ -533,6 +529,10 @@
 			"trans": "체포 실행"
 		},
 		"description": {
+			"arrestReward": {
+				"eng": "If you arrest a wanted player, you will receive rewards from ACPD",
+				"trans": "수배된 플레이어를 체포하면 ACPD로부터 보상을 받게 됩니다."
+			},
 			"eng": "You are about to arrest a wanted criminal.",
 			"trans": "수배자를 체포할 예정입니다."
 		},
@@ -576,37 +576,29 @@
 		}
 	},
 	"attackPlayerModal": {
-		"acpdWarning": {
-			"eng": "ACPD will list you as wanted for attacking other players",
-			"trans": "ACPD가 당신을 다른 플레이어를 공격한 죄로 추적 대상에 등록합니다."
-		},
-		"aggressiveAction": {
-			"eng": "This is an aggressive action",
-			"trans": "이것은 공격적인 행동입니다."
-		},
 		"cancel": {
 			"eng": "STAND DOWN",
 			"trans": "중지하라"
 		},
 		"confirm": {
-			"eng": "ENGAGE COMBAT",
-			"trans": "전투 시작"
+			"eng": "MUG PLAYER",
+			"trans": "강도 플레이어"
 		},
 		"description": {
+			"attackNonHostile": {
+				"eng": "You will be marked as Hostile for attacking non-hostile players",
+				"trans": "비적대 플레이어를 공격하면 적대자로 표시됩니다."
+			},
+			"attackNoneWanted": {
+				"eng": "You will be wanted by the ACPD for attacking a player thats not wanted",
+				"trans": "원하지 않는 플레이어를 공격하면 ACPD에 의해 체포됩니다."
+			},
 			"eng": "You are about to engage in hostile combat. This action cannot be undone.",
 			"trans": "적대적 전투를 시작합니다. 이 행동은 되돌릴 수 없습니다."
-		},
-		"hostileWarning": {
-			"eng": "You will be marked as Hostile for attacking non-hostile players",
-			"trans": "적대적이지 않은 플레이어를 공격하면 적대 상태로 표시됩니다."
 		},
 		"level": {
 			"eng": "LVL ${level}",
 			"trans": "Lv. ${level}"
-		},
-		"riskDescription": {
-			"eng": "PVP combat has consequences. Make sure you're ready for the fight.",
-			"trans": "PVP 전투에는 대가가 있다. 싸움에 완벽하게 준비해라."
 		},
 		"riskWarning": {
 			"eng": "HIGH RISK OPERATION",
@@ -1566,6 +1558,12 @@
 			"eng": "Image updated successfully",
 			"trans": "이미지가 성공적으로 업데이트되었습니다"
 		},
+		"notice": {
+			"prefix": {
+				"eng": "Notice:",
+				"trans": "공지:"
+			}
+		},
 		"notification": {
 			"collapsed": {
 				"body": {
@@ -1700,9 +1698,23 @@
 			"eng": "There is no motto set for this gang yet",
 			"trans": "이 갱단에는 아직 모토가 설정되지 않았습니다"
 		},
+		"noticeModal": {
+			"description": {
+				"eng": "Posting a notice will cost ${Config.CLAN.NOTICE_POST_COST}${CurrencyType.NORMAL.getSymbol()}",
+				"trans": "공지 게시 시 ${Config.CLAN.NOTICE_POST_COST}${CurrencyType.NORMAL.getSymbol()}이(가) 소요됩니다."
+			},
+			"title": {
+				"eng": "Post gang notice",
+				"trans": "갱단 공지 게시"
+			}
+		},
 		"playerListButton": {
 			"eng": "Member List",
 			"trans": "갱원 목록"
+		},
+		"postNoticeButton": {
+			"eng": "Post Notice",
+			"trans": "공지 게시"
 		},
 		"requestToJoinButton": {
 			"eng": "Request to join",
@@ -1887,7 +1899,17 @@
 			"trans": "수집된 로어 노트"
 		}
 	},
+	"comatEnemyList": {
+		"scaledLevel": {
+			"eng": "scaled Lv. ${level}",
+			"trans": "스케일 Lv.${level}"
+		}
+	},
 	"combatHandler": {
+		"arrestPlayerError": {
+			"eng": "This player has already been arrested",
+			"trans": "이 플레이어는 이미 체포되었습니다."
+		},
 		"notEnoughPsyche": {
 			"eng": "Your cyber-psychosis level is too high to engage in fights",
 			"trans": "전투에 참여하기에 사이버 싸이코 레벨이 너무 높습니다"
@@ -3622,6 +3644,16 @@
 			"tooShort": {
 				"eng": "The gang name must be at least ${minLength} characters long",
 				"trans": "갱 이름은 최소 ${minLength}자 이상이어야 합니다"
+			}
+		},
+		"notice": {
+			"notEnoughMoney": {
+				"eng": "Not enough Eurodollars",
+				"trans": "유로달러가 부족합니다."
+			},
+			"success": {
+				"eng": "Notice posted successfully",
+				"trans": "공지 게시가 완료되었습니다."
 			}
 		},
 		"requestJoin": {
@@ -7337,6 +7369,10 @@
 		"merror": {
 			"eng": "The motto contains reserved words",
 			"trans": "슬로건에 예약된 단어가 포함되어 있습니다"
+		},
+		"noticeFailed": {
+			"eng": "Notice failed to post due to moderation",
+			"trans": "모더레이션으로 인해 공지 게시가 실패했습니다."
 		},
 		"serviceDown": {
 			"eng": "Motto editing is temporally disabled due to external service downtime, please try again later",
@@ -11345,6 +11381,10 @@
 				"eng": "You already tried to escape in this turn!",
 				"trans": "이번 턴에 이미 탈출을 시도했습니다!"
 			},
+			"arresting": {
+				"eng": "ARREST",
+				"trans": "체포"
+			},
 			"autoAttackLevel": {
 				"eng": "You need to be level ${level} to use auto combat",
 				"trans": "자동 전투를 사용하려면 ${level}레벨이 되어야 합니다"
@@ -11356,6 +11396,14 @@
 			"escape": {
 				"eng": "escape",
 				"trans": "탈출"
+			},
+			"mugging": {
+				"eng": "MUGGING",
+				"trans": "지갑털기"
+			},
+			"round": {
+				"eng": "Round ${round}",
+				"trans": "라운드 ${round}"
 			}
 		},
 		"dungeonUI": {

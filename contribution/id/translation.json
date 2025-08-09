@@ -520,10 +520,6 @@
 		}
 	},
 	"arrestPlayerModal": {
-		"arrestReward": {
-			"eng": "You will receive rewards from ACPD if you arrest them",
-			"trans": "Anda akan menerima hadiah dari ACPD jika Anda menangkap mereka."
-		},
 		"cancel": {
 			"eng": "ABORT",
 			"trans": "BATAL"
@@ -533,6 +529,10 @@
 			"trans": "Laksanakan Penangkapan"
 		},
 		"description": {
+			"arrestReward": {
+				"eng": "If you arrest a wanted player, you will receive rewards from ACPD",
+				"trans": "Jika Anda menangkap pemain yang dicari, Anda akan menerima hadiah dari ACPD."
+			},
 			"eng": "You are about to arrest a wanted criminal.",
 			"trans": "Anda akan segera menangkap orang yang diburu."
 		},
@@ -576,37 +576,29 @@
 		}
 	},
 	"attackPlayerModal": {
-		"acpdWarning": {
-			"eng": "ACPD will list you as wanted for attacking other players",
-			"trans": "ACPD akan mendaftarkan Anda sebagai yang diburu karena menyerang pemain lain"
-		},
-		"aggressiveAction": {
-			"eng": "This is an aggressive action",
-			"trans": "Ini adalah aksi agresif"
-		},
 		"cancel": {
 			"eng": "STAND DOWN",
 			"trans": "BERHENTI"
 		},
 		"confirm": {
-			"eng": "ENGAGE COMBAT",
-			"trans": "MULAI PERTEMPURAN"
+			"eng": "MUG PLAYER",
+			"trans": "Mug Pemain"
 		},
 		"description": {
+			"attackNonHostile": {
+				"eng": "You will be marked as Hostile for attacking non-hostile players",
+				"trans": "Anda akan diberi tanda Musuh bila menyerang pemain non-musuh."
+			},
+			"attackNoneWanted": {
+				"eng": "You will be wanted by the ACPD for attacking a player thats not wanted",
+				"trans": "Anda akan dicari oleh ACPD karena menyerang pemain yang tidak diinginkan."
+			},
 			"eng": "You are about to engage in hostile combat. This action cannot be undone.",
 			"trans": "Anda akan terlibat dalam pertempuran musuh. Tindakan ini tidak dapat dibatalkan."
-		},
-		"hostileWarning": {
-			"eng": "You will be marked as Hostile for attacking non-hostile players",
-			"trans": "Anda akan ditandai sebagai Musuh karena menyerang pemain yang tidak bersifat musuh."
 		},
 		"level": {
 			"eng": "LVL ${level}",
 			"trans": "Level ${level}"
-		},
-		"riskDescription": {
-			"eng": "PVP combat has consequences. Make sure you're ready for the fight.",
-			"trans": "Pertarungan PVP memiliki konsekuensi. Pastikan kamu siap menghadapi pertarungan."
 		},
 		"riskWarning": {
 			"eng": "HIGH RISK OPERATION",
@@ -1566,6 +1558,12 @@
 			"eng": "Image updated successfully",
 			"trans": "Gambar berhasil diperbarui"
 		},
+		"notice": {
+			"prefix": {
+				"eng": "Notice:",
+				"trans": "Pemberitahuan:"
+			}
+		},
 		"notification": {
 			"collapsed": {
 				"body": {
@@ -1700,9 +1698,23 @@
 			"eng": "There is no motto set for this gang yet",
 			"trans": "Belum ada motto yang ditetapkan untuk geng ini"
 		},
+		"noticeModal": {
+			"description": {
+				"eng": "Posting a notice will cost ${Config.CLAN.NOTICE_POST_COST}${CurrencyType.NORMAL.getSymbol()}",
+				"trans": "Mengirim pengumuman akan dikenakan biaya ${Config.CLAN.NOTICE_POST_COST}${CurrencyType.NORMAL.getSymbol()}"
+			},
+			"title": {
+				"eng": "Post gang notice",
+				"trans": "Kirim Pemberitahuan Geng"
+			}
+		},
 		"playerListButton": {
 			"eng": "Member List",
 			"trans": "Daftar Anggota"
+		},
+		"postNoticeButton": {
+			"eng": "Post Notice",
+			"trans": "Posting Pemberitahuan"
 		},
 		"requestToJoinButton": {
 			"eng": "Request to join",
@@ -1887,7 +1899,17 @@
 			"trans": "Catatan Cerita yang Terkumpul"
 		}
 	},
+	"comatEnemyList": {
+		"scaledLevel": {
+			"eng": "scaled Lv. ${level}",
+			"trans": "Lv. Skala ${level}"
+		}
+	},
 	"combatHandler": {
+		"arrestPlayerError": {
+			"eng": "This player has already been arrested",
+			"trans": "Pemain ini sudah ditangkap."
+		},
 		"notEnoughPsyche": {
 			"eng": "Your cyber-psychosis level is too high to engage in fights",
 			"trans": "Tingkat psikosis siber Anda terlalu tinggi untuk terlibat dalam pertarungan"
@@ -3622,6 +3644,16 @@
 			"tooShort": {
 				"eng": "The gang name must be at least ${minLength} characters long",
 				"trans": "Nama geng harus setidaknya ${minLength} karakter panjangnya"
+			}
+		},
+		"notice": {
+			"notEnoughMoney": {
+				"eng": "Not enough Eurodollars",
+				"trans": "Tidak cukup Eurodollar"
+			},
+			"success": {
+				"eng": "Notice posted successfully",
+				"trans": "Pengumuman berhasil diposting"
 			}
 		},
 		"requestJoin": {
@@ -7337,6 +7369,10 @@
 		"merror": {
 			"eng": "The motto contains reserved words",
 			"trans": "Motto tersebut mengandung kata-kata yang tidak dapat diubah"
+		},
+		"noticeFailed": {
+			"eng": "Notice failed to post due to moderation",
+			"trans": "Pemberitahuan gagal diposting karena moderasi"
 		},
 		"serviceDown": {
 			"eng": "Motto editing is temporally disabled due to external service downtime, please try again later",
@@ -11345,6 +11381,10 @@
 				"eng": "You already tried to escape in this turn!",
 				"trans": "Anda telah mencoba melarikan diri di giliran ini!"
 			},
+			"arresting": {
+				"eng": "ARREST",
+				"trans": "Penangkapan"
+			},
 			"autoAttackLevel": {
 				"eng": "You need to be level ${level} to use auto combat",
 				"trans": "Kamu harus mencapai level ${level} untuk menggunakan pertarungan otomatis"
@@ -11356,6 +11396,14 @@
 			"escape": {
 				"eng": "escape",
 				"trans": "Melarikan diri"
+			},
+			"mugging": {
+				"eng": "MUGGING",
+				"trans": "PENCOPETAN"
+			},
+			"round": {
+				"eng": "Round ${round}",
+				"trans": "Putaran ${round}"
 			}
 		},
 		"dungeonUI": {

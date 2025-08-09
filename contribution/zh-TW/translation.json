@@ -520,10 +520,6 @@
 		}
 	},
 	"arrestPlayerModal": {
-		"arrestReward": {
-			"eng": "You will receive rewards from ACPD if you arrest them",
-			"trans": "如果你逮捕他們，你將從ACPD獲得獎勵。"
-		},
 		"cancel": {
 			"eng": "ABORT",
 			"trans": "中止"
@@ -533,6 +529,10 @@
 			"trans": "執行逮捕"
 		},
 		"description": {
+			"arrestReward": {
+				"eng": "If you arrest a wanted player, you will receive rewards from ACPD",
+				"trans": "若你逮捕通緝玩家，將從 ACPD 獲得獎勵"
+			},
 			"eng": "You are about to arrest a wanted criminal.",
 			"trans": "你即將逮捕一名通緝犯。"
 		},
@@ -576,37 +576,29 @@
 		}
 	},
 	"attackPlayerModal": {
-		"acpdWarning": {
-			"eng": "ACPD will list you as wanted for attacking other players",
-			"trans": "ACPD將您列為通緝犯，因攻擊其他玩家。"
-		},
-		"aggressiveAction": {
-			"eng": "This is an aggressive action",
-			"trans": "這是一個具攻擊性的行動"
-		},
 		"cancel": {
 			"eng": "STAND DOWN",
 			"trans": "遵從指令"
 		},
 		"confirm": {
-			"eng": "ENGAGE COMBAT",
-			"trans": "進入戰鬥"
+			"eng": "MUG PLAYER",
+			"trans": "搶劫玩家"
 		},
 		"description": {
+			"attackNonHostile": {
+				"eng": "You will be marked as Hostile for attacking non-hostile players",
+				"trans": "攻擊非敵對玩家將被標記為敵對"
+			},
+			"attackNoneWanted": {
+				"eng": "You will be wanted by the ACPD for attacking a player thats not wanted",
+				"trans": "你將因攻擊一名未被通緝的玩家而被ACPD通緝"
+			},
 			"eng": "You are about to engage in hostile combat. This action cannot be undone.",
 			"trans": "您即將進入敵對戰鬥。此行動無法撤回。"
-		},
-		"hostileWarning": {
-			"eng": "You will be marked as Hostile for attacking non-hostile players",
-			"trans": "攻擊非敵對玩家將被標記為敵對。"
 		},
 		"level": {
 			"eng": "LVL ${level}",
 			"trans": "等級 ${level}"
-		},
-		"riskDescription": {
-			"eng": "PVP combat has consequences. Make sure you're ready for the fight.",
-			"trans": "PVP戰鬥有後果。請確保你已準備好迎戰。"
 		},
 		"riskWarning": {
 			"eng": "HIGH RISK OPERATION",
@@ -1566,6 +1558,12 @@
 			"eng": "Image updated successfully",
 			"trans": "圖片更新成功"
 		},
+		"notice": {
+			"prefix": {
+				"eng": "Notice:",
+				"trans": "通知："
+			}
+		},
 		"notification": {
 			"collapsed": {
 				"body": {
@@ -1700,9 +1698,23 @@
 			"eng": "There is no motto set for this gang yet",
 			"trans": "這個幫派還沒有座右銘。"
 		},
+		"noticeModal": {
+			"description": {
+				"eng": "Posting a notice will cost ${Config.CLAN.NOTICE_POST_COST}${CurrencyType.NORMAL.getSymbol()}",
+				"trans": "發布公告將耗費 ${Config.CLAN.NOTICE_POST_COST}${CurrencyType.NORMAL.getSymbol()}"
+			},
+			"title": {
+				"eng": "Post gang notice",
+				"trans": "發布幫派公告"
+			}
+		},
 		"playerListButton": {
 			"eng": "Member List",
 			"trans": "成員清單"
+		},
+		"postNoticeButton": {
+			"eng": "Post Notice",
+			"trans": "發布公告"
 		},
 		"requestToJoinButton": {
 			"eng": "Request to join",
@@ -1887,7 +1899,17 @@
 			"trans": "已收集的背景故事"
 		}
 	},
+	"comatEnemyList": {
+		"scaledLevel": {
+			"eng": "scaled Lv. ${level}",
+			"trans": "等級已縮放 ${level}"
+		}
+	},
 	"combatHandler": {
+		"arrestPlayerError": {
+			"eng": "This player has already been arrested",
+			"trans": "此玩家已被逮捕"
+		},
 		"notEnoughPsyche": {
 			"eng": "Your cyber-psychosis level is too high to engage in fights",
 			"trans": "你的電馭狂躁症程度過高，無法參與戰鬥"
@@ -3622,6 +3644,16 @@
 			"tooShort": {
 				"eng": "The gang name must be at least ${minLength} characters long",
 				"trans": "幫派名稱至少需要 ${minLength} 個字元"
+			}
+		},
+		"notice": {
+			"notEnoughMoney": {
+				"eng": "Not enough Eurodollars",
+				"trans": "歐元不足"
+			},
+			"success": {
+				"eng": "Notice posted successfully",
+				"trans": "公告已成功發布"
 			}
 		},
 		"requestJoin": {
@@ -7337,6 +7369,10 @@
 		"merror": {
 			"eng": "The motto contains reserved words",
 			"trans": "標語含有保留字"
+		},
+		"noticeFailed": {
+			"eng": "Notice failed to post due to moderation",
+			"trans": "通知因審核失敗而未能發佈"
 		},
 		"serviceDown": {
 			"eng": "Motto editing is temporally disabled due to external service downtime, please try again later",
@@ -11345,6 +11381,10 @@
 				"eng": "You already tried to escape in this turn!",
 				"trans": "您在這回合已經試過逃脫了！"
 			},
+			"arresting": {
+				"eng": "ARREST",
+				"trans": "逮捕"
+			},
 			"autoAttackLevel": {
 				"eng": "You need to be level ${level} to use auto combat",
 				"trans": "自動戰鬥需要等級 ${level}"
@@ -11356,6 +11396,14 @@
 			"escape": {
 				"eng": "escape",
 				"trans": "逃脫"
+			},
+			"mugging": {
+				"eng": "MUGGING",
+				"trans": "搶劫"
+			},
+			"round": {
+				"eng": "Round ${round}",
+				"trans": "第${round}回合"
 			}
 		},
 		"dungeonUI": {

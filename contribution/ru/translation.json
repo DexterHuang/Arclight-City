@@ -520,10 +520,6 @@
 		}
 	},
 	"arrestPlayerModal": {
-		"arrestReward": {
-			"eng": "You will receive rewards from ACPD if you arrest them",
-			"trans": "Вы получите вознаграждение от ACPD, если арестуете их"
-		},
 		"cancel": {
 			"eng": "ABORT",
 			"trans": "ПРЕРВАТЬ"
@@ -533,6 +529,10 @@
 			"trans": "Выполнить задержание"
 		},
 		"description": {
+			"arrestReward": {
+				"eng": "If you arrest a wanted player, you will receive rewards from ACPD",
+				"trans": "Если вы арестуете разыскиваемого игрока, вы получите награды от ACPD."
+			},
 			"eng": "You are about to arrest a wanted criminal.",
 			"trans": "Вы готовы арестовать разыскиваемого преступника."
 		},
@@ -576,37 +576,29 @@
 		}
 	},
 	"attackPlayerModal": {
-		"acpdWarning": {
-			"eng": "ACPD will list you as wanted for attacking other players",
-			"trans": "ACPD зарегистрирует вас как разыскиваемого за нападение на других игроков"
-		},
-		"aggressiveAction": {
-			"eng": "This is an aggressive action",
-			"trans": "Это агрессивное действие"
-		},
 		"cancel": {
 			"eng": "STAND DOWN",
 			"trans": "Отступите"
 		},
 		"confirm": {
-			"eng": "ENGAGE COMBAT",
-			"trans": "Начать бой"
+			"eng": "MUG PLAYER",
+			"trans": "Игрок с кружкой"
 		},
 		"description": {
+			"attackNonHostile": {
+				"eng": "You will be marked as Hostile for attacking non-hostile players",
+				"trans": "За атаку на мирных игроков вас пометят как враждебного."
+			},
+			"attackNoneWanted": {
+				"eng": "You will be wanted by the ACPD for attacking a player thats not wanted",
+				"trans": "ACPД будет искать вас за нападение на игрока, которого не ищут."
+			},
 			"eng": "You are about to engage in hostile combat. This action cannot be undone.",
 			"trans": "Вы готовитесь к вражескому бою. Это действие нельзя отменить."
-		},
-		"hostileWarning": {
-			"eng": "You will be marked as Hostile for attacking non-hostile players",
-			"trans": "Вы будете помечены как враждебные за атаку на не враждебных игроков."
 		},
 		"level": {
 			"eng": "LVL ${level}",
 			"trans": "Ур. ${level}"
-		},
-		"riskDescription": {
-			"eng": "PVP combat has consequences. Make sure you're ready for the fight.",
-			"trans": "Бои PVP имеют последствия. Убедитесь, что вы готовы к битве."
 		},
 		"riskWarning": {
 			"eng": "HIGH RISK OPERATION",
@@ -1566,6 +1558,12 @@
 			"eng": "Image updated successfully",
 			"trans": "Изображение успешно обновлено"
 		},
+		"notice": {
+			"prefix": {
+				"eng": "Notice:",
+				"trans": "Уведомление:"
+			}
+		},
 		"notification": {
 			"collapsed": {
 				"body": {
@@ -1700,9 +1698,23 @@
 			"eng": "There is no motto set for this gang yet",
 			"trans": "Для этой банды пока не установлен девиз"
 		},
+		"noticeModal": {
+			"description": {
+				"eng": "Posting a notice will cost ${Config.CLAN.NOTICE_POST_COST}${CurrencyType.NORMAL.getSymbol()}",
+				"trans": "Оплата публикации сообщения составит ${Config.CLAN.NOTICE_POST_COST}${CurrencyType.NORMAL.getSymbol()}"
+			},
+			"title": {
+				"eng": "Post gang notice",
+				"trans": "Опубликовать объявление о банде"
+			}
+		},
 		"playerListButton": {
 			"eng": "Member List",
 			"trans": "Список участников"
+		},
+		"postNoticeButton": {
+			"eng": "Post Notice",
+			"trans": "Опубликовать объявление"
 		},
 		"requestToJoinButton": {
 			"eng": "Request to join",
@@ -1887,7 +1899,17 @@
 			"trans": "Собранные заметки о лоре"
 		}
 	},
+	"comatEnemyList": {
+		"scaledLevel": {
+			"eng": "scaled Lv. ${level}",
+			"trans": "масштабированный уровень ${level}"
+		}
+	},
 	"combatHandler": {
+		"arrestPlayerError": {
+			"eng": "This player has already been arrested",
+			"trans": "Игрок уже арестован"
+		},
 		"notEnoughPsyche": {
 			"eng": "Your cyber-psychosis level is too high to engage in fights",
 			"trans": "Ваш уровень киберпсихоза слишком высок для участия в боях"
@@ -3622,6 +3644,16 @@
 			"tooShort": {
 				"eng": "The gang name must be at least ${minLength} characters long",
 				"trans": "Название банды должно быть не менее ${minLength} символов"
+			}
+		},
+		"notice": {
+			"notEnoughMoney": {
+				"eng": "Not enough Eurodollars",
+				"trans": "Недостаточно евродолларов"
+			},
+			"success": {
+				"eng": "Notice posted successfully",
+				"trans": "Уведомление успешно опубликовано"
 			}
 		},
 		"requestJoin": {
@@ -7337,6 +7369,10 @@
 		"merror": {
 			"eng": "The motto contains reserved words",
 			"trans": "Девиз содержит зарезервированные слова"
+		},
+		"noticeFailed": {
+			"eng": "Notice failed to post due to moderation",
+			"trans": "Не удалось разместить уведомление из‑за модерации"
 		},
 		"serviceDown": {
 			"eng": "Motto editing is temporally disabled due to external service downtime, please try again later",
@@ -11345,6 +11381,10 @@
 				"eng": "You already tried to escape in this turn!",
 				"trans": "Вы уже пытались сбежать в этом ходу!"
 			},
+			"arresting": {
+				"eng": "ARREST",
+				"trans": "АРЕСТ"
+			},
 			"autoAttackLevel": {
 				"eng": "You need to be level ${level} to use auto combat",
 				"trans": "Для использования автоматического боя необходим уровень ${level}"
@@ -11356,6 +11396,14 @@
 			"escape": {
 				"eng": "escape",
 				"trans": "побег"
+			},
+			"mugging": {
+				"eng": "MUGGING",
+				"trans": "УКРАШЕНИЕ"
+			},
+			"round": {
+				"eng": "Round ${round}",
+				"trans": "Раунд ${round}"
 			}
 		},
 		"dungeonUI": {

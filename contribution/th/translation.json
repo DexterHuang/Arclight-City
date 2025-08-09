@@ -520,10 +520,6 @@
 		}
 	},
 	"arrestPlayerModal": {
-		"arrestReward": {
-			"eng": "You will receive rewards from ACPD if you arrest them",
-			"trans": "คุณจะได้รับโบนัสจาก ACPD หากคุณจับพวกเขา"
-		},
 		"cancel": {
 			"eng": "ABORT",
 			"trans": "ยกเลิก"
@@ -533,6 +529,10 @@
 			"trans": "ดำเนินการจับกุม"
 		},
 		"description": {
+			"arrestReward": {
+				"eng": "If you arrest a wanted player, you will receive rewards from ACPD",
+				"trans": "ถ้าคุณจับกุมผู้ต้องการ คุณจะได้รับรางวัลจาก ACPD"
+			},
 			"eng": "You are about to arrest a wanted criminal.",
 			"trans": "คุณกำลังจะจับผู้ต้องหาที่มีหมายจับ"
 		},
@@ -576,37 +576,29 @@
 		}
 	},
 	"attackPlayerModal": {
-		"acpdWarning": {
-			"eng": "ACPD will list you as wanted for attacking other players",
-			"trans": "ACPD จะระบุคุณเป็นผู้ต้องการเนื่องจากการโจมตีผู้เล่นคนอื่น"
-		},
-		"aggressiveAction": {
-			"eng": "This is an aggressive action",
-			"trans": "นี่คือการกระทำที่ก้าวร้าว"
-		},
 		"cancel": {
 			"eng": "STAND DOWN",
 			"trans": "ยืนลง"
 		},
 		"confirm": {
-			"eng": "ENGAGE COMBAT",
-			"trans": "เปิดฉากสงคราม"
+			"eng": "MUG PLAYER",
+			"trans": "หน้าผู้เล่น"
 		},
 		"description": {
+			"attackNonHostile": {
+				"eng": "You will be marked as Hostile for attacking non-hostile players",
+				"trans": "คุณจะถูกระบุเป็นศัตรูหากโจมตีผู้เล่นที่ไม่ใช่ศัตรู"
+			},
+			"attackNoneWanted": {
+				"eng": "You will be wanted by the ACPD for attacking a player thats not wanted",
+				"trans": "คุณจะถูก ACPD ติดตามเนื่องจากโจมตีผู้เล่นที่ไม่ต้องการ"
+			},
 			"eng": "You are about to engage in hostile combat. This action cannot be undone.",
 			"trans": "คุณกำลังจะเข้าสู่การรบอย่างรุนแรง การดำเนินการนี้ไม่สามารถย้อนกลับได้"
-		},
-		"hostileWarning": {
-			"eng": "You will be marked as Hostile for attacking non-hostile players",
-			"trans": "คุณจะถูกจัดว่าเป็นศัตรูหากโจมตีผู้เล่นที่ไม่ใช่ศัตรู"
 		},
 		"level": {
 			"eng": "LVL ${level}",
 			"trans": "เลเวล ${level}"
-		},
-		"riskDescription": {
-			"eng": "PVP combat has consequences. Make sure you're ready for the fight.",
-			"trans": "การต่อสู้ PVP มีผลลัพธ์ที่ร้ายแรง ให้แน่ใจว่าคุณพร้อมสำหรับการต่อสู้"
 		},
 		"riskWarning": {
 			"eng": "HIGH RISK OPERATION",
@@ -1566,6 +1558,12 @@
 			"eng": "Image updated successfully",
 			"trans": "อัปเดตภาพเสร็จสิ้น"
 		},
+		"notice": {
+			"prefix": {
+				"eng": "Notice:",
+				"trans": "แจ้งเตือน:"
+			}
+		},
 		"notification": {
 			"collapsed": {
 				"body": {
@@ -1700,9 +1698,23 @@
 			"eng": "There is no motto set for this gang yet",
 			"trans": "แก๊งนี้ยังไม่มีสโลแกน"
 		},
+		"noticeModal": {
+			"description": {
+				"eng": "Posting a notice will cost ${Config.CLAN.NOTICE_POST_COST}${CurrencyType.NORMAL.getSymbol()}",
+				"trans": "การโพสต์ประกาศจะมีค่าธรรมเนียม ${Config.CLAN.NOTICE_POST_COST}${CurrencyType.NORMAL.getSymbol()}"
+			},
+			"title": {
+				"eng": "Post gang notice",
+				"trans": "โพสต์ประกาศแก๊ง"
+			}
+		},
 		"playerListButton": {
 			"eng": "Member List",
 			"trans": "รายชื่อสมาชิก"
+		},
+		"postNoticeButton": {
+			"eng": "Post Notice",
+			"trans": "ประกาศ"
 		},
 		"requestToJoinButton": {
 			"eng": "Request to join",
@@ -1887,7 +1899,17 @@
 			"trans": "โน้ตโลกที่เก็บแล้ว"
 		}
 	},
+	"comatEnemyList": {
+		"scaledLevel": {
+			"eng": "scaled Lv. ${level}",
+			"trans": "Lv. ปรับขนาด ${level}"
+		}
+	},
 	"combatHandler": {
+		"arrestPlayerError": {
+			"eng": "This player has already been arrested",
+			"trans": "ผู้เล่นนี้ได้ถูกจับแล้ว"
+		},
 		"notEnoughPsyche": {
 			"eng": "Your cyber-psychosis level is too high to engage in fights",
 			"trans": "ค่าจิตหลอนทะลุเพดาน! เข้าบู๊ไม่ได้"
@@ -3622,6 +3644,16 @@
 			"tooShort": {
 				"eng": "The gang name must be at least ${minLength} characters long",
 				"trans": "ชื่อแก๊งค์สั้นไปนะ ต้องมีอย่างน้อย ${minLength} ตัวอักษร"
+			}
+		},
+		"notice": {
+			"notEnoughMoney": {
+				"eng": "Not enough Eurodollars",
+				"trans": "ยูโรดอลลาร์ไม่พอ"
+			},
+			"success": {
+				"eng": "Notice posted successfully",
+				"trans": "ประกาศโพสต์สำเร็จ"
 			}
 		},
 		"requestJoin": {
@@ -7337,6 +7369,10 @@
 		"merror": {
 			"eng": "The motto contains reserved words",
 			"trans": "ข้อความที่คุณใส่มีคำต้องห้าม"
+		},
+		"noticeFailed": {
+			"eng": "Notice failed to post due to moderation",
+			"trans": "แจ้งเตือนไม่สามารถโพสต์ได้ เนื่องจากการปรับตัว"
 		},
 		"serviceDown": {
 			"eng": "Motto editing is temporally disabled due to external service downtime, please try again later",
@@ -11345,6 +11381,10 @@
 				"eng": "You already tried to escape in this turn!",
 				"trans": "ลองหนีไปแล้ว! เทิร์นนี้ทำอะไรไม่ได้แล้ว"
 			},
+			"arresting": {
+				"eng": "ARREST",
+				"trans": "จับกุม"
+			},
 			"autoAttackLevel": {
 				"eng": "You need to be level ${level} to use auto combat",
 				"trans": "เลเวล ${level} ขึ้นไป ถึงใช้ ต่อสู้ออโต้ ได้"
@@ -11356,6 +11396,14 @@
 			"escape": {
 				"eng": "escape",
 				"trans": "หลบหนี"
+			},
+			"mugging": {
+				"eng": "MUGGING",
+				"trans": "ขโมยด้วยกำลัง"
+			},
+			"round": {
+				"eng": "Round ${round}",
+				"trans": "รอบที่ ${round}"
 			}
 		},
 		"dungeonUI": {

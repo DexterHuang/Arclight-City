@@ -520,10 +520,6 @@
 		}
 	},
 	"arrestPlayerModal": {
-		"arrestReward": {
-			"eng": "You will receive rewards from ACPD if you arrest them",
-			"trans": "彼らを逮捕した場合、ACPDから報酬がもらえます。"
-		},
 		"cancel": {
 			"eng": "ABORT",
 			"trans": "アボート"
@@ -533,6 +529,10 @@
 			"trans": "逮捕を実行"
 		},
 		"description": {
+			"arrestReward": {
+				"eng": "If you arrest a wanted player, you will receive rewards from ACPD",
+				"trans": "賞金対象のプレイヤーを逮捕すると、ACPDから報酬が得られます。"
+			},
 			"eng": "You are about to arrest a wanted criminal.",
 			"trans": "あなたは指名手配犯を逮捕するところです。"
 		},
@@ -576,37 +576,29 @@
 		}
 	},
 	"attackPlayerModal": {
-		"acpdWarning": {
-			"eng": "ACPD will list you as wanted for attacking other players",
-			"trans": "ACPDはあなたを他のプレイヤーを攻撃したとして指名手配にします"
-		},
-		"aggressiveAction": {
-			"eng": "This is an aggressive action",
-			"trans": "これは攻撃的な行動です"
-		},
 		"cancel": {
 			"eng": "STAND DOWN",
 			"trans": "ステンドダウン"
 		},
 		"confirm": {
-			"eng": "ENGAGE COMBAT",
-			"trans": "戦闘開始"
+			"eng": "MUG PLAYER",
+			"trans": "プレイヤーを強奪"
 		},
 		"description": {
+			"attackNonHostile": {
+				"eng": "You will be marked as Hostile for attacking non-hostile players",
+				"trans": "非敵対プレイヤーを攻撃すると、あなたは敵対者としてマークされます"
+			},
+			"attackNoneWanted": {
+				"eng": "You will be wanted by the ACPD for attacking a player thats not wanted",
+				"trans": "非要望者のプレイヤーを攻撃したため、ACPDから捜査対象になります。"
+			},
 			"eng": "You are about to engage in hostile combat. This action cannot be undone.",
 			"trans": "あなたは敵対戦闘に突入します。この操作は取り消しできません。"
-		},
-		"hostileWarning": {
-			"eng": "You will be marked as Hostile for attacking non-hostile players",
-			"trans": "敵対していないプレイヤーを攻撃すると、敵対者とみなされます"
 		},
 		"level": {
 			"eng": "LVL ${level}",
 			"trans": "レベル ${level}"
-		},
-		"riskDescription": {
-			"eng": "PVP combat has consequences. Make sure you're ready for the fight.",
-			"trans": "PVP戦闘には後果がある。戦闘に備えてください。"
 		},
 		"riskWarning": {
 			"eng": "HIGH RISK OPERATION",
@@ -1566,6 +1558,12 @@
 			"eng": "Image updated successfully",
 			"trans": "画像が正常に更新されました。"
 		},
+		"notice": {
+			"prefix": {
+				"eng": "Notice:",
+				"trans": "通知:"
+			}
+		},
 		"notification": {
 			"collapsed": {
 				"body": {
@@ -1700,9 +1698,23 @@
 			"eng": "There is no motto set for this gang yet",
 			"trans": "このギャングにはまだモットーが設定されていません。"
 		},
+		"noticeModal": {
+			"description": {
+				"eng": "Posting a notice will cost ${Config.CLAN.NOTICE_POST_COST}${CurrencyType.NORMAL.getSymbol()}",
+				"trans": "掲示板への通知投稿には${Config.CLAN.NOTICE_POST_COST}${CurrencyType.NORMAL.getSymbol()}がかかります。"
+			},
+			"title": {
+				"eng": "Post gang notice",
+				"trans": "ギャング告知"
+			}
+		},
 		"playerListButton": {
 			"eng": "Member List",
 			"trans": "メンバーリスト"
+		},
+		"postNoticeButton": {
+			"eng": "Post Notice",
+			"trans": "通知を投稿"
 		},
 		"requestToJoinButton": {
 			"eng": "Request to join",
@@ -1887,7 +1899,17 @@
 			"trans": "収集したロアノート"
 		}
 	},
+	"comatEnemyList": {
+		"scaledLevel": {
+			"eng": "scaled Lv. ${level}",
+			"trans": "Lv.${level} スケール"
+		}
+	},
 	"combatHandler": {
+		"arrestPlayerError": {
+			"eng": "This player has already been arrested",
+			"trans": "このプレイヤーは既に逮捕済みです"
+		},
 		"notEnoughPsyche": {
 			"eng": "Your cyber-psychosis level is too high to engage in fights",
 			"trans": "あなたのサイバーサイコシスレベルは高すぎて戦闘に参加できません"
@@ -3622,6 +3644,16 @@
 			"tooShort": {
 				"eng": "The gang name must be at least ${minLength} characters long",
 				"trans": "ギャング名は${minLength}文字以上である必要があります。"
+			}
+		},
+		"notice": {
+			"notEnoughMoney": {
+				"eng": "Not enough Eurodollars",
+				"trans": "ユーロドルが足りません"
+			},
+			"success": {
+				"eng": "Notice posted successfully",
+				"trans": "通知の投稿に成功しました"
 			}
 		},
 		"requestJoin": {
@@ -7337,6 +7369,10 @@
 		"merror": {
 			"eng": "The motto contains reserved words",
 			"trans": "モットーには予約語が含まれています"
+		},
+		"noticeFailed": {
+			"eng": "Notice failed to post due to moderation",
+			"trans": "モデレーションにより通知の投稿に失敗しました。"
 		},
 		"serviceDown": {
 			"eng": "Motto editing is temporally disabled due to external service downtime, please try again later",
@@ -11345,6 +11381,10 @@
 				"eng": "You already tried to escape in this turn!",
 				"trans": "既に逃げようとしました！"
 			},
+			"arresting": {
+				"eng": "ARREST",
+				"trans": "逮捕"
+			},
 			"autoAttackLevel": {
 				"eng": "You need to be level ${level} to use auto combat",
 				"trans": "自動戦闘をするにはレベル${level}が必要です"
@@ -11356,6 +11396,14 @@
 			"escape": {
 				"eng": "escape",
 				"trans": "脱出する"
+			},
+			"mugging": {
+				"eng": "MUGGING",
+				"trans": "ひったくり"
+			},
+			"round": {
+				"eng": "Round ${round}",
+				"trans": "ラウンド${round}"
 			}
 		},
 		"dungeonUI": {
