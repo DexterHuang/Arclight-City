@@ -7,31 +7,31 @@
 		"endDate": {
 			"desc": {
 				"eng": "This battle track will end at ${date}, and you will not be able purchase it after this date.",
-				"trans": "Tato bojová trasa skončí v ${date} a po tomto datu ji již nebude možné zakoupit."
+				"trans": "Tenhle battle track skončí ${date}. Poté už ho nebude možné zakoupit."
 			},
 			"title": {
 				"eng": "Track End Date",
-				"trans": "Datum ukončení trasy"
+				"trans": "Datum skončení tracku"
 			}
 		},
 		"maxDays": {
 			"desc1": {
 				"eng": "battle track will remain available for unlock and redeem daily ${days} days after your first login date (${firstDay}), regardless of the end date.",
-				"trans": "tags.<translation>Bojová dráha zůstane k dispozici pro odemčení a výměnu po dobu ${days} dnů od data vašeho prvního přihlášení (${firstDay}), bez ohledu na konečné datum."
+				"trans": "Battle Track zůstane k dispozici denně po dobu ${days} dnů od data tvého prvního přihlášení (${firstDay}), bez ohledu na datum ukončení."
 			},
 			"desc2": {
 				"eng": "Once the redeemable days are over, you will not be able to unlock or redeem the rewards anymore. so make sure you login and redeem your rewards before the redeemable days are over.",
-				"trans": "Jakmile uplyne doba, kdy lze odměny uplatnit, nebudete moci odemykat ani vybírat odměny. Proto se ujistěte, že se přihlásíte a vyberete své odměny dříve, než tato doba skončí."
+				"trans": "Jakmile uplyne doba platnosti, nebude možné odměny odemknout ani uplatnit. Proto se nezapomeň přihlásit a odměny uplatnit před uplynutím této doby."
 			},
 			"title": {
 				"eng": "Redeemable Days",
-				"trans": "Získatelné dny"
+				"trans": "Nárokovatelné dny"
 			}
 		},
 		"trackDuration": {
 			"desc": {
 				"eng": "This battle track is a ${days} days track. by unlocking this track, you will unlock the current period of the track. and you will be able to unlock it again if its still available in the next period.",
-				"trans": "Tato bojová dráha je ${days} denní. Odemčením této trasy odemknete aktuální období dráhy a budete ji moci znovu odemknout, pokud bude v následujícím období stále k dispozici."
+				"trans": "Tenhle battle track platí ${days} dní. Odemknutím tohohle tracku se odemkne akutální časové období pro track. Pokud bude v následujícím období stále k dispozici, budeš ho moci odemknout znovu."
 			},
 			"title": {
 				"eng": "Battle Track duration",
@@ -42,38 +42,38 @@
 	"CrewTip": {
 		"tip1": {
 			"eng": "Looks like one or more of your mercenary is low level, you should level them up to match your level using ${item1} and ${item2}",
-			"trans": "Zdá se, že jeden nebo více vašich najatců má nízkou úroveň; měli byste je vyzbrojit na vaši úroveň pomocí ${item1} a ${item2}."
+			"trans": "Zdá se, že jeden nebo více tvých žoldáků má nízkou úroveň. Měl bys je pomocí ${item1} a ${item2} vylepšit na svou úroveň."
 		}
 	},
 	"MercenaryDrawType": {
 		"ELITE": {
 			"description": {
 				"eng": "More experienced pro mercs hang out here",
-				"trans": "Zde se scházejí zkušení profesionální najatci."
+				"trans": "Tady se scházejí zkušenější profi žoldáci."
 			},
 			"title": {
 				"eng": "Inner tables",
-				"trans": "Vnitřní tabulky"
+				"trans": "Stoly uvnitř"
 			}
 		},
 		"NORMAL": {
 			"description": {
 				"eng": "Usually amateur mercs hang out here",
-				"trans": "Obvykle se tady scházejí amatérští najemníci."
+				"trans": "Tady se obvykle scházejí žoldnéřští zelenáči."
 			},
 			"title": {
 				"eng": "Bar table",
-				"trans": "Tabulka sloupců"
+				"trans": "Stůl u baru"
 			}
 		},
 		"RARE": {
 			"description": {
 				"eng": "Professional mercs likes discuss about their gig here",
-				"trans": "Profesionální najímaní se rádi zde o svých úkolech baví."
+				"trans": "Tady se o svých kšeftech baví profi žoldáci."
 			},
 			"title": {
 				"eng": "Sofa tables",
-				"trans": "Stoly na sofy"
+				"trans": "Stoly s gauči"
 			}
 		}
 	},
@@ -87,7 +87,7 @@
 		"containerKey": {
 			"title": {
 				"eng": "Container Keys",
-				"trans": "Klíče zásobníků"
+				"trans": "Klíče ke kontejnerům"
 			}
 		},
 		"others": {
@@ -107,108 +107,108 @@
 		"attack": {
 			"description": {
 				"eng": "Attacks the enemy for ${amount} health points",
-				"trans": "Poškozuje nepřítele o ${amount} bodů zdraví"
+				"trans": "Poškodí nepřítele o ${amount} bodů zdraví"
 			},
 			"triggered": {
 				"eng": "${playerName} Attacked for ${amount} damage",
-				"trans": "${playerName} utrpěl poškození ${amount}"
+				"trans": "${playerName} způsobuje ${amount} bodů poškození"
 			}
 		},
 		"attack_group": {
 			"description": {
 				"eng": "Attacks the enemy for ${amount}",
-				"trans": "Poškozuje nepřítele o ${amount}"
+				"trans": "Způsobují nepříteli ${amount} bodů poškození"
 			}
 		},
 		"burn": {
 			"description": {
 				"eng": "Burns targeted enemy for ${amount} damage for ${turns} turns",
-				"trans": "Požije cíleného nepřítele o ${amount} poškození po dobu ${turns} kolech."
+				"trans": "Zapálí cíleného nepřítele a způsobí mu ${amount} bodů poškození po dobu ${turns} tahů."
 			},
 			"triggered": {
 				"eng": "${merc} burns ${enemy}, ${enemy} received ${damage} damage.",
-				"trans": "${merc} spaluje ${enemy}, ${enemy} utrpěl ${damage} poškození."
+				"trans": "${merc} zapaluje ${enemy}. ${enemy} utrpěl ${damage} bodů poškození."
 			}
 		},
 		"burnGroup": {
 			"description": {
 				"eng": "Burns all enemies for ${amount} damage for ${turns} turns",
-				"trans": "Požije všechny nepřátele o ${amount} poškození po dobu ${turns} tahů."
+				"trans": "Zapálí všechny nepřátele a způsobí jim ${amount} bodů poškození po dobu ${turns} tahů."
 			},
 			"triggered": {
 				"eng": "${merc} burns all enemies, dealt ${damage} damage each",
-				"trans": "${merc} zapálí všechny nepřátele, každému způsobí ${damage} poškození."
+				"trans": "${merc} zapaluje všechny nepřátele a způsobí jim ${damage} bodů poškození."
 			}
 		},
 		"heal": {
 			"description": {
 				"eng": "Heals your character for ${amount} health point",
-				"trans": "Léčí tvou postavu o ${amount} bodů zdraví"
+				"trans": "Uzdraví tvé postavě ${amount} bodů zdraví"
 			},
 			"triggered": {
 				"eng": "${merc} Healed ${playerName} for ${amount} health",
-				"trans": "${merc} uzdravil ${playerName} o ${amount} zdraví"
+				"trans": "${merc} uzdravuje ${playerName} ${amount} bodů zdraví"
 			}
 		},
 		"healGroup": {
 			"description": {
 				"eng": "Heals your team for ${amount} health",
-				"trans": "Uzdraví váš tým o ${amount} zdraví"
+				"trans": "Uzdraví tvému týmu ${amount} bodů zdraví"
 			},
 			"triggered": {
 				"eng": "${merc} healed the team for ${amount} health",
-				"trans": "${merc} vyléčil tým o ${amount} zdraví"
+				"trans": "${merc} uzdravuje tvému týmu ${amount} zdraví"
 			}
 		},
 		"poison": {
 			"description": {
 				"eng": "Poisons the enemy for ${amount} for ${turn} turns",
-				"trans": "Opožívá nepřítele na ${amount} po ${turn} kolech"
+				"trans": "Otráví nepřítele a způsobí mu ${amount} bodů poškození po dobu ${turn} tahů."
 			},
 			"triggered": {
 				"eng": "${merc} poisoned ${enemy}, ${enemy} received ${damage} damage.",
-				"trans": "${merc} otravil ${enemy}, ${enemy} utrpěl poškození ${damage}."
+				"trans": "${merc} otrávil ${enemy}. ${enemy} utrpěl poškození ${damage}."
 			}
 		},
 		"poisonGroup": {
 			"description": {
 				"eng": "Poisons all enemies for ${amount} for ${turns} turns",
-				"trans": "Jedí všechny nepřátele po ${turns} kolo a způsobuje poškození ${amount}"
+				"trans": "Otráví všechny nepřátele a způsobí jim ${amount} bodů poškození po dobu ${turns} tahů."
 			},
 			"triggered": {
 				"eng": "${merc} poisoned all enemies, dealt ${damage} damage each.",
-				"trans": "${merc} otravil všechny nepřátele, způsobil poškození ${damage} každému."
+				"trans": "${merc} otrávil všechny nepřátele a způsobil každému ${damage} bodů poškození."
 			}
 		},
 		"shield": {
 			"description": {
 				"eng": "Recharge your character's shield for ${amount}",
-				"trans": "Doplňte štít vaší postavy o ${amount}"
+				"trans": "Doplní tvé postavě ${amount} štítu."
 			},
 			"triggered": {
 				"eng": "${merc} shielded ${playerName} for ${amount} health",
-				"trans": "${merc} zbrojil ${playerName} o ${amount} zdraví"
+				"trans": "${merc} poskytl hráči ${playerName} štít s ${amount} body zdraví"
 			}
 		},
 		"shieldGroup": {
 			"description": {
 				"eng": "Shields your team for ${amount} health",
-				"trans": "Štít poskytne vašemu týmu ${amount} zdraví"
+				"trans": "Štít poskytne tvému týmu ${amount} zdraví."
 			},
 			"triggered": {
 				"eng": "${merc} shields the team for ${amount}",
-				"trans": "${merc} chrání tým na ${amount}"
+				"trans": "${merc} poskytl týmu štít s ${amount} body."
 			}
 		}
 	},
 	"abilityTag": {
 		"damageOverTime": {
 			"eng": "Damage Over Time",
-			"trans": "Poškození v průběhu času"
+			"trans": "Dlouhodobé poškození"
 		},
 		"damageOverTimeDescription": {
 			"eng": "This ability will deal damage over time, this kind of ability usually has less damage than one-strike abilities, however, it deals more damage in total over time.",
-			"trans": "Tato schopnost způsobí poškození postupně; obvykle má menší poškození než jednorázové útoky, ale celkově poškozuje více."
+			"trans": "Tato schopnost způsobí dlouhodobé poškození. Tyto schopnosti obvykle způsobují menší poškození než schopnosti s jednorázovým účinkem, ale v celkovém důsledku způsobí více poškození."
 		},
 		"groupTargetAlly": {
 			"eng": "Group Target",
@@ -216,7 +216,7 @@
 		},
 		"groupTargetAllyDescription": {
 			"eng": "This ability is multi-target and will target all alive allies, this kind of ability is usually weaker than single target abilities however, it would be more effective against multiple allies.",
-			"trans": "Tato schopnost je vícecílová a zasáhne všechny živé spojence; obvykle je slabší než jednocílové schopnosti, ale účinnější proti více spojencům."
+			"trans": "Tato schopnost se zaměřuje na více cílů a ovlivní všechny živé spojence. Tento typ schopnosti je obvykle slabší než schopnosti zaměřené na jeden cíl, ale je účinnější proti více spojencům."
 		},
 		"groupTargetEnemy": {
 			"eng": "Group Target",
@@ -224,7 +224,7 @@
 		},
 		"groupTargetEnemyDescription": {
 			"eng": "This ability is multi-target and will target all alive enemies, this kind of ability is usually weaker than single target abilities however, it would be more effective against multiple enemies.",
-			"trans": "Tato schopnost je vícecílová a zasáhne všechny živé nepřátele; obvykle je slabší než jednocílové schopnosti, ale účinnější proti více nepřátelům."
+			"trans": "Tato schopnost se zaměřuje na více cílů a ovlivní všechny živé nepřátele. Tento typ schopnosti je obvykle slabší než schopnosti zaměřené na jeden cíl, ale je účinnější proti více nepřátelům."
 		},
 		"singleTargetAlly": {
 			"eng": "Single Target",
@@ -232,7 +232,7 @@
 		},
 		"singleTargetAllyDescription": {
 			"eng": "This ability is single target and will target yourself but not your allies.",
-			"trans": "Tato schopnost má jeden cíl a zaměřuje se na vás, nikoli na vaše spojence."
+			"trans": "Tato schopnost se zaměřuje na jeden cíl, proto zaměří jen tebe a ne tvé spojence."
 		},
 		"singleTargetEnemy": {
 			"eng": "Single Target",
@@ -240,28 +240,28 @@
 		},
 		"singleTargetEnemyDescription": {
 			"eng": "This ability is single target and will target one enemy, this kind of ability is usually stronger than multi-target abilities however, it would be less effective against multiple enemies.",
-			"trans": "Tato schopnost je zaměřena na jeden cíl a zasáhne jednoho nepřítele; obvykle je silnější než schopnosti s více cíly, ale při boji proti více nepřátelům méně účinná."
+			"trans": "Tato schopnost je zaměřena na jeden cíl, a proto zasáhne jen jednoho nepřítele. Tento typ schopnosti je obvykle silnější než schopnosti zaměřené na více cílů, ale proti více nepřátelům je méně účinná."
 		}
 	},
 	"accountPage": {
 		"createdDate": {
 			"eng": "Created on ${date}",
-			"trans": "Vytvořeno dne ${date}"
+			"trans": "Vytvořeno ${date}"
 		},
 		"deleteAccount": {
 			"confirm": {
 				"placeholder": {
 					"eng": "Enter \"${DELETE}\" here to confirm",
-					"trans": "Zadejte zde \"${DELETE}\" pro potvrzení."
+					"trans": "Zadejte \"${DELETE}\" pro potvrzení."
 				},
 				"title": {
 					"eng": "Type \"${delete}\" to confirm",
-					"trans": "Zadejte \"${delete}\" pro potvrzení"
+					"trans": "Zadejte \"${delete}\" pro potvrzení."
 				}
 			},
 			"confirmError": {
 				"eng": "You must type \"${delete}\" to confirm",
-				"trans": "Musíte zadat „${delete}“ pro potvrzení."
+				"trans": "Pro potvrzení musíte zadat \"${delete}\"."
 			},
 			"eng": "Delete Account",
 			"title": {
@@ -271,7 +271,7 @@
 			"trans": "Smazat účet",
 			"warning": {
 				"eng": "This action is irreversible and will permanently delete your account and all associated data. Proceed with caution.",
-				"trans": "Tato akce je nevratná a trvale smaže váš účet i veškerá související data. Postupujte opatrně."
+				"trans": "Tento krok je nevratný. Tvůj účet i veškerá související data budou trvale smazána. Takže opatrně."
 			}
 		},
 		"linkApple": {
@@ -293,7 +293,7 @@
 		"linkError": {
 			"alreadyInUse": {
 				"eng": "Cannot link account with this credential because it is already associated with another account",
-				"trans": "Nelze propojit účet s tímto přihlášením, protože je již přiřazen k jinému účtu."
+				"trans": "Účet nelze propojit s těmito přihlašovacími údaji, protože jsou již propojeny s jiným účtem."
 			}
 		},
 		"linkGoogle": {
@@ -3912,7 +3912,7 @@
 	"insufficientItemModal": {
 		"insufficientCurrency": {
 			"eng": "Insufficient ${name}",
-			"trans": "Nedostatek ${currency}"
+			"trans": "Nedostatek ${name}"
 		}
 	},
 	"inventory": {
@@ -4398,7 +4398,7 @@
 		},
 		"title": {
 			"eng": "Insufficient ${itemName}",
-			"trans": "Nedostatek ${currency}"
+			"trans": "Nedostatek ${itemName}"
 		},
 		"topUp": {
 			"discountAvailable": {
@@ -6009,7 +6009,7 @@
 			},
 			"notEnoughItem": {
 				"eng": "Insufficient ${required}",
-				"trans": "Nedostatek ${currency}"
+				"trans": "Nedostatek ${required}"
 			}
 		},
 		"winMessage": {
@@ -9679,7 +9679,7 @@
 			},
 			"notEnoughCurrency": {
 				"eng": "You do not have enough ${currencyType}",
-				"trans": "Nemáte dostatek ${currency}"
+				"trans": "Nemáte dostatek ${currencyType}"
 			},
 			"notEnoughItem": {
 				"eng": "Not enough item",
@@ -9952,7 +9952,7 @@
 		},
 		"notEnoughMoney": {
 			"eng": "You don\\'t have enough ${currency} to purchase this item",
-			"trans": "Nemáte dostatek ${item} na nákup tohoto předmětu."
+			"trans": "Nemáte dostatek ${currency} na nákup tohoto předmětu."
 		},
 		"purchased": {
 			"eng": "You have purchased ${amount} ${item}",
@@ -11520,11 +11520,11 @@
 			"feedbackModal": {
 				"text1": {
 					"eng": "Do you want to send feedback to the developer(me)?",
-					"trans": "Chcete poslat zpětnou vazbu vývojáři (já)?"
+					"trans": "Chcete poslat zpětnou vazbu vývojáři (mně)?"
 				},
 				"text2": {
 					"eng": "Your message will be sent directly to me via direct message, I will try to respond as soon as possible! ❤️",
-					"trans": "Vaše zpráva mi bude odeslána přímo jako soukromá zpráva a já se pokusím odpovědět co nejdříve!"
+					"trans": "Váš vzkaz mi bude zaslán prostřednictvím soukromé zprávy. Pokusím se vám odpovědět co nejdříve! ❤️"
 				},
 				"title": {
 					"eng": "Feedback",
@@ -11567,11 +11567,11 @@
 			},
 			"updateLog": {
 				"eng": "Update Log",
-				"trans": "Log aktualizací"
+				"trans": "Přehled aktualizací"
 			},
 			"wiki": {
 				"eng": "tutorial",
-				"trans": "Návod"
+				"trans": "Výuka"
 			},
 			"workInProgress": {
 				"eng": "This page is still work in progress",
@@ -11587,16 +11587,16 @@
 		"selectItemModal": {
 			"noItems": {
 				"eng": "No available item",
-				"trans": "Žádná položka"
+				"trans": "Žádný dostupný předmět"
 			},
 			"title": {
 				"eng": "Select item",
-				"trans": "Vyber položku"
+				"trans": "Vybrat předmět"
 			}
 		},
 		"shield": {
 			"eng": "SHIELD",
-			"trans": "Štít"
+			"trans": "ŠTÍT"
 		},
 		"travelBack": {
 			"title": {
@@ -11637,24 +11637,24 @@
 		"tiny": {
 			"name": {
 				"eng": "Tiny",
-				"trans": "Malý"
+				"trans": "Drobný"
 			}
 		}
 	},
 	"updatingOverlay": {
 		"description": {
 			"eng": "Hello, I'm quickly updating the server to improve the game! \\nIt's normal to see a reconnect or update screen for a few seconds.🚀\\nApologies for any inconvenience and thanks for your patience.🙏",
-			"trans": "Ahoj, rychle aktualizuji server, aby se hra zlepšila!  \nJe normální vidět obrazovku připojení nebo aktualizace na pár sekund.  \nOmlouvám se za případné nepříjemnosti a děkuji za trpělivost."
+			"trans": "Zdravím Vás, právě provádím rychlou aktualizaci serveru, abych hru vylepšil! \\nJe normální, že se na několik sekund zobrazí obrazovka pro opětovné připojení nebo aktualizaci.🚀\\nOmlouvám se za případné nepříjemnosti a děkuji za trpělivost.🙏"
 		},
 		"title": {
 			"eng": "🌟 Quick Update Notice!",
-			"trans": "Rychlé upozornění k aktualizaci!"
+			"trans": "🌟 Rychlá aktualizace!"
 		}
 	},
 	"upgradeBackpackPopup": {
 		"description": {
 			"eng": "Upgrade your backpack to increase the amount of items you can carry in strongholds.",
-			"trans": "Vylepšete batoh, abyste mohli v pevnostech nést více předmětů."
+			"trans": "Vylepšete svůj batoh a zvyšte tak kapacitu předmětů, které si můžete přinést z pevností."
 		},
 		"eng": "Backpack upgrade",
 		"slots": {
@@ -11664,7 +11664,7 @@
 		"trans": "Vylepšení batohu",
 		"upgrade": {
 			"eng": "Upgrade ${index}",
-			"trans": "Vylepšení ${index}"
+			"trans": "Vylepšit ${index}"
 		}
 	},
 	"upgradeInventoryPopup": {
@@ -11674,13 +11674,13 @@
 		},
 		"description": {
 			"eng": "You can also upgrade your inventory space by renting a apartment",
-			"trans": "Rozšiřte svůj inventář pronájmem bytu."
+			"trans": "Svůj inventář můžete rozvněž rozšířit pronájmem bytu."
 		},
 		"eng": "Inventory upgrade",
 		"trans": "Vylepšení inventáře",
 		"upgrade": {
 			"eng": "Upgrade ${index}",
-			"trans": "Vylepšení ${index}"
+			"trans": "Vylepšit ${index}"
 		}
 	},
 	"upgradeItem": {
