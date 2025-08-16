@@ -1,0 +1,20 @@
+{
+  "story": "Nacházíte se v slabě osvětlené serverovně uvnitř pevnosti gangu. Řady humlících serverů a strojů lemují stěny, vrhají na podlahu zlověstný lesk. Uprostřed místnosti si všimnete velké kovové dveře s blikajícími světly a nápisem \"Pouze pro oprávněné osoby\". Vzduch je nasycen zápachem hořící elektroniky a ozonu. Slabý hum elektrického proudu vychází ze serverů, což vám ztěžuje soustředění. Na stěnách si všimnete několika údržbových panelů, každý s malou klávesnicí a řadou blikajících světel.",
+  "actions": [
+    {
+      "action": "Pokusit se vniknout do jednoho z údržbových panelů",
+      "good": "Vaše hackerské dovednosti vám umožňují přístup k skrytému panelu obsahujícímu cenné předměty. Obsah panelu je nyní v dosahu.",
+      "bad": "Váš pokus o vniknutí spustí alarm a místnost se naplní oslepujícím bleskem světla. Zraníte se intenzivní radiací, ale kořist zůstane nedostupná."
+    },
+    {
+      "action": "Zakázat údržbové panely, aby se zabránilo možným pastím",
+      "good": "Opatrně zakážete panely a zabráníte tak spuštění jakýchkoli možných pastí nebo alarmů. Otevře se skrytá komora, která odhaluje cenné předměty.",
+      "bad": "Vaše akce nechtěně spustí past a jste postříkáni lepkavou, lepivou látkou. Kořist je nyní nedostupná kvůli vaší situaci."
+    },
+    {
+      "action": "Prohledat místnost pro alternativní způsob přístupu k zamčeným dveřím",
+      "good": "Po prohlídce najdete skrytou kartu na jednom z serverů. Použijete ji k odemčení dveří, což vám umožňuje přístup k cenným předmětům.",
+      "bad": "Během prohledávání nechtěně spustíte tlačítko tlaku, což způsobí, že se podlaha začne plnit jedovatým plynem. Zraníte se, když se snažíte uniknout."
+    }
+  ]
+}

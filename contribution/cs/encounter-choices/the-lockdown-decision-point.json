@@ -1,0 +1,20 @@
+{
+  "story": "Nacházíte se před velkým kovovým výtahem, který zdá se být zaseknutý mezi podlažími. Indikační světla nad dveřmi blikají a vytvářejí neklidný lesk v oblasti. Byli jste na cestě k setkání s vysokým členem vaší gangy, když jste narazili na tento porouchaný výtah. Dveře jsou zaseknuté a není jasné, jak postupovat. Výtah je zaseknutý mezi podlažími, ale zdá se, že by mohl být přístupný, pokud najdete způsob, jak obejít bezpečnostní mechanismy nebo deaktivovat automatický sekvenční vypnutí.",
+  "actions": [
+    {
+      "action": "Pokuste se otevřít dveře silou",
+      "good": "Podařilo se vám dveře vytrhnout a odhalit skrytý oddíl obsahující cenné předměty. Vaše rozhodnost se vyplatí.",
+      "bad": "Vaše pokusy o otevření dveří spustily alarm a aktivovaly automatické bezpečnostní systémy. Zraníte se, když se zapnou bezpečnostní mechanismy výtahu."
+    },
+    {
+      "action": "Pokuste se hacknout ovládací panel výtahu",
+      "good": "Úspěšně obejdete bezpečnostní protokoly a výtah začne opět jít. Uvnitř najdete zásobu cenných předmětů.",
+      "bad": "Vaše pokusy o hacknutí spustily nouzové sekvenční vypnutí a výtah ztmavne. Zraníte se, když automatické systémy se pokoušejí znovu inicializovat."
+    },
+    {
+      "action": "Hledejte alternativní cestu kolem zaseknutého výtahu",
+      "good": "Objevříte skrytý průchod, který vám umožní obejít výtah úplně. Uvnitř najdete cennou zásobu předmětů.",
+      "bad": "Během hledání alternativní cesty se zaseknete v úzkém vzduchovodu. Zraníte se, když se snažíte osvobodit."
+    }
+  ]
+}

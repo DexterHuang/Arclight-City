@@ -1,0 +1,20 @@
+{
+  "story": "Nacházíte se v špatně osvětlené skladové místnosti hluboko uvnitř pevnosti gangu. Vzduch je plný prachu a zápachem starých strojů. Při prohlížení místnosti si všimnete velké krabice uprostřed, ozdobené varovnými značkami a bezpečnostními pečetěmi. Najednou se ozve skřípání kovu a krabice začne posouvat.",
+  "actions": [
+    {
+      "action": "Pokusit se otevřít krabici",
+      "good": "S trochou námahy se vám podaří uvolnit pečetě a zvednout víko. Uvnitř najdete zásobu cenných předmětů, které gangští vůdcové skrývali.",
+      "bad": "Když se pokusíte krabici násilně otevřít, spustí se bezpečnostní mechanismus, který uvolní mračno jedovatého plynu. Zraníte se vdechnutím výparů, ale krabice zůstane zavřená."
+    },
+    {
+      "action": "Hledat způsob, jak deaktivovat bezpečnostní pečetě",
+      "good": "Po prozkoumání krabice a okolního prostoru najdete skrytý panel s klávesnicí. Prohackováním klávesnice deaktivujete bezpečnostní pečetě a získáte přístup ke obsahům krabice.",
+      "bad": "Váš pokus o prohackování klávesnice spustí alarm, který upozorní gangské vůdce na vaši přítomnost. Zraníte se náhodným výstřelem z jedné z jejich strážných, ale krabice zůstane uzavřená."
+    },
+    {
+      "action": "Pokusit se přesunout krabici",
+      "good": "S velkým úsilím se vám podaří vyvalit krabici ze skladové místnosti do blízkého chodby. Při další prohlídce zjistíte, že krabice je ve skutečnosti skrytá úniková cesta pro gangské vůdce. Najdete zásobu cenných předmětů a obsloužíte se.",
+      "bad": "Váš pokus o přesunutí krabice spustí past, která způsobí, že vám na sebe padne. Zraníte se z dopadu, ale krabice zůstane na místě."
+    }
+  ]
+}

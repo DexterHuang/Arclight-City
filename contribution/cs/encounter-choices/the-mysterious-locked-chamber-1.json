@@ -1,0 +1,20 @@
+{
+  "story": "Nacházíte se v nepořádné části pevnosti gangu, kde jsou uloženy staré elektronické součástky a stroje. Všimnete si starého automatu na nápoje, který se zdá být mezi ostatním odpadem mimo místo. Vypadá to, že nebyl používán už roky, ale přemýšlíte, zda by ještě mohl fungovat.",
+  "actions": [
+    {
+      "action": "Pokusit se opravit nebo hacknout automat na nápoje",
+      "good": "S trochou manipulace se vám podaří dostat automat na nápoje do chodu. Vydává malý zásobník užitečných věcí a svačin.",
+      "bad": "Vaše pokus o hacknutí automatu na nápoje spustí menší elektrický výboj, který vás lehce zasáhne jiskrami. Automat zůstane neopravitelný, ale alespoň již není nebezpečím."
+    },
+    {
+      "action": "Nechat automat na nápoje v klidu a hledat jinde",
+      "good": "Pokračujete v průzkumu ostatních částí oblasti a najdete skrytou zásobu cenných věcí.",
+      "bad": "Rozhodnete se nechat automat na nápoje za sebou a pokračovat dál, ale omylem spustíte bezpečnostní past při hledání. Utrpíte menší poškození a musíte být opatrnější."
+    },
+    {
+      "action": "Použít své okolí k deaktivaci jakýchkoli potenciálních bezpečnostních opatření",
+      "good": "Pečlivě prozkoumáte oblast kolem automatu na nápoje a najdete způsob, jak deaktivovat jeho bezpečnostní systém. Nyní je bezpečné přístupovat k němu, a objevíte skrytou komoru obsahující cenné věci.",
+      "bad": "Vaše pokus o deaktivaci bezpečnostních opatření spustí alarm, ale je rychle ztlumen jiným členem gangu, který na scéně přichází. Utrpíte menší poškození při potyčce s ním."
+    }
+  ]
+}

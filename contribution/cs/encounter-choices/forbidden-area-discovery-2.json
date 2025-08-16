@@ -1,0 +1,20 @@
+{
+  "story": "Nacházíte se na okraji velké, špatně osvětlené místnosti uvnitř pevnosti gangu. Stěny jsou lemovány starými počítačovými servery, jejichž obrazovky blikají statickým rušením. Uprostřed místnosti hlučně bzučí obří hlavní server, který nad prostorem vrhá děsivý zář. Najednou si všimnete, že několik obrazovek serverů začne blikat naléhavými zprávami. Co uděláte?",
+  "actions": [
+    {
+      "action": "Pokusit se přistupovat a číst zprávy na obrazovkách serveru",
+      "good": "Úspěšně jste přistoupili ke zprávám, které odhalují skrytý zásobník cenných technických součástí. Vaše rychlá myšlenka vám přináší nějakou užitečnou kořist.",
+      "bad": "Vaše pokus o přístup ke zprávám spustí bezpečnostní uzamčení a hlavní server začne přehřívat. Zraníte se intenzivním teplem, ale kořist zůstane nedosažitelná."
+    },
+    {
+      "action": "Pokusit se vypnout hlavní server, aby se zabránilo jakýmkoli možným alarmům",
+      "good": "Zdaří se vám vypnout hlavní server, utišit jeho alarmy a umožnit vám hledat skryté komory nebo zásobníky. Vaše zdatnost je odměněna nějakou cennou kořistí.",
+      "bad": "Vaše pokus o vypnutí hlavního serveru způsobí, že selže, vyvrhuje jiskry a elektrické výboje ve všech směrech. Zraníte se z chaosu, ale kořist zůstane nedosažitelná."
+    },
+    {
+      "action": "Opustit místnost a prozkoumat jiné oblasti pevnosti gangu",
+      "good": "Rozhodnete se opustit místnost a prozkoumat jiné oblasti pevnosti gangu, kde narazíte na skrytý zásobník cenných předmětů. Vaše zvědavost je odměněna nějakou užitečnou kořistí.",
+      "bad": "Při opouštění místnosti spustíte alarm, který upozorní zbytek gangu. Zraníte se z následného chaosu, ale kořist zůstane nedosažitelná."
+    }
+  ]
+}

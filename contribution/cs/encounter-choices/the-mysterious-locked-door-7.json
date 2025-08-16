@@ -1,0 +1,20 @@
+{
+  "story": "Vstupujete do špatně osvětlené laboratoře hluboko uvnitř pevnosti gangu, kde jste slyšeli pověsti o experimentálním zařízení, které bylo necháno bez dozoru. Jak se přibližujete k centrální pracovní lavici, všimnete si elegantního, vyspělého konzole obklopeného různými součástkami a dráty. Zařízení vypadá jako nějaký druh prototypu, ale je jasné, že něco šlo hrozně špatně. Co uděláte?",
+  "actions": [
+    {
+      "action": "Zkusit restartovat zařízení",
+      "good": "S chvění naděje se zařízení zapne znovu a otevře se skrytý oddíl, který odhalí zásobu cenných předmětů. Vaše technická zručnost pomáhá stabilizovat systém.",
+      "bad": "Vaše pokus o restartování zařízení spustí nestabilní reakci, která způsobí řetěz elektrických výbojů, které vám způsobí poškození. Zásoba zůstane nedosažitelná."
+    },
+    {
+      "action": "Zakázat zdroj napájení",
+      "good": "Opatrně odpojíte zdroj napájení a zabráníte tak dalším poruchám, přičemž získáte přístup k úložnému oddílu zařízení. Vaše opatrnost se vyplatí, když uvnitř najdete cenné předměty.",
+      "bad": "Vaše rozhodnutí zakázat zdroj napájení způsobí aktivaci záložního systému, který uvolní výboj energie, který vás shodí a způsobí vám poškození. Zásoba zůstane skrytá."
+    },
+    {
+      "action": "Hledání součástí k opravě zařízení",
+      "good": "Po prohledávání okolních pracovních stanic a skříní se vám podaří najít potřebné součásti k opravě zařízení. Vaše zdatnost vám zajistí přístup ke zásobě cenných předmětů.",
+      "bad": "Vaše hledání součástí vás odvede od potenciálních nebezpečí v oblasti a náhodně spustíte skrytou past, přičemž utrpíte poškození před útěkem. Zásoba zůstane nedosažitelná."
+    }
+  ]
+}

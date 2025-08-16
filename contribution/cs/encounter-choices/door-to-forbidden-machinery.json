@@ -1,0 +1,20 @@
+{
+  "story": "Opatrně vstupujete do místnosti, zatímco se vaše oči přizpůsobují jasnému světlu strojů. V centru místnosti si všimnete řady velkých válcových nádrží, každá z nich vydává nízké syčení při čerpání stálého proudu plynu. Vzduch je nasycen zápachem paliva a ozonu.",
+  "actions": [
+    {
+      "action": "Pokusit se přistupovat k zamčenému panelu",
+      "good": "Vaše dovednosti vám umožňují obejít zámek, a tak získáte přístup do skrytého menu. Objevíte cennou zásobu předmětů, včetně vzácné energetické buňky a sady pokročilých nástrojů.",
+      "bad": "Pokusíte se otevřít zámek násilím, ale to spustí poplach. Blízký stroj vydá výboj jisker, a vy utrpíte poškození od elektrického výboje."
+    },
+    {
+      "action": "Zkoumat varovnou značku na jedné z nádrží",
+      "good": "Zjistíte, že nádrž uniká malé množství plynu, ale to není kritické. Najdete ventil, kterým můžete zastavit únik, a získáte přístup do skrytého skladovacího prostoru obsahujícího cenné předměty.",
+      "bad": "Nádrž uniká více, než jste si původně mysleli, a plyn začne se rychle šířit. Utrpíte poškození od jedovatých výparů, a únik pokračuje v růstu."
+    },
+    {
+      "action": "Zkontrolovat stroje na další náznaky nebo nebezpečí",
+      "good": "Všimnete si, že jeden ze strojů má skrytý panel s kryptickým zprávou vyrytým do něj. Podávejte se rozluštit kód a získáte přístup k cenné zásobě předmětů.",
+      "bad": "Jak zkoumáte stroje, spustíte skrytou past. Blízký stroj vydá výboj jisker, a vy utrpíte poškození od elektrického výboje."
+    }
+  ]
+}

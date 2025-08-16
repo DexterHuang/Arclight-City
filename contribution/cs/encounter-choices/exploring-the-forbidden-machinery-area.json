@@ -1,0 +1,20 @@
+{
+  "story": "Nacházíte se na okraji velké, špatně osvětlené komory plné toxických odpadů. Vzduch je hustý jedovatými výpary a ve dálce slyšíte zvuk porouchaného stroje. Úzká chodba vede přes místnost, ale není jasné, zda je bezpečné ji přejít. Co uděláte?",
+  "actions": [
+    {
+      "action": "Opatrně se proplížíte po chodbě",
+      "good": "Podařilo se vám projít nebezpečnou cestou bez úhony a na druhé straně jste našli skrytý zásobník cenných předmětů. Vaše rychlá reakce se vyplatila.",
+      "bad": "Když vstoupíte na chodbu, pod vámi se propadne. Spadnete do toxických odpadů níže, utrpíte škodu, ale podaří se vám uniknout s životem. Zásobník zůstane nedosažitelný."
+    },
+    {
+      "action": "Hledejte způsob, jak obejít chodbu a najít alternativní cestu",
+      "good": "Objavíte skrytý průchod, který vám umožňuje zcela vyhnout se chodbě. Najdete zásobník cenných předmětů a vrátíte se zpět do bezpečí.",
+      "bad": "Během hledání alternativní cesty spustíte smrtelnou past. Obrovská váha spadne z stropu, ale podaří se vám jí jen tak vyhnout. Zásobník zůstane nedosažitelný."
+    },
+    {
+      "action": "Zkuste opravit porouchaný stroj",
+      "good": "Úspěšně opravíte stroj a začne čistit část toxických odpadů v místnosti. Najdete zásobník cenných předmětů skrytý pod troskami.",
+      "bad": "Vaše pokusy o opravu stroje spustí řetězovou reakci, která zhoršuje situaci. Toxické odpady se stanou ještě nebezpečnějšími a utrpíte škodu při útěku. Zásobník zůstane nedosažitelný."
+    }
+  ]
+}

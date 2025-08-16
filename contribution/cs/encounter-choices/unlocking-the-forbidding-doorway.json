@@ -1,0 +1,20 @@
+{
+  "story": "Nacházíte se před velkým kovovým výtahem v pevnosti gangu. Dveře jsou zavřené, ale můžete slyšet slabé vrčení stroje uvnitř. Bylo vám řečeno, že tento výtah vede do tajné skladovací oblasti, ale budete muset zjistit, jak k ní dostat.",
+  "actions": [
+    {
+      "action": "Pokusit se otevřít výtah násilím",
+      "good": "Podařilo se vám dveře vytrhnout a odhalit tmavě osvětlenou místnost plnou policek s cennými předměty. Vaše síla a rozhodnost se vyplatily.",
+      "bad": "Vaše pokusy o násilné otevření výtahu spustí bezpečnostní mechanismus, který způsobí, že dveře se zavřou a ublíží vám. Zlato zůstane skryto."
+    },
+    {
+      "action": "Hledat skrytý tlačítko nebo ovládací panel pro aktivaci výtahu",
+      "good": "Po prohledání oblasti najdete malé, diskrétní tlačítko, které aktivuje systémy výtahu. Získáváte přístup ke skladovací oblasti a objevujete některé cenné předměty.",
+      "bad": "Vaše hledání skrytého tlačítka spustí bezpečnostní systém, který způsobí, že světlo v místnosti bliká a ublíží vám. Zlato zůstane nedostupné."
+    },
+    {
+      "action": "Použít své znalosti o dispozici pevnosti k nalezení alternativní cesty ke skladovací oblasti",
+      "good": "Procházíte chodbami, využíváte své znalosti o dispozici pevnosti k nalezení skrytého průchodu, který vede přímo do skladovací oblasti. Objevujete některé cenné předměty a cítíte se pyšní na své vynalézavosti.",
+      "bad": "Během procházení chodbami se ztratíte v bludišti dispozice pevnosti. Narazíte na slepou uličku a utrpíte poškození, než se dostanete zpět k výtahu."
+    }
+  ]
+}
