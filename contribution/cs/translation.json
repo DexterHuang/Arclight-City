@@ -240,7 +240,7 @@
 		},
 		"singleTargetEnemyDescription": {
 			"eng": "This ability is single target and will target one enemy, this kind of ability is usually stronger than multi-target abilities however, it would be less effective against multiple enemies.",
-			"trans": "Tato schopnost je zaměřena na jeden cíl, a proto zasáhne jen jednoho nepřítele. Tento typ schopnosti je obvykle silnější než schopnosti zaměřené na více cílů, ale proti více nepřátelům je méně účinná."
+			"trans": "Tato schopnost je zaměřena na jeden cíl, a proto zasáhne jen jednoho nepřítele. Tento typ schopnosti je obvykle silnější než schopnosti zaměřené na více cílů, ale proti více nepřátelům je méně účinný."
 		}
 	},
 	"accountPage": {
@@ -252,16 +252,16 @@
 			"confirm": {
 				"placeholder": {
 					"eng": "Enter \"${DELETE}\" here to confirm",
-					"trans": "Zadejte \"${DELETE}\" pro potvrzení."
+					"trans": "Zadej \"${DELETE}\" pro potvrzení."
 				},
 				"title": {
 					"eng": "Type \"${delete}\" to confirm",
-					"trans": "Zadejte \"${delete}\" pro potvrzení."
+					"trans": "Zadej \"${delete}\" pro potvrzení."
 				}
 			},
 			"confirmError": {
 				"eng": "You must type \"${delete}\" to confirm",
-				"trans": "Pro potvrzení musíte zadat \"${delete}\"."
+				"trans": "Pro potvrzení musíš zadat \"${delete}\"."
 			},
 			"eng": "Delete Account",
 			"title": {
@@ -325,7 +325,7 @@
 		"apartment2": {
 			"displayName": {
 				"eng": "Budget Studio",
-				"trans": "Rozpočtové studio"
+				"trans": "Levné apartmá"
 			}
 		},
 		"apartment3": {
@@ -337,24 +337,24 @@
 		"enter": {
 			"blocked": {
 				"eng": "This apartment cannot entered at this moment.",
-				"trans": "Do tohoto bytu se nyní nedá vstoupit."
+				"trans": "Do tohohle bytu se momentálně nedá vstoupit."
 			}
 		},
 		"error": {
 			"enterNotIdle": {
 				"eng": "You can only enter an apartment when you are idle",
-				"trans": "Můžete vstoupit do bytu pouze, když jste nečinný."
+				"trans": "Do bytu můžeš vstoupit jen pokud neděláš nic jiného."
 			}
 		},
 		"invite": {
 			"blocked": {
 				"eng": "This player cannot be invited at this moment.",
-				"trans": "Tento hráč v tuto chvíli nelze pozvat."
+				"trans": "Tohohle hráče momentálně nelze pozvat."
 			}
 		},
 		"kick": {
 			"eng": "${kicker} has removed you from apartment",
-			"trans": "${kicker} vás vyhodil z bytu."
+			"trans": "Hráč ${kicker} tě vyhodil z bytu."
 		},
 		"noApartment": {
 			"displayName": {
@@ -369,24 +369,24 @@
 		"purchase": {
 			"notEnoughMoney": {
 				"eng": "You do not have enough money to rent this apartment.",
-				"trans": "Nemáte dostatek peněz na pronájem tohoto bytu."
+				"trans": "Nemáš dostatek peněz, aby sis mohl pronajmout tenhle byt."
 			},
 			"success": {
 				"eng": "You have started the apartment rental.",
-				"trans": "Zahájili jste pronájem bytu."
+				"trans": "Právě sis pronajal byt."
 			}
 		},
 		"rental": {
 			"notPaid": {
 				"title": {
 					"eng": "Apartment rental fee ${amount} has not been paid and your apartment has been removed",
-					"trans": "Nájemné za byt ve výši ${amount} nebylo uhrazeno a váš byt byl odebrán."
+					"trans": "Nebyl uhrazen pronájem ve výši ${amount}, a tak ti byl byt odebrán."
 				}
 			},
 			"paid": {
 				"title": {
 					"eng": "Apartment rental fee ${amount} has been deducted from your account",
-					"trans": "Poplatek za pronájem bytu ${amount} byl odečten z vašeho účtu."
+					"trans": "Poplatek za pronájem bytu ve výši ${amount} byl odečten ze tvého účtu."
 				}
 			}
 		}
@@ -395,7 +395,7 @@
 		"kitchenButton": {
 			"error": {
 				"eng": "You must be the owner of the apartment to access the kitchen",
-				"trans": "Pro vstup do kuchyně musíte být majitelem bytu."
+				"trans": "Do kuchyně může vstoupit jedině majitel bytu."
 			},
 			"title": {
 				"eng": "kitchen",
@@ -404,12 +404,12 @@
 		},
 		"nextRental": {
 			"eng": "Next rental date: ${date}",
-			"trans": "Datum dalšího pronájmu: ${date}"
+			"trans": "Termín platby nájmu: ${date}"
 		},
 		"noApartment": {
 			"description": {
 				"eng": "view available apartments online",
-				"trans": "Zobrazit dostupné byty online"
+				"trans": "zobrazit volné byty online"
 			},
 			"title": {
 				"eng": "No apartment",
@@ -419,13 +419,13 @@
 		"noApartmentButton": {
 			"description": {
 				"eng": "View available apartments online",
-				"trans": "Zobrazit dostupné byty online"
+				"trans": "Zobrazit volné byty online"
 			}
 		},
 		"options": {
 			"terminateLease": {
 				"eng": "terminate lease",
-				"trans": "Ukončit nájem"
+				"trans": "ukončit pronájem"
 			},
 			"title": {
 				"eng": "Apartment Options",
@@ -435,33 +435,33 @@
 		"playerModal": {
 			"details": {
 				"eng": "details",
-				"trans": "Detaily"
+				"trans": "detaily"
 			},
 			"kick": {
 				"eng": "kick from apartment",
-				"trans": "Vyloučit z bytu"
+				"trans": "vyhodit z bytu"
 			}
 		},
 		"purchase": {
 			"eng": "view apartments",
-			"trans": "Zobrazit byty"
+			"trans": "zobrazit byty"
 		},
 		"terminateLease": {
 			"cancel": {
 				"eng": "cancel",
-				"trans": "Zrušit"
+				"trans": "zrušit"
 			},
 			"confirm": {
 				"eng": "terminate lease",
-				"trans": "Ukončit nájem"
+				"trans": "ukončit pronájem"
 			},
 			"title": {
 				"eng": "Terminate Lease",
-				"trans": "Zrušit nájem"
+				"trans": "Zrušit pronájem"
 			},
 			"warning": {
 				"eng": "This will immediately terminate your apartment lease. You will NOT receive a refund.",
-				"trans": "Tímto okamžitě ukončíte nájemní smlouvu na byt. Nebudete dostávat žádnou vrácenou částku."
+				"trans": "Tímto bude okamžitě ukončena nájemní smlouva na tvůj byt. Žádné náhrada ti vyplacena NEBUDE."
 			}
 		},
 		"unclaimedDeliveries": {
@@ -480,7 +480,7 @@
 	"apartmentPurchasePage": {
 		"confirmDescription": {
 			"eng": "Are you sure you want to rent this apartment? if you already have an apartment, it will be dismissed.",
-			"trans": "Opravdu chcete pronajmout tento byt? Pokud již vlastníte byt, bude zrušen."
+			"trans": "Vážně si chceš pronajmout tento byt? Pokud už máš pronajatý byt, bude jeho nájem zrušen."
 		},
 		"confirmTitle": {
 			"eng": "Confirm Rental",
@@ -488,15 +488,15 @@
 		},
 		"owned": {
 			"eng": "Owned",
-			"trans": "Vlastněno"
+			"trans": "Vlastní"
 		},
 		"perWeek": {
 			"eng": "Per week",
-			"trans": "za týden"
+			"trans": "týdně"
 		},
 		"rent": {
 			"eng": "Rent Now",
-			"trans": "Pronajmout nyní"
+			"trans": "Pronajmout hned"
 		}
 	},
 	"appProductType": {
@@ -509,7 +509,7 @@
 		"premium6": {
 			"tag": {
 				"eng": "Best Value",
-				"trans": "Nejlepší hodnota"
+				"trans": "Nejlepší cena"
 			}
 		}
 	},
@@ -522,41 +522,41 @@
 	"arrestPlayerModal": {
 		"cancel": {
 			"eng": "ABORT",
-			"trans": "Zrušit"
+			"trans": "ZRUŠIT"
 		},
 		"confirm": {
 			"eng": "EXECUTE ARREST",
-			"trans": "Zadržet"
+			"trans": "ZADRŽET"
 		},
 		"description": {
 			"arrestReward": {
 				"eng": "If you arrest a wanted player, you will receive rewards from ACPD",
-				"trans": "Pokud zatčíte žádaného hráče, obdržíte odměny od ACPD."
+				"trans": "Pokud zadržíš hledaného hráče, obdržíš od ACPD odměnu."
 			},
 			"eng": "You are about to arrest a wanted criminal.",
-			"trans": "Chystáte se zatknout žádaného zločince."
+			"trans": "Chystáš se zadržet hledaného zločince."
 		},
 		"level": {
 			"eng": "LVL ${level}",
-			"trans": "Úroveň ${level}"
+			"trans": "ÚRO ${level}"
 		},
 		"targetLabel": {
 			"eng": "WANTED CRIMINAL",
-			"trans": "Požadovaný zločinec"
+			"trans": "HLEDANÝ ZLOČINEC"
 		},
 		"title": {
 			"eng": "ARREST WARRANT",
-			"trans": "Rozsudek o zadržení"
+			"trans": "SOUHLAS SE ZADRŽENÍM"
 		},
 		"wantedLevel": {
 			"eng": "WANTED LVL ${level}",
-			"trans": "Požadovaná úroveň ${level}"
+			"trans": "ÚRO HLEDANÉHO ${level}"
 		}
 	},
 	"attackBar": {
 		"attack": {
 			"eng": "attack",
-			"trans": "Útok"
+			"trans": "zaútočit"
 		},
 		"block": {
 			"eng": "block",
@@ -564,64 +564,64 @@
 		},
 		"failArea": {
 			"eng": "Fail area",
-			"trans": "Oblast selhání"
+			"trans": "Zóna selhání"
 		},
 		"headshot": {
 			"eng": "headshot",
-			"trans": "hlavní zásah"
+			"trans": "zásah hlavy"
 		},
 		"instruction": {
 			"eng": "hold and release to attack",
-			"trans": "Podrž a uvolni pro útok"
+			"trans": "podrž a uvolni pro útok"
 		}
 	},
 	"attackPlayerModal": {
 		"cancel": {
 			"eng": "STAND DOWN",
-			"trans": "ZASTAV SE"
+			"trans": "DÁT SI POHOV"
 		},
 		"confirm": {
 			"eng": "MUG PLAYER",
-			"trans": "Pohár hráče"
+			"trans": "SEJMOUT HRÁČE"
 		},
 		"description": {
 			"attackNonHostile": {
 				"eng": "You will be marked as Hostile for attacking non-hostile players",
-				"trans": "Budeš označen jako nepřítel, pokud napadneš nevražební hráče."
+				"trans": "Za napadení neutrálních hráčů tě označí za nepřítele."
 			},
 			"attackNoneWanted": {
 				"eng": "You will be wanted by the ACPD for attacking a player thats not wanted",
-				"trans": "Budeš vyhledáván ACPD za útok na hráče, který není vyhledávaný."
+				"trans": "Za napadení hráče, který nebyl v pátrání tě bude hledat ACPD."
 			},
 			"eng": "You are about to engage in hostile combat. This action cannot be undone.",
-			"trans": "Připravujete se vstoupit do nepřátelského boje. Tuto akci nelze vrátit zpět."
+			"trans": "Chystáš se zapojit do souboje s nepřítelem. Tato akce je nevratná."
 		},
 		"level": {
 			"eng": "LVL ${level}",
-			"trans": "Úroveň ${level}"
+			"trans": "ÚRO ${level}"
 		},
 		"riskWarning": {
 			"eng": "HIGH RISK OPERATION",
-			"trans": "Operace s vysokým rizikem"
+			"trans": "VELMI RISKANTNÍ OPERACE"
 		},
 		"targetLabel": {
 			"eng": "TARGET",
-			"trans": "Cíl"
+			"trans": "CÍL"
 		},
 		"title": {
 			"eng": "INITIATE COMBAT",
-			"trans": "Zahájit boj"
+			"trans": "ZAHÁJIT BOJ"
 		},
 		"wantedLevel": {
 			"eng": "WANTED",
-			"trans": "POŽADOVÁNO"
+			"trans": "HLEDANÝ"
 		}
 	},
 	"attribute": {
 		"dex": {
 			"desc": {
 				"eng": "Increase firearm damage.",
-				"trans": "Zvýšit poškození zbraní"
+				"trans": "Zvýšuje poškození zbraní."
 			},
 			"name": {
 				"eng": "Dexterity",
@@ -631,7 +631,7 @@
 		"int": {
 			"desc": {
 				"eng": "Increase energy weapon damage",
-				"trans": "Zvýšit poškození energetických zbraní"
+				"trans": "Zvýšuje poškození energo zbraní."
 			},
 			"name": {
 				"eng": "Intelligence",
@@ -641,7 +641,7 @@
 		"str": {
 			"desc": {
 				"eng": "Increase melee damage.",
-				"trans": "Zvýšit poškození v boji na blízko"
+				"trans": "Zvýšuje poškození v boji na blízko."
 			},
 			"name": {
 				"eng": "Strength",
@@ -680,7 +680,7 @@
 		},
 		"maxed": {
 			"eng": "Max Calibration Reached",
-			"trans": "Maximální kalibrace dosažena"
+			"trans": "Dosaženo maximální kalibrace"
 		},
 		"noChance": {
 			"eng": "Success chance is zero",
@@ -692,7 +692,7 @@
 		},
 		"stop": {
 			"eng": "Interrupt Auto Calibration",
-			"trans": "Zastavit automatickou kalibraci"
+			"trans": "Přerušit automatickou kalibraci"
 		},
 		"successChance": {
 			"eng": "Success chance:",
@@ -700,7 +700,7 @@
 		},
 		"tip": {
 			"eng": "Automatically calibrate and repair your item until it have successfully calibrated it once, or if you stopped the process.",
-			"trans": "Automaticky kalibrujte a opravujte svůj předmět, dokud se úspěšně nekalibruje jednou, nebo pokud proces zastavíte."
+			"trans": "Automaticky kalibruje a opravuje předmět, dokud není úspěšně zkalibrovaný, nebo dokud proces nezastavíš."
 		}
 	},
 	"autoFarm": {
@@ -714,11 +714,11 @@
 		},
 		"rewards": {
 			"eng": "Gathered Rewards",
-			"trans": "Shromážděné odměny"
+			"trans": "Sebrané odměny"
 		},
 		"rush": {
 			"eng": "Rush",
-			"trans": "Rychlý útok"
+			"trans": "Urychlit"
 		},
 		"start": {
 			"eng": "Start",
@@ -726,7 +726,7 @@
 		},
 		"tip": {
 			"eng": "You can unlock higher gathering zones by clearing ${difficulty} strongholds, the zone level is capped at your character level.",
-			"trans": "Vyšší sběrné zóny odemkneš po porážce pevností ${difficulty}; jejich úroveň je omezena na úroveň tvé postavy."
+			"trans": "Vyšší zóny sběru lze odemknout tím, že vyčistíš pevnosti obtížnosti ${difficulty}. Úroveň zóny je omezena úrovní tvé postavy."
 		},
 		"title": {
 			"eng": "Auto Gather Progress",
@@ -741,20 +741,20 @@
 		"error": {
 			"duplicateTraits": {
 				"eng": "You cannot select the same trait more than once",
-				"trans": "Nelze vybrat stejný rys více než jednou."
+				"trans": "Stejný rys nelze vybrat vícekrát."
 			},
 			"emptyTraits": {
 				"eng": "You must select a prefix for each slot",
-				"trans": "Musíte vybrat předponu pro každý slot."
+				"trans": "Pro každý slot je třeba zvolit prefix."
 			}
 		},
 		"expectedChance": {
 			"eng": "The expected chance for this specific combination of prefixes is ${percentFrom}% ~ ${percentTo}%",
-			"trans": "Očekávaná pravděpodobnost pro tuto kombinaci předpon je ${percentFrom}% – ${percentTo}%"
+			"trans": "Očekávaná pravděpodobnost této konkrétní kombinace prefixů je ${percentFrom}% ~ ${percentTo}%."
 		},
 		"reset": {
 			"eng": "Reset",
-			"trans": "Obnovit"
+			"trans": "Resetovat"
 		},
 		"resources": {
 			"title": {
@@ -765,17 +765,17 @@
 		"selectShard": {
 			"label": {
 				"eng": "Prefix ${index}",
-				"trans": "Předpona ${index}"
+				"trans": "Prefix ${index}"
 			},
 			"title": {
 				"eng": "Select shard",
-				"trans": "Vybrat shard"
+				"trans": "Vybrat střep"
 			}
 		},
 		"selectTraits": {
 			"title": {
 				"eng": "Select traits",
-				"trans": "Vyberte rysy"
+				"trans": "Vybrat rysy"
 			}
 		},
 		"stop": {
@@ -784,21 +784,21 @@
 		},
 		"tip": {
 			"eng": "The chances of rolling traits is exactly the same as manually re-rolling, this is just a automatic re-roll feature for convenience.",
-			"trans": "Šance na získání charakteristik je přesně stejná jako při manuálním přehazování; jedná se pouze o automatický režim pro pohodlí."
+			"trans": "Šance na získání vlastností je přesně stejná jako při ručním opakovaném hodu, jedná se pouze o automatickou funkci opakovaného hodu pro větší pohodlí."
 		}
 	},
 	"backgroundTask": {
 		"cancelConfirmCancel": {
 			"eng": "Terminate task",
-			"trans": "Ukončit úkol"
+			"trans": "Přerušit úkol"
 		},
 		"cancelConfirmDescription": {
 			"eng": "Material and time consumed will be lost.",
-			"trans": "Spotřebovaný materiál i čas budou ztraceny."
+			"trans": "Tímto promarníš vynaložený materiál i čas."
 		},
 		"cancelConfirmTitle": {
 			"eng": "Terminate task?",
-			"trans": "Ukončit úkol?"
+			"trans": "Přerušit úkol?"
 		},
 		"completeButton": {
 			"eng": "Complete",
@@ -811,11 +811,11 @@
 		"emptyTask": {
 			"description": {
 				"eng": "Click to choose a task",
-				"trans": "Vyberte úkol klepnutím"
+				"trans": "Kliknutím vybereš úkol"
 			},
 			"title": {
 				"eng": "Task slot available",
-				"trans": "Slot úkolu volný"
+				"trans": "Volný úkolový slot"
 			}
 		},
 		"inProgress": {
@@ -824,21 +824,21 @@
 		},
 		"instantFinish": {
 			"eng": "Finish Now",
-			"trans": "Dokončit nyní"
+			"trans": "Dokončit hned"
 		},
 		"instantFinishConfirmTitle": {
 			"eng": "Finish task now?",
-			"trans": "Dokončit úkol nyní?"
+			"trans": "Dokončit úkol hned?"
 		}
 	},
 	"backgroundTaskPage": {
 		"description": {
 			"eng": "Here shows all your tasks that you are performing.",
-			"trans": "Zde se zobrazí všechny úkoly, které provádíte."
+			"trans": "Zde se zobrazí veškeré úkoly, které plníš."
 		},
 		"maxTasks": {
 			"eng": "Max tasks: ${currentTasks} / ${maxTasks}",
-			"trans": "Max úkoly: ${currentTasks} / ${maxTasks}"
+			"trans": "Max úkolů: ${currentTasks} / ${maxTasks}"
 		},
 		"title": {
 			"eng": "Tasks",
@@ -863,7 +863,7 @@
 		"startButton": {
 			"title": {
 				"eng": "start task",
-				"trans": "Spustit úkol"
+				"trans": "zahájit úkol"
 			}
 		},
 		"time": {
@@ -875,27 +875,27 @@
 		"abandonedCity": {
 			"description": {
 				"eng": "Mirai; Once a picturesque tourist haven, it now stands abandoned, ravaged by soaring crime rates and leaked radiation. In this desolate landscape, only a handful of desperate junkies and ruthless mercenaries remain, scavenging for whatever loot they can find amidst the ruins.",
-				"trans": "tags. Let's craft.\n\n\"Mirai; Kdybychom se podívali zpět, byl to malebný turistický ráj, dnes je opuštěný, zničený rostoucí kriminalitou a únikem radiace. V tomto desolovaném kraji zůstává jen pár zoufalých drogových závislých a bezohledných najímanců, kteří sbírají jakýkoli nález mezi troskami.\"\n\nBut need concise UI style. Maybe: \"Mirai; kdysi malebné turistické útočiště, nyní opuštěné, zničené rostoucí kriminalitou a únikem radiace. V tomto desolovaném kraji zůstává jen pár zoufalých drogových závislých a bezohledných najímanců, kteří sbírají jakýkoli nález mezi troskami.\"\n\nLet's output.<translation>\nMirai; kdysi malebné turistické útočiště, nyní opuštěné, zničené rostoucí kriminalitou a únikem radiace. V tomto desolovaném kraji zůstává jen pár zoufalých drogových závislých a bezohledných najímanců, kteří sbírají jakýkoli nález mezi troskami."
+				"trans": "Mirai; Kdysi malebný turistický ráj, je dnes opuštěný, zpustošený stoupající kriminalitou a úniky radiace. V této pustině zůstala jen hrstka zoufalých feťáků a nemilosrdných žoldáků, kteří mezi troskami hledají cokoli, co by se ještě dalo ukrást."
 			},
 			"displayName": {
 				"eng": "Mirai District",
-				"trans": "Mirai District"
+				"trans": "čtvrť Mirai"
 			}
 		},
 		"bodyguard": {
 			"description": {
 				"eng": "Safeguard high-profile clients, engage in high-octane combat, and use advanced tech to ensure protection amidst urban dystopia.",
-				"trans": "Chraňte významné klienty, zapojte se do intenzivního boje a využijte pokročilou technologii k zajištění ochrany v městské dystopii."
+				"trans": "Máš za úkol chránit významnou klientelu, zapojuješ se do napínavých soubojů a pro zajištění ochrany uprostřed městské džungle využíváš pokročilé technologie."
 			},
 			"displayName": {
 				"eng": "Bodyguard",
-				"trans": "Tělový strážce"
+				"trans": "Tělesný strážce"
 			}
 		},
 		"clanMaintenance": {
 			"description": {
 				"eng": "Contribute to gang maintenance",
-				"trans": "Přispějte k údržbě gangu"
+				"trans": "Přispěj k údržbě gangu"
 			},
 			"displayName": {
 				"eng": "Gang Maintenance",
@@ -905,7 +905,7 @@
 		"hospital": {
 			"description": {
 				"eng": "Work as a part-time extraction force for Trauma Team, with the only goal of extracting ensured client from lethal situations. ",
-				"trans": "Běžte jako částečný člen evakuační jednotky Trauma Team a zaměřte se pouze na bezpečné vyvedení klienta z život ohrožujících situací."
+				"trans": "Na částečný úvazek vypomáháš jako člen zásahové jednotky Úrazovky. Máš jediný úkol: evakuovat klienta z jakékoli nebezpečné situace."
 			},
 			"displayName": {
 				"eng": "Extraction Mission",
@@ -915,17 +915,17 @@
 		"scavenge": {
 			"description": {
 				"eng": "Navigate hazardous junkyards, uncover hidden treasures, and salvage valuable tech",
-				"trans": "Prozkoumávejte nebezpečné skládky odpadků, odhalte skryté poklady a získejte cenné technologie."
+				"trans": "Pohybuješ se nebezpečnými vrakovišti, odhaluješ skryté poklady a pomáháš cennou techniku z kusů šrotu."
 			},
 			"displayName": {
 				"eng": "Scavenge Mission",
-				"trans": "Misií sběru šrotu"
+				"trans": "Šroťácká mise"
 			}
 		},
 		"territory": {
 			"description": {
 				"eng": "Contribute to territory control for your gang",
-				"trans": "Podpořte kontrolu území svého gangu."
+				"trans": "Přispějte k ovládnutí území svého gangu."
 			},
 			"displayName": {
 				"eng": "Territory Control",
@@ -935,7 +935,7 @@
 		"thieving": {
 			"description": {
 				"eng": "Infiltrate fortified corporate facilities, hack systems, and pilfer cutting-edge tech & secrets, all to satisfy shadowy clients' demands.",
-				"trans": "Vnikněte do opevněných firemních zařízení, proloupejte systémy a ukradněte nejmodernější technologii a tajemství – vše pro uspokojení požadavků temných klientů."
+				"trans": "Pronikni do opevněných korporátných komplexů, nabourej se do jejich systémů a ukradni špičkové technologie a firemní tajemství, jen aby se splnily požadavky pochybných klientů."
 			},
 			"displayName": {
 				"eng": "Thieving",
@@ -946,10 +946,10 @@
 	"backgroundTaskUpgradePopup": {
 		"description": {
 			"eng": "Upgrade your slots to increase the amount of background tasks you can run at the same time.",
-			"trans": "Upgradujte své sloty, aby jste mohli současně spouštět více backgroundových úloh."
+			"trans": "Vylepši sloty a zvyš počet úkolů, které lze na pozadí spustit současně."
 		},
 		"eng": "Upgrade Slots",
-		"trans": "Sloty upgradu"
+		"trans": "Vylepšovací sloty"
 	},
 	"backpack": {
 		"multiSelect": {
