@@ -49,7 +49,7 @@
 		"ELITE": {
 			"description": {
 				"eng": "More experienced pro mercs hang out here",
-				"trans": "傭兵 Pro yang lebih berpengalaman nongkrong di sini"
+				"trans": "mercenary Pro yang lebih berpengalaman nongkrong di sini"
 			},
 			"title": {
 				"eng": "Inner tables",
@@ -59,7 +59,7 @@
 		"NORMAL": {
 			"description": {
 				"eng": "Usually amateur mercs hang out here",
-				"trans": "Biasanya tentara bayaran amatir nongkrong di sini"
+				"trans": "Biasanya mercenary amatir nongkrong di sini"
 			},
 			"title": {
 				"eng": "Bar table",
@@ -69,7 +69,7 @@
 		"RARE": {
 			"description": {
 				"eng": "Professional mercs likes discuss about their gig here",
-				"trans": "Tentara bayaran Propesional suka berdiskusi tentang mangsa mereka di sini"
+				"trans": "Tentara bayaran Profesional suka berdiskusi tentang mangsa mereka di sini"
 			},
 			"title": {
 				"eng": "Sofa tables",
@@ -81,7 +81,7 @@
 		"container": {
 			"title": {
 				"eng": "Containers",
-				"trans": "Wadah"
+				"trans": "kontainer"
 			}
 		},
 		"containerKey": {
@@ -143,7 +143,7 @@
 		"heal": {
 			"description": {
 				"eng": "Heals your character for ${amount} health point",
-				"trans": "Menyembuhkan karakter Anda sebesar ${amount} poin kesehatan"
+				"trans": "Menyembuhkan Anda sebesar ${amount} poin kesehatan"
 			},
 			"triggered": {
 				"eng": "${merc} Healed ${playerName} for ${amount} health",
@@ -153,7 +153,7 @@
 		"healGroup": {
 			"description": {
 				"eng": "Heals your team for ${amount} health",
-				"trans": "Menyembuhkan tim Anda untuk ${amount} kesehatan"
+				"trans": "Menyembuhkan tim anda untuk ${amount} kesehatan"
 			},
 			"triggered": {
 				"eng": "${merc} healed the team for ${amount} health",
@@ -343,7 +343,7 @@
 		"error": {
 			"enterNotIdle": {
 				"eng": "You can only enter an apartment when you are idle",
-				"trans": "Anda hanya dapat memasuki apartemen saat Anda sedang diam"
+				"trans": "Anda hanya dapat memasuki apartemen saat Anda sedang tidak sibuk"
 			}
 		},
 		"invite": {
@@ -380,7 +380,7 @@
 			"notPaid": {
 				"title": {
 					"eng": "Apartment rental fee ${amount} has not been paid and your apartment has been removed",
-					"trans": "Biaya sewa apartemen ${amount} belum dibayar dan apartemen Anda telah dihapus."
+					"trans": "Biaya sewa apartemen ${amount} belum dibayar dan apartemen Anda telah disita."
 				}
 			},
 			"paid": {
@@ -439,7 +439,7 @@
 			},
 			"kick": {
 				"eng": "kick from apartment",
-				"trans": "Keluar dari apartemen"
+				"trans": "Keluarkan dari apartemen"
 			}
 		},
 		"purchase": {
@@ -480,7 +480,7 @@
 	"apartmentPurchasePage": {
 		"confirmDescription": {
 			"eng": "Are you sure you want to rent this apartment? if you already have an apartment, it will be dismissed.",
-			"trans": "Apakah kamu yakin ingin menyewa apartemen ini? Jika kamu sudah memiliki apartemen, maka akan dibatalkan."
+			"trans": "Apakah kamu yakin ingin menyewa apartemen ini? kamu akan pindah dari apartemen lamamu."
 		},
 		"confirmTitle": {
 			"eng": "Confirm Rental",
@@ -564,11 +564,11 @@
 		},
 		"failArea": {
 			"eng": "Fail area",
-			"trans": "Gagal area"
+			"trans": "serangan meleset"
 		},
 		"headshot": {
 			"eng": "headshot",
-			"trans": "Tembakan kepala"
+			"trans": "headshot"
 		},
 		"instruction": {
 			"eng": "hold and release to attack",
@@ -676,7 +676,7 @@
 		},
 		"destroyChance": {
 			"eng": "Destroy chance:",
-			"trans": "Peluang menghancurkan:"
+			"trans": "Peluang hancur:"
 		},
 		"maxed": {
 			"eng": "Max Calibration Reached",
@@ -741,7 +741,7 @@
 		"error": {
 			"duplicateTraits": {
 				"eng": "You cannot select the same trait more than once",
-				"trans": "Kamu tidak bisa memilih sifat yang sama lebih dari sekali"
+				"trans": "Kamu tidak bisa memilih trait yang sama lebih dari sekali"
 			},
 			"emptyTraits": {
 				"eng": "You must select a prefix for each slot",
@@ -790,7 +790,7 @@
 	"backgroundTask": {
 		"cancelConfirmCancel": {
 			"eng": "Terminate task",
-			"trans": "Menghentikan tugas"
+			"trans": "hentikan tugas"
 		},
 		"cancelConfirmDescription": {
 			"eng": "Material and time consumed will be lost.",
@@ -798,7 +798,7 @@
 		},
 		"cancelConfirmTitle": {
 			"eng": "Terminate task?",
-			"trans": "Menghentikan tugas?"
+			"trans": "hentikan tugas?"
 		},
 		"completeButton": {
 			"eng": "Complete",
@@ -852,12 +852,12 @@
 		},
 		"rewards": {
 			"eng": "possible rewards",
-			"trans": "Hadiah yang mungkin"
+			"trans": "Hadiah yang mungkin didapat"
 		},
 		"skipButton": {
 			"title": {
 				"eng": "Instant Complete",
-				"trans": "Selesaikan Seketika"
+				"trans": "Selesaikan langsung"
 			}
 		},
 		"startButton": {
@@ -1202,7 +1202,7 @@
 		},
 		"claimed": {
 			"eng": "Claimed",
-			"trans": "Klaimed"
+			"trans": "diklaim"
 		},
 		"days": {
 			"eng": "Day ${num}",
@@ -1219,7 +1219,7 @@
 		"item": {
 			"claimed": {
 				"eng": "Claimed",
-				"trans": "Klaimed"
+				"trans": "diklaim"
 			},
 			"locked": {
 				"eng": "Locked",
@@ -1227,7 +1227,7 @@
 			},
 			"pending": {
 				"eng": "Pending",
-				"trans": "Menunggu"
+				"trans": "tertunda"
 			},
 			"unclaimed": {
 				"eng": "Claim",
@@ -1373,7 +1373,7 @@
 		"failedDestroyed": {
 			"description": {
 				"eng": "Item is broken during calibration, repair is possible.",
-				"trans": "Item rusak selama kalibrasi, perbaikan memungkinkan."
+				"trans": "Item rusak selama kalibrasi, butuh perbaikan."
 			},
 			"title": {
 				"eng": "Item broken",
@@ -1463,7 +1463,7 @@
 			},
 			"tooLong": {
 				"eng": "Message is too long",
-				"trans": "Pesan kepanjangan"
+				"trans": "Pesan terlalu panjang"
 			}
 		},
 		"imageView": {
@@ -1608,7 +1608,7 @@
 		},
 		"tip": {
 			"eng": "Deploying buffs will give you and your gang temporary boost in the game.",
-			"trans": "Menyebarkan buff akan memberikan Anda dan anggota geng dorongan sementara dalam permainan."
+			"trans": "Menyebarkan buff akan memberikan Anda dan anggota geng boost sementara dalam permainan."
 		}
 	},
 	"clanDetailHeader": {
