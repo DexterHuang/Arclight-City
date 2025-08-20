@@ -741,11 +741,11 @@
 		"error": {
 			"duplicateTraits": {
 				"eng": "You cannot select the same trait more than once",
-				"trans": "Stejný rys nelze vybrat vícekrát."
+				"trans": "Stejný rys nelze vybrat více než jednou."
 			},
 			"emptyTraits": {
 				"eng": "You must select a prefix for each slot",
-				"trans": "Pro každý slot je třeba zvolit prefix."
+				"trans": "Pro každý slot je třeba vybrat prefix."
 			}
 		},
 		"expectedChance": {
@@ -754,7 +754,7 @@
 		},
 		"reset": {
 			"eng": "Reset",
-			"trans": "Resetovat"
+			"trans": "Resetovar"
 		},
 		"resources": {
 			"title": {
@@ -784,7 +784,7 @@
 		},
 		"tip": {
 			"eng": "The chances of rolling traits is exactly the same as manually re-rolling, this is just a automatic re-roll feature for convenience.",
-			"trans": "Šance na získání vlastností je přesně stejná jako při ručním opakovaném hodu, jedná se pouze o automatickou funkci opakovaného hodu pro větší pohodlí."
+			"trans": "Šance na získání rysů je úplně stejná jako při ručním opakovaném hodu, jedná se pouze o automatickou funkci opakovaného hodu pro větší pohodlí."
 		}
 	},
 	"backgroundTask": {
@@ -794,7 +794,7 @@
 		},
 		"cancelConfirmDescription": {
 			"eng": "Material and time consumed will be lost.",
-			"trans": "Tímto promarníš vynaložený materiál i čas."
+			"trans": "Spotřebovaný materiál a strávený čas budou ztraceny."
 		},
 		"cancelConfirmTitle": {
 			"eng": "Terminate task?",
@@ -811,7 +811,7 @@
 		"emptyTask": {
 			"description": {
 				"eng": "Click to choose a task",
-				"trans": "Kliknutím vybereš úkol"
+				"trans": "Klikem vybrat úkol"
 			},
 			"title": {
 				"eng": "Task slot available",
@@ -828,13 +828,13 @@
 		},
 		"instantFinishConfirmTitle": {
 			"eng": "Finish task now?",
-			"trans": "Dokončit úkol hned?"
+			"trans": "Dokončit úkol ihned?"
 		}
 	},
 	"backgroundTaskPage": {
 		"description": {
 			"eng": "Here shows all your tasks that you are performing.",
-			"trans": "Zde se zobrazí veškeré úkoly, které plníš."
+			"trans": "Zde se zobrazují veškeré úkoly, které právě provádíš."
 		},
 		"maxTasks": {
 			"eng": "Max tasks: ${currentTasks} / ${maxTasks}",
@@ -852,7 +852,7 @@
 		},
 		"rewards": {
 			"eng": "possible rewards",
-			"trans": "Možné odměny"
+			"trans": "možné odměny"
 		},
 		"skipButton": {
 			"title": {
@@ -863,7 +863,7 @@
 		"startButton": {
 			"title": {
 				"eng": "start task",
-				"trans": "zahájit úkol"
+				"trans": "spustit úkol"
 			}
 		},
 		"time": {
@@ -875,7 +875,8 @@
 		"abandonedCity": {
 			"description": {
 				"eng": "Mirai; Once a picturesque tourist haven, it now stands abandoned, ravaged by soaring crime rates and leaked radiation. In this desolate landscape, only a handful of desperate junkies and ruthless mercenaries remain, scavenging for whatever loot they can find amidst the ruins.",
-				"trans": "Mirai; Kdysi malebný turistický ráj, je dnes opuštěný, zpustošený stoupající kriminalitou a úniky radiace. V této pustině zůstala jen hrstka zoufalých feťáků a nemilosrdných žoldáků, kteří mezi troskami hledají cokoli, co by se ještě dalo ukrást."
+				"trans": "Mirai; Kdysi malebný turistický ráj, dnes opuštěné město, zpustošené rostoucí kriminalitou a unikající radiací. V téhle pustině zůstala jen hrstka zoufalých feťáků a nemilosrdných žoldáků, kteří mezi troskami hledají cokoli, co by se dalo ukrást."
+
 			},
 			"displayName": {
 				"eng": "Mirai District",
@@ -885,11 +886,11 @@
 		"bodyguard": {
 			"description": {
 				"eng": "Safeguard high-profile clients, engage in high-octane combat, and use advanced tech to ensure protection amidst urban dystopia.",
-				"trans": "Máš za úkol chránit významnou klientelu, zapojuješ se do napínavých soubojů a pro zajištění ochrany uprostřed městské džungle využíváš pokročilé technologie."
+				"trans": "Chraň významné klienty, účastni se napínavých soubojů a pomocí pokročilých technologií zajisti jejich bezpečnost v drsné městské džungli."
 			},
 			"displayName": {
 				"eng": "Bodyguard",
-				"trans": "Tělesný strážce"
+				"trans": "Osobní ochranka"
 			}
 		},
 		"clanMaintenance": {
@@ -905,7 +906,7 @@
 		"hospital": {
 			"description": {
 				"eng": "Work as a part-time extraction force for Trauma Team, with the only goal of extracting ensured client from lethal situations. ",
-				"trans": "Na částečný úvazek vypomáháš jako člen zásahové jednotky Úrazovky. Máš jediný úkol: evakuovat klienta z jakékoli nebezpečné situace."
+				"trans": "Vezmi práci na částečný úvazek u zásahového týmu Úrazovky. Máš jediný cíl: vytáhnout klienta z průseru."
 			},
 			"displayName": {
 				"eng": "Extraction Mission",
@@ -915,17 +916,17 @@
 		"scavenge": {
 			"description": {
 				"eng": "Navigate hazardous junkyards, uncover hidden treasures, and salvage valuable tech",
-				"trans": "Pohybuješ se nebezpečnými vrakovišti, odhaluješ skryté poklady a pomáháš cennou techniku z kusů šrotu."
+				"trans": "Pronikni na nebezpečná vrakoviště, odkryj ukryté poklady a vytěž odsud cennou techniku."
 			},
 			"displayName": {
 				"eng": "Scavenge Mission",
-				"trans": "Šroťácká mise"
+				"trans": "Mise na šroťáku"
 			}
 		},
 		"territory": {
 			"description": {
 				"eng": "Contribute to territory control for your gang",
-				"trans": "Přispějte k ovládnutí území svého gangu."
+				"trans": "Přispěj k ovládnutí území svého gangu."
 			},
 			"displayName": {
 				"eng": "Territory Control",
@@ -935,7 +936,7 @@
 		"thieving": {
 			"description": {
 				"eng": "Infiltrate fortified corporate facilities, hack systems, and pilfer cutting-edge tech & secrets, all to satisfy shadowy clients' demands.",
-				"trans": "Pronikni do opevněných korporátných komplexů, nabourej se do jejich systémů a ukradni špičkové technologie a firemní tajemství, jen aby se splnily požadavky pochybných klientů."
+				"trans": "Infiltruj opevněné korporátní objekty, nabourej se do systémů a rozkraď nejmodernější technologie a tajemství, abys uspokojil požadavky tajemných klientů."
 			},
 			"displayName": {
 				"eng": "Thieving",
@@ -946,10 +947,10 @@
 	"backgroundTaskUpgradePopup": {
 		"description": {
 			"eng": "Upgrade your slots to increase the amount of background tasks you can run at the same time.",
-			"trans": "Vylepši sloty a zvyš počet úkolů, které lze na pozadí spustit současně."
+			"trans": "Vylepši si sloty a navyš tak počet úkolů, které můžeš plnit na pozadí."
 		},
 		"eng": "Upgrade Slots",
-		"trans": "Vylepšovací sloty"
+		"trans": "Vylepšení slotů"
 	},
 	"backpack": {
 		"multiSelect": {
@@ -964,13 +965,13 @@
 	"backpackPage": {
 		"description": {
 			"eng": "Items collected in stronghold are stored in your backpack, if you died, the items in backpack will be used as deposit to revive you, you can buy back your items from the Clinic.",
-			"trans": "Vybavení shromážděné v pevnosti je uloženo do vašeho batohu. Pokud zemřete, předměty v batohu budou použity jako záloha pro oživení; můžete si své věci znovu zakoupit v klinice."
+			"trans": "Předměty získané v pevnosti se ukládají do tvého batohu. Když zemřeš, předměty v batohu se použijí jako záloha na tvé oživení. Předměty si pak můžeš odkoupit na Klinice."
 		},
 		"multiSelect": {
 			"discard": {
 				"title": {
 					"eng": "Discard",
-					"trans": "Zahodit"
+					"trans": "Zrušit"
 				}
 			}
 		},
@@ -983,7 +984,7 @@
 		"april": {
 			"description": {
 				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
-				"trans": "Denně získávejte různé odměny po dobu 21 dní a ve 22. dni až na ${itemName}."
+				"trans": "Každý den po dobu 21 dnů získáš různé odměny a 22. den dokonce ${itemName}."
 			},
 			"subtitle": {
 				"eng": "Battle Pass",
@@ -991,13 +992,13 @@
 			},
 			"title": {
 				"eng": "Cyber April",
-				"trans": "Cyber April"
+				"trans": "Kyber Duben"
 			}
 		},
 		"christmas": {
 			"description": {
 				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
-				"trans": "Denně získávejte různé odměny po dobu 21 dní a ve 22. dni až na ${itemName}."
+				"trans": "Každý den po dobu 21 dnů získáš různé odměny a 22. den dokonce ${itemName}."
 			},
 			"subtitle": {
 				"eng": "Christmas Rewards",
@@ -1011,25 +1012,25 @@
 		"crystal": {
 			"description": {
 				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
-				"trans": "Denně získávejte různé odměny po dobu 21 dní a ve 22. dni až na ${itemName}."
+				"trans": "Každý den po dobu 21 dnů získáš různé odměny a 22. den dokonce ${itemName}."
 			},
 			"subtitle": {
 				"eng": "Battle Track",
-				"trans": "Bojová dráha"
+				"trans": "Battle track"
 			},
 			"title": {
 				"eng": "Shardlight Crystal",
-				"trans": "Krystal osvícení"
+				"trans": "Světlostřepový krystal"
 			}
 		},
 		"halloween": {
 			"description": {
 				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
-				"trans": "Denně získávejte různé odměny po dobu 21 dní a ve 22. dni až na ${itemName}."
+				"trans": "Každý den po dobu 21 dnů získáš různé odměny a 22. den dokonce ${itemName}."
 			},
 			"subtitle": {
 				"eng": "halloween Package",
-				"trans": "Halloween balíček"
+				"trans": "Halloweenský balíček"
 			},
 			"title": {
 				"eng": "Battle Pass",
@@ -1039,11 +1040,11 @@
 		"july": {
 			"description": {
 				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
-				"trans": "Denně získávejte různé odměny po dobu 21 dní a ve 22. dni až na ${itemName}."
+				"trans": "Každý den po dobu 21 dnů získáš různé odměny a 22. den dokonce ${itemName}."
 			},
 			"subtitle": {
 				"eng": "July Package",
-				"trans": "Balíček Červenec"
+				"trans": "Červencový balíček"
 			},
 			"title": {
 				"eng": "Battle Pass",
@@ -1053,7 +1054,7 @@
 		"june": {
 			"description": {
 				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
-				"trans": "Denně získávejte různé odměny po dobu 21 dní a ve 22. dni až na ${itemName}."
+				"trans": "Každý den po dobu 21 dnů získáš různé odměny a 22. den dokonce ${itemName}."
 			},
 			"subtitle": {
 				"eng": "June Package",
@@ -1067,7 +1068,7 @@
 		"lunar": {
 			"description": {
 				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
-				"trans": "Denně získávejte různé odměny po dobu 21 dní a ve 22. dni až na ${itemName}."
+				"trans": "Každý den po dobu 21 dnů získáš různé odměny a 22. den dokonce ${itemName}."
 			},
 			"subtitle": {
 				"eng": "Golden Blessings",
@@ -1081,7 +1082,7 @@
 		"may": {
 			"description": {
 				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
-				"trans": "Denně získávejte různé odměny po dobu 21 dní a ve 22. dni až na ${itemName}."
+				"trans": "Každý den po dobu 21 dnů získáš různé odměny a 22. den dokonce ${itemName}."
 			},
 			"subtitle": {
 				"eng": "Battle Pass",
@@ -1089,13 +1090,13 @@
 			},
 			"title": {
 				"eng": "Vector Force Assault",
-				"trans": "Útok vektorové síly"
+				"trans": "Vektorový útok"
 			}
 		},
 		"mercEnhancer": {
 			"description": {
 				"eng": "Receive free ${item} every day",
-				"trans": "Získejte zdarma ${item} každý den"
+				"trans": "Získej denně zdarma ${item}"
 			},
 			"pass1": {
 				"name": {
@@ -1111,21 +1112,21 @@
 			},
 			"subtitle": {
 				"eng": "Upgrade Mercenaries",
-				"trans": "Vylepšit najímané"
+				"trans": "Vylepšit žoldáky"
 			},
 			"title": {
 				"eng": "Unleash Power",
-				"trans": "Vypuť sílu"
+				"trans": "Vypustit sílu"
 			}
 		},
 		"november": {
 			"description": {
 				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
-				"trans": "Denně získávejte různé odměny po dobu 21 dní a ve 22. dni až na ${itemName}."
+				"trans": "Každý den po dobu 21 dnů získáš různé odměny a 22. den dokonce ${itemName}."
 			},
 			"subtitle": {
 				"eng": "November Package",
-				"trans": "Balíček Listopadu"
+				"trans": "Listopadový balíček"
 			},
 			"title": {
 				"eng": "Battle Pass",
@@ -1135,7 +1136,7 @@
 		"sakura": {
 			"description": {
 				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
-				"trans": "Denně získávejte různé odměny po dobu 21 dní a ve 22. dni až na ${itemName}."
+				"trans": "Každý den po dobu 21 dnů získáš různé odměny a 22. den dokonce ${itemName}."
 			},
 			"subtitle": {
 				"eng": "Neon Bloom",
@@ -1143,17 +1144,17 @@
 			},
 			"title": {
 				"eng": "Sakura Byte",
-				"trans": "Sakura Byte"
+				"trans": "Sakurový bajt"
 			}
 		},
 		"september": {
 			"description": {
 				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
-				"trans": "Denně získávejte různé odměny po dobu 21 dní a ve 22. dni až na ${itemName}."
+				"trans": "Každý den po dobu 21 dnů získáš různé odměny a 22. den dokonce ${itemName}."
 			},
 			"subtitle": {
 				"eng": "september Package",
-				"trans": "Balíček September"
+				"trans": "Zářijový balíček"
 			},
 			"title": {
 				"eng": "Battle Pass",
@@ -1183,7 +1184,7 @@
 		"summer": {
 			"description": {
 				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
-				"trans": "Denně získávejte různé odměny po dobu 21 dní a ve 22. dni až na ${itemName}."
+				"trans": "Každý den po dobu 21 dnů získáš různé odměny a 22. den dokonce ${itemName}."
 			},
 			"subtitle": {
 				"eng": "summer Package",
@@ -1198,11 +1199,11 @@
 	"battlePassOverlay": {
 		"claimAll": {
 			"eng": "Claim All",
-			"trans": "Získat vše"
+			"trans": "Uplatnit vše"
 		},
 		"claimed": {
 			"eng": "Claimed",
-			"trans": "Přiděleno"
+			"trans": "Uplatněno"
 		},
 		"days": {
 			"eng": "Day ${num}",
@@ -1214,12 +1215,12 @@
 		},
 		"endsIn": {
 			"eng": "purchasable till ${date}",
-			"trans": "koupitelný do ${date}"
+			"trans": "lze zakoupit do ${date}"
 		},
 		"item": {
 			"claimed": {
 				"eng": "Claimed",
-				"trans": "Přiděleno"
+				"trans": "Uplatněno"
 			},
 			"locked": {
 				"eng": "Locked",
@@ -1227,7 +1228,7 @@
 			},
 			"pending": {
 				"eng": "Pending",
-				"trans": "Čeká se"
+				"trans": "Vyčkává"
 			},
 			"unclaimed": {
 				"eng": "Claim",
@@ -1239,12 +1240,11 @@
 			}
 		},
 		"itemStillPending": {
-			"eng": "This item is still pending. Please wait until the next refresh.",
-			"trans": "Předmět je stále ve zpracování. Počkejte na další obnovu."
+			"eng": "Na tento předmět se stále čeká. Počkejte na další obnovení."
 		},
 		"redeemableWindow": {
 			"eng": "${days} days redeemable window",
-			"trans": "Okno pro uplatnění ${days} dnů"
+			"trans": "Okno pro uplatnění je ${days} dnů"
 		},
 		"timeToNextRefresh": {
 			"eng": "Time to next refresh",
@@ -1268,11 +1268,11 @@
 		},
 		"unlockBattlePass": {
 			"eng": "Unlock ${tier} Battle Pass",
-			"trans": "Odemknout ${tier} Battle Pass"
+			"trans": "Odemknout Battle Pass ${tier}"
 		},
 		"unlockBattlePassDescription": {
 			"eng": "Unlock this battle pass tier to make the ${tier} tier rewards available.",
-			"trans": "Odemkněte tuto úroveň Battle Passu a zpřístupníte odměny úrovně ${tier}."
+			"trans": "Odemkněte tuto úroveň Battle passu a získejte odměny úrovně ${tier}."
 		},
 		"unlockNow": {
 			"eng": "Unlock Now",
@@ -1282,7 +1282,7 @@
 	"blockedPlayerListPage": {
 		"noBlockedPlayers": {
 			"eng": "No blocked players",
-			"trans": "Žádní zablokovaní hráči"
+			"trans": "Žádní blokovaní hráči"
 		},
 		"unblock": {
 			"eng": "Unblock",
@@ -1293,7 +1293,7 @@
 		"defenseIncrease": {
 			"description": {
 				"eng": "Increase defense for all players in strongholds created by your gang members in ${minutes} minutes",
-				"trans": "Zvýší obranu pro všechny hráče v pevnostech vytvořených členy vašeho gangu po ${minutes} minutách"
+				"trans": "Na ${minutes} minut zvýší obranu všech hráčů v pevnostech vytvořených členy tvého gangu."
 			},
 			"name": {
 				"eng": "Defense Increase",
@@ -1303,11 +1303,11 @@
 		"lootIncrease": {
 			"description": {
 				"eng": "Increase loot dropped by enemies and chests in strongholds for all strongholds created by your gang members in ${minutes} minutes",
-				"trans": "Zvyšte odměnu z nepřátel a truhlic ve všech pevnostech vytvořených členy vašeho gangu po dobu ${minutes} minut."
+				"trans": "Na ${minutes} minut se zvýší množství kořisti, kterou získáš od nepřátel a z truhel v pevnostech vytvořených členy tvého gangu."
 			},
 			"name": {
 				"eng": "Loot Increase",
-				"trans": "Zvýšení lootu"
+				"trans": "Navýšení kořisti"
 			}
 		}
 	},
@@ -1321,38 +1321,38 @@
 		"freeHideoutLocator": {
 			"name": {
 				"eng": "Free Hideout Locator",
-				"trans": "Bezplatný lokalizátor úkrytů"
+				"trans": "Lokalizátor úkrytů zdarma"
 			}
 		},
 		"itemUpgradeDeal": {
 			"name": {
 				"eng": "Item Upgrade Deal",
-				"trans": "Nabídka upgradu položky"
+				"trans": "Nabídka vylepšení předmětu"
 			}
 		},
 		"mercenary": {
 			"name": {
 				"eng": "Mercenary Bundle",
-				"trans": "Balíček najemníků"
+				"trans": "Žoldácký balíček"
 			}
 		},
 		"newbie": {
 			"name": {
 				"eng": "Welcome Bundle",
-				"trans": "Vítací balíček"
+				"trans": "Uvítací balíček"
 			}
 		}
 	},
 	"bundleDetailsModal": {
 		"content": {
 			"eng": "content",
-			"trans": "Obsah"
+			"trans": "obsah"
 		}
 	},
 	"caliTip": {
 		"1": {
 			"eng": "Seems like some of your equipments are still at +${cali} calibration level or lower. You should calibration them to at least +${targetCali} calibration level at the item calibration interface using ${calibrator}",
-			"trans": "Zdá se, že některé z vašich vybavení jsou stále na úrovni kalibrace +${cali} nebo nižší. Měli byste je kalibrovat alespoň na úroveň +${targetCali} pomocí rozhraní pro kalibraci předmětů a nástroje ${calibrator}."
+			"trans": "Zdá se, že některé tvé vybavení na stále na kalibrační úrovni +${cali} nebo nižší. Měl bys je zkalibrovat alespoň na úroveň +${targetCali}. To lze provést v rozhraní pro kalibraci předmětů pomocí nástroje ${calibrator}."
 		}
 	},
 	"calibrationResultPopup": {
@@ -1363,36 +1363,36 @@
 		"failed": {
 			"description": {
 				"eng": "Calibration was unsuccessful. item preserved.",
-				"trans": "Kalibrace se nezdařila. Položka zachována."
+				"trans": "Kalibrace se nezdařila. Předmět byl zachován."
 			},
 			"title": {
 				"eng": "Calibration failed",
-				"trans": "Kalibrace selhala"
+				"trans": "Kalibrace byla neúspěšná"
 			}
 		},
 		"failedDestroyed": {
 			"description": {
 				"eng": "Item is broken during calibration, repair is possible.",
-				"trans": "Položka se při kalibraci zlomila, oprava je možná."
+				"trans": "Předmět se při kalibraci poškodil, ale lze ho opravit."
 			},
 			"title": {
 				"eng": "Item broken",
-				"trans": "Poškozená položka"
+				"trans": "Předmět poškozen"
 			}
 		},
 		"success": {
 			"title": {
 				"eng": "Calibration success",
-				"trans": "Kalibrace úspěšná"
+				"trans": "Kalibrace byla úspěšná"
 			}
 		},
 		"text1": {
 			"eng": "Analyzing item...",
-			"trans": "Analyzování položky…"
+			"trans": "Analýza předmětu…"
 		},
 		"text2": {
 			"eng": "Rebooting to recovery mode...",
-			"trans": "Restartování do režimu obnovení..."
+			"trans": "Restartování do nouzového režimu..."
 		},
 		"text3": {
 			"eng": "Decrypting BIOS...",
@@ -1400,28 +1400,28 @@
 		},
 		"text4": {
 			"eng": "Calibrating...",
-			"trans": "Kalibruji…"
+			"trans": "Kalibrace…"
 		}
 	},
 	"characterCreate": {
 		"confirm": {
 			"eng": "confirm",
-			"trans": "Potvrdit"
+			"trans": "potvrdit"
 		},
 		"confirmModal": {
 			"description": {
 				"eng": "Are you sure you want to create a character with this name?",
-				"trans": "Opravdu chcete vytvořit postavu s tímto jménem?"
+				"trans": "Opravdu chceš vytvořit postavu s tímto jménem?"
 			},
 			"title": {
 				"eng": "Your name is \"${name}\"?",
-				"trans": "Je tvé jméno \"${name}\"?"
+				"trans": "Vážně se jmenuješ \"${name}\"?"
 			}
 		},
 		"createButton": {
 			"label": {
 				"eng": "create",
-				"trans": "Vytvořit"
+				"trans": "vytvořit"
 			}
 		},
 		"nameInput": {
@@ -1430,14 +1430,14 @@
 		},
 		"referrerCheckbox": {
 			"eng": "I have a referrer",
-			"trans": "Mám doporučitele"
+			"trans": "Někdo my hru doporučil"
 		}
 	},
 	"chat": {
 		"channel": {
 			"clan": {
 				"eng": "Clan",
-				"trans": "Klan"
+				"trans": "Klanový"
 			},
 			"global": {
 				"eng": "Global",
@@ -1453,33 +1453,33 @@
 			},
 			"system": {
 				"eng": "System",
-				"trans": "Systém"
+				"trans": "Systémový"
 			}
 		},
 		"error": {
 			"link": {
 				"eng": "Links are not allowed in messages",
-				"trans": "Odkazy nejsou povoleny v zprávách."
+				"trans": "Ve zprávách nejsou odkazy povolené."
 			},
 			"tooLong": {
 				"eng": "Message is too long",
-				"trans": "Zpráva je příliš dlouhá"
+				"trans": "Zpráva je příliš dlouhá."
 			}
 		},
 		"imageView": {
 			"close": {
 				"eng": "close",
-				"trans": "Zavřít"
+				"trans": "zavřít"
 			}
 		},
 		"inputPlaceholder": {
 			"eng": "Type a message...",
-			"trans": "Napište zprávu…"
+			"trans": "Napiš zprávu…"
 		},
 		"mention": {
 			"title": {
 				"eng": "${sender} has mentioned you",
-				"trans": "Uživatel ${sender} vás zmínil"
+				"trans": "Zmínil tě uživatel ${sender}"
 			}
 		},
 		"sendImage": {
@@ -1496,7 +1496,7 @@
 	"chatPreview": {
 		"noMessage": {
 			"eng": "no message",
-			"trans": "Žádná zpráva"
+			"trans": "žádná zpráva"
 		}
 	},
 	"chirp": {
@@ -1516,19 +1516,19 @@
 	"chooseEquipmentSlotModal": {
 		"title": {
 			"eng": "Please choose an equipment slot",
-			"trans": "Prosím, vyberte slot vybavení."
+			"trans": "Prosím, vyber slot výstroje."
 		}
 	},
 	"circleLockMinigame": {
 		"unlockButton": {
 			"eng": "unlock",
-			"trans": "Odemknout"
+			"trans": "odemknout"
 		}
 	},
 	"circleMinigame": {
 		"title": {
 			"eng": "Rotate the circle to unlock",
-			"trans": "Otoč kruh pro odemknutí"
+			"trans": "Odemkni otočením kruhu"
 		}
 	},
 	"clan": {
@@ -1541,13 +1541,13 @@
 		"error": {
 			"clanIsFull": {
 				"eng": "this gang is current at max member capacity",
-				"trans": "Tento gang dosáhl maximální kapacity členů."
+				"trans": "Tenhle gang má v současnosti maximální počet členů."
 			}
 		},
 		"imageBlocked": {
 			"text": {
 				"eng": "We use Google Image AI to scan for potentially inappropriate images. this may be cause by the image containing lewd, gore, violence or other inappropriate content.",
-				"trans": "..."
+				"trans": "K vyhledávání potenciálně nevhodných obrázků používáme umělou inteligenci Google Image AI. Důvodem může být obsah obrázku, který obsahuje obscénní, krvavé, násilné nebo jiné nevhodné prvky."
 			},
 			"title": {
 				"eng": "Selected image not allowed",
@@ -1568,7 +1568,7 @@
 			"collapsed": {
 				"body": {
 					"eng": "Your gang has collapsed due to lack of resources and funds.",
-					"trans": "Váš gang se zhroutil kvůli nedostatku zdrojů a financí."
+					"trans": "Tvůj gang se rozpadl díky nedostatku zdrojů a financí."
 				},
 				"title": {
 					"eng": "Your gang has collapsed!",
@@ -1592,7 +1592,7 @@
 		},
 		"confirmDeployDescription": {
 			"eng": "Are you sure you want to deploy \"${buffName}\" buff?",
-			"trans": "Opravdu chcete aktivovat „${buffName}“?"
+			"trans": "Opravdu chceš aktivovat buff \"${buffName}\"?"
 		},
 		"deploy": {
 			"eng": "Deploy Now",
@@ -1600,7 +1600,7 @@
 		},
 		"notInClan": {
 			"eng": "You can only deploy buffs if you are in a gang",
-			"trans": "Můžete nasadit buffy pouze pokud jste v gang."
+			"trans": "Buffy lze nasadit pouze pokud jsi v gangu."
 		},
 		"requires": {
 			"eng": "Requires",
@@ -1608,7 +1608,7 @@
 		},
 		"tip": {
 			"eng": "Deploying buffs will give you and your gang temporary boost in the game.",
-			"trans": "Nasazení buffů vám a vašemu gangu přinese dočasný posun v hře."
+			"trans": "Nasazení buffů poskytne tobě i tvému gangu dočasnou výhodu ve hře."
 		}
 	},
 	"clanDetailHeader": {
@@ -1618,7 +1618,7 @@
 		},
 		"isPublic": {
 			"eng": "Public",
-			"trans": "Veřejné"
+			"trans": "Veřejný"
 		}
 	},
 	"clanDetailsPage": {
@@ -1633,11 +1633,11 @@
 		"depositModal": {
 			"description": {
 				"eng": "Enter the amount of funds you want to deposit to your gang",
-				"trans": "Zadejte částku, kterou chcete vložit do gangu."
+				"trans": "Zadej částku, kterou chceš vložit na účet své gangu."
 			},
 			"title": {
 				"eng": "Deposit funds",
-				"trans": "Vložit prostředky"
+				"trans": "Vložit peníze"
 			}
 		},
 		"editMottoButton": {
@@ -1646,7 +1646,7 @@
 		},
 		"funds": {
 			"eng": "Funds",
-			"trans": "Fondy"
+			"trans": "Finance"
 		},
 		"gang": {
 			"members": {
@@ -1660,12 +1660,12 @@
 		},
 		"leaveClan": {
 			"eng": "leave gang",
-			"trans": "Odejít z klanu"
+			"trans": "odejít z klanu"
 		},
 		"leaveClanModal": {
 			"description": {
 				"eng": "Are you sure you want to leave this gang?",
-				"trans": "Opravdu chcete opustit tento gang?"
+				"trans": "Opravdu chceš opustit tenhle gang?"
 			},
 			"title": {
 				"eng": "Leave gang",
@@ -1674,7 +1674,7 @@
 		},
 		"makePrivate": {
 			"eng": "Make Private",
-			"trans": "Změnit na soukromé"
+			"trans": "Změnit na soukromý"
 		},
 		"makePublic": {
 			"eng": "Make Public",
@@ -1683,11 +1683,11 @@
 		"mottoModal": {
 			"description": {
 				"eng": "Enter a new gang motto",
-				"trans": "Zadejte nové motto gangu"
+				"trans": "Zadat nové motto gangu"
 			},
 			"title": {
 				"eng": "Edit gang motto",
-				"trans": "Upravit motto klanu"
+				"trans": "Upravit motto gangu"
 			}
 		},
 		"nextUpkeepDate": {
@@ -1696,16 +1696,16 @@
 		},
 		"noMotto": {
 			"eng": "There is no motto set for this gang yet",
-			"trans": "Pro tento gang zatím nebylo nastaveno motto."
+			"trans": "Tenhle gang zatím nemá nastavené motto."
 		},
 		"noticeModal": {
 			"description": {
 				"eng": "Posting a notice will cost ${Config.CLAN.NOTICE_POST_COST}${CurrencyType.NORMAL.getSymbol()}",
-				"trans": "Zveřejnění oznámení bude stát ${Config.CLAN.NOTICE_POST_COST}${CurrencyType.NORMAL.getSymbol()}"
+				"trans": "Zveřejnění příspěvku bude stát ${Config.CLAN.NOTICE_POST_COST}${CurrencyType.NORMAL.getSymbol()}"
 			},
 			"title": {
 				"eng": "Post gang notice",
-				"trans": "Zveřejnit oznámení o gangu"
+				"trans": "Zveřejnit příspěvek o gangu"
 			}
 		},
 		"playerListButton": {
@@ -1714,7 +1714,7 @@
 		},
 		"postNoticeButton": {
 			"eng": "Post Notice",
-			"trans": "Zveřejnit oznámení"
+			"trans": "Zveřejnit příspěvek"
 		},
 		"requestToJoinButton": {
 			"eng": "Request to join",
@@ -1730,11 +1730,11 @@
 		},
 		"upkeepTip": {
 			"eng": "Ensure there is enough resources and funds to avoid losing the gang on the next upkeep date.",
-			"trans": "Ujistěte se, že máte dostatek zdrojů a financí, abyste předešli ztrátě klanu při příštím dni údržby."
+			"trans": "Ujisti se, že máš dostatek zdrojů a finančních prostředků, abys při příštím termínu údržby nepřišel o gang."
 		},
 		"upkeepTipTitle": {
 			"eng": "Insufficient Upkeep Resources",
-			"trans": "Nedostatečné zdroje údržby"
+			"trans": "Nedostatek zdrojů pro údržbu"
 		}
 	},
 	"clanDisplay": {
@@ -1747,7 +1747,7 @@
 		"bannerImage": {
 			"description": {
 				"eng": "Banner image will be displayed on the territory banner, recommended size is ${ratio}",
-				"trans": "Obrázek bannera se zobrazí na banneru území, doporučená velikost je ${ratio}"
+				"trans": "Obrázek banneru bude zobrazený na banneru území, doporučená velikost je ${ratio}."
 			},
 			"title": {
 				"eng": "Banner Image",
@@ -1757,7 +1757,7 @@
 		"mainImage": {
 			"description": {
 				"eng": "Main image will be displayed on the gang page, recommended size is ${ratio}",
-				"trans": "Hlavní obrázek bude zobrazen na stránce klanu, doporučená velikost je ${ratio}"
+				"trans": "Hlavní obrázek bude zobrazený na stránce gangu, doporučená velikost je ${ratio}"
 			},
 			"title": {
 				"eng": "Main Image",
@@ -1768,15 +1768,15 @@
 	"clanPlayer": {
 		"controlPointContributed": {
 			"eng": "control points: ${amount}",
-			"trans": "Kontrolní body: ${amount}"
+			"trans": "kontrolní body: ${amount}"
 		},
 		"fundsContributed": {
 			"eng": "funds: ${amount}",
-			"trans": "Fondy: ${amount}"
+			"trans": "Finance: ${amount}"
 		},
 		"resourceContributed": {
 			"eng": "resource: ${amount}",
-			"trans": "Zdroje: ${amount}"
+			"trans": "zdroje: ${amount}"
 		},
 		"thisWeek": {
 			"eng": "this week",
@@ -1784,7 +1784,7 @@
 		},
 		"total": {
 			"eng": "total",
-			"trans": "Celkem"
+			"trans": "celkem"
 		}
 	},
 	"clanPlayerPermissionModal": {
@@ -1800,7 +1800,7 @@
 	"clanPlayerPopup": {
 		"kickPlayerButton": {
 			"eng": "kick player",
-			"trans": "Vyloučit hráče"
+			"trans": "vyloučit hráče"
 		},
 		"setPermissionButton": {
 			"eng": "Edit Permissions",
@@ -1816,7 +1816,7 @@
 		},
 		"transferOwnershipConfirm": {
 			"eng": "Are you sure you want to transfer ownership of the gang to ${playerName}?\\nthis cannot be undone.",
-			"trans": "Jste si jisti, že chcete převést vlastnictví gangu na ${playerName}? Tuto akci nelze vrátit."
+			"trans": "Opravdu chceš převést vlastnictví gangu na hráče ${playerName}?\\nTento krok je nevratný."
 		}
 	},
 	"clanSearchPage": {
@@ -1824,7 +1824,7 @@
 			"ConfirmJoinButton": {
 				"description": {
 					"eng": "Are you sure you want to join the gang with the name \"${name}\" and tag \"${tag}\"?",
-					"trans": "Jste si jisti, že se chcete přidat do gangu s názvem \"${name}\" a tagem \"${tag}\"?"
+					"trans": "Vážně se chceš připojit ke gangu s názvem \"${name}\" a tagem \"${tag}\"?"
 				},
 				"title": {
 					"eng": "Join",
@@ -1834,13 +1834,13 @@
 			"joinButton": {
 				"title": {
 					"eng": "Join Gang",
-					"trans": "Připojit se k gangu"
+					"trans": "Připojit se ke gangu"
 				}
 			},
 			"requestButton": {
 				"description": {
 					"eng": "Are you sure you want to send a request to join the gang with the name \"${name}\" and tag \"${tag}\"?",
-					"trans": "Chcete opravdu poslat žádost o vstup do gangu s názvem ${name} a tagem ${tag}?"
+					"trans": "Opravdu chceš odeslat žádost o připojení ke gangu s názvem \"${name}\" a tagem \"${tag}\"?"
 				},
 				"title": {
 					"eng": "Send Request",
@@ -1862,16 +1862,16 @@
 	"clanTab": {
 		"invitePlayer": {
 			"eng": "invite player",
-			"trans": "Pozvat hráče"
+			"trans": "pozvat hráče"
 		},
 		"playerPopup": {
 			"kickPlayer": {
 				"eng": "Kick ${playerName}",
-				"trans": "Vyloučit ${playerName}"
+				"trans": "Vyloučit hráče ${playerName}"
 			},
 			"kickPlayerConfirm": {
 				"eng": "Are you sure you want to kick this player from your gang?",
-				"trans": "Opravdu chcete tohoto hráče vyhodit z vašeho gangu?"
+				"trans": "Vážně chceš tohoto hráče vyhodit ze tvého gangu?"
 			},
 			"viewProfile": {
 				"eng": "View profile",
@@ -1882,42 +1882,42 @@
 	"collectedLoreNotes": {
 		"noNotes": {
 			"eng": "You have not collected any lore notes yet.",
-			"trans": "Zatím jste nesbíral žádné deníky."
+			"trans": "Zatím ve sbírce nemáš žádné příběhové poznámky."
 		},
 		"progressBar": {
 			"title": {
 				"eng": "Notes Collected",
-				"trans": "Shromážděné poznámky"
+				"trans": "Získané poznámky"
 			},
 			"unit": {
 				"eng": "Lore Notes",
-				"trans": "Poznámky k příběhu"
+				"trans": "Příběhové poznámky"
 			}
 		},
 		"title": {
 			"eng": "Collected Lore Notes",
-			"trans": "Shromážděné deníky"
+			"trans": "Získané příběhové poznámky"
 		}
 	},
 	"comatEnemyList": {
 		"scaledLevel": {
 			"eng": "scaled Lv. ${level}",
-			"trans": "Škálovaná úroveň ${level}"
+			"trans": "upravená úro. ${level}"
 		}
 	},
 	"combatHandler": {
 		"arrestPlayerError": {
 			"eng": "This player has already been arrested",
-			"trans": "Hráč již byl zatčen."
+			"trans": "Hráč už byl zadržen."
 		},
 		"notEnoughPsyche": {
 			"eng": "Your cyber-psychosis level is too high to engage in fights",
-			"trans": "Úroveň vaší kybernetické psychózy je příliš vysoká pro boj."
+			"trans": "Tvá úroveň kyberpsychózy je příliš vysoká, nemůžeš se pouštět do soubojů."
 		},
 		"pvpProtectionItemPopup": {
 			"description": {
 				"eng": "You are currently protected from PVP by ${item}, if you attack others now you will lose the buff, are you sure you want to proceed?",
-				"trans": "Jste momentálně chráněni před PvP pomocí ${item}. Pokud nyní napadnete ostatní, ztratíte tento bonus. Opravdu chcete pokračovat?"
+				"trans": "${item} tě v současné době chrání před PvP souboji. Pokud zaútočíš na někoho jiného, tak o tenhle buff přijdeš. Vážně chceš pokračovat?"
 			},
 			"title": {
 				"eng": "PVP Protection",
