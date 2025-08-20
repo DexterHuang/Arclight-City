@@ -556,7 +556,7 @@
 	"attackBar": {
 		"attack": {
 			"eng": "attack",
-			"trans": "zaútočit"
+			"trans": "útok"
 		},
 		"block": {
 			"eng": "block",
@@ -572,7 +572,7 @@
 		},
 		"instruction": {
 			"eng": "hold and release to attack",
-			"trans": "podrž a uvolni pro útok"
+			"trans": "podrež a uvolnit pro útok"
 		}
 	},
 	"attackPlayerModal": {
@@ -1871,7 +1871,7 @@
 			},
 			"kickPlayerConfirm": {
 				"eng": "Are you sure you want to kick this player from your gang?",
-				"trans": "Vážně chceš tohoto hráče vyhodit ze tvého gangu?"
+				"trans": "Vážně chceš tohoto hráče vyhodit ze svého gangu?"
 			},
 			"viewProfile": {
 				"eng": "View profile",
@@ -1927,7 +1927,7 @@
 		"pvpProtectionLevelPopup": {
 			"description": {
 				"eng": "You are under PVP protection until level ${level}, but if you actively engaged in PVP your PVP protection will be removed",
-				"trans": "Jste pod ochranou proti PvP až do úrovně ${level}. Pokud se aktivně zapojíte do PvP, ochrana vám bude odebrána."
+				"trans": "Jsi pod PvP ochranou až do úrovně ${level}, ale pokud se aktivně zapojíš do PvP, tak o svou PvP ochranu přijdeš."
 			},
 			"title": {
 				"eng": "PVP Protection",
@@ -1938,41 +1938,41 @@
 	"combatLog": {
 		"atk": {
 			"eng": "${attacker} has attacked ${enemyName} for ${damage} damage",
-			"trans": "${attacker} útočil na ${enemyName} a způsobil ${damage} poškození."
+			"trans": "${attacker} zaútočil na ${enemyName} a způsobil ${damage} poškození."
 		},
 		"blockFailed": {
 			"eng": "${player} tried to block damage from ${enemyName} but failed, received ${damage} damage",
-			"trans": "${player} se pokusil blokovat poškození od ${enemyName}, ale selhal a obdržel ${damage} poškození."
+			"trans": "${player} se pokusil blokovat poškození ${enemyName}, ale bez úspěchu. Utržil ${damage} bodů poškození."
 		},
 		"blockSuccess": {
 			"eng": "${player} blocked attack from ${enemyName}(${blockedPercent}%) received ${damage} damage",
-			"trans": "${player} zabránil útoku od ${enemyName} (${blockedPercent} %) a utrpěl ${damage} poškození."
+			"trans": "${player} zablokoval útok ${enemyName} (${blockedPercent}%) a utrpěl ${damage} bodů poškození."
 		},
 		"chargedAttack": {
 			"eng": "${enemyName} attacked ${player} for ${damage} damage (charged)",
-			"trans": "${enemyName} útočil na ${player} o ${damage} poškození (nabíjené)"
+			"trans": "${enemyName} zaútočil na ${player} a způsobil ${damage} bodů poškození (příprava)"
 		},
 		"charging": {
 			"eng": "${enemyName} is charging to attack ${player}",
-			"trans": "${enemyName} se přibližuje, aby zaútočil na ${player}"
+			"trans": "${enemyName} se připravuje k útoku proti ${player}"
 		},
 		"heal": {
 			"eng": "${enemyName} healed for ${healAmount} health",
-			"trans": "${enemyName} se uzdravil o ${healAmount} zdraví"
+			"trans": "${enemyName} se uzdravil o ${healAmount} bodů zdraví"
 		},
 		"normalAttack": {
 			"eng": "${enemyName} attacked ${player} for ${damage} damage",
-			"trans": "${enemyName} útočil na ${player} a způsobil ${damage} poškození."
+			"trans": "${enemyName} zaútočil na ${player} a způsobil ${damage} bodů poškození."
 		}
 	},
 	"compactRewardConfigDisplay": {
 		"clanControl": {
 			"eng": "+ ${amount} control on territory",
-			"trans": "+${amount} kontrola na území"
+			"trans": "+ ${amount} kontrola území"
 		},
 		"clanExp": {
 			"eng": "+ ${amount} Gang EXP",
-			"trans": "+ ${amount} zkušeností skupiny"
+			"trans": "+ ${amount} ZK gangu"
 		},
 		"clanResource": {
 			"eng": "+ ${amount} Gang resource",
@@ -1997,14 +1997,14 @@
 			},
 			"description2": {
 				"eng": "In case of server restarts, it usually will be done within a few minutes.",
-				"trans": "V případě restartu serveru se obvykle provede během několika minut."
+				"trans": "V případě restartu serveru bude obvykle proveden během několika minut."
 			}
 		},
 		"notLoggedIn": {
 			"reconnecting": {
 				"description": {
 					"eng": "No internet connection or server is restarting for update. Please try again later.",
-					"trans": "Žádné připojení k internetu nebo server se restartuje kvůli aktualizaci. Zkuste to prosím znovu později."
+					"trans": "Chybí připojení k internetu nebo se server restartuje kvůli aktualizaci. Zkus to prosím později."
 				},
 				"title": {
 					"eng": "Failed to connect to server.",
@@ -2015,7 +2015,7 @@
 		"reconnecting": {
 			"title": {
 				"eng": "Reconnecting to mainframe... (${attempt})",
-				"trans": "Opětovné připojení k hlavnímu systému… (${attempt})"
+				"trans": "Připojování k mainframu … (${attempt})"
 			}
 		},
 		"resuming": {
@@ -2025,7 +2025,7 @@
 			},
 			"description2": {
 				"eng": "All systems nominal, please standby...",
-				"trans": "Všechny systémy funkční, prosím čekejte."
+				"trans": "Všechny systémy funkční, čekej prosím."
 			},
 			"title": {
 				"eng": "Connecting to server...",
@@ -2035,7 +2035,7 @@
 		"updating": {
 			"description1": {
 				"eng": "Updating system, please standby...",
-				"trans": "Aktualizace systému, prosím počkejte..."
+				"trans": "Aktualizace systému, prosím počkej..."
 			},
 			"description2": {
 				"eng": "This will not consume network data.",
@@ -2050,7 +2050,7 @@
 	"contributable": {
 		"description": {
 			"eng": "This content can be edited by anyone, and is not official. \\nclick here to submit your edit!",
-			"trans": "Obsah lze libovolně upravit a není oficiální. Klikněte zde pro odeslání úprav!"
+			"trans": "Obsah této stránky může upravovat kdokoli a není oficiální. \\nStačí kliknout a odeslat své úpravy!"
 		},
 		"title": {
 			"eng": "Community Content",
@@ -2060,13 +2060,13 @@
 	"contributionNotice": {
 		"title": {
 			"eng": "This content is contributable by community, click here to edit or add your own content into the game.",
-			"trans": "Tento obsah lze doplnit komunitou – klikněte sem a upravte ho nebo přidejte vlastní obsah do hry."
+			"trans": "Tento obsah může vytvářet komunita. Pro úpravy stačí kliknout sem a přidáte do hry svůj vlastní obsah."
 		}
 	},
 	"cookingPage": {
 		"cook": {
 			"eng": "Cook",
-			"trans": "Kuchař"
+			"trans": "Vařit"
 		},
 		"recipes": {
 			"eng": "Recipes",
@@ -2074,11 +2074,11 @@
 		},
 		"selectAmount": {
 			"eng": "Select amount",
-			"trans": "Vyberte množství"
+			"trans": "Vyber množství"
 		},
 		"selectRecipe": {
 			"eng": "Select a recipe below",
-			"trans": "Vyberte recept níže"
+			"trans": "Vyber recept níže"
 		}
 	},
 	"costDisplay": {
@@ -2094,17 +2094,17 @@
 	"coupon": {
 		"alreadyRedeemed": {
 			"eng": "You have already redeemed this coupon.",
-			"trans": "Už jste tento kupón uplatnili."
+			"trans": "Tenhle kupón už je uplatněný."
 		},
 		"invalid": {
 			"eng": "Invalid gift code.",
-			"trans": "Neplatný kód dárku."
+			"trans": "Neplatný dárkový kód."
 		}
 	},
 	"couponPage": {
 		"description": {
 			"eng": "Enter your gift code to get your reward.",
-			"trans": "Vložte svůj kód dárku pro získání odměny."
+			"trans": "Zadejte dárkový kód a získej odměnu."
 		},
 		"inputTitle": {
 			"eng": "Gift Code",
@@ -2127,29 +2127,29 @@
 			},
 			"title": {
 				"eng": "Select Amount",
-				"trans": "Vyberte částku"
+				"trans": "Vyber množství"
 			}
 		},
 		"tip": {
 			"eng": "You can also craft directly from your inventory",
-			"trans": "Můžete také vytvářet přímo z inventáře."
+			"trans": "Vyrábět lze rovněž přímo z inventáře."
 		},
 		"title": {
 			"eng": "Crafting",
-			"trans": "Tvorba"
+			"trans": "Výroba"
 		}
 	},
 	"createGang": {
 		"createButton": {
 			"title": {
 				"eng": "Create New Gang",
-				"trans": "Vytvořit nový klan"
+				"trans": "Vytvořit nový gang"
 			}
 		},
 		"createGangButton": {
 			"title": {
 				"eng": "Create new Gang",
-				"trans": "Vytvoř novou bandu"
+				"trans": "Vytvořit nový gang"
 			}
 		},
 		"description": {
