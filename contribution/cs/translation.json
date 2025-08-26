@@ -2497,7 +2497,7 @@
 		"standby": {
 			"subtitle": {
 				"eng": "Drag the leaver down to active",
-				"trans": "Přetáhněte páku dolů pro aktivaci."
+				"trans": "Pro aktivaci přetáhni páku dolů."
 			},
 			"title": {
 				"eng": "System Standby",
@@ -2508,24 +2508,24 @@
 	"dungeon": {
 		"backpackTransferPartialFail": {
 			"eng": "Some item in your backpack cannot be transferred to your inventory because there was no enough space",
-			"trans": "Některý předmět v batohu nelze přesunout do inventáře, protože není dostatek místa."
+			"trans": "Některý předmět v batohu nelze přesunout do inventáře, protože v něm není dostatek místa."
 		},
 		"dungeonCleared": {
 			"eng": "Dungeon cleared!",
-			"trans": "Dungeon vyčištěn!"
+			"trans": "Pevnost vyčištěna!"
 		},
 		"error": {
 			"actionWhileHasEnemy": {
 				"eng": "You cannot perform this action while there are enemies nearby",
-				"trans": "Nelze provést tuto akci, pokud jsou poblíž nepřátelé."
+				"trans": "Tuto akci nelze provést, dokud jsou poblíž nepřátelé."
 			},
 			"enemyInRoom": {
 				"eng": "You cannot do that while there are enemies nearby",
-				"trans": "Nemůžeš to udělat, když jsou poblíž nepřátelé."
+				"trans": "Toto nelze, dokud jsou poblíž nepřátelé."
 			},
 			"enemyInRoom2": {
 				"eng": "You cannot perform this action while there are enemies nearby",
-				"trans": "Nelze provést tuto akci, pokud jsou poblíž nepřátelé."
+				"trans": "Tuto akci nelze provést, dokud jsou poblíž nepřátelé."
 			},
 			"failedToLoadAssets": {
 				"eng": "Failed to load assets: ${error}",
@@ -2533,28 +2533,28 @@
 			},
 			"maxLootLevelDifference": {
 				"eng": "You cannot loot this chest because your level is too high",
-				"trans": "Tuto truhlu nemůžete zložit, protože je vaše úroveň příliš vysoká."
+				"trans": "Tuhle bednu nelze vykrást, jelikož máš příliš vysokou úroveň."
 			}
 		},
 		"type": {
 			"hard": {
 				"description": {
 					"eng": "Hard difficulty stronghold, Enemies are stronger and more numerous, but the EXP and rewards are greater.",
-					"trans": "Pevnost těžké obtížnosti – nepřátelé jsou silnější a častější, ale zkušenosti a odměny vyšší."
+					"trans": "Vysoká obtížnost pevnosti. Nepřátelé jsou silnější a je jich víc, zároveň ale získáš více ZK a také odměn."
 				},
 				"name": {
 					"eng": "Hard Difficulty",
-					"trans": "Těžká obtížnost"
+					"trans": "Vyšší obtížnost"
 				}
 			},
 			"normal": {
 				"description": {
 					"eng": "Normal difficulty stronghold.",
-					"trans": "Pevnost s normální obtížností."
+					"trans": "Běžná obtížnost pevnosti."
 				},
 				"name": {
 					"eng": "Normal Difficulty",
-					"trans": "Normální obtížnost"
+					"trans": "Bežná obtížnost"
 				}
 			}
 		}
@@ -2562,7 +2562,7 @@
 	"dungeonChoicePopup": {
 		"actionsTitle": {
 			"eng": "Choose your action",
-			"trans": "Vyberte akci"
+			"trans": "Vyber akci"
 		},
 		"close": {
 			"eng": "Close",
@@ -2577,67 +2577,67 @@
 		"damageIncrease": {
 			"desc": {
 				"eng": "Increase damage dealt.",
-				"trans": "Zvyšte poškození"
+				"trans": "Vyšší způsobené poškození"
 			},
 			"name": {
 				"eng": "Damage Boost",
-				"trans": "Zvýšení poškození"
+				"trans": "Boost poškození"
 			}
 		},
 		"defenseIncrease": {
 			"desc": {
 				"eng": "Increase defense, takes less damage from enemies.",
-				"trans": "Zvýšení obrany, méně poškození od nepřátel."
+				"trans": "Vyšší obrana, nižší poškození způsobené nepřáteli."
 			},
 			"name": {
 				"eng": "Defense Boost",
-				"trans": "Zvýšení obrany"
+				"trans": "Boost obrany"
 			}
 		},
 		"enemyIncrease": {
 			"desc": {
 				"eng": "Increase number of enemies.",
-				"trans": "Zvýšit počet nepřátel."
+				"trans": "Vyšší počet nepřátel."
 			},
 			"name": {
 				"eng": "Crowded",
-				"trans": "Plné"
+				"trans": "Zalidněné"
 			}
 		},
 		"expIncrease": {
 			"desc": {
 				"eng": "Increase exp gained.",
-				"trans": "Zvýšit získané XP"
+				"trans": "Vyšší zisk ZK"
 			},
 			"name": {
 				"eng": "Exp Boost",
-				"trans": "Zkušenostní boost"
+				"trans": "Boos zkušeností"
 			}
 		},
 		"lootIncrease": {
 			"desc": {
 				"eng": "Increase loot gained.",
-				"trans": "Zvýšit získaný loot"
+				"trans": "Vyšší příjem z kořisti."
 			},
 			"name": {
 				"eng": "Extra Loot",
-				"trans": "Další výtěžek"
+				"trans": "Více kořisti"
 			}
 		},
 		"luckIncrease": {
 			"desc": {
 				"eng": "Increase drop quality",
-				"trans": "Zvýšit kvalitu dropů"
+				"trans": "Vyšší kvalita předmětů"
 			},
 			"eng": "Lucky",
-			"trans": "Šťastný"
+			"trans": "Štístko"
 		}
 	},
 	"dungeonLobby": {
 		"buff": {
 			"deploy": {
 				"eng": "Deploy Buff",
-				"trans": "Nasadit buff"
+				"trans": "Použít buff"
 			},
 			"title": {
 				"eng": "Active Buffs",
@@ -2677,16 +2677,16 @@
 		"playerModal": {
 			"kick": {
 				"eng": "kick",
-				"trans": "Vyloučit"
+				"trans": "vyhodit"
 			},
 			"viewDetails": {
 				"eng": "details",
-				"trans": "Detaily"
+				"trans": "detaily"
 			}
 		},
 		"playerNotReady": {
 			"eng": "Not ready",
-			"trans": "Není připravený"
+			"trans": "Není připraven"
 		},
 		"playerReady": {
 			"eng": "ready",
@@ -2701,7 +2701,7 @@
 		"public": {
 			"label": {
 				"eng": "Private / Public",
-				"trans": "Soukromé / Veřejné"
+				"trans": "Soukromá / Veřejná"
 			}
 		},
 		"ready": {
@@ -2710,25 +2710,25 @@
 		},
 		"socialButton": {
 			"eng": "social",
-			"trans": "Sociální"
+			"trans": "sociální"
 		},
 		"territoryGang": {
 			"eng": "Strongholds created by member of ${gangName} in this district will receive extra buff",
-			"trans": "Pevnosti vytvořené členem ${gangName} v tomto okrese získají další posílení."
+			"trans": "Pevnosti vytvořené členy gangu ${gangName} v této čtvrti získají bonusový buff."
 		},
 		"territoryNoGang": {
 			"eng": "Control this territory to get extra buff in this district",
-			"trans": "Ovládněte tuto oblast a získejte další bonus v tomto okrsku."
+			"trans": "Ovládněte tuto oblast a získejte v této čtvrti další buff."
 		},
 		"tip": {
 			"noHealing": {
 				"eng": "Looks like your are running low on healing items, purchase some so you can it in the stronghold",
-				"trans": "Zdá se, že vám chybí léčení, pořiďte si nějaké, abyste je mohli použít v pevnosti."
+				"trans": "Zdá se, že ti docházejí léčivé předměty, nějaké si nakup, ať máš do pevnosti zásobu."
 			}
 		},
 		"waitingToStart": {
 			"eng": "waiting for host to start",
-			"trans": "Čeká se na spuštění hostitele"
+			"trans": "čeká se na hostitele, až zahájí hru"
 		}
 	},
 	"dungeonLobbyListPage": {
@@ -2746,7 +2746,7 @@
 	"dungeonLootDoorPopup": {
 		"open": {
 			"eng": "unlock",
-			"trans": "Odemknout"
+			"trans": "odemknout"
 		},
 		"subtitle": {
 			"eng": "Requires",
@@ -2766,11 +2766,11 @@
 	"dungeonQuestPage": {
 		"accept": {
 			"eng": "accept quest",
-			"trans": "Přijmout úkol"
+			"trans": "přijmout úkol"
 		},
 		"questAccepted": {
 			"eng": "quest accepted",
-			"trans": "Úkol přijat"
+			"trans": "úkol přijat"
 		}
 	},
 	"dungeonTypeDisplay": {
@@ -2780,7 +2780,7 @@
 		},
 		"extraLoot": {
 			"eng": "+${percent}% loot rarity",
-			"trans": "+${percent}% vzácnost lootu"
+			"trans": "vzácnost kořisti +${percent}%"
 		}
 	},
 	"dungeonTypePage": {
@@ -2792,14 +2792,14 @@
 		},
 		"notEnoughResources": {
 			"eng": "You do not have enough resources, you may try ${difficulty} instead, ${error}",
-			"trans": "Nemáte dostatek zdrojů, můžete místo toho vyzkoušet ${difficulty}, ${error}"
+			"trans": "Nemáš dostatek prostředků, můžete místo toho zkusit ${difficulty}, ${error}"
 		}
 	},
 	"dungeonUI": {
 		"excessiveBackpackItemModal": {
 			"cancelText": {
 				"eng": "Manage Backpack",
-				"trans": "Spravovat batoh"
+				"trans": "Správa batohu"
 			},
 			"confirmText": {
 				"eng": "Continue",
@@ -2807,11 +2807,11 @@
 			},
 			"description": {
 				"eng": "Are you sure you want to bring them into stronghold? \\nIf you die you will lose them.",
-				"trans": "Opravdu chcete je přivést do pevnosti? Pokud zemřete, ztratíte je."
+				"trans": "Vážně si je chceš vzít do pevnosti?\\nJestli zemřeš, přijdeš o ně."
 			},
 			"title": {
 				"eng": "there are items in your backpack",
-				"trans": "V batohu jsou předměty."
+				"trans": "V batohu máš předměty."
 			}
 		},
 		"invNoHealing": {
