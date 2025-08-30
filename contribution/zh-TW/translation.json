@@ -4800,6 +4800,16 @@
 				"trans": "普通升等碎片"
 			}
 		},
+		"dataCore": {
+			"description": {
+				"eng": "Military grade datacubes containing encrypted intelligence data. Highly valuable to information brokers.",
+				"trans": "軍用級數據立方體，內含加密情報數據。對資訊經紀人而言價值極高"
+			},
+			"name": {
+				"eng": "Data Core",
+				"trans": "資料核心"
+			}
+		},
 		"defenseBoostBuffActivator": {
 			"description": {
 				"eng": "Deploy this buff in stronghold lobby to increase defense for all players in strongholds created by your gang members for ${minutes} minutes",
@@ -7810,6 +7820,34 @@
 				]
 			}
 		},
+		"corporateLiaison": {
+			"greetings": {
+				"eng": [
+					"Welcome to CircuitBreak Intelligence Division.",
+					"We pay top dollar for quality intel.",
+					"New file just came in. The client wants eyes where cameras can’t reach",
+					"Assets like you don’t stay alive for long. Earn while you can."
+				],
+				"trans": [
+					"歡迎來到網路安全集團情報部",
+					"我們為優質情報支付頂價",
+					"剛收到新檔案。客戶需要攝像頭無法覆蓋的監視點",
+					"像你這樣的資產活不了多久 能賺就賺"
+				]
+			},
+			"locationDesc": {
+				"eng": "HQ for intelligence gathering and alleged \"corporate espionage\", if you want to make some quick eddies and experience and have the guns to show for it, sign up some contract with them.",
+				"trans": "從事情報蒐集及涉嫌「企業間諜活動」的總部，若想快速賺點歐元與經驗值並獲得槍械，可與他們簽訂一些合約"
+			},
+			"locationName": {
+				"eng": "CircuitBreak Intelligence Division",
+				"trans": "網路安全集團情報部"
+			},
+			"npcName": {
+				"eng": "Vale",
+				"trans": "山谷"
+			}
+		},
 		"dailyReward": {
 			"greetings": {
 				"eng": [
@@ -9058,11 +9096,25 @@
 			"defeatSpecificEnemy": {
 				"eng": "Defeat lv.${minLevel}-${maxLevel} ${enemyName} (${current}/${required})",
 				"trans": "擊敗等級.${minLevel}-${maxLevel} ${enemyName} (${current}/${required})"
+			},
+			"submitItems": {
+				"eng": "Submit ${amount} ${itemName} (requires items in inventory)",
+				"trans": "提交${amount} ${itemName}（需庫存中有該物品）"
 			}
 		},
 		"returnToNpc": {
 			"eng": "Return to ${npcName}",
 			"trans": "返回${npcName}。"
+		}
+	},
+	"questDisplay": {
+		"deadline": {
+			"eng": "Deadline: ",
+			"trans": "截止時間："
+		},
+		"expired": {
+			"eng": "Expired",
+			"trans": "過期"
 		}
 	},
 	"questItem": {
@@ -9151,6 +9203,10 @@
 		"questName": {
 			"eng": "${npcName}'s request",
 			"trans": "${npcName}的請求"
+		},
+		"weeklyQuestTitle": {
+			"eng": "Intelligence Contract (${tier})",
+			"trans": "情報合約 (${tier}階)"
 		}
 	},
 	"quickSlotList": {
@@ -9722,6 +9778,14 @@
 					"eng": "You have already accepted this quest.",
 					"trans": "您已經接受了這個任務。"
 				},
+				"alreadyCompleted": {
+					"eng": "You have already completed this contract for this week",
+					"trans": "你已經完成了這週的這份合約"
+				},
+				"insufficientItems": {
+					"eng": "Insufficient ${itemName} in inventory to complete quest",
+					"trans": "倉庫中的${itemName}不足以完成任務"
+				},
 				"notCompleted": {
 					"eng": "Quest not completed",
 					"trans": "任務未完成"
@@ -9733,6 +9797,10 @@
 				"questNotOnCooldown": {
 					"eng": "Quest not on cooldown",
 					"trans": "任務不在冷卻中"
+				},
+				"storyNotExist": {
+					"eng": "Weekly quest is not available yet for this week",
+					"trans": "每周任務本週尚未開放"
 				}
 			}
 		},
@@ -11861,6 +11929,98 @@
 		"viewStories": {
 			"eng": "Stories",
 			"trans": "故事"
+		}
+	},
+	"weeklyQuest": {
+		"dataCores": {
+			"eng": "Data Cores",
+			"trans": "資料核心"
+		},
+		"progress": {
+			"eng": "Mission Progress",
+			"trans": "任務進度"
+		}
+	},
+	"weeklyQuestList": {
+		"accepted": {
+			"eng": "Accepted",
+			"trans": "已接受"
+		},
+		"canSubmit": {
+			"eng": "awaiting submission",
+			"trans": "等待提交"
+		},
+		"completed": {
+			"eng": "Completed",
+			"trans": "已完成"
+		},
+		"noQuests": {
+			"eng": "New intelligence contracts will be available soon",
+			"trans": "新情報合約即將推出"
+		},
+		"notAccepted": {
+			"eng": "Available",
+			"trans": "可用"
+		},
+		"tip": {
+			"explanation": {
+				"eng": "Intelligence contracts are intelligence missions that reset every week base on Arclight City's dynamic geopolitical situation. You can collect ${itemName} from Hideout Raids",
+				"trans": "情報合約是每週根據幻光之城的動態地緣政治形勢重置的情報任務 你可以從據點突擊中收集${itemName}"
+			}
+		},
+		"title": {
+			"eng": "Intelligence Contracts",
+			"trans": "情報合約"
+		}
+	},
+	"weeklyQuestPreview": {
+		"acceptContract": {
+			"eng": "Accept Contract",
+			"trans": "接受合約"
+		},
+		"briefing": {
+			"eng": "Mission Briefing",
+			"trans": "任務簡報"
+		},
+		"contractAccepted": {
+			"eng": "Contract Accepted",
+			"trans": "合約已接受"
+		},
+		"contractCompleted": {
+			"eng": "Contract Completed",
+			"trans": "合約已完成"
+		},
+		"contractDetails": {
+			"eng": "Contract Details",
+			"trans": "合約詳情"
+		},
+		"daysRemaining": {
+			"eng": "${time} remaining",
+			"trans": "${time} 剩餘"
+		},
+		"submitContract": {
+			"eng": "Submit Contract",
+			"trans": "提交合約"
+		}
+	},
+	"weeklyQuestTier": {
+		"blackOps": {
+			"name": {
+				"eng": "Black Ops Contract",
+				"trans": "黑色行動合約"
+			}
+		},
+		"priority": {
+			"name": {
+				"eng": "Priority Contract",
+				"trans": "優先合約"
+			}
+		},
+		"standard": {
+			"name": {
+				"eng": "Standard Contract",
+				"trans": "標準合約"
+			}
 		}
 	},
 	"wikiPage": {

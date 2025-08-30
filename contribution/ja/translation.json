@@ -4800,6 +4800,16 @@
 				"trans": "コモン・レベルシャード"
 			}
 		},
+		"dataCore": {
+			"description": {
+				"eng": "Military grade datacubes containing encrypted intelligence data. Highly valuable to information brokers.",
+				"trans": "暗号化された情報データを収容する軍用級データキューブは情報ブロカーに極めて価値があります"
+			},
+			"name": {
+				"eng": "Data Core",
+				"trans": "データコア"
+			}
+		},
 		"defenseBoostBuffActivator": {
 			"description": {
 				"eng": "Deploy this buff in stronghold lobby to increase defense for all players in strongholds created by your gang members for ${minutes} minutes",
@@ -7810,6 +7820,34 @@
 				]
 			}
 		},
+		"corporateLiaison": {
+			"greetings": {
+				"eng": [
+					"Welcome to CircuitBreak Intelligence Division.",
+					"We pay top dollar for quality intel.",
+					"New file just came in. The client wants eyes where cameras can’t reach",
+					"Assets like you don’t stay alive for long. Earn while you can."
+				],
+				"trans": [
+					"サーキットブレイク・インテリジェンスディビジョンへようこそ",
+					"私たちはクオリティーインテルにトップドルを払います",
+					"さっき新しいファイルが受信されました。クライアントはカメラが届かない場所の目を欲しがっています。",
+					"君のようなアセットは長持ちしません。できる間に稼げ。"
+				]
+			},
+			"locationDesc": {
+				"eng": "HQ for intelligence gathering and alleged \"corporate espionage\", if you want to make some quick eddies and experience and have the guns to show for it, sign up some contract with them.",
+				"trans": "情報収集・アレッジド企業スパイ活動の本部で、すぐにエディーを稼ぎ経験を積みそれを見せる銃が欲しければ、彼らと契約しよう"
+			},
+			"locationName": {
+				"eng": "CircuitBreak Intelligence Division",
+				"trans": "サーキットブレイク 情報部"
+			},
+			"npcName": {
+				"eng": "Vale",
+				"trans": "ヴェイル"
+			}
+		},
 		"dailyReward": {
 			"greetings": {
 				"eng": [
@@ -9058,11 +9096,25 @@
 			"defeatSpecificEnemy": {
 				"eng": "Defeat lv.${minLevel}-${maxLevel} ${enemyName} (${current}/${required})",
 				"trans": "lv.${minLevel}-${maxLevel}の${enemyName}を撃破しました (${current}/${required})"
+			},
+			"submitItems": {
+				"eng": "Submit ${amount} ${itemName} (requires items in inventory)",
+				"trans": "${amount}個の${itemName}を提出してください（インベントリ内のアイテムが必要です）"
 			}
 		},
 		"returnToNpc": {
 			"eng": "Return to ${npcName}",
 			"trans": "${npcName}に戻る"
+		}
+	},
+	"questDisplay": {
+		"deadline": {
+			"eng": "Deadline: ",
+			"trans": "デッドライン:"
+		},
+		"expired": {
+			"eng": "Expired",
+			"trans": "期限切れ"
 		}
 	},
 	"questItem": {
@@ -9151,6 +9203,10 @@
 		"questName": {
 			"eng": "${npcName}'s request",
 			"trans": "${npcName}のリクエスト"
+		},
+		"weeklyQuestTitle": {
+			"eng": "Intelligence Contract (${tier})",
+			"trans": "情報契約 (${tier})"
 		}
 	},
 	"quickSlotList": {
@@ -9722,6 +9778,14 @@
 					"eng": "You have already accepted this quest.",
 					"trans": "このクエストは既に受け入れています。"
 				},
+				"alreadyCompleted": {
+					"eng": "You have already completed this contract for this week",
+					"trans": "あなたはすでに今週のこの契約を完了しました"
+				},
+				"insufficientItems": {
+					"eng": "Insufficient ${itemName} in inventory to complete quest",
+					"trans": "クエストを完了するにはインベントリの${itemName}が足りません"
+				},
 				"notCompleted": {
 					"eng": "Quest not completed",
 					"trans": "クエストが完了していません"
@@ -9733,6 +9797,10 @@
 				"questNotOnCooldown": {
 					"eng": "Quest not on cooldown",
 					"trans": "クエストはクールダウン中ではありません"
+				},
+				"storyNotExist": {
+					"eng": "Weekly quest is not available yet for this week",
+					"trans": "今週の週次クエストはまだ利用できません"
 				}
 			}
 		},
@@ -11861,6 +11929,98 @@
 		"viewStories": {
 			"eng": "Stories",
 			"trans": "ストーリー"
+		}
+	},
+	"weeklyQuest": {
+		"dataCores": {
+			"eng": "Data Cores",
+			"trans": "データコアズ"
+		},
+		"progress": {
+			"eng": "Mission Progress",
+			"trans": "ミッション進捗"
+		}
+	},
+	"weeklyQuestList": {
+		"accepted": {
+			"eng": "Accepted",
+			"trans": "承認されました"
+		},
+		"canSubmit": {
+			"eng": "awaiting submission",
+			"trans": "サブミッション待ち"
+		},
+		"completed": {
+			"eng": "Completed",
+			"trans": "完了"
+		},
+		"noQuests": {
+			"eng": "New intelligence contracts will be available soon",
+			"trans": "新しい情報契約が間もなく利用可能になります"
+		},
+		"notAccepted": {
+			"eng": "Available",
+			"trans": "利用可能"
+		},
+		"tip": {
+			"explanation": {
+				"eng": "Intelligence contracts are intelligence missions that reset every week base on Arclight City's dynamic geopolitical situation. You can collect ${itemName} from Hideout Raids",
+				"trans": "情報契約は、アークライト・シティの動的な地政学的情勢に基づいて毎週リセットされる情報任務です。ハイドアウト・レイドから${itemName}を収集できます"
+			}
+		},
+		"title": {
+			"eng": "Intelligence Contracts",
+			"trans": "情報契約ズ"
+		}
+	},
+	"weeklyQuestPreview": {
+		"acceptContract": {
+			"eng": "Accept Contract",
+			"trans": "コントラクトを受け入れる"
+		},
+		"briefing": {
+			"eng": "Mission Briefing",
+			"trans": "ミッションブリーフィング"
+		},
+		"contractAccepted": {
+			"eng": "Contract Accepted",
+			"trans": "コントラクトが受け入れられました"
+		},
+		"contractCompleted": {
+			"eng": "Contract Completed",
+			"trans": "コントラクト完了"
+		},
+		"contractDetails": {
+			"eng": "Contract Details",
+			"trans": "コントラクト詳細"
+		},
+		"daysRemaining": {
+			"eng": "${time} remaining",
+			"trans": "${time} 残り"
+		},
+		"submitContract": {
+			"eng": "Submit Contract",
+			"trans": "コントラクト提出"
+		}
+	},
+	"weeklyQuestTier": {
+		"blackOps": {
+			"name": {
+				"eng": "Black Ops Contract",
+				"trans": "ブラックオプス・コントラクト"
+			}
+		},
+		"priority": {
+			"name": {
+				"eng": "Priority Contract",
+				"trans": "プライオリティ・コントラクト"
+			}
+		},
+		"standard": {
+			"name": {
+				"eng": "Standard Contract",
+				"trans": "標準契約"
+			}
 		}
 	},
 	"wikiPage": {

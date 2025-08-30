@@ -4800,6 +4800,16 @@
 				"trans": "Fragment de niveau commun"
 			}
 		},
+		"dataCore": {
+			"description": {
+				"eng": "Military grade datacubes containing encrypted intelligence data. Highly valuable to information brokers.",
+				"trans": "Datacubes de grade militaire contenant des données d'intelligence chiffrées. Très précieux pour les courtisans d'informations."
+			},
+			"name": {
+				"eng": "Data Core",
+				"trans": "Coeur de données"
+			}
+		},
 		"defenseBoostBuffActivator": {
 			"description": {
 				"eng": "Deploy this buff in stronghold lobby to increase defense for all players in strongholds created by your gang members for ${minutes} minutes",
@@ -7810,6 +7820,34 @@
 				]
 			}
 		},
+		"corporateLiaison": {
+			"greetings": {
+				"eng": [
+					"Welcome to CircuitBreak Intelligence Division.",
+					"We pay top dollar for quality intel.",
+					"New file just came in. The client wants eyes where cameras can’t reach",
+					"Assets like you don’t stay alive for long. Earn while you can."
+				],
+				"trans": [
+					"Bienvenue dans CircuitBreak Division Intelligence",
+					"Nous payons des prix élevés pour d'intel de qualité",
+					"Un nouveau fichier vient d'arriver. Le client veut des yeux dans les endroits que les caméras ne peuvent pas atteindre",
+					"Les actifs comme toi ne survivent pas longtemps. Gagne tant que tu peux."
+				]
+			},
+			"locationDesc": {
+				"eng": "HQ for intelligence gathering and alleged \"corporate espionage\", if you want to make some quick eddies and experience and have the guns to show for it, sign up some contract with them.",
+				"trans": "HQ pour la collecte d'intelligence et le supposé « espionnage corporatif », si vous voulez gagner des Eurodollars rapidement, accumuler de l'expérience et avoir des armes à feu à montrer en retour, prenez des contrats avec eux."
+			},
+			"locationName": {
+				"eng": "CircuitBreak Intelligence Division",
+				"trans": "CircuitBreak Division Intelligence"
+			},
+			"npcName": {
+				"eng": "Vale",
+				"trans": "vallée"
+			}
+		},
 		"dailyReward": {
 			"greetings": {
 				"eng": [
@@ -9058,11 +9096,25 @@
 			"defeatSpecificEnemy": {
 				"eng": "Defeat lv.${minLevel}-${maxLevel} ${enemyName} (${current}/${required})",
 				"trans": "Vaincre lv.${minLevel}-${maxLevel} ${enemyName} (${current}/${required})"
+			},
+			"submitItems": {
+				"eng": "Submit ${amount} ${itemName} (requires items in inventory)",
+				"trans": "Soumettre ${amount} ${itemName} (nécessite des objets dans l'inventaire)"
 			}
 		},
 		"returnToNpc": {
 			"eng": "Return to ${npcName}",
 			"trans": "Retourner voir ${npcName}"
+		}
+	},
+	"questDisplay": {
+		"deadline": {
+			"eng": "Deadline: ",
+			"trans": "Échéance :"
+		},
+		"expired": {
+			"eng": "Expired",
+			"trans": "Périmé"
 		}
 	},
 	"questItem": {
@@ -9151,6 +9203,10 @@
 		"questName": {
 			"eng": "${npcName}'s request",
 			"trans": "La demande de ${npcName}"
+		},
+		"weeklyQuestTitle": {
+			"eng": "Intelligence Contract (${tier})",
+			"trans": "Contrat Intelligence (${tier})"
 		}
 	},
 	"quickSlotList": {
@@ -9722,6 +9778,14 @@
 					"eng": "You have already accepted this quest.",
 					"trans": "Vous avez déjà accepté cette quête."
 				},
+				"alreadyCompleted": {
+					"eng": "You have already completed this contract for this week",
+					"trans": "Vous avez déjà complété ce contrat pour cette semaine"
+				},
+				"insufficientItems": {
+					"eng": "Insufficient ${itemName} in inventory to complete quest",
+					"trans": "Pas assez de ${itemName} dans l'inventaire pour compléter la quête"
+				},
 				"notCompleted": {
 					"eng": "Quest not completed",
 					"trans": "Quête non terminée"
@@ -9733,6 +9797,10 @@
 				"questNotOnCooldown": {
 					"eng": "Quest not on cooldown",
 					"trans": "Quête non en attente"
+				},
+				"storyNotExist": {
+					"eng": "Weekly quest is not available yet for this week",
+					"trans": "La quête hebdomadaire n'est pas encore disponible pour cette semaine"
 				}
 			}
 		},
@@ -11861,6 +11929,98 @@
 		"viewStories": {
 			"eng": "Stories",
 			"trans": "Histoires"
+		}
+	},
+	"weeklyQuest": {
+		"dataCores": {
+			"eng": "Data Cores",
+			"trans": "Cœurs de données"
+		},
+		"progress": {
+			"eng": "Mission Progress",
+			"trans": "Progression de la Mission"
+		}
+	},
+	"weeklyQuestList": {
+		"accepted": {
+			"eng": "Accepted",
+			"trans": "Accepté"
+		},
+		"canSubmit": {
+			"eng": "awaiting submission",
+			"trans": "En attente de soumission"
+		},
+		"completed": {
+			"eng": "Completed",
+			"trans": "Terminé"
+		},
+		"noQuests": {
+			"eng": "New intelligence contracts will be available soon",
+			"trans": "Nouveaux contrats intelligence seront bientôt disponibles"
+		},
+		"notAccepted": {
+			"eng": "Available",
+			"trans": "Disponible"
+		},
+		"tip": {
+			"explanation": {
+				"eng": "Intelligence contracts are intelligence missions that reset every week base on Arclight City's dynamic geopolitical situation. You can collect ${itemName} from Hideout Raids",
+				"trans": "Contrats d'intelligence sont des missions d'intelligence qui se réinitialisent chaque semaine, basées sur la situation géopolitique dynamique de la Cité Arclight. Vous pouvez collecter ${itemName} lors de raids de hideouts"
+			}
+		},
+		"title": {
+			"eng": "Intelligence Contracts",
+			"trans": "Contrats Intelligence"
+		}
+	},
+	"weeklyQuestPreview": {
+		"acceptContract": {
+			"eng": "Accept Contract",
+			"trans": "Accepter le contrat"
+		},
+		"briefing": {
+			"eng": "Mission Briefing",
+			"trans": "Briefing de Mission"
+		},
+		"contractAccepted": {
+			"eng": "Contract Accepted",
+			"trans": "Contrat Accepté"
+		},
+		"contractCompleted": {
+			"eng": "Contract Completed",
+			"trans": "Contrat terminé"
+		},
+		"contractDetails": {
+			"eng": "Contract Details",
+			"trans": "Détails du contrat"
+		},
+		"daysRemaining": {
+			"eng": "${time} remaining",
+			"trans": "${time} restant"
+		},
+		"submitContract": {
+			"eng": "Submit Contract",
+			"trans": "Soumettre le contrat"
+		}
+	},
+	"weeklyQuestTier": {
+		"blackOps": {
+			"name": {
+				"eng": "Black Ops Contract",
+				"trans": "Contrat d'opérations noires"
+			}
+		},
+		"priority": {
+			"name": {
+				"eng": "Priority Contract",
+				"trans": "Contrat prioritaire"
+			}
+		},
+		"standard": {
+			"name": {
+				"eng": "Standard Contract",
+				"trans": "Contrat standard"
+			}
 		}
 	},
 	"wikiPage": {

@@ -765,7 +765,7 @@
 		"selectShard": {
 			"label": {
 				"eng": "Prefix ${index}",
-				"trans": "Prefix ${index}"
+				"trans": "Předpona ${index}"
 			},
 			"title": {
 				"eng": "Select shard",
@@ -876,7 +876,6 @@
 			"description": {
 				"eng": "Mirai; Once a picturesque tourist haven, it now stands abandoned, ravaged by soaring crime rates and leaked radiation. In this desolate landscape, only a handful of desperate junkies and ruthless mercenaries remain, scavenging for whatever loot they can find amidst the ruins.",
 				"trans": "Mirai; Kdysi malebný turistický ráj, dnes opuštěné město, zpustošené rostoucí kriminalitou a unikající radiací. V téhle pustině zůstala jen hrstka zoufalých feťáků a nemilosrdných žoldáků, kteří mezi troskami hledají cokoli, co by se dalo ukrást."
-
 			},
 			"displayName": {
 				"eng": "Mirai District",
@@ -1240,7 +1239,8 @@
 			}
 		},
 		"itemStillPending": {
-			"eng": "Na tento předmět se stále čeká. Počkejte na další obnovení."
+			"eng": "This item is still pending. Please wait until the next refresh.",
+			"trans": "Tato položka je stále v čekání. Prosím počkejte až do dalšího obnovení"
 		},
 		"redeemableWindow": {
 			"eng": "${days} days redeemable window",
@@ -2423,7 +2423,7 @@
 		"channel": {
 			"chirp": {
 				"eng": "Chirp",
-				"trans": "Chirp"
+				"trans": "číp"
 			},
 			"clan": {
 				"eng": "Gang Chat",
@@ -4798,6 +4798,16 @@
 			"name": {
 				"eng": "Common Level Shard",
 				"trans": "Běžný levelovací střep"
+			}
+		},
+		"dataCore": {
+			"description": {
+				"eng": "Military grade datacubes containing encrypted intelligence data. Highly valuable to information brokers.",
+				"trans": "Datákubusy armádního stupně obsahující šifrovaná data inteligence. Vysoce cenné pro brokry informací."
+			},
+			"name": {
+				"eng": "Data Core",
+				"trans": "Datové Jádro"
 			}
 		},
 		"defenseBoostBuffActivator": {
@@ -7498,7 +7508,7 @@
 		},
 		"totalReactions": {
 			"eng": "${totalReactions} reactions",
-			"trans": "${amount} reakcí"
+			"trans": "${totalReactions} reakcí"
 		}
 	},
 	"newsReport": {
@@ -7808,6 +7818,34 @@
 				"trans": [
 					"Nenech se jen koukat, koupíš si něco."
 				]
+			}
+		},
+		"corporateLiaison": {
+			"greetings": {
+				"eng": [
+					"Welcome to CircuitBreak Intelligence Division.",
+					"We pay top dollar for quality intel.",
+					"New file just came in. The client wants eyes where cameras can’t reach",
+					"Assets like you don’t stay alive for long. Earn while you can."
+				],
+				"trans": [
+					"Vítejte v CircuitBreak Inteligence Divize",
+					"My plátáme nejvyšší cenu za kvalitní inteligenci",
+					"Nový soubor právě přišel. Klient chce oči kde kamery nemohou dosáhnout",
+					"Aktiva jako ty nezhijí dlouho. Získej, dokud umíš."
+				]
+			},
+			"locationDesc": {
+				"eng": "HQ for intelligence gathering and alleged \"corporate espionage\", if you want to make some quick eddies and experience and have the guns to show for it, sign up some contract with them.",
+				"trans": "Hlavní kancelář pro sběr inteligence a nazývané 'korporátní špionáž', pokud chcete získat některé rychlé edáče a zkušenosti a mít zbraně, které si můžete ukázat, přihlaste se k nějaké smlouvě s nimi."
+			},
+			"locationName": {
+				"eng": "CircuitBreak Intelligence Division",
+				"trans": "CircuitBreak Inteligence Divize"
+			},
+			"npcName": {
+				"eng": "Vale",
+				"trans": "Vale"
 			}
 		},
 		"dailyReward": {
@@ -9058,11 +9096,25 @@
 			"defeatSpecificEnemy": {
 				"eng": "Defeat lv.${minLevel}-${maxLevel} ${enemyName} (${current}/${required})",
 				"trans": "Porazit lvl.${minLevel}-${maxLevel} ${enemyName} (${current}/${required})"
+			},
+			"submitItems": {
+				"eng": "Submit ${amount} ${itemName} (requires items in inventory)",
+				"trans": "Odeslat ${amount} ${itemName} (vyžaduje předměty v inventáři)"
 			}
 		},
 		"returnToNpc": {
 			"eng": "Return to ${npcName}",
 			"trans": "Vrátit se k ${npcName}"
+		}
+	},
+	"questDisplay": {
+		"deadline": {
+			"eng": "Deadline: ",
+			"trans": "Termín:"
+		},
+		"expired": {
+			"eng": "Expired",
+			"trans": "Vypršen"
 		}
 	},
 	"questItem": {
@@ -9151,6 +9203,10 @@
 		"questName": {
 			"eng": "${npcName}'s request",
 			"trans": "Žádost ${npcName}"
+		},
+		"weeklyQuestTitle": {
+			"eng": "Intelligence Contract (${tier})",
+			"trans": "Inteligence smlouva (${tier})"
 		}
 	},
 	"quickSlotList": {
@@ -9722,6 +9778,14 @@
 					"eng": "You have already accepted this quest.",
 					"trans": "Už jsi tuto úlohu přijal."
 				},
+				"alreadyCompleted": {
+					"eng": "You have already completed this contract for this week",
+					"trans": "Už jsi dokončil tuto smlouvu pro tento týden."
+				},
+				"insufficientItems": {
+					"eng": "Insufficient ${itemName} in inventory to complete quest",
+					"trans": "Nemáte dostatek ${itemName} v inventáři pro dokončení mise"
+				},
 				"notCompleted": {
 					"eng": "Quest not completed",
 					"trans": "Úkol nedokončený"
@@ -9733,6 +9797,10 @@
 				"questNotOnCooldown": {
 					"eng": "Quest not on cooldown",
 					"trans": "Úkol je dostupný"
+				},
+				"storyNotExist": {
+					"eng": "Weekly quest is not available yet for this week",
+					"trans": "Týdenní misa ještě není k dispozici pro tento týden"
 				}
 			}
 		},
@@ -11861,6 +11929,98 @@
 		"viewStories": {
 			"eng": "Stories",
 			"trans": "Příběhy"
+		}
+	},
+	"weeklyQuest": {
+		"dataCores": {
+			"eng": "Data Cores",
+			"trans": "Datové Jádra"
+		},
+		"progress": {
+			"eng": "Mission Progress",
+			"trans": "Pokrok misí"
+		}
+	},
+	"weeklyQuestList": {
+		"accepted": {
+			"eng": "Accepted",
+			"trans": "Přijato"
+		},
+		"canSubmit": {
+			"eng": "awaiting submission",
+			"trans": "čeká se na odeslání"
+		},
+		"completed": {
+			"eng": "Completed",
+			"trans": "Dokončeno"
+		},
+		"noQuests": {
+			"eng": "New intelligence contracts will be available soon",
+			"trans": "Nové inteligencní smlouvy budou brzy dostupné"
+		},
+		"notAccepted": {
+			"eng": "Available",
+			"trans": "Dostupný"
+		},
+		"tip": {
+			"explanation": {
+				"eng": "Intelligence contracts are intelligence missions that reset every week base on Arclight City's dynamic geopolitical situation. You can collect ${itemName} from Hideout Raids",
+				"trans": "Inteligence smlouvy jsou misí inteligence, které se resetují každý týden na základě dynamické geopolitičké situace města Arclight. Můžete sbírat ${itemName} z útoků na skryty"
+			}
+		},
+		"title": {
+			"eng": "Intelligence Contracts",
+			"trans": "Inteligence smlouvy"
+		}
+	},
+	"weeklyQuestPreview": {
+		"acceptContract": {
+			"eng": "Accept Contract",
+			"trans": "Přijmout smlouvu"
+		},
+		"briefing": {
+			"eng": "Mission Briefing",
+			"trans": "Misní briefing"
+		},
+		"contractAccepted": {
+			"eng": "Contract Accepted",
+			"trans": "Smlouva přijata"
+		},
+		"contractCompleted": {
+			"eng": "Contract Completed",
+			"trans": "Smlouva dokončena"
+		},
+		"contractDetails": {
+			"eng": "Contract Details",
+			"trans": "Detaily smlouvy"
+		},
+		"daysRemaining": {
+			"eng": "${time} remaining",
+			"trans": "${time} zbývá"
+		},
+		"submitContract": {
+			"eng": "Submit Contract",
+			"trans": "Odeslat Smlouvu"
+		}
+	},
+	"weeklyQuestTier": {
+		"blackOps": {
+			"name": {
+				"eng": "Black Ops Contract",
+				"trans": "Smlouva černých operací"
+			}
+		},
+		"priority": {
+			"name": {
+				"eng": "Priority Contract",
+				"trans": "Prioritární smlouva"
+			}
+		},
+		"standard": {
+			"name": {
+				"eng": "Standard Contract",
+				"trans": "Standardní smlouva"
+			}
 		}
 	},
 	"wikiPage": {

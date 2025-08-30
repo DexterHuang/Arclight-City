@@ -4800,6 +4800,16 @@
 				"trans": "평범한 레벨 샤드"
 			}
 		},
+		"dataCore": {
+			"description": {
+				"eng": "Military grade datacubes containing encrypted intelligence data. Highly valuable to information brokers.",
+				"trans": "군용 그레이드 데이터큐브는 암호화된 정찰 데이터를 포함합니다. 정보 브로커에겐 매우 가치가 있습니다."
+			},
+			"name": {
+				"eng": "Data Core",
+				"trans": "데이터 코어"
+			}
+		},
 		"defenseBoostBuffActivator": {
 			"description": {
 				"eng": "Deploy this buff in stronghold lobby to increase defense for all players in strongholds created by your gang members for ${minutes} minutes",
@@ -7810,6 +7820,34 @@
 				]
 			}
 		},
+		"corporateLiaison": {
+			"greetings": {
+				"eng": [
+					"Welcome to CircuitBreak Intelligence Division.",
+					"We pay top dollar for quality intel.",
+					"New file just came in. The client wants eyes where cameras can’t reach",
+					"Assets like you don’t stay alive for long. Earn while you can."
+				],
+				"trans": [
+					"회로 차단기 정보본부에 오신 것을 환영합니다",
+					"우리는 고품질의 정보에 대해 탑 달러를 지불합니다",
+					"새 파일이 방금 들어왔습니다. 클라이언트는 카메라가 닿지 않는 곳에서 감시 눈을 원합니다.",
+					"너 같은 자산은 오래 버티지 못해. 할 수 있을 때까지 벌자"
+				]
+			},
+			"locationDesc": {
+				"eng": "HQ for intelligence gathering and alleged \"corporate espionage\", if you want to make some quick eddies and experience and have the guns to show for it, sign up some contract with them.",
+				"trans": "정보 수집 및 소위 '기업 스파이 활동' 본부입니다. 빠른 에디를 벌고 경험을 쌓으며 그것을 증명할 총을 갖고 싶다면, 그들과 계약을 맺으세요"
+			},
+			"locationName": {
+				"eng": "CircuitBreak Intelligence Division",
+				"trans": "회로 차단기 정보본부"
+			},
+			"npcName": {
+				"eng": "Vale",
+				"trans": "베일"
+			}
+		},
 		"dailyReward": {
 			"greetings": {
 				"eng": [
@@ -9058,11 +9096,25 @@
 			"defeatSpecificEnemy": {
 				"eng": "Defeat lv.${minLevel}-${maxLevel} ${enemyName} (${current}/${required})",
 				"trans": "lv.${minLevel}-${maxLevel} ${enemyName}를 물리치세요 (${current}/${required})"
+			},
+			"submitItems": {
+				"eng": "Submit ${amount} ${itemName} (requires items in inventory)",
+				"trans": "${amount}개의 ${itemName}을(를) 제출하세요 (인벤토리에 아이템이 필요합니다)"
 			}
 		},
 		"returnToNpc": {
 			"eng": "Return to ${npcName}",
 			"trans": "${npcName}에게 돌아가기"
+		}
+	},
+	"questDisplay": {
+		"deadline": {
+			"eng": "Deadline: ",
+			"trans": "데드라인:"
+		},
+		"expired": {
+			"eng": "Expired",
+			"trans": "만료됨"
 		}
 	},
 	"questItem": {
@@ -9151,6 +9203,10 @@
 		"questName": {
 			"eng": "${npcName}'s request",
 			"trans": "${npcName}의 요청"
+		},
+		"weeklyQuestTitle": {
+			"eng": "Intelligence Contract (${tier})",
+			"trans": "지능 계약 (${tier})"
 		}
 	},
 	"quickSlotList": {
@@ -9722,6 +9778,14 @@
 					"eng": "You have already accepted this quest.",
 					"trans": "이미 이 퀘스트를 수락했습니다."
 				},
+				"alreadyCompleted": {
+					"eng": "You have already completed this contract for this week",
+					"trans": "당신은 이미 이 주에 이 계약을 완료했습니다"
+				},
+				"insufficientItems": {
+					"eng": "Insufficient ${itemName} in inventory to complete quest",
+					"trans": "퀘스트를 완료하려면 인벤토리의 ${itemName}이 부족합니다"
+				},
 				"notCompleted": {
 					"eng": "Quest not completed",
 					"trans": "퀘스트 미완료"
@@ -9733,6 +9797,10 @@
 				"questNotOnCooldown": {
 					"eng": "Quest not on cooldown",
 					"trans": "퀘스트가 재사용 대기중이 아닙니다"
+				},
+				"storyNotExist": {
+					"eng": "Weekly quest is not available yet for this week",
+					"trans": "이번 주의 주간 퀘스트는 아직 이용할 수 없습니다"
 				}
 			}
 		},
@@ -11861,6 +11929,98 @@
 		"viewStories": {
 			"eng": "Stories",
 			"trans": "스토리"
+		}
+	},
+	"weeklyQuest": {
+		"dataCores": {
+			"eng": "Data Cores",
+			"trans": "데이터 코어들"
+		},
+		"progress": {
+			"eng": "Mission Progress",
+			"trans": "미션 진도"
+		}
+	},
+	"weeklyQuestList": {
+		"accepted": {
+			"eng": "Accepted",
+			"trans": "수락됨"
+		},
+		"canSubmit": {
+			"eng": "awaiting submission",
+			"trans": "제출 대기 중"
+		},
+		"completed": {
+			"eng": "Completed",
+			"trans": "완료"
+		},
+		"noQuests": {
+			"eng": "New intelligence contracts will be available soon",
+			"trans": "새로운 지능 계약이 곧 이용 가능할 것입니다"
+		},
+		"notAccepted": {
+			"eng": "Available",
+			"trans": "가용"
+		},
+		"tip": {
+			"explanation": {
+				"eng": "Intelligence contracts are intelligence missions that reset every week base on Arclight City's dynamic geopolitical situation. You can collect ${itemName} from Hideout Raids",
+				"trans": "지능 계약들은 아크라이트 시티의 동적인 지리정치적 상황에 기반하여 매주 재설정되는 지능 미션입니다 히든아웃 레이드에서 ${itemName}을 획득할 수 있습니다"
+			}
+		},
+		"title": {
+			"eng": "Intelligence Contracts",
+			"trans": "지능 계약들"
+		}
+	},
+	"weeklyQuestPreview": {
+		"acceptContract": {
+			"eng": "Accept Contract",
+			"trans": "계약 수락"
+		},
+		"briefing": {
+			"eng": "Mission Briefing",
+			"trans": "미션 브리핑"
+		},
+		"contractAccepted": {
+			"eng": "Contract Accepted",
+			"trans": "계약 수락됨"
+		},
+		"contractCompleted": {
+			"eng": "Contract Completed",
+			"trans": "계약 완료"
+		},
+		"contractDetails": {
+			"eng": "Contract Details",
+			"trans": "계약 상세"
+		},
+		"daysRemaining": {
+			"eng": "${time} remaining",
+			"trans": "${time} 남음"
+		},
+		"submitContract": {
+			"eng": "Submit Contract",
+			"trans": "계약 제출"
+		}
+	},
+	"weeklyQuestTier": {
+		"blackOps": {
+			"name": {
+				"eng": "Black Ops Contract",
+				"trans": "블랙 오프스 컨트랙트"
+			}
+		},
+		"priority": {
+			"name": {
+				"eng": "Priority Contract",
+				"trans": "우선순위 계약"
+			}
+		},
+		"standard": {
+			"name": {
+				"eng": "Standard Contract",
+				"trans": "표준 계약"
+			}
 		}
 	},
 	"wikiPage": {
