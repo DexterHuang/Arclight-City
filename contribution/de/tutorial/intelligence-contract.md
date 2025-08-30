@@ -29,3 +29,4 @@ Geheimdienst-Verträge haben **Fristen**. Wenn Sie einen Vertrag annehmen, haben
 - **Beginnen Sie mit Standard**: Wenn Sie neu bei Geheimdienst-Verträgen sind, beginnen Sie mit der kostenlosen Standard-Stufe, um sich mit der Mechanik vertraut zu machen
 - **Planen Sie Ihre Woche**: Da Verträge wöchentlich zurückgesetzt werden, planen Sie Ihre Data Core-Sammlung früh in der Woche
 - **Bevorraten Sie sich mit Locators**: Halten Sie Hideout Locators in Ihrem Inventar bereit, um sicherzustellen, dass Sie immer Überfälle durchführen können, wenn sie benötigt werden
+

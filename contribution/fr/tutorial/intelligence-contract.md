@@ -29,3 +29,4 @@ Les Contrats de Renseignement ont des **échéances**. Lorsque vous acceptez un 
 - **Commencez avec Standard** : Si vous êtes nouveau aux Contrats de Renseignement, commencez avec le niveau Standard gratuit pour vous familiariser avec la mécanique
 - **Planifiez votre semaine** : Comme les contrats se réinitialisent hebdomadairement, planifiez votre collecte de Data Cores tôt dans la semaine
 - **Stockez des Locators** : Gardez des Hideout Locators dans votre inventaire pour vous assurer que vous pouvez toujours effectuer des raids quand vous en avez besoin
+

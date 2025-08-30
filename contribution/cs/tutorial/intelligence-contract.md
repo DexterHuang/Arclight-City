@@ -29,3 +29,4 @@ Zpravodajské kontrakty mají **lhůty**. Když přijmete kontrakt, máte **7 dn
 - **Začněte se Standard**: Pokud jste v Zpravodajských kontraktech noví, začněte s bezplatnou Standard úrovní, abyste se seznámili s mechanikou
 - **Plánujte si týden**: Protože se kontrakty resetují týdně, naplánujte si sběr Data Cores na začátek týdne
 - **Zásobte se Locatory**: Udržujte Hideout Locatory ve svém inventáři, abyste mohli vždy provádět nájezdy, když je potřebujete
+

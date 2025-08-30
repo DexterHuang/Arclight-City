@@ -29,3 +29,4 @@ Los Contratos de Inteligencia tienen **fechas límite**. Cuando aceptas un contr
 - **Comienza con Standard**: Si eres nuevo en los Contratos de Inteligencia, comienza con el nivel Standard gratuito para familiarizarte con la mecánica
 - **Planifica tu semana**: Como los contratos se reinician semanalmente, planifica la recolección de Data Cores temprano en la semana
 - **Abastécete de Locators**: Mantén Hideout Locators en tu inventario para asegurar que siempre puedas realizar incursiones cuando las necesites
+

@@ -29,3 +29,4 @@ Kontrak Intelijen memiliki **batas waktu**. Ketika Anda menerima kontrak, Anda m
 - **Mulai dengan Standard**: Jika Anda baru dalam Kontrak Intelijen, mulailah dengan tingkat Standard gratis untuk membiasakan diri dengan mekanisme
 - **Rencanakan minggu Anda**: Karena kontrak direset mingguan, rencanakan pengumpulan Data Core lebih awal dalam minggu
 - **Stok Locator**: Simpan Hideout Locator di inventori Anda untuk memastikan Anda selalu dapat melakukan serangan ketika diperlukan
+

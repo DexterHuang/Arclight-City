@@ -29,3 +29,4 @@ Contratos de Inteligência têm **prazos**. Quando você aceita um contrato, tem
 - **Comece com Standard**: Se você é novo em Contratos de Inteligência, comece com o nível Standard gratuito para se familiarizar com a mecânica
 - **Planeje sua semana**: Como os contratos resetam semanalmente, planeje sua coleta de Data Core no início da semana
 - **Estoque Locators**: Mantenha Hideout Locators no seu inventário para garantir que sempre possa realizar incursões quando necessário
+
