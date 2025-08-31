@@ -7,6 +7,21 @@
 **If you find an exploit, please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
 
+### 0.0.87
+
+-  **Added Intelligence Contracts**: New weekly mission system providing challenging objectives with substantial rewards
+   -  Intelligence Contracts reset every **Monday**, offering fresh scenarios and story-driven content each week
+   -  All contracts require collecting **Data Cores**, which can be obtained through **Hideout Raids**
+   -  Multiple contract tiers available with varying difficulty and rewards
+   -  **7-day deadline system**: Once accepted, you have 7 days to complete your contract regardless of when you accept it during the week
+   -  Failed contracts are automatically removed from your quest list after the deadline expires
+   -  Access Intelligence Contracts through the main menu - start with the free Standard tier if you're new to the system
+   -  For detailed information on how Intelligence Contracts work, please read the comprehensive tutorial in **CyberWiki**
+   -  Tip: Keep Hideout Locators in your inventory to ensure you can always perform raids when needed
+
+-  Fixed issue with gang notice sending multiple notifications to devices
+-  Fixed issue with wanted board not displaying player names correctly
+
 ### 0.0.86
 
 -  Added gang notice, gang leaders can now post notice to the gang chat, it will show up as a banner, the banner will expire after 3 days, phone notification will only be sent every 6 hours and each notice post will cost 1000 eurodollars, this is to prevent abuse spam of the system and cause other player to receive too many notifications
