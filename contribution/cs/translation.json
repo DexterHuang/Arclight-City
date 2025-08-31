@@ -2792,7 +2792,7 @@
 		},
 		"notEnoughResources": {
 			"eng": "You do not have enough resources, you may try ${difficulty} instead, ${error}",
-			"trans": "Nemáš dostatek prostředků, můžete místo toho zkusit ${difficulty}, ${error}"
+			"trans": "Nemáš dostatek prostředků, můžeš místo toho zkusit ${difficulty}, ${error}"
 		}
 	},
 	"dungeonUI": {
@@ -2821,25 +2821,25 @@
 			},
 			"message": {
 				"eng": "Seems like your are running low on healing items such as ${item1} or ${item2}\\nIt's recommended to purchase some from ${npc} before entering strongholds",
-				"trans": "Zdá se, že vám chybí léčivé předměty jako ${item1} nebo ${item2}. Doporučujeme si je zakoupit u ${npc} před vstupem do pevností."
+				"trans": "Zdá se, že máš málo léčivých předmětů jako ${item1} nebo ${item2}.\\nDoporučujeme si je před vstupem do pevností zakoupit u ${npc}."
 			},
 			"purchase": {
 				"eng": "purchase",
-				"trans": "Koupit"
+				"trans": "koupit"
 			},
 			"title": {
 				"eng": "low healing items",
-				"trans": "Nízké uzdravovací předměty"
+				"trans": "málo léčivých předmětů"
 			}
 		},
 		"leaveDungeonModal": {
 			"description": {
 				"eng": "Are you sure you want to leave the dungeon?\\nItems you collected will be moved to your inventory safely.",
-				"trans": "Opravdu chcete opustit jeskyni? Všechna nasbíraná předměty budou bezpečně přenesena do vašeho inventáře."
+				"trans": "Vážně chceš odejít z pevnosti?\\nVeškeré nasbírané předměty budou bezpečně přeneseny do tvého inventáře."
 			},
 			"title": {
 				"eng": "quit Dungeon",
-				"trans": "Opustit dungeon"
+				"trans": "Opustit pevnost"
 			}
 		}
 	},
@@ -2853,25 +2853,25 @@
 		"cybernetic": {
 			"name": {
 				"eng": "Cybernetic",
-				"trans": "Kybernetika"
+				"trans": "Kybernetické"
 			}
 		},
 		"electric": {
 			"name": {
 				"eng": "Energy",
-				"trans": "Energie"
+				"trans": "Energetické"
 			}
 		},
 		"kinetic": {
 			"name": {
 				"eng": "Kinetic",
-				"trans": "Kinetický"
+				"trans": "Kinetické"
 			}
 		},
 		"physical": {
 			"name": {
 				"eng": "Physical",
-				"trans": "Fyzický"
+				"trans": "Fyzické"
 			}
 		}
 	},
@@ -2891,7 +2891,7 @@
 		"fire": {
 			"displayName": {
 				"eng": "Fire",
-				"trans": "Střílet"
+				"trans": "Oheň"
 			}
 		},
 		"heart": {
@@ -2921,7 +2921,7 @@
 		"worship": {
 			"displayName": {
 				"eng": "worship",
-				"trans": "kult"
+				"trans": "uctívání"
 			}
 		},
 		"wow": {
@@ -2934,7 +2934,7 @@
 	"enemyEvent": {
 		"description": {
 			"eng": "This event triggers rarely when you are exploring and fighting enemies",
-			"trans": "Událost se aktivuje jen zřídka při průzkumu a boji s nepřáteli."
+			"trans": "Tato událost se spouští výjimečně, když prozkoumáváš okolí a bojuješ s nepřáteli."
 		},
 		"startMinigame": {
 			"eng": "Unlock",
@@ -2942,15 +2942,15 @@
 		},
 		"title": {
 			"eng": "Encounter Event",
-			"trans": "Událost setkání"
+			"trans": "Náhodné setkání"
 		},
 		"unlockDescription": {
 			"eng": "Receive reward by solving the minigame",
-			"trans": "Získat odměnu vyřešením minihry"
+			"trans": "Vyřeš minihru a získej odměnu"
 		},
 		"unlockTitle": {
 			"eng": "unlock",
-			"trans": "Odemknout"
+			"trans": "odemknout"
 		}
 	},
 	"enemyTabContent": {
@@ -2960,7 +2960,7 @@
 		},
 		"attack": {
 			"eng": "Attack",
-			"trans": "Útok"
+			"trans": "Zaútočit"
 		},
 		"enemiesList": {
 			"eng": "Enemies List",
@@ -2979,7 +2979,7 @@
 		"damage": {
 			"desc": {
 				"eng": "Has higher damage than normal enemies",
-				"trans": "Poškozuje více než běžní nepřátelé."
+				"trans": "Působí vyšší poškození než běžní nepřátelé."
 			},
 			"name": {
 				"eng": "Strong",
@@ -2989,11 +2989,11 @@
 		"health": {
 			"desc": {
 				"eng": "Has higher health than normal enemies",
-				"trans": "Má vyšší zdraví než běžní nepřátelé."
+				"trans": "Má více zdraví než běžní nepřátelé."
 			},
 			"name": {
 				"eng": "Tough",
-				"trans": "odolný"
+				"trans": "Odolný"
 			}
 		}
 	},
@@ -3013,7 +3013,7 @@
 		"IMPLANT_1": {
 			"name": {
 				"eng": "Implant 1",
-				"trans": "Implant 1"
+				"trans": "Implantát 1"
 			}
 		},
 		"IMPLANT_2": {
@@ -3043,7 +3043,7 @@
 		"RING_2": {
 			"name": {
 				"eng": "Ring (Right)",
-				"trans": "Prsten (vpravo)"
+				"trans": "Prsten (pravý)"
 			}
 		},
 		"UPPER_ARMOR": {
@@ -3062,11 +3062,11 @@
 	"equipmentTip": {
 		"1": {
 			"eng": "To ensure the best survivability and damage, equip the best equipment you have. you can also purchase equipments from ${npc} cheaply",
-			"trans": "Pro maximální přežití a poškození si vybav nejlepší vybavení, které máš. Od ${npc} můžeš také levně zakoupit další vybavení."
+			"trans": "Chceš-li mít co nejvyšší šanci na přežití, a působit co nejvyšší poškození, pořiď si nejlepší výstroj, jaká je k dispozici. Vybavení lze rovněž levně zakoupit u ${npc}."
 		},
 		"3": {
 			"eng": "Seems like some of your equipments are still at ${tierType} tier or lower. You should upgrade them to at least ${targetTier} tier by using ${upgradeItem} at the item upgrade interface",
-			"trans": "Zdá se, že některé z vašich vybavení jsou stále na úrovni ${tierType} nebo nižší. Měli byste je vylepšit alespoň na úroveň ${targetTier}, pomocí ${upgradeItem} v rozhraní pro upgrade položek."
+			"trans": "Zdá se, že některá část tvé výstroje je stále na úrovni ${tierType} nebo nižší. Vylepši ji alespoň na úroveň ${targetTier}, pomocí ${upgradeItem} v rozhraní pro vylepšování předmětů."
 		},
 		"title": {
 			"eng": "Equipment Recommendation",
@@ -3126,7 +3126,7 @@
 	"errorBoundary": {
 		"description1": {
 			"eng": "Error report has been sent to the developer. \\nIf this error persists, please contact the developer",
-			"trans": "Chybová zpráva byla odeslána vývojáři. Pokud se chyba opakuje, kontaktujte prosím vývojáře."
+			"trans": "Hlášení o chybě bylo odesláno vývojáři. \\nPokud se chyba opakuje, kontaktuj prosím vývojáře."
 		},
 		"restart": {
 			"eng": "Restart",
@@ -3134,16 +3134,16 @@
 		},
 		"title": {
 			"eng": "Opps, something went wrong!",
-			"trans": "Ups, něco se pokazilo!"
+			"trans": "Hups, něco se pokazilo!"
 		},
 		"update": {
 			"description": {
 				"eng": "A update has been installed, please restart the game. \\nIf this page persists, please contact the developer at ${email}",
-				"trans": "tags.<translation>\nAktualizace byla nainstalována, prosím restartujte hru. Pokud se stránka zobrazuje i nadále, kontaktujte vývojáře na ${email}."
+				"trans": "Byla nainstalována aktualizace, restartuj prosím hru. \\nPokud se tato stránka stále zobrazuje, kontaktuj prosím vývojáře na ${email}."
 			},
 			"title": {
 				"eng": "Update Received",
-				"trans": "Aktualizace přijata"
+				"trans": "Nová aktualizace"
 			}
 		}
 	},
@@ -3154,35 +3154,35 @@
 		},
 		"dialog1": {
 			"eng": "Complete the survey to earn rewards! 😊 I would love to hear your feedback!",
-			"trans": "Dokončete průzkum a získejte odměny! Rádi bychom slyšeli vaši zpětnou vazbu!"
+			"trans": "Dokonči průzkum a získej odměnu! 😊 Budu rád za tvou zpětnou vazbu!"
 		},
 		"dialog2": {
 			"eng": "Sorry about the bad experience 😢 I would love to hear your feedback!🙏",
-			"trans": "tags.<translation>\nOmlouvám se za špatný zážitek. Rád bych slyšel váš názor!"
+			"trans": "Mrzí mě tvá špatná zkušenost 😢 Rád bych znal tvou zpětnou vazbu!🙏"
 		},
 		"dialog3": {
 			"eng": "Thank you! if you could rate on the app store, it would help me a lot! 🙏",
-			"trans": "Děkuji! Pokud byste mohli zanechat hodnocení v obchodě s aplikacemi, velmi mi to pomůže."
+			"trans": "Děkuji! Jestli budeš moci aplikaci ohodnotit v obchodě s aplikacemi, velmi mi to pomůže! 🙏"
 		},
 		"dialog4": {
 			"eng": "Thank you for your feedback! 🙏",
-			"trans": "Děkujeme za vaši zpětnou vazbu!"
+			"trans": "Děkuji za tvou zpětnou vazbu! 🙏"
 		},
 		"lowStarComment": {
 			"eng": "How can I improve to earn 5 stars?",
-			"trans": "Jak se mohu zlepšit a získat 5 hvězdiček?"
+			"trans": "Jak můžu hru vylepšit a získat 5 hvězdiček?"
 		},
 		"lowStarCommentHint": {
 			"eng": "What you write here will be sent directly to me :)",
-			"trans": "Co sem napíšete, bude mi přímo odesláno."
+			"trans": "Cokoli sem napíšeš, mi dojde přímo."
 		},
 		"question1": {
 			"eng": "What do you think about the design of the game interface?",
-			"trans": "Co si myslíte o návrhu herního rozhraní?"
+			"trans": "Co si myslíš o návrhu herního rozhraní?"
 		},
 		"question2": {
 			"eng": "Do you like to receive free rewards?",
-			"trans": "Chcete dostávat zdarma odměny?"
+			"trans": "Chceš dostávat odměny zdarma?"
 		},
 		"rewardSubtitle": {
 			"eng": "Rewards",
@@ -3190,11 +3190,11 @@
 		},
 		"stars": {
 			"eng": "How many stars would you give this game?",
-			"trans": "Kolik hvězdiček byste této hře udělili?"
+			"trans": "Kolik si myslíš, že si tahle hra zaslouží hvězdiček?"
 		},
 		"statement": {
 			"eng": "No matter whats your answer, you will always get the reward 💯",
-			"trans": "Nezáleží na tom, jakou odpověď dáte, vždy dostanete odměnu."
+			"trans": "Nezáleží na tom, co odpovíš, odměnu dostaneš vždycky 💯"
 		},
 		"submit1": {
 			"eng": "Submit",
@@ -3202,7 +3202,7 @@
 		},
 		"submit2": {
 			"eng": "Rate and Claim Reward",
-			"trans": "Ohodnoť a odeber odměnu"
+			"trans": "Ohodnotit a získat odměnu"
 		},
 		"submit3": {
 			"eng": "Submit",
