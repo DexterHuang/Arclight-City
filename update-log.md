@@ -7,6 +7,10 @@
 **If you find an exploit, please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
 
+### 0.0.88
+
+-  `Data Core` is now tradable in black markert (This MAY BE changed in the future based on feedback and observation)
+
 ### 0.0.87
 
 -  **Added Intelligence Contracts**: New weekly mission system providing challenging objectives with substantial rewards
