@@ -8166,8 +8166,16 @@
 		},
 		"pachinko": {
 			"flashSaleShop": {
-				"eng": "Browse Flash Sale Items",
-				"trans": "フラッシュセール商品を閲覧"
+				"banner": {
+					"eng": "Flash Sale",
+					"trans": "瞬発セール"
+				},
+				"eng": "Browse ${npcName}'s secret stash",
+				"error": {
+					"eng": "You don't have any ${itemName}",
+					"trans": "${itemName}を所持していません"
+				},
+				"trans": "${npcName}の隠し品をチェック"
 			},
 			"greetings": {
 				"eng": [
@@ -10152,7 +10160,7 @@
 		},
 		"notEnoughMoney": {
 			"eng": "You don't have enough ${currency} to purchase this item",
-			"trans": "${item}が不足しているため、このアイテムを購入できません"
+			"trans": "このアイテムを購入するには${currency}が不足しています"
 		},
 		"purchased": {
 			"eng": "You have purchased ${amount} ${item}",

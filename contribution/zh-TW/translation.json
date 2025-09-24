@@ -8166,8 +8166,16 @@
 		},
 		"pachinko": {
 			"flashSaleShop": {
-				"eng": "Browse Flash Sale Items",
-				"trans": "瀏覽閃賣商品"
+				"banner": {
+					"eng": "Flash Sale",
+					"trans": "限時特賣"
+				},
+				"eng": "Browse ${npcName}'s secret stash",
+				"error": {
+					"eng": "You don't have any ${itemName}",
+					"trans": "你沒有任何 ${itemName}"
+				},
+				"trans": "檢視${npcName}的秘密收藏"
 			},
 			"greetings": {
 				"eng": [

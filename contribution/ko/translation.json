@@ -8166,8 +8166,16 @@
 		},
 		"pachinko": {
 			"flashSaleShop": {
-				"eng": "Browse Flash Sale Items",
-				"trans": "플래시 세일 아이템 확인"
+				"banner": {
+					"eng": "Flash Sale",
+					"trans": "플래시 세일"
+				},
+				"eng": "Browse ${npcName}'s secret stash",
+				"error": {
+					"eng": "You don't have any ${itemName}",
+					"trans": "${itemName}이 없습니다."
+				},
+				"trans": "${npcName}의 비밀 저장소 확인"
 			},
 			"greetings": {
 				"eng": [
@@ -10152,7 +10160,7 @@
 		},
 		"notEnoughMoney": {
 			"eng": "You don't have enough ${currency} to purchase this item",
-			"trans": "${item}이(가) 부족해 구매할 수 없습니다."
+			"trans": "아이템을 사기 위해 ${currency}가 모자랍니다."
 		},
 		"purchased": {
 			"eng": "You have purchased ${amount} ${item}",

@@ -8166,8 +8166,16 @@
 		},
 		"pachinko": {
 			"flashSaleShop": {
-				"eng": "Browse Flash Sale Items",
-				"trans": "Prohlížet si položky bleskového prodeje"
+				"banner": {
+					"eng": "Flash Sale",
+					"trans": "Blitz akce"
+				},
+				"eng": "Browse ${npcName}'s secret stash",
+				"error": {
+					"eng": "You don't have any ${itemName}",
+					"trans": "Nemáte žádný ${itemName}"
+				},
+				"trans": "Prohledat ${npcName}ho tajný sklad"
 			},
 			"greetings": {
 				"eng": [
@@ -10152,7 +10160,7 @@
 		},
 		"notEnoughMoney": {
 			"eng": "You don't have enough ${currency} to purchase this item",
-			"trans": "Nedostatečný počet ${item} pro nákup tohoto předmětu."
+			"trans": "Nemáte dostatečný počet ${currency} na nákup tohoto předmětu."
 		},
 		"purchased": {
 			"eng": "You have purchased ${amount} ${item}",

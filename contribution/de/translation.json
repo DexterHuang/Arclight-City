@@ -8166,8 +8166,16 @@
 		},
 		"pachinko": {
 			"flashSaleShop": {
-				"eng": "Browse Flash Sale Items",
-				"trans": "Flash-Sale-Artikel durchstöbern"
+				"banner": {
+					"eng": "Flash Sale",
+					"trans": "Blitzangebot"
+				},
+				"eng": "Browse ${npcName}'s secret stash",
+				"error": {
+					"eng": "You don't have any ${itemName}",
+					"trans": "Du hast kein ${itemName}."
+				},
+				"trans": "Durchsuche ${npcName}'s geheimes Versteck"
 			},
 			"greetings": {
 				"eng": [
@@ -10152,7 +10160,7 @@
 		},
 		"notEnoughMoney": {
 			"eng": "You don't have enough ${currency} to purchase this item",
-			"trans": "Nicht genügend ${item} für den Kauf dieses Artikels"
+			"trans": "Ihnen fehlt ${currency} für den Kauf dieses Artikels."
 		},
 		"purchased": {
 			"eng": "You have purchased ${amount} ${item}",

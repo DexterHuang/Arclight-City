@@ -8166,8 +8166,16 @@
 		},
 		"pachinko": {
 			"flashSaleShop": {
-				"eng": "Browse Flash Sale Items",
-				"trans": "Jelajahi Barang Promo Kilat"
+				"banner": {
+					"eng": "Flash Sale",
+					"trans": "Flash Sale"
+				},
+				"eng": "Browse ${npcName}'s secret stash",
+				"error": {
+					"eng": "You don't have any ${itemName}",
+					"trans": "Anda tidak punya ${itemName}."
+				},
+				"trans": "Cek stash rahasia ${npcName}"
 			},
 			"greetings": {
 				"eng": [
@@ -10152,7 +10160,7 @@
 		},
 		"notEnoughMoney": {
 			"eng": "You don't have enough ${currency} to purchase this item",
-			"trans": "Stok ${item}mu tidak cukup buat beli barang ini."
+			"trans": "Anda tidak punya ${currency} yang cukup untuk beli barang ini."
 		},
 		"purchased": {
 			"eng": "You have purchased ${amount} ${item}",
