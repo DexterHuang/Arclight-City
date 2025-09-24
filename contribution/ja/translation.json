@@ -4106,6 +4106,16 @@
 			"eng": "destroyed",
 			"trans": "破損中"
 		},
+		"expireTime": {
+			"description": {
+				"eng": "This item will expire at ${date} (${timeToExpire})",
+				"trans": "このアイテムは${date} (${timeToExpire})まで有効です"
+			},
+			"title": {
+				"eng": "Expire Time: ${time}",
+				"trans": "有効期限: ${time}"
+			}
+		},
 		"notTradable": {
 			"eng": "Not tradable",
 			"trans": "交換不可"
@@ -4159,12 +4169,12 @@
 			"trans": "ロックされたアイテムは捨てられません。"
 		},
 		"cantDismantleEquipped": {
-			"eng": "You can\\'t dismantle equipped items",
-			"trans": "装備されたアイテムは解体できません。"
+			"eng": "You can't dismantle equipped items",
+			"trans": "装備中のアイテムは解体できません"
 		},
 		"cantDismantleLocked": {
-			"eng": "You can\\'t dismantle locked items",
-			"trans": "ロックされたアイテムは解体できません。"
+			"eng": "You can't dismantle locked items",
+			"trans": "ロックされているアイテムは解体できません"
 		},
 		"diff": {
 			"header1": {
@@ -4216,6 +4226,12 @@
 			"eng": "Move To Inventory",
 			"trans": "インベントリに移動"
 		},
+		"saleCreditChip": {
+			"useAction": {
+				"eng": "Trade with ${npcName}",
+				"trans": "${npcName}と取引する"
+			}
+		},
 		"unequip": {
 			"eng": "Unequip",
 			"trans": "装備解除"
@@ -4237,6 +4253,12 @@
 		"noChanges": {
 			"eng": "No changes",
 			"trans": "確率はゼロ"
+		}
+	},
+	"itemDisplay": {
+		"expire": {
+			"eng": "Expires ${duration}",
+			"trans": "有効期限 ${duration}"
 		}
 	},
 	"itemInbox": {
@@ -5352,6 +5374,16 @@
 				"trans": "リング"
 			}
 		},
+		"saleCreditChip": {
+			"description": {
+				"eng": "A special credit chip that provides discounts on sale items. Expires in ${days} days.\\nThis can be traded with Pachinko Guy",
+				"trans": "特殊クレジットチップ。販売アイテムに割引が適用されます。${days}日間有効です。パチンコ屋の guy と取引可能。"
+			},
+			"name": {
+				"eng": "Sale Credit Chip",
+				"trans": "セールクレジットチップ"
+			}
+		},
 		"sate": {
 			"description": {
 				"eng": "A traditional Indonesian dish made from skewered meat and rice.",
@@ -6085,6 +6117,86 @@
 				"eng": "You won!",
 				"trans": "勝利！"
 			}
+		}
+	},
+	"luckyDraw": {
+		"betterLuck": {
+			"eng": "BETTER LUCK NEXT TIME",
+			"trans": "次は運が味方するよ"
+		},
+		"drawLost": {
+			"eng": "TRY AGAIN LATER",
+			"trans": "少し待ってからまたお試しください"
+		},
+		"drawWon": {
+			"eng": "SUCCESS!",
+			"trans": "成功しました！"
+		},
+		"expired": {
+			"eng": "EXPIRED",
+			"trans": "期限切れ"
+		},
+		"expiresLabel": {
+			"eng": "EXPIRES: ",
+			"trans": "期限"
+		},
+		"flashSale": {
+			"description": {
+				"eng": "Win exclusive flash sale discounts!",
+				"trans": "エクスクルーシブ フラッシュセールの割引！"
+			},
+			"title": {
+				"eng": "Flash Sale Lucky Draw",
+				"trans": "フラッシュセール ラッキードロー"
+			}
+		},
+		"idle": {
+			"eng": "IDLE",
+			"trans": "アイドル状態"
+		},
+		"invalidType": {
+			"eng": "Invalid lucky draw type",
+			"trans": "ガチャの種類が無効です"
+		},
+		"itemsReceived": {
+			"eng": "ITEMS RECEIVED:",
+			"trans": "入手したアイテム"
+		},
+		"noRewards": {
+			"eng": "NO REWARDS THIS TIME",
+			"trans": "今回は報酬がありません"
+		},
+		"notEligible": {
+			"eng": "You are not eligible for this lucky draw",
+			"trans": "この抽選に参加できません"
+		},
+		"onCooldown": {
+			"eng": "This lucky draw is on cooldown. Try again later!",
+			"trans": "このガチャはクールダウン中です。後でまた試してください。"
+		},
+		"processing": {
+			"eng": "Processing...",
+			"trans": "処理中..."
+		},
+		"rewardUnlocked": {
+			"eng": "REWARD UNLOCKED!",
+			"trans": "REWARD UNLOCKED!"
+		},
+		"statusSuccess": {
+			"eng": "STATUS: SUCCESS",
+			"trans": "ステータス：成功"
+		},
+		"statusUnsuccessful": {
+			"eng": "STATUS: UNSUCCESSFUL",
+			"trans": "ステータス：失敗"
+		},
+		"swipeToUnlock": {
+			"eng": "Swipe to initiate lucky draw",
+			"trans": "スワイプでラッキードローを開始"
+		},
+		"transactionComplete": {
+			"eng": "TRANSACTION COMPLETE",
+			"trans": "処理完了"
 		}
 	},
 	"mail": {
@@ -7659,9 +7771,13 @@
 				"eng": "Chloe",
 				"trans": "クロエ"
 			},
-			"pachinkoButton": {
+			"pachinkoButton2": {
+				"eng": "Play Pachinko",
+				"trans": "パチンコをプレイする"
+			},
+			"pachinkoGuy": {
 				"eng": "Talk to pachinko guy in the corner",
-				"trans": "隅にいるパチンコ屋に話しかける"
+				"trans": "角のパチンコ屋と話せ"
 			},
 			"questCooldownLines": {
 				"eng": [
@@ -8049,6 +8165,10 @@
 			"trans": "新しいクルーメンバーを探しています。"
 		},
 		"pachinko": {
+			"flashSaleShop": {
+				"eng": "Browse Flash Sale Items",
+				"trans": "フラッシュセール商品を閲覧"
+			},
 			"greetings": {
 				"eng": [
 					"Don't ask me how do I drink with this mask on, I just do.",
@@ -8066,6 +8186,10 @@
 			"npcName": {
 				"eng": "Pachinko Devotee",
 				"trans": "パチンコ愛好家"
+			},
+			"shopName": {
+				"eng": "Pachinko's secret stash",
+				"trans": "パチンコの秘密のアジト"
 			}
 		},
 		"premiumShop": {
@@ -10023,12 +10147,12 @@
 			"trans": "インベントリはこのアイテムをもう持てません。"
 		},
 		"notEnoughItem": {
-			"eng": "You don\\'t have enough ${item} to purchase this item",
-			"trans": "このアイテムを購入するには十分な${item}がありません"
+			"eng": "You don't have enough ${item} to purchase this item",
+			"trans": "${item}が不足しているため、このアイテムを購入できません"
 		},
 		"notEnoughMoney": {
-			"eng": "You don\\'t have enough ${currency} to purchase this item",
-			"trans": "このアイテムを購入するには十分な${currency}がありません"
+			"eng": "You don't have enough ${currency} to purchase this item",
+			"trans": "${item}が不足しているため、このアイテムを購入できません"
 		},
 		"purchased": {
 			"eng": "You have purchased ${amount} ${item}",

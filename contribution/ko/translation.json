@@ -4106,6 +4106,16 @@
 			"eng": "destroyed",
 			"trans": "파괴됨"
 		},
+		"expireTime": {
+			"description": {
+				"eng": "This item will expire at ${date} (${timeToExpire})",
+				"trans": "이 아이템은 ${date} (${timeToExpire})에 만료됩니다"
+			},
+			"title": {
+				"eng": "Expire Time: ${time}",
+				"trans": "만료 시간: ${time}"
+			}
+		},
 		"notTradable": {
 			"eng": "Not tradable",
 			"trans": "거래 불가"
@@ -4159,11 +4169,11 @@
 			"trans": "잠금된 아이템은 버릴 수 없습니다"
 		},
 		"cantDismantleEquipped": {
-			"eng": "You can\\'t dismantle equipped items",
-			"trans": "장착한 아이템은 분해할 수 없습니다"
+			"eng": "You can't dismantle equipped items",
+			"trans": "장착된 아이템은 분해할 수 없습니다."
 		},
 		"cantDismantleLocked": {
-			"eng": "You can\\'t dismantle locked items",
+			"eng": "You can't dismantle locked items",
 			"trans": "잠긴 아이템은 분해할 수 없습니다"
 		},
 		"diff": {
@@ -4216,6 +4226,12 @@
 			"eng": "Move To Inventory",
 			"trans": "인벤토리로 이동"
 		},
+		"saleCreditChip": {
+			"useAction": {
+				"eng": "Trade with ${npcName}",
+				"trans": "${npcName}님과(와) 거래하기"
+			}
+		},
 		"unequip": {
 			"eng": "Unequip",
 			"trans": "장착 해제"
@@ -4237,6 +4253,12 @@
 		"noChanges": {
 			"eng": "No changes",
 			"trans": "변경 사항 없음"
+		}
+	},
+	"itemDisplay": {
+		"expire": {
+			"eng": "Expires ${duration}",
+			"trans": "유효기간 ${duration}"
 		}
 	},
 	"itemInbox": {
@@ -5352,6 +5374,16 @@
 				"trans": "반지"
 			}
 		},
+		"saleCreditChip": {
+			"description": {
+				"eng": "A special credit chip that provides discounts on sale items. Expires in ${days} days.\\nThis can be traded with Pachinko Guy",
+				"trans": "할인된 아이템에 적용되는 특별한 크레딧 칩. ${days}일 후 만료됩니다. 이 것은 핀볼 아저씨와 교환 가능합니다."
+			},
+			"name": {
+				"eng": "Sale Credit Chip",
+				"trans": "판매 크레딧 칩"
+			}
+		},
 		"sate": {
 			"description": {
 				"eng": "A traditional Indonesian dish made from skewered meat and rice.",
@@ -6085,6 +6117,86 @@
 				"eng": "You won!",
 				"trans": "이겼다!"
 			}
+		}
+	},
+	"luckyDraw": {
+		"betterLuck": {
+			"eng": "BETTER LUCK NEXT TIME",
+			"trans": "다음에 luck이 있을 거예요"
+		},
+		"drawLost": {
+			"eng": "TRY AGAIN LATER",
+			"trans": "조금 후에 다시 시도해 주세요"
+		},
+		"drawWon": {
+			"eng": "SUCCESS!",
+			"trans": "성공!"
+		},
+		"expired": {
+			"eng": "EXPIRED",
+			"trans": "만료"
+		},
+		"expiresLabel": {
+			"eng": "EXPIRES: ",
+			"trans": "만료:"
+		},
+		"flashSale": {
+			"description": {
+				"eng": "Win exclusive flash sale discounts!",
+				"trans": "승리하고 전용 할인을 얻으세요!"
+			},
+			"title": {
+				"eng": "Flash Sale Lucky Draw",
+				"trans": "플래시 세일 로또"
+			}
+		},
+		"idle": {
+			"eng": "IDLE",
+			"trans": "대기"
+		},
+		"invalidType": {
+			"eng": "Invalid lucky draw type",
+			"trans": "행운의 추첨 유형이 잘못되었습니다"
+		},
+		"itemsReceived": {
+			"eng": "ITEMS RECEIVED:",
+			"trans": "아이템 수령"
+		},
+		"noRewards": {
+			"eng": "NO REWARDS THIS TIME",
+			"trans": "이번엔 보상이 없습니다"
+		},
+		"notEligible": {
+			"eng": "You are not eligible for this lucky draw",
+			"trans": "이 행운의 추첨을 참여할 수 없습니다."
+		},
+		"onCooldown": {
+			"eng": "This lucky draw is on cooldown. Try again later!",
+			"trans": "행운의 드라우가 쿨타임 중입니다. 나중에 다시 시도해 보세요."
+		},
+		"processing": {
+			"eng": "Processing...",
+			"trans": "처리 중"
+		},
+		"rewardUnlocked": {
+			"eng": "REWARD UNLOCKED!",
+			"trans": "보상 해금!"
+		},
+		"statusSuccess": {
+			"eng": "STATUS: SUCCESS",
+			"trans": "STATUS: 성공"
+		},
+		"statusUnsuccessful": {
+			"eng": "STATUS: UNSUCCESSFUL",
+			"trans": "상태: 실패"
+		},
+		"swipeToUnlock": {
+			"eng": "Swipe to initiate lucky draw",
+			"trans": "스와이프로 추첨을 시작하세요"
+		},
+		"transactionComplete": {
+			"eng": "TRANSACTION COMPLETE",
+			"trans": "거래 완료"
 		}
 	},
 	"mail": {
@@ -7659,9 +7771,13 @@
 				"eng": "Chloe",
 				"trans": "클로이"
 			},
-			"pachinkoButton": {
+			"pachinkoButton2": {
+				"eng": "Play Pachinko",
+				"trans": "파친코"
+			},
+			"pachinkoGuy": {
 				"eng": "Talk to pachinko guy in the corner",
-				"trans": "모퉁이에 있는 파친코 아저씨와 얘기해 보세요"
+				"trans": "구석의 게임기 남자를 찾아 말하기"
 			},
 			"questCooldownLines": {
 				"eng": [
@@ -8049,6 +8165,10 @@
 			"trans": "새로운 크루 멤버를 찾고 있습니다"
 		},
 		"pachinko": {
+			"flashSaleShop": {
+				"eng": "Browse Flash Sale Items",
+				"trans": "플래시 세일 아이템 확인"
+			},
 			"greetings": {
 				"eng": [
 					"Don't ask me how do I drink with this mask on, I just do.",
@@ -8066,6 +8186,10 @@
 			"npcName": {
 				"eng": "Pachinko Devotee",
 				"trans": "파친코 중독자"
+			},
+			"shopName": {
+				"eng": "Pachinko's secret stash",
+				"trans": "파чин코의 은신처"
 			}
 		},
 		"premiumShop": {
@@ -10023,12 +10147,12 @@
 			"trans": "이 아이템을 더 이상 인벤토리에 넣을 수 없습니다"
 		},
 		"notEnoughItem": {
-			"eng": "You don\\'t have enough ${item} to purchase this item",
-			"trans": "이 아이템을 구매하기에 충분한 ${item}이(가) 없습니다"
+			"eng": "You don't have enough ${item} to purchase this item",
+			"trans": "${item}이(가) 부족해 구매할 수 없습니다."
 		},
 		"notEnoughMoney": {
-			"eng": "You don\\'t have enough ${currency} to purchase this item",
-			"trans": "이 아이템을 구매하기에 충분한 ${currency}가 없습니다"
+			"eng": "You don't have enough ${currency} to purchase this item",
+			"trans": "${item}이(가) 부족해 구매할 수 없습니다."
 		},
 		"purchased": {
 			"eng": "You have purchased ${amount} ${item}",

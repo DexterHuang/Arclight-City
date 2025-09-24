@@ -4106,6 +4106,16 @@
 			"eng": "destroyed",
 			"trans": "hancur"
 		},
+		"expireTime": {
+			"description": {
+				"eng": "This item will expire at ${date} (${timeToExpire})",
+				"trans": "Item ini akan habis pada ${date} (${timeToExpire})"
+			},
+			"title": {
+				"eng": "Expire Time: ${time}",
+				"trans": "Masa Berlaku: ${time}"
+			}
+		},
 		"notTradable": {
 			"eng": "Not tradable",
 			"trans": "Tidak dapat diperdagangkan"
@@ -4159,12 +4169,12 @@
 			"trans": "Kamu tidak bisa membuang item yang terkunci"
 		},
 		"cantDismantleEquipped": {
-			"eng": "You can\\'t dismantle equipped items",
-			"trans": "Item yang sedang dipakai tidak bisa dibongkar"
+			"eng": "You can't dismantle equipped items",
+			"trans": "Tidak bisa mematikan peralatan yang sedang dipakai"
 		},
 		"cantDismantleLocked": {
-			"eng": "You can\\'t dismantle locked items",
-			"trans": "Kamu tidak dapat mematikan item yang terkunci"
+			"eng": "You can't dismantle locked items",
+			"trans": "Barang terkunci tidak bisa dibongkar"
 		},
 		"diff": {
 			"header1": {
@@ -4216,6 +4226,12 @@
 			"eng": "Move To Inventory",
 			"trans": "Pindahkan ke Inventori"
 		},
+		"saleCreditChip": {
+			"useAction": {
+				"eng": "Trade with ${npcName}",
+				"trans": "Berjual-beli dengan ${npcName}"
+			}
+		},
 		"unequip": {
 			"eng": "Unequip",
 			"trans": "Lepas"
@@ -4237,6 +4253,12 @@
 		"noChanges": {
 			"eng": "No changes",
 			"trans": "Tidak ada perubahan"
+		}
+	},
+	"itemDisplay": {
+		"expire": {
+			"eng": "Expires ${duration}",
+			"trans": "Berlaku sampai ${duration}"
 		}
 	},
 	"itemInbox": {
@@ -5352,6 +5374,16 @@
 				"trans": "Cincin"
 			}
 		},
+		"saleCreditChip": {
+			"description": {
+				"eng": "A special credit chip that provides discounts on sale items. Expires in ${days} days.\\nThis can be traded with Pachinko Guy",
+				"trans": "Sebuah chip kredit istimewa yang memberikan diskon untuk barang promosi. Berlaku hingga ${days} hari. Bisa ditukar dengan Pachinko Guy."
+			},
+			"name": {
+				"eng": "Sale Credit Chip",
+				"trans": "Chip Kredit Dijual"
+			}
+		},
 		"sate": {
 			"description": {
 				"eng": "A traditional Indonesian dish made from skewered meat and rice.",
@@ -6085,6 +6117,86 @@
 				"eng": "You won!",
 				"trans": "Kamu menang!"
 			}
+		}
+	},
+	"luckyDraw": {
+		"betterLuck": {
+			"eng": "BETTER LUCK NEXT TIME",
+			"trans": "Semoga beruntung kali ini"
+		},
+		"drawLost": {
+			"eng": "TRY AGAIN LATER",
+			"trans": "Coba lagi nanti"
+		},
+		"drawWon": {
+			"eng": "SUCCESS!",
+			"trans": "SUKSES!"
+		},
+		"expired": {
+			"eng": "EXPIRED",
+			"trans": "Kedaluwarsa"
+		},
+		"expiresLabel": {
+			"eng": "EXPIRES: ",
+			"trans": "KADALUARSA:"
+		},
+		"flashSale": {
+			"description": {
+				"eng": "Win exclusive flash sale discounts!",
+				"trans": "Dapatkan diskon eksklusif flash sale!"
+			},
+			"title": {
+				"eng": "Flash Sale Lucky Draw",
+				"trans": "Penjualan Kilat Undian Beruntungan"
+			}
+		},
+		"idle": {
+			"eng": "IDLE",
+			"trans": "Tidak Aktif"
+		},
+		"invalidType": {
+			"eng": "Invalid lucky draw type",
+			"trans": "Tipe undian tidak sah"
+		},
+		"itemsReceived": {
+			"eng": "ITEMS RECEIVED:",
+			"trans": "BARANG TERIMA:"
+		},
+		"noRewards": {
+			"eng": "NO REWARDS THIS TIME",
+			"trans": "Tidak ada hadiah kali ini"
+		},
+		"notEligible": {
+			"eng": "You are not eligible for this lucky draw",
+			"trans": "Anda tidak memenuhi syarat undian"
+		},
+		"onCooldown": {
+			"eng": "This lucky draw is on cooldown. Try again later!",
+			"trans": "Undian ini masih dalam cooldown. Tunggu dulu ya, coba lagi nanti!"
+		},
+		"processing": {
+			"eng": "Processing...",
+			"trans": "Diproses..."
+		},
+		"rewardUnlocked": {
+			"eng": "REWARD UNLOCKED!",
+			"trans": "Hadiah Tersedia!"
+		},
+		"statusSuccess": {
+			"eng": "STATUS: SUCCESS",
+			"trans": "STATUS: BERHASIL"
+		},
+		"statusUnsuccessful": {
+			"eng": "STATUS: UNSUCCESSFUL",
+			"trans": "STATUS: GAGAL"
+		},
+		"swipeToUnlock": {
+			"eng": "Swipe to initiate lucky draw",
+			"trans": "Geser untuk mulai undian"
+		},
+		"transactionComplete": {
+			"eng": "TRANSACTION COMPLETE",
+			"trans": "Transaksi selesai"
 		}
 	},
 	"mail": {
@@ -7659,9 +7771,13 @@
 				"eng": "Chloe",
 				"trans": "Chloe"
 			},
-			"pachinkoButton": {
+			"pachinkoButton2": {
+				"eng": "Play Pachinko",
+				"trans": "Mainkan Pachinko"
+			},
+			"pachinkoGuy": {
 				"eng": "Talk to pachinko guy in the corner",
-				"trans": "Ngobrol sama si pria pachinko di pojokan"
+				"trans": "Hubungi si pachinko di pojok"
 			},
 			"questCooldownLines": {
 				"eng": [
@@ -8049,6 +8165,10 @@
 			"trans": "Saya sedang mencari anggota kru baru"
 		},
 		"pachinko": {
+			"flashSaleShop": {
+				"eng": "Browse Flash Sale Items",
+				"trans": "Jelajahi Barang Promo Kilat"
+			},
 			"greetings": {
 				"eng": [
 					"Don't ask me how do I drink with this mask on, I just do.",
@@ -8066,6 +8186,10 @@
 			"npcName": {
 				"eng": "Pachinko Devotee",
 				"trans": "Pecandu Pachinko"
+			},
+			"shopName": {
+				"eng": "Pachinko's secret stash",
+				"trans": "Stash rahasia Pachinko"
 			}
 		},
 		"premiumShop": {
@@ -10023,12 +10147,12 @@
 			"trans": "Inventori Anda tidak dapat menampung lagi item ini"
 		},
 		"notEnoughItem": {
-			"eng": "You don\\'t have enough ${item} to purchase this item",
-			"trans": "Anda tidak memiliki cukup ${item} untuk membeli item ini"
+			"eng": "You don't have enough ${item} to purchase this item",
+			"trans": "Stok ${item}mu tidak cukup buat beli barang ini."
 		},
 		"notEnoughMoney": {
-			"eng": "You don\\'t have enough ${currency} to purchase this item",
-			"trans": "Kamu tidak punya cukup ${currency} untuk membeli barang ini"
+			"eng": "You don't have enough ${currency} to purchase this item",
+			"trans": "Stok ${item}mu tidak cukup buat beli barang ini."
 		},
 		"purchased": {
 			"eng": "You have purchased ${amount} ${item}",

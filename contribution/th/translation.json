@@ -4106,6 +4106,16 @@
 			"eng": "destroyed",
 			"trans": "เละ"
 		},
+		"expireTime": {
+			"description": {
+				"eng": "This item will expire at ${date} (${timeToExpire})",
+				"trans": "ไอเทมนี้จะหมดอายุเมื่อ ${date} (${timeToExpire})"
+			},
+			"title": {
+				"eng": "Expire Time: ${time}",
+				"trans": "อายุหมด: ${time}"
+			}
+		},
 		"notTradable": {
 			"eng": "Not tradable",
 			"trans": "เทรดไม่ได้"
@@ -4159,12 +4169,12 @@
 			"trans": "ไอเทมโดนล็อค ทิ้งไม่ได้"
 		},
 		"cantDismantleEquipped": {
-			"eng": "You can\\'t dismantle equipped items",
-			"trans": "คุณไม่สามารถรื้อไอเทมที่ใส่อยู่ได้"
+			"eng": "You can't dismantle equipped items",
+			"trans": "สิ่งของที่สวมอยู่ไม่สามารถแยกได้"
 		},
 		"cantDismantleLocked": {
-			"eng": "You can\\'t dismantle locked items",
-			"trans": "ไอเทมล็อค รื้อไม่ได้"
+			"eng": "You can't dismantle locked items",
+			"trans": "ไม่สามารถรื้อของชิ้นที่ล็อกได้"
 		},
 		"diff": {
 			"header1": {
@@ -4216,6 +4226,12 @@
 			"eng": "Move To Inventory",
 			"trans": "เก็บเข้าคลัง"
 		},
+		"saleCreditChip": {
+			"useAction": {
+				"eng": "Trade with ${npcName}",
+				"trans": "ทำการค้ากับ ${npcName}"
+			}
+		},
 		"unequip": {
 			"eng": "Unequip",
 			"trans": "ถอดออก"
@@ -4237,6 +4253,12 @@
 		"noChanges": {
 			"eng": "No changes",
 			"trans": "คงเดิม"
+		}
+	},
+	"itemDisplay": {
+		"expire": {
+			"eng": "Expires ${duration}",
+			"trans": "หมดอายุ ${duration}"
 		}
 	},
 	"itemInbox": {
@@ -5352,6 +5374,16 @@
 				"trans": "แจ้งเตือน"
 			}
 		},
+		"saleCreditChip": {
+			"description": {
+				"eng": "A special credit chip that provides discounts on sale items. Expires in ${days} days.\\nThis can be traded with Pachinko Guy",
+				"trans": "แถบเครดิตพิเศษที่ให้ส่วนลดสำหรับสินค้าที่ลดราคา หมดอายุใน ${days} วัน คุณสามารถแลกกับเพชรได้"
+			},
+			"name": {
+				"eng": "Sale Credit Chip",
+				"trans": "ชิพเครดิตขาย"
+			}
+		},
 		"sate": {
 			"description": {
 				"eng": "A traditional Indonesian dish made from skewered meat and rice.",
@@ -6085,6 +6117,86 @@
 				"eng": "You won!",
 				"trans": "สุดยอด!"
 			}
+		}
+	},
+	"luckyDraw": {
+		"betterLuck": {
+			"eng": "BETTER LUCK NEXT TIME",
+			"trans": "ลูกโชคดีขึ้นครั้งต่อไป"
+		},
+		"drawLost": {
+			"eng": "TRY AGAIN LATER",
+			"trans": "ลองใหม่อีกครั้งต่อไป"
+		},
+		"drawWon": {
+			"eng": "SUCCESS!",
+			"trans": "สำเร็จ!"
+		},
+		"expired": {
+			"eng": "EXPIRED",
+			"trans": "หมดอายุ"
+		},
+		"expiresLabel": {
+			"eng": "EXPIRES: ",
+			"trans": "หมดอายุ:"
+		},
+		"flashSale": {
+			"description": {
+				"eng": "Win exclusive flash sale discounts!",
+				"trans": "คว้าโอกาสรับส่วนลดเฉพาะการขายฟล래ช!"
+			},
+			"title": {
+				"eng": "Flash Sale Lucky Draw",
+				"trans": "ขายด่วน ถูกลุคกี้"
+			}
+		},
+		"idle": {
+			"eng": "IDLE",
+			"trans": "ว่าง"
+		},
+		"invalidType": {
+			"eng": "Invalid lucky draw type",
+			"trans": "ประเภทการลากดราวไม่ถูกต้อง"
+		},
+		"itemsReceived": {
+			"eng": "ITEMS RECEIVED:",
+			"trans": "ของที่ได้รับ"
+		},
+		"noRewards": {
+			"eng": "NO REWARDS THIS TIME",
+			"trans": "ครั้งนี้ไม่มีรางวัล"
+		},
+		"notEligible": {
+			"eng": "You are not eligible for this lucky draw",
+			"trans": "คุณยังไม่อาจเข้าร่วมกิจกรรมดูดลากนี้ได้"
+		},
+		"onCooldown": {
+			"eng": "This lucky draw is on cooldown. Try again later!",
+			"trans": "การลุกรายได้อยู่ในระยะห้าม ลองอีกครั้งต่อไป"
+		},
+		"processing": {
+			"eng": "Processing...",
+			"trans": "รอสักครู่"
+		},
+		"rewardUnlocked": {
+			"eng": "REWARD UNLOCKED!",
+			"trans": "ได้รับรางวัลแล้ว!"
+		},
+		"statusSuccess": {
+			"eng": "STATUS: SUCCESS",
+			"trans": "สถานะ: สำเร็จ"
+		},
+		"statusUnsuccessful": {
+			"eng": "STATUS: UNSUCCESSFUL",
+			"trans": "สถานะ: ล้มเหลว"
+		},
+		"swipeToUnlock": {
+			"eng": "Swipe to initiate lucky draw",
+			"trans": "สวายเพื่อเริ่มการดูดหลากทรัพย์"
+		},
+		"transactionComplete": {
+			"eng": "TRANSACTION COMPLETE",
+			"trans": "การทำธุรกรรมเสร็จสิ้น"
 		}
 	},
 	"mail": {
@@ -7659,9 +7771,13 @@
 				"eng": "Chloe",
 				"trans": "โคลอี้"
 			},
-			"pachinkoButton": {
+			"pachinkoButton2": {
+				"eng": "Play Pachinko",
+				"trans": "สลับปะคิงโก"
+			},
+			"pachinkoGuy": {
 				"eng": "Talk to pachinko guy in the corner",
-				"trans": "คุยกับไอ้หนุ่มตู้ปาจิงโกะมุมห้อง"
+				"trans": "พูดกับชายปาชิงโกในมุม"
 			},
 			"questCooldownLines": {
 				"eng": [
@@ -8049,6 +8165,10 @@
 			"trans": "หาพวกเข้าแก๊งค์อยู่"
 		},
 		"pachinko": {
+			"flashSaleShop": {
+				"eng": "Browse Flash Sale Items",
+				"trans": "ท่องรายการของขายสลาก"
+			},
 			"greetings": {
 				"eng": [
 					"Don't ask me how do I drink with this mask on, I just do.",
@@ -8066,6 +8186,10 @@
 			"npcName": {
 				"eng": "Pachinko Devotee",
 				"trans": "นักเล่นปาจิงโกะตัวยง"
+			},
+			"shopName": {
+				"eng": "Pachinko's secret stash",
+				"trans": "คลังลับของปาจิงโกะ"
 			}
 		},
 		"premiumShop": {
@@ -10023,12 +10147,12 @@
 			"trans": "อินเวนทอรี่เต็ม! ใส่ไอเทมนี้ไม่ได้"
 		},
 		"notEnoughItem": {
-			"eng": "You don\\'t have enough ${item} to purchase this item",
-			"trans": "${item} ไม่พอ! ซื้อไม่ได้!"
+			"eng": "You don't have enough ${item} to purchase this item",
+			"trans": "คุณไม่พอ ${item} เพื่อซื้อรายการนี้"
 		},
 		"notEnoughMoney": {
-			"eng": "You don\\'t have enough ${currency} to purchase this item",
-			"trans": "${currency} ไม่พอ! ซื้อของชิ้นนี้ไม่ได้นะ"
+			"eng": "You don't have enough ${currency} to purchase this item",
+			"trans": "คุณไม่พอ ${item} เพื่อซื้อรายการนี้"
 		},
 		"purchased": {
 			"eng": "You have purchased ${amount} ${item}",

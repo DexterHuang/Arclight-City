@@ -4106,6 +4106,16 @@
 			"eng": "destroyed",
 			"trans": "zerstört"
 		},
+		"expireTime": {
+			"description": {
+				"eng": "This item will expire at ${date} (${timeToExpire})",
+				"trans": "Das Item läuft am ${date} ab (in ${timeToExpire})"
+			},
+			"title": {
+				"eng": "Expire Time: ${time}",
+				"trans": "Ablaufzeit: ${time}"
+			}
+		},
 		"notTradable": {
 			"eng": "Not tradable",
 			"trans": "Nicht handelbar"
@@ -4159,12 +4169,12 @@
 			"trans": "Gesperrte Gegenstände können nicht verworfen werden"
 		},
 		"cantDismantleEquipped": {
-			"eng": "You can\\'t dismantle equipped items",
+			"eng": "You can't dismantle equipped items",
 			"trans": "Ausgerüstete Gegenstände können nicht zerlegt werden"
 		},
 		"cantDismantleLocked": {
-			"eng": "You can\\'t dismantle locked items",
-			"trans": "Gesperrte Gegenstände können nicht zerlegt werden"
+			"eng": "You can't dismantle locked items",
+			"trans": "Gesperrte Gegenstände lassen sich nicht zerlegen"
 		},
 		"diff": {
 			"header1": {
@@ -4216,6 +4226,12 @@
 			"eng": "Move To Inventory",
 			"trans": "Ins Inventar verschieben"
 		},
+		"saleCreditChip": {
+			"useAction": {
+				"eng": "Trade with ${npcName}",
+				"trans": "Handel mit ${npcName}"
+			}
+		},
 		"unequip": {
 			"eng": "Unequip",
 			"trans": "Ausrüstung ablegen"
@@ -4237,6 +4253,12 @@
 		"noChanges": {
 			"eng": "No changes",
 			"trans": "Keine Änderungen"
+		}
+	},
+	"itemDisplay": {
+		"expire": {
+			"eng": "Expires ${duration}",
+			"trans": "Läuft ab ${duration}"
 		}
 	},
 	"itemInbox": {
@@ -5352,6 +5374,16 @@
 				"trans": "Ring"
 			}
 		},
+		"saleCreditChip": {
+			"description": {
+				"eng": "A special credit chip that provides discounts on sale items. Expires in ${days} days.\\nThis can be traded with Pachinko Guy",
+				"trans": "Ein besonderer Kreditchip, der Rabatte auf Verkaufsartikel bietet. Läuft in ${days} Tagen ab. Dieser kann beim Pachinko-Mann getauscht werden."
+			},
+			"name": {
+				"eng": "Sale Credit Chip",
+				"trans": "Ver-Kreditchip"
+			}
+		},
 		"sate": {
 			"description": {
 				"eng": "A traditional Indonesian dish made from skewered meat and rice.",
@@ -6085,6 +6117,86 @@
 				"eng": "You won!",
 				"trans": "Du hast gewonnen!"
 			}
+		}
+	},
+	"luckyDraw": {
+		"betterLuck": {
+			"eng": "BETTER LUCK NEXT TIME",
+			"trans": "Viel Glück beim nächsten Mal"
+		},
+		"drawLost": {
+			"eng": "TRY AGAIN LATER",
+			"trans": "Später nochmal versuchen"
+		},
+		"drawWon": {
+			"eng": "SUCCESS!",
+			"trans": "ERFOLG!"
+		},
+		"expired": {
+			"eng": "EXPIRED",
+			"trans": "ABGELAUFEN"
+		},
+		"expiresLabel": {
+			"eng": "EXPIRES: ",
+			"trans": "LÄUFT AB:"
+		},
+		"flashSale": {
+			"description": {
+				"eng": "Win exclusive flash sale discounts!",
+				"trans": "Exklusive Rabatte beim Blitzverkauf gewinnen!"
+			},
+			"title": {
+				"eng": "Flash Sale Lucky Draw",
+				"trans": "Flash Sale Glücksrad"
+			}
+		},
+		"idle": {
+			"eng": "IDLE",
+			"trans": "Inaktiv"
+		},
+		"invalidType": {
+			"eng": "Invalid lucky draw type",
+			"trans": "Ungültiger Glücksradtyp"
+		},
+		"itemsReceived": {
+			"eng": "ITEMS RECEIVED:",
+			"trans": "GEGENSTÄNDE ERHALTEN:"
+		},
+		"noRewards": {
+			"eng": "NO REWARDS THIS TIME",
+			"trans": "Keine Belohnungen diesmal"
+		},
+		"notEligible": {
+			"eng": "You are not eligible for this lucky draw",
+			"trans": "Sie erfüllen die Voraussetzungen für diese Verlosung nicht"
+		},
+		"onCooldown": {
+			"eng": "This lucky draw is on cooldown. Try again later!",
+			"trans": "Das Glücksrad ist auf Cooldown. Später wieder!"
+		},
+		"processing": {
+			"eng": "Processing...",
+			"trans": "Wird verarbeitet..."
+		},
+		"rewardUnlocked": {
+			"eng": "REWARD UNLOCKED!",
+			"trans": "Belohnung entsperrt!"
+		},
+		"statusSuccess": {
+			"eng": "STATUS: SUCCESS",
+			"trans": "STATUS: ERFOLGREICH"
+		},
+		"statusUnsuccessful": {
+			"eng": "STATUS: UNSUCCESSFUL",
+			"trans": "STATUS: MISLUNGEN"
+		},
+		"swipeToUnlock": {
+			"eng": "Swipe to initiate lucky draw",
+			"trans": "Wischen zum Glücksrad"
+		},
+		"transactionComplete": {
+			"eng": "TRANSACTION COMPLETE",
+			"trans": "Transaktion abgeschlossen"
 		}
 	},
 	"mail": {
@@ -7659,9 +7771,13 @@
 				"eng": "Chloe",
 				"trans": "Chloe"
 			},
-			"pachinkoButton": {
+			"pachinkoButton2": {
+				"eng": "Play Pachinko",
+				"trans": "Pachinko loslegen"
+			},
+			"pachinkoGuy": {
 				"eng": "Talk to pachinko guy in the corner",
-				"trans": "Sprich mit dem Pachinko-Typen in der Ecke"
+				"trans": "Rede mit dem Kerl am Automat in der Ecke"
 			},
 			"questCooldownLines": {
 				"eng": [
@@ -8049,6 +8165,10 @@
 			"trans": "Ich suche neue Crewmitglieder"
 		},
 		"pachinko": {
+			"flashSaleShop": {
+				"eng": "Browse Flash Sale Items",
+				"trans": "Flash-Sale-Artikel durchstöbern"
+			},
 			"greetings": {
 				"eng": [
 					"Don't ask me how do I drink with this mask on, I just do.",
@@ -8066,6 +8186,10 @@
 			"npcName": {
 				"eng": "Pachinko Devotee",
 				"trans": "Pachinko-Anhänger"
+			},
+			"shopName": {
+				"eng": "Pachinko's secret stash",
+				"trans": "Pachinkos geheimes Versteck"
 			}
 		},
 		"premiumShop": {
@@ -10023,12 +10147,12 @@
 			"trans": "Dein Inventar kann nicht mehr von diesem Gegenstand tragen"
 		},
 		"notEnoughItem": {
-			"eng": "You don\\'t have enough ${item} to purchase this item",
-			"trans": "Du hast nicht genug ${item}, um diesen Gegenstand zu kaufen"
+			"eng": "You don't have enough ${item} to purchase this item",
+			"trans": "Nicht genügend ${item} für den Kauf dieses Artikels"
 		},
 		"notEnoughMoney": {
-			"eng": "You don\\'t have enough ${currency} to purchase this item",
-			"trans": "Du hast nicht genug ${currency}, um diesen Gegenstand zu kaufen"
+			"eng": "You don't have enough ${currency} to purchase this item",
+			"trans": "Nicht genügend ${item} für den Kauf dieses Artikels"
 		},
 		"purchased": {
 			"eng": "You have purchased ${amount} ${item}",

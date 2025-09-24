@@ -4106,6 +4106,16 @@
 			"eng": "destroyed",
 			"trans": "被摧毀的"
 		},
+		"expireTime": {
+			"description": {
+				"eng": "This item will expire at ${date} (${timeToExpire})",
+				"trans": "此物品於${date}（${timeToExpire}）失效"
+			},
+			"title": {
+				"eng": "Expire Time: ${time}",
+				"trans": "失效時間: ${time}"
+			}
+		},
 		"notTradable": {
 			"eng": "Not tradable",
 			"trans": "不可交易"
@@ -4159,12 +4169,12 @@
 			"trans": "你不能丟棄被鎖定的物品"
 		},
 		"cantDismantleEquipped": {
-			"eng": "You can\\'t dismantle equipped items",
-			"trans": "您不能拆解已裝備的物品"
+			"eng": "You can't dismantle equipped items",
+			"trans": "已裝備的物品無法拆解"
 		},
 		"cantDismantleLocked": {
-			"eng": "You can\\'t dismantle locked items",
-			"trans": "無法拆解已上鎖的物品"
+			"eng": "You can't dismantle locked items",
+			"trans": "被鎖定的物品無法拆解"
 		},
 		"diff": {
 			"header1": {
@@ -4216,6 +4226,12 @@
 			"eng": "Move To Inventory",
 			"trans": "移至倉庫"
 		},
+		"saleCreditChip": {
+			"useAction": {
+				"eng": "Trade with ${npcName}",
+				"trans": "與${npcName}交易"
+			}
+		},
 		"unequip": {
 			"eng": "Unequip",
 			"trans": "卸下裝備"
@@ -4237,6 +4253,12 @@
 		"noChanges": {
 			"eng": "No changes",
 			"trans": "無更改。"
+		}
+	},
+	"itemDisplay": {
+		"expire": {
+			"eng": "Expires ${duration}",
+			"trans": "有效期至${duration}"
 		}
 	},
 	"itemInbox": {
@@ -5352,6 +5374,16 @@
 				"trans": "戒指"
 			}
 		},
+		"saleCreditChip": {
+			"description": {
+				"eng": "A special credit chip that provides discounts on sale items. Expires in ${days} days.\\nThis can be traded with Pachinko Guy",
+				"trans": "可折扣專用信用晶片，${days}天後失效。可與彈珠機先生交易。"
+			},
+			"name": {
+				"eng": "Sale Credit Chip",
+				"trans": "折扣信用晶片"
+			}
+		},
 		"sate": {
 			"description": {
 				"eng": "A traditional Indonesian dish made from skewered meat and rice.",
@@ -6085,6 +6117,86 @@
 				"eng": "You won!",
 				"trans": "你贏了！"
 			}
+		}
+	},
+	"luckyDraw": {
+		"betterLuck": {
+			"eng": "BETTER LUCK NEXT TIME",
+			"trans": "下次再接再厲"
+		},
+		"drawLost": {
+			"eng": "TRY AGAIN LATER",
+			"trans": "請稍後再試"
+		},
+		"drawWon": {
+			"eng": "SUCCESS!",
+			"trans": "成功！"
+		},
+		"expired": {
+			"eng": "EXPIRED",
+			"trans": "過期"
+		},
+		"expiresLabel": {
+			"eng": "EXPIRES: ",
+			"trans": "過期"
+		},
+		"flashSale": {
+			"description": {
+				"eng": "Win exclusive flash sale discounts!",
+				"trans": "贏得限時特惠折扣！"
+			},
+			"title": {
+				"eng": "Flash Sale Lucky Draw",
+				"trans": "驚喜閃賣抽獎"
+			}
+		},
+		"idle": {
+			"eng": "IDLE",
+			"trans": "空閒中"
+		},
+		"invalidType": {
+			"eng": "Invalid lucky draw type",
+			"trans": "抽獎類型無效"
+		},
+		"itemsReceived": {
+			"eng": "ITEMS RECEIVED:",
+			"trans": "所得物品："
+		},
+		"noRewards": {
+			"eng": "NO REWARDS THIS TIME",
+			"trans": "本次無獎勵"
+		},
+		"notEligible": {
+			"eng": "You are not eligible for this lucky draw",
+			"trans": "你不符合抽獎資格"
+		},
+		"onCooldown": {
+			"eng": "This lucky draw is on cooldown. Try again later!",
+			"trans": "抽獎冷卻中，請稍後再試!"
+		},
+		"processing": {
+			"eng": "Processing...",
+			"trans": "正在處理..."
+		},
+		"rewardUnlocked": {
+			"eng": "REWARD UNLOCKED!",
+			"trans": "獎勵解鎖！"
+		},
+		"statusSuccess": {
+			"eng": "STATUS: SUCCESS",
+			"trans": "狀態：成功"
+		},
+		"statusUnsuccessful": {
+			"eng": "STATUS: UNSUCCESSFUL",
+			"trans": "狀態：失敗"
+		},
+		"swipeToUnlock": {
+			"eng": "Swipe to initiate lucky draw",
+			"trans": "滑動觸發幸運抽獎"
+		},
+		"transactionComplete": {
+			"eng": "TRANSACTION COMPLETE",
+			"trans": "交易已結束"
 		}
 	},
 	"mail": {
@@ -7659,9 +7771,13 @@
 				"eng": "Chloe",
 				"trans": "克蘿伊"
 			},
-			"pachinkoButton": {
+			"pachinkoButton2": {
+				"eng": "Play Pachinko",
+				"trans": "玩彈珠台"
+			},
+			"pachinkoGuy": {
 				"eng": "Talk to pachinko guy in the corner",
-				"trans": "跟角落的彈珠台男講話"
+				"trans": "找角落的柏青哥愛好者聊天"
 			},
 			"questCooldownLines": {
 				"eng": [
@@ -8049,6 +8165,10 @@
 			"trans": "我正在尋找新的隊伍成員"
 		},
 		"pachinko": {
+			"flashSaleShop": {
+				"eng": "Browse Flash Sale Items",
+				"trans": "瀏覽閃賣商品"
+			},
 			"greetings": {
 				"eng": [
 					"Don't ask me how do I drink with this mask on, I just do.",
@@ -8066,6 +8186,10 @@
 			"npcName": {
 				"eng": "Pachinko Devotee",
 				"trans": "柏青哥愛好者"
+			},
+			"shopName": {
+				"eng": "Pachinko's secret stash",
+				"trans": "派奇可的隱藏寶庫"
 			}
 		},
 		"premiumShop": {
@@ -10023,12 +10147,12 @@
 			"trans": "您的倉庫無法再存放更多此物品。"
 		},
 		"notEnoughItem": {
-			"eng": "You don\\'t have enough ${item} to purchase this item",
-			"trans": "您沒有足夠的${item}來購買這個物品"
+			"eng": "You don't have enough ${item} to purchase this item",
+			"trans": "你的${item}不夠，無法購買此商品"
 		},
 		"notEnoughMoney": {
-			"eng": "You don\\'t have enough ${currency} to purchase this item",
-			"trans": "您沒有足夠的${currency}購買此物品。"
+			"eng": "You don't have enough ${currency} to purchase this item",
+			"trans": "${currency}不足，無法購買此物品"
 		},
 		"purchased": {
 			"eng": "You have purchased ${amount} ${item}",

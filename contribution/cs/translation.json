@@ -4106,6 +4106,16 @@
 			"eng": "destroyed",
 			"trans": "Zničené"
 		},
+		"expireTime": {
+			"description": {
+				"eng": "This item will expire at ${date} (${timeToExpire})",
+				"trans": "Předmět vyprší v ${date} (zbývá ${timeToExpire})"
+			},
+			"title": {
+				"eng": "Expire Time: ${time}",
+				"trans": "Čas vypršení: ${time}"
+			}
+		},
 		"notTradable": {
 			"eng": "Not tradable",
 			"trans": "Neobchodovatelný"
@@ -4159,12 +4169,12 @@
 			"trans": "Nemůžete zahodit zamčené položky."
 		},
 		"cantDismantleEquipped": {
-			"eng": "You can\\'t dismantle equipped items",
-			"trans": "Nemůžete rozebrat vybavené předměty."
+			"eng": "You can't dismantle equipped items",
+			"trans": "Nemůžete rozebrat vybavené předměty"
 		},
 		"cantDismantleLocked": {
-			"eng": "You can\\'t dismantle locked items",
-			"trans": "Nelze rozebrat zamčené položky."
+			"eng": "You can't dismantle locked items",
+			"trans": "Nemůžete rozebrat uzamčené předměty"
 		},
 		"diff": {
 			"header1": {
@@ -4216,6 +4226,12 @@
 			"eng": "Move To Inventory",
 			"trans": "Přesunout do inventáře"
 		},
+		"saleCreditChip": {
+			"useAction": {
+				"eng": "Trade with ${npcName}",
+				"trans": "Obchodovat s ${npcName}"
+			}
+		},
 		"unequip": {
 			"eng": "Unequip",
 			"trans": "Odebrat"
@@ -4237,6 +4253,12 @@
 		"noChanges": {
 			"eng": "No changes",
 			"trans": "Žádné změny"
+		}
+	},
+	"itemDisplay": {
+		"expire": {
+			"eng": "Expires ${duration}",
+			"trans": "Vyprší za ${duration}"
 		}
 	},
 	"itemInbox": {
@@ -5352,6 +5374,16 @@
 				"trans": "Prsten"
 			}
 		},
+		"saleCreditChip": {
+			"description": {
+				"eng": "A special credit chip that provides discounts on sale items. Expires in ${days} days.\\nThis can be traded with Pachinko Guy",
+				"trans": "Speciální kreditní čip slevy na zboží v akci. Vyprší za ${days} dny.\nMůže být vyměněn u Pachinko guy"
+			},
+			"name": {
+				"eng": "Sale Credit Chip",
+				"trans": "Prodejní Kreditní Čip"
+			}
+		},
 		"sate": {
 			"description": {
 				"eng": "A traditional Indonesian dish made from skewered meat and rice.",
@@ -6085,6 +6117,86 @@
 				"eng": "You won!",
 				"trans": "Vyhrál jsi!"
 			}
+		}
+	},
+	"luckyDraw": {
+		"betterLuck": {
+			"eng": "BETTER LUCK NEXT TIME",
+			"trans": "Náhodu se neříká"
+		},
+		"drawLost": {
+			"eng": "TRY AGAIN LATER",
+			"trans": "Zkuste to znovu později"
+		},
+		"drawWon": {
+			"eng": "SUCCESS!",
+			"trans": "ÚSPECH!"
+		},
+		"expired": {
+			"eng": "EXPIRED",
+			"trans": "VYPRŠEL"
+		},
+		"expiresLabel": {
+			"eng": "EXPIRES: ",
+			"trans": "KONČÍ:"
+		},
+		"flashSale": {
+			"description": {
+				"eng": "Win exclusive flash sale discounts!",
+				"trans": "Vyhrajte výhradní flash slevy!"
+			},
+			"title": {
+				"eng": "Flash Sale Lucky Draw",
+				"trans": "Flash Sale Losování"
+			}
+		},
+		"idle": {
+			"eng": "IDLE",
+			"trans": "nečinný"
+		},
+		"invalidType": {
+			"eng": "Invalid lucky draw type",
+			"trans": "Chybný typ tahu štěstí"
+		},
+		"itemsReceived": {
+			"eng": "ITEMS RECEIVED:",
+			"trans": "ZISKANÉ PŘEDMĚTY"
+		},
+		"noRewards": {
+			"eng": "NO REWARDS THIS TIME",
+			"trans": "ŽÁDNÉ ODMĚNY TENTOKRÁT"
+		},
+		"notEligible": {
+			"eng": "You are not eligible for this lucky draw",
+			"trans": "Nejste oprávněn/a k této losové výhře"
+		},
+		"onCooldown": {
+			"eng": "This lucky draw is on cooldown. Try again later!",
+			"trans": "Toto tahání štěstí je zrovna v cooldownu. Zkuste to později!"
+		},
+		"processing": {
+			"eng": "Processing...",
+			"trans": "Zpracovává se..."
+		},
+		"rewardUnlocked": {
+			"eng": "REWARD UNLOCKED!",
+			"trans": "Odemkla se odměna!"
+		},
+		"statusSuccess": {
+			"eng": "STATUS: SUCCESS",
+			"trans": "STAV: ÚSPECH"
+		},
+		"statusUnsuccessful": {
+			"eng": "STATUS: UNSUCCESSFUL",
+			"trans": "STATUS: Neúspěšný"
+		},
+		"swipeToUnlock": {
+			"eng": "Swipe to initiate lucky draw",
+			"trans": "Přetáhněte pro zahájení tahokruhu"
+		},
+		"transactionComplete": {
+			"eng": "TRANSACTION COMPLETE",
+			"trans": "Transakce dokončena"
 		}
 	},
 	"mail": {
@@ -7659,9 +7771,13 @@
 				"eng": "Chloe",
 				"trans": "Chloe"
 			},
-			"pachinkoButton": {
+			"pachinkoButton2": {
+				"eng": "Play Pachinko",
+				"trans": "Hraj Pachinko"
+			},
+			"pachinkoGuy": {
 				"eng": "Talk to pachinko guy in the corner",
-				"trans": "Promluv si s pachinkovým typem v rohu"
+				"trans": "Mluv s chlapem s pachinkem v rohu"
 			},
 			"questCooldownLines": {
 				"eng": [
@@ -8049,6 +8165,10 @@
 			"trans": "Hledám nové členy posádky."
 		},
 		"pachinko": {
+			"flashSaleShop": {
+				"eng": "Browse Flash Sale Items",
+				"trans": "Prohlížet si položky bleskového prodeje"
+			},
 			"greetings": {
 				"eng": [
 					"Don't ask me how do I drink with this mask on, I just do.",
@@ -8066,6 +8186,10 @@
 			"npcName": {
 				"eng": "Pachinko Devotee",
 				"trans": "Fanda pačinka"
+			},
+			"shopName": {
+				"eng": "Pachinko's secret stash",
+				"trans": "Tajné zásoby Pachinka"
 			}
 		},
 		"premiumShop": {
@@ -10023,12 +10147,12 @@
 			"trans": "Váš inventář již nemůže pojmout další kus tohoto předmětu."
 		},
 		"notEnoughItem": {
-			"eng": "You don\\'t have enough ${item} to purchase this item",
-			"trans": "Nemáte dostatek ${item} na nákup tohoto předmětu."
+			"eng": "You don't have enough ${item} to purchase this item",
+			"trans": "Nedostatečný počet ${item} pro nákup tohoto předmětu."
 		},
 		"notEnoughMoney": {
-			"eng": "You don\\'t have enough ${currency} to purchase this item",
-			"trans": "Nemáte dostatek ${currency} na nákup tohoto předmětu."
+			"eng": "You don't have enough ${currency} to purchase this item",
+			"trans": "Nedostatečný počet ${item} pro nákup tohoto předmětu."
 		},
 		"purchased": {
 			"eng": "You have purchased ${amount} ${item}",
