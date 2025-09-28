@@ -6,6 +6,10 @@
 
 **If you find an exploit, please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
+### 0.0.89
+
+-  Fixed issue with Intelligence Contracts not displaying correctly.
+-  Miscellaneous Optimizations
 
 ### 0.0.88
 
