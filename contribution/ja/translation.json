@@ -2459,6 +2459,50 @@
 			"trans": "解体する"
 		}
 	},
+	"displayShelf": {
+		"confirmUnlock": {
+			"eng": "Unlock Slot ${i}?",
+			"trans": "スロット${i}をアンロックしますか？"
+		},
+		"empty": {
+			"eng": "Empty",
+			"trans": "エンプティ"
+		},
+		"error": {
+			"lowLevel": {
+				"eng": "You need to reach level ${level}",
+				"trans": "レベル${level}に到達する必要があります"
+			},
+			"noMoney": {
+				"eng": "Not enough ${currency}",
+				"trans": "${currency}が足りない"
+			}
+		},
+		"locked": {
+			"eng": "Locked",
+			"trans": "ロック済み"
+		},
+		"selectItem": {
+			"eng": "Select Item",
+			"trans": "アイテムを選択"
+		},
+		"slot": {
+			"eng": "Slot ${i}",
+			"trans": "スロット${i}"
+		},
+		"title": {
+			"eng": "Display Shelf",
+			"trans": "展示棚"
+		},
+		"unlockHint": {
+			"eng": "Click a locked slot to unlock (Lv ${level} + ${price} ${currency})",
+			"trans": "ロックされたスロットをクリックしてアンロック (Lv ${level} + ${price} ${currency})"
+		},
+		"unlockReqFull": {
+			"eng": "Requires Level ${level} and ${price} ${currency}",
+			"trans": "レベル${level}と${price} ${currency}が必要"
+		}
+	},
 	"drawMercAnimation": {
 		"activate": {
 			"eng": "activate",
@@ -9718,6 +9762,12 @@
 				"trans": "紹介者が見つかりません"
 			}
 		},
+		"displayShelf": {
+			"maxed": {
+				"eng": "All display shelf slots are already unlocked",
+				"trans": "すべての陳列棚スロットは既にアンロック済みです"
+			}
+		},
 		"dungeon": {
 			"bossSummoned": {
 				"eng": "${playerName} has summoned the boss",
@@ -10023,6 +10073,13 @@
 		"enableInGameAnnouncementDescription2": {
 			"eng": "Show in-game notification such as PVP event and bounty",
 			"trans": "PVPイベントやバウンティのゲーム内通知を表示する"
+		},
+		"enableMercenaryAnimation": {
+			"eng": "Enable Mercenary Animation"
+		},
+		"enableMercenaryAnimationDescription": {
+			"eng": "When enabled, epic tier mercenaries will display as animation. Disable to show static images instead",
+			"trans": "有効にすると、エピックティアの佣兵はアニメーションで表示されます。无効にすると代わりに静止画が表示されます"
 		},
 		"enablePowerSavingMode": {
 			"eng": "Enable Power Saving Mode",

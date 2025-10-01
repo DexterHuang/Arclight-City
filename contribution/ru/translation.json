@@ -2459,6 +2459,50 @@
 			"trans": "Разобрать"
 		}
 	},
+	"displayShelf": {
+		"confirmUnlock": {
+			"eng": "Unlock Slot ${i}?",
+			"trans": "Разблокировать слот ${i}?"
+		},
+		"empty": {
+			"eng": "Empty",
+			"trans": "Пусто"
+		},
+		"error": {
+			"lowLevel": {
+				"eng": "You need to reach level ${level}",
+				"trans": "Вам нужно достичь уровня ${level}"
+			},
+			"noMoney": {
+				"eng": "Not enough ${currency}",
+				"trans": "Недостаточно ${currency}"
+			}
+		},
+		"locked": {
+			"eng": "Locked",
+			"trans": "Заблокировано"
+		},
+		"selectItem": {
+			"eng": "Select Item",
+			"trans": "Выберите предмет"
+		},
+		"slot": {
+			"eng": "Slot ${i}",
+			"trans": "Слот ${i}"
+		},
+		"title": {
+			"eng": "Display Shelf",
+			"trans": "Показовая полка"
+		},
+		"unlockHint": {
+			"eng": "Click a locked slot to unlock (Lv ${level} + ${price} ${currency})",
+			"trans": "Нажмите на заблокированный слот, чтобы разблокировать его (Lv ${level} + ${price} ${currency})"
+		},
+		"unlockReqFull": {
+			"eng": "Requires Level ${level} and ${price} ${currency}",
+			"trans": "Требуется Уровень ${level} и ${price} ${currency}"
+		}
+	},
 	"drawMercAnimation": {
 		"activate": {
 			"eng": "activate",
@@ -9718,6 +9762,12 @@
 				"trans": "Реферер не найден"
 			}
 		},
+		"displayShelf": {
+			"maxed": {
+				"eng": "All display shelf slots are already unlocked",
+				"trans": "Все слоты показательных полок уже разблокированы"
+			}
+		},
 		"dungeon": {
 			"bossSummoned": {
 				"eng": "${playerName} has summoned the boss",
@@ -10023,6 +10073,14 @@
 		"enableInGameAnnouncementDescription2": {
 			"eng": "Show in-game notification such as PVP event and bounty",
 			"trans": "Показать уведомление в игре, такое как событие PVP и награда за голову"
+		},
+		"enableMercenaryAnimation": {
+			"eng": "Enable Mercenary Animation",
+			"trans": "Включить мерсенарийскую анимацию"
+		},
+		"enableMercenaryAnimationDescription": {
+			"eng": "When enabled, epic tier mercenaries will display as animation. Disable to show static images instead",
+			"trans": "Когда включено, контрактники эпического уровня будут отображаться как анимация. Выключите, чтобы вместо этого показывать статичные изображения"
 		},
 		"enablePowerSavingMode": {
 			"eng": "Enable Power Saving Mode",

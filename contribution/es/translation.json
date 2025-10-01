@@ -2459,6 +2459,50 @@
 			"trans": "Desmontar"
 		}
 	},
+	"displayShelf": {
+		"confirmUnlock": {
+			"eng": "Unlock Slot ${i}?",
+			"trans": "¿Desbloquear ranura ${i}?"
+		},
+		"empty": {
+			"eng": "Empty",
+			"trans": "Vacío"
+		},
+		"error": {
+			"lowLevel": {
+				"eng": "You need to reach level ${level}",
+				"trans": "Necesitas llegar al nivel ${level}"
+			},
+			"noMoney": {
+				"eng": "Not enough ${currency}",
+				"trans": "No tienes suficiente ${currency}"
+			}
+		},
+		"locked": {
+			"eng": "Locked",
+			"trans": "Bloqueado"
+		},
+		"selectItem": {
+			"eng": "Select Item",
+			"trans": "Seleccionar elemento"
+		},
+		"slot": {
+			"eng": "Slot ${i}",
+			"trans": "Ranura ${i}"
+		},
+		"title": {
+			"eng": "Display Shelf",
+			"trans": "Estante de exhibición"
+		},
+		"unlockHint": {
+			"eng": "Click a locked slot to unlock (Lv ${level} + ${price} ${currency})",
+			"trans": "Haz clic en una ranura bloqueada para desbloquearla (Lv ${level} y ${price} ${currency})"
+		},
+		"unlockReqFull": {
+			"eng": "Requires Level ${level} and ${price} ${currency}",
+			"trans": "Requiere Nivel ${level} y ${price} ${currency}"
+		}
+	},
 	"drawMercAnimation": {
 		"activate": {
 			"eng": "activate",
@@ -9718,6 +9762,12 @@
 				"trans": "Referente no encontrado"
 			}
 		},
+		"displayShelf": {
+			"maxed": {
+				"eng": "All display shelf slots are already unlocked",
+				"trans": "Todas las ranuras del estante de exhibición ya están desbloqueadas"
+			}
+		},
 		"dungeon": {
 			"bossSummoned": {
 				"eng": "${playerName} has summoned the boss",
@@ -10023,6 +10073,14 @@
 		"enableInGameAnnouncementDescription2": {
 			"eng": "Show in-game notification such as PVP event and bounty",
 			"trans": "Mostrar notificaciones en el juego como eventos de PVP y recompensas"
+		},
+		"enableMercenaryAnimation": {
+			"eng": "Enable Mercenary Animation",
+			"trans": "Activar animación de mercenario"
+		},
+		"enableMercenaryAnimationDescription": {
+			"eng": "When enabled, epic tier mercenaries will display as animation. Disable to show static images instead",
+			"trans": "Al habilitarlo, los mercenarios de tier épica se mostrarán como animación. Desactive para mostrar imágenes estáticas en su lugar"
 		},
 		"enablePowerSavingMode": {
 			"eng": "Enable Power Saving Mode",

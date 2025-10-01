@@ -2459,6 +2459,50 @@
 			"trans": "Démonter"
 		}
 	},
+	"displayShelf": {
+		"confirmUnlock": {
+			"eng": "Unlock Slot ${i}?",
+			"trans": "Déverrouiller le slot ${i} ?"
+		},
+		"empty": {
+			"eng": "Empty",
+			"trans": "Vide"
+		},
+		"error": {
+			"lowLevel": {
+				"eng": "You need to reach level ${level}",
+				"trans": "Vous devez atteindre le niveau ${level}"
+			},
+			"noMoney": {
+				"eng": "Not enough ${currency}",
+				"trans": "Pas assez ${currency}"
+			}
+		},
+		"locked": {
+			"eng": "Locked",
+			"trans": "Verrouillé"
+		},
+		"selectItem": {
+			"eng": "Select Item",
+			"trans": "Sélectionner Objet"
+		},
+		"slot": {
+			"eng": "Slot ${i}",
+			"trans": "Case ${i}"
+		},
+		"title": {
+			"eng": "Display Shelf",
+			"trans": "Étagère d'affichage"
+		},
+		"unlockHint": {
+			"eng": "Click a locked slot to unlock (Lv ${level} + ${price} ${currency})",
+			"trans": "Cliquez sur une case verrouillée pour la déverrouiller (Lv ${level} + ${price} ${currency})"
+		},
+		"unlockReqFull": {
+			"eng": "Requires Level ${level} and ${price} ${currency}",
+			"trans": "Nécessite le niveau ${level} et ${price} ${currency}"
+		}
+	},
 	"drawMercAnimation": {
 		"activate": {
 			"eng": "activate",
@@ -9718,6 +9762,12 @@
 				"trans": "Parrain introuvable"
 			}
 		},
+		"displayShelf": {
+			"maxed": {
+				"eng": "All display shelf slots are already unlocked",
+				"trans": "Toutes les cases de l'étagère de présentation sont déjà déverrouillées"
+			}
+		},
 		"dungeon": {
 			"bossSummoned": {
 				"eng": "${playerName} has summoned the boss",
@@ -10023,6 +10073,14 @@
 		"enableInGameAnnouncementDescription2": {
 			"eng": "Show in-game notification such as PVP event and bounty",
 			"trans": "Afficher une notification en jeu telle qu'un événement PVP et une prime"
+		},
+		"enableMercenaryAnimation": {
+			"eng": "Enable Mercenary Animation",
+			"trans": "Activer l'animation mercenaire"
+		},
+		"enableMercenaryAnimationDescription": {
+			"eng": "When enabled, epic tier mercenaries will display as animation. Disable to show static images instead",
+			"trans": "Lorsqu'il est activé, les mercenaires de tier épique s'afficheront sous forme d'animation. Désactivez-le pour afficher des images statiques à la place"
 		},
 		"enablePowerSavingMode": {
 			"eng": "Enable Power Saving Mode",

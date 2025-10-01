@@ -2459,6 +2459,50 @@
 			"trans": "Zerlegen"
 		}
 	},
+	"displayShelf": {
+		"confirmUnlock": {
+			"eng": "Unlock Slot ${i}?",
+			"trans": "Slot ${i} entsperren?"
+		},
+		"empty": {
+			"eng": "Empty",
+			"trans": "Leer"
+		},
+		"error": {
+			"lowLevel": {
+				"eng": "You need to reach level ${level}",
+				"trans": "Du musst Level ${level} erreichen"
+			},
+			"noMoney": {
+				"eng": "Not enough ${currency}",
+				"trans": "Nicht genug ${currency}"
+			}
+		},
+		"locked": {
+			"eng": "Locked",
+			"trans": "Gesperrt"
+		},
+		"selectItem": {
+			"eng": "Select Item",
+			"trans": "Item wählen"
+		},
+		"slot": {
+			"eng": "Slot ${i}",
+			"trans": "Slot ${i}"
+		},
+		"title": {
+			"eng": "Display Shelf",
+			"trans": "Display-Regal"
+		},
+		"unlockHint": {
+			"eng": "Click a locked slot to unlock (Lv ${level} + ${price} ${currency})",
+			"trans": "Klicke auf einen gesperrten Slot, um ihn zu entsperren (Lv ${level} + ${price} ${currency})"
+		},
+		"unlockReqFull": {
+			"eng": "Requires Level ${level} and ${price} ${currency}",
+			"trans": "Erfordert Level ${level} und ${price} ${currency}"
+		}
+	},
 	"drawMercAnimation": {
 		"activate": {
 			"eng": "activate",
@@ -9718,6 +9762,11 @@
 				"trans": "Verweisender nicht gefunden"
 			}
 		},
+		"displayShelf": {
+			"maxed": {
+				"eng": "All display shelf slots are already unlocked"
+			}
+		},
 		"dungeon": {
 			"bossSummoned": {
 				"eng": "${playerName} has summoned the boss",
@@ -10023,6 +10072,13 @@
 		"enableInGameAnnouncementDescription2": {
 			"eng": "Show in-game notification such as PVP event and bounty",
 			"trans": "Zeige In-Game-Benachrichtigungen wie PVP-Events und Kopfgelder an"
+		},
+		"enableMercenaryAnimation": {
+			"eng": "Enable Mercenary Animation"
+		},
+		"enableMercenaryAnimationDescription": {
+			"eng": "When enabled, epic tier mercenaries will display as animation. Disable to show static images instead",
+			"trans": "Wenn aktiviert, werden Söldner des epischen Tiers als Animation angezeigt. Deaktivieren Sie es, um stattdessen statische Bilder anzuzeigen"
 		},
 		"enablePowerSavingMode": {
 			"eng": "Enable Power Saving Mode",

@@ -2459,6 +2459,50 @@
 			"trans": "拆解"
 		}
 	},
+	"displayShelf": {
+		"confirmUnlock": {
+			"eng": "Unlock Slot ${i}?",
+			"trans": "解鎖${i}號槽？"
+		},
+		"empty": {
+			"eng": "Empty",
+			"trans": "空"
+		},
+		"error": {
+			"lowLevel": {
+				"eng": "You need to reach level ${level}",
+				"trans": "你需要達到等級${level}"
+			},
+			"noMoney": {
+				"eng": "Not enough ${currency}",
+				"trans": "${currency}不夠"
+			}
+		},
+		"locked": {
+			"eng": "Locked",
+			"trans": "已鎖定"
+		},
+		"selectItem": {
+			"eng": "Select Item",
+			"trans": "選擇物品"
+		},
+		"slot": {
+			"eng": "Slot ${i}",
+			"trans": "插槽 ${i}"
+		},
+		"title": {
+			"eng": "Display Shelf",
+			"trans": "展示架"
+		},
+		"unlockHint": {
+			"eng": "Click a locked slot to unlock (Lv ${level} + ${price} ${currency})",
+			"trans": "點擊鎖定的格子即可解鎖（Lv ${level} ＋ ${price} ${currency}）"
+		},
+		"unlockReqFull": {
+			"eng": "Requires Level ${level} and ${price} ${currency}",
+			"trans": "需等級${level}及${price} ${currency}"
+		}
+	},
 	"drawMercAnimation": {
 		"activate": {
 			"eng": "activate",
@@ -9718,6 +9762,12 @@
 				"trans": "找不到推薦人"
 			}
 		},
+		"displayShelf": {
+			"maxed": {
+				"eng": "All display shelf slots are already unlocked",
+				"trans": "所有展示架格位都已經解鎖"
+			}
+		},
 		"dungeon": {
 			"bossSummoned": {
 				"eng": "${playerName} has summoned the boss",
@@ -10023,6 +10073,14 @@
 		"enableInGameAnnouncementDescription2": {
 			"eng": "Show in-game notification such as PVP event and bounty",
 			"trans": "顯示遊戲內通知，例如PVP事件和賞金活動"
+		},
+		"enableMercenaryAnimation": {
+			"eng": "Enable Mercenary Animation",
+			"trans": "啟用傭兵動畫"
+		},
+		"enableMercenaryAnimationDescription": {
+			"eng": "When enabled, epic tier mercenaries will display as animation. Disable to show static images instead",
+			"trans": "啟用時，史詩階級傭兵會以動畫形式顯示。關閉則顯示靜態圖片取而代之"
 		},
 		"enablePowerSavingMode": {
 			"eng": "Enable Power Saving Mode",

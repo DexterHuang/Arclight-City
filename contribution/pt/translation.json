@@ -2459,6 +2459,50 @@
 			"trans": "Desmantelar"
 		}
 	},
+	"displayShelf": {
+		"confirmUnlock": {
+			"eng": "Unlock Slot ${i}?",
+			"trans": "Desbloquear slot ${i}?"
+		},
+		"empty": {
+			"eng": "Empty",
+			"trans": "Empty"
+		},
+		"error": {
+			"lowLevel": {
+				"eng": "You need to reach level ${level}",
+				"trans": "Você precisa atingir o nível ${level}"
+			},
+			"noMoney": {
+				"eng": "Not enough ${currency}",
+				"trans": "${currency} insuficiente"
+			}
+		},
+		"locked": {
+			"eng": "Locked",
+			"trans": "Bloqueado"
+		},
+		"selectItem": {
+			"eng": "Select Item",
+			"trans": "Selecionar Item"
+		},
+		"slot": {
+			"eng": "Slot ${i}",
+			"trans": "Slot ${i}"
+		},
+		"title": {
+			"eng": "Display Shelf",
+			"trans": "prateleira de exibição"
+		},
+		"unlockHint": {
+			"eng": "Click a locked slot to unlock (Lv ${level} + ${price} ${currency})",
+			"trans": "Clique em um slot trancado para desbloquear (Lv ${level} + ${price} ${currency})"
+		},
+		"unlockReqFull": {
+			"eng": "Requires Level ${level} and ${price} ${currency}",
+			"trans": "Requer Nível ${level} e ${price} ${currency}"
+		}
+	},
 	"drawMercAnimation": {
 		"activate": {
 			"eng": "activate",
@@ -9718,6 +9762,11 @@
 				"trans": "Referente não encontrado"
 			}
 		},
+		"displayShelf": {
+			"maxed": {
+				"eng": "All display shelf slots are already unlocked"
+			}
+		},
 		"dungeon": {
 			"bossSummoned": {
 				"eng": "${playerName} has summoned the boss",
@@ -10023,6 +10072,14 @@
 		"enableInGameAnnouncementDescription2": {
 			"eng": "Show in-game notification such as PVP event and bounty",
 			"trans": "Mostrar notificação no jogo, como evento PVP e recompensa"
+		},
+		"enableMercenaryAnimation": {
+			"eng": "Enable Mercenary Animation",
+			"trans": "Habilitar Animação de Mercenário"
+		},
+		"enableMercenaryAnimationDescription": {
+			"eng": "When enabled, epic tier mercenaries will display as animation. Disable to show static images instead",
+			"trans": "Quando ativado, mercênios de tier épica serão exibidos como animação. Desative para mostrar imagens estáticas em vez disso"
 		},
 		"enablePowerSavingMode": {
 			"eng": "Enable Power Saving Mode",

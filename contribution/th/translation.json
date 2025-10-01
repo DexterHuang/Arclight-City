@@ -2459,6 +2459,50 @@
 			"trans": "รื้อ"
 		}
 	},
+	"displayShelf": {
+		"confirmUnlock": {
+			"eng": "Unlock Slot ${i}?",
+			"trans": "ปลดล็อคช่อง ${i} ไหม?"
+		},
+		"empty": {
+			"eng": "Empty",
+			"trans": "ว่าง"
+		},
+		"error": {
+			"lowLevel": {
+				"eng": "You need to reach level ${level}",
+				"trans": "คุณต้องถึงระดับ ${level}"
+			},
+			"noMoney": {
+				"eng": "Not enough ${currency}",
+				"trans": "ไม่พอ ${currency}"
+			}
+		},
+		"locked": {
+			"eng": "Locked",
+			"trans": "ถูกล็อค"
+		},
+		"selectItem": {
+			"eng": "Select Item",
+			"trans": "เลือกไอเท็ม"
+		},
+		"slot": {
+			"eng": "Slot ${i}",
+			"trans": "ช่อง ${i}"
+		},
+		"title": {
+			"eng": "Display Shelf",
+			"trans": "ชั้นโชว์"
+		},
+		"unlockHint": {
+			"eng": "Click a locked slot to unlock (Lv ${level} + ${price} ${currency})",
+			"trans": "คลิกที่ช่องล็อคเพื่อปลดล็อค (Lv ${level} + ${price} ${currency})"
+		},
+		"unlockReqFull": {
+			"eng": "Requires Level ${level} and ${price} ${currency}",
+			"trans": "ต้องการระดับ ${level} และ ${price} ${currency}"
+		}
+	},
 	"drawMercAnimation": {
 		"activate": {
 			"eng": "activate",
@@ -9718,6 +9762,11 @@
 				"trans": "ไม่พบโค้ดอ้างอิง"
 			}
 		},
+		"displayShelf": {
+			"maxed": {
+				"eng": "All display shelf slots are already unlocked"
+			}
+		},
 		"dungeon": {
 			"bossSummoned": {
 				"eng": "${playerName} has summoned the boss",
@@ -10023,6 +10072,12 @@
 		"enableInGameAnnouncementDescription2": {
 			"eng": "Show in-game notification such as PVP event and bounty",
 			"trans": "โชว์การแจ้งเตือนในเกม: อีเวนต์ PVP และค่าหัว"
+		},
+		"enableMercenaryAnimation": {
+			"eng": "Enable Mercenary Animation"
+		},
+		"enableMercenaryAnimationDescription": {
+			"eng": "When enabled, epic tier mercenaries will display as animation. Disable to show static images instead"
 		},
 		"enablePowerSavingMode": {
 			"eng": "Enable Power Saving Mode",
