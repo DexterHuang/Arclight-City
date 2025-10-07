@@ -6,6 +6,10 @@
 
 **If you find an exploit, please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
+### 0.0.90
+
+-  Improved Auto Calibration UI, now it shows the amount of repair kits used, as it may be confusing to why multiple repair kits missing to some. (Auto Calibration automatically repairs if destroyed until it is calibrated successfully or stopped by player)
+
 ### 0.0.89
 
 -  Fixed issue with Intelligence Contracts not displaying correctly.
