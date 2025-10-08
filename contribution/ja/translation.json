@@ -678,6 +678,10 @@
 			"eng": "Destroy chance:",
 			"trans": "破損確率:"
 		},
+		"lastRepairUsed": {
+			"eng": "used ${count} ${repairItem} for repair",
+			"trans": "${count}個の${repairItem}を修理に使用しました"
+		},
 		"maxed": {
 			"eng": "Max Calibration Reached",
 			"trans": "最大キャリブレーションに達しました"
@@ -698,9 +702,9 @@
 			"eng": "Success chance:",
 			"trans": "成功確率:"
 		},
-		"tip": {
-			"eng": "Automatically calibrate and repair your item until it have successfully calibrated it once, or if you stopped the process.",
-			"trans": "アイテムを自動的にキャリブレーションして修理し、一度成功するまで続けるか、プロセスを停止するまでキャリブレーションを行います。"
+		"tipv2": {
+			"eng": "Automatically calibrate and repair your item until it have successfully calibrated it once, or if you stopped the process.\\nKeep in mind that this process will automatically repair your equipment with ${repairItem}.",
+			"trans": "アイテムは、一度成功裏にキャリブレートされるか、またはプロセスを停止するまで、自動的にキャリブレートおよび修理され続けます。なお、このプロセスでは${repairItem}を使用して装備が自動的に修理されます"
 		}
 	},
 	"autoFarm": {
@@ -7007,6 +7011,12 @@
 			"trans": "ユニーク"
 		}
 	},
+	"mercenaryImagePopup": {
+		"tierLabel": {
+			"eng": "Tier",
+			"trans": "ティア"
+		}
+	},
 	"mercenaryLevelDisplay": {
 		"levelUp": {
 			"eng": "Enhance",
@@ -9009,6 +9019,10 @@
 		"mostEfficient": {
 			"eng": "Best Value",
 			"trans": "最高の価値"
+		},
+		"topUpEventNames": {
+			"eng": "${eventName} Event Bonus",
+			"trans": "${eventName}イベントボーナス"
 		}
 	},
 	"promo": {
@@ -10075,7 +10089,8 @@
 			"trans": "PVPイベントやバウンティのゲーム内通知を表示する"
 		},
 		"enableMercenaryAnimation": {
-			"eng": "Enable Mercenary Animation"
+			"eng": "Enable Mercenary Animation",
+			"trans": "傭兵アニメーションを有効にする"
 		},
 		"enableMercenaryAnimationDescription": {
 			"eng": "When enabled, epic tier mercenaries will display as animation. Disable to show static images instead",

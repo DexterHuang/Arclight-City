@@ -678,6 +678,10 @@
 			"eng": "Destroy chance:",
 			"trans": "毀損機率"
 		},
+		"lastRepairUsed": {
+			"eng": "used ${count} ${repairItem} for repair",
+			"trans": "使用了${count} ${repairItem}進行修復"
+		},
 		"maxed": {
 			"eng": "Max Calibration Reached",
 			"trans": "最高校準達成"
@@ -698,9 +702,9 @@
 			"eng": "Success chance:",
 			"trans": "成功機率:"
 		},
-		"tip": {
-			"eng": "Automatically calibrate and repair your item until it have successfully calibrated it once, or if you stopped the process.",
-			"trans": "自動校準並修復您的物品，直到成功校準一次或是您手動停止。"
+		"tipv2": {
+			"eng": "Automatically calibrate and repair your item until it have successfully calibrated it once, or if you stopped the process.\\nKeep in mind that this process will automatically repair your equipment with ${repairItem}.",
+			"trans": "自動校準並修復您的物品，直至成功校準一次，或直到您停止流程為止。請注意，此流程將會使用${repairItem}自動修復您的裝備"
 		}
 	},
 	"autoFarm": {
@@ -7007,6 +7011,12 @@
 			"trans": "獨特"
 		}
 	},
+	"mercenaryImagePopup": {
+		"tierLabel": {
+			"eng": "Tier",
+			"trans": "階層"
+		}
+	},
 	"mercenaryLevelDisplay": {
 		"levelUp": {
 			"eng": "Enhance",
@@ -9009,6 +9019,10 @@
 		"mostEfficient": {
 			"eng": "Best Value",
 			"trans": "最超值"
+		},
+		"topUpEventNames": {
+			"eng": "${eventName} Event Bonus",
+			"trans": "${eventName} 活動獎勵"
 		}
 	},
 	"promo": {

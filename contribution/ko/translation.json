@@ -678,6 +678,10 @@
 			"eng": "Destroy chance:",
 			"trans": "파괴 확률:"
 		},
+		"lastRepairUsed": {
+			"eng": "used ${count} ${repairItem} for repair",
+			"trans": "${count}개의 ${repairItem}을(를) 수리에 사용했습니다"
+		},
 		"maxed": {
 			"eng": "Max Calibration Reached",
 			"trans": "최대 교정 달성"
@@ -698,9 +702,9 @@
 			"eng": "Success chance:",
 			"trans": "성공 확률:"
 		},
-		"tip": {
-			"eng": "Automatically calibrate and repair your item until it have successfully calibrated it once, or if you stopped the process.",
-			"trans": "아이템을 자동으로 교정하고 수리하며, 한 번 성공적으로 교정되거나 프로세스를 중지할 때까지 계속 교정합니다."
+		"tipv2": {
+			"eng": "Automatically calibrate and repair your item until it have successfully calibrated it once, or if you stopped the process.\\nKeep in mind that this process will automatically repair your equipment with ${repairItem}.",
+			"trans": "아이템을 자동으로 교정하고 수리하며, 이 과정은 아이템이 성공적으로 한 번 교정되거나 프로세스를 중단하시면 멈춥니다.\\n기억하십시오: 이 프로세스는 ${repairItem}을 사용해 장비를 자동으로 수리합니다."
 		}
 	},
 	"autoFarm": {
@@ -7007,6 +7011,12 @@
 			"trans": "유일"
 		}
 	},
+	"mercenaryImagePopup": {
+		"tierLabel": {
+			"eng": "Tier",
+			"trans": "티어"
+		}
+	},
 	"mercenaryLevelDisplay": {
 		"levelUp": {
 			"eng": "Enhance",
@@ -9009,6 +9019,10 @@
 		"mostEfficient": {
 			"eng": "Best Value",
 			"trans": "최고의 가치"
+		},
+		"topUpEventNames": {
+			"eng": "${eventName} Event Bonus",
+			"trans": "${eventName} 이벤트 보너스"
 		}
 	},
 	"promo": {

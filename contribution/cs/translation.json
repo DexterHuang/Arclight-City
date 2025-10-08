@@ -678,6 +678,10 @@
 			"eng": "Destroy chance:",
 			"trans": "Šance na zničení:"
 		},
+		"lastRepairUsed": {
+			"eng": "used ${count} ${repairItem} for repair",
+			"trans": "použito ${count} ${repairItem} na opravu"
+		},
 		"maxed": {
 			"eng": "Max Calibration Reached",
 			"trans": "Dosaženo maximální kalibrace"
@@ -698,9 +702,9 @@
 			"eng": "Success chance:",
 			"trans": "Šance na úspěch:"
 		},
-		"tip": {
-			"eng": "Automatically calibrate and repair your item until it have successfully calibrated it once, or if you stopped the process.",
-			"trans": "Automaticky kalibruje a opravuje předmět, dokud není úspěšně zkalibrovaný, nebo dokud proces nezastavíš."
+		"tipv2": {
+			"eng": "Automatically calibrate and repair your item until it have successfully calibrated it once, or if you stopped the process.\\nKeep in mind that this process will automatically repair your equipment with ${repairItem}.",
+			"trans": "Automaticky kalibruje a opravuje váš předmět dokud není úspěšně kalibrován jednou, nebo pokud zastavíte proces. Pamatujte, že tento proces automaticky opraví vaše vybavení pomocí ${repairItem}."
 		}
 	},
 	"autoFarm": {
@@ -7007,6 +7011,12 @@
 			"trans": "Unikátní"
 		}
 	},
+	"mercenaryImagePopup": {
+		"tierLabel": {
+			"eng": "Tier",
+			"trans": "Tier"
+		}
+	},
 	"mercenaryLevelDisplay": {
 		"levelUp": {
 			"eng": "Enhance",
@@ -9009,6 +9019,10 @@
 		"mostEfficient": {
 			"eng": "Best Value",
 			"trans": "Nejlepší hodnota"
+		},
+		"topUpEventNames": {
+			"eng": "${eventName} Event Bonus",
+			"trans": "${eventName} Akční bonus"
 		}
 	},
 	"promo": {
@@ -9764,7 +9778,8 @@
 		},
 		"displayShelf": {
 			"maxed": {
-				"eng": "All display shelf slots are already unlocked"
+				"eng": "All display shelf slots are already unlocked",
+				"trans": "Všechny sloty na zobrazovací poličce jsou už odemčeny"
 			}
 		},
 		"dungeon": {
@@ -10078,7 +10093,8 @@
 			"trans": "Povolit mercenářskou animaci"
 		},
 		"enableMercenaryAnimationDescription": {
-			"eng": "When enabled, epic tier mercenaries will display as animation. Disable to show static images instead"
+			"eng": "When enabled, epic tier mercenaries will display as animation. Disable to show static images instead",
+			"trans": "Když je zapnuté, epickí mercenáři se zobrazují jako animace. Vypněte, abyste místo toho viděli statické obrázky"
 		},
 		"enablePowerSavingMode": {
 			"eng": "Enable Power Saving Mode",

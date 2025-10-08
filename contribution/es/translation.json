@@ -678,6 +678,10 @@
 			"eng": "Destroy chance:",
 			"trans": "Probabilidad de destrucción:"
 		},
+		"lastRepairUsed": {
+			"eng": "used ${count} ${repairItem} for repair",
+			"trans": "Se han utilizado ${count} ${repairItem} para la reparación"
+		},
 		"maxed": {
 			"eng": "Max Calibration Reached",
 			"trans": "Máx. Calibración Alcanzada"
@@ -698,9 +702,9 @@
 			"eng": "Success chance:",
 			"trans": "Probabilidad de éxito:"
 		},
-		"tip": {
-			"eng": "Automatically calibrate and repair your item until it have successfully calibrated it once, or if you stopped the process.",
-			"trans": "Calibra y repara automáticamente tu objeto hasta la calibración exitosa una vez, o si detuviste el proceso."
+		"tipv2": {
+			"eng": "Automatically calibrate and repair your item until it have successfully calibrated it once, or if you stopped the process.\\nKeep in mind that this process will automatically repair your equipment with ${repairItem}.",
+			"trans": "Calibra y reparará automáticamente tu elemento hasta que lo haya calibrado con éxito una vez, o si detienes el proceso.\\nTener en cuenta que este proceso reparará automáticamente tu equipo con ${repairItem}."
 		}
 	},
 	"autoFarm": {
@@ -7007,6 +7011,12 @@
 			"trans": "Único"
 		}
 	},
+	"mercenaryImagePopup": {
+		"tierLabel": {
+			"eng": "Tier",
+			"trans": "Nivel"
+		}
+	},
 	"mercenaryLevelDisplay": {
 		"levelUp": {
 			"eng": "Enhance",
@@ -9009,6 +9019,10 @@
 		"mostEfficient": {
 			"eng": "Best Value",
 			"trans": "Mejor Valor"
+		},
+		"topUpEventNames": {
+			"eng": "${eventName} Event Bonus",
+			"trans": "${eventName} Bono de Evento"
 		}
 	},
 	"promo": {

@@ -678,6 +678,10 @@
 			"eng": "Destroy chance:",
 			"trans": "Peluang hancur:"
 		},
+		"lastRepairUsed": {
+			"eng": "used ${count} ${repairItem} for repair",
+			"trans": "Menggunakan ${count} ${repairItem} untuk perbaikan"
+		},
 		"maxed": {
 			"eng": "Max Calibration Reached",
 			"trans": "Maksimal Kalibrasi Terpenuhi"
@@ -698,9 +702,9 @@
 			"eng": "Success chance:",
 			"trans": "Peluang sukses:"
 		},
-		"tip": {
-			"eng": "Automatically calibrate and repair your item until it have successfully calibrated it once, or if you stopped the process.",
-			"trans": "Secara otomatis mengkalibrasi dan memperbaiki item Anda hingga berhasil dikalibrasi sekali, atau jika Anda menghentikan prosesnya."
+		"tipv2": {
+			"eng": "Automatically calibrate and repair your item until it have successfully calibrated it once, or if you stopped the process.\\nKeep in mind that this process will automatically repair your equipment with ${repairItem}.",
+			"trans": "Otomatis mengkalibrasi dan memperbaiki item Anda sampai berhasil dikalibrasi satu kali, atau jika Anda menghentikan proses.\\nIngat bahwa proses ini akan secara otomatis memperbaiki peralatan Anda menggunakan ${repairItem}"
 		}
 	},
 	"autoFarm": {
@@ -7007,6 +7011,12 @@
 			"trans": "Unik"
 		}
 	},
+	"mercenaryImagePopup": {
+		"tierLabel": {
+			"eng": "Tier",
+			"trans": "Tier"
+		}
+	},
 	"mercenaryLevelDisplay": {
 		"levelUp": {
 			"eng": "Enhance",
@@ -9009,6 +9019,10 @@
 		"mostEfficient": {
 			"eng": "Best Value",
 			"trans": "Nilai Terbaik"
+		},
+		"topUpEventNames": {
+			"eng": "${eventName} Event Bonus",
+			"trans": "${eventName} Bonus Acara"
 		}
 	},
 	"promo": {

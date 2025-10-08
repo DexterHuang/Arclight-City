@@ -678,6 +678,10 @@
 			"eng": "Destroy chance:",
 			"trans": "Zerstörungschance:"
 		},
+		"lastRepairUsed": {
+			"eng": "used ${count} ${repairItem} for repair",
+			"trans": "Benutzte ${count} ${repairItem} zur Reparatur"
+		},
 		"maxed": {
 			"eng": "Max Calibration Reached",
 			"trans": "Max. Kalibrierung erreicht"
@@ -698,9 +702,9 @@
 			"eng": "Success chance:",
 			"trans": "Erfolgschance:"
 		},
-		"tip": {
-			"eng": "Automatically calibrate and repair your item until it have successfully calibrated it once, or if you stopped the process.",
-			"trans": "Kalibriere und repariere deinen Gegenstand automatisch, bis er einmal erfolgreich kalibriert wurde oder du den Vorgang gestoppt hast."
+		"tipv2": {
+			"eng": "Automatically calibrate and repair your item until it have successfully calibrated it once, or if you stopped the process.\\nKeep in mind that this process will automatically repair your equipment with ${repairItem}.",
+			"trans": "Automatisch kalibriere und repariere dein Item bis der Vorgang es einmal erfolgreich kalibriert hat, oder du den Vorgang stoppst.Denke daran, dass dieser Vorgang automatisch deine Ausrüstung mit ${repairItem} reparieren wird."
 		}
 	},
 	"autoFarm": {
@@ -7007,6 +7011,12 @@
 			"trans": "Einzigartig"
 		}
 	},
+	"mercenaryImagePopup": {
+		"tierLabel": {
+			"eng": "Tier",
+			"trans": "Tier"
+		}
+	},
 	"mercenaryLevelDisplay": {
 		"levelUp": {
 			"eng": "Enhance",
@@ -9009,6 +9019,10 @@
 		"mostEfficient": {
 			"eng": "Best Value",
 			"trans": "Bestes Preis-Leistungs-Verhältnis"
+		},
+		"topUpEventNames": {
+			"eng": "${eventName} Event Bonus",
+			"trans": "${eventName} Event-Bonus"
 		}
 	},
 	"promo": {
@@ -9764,7 +9778,8 @@
 		},
 		"displayShelf": {
 			"maxed": {
-				"eng": "All display shelf slots are already unlocked"
+				"eng": "All display shelf slots are already unlocked",
+				"trans": "Alle Displayregal-Plätze sind bereits entsperrt"
 			}
 		},
 		"dungeon": {
@@ -10074,7 +10089,8 @@
 			"trans": "Zeige In-Game-Benachrichtigungen wie PVP-Events und Kopfgelder an"
 		},
 		"enableMercenaryAnimation": {
-			"eng": "Enable Mercenary Animation"
+			"eng": "Enable Mercenary Animation",
+			"trans": "Söldneranimation aktivieren"
 		},
 		"enableMercenaryAnimationDescription": {
 			"eng": "When enabled, epic tier mercenaries will display as animation. Disable to show static images instead",
