@@ -3195,6 +3195,20 @@
 			}
 		}
 	},
+	"eventTopUpRewardsBanner": {
+		"rewards": {
+			"eng": "Rewards:",
+			"trans": "Recompensas:"
+		},
+		"subtitle": {
+			"eng": "Available during: ${events}",
+			"trans": "Disponible durante: ${events}"
+		},
+		"title": {
+			"eng": "Event Top-Up Bonus",
+			"trans": "Bono de recarga del evento"
+		}
+	},
 	"feedbackPopup": {
 		"back": {
 			"eng": "Skip",
@@ -3921,6 +3935,10 @@
 	},
 	"instantDungeonPage": {
 		"advanced": {
+			"badge": {
+				"eng": "Bonus",
+				"trans": "Bono"
+			},
 			"banner": {
 				"eng": "Increased EXP and Loot",
 				"trans": "EXP y botín aumentados"
@@ -5763,6 +5781,754 @@
 			}
 		}
 	},
+	"landingPage": {
+		"activity": {
+			"battlepass1": {
+				"eng": "${player} claimed battle pass reward",
+				"trans": "${player} reclamó la recompensa del Pase de Batalla"
+			},
+			"bounty1": {
+				"eng": "$${amount} bounty was placed on ${player}'s head",
+				"trans": "Se ha puesto una recompensa de ${amount} en la cabeza de ${player}"
+			},
+			"bounty2": {
+				"eng": "${player} claimed bounty",
+				"trans": "${player} reclamó la recompensa"
+			},
+			"daily1": {
+				"eng": "${player} completed intelligence contract",
+				"trans": "El jugador ${player} completó el contrato de inteligencia"
+			},
+			"dungeon1": {
+				"eng": "${player} cleared dungeon boss",
+				"trans": "${player} derrotó al jefe de la mazmorra"
+			},
+			"instant1": {
+				"eng": "Hideout raid completed",
+				"trans": "Incursión en el escondite completada"
+			},
+			"lottery1": {
+				"eng": "${player} won lucky draw",
+				"trans": "${player} ganó la rifa"
+			},
+			"lottery2": {
+				"eng": "${player} won pachinko",
+				"trans": "${player} ganó Pachinko"
+			},
+			"market1": {
+				"eng": "a item was sold on black market",
+				"trans": "Artículo vendido en el mercado negro"
+			},
+			"market3": {
+				"eng": "Market order filled: ${amount}",
+				"trans": "Orden de mercado completada: ${amount}"
+			},
+			"mercenary1": {
+				"eng": "${player} recruited mercenary",
+				"trans": "${player} reclutó un mercenario"
+			},
+			"pvp1": {
+				"eng": "${player1} has mugged ${player2}",
+				"trans": "${player1} ha asaltado a ${player2}"
+			},
+			"pvp2": {
+				"eng": "${player1} has arrested ${player2}",
+				"trans": "${player1} ha arrestado a ${player2}"
+			},
+			"pvp3": {
+				"eng": "${player} eliminated a bounty target",
+				"trans": "${player} eliminó un objetivo de recompensa."
+			},
+			"stock1": {
+				"eng": "Stock surged +${amount}%",
+				"trans": "La acción subió +${amount}%"
+			},
+			"stock2": {
+				"eng": "Stock dropped -${amount}%",
+				"trans": "Acción bajó -${amount}%"
+			},
+			"territory1": {
+				"eng": "Territory war initiated",
+				"trans": "Inicio de guerra territorial"
+			},
+			"territory2": {
+				"eng": "Gang captured new territory",
+				"trans": "La banda capturó un nuevo territorio."
+			},
+			"territory3": {
+				"eng": "Territory defense successful",
+				"trans": "Territorio defendido con éxito"
+			},
+			"upgrade1": {
+				"eng": "${player} upgraded their equipment to +${tier}",
+				"trans": "El jugador ${player} mejoró su equipo a +${tier}"
+			}
+		},
+		"cta": {
+			"appStore": {
+				"eng": "Download on App Store",
+				"trans": "Descargar en la App Store"
+			},
+			"copy": {
+				"eng": "Sign in with email, Google, or guest access, rally your crew, and drop into the live shard—no paywall, no waitlist.",
+				"trans": "Inicia sesión con correo electrónico, Google o acceso de invitado; reúne a tu equipo y entra al shard vivo—sin muro de pago ni lista de espera."
+			},
+			"headline": {
+				"eng": "Play today on mobile or web",
+				"trans": "Juega hoy en móvil o web"
+			},
+			"overline": {
+				"eng": "Arclight City is live right now",
+				"trans": "Ciudad Arclight está en vivo ahora mismo"
+			},
+			"playStore": {
+				"eng": "Get it on Google Play",
+				"trans": "Descárgalo en Google Play"
+			},
+			"primary": {
+				"eng": "Play Now",
+				"trans": "Juega ahora"
+			}
+		},
+		"equipment": {
+			"copy": {
+				"eng": "Spend upgrade shards, calibrate, and reroll traits to dominate the battlefield.",
+				"trans": "Gasta fragmentos de mejora, calibra y vuelve a lanzar rasgos para dominar el campo de batalla."
+			},
+			"heading": {
+				"eng": "Unlimited Gear Customization and Enhancement",
+				"trans": "Personalización e mejora ilimitadas del equipamiento."
+			},
+			"overline": {
+				"eng": "Equipment // build your loadout",
+				"trans": "Equipo // Arma tu equipamiento"
+			},
+			"tagCalibration": {
+				"eng": "Calibration increases item stats across all tiers",
+				"trans": "La calibración aumenta las estadísticas de los objetos en todos los niveles."
+			},
+			"tagTrait": {
+				"eng": "Reset Shards reset item stats giving you a random set of traits",
+				"trans": "Restablece las estadísticas del objeto y te otorga un conjunto aleatorio de rasgos."
+			},
+			"tagUpgrade": {
+				"eng": "Upgrade shards increase item level and stats",
+				"trans": "Fragmentos de mejora aumentan el nivel y las estadísticas del objeto."
+			}
+		},
+		"features": {
+			"advancedCrafting": {
+				"description": {
+					"eng": "Upgrade and calibrate gear",
+					"trans": "Mejorar y calibrar equipo"
+				},
+				"detailed": {
+					"eng": "Upgrade equipment to higher tiers and calibrate for better stats. Craft consumables and other items to support your adventures.",
+					"trans": "Mejora tu equipo a niveles superiores y calibra para mejorar las estadísticas. Crea consumibles y otros artículos para respaldar tus aventuras."
+				},
+				"highlight": {
+					"eng": "LEGENDARY GEAR WITHIN REACH",
+					"trans": "Equipo legendario a tu alcance"
+				},
+				"title": {
+					"eng": "Equipment Upgrading",
+					"trans": "Actualización de Equipo"
+				}
+			},
+			"afkTasks": {
+				"description": {
+					"eng": "Earn rewards while offline",
+					"trans": "Obtén recompensas sin conexión"
+				},
+				"detailed": {
+					"eng": "Set up automated activities and background tasks that generate resources, experience, and rewards even when you're away from the game.",
+					"trans": "Configura actividades automáticas y tareas de fondo que generan recursos, experiencia y recompensas incluso cuando no estás jugando."
+				},
+				"highlight": {
+					"eng": "PROFIT WHILE YOU SLEEP",
+					"trans": "Gana mientras duermes"
+				},
+				"title": {
+					"eng": "Passive Income System",
+					"trans": "Sistema de Ingresos Pasivos"
+				}
+			},
+			"battlePass": {
+				"description": {
+					"eng": "Earn exclusive seasonal rewards",
+					"trans": "Gana recompensas exclusivas de temporada"
+				},
+				"detailed": {
+					"eng": "Progress through free and premium seasonal tracks with missions, milestone rewards, and exclusive cosmetics. Complete challenges to unlock tier-based prizes.",
+					"trans": "Avanza en las rutas estacionales gratuitas y premium con misiones, recompensas por hitos y cosméticos exclusivos. Completa desafíos para desbloquear premios por nivel."
+				},
+				"highlight": {
+					"eng": "SEASONS OF GLORY AWAIT YOU",
+					"trans": "Las temporadas de gloria te esperan"
+				},
+				"title": {
+					"eng": "Seasonal Progression",
+					"trans": "Progreso de Temporada"
+				}
+			},
+			"blackMarket": {
+				"description": {
+					"eng": "Trade with other players",
+					"trans": "Comerciar con otros jugadores"
+				},
+				"detailed": {
+					"eng": "Buy and sell items through the player-driven auction house. List your gear, place bids on others' items, and find great deals from fellow players.",
+					"trans": "Compra y vende artículos a través de la casa de subastas impulsada por jugadores. Publica tu equipo, haz pujas en los artículos de otros y encuentra grandes gangas con tus compañeros."
+				},
+				"highlight": {
+					"eng": "PLAYER-DRIVEN ECONOMY",
+					"trans": "Economía impulsada por los jugadores"
+				},
+				"title": {
+					"eng": "Player Market",
+					"trans": "Mercado de Jugadores"
+				}
+			},
+			"bountyHunting": {
+				"description": {
+					"eng": "Place or collect bounties",
+					"trans": "Colocar o recoger recompensas"
+				},
+				"detailed": {
+					"eng": "Place bounties on rival players or hunt down wanted targets for rewards. Track and eliminate high-value targets to collect lucrative bounties.",
+					"trans": "Coloca recompensas en jugadores rivales o persigue a los objetivos buscados para obtener recompensas.\nRastrea y elimina blancos de alto valor para recoger recompensas lucrativas."
+				},
+				"highlight": {
+					"eng": "BECOME THE CITY'S MOST FEARED",
+					"trans": "Conviértete en el más temido de la ciudad"
+				},
+				"title": {
+					"eng": "Bounty Hunting",
+					"trans": "Caza de recompensas"
+				}
+			},
+			"cookingSystem": {
+				"description": {
+					"eng": "Cook food for powerful buffs",
+					"trans": "Cocina alimentos para obtener poderosos buffs"
+				},
+				"detailed": {
+					"eng": "Gather ingredients from dungeons and various tasks, then cook them in your apartment's kitchen. Prepared meals grant powerful temporary buffs to enhance your performance.",
+					"trans": "Recoge ingredientes en mazmorras y otras tareas, luego cocínalos en la cocina de tu apartamento. Las comidas preparadas otorgan poderosas mejoras temporales que mejoran tu rendimiento."
+				},
+				"highlight": {
+					"eng": "MASTER CHEF OF THE STREETS",
+					"trans": "CHEF MAESTRO DE LAS CALLES"
+				},
+				"title": {
+					"eng": "Cooking System",
+					"trans": "Sistema de Cocina"
+				}
+			},
+			"dailyWeeklyMissions": {
+				"description": {
+					"eng": "Complete tasks for rewards",
+					"trans": "Completa tareas y recibe recompensas"
+				},
+				"detailed": {
+					"eng": "Take on daily quests and weekly intelligence contracts with escalating rewards and bonuses. Earn free daily rewards by login in everyday.",
+					"trans": "Acepta misiones diarias y contratos de inteligencia semanales con recompensas y bonificaciones crecientes. Obtén recompensas gratuitas cada día al iniciar sesión."
+				},
+				"highlight": {
+					"eng": "LOYALTY BRINGS FORTUNE",
+					"trans": "La lealtad trae fortuna"
+				},
+				"title": {
+					"eng": "Daily & Weekly Missions",
+					"trans": "Misiones Diarias y Semanales"
+				}
+			},
+			"dungeonRaids": {
+				"description": {
+					"eng": "Explore dungeons with your friends for loot",
+					"trans": "Explora mazmorras con tus amigos para conseguir botín"
+				},
+				"detailed": {
+					"eng": "Tackle challenging instanced dungeons with your squad or alone. Defeat powerful bosses, and claim legendary equipment and resources.",
+					"trans": "Enfrenta mazmorras de instancia desafiantes con tu escuadrón o solo. Derrota a jefes poderosos y reclama equipos legendarios y recursos."
+				},
+				"highlight": {
+					"eng": "EPIC LOOT FOR ELITE TEAMS",
+					"trans": "BOTÍN ÉPICO PARA EQUIPOS DE ELITE"
+				},
+				"title": {
+					"eng": "Realtime Co-Op Dungeon Raids",
+					"trans": "Incursiones de mazmorra cooperativas en tiempo real"
+				}
+			},
+			"globalChat": {
+				"description": {
+					"eng": "Chat with players worldwide",
+					"trans": "Chatea con jugadores de todo el mundo"
+				},
+				"detailed": {
+					"eng": "Join chat with real-time auto-translation across all supported languages, players worldwide meets in Arclight City",
+					"trans": "Únete al chat con traducción automática en tiempo real en todos los idiomas compatibles; jugadores de todo el mundo se reúnen en Ciudad Arclight."
+				},
+				"highlight": {
+					"eng": "SPEAK ANY LANGUAGE, UNDERSTOOD BY ALL",
+					"trans": "Habla en cualquier idioma, entendido por todos"
+				},
+				"title": {
+					"eng": "Borderless Communication",
+					"trans": "Comunicación sin Fronteras"
+				}
+			},
+			"heading": {
+				"eng": "What Awaits You",
+				"trans": "Lo que te espera"
+			},
+			"mercenarySquad": {
+				"description": {
+					"eng": "Recruit and upgrade mercenaries to join your crew",
+					"trans": "Contrata y mejora mercenarios para que se unan a tu equipo"
+				},
+				"detailed": {
+					"eng": "Build your squad with diverse mercenaries, each with unique stats, buffs and skills. Upgrade them and build your perfect crew.",
+					"trans": "Construye tu escuadrón con mercenarios diversos, cada uno con estadísticas, potenciadores y habilidades únicas. Mejora a todos y forma el equipo perfecto."
+				},
+				"highlight": {
+					"eng": "LEGENDARY CREW AT YOUR COMMAND",
+					"trans": "Tripulación legendaria bajo tu mando"
+				},
+				"title": {
+					"eng": "Mercenary Squad System",
+					"trans": "Sistema de Escuadrones Mercenarios"
+				}
+			},
+			"overline": {
+				"eng": "Game Features // Core Systems",
+				"trans": "Características del juego // Sistemas principales"
+			},
+			"panelTitle": {
+				"eng": "Feature briefing",
+				"trans": "Resumen de la función"
+			},
+			"playerEconomy": {
+				"description": {
+					"eng": "Trade stocks of mega corporations",
+					"trans": "Negociar acciones de megacorporaciones"
+				},
+				"detailed": {
+					"eng": "Invest in a realistic and unpredictable stock market reflecting real-world events and news. Buy and sell stocks of in-game mega corporations to make a profit.",
+					"trans": "Invierte en un mercado bursátil realista e impredecible que refleje eventos y noticias del mundo real. Compra y vende acciones de las megacorporaciones del juego para obtener ganancias."
+				},
+				"highlight": {
+					"eng": "CORPORATE WEALTH AWAITS",
+					"trans": "RIQUEZA CORPORATIVA TE ESPERA"
+				},
+				"title": {
+					"eng": "Stock Market Trading",
+					"trans": "Operaciones bursátiles"
+				}
+			},
+			"playerHousing": {
+				"description": {
+					"eng": "Own and customize your apartment",
+					"trans": "Adquiere y personaliza tu apartamento."
+				},
+				"detailed": {
+					"eng": "Claim your own apartment in the city complete with a personal vault and kitchen for cooking. Host visitors and create your personal cyberpunk sanctuary.",
+					"trans": "Reclama tu propio apartamento en la ciudad, con una bóveda personal y una cocina para cocinar. Aloja a tus visitantes y crea tu santuario cyberpunk personal."
+				},
+				"highlight": {
+					"eng": "YOUR SANCTUARY IN THE CITY",
+					"trans": "TU REFUGIO EN LA CIUDAD"
+				},
+				"title": {
+					"eng": "Player Housing",
+					"trans": "Vivienda del jugador"
+				}
+			},
+			"pvpCombat": {
+				"description": {
+					"eng": "Mug players or play as cops",
+					"trans": "Robar a los jugadores o jugar como policía"
+				},
+				"detailed": {
+					"eng": "Mug other players for their valuables or take on the role of law enforcement to arrest wanted criminals and maintain order in the city.",
+					"trans": "Robar a otros jugadores sus objetos valiosos o asumir el papel de la policía para arrestar criminales buscados y mantener el orden en la ciudad."
+				},
+				"highlight": {
+					"eng": "BECOME HUNTER OR LAWMAN",
+					"trans": "Conviértete en Cazador o Justiciero"
+				},
+				"title": {
+					"eng": "PvP Combat",
+					"trans": "Combate PvP"
+				}
+			},
+			"territoryControl": {
+				"description": {
+					"eng": "Capture districts and earn bonuses",
+					"trans": "Captura distritos y gana bonos"
+				},
+				"detailed": {
+					"eng": "Compete for district control, wage gang wars, and unlock exclusive bonuses in your territory.",
+					"trans": "Compite por el control del distrito, inicia guerras de bandas y desbloquea recompensas exclusivas en tu territorio."
+				},
+				"highlight": {
+					"eng": "DISTRICTS UNDER YOUR BANNER",
+					"trans": "Distritos bajo tu mando"
+				},
+				"title": {
+					"eng": "Territory Control",
+					"trans": "Control de Territorio"
+				}
+			},
+			"worldEvents": {
+				"description": {
+					"eng": "Daily in-game news reports",
+					"trans": "Noticias diarias del juego"
+				},
+				"detailed": {
+					"eng": "Stay informed with dynamically updated news reports that gets affected by all player activities, major events, and emerging stories in the cyberpunk world. Maybe your demise will be the next headline?",
+					"trans": "Mantente informado con reportes de noticias que se actualizan dinámicamente según tus acciones, los eventos clave y las historias emergentes del mundo cyberpunk. ¿Tu muerte será el próximo titular?"
+				},
+				"highlight": {
+					"eng": "YOUR ACTIONS MAKE HEADLINES",
+					"trans": "TUS ACCIONES HACEN TITULARES"
+				},
+				"title": {
+					"eng": "Dynamic News System",
+					"trans": "Sistema de Noticias Dinámicas"
+				}
+			}
+		},
+		"hero": {
+			"appStore": {
+				"eng": "Download on App Store",
+				"trans": "Descargar en la App Store"
+			},
+			"downloadMobile": {
+				"eng": "Download mobile app",
+				"trans": "Descargar la aplicación móvil"
+			},
+			"headline": {
+				"eng": "Arclight City",
+				"trans": "Ciudad Arclight"
+			},
+			"liveActivityLabel": {
+				"eng": "Live activity feed",
+				"trans": "Canal de actividad en vivo"
+			},
+			"metrics": {
+				"bounties": {
+					"eng": "Bounties Placed",
+					"trans": "Recompensas colocadas"
+				},
+				"pvpKills": {
+					"eng": "Player vs Player Deaths",
+					"trans": "Muertes en PvP"
+				},
+				"users": {
+					"eng": "Registered Cyberpunker",
+					"trans": "Ciberpunk registrado"
+				}
+			},
+			"orPlayOnBrowser": {
+				"eng": "Or play on browser",
+				"trans": "O juega en el navegador"
+			},
+			"overline": {
+				"eng": "Cyberpunk // TEXT-BASED MMORPG",
+				"trans": "Cyberpunk // MMORPG basado en texto"
+			},
+			"playStore": {
+				"eng": "Get it on Google Play",
+				"trans": "Descárgalo en Google Play"
+			},
+			"primaryCta": {
+				"eng": "Play on Browser",
+				"trans": "Jugar en el Navegador"
+			},
+			"subline": {
+				"eng": "Arclight City is a vibrant city where you can explore, fight, and trade in a cyberpunk world.",
+				"trans": "Ciudad Arclight es una ciudad vibrante donde puedes explorar, luchar y comerciar en un mundo cyberpunk."
+			}
+		},
+		"market": {
+			"copy": {
+				"eng": "Buy and sell corporate shares, monitor player-listed gear, and react to Flash Sales without leaving the dashboard.",
+				"trans": "Compra y vende acciones corporativas, supervisa el equipo listado por jugadores y reacciona a las Ventas Flash sin salir del panel."
+			},
+			"headline": {
+				"eng": "Track the Mega Corporations in real time",
+				"trans": "Monitorea las megacorporaciones en tiempo real."
+			},
+			"overline": {
+				"eng": "Realtime Stock Exchange // 24/7 Live in-game Stock Market",
+				"trans": "Bolsa en tiempo real // Mercado de acciones en vivo 24/7 dentro del juego"
+			},
+			"tag1": {
+				"eng": "Price action reacts to real-world events and news",
+				"trans": "Los precios reaccionan a eventos y noticias del mundo real."
+			},
+			"tag2": {
+				"eng": "Buy and sell stocks of in-game mega corporations",
+				"trans": "Compra y vende acciones de las megacorporaciones del juego"
+			},
+			"tag3": {
+				"eng": "Fair and unpredictable market derived on real-world data",
+				"trans": "Mercado justo e impredecible basado en datos del mundo real"
+			},
+			"tickerTitle": {
+				"eng": "Latest Netcoin board",
+				"trans": "Tablero de Netcoin más reciente"
+			}
+		},
+		"mercenary": {
+			"chromeReaper": {
+				"promotional": {
+					"eng": "Heavy firepower meets cybernetic fury",
+					"trans": "Fuerza de fuego pesada y furia cibernética"
+				},
+				"whisper": {
+					"eng": "When stealth fails, bring the chrome. When chrome fails... you were already dead",
+					"trans": "Si falla el sigilo, usa tu cromo. Si falla el cromo... ya estabas muerto."
+				}
+			},
+			"copy": {
+				"eng": "Unlock NPC mercenaries with unique roles, level them up, and build your perfect crew for gigs and raids.",
+				"trans": "Desbloquea mercenarios NPC con roles únicos, hazlos subir de nivel y construye tu equipo perfecto para trabajos y incursiones."
+			},
+			"crimsonRipper": {
+				"promotional": {
+					"eng": "Close-quarters carnage, guaranteed results",
+					"trans": "Carnicería cuerpo a cuerpo, resultados garantizados."
+				},
+				"whisper": {
+					"eng": "They say violence isn't the answer. They've never met my chainsaw",
+					"trans": "Dicen que la violencia no es la respuesta. Nunca han visto mi motosierra."
+				}
+			},
+			"ghostNet": {
+				"promotional": {
+					"eng": "Silent ops require silent partners",
+					"trans": "Operaciones silenciosas requieren aliados silenciosos."
+				},
+				"whisper": {
+					"eng": "The shadows have eyes... and they're watching for you",
+					"trans": "Las sombras tienen ojos... y te observan."
+				}
+			},
+			"gravitySniper": {
+				"promotional": {
+					"eng": "Precision firepower when it matters most",
+					"trans": "Poder de fuego preciso cuando más importa"
+				},
+				"whisper": {
+					"eng": "Distance is just a number. Death is a certainty. Get yourself a sniper",
+					"trans": "La distancia es solo un número. La muerte es una certeza. Consigue un francotirador."
+				}
+			},
+			"heading": {
+				"eng": "Recruit specialists to support your squad",
+				"trans": "Recluta especialistas para apoyar a tu escuadrón."
+			},
+			"overline": {
+				"eng": "Mercenary companions",
+				"trans": "Compañeros mercenarios"
+			},
+			"shardHealer": {
+				"promotional": {
+					"eng": "Keep your crew combat-ready, 24/7",
+					"trans": "Mantén a tu equipo en modo de combate las 24 horas."
+				},
+				"whisper": {
+					"eng": "A crew that bleeds together... needs someone who can put them back together",
+					"trans": "Una tripulación unida por la sangre... necesita a quien los una de nuevo."
+				}
+			},
+			"tag1": {
+				"eng": "Upgrade mercenaries to increase their stats",
+				"trans": "Mejora los mercenarios para aumentar sus estadísticas."
+			},
+			"tag2": {
+				"eng": "Unique abilities to synergize with your crew",
+				"trans": "Habilidades únicas que potencian la sinergia con tu equipo"
+			}
+		},
+		"nav": {
+			"title": {
+				"eng": "ARCLIGHT CITY",
+				"trans": "Ciudad Arclight"
+			}
+		},
+		"news": {
+			"cityNews": {
+				"eng": "CITY NEWS",
+				"trans": "Noticias de la ciudad"
+			},
+			"copy": {
+				"eng": "Every gang war, bounty kill, and major deal triggers real news reports. Upgrade your gear? Launch a territory raid? YOU could be on tomorrow's front page.",
+				"trans": "Cada guerra entre bandas, cada muerte por recompensa y cada gran traspaso generan reportes reales en los medios. ¿Mejoras tu equipo? ¿Lanzas una incursión territorial? Podrías estar en la portada de mañana."
+			},
+			"defaultTag": {
+				"eng": "News",
+				"trans": "Noticias"
+			},
+			"goToNews": {
+				"eng": "Go to news ${index}",
+				"trans": "Ir a la noticia ${index}"
+			},
+			"heading": {
+				"eng": "YOUR ACTIONS MAKE THE HEADLINES",
+				"trans": "TUS ACCIONES HACEN LOS TITULARES"
+			},
+			"live": {
+				"eng": "● LIVE",
+				"trans": "● En vivo"
+			},
+			"next": {
+				"eng": "Next news",
+				"trans": "Siguiente noticia"
+			},
+			"noNews": {
+				"eng": "No news available at the moment",
+				"trans": "Sin noticias por el momento"
+			},
+			"overline": {
+				"eng": "LIVE WORLD EVENTS // PLAYER-DRIVEN NARRATIVE",
+				"trans": "EVENTOS EN VIVO DEL MUNDO // NARRATIVA IMPULSADA POR EL JUGADOR"
+			},
+			"previous": {
+				"eng": "Previous news",
+				"trans": "Noticias anteriores"
+			},
+			"reportBy": {
+				"eng": "REPORT BY",
+				"trans": "Reportado por"
+			},
+			"tagDynamic": {
+				"eng": "Dynamic World System",
+				"trans": "Sistema de Mundo Dinámico"
+			},
+			"tagPlayerDriven": {
+				"eng": "Player-Driven Stories",
+				"trans": "Historias impulsadas por jugadores"
+			},
+			"tagRealTime": {
+				"eng": "Real-Time Updates",
+				"trans": "Actualizaciones en tiempo real"
+			}
+		},
+		"showcase": {
+			"choiceOutcome": {
+				"description": {
+					"eng": "Face critical decisions during dungeon encounters. Risk it all for rewards, play it safe, or flee—every choice has consequences.",
+					"trans": "Toma decisiones críticas durante los enfrentamientos en mazmorras. Arriesga todo por recompensas, juega seguro o huye—cada elección conlleva consecuencias."
+				},
+				"tag": {
+					"eng": "Make your own choices",
+					"trans": "Haz tus propias elecciones"
+				},
+				"title": {
+					"eng": "Navigate risk vs reward encounters",
+					"trans": "Navega entre encuentros de riesgo y recompensa."
+				}
+			},
+			"copy": {
+				"eng": "Real in-game screenshots showcasing tactical combat, deep lore, and endless progression",
+				"trans": "Capturas reales del juego con combate táctico, historia profunda y progresión infinita."
+			},
+			"dungeonLobby": {
+				"description": {
+					"eng": "Form parties, assign roles, and launch procedural dungeons with unique loot tables and boss encounters.",
+					"trans": "Forma grupos, asigna roles y lanza mazmorras procedurales con tablas de botín únicas y encuentros con jefes."
+				},
+				"tag": {
+					"eng": "Dungeon System",
+					"trans": "Sistema de Mazmorras"
+				},
+				"title": {
+					"eng": "Queue squads for instanced raids",
+					"trans": "Enfilear escuadrones para raids de instancia"
+				}
+			},
+			"heading": {
+				"eng": "See What Awaits You in the Neon Wasteland",
+				"trans": "Descubre lo que te espera en el Desierto de Neón"
+			},
+			"loreCollection": {
+				"description": {
+					"eng": "Unlock narrative fragments and codex bonuses as you explore the cyberpunk world and complete missions.",
+					"trans": "Desbloquea fragmentos narrativos y bonos de códice mientras exploras el mundo cyberpunk y completas misiones."
+				},
+				"tag": {
+					"eng": "Lore System",
+					"trans": "Sistema de Historia"
+				},
+				"title": {
+					"eng": "Discover world lore and collectible entries",
+					"trans": "Descubre la historia del mundo y los objetos coleccionables"
+				}
+			},
+			"minigameRewards": {
+				"description": {
+					"eng": "Multiple minigames to unlock chests in dungeons",
+					"trans": "Múltiples minijuegos para desbloquear cofres en mazmorras"
+				},
+				"tag": {
+					"eng": "Minigames",
+					"trans": "Minijuegos"
+				},
+				"title": {
+					"eng": "Skill challenges with targeted loot",
+					"trans": "Desafíos de habilidades con botín objetivo"
+				}
+			},
+			"overline": {
+				"eng": "Game Captures",
+				"trans": "Capturas del juego"
+			},
+			"turnBasedCombat": {
+				"description": {
+					"eng": "Strategic combat with hit/miss/crit mechanics, damage mitigation, build your perfect crew and loadout.",
+					"trans": "Combate estratégico con mecánicas de acierto/fallo/crítico, mitigación del daño, construye tu equipo y carga perfecta."
+				},
+				"tag": {
+					"eng": "Combat System",
+					"trans": "Sistema de Combate"
+				},
+				"title": {
+					"eng": "Tactical turn-based encounters",
+					"trans": "Combate táctico por turnos"
+				}
+			}
+		},
+		"testimonial": {
+			"copy": {
+				"eng": "Verified players from around the world share their experiences with Arclight City",
+				"trans": "Jugadores verificados de todo el mundo comparten sus experiencias en Arclight City."
+			},
+			"heading": {
+				"eng": "Verified by players worldwide",
+				"trans": "Verificado por jugadores de todo el mundo"
+			},
+			"label": {
+				"eng": "Google Play Review",
+				"trans": "Reseña en Google Play"
+			},
+			"overline": {
+				"eng": "Playstore x AppStore // trust signals",
+				"trans": "Playstore x AppStore // Señales de confianza"
+			},
+			"rating": {
+				"eng": "4.9 rating on Playstore",
+				"trans": "Calificación 4,9 en Play Store"
+			},
+			"reviewCount": {
+				"eng": "13k+ reviews",
+				"trans": "13 000+ reseñas"
+			}
+		}
+	},
 	"leaderboard": {
 		"clan": {
 			"name": {
@@ -6225,6 +6991,10 @@
 		"processing": {
 			"eng": "Processing...",
 			"trans": "Procesando..."
+		},
+		"processing1": {
+			"eng": "PROCESSING",
+			"trans": "PROCESANDO"
 		},
 		"rewardUnlocked": {
 			"eng": "REWARD UNLOCKED!",

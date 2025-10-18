@@ -3195,6 +3195,20 @@
 			}
 		}
 	},
+	"eventTopUpRewardsBanner": {
+		"rewards": {
+			"eng": "Rewards:",
+			"trans": "報酬:"
+		},
+		"subtitle": {
+			"eng": "Available during: ${events}",
+			"trans": "対象イベント：${events}"
+		},
+		"title": {
+			"eng": "Event Top-Up Bonus",
+			"trans": "イベントチャージボーナス"
+		}
+	},
 	"feedbackPopup": {
 		"back": {
 			"eng": "Skip",
@@ -3921,6 +3935,10 @@
 	},
 	"instantDungeonPage": {
 		"advanced": {
+			"badge": {
+				"eng": "Bonus",
+				"trans": "ボーナス"
+			},
 			"banner": {
 				"eng": "Increased EXP and Loot",
 				"trans": "経験値と戦利品増加"
@@ -5763,6 +5781,754 @@
 			}
 		}
 	},
+	"landingPage": {
+		"activity": {
+			"battlepass1": {
+				"eng": "${player} claimed battle pass reward",
+				"trans": "${player}がバトルパス報酬を取得しました"
+			},
+			"bounty1": {
+				"eng": "$${amount} bounty was placed on ${player}'s head",
+				"trans": "$${amount}の賞金が${player}の首にかけられました"
+			},
+			"bounty2": {
+				"eng": "${player} claimed bounty",
+				"trans": "${player}が賞金を受領しました"
+			},
+			"daily1": {
+				"eng": "${player} completed intelligence contract",
+				"trans": "${player}が情報契約を完了しました"
+			},
+			"dungeon1": {
+				"eng": "${player} cleared dungeon boss",
+				"trans": "${player}がダンジョンボスをクリアしました"
+			},
+			"instant1": {
+				"eng": "Hideout raid completed",
+				"trans": "隠れ家襲撃完了"
+			},
+			"lottery1": {
+				"eng": "${player} won lucky draw",
+				"trans": "${player} がくじに当選しました"
+			},
+			"lottery2": {
+				"eng": "${player} won pachinko",
+				"trans": "${player}がパチンコで勝ちました"
+			},
+			"market1": {
+				"eng": "a item was sold on black market",
+				"trans": "アイテムが黒市で売られました。"
+			},
+			"market3": {
+				"eng": "Market order filled: ${amount}",
+				"trans": "成行注文約定済み：${amount}"
+			},
+			"mercenary1": {
+				"eng": "${player} recruited mercenary",
+				"trans": "${player}が傭兵を雇った"
+			},
+			"pvp1": {
+				"eng": "${player1} has mugged ${player2}",
+				"trans": "プレイヤー${player1}がプレイヤー${player2}を強盗した"
+			},
+			"pvp2": {
+				"eng": "${player1} has arrested ${player2}",
+				"trans": "${player1}が${player2}を逮捕した"
+			},
+			"pvp3": {
+				"eng": "${player} eliminated a bounty target",
+				"trans": "${player} が賞金ターゲットを排除しました"
+			},
+			"stock1": {
+				"eng": "Stock surged +${amount}%",
+				"trans": "株価が+${amount}%上昇"
+			},
+			"stock2": {
+				"eng": "Stock dropped -${amount}%",
+				"trans": "株価が-${amount}%下落"
+			},
+			"territory1": {
+				"eng": "Territory war initiated",
+				"trans": "テリトリー戦争開始"
+			},
+			"territory2": {
+				"eng": "Gang captured new territory",
+				"trans": "ギャングが新テリトリーを制圧した"
+			},
+			"territory3": {
+				"eng": "Territory defense successful",
+				"trans": "テリトリー防衛成功"
+			},
+			"upgrade1": {
+				"eng": "${player} upgraded their equipment to +${tier}",
+				"trans": "${player} が装備を+${tier}にアップグレードしました"
+			}
+		},
+		"cta": {
+			"appStore": {
+				"eng": "Download on App Store",
+				"trans": "App Storeでダウンロード"
+			},
+			"copy": {
+				"eng": "Sign in with email, Google, or guest access, rally your crew, and drop into the live shard—no paywall, no waitlist.",
+				"trans": "メール・Google・ゲストアクセスでログインし、仲間を集めてライブシャードに飛び込む—課金壁なし、待機リスト不要"
+			},
+			"headline": {
+				"eng": "Play today on mobile or web",
+				"trans": "今日モバイルまたはウェブでプレイ"
+			},
+			"overline": {
+				"eng": "Arclight City is live right now",
+				"trans": "アークライト・シティが稼働中です。"
+			},
+			"playStore": {
+				"eng": "Get it on Google Play",
+				"trans": "Google Playでダウンロード"
+			},
+			"primary": {
+				"eng": "Play Now",
+				"trans": "今すぐプレイ"
+			}
+		},
+		"equipment": {
+			"copy": {
+				"eng": "Spend upgrade shards, calibrate, and reroll traits to dominate the battlefield.",
+				"trans": "アップグレードシェルドを使い、調整し、特性をリロールして戦場を支配する"
+			},
+			"heading": {
+				"eng": "Unlimited Gear Customization and Enhancement",
+				"trans": "ギアの無制限カスタマイズと強化"
+			},
+			"overline": {
+				"eng": "Equipment // build your loadout",
+				"trans": "装備 // ロードアウトを作成"
+			},
+			"tagCalibration": {
+				"eng": "Calibration increases item stats across all tiers",
+				"trans": "キャリブレーションにより、全階層のアイテムステータスが上昇します"
+			},
+			"tagTrait": {
+				"eng": "Reset Shards reset item stats giving you a random set of traits",
+				"trans": "リセットシャードはアイテムのステータスをリセットし、ランダムな特性を付与します。"
+			},
+			"tagUpgrade": {
+				"eng": "Upgrade shards increase item level and stats",
+				"trans": "アップグレードシャードはアイテムレベルとステータスを上げます"
+			}
+		},
+		"features": {
+			"advancedCrafting": {
+				"description": {
+					"eng": "Upgrade and calibrate gear",
+					"trans": "装備のアップグレードとキャリブレーション"
+				},
+				"detailed": {
+					"eng": "Upgrade equipment to higher tiers and calibrate for better stats. Craft consumables and other items to support your adventures.",
+					"trans": "装備を高い階層へアップグレードし、ステータス向上のためにキャリブレーションしてください。消耗品やその他アイテムを作成して冒険をサポートしましょう。"
+				},
+				"highlight": {
+					"eng": "LEGENDARY GEAR WITHIN REACH",
+					"trans": "手の届くレジェンドギア"
+				},
+				"title": {
+					"eng": "Equipment Upgrading",
+					"trans": "装備強化"
+				}
+			},
+			"afkTasks": {
+				"description": {
+					"eng": "Earn rewards while offline",
+					"trans": "オフライン中でも報酬を獲得"
+				},
+				"detailed": {
+					"eng": "Set up automated activities and background tasks that generate resources, experience, and rewards even when you're away from the game.",
+					"trans": "ゲームに不在でも資源・経験値・報酬を自動で生成するアクティビティとバックグラウンドタスクを設定"
+				},
+				"highlight": {
+					"eng": "PROFIT WHILE YOU SLEEP",
+					"trans": "寝ている間に稼げる"
+				},
+				"title": {
+					"eng": "Passive Income System",
+					"trans": "パッシブインカムシステム"
+				}
+			},
+			"battlePass": {
+				"description": {
+					"eng": "Earn exclusive seasonal rewards",
+					"trans": "シーズン限定報酬をゲット"
+				},
+				"detailed": {
+					"eng": "Progress through free and premium seasonal tracks with missions, milestone rewards, and exclusive cosmetics. Complete challenges to unlock tier-based prizes.",
+					"trans": "無料と有料のシーズントラックをミッション・マイルストーン報酬・限定コスメで進める。挑戦を完了して階層別賞品を解放する。"
+				},
+				"highlight": {
+					"eng": "SEASONS OF GLORY AWAIT YOU",
+					"trans": "栄光の季節があなたを待っています"
+				},
+				"title": {
+					"eng": "Seasonal Progression",
+					"trans": "シーズン進捗"
+				}
+			},
+			"blackMarket": {
+				"description": {
+					"eng": "Trade with other players",
+					"trans": "他のプレイヤーと取引"
+				},
+				"detailed": {
+					"eng": "Buy and sell items through the player-driven auction house. List your gear, place bids on others' items, and find great deals from fellow players.",
+					"trans": "プレイヤー主導のオークションハウスでアイテムを売買できます。装備を出品し、他者のアイテムに入札して仲間とお得な取引を見つけましょう。"
+				},
+				"highlight": {
+					"eng": "PLAYER-DRIVEN ECONOMY",
+					"trans": "プレイヤー主導経済"
+				},
+				"title": {
+					"eng": "Player Market",
+					"trans": "プレイヤーマーケット"
+				}
+			},
+			"bountyHunting": {
+				"description": {
+					"eng": "Place or collect bounties",
+					"trans": "賞金を設定／回収"
+				},
+				"detailed": {
+					"eng": "Place bounties on rival players or hunt down wanted targets for rewards. Track and eliminate high-value targets to collect lucrative bounties.",
+					"trans": "ライバルプレイヤーに賞金をかけ、または要人を追跡して報酬を得よう。高価値ターゲットを追跡し撃破して大きな賞金を集めろ。"
+				},
+				"highlight": {
+					"eng": "BECOME THE CITY'S MOST FEARED",
+					"trans": "街で最恐者になろう"
+				},
+				"title": {
+					"eng": "Bounty Hunting",
+					"trans": "賞金稼ぎ"
+				}
+			},
+			"cookingSystem": {
+				"description": {
+					"eng": "Cook food for powerful buffs",
+					"trans": "強力なバフのために料理を作る"
+				},
+				"detailed": {
+					"eng": "Gather ingredients from dungeons and various tasks, then cook them in your apartment's kitchen. Prepared meals grant powerful temporary buffs to enhance your performance.",
+					"trans": "ダンジョンやタスクで素材を集め、アパートのキッチンで調理。作った料理は強力な一時バフを付与し、パフォーマンスを向上させます。"
+				},
+				"highlight": {
+					"eng": "MASTER CHEF OF THE STREETS",
+					"trans": "ストリート料理名人"
+				},
+				"title": {
+					"eng": "Cooking System",
+					"trans": "料理システム"
+				}
+			},
+			"dailyWeeklyMissions": {
+				"description": {
+					"eng": "Complete tasks for rewards",
+					"trans": "タスクを完了して報酬をゲット"
+				},
+				"detailed": {
+					"eng": "Take on daily quests and weekly intelligence contracts with escalating rewards and bonuses. Earn free daily rewards by login in everyday.",
+					"trans": "デイリークエストと週次情報契約で報酬・ボーナスが上昇。毎日ログインして無料報酬を獲得。"
+				},
+				"highlight": {
+					"eng": "LOYALTY BRINGS FORTUNE",
+					"trans": "忠誠が富をもたらす"
+				},
+				"title": {
+					"eng": "Daily & Weekly Missions",
+					"trans": "デイリーミッション＆ウィークリーミッション"
+				}
+			},
+			"dungeonRaids": {
+				"description": {
+					"eng": "Explore dungeons with your friends for loot",
+					"trans": "友達と一緒にダンジョンを探検し、報酬をゲットしよう"
+				},
+				"detailed": {
+					"eng": "Tackle challenging instanced dungeons with your squad or alone. Defeat powerful bosses, and claim legendary equipment and resources.",
+					"trans": "仲間や単独で難しいインスタンスダンジョンに挑戦。強力ボスを倒し、レジェンダリー装備と資源を獲得しよう。"
+				},
+				"highlight": {
+					"eng": "EPIC LOOT FOR ELITE TEAMS",
+					"trans": "エリートチーム向けのエピック戦利品"
+				},
+				"title": {
+					"eng": "Realtime Co-Op Dungeon Raids",
+					"trans": "リアルタイム協力ダンジョンレイド"
+				}
+			},
+			"globalChat": {
+				"description": {
+					"eng": "Chat with players worldwide",
+					"trans": "世界中のプレイヤーとチャット"
+				},
+				"detailed": {
+					"eng": "Join chat with real-time auto-translation across all supported languages, players worldwide meets in Arclight City",
+					"trans": "全言語対応のリアルタイム自動翻訳付きチャットに参加し、世界中のプレイヤーがアークライト・シティで集まります"
+				},
+				"highlight": {
+					"eng": "SPEAK ANY LANGUAGE, UNDERSTOOD BY ALL",
+					"trans": "どんな言語でも話せ、みんなに通じる"
+				},
+				"title": {
+					"eng": "Borderless Communication",
+					"trans": "ボーダーレス通信"
+				}
+			},
+			"heading": {
+				"eng": "What Awaits You",
+				"trans": "何があなたを待っている"
+			},
+			"mercenarySquad": {
+				"description": {
+					"eng": "Recruit and upgrade mercenaries to join your crew",
+					"trans": "傭兵を雇い、強化してクルーに加入する"
+				},
+				"detailed": {
+					"eng": "Build your squad with diverse mercenaries, each with unique stats, buffs and skills. Upgrade them and build your perfect crew.",
+					"trans": "多彩な傭兵で編成を作ろう。各傭兵はユニークなステータス、バフ、スキルを持つ。\n彼らをアップグレードし、完璧なクルーを構築しよう。"
+				},
+				"highlight": {
+					"eng": "LEGENDARY CREW AT YOUR COMMAND",
+					"trans": "伝説のクルー、あなたの指揮下に"
+				},
+				"title": {
+					"eng": "Mercenary Squad System",
+					"trans": "傭兵部隊システム"
+				}
+			},
+			"overline": {
+				"eng": "Game Features // Core Systems",
+				"trans": "ゲーム機能 // コアシステム"
+			},
+			"panelTitle": {
+				"eng": "Feature briefing",
+				"trans": "機能概要"
+			},
+			"playerEconomy": {
+				"description": {
+					"eng": "Trade stocks of mega corporations",
+					"trans": "巨大企業の株式取引"
+				},
+				"detailed": {
+					"eng": "Invest in a realistic and unpredictable stock market reflecting real-world events and news. Buy and sell stocks of in-game mega corporations to make a profit.",
+					"trans": "リアルで予測不可能な株式市場に投資し、現実世界の出来事やニュースを反映させる。ゲーム内メガ企業の株を売買して利益を得よう。"
+				},
+				"highlight": {
+					"eng": "CORPORATE WEALTH AWAITS",
+					"trans": "企業の富が待っています"
+				},
+				"title": {
+					"eng": "Stock Market Trading",
+					"trans": "株式取引"
+				}
+			},
+			"playerHousing": {
+				"description": {
+					"eng": "Own and customize your apartment",
+					"trans": "自分のアパートを所有し、カスタマイズする"
+				},
+				"detailed": {
+					"eng": "Claim your own apartment in the city complete with a personal vault and kitchen for cooking. Host visitors and create your personal cyberpunk sanctuary.",
+					"trans": "都市で自分だけのアパートを確保しよう。個人金庫と料理キッチン付き。訪問者を招待して、あなた専属のサイバーパンク聖域を作ろう。"
+				},
+				"highlight": {
+					"eng": "YOUR SANCTUARY IN THE CITY",
+					"trans": "都市の聖域"
+				},
+				"title": {
+					"eng": "Player Housing",
+					"trans": "プレイヤーハウジング"
+				}
+			},
+			"pvpCombat": {
+				"description": {
+					"eng": "Mug players or play as cops",
+					"trans": "プレイヤーを襲撃 / 警官としてプレイ"
+				},
+				"detailed": {
+					"eng": "Mug other players for their valuables or take on the role of law enforcement to arrest wanted criminals and maintain order in the city.",
+					"trans": "他のプレイヤーから貴重品を奪うか、警察として通緝犯を逮捕し街の秩序を守る。"
+				},
+				"highlight": {
+					"eng": "BECOME HUNTER OR LAWMAN",
+					"trans": "ハンターまたは法執行官になる"
+				},
+				"title": {
+					"eng": "PvP Combat",
+					"trans": "PvPバトル"
+				}
+			},
+			"territoryControl": {
+				"description": {
+					"eng": "Capture districts and earn bonuses",
+					"trans": "地区を制圧し、ボーナスを獲得"
+				},
+				"detailed": {
+					"eng": "Compete for district control, wage gang wars, and unlock exclusive bonuses in your territory.",
+					"trans": "地区支配に挑戦し、ギャング戦闘を繰り広げて、テリトリー内で限定ボーナスを解放しましょう。"
+				},
+				"highlight": {
+					"eng": "DISTRICTS UNDER YOUR BANNER",
+					"trans": "あなたの支配下の地区"
+				},
+				"title": {
+					"eng": "Territory Control",
+					"trans": "領域制圧"
+				}
+			},
+			"worldEvents": {
+				"description": {
+					"eng": "Daily in-game news reports",
+					"trans": "ゲーム内デイリーニュース"
+				},
+				"detailed": {
+					"eng": "Stay informed with dynamically updated news reports that gets affected by all player activities, major events, and emerging stories in the cyberpunk world. Maybe your demise will be the next headline?",
+					"trans": "サイバーパンク世界で、プレイヤー活動・大事件・新興ストーリーに合わせて動的更新されるニュースをチェックしよう。あなたの没落が次の見出しになるかも？"
+				},
+				"highlight": {
+					"eng": "YOUR ACTIONS MAKE HEADLINES",
+					"trans": "あなたの行動が見出しになる"
+				},
+				"title": {
+					"eng": "Dynamic News System",
+					"trans": "ダイナミックニュースシステム"
+				}
+			}
+		},
+		"hero": {
+			"appStore": {
+				"eng": "Download on App Store",
+				"trans": "App Storeでダウンロード"
+			},
+			"downloadMobile": {
+				"eng": "Download mobile app",
+				"trans": "モバイルアプリをダウンロード"
+			},
+			"headline": {
+				"eng": "Arclight City",
+				"trans": "アークライト・シティ"
+			},
+			"liveActivityLabel": {
+				"eng": "Live activity feed",
+				"trans": "ライブアクティビティフィード"
+			},
+			"metrics": {
+				"bounties": {
+					"eng": "Bounties Placed",
+					"trans": "賞金設定数"
+				},
+				"pvpKills": {
+					"eng": "Player vs Player Deaths",
+					"trans": "PvP死亡数"
+				},
+				"users": {
+					"eng": "Registered Cyberpunker",
+					"trans": "登録済みサイバーパンカー"
+				}
+			},
+			"orPlayOnBrowser": {
+				"eng": "Or play on browser",
+				"trans": "またはブラウザでプレイ"
+			},
+			"overline": {
+				"eng": "Cyberpunk // TEXT-BASED MMORPG",
+				"trans": "サイバーパンク // テキストベースMMORPG"
+			},
+			"playStore": {
+				"eng": "Get it on Google Play",
+				"trans": "Google Playでダウンロード"
+			},
+			"primaryCta": {
+				"eng": "Play on Browser",
+				"trans": "ブラウザでプレイ"
+			},
+			"subline": {
+				"eng": "Arclight City is a vibrant city where you can explore, fight, and trade in a cyberpunk world.",
+				"trans": "アークライト・シティは、サイバーパンクの世界で探索・戦闘・取引ができる活気ある都市です。"
+			}
+		},
+		"market": {
+			"copy": {
+				"eng": "Buy and sell corporate shares, monitor player-listed gear, and react to Flash Sales without leaving the dashboard.",
+				"trans": "企業株取引・プレイヤー装備監視・ダッシュボード上でフラッシュセールに即応"
+			},
+			"headline": {
+				"eng": "Track the Mega Corporations in real time",
+				"trans": "メガ企業をリアルタイムで追跡"
+			},
+			"overline": {
+				"eng": "Realtime Stock Exchange // 24/7 Live in-game Stock Market",
+				"trans": "リアルタイム株式取引所 // 24/7 ライブゲーム内株式市場"
+			},
+			"tag1": {
+				"eng": "Price action reacts to real-world events and news",
+				"trans": "価格変動は現実世界の出来事やニュースに反応する"
+			},
+			"tag2": {
+				"eng": "Buy and sell stocks of in-game mega corporations",
+				"trans": "ゲーム内メガ企業株取引"
+			},
+			"tag3": {
+				"eng": "Fair and unpredictable market derived on real-world data",
+				"trans": "実際のデータに基づく公平で予測不可能な市場"
+			},
+			"tickerTitle": {
+				"eng": "Latest Netcoin board",
+				"trans": "最新のNetcoinリーダーボード"
+			}
+		},
+		"mercenary": {
+			"chromeReaper": {
+				"promotional": {
+					"eng": "Heavy firepower meets cybernetic fury",
+					"trans": "重火力とサイバネティックフューリーが衝突"
+				},
+				"whisper": {
+					"eng": "When stealth fails, bring the chrome. When chrome fails... you were already dead",
+					"trans": "ステルスが失敗したら、クロムを装備しろ。クロムも失敗すれば…既に死んでいた。"
+				}
+			},
+			"copy": {
+				"eng": "Unlock NPC mercenaries with unique roles, level them up, and build your perfect crew for gigs and raids.",
+				"trans": "ユニークな役割のNPC傭兵をアンロックし、レベルアップしてギグと襲撃に最適な完璧なクルーを作ろう。"
+			},
+			"crimsonRipper": {
+				"promotional": {
+					"eng": "Close-quarters carnage, guaranteed results",
+					"trans": "近距離の凶戯、結果保証"
+				},
+				"whisper": {
+					"eng": "They say violence isn't the answer. They've never met my chainsaw",
+					"trans": "暴力は答えではないと言われている。俺のチェーンソーに会ったことはないだろう。"
+				}
+			},
+			"ghostNet": {
+				"promotional": {
+					"eng": "Silent ops require silent partners",
+					"trans": "静かな作戦には、沈黙の仲間が必要です。"
+				},
+				"whisper": {
+					"eng": "The shadows have eyes... and they're watching for you",
+					"trans": "影には目がある...そしてあなたを監視している。"
+				}
+			},
+			"gravitySniper": {
+				"promotional": {
+					"eng": "Precision firepower when it matters most",
+					"trans": "重要時の精密火力"
+				},
+				"whisper": {
+					"eng": "Distance is just a number. Death is a certainty. Get yourself a sniper",
+					"trans": "距離はただの数字だ。死は必然だ。スナイパーを手に入れろ。"
+				}
+			},
+			"heading": {
+				"eng": "Recruit specialists to support your squad",
+				"trans": "専門家を雇ってチームをサポート"
+			},
+			"overline": {
+				"eng": "Mercenary companions",
+				"trans": "傭兵仲間"
+			},
+			"shardHealer": {
+				"promotional": {
+					"eng": "Keep your crew combat-ready, 24/7",
+					"trans": "クルーを24時間体制で戦闘態勢に保つ"
+				},
+				"whisper": {
+					"eng": "A crew that bleeds together... needs someone who can put them back together",
+					"trans": "血を共に流すクルーは、再結成できる人を求めている"
+				}
+			},
+			"tag1": {
+				"eng": "Upgrade mercenaries to increase their stats",
+				"trans": "傭兵を強化して属性を上げる"
+			},
+			"tag2": {
+				"eng": "Unique abilities to synergize with your crew",
+				"trans": "クルーと相性抜群のユニークスキル"
+			}
+		},
+		"nav": {
+			"title": {
+				"eng": "ARCLIGHT CITY",
+				"trans": "アークライト・シティ"
+			}
+		},
+		"news": {
+			"cityNews": {
+				"eng": "CITY NEWS",
+				"trans": "都市ニュース"
+			},
+			"copy": {
+				"eng": "Every gang war, bounty kill, and major deal triggers real news reports. Upgrade your gear? Launch a territory raid? YOU could be on tomorrow's front page.",
+				"trans": "ギャング戦争、バウンティキル、大規模取引はすべて実際のニュースで報じられます。装備をアップグレードする？テリトリー襲撃を開始する？あなたは明日の表紙に載るかもしれません。"
+			},
+			"defaultTag": {
+				"eng": "News",
+				"trans": "ニュース"
+			},
+			"goToNews": {
+				"eng": "Go to news ${index}",
+				"trans": "ニュース${index}を開く"
+			},
+			"heading": {
+				"eng": "YOUR ACTIONS MAKE THE HEADLINES",
+				"trans": "あなたの行動が見出しになる"
+			},
+			"live": {
+				"eng": "● LIVE",
+				"trans": "● ライブ"
+			},
+			"next": {
+				"eng": "Next news",
+				"trans": "次のニュース"
+			},
+			"noNews": {
+				"eng": "No news available at the moment",
+				"trans": "現在、最新情報はありません"
+			},
+			"overline": {
+				"eng": "LIVE WORLD EVENTS // PLAYER-DRIVEN NARRATIVE",
+				"trans": "ライブ世界イベント // プレイヤー主導の物語"
+			},
+			"previous": {
+				"eng": "Previous news",
+				"trans": "過去のニュース"
+			},
+			"reportBy": {
+				"eng": "REPORT BY",
+				"trans": "報告者"
+			},
+			"tagDynamic": {
+				"eng": "Dynamic World System",
+				"trans": "ダイナミックワールドシステム"
+			},
+			"tagPlayerDriven": {
+				"eng": "Player-Driven Stories",
+				"trans": "プレイドリブンストーリー"
+			},
+			"tagRealTime": {
+				"eng": "Real-Time Updates",
+				"trans": "リアルタイム更新"
+			}
+		},
+		"showcase": {
+			"choiceOutcome": {
+				"description": {
+					"eng": "Face critical decisions during dungeon encounters. Risk it all for rewards, play it safe, or flee—every choice has consequences.",
+					"trans": "ダンジョンで重大な決断を迫られる。報酬のためにリスクを取るか、安全策に徹するか、逃げるか。どれも結果がある。"
+				},
+				"tag": {
+					"eng": "Make your own choices",
+					"trans": "自分で選ぶ"
+				},
+				"title": {
+					"eng": "Navigate risk vs reward encounters",
+					"trans": "リスク対報酬の遭遇をナビゲート"
+				}
+			},
+			"copy": {
+				"eng": "Real in-game screenshots showcasing tactical combat, deep lore, and endless progression",
+				"trans": "実際のゲーム内スクリーンショットで、戦術的な戦闘、深い物語、終わりのない進化を紹介"
+			},
+			"dungeonLobby": {
+				"description": {
+					"eng": "Form parties, assign roles, and launch procedural dungeons with unique loot tables and boss encounters.",
+					"trans": "パーティを結成し、ロールを設定して、ユニークな報酬表とボスが登場するプロシージャルダンジョンを開始"
+				},
+				"tag": {
+					"eng": "Dungeon System",
+					"trans": "ダンジョンシステム"
+				},
+				"title": {
+					"eng": "Queue squads for instanced raids",
+					"trans": "インスタンスレイド用スクワッドをキューに入れる"
+				}
+			},
+			"heading": {
+				"eng": "See What Awaits You in the Neon Wasteland",
+				"trans": "ネオン廃墟で何が待っているかを見る"
+			},
+			"loreCollection": {
+				"description": {
+					"eng": "Unlock narrative fragments and codex bonuses as you explore the cyberpunk world and complete missions.",
+					"trans": "サイバーパンクの世界を探索し、ミッションをクリアすると、物語の断片とコーデックスボーナスが解放されます。"
+				},
+				"tag": {
+					"eng": "Lore System",
+					"trans": "ロアシステム"
+				},
+				"title": {
+					"eng": "Discover world lore and collectible entries",
+					"trans": "世界の物語と収集品を発見"
+				}
+			},
+			"minigameRewards": {
+				"description": {
+					"eng": "Multiple minigames to unlock chests in dungeons",
+					"trans": "ダンジョンで宝箱を開けるための複数のミニゲーム"
+				},
+				"tag": {
+					"eng": "Minigames",
+					"trans": "ミニゲーム"
+				},
+				"title": {
+					"eng": "Skill challenges with targeted loot",
+					"trans": "特定報酬付きスキルチャレンジ"
+				}
+			},
+			"overline": {
+				"eng": "Game Captures",
+				"trans": "ゲームキャプチャ"
+			},
+			"turnBasedCombat": {
+				"description": {
+					"eng": "Strategic combat with hit/miss/crit mechanics, damage mitigation, build your perfect crew and loadout.",
+					"trans": "ヒット／ミス／クリティカル付きの戦略的戦闘。ダメージ軽減を活かし、理想のクルーと装備を構築せよ。"
+				},
+				"tag": {
+					"eng": "Combat System",
+					"trans": "戦闘システム"
+				},
+				"title": {
+					"eng": "Tactical turn-based encounters",
+					"trans": "戦術的 ターン制 戦闘"
+				}
+			}
+		},
+		"testimonial": {
+			"copy": {
+				"eng": "Verified players from around the world share their experiences with Arclight City",
+				"trans": "世界中の検証済みプレイヤーがアークライト・シティでの体験を共有しています"
+			},
+			"heading": {
+				"eng": "Verified by players worldwide",
+				"trans": "世界中のプレイヤーにより検証済み"
+			},
+			"label": {
+				"eng": "Google Play Review",
+				"trans": "Google Play レビュー"
+			},
+			"overline": {
+				"eng": "Playstore x AppStore // trust signals",
+				"trans": "Google Play ストア × Apple App Store // 信頼サイン"
+			},
+			"rating": {
+				"eng": "4.9 rating on Playstore",
+				"trans": "Google Playで4.9評価"
+			},
+			"reviewCount": {
+				"eng": "13k+ reviews",
+				"trans": "13,000+ レビュー"
+			}
+		}
+	},
 	"leaderboard": {
 		"clan": {
 			"name": {
@@ -6225,6 +6991,10 @@
 		"processing": {
 			"eng": "Processing...",
 			"trans": "処理中..."
+		},
+		"processing1": {
+			"eng": "PROCESSING",
+			"trans": "処理中"
 		},
 		"rewardUnlocked": {
 			"eng": "REWARD UNLOCKED!",

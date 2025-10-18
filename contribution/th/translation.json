@@ -3195,6 +3195,20 @@
 			}
 		}
 	},
+	"eventTopUpRewardsBanner": {
+		"rewards": {
+			"eng": "Rewards:",
+			"trans": "รางวัล:"
+		},
+		"subtitle": {
+			"eng": "Available during: ${events}",
+			"trans": "พร้อมใช้งานในช่วง: ${events}"
+		},
+		"title": {
+			"eng": "Event Top-Up Bonus",
+			"trans": "โบนัสเติมเงินอีเวนต์"
+		}
+	},
 	"feedbackPopup": {
 		"back": {
 			"eng": "Skip",
@@ -3921,6 +3935,10 @@
 	},
 	"instantDungeonPage": {
 		"advanced": {
+			"badge": {
+				"eng": "Bonus",
+				"trans": "โบนัส"
+			},
 			"banner": {
 				"eng": "Increased EXP and Loot",
 				"trans": "EXP และ Loot พุ่งพรวด"
@@ -5763,6 +5781,754 @@
 			}
 		}
 	},
+	"landingPage": {
+		"activity": {
+			"battlepass1": {
+				"eng": "${player} claimed battle pass reward",
+				"trans": "${player} ได้รับรางวัล Battle Pass"
+			},
+			"bounty1": {
+				"eng": "$${amount} bounty was placed on ${player}'s head",
+				"trans": "$${amount} รางวัลถูกตั้งบนศีรษะของ ${player}"
+			},
+			"bounty2": {
+				"eng": "${player} claimed bounty",
+				"trans": "${player} ได้รับค่าตัว"
+			},
+			"daily1": {
+				"eng": "${player} completed intelligence contract",
+				"trans": "${player} ทำสัญญาปัญญาเรียบร้อยแล้ว"
+			},
+			"dungeon1": {
+				"eng": "${player} cleared dungeon boss",
+				"trans": "${player} ชนะบอสในดันเจี้ยน"
+			},
+			"instant1": {
+				"eng": "Hideout raid completed",
+				"trans": "บุกฐานสำเร็จ"
+			},
+			"lottery1": {
+				"eng": "${player} won lucky draw",
+				"trans": "${player} ชนะการจับสลาก"
+			},
+			"lottery2": {
+				"eng": "${player} won pachinko",
+				"trans": "${player} ชนะ pachinko"
+			},
+			"market1": {
+				"eng": "a item was sold on black market",
+				"trans": "ไอเท็มถูกขายในตลาดมืด"
+			},
+			"market3": {
+				"eng": "Market order filled: ${amount}",
+				"trans": "คำสั่งซื้อแบบตลาดสำเร็จ: ${amount}"
+			},
+			"mercenary1": {
+				"eng": "${player} recruited mercenary",
+				"trans": "${player} จ้างนักรบอาชีพ"
+			},
+			"pvp1": {
+				"eng": "${player1} has mugged ${player2}",
+				"trans": "${player1} ไถ่ ${player2}"
+			},
+			"pvp2": {
+				"eng": "${player1} has arrested ${player2}",
+				"trans": "${player1} ได้จับกุม ${player2}"
+			},
+			"pvp3": {
+				"eng": "${player} eliminated a bounty target",
+				"trans": "${player} กำจัดเป้าหมายบาวน์"
+			},
+			"stock1": {
+				"eng": "Stock surged +${amount}%",
+				"trans": "หุ้นเพิ่มขึ้น +${amount}%"
+			},
+			"stock2": {
+				"eng": "Stock dropped -${amount}%",
+				"trans": "หุ้นลดลง -${amount}%"
+			},
+			"territory1": {
+				"eng": "Territory war initiated",
+				"trans": "สงครามอาณาเขตเริ่มต้น"
+			},
+			"territory2": {
+				"eng": "Gang captured new territory",
+				"trans": "แก๊งครอบครองย่านใหม่"
+			},
+			"territory3": {
+				"eng": "Territory defense successful",
+				"trans": "ป้องกันดินแดนสำเร็จ"
+			},
+			"upgrade1": {
+				"eng": "${player} upgraded their equipment to +${tier}",
+				"trans": "${player} อัปเกรดอุปกรณ์เป็น +${tier}"
+			}
+		},
+		"cta": {
+			"appStore": {
+				"eng": "Download on App Store",
+				"trans": "ดาวน์โหลดจาก App Store"
+			},
+			"copy": {
+				"eng": "Sign in with email, Google, or guest access, rally your crew, and drop into the live shard—no paywall, no waitlist.",
+				"trans": "ลงชื่อด้วยอีเมล, Google หรือเป็นแขก รวบรวมแก๊งของคุณ แล้วเข้าสู่เซิร์ฟเวอร์จริง—ไม่ต้องจ่ายเงิน ไม่ต้องรอคิว"
+			},
+			"headline": {
+				"eng": "Play today on mobile or web",
+				"trans": "เล่นวันนี้บนมือถือหรือเว็บ"
+			},
+			"overline": {
+				"eng": "Arclight City is live right now",
+				"trans": "นครราตรีกำลังออนไลน์อยู่ตอนนี้"
+			},
+			"playStore": {
+				"eng": "Get it on Google Play",
+				"trans": "ดาวน์โหลดบน Google Play"
+			},
+			"primary": {
+				"eng": "Play Now",
+				"trans": "เล่นเลย"
+			}
+		},
+		"equipment": {
+			"copy": {
+				"eng": "Spend upgrade shards, calibrate, and reroll traits to dominate the battlefield.",
+				"trans": "ใช้เม็ดอัปเกรด จูน และรีโรลคุณสมบัติเพื่อครอบงำสนามรบ"
+			},
+			"heading": {
+				"eng": "Unlimited Gear Customization and Enhancement",
+				"trans": "ปรับแต่งและเสริมอุปกรณ์ไม่มีขีดจำกัด"
+			},
+			"overline": {
+				"eng": "Equipment // build your loadout",
+				"trans": "อุปกรณ์ // สร้างชุดของคุณ"
+			},
+			"tagCalibration": {
+				"eng": "Calibration increases item stats across all tiers",
+				"trans": "การปรับเทียบเพิ่มสถิติของไอเทมตลอดทุกระดับ"
+			},
+			"tagTrait": {
+				"eng": "Reset Shards reset item stats giving you a random set of traits",
+				"trans": "Reset Shards รีเซ็ตสถิติไอเทมและให้คุณได้รับลักษณะสุ่ม"
+			},
+			"tagUpgrade": {
+				"eng": "Upgrade shards increase item level and stats",
+				"trans": "ชิ้นส่วนอัปเกรดเพิ่มระดับและสเตตัสของไอเทม"
+			}
+		},
+		"features": {
+			"advancedCrafting": {
+				"description": {
+					"eng": "Upgrade and calibrate gear",
+					"trans": "อัปเกรดและจูนอุปกรณ์"
+				},
+				"detailed": {
+					"eng": "Upgrade equipment to higher tiers and calibrate for better stats. Craft consumables and other items to support your adventures.",
+					"trans": "อัพเกรดอุปกรณ์เป็นระดับสูงขึ้นและจูนเพื่อเพิ่มสเตตัส สร้างของใช้และไอเทมอื่น ๆ เพื่อสนับสนุนการผจญภัย"
+				},
+				"highlight": {
+					"eng": "LEGENDARY GEAR WITHIN REACH",
+					"trans": "อุปกรณ์เลเจนดาร์ในมือได้แล้ว"
+				},
+				"title": {
+					"eng": "Equipment Upgrading",
+					"trans": "อัปเกรดอุปกรณ์"
+				}
+			},
+			"afkTasks": {
+				"description": {
+					"eng": "Earn rewards while offline",
+					"trans": "รับรางวัลเมื่อออฟไลน์"
+				},
+				"detailed": {
+					"eng": "Set up automated activities and background tasks that generate resources, experience, and rewards even when you're away from the game.",
+					"trans": "ตั้งค่ากิจกรรมอัตโนมัติและงานในเบื้องหลังที่สร้างทรัพยากร ประสบการณ์ และรางวัลได้แม้คุณอยู่นอกเกม."
+				},
+				"highlight": {
+					"eng": "PROFIT WHILE YOU SLEEP",
+					"trans": "ทำเงินขณะนอน"
+				},
+				"title": {
+					"eng": "Passive Income System",
+					"trans": "ระบบรายได้แบบพาสซีฟ"
+				}
+			},
+			"battlePass": {
+				"description": {
+					"eng": "Earn exclusive seasonal rewards",
+					"trans": "รับรางวัลพิเศษตามฤดูกาล"
+				},
+				"detailed": {
+					"eng": "Progress through free and premium seasonal tracks with missions, milestone rewards, and exclusive cosmetics. Complete challenges to unlock tier-based prizes.",
+					"trans": "เดินหน้าผ่านเส้นทางซีซันฟรีและพรีเมียมพร้อมภารกิจ รางวัลสำคัญ และสกินพิเศษ. ทำความท้าทายเพื่อปลดล็อกของรางวัลตามระดับ."
+				},
+				"highlight": {
+					"eng": "SEASONS OF GLORY AWAIT YOU",
+					"trans": "ฤดูกาลแห่งเกียรติยศกำลังรอคุณ"
+				},
+				"title": {
+					"eng": "Seasonal Progression",
+					"trans": "ความก้าวหน้าตามฤดูกาล"
+				}
+			},
+			"blackMarket": {
+				"description": {
+					"eng": "Trade with other players",
+					"trans": "ซื้อขายกับผู้เล่นอื่น"
+				},
+				"detailed": {
+					"eng": "Buy and sell items through the player-driven auction house. List your gear, place bids on others' items, and find great deals from fellow players.",
+					"trans": "ซื้อ-ขายสินค้าได้ผ่านห้องประมูลของผู้เล่น. ลงรายการอุปกรณ์, เสนอราคาสินค้าของผู้อื่น และค้นพบข้อเสนอสุดคุ้มจากเพื่อนในเกม."
+				},
+				"highlight": {
+					"eng": "PLAYER-DRIVEN ECONOMY",
+					"trans": "ระบบเศรษฐกิจแบบผู้เล่น"
+				},
+				"title": {
+					"eng": "Player Market",
+					"trans": "ตลาดผู้เล่น"
+				}
+			},
+			"bountyHunting": {
+				"description": {
+					"eng": "Place or collect bounties",
+					"trans": "ตั้งหรือรับรางวัล"
+				},
+				"detailed": {
+					"eng": "Place bounties on rival players or hunt down wanted targets for rewards. Track and eliminate high-value targets to collect lucrative bounties.",
+					"trans": "ตั้งค่าตัวบนผู้เล่นคู่แข่งหรือไล่จับเป้าหมายที่ต้องการเพื่อรับรางวัล ติดตามและกำจัดเป้าหมายสำคัญเพื่อเก็บค่าตัวทำกำไรสูง"
+				},
+				"highlight": {
+					"eng": "BECOME THE CITY'S MOST FEARED",
+					"trans": "กลายเป็นคนที่เกรงขามที่สุดในเมือง"
+				},
+				"title": {
+					"eng": "Bounty Hunting",
+					"trans": "ล่าตัวรางวัล"
+				}
+			},
+			"cookingSystem": {
+				"description": {
+					"eng": "Cook food for powerful buffs",
+					"trans": "ปรุงอาหารเพื่อรับบัฟแรง"
+				},
+				"detailed": {
+					"eng": "Gather ingredients from dungeons and various tasks, then cook them in your apartment's kitchen. Prepared meals grant powerful temporary buffs to enhance your performance.",
+					"trans": "รวบรวมวัตถุดิบจากดันเจี้ยนและภารกิจต่าง ๆ แล้วทำอาหารในครัวอพาร์ตเมนต์ของคุณ เมนูที่เตรียมแล้วจะให้บัฟชั่วคราวทรงพลังเพื่อเพิ่มประสิทธิภาพ"
+				},
+				"highlight": {
+					"eng": "MASTER CHEF OF THE STREETS",
+					"trans": "เชฟมือโปรของถนน"
+				},
+				"title": {
+					"eng": "Cooking System",
+					"trans": "ระบบทำอาหาร"
+				}
+			},
+			"dailyWeeklyMissions": {
+				"description": {
+					"eng": "Complete tasks for rewards",
+					"trans": "ทำภารกิจเพื่อรับรางวัล"
+				},
+				"detailed": {
+					"eng": "Take on daily quests and weekly intelligence contracts with escalating rewards and bonuses. Earn free daily rewards by login in everyday.",
+					"trans": "ทำภารกิจประจำวันและสัญญาปัญญารายสัปดาห์ พร้อมรางวัลและโบนัสเพิ่มขึ้น. ล็อกอินทุกวันเพื่อรับรางวัลฟรี."
+				},
+				"highlight": {
+					"eng": "LOYALTY BRINGS FORTUNE",
+					"trans": "ความภักดีนำโชค"
+				},
+				"title": {
+					"eng": "Daily & Weekly Missions",
+					"trans": "ภารกิจรายวันและสัปดาห์"
+				}
+			},
+			"dungeonRaids": {
+				"description": {
+					"eng": "Explore dungeons with your friends for loot",
+					"trans": "สำรวจดันเจี้ยนกับเพื่อนเพื่อหาไอเทม"
+				},
+				"detailed": {
+					"eng": "Tackle challenging instanced dungeons with your squad or alone. Defeat powerful bosses, and claim legendary equipment and resources.",
+					"trans": "เผชิญดันเจี้ยนอินสแตนซ์ที่ท้าทายได้ทั้งแบบทีมหรือเดี่ยว. ทำลายบอสอันทรงพลังแล้วรับอุปกรณ์และทรัพยากรเลเจนดี้"
+				},
+				"highlight": {
+					"eng": "EPIC LOOT FOR ELITE TEAMS",
+					"trans": "ขุมทรัพย์อีพิกสำหรับทีมเอลิท"
+				},
+				"title": {
+					"eng": "Realtime Co-Op Dungeon Raids",
+					"trans": "Raid ดันเจี้ยน Co‑Op แบบเรียลไทม์"
+				}
+			},
+			"globalChat": {
+				"description": {
+					"eng": "Chat with players worldwide",
+					"trans": "แชทกับผู้เล่นทั่วโลก"
+				},
+				"detailed": {
+					"eng": "Join chat with real-time auto-translation across all supported languages, players worldwide meets in Arclight City",
+					"trans": "เข้าร่วมแชทพร้อมการแปลอัตโนมัติแบบเรียลไทม์ในทุกภาษาที่รองรับ, ผู้เล่นจากทั่วโลกพบกันที่นครราตรี"
+				},
+				"highlight": {
+					"eng": "SPEAK ANY LANGUAGE, UNDERSTOOD BY ALL",
+					"trans": "พูดภาษาใดก็ได้ ทุกคนจะเข้าใจ"
+				},
+				"title": {
+					"eng": "Borderless Communication",
+					"trans": "สื่อสารไร้ขอบเขต"
+				}
+			},
+			"heading": {
+				"eng": "What Awaits You",
+				"trans": "สิ่งที่รอคุณอยู่"
+			},
+			"mercenarySquad": {
+				"description": {
+					"eng": "Recruit and upgrade mercenaries to join your crew",
+					"trans": "สรรหาและอัปเกรดทหารจ้างเพื่อเข้าร่วมทีมของคุณ"
+				},
+				"detailed": {
+					"eng": "Build your squad with diverse mercenaries, each with unique stats, buffs and skills. Upgrade them and build your perfect crew.",
+					"trans": "สร้างกองกำลังของคุณด้วยนักรบรับจ้างหลากหลายแต่ละคนมีสถิติ บัฟ และทักษะเฉพาะตัว อัปเกรดพวกเขาแล้วสร้างทีมที่สมบูรณ์แบบ"
+				},
+				"highlight": {
+					"eng": "LEGENDARY CREW AT YOUR COMMAND",
+					"trans": "ทีมตำนานของคุณ"
+				},
+				"title": {
+					"eng": "Mercenary Squad System",
+					"trans": "ระบบทีมลูกจ้าง"
+				}
+			},
+			"overline": {
+				"eng": "Game Features // Core Systems",
+				"trans": "ฟีเจอร์เกม // ระบบหลัก"
+			},
+			"panelTitle": {
+				"eng": "Feature briefing",
+				"trans": "สรุปฟีเจอร์"
+			},
+			"playerEconomy": {
+				"description": {
+					"eng": "Trade stocks of mega corporations",
+					"trans": "ซื้อขายหุ้นของบริษัทใหญ่"
+				},
+				"detailed": {
+					"eng": "Invest in a realistic and unpredictable stock market reflecting real-world events and news. Buy and sell stocks of in-game mega corporations to make a profit.",
+					"trans": "ลงทุนในตลาดหุ้นสมจริงและไม่แน่นอนตามเหตุการณ์และข่าวสารโลก ซื้อขายหุ้นของบริษัทใหญ่ในเกมเพื่อทำกำไร"
+				},
+				"highlight": {
+					"eng": "CORPORATE WEALTH AWAITS",
+					"trans": "รอความมั่งคั่งจากบริษัท"
+				},
+				"title": {
+					"eng": "Stock Market Trading",
+					"trans": "ซื้อขายหุ้น"
+				}
+			},
+			"playerHousing": {
+				"description": {
+					"eng": "Own and customize your apartment",
+					"trans": "เป็นเจ้าของและปรับแต่งอพาร์ตเมนต์ของคุณ"
+				},
+				"detailed": {
+					"eng": "Claim your own apartment in the city complete with a personal vault and kitchen for cooking. Host visitors and create your personal cyberpunk sanctuary.",
+					"trans": "รับอพาร์ตเมนต์ในเมืองของคุณ พร้อมตู่นิรภัยส่วนตัวและครัวทำอาหาร ต้อนรับแขกและสร้างสวรรค์ไซเบอร์ปังก์ของคุณเอง"
+				},
+				"highlight": {
+					"eng": "YOUR SANCTUARY IN THE CITY",
+					"trans": "ฐานปลอดภัยของคุณในเมือง"
+				},
+				"title": {
+					"eng": "Player Housing",
+					"trans": "บ้านผู้เล่น"
+				}
+			},
+			"pvpCombat": {
+				"description": {
+					"eng": "Mug players or play as cops",
+					"trans": "ขโมยผู้เล่น หรือ เล่นเป็นตำรวจ"
+				},
+				"detailed": {
+					"eng": "Mug other players for their valuables or take on the role of law enforcement to arrest wanted criminals and maintain order in the city.",
+					"trans": "ปล้นผู้เล่นคนอื่นเพื่อเก็บของมีค่า หรือทำหน้าที่เป็นเจ้าหน้าที่ตำรวจจับอาชญากรรมและรักษาความสงบในเมือง"
+				},
+				"highlight": {
+					"eng": "BECOME HUNTER OR LAWMAN",
+					"trans": "เป็นนักล่า หรือ ตำรวจ"
+				},
+				"title": {
+					"eng": "PvP Combat",
+					"trans": "การต่อสู้ PvP"
+				}
+			},
+			"territoryControl": {
+				"description": {
+					"eng": "Capture districts and earn bonuses",
+					"trans": "ครอบครองเขตและรับโบนัส"
+				},
+				"detailed": {
+					"eng": "Compete for district control, wage gang wars, and unlock exclusive bonuses in your territory.",
+					"trans": "แข่งเพื่อควบคุมเขต, ต่อสู้ในสงครามแก๊ง และปลดล็อกโบนัสพิเศษในเขตของคุณ."
+				},
+				"highlight": {
+					"eng": "DISTRICTS UNDER YOUR BANNER",
+					"trans": "เขตภายใต้ธงของคุณ"
+				},
+				"title": {
+					"eng": "Territory Control",
+					"trans": "ควบคุมเขต"
+				}
+			},
+			"worldEvents": {
+				"description": {
+					"eng": "Daily in-game news reports",
+					"trans": "ข่าวประจำวันในเกม"
+				},
+				"detailed": {
+					"eng": "Stay informed with dynamically updated news reports that gets affected by all player activities, major events, and emerging stories in the cyberpunk world. Maybe your demise will be the next headline?",
+					"trans": "ติดตามข่าวสารแบบไดนามิกที่อัปเดตตามกิจกรรมของผู้เล่น เหตุการณ์สำคัญ และเรื่องราวใหม่ ๆ ในโลกไซเบอร์พังค์ คุณอาจกลายเป็นหัวข้อถัดไป"
+				},
+				"highlight": {
+					"eng": "YOUR ACTIONS MAKE HEADLINES",
+					"trans": "การกระทำของคุณสร้างข่าวใหญ่"
+				},
+				"title": {
+					"eng": "Dynamic News System",
+					"trans": "ระบบข่าวไดนามิก"
+				}
+			}
+		},
+		"hero": {
+			"appStore": {
+				"eng": "Download on App Store",
+				"trans": "ดาวน์โหลดจาก App Store"
+			},
+			"downloadMobile": {
+				"eng": "Download mobile app",
+				"trans": "ดาวน์โหลดแอปมือถือ"
+			},
+			"headline": {
+				"eng": "Arclight City",
+				"trans": "นครราตรี"
+			},
+			"liveActivityLabel": {
+				"eng": "Live activity feed",
+				"trans": "ฟีดกิจกรรมสด"
+			},
+			"metrics": {
+				"bounties": {
+					"eng": "Bounties Placed",
+					"trans": "ค่าตัวที่ตั้ง"
+				},
+				"pvpKills": {
+					"eng": "Player vs Player Deaths",
+					"trans": "การตายใน PvP"
+				},
+				"users": {
+					"eng": "Registered Cyberpunker",
+					"trans": "ไซเบอร์พังค์ที่ลงทะเบียนแล้ว"
+				}
+			},
+			"orPlayOnBrowser": {
+				"eng": "Or play on browser",
+				"trans": "หรือเล่นบนเว็บ"
+			},
+			"overline": {
+				"eng": "Cyberpunk // TEXT-BASED MMORPG",
+				"trans": "Cyberpunk // MMORPG แบบข้อความ"
+			},
+			"playStore": {
+				"eng": "Get it on Google Play",
+				"trans": "ดาวน์โหลดบน Google Play"
+			},
+			"primaryCta": {
+				"eng": "Play on Browser",
+				"trans": "เล่นบนเบราว์เซอร์"
+			},
+			"subline": {
+				"eng": "Arclight City is a vibrant city where you can explore, fight, and trade in a cyberpunk world.",
+				"trans": "นครอาร์คลายท์เป็นเมืองสีสันสดใสที่คุณสามารถสำรวจ ต่อสู้ และทำธุรกรรมในโลกไซเบอร์พังค์ได้"
+			}
+		},
+		"market": {
+			"copy": {
+				"eng": "Buy and sell corporate shares, monitor player-listed gear, and react to Flash Sales without leaving the dashboard.",
+				"trans": "ซื้อ-ขายหุ้นบริษัท, ตรวจสอบอุปกรณ์ผู้เล่น, ตอบสนองต่อ Flash Sales โดยไม่ออกจากแดชบอร์ด"
+			},
+			"headline": {
+				"eng": "Track the Mega Corporations in real time",
+				"trans": "ติดตามเมกะคอร์ปอเรชั่นแบบเรียลไทม์"
+			},
+			"overline": {
+				"eng": "Realtime Stock Exchange // 24/7 Live in-game Stock Market",
+				"trans": "ตลาดหุ้นแบบเรียลไทม์ // ตลาดหุ้นในเกม ตลอด 24 ชั่วโมง"
+			},
+			"tag1": {
+				"eng": "Price action reacts to real-world events and news",
+				"trans": "ราคาเคลื่อนไหวตามเหตุการณ์จริงและข่าว"
+			},
+			"tag2": {
+				"eng": "Buy and sell stocks of in-game mega corporations",
+				"trans": "ซื้อและขายหุ้นของบริษัทใหญ่ในเกม"
+			},
+			"tag3": {
+				"eng": "Fair and unpredictable market derived on real-world data",
+				"trans": "ตลาดที่เป็นธรรมและไม่คาดเดาได้ อิงข้อมูลจริง"
+			},
+			"tickerTitle": {
+				"eng": "Latest Netcoin board",
+				"trans": "บอร์ดล่าสุดของไซเบอรฺบาท"
+			}
+		},
+		"mercenary": {
+			"chromeReaper": {
+				"promotional": {
+					"eng": "Heavy firepower meets cybernetic fury",
+					"trans": "กำลังยิงหนัก พบกับความโกรธไซเบอร์เนติก"
+				},
+				"whisper": {
+					"eng": "When stealth fails, bring the chrome. When chrome fails... you were already dead",
+					"trans": "เมื่อซ่อนตัวล้มเหลว ให้เรียกใช้ Chrome  \nถ้าใช้งาน Chrome ล้มเหลว... คุณก็ได้ตายแล้ว"
+				}
+			},
+			"copy": {
+				"eng": "Unlock NPC mercenaries with unique roles, level them up, and build your perfect crew for gigs and raids.",
+				"trans": "ปลดล็อก NPC จ้างหรือตัวละครที่มีบทบาทพิเศษ, เพิ่มระดับ, แล้วก่อตั้งทีมที่สมบูรณ์แบบสำหรับงานและการรุกราน"
+			},
+			"crimsonRipper": {
+				"promotional": {
+					"eng": "Close-quarters carnage, guaranteed results",
+					"trans": "ความโหดร้ายใกล้ชิด, ผลลัพธ์ที่แน่นอน"
+				},
+				"whisper": {
+					"eng": "They say violence isn't the answer. They've never met my chainsaw",
+					"trans": "พวกเขาบอกว่าความรุนแรงไม่ใช่วิธีแก้ แต่พวกเขายังไม่มีโอกาสเจอเครื่องตัดไม้ของฉัน"
+				}
+			},
+			"ghostNet": {
+				"promotional": {
+					"eng": "Silent ops require silent partners",
+					"trans": "ปฏิบัติการลับต้องใช้พันธมิตรเงียบ"
+				},
+				"whisper": {
+					"eng": "The shadows have eyes... and they're watching for you",
+					"trans": "เงามืดมีดวงตา... และกำลังจับตามองคุณ"
+				}
+			},
+			"gravitySniper": {
+				"promotional": {
+					"eng": "Precision firepower when it matters most",
+					"trans": "กำลังยิงแม่นยำเมื่อสำคัญที่สุด"
+				},
+				"whisper": {
+					"eng": "Distance is just a number. Death is a certainty. Get yourself a sniper",
+					"trans": "ระยะทางเป็นเพียงตัวเลข ความตายแน่นอน หาสไนเปอร์ให้ตัวเอง"
+				}
+			},
+			"heading": {
+				"eng": "Recruit specialists to support your squad",
+				"trans": "สรรหาผู้เชี่ยวชาญเพื่อสนับสนุนทีมของคุณ"
+			},
+			"overline": {
+				"eng": "Mercenary companions",
+				"trans": "คู่หูทหารรับจ้าง"
+			},
+			"shardHealer": {
+				"promotional": {
+					"eng": "Keep your crew combat-ready, 24/7",
+					"trans": "ทำให้แก๊งของคุณพร้อมต่อสู้ตลอด 24/7"
+				},
+				"whisper": {
+					"eng": "A crew that bleeds together... needs someone who can put them back together",
+					"trans": "ทีมที่ต่อสู้ร่วมกัน… ต้องการใครสักคนมารวบรวมพวกเขาอีกครั้ง"
+				}
+			},
+			"tag1": {
+				"eng": "Upgrade mercenaries to increase their stats",
+				"trans": "อัปเกรดทหารจ้างเพื่อเพิ่มสถิติ"
+			},
+			"tag2": {
+				"eng": "Unique abilities to synergize with your crew",
+				"trans": "ความสามารถพิเศษเพื่อซิงค์กับแก๊งของคุณ"
+			}
+		},
+		"nav": {
+			"title": {
+				"eng": "ARCLIGHT CITY",
+				"trans": "นครราตรี"
+			}
+		},
+		"news": {
+			"cityNews": {
+				"eng": "CITY NEWS",
+				"trans": "ข่าวเมือง"
+			},
+			"copy": {
+				"eng": "Every gang war, bounty kill, and major deal triggers real news reports. Upgrade your gear? Launch a territory raid? YOU could be on tomorrow's front page.",
+				"trans": "ทุกสงครามแก๊ง การฆาตกรรมที่มีรางวัล และข้อตกลงใหญ่ ๆ จะถูกรายงานในข่าวจริง.\nอัปเกรดอุปกรณ์ของคุณ? ดำเนินการรุกรานย่าน? คุณอาจปรากฏบนหน้าหนังสือพิมพ์หน้าแรกของวันพรุ่งนี้."
+			},
+			"defaultTag": {
+				"eng": "News",
+				"trans": "ข่าว"
+			},
+			"goToNews": {
+				"eng": "Go to news ${index}",
+				"trans": "ดูข่าว ${index}"
+			},
+			"heading": {
+				"eng": "YOUR ACTIONS MAKE THE HEADLINES",
+				"trans": "การกระทำของคุณสร้างหัวข้อข่าว"
+			},
+			"live": {
+				"eng": "● LIVE",
+				"trans": "● สด"
+			},
+			"next": {
+				"eng": "Next news",
+				"trans": "ข่าวถัดไป"
+			},
+			"noNews": {
+				"eng": "No news available at the moment",
+				"trans": "ยังไม่มีข่าว"
+			},
+			"overline": {
+				"eng": "LIVE WORLD EVENTS // PLAYER-DRIVEN NARRATIVE",
+				"trans": "อีเวนต์โลกสด // เนื้อเรื่องตามผู้เล่น"
+			},
+			"previous": {
+				"eng": "Previous news",
+				"trans": "ข่าวก่อนหน้า"
+			},
+			"reportBy": {
+				"eng": "REPORT BY",
+				"trans": "รายงานโดย"
+			},
+			"tagDynamic": {
+				"eng": "Dynamic World System",
+				"trans": "ระบบโลกไดนามิก"
+			},
+			"tagPlayerDriven": {
+				"eng": "Player-Driven Stories",
+				"trans": "เรื่องราวที่ผู้เล่นกำหนด"
+			},
+			"tagRealTime": {
+				"eng": "Real-Time Updates",
+				"trans": "อัปเดตเรียลไทม์"
+			}
+		},
+		"showcase": {
+			"choiceOutcome": {
+				"description": {
+					"eng": "Face critical decisions during dungeon encounters. Risk it all for rewards, play it safe, or flee—every choice has consequences.",
+					"trans": "เผชิญกับการตัดสินใจสำคัญระหว่างต่อสู้ในดันเจี้ยน เสี่ยงทั้งหมดเพื่อรางวัล เล่นปลอดภัย หรือหนี—ทุกทางเลือกมีผลกระทบ"
+				},
+				"tag": {
+					"eng": "Make your own choices",
+					"trans": "เลือกแบบของคุณเอง"
+				},
+				"title": {
+					"eng": "Navigate risk vs reward encounters",
+					"trans": "สำรวจเผชิญหน้าที่มีความเสี่ยงและรางวัล"
+				}
+			},
+			"copy": {
+				"eng": "Real in-game screenshots showcasing tactical combat, deep lore, and endless progression",
+				"trans": "ภาพหน้าจอจริงจากเกม แสดงการต่อสู้เชิงกลยุทธ์ เรื่องราวลึก และความก้าวหน้าไม่มีที่สิ้นสุด"
+			},
+			"dungeonLobby": {
+				"description": {
+					"eng": "Form parties, assign roles, and launch procedural dungeons with unique loot tables and boss encounters.",
+					"trans": "สร้างทีม, กำหนดบทบาท และเปิดดันเจี้ยนแบบสุ่มที่มีตาราง loot พิเศษพร้อมกับบอส"
+				},
+				"tag": {
+					"eng": "Dungeon System",
+					"trans": "ระบบดันเจี้ยน"
+				},
+				"title": {
+					"eng": "Queue squads for instanced raids",
+					"trans": "คิวทีมสำหรับ Raid แยก"
+				}
+			},
+			"heading": {
+				"eng": "See What Awaits You in the Neon Wasteland",
+				"trans": "ดูสิ่งที่รอคุณในเมืองทิ้งแห่งนีออน"
+			},
+			"loreCollection": {
+				"description": {
+					"eng": "Unlock narrative fragments and codex bonuses as you explore the cyberpunk world and complete missions.",
+					"trans": "ปลดล็อกชิ้นส่วนเรื่องราวและโบนัสโคเด็กซ์ขณะสำรวจโลกไซเบอร์พังค์และทำภารกิจเสร็จ"
+				},
+				"tag": {
+					"eng": "Lore System",
+					"trans": "ระบบเรื่องราว"
+				},
+				"title": {
+					"eng": "Discover world lore and collectible entries",
+					"trans": "สำรวจตำนานโลกและไอเทมเก็บสะสม"
+				}
+			},
+			"minigameRewards": {
+				"description": {
+					"eng": "Multiple minigames to unlock chests in dungeons",
+					"trans": "มินิเกมหลายอันเพื่อปลดล็อกกระเป๋าในห้องใต้ดิน"
+				},
+				"tag": {
+					"eng": "Minigames",
+					"trans": "มินิเกม"
+				},
+				"title": {
+					"eng": "Skill challenges with targeted loot",
+					"trans": "ท้าทายทักษะพร้อมของรางวัลเฉพาะ"
+				}
+			},
+			"overline": {
+				"eng": "Game Captures",
+				"trans": "สกรีนช็อตเกม"
+			},
+			"turnBasedCombat": {
+				"description": {
+					"eng": "Strategic combat with hit/miss/crit mechanics, damage mitigation, build your perfect crew and loadout.",
+					"trans": "ต่อสู้เชิงกลยุทธ์ด้วยระบบ hit/miss/crit ลดความเสียหาย สร้างทีมและอุปกรณ์ที่สมบูรณ์แบบ"
+				},
+				"tag": {
+					"eng": "Combat System",
+					"trans": "ระบบต่อสู้"
+				},
+				"title": {
+					"eng": "Tactical turn-based encounters",
+					"trans": "การเผชิญหน้ากลยุทธ์แบบมือต่อ"
+				}
+			}
+		},
+		"testimonial": {
+			"copy": {
+				"eng": "Verified players from around the world share their experiences with Arclight City",
+				"trans": "ผู้เล่นที่ได้รับการยืนยันจากทั่วโลกแชร์ประสบการณ์กับนครราตรี"
+			},
+			"heading": {
+				"eng": "Verified by players worldwide",
+				"trans": "ยืนยันโดยผู้เล่นทั่วโลก"
+			},
+			"label": {
+				"eng": "Google Play Review",
+				"trans": "รีวิวบน Google Play"
+			},
+			"overline": {
+				"eng": "Playstore x AppStore // trust signals",
+				"trans": "Playstore x AppStore // สัญญาณความมั่นใจ"
+			},
+			"rating": {
+				"eng": "4.9 rating on Playstore",
+				"trans": "4.9 คะแนนบน Play Store"
+			},
+			"reviewCount": {
+				"eng": "13k+ reviews",
+				"trans": "13k+ รีวิว"
+			}
+		}
+	},
 	"leaderboard": {
 		"clan": {
 			"name": {
@@ -6225,6 +6991,10 @@
 		"processing": {
 			"eng": "Processing...",
 			"trans": "รอสักครู่"
+		},
+		"processing1": {
+			"eng": "PROCESSING",
+			"trans": "กำลังประมวลผล"
 		},
 		"rewardUnlocked": {
 			"eng": "REWARD UNLOCKED!",

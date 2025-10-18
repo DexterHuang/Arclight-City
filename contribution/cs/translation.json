@@ -3195,6 +3195,20 @@
 			}
 		}
 	},
+	"eventTopUpRewardsBanner": {
+		"rewards": {
+			"eng": "Rewards:",
+			"trans": "Odměny:"
+		},
+		"subtitle": {
+			"eng": "Available during: ${events}",
+			"trans": "Dostupné během: ${events}"
+		},
+		"title": {
+			"eng": "Event Top-Up Bonus",
+			"trans": "Událostní bonus za doplnění"
+		}
+	},
 	"feedbackPopup": {
 		"back": {
 			"eng": "Skip",
@@ -3921,6 +3935,10 @@
 	},
 	"instantDungeonPage": {
 		"advanced": {
+			"badge": {
+				"eng": "Bonus",
+				"trans": "Bonus"
+			},
 			"banner": {
 				"eng": "Increased EXP and Loot",
 				"trans": "Zvýšené XP a odměny"
@@ -5763,6 +5781,754 @@
 			}
 		}
 	},
+	"landingPage": {
+		"activity": {
+			"battlepass1": {
+				"eng": "${player} claimed battle pass reward",
+				"trans": "Hráč ${player} získal odměnu z Battle Passu"
+			},
+			"bounty1": {
+				"eng": "$${amount} bounty was placed on ${player}'s head",
+				"trans": "Cenu ${amount} byla umístěna na hlavě hráče ${player}"
+			},
+			"bounty2": {
+				"eng": "${player} claimed bounty",
+				"trans": "${player} získal odměnu"
+			},
+			"daily1": {
+				"eng": "${player} completed intelligence contract",
+				"trans": "${player} dokončil Inteligence Kontrakt."
+			},
+			"dungeon1": {
+				"eng": "${player} cleared dungeon boss",
+				"trans": "${player} porazil boss lože"
+			},
+			"instant1": {
+				"eng": "Hideout raid completed",
+				"trans": "Nájezd na úkryt dokončen"
+			},
+			"lottery1": {
+				"eng": "${player} won lucky draw",
+				"trans": "${player} vyhrál los."
+			},
+			"lottery2": {
+				"eng": "${player} won pachinko",
+				"trans": "${player} vyhrál pachinko"
+			},
+			"market1": {
+				"eng": "a item was sold on black market",
+				"trans": "Položka byla prodána na černém trhu."
+			},
+			"market3": {
+				"eng": "Market order filled: ${amount}",
+				"trans": "Tržní objednávka provedena: ${amount}"
+			},
+			"mercenary1": {
+				"eng": "${player} recruited mercenary",
+				"trans": "${player} najal nájemníka"
+			},
+			"pvp1": {
+				"eng": "${player1} has mugged ${player2}",
+				"trans": "${player1} vyloupil ${player2}"
+			},
+			"pvp2": {
+				"eng": "${player1} has arrested ${player2}",
+				"trans": "${player1} zatkal ${player2}"
+			},
+			"pvp3": {
+				"eng": "${player} eliminated a bounty target",
+				"trans": "${player} zlikvidoval odměnný cíl."
+			},
+			"stock1": {
+				"eng": "Stock surged +${amount}%",
+				"trans": "Akcie vzrostly +${amount}%"
+			},
+			"stock2": {
+				"eng": "Stock dropped -${amount}%",
+				"trans": "Akcie klesly o ${amount}%"
+			},
+			"territory1": {
+				"eng": "Territory war initiated",
+				"trans": "Válka o území zahájena"
+			},
+			"territory2": {
+				"eng": "Gang captured new territory",
+				"trans": "Gang obsadil nové území"
+			},
+			"territory3": {
+				"eng": "Territory defense successful",
+				"trans": "Úspěšná obrana území"
+			},
+			"upgrade1": {
+				"eng": "${player} upgraded their equipment to +${tier}",
+				"trans": "Hráč ${player} vylepšil své vybavení na +${tier}"
+			}
+		},
+		"cta": {
+			"appStore": {
+				"eng": "Download on App Store",
+				"trans": "Stáhnout v App Store"
+			},
+			"copy": {
+				"eng": "Sign in with email, Google, or guest access, rally your crew, and drop into the live shard—no paywall, no waitlist.",
+				"trans": "Přihlašte se e‑mailem, Googlem nebo jako host, shromážděte svou partu a vstupte do živého shardu — žádné poplatky, žádná fronta."
+			},
+			"headline": {
+				"eng": "Play today on mobile or web",
+				"trans": "Hrajte dnes na mobilu nebo webu"
+			},
+			"overline": {
+				"eng": "Arclight City is live right now",
+				"trans": "Arclight City je nyní online."
+			},
+			"playStore": {
+				"eng": "Get it on Google Play",
+				"trans": "Stáhnout z Google Play"
+			},
+			"primary": {
+				"eng": "Play Now",
+				"trans": "Hrát nyní"
+			}
+		},
+		"equipment": {
+			"copy": {
+				"eng": "Spend upgrade shards, calibrate, and reroll traits to dominate the battlefield.",
+				"trans": "Použijte fragmenty upgradu, kalibrujte a přehodte vlastnosti pro dominanci na bojišti."
+			},
+			"heading": {
+				"eng": "Unlimited Gear Customization and Enhancement",
+				"trans": "Neomezené přizpůsobení a vylepšení vybavení"
+			},
+			"overline": {
+				"eng": "Equipment // build your loadout",
+				"trans": "Vybavení // sestav si výbavu"
+			},
+			"tagCalibration": {
+				"eng": "Calibration increases item stats across all tiers",
+				"trans": "Kalibrace zvyšuje statistiky předmětů napříč všemi úrovněmi."
+			},
+			"tagTrait": {
+				"eng": "Reset Shards reset item stats giving you a random set of traits",
+				"trans": "Fragmenty Resetu resetují statistiky předmětu a poskytují vám náhodnou sadu vlastností."
+			},
+			"tagUpgrade": {
+				"eng": "Upgrade shards increase item level and stats",
+				"trans": "Fragmenty upgradu zvyšují úroveň a staty předmětu"
+			}
+		},
+		"features": {
+			"advancedCrafting": {
+				"description": {
+					"eng": "Upgrade and calibrate gear",
+					"trans": "Vylepšit a kalibrovat vybavení"
+				},
+				"detailed": {
+					"eng": "Upgrade equipment to higher tiers and calibrate for better stats. Craft consumables and other items to support your adventures.",
+					"trans": "Vylepšete vybavení do vyšších úrovní a kalibrujte pro lepší statistiky. Vyrábějte spotřební předměty i další položky, které podpoří vaše dobrodružství."
+				},
+				"highlight": {
+					"eng": "LEGENDARY GEAR WITHIN REACH",
+					"trans": "Legendarní vybavení v dosahu"
+				},
+				"title": {
+					"eng": "Equipment Upgrading",
+					"trans": "Vylepšování vybavení"
+				}
+			},
+			"afkTasks": {
+				"description": {
+					"eng": "Earn rewards while offline",
+					"trans": "Získejte odměny i když jste offline"
+				},
+				"detailed": {
+					"eng": "Set up automated activities and background tasks that generate resources, experience, and rewards even when you're away from the game.",
+					"trans": "Nastav automatické aktivity a úkoly na pozadí, které generují zdroje, zkušenosti i odměny mimo hru."
+				},
+				"highlight": {
+					"eng": "PROFIT WHILE YOU SLEEP",
+					"trans": "Získávejte zisky, když spíte."
+				},
+				"title": {
+					"eng": "Passive Income System",
+					"trans": "Systém pasivního příjmu"
+				}
+			},
+			"battlePass": {
+				"description": {
+					"eng": "Earn exclusive seasonal rewards",
+					"trans": "Získejte exkluzivní sezónní odměny"
+				},
+				"detailed": {
+					"eng": "Progress through free and premium seasonal tracks with missions, milestone rewards, and exclusive cosmetics. Complete challenges to unlock tier-based prizes.",
+					"trans": "Postupujte po bezplatných i prémiových sezónních trasách s misiemi, milníkovými odměnami a exkluzivní kosmetikou. Dokončete výzvy a odemkněte ceny podle úrovně."
+				},
+				"highlight": {
+					"eng": "SEASONS OF GLORY AWAIT YOU",
+					"trans": "Sezóny slávy tě čekají."
+				},
+				"title": {
+					"eng": "Seasonal Progression",
+					"trans": "Sezónní postup"
+				}
+			},
+			"blackMarket": {
+				"description": {
+					"eng": "Trade with other players",
+					"trans": "Obchodujte s ostatními hráči"
+				},
+				"detailed": {
+					"eng": "Buy and sell items through the player-driven auction house. List your gear, place bids on others' items, and find great deals from fellow players.",
+					"trans": "Kupujte a prodávejte předměty v aukčním domě řízeném hráči. Vystavte své vybavení, kladete nabídky na položky ostatních a objevujte výhodné nabídky od spoluhráčů."
+				},
+				"highlight": {
+					"eng": "PLAYER-DRIVEN ECONOMY",
+					"trans": "Ekonomika řízená hráči"
+				},
+				"title": {
+					"eng": "Player Market",
+					"trans": "Trh hráčů"
+				}
+			},
+			"bountyHunting": {
+				"description": {
+					"eng": "Place or collect bounties",
+					"trans": "Umístit nebo sbírat odměny"
+				},
+				"detailed": {
+					"eng": "Place bounties on rival players or hunt down wanted targets for rewards. Track and eliminate high-value targets to collect lucrative bounties.",
+					"trans": "Nastav odměnu za rivaly nebo pronásleduj požadované cíle pro odměnu. Sleduj a eliminuj vysoce hodnotné cíle, abys sbíral lukrativní odměny."
+				},
+				"highlight": {
+					"eng": "BECOME THE CITY'S MOST FEARED",
+					"trans": "Staň se nejstrašlivějším ve městě."
+				},
+				"title": {
+					"eng": "Bounty Hunting",
+					"trans": "Lov na odměny"
+				}
+			},
+			"cookingSystem": {
+				"description": {
+					"eng": "Cook food for powerful buffs",
+					"trans": "Vařte jídlo pro silné buffy."
+				},
+				"detailed": {
+					"eng": "Gather ingredients from dungeons and various tasks, then cook them in your apartment's kitchen. Prepared meals grant powerful temporary buffs to enhance your performance.",
+					"trans": "Sbírej ingredience z dungeonů a různých úkolů, pak je vař v kuchyni ve svém bytě. Připravené jídlo poskytuje silné dočasné buffy k zvýšení výkonu."
+				},
+				"highlight": {
+					"eng": "MASTER CHEF OF THE STREETS",
+					"trans": "Mistrovský uliční šéfkuchař"
+				},
+				"title": {
+					"eng": "Cooking System",
+					"trans": "Systém vaření"
+				}
+			},
+			"dailyWeeklyMissions": {
+				"description": {
+					"eng": "Complete tasks for rewards",
+					"trans": "Splňte úkoly pro odměny"
+				},
+				"detailed": {
+					"eng": "Take on daily quests and weekly intelligence contracts with escalating rewards and bonuses. Earn free daily rewards by login in everyday.",
+					"trans": "Přijímejte denní úkoly i týdenní kontrakty na informace se postupně rostoucími odměnami a bonusy. Získávejte zdarma denní odměny při každodenním přihlášení."
+				},
+				"highlight": {
+					"eng": "LOYALTY BRINGS FORTUNE",
+					"trans": "Věrnost přináší bohatství"
+				},
+				"title": {
+					"eng": "Daily & Weekly Missions",
+					"trans": "Denní & Týdenní mise"
+				}
+			},
+			"dungeonRaids": {
+				"description": {
+					"eng": "Explore dungeons with your friends for loot",
+					"trans": "Prozkoumávejte lochy s kamarády a sbírejte odměny"
+				},
+				"detailed": {
+					"eng": "Tackle challenging instanced dungeons with your squad or alone. Defeat powerful bosses, and claim legendary equipment and resources.",
+					"trans": "Zvládněte náročné instanční lochy se svým týmem nebo samostatně. Porazte silné bosse a získejte legendární vybavení i zdroje."
+				},
+				"highlight": {
+					"eng": "EPIC LOOT FOR ELITE TEAMS",
+					"trans": "Epická výbava pro elitní týmy"
+				},
+				"title": {
+					"eng": "Realtime Co-Op Dungeon Raids",
+					"trans": "Reálné kooperativní dungeony"
+				}
+			},
+			"globalChat": {
+				"description": {
+					"eng": "Chat with players worldwide",
+					"trans": "Chatujte s hráči po celém světě"
+				},
+				"detailed": {
+					"eng": "Join chat with real-time auto-translation across all supported languages, players worldwide meets in Arclight City",
+					"trans": "Připojte se k chatu s automatickým překladem v reálném čase pro všechny podporované jazyky – hráči z celého světa se setkávají ve městě Arclight."
+				},
+				"highlight": {
+					"eng": "SPEAK ANY LANGUAGE, UNDERSTOOD BY ALL",
+					"trans": "Mluvit v libovolném jazyce, pochopeno všemi"
+				},
+				"title": {
+					"eng": "Borderless Communication",
+					"trans": "Bezhraniční komunikace"
+				}
+			},
+			"heading": {
+				"eng": "What Awaits You",
+				"trans": "Co tě čeká"
+			},
+			"mercenarySquad": {
+				"description": {
+					"eng": "Recruit and upgrade mercenaries to join your crew",
+					"trans": "Najímejte a vylepšujte nájemníky, aby se připojili k vaší partě."
+				},
+				"detailed": {
+					"eng": "Build your squad with diverse mercenaries, each with unique stats, buffs and skills. Upgrade them and build your perfect crew.",
+					"trans": "Sestav si tým různorodými najímáky, každý s unikátními statistikami, buffy a dovednostmi. Vylepšuj je a vytvoř svou dokonalou partu."
+				},
+				"highlight": {
+					"eng": "LEGENDARY CREW AT YOUR COMMAND",
+					"trans": "Legendární parta pod tvým velením"
+				},
+				"title": {
+					"eng": "Mercenary Squad System",
+					"trans": "Systém Mercenářských Skupin"
+				}
+			},
+			"overline": {
+				"eng": "Game Features // Core Systems",
+				"trans": "Funkce hry // Základní systémy"
+			},
+			"panelTitle": {
+				"eng": "Feature briefing",
+				"trans": "Přehled funkcí"
+			},
+			"playerEconomy": {
+				"description": {
+					"eng": "Trade stocks of mega corporations",
+					"trans": "Obchodování s akciemi megakorporací"
+				},
+				"detailed": {
+					"eng": "Invest in a realistic and unpredictable stock market reflecting real-world events and news. Buy and sell stocks of in-game mega corporations to make a profit.",
+					"trans": "Investujte do realistického a nepředvídatelného trhu s akciemi, který odráží skutečné události a zprávy. Kupujte a prodávejte akcie megakorporací ve hře pro zisk."
+				},
+				"highlight": {
+					"eng": "CORPORATE WEALTH AWAITS",
+					"trans": "Korporátní bohatství vás čeká"
+				},
+				"title": {
+					"eng": "Stock Market Trading",
+					"trans": "Obchodování na akciovém trhu"
+				}
+			},
+			"playerHousing": {
+				"description": {
+					"eng": "Own and customize your apartment",
+					"trans": "Získejte a upravte svůj byt."
+				},
+				"detailed": {
+					"eng": "Claim your own apartment in the city complete with a personal vault and kitchen for cooking. Host visitors and create your personal cyberpunk sanctuary.",
+					"trans": "Získejte vlastní byt v městě, který je vybaven osobním trezorem a kuchyní na vaření. Pořádejte návštěvy a vytvořte si vlastní kyberpunkové útočiště."
+				},
+				"highlight": {
+					"eng": "YOUR SANCTUARY IN THE CITY",
+					"trans": "Tvoje útočiště v městě"
+				},
+				"title": {
+					"eng": "Player Housing",
+					"trans": "Hráčské bydlení"
+				}
+			},
+			"pvpCombat": {
+				"description": {
+					"eng": "Mug players or play as cops",
+					"trans": "Vykradnout hráče nebo hrát jako policie"
+				},
+				"detailed": {
+					"eng": "Mug other players for their valuables or take on the role of law enforcement to arrest wanted criminals and maintain order in the city.",
+					"trans": "Vražte ostatním hráčům jejich cennosti nebo přebírejte roli policie a zatýkejte žádané zločince, abyste udrželi pořadí ve městě."
+				},
+				"highlight": {
+					"eng": "BECOME HUNTER OR LAWMAN",
+					"trans": "Staň se lovcem nebo policistou."
+				},
+				"title": {
+					"eng": "PvP Combat",
+					"trans": "PvP boj"
+				}
+			},
+			"territoryControl": {
+				"description": {
+					"eng": "Capture districts and earn bonuses",
+					"trans": "Ovládněte distrikty a získávejte bonusy"
+				},
+				"detailed": {
+					"eng": "Compete for district control, wage gang wars, and unlock exclusive bonuses in your territory.",
+					"trans": "Soutěžte o kontrolu čtvrti, bojujte s gangy a odemykávejte exkluzivní bonusy ve vašem území."
+				},
+				"highlight": {
+					"eng": "DISTRICTS UNDER YOUR BANNER",
+					"trans": "Okresy pod vaší vlajkou"
+				},
+				"title": {
+					"eng": "Territory Control",
+					"trans": "Kontrola území"
+				}
+			},
+			"worldEvents": {
+				"description": {
+					"eng": "Daily in-game news reports",
+					"trans": "Denní herní zprávy"
+				},
+				"detailed": {
+					"eng": "Stay informed with dynamically updated news reports that gets affected by all player activities, major events, and emerging stories in the cyberpunk world. Maybe your demise will be the next headline?",
+					"trans": "Zůstaňte informováni dynamickými zprávami ovlivněnými všemi hráčskými aktivitami, klíčovými událostmi a nově vznikajícími příběhy v cyberpunkovém světě. Možná se stane vaším dalším titulkem?"
+				},
+				"highlight": {
+					"eng": "YOUR ACTIONS MAKE HEADLINES",
+					"trans": "Vaše akce vytvářejí titulky."
+				},
+				"title": {
+					"eng": "Dynamic News System",
+					"trans": "Dynamický systém zpráv"
+				}
+			}
+		},
+		"hero": {
+			"appStore": {
+				"eng": "Download on App Store",
+				"trans": "Stáhnout v App Store"
+			},
+			"downloadMobile": {
+				"eng": "Download mobile app",
+				"trans": "Stáhnout mobilní aplikaci"
+			},
+			"headline": {
+				"eng": "Arclight City",
+				"trans": "Město Arclight"
+			},
+			"liveActivityLabel": {
+				"eng": "Live activity feed",
+				"trans": "Živý přenos aktivit"
+			},
+			"metrics": {
+				"bounties": {
+					"eng": "Bounties Placed",
+					"trans": "Umístěné odměny"
+				},
+				"pvpKills": {
+					"eng": "Player vs Player Deaths",
+					"trans": "Úmrtí v HvH"
+				},
+				"users": {
+					"eng": "Registered Cyberpunker",
+					"trans": "Registrovaný cyberpunk"
+				}
+			},
+			"orPlayOnBrowser": {
+				"eng": "Or play on browser",
+				"trans": "Nebo hrajte v prohlížeči"
+			},
+			"overline": {
+				"eng": "Cyberpunk // TEXT-BASED MMORPG",
+				"trans": "Cyberpunk // Textově založené MMORPG"
+			},
+			"playStore": {
+				"eng": "Get it on Google Play",
+				"trans": "Stáhnout z Google Play"
+			},
+			"primaryCta": {
+				"eng": "Play on Browser",
+				"trans": "Hrát v prohlížeči"
+			},
+			"subline": {
+				"eng": "Arclight City is a vibrant city where you can explore, fight, and trade in a cyberpunk world.",
+				"trans": "Město Arclight je živé město, kde se můžete prozkoumávat, bojovat a obchodovat ve světě cyberpunku."
+			}
+		},
+		"market": {
+			"copy": {
+				"eng": "Buy and sell corporate shares, monitor player-listed gear, and react to Flash Sales without leaving the dashboard.",
+				"trans": "Koupit a prodávat firemní akcie, sledovat vybavení od hráčů a reagovat na flash prodeje bez opuštění nástěnky."
+			},
+			"headline": {
+				"eng": "Track the Mega Corporations in real time",
+				"trans": "Sledujte megakorporace v reálném čase"
+			},
+			"overline": {
+				"eng": "Realtime Stock Exchange // 24/7 Live in-game Stock Market",
+				"trans": "Burza v reálném čase // 24/7 živý herní trh"
+			},
+			"tag1": {
+				"eng": "Price action reacts to real-world events and news",
+				"trans": "Cenové pohyby reagují na události a zprávy z reálného světa."
+			},
+			"tag2": {
+				"eng": "Buy and sell stocks of in-game mega corporations",
+				"trans": "Kupujte a prodávejte akcie megakorporací ve hře."
+			},
+			"tag3": {
+				"eng": "Fair and unpredictable market derived on real-world data",
+				"trans": "Spravedlivý a nepředvídatelný trh založený na reálných datech"
+			},
+			"tickerTitle": {
+				"eng": "Latest Netcoin board",
+				"trans": "Nejnovější tabulka NetCoin"
+			}
+		},
+		"mercenary": {
+			"chromeReaper": {
+				"promotional": {
+					"eng": "Heavy firepower meets cybernetic fury",
+					"trans": "Silná palebná síla se setkává s kybernetickou fúrií."
+				},
+				"whisper": {
+					"eng": "When stealth fails, bring the chrome. When chrome fails... you were already dead",
+					"trans": "Když se skrytí nezdaří, využij čipy. Když i čipy selžou… už jsi mrtvý."
+				}
+			},
+			"copy": {
+				"eng": "Unlock NPC mercenaries with unique roles, level them up, and build your perfect crew for gigs and raids.",
+				"trans": "Odemkněte NPC nájemníky s unikátními rolemi, zvyšte jejich úroveň a sestavte si dokonalý tým pro projekty a nájezdy."
+			},
+			"crimsonRipper": {
+				"promotional": {
+					"eng": "Close-quarters carnage, guaranteed results",
+					"trans": "Boj na blízko, zaručené výsledky"
+				},
+				"whisper": {
+					"eng": "They say violence isn't the answer. They've never met my chainsaw",
+					"trans": "Říkají, že násilí není řešení. Nikdy neviděli mou pilu."
+				}
+			},
+			"ghostNet": {
+				"promotional": {
+					"eng": "Silent ops require silent partners",
+					"trans": "Tiché operace vyžadují tiché partnery."
+				},
+				"whisper": {
+					"eng": "The shadows have eyes... and they're watching for you",
+					"trans": "Stíny mají oči... a sledují tě."
+				}
+			},
+			"gravitySniper": {
+				"promotional": {
+					"eng": "Precision firepower when it matters most",
+					"trans": "Přesná palebná síla v klíčových okamžicích"
+				},
+				"whisper": {
+					"eng": "Distance is just a number. Death is a certainty. Get yourself a sniper",
+					"trans": "Vzdálenost je jen číslo. Smrt je jistota. Pořiď si snajper."
+				}
+			},
+			"heading": {
+				"eng": "Recruit specialists to support your squad",
+				"trans": "Naberte specialisty na podporu vašeho týmu"
+			},
+			"overline": {
+				"eng": "Mercenary companions",
+				"trans": "Nájemní společníci"
+			},
+			"shardHealer": {
+				"promotional": {
+					"eng": "Keep your crew combat-ready, 24/7",
+					"trans": "Udržujte svůj tým bojově připravený 24/7"
+				},
+				"whisper": {
+					"eng": "A crew that bleeds together... needs someone who can put them back together",
+					"trans": "Tým, který spolu krvácí... potřebuje někoho, kdo je znovu spojí."
+				}
+			},
+			"tag1": {
+				"eng": "Upgrade mercenaries to increase their stats",
+				"trans": "Zlepšujte nájemníky pro zvýšení jejich statistik"
+			},
+			"tag2": {
+				"eng": "Unique abilities to synergize with your crew",
+				"trans": "Jedinečné schopnosti pro synergii s tvým týmem"
+			}
+		},
+		"nav": {
+			"title": {
+				"eng": "ARCLIGHT CITY",
+				"trans": "Město Arclight"
+			}
+		},
+		"news": {
+			"cityNews": {
+				"eng": "CITY NEWS",
+				"trans": "Zprávy z města"
+			},
+			"copy": {
+				"eng": "Every gang war, bounty kill, and major deal triggers real news reports. Upgrade your gear? Launch a territory raid? YOU could be on tomorrow's front page.",
+				"trans": "Každá gangová bitva, zabití za odměnu i velké dohody spouští reálné zpravodajské hlášky. Vylepši své vybavení? Rozběhej teritoriální útok? Můžeš být zítra na titulní straně."
+			},
+			"defaultTag": {
+				"eng": "News",
+				"trans": "Zprávy"
+			},
+			"goToNews": {
+				"eng": "Go to news ${index}",
+				"trans": "Přejít na zprávu ${index}"
+			},
+			"heading": {
+				"eng": "YOUR ACTIONS MAKE THE HEADLINES",
+				"trans": "Tvé akce jsou v titulcích"
+			},
+			"live": {
+				"eng": "● LIVE",
+				"trans": "Živé"
+			},
+			"next": {
+				"eng": "Next news",
+				"trans": "Další zpráva"
+			},
+			"noNews": {
+				"eng": "No news available at the moment",
+				"trans": "Momentálně nejsou k dispozici žádné novinky."
+			},
+			"overline": {
+				"eng": "LIVE WORLD EVENTS // PLAYER-DRIVEN NARRATIVE",
+				"trans": "Živé události ve světě // Hráčově řízený příběh"
+			},
+			"previous": {
+				"eng": "Previous news",
+				"trans": "Předchozí zprávy"
+			},
+			"reportBy": {
+				"eng": "REPORT BY",
+				"trans": "Nahlášeno od"
+			},
+			"tagDynamic": {
+				"eng": "Dynamic World System",
+				"trans": "Dynamický světový systém"
+			},
+			"tagPlayerDriven": {
+				"eng": "Player-Driven Stories",
+				"trans": "Příběhy řízené hráči"
+			},
+			"tagRealTime": {
+				"eng": "Real-Time Updates",
+				"trans": "Aktualizace v reálném čase"
+			}
+		},
+		"showcase": {
+			"choiceOutcome": {
+				"description": {
+					"eng": "Face critical decisions during dungeon encounters. Risk it all for rewards, play it safe, or flee—every choice has consequences.",
+					"trans": "Při setkáních v loži čelíte klíčovým rozhodnutím. Všechno riskujte za odměny, hrajte opatrně nebo utečte – každé rozhodnutí má důsledky."
+				},
+				"tag": {
+					"eng": "Make your own choices",
+					"trans": "Rozhodněte se sami"
+				},
+				"title": {
+					"eng": "Navigate risk vs reward encounters",
+					"trans": "Procházet setkání s rizikem a odměnou"
+				}
+			},
+			"copy": {
+				"eng": "Real in-game screenshots showcasing tactical combat, deep lore, and endless progression",
+				"trans": "Reálné herní snímky s taktickými bitvami, hlubokým příběhem a nekonečným pokrokem"
+			},
+			"dungeonLobby": {
+				"description": {
+					"eng": "Form parties, assign roles, and launch procedural dungeons with unique loot tables and boss encounters.",
+					"trans": "Vytvořte skupiny, přiřaďte role a spusťte procedurální lochy s unikátními loot tabulkami a bossovými setkáními."
+				},
+				"tag": {
+					"eng": "Dungeon System",
+					"trans": "Systém jeskyní"
+				},
+				"title": {
+					"eng": "Queue squads for instanced raids",
+					"trans": "Zařadit skupiny do fronty pro instanční rajdy"
+				}
+			},
+			"heading": {
+				"eng": "See What Awaits You in the Neon Wasteland",
+				"trans": "Zjisti, co tě čeká v neonové pustině"
+			},
+			"loreCollection": {
+				"description": {
+					"eng": "Unlock narrative fragments and codex bonuses as you explore the cyberpunk world and complete missions.",
+					"trans": "Odemkněte příběhové fragmenty a bonusy z Kódexu při prozkoumávání kyberpunkového světa a plnění misí."
+				},
+				"tag": {
+					"eng": "Lore System",
+					"trans": "Systém příběhu"
+				},
+				"title": {
+					"eng": "Discover world lore and collectible entries",
+					"trans": "Objevte příběhy světa a sbíratelné položky"
+				}
+			},
+			"minigameRewards": {
+				"description": {
+					"eng": "Multiple minigames to unlock chests in dungeons",
+					"trans": "Více miniher pro odemykání truhlí v lozích"
+				},
+				"tag": {
+					"eng": "Minigames",
+					"trans": "minihry"
+				},
+				"title": {
+					"eng": "Skill challenges with targeted loot",
+					"trans": "Dovednostní výzvy s cílenými odměnami"
+				}
+			},
+			"overline": {
+				"eng": "Game Captures",
+				"trans": "Herní záběry"
+			},
+			"turnBasedCombat": {
+				"description": {
+					"eng": "Strategic combat with hit/miss/crit mechanics, damage mitigation, build your perfect crew and loadout.",
+					"trans": "Strategický boj s mechanikou zásahu/přerušení/kritického úderu, snížením poškození, sestav si ideální partu a vybavení."
+				},
+				"tag": {
+					"eng": "Combat System",
+					"trans": "Bojový systém"
+				},
+				"title": {
+					"eng": "Tactical turn-based encounters",
+					"trans": "Taktické střídavé souboje"
+				}
+			}
+		},
+		"testimonial": {
+			"copy": {
+				"eng": "Verified players from around the world share their experiences with Arclight City",
+				"trans": "Ověřeni hráči z celého světa sdílí své zážitky z Arclight City."
+			},
+			"heading": {
+				"eng": "Verified by players worldwide",
+				"trans": "Ověřeno hráči z celého světa"
+			},
+			"label": {
+				"eng": "Google Play Review",
+				"trans": "Recenze Google Play"
+			},
+			"overline": {
+				"eng": "Playstore x AppStore // trust signals",
+				"trans": "Playstore x AppStore // Značky důvěry"
+			},
+			"rating": {
+				"eng": "4.9 rating on Playstore",
+				"trans": "Hodnocení 4,9 na Google Play"
+			},
+			"reviewCount": {
+				"eng": "13k+ reviews",
+				"trans": "13k+ recenzí"
+			}
+		}
+	},
 	"leaderboard": {
 		"clan": {
 			"name": {
@@ -6225,6 +6991,10 @@
 		"processing": {
 			"eng": "Processing...",
 			"trans": "Zpracovává se..."
+		},
+		"processing1": {
+			"eng": "PROCESSING",
+			"trans": "Zpracování"
 		},
 		"rewardUnlocked": {
 			"eng": "REWARD UNLOCKED!",

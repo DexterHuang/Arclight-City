@@ -3195,6 +3195,20 @@
 			}
 		}
 	},
+	"eventTopUpRewardsBanner": {
+		"rewards": {
+			"eng": "Rewards:",
+			"trans": "Hadiah:"
+		},
+		"subtitle": {
+			"eng": "Available during: ${events}",
+			"trans": "Tersedia selama: ${events}"
+		},
+		"title": {
+			"eng": "Event Top-Up Bonus",
+			"trans": "Bonus Top-Up Acara"
+		}
+	},
 	"feedbackPopup": {
 		"back": {
 			"eng": "Skip",
@@ -3921,6 +3935,10 @@
 	},
 	"instantDungeonPage": {
 		"advanced": {
+			"badge": {
+				"eng": "Bonus",
+				"trans": "Bonus"
+			},
 			"banner": {
 				"eng": "Increased EXP and Loot",
 				"trans": "Peningkatan EXP dan Loot"
@@ -5763,6 +5781,754 @@
 			}
 		}
 	},
+	"landingPage": {
+		"activity": {
+			"battlepass1": {
+				"eng": "${player} claimed battle pass reward",
+				"trans": "${player} telah mengklaim hadiah Battle Pass"
+			},
+			"bounty1": {
+				"eng": "$${amount} bounty was placed on ${player}'s head",
+				"trans": "$${amount} hadiah telah diletakkan di atas kepala ${player}"
+			},
+			"bounty2": {
+				"eng": "${player} claimed bounty",
+				"trans": "${player} mengklaim hadiah"
+			},
+			"daily1": {
+				"eng": "${player} completed intelligence contract",
+				"trans": "${player} menyelesaikan kontrak inteligensi"
+			},
+			"dungeon1": {
+				"eng": "${player} cleared dungeon boss",
+				"trans": "${player} berhasil mengalahkan bos dungeon"
+			},
+			"instant1": {
+				"eng": "Hideout raid completed",
+				"trans": "Raid Markas Selesai"
+			},
+			"lottery1": {
+				"eng": "${player} won lucky draw",
+				"trans": "${player} menang undian."
+			},
+			"lottery2": {
+				"eng": "${player} won pachinko",
+				"trans": "Pemain ${player} menang di pachinko"
+			},
+			"market1": {
+				"eng": "a item was sold on black market",
+				"trans": "Barang terjual di pasar gelap"
+			},
+			"market3": {
+				"eng": "Market order filled: ${amount}",
+				"trans": "Pesanan pasar terpenuhi: ${amount}"
+			},
+			"mercenary1": {
+				"eng": "${player} recruited mercenary",
+				"trans": "${player} merekrut tentara bayaran"
+			},
+			"pvp1": {
+				"eng": "${player1} has mugged ${player2}",
+				"trans": "${player1} telah merampok ${player2}"
+			},
+			"pvp2": {
+				"eng": "${player1} has arrested ${player2}",
+				"trans": "${player1} telah menangkap ${player2}"
+			},
+			"pvp3": {
+				"eng": "${player} eliminated a bounty target",
+				"trans": "Pemain ${player} mengeliminasi sasaran hadiah."
+			},
+			"stock1": {
+				"eng": "Stock surged +${amount}%",
+				"trans": "Saham naik +${amount}%"
+			},
+			"stock2": {
+				"eng": "Stock dropped -${amount}%",
+				"trans": "Saham turun -${amount}%"
+			},
+			"territory1": {
+				"eng": "Territory war initiated",
+				"trans": "Perang wilayah dimulai"
+			},
+			"territory2": {
+				"eng": "Gang captured new territory",
+				"trans": "Geng menguasai wilayah baru."
+			},
+			"territory3": {
+				"eng": "Territory defense successful",
+				"trans": "Pertahanan Wilayah Berhasil"
+			},
+			"upgrade1": {
+				"eng": "${player} upgraded their equipment to +${tier}",
+				"trans": "${player} mengupgrade peralatan menjadi +${tier}"
+			}
+		},
+		"cta": {
+			"appStore": {
+				"eng": "Download on App Store",
+				"trans": "Unduh di App Store"
+			},
+			"copy": {
+				"eng": "Sign in with email, Google, or guest access, rally your crew, and drop into the live shard—no paywall, no waitlist.",
+				"trans": "Masuk dengan email, Google, atau akses tamu, kumpulkan tim Anda, dan masuk ke shard live—tanpa paywall, tanpa daftar tunggu."
+			},
+			"headline": {
+				"eng": "Play today on mobile or web",
+				"trans": "Bermain hari ini di seluler atau situs web"
+			},
+			"overline": {
+				"eng": "Arclight City is live right now",
+				"trans": "Kota Cahaya Arklit sedang online saat ini."
+			},
+			"playStore": {
+				"eng": "Get it on Google Play",
+				"trans": "Unduh di Google Play"
+			},
+			"primary": {
+				"eng": "Play Now",
+				"trans": "Main Sekarang"
+			}
+		},
+		"equipment": {
+			"copy": {
+				"eng": "Spend upgrade shards, calibrate, and reroll traits to dominate the battlefield.",
+				"trans": "Gunakan fragmen peningkatan, kalibrasi, dan ulangi sifat untuk menguasai medan perang."
+			},
+			"heading": {
+				"eng": "Unlimited Gear Customization and Enhancement",
+				"trans": "Kustomisasi dan Peningkatan Gear Tanpa Batas"
+			},
+			"overline": {
+				"eng": "Equipment // build your loadout",
+				"trans": "Peralatan // Bangun Loadout Anda"
+			},
+			"tagCalibration": {
+				"eng": "Calibration increases item stats across all tiers",
+				"trans": "Kalibrasi meningkatkan statistik item di semua tingkatan"
+			},
+			"tagTrait": {
+				"eng": "Reset Shards reset item stats giving you a random set of traits",
+				"trans": "Reset Shards mengatur ulang statistik item dan memberi Anda sekumpulan ciri acak"
+			},
+			"tagUpgrade": {
+				"eng": "Upgrade shards increase item level and stats",
+				"trans": "Shard pembaruan meningkatkan level dan stat item."
+			}
+		},
+		"features": {
+			"advancedCrafting": {
+				"description": {
+					"eng": "Upgrade and calibrate gear",
+					"trans": "Tingkatkan dan Kalibrasi Peralatan"
+				},
+				"detailed": {
+					"eng": "Upgrade equipment to higher tiers and calibrate for better stats. Craft consumables and other items to support your adventures.",
+					"trans": "Tingkatkan peralatan ke tier lebih tinggi dan kalibrasi untuk statistik yang lebih baik. Kreasikan barang konsumsi dan item lain guna mendukung petualanganmu."
+				},
+				"highlight": {
+					"eng": "LEGENDARY GEAR WITHIN REACH",
+					"trans": "Gear Legendaris Dalam Jangkauan"
+				},
+				"title": {
+					"eng": "Equipment Upgrading",
+					"trans": "Peningkatan Peralatan"
+				}
+			},
+			"afkTasks": {
+				"description": {
+					"eng": "Earn rewards while offline",
+					"trans": "Dapatkan hadiah saat offline"
+				},
+				"detailed": {
+					"eng": "Set up automated activities and background tasks that generate resources, experience, and rewards even when you're away from the game.",
+					"trans": "Atur aktivitas otomatis dan tugas latar belakang untuk menghasilkan sumber daya, pengalaman, serta hadiah meskipun Anda tidak bermain."
+				},
+				"highlight": {
+					"eng": "PROFIT WHILE YOU SLEEP",
+					"trans": "Keuntungan saat kamu tidur"
+				},
+				"title": {
+					"eng": "Passive Income System",
+					"trans": "Sistem Pendapatan Pasif"
+				}
+			},
+			"battlePass": {
+				"description": {
+					"eng": "Earn exclusive seasonal rewards",
+					"trans": "Dapatkan hadiah eksklusif musiman"
+				},
+				"detailed": {
+					"eng": "Progress through free and premium seasonal tracks with missions, milestone rewards, and exclusive cosmetics. Complete challenges to unlock tier-based prizes.",
+					"trans": "Lanjutkan perjalanan di jalur musim gratis dan premium dengan misi, hadiah tonggak, serta kosmetik eksklusif. Selesaikan tantangan untuk membuka hadiah bertingkat."
+				},
+				"highlight": {
+					"eng": "SEASONS OF GLORY AWAIT YOU",
+					"trans": "Musim Kejayaan Menantimu"
+				},
+				"title": {
+					"eng": "Seasonal Progression",
+					"trans": "Progres Musiman"
+				}
+			},
+			"blackMarket": {
+				"description": {
+					"eng": "Trade with other players",
+					"trans": "Berdagang dengan pemain lain"
+				},
+				"detailed": {
+					"eng": "Buy and sell items through the player-driven auction house. List your gear, place bids on others' items, and find great deals from fellow players.",
+					"trans": "Beli dan jual barang melalui Rumah Lelang Pemain. Daftarkan perlengkapanmu, tawari barang pemain lain, dan temukan penawaran menarik dari sesama pemain."
+				},
+				"highlight": {
+					"eng": "PLAYER-DRIVEN ECONOMY",
+					"trans": "Ekonomi Berbasis Pemain"
+				},
+				"title": {
+					"eng": "Player Market",
+					"trans": "Pasar Pemain"
+				}
+			},
+			"bountyHunting": {
+				"description": {
+					"eng": "Place or collect bounties",
+					"trans": "Pasang atau kumpulkan hadiah"
+				},
+				"detailed": {
+					"eng": "Place bounties on rival players or hunt down wanted targets for rewards. Track and eliminate high-value targets to collect lucrative bounties.",
+					"trans": "Taruh bounty pada pemain rival atau kejar target terincar untuk hadiah. Pantau dan eliminasi target berharga tinggi untuk mengumpulkan bounty besar."
+				},
+				"highlight": {
+					"eng": "BECOME THE CITY'S MOST FEARED",
+					"trans": "Jadilah yang paling ditakuti di kota."
+				},
+				"title": {
+					"eng": "Bounty Hunting",
+					"trans": "Pemburu Hadiah"
+				}
+			},
+			"cookingSystem": {
+				"description": {
+					"eng": "Cook food for powerful buffs",
+					"trans": "Masak makanan untuk buff kuat"
+				},
+				"detailed": {
+					"eng": "Gather ingredients from dungeons and various tasks, then cook them in your apartment's kitchen. Prepared meals grant powerful temporary buffs to enhance your performance.",
+					"trans": "Kumpulkan bahan dari dungeon dan berbagai tugas, lalu masak di dapur apartemenmu. Makanan yang sudah disiapkan memberikan peningkatan sementara yang kuat untuk meningkatkan kinerjamu."
+				},
+				"highlight": {
+					"eng": "MASTER CHEF OF THE STREETS",
+					"trans": "Koki Utama Jalanan"
+				},
+				"title": {
+					"eng": "Cooking System",
+					"trans": "Sistem Memasak"
+				}
+			},
+			"dailyWeeklyMissions": {
+				"description": {
+					"eng": "Complete tasks for rewards",
+					"trans": "Selesaikan tugas untuk mendapatkan hadiah"
+				},
+				"detailed": {
+					"eng": "Take on daily quests and weekly intelligence contracts with escalating rewards and bonuses. Earn free daily rewards by login in everyday.",
+					"trans": "Tantang diri Anda dengan misi harian dan kontrak intelijen mingguan yang menawarkan hadiah serta bonus bertahap. Masuk setiap hari untuk mendapatkan hadiah harian gratis."
+				},
+				"highlight": {
+					"eng": "LOYALTY BRINGS FORTUNE",
+					"trans": "Kesetiaan Membawa Keberuntungan"
+				},
+				"title": {
+					"eng": "Daily & Weekly Missions",
+					"trans": "Misi Harian & Mingguan"
+				}
+			},
+			"dungeonRaids": {
+				"description": {
+					"eng": "Explore dungeons with your friends for loot",
+					"trans": "Jelajahi dungeon bersama teman‑temanmu untuk mendapatkan harta"
+				},
+				"detailed": {
+					"eng": "Tackle challenging instanced dungeons with your squad or alone. Defeat powerful bosses, and claim legendary equipment and resources.",
+					"trans": "Hadapi dungeon instansi yang menantang bersama tim atau solo. Kalahkan bos kuat dan dapatkan perlengkapan serta sumber daya legendaris."
+				},
+				"highlight": {
+					"eng": "EPIC LOOT FOR ELITE TEAMS",
+					"trans": "Loot Epik Untuk Tim Elite"
+				},
+				"title": {
+					"eng": "Realtime Co-Op Dungeon Raids",
+					"trans": "Raid Dungeon Bersama Waktu Nyata"
+				}
+			},
+			"globalChat": {
+				"description": {
+					"eng": "Chat with players worldwide",
+					"trans": "Berbincang dengan pemain di seluruh dunia"
+				},
+				"detailed": {
+					"eng": "Join chat with real-time auto-translation across all supported languages, players worldwide meets in Arclight City",
+					"trans": "Bergabunglah dalam chat dengan terjemahan otomatis secara real-time di semua bahasa yang didukung, pemain di seluruh dunia berkumpul di Kota Arclight."
+				},
+				"highlight": {
+					"eng": "SPEAK ANY LANGUAGE, UNDERSTOOD BY ALL",
+					"trans": "Berbicara dalam bahasa apa pun, dimengerti oleh semua."
+				},
+				"title": {
+					"eng": "Borderless Communication",
+					"trans": "Komunikasi Tanpa Batas"
+				}
+			},
+			"heading": {
+				"eng": "What Awaits You",
+				"trans": "Apa Yang Menantimu"
+			},
+			"mercenarySquad": {
+				"description": {
+					"eng": "Recruit and upgrade mercenaries to join your crew",
+					"trans": "Rekrut dan tingkatkan tentara bayaran untuk bergabung dengan kru Anda."
+				},
+				"detailed": {
+					"eng": "Build your squad with diverse mercenaries, each with unique stats, buffs and skills. Upgrade them and build your perfect crew.",
+					"trans": "Bangun tim Anda dengan para tentara bayaran yang beragam, masing-masing memiliki statistik unik, buff, dan skill. Tingkatkan mereka dan bangun kru sempurna Anda."
+				},
+				"highlight": {
+					"eng": "LEGENDARY CREW AT YOUR COMMAND",
+					"trans": "Kru Legendaris di Bawah Perintahmu"
+				},
+				"title": {
+					"eng": "Mercenary Squad System",
+					"trans": "Sistem Pasukan Penyuara"
+				}
+			},
+			"overline": {
+				"eng": "Game Features // Core Systems",
+				"trans": "Fitur Game // Sistem Inti"
+			},
+			"panelTitle": {
+				"eng": "Feature briefing",
+				"trans": "Ringkasan Fitur"
+			},
+			"playerEconomy": {
+				"description": {
+					"eng": "Trade stocks of mega corporations",
+					"trans": "Perdagangan Saham Mega Korporasi"
+				},
+				"detailed": {
+					"eng": "Invest in a realistic and unpredictable stock market reflecting real-world events and news. Buy and sell stocks of in-game mega corporations to make a profit.",
+					"trans": "Investasikan di pasar saham realistis dan tidak terduga yang mencerminkan peristiwa serta berita dunia nyata. Beli dan jual saham mega korporasi dalam game untuk memperoleh keuntungan."
+				},
+				"highlight": {
+					"eng": "CORPORATE WEALTH AWAITS",
+					"trans": "Kekayaan Korporat Menanti"
+				},
+				"title": {
+					"eng": "Stock Market Trading",
+					"trans": "Perdagangan Pasar Saham"
+				}
+			},
+			"playerHousing": {
+				"description": {
+					"eng": "Own and customize your apartment",
+					"trans": "Miliki dan sesuaikan apartemenmu"
+				},
+				"detailed": {
+					"eng": "Claim your own apartment in the city complete with a personal vault and kitchen for cooking. Host visitors and create your personal cyberpunk sanctuary.",
+					"trans": "Miliki apartemenmu sendiri di kota, lengkap dengan brankas pribadi dan dapur untuk memasak. Sambut tamu dan ciptakan tempat perlindungan cyberpunk pribadimu."
+				},
+				"highlight": {
+					"eng": "YOUR SANCTUARY IN THE CITY",
+					"trans": "Tempat Perlindunganmu di Kota"
+				},
+				"title": {
+					"eng": "Player Housing",
+					"trans": "Rumah Pemain"
+				}
+			},
+			"pvpCombat": {
+				"description": {
+					"eng": "Mug players or play as cops",
+					"trans": "Mencuri pemain atau main sebagai polisi"
+				},
+				"detailed": {
+					"eng": "Mug other players for their valuables or take on the role of law enforcement to arrest wanted criminals and maintain order in the city.",
+					"trans": "Merampok pemain lain untuk barang berharga mereka, atau menjadi polisi untuk menangkap penjahat yang dicari dan menjaga ketertiban di kota."
+				},
+				"highlight": {
+					"eng": "BECOME HUNTER OR LAWMAN",
+					"trans": "Menjadi Pemburu atau Penegak Hukum"
+				},
+				"title": {
+					"eng": "PvP Combat",
+					"trans": "Pertarungan PvP"
+				}
+			},
+			"territoryControl": {
+				"description": {
+					"eng": "Capture districts and earn bonuses",
+					"trans": "Menguasai distrik dan dapatkan bonus"
+				},
+				"detailed": {
+					"eng": "Compete for district control, wage gang wars, and unlock exclusive bonuses in your territory.",
+					"trans": "Bersaing untuk kontrol distrik, melancarkan perang geng, dan membuka bonus eksklusif di wilayah Anda."
+				},
+				"highlight": {
+					"eng": "DISTRICTS UNDER YOUR BANNER",
+					"trans": "Wilayah di bawah panji Anda"
+				},
+				"title": {
+					"eng": "Territory Control",
+					"trans": "Kontrol Wilayah"
+				}
+			},
+			"worldEvents": {
+				"description": {
+					"eng": "Daily in-game news reports",
+					"trans": "Berita harian dalam permainan"
+				},
+				"detailed": {
+					"eng": "Stay informed with dynamically updated news reports that gets affected by all player activities, major events, and emerging stories in the cyberpunk world. Maybe your demise will be the next headline?",
+					"trans": "Tetap terinformasi dengan laporan berita yang terus diperbarui dan dipengaruhi oleh semua aktivitas pemain, peristiwa besar, serta cerita baru di dunia cyberpunk. Mungkin kematianmu akan menjadi headline berikutnya?"
+				},
+				"highlight": {
+					"eng": "YOUR ACTIONS MAKE HEADLINES",
+					"trans": "Tindakanmu Jadi Berita"
+				},
+				"title": {
+					"eng": "Dynamic News System",
+					"trans": "Sistem Berita Dinamis"
+				}
+			}
+		},
+		"hero": {
+			"appStore": {
+				"eng": "Download on App Store",
+				"trans": "Unduh di App Store"
+			},
+			"downloadMobile": {
+				"eng": "Download mobile app",
+				"trans": "Unduh aplikasi seluler"
+			},
+			"headline": {
+				"eng": "Arclight City",
+				"trans": "Kota Cahaya Arklit"
+			},
+			"liveActivityLabel": {
+				"eng": "Live activity feed",
+				"trans": "Aliran Aktivitas Langsung"
+			},
+			"metrics": {
+				"bounties": {
+					"eng": "Bounties Placed",
+					"trans": "Bounty Ditetapkan"
+				},
+				"pvpKills": {
+					"eng": "Player vs Player Deaths",
+					"trans": "Kematian PvP"
+				},
+				"users": {
+					"eng": "Registered Cyberpunker",
+					"trans": "Cyberpunker Terdaftar"
+				}
+			},
+			"orPlayOnBrowser": {
+				"eng": "Or play on browser",
+				"trans": "Atau main di browser"
+			},
+			"overline": {
+				"eng": "Cyberpunk // TEXT-BASED MMORPG",
+				"trans": "Cyberpunk // MMORPG Berbasis Teks"
+			},
+			"playStore": {
+				"eng": "Get it on Google Play",
+				"trans": "Unduh di Google Play"
+			},
+			"primaryCta": {
+				"eng": "Play on Browser",
+				"trans": "Main di Browser"
+			},
+			"subline": {
+				"eng": "Arclight City is a vibrant city where you can explore, fight, and trade in a cyberpunk world.",
+				"trans": "Kota Cahaya Arklit adalah kota dinamis tempat kamu dapat menjelajahi, bertarung, dan berdagang di dunia cyberpunk."
+			}
+		},
+		"market": {
+			"copy": {
+				"eng": "Buy and sell corporate shares, monitor player-listed gear, and react to Flash Sales without leaving the dashboard.",
+				"trans": "Beli dan jual saham perusahaan, pantau perlengkapan pemain, serta tanggapi penjualan kilat tanpa meninggalkan dasbor."
+			},
+			"headline": {
+				"eng": "Track the Mega Corporations in real time",
+				"trans": "Pantau Mega Korporasi dalam waktu nyata"
+			},
+			"overline": {
+				"eng": "Realtime Stock Exchange // 24/7 Live in-game Stock Market",
+				"trans": "Bursa Saham Waktu Nyata // Pasar Saham Langsung Dalam Game 24/7"
+			},
+			"tag1": {
+				"eng": "Price action reacts to real-world events and news",
+				"trans": "Pergerakan harga merespons peristiwa dunia nyata dan berita."
+			},
+			"tag2": {
+				"eng": "Buy and sell stocks of in-game mega corporations",
+				"trans": "Beli dan jual saham megakorporasi dalam permainan"
+			},
+			"tag3": {
+				"eng": "Fair and unpredictable market derived on real-world data",
+				"trans": "Pasar adil dan tidak dapat diprediksi, berbasis data dunia nyata."
+			},
+			"tickerTitle": {
+				"eng": "Latest Netcoin board",
+				"trans": "Papan Netcoin Terbaru"
+			}
+		},
+		"mercenary": {
+			"chromeReaper": {
+				"promotional": {
+					"eng": "Heavy firepower meets cybernetic fury",
+					"trans": "Tembak Berat bertemu amarah sibernetik"
+				},
+				"whisper": {
+					"eng": "When stealth fails, bring the chrome. When chrome fails... you were already dead",
+					"trans": "Jika stealth gagal, pakai chrome. Jika chrome gagal... kamu sudah mati."
+				}
+			},
+			"copy": {
+				"eng": "Unlock NPC mercenaries with unique roles, level them up, and build your perfect crew for gigs and raids.",
+				"trans": "Buka prajurit bayaran NPC dengan peran unik, tingkatkan levelnya, dan bangun tim sempurna untuk gig dan raid."
+			},
+			"crimsonRipper": {
+				"promotional": {
+					"eng": "Close-quarters carnage, guaranteed results",
+					"trans": "Pembantaian jarak dekat, hasil terjamin"
+				},
+				"whisper": {
+					"eng": "They say violence isn't the answer. They've never met my chainsaw",
+					"trans": "Mereka bilang kekerasan bukan solusinya. Mereka belum pernah bertemu gergaji rantai saya."
+				}
+			},
+			"ghostNet": {
+				"promotional": {
+					"eng": "Silent ops require silent partners",
+					"trans": "Operasi diam memerlukan rekan yang diam."
+				},
+				"whisper": {
+					"eng": "The shadows have eyes... and they're watching for you",
+					"trans": "Bayangan memiliki mata… dan mereka memantau kamu."
+				}
+			},
+			"gravitySniper": {
+				"promotional": {
+					"eng": "Precision firepower when it matters most",
+					"trans": "Tembak presisi di momen krusial"
+				},
+				"whisper": {
+					"eng": "Distance is just a number. Death is a certainty. Get yourself a sniper",
+					"trans": "Jarak hanyalah angka. Kematian pasti. Dapatkan sniper."
+				}
+			},
+			"heading": {
+				"eng": "Recruit specialists to support your squad",
+				"trans": "Rekrut spesialis untuk mendukung skuad Anda"
+			},
+			"overline": {
+				"eng": "Mercenary companions",
+				"trans": "Rekan Prajurit Bayar"
+			},
+			"shardHealer": {
+				"promotional": {
+					"eng": "Keep your crew combat-ready, 24/7",
+					"trans": "Jaga kru Anda siap tempur 24/7"
+				},
+				"whisper": {
+					"eng": "A crew that bleeds together... needs someone who can put them back together",
+					"trans": "Tim yang bersatu di pertempuran... memerlukan seseorang yang dapat memperbaiki mereka."
+				}
+			},
+			"tag1": {
+				"eng": "Upgrade mercenaries to increase their stats",
+				"trans": "Tingkatkan prajurit bayaran agar statistik mereka meningkat."
+			},
+			"tag2": {
+				"eng": "Unique abilities to synergize with your crew",
+				"trans": "Kemampuan unik untuk bersinergi dengan kru Anda"
+			}
+		},
+		"nav": {
+			"title": {
+				"eng": "ARCLIGHT CITY",
+				"trans": "Kota Cahaya Arklit"
+			}
+		},
+		"news": {
+			"cityNews": {
+				"eng": "CITY NEWS",
+				"trans": "Berita Kota"
+			},
+			"copy": {
+				"eng": "Every gang war, bounty kill, and major deal triggers real news reports. Upgrade your gear? Launch a territory raid? YOU could be on tomorrow's front page.",
+				"trans": "Setiap perang geng, pembunuhan berbayar, dan kesepakatan besar memicu laporan berita asli. Mau upgrade perlengkapanmu? Luncurkan raid wilayah? Kamu bisa jadi di halaman depan esok."
+			},
+			"defaultTag": {
+				"eng": "News",
+				"trans": "Berita"
+			},
+			"goToNews": {
+				"eng": "Go to news ${index}",
+				"trans": "Buka berita ${index}"
+			},
+			"heading": {
+				"eng": "YOUR ACTIONS MAKE THE HEADLINES",
+				"trans": "Aksi Anda Membuat Judul Utama"
+			},
+			"live": {
+				"eng": "● LIVE",
+				"trans": "● LANGSUNG"
+			},
+			"next": {
+				"eng": "Next news",
+				"trans": "Berita berikutnya"
+			},
+			"noNews": {
+				"eng": "No news available at the moment",
+				"trans": "Tidak ada berita tersedia saat ini"
+			},
+			"overline": {
+				"eng": "LIVE WORLD EVENTS // PLAYER-DRIVEN NARRATIVE",
+				"trans": "Acara Langsung di Dunia // Narasi Berbasis Pemain"
+			},
+			"previous": {
+				"eng": "Previous news",
+				"trans": "Berita Sebelumnya"
+			},
+			"reportBy": {
+				"eng": "REPORT BY",
+				"trans": "Dilaporkan oleh"
+			},
+			"tagDynamic": {
+				"eng": "Dynamic World System",
+				"trans": "Sistem Dunia Dinamis"
+			},
+			"tagPlayerDriven": {
+				"eng": "Player-Driven Stories",
+				"trans": "Cerita Berbasis Pemain"
+			},
+			"tagRealTime": {
+				"eng": "Real-Time Updates",
+				"trans": "Pembaruan Waktu Nyata"
+			}
+		},
+		"showcase": {
+			"choiceOutcome": {
+				"description": {
+					"eng": "Face critical decisions during dungeon encounters. Risk it all for rewards, play it safe, or flee—every choice has consequences.",
+					"trans": "Hadapi keputusan penting selama pertarungan di dungeon. Berani mengambil risiko demi hadiah, bermain aman, atau melarikan diri—setiap pilihan memiliki konsekuensi."
+				},
+				"tag": {
+					"eng": "Make your own choices",
+					"trans": "Buat pilihanmu sendiri"
+				},
+				"title": {
+					"eng": "Navigate risk vs reward encounters",
+					"trans": "Jelajahi Pertemuan Risiko vs Hadiah"
+				}
+			},
+			"copy": {
+				"eng": "Real in-game screenshots showcasing tactical combat, deep lore, and endless progression",
+				"trans": "Tangkap layar asli dalam permainan yang menampilkan pertempuran taktis, cerita mendalam, dan perkembangan tanpa batas."
+			},
+			"dungeonLobby": {
+				"description": {
+					"eng": "Form parties, assign roles, and launch procedural dungeons with unique loot tables and boss encounters.",
+					"trans": "Bentuk tim, tetapkan peran, dan luncurkan dungeon prosedural dengan tabel hadiah unik serta pertarungan bos."
+				},
+				"tag": {
+					"eng": "Dungeon System",
+					"trans": "Sistem Dungeon"
+				},
+				"title": {
+					"eng": "Queue squads for instanced raids",
+					"trans": "Antri Tim untuk Raid Instansi"
+				}
+			},
+			"heading": {
+				"eng": "See What Awaits You in the Neon Wasteland",
+				"trans": "Lihat apa yang menantimu di Neon Wasteland"
+			},
+			"loreCollection": {
+				"description": {
+					"eng": "Unlock narrative fragments and codex bonuses as you explore the cyberpunk world and complete missions.",
+					"trans": "Buka fragmen naratif dan bonus kodeks saat Anda menjelajahi dunia cyberpunk serta menyelesaikan misi."
+				},
+				"tag": {
+					"eng": "Lore System",
+					"trans": "Sistem Lore"
+				},
+				"title": {
+					"eng": "Discover world lore and collectible entries",
+					"trans": "Temukan cerita latar dunia dan entri koleksi"
+				}
+			},
+			"minigameRewards": {
+				"description": {
+					"eng": "Multiple minigames to unlock chests in dungeons",
+					"trans": "Berbagai minigame untuk membuka peti di dungeon"
+				},
+				"tag": {
+					"eng": "Minigames",
+					"trans": "Permainan Mini"
+				},
+				"title": {
+					"eng": "Skill challenges with targeted loot",
+					"trans": "Tantangan keterampilan dengan loot terarah"
+				}
+			},
+			"overline": {
+				"eng": "Game Captures",
+				"trans": "Tangkapan Game"
+			},
+			"turnBasedCombat": {
+				"description": {
+					"eng": "Strategic combat with hit/miss/crit mechanics, damage mitigation, build your perfect crew and loadout.",
+					"trans": "Perang strategis dengan mekanisme serangan/gagal/kritis, mitigasi kerusakan, bangun kru dan perlengkapanmu yang sempurna."
+				},
+				"tag": {
+					"eng": "Combat System",
+					"trans": "Sistem Pertarungan"
+				},
+				"title": {
+					"eng": "Tactical turn-based encounters",
+					"trans": "Pertempuran taktis berbasis giliran"
+				}
+			}
+		},
+		"testimonial": {
+			"copy": {
+				"eng": "Verified players from around the world share their experiences with Arclight City",
+				"trans": "Pemain terverifikasi dari seluruh dunia berbagi pengalaman mereka di Arclight City."
+			},
+			"heading": {
+				"eng": "Verified by players worldwide",
+				"trans": "Diverifikasi oleh pemain di seluruh dunia"
+			},
+			"label": {
+				"eng": "Google Play Review",
+				"trans": "Ulasan Google Play"
+			},
+			"overline": {
+				"eng": "Playstore x AppStore // trust signals",
+				"trans": "Playstore x AppStore // Tanda Kepercayaan"
+			},
+			"rating": {
+				"eng": "4.9 rating on Playstore",
+				"trans": "Rating 4,9 di Play Store"
+			},
+			"reviewCount": {
+				"eng": "13k+ reviews",
+				"trans": "13k+ ulasan"
+			}
+		}
+	},
 	"leaderboard": {
 		"clan": {
 			"name": {
@@ -6225,6 +6991,10 @@
 		"processing": {
 			"eng": "Processing...",
 			"trans": "Diproses..."
+		},
+		"processing1": {
+			"eng": "PROCESSING",
+			"trans": "Memproses"
 		},
 		"rewardUnlocked": {
 			"eng": "REWARD UNLOCKED!",

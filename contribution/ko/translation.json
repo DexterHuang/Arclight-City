@@ -3195,6 +3195,20 @@
 			}
 		}
 	},
+	"eventTopUpRewardsBanner": {
+		"rewards": {
+			"eng": "Rewards:",
+			"trans": "보상:"
+		},
+		"subtitle": {
+			"eng": "Available during: ${events}",
+			"trans": "사용 가능한 기간: ${events}"
+		},
+		"title": {
+			"eng": "Event Top-Up Bonus",
+			"trans": "이벤트 토업 보너스"
+		}
+	},
 	"feedbackPopup": {
 		"back": {
 			"eng": "Skip",
@@ -3921,6 +3935,10 @@
 	},
 	"instantDungeonPage": {
 		"advanced": {
+			"badge": {
+				"eng": "Bonus",
+				"trans": "보너스"
+			},
 			"banner": {
 				"eng": "Increased EXP and Loot",
 				"trans": "경험치와 전리품 획득량 증가"
@@ -5763,6 +5781,754 @@
 			}
 		}
 	},
+	"landingPage": {
+		"activity": {
+			"battlepass1": {
+				"eng": "${player} claimed battle pass reward",
+				"trans": "${player}은(는) 배틀패스 보상을 수령했습니다."
+			},
+			"bounty1": {
+				"eng": "$${amount} bounty was placed on ${player}'s head",
+				"trans": "$${amount} 현상금이 ${player}의 머리에 걸렸습니다."
+			},
+			"bounty2": {
+				"eng": "${player} claimed bounty",
+				"trans": "${player} 보상을 수령했습니다."
+			},
+			"daily1": {
+				"eng": "${player} completed intelligence contract",
+				"trans": "${player}님이 정보 계약을 완료했습니다."
+			},
+			"dungeon1": {
+				"eng": "${player} cleared dungeon boss",
+				"trans": "${player} 님이 던전 보스를 클리어했습니다."
+			},
+			"instant1": {
+				"eng": "Hideout raid completed",
+				"trans": "은신처 습격 완료"
+			},
+			"lottery1": {
+				"eng": "${player} won lucky draw",
+				"trans": "${player} 님이 럭키드로우에 당첨되었습니다."
+			},
+			"lottery2": {
+				"eng": "${player} won pachinko",
+				"trans": "플레이어 ${player}님이 파친코에서 승리했습니다."
+			},
+			"market1": {
+				"eng": "a item was sold on black market",
+				"trans": "아이템이 암시장에서 팔렸습니다."
+			},
+			"market3": {
+				"eng": "Market order filled: ${amount}",
+				"trans": "시장 주문이 체결되었습니다: ${amount}"
+			},
+			"mercenary1": {
+				"eng": "${player} recruited mercenary",
+				"trans": "${player}이(는) 용병을 고용했습니다."
+			},
+			"pvp1": {
+				"eng": "${player1} has mugged ${player2}",
+				"trans": "${player1}이(는) ${player2}을(를) 훔쳐갔습니다."
+			},
+			"pvp2": {
+				"eng": "${player1} has arrested ${player2}",
+				"trans": "플레이어 ${player1}이 플레이어 ${player2}를 체포했습니다."
+			},
+			"pvp3": {
+				"eng": "${player} eliminated a bounty target",
+				"trans": "${player}은(는) 보상 대상자를 제거했습니다."
+			},
+			"stock1": {
+				"eng": "Stock surged +${amount}%",
+				"trans": "주가 급등 +${amount}%"
+			},
+			"stock2": {
+				"eng": "Stock dropped -${amount}%",
+				"trans": "주가 하락 -${amount}%"
+			},
+			"territory1": {
+				"eng": "Territory war initiated",
+				"trans": "영역전쟁이 시작되었습니다"
+			},
+			"territory2": {
+				"eng": "Gang captured new territory",
+				"trans": "갱이 새 영역을 점령했습니다."
+			},
+			"territory3": {
+				"eng": "Territory defense successful",
+				"trans": "영역 방어 성공"
+			},
+			"upgrade1": {
+				"eng": "${player} upgraded their equipment to +${tier}",
+				"trans": "플레이어 ${player}의 장비를 +${tier}로 업그레이드했습니다."
+			}
+		},
+		"cta": {
+			"appStore": {
+				"eng": "Download on App Store",
+				"trans": "앱스토어에서 다운로드"
+			},
+			"copy": {
+				"eng": "Sign in with email, Google, or guest access, rally your crew, and drop into the live shard—no paywall, no waitlist.",
+				"trans": "이메일, 구글 또는 게스트로 로그인하고 크루를 모아 라이브 샤드에 즉시 입장하세요—페이월 없이 대기열 없이."
+			},
+			"headline": {
+				"eng": "Play today on mobile or web",
+				"trans": "오늘 모바일 또는 웹에서 플레이하세요"
+			},
+			"overline": {
+				"eng": "Arclight City is live right now",
+				"trans": "아크라이트 시티가 지금 라이브 중입니다."
+			},
+			"playStore": {
+				"eng": "Get it on Google Play",
+				"trans": "구글 플레이에서 받기"
+			},
+			"primary": {
+				"eng": "Play Now",
+				"trans": "지금 플레이"
+			}
+		},
+		"equipment": {
+			"copy": {
+				"eng": "Spend upgrade shards, calibrate, and reroll traits to dominate the battlefield.",
+				"trans": "업그레이드 파편을 사용하고, 교정하며, 특성 재굴림으로 전장을 장악하세요."
+			},
+			"heading": {
+				"eng": "Unlimited Gear Customization and Enhancement",
+				"trans": "무제한 장비 커스터마이징 및 강화"
+			},
+			"overline": {
+				"eng": "Equipment // build your loadout",
+				"trans": "장비 // 로드아웃 구성하기"
+			},
+			"tagCalibration": {
+				"eng": "Calibration increases item stats across all tiers",
+				"trans": "교정으로 모든 티어의 장비 수치가 상승합니다."
+			},
+			"tagTrait": {
+				"eng": "Reset Shards reset item stats giving you a random set of traits",
+				"trans": "리셋 샤드가 아이템 스탯을 재설정하고 무작위 특성을 부여합니다."
+			},
+			"tagUpgrade": {
+				"eng": "Upgrade shards increase item level and stats",
+				"trans": "업그레이드 파편으로 아이템 레벨과 스탯이 상승합니다."
+			}
+		},
+		"features": {
+			"advancedCrafting": {
+				"description": {
+					"eng": "Upgrade and calibrate gear",
+					"trans": "기어 업그레이드 및 교정"
+				},
+				"detailed": {
+					"eng": "Upgrade equipment to higher tiers and calibrate for better stats. Craft consumables and other items to support your adventures.",
+					"trans": "장비를 높은 티어로 업그레이드하고 더 나은 수치를 위해 교정하세요. 소모품과 기타 아이템을 제작해 모험을 지원하세요."
+				},
+				"highlight": {
+					"eng": "LEGENDARY GEAR WITHIN REACH",
+					"trans": "손에 닿는 전설 장비"
+				},
+				"title": {
+					"eng": "Equipment Upgrading",
+					"trans": "장비 업그레이드"
+				}
+			},
+			"afkTasks": {
+				"description": {
+					"eng": "Earn rewards while offline",
+					"trans": "오프라인에서도 보상을 획득하세요"
+				},
+				"detailed": {
+					"eng": "Set up automated activities and background tasks that generate resources, experience, and rewards even when you're away from the game.",
+					"trans": "자동 활동과 백그라운드 작업을 설정하면, 게임을 떠난 상태에서도 자원·경험치·보상을 얻을 수 있습니다."
+				},
+				"highlight": {
+					"eng": "PROFIT WHILE YOU SLEEP",
+					"trans": "자면서도 이익을 챙기세요"
+				},
+				"title": {
+					"eng": "Passive Income System",
+					"trans": "패시브 소득 시스템"
+				}
+			},
+			"battlePass": {
+				"description": {
+					"eng": "Earn exclusive seasonal rewards",
+					"trans": "시즌 전용 보상을 획득하세요"
+				},
+				"detailed": {
+					"eng": "Progress through free and premium seasonal tracks with missions, milestone rewards, and exclusive cosmetics. Complete challenges to unlock tier-based prizes.",
+					"trans": "무료 및 프리미엄 시즌 트랙에서 미션, 마일스톤 보상, 독점 코스튬을 수집하며 진행하세요. 챌린지를 완료하면 티어 기반 상금을 잠금 해제합니다."
+				},
+				"highlight": {
+					"eng": "SEASONS OF GLORY AWAIT YOU",
+					"trans": "영광의 시즌이 당신을 기다립니다."
+				},
+				"title": {
+					"eng": "Seasonal Progression",
+					"trans": "시즌 진행"
+				}
+			},
+			"blackMarket": {
+				"description": {
+					"eng": "Trade with other players",
+					"trans": "플레이어 간 거래"
+				},
+				"detailed": {
+					"eng": "Buy and sell items through the player-driven auction house. List your gear, place bids on others' items, and find great deals from fellow players.",
+					"trans": "플레이어 주도형 경매장을 통해 아이템을 사고팔 수 있습니다. 장비를 등록하고 다른 플레이어의 아이템에 입찰하며 좋은 거래를 찾아보세요."
+				},
+				"highlight": {
+					"eng": "PLAYER-DRIVEN ECONOMY",
+					"trans": "플레이어 주도형 경제"
+				},
+				"title": {
+					"eng": "Player Market",
+					"trans": "플레이어 마켓"
+				}
+			},
+			"bountyHunting": {
+				"description": {
+					"eng": "Place or collect bounties",
+					"trans": "현상금 등록/수집"
+				},
+				"detailed": {
+					"eng": "Place bounties on rival players or hunt down wanted targets for rewards. Track and eliminate high-value targets to collect lucrative bounties.",
+					"trans": "라이벌 플레이어에 현상금을 걸거나 보상을 위해 원하는 표적을 사냥하세요. 고가치 목표를 추적하고 제거해 수익성 높은 현상금을 획득하십시오."
+				},
+				"highlight": {
+					"eng": "BECOME THE CITY'S MOST FEARED",
+					"trans": "도시에서 가장 두려워받는 인물이 되어라"
+				},
+				"title": {
+					"eng": "Bounty Hunting",
+					"trans": "현상금 사냥"
+				}
+			},
+			"cookingSystem": {
+				"description": {
+					"eng": "Cook food for powerful buffs",
+					"trans": "강력한 버프를 위해 음식을 조리하세요"
+				},
+				"detailed": {
+					"eng": "Gather ingredients from dungeons and various tasks, then cook them in your apartment's kitchen. Prepared meals grant powerful temporary buffs to enhance your performance.",
+					"trans": "던전과 다양한 퀘스트에서 재료를 수집해 아파트 주방에서 요리하세요. 준비된 식사는 강력한 일시적 버프를 부여합니다."
+				},
+				"highlight": {
+					"eng": "MASTER CHEF OF THE STREETS",
+					"trans": "거리 요리 대가"
+				},
+				"title": {
+					"eng": "Cooking System",
+					"trans": "요리 시스템"
+				}
+			},
+			"dailyWeeklyMissions": {
+				"description": {
+					"eng": "Complete tasks for rewards",
+					"trans": "과제 완료 시 보상 지급"
+				},
+				"detailed": {
+					"eng": "Take on daily quests and weekly intelligence contracts with escalating rewards and bonuses. Earn free daily rewards by login in everyday.",
+					"trans": "일일 퀘스트와 주간 지능 계약으로 점진적 보상과 보너스를 획득하세요. 매일 로그인하면 무료 보상을 받으세요."
+				},
+				"highlight": {
+					"eng": "LOYALTY BRINGS FORTUNE",
+					"trans": "충성은 부를 가져온다."
+				},
+				"title": {
+					"eng": "Daily & Weekly Missions",
+					"trans": "일일 & 주간 미션"
+				}
+			},
+			"dungeonRaids": {
+				"description": {
+					"eng": "Explore dungeons with your friends for loot",
+					"trans": "친구와 함께 던전을 탐험해 전리품을 획득하세요."
+				},
+				"detailed": {
+					"eng": "Tackle challenging instanced dungeons with your squad or alone. Defeat powerful bosses, and claim legendary equipment and resources.",
+					"trans": "스쿼드와 함께 혹은 혼자 도전적인 인스턴스 던전을 정복하세요. 강력한 보스를 물리치고 전설 장비와 자원을 획득하세요."
+				},
+				"highlight": {
+					"eng": "EPIC LOOT FOR ELITE TEAMS",
+					"trans": "엘리트 팀을 위한 에픽 전리품"
+				},
+				"title": {
+					"eng": "Realtime Co-Op Dungeon Raids",
+					"trans": "실시간 협동 던전 레이드"
+				}
+			},
+			"globalChat": {
+				"description": {
+					"eng": "Chat with players worldwide",
+					"trans": "전 세계 플레이어와 채팅"
+				},
+				"detailed": {
+					"eng": "Join chat with real-time auto-translation across all supported languages, players worldwide meets in Arclight City",
+					"trans": "실시간 자동 번역이 가능한 모든 언어로 채팅에 참여하고, 전 세계 플레이어가 아크라이트 시티에서 만납니다."
+				},
+				"highlight": {
+					"eng": "SPEAK ANY LANGUAGE, UNDERSTOOD BY ALL",
+					"trans": "어떤 언어든 말하면, 모두가 이해합니다."
+				},
+				"title": {
+					"eng": "Borderless Communication",
+					"trans": "경계 없는 통신"
+				}
+			},
+			"heading": {
+				"eng": "What Awaits You",
+				"trans": "무엇이 당신을 기다릴까요?"
+			},
+			"mercenarySquad": {
+				"description": {
+					"eng": "Recruit and upgrade mercenaries to join your crew",
+					"trans": "용병을 영입하고 강화해 크루에 합류시키세요."
+				},
+				"detailed": {
+					"eng": "Build your squad with diverse mercenaries, each with unique stats, buffs and skills. Upgrade them and build your perfect crew.",
+					"trans": "다양한 용병으로 부대를 편성하세요. 각 인물은 독특한 스탯과 버프, 스킬을 갖추고 있습니다. 업그레이드하여 완벽한 크루를 완성하세요."
+				},
+				"highlight": {
+					"eng": "LEGENDARY CREW AT YOUR COMMAND",
+					"trans": "당신이 지휘하는 전설적 크루"
+				},
+				"title": {
+					"eng": "Mercenary Squad System",
+					"trans": "용병 스쿼드 시스템"
+				}
+			},
+			"overline": {
+				"eng": "Game Features // Core Systems",
+				"trans": "게임 기능 // 핵심 시스템"
+			},
+			"panelTitle": {
+				"eng": "Feature briefing",
+				"trans": "기능 브리핑"
+			},
+			"playerEconomy": {
+				"description": {
+					"eng": "Trade stocks of mega corporations",
+					"trans": "거대기업 주식 거래"
+				},
+				"detailed": {
+					"eng": "Invest in a realistic and unpredictable stock market reflecting real-world events and news. Buy and sell stocks of in-game mega corporations to make a profit.",
+					"trans": "실제 세계 사건과 뉴스를 반영하는 현실적이고 예측 불가능한 주식 시장에 투자하세요. 게임 내 메가기업 주식을 사고 팔아 수익을 올리세요."
+				},
+				"highlight": {
+					"eng": "CORPORATE WEALTH AWAITS",
+					"trans": "기업 부가 당신을 기다립니다."
+				},
+				"title": {
+					"eng": "Stock Market Trading",
+					"trans": "주식 거래"
+				}
+			},
+			"playerHousing": {
+				"description": {
+					"eng": "Own and customize your apartment",
+					"trans": "아파트를 소유하고 꾸미세요"
+				},
+				"detailed": {
+					"eng": "Claim your own apartment in the city complete with a personal vault and kitchen for cooking. Host visitors and create your personal cyberpunk sanctuary.",
+					"trans": "도시에서 당신만의 아파트를 확보하세요. 개인 금고와 요리용 주방이 완비되어 있습니다. 방문자를 초대하고 나만의 사이버펑크 안식처를 만들어 보세요."
+				},
+				"highlight": {
+					"eng": "YOUR SANCTUARY IN THE CITY",
+					"trans": "도시 속 당신의 은신처"
+				},
+				"title": {
+					"eng": "Player Housing",
+					"trans": "플레이어 주택"
+				}
+			},
+			"pvpCombat": {
+				"description": {
+					"eng": "Mug players or play as cops",
+					"trans": "강도 또는 경찰로 플레이"
+				},
+				"detailed": {
+					"eng": "Mug other players for their valuables or take on the role of law enforcement to arrest wanted criminals and maintain order in the city.",
+					"trans": "다른 플레이어를 털어 귀중품을 빼앗거나, 경찰 역할을 맡아 보석이 달린 범죄자를 체포하고 도시의 질서를 유지하세요."
+				},
+				"highlight": {
+					"eng": "BECOME HUNTER OR LAWMAN",
+					"trans": "사냥꾼 혹은 법관이 되기"
+				},
+				"title": {
+					"eng": "PvP Combat",
+					"trans": "PvP 전투"
+				}
+			},
+			"territoryControl": {
+				"description": {
+					"eng": "Capture districts and earn bonuses",
+					"trans": "구역을 점령하고 보너스를 획득하세요"
+				},
+				"detailed": {
+					"eng": "Compete for district control, wage gang wars, and unlock exclusive bonuses in your territory.",
+					"trans": "구역을 통제하고 갱전을 벌이며 당신의 영토에서 독점 보너스를 획득하세요."
+				},
+				"highlight": {
+					"eng": "DISTRICTS UNDER YOUR BANNER",
+					"trans": "당신의 배너 아래 구역"
+				},
+				"title": {
+					"eng": "Territory Control",
+					"trans": "영역 통제"
+				}
+			},
+			"worldEvents": {
+				"description": {
+					"eng": "Daily in-game news reports",
+					"trans": "인게임 데일리 뉴스"
+				},
+				"detailed": {
+					"eng": "Stay informed with dynamically updated news reports that gets affected by all player activities, major events, and emerging stories in the cyberpunk world. Maybe your demise will be the next headline?",
+					"trans": "플레이어 활동, 대형 이벤트, 신흥 스토리로 실시간 업데이트되는 뉴스를 확인하세요. 다음 헤드라인은 당신일지도 모릅니다."
+				},
+				"highlight": {
+					"eng": "YOUR ACTIONS MAKE HEADLINES",
+					"trans": "네 행동이 헤드라인을 차지해!"
+				},
+				"title": {
+					"eng": "Dynamic News System",
+					"trans": "동적 뉴스 시스템"
+				}
+			}
+		},
+		"hero": {
+			"appStore": {
+				"eng": "Download on App Store",
+				"trans": "앱스토어에서 다운로드"
+			},
+			"downloadMobile": {
+				"eng": "Download mobile app",
+				"trans": "모바일 앱 다운로드"
+			},
+			"headline": {
+				"eng": "Arclight City",
+				"trans": "아크라이트 시티"
+			},
+			"liveActivityLabel": {
+				"eng": "Live activity feed",
+				"trans": "실시간 활동 피드"
+			},
+			"metrics": {
+				"bounties": {
+					"eng": "Bounties Placed",
+					"trans": "배치한 현상금"
+				},
+				"pvpKills": {
+					"eng": "Player vs Player Deaths",
+					"trans": "PVP 사망"
+				},
+				"users": {
+					"eng": "Registered Cyberpunker",
+					"trans": "등록된 사이버펑커"
+				}
+			},
+			"orPlayOnBrowser": {
+				"eng": "Or play on browser",
+				"trans": "또는 브라우저에서 플레이"
+			},
+			"overline": {
+				"eng": "Cyberpunk // TEXT-BASED MMORPG",
+				"trans": "사이버펑크 // 텍스트 기반 MMORPG"
+			},
+			"playStore": {
+				"eng": "Get it on Google Play",
+				"trans": "구글 플레이에서 받기"
+			},
+			"primaryCta": {
+				"eng": "Play on Browser",
+				"trans": "브라우저에서 플레이"
+			},
+			"subline": {
+				"eng": "Arclight City is a vibrant city where you can explore, fight, and trade in a cyberpunk world.",
+				"trans": "아크라이트 시티는 사이버펑크 세계에서 탐험하고 전투하며 거래할 수 있는 활기찬 도시입니다."
+			}
+		},
+		"market": {
+			"copy": {
+				"eng": "Buy and sell corporate shares, monitor player-listed gear, and react to Flash Sales without leaving the dashboard.",
+				"trans": "기업 주식 거래, 플레이어가 등록한 장비 감시 및 플래시 세일 대응은 대시보드를 떠나지 않고 할 수 있습니다."
+			},
+			"headline": {
+				"eng": "Track the Mega Corporations in real time",
+				"trans": "실시간 메가기업 추적"
+			},
+			"overline": {
+				"eng": "Realtime Stock Exchange // 24/7 Live in-game Stock Market",
+				"trans": "실시간 주식 거래소 // 연중무휴 게임 내 주식시장"
+			},
+			"tag1": {
+				"eng": "Price action reacts to real-world events and news",
+				"trans": "가격 변동은 실제 사건과 뉴스에 반응합니다."
+			},
+			"tag2": {
+				"eng": "Buy and sell stocks of in-game mega corporations",
+				"trans": "인게임 메가기업 주식 거래"
+			},
+			"tag3": {
+				"eng": "Fair and unpredictable market derived on real-world data",
+				"trans": "현실 데이터를 기반으로 한 공정하고 예측이 어려운 시장"
+			},
+			"tickerTitle": {
+				"eng": "Latest Netcoin board",
+				"trans": "최신 넷코인 보드"
+			}
+		},
+		"mercenary": {
+			"chromeReaper": {
+				"promotional": {
+					"eng": "Heavy firepower meets cybernetic fury",
+					"trans": "강력한 화력과 사이버네틱 격노가 결합된다."
+				},
+				"whisper": {
+					"eng": "When stealth fails, bring the chrome. When chrome fails... you were already dead",
+					"trans": "스텔스가 실패하면 크롬을 불러라. 크롬이 실패하면… 이미 죽었어."
+				}
+			},
+			"copy": {
+				"eng": "Unlock NPC mercenaries with unique roles, level them up, and build your perfect crew for gigs and raids.",
+				"trans": "독특한 역할을 가진 NPC 용병을 잠금 해제하고, 레벨을 올려 완벽한 팀을 구성해 작업과 레이드에 활용하세요."
+			},
+			"crimsonRipper": {
+				"promotional": {
+					"eng": "Close-quarters carnage, guaranteed results",
+					"trans": "근거리 살상, 보장된 결과"
+				},
+				"whisper": {
+					"eng": "They say violence isn't the answer. They've never met my chainsaw",
+					"trans": "폭력은 답이 아니라고요. 하지만 내 전기톱을 한 번도 본 적 없겠죠."
+				}
+			},
+			"ghostNet": {
+				"promotional": {
+					"eng": "Silent ops require silent partners",
+					"trans": "스텔스 작전에는 스텔스 파트너가 필수입니다."
+				},
+				"whisper": {
+					"eng": "The shadows have eyes... and they're watching for you",
+					"trans": "그림자들은 눈이 있어요… 당신을 감시하고 있죠."
+				}
+			},
+			"gravitySniper": {
+				"promotional": {
+					"eng": "Precision firepower when it matters most",
+					"trans": "정밀 화력, 가장 필요할 때"
+				},
+				"whisper": {
+					"eng": "Distance is just a number. Death is a certainty. Get yourself a sniper",
+					"trans": "거리는 단지 숫자에 불과해. 죽음은 확실하다. 스나이퍼를 챙겨라."
+				}
+			},
+			"heading": {
+				"eng": "Recruit specialists to support your squad",
+				"trans": "전문가를 모집해 스쿼드를 지원하세요"
+			},
+			"overline": {
+				"eng": "Mercenary companions",
+				"trans": "용병 동료"
+			},
+			"shardHealer": {
+				"promotional": {
+					"eng": "Keep your crew combat-ready, 24/7",
+					"trans": "크루를 24시간 전투 준비 상태로 유지하세요."
+				},
+				"whisper": {
+					"eng": "A crew that bleeds together... needs someone who can put them back together",
+					"trans": "같이 피를 흘리는 크루는… 그들을 다시 한데 모아줄 사람이 필요하다."
+				}
+			},
+			"tag1": {
+				"eng": "Upgrade mercenaries to increase their stats",
+				"trans": "용병을 업그레이드하면 스탯이 상승합니다."
+			},
+			"tag2": {
+				"eng": "Unique abilities to synergize with your crew",
+				"trans": "크루와 시너지를 발휘하는 고유 스킬"
+			}
+		},
+		"nav": {
+			"title": {
+				"eng": "ARCLIGHT CITY",
+				"trans": "아크라이트 시티"
+			}
+		},
+		"news": {
+			"cityNews": {
+				"eng": "CITY NEWS",
+				"trans": "도시 뉴스"
+			},
+			"copy": {
+				"eng": "Every gang war, bounty kill, and major deal triggers real news reports. Upgrade your gear? Launch a territory raid? YOU could be on tomorrow's front page.",
+				"trans": "모든 갱전, 보상 처치, 주요 거래가 실제 뉴스에 반영됩니다. 장비 업그레이드? 영역 공략? 내일 헤드라인에 당신이 나올 수도 있어요."
+			},
+			"defaultTag": {
+				"eng": "News",
+				"trans": "뉴스"
+			},
+			"goToNews": {
+				"eng": "Go to news ${index}",
+				"trans": "뉴스 ${index}으로 이동"
+			},
+			"heading": {
+				"eng": "YOUR ACTIONS MAKE THE HEADLINES",
+				"trans": "당신의 행동이 헤드라인을 만든다."
+			},
+			"live": {
+				"eng": "● LIVE",
+				"trans": "● 라이브"
+			},
+			"next": {
+				"eng": "Next news",
+				"trans": "다음 뉴스"
+			},
+			"noNews": {
+				"eng": "No news available at the moment",
+				"trans": "현재 뉴스가 없습니다."
+			},
+			"overline": {
+				"eng": "LIVE WORLD EVENTS // PLAYER-DRIVEN NARRATIVE",
+				"trans": "실시간 세계 이벤트 // 플레이어 중심 스토리"
+			},
+			"previous": {
+				"eng": "Previous news",
+				"trans": "이전 뉴스"
+			},
+			"reportBy": {
+				"eng": "REPORT BY",
+				"trans": "작성자"
+			},
+			"tagDynamic": {
+				"eng": "Dynamic World System",
+				"trans": "동적 세계 시스템"
+			},
+			"tagPlayerDriven": {
+				"eng": "Player-Driven Stories",
+				"trans": "플레이어 주도 스토리"
+			},
+			"tagRealTime": {
+				"eng": "Real-Time Updates",
+				"trans": "실시간 업데이트"
+			}
+		},
+		"showcase": {
+			"choiceOutcome": {
+				"description": {
+					"eng": "Face critical decisions during dungeon encounters. Risk it all for rewards, play it safe, or flee—every choice has consequences.",
+					"trans": "던전 전투에서 결정이 필요합니다. 보상을 위해 모두 걸거나, 안전하게 플레이하거나, 도망치기 — 모든 선택은 결과를 낳습니다."
+				},
+				"tag": {
+					"eng": "Make your own choices",
+					"trans": "직접 선택하세요"
+				},
+				"title": {
+					"eng": "Navigate risk vs reward encounters",
+					"trans": "위험 대비 보상 전투 탐색"
+				}
+			},
+			"copy": {
+				"eng": "Real in-game screenshots showcasing tactical combat, deep lore, and endless progression",
+				"trans": "전술 전투·깊은 배경 스토리·무한 성장까지 담은 실제 게임 화면"
+			},
+			"dungeonLobby": {
+				"description": {
+					"eng": "Form parties, assign roles, and launch procedural dungeons with unique loot tables and boss encounters.",
+					"trans": "파티를 구성하고 역할을 할당한 뒤 고유 전리품 표와 보스 전투가 있는 프로시저 던전을 실행하세요."
+				},
+				"tag": {
+					"eng": "Dungeon System",
+					"trans": "던전 시스템"
+				},
+				"title": {
+					"eng": "Queue squads for instanced raids",
+					"trans": "인스턴스 레이드용 스쿼드를 대기열에 넣기"
+				}
+			},
+			"heading": {
+				"eng": "See What Awaits You in the Neon Wasteland",
+				"trans": "네온 황무지에서 무엇이 기다리고 있는지 확인해 보세요"
+			},
+			"loreCollection": {
+				"description": {
+					"eng": "Unlock narrative fragments and codex bonuses as you explore the cyberpunk world and complete missions.",
+					"trans": "사이버펑크 세계를 탐험하고 미션을 완료하면 스토리 조각과 코덱 보너스를 잠금 해제합니다."
+				},
+				"tag": {
+					"eng": "Lore System",
+					"trans": "전설 시스템"
+				},
+				"title": {
+					"eng": "Discover world lore and collectible entries",
+					"trans": "세계 전설 및 수집품 탐색"
+				}
+			},
+			"minigameRewards": {
+				"description": {
+					"eng": "Multiple minigames to unlock chests in dungeons",
+					"trans": "던전 보물함 열기용 여러 미니게임"
+				},
+				"tag": {
+					"eng": "Minigames",
+					"trans": "미니게임"
+				},
+				"title": {
+					"eng": "Skill challenges with targeted loot",
+					"trans": "목표 보상을 위한 스킬 챌린지"
+				}
+			},
+			"overline": {
+				"eng": "Game Captures",
+				"trans": "게임 캡처"
+			},
+			"turnBasedCombat": {
+				"description": {
+					"eng": "Strategic combat with hit/miss/crit mechanics, damage mitigation, build your perfect crew and loadout.",
+					"trans": "전략 전투와 명중/미스/크리티컬 메커니즘, 피해 감소 기능을 활용해 당신만의 완벽한 크루와 장비를 구축하세요."
+				},
+				"tag": {
+					"eng": "Combat System",
+					"trans": "전투 시스템"
+				},
+				"title": {
+					"eng": "Tactical turn-based encounters",
+					"trans": "전술적 턴제 전투"
+				}
+			}
+		},
+		"testimonial": {
+			"copy": {
+				"eng": "Verified players from around the world share their experiences with Arclight City",
+				"trans": "전 세계의 인증된 플레이어들이 아크라이트 시티에서 경험을 공유합니다."
+			},
+			"heading": {
+				"eng": "Verified by players worldwide",
+				"trans": "전 세계 플레이어들이 검증했습니다"
+			},
+			"label": {
+				"eng": "Google Play Review",
+				"trans": "구글 플레이 리뷰"
+			},
+			"overline": {
+				"eng": "Playstore x AppStore // trust signals",
+				"trans": "플레이스토어 x 앱스토어 // 신뢰 신호"
+			},
+			"rating": {
+				"eng": "4.9 rating on Playstore",
+				"trans": "플레이스토어 평점 4.9"
+			},
+			"reviewCount": {
+				"eng": "13k+ reviews",
+				"trans": "1만3천+ 리뷰"
+			}
+		}
+	},
 	"leaderboard": {
 		"clan": {
 			"name": {
@@ -6224,6 +6990,10 @@
 		},
 		"processing": {
 			"eng": "Processing...",
+			"trans": "처리 중…"
+		},
+		"processing1": {
+			"eng": "PROCESSING",
 			"trans": "처리 중"
 		},
 		"rewardUnlocked": {

@@ -3195,6 +3195,20 @@
 			}
 		}
 	},
+	"eventTopUpRewardsBanner": {
+		"rewards": {
+			"eng": "Rewards:",
+			"trans": "獎勵："
+		},
+		"subtitle": {
+			"eng": "Available during: ${events}",
+			"trans": "適用於：${events}"
+		},
+		"title": {
+			"eng": "Event Top-Up Bonus",
+			"trans": "活動充值獎勵"
+		}
+	},
 	"feedbackPopup": {
 		"back": {
 			"eng": "Skip",
@@ -3921,6 +3935,10 @@
 	},
 	"instantDungeonPage": {
 		"advanced": {
+			"badge": {
+				"eng": "Bonus",
+				"trans": "獎勵"
+			},
 			"banner": {
 				"eng": "Increased EXP and Loot",
 				"trans": "經驗值和戰利品增加"
@@ -5763,6 +5781,754 @@
 			}
 		}
 	},
+	"landingPage": {
+		"activity": {
+			"battlepass1": {
+				"eng": "${player} claimed battle pass reward",
+				"trans": "${player} 已領取戰鬥通行證獎勵"
+			},
+			"bounty1": {
+				"eng": "$${amount} bounty was placed on ${player}'s head",
+				"trans": "$${amount} 賞金已放在 ${player} 的頭上"
+			},
+			"bounty2": {
+				"eng": "${player} claimed bounty",
+				"trans": "${player}已領取賞金"
+			},
+			"daily1": {
+				"eng": "${player} completed intelligence contract",
+				"trans": "${player}已完成情報合約"
+			},
+			"dungeon1": {
+				"eng": "${player} cleared dungeon boss",
+				"trans": "${player} 已擊敗地下城BOSS"
+			},
+			"instant1": {
+				"eng": "Hideout raid completed",
+				"trans": "藏身處突襲已完成"
+			},
+			"lottery1": {
+				"eng": "${player} won lucky draw",
+				"trans": "${player} 抽中幸運獎"
+			},
+			"lottery2": {
+				"eng": "${player} won pachinko",
+				"trans": "${player} 贏了 pachinko"
+			},
+			"market1": {
+				"eng": "a item was sold on black market",
+				"trans": "物品已在黑市出售"
+			},
+			"market3": {
+				"eng": "Market order filled: ${amount}",
+				"trans": "市價單已成交：${amount}"
+			},
+			"mercenary1": {
+				"eng": "${player} recruited mercenary",
+				"trans": "${player}已招募傭兵"
+			},
+			"pvp1": {
+				"eng": "${player1} has mugged ${player2}",
+				"trans": "${player1} 已經搶奪了 ${player2}"
+			},
+			"pvp2": {
+				"eng": "${player1} has arrested ${player2}",
+				"trans": "玩家${player1}已逮捕玩家${player2}"
+			},
+			"pvp3": {
+				"eng": "${player} eliminated a bounty target",
+				"trans": "${player} 擊殺賞金目標"
+			},
+			"stock1": {
+				"eng": "Stock surged +${amount}%",
+				"trans": "股價上漲+${amount}%"
+			},
+			"stock2": {
+				"eng": "Stock dropped -${amount}%",
+				"trans": "股價下跌 -${amount}%"
+			},
+			"territory1": {
+				"eng": "Territory war initiated",
+				"trans": "領土戰爭已啟動"
+			},
+			"territory2": {
+				"eng": "Gang captured new territory",
+				"trans": "幫派佔領新領地"
+			},
+			"territory3": {
+				"eng": "Territory defense successful",
+				"trans": "領地防禦成功"
+			},
+			"upgrade1": {
+				"eng": "${player} upgraded their equipment to +${tier}",
+				"trans": "${player} 升級裝備至+${tier}"
+			}
+		},
+		"cta": {
+			"appStore": {
+				"eng": "Download on App Store",
+				"trans": "在 App Store 下載"
+			},
+			"copy": {
+				"eng": "Sign in with email, Google, or guest access, rally your crew, and drop into the live shard—no paywall, no waitlist.",
+				"trans": "使用電子郵件、Google 或訪客登入，召集隊伍，即可進入即時伺服器——無付費牆，無等候名單。"
+			},
+			"headline": {
+				"eng": "Play today on mobile or web",
+				"trans": "今天在手機或網頁上玩"
+			},
+			"overline": {
+				"eng": "Arclight City is live right now",
+				"trans": "幻光之城現在已開放"
+			},
+			"playStore": {
+				"eng": "Get it on Google Play",
+				"trans": "Google Play 下載"
+			},
+			"primary": {
+				"eng": "Play Now",
+				"trans": "立即遊玩"
+			}
+		},
+		"equipment": {
+			"copy": {
+				"eng": "Spend upgrade shards, calibrate, and reroll traits to dominate the battlefield.",
+				"trans": "消耗升級碎片、校準並重抽特質，主宰戰場。"
+			},
+			"heading": {
+				"eng": "Unlimited Gear Customization and Enhancement",
+				"trans": "無限裝備自訂與升級"
+			},
+			"overline": {
+				"eng": "Equipment // build your loadout",
+				"trans": "裝備 // 打造你的配備"
+			},
+			"tagCalibration": {
+				"eng": "Calibration increases item stats across all tiers",
+				"trans": "校準可提升所有等級的裝備屬性"
+			},
+			"tagTrait": {
+				"eng": "Reset Shards reset item stats giving you a random set of traits",
+				"trans": "Reset Shards 重置裝備屬性 給你隨機特質"
+			},
+			"tagUpgrade": {
+				"eng": "Upgrade shards increase item level and stats",
+				"trans": "升級碎片提升物品等級與屬性"
+			}
+		},
+		"features": {
+			"advancedCrafting": {
+				"description": {
+					"eng": "Upgrade and calibrate gear",
+					"trans": "升級並校準裝備"
+				},
+				"detailed": {
+					"eng": "Upgrade equipment to higher tiers and calibrate for better stats. Craft consumables and other items to support your adventures.",
+					"trans": "升級裝備至更高等級並校準以提升屬性。製作消耗品及其他道具，支援你的冒險。"
+				},
+				"highlight": {
+					"eng": "LEGENDARY GEAR WITHIN REACH",
+					"trans": "傳奇裝備近在咫尺"
+				},
+				"title": {
+					"eng": "Equipment Upgrading",
+					"trans": "裝備升級"
+				}
+			},
+			"afkTasks": {
+				"description": {
+					"eng": "Earn rewards while offline",
+					"trans": "離線時賺取獎勵"
+				},
+				"detailed": {
+					"eng": "Set up automated activities and background tasks that generate resources, experience, and rewards even when you're away from the game.",
+					"trans": "設定自動化活動與背景任務，即使離線也能產生資源、經驗與獎勵。"
+				},
+				"highlight": {
+					"eng": "PROFIT WHILE YOU SLEEP",
+					"trans": "睡眠中也能獲利"
+				},
+				"title": {
+					"eng": "Passive Income System",
+					"trans": "被動收入系統"
+				}
+			},
+			"battlePass": {
+				"description": {
+					"eng": "Earn exclusive seasonal rewards",
+					"trans": "獲得專屬季節獎勵"
+				},
+				"detailed": {
+					"eng": "Progress through free and premium seasonal tracks with missions, milestone rewards, and exclusive cosmetics. Complete challenges to unlock tier-based prizes.",
+					"trans": "在免費與付費季節路線中完成任務、收集里程碑獎勵及專屬外觀。完成挑戰以解鎖分級獎品。"
+				},
+				"highlight": {
+					"eng": "SEASONS OF GLORY AWAIT YOU",
+					"trans": "榮耀之季等你"
+				},
+				"title": {
+					"eng": "Seasonal Progression",
+					"trans": "賽季進度"
+				}
+			},
+			"blackMarket": {
+				"description": {
+					"eng": "Trade with other players",
+					"trans": "與其他玩家交易"
+				},
+				"detailed": {
+					"eng": "Buy and sell items through the player-driven auction house. List your gear, place bids on others' items, and find great deals from fellow players.",
+					"trans": "在玩家主導的拍賣行中買賣物品。上架裝備、投標他人商品，並從其他玩家處尋找超值交易。"
+				},
+				"highlight": {
+					"eng": "PLAYER-DRIVEN ECONOMY",
+					"trans": "玩家主導經濟"
+				},
+				"title": {
+					"eng": "Player Market",
+					"trans": "玩家市場"
+				}
+			},
+			"bountyHunting": {
+				"description": {
+					"eng": "Place or collect bounties",
+					"trans": "設定或領取賞金"
+				},
+				"detailed": {
+					"eng": "Place bounties on rival players or hunt down wanted targets for rewards. Track and eliminate high-value targets to collect lucrative bounties.",
+					"trans": "對競爭者掛賞金或狩獵通緝目標以換取報酬。追蹤並消滅高價值目標，收集豐厚賞金。"
+				},
+				"highlight": {
+					"eng": "BECOME THE CITY'S MOST FEARED",
+					"trans": "成為城中最令人畏懼的人"
+				},
+				"title": {
+					"eng": "Bounty Hunting",
+					"trans": "賞金狩獵"
+				}
+			},
+			"cookingSystem": {
+				"description": {
+					"eng": "Cook food for powerful buffs",
+					"trans": "烹飪食物，獲得強力增益"
+				},
+				"detailed": {
+					"eng": "Gather ingredients from dungeons and various tasks, then cook them in your apartment's kitchen. Prepared meals grant powerful temporary buffs to enhance your performance.",
+					"trans": "從地下城及各種任務收集食材，並在公寓廚房烹飪。料理可賦予強力暫時增益，提升你的表現。"
+				},
+				"highlight": {
+					"eng": "MASTER CHEF OF THE STREETS",
+					"trans": "街頭大廚"
+				},
+				"title": {
+					"eng": "Cooking System",
+					"trans": "烹飪系統"
+				}
+			},
+			"dailyWeeklyMissions": {
+				"description": {
+					"eng": "Complete tasks for rewards",
+					"trans": "完成任務以換取獎勵"
+				},
+				"detailed": {
+					"eng": "Take on daily quests and weekly intelligence contracts with escalating rewards and bonuses. Earn free daily rewards by login in everyday.",
+					"trans": "挑戰每日任務與每週情報合約，隨進度提升獎勵與加成。每天登入即可免費領取每日獎勵。"
+				},
+				"highlight": {
+					"eng": "LOYALTY BRINGS FORTUNE",
+					"trans": "忠誠帶來財富"
+				},
+				"title": {
+					"eng": "Daily & Weekly Missions",
+					"trans": "每日與每週任務"
+				}
+			},
+			"dungeonRaids": {
+				"description": {
+					"eng": "Explore dungeons with your friends for loot",
+					"trans": "和好友一起探索地牢，獲取戰利品"
+				},
+				"detailed": {
+					"eng": "Tackle challenging instanced dungeons with your squad or alone. Defeat powerful bosses, and claim legendary equipment and resources.",
+					"trans": "與隊伍或單獨挑戰高難度的分離副本。擊敗強力首領，並取得傳奇裝備和資源。"
+				},
+				"highlight": {
+					"eng": "EPIC LOOT FOR ELITE TEAMS",
+					"trans": "精英隊伍史詩戰利品"
+				},
+				"title": {
+					"eng": "Realtime Co-Op Dungeon Raids",
+					"trans": "即時合作地下城突襲"
+				}
+			},
+			"globalChat": {
+				"description": {
+					"eng": "Chat with players worldwide",
+					"trans": "與全球玩家聊天"
+				},
+				"detailed": {
+					"eng": "Join chat with real-time auto-translation across all supported languages, players worldwide meets in Arclight City",
+					"trans": "加入即時多語言自動翻譯聊天室，全球玩家齊聚幻光之城"
+				},
+				"highlight": {
+					"eng": "SPEAK ANY LANGUAGE, UNDERSTOOD BY ALL",
+					"trans": "說任何語言，大家都懂"
+				},
+				"title": {
+					"eng": "Borderless Communication",
+					"trans": "無邊界通訊"
+				}
+			},
+			"heading": {
+				"eng": "What Awaits You",
+				"trans": "等待著的是什麼"
+			},
+			"mercenarySquad": {
+				"description": {
+					"eng": "Recruit and upgrade mercenaries to join your crew",
+					"trans": "招募並升級傭兵，讓他們加入你的隊伍"
+				},
+				"detailed": {
+					"eng": "Build your squad with diverse mercenaries, each with unique stats, buffs and skills. Upgrade them and build your perfect crew.",
+					"trans": "用多元化的傭兵組建你的隊伍，每位都有獨特屬性、增益與技能。升級他們，打造完美隊伍。"
+				},
+				"highlight": {
+					"eng": "LEGENDARY CREW AT YOUR COMMAND",
+					"trans": "你麾下的傳奇小隊"
+				},
+				"title": {
+					"eng": "Mercenary Squad System",
+					"trans": "傭兵小隊系統"
+				}
+			},
+			"overline": {
+				"eng": "Game Features // Core Systems",
+				"trans": "遊戲特色 // 核心系統"
+			},
+			"panelTitle": {
+				"eng": "Feature briefing",
+				"trans": "功能簡介"
+			},
+			"playerEconomy": {
+				"description": {
+					"eng": "Trade stocks of mega corporations",
+					"trans": "交易大型企業股票"
+				},
+				"detailed": {
+					"eng": "Invest in a realistic and unpredictable stock market reflecting real-world events and news. Buy and sell stocks of in-game mega corporations to make a profit.",
+					"trans": "投資於真實且難以預測、能反映現實事件與新聞的股市。購買並出售遊戲內大型企業股票，賺取利潤。"
+				},
+				"highlight": {
+					"eng": "CORPORATE WEALTH AWAITS",
+					"trans": "企業財富正等著你"
+				},
+				"title": {
+					"eng": "Stock Market Trading",
+					"trans": "股市交易"
+				}
+			},
+			"playerHousing": {
+				"description": {
+					"eng": "Own and customize your apartment",
+					"trans": "擁有並客製化你的公寓"
+				},
+				"detailed": {
+					"eng": "Claim your own apartment in the city complete with a personal vault and kitchen for cooking. Host visitors and create your personal cyberpunk sanctuary.",
+					"trans": "在城市中擁有一間配備個人保險箱與廚房的公寓，招待客人並打造你的賽博朋克庇護所。"
+				},
+				"highlight": {
+					"eng": "YOUR SANCTUARY IN THE CITY",
+					"trans": "你的城市庇護所"
+				},
+				"title": {
+					"eng": "Player Housing",
+					"trans": "玩家住宅"
+				}
+			},
+			"pvpCombat": {
+				"description": {
+					"eng": "Mug players or play as cops",
+					"trans": "搶劫玩家或扮演警察"
+				},
+				"detailed": {
+					"eng": "Mug other players for their valuables or take on the role of law enforcement to arrest wanted criminals and maintain order in the city.",
+					"trans": "搶奪其他玩家的貴重物品，或擔任警員逮捕通緝犯並維持市區秩序。"
+				},
+				"highlight": {
+					"eng": "BECOME HUNTER OR LAWMAN",
+					"trans": "成為獵人或執法者"
+				},
+				"title": {
+					"eng": "PvP Combat",
+					"trans": "PvP 戰鬥"
+				}
+			},
+			"territoryControl": {
+				"description": {
+					"eng": "Capture districts and earn bonuses",
+					"trans": "佔領區域，獲得獎勵"
+				},
+				"detailed": {
+					"eng": "Compete for district control, wage gang wars, and unlock exclusive bonuses in your territory.",
+					"trans": "競逐區域控制權，展開幫派戰爭，並在你的領土中解鎖專屬獎勵。"
+				},
+				"highlight": {
+					"eng": "DISTRICTS UNDER YOUR BANNER",
+					"trans": "你旗幟下的區域"
+				},
+				"title": {
+					"eng": "Territory Control",
+					"trans": "領土控制"
+				}
+			},
+			"worldEvents": {
+				"description": {
+					"eng": "Daily in-game news reports",
+					"trans": "每日遊戲內新聞報導"
+				},
+				"detailed": {
+					"eng": "Stay informed with dynamically updated news reports that gets affected by all player activities, major events, and emerging stories in the cyberpunk world. Maybe your demise will be the next headline?",
+					"trans": "隨時掌握即時更新的新聞報導，內容因玩家行動、重大事件及新興故事而變化。也許你的覆滅將成為下一條頭條？"
+				},
+				"highlight": {
+					"eng": "YOUR ACTIONS MAKE HEADLINES",
+					"trans": "你的行動成為頭條"
+				},
+				"title": {
+					"eng": "Dynamic News System",
+					"trans": "動態新聞系統"
+				}
+			}
+		},
+		"hero": {
+			"appStore": {
+				"eng": "Download on App Store",
+				"trans": "在 App Store 下載"
+			},
+			"downloadMobile": {
+				"eng": "Download mobile app",
+				"trans": "下載手機 App"
+			},
+			"headline": {
+				"eng": "Arclight City",
+				"trans": "幻光之城"
+			},
+			"liveActivityLabel": {
+				"eng": "Live activity feed",
+				"trans": "即時活動訊息"
+			},
+			"metrics": {
+				"bounties": {
+					"eng": "Bounties Placed",
+					"trans": "已下懸賞"
+				},
+				"pvpKills": {
+					"eng": "Player vs Player Deaths",
+					"trans": "玩家對玩家死亡"
+				},
+				"users": {
+					"eng": "Registered Cyberpunker",
+					"trans": "已註冊賽博朋克"
+				}
+			},
+			"orPlayOnBrowser": {
+				"eng": "Or play on browser",
+				"trans": "或在瀏覽器上遊玩"
+			},
+			"overline": {
+				"eng": "Cyberpunk // TEXT-BASED MMORPG",
+				"trans": "賽博朋克 // 文字版MMORPG"
+			},
+			"playStore": {
+				"eng": "Get it on Google Play",
+				"trans": "Google Play 下載"
+			},
+			"primaryCta": {
+				"eng": "Play on Browser",
+				"trans": "瀏覽器遊玩"
+			},
+			"subline": {
+				"eng": "Arclight City is a vibrant city where you can explore, fight, and trade in a cyberpunk world.",
+				"trans": "幻光之城是一座熱鬧繁華的都市，你可在此探索、戰鬥與交易，體驗賽博朋克世界。"
+			}
+		},
+		"market": {
+			"copy": {
+				"eng": "Buy and sell corporate shares, monitor player-listed gear, and react to Flash Sales without leaving the dashboard.",
+				"trans": "在儀表板內買賣公司股份、監控玩家上架裝備，並即時回應閃購，無需離開。"
+			},
+			"headline": {
+				"eng": "Track the Mega Corporations in real time",
+				"trans": "即時追蹤巨型企業"
+			},
+			"overline": {
+				"eng": "Realtime Stock Exchange // 24/7 Live in-game Stock Market",
+				"trans": "即時股市 // 24/7 遊戲內實況市場"
+			},
+			"tag1": {
+				"eng": "Price action reacts to real-world events and news",
+				"trans": "價格走勢受實際事件和新聞影響"
+			},
+			"tag2": {
+				"eng": "Buy and sell stocks of in-game mega corporations",
+				"trans": "買賣遊戲內大型企業股票"
+			},
+			"tag3": {
+				"eng": "Fair and unpredictable market derived on real-world data",
+				"trans": "基於真實世界資料的公平且難以預測市場"
+			},
+			"tickerTitle": {
+				"eng": "Latest Netcoin board",
+				"trans": "最新網幣排行榜"
+			}
+		},
+		"mercenary": {
+			"chromeReaper": {
+				"promotional": {
+					"eng": "Heavy firepower meets cybernetic fury",
+					"trans": "重型火力結合電驅狂怒"
+				},
+				"whisper": {
+					"eng": "When stealth fails, bring the chrome. When chrome fails... you were already dead",
+					"trans": "潛行失敗時，裝備 Chrome；若 Chrome 也失敗…你已經沒命了。"
+				}
+			},
+			"copy": {
+				"eng": "Unlock NPC mercenaries with unique roles, level them up, and build your perfect crew for gigs and raids.",
+				"trans": "解鎖擁有獨特職能的 NPC 傭兵，升級他們並為任務與突襲組建完美隊伍。"
+			},
+			"crimsonRipper": {
+				"promotional": {
+					"eng": "Close-quarters carnage, guaranteed results",
+					"trans": "近戰血腥屠戮，保證成效"
+				},
+				"whisper": {
+					"eng": "They say violence isn't the answer. They've never met my chainsaw",
+					"trans": "有人說暴力不是答案。他們從未見過我的鏈鋸"
+				}
+			},
+			"ghostNet": {
+				"promotional": {
+					"eng": "Silent ops require silent partners",
+					"trans": "沉默行動需要沉默夥伴。"
+				},
+				"whisper": {
+					"eng": "The shadows have eyes... and they're watching for you",
+					"trans": "影子有眼睛…他們正在盯著你。"
+				}
+			},
+			"gravitySniper": {
+				"promotional": {
+					"eng": "Precision firepower when it matters most",
+					"trans": "關鍵時刻的精準火力"
+				},
+				"whisper": {
+					"eng": "Distance is just a number. Death is a certainty. Get yourself a sniper",
+					"trans": "距離只是個數字，死亡是必然。快去拿支狙擊槍吧。"
+				}
+			},
+			"heading": {
+				"eng": "Recruit specialists to support your squad",
+				"trans": "招募專家，支援你的隊伍"
+			},
+			"overline": {
+				"eng": "Mercenary companions",
+				"trans": "傭兵同伴"
+			},
+			"shardHealer": {
+				"promotional": {
+					"eng": "Keep your crew combat-ready, 24/7",
+					"trans": "確保你的隊伍全天候備戰"
+				},
+				"whisper": {
+					"eng": "A crew that bleeds together... needs someone who can put them back together",
+					"trans": "同袍共患難的團隊，需要有人把他們重新組合。"
+				}
+			},
+			"tag1": {
+				"eng": "Upgrade mercenaries to increase their stats",
+				"trans": "升級傭兵以提升其屬性"
+			},
+			"tag2": {
+				"eng": "Unique abilities to synergize with your crew",
+				"trans": "與隊伍協同的獨特技能"
+			}
+		},
+		"nav": {
+			"title": {
+				"eng": "ARCLIGHT CITY",
+				"trans": "幻光之城"
+			}
+		},
+		"news": {
+			"cityNews": {
+				"eng": "CITY NEWS",
+				"trans": "城市新聞"
+			},
+			"copy": {
+				"eng": "Every gang war, bounty kill, and major deal triggers real news reports. Upgrade your gear? Launch a territory raid? YOU could be on tomorrow's front page.",
+				"trans": "每場幫派戰、賞金殺手與重大交易都會引起真實新聞報導。升級裝備？發動領地攻擊？你可能登上明日頭版！"
+			},
+			"defaultTag": {
+				"eng": "News",
+				"trans": "新聞"
+			},
+			"goToNews": {
+				"eng": "Go to news ${index}",
+				"trans": "前往新聞${index}"
+			},
+			"heading": {
+				"eng": "YOUR ACTIONS MAKE THE HEADLINES",
+				"trans": "你的每個舉動都能登上頭條"
+			},
+			"live": {
+				"eng": "● LIVE",
+				"trans": "● 直播"
+			},
+			"next": {
+				"eng": "Next news",
+				"trans": "下一條新聞"
+			},
+			"noNews": {
+				"eng": "No news available at the moment",
+				"trans": "暫無新聞"
+			},
+			"overline": {
+				"eng": "LIVE WORLD EVENTS // PLAYER-DRIVEN NARRATIVE",
+				"trans": "即時世界事件 // 玩家主導的敘事"
+			},
+			"previous": {
+				"eng": "Previous news",
+				"trans": "往期新聞"
+			},
+			"reportBy": {
+				"eng": "REPORT BY",
+				"trans": "報告者"
+			},
+			"tagDynamic": {
+				"eng": "Dynamic World System",
+				"trans": "動態世界系統"
+			},
+			"tagPlayerDriven": {
+				"eng": "Player-Driven Stories",
+				"trans": "玩家主導故事"
+			},
+			"tagRealTime": {
+				"eng": "Real-Time Updates",
+				"trans": "即時更新"
+			}
+		},
+		"showcase": {
+			"choiceOutcome": {
+				"description": {
+					"eng": "Face critical decisions during dungeon encounters. Risk it all for rewards, play it safe, or flee—every choice has consequences.",
+					"trans": "面對地下城遭遇時的關鍵決策。全力冒險以求獎勵、謹慎行事或逃離——每個選擇都有後果。"
+				},
+				"tag": {
+					"eng": "Make your own choices",
+					"trans": "自由選擇"
+				},
+				"title": {
+					"eng": "Navigate risk vs reward encounters",
+					"trans": "導航風險與獎勵遭遇"
+				}
+			},
+			"copy": {
+				"eng": "Real in-game screenshots showcasing tactical combat, deep lore, and endless progression",
+				"trans": "真實遊戲畫面：戰術對決、深厚世界觀與無盡進程"
+			},
+			"dungeonLobby": {
+				"description": {
+					"eng": "Form parties, assign roles, and launch procedural dungeons with unique loot tables and boss encounters.",
+					"trans": "組隊、分配角色，並啟動帶有獨特掉落表與首領遭遇的隨機生成地牢。"
+				},
+				"tag": {
+					"eng": "Dungeon System",
+					"trans": "地下城系統"
+				},
+				"title": {
+					"eng": "Queue squads for instanced raids",
+					"trans": "為實例化突襲排隊"
+				}
+			},
+			"heading": {
+				"eng": "See What Awaits You in the Neon Wasteland",
+				"trans": "探索霓虹廢土，發現等待你的驚喜"
+			},
+			"loreCollection": {
+				"description": {
+					"eng": "Unlock narrative fragments and codex bonuses as you explore the cyberpunk world and complete missions.",
+					"trans": "探索賽博朋克世界、完成任務，解鎖敘事碎片與編年誌獎勵。"
+				},
+				"tag": {
+					"eng": "Lore System",
+					"trans": "傳說系統"
+				},
+				"title": {
+					"eng": "Discover world lore and collectible entries",
+					"trans": "探索世界傳說與收藏品"
+				}
+			},
+			"minigameRewards": {
+				"description": {
+					"eng": "Multiple minigames to unlock chests in dungeons",
+					"trans": "多場迷你遊戲解鎖地下城寶箱"
+				},
+				"tag": {
+					"eng": "Minigames",
+					"trans": "小遊戲"
+				},
+				"title": {
+					"eng": "Skill challenges with targeted loot",
+					"trans": "技能挑戰：指定掉落"
+				}
+			},
+			"overline": {
+				"eng": "Game Captures",
+				"trans": "遊戲截圖"
+			},
+			"turnBasedCombat": {
+				"description": {
+					"eng": "Strategic combat with hit/miss/crit mechanics, damage mitigation, build your perfect crew and loadout.",
+					"trans": "策略戰鬥：命中/失敗/暴擊、傷害減免，打造理想隊伍與裝備。"
+				},
+				"tag": {
+					"eng": "Combat System",
+					"trans": "戰鬥系統"
+				},
+				"title": {
+					"eng": "Tactical turn-based encounters",
+					"trans": "戰術回合制遭遇"
+				}
+			}
+		},
+		"testimonial": {
+			"copy": {
+				"eng": "Verified players from around the world share their experiences with Arclight City",
+				"trans": "來自全球的已驗證玩家分享他們在幻光之城的體驗"
+			},
+			"heading": {
+				"eng": "Verified by players worldwide",
+				"trans": "由全球玩家驗證"
+			},
+			"label": {
+				"eng": "Google Play Review",
+				"trans": "Google Play 評論"
+			},
+			"overline": {
+				"eng": "Playstore x AppStore // trust signals",
+				"trans": "Google Play × Apple App Store // 信任指標"
+			},
+			"rating": {
+				"eng": "4.9 rating on Playstore",
+				"trans": "Play Store 評分 4.9"
+			},
+			"reviewCount": {
+				"eng": "13k+ reviews",
+				"trans": "13k+ 評論"
+			}
+		}
+	},
 	"leaderboard": {
 		"clan": {
 			"name": {
@@ -6225,6 +6991,10 @@
 		"processing": {
 			"eng": "Processing...",
 			"trans": "正在處理..."
+		},
+		"processing1": {
+			"eng": "PROCESSING",
+			"trans": "處理中"
 		},
 		"rewardUnlocked": {
 			"eng": "REWARD UNLOCKED!",
