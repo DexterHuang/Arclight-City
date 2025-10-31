@@ -6,6 +6,15 @@
 
 **If you find an exploit, please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
+### 0.0.91
+
+-  **Added Locked Chest and Stronghold Chest Key System**: New reward mechanic added to Hard difficulty strongholds
+   -  **Stronghold chests now have a chance to drop a Stronghold Chest Key** in addition to their regular loot
+   -  **Locked Chests** can be found in strongholds that require a Stronghold Chest Key to unlock
+      -  Provides enhanced rare chest loot with significantly better quality than standard chests
+      -  Cannot be opened without a key
+   -  The **Stronghold Chest Key is dungeon-only** - it cannot be taken out of the stronghold, so you must find and use it during your current run 
+
 ### 0.0.90
 
 -  Improved Auto Calibration UI, now it shows the amount of repair kits used, as it may be confusing to why multiple repair kits missing to some. (Auto Calibration automatically repairs if destroyed until it is calibrated successfully or stopped by player)
