@@ -70,7 +70,7 @@ Choose carefully before submitting your verdict!
 
 ## What happens if I choose the correct verdict?
 
-You'll receive the **full story** revealing what happened, earn **rewards** (Eurodollars, experience, items), and the case is marked as **solved** for viewing later in the Solved Mysteries page.
+You'll receive the **full story** revealing what happened, earn various rewards, and the case is marked as **solved** for viewing later in the Solved Mysteries page.
 
 ## Can I abandon an investigation?
 
@@ -82,4 +82,4 @@ You can view all your previously solved cases on the **Solved Mysteries** page. 
 
 ## Can I review clues before submitting my verdict?
 
-Yes! In your active investigation view, you can tap on any collected clue to see its full details again, including the clue content and evidence image. This helps you review all the evidence before making your final decision.
+Yes! In your active investigation view, you can tap on any collected clue to see its full details again, including the clue content and evidence image. This helps you review all the evidence before making your final decision
