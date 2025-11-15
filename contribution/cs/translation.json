@@ -1969,6 +1969,20 @@
 			"trans": "${enemyName} zaútočil na ${player} a způsobil ${damage} bodů poškození."
 		}
 	},
+	"common": {
+		"close": {
+			"eng": "Close",
+			"trans": "Zavřít"
+		},
+		"error": {
+			"eng": "Error loading investigation data",
+			"trans": "Chyba při načítání dat vyšetřování"
+		},
+		"loading": {
+			"eng": "Loading...",
+			"trans": "Načítání..."
+		}
+	},
 	"compactRewardConfigDisplay": {
 		"clanControl": {
 			"eng": "+ ${amount} control on territory",
@@ -2582,6 +2596,10 @@
 			"maxLootLevelDifference": {
 				"eng": "You cannot loot this chest because your level is too high",
 				"trans": "Tuhle bednu nelze vykrást, jelikož máš příliš vysokou úroveň."
+			},
+			"noKey": {
+				"eng": "This chest is locked. Find a key to open it!",
+				"trans": "Tato truhla je zamčená. Najdi klíč a otevři ji!"
 			}
 		},
 		"type": {
@@ -4047,6 +4065,282 @@
 			}
 		}
 	},
+	"investigation": {
+		"abandon": {
+			"eng": "Abandon",
+			"trans": "Opustit"
+		},
+		"abandonConfirm": {
+			"confirm": {
+				"eng": "Abandon",
+				"trans": "Opustit"
+			},
+			"message": {
+				"eng": "Are you sure you want to abandon this case? All collected clues will be lost and you'll need to start over with a new case.",
+				"trans": "Jste si jisti, že chcete tento případ opustit? Vše shromážděné stopy se ztratí a budete muset začít s novým případem."
+			},
+			"title": {
+				"eng": "Abandon Investigation?",
+				"trans": "Zrušit vyšetřování?"
+			}
+		},
+		"abandonFailed": {
+			"eng": "Failed to abandon investigation. Please try again.",
+			"trans": "Zrušení vyšetřování selhalo. Zkuste to znovu."
+		},
+		"abandoned": {
+			"eng": "Investigation abandoned. You can start a new case anytime.",
+			"trans": "Vyšetřování ukončeno. Můžete kdykoli zahájit nový případ."
+		},
+		"acknowledgeFailure": {
+			"eng": "ACKNOWLEDGE",
+			"trans": "Potvrdit"
+		},
+		"activeCase": {
+			"eng": "Active Case",
+			"trans": "Aktivní případ"
+		},
+		"allCasesSolved": {
+			"eng": "You have solved all available investigations!",
+			"trans": "Vyřešili jste všechna dostupná vyšetřování!"
+		},
+		"allCluesCollected": {
+			"eng": "ALL CLUES COLLECTED",
+			"trans": "Všechny shromážděné stopy"
+		},
+		"allCluesCollectedMessage": {
+			"eng": "You have collected all evidence for your current investigation. Complete this case before starting a new one.",
+			"trans": "Shromáždili jste všechny důkazy k vašemu současnému vyšetřování. Dokončete tento případ před zahájením dalšího."
+		},
+		"analysisComplete": {
+			"eng": "ANALYSIS COMPLETE",
+			"trans": "Analýza dokončena"
+		},
+		"analysisResult": {
+			"eng": "ANALYSIS RESULT",
+			"trans": "Výsledek analýzy"
+		},
+		"analyzingEvidence": {
+			"eng": "ANALYZING EVIDENCE...",
+			"trans": "Analyzování důkazů..."
+		},
+		"caseClosed": {
+			"eng": "Case Closed",
+			"trans": "Případ uzavřen"
+		},
+		"caseId": {
+			"eng": "CASE ID",
+			"trans": "ID případu"
+		},
+		"caseIntro": {
+			"eng": "Case Introduction",
+			"trans": "Úvod do případu"
+		},
+		"caseReadyToSolve": {
+			"eng": "ACPD Case Ready to Solve",
+			"trans": "Případ ACPD připraven k vyřešení"
+		},
+		"caseResolved": {
+			"eng": "ACPD Case Resolved",
+			"trans": "ACPD Případ vyřešen"
+		},
+		"caseSolved": {
+			"eng": "Investigation solved! ${caseName}",
+			"trans": "Vyšetřování vyřešeno! ${caseName}"
+		},
+		"caseStatus": {
+			"eng": "CASE STATUS",
+			"trans": "Stav případu"
+		},
+		"closed": {
+			"eng": "CLOSED - FAILED",
+			"trans": "ZAVŘENO – SELHALO"
+		},
+		"clueCollected": {
+			"eng": "Clue discovered: ${clueName}",
+			"trans": "Zjištěná stopa: ${clueName}"
+		},
+		"clueFound": {
+			"eng": "CLUE DISCOVERED",
+			"trans": "Stopa nalezena"
+		},
+		"collectedClues": {
+			"eng": "Collected Clues",
+			"trans": "Shromážděné stopy"
+		},
+		"continue": {
+			"eng": "Continue",
+			"trans": "Pokračovat"
+		},
+		"continueExploring": {
+			"eng": "Continue Exploring",
+			"trans": "Pokračovat v průzkumu"
+		},
+		"contradictoryElements": {
+			"eng": "Multiple contradictory elements detected in the proposed verdict.",
+			"trans": "V navrženém rozsudku bylo zjištěno více protichůdných prvků."
+		},
+		"correctVerdict": {
+			"eng": "Your deduction was correct. The truth has been uncovered.",
+			"trans": "Vaše dedukce byla správná. Pravda byla odhalena."
+		},
+		"deliverVerdict": {
+			"eng": "Deliver Your Verdict",
+			"trans": "Vyjádřete svůj verdikt"
+		},
+		"errorCode": {
+			"eng": "ERROR CODE",
+			"trans": "Kód chyby"
+		},
+		"evidence": {
+			"eng": "Evidence",
+			"trans": "Důkaz"
+		},
+		"evidenceAcquired": {
+			"eng": "Evidence Logged - ACPD Database",
+			"trans": "Důkazy zaznamenány - ACPD databáze"
+		},
+		"evidenceCollected": {
+			"eng": "Evidence Collected",
+			"trans": "Získané důkazy"
+		},
+		"evidenceMismatch": {
+			"eng": "The submitted conclusion does not align with available evidence patterns.",
+			"trans": "Předložený závěr se neshoduje s dostupnými vzorci důkazů."
+		},
+		"goToVerdict": {
+			"eng": "Go to verdict ${num}",
+			"trans": "Přejít na rozsudek ${num}"
+		},
+		"imageUnavailable": {
+			"eng": "Image Unavailable",
+			"trans": "Obrázek není k dispozici"
+		},
+		"investigationAbandoned": {
+			"eng": "Investigation abandoned. You can start a new case anytime.",
+			"trans": "Vyšetřování ukončeno. Můžete kdykoli zahájit nový případ."
+		},
+		"investigationClosed": {
+			"eng": "Investigation terminated. Case file closed. Evidence confiscated.",
+			"trans": "Vyšetřování ukončeno. Případ uzavřen. Důkazy zabaveny."
+		},
+		"investigationStatus": {
+			"eng": "INVESTIGATION STATUS",
+			"trans": "Stav vyšetřování"
+		},
+		"moreCluesNeeded": {
+			"eng": "Continue exploring to find more clues...",
+			"trans": "Pokračujte v průzkumu, abyste našli další stopy..."
+		},
+		"needMoreClues": {
+			"short": {
+				"eng": "Find more clues in dungeons",
+				"trans": "Najděte více stop v lochách"
+			}
+		},
+		"newCase": {
+			"eng": "New Case",
+			"trans": "Nový případ"
+		},
+		"noActiveCase": {
+			"short": {
+				"eng": "No active case",
+				"trans": "Žádný aktivní případ"
+			}
+		},
+		"noActiveInvestigation": {
+			"eng": "You have no active investigation to abandon.",
+			"trans": "Nemáte žádné aktivní vyšetřování, které byste mohli opustit."
+		},
+		"noChoices": {
+			"eng": "No choices available",
+			"trans": "Žádné možnosti nejsou k dispozici"
+		},
+		"noPermit": {
+			"eng": "You need an Investigation Access Permit to submit a verdict. These can be found in dungeon chests.",
+			"trans": "Pro podání rozsudku je potřeba povolení pro přístup k vyšetřování. Najdete je v truhlách dungeonu."
+		},
+		"noSolvedCases": {
+			"eng": "You haven't solved any investigations yet. Start investigating!",
+			"trans": "Dosud jste nevyřešili žádné vyšetřování. Začněte vyšetřovat!"
+		},
+		"notAllCluesCollected": {
+			"eng": "You must collect all clues before solving the case.",
+			"trans": "Musíte shromáždit všechny stopy před vyřešením případu."
+		},
+		"processingVerdict": {
+			"eng": "PROCESSING VERDICT...",
+			"trans": "Zpracování rozhodnutí..."
+		},
+		"readyToSolve": {
+			"eng": "You have all the evidence. Review your findings and solve the case.",
+			"trans": "Máte všechny důkazy. Zkontrolujte zjištění a vyřešte případ."
+		},
+		"rewards": {
+			"eng": "Rewards",
+			"trans": "odměny"
+		},
+		"selectChoice": {
+			"eng": "Please select a conclusion",
+			"trans": "Prosím vyberte závěr"
+		},
+		"solveFromInvestigationLog": {
+			"eng": "Visit your Investigation Log to review evidence and solve the case.",
+			"trans": "Otevřete svůj Záznam vyšetřování, abyste si prohlédli důkazy a vyřešili případ."
+		},
+		"solvedOn": {
+			"eng": "Solved on ${date}",
+			"trans": "Vyřešeno dne ${date}"
+		},
+		"submit": {
+			"eng": "Submit Verdict",
+			"trans": "Odeslat Rozsudek"
+		},
+		"submitError": {
+			"eng": "Failed to submit verdict. Please try again.",
+			"trans": "Nešlo odeslat rozhodnutí. Prosím zkuste znovu."
+		},
+		"submitVerdict": {
+			"eng": "Submit Your Verdict",
+			"trans": "Odeslat rozhodnutí"
+		},
+		"submitting": {
+			"eng": "Submitting...",
+			"trans": "Odesílání…"
+		},
+		"systemPrefix": {
+			"eng": "SYS",
+			"trans": "SYSTÉM"
+		},
+		"terminalFooter": {
+			"eng": "ARCLIGHT CITY INVESTIGATION BUREAU // CLASSIFIED",
+			"trans": "Vyšetřovací úřad města Arclight // KLASIFIKOVÁNO"
+		},
+		"terminalHeader": {
+			"eng": "ACPD INVESTIGATION ANALYSIS SYSTEM",
+			"trans": "ACPD SYSTÉM ANALÝZY VYSETŘOVÁNÍ"
+		},
+		"theStory": {
+			"eng": "The Full Story",
+			"trans": "Celý příběh"
+		},
+		"totalSolved": {
+			"eng": "Total Solved: ${count}",
+			"trans": "Celkem vyřešeno: ${count}"
+		},
+		"truthRevealed": {
+			"eng": "The truth has been revealed",
+			"trans": "Pravda byla odhalena"
+		},
+		"verdictImage": {
+			"eng": "Verdict ${num} investigation image",
+			"trans": "Rozhodnutí ${num} – obrázek vyšetřování"
+		},
+		"verdictRejected": {
+			"eng": "VERDICT REJECTED",
+			"trans": "Rozsudek zamítnutý"
+		}
+	},
 	"item": {
 		"equipError": {
 			"destroyed": {
@@ -4185,6 +4479,10 @@
 		"notTradable": {
 			"eng": "Not tradable",
 			"trans": "Neobchodovatelný"
+		},
+		"strongholdOnly": {
+			"eng": "Stronghold Only Item",
+			"trans": "Položka pouze pro pevnost"
 		},
 		"useTitle": {
 			"eng": "Use",
@@ -5088,6 +5386,16 @@
 				"trans": "Implantát"
 			}
 		},
+		"investigationAccessPermit": {
+			"description": {
+				"eng": "ACPD investigation system access authorization. Required to submit case verdicts. Consumed upon submission regardless of outcome.",
+				"trans": "Přístup k systému ACPD je nutný pro podání rozsudků. Po odeslání se spotřebuje, bez ohledu na výsledek."
+			},
+			"name": {
+				"eng": "Investigation Access Permit",
+				"trans": "Povolení pro přístup k vyšetřování"
+			}
+		},
 		"itemLevelupShard": {
 			"description": {
 				"eng": "Universal level up token for equipments, use to increase the level of an equipment",
@@ -5498,6 +5806,16 @@
 			"name": {
 				"eng": "Synaptic Enhancer",
 				"trans": "Synaptický zesilovač"
+			}
+		},
+		"tacticalAccessChip": {
+			"description": {
+				"eng": "A key found within the dungeon that opens locked chests. Cannot be taken out of the stronghold.",
+				"trans": "Klíč nalezený v podzemí, otevírá zamčené truhly. Nelze ho vyjmout ze pevnosti."
+			},
+			"name": {
+				"eng": "Stronghold Chest Key",
+				"trans": "Klíč k truhle pevnosti"
 			}
 		},
 		"teaEgg": {
@@ -7386,6 +7704,10 @@
 			"eng": "Inventory",
 			"trans": "Inventář"
 		},
+		"investigation": {
+			"eng": "Investigation",
+			"trans": "Vyšetřování"
+		},
 		"jobLevel": {
 			"eng": "Job Level",
 			"trans": "Úroveň povolání"
@@ -8202,6 +8524,88 @@
 			"upHint": {
 				"eng": "Up",
 				"trans": "Nahoru"
+			}
+		},
+		"pressureRegulator": {
+			"failTitle": {
+				"eng": "System Overload",
+				"trans": "Přetížení systému"
+			},
+			"gaugeLabel": {
+				"eng": "Pressure gauge - hold to regulate",
+				"trans": "Měřič tlaku – držte pro regulaci"
+			},
+			"holdingHint": {
+				"eng": "Hold Active",
+				"trans": "Drž aktivní"
+			},
+			"instructions": {
+				"eng": "Hold to raise pressure • Release to lower • Maintain ${duration}s in zone",
+				"trans": "Podržte pro zvýšení tlaku • Uvolněte pro snížení • Zachovejte ${duration}s v oblasti"
+			},
+			"pressureLabel": {
+				"eng": "Pressure",
+				"trans": "Tlak"
+			},
+			"progressTitle": {
+				"eng": "REGULATION PROGRESS",
+				"trans": "Postup regulace"
+			},
+			"retry": {
+				"eng": "Reset System",
+				"trans": "Resetovat systém"
+			},
+			"retryLabel": {
+				"eng": "Reset system and try again",
+				"trans": "Resetuj systém a zkus to znovu."
+			},
+			"safeZone": {
+				"eng": "Target Zone",
+				"trans": "Cílová zóna"
+			},
+			"status": {
+				"eng": "Status",
+				"trans": "Stav"
+			},
+			"statusFailed": {
+				"eng": "Overload",
+				"trans": "Přetížení"
+			},
+			"statusLabelFailed": {
+				"eng": "Fail",
+				"trans": "Neúspěch"
+			},
+			"statusLabelSuccess": {
+				"eng": "OK",
+				"trans": "OK"
+			},
+			"statusStable": {
+				"eng": "Stable ${percent}%",
+				"trans": "Stabilní ${percent}%"
+			},
+			"statusSuccess": {
+				"eng": "Regulated",
+				"trans": "regulovaný"
+			},
+			"statusUnstable": {
+				"eng": "Out of Range",
+				"trans": "Mimo dosah"
+			},
+			"subtitle": {
+				"eng": "Power Flow Control System",
+				"trans": "Systém řízení toku energie"
+			},
+			"successTitle": {
+				"eng": "System Regulated",
+				"trans": "Regulovaný systém"
+			},
+			"tapHint": {
+				"eng": "[Press & Hold]",
+				"trans": "Stiskněte a držte"
+			},
+			"title": {
+				"eng": "Pressure Regulator",
+				"trans": "Regulátor tlaku"
 			}
 		},
 		"targetTap": {
@@ -10184,6 +10588,10 @@
 			"eng": "Daily Quests",
 			"trans": "Denní úkoly"
 		},
+		"investigations": {
+			"eng": "Investigations",
+			"trans": "Vyšetřování"
+		},
 		"noQuests": {
 			"eng": "No active quests",
 			"trans": "Žádné aktivní úkoly"
@@ -10601,6 +11009,10 @@
 			}
 		},
 		"dungeon": {
+			"alreadyInteracted": {
+				"eng": "Already interacted",
+				"trans": "Již interagováno"
+			},
 			"bossSummoned": {
 				"eng": "${playerName} has summoned the boss",
 				"trans": "${playerName} přivolal bosse"
@@ -10641,9 +11053,17 @@
 				"eng": "${playerName} has collected a key.",
 				"trans": "${playerName} získal klíč."
 			},
+			"keyUsed": {
+				"eng": "Tactical Access Chip used to unlock the chest",
+				"trans": "Taktický přístupový čip – odemyká truhlu."
+			},
 			"lobbyNotFound": {
 				"eng": "Lobby not found",
 				"trans": "Lobby nenalezeno"
+			},
+			"noKey": {
+				"eng": "You need a key to open this chest",
+				"trans": "Pro otevření této truhly potřebujete klíč."
 			},
 			"notEnoughPsyche": {
 				"eng": "Your psychosis is too high to enter the stronghold",
@@ -10930,6 +11350,14 @@
 			"eng": "Enable Vibration",
 			"trans": "Povolit vibraci"
 		},
+		"experimentalWebGLChromakey": {
+			"eng": "Enhanced NPC Animation Performance",
+			"trans": "Vylepšený výkon animací NPC"
+		},
+		"experimentalWebGLChromakeyDescription": {
+			"eng": "GPU-accelerated NPC animations are enabled by default. Disable this if you experience issues with NPC animations. Requires app reload to take effect",
+			"trans": "GPU-zrychlené animace NPC jsou ve výchozím nastavení povoleny. Vypněte je, pokud se vyskytují problémy s animacemi NPC. Pro účinek je nutné aplikaci znovu načíst."
+		},
 		"friendMailOnly": {
 			"description": {
 				"eng": "Only allow mails from players in your friend list to mail you",
@@ -11119,6 +11547,12 @@
 					"trans": "Pošta"
 				}
 			}
+		}
+	},
+	"solvedMysteriesPage": {
+		"title": {
+			"eng": "Solved Mysteries",
+			"trans": "Vyřešené záhady"
 		}
 	},
 	"stat": {
@@ -11828,6 +12262,10 @@
 			"inProgress": {
 				"eng": "Task is still in progress, remaining seconds: ${remainingSeconds}",
 				"trans": "Úkol stále probíhá, zbývající sekundy: ${remainingSeconds}"
+			},
+			"locationNotUnlocked": {
+				"eng": "You need to unlock ${locationName} to control this territory",
+				"trans": "Musíte odemknout ${locationName}, abyste ovládli tuto oblast."
 			},
 			"maxTasks": {
 				"eng": "You have reached the max amount of tasks",
@@ -12943,12 +13381,6 @@
 				"eng": "the free encyclopedia that anyone can edit",
 				"trans": "volná encyklopedie, kterou může upravovat kdokoli"
 			}
-		}
-	},
-	"webLandingPage": {
-		"webNotAvailable": {
-			"eng": "Web version is not available yet.",
-			"trans": "Webová verze zatím není k dispozici."
 		}
 	},
 	"webNavBar": {

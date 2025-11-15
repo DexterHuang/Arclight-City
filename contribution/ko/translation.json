@@ -1969,6 +1969,20 @@
 			"trans": "${enemyName}이(가) ${player}을(를) 공격하여 ${damage}데미지를 입혔습니다"
 		}
 	},
+	"common": {
+		"close": {
+			"eng": "Close",
+			"trans": "닫기"
+		},
+		"error": {
+			"eng": "Error loading investigation data",
+			"trans": "조사 데이터 불러오기 오류"
+		},
+		"loading": {
+			"eng": "Loading...",
+			"trans": "로딩 중…"
+		}
+	},
 	"compactRewardConfigDisplay": {
 		"clanControl": {
 			"eng": "+ ${amount} control on territory",
@@ -2582,6 +2596,10 @@
 			"maxLootLevelDifference": {
 				"eng": "You cannot loot this chest because your level is too high",
 				"trans": "당신의 레벨이 너무 높아서 이 상자를 획득 할 수 없습니다"
+			},
+			"noKey": {
+				"eng": "This chest is locked. Find a key to open it!",
+				"trans": "이 상자는 잠겨 있습니다. 열쇠를 찾아서 열어보세요!"
 			}
 		},
 		"type": {
@@ -4047,6 +4065,282 @@
 			}
 		}
 	},
+	"investigation": {
+		"abandon": {
+			"eng": "Abandon",
+			"trans": "포기"
+		},
+		"abandonConfirm": {
+			"confirm": {
+				"eng": "Abandon",
+				"trans": "포기"
+			},
+			"message": {
+				"eng": "Are you sure you want to abandon this case? All collected clues will be lost and you'll need to start over with a new case.",
+				"trans": "이 사건을 포기하시겠습니까? 수집한 모든 단서는 사라지며 새 사건으로 다시 시작해야 합니다."
+			},
+			"title": {
+				"eng": "Abandon Investigation?",
+				"trans": "조사를 포기하시겠습니까?"
+			}
+		},
+		"abandonFailed": {
+			"eng": "Failed to abandon investigation. Please try again.",
+			"trans": "조사 중단에 실패했습니다. 다시 시도하세요."
+		},
+		"abandoned": {
+			"eng": "Investigation abandoned. You can start a new case anytime.",
+			"trans": "조사가 중단되었습니다. 언제든 새 사건을 시작하세요."
+		},
+		"acknowledgeFailure": {
+			"eng": "ACKNOWLEDGE",
+			"trans": "확인"
+		},
+		"activeCase": {
+			"eng": "Active Case",
+			"trans": "진행 중인 사건"
+		},
+		"allCasesSolved": {
+			"eng": "You have solved all available investigations!",
+			"trans": "모든 사용 가능한 조사를 완료했습니다!"
+		},
+		"allCluesCollected": {
+			"eng": "You have collected all clues for this case. Visit your investigation log to solve it.",
+			"trans": "이 사건의 모든 단서를 수집했습니다. 조사 기록을 확인해 해결하세요."
+		},
+		"allCluesCollectedMessage": {
+			"eng": "You have collected all evidence for your current investigation. Complete this case before starting a new one.",
+			"trans": "현재 조사의 모든 증거를 수집했습니다. 새로운 사건을 진행하기 전에 이번 사건을 해결하십시오."
+		},
+		"analysisComplete": {
+			"eng": "ANALYSIS COMPLETE",
+			"trans": "분석 완료"
+		},
+		"analysisResult": {
+			"eng": "ANALYSIS RESULT",
+			"trans": "분석 결과"
+		},
+		"analyzingEvidence": {
+			"eng": "ANALYZING EVIDENCE...",
+			"trans": "증거 분석 중…"
+		},
+		"caseClosed": {
+			"eng": "Case Closed",
+			"trans": "사건 종료"
+		},
+		"caseId": {
+			"eng": "CASE ID",
+			"trans": "케이스 ID"
+		},
+		"caseIntro": {
+			"eng": "Case Introduction",
+			"trans": "케이스 개요"
+		},
+		"caseReadyToSolve": {
+			"eng": "ACPD Case Ready to Solve",
+			"trans": "아클라이트시 경찰서 사건 해결 준비 완료"
+		},
+		"caseResolved": {
+			"eng": "ACPD Case Resolved",
+			"trans": "ACPD 사건 해결"
+		},
+		"caseSolved": {
+			"eng": "Investigation solved! ${caseName}",
+			"trans": "수사 완료! ${caseName}"
+		},
+		"caseStatus": {
+			"eng": "CASE STATUS",
+			"trans": "사건 상태"
+		},
+		"closed": {
+			"eng": "CLOSED - FAILED",
+			"trans": "닫힘 - 실패"
+		},
+		"clueCollected": {
+			"eng": "Clue discovered: ${clueName}",
+			"trans": "단서 발견: ${clueName}"
+		},
+		"clueFound": {
+			"eng": "CLUE DISCOVERED",
+			"trans": "단서 발견"
+		},
+		"collectedClues": {
+			"eng": "Collected Clues",
+			"trans": "수집된 단서"
+		},
+		"continue": {
+			"eng": "Continue",
+			"trans": "계속"
+		},
+		"continueExploring": {
+			"eng": "Continue Exploring",
+			"trans": "계속 탐험"
+		},
+		"contradictoryElements": {
+			"eng": "Multiple contradictory elements detected in the proposed verdict.",
+			"trans": "제안된 판단에 모순되는 요소가 여러 개 감지되었습니다."
+		},
+		"correctVerdict": {
+			"eng": "Your deduction was correct. The truth has been uncovered.",
+			"trans": "추론이 정확했습니다. 진실이 밝혀졌습니다."
+		},
+		"deliverVerdict": {
+			"eng": "Deliver Your Verdict",
+			"trans": "판단 제출"
+		},
+		"errorCode": {
+			"eng": "ERROR CODE",
+			"trans": "오류 코드"
+		},
+		"evidence": {
+			"eng": "Evidence",
+			"trans": "증거"
+		},
+		"evidenceAcquired": {
+			"eng": "Evidence Logged - ACPD Database",
+			"trans": "증거 기록됨 - 아클라이트시 경찰서 데이터베이스"
+		},
+		"evidenceCollected": {
+			"eng": "Evidence Collected",
+			"trans": "증거 수집됨"
+		},
+		"evidenceMismatch": {
+			"eng": "The submitted conclusion does not align with available evidence patterns.",
+			"trans": "제출된 결론이 사용 가능한 증거 패턴과 일치하지 않습니다."
+		},
+		"goToVerdict": {
+			"eng": "Go to verdict ${num}",
+			"trans": "판결 ${num}으로 이동"
+		},
+		"imageUnavailable": {
+			"eng": "Image Unavailable",
+			"trans": "이미지 사용 불가"
+		},
+		"investigationAbandoned": {
+			"eng": "Investigation abandoned. You can start a new case anytime.",
+			"trans": "조사가 중단되었습니다. 언제든 새 사건을 시작하세요."
+		},
+		"investigationClosed": {
+			"eng": "Investigation terminated. Case file closed. Evidence confiscated.",
+			"trans": "조사가 종료되었습니다. 사건 파일이 닫혔습니다. 증거가 압수되었습니다."
+		},
+		"investigationStatus": {
+			"eng": "INVESTIGATION STATUS",
+			"trans": "조사 현황"
+		},
+		"moreCluesNeeded": {
+			"eng": "Continue exploring to find more clues...",
+			"trans": "계속 탐험해서 더 많은 단서를 찾으세요."
+		},
+		"needMoreClues": {
+			"short": {
+				"eng": "Find more clues in dungeons",
+				"trans": "던전에서 더 많은 단서를 찾아보세요."
+			}
+		},
+		"newCase": {
+			"eng": "New Case",
+			"trans": "새 케이스"
+		},
+		"noActiveCase": {
+			"short": {
+				"eng": "No active case",
+				"trans": "활성 케이스가 없습니다"
+			}
+		},
+		"noActiveInvestigation": {
+			"eng": "You have no active investigation to abandon.",
+			"trans": "포기할 수 있는 진행 중인 조사가 없습니다."
+		},
+		"noChoices": {
+			"eng": "No choices available",
+			"trans": "선택지가 없습니다"
+		},
+		"noPermit": {
+			"eng": "You need an Investigation Access Permit to submit a verdict. These can be found in dungeon chests.",
+			"trans": "판결을 제출하려면 조사 접근 허가증이 필요합니다. 이들은 던전 보물함에서 찾아볼 수 있습니다."
+		},
+		"noSolvedCases": {
+			"eng": "You haven't solved any investigations yet. Start investigating!",
+			"trans": "아직 해결된 수사가 없습니다. 지금 수사를 시작하세요!"
+		},
+		"notAllCluesCollected": {
+			"eng": "You must collect all clues before solving the case.",
+			"trans": "사건을 해결하기 전에 모든 단서를 수집하세요."
+		},
+		"processingVerdict": {
+			"eng": "PROCESSING VERDICT...",
+			"trans": "판단 처리 중..."
+		},
+		"readyToSolve": {
+			"eng": "You have all the evidence. Review your findings and solve the case.",
+			"trans": "모든 증거를 확보했습니다. 결과를 검토하고 사건을 해결하세요."
+		},
+		"rewards": {
+			"eng": "Rewards",
+			"trans": "보상"
+		},
+		"selectChoice": {
+			"eng": "Please select a conclusion",
+			"trans": "결론을 선택하세요"
+		},
+		"solveFromInvestigationLog": {
+			"eng": "Visit your Investigation Log to review evidence and solve the case.",
+			"trans": "수사 로그를 열어 증거를 검토하고 사건을 해결하세요."
+		},
+		"solvedOn": {
+			"eng": "Solved on ${date}",
+			"trans": "해결 일자: ${date}"
+		},
+		"submit": {
+			"eng": "Submit Verdict",
+			"trans": "판결 제출"
+		},
+		"submitError": {
+			"eng": "Failed to submit verdict. Please try again.",
+			"trans": "판단 전송에 실패했습니다. 다시 시도하세요."
+		},
+		"submitVerdict": {
+			"eng": "Submit Your Verdict",
+			"trans": "판단 제출"
+		},
+		"submitting": {
+			"eng": "Submitting...",
+			"trans": "전송 중…"
+		},
+		"systemPrefix": {
+			"eng": "SYS",
+			"trans": "시스템"
+		},
+		"terminalFooter": {
+			"eng": "ARCLIGHT CITY INVESTIGATION BUREAU // CLASSIFIED",
+			"trans": "아크라이트 시티 수사국 // 기밀"
+		},
+		"terminalHeader": {
+			"eng": "ACPD INVESTIGATION ANALYSIS SYSTEM",
+			"trans": "ACPD 수사 분석 시스템"
+		},
+		"theStory": {
+			"eng": "The Full Story",
+			"trans": "전체 스토리"
+		},
+		"totalSolved": {
+			"eng": "Total Solved: ${count}",
+			"trans": "총 해결 수: ${count}"
+		},
+		"truthRevealed": {
+			"eng": "The truth has been revealed",
+			"trans": "진실이 밝혀졌습니다."
+		},
+		"verdictImage": {
+			"eng": "Verdict ${num} investigation image",
+			"trans": "판단 ${num} 조사 이미지"
+		},
+		"verdictRejected": {
+			"eng": "VERDICT REJECTED",
+			"trans": "판결 거부됨"
+		}
+	},
 	"item": {
 		"equipError": {
 			"destroyed": {
@@ -4185,6 +4479,10 @@
 		"notTradable": {
 			"eng": "Not tradable",
 			"trans": "거래 불가"
+		},
+		"strongholdOnly": {
+			"eng": "Stronghold Only Item",
+			"trans": "아지트 전용 아이템"
 		},
 		"useTitle": {
 			"eng": "Use",
@@ -5088,6 +5386,16 @@
 				"trans": "임플란트"
 			}
 		},
+		"investigationAccessPermit": {
+			"description": {
+				"eng": "ACPD investigation system access authorization. Required to submit case verdicts. Consumed upon submission regardless of outcome.",
+				"trans": "아클라이트시 경찰서 조사 시스템 접근 인증. 사건 판결을 제출해야 합니다. 결과와 상관없이 소모됩니다."
+			},
+			"name": {
+				"eng": "Investigation Access Permit",
+				"trans": "조사 접근 허가증"
+			}
+		},
 		"itemLevelupShard": {
 			"description": {
 				"eng": "Universal level up token for equipments, use to increase the level of an equipment",
@@ -5498,6 +5806,16 @@
 			"name": {
 				"eng": "Synaptic Enhancer",
 				"trans": "시냅틱 강화제"
+			}
+		},
+		"tacticalAccessChip": {
+			"description": {
+				"eng": "A key found within the dungeon that opens locked chests. Cannot be taken out of the stronghold.",
+				"trans": "던전에서 찾은 잠금 상자를 여는 열쇠입니다. 아지트에서는 꺼낼 수 없습니다."
+			},
+			"name": {
+				"eng": "Stronghold Chest Key",
+				"trans": "아지트 보물상자 열쇠"
 			}
 		},
 		"teaEgg": {
@@ -7386,6 +7704,10 @@
 			"eng": "Inventory",
 			"trans": "인벤토리"
 		},
+		"investigation": {
+			"eng": "Investigation",
+			"trans": "조사"
+		},
 		"jobLevel": {
 			"eng": "Job Level",
 			"trans": "직업 레벨"
@@ -8202,6 +8524,88 @@
 			"upHint": {
 				"eng": "Up",
 				"trans": "업"
+			}
+		},
+		"pressureRegulator": {
+			"failTitle": {
+				"eng": "System Overload",
+				"trans": "시스템 과부하"
+			},
+			"gaugeLabel": {
+				"eng": "Pressure gauge - hold to regulate",
+				"trans": "압력 게이지 - 길게 눌러 조정"
+			},
+			"holdingHint": {
+				"eng": "Hold Active",
+				"trans": "활성화 유지"
+			},
+			"instructions": {
+				"eng": "Hold to raise pressure • Release to lower • Maintain ${duration}s in zone",
+				"trans": "누르면 상승 • 놓으면 감소 • 영역에 ${duration}초 유지"
+			},
+			"pressureLabel": {
+				"eng": "Pressure",
+				"trans": "압력"
+			},
+			"progressTitle": {
+				"eng": "REGULATION PROGRESS",
+				"trans": "규제 진행률"
+			},
+			"retry": {
+				"eng": "Reset System",
+				"trans": "시스템 재설정"
+			},
+			"retryLabel": {
+				"eng": "Reset system and try again",
+				"trans": "시스템을 초기화하고 다시 시도하세요."
+			},
+			"safeZone": {
+				"eng": "Target Zone",
+				"trans": "타깃 영역"
+			},
+			"status": {
+				"eng": "Status",
+				"trans": "상태"
+			},
+			"statusFailed": {
+				"eng": "Overload",
+				"trans": "과부하"
+			},
+			"statusLabelFailed": {
+				"eng": "Fail",
+				"trans": "실패"
+			},
+			"statusLabelSuccess": {
+				"eng": "OK",
+				"trans": "확인"
+			},
+			"statusStable": {
+				"eng": "Stable ${percent}%",
+				"trans": "안정 ${percent}%"
+			},
+			"statusSuccess": {
+				"eng": "Regulated",
+				"trans": "규제된"
+			},
+			"statusUnstable": {
+				"eng": "Out of Range",
+				"trans": "사거리 초과"
+			},
+			"subtitle": {
+				"eng": "Power Flow Control System",
+				"trans": "전력 흐름 제어 시스템"
+			},
+			"successTitle": {
+				"eng": "System Regulated",
+				"trans": "시스템 통제"
+			},
+			"tapHint": {
+				"eng": "[Press & Hold]",
+				"trans": "눌러서 유지"
+			},
+			"title": {
+				"eng": "Pressure Regulator",
+				"trans": "압력 조절기"
 			}
 		},
 		"targetTap": {
@@ -10184,6 +10588,10 @@
 			"eng": "Daily Quests",
 			"trans": "일일 퀘스트"
 		},
+		"investigations": {
+			"eng": "Investigations",
+			"trans": "수사"
+		},
 		"noQuests": {
 			"eng": "No active quests",
 			"trans": "활성화된 퀘스트가 없습니다"
@@ -10601,6 +11009,10 @@
 			}
 		},
 		"dungeon": {
+			"alreadyInteracted": {
+				"eng": "Already interacted",
+				"trans": "이미 상호작용했습니다"
+			},
 			"bossSummoned": {
 				"eng": "${playerName} has summoned the boss",
 				"trans": "${playerName}이(가) 보스를 소환했습니다"
@@ -10641,9 +11053,17 @@
 				"eng": "${playerName} has collected a key.",
 				"trans": "${playerName}이(가) 열쇠를 획득했습니다."
 			},
+			"keyUsed": {
+				"eng": "Tactical Access Chip used to unlock the chest",
+				"trans": "잠금 해제용 전술 액세스 칩"
+			},
 			"lobbyNotFound": {
 				"eng": "Lobby not found",
 				"trans": "로비를 찾을 수 없습니다"
+			},
+			"noKey": {
+				"eng": "You need a key to open this chest",
+				"trans": "이 보물 상자를 열려면 키가 필요합니다."
 			},
 			"notEnoughPsyche": {
 				"eng": "Your psychosis is too high to enter the stronghold",
@@ -10930,6 +11350,14 @@
 			"eng": "Enable Vibration",
 			"trans": "진동 활성화"
 		},
+		"experimentalWebGLChromakey": {
+			"eng": "Enhanced NPC Animation Performance",
+			"trans": "NPC 애니메이션 성능 향상"
+		},
+		"experimentalWebGLChromakeyDescription": {
+			"eng": "GPU-accelerated NPC animations are enabled by default. Disable this if you experience issues with NPC animations. Requires app reload to take effect",
+			"trans": "GPU 가속 NPC 애니메이션이 기본적으로 활성화되어 있습니다. NPC 애니메이션에 문제가 있으면 비활성화하세요. 변경 사항은 앱을 다시 로드해야 적용됩니다."
+		},
 		"friendMailOnly": {
 			"description": {
 				"eng": "Only allow mails from players in your friend list to mail you",
@@ -11119,6 +11547,12 @@
 					"trans": "우편"
 				}
 			}
+		}
+	},
+	"solvedMysteriesPage": {
+		"title": {
+			"eng": "Solved Mysteries",
+			"trans": "해결된 미스터리"
 		}
 	},
 	"stat": {
@@ -11828,6 +12262,10 @@
 			"inProgress": {
 				"eng": "Task is still in progress, remaining seconds: ${remainingSeconds}",
 				"trans": "작업이 아직 진행 중입니다, 남은 시간: ${remainingSeconds}초"
+			},
+			"locationNotUnlocked": {
+				"eng": "You need to unlock ${locationName} to control this territory",
+				"trans": "${locationName} 잠금 해제 시 이 영역을 통제할 수 있습니다."
 			},
 			"maxTasks": {
 				"eng": "You have reached the max amount of tasks",
@@ -12943,12 +13381,6 @@
 				"eng": "the free encyclopedia that anyone can edit",
 				"trans": "누구나 편집할 수 있는 무료 백과사전"
 			}
-		}
-	},
-	"webLandingPage": {
-		"webNotAvailable": {
-			"eng": "Web version is not available yet.",
-			"trans": "웹 버전은 아직 제공되지 않습니다."
 		}
 	},
 	"webNavBar": {

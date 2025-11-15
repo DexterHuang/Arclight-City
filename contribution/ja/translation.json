@@ -1969,6 +1969,20 @@
 			"trans": "${enemyName}が${player}に${damage}のダメージを与えました"
 		}
 	},
+	"common": {
+		"close": {
+			"eng": "Close",
+			"trans": "閉じる"
+		},
+		"error": {
+			"eng": "Error loading investigation data",
+			"trans": "調査データの読み込みに失敗しました"
+		},
+		"loading": {
+			"eng": "Loading...",
+			"trans": "読み込み中..."
+		}
+	},
 	"compactRewardConfigDisplay": {
 		"clanControl": {
 			"eng": "+ ${amount} control on territory",
@@ -2582,6 +2596,10 @@
 			"maxLootLevelDifference": {
 				"eng": "You cannot loot this chest because your level is too high",
 				"trans": "このチェストを略奪することはできません、あなたのレベルが高すぎるため"
+			},
+			"noKey": {
+				"eng": "This chest is locked. Find a key to open it!",
+				"trans": "このチェストはロック済みです。鍵を探して開けてください！"
 			}
 		},
 		"type": {
@@ -4047,6 +4065,282 @@
 			}
 		}
 	},
+	"investigation": {
+		"abandon": {
+			"eng": "Abandon",
+			"trans": "放棄"
+		},
+		"abandonConfirm": {
+			"confirm": {
+				"eng": "Abandon",
+				"trans": "放棄"
+			},
+			"message": {
+				"eng": "Are you sure you want to abandon this case? All collected clues will be lost and you'll need to start over with a new case.",
+				"trans": "この案件を放棄してもよろしいですか？収集した手がかりはすべて失われ、新しいケースからやり直さなければなりません。"
+			},
+			"title": {
+				"eng": "Abandon Investigation?",
+				"trans": "調査を中止しますか？"
+			}
+		},
+		"abandonFailed": {
+			"eng": "Failed to abandon investigation. Please try again.",
+			"trans": "調査を中止できませんでした。再試行してください。"
+		},
+		"abandoned": {
+			"eng": "Investigation abandoned. You can start a new case anytime.",
+			"trans": "調査を放棄しました。いつでも新しいケースを始められます。"
+		},
+		"acknowledgeFailure": {
+			"eng": "ACKNOWLEDGE",
+			"trans": "了解"
+		},
+		"activeCase": {
+			"eng": "Active Case",
+			"trans": "進行中のケース"
+		},
+		"allCasesSolved": {
+			"eng": "You have solved all available investigations!",
+			"trans": "利用可能な調査はすべて解決しました！"
+		},
+		"allCluesCollected": {
+			"eng": "You have collected all clues for this case. Visit your investigation log to solve it.",
+			"trans": "この事件の手がかりをすべて集めました。調査ログを開いて解決してください。"
+		},
+		"allCluesCollectedMessage": {
+			"eng": "You have collected all evidence for your current investigation. Complete this case before starting a new one.",
+			"trans": "現在の調査で必要な証拠はすべて集めました。新しいケースを始める前に、この案件を完了させてください。"
+		},
+		"analysisComplete": {
+			"eng": "ANALYSIS COMPLETE",
+			"trans": "分析完了"
+		},
+		"analysisResult": {
+			"eng": "ANALYSIS RESULT",
+			"trans": "解析結果"
+		},
+		"analyzingEvidence": {
+			"eng": "ANALYZING EVIDENCE...",
+			"trans": "証拠を解析中…"
+		},
+		"caseClosed": {
+			"eng": "Case Closed",
+			"trans": "案件完了"
+		},
+		"caseId": {
+			"eng": "CASE ID",
+			"trans": "ケースID"
+		},
+		"caseIntro": {
+			"eng": "Case Introduction",
+			"trans": "ケース紹介"
+		},
+		"caseReadyToSolve": {
+			"eng": "ACPD Case Ready to Solve",
+			"trans": "ACPD案件、解決準備完了"
+		},
+		"caseResolved": {
+			"eng": "ACPD Case Resolved",
+			"trans": "アークライト市警察事件解決済み"
+		},
+		"caseSolved": {
+			"eng": "Investigation solved! ${caseName}",
+			"trans": "調査完了！${caseName}"
+		},
+		"caseStatus": {
+			"eng": "CASE STATUS",
+			"trans": "案件ステータス"
+		},
+		"closed": {
+			"eng": "CLOSED - FAILED",
+			"trans": "閉鎖 - 失敗"
+		},
+		"clueCollected": {
+			"eng": "Clue discovered: ${clueName}",
+			"trans": "手がかりを発見：${clueName}"
+		},
+		"clueFound": {
+			"eng": "CLUE DISCOVERED",
+			"trans": "手がかり発見"
+		},
+		"collectedClues": {
+			"eng": "Collected Clues",
+			"trans": "収集済みの手がかり"
+		},
+		"continue": {
+			"eng": "Continue",
+			"trans": "続ける"
+		},
+		"continueExploring": {
+			"eng": "Continue Exploring",
+			"trans": "探索を続ける"
+		},
+		"contradictoryElements": {
+			"eng": "Multiple contradictory elements detected in the proposed verdict.",
+			"trans": "提案された判決に矛盾する要素が複数検出されました。"
+		},
+		"correctVerdict": {
+			"eng": "Your deduction was correct. The truth has been uncovered.",
+			"trans": "あなたの推理は正しかった。真実が明らかになりました。"
+		},
+		"deliverVerdict": {
+			"eng": "Deliver Your Verdict",
+			"trans": "判決を下せ"
+		},
+		"errorCode": {
+			"eng": "ERROR CODE",
+			"trans": "エラーコード"
+		},
+		"evidence": {
+			"eng": "Evidence",
+			"trans": "証拠"
+		},
+		"evidenceAcquired": {
+			"eng": "Evidence Logged - ACPD Database",
+			"trans": "証拠ログ - ACPDデータベース"
+		},
+		"evidenceCollected": {
+			"eng": "Evidence Collected",
+			"trans": "証拠取得済み"
+		},
+		"evidenceMismatch": {
+			"eng": "The submitted conclusion does not align with available evidence patterns.",
+			"trans": "提出された結論は、利用可能な証拠パターンと一致しません。"
+		},
+		"goToVerdict": {
+			"eng": "Go to verdict ${num}",
+			"trans": "判決${num}へ"
+		},
+		"imageUnavailable": {
+			"eng": "Image Unavailable",
+			"trans": "画像を表示できません"
+		},
+		"investigationAbandoned": {
+			"eng": "Investigation abandoned. You can start a new case anytime.",
+			"trans": "調査は中止されました。いつでも新しい案件を開始できます。"
+		},
+		"investigationClosed": {
+			"eng": "Investigation terminated. Case file closed. Evidence confiscated.",
+			"trans": "調査終了。ケースファイルを閉じました。証拠を押収しました。"
+		},
+		"investigationStatus": {
+			"eng": "INVESTIGATION STATUS",
+			"trans": "調査状況"
+		},
+		"moreCluesNeeded": {
+			"eng": "Continue exploring to find more clues...",
+			"trans": "さらに手がかりを探すには探索を続けてください"
+		},
+		"needMoreClues": {
+			"short": {
+				"eng": "Find more clues in dungeons",
+				"trans": "ダンジョンでさらに手がかりを探す"
+			}
+		},
+		"newCase": {
+			"eng": "New Case",
+			"trans": "新規案件"
+		},
+		"noActiveCase": {
+			"short": {
+				"eng": "No active case",
+				"trans": "アクティブな案件はありません"
+			}
+		},
+		"noActiveInvestigation": {
+			"eng": "You have no active investigation to abandon.",
+			"trans": "中止できる調査はありません。"
+		},
+		"noChoices": {
+			"eng": "No choices available",
+			"trans": "選択肢がありません"
+		},
+		"noPermit": {
+			"eng": "You need an Investigation Access Permit to submit a verdict. These can be found in dungeon chests.",
+			"trans": "判決を出すには調査アクセス許可証が必要です。  \nダンジョンのチェストにあります。"
+		},
+		"noSolvedCases": {
+			"eng": "You haven't solved any investigations yet. Start investigating!",
+			"trans": "まだ事件を解決していません。調査を始めましょう！"
+		},
+		"notAllCluesCollected": {
+			"eng": "You must collect all clues before solving the case.",
+			"trans": "事件を解決する前に、すべての手がかりを集める必要があります。"
+		},
+		"processingVerdict": {
+			"eng": "PROCESSING VERDICT...",
+			"trans": "判定処理中…"
+		},
+		"readyToSolve": {
+			"eng": "You have all the evidence. Review your findings and solve the case.",
+			"trans": "証拠はすべて揃いました。調査結果を確認して事件を解決してください。"
+		},
+		"rewards": {
+			"eng": "Rewards",
+			"trans": "報酬"
+		},
+		"selectChoice": {
+			"eng": "Please select a conclusion",
+			"trans": "結論を選択してください"
+		},
+		"solveFromInvestigationLog": {
+			"eng": "Visit your Investigation Log to review evidence and solve the case.",
+			"trans": "調査ログへアクセスして証拠をレビューし、事件を解決する"
+		},
+		"solvedOn": {
+			"eng": "Solved on ${date}",
+			"trans": "解決日：${date}"
+		},
+		"submit": {
+			"eng": "Submit Verdict",
+			"trans": "判決送信"
+		},
+		"submitError": {
+			"eng": "Failed to submit verdict. Please try again.",
+			"trans": "判定の送信に失敗しました。もう一度お試しください。"
+		},
+		"submitVerdict": {
+			"eng": "Submit Your Verdict",
+			"trans": "判決を送信"
+		},
+		"submitting": {
+			"eng": "Submitting...",
+			"trans": "送信中…"
+		},
+		"systemPrefix": {
+			"eng": "SYS",
+			"trans": "システム"
+		},
+		"terminalFooter": {
+			"eng": "ARCLIGHT CITY INVESTIGATION BUREAU // CLASSIFIED",
+			"trans": "アークライト・シティ調査局 // 機密"
+		},
+		"terminalHeader": {
+			"eng": "ACPD INVESTIGATION ANALYSIS SYSTEM",
+			"trans": "ACPD調査分析システム"
+		},
+		"theStory": {
+			"eng": "The Full Story",
+			"trans": "フルストーリー"
+		},
+		"totalSolved": {
+			"eng": "Total Solved: ${count}",
+			"trans": "合計解決数：${count}"
+		},
+		"truthRevealed": {
+			"eng": "The truth has been revealed",
+			"trans": "真実が明らかになりました"
+		},
+		"verdictImage": {
+			"eng": "Verdict ${num} investigation image",
+			"trans": "判定${num}調査画像"
+		},
+		"verdictRejected": {
+			"eng": "VERDICT REJECTED",
+			"trans": "判決拒否"
+		}
+	},
 	"item": {
 		"equipError": {
 			"destroyed": {
@@ -4185,6 +4479,10 @@
 		"notTradable": {
 			"eng": "Not tradable",
 			"trans": "交換不可"
+		},
+		"strongholdOnly": {
+			"eng": "Stronghold Only Item",
+			"trans": "要塞限定アイテム"
 		},
 		"useTitle": {
 			"eng": "Use",
@@ -5088,6 +5386,16 @@
 				"trans": "インプラント"
 			}
 		},
+		"investigationAccessPermit": {
+			"description": {
+				"eng": "ACPD investigation system access authorization. Required to submit case verdicts. Consumed upon submission regardless of outcome.",
+				"trans": "ACPD調査システムアクセス認証。ケース判決の提出が必要です。提出時に消費され、結果に関係なく使用不可となります。"
+			},
+			"name": {
+				"eng": "Investigation Access Permit",
+				"trans": "調査アクセス許可証"
+			}
+		},
 		"itemLevelupShard": {
 			"description": {
 				"eng": "Universal level up token for equipments, use to increase the level of an equipment",
@@ -5498,6 +5806,16 @@
 			"name": {
 				"eng": "Synaptic Enhancer",
 				"trans": "シナプスエンハンサー"
+			}
+		},
+		"tacticalAccessChip": {
+			"description": {
+				"eng": "A key found within the dungeon that opens locked chests. Cannot be taken out of the stronghold.",
+				"trans": "ダンジョンで入手した鍵。ロックチェストを開けることができる。ただし、要塞からは外せない。"
+			},
+			"name": {
+				"eng": "Stronghold Chest Key",
+				"trans": "要塞チェスト鍵"
 			}
 		},
 		"teaEgg": {
@@ -7386,6 +7704,10 @@
 			"eng": "Inventory",
 			"trans": "インベントリ"
 		},
+		"investigation": {
+			"eng": "Investigation",
+			"trans": "調査"
+		},
 		"jobLevel": {
 			"eng": "Job Level",
 			"trans": "ジョブレベル"
@@ -8202,6 +8524,88 @@
 			"upHint": {
 				"eng": "Up",
 				"trans": "↑"
+			}
+		},
+		"pressureRegulator": {
+			"failTitle": {
+				"eng": "System Overload",
+				"trans": "システム過負荷"
+			},
+			"gaugeLabel": {
+				"eng": "Pressure gauge - hold to regulate",
+				"trans": "圧力計 - 長押しで調整"
+			},
+			"holdingHint": {
+				"eng": "Hold Active",
+				"trans": "長押しで有効化"
+			},
+			"instructions": {
+				"eng": "Hold to raise pressure • Release to lower • Maintain ${duration}s in zone",
+				"trans": "押すと圧力上昇 • 解除すると下降 • ${duration}秒間ゾーン内に維持"
+			},
+			"pressureLabel": {
+				"eng": "Pressure",
+				"trans": "圧力"
+			},
+			"progressTitle": {
+				"eng": "REGULATION PROGRESS",
+				"trans": "規制進捗"
+			},
+			"retry": {
+				"eng": "Reset System",
+				"trans": "システムリセット"
+			},
+			"retryLabel": {
+				"eng": "Reset system and try again",
+				"trans": "システムをリセットして再試行"
+			},
+			"safeZone": {
+				"eng": "Target Zone",
+				"trans": "ターゲットゾーン"
+			},
+			"status": {
+				"eng": "Status",
+				"trans": "ステータス"
+			},
+			"statusFailed": {
+				"eng": "Overload",
+				"trans": "オーバーロード"
+			},
+			"statusLabelFailed": {
+				"eng": "Fail",
+				"trans": "失敗"
+			},
+			"statusLabelSuccess": {
+				"eng": "OK",
+				"trans": "OK"
+			},
+			"statusStable": {
+				"eng": "Stable ${percent}%",
+				"trans": "安定 ${percent}%"
+			},
+			"statusSuccess": {
+				"eng": "Regulated",
+				"trans": "調整済み"
+			},
+			"statusUnstable": {
+				"eng": "Out of Range",
+				"trans": "射程外"
+			},
+			"subtitle": {
+				"eng": "Power Flow Control System",
+				"trans": "パワーフロー制御システム"
+			},
+			"successTitle": {
+				"eng": "System Regulated",
+				"trans": "システム制御"
+			},
+			"tapHint": {
+				"eng": "[Press & Hold]",
+				"trans": "[長押し]"
+			},
+			"title": {
+				"eng": "Pressure Regulator",
+				"trans": "圧力調整器"
 			}
 		},
 		"targetTap": {
@@ -10184,6 +10588,10 @@
 			"eng": "Daily Quests",
 			"trans": "デイリークエスト"
 		},
+		"investigations": {
+			"eng": "Investigations",
+			"trans": "調査"
+		},
 		"noQuests": {
 			"eng": "No active quests",
 			"trans": "アクティブなクエストはありません"
@@ -10601,6 +11009,10 @@
 			}
 		},
 		"dungeon": {
+			"alreadyInteracted": {
+				"eng": "Already interacted",
+				"trans": "すでに相互作用済み"
+			},
 			"bossSummoned": {
 				"eng": "${playerName} has summoned the boss",
 				"trans": "${playerName}がボスを召喚しました"
@@ -10641,9 +11053,17 @@
 				"eng": "${playerName} has collected a key.",
 				"trans": "${playerName}が鍵を入手しました。"
 			},
+			"keyUsed": {
+				"eng": "Tactical Access Chip used to unlock the chest",
+				"trans": "チェスト解錠に使う戦術アクセスチップ"
+			},
 			"lobbyNotFound": {
 				"eng": "Lobby not found",
 				"trans": "ロビーが見つかりません"
+			},
+			"noKey": {
+				"eng": "You need a key to open this chest",
+				"trans": "このチェストを開くには鍵が必要です。"
 			},
 			"notEnoughPsyche": {
 				"eng": "Your psychosis is too high to enter the stronghold",
@@ -10930,6 +11350,14 @@
 			"eng": "Enable Vibration",
 			"trans": "バイブレーションを有効にする"
 		},
+		"experimentalWebGLChromakey": {
+			"eng": "Enhanced NPC Animation Performance",
+			"trans": "NPCアニメーション性能向上"
+		},
+		"experimentalWebGLChromakeyDescription": {
+			"eng": "GPU-accelerated NPC animations are enabled by default. Disable this if you experience issues with NPC animations. Requires app reload to take effect",
+			"trans": "GPU加速によるNPCアニメーションはデフォルトで有効です。問題が発生した場合は無効にしてください。設定を適用するにはアプリを再起動します。"
+		},
 		"friendMailOnly": {
 			"description": {
 				"eng": "Only allow mails from players in your friend list to mail you",
@@ -11119,6 +11547,12 @@
 					"trans": "メール"
 				}
 			}
+		}
+	},
+	"solvedMysteriesPage": {
+		"title": {
+			"eng": "Solved Mysteries",
+			"trans": "解決済みの謎"
 		}
 	},
 	"stat": {
@@ -11828,6 +12262,10 @@
 			"inProgress": {
 				"eng": "Task is still in progress, remaining seconds: ${remainingSeconds}",
 				"trans": "タスクはまだ進行中です、残り秒数：${remainingSeconds}"
+			},
+			"locationNotUnlocked": {
+				"eng": "You need to unlock ${locationName} to control this territory",
+				"trans": "このテリトリーを支配するには、${locationName}をアンロックしてください。"
 			},
 			"maxTasks": {
 				"eng": "You have reached the max amount of tasks",
@@ -12943,12 +13381,6 @@
 				"eng": "the free encyclopedia that anyone can edit",
 				"trans": "誰でも編集できる無料アンサイクロペディア"
 			}
-		}
-	},
-	"webLandingPage": {
-		"webNotAvailable": {
-			"eng": "Web version is not available yet.",
-			"trans": "ウェブ版はまだ利用できません。"
 		}
 	},
 	"webNavBar": {

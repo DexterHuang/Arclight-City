@@ -1969,6 +1969,20 @@
 			"trans": "${enemyName} atacó a ${player} por ${damage} de daño"
 		}
 	},
+	"common": {
+		"close": {
+			"eng": "Close",
+			"trans": "Cerrar"
+		},
+		"error": {
+			"eng": "Error loading investigation data",
+			"trans": "Error al cargar los datos de la investigación"
+		},
+		"loading": {
+			"eng": "Loading...",
+			"trans": "Cargando..."
+		}
+	},
 	"compactRewardConfigDisplay": {
 		"clanControl": {
 			"eng": "+ ${amount} control on territory",
@@ -2582,6 +2596,10 @@
 			"maxLootLevelDifference": {
 				"eng": "You cannot loot this chest because your level is too high",
 				"trans": "No puedes saquear este cofre porque tu nivel es demasiado alto"
+			},
+			"noKey": {
+				"eng": "This chest is locked. Find a key to open it!",
+				"trans": "Este cofre está bloqueado. ¡Encuentra una llave para abrirlo!"
 			}
 		},
 		"type": {
@@ -4047,6 +4065,282 @@
 			}
 		}
 	},
+	"investigation": {
+		"abandon": {
+			"eng": "Abandon",
+			"trans": "Abandonar"
+		},
+		"abandonConfirm": {
+			"confirm": {
+				"eng": "Abandon",
+				"trans": "Abandonar"
+			},
+			"message": {
+				"eng": "Are you sure you want to abandon this case? All collected clues will be lost and you'll need to start over with a new case.",
+				"trans": "¿Seguro que quieres abandonar este caso? Todas las pistas recogidas se perderán y tendrás que comenzar de nuevo con un nuevo caso."
+			},
+			"title": {
+				"eng": "Abandon Investigation?",
+				"trans": "¿Abandonar la investigación?"
+			}
+		},
+		"abandonFailed": {
+			"eng": "Failed to abandon investigation. Please try again.",
+			"trans": "No se pudo abandonar la investigación. Inténtalo de nuevo."
+		},
+		"abandoned": {
+			"eng": "Investigation abandoned. You can start a new case anytime.",
+			"trans": "Investigación abandonada. Puedes iniciar un nuevo caso en cualquier momento."
+		},
+		"acknowledgeFailure": {
+			"eng": "ACKNOWLEDGE",
+			"trans": "ENTENDIDO"
+		},
+		"activeCase": {
+			"eng": "Active Case",
+			"trans": "Caso activo"
+		},
+		"allCasesSolved": {
+			"eng": "You have solved all available investigations!",
+			"trans": "¡Has resuelto todas las investigaciones disponibles!"
+		},
+		"allCluesCollected": {
+			"eng": "ALL CLUES COLLECTED",
+			"trans": "Todas las pistas recogidas"
+		},
+		"allCluesCollectedMessage": {
+			"eng": "You have collected all evidence for your current investigation. Complete this case before starting a new one.",
+			"trans": "Has recopilado toda la evidencia para tu investigación actual. Completa este caso antes de iniciar uno nuevo."
+		},
+		"analysisComplete": {
+			"eng": "ANALYSIS COMPLETE",
+			"trans": "Análisis completado"
+		},
+		"analysisResult": {
+			"eng": "ANALYSIS RESULT",
+			"trans": "RESULTADO DE ANÁLISIS"
+		},
+		"analyzingEvidence": {
+			"eng": "ANALYZING EVIDENCE...",
+			"trans": "Analizando evidencia..."
+		},
+		"caseClosed": {
+			"eng": "Case Closed",
+			"trans": "Caso cerrado"
+		},
+		"caseId": {
+			"eng": "CASE ID",
+			"trans": "ID del caso"
+		},
+		"caseIntro": {
+			"eng": "Case Introduction",
+			"trans": "Introducción al caso"
+		},
+		"caseReadyToSolve": {
+			"eng": "ACPD Case Ready to Solve",
+			"trans": "Caso ACPD listo para resolver"
+		},
+		"caseResolved": {
+			"eng": "ACPD Case Resolved",
+			"trans": "Caso resuelto por el Departamento de Policía de Arclight City"
+		},
+		"caseSolved": {
+			"eng": "Investigation solved! ${caseName}",
+			"trans": "¡Caso resuelto! ${caseName}"
+		},
+		"caseStatus": {
+			"eng": "CASE STATUS",
+			"trans": "Estado del caso"
+		},
+		"closed": {
+			"eng": "CLOSED - FAILED",
+			"trans": "CERRADO - FALLIDO"
+		},
+		"clueCollected": {
+			"eng": "Clue discovered: ${clueName}",
+			"trans": "Pista descubierta: ${clueName}"
+		},
+		"clueFound": {
+			"eng": "CLUE DISCOVERED",
+			"trans": "Pista descubierta"
+		},
+		"collectedClues": {
+			"eng": "Collected Clues",
+			"trans": "Pistas recolectadas"
+		},
+		"continue": {
+			"eng": "Continue",
+			"trans": "Continuar"
+		},
+		"continueExploring": {
+			"eng": "Continue Exploring",
+			"trans": "Seguir explorando"
+		},
+		"contradictoryElements": {
+			"eng": "Multiple contradictory elements detected in the proposed verdict.",
+			"trans": "Se detectaron varios elementos contradictorios en el veredicto propuesto."
+		},
+		"correctVerdict": {
+			"eng": "Your deduction was correct. The truth has been uncovered.",
+			"trans": "Tu deducción fue correcta. La verdad se ha revelado."
+		},
+		"deliverVerdict": {
+			"eng": "Deliver Your Verdict",
+			"trans": "Entrega tu veredicto"
+		},
+		"errorCode": {
+			"eng": "ERROR CODE",
+			"trans": "Código de error"
+		},
+		"evidence": {
+			"eng": "Evidence",
+			"trans": "Evidencia"
+		},
+		"evidenceAcquired": {
+			"eng": "Evidence Logged - ACPD Database",
+			"trans": "Evidencia registrada – Base de datos ACPD"
+		},
+		"evidenceCollected": {
+			"eng": "Evidence Collected",
+			"trans": "Evidencia recopilada"
+		},
+		"evidenceMismatch": {
+			"eng": "The submitted conclusion does not align with available evidence patterns.",
+			"trans": "La conclusión presentada no coincide con los patrones de evidencia disponibles."
+		},
+		"goToVerdict": {
+			"eng": "Go to verdict ${num}",
+			"trans": "Ir al veredicto ${num}"
+		},
+		"imageUnavailable": {
+			"eng": "Image Unavailable",
+			"trans": "Imagen no disponible"
+		},
+		"investigationAbandoned": {
+			"eng": "Investigation abandoned. You can start a new case anytime.",
+			"trans": "Investigación abandonada. Puedes iniciar un nuevo caso en cualquier momento."
+		},
+		"investigationClosed": {
+			"eng": "Investigation terminated. Case file closed. Evidence confiscated.",
+			"trans": "Investigación terminada. Expediente cerrado. Evidencia confiscada."
+		},
+		"investigationStatus": {
+			"eng": "INVESTIGATION STATUS",
+			"trans": "Estado de la investigación"
+		},
+		"moreCluesNeeded": {
+			"eng": "Continue exploring to find more clues...",
+			"trans": "Continúa explorando para encontrar más pistas..."
+		},
+		"needMoreClues": {
+			"short": {
+				"eng": "Find more clues in dungeons",
+				"trans": "Encuentra más pistas en las mazmorras"
+			}
+		},
+		"newCase": {
+			"eng": "New Case",
+			"trans": "Nuevo caso"
+		},
+		"noActiveCase": {
+			"short": {
+				"eng": "No active case",
+				"trans": "Sin casos activos"
+			}
+		},
+		"noActiveInvestigation": {
+			"eng": "You have no active investigation to abandon.",
+			"trans": "No tienes ninguna investigación activa para abandonar."
+		},
+		"noChoices": {
+			"eng": "No choices available",
+			"trans": "No hay opciones disponibles"
+		},
+		"noPermit": {
+			"eng": "You need an Investigation Access Permit to submit a verdict. These can be found in dungeon chests.",
+			"trans": "Necesitas un Permiso de Acceso a la Investigación para presentar un veredicto. Los encuentras en los cofres de las mazmorras."
+		},
+		"noSolvedCases": {
+			"eng": "You haven't solved any investigations yet. Start investigating!",
+			"trans": "Aún no has resuelto ninguna investigación. ¡Comienza a investigar!"
+		},
+		"notAllCluesCollected": {
+			"eng": "You must collect all clues before solving the case.",
+			"trans": "Debes recolectar todas las pistas antes de resolver el caso."
+		},
+		"processingVerdict": {
+			"eng": "PROCESSING VERDICT...",
+			"trans": "Procesando veredicto..."
+		},
+		"readyToSolve": {
+			"eng": "You have all the evidence. Review your findings and solve the case.",
+			"trans": "Tienes todas las pruebas. Revisa tus hallazgos y resuelve el caso."
+		},
+		"rewards": {
+			"eng": "Rewards",
+			"trans": "Recompensas"
+		},
+		"selectChoice": {
+			"eng": "Please select a conclusion",
+			"trans": "Seleccione una conclusión"
+		},
+		"solveFromInvestigationLog": {
+			"eng": "Visit your Investigation Log to review evidence and solve the case.",
+			"trans": "Visita tu Registro de Investigación para revisar las pruebas y resolver el caso."
+		},
+		"solvedOn": {
+			"eng": "Solved on ${date}",
+			"trans": "Resuelto el ${date}"
+		},
+		"submit": {
+			"eng": "Submit Verdict",
+			"trans": "Enviar veredicto"
+		},
+		"submitError": {
+			"eng": "Failed to submit verdict. Please try again.",
+			"trans": "No se pudo enviar el veredicto. Inténtalo de nuevo."
+		},
+		"submitVerdict": {
+			"eng": "Submit Your Verdict",
+			"trans": "Enviar tu veredicto"
+		},
+		"submitting": {
+			"eng": "Submitting...",
+			"trans": "Enviando..."
+		},
+		"systemPrefix": {
+			"eng": "SYS",
+			"trans": "SISTEMA"
+		},
+		"terminalFooter": {
+			"eng": "ARCLIGHT CITY INVESTIGATION BUREAU // CLASSIFIED",
+			"trans": "BURÓ DE INVESTIGACIÓN DE LA CIUDAD ARCLIGHT // CONFIDENCIAL"
+		},
+		"terminalHeader": {
+			"eng": "ACPD INVESTIGATION ANALYSIS SYSTEM",
+			"trans": "Sistema de análisis e investigación del Departamento de Policía de Arclight City"
+		},
+		"theStory": {
+			"eng": "The Full Story",
+			"trans": "Historia completa"
+		},
+		"totalSolved": {
+			"eng": "Total Solved: ${count}",
+			"trans": "Resueltos totales: ${count}"
+		},
+		"truthRevealed": {
+			"eng": "The truth has been revealed",
+			"trans": "Se ha revelado la verdad"
+		},
+		"verdictImage": {
+			"eng": "Verdict ${num} investigation image",
+			"trans": "Imagen de la investigación del veredicto ${num}"
+		},
+		"verdictRejected": {
+			"eng": "VERDICT REJECTED",
+			"trans": "VERDICTO RECHAZADO"
+		}
+	},
 	"item": {
 		"equipError": {
 			"destroyed": {
@@ -4185,6 +4479,10 @@
 		"notTradable": {
 			"eng": "Not tradable",
 			"trans": "No intercambiable"
+		},
+		"strongholdOnly": {
+			"eng": "Stronghold Only Item",
+			"trans": "Solo en Fortaleza"
 		},
 		"useTitle": {
 			"eng": "Use",
@@ -5088,6 +5386,16 @@
 				"trans": "Implante"
 			}
 		},
+		"investigationAccessPermit": {
+			"description": {
+				"eng": "ACPD investigation system access authorization. Required to submit case verdicts. Consumed upon submission regardless of outcome.",
+				"trans": "Autorización de acceso al Sistema de Investigación ACPD. Necesaria para enviar veredictos de casos. Se consume al enviarse, sin importar el resultado."
+			},
+			"name": {
+				"eng": "Investigation Access Permit",
+				"trans": "Permiso de Acceso a la Investigación"
+			}
+		},
 		"itemLevelupShard": {
 			"description": {
 				"eng": "Universal level up token for equipments, use to increase the level of an equipment",
@@ -5498,6 +5806,16 @@
 			"name": {
 				"eng": "Synaptic Enhancer",
 				"trans": "Mejorador Sináptico"
+			}
+		},
+		"tacticalAccessChip": {
+			"description": {
+				"eng": "A key found within the dungeon that opens locked chests. Cannot be taken out of the stronghold.",
+				"trans": "Llave encontrada en la mazmorra que abre cofres cerrados. No se puede sacar de la fortaleza."
+			},
+			"name": {
+				"eng": "Stronghold Chest Key",
+				"trans": "Llave del Cofre de la Fortaleza"
 			}
 		},
 		"teaEgg": {
@@ -7386,6 +7704,10 @@
 			"eng": "Inventory",
 			"trans": "Inventario"
 		},
+		"investigation": {
+			"eng": "Investigation",
+			"trans": "Investigación"
+		},
 		"jobLevel": {
 			"eng": "Job Level",
 			"trans": "Nivel de trabajo"
@@ -8202,6 +8524,88 @@
 			"upHint": {
 				"eng": "Up",
 				"trans": "Arriba"
+			}
+		},
+		"pressureRegulator": {
+			"failTitle": {
+				"eng": "System Overload",
+				"trans": "Sobrecarga del sistema"
+			},
+			"gaugeLabel": {
+				"eng": "Pressure gauge - hold to regulate",
+				"trans": "Manómetro - mantén pulsado para regular"
+			},
+			"holdingHint": {
+				"eng": "Hold Active",
+				"trans": "Mantener activo"
+			},
+			"instructions": {
+				"eng": "Hold to raise pressure • Release to lower • Maintain ${duration}s in zone",
+				"trans": "Mantén para subir presión • Suelta para bajar • Mantén ${duration}s en zona"
+			},
+			"pressureLabel": {
+				"eng": "Pressure",
+				"trans": "Presión"
+			},
+			"progressTitle": {
+				"eng": "REGULATION PROGRESS",
+				"trans": "Progreso de la regulación"
+			},
+			"retry": {
+				"eng": "Reset System",
+				"trans": "Reiniciar Sistema"
+			},
+			"retryLabel": {
+				"eng": "Reset system and try again",
+				"trans": "Reinicia el sistema e intenta de nuevo"
+			},
+			"safeZone": {
+				"eng": "Target Zone",
+				"trans": "Zona de Objetivo"
+			},
+			"status": {
+				"eng": "Status",
+				"trans": "Estado"
+			},
+			"statusFailed": {
+				"eng": "Overload",
+				"trans": "Sobrecarga"
+			},
+			"statusLabelFailed": {
+				"eng": "Fail",
+				"trans": "Fallo"
+			},
+			"statusLabelSuccess": {
+				"eng": "OK",
+				"trans": "Aceptar"
+			},
+			"statusStable": {
+				"eng": "Stable ${percent}%",
+				"trans": "Estabilidad ${percent}%"
+			},
+			"statusSuccess": {
+				"eng": "Regulated",
+				"trans": "Regulado"
+			},
+			"statusUnstable": {
+				"eng": "Out of Range",
+				"trans": "Fuera de alcance"
+			},
+			"subtitle": {
+				"eng": "Power Flow Control System",
+				"trans": "Sistema de Control de Flujo de Energía"
+			},
+			"successTitle": {
+				"eng": "System Regulated",
+				"trans": "Regulado por el Sistema"
+			},
+			"tapHint": {
+				"eng": "[Press & Hold]",
+				"trans": "[Mantén pulsado]"
+			},
+			"title": {
+				"eng": "Pressure Regulator",
+				"trans": "Regulador de presión"
 			}
 		},
 		"targetTap": {
@@ -10184,6 +10588,10 @@
 			"eng": "Daily Quests",
 			"trans": "Misiones Diarias"
 		},
+		"investigations": {
+			"eng": "Investigations",
+			"trans": "Investigaciones"
+		},
 		"noQuests": {
 			"eng": "No active quests",
 			"trans": "No hay misiones activas"
@@ -10601,6 +11009,10 @@
 			}
 		},
 		"dungeon": {
+			"alreadyInteracted": {
+				"eng": "Already interacted",
+				"trans": "Ya interactuado"
+			},
 			"bossSummoned": {
 				"eng": "${playerName} has summoned the boss",
 				"trans": "${playerName} ha invocado al jefe"
@@ -10641,9 +11053,17 @@
 				"eng": "${playerName} has collected a key.",
 				"trans": "${playerName} ha recogido una llave."
 			},
+			"keyUsed": {
+				"eng": "Tactical Access Chip used to unlock the chest",
+				"trans": "Chip de Acceso Táctico usado para desbloquear el cofre"
+			},
 			"lobbyNotFound": {
 				"eng": "Lobby not found",
 				"trans": "Lobby no encontrado"
+			},
+			"noKey": {
+				"eng": "You need a key to open this chest",
+				"trans": "Necesitas una llave para abrir este cofre."
 			},
 			"notEnoughPsyche": {
 				"eng": "Your psychosis is too high to enter the stronghold",
@@ -10930,6 +11350,14 @@
 			"eng": "Enable Vibration",
 			"trans": "Activar Vibración"
 		},
+		"experimentalWebGLChromakey": {
+			"eng": "Enhanced NPC Animation Performance",
+			"trans": "Mejor rendimiento de las animaciones de PNJ"
+		},
+		"experimentalWebGLChromakeyDescription": {
+			"eng": "GPU-accelerated NPC animations are enabled by default. Disable this if you experience issues with NPC animations. Requires app reload to take effect",
+			"trans": "Las animaciones de NPC aceleradas por GPU se activan por defecto. Desactiva esta opción si experimentas problemas con las animaciones de NPC. Se necesita recargar la aplicación para que surta efecto."
+		},
 		"friendMailOnly": {
 			"description": {
 				"eng": "Only allow mails from players in your friend list to mail you",
@@ -11119,6 +11547,12 @@
 					"trans": "Correos"
 				}
 			}
+		}
+	},
+	"solvedMysteriesPage": {
+		"title": {
+			"eng": "Solved Mysteries",
+			"trans": "Misterios resueltos"
 		}
 	},
 	"stat": {
@@ -11828,6 +12262,10 @@
 			"inProgress": {
 				"eng": "Task is still in progress, remaining seconds: ${remainingSeconds}",
 				"trans": "La tarea aún está en progreso, segundos restantes: ${remainingSeconds}"
+			},
+			"locationNotUnlocked": {
+				"eng": "You need to unlock ${locationName} to control this territory",
+				"trans": "Necesitas desbloquear ${locationName} para controlar este territorio"
 			},
 			"maxTasks": {
 				"eng": "You have reached the max amount of tasks",
@@ -12943,12 +13381,6 @@
 				"eng": "the free encyclopedia that anyone can edit",
 				"trans": "la enciclopedia libre que cualquiera puede editar"
 			}
-		}
-	},
-	"webLandingPage": {
-		"webNotAvailable": {
-			"eng": "Web version is not available yet.",
-			"trans": "La versión web aún no está disponible."
 		}
 	},
 	"webNavBar": {

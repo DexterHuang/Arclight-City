@@ -1969,6 +1969,20 @@
 			"trans": "`${enemyName} ซัด ${player} ไป ${damage} ดาเมจ`"
 		}
 	},
+	"common": {
+		"close": {
+			"eng": "Close",
+			"trans": "ปิด"
+		},
+		"error": {
+			"eng": "Error loading investigation data",
+			"trans": "ไม่สามารถโหลดข้อมูลการสืบสวนได้"
+		},
+		"loading": {
+			"eng": "Loading...",
+			"trans": "กำลังโหลด..."
+		}
+	},
 	"compactRewardConfigDisplay": {
 		"clanControl": {
 			"eng": "+ ${amount} control on territory",
@@ -2582,6 +2596,10 @@
 			"maxLootLevelDifference": {
 				"eng": "You cannot loot this chest because your level is too high",
 				"trans": "หีบนี้ปล้นไม่ได้ เลเวลเยอะไป"
+			},
+			"noKey": {
+				"eng": "This chest is locked. Find a key to open it!",
+				"trans": "กล่องนี้ถูกล็อก หาตัวกุญแจเพื่อเปิดมัน!"
 			}
 		},
 		"type": {
@@ -4047,6 +4065,282 @@
 			}
 		}
 	},
+	"investigation": {
+		"abandon": {
+			"eng": "Abandon",
+			"trans": "ยกเลิก"
+		},
+		"abandonConfirm": {
+			"confirm": {
+				"eng": "Abandon",
+				"trans": "ยกเลิก"
+			},
+			"message": {
+				"eng": "Are you sure you want to abandon this case? All collected clues will be lost and you'll need to start over with a new case.",
+				"trans": "คุณแน่ใจหรือไม่ว่าต้องละทิ้งคดีนี้? เบาะแสทั้งหมดที่รวบรวมจะหายไป และคุณต้องเริ่มต้นใหม่กับคดีใหม่"
+			},
+			"title": {
+				"eng": "Abandon Investigation?",
+				"trans": "ยกเลิกการสืบสวน?"
+			}
+		},
+		"abandonFailed": {
+			"eng": "Failed to abandon investigation. Please try again.",
+			"trans": "ไม่สามารถยกเลิกการสืบสวนได้ กรุณาลองใหม่"
+		},
+		"abandoned": {
+			"eng": "Investigation abandoned. You can start a new case anytime.",
+			"trans": "การสอบสวนถูกยกเลิก  \nคุณสามารถเริ่มเคสใหม่ได้ทุกเมื่อ"
+		},
+		"acknowledgeFailure": {
+			"eng": "ACKNOWLEDGE",
+			"trans": "รับทราบ"
+		},
+		"activeCase": {
+			"eng": "Active Case",
+			"trans": "เคสดำเนินการ"
+		},
+		"allCasesSolved": {
+			"eng": "You have solved all available investigations!",
+			"trans": "คุณได้แก้ไขการสืบสวนทั้งหมดแล้ว!"
+		},
+		"allCluesCollected": {
+			"eng": "ALL CLUES COLLECTED",
+			"trans": "รวบรวมเบาะแสทั้งหมดแล้ว"
+		},
+		"allCluesCollectedMessage": {
+			"eng": "You have collected all evidence for your current investigation. Complete this case before starting a new one.",
+			"trans": "คุณเก็บหลักฐานทั้งหมดเรียบร้อยแล้ว กรุณาปิดคดีนี้ก่อนเริ่มเรื่องใหม่"
+		},
+		"analysisComplete": {
+			"eng": "ANALYSIS COMPLETE",
+			"trans": "วิเคราะห์เสร็จแล้ว"
+		},
+		"analysisResult": {
+			"eng": "ANALYSIS RESULT",
+			"trans": "ผลการวิเคราะห์"
+		},
+		"analyzingEvidence": {
+			"eng": "ANALYZING EVIDENCE...",
+			"trans": "กำลังวิเคราะห์หลักฐาน…"
+		},
+		"caseClosed": {
+			"eng": "Case Closed",
+			"trans": "ปิดคดี"
+		},
+		"caseId": {
+			"eng": "CASE ID",
+			"trans": "รหัสเคส"
+		},
+		"caseIntro": {
+			"eng": "Case Introduction",
+			"trans": "รายละเอียดเคส"
+		},
+		"caseReadyToSolve": {
+			"eng": "ACPD Case Ready to Solve",
+			"trans": "เคส ACPD พร้อมแก้ไข"
+		},
+		"caseResolved": {
+			"eng": "ACPD Case Resolved",
+			"trans": "ACPD เคสสำเร็จ"
+		},
+		"caseSolved": {
+			"eng": "Investigation solved! ${caseName}",
+			"trans": "สืบสวนสำเร็จ! ${caseName}"
+		},
+		"caseStatus": {
+			"eng": "CASE STATUS",
+			"trans": "สถานะเคส"
+		},
+		"closed": {
+			"eng": "CLOSED - FAILED",
+			"trans": "ปิด - ไม่สำเร็จ"
+		},
+		"clueCollected": {
+			"eng": "Clue discovered: ${clueName}",
+			"trans": "พบเบาะแส: ${clueName}"
+		},
+		"clueFound": {
+			"eng": "CLUE DISCOVERED",
+			"trans": "พบเบาะแส"
+		},
+		"collectedClues": {
+			"eng": "Collected Clues",
+			"trans": "หลักฐานที่ได้"
+		},
+		"continue": {
+			"eng": "Continue",
+			"trans": "ต่อ"
+		},
+		"continueExploring": {
+			"eng": "Continue Exploring",
+			"trans": "สำรวจต่อ"
+		},
+		"contradictoryElements": {
+			"eng": "Multiple contradictory elements detected in the proposed verdict.",
+			"trans": "พบความขัดแย้งหลายรายการในคำตัดสินที่เสนอ"
+		},
+		"correctVerdict": {
+			"eng": "Your deduction was correct. The truth has been uncovered.",
+			"trans": "สมมุติฐานของคุณถูกต้อง ความจริงได้เปิดเผยออกมา"
+		},
+		"deliverVerdict": {
+			"eng": "Deliver Your Verdict",
+			"trans": "ส่งคำพิพากษา"
+		},
+		"errorCode": {
+			"eng": "ERROR CODE",
+			"trans": "รหัสข้อผิดพลาด"
+		},
+		"evidence": {
+			"eng": "Evidence",
+			"trans": "หลักฐาน"
+		},
+		"evidenceAcquired": {
+			"eng": "Evidence Logged - ACPD Database",
+			"trans": "หลักฐานบันทึก - ฐานข้อมูล ACPD"
+		},
+		"evidenceCollected": {
+			"eng": "Evidence Collected",
+			"trans": "หลักฐานสะสม"
+		},
+		"evidenceMismatch": {
+			"eng": "The submitted conclusion does not align with available evidence patterns.",
+			"trans": "ข้อสรุปที่ส่งมาไม่ตรงกับรูปแบบหลักฐานที่มี"
+		},
+		"goToVerdict": {
+			"eng": "Go to verdict ${num}",
+			"trans": "ไปยังคำพิพากษา ${num}"
+		},
+		"imageUnavailable": {
+			"eng": "Image Unavailable",
+			"trans": "รูปภาพไม่พร้อมใช้งาน"
+		},
+		"investigationAbandoned": {
+			"eng": "Investigation abandoned. You can start a new case anytime.",
+			"trans": "การสอบสวนถูกยกเลิก  \nคุณสามารถเริ่มเคสใหม่ได้ทุกเมื่อ"
+		},
+		"investigationClosed": {
+			"eng": "Investigation terminated. Case file closed. Evidence confiscated.",
+			"trans": "การสอบสวนเสร็จสิ้น เอกสารปิดแล้ว หลักฐานถูกยึด"
+		},
+		"investigationStatus": {
+			"eng": "INVESTIGATION STATUS",
+			"trans": "สถานะการสืบสวน"
+		},
+		"moreCluesNeeded": {
+			"eng": "Continue exploring to find more clues...",
+			"trans": "สำรวจต่อเพื่อหาเบาะแสเพิ่มเติม…"
+		},
+		"needMoreClues": {
+			"short": {
+				"eng": "Find more clues in dungeons",
+				"trans": "ค้นหาเบาะแสเพิ่มเติมในดันเจี้ยน"
+			}
+		},
+		"newCase": {
+			"eng": "New Case",
+			"trans": "เคสใหม่"
+		},
+		"noActiveCase": {
+			"short": {
+				"eng": "No active case",
+				"trans": "ไม่มีเคสปัจจุบัน"
+			}
+		},
+		"noActiveInvestigation": {
+			"eng": "You have no active investigation to abandon.",
+			"trans": "คุณไม่มีการสืบสวนที่กำลังดำเนินอยู่ให้ยกเลิก"
+		},
+		"noChoices": {
+			"eng": "No choices available",
+			"trans": "ไม่มีตัวเลือก"
+		},
+		"noPermit": {
+			"eng": "You need an Investigation Access Permit to submit a verdict. These can be found in dungeon chests.",
+			"trans": "คุณต้องมีใบอนุญาตเข้าถึงการสืบสวนเพื่อยื่นคำพิพากษา ใบเหล่านี้สามารถหาได้ในกล่องดันเจี้ยน"
+		},
+		"noSolvedCases": {
+			"eng": "You haven't solved any investigations yet. Start investigating!",
+			"trans": "คุณยังไม่แก้ไขเคสใด ๆ เลย เริ่มต้นสืบสวน!"
+		},
+		"notAllCluesCollected": {
+			"eng": "You must collect all clues before solving the case.",
+			"trans": "คุณต้องเก็บเบาะแสทุกชิ้นก่อนแก้เคส"
+		},
+		"processingVerdict": {
+			"eng": "PROCESSING VERDICT...",
+			"trans": "กำลังประมวลผลคำพิพากษา..."
+		},
+		"readyToSolve": {
+			"eng": "You have all the evidence. Review your findings and solve the case.",
+			"trans": "คุณมีหลักฐานครบถ้วนแล้ว ตรวจสอบข้อมูลของคุณและแก้ไขคดี"
+		},
+		"rewards": {
+			"eng": "Rewards",
+			"trans": "รางวัล"
+		},
+		"selectChoice": {
+			"eng": "Please select a conclusion",
+			"trans": "กรุณาเลือกข้อสรุป"
+		},
+		"solveFromInvestigationLog": {
+			"eng": "Visit your Investigation Log to review evidence and solve the case.",
+			"trans": "ไปที่บันทึกการสืบสวนเพื่อดูหลักฐานและแก้คดี"
+		},
+		"solvedOn": {
+			"eng": "Solved on ${date}",
+			"trans": "แก้ไขเมื่อ ${date}"
+		},
+		"submit": {
+			"eng": "Submit Verdict",
+			"trans": "ส่งคำพิพากษา"
+		},
+		"submitError": {
+			"eng": "Failed to submit verdict. Please try again.",
+			"trans": "ไม่สามารถส่งคำตัดสินได้ กรุณาลองใหม่"
+		},
+		"submitVerdict": {
+			"eng": "Submit Your Verdict",
+			"trans": "ส่งคำตัดสินของคุณ"
+		},
+		"submitting": {
+			"eng": "Submitting...",
+			"trans": "กำลังส่ง…"
+		},
+		"systemPrefix": {
+			"eng": "SYS",
+			"trans": "ระบบ"
+		},
+		"terminalFooter": {
+			"eng": "ARCLIGHT CITY INVESTIGATION BUREAU // CLASSIFIED",
+			"trans": "สำนักงานสืบสวนนครประกายอาร์ค // ลับ"
+		},
+		"terminalHeader": {
+			"eng": "ACPD INVESTIGATION ANALYSIS SYSTEM",
+			"trans": "ACPD ระบบวิเคราะห์การสืบสวน"
+		},
+		"theStory": {
+			"eng": "The Full Story",
+			"trans": "เรื่องทั้งหมด"
+		},
+		"totalSolved": {
+			"eng": "Total Solved: ${count}",
+			"trans": "แก้ทั้งหมด: ${count}"
+		},
+		"truthRevealed": {
+			"eng": "The truth has been revealed",
+			"trans": "ความจริงถูกเปิดเผยแล้ว"
+		},
+		"verdictImage": {
+			"eng": "Verdict ${num} investigation image",
+			"trans": "ภาพสืบสวนคำพิพากษา ${num}"
+		},
+		"verdictRejected": {
+			"eng": "VERDICT REJECTED",
+			"trans": "คำพิพากษาถูกปฏิเสธ"
+		}
+	},
 	"item": {
 		"equipError": {
 			"destroyed": {
@@ -4185,6 +4479,10 @@
 		"notTradable": {
 			"eng": "Not tradable",
 			"trans": "เทรดไม่ได้"
+		},
+		"strongholdOnly": {
+			"eng": "Stronghold Only Item",
+			"trans": "ไอเทมเฉพาะป้อมไซเบอร์"
 		},
 		"useTitle": {
 			"eng": "Use",
@@ -5088,6 +5386,16 @@
 				"trans": "อิมแพลนต์"
 			}
 		},
+		"investigationAccessPermit": {
+			"description": {
+				"eng": "ACPD investigation system access authorization. Required to submit case verdicts. Consumed upon submission regardless of outcome.",
+				"trans": "อนุญาตเข้าถึงระบบสอบสวน ACPD จำเป็นต้องยื่นคำพิพากษาในคดี ใช้ไปทันทีที่ส่ง ไม่ว่าผลลัพธ์จะเป็นอย่างไร"
+			},
+			"name": {
+				"eng": "Investigation Access Permit",
+				"trans": "ใบอนุญาตเข้าถึงการสืบสวน"
+			}
+		},
 		"itemLevelupShard": {
 			"description": {
 				"eng": "Universal level up token for equipments, use to increase the level of an equipment",
@@ -5498,6 +5806,16 @@
 			"name": {
 				"eng": "Synaptic Enhancer",
 				"trans": "บูสต์ประสาท"
+			}
+		},
+		"tacticalAccessChip": {
+			"description": {
+				"eng": "A key found within the dungeon that opens locked chests. Cannot be taken out of the stronghold.",
+				"trans": "กุญแจที่พบในดันเจี้ยน ใช้เปิดกล่องล็อค ไม่สามารถเอาออกจากป้อมไซเบอร์ได้"
+			},
+			"name": {
+				"eng": "Stronghold Chest Key",
+				"trans": "กุญแจกระเป๋า Stronghold"
 			}
 		},
 		"teaEgg": {
@@ -7386,6 +7704,10 @@
 			"eng": "Inventory",
 			"trans": "อินเวนทอรี่"
 		},
+		"investigation": {
+			"eng": "Investigation",
+			"trans": "สืบสวน"
+		},
 		"jobLevel": {
 			"eng": "Job Level",
 			"trans": "LVL งาน"
@@ -8202,6 +8524,88 @@
 			"upHint": {
 				"eng": "Up",
 				"trans": "อัพ"
+			}
+		},
+		"pressureRegulator": {
+			"failTitle": {
+				"eng": "System Overload",
+				"trans": "ระบบเกินกำลัง"
+			},
+			"gaugeLabel": {
+				"eng": "Pressure gauge - hold to regulate",
+				"trans": "เครื่องวัดความดัน - กดค้างเพื่อปรับ"
+			},
+			"holdingHint": {
+				"eng": "Hold Active",
+				"trans": "กดค้างใช้งาน"
+			},
+			"instructions": {
+				"eng": "Hold to raise pressure • Release to lower • Maintain ${duration}s in zone",
+				"trans": "กดเพื่อเพิ่มแรงดัน • ปล่อยเพื่อลด • คงไว้ที่ ${duration} วินาทีในโซน"
+			},
+			"pressureLabel": {
+				"eng": "Pressure",
+				"trans": "ความดัน"
+			},
+			"progressTitle": {
+				"eng": "REGULATION PROGRESS",
+				"trans": "ความก้าวหน้าการกำกับดูแล"
+			},
+			"retry": {
+				"eng": "Reset System",
+				"trans": "รีเซ็ตระบบ"
+			},
+			"retryLabel": {
+				"eng": "Reset system and try again",
+				"trans": "รีเซ็ตระบบแล้วลองใหม่"
+			},
+			"safeZone": {
+				"eng": "Target Zone",
+				"trans": "โซนเป้าหมาย"
+			},
+			"status": {
+				"eng": "Status",
+				"trans": "สถานะ"
+			},
+			"statusFailed": {
+				"eng": "Overload",
+				"trans": "โอเวอร์โหลด"
+			},
+			"statusLabelFailed": {
+				"eng": "Fail",
+				"trans": "ล้มเหลว"
+			},
+			"statusLabelSuccess": {
+				"eng": "OK",
+				"trans": "ตกลง"
+			},
+			"statusStable": {
+				"eng": "Stable ${percent}%",
+				"trans": "เสถียร ${percent}%"
+			},
+			"statusSuccess": {
+				"eng": "Regulated",
+				"trans": "ควบคุม"
+			},
+			"statusUnstable": {
+				"eng": "Out of Range",
+				"trans": "เกินระยะ"
+			},
+			"subtitle": {
+				"eng": "Power Flow Control System",
+				"trans": "ระบบควบคุมกระแสไฟฟ้า"
+			},
+			"successTitle": {
+				"eng": "System Regulated",
+				"trans": "ระบบถูกควบคุม"
+			},
+			"tapHint": {
+				"eng": "[Press & Hold]",
+				"trans": "กดค้าง"
+			},
+			"title": {
+				"eng": "Pressure Regulator",
+				"trans": "ตัวควบความดัน"
 			}
 		},
 		"targetTap": {
@@ -10184,6 +10588,10 @@
 			"eng": "Daily Quests",
 			"trans": "เควสประจำวัน"
 		},
+		"investigations": {
+			"eng": "Investigations",
+			"trans": "สืบสวน"
+		},
 		"noQuests": {
 			"eng": "No active quests",
 			"trans": "ไม่มีเควสต์"
@@ -10601,6 +11009,10 @@
 			}
 		},
 		"dungeon": {
+			"alreadyInteracted": {
+				"eng": "Already interacted",
+				"trans": "เคยโต้ตอบแล้ว"
+			},
 			"bossSummoned": {
 				"eng": "${playerName} has summoned the boss",
 				"trans": "${playerName} ได้เรียกบอสออกมาแล้ว"
@@ -10641,9 +11053,17 @@
 				"eng": "${playerName} has collected a key.",
 				"trans": "${playerName} ได้กุญแจ"
 			},
+			"keyUsed": {
+				"eng": "Tactical Access Chip used to unlock the chest",
+				"trans": "ชิปเข้าถึงยุทธศาสตร์ ใช้เปิดกระเป๋า"
+			},
 			"lobbyNotFound": {
 				"eng": "Lobby not found",
 				"trans": "หาห้องไม่เจอ"
+			},
+			"noKey": {
+				"eng": "You need a key to open this chest",
+				"trans": "คุณต้องใช้กุญแจเปิดกระเป๋านี้"
 			},
 			"notEnoughPsyche": {
 				"eng": "Your psychosis is too high to enter the stronghold",
@@ -10930,6 +11350,14 @@
 			"eng": "Enable Vibration",
 			"trans": "เปิดการสั่น"
 		},
+		"experimentalWebGLChromakey": {
+			"eng": "Enhanced NPC Animation Performance",
+			"trans": "เพิ่มประสิทธิภาพการเคลื่อนไหว NPC"
+		},
+		"experimentalWebGLChromakeyDescription": {
+			"eng": "GPU-accelerated NPC animations are enabled by default. Disable this if you experience issues with NPC animations. Requires app reload to take effect",
+			"trans": "อนิเมชัน NPC ที่ใช้ GPU ถูกเปิดใช้งานโดยค่าเริ่มต้น ปิดใช้งานหากพบปัญหาเกี่ยวกับอนิเมชัน NPC ต้องรีโหลดแอพเพื่อให้มีผล"
+		},
 		"friendMailOnly": {
 			"description": {
 				"eng": "Only allow mails from players in your friend list to mail you",
@@ -11119,6 +11547,12 @@
 					"trans": "เมล"
 				}
 			}
+		}
+	},
+	"solvedMysteriesPage": {
+		"title": {
+			"eng": "Solved Mysteries",
+			"trans": "ปริศนาที่แก้ไขแล้ว"
 		}
 	},
 	"stat": {
@@ -11828,6 +12262,10 @@
 			"inProgress": {
 				"eng": "Task is still in progress, remaining seconds: ${remainingSeconds}",
 				"trans": "กำลังเดินเรื่อง เหลืออีก ${remainingSeconds} วิ"
+			},
+			"locationNotUnlocked": {
+				"eng": "You need to unlock ${locationName} to control this territory",
+				"trans": "ต้องปลดล็อก ${locationName} เพื่อควบคุมเขตนี้"
 			},
 			"maxTasks": {
 				"eng": "You have reached the max amount of tasks",
@@ -12943,12 +13381,6 @@
 				"eng": "the free encyclopedia that anyone can edit",
 				"trans": "สารานุกรมเสรีที่ใครๆ ก็แก้ไขได้"
 			}
-		}
-	},
-	"webLandingPage": {
-		"webNotAvailable": {
-			"eng": "Web version is not available yet.",
-			"trans": "ยังไม่มีเวอร์ชันเว็บ"
 		}
 	},
 	"webNavBar": {

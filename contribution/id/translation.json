@@ -1969,6 +1969,20 @@
 			"trans": "${enemyName} menyerang ${player} dengan ${damage} kerusakan"
 		}
 	},
+	"common": {
+		"close": {
+			"eng": "Close",
+			"trans": "Tutup"
+		},
+		"error": {
+			"eng": "Error loading investigation data",
+			"trans": "Gagal memuat data investigasi"
+		},
+		"loading": {
+			"eng": "Loading...",
+			"trans": "Memuat..."
+		}
+	},
 	"compactRewardConfigDisplay": {
 		"clanControl": {
 			"eng": "+ ${amount} control on territory",
@@ -2582,6 +2596,10 @@
 			"maxLootLevelDifference": {
 				"eng": "You cannot loot this chest because your level is too high",
 				"trans": "Kamu tidak bisa merampok peti ini karena levelmu terlalu tinggi"
+			},
+			"noKey": {
+				"eng": "This chest is locked. Find a key to open it!",
+				"trans": "Peti ini terkunci. Temukan kunci untuk membukanya!"
 			}
 		},
 		"type": {
@@ -4047,6 +4065,282 @@
 			}
 		}
 	},
+	"investigation": {
+		"abandon": {
+			"eng": "Abandon",
+			"trans": "Tinggalkan"
+		},
+		"abandonConfirm": {
+			"confirm": {
+				"eng": "Abandon",
+				"trans": "Tinggalkan"
+			},
+			"message": {
+				"eng": "Are you sure you want to abandon this case? All collected clues will be lost and you'll need to start over with a new case.",
+				"trans": "Apakah Anda yakin ingin meninggalkan kasus ini? Semua petunjuk yang dikumpulkan akan hilang dan Anda harus memulai ulang dengan kasus baru."
+			},
+			"title": {
+				"eng": "Abandon Investigation?",
+				"trans": "Batal Investigasi?"
+			}
+		},
+		"abandonFailed": {
+			"eng": "Failed to abandon investigation. Please try again.",
+			"trans": "Gagal meninggalkan penyelidikan. Silakan coba lagi."
+		},
+		"abandoned": {
+			"eng": "Investigation abandoned. You can start a new case anytime.",
+			"trans": "Investigasi dibatalkan. Anda dapat memulai kasus baru kapan saja."
+		},
+		"acknowledgeFailure": {
+			"eng": "ACKNOWLEDGE",
+			"trans": "Konfirmasi"
+		},
+		"activeCase": {
+			"eng": "Active Case",
+			"trans": "Kasus Aktif"
+		},
+		"allCasesSolved": {
+			"eng": "You have solved all available investigations!",
+			"trans": "Anda telah menyelesaikan semua investigasi yang tersedia!"
+		},
+		"allCluesCollected": {
+			"eng": "You have collected all clues for this case. Visit your investigation log to solve it.",
+			"trans": "Anda telah mengumpulkan semua petunjuk untuk kasus ini. Kunjungi catatan investigasi Anda untuk menyelesaikannya."
+		},
+		"allCluesCollectedMessage": {
+			"eng": "You have collected all evidence for your current investigation. Complete this case before starting a new one.",
+			"trans": "Semua bukti sudah terkumpul untuk penyelidikanmu saat ini. Selesaikan kasus ini sebelum memulai yang baru."
+		},
+		"analysisComplete": {
+			"eng": "ANALYSIS COMPLETE",
+			"trans": "Analisis Selesai"
+		},
+		"analysisResult": {
+			"eng": "ANALYSIS RESULT",
+			"trans": "HASIL ANALISIS"
+		},
+		"analyzingEvidence": {
+			"eng": "ANALYZING EVIDENCE...",
+			"trans": "Menganalisis Bukti…"
+		},
+		"caseClosed": {
+			"eng": "Case Closed",
+			"trans": "Kasus Ditutup"
+		},
+		"caseId": {
+			"eng": "CASE ID",
+			"trans": "ID Kasus"
+		},
+		"caseIntro": {
+			"eng": "Case Introduction",
+			"trans": "Pengantar Kasus"
+		},
+		"caseReadyToSolve": {
+			"eng": "ACPD Case Ready to Solve",
+			"trans": "Kasus ACPD Siap Diselesaikan"
+		},
+		"caseResolved": {
+			"eng": "ACPD Case Resolved",
+			"trans": "Kasus ACPD Selesai"
+		},
+		"caseSolved": {
+			"eng": "Investigation solved! ${caseName}",
+			"trans": "Investigasi selesai! ${caseName}"
+		},
+		"caseStatus": {
+			"eng": "CASE STATUS",
+			"trans": "Status Kasus"
+		},
+		"closed": {
+			"eng": "CLOSED - FAILED",
+			"trans": "DITUTUP - GAGAL"
+		},
+		"clueCollected": {
+			"eng": "Clue discovered: ${clueName}",
+			"trans": "Petunjuk ditemukan: ${clueName}"
+		},
+		"clueFound": {
+			"eng": "CLUE DISCOVERED",
+			"trans": "Petunjuk Ditemukan"
+		},
+		"collectedClues": {
+			"eng": "Collected Clues",
+			"trans": "Petunjuk Terkumpul"
+		},
+		"continue": {
+			"eng": "Continue",
+			"trans": "Lanjutkan"
+		},
+		"continueExploring": {
+			"eng": "Continue Exploring",
+			"trans": "Terus Jelajahi"
+		},
+		"contradictoryElements": {
+			"eng": "Multiple contradictory elements detected in the proposed verdict.",
+			"trans": "Beberapa elemen bertentangan terdeteksi dalam putusan yang diusulkan."
+		},
+		"correctVerdict": {
+			"eng": "Your deduction was correct. The truth has been uncovered.",
+			"trans": "Kesimpulan Anda tepat. Kebenaran telah terungkap."
+		},
+		"deliverVerdict": {
+			"eng": "Deliver Your Verdict",
+			"trans": "Sampaikan Putusan Anda"
+		},
+		"errorCode": {
+			"eng": "ERROR CODE",
+			"trans": "KODE KESALAHAN"
+		},
+		"evidence": {
+			"eng": "Evidence",
+			"trans": "Bukti"
+		},
+		"evidenceAcquired": {
+			"eng": "Evidence Logged - ACPD Database",
+			"trans": "Bukti Tercatat - Basis Data ACPD"
+		},
+		"evidenceCollected": {
+			"eng": "Evidence Collected",
+			"trans": "Bukti Terkumpul"
+		},
+		"evidenceMismatch": {
+			"eng": "The submitted conclusion does not align with available evidence patterns.",
+			"trans": "Kesimpulan yang diajukan tidak sesuai dengan pola bukti yang tersedia."
+		},
+		"goToVerdict": {
+			"eng": "Go to verdict ${num}",
+			"trans": "Pergi ke putusan ${num}"
+		},
+		"imageUnavailable": {
+			"eng": "Image Unavailable",
+			"trans": "Gambar tidak tersedia"
+		},
+		"investigationAbandoned": {
+			"eng": "Investigation abandoned. You can start a new case anytime.",
+			"trans": "Investigasi dibatalkan. Anda dapat memulai kasus baru kapan saja."
+		},
+		"investigationClosed": {
+			"eng": "Investigation terminated. Case file closed. Evidence confiscated.",
+			"trans": "Investigasi selesai. Berkas kasus ditutup. Bukti disita."
+		},
+		"investigationStatus": {
+			"eng": "INVESTIGATION STATUS",
+			"trans": "Status Investigasi"
+		},
+		"moreCluesNeeded": {
+			"eng": "Continue exploring to find more clues...",
+			"trans": "Lanjutkan penjelajahan untuk menemukan petunjuk lebih lanjut..."
+		},
+		"needMoreClues": {
+			"short": {
+				"eng": "Find more clues in dungeons",
+				"trans": "Cari petunjuk tambahan di dungeon."
+			}
+		},
+		"newCase": {
+			"eng": "New Case",
+			"trans": "Kasus Baru"
+		},
+		"noActiveCase": {
+			"short": {
+				"eng": "No active case",
+				"trans": "Tidak ada kasus aktif"
+			}
+		},
+		"noActiveInvestigation": {
+			"eng": "You have no active investigation to abandon.",
+			"trans": "Tidak ada penyelidikan aktif yang dapat Anda batalkan."
+		},
+		"noChoices": {
+			"eng": "No choices available",
+			"trans": "Pilihan tidak tersedia"
+		},
+		"noPermit": {
+			"eng": "You need an Investigation Access Permit to submit a verdict. These can be found in dungeon chests.",
+			"trans": "Anda perlu Izin Akses Investigasi untuk menyerahkan putusan. Ditemukan di peti-peti dungeon."
+		},
+		"noSolvedCases": {
+			"eng": "You haven't solved any investigations yet. Start investigating!",
+			"trans": "Anda belum menyelesaikan investigasi apa pun. Mulailah menyelidikinya!"
+		},
+		"notAllCluesCollected": {
+			"eng": "You must collect all clues before solving the case.",
+			"trans": "Anda harus mengumpulkan semua petunjuk sebelum menyelesaikan kasus."
+		},
+		"processingVerdict": {
+			"eng": "PROCESSING VERDICT...",
+			"trans": "MEMPROSES HASIL..."
+		},
+		"readyToSolve": {
+			"eng": "You have all the evidence. Review your findings and solve the case.",
+			"trans": "Anda memiliki semua bukti. Tinjau temuan Anda dan selesaikan kasus tersebut."
+		},
+		"rewards": {
+			"eng": "Rewards",
+			"trans": "Hadiah"
+		},
+		"selectChoice": {
+			"eng": "Please select a conclusion",
+			"trans": "Silakan pilih kesimpulan"
+		},
+		"solveFromInvestigationLog": {
+			"eng": "Visit your Investigation Log to review evidence and solve the case.",
+			"trans": "Kunjungi Catatan Investigasi Anda untuk meninjau bukti dan selesaikan kasus."
+		},
+		"solvedOn": {
+			"eng": "Solved on ${date}",
+			"trans": "Selesai pada ${date}"
+		},
+		"submit": {
+			"eng": "Submit Verdict",
+			"trans": "Kirim Putusan"
+		},
+		"submitError": {
+			"eng": "Failed to submit verdict. Please try again.",
+			"trans": "Gagal mengirimkan keputusan. Silakan coba lagi."
+		},
+		"submitVerdict": {
+			"eng": "Submit Your Verdict",
+			"trans": "Kirim Putusan Anda"
+		},
+		"submitting": {
+			"eng": "Submitting...",
+			"trans": "Mengirim..."
+		},
+		"systemPrefix": {
+			"eng": "SYS",
+			"trans": "SISTEM"
+		},
+		"terminalFooter": {
+			"eng": "ARCLIGHT CITY INVESTIGATION BUREAU // CLASSIFIED",
+			"trans": "Biro Investigasi Kota Arclight // TERKLASIFIKASI"
+		},
+		"terminalHeader": {
+			"eng": "ACPD INVESTIGATION ANALYSIS SYSTEM",
+			"trans": "Sistem Analisis Investigasi ACPD"
+		},
+		"theStory": {
+			"eng": "The Full Story",
+			"trans": "Cerita Lengkap"
+		},
+		"totalSolved": {
+			"eng": "Total Solved: ${count}",
+			"trans": "Total Selesai: ${count}"
+		},
+		"truthRevealed": {
+			"eng": "The truth has been revealed",
+			"trans": "Kebenaran telah terungkap."
+		},
+		"verdictImage": {
+			"eng": "Verdict ${num} investigation image",
+			"trans": "Gambar penyelidikan keputusan ${num}"
+		},
+		"verdictRejected": {
+			"eng": "VERDICT REJECTED",
+			"trans": "PUTUSAN DITOLAK"
+		}
+	},
 	"item": {
 		"equipError": {
 			"destroyed": {
@@ -4185,6 +4479,10 @@
 		"notTradable": {
 			"eng": "Not tradable",
 			"trans": "Tidak dapat diperdagangkan"
+		},
+		"strongholdOnly": {
+			"eng": "Stronghold Only Item",
+			"trans": "Item Khusus Stronghold"
 		},
 		"useTitle": {
 			"eng": "Use",
@@ -5088,6 +5386,16 @@
 				"trans": "Implan"
 			}
 		},
+		"investigationAccessPermit": {
+			"description": {
+				"eng": "ACPD investigation system access authorization. Required to submit case verdicts. Consumed upon submission regardless of outcome.",
+				"trans": "Autorisasi akses sistem investigasi ACPD. Diperlukan untuk menyerahkan putusan kasus. Terpakai saat pengiriman, terlepas dari hasilnya."
+			},
+			"name": {
+				"eng": "Investigation Access Permit",
+				"trans": "Izin Akses Investigasi"
+			}
+		},
 		"itemLevelupShard": {
 			"description": {
 				"eng": "Universal level up token for equipments, use to increase the level of an equipment",
@@ -5498,6 +5806,16 @@
 			"name": {
 				"eng": "Synaptic Enhancer",
 				"trans": "Penguat Sinaptik"
+			}
+		},
+		"tacticalAccessChip": {
+			"description": {
+				"eng": "A key found within the dungeon that opens locked chests. Cannot be taken out of the stronghold.",
+				"trans": "Kunci yang ditemukan di dungeon ini membuka peti terkunci. Tidak dapat dikeluarkan dari benteng."
+			},
+			"name": {
+				"eng": "Stronghold Chest Key",
+				"trans": "Kunci Peti Benteng"
 			}
 		},
 		"teaEgg": {
@@ -7386,6 +7704,10 @@
 			"eng": "Inventory",
 			"trans": "Inventori"
 		},
+		"investigation": {
+			"eng": "Investigation",
+			"trans": "Investigasi"
+		},
 		"jobLevel": {
 			"eng": "Job Level",
 			"trans": "Tingkat Pekerjaan"
@@ -8202,6 +8524,88 @@
 			"upHint": {
 				"eng": "Up",
 				"trans": "Tingkatkan"
+			}
+		},
+		"pressureRegulator": {
+			"failTitle": {
+				"eng": "System Overload",
+				"trans": "Beban Sistem Berlebih"
+			},
+			"gaugeLabel": {
+				"eng": "Pressure gauge - hold to regulate",
+				"trans": "Pengukur tekanan – tahan untuk menyesuaikan"
+			},
+			"holdingHint": {
+				"eng": "Hold Active",
+				"trans": "Tahan Aktif"
+			},
+			"instructions": {
+				"eng": "Hold to raise pressure • Release to lower • Maintain ${duration}s in zone",
+				"trans": "Tahan untuk menaikkan tekanan • Lepas untuk menurunkan • Pertahankan ${duration}s di zona"
+			},
+			"pressureLabel": {
+				"eng": "Pressure",
+				"trans": "Tekanan"
+			},
+			"progressTitle": {
+				"eng": "REGULATION PROGRESS",
+				"trans": "Kemajuan Regulasi"
+			},
+			"retry": {
+				"eng": "Reset System",
+				"trans": "Reset Sistem"
+			},
+			"retryLabel": {
+				"eng": "Reset system and try again",
+				"trans": "Reset sistem dan coba lagi"
+			},
+			"safeZone": {
+				"eng": "Target Zone",
+				"trans": "Zona Sasaran"
+			},
+			"status": {
+				"eng": "Status",
+				"trans": "Status"
+			},
+			"statusFailed": {
+				"eng": "Overload",
+				"trans": "Beban Berlebih"
+			},
+			"statusLabelFailed": {
+				"eng": "Fail",
+				"trans": "Gagal"
+			},
+			"statusLabelSuccess": {
+				"eng": "OK",
+				"trans": "Oke"
+			},
+			"statusStable": {
+				"eng": "Stable ${percent}%",
+				"trans": "Stabil ${percent}%"
+			},
+			"statusSuccess": {
+				"eng": "Regulated",
+				"trans": "Diatur"
+			},
+			"statusUnstable": {
+				"eng": "Out of Range",
+				"trans": "Di luar jangkauan"
+			},
+			"subtitle": {
+				"eng": "Power Flow Control System",
+				"trans": "Sistem Kontrol Aliran Daya"
+			},
+			"successTitle": {
+				"eng": "System Regulated",
+				"trans": "Sistem Diatur"
+			},
+			"tapHint": {
+				"eng": "[Press & Hold]",
+				"trans": "Tekan dan tahan"
+			},
+			"title": {
+				"eng": "Pressure Regulator",
+				"trans": "Regulator Tekanan"
 			}
 		},
 		"targetTap": {
@@ -10184,6 +10588,10 @@
 			"eng": "Daily Quests",
 			"trans": "Tugas Harian"
 		},
+		"investigations": {
+			"eng": "Investigations",
+			"trans": "Penyelidikan"
+		},
 		"noQuests": {
 			"eng": "No active quests",
 			"trans": "Tidak ada misi yang aktif"
@@ -10601,6 +11009,10 @@
 			}
 		},
 		"dungeon": {
+			"alreadyInteracted": {
+				"eng": "Already interacted",
+				"trans": "Sudah berinteraksi"
+			},
 			"bossSummoned": {
 				"eng": "${playerName} has summoned the boss",
 				"trans": "${playerName} telah memanggil bos"
@@ -10641,9 +11053,17 @@
 				"eng": "${playerName} has collected a key.",
 				"trans": "${playerName} telah mengumpulkan kunci."
 			},
+			"keyUsed": {
+				"eng": "Tactical Access Chip used to unlock the chest",
+				"trans": "Chip Akses Taktis untuk membuka peti."
+			},
 			"lobbyNotFound": {
 				"eng": "Lobby not found",
 				"trans": "Lobi tidak ditemukan"
+			},
+			"noKey": {
+				"eng": "You need a key to open this chest",
+				"trans": "Kamu perlu kunci untuk membuka peti ini."
 			},
 			"notEnoughPsyche": {
 				"eng": "Your psychosis is too high to enter the stronghold",
@@ -10930,6 +11350,14 @@
 			"eng": "Enable Vibration",
 			"trans": "Aktifkan Getaran"
 		},
+		"experimentalWebGLChromakey": {
+			"eng": "Enhanced NPC Animation Performance",
+			"trans": "Peningkatan Kinerja Animasi NPC"
+		},
+		"experimentalWebGLChromakeyDescription": {
+			"eng": "GPU-accelerated NPC animations are enabled by default. Disable this if you experience issues with NPC animations. Requires app reload to take effect",
+			"trans": "Animasi NPC berbasis GPU diaktifkan secara default. Nonaktifkan jika Anda mengalami masalah dengan animasi NPC. Memerlukan memuat ulang aplikasi agar berlaku."
+		},
 		"friendMailOnly": {
 			"description": {
 				"eng": "Only allow mails from players in your friend list to mail you",
@@ -11119,6 +11547,12 @@
 					"trans": "Surat"
 				}
 			}
+		}
+	},
+	"solvedMysteriesPage": {
+		"title": {
+			"eng": "Solved Mysteries",
+			"trans": "Misteri Terpecahkan"
 		}
 	},
 	"stat": {
@@ -11828,6 +12262,10 @@
 			"inProgress": {
 				"eng": "Task is still in progress, remaining seconds: ${remainingSeconds}",
 				"trans": "Tugas masih dalam proses, sisa detik: ${remainingSeconds}"
+			},
+			"locationNotUnlocked": {
+				"eng": "You need to unlock ${locationName} to control this territory",
+				"trans": "Buka kunci ${locationName} untuk mengontrol wilayah ini."
 			},
 			"maxTasks": {
 				"eng": "You have reached the max amount of tasks",
@@ -12943,12 +13381,6 @@
 				"eng": "the free encyclopedia that anyone can edit",
 				"trans": "ensiklopedia bebas yang dapat diubah oleh siapa saja"
 			}
-		}
-	},
-	"webLandingPage": {
-		"webNotAvailable": {
-			"eng": "Web version is not available yet.",
-			"trans": "Versi web belum tersedia."
 		}
 	},
 	"webNavBar": {
