@@ -4096,10 +4096,6 @@
 			"eng": "ACKNOWLEDGE",
 			"trans": "確認"
 		},
-		"activeCase": {
-			"eng": "Active Case",
-			"trans": "進行中案件"
-		},
 		"allCasesSolved": {
 			"eng": "You have solved all available investigations!",
 			"trans": "你已完成所有可用調查！"
@@ -4107,10 +4103,6 @@
 		"allCluesCollected": {
 			"eng": "ALL CLUES COLLECTED",
 			"trans": "全部線索已收集"
-		},
-		"allCluesCollectedMessage": {
-			"eng": "You have collected all evidence for your current investigation. Complete this case before starting a new one.",
-			"trans": "您已收集完本案所有證據。請先結案，再進行新調查。"
 		},
 		"analysisComplete": {
 			"eng": "ANALYSIS COMPLETE",
@@ -4136,10 +4128,6 @@
 			"eng": "Case Introduction",
 			"trans": "案件簡介"
 		},
-		"caseReadyToSolve": {
-			"eng": "ACPD Case Ready to Solve",
-			"trans": "幻光市警局案件已可調查"
-		},
 		"caseResolved": {
 			"eng": "ACPD Case Resolved",
 			"trans": "幻光市警局案件已解決"
@@ -4151,6 +4139,10 @@
 		"caseStatus": {
 			"eng": "CASE STATUS",
 			"trans": "案件狀態"
+		},
+		"close": {
+			"eng": "Close",
+			"trans": "關閉"
 		},
 		"closed": {
 			"eng": "CLOSED - FAILED",
@@ -4172,10 +4164,6 @@
 			"eng": "Continue",
 			"trans": "繼續"
 		},
-		"continueExploring": {
-			"eng": "Continue Exploring",
-			"trans": "繼續探索"
-		},
 		"contradictoryElements": {
 			"eng": "Multiple contradictory elements detected in the proposed verdict.",
 			"trans": "偵測到建議的判決中包含多個矛盾要素。"
@@ -4192,6 +4180,10 @@
 			"eng": "ERROR CODE",
 			"trans": "錯誤碼"
 		},
+		"errorLoadingClue": {
+			"eng": "Error loading clue",
+			"trans": "載入線索失敗"
+		},
 		"evidence": {
 			"eng": "Evidence",
 			"trans": "證據"
@@ -4199,10 +4191,6 @@
 		"evidenceAcquired": {
 			"eng": "Evidence Logged - ACPD Database",
 			"trans": "證據已登錄 - 幻光市警局資料庫"
-		},
-		"evidenceCollected": {
-			"eng": "Evidence Collected",
-			"trans": "已蒐集證據"
 		},
 		"evidenceMismatch": {
 			"eng": "The submitted conclusion does not align with available evidence patterns.",
@@ -4284,10 +4272,6 @@
 			"eng": "Please select a conclusion",
 			"trans": "請選擇結論"
 		},
-		"solveFromInvestigationLog": {
-			"eng": "Visit your Investigation Log to review evidence and solve the case.",
-			"trans": "前往調查日誌，檢視證據並解決案件。"
-		},
 		"solvedOn": {
 			"eng": "Solved on ${date}",
 			"trans": "已於 ${date} 解決"
@@ -4339,6 +4323,32 @@
 		"verdictRejected": {
 			"eng": "VERDICT REJECTED",
 			"trans": "判決被否決"
+		}
+	},
+	"investigationPendingModal": {
+		"activeCase": {
+			"eng": "Active Case",
+			"trans": "進行中的案件"
+		},
+		"allCluesCollectedMessage": {
+			"eng": "You have collected all evidence for your current investigation. Complete this case before starting a new one.",
+			"trans": "您已收集完本案所有證據。請先完成此案件，再開啟新案件。"
+		},
+		"caseReadyToSolve": {
+			"eng": "ACPD Case Ready to Solve",
+			"trans": "ACPD 案件準備好調查"
+		},
+		"continueExploring": {
+			"eng": "Continue Exploring",
+			"trans": "繼續探索"
+		},
+		"evidenceCollected": {
+			"eng": "Evidence Collected",
+			"trans": "已收集證據"
+		},
+		"solveFromInvestigationLog": {
+			"eng": "Visit your Investigation Log to review evidence and solve the case.",
+			"trans": "查看您的調查日誌以審核證據並解決案件。"
 		}
 	},
 	"item": {

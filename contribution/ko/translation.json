@@ -1976,7 +1976,7 @@
 		},
 		"error": {
 			"eng": "Error loading investigation data",
-			"trans": "조사 데이터 불러오기 오류"
+			"trans": "조사 데이터를 불러오는 중 오류가 발생했습니다."
 		},
 		"loading": {
 			"eng": "Loading...",
@@ -4096,21 +4096,13 @@
 			"eng": "ACKNOWLEDGE",
 			"trans": "확인"
 		},
-		"activeCase": {
-			"eng": "Active Case",
-			"trans": "진행 중인 사건"
-		},
 		"allCasesSolved": {
 			"eng": "You have solved all available investigations!",
 			"trans": "모든 사용 가능한 조사를 완료했습니다!"
 		},
 		"allCluesCollected": {
-			"eng": "You have collected all clues for this case. Visit your investigation log to solve it.",
-			"trans": "이 사건의 모든 단서를 수집했습니다. 조사 기록을 확인해 해결하세요."
-		},
-		"allCluesCollectedMessage": {
-			"eng": "You have collected all evidence for your current investigation. Complete this case before starting a new one.",
-			"trans": "현재 조사의 모든 증거를 수집했습니다. 새로운 사건을 진행하기 전에 이번 사건을 해결하십시오."
+			"eng": "ALL CLUES COLLECTED",
+			"trans": "모든 단서 수집 완료"
 		},
 		"analysisComplete": {
 			"eng": "ANALYSIS COMPLETE",
@@ -4136,10 +4128,6 @@
 			"eng": "Case Introduction",
 			"trans": "케이스 개요"
 		},
-		"caseReadyToSolve": {
-			"eng": "ACPD Case Ready to Solve",
-			"trans": "아클라이트시 경찰서 사건 해결 준비 완료"
-		},
 		"caseResolved": {
 			"eng": "ACPD Case Resolved",
 			"trans": "ACPD 사건 해결"
@@ -4151,6 +4139,10 @@
 		"caseStatus": {
 			"eng": "CASE STATUS",
 			"trans": "사건 상태"
+		},
+		"close": {
+			"eng": "Close",
+			"trans": "닫기"
 		},
 		"closed": {
 			"eng": "CLOSED - FAILED",
@@ -4172,10 +4164,6 @@
 			"eng": "Continue",
 			"trans": "계속"
 		},
-		"continueExploring": {
-			"eng": "Continue Exploring",
-			"trans": "계속 탐험"
-		},
 		"contradictoryElements": {
 			"eng": "Multiple contradictory elements detected in the proposed verdict.",
 			"trans": "제안된 판단에 모순되는 요소가 여러 개 감지되었습니다."
@@ -4192,6 +4180,10 @@
 			"eng": "ERROR CODE",
 			"trans": "오류 코드"
 		},
+		"errorLoadingClue": {
+			"eng": "Error loading clue",
+			"trans": "힌트 불러오기 실패"
+		},
 		"evidence": {
 			"eng": "Evidence",
 			"trans": "증거"
@@ -4199,10 +4191,6 @@
 		"evidenceAcquired": {
 			"eng": "Evidence Logged - ACPD Database",
 			"trans": "증거 기록됨 - 아클라이트시 경찰서 데이터베이스"
-		},
-		"evidenceCollected": {
-			"eng": "Evidence Collected",
-			"trans": "증거 수집됨"
 		},
 		"evidenceMismatch": {
 			"eng": "The submitted conclusion does not align with available evidence patterns.",
@@ -4284,10 +4272,6 @@
 			"eng": "Please select a conclusion",
 			"trans": "결론을 선택하세요"
 		},
-		"solveFromInvestigationLog": {
-			"eng": "Visit your Investigation Log to review evidence and solve the case.",
-			"trans": "수사 로그를 열어 증거를 검토하고 사건을 해결하세요."
-		},
 		"solvedOn": {
 			"eng": "Solved on ${date}",
 			"trans": "해결 일자: ${date}"
@@ -4339,6 +4323,32 @@
 		"verdictRejected": {
 			"eng": "VERDICT REJECTED",
 			"trans": "판결 거부됨"
+		}
+	},
+	"investigationPendingModal": {
+		"activeCase": {
+			"eng": "Active Case",
+			"trans": "진행 중인 사건"
+		},
+		"allCluesCollectedMessage": {
+			"eng": "You have collected all evidence for your current investigation. Complete this case before starting a new one.",
+			"trans": "현재 조사의 모든 증거를 수집했습니다. 새 사건을 시작하기 전 이 사건을 마무리하세요."
+		},
+		"caseReadyToSolve": {
+			"eng": "ACPD Case Ready to Solve",
+			"trans": "ACPD 사건 해결 준비 완료"
+		},
+		"continueExploring": {
+			"eng": "Continue Exploring",
+			"trans": "계속 탐험"
+		},
+		"evidenceCollected": {
+			"eng": "Evidence Collected",
+			"trans": "증거 수집 완료"
+		},
+		"solveFromInvestigationLog": {
+			"eng": "Visit your Investigation Log to review evidence and solve the case.",
+			"trans": "조사 로그에서 증거를 검토하고 사건을 해결하세요."
 		}
 	},
 	"item": {

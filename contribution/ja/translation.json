@@ -4096,21 +4096,13 @@
 			"eng": "ACKNOWLEDGE",
 			"trans": "了解"
 		},
-		"activeCase": {
-			"eng": "Active Case",
-			"trans": "進行中のケース"
-		},
 		"allCasesSolved": {
 			"eng": "You have solved all available investigations!",
 			"trans": "利用可能な調査はすべて解決しました！"
 		},
 		"allCluesCollected": {
-			"eng": "You have collected all clues for this case. Visit your investigation log to solve it.",
-			"trans": "この事件の手がかりをすべて集めました。調査ログを開いて解決してください。"
-		},
-		"allCluesCollectedMessage": {
-			"eng": "You have collected all evidence for your current investigation. Complete this case before starting a new one.",
-			"trans": "現在の調査で必要な証拠はすべて集めました。新しいケースを始める前に、この案件を完了させてください。"
+			"eng": "ALL CLUES COLLECTED",
+			"trans": "全手がかり取得済み"
 		},
 		"analysisComplete": {
 			"eng": "ANALYSIS COMPLETE",
@@ -4136,10 +4128,6 @@
 			"eng": "Case Introduction",
 			"trans": "ケース紹介"
 		},
-		"caseReadyToSolve": {
-			"eng": "ACPD Case Ready to Solve",
-			"trans": "ACPD案件、解決準備完了"
-		},
 		"caseResolved": {
 			"eng": "ACPD Case Resolved",
 			"trans": "アークライト市警察事件解決済み"
@@ -4151,6 +4139,10 @@
 		"caseStatus": {
 			"eng": "CASE STATUS",
 			"trans": "案件ステータス"
+		},
+		"close": {
+			"eng": "Close",
+			"trans": "閉じる"
 		},
 		"closed": {
 			"eng": "CLOSED - FAILED",
@@ -4172,10 +4164,6 @@
 			"eng": "Continue",
 			"trans": "続ける"
 		},
-		"continueExploring": {
-			"eng": "Continue Exploring",
-			"trans": "探索を続ける"
-		},
 		"contradictoryElements": {
 			"eng": "Multiple contradictory elements detected in the proposed verdict.",
 			"trans": "提案された判決に矛盾する要素が複数検出されました。"
@@ -4192,6 +4180,10 @@
 			"eng": "ERROR CODE",
 			"trans": "エラーコード"
 		},
+		"errorLoadingClue": {
+			"eng": "Error loading clue",
+			"trans": "手がかりの読み込みに失敗しました"
+		},
 		"evidence": {
 			"eng": "Evidence",
 			"trans": "証拠"
@@ -4199,10 +4191,6 @@
 		"evidenceAcquired": {
 			"eng": "Evidence Logged - ACPD Database",
 			"trans": "証拠ログ - ACPDデータベース"
-		},
-		"evidenceCollected": {
-			"eng": "Evidence Collected",
-			"trans": "証拠取得済み"
 		},
 		"evidenceMismatch": {
 			"eng": "The submitted conclusion does not align with available evidence patterns.",
@@ -4284,10 +4272,6 @@
 			"eng": "Please select a conclusion",
 			"trans": "結論を選択してください"
 		},
-		"solveFromInvestigationLog": {
-			"eng": "Visit your Investigation Log to review evidence and solve the case.",
-			"trans": "調査ログへアクセスして証拠をレビューし、事件を解決する"
-		},
 		"solvedOn": {
 			"eng": "Solved on ${date}",
 			"trans": "解決日：${date}"
@@ -4339,6 +4323,32 @@
 		"verdictRejected": {
 			"eng": "VERDICT REJECTED",
 			"trans": "判決拒否"
+		}
+	},
+	"investigationPendingModal": {
+		"activeCase": {
+			"eng": "Active Case",
+			"trans": "進行中のケース"
+		},
+		"allCluesCollectedMessage": {
+			"eng": "You have collected all evidence for your current investigation. Complete this case before starting a new one.",
+			"trans": "現在の調査に必要な証拠はすべて集めました。新しい案件へ進む前に、このケースを完了してください。"
+		},
+		"caseReadyToSolve": {
+			"eng": "ACPD Case Ready to Solve",
+			"trans": "ACPDケース 解決準備完了"
+		},
+		"continueExploring": {
+			"eng": "Continue Exploring",
+			"trans": "探索を続ける"
+		},
+		"evidenceCollected": {
+			"eng": "Evidence Collected",
+			"trans": "証拠取得済み"
+		},
+		"solveFromInvestigationLog": {
+			"eng": "Visit your Investigation Log to review evidence and solve the case.",
+			"trans": "調査ログを開いて証拠を確認し、事件を解決しましょう。"
 		}
 	},
 	"item": {

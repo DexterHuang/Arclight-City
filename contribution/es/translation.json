@@ -4096,10 +4096,6 @@
 			"eng": "ACKNOWLEDGE",
 			"trans": "ENTENDIDO"
 		},
-		"activeCase": {
-			"eng": "Active Case",
-			"trans": "Caso activo"
-		},
 		"allCasesSolved": {
 			"eng": "You have solved all available investigations!",
 			"trans": "¡Has resuelto todas las investigaciones disponibles!"
@@ -4107,10 +4103,6 @@
 		"allCluesCollected": {
 			"eng": "ALL CLUES COLLECTED",
 			"trans": "Todas las pistas recogidas"
-		},
-		"allCluesCollectedMessage": {
-			"eng": "You have collected all evidence for your current investigation. Complete this case before starting a new one.",
-			"trans": "Has recopilado toda la evidencia para tu investigación actual. Completa este caso antes de iniciar uno nuevo."
 		},
 		"analysisComplete": {
 			"eng": "ANALYSIS COMPLETE",
@@ -4136,10 +4128,6 @@
 			"eng": "Case Introduction",
 			"trans": "Introducción al caso"
 		},
-		"caseReadyToSolve": {
-			"eng": "ACPD Case Ready to Solve",
-			"trans": "Caso ACPD listo para resolver"
-		},
 		"caseResolved": {
 			"eng": "ACPD Case Resolved",
 			"trans": "Caso resuelto por el Departamento de Policía de Arclight City"
@@ -4151,6 +4139,10 @@
 		"caseStatus": {
 			"eng": "CASE STATUS",
 			"trans": "Estado del caso"
+		},
+		"close": {
+			"eng": "Close",
+			"trans": "Cerrar"
 		},
 		"closed": {
 			"eng": "CLOSED - FAILED",
@@ -4172,10 +4164,6 @@
 			"eng": "Continue",
 			"trans": "Continuar"
 		},
-		"continueExploring": {
-			"eng": "Continue Exploring",
-			"trans": "Seguir explorando"
-		},
 		"contradictoryElements": {
 			"eng": "Multiple contradictory elements detected in the proposed verdict.",
 			"trans": "Se detectaron varios elementos contradictorios en el veredicto propuesto."
@@ -4192,6 +4180,10 @@
 			"eng": "ERROR CODE",
 			"trans": "Código de error"
 		},
+		"errorLoadingClue": {
+			"eng": "Error loading clue",
+			"trans": "Error al cargar la pista"
+		},
 		"evidence": {
 			"eng": "Evidence",
 			"trans": "Evidencia"
@@ -4199,10 +4191,6 @@
 		"evidenceAcquired": {
 			"eng": "Evidence Logged - ACPD Database",
 			"trans": "Evidencia registrada – Base de datos ACPD"
-		},
-		"evidenceCollected": {
-			"eng": "Evidence Collected",
-			"trans": "Evidencia recopilada"
 		},
 		"evidenceMismatch": {
 			"eng": "The submitted conclusion does not align with available evidence patterns.",
@@ -4284,10 +4272,6 @@
 			"eng": "Please select a conclusion",
 			"trans": "Seleccione una conclusión"
 		},
-		"solveFromInvestigationLog": {
-			"eng": "Visit your Investigation Log to review evidence and solve the case.",
-			"trans": "Visita tu Registro de Investigación para revisar las pruebas y resolver el caso."
-		},
 		"solvedOn": {
 			"eng": "Solved on ${date}",
 			"trans": "Resuelto el ${date}"
@@ -4339,6 +4323,32 @@
 		"verdictRejected": {
 			"eng": "VERDICT REJECTED",
 			"trans": "VERDICTO RECHAZADO"
+		}
+	},
+	"investigationPendingModal": {
+		"activeCase": {
+			"eng": "Active Case",
+			"trans": "Caso activo"
+		},
+		"allCluesCollectedMessage": {
+			"eng": "You have collected all evidence for your current investigation. Complete this case before starting a new one.",
+			"trans": "Has reunido toda la evidencia de tu investigación actual. Finaliza este caso antes de iniciar uno nuevo."
+		},
+		"caseReadyToSolve": {
+			"eng": "ACPD Case Ready to Solve",
+			"trans": "Caso ACPD listo para resolver"
+		},
+		"continueExploring": {
+			"eng": "Continue Exploring",
+			"trans": "Continuar explorando"
+		},
+		"evidenceCollected": {
+			"eng": "Evidence Collected",
+			"trans": "Evidencia recopilada"
+		},
+		"solveFromInvestigationLog": {
+			"eng": "Visit your Investigation Log to review evidence and solve the case.",
+			"trans": "Visita tu Bitácora de Investigación para revisar la evidencia y resolver el caso."
 		}
 	},
 	"item": {

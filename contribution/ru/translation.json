@@ -1975,8 +1975,8 @@
 			"trans": "Закрыть"
 		},
 		"error": {
-			"eng": "Error loading clue",
-			"trans": "Ошибка загрузки подсказки"
+			"eng": "Error loading investigation data",
+			"trans": "Ошибка загрузки данных расследования"
 		},
 		"loading": {
 			"eng": "Loading...",
@@ -4096,10 +4096,6 @@
 			"eng": "ACKNOWLEDGE",
 			"trans": "Подтвердить"
 		},
-		"activeCase": {
-			"eng": "Active Case",
-			"trans": "Активный кейс"
-		},
 		"allCasesSolved": {
 			"eng": "You have solved all available investigations!",
 			"trans": "Вы решили все доступные расследования!"
@@ -4107,10 +4103,6 @@
 		"allCluesCollected": {
 			"eng": "ALL CLUES COLLECTED",
 			"trans": "Все улики собраны"
-		},
-		"allCluesCollectedMessage": {
-			"eng": "You have collected all evidence for your current investigation. Complete this case before starting a new one.",
-			"trans": "Вы собрали все доказательства для текущего расследования. Завершите этот случай, прежде чем начать новый."
 		},
 		"analysisComplete": {
 			"eng": "ANALYSIS COMPLETE",
@@ -4136,10 +4128,6 @@
 			"eng": "Case Introduction",
 			"trans": "Введение в дело"
 		},
-		"caseReadyToSolve": {
-			"eng": "ACPD Case Ready to Solve",
-			"trans": "Кейс ACPD готов к разгадке"
-		},
 		"caseResolved": {
 			"eng": "ACPD Case Resolved",
 			"trans": "Дело ACPD решено"
@@ -4151,6 +4139,10 @@
 		"caseStatus": {
 			"eng": "CASE STATUS",
 			"trans": "СТАТУС СЛУЧАЯ"
+		},
+		"close": {
+			"eng": "Close",
+			"trans": "Закрыть"
 		},
 		"closed": {
 			"eng": "CLOSED - FAILED",
@@ -4172,10 +4164,6 @@
 			"eng": "Continue",
 			"trans": "Продолжить"
 		},
-		"continueExploring": {
-			"eng": "Continue Exploring",
-			"trans": "Продолжить исследование"
-		},
 		"contradictoryElements": {
 			"eng": "Multiple contradictory elements detected in the proposed verdict.",
 			"trans": "Обнаружены несколько противоречивых элементов в предложенном вердикте."
@@ -4192,6 +4180,10 @@
 			"eng": "ERROR CODE",
 			"trans": "КОД ОШИБКИ"
 		},
+		"errorLoadingClue": {
+			"eng": "Error loading clue",
+			"trans": "Ошибка загрузки подсказки"
+		},
 		"evidence": {
 			"eng": "Evidence",
 			"trans": "Доказательства"
@@ -4199,10 +4191,6 @@
 		"evidenceAcquired": {
 			"eng": "Evidence Logged - ACPD Database",
 			"trans": "Доказательства зарегистрированы – База данных ACPD"
-		},
-		"evidenceCollected": {
-			"eng": "Evidence Collected",
-			"trans": "Собранные доказательства"
 		},
 		"evidenceMismatch": {
 			"eng": "The submitted conclusion does not align with available evidence patterns.",
@@ -4284,10 +4272,6 @@
 			"eng": "Please select a conclusion",
 			"trans": "Выберите заключение, пожалуйста."
 		},
-		"solveFromInvestigationLog": {
-			"eng": "Visit your Investigation Log to review evidence and solve the case.",
-			"trans": "Откройте журнал расследований, чтобы изучить доказательства и раскрыть дело."
-		},
 		"solvedOn": {
 			"eng": "Solved on ${date}",
 			"trans": "Решено ${date}"
@@ -4339,6 +4323,32 @@
 		"verdictRejected": {
 			"eng": "VERDICT REJECTED",
 			"trans": "ВЕРДИКТ ОТКЛОНЕН"
+		}
+	},
+	"investigationPendingModal": {
+		"activeCase": {
+			"eng": "Active Case",
+			"trans": "Текущий кейс"
+		},
+		"allCluesCollectedMessage": {
+			"eng": "You have collected all evidence for your current investigation. Complete this case before starting a new one.",
+			"trans": "Вы собрали все доказательства по текущему расследованию. Завершите дело, прежде чем начать новое."
+		},
+		"caseReadyToSolve": {
+			"eng": "ACPD Case Ready to Solve",
+			"trans": "Кейс ACPD готов к разгадке"
+		},
+		"continueExploring": {
+			"eng": "Continue Exploring",
+			"trans": "Продолжить исследование"
+		},
+		"evidenceCollected": {
+			"eng": "Evidence Collected",
+			"trans": "Собранные доказательства"
+		},
+		"solveFromInvestigationLog": {
+			"eng": "Visit your Investigation Log to review evidence and solve the case.",
+			"trans": "Откройте ваш журнал расследований, чтобы просмотреть доказательства и раскрыть дело."
 		}
 	},
 	"item": {

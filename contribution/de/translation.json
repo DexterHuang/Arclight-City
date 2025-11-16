@@ -4096,21 +4096,13 @@
 			"eng": "ACKNOWLEDGE",
 			"trans": "Bestätigen"
 		},
-		"activeCase": {
-			"eng": "Active Case",
-			"trans": "Aktiver Fall"
-		},
 		"allCasesSolved": {
 			"eng": "You have solved all available investigations!",
 			"trans": "Du hast alle verfügbaren Ermittlungen gelöst!"
 		},
 		"allCluesCollected": {
 			"eng": "ALL CLUES COLLECTED",
-			"trans": "ALLE HINWEISE GESAMMELT"
-		},
-		"allCluesCollectedMessage": {
-			"eng": "You have collected all evidence for your current investigation. Complete this case before starting a new one.",
-			"trans": "Du hast alle Beweise für deine aktuelle Untersuchung gesammelt. Schließe diesen Fall ab, bevor du einen neuen beginnst."
+			"trans": "Alle Hinweise gesammelt"
 		},
 		"analysisComplete": {
 			"eng": "ANALYSIS COMPLETE",
@@ -4136,10 +4128,6 @@
 			"eng": "Case Introduction",
 			"trans": "Fallvorstellung"
 		},
-		"caseReadyToSolve": {
-			"eng": "ACPD Case Ready to Solve",
-			"trans": "ACPD-Fall bereit zum Lösen"
-		},
 		"caseResolved": {
 			"eng": "ACPD Case Resolved",
 			"trans": "ACPD Fall gelöst"
@@ -4151,6 +4139,10 @@
 		"caseStatus": {
 			"eng": "CASE STATUS",
 			"trans": "Fallstatus"
+		},
+		"close": {
+			"eng": "Close",
+			"trans": "Schließen"
 		},
 		"closed": {
 			"eng": "CLOSED - FAILED",
@@ -4172,10 +4164,6 @@
 			"eng": "Continue",
 			"trans": "Weiter"
 		},
-		"continueExploring": {
-			"eng": "Continue Exploring",
-			"trans": "Weiter erkunden"
-		},
 		"contradictoryElements": {
 			"eng": "Multiple contradictory elements detected in the proposed verdict.",
 			"trans": "Mehrere widersprüchliche Elemente wurden im vorgeschlagenen Urteil erkannt."
@@ -4192,6 +4180,10 @@
 			"eng": "ERROR CODE",
 			"trans": "Fehlercode"
 		},
+		"errorLoadingClue": {
+			"eng": "Error loading clue",
+			"trans": "Fehler beim Laden des Hinweises."
+		},
 		"evidence": {
 			"eng": "Evidence",
 			"trans": "Beweis"
@@ -4199,10 +4191,6 @@
 		"evidenceAcquired": {
 			"eng": "Evidence Logged - ACPD Database",
 			"trans": "Beweis protokolliert – ACPD-Datenbank"
-		},
-		"evidenceCollected": {
-			"eng": "Evidence Collected",
-			"trans": "Beweise gesammelt"
 		},
 		"evidenceMismatch": {
 			"eng": "The submitted conclusion does not align with available evidence patterns.",
@@ -4284,10 +4272,6 @@
 			"eng": "Please select a conclusion",
 			"trans": "Bitte wählen Sie eine Schlussfolgerung"
 		},
-		"solveFromInvestigationLog": {
-			"eng": "Visit your Investigation Log to review evidence and solve the case.",
-			"trans": "Besuche dein Untersuchungsprotokoll, um Beweise zu prüfen und den Fall zu lösen."
-		},
 		"solvedOn": {
 			"eng": "Solved on ${date}",
 			"trans": "Gelöst am ${date}"
@@ -4339,6 +4323,32 @@
 		"verdictRejected": {
 			"eng": "VERDICT REJECTED",
 			"trans": "URTEIL ABGELEHNT"
+		}
+	},
+	"investigationPendingModal": {
+		"activeCase": {
+			"eng": "Active Case",
+			"trans": "Aktiver Fall"
+		},
+		"allCluesCollectedMessage": {
+			"eng": "You have collected all evidence for your current investigation. Complete this case before starting a new one.",
+			"trans": "Du hast alle Beweise für deine aktuelle Untersuchung gesammelt. Beende diesen Fall, bevor du einen neuen beginnst."
+		},
+		"caseReadyToSolve": {
+			"eng": "ACPD Case Ready to Solve",
+			"trans": "ACPD‑Fall bereit zur Lösung"
+		},
+		"continueExploring": {
+			"eng": "Continue Exploring",
+			"trans": "Weiter erkunden"
+		},
+		"evidenceCollected": {
+			"eng": "Evidence Collected",
+			"trans": "Beweise gesammelt"
+		},
+		"solveFromInvestigationLog": {
+			"eng": "Visit your Investigation Log to review evidence and solve the case.",
+			"trans": "Öffne dein Ermittlungsprotokoll, um Beweise zu überprüfen und den Fall zu lösen."
 		}
 	},
 	"item": {

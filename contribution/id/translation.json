@@ -4096,21 +4096,13 @@
 			"eng": "ACKNOWLEDGE",
 			"trans": "Konfirmasi"
 		},
-		"activeCase": {
-			"eng": "Active Case",
-			"trans": "Kasus Aktif"
-		},
 		"allCasesSolved": {
 			"eng": "You have solved all available investigations!",
 			"trans": "Anda telah menyelesaikan semua investigasi yang tersedia!"
 		},
 		"allCluesCollected": {
-			"eng": "You have collected all clues for this case. Visit your investigation log to solve it.",
-			"trans": "Anda telah mengumpulkan semua petunjuk untuk kasus ini. Kunjungi catatan investigasi Anda untuk menyelesaikannya."
-		},
-		"allCluesCollectedMessage": {
-			"eng": "You have collected all evidence for your current investigation. Complete this case before starting a new one.",
-			"trans": "Semua bukti sudah terkumpul untuk penyelidikanmu saat ini. Selesaikan kasus ini sebelum memulai yang baru."
+			"eng": "ALL CLUES COLLECTED",
+			"trans": "SEMUA PETUNJUK TERKUMPUL"
 		},
 		"analysisComplete": {
 			"eng": "ANALYSIS COMPLETE",
@@ -4136,10 +4128,6 @@
 			"eng": "Case Introduction",
 			"trans": "Pengantar Kasus"
 		},
-		"caseReadyToSolve": {
-			"eng": "ACPD Case Ready to Solve",
-			"trans": "Kasus ACPD Siap Diselesaikan"
-		},
 		"caseResolved": {
 			"eng": "ACPD Case Resolved",
 			"trans": "Kasus ACPD Selesai"
@@ -4151,6 +4139,10 @@
 		"caseStatus": {
 			"eng": "CASE STATUS",
 			"trans": "Status Kasus"
+		},
+		"close": {
+			"eng": "Close",
+			"trans": "Tutup"
 		},
 		"closed": {
 			"eng": "CLOSED - FAILED",
@@ -4172,10 +4164,6 @@
 			"eng": "Continue",
 			"trans": "Lanjutkan"
 		},
-		"continueExploring": {
-			"eng": "Continue Exploring",
-			"trans": "Terus Jelajahi"
-		},
 		"contradictoryElements": {
 			"eng": "Multiple contradictory elements detected in the proposed verdict.",
 			"trans": "Beberapa elemen bertentangan terdeteksi dalam putusan yang diusulkan."
@@ -4192,6 +4180,10 @@
 			"eng": "ERROR CODE",
 			"trans": "KODE KESALAHAN"
 		},
+		"errorLoadingClue": {
+			"eng": "Error loading clue",
+			"trans": "Kesalahan memuat petunjuk"
+		},
 		"evidence": {
 			"eng": "Evidence",
 			"trans": "Bukti"
@@ -4199,10 +4191,6 @@
 		"evidenceAcquired": {
 			"eng": "Evidence Logged - ACPD Database",
 			"trans": "Bukti Tercatat - Basis Data ACPD"
-		},
-		"evidenceCollected": {
-			"eng": "Evidence Collected",
-			"trans": "Bukti Terkumpul"
 		},
 		"evidenceMismatch": {
 			"eng": "The submitted conclusion does not align with available evidence patterns.",
@@ -4284,10 +4272,6 @@
 			"eng": "Please select a conclusion",
 			"trans": "Silakan pilih kesimpulan"
 		},
-		"solveFromInvestigationLog": {
-			"eng": "Visit your Investigation Log to review evidence and solve the case.",
-			"trans": "Kunjungi Catatan Investigasi Anda untuk meninjau bukti dan selesaikan kasus."
-		},
 		"solvedOn": {
 			"eng": "Solved on ${date}",
 			"trans": "Selesai pada ${date}"
@@ -4339,6 +4323,32 @@
 		"verdictRejected": {
 			"eng": "VERDICT REJECTED",
 			"trans": "PUTUSAN DITOLAK"
+		}
+	},
+	"investigationPendingModal": {
+		"activeCase": {
+			"eng": "Active Case",
+			"trans": "Kasus Aktif"
+		},
+		"allCluesCollectedMessage": {
+			"eng": "You have collected all evidence for your current investigation. Complete this case before starting a new one.",
+			"trans": "Anda telah mengumpulkan semua bukti untuk penyelidikan Anda saat ini. Selesaikan kasus ini sebelum memulai yang baru."
+		},
+		"caseReadyToSolve": {
+			"eng": "ACPD Case Ready to Solve",
+			"trans": "Kasus ACPD Siap Diselesaikan"
+		},
+		"continueExploring": {
+			"eng": "Continue Exploring",
+			"trans": "Terus Menjelajah"
+		},
+		"evidenceCollected": {
+			"eng": "Evidence Collected",
+			"trans": "Bukti Diperoleh"
+		},
+		"solveFromInvestigationLog": {
+			"eng": "Visit your Investigation Log to review evidence and solve the case.",
+			"trans": "Kunjungi Log Investigasi Anda untuk meninjau bukti dan memecahkan kasus."
 		}
 	},
 	"item": {

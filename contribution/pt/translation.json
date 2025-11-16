@@ -4096,21 +4096,13 @@
 			"eng": "ACKNOWLEDGE",
 			"trans": "Confirmar"
 		},
-		"activeCase": {
-			"eng": "Active Case",
-			"trans": "Caso Ativo"
-		},
 		"allCasesSolved": {
 			"eng": "You have solved all available investigations!",
 			"trans": "Você já resolveu todas as investigações disponíveis!"
 		},
 		"allCluesCollected": {
 			"eng": "ALL CLUES COLLECTED",
-			"trans": "Todas as pistas coletadas"
-		},
-		"allCluesCollectedMessage": {
-			"eng": "You have collected all evidence for your current investigation. Complete this case before starting a new one.",
-			"trans": "Você coletou todas as evidências do seu caso atual. Conclua esse caso antes de iniciar outro."
+			"trans": "TODAS AS PISTAS COLETADAS"
 		},
 		"analysisComplete": {
 			"eng": "ANALYSIS COMPLETE",
@@ -4136,10 +4128,6 @@
 			"eng": "Case Introduction",
 			"trans": "Introdução ao Caso"
 		},
-		"caseReadyToSolve": {
-			"eng": "ACPD Case Ready to Solve",
-			"trans": "Caso do ACPD pronto para ser resolvido"
-		},
 		"caseResolved": {
 			"eng": "ACPD Case Resolved",
 			"trans": "Caso DPCA Resolvido"
@@ -4151,6 +4139,10 @@
 		"caseStatus": {
 			"eng": "CASE STATUS",
 			"trans": "Status do Caso"
+		},
+		"close": {
+			"eng": "Close",
+			"trans": "Fechar"
 		},
 		"closed": {
 			"eng": "CLOSED - FAILED",
@@ -4172,10 +4164,6 @@
 			"eng": "Continue",
 			"trans": "Continue"
 		},
-		"continueExploring": {
-			"eng": "Continue Exploring",
-			"trans": "Continue Explorando"
-		},
 		"contradictoryElements": {
 			"eng": "Multiple contradictory elements detected in the proposed verdict.",
 			"trans": "Múltiplos elementos contraditórios detectados no veredicto proposto."
@@ -4192,6 +4180,10 @@
 			"eng": "ERROR CODE",
 			"trans": "CÓDIGO DE ERRO"
 		},
+		"errorLoadingClue": {
+			"eng": "Error loading clue",
+			"trans": "Erro ao carregar pista"
+		},
 		"evidence": {
 			"eng": "Evidence",
 			"trans": "Prova"
@@ -4199,10 +4191,6 @@
 		"evidenceAcquired": {
 			"eng": "Evidence Logged - ACPD Database",
 			"trans": "Evidência Registrada - Banco de Dados ACPD"
-		},
-		"evidenceCollected": {
-			"eng": "Evidence Collected",
-			"trans": "Evidências Coletadas"
 		},
 		"evidenceMismatch": {
 			"eng": "The submitted conclusion does not align with available evidence patterns.",
@@ -4284,10 +4272,6 @@
 			"eng": "Please select a conclusion",
 			"trans": "Selecione uma conclusão"
 		},
-		"solveFromInvestigationLog": {
-			"eng": "Visit your Investigation Log to review evidence and solve the case.",
-			"trans": "Visite seu Registro de Investigação para revisar evidências e resolver o caso."
-		},
 		"solvedOn": {
 			"eng": "Solved on ${date}",
 			"trans": "Resolvido em ${date}"
@@ -4339,6 +4323,32 @@
 		"verdictRejected": {
 			"eng": "VERDICT REJECTED",
 			"trans": "Veredicto rejeitado"
+		}
+	},
+	"investigationPendingModal": {
+		"activeCase": {
+			"eng": "Active Case",
+			"trans": "Caso Ativo"
+		},
+		"allCluesCollectedMessage": {
+			"eng": "You have collected all evidence for your current investigation. Complete this case before starting a new one.",
+			"trans": "Você reuniu todas as provas da sua investigação atual. Conclua este caso antes de iniciar outro."
+		},
+		"caseReadyToSolve": {
+			"eng": "ACPD Case Ready to Solve",
+			"trans": "Caso ACPD pronto para resolver"
+		},
+		"continueExploring": {
+			"eng": "Continue Exploring",
+			"trans": "Continuar Explorando"
+		},
+		"evidenceCollected": {
+			"eng": "Evidence Collected",
+			"trans": "Evidências Coletadas"
+		},
+		"solveFromInvestigationLog": {
+			"eng": "Visit your Investigation Log to review evidence and solve the case.",
+			"trans": "Visite seu Registro de Investigação para revisar evidências e resolver o caso."
 		}
 	},
 	"item": {

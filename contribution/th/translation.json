@@ -4096,21 +4096,13 @@
 			"eng": "ACKNOWLEDGE",
 			"trans": "รับทราบ"
 		},
-		"activeCase": {
-			"eng": "Active Case",
-			"trans": "เคสดำเนินการ"
-		},
 		"allCasesSolved": {
 			"eng": "You have solved all available investigations!",
 			"trans": "คุณได้แก้ไขการสืบสวนทั้งหมดแล้ว!"
 		},
 		"allCluesCollected": {
 			"eng": "ALL CLUES COLLECTED",
-			"trans": "รวบรวมเบาะแสทั้งหมดแล้ว"
-		},
-		"allCluesCollectedMessage": {
-			"eng": "You have collected all evidence for your current investigation. Complete this case before starting a new one.",
-			"trans": "คุณเก็บหลักฐานทั้งหมดเรียบร้อยแล้ว กรุณาปิดคดีนี้ก่อนเริ่มเรื่องใหม่"
+			"trans": "รวบรวมหลักฐานครบ"
 		},
 		"analysisComplete": {
 			"eng": "ANALYSIS COMPLETE",
@@ -4136,10 +4128,6 @@
 			"eng": "Case Introduction",
 			"trans": "รายละเอียดเคส"
 		},
-		"caseReadyToSolve": {
-			"eng": "ACPD Case Ready to Solve",
-			"trans": "เคส ACPD พร้อมแก้ไข"
-		},
 		"caseResolved": {
 			"eng": "ACPD Case Resolved",
 			"trans": "ACPD เคสสำเร็จ"
@@ -4151,6 +4139,10 @@
 		"caseStatus": {
 			"eng": "CASE STATUS",
 			"trans": "สถานะเคส"
+		},
+		"close": {
+			"eng": "Close",
+			"trans": "ปิด"
 		},
 		"closed": {
 			"eng": "CLOSED - FAILED",
@@ -4172,10 +4164,6 @@
 			"eng": "Continue",
 			"trans": "ต่อ"
 		},
-		"continueExploring": {
-			"eng": "Continue Exploring",
-			"trans": "สำรวจต่อ"
-		},
 		"contradictoryElements": {
 			"eng": "Multiple contradictory elements detected in the proposed verdict.",
 			"trans": "พบความขัดแย้งหลายรายการในคำตัดสินที่เสนอ"
@@ -4192,6 +4180,10 @@
 			"eng": "ERROR CODE",
 			"trans": "รหัสข้อผิดพลาด"
 		},
+		"errorLoadingClue": {
+			"eng": "Error loading clue",
+			"trans": "ไม่สามารถโหลดเบาะแสได้"
+		},
 		"evidence": {
 			"eng": "Evidence",
 			"trans": "หลักฐาน"
@@ -4199,10 +4191,6 @@
 		"evidenceAcquired": {
 			"eng": "Evidence Logged - ACPD Database",
 			"trans": "หลักฐานบันทึก - ฐานข้อมูล ACPD"
-		},
-		"evidenceCollected": {
-			"eng": "Evidence Collected",
-			"trans": "หลักฐานสะสม"
 		},
 		"evidenceMismatch": {
 			"eng": "The submitted conclusion does not align with available evidence patterns.",
@@ -4284,10 +4272,6 @@
 			"eng": "Please select a conclusion",
 			"trans": "กรุณาเลือกข้อสรุป"
 		},
-		"solveFromInvestigationLog": {
-			"eng": "Visit your Investigation Log to review evidence and solve the case.",
-			"trans": "ไปที่บันทึกการสืบสวนเพื่อดูหลักฐานและแก้คดี"
-		},
 		"solvedOn": {
 			"eng": "Solved on ${date}",
 			"trans": "แก้ไขเมื่อ ${date}"
@@ -4339,6 +4323,32 @@
 		"verdictRejected": {
 			"eng": "VERDICT REJECTED",
 			"trans": "คำพิพากษาถูกปฏิเสธ"
+		}
+	},
+	"investigationPendingModal": {
+		"activeCase": {
+			"eng": "Active Case",
+			"trans": "เคสปัจจุบัน"
+		},
+		"allCluesCollectedMessage": {
+			"eng": "You have collected all evidence for your current investigation. Complete this case before starting a new one.",
+			"trans": "เก็บหลักฐานครบทุกชิ้นแล้ว กรุณาเสร็จสมบูรณ์เคสนี้ก่อนเริ่มเคสใหม่"
+		},
+		"caseReadyToSolve": {
+			"eng": "ACPD Case Ready to Solve",
+			"trans": "เคส ACPD พร้อมแก้ไข"
+		},
+		"continueExploring": {
+			"eng": "Continue Exploring",
+			"trans": "เดินหน้าสำรวจต่อ"
+		},
+		"evidenceCollected": {
+			"eng": "Evidence Collected",
+			"trans": "หลักฐานที่ได้รวบรวม"
+		},
+		"solveFromInvestigationLog": {
+			"eng": "Visit your Investigation Log to review evidence and solve the case.",
+			"trans": "ดูบันทึกการสืบสวนของคุณ ตรวจสอบหลักฐานและแก้ไขคดี"
 		}
 	},
 	"item": {

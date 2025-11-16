@@ -4096,21 +4096,13 @@
 			"eng": "ACKNOWLEDGE",
 			"trans": "Potvrdit"
 		},
-		"activeCase": {
-			"eng": "Active Case",
-			"trans": "Aktivní případ"
-		},
 		"allCasesSolved": {
 			"eng": "You have solved all available investigations!",
 			"trans": "Vyřešili jste všechna dostupná vyšetřování!"
 		},
 		"allCluesCollected": {
 			"eng": "ALL CLUES COLLECTED",
-			"trans": "Všechny shromážděné stopy"
-		},
-		"allCluesCollectedMessage": {
-			"eng": "You have collected all evidence for your current investigation. Complete this case before starting a new one.",
-			"trans": "Shromáždili jste všechny důkazy k vašemu současnému vyšetřování. Dokončete tento případ před zahájením dalšího."
+			"trans": "Všechny stopy shromážděny"
 		},
 		"analysisComplete": {
 			"eng": "ANALYSIS COMPLETE",
@@ -4136,10 +4128,6 @@
 			"eng": "Case Introduction",
 			"trans": "Úvod do případu"
 		},
-		"caseReadyToSolve": {
-			"eng": "ACPD Case Ready to Solve",
-			"trans": "Případ ACPD připraven k vyřešení"
-		},
 		"caseResolved": {
 			"eng": "ACPD Case Resolved",
 			"trans": "ACPD Případ vyřešen"
@@ -4151,6 +4139,10 @@
 		"caseStatus": {
 			"eng": "CASE STATUS",
 			"trans": "Stav případu"
+		},
+		"close": {
+			"eng": "Close",
+			"trans": "Zavřít"
 		},
 		"closed": {
 			"eng": "CLOSED - FAILED",
@@ -4172,10 +4164,6 @@
 			"eng": "Continue",
 			"trans": "Pokračovat"
 		},
-		"continueExploring": {
-			"eng": "Continue Exploring",
-			"trans": "Pokračovat v průzkumu"
-		},
 		"contradictoryElements": {
 			"eng": "Multiple contradictory elements detected in the proposed verdict.",
 			"trans": "V navrženém rozsudku bylo zjištěno více protichůdných prvků."
@@ -4192,6 +4180,10 @@
 			"eng": "ERROR CODE",
 			"trans": "Kód chyby"
 		},
+		"errorLoadingClue": {
+			"eng": "Error loading clue",
+			"trans": "Chyba při načítání nápovědy"
+		},
 		"evidence": {
 			"eng": "Evidence",
 			"trans": "Důkaz"
@@ -4199,10 +4191,6 @@
 		"evidenceAcquired": {
 			"eng": "Evidence Logged - ACPD Database",
 			"trans": "Důkazy zaznamenány - ACPD databáze"
-		},
-		"evidenceCollected": {
-			"eng": "Evidence Collected",
-			"trans": "Získané důkazy"
 		},
 		"evidenceMismatch": {
 			"eng": "The submitted conclusion does not align with available evidence patterns.",
@@ -4284,10 +4272,6 @@
 			"eng": "Please select a conclusion",
 			"trans": "Prosím vyberte závěr"
 		},
-		"solveFromInvestigationLog": {
-			"eng": "Visit your Investigation Log to review evidence and solve the case.",
-			"trans": "Otevřete svůj Záznam vyšetřování, abyste si prohlédli důkazy a vyřešili případ."
-		},
 		"solvedOn": {
 			"eng": "Solved on ${date}",
 			"trans": "Vyřešeno dne ${date}"
@@ -4339,6 +4323,32 @@
 		"verdictRejected": {
 			"eng": "VERDICT REJECTED",
 			"trans": "Rozsudek zamítnutý"
+		}
+	},
+	"investigationPendingModal": {
+		"activeCase": {
+			"eng": "Active Case",
+			"trans": "Aktivní případ"
+		},
+		"allCluesCollectedMessage": {
+			"eng": "You have collected all evidence for your current investigation. Complete this case before starting a new one.",
+			"trans": "Shromáždili jste veškerý důkaz pro aktuální vyšetřování. Dokončete tento případ před zahájením nového."
+		},
+		"caseReadyToSolve": {
+			"eng": "ACPD Case Ready to Solve",
+			"trans": "Případ ACPD připraven k vyřešení"
+		},
+		"continueExploring": {
+			"eng": "Continue Exploring",
+			"trans": "Pokračovat v průzkumu"
+		},
+		"evidenceCollected": {
+			"eng": "Evidence Collected",
+			"trans": "Získané důkazy"
+		},
+		"solveFromInvestigationLog": {
+			"eng": "Visit your Investigation Log to review evidence and solve the case.",
+			"trans": "Zobrazte záznam vyšetřování, projděte si důkazy a vyřešte případ."
 		}
 	},
 	"item": {
