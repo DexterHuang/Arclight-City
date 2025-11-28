@@ -334,6 +334,12 @@
 				"trans": "중심가 아파트"
 			}
 		},
+		"chat": {
+			"cleared": {
+				"eng": "Apartment chat has been cleared.",
+				"trans": "아파트 채팅이 삭제되었습니다."
+			}
+		},
 		"enter": {
 			"blocked": {
 				"eng": "This apartment cannot entered at this moment.",
@@ -392,6 +398,24 @@
 		}
 	},
 	"apartmentPage": {
+		"clearChat": {
+			"cancel": {
+				"eng": "cancel",
+				"trans": "취소"
+			},
+			"confirm": {
+				"eng": "clear chat",
+				"trans": "채팅 지우기"
+			},
+			"title": {
+				"eng": "Clear Chat",
+				"trans": "채팅 지우기"
+			},
+			"warning": {
+				"eng": "This will permanently delete all messages in your apartment chat. This action cannot be undone.",
+				"trans": "이 동작은 아파트 채팅의 모든 메시지를 영구적으로 삭제합니다. 복원할 수 없습니다."
+			}
+		},
 		"kitchenButton": {
 			"error": {
 				"eng": "You must be the owner of the apartment to access the kitchen",
@@ -423,6 +447,14 @@
 			}
 		},
 		"options": {
+			"clearChat": {
+				"eng": "clear chat",
+				"error": {
+					"eng": "The owner of this apartment must add you as a friend for you to send messages in this apartment.",
+					"trans": "이 아파트의 주인이 귀하를 친구로 추가해야만 메시지를 보낼 수 있습니다."
+				},
+				"trans": "채팅 지우기"
+			},
 			"terminateLease": {
 				"eng": "terminate lease",
 				"trans": "계약 해지"
@@ -1461,6 +1493,14 @@
 			}
 		},
 		"error": {
+			"levelRestriction1": {
+				"eng": "You need to be at least level ${level} to send message to global.",
+				"trans": "글로벌 채팅을 보내려면 최소 레벨 ${level}이어야 합니다."
+			},
+			"levelRestriction2": {
+				"eng": "You need to be at least level ${level} to send message to global.",
+				"trans": "글로벌 채팅을 보내려면 최소 레벨 ${level}이어야 합니다."
+			},
 			"link": {
 				"eng": "Links are not allowed in messages",
 				"trans": "메시지에 링크를 넣을 수 없습니다"
@@ -1981,6 +2021,10 @@
 		"loading": {
 			"eng": "Loading...",
 			"trans": "로딩 중…"
+		},
+		"retry": {
+			"eng": "Retry",
+			"trans": "다시 시도"
 		}
 	},
 	"compactRewardConfigDisplay": {
@@ -3694,6 +3738,12 @@
 				}
 			}
 		},
+		"invite": {
+			"restricted": {
+				"eng": "You cannot send gang invites now",
+				"trans": "지금은 갱 초대를 보낼 수 없습니다."
+			}
+		},
 		"inviteSent": {
 			"eng": "A invite has been sent to ${playerName}",
 			"trans": "${playerName}에게 초대장이 전송되었습니다"
@@ -4096,10 +4146,6 @@
 			"eng": "ACKNOWLEDGE",
 			"trans": "확인"
 		},
-		"allCasesSolved": {
-			"eng": "You have solved all available investigations!",
-			"trans": "모든 사용 가능한 조사를 완료했습니다!"
-		},
 		"allCluesCollected": {
 			"eng": "ALL CLUES COLLECTED",
 			"trans": "모든 단서 수집 완료"
@@ -4116,17 +4162,9 @@
 			"eng": "ANALYZING EVIDENCE...",
 			"trans": "증거 분석 중…"
 		},
-		"caseClosed": {
-			"eng": "Case Closed",
-			"trans": "사건 종료"
-		},
 		"caseId": {
 			"eng": "CASE ID",
 			"trans": "케이스 ID"
-		},
-		"caseIntro": {
-			"eng": "Case Introduction",
-			"trans": "케이스 개요"
 		},
 		"caseResolved": {
 			"eng": "ACPD Case Resolved",
@@ -4231,14 +4269,74 @@
 			"trans": "새 케이스"
 		},
 		"noActiveCase": {
-			"short": {
-				"eng": "No active case",
-				"trans": "활성 케이스가 없습니다"
+			"header": {
+				"eng": "ACPD INVESTIGATION TERMINAL",
+				"trans": "아클라이트시 경찰서 조사 터미널"
+			},
+			"intelBody1": {
+				"eng": "This console activates automatically once you capture your first clue.",
+				"trans": "첫 단서를 확보하면 이 콘솔이 자동으로 활성화됩니다."
+			},
+			"intelBody2": {
+				"eng": "Track the entire case from here—clues, summaries, and final verdict submission.",
+				"trans": "여기에서 사건 전체를 추적하세요 — 단서, 요약 및 최종 판결 제출."
+			},
+			"intelHeader": {
+				"eng": "INTEL DISPATCH",
+				"trans": "정보 전송"
+			},
+			"requirement": {
+				"eng": "4 clues required per case",
+				"trans": "각 사건에 4개의 단서가 필요합니다."
+			},
+			"statusInline": {
+				"eng": "Case Slot Open • Permit required to submit verdict",
+				"trans": "사건 슬롯 개방 • 판결 제출 시 허가 필요"
+			},
+			"timelineAcquire": {
+				"desc": {
+					"eng": "Stronghold investigation points feed clues directly into this console.",
+					"trans": "아지트 조사 포인트가 이 콘솔에 단서를 직접 전달합니다."
+				},
+				"eng": "Acquire Intel",
+				"trans": "정보 확보"
+			},
+			"timelineAssemble": {
+				"desc": {
+					"eng": "Collect all four clues to unlock the verdict authorization rail.",
+					"trans": "모든 4개의 단서를 수집해 판결 승인 레일을 잠금 해제하세요."
+				},
+				"eng": "Assemble Evidence",
+				"trans": "증거 수집"
+			},
+			"timelineSubmit": {
+				"desc": {
+					"eng": "Spend one Investigation Access Permit to commit your conclusion.",
+					"trans": "조사 접근 허가증 1개를 사용해 결론을 확정하세요."
+				},
+				"eng": "Deliver Verdict",
+				"trans": "판결 내리기"
+			},
+			"tipBody": {
+				"eng": "Tap to open the Investigation field manual and review how cases operate.",
+				"trans": "탭하면 조사 현장 매뉴얼을 열고 사건 진행 방식을 확인하세요."
+			},
+			"tipTitle": {
+				"eng": "Need a briefing?",
+				"trans": "브리핑이 필요하신가요?"
+			},
+			"totalSolved": {
+				"eng": "Solved dossiers: ${count}",
+				"trans": "해결한 파일: ${count}"
 			}
 		},
 		"noActiveInvestigation": {
 			"eng": "You have no active investigation to abandon.",
 			"trans": "포기할 수 있는 진행 중인 조사가 없습니다."
+		},
+		"noCasesAvailable": {
+			"eng": "No investigations available",
+			"trans": "조사 항목이 없습니다."
 		},
 		"noChoices": {
 			"eng": "No choices available",
@@ -4249,8 +4347,8 @@
 			"trans": "판결을 제출하려면 조사 접근 허가증이 필요합니다. 이들은 던전 보물함에서 찾아볼 수 있습니다."
 		},
 		"noSolvedCases": {
-			"eng": "You haven't solved any investigations yet. Start investigating!",
-			"trans": "아직 해결된 수사가 없습니다. 지금 수사를 시작하세요!"
+			"eng": "No solved cases yet",
+			"trans": "아직 해결된 사건이 없습니다."
 		},
 		"notAllCluesCollected": {
 			"eng": "You must collect all clues before solving the case.",
@@ -4272,9 +4370,27 @@
 			"eng": "Please select a conclusion",
 			"trans": "결론을 선택하세요"
 		},
-		"solvedOn": {
-			"eng": "Solved on ${date}",
-			"trans": "해결 일자: ${date}"
+		"solveCasesHint": {
+			"eng": "Complete investigations to see them here",
+			"trans": "조사를 마치고 여기에서 확인하세요"
+		},
+		"solved": {
+			"eng": "Solved ${time}",
+			"trans": "완료 ${time}"
+		},
+		"solvedCases": {
+			"description": {
+				"eng": "Review completed cases and revisit final reports.",
+				"trans": "완료된 사건을 검토하고 최종 보고서를 다시 확인하세요."
+			},
+			"header": {
+				"eng": "Solved Investigations Registry",
+				"trans": "해결된 조사 목록"
+			},
+			"solved": {
+				"eng": "solved",
+				"trans": "해결됨"
+			}
 		},
 		"submit": {
 			"eng": "Submit Verdict",
@@ -4287,10 +4403,6 @@
 		"submitVerdict": {
 			"eng": "Submit Your Verdict",
 			"trans": "판단 제출"
-		},
-		"submitting": {
-			"eng": "Submitting...",
-			"trans": "전송 중…"
 		},
 		"systemPrefix": {
 			"eng": "SYS",
@@ -4308,14 +4420,6 @@
 			"eng": "The Full Story",
 			"trans": "전체 스토리"
 		},
-		"totalSolved": {
-			"eng": "Total Solved: ${count}",
-			"trans": "총 해결 수: ${count}"
-		},
-		"truthRevealed": {
-			"eng": "The truth has been revealed",
-			"trans": "진실이 밝혀졌습니다."
-		},
 		"verdictImage": {
 			"eng": "Verdict ${num} investigation image",
 			"trans": "판단 ${num} 조사 이미지"
@@ -4326,10 +4430,6 @@
 		}
 	},
 	"investigationPendingModal": {
-		"activeCase": {
-			"eng": "Active Case",
-			"trans": "진행 중인 사건"
-		},
 		"allCluesCollectedMessage": {
 			"eng": "You have collected all evidence for your current investigation. Complete this case before starting a new one.",
 			"trans": "현재 조사의 모든 증거를 수집했습니다. 새 사건을 시작하기 전 이 사건을 마무리하세요."
@@ -4768,6 +4868,10 @@
 			"eng": "Enemy drop",
 			"trans": "적 드롭"
 		},
+		"eventDrop": {
+			"eng": "${eventName} event drop",
+			"trans": "${eventName} 이벤트 드랍"
+		},
 		"intelligenceContract": {
 			"eng": "Intelligence Contract",
 			"trans": "지능 계약"
@@ -5160,6 +5264,16 @@
 				"trans": "교정 안정 장치"
 			}
 		},
+		"christmasEliteKey": {
+			"description": {
+				"eng": "A tactical key required to unlock Noel's Elite Crate. Only available from Noel herself.",
+				"trans": "노엘의 엘리트 크레이트를 여는 전술 키. 노엘만으로 획득 가능."
+			},
+			"name": {
+				"eng": "Elite Crate",
+				"trans": "엘리트 상자"
+			}
+		},
 		"christmasLootBox": {
 			"description": {
 				"eng": "Event container that contains various rewards, can only be unlocked during December.",
@@ -5168,6 +5282,26 @@
 			"name": {
 				"eng": "Christmas Container",
 				"trans": "크리스마스 상자"
+			}
+		},
+		"christmasLootBoxElite": {
+			"description": {
+				"eng": "A premium Christmas container reserved for the most valuable rewards. Only the worthy receive Noel's elite gifts.",
+				"trans": "가장 가치 있는 보상을 담은 프리미엄 크리스마스 상자. 자격을 갖춘 이들만 노엘의 엘리트 선물을 받을 수 있습니다."
+			},
+			"name": {
+				"eng": "Noel's Elite Crate",
+				"trans": "노엘의 엘리트 박스"
+			}
+		},
+		"christmasToken": {
+			"description": {
+				"eng": "A token that can be used to unlock a Christmas container.",
+				"trans": "크리스마스 컨테이너를 잠금 해제할 수 있는 토큰"
+			},
+			"name": {
+				"eng": "Christmas Token",
+				"trans": "크리스마스 토큰"
 			}
 		},
 		"clanMaintenanceResource": {
@@ -7485,8 +7619,8 @@
 	},
 	"mailTab": {
 		"empty": {
-			"eng": "currently you don\\'t have any chat",
-			"trans": "현재 채팅이 없습니다"
+			"eng": "currently you don't have any chat",
+			"trans": "현재 채팅이 없습니다."
 		}
 	},
 	"mails": {
@@ -8819,6 +8953,24 @@
 			}
 		}
 	},
+	"mutedMessage": {
+		"contact": {
+			"eng": "If you have any questions, please contact us at ${email}",
+			"trans": "궁금한 점이 있으면 ${email}으로 연락해 주세요."
+		},
+		"description": {
+			"eng": "Your account has been muted by the SYSTEM. You are temporarily unable to send messages or mails.",
+			"trans": "귀하의 계정이 시스템에 의해 정지되었습니다. 일시적으로 메시지와 메일을 보낼 수 없습니다."
+		},
+		"timeRemaining": {
+			"eng": "Time remaining: ${time}",
+			"trans": "남은 시간: ${time}"
+		},
+		"title": {
+			"eng": "Account Muted",
+			"trans": "계정 음소거"
+		}
+	},
 	"newsCard": {
 		"new": {
 			"eng": "NEW",
@@ -9170,6 +9322,40 @@
 			"tipBox": {
 				"eng": "You can sell your items here to other players, or buy items from other players.",
 				"trans": "여기서 다른 플레이어들에게 아이템을 판매하거나 구매할 수 있습니다."
+			}
+		},
+		"christmas": {
+			"greetings": {
+				"eng": [
+					"헤헤헤… 이게 바로 그들이 원하는 거야. 난 솔직하게 말하는 걸 더 좋아해.",
+					"좋은 사람 리스트에 등록돼 있는지 확인해주세요. 확인하지 않으면 상황이 복잡해집니다.",
+					"크리스마스 분위기는 필수이며, 반드시 지켜야 합니다.",
+					"선물 교환은 전술적 작전입니다. 준비됐나요?",
+					"다른 고객이 도착했습니다. 알겠습니다, 제 할당량은 자동으로 보충되지 않습니다."
+				],
+				"trans": [
+					"헤헤헤… 이게 바로 그들이 원하는 거야. 난 솔직하게 말하는 걸 더 좋아해.",
+					"좋은 사람 리스트에 등록돼 있는지 확인해주세요. 확인하지 않으면 상황이 복잡해집니다.",
+					"크리스마스 분위기는 필수이며, 반드시 지켜야 합니다.",
+					"선물 교환은 전술적 작전입니다. 준비됐나요?",
+					"다른 고객이 도착했습니다. 알겠습니다, 제 할당량은 자동으로 보충되지 않습니다."
+				]
+			},
+			"locationDesc": {
+				"eng": "A militarized gift distribution center run by Noel, where Christmas cheer is a tactical operation.",
+				"trans": "노엘이 운영하는 군사화된 선물 배포 센터, 크리스마스 분위기는 전술 작전이다."
+			},
+			"locationName": {
+				"eng": "Noel's Gift Depot",
+				"trans": "노엘의 선물 가게"
+			},
+			"npcName": {
+				"eng": "Noel",
+				"trans": "노엘"
+			},
+			"shopName": {
+				"eng": "Noel",
+				"trans": "노엘"
 			}
 		},
 		"clinic": {
@@ -10929,6 +11115,10 @@
 				"eng": "You cannot attack this player due to alt detection",
 				"trans": "알트 감지 시스템에 의해 이 플레이어는 공격 불가."
 			},
+			"cannotEngageBountyAltConnection": {
+				"eng": "You cannot attack this player due to bounty contributor alt detection",
+				"trans": "보상 기여자 알트 탐지로 인해 이 플레이어를 공격할 수 없습니다."
+			},
 			"cannotEngageInDungeon": {
 				"eng": "You cannot engage in PvP while in a dungeon",
 				"trans": "던전 안에서는 PVP에 참여할 수 없습니다"
@@ -11559,12 +11749,6 @@
 			}
 		}
 	},
-	"solvedMysteriesPage": {
-		"title": {
-			"eng": "Solved Mysteries",
-			"trans": "해결된 미스터리"
-		}
-	},
 	"stat": {
 		"armor": {
 			"eng": "Armor",
@@ -11862,6 +12046,16 @@
 			"name": {
 				"eng": "Loot Increase",
 				"trans": "전리품 증가"
+			}
+		},
+		"muted": {
+			"desc": {
+				"eng": "This player have been muted by the system.",
+				"trans": "이 플레이어는 시스템에 의해 음소거되었습니다."
+			},
+			"name": {
+				"eng": "Muted",
+				"trans": "뮤트"
 			}
 		},
 		"poison": {
@@ -13080,6 +13274,10 @@
 			"giftCode": {
 				"eng": "Gift Code",
 				"trans": "선물 코드"
+			},
+			"investigations": {
+				"eng": "Investigations",
+				"trans": "조사"
 			},
 			"leaderboard": {
 				"eng": "leaderboard",

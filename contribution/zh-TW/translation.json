@@ -334,6 +334,12 @@
 				"trans": "市中心公寓"
 			}
 		},
+		"chat": {
+			"cleared": {
+				"eng": "Apartment chat has been cleared.",
+				"trans": "公寓聊天已清空"
+			}
+		},
 		"enter": {
 			"blocked": {
 				"eng": "This apartment cannot entered at this moment.",
@@ -392,6 +398,24 @@
 		}
 	},
 	"apartmentPage": {
+		"clearChat": {
+			"cancel": {
+				"eng": "cancel",
+				"trans": "取消"
+			},
+			"confirm": {
+				"eng": "clear chat",
+				"trans": "清除聊天"
+			},
+			"title": {
+				"eng": "Clear Chat",
+				"trans": "清除聊天"
+			},
+			"warning": {
+				"eng": "This will permanently delete all messages in your apartment chat. This action cannot be undone.",
+				"trans": "此操作將永久刪除您公寓聊天中的所有訊息，並且不可復原。"
+			}
+		},
 		"kitchenButton": {
 			"error": {
 				"eng": "You must be the owner of the apartment to access the kitchen",
@@ -423,6 +447,14 @@
 			}
 		},
 		"options": {
+			"clearChat": {
+				"eng": "clear chat",
+				"error": {
+					"eng": "The owner of this apartment must add you as a friend for you to send messages in this apartment.",
+					"trans": "這間公寓的主人必須先將你加為好友，才能在此公寓內發送訊息。"
+				},
+				"trans": "清除聊天"
+			},
 			"terminateLease": {
 				"eng": "terminate lease",
 				"trans": "結束租約"
@@ -1461,6 +1493,14 @@
 			}
 		},
 		"error": {
+			"levelRestriction1": {
+				"eng": "You need to be at least level ${level} to send message to global.",
+				"trans": "至少${level}級才能傳送全球訊息。"
+			},
+			"levelRestriction2": {
+				"eng": "You need to be at least level ${level} to send message to global.",
+				"trans": "至少${level}級才能傳送全球訊息。"
+			},
 			"link": {
 				"eng": "Links are not allowed in messages",
 				"trans": "訊息中不允許包含連結"
@@ -1981,6 +2021,10 @@
 		"loading": {
 			"eng": "Loading...",
 			"trans": "載入中…"
+		},
+		"retry": {
+			"eng": "Retry",
+			"trans": "重試"
 		}
 	},
 	"compactRewardConfigDisplay": {
@@ -3694,6 +3738,12 @@
 				}
 			}
 		},
+		"invite": {
+			"restricted": {
+				"eng": "You cannot send gang invites now",
+				"trans": "您現在無法發送幫派邀請"
+			}
+		},
 		"inviteSent": {
 			"eng": "A invite has been sent to ${playerName}",
 			"trans": "已傳送邀請給${playerName}。"
@@ -4096,10 +4146,6 @@
 			"eng": "ACKNOWLEDGE",
 			"trans": "確認"
 		},
-		"allCasesSolved": {
-			"eng": "You have solved all available investigations!",
-			"trans": "你已完成所有可用調查！"
-		},
 		"allCluesCollected": {
 			"eng": "ALL CLUES COLLECTED",
 			"trans": "全部線索已收集"
@@ -4116,17 +4162,9 @@
 			"eng": "ANALYZING EVIDENCE...",
 			"trans": "正在分析證據…"
 		},
-		"caseClosed": {
-			"eng": "Case Closed",
-			"trans": "結案"
-		},
 		"caseId": {
 			"eng": "CASE ID",
 			"trans": "案件編號"
-		},
-		"caseIntro": {
-			"eng": "Case Introduction",
-			"trans": "案件簡介"
 		},
 		"caseResolved": {
 			"eng": "ACPD Case Resolved",
@@ -4231,14 +4269,74 @@
 			"trans": "新增案件"
 		},
 		"noActiveCase": {
-			"short": {
-				"eng": "No active case",
-				"trans": "目前無活躍案件"
+			"header": {
+				"eng": "ACPD INVESTIGATION TERMINAL",
+				"trans": "幻光市警局調查終端"
+			},
+			"intelBody1": {
+				"eng": "This console activates automatically once you capture your first clue.",
+				"trans": "一旦你取得第一條線索，該控制台將自動啟動。"
+			},
+			"intelBody2": {
+				"eng": "Track the entire case from here—clues, summaries, and final verdict submission.",
+				"trans": "從此追蹤整個案件—線索、摘要與最終裁決提交"
+			},
+			"intelHeader": {
+				"eng": "INTEL DISPATCH",
+				"trans": "情報派遣"
+			},
+			"requirement": {
+				"eng": "4 clues required per case",
+				"trans": "每案需四條線索"
+			},
+			"statusInline": {
+				"eng": "Case Slot Open • Permit required to submit verdict",
+				"trans": "案件槽位已開啟 • 提交裁決需持有許可證"
+			},
+			"timelineAcquire": {
+				"desc": {
+					"eng": "Stronghold investigation points feed clues directly into this console.",
+					"trans": "堡壘調查點將線索直接送進此控制台。"
+				},
+				"eng": "Acquire Intel",
+				"trans": "取得情報"
+			},
+			"timelineAssemble": {
+				"desc": {
+					"eng": "Collect all four clues to unlock the verdict authorization rail.",
+					"trans": "收集全部四個線索以解鎖判決授權軌道。"
+				},
+				"eng": "Assemble Evidence",
+				"trans": "彙整證據"
+			},
+			"timelineSubmit": {
+				"desc": {
+					"eng": "Spend one Investigation Access Permit to commit your conclusion.",
+					"trans": "花費一張調查通行證提交結論。"
+				},
+				"eng": "Deliver Verdict",
+				"trans": "宣判"
+			},
+			"tipBody": {
+				"eng": "Tap to open the Investigation field manual and review how cases operate.",
+				"trans": "點擊以開啟調查手冊並查看案件運作方式。"
+			},
+			"tipTitle": {
+				"eng": "Need a briefing?",
+				"trans": "需要簡報嗎？"
+			},
+			"totalSolved": {
+				"eng": "Solved dossiers: ${count}",
+				"trans": "已解決檔案：${count}"
 			}
 		},
 		"noActiveInvestigation": {
 			"eng": "You have no active investigation to abandon.",
 			"trans": "目前沒有可放棄的調查。"
+		},
+		"noCasesAvailable": {
+			"eng": "No investigations available",
+			"trans": "暫無調查"
 		},
 		"noChoices": {
 			"eng": "No choices available",
@@ -4249,8 +4347,8 @@
 			"trans": "提交裁決需要調查通行證。這些可在地牢寶箱中找到。"
 		},
 		"noSolvedCases": {
-			"eng": "You haven't solved any investigations yet. Start investigating!",
-			"trans": "你尚未解決任何調查。立即開始調查吧！"
+			"eng": "No solved cases yet",
+			"trans": "暫無已解決案例"
 		},
 		"notAllCluesCollected": {
 			"eng": "You must collect all clues before solving the case.",
@@ -4272,9 +4370,27 @@
 			"eng": "Please select a conclusion",
 			"trans": "請選擇結論"
 		},
-		"solvedOn": {
-			"eng": "Solved on ${date}",
-			"trans": "已於 ${date} 解決"
+		"solveCasesHint": {
+			"eng": "Complete investigations to see them here",
+			"trans": "完成調查即可在此查看"
+		},
+		"solved": {
+			"eng": "Solved ${time}",
+			"trans": "已解決 ${time}"
+		},
+		"solvedCases": {
+			"description": {
+				"eng": "Review completed cases and revisit final reports.",
+				"trans": "審查已完成的案件並重新查看最終報告"
+			},
+			"header": {
+				"eng": "Solved Investigations Registry",
+				"trans": "已解決調查紀錄"
+			},
+			"solved": {
+				"eng": "solved",
+				"trans": "已解決"
+			}
 		},
 		"submit": {
 			"eng": "Submit Verdict",
@@ -4287,10 +4403,6 @@
 		"submitVerdict": {
 			"eng": "Submit Your Verdict",
 			"trans": "提交判決"
-		},
-		"submitting": {
-			"eng": "Submitting...",
-			"trans": "提交中…"
 		},
 		"systemPrefix": {
 			"eng": "SYS",
@@ -4308,14 +4420,6 @@
 			"eng": "The Full Story",
 			"trans": "完整故事"
 		},
-		"totalSolved": {
-			"eng": "Total Solved: ${count}",
-			"trans": "已解決總數：${count}"
-		},
-		"truthRevealed": {
-			"eng": "The truth has been revealed",
-			"trans": "真相已被揭露"
-		},
 		"verdictImage": {
 			"eng": "Verdict ${num} investigation image",
 			"trans": "調查裁決${num}影像"
@@ -4326,10 +4430,6 @@
 		}
 	},
 	"investigationPendingModal": {
-		"activeCase": {
-			"eng": "Active Case",
-			"trans": "進行中的案件"
-		},
 		"allCluesCollectedMessage": {
 			"eng": "You have collected all evidence for your current investigation. Complete this case before starting a new one.",
 			"trans": "您已收集完本案所有證據。請先完成此案件，再開啟新案件。"
@@ -4768,6 +4868,10 @@
 			"eng": "Enemy drop",
 			"trans": "敵人掉落"
 		},
+		"eventDrop": {
+			"eng": "${eventName} event drop",
+			"trans": "${eventName} 活動掉落"
+		},
 		"intelligenceContract": {
 			"eng": "Intelligence Contract",
 			"trans": "情報合約"
@@ -5160,6 +5264,16 @@
 				"trans": "校準穩定器"
 			}
 		},
+		"christmasEliteKey": {
+			"description": {
+				"eng": "A tactical key required to unlock Noel's Elite Crate. Only available from Noel herself.",
+				"trans": "解鎖 Noel 精英箱所需的戰術鑰匙。僅可從 Noel 本人處取得。"
+			},
+			"name": {
+				"eng": "Elite Crate",
+				"trans": "精英箱"
+			}
+		},
 		"christmasLootBox": {
 			"description": {
 				"eng": "Event container that contains various rewards, can only be unlocked during December.",
@@ -5168,6 +5282,26 @@
 			"name": {
 				"eng": "Christmas Container",
 				"trans": "聖誕節容器"
+			}
+		},
+		"christmasLootBoxElite": {
+			"description": {
+				"eng": "A premium Christmas container reserved for the most valuable rewards. Only the worthy receive Noel's elite gifts.",
+				"trans": "高級聖誕容器，專為最珍貴獎勵保留。唯有值得者才可領取諾艾爾的精英禮物。"
+			},
+			"name": {
+				"eng": "Noel's Elite Crate",
+				"trans": "諾艾爾的精英箱"
+			}
+		},
+		"christmasToken": {
+			"description": {
+				"eng": "A token that can be used to unlock a Christmas container.",
+				"trans": "可用於解鎖聖誕箱的代幣"
+			},
+			"name": {
+				"eng": "Christmas Token",
+				"trans": "聖誕代幣"
 			}
 		},
 		"clanMaintenanceResource": {
@@ -7485,8 +7619,8 @@
 	},
 	"mailTab": {
 		"empty": {
-			"eng": "currently you don\\'t have any chat",
-			"trans": "目前沒有聊天資訊。"
+			"eng": "currently you don't have any chat",
+			"trans": "目前沒有任何聊天"
 		}
 	},
 	"mails": {
@@ -8819,6 +8953,24 @@
 			}
 		}
 	},
+	"mutedMessage": {
+		"contact": {
+			"eng": "If you have any questions, please contact us at ${email}",
+			"trans": "若您有任何問題，請透過 ${email} 聯絡我們"
+		},
+		"description": {
+			"eng": "Your account has been muted by the SYSTEM. You are temporarily unable to send messages or mails.",
+			"trans": "您的帳號已被系統禁言，暫時無法發送訊息或郵件。"
+		},
+		"timeRemaining": {
+			"eng": "Time remaining: ${time}",
+			"trans": "剩餘時間：${time}"
+		},
+		"title": {
+			"eng": "Account Muted",
+			"trans": "帳號已禁言"
+		}
+	},
 	"newsCard": {
 		"new": {
 			"eng": "NEW",
@@ -9170,6 +9322,40 @@
 			"tipBox": {
 				"eng": "You can sell your items here to other players, or buy items from other players.",
 				"trans": "您可以在這裡將物品賣給其他玩家，或是向其他玩家購買物品。"
+			}
+		},
+		"christmas": {
+			"greetings": {
+				"eng": [
+					"呵呵呵…這就是他們的期望。我更喜歡直接切入主題。",
+					"你在好人榜上嗎？最好確定，否則事態將變得複雜。",
+					"聖誕節氛圍必須到位，遵守不容協商。",
+					"禮物交換是一項戰術行動。你準備好了嗎？",
+					"又有客戶。好，我的配額不會自己補滿。"
+				],
+				"trans": [
+					"呵呵呵…這就是他們的期望。我更喜歡直接切入主題。",
+					"你在好人榜上嗎？最好確定，否則事態將變得複雜。",
+					"聖誕節氛圍必須到位，遵守不容協商。",
+					"禮物交換是一項戰術行動。你準備好了嗎？",
+					"又有客戶。好，我的配額不會自己補滿。"
+				]
+			},
+			"locationDesc": {
+				"eng": "A militarized gift distribution center run by Noel, where Christmas cheer is a tactical operation.",
+				"trans": "由 Noel 管理的軍事化禮物配送中心，聖誕歡樂被視為戰術行動。"
+			},
+			"locationName": {
+				"eng": "Noel's Gift Depot",
+				"trans": "Noel 的禮品倉庫"
+			},
+			"npcName": {
+				"eng": "Noel",
+				"trans": "諾艾爾"
+			},
+			"shopName": {
+				"eng": "Noel",
+				"trans": "諾艾爾"
 			}
 		},
 		"clinic": {
@@ -10929,6 +11115,10 @@
 				"eng": "You cannot attack this player due to alt detection",
 				"trans": "系統判定此玩家為分身，你無法攻擊。"
 			},
+			"cannotEngageBountyAltConnection": {
+				"eng": "You cannot attack this player due to bounty contributor alt detection",
+				"trans": "因為偵測到此玩家是懸賞貢獻者的替代帳號，您無法攻擊他。"
+			},
 			"cannotEngageInDungeon": {
 				"eng": "You cannot engage in PvP while in a dungeon",
 				"trans": "在地下城中無法進行PvP戰鬥"
@@ -11559,12 +11749,6 @@
 			}
 		}
 	},
-	"solvedMysteriesPage": {
-		"title": {
-			"eng": "Solved Mysteries",
-			"trans": "已破解的謎題"
-		}
-	},
 	"stat": {
 		"armor": {
 			"eng": "Armor",
@@ -11862,6 +12046,16 @@
 			"name": {
 				"eng": "Loot Increase",
 				"trans": "戰利品增加"
+			}
+		},
+		"muted": {
+			"desc": {
+				"eng": "This player have been muted by the system.",
+				"trans": "此玩家已被系統禁言。"
+			},
+			"name": {
+				"eng": "Muted",
+				"trans": "靜音"
 			}
 		},
 		"poison": {
@@ -13080,6 +13274,10 @@
 			"giftCode": {
 				"eng": "Gift Code",
 				"trans": "優惠碼"
+			},
+			"investigations": {
+				"eng": "Investigations",
+				"trans": "調查"
 			},
 			"leaderboard": {
 				"eng": "leaderboard",

@@ -334,6 +334,12 @@
 				"trans": "Byt v centru"
 			}
 		},
+		"chat": {
+			"cleared": {
+				"eng": "Apartment chat has been cleared.",
+				"trans": "Chat bytu byl vymazán."
+			}
+		},
 		"enter": {
 			"blocked": {
 				"eng": "This apartment cannot entered at this moment.",
@@ -392,6 +398,24 @@
 		}
 	},
 	"apartmentPage": {
+		"clearChat": {
+			"cancel": {
+				"eng": "cancel",
+				"trans": "Zrušit"
+			},
+			"confirm": {
+				"eng": "clear chat",
+				"trans": "Vymazat chat"
+			},
+			"title": {
+				"eng": "Clear Chat",
+				"trans": "Vyčistit chat"
+			},
+			"warning": {
+				"eng": "This will permanently delete all messages in your apartment chat. This action cannot be undone.",
+				"trans": "Toto trvale smaže všechny zprávy ve vašem bytovém chatu. Akci nelze vrátit."
+			}
+		},
 		"kitchenButton": {
 			"error": {
 				"eng": "You must be the owner of the apartment to access the kitchen",
@@ -423,6 +447,14 @@
 			}
 		},
 		"options": {
+			"clearChat": {
+				"eng": "clear chat",
+				"error": {
+					"eng": "The owner of this apartment must add you as a friend for you to send messages in this apartment.",
+					"trans": "Vlastník tohoto bytu musí přidat vás jako přítele, abyste mohli posílat zprávy v tomto bytě."
+				},
+				"trans": "Vymazat chat"
+			},
 			"terminateLease": {
 				"eng": "terminate lease",
 				"trans": "ukončit pronájem"
@@ -1461,6 +1493,14 @@
 			}
 		},
 		"error": {
+			"levelRestriction1": {
+				"eng": "You need to be at least level ${level} to send message to global.",
+				"trans": "Musíte být alespoň na úrovni ${level}, abyste mohli poslat zprávu do globálního chatu."
+			},
+			"levelRestriction2": {
+				"eng": "You need to be at least level ${level} to send message to global.",
+				"trans": "Musíte být alespoň na úrovni ${level}, abyste mohli poslat zprávu do globálního chatu."
+			},
 			"link": {
 				"eng": "Links are not allowed in messages",
 				"trans": "Ve zprávách nejsou odkazy povolené."
@@ -1981,6 +2021,10 @@
 		"loading": {
 			"eng": "Loading...",
 			"trans": "Načítání..."
+		},
+		"retry": {
+			"eng": "Retry",
+			"trans": "Opakovat"
 		}
 	},
 	"compactRewardConfigDisplay": {
@@ -3694,6 +3738,12 @@
 				}
 			}
 		},
+		"invite": {
+			"restricted": {
+				"eng": "You cannot send gang invites now",
+				"trans": "Nemůžete nyní posílat pozvánky do gangu."
+			}
+		},
 		"inviteSent": {
 			"eng": "A invite has been sent to ${playerName}",
 			"trans": "Pozvánka byla odeslána hráči ${playerName}"
@@ -4096,10 +4146,6 @@
 			"eng": "ACKNOWLEDGE",
 			"trans": "Potvrdit"
 		},
-		"allCasesSolved": {
-			"eng": "You have solved all available investigations!",
-			"trans": "Vyřešili jste všechna dostupná vyšetřování!"
-		},
 		"allCluesCollected": {
 			"eng": "ALL CLUES COLLECTED",
 			"trans": "Všechny stopy shromážděny"
@@ -4116,17 +4162,9 @@
 			"eng": "ANALYZING EVIDENCE...",
 			"trans": "Analyzování důkazů..."
 		},
-		"caseClosed": {
-			"eng": "Case Closed",
-			"trans": "Případ uzavřen"
-		},
 		"caseId": {
 			"eng": "CASE ID",
 			"trans": "ID případu"
-		},
-		"caseIntro": {
-			"eng": "Case Introduction",
-			"trans": "Úvod do případu"
 		},
 		"caseResolved": {
 			"eng": "ACPD Case Resolved",
@@ -4231,14 +4269,74 @@
 			"trans": "Nový případ"
 		},
 		"noActiveCase": {
-			"short": {
-				"eng": "No active case",
-				"trans": "Žádný aktivní případ"
+			"header": {
+				"eng": "ACPD INVESTIGATION TERMINAL",
+				"trans": "Vyšetřovací terminál ACPD"
+			},
+			"intelBody1": {
+				"eng": "This console activates automatically once you capture your first clue.",
+				"trans": "Tato konzole se automaticky aktivuje, jakmile zachytíš první stopu."
+			},
+			"intelBody2": {
+				"eng": "Track the entire case from here—clues, summaries, and final verdict submission.",
+				"trans": "Sledujte celý případ odtud – stopy, shrnutí a podání konečného rozsudku."
+			},
+			"intelHeader": {
+				"eng": "INTEL DISPATCH",
+				"trans": "Rozeslat informace"
+			},
+			"requirement": {
+				"eng": "4 clues required per case",
+				"trans": "Případ vyžaduje 4 stopy"
+			},
+			"statusInline": {
+				"eng": "Case Slot Open • Permit required to submit verdict",
+				"trans": "Případový slot otevřen • K podání rozsudku je potřeba povolení"
+			},
+			"timelineAcquire": {
+				"desc": {
+					"eng": "Stronghold investigation points feed clues directly into this console.",
+					"trans": "Vyšetřovací body pevnosti přímo přivádějí stopy do této konzoly."
+				},
+				"eng": "Acquire Intel",
+				"trans": "Získat informace"
+			},
+			"timelineAssemble": {
+				"desc": {
+					"eng": "Collect all four clues to unlock the verdict authorization rail.",
+					"trans": "Shromážděte všechny čtyři stopy, abyste odemkli dráhu autorizace rozsudku."
+				},
+				"eng": "Assemble Evidence",
+				"trans": "Shromáždit důkazy"
+			},
+			"timelineSubmit": {
+				"desc": {
+					"eng": "Spend one Investigation Access Permit to commit your conclusion.",
+					"trans": "Použijte jeden průkaz pro přístup k vyšetřování a potvrďte svůj závěr."
+				},
+				"eng": "Deliver Verdict",
+				"trans": "Vydat rozsudek"
+			},
+			"tipBody": {
+				"eng": "Tap to open the Investigation field manual and review how cases operate.",
+				"trans": "Klepněte pro otevření manuálu vyšetřování a přečtěte si, jak případy fungují."
+			},
+			"tipTitle": {
+				"eng": "Need a briefing?",
+				"trans": "Chcete briefing?"
+			},
+			"totalSolved": {
+				"eng": "Solved dossiers: ${count}",
+				"trans": "Vyřešené složky: ${count}"
 			}
 		},
 		"noActiveInvestigation": {
 			"eng": "You have no active investigation to abandon.",
 			"trans": "Nemáte žádné aktivní vyšetřování, které byste mohli opustit."
+		},
+		"noCasesAvailable": {
+			"eng": "No investigations available",
+			"trans": "Nejsou k dispozici žádná vyšetřování."
 		},
 		"noChoices": {
 			"eng": "No choices available",
@@ -4249,8 +4347,8 @@
 			"trans": "Pro podání rozsudku je potřeba povolení pro přístup k vyšetřování. Najdete je v truhlách dungeonu."
 		},
 		"noSolvedCases": {
-			"eng": "You haven't solved any investigations yet. Start investigating!",
-			"trans": "Dosud jste nevyřešili žádné vyšetřování. Začněte vyšetřovat!"
+			"eng": "No solved cases yet",
+			"trans": "Zatím žádné vyřešené případy"
 		},
 		"notAllCluesCollected": {
 			"eng": "You must collect all clues before solving the case.",
@@ -4272,9 +4370,27 @@
 			"eng": "Please select a conclusion",
 			"trans": "Prosím vyberte závěr"
 		},
-		"solvedOn": {
-			"eng": "Solved on ${date}",
-			"trans": "Vyřešeno dne ${date}"
+		"solveCasesHint": {
+			"eng": "Complete investigations to see them here",
+			"trans": "Dokončete vyšetřování a uvidíte je zde."
+		},
+		"solved": {
+			"eng": "Solved ${time}",
+			"trans": "Vyřešeno ${time}"
+		},
+		"solvedCases": {
+			"description": {
+				"eng": "Review completed cases and revisit final reports.",
+				"trans": "Zkontrolujte ukončené případy a přehodnoťte konečné zprávy."
+			},
+			"header": {
+				"eng": "Solved Investigations Registry",
+				"trans": "Registr vyřešených vyšetřování"
+			},
+			"solved": {
+				"eng": "solved",
+				"trans": "Vyřešeno"
+			}
 		},
 		"submit": {
 			"eng": "Submit Verdict",
@@ -4287,10 +4403,6 @@
 		"submitVerdict": {
 			"eng": "Submit Your Verdict",
 			"trans": "Odeslat rozhodnutí"
-		},
-		"submitting": {
-			"eng": "Submitting...",
-			"trans": "Odesílání…"
 		},
 		"systemPrefix": {
 			"eng": "SYS",
@@ -4308,14 +4420,6 @@
 			"eng": "The Full Story",
 			"trans": "Celý příběh"
 		},
-		"totalSolved": {
-			"eng": "Total Solved: ${count}",
-			"trans": "Celkem vyřešeno: ${count}"
-		},
-		"truthRevealed": {
-			"eng": "The truth has been revealed",
-			"trans": "Pravda byla odhalena"
-		},
 		"verdictImage": {
 			"eng": "Verdict ${num} investigation image",
 			"trans": "Rozhodnutí ${num} – obrázek vyšetřování"
@@ -4326,10 +4430,6 @@
 		}
 	},
 	"investigationPendingModal": {
-		"activeCase": {
-			"eng": "Active Case",
-			"trans": "Aktivní případ"
-		},
 		"allCluesCollectedMessage": {
 			"eng": "You have collected all evidence for your current investigation. Complete this case before starting a new one.",
 			"trans": "Shromáždili jste veškerý důkaz pro aktuální vyšetřování. Dokončete tento případ před zahájením nového."
@@ -4768,6 +4868,10 @@
 			"eng": "Enemy drop",
 			"trans": "Drop nepřítele"
 		},
+		"eventDrop": {
+			"eng": "${eventName} event drop",
+			"trans": "Drop z události ${eventName}"
+		},
 		"intelligenceContract": {
 			"eng": "Intelligence Contract",
 			"trans": "Inteligence Smlouva"
@@ -5160,6 +5264,16 @@
 				"trans": "Kalibrační stabilizátor"
 			}
 		},
+		"christmasEliteKey": {
+			"description": {
+				"eng": "A tactical key required to unlock Noel's Elite Crate. Only available from Noel herself.",
+				"trans": "Taktický klíč potřebný pro odemčení Noelovy elitní krabice. Dostupný pouze u samotné Noely."
+			},
+			"name": {
+				"eng": "Elite Crate",
+				"trans": "Elitní krabice"
+			}
+		},
 		"christmasLootBox": {
 			"description": {
 				"eng": "Event container that contains various rewards, can only be unlocked during December.",
@@ -5168,6 +5282,26 @@
 			"name": {
 				"eng": "Christmas Container",
 				"trans": "Vánoční kontejner"
+			}
+		},
+		"christmasLootBoxElite": {
+			"description": {
+				"eng": "A premium Christmas container reserved for the most valuable rewards. Only the worthy receive Noel's elite gifts.",
+				"trans": "Prémiový vánoční kontejner určený pro nejcennější odměny. Pouze ti, kteří si to zaslouží, dostanou Noelovy elitní dary."
+			},
+			"name": {
+				"eng": "Noel's Elite Crate",
+				"trans": "Elitní krabice Noela"
+			}
+		},
+		"christmasToken": {
+			"description": {
+				"eng": "A token that can be used to unlock a Christmas container.",
+				"trans": "Žeton, který lze použít k odemčení vánočního kontejneru."
+			},
+			"name": {
+				"eng": "Christmas Token",
+				"trans": "Vánoční token"
 			}
 		},
 		"clanMaintenanceResource": {
@@ -7485,7 +7619,7 @@
 	},
 	"mailTab": {
 		"empty": {
-			"eng": "currently you don\\'t have any chat",
+			"eng": "currently you don't have any chat",
 			"trans": "Momentálně nemáte žádný chat."
 		}
 	},
@@ -8819,6 +8953,24 @@
 			}
 		}
 	},
+	"mutedMessage": {
+		"contact": {
+			"eng": "If you have any questions, please contact us at ${email}",
+			"trans": "V případě dotazů nás prosím kontaktujte na ${email}."
+		},
+		"description": {
+			"eng": "Your account has been muted by the SYSTEM. You are temporarily unable to send messages or mails.",
+			"trans": "Váš účet byl ztlumen SYSTÉMEM. Dočasně nemůžete posílat zprávy ani poštu."
+		},
+		"timeRemaining": {
+			"eng": "Time remaining: ${time}",
+			"trans": "Zbývající čas: ${time}"
+		},
+		"title": {
+			"eng": "Account Muted",
+			"trans": "Účet ztišen"
+		}
+	},
 	"newsCard": {
 		"new": {
 			"eng": "NEW",
@@ -9170,6 +9322,40 @@
 			"tipBox": {
 				"eng": "You can sell your items here to other players, or buy items from other players.",
 				"trans": "Můžete zde prodávat své předměty ostatním hráčům nebo je od nich kupovat."
+			}
+		},
+		"christmas": {
+			"greetings": {
+				"eng": [
+					"Ha… To je přesně to, co chtějí. Líbí se mi upřímnost.",
+					"Ověřte, že jste zadali bonusy ve svém seznamu. Pokud ne, situace se zhorší.",
+					"Vánoční atmosféra je požadavek a musí být zachována.",
+					"Výměna railgunu – Taktická operace: už jsi to udělal?",
+					"Jiní už přišli, není problém. Kvóta nevyprší automaticky."
+				],
+				"trans": [
+					"Ha… To je přesně to, co chtějí. Líbí se mi upřímnost.",
+					"Ověřte, že jste zadali bonusy ve svém seznamu. Pokud ne, situace se zhorší.",
+					"Vánoční atmosféra je požadavek a musí být zachována.",
+					"Výměna railgunu – Taktická operace: už jsi to udělal?",
+					"Jiní už přišli, není problém. Kvóta nevyprší automaticky."
+				]
+			},
+			"locationDesc": {
+				"eng": "A militarized gift distribution center run by Noel, where Christmas cheer is a tactical operation.",
+				"trans": "Militarizované centrum rozdělování dárků pod vedením Noela, kde je vánoční radost taktickou operací."
+			},
+			"locationName": {
+				"eng": "Noel's Gift Depot",
+				"trans": "Depo dárků Noela"
+			},
+			"npcName": {
+				"eng": "Noel",
+				"trans": "Noel"
+			},
+			"shopName": {
+				"eng": "Noel",
+				"trans": "Noel"
 			}
 		},
 		"clinic": {
@@ -10929,6 +11115,10 @@
 				"eng": "You cannot attack this player due to alt detection",
 				"trans": "Nelze útočit na tohoto hráče kvůli detekci altu."
 			},
+			"cannotEngageBountyAltConnection": {
+				"eng": "You cannot attack this player due to bounty contributor alt detection",
+				"trans": "Nelze útočit na tohoto hráče – byl rozpoznán jako alt účtu bounty přispěvatele."
+			},
 			"cannotEngageInDungeon": {
 				"eng": "You cannot engage in PvP while in a dungeon",
 				"trans": "PvP není povoleno, pokud se nacházíte v dungeoně."
@@ -11559,12 +11749,6 @@
 			}
 		}
 	},
-	"solvedMysteriesPage": {
-		"title": {
-			"eng": "Solved Mysteries",
-			"trans": "Vyřešené záhady"
-		}
-	},
 	"stat": {
 		"armor": {
 			"eng": "Armor",
@@ -11862,6 +12046,16 @@
 			"name": {
 				"eng": "Loot Increase",
 				"trans": "Zvýšení lootu"
+			}
+		},
+		"muted": {
+			"desc": {
+				"eng": "This player have been muted by the system.",
+				"trans": "Tento hráč byl umlčen systémem."
+			},
+			"name": {
+				"eng": "Muted",
+				"trans": "Ztlumený"
 			}
 		},
 		"poison": {
@@ -13080,6 +13274,10 @@
 			"giftCode": {
 				"eng": "Gift Code",
 				"trans": "Dárkový kód"
+			},
+			"investigations": {
+				"eng": "Investigations",
+				"trans": "Vyšetřování"
 			},
 			"leaderboard": {
 				"eng": "leaderboard",

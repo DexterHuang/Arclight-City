@@ -334,6 +334,12 @@
 				"trans": "Квартира в центре города"
 			}
 		},
+		"chat": {
+			"cleared": {
+				"eng": "Apartment chat has been cleared.",
+				"trans": "Чат квартиры очищен."
+			}
+		},
 		"enter": {
 			"blocked": {
 				"eng": "This apartment cannot entered at this moment.",
@@ -392,6 +398,24 @@
 		}
 	},
 	"apartmentPage": {
+		"clearChat": {
+			"cancel": {
+				"eng": "cancel",
+				"trans": "Отмена"
+			},
+			"confirm": {
+				"eng": "clear chat",
+				"trans": "Очистить чат"
+			},
+			"title": {
+				"eng": "Clear Chat",
+				"trans": "Очистить чат"
+			},
+			"warning": {
+				"eng": "This will permanently delete all messages in your apartment chat. This action cannot be undone.",
+				"trans": "Эта операция безвозвратно удалит все сообщения в чате вашей квартиры. Действие нельзя отменить."
+			}
+		},
 		"kitchenButton": {
 			"error": {
 				"eng": "You must be the owner of the apartment to access the kitchen",
@@ -423,6 +447,14 @@
 			}
 		},
 		"options": {
+			"clearChat": {
+				"eng": "clear chat",
+				"error": {
+					"eng": "The owner of this apartment must add you as a friend for you to send messages in this apartment.",
+					"trans": "Владелец этой квартиры должен добавить вас в друзья, чтобы вы могли отправлять сообщения в ней."
+				},
+				"trans": "Очистить чат"
+			},
 			"terminateLease": {
 				"eng": "terminate lease",
 				"trans": "Деактивировать договор"
@@ -1461,6 +1493,14 @@
 			}
 		},
 		"error": {
+			"levelRestriction1": {
+				"eng": "You need to be at least level ${level} to send message to global.",
+				"trans": "Для отправки сообщения в глобальном чате требуется минимум уровень ${level}."
+			},
+			"levelRestriction2": {
+				"eng": "You need to be at least level ${level} to send message to global.",
+				"trans": "Для отправки сообщения в глобальном чате требуется минимум уровень ${level}."
+			},
 			"link": {
 				"eng": "Links are not allowed in messages",
 				"trans": "Ссылки не разрешены в сообщениях"
@@ -1981,6 +2021,10 @@
 		"loading": {
 			"eng": "Loading...",
 			"trans": "Загрузка..."
+		},
+		"retry": {
+			"eng": "Retry",
+			"trans": "Повторить"
 		}
 	},
 	"compactRewardConfigDisplay": {
@@ -3694,6 +3738,12 @@
 				}
 			}
 		},
+		"invite": {
+			"restricted": {
+				"eng": "You cannot send gang invites now",
+				"trans": "Вы не можете сейчас отправлять приглашения в банду."
+			}
+		},
 		"inviteSent": {
 			"eng": "A invite has been sent to ${playerName}",
 			"trans": "Приглашение было отправлено игроку ${playerName}"
@@ -4096,10 +4146,6 @@
 			"eng": "ACKNOWLEDGE",
 			"trans": "Подтвердить"
 		},
-		"allCasesSolved": {
-			"eng": "You have solved all available investigations!",
-			"trans": "Вы решили все доступные расследования!"
-		},
 		"allCluesCollected": {
 			"eng": "ALL CLUES COLLECTED",
 			"trans": "Все улики собраны"
@@ -4116,17 +4162,9 @@
 			"eng": "ANALYZING EVIDENCE...",
 			"trans": "Анализируем доказательства…"
 		},
-		"caseClosed": {
-			"eng": "Case Closed",
-			"trans": "Дело закрыто"
-		},
 		"caseId": {
 			"eng": "CASE ID",
 			"trans": "ID дела"
-		},
-		"caseIntro": {
-			"eng": "Case Introduction",
-			"trans": "Введение в дело"
 		},
 		"caseResolved": {
 			"eng": "ACPD Case Resolved",
@@ -4231,14 +4269,74 @@
 			"trans": "Новое дело"
 		},
 		"noActiveCase": {
-			"short": {
-				"eng": "No active case",
-				"trans": "Нет активного дела"
+			"header": {
+				"eng": "ACPD INVESTIGATION TERMINAL",
+				"trans": "Терминал расследований ACPD"
+			},
+			"intelBody1": {
+				"eng": "This console activates automatically once you capture your first clue.",
+				"trans": "Эта консоль автоматически активируется после того, как вы получите первый след."
+			},
+			"intelBody2": {
+				"eng": "Track the entire case from here—clues, summaries, and final verdict submission.",
+				"trans": "Отслеживайте всё дело здесь — улики, резюме и подача окончательного вердикта."
+			},
+			"intelHeader": {
+				"eng": "INTEL DISPATCH",
+				"trans": "Данные разведки"
+			},
+			"requirement": {
+				"eng": "4 clues required per case",
+				"trans": "Для каждого случая требуется четыре подсказки"
+			},
+			"statusInline": {
+				"eng": "Case Slot Open • Permit required to submit verdict",
+				"trans": "Слот дела открыт • Требуется разрешение для подачи вердикта"
+			},
+			"timelineAcquire": {
+				"desc": {
+					"eng": "Stronghold investigation points feed clues directly into this console.",
+					"trans": "Точки расследования Stronghold сразу передают улики в эту консоль."
+				},
+				"eng": "Acquire Intel",
+				"trans": "Получить разведку"
+			},
+			"timelineAssemble": {
+				"desc": {
+					"eng": "Collect all four clues to unlock the verdict authorization rail.",
+					"trans": "Соберите все четыре подсказки, чтобы разблокировать шину авторизации вердикта."
+				},
+				"eng": "Assemble Evidence",
+				"trans": "Собрать доказательства"
+			},
+			"timelineSubmit": {
+				"desc": {
+					"eng": "Spend one Investigation Access Permit to commit your conclusion.",
+					"trans": "Используйте одно разрешение доступа к расследованиям, чтобы завершить свой вывод."
+				},
+				"eng": "Deliver Verdict",
+				"trans": "Подать вердикт"
+			},
+			"tipBody": {
+				"eng": "Tap to open the Investigation field manual and review how cases operate.",
+				"trans": "Нажмите, чтобы открыть руководство по расследованиям и изучить, как работают дела."
+			},
+			"tipTitle": {
+				"eng": "Need a briefing?",
+				"trans": "Нужен брифинг?"
+			},
+			"totalSolved": {
+				"eng": "Solved dossiers: ${count}",
+				"trans": "Решённые досье: ${count}"
 			}
 		},
 		"noActiveInvestigation": {
 			"eng": "You have no active investigation to abandon.",
 			"trans": "Никакого активного расследования для отмены."
+		},
+		"noCasesAvailable": {
+			"eng": "No investigations available",
+			"trans": "Нет доступных расследований"
 		},
 		"noChoices": {
 			"eng": "No choices available",
@@ -4249,8 +4347,8 @@
 			"trans": "Для подачи вердикта требуется разрешение доступа к расследованиям. Их можно найти в сундуках подземелий."
 		},
 		"noSolvedCases": {
-			"eng": "You haven't solved any investigations yet. Start investigating!",
-			"trans": "Вы ещё не решили ни одного расследования. Начните расследовать!"
+			"eng": "No solved cases yet",
+			"trans": "Решённых дел пока нет."
 		},
 		"notAllCluesCollected": {
 			"eng": "You must collect all clues before solving the case.",
@@ -4272,9 +4370,27 @@
 			"eng": "Please select a conclusion",
 			"trans": "Выберите заключение, пожалуйста."
 		},
-		"solvedOn": {
-			"eng": "Solved on ${date}",
-			"trans": "Решено ${date}"
+		"solveCasesHint": {
+			"eng": "Complete investigations to see them here",
+			"trans": "Завершите расследования, чтобы увидеть их здесь"
+		},
+		"solved": {
+			"eng": "Solved ${time}",
+			"trans": "Решено за ${time}"
+		},
+		"solvedCases": {
+			"description": {
+				"eng": "Review completed cases and revisit final reports.",
+				"trans": "Проверьте завершённые дела и пересмотрите окончательные отчёты."
+			},
+			"header": {
+				"eng": "Solved Investigations Registry",
+				"trans": "Реестр решённых расследований"
+			},
+			"solved": {
+				"eng": "solved",
+				"trans": "Решено"
+			}
 		},
 		"submit": {
 			"eng": "Submit Verdict",
@@ -4287,10 +4403,6 @@
 		"submitVerdict": {
 			"eng": "Submit Your Verdict",
 			"trans": "Отправить вердикт"
-		},
-		"submitting": {
-			"eng": "Submitting...",
-			"trans": "Отправка..."
 		},
 		"systemPrefix": {
 			"eng": "SYS",
@@ -4308,14 +4420,6 @@
 			"eng": "The Full Story",
 			"trans": "Полная история"
 		},
-		"totalSolved": {
-			"eng": "Total Solved: ${count}",
-			"trans": "Всего решено: ${count}"
-		},
-		"truthRevealed": {
-			"eng": "The truth has been revealed",
-			"trans": "Правда раскрыта."
-		},
 		"verdictImage": {
 			"eng": "Verdict ${num} investigation image",
 			"trans": "Вердикт ${num} – изображение расследования"
@@ -4326,10 +4430,6 @@
 		}
 	},
 	"investigationPendingModal": {
-		"activeCase": {
-			"eng": "Active Case",
-			"trans": "Текущий кейс"
-		},
 		"allCluesCollectedMessage": {
 			"eng": "You have collected all evidence for your current investigation. Complete this case before starting a new one.",
 			"trans": "Вы собрали все доказательства по текущему расследованию. Завершите дело, прежде чем начать новое."
@@ -4768,6 +4868,10 @@
 			"eng": "Enemy drop",
 			"trans": "Падение врага"
 		},
+		"eventDrop": {
+			"eng": "${eventName} event drop",
+			"trans": "${eventName} выпадающие предметы"
+		},
 		"intelligenceContract": {
 			"eng": "Intelligence Contract",
 			"trans": "white the best translation here and nothing else"
@@ -5160,6 +5264,16 @@
 				"trans": "Калибровочный стабилизатор"
 			}
 		},
+		"christmasEliteKey": {
+			"description": {
+				"eng": "A tactical key required to unlock Noel's Elite Crate. Only available from Noel herself.",
+				"trans": "Тактический ключ, необходимый для открытия элитного ящика Ноуэла. Доступен только у самой Ноуэла."
+			},
+			"name": {
+				"eng": "Elite Crate",
+				"trans": "Элитный Ящик"
+			}
+		},
 		"christmasLootBox": {
 			"description": {
 				"eng": "Event container that contains various rewards, can only be unlocked during December.",
@@ -5168,6 +5282,26 @@
 			"name": {
 				"eng": "Christmas Container",
 				"trans": "Рождественский контейнер"
+			}
+		},
+		"christmasLootBoxElite": {
+			"description": {
+				"eng": "A premium Christmas container reserved for the most valuable rewards. Only the worthy receive Noel's elite gifts.",
+				"trans": "Премиальный рождественский контейнер для самых ценных наград. Только достойные получат элитные подарки Ноля."
+			},
+			"name": {
+				"eng": "Noel's Elite Crate",
+				"trans": "Элитный ящик Ноэля"
+			}
+		},
+		"christmasToken": {
+			"description": {
+				"eng": "A token that can be used to unlock a Christmas container.",
+				"trans": "Токен, который можно использовать для разблокировки рождественского контейнера."
+			},
+			"name": {
+				"eng": "Christmas Token",
+				"trans": "Рождественский токен"
 			}
 		},
 		"clanMaintenanceResource": {
@@ -7485,8 +7619,8 @@
 	},
 	"mailTab": {
 		"empty": {
-			"eng": "currently you don\\'t have any chat",
-			"trans": "в данный момент у вас нет никаких чатов"
+			"eng": "currently you don't have any chat",
+			"trans": "Пока чатов нет"
 		}
 	},
 	"mails": {
@@ -8819,6 +8953,24 @@
 			}
 		}
 	},
+	"mutedMessage": {
+		"contact": {
+			"eng": "If you have any questions, please contact us at ${email}",
+			"trans": "Если у вас возникнут вопросы, свяжитесь с нами по адресу ${email}"
+		},
+		"description": {
+			"eng": "Your account has been muted by the SYSTEM. You are temporarily unable to send messages or mails.",
+			"trans": "Ваш аккаунт был замьючен СИСТЕМОЙ. На данный момент вы не можете отправлять сообщения или письма."
+		},
+		"timeRemaining": {
+			"eng": "Time remaining: ${time}",
+			"trans": "Время осталось: ${time}"
+		},
+		"title": {
+			"eng": "Account Muted",
+			"trans": "Аккаунт замьючен"
+		}
+	},
 	"newsCard": {
 		"new": {
 			"eng": "NEW",
@@ -9170,6 +9322,40 @@
 			"tipBox": {
 				"eng": "You can sell your items here to other players, or buy items from other players.",
 				"trans": "Здесь вы можете продавать свои предметы другим игрокам или покупать предметы у других игроков."
+			}
+		},
+		"christmas": {
+			"greetings": {
+				"eng": [
+					"Хехе… Это именно то, что они хотят. Я предпочитаю быть честным.",
+					"Проверь свою регистрацию в списке добрых людей. Иначе ситуация усложнится.",
+					"Рождественская атмосфера обязательна и должна поддерживаться.",
+					"Обмен наградами – это тактическая операция. Готов?",
+					"Другие клиенты уже прибыли. Хорошо, моя квота не будет завершена автоматически."
+				],
+				"trans": [
+					"Хехе… Это именно то, что они хотят. Я предпочитаю быть честным.",
+					"Проверь свою регистрацию в списке добрых людей. Иначе ситуация усложнится.",
+					"Рождественская атмосфера обязательна и должна поддерживаться.",
+					"Обмен наградами – это тактическая операция. Готов?",
+					"Другие клиенты уже прибыли. Хорошо, моя квота не будет завершена автоматически."
+				]
+			},
+			"locationDesc": {
+				"eng": "A militarized gift distribution center run by Noel, where Christmas cheer is a tactical operation.",
+				"trans": "Милитаризованный центр распределения подарков под управлением Ноэля, где рождественское настроение — тактическая операция."
+			},
+			"locationName": {
+				"eng": "Noel's Gift Depot",
+				"trans": "Депо подарков Нойеля"
+			},
+			"npcName": {
+				"eng": "Noel",
+				"trans": "Ноэль"
+			},
+			"shopName": {
+				"eng": "Noel",
+				"trans": "Ноэль"
 			}
 		},
 		"clinic": {
@@ -10929,6 +11115,10 @@
 				"eng": "You cannot attack this player due to alt detection",
 				"trans": "Нельзя атаковать. Альт-детект."
 			},
+			"cannotEngageBountyAltConnection": {
+				"eng": "You cannot attack this player due to bounty contributor alt detection",
+				"trans": "Вы не можете атаковать этого игрока — обнаружен альт‑аккаунт участника по наградам."
+			},
 			"cannotEngageInDungeon": {
 				"eng": "You cannot engage in PvP while in a dungeon",
 				"trans": "Вы не можете участвовать в PvP, находясь в подземелье"
@@ -11559,12 +11749,6 @@
 			}
 		}
 	},
-	"solvedMysteriesPage": {
-		"title": {
-			"eng": "Solved Mysteries",
-			"trans": "Разгаданные тайны"
-		}
-	},
 	"stat": {
 		"armor": {
 			"eng": "Armor",
@@ -11862,6 +12046,16 @@
 			"name": {
 				"eng": "Loot Increase",
 				"trans": "Увеличение добычи"
+			}
+		},
+		"muted": {
+			"desc": {
+				"eng": "This player have been muted by the system.",
+				"trans": "Этот игрок был заглушен системой."
+			},
+			"name": {
+				"eng": "Muted",
+				"trans": "Заглушено"
 			}
 		},
 		"poison": {
@@ -13080,6 +13274,10 @@
 			"giftCode": {
 				"eng": "Gift Code",
 				"trans": "Код подарка"
+			},
+			"investigations": {
+				"eng": "Investigations",
+				"trans": "Расследования"
 			},
 			"leaderboard": {
 				"eng": "leaderboard",

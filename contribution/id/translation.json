@@ -334,6 +334,12 @@
 				"trans": "Apartemen Kota Tengah"
 			}
 		},
+		"chat": {
+			"cleared": {
+				"eng": "Apartment chat has been cleared.",
+				"trans": "Chat apartemen sudah dihapus."
+			}
+		},
 		"enter": {
 			"blocked": {
 				"eng": "This apartment cannot entered at this moment.",
@@ -392,6 +398,24 @@
 		}
 	},
 	"apartmentPage": {
+		"clearChat": {
+			"cancel": {
+				"eng": "cancel",
+				"trans": "Batal"
+			},
+			"confirm": {
+				"eng": "clear chat",
+				"trans": "Hapus obrolan"
+			},
+			"title": {
+				"eng": "Clear Chat",
+				"trans": "Kosongkan Chat"
+			},
+			"warning": {
+				"eng": "This will permanently delete all messages in your apartment chat. This action cannot be undone.",
+				"trans": "Ini akan menghapus selamanya semua pesan dalam obrolan apartemen Anda. Tindakan ini tidak dapat dibatalkan."
+			}
+		},
 		"kitchenButton": {
 			"error": {
 				"eng": "You must be the owner of the apartment to access the kitchen",
@@ -423,6 +447,14 @@
 			}
 		},
 		"options": {
+			"clearChat": {
+				"eng": "clear chat",
+				"error": {
+					"eng": "The owner of this apartment must add you as a friend for you to send messages in this apartment.",
+					"trans": "Pemilik apartemen ini harus menambahkan Anda sebagai teman agar Anda dapat mengirim pesan di dalamnya."
+				},
+				"trans": "Hapus obrolan"
+			},
 			"terminateLease": {
 				"eng": "terminate lease",
 				"trans": "Akhiri sewa"
@@ -1461,6 +1493,14 @@
 			}
 		},
 		"error": {
+			"levelRestriction1": {
+				"eng": "You need to be at least level ${level} to send message to global.",
+				"trans": "Anda harus minimal level ${level} untuk mengirim pesan ke global."
+			},
+			"levelRestriction2": {
+				"eng": "You need to be at least level ${level} to send message to global.",
+				"trans": "Anda harus minimal level ${level} untuk mengirim pesan ke global."
+			},
 			"link": {
 				"eng": "Links are not allowed in messages",
 				"trans": "Tautan tidak diizinkan dalam pesan"
@@ -1981,6 +2021,10 @@
 		"loading": {
 			"eng": "Loading...",
 			"trans": "Memuat..."
+		},
+		"retry": {
+			"eng": "Retry",
+			"trans": "Coba Lagi"
 		}
 	},
 	"compactRewardConfigDisplay": {
@@ -3694,6 +3738,12 @@
 				}
 			}
 		},
+		"invite": {
+			"restricted": {
+				"eng": "You cannot send gang invites now",
+				"trans": "Anda tidak dapat mengirim undangan geng saat ini."
+			}
+		},
 		"inviteSent": {
 			"eng": "A invite has been sent to ${playerName}",
 			"trans": "Undangan telah dikirim ke ${playerName}"
@@ -4096,10 +4146,6 @@
 			"eng": "ACKNOWLEDGE",
 			"trans": "Konfirmasi"
 		},
-		"allCasesSolved": {
-			"eng": "You have solved all available investigations!",
-			"trans": "Anda telah menyelesaikan semua investigasi yang tersedia!"
-		},
 		"allCluesCollected": {
 			"eng": "ALL CLUES COLLECTED",
 			"trans": "SEMUA PETUNJUK TERKUMPUL"
@@ -4116,17 +4162,9 @@
 			"eng": "ANALYZING EVIDENCE...",
 			"trans": "Menganalisis Bukti…"
 		},
-		"caseClosed": {
-			"eng": "Case Closed",
-			"trans": "Kasus Ditutup"
-		},
 		"caseId": {
 			"eng": "CASE ID",
 			"trans": "ID Kasus"
-		},
-		"caseIntro": {
-			"eng": "Case Introduction",
-			"trans": "Pengantar Kasus"
 		},
 		"caseResolved": {
 			"eng": "ACPD Case Resolved",
@@ -4231,14 +4269,74 @@
 			"trans": "Kasus Baru"
 		},
 		"noActiveCase": {
-			"short": {
-				"eng": "No active case",
-				"trans": "Tidak ada kasus aktif"
+			"header": {
+				"eng": "ACPD INVESTIGATION TERMINAL",
+				"trans": "Terminal Investigasi ACPD"
+			},
+			"intelBody1": {
+				"eng": "This console activates automatically once you capture your first clue.",
+				"trans": "Konsol ini akan aktif secara otomatis setelah Anda menangkap petunjuk pertama."
+			},
+			"intelBody2": {
+				"eng": "Track the entire case from here—clues, summaries, and final verdict submission.",
+				"trans": "Lacak seluruh kasus dari sini—petunjuk, ringkasan, dan penyerahan keputusan akhir."
+			},
+			"intelHeader": {
+				"eng": "INTEL DISPATCH",
+				"trans": "Kirim Intel"
+			},
+			"requirement": {
+				"eng": "4 clues required per case",
+				"trans": "Butuh 4 petunjuk per kasus"
+			},
+			"statusInline": {
+				"eng": "Case Slot Open • Permit required to submit verdict",
+				"trans": "Slot Kasus Terbuka • Izin diperlukan untuk mengajukan putusan"
+			},
+			"timelineAcquire": {
+				"desc": {
+					"eng": "Stronghold investigation points feed clues directly into this console.",
+					"trans": "Poin penyelidikan Benteng Kuat langsung mengirim petunjuk ke konsol ini."
+				},
+				"eng": "Acquire Intel",
+				"trans": "Dapatkan Intel"
+			},
+			"timelineAssemble": {
+				"desc": {
+					"eng": "Collect all four clues to unlock the verdict authorization rail.",
+					"trans": "Kumpulkan semua empat petunjuk untuk membuka jalur otorisasi keputusan."
+				},
+				"eng": "Assemble Evidence",
+				"trans": "Kumpulkan Bukti"
+			},
+			"timelineSubmit": {
+				"desc": {
+					"eng": "Spend one Investigation Access Permit to commit your conclusion.",
+					"trans": "Gunakan satu Izin Akses Investigasi untuk menetapkan kesimpulan."
+				},
+				"eng": "Deliver Verdict",
+				"trans": "Sampaikan Putusan"
+			},
+			"tipBody": {
+				"eng": "Tap to open the Investigation field manual and review how cases operate.",
+				"trans": "Ketuk untuk membuka Manual Lapangan Investigasi dan pelajari cara kerja kasus."
+			},
+			"tipTitle": {
+				"eng": "Need a briefing?",
+				"trans": "Butuh briefing?"
+			},
+			"totalSolved": {
+				"eng": "Solved dossiers: ${count}",
+				"trans": "Dossier selesai: ${count}"
 			}
 		},
 		"noActiveInvestigation": {
 			"eng": "You have no active investigation to abandon.",
 			"trans": "Tidak ada penyelidikan aktif yang dapat Anda batalkan."
+		},
+		"noCasesAvailable": {
+			"eng": "No investigations available",
+			"trans": "Tidak ada investigasi tersedia"
 		},
 		"noChoices": {
 			"eng": "No choices available",
@@ -4249,8 +4347,8 @@
 			"trans": "Anda perlu Izin Akses Investigasi untuk menyerahkan putusan. Ditemukan di peti-peti dungeon."
 		},
 		"noSolvedCases": {
-			"eng": "You haven't solved any investigations yet. Start investigating!",
-			"trans": "Anda belum menyelesaikan investigasi apa pun. Mulailah menyelidikinya!"
+			"eng": "No solved cases yet",
+			"trans": "Belum ada kasus terselesaikan"
 		},
 		"notAllCluesCollected": {
 			"eng": "You must collect all clues before solving the case.",
@@ -4272,9 +4370,27 @@
 			"eng": "Please select a conclusion",
 			"trans": "Silakan pilih kesimpulan"
 		},
-		"solvedOn": {
-			"eng": "Solved on ${date}",
-			"trans": "Selesai pada ${date}"
+		"solveCasesHint": {
+			"eng": "Complete investigations to see them here",
+			"trans": "Selesaikan investigasi untuk melihat mereka di sini"
+		},
+		"solved": {
+			"eng": "Solved ${time}",
+			"trans": "Selesai ${time}"
+		},
+		"solvedCases": {
+			"description": {
+				"eng": "Review completed cases and revisit final reports.",
+				"trans": "Tinjau kasus yang sudah selesai dan lihat kembali laporan akhir."
+			},
+			"header": {
+				"eng": "Solved Investigations Registry",
+				"trans": "Daftar Investigasi Selesai"
+			},
+			"solved": {
+				"eng": "solved",
+				"trans": "Selesai"
+			}
 		},
 		"submit": {
 			"eng": "Submit Verdict",
@@ -4287,10 +4403,6 @@
 		"submitVerdict": {
 			"eng": "Submit Your Verdict",
 			"trans": "Kirim Putusan Anda"
-		},
-		"submitting": {
-			"eng": "Submitting...",
-			"trans": "Mengirim..."
 		},
 		"systemPrefix": {
 			"eng": "SYS",
@@ -4308,14 +4420,6 @@
 			"eng": "The Full Story",
 			"trans": "Cerita Lengkap"
 		},
-		"totalSolved": {
-			"eng": "Total Solved: ${count}",
-			"trans": "Total Selesai: ${count}"
-		},
-		"truthRevealed": {
-			"eng": "The truth has been revealed",
-			"trans": "Kebenaran telah terungkap."
-		},
 		"verdictImage": {
 			"eng": "Verdict ${num} investigation image",
 			"trans": "Gambar penyelidikan keputusan ${num}"
@@ -4326,10 +4430,6 @@
 		}
 	},
 	"investigationPendingModal": {
-		"activeCase": {
-			"eng": "Active Case",
-			"trans": "Kasus Aktif"
-		},
 		"allCluesCollectedMessage": {
 			"eng": "You have collected all evidence for your current investigation. Complete this case before starting a new one.",
 			"trans": "Anda telah mengumpulkan semua bukti untuk penyelidikan Anda saat ini. Selesaikan kasus ini sebelum memulai yang baru."
@@ -4768,6 +4868,10 @@
 			"eng": "Enemy drop",
 			"trans": "Drop musuh"
 		},
+		"eventDrop": {
+			"eng": "${eventName} event drop",
+			"trans": "Drop Acara ${eventName}"
+		},
 		"intelligenceContract": {
 			"eng": "Intelligence Contract",
 			"trans": "Kontrak Intelejensi"
@@ -5160,6 +5264,16 @@
 				"trans": "Stabilisasi Kalibrasi"
 			}
 		},
+		"christmasEliteKey": {
+			"description": {
+				"eng": "A tactical key required to unlock Noel's Elite Crate. Only available from Noel herself.",
+				"trans": "Kunci taktis yang dibutuhkan untuk membuka Kotak Elite Noel. Tersedia hanya dari Noel sendiri."
+			},
+			"name": {
+				"eng": "Elite Crate",
+				"trans": "Kotak Elit"
+			}
+		},
 		"christmasLootBox": {
 			"description": {
 				"eng": "Event container that contains various rewards, can only be unlocked during December.",
@@ -5168,6 +5282,26 @@
 			"name": {
 				"eng": "Christmas Container",
 				"trans": "Kontainer Natal"
+			}
+		},
+		"christmasLootBoxElite": {
+			"description": {
+				"eng": "A premium Christmas container reserved for the most valuable rewards. Only the worthy receive Noel's elite gifts.",
+				"trans": "Kontainer Natal premium, khusus untuk hadiah paling berharga. Hanya yang layak menerima hadiah elit Noel."
+			},
+			"name": {
+				"eng": "Noel's Elite Crate",
+				"trans": "Kotak Elite Noel"
+			}
+		},
+		"christmasToken": {
+			"description": {
+				"eng": "A token that can be used to unlock a Christmas container.",
+				"trans": "Token yang dapat digunakan untuk membuka kontainer Natal."
+			},
+			"name": {
+				"eng": "Christmas Token",
+				"trans": "Token Natal"
 			}
 		},
 		"clanMaintenanceResource": {
@@ -7485,8 +7619,8 @@
 	},
 	"mailTab": {
 		"empty": {
-			"eng": "currently you don\\'t have any chat",
-			"trans": "Saat ini kamu tidak memiliki obrolan apapun"
+			"eng": "currently you don't have any chat",
+			"trans": "Tidak ada obrolan saat ini."
 		}
 	},
 	"mails": {
@@ -8819,6 +8953,24 @@
 			}
 		}
 	},
+	"mutedMessage": {
+		"contact": {
+			"eng": "If you have any questions, please contact us at ${email}",
+			"trans": "Jika Anda memiliki pertanyaan, silakan hubungi kami di ${email}"
+		},
+		"description": {
+			"eng": "Your account has been muted by the SYSTEM. You are temporarily unable to send messages or mails.",
+			"trans": "Akun Anda telah dimute oleh SISTEM. Saat ini Anda tidak dapat mengirim pesan atau email."
+		},
+		"timeRemaining": {
+			"eng": "Time remaining: ${time}",
+			"trans": "Sisa waktu: ${time}"
+		},
+		"title": {
+			"eng": "Account Muted",
+			"trans": "Akun Dimute"
+		}
+	},
 	"newsCard": {
 		"new": {
 			"eng": "NEW",
@@ -9170,6 +9322,40 @@
 			"tipBox": {
 				"eng": "You can sell your items here to other players, or buy items from other players.",
 				"trans": "Kamu dapat menjual barang-barangmu di sini ke pemain lain, atau membeli barang dari pemain lain."
+			}
+		},
+		"christmas": {
+			"greetings": {
+				"eng": [
+					"Hehe… Ini memang yang mereka inginkan. Aku lebih suka berbicara jujur.",
+					"Pastikan Anda terdaftar dalam Daftar Orang Baik. Jika tidak, situasinya akan menjadi kompleks.",
+					"Suasana Natal wajib dan harus dipertahankan.",
+					"Pertukaran hadiah adalah operasi taktis. Siapkah Anda?",
+					"Pelanggan lain sudah datang. Baik, kuotaku tidak akan terisi otomatis."
+				],
+				"trans": [
+					"Hehe… Ini memang yang mereka inginkan. Aku lebih suka berbicara jujur.",
+					"Pastikan Anda terdaftar dalam Daftar Orang Baik. Jika tidak, situasinya akan menjadi kompleks.",
+					"Suasana Natal wajib dan harus dipertahankan.",
+					"Pertukaran hadiah adalah operasi taktis. Siapkah Anda?",
+					"Pelanggan lain sudah datang. Baik, kuotaku tidak akan terisi otomatis."
+				]
+			},
+			"locationDesc": {
+				"eng": "A militarized gift distribution center run by Noel, where Christmas cheer is a tactical operation.",
+				"trans": "Pusat distribusi hadiah bersenjata yang dikelola oleh Noel, di mana semangat Natal menjadi operasi taktis."
+			},
+			"locationName": {
+				"eng": "Noel's Gift Depot",
+				"trans": "Depo Hadiah Noel"
+			},
+			"npcName": {
+				"eng": "Noel",
+				"trans": "Noel"
+			},
+			"shopName": {
+				"eng": "Noel",
+				"trans": "Noel"
 			}
 		},
 		"clinic": {
@@ -10929,6 +11115,10 @@
 				"eng": "You cannot attack this player due to alt detection",
 				"trans": "Tidak bisa menyerang. Terdeteksi akun lain dari pemain ini."
 			},
+			"cannotEngageBountyAltConnection": {
+				"eng": "You cannot attack this player due to bounty contributor alt detection",
+				"trans": "Anda tidak dapat menyerang pemain ini karena deteksi alt kontributor bounty."
+			},
 			"cannotEngageInDungeon": {
 				"eng": "You cannot engage in PvP while in a dungeon",
 				"trans": "Kamu tidak dapat berpartisipasi dalam PvP saat berada di dalam dungeon"
@@ -11559,12 +11749,6 @@
 			}
 		}
 	},
-	"solvedMysteriesPage": {
-		"title": {
-			"eng": "Solved Mysteries",
-			"trans": "Misteri Terpecahkan"
-		}
-	},
 	"stat": {
 		"armor": {
 			"eng": "Armor",
@@ -11862,6 +12046,16 @@
 			"name": {
 				"eng": "Loot Increase",
 				"trans": "Peningkatan Rampasan"
+			}
+		},
+		"muted": {
+			"desc": {
+				"eng": "This player have been muted by the system.",
+				"trans": "Pemain ini telah dibisukan oleh sistem."
+			},
+			"name": {
+				"eng": "Muted",
+				"trans": "Diam"
 			}
 		},
 		"poison": {
@@ -13080,6 +13274,10 @@
 			"giftCode": {
 				"eng": "Gift Code",
 				"trans": "Kode Hadiah"
+			},
+			"investigations": {
+				"eng": "Investigations",
+				"trans": "Investigasi"
 			},
 			"leaderboard": {
 				"eng": "leaderboard",

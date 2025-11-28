@@ -334,6 +334,12 @@
 				"trans": "คอนโดกลางเมือง"
 			}
 		},
+		"chat": {
+			"cleared": {
+				"eng": "Apartment chat has been cleared.",
+				"trans": "แชทในอพาร์ตเมนต์ได้รับการล้างออกเรียบร้อย"
+			}
+		},
 		"enter": {
 			"blocked": {
 				"eng": "This apartment cannot entered at this moment.",
@@ -392,6 +398,24 @@
 		}
 	},
 	"apartmentPage": {
+		"clearChat": {
+			"cancel": {
+				"eng": "cancel",
+				"trans": "ยกเลิก"
+			},
+			"confirm": {
+				"eng": "clear chat",
+				"trans": "ล้างแชท"
+			},
+			"title": {
+				"eng": "Clear Chat",
+				"trans": "ล้างแชท"
+			},
+			"warning": {
+				"eng": "This will permanently delete all messages in your apartment chat. This action cannot be undone.",
+				"trans": "การกระทำนี้จะลบข้อความทั้งหมดในแชทอพาร์ตเมนต์ของคุณอย่างถาวร ไม่สามารถย้อนกลับได้"
+			}
+		},
 		"kitchenButton": {
 			"error": {
 				"eng": "You must be the owner of the apartment to access the kitchen",
@@ -423,6 +447,14 @@
 			}
 		},
 		"options": {
+			"clearChat": {
+				"eng": "clear chat",
+				"error": {
+					"eng": "The owner of this apartment must add you as a friend for you to send messages in this apartment.",
+					"trans": "เจ้าของอพาร์ทเมนต์นี้ต้องเพิ่มคุณเป็นเพื่อนก่อนจึงจะส่งข้อความได้ในที่อยู่นี้"
+				},
+				"trans": "ล้างแชท"
+			},
 			"terminateLease": {
 				"eng": "terminate lease",
 				"trans": "ยกเลิกการเช่า"
@@ -1461,6 +1493,14 @@
 			}
 		},
 		"error": {
+			"levelRestriction1": {
+				"eng": "You need to be at least level ${level} to send message to global.",
+				"trans": "คุณต้องมีเลเวลอย่างน้อย ${level} ก่อนจะส่งข้อความไปยัง Global"
+			},
+			"levelRestriction2": {
+				"eng": "You need to be at least level ${level} to send message to global.",
+				"trans": "คุณต้องมีเลเวลอย่างน้อย ${level} ก่อนจะส่งข้อความไปยัง Global"
+			},
 			"link": {
 				"eng": "Links are not allowed in messages",
 				"trans": "ห้ามใส่ลิงก์ในข้อความ"
@@ -1981,6 +2021,10 @@
 		"loading": {
 			"eng": "Loading...",
 			"trans": "กำลังโหลด..."
+		},
+		"retry": {
+			"eng": "Retry",
+			"trans": "ลองใหม่"
 		}
 	},
 	"compactRewardConfigDisplay": {
@@ -3694,6 +3738,12 @@
 				}
 			}
 		},
+		"invite": {
+			"restricted": {
+				"eng": "You cannot send gang invites now",
+				"trans": "คุณไม่สามารถส่งคำเชิญแก๊งได้ในขณะนี้"
+			}
+		},
 		"inviteSent": {
 			"eng": "A invite has been sent to ${playerName}",
 			"trans": "เชิญ ${playerName} ไปแล้ว"
@@ -4096,10 +4146,6 @@
 			"eng": "ACKNOWLEDGE",
 			"trans": "รับทราบ"
 		},
-		"allCasesSolved": {
-			"eng": "You have solved all available investigations!",
-			"trans": "คุณได้แก้ไขการสืบสวนทั้งหมดแล้ว!"
-		},
 		"allCluesCollected": {
 			"eng": "ALL CLUES COLLECTED",
 			"trans": "รวบรวมหลักฐานครบ"
@@ -4116,17 +4162,9 @@
 			"eng": "ANALYZING EVIDENCE...",
 			"trans": "กำลังวิเคราะห์หลักฐาน…"
 		},
-		"caseClosed": {
-			"eng": "Case Closed",
-			"trans": "ปิดคดี"
-		},
 		"caseId": {
 			"eng": "CASE ID",
 			"trans": "รหัสเคส"
-		},
-		"caseIntro": {
-			"eng": "Case Introduction",
-			"trans": "รายละเอียดเคส"
 		},
 		"caseResolved": {
 			"eng": "ACPD Case Resolved",
@@ -4231,14 +4269,74 @@
 			"trans": "เคสใหม่"
 		},
 		"noActiveCase": {
-			"short": {
-				"eng": "No active case",
-				"trans": "ไม่มีเคสปัจจุบัน"
+			"header": {
+				"eng": "ACPD INVESTIGATION TERMINAL",
+				"trans": "ACPD เทอร์มินัลสืบสวน"
+			},
+			"intelBody1": {
+				"eng": "This console activates automatically once you capture your first clue.",
+				"trans": "คอนโซลนี้ทำงานอัตโนมัติเมื่อคุณเก็บเบาะแสแรก"
+			},
+			"intelBody2": {
+				"eng": "Track the entire case from here—clues, summaries, and final verdict submission.",
+				"trans": "ติดตามคดีทั้งหมดจากนี้ — หลักฐาน สรุป และยื่นคำพิพากษาสุดท้าย"
+			},
+			"intelHeader": {
+				"eng": "INTEL DISPATCH",
+				"trans": "จัดส่งข่าว"
+			},
+			"requirement": {
+				"eng": "4 clues required per case",
+				"trans": "ต้องใช้เบาะแส 4 รายการต่อเคส"
+			},
+			"statusInline": {
+				"eng": "Case Slot Open • Permit required to submit verdict",
+				"trans": "เคสว่าง • ต้องมีใบอนุญาตเพื่อยื่นคำพิพากษา"
+			},
+			"timelineAcquire": {
+				"desc": {
+					"eng": "Stronghold investigation points feed clues directly into this console.",
+					"trans": "จุดสืบสวนของ Stronghold ส่งเบาะแสโดยตรงเข้าไปในคอนโซลนี้"
+				},
+				"eng": "Acquire Intel",
+				"trans": "ค้นหาข้อมูล"
+			},
+			"timelineAssemble": {
+				"desc": {
+					"eng": "Collect all four clues to unlock the verdict authorization rail.",
+					"trans": "รวบรวมหลักฐานสี่ชิ้นเพื่อปลดล็อกเส้นทางการอนุมัติคำพิพากษา"
+				},
+				"eng": "Assemble Evidence",
+				"trans": "รวบรวมหลักฐาน"
+			},
+			"timelineSubmit": {
+				"desc": {
+					"eng": "Spend one Investigation Access Permit to commit your conclusion.",
+					"trans": "ใช้ใบอนุญาตเข้าถึงการสืบสวน 1 ใบเพื่อยืนยันข้อสรุป"
+				},
+				"eng": "Deliver Verdict",
+				"trans": "ออกคำพิพากษา"
+			},
+			"tipBody": {
+				"eng": "Tap to open the Investigation field manual and review how cases operate.",
+				"trans": "แตะเพื่อเปิดคู่มือสืบสวนภาคสนามและดูวิธีดำเนินคดี"
+			},
+			"tipTitle": {
+				"eng": "Need a briefing?",
+				"trans": "ต้องการบรีฟไหม?"
+			},
+			"totalSolved": {
+				"eng": "Solved dossiers: ${count}",
+				"trans": "แก้ไขแฟ้ม: ${count}"
 			}
 		},
 		"noActiveInvestigation": {
 			"eng": "You have no active investigation to abandon.",
 			"trans": "คุณไม่มีการสืบสวนที่กำลังดำเนินอยู่ให้ยกเลิก"
+		},
+		"noCasesAvailable": {
+			"eng": "No investigations available",
+			"trans": "ไม่พบการสืบสวน"
 		},
 		"noChoices": {
 			"eng": "No choices available",
@@ -4249,8 +4347,8 @@
 			"trans": "คุณต้องมีใบอนุญาตเข้าถึงการสืบสวนเพื่อยื่นคำพิพากษา ใบเหล่านี้สามารถหาได้ในกล่องดันเจี้ยน"
 		},
 		"noSolvedCases": {
-			"eng": "You haven't solved any investigations yet. Start investigating!",
-			"trans": "คุณยังไม่แก้ไขเคสใด ๆ เลย เริ่มต้นสืบสวน!"
+			"eng": "No solved cases yet",
+			"trans": "ยังไม่มีเคสที่แก้"
 		},
 		"notAllCluesCollected": {
 			"eng": "You must collect all clues before solving the case.",
@@ -4272,9 +4370,27 @@
 			"eng": "Please select a conclusion",
 			"trans": "กรุณาเลือกข้อสรุป"
 		},
-		"solvedOn": {
-			"eng": "Solved on ${date}",
-			"trans": "แก้ไขเมื่อ ${date}"
+		"solveCasesHint": {
+			"eng": "Complete investigations to see them here",
+			"trans": "สืบสวนให้เสร็จก่อนดูที่นี่"
+		},
+		"solved": {
+			"eng": "Solved ${time}",
+			"trans": "สำเร็จ ${time}"
+		},
+		"solvedCases": {
+			"description": {
+				"eng": "Review completed cases and revisit final reports.",
+				"trans": "ทบทวนเคสที่เสร็จแล้วและกลับมาดูรายงานสุดท้าย"
+			},
+			"header": {
+				"eng": "Solved Investigations Registry",
+				"trans": "ทะเบียนสืบสวนที่แก้ไขแล้ว"
+			},
+			"solved": {
+				"eng": "solved",
+				"trans": "แก้ไขแล้ว"
+			}
 		},
 		"submit": {
 			"eng": "Submit Verdict",
@@ -4287,10 +4403,6 @@
 		"submitVerdict": {
 			"eng": "Submit Your Verdict",
 			"trans": "ส่งคำตัดสินของคุณ"
-		},
-		"submitting": {
-			"eng": "Submitting...",
-			"trans": "กำลังส่ง…"
 		},
 		"systemPrefix": {
 			"eng": "SYS",
@@ -4308,14 +4420,6 @@
 			"eng": "The Full Story",
 			"trans": "เรื่องทั้งหมด"
 		},
-		"totalSolved": {
-			"eng": "Total Solved: ${count}",
-			"trans": "แก้ทั้งหมด: ${count}"
-		},
-		"truthRevealed": {
-			"eng": "The truth has been revealed",
-			"trans": "ความจริงถูกเปิดเผยแล้ว"
-		},
 		"verdictImage": {
 			"eng": "Verdict ${num} investigation image",
 			"trans": "ภาพสืบสวนคำพิพากษา ${num}"
@@ -4326,10 +4430,6 @@
 		}
 	},
 	"investigationPendingModal": {
-		"activeCase": {
-			"eng": "Active Case",
-			"trans": "เคสปัจจุบัน"
-		},
 		"allCluesCollectedMessage": {
 			"eng": "You have collected all evidence for your current investigation. Complete this case before starting a new one.",
 			"trans": "เก็บหลักฐานครบทุกชิ้นแล้ว กรุณาเสร็จสมบูรณ์เคสนี้ก่อนเริ่มเคสใหม่"
@@ -4768,6 +4868,10 @@
 			"eng": "Enemy drop",
 			"trans": "ของดรอป"
 		},
+		"eventDrop": {
+			"eng": "${eventName} event drop",
+			"trans": "${eventName} ไอเทมจากเหตุการณ์"
+		},
 		"intelligenceContract": {
 			"eng": "Intelligence Contract",
 			"trans": "สัญญาปัญญา"
@@ -5160,6 +5264,16 @@
 				"trans": "สเตบิไลเซอร์สอบเทียบ"
 			}
 		},
+		"christmasEliteKey": {
+			"description": {
+				"eng": "A tactical key required to unlock Noel's Elite Crate. Only available from Noel herself.",
+				"trans": "กุญแจยุทธวิธีเพื่อเปิดกล่อง Elite ของ Noel มีเฉพาะจาก Noel เอง"
+			},
+			"name": {
+				"eng": "Elite Crate",
+				"trans": "กล่องเอลิท"
+			}
+		},
 		"christmasLootBox": {
 			"description": {
 				"eng": "Event container that contains various rewards, can only be unlocked during December.",
@@ -5168,6 +5282,26 @@
 			"name": {
 				"eng": "Christmas Container",
 				"trans": "กล่องคริสต์มาส"
+			}
+		},
+		"christmasLootBoxElite": {
+			"description": {
+				"eng": "A premium Christmas container reserved for the most valuable rewards. Only the worthy receive Noel's elite gifts.",
+				"trans": "กล่องคริสต์มาสพรีเมียมสำหรับรางวัลที่มีค่ามากที่สุด เฉพาะผู้สมควรเท่านั้นจะได้รับของขวัญระดับสูงจากโนเอล"
+			},
+			"name": {
+				"eng": "Noel's Elite Crate",
+				"trans": "กล่องอีลีตของโนเอล"
+			}
+		},
+		"christmasToken": {
+			"description": {
+				"eng": "A token that can be used to unlock a Christmas container.",
+				"trans": "โทเค็นที่ใช้ปลดล็อกกล่องคริสต์มาสได้"
+			},
+			"name": {
+				"eng": "Christmas Token",
+				"trans": "โทเค็นคริสต์มาส"
 			}
 		},
 		"clanMaintenanceResource": {
@@ -7485,8 +7619,8 @@
 	},
 	"mailTab": {
 		"empty": {
-			"eng": "currently you don\\'t have any chat",
-			"trans": "แชทโล่งๆ"
+			"eng": "currently you don't have any chat",
+			"trans": "คุณยังไม่มีแชท"
 		}
 	},
 	"mails": {
@@ -8819,6 +8953,24 @@
 			}
 		}
 	},
+	"mutedMessage": {
+		"contact": {
+			"eng": "If you have any questions, please contact us at ${email}",
+			"trans": "หากคุณมีคำถาม กรุณาติดต่อเราที่ ${email}"
+		},
+		"description": {
+			"eng": "Your account has been muted by the SYSTEM. You are temporarily unable to send messages or mails.",
+			"trans": "ระบบได้ทำการปิดเสียงบัญชีของคุณ คุณไม่สามารถส่งข้อความหรืออีเมลได้ชั่วคราว"
+		},
+		"timeRemaining": {
+			"eng": "Time remaining: ${time}",
+			"trans": "เวลาเหลือ: ${time}"
+		},
+		"title": {
+			"eng": "Account Muted",
+			"trans": "บัญชีถูกมิวท์"
+		}
+	},
 	"newsCard": {
 		"new": {
 			"eng": "NEW",
@@ -9170,6 +9322,40 @@
 			"tipBox": {
 				"eng": "You can sell your items here to other players, or buy items from other players.",
 				"trans": "ที่นี่คุณขายของให้คนอื่นได้ หรือจะซื้อของจากคนอื่นก็ได้"
+			}
+		},
+		"christmas": {
+			"greetings": {
+				"eng": [
+					"ฮ่า… นั่นแหละที่พวกเขาต้องการ ฉันชอบความซื่อสัตย์",
+					"ตรวจสอบการลงทะเบียนของคุณในรายการบอน หากไม่ทำเช่นนั้น สถานการณ์จะเลวร้ายขึ้น",
+					"บรรยากาศคริสต์มาสเป็นข้อกำหนดและต้องรักษาไว้",
+					"แลกรางวัล – การดำเนินงานเชิงกลยุทธ์ พร้อมหรือยัง?",
+					"ลูกค้าอื่น ๆ มาแล้ว ไม่เป็นไร โควต้าไม่มีการหมดอัตโนมัติ"
+				],
+				"trans": [
+					"ฮ่า… นั่นแหละที่พวกเขาต้องการ ฉันชอบความซื่อสัตย์",
+					"ตรวจสอบการลงทะเบียนของคุณในรายการบอน หากไม่ทำเช่นนั้น สถานการณ์จะเลวร้ายขึ้น",
+					"บรรยากาศคริสต์มาสเป็นข้อกำหนดและต้องรักษาไว้",
+					"แลกรางวัล – การดำเนินงานเชิงกลยุทธ์ พร้อมหรือยัง?",
+					"ลูกค้าอื่น ๆ มาแล้ว ไม่เป็นไร โควต้าไม่มีการหมดอัตโนมัติ"
+				]
+			},
+			"locationDesc": {
+				"eng": "A militarized gift distribution center run by Noel, where Christmas cheer is a tactical operation.",
+				"trans": "ศูนย์แจกของขวัญแบบทหารโดยโนเอล ที่ความสนุกคริสต์มาสเป็นภารกิจกลยุทธ์"
+			},
+			"locationName": {
+				"eng": "Noel's Gift Depot",
+				"trans": "โกดังของขวัญ Noel"
+			},
+			"npcName": {
+				"eng": "Noel",
+				"trans": "โนเอล"
+			},
+			"shopName": {
+				"eng": "Noel",
+				"trans": "โนเอล"
 			}
 		},
 		"clinic": {
@@ -10929,6 +11115,10 @@
 				"eng": "You cannot attack this player due to alt detection",
 				"trans": "โดนบล็อค! ตรวจพบตัวสำรอง"
 			},
+			"cannotEngageBountyAltConnection": {
+				"eng": "You cannot attack this player due to bounty contributor alt detection",
+				"trans": "คุณไม่สามารถโจมตีผู้เล่นนี้ได้ เนื่องจากระบบตรวจพบว่าผู้เล่นเป็นบัญชีรองของผู้ให้รางวัลล่า"
+			},
 			"cannotEngageInDungeon": {
 				"eng": "You cannot engage in PvP while in a dungeon",
 				"trans": "เข้าดันฯ อยู่ PvP ไม่ได้นะ!"
@@ -11559,12 +11749,6 @@
 			}
 		}
 	},
-	"solvedMysteriesPage": {
-		"title": {
-			"eng": "Solved Mysteries",
-			"trans": "ปริศนาที่แก้ไขแล้ว"
-		}
-	},
 	"stat": {
 		"armor": {
 			"eng": "Armor",
@@ -11862,6 +12046,16 @@
 			"name": {
 				"eng": "Loot Increase",
 				"trans": "บูสต์ของ"
+			}
+		},
+		"muted": {
+			"desc": {
+				"eng": "This player have been muted by the system.",
+				"trans": "ผู้เล่นนี้ถูกปิดเสียงโดยระบบ"
+			},
+			"name": {
+				"eng": "Muted",
+				"trans": "ปิดเสียง"
 			}
 		},
 		"poison": {
@@ -13080,6 +13274,10 @@
 			"giftCode": {
 				"eng": "Gift Code",
 				"trans": "โค้ดแลกรับ"
+			},
+			"investigations": {
+				"eng": "Investigations",
+				"trans": "การสืบสวน"
 			},
 			"leaderboard": {
 				"eng": "leaderboard",

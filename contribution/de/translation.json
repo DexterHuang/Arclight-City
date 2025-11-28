@@ -334,6 +334,12 @@
 				"trans": "Apartment in der Innenstadt"
 			}
 		},
+		"chat": {
+			"cleared": {
+				"eng": "Apartment chat has been cleared.",
+				"trans": "Wohnungsnachrichten wurden gelöscht."
+			}
+		},
 		"enter": {
 			"blocked": {
 				"eng": "This apartment cannot entered at this moment.",
@@ -392,6 +398,24 @@
 		}
 	},
 	"apartmentPage": {
+		"clearChat": {
+			"cancel": {
+				"eng": "cancel",
+				"trans": "Abbrechen"
+			},
+			"confirm": {
+				"eng": "clear chat",
+				"trans": "Chat leeren"
+			},
+			"title": {
+				"eng": "Clear Chat",
+				"trans": "Chat leeren"
+			},
+			"warning": {
+				"eng": "This will permanently delete all messages in your apartment chat. This action cannot be undone.",
+				"trans": "Dies löscht dauerhaft alle Nachrichten in deinem Apartment‑Chat. Dieser Vorgang kann nicht rückgängig gemacht werden."
+			}
+		},
 		"kitchenButton": {
 			"error": {
 				"eng": "You must be the owner of the apartment to access the kitchen",
@@ -423,6 +447,14 @@
 			}
 		},
 		"options": {
+			"clearChat": {
+				"eng": "clear chat",
+				"error": {
+					"eng": "The owner of this apartment must add you as a friend for you to send messages in this apartment.",
+					"trans": "Der Eigentümer dieses Apartments muss dich als Freund hinzufügen, damit du hier Nachrichten senden kannst."
+				},
+				"trans": "Chat leeren"
+			},
 			"terminateLease": {
 				"eng": "terminate lease",
 				"trans": "Mietvertrag beenden"
@@ -1461,6 +1493,14 @@
 			}
 		},
 		"error": {
+			"levelRestriction1": {
+				"eng": "You need to be at least level ${level} to send message to global.",
+				"trans": "Du musst mindestens Level ${level} haben, um globale Nachrichten zu senden."
+			},
+			"levelRestriction2": {
+				"eng": "You need to be at least level ${level} to send message to global.",
+				"trans": "Du musst mindestens Level ${level} haben, um globale Nachrichten zu senden."
+			},
 			"link": {
 				"eng": "Links are not allowed in messages",
 				"trans": "Links sind in Nachrichten nicht erlaubt"
@@ -1981,6 +2021,10 @@
 		"loading": {
 			"eng": "Loading...",
 			"trans": "Lädt..."
+		},
+		"retry": {
+			"eng": "Retry",
+			"trans": "Wiederholen"
 		}
 	},
 	"compactRewardConfigDisplay": {
@@ -3694,6 +3738,12 @@
 				}
 			}
 		},
+		"invite": {
+			"restricted": {
+				"eng": "You cannot send gang invites now",
+				"trans": "Du kannst jetzt keine Gangeinladungen senden."
+			}
+		},
 		"inviteSent": {
 			"eng": "A invite has been sent to ${playerName}",
 			"trans": "Eine Einladung wurde an ${playerName} gesendet"
@@ -4096,10 +4146,6 @@
 			"eng": "ACKNOWLEDGE",
 			"trans": "Bestätigen"
 		},
-		"allCasesSolved": {
-			"eng": "You have solved all available investigations!",
-			"trans": "Du hast alle verfügbaren Ermittlungen gelöst!"
-		},
 		"allCluesCollected": {
 			"eng": "ALL CLUES COLLECTED",
 			"trans": "Alle Hinweise gesammelt"
@@ -4116,17 +4162,9 @@
 			"eng": "ANALYZING EVIDENCE...",
 			"trans": "BEWEIS ANALYSIEREN..."
 		},
-		"caseClosed": {
-			"eng": "Case Closed",
-			"trans": "Fall abgeschlossen"
-		},
 		"caseId": {
 			"eng": "CASE ID",
 			"trans": "Fall-ID"
-		},
-		"caseIntro": {
-			"eng": "Case Introduction",
-			"trans": "Fallvorstellung"
 		},
 		"caseResolved": {
 			"eng": "ACPD Case Resolved",
@@ -4231,14 +4269,74 @@
 			"trans": "Neuer Fall"
 		},
 		"noActiveCase": {
-			"short": {
-				"eng": "No active case",
-				"trans": "Kein aktiver Fall"
+			"header": {
+				"eng": "ACPD INVESTIGATION TERMINAL",
+				"trans": "ACPD-Untersuchungsterminal"
+			},
+			"intelBody1": {
+				"eng": "This console activates automatically once you capture your first clue.",
+				"trans": "Diese Konsole wird automatisch aktiviert, sobald du den ersten Hinweis erfasst."
+			},
+			"intelBody2": {
+				"eng": "Track the entire case from here—clues, summaries, and final verdict submission.",
+				"trans": "Ab hier den gesamten Fall verfolgen – Hinweise, Zusammenfassungen und endgültiges Urteil einreichen."
+			},
+			"intelHeader": {
+				"eng": "INTEL DISPATCH",
+				"trans": "Inteldispatch"
+			},
+			"requirement": {
+				"eng": "4 clues required per case",
+				"trans": "4 Hinweise pro Fall nötig"
+			},
+			"statusInline": {
+				"eng": "Case Slot Open • Permit required to submit verdict",
+				"trans": "Fall‑Slot offen • Genehmigung erforderlich, um das Urteil abzugeben."
+			},
+			"timelineAcquire": {
+				"desc": {
+					"eng": "Stronghold investigation points feed clues directly into this console.",
+					"trans": "Die Ermittlungspunkte von Stronghold liefern Hinweise direkt an diese Konsole."
+				},
+				"eng": "Acquire Intel",
+				"trans": "Intel beschaffen"
+			},
+			"timelineAssemble": {
+				"desc": {
+					"eng": "Collect all four clues to unlock the verdict authorization rail.",
+					"trans": "Sammle alle vier Hinweise, um die Urteilsfreigabe-Schiene zu entsperren."
+				},
+				"eng": "Assemble Evidence",
+				"trans": "Beweise sammeln"
+			},
+			"timelineSubmit": {
+				"desc": {
+					"eng": "Spend one Investigation Access Permit to commit your conclusion.",
+					"trans": "Nutze einen Ermittlungszugangspass, um deine Schlussfolgerung zu bestätigen."
+				},
+				"eng": "Deliver Verdict",
+				"trans": "Urteil verkünden"
+			},
+			"tipBody": {
+				"eng": "Tap to open the Investigation field manual and review how cases operate.",
+				"trans": "Tippen Sie, um das Ermittlungsfeldhandbuch zu öffnen und die Abläufe von Fällen einzusehen."
+			},
+			"tipTitle": {
+				"eng": "Need a briefing?",
+				"trans": "Benötigst du ein Briefing?"
+			},
+			"totalSolved": {
+				"eng": "Solved dossiers: ${count}",
+				"trans": "Gelöste Dossiers: ${count}"
 			}
 		},
 		"noActiveInvestigation": {
 			"eng": "You have no active investigation to abandon.",
 			"trans": "Keine aktive Ermittlung zum Aufgeben."
+		},
+		"noCasesAvailable": {
+			"eng": "No investigations available",
+			"trans": "Noch keine Ermittlungen verfügbar."
 		},
 		"noChoices": {
 			"eng": "No choices available",
@@ -4249,8 +4347,8 @@
 			"trans": "Du brauchst eine Untersuchungszugangserlaubnis, um ein Urteil abzugeben. Diese findest du in Dungeonkisten."
 		},
 		"noSolvedCases": {
-			"eng": "You haven't solved any investigations yet. Start investigating!",
-			"trans": "Du hast noch keine Untersuchungen abgeschlossen. Starte die Untersuchung!"
+			"eng": "No solved cases yet",
+			"trans": "Noch keine gelösten Fälle"
 		},
 		"notAllCluesCollected": {
 			"eng": "You must collect all clues before solving the case.",
@@ -4272,9 +4370,27 @@
 			"eng": "Please select a conclusion",
 			"trans": "Bitte wählen Sie eine Schlussfolgerung"
 		},
-		"solvedOn": {
-			"eng": "Solved on ${date}",
-			"trans": "Gelöst am ${date}"
+		"solveCasesHint": {
+			"eng": "Complete investigations to see them here",
+			"trans": "Untersuchungen abschließen, um sie hier zu sehen."
+		},
+		"solved": {
+			"eng": "Solved ${time}",
+			"trans": "Gelöst in ${time}"
+		},
+		"solvedCases": {
+			"description": {
+				"eng": "Review completed cases and revisit final reports.",
+				"trans": "Abgeschlossene Fälle prüfen und Endberichte erneut überprüfen."
+			},
+			"header": {
+				"eng": "Solved Investigations Registry",
+				"trans": "Register gelöster Untersuchungen"
+			},
+			"solved": {
+				"eng": "solved",
+				"trans": "Gelöst"
+			}
 		},
 		"submit": {
 			"eng": "Submit Verdict",
@@ -4287,10 +4403,6 @@
 		"submitVerdict": {
 			"eng": "Submit Your Verdict",
 			"trans": "Dein Urteil einreichen"
-		},
-		"submitting": {
-			"eng": "Submitting...",
-			"trans": "Absenden…"
 		},
 		"systemPrefix": {
 			"eng": "SYS",
@@ -4308,14 +4420,6 @@
 			"eng": "The Full Story",
 			"trans": "Vollständige Geschichte"
 		},
-		"totalSolved": {
-			"eng": "Total Solved: ${count}",
-			"trans": "Insgesamt gelöst: ${count}"
-		},
-		"truthRevealed": {
-			"eng": "The truth has been revealed",
-			"trans": "Die Wahrheit ist aufgedeckt worden."
-		},
 		"verdictImage": {
 			"eng": "Verdict ${num} investigation image",
 			"trans": "Urteil ${num} Untersuchungsbild"
@@ -4326,10 +4430,6 @@
 		}
 	},
 	"investigationPendingModal": {
-		"activeCase": {
-			"eng": "Active Case",
-			"trans": "Aktiver Fall"
-		},
 		"allCluesCollectedMessage": {
 			"eng": "You have collected all evidence for your current investigation. Complete this case before starting a new one.",
 			"trans": "Du hast alle Beweise für deine aktuelle Untersuchung gesammelt. Beende diesen Fall, bevor du einen neuen beginnst."
@@ -4768,6 +4868,10 @@
 			"eng": "Enemy drop",
 			"trans": "Gegner-Drop"
 		},
+		"eventDrop": {
+			"eng": "${eventName} event drop",
+			"trans": "Drop des ${eventName}-Events"
+		},
 		"intelligenceContract": {
 			"eng": "Intelligence Contract",
 			"trans": "Intelligenzvertrag"
@@ -5160,6 +5264,16 @@
 				"trans": "Kalibrierungsstabilisator"
 			}
 		},
+		"christmasEliteKey": {
+			"description": {
+				"eng": "A tactical key required to unlock Noel's Elite Crate. Only available from Noel herself.",
+				"trans": "Ein taktischer Schlüssel ist nötig, um die Noels Elite Kiste zu öffnen. Nur von Noel selbst erhältlich."
+			},
+			"name": {
+				"eng": "Elite Crate",
+				"trans": "Elite-Kiste"
+			}
+		},
 		"christmasLootBox": {
 			"description": {
 				"eng": "Event container that contains various rewards, can only be unlocked during December.",
@@ -5168,6 +5282,26 @@
 			"name": {
 				"eng": "Christmas Container",
 				"trans": "Weihnachtscontainer"
+			}
+		},
+		"christmasLootBoxElite": {
+			"description": {
+				"eng": "A premium Christmas container reserved for the most valuable rewards. Only the worthy receive Noel's elite gifts.",
+				"trans": "Ein Premium-Weihnachtscontainer, reserviert für die wertvollsten Belohnungen. Nur die Würdigen erhalten Noels Elitegeschenke."
+			},
+			"name": {
+				"eng": "Noel's Elite Crate",
+				"trans": "Noels Elite-Kiste"
+			}
+		},
+		"christmasToken": {
+			"description": {
+				"eng": "A token that can be used to unlock a Christmas container.",
+				"trans": "Ein Token zum Freischalten eines Weihnachtscontainers."
+			},
+			"name": {
+				"eng": "Christmas Token",
+				"trans": "Weihnachts-Token"
 			}
 		},
 		"clanMaintenanceResource": {
@@ -7485,8 +7619,8 @@
 	},
 	"mailTab": {
 		"empty": {
-			"eng": "currently you don\\'t have any chat",
-			"trans": "derzeit hast du keinen Chat"
+			"eng": "currently you don't have any chat",
+			"trans": "Du hast derzeit keinen Chat."
 		}
 	},
 	"mails": {
@@ -8819,6 +8953,24 @@
 			}
 		}
 	},
+	"mutedMessage": {
+		"contact": {
+			"eng": "If you have any questions, please contact us at ${email}",
+			"trans": "Falls Sie Fragen haben, kontaktieren Sie uns bitte unter ${email}."
+		},
+		"description": {
+			"eng": "Your account has been muted by the SYSTEM. You are temporarily unable to send messages or mails.",
+			"trans": "Dein Konto wurde vom SYSTEM stummgeschaltet. Du kannst vorübergehend keine Nachrichten oder E‑Mails senden."
+		},
+		"timeRemaining": {
+			"eng": "Time remaining: ${time}",
+			"trans": "Verbleibende Zeit: ${time}"
+		},
+		"title": {
+			"eng": "Account Muted",
+			"trans": "Konto stummgeschaltet"
+		}
+	},
 	"newsCard": {
 		"new": {
 			"eng": "NEW",
@@ -9170,6 +9322,40 @@
 			"tipBox": {
 				"eng": "You can sell your items here to other players, or buy items from other players.",
 				"trans": "Hier kannst du deine Gegenstände an andere Spieler verkaufen oder Gegenstände von anderen Spielern kaufen."
+			}
+		},
+		"christmas": {
+			"greetings": {
+				"eng": [
+					"Haha… Das ist genau das, was sie wollen. Ich bevorzuge Ehrlichkeit.",
+					"Prüfe deine Registrierung in der Liste der Guten. Andernfalls verschärft sich die Lage.",
+					"Die Weihnachtsatmosphäre ist Pflicht und muss aufrechterhalten werden.",
+					"Belohnungstausch – das ist eine taktische Operation. Bereit?",
+					"Andere Kunden sind bereits eingetroffen. Gut, meine Quota endet nicht automatisch."
+				],
+				"trans": [
+					"Haha… Das ist genau das, was sie wollen. Ich bevorzuge Ehrlichkeit.",
+					"Prüfe deine Registrierung in der Liste der Guten. Andernfalls verschärft sich die Lage.",
+					"Die Weihnachtsatmosphäre ist Pflicht und muss aufrechterhalten werden.",
+					"Belohnungstausch – das ist eine taktische Operation. Bereit?",
+					"Andere Kunden sind bereits eingetroffen. Gut, meine Quota endet nicht automatisch."
+				]
+			},
+			"locationDesc": {
+				"eng": "A militarized gift distribution center run by Noel, where Christmas cheer is a tactical operation.",
+				"trans": "Ein militärisiertes Geschenkverteilzentrum, betrieben von Noel, wo Weihnachtsfreude ein taktischer Einsatz ist."
+			},
+			"locationName": {
+				"eng": "Noel's Gift Depot",
+				"trans": "Noels Geschenkdepot"
+			},
+			"npcName": {
+				"eng": "Noel",
+				"trans": "Noel"
+			},
+			"shopName": {
+				"eng": "Noel",
+				"trans": "Noel"
 			}
 		},
 		"clinic": {
@@ -10929,6 +11115,10 @@
 				"eng": "You cannot attack this player due to alt detection",
 				"trans": "Kein Angriff auf diesen Spieler: Alt-Erkennung aktiv."
 			},
+			"cannotEngageBountyAltConnection": {
+				"eng": "You cannot attack this player due to bounty contributor alt detection",
+				"trans": "Du kannst diesen Spieler nicht angreifen, weil er als Alt eines Bounty-Beitrags erkannt wurde."
+			},
 			"cannotEngageInDungeon": {
 				"eng": "You cannot engage in PvP while in a dungeon",
 				"trans": "Du kannst in einem Dungeon nicht am PvP teilnehmen"
@@ -11559,12 +11749,6 @@
 			}
 		}
 	},
-	"solvedMysteriesPage": {
-		"title": {
-			"eng": "Solved Mysteries",
-			"trans": "Gelöste Geheimnisse"
-		}
-	},
 	"stat": {
 		"armor": {
 			"eng": "Armor",
@@ -11862,6 +12046,16 @@
 			"name": {
 				"eng": "Loot Increase",
 				"trans": "Beute erhöhen"
+			}
+		},
+		"muted": {
+			"desc": {
+				"eng": "This player have been muted by the system.",
+				"trans": "Dieser Spieler wurde vom System stummgeschaltet."
+			},
+			"name": {
+				"eng": "Muted",
+				"trans": "Stumm"
 			}
 		},
 		"poison": {
@@ -13080,6 +13274,10 @@
 			"giftCode": {
 				"eng": "Gift Code",
 				"trans": "Geschenkcode"
+			},
+			"investigations": {
+				"eng": "Investigations",
+				"trans": "Ermittlungen"
 			},
 			"leaderboard": {
 				"eng": "leaderboard",

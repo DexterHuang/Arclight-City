@@ -334,6 +334,12 @@
 				"trans": "ダウンタウンのアパート"
 			}
 		},
+		"chat": {
+			"cleared": {
+				"eng": "Apartment chat has been cleared.",
+				"trans": "アパートのチャットをクリアしました"
+			}
+		},
 		"enter": {
 			"blocked": {
 				"eng": "This apartment cannot entered at this moment.",
@@ -392,6 +398,24 @@
 		}
 	},
 	"apartmentPage": {
+		"clearChat": {
+			"cancel": {
+				"eng": "cancel",
+				"trans": "キャンセル"
+			},
+			"confirm": {
+				"eng": "clear chat",
+				"trans": "チャットクリア"
+			},
+			"title": {
+				"eng": "Clear Chat",
+				"trans": "チャットクリア"
+			},
+			"warning": {
+				"eng": "This will permanently delete all messages in your apartment chat. This action cannot be undone.",
+				"trans": "アパートチャット内のすべてのメッセージを永久に削除します。この操作は元に戻せません。"
+			}
+		},
 		"kitchenButton": {
 			"error": {
 				"eng": "You must be the owner of the apartment to access the kitchen",
@@ -423,6 +447,14 @@
 			}
 		},
 		"options": {
+			"clearChat": {
+				"eng": "clear chat",
+				"error": {
+					"eng": "The owner of this apartment must add you as a friend for you to send messages in this apartment.",
+					"trans": "このアパートのオーナーがあなたを友達に追加しないと、このアパートでメッセージを送れません。"
+				},
+				"trans": "チャットクリア"
+			},
 			"terminateLease": {
 				"eng": "terminate lease",
 				"trans": "契約を打ち切り"
@@ -1461,6 +1493,14 @@
 			}
 		},
 		"error": {
+			"levelRestriction1": {
+				"eng": "You need to be at least level ${level} to send message to global.",
+				"trans": "全体チャットに投稿するには、レベル${level}以上である必要があります。"
+			},
+			"levelRestriction2": {
+				"eng": "You need to be at least level ${level} to send message to global.",
+				"trans": "全体チャットに投稿するには、レベル${level}以上である必要があります。"
+			},
 			"link": {
 				"eng": "Links are not allowed in messages",
 				"trans": "メッセージにリンクを貼ることは許可されていません。"
@@ -1981,6 +2021,10 @@
 		"loading": {
 			"eng": "Loading...",
 			"trans": "読み込み中..."
+		},
+		"retry": {
+			"eng": "Retry",
+			"trans": "リトライ"
 		}
 	},
 	"compactRewardConfigDisplay": {
@@ -3694,6 +3738,12 @@
 				}
 			}
 		},
+		"invite": {
+			"restricted": {
+				"eng": "You cannot send gang invites now",
+				"trans": "今はギャング招待を送れません"
+			}
+		},
 		"inviteSent": {
 			"eng": "A invite has been sent to ${playerName}",
 			"trans": "${playerName}に招待が送られました。"
@@ -4096,10 +4146,6 @@
 			"eng": "ACKNOWLEDGE",
 			"trans": "了解"
 		},
-		"allCasesSolved": {
-			"eng": "You have solved all available investigations!",
-			"trans": "利用可能な調査はすべて解決しました！"
-		},
 		"allCluesCollected": {
 			"eng": "ALL CLUES COLLECTED",
 			"trans": "全手がかり取得済み"
@@ -4116,17 +4162,9 @@
 			"eng": "ANALYZING EVIDENCE...",
 			"trans": "証拠を解析中…"
 		},
-		"caseClosed": {
-			"eng": "Case Closed",
-			"trans": "案件完了"
-		},
 		"caseId": {
 			"eng": "CASE ID",
 			"trans": "ケースID"
-		},
-		"caseIntro": {
-			"eng": "Case Introduction",
-			"trans": "ケース紹介"
 		},
 		"caseResolved": {
 			"eng": "ACPD Case Resolved",
@@ -4231,14 +4269,74 @@
 			"trans": "新規案件"
 		},
 		"noActiveCase": {
-			"short": {
-				"eng": "No active case",
-				"trans": "アクティブな案件はありません"
+			"header": {
+				"eng": "ACPD INVESTIGATION TERMINAL",
+				"trans": "ACPD捜査ターミナル"
+			},
+			"intelBody1": {
+				"eng": "This console activates automatically once you capture your first clue.",
+				"trans": "最初の手がかりを取得すると、このコンソールは自動で起動します。"
+			},
+			"intelBody2": {
+				"eng": "Track the entire case from here—clues, summaries, and final verdict submission.",
+				"trans": "ここから事件全体を追跡：手がかり・概要・最終判決提出"
+			},
+			"intelHeader": {
+				"eng": "INTEL DISPATCH",
+				"trans": "情報送信"
+			},
+			"requirement": {
+				"eng": "4 clues required per case",
+				"trans": "ケースごとに4つの手がかりが必要"
+			},
+			"statusInline": {
+				"eng": "Case Slot Open • Permit required to submit verdict",
+				"trans": "ケーススロットオープン • 判決提出に許可証が必須"
+			},
+			"timelineAcquire": {
+				"desc": {
+					"eng": "Stronghold investigation points feed clues directly into this console.",
+					"trans": "要塞調査ポイントは、このコンソールへ手掛かりを直送します。"
+				},
+				"eng": "Acquire Intel",
+				"trans": "情報入手"
+			},
+			"timelineAssemble": {
+				"desc": {
+					"eng": "Collect all four clues to unlock the verdict authorization rail.",
+					"trans": "全4つの手がかりを集め、判決許可レールをアンロック"
+				},
+				"eng": "Assemble Evidence",
+				"trans": "証拠収集"
+			},
+			"timelineSubmit": {
+				"desc": {
+					"eng": "Spend one Investigation Access Permit to commit your conclusion.",
+					"trans": "調査アクセス許可証を1枚消費して結論を確定"
+				},
+				"eng": "Deliver Verdict",
+				"trans": "判決を下す"
+			},
+			"tipBody": {
+				"eng": "Tap to open the Investigation field manual and review how cases operate.",
+				"trans": "タップして調査フィールドマニュアルを開き、ケースの運用方法を確認してください。"
+			},
+			"tipTitle": {
+				"eng": "Need a briefing?",
+				"trans": "ブリーフィングが必要ですか？"
+			},
+			"totalSolved": {
+				"eng": "Solved dossiers: ${count}",
+				"trans": "解決済み案件数：${count}"
 			}
 		},
 		"noActiveInvestigation": {
 			"eng": "You have no active investigation to abandon.",
 			"trans": "中止できる調査はありません。"
+		},
+		"noCasesAvailable": {
+			"eng": "No investigations available",
+			"trans": "利用できる調査はありません"
 		},
 		"noChoices": {
 			"eng": "No choices available",
@@ -4249,8 +4347,8 @@
 			"trans": "判決を出すには調査アクセス許可証が必要です。  \nダンジョンのチェストにあります。"
 		},
 		"noSolvedCases": {
-			"eng": "You haven't solved any investigations yet. Start investigating!",
-			"trans": "まだ事件を解決していません。調査を始めましょう！"
+			"eng": "No solved cases yet",
+			"trans": "解決済みの案件はまだありません"
 		},
 		"notAllCluesCollected": {
 			"eng": "You must collect all clues before solving the case.",
@@ -4272,9 +4370,27 @@
 			"eng": "Please select a conclusion",
 			"trans": "結論を選択してください"
 		},
-		"solvedOn": {
-			"eng": "Solved on ${date}",
-			"trans": "解決日：${date}"
+		"solveCasesHint": {
+			"eng": "Complete investigations to see them here",
+			"trans": "調査完了で閲覧可能"
+		},
+		"solved": {
+			"eng": "Solved ${time}",
+			"trans": "解決済み ${time}"
+		},
+		"solvedCases": {
+			"description": {
+				"eng": "Review completed cases and revisit final reports.",
+				"trans": "完了案件を確認し、最終レポートへ戻る"
+			},
+			"header": {
+				"eng": "Solved Investigations Registry",
+				"trans": "解決済み調査一覧"
+			},
+			"solved": {
+				"eng": "solved",
+				"trans": "解決済み"
+			}
 		},
 		"submit": {
 			"eng": "Submit Verdict",
@@ -4287,10 +4403,6 @@
 		"submitVerdict": {
 			"eng": "Submit Your Verdict",
 			"trans": "判決を送信"
-		},
-		"submitting": {
-			"eng": "Submitting...",
-			"trans": "送信中…"
 		},
 		"systemPrefix": {
 			"eng": "SYS",
@@ -4308,14 +4420,6 @@
 			"eng": "The Full Story",
 			"trans": "フルストーリー"
 		},
-		"totalSolved": {
-			"eng": "Total Solved: ${count}",
-			"trans": "合計解決数：${count}"
-		},
-		"truthRevealed": {
-			"eng": "The truth has been revealed",
-			"trans": "真実が明らかになりました"
-		},
 		"verdictImage": {
 			"eng": "Verdict ${num} investigation image",
 			"trans": "判定${num}調査画像"
@@ -4326,10 +4430,6 @@
 		}
 	},
 	"investigationPendingModal": {
-		"activeCase": {
-			"eng": "Active Case",
-			"trans": "進行中のケース"
-		},
 		"allCluesCollectedMessage": {
 			"eng": "You have collected all evidence for your current investigation. Complete this case before starting a new one.",
 			"trans": "現在の調査に必要な証拠はすべて集めました。新しい案件へ進む前に、このケースを完了してください。"
@@ -4768,6 +4868,10 @@
 			"eng": "Enemy drop",
 			"trans": "敵のドロップ"
 		},
+		"eventDrop": {
+			"eng": "${eventName} event drop",
+			"trans": "${eventName} イベントドロップ"
+		},
 		"intelligenceContract": {
 			"eng": "Intelligence Contract",
 			"trans": "情報契約"
@@ -5160,6 +5264,16 @@
 				"trans": "キャリブレーションスタビライザー"
 			}
 		},
+		"christmasEliteKey": {
+			"description": {
+				"eng": "A tactical key required to unlock Noel's Elite Crate. Only available from Noel herself.",
+				"trans": "ノエルのエリートクレートを開くために必要な戦術キー。ノエル本人からしか入手できません。"
+			},
+			"name": {
+				"eng": "Elite Crate",
+				"trans": "エリートクレート"
+			}
+		},
 		"christmasLootBox": {
 			"description": {
 				"eng": "Event container that contains various rewards, can only be unlocked during December.",
@@ -5168,6 +5282,26 @@
 			"name": {
 				"eng": "Christmas Container",
 				"trans": "クリスマスコンテナ"
+			}
+		},
+		"christmasLootBoxElite": {
+			"description": {
+				"eng": "A premium Christmas container reserved for the most valuable rewards. Only the worthy receive Noel's elite gifts.",
+				"trans": "極上クリスマスコンテナ：最高価値報酬専用。ノエルのエリートギフトは選ばれた者にしか届かない。"
+			},
+			"name": {
+				"eng": "Noel's Elite Crate",
+				"trans": "ノエルのエリートクレート"
+			}
+		},
+		"christmasToken": {
+			"description": {
+				"eng": "A token that can be used to unlock a Christmas container.",
+				"trans": "クリスマスコンテナのロック解除に使えるトークン"
+			},
+			"name": {
+				"eng": "Christmas Token",
+				"trans": "クリスマストークン"
 			}
 		},
 		"clanMaintenanceResource": {
@@ -7485,8 +7619,8 @@
 	},
 	"mailTab": {
 		"empty": {
-			"eng": "currently you don\\'t have any chat",
-			"trans": "現在、チャットはありません。"
+			"eng": "currently you don't have any chat",
+			"trans": "現在、チャットがありません"
 		}
 	},
 	"mails": {
@@ -8819,6 +8953,24 @@
 			}
 		}
 	},
+	"mutedMessage": {
+		"contact": {
+			"eng": "If you have any questions, please contact us at ${email}",
+			"trans": "ご質問等ございましたら、${email} までお問い合わせください。"
+		},
+		"description": {
+			"eng": "Your account has been muted by the SYSTEM. You are temporarily unable to send messages or mails.",
+			"trans": "アカウントがシステムによりミュートされました。現在、メッセージやメールの送信はできません。"
+		},
+		"timeRemaining": {
+			"eng": "Time remaining: ${time}",
+			"trans": "残り時間:${time}"
+		},
+		"title": {
+			"eng": "Account Muted",
+			"trans": "アカウントミュート"
+		}
+	},
 	"newsCard": {
 		"new": {
 			"eng": "NEW",
@@ -9170,6 +9322,40 @@
 			"tipBox": {
 				"eng": "You can sell your items here to other players, or buy items from other players.",
 				"trans": "他のプレイヤーにアイテムを売ることもできますし、他のプレイヤーからアイテムを購入することもできます。"
+			}
+		},
+		"christmas": {
+			"greetings": {
+				"eng": [
+					"へへへ…これが彼らの望みだ。俺は直球で語る方が好きだ。",
+					"好人リストに載っているか確認してください。確認しないと、事態が複雑になります。",
+					"クリスマス雰囲気は必須です。従うのが不可欠です。",
+					"ギフト交換は戦術的作戦です。準備はできましたか？",
+					"別の顧客が来ました。了解です、私の配額は自動で補充されません。"
+				],
+				"trans": [
+					"へへへ…これが彼らの望みだ。俺は直球で語る方が好きだ。",
+					"好人リストに載っているか確認してください。確認しないと、事態が複雑になります。",
+					"クリスマス雰囲気は必須です。従うのが不可欠です。",
+					"ギフト交換は戦術的作戦です。準備はできましたか？",
+					"別の顧客が来ました。了解です、私の配額は自動で補充されません。"
+				]
+			},
+			"locationDesc": {
+				"eng": "A militarized gift distribution center run by Noel, where Christmas cheer is a tactical operation.",
+				"trans": "ノエルが運営する軍事化されたギフト配送センター。クリスマスの喜びは戦術作戦だ。"
+			},
+			"locationName": {
+				"eng": "Noel's Gift Depot",
+				"trans": "ノエルのギフトデポ"
+			},
+			"npcName": {
+				"eng": "Noel",
+				"trans": "ノエル"
+			},
+			"shopName": {
+				"eng": "Noel",
+				"trans": "ノエル"
 			}
 		},
 		"clinic": {
@@ -10929,6 +11115,10 @@
 				"eng": "You cannot attack this player due to alt detection",
 				"trans": "サブ垢(アルト)とシステムが判断したため、攻撃できません。"
 			},
+			"cannotEngageBountyAltConnection": {
+				"eng": "You cannot attack this player due to bounty contributor alt detection",
+				"trans": "バウンティ貢献者のalt検出により、このプレイヤーは攻撃できません"
+			},
 			"cannotEngageInDungeon": {
 				"eng": "You cannot engage in PvP while in a dungeon",
 				"trans": "ダンジョン内ではPvPに参加できません。"
@@ -11559,12 +11749,6 @@
 			}
 		}
 	},
-	"solvedMysteriesPage": {
-		"title": {
-			"eng": "Solved Mysteries",
-			"trans": "解決済みの謎"
-		}
-	},
 	"stat": {
 		"armor": {
 			"eng": "Armor",
@@ -11862,6 +12046,16 @@
 			"name": {
 				"eng": "Loot Increase",
 				"trans": "ルート増加"
+			}
+		},
+		"muted": {
+			"desc": {
+				"eng": "This player have been muted by the system.",
+				"trans": "このプレイヤーはシステムによりミュート済みです。"
+			},
+			"name": {
+				"eng": "Muted",
+				"trans": "ミュート"
 			}
 		},
 		"poison": {
@@ -13080,6 +13274,10 @@
 			"giftCode": {
 				"eng": "Gift Code",
 				"trans": "ギフトコード"
+			},
+			"investigations": {
+				"eng": "Investigations",
+				"trans": "調査"
 			},
 			"leaderboard": {
 				"eng": "leaderboard",
