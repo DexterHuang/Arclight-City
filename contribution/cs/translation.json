@@ -4342,10 +4342,6 @@
 			"eng": "No choices available",
 			"trans": "Žádné možnosti nejsou k dispozici"
 		},
-		"noPermit": {
-			"eng": "You need an Investigation Access Permit to submit a verdict. These can be found in dungeon chests.",
-			"trans": "Pro podání rozsudku je potřeba povolení pro přístup k vyšetřování. Najdete je v truhlách dungeonu."
-		},
 		"noSolvedCases": {
 			"eng": "No solved cases yet",
 			"trans": "Zatím žádné vyřešené případy"
@@ -8752,6 +8748,62 @@
 				"trans": "Regulátor tlaku"
 			}
 		},
+		"signalIntercept": {
+			"carrier": {
+				"eng": "Carrier Frequency",
+				"trans": "Nosná frekvence"
+			},
+			"data": {
+				"eng": "Data Stream",
+				"trans": "Proud dat"
+			},
+			"decryption": {
+				"eng": "Decryption Progress",
+				"trans": "Postup dešifrování"
+			},
+			"guide": {
+				"description": {
+					"eng": "Align both frequency waves by adjusting the Carrier Frequency and Data Stream controls.",
+					"trans": "Urovnej obě vlny frekvence nastavením ovládacích prvků nosné frekvence a datového proudu."
+				},
+				"title": {
+					"eng": "Objective",
+					"trans": "Cíl"
+				}
+			},
+			"protocol": {
+				"eng": "Protocol: SIGINT-9",
+				"trans": "Protokol: SIGINT-9"
+			},
+			"status": {
+				"locked": {
+					"eng": "LOCKED",
+					"trans": "ZAMĚČENO"
+				},
+				"scanning": {
+					"eng": "SCANNING",
+					"trans": "Skenování"
+				}
+			},
+			"success": {
+				"message": {
+					"eng": "ACCESS GRANTED",
+					"trans": "Přístup povolen"
+				},
+				"title": {
+					"eng": "DECRYPTION COMPLETE",
+					"trans": "Dešifrování dokončeno"
+				}
+			},
+			"title": {
+				"eng": "SIGNAL INTERCEPT",
+				"trans": "Zachycení signálu"
+			},
+			"visualizer": {
+				"eng": "Spectral Visualizer",
+				"trans": "Spektrální zobrazovač"
+			}
+		},
 		"targetTap": {
 			"description": {
 				"eng": "Tap the target to acquire it",
@@ -9327,18 +9379,18 @@
 		"christmas": {
 			"greetings": {
 				"eng": [
-					"Ha… To je přesně to, co chtějí. Líbí se mi upřímnost.",
-					"Ověřte, že jste zadali bonusy ve svém seznamu. Pokud ne, situace se zhorší.",
-					"Vánoční atmosféra je požadavek a musí být zachována.",
-					"Výměna railgunu – Taktická operace: už jsi to udělal?",
-					"Jiní už přišli, není problém. Kvóta nevyprší automaticky."
+					"Ho ho ho... that's what they expect. I prefer to get straight to business.",
+					"You on the nice list? Better be, or things get complicated.",
+					"Christmas cheer is mandatory. Compliance is non-negotiable.",
+					"Gift exchange is a tactical operation. Are you prepared?",
+					"Another customer. Good. My quota won't fill itself."
 				],
 				"trans": [
-					"Ha… To je přesně to, co chtějí. Líbí se mi upřímnost.",
-					"Ověřte, že jste zadali bonusy ve svém seznamu. Pokud ne, situace se zhorší.",
-					"Vánoční atmosféra je požadavek a musí být zachována.",
-					"Výměna railgunu – Taktická operace: už jsi to udělal?",
-					"Jiní už přišli, není problém. Kvóta nevyprší automaticky."
+					"Hohoho… To je přesně to, co očekávají. Raději se pustím do práce.",
+					"Jsi na seznamu dobrých? Nejsi tam – a pak se to zkomplikuje.",
+					"Vánoční nálada je povinná. Dodržování je nevyjednatelné.",
+					"Výměna dárků je taktická operace. Jste připraveni?",
+					"Další zákazník. Dobře. Moje kvóta se sama nevyplní."
 				]
 			},
 			"locationDesc": {

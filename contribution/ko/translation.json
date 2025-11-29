@@ -4163,8 +4163,8 @@
 			"trans": "증거 분석 중…"
 		},
 		"caseId": {
-			"eng": "CASE ID",
-			"trans": "케이스 ID"
+			"eng": "Case ${id}",
+			"trans": "케이스 ${id}"
 		},
 		"caseResolved": {
 			"eng": "ACPD Case Resolved",
@@ -4341,10 +4341,6 @@
 		"noChoices": {
 			"eng": "No choices available",
 			"trans": "선택지가 없습니다"
-		},
-		"noPermit": {
-			"eng": "You need an Investigation Access Permit to submit a verdict. These can be found in dungeon chests.",
-			"trans": "판결을 제출하려면 조사 접근 허가증이 필요합니다. 이들은 던전 보물함에서 찾아볼 수 있습니다."
 		},
 		"noSolvedCases": {
 			"eng": "No solved cases yet",
@@ -8752,6 +8748,62 @@
 				"trans": "압력 조절기"
 			}
 		},
+		"signalIntercept": {
+			"carrier": {
+				"eng": "Carrier Frequency",
+				"trans": "캐리어 주파수"
+			},
+			"data": {
+				"eng": "Data Stream",
+				"trans": "데이터 스트림"
+			},
+			"decryption": {
+				"eng": "Decryption Progress",
+				"trans": "복호화 진행률"
+			},
+			"guide": {
+				"description": {
+					"eng": "Align both frequency waves by adjusting the Carrier Frequency and Data Stream controls.",
+					"trans": "캐리어 주파수와 데이터 스트림 컨트롤을 조정해 두 개의 주파수 파장을 정렬하세요."
+				},
+				"title": {
+					"eng": "Objective",
+					"trans": "목표"
+				}
+			},
+			"protocol": {
+				"eng": "Protocol: SIGINT-9",
+				"trans": "프로토콜: SIGINT-9"
+			},
+			"status": {
+				"locked": {
+					"eng": "LOCKED",
+					"trans": "잠김"
+				},
+				"scanning": {
+					"eng": "SCANNING",
+					"trans": "스캔 중"
+				}
+			},
+			"success": {
+				"message": {
+					"eng": "ACCESS GRANTED",
+					"trans": "접속 허가됨"
+				},
+				"title": {
+					"eng": "DECRYPTION COMPLETE",
+					"trans": "복호화 완료"
+				}
+			},
+			"title": {
+				"eng": "SIGNAL INTERCEPT",
+				"trans": "신호 가로채기"
+			},
+			"visualizer": {
+				"eng": "Spectral Visualizer",
+				"trans": "스펙트럼 시각화기"
+			}
+		},
 		"targetTap": {
 			"description": {
 				"eng": "Tap the target to acquire it",
@@ -9327,18 +9379,18 @@
 		"christmas": {
 			"greetings": {
 				"eng": [
-					"헤헤헤… 이게 바로 그들이 원하는 거야. 난 솔직하게 말하는 걸 더 좋아해.",
-					"좋은 사람 리스트에 등록돼 있는지 확인해주세요. 확인하지 않으면 상황이 복잡해집니다.",
-					"크리스마스 분위기는 필수이며, 반드시 지켜야 합니다.",
-					"선물 교환은 전술적 작전입니다. 준비됐나요?",
-					"다른 고객이 도착했습니다. 알겠습니다, 제 할당량은 자동으로 보충되지 않습니다."
+					"Ho ho ho... that's what they expect. I prefer to get straight to business.",
+					"You on the nice list? Better be, or things get complicated.",
+					"Christmas cheer is mandatory. Compliance is non-negotiable.",
+					"Gift exchange is a tactical operation. Are you prepared?",
+					"Another customer. Good. My quota won't fill itself."
 				],
 				"trans": [
-					"헤헤헤… 이게 바로 그들이 원하는 거야. 난 솔직하게 말하는 걸 더 좋아해.",
-					"좋은 사람 리스트에 등록돼 있는지 확인해주세요. 확인하지 않으면 상황이 복잡해집니다.",
-					"크리스마스 분위기는 필수이며, 반드시 지켜야 합니다.",
-					"선물 교환은 전술적 작전입니다. 준비됐나요?",
-					"다른 고객이 도착했습니다. 알겠습니다, 제 할당량은 자동으로 보충되지 않습니다."
+					"하하하… 그들이 그렇게 기대하는 거군요. 본론으로 바로 진행합니다.",
+					"네가 좋은 리스트에 있니? 아니면 상황이 복잡해질 거야.",
+					"크리스마스 분위기는 필수이며, 준수는 협상할 수 없습니다.",
+					"선물 교환은 전술적 작전입니다. 준비되셨나요?",
+					"다른 고객이 왔어요. 좋아요. 내 할당량은 스스로 채워지지 않아요."
 				]
 			},
 			"locationDesc": {

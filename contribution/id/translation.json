@@ -4342,10 +4342,6 @@
 			"eng": "No choices available",
 			"trans": "Pilihan tidak tersedia"
 		},
-		"noPermit": {
-			"eng": "You need an Investigation Access Permit to submit a verdict. These can be found in dungeon chests.",
-			"trans": "Anda perlu Izin Akses Investigasi untuk menyerahkan putusan. Ditemukan di peti-peti dungeon."
-		},
 		"noSolvedCases": {
 			"eng": "No solved cases yet",
 			"trans": "Belum ada kasus terselesaikan"
@@ -8752,6 +8748,62 @@
 				"trans": "Regulator Tekanan"
 			}
 		},
+		"signalIntercept": {
+			"carrier": {
+				"eng": "Carrier Frequency",
+				"trans": "Frekuensi Pembawa"
+			},
+			"data": {
+				"eng": "Data Stream",
+				"trans": "Aliran Data"
+			},
+			"decryption": {
+				"eng": "Decryption Progress",
+				"trans": "Progres Dekripsi"
+			},
+			"guide": {
+				"description": {
+					"eng": "Align both frequency waves by adjusting the Carrier Frequency and Data Stream controls.",
+					"trans": "Selaraskan kedua gelombang frekuensi dengan mengatur kontrol Frekuensi Pengangkut dan Aliran Data."
+				},
+				"title": {
+					"eng": "Objective",
+					"trans": "Tujuan"
+				}
+			},
+			"protocol": {
+				"eng": "Protocol: SIGINT-9",
+				"trans": "Protokol: SIGINT-9"
+			},
+			"status": {
+				"locked": {
+					"eng": "LOCKED",
+					"trans": "Terkunci"
+				},
+				"scanning": {
+					"eng": "SCANNING",
+					"trans": "Memindai"
+				}
+			},
+			"success": {
+				"message": {
+					"eng": "ACCESS GRANTED",
+					"trans": "Akses Diizinkan"
+				},
+				"title": {
+					"eng": "DECRYPTION COMPLETE",
+					"trans": "Dekripsi Selesai"
+				}
+			},
+			"title": {
+				"eng": "SIGNAL INTERCEPT",
+				"trans": "Intersepsi Sinyal"
+			},
+			"visualizer": {
+				"eng": "Spectral Visualizer",
+				"trans": "Visualisasi Spektral"
+			}
+		},
 		"targetTap": {
 			"description": {
 				"eng": "Tap the target to acquire it",
@@ -9327,18 +9379,18 @@
 		"christmas": {
 			"greetings": {
 				"eng": [
-					"Hehe… Ini memang yang mereka inginkan. Aku lebih suka berbicara jujur.",
-					"Pastikan Anda terdaftar dalam Daftar Orang Baik. Jika tidak, situasinya akan menjadi kompleks.",
-					"Suasana Natal wajib dan harus dipertahankan.",
-					"Pertukaran hadiah adalah operasi taktis. Siapkah Anda?",
-					"Pelanggan lain sudah datang. Baik, kuotaku tidak akan terisi otomatis."
+					"Ho ho ho... that's what they expect. I prefer to get straight to business.",
+					"You on the nice list? Better be, or things get complicated.",
+					"Christmas cheer is mandatory. Compliance is non-negotiable.",
+					"Gift exchange is a tactical operation. Are you prepared?",
+					"Another customer. Good. My quota won't fill itself."
 				],
 				"trans": [
-					"Hehe… Ini memang yang mereka inginkan. Aku lebih suka berbicara jujur.",
-					"Pastikan Anda terdaftar dalam Daftar Orang Baik. Jika tidak, situasinya akan menjadi kompleks.",
-					"Suasana Natal wajib dan harus dipertahankan.",
-					"Pertukaran hadiah adalah operasi taktis. Siapkah Anda?",
-					"Pelanggan lain sudah datang. Baik, kuotaku tidak akan terisi otomatis."
+					"Ho ho ho... itulah yang mereka harapkan. Saya lebih suka langsung ke urusan bisnis.",
+					"Kamu masuk daftar baik? Lebih baik, kalau tidak akan menjadi rumit.",
+					"Semangat Natal wajib. Kepatuhan tidak dapat dinegosiasikan.",
+					"Tukar hadiah adalah operasi taktis. Apakah kamu siap?",
+					"Pelanggan lain. Bagus. Kuota saya tidak akan terisi otomatis."
 				]
 			},
 			"locationDesc": {

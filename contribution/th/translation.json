@@ -4342,10 +4342,6 @@
 			"eng": "No choices available",
 			"trans": "ไม่มีตัวเลือก"
 		},
-		"noPermit": {
-			"eng": "You need an Investigation Access Permit to submit a verdict. These can be found in dungeon chests.",
-			"trans": "คุณต้องมีใบอนุญาตเข้าถึงการสืบสวนเพื่อยื่นคำพิพากษา ใบเหล่านี้สามารถหาได้ในกล่องดันเจี้ยน"
-		},
 		"noSolvedCases": {
 			"eng": "No solved cases yet",
 			"trans": "ยังไม่มีเคสที่แก้"
@@ -8752,6 +8748,62 @@
 				"trans": "ตัวควบความดัน"
 			}
 		},
+		"signalIntercept": {
+			"carrier": {
+				"eng": "Carrier Frequency",
+				"trans": "ความถี่ตัวขนส่ง"
+			},
+			"data": {
+				"eng": "Data Stream",
+				"trans": "สตรีมข้อมูล"
+			},
+			"decryption": {
+				"eng": "Decryption Progress",
+				"trans": "ความคืบหน้าถอดรหัส"
+			},
+			"guide": {
+				"description": {
+					"eng": "Align both frequency waves by adjusting the Carrier Frequency and Data Stream controls.",
+					"trans": "จัดแนวคลื่นความถี่ทั้งสองด้วยการตั้งค่าความถี่ตัวส่งและการควบคุมสตรีมข้อมูล"
+				},
+				"title": {
+					"eng": "Objective",
+					"trans": "เป้าหมาย"
+				}
+			},
+			"protocol": {
+				"eng": "Protocol: SIGINT-9",
+				"trans": "โปรโตคอล: SIGINT-9"
+			},
+			"status": {
+				"locked": {
+					"eng": "LOCKED",
+					"trans": "ล็อค"
+				},
+				"scanning": {
+					"eng": "SCANNING",
+					"trans": "กำลังสแกน"
+				}
+			},
+			"success": {
+				"message": {
+					"eng": "ACCESS GRANTED",
+					"trans": "เข้าถึงสำเร็จ"
+				},
+				"title": {
+					"eng": "DECRYPTION COMPLETE",
+					"trans": "ถอดรหัสสำเร็จ"
+				}
+			},
+			"title": {
+				"eng": "SIGNAL INTERCEPT",
+				"trans": "ดักจับสัญญาณ"
+			},
+			"visualizer": {
+				"eng": "Spectral Visualizer",
+				"trans": "ตัวแสดงสเปกตรัม"
+			}
+		},
 		"targetTap": {
 			"description": {
 				"eng": "Tap the target to acquire it",
@@ -9327,18 +9379,18 @@
 		"christmas": {
 			"greetings": {
 				"eng": [
-					"ฮ่า… นั่นแหละที่พวกเขาต้องการ ฉันชอบความซื่อสัตย์",
-					"ตรวจสอบการลงทะเบียนของคุณในรายการบอน หากไม่ทำเช่นนั้น สถานการณ์จะเลวร้ายขึ้น",
-					"บรรยากาศคริสต์มาสเป็นข้อกำหนดและต้องรักษาไว้",
-					"แลกรางวัล – การดำเนินงานเชิงกลยุทธ์ พร้อมหรือยัง?",
-					"ลูกค้าอื่น ๆ มาแล้ว ไม่เป็นไร โควต้าไม่มีการหมดอัตโนมัติ"
+					"Ho ho ho... that's what they expect. I prefer to get straight to business.",
+					"You on the nice list? Better be, or things get complicated.",
+					"Christmas cheer is mandatory. Compliance is non-negotiable.",
+					"Gift exchange is a tactical operation. Are you prepared?",
+					"Another customer. Good. My quota won't fill itself."
 				],
 				"trans": [
-					"ฮ่า… นั่นแหละที่พวกเขาต้องการ ฉันชอบความซื่อสัตย์",
-					"ตรวจสอบการลงทะเบียนของคุณในรายการบอน หากไม่ทำเช่นนั้น สถานการณ์จะเลวร้ายขึ้น",
-					"บรรยากาศคริสต์มาสเป็นข้อกำหนดและต้องรักษาไว้",
-					"แลกรางวัล – การดำเนินงานเชิงกลยุทธ์ พร้อมหรือยัง?",
-					"ลูกค้าอื่น ๆ มาแล้ว ไม่เป็นไร โควต้าไม่มีการหมดอัตโนมัติ"
+					"โฮ โฮ โฮ… นี่แหละที่พวกเขาต้องการ ฉันชอบไปตรง ๆ",
+					"คุณอยู่ในรายชื่อดีไหม? ควรเป็นแบบนั้น มิฉะนั้นจะซับซ้อน",
+					"อารมณ์คริสต์มาสเป็นข้อกำหนด ต้องปฏิบัติโดยเด็ดขาด",
+					"การแลกของขวัญเป็นปฏิบัติการเชิงกลยุทธ์ คุณพร้อมหรือยัง?",
+					"ลูกค้าอีกคนหนึ่ง โอเค คิวโต้ของฉันจะไม่เติมเอง"
 				]
 			},
 			"locationDesc": {

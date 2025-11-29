@@ -4163,8 +4163,8 @@
 			"trans": "Анализируем доказательства…"
 		},
 		"caseId": {
-			"eng": "CASE ID",
-			"trans": "ID дела"
+			"eng": "Case ${id}",
+			"trans": "Кейс ${id}"
 		},
 		"caseResolved": {
 			"eng": "ACPD Case Resolved",
@@ -4341,10 +4341,6 @@
 		"noChoices": {
 			"eng": "No choices available",
 			"trans": "Нет доступных вариантов"
-		},
-		"noPermit": {
-			"eng": "You need an Investigation Access Permit to submit a verdict. These can be found in dungeon chests.",
-			"trans": "Для подачи вердикта требуется разрешение доступа к расследованиям. Их можно найти в сундуках подземелий."
 		},
 		"noSolvedCases": {
 			"eng": "No solved cases yet",
@@ -8752,6 +8748,62 @@
 				"trans": "Регулятор давления"
 			}
 		},
+		"signalIntercept": {
+			"carrier": {
+				"eng": "Carrier Frequency",
+				"trans": "Несущая частота"
+			},
+			"data": {
+				"eng": "Data Stream",
+				"trans": "Поток данных"
+			},
+			"decryption": {
+				"eng": "Decryption Progress",
+				"trans": "Прогресс расшифровки"
+			},
+			"guide": {
+				"description": {
+					"eng": "Align both frequency waves by adjusting the Carrier Frequency and Data Stream controls.",
+					"trans": "Согласуйте обе частотные волны, отрегулировав параметры Частоты несущей и Потока данных."
+				},
+				"title": {
+					"eng": "Objective",
+					"trans": "Цель"
+				}
+			},
+			"protocol": {
+				"eng": "Protocol: SIGINT-9",
+				"trans": "Протокол: SIGINT-9"
+			},
+			"status": {
+				"locked": {
+					"eng": "LOCKED",
+					"trans": "Заблокировано"
+				},
+				"scanning": {
+					"eng": "SCANNING",
+					"trans": "Сканирование"
+				}
+			},
+			"success": {
+				"message": {
+					"eng": "ACCESS GRANTED",
+					"trans": "Доступ разрешён"
+				},
+				"title": {
+					"eng": "DECRYPTION COMPLETE",
+					"trans": "Дешифрование завершено"
+				}
+			},
+			"title": {
+				"eng": "SIGNAL INTERCEPT",
+				"trans": "Перехват сигнала"
+			},
+			"visualizer": {
+				"eng": "Spectral Visualizer",
+				"trans": "Визуализатор спектра"
+			}
+		},
 		"targetTap": {
 			"description": {
 				"eng": "Tap the target to acquire it",
@@ -9327,18 +9379,18 @@
 		"christmas": {
 			"greetings": {
 				"eng": [
-					"Хехе… Это именно то, что они хотят. Я предпочитаю быть честным.",
-					"Проверь свою регистрацию в списке добрых людей. Иначе ситуация усложнится.",
-					"Рождественская атмосфера обязательна и должна поддерживаться.",
-					"Обмен наградами – это тактическая операция. Готов?",
-					"Другие клиенты уже прибыли. Хорошо, моя квота не будет завершена автоматически."
+					"Ho ho ho... that's what they expect. I prefer to get straight to business.",
+					"You on the nice list? Better be, or things get complicated.",
+					"Christmas cheer is mandatory. Compliance is non-negotiable.",
+					"Gift exchange is a tactical operation. Are you prepared?",
+					"Another customer. Good. My quota won't fill itself."
 				],
 				"trans": [
-					"Хехе… Это именно то, что они хотят. Я предпочитаю быть честным.",
-					"Проверь свою регистрацию в списке добрых людей. Иначе ситуация усложнится.",
-					"Рождественская атмосфера обязательна и должна поддерживаться.",
-					"Обмен наградами – это тактическая операция. Готов?",
-					"Другие клиенты уже прибыли. Хорошо, моя квота не будет завершена автоматически."
+					"Хо‑хо‑хо… это то, что они ожидают. Я предпочитаю сразу переходить к делу.",
+					"Ты в списке хороших? Лучше бы так, иначе всё усложнится.",
+					"Обязательное рождественское настроение. Соблюдение непременно.",
+					"Обмен подарками — тактическая операция. Готовы ли вы?",
+					"Ещё один клиент. Хорошо. Моя квота не заполняется сама по себе."
 				]
 			},
 			"locationDesc": {

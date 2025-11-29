@@ -4342,10 +4342,6 @@
 			"eng": "No choices available",
 			"trans": "選択肢がありません"
 		},
-		"noPermit": {
-			"eng": "You need an Investigation Access Permit to submit a verdict. These can be found in dungeon chests.",
-			"trans": "判決を出すには調査アクセス許可証が必要です。  \nダンジョンのチェストにあります。"
-		},
 		"noSolvedCases": {
 			"eng": "No solved cases yet",
 			"trans": "解決済みの案件はまだありません"
@@ -8752,6 +8748,62 @@
 				"trans": "圧力調整器"
 			}
 		},
+		"signalIntercept": {
+			"carrier": {
+				"eng": "Carrier Frequency",
+				"trans": "搬送波周波数"
+			},
+			"data": {
+				"eng": "Data Stream",
+				"trans": "データストリーム"
+			},
+			"decryption": {
+				"eng": "Decryption Progress",
+				"trans": "復号進捗"
+			},
+			"guide": {
+				"description": {
+					"eng": "Align both frequency waves by adjusting the Carrier Frequency and Data Stream controls.",
+					"trans": "キャリア周波数とデータストリーム制御を調整して、両方の周波数波形を合わせる。"
+				},
+				"title": {
+					"eng": "Objective",
+					"trans": "目標"
+				}
+			},
+			"protocol": {
+				"eng": "Protocol: SIGINT-9",
+				"trans": "プロトコル：SIGINT-9"
+			},
+			"status": {
+				"locked": {
+					"eng": "LOCKED",
+					"trans": "ロック済み"
+				},
+				"scanning": {
+					"eng": "SCANNING",
+					"trans": "スキャン中"
+				}
+			},
+			"success": {
+				"message": {
+					"eng": "ACCESS GRANTED",
+					"trans": "アクセス許可"
+				},
+				"title": {
+					"eng": "DECRYPTION COMPLETE",
+					"trans": "復号完了"
+				}
+			},
+			"title": {
+				"eng": "SIGNAL INTERCEPT",
+				"trans": "信号傍受"
+			},
+			"visualizer": {
+				"eng": "Spectral Visualizer",
+				"trans": "スペクトルビジュアライザー"
+			}
+		},
 		"targetTap": {
 			"description": {
 				"eng": "Tap the target to acquire it",
@@ -9327,18 +9379,18 @@
 		"christmas": {
 			"greetings": {
 				"eng": [
-					"へへへ…これが彼らの望みだ。俺は直球で語る方が好きだ。",
-					"好人リストに載っているか確認してください。確認しないと、事態が複雑になります。",
-					"クリスマス雰囲気は必須です。従うのが不可欠です。",
-					"ギフト交換は戦術的作戦です。準備はできましたか？",
-					"別の顧客が来ました。了解です、私の配額は自動で補充されません。"
+					"Ho ho ho... that's what they expect. I prefer to get straight to business.",
+					"You on the nice list? Better be, or things get complicated.",
+					"Christmas cheer is mandatory. Compliance is non-negotiable.",
+					"Gift exchange is a tactical operation. Are you prepared?",
+					"Another customer. Good. My quota won't fill itself."
 				],
 				"trans": [
-					"へへへ…これが彼らの望みだ。俺は直球で語る方が好きだ。",
-					"好人リストに載っているか確認してください。確認しないと、事態が複雑になります。",
-					"クリスマス雰囲気は必須です。従うのが不可欠です。",
-					"ギフト交換は戦術的作戦です。準備はできましたか？",
-					"別の顧客が来ました。了解です、私の配額は自動で補充されません。"
+					"ホホホ… それが彼らの期待だ。私はすぐに本題へ進みたい。",
+					"あなたはホワイトリストに入っている？入っていないと、事態が複雑になるよ。",
+					"クリスマス気分は必須です。従わないと許されません。",
+					"ギフト交換は戦術的作戦です。準備はできていますか？",
+					"またお客さんだ。いいね。クオータは自動で埋まらないんだ。"
 				]
 			},
 			"locationDesc": {

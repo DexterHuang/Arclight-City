@@ -4342,10 +4342,6 @@
 			"eng": "No choices available",
 			"trans": "Aucun choix disponible"
 		},
-		"noPermit": {
-			"eng": "You need an Investigation Access Permit to submit a verdict. These can be found in dungeon chests.",
-			"trans": "Vous avez besoin d'un Permis d'accès à l'enquête pour soumettre un verdict. Vous pouvez en trouver dans les coffres de donjon."
-		},
 		"noSolvedCases": {
 			"eng": "No solved cases yet",
 			"trans": "Pas encore de cas résolus"
@@ -8752,6 +8748,62 @@
 				"trans": "Regulateur de pression"
 			}
 		},
+		"signalIntercept": {
+			"carrier": {
+				"eng": "Carrier Frequency",
+				"trans": "Fréquence porteuse"
+			},
+			"data": {
+				"eng": "Data Stream",
+				"trans": "Flux de données"
+			},
+			"decryption": {
+				"eng": "Decryption Progress",
+				"trans": "Progression du décryptage"
+			},
+			"guide": {
+				"description": {
+					"eng": "Align both frequency waves by adjusting the Carrier Frequency and Data Stream controls.",
+					"trans": "Alignez les deux ondes en ajustant la fréquence porteuse et le flux de données."
+				},
+				"title": {
+					"eng": "Objective",
+					"trans": "Objectif"
+				}
+			},
+			"protocol": {
+				"eng": "Protocol: SIGINT-9",
+				"trans": "Protocole : SIGINT-9"
+			},
+			"status": {
+				"locked": {
+					"eng": "LOCKED",
+					"trans": "VERROUILLÉ"
+				},
+				"scanning": {
+					"eng": "SCANNING",
+					"trans": "NUMÉRISATION"
+				}
+			},
+			"success": {
+				"message": {
+					"eng": "ACCESS GRANTED",
+					"trans": "ACCÈS AUTORISÉ"
+				},
+				"title": {
+					"eng": "DECRYPTION COMPLETE",
+					"trans": "Décryptage terminé"
+				}
+			},
+			"title": {
+				"eng": "SIGNAL INTERCEPT",
+				"trans": "Interception de signal"
+			},
+			"visualizer": {
+				"eng": "Spectral Visualizer",
+				"trans": "Visualiseur Spectral"
+			}
+		},
 		"targetTap": {
 			"description": {
 				"eng": "Tap the target to acquire it",
@@ -9327,18 +9379,18 @@
 		"christmas": {
 			"greetings": {
 				"eng": [
-					"Haha… C’est exactement ce qu’ils veulent. Je préfère l’honnêteté.",
-					"Vérifie ton inscription sur la Liste des Bons. Sinon, la situation s'aggrave.",
-					"L’atmosphère de Noël est obligatoire et doit être maintenue.",
-					"Échange de récompense – c’est une opération tactique. Prêt ?",
-					"D’autres clients sont déjà arrivés. Pas de problème, mon quota ne se termine pas automatiquement."
+					"Ho ho ho... that's what they expect. I prefer to get straight to business.",
+					"You on the nice list? Better be, or things get complicated.",
+					"Christmas cheer is mandatory. Compliance is non-negotiable.",
+					"Gift exchange is a tactical operation. Are you prepared?",
+					"Another customer. Good. My quota won't fill itself."
 				],
 				"trans": [
-					"Haha… C’est exactement ce qu’ils veulent. Je préfère l’honnêteté.",
-					"Vérifie ton inscription sur la Liste des Bons. Sinon, la situation s'aggrave.",
-					"L’atmosphère de Noël est obligatoire et doit être maintenue.",
-					"Échange de récompense – c’est une opération tactique. Prêt ?",
-					"D’autres clients sont déjà arrivés. Pas de problème, mon quota ne se termine pas automatiquement."
+					"Ho ho ho… c’est ce qu’ils attendent. Je préfère aller droit au but.",
+					"Sur la bonne liste ? Il faut être dedans, sinon ça devient compliqué.",
+					"L'ambiance de Noël est obligatoire. La conformité est non négociable.",
+					"L’échange de cadeaux est une opération tactique. Êtes‑vous prêts ?",
+					"Un autre client. Bien. Mon quota ne se remplira pas tout seul."
 				]
 			},
 			"locationDesc": {
