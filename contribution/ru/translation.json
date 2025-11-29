@@ -3739,6 +3739,16 @@
 			}
 		},
 		"invite": {
+			"error": {
+				"globalCooldown": {
+					"eng": "You can only send clan invites every ${minutes} minutes",
+					"trans": "Приглашения в клан можно отправлять только раз в ${minutes} минут"
+				},
+				"playerCooldown": {
+					"eng": "You can only send an invite to this player every ${hours} hour(s)",
+					"trans": "Вы можете отправлять приглашение этому игроку только раз в ${hours} час(а/ов)."
+				}
+			},
 			"restricted": {
 				"eng": "You cannot send gang invites now",
 				"trans": "Вы не можете сейчас отправлять приглашения в банду."

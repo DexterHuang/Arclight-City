@@ -3739,6 +3739,16 @@
 			}
 		},
 		"invite": {
+			"error": {
+				"globalCooldown": {
+					"eng": "You can only send clan invites every ${minutes} minutes",
+					"trans": "クラン招待は${minutes}分ごとにしか送れません"
+				},
+				"playerCooldown": {
+					"eng": "You can only send an invite to this player every ${hours} hour(s)",
+					"trans": "このプレイヤーへの招待は、${hours}時間ごとにしか送れません。"
+				}
+			},
 			"restricted": {
 				"eng": "You cannot send gang invites now",
 				"trans": "今はギャング招待を送れません"

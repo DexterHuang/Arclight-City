@@ -3739,6 +3739,16 @@
 			}
 		},
 		"invite": {
+			"error": {
+				"globalCooldown": {
+					"eng": "You can only send clan invites every ${minutes} minutes",
+					"trans": "您每隔${minutes}分鐘只能發送一次戰隊邀請"
+				},
+				"playerCooldown": {
+					"eng": "You can only send an invite to this player every ${hours} hour(s)",
+					"trans": "你每${hours}小時只能向此玩家發送邀請"
+				}
+			},
 			"restricted": {
 				"eng": "You cannot send gang invites now",
 				"trans": "您現在無法發送幫派邀請"

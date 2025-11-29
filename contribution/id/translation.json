@@ -3739,6 +3739,16 @@
 			}
 		},
 		"invite": {
+			"error": {
+				"globalCooldown": {
+					"eng": "You can only send clan invites every ${minutes} minutes",
+					"trans": "Anda hanya dapat mengirim undangan klan setiap ${minutes} menit."
+				},
+				"playerCooldown": {
+					"eng": "You can only send an invite to this player every ${hours} hour(s)",
+					"trans": "Kamu hanya dapat mengirim undangan kepada pemain ini setiap ${hours} jam."
+				}
+			},
 			"restricted": {
 				"eng": "You cannot send gang invites now",
 				"trans": "Anda tidak dapat mengirim undangan geng saat ini."
