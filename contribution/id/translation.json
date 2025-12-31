@@ -3706,6 +3706,18 @@
 				"trans": "Anda tidak memiliki cukup uang untuk membuat geng"
 			}
 		},
+		"editMotto": {
+			"error": {
+				"levelNoAlts": {
+					"eng": "You need to be at least level ${level} to edit gang motto",
+					"trans": "Anda harus setidaknya level ${level} untuk mengedit motto geng."
+				},
+				"levelWithAlts": {
+					"eng": "You need to be at least level ${level} to edit gang motto",
+					"trans": "Anda harus setidaknya level ${level} untuk mengedit motto geng."
+				}
+			}
+		},
 		"error": {
 			"notFound": {
 				"eng": "Gang not found",
@@ -3743,6 +3755,14 @@
 				"globalCooldown": {
 					"eng": "You can only send clan invites every ${minutes} minutes",
 					"trans": "Anda hanya dapat mengirim undangan klan setiap ${minutes} menit."
+				},
+				"levelNoAlts": {
+					"eng": "You need to be at least level ${level} to send gang invites",
+					"trans": "Anda harus setidaknya level ${level} untuk mengirim undangan geng."
+				},
+				"levelWithAlts": {
+					"eng": "You need to be at least level ${level} to send gang invites",
+					"trans": "Anda harus setidaknya level ${level} untuk mengirim undangan geng."
 				},
 				"playerCooldown": {
 					"eng": "You can only send an invite to this player every ${hours} hour(s)",
@@ -3800,6 +3820,18 @@
 			"mail": {
 				"eng": "Hi, I would love to join your gang! ${request}",
 				"trans": "Halo, saya ingin bergabung dengan gengmu! ${request}"
+			}
+		},
+		"setImage": {
+			"error": {
+				"levelNoAlts": {
+					"eng": "You need to be at least level ${level} to set gang image",
+					"trans": "Setidaknya level ${level} diperlukan untuk mengatur gambar gang."
+				},
+				"levelWithAlts": {
+					"eng": "You need to be at least level ${level} to set gang image",
+					"trans": "Setidaknya level ${level} diperlukan untuk mengatur gambar gang."
+				}
 			}
 		},
 		"tagError": {
@@ -4173,6 +4205,10 @@
 			"trans": "Menganalisis Bukti…"
 		},
 		"caseId": {
+			"eng": "Case ${id}",
+			"trans": "Kasus ${id}"
+		},
+		"caseId2": {
 			"eng": "CASE ID",
 			"trans": "ID Kasus"
 		},
@@ -4878,6 +4914,10 @@
 			"eng": "${eventName} event drop",
 			"trans": "Drop Acara ${eventName}"
 		},
+		"instantDungeon": {
+			"eng": "Using ${itemName} at Hideout Raid",
+			"trans": "Menggunakan ${itemName} di Hideout Raid"
+		},
 		"intelligenceContract": {
 			"eng": "Intelligence Contract",
 			"trans": "Kontrak Intelejensi"
@@ -5218,6 +5258,16 @@
 			"name": {
 				"eng": "Braised Pork Rice",
 				"trans": "Nasi Babi Kecap"
+			}
+		},
+		"breachModule": {
+			"description": {
+				"eng": "Technomancer-grade intrusion software. Required to participate in NetRun operations against megacorporations. Consumed upon breach attempt regardless of outcome.",
+				"trans": "Perangkat lunak intrusi kelas Technomancer. Diperlukan untuk berpartisipasi dalam operasi NetRun melawan megakorporasi. Dikonsumsi saat upaya pelanggaran, terlepas dari hasilnya."
+			},
+			"name": {
+				"eng": "Breach Module",
+				"trans": "Modul Pembobolan"
 			}
 		},
 		"bread": {
@@ -7088,6 +7138,12 @@
 				"trans": "Euro Dolar"
 			}
 		},
+		"netrunContribution": {
+			"name": {
+				"eng": "NetRun Contribution",
+				"trans": "Kontribusi NetRun"
+			}
+		},
 		"pvp": {
 			"name": {
 				"eng": "PvP Kills",
@@ -7865,6 +7921,10 @@
 		"mercenary": {
 			"eng": "Mercenary",
 			"trans": "Pasukan bayaran"
+		},
+		"netrun": {
+			"eng": "NetRun",
+			"trans": "NetRun"
 		},
 		"psychosis": {
 			"eng": "Psychosis",
@@ -9033,6 +9093,272 @@
 			"trans": "Akun Dimute"
 		}
 	},
+	"netRunContributionType": {
+		"breach": {
+			"description": {
+				"eng": "Execute a direct breach against corporate security systems using a Breach Module",
+				"trans": "Lakukan pembobolan langsung pada sistem keamanan korporat menggunakan Modul Pembobolan"
+			},
+			"displayName": {
+				"eng": "Matrix Breach",
+				"trans": "Pembobolan Matriks"
+			}
+		}
+	},
+	"netrun": {
+		"access": {
+			"action": {
+				"eng": "INITIALIZE CONNECTION",
+				"join": {
+					"eng": "JOIN OPERATION",
+					"trans": "Gabung Operasi"
+				},
+				"trans": "Inisialisasi Koneksi"
+			},
+			"intel": {
+				"scanning": {
+					"eng": "SCANNING NETWORK...",
+					"trans": "Memindai jaringan..."
+				},
+				"standby": {
+					"eng": "NO ACTIVE OPERATION",
+					"trans": "Tidak ada operasi aktif"
+				},
+				"target": {
+					"eng": "TARGET",
+					"trans": "TARGET"
+				},
+				"time": {
+					"eng": "TIME",
+					"trans": "WAKTU"
+				}
+			},
+			"label": {
+				"eng": "TERMINAL v2.4",
+				"trans": "TERMINAL v2.4"
+			},
+			"status": {
+				"active": {
+					"eng": "ACTIVE OP",
+					"trans": "Operator Aktif"
+				},
+				"connecting": {
+					"eng": "CONNECTING",
+					"trans": "MENYAMBUNG"
+				},
+				"online": {
+					"eng": "ONLINE",
+					"trans": "ONLINE"
+				}
+			},
+			"subtitle": {
+				"eng": "Access secure network protocols",
+				"trans": "Akses protokol jaringan aman"
+			},
+			"title": {
+				"eng": "NETRUN OPERATIONS",
+				"trans": "OPERASI NETRUN"
+			}
+		},
+		"breach": {
+			"busy": {
+				"eng": "You are currently busy",
+				"trans": "Kamu sedang sibuk"
+			},
+			"cooldown": {
+				"eng": "Please wait before attempting again",
+				"trans": "Silakan tunggu sebelum mencoba lagi."
+			},
+			"failMessage": {
+				"eng": "Breach failed. Module lost.",
+				"trans": "Pembobolan gagal. Modul hilang."
+			},
+			"noClan": {
+				"eng": "You must be in a gang to participate in NetRun operations",
+				"trans": "Anda harus bergabung dalam geng untuk ikut serta dalam operasi NetRun."
+			},
+			"noItem": {
+				"eng": "You need a Breach Module to participate",
+				"trans": "Anda memerlukan Modul Pembobolan untuk berpartisipasi."
+			},
+			"noOperation": {
+				"eng": "No active operation",
+				"trans": "Tidak ada operasi aktif"
+			},
+			"start": {
+				"eng": "INITIATE BREACH",
+				"trans": "Mulai Pembobolan"
+			},
+			"successPoints": {
+				"eng": "+${points} points contributed!",
+				"trans": "+${points} poin ditambahkan!"
+			}
+		},
+		"briefing": {
+			"eng": "MISSION BRIEFING",
+			"trans": "Penjelasan Misi"
+		},
+		"claim": {
+			"alreadyClaimed": {
+				"eng": "Already claimed",
+				"trans": "Sudah diklaim"
+			},
+			"invalidMilestone": {
+				"eng": "Invalid milestone",
+				"trans": "Milestone tidak valid"
+			},
+			"invalidObjective": {
+				"eng": "Invalid objective",
+				"trans": "Tujuan tidak valid"
+			},
+			"milestoneNotReached": {
+				"eng": "Global milestone not yet reached",
+				"trans": "Tonggak global belum tercapai"
+			},
+			"noContribution": {
+				"eng": "You have not contributed to this operation",
+				"trans": "Anda belum berkontribusi pada operasi ini."
+			},
+			"noOperation": {
+				"eng": "No active operation",
+				"trans": "Tidak ada operasi aktif"
+			},
+			"notEnoughPoints": {
+				"eng": "Not enough points to claim this objective",
+				"trans": "Poin tidak cukup untuk mengklaim objektif ini."
+			},
+			"objectivesRequired": {
+				"eng": "You must complete all personal objectives first",
+				"trans": "Selesaikan semua tujuan pribadi terlebih dahulu."
+			}
+		},
+		"leaderboard": {
+			"members": {
+				"eng": "${count} members",
+				"trans": "${count} anggota"
+			},
+			"tab": {
+				"gangs": {
+					"eng": "GANGS",
+					"trans": "Geng"
+				},
+				"players": {
+					"eng": "PLAYERS",
+					"trans": "Pemain"
+				}
+			},
+			"title": {
+				"eng": "TOP CONTRIBUTORS",
+				"trans": "Kontributor Terbaik"
+			}
+		},
+		"milestones": {
+			"claimable": {
+				"eng": "Click to claim",
+				"trans": "Klik untuk klaim"
+			},
+			"claimed": {
+				"eng": "Claimed",
+				"trans": "Terklaim"
+			},
+			"locked": {
+				"eng": "Complete all objectives to unlock",
+				"trans": "Selesaikan semua tujuan untuk membuka"
+			},
+			"lockedMessage": {
+				"eng": "Complete all personal objectives first to unlock milestone rewards",
+				"trans": "Selesaikan semua tujuan pribadi terlebih dahulu untuk membuka hadiah tonggak."
+			},
+			"progress": {
+				"eng": "${percent}% required",
+				"trans": "${percent}% dibutuhkan"
+			}
+		},
+		"noData": {
+			"eng": "No data",
+			"trans": "Tidak ada data"
+		},
+		"noOperation": {
+			"message": {
+				"eng": "No active operation",
+				"trans": "Tidak ada operasi aktif"
+			},
+			"title": {
+				"eng": "STANDBY",
+				"trans": "Siap"
+			}
+		},
+		"nodeLinker": {
+			"instruction": {
+				"eng": "ROTATE NODES TO CONNECT POWER SOURCE",
+				"trans": "Putar node untuk menghubungkan sumber daya"
+			},
+			"protocol": {
+				"eng": "SECURE LINK",
+				"trans": "Link Aman"
+			}
+		},
+		"objectives": {
+			"claim": {
+				"eng": "CLAIM",
+				"trans": "KLAIM"
+			},
+			"claimed": {
+				"eng": "CLAIMED",
+				"trans": "DIKLAIM"
+			},
+			"claiming": {
+				"eng": "...",
+				"trans": "..."
+			},
+			"complete": {
+				"eng": "COMPLETE",
+				"trans": "Selesai"
+			},
+			"default": {
+				"eng": "Objective ${num}",
+				"trans": "Tujuan ${num}"
+			},
+			"title": {
+				"eng": "PERSONAL OBJECTIVES",
+				"trans": "Tujuan Pribadi"
+			},
+			"toGo": {
+				"eng": "to go",
+				"trans": "pergi"
+			}
+		},
+		"page": {
+			"requiresGang": {
+				"eng": "You must be in a gang to participate in NetRun operations",
+				"trans": "Anda harus bergabung dalam geng untuk ikut serta dalam operasi NetRun."
+			}
+		},
+		"progress": {
+			"contribution": {
+				"eng": "YOU: +${pts} pts",
+				"trans": "Kamu: +${pts} poin"
+			},
+			"label": {
+				"eng": "PROGRESS",
+				"trans": "KEMAJUAN"
+			}
+		},
+		"tab": {
+			"briefing": {
+				"eng": "BRIEFING",
+				"trans": "BRIEFING"
+			},
+			"objectives": {
+				"eng": "OBJECTIVES",
+				"trans": "TUJUAN"
+			}
+		},
+		"target": {
+			"eng": "TARGET",
+			"trans": "TARGET"
+		}
+	},
 	"newsCard": {
 		"new": {
 			"eng": "NEW",
@@ -9585,6 +9911,10 @@
 				"eng": "Mercenary",
 				"trans": "Prajurit"
 			},
+			"netrun": {
+				"eng": "NetRun",
+				"trans": "NetRun"
+			},
 			"quest": {
 				"eng": "Quest",
 				"trans": "Misi"
@@ -9755,6 +10085,36 @@
 		"shopButton": {
 			"eng": "I want to buy something",
 			"trans": "Saya ingin membeli sesuatu"
+		},
+		"technomancer": {
+			"description": {
+				"eng": "A secure terminal station set up in your gang's headquarters, where Spectre coordinates NetRun operations",
+				"trans": "Stasiun terminal aman yang dipasang di markas geng Anda, tempat Spectre mengkoordinasikan operasi NetRun."
+			},
+			"greetings": {
+				"eng": [
+					"Connection established. Identity verified. Welcome, operative.",
+					"Your signal cuts through the noise. The collective acknowledges you.",
+					"Data flows both ways. What you give, you receive.",
+					"Another node joins the network. Let's see what you're worth.",
+					"Encrypted channel active. Speak freely, mercenary."
+				],
+				"trans": [
+					"Koneksi berhasil. Identitas diverifikasi. Selamat datang, agen.",
+					"Sinyalmu menembus kebisingan. Kolektif mengakui keberadaanmu.",
+					"Data mengalir dua arah. Apa yang Anda beri, Anda terima.",
+					"Node lain bergabung ke jaringan. Mari lihat berapa nilai Anda.",
+					"Saluran terenkripsi aktif. Berbicaralah bebas, merc."
+				]
+			},
+			"locationName": {
+				"eng": "Tech Bay",
+				"trans": "Area Teknologi"
+			},
+			"npcName": {
+				"eng": "Spectre",
+				"trans": "Hantu"
+			}
 		},
 		"upgradeButton": {
 			"eng": "Upgrade my equipment",
@@ -11247,6 +11607,10 @@
 			}
 		},
 		"createCharacter": {
+			"ipBanned": {
+				"eng": "Registration is not available from your network, (IP banned)",
+				"trans": "Pendaftaran tidak tersedia dari jaringan Anda, (IP diblokir)"
+			},
 			"nameAlreadyExists": {
 				"eng": "the name \"${name}\" is already taken",
 				"trans": "Nama \"${name}\" sudah digunakan"
@@ -12513,6 +12877,78 @@
 		"title": {
 			"eng": "This account has been suspended.",
 			"trans": "Akun ini telah ditangguhkan."
+		}
+	},
+	"targetCorporation": {
+		"arcEnergy": {
+			"description": {
+				"eng": "The city's energy monopoly controlling power grid, water, and waste systems. Known for planned blackouts and leveraging grid access for corporate espionage.",
+				"trans": "Monopoli energi kota yang mengendalikan jaringan listrik, air, dan sistem limbah. Dikenal karena pemadaman terencana serta memanfaatkan akses grid untuk spionase korporat."
+			},
+			"displayName": {
+				"eng": "Arc Energy Holdings",
+				"trans": "Arc Energy Holdings"
+			}
+		},
+		"biosyn": {
+			"description": {
+				"eng": "A biotech corporation focused on genetic engineering and synthetic biology. Frequently linked to street drug operations through leaked experimental compounds.",
+				"trans": "Perusahaan bioteknologi fokus pada rekayasa genetika dan biologi sintetis. Seringkali dikaitkan dengan operasi narkoba jalanan melalui senyawa eksperimental yang bocor."
+			},
+			"displayName": {
+				"eng": "BioSyn Industries",
+				"trans": "BioSyn Industries"
+			}
+		},
+		"chirp": {
+			"description": {
+				"eng": "The city's dominant social media platform. While appearing neutral, its algorithms serve as surveillance apparatus and manipulation tool for corporate interests.",
+				"trans": "Platform media sosial dominan di kota ini. Meskipun tampak netral, algoritmanya berfungsi sebagai alat pengawasan dan manipulasi untuk kepentingan korporat."
+			},
+			"displayName": {
+				"eng": "Chirp",
+				"trans": "Chirp"
+			}
+		},
+		"circuitBreak": {
+			"description": {
+				"eng": "A sophisticated hitman organization disguised as a high-end security firm. Their Intelligence Division coordinates corporate espionage and wetwork contracts.",
+				"trans": "Organisasi pembunuh bayaran canggih yang menyamar sebagai perusahaan keamanan kelas atas. Divisi Intelijen mereka mengoordinasikan spionase korporat dan kontrak eliminasi."
+			},
+			"displayName": {
+				"eng": "CircuitBreak Security Solutions",
+				"trans": "CircuitBreak Solusi Keamanan"
+			}
+		},
+		"megaEstate": {
+			"description": {
+				"eng": "A notoriously greedy housing agency known for predatory practices and exploiting citizens in the hyper-inflated real estate market.",
+				"trans": "Agensi perumahan yang sangat serakah, dikenal atas praktek predator serta memanfaatkan warga di pasar properti yang terinflasi tinggi."
+			},
+			"displayName": {
+				"eng": "MegaEstate",
+				"trans": "MegaEstate"
+			}
+		},
+		"ouroboros": {
+			"description": {
+				"eng": "A controversial AI and consciousness transfer corporation. Known for rogue AI incidents and failed consciousness uploads.",
+				"trans": "Perusahaan transfer AI dan kesadaran yang kontroversial. Terkenal dengan insiden AI rogue dan unggahan kesadaran yang gagal."
+			},
+			"displayName": {
+				"eng": "Ouroboros Dynamics",
+				"trans": "Ouroboros Dynamics"
+			}
+		},
+		"taixing": {
+			"description": {
+				"eng": "A cutting-edge Taiwanese corporation specializing in advanced cybernetics and bio-implants. The industry leader in innovation and quality.",
+				"trans": "Perusahaan Taiwan terdepan yang mengkhususkan diri dalam teknologi siber lanjutan dan implan biologi. Pemimpin industri dalam inovasi dan kualitas."
+			},
+			"displayName": {
+				"eng": "TaiXing Cybernetics",
+				"trans": "TaiXing Sibernetika"
+			}
 		}
 	},
 	"task": {

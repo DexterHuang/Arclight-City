@@ -3706,6 +3706,18 @@
 				"trans": "ギャングを作成するには十分なお金がありません。"
 			}
 		},
+		"editMotto": {
+			"error": {
+				"levelNoAlts": {
+					"eng": "You need to be at least level ${level} to edit gang motto",
+					"trans": "ギャングのモットーを編集するには、最低${level}レベルが必要です。"
+				},
+				"levelWithAlts": {
+					"eng": "You need to be at least level ${level} to edit gang motto",
+					"trans": "ギャングのモットーを編集するには、最低${level}レベルが必要です。"
+				}
+			}
+		},
 		"error": {
 			"notFound": {
 				"eng": "Gang not found",
@@ -3743,6 +3755,14 @@
 				"globalCooldown": {
 					"eng": "You can only send clan invites every ${minutes} minutes",
 					"trans": "クラン招待は${minutes}分ごとにしか送れません"
+				},
+				"levelNoAlts": {
+					"eng": "You need to be at least level ${level} to send gang invites",
+					"trans": "ギャング招待にはレベル${level}が必要です。"
+				},
+				"levelWithAlts": {
+					"eng": "You need to be at least level ${level} to send gang invites",
+					"trans": "ギャング招待にはレベル${level}が必要です。"
 				},
 				"playerCooldown": {
 					"eng": "You can only send an invite to this player every ${hours} hour(s)",
@@ -3800,6 +3820,18 @@
 			"mail": {
 				"eng": "Hi, I would love to join your gang! ${request}",
 				"trans": "こんにちは、私はあなたのギャングに参加したいです！ ${request}"
+			}
+		},
+		"setImage": {
+			"error": {
+				"levelNoAlts": {
+					"eng": "You need to be at least level ${level} to set gang image",
+					"trans": "ギャング画像を設定するにはレベル${level}以上が必要です"
+				},
+				"levelWithAlts": {
+					"eng": "You need to be at least level ${level} to set gang image",
+					"trans": "ギャング画像を設定するにはレベル${level}以上が必要です"
+				}
 			}
 		},
 		"tagError": {
@@ -4173,6 +4205,10 @@
 			"trans": "証拠を解析中…"
 		},
 		"caseId": {
+			"eng": "Case ${id}",
+			"trans": "ケース ${id}"
+		},
+		"caseId2": {
 			"eng": "CASE ID",
 			"trans": "ケースID"
 		},
@@ -4878,6 +4914,10 @@
 			"eng": "${eventName} event drop",
 			"trans": "${eventName} イベントドロップ"
 		},
+		"instantDungeon": {
+			"eng": "Using ${itemName} at Hideout Raid",
+			"trans": "ハイドアウトレイドで ${itemName} を使う"
+		},
 		"intelligenceContract": {
 			"eng": "Intelligence Contract",
 			"trans": "情報契約"
@@ -5218,6 +5258,16 @@
 			"name": {
 				"eng": "Braised Pork Rice",
 				"trans": "豚の角煮ご飯"
+			}
+		},
+		"breachModule": {
+			"description": {
+				"eng": "Technomancer-grade intrusion software. Required to participate in NetRun operations against megacorporations. Consumed upon breach attempt regardless of outcome.",
+				"trans": "テクノマンサー級侵入ソフトウェア。メガコーポに対するネットランでの使用が必須です。突破試行時に消費され、結果は問わない。"
+			},
+			"name": {
+				"eng": "Breach Module",
+				"trans": "侵入モジュール"
 			}
 		},
 		"bread": {
@@ -7088,6 +7138,12 @@
 				"trans": "ユーロドル"
 			}
 		},
+		"netrunContribution": {
+			"name": {
+				"eng": "NetRun Contribution",
+				"trans": "ネットラン貢献度"
+			}
+		},
 		"pvp": {
 			"name": {
 				"eng": "PvP Kills",
@@ -7865,6 +7921,10 @@
 		"mercenary": {
 			"eng": "Mercenary",
 			"trans": "傭兵"
+		},
+		"netrun": {
+			"eng": "NetRun",
+			"trans": "ネットラン"
 		},
 		"psychosis": {
 			"eng": "Psychosis",
@@ -9033,6 +9093,272 @@
 			"trans": "アカウントミュート"
 		}
 	},
+	"netRunContributionType": {
+		"breach": {
+			"description": {
+				"eng": "Execute a direct breach against corporate security systems using a Breach Module",
+				"trans": "ブレーチモジュールで企業のセキュリティシステムへ直接突破する"
+			},
+			"displayName": {
+				"eng": "Matrix Breach",
+				"trans": "マトリックス侵入"
+			}
+		}
+	},
+	"netrun": {
+		"access": {
+			"action": {
+				"eng": "INITIALIZE CONNECTION",
+				"join": {
+					"eng": "JOIN OPERATION",
+					"trans": "オペレーションに参加"
+				},
+				"trans": "接続を初期化"
+			},
+			"intel": {
+				"scanning": {
+					"eng": "SCANNING NETWORK...",
+					"trans": "ネットワークをスキャン中..."
+				},
+				"standby": {
+					"eng": "NO ACTIVE OPERATION",
+					"trans": "アクティブなオペレーションはありません"
+				},
+				"target": {
+					"eng": "TARGET",
+					"trans": "ターゲット"
+				},
+				"time": {
+					"eng": "TIME",
+					"trans": "時間"
+				}
+			},
+			"label": {
+				"eng": "TERMINAL v2.4",
+				"trans": "TERMINAL v2.4"
+			},
+			"status": {
+				"active": {
+					"eng": "ACTIVE OP",
+					"trans": "アクティブ作戦"
+				},
+				"connecting": {
+					"eng": "CONNECTING",
+					"trans": "接続中"
+				},
+				"online": {
+					"eng": "ONLINE",
+					"trans": "オンライン"
+				}
+			},
+			"subtitle": {
+				"eng": "Access secure network protocols",
+				"trans": "セキュアネットワークプロトコルにアクセス"
+			},
+			"title": {
+				"eng": "NETRUN OPERATIONS",
+				"trans": "ネットラン操作"
+			}
+		},
+		"breach": {
+			"busy": {
+				"eng": "You are currently busy",
+				"trans": "現在、忙しいです"
+			},
+			"cooldown": {
+				"eng": "Please wait before attempting again",
+				"trans": "再試行までしばらくお待ちください"
+			},
+			"failMessage": {
+				"eng": "Breach failed. Module lost.",
+				"trans": "ブリーチ失敗。モジュール損失。"
+			},
+			"noClan": {
+				"eng": "You must be in a gang to participate in NetRun operations",
+				"trans": "ネットランオペレーションに参加するにはギャングに所属している必要があります。"
+			},
+			"noItem": {
+				"eng": "You need a Breach Module to participate",
+				"trans": "参加には侵入モジュールが必要です。"
+			},
+			"noOperation": {
+				"eng": "No active operation",
+				"trans": "実行中のオペレーションはありません"
+			},
+			"start": {
+				"eng": "INITIATE BREACH",
+				"trans": "侵入開始"
+			},
+			"successPoints": {
+				"eng": "+${points} points contributed!",
+				"trans": "+${points}ポイントを寄付しました！"
+			}
+		},
+		"briefing": {
+			"eng": "MISSION BRIEFING",
+			"trans": "ミッション概要"
+		},
+		"claim": {
+			"alreadyClaimed": {
+				"eng": "Already claimed",
+				"trans": "既に取得済み"
+			},
+			"invalidMilestone": {
+				"eng": "Invalid milestone",
+				"trans": "無効なマイルストーン"
+			},
+			"invalidObjective": {
+				"eng": "Invalid objective",
+				"trans": "無効な目標"
+			},
+			"milestoneNotReached": {
+				"eng": "Global milestone not yet reached",
+				"trans": "グローバルマイルストーン未達成"
+			},
+			"noContribution": {
+				"eng": "You have not contributed to this operation",
+				"trans": "このオペレーションに貢献していません。"
+			},
+			"noOperation": {
+				"eng": "No active operation",
+				"trans": "実行中のオペレーションはありません"
+			},
+			"notEnoughPoints": {
+				"eng": "Not enough points to claim this objective",
+				"trans": "ポイントが足りないため、この目標は取得できません"
+			},
+			"objectivesRequired": {
+				"eng": "You must complete all personal objectives first",
+				"trans": "最初にすべての個人目標をクリアしてください"
+			}
+		},
+		"leaderboard": {
+			"members": {
+				"eng": "${count} members",
+				"trans": "メンバー${count}"
+			},
+			"tab": {
+				"gangs": {
+					"eng": "GANGS",
+					"trans": "ギャング"
+				},
+				"players": {
+					"eng": "PLAYERS",
+					"trans": "プレイヤー"
+				}
+			},
+			"title": {
+				"eng": "TOP CONTRIBUTORS",
+				"trans": "トップ貢献者"
+			}
+		},
+		"milestones": {
+			"claimable": {
+				"eng": "Click to claim",
+				"trans": "クリックして受け取り"
+			},
+			"claimed": {
+				"eng": "Claimed",
+				"trans": "取得済"
+			},
+			"locked": {
+				"eng": "Complete all objectives to unlock",
+				"trans": "全目標を完了してアンロック"
+			},
+			"lockedMessage": {
+				"eng": "Complete all personal objectives first to unlock milestone rewards",
+				"trans": "まずはすべての個人目標を達成し、マイルストーン報酬をアンロックしてください"
+			},
+			"progress": {
+				"eng": "${percent}% required",
+				"trans": "${percent}％が必要"
+			}
+		},
+		"noData": {
+			"eng": "No data",
+			"trans": "データなし"
+		},
+		"noOperation": {
+			"message": {
+				"eng": "No active operation",
+				"trans": "実行中のオペレーションはありません"
+			},
+			"title": {
+				"eng": "STANDBY",
+				"trans": "待機"
+			}
+		},
+		"nodeLinker": {
+			"instruction": {
+				"eng": "ROTATE NODES TO CONNECT POWER SOURCE",
+				"trans": "ノードを回転させて電源に接続"
+			},
+			"protocol": {
+				"eng": "SECURE LINK",
+				"trans": "セキュアリンク"
+			}
+		},
+		"objectives": {
+			"claim": {
+				"eng": "CLAIM",
+				"trans": "受取"
+			},
+			"claimed": {
+				"eng": "CLAIMED",
+				"trans": "取得済み"
+			},
+			"claiming": {
+				"eng": "...",
+				"trans": "..."
+			},
+			"complete": {
+				"eng": "COMPLETE",
+				"trans": "完了"
+			},
+			"default": {
+				"eng": "Objective ${num}",
+				"trans": "目標${num}"
+			},
+			"title": {
+				"eng": "PERSONAL OBJECTIVES",
+				"trans": "個人目標"
+			},
+			"toGo": {
+				"eng": "to go",
+				"trans": "移動"
+			}
+		},
+		"page": {
+			"requiresGang": {
+				"eng": "You must be in a gang to participate in NetRun operations",
+				"trans": "ネットランオペレーションに参加するにはギャングに所属している必要があります。"
+			}
+		},
+		"progress": {
+			"contribution": {
+				"eng": "YOU: +${pts} pts",
+				"trans": "自分: +${pts} ポイント"
+			},
+			"label": {
+				"eng": "PROGRESS",
+				"trans": "進捗"
+			}
+		},
+		"tab": {
+			"briefing": {
+				"eng": "BRIEFING",
+				"trans": "ブリーフィング"
+			},
+			"objectives": {
+				"eng": "OBJECTIVES",
+				"trans": "目標"
+			}
+		},
+		"target": {
+			"eng": "TARGET",
+			"trans": "ターゲット"
+		}
+	},
 	"newsCard": {
 		"new": {
 			"eng": "NEW",
@@ -9585,6 +9911,10 @@
 				"eng": "Mercenary",
 				"trans": "傭兵"
 			},
+			"netrun": {
+				"eng": "NetRun",
+				"trans": "ネットラン"
+			},
 			"quest": {
 				"eng": "Quest",
 				"trans": "クエスト"
@@ -9755,6 +10085,36 @@
 		"shopButton": {
 			"eng": "I want to buy something",
 			"trans": "何か買いたいです"
+		},
+		"technomancer": {
+			"description": {
+				"eng": "A secure terminal station set up in your gang's headquarters, where Spectre coordinates NetRun operations",
+				"trans": "ギャング本部に設置された安全な端末ステーション。ここでSpectreがNetRun作戦を指揮します。"
+			},
+			"greetings": {
+				"eng": [
+					"Connection established. Identity verified. Welcome, operative.",
+					"Your signal cuts through the noise. The collective acknowledges you.",
+					"Data flows both ways. What you give, you receive.",
+					"Another node joins the network. Let's see what you're worth.",
+					"Encrypted channel active. Speak freely, mercenary."
+				],
+				"trans": [
+					"接続が確立しました。身元確認済みです。ようこそ、オペレーター。",
+					"ノイズを突き抜けるシグナル。コレクティブが認めた。",
+					"データは双方向です。送れば受け取ります。",
+					"別ノードがネットワークへ接続された。お前の価値を確認しよう",
+					"暗号化チャネル稼働中です。遠慮なく話せ、傭兵。"
+				]
+			},
+			"locationName": {
+				"eng": "Tech Bay",
+				"trans": "テックベイ"
+			},
+			"npcName": {
+				"eng": "Spectre",
+				"trans": "スペクター"
+			}
 		},
 		"upgradeButton": {
 			"eng": "Upgrade my equipment",
@@ -11247,6 +11607,10 @@
 			}
 		},
 		"createCharacter": {
+			"ipBanned": {
+				"eng": "Registration is not available from your network, (IP banned)",
+				"trans": "ご利用中のネットワークからは登録できません（IP禁止）"
+			},
 			"nameAlreadyExists": {
 				"eng": "the name \"${name}\" is already taken",
 				"trans": "名前\"${name}\"は既に使用されています"
@@ -12513,6 +12877,78 @@
 		"title": {
 			"eng": "This account has been suspended.",
 			"trans": "このアカウントは停止されました。"
+		}
+	},
+	"targetCorporation": {
+		"arcEnergy": {
+			"description": {
+				"eng": "The city's energy monopoly controlling power grid, water, and waste systems. Known for planned blackouts and leveraging grid access for corporate espionage.",
+				"trans": "都市のエネルギー独占会社が電力網・水道・廃棄物システムを支配。計画的停電とグリッドアクセスを利用した企業スパイで知られる。"
+			},
+			"displayName": {
+				"eng": "Arc Energy Holdings",
+				"trans": "アーク・エナジー・ホールディングス"
+			}
+		},
+		"biosyn": {
+			"description": {
+				"eng": "A biotech corporation focused on genetic engineering and synthetic biology. Frequently linked to street drug operations through leaked experimental compounds.",
+				"trans": "遺伝子工学と合成生物学を専門とするバイオテック企業。リークされた実験薬でストリートドラッグ取引に頻繁に関わる。"
+			},
+			"displayName": {
+				"eng": "BioSyn Industries",
+				"trans": "バイオシン・インダストリーズ"
+			}
+		},
+		"chirp": {
+			"description": {
+				"eng": "The city's dominant social media platform. While appearing neutral, its algorithms serve as surveillance apparatus and manipulation tool for corporate interests.",
+				"trans": "都市を席巻する主要なソーシャルメディア。表面上は中立に見えるが、実際には監視装置と企業利益を操るツールだ。"
+			},
+			"displayName": {
+				"eng": "Chirp",
+				"trans": "チルプ"
+			}
+		},
+		"circuitBreak": {
+			"description": {
+				"eng": "A sophisticated hitman organization disguised as a high-end security firm. Their Intelligence Division coordinates corporate espionage and wetwork contracts.",
+				"trans": "ハイエンドセキュリティ会社に偽装した洗練されたヒットマン組織。彼らの情報部門は、企業スパイ活動と暗殺契約を調整します。"
+			},
+			"displayName": {
+				"eng": "CircuitBreak Security Solutions",
+				"trans": "サーキットブレイク セキュリティ ソリューションズ"
+			}
+		},
+		"megaEstate": {
+			"description": {
+				"eng": "A notoriously greedy housing agency known for predatory practices and exploiting citizens in the hyper-inflated real estate market.",
+				"trans": "悪名高い金儲け屋の住宅仲介業者。過熱した不動産市場で市民を搾取し続ける。"
+			},
+			"displayName": {
+				"eng": "MegaEstate",
+				"trans": "メガエステート"
+			}
+		},
+		"ouroboros": {
+			"description": {
+				"eng": "A controversial AI and consciousness transfer corporation. Known for rogue AI incidents and failed consciousness uploads.",
+				"trans": "物議を醸すAI・意識転送企業。AIの反乱事件と失敗した意識アップロードで知られる。"
+			},
+			"displayName": {
+				"eng": "Ouroboros Dynamics",
+				"trans": "オウロボロス ダイナミクス"
+			}
+		},
+		"taixing": {
+			"description": {
+				"eng": "A cutting-edge Taiwanese corporation specializing in advanced cybernetics and bio-implants. The industry leader in innovation and quality.",
+				"trans": "最先端の台湾企業、高度なサイバネティクスとバイオインプラントを専門に扱い、革新と品質で業界をリードしています。"
+			},
+			"displayName": {
+				"eng": "TaiXing Cybernetics",
+				"trans": "台芯サイバネティクス"
+			}
 		}
 	},
 	"task": {

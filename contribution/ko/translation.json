@@ -3706,6 +3706,18 @@
 				"trans": "갱을 만들기에 충분한 돈이 없습니다"
 			}
 		},
+		"editMotto": {
+			"error": {
+				"levelNoAlts": {
+					"eng": "You need to be at least level ${level} to edit gang motto",
+					"trans": "갱 모토를 편집하려면 최소 레벨 ${level}이어야 합니다."
+				},
+				"levelWithAlts": {
+					"eng": "You need to be at least level ${level} to edit gang motto",
+					"trans": "갱 모토를 편집하려면 최소 레벨 ${level}이어야 합니다."
+				}
+			}
+		},
 		"error": {
 			"notFound": {
 				"eng": "Gang not found",
@@ -3743,6 +3755,14 @@
 				"globalCooldown": {
 					"eng": "You can only send clan invites every ${minutes} minutes",
 					"trans": "클랜 초대는 ${minutes}분마다 한 번만 보낼 수 있습니다."
+				},
+				"levelNoAlts": {
+					"eng": "You need to be at least level ${level} to send gang invites",
+					"trans": "갱단 초대를 보내려면 최소 ${level}레벨이어야 합니다."
+				},
+				"levelWithAlts": {
+					"eng": "You need to be at least level ${level} to send gang invites",
+					"trans": "갱단 초대를 보내려면 최소 ${level}레벨이어야 합니다."
 				},
 				"playerCooldown": {
 					"eng": "You can only send an invite to this player every ${hours} hour(s)",
@@ -3800,6 +3820,18 @@
 			"mail": {
 				"eng": "Hi, I would love to join your gang! ${request}",
 				"trans": "안녕하세요, 저는 당신의 갱에 합류하고 싶습니다! ${request}"
+			}
+		},
+		"setImage": {
+			"error": {
+				"levelNoAlts": {
+					"eng": "You need to be at least level ${level} to set gang image",
+					"trans": "갱 이미지를 설정하려면 레벨 ${level} 이상이어야 합니다."
+				},
+				"levelWithAlts": {
+					"eng": "You need to be at least level ${level} to set gang image",
+					"trans": "갱 이미지를 설정하려면 레벨 ${level} 이상이어야 합니다."
+				}
 			}
 		},
 		"tagError": {
@@ -4175,6 +4207,10 @@
 		"caseId": {
 			"eng": "Case ${id}",
 			"trans": "케이스 ${id}"
+		},
+		"caseId2": {
+			"eng": "CASE ID",
+			"trans": "케이스 ID"
 		},
 		"caseResolved": {
 			"eng": "ACPD Case Resolved",
@@ -4878,6 +4914,10 @@
 			"eng": "${eventName} event drop",
 			"trans": "${eventName} 이벤트 드랍"
 		},
+		"instantDungeon": {
+			"eng": "Using ${itemName} at Hideout Raid",
+			"trans": "Hideout Raid에서 ${itemName} 사용"
+		},
 		"intelligenceContract": {
 			"eng": "Intelligence Contract",
 			"trans": "지능 계약"
@@ -5218,6 +5258,16 @@
 			"name": {
 				"eng": "Braised Pork Rice",
 				"trans": "루러우판"
+			}
+		},
+		"breachModule": {
+			"description": {
+				"eng": "Technomancer-grade intrusion software. Required to participate in NetRun operations against megacorporations. Consumed upon breach attempt regardless of outcome.",
+				"trans": "테크노맨서급 침투 소프트웨어입니다. 메가기업을 대상으로 하는 넷런 작전에 참여하려면 필수입니다. 시도 시 결과와 관계없이 소모됩니다."
+			},
+			"name": {
+				"eng": "Breach Module",
+				"trans": "침투 모듈"
 			}
 		},
 		"bread": {
@@ -7088,6 +7138,12 @@
 				"trans": "유로달러"
 			}
 		},
+		"netrunContribution": {
+			"name": {
+				"eng": "NetRun Contribution",
+				"trans": "넷런 기여"
+			}
+		},
 		"pvp": {
 			"name": {
 				"eng": "PvP Kills",
@@ -7865,6 +7921,10 @@
 		"mercenary": {
 			"eng": "Mercenary",
 			"trans": "용병"
+		},
+		"netrun": {
+			"eng": "NetRun",
+			"trans": "넷런"
 		},
 		"psychosis": {
 			"eng": "Psychosis",
@@ -9033,6 +9093,272 @@
 			"trans": "계정 음소거"
 		}
 	},
+	"netRunContributionType": {
+		"breach": {
+			"description": {
+				"eng": "Execute a direct breach against corporate security systems using a Breach Module",
+				"trans": "브리치 모듈을 사용해 기업 보안 시스템에 직접 침투합니다."
+			},
+			"displayName": {
+				"eng": "Matrix Breach",
+				"trans": "매트릭스 침입"
+			}
+		}
+	},
+	"netrun": {
+		"access": {
+			"action": {
+				"eng": "INITIALIZE CONNECTION",
+				"join": {
+					"eng": "JOIN OPERATION",
+					"trans": "작전 참여"
+				},
+				"trans": "연결 초기화"
+			},
+			"intel": {
+				"scanning": {
+					"eng": "SCANNING NETWORK...",
+					"trans": "네트워크 스캔 중..."
+				},
+				"standby": {
+					"eng": "NO ACTIVE OPERATION",
+					"trans": "활성 작업 없음"
+				},
+				"target": {
+					"eng": "TARGET",
+					"trans": "타깃"
+				},
+				"time": {
+					"eng": "TIME",
+					"trans": "시간"
+				}
+			},
+			"label": {
+				"eng": "TERMINAL v2.4",
+				"trans": "터미널 v2.4"
+			},
+			"status": {
+				"active": {
+					"eng": "ACTIVE OP",
+					"trans": "활성 작전"
+				},
+				"connecting": {
+					"eng": "CONNECTING",
+					"trans": "연결 중"
+				},
+				"online": {
+					"eng": "ONLINE",
+					"trans": "온라인"
+				}
+			},
+			"subtitle": {
+				"eng": "Access secure network protocols",
+				"trans": "네트워크 보안 프로토콜 접속"
+			},
+			"title": {
+				"eng": "NETRUN OPERATIONS",
+				"trans": "넷런 운영"
+			}
+		},
+		"breach": {
+			"busy": {
+				"eng": "You are currently busy",
+				"trans": "현재 다른 작업을 진행 중입니다"
+			},
+			"cooldown": {
+				"eng": "Please wait before attempting again",
+				"trans": "다시 시도하기 전 잠시만 기다려 주세요."
+			},
+			"failMessage": {
+				"eng": "Breach failed. Module lost.",
+				"trans": "돌파 실패. 모듈 손실."
+			},
+			"noClan": {
+				"eng": "You must be in a gang to participate in NetRun operations",
+				"trans": "NetRun 작전에 참여하려면 갱에 속해 있어야 합니다."
+			},
+			"noItem": {
+				"eng": "You need a Breach Module to participate",
+				"trans": "참여하려면 침투 모듈이 필요합니다."
+			},
+			"noOperation": {
+				"eng": "No active operation",
+				"trans": "활성 작업이 없습니다."
+			},
+			"start": {
+				"eng": "INITIATE BREACH",
+				"trans": "침투 시작"
+			},
+			"successPoints": {
+				"eng": "+${points} points contributed!",
+				"trans": "+${points} 포인트 기여!"
+			}
+		},
+		"briefing": {
+			"eng": "MISSION BRIEFING",
+			"trans": "미션 브리핑"
+		},
+		"claim": {
+			"alreadyClaimed": {
+				"eng": "Already claimed",
+				"trans": "이미 수령완료"
+			},
+			"invalidMilestone": {
+				"eng": "Invalid milestone",
+				"trans": "유효하지 않은 마일스톤"
+			},
+			"invalidObjective": {
+				"eng": "Invalid objective",
+				"trans": "유효하지 않은 목표"
+			},
+			"milestoneNotReached": {
+				"eng": "Global milestone not yet reached",
+				"trans": "글로벌 마일스톤이 아직 도달하지 않았습니다."
+			},
+			"noContribution": {
+				"eng": "You have not contributed to this operation",
+				"trans": "이 오퍼레이션에 기여하지 않았습니다."
+			},
+			"noOperation": {
+				"eng": "No active operation",
+				"trans": "활성 작업이 없습니다."
+			},
+			"notEnoughPoints": {
+				"eng": "Not enough points to claim this objective",
+				"trans": "목표를 클레임할 수 있는 포인트가 부족합니다."
+			},
+			"objectivesRequired": {
+				"eng": "You must complete all personal objectives first",
+				"trans": "모든 개인 목표를 먼저 완료해야 합니다."
+			}
+		},
+		"leaderboard": {
+			"members": {
+				"eng": "${count} members",
+				"trans": "${count} 명"
+			},
+			"tab": {
+				"gangs": {
+					"eng": "GANGS",
+					"trans": "갱"
+				},
+				"players": {
+					"eng": "PLAYERS",
+					"trans": "플레이어"
+				}
+			},
+			"title": {
+				"eng": "TOP CONTRIBUTORS",
+				"trans": "상위 기여자"
+			}
+		},
+		"milestones": {
+			"claimable": {
+				"eng": "Click to claim",
+				"trans": "클릭해서 수령"
+			},
+			"claimed": {
+				"eng": "Claimed",
+				"trans": "수령완료"
+			},
+			"locked": {
+				"eng": "Complete all objectives to unlock",
+				"trans": "모든 목표를 달성하면 잠금이 해제됩니다."
+			},
+			"lockedMessage": {
+				"eng": "Complete all personal objectives first to unlock milestone rewards",
+				"trans": "개인 목표를 먼저 완료하면 마일스톤 보상을 잠금 해제합니다."
+			},
+			"progress": {
+				"eng": "${percent}% required",
+				"trans": "${percent}% 필요"
+			}
+		},
+		"noData": {
+			"eng": "No data",
+			"trans": "데이터 없음"
+		},
+		"noOperation": {
+			"message": {
+				"eng": "No active operation",
+				"trans": "활성 작업이 없습니다."
+			},
+			"title": {
+				"eng": "STANDBY",
+				"trans": "대기"
+			}
+		},
+		"nodeLinker": {
+			"instruction": {
+				"eng": "ROTATE NODES TO CONNECT POWER SOURCE",
+				"trans": "전원 소스를 연결하려면 노드를 회전하세요"
+			},
+			"protocol": {
+				"eng": "SECURE LINK",
+				"trans": "보안 연결"
+			}
+		},
+		"objectives": {
+			"claim": {
+				"eng": "CLAIM",
+				"trans": "수령"
+			},
+			"claimed": {
+				"eng": "CLAIMED",
+				"trans": "수령 완료"
+			},
+			"claiming": {
+				"eng": "...",
+				"trans": "..."
+			},
+			"complete": {
+				"eng": "COMPLETE",
+				"trans": "완료"
+			},
+			"default": {
+				"eng": "Objective ${num}",
+				"trans": "목표 ${num}"
+			},
+			"title": {
+				"eng": "PERSONAL OBJECTIVES",
+				"trans": "개인 목표"
+			},
+			"toGo": {
+				"eng": "to go",
+				"trans": "포장"
+			}
+		},
+		"page": {
+			"requiresGang": {
+				"eng": "You must be in a gang to participate in NetRun operations",
+				"trans": "NetRun 작전에 참여하려면 갱에 속해 있어야 합니다."
+			}
+		},
+		"progress": {
+			"contribution": {
+				"eng": "YOU: +${pts} pts",
+				"trans": "당신: +${pts} 포인트"
+			},
+			"label": {
+				"eng": "PROGRESS",
+				"trans": "진행"
+			}
+		},
+		"tab": {
+			"briefing": {
+				"eng": "BRIEFING",
+				"trans": "브리핑"
+			},
+			"objectives": {
+				"eng": "OBJECTIVES",
+				"trans": "목표"
+			}
+		},
+		"target": {
+			"eng": "TARGET",
+			"trans": "타깃"
+		}
+	},
 	"newsCard": {
 		"new": {
 			"eng": "NEW",
@@ -9585,6 +9911,10 @@
 				"eng": "Mercenary",
 				"trans": "용병"
 			},
+			"netrun": {
+				"eng": "NetRun",
+				"trans": "넷런"
+			},
 			"quest": {
 				"eng": "Quest",
 				"trans": "임무"
@@ -9755,6 +10085,36 @@
 		"shopButton": {
 			"eng": "I want to buy something",
 			"trans": "무언가 구매하고 싶습니다"
+		},
+		"technomancer": {
+			"description": {
+				"eng": "A secure terminal station set up in your gang's headquarters, where Spectre coordinates NetRun operations",
+				"trans": "당신의 갱단 본부에 설치된 보안 터미널로, 스펙터가 넷런 작전을 조율합니다."
+			},
+			"greetings": {
+				"eng": [
+					"Connection established. Identity verified. Welcome, operative.",
+					"Your signal cuts through the noise. The collective acknowledges you.",
+					"Data flows both ways. What you give, you receive.",
+					"Another node joins the network. Let's see what you're worth.",
+					"Encrypted channel active. Speak freely, mercenary."
+				],
+				"trans": [
+					"연결 완료. 신원 확인. 환영합니다, 요원.",
+					"당신의 신호는 소음을 뚫고 지나갑니다. 집단이 당신을 확인했습니다.",
+					"데이터는 양방향으로 흐릅니다. 주면 받습니다.",
+					"새 노드가 네트워크에 합류했습니다. 당신의 가치를 확인해 봅시다.",
+					"암호화 채널이 활성화되었습니다. 자유롭게 말하세요, 용병."
+				]
+			},
+			"locationName": {
+				"eng": "Tech Bay",
+				"trans": "테크 베이"
+			},
+			"npcName": {
+				"eng": "Spectre",
+				"trans": "스펙트레"
+			}
 		},
 		"upgradeButton": {
 			"eng": "Upgrade my equipment",
@@ -11247,6 +11607,10 @@
 			}
 		},
 		"createCharacter": {
+			"ipBanned": {
+				"eng": "Registration is not available from your network, (IP banned)",
+				"trans": "네트워크에서 등록이 불가합니다(IP 차단)"
+			},
 			"nameAlreadyExists": {
 				"eng": "the name \"${name}\" is already taken",
 				"trans": "\"${name}\"이(가) 이미 사용 중입니다"
@@ -12513,6 +12877,78 @@
 		"title": {
 			"eng": "This account has been suspended.",
 			"trans": "이 계정은 정지되었습니다."
+		}
+	},
+	"targetCorporation": {
+		"arcEnergy": {
+			"description": {
+				"eng": "The city's energy monopoly controlling power grid, water, and waste systems. Known for planned blackouts and leveraging grid access for corporate espionage.",
+				"trans": "시의 에너지 독점 기업으로 전력망·수도·폐기물 시스템을 관리하며, 계획된 정전과 그리드 접속을 이용한 기업 스파이 활동으로 유명합니다."
+			},
+			"displayName": {
+				"eng": "Arc Energy Holdings",
+				"trans": "아크에너지 홀딩스"
+			}
+		},
+		"biosyn": {
+			"description": {
+				"eng": "A biotech corporation focused on genetic engineering and synthetic biology. Frequently linked to street drug operations through leaked experimental compounds.",
+				"trans": "유전공학과 합성생물학에 특화된 바이오텍 기업입니다. 실험용 화합물이 유출돼 거리에서 마약 거래에 자주 연루됩니다."
+			},
+			"displayName": {
+				"eng": "BioSyn Industries",
+				"trans": "바이오신 인더스트리즈"
+			}
+		},
+		"chirp": {
+			"description": {
+				"eng": "The city's dominant social media platform. While appearing neutral, its algorithms serve as surveillance apparatus and manipulation tool for corporate interests.",
+				"trans": "도시를 지배하는 소셜 미디어 플랫폼입니다. 겉보기엔 중립적이지만, 알고리즘은 기업 이익을 위한 감시·조작 도구로 활용됩니다."
+			},
+			"displayName": {
+				"eng": "Chirp",
+				"trans": "Chirp"
+			}
+		},
+		"circuitBreak": {
+			"description": {
+				"eng": "A sophisticated hitman organization disguised as a high-end security firm. Their Intelligence Division coordinates corporate espionage and wetwork contracts.",
+				"trans": "고급 보안업체로 가장하는 정교한 암살자 조직. 그들의 정보본부는 기업 스파이와 워터크 계약을 조율합니다."
+			},
+			"displayName": {
+				"eng": "CircuitBreak Security Solutions",
+				"trans": "CircuitBreak 보안 솔루션"
+			}
+		},
+		"megaEstate": {
+			"description": {
+				"eng": "A notoriously greedy housing agency known for predatory practices and exploiting citizens in the hyper-inflated real estate market.",
+				"trans": "거래 관행이 사냥형이고 시민을 착취하는 것으로 악명 높은, 부동산 가격이 폭등한 시장에서 활동하는 탐욕스러운 주택 중개업체."
+			},
+			"displayName": {
+				"eng": "MegaEstate",
+				"trans": "메가에스테이트"
+			}
+		},
+		"ouroboros": {
+			"description": {
+				"eng": "A controversial AI and consciousness transfer corporation. Known for rogue AI incidents and failed consciousness uploads.",
+				"trans": "논란이 많은 AI 및 의식 전송 기업, 불법 AI 사건과 실패한 의식 업로드로 알려져 있습니다."
+			},
+			"displayName": {
+				"eng": "Ouroboros Dynamics",
+				"trans": "우로보로스 다이내믹스"
+			}
+		},
+		"taixing": {
+			"description": {
+				"eng": "A cutting-edge Taiwanese corporation specializing in advanced cybernetics and bio-implants. The industry leader in innovation and quality.",
+				"trans": "최첨단 대만 기업으로 고급 사이버네틱스 및 바이오 임플란트 전문 기업입니다. 혁신과 품질 분야의 업계 선두주자입니다."
+			},
+			"displayName": {
+				"eng": "TaiXing Cybernetics",
+				"trans": "타이싱 사이버네틱스"
+			}
 		}
 	},
 	"task": {

@@ -3706,6 +3706,18 @@
 				"trans": "У вас недостаточно денег, чтобы создать банду"
 			}
 		},
+		"editMotto": {
+			"error": {
+				"levelNoAlts": {
+					"eng": "You need to be at least level ${level} to edit gang motto",
+					"trans": "Для редактирования девиза банды требуется уровень ${level} и выше."
+				},
+				"levelWithAlts": {
+					"eng": "You need to be at least level ${level} to edit gang motto",
+					"trans": "Для редактирования девиза банды требуется уровень ${level} и выше."
+				}
+			}
+		},
 		"error": {
 			"notFound": {
 				"eng": "Gang not found",
@@ -3743,6 +3755,14 @@
 				"globalCooldown": {
 					"eng": "You can only send clan invites every ${minutes} minutes",
 					"trans": "Приглашения в клан можно отправлять только раз в ${minutes} минут"
+				},
+				"levelNoAlts": {
+					"eng": "You need to be at least level ${level} to send gang invites",
+					"trans": "Для отправки приглашений в банду требуется минимум ${level} уровней."
+				},
+				"levelWithAlts": {
+					"eng": "You need to be at least level ${level} to send gang invites",
+					"trans": "Для отправки приглашений в банду требуется минимум ${level} уровней."
 				},
 				"playerCooldown": {
 					"eng": "You can only send an invite to this player every ${hours} hour(s)",
@@ -3800,6 +3820,18 @@
 			"mail": {
 				"eng": "Hi, I would love to join your gang! ${request}",
 				"trans": "Привет, я бы хотел присоединиться к вашей банде! ${request}"
+			}
+		},
+		"setImage": {
+			"error": {
+				"levelNoAlts": {
+					"eng": "You need to be at least level ${level} to set gang image",
+					"trans": "Для установки изображения банды требуется уровень ${level} и выше."
+				},
+				"levelWithAlts": {
+					"eng": "You need to be at least level ${level} to set gang image",
+					"trans": "Для установки изображения банды требуется уровень ${level} и выше."
+				}
 			}
 		},
 		"tagError": {
@@ -4174,7 +4206,11 @@
 		},
 		"caseId": {
 			"eng": "Case ${id}",
-			"trans": "Кейс ${id}"
+			"trans": "Дело ${id}"
+		},
+		"caseId2": {
+			"eng": "CASE ID",
+			"trans": "ID кейса"
 		},
 		"caseResolved": {
 			"eng": "ACPD Case Resolved",
@@ -4878,6 +4914,10 @@
 			"eng": "${eventName} event drop",
 			"trans": "${eventName} выпадающие предметы"
 		},
+		"instantDungeon": {
+			"eng": "Using ${itemName} at Hideout Raid",
+			"trans": "Использование ${itemName} в рейде убежища"
+		},
 		"intelligenceContract": {
 			"eng": "Intelligence Contract",
 			"trans": "white the best translation here and nothing else"
@@ -5218,6 +5258,16 @@
 			"name": {
 				"eng": "Braised Pork Rice",
 				"trans": "Порошковый рис с мясом в соусе"
+			}
+		},
+		"breachModule": {
+			"description": {
+				"eng": "Technomancer-grade intrusion software. Required to participate in NetRun operations against megacorporations. Consumed upon breach attempt regardless of outcome.",
+				"trans": "Взломное ПО уровня Техноманта. Требуется для участия в Нетран‑операциях против мегакорпораций. Потребляется при попытке взлома независимо от результата."
+			},
+			"name": {
+				"eng": "Breach Module",
+				"trans": "Модуль Взлома"
 			}
 		},
 		"bread": {
@@ -7088,6 +7138,12 @@
 				"trans": "Евродоллары"
 			}
 		},
+		"netrunContribution": {
+			"name": {
+				"eng": "NetRun Contribution",
+				"trans": "Вклад в NetRun"
+			}
+		},
 		"pvp": {
 			"name": {
 				"eng": "PvP Kills",
@@ -7865,6 +7921,10 @@
 		"mercenary": {
 			"eng": "Mercenary",
 			"trans": "Наемник"
+		},
+		"netrun": {
+			"eng": "NetRun",
+			"trans": "НетРан"
 		},
 		"psychosis": {
 			"eng": "Psychosis",
@@ -9033,6 +9093,272 @@
 			"trans": "Аккаунт замьючен"
 		}
 	},
+	"netRunContributionType": {
+		"breach": {
+			"description": {
+				"eng": "Execute a direct breach against corporate security systems using a Breach Module",
+				"trans": "Выполнить прямой взлом корпоративных систем безопасности с помощью модуля взлома"
+			},
+			"displayName": {
+				"eng": "Matrix Breach",
+				"trans": "Взлом Матрицы"
+			}
+		}
+	},
+	"netrun": {
+		"access": {
+			"action": {
+				"eng": "INITIALIZE CONNECTION",
+				"join": {
+					"eng": "JOIN OPERATION",
+					"trans": "Присоединиться к операции"
+				},
+				"trans": "Инициализировать соединение"
+			},
+			"intel": {
+				"scanning": {
+					"eng": "SCANNING NETWORK...",
+					"trans": "СКАНИРОВАНИЕ СЕТИ..."
+				},
+				"standby": {
+					"eng": "NO ACTIVE OPERATION",
+					"trans": "Нет активной операции"
+				},
+				"target": {
+					"eng": "TARGET",
+					"trans": "Цель"
+				},
+				"time": {
+					"eng": "TIME",
+					"trans": "Время"
+				}
+			},
+			"label": {
+				"eng": "TERMINAL v2.4",
+				"trans": "Терминал v2.4"
+			},
+			"status": {
+				"active": {
+					"eng": "ACTIVE OP",
+					"trans": "Активный оператор"
+				},
+				"connecting": {
+					"eng": "CONNECTING",
+					"trans": "Подключаемся"
+				},
+				"online": {
+					"eng": "ONLINE",
+					"trans": "Онлайн"
+				}
+			},
+			"subtitle": {
+				"eng": "Access secure network protocols",
+				"trans": "Доступ к защищённым сетевым протоколам"
+			},
+			"title": {
+				"eng": "NETRUN OPERATIONS",
+				"trans": "Операции NetRun"
+			}
+		},
+		"breach": {
+			"busy": {
+				"eng": "You are currently busy",
+				"trans": "Вы сейчас заняты"
+			},
+			"cooldown": {
+				"eng": "Please wait before attempting again",
+				"trans": "Подождите до следующей попытки."
+			},
+			"failMessage": {
+				"eng": "Breach failed. Module lost.",
+				"trans": "Взлом не удался. Модуль потерян."
+			},
+			"noClan": {
+				"eng": "You must be in a gang to participate in NetRun operations",
+				"trans": "Для участия в операциях NetRun необходимо быть в банде."
+			},
+			"noItem": {
+				"eng": "You need a Breach Module to participate",
+				"trans": "Нужен модуль взлома для участия."
+			},
+			"noOperation": {
+				"eng": "No active operation",
+				"trans": "Нет активной операции"
+			},
+			"start": {
+				"eng": "INITIATE BREACH",
+				"trans": "Начать взлом"
+			},
+			"successPoints": {
+				"eng": "+${points} points contributed!",
+				"trans": "+${points} очков добавлено!"
+			}
+		},
+		"briefing": {
+			"eng": "MISSION BRIEFING",
+			"trans": "Брифинг по миссии"
+		},
+		"claim": {
+			"alreadyClaimed": {
+				"eng": "Already claimed",
+				"trans": "Уже получено"
+			},
+			"invalidMilestone": {
+				"eng": "Invalid milestone",
+				"trans": "Неверный этап"
+			},
+			"invalidObjective": {
+				"eng": "Invalid objective",
+				"trans": "Неверная цель"
+			},
+			"milestoneNotReached": {
+				"eng": "Global milestone not yet reached",
+				"trans": "Глобальная веха ещё не достигнута"
+			},
+			"noContribution": {
+				"eng": "You have not contributed to this operation",
+				"trans": "Вы не внесли вклад в эту операцию"
+			},
+			"noOperation": {
+				"eng": "No active operation",
+				"trans": "Нет активной операции"
+			},
+			"notEnoughPoints": {
+				"eng": "Not enough points to claim this objective",
+				"trans": "Не хватает очков для получения этой цели."
+			},
+			"objectivesRequired": {
+				"eng": "You must complete all personal objectives first",
+				"trans": "Сначала выполните все личные цели."
+			}
+		},
+		"leaderboard": {
+			"members": {
+				"eng": "${count} members",
+				"trans": "${count} участников"
+			},
+			"tab": {
+				"gangs": {
+					"eng": "GANGS",
+					"trans": "Банды"
+				},
+				"players": {
+					"eng": "PLAYERS",
+					"trans": "Игроки"
+				}
+			},
+			"title": {
+				"eng": "TOP CONTRIBUTORS",
+				"trans": "Топ участников"
+			}
+		},
+		"milestones": {
+			"claimable": {
+				"eng": "Click to claim",
+				"trans": "Нажмите, чтобы получить"
+			},
+			"claimed": {
+				"eng": "Claimed",
+				"trans": "Получено"
+			},
+			"locked": {
+				"eng": "Complete all objectives to unlock",
+				"trans": "Выполните все задания, чтобы разблокировать"
+			},
+			"lockedMessage": {
+				"eng": "Complete all personal objectives first to unlock milestone rewards",
+				"trans": "Выполните сначала все личные задания, чтобы открыть награды за веху."
+			},
+			"progress": {
+				"eng": "${percent}% required",
+				"trans": "Требуется ${percent}%"
+			}
+		},
+		"noData": {
+			"eng": "No data",
+			"trans": "Нет данных"
+		},
+		"noOperation": {
+			"message": {
+				"eng": "No active operation",
+				"trans": "Нет активной операции"
+			},
+			"title": {
+				"eng": "STANDBY",
+				"trans": "Ожидание"
+			}
+		},
+		"nodeLinker": {
+			"instruction": {
+				"eng": "ROTATE NODES TO CONNECT POWER SOURCE",
+				"trans": "Поверните узлы, чтобы подключить источник питания"
+			},
+			"protocol": {
+				"eng": "SECURE LINK",
+				"trans": "Защищённая связь"
+			}
+		},
+		"objectives": {
+			"claim": {
+				"eng": "CLAIM",
+				"trans": "Получить"
+			},
+			"claimed": {
+				"eng": "CLAIMED",
+				"trans": "Получено"
+			},
+			"claiming": {
+				"eng": "...",
+				"trans": "..."
+			},
+			"complete": {
+				"eng": "COMPLETE",
+				"trans": "Завершено"
+			},
+			"default": {
+				"eng": "Objective ${num}",
+				"trans": "Цель ${num}"
+			},
+			"title": {
+				"eng": "PERSONAL OBJECTIVES",
+				"trans": "Личные Цели"
+			},
+			"toGo": {
+				"eng": "to go",
+				"trans": "В путь"
+			}
+		},
+		"page": {
+			"requiresGang": {
+				"eng": "You must be in a gang to participate in NetRun operations",
+				"trans": "Для участия в операциях NetRun необходимо быть в банде."
+			}
+		},
+		"progress": {
+			"contribution": {
+				"eng": "YOU: +${pts} pts",
+				"trans": "Вы: +${pts} очков"
+			},
+			"label": {
+				"eng": "PROGRESS",
+				"trans": "ПРОГРЕСС"
+			}
+		},
+		"tab": {
+			"briefing": {
+				"eng": "BRIEFING",
+				"trans": "Брифинг"
+			},
+			"objectives": {
+				"eng": "OBJECTIVES",
+				"trans": "Цели"
+			}
+		},
+		"target": {
+			"eng": "TARGET",
+			"trans": "Цель"
+		}
+	},
 	"newsCard": {
 		"new": {
 			"eng": "NEW",
@@ -9585,6 +9911,10 @@
 				"eng": "Mercenary",
 				"trans": "Наемник"
 			},
+			"netrun": {
+				"eng": "NetRun",
+				"trans": "НетРан"
+			},
 			"quest": {
 				"eng": "Quest",
 				"trans": "Задание"
@@ -9755,6 +10085,36 @@
 		"shopButton": {
 			"eng": "I want to buy something",
 			"trans": "Я хочу купить что-то"
+		},
+		"technomancer": {
+			"description": {
+				"eng": "A secure terminal station set up in your gang's headquarters, where Spectre coordinates NetRun operations",
+				"trans": "Безопасный терминальный пункт, установленный в штабе вашей банды, где Спектр координирует операции NetRun."
+			},
+			"greetings": {
+				"eng": [
+					"Connection established. Identity verified. Welcome, operative.",
+					"Your signal cuts through the noise. The collective acknowledges you.",
+					"Data flows both ways. What you give, you receive.",
+					"Another node joins the network. Let's see what you're worth.",
+					"Encrypted channel active. Speak freely, mercenary."
+				],
+				"trans": [
+					"Соединение установлено. Идентификация подтверждена. Добро пожаловать, агент.",
+					"Ваш сигнал прорезает шум. Коллектив признает вас.",
+					"Данные двигаются в обе стороны. Отдавая – получаешь.",
+					"Новая нода подключилась к сети. Посмотрим, чего ты достоин.",
+					"Канал шифрования активен. Говорите свободно, наёмник."
+				]
+			},
+			"locationName": {
+				"eng": "Tech Bay",
+				"trans": "Техническая зона"
+			},
+			"npcName": {
+				"eng": "Spectre",
+				"trans": "Призрак"
+			}
 		},
 		"upgradeButton": {
 			"eng": "Upgrade my equipment",
@@ -11247,6 +11607,10 @@
 			}
 		},
 		"createCharacter": {
+			"ipBanned": {
+				"eng": "Registration is not available from your network, (IP banned)",
+				"trans": "Регистрация недоступна из вашей сети (IP забанен)."
+			},
 			"nameAlreadyExists": {
 				"eng": "the name \"${name}\" is already taken",
 				"trans": "имя \"${name}\" уже занято"
@@ -12513,6 +12877,78 @@
 		"title": {
 			"eng": "This account has been suspended.",
 			"trans": "Этот аккаунт был приостановлен."
+		}
+	},
+	"targetCorporation": {
+		"arcEnergy": {
+			"description": {
+				"eng": "The city's energy monopoly controlling power grid, water, and waste systems. Known for planned blackouts and leveraging grid access for corporate espionage.",
+				"trans": "Городская энергетическая монополия, контролирующая электросеть, водоснабжение и систему утилизации отходов. Известна плановыми отключениями и использованием доступа к сети для корпоративного шпионажа."
+			},
+			"displayName": {
+				"eng": "Arc Energy Holdings",
+				"trans": "Арк Энердж Холдинги"
+			}
+		},
+		"biosyn": {
+			"description": {
+				"eng": "A biotech corporation focused on genetic engineering and synthetic biology. Frequently linked to street drug operations through leaked experimental compounds.",
+				"trans": "Биотехнологическая корпорация, специализирующаяся на генетической инженерии и синтетической биологии. Часто связана с уличной торговлей наркотиками через утечку экспериментальных соединений."
+			},
+			"displayName": {
+				"eng": "BioSyn Industries",
+				"trans": "БиоСин Индустрии"
+			}
+		},
+		"chirp": {
+			"description": {
+				"eng": "The city's dominant social media platform. While appearing neutral, its algorithms serve as surveillance apparatus and manipulation tool for corporate interests.",
+				"trans": "Доминирующая социальная сеть города. Хотя выглядит нейтральной, её алгоритмы служат инструментом слежки и манипуляций в интересах корпораций."
+			},
+			"displayName": {
+				"eng": "Chirp",
+				"trans": "Чирп"
+			}
+		},
+		"circuitBreak": {
+			"description": {
+				"eng": "A sophisticated hitman organization disguised as a high-end security firm. Their Intelligence Division coordinates corporate espionage and wetwork contracts.",
+				"trans": "Сложная организация киллеров, скрывающаяся под видом элитной охранной фирмы. Её Разведывательный отдел координирует корпоративный шпионаж и контракты на убийства."
+			},
+			"displayName": {
+				"eng": "CircuitBreak Security Solutions",
+				"trans": "CircuitBreak решения по обеспечению безопасности"
+			}
+		},
+		"megaEstate": {
+			"description": {
+				"eng": "A notoriously greedy housing agency known for predatory practices and exploiting citizens in the hyper-inflated real estate market.",
+				"trans": "Знаменитое жадное агентство недвижимости, известное погоней за прибылью и эксплуатацией граждан на сверхинфляционном рынке жилья."
+			},
+			"displayName": {
+				"eng": "MegaEstate",
+				"trans": "МегаНедвижимость"
+			}
+		},
+		"ouroboros": {
+			"description": {
+				"eng": "A controversial AI and consciousness transfer corporation. Known for rogue AI incidents and failed consciousness uploads.",
+				"trans": "Спорная корпорация по искусственному интеллекту и переносу сознания. Известна инцидентами с бунтующими ИИ и неудачными загрузками сознания."
+			},
+			"displayName": {
+				"eng": "Ouroboros Dynamics",
+				"trans": "Уроборос Динамика"
+			}
+		},
+		"taixing": {
+			"description": {
+				"eng": "A cutting-edge Taiwanese corporation specializing in advanced cybernetics and bio-implants. The industry leader in innovation and quality.",
+				"trans": "Тайваньская корпорация, специализирующаяся на передовых кибернетических и био-имплантах. Лидер отрасли в инновациях и качестве."
+			},
+			"displayName": {
+				"eng": "TaiXing Cybernetics",
+				"trans": "ТайХинг Кибернетика"
+			}
 		}
 	},
 	"task": {

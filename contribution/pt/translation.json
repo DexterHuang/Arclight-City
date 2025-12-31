@@ -3706,6 +3706,18 @@
 				"trans": "Você não tem dinheiro suficiente para criar uma gangue"
 			}
 		},
+		"editMotto": {
+			"error": {
+				"levelNoAlts": {
+					"eng": "You need to be at least level ${level} to edit gang motto",
+					"trans": "Você precisa ter pelo menos nível ${level} para editar o lema da gangue."
+				},
+				"levelWithAlts": {
+					"eng": "You need to be at least level ${level} to edit gang motto",
+					"trans": "Você precisa ter pelo menos nível ${level} para editar o lema da gangue."
+				}
+			}
+		},
 		"error": {
 			"notFound": {
 				"eng": "Gang not found",
@@ -3743,6 +3755,14 @@
 				"globalCooldown": {
 					"eng": "You can only send clan invites every ${minutes} minutes",
 					"trans": "Você só pode enviar convites de clã a cada ${minutes} minutos."
+				},
+				"levelNoAlts": {
+					"eng": "You need to be at least level ${level} to send gang invites",
+					"trans": "É preciso ter pelo menos nível ${level} para enviar convites de gangue."
+				},
+				"levelWithAlts": {
+					"eng": "You need to be at least level ${level} to send gang invites",
+					"trans": "É preciso ter pelo menos nível ${level} para enviar convites de gangue."
 				},
 				"playerCooldown": {
 					"eng": "You can only send an invite to this player every ${hours} hour(s)",
@@ -3800,6 +3820,18 @@
 			"mail": {
 				"eng": "Hi, I would love to join your gang! ${request}",
 				"trans": "Oi, eu adoraria entrar na sua gangue! ${request}"
+			}
+		},
+		"setImage": {
+			"error": {
+				"levelNoAlts": {
+					"eng": "You need to be at least level ${level} to set gang image",
+					"trans": "Você precisa ter pelo menos o nível ${level} para definir a imagem da gangue."
+				},
+				"levelWithAlts": {
+					"eng": "You need to be at least level ${level} to set gang image",
+					"trans": "Você precisa ter pelo menos o nível ${level} para definir a imagem da gangue."
+				}
 			}
 		},
 		"tagError": {
@@ -4173,8 +4205,12 @@
 			"trans": "ANALISANDO PROVAS..."
 		},
 		"caseId": {
+			"eng": "Case ${id}",
+			"trans": "Caixa ${id}"
+		},
+		"caseId2": {
 			"eng": "CASE ID",
-			"trans": "ID do Caso"
+			"trans": "ID do caso"
 		},
 		"caseResolved": {
 			"eng": "ACPD Case Resolved",
@@ -4878,6 +4914,10 @@
 			"eng": "${eventName} event drop",
 			"trans": "Drop do evento ${eventName}"
 		},
+		"instantDungeon": {
+			"eng": "Using ${itemName} at Hideout Raid",
+			"trans": "Usando ${itemName} na Raide do Refúgio"
+		},
 		"intelligenceContract": {
 			"eng": "Intelligence Contract",
 			"trans": "Contrato de Inteligência"
@@ -5218,6 +5258,16 @@
 			"name": {
 				"eng": "Braised Pork Rice",
 				"trans": "Arroz com Carne Suína Braise"
+			}
+		},
+		"breachModule": {
+			"description": {
+				"eng": "Technomancer-grade intrusion software. Required to participate in NetRun operations against megacorporations. Consumed upon breach attempt regardless of outcome.",
+				"trans": "Software de intrusão de nível Technomancer. Obrigatório para participar de operações NetRun contra megacorporações. Consumido na tentativa de invasão, independentemente do resultado."
+			},
+			"name": {
+				"eng": "Breach Module",
+				"trans": "Módulo de Invasão"
 			}
 		},
 		"bread": {
@@ -7088,6 +7138,12 @@
 				"trans": "Eurodólares"
 			}
 		},
+		"netrunContribution": {
+			"name": {
+				"eng": "NetRun Contribution",
+				"trans": "Contribuição ao NetRun"
+			}
+		},
 		"pvp": {
 			"name": {
 				"eng": "PvP Kills",
@@ -7865,6 +7921,10 @@
 		"mercenary": {
 			"eng": "Mercenary",
 			"trans": "Mercenário"
+		},
+		"netrun": {
+			"eng": "NetRun",
+			"trans": "NetRun"
 		},
 		"psychosis": {
 			"eng": "Psychosis",
@@ -9033,6 +9093,272 @@
 			"trans": "Conta Silenciada"
 		}
 	},
+	"netRunContributionType": {
+		"breach": {
+			"description": {
+				"eng": "Execute a direct breach against corporate security systems using a Breach Module",
+				"trans": "Execute uma violação direta contra os sistemas de segurança corporativos usando um Módulo de Invasão."
+			},
+			"displayName": {
+				"eng": "Matrix Breach",
+				"trans": "Invasão da Matriz"
+			}
+		}
+	},
+	"netrun": {
+		"access": {
+			"action": {
+				"eng": "INITIALIZE CONNECTION",
+				"join": {
+					"eng": "JOIN OPERATION",
+					"trans": "Ingressar na Operação"
+				},
+				"trans": "INICIAR CONEXÃO"
+			},
+			"intel": {
+				"scanning": {
+					"eng": "SCANNING NETWORK...",
+					"trans": "Escaneando a rede..."
+				},
+				"standby": {
+					"eng": "NO ACTIVE OPERATION",
+					"trans": "Nenhuma Operação Ativa"
+				},
+				"target": {
+					"eng": "TARGET",
+					"trans": "Alvo"
+				},
+				"time": {
+					"eng": "TIME",
+					"trans": "TEMPO"
+				}
+			},
+			"label": {
+				"eng": "TERMINAL v2.4",
+				"trans": "TERMINAL v2.4"
+			},
+			"status": {
+				"active": {
+					"eng": "ACTIVE OP",
+					"trans": "OP Ativo"
+				},
+				"connecting": {
+					"eng": "CONNECTING",
+					"trans": "Conectando"
+				},
+				"online": {
+					"eng": "ONLINE",
+					"trans": "Online"
+				}
+			},
+			"subtitle": {
+				"eng": "Access secure network protocols",
+				"trans": "Acessar protocolos de rede seguros"
+			},
+			"title": {
+				"eng": "NETRUN OPERATIONS",
+				"trans": "Operações NetRun"
+			}
+		},
+		"breach": {
+			"busy": {
+				"eng": "You are currently busy",
+				"trans": "Você está ocupado agora"
+			},
+			"cooldown": {
+				"eng": "Please wait before attempting again",
+				"trans": "Espere antes de tentar novamente"
+			},
+			"failMessage": {
+				"eng": "Breach failed. Module lost.",
+				"trans": "Invasão falhou. Módulo perdido."
+			},
+			"noClan": {
+				"eng": "You must be in a gang to participate in NetRun operations",
+				"trans": "Você deve estar em uma gangue para participar das operações NetRun."
+			},
+			"noItem": {
+				"eng": "You need a Breach Module to participate",
+				"trans": "Você precisa de um Módulo de Invasão para participar"
+			},
+			"noOperation": {
+				"eng": "No active operation",
+				"trans": "Nenhuma operação ativa"
+			},
+			"start": {
+				"eng": "INITIATE BREACH",
+				"trans": "Iniciar Invasão"
+			},
+			"successPoints": {
+				"eng": "+${points} points contributed!",
+				"trans": "Contribuiu com +${points} pontos!"
+			}
+		},
+		"briefing": {
+			"eng": "MISSION BRIEFING",
+			"trans": "Resumo da Missão"
+		},
+		"claim": {
+			"alreadyClaimed": {
+				"eng": "Already claimed",
+				"trans": "Já reivindicado"
+			},
+			"invalidMilestone": {
+				"eng": "Invalid milestone",
+				"trans": "Marco inválido"
+			},
+			"invalidObjective": {
+				"eng": "Invalid objective",
+				"trans": "Objetivo inválido"
+			},
+			"milestoneNotReached": {
+				"eng": "Global milestone not yet reached",
+				"trans": "Marco global ainda não foi alcançado"
+			},
+			"noContribution": {
+				"eng": "You have not contributed to this operation",
+				"trans": "Você ainda não contribuiu para esta operação."
+			},
+			"noOperation": {
+				"eng": "No active operation",
+				"trans": "Nenhuma operação ativa"
+			},
+			"notEnoughPoints": {
+				"eng": "Not enough points to claim this objective",
+				"trans": "Faltam pontos para reivindicar este objetivo."
+			},
+			"objectivesRequired": {
+				"eng": "You must complete all personal objectives first",
+				"trans": "Conclua todos os objetivos pessoais primeiro."
+			}
+		},
+		"leaderboard": {
+			"members": {
+				"eng": "${count} members",
+				"trans": "${count} membros"
+			},
+			"tab": {
+				"gangs": {
+					"eng": "GANGS",
+					"trans": "gangues"
+				},
+				"players": {
+					"eng": "PLAYERS",
+					"trans": "Jogadores"
+				}
+			},
+			"title": {
+				"eng": "TOP CONTRIBUTORS",
+				"trans": "Melhores Contribuidores"
+			}
+		},
+		"milestones": {
+			"claimable": {
+				"eng": "Click to claim",
+				"trans": "Clique para reivindicar"
+			},
+			"claimed": {
+				"eng": "Claimed",
+				"trans": "Reivindicado"
+			},
+			"locked": {
+				"eng": "Complete all objectives to unlock",
+				"trans": "Complete todos os objetivos para desbloquear"
+			},
+			"lockedMessage": {
+				"eng": "Complete all personal objectives first to unlock milestone rewards",
+				"trans": "Conclua todos os objetivos pessoais antes de desbloquear as recompensas dos marcos."
+			},
+			"progress": {
+				"eng": "${percent}% required",
+				"trans": "${percent}% necessário"
+			}
+		},
+		"noData": {
+			"eng": "No data",
+			"trans": "Sem dados"
+		},
+		"noOperation": {
+			"message": {
+				"eng": "No active operation",
+				"trans": "Nenhuma operação ativa"
+			},
+			"title": {
+				"eng": "STANDBY",
+				"trans": "Em espera"
+			}
+		},
+		"nodeLinker": {
+			"instruction": {
+				"eng": "ROTATE NODES TO CONNECT POWER SOURCE",
+				"trans": "Gire os nós para conectar à fonte de energia"
+			},
+			"protocol": {
+				"eng": "SECURE LINK",
+				"trans": "LINK SEGURO"
+			}
+		},
+		"objectives": {
+			"claim": {
+				"eng": "CLAIM",
+				"trans": "RECLAMAR"
+			},
+			"claimed": {
+				"eng": "CLAIMED",
+				"trans": "RECLAMADO"
+			},
+			"claiming": {
+				"eng": "...",
+				"trans": "..."
+			},
+			"complete": {
+				"eng": "COMPLETE",
+				"trans": "Completar"
+			},
+			"default": {
+				"eng": "Objective ${num}",
+				"trans": "Objetivo ${num}"
+			},
+			"title": {
+				"eng": "PERSONAL OBJECTIVES",
+				"trans": "Objetivos Pessoais"
+			},
+			"toGo": {
+				"eng": "to go",
+				"trans": "para levar"
+			}
+		},
+		"page": {
+			"requiresGang": {
+				"eng": "You must be in a gang to participate in NetRun operations",
+				"trans": "Você deve estar em uma gangue para participar das operações NetRun."
+			}
+		},
+		"progress": {
+			"contribution": {
+				"eng": "YOU: +${pts} pts",
+				"trans": "VOCÊ: +${pts} pts"
+			},
+			"label": {
+				"eng": "PROGRESS",
+				"trans": "PROGRESSO"
+			}
+		},
+		"tab": {
+			"briefing": {
+				"eng": "BRIEFING",
+				"trans": "Instruções"
+			},
+			"objectives": {
+				"eng": "OBJECTIVES",
+				"trans": "OBJETIVOS"
+			}
+		},
+		"target": {
+			"eng": "TARGET",
+			"trans": "Alvo"
+		}
+	},
 	"newsCard": {
 		"new": {
 			"eng": "NEW",
@@ -9585,6 +9911,10 @@
 				"eng": "Mercenary",
 				"trans": "Mercenário"
 			},
+			"netrun": {
+				"eng": "NetRun",
+				"trans": "NetRun"
+			},
 			"quest": {
 				"eng": "Quest",
 				"trans": "Missão"
@@ -9755,6 +10085,36 @@
 		"shopButton": {
 			"eng": "I want to buy something",
 			"trans": "Eu quero comprar algo"
+		},
+		"technomancer": {
+			"description": {
+				"eng": "A secure terminal station set up in your gang's headquarters, where Spectre coordinates NetRun operations",
+				"trans": "Estação de terminal seguro instalada na base da sua gangue, onde o Spectre coordena as operações NetRun."
+			},
+			"greetings": {
+				"eng": [
+					"Connection established. Identity verified. Welcome, operative.",
+					"Your signal cuts through the noise. The collective acknowledges you.",
+					"Data flows both ways. What you give, you receive.",
+					"Another node joins the network. Let's see what you're worth.",
+					"Encrypted channel active. Speak freely, mercenary."
+				],
+				"trans": [
+					"Conexão estabelecida. Identidade verificada. Bem‑vindo, operador.",
+					"Seu sinal corta o ruído. O coletivo reconhece você.",
+					"Os dados fluem em ambos os sentidos. O que você dá, você recebe.",
+					"Mais um nó entra na rede. Vamos ver o que você vale.",
+					"Canal criptografado ativo. Fale à vontade, mercenário."
+				]
+			},
+			"locationName": {
+				"eng": "Tech Bay",
+				"trans": "Baía de Tecnologia"
+			},
+			"npcName": {
+				"eng": "Spectre",
+				"trans": "Fantasma"
+			}
 		},
 		"upgradeButton": {
 			"eng": "Upgrade my equipment",
@@ -11247,6 +11607,10 @@
 			}
 		},
 		"createCharacter": {
+			"ipBanned": {
+				"eng": "Registration is not available from your network, (IP banned)",
+				"trans": "Registro não disponível na sua rede (IP bloqueado)"
+			},
 			"nameAlreadyExists": {
 				"eng": "the name \"${name}\" is already taken",
 				"trans": "o nome \"${name}\" já está em uso"
@@ -12513,6 +12877,78 @@
 		"title": {
 			"eng": "This account has been suspended.",
 			"trans": "Esta conta foi suspensa."
+		}
+	},
+	"targetCorporation": {
+		"arcEnergy": {
+			"description": {
+				"eng": "The city's energy monopoly controlling power grid, water, and waste systems. Known for planned blackouts and leveraging grid access for corporate espionage.",
+				"trans": "O monopólio de energia da cidade controla a rede elétrica, água e sistemas de resíduos. Conhecido por apagões programados e por usar o acesso à rede para espionagem corporativa."
+			},
+			"displayName": {
+				"eng": "Arc Energy Holdings",
+				"trans": "Arc Energy Holdings"
+			}
+		},
+		"biosyn": {
+			"description": {
+				"eng": "A biotech corporation focused on genetic engineering and synthetic biology. Frequently linked to street drug operations through leaked experimental compounds.",
+				"trans": "Uma corporação biotecnológica especializada em engenharia genética e biologia sintética. Frequentemente ligada a operações de drogas de rua por meio de compostos experimentais vazados."
+			},
+			"displayName": {
+				"eng": "BioSyn Industries",
+				"trans": "BioSyn Indústrias"
+			}
+		},
+		"chirp": {
+			"description": {
+				"eng": "The city's dominant social media platform. While appearing neutral, its algorithms serve as surveillance apparatus and manipulation tool for corporate interests.",
+				"trans": "A principal plataforma de mídia social da cidade. Embora pareça neutra, seus algoritmos funcionam como instrumento de vigilância e ferramenta de manipulação para interesses corporativos."
+			},
+			"displayName": {
+				"eng": "Chirp",
+				"trans": "Chirp"
+			}
+		},
+		"circuitBreak": {
+			"description": {
+				"eng": "A sophisticated hitman organization disguised as a high-end security firm. Their Intelligence Division coordinates corporate espionage and wetwork contracts.",
+				"trans": "Uma organização de assassinos sofisticada camuflada como uma empresa de segurança de alto nível. Sua Divisão de Inteligência coordena espionagem corporativa e contratos de assassinato."
+			},
+			"displayName": {
+				"eng": "CircuitBreak Security Solutions",
+				"trans": "CircuitBreak Soluções de Segurança"
+			}
+		},
+		"megaEstate": {
+			"description": {
+				"eng": "A notoriously greedy housing agency known for predatory practices and exploiting citizens in the hyper-inflated real estate market.",
+				"trans": "Agência imobiliária notoriamente avarenta, famosa por práticas predatórias e exploração de cidadãos no mercado hiperinflado."
+			},
+			"displayName": {
+				"eng": "MegaEstate",
+				"trans": "MegaImóveis"
+			}
+		},
+		"ouroboros": {
+			"description": {
+				"eng": "A controversial AI and consciousness transfer corporation. Known for rogue AI incidents and failed consciousness uploads.",
+				"trans": "Corporação controversa de IA e transferência de consciência. Conhecida por incidentes de IA fora da linha e falhas em uploads de consciência."
+			},
+			"displayName": {
+				"eng": "Ouroboros Dynamics",
+				"trans": "Ouroboros Dynamics"
+			}
+		},
+		"taixing": {
+			"description": {
+				"eng": "A cutting-edge Taiwanese corporation specializing in advanced cybernetics and bio-implants. The industry leader in innovation and quality.",
+				"trans": "Empresa taiwanesa de ponta especializada em cibernética avançada e bioimplantes. Líder do setor em inovação e qualidade."
+			},
+			"displayName": {
+				"eng": "TaiXing Cybernetics",
+				"trans": "TaiXing Cibernética"
+			}
 		}
 	},
 	"task": {

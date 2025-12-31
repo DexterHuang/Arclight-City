@@ -3706,6 +3706,18 @@
 				"trans": "Nemáte dost peněz na založení gangu."
 			}
 		},
+		"editMotto": {
+			"error": {
+				"levelNoAlts": {
+					"eng": "You need to be at least level ${level} to edit gang motto",
+					"trans": "Musíte mít alespoň úroveň ${level}, abyste mohli upravit motto klanu."
+				},
+				"levelWithAlts": {
+					"eng": "You need to be at least level ${level} to edit gang motto",
+					"trans": "Musíte mít alespoň úroveň ${level}, abyste mohli upravit motto klanu."
+				}
+			}
+		},
 		"error": {
 			"notFound": {
 				"eng": "Gang not found",
@@ -3743,6 +3755,14 @@
 				"globalCooldown": {
 					"eng": "You can only send clan invites every ${minutes} minutes",
 					"trans": "Pozvánky do klanu můžete odesílat jen každých ${minutes} minut"
+				},
+				"levelNoAlts": {
+					"eng": "You need to be at least level ${level} to send gang invites",
+					"trans": "Pro zasílání pozvánek do gangu musíte mít minimálně úroveň ${level}."
+				},
+				"levelWithAlts": {
+					"eng": "You need to be at least level ${level} to send gang invites",
+					"trans": "Pro zasílání pozvánek do gangu musíte mít minimálně úroveň ${level}."
 				},
 				"playerCooldown": {
 					"eng": "You can only send an invite to this player every ${hours} hour(s)",
@@ -3800,6 +3820,18 @@
 			"mail": {
 				"eng": "Hi, I would love to join your gang! ${request}",
 				"trans": "Ahoj, rád bych se přidal k vaší bandě! ${request}"
+			}
+		},
+		"setImage": {
+			"error": {
+				"levelNoAlts": {
+					"eng": "You need to be at least level ${level} to set gang image",
+					"trans": "Abyste mohli nastavit obrázek klanu, musíte být alespoň na úrovni ${level}."
+				},
+				"levelWithAlts": {
+					"eng": "You need to be at least level ${level} to set gang image",
+					"trans": "Abyste mohli nastavit obrázek klanu, musíte být alespoň na úrovni ${level}."
+				}
 			}
 		},
 		"tagError": {
@@ -4173,6 +4205,10 @@
 			"trans": "Analyzování důkazů..."
 		},
 		"caseId": {
+			"eng": "Case ${id}",
+			"trans": "Případ ${id}"
+		},
+		"caseId2": {
 			"eng": "CASE ID",
 			"trans": "ID případu"
 		},
@@ -4878,6 +4914,10 @@
 			"eng": "${eventName} event drop",
 			"trans": "Drop z události ${eventName}"
 		},
+		"instantDungeon": {
+			"eng": "Using ${itemName} at Hideout Raid",
+			"trans": "Použití ${itemName} při Útoku na úkryt"
+		},
 		"intelligenceContract": {
 			"eng": "Intelligence Contract",
 			"trans": "Inteligence Smlouva"
@@ -5218,6 +5258,16 @@
 			"name": {
 				"eng": "Braised Pork Rice",
 				"trans": "Dušené vepřové maso s rýží"
+			}
+		},
+		"breachModule": {
+			"description": {
+				"eng": "Technomancer-grade intrusion software. Required to participate in NetRun operations against megacorporations. Consumed upon breach attempt regardless of outcome.",
+				"trans": "Intruzní software na úrovni Technomancer. Vyžadován pro účast v NetRun operacích proti megakorporacím. Spotřebovává se při pokusu o průnik bez ohledu na výsledek."
+			},
+			"name": {
+				"eng": "Breach Module",
+				"trans": "Průlomový modul"
 			}
 		},
 		"bread": {
@@ -7088,6 +7138,12 @@
 				"trans": "eurodolary"
 			}
 		},
+		"netrunContribution": {
+			"name": {
+				"eng": "NetRun Contribution",
+				"trans": "Příspěvek do NetRun"
+			}
+		},
 		"pvp": {
 			"name": {
 				"eng": "PvP Kills",
@@ -7865,6 +7921,10 @@
 		"mercenary": {
 			"eng": "Mercenary",
 			"trans": "Najemník"
+		},
+		"netrun": {
+			"eng": "NetRun",
+			"trans": "NetRun"
 		},
 		"psychosis": {
 			"eng": "Psychosis",
@@ -9033,6 +9093,272 @@
 			"trans": "Účet ztišen"
 		}
 	},
+	"netRunContributionType": {
+		"breach": {
+			"description": {
+				"eng": "Execute a direct breach against corporate security systems using a Breach Module",
+				"trans": "Proveď přímý průnik do firemních bezpečnostních systémů pomocí Breach Module."
+			},
+			"displayName": {
+				"eng": "Matrix Breach",
+				"trans": "Porušení Matrixu"
+			}
+		}
+	},
+	"netrun": {
+		"access": {
+			"action": {
+				"eng": "INITIALIZE CONNECTION",
+				"join": {
+					"eng": "JOIN OPERATION",
+					"trans": "Připoj se k operaci"
+				},
+				"trans": "Inicializovat připojení"
+			},
+			"intel": {
+				"scanning": {
+					"eng": "SCANNING NETWORK...",
+					"trans": "Skenování sítě..."
+				},
+				"standby": {
+					"eng": "NO ACTIVE OPERATION",
+					"trans": "Žádná aktivní operace"
+				},
+				"target": {
+					"eng": "TARGET",
+					"trans": "Cíl"
+				},
+				"time": {
+					"eng": "TIME",
+					"trans": "ČAS"
+				}
+			},
+			"label": {
+				"eng": "TERMINAL v2.4",
+				"trans": "Terminál v2.4"
+			},
+			"status": {
+				"active": {
+					"eng": "ACTIVE OP",
+					"trans": "Aktivní operace"
+				},
+				"connecting": {
+					"eng": "CONNECTING",
+					"trans": "Připojování"
+				},
+				"online": {
+					"eng": "ONLINE",
+					"trans": "Online"
+				}
+			},
+			"subtitle": {
+				"eng": "Access secure network protocols",
+				"trans": "Přístup k bezpečným síťovým protokolům"
+			},
+			"title": {
+				"eng": "NETRUN OPERATIONS",
+				"trans": "Operace NetRun"
+			}
+		},
+		"breach": {
+			"busy": {
+				"eng": "You are currently busy",
+				"trans": "Momentálně jsi zaneprázdněn."
+			},
+			"cooldown": {
+				"eng": "Please wait before attempting again",
+				"trans": "Prosím počkejte před dalším pokusem."
+			},
+			"failMessage": {
+				"eng": "Breach failed. Module lost.",
+				"trans": "Průnik selhal. Modul ztracen."
+			},
+			"noClan": {
+				"eng": "You must be in a gang to participate in NetRun operations",
+				"trans": "Musíte být v gangu, abyste se mohli zúčastnit operací NetRun."
+			},
+			"noItem": {
+				"eng": "You need a Breach Module to participate",
+				"trans": "Potřebujete Breach Module k účasti."
+			},
+			"noOperation": {
+				"eng": "No active operation",
+				"trans": "Žádná aktivní operace"
+			},
+			"start": {
+				"eng": "INITIATE BREACH",
+				"trans": "Zahajit prunik"
+			},
+			"successPoints": {
+				"eng": "+${points} points contributed!",
+				"trans": "+${points} bodů přidáno!"
+			}
+		},
+		"briefing": {
+			"eng": "MISSION BRIEFING",
+			"trans": "Briefing mise"
+		},
+		"claim": {
+			"alreadyClaimed": {
+				"eng": "Already claimed",
+				"trans": "Již získáno"
+			},
+			"invalidMilestone": {
+				"eng": "Invalid milestone",
+				"trans": "Neplatný milník"
+			},
+			"invalidObjective": {
+				"eng": "Invalid objective",
+				"trans": "Neplatný cíl"
+			},
+			"milestoneNotReached": {
+				"eng": "Global milestone not yet reached",
+				"trans": "Globální milník ještě nebyl dosažen."
+			},
+			"noContribution": {
+				"eng": "You have not contributed to this operation",
+				"trans": "V této operaci jste ne přispěli."
+			},
+			"noOperation": {
+				"eng": "No active operation",
+				"trans": "Žádná aktivní operace"
+			},
+			"notEnoughPoints": {
+				"eng": "Not enough points to claim this objective",
+				"trans": "Nedostatek bodů pro získání tohoto cíle."
+			},
+			"objectivesRequired": {
+				"eng": "You must complete all personal objectives first",
+				"trans": "Nejdřív musíte dokončit všechny osobní cíle."
+			}
+		},
+		"leaderboard": {
+			"members": {
+				"eng": "${count} members",
+				"trans": "${count} členů"
+			},
+			"tab": {
+				"gangs": {
+					"eng": "GANGS",
+					"trans": "GANGY"
+				},
+				"players": {
+					"eng": "PLAYERS",
+					"trans": "Hráči"
+				}
+			},
+			"title": {
+				"eng": "TOP CONTRIBUTORS",
+				"trans": "Nejlepší přispěvatelé"
+			}
+		},
+		"milestones": {
+			"claimable": {
+				"eng": "Click to claim",
+				"trans": "Klikni pro získání"
+			},
+			"claimed": {
+				"eng": "Claimed",
+				"trans": "Získáno"
+			},
+			"locked": {
+				"eng": "Complete all objectives to unlock",
+				"trans": "Dokončete všechny úkoly pro odemknutí"
+			},
+			"lockedMessage": {
+				"eng": "Complete all personal objectives first to unlock milestone rewards",
+				"trans": "Nejdříve dokončete všechny osobní úkoly, abyste odemkli odměny za milníky."
+			},
+			"progress": {
+				"eng": "${percent}% required",
+				"trans": "${percent}% vyžadováno"
+			}
+		},
+		"noData": {
+			"eng": "No data",
+			"trans": "Žádná data"
+		},
+		"noOperation": {
+			"message": {
+				"eng": "No active operation",
+				"trans": "Žádná aktivní operace"
+			},
+			"title": {
+				"eng": "STANDBY",
+				"trans": "Čekací režim"
+			}
+		},
+		"nodeLinker": {
+			"instruction": {
+				"eng": "ROTATE NODES TO CONNECT POWER SOURCE",
+				"trans": "Otoč uzly pro připojení k napájecímu zdroji."
+			},
+			"protocol": {
+				"eng": "SECURE LINK",
+				"trans": "Bezpečný odkaz"
+			}
+		},
+		"objectives": {
+			"claim": {
+				"eng": "CLAIM",
+				"trans": "Získat"
+			},
+			"claimed": {
+				"eng": "CLAIMED",
+				"trans": "Získáno"
+			},
+			"claiming": {
+				"eng": "...",
+				"trans": "..."
+			},
+			"complete": {
+				"eng": "COMPLETE",
+				"trans": "Dokončit"
+			},
+			"default": {
+				"eng": "Objective ${num}",
+				"trans": "Cíl ${num}"
+			},
+			"title": {
+				"eng": "PERSONAL OBJECTIVES",
+				"trans": "Osobní cíle"
+			},
+			"toGo": {
+				"eng": "to go",
+				"trans": "jít"
+			}
+		},
+		"page": {
+			"requiresGang": {
+				"eng": "You must be in a gang to participate in NetRun operations",
+				"trans": "Musíte být v gangu, abyste se mohli zúčastnit operací NetRun."
+			}
+		},
+		"progress": {
+			"contribution": {
+				"eng": "YOU: +${pts} pts",
+				"trans": "TY: +${pts} bodů"
+			},
+			"label": {
+				"eng": "PROGRESS",
+				"trans": "Postup"
+			}
+		},
+		"tab": {
+			"briefing": {
+				"eng": "BRIEFING",
+				"trans": "PŘEHLED"
+			},
+			"objectives": {
+				"eng": "OBJECTIVES",
+				"trans": "ÚKOLY"
+			}
+		},
+		"target": {
+			"eng": "TARGET",
+			"trans": "Cíl"
+		}
+	},
 	"newsCard": {
 		"new": {
 			"eng": "NEW",
@@ -9585,6 +9911,10 @@
 				"eng": "Mercenary",
 				"trans": "Najemník"
 			},
+			"netrun": {
+				"eng": "NetRun",
+				"trans": "NetRun"
+			},
 			"quest": {
 				"eng": "Quest",
 				"trans": "Úkol"
@@ -9755,6 +10085,36 @@
 		"shopButton": {
 			"eng": "I want to buy something",
 			"trans": "Chci koupit něco"
+		},
+		"technomancer": {
+			"description": {
+				"eng": "A secure terminal station set up in your gang's headquarters, where Spectre coordinates NetRun operations",
+				"trans": "Bezpieczny terminal umieszczony w siedzibie twojej bazy gangów, gdzie Spectre koordynuje operacje NetRun."
+			},
+			"greetings": {
+				"eng": [
+					"Connection established. Identity verified. Welcome, operative.",
+					"Your signal cuts through the noise. The collective acknowledges you.",
+					"Data flows both ways. What you give, you receive.",
+					"Another node joins the network. Let's see what you're worth.",
+					"Encrypted channel active. Speak freely, mercenary."
+				],
+				"trans": [
+					"Spojení navázáno. Identita ověřena. Vítejte, operátoře.",
+					"Tvůj signál prokříží šum. Kolektiv tě uznává.",
+					"Data proudí v obou směrech. Co dáš, dostaneš.",
+					"Další uzel se připojuje k síti. Zjistíme, na co si stojíš.",
+					"Šifrovaný kanál aktivní. Mluv volně, zbrojník."
+				]
+			},
+			"locationName": {
+				"eng": "Tech Bay",
+				"trans": "Technická zóna"
+			},
+			"npcName": {
+				"eng": "Spectre",
+				"trans": "Spectre"
+			}
 		},
 		"upgradeButton": {
 			"eng": "Upgrade my equipment",
@@ -11247,6 +11607,10 @@
 			}
 		},
 		"createCharacter": {
+			"ipBanned": {
+				"eng": "Registration is not available from your network, (IP banned)",
+				"trans": "Registrace není z vaší sítě k dispozici (IP zakázáno)."
+			},
 			"nameAlreadyExists": {
 				"eng": "the name \"${name}\" is already taken",
 				"trans": "Název \"${name}\" je již obsazen."
@@ -12513,6 +12877,78 @@
 		"title": {
 			"eng": "This account has been suspended.",
 			"trans": "Účet byl pozastaven."
+		}
+	},
+	"targetCorporation": {
+		"arcEnergy": {
+			"description": {
+				"eng": "The city's energy monopoly controlling power grid, water, and waste systems. Known for planned blackouts and leveraging grid access for corporate espionage.",
+				"trans": "Městský energetický monopol řídící elektrickou síť, vodu a odpadové systémy. Je známý plánovanými výpadky a využitím přístupu k síti pro korporátní špionáž."
+			},
+			"displayName": {
+				"eng": "Arc Energy Holdings",
+				"trans": "Arc Energy Holdings"
+			}
+		},
+		"biosyn": {
+			"description": {
+				"eng": "A biotech corporation focused on genetic engineering and synthetic biology. Frequently linked to street drug operations through leaked experimental compounds.",
+				"trans": "Biotechová korporace zaměřená na genetické inženýrství a syntetickou biologii. Často je spojena s pouličními drogovými operacemi díky úniku experimentálních sloučenin."
+			},
+			"displayName": {
+				"eng": "BioSyn Industries",
+				"trans": "BioSyn Industries"
+			}
+		},
+		"chirp": {
+			"description": {
+				"eng": "The city's dominant social media platform. While appearing neutral, its algorithms serve as surveillance apparatus and manipulation tool for corporate interests.",
+				"trans": "Dominující sociální síť v městě. Přestože se jeví jako neutrální, její algoritmy slouží k sledování a manipulaci pro korporátní zájmy."
+			},
+			"displayName": {
+				"eng": "Chirp",
+				"trans": "Švábění"
+			}
+		},
+		"circuitBreak": {
+			"description": {
+				"eng": "A sophisticated hitman organization disguised as a high-end security firm. Their Intelligence Division coordinates corporate espionage and wetwork contracts.",
+				"trans": "Organizace sofistikovanych zabijak maskovana jako preminova bezpecnicni firma. Jeji Oddeleni Inteligence koordinuje korporativni spionaz i ulohy eliminace."
+			},
+			"displayName": {
+				"eng": "CircuitBreak Security Solutions",
+				"trans": "CircuitBreak Bezpečnostní řešení"
+			}
+		},
+		"megaEstate": {
+			"description": {
+				"eng": "A notoriously greedy housing agency known for predatory practices and exploiting citizens in the hyper-inflated real estate market.",
+				"trans": "Známá svým chamtivým přístupem agentura na bydlení, která využívá občany a provádí predátorské praktiky na hyperinflačním trhu s nemovitostmi."
+			},
+			"displayName": {
+				"eng": "MegaEstate",
+				"trans": "MegaEstate"
+			}
+		},
+		"ouroboros": {
+			"description": {
+				"eng": "A controversial AI and consciousness transfer corporation. Known for rogue AI incidents and failed consciousness uploads.",
+				"trans": "Kontroverzní korporace zabývající se umělou inteligencí a přenosem vědomí. Je známá incidenty s odpadlou AI a selháním převodu vědomí."
+			},
+			"displayName": {
+				"eng": "Ouroboros Dynamics",
+				"trans": "Ouroboros Dynamics"
+			}
+		},
+		"taixing": {
+			"description": {
+				"eng": "A cutting-edge Taiwanese corporation specializing in advanced cybernetics and bio-implants. The industry leader in innovation and quality.",
+				"trans": "Přední taiwanská společnost zaměřená na pokročilé kybernetické technologie a bioimplantáty. Vedení průmyslu v oblasti inovací a kvality."
+			},
+			"displayName": {
+				"eng": "TaiXing Cybernetics",
+				"trans": "TaiXing Kybernetika"
+			}
 		}
 	},
 	"task": {

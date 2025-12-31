@@ -3706,6 +3706,18 @@
 				"trans": "เงินไม่พอสร้างแก๊งค์โว้ย!"
 			}
 		},
+		"editMotto": {
+			"error": {
+				"levelNoAlts": {
+					"eng": "You need to be at least level ${level} to edit gang motto",
+					"trans": "ต้องมีระดับอย่างน้อย ${level} เพื่อแก้ไขคำขวัญแก๊ง"
+				},
+				"levelWithAlts": {
+					"eng": "You need to be at least level ${level} to edit gang motto",
+					"trans": "ต้องมีระดับอย่างน้อย ${level} เพื่อแก้ไขคำขวัญแก๊ง"
+				}
+			}
+		},
 		"error": {
 			"notFound": {
 				"eng": "Gang not found",
@@ -3743,6 +3755,14 @@
 				"globalCooldown": {
 					"eng": "You can only send clan invites every ${minutes} minutes",
 					"trans": "คุณสามารถส่งคำเชิญเข้ากลุ่มได้เพียงทุก ๆ ${minutes} นาที"
+				},
+				"levelNoAlts": {
+					"eng": "You need to be at least level ${level} to send gang invites",
+					"trans": "คุณต้องมีระดับอย่างน้อย ${level} ก่อนจึงจะสามารถส่งคำเชิญแก๊งได้"
+				},
+				"levelWithAlts": {
+					"eng": "You need to be at least level ${level} to send gang invites",
+					"trans": "คุณต้องมีระดับอย่างน้อย ${level} ก่อนจึงจะสามารถส่งคำเชิญแก๊งได้"
 				},
 				"playerCooldown": {
 					"eng": "You can only send an invite to this player every ${hours} hour(s)",
@@ -3800,6 +3820,18 @@
 			"mail": {
 				"eng": "Hi, I would love to join your gang! ${request}",
 				"trans": "เฮ้! ขอเข้าแก๊งค์ด้วยคน! ${request}"
+			}
+		},
+		"setImage": {
+			"error": {
+				"levelNoAlts": {
+					"eng": "You need to be at least level ${level} to set gang image",
+					"trans": "คุณต้องมีระดับอย่างน้อย ${level} เพื่อกำหนดรูปภาพของแก๊ง"
+				},
+				"levelWithAlts": {
+					"eng": "You need to be at least level ${level} to set gang image",
+					"trans": "คุณต้องมีระดับอย่างน้อย ${level} เพื่อกำหนดรูปภาพของแก๊ง"
+				}
 			}
 		},
 		"tagError": {
@@ -4173,8 +4205,12 @@
 			"trans": "กำลังวิเคราะห์หลักฐาน…"
 		},
 		"caseId": {
+			"eng": "Case ${id}",
+			"trans": "เคส ${id}"
+		},
+		"caseId2": {
 			"eng": "CASE ID",
-			"trans": "รหัสเคส"
+			"trans": "รหัสคดี"
 		},
 		"caseResolved": {
 			"eng": "ACPD Case Resolved",
@@ -4878,6 +4914,10 @@
 			"eng": "${eventName} event drop",
 			"trans": "${eventName} ไอเทมจากเหตุการณ์"
 		},
+		"instantDungeon": {
+			"eng": "Using ${itemName} at Hideout Raid",
+			"trans": "ใช้ ${itemName} ในรุกฐานลับ"
+		},
 		"intelligenceContract": {
 			"eng": "Intelligence Contract",
 			"trans": "สัญญาปัญญา"
@@ -5218,6 +5258,16 @@
 			"name": {
 				"eng": "Braised Pork Rice",
 				"trans": "ข้าวหมูพะโล้"
+			}
+		},
+		"breachModule": {
+			"description": {
+				"eng": "Technomancer-grade intrusion software. Required to participate in NetRun operations against megacorporations. Consumed upon breach attempt regardless of outcome.",
+				"trans": "ซอฟต์แวร์เจาะระบบระดับเทคโนแมนเซอร์\nจำเป็นสำหรับการทำงานเน็ตรันกับเมกะคอร์ปอเรชั่น\nถูกใช้หมดทุกครั้งที่พยายามเจาะ ไม่ว่าจะสำเร็จหรือไม่"
+			},
+			"name": {
+				"eng": "Breach Module",
+				"trans": "โมดูลเจาะระบบ"
 			}
 		},
 		"bread": {
@@ -7088,6 +7138,12 @@
 				"trans": "ยูโรดอลลาร์"
 			}
 		},
+		"netrunContribution": {
+			"name": {
+				"eng": "NetRun Contribution",
+				"trans": "NetRun ส่วนร่วม"
+			}
+		},
 		"pvp": {
 			"name": {
 				"eng": "PvP Kills",
@@ -7865,6 +7921,10 @@
 		"mercenary": {
 			"eng": "Mercenary",
 			"trans": "มือปืนรับจ้าง"
+		},
+		"netrun": {
+			"eng": "NetRun",
+			"trans": "เน็ตรัน"
 		},
 		"psychosis": {
 			"eng": "Psychosis",
@@ -9033,6 +9093,272 @@
 			"trans": "บัญชีถูกมิวท์"
 		}
 	},
+	"netRunContributionType": {
+		"breach": {
+			"description": {
+				"eng": "Execute a direct breach against corporate security systems using a Breach Module",
+				"trans": "เจาะตรงระบบความปลอดภัยของบริษัทโดยใช้โมดูลเจาะ"
+			},
+			"displayName": {
+				"eng": "Matrix Breach",
+				"trans": "เจาะเมทริกซ์"
+			}
+		}
+	},
+	"netrun": {
+		"access": {
+			"action": {
+				"eng": "INITIALIZE CONNECTION",
+				"join": {
+					"eng": "JOIN OPERATION",
+					"trans": "เข้าร่วมปฏิบัติ"
+				},
+				"trans": "เริ่มต้นเชื่อมต่อ"
+			},
+			"intel": {
+				"scanning": {
+					"eng": "SCANNING NETWORK...",
+					"trans": "กำลังสแกนเครือข่าย…"
+				},
+				"standby": {
+					"eng": "NO ACTIVE OPERATION",
+					"trans": "ไม่มีปฏิบัติการเปิด"
+				},
+				"target": {
+					"eng": "TARGET",
+					"trans": "เป้าหมาย"
+				},
+				"time": {
+					"eng": "TIME",
+					"trans": "เวลา"
+				}
+			},
+			"label": {
+				"eng": "TERMINAL v2.4",
+				"trans": "เทอร์มินัล v2.4"
+			},
+			"status": {
+				"active": {
+					"eng": "ACTIVE OP",
+					"trans": "ผู้ปฏิบัติการที่ใช้งานอยู่"
+				},
+				"connecting": {
+					"eng": "CONNECTING",
+					"trans": "กำลังเชื่อมต่อ"
+				},
+				"online": {
+					"eng": "ONLINE",
+					"trans": "ออนไลน์"
+				}
+			},
+			"subtitle": {
+				"eng": "Access secure network protocols",
+				"trans": "เข้าถึงโปรโตคอลเครือข่ายปลอดภัย"
+			},
+			"title": {
+				"eng": "NETRUN OPERATIONS",
+				"trans": "NetRun ปฏิบัติการ"
+			}
+		},
+		"breach": {
+			"busy": {
+				"eng": "You are currently busy",
+				"trans": "คุณกำลังยุ่ง"
+			},
+			"cooldown": {
+				"eng": "Please wait before attempting again",
+				"trans": "รอสักครู่แล้วลองใหม่"
+			},
+			"failMessage": {
+				"eng": "Breach failed. Module lost.",
+				"trans": "เจาะล้มเหลว โมดูลสูญหาย"
+			},
+			"noClan": {
+				"eng": "You must be in a gang to participate in NetRun operations",
+				"trans": "คุณต้องอยู่ในแก๊งค์เพื่อเข้าร่วมปฏิบัติการ NetRun"
+			},
+			"noItem": {
+				"eng": "You need a Breach Module to participate",
+				"trans": "คุณต้องมีโมดูลเจาะระบบเพื่อเข้าร่วม"
+			},
+			"noOperation": {
+				"eng": "No active operation",
+				"trans": "ไม่มีการดำเนินงาน"
+			},
+			"start": {
+				"eng": "INITIATE BREACH",
+				"trans": "เริ่มเจาะ"
+			},
+			"successPoints": {
+				"eng": "+${points} points contributed!",
+				"trans": "+${points} คะแนนเพิ่ม!"
+			}
+		},
+		"briefing": {
+			"eng": "MISSION BRIEFING",
+			"trans": "รายละเอียดภารกิจ"
+		},
+		"claim": {
+			"alreadyClaimed": {
+				"eng": "Already claimed",
+				"trans": "ได้รับแล้ว"
+			},
+			"invalidMilestone": {
+				"eng": "Invalid milestone",
+				"trans": "จุดสำคัญไม่ถูกต้อง"
+			},
+			"invalidObjective": {
+				"eng": "Invalid objective",
+				"trans": "เป้าหมายไม่ถูกต้อง"
+			},
+			"milestoneNotReached": {
+				"eng": "Global milestone not yet reached",
+				"trans": "มิลเลสโทนระดับโลกยังไม่ถึง"
+			},
+			"noContribution": {
+				"eng": "You have not contributed to this operation",
+				"trans": "คุณยังไม่ได้มีส่วนร่วมในปฏิบัติการนี้"
+			},
+			"noOperation": {
+				"eng": "No active operation",
+				"trans": "ไม่มีการดำเนินงาน"
+			},
+			"notEnoughPoints": {
+				"eng": "Not enough points to claim this objective",
+				"trans": "คะแนนไม่พอที่จะขอรับเป้าหมายนี้"
+			},
+			"objectivesRequired": {
+				"eng": "You must complete all personal objectives first",
+				"trans": "ต้องทำเป้าหมายส่วนตัวทั้งหมดก่อน"
+			}
+		},
+		"leaderboard": {
+			"members": {
+				"eng": "${count} members",
+				"trans": "${count} สมาชิก"
+			},
+			"tab": {
+				"gangs": {
+					"eng": "GANGS",
+					"trans": "แก๊ง"
+				},
+				"players": {
+					"eng": "PLAYERS",
+					"trans": "ผู้เล่น"
+				}
+			},
+			"title": {
+				"eng": "TOP CONTRIBUTORS",
+				"trans": "ผู้สนับสนุนชั้นนำ"
+			}
+		},
+		"milestones": {
+			"claimable": {
+				"eng": "Click to claim",
+				"trans": "คลิกเพื่อรับ"
+			},
+			"claimed": {
+				"eng": "Claimed",
+				"trans": "เคลมแล้ว"
+			},
+			"locked": {
+				"eng": "Complete all objectives to unlock",
+				"trans": "ทำสำเร็จเป้าหมายทั้งหมดเพื่อปลดล็อก"
+			},
+			"lockedMessage": {
+				"eng": "Complete all personal objectives first to unlock milestone rewards",
+				"trans": "ทำเป้าหมายส่วนตัวทั้งหมดก่อนเพื่อปลดล็อกรางวัลสำคัญ"
+			},
+			"progress": {
+				"eng": "${percent}% required",
+				"trans": "${percent}% ต้องการ"
+			}
+		},
+		"noData": {
+			"eng": "No data",
+			"trans": "ไม่มีข้อมูล"
+		},
+		"noOperation": {
+			"message": {
+				"eng": "No active operation",
+				"trans": "ไม่มีการดำเนินงาน"
+			},
+			"title": {
+				"eng": "STANDBY",
+				"trans": "สเตนด์บาย"
+			}
+		},
+		"nodeLinker": {
+			"instruction": {
+				"eng": "ROTATE NODES TO CONNECT POWER SOURCE",
+				"trans": "หมุนโหนดเพื่อเชื่อมต่อแหล่งกำเนิดไฟฟ้า"
+			},
+			"protocol": {
+				"eng": "SECURE LINK",
+				"trans": "ลิงก์ปลอดภัย"
+			}
+		},
+		"objectives": {
+			"claim": {
+				"eng": "CLAIM",
+				"trans": "รับ"
+			},
+			"claimed": {
+				"eng": "CLAIMED",
+				"trans": "เคลมแล้ว"
+			},
+			"claiming": {
+				"eng": "...",
+				"trans": "..."
+			},
+			"complete": {
+				"eng": "COMPLETE",
+				"trans": "เสร็จ"
+			},
+			"default": {
+				"eng": "Objective ${num}",
+				"trans": "เป้าหมาย ${num}"
+			},
+			"title": {
+				"eng": "PERSONAL OBJECTIVES",
+				"trans": "เป้าหมายส่วนตัว"
+			},
+			"toGo": {
+				"eng": "to go",
+				"trans": "ไป"
+			}
+		},
+		"page": {
+			"requiresGang": {
+				"eng": "You must be in a gang to participate in NetRun operations",
+				"trans": "คุณต้องอยู่ในแก๊งค์เพื่อเข้าร่วมปฏิบัติการ NetRun"
+			}
+		},
+		"progress": {
+			"contribution": {
+				"eng": "YOU: +${pts} pts",
+				"trans": "คุณ: +${pts} คะแนน"
+			},
+			"label": {
+				"eng": "PROGRESS",
+				"trans": "ความคืบหน้า"
+			}
+		},
+		"tab": {
+			"briefing": {
+				"eng": "BRIEFING",
+				"trans": "สรุป"
+			},
+			"objectives": {
+				"eng": "OBJECTIVES",
+				"trans": "เป้าหมาย"
+			}
+		},
+		"target": {
+			"eng": "TARGET",
+			"trans": "เป้าหมาย"
+		}
+	},
 	"newsCard": {
 		"new": {
 			"eng": "NEW",
@@ -9585,6 +9911,10 @@
 				"eng": "Mercenary",
 				"trans": "มือปืนรับจ้าง"
 			},
+			"netrun": {
+				"eng": "NetRun",
+				"trans": "เน็ตรัน"
+			},
 			"quest": {
 				"eng": "Quest",
 				"trans": "เควสต์"
@@ -9755,6 +10085,36 @@
 		"shopButton": {
 			"eng": "I want to buy something",
 			"trans": "อยากซื้อของ"
+		},
+		"technomancer": {
+			"description": {
+				"eng": "A secure terminal station set up in your gang's headquarters, where Spectre coordinates NetRun operations",
+				"trans": "สถานีเทอร์มินัลปลอดภัยที่ตั้งอยู่ในสำนักงานใหญ่ของแก๊งค์คุณ ซึ่งสเปคเทอร์ประสานงานการดำเนินงาน เน็ตรัน"
+			},
+			"greetings": {
+				"eng": [
+					"Connection established. Identity verified. Welcome, operative.",
+					"Your signal cuts through the noise. The collective acknowledges you.",
+					"Data flows both ways. What you give, you receive.",
+					"Another node joins the network. Let's see what you're worth.",
+					"Encrypted channel active. Speak freely, mercenary."
+				],
+				"trans": [
+					"เชื่อมต่อสำเร็จ  \nยืนยันตัวตนเรียบร้อย  \nยินดีต้อนรับคุณผู้ปฏิบัติ",
+					"สัญญาณของคุณทะลุผ่านเสียงรบกวน ผู้ร่วมคณะยอมรับคุณ",
+					"ข้อมูลไหลทั้งสองทาง สิ่งที่คุณให้ก็เป็นสิ่งที่คุณได้รับ",
+					"โนดใหม่เข้าระบบเครือข่าย มาดูกันว่าคุณค่าเท่าไหร่",
+					"ช่องสื่อสารเข้ารหัสเปิดใช้งานแล้ว. พูดตรง ๆ ได้เลย, ผู้รับจ้าง."
+				]
+			},
+			"locationName": {
+				"eng": "Tech Bay",
+				"trans": "ท่าเทค"
+			},
+			"npcName": {
+				"eng": "Spectre",
+				"trans": "Spectre"
+			}
 		},
 		"upgradeButton": {
 			"eng": "Upgrade my equipment",
@@ -11247,6 +11607,10 @@
 			}
 		},
 		"createCharacter": {
+			"ipBanned": {
+				"eng": "Registration is not available from your network, (IP banned)",
+				"trans": "ไม่สามารถลงทะเบียนจากเครือข่ายของคุณ (IP ถูกแบน)"
+			},
 			"nameAlreadyExists": {
 				"eng": "the name \"${name}\" is already taken",
 				"trans": "\"${name}\" ไม่ว่าง"
@@ -12513,6 +12877,78 @@
 		"title": {
 			"eng": "This account has been suspended.",
 			"trans": "บัญชีของคุณถูกแบน"
+		}
+	},
+	"targetCorporation": {
+		"arcEnergy": {
+			"description": {
+				"eng": "The city's energy monopoly controlling power grid, water, and waste systems. Known for planned blackouts and leveraging grid access for corporate espionage.",
+				"trans": "บริษัทควบคุมพลังงานของเมือง จัดการเครือข่ายไฟ น้ำ และระบบขยะ\nเป็นที่รู้จักในการปิดไฟล่วงหน้าและใช้สิทธิ์เข้าถึงเครือข่ายเพื่อสอดแนมองค์กร"
+			},
+			"displayName": {
+				"eng": "Arc Energy Holdings",
+				"trans": "Arc Energy Holdings"
+			}
+		},
+		"biosyn": {
+			"description": {
+				"eng": "A biotech corporation focused on genetic engineering and synthetic biology. Frequently linked to street drug operations through leaked experimental compounds.",
+				"trans": "บริษัทไบโอเทคที่เน้นวิศวกรรมพันธุ์และชีวภาพสังเคราะห์ มักเกี่ยวข้องกับการดำเนินงานยาเสพติดบนถนนผ่านสารทดลองรั่วไหล"
+			},
+			"displayName": {
+				"eng": "BioSyn Industries",
+				"trans": "ไบโอซิน อินดัสตรีส์"
+			}
+		},
+		"chirp": {
+			"description": {
+				"eng": "The city's dominant social media platform. While appearing neutral, its algorithms serve as surveillance apparatus and manipulation tool for corporate interests.",
+				"trans": "แพลตฟอร์มโซเชียลมีเดียหลักของเมืองนี้ แม้ว่าจะดูเป็นกลาง แต่ระบบอัลกอริทึมของมันทำหน้าที่เป็นเครื่องมือสอดแนมและบิดเบือนเพื่อประโยชน์ของบริษัท"
+			},
+			"displayName": {
+				"eng": "Chirp",
+				"trans": "ชิ๊ป"
+			}
+		},
+		"circuitBreak": {
+			"description": {
+				"eng": "A sophisticated hitman organization disguised as a high-end security firm. Their Intelligence Division coordinates corporate espionage and wetwork contracts.",
+				"trans": "องค์กรฆาตกรรมระดับพรีเมียม ปลอกเป็นบริษัทรักษาความปลอดภัยหรู หน่วยข่าวกรองของพวกเขาจัดการกับการขโมยข้อมูลและสัญญาการทำลาย"
+			},
+			"displayName": {
+				"eng": "CircuitBreak Security Solutions",
+				"trans": "วงจรตัด โซลูชันความปลอดภัย"
+			}
+		},
+		"megaEstate": {
+			"description": {
+				"eng": "A notoriously greedy housing agency known for predatory practices and exploiting citizens in the hyper-inflated real estate market.",
+				"trans": "บริษัทอสังหาริมทรัพย์ที่มีชื่อเสียงด้านความโลภ มีการปฏิบัติงานแบบข่มเหงและเอาเปรียบพลเมืองในตลาดอสังหาริมทรัพย์ที่ฟองเฟือง"
+			},
+			"displayName": {
+				"eng": "MegaEstate",
+				"trans": "เมก้าเอสเตท"
+			}
+		},
+		"ouroboros": {
+			"description": {
+				"eng": "A controversial AI and consciousness transfer corporation. Known for rogue AI incidents and failed consciousness uploads.",
+				"trans": "บริษัทโอนสติปัญญาและความตระหนักที่ถกเถียง มีชื่อเสียงจากเหตุการณ์เอไออิสระและการอัปโหลดความตระหนักไม่สำเร็จ"
+			},
+			"displayName": {
+				"eng": "Ouroboros Dynamics",
+				"trans": "Ouroboros Dynamics"
+			}
+		},
+		"taixing": {
+			"description": {
+				"eng": "A cutting-edge Taiwanese corporation specializing in advanced cybernetics and bio-implants. The industry leader in innovation and quality.",
+				"trans": "บริษัทไต้หวันล้ำสมัยที่เชี่ยวชาญไซเบอร์เนติกส์ขั้นสูงและอิมพลานท์ชีวภาพ ผู้นำด้านนวัตกรรมและคุณภาพ"
+			},
+			"displayName": {
+				"eng": "TaiXing Cybernetics",
+				"trans": "ไทซิง ไซเบอร์เนติกส์"
+			}
 		}
 	},
 	"task": {
