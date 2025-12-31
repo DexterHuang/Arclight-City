@@ -6,6 +6,20 @@
 
 **If you find an exploit, please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
+### 0.0.92
+
+-  **Added Investigation System**: Become a detective and solve mysterious cases by collecting clues in strongholds
+   -  Discover **Investigation Points** while exploring strongholds - interact with them to uncover evidence and piece together the mystery
+   -  **100 unique cases** to solve, each with its own story and 4 clues to collect
+   -  Watch the story unfold as you gather clues - each discovery reveals more about the case through detailed summaries
+   -  Once you've collected all clues, identify the correct verdict by choosing the correct solution from 4 verdicts
+   -  Submitting an verdict will consume 1 Investigation Access Permit, which drops in strongholds 
+   -  Solve cases to earn enhanced rewards including rare items, bonus experience, and Eurodollars
+   -  Access the Investigation System through the Quest page's new Investigations tab
+-  You can now clear your own apartment's chat logs
+-  Added cooldown for sending gang invites.
+
+
 ### 0.0.91
 
 -  **Added Locked Chest and Stronghold Chest Key System**: New reward mechanic added to Hard difficulty strongholds
