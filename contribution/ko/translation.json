@@ -2566,48 +2566,106 @@
 		}
 	},
 	"drawMercAnimation": {
-		"activate": {
-			"eng": "activate",
-			"trans": "활성화"
-		},
-		"activated": {
-			"continue": {
-				"eng": "VIEW MERCENARIES",
-				"trans": "용병 보기"
-			},
-			"loadingBarTitle": {
-				"eng": "Decrypting mercenary contact info...",
-				"trans": "암호화된 용병 연락처 정보 해독 중..."
-			},
-			"success": {
-				"eng": "Mercenary contact info received.",
-				"trans": "용병 연락처 정보 수신."
-			},
-			"textList1": {
-				"eng": "Allocating resources...",
-				"trans": "자원 할당 중..."
-			},
-			"textList2": {
-				"eng": "Scanning mercenary network...",
-				"trans": "용병 네트워크 스캔 중..."
-			},
-			"textList3": {
-				"eng": "Establishing secure channels",
-				"trans": "안전한 채널 설정 중"
-			},
-			"textList4": {
-				"eng": "Receiving data...",
-				"trans": "데이터 수신 중..."
+		"button": {
+			"view": {
+				"eng": "[ ACCESS FILES ]",
+				"trans": "[ 파일 접근 ]"
 			}
 		},
-		"standby": {
-			"subtitle": {
-				"eng": "Drag the leaver down to active",
-				"trans": "레버를 아래로 드래그하여 활성화하세요"
+		"loadingBar": {
+			"eng": "decrypting payload",
+			"trans": "페이로드 복호화 중"
+		},
+		"phase": {
+			"connecting": {
+				"eng": "[ UPLINK ]",
+				"trans": "[ 업링크 ]"
 			},
-			"title": {
-				"eng": "System Standby",
-				"trans": "시스템 대기중"
+			"scanning": {
+				"eng": "// PROCESSING",
+				"trans": "// 처리 중"
+			},
+			"secured": {
+				"eng": "// EXTRACTION COMPLETE",
+				"trans": "추출 완료"
+			}
+		},
+		"pulls": {
+			"eng": "targets",
+			"trans": "대상"
+		},
+		"slider": {
+			"activate": {
+				"eng": "exec",
+				"trans": "실행"
+			},
+			"instruction": {
+				"eng": "// pull to execute",
+				"trans": "// 끌어 실행"
+			}
+		},
+		"subtitle": {
+			"multi": {
+				"eng": "${count} targets queued",
+				"trans": "대상 ${count}개 대기 중"
+			},
+			"single": {
+				"eng": "Single target acquisition",
+				"trans": "단일 타깃 인식"
+			}
+		},
+		"success": {
+			"multi": {
+				"eng": "${count} operatives decrypted",
+				"trans": "${count}명의 요원이 복호화되었습니다."
+			},
+			"single": {
+				"eng": "operative profile ready",
+				"trans": "요원 프로필 준비 완료"
+			}
+		},
+		"terminal": {
+			"multi": {
+				"1": {
+					"eng": "> deploying extraction daemon...",
+					"trans": "추출 데몬 배포 중…"
+				},
+				"2": {
+					"eng": "> bypassing ICE barriers [OK]",
+					"trans": "ICE 장벽 우회 [완료]"
+				},
+				"3": {
+					"eng": "> ${count} nodes flagged",
+					"trans": "> 노드 ${count}개 표시됨"
+				},
+				"4": {
+					"eng": "> compiling dossiers...",
+					"trans": "> 자료 정리 중..."
+				}
+			},
+			"single": {
+				"1": {
+					"eng": "> initiating handshake...",
+					"trans": "> 핸드쉐이크를 시작합니다..."
+				},
+				"2": {
+					"eng": "> target acquired",
+					"trans": "> 타깃 확보"
+				},
+				"3": {
+					"eng": "> extracting profile...",
+					"trans": "> 프로필 추출 중..."
+				}
+			}
+		},
+		"title": {
+			"multi": {
+				"eng": "Batch Protocol",
+				"trans": "배치 프로토콜"
+			},
+			"single": {
+				"eng": "Ghost Protocol",
+				"trans": "고스트 프로토콜"
 			}
 		}
 	},
@@ -7423,6 +7481,106 @@
 			"trans": "재설정 이메일 전송 실패: ${error}"
 		}
 	},
+	"loginStreak": {
+		"collectReward": {
+			"eng": "Collect Reward",
+			"trans": "보상 수령"
+		},
+		"consecutiveDays": {
+			"eng": "Consecutive Days",
+			"trans": "연속 일수"
+		},
+		"dayOfTotal": {
+			"eng": "Day ${day} / ${total}",
+			"trans": "일 ${day} / ${total}"
+		},
+		"gridTitle": {
+			"eng": "4-Week Operation Cycle",
+			"trans": "4주 운영 주기"
+		},
+		"legendClaimable": {
+			"eng": "Claimable",
+			"trans": "수령 가능"
+		},
+		"legendMilestone": {
+			"eng": "Milestone",
+			"trans": "마일스톤"
+		},
+		"loginRequired": {
+			"eng": "Login Required",
+			"trans": "로그인 필요"
+		},
+		"milestoneTag": {
+			"eng": "Priority",
+			"trans": "우선순위"
+		},
+		"operationTitle": {
+			"eng": "Deployment Tracker",
+			"trans": "배치 추적기"
+		},
+		"progressLabel": {
+			"eng": "Progress",
+			"trans": "진행"
+		},
+		"progressValue": {
+			"eng": "${current} / ${total}",
+			"trans": "${current} / ${total}"
+		},
+		"rewardCollected": {
+			"eng": "Reward Collected",
+			"trans": "보상 수집 완료"
+		},
+		"rewardData": {
+			"eng": "Reward Data",
+			"trans": "보상 데이터"
+		},
+		"statusClaimable": {
+			"eng": "Claimable",
+			"trans": "수령 가능"
+		},
+		"statusClaimed": {
+			"eng": "Claimed",
+			"trans": "수령완료"
+		},
+		"statusUpcoming": {
+			"eng": "In ${days} days",
+			"trans": "${days}일 후"
+		},
+		"statusUpcomingTomorrow": {
+			"eng": "Tomorrow",
+			"trans": "내일"
+		},
+		"tipBox": {
+			"eng": "Log in daily to earn rewards. Milestone days offer bonus rewards. Missing a day resets your streak.",
+			"trans": "매일 로그인하면 보상을 받을 수 있습니다. 특정 기념일에는 추가 보상이 제공됩니다. 하루를 놓치면 연속 로그인 횟수가 초기화됩니다."
+		}
+	},
+	"loginStreakMilestone": {
+		"day14": {
+			"name": {
+				"eng": "14 Day Milestone",
+				"trans": "14일 마일스톤"
+			}
+		},
+		"day21": {
+			"name": {
+				"eng": "21 Day Milestone",
+				"trans": "21일 이정표"
+			}
+		},
+		"day28": {
+			"name": {
+				"eng": "28 Day Milestone",
+				"trans": "28일 마일스톤"
+			}
+		},
+		"day7": {
+			"name": {
+				"eng": "7 Day Milestone",
+				"trans": "7일 마일스톤"
+			}
+		}
+	},
 	"loreNote": {
 		"collectedMessage": {
 			"eng": "You have collected a new lore note",
@@ -7697,6 +7855,12 @@
 			}
 		}
 	},
+	"mainMenuModal": {
+		"loginStreak": {
+			"eng": "Login Streak",
+			"trans": "연속 로그인"
+		}
+	},
 	"mainPage": {
 		"apartmentButton": {
 			"title": {
@@ -7917,6 +8081,10 @@
 		"jobLevel": {
 			"eng": "Job Level",
 			"trans": "직업 레벨"
+		},
+		"loginStreak": {
+			"eng": "Login Streak",
+			"trans": "연속 로그인"
 		},
 		"mercenary": {
 			"eng": "Mercenary",
@@ -8445,6 +8613,10 @@
 		"continue": {
 			"eng": "Click to continue",
 			"trans": "계속하려면 클릭하세요"
+		},
+		"revealing": {
+			"eng": "Revealing...",
+			"trans": "공개 중…"
 		},
 		"title": {
 			"eng": "Mercenaries",
@@ -9161,6 +9333,10 @@
 			}
 		},
 		"breach": {
+			"altContributed": {
+				"eng": "Another account connected to yours has already contributed to this operation",
+				"trans": "귀하와 연결된 다른 계정이 이미 이 작업에 기여했습니다."
+			},
 			"busy": {
 				"eng": "You are currently busy",
 				"trans": "현재 다른 작업을 진행 중입니다"
@@ -9172,6 +9348,10 @@
 			"failMessage": {
 				"eng": "Breach failed. Module lost.",
 				"trans": "돌파 실패. 모듈 손실."
+			},
+			"levelRequired": {
+				"eng": "You must be level ${level} or higher to participate",
+				"trans": "레벨 ${level} 이상이어야 참여가 가능합니다."
 			},
 			"noClan": {
 				"eng": "You must be in a gang to participate in NetRun operations",
@@ -9329,6 +9509,10 @@
 			}
 		},
 		"page": {
+			"levelRequired": {
+				"eng": "You must be level ${level} or higher to participate",
+				"trans": "레벨 ${level} 이상이어야 참여가 가능합니다."
+			},
 			"requiresGang": {
 				"eng": "You must be in a gang to participate in NetRun operations",
 				"trans": "NetRun 작전에 참여하려면 갱에 속해 있어야 합니다."
@@ -14188,6 +14372,74 @@
 			"name": {
 				"eng": "Standard Contract",
 				"trans": "표준 계약"
+			}
+		}
+	},
+	"whisperFrequency": {
+		"building": {
+			"1": {
+				"eng": "Picking up chatter",
+				"trans": "통신 수신 중"
+			},
+			"2": {
+				"eng": "Names mentioned",
+				"trans": "언급된 이름"
+			},
+			"3": {
+				"eng": "Signal growing",
+				"trans": "신호 증가 중"
+			}
+		},
+		"hot": {
+			"1": {
+				"eng": "Elite detected",
+				"trans": "엘리트 감지됨"
+			},
+			"2": {
+				"eng": "Strong signal",
+				"trans": "강한 신호"
+			},
+			"3": {
+				"eng": "Almost locked on",
+				"trans": "잠금 직전"
+			}
+		},
+		"peak": {
+			"1": {
+				"eng": "Signal locked",
+				"trans": "신호 잠김"
+			},
+			"2": {
+				"eng": "Elite incoming",
+				"trans": "엘리트 도착"
+			},
+			"3": {
+				"eng": "Contact imminent",
+				"trans": "접촉 임박"
+			}
+		},
+		"quiet": {
+			"1": {
+				"eng": "Scanning frequencies...",
+				"trans": "주파수 스캔 중..."
+			},
+			"3": {
+				"eng": "Searching...",
+				"trans": "검색 중…"
+			}
+		},
+		"rising": {
+			"1": {
+				"eng": "Skilled talent nearby",
+				"trans": "근처에 숙련된 인재가 있습니다."
+			},
+			"2": {
+				"eng": "Signal strengthening",
+				"trans": "신호 강화"
+			},
+			"3": {
+				"eng": "Someone interesting...",
+				"trans": "흥미로운 인물..."
 			}
 		}
 	},

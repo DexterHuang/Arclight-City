@@ -2566,48 +2566,106 @@
 		}
 	},
 	"drawMercAnimation": {
-		"activate": {
-			"eng": "activate",
-			"trans": "アクティベート"
-		},
-		"activated": {
-			"continue": {
-				"eng": "VIEW MERCENARIES",
-				"trans": "傭兵を表示する"
-			},
-			"loadingBarTitle": {
-				"eng": "Decrypting mercenary contact info...",
-				"trans": "傭兵の情報を復号化しています..."
-			},
-			"success": {
-				"eng": "Mercenary contact info received.",
-				"trans": "傭兵の情報を受け取りました。"
-			},
-			"textList1": {
-				"eng": "Allocating resources...",
-				"trans": "リソースを割り当て中..."
-			},
-			"textList2": {
-				"eng": "Scanning mercenary network...",
-				"trans": "傭兵ネットワークのスキャン中..."
-			},
-			"textList3": {
-				"eng": "Establishing secure channels",
-				"trans": "安全なチャンネルの確立"
-			},
-			"textList4": {
-				"eng": "Receiving data...",
-				"trans": "データを受信中..."
+		"button": {
+			"view": {
+				"eng": "[ ACCESS FILES ]",
+				"trans": "ファイルへアクセス"
 			}
 		},
-		"standby": {
-			"subtitle": {
-				"eng": "Drag the leaver down to active",
-				"trans": "レバーを下に引いてアクティブにしてください。"
+		"loadingBar": {
+			"eng": "decrypting payload",
+			"trans": "ペイロード解読中"
+		},
+		"phase": {
+			"connecting": {
+				"eng": "[ UPLINK ]",
+				"trans": "[ アップリンク ]"
 			},
-			"title": {
-				"eng": "System Standby",
-				"trans": "システム待機中"
+			"scanning": {
+				"eng": "// PROCESSING",
+				"trans": "// 処理中"
+			},
+			"secured": {
+				"eng": "// EXTRACTION COMPLETE",
+				"trans": "// 抽出完了"
+			}
+		},
+		"pulls": {
+			"eng": "targets",
+			"trans": "ターゲット"
+		},
+		"slider": {
+			"activate": {
+				"eng": "exec",
+				"trans": "実行"
+			},
+			"instruction": {
+				"eng": "// pull to execute",
+				"trans": "引いて実行"
+			}
+		},
+		"subtitle": {
+			"multi": {
+				"eng": "${count} targets queued",
+				"trans": "${count}件のターゲットがキューに入っています"
+			},
+			"single": {
+				"eng": "Single target acquisition",
+				"trans": "単一ターゲット取得"
+			}
+		},
+		"success": {
+			"multi": {
+				"eng": "${count} operatives decrypted",
+				"trans": "${count}人のエージェントが復号されました"
+			},
+			"single": {
+				"eng": "operative profile ready",
+				"trans": "作戦員プロフィール準備完了"
+			}
+		},
+		"terminal": {
+			"multi": {
+				"1": {
+					"eng": "> deploying extraction daemon...",
+					"trans": "> 抽出デーモンを起動中…"
+				},
+				"2": {
+					"eng": "> bypassing ICE barriers [OK]",
+					"trans": "> ICEバリア回避 [完了]"
+				},
+				"3": {
+					"eng": "> ${count} nodes flagged",
+					"trans": "> ${count} ノードがフラグ付き"
+				},
+				"4": {
+					"eng": "> compiling dossiers...",
+					"trans": "> ドシエを編集中..."
+				}
+			},
+			"single": {
+				"1": {
+					"eng": "> initiating handshake...",
+					"trans": "> ハンドシェイク開始中..."
+				},
+				"2": {
+					"eng": "> target acquired",
+					"trans": "ターゲット取得"
+				},
+				"3": {
+					"eng": "> extracting profile...",
+					"trans": "> プロフィール抽出中..."
+				}
+			}
+		},
+		"title": {
+			"multi": {
+				"eng": "Batch Protocol",
+				"trans": "バッチプロトコル"
+			},
+			"single": {
+				"eng": "Ghost Protocol",
+				"trans": "ゴーストプロトコル"
 			}
 		}
 	},
@@ -7423,6 +7481,106 @@
 			"trans": "リセットメールの送信に失敗しました: ${error}"
 		}
 	},
+	"loginStreak": {
+		"collectReward": {
+			"eng": "Collect Reward",
+			"trans": "報酬を受け取る"
+		},
+		"consecutiveDays": {
+			"eng": "Consecutive Days",
+			"trans": "連続日"
+		},
+		"dayOfTotal": {
+			"eng": "Day ${day} / ${total}",
+			"trans": "${day}日 / ${total}日"
+		},
+		"gridTitle": {
+			"eng": "4-Week Operation Cycle",
+			"trans": "4週間運営サイクル"
+		},
+		"legendClaimable": {
+			"eng": "Claimable",
+			"trans": "入手可能"
+		},
+		"legendMilestone": {
+			"eng": "Milestone",
+			"trans": "マイルストーン"
+		},
+		"loginRequired": {
+			"eng": "Login Required",
+			"trans": "ログイン必須"
+		},
+		"milestoneTag": {
+			"eng": "Priority",
+			"trans": "優先度"
+		},
+		"operationTitle": {
+			"eng": "Deployment Tracker",
+			"trans": "配備トラッカー"
+		},
+		"progressLabel": {
+			"eng": "Progress",
+			"trans": "進捗"
+		},
+		"progressValue": {
+			"eng": "${current} / ${total}",
+			"trans": "${current} / ${total}"
+		},
+		"rewardCollected": {
+			"eng": "Reward Collected",
+			"trans": "報酬獲得"
+		},
+		"rewardData": {
+			"eng": "Reward Data",
+			"trans": "報酬情報"
+		},
+		"statusClaimable": {
+			"eng": "Claimable",
+			"trans": "入手可能"
+		},
+		"statusClaimed": {
+			"eng": "Claimed",
+			"trans": "取得済み"
+		},
+		"statusUpcoming": {
+			"eng": "In ${days} days",
+			"trans": "${days}日後"
+		},
+		"statusUpcomingTomorrow": {
+			"eng": "Tomorrow",
+			"trans": "明日"
+		},
+		"tipBox": {
+			"eng": "Log in daily to earn rewards. Milestone days offer bonus rewards. Missing a day resets your streak.",
+			"trans": "毎日ログインで報酬を獲得。マイルストーンデイでは追加報酬があります。1日欠席すると連続ログインがリセットされます。"
+		}
+	},
+	"loginStreakMilestone": {
+		"day14": {
+			"name": {
+				"eng": "14 Day Milestone",
+				"trans": "14日目マイルストーン"
+			}
+		},
+		"day21": {
+			"name": {
+				"eng": "21 Day Milestone",
+				"trans": "21日目のマイルストーン"
+			}
+		},
+		"day28": {
+			"name": {
+				"eng": "28 Day Milestone",
+				"trans": "28日目マイルストーン"
+			}
+		},
+		"day7": {
+			"name": {
+				"eng": "7 Day Milestone",
+				"trans": "7日目のマイルストーン"
+			}
+		}
+	},
 	"loreNote": {
 		"collectedMessage": {
 			"eng": "You have collected a new lore note",
@@ -7697,6 +7855,12 @@
 			}
 		}
 	},
+	"mainMenuModal": {
+		"loginStreak": {
+			"eng": "Login Streak",
+			"trans": "連続ログイン"
+		}
+	},
 	"mainPage": {
 		"apartmentButton": {
 			"title": {
@@ -7917,6 +8081,10 @@
 		"jobLevel": {
 			"eng": "Job Level",
 			"trans": "ジョブレベル"
+		},
+		"loginStreak": {
+			"eng": "Login Streak",
+			"trans": "連続ログイン"
 		},
 		"mercenary": {
 			"eng": "Mercenary",
@@ -8445,6 +8613,10 @@
 		"continue": {
 			"eng": "Click to continue",
 			"trans": "続けるにはクリックしてください。"
+		},
+		"revealing": {
+			"eng": "Revealing...",
+			"trans": "表示中…"
 		},
 		"title": {
 			"eng": "Mercenaries",
@@ -9161,6 +9333,10 @@
 			}
 		},
 		"breach": {
+			"altContributed": {
+				"eng": "Another account connected to yours has already contributed to this operation",
+				"trans": "別の連携済みアカウントがすでにこのオペレーションに貢献しています"
+			},
 			"busy": {
 				"eng": "You are currently busy",
 				"trans": "現在、忙しいです"
@@ -9172,6 +9348,10 @@
 			"failMessage": {
 				"eng": "Breach failed. Module lost.",
 				"trans": "ブリーチ失敗。モジュール損失。"
+			},
+			"levelRequired": {
+				"eng": "You must be level ${level} or higher to participate",
+				"trans": "参加にはレベル${level}以上が必要です"
 			},
 			"noClan": {
 				"eng": "You must be in a gang to participate in NetRun operations",
@@ -9329,6 +9509,10 @@
 			}
 		},
 		"page": {
+			"levelRequired": {
+				"eng": "You must be level ${level} or higher to participate",
+				"trans": "参加にはレベル${level}以上が必要です"
+			},
 			"requiresGang": {
 				"eng": "You must be in a gang to participate in NetRun operations",
 				"trans": "ネットランオペレーションに参加するにはギャングに所属している必要があります。"
@@ -14188,6 +14372,74 @@
 			"name": {
 				"eng": "Standard Contract",
 				"trans": "標準契約"
+			}
+		}
+	},
+	"whisperFrequency": {
+		"building": {
+			"1": {
+				"eng": "Picking up chatter",
+				"trans": "通信受信中"
+			},
+			"2": {
+				"eng": "Names mentioned",
+				"trans": "名前一覧"
+			},
+			"3": {
+				"eng": "Signal growing",
+				"trans": "シグナル上昇中"
+			}
+		},
+		"hot": {
+			"1": {
+				"eng": "Elite detected",
+				"trans": "エリート発見"
+			},
+			"2": {
+				"eng": "Strong signal",
+				"trans": "強い信号"
+			},
+			"3": {
+				"eng": "Almost locked on",
+				"trans": "ほぼロックオン"
+			}
+		},
+		"peak": {
+			"1": {
+				"eng": "Signal locked",
+				"trans": "シグナルロック"
+			},
+			"2": {
+				"eng": "Elite incoming",
+				"trans": "エリート接近"
+			},
+			"3": {
+				"eng": "Contact imminent",
+				"trans": "接触迫る"
+			}
+		},
+		"quiet": {
+			"1": {
+				"eng": "Scanning frequencies...",
+				"trans": "周波数をスキャンしています…"
+			},
+			"3": {
+				"eng": "Searching...",
+				"trans": "検索中..."
+			}
+		},
+		"rising": {
+			"1": {
+				"eng": "Skilled talent nearby",
+				"trans": "近くに熟練タレント"
+			},
+			"2": {
+				"eng": "Signal strengthening",
+				"trans": "シグナル強化"
+			},
+			"3": {
+				"eng": "Someone interesting...",
+				"trans": "興味深い人..."
 			}
 		}
 	},

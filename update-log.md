@@ -6,6 +6,17 @@
 
 **If you find an exploit, please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
+### 0.0.94 
+   
+-  **NetRun Operations**: New weekly cooperative hacking feature where gangs work together to breach megacorporation networks
+   -  Complete the **Node Linker** puzzle minigame - rotate network nodes within 60 seconds to establish a connection from IN to OUT
+   -  Each successful breach contributes **100 points** toward the weekly community goal of 40,000 points
+   -  Earn rewards at **3 global milestones** including credits, Data Cores, rare drops, and equipment
+   -  Complete **4 personal objectives** for additional rewards scaling with contribution
+   -  Compete on **player and gang leaderboards** to see top contributors
+   -  Requires **Breach Modules** (dropped from dungeons) and **gang membership** to participate
+   -  Access through **Spectre** at the Tech Bay or via the Wiki page
+
 ### 0.0.92
 
 -  **Added Investigation System**: Become a detective and solve mysterious cases by collecting clues in strongholds

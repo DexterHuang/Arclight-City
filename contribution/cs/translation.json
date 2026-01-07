@@ -2566,48 +2566,106 @@
 		}
 	},
 	"drawMercAnimation": {
-		"activate": {
-			"eng": "activate",
-			"trans": "aktivovat"
-		},
-		"activated": {
-			"continue": {
-				"eng": "VIEW MERCENARIES",
-				"trans": "ZOBRAZIT ŽOLDÁKY"
-			},
-			"loadingBarTitle": {
-				"eng": "Decrypting mercenary contact info...",
-				"trans": "Dešifrování kontaktních údajů žoldáků..."
-			},
-			"success": {
-				"eng": "Mercenary contact info received.",
-				"trans": "Obdrženy kontaktní údaje žoldáků."
-			},
-			"textList1": {
-				"eng": "Allocating resources...",
-				"trans": "Alokace zdrojů..."
-			},
-			"textList2": {
-				"eng": "Scanning mercenary network...",
-				"trans": "Sken žoldácké sítě..."
-			},
-			"textList3": {
-				"eng": "Establishing secure channels",
-				"trans": "Vytváření zabezpečených kanálů"
-			},
-			"textList4": {
-				"eng": "Receiving data...",
-				"trans": "Přijem dat..."
+		"button": {
+			"view": {
+				"eng": "[ ACCESS FILES ]",
+				"trans": "Přístup k souborům"
 			}
 		},
-		"standby": {
-			"subtitle": {
-				"eng": "Drag the leaver down to active",
-				"trans": "Pro aktivaci přetáhni páku dolů."
+		"loadingBar": {
+			"eng": "decrypting payload",
+			"trans": "Dešifrování nákladu"
+		},
+		"phase": {
+			"connecting": {
+				"eng": "[ UPLINK ]",
+				"trans": "[ UPLINK ]"
 			},
-			"title": {
-				"eng": "System Standby",
-				"trans": "Systém v pohotovosti"
+			"scanning": {
+				"eng": "// PROCESSING",
+				"trans": "Zpracovává se"
+			},
+			"secured": {
+				"eng": "// EXTRACTION COMPLETE",
+				"trans": "Extrakce dokončena"
+			}
+		},
+		"pulls": {
+			"eng": "targets",
+			"trans": "Cíle"
+		},
+		"slider": {
+			"activate": {
+				"eng": "exec",
+				"trans": "Spustit"
+			},
+			"instruction": {
+				"eng": "// pull to execute",
+				"trans": "Přetáhněte pro provedení"
+			}
+		},
+		"subtitle": {
+			"multi": {
+				"eng": "${count} targets queued",
+				"trans": "${count} cíle ve frontě"
+			},
+			"single": {
+				"eng": "Single target acquisition",
+				"trans": "Získání jednoho cíle"
+			}
+		},
+		"success": {
+			"multi": {
+				"eng": "${count} operatives decrypted",
+				"trans": "${count} operátoři dešifrovaní"
+			},
+			"single": {
+				"eng": "operative profile ready",
+				"trans": "Operativní profil připraven"
+			}
+		},
+		"terminal": {
+			"multi": {
+				"1": {
+					"eng": "> deploying extraction daemon...",
+					"trans": "Nasazování demona extrakce..."
+				},
+				"2": {
+					"eng": "> bypassing ICE barriers [OK]",
+					"trans": "> obcházení ICE bariér [OK]"
+				},
+				"3": {
+					"eng": "> ${count} nodes flagged",
+					"trans": "> ${count} uzlů označeno"
+				},
+				"4": {
+					"eng": "> compiling dossiers...",
+					"trans": "shromažďování dokumentů…"
+				}
+			},
+			"single": {
+				"1": {
+					"eng": "> initiating handshake...",
+					"trans": "> navazování spojení..."
+				},
+				"2": {
+					"eng": "> target acquired",
+					"trans": "> Cíl získán"
+				},
+				"3": {
+					"eng": "> extracting profile...",
+					"trans": "> Extrahuje se profil..."
+				}
+			}
+		},
+		"title": {
+			"multi": {
+				"eng": "Batch Protocol",
+				"trans": "Dávkový protokol"
+			},
+			"single": {
+				"eng": "Ghost Protocol",
+				"trans": "Duchový protokol"
 			}
 		}
 	},
@@ -7423,6 +7481,106 @@
 			"trans": "Odeslání e‑mailu pro obnovení selhalo: ${error}"
 		}
 	},
+	"loginStreak": {
+		"collectReward": {
+			"eng": "Collect Reward",
+			"trans": "Získat odměnu"
+		},
+		"consecutiveDays": {
+			"eng": "Consecutive Days",
+			"trans": "Pořadné dny"
+		},
+		"dayOfTotal": {
+			"eng": "Day ${day} / ${total}",
+			"trans": "Den ${day} / ${total}"
+		},
+		"gridTitle": {
+			"eng": "4-Week Operation Cycle",
+			"trans": "4-týdenní provozní cyklus"
+		},
+		"legendClaimable": {
+			"eng": "Claimable",
+			"trans": "K vyzvednutí"
+		},
+		"legendMilestone": {
+			"eng": "Milestone",
+			"trans": "Milník"
+		},
+		"loginRequired": {
+			"eng": "Login Required",
+			"trans": "Přihlášení vyžadováno"
+		},
+		"milestoneTag": {
+			"eng": "Priority",
+			"trans": "Priorita"
+		},
+		"operationTitle": {
+			"eng": "Deployment Tracker",
+			"trans": "Sledování nasazení"
+		},
+		"progressLabel": {
+			"eng": "Progress",
+			"trans": "Postup"
+		},
+		"progressValue": {
+			"eng": "${current} / ${total}",
+			"trans": "${current} / ${total}"
+		},
+		"rewardCollected": {
+			"eng": "Reward Collected",
+			"trans": "Odměna získána"
+		},
+		"rewardData": {
+			"eng": "Reward Data",
+			"trans": "Údaje o odměnách"
+		},
+		"statusClaimable": {
+			"eng": "Claimable",
+			"trans": "K vyzvednutí"
+		},
+		"statusClaimed": {
+			"eng": "Claimed",
+			"trans": "Získáno"
+		},
+		"statusUpcoming": {
+			"eng": "In ${days} days",
+			"trans": "Za ${days} dní"
+		},
+		"statusUpcomingTomorrow": {
+			"eng": "Tomorrow",
+			"trans": "Zítra"
+		},
+		"tipBox": {
+			"eng": "Log in daily to earn rewards. Milestone days offer bonus rewards. Missing a day resets your streak.",
+			"trans": "Přihlaste se každý den a sbírejte odměny. V milníkových dnech získáte bonusové odměny. Přerušení jednoho dne resetuje vaši sérii."
+		}
+	},
+	"loginStreakMilestone": {
+		"day14": {
+			"name": {
+				"eng": "14 Day Milestone",
+				"trans": "Milník po 14 dnech"
+			}
+		},
+		"day21": {
+			"name": {
+				"eng": "21 Day Milestone",
+				"trans": "21-denní milník"
+			}
+		},
+		"day28": {
+			"name": {
+				"eng": "28 Day Milestone",
+				"trans": "Milník 28 dnů"
+			}
+		},
+		"day7": {
+			"name": {
+				"eng": "7 Day Milestone",
+				"trans": "Milník 7 dnů"
+			}
+		}
+	},
 	"loreNote": {
 		"collectedMessage": {
 			"eng": "You have collected a new lore note",
@@ -7697,6 +7855,12 @@
 			}
 		}
 	},
+	"mainMenuModal": {
+		"loginStreak": {
+			"eng": "Login Streak",
+			"trans": "Přihlašovací série"
+		}
+	},
 	"mainPage": {
 		"apartmentButton": {
 			"title": {
@@ -7917,6 +8081,10 @@
 		"jobLevel": {
 			"eng": "Job Level",
 			"trans": "Úroveň povolání"
+		},
+		"loginStreak": {
+			"eng": "Login Streak",
+			"trans": "Přihlašovací série"
 		},
 		"mercenary": {
 			"eng": "Mercenary",
@@ -8445,6 +8613,10 @@
 		"continue": {
 			"eng": "Click to continue",
 			"trans": "Klikněte pro pokračování"
+		},
+		"revealing": {
+			"eng": "Revealing...",
+			"trans": "Odhalování…"
 		},
 		"title": {
 			"eng": "Mercenaries",
@@ -9161,6 +9333,10 @@
 			}
 		},
 		"breach": {
+			"altContributed": {
+				"eng": "Another account connected to yours has already contributed to this operation",
+				"trans": "Další účet spojený s vaším účtem již přispěl k této operaci."
+			},
 			"busy": {
 				"eng": "You are currently busy",
 				"trans": "Momentálně jsi zaneprázdněn."
@@ -9172,6 +9348,10 @@
 			"failMessage": {
 				"eng": "Breach failed. Module lost.",
 				"trans": "Průnik selhal. Modul ztracen."
+			},
+			"levelRequired": {
+				"eng": "You must be level ${level} or higher to participate",
+				"trans": "Musíte mít úroveň ${level} nebo vyšší."
 			},
 			"noClan": {
 				"eng": "You must be in a gang to participate in NetRun operations",
@@ -9329,6 +9509,10 @@
 			}
 		},
 		"page": {
+			"levelRequired": {
+				"eng": "You must be level ${level} or higher to participate",
+				"trans": "Musíte mít úroveň ${level} nebo vyšší."
+			},
 			"requiresGang": {
 				"eng": "You must be in a gang to participate in NetRun operations",
 				"trans": "Musíte být v gangu, abyste se mohli zúčastnit operací NetRun."
@@ -14188,6 +14372,74 @@
 			"name": {
 				"eng": "Standard Contract",
 				"trans": "Standardní smlouva"
+			}
+		}
+	},
+	"whisperFrequency": {
+		"building": {
+			"1": {
+				"eng": "Picking up chatter",
+				"trans": "Přijímání přenosů"
+			},
+			"2": {
+				"eng": "Names mentioned",
+				"trans": "Zmíněná jména"
+			},
+			"3": {
+				"eng": "Signal growing",
+				"trans": "Signál roste"
+			}
+		},
+		"hot": {
+			"1": {
+				"eng": "Elite detected",
+				"trans": "Elitní jednotka detekována"
+			},
+			"2": {
+				"eng": "Strong signal",
+				"trans": "Silný signál"
+			},
+			"3": {
+				"eng": "Almost locked on",
+				"trans": "Téměř zaměřeno"
+			}
+		},
+		"peak": {
+			"1": {
+				"eng": "Signal locked",
+				"trans": "Signál zajištěn"
+			},
+			"2": {
+				"eng": "Elite incoming",
+				"trans": "Přichází elita"
+			},
+			"3": {
+				"eng": "Contact imminent",
+				"trans": "Blížící se kontakt"
+			}
+		},
+		"quiet": {
+			"1": {
+				"eng": "Scanning frequencies...",
+				"trans": "Skenování frekvencí…"
+			},
+			"3": {
+				"eng": "Searching...",
+				"trans": "Vyhledávání..."
+			}
+		},
+		"rising": {
+			"1": {
+				"eng": "Skilled talent nearby",
+				"trans": "Zkušený talent poblíž"
+			},
+			"2": {
+				"eng": "Signal strengthening",
+				"trans": "Zesílení signálu"
+			},
+			"3": {
+				"eng": "Someone interesting...",
+				"trans": "Někdo zajímavý..."
 			}
 		}
 	},

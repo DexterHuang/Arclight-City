@@ -2566,48 +2566,106 @@
 		}
 	},
 	"drawMercAnimation": {
-		"activate": {
-			"eng": "activate",
-			"trans": "啟動"
-		},
-		"activated": {
-			"continue": {
-				"eng": "VIEW MERCENARIES",
-				"trans": "查看傭兵"
-			},
-			"loadingBarTitle": {
-				"eng": "Decrypting mercenary contact info...",
-				"trans": "解密傭兵聯絡資訊中..."
-			},
-			"success": {
-				"eng": "Mercenary contact info received.",
-				"trans": "接收到傭兵聯絡資訊。"
-			},
-			"textList1": {
-				"eng": "Allocating resources...",
-				"trans": "分配資源中..."
-			},
-			"textList2": {
-				"eng": "Scanning mercenary network...",
-				"trans": "掃描傭兵網路中..."
-			},
-			"textList3": {
-				"eng": "Establishing secure channels",
-				"trans": "建立安全連線"
-			},
-			"textList4": {
-				"eng": "Receiving data...",
-				"trans": "接收資料中..."
+		"button": {
+			"view": {
+				"eng": "[ ACCESS FILES ]",
+				"trans": "[ 存取檔案 ]"
 			}
 		},
-		"standby": {
-			"subtitle": {
-				"eng": "Drag the leaver down to active",
-				"trans": "拉下拉桿以啟動"
+		"loadingBar": {
+			"eng": "decrypting payload",
+			"trans": "正在解密有效載荷"
+		},
+		"phase": {
+			"connecting": {
+				"eng": "[ UPLINK ]",
+				"trans": "[ 上行 ]"
 			},
-			"title": {
-				"eng": "System Standby",
-				"trans": "系統待機"
+			"scanning": {
+				"eng": "// PROCESSING",
+				"trans": "處理中"
+			},
+			"secured": {
+				"eng": "// EXTRACTION COMPLETE",
+				"trans": "提取完成"
+			}
+		},
+		"pulls": {
+			"eng": "targets",
+			"trans": "目標"
+		},
+		"slider": {
+			"activate": {
+				"eng": "exec",
+				"trans": "執行"
+			},
+			"instruction": {
+				"eng": "// pull to execute",
+				"trans": "拉動以執行"
+			}
+		},
+		"subtitle": {
+			"multi": {
+				"eng": "${count} targets queued",
+				"trans": "${count} 個目標已排隊"
+			},
+			"single": {
+				"eng": "Single target acquisition",
+				"trans": "單一目標鎖定"
+			}
+		},
+		"success": {
+			"multi": {
+				"eng": "${count} operatives decrypted",
+				"trans": "${count} 位特工已解密"
+			},
+			"single": {
+				"eng": "operative profile ready",
+				"trans": "特工檔案已就緒"
+			}
+		},
+		"terminal": {
+			"multi": {
+				"1": {
+					"eng": "> deploying extraction daemon...",
+					"trans": "> 正在部署提取守護進程..."
+				},
+				"2": {
+					"eng": "> bypassing ICE barriers [OK]",
+					"trans": "> 繞過 ICE 障礙 [OK]"
+				},
+				"3": {
+					"eng": "> ${count} nodes flagged",
+					"trans": "> ${count} 個節點已被標記"
+				},
+				"4": {
+					"eng": "> compiling dossiers...",
+					"trans": "正在彙整檔案..."
+				}
+			},
+			"single": {
+				"1": {
+					"eng": "> initiating handshake...",
+					"trans": "正在啟動握手…"
+				},
+				"2": {
+					"eng": "> target acquired",
+					"trans": "> 目標已鎖定"
+				},
+				"3": {
+					"eng": "> extracting profile...",
+					"trans": "> 正在提取個人資料..."
+				}
+			}
+		},
+		"title": {
+			"multi": {
+				"eng": "Batch Protocol",
+				"trans": "批次協定"
+			},
+			"single": {
+				"eng": "Ghost Protocol",
+				"trans": "幽靈協議"
 			}
 		}
 	},
@@ -7423,6 +7481,106 @@
 			"trans": "無法發送重置郵件：${error}"
 		}
 	},
+	"loginStreak": {
+		"collectReward": {
+			"eng": "Collect Reward",
+			"trans": "領取獎勵"
+		},
+		"consecutiveDays": {
+			"eng": "Consecutive Days",
+			"trans": "連續天數"
+		},
+		"dayOfTotal": {
+			"eng": "Day ${day} / ${total}",
+			"trans": "第${day}/${total}天"
+		},
+		"gridTitle": {
+			"eng": "4-Week Operation Cycle",
+			"trans": "四週營運週期"
+		},
+		"legendClaimable": {
+			"eng": "Claimable",
+			"trans": "可領取"
+		},
+		"legendMilestone": {
+			"eng": "Milestone",
+			"trans": "里程碑"
+		},
+		"loginRequired": {
+			"eng": "Login Required",
+			"trans": "需要登入"
+		},
+		"milestoneTag": {
+			"eng": "Priority",
+			"trans": "優先級"
+		},
+		"operationTitle": {
+			"eng": "Deployment Tracker",
+			"trans": "部署追蹤"
+		},
+		"progressLabel": {
+			"eng": "Progress",
+			"trans": "進度"
+		},
+		"progressValue": {
+			"eng": "${current} / ${total}",
+			"trans": "${current} / ${total}"
+		},
+		"rewardCollected": {
+			"eng": "Reward Collected",
+			"trans": "已收集獎勵"
+		},
+		"rewardData": {
+			"eng": "Reward Data",
+			"trans": "獎勵資料"
+		},
+		"statusClaimable": {
+			"eng": "Claimable",
+			"trans": "可領取"
+		},
+		"statusClaimed": {
+			"eng": "Claimed",
+			"trans": "已領取"
+		},
+		"statusUpcoming": {
+			"eng": "In ${days} days",
+			"trans": "${days}天後"
+		},
+		"statusUpcomingTomorrow": {
+			"eng": "Tomorrow",
+			"trans": "明天"
+		},
+		"tipBox": {
+			"eng": "Log in daily to earn rewards. Milestone days offer bonus rewards. Missing a day resets your streak.",
+			"trans": "每日登入可領獎勵；完成里程碑日將有額外獎勵；若缺一日，連續次數會被歸零。"
+		}
+	},
+	"loginStreakMilestone": {
+		"day14": {
+			"name": {
+				"eng": "14 Day Milestone",
+				"trans": "14 天里程碑"
+			}
+		},
+		"day21": {
+			"name": {
+				"eng": "21 Day Milestone",
+				"trans": "21天里程碑"
+			}
+		},
+		"day28": {
+			"name": {
+				"eng": "28 Day Milestone",
+				"trans": "28天里程碑"
+			}
+		},
+		"day7": {
+			"name": {
+				"eng": "7 Day Milestone",
+				"trans": "7 天里程碑"
+			}
+		}
+	},
 	"loreNote": {
 		"collectedMessage": {
 			"eng": "You have collected a new lore note",
@@ -7697,6 +7855,12 @@
 			}
 		}
 	},
+	"mainMenuModal": {
+		"loginStreak": {
+			"eng": "Login Streak",
+			"trans": "連續登入天數"
+		}
+	},
 	"mainPage": {
 		"apartmentButton": {
 			"title": {
@@ -7917,6 +8081,10 @@
 		"jobLevel": {
 			"eng": "Job Level",
 			"trans": "職業等級"
+		},
+		"loginStreak": {
+			"eng": "Login Streak",
+			"trans": "連續登入天數"
 		},
 		"mercenary": {
 			"eng": "Mercenary",
@@ -8445,6 +8613,10 @@
 		"continue": {
 			"eng": "Click to continue",
 			"trans": "點擊以繼續"
+		},
+		"revealing": {
+			"eng": "Revealing...",
+			"trans": "揭示中…"
 		},
 		"title": {
 			"eng": "Mercenaries",
@@ -9161,6 +9333,10 @@
 			}
 		},
 		"breach": {
+			"altContributed": {
+				"eng": "Another account connected to yours has already contributed to this operation",
+				"trans": "您的其他已連結帳戶已對此作業做出貢獻。"
+			},
 			"busy": {
 				"eng": "You are currently busy",
 				"trans": "你目前正忙"
@@ -9172,6 +9348,10 @@
 			"failMessage": {
 				"eng": "Breach failed. Module lost.",
 				"trans": "入侵失敗。模組遺失。"
+			},
+			"levelRequired": {
+				"eng": "You must be level ${level} or higher to participate",
+				"trans": "必須升至 ${level} 級或以上才能參加"
 			},
 			"noClan": {
 				"eng": "You must be in a gang to participate in NetRun operations",
@@ -9329,6 +9509,10 @@
 			}
 		},
 		"page": {
+			"levelRequired": {
+				"eng": "You must be level ${level} or higher to participate",
+				"trans": "必須升至 ${level} 級或以上才能參加"
+			},
 			"requiresGang": {
 				"eng": "You must be in a gang to participate in NetRun operations",
 				"trans": "你必須是幫派成員才能參與網路行動"
@@ -14188,6 +14372,74 @@
 			"name": {
 				"eng": "Standard Contract",
 				"trans": "標準合約"
+			}
+		}
+	},
+	"whisperFrequency": {
+		"building": {
+			"1": {
+				"eng": "Picking up chatter",
+				"trans": "偵測對話"
+			},
+			"2": {
+				"eng": "Names mentioned",
+				"trans": "提到的名字"
+			},
+			"3": {
+				"eng": "Signal growing",
+				"trans": "訊號增強中"
+			}
+		},
+		"hot": {
+			"1": {
+				"eng": "Elite detected",
+				"trans": "偵測到精英"
+			},
+			"2": {
+				"eng": "Strong signal",
+				"trans": "訊號強"
+			},
+			"3": {
+				"eng": "Almost locked on",
+				"trans": "即將鎖定"
+			}
+		},
+		"peak": {
+			"1": {
+				"eng": "Signal locked",
+				"trans": "訊號鎖定"
+			},
+			"2": {
+				"eng": "Elite incoming",
+				"trans": "精英來襲"
+			},
+			"3": {
+				"eng": "Contact imminent",
+				"trans": "接觸臨近"
+			}
+		},
+		"quiet": {
+			"1": {
+				"eng": "Scanning frequencies...",
+				"trans": "掃描頻率…"
+			},
+			"3": {
+				"eng": "Searching...",
+				"trans": "搜尋中..."
+			}
+		},
+		"rising": {
+			"1": {
+				"eng": "Skilled talent nearby",
+				"trans": "附近熟練人才"
+			},
+			"2": {
+				"eng": "Signal strengthening",
+				"trans": "訊號強化"
+			},
+			"3": {
+				"eng": "Someone interesting...",
+				"trans": "有趣的人…"
 			}
 		}
 	},

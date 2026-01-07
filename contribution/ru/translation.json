@@ -2566,48 +2566,106 @@
 		}
 	},
 	"drawMercAnimation": {
-		"activate": {
-			"eng": "activate",
-			"trans": "активировать"
-		},
-		"activated": {
-			"continue": {
-				"eng": "VIEW MERCENARIES",
-				"trans": "ПРОСМОТР НАЕМНИКОВ"
-			},
-			"loadingBarTitle": {
-				"eng": "Decrypting mercenary contact info...",
-				"trans": "Расшифровка информации о контактах наемника..."
-			},
-			"success": {
-				"eng": "Mercenary contact info received.",
-				"trans": "Получена информация о контакте наемника."
-			},
-			"textList1": {
-				"eng": "Allocating resources...",
-				"trans": "Выделение ресурсов..."
-			},
-			"textList2": {
-				"eng": "Scanning mercenary network...",
-				"trans": "Сканирование сети наёмников..."
-			},
-			"textList3": {
-				"eng": "Establishing secure channels",
-				"trans": "Установка безопасных каналов"
-			},
-			"textList4": {
-				"eng": "Receiving data...",
-				"trans": "Получение данных..."
+		"button": {
+			"view": {
+				"eng": "[ ACCESS FILES ]",
+				"trans": "[ ДОСТУП К ФАЙЛАМ ]"
 			}
 		},
-		"standby": {
-			"subtitle": {
-				"eng": "Drag the leaver down to active",
-				"trans": "Потяните рычаг вниз, чтобы активировать"
+		"loadingBar": {
+			"eng": "decrypting payload",
+			"trans": "Расшифровка полезной нагрузки"
+		},
+		"phase": {
+			"connecting": {
+				"eng": "[ UPLINK ]",
+				"trans": "[ СВЯЗЬ ]"
 			},
-			"title": {
-				"eng": "System Standby",
-				"trans": "Ожидание системы"
+			"scanning": {
+				"eng": "// PROCESSING",
+				"trans": "Обработка"
+			},
+			"secured": {
+				"eng": "// EXTRACTION COMPLETE",
+				"trans": "Экстракция завершена"
+			}
+		},
+		"pulls": {
+			"eng": "targets",
+			"trans": "Цели"
+		},
+		"slider": {
+			"activate": {
+				"eng": "exec",
+				"trans": "Выполнить"
+			},
+			"instruction": {
+				"eng": "// pull to execute",
+				"trans": "// потяните для выполнения"
+			}
+		},
+		"subtitle": {
+			"multi": {
+				"eng": "${count} targets queued",
+				"trans": "${count} целей в очереди"
+			},
+			"single": {
+				"eng": "Single target acquisition",
+				"trans": "Одиночная цель"
+			}
+		},
+		"success": {
+			"multi": {
+				"eng": "${count} operatives decrypted",
+				"trans": "${count} оперативников отшифрованы"
+			},
+			"single": {
+				"eng": "operative profile ready",
+				"trans": "Профиль оператива готов"
+			}
+		},
+		"terminal": {
+			"multi": {
+				"1": {
+					"eng": "> deploying extraction daemon...",
+					"trans": "> Разворачиваем демон извлечения..."
+				},
+				"2": {
+					"eng": "> bypassing ICE barriers [OK]",
+					"trans": "Обход барьеров ICE [ОК]"
+				},
+				"3": {
+					"eng": "> ${count} nodes flagged",
+					"trans": "> ${count} узлов помечено"
+				},
+				"4": {
+					"eng": "> compiling dossiers...",
+					"trans": "> Компиляция досье..."
+				}
+			},
+			"single": {
+				"1": {
+					"eng": "> initiating handshake...",
+					"trans": "> Инициализация рукопожатия..."
+				},
+				"2": {
+					"eng": "> target acquired",
+					"trans": "Цель обнаружена"
+				},
+				"3": {
+					"eng": "> extracting profile...",
+					"trans": "> извлечение профиля..."
+				}
+			}
+		},
+		"title": {
+			"multi": {
+				"eng": "Batch Protocol",
+				"trans": "Пакетный протокол"
+			},
+			"single": {
+				"eng": "Ghost Protocol",
+				"trans": "Протокол Призрака"
 			}
 		}
 	},
@@ -7423,6 +7481,106 @@
 			"trans": "Не удалось отправить письмо для сброса: ${error}"
 		}
 	},
+	"loginStreak": {
+		"collectReward": {
+			"eng": "Collect Reward",
+			"trans": "Получить награду"
+		},
+		"consecutiveDays": {
+			"eng": "Consecutive Days",
+			"trans": "Подрядные дни"
+		},
+		"dayOfTotal": {
+			"eng": "Day ${day} / ${total}",
+			"trans": "День ${day} / ${total}"
+		},
+		"gridTitle": {
+			"eng": "4-Week Operation Cycle",
+			"trans": "4-недельный цикл операций"
+		},
+		"legendClaimable": {
+			"eng": "Claimable",
+			"trans": "Получить"
+		},
+		"legendMilestone": {
+			"eng": "Milestone",
+			"trans": "Веха"
+		},
+		"loginRequired": {
+			"eng": "Login Required",
+			"trans": "Требуется вход"
+		},
+		"milestoneTag": {
+			"eng": "Priority",
+			"trans": "Приоритет"
+		},
+		"operationTitle": {
+			"eng": "Deployment Tracker",
+			"trans": "Трекер развертывания"
+		},
+		"progressLabel": {
+			"eng": "Progress",
+			"trans": "Прогресс"
+		},
+		"progressValue": {
+			"eng": "${current} / ${total}",
+			"trans": "${current} / ${total}"
+		},
+		"rewardCollected": {
+			"eng": "Reward Collected",
+			"trans": "Награда получена"
+		},
+		"rewardData": {
+			"eng": "Reward Data",
+			"trans": "Данные о награде"
+		},
+		"statusClaimable": {
+			"eng": "Claimable",
+			"trans": "Получить"
+		},
+		"statusClaimed": {
+			"eng": "Claimed",
+			"trans": "Получено"
+		},
+		"statusUpcoming": {
+			"eng": "In ${days} days",
+			"trans": "Через ${days} дней"
+		},
+		"statusUpcomingTomorrow": {
+			"eng": "Tomorrow",
+			"trans": "завтра"
+		},
+		"tipBox": {
+			"eng": "Log in daily to earn rewards. Milestone days offer bonus rewards. Missing a day resets your streak.",
+			"trans": "Авторизуйтесь ежедневно, чтобы получать награды. В особые дни доступны бонусы. Пропуск дня обнуляет ваш streak."
+		}
+	},
+	"loginStreakMilestone": {
+		"day14": {
+			"name": {
+				"eng": "14 Day Milestone",
+				"trans": "14‑дневная веха"
+			}
+		},
+		"day21": {
+			"name": {
+				"eng": "21 Day Milestone",
+				"trans": "Веха 21 дня"
+			}
+		},
+		"day28": {
+			"name": {
+				"eng": "28 Day Milestone",
+				"trans": "28‑дневный этап"
+			}
+		},
+		"day7": {
+			"name": {
+				"eng": "7 Day Milestone",
+				"trans": "Семидневная веха"
+			}
+		}
+	},
 	"loreNote": {
 		"collectedMessage": {
 			"eng": "You have collected a new lore note",
@@ -7697,6 +7855,12 @@
 			}
 		}
 	},
+	"mainMenuModal": {
+		"loginStreak": {
+			"eng": "Login Streak",
+			"trans": "Серия входов"
+		}
+	},
 	"mainPage": {
 		"apartmentButton": {
 			"title": {
@@ -7917,6 +8081,10 @@
 		"jobLevel": {
 			"eng": "Job Level",
 			"trans": "Уровень работы"
+		},
+		"loginStreak": {
+			"eng": "Login Streak",
+			"trans": "Серия входов"
 		},
 		"mercenary": {
 			"eng": "Mercenary",
@@ -8445,6 +8613,10 @@
 		"continue": {
 			"eng": "Click to continue",
 			"trans": "Нажмите, чтобы продолжить"
+		},
+		"revealing": {
+			"eng": "Revealing...",
+			"trans": "Раскрываем..."
 		},
 		"title": {
 			"eng": "Mercenaries",
@@ -9161,6 +9333,10 @@
 			}
 		},
 		"breach": {
+			"altContributed": {
+				"eng": "Another account connected to yours has already contributed to this operation",
+				"trans": "Другой ваш аккаунт уже внес вклад в эту операцию."
+			},
 			"busy": {
 				"eng": "You are currently busy",
 				"trans": "Вы сейчас заняты"
@@ -9172,6 +9348,10 @@
 			"failMessage": {
 				"eng": "Breach failed. Module lost.",
 				"trans": "Взлом не удался. Модуль потерян."
+			},
+			"levelRequired": {
+				"eng": "You must be level ${level} or higher to participate",
+				"trans": "Требуется уровень ${level} или выше для участия"
 			},
 			"noClan": {
 				"eng": "You must be in a gang to participate in NetRun operations",
@@ -9329,6 +9509,10 @@
 			}
 		},
 		"page": {
+			"levelRequired": {
+				"eng": "You must be level ${level} or higher to participate",
+				"trans": "Требуется уровень ${level} или выше для участия"
+			},
 			"requiresGang": {
 				"eng": "You must be in a gang to participate in NetRun operations",
 				"trans": "Для участия в операциях NetRun необходимо быть в банде."
@@ -14188,6 +14372,74 @@
 			"name": {
 				"eng": "Standard Contract",
 				"trans": "Стандартный договор"
+			}
+		}
+	},
+	"whisperFrequency": {
+		"building": {
+			"1": {
+				"eng": "Picking up chatter",
+				"trans": "Перехват сообщений"
+			},
+			"2": {
+				"eng": "Names mentioned",
+				"trans": "Упомянутые имена"
+			},
+			"3": {
+				"eng": "Signal growing",
+				"trans": "Сигнал усиливается"
+			}
+		},
+		"hot": {
+			"1": {
+				"eng": "Elite detected",
+				"trans": "Обнаружена элита"
+			},
+			"2": {
+				"eng": "Strong signal",
+				"trans": "Сильный сигнал"
+			},
+			"3": {
+				"eng": "Almost locked on",
+				"trans": "Почти зафиксировано"
+			}
+		},
+		"peak": {
+			"1": {
+				"eng": "Signal locked",
+				"trans": "Сигнал заблокирован"
+			},
+			"2": {
+				"eng": "Elite incoming",
+				"trans": "Элитные приближаются"
+			},
+			"3": {
+				"eng": "Contact imminent",
+				"trans": "Контакт надвигается"
+			}
+		},
+		"quiet": {
+			"1": {
+				"eng": "Scanning frequencies...",
+				"trans": "Сканирование частот..."
+			},
+			"3": {
+				"eng": "Searching...",
+				"trans": "Поиск…"
+			}
+		},
+		"rising": {
+			"1": {
+				"eng": "Skilled talent nearby",
+				"trans": "Талантливый персонаж рядом"
+			},
+			"2": {
+				"eng": "Signal strengthening",
+				"trans": "Усиление сигнала"
+			},
+			"3": {
+				"eng": "Someone interesting...",
+				"trans": "Кто-то интересный..."
 			}
 		}
 	},

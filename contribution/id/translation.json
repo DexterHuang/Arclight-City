@@ -2566,48 +2566,106 @@
 		}
 	},
 	"drawMercAnimation": {
-		"activate": {
-			"eng": "activate",
-			"trans": "aktifkan"
-		},
-		"activated": {
-			"continue": {
-				"eng": "VIEW MERCENARIES",
-				"trans": "LIHAT PASUKAN BAYARAN"
-			},
-			"loadingBarTitle": {
-				"eng": "Decrypting mercenary contact info...",
-				"trans": "Mendekripsi informasi kontak mercenary..."
-			},
-			"success": {
-				"eng": "Mercenary contact info received.",
-				"trans": "Informasi kontak mercenary diterima."
-			},
-			"textList1": {
-				"eng": "Allocating resources...",
-				"trans": "Mengalokasikan sumber daya..."
-			},
-			"textList2": {
-				"eng": "Scanning mercenary network...",
-				"trans": "Memindai jaringan tentara bayaran..."
-			},
-			"textList3": {
-				"eng": "Establishing secure channels",
-				"trans": "Membangun saluran yang aman"
-			},
-			"textList4": {
-				"eng": "Receiving data...",
-				"trans": "Menerima data..."
+		"button": {
+			"view": {
+				"eng": "[ ACCESS FILES ]",
+				"trans": "Akses Berkas"
 			}
 		},
-		"standby": {
-			"subtitle": {
-				"eng": "Drag the leaver down to active",
-				"trans": "Tarik tuas ke bawah untuk mengaktifkan"
+		"loadingBar": {
+			"eng": "decrypting payload",
+			"trans": "Mendecrypt payload"
+		},
+		"phase": {
+			"connecting": {
+				"eng": "[ UPLINK ]",
+				"trans": "[ UPLINK ]"
 			},
-			"title": {
-				"eng": "System Standby",
-				"trans": "Sistem Siaga"
+			"scanning": {
+				"eng": "// PROCESSING",
+				"trans": "// PROSES"
+			},
+			"secured": {
+				"eng": "// EXTRACTION COMPLETE",
+				"trans": "Ekstraksi Selesai"
+			}
+		},
+		"pulls": {
+			"eng": "targets",
+			"trans": "Target"
+		},
+		"slider": {
+			"activate": {
+				"eng": "exec",
+				"trans": "Eksekusi"
+			},
+			"instruction": {
+				"eng": "// pull to execute",
+				"trans": "// Tarik untuk jalankan"
+			}
+		},
+		"subtitle": {
+			"multi": {
+				"eng": "${count} targets queued",
+				"trans": "${count} target dalam antrian"
+			},
+			"single": {
+				"eng": "Single target acquisition",
+				"trans": "Penyadapan Target Tunggal"
+			}
+		},
+		"success": {
+			"multi": {
+				"eng": "${count} operatives decrypted",
+				"trans": "${count} operator terdekripsi"
+			},
+			"single": {
+				"eng": "operative profile ready",
+				"trans": "Profil Operatif Siap"
+			}
+		},
+		"terminal": {
+			"multi": {
+				"1": {
+					"eng": "> deploying extraction daemon...",
+					"trans": "> mengaktifkan daemon ekstraksi..."
+				},
+				"2": {
+					"eng": "> bypassing ICE barriers [OK]",
+					"trans": "Melewati hambatan ICE [OK]"
+				},
+				"3": {
+					"eng": "> ${count} nodes flagged",
+					"trans": "> ${count} node ditandai"
+				},
+				"4": {
+					"eng": "> compiling dossiers...",
+					"trans": "> menyusun dosier..."
+				}
+			},
+			"single": {
+				"1": {
+					"eng": "> initiating handshake...",
+					"trans": "> memulai handshake..."
+				},
+				"2": {
+					"eng": "> target acquired",
+					"trans": "> Target Terdeteksi"
+				},
+				"3": {
+					"eng": "> extracting profile...",
+					"trans": "> mengekstrak profil..."
+				}
+			}
+		},
+		"title": {
+			"multi": {
+				"eng": "Batch Protocol",
+				"trans": "Protokol Batch"
+			},
+			"single": {
+				"eng": "Ghost Protocol",
+				"trans": "Protokol Hantu"
 			}
 		}
 	},
@@ -7423,6 +7481,106 @@
 			"trans": "Gagal mengirim email reset: ${error}"
 		}
 	},
+	"loginStreak": {
+		"collectReward": {
+			"eng": "Collect Reward",
+			"trans": "Kumpulkan Hadiah"
+		},
+		"consecutiveDays": {
+			"eng": "Consecutive Days",
+			"trans": "Hari Berturut‑turut"
+		},
+		"dayOfTotal": {
+			"eng": "Day ${day} / ${total}",
+			"trans": "Hari ${day} / ${total}"
+		},
+		"gridTitle": {
+			"eng": "4-Week Operation Cycle",
+			"trans": "Siklus Operasi 4 Minggu"
+		},
+		"legendClaimable": {
+			"eng": "Claimable",
+			"trans": "Dapat diklaim"
+		},
+		"legendMilestone": {
+			"eng": "Milestone",
+			"trans": "Tonggak"
+		},
+		"loginRequired": {
+			"eng": "Login Required",
+			"trans": "Masuk Diperlukan"
+		},
+		"milestoneTag": {
+			"eng": "Priority",
+			"trans": "Prioritas"
+		},
+		"operationTitle": {
+			"eng": "Deployment Tracker",
+			"trans": "Pelacak Penempatan"
+		},
+		"progressLabel": {
+			"eng": "Progress",
+			"trans": "Kemajuan"
+		},
+		"progressValue": {
+			"eng": "${current} / ${total}",
+			"trans": "${current} / ${total}"
+		},
+		"rewardCollected": {
+			"eng": "Reward Collected",
+			"trans": "Hadiah Diterima"
+		},
+		"rewardData": {
+			"eng": "Reward Data",
+			"trans": "Data Hadiah"
+		},
+		"statusClaimable": {
+			"eng": "Claimable",
+			"trans": "Dapat diklaim"
+		},
+		"statusClaimed": {
+			"eng": "Claimed",
+			"trans": "Diklaim"
+		},
+		"statusUpcoming": {
+			"eng": "In ${days} days",
+			"trans": "Dalam ${days} hari"
+		},
+		"statusUpcomingTomorrow": {
+			"eng": "Tomorrow",
+			"trans": "Besok"
+		},
+		"tipBox": {
+			"eng": "Log in daily to earn rewards. Milestone days offer bonus rewards. Missing a day resets your streak.",
+			"trans": "Login harian untuk mendapatkan hadiah. Hari milestone menawarkan hadiah tambahan. Jika melewatkan satu hari, streak Anda akan direset."
+		}
+	},
+	"loginStreakMilestone": {
+		"day14": {
+			"name": {
+				"eng": "14 Day Milestone",
+				"trans": "Pencapaian 14 Hari"
+			}
+		},
+		"day21": {
+			"name": {
+				"eng": "21 Day Milestone",
+				"trans": "Pencapaian 21 Hari"
+			}
+		},
+		"day28": {
+			"name": {
+				"eng": "28 Day Milestone",
+				"trans": "Tonggak 28 Hari"
+			}
+		},
+		"day7": {
+			"name": {
+				"eng": "7 Day Milestone",
+				"trans": "Tonggak 7 Hari"
+			}
+		}
+	},
 	"loreNote": {
 		"collectedMessage": {
 			"eng": "You have collected a new lore note",
@@ -7697,6 +7855,12 @@
 			}
 		}
 	},
+	"mainMenuModal": {
+		"loginStreak": {
+			"eng": "Login Streak",
+			"trans": "Seri Login"
+		}
+	},
 	"mainPage": {
 		"apartmentButton": {
 			"title": {
@@ -7917,6 +8081,10 @@
 		"jobLevel": {
 			"eng": "Job Level",
 			"trans": "Tingkat Pekerjaan"
+		},
+		"loginStreak": {
+			"eng": "Login Streak",
+			"trans": "Seri Login"
 		},
 		"mercenary": {
 			"eng": "Mercenary",
@@ -8445,6 +8613,10 @@
 		"continue": {
 			"eng": "Click to continue",
 			"trans": "Klik untuk melanjutkan"
+		},
+		"revealing": {
+			"eng": "Revealing...",
+			"trans": "Mengungkap..."
 		},
 		"title": {
 			"eng": "Mercenaries",
@@ -9161,6 +9333,10 @@
 			}
 		},
 		"breach": {
+			"altContributed": {
+				"eng": "Another account connected to yours has already contributed to this operation",
+				"trans": "Akun lain yang terhubung ke akun Anda sudah berkontribusi pada operasi ini."
+			},
 			"busy": {
 				"eng": "You are currently busy",
 				"trans": "Kamu sedang sibuk"
@@ -9172,6 +9348,10 @@
 			"failMessage": {
 				"eng": "Breach failed. Module lost.",
 				"trans": "Pembobolan gagal. Modul hilang."
+			},
+			"levelRequired": {
+				"eng": "You must be level ${level} or higher to participate",
+				"trans": "Anda harus berada di level ${level} atau lebih tinggi untuk berpartisipasi."
 			},
 			"noClan": {
 				"eng": "You must be in a gang to participate in NetRun operations",
@@ -9329,6 +9509,10 @@
 			}
 		},
 		"page": {
+			"levelRequired": {
+				"eng": "You must be level ${level} or higher to participate",
+				"trans": "Anda harus berada di level ${level} atau lebih tinggi untuk berpartisipasi."
+			},
 			"requiresGang": {
 				"eng": "You must be in a gang to participate in NetRun operations",
 				"trans": "Anda harus bergabung dalam geng untuk ikut serta dalam operasi NetRun."
@@ -14188,6 +14372,74 @@
 			"name": {
 				"eng": "Standard Contract",
 				"trans": "Kontrak Standar"
+			}
+		}
+	},
+	"whisperFrequency": {
+		"building": {
+			"1": {
+				"eng": "Picking up chatter",
+				"trans": "Mendengarkan percakapan"
+			},
+			"2": {
+				"eng": "Names mentioned",
+				"trans": "Nama yang disebutkan"
+			},
+			"3": {
+				"eng": "Signal growing",
+				"trans": "Sinyal Meningkat"
+			}
+		},
+		"hot": {
+			"1": {
+				"eng": "Elite detected",
+				"trans": "Elite terdeteksi"
+			},
+			"2": {
+				"eng": "Strong signal",
+				"trans": "Sinyal Kuat"
+			},
+			"3": {
+				"eng": "Almost locked on",
+				"trans": "Hampir terkunci"
+			}
+		},
+		"peak": {
+			"1": {
+				"eng": "Signal locked",
+				"trans": "Sinyal terkunci"
+			},
+			"2": {
+				"eng": "Elite incoming",
+				"trans": "Elite Datang"
+			},
+			"3": {
+				"eng": "Contact imminent",
+				"trans": "Kontak Segera"
+			}
+		},
+		"quiet": {
+			"1": {
+				"eng": "Scanning frequencies...",
+				"trans": "Memindai frekuensi..."
+			},
+			"3": {
+				"eng": "Searching...",
+				"trans": "Mencari..."
+			}
+		},
+		"rising": {
+			"1": {
+				"eng": "Skilled talent nearby",
+				"trans": "Talenta ahli di sekitar"
+			},
+			"2": {
+				"eng": "Signal strengthening",
+				"trans": "Penguatan Sinyal"
+			},
+			"3": {
+				"eng": "Someone interesting...",
+				"trans": "Seseorang yang menarik..."
 			}
 		}
 	},

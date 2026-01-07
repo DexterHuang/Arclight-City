@@ -2566,48 +2566,106 @@
 		}
 	},
 	"drawMercAnimation": {
-		"activate": {
-			"eng": "activate",
-			"trans": "activar"
-		},
-		"activated": {
-			"continue": {
-				"eng": "VIEW MERCENARIES",
-				"trans": "VER MERCENARIOS"
-			},
-			"loadingBarTitle": {
-				"eng": "Decrypting mercenary contact info...",
-				"trans": "Descifrando información de contacto de mercenarios..."
-			},
-			"success": {
-				"eng": "Mercenary contact info received.",
-				"trans": "Información de contacto del mercenario recibida."
-			},
-			"textList1": {
-				"eng": "Allocating resources...",
-				"trans": "Asignando recursos..."
-			},
-			"textList2": {
-				"eng": "Scanning mercenary network...",
-				"trans": "Escaneando la red de mercenarios..."
-			},
-			"textList3": {
-				"eng": "Establishing secure channels",
-				"trans": "Estableciendo canales seguros"
-			},
-			"textList4": {
-				"eng": "Receiving data...",
-				"trans": "Recibiendo datos..."
+		"button": {
+			"view": {
+				"eng": "[ ACCESS FILES ]",
+				"trans": "[ ACCEDER A ARCHIVOS ]"
 			}
 		},
-		"standby": {
-			"subtitle": {
-				"eng": "Drag the leaver down to active",
-				"trans": "Arrastra la palanca hacia abajo para activar"
+		"loadingBar": {
+			"eng": "decrypting payload",
+			"trans": "Descifrando la carga útil"
+		},
+		"phase": {
+			"connecting": {
+				"eng": "[ UPLINK ]",
+				"trans": "[ ENLACE ASCENDENTE ]"
 			},
-			"title": {
-				"eng": "System Standby",
-				"trans": "Sistema en espera"
+			"scanning": {
+				"eng": "// PROCESSING",
+				"trans": "// PROCESANDO"
+			},
+			"secured": {
+				"eng": "// EXTRACTION COMPLETE",
+				"trans": "Extracción completada"
+			}
+		},
+		"pulls": {
+			"eng": "targets",
+			"trans": "Objetivos"
+		},
+		"slider": {
+			"activate": {
+				"eng": "exec",
+				"trans": "Ejecutar"
+			},
+			"instruction": {
+				"eng": "// pull to execute",
+				"trans": "// arrastrar para ejecutar"
+			}
+		},
+		"subtitle": {
+			"multi": {
+				"eng": "${count} targets queued",
+				"trans": "${count} objetivos en cola"
+			},
+			"single": {
+				"eng": "Single target acquisition",
+				"trans": "Adquisición de objetivo único"
+			}
+		},
+		"success": {
+			"multi": {
+				"eng": "${count} operatives decrypted",
+				"trans": "${count} agentes descifrados"
+			},
+			"single": {
+				"eng": "operative profile ready",
+				"trans": "Perfil operativo listo"
+			}
+		},
+		"terminal": {
+			"multi": {
+				"1": {
+					"eng": "> deploying extraction daemon...",
+					"trans": "> Desplegando demonio de extracción..."
+				},
+				"2": {
+					"eng": "> bypassing ICE barriers [OK]",
+					"trans": "Eludiendo barreras ICE [OK]"
+				},
+				"3": {
+					"eng": "> ${count} nodes flagged",
+					"trans": "> ${count} nodos marcados"
+				},
+				"4": {
+					"eng": "> compiling dossiers...",
+					"trans": "> Compilando expedientes..."
+				}
+			},
+			"single": {
+				"1": {
+					"eng": "> initiating handshake...",
+					"trans": "Iniciando handshake..."
+				},
+				"2": {
+					"eng": "> target acquired",
+					"trans": "Objetivo detectado"
+				},
+				"3": {
+					"eng": "> extracting profile...",
+					"trans": "Extrayendo perfil..."
+				}
+			}
+		},
+		"title": {
+			"multi": {
+				"eng": "Batch Protocol",
+				"trans": "Protocolo de Lote"
+			},
+			"single": {
+				"eng": "Ghost Protocol",
+				"trans": "Protocolo Fantasma"
 			}
 		}
 	},
@@ -7423,6 +7481,106 @@
 			"trans": "Error al enviar el correo electrónico de restablecimiento: ${error}"
 		}
 	},
+	"loginStreak": {
+		"collectReward": {
+			"eng": "Collect Reward",
+			"trans": "Recoger recompensa"
+		},
+		"consecutiveDays": {
+			"eng": "Consecutive Days",
+			"trans": "Días consecutivos"
+		},
+		"dayOfTotal": {
+			"eng": "Day ${day} / ${total}",
+			"trans": "Día ${day} / ${total}"
+		},
+		"gridTitle": {
+			"eng": "4-Week Operation Cycle",
+			"trans": "Ciclo Operativo de 4 Semanas"
+		},
+		"legendClaimable": {
+			"eng": "Claimable",
+			"trans": "Reclamable"
+		},
+		"legendMilestone": {
+			"eng": "Milestone",
+			"trans": "Hito"
+		},
+		"loginRequired": {
+			"eng": "Login Required",
+			"trans": "Inicio de sesión requerido"
+		},
+		"milestoneTag": {
+			"eng": "Priority",
+			"trans": "Prioridad"
+		},
+		"operationTitle": {
+			"eng": "Deployment Tracker",
+			"trans": "Rastreador de Despliegues"
+		},
+		"progressLabel": {
+			"eng": "Progress",
+			"trans": "Progreso"
+		},
+		"progressValue": {
+			"eng": "${current} / ${total}",
+			"trans": "${current} / ${total}"
+		},
+		"rewardCollected": {
+			"eng": "Reward Collected",
+			"trans": "Recompensa obtenida"
+		},
+		"rewardData": {
+			"eng": "Reward Data",
+			"trans": "Datos de recompensa"
+		},
+		"statusClaimable": {
+			"eng": "Claimable",
+			"trans": "Reclamable"
+		},
+		"statusClaimed": {
+			"eng": "Claimed",
+			"trans": "Reclamado"
+		},
+		"statusUpcoming": {
+			"eng": "In ${days} days",
+			"trans": "En ${days} días"
+		},
+		"statusUpcomingTomorrow": {
+			"eng": "Tomorrow",
+			"trans": "Manana"
+		},
+		"tipBox": {
+			"eng": "Log in daily to earn rewards. Milestone days offer bonus rewards. Missing a day resets your streak.",
+			"trans": "Conéctate diariamente para ganar recompensas. Los días de hito otorgan bonificaciones adicionales. Si pierdes un día, se reinicia tu racha."
+		}
+	},
+	"loginStreakMilestone": {
+		"day14": {
+			"name": {
+				"eng": "14 Day Milestone",
+				"trans": "Hito de 14 días"
+			}
+		},
+		"day21": {
+			"name": {
+				"eng": "21 Day Milestone",
+				"trans": "Hito de 21 días"
+			}
+		},
+		"day28": {
+			"name": {
+				"eng": "28 Day Milestone",
+				"trans": "Hito de 28 días"
+			}
+		},
+		"day7": {
+			"name": {
+				"eng": "7 Day Milestone",
+				"trans": "Hito de 7 días"
+			}
+		}
+	},
 	"loreNote": {
 		"collectedMessage": {
 			"eng": "You have collected a new lore note",
@@ -7697,6 +7855,12 @@
 			}
 		}
 	},
+	"mainMenuModal": {
+		"loginStreak": {
+			"eng": "Login Streak",
+			"trans": "Racha de login"
+		}
+	},
 	"mainPage": {
 		"apartmentButton": {
 			"title": {
@@ -7917,6 +8081,10 @@
 		"jobLevel": {
 			"eng": "Job Level",
 			"trans": "Nivel de trabajo"
+		},
+		"loginStreak": {
+			"eng": "Login Streak",
+			"trans": "Racha de login"
 		},
 		"mercenary": {
 			"eng": "Mercenary",
@@ -8445,6 +8613,10 @@
 		"continue": {
 			"eng": "Click to continue",
 			"trans": "Haz clic para continuar"
+		},
+		"revealing": {
+			"eng": "Revealing...",
+			"trans": "Revelando..."
 		},
 		"title": {
 			"eng": "Mercenaries",
@@ -9161,6 +9333,10 @@
 			}
 		},
 		"breach": {
+			"altContributed": {
+				"eng": "Another account connected to yours has already contributed to this operation",
+				"trans": "Otra cuenta vinculada a la tuya ya ha contribuido a esta operación."
+			},
 			"busy": {
 				"eng": "You are currently busy",
 				"trans": "Estás actualmente ocupado"
@@ -9172,6 +9348,10 @@
 			"failMessage": {
 				"eng": "Breach failed. Module lost.",
 				"trans": "Brecha fallida. Módulo perdido."
+			},
+			"levelRequired": {
+				"eng": "You must be level ${level} or higher to participate",
+				"trans": "Debes alcanzar el nivel ${level} o superior para participar."
 			},
 			"noClan": {
 				"eng": "You must be in a gang to participate in NetRun operations",
@@ -9329,6 +9509,10 @@
 			}
 		},
 		"page": {
+			"levelRequired": {
+				"eng": "You must be level ${level} or higher to participate",
+				"trans": "Debes alcanzar el nivel ${level} o superior para participar."
+			},
 			"requiresGang": {
 				"eng": "You must be in a gang to participate in NetRun operations",
 				"trans": "Debes pertenecer a una banda para participar en las operaciones de NetRun."
@@ -14188,6 +14372,74 @@
 			"name": {
 				"eng": "Standard Contract",
 				"trans": "Contrato Estándar"
+			}
+		}
+	},
+	"whisperFrequency": {
+		"building": {
+			"1": {
+				"eng": "Picking up chatter",
+				"trans": "Escuchando la transmisión"
+			},
+			"2": {
+				"eng": "Names mentioned",
+				"trans": "Nombres mencionados"
+			},
+			"3": {
+				"eng": "Signal growing",
+				"trans": "Señal en aumento"
+			}
+		},
+		"hot": {
+			"1": {
+				"eng": "Elite detected",
+				"trans": "Elite detectado"
+			},
+			"2": {
+				"eng": "Strong signal",
+				"trans": "Señal fuerte"
+			},
+			"3": {
+				"eng": "Almost locked on",
+				"trans": "Casi bloqueado"
+			}
+		},
+		"peak": {
+			"1": {
+				"eng": "Signal locked",
+				"trans": "Señal bloqueada"
+			},
+			"2": {
+				"eng": "Elite incoming",
+				"trans": "Elite en camino"
+			},
+			"3": {
+				"eng": "Contact imminent",
+				"trans": "Contacto inminente"
+			}
+		},
+		"quiet": {
+			"1": {
+				"eng": "Scanning frequencies...",
+				"trans": "Escaneando frecuencias…"
+			},
+			"3": {
+				"eng": "Searching...",
+				"trans": "Buscando..."
+			}
+		},
+		"rising": {
+			"1": {
+				"eng": "Skilled talent nearby",
+				"trans": "Talento cualificado cercano"
+			},
+			"2": {
+				"eng": "Signal strengthening",
+				"trans": "Fortalecimiento de señal"
+			},
+			"3": {
+				"eng": "Someone interesting...",
+				"trans": "Alguien interesante..."
 			}
 		}
 	},
