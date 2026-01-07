@@ -9,7 +9,8 @@
 ### 0.0.95
 
 -  Updated the UI and design for mercenary draw page.
--  Added 6 Month view to stock market, you can now view the stock market for the last 6 months, this is useful to see the trend of the stock market
+-  Mercenary draw chance is _NOT_ changed, but pity chance is **increased** and max draw cap to get 5-star mercenaries is **lowered** (meaning even very unlucky you should not need to draw as many times as before to get 5-star mercenaries). this system is on additional chance added on top of the normal draw chance which is not changed.
+-  Added 6 Month view to stock market, you can now view the stock market for the last 6 months, this is useful to see the trend of the stock market.
 
 ### 0.0.94 
    
