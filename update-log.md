@@ -6,6 +6,11 @@
 
 **If you find an exploit, please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
+### 0.0.95
+
+-  Updated the UI and design for mercenary draw page.
+-  Added 6 Month view to stock market, you can now view the stock market for the last 6 months, this is useful to see the trend of the stock market
+
 ### 0.0.94 
    
 -  **NetRun Operations**: New weekly cooperative hacking feature where gangs work together to breach megacorporation networks
