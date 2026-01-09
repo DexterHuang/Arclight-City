@@ -12311,6 +12311,90 @@
 			"trans": "割引"
 		}
 	},
+	"signalStrength": {
+		"info": {
+			"eng": "Signal increases only by recruiting mercenaries.",
+			"trans": "シグナルは傭兵の採用でのみ増加します。"
+		},
+		"status": {
+			"building": {
+				"v1": {
+					"1": {
+						"eng": "Chatter detected",
+						"trans": "チャット検知"
+					},
+					"2": {
+						"eng": "Names noted",
+						"trans": "名前を記録しました"
+					},
+					"3": {
+						"eng": "Signal building",
+						"trans": "通信タワー"
+					}
+				}
+			},
+			"hot": {
+				"v1": {
+					"1": {
+						"eng": "Elite presence",
+						"trans": "精鋭の存在"
+					},
+					"2": {
+						"eng": "Strong resonance",
+						"trans": "強力共鳴"
+					},
+					"3": {
+						"eng": "Lock pending",
+						"trans": "ロック保留"
+					}
+				}
+			},
+			"peak": {
+				"v1": {
+					"1": {
+						"eng": "Signal locked",
+						"trans": "シグナルロック済み"
+					},
+					"2": {
+						"eng": "Elite ready",
+						"trans": "エリートレディ"
+					},
+					"3": {
+						"eng": "Contact imminent",
+						"trans": "接触間近"
+					}
+				}
+			},
+			"quiet": {
+				"v1": {
+					"1": {
+						"eng": "Online",
+						"trans": "オンライン"
+					},
+					"2": {
+						"eng": "Signal active",
+						"trans": "信号作動中"
+					}
+				}
+			},
+			"rising": {
+				"v1": {
+					"1": {
+						"eng": "Talent in range",
+						"trans": "タレントが射程内です"
+					},
+					"2": {
+						"eng": "Signal strong",
+						"trans": "信号強い"
+					},
+					"3": {
+						"eng": "Interesting lead",
+						"trans": "興味深い手がかり"
+					}
+				}
+			}
+		}
+	},
 	"socialMedia": {
 		"mention": {
 			"eng": "${npc} has mentioned you in a Chirp post",
@@ -14372,74 +14456,6 @@
 			"name": {
 				"eng": "Standard Contract",
 				"trans": "標準契約"
-			}
-		}
-	},
-	"whisperFrequency": {
-		"building": {
-			"1": {
-				"eng": "Picking up chatter",
-				"trans": "通信受信中"
-			},
-			"2": {
-				"eng": "Names mentioned",
-				"trans": "名前一覧"
-			},
-			"3": {
-				"eng": "Signal growing",
-				"trans": "シグナル上昇中"
-			}
-		},
-		"hot": {
-			"1": {
-				"eng": "Elite detected",
-				"trans": "エリート発見"
-			},
-			"2": {
-				"eng": "Strong signal",
-				"trans": "強い信号"
-			},
-			"3": {
-				"eng": "Almost locked on",
-				"trans": "ほぼロックオン"
-			}
-		},
-		"peak": {
-			"1": {
-				"eng": "Signal locked",
-				"trans": "シグナルロック"
-			},
-			"2": {
-				"eng": "Elite incoming",
-				"trans": "エリート接近"
-			},
-			"3": {
-				"eng": "Contact imminent",
-				"trans": "接触迫る"
-			}
-		},
-		"quiet": {
-			"1": {
-				"eng": "Scanning frequencies...",
-				"trans": "周波数をスキャンしています…"
-			},
-			"3": {
-				"eng": "Searching...",
-				"trans": "検索中..."
-			}
-		},
-		"rising": {
-			"1": {
-				"eng": "Skilled talent nearby",
-				"trans": "近くに熟練タレント"
-			},
-			"2": {
-				"eng": "Signal strengthening",
-				"trans": "シグナル強化"
-			},
-			"3": {
-				"eng": "Someone interesting...",
-				"trans": "興味深い人..."
 			}
 		}
 	},

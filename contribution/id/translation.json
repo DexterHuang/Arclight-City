@@ -12311,6 +12311,90 @@
 			"trans": "Diskon"
 		}
 	},
+	"signalStrength": {
+		"info": {
+			"eng": "Signal increases only by recruiting mercenaries.",
+			"trans": "Sinyal hanya meningkat dengan merekrut tentara bayaran."
+		},
+		"status": {
+			"building": {
+				"v1": {
+					"1": {
+						"eng": "Chatter detected",
+						"trans": "Percakapan terdeteksi"
+					},
+					"2": {
+						"eng": "Names noted",
+						"trans": "Nama telah dicatat"
+					},
+					"3": {
+						"eng": "Signal building",
+						"trans": "Pembangunan sinyal"
+					}
+				}
+			},
+			"hot": {
+				"v1": {
+					"1": {
+						"eng": "Elite presence",
+						"trans": "Kehadiran Elite"
+					},
+					"2": {
+						"eng": "Strong resonance",
+						"trans": "Resonansi kuat"
+					},
+					"3": {
+						"eng": "Lock pending",
+						"trans": "Penguncian tertunda"
+					}
+				}
+			},
+			"peak": {
+				"v1": {
+					"1": {
+						"eng": "Signal locked",
+						"trans": "Sinyal terkunci"
+					},
+					"2": {
+						"eng": "Elite ready",
+						"trans": "Siap Elite"
+					},
+					"3": {
+						"eng": "Contact imminent",
+						"trans": "Kontak Segera"
+					}
+				}
+			},
+			"quiet": {
+				"v1": {
+					"1": {
+						"eng": "Online",
+						"trans": "Online"
+					},
+					"2": {
+						"eng": "Signal active",
+						"trans": "Sinyal aktif"
+					}
+				}
+			},
+			"rising": {
+				"v1": {
+					"1": {
+						"eng": "Talent in range",
+						"trans": "Kemampuan dalam jangkauan"
+					},
+					"2": {
+						"eng": "Signal strong",
+						"trans": "Sinyal kuat"
+					},
+					"3": {
+						"eng": "Interesting lead",
+						"trans": "Petunjuk Menarik"
+					}
+				}
+			}
+		}
+	},
 	"socialMedia": {
 		"mention": {
 			"eng": "${npc} has mentioned you in a Chirp post",
@@ -14372,74 +14456,6 @@
 			"name": {
 				"eng": "Standard Contract",
 				"trans": "Kontrak Standar"
-			}
-		}
-	},
-	"whisperFrequency": {
-		"building": {
-			"1": {
-				"eng": "Picking up chatter",
-				"trans": "Mendengarkan percakapan"
-			},
-			"2": {
-				"eng": "Names mentioned",
-				"trans": "Nama yang disebutkan"
-			},
-			"3": {
-				"eng": "Signal growing",
-				"trans": "Sinyal Meningkat"
-			}
-		},
-		"hot": {
-			"1": {
-				"eng": "Elite detected",
-				"trans": "Elite terdeteksi"
-			},
-			"2": {
-				"eng": "Strong signal",
-				"trans": "Sinyal Kuat"
-			},
-			"3": {
-				"eng": "Almost locked on",
-				"trans": "Hampir terkunci"
-			}
-		},
-		"peak": {
-			"1": {
-				"eng": "Signal locked",
-				"trans": "Sinyal terkunci"
-			},
-			"2": {
-				"eng": "Elite incoming",
-				"trans": "Elite Datang"
-			},
-			"3": {
-				"eng": "Contact imminent",
-				"trans": "Kontak Segera"
-			}
-		},
-		"quiet": {
-			"1": {
-				"eng": "Scanning frequencies...",
-				"trans": "Memindai frekuensi..."
-			},
-			"3": {
-				"eng": "Searching...",
-				"trans": "Mencari..."
-			}
-		},
-		"rising": {
-			"1": {
-				"eng": "Skilled talent nearby",
-				"trans": "Talenta ahli di sekitar"
-			},
-			"2": {
-				"eng": "Signal strengthening",
-				"trans": "Penguatan Sinyal"
-			},
-			"3": {
-				"eng": "Someone interesting...",
-				"trans": "Seseorang yang menarik..."
 			}
 		}
 	},

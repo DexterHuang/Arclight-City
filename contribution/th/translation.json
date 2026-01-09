@@ -12311,6 +12311,90 @@
 			"trans": "ลดราคา"
 		}
 	},
+	"signalStrength": {
+		"info": {
+			"eng": "Signal increases only by recruiting mercenaries.",
+			"trans": "สัญญาณจะเพิ่มขึ้นได้เฉพาะเมื่อจ้างมือตัว"
+		},
+		"status": {
+			"building": {
+				"v1": {
+					"1": {
+						"eng": "Chatter detected",
+						"trans": "ตรวจจับสัญญาณสนทนา"
+					},
+					"2": {
+						"eng": "Names noted",
+						"trans": "ชื่อบันทึกแล้ว"
+					},
+					"3": {
+						"eng": "Signal building",
+						"trans": "อาคารสัญญาณ"
+					}
+				}
+			},
+			"hot": {
+				"v1": {
+					"1": {
+						"eng": "Elite presence",
+						"trans": "การปรากฏของอีเลิท"
+					},
+					"2": {
+						"eng": "Strong resonance",
+						"trans": "ความสั่นสะเทือนแรง"
+					},
+					"3": {
+						"eng": "Lock pending",
+						"trans": "รอการล็อก"
+					}
+				}
+			},
+			"peak": {
+				"v1": {
+					"1": {
+						"eng": "Signal locked",
+						"trans": "สัญญาณล็อกแล้ว"
+					},
+					"2": {
+						"eng": "Elite ready",
+						"trans": "เอลิทพร้อม"
+					},
+					"3": {
+						"eng": "Contact imminent",
+						"trans": "พบกันเร็ว"
+					}
+				}
+			},
+			"quiet": {
+				"v1": {
+					"1": {
+						"eng": "Online",
+						"trans": "ออนไลน์"
+					},
+					"2": {
+						"eng": "Signal active",
+						"trans": "สัญญาณทำงาน"
+					}
+				}
+			},
+			"rising": {
+				"v1": {
+					"1": {
+						"eng": "Talent in range",
+						"trans": "ทาเลนต์ในระยะ"
+					},
+					"2": {
+						"eng": "Signal strong",
+						"trans": "สัญญาณแข็งแรง"
+					},
+					"3": {
+						"eng": "Interesting lead",
+						"trans": "เบาะแสที่น่าสนใจ"
+					}
+				}
+			}
+		}
+	},
 	"socialMedia": {
 		"mention": {
 			"eng": "${npc} has mentioned you in a Chirp post",
@@ -14372,74 +14456,6 @@
 			"name": {
 				"eng": "Standard Contract",
 				"trans": "สัญญามาตรฐาน"
-			}
-		}
-	},
-	"whisperFrequency": {
-		"building": {
-			"1": {
-				"eng": "Picking up chatter",
-				"trans": "รับสัญญาณสนทนา"
-			},
-			"2": {
-				"eng": "Names mentioned",
-				"trans": "ชื่อที่กล่าวถึง"
-			},
-			"3": {
-				"eng": "Signal growing",
-				"trans": "สัญญาณเพิ่มขึ้น"
-			}
-		},
-		"hot": {
-			"1": {
-				"eng": "Elite detected",
-				"trans": "ตรวจพบ Elite"
-			},
-			"2": {
-				"eng": "Strong signal",
-				"trans": "สัญญาณแรง"
-			},
-			"3": {
-				"eng": "Almost locked on",
-				"trans": "เกือบล็อค"
-			}
-		},
-		"peak": {
-			"1": {
-				"eng": "Signal locked",
-				"trans": "สัญญาณล็อก"
-			},
-			"2": {
-				"eng": "Elite incoming",
-				"trans": "เอลิทกำลังเข้ามา"
-			},
-			"3": {
-				"eng": "Contact imminent",
-				"trans": "กำลังจะมีการติดต่อ"
-			}
-		},
-		"quiet": {
-			"1": {
-				"eng": "Scanning frequencies...",
-				"trans": "กำลังสแกนความถี่..."
-			},
-			"3": {
-				"eng": "Searching...",
-				"trans": "กำลังค้นหา"
-			}
-		},
-		"rising": {
-			"1": {
-				"eng": "Skilled talent nearby",
-				"trans": "ผู้เชี่ยวชาญอยู่ใกล้"
-			},
-			"2": {
-				"eng": "Signal strengthening",
-				"trans": "เสริมสัญญาณ"
-			},
-			"3": {
-				"eng": "Someone interesting...",
-				"trans": "คนที่น่าสนใจ..."
 			}
 		}
 	},

@@ -12311,6 +12311,90 @@
 			"trans": "Sleva"
 		}
 	},
+	"signalStrength": {
+		"info": {
+			"eng": "Signal increases only by recruiting mercenaries.",
+			"trans": "Signál se zvyšuje pouze při náboru najímanců."
+		},
+		"status": {
+			"building": {
+				"v1": {
+					"1": {
+						"eng": "Chatter detected",
+						"trans": "Chat zjištěn"
+					},
+					"2": {
+						"eng": "Names noted",
+						"trans": "Jména zaznamenána"
+					},
+					"3": {
+						"eng": "Signal building",
+						"trans": "Budování signálu"
+					}
+				}
+			},
+			"hot": {
+				"v1": {
+					"1": {
+						"eng": "Elite presence",
+						"trans": "Elitní přítomnost"
+					},
+					"2": {
+						"eng": "Strong resonance",
+						"trans": "Silná rezonance"
+					},
+					"3": {
+						"eng": "Lock pending",
+						"trans": "Čekání na zámek"
+					}
+				}
+			},
+			"peak": {
+				"v1": {
+					"1": {
+						"eng": "Signal locked",
+						"trans": "Signál zajištěn"
+					},
+					"2": {
+						"eng": "Elite ready",
+						"trans": "Elita připravena"
+					},
+					"3": {
+						"eng": "Contact imminent",
+						"trans": "Nadcházející kontakt"
+					}
+				}
+			},
+			"quiet": {
+				"v1": {
+					"1": {
+						"eng": "Online",
+						"trans": "Online"
+					},
+					"2": {
+						"eng": "Signal active",
+						"trans": "Signál aktivní"
+					}
+				}
+			},
+			"rising": {
+				"v1": {
+					"1": {
+						"eng": "Talent in range",
+						"trans": "Dovednost v dosahu"
+					},
+					"2": {
+						"eng": "Signal strong",
+						"trans": "Silný signál"
+					},
+					"3": {
+						"eng": "Interesting lead",
+						"trans": "Zajímavá stopa"
+					}
+				}
+			}
+		}
+	},
 	"socialMedia": {
 		"mention": {
 			"eng": "${npc} has mentioned you in a Chirp post",
@@ -14372,74 +14456,6 @@
 			"name": {
 				"eng": "Standard Contract",
 				"trans": "Standardní smlouva"
-			}
-		}
-	},
-	"whisperFrequency": {
-		"building": {
-			"1": {
-				"eng": "Picking up chatter",
-				"trans": "Přijímání přenosů"
-			},
-			"2": {
-				"eng": "Names mentioned",
-				"trans": "Zmíněná jména"
-			},
-			"3": {
-				"eng": "Signal growing",
-				"trans": "Signál roste"
-			}
-		},
-		"hot": {
-			"1": {
-				"eng": "Elite detected",
-				"trans": "Elitní jednotka detekována"
-			},
-			"2": {
-				"eng": "Strong signal",
-				"trans": "Silný signál"
-			},
-			"3": {
-				"eng": "Almost locked on",
-				"trans": "Téměř zaměřeno"
-			}
-		},
-		"peak": {
-			"1": {
-				"eng": "Signal locked",
-				"trans": "Signál zajištěn"
-			},
-			"2": {
-				"eng": "Elite incoming",
-				"trans": "Přichází elita"
-			},
-			"3": {
-				"eng": "Contact imminent",
-				"trans": "Blížící se kontakt"
-			}
-		},
-		"quiet": {
-			"1": {
-				"eng": "Scanning frequencies...",
-				"trans": "Skenování frekvencí…"
-			},
-			"3": {
-				"eng": "Searching...",
-				"trans": "Vyhledávání..."
-			}
-		},
-		"rising": {
-			"1": {
-				"eng": "Skilled talent nearby",
-				"trans": "Zkušený talent poblíž"
-			},
-			"2": {
-				"eng": "Signal strengthening",
-				"trans": "Zesílení signálu"
-			},
-			"3": {
-				"eng": "Someone interesting...",
-				"trans": "Někdo zajímavý..."
 			}
 		}
 	},

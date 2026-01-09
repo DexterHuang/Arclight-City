@@ -12311,6 +12311,90 @@
 			"trans": "折扣"
 		}
 	},
+	"signalStrength": {
+		"info": {
+			"eng": "Signal increases only by recruiting mercenaries.",
+			"trans": "訊號只能透過招募傭兵提升。"
+		},
+		"status": {
+			"building": {
+				"v1": {
+					"1": {
+						"eng": "Chatter detected",
+						"trans": "偵測到通訊"
+					},
+					"2": {
+						"eng": "Names noted",
+						"trans": "已記錄名稱"
+					},
+					"3": {
+						"eng": "Signal building",
+						"trans": "訊號建造"
+					}
+				}
+			},
+			"hot": {
+				"v1": {
+					"1": {
+						"eng": "Elite presence",
+						"trans": "精英存在"
+					},
+					"2": {
+						"eng": "Strong resonance",
+						"trans": "強共振"
+					},
+					"3": {
+						"eng": "Lock pending",
+						"trans": "鎖定中"
+					}
+				}
+			},
+			"peak": {
+				"v1": {
+					"1": {
+						"eng": "Signal locked",
+						"trans": "訊號鎖定"
+					},
+					"2": {
+						"eng": "Elite ready",
+						"trans": "精英已就緒"
+					},
+					"3": {
+						"eng": "Contact imminent",
+						"trans": "即將接觸"
+					}
+				}
+			},
+			"quiet": {
+				"v1": {
+					"1": {
+						"eng": "Online",
+						"trans": "線上"
+					},
+					"2": {
+						"eng": "Signal active",
+						"trans": "訊號已啟動"
+					}
+				}
+			},
+			"rising": {
+				"v1": {
+					"1": {
+						"eng": "Talent in range",
+						"trans": "天賦在射程內"
+					},
+					"2": {
+						"eng": "Signal strong",
+						"trans": "訊號強"
+					},
+					"3": {
+						"eng": "Interesting lead",
+						"trans": "有趣的線索"
+					}
+				}
+			}
+		}
+	},
 	"socialMedia": {
 		"mention": {
 			"eng": "${npc} has mentioned you in a Chirp post",
@@ -14372,74 +14456,6 @@
 			"name": {
 				"eng": "Standard Contract",
 				"trans": "標準合約"
-			}
-		}
-	},
-	"whisperFrequency": {
-		"building": {
-			"1": {
-				"eng": "Picking up chatter",
-				"trans": "偵測對話"
-			},
-			"2": {
-				"eng": "Names mentioned",
-				"trans": "提到的名字"
-			},
-			"3": {
-				"eng": "Signal growing",
-				"trans": "訊號增強中"
-			}
-		},
-		"hot": {
-			"1": {
-				"eng": "Elite detected",
-				"trans": "偵測到精英"
-			},
-			"2": {
-				"eng": "Strong signal",
-				"trans": "訊號強"
-			},
-			"3": {
-				"eng": "Almost locked on",
-				"trans": "即將鎖定"
-			}
-		},
-		"peak": {
-			"1": {
-				"eng": "Signal locked",
-				"trans": "訊號鎖定"
-			},
-			"2": {
-				"eng": "Elite incoming",
-				"trans": "精英來襲"
-			},
-			"3": {
-				"eng": "Contact imminent",
-				"trans": "接觸臨近"
-			}
-		},
-		"quiet": {
-			"1": {
-				"eng": "Scanning frequencies...",
-				"trans": "掃描頻率…"
-			},
-			"3": {
-				"eng": "Searching...",
-				"trans": "搜尋中..."
-			}
-		},
-		"rising": {
-			"1": {
-				"eng": "Skilled talent nearby",
-				"trans": "附近熟練人才"
-			},
-			"2": {
-				"eng": "Signal strengthening",
-				"trans": "訊號強化"
-			},
-			"3": {
-				"eng": "Someone interesting...",
-				"trans": "有趣的人…"
 			}
 		}
 	},

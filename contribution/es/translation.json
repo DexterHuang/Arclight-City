@@ -12311,6 +12311,90 @@
 			"trans": "Descuento"
 		}
 	},
+	"signalStrength": {
+		"info": {
+			"eng": "Signal increases only by recruiting mercenaries.",
+			"trans": "La señal aumenta solo al contratar mercenarios."
+		},
+		"status": {
+			"building": {
+				"v1": {
+					"1": {
+						"eng": "Chatter detected",
+						"trans": "Chatter detectado"
+					},
+					"2": {
+						"eng": "Names noted",
+						"trans": "Nombres anotados"
+					},
+					"3": {
+						"eng": "Signal building",
+						"trans": "Construcción de señales"
+					}
+				}
+			},
+			"hot": {
+				"v1": {
+					"1": {
+						"eng": "Elite presence",
+						"trans": "Presencia de élite"
+					},
+					"2": {
+						"eng": "Strong resonance",
+						"trans": "Resonancia intensa"
+					},
+					"3": {
+						"eng": "Lock pending",
+						"trans": "Bloqueo pendiente"
+					}
+				}
+			},
+			"peak": {
+				"v1": {
+					"1": {
+						"eng": "Signal locked",
+						"trans": "Señal bloqueada"
+					},
+					"2": {
+						"eng": "Elite ready",
+						"trans": "Listo para la élite"
+					},
+					"3": {
+						"eng": "Contact imminent",
+						"trans": "Contacto inminente"
+					}
+				}
+			},
+			"quiet": {
+				"v1": {
+					"1": {
+						"eng": "Online",
+						"trans": "Conectado"
+					},
+					"2": {
+						"eng": "Signal active",
+						"trans": "Señal activa"
+					}
+				}
+			},
+			"rising": {
+				"v1": {
+					"1": {
+						"eng": "Talent in range",
+						"trans": "Talento en rango"
+					},
+					"2": {
+						"eng": "Signal strong",
+						"trans": "Señal fuerte"
+					},
+					"3": {
+						"eng": "Interesting lead",
+						"trans": "Pista interesante"
+					}
+				}
+			}
+		}
+	},
 	"socialMedia": {
 		"mention": {
 			"eng": "${npc} has mentioned you in a Chirp post",
@@ -14372,74 +14456,6 @@
 			"name": {
 				"eng": "Standard Contract",
 				"trans": "Contrato Estándar"
-			}
-		}
-	},
-	"whisperFrequency": {
-		"building": {
-			"1": {
-				"eng": "Picking up chatter",
-				"trans": "Escuchando la transmisión"
-			},
-			"2": {
-				"eng": "Names mentioned",
-				"trans": "Nombres mencionados"
-			},
-			"3": {
-				"eng": "Signal growing",
-				"trans": "Señal en aumento"
-			}
-		},
-		"hot": {
-			"1": {
-				"eng": "Elite detected",
-				"trans": "Elite detectado"
-			},
-			"2": {
-				"eng": "Strong signal",
-				"trans": "Señal fuerte"
-			},
-			"3": {
-				"eng": "Almost locked on",
-				"trans": "Casi bloqueado"
-			}
-		},
-		"peak": {
-			"1": {
-				"eng": "Signal locked",
-				"trans": "Señal bloqueada"
-			},
-			"2": {
-				"eng": "Elite incoming",
-				"trans": "Elite en camino"
-			},
-			"3": {
-				"eng": "Contact imminent",
-				"trans": "Contacto inminente"
-			}
-		},
-		"quiet": {
-			"1": {
-				"eng": "Scanning frequencies...",
-				"trans": "Escaneando frecuencias…"
-			},
-			"3": {
-				"eng": "Searching...",
-				"trans": "Buscando..."
-			}
-		},
-		"rising": {
-			"1": {
-				"eng": "Skilled talent nearby",
-				"trans": "Talento cualificado cercano"
-			},
-			"2": {
-				"eng": "Signal strengthening",
-				"trans": "Fortalecimiento de señal"
-			},
-			"3": {
-				"eng": "Someone interesting...",
-				"trans": "Alguien interesante..."
 			}
 		}
 	},

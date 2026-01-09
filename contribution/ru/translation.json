@@ -12311,6 +12311,90 @@
 			"trans": "Скидка"
 		}
 	},
+	"signalStrength": {
+		"info": {
+			"eng": "Signal increases only by recruiting mercenaries.",
+			"trans": "Сигнал повышается только при найме наёмников."
+		},
+		"status": {
+			"building": {
+				"v1": {
+					"1": {
+						"eng": "Chatter detected",
+						"trans": "Обнаружен чат"
+					},
+					"2": {
+						"eng": "Names noted",
+						"trans": "Имена записаны"
+					},
+					"3": {
+						"eng": "Signal building",
+						"trans": "Сигнальная постройка"
+					}
+				}
+			},
+			"hot": {
+				"v1": {
+					"1": {
+						"eng": "Elite presence",
+						"trans": "Элитное присутствие"
+					},
+					"2": {
+						"eng": "Strong resonance",
+						"trans": "Сильный резонанс"
+					},
+					"3": {
+						"eng": "Lock pending",
+						"trans": "Ожидание блокировки"
+					}
+				}
+			},
+			"peak": {
+				"v1": {
+					"1": {
+						"eng": "Signal locked",
+						"trans": "Сигнал заблокирован"
+					},
+					"2": {
+						"eng": "Elite ready",
+						"trans": "Элитно готов"
+					},
+					"3": {
+						"eng": "Contact imminent",
+						"trans": "Контакт надвигается"
+					}
+				}
+			},
+			"quiet": {
+				"v1": {
+					"1": {
+						"eng": "Online",
+						"trans": "Онлайн"
+					},
+					"2": {
+						"eng": "Signal active",
+						"trans": "Сигнал активен"
+					}
+				}
+			},
+			"rising": {
+				"v1": {
+					"1": {
+						"eng": "Talent in range",
+						"trans": "Талант в зоне действия"
+					},
+					"2": {
+						"eng": "Signal strong",
+						"trans": "Сильный сигнал"
+					},
+					"3": {
+						"eng": "Interesting lead",
+						"trans": "Интересный след"
+					}
+				}
+			}
+		}
+	},
 	"socialMedia": {
 		"mention": {
 			"eng": "${npc} has mentioned you in a Chirp post",
@@ -14372,74 +14456,6 @@
 			"name": {
 				"eng": "Standard Contract",
 				"trans": "Стандартный договор"
-			}
-		}
-	},
-	"whisperFrequency": {
-		"building": {
-			"1": {
-				"eng": "Picking up chatter",
-				"trans": "Перехват сообщений"
-			},
-			"2": {
-				"eng": "Names mentioned",
-				"trans": "Упомянутые имена"
-			},
-			"3": {
-				"eng": "Signal growing",
-				"trans": "Сигнал усиливается"
-			}
-		},
-		"hot": {
-			"1": {
-				"eng": "Elite detected",
-				"trans": "Обнаружена элита"
-			},
-			"2": {
-				"eng": "Strong signal",
-				"trans": "Сильный сигнал"
-			},
-			"3": {
-				"eng": "Almost locked on",
-				"trans": "Почти зафиксировано"
-			}
-		},
-		"peak": {
-			"1": {
-				"eng": "Signal locked",
-				"trans": "Сигнал заблокирован"
-			},
-			"2": {
-				"eng": "Elite incoming",
-				"trans": "Элитные приближаются"
-			},
-			"3": {
-				"eng": "Contact imminent",
-				"trans": "Контакт надвигается"
-			}
-		},
-		"quiet": {
-			"1": {
-				"eng": "Scanning frequencies...",
-				"trans": "Сканирование частот..."
-			},
-			"3": {
-				"eng": "Searching...",
-				"trans": "Поиск…"
-			}
-		},
-		"rising": {
-			"1": {
-				"eng": "Skilled talent nearby",
-				"trans": "Талантливый персонаж рядом"
-			},
-			"2": {
-				"eng": "Signal strengthening",
-				"trans": "Усиление сигнала"
-			},
-			"3": {
-				"eng": "Someone interesting...",
-				"trans": "Кто-то интересный..."
 			}
 		}
 	},
