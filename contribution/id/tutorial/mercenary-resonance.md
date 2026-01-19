@@ -4,7 +4,7 @@
 
 ## Di mana saya bisa menemukan Resonansi Neural?
 
-Anda dapat mengakses Resonansi Neural dari **Red Bar**. Cari opsi untuk berbicara dengan **Siren**, yang berada di bilik VIP. Dialah yang melakukan prosedur resonansi.
+Anda dapat mengakses Resonansi Neural dari **Bar Merah**. Cari opsi untuk berbicara dengan **Siren**, yang berada di bilik VIP. Dialah yang melakukan prosedur resonansi.
 
 ## Bagaimana cara kerja Resonansi Neural?
 
@@ -29,7 +29,7 @@ Setiap level kebangkitan memberikan peningkatan kekuatan. Ketika Anda mencapai +
 
 ## Bagaimana cara melakukan Resonansi Neural?
 
-1. Kunjungi **Bilik Siren** di Red Bar
+1. Kunjungi **Bilik Siren** di Bar Merah
 2. Ketuk `Mulai Resonansi Neural`
 3. Pilih tentara bayaran **Target** Anda (yang ingin Anda perkuat)
 4. Pilih tentara bayaran **Tubuh Resonansi** Anda (harus memiliki kemampuan yang sama dengan target)

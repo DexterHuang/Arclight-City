@@ -111,7 +111,7 @@
 			},
 			"name": {
 				"eng": "Single Target Attack",
-				"trans": "Single Target Attack"
+				"trans": "單體攻擊"
 			},
 			"triggered": {
 				"eng": "${playerName} Attacked for ${amount} damage",
@@ -121,7 +121,7 @@
 		"attackGroup": {
 			"name": {
 				"eng": "Group Attack",
-				"trans": "Group Attack"
+				"trans": "群攻"
 			}
 		},
 		"attack_group": {
@@ -137,7 +137,7 @@
 			},
 			"name": {
 				"eng": "Single Target Burn",
-				"trans": "Single Target Burn"
+				"trans": "單體燃燒"
 			},
 			"triggered": {
 				"eng": "${merc} burns ${enemy}, ${enemy} received ${damage} damage.",
@@ -151,7 +151,7 @@
 			},
 			"name": {
 				"eng": "Group Burn",
-				"trans": "Group Burn"
+				"trans": "全體灼傷"
 			},
 			"triggered": {
 				"eng": "${merc} burns all enemies, dealt ${damage} damage each",
@@ -165,7 +165,7 @@
 			},
 			"name": {
 				"eng": "Single Target Heal",
-				"trans": "Single Target Heal"
+				"trans": "單體治療"
 			},
 			"triggered": {
 				"eng": "${merc} Healed ${playerName} for ${amount} health",
@@ -179,7 +179,7 @@
 			},
 			"name": {
 				"eng": "Group Heal",
-				"trans": "Group Heal"
+				"trans": "全隊治療"
 			},
 			"triggered": {
 				"eng": "${merc} healed the team for ${amount} health",
@@ -193,7 +193,7 @@
 			},
 			"name": {
 				"eng": "Single Target Poison",
-				"trans": "Single Target Poison"
+				"trans": "單體中毒"
 			},
 			"triggered": {
 				"eng": "${merc} poisoned ${enemy}, ${enemy} received ${damage} damage.",
@@ -207,7 +207,7 @@
 			},
 			"name": {
 				"eng": "Group Poison",
-				"trans": "Group Poison"
+				"trans": "全體中毒"
 			},
 			"triggered": {
 				"eng": "${merc} poisoned all enemies, dealt ${damage} damage each.",
@@ -221,7 +221,7 @@
 			},
 			"name": {
 				"eng": "Single Target Shield",
-				"trans": "Single Target Shield"
+				"trans": "單體護盾"
 			},
 			"triggered": {
 				"eng": "${merc} shielded ${playerName} for ${amount} health",
@@ -235,7 +235,7 @@
 			},
 			"name": {
 				"eng": "Group Shield",
-				"trans": "Group Shield"
+				"trans": "團體護盾"
 			},
 			"triggered": {
 				"eng": "${merc} shields the team for ${amount}",
@@ -8134,7 +8134,7 @@
 		},
 		"mercenaryResonance": {
 			"eng": "Mercenary Resonance",
-			"trans": "Mercenary Resonance"
+			"trans": "傭兵共振"
 		},
 		"netrun": {
 			"eng": "NetRun",
@@ -8424,7 +8424,7 @@
 			"error": {
 				"abilityMismatch": {
 					"eng": "Both mercenaries must have the same ability to resonate",
-					"trans": "Both mercenaries must have the same ability to resonate"
+					"trans": "兩名傭兵必須具備相同的共振能力"
 				}
 			}
 		},
@@ -8680,211 +8680,211 @@
 	"mercenaryResonancePage": {
 		"awakenPath": {
 			"eng": "AWAKENING PATH",
-			"trans": "AWAKENING PATH"
+			"trans": "覺醒之路"
 		},
 		"catalyst": {
 			"eng": "CATALYST",
-			"trans": "CATALYST"
+			"trans": "共振體"
 		},
 		"confirm": {
 			"cancel": {
 				"eng": "ABORT",
-				"trans": "ABORT"
+				"trans": "中止"
 			},
 			"confirm": {
 				"eng": "EXECUTE",
-				"trans": "EXECUTE"
+				"trans": "執行"
 			},
 			"prompt": {
 				"eng": "Proceed with resonance?",
-				"trans": "Proceed with resonance?"
+				"trans": "是否進行共振？"
 			},
 			"title": {
 				"eng": "CONFIRM RESONANCE",
-				"trans": "CONFIRM RESONANCE"
+				"trans": "確認共振"
 			},
 			"warning1": {
 				"eng": "WARNING: This action is irreversible",
-				"trans": "WARNING: This action is irreversible"
+				"trans": "警告：此操作不可逆"
 			},
 			"warning2": {
 				"eng": "Catalyst unit will be permanently consumed",
-				"trans": "Catalyst unit will be permanently consumed"
+				"trans": "催化劑單位將被永久消耗"
 			}
 		},
 		"current": {
 			"eng": "CURRENT",
-			"trans": "CURRENT"
+			"trans": "目前"
 		},
 		"empty": {
 			"description": {
 				"eng": "You need at least one 5-star mercenary to use Neural Resonance. Recruit more mercenaries to find duplicates with matching abilities.",
-				"trans": "You need at least one 5-star mercenary to use Neural Resonance. Recruit more mercenaries to find duplicates with matching abilities."
+				"trans": "至少需要一名五星傭兵才能使用神經共振。請多招募傭兵，尋找擁有相同技能的重複角色。"
 			},
 			"title": {
 				"eng": "NO ELIGIBLE UNITS",
-				"trans": "NO ELIGIBLE UNITS"
+				"trans": "無合格單位"
 			}
 		},
 		"mythicAscension": {
 			"description": {
 				"eng": "This resonance will transform your mercenary into MYTHIC tier",
-				"trans": "This resonance will transform your mercenary into MYTHIC tier"
+				"trans": "此共振將把你的傭兵升至神話等級"
 			},
 			"title": {
 				"eng": "MYTHIC ASCENSION READY",
-				"trans": "MYTHIC ASCENSION READY"
+				"trans": "神話升級已就緒"
 			}
 		},
 		"noMatching": {
 			"eng": "No compatible units",
-			"trans": "No compatible units"
+			"trans": "無相容裝置"
 		},
 		"onlyOneMerc": {
 			"eng": "Need 2+ Epic mercs",
-			"trans": "Need 2+ Epic mercs"
+			"trans": "需 2+ 名史詩傭兵"
 		},
 		"projected": {
 			"eng": "PROJECTED",
-			"trans": "PROJECTED"
+			"trans": "預測"
 		},
 		"resonanceProjection": {
 			"eng": "RESONANCE PROJECTION",
-			"trans": "RESONANCE PROJECTION"
+			"trans": "共振預測"
 		},
 		"resonate": {
 			"disabled": {
 				"eng": "[ AWAITING LINK ]",
-				"trans": "[ AWAITING LINK ]"
+				"trans": "[ 等待連結 ]"
 			},
 			"ready": {
 				"eng": ">>> INITIATE RESONANCE <<<",
-				"trans": ">>> INITIATE RESONANCE <<<"
+				"trans": ">>> 啟動共振 <<<"
 			}
 		},
 		"resourceRecovery": {
 			"eng": "RESOURCE RECOVERY",
-			"trans": "RESOURCE RECOVERY"
+			"trans": "資源恢復"
 		},
 		"selectCatalyst": {
 			"description": {
 				"eng": "Choose a mercenary with ${ability} ability to sacrifice",
-				"trans": "Choose a mercenary with ${ability} ability to sacrifice"
+				"trans": "選擇具備 ${ability} 能力的傭兵進行犧牲"
 			},
 			"empty": {
 				"eng": "Select matching unit",
-				"trans": "Select matching unit"
+				"trans": "選擇匹配單位"
 			},
 			"title": {
 				"eng": "Select Catalyst",
-				"trans": "Select Catalyst"
+				"trans": "選擇共振體"
 			}
 		},
 		"selectTarget": {
 			"description": {
 				"eng": "Choose the mercenary you want to awaken",
-				"trans": "Choose the mercenary you want to awaken"
+				"trans": "挑選你想喚醒的傭兵"
 			},
 			"empty": {
 				"eng": "Select unit for awakening",
-				"trans": "Select unit for awakening"
+				"trans": "選擇要覺醒的單位"
 			},
 			"title": {
 				"eng": "Select Target",
-				"trans": "Select Target"
+				"trans": "選擇目標"
 			}
 		},
 		"selectTargetFirst": {
 			"eng": "Select target first",
-			"trans": "Select target first"
+			"trans": "先選擇目標"
 		},
 		"stat": {
 			"ability": {
 				"eng": "ABILITY",
-				"trans": "ABILITY"
+				"trans": "技能"
 			},
 			"armor": {
 				"eng": "ARMOR",
-				"trans": "ARMOR"
+				"trans": "裝甲"
 			},
 			"attack": {
 				"eng": "ATK DMG",
-				"trans": "ATK DMG"
+				"trans": "攻擊傷害"
 			},
 			"health": {
 				"eng": "HEALTH",
-				"trans": "HEALTH"
+				"trans": "生命"
 			}
 		},
 		"sys": {
 			"awaitingCatalyst": {
 				"eng": "Target locked. Awaiting catalyst...",
-				"trans": "Target locked. Awaiting catalyst..."
+				"trans": "目標已鎖定。等待共振體..."
 			},
 			"awaitingTarget": {
 				"eng": "Awaiting target selection...",
-				"trans": "Awaiting target selection..."
+				"trans": "正等待目標選擇..."
 			},
 			"init": {
 				"eng": "Neural link interface ready...",
-				"trans": "Neural link interface ready..."
+				"trans": "神經連結介面已準備好…"
 			},
 			"noCatalyst": {
 				"eng": "WARNING: No compatible catalyst found. Requires ${ability} ability.",
-				"trans": "WARNING: No compatible catalyst found. Requires ${ability} ability."
+				"trans": "警告：未找到兼容共振體。需要${ability}能力。"
 			},
 			"ready": {
 				"eng": "Neural link ready. Initiate when ready.",
-				"trans": "Neural link ready. Initiate when ready."
+				"trans": "神經連結已準備好。隨時啟動。"
 			}
 		},
 		"target": {
 			"eng": "TARGET",
-			"trans": "TARGET"
+			"trans": "目標"
 		},
 		"terminalTitle": {
 			"eng": "NEURAL RESONANCE INTERFACE",
-			"trans": "NEURAL RESONANCE INTERFACE"
+			"trans": "神經共振介面"
 		}
 	},
 	"mercenaryResonanceResultPopup": {
 		"awakenTitle": {
 			"eng": "RESONANCE COMPLETE",
-			"trans": "RESONANCE COMPLETE"
+			"trans": "共振完成"
 		},
 		"mythicTitle1": {
 			"eng": "MYTHIC",
-			"trans": "MYTHIC"
+			"trans": "神話"
 		},
 		"mythicTitle2": {
 			"eng": "ASCENSION",
-			"trans": "ASCENSION"
+			"trans": "升階"
 		},
 		"resourcesReceived": {
 			"eng": "RESOURCES RECOVERED",
-			"trans": "RESOURCES RECOVERED"
+			"trans": "回收資源"
 		},
 		"result": {
 			"eng": "AWAKENING RESULT",
-			"trans": "AWAKENING RESULT"
+			"trans": "覺醒結果"
 		},
 		"sys": {
 			"protocol": {
 				"eng": "Awakening protocol finalized",
-				"trans": "Awakening protocol finalized"
+				"trans": "覺醒協議已完成"
 			},
 			"status": {
 				"eng": "STATUS: OPERATIONAL",
-				"trans": "STATUS: OPERATIONAL"
+				"trans": "狀態: 運行中"
 			},
 			"sync": {
 				"eng": "Neural synchronization successful",
-				"trans": "Neural synchronization successful"
+				"trans": "神經同步成功"
 			}
 		},
 		"tapToContinue": {
 			"eng": "TAP TO CONTINUE",
-			"trans": "TAP TO CONTINUE"
+			"trans": "點擊繼續"
 		}
 	},
 	"mercenarySelectPopup": {
@@ -10083,7 +10083,7 @@
 			},
 			"resonanceButton": {
 				"eng": "Talk to Siren in the VIP booth",
-				"trans": "Talk to Siren in the VIP booth"
+				"trans": "在VIP包厢與賽蓮對話"
 			}
 		},
 		"blackMarket": {
@@ -10377,7 +10377,7 @@
 			},
 			"resonance": {
 				"eng": "Neural Resonance",
-				"trans": "Neural Resonance"
+				"trans": "神經共振"
 			},
 			"shop": {
 				"eng": "Shop",
@@ -10541,7 +10541,7 @@
 		"resonanceMaster": {
 			"description": {
 				"eng": "The VIP booth in the Red Bar where Siren holds court, wreathed in shadow and expensive smoke",
-				"trans": "The VIP booth in the Red Bar where Siren holds court, wreathed in shadow and expensive smoke"
+				"trans": "紅酒吧內的VIP包廂：賽蓮掌權之地，四周籠罩著陰影與高級煙雲"
 			},
 			"greetings": {
 				"eng": [
@@ -10553,21 +10553,21 @@
 					"I was bored until you walked in. Let's see if that changes."
 				],
 				"trans": [
-					"Mmm... I can smell the potential on you. Sit.",
-					"Another one seeking transcendence. How delicious.",
-					"They call it sacrifice. I call it... evolution.",
-					"Your mercenaries are screaming to become more. I can hear them.",
-					"Don't waste my time with small talk. Show me what you've brought.",
-					"I was bored until you walked in. Let's see if that changes."
+					"嗯……我能嗅到你身上的潛力。請坐。",
+					"另一位追尋超越，真是美味。",
+					"他們叫它犧牲，我叫它...進化。",
+					"你的傭兵正大聲喊叫，想要更多。我能聽到他們的聲音。",
+					"不要跟我閒聊，直接展示你帶來的東西。",
+					"我一直很無聊，直到你走進來。看看這樣能否改變。"
 				]
 			},
 			"locationName": {
 				"eng": "Siren's Booth",
-				"trans": "Siren's Booth"
+				"trans": "賽蓮的展位"
 			},
 			"npcName": {
 				"eng": "Siren",
-				"trans": "Siren"
+				"trans": "賽蓮"
 			}
 		},
 		"shopButton": {
@@ -11901,89 +11901,89 @@
 		"button": {
 			"dismiss": {
 				"eng": "DISMISS",
-				"trans": "DISMISS"
+				"trans": "關閉"
 			},
 			"view": {
 				"eng": "VIEW RESULT",
-				"trans": "VIEW RESULT"
+				"trans": "查看結果"
 			}
 		},
 		"catalyst": {
 			"eng": "CATALYST",
-			"trans": "CATALYST"
+			"trans": "共振體"
 		},
 		"complete": {
 			"eng": "COMPLETE",
-			"trans": "COMPLETE"
+			"trans": "完成"
 		},
 		"progress": {
 			"eng": "MERGING",
-			"trans": "MERGING"
+			"trans": "合併中"
 		},
 		"target": {
 			"eng": "TARGET",
-			"trans": "TARGET"
+			"trans": "目標"
 		},
 		"terminal": {
 			"1": {
 				"eng": "> initializing neural bridge...",
-				"trans": "> initializing neural bridge..."
+				"trans": "> 正在初始化神經橋接..."
 			},
 			"2": {
 				"eng": "> synchronizing combat data...",
-				"trans": "> synchronizing combat data..."
+				"trans": "> 正在同步戰鬥資料…"
 			},
 			"3": {
 				"eng": "> transferring essence...",
-				"trans": "> transferring essence..."
+				"trans": "正在轉移精華..."
 			},
 			"4": {
 				"eng": "> integrating protocols...",
-				"trans": "> integrating protocols..."
+				"trans": "> 正在整合協議..."
 			},
 			"mythic": {
 				"1": {
 					"eng": "> MYTHIC PROTOCOL ENGAGED...",
-					"trans": "> MYTHIC PROTOCOL ENGAGED..."
+					"trans": "> 傳說協議已啟動..."
 				},
 				"2": {
 					"eng": "> transcendence sequence initiated...",
-					"trans": "> transcendence sequence initiated..."
+					"trans": "> 超越序列已啟動..."
 				},
 				"3": {
 					"eng": "> neural capacity EXCEEDED...",
-					"trans": "> neural capacity EXCEEDED..."
+					"trans": "> 神經容量已超過..."
 				},
 				"4": {
 					"eng": "> ascending beyond mortal limits...",
-					"trans": "> ascending beyond mortal limits..."
+					"trans": "超越凡人極限..."
 				}
 			},
 			"mythicSuccess": {
 				"eng": "MYTHIC TRANSCENDENCE ACHIEVED",
-				"trans": "MYTHIC TRANSCENDENCE ACHIEVED"
+				"trans": "神話級突破完成"
 			},
 			"success": {
 				"eng": "RESONANCE SUCCESSFUL",
-				"trans": "RESONANCE SUCCESSFUL"
+				"trans": "共振成功"
 			},
 			"title": {
 				"eng": "SYS.LOG",
-				"trans": "SYS.LOG"
+				"trans": "系統日誌"
 			}
 		},
 		"title": {
 			"complete": {
 				"eng": "RESONANCE COMPLETE",
-				"trans": "RESONANCE COMPLETE"
+				"trans": "共振完成"
 			},
 			"default": {
 				"eng": "NEURAL RESONANCE",
-				"trans": "NEURAL RESONANCE"
+				"trans": "神經共振"
 			},
 			"error": {
 				"eng": "SYNC FAILED",
-				"trans": "SYNC FAILED"
+				"trans": "同步失敗"
 			}
 		}
 	},

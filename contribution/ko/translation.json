@@ -109,9 +109,19 @@
 				"eng": "Attacks the enemy for ${amount} health points",
 				"trans": "적을 ${amount}만큼 공격합니다"
 			},
+			"name": {
+				"eng": "Single Target Attack",
+				"trans": "단일 대상 공격"
+			},
 			"triggered": {
 				"eng": "${playerName} Attacked for ${amount} damage",
 				"trans": "${playerName}이(가) ${amount}의 데미지로 공격했습니다"
+			}
+		},
+		"attackGroup": {
+			"name": {
+				"eng": "Group Attack",
+				"trans": "그룹 공격"
 			}
 		},
 		"attack_group": {
@@ -125,6 +135,10 @@
 				"eng": "Burns targeted enemy for ${amount} damage for ${turns} turns",
 				"trans": "적을 ${amount}의 데미지로 ${turns}턴 동안 태웁니다"
 			},
+			"name": {
+				"eng": "Single Target Burn",
+				"trans": "단일 대상 불태우기"
+			},
 			"triggered": {
 				"eng": "${merc} burns ${enemy}, ${enemy} received ${damage} damage.",
 				"trans": "${merc}이(가) ${enemy}를 불태웠습니다, ${enemy}은(는) ${damage}의 피해를 입었습니다."
@@ -134,6 +148,10 @@
 			"description": {
 				"eng": "Burns all enemies for ${amount} damage for ${turns} turns",
 				"trans": "모든 적을 ${amount}의 데미지로 ${turns}턴 동안 태웁니다"
+			},
+			"name": {
+				"eng": "Group Burn",
+				"trans": "집단 화상"
 			},
 			"triggered": {
 				"eng": "${merc} burns all enemies, dealt ${damage} damage each",
@@ -145,6 +163,10 @@
 				"eng": "Heals your character for ${amount} health point",
 				"trans": "캐릭터의 체력을 ${amount}만큼 회복합니다"
 			},
+			"name": {
+				"eng": "Single Target Heal",
+				"trans": "단일 대상 치유"
+			},
 			"triggered": {
 				"eng": "${merc} Healed ${playerName} for ${amount} health",
 				"trans": "${merc}은(는) ${playerName}의 체력을 ${amount}회복했습니다"
@@ -154,6 +176,10 @@
 			"description": {
 				"eng": "Heals your team for ${amount} health",
 				"trans": "팀을 ${amount}회복시킵니다"
+			},
+			"name": {
+				"eng": "Group Heal",
+				"trans": "그룹 힐"
 			},
 			"triggered": {
 				"eng": "${merc} healed the team for ${amount} health",
@@ -165,6 +191,10 @@
 				"eng": "Poisons the enemy for ${amount} for ${turn} turns",
 				"trans": "적을 ${amount}만큼 ${turn}턴 동안 중독시킵니다"
 			},
+			"name": {
+				"eng": "Single Target Poison",
+				"trans": "단일 타깃 독"
+			},
 			"triggered": {
 				"eng": "${merc} poisoned ${enemy}, ${enemy} received ${damage} damage.",
 				"trans": "${merc}이(가) ${enemy}에게 독을 퍼뜨려, ${enemy}은(는) ${damage}의 피해를 입었습니다."
@@ -174,6 +204,10 @@
 			"description": {
 				"eng": "Poisons all enemies for ${amount} for ${turns} turns",
 				"trans": "${amount}의 독으로 모든 적을 ${turns}턴 동안 중독시킵니다"
+			},
+			"name": {
+				"eng": "Group Poison",
+				"trans": "그룹 독"
 			},
 			"triggered": {
 				"eng": "${merc} poisoned all enemies, dealt ${damage} damage each.",
@@ -185,6 +219,10 @@
 				"eng": "Recharge your character's shield for ${amount}",
 				"trans": "캐릭터의 방어막을 ${amount}충전합니다"
 			},
+			"name": {
+				"eng": "Single Target Shield",
+				"trans": "단일 대상 방어막"
+			},
 			"triggered": {
 				"eng": "${merc} shielded ${playerName} for ${amount} health",
 				"trans": "${merc}가 ${playerName}를 ${amount}만큼 보호했습니다"
@@ -194,6 +232,10 @@
 			"description": {
 				"eng": "Shields your team for ${amount} health",
 				"trans": "팀의 방어막을 ${amount}충전합니다"
+			},
+			"name": {
+				"eng": "Group Shield",
+				"trans": "팀 보호막"
 			},
 			"triggered": {
 				"eng": "${merc} shields the team for ${amount}",
@@ -8090,6 +8132,10 @@
 			"eng": "Mercenary",
 			"trans": "용병"
 		},
+		"mercenaryResonance": {
+			"eng": "Mercenary Resonance",
+			"trans": "용병 공명"
+		},
 		"netrun": {
 			"eng": "NetRun",
 			"trans": "넷런"
@@ -8374,6 +8420,14 @@
 				"trans": "너무 많은 용병을 가지고 있습니다. 더 좋은 아파트를 구해서 공간을 업그레이드할 수 있습니다."
 			}
 		},
+		"resonance": {
+			"error": {
+				"abilityMismatch": {
+					"eng": "Both mercenaries must have the same ability to resonate",
+					"trans": "두 용병 모두 같은 공명 능력을 가져야 합니다."
+				}
+			}
+		},
 		"upgradeLevelError": {
 			"eng": "Level up to increase your mercenary's max level",
 			"trans": "레벨 업하여 용병의 최대 레벨을 높이세요"
@@ -8621,6 +8675,216 @@
 		"title": {
 			"eng": "Mercenaries",
 			"trans": "용병"
+		}
+	},
+	"mercenaryResonancePage": {
+		"awakenPath": {
+			"eng": "AWAKENING PATH",
+			"trans": "각성의 길"
+		},
+		"catalyst": {
+			"eng": "CATALYST",
+			"trans": "공명체"
+		},
+		"confirm": {
+			"cancel": {
+				"eng": "ABORT",
+				"trans": "취소"
+			},
+			"confirm": {
+				"eng": "EXECUTE",
+				"trans": "실행"
+			},
+			"prompt": {
+				"eng": "Proceed with resonance?",
+				"trans": "공명을 진행하시겠습니까?"
+			},
+			"title": {
+				"eng": "CONFIRM RESONANCE",
+				"trans": "공명 확인"
+			},
+			"warning1": {
+				"eng": "WARNING: This action is irreversible",
+				"trans": "경고: 이 행동은 되돌릴 수 없습니다."
+			},
+			"warning2": {
+				"eng": "Catalyst unit will be permanently consumed",
+				"trans": "공명체 유닛이 영구적으로 소모됩니다."
+			}
+		},
+		"current": {
+			"eng": "CURRENT",
+			"trans": "현재"
+		},
+		"empty": {
+			"description": {
+				"eng": "You need at least one 5-star mercenary to use Neural Resonance. Recruit more mercenaries to find duplicates with matching abilities.",
+				"trans": "신경 공명을 사용하려면 최소 한 명의 5성 용병이 필요합니다. 같은 능력을 가진 중복 용병을 찾으려면 더 많은 용병을 모집하세요."
+			},
+			"title": {
+				"eng": "NO ELIGIBLE UNITS",
+				"trans": "적합한 유닛이 없습니다."
+			}
+		},
+		"mythicAscension": {
+			"description": {
+				"eng": "This resonance will transform your mercenary into MYTHIC tier",
+				"trans": "이 공명으로 당신의 용병이 MYTHIC 티어가 됩니다."
+			},
+			"title": {
+				"eng": "MYTHIC ASCENSION READY",
+				"trans": "신화 승급 준비 완료"
+			}
+		},
+		"noMatching": {
+			"eng": "No compatible units",
+			"trans": "호환 가능한 장치가 없습니다"
+		},
+		"onlyOneMerc": {
+			"eng": "Need 2+ Epic mercs",
+			"trans": "에픽 용병 2명 이상이 필요합니다."
+		},
+		"projected": {
+			"eng": "PROJECTED",
+			"trans": "투사됨"
+		},
+		"resonanceProjection": {
+			"eng": "RESONANCE PROJECTION",
+			"trans": "공명 예측"
+		},
+		"resonate": {
+			"disabled": {
+				"eng": "[ AWAITING LINK ]",
+				"trans": "[ 링크 대기 중 ]"
+			},
+			"ready": {
+				"eng": ">>> INITIATE RESONANCE <<<",
+				"trans": ">>> 공명 시작 <<<"
+			}
+		},
+		"resourceRecovery": {
+			"eng": "RESOURCE RECOVERY",
+			"trans": "리소스 회수"
+		},
+		"selectCatalyst": {
+			"description": {
+				"eng": "Choose a mercenary with ${ability} ability to sacrifice",
+				"trans": "${ability} 능력으로 희생 가능한 용병을 선택하세요."
+			},
+			"empty": {
+				"eng": "Select matching unit",
+				"trans": "일치하는 유닛 선택"
+			},
+			"title": {
+				"eng": "Select Catalyst",
+				"trans": "공명체 선택"
+			}
+		},
+		"selectTarget": {
+			"description": {
+				"eng": "Choose the mercenary you want to awaken",
+				"trans": "각성할 용병을 선택하세요"
+			},
+			"empty": {
+				"eng": "Select unit for awakening",
+				"trans": "각성할 유닛 선택"
+			},
+			"title": {
+				"eng": "Select Target",
+				"trans": "타깃 선택"
+			}
+		},
+		"selectTargetFirst": {
+			"eng": "Select target first",
+			"trans": "먼저 대상 선택"
+		},
+		"stat": {
+			"ability": {
+				"eng": "ABILITY",
+				"trans": "스킬"
+			},
+			"armor": {
+				"eng": "ARMOR",
+				"trans": "방어구"
+			},
+			"attack": {
+				"eng": "ATK DMG",
+				"trans": "공격 데미지"
+			},
+			"health": {
+				"eng": "HEALTH",
+				"trans": "체력"
+			}
+		},
+		"sys": {
+			"awaitingCatalyst": {
+				"eng": "Target locked. Awaiting catalyst...",
+				"trans": "타깃 잠금. 카탈리스트 대기 중..."
+			},
+			"awaitingTarget": {
+				"eng": "Awaiting target selection...",
+				"trans": "타깃 선택 대기중…"
+			},
+			"init": {
+				"eng": "Neural link interface ready...",
+				"trans": "신경 링크 인터페이스 준비 완료"
+			},
+			"noCatalyst": {
+				"eng": "WARNING: No compatible catalyst found. Requires ${ability} ability.",
+				"trans": "경고: 호환 가능한 공명체가 없습니다. ${ability} 능력이 필요합니다."
+			},
+			"ready": {
+				"eng": "Neural link ready. Initiate when ready.",
+				"trans": "신경 링크 준비 완료. 준비되면 실행."
+			}
+		},
+		"target": {
+			"eng": "TARGET",
+			"trans": "목표"
+		},
+		"terminalTitle": {
+			"eng": "NEURAL RESONANCE INTERFACE",
+			"trans": "신경 공명 인터페이스"
+		}
+	},
+	"mercenaryResonanceResultPopup": {
+		"awakenTitle": {
+			"eng": "RESONANCE COMPLETE",
+			"trans": "공명 완료"
+		},
+		"mythicTitle1": {
+			"eng": "MYTHIC",
+			"trans": "신화"
+		},
+		"mythicTitle2": {
+			"eng": "ASCENSION",
+			"trans": "승격"
+		},
+		"resourcesReceived": {
+			"eng": "RESOURCES RECOVERED",
+			"trans": "회수 자원"
+		},
+		"result": {
+			"eng": "AWAKENING RESULT",
+			"trans": "각성 결과"
+		},
+		"sys": {
+			"protocol": {
+				"eng": "Awakening protocol finalized",
+				"trans": "각성 프로토콜 완료"
+			},
+			"status": {
+				"eng": "STATUS: OPERATIONAL",
+				"trans": "상태: 가동 중"
+			},
+			"sync": {
+				"eng": "Neural synchronization successful",
+				"trans": "신경 동기화 성공"
+			}
+		},
+		"tapToContinue": {
+			"eng": "TAP TO CONTINUE",
+			"trans": "계속하려면 탭하세요"
 		}
 	},
 	"mercenarySelectPopup": {
@@ -9816,6 +10080,10 @@
 				"trans": [
 					"목표를 완료하면 알려줘 :)"
 				]
+			},
+			"resonanceButton": {
+				"eng": "Talk to Siren in the VIP booth",
+				"trans": "VIP 부스에서 사이렌과 대화"
 			}
 		},
 		"blackMarket": {
@@ -10107,6 +10375,10 @@
 				"eng": "Repair",
 				"trans": "수리"
 			},
+			"resonance": {
+				"eng": "Neural Resonance",
+				"trans": "신경 공명"
+			},
 			"shop": {
 				"eng": "Shop",
 				"trans": "상점"
@@ -10265,6 +10537,38 @@
 		"repairButton": {
 			"eng": "Repair my equipment",
 			"trans": "장비 수리"
+		},
+		"resonanceMaster": {
+			"description": {
+				"eng": "The VIP booth in the Red Bar where Siren holds court, wreathed in shadow and expensive smoke",
+				"trans": "시렌이 통치하는 레드바의 VIP 부스는 그림자와 고급 스모크에 둘러싸여 있다."
+			},
+			"greetings": {
+				"eng": [
+					"Mmm... I can smell the potential on you. Sit.",
+					"Another one seeking transcendence. How delicious.",
+					"They call it sacrifice. I call it... evolution.",
+					"Your mercenaries are screaming to become more. I can hear them.",
+					"Don't waste my time with small talk. Show me what you've brought.",
+					"I was bored until you walked in. Let's see if that changes."
+				],
+				"trans": [
+					"음… 네 안에 잠재력이 느껴져. 앉아.",
+					"초월을 추구하는 또 다른 존재. 얼마나 맛있어.",
+					"그들은 이를 희생이라고 부른다. 나는 그것을… 진화라고 부른다.",
+					"네 용병들이 힘이 늘어나길 소리 지르고 있습니다. 나는 그들의 목소리를 들을 수 있어요.",
+					"잡담으로 내 시간을 낭비하지 마. 네가 가져온 것을 보여줘.",
+					"네가 들어오기 전엔 지루했어. 이제 바뀌는지 보자."
+				]
+			},
+			"locationName": {
+				"eng": "Siren's Booth",
+				"trans": "사이렌 부스"
+			},
+			"npcName": {
+				"eng": "Siren",
+				"trans": "사이렌"
+			}
 		},
 		"shopButton": {
 			"eng": "I want to buy something",
@@ -11591,6 +11895,96 @@
 		"spam": {
 			"eng": "Spam",
 			"trans": "스팸"
+		}
+	},
+	"resonanceAnimation": {
+		"button": {
+			"dismiss": {
+				"eng": "DISMISS",
+				"trans": "닫기"
+			},
+			"view": {
+				"eng": "VIEW RESULT",
+				"trans": "결과 보기"
+			}
+		},
+		"catalyst": {
+			"eng": "CATALYST",
+			"trans": "공명체"
+		},
+		"complete": {
+			"eng": "COMPLETE",
+			"trans": "완료"
+		},
+		"progress": {
+			"eng": "MERGING",
+			"trans": "병합 중"
+		},
+		"target": {
+			"eng": "TARGET",
+			"trans": "목표"
+		},
+		"terminal": {
+			"1": {
+				"eng": "> initializing neural bridge...",
+				"trans": "> 신경 브릿지 초기화 중…"
+			},
+			"2": {
+				"eng": "> synchronizing combat data...",
+				"trans": "> 전투 데이터 동기화 중..."
+			},
+			"3": {
+				"eng": "> transferring essence...",
+				"trans": "> 에센스 전송 중..."
+			},
+			"4": {
+				"eng": "> integrating protocols...",
+				"trans": "프로토콜 통합 중..."
+			},
+			"mythic": {
+				"1": {
+					"eng": "> MYTHIC PROTOCOL ENGAGED...",
+					"trans": "신화 프로토콜 진행 중..."
+				},
+				"2": {
+					"eng": "> transcendence sequence initiated...",
+					"trans": "> 초월 시퀀스가 시작되었습니다..."
+				},
+				"3": {
+					"eng": "> neural capacity EXCEEDED...",
+					"trans": "> 신경 용량 초과..."
+				},
+				"4": {
+					"eng": "> ascending beyond mortal limits...",
+					"trans": "> 인간의 한계를 초월하고 있습니다…"
+				}
+			},
+			"mythicSuccess": {
+				"eng": "MYTHIC TRANSCENDENCE ACHIEVED",
+				"trans": "전설의 초월 달성"
+			},
+			"success": {
+				"eng": "RESONANCE SUCCESSFUL",
+				"trans": "공명 성공"
+			},
+			"title": {
+				"eng": "SYS.LOG",
+				"trans": "시스템 로그"
+			}
+		},
+		"title": {
+			"complete": {
+				"eng": "RESONANCE COMPLETE",
+				"trans": "공명 완료"
+			},
+			"default": {
+				"eng": "NEURAL RESONANCE",
+				"trans": "신경 공명"
+			},
+			"error": {
+				"eng": "SYNC FAILED",
+				"trans": "동기화 실패"
+			}
 		}
 	},
 	"reward": {
@@ -13433,6 +13827,12 @@
 		"unique": {
 			"eng": "Unique",
 			"trans": "유일"
+		}
+	},
+	"tierIndicator": {
+		"mythic": {
+			"eng": "MYTHIC",
+			"trans": "신화"
 		}
 	},
 	"time": {

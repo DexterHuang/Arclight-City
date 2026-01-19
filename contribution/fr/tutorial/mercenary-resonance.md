@@ -4,7 +4,7 @@
 
 ## Où puis-je trouver la Résonance Neurale ?
 
-Vous pouvez accéder à la Résonance Neurale depuis le **Red Bar**. Cherchez l'option pour parler à **Sirène**, qui tient sa cour dans la cabine VIP. C'est elle qui effectue la procédure de résonance.
+Vous pouvez accéder à la Résonance Neurale depuis le **Bar Rouge**. Cherchez l'option pour parler à **Sirène**, qui tient sa cour dans la cabine VIP. C'est elle qui effectue la procédure de résonance.
 
 ## Comment fonctionne la Résonance Neurale ?
 
@@ -29,7 +29,7 @@ Chaque niveau d'éveil fournit un bonus de puissance. Quand vous atteignez +4 et
 
 ## Comment effectuer la Résonance Neurale ?
 
-1. Visitez la **Cabine de Sirène** au Red Bar
+1. Visitez la **Cabine de Sirène** au Bar Rouge
 2. Appuyez sur `Commencer la Résonance Neurale`
 3. Sélectionnez votre mercenaire **Cible** (celui que vous voulez renforcer)
 4. Sélectionnez votre mercenaire **Corps de Résonance** (doit avoir la même capacité que votre cible)

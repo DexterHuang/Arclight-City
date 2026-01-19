@@ -109,9 +109,19 @@
 				"eng": "Attacks the enemy for ${amount} health points",
 				"trans": "Poškodí nepřítele o ${amount} bodů zdraví"
 			},
+			"name": {
+				"eng": "Single Target Attack",
+				"trans": "Útok na jeden cíl"
+			},
 			"triggered": {
 				"eng": "${playerName} Attacked for ${amount} damage",
 				"trans": "${playerName} způsobuje ${amount} bodů poškození"
+			}
+		},
+		"attackGroup": {
+			"name": {
+				"eng": "Group Attack",
+				"trans": "Skupinový útok"
 			}
 		},
 		"attack_group": {
@@ -125,6 +135,10 @@
 				"eng": "Burns targeted enemy for ${amount} damage for ${turns} turns",
 				"trans": "Zapálí cíleného nepřítele a způsobí mu ${amount} bodů poškození po dobu ${turns} tahů."
 			},
+			"name": {
+				"eng": "Single Target Burn",
+				"trans": "Požár na jediném cíli"
+			},
 			"triggered": {
 				"eng": "${merc} burns ${enemy}, ${enemy} received ${damage} damage.",
 				"trans": "${merc} zapaluje ${enemy}. ${enemy} utrpěl ${damage} bodů poškození."
@@ -134,6 +148,10 @@
 			"description": {
 				"eng": "Burns all enemies for ${amount} damage for ${turns} turns",
 				"trans": "Zapálí všechny nepřátele a způsobí jim ${amount} bodů poškození po dobu ${turns} tahů."
+			},
+			"name": {
+				"eng": "Group Burn",
+				"trans": "Skupinové popálení"
 			},
 			"triggered": {
 				"eng": "${merc} burns all enemies, dealt ${damage} damage each",
@@ -145,6 +163,10 @@
 				"eng": "Heals your character for ${amount} health point",
 				"trans": "Uzdraví tvé postavě ${amount} bodů zdraví"
 			},
+			"name": {
+				"eng": "Single Target Heal",
+				"trans": "Jedno cílové uzdravení"
+			},
 			"triggered": {
 				"eng": "${merc} Healed ${playerName} for ${amount} health",
 				"trans": "${merc} uzdravuje ${playerName} ${amount} bodů zdraví"
@@ -154,6 +176,10 @@
 			"description": {
 				"eng": "Heals your team for ${amount} health",
 				"trans": "Uzdraví tvému týmu ${amount} bodů zdraví"
+			},
+			"name": {
+				"eng": "Group Heal",
+				"trans": "Léčení skupiny"
 			},
 			"triggered": {
 				"eng": "${merc} healed the team for ${amount} health",
@@ -165,6 +191,10 @@
 				"eng": "Poisons the enemy for ${amount} for ${turn} turns",
 				"trans": "Otráví nepřítele a způsobí mu ${amount} bodů poškození po dobu ${turn} tahů."
 			},
+			"name": {
+				"eng": "Single Target Poison",
+				"trans": "Otrava na jeden cíl"
+			},
 			"triggered": {
 				"eng": "${merc} poisoned ${enemy}, ${enemy} received ${damage} damage.",
 				"trans": "${merc} otrávil ${enemy}. ${enemy} utrpěl poškození ${damage}."
@@ -174,6 +204,10 @@
 			"description": {
 				"eng": "Poisons all enemies for ${amount} for ${turns} turns",
 				"trans": "Otráví všechny nepřátele a způsobí jim ${amount} bodů poškození po dobu ${turns} tahů."
+			},
+			"name": {
+				"eng": "Group Poison",
+				"trans": "Skupinový jed"
 			},
 			"triggered": {
 				"eng": "${merc} poisoned all enemies, dealt ${damage} damage each.",
@@ -185,6 +219,10 @@
 				"eng": "Recharge your character's shield for ${amount}",
 				"trans": "Doplní tvé postavě ${amount} štítu."
 			},
+			"name": {
+				"eng": "Single Target Shield",
+				"trans": "Jednocílový štít"
+			},
 			"triggered": {
 				"eng": "${merc} shielded ${playerName} for ${amount} health",
 				"trans": "${merc} poskytl hráči ${playerName} štít s ${amount} body zdraví"
@@ -194,6 +232,10 @@
 			"description": {
 				"eng": "Shields your team for ${amount} health",
 				"trans": "Štít poskytne tvému týmu ${amount} zdraví."
+			},
+			"name": {
+				"eng": "Group Shield",
+				"trans": "Skupinový štít"
 			},
 			"triggered": {
 				"eng": "${merc} shields the team for ${amount}",
@@ -8090,6 +8132,10 @@
 			"eng": "Mercenary",
 			"trans": "Najemník"
 		},
+		"mercenaryResonance": {
+			"eng": "Mercenary Resonance",
+			"trans": "Rezonance Žoldnéřů"
+		},
 		"netrun": {
 			"eng": "NetRun",
 			"trans": "NetRun"
@@ -8374,6 +8420,14 @@
 				"trans": "Máš nyní příliš mnoho najatých, můžeš rozšířit prostor získáním lepšího bytu."
 			}
 		},
+		"resonance": {
+			"error": {
+				"abilityMismatch": {
+					"eng": "Both mercenaries must have the same ability to resonate",
+					"trans": "Oba nájemníci musí mít stejnou schopnost rezonovat."
+				}
+			}
+		},
 		"upgradeLevelError": {
 			"eng": "Level up to increase your mercenary's max level",
 			"trans": "Zvyšte úroveň, aby se zvýšila maximální úroveň vašeho nájemníka."
@@ -8621,6 +8675,216 @@
 		"title": {
 			"eng": "Mercenaries",
 			"trans": "Nájemníci"
+		}
+	},
+	"mercenaryResonancePage": {
+		"awakenPath": {
+			"eng": "AWAKENING PATH",
+			"trans": "Cesta Probuzení"
+		},
+		"catalyst": {
+			"eng": "CATALYST",
+			"trans": "Rezonanční Tělo"
+		},
+		"confirm": {
+			"cancel": {
+				"eng": "ABORT",
+				"trans": "ZRUŠIT"
+			},
+			"confirm": {
+				"eng": "EXECUTE",
+				"trans": "SPUSTIT"
+			},
+			"prompt": {
+				"eng": "Proceed with resonance?",
+				"trans": "Pokračovat v rezonanci?"
+			},
+			"title": {
+				"eng": "CONFIRM RESONANCE",
+				"trans": "Potvrdit rezonanci"
+			},
+			"warning1": {
+				"eng": "WARNING: This action is irreversible",
+				"trans": "VAROVÁNÍ: Tato akce je nevratná."
+			},
+			"warning2": {
+				"eng": "Catalyst unit will be permanently consumed",
+				"trans": "Katalytická jednotka bude trvale spotřebována."
+			}
+		},
+		"current": {
+			"eng": "CURRENT",
+			"trans": "Aktuální"
+		},
+		"empty": {
+			"description": {
+				"eng": "You need at least one 5-star mercenary to use Neural Resonance. Recruit more mercenaries to find duplicates with matching abilities.",
+				"trans": "Potřebujete alespoň jednoho 5hvězdičkového žoldnéře k použití Neurální rezonance. Naberte více žoldnéřů, abyste našli duplikáty se stejnými schopnostmi."
+			},
+			"title": {
+				"eng": "NO ELIGIBLE UNITS",
+				"trans": "Žádné vhodné jednotky"
+			}
+		},
+		"mythicAscension": {
+			"description": {
+				"eng": "This resonance will transform your mercenary into MYTHIC tier",
+				"trans": "Tato rezonance přemění tvého žoldníka na MYTHIC úroveň."
+			},
+			"title": {
+				"eng": "MYTHIC ASCENSION READY",
+				"trans": "MÝTICKÝ VZESTUP PŘIPRAVEN"
+			}
+		},
+		"noMatching": {
+			"eng": "No compatible units",
+			"trans": "Žádné kompatibilní jednotky"
+		},
+		"onlyOneMerc": {
+			"eng": "Need 2+ Epic mercs",
+			"trans": "Vyžadováno 2+ epických nájemníků"
+		},
+		"projected": {
+			"eng": "PROJECTED",
+			"trans": "ODHADOVANÉ"
+		},
+		"resonanceProjection": {
+			"eng": "RESONANCE PROJECTION",
+			"trans": "Projekce Rezonance"
+		},
+		"resonate": {
+			"disabled": {
+				"eng": "[ AWAITING LINK ]",
+				"trans": "[ ČEKÁNÍ NA ODKAZ ]"
+			},
+			"ready": {
+				"eng": ">>> INITIATE RESONANCE <<<",
+				"trans": ">> SPUSTIT REZONANCI <<"
+			}
+		},
+		"resourceRecovery": {
+			"eng": "RESOURCE RECOVERY",
+			"trans": "Obnova zdrojů"
+		},
+		"selectCatalyst": {
+			"description": {
+				"eng": "Choose a mercenary with ${ability} ability to sacrifice",
+				"trans": "Vyberte zbrojníka se schopností ${ability} pro oběť"
+			},
+			"empty": {
+				"eng": "Select matching unit",
+				"trans": "Vyberte odpovídající jednotku"
+			},
+			"title": {
+				"eng": "Select Catalyst",
+				"trans": "Vybrat katalyzátor"
+			}
+		},
+		"selectTarget": {
+			"description": {
+				"eng": "Choose the mercenary you want to awaken",
+				"trans": "Vyberte zbrojnika, kterého chcete probudit."
+			},
+			"empty": {
+				"eng": "Select unit for awakening",
+				"trans": "Vyberte jednotku pro probuzení"
+			},
+			"title": {
+				"eng": "Select Target",
+				"trans": "Zvolit cíl"
+			}
+		},
+		"selectTargetFirst": {
+			"eng": "Select target first",
+			"trans": "Nejprve vyber cíl."
+		},
+		"stat": {
+			"ability": {
+				"eng": "ABILITY",
+				"trans": "Schopnost"
+			},
+			"armor": {
+				"eng": "ARMOR",
+				"trans": "ZBROJ"
+			},
+			"attack": {
+				"eng": "ATK DMG",
+				"trans": "Útočné poškození"
+			},
+			"health": {
+				"eng": "HEALTH",
+				"trans": "Zdraví"
+			}
+		},
+		"sys": {
+			"awaitingCatalyst": {
+				"eng": "Target locked. Awaiting catalyst...",
+				"trans": "Cíl zaměřen. Očekává se katalyzátor..."
+			},
+			"awaitingTarget": {
+				"eng": "Awaiting target selection...",
+				"trans": "Čekání na výběr cíle..."
+			},
+			"init": {
+				"eng": "Neural link interface ready...",
+				"trans": "Rozhraní neuronálního spojení je připravené..."
+			},
+			"noCatalyst": {
+				"eng": "WARNING: No compatible catalyst found. Requires ${ability} ability.",
+				"trans": "VAROVÁNÍ: Nebyl nalezen žádný kompatibilní katalyzátor. Vyžaduje se schopnost ${ability}."
+			},
+			"ready": {
+				"eng": "Neural link ready. Initiate when ready.",
+				"trans": "Neurální spojení připravené. Aktivuj, když budeš připraven."
+			}
+		},
+		"target": {
+			"eng": "TARGET",
+			"trans": "Cíl"
+		},
+		"terminalTitle": {
+			"eng": "NEURAL RESONANCE INTERFACE",
+			"trans": "Neurální Rezonance Rozhraní"
+		}
+	},
+	"mercenaryResonanceResultPopup": {
+		"awakenTitle": {
+			"eng": "RESONANCE COMPLETE",
+			"trans": "Rezonance dokončena"
+		},
+		"mythicTitle1": {
+			"eng": "MYTHIC",
+			"trans": "MYTICKÝ"
+		},
+		"mythicTitle2": {
+			"eng": "ASCENSION",
+			"trans": "Vzestup"
+		},
+		"resourcesReceived": {
+			"eng": "RESOURCES RECOVERED",
+			"trans": "Obnovené zdroje"
+		},
+		"result": {
+			"eng": "AWAKENING RESULT",
+			"trans": "Výsledek probuzení"
+		},
+		"sys": {
+			"protocol": {
+				"eng": "Awakening protocol finalized",
+				"trans": "Probouzení protokol finalizován."
+			},
+			"status": {
+				"eng": "STATUS: OPERATIONAL",
+				"trans": "Stav: funkční"
+			},
+			"sync": {
+				"eng": "Neural synchronization successful",
+				"trans": "Neurální synchronizace úspěšná"
+			}
+		},
+		"tapToContinue": {
+			"eng": "TAP TO CONTINUE",
+			"trans": "Klepněte pro pokračování"
 		}
 	},
 	"mercenarySelectPopup": {
@@ -9816,6 +10080,10 @@
 				"trans": [
 					"Dej mi vědět, až budeš mít úkoly hotové."
 				]
+			},
+			"resonanceButton": {
+				"eng": "Talk to Siren in the VIP booth",
+				"trans": "Promluv s Siren v VIP kabině."
 			}
 		},
 		"blackMarket": {
@@ -10107,6 +10375,10 @@
 				"eng": "Repair",
 				"trans": "Opravit"
 			},
+			"resonance": {
+				"eng": "Neural Resonance",
+				"trans": "Neurální Rezonance"
+			},
 			"shop": {
 				"eng": "Shop",
 				"trans": "Obchod"
@@ -10265,6 +10537,38 @@
 		"repairButton": {
 			"eng": "Repair my equipment",
 			"trans": "Oprav mé vybavení"
+		},
+		"resonanceMaster": {
+			"description": {
+				"eng": "The VIP booth in the Red Bar where Siren holds court, wreathed in shadow and expensive smoke",
+				"trans": "VIP box v červeném baru, kde Siréna vládne, obklopený stínem a drahým kouřem."
+			},
+			"greetings": {
+				"eng": [
+					"Mmm... I can smell the potential on you. Sit.",
+					"Another one seeking transcendence. How delicious.",
+					"They call it sacrifice. I call it... evolution.",
+					"Your mercenaries are screaming to become more. I can hear them.",
+					"Don't waste my time with small talk. Show me what you've brought.",
+					"I was bored until you walked in. Let's see if that changes."
+				],
+				"trans": [
+					"Mmm… cítím tvůj potenciál. Sedni.",
+					"Další, který se snaží dosáhnout transcendentálního stavu. Tak lahodné.",
+					"Jmenují to oběť. Já to nazývám… evoluci.",
+					"Vaši nájemníci křičí, chtějí být silnější. Slyším je.",
+					"Nedávej mi čas na povídání. Ukaž mi, co jsi přinesl.",
+					"Bylo mi nudno, než jsi přišel. Uvidíme, jestli to změní."
+				]
+			},
+			"locationName": {
+				"eng": "Siren's Booth",
+				"trans": "Stojan Siren"
+			},
+			"npcName": {
+				"eng": "Siren",
+				"trans": "Siréna"
+			}
 		},
 		"shopButton": {
 			"eng": "I want to buy something",
@@ -11591,6 +11895,96 @@
 		"spam": {
 			"eng": "Spam",
 			"trans": "Spam"
+		}
+	},
+	"resonanceAnimation": {
+		"button": {
+			"dismiss": {
+				"eng": "DISMISS",
+				"trans": "ZAVŘÍT"
+			},
+			"view": {
+				"eng": "VIEW RESULT",
+				"trans": "Zobrazit výsledek"
+			}
+		},
+		"catalyst": {
+			"eng": "CATALYST",
+			"trans": "Rezonanční Tělo"
+		},
+		"complete": {
+			"eng": "COMPLETE",
+			"trans": "Dokončit"
+		},
+		"progress": {
+			"eng": "MERGING",
+			"trans": "SLUČENÍ"
+		},
+		"target": {
+			"eng": "TARGET",
+			"trans": "Cíl"
+		},
+		"terminal": {
+			"1": {
+				"eng": "> initializing neural bridge...",
+				"trans": "Inicializace neuronálního mostu..."
+			},
+			"2": {
+				"eng": "> synchronizing combat data...",
+				"trans": "> Synchronizace bojových dat..."
+			},
+			"3": {
+				"eng": "> transferring essence...",
+				"trans": "> Přenáším esenci..."
+			},
+			"4": {
+				"eng": "> integrating protocols...",
+				"trans": "> Integrace protokolů..."
+			},
+			"mythic": {
+				"1": {
+					"eng": "> MYTHIC PROTOCOL ENGAGED...",
+					"trans": "Mýtický protokol aktivován..."
+				},
+				"2": {
+					"eng": "> transcendence sequence initiated...",
+					"trans": "> Sekvence Transcendence spuštěna..."
+				},
+				"3": {
+					"eng": "> neural capacity EXCEEDED...",
+					"trans": "Neurální kapacita překročena..."
+				},
+				"4": {
+					"eng": "> ascending beyond mortal limits...",
+					"trans": "Překročení hranice smrtelnosti..."
+				}
+			},
+			"mythicSuccess": {
+				"eng": "MYTHIC TRANSCENDENCE ACHIEVED",
+				"trans": "Mýtické Překonání dosaženo"
+			},
+			"success": {
+				"eng": "RESONANCE SUCCESSFUL",
+				"trans": "Rezonance úspěšná"
+			},
+			"title": {
+				"eng": "SYS.LOG",
+				"trans": "Záznam systému"
+			}
+		},
+		"title": {
+			"complete": {
+				"eng": "RESONANCE COMPLETE",
+				"trans": "Rezonance dokončena"
+			},
+			"default": {
+				"eng": "NEURAL RESONANCE",
+				"trans": "Neurální Rezonance"
+			},
+			"error": {
+				"eng": "SYNC FAILED",
+				"trans": "Synchronizace selhala"
+			}
 		}
 	},
 	"reward": {
@@ -13433,6 +13827,12 @@
 		"unique": {
 			"eng": "Unique",
 			"trans": "Unikátní"
+		}
+	},
+	"tierIndicator": {
+		"mythic": {
+			"eng": "MYTHIC",
+			"trans": "MYTICKÝ"
 		}
 	},
 	"time": {

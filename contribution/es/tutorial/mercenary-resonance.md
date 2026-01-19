@@ -4,7 +4,7 @@
 
 ## ¿Dónde puedo encontrar la Resonancia Neural?
 
-Puedes acceder a la Resonancia Neural desde el **Red Bar**. Busca la opción para hablar con **Sirena**, quien se encuentra en la cabina VIP. Ella es quien realiza el procedimiento de resonancia.
+Puedes acceder a la Resonancia Neural desde la **Barra Roja**. Busca la opción para hablar con **Sirena**, quien se encuentra en la cabina VIP. Ella es quien realiza el procedimiento de resonancia.
 
 ## ¿Cómo funciona la Resonancia Neural?
 
@@ -29,7 +29,7 @@ Cada nivel de despertar proporciona un aumento de poder. Cuando alcanzas +4 y re
 
 ## ¿Cómo realizar la Resonancia Neural?
 
-1. Visita la **Cabina de Sirena** en el Red Bar
+1. Visita la **Cabina de Sirena** en la Barra Roja
 2. Toca `Iniciar Resonancia Neural`
 3. Selecciona tu mercenario **Objetivo** (el que quieres fortalecer)
 4. Selecciona tu mercenario **Cuerpo de Resonancia** (debe tener la misma habilidad que tu objetivo)

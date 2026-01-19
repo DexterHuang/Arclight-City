@@ -4,7 +4,7 @@
 
 ## Wo finde ich Neurale Resonanz?
 
-Du kannst auf Neurale Resonanz in der **Red Bar** zugreifen. Suche nach der Option, mit **Sirene** zu sprechen, die in der VIP-Kabine residiert. Sie führt das Resonanz-Verfahren durch.
+Du kannst auf Neurale Resonanz im **Roten Balken** zugreifen. Suche nach der Option, mit **Sirene** zu sprechen, die in der VIP-Kabine residiert. Sie führt das Resonanz-Verfahren durch.
 
 ## Wie funktioniert Neurale Resonanz?
 
@@ -29,7 +29,7 @@ Jede Erwachungsstufe bietet einen Kraftschub. Wenn du +4 erreichst und eine weit
 
 ## Wie führe ich Neurale Resonanz durch?
 
-1. Besuche **Sirenes Kabine** in der Red Bar
+1. Besuche **Sirenes Kabine** im Roten Balken
 2. Tippe auf `Neurale Resonanz starten`
 3. Wähle deinen **Ziel**-Söldner (den, den du stärken möchtest)
 4. Wähle deinen **Resonanzkörper**-Söldner (muss dieselbe Fähigkeit wie dein Ziel haben)

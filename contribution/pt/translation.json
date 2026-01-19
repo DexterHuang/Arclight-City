@@ -109,9 +109,19 @@
 				"eng": "Attacks the enemy for ${amount} health points",
 				"trans": "Ataca o inimigo por ${amount} pontos de vida"
 			},
+			"name": {
+				"eng": "Single Target Attack",
+				"trans": "Ataque de Alvo Único"
+			},
 			"triggered": {
 				"eng": "${playerName} Attacked for ${amount} damage",
 				"trans": "${playerName} atacou por ${amount} de dano"
+			}
+		},
+		"attackGroup": {
+			"name": {
+				"eng": "Group Attack",
+				"trans": "Ataque em Grupo"
 			}
 		},
 		"attack_group": {
@@ -125,6 +135,10 @@
 				"eng": "Burns targeted enemy for ${amount} damage for ${turns} turns",
 				"trans": "Queima o inimigo alvo por ${amount} de dano durante ${turns} turnos"
 			},
+			"name": {
+				"eng": "Single Target Burn",
+				"trans": "Queima em Alvo Único"
+			},
 			"triggered": {
 				"eng": "${merc} burns ${enemy}, ${enemy} received ${damage} damage.",
 				"trans": "${merc} queima ${enemy}, ${enemy} recebeu ${damage} de dano."
@@ -134,6 +148,10 @@
 			"description": {
 				"eng": "Burns all enemies for ${amount} damage for ${turns} turns",
 				"trans": "Queima todos os inimigos por ${amount} de dano durante ${turns} turnos"
+			},
+			"name": {
+				"eng": "Group Burn",
+				"trans": "Queima de Grupo"
 			},
 			"triggered": {
 				"eng": "${merc} burns all enemies, dealt ${damage} damage each",
@@ -145,6 +163,10 @@
 				"eng": "Heals your character for ${amount} health point",
 				"trans": "Cura seu personagem em ${amount} pontos de vida"
 			},
+			"name": {
+				"eng": "Single Target Heal",
+				"trans": "Cura de Alvo Único"
+			},
 			"triggered": {
 				"eng": "${merc} Healed ${playerName} for ${amount} health",
 				"trans": "${merc} Curou ${playerName} por ${amount} de vida"
@@ -154,6 +176,10 @@
 			"description": {
 				"eng": "Heals your team for ${amount} health",
 				"trans": "Cura sua equipe em ${amount} de saúde"
+			},
+			"name": {
+				"eng": "Group Heal",
+				"trans": "Cura de Grupo"
 			},
 			"triggered": {
 				"eng": "${merc} healed the team for ${amount} health",
@@ -165,6 +191,10 @@
 				"eng": "Poisons the enemy for ${amount} for ${turn} turns",
 				"trans": "Envenena o inimigo por ${amount} durante ${turn} turnos"
 			},
+			"name": {
+				"eng": "Single Target Poison",
+				"trans": "Veneno de Alvo Único"
+			},
 			"triggered": {
 				"eng": "${merc} poisoned ${enemy}, ${enemy} received ${damage} damage.",
 				"trans": "${merc} envenenou ${enemy}, ${enemy} recebeu ${damage} de dano."
@@ -174,6 +204,10 @@
 			"description": {
 				"eng": "Poisons all enemies for ${amount} for ${turns} turns",
 				"trans": "Envenena todos os inimigos por ${amount} durante ${turns} turnos"
+			},
+			"name": {
+				"eng": "Group Poison",
+				"trans": "Veneno de Grupo"
 			},
 			"triggered": {
 				"eng": "${merc} poisoned all enemies, dealt ${damage} damage each.",
@@ -185,6 +219,10 @@
 				"eng": "Recharge your character's shield for ${amount}",
 				"trans": "Recarregue o escudo do seu personagem por ${amount}"
 			},
+			"name": {
+				"eng": "Single Target Shield",
+				"trans": "Escudo de Alvo Único"
+			},
 			"triggered": {
 				"eng": "${merc} shielded ${playerName} for ${amount} health",
 				"trans": "${merc} protegeu ${playerName} por ${amount} de saúde"
@@ -194,6 +232,10 @@
 			"description": {
 				"eng": "Shields your team for ${amount} health",
 				"trans": "Protege sua equipe com ${amount} de saúde"
+			},
+			"name": {
+				"eng": "Group Shield",
+				"trans": "Escudo de Grupo"
 			},
 			"triggered": {
 				"eng": "${merc} shields the team for ${amount}",
@@ -8090,6 +8132,10 @@
 			"eng": "Mercenary",
 			"trans": "Mercenário"
 		},
+		"mercenaryResonance": {
+			"eng": "Mercenary Resonance",
+			"trans": "Ressonância de Mercenário"
+		},
 		"netrun": {
 			"eng": "NetRun",
 			"trans": "NetRun"
@@ -8374,6 +8420,14 @@
 				"trans": "Você tem muitos mercenários agora, pode melhorar o espaço adquirindo um apartamento melhor."
 			}
 		},
+		"resonance": {
+			"error": {
+				"abilityMismatch": {
+					"eng": "Both mercenaries must have the same ability to resonate",
+					"trans": "Ambos os mercenários devem ter a mesma habilidade de ressonar"
+				}
+			}
+		},
 		"upgradeLevelError": {
 			"eng": "Level up to increase your mercenary's max level",
 			"trans": "Suba de nível para aumentar o nível máximo do seu mercenário"
@@ -8621,6 +8675,216 @@
 		"title": {
 			"eng": "Mercenaries",
 			"trans": "Mercenários"
+		}
+	},
+	"mercenaryResonancePage": {
+		"awakenPath": {
+			"eng": "AWAKENING PATH",
+			"trans": "Caminho do Despertar"
+		},
+		"catalyst": {
+			"eng": "CATALYST",
+			"trans": "Corpo de Ressonância"
+		},
+		"confirm": {
+			"cancel": {
+				"eng": "ABORT",
+				"trans": "Abortar"
+			},
+			"confirm": {
+				"eng": "EXECUTE",
+				"trans": "EXECUTAR"
+			},
+			"prompt": {
+				"eng": "Proceed with resonance?",
+				"trans": "Continuar com ressonância?"
+			},
+			"title": {
+				"eng": "CONFIRM RESONANCE",
+				"trans": "Confirmar Ressonância"
+			},
+			"warning1": {
+				"eng": "WARNING: This action is irreversible",
+				"trans": "AVISO: Esta ação é irreversível"
+			},
+			"warning2": {
+				"eng": "Catalyst unit will be permanently consumed",
+				"trans": "A unidade do catalisador será consumida permanentemente."
+			}
+		},
+		"current": {
+			"eng": "CURRENT",
+			"trans": "ATUAL"
+		},
+		"empty": {
+			"description": {
+				"eng": "You need at least one 5-star mercenary to use Neural Resonance. Recruit more mercenaries to find duplicates with matching abilities.",
+				"trans": "Você precisa de pelo menos um mercenário 5 estrelas para usar Ressonância Neural. Recrute mais mercenários para encontrar duplicatas com habilidades correspondentes."
+			},
+			"title": {
+				"eng": "NO ELIGIBLE UNITS",
+				"trans": "Nenhuma unidade elegível"
+			}
+		},
+		"mythicAscension": {
+			"description": {
+				"eng": "This resonance will transform your mercenary into MYTHIC tier",
+				"trans": "Esta ressonância transformará seu mercenário em nível Mítico."
+			},
+			"title": {
+				"eng": "MYTHIC ASCENSION READY",
+				"trans": "Ascensão Mítica Pronta"
+			}
+		},
+		"noMatching": {
+			"eng": "No compatible units",
+			"trans": "Sem unidades compatíveis"
+		},
+		"onlyOneMerc": {
+			"eng": "Need 2+ Epic mercs",
+			"trans": "Necessita de 2+ Mercenários Épicos"
+		},
+		"projected": {
+			"eng": "PROJECTED",
+			"trans": "PROJETADO"
+		},
+		"resonanceProjection": {
+			"eng": "RESONANCE PROJECTION",
+			"trans": "Projeção de Ressonância"
+		},
+		"resonate": {
+			"disabled": {
+				"eng": "[ AWAITING LINK ]",
+				"trans": "[ AGUARDANDO LINK ]"
+			},
+			"ready": {
+				"eng": ">>> INITIATE RESONANCE <<<",
+				"trans": ">>> INICIAR RESSONÂNCIA <<<"
+			}
+		},
+		"resourceRecovery": {
+			"eng": "RESOURCE RECOVERY",
+			"trans": "RECUPERAÇÃO DE RECURSOS"
+		},
+		"selectCatalyst": {
+			"description": {
+				"eng": "Choose a mercenary with ${ability} ability to sacrifice",
+				"trans": "Escolha um mercenário com a habilidade ${ability} para sacrifício"
+			},
+			"empty": {
+				"eng": "Select matching unit",
+				"trans": "Selecione a unidade correspondente"
+			},
+			"title": {
+				"eng": "Select Catalyst",
+				"trans": "Selecionar catalisador"
+			}
+		},
+		"selectTarget": {
+			"description": {
+				"eng": "Choose the mercenary you want to awaken",
+				"trans": "Escolha o mercenário que deseja despertar"
+			},
+			"empty": {
+				"eng": "Select unit for awakening",
+				"trans": "Selecionar unidade para despertar"
+			},
+			"title": {
+				"eng": "Select Target",
+				"trans": "Selecionar alvo"
+			}
+		},
+		"selectTargetFirst": {
+			"eng": "Select target first",
+			"trans": "Selecione o alvo primeiro"
+		},
+		"stat": {
+			"ability": {
+				"eng": "ABILITY",
+				"trans": "Habilidade"
+			},
+			"armor": {
+				"eng": "ARMOR",
+				"trans": "ARMADURA"
+			},
+			"attack": {
+				"eng": "ATK DMG",
+				"trans": "DANO ATQ"
+			},
+			"health": {
+				"eng": "HEALTH",
+				"trans": "Saúde"
+			}
+		},
+		"sys": {
+			"awaitingCatalyst": {
+				"eng": "Target locked. Awaiting catalyst...",
+				"trans": "Alvo bloqueado. Aguardando catalisador..."
+			},
+			"awaitingTarget": {
+				"eng": "Awaiting target selection...",
+				"trans": "Aguardando seleção de alvo..."
+			},
+			"init": {
+				"eng": "Neural link interface ready...",
+				"trans": "Interface Neural pronta..."
+			},
+			"noCatalyst": {
+				"eng": "WARNING: No compatible catalyst found. Requires ${ability} ability.",
+				"trans": "AVISO: Nenhum Corpo de Ressonância compatível encontrado. Requer habilidade ${ability}."
+			},
+			"ready": {
+				"eng": "Neural link ready. Initiate when ready.",
+				"trans": "Link neural pronto. Inicie quando estiver pronto."
+			}
+		},
+		"target": {
+			"eng": "TARGET",
+			"trans": "Alvo"
+		},
+		"terminalTitle": {
+			"eng": "NEURAL RESONANCE INTERFACE",
+			"trans": "INTERFACE DE RESSONÂNCIA NEURAL"
+		}
+	},
+	"mercenaryResonanceResultPopup": {
+		"awakenTitle": {
+			"eng": "RESONANCE COMPLETE",
+			"trans": "Ressonância concluída"
+		},
+		"mythicTitle1": {
+			"eng": "MYTHIC",
+			"trans": "MÍTICO"
+		},
+		"mythicTitle2": {
+			"eng": "ASCENSION",
+			"trans": "Ascensão"
+		},
+		"resourcesReceived": {
+			"eng": "RESOURCES RECOVERED",
+			"trans": "Recursos Recuperados"
+		},
+		"result": {
+			"eng": "AWAKENING RESULT",
+			"trans": "Resultado do Despertar"
+		},
+		"sys": {
+			"protocol": {
+				"eng": "Awakening protocol finalized",
+				"trans": "Protocolo de Despertar Concluído"
+			},
+			"status": {
+				"eng": "STATUS: OPERATIONAL",
+				"trans": "STATUS: OPERACIONAL"
+			},
+			"sync": {
+				"eng": "Neural synchronization successful",
+				"trans": "Sincronização neural concluída"
+			}
+		},
+		"tapToContinue": {
+			"eng": "TAP TO CONTINUE",
+			"trans": "TOQUE PARA CONTINUAR"
 		}
 	},
 	"mercenarySelectPopup": {
@@ -9816,6 +10080,10 @@
 				"trans": [
 					"Avise-me quando tiver concluído os objetivos :)"
 				]
+			},
+			"resonanceButton": {
+				"eng": "Talk to Siren in the VIP booth",
+				"trans": "Converse com Siren na cabine VIP"
 			}
 		},
 		"blackMarket": {
@@ -10107,6 +10375,10 @@
 				"eng": "Repair",
 				"trans": "Reparar"
 			},
+			"resonance": {
+				"eng": "Neural Resonance",
+				"trans": "Ressonância Neural"
+			},
 			"shop": {
 				"eng": "Shop",
 				"trans": "Loja"
@@ -10265,6 +10537,38 @@
 		"repairButton": {
 			"eng": "Repair my equipment",
 			"trans": "Repare meu equipamento"
+		},
+		"resonanceMaster": {
+			"description": {
+				"eng": "The VIP booth in the Red Bar where Siren holds court, wreathed in shadow and expensive smoke",
+				"trans": "A cabine VIP no Red Bar, domínio de Siren, envolta por sombras e fumaça refinada."
+			},
+			"greetings": {
+				"eng": [
+					"Mmm... I can smell the potential on you. Sit.",
+					"Another one seeking transcendence. How delicious.",
+					"They call it sacrifice. I call it... evolution.",
+					"Your mercenaries are screaming to become more. I can hear them.",
+					"Don't waste my time with small talk. Show me what you've brought.",
+					"I was bored until you walked in. Let's see if that changes."
+				],
+				"trans": [
+					"Mmm... Sinto seu potencial. Sente-se.",
+					"Mais um em busca da transcendência. Que delícia.",
+					"Eles chamam de sacrifício. Eu chamo de... evolução.",
+					"Seus mercenários estão gritando para se fortalecerem. Eu posso ouvi-los.",
+					"Não perca meu tempo com conversa fiada. Mostre o que você trouxe.",
+					"Eu estava entediado até que você chegou. Vamos ver se isso muda."
+				]
+			},
+			"locationName": {
+				"eng": "Siren's Booth",
+				"trans": "Balcão da Sereia"
+			},
+			"npcName": {
+				"eng": "Siren",
+				"trans": "Sirene"
+			}
 		},
 		"shopButton": {
 			"eng": "I want to buy something",
@@ -11591,6 +11895,96 @@
 		"spam": {
 			"eng": "Spam",
 			"trans": "Spam"
+		}
+	},
+	"resonanceAnimation": {
+		"button": {
+			"dismiss": {
+				"eng": "DISMISS",
+				"trans": "Fechar"
+			},
+			"view": {
+				"eng": "VIEW RESULT",
+				"trans": "Ver Resultado"
+			}
+		},
+		"catalyst": {
+			"eng": "CATALYST",
+			"trans": "Corpo de Ressonância"
+		},
+		"complete": {
+			"eng": "COMPLETE",
+			"trans": "COMPLETAR"
+		},
+		"progress": {
+			"eng": "MERGING",
+			"trans": "Mesclando"
+		},
+		"target": {
+			"eng": "TARGET",
+			"trans": "Alvo"
+		},
+		"terminal": {
+			"1": {
+				"eng": "> initializing neural bridge...",
+				"trans": "> Inicializando ponte neural..."
+			},
+			"2": {
+				"eng": "> synchronizing combat data...",
+				"trans": "> sincronizando dados de combate..."
+			},
+			"3": {
+				"eng": "> transferring essence...",
+				"trans": "transferindo essência..."
+			},
+			"4": {
+				"eng": "> integrating protocols...",
+				"trans": "> integrando protocolos..."
+			},
+			"mythic": {
+				"1": {
+					"eng": "> MYTHIC PROTOCOL ENGAGED...",
+					"trans": "> PROTOCOLO MYTHIC ATIVADO..."
+				},
+				"2": {
+					"eng": "> transcendence sequence initiated...",
+					"trans": "> Sequência de Transcendência iniciada..."
+				},
+				"3": {
+					"eng": "> neural capacity EXCEEDED...",
+					"trans": "Capacidade neural excedida..."
+				},
+				"4": {
+					"eng": "> ascending beyond mortal limits...",
+					"trans": "> Ascendendo além dos limites mortais..."
+				}
+			},
+			"mythicSuccess": {
+				"eng": "MYTHIC TRANSCENDENCE ACHIEVED",
+				"trans": "Transcendência Mítica Alcançada"
+			},
+			"success": {
+				"eng": "RESONANCE SUCCESSFUL",
+				"trans": "RESSONÂNCIA BEM-SUCEDIDA"
+			},
+			"title": {
+				"eng": "SYS.LOG",
+				"trans": "LOG DE SISTEMA"
+			}
+		},
+		"title": {
+			"complete": {
+				"eng": "RESONANCE COMPLETE",
+				"trans": "Ressonância concluída"
+			},
+			"default": {
+				"eng": "NEURAL RESONANCE",
+				"trans": "Ressonância Neural"
+			},
+			"error": {
+				"eng": "SYNC FAILED",
+				"trans": "Sincronização falhou"
+			}
 		}
 	},
 	"reward": {
@@ -13433,6 +13827,12 @@
 		"unique": {
 			"eng": "Unique",
 			"trans": "Único"
+		}
+	},
+	"tierIndicator": {
+		"mythic": {
+			"eng": "MYTHIC",
+			"trans": "MÍTICO"
 		}
 	},
 	"time": {

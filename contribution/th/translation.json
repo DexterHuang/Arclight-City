@@ -109,9 +109,19 @@
 				"eng": "Attacks the enemy for ${amount} health points",
 				"trans": "โจมตีศัตรู ${amount} HP"
 			},
+			"name": {
+				"eng": "Single Target Attack",
+				"trans": "โจมตีเป้าหมายเดี่ยว"
+			},
 			"triggered": {
 				"eng": "${playerName} Attacked for ${amount} damage",
 				"trans": "${playerName} ซัดไป ${amount} ดาเมจ"
+			}
+		},
+		"attackGroup": {
+			"name": {
+				"eng": "Group Attack",
+				"trans": "โจมตีเป็นกลุ่ม"
 			}
 		},
 		"attack_group": {
@@ -125,6 +135,10 @@
 				"eng": "Burns targeted enemy for ${amount} damage for ${turns} turns",
 				"trans": "เผา! ศัตรูโดน ${amount} ดาเมจ เป็นเวลา ${turns} เทิร์น"
 			},
+			"name": {
+				"eng": "Single Target Burn",
+				"trans": "เผาเป้าหมายเดียว"
+			},
 			"triggered": {
 				"eng": "${merc} burns ${enemy}, ${enemy} received ${damage} damage.",
 				"trans": "`${merc} จัดการ ${enemy}, ${enemy} รับ ${damage} หน่วย`"
@@ -134,6 +148,10 @@
 			"description": {
 				"eng": "Burns all enemies for ${amount} damage for ${turns} turns",
 				"trans": "เผาศัตรูทุกตัว สร้างความเสียหาย ${amount} หน่วย เป็นเวลา ${turns} เทิร์น"
+			},
+			"name": {
+				"eng": "Group Burn",
+				"trans": "จุดไฟกลุ่ม"
 			},
 			"triggered": {
 				"eng": "${merc} burns all enemies, dealt ${damage} damage each",
@@ -145,6 +163,10 @@
 				"eng": "Heals your character for ${amount} health point",
 				"trans": "ฮีลตัวละครของคุณ ${amount} หน่วย HP"
 			},
+			"name": {
+				"eng": "Single Target Heal",
+				"trans": "รักษาเป้าหมายเดียว"
+			},
 			"triggered": {
 				"eng": "${merc} Healed ${playerName} for ${amount} health",
 				"trans": "${merc} ซ่อม ${playerName} เลือด ${amount} หน่วย"
@@ -154,6 +176,10 @@
 			"description": {
 				"eng": "Heals your team for ${amount} health",
 				"trans": "เติมเลือดให้ทีม ${amount}"
+			},
+			"name": {
+				"eng": "Group Heal",
+				"trans": "บำบัดกลุ่ม"
 			},
 			"triggered": {
 				"eng": "${merc} healed the team for ${amount} health",
@@ -165,6 +191,10 @@
 				"eng": "Poisons the enemy for ${amount} for ${turn} turns",
 				"trans": "ปล่อยพิษใส่ศัตรู ${amount} หน่วย, ${turn} เทิร์น"
 			},
+			"name": {
+				"eng": "Single Target Poison",
+				"trans": "พิษเป้าหมายเดียว"
+			},
 			"triggered": {
 				"eng": "${merc} poisoned ${enemy}, ${enemy} received ${damage} damage.",
 				"trans": "${merc} โดน ${enemy} เล่นยา, ${enemy} รับไป ${damage} ดาเมจ"
@@ -174,6 +204,10 @@
 			"description": {
 				"eng": "Poisons all enemies for ${amount} for ${turns} turns",
 				"trans": "ศัตรูทั้งหมดติดพิษ ${amount} เป็นเวลา ${turns} เทิร์น"
+			},
+			"name": {
+				"eng": "Group Poison",
+				"trans": "พิษกลุ่ม"
 			},
 			"triggered": {
 				"eng": "${merc} poisoned all enemies, dealt ${damage} damage each.",
@@ -185,6 +219,10 @@
 				"eng": "Recharge your character's shield for ${amount}",
 				"trans": "รีชาร์จเกราะของตัวละครของคุณ ${amount}"
 			},
+			"name": {
+				"eng": "Single Target Shield",
+				"trans": "โล่เป้าหมายเดียว"
+			},
 			"triggered": {
 				"eng": "${merc} shielded ${playerName} for ${amount} health",
 				"trans": "`${merc} ซัพพอร์ตเกราะให้ ${playerName} +${amount} HP`"
@@ -194,6 +232,10 @@
 			"description": {
 				"eng": "Shields your team for ${amount} health",
 				"trans": "เกราะป้องกันทีม ${amount} หน่วย"
+			},
+			"name": {
+				"eng": "Group Shield",
+				"trans": "โล่กลุ่ม"
 			},
 			"triggered": {
 				"eng": "${merc} shields the team for ${amount}",
@@ -8090,6 +8132,10 @@
 			"eng": "Mercenary",
 			"trans": "มือปืนรับจ้าง"
 		},
+		"mercenaryResonance": {
+			"eng": "Mercenary Resonance",
+			"trans": "สั่นสะเทือนลูกจ้าง"
+		},
 		"netrun": {
 			"eng": "NetRun",
 			"trans": "เน็ตรัน"
@@ -8374,6 +8420,14 @@
 				"trans": "แกมีลูกน้องเยอะเกินไปแล้วนะ ตอนนี้ อัพเกรดห้องเช่าใหม่ซะ จะได้มีที่เก็บ"
 			}
 		},
+		"resonance": {
+			"error": {
+				"abilityMismatch": {
+					"eng": "Both mercenaries must have the same ability to resonate",
+					"trans": "ทั้งสองจ้างมือต้องมีความสามารถ Resonate เดียวกัน"
+				}
+			}
+		},
 		"upgradeLevelError": {
 			"eng": "Level up to increase your mercenary's max level",
 			"trans": "อัพเลเวลเพื่อเพิ่มเลเวลสูงสุดของทหารรับจ้าง"
@@ -8621,6 +8675,216 @@
 		"title": {
 			"eng": "Mercenaries",
 			"trans": "นักรบรับจ้าง"
+		}
+	},
+	"mercenaryResonancePage": {
+		"awakenPath": {
+			"eng": "AWAKENING PATH",
+			"trans": "AWAKENING PATH"
+		},
+		"catalyst": {
+			"eng": "CATALYST",
+			"trans": "Catalyst"
+		},
+		"confirm": {
+			"cancel": {
+				"eng": "ABORT",
+				"trans": "ยกเลิก"
+			},
+			"confirm": {
+				"eng": "EXECUTE",
+				"trans": "รัน"
+			},
+			"prompt": {
+				"eng": "Proceed with resonance?",
+				"trans": "ดำเนินการด้วย Resonance?"
+			},
+			"title": {
+				"eng": "CONFIRM RESONANCE",
+				"trans": "ยืนยันการสั่นสะเทือน"
+			},
+			"warning1": {
+				"eng": "WARNING: This action is irreversible",
+				"trans": "คำเตือน: การกระทำนี้ไม่สามารถย้อนกลับได้"
+			},
+			"warning2": {
+				"eng": "Catalyst unit will be permanently consumed",
+				"trans": "หน่วย Catalyst จะถูกใช้จบอย่างถาวร"
+			}
+		},
+		"current": {
+			"eng": "CURRENT",
+			"trans": "ปัจจุบัน"
+		},
+		"empty": {
+			"description": {
+				"eng": "You need at least one 5-star mercenary to use Neural Resonance. Recruit more mercenaries to find duplicates with matching abilities.",
+				"trans": "คุณต้องมีผู้รับจ้างระดับดาวห้าอย่างน้อยหนึ่งตัวเพื่อใช้ Neural Resonance. สรรหา ผู้รับจ้างเพิ่มเติมเพื่อค้นหาคู่สำเนาที่มีความสามารถตรงกัน."
+			},
+			"title": {
+				"eng": "NO ELIGIBLE UNITS",
+				"trans": "ไม่มีหน่วยที่เหมาะสม"
+			}
+		},
+		"mythicAscension": {
+			"description": {
+				"eng": "This resonance will transform your mercenary into MYTHIC tier",
+				"trans": "การสั่นสะเทือนนี้จะเปลี่ยนลูกจ้างของคุณให้เป็นระดับ MYTHIC"
+			},
+			"title": {
+				"eng": "MYTHIC ASCENSION READY",
+				"trans": "พร้อมยกระดับมิติเทพ"
+			}
+		},
+		"noMatching": {
+			"eng": "No compatible units",
+			"trans": "ไม่พบอุปกรณ์ที่เข้ากันได้"
+		},
+		"onlyOneMerc": {
+			"eng": "Need 2+ Epic mercs",
+			"trans": "ต้องการ Merc อีพิค 2+"
+		},
+		"projected": {
+			"eng": "PROJECTED",
+			"trans": "แสดง"
+		},
+		"resonanceProjection": {
+			"eng": "RESONANCE PROJECTION",
+			"trans": "Resonance Projection"
+		},
+		"resonate": {
+			"disabled": {
+				"eng": "[ AWAITING LINK ]",
+				"trans": "[ กำลังรอลิงก์ ]"
+			},
+			"ready": {
+				"eng": ">>> INITIATE RESONANCE <<<",
+				"trans": ">>> เริ่มต้นสั่นสะเทือน <<<"
+			}
+		},
+		"resourceRecovery": {
+			"eng": "RESOURCE RECOVERY",
+			"trans": "ฟื้นฟูทรัพยากร"
+		},
+		"selectCatalyst": {
+			"description": {
+				"eng": "Choose a mercenary with ${ability} ability to sacrifice",
+				"trans": "เลือกผู้รับจ้างที่มีความสามารถ ${ability} ในการเสียสละ"
+			},
+			"empty": {
+				"eng": "Select matching unit",
+				"trans": "เลือกหน่วยที่ตรงกัน"
+			},
+			"title": {
+				"eng": "Select Catalyst",
+				"trans": "Select Catalyst"
+			}
+		},
+		"selectTarget": {
+			"description": {
+				"eng": "Choose the mercenary you want to awaken",
+				"trans": "เลือกรับจ้างที่ต้องการปลุก"
+			},
+			"empty": {
+				"eng": "Select unit for awakening",
+				"trans": "เลือกหน่วยเพื่อปลดล็อก"
+			},
+			"title": {
+				"eng": "Select Target",
+				"trans": "เลือกเป้าหมาย"
+			}
+		},
+		"selectTargetFirst": {
+			"eng": "Select target first",
+			"trans": "เลือกเป้าหมายก่อน"
+		},
+		"stat": {
+			"ability": {
+				"eng": "ABILITY",
+				"trans": "ทักษะ"
+			},
+			"armor": {
+				"eng": "ARMOR",
+				"trans": "เกราะ"
+			},
+			"attack": {
+				"eng": "ATK DMG",
+				"trans": "ความเสียหายของ ATK"
+			},
+			"health": {
+				"eng": "HEALTH",
+				"trans": "HP"
+			}
+		},
+		"sys": {
+			"awaitingCatalyst": {
+				"eng": "Target locked. Awaiting catalyst...",
+				"trans": "เป้าหมายล็อก รอคาตาลิสต์..."
+			},
+			"awaitingTarget": {
+				"eng": "Awaiting target selection...",
+				"trans": "กำลังรอการเลือกเป้าหมาย..."
+			},
+			"init": {
+				"eng": "Neural link interface ready...",
+				"trans": "อินเตอร์เฟส Neural Link พร้อมใช้งาน..."
+			},
+			"noCatalyst": {
+				"eng": "WARNING: No compatible catalyst found. Requires ${ability} ability.",
+				"trans": "คำเตือน: ไม่พบตัวเร่งปฏิกิริยาเหมาะสม ต้องการความสามารถ ${ability}."
+			},
+			"ready": {
+				"eng": "Neural link ready. Initiate when ready.",
+				"trans": "ลิงก์ประสาทพร้อมแล้ว. เริ่มต้นเมื่อพร้อม."
+			}
+		},
+		"target": {
+			"eng": "TARGET",
+			"trans": "เป้าหมาย"
+		},
+		"terminalTitle": {
+			"eng": "NEURAL RESONANCE INTERFACE",
+			"trans": "อินเทอร์เฟซความสั่นสะเทือนประสาท"
+		}
+	},
+	"mercenaryResonanceResultPopup": {
+		"awakenTitle": {
+			"eng": "RESONANCE COMPLETE",
+			"trans": "สั่นสะเทือนสำเร็จ"
+		},
+		"mythicTitle1": {
+			"eng": "MYTHIC",
+			"trans": "มหากาพย์"
+		},
+		"mythicTitle2": {
+			"eng": "ASCENSION",
+			"trans": "ASCENSION"
+		},
+		"resourcesReceived": {
+			"eng": "RESOURCES RECOVERED",
+			"trans": "ทรัพยากรได้รับคืน"
+		},
+		"result": {
+			"eng": "AWAKENING RESULT",
+			"trans": "ผลลัพธ์การตื่น"
+		},
+		"sys": {
+			"protocol": {
+				"eng": "Awakening protocol finalized",
+				"trans": "โปรโตคอลการตื่นตัวสำเร็จ"
+			},
+			"status": {
+				"eng": "STATUS: OPERATIONAL",
+				"trans": "สถานะ: พร้อมใช้งาน"
+			},
+			"sync": {
+				"eng": "Neural synchronization successful",
+				"trans": "Neural Synchronization สำเร็จ"
+			}
+		},
+		"tapToContinue": {
+			"eng": "TAP TO CONTINUE",
+			"trans": "แตะเพื่อทำต่อ"
 		}
 	},
 	"mercenarySelectPopup": {
@@ -9816,6 +10080,10 @@
 				"trans": [
 					"บอกด้วยนะถ้าทำภารกิจเสร็จแล้ว :)"
 				]
+			},
+			"resonanceButton": {
+				"eng": "Talk to Siren in the VIP booth",
+				"trans": "คุยกับ Siren ในบูธ VIP"
 			}
 		},
 		"blackMarket": {
@@ -10107,6 +10375,10 @@
 				"eng": "Repair",
 				"trans": "ซ่อม"
 			},
+			"resonance": {
+				"eng": "Neural Resonance",
+				"trans": "Neural Resonance"
+			},
 			"shop": {
 				"eng": "Shop",
 				"trans": "ร้านค้า"
@@ -10265,6 +10537,38 @@
 		"repairButton": {
 			"eng": "Repair my equipment",
 			"trans": "ซ่อมอุปกรณ์ของฉัน"
+		},
+		"resonanceMaster": {
+			"description": {
+				"eng": "The VIP booth in the Red Bar where Siren holds court, wreathed in shadow and expensive smoke",
+				"trans": "บูธ VIP ของบาร์แดงที่ Siren ควบคุม ปกคลุมด้วยเงาและควันที่หรู"
+			},
+			"greetings": {
+				"eng": [
+					"Mmm... I can smell the potential on you. Sit.",
+					"Another one seeking transcendence. How delicious.",
+					"They call it sacrifice. I call it... evolution.",
+					"Your mercenaries are screaming to become more. I can hear them.",
+					"Don't waste my time with small talk. Show me what you've brought.",
+					"I was bored until you walked in. Let's see if that changes."
+				],
+				"trans": [
+					"อืม... ฉันรู้สึกถึงศักยภาพของคุณอยู่ นั่งเลย",
+					"อีกคนหนึ่งกำลังมองหาความเหนือกว่า. ความอร่อยมาก",
+					"พวกเขาเรียกมันว่าเสียสละ ฉันเรียกว่า...วิวัฒนาการ.",
+					"ทหารจ้างของคุณกำลังกรีดเพื่อเก่งขึ้น ฉันได้ยินเสียงพวกเขา",
+					"อย่าเสียเวลานั่งคุยเกินไป แสดงสิ่งที่คุณนำมาให้ฉันดู",
+					"ฉันรู้สึกเบื่อจนกว่าคุณจะเข้ามา มาดูกันว่าเปลี่ยนไปไหม"
+				]
+			},
+			"locationName": {
+				"eng": "Siren's Booth",
+				"trans": "บูธซิเรน"
+			},
+			"npcName": {
+				"eng": "Siren",
+				"trans": "Siren"
+			}
 		},
 		"shopButton": {
 			"eng": "I want to buy something",
@@ -11591,6 +11895,96 @@
 		"spam": {
 			"eng": "Spam",
 			"trans": "สแปม"
+		}
+	},
+	"resonanceAnimation": {
+		"button": {
+			"dismiss": {
+				"eng": "DISMISS",
+				"trans": "ปิด"
+			},
+			"view": {
+				"eng": "VIEW RESULT",
+				"trans": "ดูผล"
+			}
+		},
+		"catalyst": {
+			"eng": "CATALYST",
+			"trans": "Catalyst"
+		},
+		"complete": {
+			"eng": "COMPLETE",
+			"trans": "สำเร็จ"
+		},
+		"progress": {
+			"eng": "MERGING",
+			"trans": "รวม"
+		},
+		"target": {
+			"eng": "TARGET",
+			"trans": "เป้าหมาย"
+		},
+		"terminal": {
+			"1": {
+				"eng": "> initializing neural bridge...",
+				"trans": "> กำลังเริ่มต้น Neural Bridge..."
+			},
+			"2": {
+				"eng": "> synchronizing combat data...",
+				"trans": "> กำลังซิงค์ข้อมูลรบ..."
+			},
+			"3": {
+				"eng": "> transferring essence...",
+				"trans": "> กำลังถ่ายโอนสาร..."
+			},
+			"4": {
+				"eng": "> integrating protocols...",
+				"trans": "> กำลังบูรณาการโปรโตคอล..."
+			},
+			"mythic": {
+				"1": {
+					"eng": "> MYTHIC PROTOCOL ENGAGED...",
+					"trans": "> โปรโตคอลมหัศจรรย์เริ่มทำงาน..."
+				},
+				"2": {
+					"eng": "> transcendence sequence initiated...",
+					"trans": "> การดำเนินการ Transcendence เริ่มต้น..."
+				},
+				"3": {
+					"eng": "> neural capacity EXCEEDED...",
+					"trans": "> ความจุสมองเกิน..."
+				},
+				"4": {
+					"eng": "> ascending beyond mortal limits...",
+					"trans": "> ยกระดับเหนือขีดจำกัดมนุษย์..."
+				}
+			},
+			"mythicSuccess": {
+				"eng": "MYTHIC TRANSCENDENCE ACHIEVED",
+				"trans": "บรรลุมิติเมทิกทรานสเซนเดนซ์"
+			},
+			"success": {
+				"eng": "RESONANCE SUCCESSFUL",
+				"trans": "Resonance สำเร็จ"
+			},
+			"title": {
+				"eng": "SYS.LOG",
+				"trans": "SYS.LOG"
+			}
+		},
+		"title": {
+			"complete": {
+				"eng": "RESONANCE COMPLETE",
+				"trans": "สั่นสะเทือนสำเร็จ"
+			},
+			"default": {
+				"eng": "NEURAL RESONANCE",
+				"trans": "Neural Resonance"
+			},
+			"error": {
+				"eng": "SYNC FAILED",
+				"trans": "ซิงค์ไม่สำเร็จ"
+			}
 		}
 	},
 	"reward": {
@@ -13433,6 +13827,12 @@
 		"unique": {
 			"eng": "Unique",
 			"trans": "พิเศษ"
+		}
+	},
+	"tierIndicator": {
+		"mythic": {
+			"eng": "MYTHIC",
+			"trans": "มหากาพย์"
 		}
 	},
 	"time": {

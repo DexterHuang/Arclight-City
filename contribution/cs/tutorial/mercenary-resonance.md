@@ -4,7 +4,7 @@
 
 ## Kde najdu Neurální Rezonanci?
 
-K Neurální Rezonanci můžete přistoupit z **Red Baru**. Hledejte možnost promluvit se **Sirénou**, která sídlí ve VIP kabince. Ona provádí proceduru rezonance.
+K Neurální Rezonanci můžete přistoupit z **baru Red**. Hledejte možnost promluvit se **Sirénou**, která sídlí ve VIP kabince. Ona provádí proceduru rezonance.
 
 ## Jak funguje Neurální Rezonance?
 
@@ -29,7 +29,7 @@ Každá úroveň probuzení poskytuje posílení síly. Když dosáhnete +4 a pr
 
 ## Jak provést Neurální Rezonanci?
 
-1. Navštivte **Kabinku Sirény** v Red Baru
+1. Navštivte **Kabinku Sirény** v baru Red
 2. Klepněte na `Zahájit Neurální Rezonanci`
 3. Vyberte svého **Cílového** žoldnéře (toho, kterého chcete posílit)
 4. Vyberte svého žoldnéře **Rezonanční Tělo** (musí mít stejnou schopnost jako váš cíl)
