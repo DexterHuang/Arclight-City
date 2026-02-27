@@ -6,6 +6,42 @@
 
 **If you find an exploit, please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
+### 0.0.96
+
+-  **Login Streak Rewards**: New daily login reward system
+   -  Log in each day to claim rewards including Eurodollars and healing items, with rewards scaling up each week
+   -  Reach milestone bonuses at **Day 7, 14, 21, and 28** for enhanced rewards including `Advance Hideout Locator`
+   -  The cycle resets after 28 days, allowing you to keep earning
+   -  Access from the main menu
+   -  For details, check the Login Streak tutorial in **CyberWiki**
+
+-  **Mercenary Resonance**: New system to awaken and enhance your mercenaries through neural resonance
+   -  Visit the new NPC **Siren** at her VIP booth in the Red Bar to perform resonance
+   -  Merge duplicate 6 star mercenaries to awaken your chosen mercenary with up to 4 awakening levels
+   -  Each awakening level boosts stats and power
+   -  Reach maximum awakening (+4) to ascend an 6 star mercenary to **Mythic tier** — a new tier above 6 star with higher stats and power 
+   -  Resonance can also be accessed from the mercenary details page, by clicking on the resonance button
+   -  For full details, read the Mercenary Resonance tutorial in **CyberWiki**
+
+-  Search and sort improvements across multiple pages:
+   -  Added text search to Wiki page, NPC shop sell page, and player lists
+   -  Added sort options (name, tier, level) to dismantle, dungeon backpack, and mercenary list pages
+   -  Added sort options (price, level) with bounty count display to hit list page
+   -  Mercenary list sort preference is now saved between sessions
+
+-  Notifications are now automatically cleaned up when expired or when exceeding the cap, keeping your notification list tidy
+
+-  Multiple UX improvements:
+   -  Quest deadlines now show color-coded warnings (urgent, soon, approaching)
+   -  Active and completed quests are now separated for easier tracking
+   -  Relative time display for mail and notification timestamps (e.g., "2h ago") 
+   -  Added success feedback toasts for vault transactions, gang deposits, report submissions, and gang creation
+   -  Liked chirps now show a filled heart icon
+   -  Auto-farm now displays a cycle counter 
+   -  Item count headers added across gang member list, lobbies, notifications, and market listings
+   -  Improved loading and empty states across various pages
+   -  Login and forgot password buttons are now disabled when fields are empty
+
 ### 0.0.95
 
 -  Updated the UI and design for mercenary draw page.
