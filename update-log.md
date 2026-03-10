@@ -6,6 +6,15 @@
 
 **If you find an exploit, please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
+### 0.0.97
+
+-  Improved quality-of-life UI details:
+   -  Search now includes an animated clear button for faster filtering resets
+   -  Mercenary pity progress now uses a clear numeric counter display
+
+-  Improved visual smoothness and rendering quality for chroma-key animation playback, with user-facing performance gains on animated scenes
+-  adjust auto-mute behavior
+
 ### 0.0.96
 
 -  **Login Streak Rewards**: New daily login reward system
