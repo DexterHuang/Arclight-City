@@ -1,4 +1,10 @@
 {
+	"ADDRESS": {
+		"FORMAT": {
+			"eng": "ALC. ${district} District, No. ${number} ${floor} floor, room ${roomNumber}",
+			"trans": "ALC.${district}區，${number}號 ${floor}樓，${roomNumber}室"
+		}
+	},
 	"BattlePassTimeLimitedInfoModal": {
 		"button": {
 			"eng": "Close",
@@ -802,6 +808,12 @@
 			"eng": "Start",
 			"trans": "開始"
 		},
+		"stats": {
+			"cycles": {
+				"eng": "${count} cycles",
+				"trans": "${count} 週期"
+			}
+		},
 		"tip": {
 			"eng": "You can unlock higher gathering zones by clearing ${difficulty} strongholds, the zone level is capped at your character level.",
 			"trans": "你可以透過清除${difficulty}地城來解鎖更高的採集區域，該區域的等級上限為你的角色等級。"
@@ -1358,16 +1370,40 @@
 		}
 	},
 	"blockedPlayerListPage": {
+		"emptyHint": {
+			"eng": "Block players from their profile to prevent them from contacting you",
+			"trans": "從個人資料頁封鎖該玩家以防止其與您聯絡"
+		},
 		"noBlockedPlayers": {
 			"eng": "No blocked players",
 			"trans": "沒有封鎖玩家"
 		},
 		"unblock": {
+			"confirm": {
+				"description": {
+					"eng": "This player will be able to contact you again",
+					"trans": "該玩家將能再次聯繫您"
+				},
+				"title": {
+					"eng": "Unblock ${playerName}?",
+					"trans": "解除對${playerName}的封鎖？"
+				}
+			},
 			"eng": "Unblock",
 			"trans": "解鎖"
 		}
 	},
 	"buff": {
+		"afkTaskExpMult1": {
+			"description": {
+				"eng": "Increase AFK task EXP for all gang members by ${percent}% for ${hours} hours",
+				"trans": "提升所有幫派成員掛機任務經驗值${percent}%，持續${hours}小時"
+			},
+			"name": {
+				"eng": "AFK Task EXP Multiplier",
+				"trans": "掛機任務經驗倍率"
+			}
+		},
 		"defenseIncrease": {
 			"description": {
 				"eng": "Increase defense for all players in strongholds created by your gang members in ${minutes} minutes",
@@ -1376,6 +1412,36 @@
 			"name": {
 				"eng": "Defense Increase",
 				"trans": "防禦增加"
+			}
+		},
+		"gatherExpMult1": {
+			"description": {
+				"eng": "Increase auto gather EXP for all gang members by ${percent}% for ${minutes} minutes",
+				"trans": "為所有幫派成員提升自動獲取經驗值 ${percent}%，持續 ${minutes} 分鐘。"
+			},
+			"name": {
+				"eng": "Auto Gather EXP Multiplier I",
+				"trans": "自動收集經驗值倍率一"
+			}
+		},
+		"gatherExpMult2": {
+			"description": {
+				"eng": "Increase auto gather EXP for all gang members by ${percent}% for ${minutes} minutes",
+				"trans": "為所有幫派成員提升自動獲取經驗值 ${percent}%，持續 ${minutes} 分鐘。"
+			},
+			"name": {
+				"eng": "Auto Gather EXP Multiplier II",
+				"trans": "自動收集經驗倍率 II"
+			}
+		},
+		"gatherExpMult3": {
+			"description": {
+				"eng": "Increase auto gather EXP for all gang members by ${percent}% for ${minutes} minutes",
+				"trans": "為所有幫派成員提升自動獲取經驗值 ${percent}%，持續 ${minutes} 分鐘。"
+			},
+			"name": {
+				"eng": "Auto Gather EXP Multiplier III",
+				"trans": "自動收集經驗值倍率 III"
 			}
 		},
 		"lootIncrease": {
@@ -1625,6 +1691,10 @@
 			}
 		},
 		"error": {
+			"cannotKickSelf": {
+				"eng": "You cannot kick yourself",
+				"trans": "你無法踢自己"
+			},
 			"clanIsFull": {
 				"eng": "this gang is current at max member capacity",
 				"trans": "這個幫派目前已滿員。"
@@ -1662,9 +1732,35 @@
 				}
 			}
 		},
+		"playerList": {
+			"header": {
+				"eng": "Personnel Roster",
+				"trans": "人員名冊"
+			},
+			"status": {
+				"eng": "Operational Status: Active",
+				"trans": "運作狀態：正常"
+			},
+			"units": {
+				"eng": "Units",
+				"trans": "單位"
+			}
+		},
 		"requestSent": {
 			"eng": "Request sent successfully",
 			"trans": "請求已成功發送"
+		},
+		"role": {
+			"commander": {
+				"eng": "COMMANDER",
+				"trans": "指揮官"
+			}
+		},
+		"war": {
+			"badge": {
+				"eng": "WAR",
+				"trans": "戰爭"
+			}
 		}
 	},
 	"clanBuffDeployPopup": {
@@ -1726,7 +1822,49 @@
 				"trans": "存入資金"
 			}
 		},
-		"editMottoButton": {
+		"depositSuccess": {
+			"eng": "Deposited ${amount} funds",
+			"trans": "已存入${amount}資金"
+		},
+		"disbandClan": {
+			"eng": "Disband Gang",
+			"trans": "解散幫派"
+		},
+		"disbandClanModal": {
+			"description": {
+				"eng": "Are you sure you want to disband this gang? This action cannot be undone.",
+				"trans": "您確定要解散這個幫派嗎？此動作無法撤銷。"
+			},
+			"title": {
+				"eng": "Disband gang",
+				"trans": "解散幫派"
+			}
+		},
+		"disbandLocked": {
+			"engagementLocked": {
+				"eng": "Cannot disband while members have recently engaged in war combat",
+				"trans": "當成員近期參與過戰爭戰鬥時，無法解散"
+			},
+			"warActive": {
+				"eng": "Cannot disband while war mode is active. Disable war mode first.",
+				"trans": "無法在戰爭模式下解散，請先關閉該模式。"
+			}
+		},
+		"disbandStatus": {
+			"engagementLocked": {
+				"eng": "Members recently engaged in war combat. Available in:",
+				"trans": "近期投入實戰的成員。可用於："
+			},
+			"title": {
+				"eng": "DISBAND LOCKED",
+				"trans": "解散鎖定"
+			},
+			"warActive": {
+				"eng": "Cannot disband while war mode is active. Disable war mode first.",
+				"trans": "戰爭模式下無法解散。請先關閉戰爭模式。"
+			}
+		},
+		"editMotto": {
 			"eng": "Edit Motto",
 			"trans": "編輯座右銘"
 		},
@@ -1745,7 +1883,7 @@
 			"trans": "加入"
 		},
 		"leaveClan": {
-			"eng": "leave gang",
+			"eng": "Leave Gang",
 			"trans": "離開幫派"
 		},
 		"leaveClanModal": {
@@ -1757,14 +1895,6 @@
 				"eng": "Leave gang",
 				"trans": "離開幫派"
 			}
-		},
-		"makePrivate": {
-			"eng": "Make Private",
-			"trans": "設為私人"
-		},
-		"makePublic": {
-			"eng": "Make Public",
-			"trans": "公開化"
 		},
 		"mottoModal": {
 			"description": {
@@ -1784,23 +1914,19 @@
 			"eng": "There is no motto set for this gang yet",
 			"trans": "這個幫派還沒有座右銘。"
 		},
-		"noticeModal": {
-			"description": {
-				"eng": "Posting a notice will cost ${Config.CLAN.NOTICE_POST_COST}${CurrencyType.NORMAL.getSymbol()}",
-				"trans": "發布公告將耗費 ${Config.CLAN.NOTICE_POST_COST}${CurrencyType.NORMAL.getSymbol()}"
-			},
-			"title": {
-				"eng": "Post gang notice",
-				"trans": "發布幫派公告"
-			}
-		},
 		"playerListButton": {
 			"eng": "Member List",
 			"trans": "成員清單"
 		},
-		"postNoticeButton": {
-			"eng": "Post Notice",
-			"trans": "發布公告"
+		"publicToggle": {
+			"private": {
+				"eng": "Private",
+				"trans": "私人"
+			},
+			"public": {
+				"eng": "Public",
+				"trans": "公共"
+			}
 		},
 		"requestToJoinButton": {
 			"eng": "Request to join",
@@ -1809,10 +1935,6 @@
 		"resources": {
 			"eng": "Resources",
 			"trans": "資源"
-		},
-		"setImageButton": {
-			"eng": "Set Image",
-			"trans": "設置圖像"
 		},
 		"upkeepTip": {
 			"eng": "Ensure there is enough resources and funds to avoid losing the gang on the next upkeep date.",
@@ -1851,26 +1973,18 @@
 			}
 		}
 	},
-	"clanPlayer": {
-		"controlPointContributed": {
-			"eng": "control points: ${amount}",
-			"trans": "控制點數量：${amount}"
-		},
-		"fundsContributed": {
-			"eng": "funds: ${amount}",
-			"trans": "資金：${amount}"
-		},
-		"resourceContributed": {
-			"eng": "resource: ${amount}",
-			"trans": "資源: ${amount}"
-		},
-		"thisWeek": {
-			"eng": "this week",
-			"trans": "本週"
-		},
-		"total": {
-			"eng": "total",
-			"trans": "總計"
+	"clanMenuModal": {
+		"warWarning": {
+			"joinDescription": {
+				"eng": "This gang is in WAR MODE. Joining will expose you to War PvP attacks with ${hours} hours lock. Continue?",
+				"trans": "此幫派處於戰爭模式。加入將使你面臨戰爭 PVP 攻擊，並有${hours}小時的鎖定限制。確定繼續？"
+			}
+		}
+	},
+	"clanPlayerListPage": {
+		"memberCount": {
+			"eng": "${count} members",
+			"trans": "${count} 名成員"
 		}
 	},
 	"clanPlayerPermissionModal": {
@@ -1884,6 +1998,14 @@
 		}
 	},
 	"clanPlayerPopup": {
+		"disableWarParticipation": {
+			"eng": "Disable War Participation",
+			"trans": "停止參與戰爭"
+		},
+		"enableWarParticipation": {
+			"eng": "Enable War Participation",
+			"trans": "啟用戰爭參與"
+		},
 		"kickPlayerButton": {
 			"eng": "kick player",
 			"trans": "踢出玩家"
@@ -1891,6 +2013,14 @@
 		"setPermissionButton": {
 			"eng": "Edit Permissions",
 			"trans": "編輯權限"
+		},
+		"statusActive": {
+			"eng": "ACTIVE",
+			"trans": "生效中"
+		},
+		"statusInactive": {
+			"eng": "INACTIVE",
+			"trans": "非活躍"
 		},
 		"transferOwnership": {
 			"eng": "Transfer Ownership",
@@ -1901,8 +2031,16 @@
 			"trans": "轉移所有權"
 		},
 		"transferOwnershipConfirm": {
-			"eng": "Are you sure you want to transfer ownership of the gang to ${playerName}?\\nthis cannot be undone.",
-			"trans": "你確定要將幫派所有權轉移給${playerName}嗎？\\n這將無法撤銷。"
+			"eng": "Are you sure you want to transfer ownership of the gang to ${playerName}.\\nthis cannot be undone.",
+			"trans": "您確定要將幫派所有權轉移給${playerName}嗎？\n此操作不可逆轉。"
+		},
+		"warStatus": {
+			"eng": "War Participation",
+			"trans": "戰爭參與"
+		},
+		"warToggleCooldown": {
+			"eng": "Cooldown: ${time}",
+			"trans": "冷卻時間:${time}"
 		}
 	},
 	"clanSearchPage": {
@@ -1963,6 +2101,247 @@
 				"eng": "View profile",
 				"trans": "查看個人資料"
 			}
+		}
+	},
+	"clanTabContent": {
+		"noticeModal": {
+			"description": {
+				"eng": "Posting a notice will cost ${cost}${symbol}",
+				"trans": "發布公告將花費 ${cost}${symbol}"
+			},
+			"title": {
+				"eng": "Post gang notice",
+				"trans": "發布帮派公告"
+			}
+		}
+	},
+	"clanTabNoClanContent": {
+		"warWarning": {
+			"joinDescription": {
+				"eng": "This gang is in WAR MODE. Joining will expose you to PvP attacks and 24h participation locks. Continue?",
+				"trans": "此幫派處於戰爭模式。加入後將面臨 PVP 攻擊及 24 小時參與鎖定。確定繼續？"
+			}
+		}
+	},
+	"clanWar": {
+		"chat": {
+			"deathBroadcast": {
+				"eng": "${victimPlayer} was eliminated by ${killerPlayer} from ${gang}",
+				"trans": "${victimPlayer} 被${killerPlayer}，來自${gang}消滅"
+			},
+			"killBroadcast": {
+				"eng": "${killerPlayer} has eliminated ${victimPlayer} from ${gang}",
+				"trans": "${killerPlayer}已將${victimPlayer}從${gang}除名"
+			},
+			"milestoneReached": {
+				"eng": "${count} kill streak! +${reward} war score",
+				"trans": "${count} 連殺！+${reward} 戰爭積分"
+			},
+			"warStateOn": {
+				"eng": "${gang} has declared war",
+				"trans": "${gang}已宣戰"
+			}
+		},
+		"dangerModal": {
+			"enableDescription": {
+				"eng": "Enabling WAR MODE will expose ALL gang members to PvP attacks. Opting out will be LOCKED for 24 hours. Proceed?",
+				"trans": "啟用 WAR MODE 將使所有幫派成員暴露於 PvP 攻擊之下。退出選項將在 24 小時內被鎖定。確定繼續？"
+			},
+			"requestDescription": {
+				"eng": "This gang is in WAR MODE. If accepted, joining will expose you to PvP attacks and 24h participation locks. Continue?",
+				"trans": "此幫派已進入戰爭模式。若確認加入，你將暴露於 PVP 攻擊及 24 小時參與鎖定下。是否繼續？"
+			},
+			"title": {
+				"eng": "WAR MODE WARNING",
+				"trans": "開啟戰爭模式"
+			}
+		},
+		"disableModal": {
+			"description": {
+				"eng": "Are you sure you want to disable war mode? Your gang will no longer be able to earn war score.",
+				"trans": "你確定要停用戰爭模式嗎？你的幫派將無法再獲得戰爭積分。"
+			},
+			"title": {
+				"eng": "Disable War Mode",
+				"trans": "關閉戰爭模式"
+			}
+		},
+		"error": {
+			"cannotToggleMember": {
+				"eng": "Cannot toggle this member's participation. They may not exist or cooldown is active",
+				"trans": "無法切換此成員的參與狀態。該成員可能不存在或是正處於冷卻時間中。"
+			},
+			"disbandEngaged": {
+				"eng": "You cannot disband the gang while members have recently engaged in war combat",
+				"trans": "當成員剛參與過戰爭戰鬥時，無法解散幫派。"
+			},
+			"disbandWarActive": {
+				"eng": "You cannot disband the gang while war mode is active",
+				"trans": "無法在戰爭模式啟用時解散幫派"
+			},
+			"kickLocked": {
+				"eng": "Cannot kick a member who has recently engaged in war combat",
+				"trans": "無法將近期參與過戰爭的成員踢出。"
+			},
+			"leaderOnly": {
+				"eng": "Only the gang leader can perform this action",
+				"trans": "只有幫派首領才能執行此操作"
+			},
+			"leaveLocked": {
+				"eng": "You cannot leave the gang while you have recently engaged in war combat",
+				"trans": "近期參與戰爭期間無法退出帮派"
+			},
+			"notEnoughWarPoints": {
+				"eng": "Your gang does not have enough war points",
+				"trans": "您的幫派沒有足夠的戰爭點數"
+			},
+			"notWarBuff": {
+				"eng": "This buff cannot be deployed during gang war",
+				"trans": "此增益無法在幫派戰爭期間部署。"
+			},
+			"optOutLocked": {
+				"eng": "Cannot disable war mode yet. 24h lock-in period is still active",
+				"trans": "目前無法解除戰爭模式，24 小時鎖定期間尚未結束。"
+			},
+			"warStateRequired": {
+				"eng": "Your gang must be in war state to deploy war buffs",
+				"trans": "您的幫派必須處於戰爭狀態才能部署戰時增益"
+			},
+			"wip": {
+				"eng": "This feature is currently under development"
+			}
+		},
+		"lockedFeedback": {
+			"eng": "War mode is locked until ${date}",
+			"trans": "戰爭模式鎖定至 ${date}"
+		},
+		"notification": {
+			"hospitalized": {
+				"eng": "You have been hospitalized from a gang war defeat. Recovery time: ${duration} minutes.",
+				"trans": "你因在幫派戰爭中戰敗而住院。恢復時間：${duration}分鐘。"
+			},
+			"milestoneReached": {
+				"eng": "Your gang has reached a ${count} kill streak and earned ${reward} war score!",
+				"trans": "你的幫派已達成${count}連殺，並獲得${reward}戰爭分數！"
+			},
+			"participationDisabled": {
+				"eng": "You have been removed from war participation by your gang leader. Your kills will no longer count towards gang war score.",
+				"trans": "你已被你的幫派首領移除參戰資格。你的擊殺將不再計入幫派戰爭得分。"
+			},
+			"participationEnabled": {
+				"eng": "You have been added to war participation by your gang leader. You can now participate in gang wars.",
+				"trans": "你的幫派首領已將你列入參戰名單，現可參與帮派戰爭。"
+			},
+			"warStateOff": {
+				"eng": "Your gang leader has disabled war mode. Your gang is no longer a war target.",
+				"trans": "你的幫派首領已停用戰爭模式。組織不再為攻擊目標。"
+			},
+			"warStateOn": {
+				"eng": "Your gang leader has activated war mode for your gang!",
+				"trans": "你們的幫派頭目已為你們開啟戰爭模式！"
+			}
+		},
+		"tutorialLink": {
+			"eng": "Learn more about Gang War",
+			"trans": "了解更多關於幫派戰爭"
+		}
+	},
+	"clanWarPage": {
+		"header": {
+			"currentScore": {
+				"eng": "TOTAL WAR SCORE",
+				"trans": "總戰績分"
+			},
+			"stack": {
+				"eng": "STACK",
+				"trans": "堆疊"
+			},
+			"warPoints": {
+				"eng": "PTS",
+				"trans": "PTS"
+			}
+		},
+		"milestone": {
+			"progressText": {
+				"eng": "${current} / ${target} STACKS",
+				"trans": "${current} / ${target} 堆疊"
+			},
+			"reward": {
+				"eng": "BONUS",
+				"trans": "獎勵"
+			},
+			"stacks": {
+				"eng": "STACKS",
+				"trans": "層數"
+			}
+		},
+		"milestones": {
+			"end": {
+				"eng": "END OF OPERATION",
+				"trans": "作業結束"
+			},
+			"operation": {
+				"eng": "OPERATION",
+				"trans": "操作"
+			},
+			"title": {
+				"eng": "WAR MILESTONES",
+				"trans": "戰爭里程碑"
+			},
+			"total_stacks": {
+				"eng": "TOTAL STACK",
+				"trans": "總堆疊"
+			},
+			"unit": {
+				"eng": "STK",
+				"trans": "STK"
+			}
+		},
+		"noClan": {
+			"eng": "NO GANG DATA FOUND",
+			"trans": "未找到幫派資料"
+		},
+		"status": {
+			"active": {
+				"eng": "WAR ACTIVE",
+				"trans": "戰爭已啟動"
+			},
+			"inactive": {
+				"eng": "WAR INACTIVE",
+				"trans": "戰爭停用"
+			}
+		}
+	},
+	"clanWarPanel": {
+		"enableWarModal": {
+			"title": {
+				"eng": "ENABLE WAR MODE",
+				"trans": "開啟戰爭模式"
+			}
+		},
+		"leaderOnlyToggle": {
+			"eng": "Only the gang leader can toggle war mode",
+			"trans": "僅幫派首領可切換戰爭模式"
+		},
+		"locked": {
+			"eng": "Lock:",
+			"trans": "鎖定:"
+		},
+		"score": {
+			"eng": "War Score",
+			"trans": "戰爭分數"
+		},
+		"stack": {
+			"eng": "Stack",
+			"trans": "堆疊"
+		},
+		"warOff": {
+			"eng": "War OFF",
+			"trans": "戰爭關閉"
+		},
+		"warOn": {
+			"eng": "War ON",
+			"trans": "戰爭開啟"
 		}
 	},
 	"collectedLoreNotes": {
@@ -2193,6 +2572,10 @@
 		"psychosis": {
 			"eng": "+ ${amount} psychosis",
 			"trans": "+ ${amount} 網路狂躁症"
+		},
+		"warPoints": {
+			"eng": "${amount} war points",
+			"trans": "${amount} 戰爭點數"
 		}
 	},
 	"coupon": {
@@ -2210,13 +2593,17 @@
 			"eng": "Enter your gift code to get your reward.",
 			"trans": "輸入您的優惠碼以獲得獎勵。"
 		},
+		"hint": {
+			"eng": "Codes are case-insensitive",
+			"trans": "代碼不區分大小寫"
+		},
 		"inputTitle": {
 			"eng": "Gift Code",
 			"trans": "優惠碼"
 		},
 		"submitButton": {
-			"eng": "Submit",
-			"trans": "提交"
+			"eng": "Redeem Code",
+			"trans": "兌換碼"
 		},
 		"title": {
 			"eng": "Gift Code",
@@ -2357,16 +2744,6 @@
 				"eng": "Universal Dollars",
 				"trans": "通用幣"
 			}
-		}
-	},
-	"currencyCheck": {
-		"getMore": {
-			"eng": "get more",
-			"trans": "獲取更多"
-		},
-		"notEnough": {
-			"eng": "Insufficient ${currency}",
-			"trans": "${currency}不足"
 		}
 	},
 	"dailyQuestTab": {
@@ -2561,6 +2938,24 @@
 		"dismantleButton": {
 			"eng": "Dismantle",
 			"trans": "拆解"
+		},
+		"itemCount": {
+			"eng": "${count} items",
+			"trans": "${count}件物品"
+		},
+		"sort": {
+			"level": {
+				"eng": "Level",
+				"trans": "等級"
+			},
+			"name": {
+				"eng": "Name",
+				"trans": "名稱"
+			},
+			"tier": {
+				"eng": "Tier",
+				"trans": "等級"
+			}
 		}
 	},
 	"displayShelf": {
@@ -2769,6 +3164,26 @@
 			}
 		}
 	},
+	"dungeonBackpackPage": {
+		"itemCount": {
+			"eng": "${count} items",
+			"trans": "${count} 件物品"
+		},
+		"sort": {
+			"level": {
+				"eng": "Level",
+				"trans": "等級"
+			},
+			"name": {
+				"eng": "Name",
+				"trans": "名稱"
+			},
+			"tier": {
+				"eng": "Tier",
+				"trans": "等級"
+			}
+		}
+	},
 	"dungeonChoicePopup": {
 		"actionsTitle": {
 			"eng": "Choose your action",
@@ -2947,6 +3362,10 @@
 				"eng": "${playerName}'s lobby",
 				"trans": "${playerName}的大廳"
 			}
+		},
+		"lobbyCount": {
+			"eng": "${count} lobbies",
+			"trans": "${count} 個大廳"
 		},
 		"noLobbiesFound": {
 			"eng": "No lobbies found",
@@ -3139,6 +3558,12 @@
 				"eng": "Wow",
 				"trans": "酷"
 			}
+		}
+	},
+	"emptyState": {
+		"defaultTitle": {
+			"eng": "No records found",
+			"trans": "找不到紀錄"
 		}
 	},
 	"enemyEvent": {
@@ -3431,6 +3856,18 @@
 		"submit3": {
 			"eng": "Submit",
 			"trans": "提交"
+		}
+	},
+	"filteredItemList": {
+		"noSearchResults": {
+			"eng": "No items matching \"${query}\"",
+			"trans": "沒有符合\"${query}\"的物品"
+		},
+		"search": {
+			"placeholder": {
+				"eng": "Search items...",
+				"trans": "搜尋物品..."
+			}
 		}
 	},
 	"firstPurchasePromoSmall": {
@@ -3806,6 +4243,10 @@
 				"trans": "您沒有足夠的資金來建立幫派。"
 			}
 		},
+		"createSuccess": {
+			"eng": "Gang \"${name}\" created!",
+			"trans": "幫派\"${name}\"已成功建立！"
+		},
 		"editMotto": {
 			"error": {
 				"levelNoAlts": {
@@ -4007,6 +4448,22 @@
 			}
 		}
 	},
+	"hitListPage": {
+		"bountyCount": {
+			"eng": "${count} bounties",
+			"trans": "${count} 項懸賞"
+		},
+		"sort": {
+			"level": {
+				"eng": "Level",
+				"trans": "等級"
+			},
+			"price": {
+				"eng": "Price",
+				"trans": "價格"
+			}
+		}
+	},
 	"hitlist": {
 		"loading": {
 			"eng": "Loading bounties...",
@@ -4057,6 +4514,48 @@
 				"eng": "A bounty has been placed on your head, current bounty - Eurodollar: ${money}, Universal Dollar: ${uni}",
 				"trans": "您被懸賞了，目前賞金 - 歐元：${money}，通用幣：${uni}"
 			}
+		}
+	},
+	"hospitalizedScreen": {
+		"leaveHospital": {
+			"eng": "DISCHARGE // CONFIRM",
+			"trans": "洩放 // 確認"
+		},
+		"statusCritical": {
+			"eng": "SYS: VITALS CRITICAL",
+			"trans": "系統：生命值危機"
+		},
+		"statusRecovered": {
+			"eng": "RECOVERY_COMPLETE",
+			"trans": "恢復完成"
+		},
+		"statusStable": {
+			"eng": "SYS: VITALS STABLE",
+			"trans": "系統：生命徵象穩定"
+		},
+		"statusTag": {
+			"eng": "OVR_DENIED",
+			"trans": "覆寫遭拒"
+		},
+		"sysHeader": {
+			"eng": "SYS.MED_PROTOCOL",
+			"trans": "系統醫療協議"
+		},
+		"timeRemaining": {
+			"eng": "EST. RECOVERY TIME",
+			"trans": "預計恢復時間"
+		},
+		"title": {
+			"eng": "HOSPITALIZED",
+			"trans": "住院中"
+		},
+		"useMedkit": {
+			"eng": "ADMINISTER MEDKIT",
+			"trans": "使用醫療包"
+		},
+		"useMedkitDesc": {
+			"eng": "[-1 HR RECOVERY]",
+			"trans": "[-1 小時恢復]"
 		}
 	},
 	"hostilePlayerListPage": {
@@ -4368,10 +4867,6 @@
 			"eng": "Error loading clue",
 			"trans": "載入線索失敗"
 		},
-		"evidence": {
-			"eng": "Evidence",
-			"trans": "證據"
-		},
 		"evidenceAcquired": {
 			"eng": "Evidence Logged - ACPD Database",
 			"trans": "證據已登錄 - 幻光市警局資料庫"
@@ -4379,6 +4874,10 @@
 		"evidenceMismatch": {
 			"eng": "The submitted conclusion does not align with available evidence patterns.",
 			"trans": "提交的結論與現有證據模式不符。"
+		},
+		"evidenceNumber": {
+			"eng": "Evidence #${number}",
+			"trans": "證據 #${number}"
 		},
 		"goToVerdict": {
 			"eng": "Go to verdict ${num}",
@@ -4810,6 +5309,10 @@
 			"cantEquipFromBackpack": {
 				"eng": "You cannot equip equipment from your backpack",
 				"trans": "您無法從背包裝上裝備"
+			},
+			"notHospitalized": {
+				"eng": "You can only use this item while hospitalized",
+				"trans": "您只能在住院期間使用此物品。"
 			}
 		},
 		"levelUpBar": {
@@ -5528,6 +6031,16 @@
 			"name": {
 				"eng": "Egg",
 				"trans": "蛋"
+			}
+		},
+		"emergencyMedkit": {
+			"description": {
+				"eng": "A field-grade trauma kit containing synthetic coagulants and adrenaline boosters. Reduces hospitalization time by 1 hour when administered.",
+				"trans": "野戰級創傷急救包，內含合成凝血劑與腎上腺素增幅劑。使用後縮短 1 小時住院時間。"
+			},
+			"name": {
+				"eng": "Emergency Medkit",
+				"trans": "緊急醫療包"
 			}
 		},
 		"energyGun": {
@@ -7202,6 +7715,12 @@
 				"trans": "幫派等級"
 			}
 		},
+		"clanWar": {
+			"name": {
+				"eng": "Gang War Score",
+				"trans": "幫派戰爭分數"
+			}
+		},
 		"level": {
 			"name": {
 				"eng": "Character Level",
@@ -7273,6 +7792,20 @@
 				"eng": "Stock Realized Profit",
 				"trans": "已實現利潤"
 			}
+		}
+	},
+	"leaderboardDetails": {
+		"empty": {
+			"eng": "No rankings yet",
+			"trans": "暫無排名"
+		},
+		"loading": {
+			"eng": "Loading rankings...",
+			"trans": "載入排名中..."
+		},
+		"warScore": {
+			"eng": "WAR SCORE",
+			"trans": "戰爭分數"
 		}
 	},
 	"leaderboardTypes": {
@@ -7543,6 +8076,10 @@
 		"legendClaimable": {
 			"eng": "Claimable",
 			"trans": "可領取"
+		},
+		"legendClaimed": {
+			"eng": "Claimed",
+			"trans": "已領取"
 		},
 		"legendMilestone": {
 			"eng": "Milestone",
@@ -7817,6 +8354,16 @@
 				"eng": "System Message",
 				"trans": "系統訊息"
 			}
+		},
+		"warAttackFailed": {
+			"attacker": {
+				"eng": "Your gang war strike against ${playerName} failed, you lost ${amount}",
+				"trans": "針對${playerName}的幫派戰爭攻擊失敗，您損失了${amount}"
+			},
+			"defender": {
+				"eng": "${playerName} launched a gang war strike against you but you fought back and won",
+				"trans": "${playerName}向你發動幫派戰爭襲擊，但你反擊並取得了勝利。"
+			}
 		}
 	},
 	"mailDetails": {
@@ -8076,6 +8623,14 @@
 			"eng": "Black Market",
 			"trans": "黑市"
 		},
+		"clanUpkeep": {
+			"eng": "Gang Upkeep",
+			"trans": "幫派維護"
+		},
+		"clanWar": {
+			"eng": "Gang War",
+			"trans": "幫派戰"
+		},
 		"currency": {
 			"eng": "Currency",
 			"trans": "貨幣"
@@ -8095,10 +8650,6 @@
 		"followUpLottery": {
 			"eng": "Follow Up Lottery",
 			"trans": "跟進抽獎"
-		},
-		"gangUpkeep": {
-			"eng": "Gang Upkeep",
-			"trans": "幫派維護費用"
 		},
 		"hideoutRaid": {
 			"eng": "Hideout Raid",
@@ -8265,6 +8816,18 @@
 		"noItem": {
 			"eng": "There is no item",
 			"trans": "沒有物品。"
+		}
+	},
+	"marketMyItemsPage": {
+		"emptySlot": {
+			"eng": "List Item",
+			"trans": "列表項目"
+		},
+		"header": {
+			"title": {
+				"eng": "Market Listings",
+				"trans": "市場清單"
+			}
 		}
 	},
 	"marketPurchaseModal": {
@@ -8468,6 +9031,10 @@
 			"eng": "Level Up",
 			"trans": "升等"
 		},
+		"resonate": {
+			"eng": "Resonate",
+			"trans": "共振"
+		},
 		"stats": {
 			"title": {
 				"eng": "stats",
@@ -8633,6 +9200,24 @@
 		"noMercenaries": {
 			"eng": "You do not have any mercenaries in your contact",
 			"trans": "您的聯絡人中沒有傭兵。"
+		},
+		"sort": {
+			"level": {
+				"eng": "Level",
+				"trans": "等級"
+			},
+			"name": {
+				"eng": "Name",
+				"trans": "名稱"
+			},
+			"skill": {
+				"eng": "Skill",
+				"trans": "技能"
+			},
+			"tier": {
+				"eng": "Tier",
+				"trans": "等級"
+			}
 		},
 		"tip": {
 			"default": {
@@ -8852,6 +9437,12 @@
 			"eng": "RESONANCE COMPLETE",
 			"trans": "共振完成"
 		},
+		"mythicCinematic": {
+			"tapToContinue": {
+				"eng": "TAP SCREEN",
+				"trans": "點擊螢幕"
+			}
+		},
 		"mythicTitle1": {
 			"eng": "MYTHIC",
 			"trans": "神話"
@@ -8868,6 +9459,12 @@
 			"eng": "AWAKENING RESULT",
 			"trans": "覺醒結果"
 		},
+		"standardAwakening": {
+			"tapToContinue": {
+				"eng": "TAP TO CONTINUE",
+				"trans": "點擊繼續"
+			}
+		},
 		"sys": {
 			"protocol": {
 				"eng": "Awakening protocol finalized",
@@ -8881,10 +9478,6 @@
 				"eng": "Neural synchronization successful",
 				"trans": "神經同步成功"
 			}
-		},
-		"tapToContinue": {
-			"eng": "TAP TO CONTINUE",
-			"trans": "點擊繼續"
 		}
 	},
 	"mercenarySelectPopup": {
@@ -9032,8 +9625,8 @@
 				"trans": "存取已授權"
 			},
 			"breachProgress": {
-				"eng": "BREACH PROGRESS",
-				"trans": "突破進度"
+				"eng": "BREACH PROGRESS: ${percent}%",
+				"trans": "入侵進度：${percent}%"
 			},
 			"example": {
 				"eng": "Example of obfuscated code:",
@@ -9396,6 +9989,10 @@
 			"eng": "Eurodollars",
 			"trans": "歐元"
 		},
+		"deselectAll": {
+			"eng": "Deselect All",
+			"trans": "取消全選"
+		},
 		"exchange": {
 			"eng": "Exchange",
 			"trans": "交易所"
@@ -9445,8 +10042,8 @@
 			"trans": "購買"
 		},
 		"selectAll": {
-			"eng": "All",
-			"trans": "全部"
+			"eng": "Select All",
+			"trans": "全選"
 		},
 		"upgrade": {
 			"eng": "upgrade",
@@ -9456,11 +10053,11 @@
 	"modal": {
 		"selectAmountModal": {
 			"cancel": {
-				"eng": "cancel",
+				"eng": "Cancel",
 				"trans": "取消"
 			},
 			"confirm": {
-				"eng": "confirm",
+				"eng": "Confirm",
 				"trans": "確認"
 			},
 			"invalidAmount": {
@@ -9998,6 +10595,10 @@
 				"trans": "您已經加入一個幫派了"
 			}
 		},
+		"count": {
+			"eng": "${count} notifications",
+			"trans": "${count} 則通知"
+		},
 		"lobbyInvite": {
 			"accept": {
 				"eng": "Accept",
@@ -10012,6 +10613,12 @@
 			"title": {
 				"eng": "No notification",
 				"trans": "無通知"
+			}
+		},
+		"warWarning": {
+			"joinDescription": {
+				"eng": "This gang is in WAR MODE. Joining will expose you to war PvP attacks for ${hours} hours lock. Continue?",
+				"trans": "該帮派已進入戰爭模式。加入後，你將在 ${hours} 小時內暴露於 PvP 攻擊並被鎖定。繼續？"
 			}
 		}
 	},
@@ -10386,6 +10993,14 @@
 			"upgrade": {
 				"eng": "Upgrade",
 				"trans": "升級"
+			},
+			"warBuff": {
+				"eng": "War Buffs",
+				"trans": "戰鬥增益"
+			},
+			"warIntel": {
+				"eng": "War Intel",
+				"trans": "戰爭情報"
 			}
 		},
 		"generalStore": {
@@ -10607,6 +11222,46 @@
 		"upgradeButton": {
 			"eng": "Upgrade my equipment",
 			"trans": "升級我的裝備"
+		},
+		"warQuartermaster": {
+			"buffDeployment": {
+				"description": {
+					"eng": "Deploy tactical buffs for your gang",
+					"trans": "為你的幫派部署戰術增益"
+				},
+				"label": {
+					"eng": "TACTICAL OPS",
+					"trans": "戰術行動"
+				},
+				"title": {
+					"eng": "War Buff Deployment",
+					"trans": "戰鬥增益部署"
+				}
+			},
+			"description": {
+				"eng": "A secure war command terminal where your gang reviews active enhancements and deploys new combat support buffs.",
+				"trans": "安全的戰爭指揮終端，供你的幫派檢視當前生效強化項目並部署新的戰鬥支援增益。"
+			},
+			"greetings": {
+				"eng": [
+					"War command online. State your objective.",
+					"Frontline telemetry synced. Buff deployment terminal is ready.",
+					"Gang war resources are live. Coordinate before you spend."
+				],
+				"trans": [
+					"戰爭指揮系統已連線，請陳述您的任務目標。",
+					"前線遙測已同步。增益部署終端就緒。",
+					"幫派戰爭資源已啟動，請在消費前進行協調。"
+				]
+			},
+			"locationName": {
+				"eng": "War Command Center",
+				"trans": "戰爭指揮中心"
+			},
+			"npcName": {
+				"eng": "Quartermaster Vane",
+				"trans": "軍需官維恩"
+			}
 		},
 		"weaponSmith": {
 			"description": {
@@ -10980,6 +11635,28 @@
 		}
 	},
 	"playerDetailsPage": {
+		"action": {
+			"addFriend": {
+				"eng": "Add Friend",
+				"trans": "新增好友"
+			},
+			"attack": {
+				"eng": "Attack",
+				"trans": "攻擊"
+			},
+			"mail": {
+				"eng": "Mail",
+				"trans": "郵件"
+			},
+			"unfriend": {
+				"eng": "Unfriend",
+				"trans": "解除好友"
+			}
+		},
+		"attackHospitalized": {
+			"eng": "Target is currently hospitalized. Combat unavailable.",
+			"trans": "目標目前住院中。無法進行戰鬥。"
+		},
 		"attribute": {
 			"confirm": {
 				"eng": "Apply",
@@ -10991,29 +11668,13 @@
 			}
 		},
 		"menu": {
-			"addFriend": {
-				"eng": "Add Friend",
-				"trans": "新增好友"
-			},
 			"block": {
 				"eng": "Block",
 				"trans": "封鎖"
 			},
-			"close": {
-				"eng": "attack",
-				"trans": "攻擊"
-			},
-			"removeFriend": {
-				"eng": "Remove Friend",
-				"trans": "移除好友"
-			},
 			"report": {
 				"eng": "Report",
 				"trans": "檢舉"
-			},
-			"sendMessage": {
-				"eng": "Send Mail",
-				"trans": "傳送訊息"
 			},
 			"unblock": {
 				"eng": "Unblock",
@@ -11576,6 +12237,18 @@
 			"successBounty": {
 				"eng": "You received bounty of ${money1} and ${money2} for eliminating ${targetPlayer}",
 				"trans": "你因消滅${targetPlayer}而獲得${money1}和${money2}的賞金"
+			},
+			"warAttackAddedEnemy": {
+				"eng": "${playerName} struck you in a gang war assault, you lost ${currency}, this player has been added to your enemies list",
+				"trans": "${playerName} 在幫派戰中擊中了你，你損失了${currency}，此玩家已被加入你的敵人名單。"
+			},
+			"warAttackNoAddEnemy": {
+				"eng": "${playerName} struck you in a gang war assault, you lost ${currency}",
+				"trans": "${playerName} 在幫派戰的襲擊中攻擊你，導致你損失了${currency}"
+			},
+			"warAttackWin": {
+				"eng": "Your gang war strike against ${playerName} was successful, you earned ${currency}",
+				"trans": "你的幫派戰對${playerName}的襲擊成功，你獲得了${currency}。"
 			}
 		},
 		"toast": {
@@ -11694,6 +12367,10 @@
 			"eng": "Daily Quests",
 			"trans": "每日任務"
 		},
+		"inProgress": {
+			"eng": "In Progress",
+			"trans": "進行中"
+		},
 		"investigations": {
 			"eng": "Investigations",
 			"trans": "調查"
@@ -11705,6 +12382,10 @@
 		"npcQuests": {
 			"eng": "Quests",
 			"trans": "任務"
+		},
+		"readyToTurnIn": {
+			"eng": "Ready to Turn In",
+			"trans": "準備交付"
 		}
 	},
 	"questPreview": {
@@ -11877,6 +12558,10 @@
 		"reportReason": {
 			"eng": "Report Reason",
 			"trans": "檢舉原因"
+		},
+		"reportSuccess": {
+			"eng": "Report submitted successfully",
+			"trans": "報告已成功提交"
 		}
 	},
 	"reportType": {
@@ -12081,6 +12766,32 @@
 			"trans": "最小值"
 		}
 	},
+	"sendItem": {
+		"confirm": {
+			"eng": "Send",
+			"trans": "發送"
+		},
+		"confirmDescription": {
+			"eng": "Send ${amount}x ${itemName} to this player?",
+			"trans": "發送 ${amount}x ${itemName} 給此玩家嗎？"
+		},
+		"confirmTitle": {
+			"eng": "Confirm Send",
+			"trans": "確認發送"
+		},
+		"success": {
+			"eng": "Sent ${amount}x ${itemName}",
+			"trans": "已傳送 ${amount}x ${itemName}"
+		}
+	},
+	"sendItemPage": {
+		"selectAmount": {
+			"title": {
+				"eng": "Select amount to send",
+				"trans": "選擇要發送的數量"
+			}
+		}
+	},
 	"server": {
 		"clan": {
 			"join": {
@@ -12119,6 +12830,10 @@
 				"eng": "You cannot attack this player due to bounty contributor alt detection",
 				"trans": "因為偵測到此玩家是懸賞貢獻者的替代帳號，您無法攻擊他。"
 			},
+			"cannotEngageHospitalized": {
+				"eng": "This player is currently hospitalized and cannot be attacked",
+				"trans": "該玩家目前住院中，無法被攻擊"
+			},
 			"cannotEngageInDungeon": {
 				"eng": "You cannot engage in PvP while in a dungeon",
 				"trans": "在地下城中無法進行PvP戰鬥"
@@ -12130,6 +12845,10 @@
 			"cannotEngageProtectedPlayer": {
 				"eng": "This player is protected with ${item}, you cannot engage them at this moment",
 				"trans": "此玩家目前受到${item}的保護，您無法與其交戰。"
+			},
+			"cannotEngageSuspended": {
+				"eng": "You cannot engage this player right now",
+				"trans": "目前無法與該玩家進行互動"
 			},
 			"combatNotFound": {
 				"eng": "Combat has ended",
@@ -12145,7 +12864,7 @@
 			},
 			"levelTooDiff": {
 				"eng": "You cannot engage a player that is more than ${levelDiff} levels higher or below you",
-				"trans": "你無法攻擊比你高${levelDiff}級或低${levelDiff}級的玩家"
+				"trans": "你無法挑戰等級比你高或低於 ${levelDiff} 級的玩家"
 			},
 			"notEnoughMoneyPvp": {
 				"eng": "You need at least ${money} to engage in PvP",
@@ -12166,6 +12885,14 @@
 			"pvpArrestDismissed": {
 				"eng": "This player has already been arrested",
 				"trans": "此玩家已遭逮捕"
+			},
+			"warCannotEngageAlt": {
+				"eng": "You cannot attack this player due to alt detection",
+				"trans": "由於偵測到備用帳號，您無法攻擊此玩家"
+			},
+			"warLevelTooDiff": {
+				"eng": "You are too high level to attack this player",
+				"trans": "你的等級過高無法攻擊該玩家"
 			}
 		},
 		"combatLog": {
@@ -12294,6 +13021,10 @@
 			"cannotInviteSelf": {
 				"eng": "You cannot invite yourself",
 				"trans": "您無法邀請自己。"
+			},
+			"cannotKickSelf": {
+				"eng": "You cannot kick yourself",
+				"trans": "你無法踢自己"
 			},
 			"craeteNotIdle": {
 				"eng": "You must be idle to create a lobby",
@@ -12706,87 +13437,9 @@
 		}
 	},
 	"signalStrength": {
-		"info": {
-			"eng": "Signal increases only by recruiting mercenaries.",
-			"trans": "訊號只能透過招募傭兵提升。"
-		},
-		"status": {
-			"building": {
-				"v1": {
-					"1": {
-						"eng": "Chatter detected",
-						"trans": "偵測到通訊"
-					},
-					"2": {
-						"eng": "Names noted",
-						"trans": "已記錄名稱"
-					},
-					"3": {
-						"eng": "Signal building",
-						"trans": "訊號建造"
-					}
-				}
-			},
-			"hot": {
-				"v1": {
-					"1": {
-						"eng": "Elite presence",
-						"trans": "精英存在"
-					},
-					"2": {
-						"eng": "Strong resonance",
-						"trans": "強共振"
-					},
-					"3": {
-						"eng": "Lock pending",
-						"trans": "鎖定中"
-					}
-				}
-			},
-			"peak": {
-				"v1": {
-					"1": {
-						"eng": "Signal locked",
-						"trans": "訊號鎖定"
-					},
-					"2": {
-						"eng": "Elite ready",
-						"trans": "精英已就緒"
-					},
-					"3": {
-						"eng": "Contact imminent",
-						"trans": "即將接觸"
-					}
-				}
-			},
-			"quiet": {
-				"v1": {
-					"1": {
-						"eng": "Online",
-						"trans": "線上"
-					},
-					"2": {
-						"eng": "Signal active",
-						"trans": "訊號已啟動"
-					}
-				}
-			},
-			"rising": {
-				"v1": {
-					"1": {
-						"eng": "Talent in range",
-						"trans": "天賦在射程內"
-					},
-					"2": {
-						"eng": "Signal strong",
-						"trans": "訊號強"
-					},
-					"3": {
-						"eng": "Interesting lead",
-						"trans": "有趣的線索"
-					}
-				}
-			}
+		"popupContent": {
+			"eng": "Signal increases every time you recruit a mercenary.",
+			"trans": "每次招募傭兵，訊號都會提升。"
 		}
 	},
 	"socialMedia": {
@@ -12838,6 +13491,14 @@
 		}
 	},
 	"stat": {
+		"afkTaskExpMult": {
+			"eng": "AFK Task EXP Multiplier",
+			"trans": "掛機任務經驗倍率"
+		},
+		"afkTaskExpMultDesc": {
+			"eng": "Increases the EXP you receive from AFK tasks.",
+			"trans": "增加從掛機任務獲得的經驗值"
+		},
 		"armor": {
 			"eng": "Armor",
 			"trans": "裝甲"
@@ -12966,6 +13627,14 @@
 			"eng": "Increases your chance to escape from enemies.",
 			"trans": "增加你逃離敵人的機會。"
 		},
+		"gatherExpMult": {
+			"eng": "Auto Gather EXP Multiplier",
+			"trans": "自動採集經驗倍率"
+		},
+		"gatherExpMultDesc": {
+			"eng": "Increases the EXP you receive from auto gather.",
+			"trans": "提升您透過自動收集所獲得的經驗值。"
+		},
 		"headshotMult": {
 			"eng": "Headshot Multiplier",
 			"trans": "爆頭加成"
@@ -13078,6 +13747,16 @@
 		}
 	},
 	"statusEffect": {
+		"afkTaskExpMult1": {
+			"desc": {
+				"eng": "Increases the EXP you receive from AFK tasks by ${percent}%",
+				"trans": "增加從掛機任務獲得的經驗值 ${percent}%"
+			},
+			"name": {
+				"eng": "AFK Task EXP Multiplier",
+				"trans": "掛機任務經驗倍率"
+			}
+		},
 		"burn": {
 			"combatMsg": {
 				"eng": "${name} received ${damage} damage from burning",
@@ -13112,6 +13791,36 @@
 				"trans": "防禦增加"
 			}
 		},
+		"gatherExpMult1": {
+			"desc": {
+				"eng": "Increases the EXP you receive from auto gather by ${percent}%",
+				"trans": "自動收集獲得的經驗值提升 ${percent}%"
+			},
+			"name": {
+				"eng": "Auto Gather EXP Multiplier I",
+				"trans": "自動收集經驗值倍率一"
+			}
+		},
+		"gatherExpMult2": {
+			"desc": {
+				"eng": "Increases the EXP you receive from auto gather by ${percent}%",
+				"trans": "增加從自動收集獲得的經驗值 ${percent}%"
+			},
+			"name": {
+				"eng": "Auto Gather EXP Multiplier II",
+				"trans": "自動收集經驗值倍率 II"
+			}
+		},
+		"gatherExpMult3": {
+			"desc": {
+				"eng": "Increases the EXP you receive from auto gather by ${percent}%",
+				"trans": "將自動收集獲得的經驗值提升 ${percent}%"
+			},
+			"name": {
+				"eng": "Auto Gather EXP Multiplier III",
+				"trans": "自動收集經驗值倍率 III"
+			}
+		},
 		"heal": {
 			"combatMsg": {
 				"eng": "${name} recovered ${heal} health",
@@ -13124,6 +13833,16 @@
 			"name": {
 				"eng": "Healed",
 				"trans": "治療完成"
+			}
+		},
+		"hospitalized": {
+			"desc": {
+				"eng": "You are recovering from injuries sustained in gang war combat. You cannot participate in war combat while hospitalized.",
+				"trans": "你正從幫派戰爭造成的傷勢中康復。住院期間無法參與戰鬥。"
+			},
+			"name": {
+				"eng": "Hospitalized",
+				"trans": "住院中"
 			}
 		},
 		"lootIncrease": {
@@ -14649,6 +15368,16 @@
 			}
 		}
 	},
+	"vaultHandler": {
+		"depositSuccess": {
+			"eng": "Stored ${count} item(s) in vault",
+			"trans": "${count} 件物品已存入保險箱"
+		},
+		"withdrawSuccess": {
+			"eng": "Retrieved ${count} item(s) from vault",
+			"trans": "已從保險箱取得 ${count} 件物品"
+		}
+	},
 	"vaultPage": {
 		"addItemButton": {
 			"title": {
@@ -14685,6 +15414,54 @@
 		"vaultSlots": {
 			"eng": "Slots ${size}",
 			"trans": "欄位 ${size}"
+		}
+	},
+	"warBuffDeployment": {
+		"buffLabel": {
+			"eng": "Tactical Buff",
+			"trans": "戰術增益"
+		},
+		"confirmDeployDescription": {
+			"eng": "Deploy ${buffName} for your gang?",
+			"trans": "為您的幫派部署${buffName}?"
+		},
+		"confirmDeployTitle": {
+			"eng": "Confirm Deployment",
+			"trans": "確認部署"
+		},
+		"deployButton": {
+			"eng": "Deploy",
+			"trans": "部署"
+		},
+		"error": {
+			"alreadyActive": {
+				"eng": "This buff is already active",
+				"trans": "此增益效果已生效中"
+			},
+			"leaderOnly": {
+				"eng": "Only the gang leader can deploy war buffs",
+				"trans": "僅限幫派首領可部署戰爭增益"
+			},
+			"notEnoughWarPoints": {
+				"eng": "Your gang does not have enough war points",
+				"trans": "您的幫派沒有足夠的戰爭點數"
+			},
+			"notInGang": {
+				"eng": "You must be in a gang to access war logistics",
+				"trans": "您必須隸屬幫派才能存取戰爭後勤"
+			},
+			"warStateRequired": {
+				"eng": "Your gang must be in war state to deploy war buffs",
+				"trans": "您的幫派必須處於戰爭狀態才能部署戰時增益"
+			}
+		},
+		"statusActive": {
+			"eng": "Active",
+			"trans": "啟動中"
+		},
+		"warPointsLabel": {
+			"eng": "War Points",
+			"trans": "戰爭點數"
 		}
 	},
 	"webHomePage": {
@@ -14860,6 +15637,14 @@
 		}
 	},
 	"wikiPage": {
+		"noResults": {
+			"eng": "No results found",
+			"trans": "找不到任何結果"
+		},
+		"searchPlaceholder": {
+			"eng": "Search wiki...",
+			"trans": "搜尋維基..."
+		},
 		"subtitle": {
 			"eng": "the free encyclopedia that anyone can edit",
 			"trans": "任何人都可以編輯的免費百科全書"
@@ -14948,6 +15733,18 @@
 			"announcement": {
 				"eng": "${playerName} upgraded ${item} to ${tier}!",
 				"trans": "${playerName} 將 ${item} 升級至 ${tier}！"
+			}
+		},
+		"warStateOff": {
+			"announcement": {
+				"eng": "${gang} has stood down from war.",
+				"trans": "${gang}已退出戰爭。"
+			}
+		},
+		"warStateOn": {
+			"announcement": {
+				"eng": "${gang} has declared war!",
+				"trans": "${gang} 已宣戰！"
 			}
 		}
 	}

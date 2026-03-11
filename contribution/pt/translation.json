@@ -1,4 +1,10 @@
 {
+	"ADDRESS": {
+		"FORMAT": {
+			"eng": "ALC. ${district} District, No. ${number} ${floor} floor, room ${roomNumber}",
+			"trans": "ALC. ${district} Distrito, n.º ${number} ${floor} andar, sala ${roomNumber}"
+		}
+	},
 	"BattlePassTimeLimitedInfoModal": {
 		"button": {
 			"eng": "Close",
@@ -802,6 +808,12 @@
 			"eng": "Start",
 			"trans": "Iniciar"
 		},
+		"stats": {
+			"cycles": {
+				"eng": "${count} cycles",
+				"trans": "${count} ciclos"
+			}
+		},
 		"tip": {
 			"eng": "You can unlock higher gathering zones by clearing ${difficulty} strongholds, the zone level is capped at your character level.",
 			"trans": "Você pode desbloquear zonas de coleta mais altas ao limpar ${difficulty} fortalezas, o nível da zona é limitado ao nível do seu personagem."
@@ -1358,16 +1370,40 @@
 		}
 	},
 	"blockedPlayerListPage": {
+		"emptyHint": {
+			"eng": "Block players from their profile to prevent them from contacting you",
+			"trans": "Bloqueie jogadores pelo perfil deles para impedir que entrem em contato com você"
+		},
 		"noBlockedPlayers": {
 			"eng": "No blocked players",
 			"trans": "Nenhum jogador bloqueado"
 		},
 		"unblock": {
+			"confirm": {
+				"description": {
+					"eng": "This player will be able to contact you again",
+					"trans": "Este jogador poderá contatá-lo novamente."
+				},
+				"title": {
+					"eng": "Unblock ${playerName}?",
+					"trans": "Desbloquear ${playerName}?"
+				}
+			},
 			"eng": "Unblock",
 			"trans": "Desbloquear"
 		}
 	},
 	"buff": {
+		"afkTaskExpMult1": {
+			"description": {
+				"eng": "Increase AFK task EXP for all gang members by ${percent}% for ${hours} hours",
+				"trans": "Aumente a XP das tarefas AFK para todos os membros da gangue em ${percent}% por ${hours} horas"
+			},
+			"name": {
+				"eng": "AFK Task EXP Multiplier",
+				"trans": "Multiplicador de XP por Tarefa AFK"
+			}
+		},
 		"defenseIncrease": {
 			"description": {
 				"eng": "Increase defense for all players in strongholds created by your gang members in ${minutes} minutes",
@@ -1376,6 +1412,36 @@
 			"name": {
 				"eng": "Defense Increase",
 				"trans": "Aumento de Defesa"
+			}
+		},
+		"gatherExpMult1": {
+			"description": {
+				"eng": "Increase auto gather EXP for all gang members by ${percent}% for ${minutes} minutes",
+				"trans": "Aumenta a coleta automática de EXP para todos os membros da gangue em ${percent}% por ${minutes} minutos"
+			},
+			"name": {
+				"eng": "Auto Gather EXP Multiplier I",
+				"trans": "Multiplicador de EXP por Coleta Automática I"
+			}
+		},
+		"gatherExpMult2": {
+			"description": {
+				"eng": "Increase auto gather EXP for all gang members by ${percent}% for ${minutes} minutes",
+				"trans": "Aumente a coleta automática de EXP para todos os membros da gangue em ${percent}% por ${minutes} minutos"
+			},
+			"name": {
+				"eng": "Auto Gather EXP Multiplier II",
+				"trans": "Multiplicador Automático de XP por Coleta II"
+			}
+		},
+		"gatherExpMult3": {
+			"description": {
+				"eng": "Increase auto gather EXP for all gang members by ${percent}% for ${minutes} minutes",
+				"trans": "Aumente a coleta automática de EXP para todos os membros da gangue em ${percent}% por ${minutes} minutos"
+			},
+			"name": {
+				"eng": "Auto Gather EXP Multiplier III",
+				"trans": "Multiplicador de EXP para Coleta Automática III"
 			}
 		},
 		"lootIncrease": {
@@ -1625,6 +1691,10 @@
 			}
 		},
 		"error": {
+			"cannotKickSelf": {
+				"eng": "You cannot kick yourself",
+				"trans": "Você não pode se chutar."
+			},
 			"clanIsFull": {
 				"eng": "this gang is current at max member capacity",
 				"trans": "esta gangue está com a capacidade máxima de membros"
@@ -1662,9 +1732,35 @@
 				}
 			}
 		},
+		"playerList": {
+			"header": {
+				"eng": "Personnel Roster",
+				"trans": "Lista de Pessoal"
+			},
+			"status": {
+				"eng": "Operational Status: Active",
+				"trans": "Estado Operacional: Ativo"
+			},
+			"units": {
+				"eng": "Units",
+				"trans": "Unidades"
+			}
+		},
 		"requestSent": {
 			"eng": "Request sent successfully",
 			"trans": "Solicitação enviada com sucesso"
+		},
+		"role": {
+			"commander": {
+				"eng": "COMMANDER",
+				"trans": "Comandante"
+			}
+		},
+		"war": {
+			"badge": {
+				"eng": "WAR",
+				"trans": "GUERRA"
+			}
 		}
 	},
 	"clanBuffDeployPopup": {
@@ -1726,9 +1822,51 @@
 				"trans": "Depositar fundos"
 			}
 		},
-		"editMottoButton": {
+		"depositSuccess": {
+			"eng": "Deposited ${amount} funds",
+			"trans": "Depósito de ${amount} fundos"
+		},
+		"disbandClan": {
+			"eng": "Disband Gang",
+			"trans": "Dissolver gangue"
+		},
+		"disbandClanModal": {
+			"description": {
+				"eng": "Are you sure you want to disband this gang? This action cannot be undone.",
+				"trans": "Tem certeza de que deseja encerrar esta gangue? Esta ação não pode ser revertida."
+			},
+			"title": {
+				"eng": "Disband gang",
+				"trans": "Desmantelar gangue"
+			}
+		},
+		"disbandLocked": {
+			"engagementLocked": {
+				"eng": "Cannot disband while members have recently engaged in war combat",
+				"trans": "Não é possível dissolver enquanto os membros participaram de combate recentemente"
+			},
+			"warActive": {
+				"eng": "Cannot disband while war mode is active. Disable war mode first.",
+				"trans": "Não pode encerrar enquanto o modo de guerra estiver ativo. Desative o modo de guerra primeiro."
+			}
+		},
+		"disbandStatus": {
+			"engagementLocked": {
+				"eng": "Members recently engaged in war combat. Available in:",
+				"trans": "Membros que participaram recentemente de combate militar. Disponível em:"
+			},
+			"title": {
+				"eng": "DISBAND LOCKED",
+				"trans": "Encerramento bloqueado"
+			},
+			"warActive": {
+				"eng": "Cannot disband while war mode is active. Disable war mode first.",
+				"trans": "Não pode ser dissolvido enquanto o modo de guerra estiver ativo. Desative-o primeiro."
+			}
+		},
+		"editMotto": {
 			"eng": "Edit Motto",
-			"trans": "Editar Lema"
+			"trans": "Editar lema"
 		},
 		"funds": {
 			"eng": "Funds",
@@ -1745,8 +1883,8 @@
 			"trans": "Junte-se"
 		},
 		"leaveClan": {
-			"eng": "leave gang",
-			"trans": "sair da gangue"
+			"eng": "Leave Gang",
+			"trans": "Sair da Gangue"
 		},
 		"leaveClanModal": {
 			"description": {
@@ -1757,14 +1895,6 @@
 				"eng": "Leave gang",
 				"trans": "Sair da gangue"
 			}
-		},
-		"makePrivate": {
-			"eng": "Make Private",
-			"trans": "Tornar Privado"
-		},
-		"makePublic": {
-			"eng": "Make Public",
-			"trans": "Tornar Público"
 		},
 		"mottoModal": {
 			"description": {
@@ -1784,23 +1914,19 @@
 			"eng": "There is no motto set for this gang yet",
 			"trans": "Ainda não há um lema definido para essa gangue"
 		},
-		"noticeModal": {
-			"description": {
-				"eng": "Posting a notice will cost ${Config.CLAN.NOTICE_POST_COST}${CurrencyType.NORMAL.getSymbol()}",
-				"trans": "Publicar um aviso custará ${Config.CLAN.NOTICE_POST_COST}${CurrencyType.NORMAL.getSymbol()}"
-			},
-			"title": {
-				"eng": "Post gang notice",
-				"trans": "Publicar aviso da gangue"
-			}
-		},
 		"playerListButton": {
 			"eng": "Member List",
 			"trans": "Lista de Membros"
 		},
-		"postNoticeButton": {
-			"eng": "Post Notice",
-			"trans": "Publicar Aviso"
+		"publicToggle": {
+			"private": {
+				"eng": "Private",
+				"trans": "Privado"
+			},
+			"public": {
+				"eng": "Public",
+				"trans": "Público"
+			}
 		},
 		"requestToJoinButton": {
 			"eng": "Request to join",
@@ -1809,10 +1935,6 @@
 		"resources": {
 			"eng": "Resources",
 			"trans": "Recursos"
-		},
-		"setImageButton": {
-			"eng": "Set Image",
-			"trans": "Definir Imagem"
 		},
 		"upkeepTip": {
 			"eng": "Ensure there is enough resources and funds to avoid losing the gang on the next upkeep date.",
@@ -1851,26 +1973,18 @@
 			}
 		}
 	},
-	"clanPlayer": {
-		"controlPointContributed": {
-			"eng": "control points: ${amount}",
-			"trans": "pontos de controle: ${amount}"
-		},
-		"fundsContributed": {
-			"eng": "funds: ${amount}",
-			"trans": "fundos: ${amount}"
-		},
-		"resourceContributed": {
-			"eng": "resource: ${amount}",
-			"trans": "recurso: ${amount}"
-		},
-		"thisWeek": {
-			"eng": "this week",
-			"trans": "esta semana"
-		},
-		"total": {
-			"eng": "total",
-			"trans": "total"
+	"clanMenuModal": {
+		"warWarning": {
+			"joinDescription": {
+				"eng": "This gang is in WAR MODE. Joining will expose you to War PvP attacks with ${hours} hours lock. Continue?",
+				"trans": "Esta gangue está em MODO DE GUERRA. Entrar expõe você a ataques PvP de Guerra com bloqueio de ${hours} horas. Continuar?"
+			}
+		}
+	},
+	"clanPlayerListPage": {
+		"memberCount": {
+			"eng": "${count} members",
+			"trans": "${count} membros"
 		}
 	},
 	"clanPlayerPermissionModal": {
@@ -1884,6 +1998,14 @@
 		}
 	},
 	"clanPlayerPopup": {
+		"disableWarParticipation": {
+			"eng": "Disable War Participation",
+			"trans": "Desativar Participação em Guerra"
+		},
+		"enableWarParticipation": {
+			"eng": "Enable War Participation",
+			"trans": "Ativar Participação em Guerra"
+		},
 		"kickPlayerButton": {
 			"eng": "kick player",
 			"trans": "expulsar jogador"
@@ -1891,6 +2013,14 @@
 		"setPermissionButton": {
 			"eng": "Edit Permissions",
 			"trans": "Editar Permissões"
+		},
+		"statusActive": {
+			"eng": "ACTIVE",
+			"trans": "Ativo"
+		},
+		"statusInactive": {
+			"eng": "INACTIVE",
+			"trans": "Inativo"
 		},
 		"transferOwnership": {
 			"eng": "Transfer Ownership",
@@ -1901,8 +2031,16 @@
 			"trans": "Transferir Propriedade"
 		},
 		"transferOwnershipConfirm": {
-			"eng": "Are you sure you want to transfer ownership of the gang to ${playerName}?\\nthis cannot be undone.",
-			"trans": "Você tem certeza de que deseja transferir a posse da gangue para ${playerName}?\\nIsso não pode ser desfeito."
+			"eng": "Are you sure you want to transfer ownership of the gang to ${playerName}.\\nthis cannot be undone.",
+			"trans": "Tem certeza de que quer transferir a propriedade da gangue para ${playerName}.\\nIsso não pode ser desfeito."
+		},
+		"warStatus": {
+			"eng": "War Participation",
+			"trans": "Participação em Guerra"
+		},
+		"warToggleCooldown": {
+			"eng": "Cooldown: ${time}",
+			"trans": "Recarga: ${time}"
 		}
 	},
 	"clanSearchPage": {
@@ -1963,6 +2101,248 @@
 				"eng": "View profile",
 				"trans": "Ver perfil"
 			}
+		}
+	},
+	"clanTabContent": {
+		"noticeModal": {
+			"description": {
+				"eng": "Posting a notice will cost ${cost}${symbol}",
+				"trans": "Publicar um aviso custará ${cost}${symbol}"
+			},
+			"title": {
+				"eng": "Post gang notice",
+				"trans": "Publicar Aviso da Gangue"
+			}
+		}
+	},
+	"clanTabNoClanContent": {
+		"warWarning": {
+			"joinDescription": {
+				"eng": "This gang is in WAR MODE. Joining will expose you to PvP attacks and 24h participation locks. Continue?",
+				"trans": "Esta gangue está em MODO DE GUERRA. Ao entrar, você ficará exposto a ataques de PvP e terá bloqueio de 24h na participação. Continuar?"
+			}
+		}
+	},
+	"clanWar": {
+		"chat": {
+			"deathBroadcast": {
+				"eng": "${victimPlayer} was eliminated by ${killerPlayer} from ${gang}",
+				"trans": "${victimPlayer} foi eliminado por ${killerPlayer} da gangue ${gang}"
+			},
+			"killBroadcast": {
+				"eng": "${killerPlayer} has eliminated ${victimPlayer} from ${gang}",
+				"trans": "${killerPlayer} eliminou ${victimPlayer} da gangue ${gang}"
+			},
+			"milestoneReached": {
+				"eng": "${count} kill streak! +${reward} war score",
+				"trans": "${count} racha de mortes! +${reward} pontuação de guerra"
+			},
+			"warStateOn": {
+				"eng": "${gang} has declared war",
+				"trans": "${gang} declarou guerra"
+			}
+		},
+		"dangerModal": {
+			"enableDescription": {
+				"eng": "Enabling WAR MODE will expose ALL gang members to PvP attacks. Opting out will be LOCKED for 24 hours. Proceed?",
+				"trans": "Ativar MODO DE GUERRA expõe todos os membros da gangue a ataques PvP. Ao optar por não habilitar, a opção ficará bloqueada por 24 horas. Continuar?"
+			},
+			"requestDescription": {
+				"eng": "This gang is in WAR MODE. If accepted, joining will expose you to PvP attacks and 24h participation locks. Continue?",
+				"trans": "Esta gangue está no modo de guerra. Se aceitar, você será exposto a ataques PvP e terá bloqueio de participação por 24h. Continuar?"
+			},
+			"title": {
+				"eng": "WAR MODE WARNING",
+				"trans": "Ativar modo de guerra"
+			}
+		},
+		"disableModal": {
+			"description": {
+				"eng": "Are you sure you want to disable war mode? Your gang will no longer be able to earn war score.",
+				"trans": "Tem certeza que deseja desativar o modo de guerra? Sua gangue não poderá mais acumular pontuação de guerra."
+			},
+			"title": {
+				"eng": "Disable War Mode",
+				"trans": "Desativar Modo de Guerra"
+			}
+		},
+		"error": {
+			"cannotToggleMember": {
+				"eng": "Cannot toggle this member's participation. They may not exist or cooldown is active",
+				"trans": "Não é possível alternar a participação deste membro. Pode não existir ou o tempo de recarga está ativo."
+			},
+			"disbandEngaged": {
+				"eng": "You cannot disband the gang while members have recently engaged in war combat",
+				"trans": "Você não pode dissolver a gangue enquanto os membros tiverem participado recentemente de combates de guerra."
+			},
+			"disbandWarActive": {
+				"eng": "You cannot disband the gang while war mode is active",
+				"trans": "Você não pode dissolver a gangue enquanto o modo de guerra está ativo."
+			},
+			"kickLocked": {
+				"eng": "Cannot kick a member who has recently engaged in war combat",
+				"trans": "Não é possível expulsar um membro que participou recentemente de combate em guerra."
+			},
+			"leaderOnly": {
+				"eng": "Only the gang leader can perform this action",
+				"trans": "Somente o líder da gangue pode executar esta ação"
+			},
+			"leaveLocked": {
+				"eng": "You cannot leave the gang while you have recently engaged in war combat",
+				"trans": "Você não pode sair da gangue enquanto esteve recentemente em combate militar."
+			},
+			"notEnoughWarPoints": {
+				"eng": "Your gang does not have enough war points",
+				"trans": "Sua gangue não tem pontos de guerra suficientes"
+			},
+			"notWarBuff": {
+				"eng": "This buff cannot be deployed during gang war",
+				"trans": "Este buff não pode ser usado durante a guerra de gangues."
+			},
+			"optOutLocked": {
+				"eng": "Cannot disable war mode yet. 24h lock-in period is still active",
+				"trans": "Ainda não pode desativar o modo de guerra. O bloqueio de 24h ainda está ativo."
+			},
+			"warStateRequired": {
+				"eng": "Your gang must be in war state to deploy war buffs",
+				"trans": "Seu gang precisa estar em modo de guerra para usar buffs de guerra."
+			},
+			"wip": {
+				"eng": "This feature is currently under development",
+				"trans": "Este recurso está atualmente em desenvolvimento"
+			}
+		},
+		"lockedFeedback": {
+			"eng": "War mode is locked until ${date}",
+			"trans": "Modo de guerra está bloqueado até ${date}"
+		},
+		"notification": {
+			"hospitalized": {
+				"eng": "You have been hospitalized from a gang war defeat. Recovery time: ${duration} minutes.",
+				"trans": "Você foi hospitalizado após a derrota na guerra entre gangues. Tempo de recuperação: ${duration} minutos."
+			},
+			"milestoneReached": {
+				"eng": "Your gang has reached a ${count} kill streak and earned ${reward} war score!",
+				"trans": "Sua gangue atingiu uma sequência de ${count} mortes e ganhou ${reward} pontos de guerra!"
+			},
+			"participationDisabled": {
+				"eng": "You have been removed from war participation by your gang leader. Your kills will no longer count towards gang war score.",
+				"trans": "Você foi removido da participação na guerra pelo seu líder da gangue. Suas eliminações não contam mais para a pontuação da guerra de gangues."
+			},
+			"participationEnabled": {
+				"eng": "You have been added to war participation by your gang leader. You can now participate in gang wars.",
+				"trans": "Seu líder de gangue adicionou você ao grupo de guerreiros. Você agora pode participar das guerras da gangue."
+			},
+			"warStateOff": {
+				"eng": "Your gang leader has disabled war mode. Your gang is no longer a war target.",
+				"trans": "O líder da sua gangue desativou o modo de guerra. Sua gangue não é mais alvo de guerra."
+			},
+			"warStateOn": {
+				"eng": "Your gang leader has activated war mode for your gang!",
+				"trans": "O seu líder de gangue ativou o modo de guerra para a sua gangue!"
+			}
+		},
+		"tutorialLink": {
+			"eng": "Learn more about Gang War",
+			"trans": "Saiba mais sobre Guerra de Gangues"
+		}
+	},
+	"clanWarPage": {
+		"header": {
+			"currentScore": {
+				"eng": "TOTAL WAR SCORE",
+				"trans": "PONTUAÇÃO TOTAL DA GUERRA"
+			},
+			"stack": {
+				"eng": "STACK",
+				"trans": "Pilha"
+			},
+			"warPoints": {
+				"eng": "PTS",
+				"trans": "Pontos"
+			}
+		},
+		"milestone": {
+			"progressText": {
+				"eng": "${current} / ${target} STACKS",
+				"trans": "${current} / ${target} PILHAS"
+			},
+			"reward": {
+				"eng": "BONUS",
+				"trans": "Bônus"
+			},
+			"stacks": {
+				"eng": "STACKS",
+				"trans": "Pilhas"
+			}
+		},
+		"milestones": {
+			"end": {
+				"eng": "END OF OPERATION",
+				"trans": "FIM DA OPERÇÃO"
+			},
+			"operation": {
+				"eng": "OPERATION",
+				"trans": "Operação"
+			},
+			"title": {
+				"eng": "WAR MILESTONES",
+				"trans": "Marcos da Guerra"
+			},
+			"total_stacks": {
+				"eng": "TOTAL STACK",
+				"trans": "Pilha Total"
+			},
+			"unit": {
+				"eng": "STK",
+				"trans": "STK"
+			}
+		},
+		"noClan": {
+			"eng": "NO GANG DATA FOUND",
+			"trans": "Nenhum dado da gangue encontrado"
+		},
+		"status": {
+			"active": {
+				"eng": "WAR ACTIVE",
+				"trans": "Guerra Ativa"
+			},
+			"inactive": {
+				"eng": "WAR INACTIVE",
+				"trans": "Guerra inativa"
+			}
+		}
+	},
+	"clanWarPanel": {
+		"enableWarModal": {
+			"title": {
+				"eng": "ENABLE WAR MODE",
+				"trans": "ATIVAR MODO DE GUERRA"
+			}
+		},
+		"leaderOnlyToggle": {
+			"eng": "Only the gang leader can toggle war mode",
+			"trans": "Somente o líder da gangue pode alternar o modo de guerra"
+		},
+		"locked": {
+			"eng": "Lock:",
+			"trans": "Bloqueio:"
+		},
+		"score": {
+			"eng": "War Score",
+			"trans": "Pontuação de Guerra"
+		},
+		"stack": {
+			"eng": "Stack",
+			"trans": "Pilha"
+		},
+		"warOff": {
+			"eng": "War OFF",
+			"trans": "Guerra Desligada"
+		},
+		"warOn": {
+			"eng": "War ON",
+			"trans": "Guerra Ativa"
 		}
 	},
 	"collectedLoreNotes": {
@@ -2193,6 +2573,10 @@
 		"psychosis": {
 			"eng": "+ ${amount} psychosis",
 			"trans": "+ ${amount} psicose"
+		},
+		"warPoints": {
+			"eng": "${amount} war points",
+			"trans": "${amount} pontos de guerra"
 		}
 	},
 	"coupon": {
@@ -2210,13 +2594,17 @@
 			"eng": "Enter your gift code to get your reward.",
 			"trans": "Digite seu código de presente para receber sua recompensa."
 		},
+		"hint": {
+			"eng": "Codes are case-insensitive",
+			"trans": "Os códigos não diferenciam maiúsculas e minúsculas."
+		},
 		"inputTitle": {
 			"eng": "Gift Code",
 			"trans": "Código de Presente"
 		},
 		"submitButton": {
-			"eng": "Submit",
-			"trans": "Enviar"
+			"eng": "Redeem Code",
+			"trans": "Resgatar código"
 		},
 		"title": {
 			"eng": "Gift Code",
@@ -2357,16 +2745,6 @@
 				"eng": "Universal Dollars",
 				"trans": "Dólares Universais"
 			}
-		}
-	},
-	"currencyCheck": {
-		"getMore": {
-			"eng": "get more",
-			"trans": "pegar mais"
-		},
-		"notEnough": {
-			"eng": "Insufficient ${currency}",
-			"trans": "${currency} insuficiente"
 		}
 	},
 	"dailyQuestTab": {
@@ -2561,6 +2939,24 @@
 		"dismantleButton": {
 			"eng": "Dismantle",
 			"trans": "Desmantelar"
+		},
+		"itemCount": {
+			"eng": "${count} items",
+			"trans": "${count} itens"
+		},
+		"sort": {
+			"level": {
+				"eng": "Level",
+				"trans": "Nível"
+			},
+			"name": {
+				"eng": "Name",
+				"trans": "Nome"
+			},
+			"tier": {
+				"eng": "Tier",
+				"trans": "Tier"
+			}
 		}
 	},
 	"displayShelf": {
@@ -2769,6 +3165,26 @@
 			}
 		}
 	},
+	"dungeonBackpackPage": {
+		"itemCount": {
+			"eng": "${count} items",
+			"trans": "${count} itens"
+		},
+		"sort": {
+			"level": {
+				"eng": "Level",
+				"trans": "Nível"
+			},
+			"name": {
+				"eng": "Name",
+				"trans": "Nome"
+			},
+			"tier": {
+				"eng": "Tier",
+				"trans": "Tier"
+			}
+		}
+	},
 	"dungeonChoicePopup": {
 		"actionsTitle": {
 			"eng": "Choose your action",
@@ -2947,6 +3363,10 @@
 				"eng": "${playerName}'s lobby",
 				"trans": "Lobby de ${playerName}"
 			}
+		},
+		"lobbyCount": {
+			"eng": "${count} lobbies",
+			"trans": "${count} salas"
 		},
 		"noLobbiesFound": {
 			"eng": "No lobbies found",
@@ -3139,6 +3559,12 @@
 				"eng": "Wow",
 				"trans": "Uau"
 			}
+		}
+	},
+	"emptyState": {
+		"defaultTitle": {
+			"eng": "No records found",
+			"trans": "Nenhum registro encontrado"
 		}
 	},
 	"enemyEvent": {
@@ -3431,6 +3857,18 @@
 		"submit3": {
 			"eng": "Submit",
 			"trans": "Enviar"
+		}
+	},
+	"filteredItemList": {
+		"noSearchResults": {
+			"eng": "No items matching \"${query}\"",
+			"trans": "Nenhum item corresponde a \"${query}\""
+		},
+		"search": {
+			"placeholder": {
+				"eng": "Search items...",
+				"trans": "Pesquisar itens..."
+			}
 		}
 	},
 	"firstPurchasePromoSmall": {
@@ -3806,6 +4244,10 @@
 				"trans": "Você não tem dinheiro suficiente para criar uma gangue"
 			}
 		},
+		"createSuccess": {
+			"eng": "Gang \"${name}\" created!",
+			"trans": "Gangue \"${name}\" criada!"
+		},
 		"editMotto": {
 			"error": {
 				"levelNoAlts": {
@@ -4007,6 +4449,22 @@
 			}
 		}
 	},
+	"hitListPage": {
+		"bountyCount": {
+			"eng": "${count} bounties",
+			"trans": "${count} recompensas"
+		},
+		"sort": {
+			"level": {
+				"eng": "Level",
+				"trans": "Nível"
+			},
+			"price": {
+				"eng": "Price",
+				"trans": "Preço"
+			}
+		}
+	},
 	"hitlist": {
 		"loading": {
 			"eng": "Loading bounties...",
@@ -4057,6 +4515,48 @@
 				"eng": "A bounty has been placed on your head, current bounty - Eurodollar: ${money}, Universal Dollar: ${uni}",
 				"trans": "Uma recompensa foi colocada pela sua cabeça, recompensa atual - Eurodólar: ${money}, Dólar Universal: ${uni}"
 			}
+		}
+	},
+	"hospitalizedScreen": {
+		"leaveHospital": {
+			"eng": "DISCHARGE // CONFIRM",
+			"trans": "DESCARREGAR // CONFIRMAR"
+		},
+		"statusCritical": {
+			"eng": "SYS: VITALS CRITICAL",
+			"trans": "SISTEMA: SAÚDE CRÍTICA"
+		},
+		"statusRecovered": {
+			"eng": "RECOVERY_COMPLETE",
+			"trans": "Recuperação concluída"
+		},
+		"statusStable": {
+			"eng": "SYS: VITALS STABLE",
+			"trans": "SISTEMA: ESTATÍSTICAS VITAIS ESTÁVEIS"
+		},
+		"statusTag": {
+			"eng": "OVR_DENIED",
+			"trans": "Acesso negado"
+		},
+		"sysHeader": {
+			"eng": "SYS.MED_PROTOCOL",
+			"trans": "Protocolo médico do sistema"
+		},
+		"timeRemaining": {
+			"eng": "EST. RECOVERY TIME",
+			"trans": "TEMPO ESTIMADO DE RECUPERAÇÃO"
+		},
+		"title": {
+			"eng": "HOSPITALIZED",
+			"trans": "HOSPITALIZADO"
+		},
+		"useMedkit": {
+			"eng": "ADMINISTER MEDKIT",
+			"trans": "Administrar Kit Médico"
+		},
+		"useMedkitDesc": {
+			"eng": "[-1 HR RECOVERY]",
+			"trans": "[-1 hora de recuperação]"
 		}
 	},
 	"hostilePlayerListPage": {
@@ -4368,10 +4868,6 @@
 			"eng": "Error loading clue",
 			"trans": "Erro ao carregar pista"
 		},
-		"evidence": {
-			"eng": "Evidence",
-			"trans": "Prova"
-		},
 		"evidenceAcquired": {
 			"eng": "Evidence Logged - ACPD Database",
 			"trans": "Evidência Registrada - Banco de Dados ACPD"
@@ -4379,6 +4875,10 @@
 		"evidenceMismatch": {
 			"eng": "The submitted conclusion does not align with available evidence patterns.",
 			"trans": "A conclusão submetida não corresponde aos padrões de evidência disponíveis."
+		},
+		"evidenceNumber": {
+			"eng": "Evidence #${number}",
+			"trans": "Evidência #${number}"
 		},
 		"goToVerdict": {
 			"eng": "Go to verdict ${num}",
@@ -4810,6 +5310,10 @@
 			"cantEquipFromBackpack": {
 				"eng": "You cannot equip equipment from your backpack",
 				"trans": "Você não pode equipar equipamentos da sua mochila"
+			},
+			"notHospitalized": {
+				"eng": "You can only use this item while hospitalized",
+				"trans": "Você só pode usar este item enquanto estiver hospitalizado"
 			}
 		},
 		"levelUpBar": {
@@ -5528,6 +6032,16 @@
 			"name": {
 				"eng": "Egg",
 				"trans": "Ovo"
+			}
+		},
+		"emergencyMedkit": {
+			"description": {
+				"eng": "A field-grade trauma kit containing synthetic coagulants and adrenaline boosters. Reduces hospitalization time by 1 hour when administered.",
+				"trans": "Kit de trauma de campo com coagulantes sintéticos e potenciadores de adrenalina. Reduz a hospitalização em 1 hora ao ser usado."
+			},
+			"name": {
+				"eng": "Emergency Medkit",
+				"trans": "Kit Médico Emergencial"
 			}
 		},
 		"energyGun": {
@@ -7202,6 +7716,12 @@
 				"trans": "Nível da Gangue"
 			}
 		},
+		"clanWar": {
+			"name": {
+				"eng": "Gang War Score",
+				"trans": "Pontuação da Guerra de Gangues"
+			}
+		},
 		"level": {
 			"name": {
 				"eng": "Character Level",
@@ -7273,6 +7793,20 @@
 				"eng": "Stock Realized Profit",
 				"trans": "Lucro Realizado de Ações"
 			}
+		}
+	},
+	"leaderboardDetails": {
+		"empty": {
+			"eng": "No rankings yet",
+			"trans": "Não há rankings ainda"
+		},
+		"loading": {
+			"eng": "Loading rankings...",
+			"trans": "Carregando rankings..."
+		},
+		"warScore": {
+			"eng": "WAR SCORE",
+			"trans": "Pontuação da Guerra"
 		}
 	},
 	"leaderboardTypes": {
@@ -7543,6 +8077,10 @@
 		"legendClaimable": {
 			"eng": "Claimable",
 			"trans": "Reivindicável"
+		},
+		"legendClaimed": {
+			"eng": "Claimed",
+			"trans": "Reivindicado"
 		},
 		"legendMilestone": {
 			"eng": "Milestone",
@@ -7817,6 +8355,16 @@
 				"eng": "System Message",
 				"trans": "Mensagem do Sistema"
 			}
+		},
+		"warAttackFailed": {
+			"attacker": {
+				"eng": "Your gang war strike against ${playerName} failed, you lost ${amount}",
+				"trans": "Seu ataque de guerra de gangue contra ${playerName} falhou, você perdeu ${amount}"
+			},
+			"defender": {
+				"eng": "${playerName} launched a gang war strike against you but you fought back and won",
+				"trans": "${playerName} lançou um ataque de guerra entre gangues contra você, mas você reagiu e venceu."
+			}
 		}
 	},
 	"mailDetails": {
@@ -8076,6 +8624,14 @@
 			"eng": "Black Market",
 			"trans": "Mercado Negro"
 		},
+		"clanUpkeep": {
+			"eng": "Gang Upkeep",
+			"trans": "Manutenção da Gangue"
+		},
+		"clanWar": {
+			"eng": "Gang War",
+			"trans": "Guerra de gangues"
+		},
 		"currency": {
 			"eng": "Currency",
 			"trans": "Moeda"
@@ -8095,10 +8651,6 @@
 		"followUpLottery": {
 			"eng": "Follow Up Lottery",
 			"trans": "Sorteio Adicional"
-		},
-		"gangUpkeep": {
-			"eng": "Gang Upkeep",
-			"trans": "Manutenção da Gangue"
 		},
 		"hideoutRaid": {
 			"eng": "Hideout Raid",
@@ -8265,6 +8817,18 @@
 		"noItem": {
 			"eng": "There is no item",
 			"trans": "Não há item"
+		}
+	},
+	"marketMyItemsPage": {
+		"emptySlot": {
+			"eng": "List Item",
+			"trans": "Item da lista"
+		},
+		"header": {
+			"title": {
+				"eng": "Market Listings",
+				"trans": "Anúncios do Mercado"
+			}
 		}
 	},
 	"marketPurchaseModal": {
@@ -8468,6 +9032,10 @@
 			"eng": "Level Up",
 			"trans": "Subir de Nível"
 		},
+		"resonate": {
+			"eng": "Resonate",
+			"trans": "Ressonar"
+		},
 		"stats": {
 			"title": {
 				"eng": "stats",
@@ -8633,6 +9201,24 @@
 		"noMercenaries": {
 			"eng": "You do not have any mercenaries in your contact",
 			"trans": "Você não tem nenhum mercenário em seus contatos"
+		},
+		"sort": {
+			"level": {
+				"eng": "Level",
+				"trans": "Nível"
+			},
+			"name": {
+				"eng": "Name",
+				"trans": "Nome"
+			},
+			"skill": {
+				"eng": "Skill",
+				"trans": "Habilidade"
+			},
+			"tier": {
+				"eng": "Tier",
+				"trans": "Tier"
+			}
 		},
 		"tip": {
 			"default": {
@@ -8852,6 +9438,12 @@
 			"eng": "RESONANCE COMPLETE",
 			"trans": "Ressonância concluída"
 		},
+		"mythicCinematic": {
+			"tapToContinue": {
+				"eng": "TAP SCREEN",
+				"trans": "TOQUE NA TELA"
+			}
+		},
 		"mythicTitle1": {
 			"eng": "MYTHIC",
 			"trans": "MÍTICO"
@@ -8868,6 +9460,12 @@
 			"eng": "AWAKENING RESULT",
 			"trans": "Resultado do Despertar"
 		},
+		"standardAwakening": {
+			"tapToContinue": {
+				"eng": "TAP TO CONTINUE",
+				"trans": "Toque para continuar"
+			}
+		},
 		"sys": {
 			"protocol": {
 				"eng": "Awakening protocol finalized",
@@ -8881,10 +9479,6 @@
 				"eng": "Neural synchronization successful",
 				"trans": "Sincronização neural concluída"
 			}
-		},
-		"tapToContinue": {
-			"eng": "TAP TO CONTINUE",
-			"trans": "TOQUE PARA CONTINUAR"
 		}
 	},
 	"mercenarySelectPopup": {
@@ -9032,8 +9626,8 @@
 				"trans": "ACESSO CONCEDIDO"
 			},
 			"breachProgress": {
-				"eng": "BREACH PROGRESS",
-				"trans": "PROGRESSO DE INVASÃO"
+				"eng": "BREACH PROGRESS: ${percent}%",
+				"trans": "Progresso da invasão: ${percent}%"
 			},
 			"example": {
 				"eng": "Example of obfuscated code:",
@@ -9396,6 +9990,10 @@
 			"eng": "Eurodollars",
 			"trans": "Eurodólares"
 		},
+		"deselectAll": {
+			"eng": "Deselect All",
+			"trans": "Desmarcar Tudo"
+		},
 		"exchange": {
 			"eng": "Exchange",
 			"trans": "Troca"
@@ -9445,8 +10043,8 @@
 			"trans": "Comprar"
 		},
 		"selectAll": {
-			"eng": "All",
-			"trans": "Tudo"
+			"eng": "Select All",
+			"trans": "Selecionar Tudo"
 		},
 		"upgrade": {
 			"eng": "upgrade",
@@ -9456,12 +10054,12 @@
 	"modal": {
 		"selectAmountModal": {
 			"cancel": {
-				"eng": "cancel",
-				"trans": "cancelar"
+				"eng": "Cancel",
+				"trans": "Cancelar"
 			},
 			"confirm": {
-				"eng": "confirm",
-				"trans": "confirmar"
+				"eng": "Confirm",
+				"trans": "Confirmar"
 			},
 			"invalidAmount": {
 				"eng": "Amount must be between ${min} and ${max}",
@@ -9998,6 +10596,10 @@
 				"trans": "Você já faz parte de uma gangue"
 			}
 		},
+		"count": {
+			"eng": "${count} notifications",
+			"trans": "${count} notificações"
+		},
 		"lobbyInvite": {
 			"accept": {
 				"eng": "Accept",
@@ -10012,6 +10614,12 @@
 			"title": {
 				"eng": "No notification",
 				"trans": "Sem notificações"
+			}
+		},
+		"warWarning": {
+			"joinDescription": {
+				"eng": "This gang is in WAR MODE. Joining will expose you to war PvP attacks for ${hours} hours lock. Continue?",
+				"trans": "Esta gangue está em MODO DE GUERRA. Entrar expõe você a ataques PvP de guerra por ${hours} horas de bloqueio. Continuar?"
 			}
 		}
 	},
@@ -10386,6 +10994,14 @@
 			"upgrade": {
 				"eng": "Upgrade",
 				"trans": "Atualizar"
+			},
+			"warBuff": {
+				"eng": "War Buffs",
+				"trans": "Bônus de Guerra"
+			},
+			"warIntel": {
+				"eng": "War Intel",
+				"trans": "Inteligência de Guerra"
 			}
 		},
 		"generalStore": {
@@ -10607,6 +11223,46 @@
 		"upgradeButton": {
 			"eng": "Upgrade my equipment",
 			"trans": "Atualizar meu equipamento"
+		},
+		"warQuartermaster": {
+			"buffDeployment": {
+				"description": {
+					"eng": "Deploy tactical buffs for your gang",
+					"trans": "Ative bônus táticos para sua gangue."
+				},
+				"label": {
+					"eng": "TACTICAL OPS",
+					"trans": "Operações Táticas"
+				},
+				"title": {
+					"eng": "War Buff Deployment",
+					"trans": "Implantação do Buff de Guerra"
+				}
+			},
+			"description": {
+				"eng": "A secure war command terminal where your gang reviews active enhancements and deploys new combat support buffs.",
+				"trans": "Terminal de comando bélico seguro onde sua gangue revisa aprimoramentos ativos e lança novos buffs de apoio ao combate."
+			},
+			"greetings": {
+				"eng": [
+					"War command online. State your objective.",
+					"Frontline telemetry synced. Buff deployment terminal is ready.",
+					"Gang war resources are live. Coordinate before you spend."
+				],
+				"trans": [
+					"Comando de Guerra Online. Informe seu objetivo.",
+					"Telemetria da linha frontal sincronizada. Terminal de implantação de buffs pronto.",
+					"Recursos da guerra de gangues ativos. Coordene antes de usar."
+				]
+			},
+			"locationName": {
+				"eng": "War Command Center",
+				"trans": "Centro de Comando da Guerra"
+			},
+			"npcName": {
+				"eng": "Quartermaster Vane",
+				"trans": "Mestre de Quartéis Vane"
+			}
 		},
 		"weaponSmith": {
 			"description": {
@@ -10980,6 +11636,28 @@
 		}
 	},
 	"playerDetailsPage": {
+		"action": {
+			"addFriend": {
+				"eng": "Add Friend",
+				"trans": "Adicionar Amigo"
+			},
+			"attack": {
+				"eng": "Attack",
+				"trans": "Atacar"
+			},
+			"mail": {
+				"eng": "Mail",
+				"trans": "Correio"
+			},
+			"unfriend": {
+				"eng": "Unfriend",
+				"trans": "Remover Amigo"
+			}
+		},
+		"attackHospitalized": {
+			"eng": "Target is currently hospitalized. Combat unavailable.",
+			"trans": "O alvo está hospitalizado no momento. Combate indisponível."
+		},
 		"attribute": {
 			"confirm": {
 				"eng": "Apply",
@@ -10991,29 +11669,13 @@
 			}
 		},
 		"menu": {
-			"addFriend": {
-				"eng": "Add Friend",
-				"trans": "Adicionar Amigo"
-			},
 			"block": {
 				"eng": "Block",
 				"trans": "Bloquear"
 			},
-			"close": {
-				"eng": "attack",
-				"trans": "atacar"
-			},
-			"removeFriend": {
-				"eng": "Remove Friend",
-				"trans": "Remover Amigo"
-			},
 			"report": {
 				"eng": "Report",
 				"trans": "Relatório"
-			},
-			"sendMessage": {
-				"eng": "Send Mail",
-				"trans": "Enviar E-mail"
 			},
 			"unblock": {
 				"eng": "Unblock",
@@ -11576,6 +12238,18 @@
 			"successBounty": {
 				"eng": "You received bounty of ${money1} and ${money2} for eliminating ${targetPlayer}",
 				"trans": "Você recebeu uma recompensa de ${money1} e ${money2} por eliminar ${targetPlayer}"
+			},
+			"warAttackAddedEnemy": {
+				"eng": "${playerName} struck you in a gang war assault, you lost ${currency}, this player has been added to your enemies list",
+				"trans": "Você foi atingido por ${playerName} em um assalto de guerra entre gangues e perdeu ${currency}. Este jogador já está na sua lista de inimigos."
+			},
+			"warAttackNoAddEnemy": {
+				"eng": "${playerName} struck you in a gang war assault, you lost ${currency}",
+				"trans": "${playerName} te atingiu em um ataque de guerra de gangues, você perdeu ${currency}"
+			},
+			"warAttackWin": {
+				"eng": "Your gang war strike against ${playerName} was successful, you earned ${currency}",
+				"trans": "Seu ataque na guerra de gangues contra ${playerName} foi bem-sucedido; você ganhou ${currency}"
 			}
 		},
 		"toast": {
@@ -11694,6 +12368,10 @@
 			"eng": "Daily Quests",
 			"trans": "Quests Diárias"
 		},
+		"inProgress": {
+			"eng": "In Progress",
+			"trans": "Em andamento"
+		},
 		"investigations": {
 			"eng": "Investigations",
 			"trans": "Investigações"
@@ -11705,6 +12383,10 @@
 		"npcQuests": {
 			"eng": "Quests",
 			"trans": "Missões"
+		},
+		"readyToTurnIn": {
+			"eng": "Ready to Turn In",
+			"trans": "Pronto para entregar"
 		}
 	},
 	"questPreview": {
@@ -11877,6 +12559,10 @@
 		"reportReason": {
 			"eng": "Report Reason",
 			"trans": "Motivo do Relatório"
+		},
+		"reportSuccess": {
+			"eng": "Report submitted successfully",
+			"trans": "Relatório enviado com sucesso"
 		}
 	},
 	"reportType": {
@@ -12081,6 +12767,32 @@
 			"trans": "min"
 		}
 	},
+	"sendItem": {
+		"confirm": {
+			"eng": "Send",
+			"trans": "Enviar"
+		},
+		"confirmDescription": {
+			"eng": "Send ${amount}x ${itemName} to this player?",
+			"trans": "Enviar ${amount}x ${itemName} para este jogador?"
+		},
+		"confirmTitle": {
+			"eng": "Confirm Send",
+			"trans": "Confirmar Envio"
+		},
+		"success": {
+			"eng": "Sent ${amount}x ${itemName}",
+			"trans": "Enviado ${amount}x ${itemName}"
+		}
+	},
+	"sendItemPage": {
+		"selectAmount": {
+			"title": {
+				"eng": "Select amount to send",
+				"trans": "Selecione o valor a enviar"
+			}
+		}
+	},
 	"server": {
 		"clan": {
 			"join": {
@@ -12119,6 +12831,10 @@
 				"eng": "You cannot attack this player due to bounty contributor alt detection",
 				"trans": "Você não pode atacar este jogador porque detectamos que ele é um alt de um contribuinte de recompensa."
 			},
+			"cannotEngageHospitalized": {
+				"eng": "This player is currently hospitalized and cannot be attacked",
+				"trans": "Este jogador está internado e não pode ser atacado."
+			},
 			"cannotEngageInDungeon": {
 				"eng": "You cannot engage in PvP while in a dungeon",
 				"trans": "Você não pode participar de PvP enquanto estiver em uma masmorra"
@@ -12130,6 +12846,10 @@
 			"cannotEngageProtectedPlayer": {
 				"eng": "This player is protected with ${item}, you cannot engage them at this moment",
 				"trans": "Este jogador está protegido com ${item}, você não pode atacá-lo neste momento"
+			},
+			"cannotEngageSuspended": {
+				"eng": "You cannot engage this player right now",
+				"trans": "Você não pode atacar esse jogador agora"
 			},
 			"combatNotFound": {
 				"eng": "Combat has ended",
@@ -12145,7 +12865,7 @@
 			},
 			"levelTooDiff": {
 				"eng": "You cannot engage a player that is more than ${levelDiff} levels higher or below you",
-				"trans": "Você não pode enfrentar um jogador que esteja mais de ${levelDiff} níveis acima ou abaixo de você"
+				"trans": "Você não pode se engajar com um jogador que esteja mais de ${levelDiff} níveis acima ou abaixo de você"
 			},
 			"notEnoughMoneyPvp": {
 				"eng": "You need at least ${money} to engage in PvP",
@@ -12166,6 +12886,14 @@
 			"pvpArrestDismissed": {
 				"eng": "This player has already been arrested",
 				"trans": "Este jogador já foi preso"
+			},
+			"warCannotEngageAlt": {
+				"eng": "You cannot attack this player due to alt detection",
+				"trans": "Você não pode atacar este jogador devido à detecção de alts."
+			},
+			"warLevelTooDiff": {
+				"eng": "You are too high level to attack this player",
+				"trans": "Seu nível está muito alto para atacar este jogador"
 			}
 		},
 		"combatLog": {
@@ -12294,6 +13022,10 @@
 			"cannotInviteSelf": {
 				"eng": "You cannot invite yourself",
 				"trans": "Você não pode se convidar"
+			},
+			"cannotKickSelf": {
+				"eng": "You cannot kick yourself",
+				"trans": "Você não pode se chutar."
 			},
 			"craeteNotIdle": {
 				"eng": "You must be idle to create a lobby",
@@ -12706,87 +13438,9 @@
 		}
 	},
 	"signalStrength": {
-		"info": {
-			"eng": "Signal increases only by recruiting mercenaries.",
-			"trans": "O sinal só aumenta ao recrutar mercenários."
-		},
-		"status": {
-			"building": {
-				"v1": {
-					"1": {
-						"eng": "Chatter detected",
-						"trans": "Chat detectado"
-					},
-					"2": {
-						"eng": "Names noted",
-						"trans": "Nomes anotados"
-					},
-					"3": {
-						"eng": "Signal building",
-						"trans": "Construção de Sinal"
-					}
-				}
-			},
-			"hot": {
-				"v1": {
-					"1": {
-						"eng": "Elite presence",
-						"trans": "Presença da Elite"
-					},
-					"2": {
-						"eng": "Strong resonance",
-						"trans": "Resonância Forte"
-					},
-					"3": {
-						"eng": "Lock pending",
-						"trans": "Bloqueio pendente"
-					}
-				}
-			},
-			"peak": {
-				"v1": {
-					"1": {
-						"eng": "Signal locked",
-						"trans": "Sinal bloqueado"
-					},
-					"2": {
-						"eng": "Elite ready",
-						"trans": "Pronto para Elite"
-					},
-					"3": {
-						"eng": "Contact imminent",
-						"trans": "Contato iminente"
-					}
-				}
-			},
-			"quiet": {
-				"v1": {
-					"1": {
-						"eng": "Online",
-						"trans": "Online"
-					},
-					"2": {
-						"eng": "Signal active",
-						"trans": "Sinal ativo"
-					}
-				}
-			},
-			"rising": {
-				"v1": {
-					"1": {
-						"eng": "Talent in range",
-						"trans": "Talento em alcance"
-					},
-					"2": {
-						"eng": "Signal strong",
-						"trans": "Sinal forte"
-					},
-					"3": {
-						"eng": "Interesting lead",
-						"trans": "Pista interessante"
-					}
-				}
-			}
+		"popupContent": {
+			"eng": "Signal increases every time you recruit a mercenary.",
+			"trans": "Sinal aumenta sempre que você recruta um mercenário."
 		}
 	},
 	"socialMedia": {
@@ -12838,6 +13492,14 @@
 		}
 	},
 	"stat": {
+		"afkTaskExpMult": {
+			"eng": "AFK Task EXP Multiplier",
+			"trans": "Multiplicador de XP por Tarefa AFK"
+		},
+		"afkTaskExpMultDesc": {
+			"eng": "Increases the EXP you receive from AFK tasks.",
+			"trans": "Aumenta o EXP que você recebe de tarefas AFK."
+		},
 		"armor": {
 			"eng": "Armor",
 			"trans": "Armadura"
@@ -12966,6 +13628,14 @@
 			"eng": "Increases your chance to escape from enemies.",
 			"trans": "Aumenta suas chances de escapar dos inimigos."
 		},
+		"gatherExpMult": {
+			"eng": "Auto Gather EXP Multiplier",
+			"trans": "Multiplicador automático de XP"
+		},
+		"gatherExpMultDesc": {
+			"eng": "Increases the EXP you receive from auto gather.",
+			"trans": "Aumenta o EXP que você recebe ao coletar automaticamente."
+		},
 		"headshotMult": {
 			"eng": "Headshot Multiplier",
 			"trans": "Multiplicador de Cabeçada"
@@ -13078,6 +13748,16 @@
 		}
 	},
 	"statusEffect": {
+		"afkTaskExpMult1": {
+			"desc": {
+				"eng": "Increases the EXP you receive from AFK tasks by ${percent}%",
+				"trans": "Aumenta o XP que você recebe das tarefas AFK em ${percent}%"
+			},
+			"name": {
+				"eng": "AFK Task EXP Multiplier",
+				"trans": "Multiplicador de XP por Tarefa AFK"
+			}
+		},
 		"burn": {
 			"combatMsg": {
 				"eng": "${name} received ${damage} damage from burning",
@@ -13112,6 +13792,36 @@
 				"trans": "Aumento de Defesa"
 			}
 		},
+		"gatherExpMult1": {
+			"desc": {
+				"eng": "Increases the EXP you receive from auto gather by ${percent}%",
+				"trans": "Aumenta o EXP que você recebe da coleta automática em ${percent}%."
+			},
+			"name": {
+				"eng": "Auto Gather EXP Multiplier I",
+				"trans": "Multiplicador de EXP por Coleta Automática I"
+			}
+		},
+		"gatherExpMult2": {
+			"desc": {
+				"eng": "Increases the EXP you receive from auto gather by ${percent}%",
+				"trans": "Aumenta a EXP que você recebe da coleta automática em ${percent}%"
+			},
+			"name": {
+				"eng": "Auto Gather EXP Multiplier II",
+				"trans": "Multiplicador Automático de XP por Coleta II"
+			}
+		},
+		"gatherExpMult3": {
+			"desc": {
+				"eng": "Increases the EXP you receive from auto gather by ${percent}%",
+				"trans": "Aumenta o EXP que você recebe da coleta automática em ${percent}%."
+			},
+			"name": {
+				"eng": "Auto Gather EXP Multiplier III",
+				"trans": "Multiplicador de EXP para Coleta Automática III"
+			}
+		},
 		"heal": {
 			"combatMsg": {
 				"eng": "${name} recovered ${heal} health",
@@ -13124,6 +13834,16 @@
 			"name": {
 				"eng": "Healed",
 				"trans": "Curado"
+			}
+		},
+		"hospitalized": {
+			"desc": {
+				"eng": "You are recovering from injuries sustained in gang war combat. You cannot participate in war combat while hospitalized.",
+				"trans": "Você está se recuperando de ferimentos causados em combate entre gangues. Você não pode participar de combates de guerra enquanto estiver hospitalizado."
+			},
+			"name": {
+				"eng": "Hospitalized",
+				"trans": "Hospitalizado"
 			}
 		},
 		"lootIncrease": {
@@ -14649,6 +15369,16 @@
 			}
 		}
 	},
+	"vaultHandler": {
+		"depositSuccess": {
+			"eng": "Stored ${count} item(s) in vault",
+			"trans": "Armazenados ${count} itens no cofre"
+		},
+		"withdrawSuccess": {
+			"eng": "Retrieved ${count} item(s) from vault",
+			"trans": "Recuperado ${count} item(s) do cofre"
+		}
+	},
 	"vaultPage": {
 		"addItemButton": {
 			"title": {
@@ -14685,6 +15415,54 @@
 		"vaultSlots": {
 			"eng": "Slots ${size}",
 			"trans": "Slots ${size}"
+		}
+	},
+	"warBuffDeployment": {
+		"buffLabel": {
+			"eng": "Tactical Buff",
+			"trans": "Bônus Tático"
+		},
+		"confirmDeployDescription": {
+			"eng": "Deploy ${buffName} for your gang?",
+			"trans": "Implantar ${buffName} para sua gangue?"
+		},
+		"confirmDeployTitle": {
+			"eng": "Confirm Deployment",
+			"trans": "Confirmar Implantação"
+		},
+		"deployButton": {
+			"eng": "Deploy",
+			"trans": "Implantar"
+		},
+		"error": {
+			"alreadyActive": {
+				"eng": "This buff is already active",
+				"trans": "Este buff já está ativo"
+			},
+			"leaderOnly": {
+				"eng": "Only the gang leader can deploy war buffs",
+				"trans": "Somente o líder da gangue pode usar buffs de guerra."
+			},
+			"notEnoughWarPoints": {
+				"eng": "Your gang does not have enough war points",
+				"trans": "Sua gangue não tem pontos de guerra suficientes"
+			},
+			"notInGang": {
+				"eng": "You must be in a gang to access war logistics",
+				"trans": "Você precisa estar em uma gangue para acessar a logística de guerra."
+			},
+			"warStateRequired": {
+				"eng": "Your gang must be in war state to deploy war buffs",
+				"trans": "Seu gang precisa estar em modo de guerra para usar buffs de guerra."
+			}
+		},
+		"statusActive": {
+			"eng": "Active",
+			"trans": "Ativo"
+		},
+		"warPointsLabel": {
+			"eng": "War Points",
+			"trans": "Pontos de Guerra"
 		}
 	},
 	"webHomePage": {
@@ -14860,6 +15638,14 @@
 		}
 	},
 	"wikiPage": {
+		"noResults": {
+			"eng": "No results found",
+			"trans": "Nenhum resultado encontrado"
+		},
+		"searchPlaceholder": {
+			"eng": "Search wiki...",
+			"trans": "Pesquisar wiki…"
+		},
 		"subtitle": {
 			"eng": "the free encyclopedia that anyone can edit",
 			"trans": "a enciclopédia livre que qualquer um pode editar"
@@ -14948,6 +15734,18 @@
 			"announcement": {
 				"eng": "${playerName} upgraded ${item} to ${tier}!",
 				"trans": "${playerName} melhorou ${item} para ${tier}!"
+			}
+		},
+		"warStateOff": {
+			"announcement": {
+				"eng": "${gang} has stood down from war.",
+				"trans": "${gang} se retirou da guerra."
+			}
+		},
+		"warStateOn": {
+			"announcement": {
+				"eng": "${gang} has declared war!",
+				"trans": "${gang} declarou guerra!"
 			}
 		}
 	}

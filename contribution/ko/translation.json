@@ -1,4 +1,10 @@
 {
+	"ADDRESS": {
+		"FORMAT": {
+			"eng": "ALC. ${district} District, No. ${number} ${floor} floor, room ${roomNumber}",
+			"trans": "ALC. ${district} 지구, 번호 ${number}, ${floor} 층, ${roomNumber}호"
+		}
+	},
 	"BattlePassTimeLimitedInfoModal": {
 		"button": {
 			"eng": "Close",
@@ -802,6 +808,12 @@
 			"eng": "Start",
 			"trans": "시작"
 		},
+		"stats": {
+			"cycles": {
+				"eng": "${count} cycles",
+				"trans": "${count} 사이클"
+			}
+		},
 		"tip": {
 			"eng": "You can unlock higher gathering zones by clearing ${difficulty} strongholds, the zone level is capped at your character level.",
 			"trans": "${difficulty} 아지트를 클리어하면 더 높은 채집 구역을 잠금 해제할 수 있으며, 구역 레벨은 캐릭터 레벨에 따라 제한됩니다."
@@ -1358,16 +1370,40 @@
 		}
 	},
 	"blockedPlayerListPage": {
+		"emptyHint": {
+			"eng": "Block players from their profile to prevent them from contacting you",
+			"trans": "프로필에서 플레이어를 차단하여 더 이상 연락받지 않도록 합니다."
+		},
 		"noBlockedPlayers": {
 			"eng": "No blocked players",
 			"trans": "차단된 플레이어 없음"
 		},
 		"unblock": {
+			"confirm": {
+				"description": {
+					"eng": "This player will be able to contact you again",
+					"trans": "해당 플레이어는 다시 당신에게 연락할 수 있게 됩니다."
+				},
+				"title": {
+					"eng": "Unblock ${playerName}?",
+					"trans": "${playerName} 차단 해제?"
+				}
+			},
 			"eng": "Unblock",
 			"trans": "차단 해제"
 		}
 	},
 	"buff": {
+		"afkTaskExpMult1": {
+			"description": {
+				"eng": "Increase AFK task EXP for all gang members by ${percent}% for ${hours} hours",
+				"trans": "전체 갱원 AFK 작업 경험치를 ${hours} 시간 동안 ${percent}% 증가시킵니다."
+			},
+			"name": {
+				"eng": "AFK Task EXP Multiplier",
+				"trans": "AFK 작업 경험치 배율"
+			}
+		},
 		"defenseIncrease": {
 			"description": {
 				"eng": "Increase defense for all players in strongholds created by your gang members in ${minutes} minutes",
@@ -1376,6 +1412,36 @@
 			"name": {
 				"eng": "Defense Increase",
 				"trans": "방어력 증가"
+			}
+		},
+		"gatherExpMult1": {
+			"description": {
+				"eng": "Increase auto gather EXP for all gang members by ${percent}% for ${minutes} minutes",
+				"trans": "전체 갱원의 자동 수집 경험치를 ${minutes}분 동안 ${percent}%만큼 증가시킵니다."
+			},
+			"name": {
+				"eng": "Auto Gather EXP Multiplier I",
+				"trans": "자동 경험치 배수 1"
+			}
+		},
+		"gatherExpMult2": {
+			"description": {
+				"eng": "Increase auto gather EXP for all gang members by ${percent}% for ${minutes} minutes",
+				"trans": "전체 갱원의 오토 경험치 획득량이 ${minutes} 분간 ${percent}% 증가합니다."
+			},
+			"name": {
+				"eng": "Auto Gather EXP Multiplier II",
+				"trans": "자동 경험치 수집 배율 II"
+			}
+		},
+		"gatherExpMult3": {
+			"description": {
+				"eng": "Increase auto gather EXP for all gang members by ${percent}% for ${minutes} minutes",
+				"trans": "전체 갱 멤버의 자동 수집 경험치가 ${minutes}분 동안 ${percent}%만큼 증가합니다."
+			},
+			"name": {
+				"eng": "Auto Gather EXP Multiplier III",
+				"trans": "자동 경험치 수집 배율 III"
 			}
 		},
 		"lootIncrease": {
@@ -1625,6 +1691,10 @@
 			}
 		},
 		"error": {
+			"cannotKickSelf": {
+				"eng": "You cannot kick yourself",
+				"trans": "자신을 차낼 수 없습니다."
+			},
 			"clanIsFull": {
 				"eng": "this gang is current at max member capacity",
 				"trans": "이 갱단은 현재 최대 멤버 수에 도달했습니다"
@@ -1662,9 +1732,35 @@
 				}
 			}
 		},
+		"playerList": {
+			"header": {
+				"eng": "Personnel Roster",
+				"trans": "인원 명단"
+			},
+			"status": {
+				"eng": "Operational Status: Active",
+				"trans": "작동 상태: 활성"
+			},
+			"units": {
+				"eng": "Units",
+				"trans": "유닛"
+			}
+		},
 		"requestSent": {
 			"eng": "Request sent successfully",
 			"trans": "요청이 성공적으로 전송되었습니다"
+		},
+		"role": {
+			"commander": {
+				"eng": "COMMANDER",
+				"trans": "사령관"
+			}
+		},
+		"war": {
+			"badge": {
+				"eng": "WAR",
+				"trans": "전쟁"
+			}
 		}
 	},
 	"clanBuffDeployPopup": {
@@ -1726,7 +1822,49 @@
 				"trans": "자금 입금"
 			}
 		},
-		"editMottoButton": {
+		"depositSuccess": {
+			"eng": "Deposited ${amount} funds",
+			"trans": "${amount} 자금 입금 완료"
+		},
+		"disbandClan": {
+			"eng": "Disband Gang",
+			"trans": "갱 해체"
+		},
+		"disbandClanModal": {
+			"description": {
+				"eng": "Are you sure you want to disband this gang? This action cannot be undone.",
+				"trans": "정말 이 갱을 해체하시겠습니까? 이 작업은 되돌릴 수 없습니다."
+			},
+			"title": {
+				"eng": "Disband gang",
+				"trans": "갱 해체"
+			}
+		},
+		"disbandLocked": {
+			"engagementLocked": {
+				"eng": "Cannot disband while members have recently engaged in war combat",
+				"trans": "최근 전쟁 작전에 참여한 멤버가 있어 그룹을 해체할 수 없습니다."
+			},
+			"warActive": {
+				"eng": "Cannot disband while war mode is active. Disable war mode first.",
+				"trans": "전쟁 모드 중에는 해산할 수 없습니다. 먼저 전쟁 모드를 비활성화하십시오."
+			}
+		},
+		"disbandStatus": {
+			"engagementLocked": {
+				"eng": "Members recently engaged in war combat. Available in:",
+				"trans": "최근 전투에 참전한 대원들. 확인 가능 위치:"
+			},
+			"title": {
+				"eng": "DISBAND LOCKED",
+				"trans": "해산 잠김"
+			},
+			"warActive": {
+				"eng": "Cannot disband while war mode is active. Disable war mode first.",
+				"trans": "전쟁 모드 활성화 중에는 해체할 수 없습니다. 먼저 전쟁 모드를 비활성화하세요."
+			}
+		},
+		"editMotto": {
 			"eng": "Edit Motto",
 			"trans": "모토 편집"
 		},
@@ -1745,8 +1883,8 @@
 			"trans": "가입하기"
 		},
 		"leaveClan": {
-			"eng": "leave gang",
-			"trans": "갱에서 나가기"
+			"eng": "Leave Gang",
+			"trans": "갱 탈퇴"
 		},
 		"leaveClanModal": {
 			"description": {
@@ -1757,14 +1895,6 @@
 				"eng": "Leave gang",
 				"trans": "갱을 나가다"
 			}
-		},
-		"makePrivate": {
-			"eng": "Make Private",
-			"trans": "비공개로 설정"
-		},
-		"makePublic": {
-			"eng": "Make Public",
-			"trans": "공개로 설정"
 		},
 		"mottoModal": {
 			"description": {
@@ -1784,23 +1914,19 @@
 			"eng": "There is no motto set for this gang yet",
 			"trans": "이 갱단에는 아직 모토가 설정되지 않았습니다"
 		},
-		"noticeModal": {
-			"description": {
-				"eng": "Posting a notice will cost ${Config.CLAN.NOTICE_POST_COST}${CurrencyType.NORMAL.getSymbol()}",
-				"trans": "공지 게시 시 ${Config.CLAN.NOTICE_POST_COST}${CurrencyType.NORMAL.getSymbol()}이(가) 소요됩니다."
-			},
-			"title": {
-				"eng": "Post gang notice",
-				"trans": "갱단 공지 게시"
-			}
-		},
 		"playerListButton": {
 			"eng": "Member List",
 			"trans": "갱원 목록"
 		},
-		"postNoticeButton": {
-			"eng": "Post Notice",
-			"trans": "공지 게시"
+		"publicToggle": {
+			"private": {
+				"eng": "Private",
+				"trans": "개인"
+			},
+			"public": {
+				"eng": "Public",
+				"trans": "공개"
+			}
 		},
 		"requestToJoinButton": {
 			"eng": "Request to join",
@@ -1809,10 +1935,6 @@
 		"resources": {
 			"eng": "Resources",
 			"trans": "자원"
-		},
-		"setImageButton": {
-			"eng": "Set Image",
-			"trans": "이미지 설정"
 		},
 		"upkeepTip": {
 			"eng": "Ensure there is enough resources and funds to avoid losing the gang on the next upkeep date.",
@@ -1851,26 +1973,18 @@
 			}
 		}
 	},
-	"clanPlayer": {
-		"controlPointContributed": {
-			"eng": "control points: ${amount}",
-			"trans": "점령 점수: ${amount}"
-		},
-		"fundsContributed": {
-			"eng": "funds: ${amount}",
-			"trans": "자금: ${amount}"
-		},
-		"resourceContributed": {
-			"eng": "resource: ${amount}",
-			"trans": "자원: ${amount}"
-		},
-		"thisWeek": {
-			"eng": "this week",
-			"trans": "이번 주"
-		},
-		"total": {
-			"eng": "total",
-			"trans": "총계"
+	"clanMenuModal": {
+		"warWarning": {
+			"joinDescription": {
+				"eng": "This gang is in WAR MODE. Joining will expose you to War PvP attacks with ${hours} hours lock. Continue?",
+				"trans": "이 갱은 전쟁 모드입니다. 합류 시 전쟁 PvP 공격에 노출되며 ${hours} 시간 동안 로크됩니다. 계속?"
+			}
+		}
+	},
+	"clanPlayerListPage": {
+		"memberCount": {
+			"eng": "${count} members",
+			"trans": "${count} 명"
 		}
 	},
 	"clanPlayerPermissionModal": {
@@ -1884,6 +1998,14 @@
 		}
 	},
 	"clanPlayerPopup": {
+		"disableWarParticipation": {
+			"eng": "Disable War Participation",
+			"trans": "전쟁 참여 비활성화"
+		},
+		"enableWarParticipation": {
+			"eng": "Enable War Participation",
+			"trans": "전쟁 참여 활성화"
+		},
 		"kickPlayerButton": {
 			"eng": "kick player",
 			"trans": "플레이어 추방"
@@ -1891,6 +2013,14 @@
 		"setPermissionButton": {
 			"eng": "Edit Permissions",
 			"trans": "권한 편집"
+		},
+		"statusActive": {
+			"eng": "ACTIVE",
+			"trans": "활성"
+		},
+		"statusInactive": {
+			"eng": "INACTIVE",
+			"trans": "비활성"
 		},
 		"transferOwnership": {
 			"eng": "Transfer Ownership",
@@ -1901,8 +2031,16 @@
 			"trans": "소유권 이전"
 		},
 		"transferOwnershipConfirm": {
-			"eng": "Are you sure you want to transfer ownership of the gang to ${playerName}?\\nthis cannot be undone.",
-			"trans": "${playerName}님에게 갱의 소유권을 이전하시겠습니까?\\n이 작업은 되돌릴 수 없습니다."
+			"eng": "Are you sure you want to transfer ownership of the gang to ${playerName}.\\nthis cannot be undone.",
+			"trans": "갱의 소유권을 ${playerName}에게 이전하시겠습니까?\n이는 되돌릴 수 없습니다."
+		},
+		"warStatus": {
+			"eng": "War Participation",
+			"trans": "전쟁 참여"
+		},
+		"warToggleCooldown": {
+			"eng": "Cooldown: ${time}",
+			"trans": "대기 시간: ${time}"
 		}
 	},
 	"clanSearchPage": {
@@ -1963,6 +2101,248 @@
 				"eng": "View profile",
 				"trans": "프로필 보기"
 			}
+		}
+	},
+	"clanTabContent": {
+		"noticeModal": {
+			"description": {
+				"eng": "Posting a notice will cost ${cost}${symbol}",
+				"trans": "공지 게시 시 ${cost}${symbol}가 소모됩니다."
+			},
+			"title": {
+				"eng": "Post gang notice",
+				"trans": "갱 공지 게시"
+			}
+		}
+	},
+	"clanTabNoClanContent": {
+		"warWarning": {
+			"joinDescription": {
+				"eng": "This gang is in WAR MODE. Joining will expose you to PvP attacks and 24h participation locks. Continue?",
+				"trans": "해당 갱은 전쟁 모드입니다. 합류하면 PVP 공격에 노출되며 24 시간 참여 잠금이 걸립니다. 계속?"
+			}
+		}
+	},
+	"clanWar": {
+		"chat": {
+			"deathBroadcast": {
+				"eng": "${victimPlayer} was eliminated by ${killerPlayer} from ${gang}",
+				"trans": "${victimPlayer}은 ${gang} 소속 ${killerPlayer}에 의해 제거되었습니다."
+			},
+			"killBroadcast": {
+				"eng": "${killerPlayer} has eliminated ${victimPlayer} from ${gang}",
+				"trans": "${killerPlayer}이(는) ${victimPlayer}을(를) ${gang}에서 제거했습니다."
+			},
+			"milestoneReached": {
+				"eng": "${count} kill streak! +${reward} war score",
+				"trans": "${count} 연속 킬! +${reward} 전쟁 점수"
+			},
+			"warStateOn": {
+				"eng": "${gang} has declared war",
+				"trans": "${gang} 이 전쟁을 선포했습니다."
+			}
+		},
+		"dangerModal": {
+			"enableDescription": {
+				"eng": "Enabling WAR MODE will expose ALL gang members to PvP attacks. Opting out will be LOCKED for 24 hours. Proceed?",
+				"trans": "전쟁 모드 활성화 시 모든 갱원이 PvP 공격에 노출됩니다. 비활성화는 24 시간 동안 잠깁니다. 진행하시겠습니까?"
+			},
+			"requestDescription": {
+				"eng": "This gang is in WAR MODE. If accepted, joining will expose you to PvP attacks and 24h participation locks. Continue?",
+				"trans": "이 갱은 전쟁 모드입니다. 수락 시 합류하면 PvP 공격과 24 시간 참여 잠금에 노출됩니다. 계속 진행하시겠습니까?"
+			},
+			"title": {
+				"eng": "WAR MODE WARNING",
+				"trans": "전쟁 모드 켜기"
+			}
+		},
+		"disableModal": {
+			"description": {
+				"eng": "Are you sure you want to disable war mode? Your gang will no longer be able to earn war score.",
+				"trans": "전쟁 모드를 해제하시겠습니까? 갱은 더 이상 전쟁 점수를 획득할 수 없습니다."
+			},
+			"title": {
+				"eng": "Disable War Mode",
+				"trans": "전쟁 모드 비활성화"
+			}
+		},
+		"error": {
+			"cannotToggleMember": {
+				"eng": "Cannot toggle this member's participation. They may not exist or cooldown is active",
+				"trans": "해당 멤버의 참여 전환 불가. 해당 사용자가 존재하지 않거나 현재 쿨다운 상태입니다."
+			},
+			"disbandEngaged": {
+				"eng": "You cannot disband the gang while members have recently engaged in war combat",
+				"trans": "멤버들이 최근 전쟁 전투에 참여했으므로 갱을 해산할 수 없습니다."
+			},
+			"disbandWarActive": {
+				"eng": "You cannot disband the gang while war mode is active",
+				"trans": "전쟁 모드 활성화 중에는 갱을 해산할 수 없습니다."
+			},
+			"kickLocked": {
+				"eng": "Cannot kick a member who has recently engaged in war combat",
+				"trans": "최근 전투에 참여한 멤버는 추방할 수 없습니다."
+			},
+			"leaderOnly": {
+				"eng": "Only the gang leader can perform this action",
+				"trans": "오직 갱 리더만이 이 행동을 실행할 수 있습니다."
+			},
+			"leaveLocked": {
+				"eng": "You cannot leave the gang while you have recently engaged in war combat",
+				"trans": "최근 전투에 참여한 상태에서는 갱을 나가지 못합니다"
+			},
+			"notEnoughWarPoints": {
+				"eng": "Your gang does not have enough war points",
+				"trans": "당신의 갱은 전투 포인트가 부족합니다."
+			},
+			"notWarBuff": {
+				"eng": "This buff cannot be deployed during gang war",
+				"trans": "이 버프는 갱전 중에 사용할 수 없습니다."
+			},
+			"optOutLocked": {
+				"eng": "Cannot disable war mode yet. 24h lock-in period is still active",
+				"trans": "아직 전쟁 모드를 해제할 수 없습니다. 24 시간 잠금 기간이 여전히 진행 중입니다."
+			},
+			"warStateRequired": {
+				"eng": "Your gang must be in war state to deploy war buffs",
+				"trans": "전쟁 버프를 배포하려면 갱이 전쟁 상태여야 합니다."
+			},
+			"wip": {
+				"eng": "This feature is currently under development",
+				"trans": "이 기능은 현재 개발 중입니다."
+			}
+		},
+		"lockedFeedback": {
+			"eng": "War mode is locked until ${date}",
+			"trans": "전쟁 모드는 ${date} 까지 잠겨 있습니다."
+		},
+		"notification": {
+			"hospitalized": {
+				"eng": "You have been hospitalized from a gang war defeat. Recovery time: ${duration} minutes.",
+				"trans": "당신은 갱전투 패배로 인해 입원되었습니다. 회복 시간: ${duration} 분."
+			},
+			"milestoneReached": {
+				"eng": "Your gang has reached a ${count} kill streak and earned ${reward} war score!",
+				"trans": "당신의 갱이 ${count} 연속 킬을 달성하고 ${reward} 전쟁 점수를 획득했습니다!"
+			},
+			"participationDisabled": {
+				"eng": "You have been removed from war participation by your gang leader. Your kills will no longer count towards gang war score.",
+				"trans": "갱장님이 당신을 전쟁 참여에서 제외했습니다. 킬이 더 이상 갱전 점수에 반영되지 않습니다."
+			},
+			"participationEnabled": {
+				"eng": "You have been added to war participation by your gang leader. You can now participate in gang wars.",
+				"trans": "당신의 갱 리더가 전쟁 참여자로 귀하를 등록했습니다. 이제 갱 전쟁에 참가할 수 있습니다."
+			},
+			"warStateOff": {
+				"eng": "Your gang leader has disabled war mode. Your gang is no longer a war target.",
+				"trans": "갱 리더님이 전쟁 모드를 비활성화하셨습니다. 해당 갱은 더 이상 전쟁 대상이 아닙니다."
+			},
+			"warStateOn": {
+				"eng": "Your gang leader has activated war mode for your gang!",
+				"trans": "당신의 갱단 리더가 전쟁 모드를 활성화했습니다!"
+			}
+		},
+		"tutorialLink": {
+			"eng": "Learn more about Gang War",
+			"trans": "갱 전쟁에 대해 자세히 알아보기"
+		}
+	},
+	"clanWarPage": {
+		"header": {
+			"currentScore": {
+				"eng": "TOTAL WAR SCORE",
+				"trans": "총 전쟁 점수"
+			},
+			"stack": {
+				"eng": "STACK",
+				"trans": "스택"
+			},
+			"warPoints": {
+				"eng": "PTS",
+				"trans": "PTS"
+			}
+		},
+		"milestone": {
+			"progressText": {
+				"eng": "${current} / ${target} STACKS",
+				"trans": "${current} / ${target} 스택"
+			},
+			"reward": {
+				"eng": "BONUS",
+				"trans": "보너스"
+			},
+			"stacks": {
+				"eng": "STACKS",
+				"trans": "스택"
+			}
+		},
+		"milestones": {
+			"end": {
+				"eng": "END OF OPERATION",
+				"trans": "작전 종료"
+			},
+			"operation": {
+				"eng": "OPERATION",
+				"trans": "작전"
+			},
+			"title": {
+				"eng": "WAR MILESTONES",
+				"trans": "전쟁 이정표"
+			},
+			"total_stacks": {
+				"eng": "TOTAL STACK",
+				"trans": "전체 스택"
+			},
+			"unit": {
+				"eng": "STK",
+				"trans": "STK"
+			}
+		},
+		"noClan": {
+			"eng": "NO GANG DATA FOUND",
+			"trans": "갱 데이터를 찾을 수 없습니다."
+		},
+		"status": {
+			"active": {
+				"eng": "WAR ACTIVE",
+				"trans": "전쟁 진행 중"
+			},
+			"inactive": {
+				"eng": "WAR INACTIVE",
+				"trans": "전쟁 비활성"
+			}
+		}
+	},
+	"clanWarPanel": {
+		"enableWarModal": {
+			"title": {
+				"eng": "ENABLE WAR MODE",
+				"trans": "전쟁 모드 활성화"
+			}
+		},
+		"leaderOnlyToggle": {
+			"eng": "Only the gang leader can toggle war mode",
+			"trans": "갱 리더만 전쟁 모드 전환이 가능합니다."
+		},
+		"locked": {
+			"eng": "Lock:",
+			"trans": "잠금:"
+		},
+		"score": {
+			"eng": "War Score",
+			"trans": "전쟁 점수"
+		},
+		"stack": {
+			"eng": "Stack",
+			"trans": "스택"
+		},
+		"warOff": {
+			"eng": "War OFF",
+			"trans": "전쟁 비활성화"
+		},
+		"warOn": {
+			"eng": "War ON",
+			"trans": "전쟁 활성화"
 		}
 	},
 	"collectedLoreNotes": {
@@ -2193,6 +2573,10 @@
 		"psychosis": {
 			"eng": "+ ${amount} psychosis",
 			"trans": "+ ${amount} 사이버 싸이코"
+		},
+		"warPoints": {
+			"eng": "${amount} war points",
+			"trans": "${amount} 전쟁 포인트"
 		}
 	},
 	"coupon": {
@@ -2210,13 +2594,17 @@
 			"eng": "Enter your gift code to get your reward.",
 			"trans": "보상을 받으려면 선물 코드를 입력하세요."
 		},
+		"hint": {
+			"eng": "Codes are case-insensitive",
+			"trans": "코드는 대소문자를 구분하지 않습니다."
+		},
 		"inputTitle": {
 			"eng": "Gift Code",
 			"trans": "선물 코드"
 		},
 		"submitButton": {
-			"eng": "Submit",
-			"trans": "입력"
+			"eng": "Redeem Code",
+			"trans": "코드 교환"
 		},
 		"title": {
 			"eng": "Gift Code",
@@ -2357,16 +2745,6 @@
 				"eng": "Universal Dollars",
 				"trans": "유니버설 달러"
 			}
-		}
-	},
-	"currencyCheck": {
-		"getMore": {
-			"eng": "get more",
-			"trans": "더 많이 얻기"
-		},
-		"notEnough": {
-			"eng": "Insufficient ${currency}",
-			"trans": "${currency}이(가) 부족합니다"
 		}
 	},
 	"dailyQuestTab": {
@@ -2561,6 +2939,24 @@
 		"dismantleButton": {
 			"eng": "Dismantle",
 			"trans": "분해하기"
+		},
+		"itemCount": {
+			"eng": "${count} items",
+			"trans": "${count}개의 아이템"
+		},
+		"sort": {
+			"level": {
+				"eng": "Level",
+				"trans": "레벨"
+			},
+			"name": {
+				"eng": "Name",
+				"trans": "이름"
+			},
+			"tier": {
+				"eng": "Tier",
+				"trans": "등급"
+			}
 		}
 	},
 	"displayShelf": {
@@ -2769,6 +3165,26 @@
 			}
 		}
 	},
+	"dungeonBackpackPage": {
+		"itemCount": {
+			"eng": "${count} items",
+			"trans": "${count}개의 아이템"
+		},
+		"sort": {
+			"level": {
+				"eng": "Level",
+				"trans": "레벨"
+			},
+			"name": {
+				"eng": "Name",
+				"trans": "이름"
+			},
+			"tier": {
+				"eng": "Tier",
+				"trans": "등급"
+			}
+		}
+	},
 	"dungeonChoicePopup": {
 		"actionsTitle": {
 			"eng": "Choose your action",
@@ -2947,6 +3363,10 @@
 				"eng": "${playerName}'s lobby",
 				"trans": "${playerName}의 로비"
 			}
+		},
+		"lobbyCount": {
+			"eng": "${count} lobbies",
+			"trans": "${count} 로비"
 		},
 		"noLobbiesFound": {
 			"eng": "No lobbies found",
@@ -3139,6 +3559,12 @@
 				"eng": "Wow",
 				"trans": "대박"
 			}
+		}
+	},
+	"emptyState": {
+		"defaultTitle": {
+			"eng": "No records found",
+			"trans": "기록을 찾을 수 없습니다"
 		}
 	},
 	"enemyEvent": {
@@ -3431,6 +3857,18 @@
 		"submit3": {
 			"eng": "Submit",
 			"trans": "제출"
+		}
+	},
+	"filteredItemList": {
+		"noSearchResults": {
+			"eng": "No items matching \"${query}\"",
+			"trans": "${query}에 일치하는 아이템이 없습니다."
+		},
+		"search": {
+			"placeholder": {
+				"eng": "Search items...",
+				"trans": "아이템 검색..."
+			}
 		}
 	},
 	"firstPurchasePromoSmall": {
@@ -3806,6 +4244,10 @@
 				"trans": "갱을 만들기에 충분한 돈이 없습니다"
 			}
 		},
+		"createSuccess": {
+			"eng": "Gang \"${name}\" created!",
+			"trans": "갱 \"${name}\"이(가) 생성되었습니다!"
+		},
 		"editMotto": {
 			"error": {
 				"levelNoAlts": {
@@ -4007,6 +4449,22 @@
 			}
 		}
 	},
+	"hitListPage": {
+		"bountyCount": {
+			"eng": "${count} bounties",
+			"trans": "${count} 건의 수배"
+		},
+		"sort": {
+			"level": {
+				"eng": "Level",
+				"trans": "레벨"
+			},
+			"price": {
+				"eng": "Price",
+				"trans": "가격"
+			}
+		}
+	},
 	"hitlist": {
 		"loading": {
 			"eng": "Loading bounties...",
@@ -4057,6 +4515,48 @@
 				"eng": "A bounty has been placed on your head, current bounty - Eurodollar: ${money}, Universal Dollar: ${uni}",
 				"trans": "당신의 머리에 현상금이 걸렸습니다. 현재 현상금 - 유로달러: ${money}, 유니버설 달러: ${uni}"
 			}
+		}
+	},
+	"hospitalizedScreen": {
+		"leaveHospital": {
+			"eng": "DISCHARGE // CONFIRM",
+			"trans": "방출 // 확인"
+		},
+		"statusCritical": {
+			"eng": "SYS: VITALS CRITICAL",
+			"trans": "시스템: 생체 신호 치명적"
+		},
+		"statusRecovered": {
+			"eng": "RECOVERY_COMPLETE",
+			"trans": "복구 완료"
+		},
+		"statusStable": {
+			"eng": "SYS: VITALS STABLE",
+			"trans": "시스템 : 바이탈 안정"
+		},
+		"statusTag": {
+			"eng": "OVR_DENIED",
+			"trans": "오버라이드 거부됨"
+		},
+		"sysHeader": {
+			"eng": "SYS.MED_PROTOCOL",
+			"trans": "시스템 의료 프로토콜"
+		},
+		"timeRemaining": {
+			"eng": "EST. RECOVERY TIME",
+			"trans": "추정 복구 시간"
+		},
+		"title": {
+			"eng": "HOSPITALIZED",
+			"trans": "입원 중"
+		},
+		"useMedkit": {
+			"eng": "ADMINISTER MEDKIT",
+			"trans": "메드킷 투여"
+		},
+		"useMedkitDesc": {
+			"eng": "[-1 HR RECOVERY]",
+			"trans": "[-1 시간 회복]"
 		}
 	},
 	"hostilePlayerListPage": {
@@ -4368,10 +4868,6 @@
 			"eng": "Error loading clue",
 			"trans": "힌트 불러오기 실패"
 		},
-		"evidence": {
-			"eng": "Evidence",
-			"trans": "증거"
-		},
 		"evidenceAcquired": {
 			"eng": "Evidence Logged - ACPD Database",
 			"trans": "증거 기록됨 - 아클라이트시 경찰서 데이터베이스"
@@ -4379,6 +4875,10 @@
 		"evidenceMismatch": {
 			"eng": "The submitted conclusion does not align with available evidence patterns.",
 			"trans": "제출된 결론이 사용 가능한 증거 패턴과 일치하지 않습니다."
+		},
+		"evidenceNumber": {
+			"eng": "Evidence #${number}",
+			"trans": "증거 #${number}"
 		},
 		"goToVerdict": {
 			"eng": "Go to verdict ${num}",
@@ -4810,6 +5310,10 @@
 			"cantEquipFromBackpack": {
 				"eng": "You cannot equip equipment from your backpack",
 				"trans": "배낭에서 장비를 착용할 수 없습니다"
+			},
+			"notHospitalized": {
+				"eng": "You can only use this item while hospitalized",
+				"trans": "이 아이템은 입원 중에만 사용 가능합니다."
 			}
 		},
 		"levelUpBar": {
@@ -5528,6 +6032,16 @@
 			"name": {
 				"eng": "Egg",
 				"trans": "계란"
+			}
+		},
+		"emergencyMedkit": {
+			"description": {
+				"eng": "A field-grade trauma kit containing synthetic coagulants and adrenaline boosters. Reduces hospitalization time by 1 hour when administered.",
+				"trans": "합성 응고제 및 아드레날린 부스터가 포함된 전장용 외상 키트입니다. 투여 시 입원 시간을 1 시간 단축합니다."
+			},
+			"name": {
+				"eng": "Emergency Medkit",
+				"trans": "비상 의료 키트"
 			}
 		},
 		"energyGun": {
@@ -7202,6 +7716,12 @@
 				"trans": "갱 레벨"
 			}
 		},
+		"clanWar": {
+			"name": {
+				"eng": "Gang War Score",
+				"trans": "갱 전쟁 점수"
+			}
+		},
 		"level": {
 			"name": {
 				"eng": "Character Level",
@@ -7273,6 +7793,20 @@
 				"eng": "Stock Realized Profit",
 				"trans": "주식 차익 실현"
 			}
+		}
+	},
+	"leaderboardDetails": {
+		"empty": {
+			"eng": "No rankings yet",
+			"trans": "아직 랭킹이 없습니다."
+		},
+		"loading": {
+			"eng": "Loading rankings...",
+			"trans": "랭킹 로딩 중"
+		},
+		"warScore": {
+			"eng": "WAR SCORE",
+			"trans": "전쟁 점수"
 		}
 	},
 	"leaderboardTypes": {
@@ -7543,6 +8077,10 @@
 		"legendClaimable": {
 			"eng": "Claimable",
 			"trans": "수령 가능"
+		},
+		"legendClaimed": {
+			"eng": "Claimed",
+			"trans": "수령 완료"
 		},
 		"legendMilestone": {
 			"eng": "Milestone",
@@ -7817,6 +8355,16 @@
 				"eng": "System Message",
 				"trans": "시스템 메시지"
 			}
+		},
+		"warAttackFailed": {
+			"attacker": {
+				"eng": "Your gang war strike against ${playerName} failed, you lost ${amount}",
+				"trans": "${playerName}에 대한 갱단 전투 공격이 실패했습니다. ${amount}를 잃었습니다."
+			},
+			"defender": {
+				"eng": "${playerName} launched a gang war strike against you but you fought back and won",
+				"trans": "${playerName} 이 당신에게 갱 전쟁 공격을 가했으나 당신은 역습하여 승리했습니다."
+			}
 		}
 	},
 	"mailDetails": {
@@ -8076,6 +8624,14 @@
 			"eng": "Black Market",
 			"trans": "암시장"
 		},
+		"clanUpkeep": {
+			"eng": "Gang Upkeep",
+			"trans": "갱 유지보수"
+		},
+		"clanWar": {
+			"eng": "Gang War",
+			"trans": "갱전"
+		},
 		"currency": {
 			"eng": "Currency",
 			"trans": "통화"
@@ -8095,10 +8651,6 @@
 		"followUpLottery": {
 			"eng": "Follow Up Lottery",
 			"trans": "후속 추첨"
-		},
-		"gangUpkeep": {
-			"eng": "Gang Upkeep",
-			"trans": "갱 유지보수"
 		},
 		"hideoutRaid": {
 			"eng": "Hideout Raid",
@@ -8265,6 +8817,18 @@
 		"noItem": {
 			"eng": "There is no item",
 			"trans": "아이템이 없습니다"
+		}
+	},
+	"marketMyItemsPage": {
+		"emptySlot": {
+			"eng": "List Item",
+			"trans": "목록 항목"
+		},
+		"header": {
+			"title": {
+				"eng": "Market Listings",
+				"trans": "시장 목록"
+			}
 		}
 	},
 	"marketPurchaseModal": {
@@ -8468,6 +9032,10 @@
 			"eng": "Level Up",
 			"trans": "레벨 업"
 		},
+		"resonate": {
+			"eng": "Resonate",
+			"trans": "공명"
+		},
 		"stats": {
 			"title": {
 				"eng": "stats",
@@ -8633,6 +9201,24 @@
 		"noMercenaries": {
 			"eng": "You do not have any mercenaries in your contact",
 			"trans": "당신은 연락처에 용병이 없습니다"
+		},
+		"sort": {
+			"level": {
+				"eng": "Level",
+				"trans": "레벨"
+			},
+			"name": {
+				"eng": "Name",
+				"trans": "이름"
+			},
+			"skill": {
+				"eng": "Skill",
+				"trans": "스킬"
+			},
+			"tier": {
+				"eng": "Tier",
+				"trans": "등급"
+			}
 		},
 		"tip": {
 			"default": {
@@ -8852,6 +9438,12 @@
 			"eng": "RESONANCE COMPLETE",
 			"trans": "공명 완료"
 		},
+		"mythicCinematic": {
+			"tapToContinue": {
+				"eng": "TAP SCREEN",
+				"trans": "화면을 터치하세요"
+			}
+		},
 		"mythicTitle1": {
 			"eng": "MYTHIC",
 			"trans": "신화"
@@ -8868,6 +9460,12 @@
 			"eng": "AWAKENING RESULT",
 			"trans": "각성 결과"
 		},
+		"standardAwakening": {
+			"tapToContinue": {
+				"eng": "TAP TO CONTINUE",
+				"trans": "탭하여 계속"
+			}
+		},
 		"sys": {
 			"protocol": {
 				"eng": "Awakening protocol finalized",
@@ -8881,10 +9479,6 @@
 				"eng": "Neural synchronization successful",
 				"trans": "신경 동기화 성공"
 			}
-		},
-		"tapToContinue": {
-			"eng": "TAP TO CONTINUE",
-			"trans": "계속하려면 탭하세요"
 		}
 	},
 	"mercenarySelectPopup": {
@@ -9032,8 +9626,8 @@
 				"trans": "접근 허가됨"
 			},
 			"breachProgress": {
-				"eng": "BREACH PROGRESS",
-				"trans": "침투 진행 상황"
+				"eng": "BREACH PROGRESS: ${percent}%",
+				"trans": "침투 진행률: ${percent}%"
 			},
 			"example": {
 				"eng": "Example of obfuscated code:",
@@ -9396,6 +9990,10 @@
 			"eng": "Eurodollars",
 			"trans": "유로달러"
 		},
+		"deselectAll": {
+			"eng": "Deselect All",
+			"trans": "모두 선택해제"
+		},
 		"exchange": {
 			"eng": "Exchange",
 			"trans": "교환"
@@ -9445,8 +10043,8 @@
 			"trans": "구매"
 		},
 		"selectAll": {
-			"eng": "All",
-			"trans": "전체"
+			"eng": "Select All",
+			"trans": "전체 선택"
 		},
 		"upgrade": {
 			"eng": "upgrade",
@@ -9456,11 +10054,11 @@
 	"modal": {
 		"selectAmountModal": {
 			"cancel": {
-				"eng": "cancel",
+				"eng": "Cancel",
 				"trans": "취소"
 			},
 			"confirm": {
-				"eng": "confirm",
+				"eng": "Confirm",
 				"trans": "확인"
 			},
 			"invalidAmount": {
@@ -9998,6 +10596,10 @@
 				"trans": "당신은 이미 갱에 속해 있습니다"
 			}
 		},
+		"count": {
+			"eng": "${count} notifications",
+			"trans": "${count}개 알림"
+		},
 		"lobbyInvite": {
 			"accept": {
 				"eng": "Accept",
@@ -10012,6 +10614,12 @@
 			"title": {
 				"eng": "No notification",
 				"trans": "알림 없음"
+			}
+		},
+		"warWarning": {
+			"joinDescription": {
+				"eng": "This gang is in WAR MODE. Joining will expose you to war PvP attacks for ${hours} hours lock. Continue?",
+				"trans": "이 갱은 전쟁 모드입니다. 참여 시 ${hours}시간 동안 전쟁 PvP 공격에 노출되며 해당 기간 강제 고정됩니다. 계속 진행하시겠습니까?"
 			}
 		}
 	},
@@ -10386,6 +10994,14 @@
 			"upgrade": {
 				"eng": "Upgrade",
 				"trans": "업그레이드"
+			},
+			"warBuff": {
+				"eng": "War Buffs",
+				"trans": "전쟁 버프"
+			},
+			"warIntel": {
+				"eng": "War Intel",
+				"trans": "전쟁 정보"
 			}
 		},
 		"generalStore": {
@@ -10607,6 +11223,46 @@
 		"upgradeButton": {
 			"eng": "Upgrade my equipment",
 			"trans": "장비 업그레이드"
+		},
+		"warQuartermaster": {
+			"buffDeployment": {
+				"description": {
+					"eng": "Deploy tactical buffs for your gang",
+					"trans": "네 갱을 위해 전술 버프를 배치하세요."
+				},
+				"label": {
+					"eng": "TACTICAL OPS",
+					"trans": "전술 작전"
+				},
+				"title": {
+					"eng": "War Buff Deployment",
+					"trans": "전투 버프 배치"
+				}
+			},
+			"description": {
+				"eng": "A secure war command terminal where your gang reviews active enhancements and deploys new combat support buffs.",
+				"trans": "보안 전쟁 지휘 터미널에서 당신의 갱은 활성화된 강화 사항을 검토하고 새로운 전투 지원 버프를 전개합니다"
+			},
+			"greetings": {
+				"eng": [
+					"War command online. State your objective.",
+					"Frontline telemetry synced. Buff deployment terminal is ready.",
+					"Gang war resources are live. Coordinate before you spend."
+				],
+				"trans": [
+					"워커맨드 온라인. 목표를 입력하세요.",
+					"전방 데이터 동기화 완료. 버프 배포 터미널 준비 완료.",
+					"갱전 리소스가 가동 중입니다. 사용 전 팀원과 조율하세요."
+				]
+			},
+			"locationName": {
+				"eng": "War Command Center",
+				"trans": "전쟁 지휘 센터"
+			},
+			"npcName": {
+				"eng": "Quartermaster Vane",
+				"trans": "군수관 베인"
+			}
 		},
 		"weaponSmith": {
 			"description": {
@@ -10980,6 +11636,28 @@
 		}
 	},
 	"playerDetailsPage": {
+		"action": {
+			"addFriend": {
+				"eng": "Add Friend",
+				"trans": "친구 추가"
+			},
+			"attack": {
+				"eng": "Attack",
+				"trans": "공격"
+			},
+			"mail": {
+				"eng": "Mail",
+				"trans": "메일"
+			},
+			"unfriend": {
+				"eng": "Unfriend",
+				"trans": "친구 삭제"
+			}
+		},
+		"attackHospitalized": {
+			"eng": "Target is currently hospitalized. Combat unavailable.",
+			"trans": "대상은 현재 입원 중입니다. 전투는 불가능합니다."
+		},
 		"attribute": {
 			"confirm": {
 				"eng": "Apply",
@@ -10991,29 +11669,13 @@
 			}
 		},
 		"menu": {
-			"addFriend": {
-				"eng": "Add Friend",
-				"trans": "친구 추가"
-			},
 			"block": {
 				"eng": "Block",
 				"trans": "차단"
 			},
-			"close": {
-				"eng": "attack",
-				"trans": "공격"
-			},
-			"removeFriend": {
-				"eng": "Remove Friend",
-				"trans": "친구 삭제"
-			},
 			"report": {
 				"eng": "Report",
 				"trans": "신고"
-			},
-			"sendMessage": {
-				"eng": "Send Mail",
-				"trans": "우편 보내기"
 			},
 			"unblock": {
 				"eng": "Unblock",
@@ -11576,6 +12238,18 @@
 			"successBounty": {
 				"eng": "You received bounty of ${money1} and ${money2} for eliminating ${targetPlayer}",
 				"trans": "당신은 ${targetPlayer}을(를) 제거하여 ${money1}과(와) ${money2}의 현상금을 받았습니다"
+			},
+			"warAttackAddedEnemy": {
+				"eng": "${playerName} struck you in a gang war assault, you lost ${currency}, this player has been added to your enemies list",
+				"trans": "${playerName}이 갱 전쟁 공습에서 당신을 습격하여 ${currency}를 잃었습니다. 해당 플레이어는 당신의 적 목록에 추가되었습니다."
+			},
+			"warAttackNoAddEnemy": {
+				"eng": "${playerName} struck you in a gang war assault, you lost ${currency}",
+				"trans": "${playerName}이(가) 갱전에서 당신을 맞추었고, ${currency}를 잃었습니다."
+			},
+			"warAttackWin": {
+				"eng": "Your gang war strike against ${playerName} was successful, you earned ${currency}",
+				"trans": "당신의 갱전 습격이 ${playerName}에게 성공했으며 보상으로 ${currency} 를 획득했습니다."
 			}
 		},
 		"toast": {
@@ -11694,6 +12368,10 @@
 			"eng": "Daily Quests",
 			"trans": "일일 퀘스트"
 		},
+		"inProgress": {
+			"eng": "In Progress",
+			"trans": "진행 중"
+		},
 		"investigations": {
 			"eng": "Investigations",
 			"trans": "수사"
@@ -11705,6 +12383,10 @@
 		"npcQuests": {
 			"eng": "Quests",
 			"trans": "퀘스트"
+		},
+		"readyToTurnIn": {
+			"eng": "Ready to Turn In",
+			"trans": "제출 준비 완료"
 		}
 	},
 	"questPreview": {
@@ -11877,6 +12559,10 @@
 		"reportReason": {
 			"eng": "Report Reason",
 			"trans": "신고 사유"
+		},
+		"reportSuccess": {
+			"eng": "Report submitted successfully",
+			"trans": "보고서가 성공적으로 제출되었습니다"
 		}
 	},
 	"reportType": {
@@ -12081,6 +12767,32 @@
 			"trans": "최소"
 		}
 	},
+	"sendItem": {
+		"confirm": {
+			"eng": "Send",
+			"trans": "전송"
+		},
+		"confirmDescription": {
+			"eng": "Send ${amount}x ${itemName} to this player?",
+			"trans": "이 플레이어에게 ${amount}x ${itemName} 보낼까요?"
+		},
+		"confirmTitle": {
+			"eng": "Confirm Send",
+			"trans": "전송 확인"
+		},
+		"success": {
+			"eng": "Sent ${amount}x ${itemName}",
+			"trans": "${amount}개 ${itemName} 전송됨"
+		}
+	},
+	"sendItemPage": {
+		"selectAmount": {
+			"title": {
+				"eng": "Select amount to send",
+				"trans": "보낼 수량을 선택하세요"
+			}
+		}
+	},
 	"server": {
 		"clan": {
 			"join": {
@@ -12119,6 +12831,10 @@
 				"eng": "You cannot attack this player due to bounty contributor alt detection",
 				"trans": "보상 기여자 알트 탐지로 인해 이 플레이어를 공격할 수 없습니다."
 			},
+			"cannotEngageHospitalized": {
+				"eng": "This player is currently hospitalized and cannot be attacked",
+				"trans": "이 플레이어는 현재 병원 상태이며 공격받지 못합니다"
+			},
 			"cannotEngageInDungeon": {
 				"eng": "You cannot engage in PvP while in a dungeon",
 				"trans": "던전 안에서는 PVP에 참여할 수 없습니다"
@@ -12130,6 +12846,10 @@
 			"cannotEngageProtectedPlayer": {
 				"eng": "This player is protected with ${item}, you cannot engage them at this moment",
 				"trans": "이 플레이어는 ${item}으로 보호되고 있습니다. 지금은 대상을 공격할 수 없습니다"
+			},
+			"cannotEngageSuspended": {
+				"eng": "You cannot engage this player right now",
+				"trans": "현재 이 플레이어와 교전할 수 없습니다."
 			},
 			"combatNotFound": {
 				"eng": "Combat has ended",
@@ -12145,7 +12865,7 @@
 			},
 			"levelTooDiff": {
 				"eng": "You cannot engage a player that is more than ${levelDiff} levels higher or below you",
-				"trans": "${levelDiff} 레벨 이상 높거나 낮은 플레이어와는 전투할 수 없습니다"
+				"trans": "당신보다 ${levelDiff} 레벨 이상 높거나 낮은 플레이어와는 전투를 할 수 없습니다."
 			},
 			"notEnoughMoneyPvp": {
 				"eng": "You need at least ${money} to engage in PvP",
@@ -12166,6 +12886,14 @@
 			"pvpArrestDismissed": {
 				"eng": "This player has already been arrested",
 				"trans": "이 플레이어는 이미 체포되었습니다."
+			},
+			"warCannotEngageAlt": {
+				"eng": "You cannot attack this player due to alt detection",
+				"trans": "대체 계정 감지로 인해 이 플레이어를 공격할 수 없습니다."
+			},
+			"warLevelTooDiff": {
+				"eng": "You are too high level to attack this player",
+				"trans": "당신의 레벨이 너무 높아 이 플레이어를 공격할 수 없습니다."
 			}
 		},
 		"combatLog": {
@@ -12294,6 +13022,10 @@
 			"cannotInviteSelf": {
 				"eng": "You cannot invite yourself",
 				"trans": "자신을 초대할 수 없습니다"
+			},
+			"cannotKickSelf": {
+				"eng": "You cannot kick yourself",
+				"trans": "자신을 킥할 수 없습니다"
 			},
 			"craeteNotIdle": {
 				"eng": "You must be idle to create a lobby",
@@ -12706,87 +13438,9 @@
 		}
 	},
 	"signalStrength": {
-		"info": {
-			"eng": "Signal increases only by recruiting mercenaries.",
-			"trans": "신호는 용병 모집으로만 상승합니다."
-		},
-		"status": {
-			"building": {
-				"v1": {
-					"1": {
-						"eng": "Chatter detected",
-						"trans": "통신 감지"
-					},
-					"2": {
-						"eng": "Names noted",
-						"trans": "이름 저장됨"
-					},
-					"3": {
-						"eng": "Signal building",
-						"trans": "신호 구축"
-					}
-				}
-			},
-			"hot": {
-				"v1": {
-					"1": {
-						"eng": "Elite presence",
-						"trans": "엘리트 출현"
-					},
-					"2": {
-						"eng": "Strong resonance",
-						"trans": "강력한 공명"
-					},
-					"3": {
-						"eng": "Lock pending",
-						"trans": "잠금 대기 중"
-					}
-				}
-			},
-			"peak": {
-				"v1": {
-					"1": {
-						"eng": "Signal locked",
-						"trans": "신호 잠김"
-					},
-					"2": {
-						"eng": "Elite ready",
-						"trans": "엘리트 준비 완료"
-					},
-					"3": {
-						"eng": "Contact imminent",
-						"trans": "접촉 임박"
-					}
-				}
-			},
-			"quiet": {
-				"v1": {
-					"1": {
-						"eng": "Online",
-						"trans": "온라인"
-					},
-					"2": {
-						"eng": "Signal active",
-						"trans": "신호 가동 중"
-					}
-				}
-			},
-			"rising": {
-				"v1": {
-					"1": {
-						"eng": "Talent in range",
-						"trans": "범위 내 특성"
-					},
-					"2": {
-						"eng": "Signal strong",
-						"trans": "강한 신호"
-					},
-					"3": {
-						"eng": "Interesting lead",
-						"trans": "흥미로운 단서"
-					}
-				}
-			}
+		"popupContent": {
+			"eng": "Signal increases every time you recruit a mercenary.",
+			"trans": "용병을 모집할 때마다 신호가 증가합니다."
 		}
 	},
 	"socialMedia": {
@@ -12838,6 +13492,14 @@
 		}
 	},
 	"stat": {
+		"afkTaskExpMult": {
+			"eng": "AFK Task EXP Multiplier",
+			"trans": "AFK 작업 경험치 배율"
+		},
+		"afkTaskExpMultDesc": {
+			"eng": "Increases the EXP you receive from AFK tasks.",
+			"trans": "AFK 작업에서 받는 경험치가 증가합니다."
+		},
 		"armor": {
 			"eng": "Armor",
 			"trans": "방어력"
@@ -12966,6 +13628,14 @@
 			"eng": "Increases your chance to escape from enemies.",
 			"trans": "적으로부터 도망칠 확률을 높입니다."
 		},
+		"gatherExpMult": {
+			"eng": "Auto Gather EXP Multiplier",
+			"trans": "자동 경험치 수집 배수"
+		},
+		"gatherExpMultDesc": {
+			"eng": "Increases the EXP you receive from auto gather.",
+			"trans": "자동 수집을 통해 얻는 경험치가 증가합니다."
+		},
 		"headshotMult": {
 			"eng": "Headshot Multiplier",
 			"trans": "헤드샷 배수"
@@ -13078,6 +13748,16 @@
 		}
 	},
 	"statusEffect": {
+		"afkTaskExpMult1": {
+			"desc": {
+				"eng": "Increases the EXP you receive from AFK tasks by ${percent}%",
+				"trans": "AFK 작업에서 획득하는 경험치를 ${percent}% 증가시킵니다."
+			},
+			"name": {
+				"eng": "AFK Task EXP Multiplier",
+				"trans": "AFK 작업 경험치 배율"
+			}
+		},
 		"burn": {
 			"combatMsg": {
 				"eng": "${name} received ${damage} damage from burning",
@@ -13112,6 +13792,36 @@
 				"trans": "방어력 증가"
 			}
 		},
+		"gatherExpMult1": {
+			"desc": {
+				"eng": "Increases the EXP you receive from auto gather by ${percent}%",
+				"trans": "자동 수집으로 얻는 경험치가 ${percent}% 증가합니다."
+			},
+			"name": {
+				"eng": "Auto Gather EXP Multiplier I",
+				"trans": "자동 경험치 배수 1"
+			}
+		},
+		"gatherExpMult2": {
+			"desc": {
+				"eng": "Increases the EXP you receive from auto gather by ${percent}%",
+				"trans": "자동 수집으로 얻는 경험치를 ${percent}%만큼 증가시킵니다."
+			},
+			"name": {
+				"eng": "Auto Gather EXP Multiplier II",
+				"trans": "자동 경험치 수집 배율 II"
+			}
+		},
+		"gatherExpMult3": {
+			"desc": {
+				"eng": "Increases the EXP you receive from auto gather by ${percent}%",
+				"trans": "자동 수집으로 얻는 EXP 를 ${percent}%만큼 증가시킵니다."
+			},
+			"name": {
+				"eng": "Auto Gather EXP Multiplier III",
+				"trans": "자동 경험치 수집 배율 III"
+			}
+		},
 		"heal": {
 			"combatMsg": {
 				"eng": "${name} recovered ${heal} health",
@@ -13124,6 +13834,16 @@
 			"name": {
 				"eng": "Healed",
 				"trans": "회복"
+			}
+		},
+		"hospitalized": {
+			"desc": {
+				"eng": "You are recovering from injuries sustained in gang war combat. You cannot participate in war combat while hospitalized.",
+				"trans": "당신은 갱전투 중 입은 부상을 회복하고 있습니다. 입원 중에는 전쟁 전투에 참여할 수 없습니다."
+			},
+			"name": {
+				"eng": "Hospitalized",
+				"trans": "입원 중"
 			}
 		},
 		"lootIncrease": {
@@ -14649,6 +15369,16 @@
 			}
 		}
 	},
+	"vaultHandler": {
+		"depositSuccess": {
+			"eng": "Stored ${count} item(s) in vault",
+			"trans": "금고에 ${count}개의 아이템을 저장했습니다."
+		},
+		"withdrawSuccess": {
+			"eng": "Retrieved ${count} item(s) from vault",
+			"trans": "금고에서 ${count}개의 아이템을 인출했습니다."
+		}
+	},
 	"vaultPage": {
 		"addItemButton": {
 			"title": {
@@ -14685,6 +15415,54 @@
 		"vaultSlots": {
 			"eng": "Slots ${size}",
 			"trans": "슬롯 ${size}"
+		}
+	},
+	"warBuffDeployment": {
+		"buffLabel": {
+			"eng": "Tactical Buff",
+			"trans": "전술 버프"
+		},
+		"confirmDeployDescription": {
+			"eng": "Deploy ${buffName} for your gang?",
+			"trans": "갱에 ${buffName} 적용하시겠습니까?"
+		},
+		"confirmDeployTitle": {
+			"eng": "Confirm Deployment",
+			"trans": "전개 확인"
+		},
+		"deployButton": {
+			"eng": "Deploy",
+			"trans": "배치"
+		},
+		"error": {
+			"alreadyActive": {
+				"eng": "This buff is already active",
+				"trans": "이 버프는 이미 활성화되어 있습니다."
+			},
+			"leaderOnly": {
+				"eng": "Only the gang leader can deploy war buffs",
+				"trans": "갱장만이 전쟁 버프를 배치할 수 있습니다."
+			},
+			"notEnoughWarPoints": {
+				"eng": "Your gang does not have enough war points",
+				"trans": "당신의 갱은 전투 포인트가 부족합니다."
+			},
+			"notInGang": {
+				"eng": "You must be in a gang to access war logistics",
+				"trans": "전쟁 물류를 이용하려면 갱단에 가입해야 합니다."
+			},
+			"warStateRequired": {
+				"eng": "Your gang must be in war state to deploy war buffs",
+				"trans": "전쟁 버프를 배포하려면 갱이 전쟁 상태여야 합니다."
+			}
+		},
+		"statusActive": {
+			"eng": "Active",
+			"trans": "활성"
+		},
+		"warPointsLabel": {
+			"eng": "War Points",
+			"trans": "전쟁 포인트"
 		}
 	},
 	"webHomePage": {
@@ -14860,6 +15638,14 @@
 		}
 	},
 	"wikiPage": {
+		"noResults": {
+			"eng": "No results found",
+			"trans": "검색 결과가 없습니다"
+		},
+		"searchPlaceholder": {
+			"eng": "Search wiki...",
+			"trans": "위키 검색..."
+		},
 		"subtitle": {
 			"eng": "the free encyclopedia that anyone can edit",
 			"trans": "누구나 편집할 수 있는 무료 백과사전"
@@ -14948,6 +15734,18 @@
 			"announcement": {
 				"eng": "${playerName} upgraded ${item} to ${tier}!",
 				"trans": "${playerName}님이 ${item}을(를) ${tier}으로 업그레이드했습니다!"
+			}
+		},
+		"warStateOff": {
+			"announcement": {
+				"eng": "${gang} has stood down from war.",
+				"trans": "${gang}은(는) 전쟁을 중단했습니다."
+			}
+		},
+		"warStateOn": {
+			"announcement": {
+				"eng": "${gang} has declared war!",
+				"trans": "${gang}이 선전포고했습니다!"
 			}
 		}
 	}

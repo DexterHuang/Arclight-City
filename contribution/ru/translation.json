@@ -1,4 +1,10 @@
 {
+	"ADDRESS": {
+		"FORMAT": {
+			"eng": "ALC. ${district} District, No. ${number} ${floor} floor, room ${roomNumber}",
+			"trans": "ALC. район ${district}, номер ${number}, этаж ${floor}, комната ${roomNumber}"
+		}
+	},
 	"BattlePassTimeLimitedInfoModal": {
 		"button": {
 			"eng": "Close",
@@ -802,6 +808,12 @@
 			"eng": "Start",
 			"trans": "Начать"
 		},
+		"stats": {
+			"cycles": {
+				"eng": "${count} cycles",
+				"trans": "${count} циклов"
+			}
+		},
 		"tip": {
 			"eng": "You can unlock higher gathering zones by clearing ${difficulty} strongholds, the zone level is capped at your character level.",
 			"trans": "Вы можете разблокировать более высокие зоны сбора, очистив крепости ${difficulty}, уровень зоны ограничен уровнем вашего персонажа."
@@ -1358,16 +1370,40 @@
 		}
 	},
 	"blockedPlayerListPage": {
+		"emptyHint": {
+			"eng": "Block players from their profile to prevent them from contacting you",
+			"trans": "Блокировка игроков через их профиль предотвращает связь с вами."
+		},
 		"noBlockedPlayers": {
 			"eng": "No blocked players",
 			"trans": "Нет заблокированных игроков"
 		},
 		"unblock": {
+			"confirm": {
+				"description": {
+					"eng": "This player will be able to contact you again",
+					"trans": "Этот игрок сможет снова связаться с вами"
+				},
+				"title": {
+					"eng": "Unblock ${playerName}?",
+					"trans": "Разблокировать ${playerName}?"
+				}
+			},
 			"eng": "Unblock",
 			"trans": "Разблокировать"
 		}
 	},
 	"buff": {
+		"afkTaskExpMult1": {
+			"description": {
+				"eng": "Increase AFK task EXP for all gang members by ${percent}% for ${hours} hours",
+				"trans": "Увеличить опыт заданий AFK для всех членов банды на ${percent}% в течение ${hours} часов."
+			},
+			"name": {
+				"eng": "AFK Task EXP Multiplier",
+				"trans": "Множитель опыта AFK заданий"
+			}
+		},
 		"defenseIncrease": {
 			"description": {
 				"eng": "Increase defense for all players in strongholds created by your gang members in ${minutes} minutes",
@@ -1376,6 +1412,36 @@
 			"name": {
 				"eng": "Defense Increase",
 				"trans": "Увеличение защиты"
+			}
+		},
+		"gatherExpMult1": {
+			"description": {
+				"eng": "Increase auto gather EXP for all gang members by ${percent}% for ${minutes} minutes",
+				"trans": "Увеличить автосбор опыта для всех членов банды на ${percent}% в течение ${minutes} минут"
+			},
+			"name": {
+				"eng": "Auto Gather EXP Multiplier I",
+				"trans": "Множитель автоматического сбора опыта I"
+			}
+		},
+		"gatherExpMult2": {
+			"description": {
+				"eng": "Increase auto gather EXP for all gang members by ${percent}% for ${minutes} minutes",
+				"trans": "Увеличить автосбор опыта для всех членов банды на ${percent}% на ${minutes} минут"
+			},
+			"name": {
+				"eng": "Auto Gather EXP Multiplier II",
+				"trans": "Автоматический множитель опыта II"
+			}
+		},
+		"gatherExpMult3": {
+			"description": {
+				"eng": "Increase auto gather EXP for all gang members by ${percent}% for ${minutes} minutes",
+				"trans": "Увеличить автоматический сбор опыта для всех членов банды на ${percent}% в течение ${minutes} минут"
+			},
+			"name": {
+				"eng": "Auto Gather EXP Multiplier III",
+				"trans": "Множитель автосбора опыта III"
 			}
 		},
 		"lootIncrease": {
@@ -1625,6 +1691,10 @@
 			}
 		},
 		"error": {
+			"cannotKickSelf": {
+				"eng": "You cannot kick yourself",
+				"trans": "Вы не можете кикнуть себя"
+			},
 			"clanIsFull": {
 				"eng": "this gang is current at max member capacity",
 				"trans": "эта банда находится в настоящее время в максимальном количестве участников"
@@ -1662,9 +1732,35 @@
 				}
 			}
 		},
+		"playerList": {
+			"header": {
+				"eng": "Personnel Roster",
+				"trans": "Список персонала"
+			},
+			"status": {
+				"eng": "Operational Status: Active",
+				"trans": "Операционный статус: Активен"
+			},
+			"units": {
+				"eng": "Units",
+				"trans": "Юниты"
+			}
+		},
 		"requestSent": {
 			"eng": "Request sent successfully",
 			"trans": "Запрос успешно отправлен"
+		},
+		"role": {
+			"commander": {
+				"eng": "COMMANDER",
+				"trans": "КОМАНДИР"
+			}
+		},
+		"war": {
+			"badge": {
+				"eng": "WAR",
+				"trans": "ВОЙНА"
+			}
 		}
 	},
 	"clanBuffDeployPopup": {
@@ -1726,7 +1822,49 @@
 				"trans": "Пополнить счет"
 			}
 		},
-		"editMottoButton": {
+		"depositSuccess": {
+			"eng": "Deposited ${amount} funds",
+			"trans": "Зачислено ${amount} средств"
+		},
+		"disbandClan": {
+			"eng": "Disband Gang",
+			"trans": "Распустить банду"
+		},
+		"disbandClanModal": {
+			"description": {
+				"eng": "Are you sure you want to disband this gang? This action cannot be undone.",
+				"trans": "Вы уверены, что хотите распустить эту банду? Это действие нельзя отменить."
+			},
+			"title": {
+				"eng": "Disband gang",
+				"trans": "Распустить банду"
+			}
+		},
+		"disbandLocked": {
+			"engagementLocked": {
+				"eng": "Cannot disband while members have recently engaged in war combat",
+				"trans": "Невозможно расформировать отряд пока участники недавно участвовали в войне"
+			},
+			"warActive": {
+				"eng": "Cannot disband while war mode is active. Disable war mode first.",
+				"trans": "Нельзя расформировать, пока активен режим войны. Сначала отключите его."
+			}
+		},
+		"disbandStatus": {
+			"engagementLocked": {
+				"eng": "Members recently engaged in war combat. Available in:",
+				"trans": "Участники, недавно участвовавшие в боевых действиях. Доступно в:"
+			},
+			"title": {
+				"eng": "DISBAND LOCKED",
+				"trans": "РАСФОРМИРОВАНИЕ ЗАБЛОКИРОВАНО"
+			},
+			"warActive": {
+				"eng": "Cannot disband while war mode is active. Disable war mode first.",
+				"trans": "Нельзя расформировать, пока активен режим войны. Сначала отключите его."
+			}
+		},
+		"editMotto": {
 			"eng": "Edit Motto",
 			"trans": "Редактировать девиз"
 		},
@@ -1745,8 +1883,8 @@
 			"trans": "Присоединиться"
 		},
 		"leaveClan": {
-			"eng": "leave gang",
-			"trans": "покинуть банду"
+			"eng": "Leave Gang",
+			"trans": "Покинуть банду"
 		},
 		"leaveClanModal": {
 			"description": {
@@ -1757,14 +1895,6 @@
 				"eng": "Leave gang",
 				"trans": "Выйти из банды"
 			}
-		},
-		"makePrivate": {
-			"eng": "Make Private",
-			"trans": "Создать приватный"
-		},
-		"makePublic": {
-			"eng": "Make Public",
-			"trans": "Сделать публичным"
 		},
 		"mottoModal": {
 			"description": {
@@ -1784,23 +1914,19 @@
 			"eng": "There is no motto set for this gang yet",
 			"trans": "Для этой банды пока не установлен девиз"
 		},
-		"noticeModal": {
-			"description": {
-				"eng": "Posting a notice will cost ${Config.CLAN.NOTICE_POST_COST}${CurrencyType.NORMAL.getSymbol()}",
-				"trans": "Оплата публикации сообщения составит ${Config.CLAN.NOTICE_POST_COST}${CurrencyType.NORMAL.getSymbol()}"
-			},
-			"title": {
-				"eng": "Post gang notice",
-				"trans": "Опубликовать объявление о банде"
-			}
-		},
 		"playerListButton": {
 			"eng": "Member List",
 			"trans": "Список участников"
 		},
-		"postNoticeButton": {
-			"eng": "Post Notice",
-			"trans": "Опубликовать объявление"
+		"publicToggle": {
+			"private": {
+				"eng": "Private",
+				"trans": "Рядовой"
+			},
+			"public": {
+				"eng": "Public",
+				"trans": "Публичный"
+			}
 		},
 		"requestToJoinButton": {
 			"eng": "Request to join",
@@ -1809,10 +1935,6 @@
 		"resources": {
 			"eng": "Resources",
 			"trans": "Ресурсы"
-		},
-		"setImageButton": {
-			"eng": "Set Image",
-			"trans": "Установить изображение"
 		},
 		"upkeepTip": {
 			"eng": "Ensure there is enough resources and funds to avoid losing the gang on the next upkeep date.",
@@ -1851,26 +1973,18 @@
 			}
 		}
 	},
-	"clanPlayer": {
-		"controlPointContributed": {
-			"eng": "control points: ${amount}",
-			"trans": "Контрольные точки: ${amount}"
-		},
-		"fundsContributed": {
-			"eng": "funds: ${amount}",
-			"trans": "средства: ${amount}"
-		},
-		"resourceContributed": {
-			"eng": "resource: ${amount}",
-			"trans": "ресурс: ${amount}"
-		},
-		"thisWeek": {
-			"eng": "this week",
-			"trans": "на этой неделе"
-		},
-		"total": {
-			"eng": "total",
-			"trans": "общий"
+	"clanMenuModal": {
+		"warWarning": {
+			"joinDescription": {
+				"eng": "This gang is in WAR MODE. Joining will expose you to War PvP attacks with ${hours} hours lock. Continue?",
+				"trans": "Эта банда в режиме войны. Вступление подвергнет вас PvP-атакам режима войны с блокировкой на ${hours} часов. Продолжить?"
+			}
+		}
+	},
+	"clanPlayerListPage": {
+		"memberCount": {
+			"eng": "${count} members",
+			"trans": "${count} участников"
 		}
 	},
 	"clanPlayerPermissionModal": {
@@ -1884,6 +1998,14 @@
 		}
 	},
 	"clanPlayerPopup": {
+		"disableWarParticipation": {
+			"eng": "Disable War Participation",
+			"trans": "Отключить участие в войне"
+		},
+		"enableWarParticipation": {
+			"eng": "Enable War Participation",
+			"trans": "Включить участие в войне"
+		},
 		"kickPlayerButton": {
 			"eng": "kick player",
 			"trans": "выгнать игрока"
@@ -1891,6 +2013,14 @@
 		"setPermissionButton": {
 			"eng": "Edit Permissions",
 			"trans": "Изменить разрешения"
+		},
+		"statusActive": {
+			"eng": "ACTIVE",
+			"trans": "АКТИВНО"
+		},
+		"statusInactive": {
+			"eng": "INACTIVE",
+			"trans": "Неактивен"
 		},
 		"transferOwnership": {
 			"eng": "Transfer Ownership",
@@ -1901,8 +2031,16 @@
 			"trans": "Передача собственности"
 		},
 		"transferOwnershipConfirm": {
-			"eng": "Are you sure you want to transfer ownership of the gang to ${playerName}?\\nthis cannot be undone.",
-			"trans": "Вы уверены, что хотите передать владение бандой ${playerName}?\\nЭто действие нельзя будет отменить."
+			"eng": "Are you sure you want to transfer ownership of the gang to ${playerName}.\\nthis cannot be undone.",
+			"trans": "Вы уверены, что хотите передать владение бандой игроку ${playerName}?\nЭто действие необратимо."
+		},
+		"warStatus": {
+			"eng": "War Participation",
+			"trans": "Участие в войне"
+		},
+		"warToggleCooldown": {
+			"eng": "Cooldown: ${time}",
+			"trans": "Перезарядка: ${time}"
 		}
 	},
 	"clanSearchPage": {
@@ -1963,6 +2101,248 @@
 				"eng": "View profile",
 				"trans": "Просмотреть профиль"
 			}
+		}
+	},
+	"clanTabContent": {
+		"noticeModal": {
+			"description": {
+				"eng": "Posting a notice will cost ${cost}${symbol}",
+				"trans": "Публикация объявления будет стоить ${cost}${symbol}"
+			},
+			"title": {
+				"eng": "Post gang notice",
+				"trans": "Разместить объявление банды"
+			}
+		}
+	},
+	"clanTabNoClanContent": {
+		"warWarning": {
+			"joinDescription": {
+				"eng": "This gang is in WAR MODE. Joining will expose you to PvP attacks and 24h participation locks. Continue?",
+				"trans": "Эта банда в режиме войны. Вступление сделает вас мишенью для атак PvP и заблокирует участие на 24 часа. Продолжить?"
+			}
+		}
+	},
+	"clanWar": {
+		"chat": {
+			"deathBroadcast": {
+				"eng": "${victimPlayer} was eliminated by ${killerPlayer} from ${gang}",
+				"trans": "${victimPlayer} был убит ${killerPlayer} из ${gang}"
+			},
+			"killBroadcast": {
+				"eng": "${killerPlayer} has eliminated ${victimPlayer} from ${gang}",
+				"trans": "${killerPlayer} исключил ${victimPlayer} из ${gang}"
+			},
+			"milestoneReached": {
+				"eng": "${count} kill streak! +${reward} war score",
+				"trans": "${count} серия убийств! +${reward} очков войны"
+			},
+			"warStateOn": {
+				"eng": "${gang} has declared war",
+				"trans": "${gang} объявил войну"
+			}
+		},
+		"dangerModal": {
+			"enableDescription": {
+				"eng": "Enabling WAR MODE will expose ALL gang members to PvP attacks. Opting out will be LOCKED for 24 hours. Proceed?",
+				"trans": "Включение режима ВОЙНА сделает ВСЕХ членов банды целью для атак PvP. Возможность выхода будет ЗАБЛОКИРОВАНА на 24 часа. Продолжить?"
+			},
+			"requestDescription": {
+				"eng": "This gang is in WAR MODE. If accepted, joining will expose you to PvP attacks and 24h participation locks. Continue?",
+				"trans": "Эта банда в режиме войны. Если присоединиться, вы подвергнетесь атакам PvP и блокировке участия на 24 часа. Продолжить?"
+			},
+			"title": {
+				"eng": "WAR MODE WARNING",
+				"trans": "Включить режим войны"
+			}
+		},
+		"disableModal": {
+			"description": {
+				"eng": "Are you sure you want to disable war mode? Your gang will no longer be able to earn war score.",
+				"trans": "Вы уверены, что хотите отключить режим войны? Ваша банда больше не сможет зарабатывать боевые очки."
+			},
+			"title": {
+				"eng": "Disable War Mode",
+				"trans": "Отключить режим войны"
+			}
+		},
+		"error": {
+			"cannotToggleMember": {
+				"eng": "Cannot toggle this member's participation. They may not exist or cooldown is active",
+				"trans": "Нельзя переключить участие этого участника. Возможно, он не существует или действует кулдаун."
+			},
+			"disbandEngaged": {
+				"eng": "You cannot disband the gang while members have recently engaged in war combat",
+				"trans": "Вы не можете распустить банду, пока членыRecently вели боевые действия"
+			},
+			"disbandWarActive": {
+				"eng": "You cannot disband the gang while war mode is active",
+				"trans": "Вы не можете распустить банду пока активен режим войны"
+			},
+			"kickLocked": {
+				"eng": "Cannot kick a member who has recently engaged in war combat",
+				"trans": "Нельзя исключить участника, который недавно участвовал в боевых действиях."
+			},
+			"leaderOnly": {
+				"eng": "Only the gang leader can perform this action",
+				"trans": "Только лидер банды может выполнить это действие"
+			},
+			"leaveLocked": {
+				"eng": "You cannot leave the gang while you have recently engaged in war combat",
+				"trans": "Вы не можете покинуть банду после недавних боевых действий"
+			},
+			"notEnoughWarPoints": {
+				"eng": "Your gang does not have enough war points",
+				"trans": "У вашей банды недостаточно очков войны"
+			},
+			"notWarBuff": {
+				"eng": "This buff cannot be deployed during gang war",
+				"trans": "Этот бафф нельзя активировать во время войны банд"
+			},
+			"optOutLocked": {
+				"eng": "Cannot disable war mode yet. 24h lock-in period is still active",
+				"trans": "Нельзя отключить режим войны пока. Период блокировки на 24 часа всё ещё активен."
+			},
+			"warStateRequired": {
+				"eng": "Your gang must be in war state to deploy war buffs",
+				"trans": "Ваша банда должна находиться в состоянии войны для активации боевых баффов"
+			},
+			"wip": {
+				"eng": "This feature is currently under development",
+				"trans": "Эта функция в настоящее время находится в разработке"
+			}
+		},
+		"lockedFeedback": {
+			"eng": "War mode is locked until ${date}",
+			"trans": "Режим войны заблокирован до ${date}"
+		},
+		"notification": {
+			"hospitalized": {
+				"eng": "You have been hospitalized from a gang war defeat. Recovery time: ${duration} minutes.",
+				"trans": "Вы были госпитализированы после поражения в войне банд. Время восстановления: ${duration} минут."
+			},
+			"milestoneReached": {
+				"eng": "Your gang has reached a ${count} kill streak and earned ${reward} war score!",
+				"trans": "Ваша банда достигла серии из ${count} убийств и заработала ${reward} очков войны!"
+			},
+			"participationDisabled": {
+				"eng": "You have been removed from war participation by your gang leader. Your kills will no longer count towards gang war score.",
+				"trans": "Вас отстранили от участия в войне лидером вашей банды. Ваши убийства больше не засчитываются в счет войны банды."
+			},
+			"participationEnabled": {
+				"eng": "You have been added to war participation by your gang leader. You can now participate in gang wars.",
+				"trans": "Лидер вашей банды включил вас в число участников войны. Теперь вы можете участвовать в войнах банд."
+			},
+			"warStateOff": {
+				"eng": "Your gang leader has disabled war mode. Your gang is no longer a war target.",
+				"trans": "Лидер вашей банды отключил режим войны. Ваша банда больше не является целью в войне."
+			},
+			"warStateOn": {
+				"eng": "Your gang leader has activated war mode for your gang!",
+				"trans": "Лидер вашей банды активировал режим войны для вашей банды!"
+			}
+		},
+		"tutorialLink": {
+			"eng": "Learn more about Gang War",
+			"trans": "Узнать больше о войне банд"
+		}
+	},
+	"clanWarPage": {
+		"header": {
+			"currentScore": {
+				"eng": "TOTAL WAR SCORE",
+				"trans": "Общий счёт войны"
+			},
+			"stack": {
+				"eng": "STACK",
+				"trans": "СТЕК"
+			},
+			"warPoints": {
+				"eng": "PTS",
+				"trans": "PTS"
+			}
+		},
+		"milestone": {
+			"progressText": {
+				"eng": "${current} / ${target} STACKS",
+				"trans": "${current} / ${target} СТЕКОВ"
+			},
+			"reward": {
+				"eng": "BONUS",
+				"trans": "БОНУС"
+			},
+			"stacks": {
+				"eng": "STACKS",
+				"trans": "стеки"
+			}
+		},
+		"milestones": {
+			"end": {
+				"eng": "END OF OPERATION",
+				"trans": "Операция завершена"
+			},
+			"operation": {
+				"eng": "OPERATION",
+				"trans": "операция"
+			},
+			"title": {
+				"eng": "WAR MILESTONES",
+				"trans": "Этапы войны"
+			},
+			"total_stacks": {
+				"eng": "TOTAL STACK",
+				"trans": "Итого стек"
+			},
+			"unit": {
+				"eng": "STK",
+				"trans": "STK"
+			}
+		},
+		"noClan": {
+			"eng": "NO GANG DATA FOUND",
+			"trans": "Данные о банде не найдены"
+		},
+		"status": {
+			"active": {
+				"eng": "WAR ACTIVE",
+				"trans": "Война активна"
+			},
+			"inactive": {
+				"eng": "WAR INACTIVE",
+				"trans": "Война неактивна"
+			}
+		}
+	},
+	"clanWarPanel": {
+		"enableWarModal": {
+			"title": {
+				"eng": "ENABLE WAR MODE",
+				"trans": "ВКЛЮЧИТЬ РЕЖИМ ВОЙНЫ"
+			}
+		},
+		"leaderOnlyToggle": {
+			"eng": "Only the gang leader can toggle war mode",
+			"trans": "Только лидер банды может переключать режим войны"
+		},
+		"locked": {
+			"eng": "Lock:",
+			"trans": "Блокировка:"
+		},
+		"score": {
+			"eng": "War Score",
+			"trans": "Баллы войны"
+		},
+		"stack": {
+			"eng": "Stack",
+			"trans": "Стек"
+		},
+		"warOff": {
+			"eng": "War OFF",
+			"trans": "ВОЙНА ВЫКЛ"
+		},
+		"warOn": {
+			"eng": "War ON",
+			"trans": "ВОЙНА ВКЛ"
 		}
 	},
 	"collectedLoreNotes": {
@@ -2193,6 +2573,10 @@
 		"psychosis": {
 			"eng": "+ ${amount} psychosis",
 			"trans": "+ ${amount} киберпсихоза"
+		},
+		"warPoints": {
+			"eng": "${amount} war points",
+			"trans": "${amount} очков войны"
 		}
 	},
 	"coupon": {
@@ -2210,13 +2594,17 @@
 			"eng": "Enter your gift code to get your reward.",
 			"trans": "Введите свой подарочный код, чтобы получить награду."
 		},
+		"hint": {
+			"eng": "Codes are case-insensitive",
+			"trans": "Коды не зависят от регистра"
+		},
 		"inputTitle": {
 			"eng": "Gift Code",
 			"trans": "Код подарка"
 		},
 		"submitButton": {
-			"eng": "Submit",
-			"trans": "Отправить"
+			"eng": "Redeem Code",
+			"trans": "Активировать код"
 		},
 		"title": {
 			"eng": "Gift Code",
@@ -2357,16 +2745,6 @@
 				"eng": "Universal Dollars",
 				"trans": "Универсальные доллары"
 			}
-		}
-	},
-	"currencyCheck": {
-		"getMore": {
-			"eng": "get more",
-			"trans": "получить больше"
-		},
-		"notEnough": {
-			"eng": "Insufficient ${currency}",
-			"trans": "У вас недостаточно ${currency}"
 		}
 	},
 	"dailyQuestTab": {
@@ -2561,6 +2939,24 @@
 		"dismantleButton": {
 			"eng": "Dismantle",
 			"trans": "Разобрать"
+		},
+		"itemCount": {
+			"eng": "${count} items",
+			"trans": "${count} предметов"
+		},
+		"sort": {
+			"level": {
+				"eng": "Level",
+				"trans": "Уровень"
+			},
+			"name": {
+				"eng": "Name",
+				"trans": "Имя"
+			},
+			"tier": {
+				"eng": "Tier",
+				"trans": "Уровень"
+			}
 		}
 	},
 	"displayShelf": {
@@ -2769,6 +3165,26 @@
 			}
 		}
 	},
+	"dungeonBackpackPage": {
+		"itemCount": {
+			"eng": "${count} items",
+			"trans": "${count} предметов"
+		},
+		"sort": {
+			"level": {
+				"eng": "Level",
+				"trans": "Уровень"
+			},
+			"name": {
+				"eng": "Name",
+				"trans": "Имя"
+			},
+			"tier": {
+				"eng": "Tier",
+				"trans": "Уровень"
+			}
+		}
+	},
 	"dungeonChoicePopup": {
 		"actionsTitle": {
 			"eng": "Choose your action",
@@ -2947,6 +3363,10 @@
 				"eng": "${playerName}'s lobby",
 				"trans": "Лобби игрока ${playerName}"
 			}
+		},
+		"lobbyCount": {
+			"eng": "${count} lobbies",
+			"trans": "${count} лобби"
 		},
 		"noLobbiesFound": {
 			"eng": "No lobbies found",
@@ -3139,6 +3559,12 @@
 				"eng": "Wow",
 				"trans": "Чётко!"
 			}
+		}
+	},
+	"emptyState": {
+		"defaultTitle": {
+			"eng": "No records found",
+			"trans": "Записей не найдено"
 		}
 	},
 	"enemyEvent": {
@@ -3431,6 +3857,18 @@
 		"submit3": {
 			"eng": "Submit",
 			"trans": "Отправить"
+		}
+	},
+	"filteredItemList": {
+		"noSearchResults": {
+			"eng": "No items matching \"${query}\"",
+			"trans": "Нет предметов по запросу \"${query}\""
+		},
+		"search": {
+			"placeholder": {
+				"eng": "Search items...",
+				"trans": "Поиск предметов..."
+			}
 		}
 	},
 	"firstPurchasePromoSmall": {
@@ -3806,6 +4244,10 @@
 				"trans": "У вас недостаточно денег, чтобы создать банду"
 			}
 		},
+		"createSuccess": {
+			"eng": "Gang \"${name}\" created!",
+			"trans": "Банда \"${name}\" создана!"
+		},
 		"editMotto": {
 			"error": {
 				"levelNoAlts": {
@@ -4007,6 +4449,22 @@
 			}
 		}
 	},
+	"hitListPage": {
+		"bountyCount": {
+			"eng": "${count} bounties",
+			"trans": "${count} контрактов"
+		},
+		"sort": {
+			"level": {
+				"eng": "Level",
+				"trans": "Уровень"
+			},
+			"price": {
+				"eng": "Price",
+				"trans": "Цена"
+			}
+		}
+	},
 	"hitlist": {
 		"loading": {
 			"eng": "Loading bounties...",
@@ -4057,6 +4515,48 @@
 				"eng": "A bounty has been placed on your head, current bounty - Eurodollar: ${money}, Universal Dollar: ${uni}",
 				"trans": "На тебя объявлена награда, текущая награда - Евродоллар: ${money}, Универсальный Доллар: ${uni}"
 			}
+		}
+	},
+	"hospitalizedScreen": {
+		"leaveHospital": {
+			"eng": "DISCHARGE // CONFIRM",
+			"trans": "РАЗРЯДИТЬ // ПОДТВЕРДИТЬ"
+		},
+		"statusCritical": {
+			"eng": "SYS: VITALS CRITICAL",
+			"trans": "СИСТЕМА: ЖИЗНЕННЫЕ ПОКАЗАТЕЛИ КРИТИЧЕСКИЕ"
+		},
+		"statusRecovered": {
+			"eng": "RECOVERY_COMPLETE",
+			"trans": "ВОССТАНОВЛЕНИЕ ЗАВЕРШЕНО"
+		},
+		"statusStable": {
+			"eng": "SYS: VITALS STABLE",
+			"trans": "SYS: ЖИЗНЕННЫЕ ПОКАЗАТЕЛИ СТАБИЛЬНЫ"
+		},
+		"statusTag": {
+			"eng": "OVR_DENIED",
+			"trans": "ОБХОД ЗАПРЕЩЕН"
+		},
+		"sysHeader": {
+			"eng": "SYS.MED_PROTOCOL",
+			"trans": "СИСТЕМНЫЙ МЕДИЦИНСКИЙ ПРОТОКОЛ"
+		},
+		"timeRemaining": {
+			"eng": "EST. RECOVERY TIME",
+			"trans": "Ориентировочное время восстановления"
+		},
+		"title": {
+			"eng": "HOSPITALIZED",
+			"trans": "ГОСПИТАЛИЗИРОВАН"
+		},
+		"useMedkit": {
+			"eng": "ADMINISTER MEDKIT",
+			"trans": "Применить медикит"
+		},
+		"useMedkitDesc": {
+			"eng": "[-1 HR RECOVERY]",
+			"trans": "[-1 ч. ВОССТАНОВЛЕНИЕ]"
 		}
 	},
 	"hostilePlayerListPage": {
@@ -4368,10 +4868,6 @@
 			"eng": "Error loading clue",
 			"trans": "Ошибка загрузки подсказки"
 		},
-		"evidence": {
-			"eng": "Evidence",
-			"trans": "Доказательства"
-		},
 		"evidenceAcquired": {
 			"eng": "Evidence Logged - ACPD Database",
 			"trans": "Доказательства зарегистрированы – База данных ACPD"
@@ -4379,6 +4875,10 @@
 		"evidenceMismatch": {
 			"eng": "The submitted conclusion does not align with available evidence patterns.",
 			"trans": "Предоставленный вывод не соответствует доступным шаблонам доказательств."
+		},
+		"evidenceNumber": {
+			"eng": "Evidence #${number}",
+			"trans": "Улика #${number}"
 		},
 		"goToVerdict": {
 			"eng": "Go to verdict ${num}",
@@ -4810,6 +5310,10 @@
 			"cantEquipFromBackpack": {
 				"eng": "You cannot equip equipment from your backpack",
 				"trans": "Вы не можете экипировать оборудование из своего рюкзака"
+			},
+			"notHospitalized": {
+				"eng": "You can only use this item while hospitalized",
+				"trans": "Вы можете использовать этот предмет только находясь в госпитале"
 			}
 		},
 		"levelUpBar": {
@@ -5528,6 +6032,16 @@
 			"name": {
 				"eng": "Egg",
 				"trans": "Яйцо"
+			}
+		},
+		"emergencyMedkit": {
+			"description": {
+				"eng": "A field-grade trauma kit containing synthetic coagulants and adrenaline boosters. Reduces hospitalization time by 1 hour when administered.",
+				"trans": "Полевая травматическая аптечка с синтетическими коагулянтами и адреналиновыми бустерами. При использовании сокращает время госпитализации на 1 час."
+			},
+			"name": {
+				"eng": "Emergency Medkit",
+				"trans": "Экстренный медикит"
 			}
 		},
 		"energyGun": {
@@ -7202,6 +7716,12 @@
 				"trans": "Уровень банды"
 			}
 		},
+		"clanWar": {
+			"name": {
+				"eng": "Gang War Score",
+				"trans": "Счёт войны банд"
+			}
+		},
 		"level": {
 			"name": {
 				"eng": "Character Level",
@@ -7273,6 +7793,20 @@
 				"eng": "Stock Realized Profit",
 				"trans": "Реализованная прибыль по акциям"
 			}
+		}
+	},
+	"leaderboardDetails": {
+		"empty": {
+			"eng": "No rankings yet",
+			"trans": "Пока нет рейтингов"
+		},
+		"loading": {
+			"eng": "Loading rankings...",
+			"trans": "Загрузка рейтинга..."
+		},
+		"warScore": {
+			"eng": "WAR SCORE",
+			"trans": "СЧЁТ ВОЙНЫ"
 		}
 	},
 	"leaderboardTypes": {
@@ -7543,6 +8077,10 @@
 		"legendClaimable": {
 			"eng": "Claimable",
 			"trans": "Получить"
+		},
+		"legendClaimed": {
+			"eng": "Claimed",
+			"trans": "Получено"
 		},
 		"legendMilestone": {
 			"eng": "Milestone",
@@ -7817,6 +8355,16 @@
 				"eng": "System Message",
 				"trans": "Системное сообщение"
 			}
+		},
+		"warAttackFailed": {
+			"attacker": {
+				"eng": "Your gang war strike against ${playerName} failed, you lost ${amount}",
+				"trans": "Ваша атака в войне банд на ${playerName} провалилась, вы потеряли ${amount}"
+			},
+			"defender": {
+				"eng": "${playerName} launched a gang war strike against you but you fought back and won",
+				"trans": "${playerName} нанес удар в войне банд против вас, но вы дали отпор и победили"
+			}
 		}
 	},
 	"mailDetails": {
@@ -8076,6 +8624,14 @@
 			"eng": "Black Market",
 			"trans": "Черный рынок"
 		},
+		"clanUpkeep": {
+			"eng": "Gang Upkeep",
+			"trans": "Обслуживание банды"
+		},
+		"clanWar": {
+			"eng": "Gang War",
+			"trans": "Бандитская война"
+		},
 		"currency": {
 			"eng": "Currency",
 			"trans": "Валюта"
@@ -8095,10 +8651,6 @@
 		"followUpLottery": {
 			"eng": "Follow Up Lottery",
 			"trans": "Дополнительная лотерея"
-		},
-		"gangUpkeep": {
-			"eng": "Gang Upkeep",
-			"trans": "Обслуживание банды"
 		},
 		"hideoutRaid": {
 			"eng": "Hideout Raid",
@@ -8265,6 +8817,18 @@
 		"noItem": {
 			"eng": "There is no item",
 			"trans": "Нет предмета"
+		}
+	},
+	"marketMyItemsPage": {
+		"emptySlot": {
+			"eng": "List Item",
+			"trans": "Пункт списка"
+		},
+		"header": {
+			"title": {
+				"eng": "Market Listings",
+				"trans": "Рыночные объявления"
+			}
 		}
 	},
 	"marketPurchaseModal": {
@@ -8468,6 +9032,10 @@
 			"eng": "Level Up",
 			"trans": "Повышение уровня"
 		},
+		"resonate": {
+			"eng": "Resonate",
+			"trans": "Резонанс"
+		},
 		"stats": {
 			"title": {
 				"eng": "stats",
@@ -8633,6 +9201,24 @@
 		"noMercenaries": {
 			"eng": "You do not have any mercenaries in your contact",
 			"trans": "У вас нет наемников в вашем контакте"
+		},
+		"sort": {
+			"level": {
+				"eng": "Level",
+				"trans": "Уровень"
+			},
+			"name": {
+				"eng": "Name",
+				"trans": "Имя"
+			},
+			"skill": {
+				"eng": "Skill",
+				"trans": "Навык"
+			},
+			"tier": {
+				"eng": "Tier",
+				"trans": "Уровень"
+			}
 		},
 		"tip": {
 			"default": {
@@ -8852,6 +9438,12 @@
 			"eng": "RESONANCE COMPLETE",
 			"trans": "Резонанс завершён"
 		},
+		"mythicCinematic": {
+			"tapToContinue": {
+				"eng": "TAP SCREEN",
+				"trans": "Нажмите на экран"
+			}
+		},
 		"mythicTitle1": {
 			"eng": "MYTHIC",
 			"trans": "Мифический"
@@ -8868,6 +9460,12 @@
 			"eng": "AWAKENING RESULT",
 			"trans": "Результат пробуждения"
 		},
+		"standardAwakening": {
+			"tapToContinue": {
+				"eng": "TAP TO CONTINUE",
+				"trans": "Нажмите, чтобы продолжить"
+			}
+		},
 		"sys": {
 			"protocol": {
 				"eng": "Awakening protocol finalized",
@@ -8881,10 +9479,6 @@
 				"eng": "Neural synchronization successful",
 				"trans": "Нейронная синхронизация успешна"
 			}
-		},
-		"tapToContinue": {
-			"eng": "TAP TO CONTINUE",
-			"trans": "Нажмите, чтобы продолжить"
 		}
 	},
 	"mercenarySelectPopup": {
@@ -9032,8 +9626,8 @@
 				"trans": "ДОСТУП ПРЕДОСТАВЛЕН"
 			},
 			"breachProgress": {
-				"eng": "BREACH PROGRESS",
-				"trans": "ПРОГРЕСС ВЗЛОМA"
+				"eng": "BREACH PROGRESS: ${percent}%",
+				"trans": "ПРОГРЕСС ВЗЛОМА: ${percent}%"
 			},
 			"example": {
 				"eng": "Example of obfuscated code:",
@@ -9396,6 +9990,10 @@
 			"eng": "Eurodollars",
 			"trans": "Евродоллары"
 		},
+		"deselectAll": {
+			"eng": "Deselect All",
+			"trans": "Снять все"
+		},
 		"exchange": {
 			"eng": "Exchange",
 			"trans": "Обмен"
@@ -9445,8 +10043,8 @@
 			"trans": "Покупка"
 		},
 		"selectAll": {
-			"eng": "All",
-			"trans": "Все"
+			"eng": "Select All",
+			"trans": "Выбрать все"
 		},
 		"upgrade": {
 			"eng": "upgrade",
@@ -9456,12 +10054,12 @@
 	"modal": {
 		"selectAmountModal": {
 			"cancel": {
-				"eng": "cancel",
-				"trans": "отменить"
+				"eng": "Cancel",
+				"trans": "Отмена"
 			},
 			"confirm": {
-				"eng": "confirm",
-				"trans": "подтвердить"
+				"eng": "Confirm",
+				"trans": "Подтвердить"
 			},
 			"invalidAmount": {
 				"eng": "Amount must be between ${min} and ${max}",
@@ -9998,6 +10596,10 @@
 				"trans": "Вы уже в банде"
 			}
 		},
+		"count": {
+			"eng": "${count} notifications",
+			"trans": "${count} уведомлений"
+		},
 		"lobbyInvite": {
 			"accept": {
 				"eng": "Accept",
@@ -10012,6 +10614,12 @@
 			"title": {
 				"eng": "No notification",
 				"trans": "Нет уведомлений"
+			}
+		},
+		"warWarning": {
+			"joinDescription": {
+				"eng": "This gang is in WAR MODE. Joining will expose you to war PvP attacks for ${hours} hours lock. Continue?",
+				"trans": "Эта банда в режиме войны. Вступление сделает вас мишенью для PVP атак на ${hours} часов. Продолжить?"
 			}
 		}
 	},
@@ -10386,6 +10994,14 @@
 			"upgrade": {
 				"eng": "Upgrade",
 				"trans": "Улучшить"
+			},
+			"warBuff": {
+				"eng": "War Buffs",
+				"trans": "Боевые баффы"
+			},
+			"warIntel": {
+				"eng": "War Intel",
+				"trans": "Сведения о войне"
 			}
 		},
 		"generalStore": {
@@ -10607,6 +11223,46 @@
 		"upgradeButton": {
 			"eng": "Upgrade my equipment",
 			"trans": "Улучшить моё оборудование"
+		},
+		"warQuartermaster": {
+			"buffDeployment": {
+				"description": {
+					"eng": "Deploy tactical buffs for your gang",
+					"trans": "Активировать тактические усиления для вашей банды"
+				},
+				"label": {
+					"eng": "TACTICAL OPS",
+					"trans": "ТАКТИЧЕСКИЕ ОПЕРАЦИИ"
+				},
+				"title": {
+					"eng": "War Buff Deployment",
+					"trans": "Развертывание боевых усилений"
+				}
+			},
+			"description": {
+				"eng": "A secure war command terminal where your gang reviews active enhancements and deploys new combat support buffs.",
+				"trans": "Защищенный терминал боевого командования, где ваша банда контролирует активные улучшения и активирует новые боевые баффы поддержки"
+			},
+			"greetings": {
+				"eng": [
+					"War command online. State your objective.",
+					"Frontline telemetry synced. Buff deployment terminal is ready.",
+					"Gang war resources are live. Coordinate before you spend."
+				],
+				"trans": [
+					"Военное командование онлайн. Укажите вашу цель.",
+					"Телеметрия боевой линии синхронизирована. Терминал развертывания усилений готов.",
+					"Ресурсы для войны банды доступны. Согласуйте их расход заранее."
+				]
+			},
+			"locationName": {
+				"eng": "War Command Center",
+				"trans": "Центр боевого командования"
+			},
+			"npcName": {
+				"eng": "Quartermaster Vane",
+				"trans": "Интендант Вейн"
+			}
 		},
 		"weaponSmith": {
 			"description": {
@@ -10980,6 +11636,28 @@
 		}
 	},
 	"playerDetailsPage": {
+		"action": {
+			"addFriend": {
+				"eng": "Add Friend",
+				"trans": "Добавить друга"
+			},
+			"attack": {
+				"eng": "Attack",
+				"trans": "Атака"
+			},
+			"mail": {
+				"eng": "Mail",
+				"trans": "Почта"
+			},
+			"unfriend": {
+				"eng": "Unfriend",
+				"trans": "Удалить друга"
+			}
+		},
+		"attackHospitalized": {
+			"eng": "Target is currently hospitalized. Combat unavailable.",
+			"trans": "Цель в настоящее время госпитализирована. Боевые действия недоступны."
+		},
 		"attribute": {
 			"confirm": {
 				"eng": "Apply",
@@ -10991,29 +11669,13 @@
 			}
 		},
 		"menu": {
-			"addFriend": {
-				"eng": "Add Friend",
-				"trans": "Добавить друга"
-			},
 			"block": {
 				"eng": "Block",
 				"trans": "Блокировать"
 			},
-			"close": {
-				"eng": "attack",
-				"trans": "атака"
-			},
-			"removeFriend": {
-				"eng": "Remove Friend",
-				"trans": "Удалить друга"
-			},
 			"report": {
 				"eng": "Report",
 				"trans": "Отчет"
-			},
-			"sendMessage": {
-				"eng": "Send Mail",
-				"trans": "Отправить письмо"
 			},
 			"unblock": {
 				"eng": "Unblock",
@@ -11576,6 +12238,18 @@
 			"successBounty": {
 				"eng": "You received bounty of ${money1} and ${money2} for eliminating ${targetPlayer}",
 				"trans": "Вы получили награду в размере ${money1} и ${money2} за устранение ${targetPlayer}"
+			},
+			"warAttackAddedEnemy": {
+				"eng": "${playerName} struck you in a gang war assault, you lost ${currency}, this player has been added to your enemies list",
+				"trans": "${playerName} нанёс вам урон во время бандитской войны, вы потеряли ${currency}, этот игрок добавлен к вашему списку врагов."
+			},
+			"warAttackNoAddEnemy": {
+				"eng": "${playerName} struck you in a gang war assault, you lost ${currency}",
+				"trans": "${playerName} нанёс тебе урон во время атаки банды, ты потерял ${currency}"
+			},
+			"warAttackWin": {
+				"eng": "Your gang war strike against ${playerName} was successful, you earned ${currency}",
+				"trans": "Ваш удар по ${playerName} в войне банд был успешен, вы заработали ${currency}"
 			}
 		},
 		"toast": {
@@ -11694,6 +12368,10 @@
 			"eng": "Daily Quests",
 			"trans": "Ежедневные задания"
 		},
+		"inProgress": {
+			"eng": "In Progress",
+			"trans": "В процессе"
+		},
 		"investigations": {
 			"eng": "Investigations",
 			"trans": "Расследования"
@@ -11705,6 +12383,10 @@
 		"npcQuests": {
 			"eng": "Quests",
 			"trans": "Задания"
+		},
+		"readyToTurnIn": {
+			"eng": "Ready to Turn In",
+			"trans": "Готово к сдаче"
 		}
 	},
 	"questPreview": {
@@ -11877,6 +12559,10 @@
 		"reportReason": {
 			"eng": "Report Reason",
 			"trans": "Причина жалобы"
+		},
+		"reportSuccess": {
+			"eng": "Report submitted successfully",
+			"trans": "Отчет успешно отправлен"
 		}
 	},
 	"reportType": {
@@ -12081,6 +12767,32 @@
 			"trans": "мин"
 		}
 	},
+	"sendItem": {
+		"confirm": {
+			"eng": "Send",
+			"trans": "Отправить"
+		},
+		"confirmDescription": {
+			"eng": "Send ${amount}x ${itemName} to this player?",
+			"trans": "Отправить ${amount}x ${itemName} этому игроку?"
+		},
+		"confirmTitle": {
+			"eng": "Confirm Send",
+			"trans": "Подтвердить отправку"
+		},
+		"success": {
+			"eng": "Sent ${amount}x ${itemName}",
+			"trans": "Отправлено ${amount}x ${itemName}"
+		}
+	},
+	"sendItemPage": {
+		"selectAmount": {
+			"title": {
+				"eng": "Select amount to send",
+				"trans": "Выберите сумму для отправки"
+			}
+		}
+	},
 	"server": {
 		"clan": {
 			"join": {
@@ -12119,6 +12831,10 @@
 				"eng": "You cannot attack this player due to bounty contributor alt detection",
 				"trans": "Вы не можете атаковать этого игрока — обнаружен альт‑аккаунт участника по наградам."
 			},
+			"cannotEngageHospitalized": {
+				"eng": "This player is currently hospitalized and cannot be attacked",
+				"trans": "Этот игрок сейчас в госпитале и не может быть атакован"
+			},
 			"cannotEngageInDungeon": {
 				"eng": "You cannot engage in PvP while in a dungeon",
 				"trans": "Вы не можете участвовать в PvP, находясь в подземелье"
@@ -12130,6 +12846,10 @@
 			"cannotEngageProtectedPlayer": {
 				"eng": "This player is protected with ${item}, you cannot engage them at this moment",
 				"trans": "Этот игрок защищен ${item}, вы не можете атаковать его в данный момент"
+			},
+			"cannotEngageSuspended": {
+				"eng": "You cannot engage this player right now",
+				"trans": "Вы не можете взаимодействовать с этим игроком прямо сейчас."
 			},
 			"combatNotFound": {
 				"eng": "Combat has ended",
@@ -12145,7 +12865,7 @@
 			},
 			"levelTooDiff": {
 				"eng": "You cannot engage a player that is more than ${levelDiff} levels higher or below you",
-				"trans": "Вы не можете атаковать игрока, который имеет разницу в уровнях больше чем ${levelDiff} или меньше вас"
+				"trans": "Вы не можете вступить в бой с игроком, чей уровень отличается от вашего более чем на ${levelDiff} уровней."
 			},
 			"notEnoughMoneyPvp": {
 				"eng": "You need at least ${money} to engage in PvP",
@@ -12166,6 +12886,14 @@
 			"pvpArrestDismissed": {
 				"eng": "This player has already been arrested",
 				"trans": "Этот игрок уже был арестован"
+			},
+			"warCannotEngageAlt": {
+				"eng": "You cannot attack this player due to alt detection",
+				"trans": "Вы не можете атаковать этого игрока из-за обнаружения альтернативного аккаунта"
+			},
+			"warLevelTooDiff": {
+				"eng": "You are too high level to attack this player",
+				"trans": "Вы слишком высокого уровня, чтобы атаковать этого игрока."
 			}
 		},
 		"combatLog": {
@@ -12294,6 +13022,10 @@
 			"cannotInviteSelf": {
 				"eng": "You cannot invite yourself",
 				"trans": "Вы не можете пригласить самого себя"
+			},
+			"cannotKickSelf": {
+				"eng": "You cannot kick yourself",
+				"trans": "Вы не можете выгнать самого себя"
 			},
 			"craeteNotIdle": {
 				"eng": "You must be idle to create a lobby",
@@ -12706,87 +13438,9 @@
 		}
 	},
 	"signalStrength": {
-		"info": {
-			"eng": "Signal increases only by recruiting mercenaries.",
-			"trans": "Сигнал повышается только при найме наёмников."
-		},
-		"status": {
-			"building": {
-				"v1": {
-					"1": {
-						"eng": "Chatter detected",
-						"trans": "Обнаружен чат"
-					},
-					"2": {
-						"eng": "Names noted",
-						"trans": "Имена записаны"
-					},
-					"3": {
-						"eng": "Signal building",
-						"trans": "Сигнальная постройка"
-					}
-				}
-			},
-			"hot": {
-				"v1": {
-					"1": {
-						"eng": "Elite presence",
-						"trans": "Элитное присутствие"
-					},
-					"2": {
-						"eng": "Strong resonance",
-						"trans": "Сильный резонанс"
-					},
-					"3": {
-						"eng": "Lock pending",
-						"trans": "Ожидание блокировки"
-					}
-				}
-			},
-			"peak": {
-				"v1": {
-					"1": {
-						"eng": "Signal locked",
-						"trans": "Сигнал заблокирован"
-					},
-					"2": {
-						"eng": "Elite ready",
-						"trans": "Элитно готов"
-					},
-					"3": {
-						"eng": "Contact imminent",
-						"trans": "Контакт надвигается"
-					}
-				}
-			},
-			"quiet": {
-				"v1": {
-					"1": {
-						"eng": "Online",
-						"trans": "Онлайн"
-					},
-					"2": {
-						"eng": "Signal active",
-						"trans": "Сигнал активен"
-					}
-				}
-			},
-			"rising": {
-				"v1": {
-					"1": {
-						"eng": "Talent in range",
-						"trans": "Талант в зоне действия"
-					},
-					"2": {
-						"eng": "Signal strong",
-						"trans": "Сильный сигнал"
-					},
-					"3": {
-						"eng": "Interesting lead",
-						"trans": "Интересный след"
-					}
-				}
-			}
+		"popupContent": {
+			"eng": "Signal increases every time you recruit a mercenary.",
+			"trans": "Сигнал увеличивается при каждом найме наёмника."
 		}
 	},
 	"socialMedia": {
@@ -12838,6 +13492,14 @@
 		}
 	},
 	"stat": {
+		"afkTaskExpMult": {
+			"eng": "AFK Task EXP Multiplier",
+			"trans": "Множитель опыта AFK заданий"
+		},
+		"afkTaskExpMultDesc": {
+			"eng": "Increases the EXP you receive from AFK tasks.",
+			"trans": "Увеличивает получаемый от AFK заданий опыт"
+		},
 		"armor": {
 			"eng": "Armor",
 			"trans": "Броня"
@@ -12966,6 +13628,14 @@
 			"eng": "Increases your chance to escape from enemies.",
 			"trans": "Увеличивает шанс сбежать от врагов."
 		},
+		"gatherExpMult": {
+			"eng": "Auto Gather EXP Multiplier",
+			"trans": "Множитель автосбора опыта"
+		},
+		"gatherExpMultDesc": {
+			"eng": "Increases the EXP you receive from auto gather.",
+			"trans": "Увеличивает получаемый опыт при автоматическом сборе."
+		},
 		"headshotMult": {
 			"eng": "Headshot Multiplier",
 			"trans": "Множитель головы"
@@ -13078,6 +13748,16 @@
 		}
 	},
 	"statusEffect": {
+		"afkTaskExpMult1": {
+			"desc": {
+				"eng": "Increases the EXP you receive from AFK tasks by ${percent}%",
+				"trans": "Увеличивает опыт от заданий AFK на ${percent}%"
+			},
+			"name": {
+				"eng": "AFK Task EXP Multiplier",
+				"trans": "Множитель опыта AFK заданий"
+			}
+		},
 		"burn": {
 			"combatMsg": {
 				"eng": "${name} received ${damage} damage from burning",
@@ -13112,6 +13792,36 @@
 				"trans": "Увеличение защиты"
 			}
 		},
+		"gatherExpMult1": {
+			"desc": {
+				"eng": "Increases the EXP you receive from auto gather by ${percent}%",
+				"trans": "Увеличивает полученный опыт от авто-сбора на ${percent}%"
+			},
+			"name": {
+				"eng": "Auto Gather EXP Multiplier I",
+				"trans": "Множитель автоматического сбора опыта I"
+			}
+		},
+		"gatherExpMult2": {
+			"desc": {
+				"eng": "Increases the EXP you receive from auto gather by ${percent}%",
+				"trans": "Увеличивает получаемый опыт при автосборе на ${percent}%"
+			},
+			"name": {
+				"eng": "Auto Gather EXP Multiplier II",
+				"trans": "Автоматический множитель опыта II"
+			}
+		},
+		"gatherExpMult3": {
+			"desc": {
+				"eng": "Increases the EXP you receive from auto gather by ${percent}%",
+				"trans": "Увеличивает получаемый от авто-сбора опыт на ${percent}%"
+			},
+			"name": {
+				"eng": "Auto Gather EXP Multiplier III",
+				"trans": "Множитель автосбора опыта III"
+			}
+		},
 		"heal": {
 			"combatMsg": {
 				"eng": "${name} recovered ${heal} health",
@@ -13124,6 +13834,16 @@
 			"name": {
 				"eng": "Healed",
 				"trans": "Исцелен"
+			}
+		},
+		"hospitalized": {
+			"desc": {
+				"eng": "You are recovering from injuries sustained in gang war combat. You cannot participate in war combat while hospitalized.",
+				"trans": "Вы восстанавливаетесь после ранений, полученных в ходе войн банд. Пока вы находитесь в госпитале, участие в боевых действиях невозможно."
+			},
+			"name": {
+				"eng": "Hospitalized",
+				"trans": "Госпитализирован"
 			}
 		},
 		"lootIncrease": {
@@ -14649,6 +15369,16 @@
 			}
 		}
 	},
+	"vaultHandler": {
+		"depositSuccess": {
+			"eng": "Stored ${count} item(s) in vault",
+			"trans": "Сохранено ${count} предметов в хранилище"
+		},
+		"withdrawSuccess": {
+			"eng": "Retrieved ${count} item(s) from vault",
+			"trans": "Получено ${count} предметов из хранилища"
+		}
+	},
 	"vaultPage": {
 		"addItemButton": {
 			"title": {
@@ -14685,6 +15415,54 @@
 		"vaultSlots": {
 			"eng": "Slots ${size}",
 			"trans": "Слоты ${size}"
+		}
+	},
+	"warBuffDeployment": {
+		"buffLabel": {
+			"eng": "Tactical Buff",
+			"trans": "Тактический бафф"
+		},
+		"confirmDeployDescription": {
+			"eng": "Deploy ${buffName} for your gang?",
+			"trans": "Развернуть ${buffName} для вашей банды?"
+		},
+		"confirmDeployTitle": {
+			"eng": "Confirm Deployment",
+			"trans": "Подтвердить развертывание"
+		},
+		"deployButton": {
+			"eng": "Deploy",
+			"trans": "Развернуть"
+		},
+		"error": {
+			"alreadyActive": {
+				"eng": "This buff is already active",
+				"trans": "Этот бафф уже активен"
+			},
+			"leaderOnly": {
+				"eng": "Only the gang leader can deploy war buffs",
+				"trans": "Только лидер банды может активировать боевые усиления"
+			},
+			"notEnoughWarPoints": {
+				"eng": "Your gang does not have enough war points",
+				"trans": "У вашей банды недостаточно очков войны"
+			},
+			"notInGang": {
+				"eng": "You must be in a gang to access war logistics",
+				"trans": "Для доступа к военной логистике необходимо состоять в банде."
+			},
+			"warStateRequired": {
+				"eng": "Your gang must be in war state to deploy war buffs",
+				"trans": "Ваша банда должна находиться в состоянии войны для активации боевых баффов"
+			}
+		},
+		"statusActive": {
+			"eng": "Active",
+			"trans": "Активен"
+		},
+		"warPointsLabel": {
+			"eng": "War Points",
+			"trans": "Очки войны"
 		}
 	},
 	"webHomePage": {
@@ -14860,6 +15638,14 @@
 		}
 	},
 	"wikiPage": {
+		"noResults": {
+			"eng": "No results found",
+			"trans": "Результатов не найдено"
+		},
+		"searchPlaceholder": {
+			"eng": "Search wiki...",
+			"trans": "Поиск по вики..."
+		},
 		"subtitle": {
 			"eng": "the free encyclopedia that anyone can edit",
 			"trans": "свободная энциклопедия, которую может редактировать любой"
@@ -14948,6 +15734,18 @@
 			"announcement": {
 				"eng": "${playerName} upgraded ${item} to ${tier}!",
 				"trans": "${playerName} улучшил(а) ${item} до ${tier}!"
+			}
+		},
+		"warStateOff": {
+			"announcement": {
+				"eng": "${gang} has stood down from war.",
+				"trans": "${gang} прекратил боевые действия."
+			}
+		},
+		"warStateOn": {
+			"announcement": {
+				"eng": "${gang} has declared war!",
+				"trans": "${gang} объявили войну!"
 			}
 		}
 	}

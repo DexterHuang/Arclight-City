@@ -1,4 +1,10 @@
 {
+	"ADDRESS": {
+		"FORMAT": {
+			"eng": "ALC. ${district} District, No. ${number} ${floor} floor, room ${roomNumber}",
+			"trans": "ALC. Distrik ${district}, Nomor ${number} Lantai ${floor}, Ruang ${roomNumber}"
+		}
+	},
 	"BattlePassTimeLimitedInfoModal": {
 		"button": {
 			"eng": "Close",
@@ -802,6 +808,12 @@
 			"eng": "Start",
 			"trans": "Mulai"
 		},
+		"stats": {
+			"cycles": {
+				"eng": "${count} cycles",
+				"trans": "${count} siklus"
+			}
+		},
 		"tip": {
 			"eng": "You can unlock higher gathering zones by clearing ${difficulty} strongholds, the zone level is capped at your character level.",
 			"trans": "Anda dapat membuka zona pengumpulan yang lebih tinggi dengan menyelesaikan benteng ${difficulty}, level zona dibatasi pada level karakter Anda."
@@ -1358,16 +1370,40 @@
 		}
 	},
 	"blockedPlayerListPage": {
+		"emptyHint": {
+			"eng": "Block players from their profile to prevent them from contacting you",
+			"trans": "Blokir pemain melalui profil mereka supaya tidak dapat menghubungi Anda."
+		},
 		"noBlockedPlayers": {
 			"eng": "No blocked players",
 			"trans": "Tidak ada pemain yang diblokir"
 		},
 		"unblock": {
+			"confirm": {
+				"description": {
+					"eng": "This player will be able to contact you again",
+					"trans": "Pemain ini akan dapat menghubungi Anda kembali"
+				},
+				"title": {
+					"eng": "Unblock ${playerName}?",
+					"trans": "Hapus blokir ${playerName}?"
+				}
+			},
 			"eng": "Unblock",
 			"trans": "Buka blokir"
 		}
 	},
 	"buff": {
+		"afkTaskExpMult1": {
+			"description": {
+				"eng": "Increase AFK task EXP for all gang members by ${percent}% for ${hours} hours",
+				"trans": "Meningkatkan EXP Tugas AFK untuk semua anggota Geng sebesar ${percent}% selama ${hours} jam"
+			},
+			"name": {
+				"eng": "AFK Task EXP Multiplier",
+				"trans": "Pengganda EXP Tugas AFK"
+			}
+		},
 		"defenseIncrease": {
 			"description": {
 				"eng": "Increase defense for all players in strongholds created by your gang members in ${minutes} minutes",
@@ -1376,6 +1412,36 @@
 			"name": {
 				"eng": "Defense Increase",
 				"trans": "Peningkatan Pertahanan"
+			}
+		},
+		"gatherExpMult1": {
+			"description": {
+				"eng": "Increase auto gather EXP for all gang members by ${percent}% for ${minutes} minutes",
+				"trans": "Tingkatkan pengumpulan otomatis EXP untuk semua anggota Geng sebesar ${percent}% selama ${minutes} menit"
+			},
+			"name": {
+				"eng": "Auto Gather EXP Multiplier I",
+				"trans": "Pengumpulan Otomatis EXP Pengganda I"
+			}
+		},
+		"gatherExpMult2": {
+			"description": {
+				"eng": "Increase auto gather EXP for all gang members by ${percent}% for ${minutes} minutes",
+				"trans": "Tingkatkan pengumpulan otomatis EXP untuk semua anggota Geng sebesar ${percent}% selama ${minutes} menit."
+			},
+			"name": {
+				"eng": "Auto Gather EXP Multiplier II",
+				"trans": "Pengali Pengumpulan Otomatis EXP II"
+			}
+		},
+		"gatherExpMult3": {
+			"description": {
+				"eng": "Increase auto gather EXP for all gang members by ${percent}% for ${minutes} minutes",
+				"trans": "Tingkatkan pengumpulan EXP otomatis untuk semua anggota geng sebesar ${percent}% selama ${minutes} menit"
+			},
+			"name": {
+				"eng": "Auto Gather EXP Multiplier III",
+				"trans": "Pengali Kumpulan Pengalaman Otomatis III"
 			}
 		},
 		"lootIncrease": {
@@ -1625,6 +1691,10 @@
 			}
 		},
 		"error": {
+			"cannotKickSelf": {
+				"eng": "You cannot kick yourself",
+				"trans": "Anda tidak bisa menendang diri sendiri."
+			},
 			"clanIsFull": {
 				"eng": "this gang is current at max member capacity",
 				"trans": "Geng ini telah mencapai jumlah anggota maksimum saat ini"
@@ -1662,9 +1732,35 @@
 				}
 			}
 		},
+		"playerList": {
+			"header": {
+				"eng": "Personnel Roster",
+				"trans": "Daftar Personil"
+			},
+			"status": {
+				"eng": "Operational Status: Active",
+				"trans": "Status Operasional: Aktif"
+			},
+			"units": {
+				"eng": "Units",
+				"trans": "Satuan"
+			}
+		},
 		"requestSent": {
 			"eng": "Request sent successfully",
 			"trans": "Permintaan berhasil dikirim"
+		},
+		"role": {
+			"commander": {
+				"eng": "COMMANDER",
+				"trans": "KOMANDAN"
+			}
+		},
+		"war": {
+			"badge": {
+				"eng": "WAR",
+				"trans": "PERANG"
+			}
 		}
 	},
 	"clanBuffDeployPopup": {
@@ -1726,9 +1822,51 @@
 				"trans": "Setor Dana"
 			}
 		},
-		"editMottoButton": {
+		"depositSuccess": {
+			"eng": "Deposited ${amount} funds",
+			"trans": "${amount} dana telah disetor"
+		},
+		"disbandClan": {
+			"eng": "Disband Gang",
+			"trans": "Bubarkan Geng"
+		},
+		"disbandClanModal": {
+			"description": {
+				"eng": "Are you sure you want to disband this gang? This action cannot be undone.",
+				"trans": "Apakah Anda yakin ingin membubarkan Geng ini? Tindakan ini tidak dapat dibatalkan."
+			},
+			"title": {
+				"eng": "Disband gang",
+				"trans": "Bubarkan Geng"
+			}
+		},
+		"disbandLocked": {
+			"engagementLocked": {
+				"eng": "Cannot disband while members have recently engaged in war combat",
+				"trans": "Tidak dapat dibubarkan saat anggota baru saja terlibat dalam pertempuran."
+			},
+			"warActive": {
+				"eng": "Cannot disband while war mode is active. Disable war mode first.",
+				"trans": "Tidak dapat membubarkan saat Mode Perang aktif. Nonaktifkan Mode Perang terlebih dahulu."
+			}
+		},
+		"disbandStatus": {
+			"engagementLocked": {
+				"eng": "Members recently engaged in war combat. Available in:",
+				"trans": "Anggota yang baru-baru ini terlibat dalam pertempuran perang. Tersedia di:"
+			},
+			"title": {
+				"eng": "DISBAND LOCKED",
+				"trans": "PEMBUBARAN TERKUNCI"
+			},
+			"warActive": {
+				"eng": "Cannot disband while war mode is active. Disable war mode first.",
+				"trans": "Tidak dapat dibubarkan selama Mode Perang aktif. Nonaktifkan Mode Perang terlebih dahulu."
+			}
+		},
+		"editMotto": {
 			"eng": "Edit Motto",
-			"trans": "Ubah Motto"
+			"trans": "Ubah Semboyan"
 		},
 		"funds": {
 			"eng": "Funds",
@@ -1745,8 +1883,8 @@
 			"trans": "Bergabung"
 		},
 		"leaveClan": {
-			"eng": "leave gang",
-			"trans": "Tinggalkan geng"
+			"eng": "Leave Gang",
+			"trans": "Tinggalkan Geng"
 		},
 		"leaveClanModal": {
 			"description": {
@@ -1757,14 +1895,6 @@
 				"eng": "Leave gang",
 				"trans": "Keluar geng"
 			}
-		},
-		"makePrivate": {
-			"eng": "Make Private",
-			"trans": "Jadikan Pribadi"
-		},
-		"makePublic": {
-			"eng": "Make Public",
-			"trans": "Buat Publik"
 		},
 		"mottoModal": {
 			"description": {
@@ -1784,23 +1914,19 @@
 			"eng": "There is no motto set for this gang yet",
 			"trans": "Belum ada motto yang ditetapkan untuk geng ini"
 		},
-		"noticeModal": {
-			"description": {
-				"eng": "Posting a notice will cost ${Config.CLAN.NOTICE_POST_COST}${CurrencyType.NORMAL.getSymbol()}",
-				"trans": "Mengirim pengumuman akan dikenakan biaya ${Config.CLAN.NOTICE_POST_COST}${CurrencyType.NORMAL.getSymbol()}"
-			},
-			"title": {
-				"eng": "Post gang notice",
-				"trans": "Kirim Pemberitahuan Geng"
-			}
-		},
 		"playerListButton": {
 			"eng": "Member List",
 			"trans": "Daftar Anggota"
 		},
-		"postNoticeButton": {
-			"eng": "Post Notice",
-			"trans": "Posting Pemberitahuan"
+		"publicToggle": {
+			"private": {
+				"eng": "Private",
+				"trans": "Pribadi"
+			},
+			"public": {
+				"eng": "Public",
+				"trans": "Publik"
+			}
 		},
 		"requestToJoinButton": {
 			"eng": "Request to join",
@@ -1809,10 +1935,6 @@
 		"resources": {
 			"eng": "Resources",
 			"trans": "Sumber Daya"
-		},
-		"setImageButton": {
-			"eng": "Set Image",
-			"trans": "Atur Gambar"
 		},
 		"upkeepTip": {
 			"eng": "Ensure there is enough resources and funds to avoid losing the gang on the next upkeep date.",
@@ -1851,26 +1973,18 @@
 			}
 		}
 	},
-	"clanPlayer": {
-		"controlPointContributed": {
-			"eng": "control points: ${amount}",
-			"trans": "Poin kontrol: ${amount}"
-		},
-		"fundsContributed": {
-			"eng": "funds: ${amount}",
-			"trans": "Dana: ${amount}"
-		},
-		"resourceContributed": {
-			"eng": "resource: ${amount}",
-			"trans": "Sumber daya: ${amount}"
-		},
-		"thisWeek": {
-			"eng": "this week",
-			"trans": "Minggu ini"
-		},
-		"total": {
-			"eng": "total",
-			"trans": "Total"
+	"clanMenuModal": {
+		"warWarning": {
+			"joinDescription": {
+				"eng": "This gang is in WAR MODE. Joining will expose you to War PvP attacks with ${hours} hours lock. Continue?",
+				"trans": "Geng ini dalam MODE PERANG. Bergabung akan menjadikan Anda target serangan PvP Perang dengan penguncian ${hours} jam. Lanjutkan?"
+			}
+		}
+	},
+	"clanPlayerListPage": {
+		"memberCount": {
+			"eng": "${count} members",
+			"trans": "${count} anggota"
 		}
 	},
 	"clanPlayerPermissionModal": {
@@ -1884,6 +1998,14 @@
 		}
 	},
 	"clanPlayerPopup": {
+		"disableWarParticipation": {
+			"eng": "Disable War Participation",
+			"trans": "Nonaktifkan Partisipasi Perang"
+		},
+		"enableWarParticipation": {
+			"eng": "Enable War Participation",
+			"trans": "Aktifkan Partisipasi Perang"
+		},
 		"kickPlayerButton": {
 			"eng": "kick player",
 			"trans": "tendang pemain"
@@ -1891,6 +2013,14 @@
 		"setPermissionButton": {
 			"eng": "Edit Permissions",
 			"trans": "Ubah Izin"
+		},
+		"statusActive": {
+			"eng": "ACTIVE",
+			"trans": "AKTIF"
+		},
+		"statusInactive": {
+			"eng": "INACTIVE",
+			"trans": "NONAKTIF"
 		},
 		"transferOwnership": {
 			"eng": "Transfer Ownership",
@@ -1901,8 +2031,16 @@
 			"trans": "Transfer Kepemilikan"
 		},
 		"transferOwnershipConfirm": {
-			"eng": "Are you sure you want to transfer ownership of the gang to ${playerName}?\\nthis cannot be undone.",
-			"trans": "Apakah Anda yakin ingin mentransfer kepemilikan geng ke ${playerName}?\\nHal ini tidak dapat dibatalkan."
+			"eng": "Are you sure you want to transfer ownership of the gang to ${playerName}.\\nthis cannot be undone.",
+			"trans": "Apakah Anda yakin ingin mengalihkan kepemilikan Geng ke ${playerName}. Ini tidak dapat dibatalkan."
+		},
+		"warStatus": {
+			"eng": "War Participation",
+			"trans": "Partisipasi Perang"
+		},
+		"warToggleCooldown": {
+			"eng": "Cooldown: ${time}",
+			"trans": "Waktu Tunggu: ${time}"
 		}
 	},
 	"clanSearchPage": {
@@ -1963,6 +2101,248 @@
 				"eng": "View profile",
 				"trans": "Lihat profil"
 			}
+		}
+	},
+	"clanTabContent": {
+		"noticeModal": {
+			"description": {
+				"eng": "Posting a notice will cost ${cost}${symbol}",
+				"trans": "Memosting pengumuman akan memerlukan biaya ${cost}${symbol}"
+			},
+			"title": {
+				"eng": "Post gang notice",
+				"trans": "Posting pengumuman geng"
+			}
+		}
+	},
+	"clanTabNoClanContent": {
+		"warWarning": {
+			"joinDescription": {
+				"eng": "This gang is in WAR MODE. Joining will expose you to PvP attacks and 24h participation locks. Continue?",
+				"trans": "Geng ini dalam MODUS PERANG. Bergabung akan membuat Anda rentan terhadap serangan PvP dan terkunci selama 24 jam. Lanjut?"
+			}
+		}
+	},
+	"clanWar": {
+		"chat": {
+			"deathBroadcast": {
+				"eng": "${victimPlayer} was eliminated by ${killerPlayer} from ${gang}",
+				"trans": "${victimPlayer} dibunuh oleh ${killerPlayer} dari ${gang}"
+			},
+			"killBroadcast": {
+				"eng": "${killerPlayer} has eliminated ${victimPlayer} from ${gang}",
+				"trans": "${killerPlayer} telah mengeliminasi ${victimPlayer} dari ${gang}"
+			},
+			"milestoneReached": {
+				"eng": "${count} kill streak! +${reward} war score",
+				"trans": "${count} pembunuhan beruntun! +${reward} skor perang"
+			},
+			"warStateOn": {
+				"eng": "${gang} has declared war",
+				"trans": "${gang} telah menyatakan perang."
+			}
+		},
+		"dangerModal": {
+			"enableDescription": {
+				"eng": "Enabling WAR MODE will expose ALL gang members to PvP attacks. Opting out will be LOCKED for 24 hours. Proceed?",
+				"trans": "Mengaktifkan WAR MODE akan menjadikan SEMUA anggota Geng target serangan PvP. Pilihan untuk keluar dari mode ini akan dikunci selama 24 jam. Lanjutkan?"
+			},
+			"requestDescription": {
+				"eng": "This gang is in WAR MODE. If accepted, joining will expose you to PvP attacks and 24h participation locks. Continue?",
+				"trans": "Geng ini dalam MODE PERANG. Jika disetujui, bergabung akan menjadikan Anda target serangan PvP dan terkunci untuk berpartisipasi selama 24 jam. Lanjutkan?"
+			},
+			"title": {
+				"eng": "WAR MODE WARNING",
+				"trans": "Aktifkan Mode Perang"
+			}
+		},
+		"disableModal": {
+			"description": {
+				"eng": "Are you sure you want to disable war mode? Your gang will no longer be able to earn war score.",
+				"trans": "Apakah Anda yakin ingin menonaktifkan mode perang? Geng Anda tidak akan lagi dapat mendapatkan skor perang."
+			},
+			"title": {
+				"eng": "Disable War Mode",
+				"trans": "Nonaktifkan Mode Perang"
+			}
+		},
+		"error": {
+			"cannotToggleMember": {
+				"eng": "Cannot toggle this member's participation. They may not exist or cooldown is active",
+				"trans": "Tidak dapat mengubah status partisipasi anggota ini. Anggota tersebut mungkin tidak ada atau masa tunggu sedang aktif."
+			},
+			"disbandEngaged": {
+				"eng": "You cannot disband the gang while members have recently engaged in war combat",
+				"trans": "Anda tidak dapat membubarkan Geng sementara anggota baru saja terlibat dalam pertempuran perang."
+			},
+			"disbandWarActive": {
+				"eng": "You cannot disband the gang while war mode is active",
+				"trans": "Anda tidak dapat membubarkan geng selama mode perang aktif."
+			},
+			"kickLocked": {
+				"eng": "Cannot kick a member who has recently engaged in war combat",
+				"trans": "Tidak dapat mengusir anggota yang baru saja terlibat dalam pertempuran perang"
+			},
+			"leaderOnly": {
+				"eng": "Only the gang leader can perform this action",
+				"trans": "Hanya pemimpin geng yang dapat melakukan aksi ini"
+			},
+			"leaveLocked": {
+				"eng": "You cannot leave the gang while you have recently engaged in war combat",
+				"trans": "Anda tidak dapat keluar dari geng saat baru saja terlibat dalam pertempuran"
+			},
+			"notEnoughWarPoints": {
+				"eng": "Your gang does not have enough war points",
+				"trans": "Geng Anda tidak memiliki cukup poin perang."
+			},
+			"notWarBuff": {
+				"eng": "This buff cannot be deployed during gang war",
+				"trans": "Buff ini tidak dapat digunakan saat Perang Geng."
+			},
+			"optOutLocked": {
+				"eng": "Cannot disable war mode yet. 24h lock-in period is still active",
+				"trans": "Tidak dapat menonaktifkan Mode Perang saat ini. Masa penguncian 24 jam masih aktif."
+			},
+			"warStateRequired": {
+				"eng": "Your gang must be in war state to deploy war buffs",
+				"trans": "Geng Anda harus dalam status perang untuk mengaktifkan bonus perang."
+			},
+			"wip": {
+				"eng": "This feature is currently under development",
+				"trans": "Fitur ini sedang dalam pengembangan"
+			}
+		},
+		"lockedFeedback": {
+			"eng": "War mode is locked until ${date}",
+			"trans": "Mode Perang terkunci hingga ${date}"
+		},
+		"notification": {
+			"hospitalized": {
+				"eng": "You have been hospitalized from a gang war defeat. Recovery time: ${duration} minutes.",
+				"trans": "Anda telah dirawat di rumah sakit akibat kekalahan perang geng. Waktu pemulihan: ${duration} menit."
+			},
+			"milestoneReached": {
+				"eng": "Your gang has reached a ${count} kill streak and earned ${reward} war score!",
+				"trans": "Geng Anda telah mencapai ${count} pembunuhan beruntun dan meraih skor perang ${reward}!"
+			},
+			"participationDisabled": {
+				"eng": "You have been removed from war participation by your gang leader. Your kills will no longer count towards gang war score.",
+				"trans": "Anda telah dikeluarkan dari partisipasi perang oleh pemimpin geng Anda. Kill Anda tidak akan lagi dihitung dalam skor perang gang."
+			},
+			"participationEnabled": {
+				"eng": "You have been added to war participation by your gang leader. You can now participate in gang wars.",
+				"trans": "Anda telah ditambahkan untuk ikut serta dalam perang oleh Pemimpin Geng Anda. Kini Anda dapat berpartisipasi dalam Perang Geng."
+			},
+			"warStateOff": {
+				"eng": "Your gang leader has disabled war mode. Your gang is no longer a war target.",
+				"trans": "Pemimpin geng Anda telah menonaktifkan mode perang. Geng Anda tidak lagi menjadi sasaran perang."
+			},
+			"warStateOn": {
+				"eng": "Your gang leader has activated war mode for your gang!",
+				"trans": "Pemimpin geng Anda telah mengaktifkan Mode Perang untuk geng Anda!"
+			}
+		},
+		"tutorialLink": {
+			"eng": "Learn more about Gang War",
+			"trans": "Pelajari Selengkapnya Tentang Perang Geng"
+		}
+	},
+	"clanWarPage": {
+		"header": {
+			"currentScore": {
+				"eng": "TOTAL WAR SCORE",
+				"trans": "Skor Total Perang"
+			},
+			"stack": {
+				"eng": "STACK",
+				"trans": "Tumpukan"
+			},
+			"warPoints": {
+				"eng": "PTS",
+				"trans": "PTS"
+			}
+		},
+		"milestone": {
+			"progressText": {
+				"eng": "${current} / ${target} STACKS",
+				"trans": "${current} / ${target} TUMPULAN"
+			},
+			"reward": {
+				"eng": "BONUS",
+				"trans": "BONUS"
+			},
+			"stacks": {
+				"eng": "STACKS",
+				"trans": "TUMPUKAN"
+			}
+		},
+		"milestones": {
+			"end": {
+				"eng": "END OF OPERATION",
+				"trans": "Operasi selesai"
+			},
+			"operation": {
+				"eng": "OPERATION",
+				"trans": "OPERASI"
+			},
+			"title": {
+				"eng": "WAR MILESTONES",
+				"trans": "Tonggak Perang"
+			},
+			"total_stacks": {
+				"eng": "TOTAL STACK",
+				"trans": "JUMLAH TUMPUKAN"
+			},
+			"unit": {
+				"eng": "STK",
+				"trans": "STK"
+			}
+		},
+		"noClan": {
+			"eng": "NO GANG DATA FOUND",
+			"trans": "Data geng tidak ditemukan"
+		},
+		"status": {
+			"active": {
+				"eng": "WAR ACTIVE",
+				"trans": "PERANG AKTIF"
+			},
+			"inactive": {
+				"eng": "WAR INACTIVE",
+				"trans": "PERANG TIDAK AKTIF"
+			}
+		}
+	},
+	"clanWarPanel": {
+		"enableWarModal": {
+			"title": {
+				"eng": "ENABLE WAR MODE",
+				"trans": "AKTIFKAN MODE PERANG"
+			}
+		},
+		"leaderOnlyToggle": {
+			"eng": "Only the gang leader can toggle war mode",
+			"trans": "Hanya ketua geng yang bisa mengubah status mode perang."
+		},
+		"locked": {
+			"eng": "Lock:",
+			"trans": "Kunci:"
+		},
+		"score": {
+			"eng": "War Score",
+			"trans": "Skor Perang"
+		},
+		"stack": {
+			"eng": "Stack",
+			"trans": "Tumpukan"
+		},
+		"warOff": {
+			"eng": "War OFF",
+			"trans": "Matikan Perang"
+		},
+		"warOn": {
+			"eng": "War ON",
+			"trans": "Perang Aktif"
 		}
 	},
 	"collectedLoreNotes": {
@@ -2193,6 +2573,10 @@
 		"psychosis": {
 			"eng": "+ ${amount} psychosis",
 			"trans": "+ ${amount} sikologi"
+		},
+		"warPoints": {
+			"eng": "${amount} war points",
+			"trans": "${amount} poin perang"
 		}
 	},
 	"coupon": {
@@ -2210,13 +2594,17 @@
 			"eng": "Enter your gift code to get your reward.",
 			"trans": "Masukkan kode hadiah Anda untuk mendapatkan hadiah Anda."
 		},
+		"hint": {
+			"eng": "Codes are case-insensitive",
+			"trans": "Kode tidak membedakan huruf besar dan kecil"
+		},
 		"inputTitle": {
 			"eng": "Gift Code",
 			"trans": "Kode Hadiah"
 		},
 		"submitButton": {
-			"eng": "Submit",
-			"trans": "Kirim"
+			"eng": "Redeem Code",
+			"trans": "Tebus Kode"
 		},
 		"title": {
 			"eng": "Gift Code",
@@ -2357,16 +2745,6 @@
 				"eng": "Universal Dollars",
 				"trans": "Dolar Universal"
 			}
-		}
-	},
-	"currencyCheck": {
-		"getMore": {
-			"eng": "get more",
-			"trans": "dapatkan lebih banyak"
-		},
-		"notEnough": {
-			"eng": "Insufficient ${currency}",
-			"trans": "Kurang ${currency}"
 		}
 	},
 	"dailyQuestTab": {
@@ -2561,6 +2939,24 @@
 		"dismantleButton": {
 			"eng": "Dismantle",
 			"trans": "Mematikan"
+		},
+		"itemCount": {
+			"eng": "${count} items",
+			"trans": "${count} item"
+		},
+		"sort": {
+			"level": {
+				"eng": "Level",
+				"trans": "Tingkat"
+			},
+			"name": {
+				"eng": "Name",
+				"trans": "Nama"
+			},
+			"tier": {
+				"eng": "Tier",
+				"trans": "Tier"
+			}
 		}
 	},
 	"displayShelf": {
@@ -2769,6 +3165,26 @@
 			}
 		}
 	},
+	"dungeonBackpackPage": {
+		"itemCount": {
+			"eng": "${count} items",
+			"trans": "${count} item"
+		},
+		"sort": {
+			"level": {
+				"eng": "Level",
+				"trans": "Tingkat"
+			},
+			"name": {
+				"eng": "Name",
+				"trans": "Nama"
+			},
+			"tier": {
+				"eng": "Tier",
+				"trans": "Tier"
+			}
+		}
+	},
 	"dungeonChoicePopup": {
 		"actionsTitle": {
 			"eng": "Choose your action",
@@ -2947,6 +3363,10 @@
 				"eng": "${playerName}'s lobby",
 				"trans": "Lobi ${playerName}"
 			}
+		},
+		"lobbyCount": {
+			"eng": "${count} lobbies",
+			"trans": "${count} lobi"
 		},
 		"noLobbiesFound": {
 			"eng": "No lobbies found",
@@ -3139,6 +3559,12 @@
 				"eng": "Wow",
 				"trans": "Gila"
 			}
+		}
+	},
+	"emptyState": {
+		"defaultTitle": {
+			"eng": "No records found",
+			"trans": "Tidak ditemukan catatan"
 		}
 	},
 	"enemyEvent": {
@@ -3431,6 +3857,18 @@
 		"submit3": {
 			"eng": "Submit",
 			"trans": "Kirim"
+		}
+	},
+	"filteredItemList": {
+		"noSearchResults": {
+			"eng": "No items matching \"${query}\"",
+			"trans": "Tidak ada item yang sesuai dengan \"${query}\""
+		},
+		"search": {
+			"placeholder": {
+				"eng": "Search items...",
+				"trans": "Cari item..."
+			}
 		}
 	},
 	"firstPurchasePromoSmall": {
@@ -3806,6 +4244,10 @@
 				"trans": "Anda tidak memiliki cukup uang untuk membuat geng"
 			}
 		},
+		"createSuccess": {
+			"eng": "Gang \"${name}\" created!",
+			"trans": "Geng \"${name}\" telah dibuat!"
+		},
 		"editMotto": {
 			"error": {
 				"levelNoAlts": {
@@ -4007,6 +4449,22 @@
 			}
 		}
 	},
+	"hitListPage": {
+		"bountyCount": {
+			"eng": "${count} bounties",
+			"trans": "${count} Tanda Ganjaran"
+		},
+		"sort": {
+			"level": {
+				"eng": "Level",
+				"trans": "Tingkat"
+			},
+			"price": {
+				"eng": "Price",
+				"trans": "Harga"
+			}
+		}
+	},
 	"hitlist": {
 		"loading": {
 			"eng": "Loading bounties...",
@@ -4057,6 +4515,48 @@
 				"eng": "A bounty has been placed on your head, current bounty - Eurodollar: ${money}, Universal Dollar: ${uni}",
 				"trans": "Seorang pemburu telah meletakkan hadiah atas kepalamu, hadiah saat ini - EuroDolar: ${money}, Universal Dollar: ${uni}"
 			}
+		}
+	},
+	"hospitalizedScreen": {
+		"leaveHospital": {
+			"eng": "DISCHARGE // CONFIRM",
+			"trans": "PELEPASAN // KONFIRMASI"
+		},
+		"statusCritical": {
+			"eng": "SYS: VITALS CRITICAL",
+			"trans": "SISTEM: STATUS VITAL KRITIS"
+		},
+		"statusRecovered": {
+			"eng": "RECOVERY_COMPLETE",
+			"trans": "Pemulihan Selesai"
+		},
+		"statusStable": {
+			"eng": "SYS: VITALS STABLE",
+			"trans": "SISTEM: TANDA VITAL STABIL"
+		},
+		"statusTag": {
+			"eng": "OVR_DENIED",
+			"trans": "OVERRIDE DITOLAK"
+		},
+		"sysHeader": {
+			"eng": "SYS.MED_PROTOCOL",
+			"trans": "Protokol Medis Sistem"
+		},
+		"timeRemaining": {
+			"eng": "EST. RECOVERY TIME",
+			"trans": "ESTIMASI WAKTU PEMULIHAN"
+		},
+		"title": {
+			"eng": "HOSPITALIZED",
+			"trans": "RAWAT INAP"
+		},
+		"useMedkit": {
+			"eng": "ADMINISTER MEDKIT",
+			"trans": "Gunakan Medkit"
+		},
+		"useMedkitDesc": {
+			"eng": "[-1 HR RECOVERY]",
+			"trans": "[-1 JAM PEMULIHAN]"
 		}
 	},
 	"hostilePlayerListPage": {
@@ -4368,10 +4868,6 @@
 			"eng": "Error loading clue",
 			"trans": "Kesalahan memuat petunjuk"
 		},
-		"evidence": {
-			"eng": "Evidence",
-			"trans": "Bukti"
-		},
 		"evidenceAcquired": {
 			"eng": "Evidence Logged - ACPD Database",
 			"trans": "Bukti Tercatat - Basis Data ACPD"
@@ -4379,6 +4875,10 @@
 		"evidenceMismatch": {
 			"eng": "The submitted conclusion does not align with available evidence patterns.",
 			"trans": "Kesimpulan yang diajukan tidak sesuai dengan pola bukti yang tersedia."
+		},
+		"evidenceNumber": {
+			"eng": "Evidence #${number}",
+			"trans": "Bukti #${number}"
 		},
 		"goToVerdict": {
 			"eng": "Go to verdict ${num}",
@@ -4810,6 +5310,10 @@
 			"cantEquipFromBackpack": {
 				"eng": "You cannot equip equipment from your backpack",
 				"trans": "Anda tidak dapat memasang peralatan dari ransel Anda"
+			},
+			"notHospitalized": {
+				"eng": "You can only use this item while hospitalized",
+				"trans": "Anda hanya dapat menggunakan item ini saat sedang dirawat."
 			}
 		},
 		"levelUpBar": {
@@ -5528,6 +6032,16 @@
 			"name": {
 				"eng": "Egg",
 				"trans": "Telur"
+			}
+		},
+		"emergencyMedkit": {
+			"description": {
+				"eng": "A field-grade trauma kit containing synthetic coagulants and adrenaline boosters. Reduces hospitalization time by 1 hour when administered.",
+				"trans": "Perlengkapan trauma tingkat lapangan mengandung koagulan sintetis dan penguat adrenalin. Mengurangi waktu rawat inap selama 1 jam saat digunakan."
+			},
+			"name": {
+				"eng": "Emergency Medkit",
+				"trans": "Paket Medis Darurat"
 			}
 		},
 		"energyGun": {
@@ -7202,6 +7716,12 @@
 				"trans": "Tingkat Geng"
 			}
 		},
+		"clanWar": {
+			"name": {
+				"eng": "Gang War Score",
+				"trans": "Skor Perang Geng"
+			}
+		},
 		"level": {
 			"name": {
 				"eng": "Character Level",
@@ -7273,6 +7793,20 @@
 				"eng": "Stock Realized Profit",
 				"trans": "Keuntungan Saham Terealisasi"
 			}
+		}
+	},
+	"leaderboardDetails": {
+		"empty": {
+			"eng": "No rankings yet",
+			"trans": "Belum ada peringkat"
+		},
+		"loading": {
+			"eng": "Loading rankings...",
+			"trans": "Memuat peringkat..."
+		},
+		"warScore": {
+			"eng": "WAR SCORE",
+			"trans": "SKOR PERANG"
 		}
 	},
 	"leaderboardTypes": {
@@ -7543,6 +8077,10 @@
 		"legendClaimable": {
 			"eng": "Claimable",
 			"trans": "Dapat diklaim"
+		},
+		"legendClaimed": {
+			"eng": "Claimed",
+			"trans": "Telah Diambil"
 		},
 		"legendMilestone": {
 			"eng": "Milestone",
@@ -7817,6 +8355,16 @@
 				"eng": "System Message",
 				"trans": "Pesan Sistem"
 			}
+		},
+		"warAttackFailed": {
+			"attacker": {
+				"eng": "Your gang war strike against ${playerName} failed, you lost ${amount}",
+				"trans": "Serangan Perang Geng Anda terhadap ${playerName} gagal, Anda kehilangan ${amount}"
+			},
+			"defender": {
+				"eng": "${playerName} launched a gang war strike against you but you fought back and won",
+				"trans": "${playerName} melancarkan serangan perang geng terhadapmu namun kamu melawan balik dan menang"
+			}
 		}
 	},
 	"mailDetails": {
@@ -8076,6 +8624,14 @@
 			"eng": "Black Market",
 			"trans": "Pasar Gelap"
 		},
+		"clanUpkeep": {
+			"eng": "Gang Upkeep",
+			"trans": "Pemeliharaan Geng"
+		},
+		"clanWar": {
+			"eng": "Gang War",
+			"trans": "Perang Geng"
+		},
 		"currency": {
 			"eng": "Currency",
 			"trans": "Mata uang"
@@ -8095,10 +8651,6 @@
 		"followUpLottery": {
 			"eng": "Follow Up Lottery",
 			"trans": "Undian Lanjutan"
-		},
-		"gangUpkeep": {
-			"eng": "Gang Upkeep",
-			"trans": "Pemeliharaan Geng"
 		},
 		"hideoutRaid": {
 			"eng": "Hideout Raid",
@@ -8265,6 +8817,18 @@
 		"noItem": {
 			"eng": "There is no item",
 			"trans": "Tidak ada item"
+		}
+	},
+	"marketMyItemsPage": {
+		"emptySlot": {
+			"eng": "List Item",
+			"trans": "Item Daftar"
+		},
+		"header": {
+			"title": {
+				"eng": "Market Listings",
+				"trans": "Daftar Pasar"
+			}
 		}
 	},
 	"marketPurchaseModal": {
@@ -8468,6 +9032,10 @@
 			"eng": "Level Up",
 			"trans": "Naik Level"
 		},
+		"resonate": {
+			"eng": "Resonate",
+			"trans": "Resonansi"
+		},
 		"stats": {
 			"title": {
 				"eng": "stats",
@@ -8633,6 +9201,24 @@
 		"noMercenaries": {
 			"eng": "You do not have any mercenaries in your contact",
 			"trans": "Anda tidak memiliki tentara bayaran dalam kontak Anda"
+		},
+		"sort": {
+			"level": {
+				"eng": "Level",
+				"trans": "Tingkat"
+			},
+			"name": {
+				"eng": "Name",
+				"trans": "Nama"
+			},
+			"skill": {
+				"eng": "Skill",
+				"trans": "Keterampilan"
+			},
+			"tier": {
+				"eng": "Tier",
+				"trans": "Tier"
+			}
 		},
 		"tip": {
 			"default": {
@@ -8852,6 +9438,12 @@
 			"eng": "RESONANCE COMPLETE",
 			"trans": "Resonansi Selesai"
 		},
+		"mythicCinematic": {
+			"tapToContinue": {
+				"eng": "TAP SCREEN",
+				"trans": "Ketuk Layar"
+			}
+		},
 		"mythicTitle1": {
 			"eng": "MYTHIC",
 			"trans": "MYTHIC"
@@ -8868,6 +9460,12 @@
 			"eng": "AWAKENING RESULT",
 			"trans": "Hasil Kebangkitan"
 		},
+		"standardAwakening": {
+			"tapToContinue": {
+				"eng": "TAP TO CONTINUE",
+				"trans": "KETUK UNTUK MELANJUTKAN"
+			}
+		},
 		"sys": {
 			"protocol": {
 				"eng": "Awakening protocol finalized",
@@ -8881,10 +9479,6 @@
 				"eng": "Neural synchronization successful",
 				"trans": "Sinkronisasi Neural Berhasil"
 			}
-		},
-		"tapToContinue": {
-			"eng": "TAP TO CONTINUE",
-			"trans": "Ketuk untuk melanjutkan"
 		}
 	},
 	"mercenarySelectPopup": {
@@ -9032,8 +9626,8 @@
 				"trans": "AKSES DIBERIKAN"
 			},
 			"breachProgress": {
-				"eng": "BREACH PROGRESS",
-				"trans": "PROGRES BREACH"
+				"eng": "BREACH PROGRESS: ${percent}%",
+				"trans": "PROGRES PEMBOBOLAN: ${percent}%"
 			},
 			"example": {
 				"eng": "Example of obfuscated code:",
@@ -9396,6 +9990,10 @@
 			"eng": "Eurodollars",
 			"trans": "Euro Dolar"
 		},
+		"deselectAll": {
+			"eng": "Deselect All",
+			"trans": "Batal Pilih Semua"
+		},
 		"exchange": {
 			"eng": "Exchange",
 			"trans": "Pertukaran"
@@ -9445,8 +10043,8 @@
 			"trans": "Beli"
 		},
 		"selectAll": {
-			"eng": "All",
-			"trans": "Semua"
+			"eng": "Select All",
+			"trans": "Pilih Semua"
 		},
 		"upgrade": {
 			"eng": "upgrade",
@@ -9456,12 +10054,12 @@
 	"modal": {
 		"selectAmountModal": {
 			"cancel": {
-				"eng": "cancel",
+				"eng": "Cancel",
 				"trans": "Batal"
 			},
 			"confirm": {
-				"eng": "confirm",
-				"trans": "konfirmasi"
+				"eng": "Confirm",
+				"trans": "Konfirmasi"
 			},
 			"invalidAmount": {
 				"eng": "Amount must be between ${min} and ${max}",
@@ -9998,6 +10596,10 @@
 				"trans": "Anda sudah bergabung dengan geng"
 			}
 		},
+		"count": {
+			"eng": "${count} notifications",
+			"trans": "${count} notifikasi"
+		},
 		"lobbyInvite": {
 			"accept": {
 				"eng": "Accept",
@@ -10012,6 +10614,12 @@
 			"title": {
 				"eng": "No notification",
 				"trans": "Tidak ada pemberitahuan"
+			}
+		},
+		"warWarning": {
+			"joinDescription": {
+				"eng": "This gang is in WAR MODE. Joining will expose you to war PvP attacks for ${hours} hours lock. Continue?",
+				"trans": "Geng ini sedang dalam MODE PERANG. Bergabung akan memaparkan Anda pada serangan PvP dan terkunci selama ${hours} jam. Lanjutkan?"
 			}
 		}
 	},
@@ -10386,6 +10994,14 @@
 			"upgrade": {
 				"eng": "Upgrade",
 				"trans": "Peningkatan"
+			},
+			"warBuff": {
+				"eng": "War Buffs",
+				"trans": "Bonus Pertempuran"
+			},
+			"warIntel": {
+				"eng": "War Intel",
+				"trans": "Informasi Perang"
 			}
 		},
 		"generalStore": {
@@ -10607,6 +11223,46 @@
 		"upgradeButton": {
 			"eng": "Upgrade my equipment",
 			"trans": "Tingkatkan peralatan saya"
+		},
+		"warQuartermaster": {
+			"buffDeployment": {
+				"description": {
+					"eng": "Deploy tactical buffs for your gang",
+					"trans": "Aktifkan buff taktis untuk geng Anda"
+				},
+				"label": {
+					"eng": "TACTICAL OPS",
+					"trans": "OPERASI TAKTIK"
+				},
+				"title": {
+					"eng": "War Buff Deployment",
+					"trans": "Mobilisasi Penguatan Pertempuran"
+				}
+			},
+			"description": {
+				"eng": "A secure war command terminal where your gang reviews active enhancements and deploys new combat support buffs.",
+				"trans": "Terminal Komando Perang Aman di mana gengmu meninjau peningkatan aktif dan menerapkan buff dukungan tempur baru"
+			},
+			"greetings": {
+				"eng": [
+					"War command online. State your objective.",
+					"Frontline telemetry synced. Buff deployment terminal is ready.",
+					"Gang war resources are live. Coordinate before you spend."
+				],
+				"trans": [
+					"Perintah perang online. Sampaikan tujuanmu.",
+					"Telemetri garis depan telah tersinkronisasi. Terminal peluncuran buff siap.",
+					"Sumber daya pertempuran geng sudah aktif. Koordinasikan dulu sebelum dipakai."
+				]
+			},
+			"locationName": {
+				"eng": "War Command Center",
+				"trans": "Pusat Komando Perang"
+			},
+			"npcName": {
+				"eng": "Quartermaster Vane",
+				"trans": "Pengurus Logistik Vane"
+			}
 		},
 		"weaponSmith": {
 			"description": {
@@ -10980,6 +11636,28 @@
 		}
 	},
 	"playerDetailsPage": {
+		"action": {
+			"addFriend": {
+				"eng": "Add Friend",
+				"trans": "Tambah Teman"
+			},
+			"attack": {
+				"eng": "Attack",
+				"trans": "Serang"
+			},
+			"mail": {
+				"eng": "Mail",
+				"trans": "Surat"
+			},
+			"unfriend": {
+				"eng": "Unfriend",
+				"trans": "Hapus Teman"
+			}
+		},
+		"attackHospitalized": {
+			"eng": "Target is currently hospitalized. Combat unavailable.",
+			"trans": "Target sedang dirawat di rumah sakit. Pertarungan tidak tersedia."
+		},
 		"attribute": {
 			"confirm": {
 				"eng": "Apply",
@@ -10991,29 +11669,13 @@
 			}
 		},
 		"menu": {
-			"addFriend": {
-				"eng": "Add Friend",
-				"trans": "Tambah Teman"
-			},
 			"block": {
 				"eng": "Block",
 				"trans": "Blok"
 			},
-			"close": {
-				"eng": "attack",
-				"trans": "Serang"
-			},
-			"removeFriend": {
-				"eng": "Remove Friend",
-				"trans": "Hapus Teman"
-			},
 			"report": {
 				"eng": "Report",
 				"trans": "Laporan"
-			},
-			"sendMessage": {
-				"eng": "Send Mail",
-				"trans": "Kirim Surat"
 			},
 			"unblock": {
 				"eng": "Unblock",
@@ -11576,6 +12238,18 @@
 			"successBounty": {
 				"eng": "You received bounty of ${money1} and ${money2} for eliminating ${targetPlayer}",
 				"trans": "Anda menerima hadiah sebesar ${money1} dan ${money2} karena telah membunuh ${targetPlayer}"
+			},
+			"warAttackAddedEnemy": {
+				"eng": "${playerName} struck you in a gang war assault, you lost ${currency}, this player has been added to your enemies list",
+				"trans": "${playerName} menyerang Anda dalam serangan perang geng, Anda kehilangan ${currency}, pemain ini telah ditambahkan ke daftar musuh."
+			},
+			"warAttackNoAddEnemy": {
+				"eng": "${playerName} struck you in a gang war assault, you lost ${currency}",
+				"trans": "${playerName} menyerang Anda dalam serangan Perang Geng, Anda kehilangan ${currency}"
+			},
+			"warAttackWin": {
+				"eng": "Your gang war strike against ${playerName} was successful, you earned ${currency}",
+				"trans": "Serangan perang geng Anda terhadap ${playerName} berhasil, Anda mendapatkan ${currency}"
 			}
 		},
 		"toast": {
@@ -11694,6 +12368,10 @@
 			"eng": "Daily Quests",
 			"trans": "Tugas Harian"
 		},
+		"inProgress": {
+			"eng": "In Progress",
+			"trans": "Dalam Proses"
+		},
 		"investigations": {
 			"eng": "Investigations",
 			"trans": "Penyelidikan"
@@ -11705,6 +12383,10 @@
 		"npcQuests": {
 			"eng": "Quests",
 			"trans": "Tugas"
+		},
+		"readyToTurnIn": {
+			"eng": "Ready to Turn In",
+			"trans": "Siap Diserahkan"
 		}
 	},
 	"questPreview": {
@@ -11877,6 +12559,10 @@
 		"reportReason": {
 			"eng": "Report Reason",
 			"trans": "Alasan Laporan"
+		},
+		"reportSuccess": {
+			"eng": "Report submitted successfully",
+			"trans": "Laporan berhasil dikirim."
 		}
 	},
 	"reportType": {
@@ -12081,6 +12767,32 @@
 			"trans": "menit"
 		}
 	},
+	"sendItem": {
+		"confirm": {
+			"eng": "Send",
+			"trans": "Kirim"
+		},
+		"confirmDescription": {
+			"eng": "Send ${amount}x ${itemName} to this player?",
+			"trans": "Kirim ${amount}x ${itemName} ke pemain ini?"
+		},
+		"confirmTitle": {
+			"eng": "Confirm Send",
+			"trans": "Konfirmasi Kirim"
+		},
+		"success": {
+			"eng": "Sent ${amount}x ${itemName}",
+			"trans": "Dikirim ${amount}x ${itemName}"
+		}
+	},
+	"sendItemPage": {
+		"selectAmount": {
+			"title": {
+				"eng": "Select amount to send",
+				"trans": "Pilih jumlah yang akan dikirim"
+			}
+		}
+	},
 	"server": {
 		"clan": {
 			"join": {
@@ -12119,6 +12831,10 @@
 				"eng": "You cannot attack this player due to bounty contributor alt detection",
 				"trans": "Anda tidak dapat menyerang pemain ini karena deteksi alt kontributor bounty."
 			},
+			"cannotEngageHospitalized": {
+				"eng": "This player is currently hospitalized and cannot be attacked",
+				"trans": "Pemain ini sedang di rumah sakit dan tidak dapat diserang"
+			},
 			"cannotEngageInDungeon": {
 				"eng": "You cannot engage in PvP while in a dungeon",
 				"trans": "Kamu tidak dapat berpartisipasi dalam PvP saat berada di dalam dungeon"
@@ -12130,6 +12846,10 @@
 			"cannotEngageProtectedPlayer": {
 				"eng": "This player is protected with ${item}, you cannot engage them at this moment",
 				"trans": "Pemain ini dilindungi dengan ${item}, kamu tidak dapat menyerang mereka saat ini"
+			},
+			"cannotEngageSuspended": {
+				"eng": "You cannot engage this player right now",
+				"trans": "Anda tidak bisa melawan pemain ini saat ini"
 			},
 			"combatNotFound": {
 				"eng": "Combat has ended",
@@ -12145,7 +12865,7 @@
 			},
 			"levelTooDiff": {
 				"eng": "You cannot engage a player that is more than ${levelDiff} levels higher or below you",
-				"trans": "Kamu tidak dapat menyerang pemain yang memiliki selisih level lebih dari ${levelDiff} level atau lebih rendah dari kamu"
+				"trans": "Anda tidak dapat berhadapan dengan pemain yang selisih tingkatnya lebih dari ${levelDiff} level."
 			},
 			"notEnoughMoneyPvp": {
 				"eng": "You need at least ${money} to engage in PvP",
@@ -12166,6 +12886,14 @@
 			"pvpArrestDismissed": {
 				"eng": "This player has already been arrested",
 				"trans": "Pemain ini telah ditangkap"
+			},
+			"warCannotEngageAlt": {
+				"eng": "You cannot attack this player due to alt detection",
+				"trans": "Anda tidak dapat menyerang pemain ini karena terdeteksi sebagai akun alt."
+			},
+			"warLevelTooDiff": {
+				"eng": "You are too high level to attack this player",
+				"trans": "Levelmu terlalu tinggi untuk menyerang pemain ini"
 			}
 		},
 		"combatLog": {
@@ -12294,6 +13022,10 @@
 			"cannotInviteSelf": {
 				"eng": "You cannot invite yourself",
 				"trans": "Anda tidak dapat mengundang diri Anda sendiri"
+			},
+			"cannotKickSelf": {
+				"eng": "You cannot kick yourself",
+				"trans": "Anda tidak dapat menendang diri sendiri"
 			},
 			"craeteNotIdle": {
 				"eng": "You must be idle to create a lobby",
@@ -12706,87 +13438,9 @@
 		}
 	},
 	"signalStrength": {
-		"info": {
-			"eng": "Signal increases only by recruiting mercenaries.",
-			"trans": "Sinyal hanya meningkat dengan merekrut tentara bayaran."
-		},
-		"status": {
-			"building": {
-				"v1": {
-					"1": {
-						"eng": "Chatter detected",
-						"trans": "Percakapan terdeteksi"
-					},
-					"2": {
-						"eng": "Names noted",
-						"trans": "Nama telah dicatat"
-					},
-					"3": {
-						"eng": "Signal building",
-						"trans": "Pembangunan sinyal"
-					}
-				}
-			},
-			"hot": {
-				"v1": {
-					"1": {
-						"eng": "Elite presence",
-						"trans": "Kehadiran Elite"
-					},
-					"2": {
-						"eng": "Strong resonance",
-						"trans": "Resonansi kuat"
-					},
-					"3": {
-						"eng": "Lock pending",
-						"trans": "Penguncian tertunda"
-					}
-				}
-			},
-			"peak": {
-				"v1": {
-					"1": {
-						"eng": "Signal locked",
-						"trans": "Sinyal terkunci"
-					},
-					"2": {
-						"eng": "Elite ready",
-						"trans": "Siap Elite"
-					},
-					"3": {
-						"eng": "Contact imminent",
-						"trans": "Kontak Segera"
-					}
-				}
-			},
-			"quiet": {
-				"v1": {
-					"1": {
-						"eng": "Online",
-						"trans": "Online"
-					},
-					"2": {
-						"eng": "Signal active",
-						"trans": "Sinyal aktif"
-					}
-				}
-			},
-			"rising": {
-				"v1": {
-					"1": {
-						"eng": "Talent in range",
-						"trans": "Kemampuan dalam jangkauan"
-					},
-					"2": {
-						"eng": "Signal strong",
-						"trans": "Sinyal kuat"
-					},
-					"3": {
-						"eng": "Interesting lead",
-						"trans": "Petunjuk Menarik"
-					}
-				}
-			}
+		"popupContent": {
+			"eng": "Signal increases every time you recruit a mercenary.",
+			"trans": "Sinyal meningkat setiap kali merekrut prajurit bayaran."
 		}
 	},
 	"socialMedia": {
@@ -12838,6 +13492,14 @@
 		}
 	},
 	"stat": {
+		"afkTaskExpMult": {
+			"eng": "AFK Task EXP Multiplier",
+			"trans": "Pengganda EXP Tugas AFK"
+		},
+		"afkTaskExpMultDesc": {
+			"eng": "Increases the EXP you receive from AFK tasks.",
+			"trans": "Meningkatkan EXP yang kamu dapatkan dari tugas AFK."
+		},
 		"armor": {
 			"eng": "Armor",
 			"trans": "Baju besi"
@@ -12966,6 +13628,14 @@
 			"eng": "Increases your chance to escape from enemies.",
 			"trans": "Meningkatkan peluangmu untuk melarikan diri dari musuh-musuh."
 		},
+		"gatherExpMult": {
+			"eng": "Auto Gather EXP Multiplier",
+			"trans": "Pengganda Pengumpulan Pengalaman Otomatis"
+		},
+		"gatherExpMultDesc": {
+			"eng": "Increases the EXP you receive from auto gather.",
+			"trans": "Meningkatkan EXP yang Anda dapatkan dari pengumpulan otomatis."
+		},
 		"headshotMult": {
 			"eng": "Headshot Multiplier",
 			"trans": "Perkalian Tembakan Kepala"
@@ -13078,6 +13748,16 @@
 		}
 	},
 	"statusEffect": {
+		"afkTaskExpMult1": {
+			"desc": {
+				"eng": "Increases the EXP you receive from AFK tasks by ${percent}%",
+				"trans": "Meningkatkan EXP yang didapat dari tugas AFK sebesar ${percent}%"
+			},
+			"name": {
+				"eng": "AFK Task EXP Multiplier",
+				"trans": "Pengganda EXP Tugas AFK"
+			}
+		},
 		"burn": {
 			"combatMsg": {
 				"eng": "${name} received ${damage} damage from burning",
@@ -13112,6 +13792,36 @@
 				"trans": "Peningkatan Pertahanan"
 			}
 		},
+		"gatherExpMult1": {
+			"desc": {
+				"eng": "Increases the EXP you receive from auto gather by ${percent}%",
+				"trans": "Meningkatkan EXP yang kamu dapatkan dari pengumpulan otomatis sebesar ${percent}%"
+			},
+			"name": {
+				"eng": "Auto Gather EXP Multiplier I",
+				"trans": "Pengumpulan Otomatis EXP Pengganda I"
+			}
+		},
+		"gatherExpMult2": {
+			"desc": {
+				"eng": "Increases the EXP you receive from auto gather by ${percent}%",
+				"trans": "Meningkatkan EXP yang Anda terima dari pengumpulan otomatis sebesar ${percent}%"
+			},
+			"name": {
+				"eng": "Auto Gather EXP Multiplier II",
+				"trans": "Pengali Pengumpulan Otomatis EXP II"
+			}
+		},
+		"gatherExpMult3": {
+			"desc": {
+				"eng": "Increases the EXP you receive from auto gather by ${percent}%",
+				"trans": "Meningkatkan EXP yang Anda dapatkan dari pengumpulan otomatis sebesar ${percent}%"
+			},
+			"name": {
+				"eng": "Auto Gather EXP Multiplier III",
+				"trans": "Pengali Kumpulan Pengalaman Otomatis III"
+			}
+		},
 		"heal": {
 			"combatMsg": {
 				"eng": "${name} recovered ${heal} health",
@@ -13124,6 +13834,16 @@
 			"name": {
 				"eng": "Healed",
 				"trans": "Disembuhkan"
+			}
+		},
+		"hospitalized": {
+			"desc": {
+				"eng": "You are recovering from injuries sustained in gang war combat. You cannot participate in war combat while hospitalized.",
+				"trans": "Anda sedang memulihkan diri dari cedera akibat pertempuran perang geng. Anda tidak dapat berpartisipasi dalam perang selagi rawat inap."
+			},
+			"name": {
+				"eng": "Hospitalized",
+				"trans": "Dirawat"
 			}
 		},
 		"lootIncrease": {
@@ -14649,6 +15369,16 @@
 			}
 		}
 	},
+	"vaultHandler": {
+		"depositSuccess": {
+			"eng": "Stored ${count} item(s) in vault",
+			"trans": "${count} item tersimpan di brankas"
+		},
+		"withdrawSuccess": {
+			"eng": "Retrieved ${count} item(s) from vault",
+			"trans": "${count} item telah diambil dari Brankas."
+		}
+	},
 	"vaultPage": {
 		"addItemButton": {
 			"title": {
@@ -14685,6 +15415,54 @@
 		"vaultSlots": {
 			"eng": "Slots ${size}",
 			"trans": "Slot ${size}"
+		}
+	},
+	"warBuffDeployment": {
+		"buffLabel": {
+			"eng": "Tactical Buff",
+			"trans": "Penguat Taktis"
+		},
+		"confirmDeployDescription": {
+			"eng": "Deploy ${buffName} for your gang?",
+			"trans": "Aktifkan ${buffName} untuk gengmu?"
+		},
+		"confirmDeployTitle": {
+			"eng": "Confirm Deployment",
+			"trans": "Konfirmasi Penempatan"
+		},
+		"deployButton": {
+			"eng": "Deploy",
+			"trans": "Pasang"
+		},
+		"error": {
+			"alreadyActive": {
+				"eng": "This buff is already active",
+				"trans": "Buff ini sudah aktif"
+			},
+			"leaderOnly": {
+				"eng": "Only the gang leader can deploy war buffs",
+				"trans": "Hanya Pemimpin Geng yang Dapat Mengaktifkan Buff Perang"
+			},
+			"notEnoughWarPoints": {
+				"eng": "Your gang does not have enough war points",
+				"trans": "Gengmu tidak memiliki cukup poin perang."
+			},
+			"notInGang": {
+				"eng": "You must be in a gang to access war logistics",
+				"trans": "Anda harus menjadi anggota geng untuk mengakses logistik perang."
+			},
+			"warStateRequired": {
+				"eng": "Your gang must be in war state to deploy war buffs",
+				"trans": "Geng Anda harus dalam status perang untuk mengaktifkan bonus perang."
+			}
+		},
+		"statusActive": {
+			"eng": "Active",
+			"trans": "Aktif"
+		},
+		"warPointsLabel": {
+			"eng": "War Points",
+			"trans": "Poin Perang"
 		}
 	},
 	"webHomePage": {
@@ -14860,6 +15638,14 @@
 		}
 	},
 	"wikiPage": {
+		"noResults": {
+			"eng": "No results found",
+			"trans": "Tidak ada hasil ditemukan"
+		},
+		"searchPlaceholder": {
+			"eng": "Search wiki...",
+			"trans": "Cari wiki..."
+		},
 		"subtitle": {
 			"eng": "the free encyclopedia that anyone can edit",
 			"trans": "ensiklopedia bebas yang dapat diubah oleh siapa saja"
@@ -14948,6 +15734,18 @@
 			"announcement": {
 				"eng": "${playerName} upgraded ${item} to ${tier}!",
 				"trans": "${playerName} meningkatkan ${item} menjadi ${tier}!"
+			}
+		},
+		"warStateOff": {
+			"announcement": {
+				"eng": "${gang} has stood down from war.",
+				"trans": "${gang} telah berhenti berperang."
+			}
+		},
+		"warStateOn": {
+			"announcement": {
+				"eng": "${gang} has declared war!",
+				"trans": "${gang} telah menyatakan perang!"
 			}
 		}
 	}

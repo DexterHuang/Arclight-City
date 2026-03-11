@@ -19,7 +19,7 @@ This system rewards sustained aggression and coordinated gang activity.
 
 ## What are milestones?
 
-**Milestones** are achievements reached at specific kill counts on your war stack. When your gang hits a milestone, you earn **war score** rewards. Milestones occur at various stack levels, with higher milestones granting increasingly larger rewards.
+**Milestones** are achievements reached at specific kill counts on your war stack. When your gang hits a milestone, you earn **war score** and **war points**. Milestones occur at various stack levels, with higher milestones granting increasingly larger rewards.
 
 Your entire gang receives a notification when a milestone is reached, celebrating your collective achievement.
 
@@ -28,11 +28,19 @@ Your entire gang receives a notification when a milestone is reached, celebratin
 War score is earned **only through milestones**, not individual kills. This means:
 
 - Your first few kills build the stack but don't grant immediate score
-- When you hit a milestone, your gang receives a lump sum of war score
+- When you hit a milestone, your gang receives a lump sum of war score and **war points**
 - The higher your stack, the more valuable each milestone becomes
 - Focus on maintaining your streak rather than scattered individual kills
 
 This scoring system encourages gangs to hunt strategically and maintain pressure on rivals.
+
+## What are war points?
+
+**War points** are a currency earned alongside war score when your gang reaches milestones. Unlike war score (which determines your leaderboard ranking and decays over time), war points are a **spendable resource** used to deploy tactical war buffs for your gang.
+
+## What are war buffs?
+
+Gang leaders can spend war points to deploy **tactical buffs** that benefit the entire gang. These buffs provide temporary combat and progression advantages during war. You can access the war buff deployment screen through the **War Quartermaster** NPC on your gang's war page.
 
 ## What happens when I get killed in war?
 
@@ -40,15 +48,12 @@ If you lose a war combat, you'll be **hospitalized** for 2 hours. During hospita
 
 - You cannot be attacked by other players
 - You cannot participate in combat
-- Your war participation becomes locked for 24 hours
-
 Hospitalization is a significant setback, so choose your targets carefully and ensure you're prepared before engaging in war.
 
 ## Can I opt out of war?
 
-Gang leaders can toggle individual member participation on or off. This exists so that members who need to leave (or be removed from) the gang can do so fairly — since you cannot leave or be kicked while your participation is locked. However, there are important caveats:
+Gang leaders can toggle individual member participation on or off. However, there are important caveats:
 - **1-hour cooldown** between participation toggles for each member
-- **24-hour lock** when participation is enabled (prevents immediate disabling)
 - **Disabled members are still targetable** by enemy gangs
 
 Being disabled only means you cannot initiate war attacks. Enemies can still attack you if your gang is in war mode.
@@ -63,13 +68,13 @@ Only the **gang leader** can toggle war mode:
 
 **Important**: Once enabled, war mode is **locked for 24 hours**. You cannot disable it during this lock period. Make sure your gang is ready for combat before activating.
 
+**Warning**: Disabling war mode **resets your gang's war score, war points, and war stack to zero**. All progress is lost, so only disable if you're sure.
+
 ## What happens to war score over time?
 
-War score slowly **decays** over time to encourage active participation. Gangs in war mode lose a portion of their war score periodically. This decay:
-- Only affects gangs with active war mode
+War score slowly **decays** over time to encourage active participation. This decay:
+- Only affects gangs with active war mode and a war score above zero
 - Happens automatically in the background
-- Encourages gangs to stay active and keep fighting
-
 To maintain your ranking, your gang must continuously earn new milestones to offset decay.
 
 ## Can I attack my own gang members?
@@ -83,35 +88,24 @@ To participate in war combat, you must meet several requirements:
 - Your gang must have **war mode enabled**
 - You must have **war participation enabled** by your leader
 - Both you and your target must be valid war targets (different gangs, both in war mode)
-- You must be within the level range of your target
+- Higher-level players cannot attack those far below their level, but lower-level players **can** attack higher-level targets
 
 If any of these conditions aren't met, the combat won't count as a war kill.
 
-## What is the participation lock?
+## What is the engagement lock?
 
-When your leader enables your war participation, a **24-hour lock** takes effect. During this lock:
-- Your leader cannot disable your participation
+When you **attack** a rival gang member in war combat, a **24-hour engagement lock** takes effect. During this lock:
 - You cannot leave the gang
 - You cannot be kicked from the gang
 - You are committed to war for the full duration
 
-This prevents hit-and-run tactics — you can't attack rival gangs and then immediately leave or get kicked to avoid retaliation. Once the lock expires (or your leader disables your participation after the lock period), you're free to leave.
-
-## Can enemies farm me repeatedly?
-
-Anti-farming measures limit how much a single player can contribute to rival gangs:
-
-- Each player can only contribute to a rival gang's stack **3 times per day**
-- After this limit, kills against you won't increase their stack or trigger milestones
-- This prevents gangs from targeting the same weak players repeatedly
-
-However, you can still be attacked and hospitalized even after reaching this limit.
+This prevents hit-and-run tactics — you can't attack rival gangs and then immediately leave or get kicked to avoid retaliation. Once the lock expires, you're free to leave.
 
 ## How do I check my war status?
 
 Your current war status is displayed in several places:
 
-- The **War Panel** on your Gang Details page shows score and stack
+- The **War Panel** on your Gang Details page shows score, stack, and war points
 - Your **participation status** appears when viewing your profile in the gang member list
 - **Cooldown timers** display when participation toggles are on lockdown
 
@@ -126,7 +120,7 @@ For a combat to count as a war kill, both players must be valid war targets:
 - **Attacker has participation enabled**
 - **Target is not hospitalized**
 - **Target does not have PvP protection**
-- **Within level range** of each other
+- **Level range**: Higher-level players cannot attack much lower-level targets, but lower-level players can strike upward
 
 If these conditions aren't met, the combat proceeds as normal PvP without war score implications.
 
@@ -138,3 +132,4 @@ If these conditions aren't met, the combat proceeds as normal PvP without war sc
 - **Pick your targets**: Focus on active rival gangs that you can reliably defeat
 - **Maintain pressure**: Sustained activity is more valuable than sporadic kills due to the stack system
 - **Communicate**: Use gang chat to coordinate attacks and share target information
+- **Spend war points wisely**: Deploy war buffs through the War Quartermaster to give your gang an edge in combat and progression

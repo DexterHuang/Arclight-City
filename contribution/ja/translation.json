@@ -1,4 +1,10 @@
 {
+	"ADDRESS": {
+		"FORMAT": {
+			"eng": "ALC. ${district} District, No. ${number} ${floor} floor, room ${roomNumber}",
+			"trans": "ALC. ${district}地区、No.${number}${floor}階、ルーム${roomNumber}"
+		}
+	},
 	"BattlePassTimeLimitedInfoModal": {
 		"button": {
 			"eng": "Close",
@@ -802,6 +808,12 @@
 			"eng": "Start",
 			"trans": "スタート"
 		},
+		"stats": {
+			"cycles": {
+				"eng": "${count} cycles",
+				"trans": "${count} サイクル"
+			}
+		},
 		"tip": {
 			"eng": "You can unlock higher gathering zones by clearing ${difficulty} strongholds, the zone level is capped at your character level.",
 			"trans": "${difficulty}の要塞をクリアすることで、より高い採集ゾーンをアンロックできます。ゾーンレベルはキャラクターレベルに制限されています。"
@@ -1358,16 +1370,40 @@
 		}
 	},
 	"blockedPlayerListPage": {
+		"emptyHint": {
+			"eng": "Block players from their profile to prevent them from contacting you",
+			"trans": "プロフィールからプレイヤーをブロックし、相手からの連絡を防ぎます。"
+		},
 		"noBlockedPlayers": {
 			"eng": "No blocked players",
 			"trans": "ブロックしたプレイヤーはいません"
 		},
 		"unblock": {
+			"confirm": {
+				"description": {
+					"eng": "This player will be able to contact you again",
+					"trans": "このプレイヤーは再び連絡できます"
+				},
+				"title": {
+					"eng": "Unblock ${playerName}?",
+					"trans": "${playerName} のブロックを解除しますか？"
+				}
+			},
 			"eng": "Unblock",
 			"trans": "ブロック解除"
 		}
 	},
 	"buff": {
+		"afkTaskExpMult1": {
+			"description": {
+				"eng": "Increase AFK task EXP for all gang members by ${percent}% for ${hours} hours",
+				"trans": "すべてのギャングメンバーのAFKタスクEXPを、${hours}時間、${percent}%増加させる"
+			},
+			"name": {
+				"eng": "AFK Task EXP Multiplier",
+				"trans": "AFKタスクEXP倍率"
+			}
+		},
 		"defenseIncrease": {
 			"description": {
 				"eng": "Increase defense for all players in strongholds created by your gang members in ${minutes} minutes",
@@ -1376,6 +1412,36 @@
 			"name": {
 				"eng": "Defense Increase",
 				"trans": "防御力増加"
+			}
+		},
+		"gatherExpMult1": {
+			"description": {
+				"eng": "Increase auto gather EXP for all gang members by ${percent}% for ${minutes} minutes",
+				"trans": "全ギャングメンバーの自動収集EXPを、${minutes}分間${percent}%増加させる"
+			},
+			"name": {
+				"eng": "Auto Gather EXP Multiplier I",
+				"trans": "自動EXP収集ブースト I"
+			}
+		},
+		"gatherExpMult2": {
+			"description": {
+				"eng": "Increase auto gather EXP for all gang members by ${percent}% for ${minutes} minutes",
+				"trans": "全ギャングメンバーの自動収集EXPを${percent}%増加、${minutes}分間"
+			},
+			"name": {
+				"eng": "Auto Gather EXP Multiplier II",
+				"trans": "自動経験値獲得量II"
+			}
+		},
+		"gatherExpMult3": {
+			"description": {
+				"eng": "Increase auto gather EXP for all gang members by ${percent}% for ${minutes} minutes",
+				"trans": "全ギャングメンバーの自動収集EXPを、${minutes}分間${percent}%増加させる"
+			},
+			"name": {
+				"eng": "Auto Gather EXP Multiplier III",
+				"trans": "自動EXP獲得量III"
 			}
 		},
 		"lootIncrease": {
@@ -1625,6 +1691,10 @@
 			}
 		},
 		"error": {
+			"cannotKickSelf": {
+				"eng": "You cannot kick yourself",
+				"trans": "自分自身をキックすることはできません"
+			},
 			"clanIsFull": {
 				"eng": "this gang is current at max member capacity",
 				"trans": "このギャングは現在、最大メンバー数に達しています。"
@@ -1662,9 +1732,35 @@
 				}
 			}
 		},
+		"playerList": {
+			"header": {
+				"eng": "Personnel Roster",
+				"trans": "人事名簿"
+			},
+			"status": {
+				"eng": "Operational Status: Active",
+				"trans": "稼働状況: オンライン"
+			},
+			"units": {
+				"eng": "Units",
+				"trans": "ユニット"
+			}
+		},
 		"requestSent": {
 			"eng": "Request sent successfully",
 			"trans": "リクエストが正常に送信されました"
+		},
+		"role": {
+			"commander": {
+				"eng": "COMMANDER",
+				"trans": "司令官"
+			}
+		},
+		"war": {
+			"badge": {
+				"eng": "WAR",
+				"trans": "戦争"
+			}
 		}
 	},
 	"clanBuffDeployPopup": {
@@ -1726,9 +1822,51 @@
 				"trans": "資金を預ける"
 			}
 		},
-		"editMottoButton": {
+		"depositSuccess": {
+			"eng": "Deposited ${amount} funds",
+			"trans": "${amount} 資金を預けました"
+		},
+		"disbandClan": {
+			"eng": "Disband Gang",
+			"trans": "ギグ解散"
+		},
+		"disbandClanModal": {
+			"description": {
+				"eng": "Are you sure you want to disband this gang? This action cannot be undone.",
+				"trans": "このギャングを解散してもよろしいですか？この操作は元に戻せません。"
+			},
+			"title": {
+				"eng": "Disband gang",
+				"trans": "ギャング解散"
+			}
+		},
+		"disbandLocked": {
+			"engagementLocked": {
+				"eng": "Cannot disband while members have recently engaged in war combat",
+				"trans": "メンバーが直近で戦闘に参加している間は解散できません"
+			},
+			"warActive": {
+				"eng": "Cannot disband while war mode is active. Disable war mode first.",
+				"trans": "ウォーモード作動中は解散できません。まずウォーモードを無効にしてください。"
+			}
+		},
+		"disbandStatus": {
+			"engagementLocked": {
+				"eng": "Members recently engaged in war combat. Available in:",
+				"trans": "最近戦闘に参加したメンバー。利用先："
+			},
+			"title": {
+				"eng": "DISBAND LOCKED",
+				"trans": "解散ロック"
+			},
+			"warActive": {
+				"eng": "Cannot disband while war mode is active. Disable war mode first.",
+				"trans": "ウォーモード作動中は解散できません。まずウォーモードを無効にしてください。"
+			}
+		},
+		"editMotto": {
 			"eng": "Edit Motto",
-			"trans": "モットーを編集する"
+			"trans": "モットー編集"
 		},
 		"funds": {
 			"eng": "Funds",
@@ -1745,8 +1883,8 @@
 			"trans": "参加する"
 		},
 		"leaveClan": {
-			"eng": "leave gang",
-			"trans": "ギャングを脱退する"
+			"eng": "Leave Gang",
+			"trans": "ギャングを抜ける"
 		},
 		"leaveClanModal": {
 			"description": {
@@ -1757,14 +1895,6 @@
 				"eng": "Leave gang",
 				"trans": "ギャングを脱退する"
 			}
-		},
-		"makePrivate": {
-			"eng": "Make Private",
-			"trans": "プライベート"
-		},
-		"makePublic": {
-			"eng": "Make Public",
-			"trans": "公開する"
 		},
 		"mottoModal": {
 			"description": {
@@ -1784,23 +1914,19 @@
 			"eng": "There is no motto set for this gang yet",
 			"trans": "このギャングにはまだモットーが設定されていません。"
 		},
-		"noticeModal": {
-			"description": {
-				"eng": "Posting a notice will cost ${Config.CLAN.NOTICE_POST_COST}${CurrencyType.NORMAL.getSymbol()}",
-				"trans": "掲示板への通知投稿には${Config.CLAN.NOTICE_POST_COST}${CurrencyType.NORMAL.getSymbol()}がかかります。"
-			},
-			"title": {
-				"eng": "Post gang notice",
-				"trans": "ギャング告知"
-			}
-		},
 		"playerListButton": {
 			"eng": "Member List",
 			"trans": "メンバーリスト"
 		},
-		"postNoticeButton": {
-			"eng": "Post Notice",
-			"trans": "通知を投稿"
+		"publicToggle": {
+			"private": {
+				"eng": "Private",
+				"trans": "プライベート"
+			},
+			"public": {
+				"eng": "Public",
+				"trans": "パブリック"
+			}
 		},
 		"requestToJoinButton": {
 			"eng": "Request to join",
@@ -1809,10 +1935,6 @@
 		"resources": {
 			"eng": "Resources",
 			"trans": "資源"
-		},
-		"setImageButton": {
-			"eng": "Set Image",
-			"trans": "画像を設定する"
 		},
 		"upkeepTip": {
 			"eng": "Ensure there is enough resources and funds to avoid losing the gang on the next upkeep date.",
@@ -1851,26 +1973,18 @@
 			}
 		}
 	},
-	"clanPlayer": {
-		"controlPointContributed": {
-			"eng": "control points: ${amount}",
-			"trans": "コントロールポイント：${amount}"
-		},
-		"fundsContributed": {
-			"eng": "funds: ${amount}",
-			"trans": "資金：${amount}"
-		},
-		"resourceContributed": {
-			"eng": "resource: ${amount}",
-			"trans": "リソース: ${amount}"
-		},
-		"thisWeek": {
-			"eng": "this week",
-			"trans": "今週"
-		},
-		"total": {
-			"eng": "total",
-			"trans": "合計"
+	"clanMenuModal": {
+		"warWarning": {
+			"joinDescription": {
+				"eng": "This gang is in WAR MODE. Joining will expose you to War PvP attacks with ${hours} hours lock. Continue?",
+				"trans": "このギャングは WAR MODE です。参加すると、${hours}時間のロック状態で WAR PvP 攻撃に晒されます。続ける？"
+			}
+		}
+	},
+	"clanPlayerListPage": {
+		"memberCount": {
+			"eng": "${count} members",
+			"trans": "${count} メンバー"
 		}
 	},
 	"clanPlayerPermissionModal": {
@@ -1884,6 +1998,14 @@
 		}
 	},
 	"clanPlayerPopup": {
+		"disableWarParticipation": {
+			"eng": "Disable War Participation",
+			"trans": "戦争参加を無効化"
+		},
+		"enableWarParticipation": {
+			"eng": "Enable War Participation",
+			"trans": "参戦の有効化"
+		},
 		"kickPlayerButton": {
 			"eng": "kick player",
 			"trans": "プレイヤーをキックする"
@@ -1891,6 +2013,14 @@
 		"setPermissionButton": {
 			"eng": "Edit Permissions",
 			"trans": "権限の編集"
+		},
+		"statusActive": {
+			"eng": "ACTIVE",
+			"trans": "アクティブ"
+		},
+		"statusInactive": {
+			"eng": "INACTIVE",
+			"trans": "非アクティブ"
 		},
 		"transferOwnership": {
 			"eng": "Transfer Ownership",
@@ -1901,8 +2031,16 @@
 			"trans": "所有権の移転"
 		},
 		"transferOwnershipConfirm": {
-			"eng": "Are you sure you want to transfer ownership of the gang to ${playerName}?\\nthis cannot be undone.",
-			"trans": "${playerName}にギャングの所有権を移転しますか？\\nこの操作は元に戻せません。"
+			"eng": "Are you sure you want to transfer ownership of the gang to ${playerName}.\\nthis cannot be undone.",
+			"trans": "ギャングの所有権を${playerName}に譲渡してもよろしいですか？この操作は元に戻せません。"
+		},
+		"warStatus": {
+			"eng": "War Participation",
+			"trans": "戦闘参加"
+		},
+		"warToggleCooldown": {
+			"eng": "Cooldown: ${time}",
+			"trans": "クールダウン:${time}"
 		}
 	},
 	"clanSearchPage": {
@@ -1963,6 +2101,248 @@
 				"eng": "View profile",
 				"trans": "プロフィールを見る"
 			}
+		}
+	},
+	"clanTabContent": {
+		"noticeModal": {
+			"description": {
+				"eng": "Posting a notice will cost ${cost}${symbol}",
+				"trans": "お知らせの投稿には ${cost}${symbol} かかります。"
+			},
+			"title": {
+				"eng": "Post gang notice",
+				"trans": "ギャングのお知らせを投稿"
+			}
+		}
+	},
+	"clanTabNoClanContent": {
+		"warWarning": {
+			"joinDescription": {
+				"eng": "This gang is in WAR MODE. Joining will expose you to PvP attacks and 24h participation locks. Continue?",
+				"trans": "このギャングは戦闘モード中です。加入すると PvP 攻撃に晒され、24時間の参加ロックがかかります。続行しますか？"
+			}
+		}
+	},
+	"clanWar": {
+		"chat": {
+			"deathBroadcast": {
+				"eng": "${victimPlayer} was eliminated by ${killerPlayer} from ${gang}",
+				"trans": "${victimPlayer} は ${killerPlayer} が所属する ${gang} によって消滅しました"
+			},
+			"killBroadcast": {
+				"eng": "${killerPlayer} has eliminated ${victimPlayer} from ${gang}",
+				"trans": "${killerPlayer}が${victimPlayer}を${gang}から排除しました"
+			},
+			"milestoneReached": {
+				"eng": "${count} kill streak! +${reward} war score",
+				"trans": "${count} キルストリック！ +${reward} 戦闘スコア"
+			},
+			"warStateOn": {
+				"eng": "${gang} has declared war",
+				"trans": "${gang} が 宣戦布告しました"
+			}
+		},
+		"dangerModal": {
+			"enableDescription": {
+				"eng": "Enabling WAR MODE will expose ALL gang members to PvP attacks. Opting out will be LOCKED for 24 hours. Proceed?",
+				"trans": "WAR MODEを有効にすると、すべてのギャングメンバーがPvP攻撃の対象となります。無効にすると24時間ロックされます。続行しますか？"
+			},
+			"requestDescription": {
+				"eng": "This gang is in WAR MODE. If accepted, joining will expose you to PvP attacks and 24h participation locks. Continue?",
+				"trans": "このギャングはウォーモード中です。合意して加入すると、PvP 攻撃の標的となり、24時間の参加ロックがかかります。続行しますか？"
+			},
+			"title": {
+				"eng": "WAR MODE WARNING",
+				"trans": "ウォーモードを有効化"
+			}
+		},
+		"disableModal": {
+			"description": {
+				"eng": "Are you sure you want to disable war mode? Your gang will no longer be able to earn war score.",
+				"trans": "ウォーモードを無効にしますか？ 無効にすると、あなたのギャングは戦争スコアを獲得できなくなります。"
+			},
+			"title": {
+				"eng": "Disable War Mode",
+				"trans": "ウォーモードを無効にする"
+			}
+		},
+		"error": {
+			"cannotToggleMember": {
+				"eng": "Cannot toggle this member's participation. They may not exist or cooldown is active",
+				"trans": "このメンバーの参加切り替えはできません。存在しないか、クールダウン中です。"
+			},
+			"disbandEngaged": {
+				"eng": "You cannot disband the gang while members have recently engaged in war combat",
+				"trans": "メンバーが直近で戦闘に参加している間は、ギャングを解散できません。"
+			},
+			"disbandWarActive": {
+				"eng": "You cannot disband the gang while war mode is active",
+				"trans": "ウォーモード中はギャングを解散できません"
+			},
+			"kickLocked": {
+				"eng": "Cannot kick a member who has recently engaged in war combat",
+				"trans": "最近、戦闘に参加したメンバーをキックすることはできません。"
+			},
+			"leaderOnly": {
+				"eng": "Only the gang leader can perform this action",
+				"trans": "このアクションを実行できるのはギャングリーダーだけです"
+			},
+			"leaveLocked": {
+				"eng": "You cannot leave the gang while you have recently engaged in war combat",
+				"trans": "直近の戦闘に参加している間は、ギャングを離れることはできません。"
+			},
+			"notEnoughWarPoints": {
+				"eng": "Your gang does not have enough war points",
+				"trans": "あなたのギャングには十分なウォーポイントがありません"
+			},
+			"notWarBuff": {
+				"eng": "This buff cannot be deployed during gang war",
+				"trans": "このバフはギャングウォー中は使用できません"
+			},
+			"optOutLocked": {
+				"eng": "Cannot disable war mode yet. 24h lock-in period is still active",
+				"trans": "まだ戦争モードを無効にできません。24時間のロックイン期間は有効中です。"
+			},
+			"warStateRequired": {
+				"eng": "Your gang must be in war state to deploy war buffs",
+				"trans": "ウォーバフを展開するには、ギャングが戦争状態である必要があります"
+			},
+			"wip": {
+				"eng": "This feature is currently under development",
+				"trans": "この機能は現在開発中です"
+			}
+		},
+		"lockedFeedback": {
+			"eng": "War mode is locked until ${date}",
+			"trans": "ウォーモードは${date}までロックされています"
+		},
+		"notification": {
+			"hospitalized": {
+				"eng": "You have been hospitalized from a gang war defeat. Recovery time: ${duration} minutes.",
+				"trans": "ギャング戦争での敗北により強制入院となりました。回復時間：${duration}分。"
+			},
+			"milestoneReached": {
+				"eng": "Your gang has reached a ${count} kill streak and earned ${reward} war score!",
+				"trans": "あなたのギャングは${count}キルストリークを達成し、${reward}の戦闘スコアを獲得しました！"
+			},
+			"participationDisabled": {
+				"eng": "You have been removed from war participation by your gang leader. Your kills will no longer count towards gang war score.",
+				"trans": "ギャンクリーダーにより、戦争参加から除外されました。以降のキルは、ギャング戦争スコアにカウントされません。"
+			},
+			"participationEnabled": {
+				"eng": "You have been added to war participation by your gang leader. You can now participate in gang wars.",
+				"trans": "あなたのギャングリーダーによって、戦争への参加が許可されました。今から、ギャングWARに参加可能です。"
+			},
+			"warStateOff": {
+				"eng": "Your gang leader has disabled war mode. Your gang is no longer a war target.",
+				"trans": "あなたのギャングリーダーが戦争モードを無効化しました。あなたのギャングはもはや戦争の標的ではありません。"
+			},
+			"warStateOn": {
+				"eng": "Your gang leader has activated war mode for your gang!",
+				"trans": "あなたのギャングリーダーが、ギャングに戦闘モードを起動した！"
+			}
+		},
+		"tutorialLink": {
+			"eng": "Learn more about Gang War",
+			"trans": "ギャング抗争についてもっと知る"
+		}
+	},
+	"clanWarPage": {
+		"header": {
+			"currentScore": {
+				"eng": "TOTAL WAR SCORE",
+				"trans": "総合戦闘得点"
+			},
+			"stack": {
+				"eng": "STACK",
+				"trans": "スタック"
+			},
+			"warPoints": {
+				"eng": "PTS",
+				"trans": "PTS"
+			}
+		},
+		"milestone": {
+			"progressText": {
+				"eng": "${current} / ${target} STACKS",
+				"trans": "${current} / ${target} スタック"
+			},
+			"reward": {
+				"eng": "BONUS",
+				"trans": "ボーナス"
+			},
+			"stacks": {
+				"eng": "STACKS",
+				"trans": "スタック"
+			}
+		},
+		"milestones": {
+			"end": {
+				"eng": "END OF OPERATION",
+				"trans": "作戦終了"
+			},
+			"operation": {
+				"eng": "OPERATION",
+				"trans": "作戦"
+			},
+			"title": {
+				"eng": "WAR MILESTONES",
+				"trans": "戦争マイルストーン"
+			},
+			"total_stacks": {
+				"eng": "TOTAL STACK",
+				"trans": "合計スタック"
+			},
+			"unit": {
+				"eng": "STK",
+				"trans": "STK"
+			}
+		},
+		"noClan": {
+			"eng": "NO GANG DATA FOUND",
+			"trans": "ギャングデータが見つかりません"
+		},
+		"status": {
+			"active": {
+				"eng": "WAR ACTIVE",
+				"trans": "戦争中"
+			},
+			"inactive": {
+				"eng": "WAR INACTIVE",
+				"trans": "戦争停止"
+			}
+		}
+	},
+	"clanWarPanel": {
+		"enableWarModal": {
+			"title": {
+				"eng": "ENABLE WAR MODE",
+				"trans": "戦闘モード有効化"
+			}
+		},
+		"leaderOnlyToggle": {
+			"eng": "Only the gang leader can toggle war mode",
+			"trans": "戦争モードの切り替えは、ギャングリーダーのみ可能です"
+		},
+		"locked": {
+			"eng": "Lock:",
+			"trans": "ロック:"
+		},
+		"score": {
+			"eng": "War Score",
+			"trans": "戦争スコア"
+		},
+		"stack": {
+			"eng": "Stack",
+			"trans": "スタック"
+		},
+		"warOff": {
+			"eng": "War OFF",
+			"trans": "戦闘OFF"
+		},
+		"warOn": {
+			"eng": "War ON",
+			"trans": "戦闘開始"
 		}
 	},
 	"collectedLoreNotes": {
@@ -2193,6 +2573,10 @@
 		"psychosis": {
 			"eng": "+ ${amount} psychosis",
 			"trans": "+ ${amount} サイコシス"
+		},
+		"warPoints": {
+			"eng": "${amount} war points",
+			"trans": "ウォーポイント ${amount}"
 		}
 	},
 	"coupon": {
@@ -2210,13 +2594,17 @@
 			"eng": "Enter your gift code to get your reward.",
 			"trans": "ギフトコードを入力して報酬を受け取ってください。"
 		},
+		"hint": {
+			"eng": "Codes are case-insensitive",
+			"trans": "コード是大文字と小文字を区別しません"
+		},
 		"inputTitle": {
 			"eng": "Gift Code",
 			"trans": "ギフトコード"
 		},
 		"submitButton": {
-			"eng": "Submit",
-			"trans": "提出する"
+			"eng": "Redeem Code",
+			"trans": "リデームコード"
 		},
 		"title": {
 			"eng": "Gift Code",
@@ -2357,16 +2745,6 @@
 				"eng": "Universal Dollars",
 				"trans": "ユニバーサルドル"
 			}
-		}
-	},
-	"currencyCheck": {
-		"getMore": {
-			"eng": "get more",
-			"trans": "もっと入手する"
-		},
-		"notEnough": {
-			"eng": "Insufficient ${currency}",
-			"trans": "${currency}が不足しています。"
 		}
 	},
 	"dailyQuestTab": {
@@ -2561,6 +2939,24 @@
 		"dismantleButton": {
 			"eng": "Dismantle",
 			"trans": "解体する"
+		},
+		"itemCount": {
+			"eng": "${count} items",
+			"trans": "${count} アイテム"
+		},
+		"sort": {
+			"level": {
+				"eng": "Level",
+				"trans": "レベル"
+			},
+			"name": {
+				"eng": "Name",
+				"trans": "名前"
+			},
+			"tier": {
+				"eng": "Tier",
+				"trans": "ティア"
+			}
 		}
 	},
 	"displayShelf": {
@@ -2769,6 +3165,26 @@
 			}
 		}
 	},
+	"dungeonBackpackPage": {
+		"itemCount": {
+			"eng": "${count} items",
+			"trans": "${count} アイテム"
+		},
+		"sort": {
+			"level": {
+				"eng": "Level",
+				"trans": "レベル"
+			},
+			"name": {
+				"eng": "Name",
+				"trans": "名前"
+			},
+			"tier": {
+				"eng": "Tier",
+				"trans": "ティア"
+			}
+		}
+	},
 	"dungeonChoicePopup": {
 		"actionsTitle": {
 			"eng": "Choose your action",
@@ -2947,6 +3363,10 @@
 				"eng": "${playerName}'s lobby",
 				"trans": "${playerName}のロビー"
 			}
+		},
+		"lobbyCount": {
+			"eng": "${count} lobbies",
+			"trans": "${count} ロビー"
 		},
 		"noLobbiesFound": {
 			"eng": "No lobbies found",
@@ -3139,6 +3559,12 @@
 				"eng": "Wow",
 				"trans": "やばい"
 			}
+		}
+	},
+	"emptyState": {
+		"defaultTitle": {
+			"eng": "No records found",
+			"trans": "記録が見つかりません"
 		}
 	},
 	"enemyEvent": {
@@ -3431,6 +3857,18 @@
 		"submit3": {
 			"eng": "Submit",
 			"trans": "提出する"
+		}
+	},
+	"filteredItemList": {
+		"noSearchResults": {
+			"eng": "No items matching \"${query}\"",
+			"trans": "「${query}」に一致するアイテムはありません"
+		},
+		"search": {
+			"placeholder": {
+				"eng": "Search items...",
+				"trans": "アイテムを検索..."
+			}
 		}
 	},
 	"firstPurchasePromoSmall": {
@@ -3806,6 +4244,10 @@
 				"trans": "ギャングを作成するには十分なお金がありません。"
 			}
 		},
+		"createSuccess": {
+			"eng": "Gang \"${name}\" created!",
+			"trans": "ギャング「${name}」を作成しました！"
+		},
 		"editMotto": {
 			"error": {
 				"levelNoAlts": {
@@ -4007,6 +4449,22 @@
 			}
 		}
 	},
+	"hitListPage": {
+		"bountyCount": {
+			"eng": "${count} bounties",
+			"trans": "${count} 件のバウンティ"
+		},
+		"sort": {
+			"level": {
+				"eng": "Level",
+				"trans": "レベル"
+			},
+			"price": {
+				"eng": "Price",
+				"trans": "価格"
+			}
+		}
+	},
 	"hitlist": {
 		"loading": {
 			"eng": "Loading bounties...",
@@ -4057,6 +4515,48 @@
 				"eng": "A bounty has been placed on your head, current bounty - Eurodollar: ${money}, Universal Dollar: ${uni}",
 				"trans": "あなたは賞金がかけられています、現在の賞金 - ユーロドル：${money}、ユニバーサルドル：${uni}"
 			}
+		}
+	},
+	"hospitalizedScreen": {
+		"leaveHospital": {
+			"eng": "DISCHARGE // CONFIRM",
+			"trans": "放電 // 確認"
+		},
+		"statusCritical": {
+			"eng": "SYS: VITALS CRITICAL",
+			"trans": "システム: バイタル異常"
+		},
+		"statusRecovered": {
+			"eng": "RECOVERY_COMPLETE",
+			"trans": "回復完了"
+		},
+		"statusStable": {
+			"eng": "SYS: VITALS STABLE",
+			"trans": "システム：バイタル安定"
+		},
+		"statusTag": {
+			"eng": "OVR_DENIED",
+			"trans": "OVR拒否"
+		},
+		"sysHeader": {
+			"eng": "SYS.MED_PROTOCOL",
+			"trans": "SYS.MEDプロトコル"
+		},
+		"timeRemaining": {
+			"eng": "EST. RECOVERY TIME",
+			"trans": "回復時間"
+		},
+		"title": {
+			"eng": "HOSPITALIZED",
+			"trans": "入院"
+		},
+		"useMedkit": {
+			"eng": "ADMINISTER MEDKIT",
+			"trans": "メディキットを使用"
+		},
+		"useMedkitDesc": {
+			"eng": "[-1 HR RECOVERY]",
+			"trans": "[-1時間 回復]"
 		}
 	},
 	"hostilePlayerListPage": {
@@ -4368,10 +4868,6 @@
 			"eng": "Error loading clue",
 			"trans": "手がかりの読み込みに失敗しました"
 		},
-		"evidence": {
-			"eng": "Evidence",
-			"trans": "証拠"
-		},
 		"evidenceAcquired": {
 			"eng": "Evidence Logged - ACPD Database",
 			"trans": "証拠ログ - ACPDデータベース"
@@ -4379,6 +4875,10 @@
 		"evidenceMismatch": {
 			"eng": "The submitted conclusion does not align with available evidence patterns.",
 			"trans": "提出された結論は、利用可能な証拠パターンと一致しません。"
+		},
+		"evidenceNumber": {
+			"eng": "Evidence #${number}",
+			"trans": "証拠 #${number}"
 		},
 		"goToVerdict": {
 			"eng": "Go to verdict ${num}",
@@ -4810,6 +5310,10 @@
 			"cantEquipFromBackpack": {
 				"eng": "You cannot equip equipment from your backpack",
 				"trans": "バックパックから装備品を装備することはできません。"
+			},
+			"notHospitalized": {
+				"eng": "You can only use this item while hospitalized",
+				"trans": "このアイテムは入院中のみ使用可能です"
 			}
 		},
 		"levelUpBar": {
@@ -5528,6 +6032,16 @@
 			"name": {
 				"eng": "Egg",
 				"trans": "卵"
+			}
+		},
+		"emergencyMedkit": {
+			"description": {
+				"eng": "A field-grade trauma kit containing synthetic coagulants and adrenaline boosters. Reduces hospitalization time by 1 hour when administered.",
+				"trans": "合成凝固剤とアドレナリンブースターを内包した、実戦仕様のトラウマキット。使用すると、入院時間を1時間短縮します。"
+			},
+			"name": {
+				"eng": "Emergency Medkit",
+				"trans": "緊急医療キット"
 			}
 		},
 		"energyGun": {
@@ -7202,6 +7716,12 @@
 				"trans": "ギャングレベル"
 			}
 		},
+		"clanWar": {
+			"name": {
+				"eng": "Gang War Score",
+				"trans": "ギャング抗争スコア"
+			}
+		},
 		"level": {
 			"name": {
 				"eng": "Character Level",
@@ -7273,6 +7793,20 @@
 				"eng": "Stock Realized Profit",
 				"trans": "確定収益"
 			}
+		}
+	},
+	"leaderboardDetails": {
+		"empty": {
+			"eng": "No rankings yet",
+			"trans": "まだランキングはありません"
+		},
+		"loading": {
+			"eng": "Loading rankings...",
+			"trans": "ランキング読み込み中"
+		},
+		"warScore": {
+			"eng": "WAR SCORE",
+			"trans": "戦争スコア"
 		}
 	},
 	"leaderboardTypes": {
@@ -7543,6 +8077,10 @@
 		"legendClaimable": {
 			"eng": "Claimable",
 			"trans": "入手可能"
+		},
+		"legendClaimed": {
+			"eng": "Claimed",
+			"trans": "受取済"
 		},
 		"legendMilestone": {
 			"eng": "Milestone",
@@ -7817,6 +8355,16 @@
 				"eng": "System Message",
 				"trans": "システムメッセージ"
 			}
+		},
+		"warAttackFailed": {
+			"attacker": {
+				"eng": "Your gang war strike against ${playerName} failed, you lost ${amount}",
+				"trans": "${playerName}へのギャング戦闘攻撃が失敗し、${amount}を失いました"
+			},
+			"defender": {
+				"eng": "${playerName} launched a gang war strike against you but you fought back and won",
+				"trans": "${playerName}がギャング戦争を仕掛けましたが、あなたは反撃して勝利しました"
+			}
 		}
 	},
 	"mailDetails": {
@@ -8076,6 +8624,14 @@
 			"eng": "Black Market",
 			"trans": "ブラックマーケット"
 		},
+		"clanUpkeep": {
+			"eng": "Gang Upkeep",
+			"trans": "ギャング維持費"
+		},
+		"clanWar": {
+			"eng": "Gang War",
+			"trans": "ギャング戦争"
+		},
 		"currency": {
 			"eng": "Currency",
 			"trans": "通貨"
@@ -8095,10 +8651,6 @@
 		"followUpLottery": {
 			"eng": "Follow Up Lottery",
 			"trans": "追加抽選"
-		},
-		"gangUpkeep": {
-			"eng": "Gang Upkeep",
-			"trans": "ギャングの維持費"
 		},
 		"hideoutRaid": {
 			"eng": "Hideout Raid",
@@ -8265,6 +8817,18 @@
 		"noItem": {
 			"eng": "There is no item",
 			"trans": "アイテムはありません"
+		}
+	},
+	"marketMyItemsPage": {
+		"emptySlot": {
+			"eng": "List Item",
+			"trans": "リストアイテム"
+		},
+		"header": {
+			"title": {
+				"eng": "Market Listings",
+				"trans": "マーケット一覧"
+			}
 		}
 	},
 	"marketPurchaseModal": {
@@ -8468,6 +9032,10 @@
 			"eng": "Level Up",
 			"trans": "レベルアップ"
 		},
+		"resonate": {
+			"eng": "Resonate",
+			"trans": "共鳴"
+		},
 		"stats": {
 			"title": {
 				"eng": "stats",
@@ -8633,6 +9201,24 @@
 		"noMercenaries": {
 			"eng": "You do not have any mercenaries in your contact",
 			"trans": "あなたの連絡先には傭兵はいません"
+		},
+		"sort": {
+			"level": {
+				"eng": "Level",
+				"trans": "レベル"
+			},
+			"name": {
+				"eng": "Name",
+				"trans": "名前"
+			},
+			"skill": {
+				"eng": "Skill",
+				"trans": "スキル"
+			},
+			"tier": {
+				"eng": "Tier",
+				"trans": "ティア"
+			}
 		},
 		"tip": {
 			"default": {
@@ -8852,6 +9438,12 @@
 			"eng": "RESONANCE COMPLETE",
 			"trans": "レゾナンス完了"
 		},
+		"mythicCinematic": {
+			"tapToContinue": {
+				"eng": "TAP SCREEN",
+				"trans": "画面をタップ"
+			}
+		},
 		"mythicTitle1": {
 			"eng": "MYTHIC",
 			"trans": "神話級"
@@ -8868,6 +9460,12 @@
 			"eng": "AWAKENING RESULT",
 			"trans": "覚醒結果"
 		},
+		"standardAwakening": {
+			"tapToContinue": {
+				"eng": "TAP TO CONTINUE",
+				"trans": "タップして続ける"
+			}
+		},
 		"sys": {
 			"protocol": {
 				"eng": "Awakening protocol finalized",
@@ -8881,10 +9479,6 @@
 				"eng": "Neural synchronization successful",
 				"trans": "ニューラル同期成功"
 			}
-		},
-		"tapToContinue": {
-			"eng": "TAP TO CONTINUE",
-			"trans": "タップで続ける"
 		}
 	},
 	"mercenarySelectPopup": {
@@ -9032,8 +9626,8 @@
 				"trans": "アクセス許可されました"
 			},
 			"breachProgress": {
-				"eng": "BREACH PROGRESS",
-				"trans": "侵入進捗"
+				"eng": "BREACH PROGRESS: ${percent}%",
+				"trans": "侵入進捗: ${percent}%"
 			},
 			"example": {
 				"eng": "Example of obfuscated code:",
@@ -9396,6 +9990,10 @@
 			"eng": "Eurodollars",
 			"trans": "ユーロドル"
 		},
+		"deselectAll": {
+			"eng": "Deselect All",
+			"trans": "すべて解除"
+		},
 		"exchange": {
 			"eng": "Exchange",
 			"trans": "両替"
@@ -9445,8 +10043,8 @@
 			"trans": "購入する"
 		},
 		"selectAll": {
-			"eng": "All",
-			"trans": "すべて"
+			"eng": "Select All",
+			"trans": "すべて選択"
 		},
 		"upgrade": {
 			"eng": "upgrade",
@@ -9456,12 +10054,12 @@
 	"modal": {
 		"selectAmountModal": {
 			"cancel": {
-				"eng": "cancel",
+				"eng": "Cancel",
 				"trans": "キャンセル"
 			},
 			"confirm": {
-				"eng": "confirm",
-				"trans": "確定"
+				"eng": "Confirm",
+				"trans": "確認"
 			},
 			"invalidAmount": {
 				"eng": "Amount must be between ${min} and ${max}",
@@ -9998,6 +10596,10 @@
 				"trans": "すでにギャングに所属しています"
 			}
 		},
+		"count": {
+			"eng": "${count} notifications",
+			"trans": "${count} 件の通知"
+		},
 		"lobbyInvite": {
 			"accept": {
 				"eng": "Accept",
@@ -10012,6 +10614,12 @@
 			"title": {
 				"eng": "No notification",
 				"trans": "通知なし"
+			}
+		},
+		"warWarning": {
+			"joinDescription": {
+				"eng": "This gang is in WAR MODE. Joining will expose you to war PvP attacks for ${hours} hours lock. Continue?",
+				"trans": "このギャングは戦争モードです。加入すると敵対プレイヤーの PvP 攻撃に晒され、${hours}時間のロック状態となります。続行しますか？"
 			}
 		}
 	},
@@ -10386,6 +10994,14 @@
 			"upgrade": {
 				"eng": "Upgrade",
 				"trans": "アップグレード"
+			},
+			"warBuff": {
+				"eng": "War Buffs",
+				"trans": "ウォーバフ"
+			},
+			"warIntel": {
+				"eng": "War Intel",
+				"trans": "戦争情報"
 			}
 		},
 		"generalStore": {
@@ -10607,6 +11223,46 @@
 		"upgradeButton": {
 			"eng": "Upgrade my equipment",
 			"trans": "装備をアップグレードする"
+		},
+		"warQuartermaster": {
+			"buffDeployment": {
+				"description": {
+					"eng": "Deploy tactical buffs for your gang",
+					"trans": "あなたのギャングに戦術バフを展開"
+				},
+				"label": {
+					"eng": "TACTICAL OPS",
+					"trans": "戦術オペレーション"
+				},
+				"title": {
+					"eng": "War Buff Deployment",
+					"trans": "戦闘バフ展開"
+				}
+			},
+			"description": {
+				"eng": "A secure war command terminal where your gang reviews active enhancements and deploys new combat support buffs.",
+				"trans": "あなたのギャングがアクティブな強化を確認し、新たな戦闘支援バフを配備する、安全な戦争指令ターミナル。"
+			},
+			"greetings": {
+				"eng": [
+					"War command online. State your objective.",
+					"Frontline telemetry synced. Buff deployment terminal is ready.",
+					"Gang war resources are live. Coordinate before you spend."
+				],
+				"trans": [
+					"戦闘指揮がオンラインです。目的を入力してください。",
+					"フロントラインテレメトリ同期完了。バフ配備端末は使用可能です。",
+					"ギャング戦争リソースが稼働中です。使用前に協力してください。"
+				]
+			},
+			"locationName": {
+				"eng": "War Command Center",
+				"trans": "作戦司令部"
+			},
+			"npcName": {
+				"eng": "Quartermaster Vane",
+				"trans": "補給担当官ヴェイン"
+			}
 		},
 		"weaponSmith": {
 			"description": {
@@ -10980,6 +11636,28 @@
 		}
 	},
 	"playerDetailsPage": {
+		"action": {
+			"addFriend": {
+				"eng": "Add Friend",
+				"trans": "フレンドを追加"
+			},
+			"attack": {
+				"eng": "Attack",
+				"trans": "攻撃"
+			},
+			"mail": {
+				"eng": "Mail",
+				"trans": "メール"
+			},
+			"unfriend": {
+				"eng": "Unfriend",
+				"trans": "フレンド削除"
+			}
+		},
+		"attackHospitalized": {
+			"eng": "Target is currently hospitalized. Combat unavailable.",
+			"trans": "ターゲットは現在入院中です。戦闘不可。"
+		},
 		"attribute": {
 			"confirm": {
 				"eng": "Apply",
@@ -10991,29 +11669,13 @@
 			}
 		},
 		"menu": {
-			"addFriend": {
-				"eng": "Add Friend",
-				"trans": "友達を追加する"
-			},
 			"block": {
 				"eng": "Block",
 				"trans": "ブロック"
 			},
-			"close": {
-				"eng": "attack",
-				"trans": "攻撃"
-			},
-			"removeFriend": {
-				"eng": "Remove Friend",
-				"trans": "友達を削除する"
-			},
 			"report": {
 				"eng": "Report",
 				"trans": "報告"
-			},
-			"sendMessage": {
-				"eng": "Send Mail",
-				"trans": "メールを送信する"
 			},
 			"unblock": {
 				"eng": "Unblock",
@@ -11576,6 +12238,18 @@
 			"successBounty": {
 				"eng": "You received bounty of ${money1} and ${money2} for eliminating ${targetPlayer}",
 				"trans": "${targetPlayer}を倒した報酬として、${money1}と${money2}を受け取りました。"
+			},
+			"warAttackAddedEnemy": {
+				"eng": "${playerName} struck you in a gang war assault, you lost ${currency}, this player has been added to your enemies list",
+				"trans": "${playerName}がギャング戦闘であなたを撃ち、${currency}を失いました。このプレイヤーは敵リストに追加されました。"
+			},
+			"warAttackNoAddEnemy": {
+				"eng": "${playerName} struck you in a gang war assault, you lost ${currency}",
+				"trans": "プレイヤー${playerName}がギャング戦闘の襲撃であなたを殴り、${currency}を失いました"
+			},
+			"warAttackWin": {
+				"eng": "Your gang war strike against ${playerName} was successful, you earned ${currency}",
+				"trans": "あなたのギャング戦攻撃が${playerName}に成功し、${currency}を獲得しました。"
 			}
 		},
 		"toast": {
@@ -11694,6 +12368,10 @@
 			"eng": "Daily Quests",
 			"trans": "デイリークエスト"
 		},
+		"inProgress": {
+			"eng": "In Progress",
+			"trans": "進行中"
+		},
 		"investigations": {
 			"eng": "Investigations",
 			"trans": "調査"
@@ -11705,6 +12383,10 @@
 		"npcQuests": {
 			"eng": "Quests",
 			"trans": "クエスト"
+		},
+		"readyToTurnIn": {
+			"eng": "Ready to Turn In",
+			"trans": "納品準備完了"
 		}
 	},
 	"questPreview": {
@@ -11877,6 +12559,10 @@
 		"reportReason": {
 			"eng": "Report Reason",
 			"trans": "報告の理由"
+		},
+		"reportSuccess": {
+			"eng": "Report submitted successfully",
+			"trans": "レポートが正常に送信されました"
 		}
 	},
 	"reportType": {
@@ -12081,6 +12767,32 @@
 			"trans": "最小"
 		}
 	},
+	"sendItem": {
+		"confirm": {
+			"eng": "Send",
+			"trans": "送信"
+		},
+		"confirmDescription": {
+			"eng": "Send ${amount}x ${itemName} to this player?",
+			"trans": "このプレイヤーに ${amount}x ${itemName} を送りますか？"
+		},
+		"confirmTitle": {
+			"eng": "Confirm Send",
+			"trans": "送信を確認"
+		},
+		"success": {
+			"eng": "Sent ${amount}x ${itemName}",
+			"trans": "${amount}x ${itemName} を転送しました"
+		}
+	},
+	"sendItemPage": {
+		"selectAmount": {
+			"title": {
+				"eng": "Select amount to send",
+				"trans": "送る数量を選択"
+			}
+		}
+	},
 	"server": {
 		"clan": {
 			"join": {
@@ -12119,6 +12831,10 @@
 				"eng": "You cannot attack this player due to bounty contributor alt detection",
 				"trans": "バウンティ貢献者のalt検出により、このプレイヤーは攻撃できません"
 			},
+			"cannotEngageHospitalized": {
+				"eng": "This player is currently hospitalized and cannot be attacked",
+				"trans": "このプレイヤーは現在入院中で、攻撃できません。"
+			},
 			"cannotEngageInDungeon": {
 				"eng": "You cannot engage in PvP while in a dungeon",
 				"trans": "ダンジョン内ではPvPに参加できません。"
@@ -12130,6 +12846,10 @@
 			"cannotEngageProtectedPlayer": {
 				"eng": "This player is protected with ${item}, you cannot engage them at this moment",
 				"trans": "このプレイヤーは${item}で保護されています、現在は攻撃できません。"
+			},
+			"cannotEngageSuspended": {
+				"eng": "You cannot engage this player right now",
+				"trans": "今はこのプレイヤーと対戦できません。"
 			},
 			"combatNotFound": {
 				"eng": "Combat has ended",
@@ -12145,7 +12865,7 @@
 			},
 			"levelTooDiff": {
 				"eng": "You cannot engage a player that is more than ${levelDiff} levels higher or below you",
-				"trans": "${levelDiff}レベル以上高いまたは低いプレイヤーとは戦闘できません"
+				"trans": "レベル差が${levelDiff}以上のプレイヤーとは、エンゲージできません。"
 			},
 			"notEnoughMoneyPvp": {
 				"eng": "You need at least ${money} to engage in PvP",
@@ -12166,6 +12886,14 @@
 			"pvpArrestDismissed": {
 				"eng": "This player has already been arrested",
 				"trans": "プレイヤーはすでに捕まった"
+			},
+			"warCannotEngageAlt": {
+				"eng": "You cannot attack this player due to alt detection",
+				"trans": "アルトアカウントが検出されたため、このプレイヤーへの攻撃はできません"
+			},
+			"warLevelTooDiff": {
+				"eng": "You are too high level to attack this player",
+				"trans": "あなたのレベルが高すぎてこのプレイヤーを攻撃できません。"
 			}
 		},
 		"combatLog": {
@@ -12294,6 +13022,10 @@
 			"cannotInviteSelf": {
 				"eng": "You cannot invite yourself",
 				"trans": "自分自身を招待することはできません。"
+			},
+			"cannotKickSelf": {
+				"eng": "You cannot kick yourself",
+				"trans": "自分自身をキックすることはできません"
 			},
 			"craeteNotIdle": {
 				"eng": "You must be idle to create a lobby",
@@ -12706,87 +13438,9 @@
 		}
 	},
 	"signalStrength": {
-		"info": {
-			"eng": "Signal increases only by recruiting mercenaries.",
-			"trans": "シグナルは傭兵の採用でのみ増加します。"
-		},
-		"status": {
-			"building": {
-				"v1": {
-					"1": {
-						"eng": "Chatter detected",
-						"trans": "チャット検知"
-					},
-					"2": {
-						"eng": "Names noted",
-						"trans": "名前を記録しました"
-					},
-					"3": {
-						"eng": "Signal building",
-						"trans": "通信タワー"
-					}
-				}
-			},
-			"hot": {
-				"v1": {
-					"1": {
-						"eng": "Elite presence",
-						"trans": "精鋭の存在"
-					},
-					"2": {
-						"eng": "Strong resonance",
-						"trans": "強力共鳴"
-					},
-					"3": {
-						"eng": "Lock pending",
-						"trans": "ロック保留"
-					}
-				}
-			},
-			"peak": {
-				"v1": {
-					"1": {
-						"eng": "Signal locked",
-						"trans": "シグナルロック済み"
-					},
-					"2": {
-						"eng": "Elite ready",
-						"trans": "エリートレディ"
-					},
-					"3": {
-						"eng": "Contact imminent",
-						"trans": "接触間近"
-					}
-				}
-			},
-			"quiet": {
-				"v1": {
-					"1": {
-						"eng": "Online",
-						"trans": "オンライン"
-					},
-					"2": {
-						"eng": "Signal active",
-						"trans": "信号作動中"
-					}
-				}
-			},
-			"rising": {
-				"v1": {
-					"1": {
-						"eng": "Talent in range",
-						"trans": "タレントが射程内です"
-					},
-					"2": {
-						"eng": "Signal strong",
-						"trans": "信号強い"
-					},
-					"3": {
-						"eng": "Interesting lead",
-						"trans": "興味深い手がかり"
-					}
-				}
-			}
+		"popupContent": {
+			"eng": "Signal increases every time you recruit a mercenary.",
+			"trans": "傭兵を雇うたびにシグナルが上昇します。"
 		}
 	},
 	"socialMedia": {
@@ -12838,6 +13492,14 @@
 		}
 	},
 	"stat": {
+		"afkTaskExpMult": {
+			"eng": "AFK Task EXP Multiplier",
+			"trans": "AFKタスクEXP倍率"
+		},
+		"afkTaskExpMultDesc": {
+			"eng": "Increases the EXP you receive from AFK tasks.",
+			"trans": "AFKタスクで得られる経験値が増加します。"
+		},
 		"armor": {
 			"eng": "Armor",
 			"trans": "アーマー"
@@ -12966,6 +13628,14 @@
 			"eng": "Increases your chance to escape from enemies.",
 			"trans": "敵から逃れやすくなる。"
 		},
+		"gatherExpMult": {
+			"eng": "Auto Gather EXP Multiplier",
+			"trans": "自動獲得経験値倍率"
+		},
+		"gatherExpMultDesc": {
+			"eng": "Increases the EXP you receive from auto gather.",
+			"trans": "自動採集で得られる経験値が増加します。"
+		},
 		"headshotMult": {
 			"eng": "Headshot Multiplier",
 			"trans": "ヘッドショット倍率"
@@ -13078,6 +13748,16 @@
 		}
 	},
 	"statusEffect": {
+		"afkTaskExpMult1": {
+			"desc": {
+				"eng": "Increases the EXP you receive from AFK tasks by ${percent}%",
+				"trans": "AFKタスクで得られる経験値が${percent}%増加します"
+			},
+			"name": {
+				"eng": "AFK Task EXP Multiplier",
+				"trans": "AFKタスクEXP倍率"
+			}
+		},
 		"burn": {
 			"combatMsg": {
 				"eng": "${name} received ${damage} damage from burning",
@@ -13112,6 +13792,36 @@
 				"trans": "防御力増加"
 			}
 		},
+		"gatherExpMult1": {
+			"desc": {
+				"eng": "Increases the EXP you receive from auto gather by ${percent}%",
+				"trans": "自動採集で受け取る経験値が${percent}%上昇します"
+			},
+			"name": {
+				"eng": "Auto Gather EXP Multiplier I",
+				"trans": "自動EXP収集ブースト I"
+			}
+		},
+		"gatherExpMult2": {
+			"desc": {
+				"eng": "Increases the EXP you receive from auto gather by ${percent}%",
+				"trans": "自動採集で獲得するEXPが${percent}%増加"
+			},
+			"name": {
+				"eng": "Auto Gather EXP Multiplier II",
+				"trans": "自動経験値獲得量II"
+			}
+		},
+		"gatherExpMult3": {
+			"desc": {
+				"eng": "Increases the EXP you receive from auto gather by ${percent}%",
+				"trans": "自動採集で得られる経験値が${percent}%上昇します"
+			},
+			"name": {
+				"eng": "Auto Gather EXP Multiplier III",
+				"trans": "自動EXP獲得量III"
+			}
+		},
 		"heal": {
 			"combatMsg": {
 				"eng": "${name} recovered ${heal} health",
@@ -13124,6 +13834,16 @@
 			"name": {
 				"eng": "Healed",
 				"trans": "回復完了"
+			}
+		},
+		"hospitalized": {
+			"desc": {
+				"eng": "You are recovering from injuries sustained in gang war combat. You cannot participate in war combat while hospitalized.",
+				"trans": "ギャング戦闘での負傷から回復中です。入院中は戦闘に参加できません。"
+			},
+			"name": {
+				"eng": "Hospitalized",
+				"trans": "入院中"
 			}
 		},
 		"lootIncrease": {
@@ -14649,6 +15369,16 @@
 			}
 		}
 	},
+	"vaultHandler": {
+		"depositSuccess": {
+			"eng": "Stored ${count} item(s) in vault",
+			"trans": "倉庫に${count}個のアイテムを保管しました"
+		},
+		"withdrawSuccess": {
+			"eng": "Retrieved ${count} item(s) from vault",
+			"trans": "倉庫から${count}個のアイテムを取得しました"
+		}
+	},
 	"vaultPage": {
 		"addItemButton": {
 			"title": {
@@ -14685,6 +15415,54 @@
 		"vaultSlots": {
 			"eng": "Slots ${size}",
 			"trans": "スロット${size}"
+		}
+	},
+	"warBuffDeployment": {
+		"buffLabel": {
+			"eng": "Tactical Buff",
+			"trans": "戦術バフ"
+		},
+		"confirmDeployDescription": {
+			"eng": "Deploy ${buffName} for your gang?",
+			"trans": "${buffName} をあなたのギャングのために展開しますか？"
+		},
+		"confirmDeployTitle": {
+			"eng": "Confirm Deployment",
+			"trans": "展開を確認"
+		},
+		"deployButton": {
+			"eng": "Deploy",
+			"trans": "展開"
+		},
+		"error": {
+			"alreadyActive": {
+				"eng": "This buff is already active",
+				"trans": "このバフはすでに有効です"
+			},
+			"leaderOnly": {
+				"eng": "Only the gang leader can deploy war buffs",
+				"trans": "ギャングリーダーのみが戦闘バフを展開できます"
+			},
+			"notEnoughWarPoints": {
+				"eng": "Your gang does not have enough war points",
+				"trans": "あなたのギャングには十分なウォーポイントがありません"
+			},
+			"notInGang": {
+				"eng": "You must be in a gang to access war logistics",
+				"trans": "軍事物流にアクセスするにはギャングに所属している必要があります"
+			},
+			"warStateRequired": {
+				"eng": "Your gang must be in war state to deploy war buffs",
+				"trans": "ウォーバフを展開するには、ギャングが戦争状態である必要があります"
+			}
+		},
+		"statusActive": {
+			"eng": "Active",
+			"trans": "アクティブ"
+		},
+		"warPointsLabel": {
+			"eng": "War Points",
+			"trans": "ウォーポイント"
 		}
 	},
 	"webHomePage": {
@@ -14860,6 +15638,14 @@
 		}
 	},
 	"wikiPage": {
+		"noResults": {
+			"eng": "No results found",
+			"trans": "結果が見つかりませんでした"
+		},
+		"searchPlaceholder": {
+			"eng": "Search wiki...",
+			"trans": "ウィキを検索"
+		},
 		"subtitle": {
 			"eng": "the free encyclopedia that anyone can edit",
 			"trans": "誰でも編集できる無料アンサイクロペディア"
@@ -14948,6 +15734,18 @@
 			"announcement": {
 				"eng": "${playerName} upgraded ${item} to ${tier}!",
 				"trans": "${playerName}は${item}を${tier}にアップグレードしました！"
+			}
+		},
+		"warStateOff": {
+			"announcement": {
+				"eng": "${gang} has stood down from war.",
+				"trans": "${gang}は戦闘を撤退しました。"
+			}
+		},
+		"warStateOn": {
+			"announcement": {
+				"eng": "${gang} has declared war!",
+				"trans": "${gang} が戦争を宣言しました！"
 			}
 		}
 	}

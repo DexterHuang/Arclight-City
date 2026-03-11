@@ -1,4 +1,10 @@
 {
+	"ADDRESS": {
+		"FORMAT": {
+			"eng": "ALC. ${district} District, No. ${number} ${floor} floor, room ${roomNumber}",
+			"trans": "ALC. ${district} čtvrť, č. ${number} ${floor}. patro, pokoj ${roomNumber}"
+		}
+	},
 	"BattlePassTimeLimitedInfoModal": {
 		"button": {
 			"eng": "Close",
@@ -802,6 +808,12 @@
 			"eng": "Start",
 			"trans": "Spustit"
 		},
+		"stats": {
+			"cycles": {
+				"eng": "${count} cycles",
+				"trans": "${count} cykly"
+			}
+		},
 		"tip": {
 			"eng": "You can unlock higher gathering zones by clearing ${difficulty} strongholds, the zone level is capped at your character level.",
 			"trans": "Vyšší zóny sběru lze odemknout tím, že vyčistíš pevnosti obtížnosti ${difficulty}. Úroveň zóny je omezena úrovní tvé postavy."
@@ -1358,16 +1370,40 @@
 		}
 	},
 	"blockedPlayerListPage": {
+		"emptyHint": {
+			"eng": "Block players from their profile to prevent them from contacting you",
+			"trans": "Zablokujte hráče v jejich profilu, aby vás nemohli kontaktovat."
+		},
 		"noBlockedPlayers": {
 			"eng": "No blocked players",
 			"trans": "Žádní blokovaní hráči"
 		},
 		"unblock": {
+			"confirm": {
+				"description": {
+					"eng": "This player will be able to contact you again",
+					"trans": "Tento hráč vás znovu může kontaktovat"
+				},
+				"title": {
+					"eng": "Unblock ${playerName}?",
+					"trans": "Odblokovat ${playerName}?"
+				}
+			},
 			"eng": "Unblock",
 			"trans": "odblokovat"
 		}
 	},
 	"buff": {
+		"afkTaskExpMult1": {
+			"description": {
+				"eng": "Increase AFK task EXP for all gang members by ${percent}% for ${hours} hours",
+				"trans": "Zvýšit EXP z AFK úkolů pro všechny členy gangu o ${percent}% na ${hours} hodin."
+			},
+			"name": {
+				"eng": "AFK Task EXP Multiplier",
+				"trans": "AFK úkolový multiplikátor EXP"
+			}
+		},
 		"defenseIncrease": {
 			"description": {
 				"eng": "Increase defense for all players in strongholds created by your gang members in ${minutes} minutes",
@@ -1376,6 +1412,36 @@
 			"name": {
 				"eng": "Defense Increase",
 				"trans": "Zvýšení obrany"
+			}
+		},
+		"gatherExpMult1": {
+			"description": {
+				"eng": "Increase auto gather EXP for all gang members by ${percent}% for ${minutes} minutes",
+				"trans": "Zvyšte automatické shromažďování EXP pro všechny členy gangu o ${percent}% po dobu ${minutes} minut"
+			},
+			"name": {
+				"eng": "Auto Gather EXP Multiplier I",
+				"trans": "Multiplikátor automatického sběru XP I"
+			}
+		},
+		"gatherExpMult2": {
+			"description": {
+				"eng": "Increase auto gather EXP for all gang members by ${percent}% for ${minutes} minutes",
+				"trans": "Zvyšte automatické shromažďování EXP pro všechny členy gangu o ${percent}% po dobu ${minutes} minut"
+			},
+			"name": {
+				"eng": "Auto Gather EXP Multiplier II",
+				"trans": "Automatický sběr EXP násobek II"
+			}
+		},
+		"gatherExpMult3": {
+			"description": {
+				"eng": "Increase auto gather EXP for all gang members by ${percent}% for ${minutes} minutes",
+				"trans": "Zvyšte automatické shromažďování EXP pro všechny členy gangu o ${percent}% po dobu ${minutes} minut"
+			},
+			"name": {
+				"eng": "Auto Gather EXP Multiplier III",
+				"trans": "Automatický multiplikátor EXP III"
 			}
 		},
 		"lootIncrease": {
@@ -1625,6 +1691,10 @@
 			}
 		},
 		"error": {
+			"cannotKickSelf": {
+				"eng": "You cannot kick yourself",
+				"trans": "Nemůžeš se kopnout."
+			},
 			"clanIsFull": {
 				"eng": "this gang is current at max member capacity",
 				"trans": "Tenhle gang má v současnosti maximální počet členů."
@@ -1662,9 +1732,35 @@
 				}
 			}
 		},
+		"playerList": {
+			"header": {
+				"eng": "Personnel Roster",
+				"trans": "Seznam personálu"
+			},
+			"status": {
+				"eng": "Operational Status: Active",
+				"trans": "Stav provozu: Aktivní"
+			},
+			"units": {
+				"eng": "Units",
+				"trans": "Jednotky"
+			}
+		},
 		"requestSent": {
 			"eng": "Request sent successfully",
 			"trans": "Požadavek úspěšně odeslán"
+		},
+		"role": {
+			"commander": {
+				"eng": "COMMANDER",
+				"trans": "KOMANDANT"
+			}
+		},
+		"war": {
+			"badge": {
+				"eng": "WAR",
+				"trans": "Válka"
+			}
 		}
 	},
 	"clanBuffDeployPopup": {
@@ -1726,7 +1822,49 @@
 				"trans": "Vložit peníze"
 			}
 		},
-		"editMottoButton": {
+		"depositSuccess": {
+			"eng": "Deposited ${amount} funds",
+			"trans": "Vloženo ${amount} peněz"
+		},
+		"disbandClan": {
+			"eng": "Disband Gang",
+			"trans": "Zrušit gang"
+		},
+		"disbandClanModal": {
+			"description": {
+				"eng": "Are you sure you want to disband this gang? This action cannot be undone.",
+				"trans": "Opravdu chcete rozpustit tento gang? Akci nelze vrátit zpět."
+			},
+			"title": {
+				"eng": "Disband gang",
+				"trans": "Rozpustit gang"
+			}
+		},
+		"disbandLocked": {
+			"engagementLocked": {
+				"eng": "Cannot disband while members have recently engaged in war combat",
+				"trans": "Nelze rozpustit, pokud se členové nedávno zapojili do boje."
+			},
+			"warActive": {
+				"eng": "Cannot disband while war mode is active. Disable war mode first.",
+				"trans": "Nelze rozbít při aktivním válečném režimu. Nejdříve vypněte válečný režim."
+			}
+		},
+		"disbandStatus": {
+			"engagementLocked": {
+				"eng": "Members recently engaged in war combat. Available in:",
+				"trans": "Členové se nedávno zapojili do boje ve válce. Dostupné v:"
+			},
+			"title": {
+				"eng": "DISBAND LOCKED",
+				"trans": "Rozbití zamčeno"
+			},
+			"warActive": {
+				"eng": "Cannot disband while war mode is active. Disable war mode first.",
+				"trans": "Nelze rozbít při aktivním válečném režimu. Nejdříve vypněte válečný režim."
+			}
+		},
+		"editMotto": {
 			"eng": "Edit Motto",
 			"trans": "Upravit motto"
 		},
@@ -1745,8 +1883,8 @@
 			"trans": "Připojit"
 		},
 		"leaveClan": {
-			"eng": "leave gang",
-			"trans": "odejít z klanu"
+			"eng": "Leave Gang",
+			"trans": "Odejít z gangu"
 		},
 		"leaveClanModal": {
 			"description": {
@@ -1757,14 +1895,6 @@
 				"eng": "Leave gang",
 				"trans": "Opustit gang"
 			}
-		},
-		"makePrivate": {
-			"eng": "Make Private",
-			"trans": "Změnit na soukromý"
-		},
-		"makePublic": {
-			"eng": "Make Public",
-			"trans": "Zveřejnit"
 		},
 		"mottoModal": {
 			"description": {
@@ -1784,23 +1914,19 @@
 			"eng": "There is no motto set for this gang yet",
 			"trans": "Tenhle gang zatím nemá nastavené motto."
 		},
-		"noticeModal": {
-			"description": {
-				"eng": "Posting a notice will cost ${Config.CLAN.NOTICE_POST_COST}${CurrencyType.NORMAL.getSymbol()}",
-				"trans": "Zveřejnění příspěvku bude stát ${Config.CLAN.NOTICE_POST_COST}${CurrencyType.NORMAL.getSymbol()}"
-			},
-			"title": {
-				"eng": "Post gang notice",
-				"trans": "Zveřejnit příspěvek o gangu"
-			}
-		},
 		"playerListButton": {
 			"eng": "Member List",
 			"trans": "Seznam členů"
 		},
-		"postNoticeButton": {
-			"eng": "Post Notice",
-			"trans": "Zveřejnit příspěvek"
+		"publicToggle": {
+			"private": {
+				"eng": "Private",
+				"trans": "Soukromý"
+			},
+			"public": {
+				"eng": "Public",
+				"trans": "Veřejné"
+			}
 		},
 		"requestToJoinButton": {
 			"eng": "Request to join",
@@ -1809,10 +1935,6 @@
 		"resources": {
 			"eng": "Resources",
 			"trans": "Zdroje"
-		},
-		"setImageButton": {
-			"eng": "Set Image",
-			"trans": "Nastavit obrázek"
 		},
 		"upkeepTip": {
 			"eng": "Ensure there is enough resources and funds to avoid losing the gang on the next upkeep date.",
@@ -1851,26 +1973,18 @@
 			}
 		}
 	},
-	"clanPlayer": {
-		"controlPointContributed": {
-			"eng": "control points: ${amount}",
-			"trans": "kontrolní body: ${amount}"
-		},
-		"fundsContributed": {
-			"eng": "funds: ${amount}",
-			"trans": "Finance: ${amount}"
-		},
-		"resourceContributed": {
-			"eng": "resource: ${amount}",
-			"trans": "zdroje: ${amount}"
-		},
-		"thisWeek": {
-			"eng": "this week",
-			"trans": "tento týden"
-		},
-		"total": {
-			"eng": "total",
-			"trans": "celkem"
+	"clanMenuModal": {
+		"warWarning": {
+			"joinDescription": {
+				"eng": "This gang is in WAR MODE. Joining will expose you to War PvP attacks with ${hours} hours lock. Continue?",
+				"trans": "Tento gang je ve válečném režimu. Přidání vás vystaví útokům PvP se ${hours}-hodinovým uzamčením. Pokračovat?"
+			}
+		}
+	},
+	"clanPlayerListPage": {
+		"memberCount": {
+			"eng": "${count} members",
+			"trans": "${count} členů"
 		}
 	},
 	"clanPlayerPermissionModal": {
@@ -1884,6 +1998,14 @@
 		}
 	},
 	"clanPlayerPopup": {
+		"disableWarParticipation": {
+			"eng": "Disable War Participation",
+			"trans": "Zakázat účast ve válce"
+		},
+		"enableWarParticipation": {
+			"eng": "Enable War Participation",
+			"trans": "Povolit účast ve válce"
+		},
 		"kickPlayerButton": {
 			"eng": "kick player",
 			"trans": "vyloučit hráče"
@@ -1891,6 +2013,14 @@
 		"setPermissionButton": {
 			"eng": "Edit Permissions",
 			"trans": "Upravit oprávnění"
+		},
+		"statusActive": {
+			"eng": "ACTIVE",
+			"trans": "aktivní"
+		},
+		"statusInactive": {
+			"eng": "INACTIVE",
+			"trans": "NEAKTIVNÍ"
 		},
 		"transferOwnership": {
 			"eng": "Transfer Ownership",
@@ -1901,8 +2031,16 @@
 			"trans": "Převést vlastnictví"
 		},
 		"transferOwnershipConfirm": {
-			"eng": "Are you sure you want to transfer ownership of the gang to ${playerName}?\\nthis cannot be undone.",
-			"trans": "Opravdu chceš převést vlastnictví gangu na hráče ${playerName}?\\nTento krok je nevratný."
+			"eng": "Are you sure you want to transfer ownership of the gang to ${playerName}.\\nthis cannot be undone.",
+			"trans": "Opravdu chcete převést vlastnictví gangu na ${playerName}?\nTuto akci nelze vrátit."
+		},
+		"warStatus": {
+			"eng": "War Participation",
+			"trans": "Účast ve válce"
+		},
+		"warToggleCooldown": {
+			"eng": "Cooldown: ${time}",
+			"trans": "Odpočet: ${time}"
 		}
 	},
 	"clanSearchPage": {
@@ -1963,6 +2101,248 @@
 				"eng": "View profile",
 				"trans": "Zobrazit profil"
 			}
+		}
+	},
+	"clanTabContent": {
+		"noticeModal": {
+			"description": {
+				"eng": "Posting a notice will cost ${cost}${symbol}",
+				"trans": "Zveřejnění oznámení stojí ${cost}${symbol}."
+			},
+			"title": {
+				"eng": "Post gang notice",
+				"trans": "Zveřejnit oznámení gangu"
+			}
+		}
+	},
+	"clanTabNoClanContent": {
+		"warWarning": {
+			"joinDescription": {
+				"eng": "This gang is in WAR MODE. Joining will expose you to PvP attacks and 24h participation locks. Continue?",
+				"trans": "Tento gang je v reżimu Válka. Připojením se vystavíte útokům PvP a zámku účasti na 24 hodin. Pokračovat?"
+			}
+		}
+	},
+	"clanWar": {
+		"chat": {
+			"deathBroadcast": {
+				"eng": "${victimPlayer} was eliminated by ${killerPlayer} from ${gang}",
+				"trans": "${victimPlayer} byl vyřazen ${killerPlayer} z gangu ${gang}"
+			},
+			"killBroadcast": {
+				"eng": "${killerPlayer} has eliminated ${victimPlayer} from ${gang}",
+				"trans": "${killerPlayer} eliminoval ${victimPlayer} z ${gang}"
+			},
+			"milestoneReached": {
+				"eng": "${count} kill streak! +${reward} war score",
+				"trans": "${count} zabíjení v řadě! +${reward} válečné skóre"
+			},
+			"warStateOn": {
+				"eng": "${gang} has declared war",
+				"trans": "${gang} vyhlásil válku"
+			}
+		},
+		"dangerModal": {
+			"enableDescription": {
+				"eng": "Enabling WAR MODE will expose ALL gang members to PvP attacks. Opting out will be LOCKED for 24 hours. Proceed?",
+				"trans": "Aktivací Režimu války se všichni členové vašeho gangu vystaví PvP útokům. Zrušení bude zablokováno na 24 hodin. Pokračovat?"
+			},
+			"requestDescription": {
+				"eng": "This gang is in WAR MODE. If accepted, joining will expose you to PvP attacks and 24h participation locks. Continue?",
+				"trans": "Tento gang je v režimu války. Přijetím se vystavíte PvP útokům a uzamčení účasti po dobu 24 h. Pokračovat?"
+			},
+			"title": {
+				"eng": "WAR MODE WARNING",
+				"trans": "Zapnout režim války"
+			}
+		},
+		"disableModal": {
+			"description": {
+				"eng": "Are you sure you want to disable war mode? Your gang will no longer be able to earn war score.",
+				"trans": "Opravdu chcete vypnout režim války? Váš gang již nebude schopen získávat válečné skóre."
+			},
+			"title": {
+				"eng": "Disable War Mode",
+				"trans": "Vypnout režim války"
+			}
+		},
+		"error": {
+			"cannotToggleMember": {
+				"eng": "Cannot toggle this member's participation. They may not exist or cooldown is active",
+				"trans": "Nelze přepnout účast tohoto člena. Může neexistovat, nebo je aktivní cooldown."
+			},
+			"disbandEngaged": {
+				"eng": "You cannot disband the gang while members have recently engaged in war combat",
+				"trans": "Nelze rozpustit gang, když se jeho členové nedávno zapojili do bojů."
+			},
+			"disbandWarActive": {
+				"eng": "You cannot disband the gang while war mode is active",
+				"trans": "Nemůžete rozvrátit gang, když je v módu války."
+			},
+			"kickLocked": {
+				"eng": "Cannot kick a member who has recently engaged in war combat",
+				"trans": "Nelze vyloučit člena, který nedávno vstoupil do boje."
+			},
+			"leaderOnly": {
+				"eng": "Only the gang leader can perform this action",
+				"trans": "Pouze vedoucí gangu může tuto akci provést."
+			},
+			"leaveLocked": {
+				"eng": "You cannot leave the gang while you have recently engaged in war combat",
+				"trans": "Nelze odejít z bandy, když jsi v poslední době bojoval."
+			},
+			"notEnoughWarPoints": {
+				"eng": "Your gang does not have enough war points",
+				"trans": "Tvůj gang nemá dostatek bodů války."
+			},
+			"notWarBuff": {
+				"eng": "This buff cannot be deployed during gang war",
+				"trans": "Tento buff nelze nasadit během gangové války."
+			},
+			"optOutLocked": {
+				"eng": "Cannot disable war mode yet. 24h lock-in period is still active",
+				"trans": "Režim války nelze vypnout. 24‑hodinová blokovací doba je stále aktivní."
+			},
+			"warStateRequired": {
+				"eng": "Your gang must be in war state to deploy war buffs",
+				"trans": "Váš gang musí být v bojovém stavu, aby mohl nasadit bojové bonusy."
+			},
+			"wip": {
+				"eng": "This feature is currently under development",
+				"trans": "Tato funkce je momentálně ve vývoji."
+			}
+		},
+		"lockedFeedback": {
+			"eng": "War mode is locked until ${date}",
+			"trans": "Válečný režim je zablokován do ${date}"
+		},
+		"notification": {
+			"hospitalized": {
+				"eng": "You have been hospitalized from a gang war defeat. Recovery time: ${duration} minutes.",
+				"trans": "Byl jsi hospitalizován po porážce v gangové válce. Doba zotavení: ${duration} minut."
+			},
+			"milestoneReached": {
+				"eng": "Your gang has reached a ${count} kill streak and earned ${reward} war score!",
+				"trans": "Váš gang dosáhl série zabití ${count} a získal ${reward} bodů válečného skóre!"
+			},
+			"participationDisabled": {
+				"eng": "You have been removed from war participation by your gang leader. Your kills will no longer count towards gang war score.",
+				"trans": "Byl jsi vyřazen ze současti války pod vedením svého gangového lídra. Všechna tvá zabití už nepočítají do skóre gangové války."
+			},
+			"participationEnabled": {
+				"eng": "You have been added to war participation by your gang leader. You can now participate in gang wars.",
+				"trans": "Váš gangový vůdce vás přidal do války. Můžete se nyní zúčastnit gangových válek."
+			},
+			"warStateOff": {
+				"eng": "Your gang leader has disabled war mode. Your gang is no longer a war target.",
+				"trans": "Vůdce klanu vypnul režim války. Váš klan již není cílem války."
+			},
+			"warStateOn": {
+				"eng": "Your gang leader has activated war mode for your gang!",
+				"trans": "Vůdce Vašeho gangu zapnul režim války pro Váš gang!"
+			}
+		},
+		"tutorialLink": {
+			"eng": "Learn more about Gang War",
+			"trans": "Zjistit více o gangové válce"
+		}
+	},
+	"clanWarPage": {
+		"header": {
+			"currentScore": {
+				"eng": "TOTAL WAR SCORE",
+				"trans": "Celkové válečné skóre"
+			},
+			"stack": {
+				"eng": "STACK",
+				"trans": "Zásobník"
+			},
+			"warPoints": {
+				"eng": "PTS",
+				"trans": "Body"
+			}
+		},
+		"milestone": {
+			"progressText": {
+				"eng": "${current} / ${target} STACKS",
+				"trans": "${current} / ${target} ZÁSOB"
+			},
+			"reward": {
+				"eng": "BONUS",
+				"trans": "BONUS"
+			},
+			"stacks": {
+				"eng": "STACKS",
+				"trans": "Stacky"
+			}
+		},
+		"milestones": {
+			"end": {
+				"eng": "END OF OPERATION",
+				"trans": "Konec operace"
+			},
+			"operation": {
+				"eng": "OPERATION",
+				"trans": "Operace"
+			},
+			"title": {
+				"eng": "WAR MILESTONES",
+				"trans": "Milníky války"
+			},
+			"total_stacks": {
+				"eng": "TOTAL STACK",
+				"trans": "CELKOVÝ BALÍK"
+			},
+			"unit": {
+				"eng": "STK",
+				"trans": "STK"
+			}
+		},
+		"noClan": {
+			"eng": "NO GANG DATA FOUND",
+			"trans": "Žádné údaje o gangu nebyly nalezeny"
+		},
+		"status": {
+			"active": {
+				"eng": "WAR ACTIVE",
+				"trans": "Aktivní válka"
+			},
+			"inactive": {
+				"eng": "WAR INACTIVE",
+				"trans": "Neaktivní válka"
+			}
+		}
+	},
+	"clanWarPanel": {
+		"enableWarModal": {
+			"title": {
+				"eng": "ENABLE WAR MODE",
+				"trans": "AKTIVOVAT REŽIM VÁLEKY"
+			}
+		},
+		"leaderOnlyToggle": {
+			"eng": "Only the gang leader can toggle war mode",
+			"trans": "Pouze vedoucí klanu může přepnout režim války."
+		},
+		"locked": {
+			"eng": "Lock:",
+			"trans": "Zámek:"
+		},
+		"score": {
+			"eng": "War Score",
+			"trans": "Válečné skóre"
+		},
+		"stack": {
+			"eng": "Stack",
+			"trans": "hromada"
+		},
+		"warOff": {
+			"eng": "War OFF",
+			"trans": "Válka Vypnuta"
+		},
+		"warOn": {
+			"eng": "War ON",
+			"trans": "Válka zapnuta"
 		}
 	},
 	"collectedLoreNotes": {
@@ -2193,6 +2573,10 @@
 		"psychosis": {
 			"eng": "+ ${amount} psychosis",
 			"trans": "+${amount} psychóza"
+		},
+		"warPoints": {
+			"eng": "${amount} war points",
+			"trans": "${amount} válečných bodů"
 		}
 	},
 	"coupon": {
@@ -2210,13 +2594,17 @@
 			"eng": "Enter your gift code to get your reward.",
 			"trans": "Zadejte dárkový kód a získej odměnu."
 		},
+		"hint": {
+			"eng": "Codes are case-insensitive",
+			"trans": "Kódy nejsou citlivé na velikost písmen."
+		},
 		"inputTitle": {
 			"eng": "Gift Code",
 			"trans": "Dárkový kód"
 		},
 		"submitButton": {
-			"eng": "Submit",
-			"trans": "Odeslat"
+			"eng": "Redeem Code",
+			"trans": "Uplatnit kód"
 		},
 		"title": {
 			"eng": "Gift Code",
@@ -2357,16 +2745,6 @@
 				"eng": "Universal Dollars",
 				"trans": "Univerzální koruny"
 			}
-		}
-	},
-	"currencyCheck": {
-		"getMore": {
-			"eng": "get more",
-			"trans": "získat další"
-		},
-		"notEnough": {
-			"eng": "Insufficient ${currency}",
-			"trans": "Nedostatek ${currency}"
 		}
 	},
 	"dailyQuestTab": {
@@ -2561,6 +2939,24 @@
 		"dismantleButton": {
 			"eng": "Dismantle",
 			"trans": "Rozebrat"
+		},
+		"itemCount": {
+			"eng": "${count} items",
+			"trans": "${count} položek"
+		},
+		"sort": {
+			"level": {
+				"eng": "Level",
+				"trans": "Úroveň"
+			},
+			"name": {
+				"eng": "Name",
+				"trans": "Jméno"
+			},
+			"tier": {
+				"eng": "Tier",
+				"trans": "Tier"
+			}
 		}
 	},
 	"displayShelf": {
@@ -2769,6 +3165,26 @@
 			}
 		}
 	},
+	"dungeonBackpackPage": {
+		"itemCount": {
+			"eng": "${count} items",
+			"trans": "${count} položek"
+		},
+		"sort": {
+			"level": {
+				"eng": "Level",
+				"trans": "Úroveň"
+			},
+			"name": {
+				"eng": "Name",
+				"trans": "Jméno"
+			},
+			"tier": {
+				"eng": "Tier",
+				"trans": "Tier"
+			}
+		}
+	},
 	"dungeonChoicePopup": {
 		"actionsTitle": {
 			"eng": "Choose your action",
@@ -2947,6 +3363,10 @@
 				"eng": "${playerName}'s lobby",
 				"trans": "Lobby hráče ${playerName}"
 			}
+		},
+		"lobbyCount": {
+			"eng": "${count} lobbies",
+			"trans": "${count} salóny"
 		},
 		"noLobbiesFound": {
 			"eng": "No lobbies found",
@@ -3139,6 +3559,12 @@
 				"eng": "Wow",
 				"trans": "Wow"
 			}
+		}
+	},
+	"emptyState": {
+		"defaultTitle": {
+			"eng": "No records found",
+			"trans": "Žádné záznamy nebyly nalezeny"
 		}
 	},
 	"enemyEvent": {
@@ -3431,6 +3857,18 @@
 		"submit3": {
 			"eng": "Submit",
 			"trans": "Odeslat"
+		}
+	},
+	"filteredItemList": {
+		"noSearchResults": {
+			"eng": "No items matching \"${query}\"",
+			"trans": "Žádné položky odpovídající \"${query}\""
+		},
+		"search": {
+			"placeholder": {
+				"eng": "Search items...",
+				"trans": "Vyhledat položky…"
+			}
 		}
 	},
 	"firstPurchasePromoSmall": {
@@ -3806,6 +4244,10 @@
 				"trans": "Nemáte dost peněz na založení gangu."
 			}
 		},
+		"createSuccess": {
+			"eng": "Gang \"${name}\" created!",
+			"trans": "Gang \"${name}\" byl vytvořen!"
+		},
 		"editMotto": {
 			"error": {
 				"levelNoAlts": {
@@ -4007,6 +4449,22 @@
 			}
 		}
 	},
+	"hitListPage": {
+		"bountyCount": {
+			"eng": "${count} bounties",
+			"trans": "${count} cen"
+		},
+		"sort": {
+			"level": {
+				"eng": "Level",
+				"trans": "Úroveň"
+			},
+			"price": {
+				"eng": "Price",
+				"trans": "Cena"
+			}
+		}
+	},
 	"hitlist": {
 		"loading": {
 			"eng": "Loading bounties...",
@@ -4057,6 +4515,48 @@
 				"eng": "A bounty has been placed on your head, current bounty - Eurodollar: ${money}, Universal Dollar: ${uni}",
 				"trans": "Na vaší hlavě je odměna, aktuální hodnota – Eurodolar: ${money}, Univerzální dolar: ${uni}"
 			}
+		}
+	},
+	"hospitalizedScreen": {
+		"leaveHospital": {
+			"eng": "DISCHARGE // CONFIRM",
+			"trans": "Vyprázdnit // Potvrdit"
+		},
+		"statusCritical": {
+			"eng": "SYS: VITALS CRITICAL",
+			"trans": "Systém: Kritické zdraví"
+		},
+		"statusRecovered": {
+			"eng": "RECOVERY_COMPLETE",
+			"trans": "Obnovení dokončeno"
+		},
+		"statusStable": {
+			"eng": "SYS: VITALS STABLE",
+			"trans": "SYSTÉM: Životy stabilní"
+		},
+		"statusTag": {
+			"eng": "OVR_DENIED",
+			"trans": "Přepsání odmítnuto"
+		},
+		"sysHeader": {
+			"eng": "SYS.MED_PROTOCOL",
+			"trans": "Lékařský protokol"
+		},
+		"timeRemaining": {
+			"eng": "EST. RECOVERY TIME",
+			"trans": "Odhadovaný čas zotavení"
+		},
+		"title": {
+			"eng": "HOSPITALIZED",
+			"trans": "Hospitalizovaný"
+		},
+		"useMedkit": {
+			"eng": "ADMINISTER MEDKIT",
+			"trans": "Použít lékárničku"
+		},
+		"useMedkitDesc": {
+			"eng": "[-1 HR RECOVERY]",
+			"trans": "[-1 h obnovení]"
 		}
 	},
 	"hostilePlayerListPage": {
@@ -4368,10 +4868,6 @@
 			"eng": "Error loading clue",
 			"trans": "Chyba při načítání nápovědy"
 		},
-		"evidence": {
-			"eng": "Evidence",
-			"trans": "Důkaz"
-		},
 		"evidenceAcquired": {
 			"eng": "Evidence Logged - ACPD Database",
 			"trans": "Důkazy zaznamenány - ACPD databáze"
@@ -4379,6 +4875,10 @@
 		"evidenceMismatch": {
 			"eng": "The submitted conclusion does not align with available evidence patterns.",
 			"trans": "Předložený závěr se neshoduje s dostupnými vzorci důkazů."
+		},
+		"evidenceNumber": {
+			"eng": "Evidence #${number}",
+			"trans": "Důkaz #${number}"
 		},
 		"goToVerdict": {
 			"eng": "Go to verdict ${num}",
@@ -4810,6 +5310,10 @@
 			"cantEquipFromBackpack": {
 				"eng": "You cannot equip equipment from your backpack",
 				"trans": "Nemůžete vybavit vybavení z batohu."
+			},
+			"notHospitalized": {
+				"eng": "You can only use this item while hospitalized",
+				"trans": "Tento předmět lze použít pouze při hospitalizaci."
 			}
 		},
 		"levelUpBar": {
@@ -5528,6 +6032,16 @@
 			"name": {
 				"eng": "Egg",
 				"trans": "Vejce"
+			}
+		},
+		"emergencyMedkit": {
+			"description": {
+				"eng": "A field-grade trauma kit containing synthetic coagulants and adrenaline boosters. Reduces hospitalization time by 1 hour when administered.",
+				"trans": "Terénní trauma balíček s syntetickými koagulačními činidly a adrenalinovými zvyšovači. Snižuje dobu hospitalizace o 1 hodinu při podání."
+			},
+			"name": {
+				"eng": "Emergency Medkit",
+				"trans": "Nouzová lékárnička"
 			}
 		},
 		"energyGun": {
@@ -7202,6 +7716,12 @@
 				"trans": "Úroveň gangu"
 			}
 		},
+		"clanWar": {
+			"name": {
+				"eng": "Gang War Score",
+				"trans": "Skóre gangové války"
+			}
+		},
 		"level": {
 			"name": {
 				"eng": "Character Level",
@@ -7273,6 +7793,20 @@
 				"eng": "Stock Realized Profit",
 				"trans": "Zrealizovaný zisk z akcií"
 			}
+		}
+	},
+	"leaderboardDetails": {
+		"empty": {
+			"eng": "No rankings yet",
+			"trans": "Žádné žebříčky zatím"
+		},
+		"loading": {
+			"eng": "Loading rankings...",
+			"trans": "Načítání žebříčků..."
+		},
+		"warScore": {
+			"eng": "WAR SCORE",
+			"trans": "Skóre války"
 		}
 	},
 	"leaderboardTypes": {
@@ -7543,6 +8077,10 @@
 		"legendClaimable": {
 			"eng": "Claimable",
 			"trans": "K vyzvednutí"
+		},
+		"legendClaimed": {
+			"eng": "Claimed",
+			"trans": "Získáno"
 		},
 		"legendMilestone": {
 			"eng": "Milestone",
@@ -7817,6 +8355,16 @@
 				"eng": "System Message",
 				"trans": "Systémová zpráva"
 			}
+		},
+		"warAttackFailed": {
+			"attacker": {
+				"eng": "Your gang war strike against ${playerName} failed, you lost ${amount}",
+				"trans": "Váš útok v gangové válce proti ${playerName} selhal, ztratili jste ${amount}"
+			},
+			"defender": {
+				"eng": "${playerName} launched a gang war strike against you but you fought back and won",
+				"trans": "${playerName} spustil úder gangové války proti vám, ale vy jste se odrazili a zvítězili."
+			}
 		}
 	},
 	"mailDetails": {
@@ -8076,6 +8624,14 @@
 			"eng": "Black Market",
 			"trans": "Černý trh"
 		},
+		"clanUpkeep": {
+			"eng": "Gang Upkeep",
+			"trans": "Údržba gangu"
+		},
+		"clanWar": {
+			"eng": "Gang War",
+			"trans": "Válka gangů"
+		},
 		"currency": {
 			"eng": "Currency",
 			"trans": "Měna"
@@ -8095,10 +8651,6 @@
 		"followUpLottery": {
 			"eng": "Follow Up Lottery",
 			"trans": "Následující loterie"
-		},
-		"gangUpkeep": {
-			"eng": "Gang Upkeep",
-			"trans": "Údržba gangu"
 		},
 		"hideoutRaid": {
 			"eng": "Hideout Raid",
@@ -8265,6 +8817,18 @@
 		"noItem": {
 			"eng": "There is no item",
 			"trans": "Žádná položka."
+		}
+	},
+	"marketMyItemsPage": {
+		"emptySlot": {
+			"eng": "List Item",
+			"trans": "Položka seznamu"
+		},
+		"header": {
+			"title": {
+				"eng": "Market Listings",
+				"trans": "Tržní nabídky"
+			}
 		}
 	},
 	"marketPurchaseModal": {
@@ -8468,6 +9032,10 @@
 			"eng": "Level Up",
 			"trans": "Postoupit na úroveň"
 		},
+		"resonate": {
+			"eng": "Resonate",
+			"trans": "Rezonovat"
+		},
 		"stats": {
 			"title": {
 				"eng": "stats",
@@ -8633,6 +9201,24 @@
 		"noMercenaries": {
 			"eng": "You do not have any mercenaries in your contact",
 			"trans": "Nemáte v kontaktech žádné nájemníky."
+		},
+		"sort": {
+			"level": {
+				"eng": "Level",
+				"trans": "Úroveň"
+			},
+			"name": {
+				"eng": "Name",
+				"trans": "Jméno"
+			},
+			"skill": {
+				"eng": "Skill",
+				"trans": "Dovednost"
+			},
+			"tier": {
+				"eng": "Tier",
+				"trans": "Tier"
+			}
 		},
 		"tip": {
 			"default": {
@@ -8852,6 +9438,12 @@
 			"eng": "RESONANCE COMPLETE",
 			"trans": "Rezonance dokončena"
 		},
+		"mythicCinematic": {
+			"tapToContinue": {
+				"eng": "TAP SCREEN",
+				"trans": "KLEPNI NA OBRAZOVKU"
+			}
+		},
 		"mythicTitle1": {
 			"eng": "MYTHIC",
 			"trans": "MYTICKÝ"
@@ -8868,6 +9460,12 @@
 			"eng": "AWAKENING RESULT",
 			"trans": "Výsledek probuzení"
 		},
+		"standardAwakening": {
+			"tapToContinue": {
+				"eng": "TAP TO CONTINUE",
+				"trans": "Klikněte pro pokračování"
+			}
+		},
 		"sys": {
 			"protocol": {
 				"eng": "Awakening protocol finalized",
@@ -8881,10 +9479,6 @@
 				"eng": "Neural synchronization successful",
 				"trans": "Neurální synchronizace úspěšná"
 			}
-		},
-		"tapToContinue": {
-			"eng": "TAP TO CONTINUE",
-			"trans": "Klepněte pro pokračování"
 		}
 	},
 	"mercenarySelectPopup": {
@@ -9032,8 +9626,8 @@
 				"trans": "Přístup povolen"
 			},
 			"breachProgress": {
-				"eng": "BREACH PROGRESS",
-				"trans": "Postup průniku"
+				"eng": "BREACH PROGRESS: ${percent}%",
+				"trans": "Postup prolomení: ${percent}%"
 			},
 			"example": {
 				"eng": "Example of obfuscated code:",
@@ -9396,6 +9990,10 @@
 			"eng": "Eurodollars",
 			"trans": "eurodolary"
 		},
+		"deselectAll": {
+			"eng": "Deselect All",
+			"trans": "Odznačit vše"
+		},
 		"exchange": {
 			"eng": "Exchange",
 			"trans": "Výměna"
@@ -9445,8 +10043,8 @@
 			"trans": "Koupit"
 		},
 		"selectAll": {
-			"eng": "All",
-			"trans": "Vše"
+			"eng": "Select All",
+			"trans": "Vybrat vše"
 		},
 		"upgrade": {
 			"eng": "upgrade",
@@ -9456,11 +10054,11 @@
 	"modal": {
 		"selectAmountModal": {
 			"cancel": {
-				"eng": "cancel",
+				"eng": "Cancel",
 				"trans": "Zrušit"
 			},
 			"confirm": {
-				"eng": "confirm",
+				"eng": "Confirm",
 				"trans": "Potvrdit"
 			},
 			"invalidAmount": {
@@ -9998,6 +10596,10 @@
 				"trans": "Jste již v gangu."
 			}
 		},
+		"count": {
+			"eng": "${count} notifications",
+			"trans": "${count} oznámení"
+		},
 		"lobbyInvite": {
 			"accept": {
 				"eng": "Accept",
@@ -10012,6 +10614,12 @@
 			"title": {
 				"eng": "No notification",
 				"trans": "Žádné oznámení"
+			}
+		},
+		"warWarning": {
+			"joinDescription": {
+				"eng": "This gang is in WAR MODE. Joining will expose you to war PvP attacks for ${hours} hours lock. Continue?",
+				"trans": "Tento gang je ve válečném režimu. Připojením se vystavíte útokům PvP po dobu ${hours} hodin s uzamčením. Pokračovat?"
 			}
 		}
 	},
@@ -10386,6 +10994,14 @@
 			"upgrade": {
 				"eng": "Upgrade",
 				"trans": "vylepšení"
+			},
+			"warBuff": {
+				"eng": "War Buffs",
+				"trans": "Válečné bonusy"
+			},
+			"warIntel": {
+				"eng": "War Intel",
+				"trans": "Vojenské zpravodajství"
 			}
 		},
 		"generalStore": {
@@ -10607,6 +11223,46 @@
 		"upgradeButton": {
 			"eng": "Upgrade my equipment",
 			"trans": "Vylepši mi vybavení"
+		},
+		"warQuartermaster": {
+			"buffDeployment": {
+				"description": {
+					"eng": "Deploy tactical buffs for your gang",
+					"trans": "Nasadit taktické buffy pro tvůj gang"
+				},
+				"label": {
+					"eng": "TACTICAL OPS",
+					"trans": "Taktické operace"
+				},
+				"title": {
+					"eng": "War Buff Deployment",
+					"trans": "Nasazení bojového buffu"
+				}
+			},
+			"description": {
+				"eng": "A secure war command terminal where your gang reviews active enhancements and deploys new combat support buffs.",
+				"trans": "Bezpečný bojový řídicí terminál, kde váš gang přezkoumává aktivní vylepšení a nasazuje nové bojové podpůrné buffy."
+			},
+			"greetings": {
+				"eng": [
+					"War command online. State your objective.",
+					"Frontline telemetry synced. Buff deployment terminal is ready.",
+					"Gang war resources are live. Coordinate before you spend."
+				],
+				"trans": [
+					"Příkaz války je online. Uveďte svůj cíl.",
+					"Frontální telemetrie synchronizována. Terminál pro nasazení posílení je připraven.",
+					"Zdroje gangové války jsou k dispozici. Koordinujte se před výdajem."
+				]
+			},
+			"locationName": {
+				"eng": "War Command Center",
+				"trans": "Válečné řídicí středisko"
+			},
+			"npcName": {
+				"eng": "Quartermaster Vane",
+				"trans": "Intendant Vane"
+			}
 		},
 		"weaponSmith": {
 			"description": {
@@ -10980,6 +11636,28 @@
 		}
 	},
 	"playerDetailsPage": {
+		"action": {
+			"addFriend": {
+				"eng": "Add Friend",
+				"trans": "Přidat kamaráda"
+			},
+			"attack": {
+				"eng": "Attack",
+				"trans": "Útok"
+			},
+			"mail": {
+				"eng": "Mail",
+				"trans": "Pošta"
+			},
+			"unfriend": {
+				"eng": "Unfriend",
+				"trans": "Zrušit přátelství"
+			}
+		},
+		"attackHospitalized": {
+			"eng": "Target is currently hospitalized. Combat unavailable.",
+			"trans": "Cíl je momentálně hospitalizovaný. Boj není k dispozici."
+		},
 		"attribute": {
 			"confirm": {
 				"eng": "Apply",
@@ -10991,29 +11669,13 @@
 			}
 		},
 		"menu": {
-			"addFriend": {
-				"eng": "Add Friend",
-				"trans": "Přidat přátele"
-			},
 			"block": {
 				"eng": "Block",
 				"trans": "blokovat"
 			},
-			"close": {
-				"eng": "attack",
-				"trans": "Útok"
-			},
-			"removeFriend": {
-				"eng": "Remove Friend",
-				"trans": "Odebrat přítele"
-			},
 			"report": {
 				"eng": "Report",
 				"trans": "Zpráva"
-			},
-			"sendMessage": {
-				"eng": "Send Mail",
-				"trans": "Odeslat poštu"
 			},
 			"unblock": {
 				"eng": "Unblock",
@@ -11576,6 +12238,18 @@
 			"successBounty": {
 				"eng": "You received bounty of ${money1} and ${money2} for eliminating ${targetPlayer}",
 				"trans": "Obdrželi jste odměnu v hodnotě ${money1} a ${money2} za eliminaci ${targetPlayer}"
+			},
+			"warAttackAddedEnemy": {
+				"eng": "${playerName} struck you in a gang war assault, you lost ${currency}, this player has been added to your enemies list",
+				"trans": "${playerName} vás zasáhl při gangové válce, ztratil jsi ${currency}, tento hráč byl přidán do vašeho seznamu nepřátel"
+			},
+			"warAttackNoAddEnemy": {
+				"eng": "${playerName} struck you in a gang war assault, you lost ${currency}",
+				"trans": "${playerName} tě zasáhl během gangové války, ztratil jsi ${currency}"
+			},
+			"warAttackWin": {
+				"eng": "Your gang war strike against ${playerName} was successful, you earned ${currency}",
+				"trans": "Tvůj úspěšný gangový útok proti ${playerName} přinesl ${currency}."
 			}
 		},
 		"toast": {
@@ -11694,6 +12368,10 @@
 			"eng": "Daily Quests",
 			"trans": "Denní úkoly"
 		},
+		"inProgress": {
+			"eng": "In Progress",
+			"trans": "Probíhá"
+		},
 		"investigations": {
 			"eng": "Investigations",
 			"trans": "Vyšetřování"
@@ -11705,6 +12383,10 @@
 		"npcQuests": {
 			"eng": "Quests",
 			"trans": "Úkoly"
+		},
+		"readyToTurnIn": {
+			"eng": "Ready to Turn In",
+			"trans": "Připraveno k předání"
 		}
 	},
 	"questPreview": {
@@ -11877,6 +12559,10 @@
 		"reportReason": {
 			"eng": "Report Reason",
 			"trans": "Důvod nahlášení"
+		},
+		"reportSuccess": {
+			"eng": "Report submitted successfully",
+			"trans": "Zpráva byla úspěšně odeslána"
 		}
 	},
 	"reportType": {
@@ -12081,6 +12767,32 @@
 			"trans": "min"
 		}
 	},
+	"sendItem": {
+		"confirm": {
+			"eng": "Send",
+			"trans": "Odeslat"
+		},
+		"confirmDescription": {
+			"eng": "Send ${amount}x ${itemName} to this player?",
+			"trans": "Odeslat ${amount}x ${itemName} tomuto hráči?"
+		},
+		"confirmTitle": {
+			"eng": "Confirm Send",
+			"trans": "Potvrdit odeslání"
+		},
+		"success": {
+			"eng": "Sent ${amount}x ${itemName}",
+			"trans": "Odesláno ${amount}x ${itemName}"
+		}
+	},
+	"sendItemPage": {
+		"selectAmount": {
+			"title": {
+				"eng": "Select amount to send",
+				"trans": "Zvolte částku k odeslání"
+			}
+		}
+	},
 	"server": {
 		"clan": {
 			"join": {
@@ -12119,6 +12831,10 @@
 				"eng": "You cannot attack this player due to bounty contributor alt detection",
 				"trans": "Nelze útočit na tohoto hráče – byl rozpoznán jako alt účtu bounty přispěvatele."
 			},
+			"cannotEngageHospitalized": {
+				"eng": "This player is currently hospitalized and cannot be attacked",
+				"trans": "Tento hráč je momentálně hospitalizovaný a nelze ho napadnout."
+			},
 			"cannotEngageInDungeon": {
 				"eng": "You cannot engage in PvP while in a dungeon",
 				"trans": "PvP není povoleno, pokud se nacházíte v dungeoně."
@@ -12130,6 +12846,10 @@
 			"cannotEngageProtectedPlayer": {
 				"eng": "This player is protected with ${item}, you cannot engage them at this moment",
 				"trans": "Tento hráč je chráněn položkou ${item}, nemůžete ho v tuto chvíli napadnout."
+			},
+			"cannotEngageSuspended": {
+				"eng": "You cannot engage this player right now",
+				"trans": "Nyní s tímto hráčem nelze bojovat."
 			},
 			"combatNotFound": {
 				"eng": "Combat has ended",
@@ -12145,7 +12865,7 @@
 			},
 			"levelTooDiff": {
 				"eng": "You cannot engage a player that is more than ${levelDiff} levels higher or below you",
-				"trans": "Nelze zahájit boj s hráčem, který je o více než ${levelDiff} úrovní vyšší nebo nižší než vy."
+				"trans": "Nemůžete navázat boj s hráčem, který je o více než ${levelDiff} úrovní výše nebo níže než vy"
 			},
 			"notEnoughMoneyPvp": {
 				"eng": "You need at least ${money} to engage in PvP",
@@ -12166,6 +12886,14 @@
 			"pvpArrestDismissed": {
 				"eng": "This player has already been arrested",
 				"trans": "Hráč již byl zatčen."
+			},
+			"warCannotEngageAlt": {
+				"eng": "You cannot attack this player due to alt detection",
+				"trans": "Nelze útočit na tohoto hráče kvůli detekci alt."
+			},
+			"warLevelTooDiff": {
+				"eng": "You are too high level to attack this player",
+				"trans": "Máte příliš vysokou úroveň k útoku na tohoto hráče."
 			}
 		},
 		"combatLog": {
@@ -12294,6 +13022,10 @@
 			"cannotInviteSelf": {
 				"eng": "You cannot invite yourself",
 				"trans": "Nemůžeš se pozvat sám."
+			},
+			"cannotKickSelf": {
+				"eng": "You cannot kick yourself",
+				"trans": "Nemůžeš se kopnout."
 			},
 			"craeteNotIdle": {
 				"eng": "You must be idle to create a lobby",
@@ -12706,87 +13438,9 @@
 		}
 	},
 	"signalStrength": {
-		"info": {
-			"eng": "Signal increases only by recruiting mercenaries.",
-			"trans": "Signál se zvyšuje pouze při náboru najímanců."
-		},
-		"status": {
-			"building": {
-				"v1": {
-					"1": {
-						"eng": "Chatter detected",
-						"trans": "Chat zjištěn"
-					},
-					"2": {
-						"eng": "Names noted",
-						"trans": "Jména zaznamenána"
-					},
-					"3": {
-						"eng": "Signal building",
-						"trans": "Budování signálu"
-					}
-				}
-			},
-			"hot": {
-				"v1": {
-					"1": {
-						"eng": "Elite presence",
-						"trans": "Elitní přítomnost"
-					},
-					"2": {
-						"eng": "Strong resonance",
-						"trans": "Silná rezonance"
-					},
-					"3": {
-						"eng": "Lock pending",
-						"trans": "Čekání na zámek"
-					}
-				}
-			},
-			"peak": {
-				"v1": {
-					"1": {
-						"eng": "Signal locked",
-						"trans": "Signál zajištěn"
-					},
-					"2": {
-						"eng": "Elite ready",
-						"trans": "Elita připravena"
-					},
-					"3": {
-						"eng": "Contact imminent",
-						"trans": "Nadcházející kontakt"
-					}
-				}
-			},
-			"quiet": {
-				"v1": {
-					"1": {
-						"eng": "Online",
-						"trans": "Online"
-					},
-					"2": {
-						"eng": "Signal active",
-						"trans": "Signál aktivní"
-					}
-				}
-			},
-			"rising": {
-				"v1": {
-					"1": {
-						"eng": "Talent in range",
-						"trans": "Dovednost v dosahu"
-					},
-					"2": {
-						"eng": "Signal strong",
-						"trans": "Silný signál"
-					},
-					"3": {
-						"eng": "Interesting lead",
-						"trans": "Zajímavá stopa"
-					}
-				}
-			}
+		"popupContent": {
+			"eng": "Signal increases every time you recruit a mercenary.",
+			"trans": "Signál se zvyšuje pokaždé, když najmete zbrojníka."
 		}
 	},
 	"socialMedia": {
@@ -12838,6 +13492,14 @@
 		}
 	},
 	"stat": {
+		"afkTaskExpMult": {
+			"eng": "AFK Task EXP Multiplier",
+			"trans": "AFK úkolový multiplikátor EXP"
+		},
+		"afkTaskExpMultDesc": {
+			"eng": "Increases the EXP you receive from AFK tasks.",
+			"trans": "Zvyšuje EXP, který získáte z AFK úkolů."
+		},
 		"armor": {
 			"eng": "Armor",
 			"trans": "Páncír"
@@ -12966,6 +13628,14 @@
 			"eng": "Increases your chance to escape from enemies.",
 			"trans": "Zvyšuje šanci na únik před nepřáteli."
 		},
+		"gatherExpMult": {
+			"eng": "Auto Gather EXP Multiplier",
+			"trans": "Násobič EXP při automatickém sběru"
+		},
+		"gatherExpMultDesc": {
+			"eng": "Increases the EXP you receive from auto gather.",
+			"trans": "Zvyšuje EXP získané z automatického sběru."
+		},
 		"headshotMult": {
 			"eng": "Headshot Multiplier",
 			"trans": "Násobek zásahu do hlavy"
@@ -13078,6 +13748,16 @@
 		}
 	},
 	"statusEffect": {
+		"afkTaskExpMult1": {
+			"desc": {
+				"eng": "Increases the EXP you receive from AFK tasks by ${percent}%",
+				"trans": "Zvyšuje XP z AFK úkolů o ${percent}%"
+			},
+			"name": {
+				"eng": "AFK Task EXP Multiplier",
+				"trans": "AFK úkolový multiplikátor EXP"
+			}
+		},
 		"burn": {
 			"combatMsg": {
 				"eng": "${name} received ${damage} damage from burning",
@@ -13112,6 +13792,36 @@
 				"trans": "Zvýšení obrany"
 			}
 		},
+		"gatherExpMult1": {
+			"desc": {
+				"eng": "Increases the EXP you receive from auto gather by ${percent}%",
+				"trans": "Zvyšuje EXP z automatického sběru o ${percent}%."
+			},
+			"name": {
+				"eng": "Auto Gather EXP Multiplier I",
+				"trans": "Multiplikátor automatického sběru XP I"
+			}
+		},
+		"gatherExpMult2": {
+			"desc": {
+				"eng": "Increases the EXP you receive from auto gather by ${percent}%",
+				"trans": "Zvýší EXP z automatického sběru o ${percent}%"
+			},
+			"name": {
+				"eng": "Auto Gather EXP Multiplier II",
+				"trans": "Automatický sběr EXP násobek II"
+			}
+		},
+		"gatherExpMult3": {
+			"desc": {
+				"eng": "Increases the EXP you receive from auto gather by ${percent}%",
+				"trans": "Zvyšuje EXP, kterou dostanete při automatickém sběru o ${percent}%."
+			},
+			"name": {
+				"eng": "Auto Gather EXP Multiplier III",
+				"trans": "Automatický multiplikátor EXP III"
+			}
+		},
 		"heal": {
 			"combatMsg": {
 				"eng": "${name} recovered ${heal} health",
@@ -13124,6 +13834,16 @@
 			"name": {
 				"eng": "Healed",
 				"trans": "Uzdraven"
+			}
+		},
+		"hospitalized": {
+			"desc": {
+				"eng": "You are recovering from injuries sustained in gang war combat. You cannot participate in war combat while hospitalized.",
+				"trans": "Obnovujete se ze zranění, která jste utrpěli při boji mezi gangy. Během hospitalizace nelze vstoupit do bojových operací."
+			},
+			"name": {
+				"eng": "Hospitalized",
+				"trans": "Hospitalizovaný"
 			}
 		},
 		"lootIncrease": {
@@ -14649,6 +15369,16 @@
 			}
 		}
 	},
+	"vaultHandler": {
+		"depositSuccess": {
+			"eng": "Stored ${count} item(s) in vault",
+			"trans": "Uloženo ${count} položek v trezoru"
+		},
+		"withdrawSuccess": {
+			"eng": "Retrieved ${count} item(s) from vault",
+			"trans": "Získáno ${count} položek z trezoru"
+		}
+	},
 	"vaultPage": {
 		"addItemButton": {
 			"title": {
@@ -14685,6 +15415,54 @@
 		"vaultSlots": {
 			"eng": "Slots ${size}",
 			"trans": "Sloty ${size}"
+		}
+	},
+	"warBuffDeployment": {
+		"buffLabel": {
+			"eng": "Tactical Buff",
+			"trans": "Taktické posílení"
+		},
+		"confirmDeployDescription": {
+			"eng": "Deploy ${buffName} for your gang?",
+			"trans": "Nasadit ${buffName} do vašeho gangu?"
+		},
+		"confirmDeployTitle": {
+			"eng": "Confirm Deployment",
+			"trans": "Potvrdit nasazení"
+		},
+		"deployButton": {
+			"eng": "Deploy",
+			"trans": "Nasadit"
+		},
+		"error": {
+			"alreadyActive": {
+				"eng": "This buff is already active",
+				"trans": "Tento buff je už aktivní."
+			},
+			"leaderOnly": {
+				"eng": "Only the gang leader can deploy war buffs",
+				"trans": "Pouze vedoucí gangu může nasadit bojové buffy."
+			},
+			"notEnoughWarPoints": {
+				"eng": "Your gang does not have enough war points",
+				"trans": "Tvůj gang nemá dostatek bodů války."
+			},
+			"notInGang": {
+				"eng": "You must be in a gang to access war logistics",
+				"trans": "Pro přístup k vojenské logistice musíte být v gangu."
+			},
+			"warStateRequired": {
+				"eng": "Your gang must be in war state to deploy war buffs",
+				"trans": "Váš gang musí být v bojovém stavu, aby mohl nasadit bojové bonusy."
+			}
+		},
+		"statusActive": {
+			"eng": "Active",
+			"trans": "Aktivní"
+		},
+		"warPointsLabel": {
+			"eng": "War Points",
+			"trans": "Válečné body"
 		}
 	},
 	"webHomePage": {
@@ -14860,6 +15638,14 @@
 		}
 	},
 	"wikiPage": {
+		"noResults": {
+			"eng": "No results found",
+			"trans": "Nenalezeny žádné výsledky"
+		},
+		"searchPlaceholder": {
+			"eng": "Search wiki...",
+			"trans": "Vyhledej na wiki..."
+		},
 		"subtitle": {
 			"eng": "the free encyclopedia that anyone can edit",
 			"trans": "volná encyklopedie, kterou může upravovat kdokoli"
@@ -14948,6 +15734,18 @@
 			"announcement": {
 				"eng": "${playerName} upgraded ${item} to ${tier}!",
 				"trans": "${playerName} vylepšil ${item} na úroveň ${tier}!"
+			}
+		},
+		"warStateOff": {
+			"announcement": {
+				"eng": "${gang} has stood down from war.",
+				"trans": "${gang} odstoupil z války."
+			}
+		},
+		"warStateOn": {
+			"announcement": {
+				"eng": "${gang} has declared war!",
+				"trans": "${gang} vyhlásil válku!"
 			}
 		}
 	}
