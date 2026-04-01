@@ -351,6 +351,18 @@
 			}
 		}
 	},
+	"adminModule": {
+		"error": {
+			"playerNotFound": {
+				"eng": "Player not found",
+				"trans": "Joueur introuvable"
+			},
+			"unauthorized": {
+				"eng": "Unauthorized",
+				"trans": "Non autorisé"
+			}
+		}
+	},
 	"alertModal": {
 		"ok": {
 			"eng": "OK",
@@ -788,6 +800,16 @@
 		}
 	},
 	"autoFarm": {
+		"boostToggle": {
+			"off": {
+				"eng": "Off",
+				"trans": "Désactivé"
+			},
+			"on": {
+				"eng": "On",
+				"trans": "Activé"
+			}
+		},
 		"interrupt": {
 			"eng": "Interrupt",
 			"trans": "Interrompre"
@@ -1444,6 +1466,36 @@
 				"trans": "Multiplicateur EXP Auto Collecte III"
 			}
 		},
+		"hospitalizationReduction1": {
+			"description": {
+				"eng": "Reduce hospitalization duration for all gang members by ${percent}% for ${hours} hours",
+				"trans": "Réduire la durée d'hospitalisation de tous les membres du gang de ${percent}% pendant ${hours} heures"
+			},
+			"name": {
+				"eng": "Hospitalization Reduction I",
+				"trans": "Réduction de l'hospitalisation I"
+			}
+		},
+		"hospitalizationReduction2": {
+			"description": {
+				"eng": "Reduce hospitalization duration for all gang members by ${percent}% for ${hours} hours",
+				"trans": "Réduire la durée d'hospitalisation de tous les membres du gang de ${percent}% pendant ${hours} heures"
+			},
+			"name": {
+				"eng": "Hospitalization Reduction II",
+				"trans": "Réduction de l'hospitalisation II"
+			}
+		},
+		"hospitalizationReduction3": {
+			"description": {
+				"eng": "Reduce hospitalization duration for all gang members by ${percent}% for ${hours} hours",
+				"trans": "Réduire la durée d'hospitalisation de tous les membres du gang de ${percent}% pendant ${hours} heures"
+			},
+			"name": {
+				"eng": "Hospitalization Reduction III",
+				"trans": "Réduction de l'hospitalisation III"
+			}
+		},
 		"lootIncrease": {
 			"description": {
 				"eng": "Increase loot dropped by enemies and chests in strongholds for all strongholds created by your gang members in ${minutes} minutes",
@@ -1453,6 +1505,50 @@
 				"eng": "Loot Increase",
 				"trans": "Augmentation de butin"
 			}
+		},
+		"pvpMoneyLossReduction1": {
+			"description": {
+				"eng": "Reduce Eurodollar loss from PvP defeats for all gang members by ${percent}% for ${hours} hours",
+				"trans": "Réduire la perte d'EuroDollars des membres du gang lors des défaites PvP de ${percent}% pendant ${hours} heures"
+			},
+			"name": {
+				"eng": "PvP Money Loss Reduction I",
+				"trans": "Réduction des pertes d'argent en PvP I"
+			}
+		},
+		"pvpMoneyLossReduction2": {
+			"description": {
+				"eng": "Reduce Eurodollar loss from PvP defeats for all gang members by ${percent}% for ${hours} hours",
+				"trans": "Réduire de ${percent} % les pertes d'Eurodollars lors de défaites PvP pour tous les membres du gang pendant ${hours} heures"
+			},
+			"name": {
+				"eng": "PvP Money Loss Reduction II",
+				"trans": "Réduction de la perte d'argent PvP II"
+			}
+		},
+		"pvpMoneyLossReduction3": {
+			"description": {
+				"eng": "Reduce Eurodollar loss from PvP defeats for all gang members by ${percent}% for ${hours} hours",
+				"trans": "Réduire la perte d'EuroDollars des membres du gang lors des défaites PvP de ${percent}% pendant ${hours} heures"
+			},
+			"name": {
+				"eng": "PvP Money Loss Reduction III",
+				"trans": "Réduction de la perte d'argent PvP III"
+			}
+		}
+	},
+	"buffGroup": {
+		"gatherExpMult": {
+			"eng": "Auto Gather EXP Multiplier",
+			"trans": "Multiplicateur d'XP de récolte automatique"
+		},
+		"hospitalizationReduction": {
+			"eng": "Hospitalization Reduction",
+			"trans": "Réduction de l'hospitalisation"
+		},
+		"pvpMoneyLossReduction": {
+			"eng": "PvP Money Loss Reduction",
+			"trans": "Réduction de la perte d'argent PvP"
 		}
 	},
 	"bundle": {
@@ -1691,6 +1787,14 @@
 			}
 		},
 		"error": {
+			"cannotKickByRankHierarchy": {
+				"eng": "You can only kick members with a lower rank than yours",
+				"trans": "Vous ne pouvez kickez que les membres de rang inférieur au vôtre."
+			},
+			"cannotKickLeader": {
+				"eng": "You cannot kick the leader",
+				"trans": "Impossible de virer le chef."
+			},
 			"cannotKickSelf": {
 				"eng": "You cannot kick yourself",
 				"trans": "Vous ne pouvez pas vous donner un coup de pied."
@@ -1720,18 +1824,6 @@
 				"trans": "Remarque :"
 			}
 		},
-		"notification": {
-			"collapsed": {
-				"body": {
-					"eng": "Your gang has collapsed due to lack of resources and funds.",
-					"trans": "Votre gang s'est effondré faute de ressources et d'argent."
-				},
-				"title": {
-					"eng": "Your gang has collapsed!",
-					"trans": "Votre gang s'est effondré !"
-				}
-			}
-		},
 		"playerList": {
 			"header": {
 				"eng": "Personnel Roster",
@@ -1749,12 +1841,6 @@
 		"requestSent": {
 			"eng": "Request sent successfully",
 			"trans": "Demande envoyée avec succès"
-		},
-		"role": {
-			"commander": {
-				"eng": "COMMANDER",
-				"trans": "COMMANDANT"
-			}
 		},
 		"war": {
 			"badge": {
@@ -1981,20 +2067,22 @@
 			}
 		}
 	},
+	"clanPermission": {
+		"error": {
+			"notMember": {
+				"eng": "You are not a member of this gang",
+				"trans": "Vous n'êtes pas membre de ce gang"
+			},
+			"targetRequired": {
+				"eng": "Target member was not found in this gang",
+				"trans": "Membre cible non trouvé dans ce gang"
+			}
+		}
+	},
 	"clanPlayerListPage": {
 		"memberCount": {
 			"eng": "${count} members",
 			"trans": "${count} membres"
-		}
-	},
-	"clanPlayerPermissionModal": {
-		"subtitle": {
-			"eng": "Editing permission for ${playerName}",
-			"trans": "Autorisation de modification pour ${playerName}"
-		},
-		"title": {
-			"eng": "Edit Permissions",
-			"trans": "Modifier les autorisations"
 		}
 	},
 	"clanPlayerPopup": {
@@ -2010,9 +2098,13 @@
 			"eng": "kick player",
 			"trans": "expulser le joueur"
 		},
-		"setPermissionButton": {
-			"eng": "Edit Permissions",
-			"trans": "Modifier les autorisations"
+		"manageRankButton": {
+			"eng": "Manage Rank",
+			"trans": "Gérer le rang"
+		},
+		"rank": {
+			"eng": "Rank",
+			"trans": "Rang"
 		},
 		"statusActive": {
 			"eng": "ACTIVE",
@@ -2043,7 +2135,105 @@
 			"trans": "Temps de recharge : ${time}"
 		}
 	},
+	"clanRank": {
+		"command": {
+			"demoteAllRanksSuccess": {
+				"eng": "All member ranks have been reset to Recruit",
+				"trans": "Tous les rangs des membres ont été réinitialisés à Recrue"
+			}
+		},
+		"commander": {
+			"name": {
+				"eng": "Commander",
+				"trans": "Commandant"
+			}
+		},
+		"error": {
+			"alreadyAtTargetRank": {
+				"eng": "Target member is already at this rank",
+				"trans": "Le membre cible est déjà à ce rang"
+			},
+			"cannotChangeLeaderRank": {
+				"eng": "You cannot change the leader rank",
+				"trans": "Vous ne pouvez pas changer le rang du leader"
+			},
+			"cannotChangeOwnRank": {
+				"eng": "You cannot change your own rank",
+				"trans": "Vous ne pouvez pas changer votre rang."
+			},
+			"cannotModifyByRankHierarchy": {
+				"eng": "Your rank cannot modify this member to the requested rank",
+				"trans": "Votre rang ne vous permet pas de modifier ce membre vers le rang demandé."
+			},
+			"demotionCooldown": {
+				"eng": "Cannot demote this member for ${days} more days",
+				"trans": "Impossible de rétrograder ce membre pendant encore ${days} jours."
+			},
+			"hiddenRankNotAssignable": {
+				"eng": "This rank cannot be assigned manually",
+				"trans": "Ce rang ne peut pas être attribué manuellement"
+			},
+			"notEnoughWarPointsForPromotion": {
+				"eng": "Not enough war points for immediate prorated promotion charge. Required: ${required}",
+				"trans": "Pas assez de points de guerre pour le coût pro-rata de promotion immédiat. Requis : ${required}"
+			},
+			"rankRequired": {
+				"eng": "A target rank is required",
+				"trans": "Un rang cible est requis"
+			},
+			"targetNotFound": {
+				"eng": "Target member was not found in this gang",
+				"trans": "Membre cible non trouvé dans ce gang"
+			}
+		},
+		"leader": {
+			"name": {
+				"eng": "Leader",
+				"trans": "Leader"
+			}
+		},
+		"member": {
+			"name": {
+				"eng": "Member",
+				"trans": "Membre"
+			}
+		},
+		"officer": {
+			"name": {
+				"eng": "Officer",
+				"trans": "Officier"
+			}
+		},
+		"recruit": {
+			"name": {
+				"eng": "Recruit",
+				"trans": "Recruter"
+			}
+		},
+		"seniorOfficer": {
+			"name": {
+				"eng": "Senior Officer",
+				"trans": "Officier Senior"
+			}
+		},
+		"success": {
+			"rankUpdated": {
+				"eng": "Member rank has been updated",
+				"trans": "Le rang du membre a été actualisé."
+			}
+		},
+		"veteran": {
+			"name": {
+				"eng": "Veteran",
+				"trans": "Vétéran"
+			}
+		}
+	},
 	"clanSearchPage": {
+		"description": {
+			"eng": "Trace active gangs by name or punch in an exact tag to jump straight to the right crew.",
+			"trans": "Localisez les gangs actifs par leur nom ou saisissez une balise exacte pour accéder directement à la bonne équipe."
+		},
 		"noClan": {
 			"ConfirmJoinButton": {
 				"description": {
@@ -2072,15 +2262,23 @@
 				}
 			},
 			"title": {
-				"eng": "No gang found",
-				"trans": "Aucun gang trouvé"
+				"eng": "No gang matched your search",
+				"trans": "Aucun gang ne correspond à votre recherche"
 			}
 		},
 		"searchBox": {
+			"description": {
+				"eng": "Search by gang name or exact tag",
+				"trans": "Rechercher par nom de gang ou tag exact"
+			},
 			"title": {
-				"eng": "Gang name",
-				"trans": "Nom de gang"
+				"eng": "Gang name or tag",
+				"trans": "Nom du gang ou tag"
 			}
+		},
+		"title": {
+			"eng": "Gang directory",
+			"trans": "Répertoire des gangs"
 		}
 	},
 	"clanTab": {
@@ -2167,6 +2365,10 @@
 			}
 		},
 		"error": {
+			"buffAlreadyActive": {
+				"eng": "This war buff is already active",
+				"trans": "Ce buff de guerre est déjà actif"
+			},
 			"cannotToggleMember": {
 				"eng": "Cannot toggle this member's participation. They may not exist or cooldown is active",
 				"trans": "Impossible de basculer la participation de ce membre. Il peut ne pas exister ou le temps de recharge est actif."
@@ -2178,6 +2380,10 @@
 			"disbandWarActive": {
 				"eng": "You cannot disband the gang while war mode is active",
 				"trans": "Vous ne pouvez pas dissoudre le gang tant que le mode guerre est actif"
+			},
+			"higherTierBuffAlreadyActive": {
+				"eng": "A higher-tier ${buffName} buff is already active",
+				"trans": "Un buff ${buffName} de rang supérieur est déjà actif"
 			},
 			"kickLocked": {
 				"eng": "Cannot kick a member who has recently engaged in war combat",
@@ -2252,6 +2458,10 @@
 			"currentScore": {
 				"eng": "TOTAL WAR SCORE",
 				"trans": "Score total de guerre"
+			},
+			"season": {
+				"eng": "SEASON // ${season}",
+				"trans": "SAISON // ${season}"
 			},
 			"stack": {
 				"eng": "STACK",
@@ -4333,6 +4543,12 @@
 		"kicked": {
 			"eng": "You have been kicked by ${kickerName} from ${clanName}",
 			"trans": "Vous avez été expulsé par ${kickerName} du clan ${clanName}"
+		},
+		"levelError": {
+			"notEnoughLevel": {
+				"eng": "You must be atleast ${level} to create a gang",
+				"trans": "Vous devez être de niveau ${level} minimum pour créer un gang"
+			}
 		},
 		"nameError": {
 			"alreadyExists": {
@@ -8217,6 +8433,16 @@
 		"skipAnimation": {
 			"eng": "Skip Animation",
 			"trans": "Passer l'animation"
+		},
+		"skipAnimationToggle": {
+			"off": {
+				"eng": "Off",
+				"trans": "Désactivé"
+			},
+			"on": {
+				"eng": "On",
+				"trans": "Activé"
+			}
 		}
 	},
 	"lotteryType": {
@@ -8418,6 +8644,10 @@
 			"notFriend": {
 				"eng": "This player only allows mails from players in their friend list.",
 				"trans": "Ce joueur autorise les messages uniquement des joueurs de sa liste d'amis."
+			},
+			"spamCooldown": {
+				"eng": "You are sending mails too fast. Please wait ${waitMinutes}m ${waitSeconds}s before sending mail again.",
+				"trans": "Vous envoyez des courriels trop vite. Veuillez attendre ${waitMinutes}m ${waitSeconds}s avant de renvoyer un courriel."
 			}
 		}
 	},
@@ -8733,6 +8963,10 @@
 			}
 		},
 		"error": {
+			"altListingBlocked": {
+				"eng": "You cannot bid on or buy out a market listing from an alternate account.",
+				"trans": "Vous ne pouvez pas enchérir ou acheter une annonce de marché depuis un compte secondaire."
+			},
 			"bidLowerThanCurrentBid": {
 				"eng": "You cannot place bid lower than current bid",
 				"trans": "Vous ne pouvez pas placer une enchère inférieure à l'enchère actuelle"
@@ -8874,6 +9108,14 @@
 			"title": {
 				"eng": "Buyout",
 				"trans": "Rachat"
+			},
+			"toggleOff": {
+				"eng": "Off",
+				"trans": "Désactivé"
+			},
+			"toggleOn": {
+				"eng": "On",
+				"trans": "Activé"
 			}
 		},
 		"duration": {
@@ -8922,6 +9164,14 @@
 			"title": {
 				"eng": "Starting bid",
 				"trans": "Offre de départ"
+			},
+			"toggleOff": {
+				"eng": "Off",
+				"trans": "Désactivé"
+			},
+			"toggleOn": {
+				"eng": "On",
+				"trans": "Activé"
 			}
 		}
 	},
@@ -11262,6 +11512,20 @@
 			"npcName": {
 				"eng": "Quartermaster Vane",
 				"trans": "Intendant Vane"
+			},
+			"rankRequisition": {
+				"description": {
+					"eng": "Manage gang member ranks and clearances",
+					"trans": "Gérer les rangs et les accès des membres de gang"
+				},
+				"label": {
+					"eng": "TACTICAL OPS",
+					"trans": "Opérations Tactiques"
+				},
+				"title": {
+					"eng": "Rank Requisition",
+					"trans": "Requête de rang"
+				}
 			}
 		},
 		"weaponSmith": {
@@ -11520,19 +11784,63 @@
 	"permission": {
 		"clanEditMotto": {
 			"eng": "Edit Motto",
+			"noPermission": {
+				"eng": "You do not have permission to edit the gang motto",
+				"trans": "Vous n'avez pas la permission de modifier le mot de ralliement de la bande."
+			},
 			"trans": "Modifier le slogan"
 		},
 		"clanInvite": {
 			"eng": "Invite",
+			"noPermission": {
+				"eng": "You do not have permission to send gang invites",
+				"trans": "Vous n'avez pas la permission d'envoyer des invitations de gang"
+			},
 			"trans": "Inviter"
 		},
 		"clanKick": {
 			"eng": "Kick",
+			"noPermission": {
+				"eng": "You do not have permission to kick gang members",
+				"trans": "Vous n'avez pas la permission de kick les membres de gang."
+			},
 			"trans": "Coup de pied"
+		},
+		"clanPostNotice": {
+			"eng": "Post Notice",
+			"noPermission": {
+				"eng": "You do not have permission to post gang notices",
+				"trans": "Vous n'avez pas la permission de poster des annonces de gang"
+			},
+			"trans": "Publier une annonce"
+		},
+		"clanPromote": {
+			"eng": "Promote/Demote Members",
+			"noPermission": {
+				"eng": "You do not have permission to change ranks",
+				"trans": "Vous n'avez pas la permission de changer les rangs"
+			},
+			"trans": "Promouvoir/Dégrader les membres"
 		},
 		"clanSetImage": {
 			"eng": "Set Image",
+			"noPermission": {
+				"eng": "You do not have permission to set the gang image",
+				"trans": "Vous n'avez pas la permission de définir l'image du gang"
+			},
 			"trans": "Définir l'image"
+		},
+		"clanTogglePublic": {
+			"eng": "Toggle Public",
+			"noPermission": {
+				"eng": "You do not have permission to change gang visibility",
+				"trans": "Vous n'avez pas la permission de modifier la visibilité du gang"
+			},
+			"trans": "Basculer Public"
+		},
+		"noPermission": {
+			"eng": "You do not have permission to perform this action",
+			"trans": "Vous n'avez pas la permission d'effectuer cette action"
 		}
 	},
 	"placeHitPage": {
@@ -11599,8 +11907,8 @@
 			}
 		},
 		"reportSuccess": {
-			"eng": "You have reported ${}",
-			"trans": "Vous avez signalé ${}"
+			"eng": "You have reported ${playerName}",
+			"trans": "Vous avez signalé ${playerName}"
 		}
 	},
 	"playerAssetsTab": {
@@ -11706,6 +12014,18 @@
 			"stats": {
 				"eng": "Stats",
 				"trans": "Statistiques"
+			}
+		}
+	},
+	"playerHiddenInfo": {
+		"renameHistory": {
+			"empty": {
+				"eng": "No rename history",
+				"trans": "Pas d'historique de renommage"
+			},
+			"title": {
+				"eng": "Rename History",
+				"trans": "Historique des renommages"
 			}
 		}
 	},
@@ -12427,6 +12747,106 @@
 			"trans": "vide"
 		}
 	},
+	"rankManagement": {
+		"demotionLockedDays": {
+			"eng": "DEMOTION LOCKED: ${days} DAYS REMAINING",
+			"trans": "Rétrogradation verrouillée : ${days} jours restants"
+		},
+		"finalConfirmButton": {
+			"eng": "CONFIRM PROMOTION",
+			"trans": "Confirmer la promotion"
+		},
+		"finalConfirmDescription": {
+			"eng": "Promote ${memberName} from ${currentRank} to ${targetRank}. Upkeep will be ${cost} war points / mo.",
+			"trans": "Promouvoir ${memberName} de ${currentRank} à ${targetRank}. L'entretien sera de ${cost} points de guerre / mois."
+		},
+		"finalConfirmTitle": {
+			"eng": "CONFIRM RANK ASSIGNMENT",
+			"trans": "Confirmer l'attribution du rang"
+		},
+		"immediateChargeLabel": {
+			"eng": "IMMEDIATE CHARGE",
+			"trans": "Charge immédiate"
+		},
+		"inheritLowerRankPermissions": {
+			"eng": "Includes lower rank permissions",
+			"trans": "Inclut les permissions des rangs inférieurs"
+		},
+		"lowWarPointsWarning": {
+			"eng": "Warning: current war points (${current}) are below immediate prorated charge (${required}).",
+			"trans": "Avertissement : les points de guerre actuels (${current}) sont inférieurs à la charge proratisée immédiate (${required})."
+		},
+		"noAdditionalPermissions": {
+			"eng": "No additional permissions",
+			"trans": "Pas de permissions supplémentaires"
+		},
+		"noEligibleMembers": {
+			"eng": "No eligible members",
+			"trans": "Aucun membre éligible"
+		},
+		"promoteError": {
+			"eng": "Failed to promote member. Please try again.",
+			"trans": "Échec de la promotion du membre. Veuillez réessayer."
+		},
+		"reviewPromotionButton": {
+			"eng": "REVIEW PROMOTION",
+			"trans": "Promotion d'avis"
+		},
+		"selectButton": {
+			"eng": "[SELECT]",
+			"trans": "Sélectionner"
+		},
+		"selectMemberDesc": {
+			"eng": "Select a member to promote to ${rank}. Final review will show immediate prorated charge and monthly upkeep (${cost} war points / mo).",
+			"trans": "Sélectionnez un membre à promouvoir au rang ${rank}. La révision finale affichera les frais proratés immédiats et les coûts d'entretien mensuels (${cost} points de guerre / mois)."
+		},
+		"selectMemberFirstButton": {
+			"eng": "SELECT A MEMBER",
+			"trans": "Sélectionner un membre"
+		},
+		"selectMemberTitle": {
+			"eng": "PROMOTE TO ${rank}",
+			"trans": "Promouvoir à ${rank}"
+		},
+		"selectedButton": {
+			"eng": "[SELECTED]",
+			"trans": "Sélectionné"
+		},
+		"status": {
+			"authorized": {
+				"eng": "Authorized",
+				"trans": "Autorisé"
+			},
+			"canManage": {
+				"eng": "Tap a rank below to manage members",
+				"trans": "Cliquez sur un rang ci-dessous pour gérer les membres"
+			},
+			"cannotManage": {
+				"eng": "Promote permission required to manage ranks",
+				"trans": "Permission de promotion requise pour gérer les rangs"
+			},
+			"locked": {
+				"eng": "Locked",
+				"trans": "Verrouillé"
+			},
+			"terminalState": {
+				"eng": "Terminal Access",
+				"trans": "Accès au terminal"
+			}
+		},
+		"unknownRank": {
+			"eng": "UNKNOWN",
+			"trans": "Inconnu"
+		},
+		"warPoints": {
+			"eng": "war points / mo",
+			"trans": "Points de guerre / millions"
+		},
+		"warPointsLabel": {
+			"eng": "War Points",
+			"trans": "Points de guerre"
+		}
+	},
 	"realtime": {
 		"error": {
 			"notSubscribed": {
@@ -12913,10 +13333,6 @@
 			}
 		},
 		"createCharacter": {
-			"ipBanned": {
-				"eng": "Registration is not available from your network, (IP banned)",
-				"trans": "L'inscription n'est pas disponible depuis votre réseau (IP bannie)."
-			},
 			"nameAlreadyExists": {
 				"eng": "the name \"${name}\" is already taken",
 				"trans": "le nom \"${name}\" est déjà pris"
@@ -13378,6 +13794,16 @@
 			"eng": "Show translated chat messages in the global chat",
 			"trans": "Afficher les traductions dans le chat global"
 		},
+		"toggle": {
+			"off": {
+				"eng": "Off",
+				"trans": "Désactivé"
+			},
+			"on": {
+				"eng": "On",
+				"trans": "Activé"
+			}
+		},
 		"zoom": {
 			"eng": "UI Scaling (Experimental)",
 			"trans": "Mise à l'échelle de l'interface (Expérimental)"
@@ -13660,6 +14086,14 @@
 			"eng": "Increases your maximum health.",
 			"trans": "Augmente votre santé maximale."
 		},
+		"hospitalizationReduction": {
+			"eng": "Hospitalization Reduction",
+			"trans": "Réduction de l'hospitalisation"
+		},
+		"hospitalizationReductionDesc": {
+			"eng": "Reduces the duration of hospitalization.",
+			"trans": "Réduit la durée d'hospitalisation."
+		},
 		"int": {
 			"eng": "Intelligence",
 			"trans": "Intelligence"
@@ -13699,6 +14133,14 @@
 		"pvpDmgReceivedMultDesc": {
 			"eng": "Increases the damage you receive from players.",
 			"trans": "Augmente les dégâts que vous recevez des joueurs."
+		},
+		"pvpMoneyLossReduction": {
+			"eng": "PvP Money Loss Reduction",
+			"trans": "Réduction de la perte d'argent PvP"
+		},
+		"pvpMoneyLossReductionDesc": {
+			"eng": "Reduces the Eurodollars you lose when defeated in PvP.",
+			"trans": "Réduit les Eurodollars que vous perdez en PvP."
 		},
 		"raidExpMult": {
 			"eng": "Hideout Raid EXP Multiplier",
@@ -13836,6 +14278,36 @@
 				"trans": "Soigné"
 			}
 		},
+		"hospitalizationReduction1": {
+			"desc": {
+				"eng": "Reduces hospitalization duration by ${percent}%",
+				"trans": "Réduit la durée d'hospitalisation de ${percent}%"
+			},
+			"name": {
+				"eng": "Hospitalization Reduction I",
+				"trans": "Réduction de l'hospitalisation I"
+			}
+		},
+		"hospitalizationReduction2": {
+			"desc": {
+				"eng": "Reduces hospitalization duration by ${percent}%",
+				"trans": "Réduit la durée d'hospitalisation de ${percent}%"
+			},
+			"name": {
+				"eng": "Hospitalization Reduction II",
+				"trans": "Réduction de l'hospitalisation II"
+			}
+		},
+		"hospitalizationReduction3": {
+			"desc": {
+				"eng": "Reduces hospitalization duration by ${percent}%",
+				"trans": "Réduit la durée d'hospitalisation de ${percent}%"
+			},
+			"name": {
+				"eng": "Hospitalization Reduction III",
+				"trans": "Réduction de l'hospitalisation III"
+			}
+		},
 		"hospitalized": {
 			"desc": {
 				"eng": "You are recovering from injuries sustained in gang war combat. You cannot participate in war combat while hospitalized.",
@@ -13898,6 +14370,36 @@
 			"name": {
 				"eng": "Hostile",
 				"trans": "Hostile"
+			}
+		},
+		"pvpMoneyLossReduction1": {
+			"desc": {
+				"eng": "Reduces Eurodollar loss from PvP defeats by ${percent}%",
+				"trans": "Réduit la perte d'EuroDollar lors des défaites PvP de ${percent}%"
+			},
+			"name": {
+				"eng": "PvP Money Loss Reduction I",
+				"trans": "Réduction des pertes d'argent en PvP I"
+			}
+		},
+		"pvpMoneyLossReduction2": {
+			"desc": {
+				"eng": "Reduces Eurodollar loss from PvP defeats by ${percent}%",
+				"trans": "Réduit de ${percent}% la perte d'eurodollars lors des défaites PvP"
+			},
+			"name": {
+				"eng": "PvP Money Loss Reduction II",
+				"trans": "Réduction de la perte d'argent PvP II"
+			}
+		},
+		"pvpMoneyLossReduction3": {
+			"desc": {
+				"eng": "Reduces Eurodollar loss from PvP defeats by ${percent}%",
+				"trans": "Réduit de ${percent}% la perte d'eurodollars lors des défaites PvP"
+			},
+			"name": {
+				"eng": "PvP Money Loss Reduction III",
+				"trans": "Réduction de la perte d'argent PvP III"
 			}
 		},
 		"pvpProtection": {
@@ -15015,6 +15517,20 @@
 				"eng": "You need to be level ${level} to use auto combat",
 				"trans": "Vous devez être au niveau ${level} pour utiliser le combat automatique"
 			},
+			"autoToggle": {
+				"off": {
+					"eng": "Off",
+					"trans": "Désactivé"
+				},
+				"on": {
+					"eng": "On",
+					"trans": "Activer"
+				},
+				"title": {
+					"eng": "auto",
+					"trans": "Automatique"
+				}
+			},
 			"criticalHealth": {
 				"eng": "Critical Health Warning",
 				"trans": "Alerte de santé critique"
@@ -15430,6 +15946,10 @@
 			"eng": "Confirm Deployment",
 			"trans": "Confirmer le déploiement"
 		},
+		"confirmUpgradeDescription": {
+			"eng": "Upgrade ${currentBuffName} to ${nextBuffName} for your gang?",
+			"trans": "Améliorer ${currentBuffName} en ${nextBuffName} pour votre gang ?"
+		},
 		"deployButton": {
 			"eng": "Deploy",
 			"trans": "Déployer"
@@ -15438,6 +15958,10 @@
 			"alreadyActive": {
 				"eng": "This buff is already active",
 				"trans": "Ce buff est déjà actif."
+			},
+			"higherTierAlreadyActive": {
+				"eng": "A higher-tier ${buffName} buff is already active",
+				"trans": "Un buff ${buffName} de rang supérieur est déjà actif"
 			},
 			"leaderOnly": {
 				"eng": "Only the gang leader can deploy war buffs",
@@ -15456,9 +15980,33 @@
 				"trans": "Votre Gang doit être en état de guerre pour activer les buffs de guerre"
 			}
 		},
+		"readyToDeploy": {
+			"eng": "Awaiting Orders",
+			"trans": "En attente d'ordres"
+		},
 		"statusActive": {
 			"eng": "Active",
 			"trans": "Actif"
+		},
+		"statusBlocked": {
+			"eng": "Blocked",
+			"trans": "Bloqué"
+		},
+		"statusReady": {
+			"eng": "Ready",
+			"trans": "Prêt"
+		},
+		"timeRemaining": {
+			"eng": "Time Remaining",
+			"trans": "Temps restant"
+		},
+		"upgradeButton": {
+			"eng": "Upgrade",
+			"trans": "Améliorer"
+		},
+		"upgradeNotice": {
+			"eng": "Will replace ${buffName}",
+			"trans": "Remplace ${buffName}"
 		},
 		"warPointsLabel": {
 			"eng": "War Points",
