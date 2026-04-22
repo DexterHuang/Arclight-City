@@ -1391,6 +1391,78 @@
 			"trans": "ปลดเลย"
 		}
 	},
+	"battleSupport": {
+		"chat": {
+			"revive": {
+				"eng": "${reviver} has revived ${target} through the Trauma Bay",
+				"trans": "${reviver} คืนชีพ ${target} ผ่าน Trauma Bay"
+			}
+		},
+		"donated": {
+			"eng": "Donated ${amount} Revival Kit(s) to the Trauma Bay stash",
+			"trans": "บริจาค ${amount} อุปกรณ์ชุบชีพ ลงคลัง Trauma Bay"
+		},
+		"error": {
+			"gangNotFound": {
+				"eng": "Your gang could not be found",
+				"trans": "ไม่พบแก๊งของคุณ"
+			},
+			"notAMember": {
+				"eng": "You are not a member of this gang",
+				"trans": "คุณไม่ได้เป็นสมาชิกแก๊งนี้"
+			},
+			"notEnoughItems": {
+				"eng": "You don't have enough Revival Kits to donate",
+				"trans": "คุณมีอุปกรณ์ชุบชีพไม่เพียงพอที่จะนำไปบริจาค"
+			},
+			"notEnoughStash": {
+				"eng": "Not enough Revival Kits in the Trauma Bay stash (need ${cost})",
+				"trans": "คลังเทรมาเบย์มีอุปกรณ์ชุบชีพไม่เพียงพอ (ต้องการ ${cost})"
+			},
+			"notEnoughWarPoints": {
+				"eng": "Not enough war points (need ${cost})",
+				"trans": "คะแนนสงครามไม่เพียงพอ (ต้องการ ${cost})"
+			},
+			"notHospitalized": {
+				"eng": "Target is not currently hospitalized",
+				"trans": "เป้าหมายยังไม่ถูกส่งเข้าโรงพยาบาล"
+			},
+			"notInGang": {
+				"eng": "You must be in a gang to access the Trauma Bay",
+				"trans": "คุณต้องอยู่ในแก๊งเพื่อเข้าถึง Trauma Bay"
+			},
+			"stashFull": {
+				"eng": "The gang stash is full",
+				"trans": "ที่เก็บของแก๊งเต็มแล้ว"
+			},
+			"targetNotFound": {
+				"eng": "Target member could not be found in your gang",
+				"trans": "ไม่พบบทบาท/สมาชิกเป้าหมายในแก๊งของคุณ"
+			},
+			"warStateRequired": {
+				"eng": "Your gang must be in war state to use the Trauma Bay",
+				"trans": "แก๊งของคุณต้องอยู่ในภาวะสงครามจึงจะใช้งานทรอมาเบย์ได้"
+			}
+		},
+		"mail": {
+			"revived": {
+				"eng": "${playerName} has revived you through the Trauma Bay",
+				"trans": "${playerName} ปลุกคุณคืนชีพผ่านแท่นฟื้นฟู"
+			},
+			"reviver": {
+				"eng": "You have revived ${playerName} through the Trauma Bay",
+				"trans": "คุณได้ฟื้นคืนชีวิต ${playerName} ผ่านจุดกู้ชีพโซนทรม่า"
+			}
+		},
+		"supportSuccess": {
+			"eng": "Trauma Bay recovery completed for ${name}",
+			"trans": "${name} ฟื้นตัวจากศูนย์ฉุกเฉินสำเร็จแล้ว"
+		},
+		"supported": {
+			"eng": "You have been instantly recovered through the Trauma Bay",
+			"trans": "คุณฟื้นสภาพทันทีผ่านระบบ Trauma Bay"
+		}
+	},
 	"blockedPlayerListPage": {
 		"emptyHint": {
 			"eng": "Block players from their profile to prevent them from contacting you",
@@ -1534,6 +1606,16 @@
 			"name": {
 				"eng": "PvP Money Loss Reduction III",
 				"trans": "ลดการสูญเสียเงิน PvP ระดับ 3"
+			}
+		},
+		"warIntel": {
+			"description": {
+				"eng": "Reveals detailed war intelligence about all enemy gangs for ${hours} hours, including war stacks, participant rosters, and war kill counts",
+				"trans": "เปิดเผยข้อมูลข่าวกรองสงครามเชิงลึกของแก๊งศัตรูทั้งหมดเป็นเวลา ${hours} ชั่วโมง รวมถึงการจัดแถวรบ รายชื่อผู้เข้าร่วม และยอดสังหารในสงคราม"
+			},
+			"name": {
+				"eng": "War Intel",
+				"trans": "ข้อมูลข่าวกรองสงคราม"
 			}
 		}
 	},
@@ -2023,12 +2105,12 @@
 			"trans": "ทรัพยากร"
 		},
 		"upkeepTip": {
-			"eng": "Ensure there is enough resources and funds to avoid losing the gang on the next upkeep date.",
-			"trans": "เตรียมเสบียงกับเงินให้พร้อม ไม่งั้นแก๊งค์ไปแน่ วันจ่ายรอบหน้า"
+			"eng": "Ensure the clan has enough resources and funds to avoid losing the gang. Note: Role upkeep uses war points; failing it causes war state reset and demotions, not gang deletion.",
+			"trans": "ตรวจสอบให้แน่ใจว่าแก๊งมีทรัพยากรและเงินทุนเพียงพอเพื่อป้องกันการถูกยุบ หมายเหตุ: ค่าบำรุงบทบาทใช้คะแนนสงคราม หากยอดไม่พอจะรีเซ็ตสถานะสงครามและลดระดับตำแหน่ง แต่จะไม่ทำให้แก๊งถูกลบ"
 		},
 		"upkeepTipTitle": {
-			"eng": "Insufficient Upkeep Resources",
-			"trans": "งบไม่พอ"
+			"eng": "Insufficient Base Upkeep",
+			"trans": "ค่าบำรุงฐานไม่เพียงพอ"
 		}
 	},
 	"clanDisplay": {
@@ -2281,6 +2363,112 @@
 			"trans": "รายชื่อแก๊ง"
 		}
 	},
+	"clanShop": {
+		"chat": {
+			"purchase": {
+				"eng": "${buyer} requisitioned ${itemName} for ${cost} war points and sent it to the gang stash",
+				"trans": "${buyer} ใช้ ${cost} คะแนนสงครามแลก ${itemName} แล้วส่งเข้าคลังของแก๊ง"
+			}
+		},
+		"confirmButton": {
+			"eng": "Send to Stash",
+			"trans": "ย้ายเข้าช่องเก็บของ"
+		},
+		"confirmDescription": {
+			"eng": "Buy ${amount}x ${itemName} for ${cost} war points and send them to the gang stash?",
+			"trans": "ต้องการซื้อ ${amount}x ${itemName} มูลค่า ${cost} แต้มสงคราม และส่งเข้าคลังแก๊งหรือไม่?"
+		},
+		"confirmTitle": {
+			"eng": "Confirm Purchase",
+			"trans": "ยืนยันการซื้อ"
+		},
+		"description": {
+			"eng": "Spend gang war points on shared supplies and deliver them directly into the gang stash",
+			"trans": "ใช้คะแนนสงครามแก๊งซื้อทรัพยากรร่วมกันและส่งตรงเข้าคลังแก๊ง"
+		},
+		"destination": {
+			"eng": "All purchases go to shared stash",
+			"trans": "ทุกการสั่งซื้อจะถูกส่งเข้าคลังส่วนกลาง"
+		},
+		"empty": {
+			"eng": "No clan supplies are configured right now",
+			"trans": "ยังไม่ได้ตั้งค่าเสบียงคลานในขณะนี้"
+		},
+		"error": {
+			"gangNotFound": {
+				"eng": "Your gang could not be found",
+				"trans": "ไม่พบแก๊งของคุณ"
+			},
+			"notAMember": {
+				"eng": "You are not a member of this gang",
+				"trans": "คุณไม่ได้เป็นสมาชิกแก๊งนี้"
+			},
+			"notEnoughWarPoints": {
+				"eng": "Your gang does not have enough war points",
+				"trans": "แต้มสงครามของแก๊งคุณไม่เพียงพอ"
+			},
+			"notInGang": {
+				"eng": "You must be in a gang to access the Clan Shop",
+				"trans": "คุณต้องเป็นสมาชิกแก๊งเพื่อเข้าถึงร้านแก๊ง"
+			},
+			"soldOut": {
+				"eng": "This supply allocation is sold out for the current reset period",
+				"trans": "ส่วนแบ่งเสบียงหมดโควตาสำหรับรอบปัจจุบันแล้ว"
+			}
+		},
+		"notInGang": {
+			"eng": "You must be in a gang to access clan supplies.",
+			"trans": "คุณต้องอยู่ในแก๊งเท่านั้นจึงจะเข้าถึงคลังเสบียงได้"
+		},
+		"restocksIn": {
+			"eng": "Restocks In",
+			"trans": "เติมสต็อกใน"
+		},
+		"selectAmount": {
+			"eng": "Purchase Quantity",
+			"trans": "จำนวนซื้อ"
+		},
+		"selectAmountDesc": {
+			"eng": "How many ${itemName} do you want to purchase?",
+			"trans": "ต้องการซื้อ ${itemName} กี่ชิ้น?"
+		},
+		"selectAmountModel": {
+			"body": {
+				"eng": "You are about to purchase ${amount} ${item}, total: ${total}",
+				"trans": "กำลังจะซื้อ${amount} ${item}, ราคารวม: ${total}"
+			}
+		},
+		"stashLabel": {
+			"eng": "Gang Stash",
+			"trans": "คลังแก๊งค์"
+		},
+		"stockRemaining": {
+			"eng": "${remaining} / ${limit} ${cycle} left",
+			"trans": "เหลือ ${remaining} / ${limit} ${cycle}"
+		},
+		"stockSoldOut": {
+			"eng": "Sold Out",
+			"trans": "ขายหมดแล้ว"
+		},
+		"success": {
+			"purchased": {
+				"eng": "Requisition approved. ${itemName} has been sent to the gang stash",
+				"trans": "อนุมัติคำร้องขอแล้ว ${itemName} ถูกส่งไปยังจุดเก็บของแก๊ง"
+			}
+		},
+		"title": {
+			"eng": "Clan Shop",
+			"trans": "ร้านคลาน"
+		},
+		"unlimited": {
+			"eng": "No stock limit",
+			"trans": "ไม่จำกัดจำนวน"
+		},
+		"warPointsLabel": {
+			"eng": "Gang War Points",
+			"trans": "แคะแนนสงครามแก๊ง"
+		}
+	},
 	"clanTab": {
 		"invitePlayer": {
 			"eng": "invite player",
@@ -2451,6 +2639,32 @@
 		"tutorialLink": {
 			"eng": "Learn more about Gang War",
 			"trans": "เรียนรู้เพิ่มเติมเกี่ยวกับสงครามแก๊ง"
+		}
+	},
+	"clanWarIntel": {
+		"activate": {
+			"desc": {
+				"eng": "Deploy tactical sensors to reveal enemy war stack and active combatants. Duration: 3 hours. Cost: 10 War Points.",
+				"trans": "ติดตั้งเซนเซอร์ยุทธวิธีเพื่อเปิดเผยตำแหน่งกองกำลังและหน่วยรบของศัตรู ระยะเวลาใช้งาน: 3 ชั่วโมง ค่าใช้จ่าย: 10 คะแนนสงคราม"
+			}
+		},
+		"empty": {
+			"eng": "NO ACTIVE COMBATANTS",
+			"trans": "ยังไม่มีผู้ร่วมรบ"
+		},
+		"header": {
+			"eng": "TACTICAL INTEL",
+			"trans": "ข้อมูลข่าวกรองเชิงยุทธวิธี"
+		},
+		"locked": {
+			"desc": {
+				"eng": "Deploy WAR INTEL buff to intercept enemy communications and reveal their stack and active combatants.",
+				"trans": "เปิดใช้งาน buff WAR INTEL เพื่อดักฟังการสื่อสารของศัตรู และเปิดเผยองค์ประกอบกองกำลังพร้อมระบุผู้ปฏิบัติการในสนามรบ"
+			},
+			"title": {
+				"eng": "INTEL CLASSIFIED",
+				"trans": "ข้อมูลลับสูงสุด"
+			}
 		}
 	},
 	"clanWarPage": {
@@ -2783,10 +2997,6 @@
 		"psychosis": {
 			"eng": "+ ${amount} psychosis",
 			"trans": "เพิ่ม ${amount} ไซโค"
-		},
-		"warPoints": {
-			"eng": "${amount} war points",
-			"trans": "${amount} จุดสงคราม"
 		}
 	},
 	"coupon": {
@@ -6750,6 +6960,16 @@
 			"description": {
 				"eng": "Use to reset a ${tier} item with new random prefixes",
 				"trans": "รีเซ็ตไอเทม ${tier} ด้วย Prefix ใหม่แบบสุ่ม"
+			}
+		},
+		"revivalKit": {
+			"description": {
+				"eng": "A black-market trauma response package containing clot foam, combat stimulants, and neural reboot patches. Processed through the Trauma Bay, it instantly restores a hospitalized gang operative to active duty.",
+				"trans": "ชุดกู้ชีพตลาดมืด ประกอบด้วยโฟมห้ามเลือด ยากระตุ้นสมรรถนะรบ และแผ่นรีเซ็ตระบบประสาท เมื่อผ่านการบำบัดในอู่พักฟื้นวิกฤต จะคืนสถานะสมาชิกแก๊งที่นอนโรงพยาบาลกลับสู่การปฏิบัติได้ทันที"
+			},
+			"name": {
+				"eng": "Revival Kit",
+				"trans": "อุปกรณ์ชุบชีพ"
 			}
 		},
 		"rewardCipher": {
@@ -11489,9 +11709,23 @@
 					"trans": "วางบัฟสงคราม"
 				}
 			},
+			"clanShop": {
+				"description": {
+					"eng": "Purchase clan supplies and route them directly into the gang stash",
+					"trans": "สั่งซื้อซัพพลายแก๊งค์และโอนเข้าสต็อกโดยตรง"
+				},
+				"label": {
+					"eng": "CLAN SHOP",
+					"trans": "ร้านค้าคลาน"
+				},
+				"title": {
+					"eng": "Clan Shop",
+					"trans": "ร้านคลาน"
+				}
+			},
 			"description": {
-				"eng": "A secure war command terminal where your gang reviews active enhancements and deploys new combat support buffs.",
-				"trans": "เทอร์มินัลควบคุมสงครามปลอดภัย ที่สมาชิกกลุ่มของคุณจะตรวจสอบการเพิ่มประสิทธิภาพที่ใช้งานอยู่และปรับใช้บัฟสนับสนุนต่อสู้ใหม่"
+				"eng": "A fortified logistics hub where your gang coordinates war operations, deploys combat buffs, and reviews tactical intel.",
+				"trans": "ศูนย์ลอจิสติกส์เสริมเกราะป้องกัน ที่แก๊งคุณใช้วางแผนปฏิบัติการสงคราม ติดตั้ง buff สู้รบ และตรวจสอบข่าวกรองยุทธวิธี"
 			},
 			"greetings": {
 				"eng": [
@@ -11506,8 +11740,8 @@
 				]
 			},
 			"locationName": {
-				"eng": "War Command Center",
-				"trans": "ศูนย์ควบคุมสงคราม"
+				"eng": "War Quartermaster",
+				"trans": "ผู้จัดการจ่ายยุทธภัณฑ์สงคราม"
 			},
 			"npcName": {
 				"eng": "Quartermaster Vane",
@@ -11525,6 +11759,20 @@
 				"title": {
 					"eng": "Rank Requisition",
 					"trans": "ร้านขอเรนค"
+				}
+			},
+			"traumaBay": {
+				"description": {
+					"eng": "Manage Revival Kits and instantly recover hospitalized gang members during war",
+					"trans": "จัดการอุปกรณ์ชุบชีพเพื่อฟื้นฟูสมาชิกแก๊งที่พักรักษาตัวได้ทันทีระหว่างสงคราม"
+				},
+				"label": {
+					"eng": "TRAUMA BAY",
+					"trans": "ห้องกู้ชีพฉุกเฉิน"
+				},
+				"title": {
+					"eng": "Trauma Bay",
+					"trans": "แผนกบาดเจ็บรุนแรง"
 				}
 			}
 		},
@@ -11822,6 +12070,14 @@
 			},
 			"trans": "เลื่อนขั้น/ต่ำขั้นสมาชิก"
 		},
+		"clanReviveMember": {
+			"eng": "Revive Gang Member",
+			"noPermission": {
+				"eng": "You do not have permission to revive gang members",
+				"trans": "คุณไม่มีสิทธิ์ปลุกชีพสมาชิกแก๊ง"
+			},
+			"trans": "ช่วยชีวิตสมาชิกแก๊ง"
+		},
 		"clanSetImage": {
 			"eng": "Set Image",
 			"noPermission": {
@@ -11829,6 +12085,14 @@
 				"trans": "คุณไม่มีสิทธิ์ในการตั้งค่าตราแก๊ง"
 			},
 			"trans": "ตั้งรูป"
+		},
+		"clanShopBuy": {
+			"eng": "Buy Gang Shop Items",
+			"noPermission": {
+				"eng": "You do not have permission to buy items from the Gang Shop",
+				"trans": "คุณไม่มีสิทธิ์ในการซื้อไอเทมจากร้านค้าแก๊ง"
+			},
+			"trans": "ซื้อไอเท็มร้านแก๊ง"
 		},
 		"clanTogglePublic": {
 			"eng": "Toggle Public",
@@ -13307,10 +13571,6 @@
 				"eng": "This player has already been arrested",
 				"trans": "ผู้เล่นนี้ถูกจับแล้ว"
 			},
-			"warCannotEngageAlt": {
-				"eng": "You cannot attack this player due to alt detection",
-				"trans": "ไม่สามารถโจมตีผู้เล่นนี้ได้ เนื่องจากตรวจพบ alt"
-			},
 			"warLevelTooDiff": {
 				"eng": "You are too high level to attack this player",
 				"trans": "ระดับของคุณสูงเกินไปที่จะโจมตีผู้เล่นคน deste"
@@ -13478,6 +13738,10 @@
 			"notOwnerKick": {
 				"eng": "You must be the owner of the lobby to kick players",
 				"trans": "เฉพาะเจ้าของห้องเท่านั้นที่เตะผู้เล่นได้"
+			},
+			"notOwnerUpdate": {
+				"eng": "You must be the owner of the lobby to update lobby settings",
+				"trans": "เฉพาะเจ้าของล็อบบี้นั้นเองที่สามารถอัปเดตการตั้งค่าได้"
 			},
 			"playerAlreadyInLobby": {
 				"eng": "Player is already in this lobby",
@@ -14421,6 +14685,16 @@
 				"eng": "Hideout Raid EXP Multiplier V",
 				"trans": "บูสต์ EXP บุกฐาน V"
 			}
+		},
+		"warIntel": {
+			"desc": {
+				"eng": "Reveals detailed war intelligence about enemy gangs",
+				"trans": "เปิดเผยข้อมูลการรบของแก๊งศัตรูอย่างละเอียด"
+			},
+			"name": {
+				"eng": "War Intel",
+				"trans": "ข้อมูลข่าวกรองสงคราม"
+			}
 		}
 	},
 	"statusEffectModal": {
@@ -15237,6 +15511,114 @@
 			"trans": "นี่คือคุณสมบัติที่ถูกเข้ารหัส ใช้ ${item} เพื่อถอดรหัสและระบุศักยภาพที่แท้จริง"
 		}
 	},
+	"traumaBay": {
+		"clanWp": {
+			"eng": "Gang WP: ${wp}",
+			"trans": "จุดวาร์ปแก๊ง: ${wp}"
+		},
+		"confirmRevive": {
+			"confirm": {
+				"eng": "Revive",
+				"trans": "ฟื้นคืนชีพ"
+			},
+			"description": {
+				"eng": "Revive ${name}? This will cost ${itemCost} Revival Kits and ${wpCost} WP.",
+				"trans": "กู้ชีพ ${name} หรือไม่? ค่าใช้จ่ายคือ อุปกรณ์ชุบชีพ ${itemCost} ชิ้น และ WP ${wpCost} หน่วย"
+			},
+			"title": {
+				"eng": "Confirm Revive",
+				"trans": "ยืนยันการชุบชีวิต"
+			}
+		},
+		"costResetLabel": {
+			"eng": "Cost Reset",
+			"trans": "รีเซ็ตค่าใช้จ่าย"
+		},
+		"costResetReady": {
+			"eng": "READY (BASE COST)",
+			"trans": "พร้อมใช้งาน (ค่าใช้จ่ายพื้นฐาน)"
+		},
+		"donateButton": {
+			"eng": "Donate",
+			"trans": "บริจาค"
+		},
+		"donateModal": {
+			"confirm": {
+				"eng": "Donate",
+				"trans": "บริจาค"
+			},
+			"description": {
+				"eng": "Select the amount to donate from your inventory.",
+				"trans": "เลือกจำนวนที่ต้องการบริจาคจากอินเวนทอรี่ของคุณ"
+			},
+			"title": {
+				"eng": "Donate Revival Kits",
+				"trans": "บริจาคอุปกรณ์ชุบชีพ"
+			}
+		},
+		"donateTitle": {
+			"eng": "Donate Revival Kits",
+			"trans": "บริจาคอุปกรณ์ชุบชีพ"
+		},
+		"error": {
+			"noPermission": {
+				"eng": "You do not have permission to revive members.",
+				"trans": "คุณไม่มีสิทธิ์ในการคืนชีพสมาชิก"
+			}
+		},
+		"hospitalizedLabel": {
+			"eng": "Hospitalized Members",
+			"trans": "สมาชิกรักษาตัวอยู่"
+		},
+		"insufficientResources": {
+			"eng": "INSUFFICIENT",
+			"trans": "ไม่เพียงพอ"
+		},
+		"nextCostLabel": {
+			"eng": "Next Revive Cost",
+			"trans": "ค่าคืนชีพครั้งถัดไป"
+		},
+		"noData": {
+			"eng": "Failed to connect to tactical network.",
+			"trans": "ไม่สามารถเชื่อมต่อเครือข่ายยุทธวิธีได้"
+		},
+		"noHospitalized": {
+			"eng": "No gang members currently hospitalized.",
+			"trans": "ตอนนี้ยังไม่มีสมาชิกแก๊งต้องพักรักษาตัวอยู่ในโรงพยาบาล"
+		},
+		"realCostTip": {
+			"eng": "Reviving is a shared gang cost. It starts at ${base} kits and increases by ${increment} kit per revive. The cost resets after 6 hours of no Trauma Bay use.",
+			"trans": "การฟื้นคืนชีพเป็นต้นทุนร่วมของแก๊ง เริ่มต้นที่ ${base} ชุด และเพิ่มขึ้น ${increment} ชุด ทุกครั้งที่ฟื้นชีพ ค่าใช้จ่ายจะถูกรีเซ็ตหากไม่ได้ใช้งานทรอมาเบย์นาน 6 ชั่วโมง"
+		},
+		"recoveryPriceLabel": {
+			"eng": "Revive Cost",
+			"trans": "ค่าคืนชีพ"
+		},
+		"stashAmount": {
+			"eng": "In Stash: ${amount}",
+			"trans": "ในคลัง: ${amount}"
+		},
+		"stashLabel": {
+			"eng": "Trauma Bay Stash",
+			"trans": "ที่เก็บของห้องกู้ชีพเร่งด่วน"
+		},
+		"tapToRecover": {
+			"eng": "REVIVE ▸",
+			"trans": "คืนชีพ ▸"
+		},
+		"timeRemaining": {
+			"eng": "T-MINUS ${time}",
+			"trans": "นับถอยหลัง ${time}"
+		},
+		"viewOnly": {
+			"eng": "VIEW ONLY",
+			"trans": "ดูเท่านั้น"
+		},
+		"wpCostAmount": {
+			"eng": "${wp} WP",
+			"trans": "${wp} WP"
+		}
+	},
 	"travelToLocationModal": {
 		"alreadyAtLocation": {
 			"eng": "Already at location",
@@ -15890,6 +16272,14 @@
 			"eng": "Stored ${count} item(s) in vault",
 			"trans": "จัดเก็บ ${count} ไอเทมในเซฟ"
 		},
+		"withdrawPartial": {
+			"eng": "Moved ${moved} item(s) to inventory. Skipped ${skipped} item(s) that did not fit.",
+			"trans": "ย้ายไอเทม ${moved} รายการไปยังช่องเก็บของ ข้ามไอเทม ${skipped} รายการเนื่องจากความจุไม่พอ"
+		},
+		"withdrawSkipped": {
+			"eng": "No selected items could be moved because they did not fit in inventory.",
+			"trans": "ไม่สามารถย้ายไอเทมที่เลือกได้ เนื่องจากพื้นที่ในกระเป๋าเก็บของไม่เพียงพอ"
+		},
 		"withdrawSuccess": {
 			"eng": "Retrieved ${count} item(s) from vault",
 			"trans": "เรียกคืน ${count} รายการจากเซฟ"
@@ -15905,6 +16295,20 @@
 		"emptyVault": {
 			"eng": "Your vault is empty",
 			"trans": "ตู้เซฟโล่ง"
+		},
+		"multiSelect": {
+			"deposit": {
+				"title": {
+					"eng": "Store In Vault",
+					"trans": "เก็บเข้าเซฟ"
+				}
+			},
+			"withdraw": {
+				"title": {
+					"eng": "Move To Inventory",
+					"trans": "ย้ายไปคลัง"
+				}
+			}
 		},
 		"selectAddAmountModal": {
 			"title": {

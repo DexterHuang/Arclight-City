@@ -1391,6 +1391,78 @@
 			"trans": "Buka Sekarang"
 		}
 	},
+	"battleSupport": {
+		"chat": {
+			"revive": {
+				"eng": "${reviver} has revived ${target} through the Trauma Bay",
+				"trans": "${reviver} telah menghidupkan kembali ${target} melalui Ruang Trauma"
+			}
+		},
+		"donated": {
+			"eng": "Donated ${amount} Revival Kit(s) to the Trauma Bay stash",
+			"trans": "Menyumbangkan ${amount} Kit Kebangkitan ke penyimpanan Ruang Trauma"
+		},
+		"error": {
+			"gangNotFound": {
+				"eng": "Your gang could not be found",
+				"trans": "Gang Anda tidak ditemukan"
+			},
+			"notAMember": {
+				"eng": "You are not a member of this gang",
+				"trans": "Anda bukan anggota geng ini"
+			},
+			"notEnoughItems": {
+				"eng": "You don't have enough Revival Kits to donate",
+				"trans": "Anda tidak memiliki cukup Kit Kebangkitan untuk disumbangkan."
+			},
+			"notEnoughStash": {
+				"eng": "Not enough Revival Kits in the Trauma Bay stash (need ${cost})",
+				"trans": "Stok Kit Kebangkitan di gudang Trauma Bay tidak cukup (diperlukan ${cost})"
+			},
+			"notEnoughWarPoints": {
+				"eng": "Not enough war points (need ${cost})",
+				"trans": "Poin perang tidak cukup (diperlukan ${cost})"
+			},
+			"notHospitalized": {
+				"eng": "Target is not currently hospitalized",
+				"trans": "Target saat ini tidak dirawat di rumah sakit."
+			},
+			"notInGang": {
+				"eng": "You must be in a gang to access the Trauma Bay",
+				"trans": "Anda harus menjadi anggota geng untuk mengakses Trauma Bay"
+			},
+			"stashFull": {
+				"eng": "The gang stash is full",
+				"trans": "Gudang geng telah penuh."
+			},
+			"targetNotFound": {
+				"eng": "Target member could not be found in your gang",
+				"trans": "Anggota target tidak ditemukan di geng Anda."
+			},
+			"warStateRequired": {
+				"eng": "Your gang must be in war state to use the Trauma Bay",
+				"trans": "Gang Anda harus dalam status perang untuk menggunakan Trauma Bay."
+			}
+		},
+		"mail": {
+			"revived": {
+				"eng": "${playerName} has revived you through the Trauma Bay",
+				"trans": "${playerName} telah menghidupkanmu kembali melalui Trauma Bay"
+			},
+			"reviver": {
+				"eng": "You have revived ${playerName} through the Trauma Bay",
+				"trans": "Kamu telah menghidupkan ulang ${playerName} melalui Trauma Bay"
+			}
+		},
+		"supportSuccess": {
+			"eng": "Trauma Bay recovery completed for ${name}",
+			"trans": "Pemulihan Ruang Trauma untuk ${name} telah selesai."
+		},
+		"supported": {
+			"eng": "You have been instantly recovered through the Trauma Bay",
+			"trans": "Anda segera pulih melalui Trauma Bay."
+		}
+	},
 	"blockedPlayerListPage": {
 		"emptyHint": {
 			"eng": "Block players from their profile to prevent them from contacting you",
@@ -1534,6 +1606,16 @@
 			"name": {
 				"eng": "PvP Money Loss Reduction III",
 				"trans": "Pengurangan Kerugian Uang PvP III"
+			}
+		},
+		"warIntel": {
+			"description": {
+				"eng": "Reveals detailed war intelligence about all enemy gangs for ${hours} hours, including war stacks, participant rosters, and war kill counts",
+				"trans": "Mengungkap intelijen terperinci tentang seluruh geng musuh selama ${hours} jam, mencakup tumpukan perang, daftar peserta, dan total Kills dalam pertempuran."
+			},
+			"name": {
+				"eng": "War Intel",
+				"trans": "Intelijen Perang"
 			}
 		}
 	},
@@ -2023,12 +2105,12 @@
 			"trans": "Sumber Daya"
 		},
 		"upkeepTip": {
-			"eng": "Ensure there is enough resources and funds to avoid losing the gang on the next upkeep date.",
-			"trans": "Pastikan ada cukup sumber daya dan dana untuk menghindari kehilangan geng pada tanggal pemeliharaan berikutnya."
+			"eng": "Ensure the clan has enough resources and funds to avoid losing the gang. Note: Role upkeep uses war points; failing it causes war state reset and demotions, not gang deletion.",
+			"trans": "Pastikan klan memiliki cukup sumber daya dan dana agar tidak kehilangan geng. Catatan: Pemeliharaan peran menggunakan poin perang; jika gagal, status perang akan direset dan terjadi penurunan pangkat, bukan penghapusan geng."
 		},
 		"upkeepTipTitle": {
-			"eng": "Insufficient Upkeep Resources",
-			"trans": "Sumber Daya Pemeliharaan Tidak Cukup"
+			"eng": "Insufficient Base Upkeep",
+			"trans": "Biaya Pemeliharaan Markas Tidak Cukup"
 		}
 	},
 	"clanDisplay": {
@@ -2281,6 +2363,112 @@
 			"trans": "Direktori Geng"
 		}
 	},
+	"clanShop": {
+		"chat": {
+			"purchase": {
+				"eng": "${buyer} requisitioned ${itemName} for ${cost} war points and sent it to the gang stash",
+				"trans": "${buyer} mengklaim ${itemName} seharga ${cost} poin perang dan mengirimkannya ke brankas geng."
+			}
+		},
+		"confirmButton": {
+			"eng": "Send to Stash",
+			"trans": "Kirim ke Penyimpanan"
+		},
+		"confirmDescription": {
+			"eng": "Buy ${amount}x ${itemName} for ${cost} war points and send them to the gang stash?",
+			"trans": "Beli ${amount}x ${itemName} dengan ${cost} poin perang dan kirim ke brankas geng?"
+		},
+		"confirmTitle": {
+			"eng": "Confirm Purchase",
+			"trans": "Konfirmasi Pembelian"
+		},
+		"description": {
+			"eng": "Spend gang war points on shared supplies and deliver them directly into the gang stash",
+			"trans": "Gunakan poin perang geng untuk membeli pasokan bersama dan kirim langsung ke gudang geng."
+		},
+		"destination": {
+			"eng": "All purchases go to shared stash",
+			"trans": "Semua pembelian masuk ke penyimpanan bersama."
+		},
+		"empty": {
+			"eng": "No clan supplies are configured right now",
+			"trans": "Belum ada pasokan klan yang dikonfigurasi saat ini."
+		},
+		"error": {
+			"gangNotFound": {
+				"eng": "Your gang could not be found",
+				"trans": "Gang Anda tidak ditemukan"
+			},
+			"notAMember": {
+				"eng": "You are not a member of this gang",
+				"trans": "Anda bukan anggota geng ini"
+			},
+			"notEnoughWarPoints": {
+				"eng": "Your gang does not have enough war points",
+				"trans": "Gang Anda tidak memiliki cukup poin perang."
+			},
+			"notInGang": {
+				"eng": "You must be in a gang to access the Clan Shop",
+				"trans": "Anda harus menjadi anggota Geng untuk mengakses Toko Klan."
+			},
+			"soldOut": {
+				"eng": "This supply allocation is sold out for the current reset period",
+				"trans": "Alokasi suplai untuk periode reset saat ini telah habis terjual."
+			}
+		},
+		"notInGang": {
+			"eng": "You must be in a gang to access clan supplies.",
+			"trans": "Anda harus bergabung dengan geng untuk mengakses persediaan klan."
+		},
+		"restocksIn": {
+			"eng": "Restocks In",
+			"trans": "Pengisian Ulang Stok Dalam"
+		},
+		"selectAmount": {
+			"eng": "Purchase Quantity",
+			"trans": "Jumlah Pembelian"
+		},
+		"selectAmountDesc": {
+			"eng": "How many ${itemName} do you want to purchase?",
+			"trans": "Berapa banyak ${itemName} yang ingin Anda beli?"
+		},
+		"selectAmountModel": {
+			"body": {
+				"eng": "You are about to purchase ${amount} ${item}, total: ${total}",
+				"trans": "Anda akan membeli ${amount} ${item}, total: ${total}"
+			}
+		},
+		"stashLabel": {
+			"eng": "Gang Stash",
+			"trans": "Penyimpanan Geng"
+		},
+		"stockRemaining": {
+			"eng": "${remaining} / ${limit} ${cycle} left",
+			"trans": "${remaining} / ${limit} ${cycle} tersisa"
+		},
+		"stockSoldOut": {
+			"eng": "Sold Out",
+			"trans": "Terjual Habis"
+		},
+		"success": {
+			"purchased": {
+				"eng": "Requisition approved. ${itemName} has been sent to the gang stash",
+				"trans": "Permintaan disetujui. ${itemName} telah dikirim ke gudang geng."
+			}
+		},
+		"title": {
+			"eng": "Clan Shop",
+			"trans": "Toko Klan"
+		},
+		"unlimited": {
+			"eng": "No stock limit",
+			"trans": "Stok tidak terbatas"
+		},
+		"warPointsLabel": {
+			"eng": "Gang War Points",
+			"trans": "Poin Perang Geng"
+		}
+	},
 	"clanTab": {
 		"invitePlayer": {
 			"eng": "invite player",
@@ -2451,6 +2639,32 @@
 		"tutorialLink": {
 			"eng": "Learn more about Gang War",
 			"trans": "Pelajari Selengkapnya Tentang Perang Geng"
+		}
+	},
+	"clanWarIntel": {
+		"activate": {
+			"desc": {
+				"eng": "Deploy tactical sensors to reveal enemy war stack and active combatants. Duration: 3 hours. Cost: 10 War Points.",
+				"trans": "Pasang sensor taktis untuk mengungkap gugus perang musuh dan unit tempur aktif. Durasi: 3 jam. Biaya: 10 Poin Perang."
+			}
+		},
+		"empty": {
+			"eng": "NO ACTIVE COMBATANTS",
+			"trans": "TIDAK ADA PESERTA KOMBAT AKTIF"
+		},
+		"header": {
+			"eng": "TACTICAL INTEL",
+			"trans": "INTEL TAKTIKAL"
+		},
+		"locked": {
+			"desc": {
+				"eng": "Deploy WAR INTEL buff to intercept enemy communications and reveal their stack and active combatants.",
+				"trans": "Aktifkan buff WAR INTEL untuk menyadap komunikasi musuh dan mengungkap formasi serta unit tempur mereka."
+			},
+			"title": {
+				"eng": "INTEL CLASSIFIED",
+				"trans": "INTEL RAHASIA"
+			}
 		}
 	},
 	"clanWarPage": {
@@ -2783,10 +2997,6 @@
 		"psychosis": {
 			"eng": "+ ${amount} psychosis",
 			"trans": "+ ${amount} sikologi"
-		},
-		"warPoints": {
-			"eng": "${amount} war points",
-			"trans": "${amount} poin perang"
 		}
 	},
 	"coupon": {
@@ -6750,6 +6960,16 @@
 			"description": {
 				"eng": "Use to reset a ${tier} item with new random prefixes",
 				"trans": "Gunakan untuk mereset item ${tier} dengan awalan acak baru"
+			}
+		},
+		"revivalKit": {
+			"description": {
+				"eng": "A black-market trauma response package containing clot foam, combat stimulants, and neural reboot patches. Processed through the Trauma Bay, it instantly restores a hospitalized gang operative to active duty.",
+				"trans": "Kit penanganan trauma pasar gelap berisi busa koagulan, stimulan tempur, dan patch reboot saraf. Setelah diproses melalui Ruang Trauma, kit ini langsung mengembalikan agen geng yang dirawat di rumah sakit ke status siap tempur."
+			},
+			"name": {
+				"eng": "Revival Kit",
+				"trans": "Kit Kebangkitan"
 			}
 		},
 		"rewardCipher": {
@@ -11489,9 +11709,23 @@
 					"trans": "Mobilisasi Penguatan Pertempuran"
 				}
 			},
+			"clanShop": {
+				"description": {
+					"eng": "Purchase clan supplies and route them directly into the gang stash",
+					"trans": "Beli pasokan klan dan kirim langsung ke gudang geng."
+				},
+				"label": {
+					"eng": "CLAN SHOP",
+					"trans": "TOKO KLAN"
+				},
+				"title": {
+					"eng": "Clan Shop",
+					"trans": "Toko Klan"
+				}
+			},
 			"description": {
-				"eng": "A secure war command terminal where your gang reviews active enhancements and deploys new combat support buffs.",
-				"trans": "Terminal Komando Perang Aman di mana gengmu meninjau peningkatan aktif dan menerapkan buff dukungan tempur baru"
+				"eng": "A fortified logistics hub where your gang coordinates war operations, deploys combat buffs, and reviews tactical intel.",
+				"trans": "Pusat logistik yang diperkuat tempat geng Anda mengoordinasikan operasi perang, menerapkan buff tempur, dan meninjau intelijen taktis."
 			},
 			"greetings": {
 				"eng": [
@@ -11506,8 +11740,8 @@
 				]
 			},
 			"locationName": {
-				"eng": "War Command Center",
-				"trans": "Pusat Komando Perang"
+				"eng": "War Quartermaster",
+				"trans": "Petugas Perlengkapan Perang"
 			},
 			"npcName": {
 				"eng": "Quartermaster Vane",
@@ -11525,6 +11759,20 @@
 				"title": {
 					"eng": "Rank Requisition",
 					"trans": "Permintaan Peringkat"
+				}
+			},
+			"traumaBay": {
+				"description": {
+					"eng": "Manage Revival Kits and instantly recover hospitalized gang members during war",
+					"trans": "Kelola Kit Revival dan bangkitkan langsung anggota geng yang dirawat di rumah sakit saat terjadi perang."
+				},
+				"label": {
+					"eng": "TRAUMA BAY",
+					"trans": "RUANG TRAUMA"
+				},
+				"title": {
+					"eng": "Trauma Bay",
+					"trans": "Ruang Trauma"
 				}
 			}
 		},
@@ -11822,6 +12070,14 @@
 			},
 			"trans": "Naikkan/Turunkan Peringkat Anggota"
 		},
+		"clanReviveMember": {
+			"eng": "Revive Gang Member",
+			"noPermission": {
+				"eng": "You do not have permission to revive gang members",
+				"trans": "Anda tidak memiliki izin untuk menghidupkan kembali anggota geng"
+			},
+			"trans": "Bangkitkan Anggota Geng"
+		},
 		"clanSetImage": {
 			"eng": "Set Image",
 			"noPermission": {
@@ -11829,6 +12085,14 @@
 				"trans": "Anda tidak memiliki izin untuk mengatur gambar geng"
 			},
 			"trans": "Atur Gambar"
+		},
+		"clanShopBuy": {
+			"eng": "Buy Gang Shop Items",
+			"noPermission": {
+				"eng": "You do not have permission to buy items from the Gang Shop",
+				"trans": "Anda tidak memiliki izin untuk membeli item dari Toko Geng"
+			},
+			"trans": "Beli Item di Toko Gang"
 		},
 		"clanTogglePublic": {
 			"eng": "Toggle Public",
@@ -13307,10 +13571,6 @@
 				"eng": "This player has already been arrested",
 				"trans": "Pemain ini telah ditangkap"
 			},
-			"warCannotEngageAlt": {
-				"eng": "You cannot attack this player due to alt detection",
-				"trans": "Anda tidak dapat menyerang pemain ini karena terdeteksi sebagai akun alt."
-			},
 			"warLevelTooDiff": {
 				"eng": "You are too high level to attack this player",
 				"trans": "Levelmu terlalu tinggi untuk menyerang pemain ini"
@@ -13478,6 +13738,10 @@
 			"notOwnerKick": {
 				"eng": "You must be the owner of the lobby to kick players",
 				"trans": "Kamu harus menjadi pemilik lobi untuk mengeluarkan pemain"
+			},
+			"notOwnerUpdate": {
+				"eng": "You must be the owner of the lobby to update lobby settings",
+				"trans": "Anda harus menjadi pemilik lobi untuk mengubah pengaturan lobi."
 			},
 			"playerAlreadyInLobby": {
 				"eng": "Player is already in this lobby",
@@ -14421,6 +14685,16 @@
 				"eng": "Hideout Raid EXP Multiplier V",
 				"trans": "Penggandaan EXP Serangan Tempat Persembunyian V"
 			}
+		},
+		"warIntel": {
+			"desc": {
+				"eng": "Reveals detailed war intelligence about enemy gangs",
+				"trans": "Mengungkap intelijen perang terperinci tentang geng musuh"
+			},
+			"name": {
+				"eng": "War Intel",
+				"trans": "Intelijen Perang"
+			}
 		}
 	},
 	"statusEffectModal": {
@@ -15237,6 +15511,114 @@
 			"trans": "Ini adalah ciri yang terenkripsi, gunakan ${item} untuk mendekripsi dan mengenali potensi sejatinya."
 		}
 	},
+	"traumaBay": {
+		"clanWp": {
+			"eng": "Gang WP: ${wp}",
+			"trans": "Geng WP: ${wp}"
+		},
+		"confirmRevive": {
+			"confirm": {
+				"eng": "Revive",
+				"trans": "Bangkit"
+			},
+			"description": {
+				"eng": "Revive ${name}? This will cost ${itemCost} Revival Kits and ${wpCost} WP.",
+				"trans": "Hidupkan kembali ${name}? Proses ini memerlukan ${itemCost} Kit Kebangkitan dan ${wpCost} WP."
+			},
+			"title": {
+				"eng": "Confirm Revive",
+				"trans": "Konfirmasi Kebangkitan"
+			}
+		},
+		"costResetLabel": {
+			"eng": "Cost Reset",
+			"trans": "Reset Biaya"
+		},
+		"costResetReady": {
+			"eng": "READY (BASE COST)",
+			"trans": "SIAP (BIAYA DASAR)"
+		},
+		"donateButton": {
+			"eng": "Donate",
+			"trans": "Donasi"
+		},
+		"donateModal": {
+			"confirm": {
+				"eng": "Donate",
+				"trans": "Donasi"
+			},
+			"description": {
+				"eng": "Select the amount to donate from your inventory.",
+				"trans": "Pilih jumlah donasi dari inventori Anda."
+			},
+			"title": {
+				"eng": "Donate Revival Kits",
+				"trans": "Sumbangkan Kit Kebangkitan"
+			}
+		},
+		"donateTitle": {
+			"eng": "Donate Revival Kits",
+			"trans": "Sumbangkan Kit Kebangkitan"
+		},
+		"error": {
+			"noPermission": {
+				"eng": "You do not have permission to revive members.",
+				"trans": "Anda tidak memiliki izin untuk membangkitkan anggota."
+			}
+		},
+		"hospitalizedLabel": {
+			"eng": "Hospitalized Members",
+			"trans": "Anggota yang Dirawat"
+		},
+		"insufficientResources": {
+			"eng": "INSUFFICIENT",
+			"trans": "TIDAK CUKUP"
+		},
+		"nextCostLabel": {
+			"eng": "Next Revive Cost",
+			"trans": "Biaya Revive Berikutnya"
+		},
+		"noData": {
+			"eng": "Failed to connect to tactical network.",
+			"trans": "Gagal terhubung ke jaringan taktis."
+		},
+		"noHospitalized": {
+			"eng": "No gang members currently hospitalized.",
+			"trans": "Tidak ada anggota geng yang sedang dirawat di rumah sakit."
+		},
+		"realCostTip": {
+			"eng": "Reviving is a shared gang cost. It starts at ${base} kits and increases by ${increment} kit per revive. The cost resets after 6 hours of no Trauma Bay use.",
+			"trans": "Biaya menghidupkan kembali merupakan biaya bersama seluruh geng. Dimulai dari ${base} kit dan bertambah ${increment} kit setiap kali pengaktifan. Biaya akan direset setelah 6 jam tanpa penggunaan Trauma Bay."
+		},
+		"recoveryPriceLabel": {
+			"eng": "Revive Cost",
+			"trans": "Biaya Bangkit"
+		},
+		"stashAmount": {
+			"eng": "In Stash: ${amount}",
+			"trans": "Dalam Penyimpanan: ${amount}"
+		},
+		"stashLabel": {
+			"eng": "Trauma Bay Stash",
+			"trans": "Penyimpanan Ruang Trauma"
+		},
+		"tapToRecover": {
+			"eng": "REVIVE ▸",
+			"trans": "HIDUPKAN ▸"
+		},
+		"timeRemaining": {
+			"eng": "T-MINUS ${time}",
+			"trans": "SISA WAKTU ${time}"
+		},
+		"viewOnly": {
+			"eng": "VIEW ONLY",
+			"trans": "LIHAT SAJA"
+		},
+		"wpCostAmount": {
+			"eng": "${wp} WP",
+			"trans": "${wp} WP"
+		}
+	},
 	"travelToLocationModal": {
 		"alreadyAtLocation": {
 			"eng": "Already at location",
@@ -15890,6 +16272,14 @@
 			"eng": "Stored ${count} item(s) in vault",
 			"trans": "${count} item tersimpan di brankas"
 		},
+		"withdrawPartial": {
+			"eng": "Moved ${moved} item(s) to inventory. Skipped ${skipped} item(s) that did not fit.",
+			"trans": "Dipindahkan ${moved} item ke inventori. Dilewati ${skipped} item yang tidak muat."
+		},
+		"withdrawSkipped": {
+			"eng": "No selected items could be moved because they did not fit in inventory.",
+			"trans": "Item terpilih tidak dapat dipindahkan karena tidak muat di inventori."
+		},
 		"withdrawSuccess": {
 			"eng": "Retrieved ${count} item(s) from vault",
 			"trans": "${count} item telah diambil dari Brankas."
@@ -15905,6 +16295,20 @@
 		"emptyVault": {
 			"eng": "Your vault is empty",
 			"trans": "Brankas Anda kosong"
+		},
+		"multiSelect": {
+			"deposit": {
+				"title": {
+					"eng": "Store In Vault",
+					"trans": "Simpan di Brankas"
+				}
+			},
+			"withdraw": {
+				"title": {
+					"eng": "Move To Inventory",
+					"trans": "Pindahkan ke Inventori"
+				}
+			}
 		},
 		"selectAddAmountModal": {
 			"title": {

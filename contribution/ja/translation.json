@@ -1391,6 +1391,78 @@
 			"trans": "今すぐアンロックする"
 		}
 	},
+	"battleSupport": {
+		"chat": {
+			"revive": {
+				"eng": "${reviver} has revived ${target} through the Trauma Bay",
+				"trans": "${reviver}は${target}をトラウマベイで蘇生した"
+			}
+		},
+		"donated": {
+			"eng": "Donated ${amount} Revival Kit(s) to the Trauma Bay stash",
+			"trans": "${amount}個の蘇生キットをトラウマベイ保管庫に寄付しました"
+		},
+		"error": {
+			"gangNotFound": {
+				"eng": "Your gang could not be found",
+				"trans": "ギャングが見つかりませんでした"
+			},
+			"notAMember": {
+				"eng": "You are not a member of this gang",
+				"trans": "あなたは現在このギャングに所属していません。"
+			},
+			"notEnoughItems": {
+				"eng": "You don't have enough Revival Kits to donate",
+				"trans": "寄付に必要な蘇生キットが不足しています。"
+			},
+			"notEnoughStash": {
+				"eng": "Not enough Revival Kits in the Trauma Bay stash (need ${cost})",
+				"trans": "トラウマベイの保管庫に蘇生キットが足りません（${cost}個必要）"
+			},
+			"notEnoughWarPoints": {
+				"eng": "Not enough war points (need ${cost})",
+				"trans": "ワーポイントが不足しています（${cost}必要です）"
+			},
+			"notHospitalized": {
+				"eng": "Target is not currently hospitalized",
+				"trans": "ターゲットは現在入院していません"
+			},
+			"notInGang": {
+				"eng": "You must be in a gang to access the Trauma Bay",
+				"trans": "トラウマベイにアクセスするには、ギャングに所属している必要があります"
+			},
+			"stashFull": {
+				"eng": "The gang stash is full",
+				"trans": "ギャング倉庫が満杯です"
+			},
+			"targetNotFound": {
+				"eng": "Target member could not be found in your gang",
+				"trans": "対象メンバーはあなたのギャングに存在しません。"
+			},
+			"warStateRequired": {
+				"eng": "Your gang must be in war state to use the Trauma Bay",
+				"trans": "トラウマベイを使用するにはギャングを戦闘状態にする必要があります"
+			}
+		},
+		"mail": {
+			"revived": {
+				"eng": "${playerName} has revived you through the Trauma Bay",
+				"trans": "${playerName}がトラウマベイであなたを蘇らせました"
+			},
+			"reviver": {
+				"eng": "You have revived ${playerName} through the Trauma Bay",
+				"trans": "トロウマベイで${playerName}を蘇らせました。"
+			}
+		},
+		"supportSuccess": {
+			"eng": "Trauma Bay recovery completed for ${name}",
+			"trans": "トラウマベイでの${name}の回復完了"
+		},
+		"supported": {
+			"eng": "You have been instantly recovered through the Trauma Bay",
+			"trans": "トラウマベイにて即時回復しました"
+		}
+	},
 	"blockedPlayerListPage": {
 		"emptyHint": {
 			"eng": "Block players from their profile to prevent them from contacting you",
@@ -1534,6 +1606,16 @@
 			"name": {
 				"eng": "PvP Money Loss Reduction III",
 				"trans": "PvP 金銭損失軽減 III"
+			}
+		},
+		"warIntel": {
+			"description": {
+				"eng": "Reveals detailed war intelligence about all enemy gangs for ${hours} hours, including war stacks, participant rosters, and war kill counts",
+				"trans": "${hours}時間、敵対ギャングに関する詳細な戦況情報として戦闘スタック、参戦者リスト、キル数を開示する"
+			},
+			"name": {
+				"eng": "War Intel",
+				"trans": "軍事情報"
 			}
 		}
 	},
@@ -2023,12 +2105,12 @@
 			"trans": "資源"
 		},
 		"upkeepTip": {
-			"eng": "Ensure there is enough resources and funds to avoid losing the gang on the next upkeep date.",
-			"trans": "次の維持日にギャングを失わないように、十分な資源と資金があることを確認してください。"
+			"eng": "Ensure the clan has enough resources and funds to avoid losing the gang. Note: Role upkeep uses war points; failing it causes war state reset and demotions, not gang deletion.",
+			"trans": "クランに十分な資源と資金を確保し、ギャングの解散を防いでください。注意：役職維持費は戦争ポイントを消費します。未達成時は戦争状態がリセットされ階級降格となりますが、ギャング解散にはなりません。"
 		},
 		"upkeepTipTitle": {
-			"eng": "Insufficient Upkeep Resources",
-			"trans": "維持資源が不足しています"
+			"eng": "Insufficient Base Upkeep",
+			"trans": "基地維持費不足"
 		}
 	},
 	"clanDisplay": {
@@ -2281,6 +2363,112 @@
 			"trans": "ギャング一覧"
 		}
 	},
+	"clanShop": {
+		"chat": {
+			"purchase": {
+				"eng": "${buyer} requisitioned ${itemName} for ${cost} war points and sent it to the gang stash",
+				"trans": "${buyer}が${itemName}を${cost}の戦争ポイントで手配し、ギャング倉庫へ送りました。"
+			}
+		},
+		"confirmButton": {
+			"eng": "Send to Stash",
+			"trans": "保管庫へ移送"
+		},
+		"confirmDescription": {
+			"eng": "Buy ${amount}x ${itemName} for ${cost} war points and send them to the gang stash?",
+			"trans": "${amount}個の${itemName}を${cost}戦争ポイントで購入し、ギャング保管庫に送りますか？"
+		},
+		"confirmTitle": {
+			"eng": "Confirm Purchase",
+			"trans": "購入を確認"
+		},
+		"description": {
+			"eng": "Spend gang war points on shared supplies and deliver them directly into the gang stash",
+			"trans": "ギャング戦闘ポイントを消費して共有物資を購入し、ギャング倉庫へ直接搬入する"
+		},
+		"destination": {
+			"eng": "All purchases go to shared stash",
+			"trans": "すべての購入は共用ストッシュへ自動保管"
+		},
+		"empty": {
+			"eng": "No clan supplies are configured right now",
+			"trans": "現在、クランの資材は設定されていません"
+		},
+		"error": {
+			"gangNotFound": {
+				"eng": "Your gang could not be found",
+				"trans": "ギャングが見つかりませんでした"
+			},
+			"notAMember": {
+				"eng": "You are not a member of this gang",
+				"trans": "あなたは現在このギャングに所属していません。"
+			},
+			"notEnoughWarPoints": {
+				"eng": "Your gang does not have enough war points",
+				"trans": "あなたのギャングには十分な戦争ポイントがありません。"
+			},
+			"notInGang": {
+				"eng": "You must be in a gang to access the Clan Shop",
+				"trans": "クラニッシュップを利用するにはギャングに所属する必要があります。"
+			},
+			"soldOut": {
+				"eng": "This supply allocation is sold out for the current reset period",
+				"trans": "今回の供給枠は現在の更新サイクルで販売終了しました"
+			}
+		},
+		"notInGang": {
+			"eng": "You must be in a gang to access clan supplies.",
+			"trans": "クラン物資を利用するには、ギャングに所属する必要があります。"
+		},
+		"restocksIn": {
+			"eng": "Restocks In",
+			"trans": "補充まで"
+		},
+		"selectAmount": {
+			"eng": "Purchase Quantity",
+			"trans": "購入数"
+		},
+		"selectAmountDesc": {
+			"eng": "How many ${itemName} do you want to purchase?",
+			"trans": "${itemName}をいくつ購入しますか？"
+		},
+		"selectAmountModel": {
+			"body": {
+				"eng": "You are about to purchase ${amount} ${item}, total: ${total}",
+				"trans": "${amount} ${item} を購入します。合計: ${total}"
+			}
+		},
+		"stashLabel": {
+			"eng": "Gang Stash",
+			"trans": "ギャング倉庫"
+		},
+		"stockRemaining": {
+			"eng": "${remaining} / ${limit} ${cycle} left",
+			"trans": "${remaining}/${limit}${cycle} 残り"
+		},
+		"stockSoldOut": {
+			"eng": "Sold Out",
+			"trans": "完売"
+		},
+		"success": {
+			"purchased": {
+				"eng": "Requisition approved. ${itemName} has been sent to the gang stash",
+				"trans": "支給申請が承認されました。${itemName}はギャングの保管庫に送られました。"
+			}
+		},
+		"title": {
+			"eng": "Clan Shop",
+			"trans": "クランショップ"
+		},
+		"unlimited": {
+			"eng": "No stock limit",
+			"trans": "在庫制限なし"
+		},
+		"warPointsLabel": {
+			"eng": "Gang War Points",
+			"trans": "ギャング戦ポイント"
+		}
+	},
 	"clanTab": {
 		"invitePlayer": {
 			"eng": "invite player",
@@ -2451,6 +2639,32 @@
 		"tutorialLink": {
 			"eng": "Learn more about Gang War",
 			"trans": "ギャング抗争についてもっと知る"
+		}
+	},
+	"clanWarIntel": {
+		"activate": {
+			"desc": {
+				"eng": "Deploy tactical sensors to reveal enemy war stack and active combatants. Duration: 3 hours. Cost: 10 War Points.",
+				"trans": "戦術センサーを展開し、敵の軍事編成と現在参戦中の戦闘員を察知します。持続時間：3時間 コスト：戦争ポイント10"
+			}
+		},
+		"empty": {
+			"eng": "NO ACTIVE COMBATANTS",
+			"trans": "現在、交戦者はいません"
+		},
+		"header": {
+			"eng": "TACTICAL INTEL",
+			"trans": "戦術情報"
+		},
+		"locked": {
+			"desc": {
+				"eng": "Deploy WAR INTEL buff to intercept enemy communications and reveal their stack and active combatants.",
+				"trans": "WAR INTELバフを展開して敵通信を傍受し、敵集団の配置と参戦戦闘員を表示します。"
+			},
+			"title": {
+				"eng": "INTEL CLASSIFIED",
+				"trans": "機密情報"
+			}
 		}
 	},
 	"clanWarPage": {
@@ -2783,10 +2997,6 @@
 		"psychosis": {
 			"eng": "+ ${amount} psychosis",
 			"trans": "+ ${amount} サイコシス"
-		},
-		"warPoints": {
-			"eng": "${amount} war points",
-			"trans": "ウォーポイント ${amount}"
 		}
 	},
 	"coupon": {
@@ -6750,6 +6960,16 @@
 			"description": {
 				"eng": "Use to reset a ${tier} item with new random prefixes",
 				"trans": "新しいランダムな接頭辞で${tier}アイテムをリセットするために使用する"
+			}
+		},
+		"revivalKit": {
+			"description": {
+				"eng": "A black-market trauma response package containing clot foam, combat stimulants, and neural reboot patches. Processed through the Trauma Bay, it instantly restores a hospitalized gang operative to active duty.",
+				"trans": "黒市向け戦場応急処置キット。止血フォーム、戦闘用興奮剤、ニューラル再起動パッチを内蔵。トラウマベイで処理するだけで、入院中のギャング要員を即座に実戦復帰させる。"
+			},
+			"name": {
+				"eng": "Revival Kit",
+				"trans": "蘇生キット"
 			}
 		},
 		"rewardCipher": {
@@ -11489,9 +11709,23 @@
 					"trans": "戦闘バフ展開"
 				}
 			},
+			"clanShop": {
+				"description": {
+					"eng": "Purchase clan supplies and route them directly into the gang stash",
+					"trans": "クラン物資を購入し、ギャング倉庫へ直接配送"
+				},
+				"label": {
+					"eng": "CLAN SHOP",
+					"trans": "クランショップ"
+				},
+				"title": {
+					"eng": "Clan Shop",
+					"trans": "クランショップ"
+				}
+			},
 			"description": {
-				"eng": "A secure war command terminal where your gang reviews active enhancements and deploys new combat support buffs.",
-				"trans": "あなたのギャングがアクティブな強化を確認し、新たな戦闘支援バフを配備する、安全な戦争指令ターミナル。"
+				"eng": "A fortified logistics hub where your gang coordinates war operations, deploys combat buffs, and reviews tactical intel.",
+				"trans": "要塞化された物流拠点。ここであなたのギャングは戦闘作戦を調整し、戦闘バフを展開、戦術情報を精査します。"
 			},
 			"greetings": {
 				"eng": [
@@ -11506,8 +11740,8 @@
 				]
 			},
 			"locationName": {
-				"eng": "War Command Center",
-				"trans": "作戦司令部"
+				"eng": "War Quartermaster",
+				"trans": "戦争補給担当"
 			},
 			"npcName": {
 				"eng": "Quartermaster Vane",
@@ -11525,6 +11759,20 @@
 				"title": {
 					"eng": "Rank Requisition",
 					"trans": "ランク調達"
+				}
+			},
+			"traumaBay": {
+				"description": {
+					"eng": "Manage Revival Kits and instantly recover hospitalized gang members during war",
+					"trans": "リバイバルキットを管理し、戦時に入院中のギャング構成員を即時に回復させる"
+				},
+				"label": {
+					"eng": "TRAUMA BAY",
+					"trans": "外傷病棟"
+				},
+				"title": {
+					"eng": "Trauma Bay",
+					"trans": "外傷救治区"
 				}
 			}
 		},
@@ -11822,6 +12070,14 @@
 			},
 			"trans": "メンバーの昇格 / 降格"
 		},
+		"clanReviveMember": {
+			"eng": "Revive Gang Member",
+			"noPermission": {
+				"eng": "You do not have permission to revive gang members",
+				"trans": "ガングメンバーを蘇生する権限がありません"
+			},
+			"trans": "ギャングメンバーを蘇生"
+		},
 		"clanSetImage": {
 			"eng": "Set Image",
 			"noPermission": {
@@ -11829,6 +12085,14 @@
 				"trans": "ギャングのロゴを設定する権限がありません"
 			},
 			"trans": "画像を設定する"
+		},
+		"clanShopBuy": {
+			"eng": "Buy Gang Shop Items",
+			"noPermission": {
+				"eng": "You do not have permission to buy items from the Gang Shop",
+				"trans": "ギャングショップでのアイテム購入は許可されていません。"
+			},
+			"trans": "ギャングショップのアイテムを購入する"
 		},
 		"clanTogglePublic": {
 			"eng": "Toggle Public",
@@ -13307,10 +13571,6 @@
 				"eng": "This player has already been arrested",
 				"trans": "プレイヤーはすでに捕まった"
 			},
-			"warCannotEngageAlt": {
-				"eng": "You cannot attack this player due to alt detection",
-				"trans": "アルトアカウントが検出されたため、このプレイヤーへの攻撃はできません"
-			},
 			"warLevelTooDiff": {
 				"eng": "You are too high level to attack this player",
 				"trans": "あなたのレベルが高すぎてこのプレイヤーを攻撃できません。"
@@ -13478,6 +13738,10 @@
 			"notOwnerKick": {
 				"eng": "You must be the owner of the lobby to kick players",
 				"trans": "プレイヤーをキックするには、ホストである必要があります。"
+			},
+			"notOwnerUpdate": {
+				"eng": "You must be the owner of the lobby to update lobby settings",
+				"trans": "ロビーの設定を更新するには、ホストである必要があります。"
 			},
 			"playerAlreadyInLobby": {
 				"eng": "Player is already in this lobby",
@@ -14421,6 +14685,16 @@
 				"eng": "Hideout Raid EXP Multiplier V",
 				"trans": "隠れ家襲撃経験値倍率V"
 			}
+		},
+		"warIntel": {
+			"desc": {
+				"eng": "Reveals detailed war intelligence about enemy gangs",
+				"trans": "敵対ギャングの詳細な軍事情報を開示する"
+			},
+			"name": {
+				"eng": "War Intel",
+				"trans": "軍事情報"
+			}
 		}
 	},
 	"statusEffectModal": {
@@ -15237,6 +15511,114 @@
 			"trans": "これは暗号化された特性です。${item}を使用して復号し、その真の力を明らかにしてください。"
 		}
 	},
+	"traumaBay": {
+		"clanWp": {
+			"eng": "Gang WP: ${wp}",
+			"trans": "ギャングWP:${wp}"
+		},
+		"confirmRevive": {
+			"confirm": {
+				"eng": "Revive",
+				"trans": "蘇生"
+			},
+			"description": {
+				"eng": "Revive ${name}? This will cost ${itemCost} Revival Kits and ${wpCost} WP.",
+				"trans": "${name}を蘇生しますか？ コストは苏生キット ${itemCost} と WP ${wpCost} です。"
+			},
+			"title": {
+				"eng": "Confirm Revive",
+				"trans": "蘇生を確認"
+			}
+		},
+		"costResetLabel": {
+			"eng": "Cost Reset",
+			"trans": "コストリセット"
+		},
+		"costResetReady": {
+			"eng": "READY (BASE COST)",
+			"trans": "準備完了（基本コスト）"
+		},
+		"donateButton": {
+			"eng": "Donate",
+			"trans": "寄付"
+		},
+		"donateModal": {
+			"confirm": {
+				"eng": "Donate",
+				"trans": "寄付"
+			},
+			"description": {
+				"eng": "Select the amount to donate from your inventory.",
+				"trans": "インベントリから寄付する数量を選択してください。"
+			},
+			"title": {
+				"eng": "Donate Revival Kits",
+				"trans": "蘇生キットを寄付"
+			}
+		},
+		"donateTitle": {
+			"eng": "Donate Revival Kits",
+			"trans": "蘇生キットを寄付"
+		},
+		"error": {
+			"noPermission": {
+				"eng": "You do not have permission to revive members.",
+				"trans": "メンバーを蘇生する権限がありません。"
+			}
+		},
+		"hospitalizedLabel": {
+			"eng": "Hospitalized Members",
+			"trans": "入院中のメンバー"
+		},
+		"insufficientResources": {
+			"eng": "INSUFFICIENT",
+			"trans": "不足"
+		},
+		"nextCostLabel": {
+			"eng": "Next Revive Cost",
+			"trans": "次の復活コスト"
+		},
+		"noData": {
+			"eng": "Failed to connect to tactical network.",
+			"trans": "戦術ネットワークへの接続に失敗しました。"
+		},
+		"noHospitalized": {
+			"eng": "No gang members currently hospitalized.",
+			"trans": "現在、ギャング構成員に入院者はいません"
+		},
+		"realCostTip": {
+			"eng": "Reviving is a shared gang cost. It starts at ${base} kits and increases by ${increment} kit per revive. The cost resets after 6 hours of no Trauma Bay use.",
+			"trans": "復活コストはギャング全体で共有されます。${base}キットから始まり、1回の復活ごとに${increment}キットずつ増加します。トラウマベイを使用してから6時間経過するとコストはリセットされます。"
+		},
+		"recoveryPriceLabel": {
+			"eng": "Revive Cost",
+			"trans": "蘇生コスト"
+		},
+		"stashAmount": {
+			"eng": "In Stash: ${amount}",
+			"trans": "保管中：${amount}"
+		},
+		"stashLabel": {
+			"eng": "Trauma Bay Stash",
+			"trans": "トラウマベイ保管庫"
+		},
+		"tapToRecover": {
+			"eng": "REVIVE ▸",
+			"trans": "復活 ▸"
+		},
+		"timeRemaining": {
+			"eng": "T-MINUS ${time}",
+			"trans": "T-${time}"
+		},
+		"viewOnly": {
+			"eng": "VIEW ONLY",
+			"trans": "閲覧専用"
+		},
+		"wpCostAmount": {
+			"eng": "${wp} WP",
+			"trans": "${wp} WP"
+		}
+	},
 	"travelToLocationModal": {
 		"alreadyAtLocation": {
 			"eng": "Already at location",
@@ -15890,6 +16272,14 @@
 			"eng": "Stored ${count} item(s) in vault",
 			"trans": "倉庫に${count}個のアイテムを保管しました"
 		},
+		"withdrawPartial": {
+			"eng": "Moved ${moved} item(s) to inventory. Skipped ${skipped} item(s) that did not fit.",
+			"trans": "${moved}個のアイテムをインベントリへ移動しました。容量不足により${skipped}個は転送されませんでした。"
+		},
+		"withdrawSkipped": {
+			"eng": "No selected items could be moved because they did not fit in inventory.",
+			"trans": "選択したアイテムはインベントリに収まらないため、移動できませんでした。"
+		},
 		"withdrawSuccess": {
 			"eng": "Retrieved ${count} item(s) from vault",
 			"trans": "倉庫から${count}個のアイテムを取得しました"
@@ -15905,6 +16295,20 @@
 		"emptyVault": {
 			"eng": "Your vault is empty",
 			"trans": "あなたの倉庫は空です"
+		},
+		"multiSelect": {
+			"deposit": {
+				"title": {
+					"eng": "Store In Vault",
+					"trans": "倉庫に格納"
+				}
+			},
+			"withdraw": {
+				"title": {
+					"eng": "Move To Inventory",
+					"trans": "所持品へ移動"
+				}
+			}
 		},
 		"selectAddAmountModal": {
 			"title": {

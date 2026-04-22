@@ -1391,6 +1391,78 @@
 			"trans": "立即解鎖"
 		}
 	},
+	"battleSupport": {
+		"chat": {
+			"revive": {
+				"eng": "${reviver} has revived ${target} through the Trauma Bay",
+				"trans": "${reviver}已於創傷急救艙成功救回${target}"
+			}
+		},
+		"donated": {
+			"eng": "Donated ${amount} Revival Kit(s) to the Trauma Bay stash",
+			"trans": "將 ${amount} 個復活包捐贈至創傷庫房"
+		},
+		"error": {
+			"gangNotFound": {
+				"eng": "Your gang could not be found",
+				"trans": "找不到您的幫派"
+			},
+			"notAMember": {
+				"eng": "You are not a member of this gang",
+				"trans": "你不是這個幫派的成員。"
+			},
+			"notEnoughItems": {
+				"eng": "You don't have enough Revival Kits to donate",
+				"trans": "您的復活包數量不足，無法捐贈"
+			},
+			"notEnoughStash": {
+				"eng": "Not enough Revival Kits in the Trauma Bay stash (need ${cost})",
+				"trans": "急救區儲備的復活包不足（需 ${cost} 個）"
+			},
+			"notEnoughWarPoints": {
+				"eng": "Not enough war points (need ${cost})",
+				"trans": "戰爭點數不足 (需要${cost})"
+			},
+			"notHospitalized": {
+				"eng": "Target is not currently hospitalized",
+				"trans": "目標目前未住院"
+			},
+			"notInGang": {
+				"eng": "You must be in a gang to access the Trauma Bay",
+				"trans": "須為幫派成員方可進入創傷區"
+			},
+			"stashFull": {
+				"eng": "The gang stash is full",
+				"trans": "幫派倉庫已滿"
+			},
+			"targetNotFound": {
+				"eng": "Target member could not be found in your gang",
+				"trans": "您的幫派中找不到目標成員"
+			},
+			"warStateRequired": {
+				"eng": "Your gang must be in war state to use the Trauma Bay",
+				"trans": "您的幫派必須處於戰爭狀態才能使用急救艙"
+			}
+		},
+		"mail": {
+			"revived": {
+				"eng": "${playerName} has revived you through the Trauma Bay",
+				"trans": "${playerName}已透過創傷急救區為您復活"
+			},
+			"reviver": {
+				"eng": "You have revived ${playerName} through the Trauma Bay",
+				"trans": "你已透過創傷急救區復活${playerName}"
+			}
+		},
+		"supportSuccess": {
+			"eng": "Trauma Bay recovery completed for ${name}",
+			"trans": "${name}已在創傷急救艙恢復完畢"
+		},
+		"supported": {
+			"eng": "You have been instantly recovered through the Trauma Bay",
+			"trans": "您已透過創傷急救室即時恢復"
+		}
+	},
 	"blockedPlayerListPage": {
 		"emptyHint": {
 			"eng": "Block players from their profile to prevent them from contacting you",
@@ -1534,6 +1606,16 @@
 			"name": {
 				"eng": "PvP Money Loss Reduction III",
 				"trans": "PVP 金錢損失減少 III"
+			}
+		},
+		"warIntel": {
+			"description": {
+				"eng": "Reveals detailed war intelligence about all enemy gangs for ${hours} hours, including war stacks, participant rosters, and war kill counts",
+				"trans": "持續 ${hours} 小時顯示所有敵方幫派的詳細戰情資訊，包含戰備配置、參戰名單與擊殺統計。"
+			},
+			"name": {
+				"eng": "War Intel",
+				"trans": "戰況情報"
 			}
 		}
 	},
@@ -2023,12 +2105,12 @@
 			"trans": "資源"
 		},
 		"upkeepTip": {
-			"eng": "Ensure there is enough resources and funds to avoid losing the gang on the next upkeep date.",
-			"trans": "確保有足夠的資源和資金，以避免在下一次維護日期失去幫派。"
+			"eng": "Ensure the clan has enough resources and funds to avoid losing the gang. Note: Role upkeep uses war points; failing it causes war state reset and demotions, not gang deletion.",
+			"trans": "請確保幫派擁有足夠的資源與資金，以免遭到瓦解。注意：職位維持將消耗戰點；若未能滿足維護條件，將導致戰爭狀態重置並降級，但不會解散幫派。"
 		},
 		"upkeepTipTitle": {
-			"eng": "Insufficient Upkeep Resources",
-			"trans": "維護資源不足"
+			"eng": "Insufficient Base Upkeep",
+			"trans": "基地維持費用不足"
 		}
 	},
 	"clanDisplay": {
@@ -2281,6 +2363,112 @@
 			"trans": "幫派目錄"
 		}
 	},
+	"clanShop": {
+		"chat": {
+			"purchase": {
+				"eng": "${buyer} requisitioned ${itemName} for ${cost} war points and sent it to the gang stash",
+				"trans": "${buyer} 花費 ${cost} 戰點購買 ${itemName} 並存入幫派倉庫"
+			}
+		},
+		"confirmButton": {
+			"eng": "Send to Stash",
+			"trans": "存入倉庫"
+		},
+		"confirmDescription": {
+			"eng": "Buy ${amount}x ${itemName} for ${cost} war points and send them to the gang stash?",
+			"trans": "是否花費 ${cost} 戰點購買 ${amount} 個 ${itemName}，並存入幫派倉庫？"
+		},
+		"confirmTitle": {
+			"eng": "Confirm Purchase",
+			"trans": "確認購買"
+		},
+		"description": {
+			"eng": "Spend gang war points on shared supplies and deliver them directly into the gang stash",
+			"trans": "使用幫派戰爭點數購買共享物資，並直接存入幫派倉庫"
+		},
+		"destination": {
+			"eng": "All purchases go to shared stash",
+			"trans": "所有購買物品將存入共用倉庫"
+		},
+		"empty": {
+			"eng": "No clan supplies are configured right now",
+			"trans": "目前尚未配置氏族補給"
+		},
+		"error": {
+			"gangNotFound": {
+				"eng": "Your gang could not be found",
+				"trans": "找不到您的幫派"
+			},
+			"notAMember": {
+				"eng": "You are not a member of this gang",
+				"trans": "你不是這個幫派的成員。"
+			},
+			"notEnoughWarPoints": {
+				"eng": "Your gang does not have enough war points",
+				"trans": "您的幫派戰爭積分不足"
+			},
+			"notInGang": {
+				"eng": "You must be in a gang to access the Clan Shop",
+				"trans": "您必須隸屬幫派才能開啟宗族商店"
+			},
+			"soldOut": {
+				"eng": "This supply allocation is sold out for the current reset period",
+				"trans": "本期補給配額已於當前重置週期內售罄"
+			}
+		},
+		"notInGang": {
+			"eng": "You must be in a gang to access clan supplies.",
+			"trans": "必須隸屬幫派才能存取氏族物資。"
+		},
+		"restocksIn": {
+			"eng": "Restocks In",
+			"trans": "補貨倒數"
+		},
+		"selectAmount": {
+			"eng": "Purchase Quantity",
+			"trans": "購買數量"
+		},
+		"selectAmountDesc": {
+			"eng": "How many ${itemName} do you want to purchase?",
+			"trans": "您要購買多少${itemName}？"
+		},
+		"selectAmountModel": {
+			"body": {
+				"eng": "You are about to purchase ${amount} ${item}, total: ${total}",
+				"trans": "即將購買 ${amount}${item}，總計：${total}"
+			}
+		},
+		"stashLabel": {
+			"eng": "Gang Stash",
+			"trans": "幫派私庫"
+		},
+		"stockRemaining": {
+			"eng": "${remaining} / ${limit} ${cycle} left",
+			"trans": "剩餘${remaining}/${limit}${cycle}"
+		},
+		"stockSoldOut": {
+			"eng": "Sold Out",
+			"trans": "售罄"
+		},
+		"success": {
+			"purchased": {
+				"eng": "Requisition approved. ${itemName} has been sent to the gang stash",
+				"trans": "申請已核准。${itemName}已送至幫派倉庫。"
+			}
+		},
+		"title": {
+			"eng": "Clan Shop",
+			"trans": "公會商店"
+		},
+		"unlimited": {
+			"eng": "No stock limit",
+			"trans": "庫存無上限"
+		},
+		"warPointsLabel": {
+			"eng": "Gang War Points",
+			"trans": "幫派戰績"
+		}
+	},
 	"clanTab": {
 		"invitePlayer": {
 			"eng": "invite player",
@@ -2451,6 +2639,32 @@
 		"tutorialLink": {
 			"eng": "Learn more about Gang War",
 			"trans": "了解更多關於幫派戰爭"
+		}
+	},
+	"clanWarIntel": {
+		"activate": {
+			"desc": {
+				"eng": "Deploy tactical sensors to reveal enemy war stack and active combatants. Duration: 3 hours. Cost: 10 War Points.",
+				"trans": "部署戰術感應器以顯示敵方兵力編組與現役作戰單位。持續時間：3小時。消耗：10點戰爭點數。"
+			}
+		},
+		"empty": {
+			"eng": "NO ACTIVE COMBATANTS",
+			"trans": "無活躍戰鬥者"
+		},
+		"header": {
+			"eng": "TACTICAL INTEL",
+			"trans": "戰術情報"
+		},
+		"locked": {
+			"desc": {
+				"eng": "Deploy WAR INTEL buff to intercept enemy communications and reveal their stack and active combatants.",
+				"trans": "部署WAR INTEL增益以攔截敵方通訊，並顯示敵軍編隊與現役戰力。"
+			},
+			"title": {
+				"eng": "INTEL CLASSIFIED",
+				"trans": "機密情報"
+			}
 		}
 	},
 	"clanWarPage": {
@@ -2783,10 +2997,6 @@
 		"psychosis": {
 			"eng": "+ ${amount} psychosis",
 			"trans": "+ ${amount} 網路狂躁症"
-		},
-		"warPoints": {
-			"eng": "${amount} war points",
-			"trans": "${amount} 戰爭點數"
 		}
 	},
 	"coupon": {
@@ -6750,6 +6960,16 @@
 			"description": {
 				"eng": "Use to reset a ${tier} item with new random prefixes",
 				"trans": "使用來重置一個${tier}等級的物品，並隨機生成新的前綴詞"
+			}
+		},
+		"revivalKit": {
+			"description": {
+				"eng": "A black-market trauma response package containing clot foam, combat stimulants, and neural reboot patches. Processed through the Trauma Bay, it instantly restores a hospitalized gang operative to active duty.",
+				"trans": "內含止血泡沫、戰鬥興奮劑與神經重啟貼片的黑市急救套組。經創傷艙處理後，可立即讓住院的黑幫幹員恢復戰備狀態。"
+			},
+			"name": {
+				"eng": "Revival Kit",
+				"trans": "復活包"
 			}
 		},
 		"rewardCipher": {
@@ -11489,9 +11709,23 @@
 					"trans": "戰鬥增益部署"
 				}
 			},
+			"clanShop": {
+				"description": {
+					"eng": "Purchase clan supplies and route them directly into the gang stash",
+					"trans": "購買幫派物資並直接轉入幫派倉庫"
+				},
+				"label": {
+					"eng": "CLAN SHOP",
+					"trans": "公會商店"
+				},
+				"title": {
+					"eng": "Clan Shop",
+					"trans": "公會商店"
+				}
+			},
 			"description": {
-				"eng": "A secure war command terminal where your gang reviews active enhancements and deploys new combat support buffs.",
-				"trans": "安全的戰爭指揮終端，供你的幫派檢視當前生效強化項目並部署新的戰鬥支援增益。"
+				"eng": "A fortified logistics hub where your gang coordinates war operations, deploys combat buffs, and reviews tactical intel.",
+				"trans": "堅固的補給中樞，供你的幫派協調作戰行動、部署戰鬥增益，並分析戰術情報。"
 			},
 			"greetings": {
 				"eng": [
@@ -11506,8 +11740,8 @@
 				]
 			},
 			"locationName": {
-				"eng": "War Command Center",
-				"trans": "戰爭指揮中心"
+				"eng": "War Quartermaster",
+				"trans": "戰爭軍需官"
 			},
 			"npcName": {
 				"eng": "Quartermaster Vane",
@@ -11525,6 +11759,20 @@
 				"title": {
 					"eng": "Rank Requisition",
 					"trans": "段位兌換"
+				}
+			},
+			"traumaBay": {
+				"description": {
+					"eng": "Manage Revival Kits and instantly recover hospitalized gang members during war",
+					"trans": "管理復活包，於戰時即時喚回療傷中的幫派成員"
+				},
+				"label": {
+					"eng": "TRAUMA BAY",
+					"trans": "急診搶救室"
+				},
+				"title": {
+					"eng": "Trauma Bay",
+					"trans": "創傷急救室"
 				}
 			}
 		},
@@ -11822,6 +12070,14 @@
 			},
 			"trans": "晉升/降級成員"
 		},
+		"clanReviveMember": {
+			"eng": "Revive Gang Member",
+			"noPermission": {
+				"eng": "You do not have permission to revive gang members",
+				"trans": "您無權復活幫派成員"
+			},
+			"trans": "復活幫派成員"
+		},
 		"clanSetImage": {
 			"eng": "Set Image",
 			"noPermission": {
@@ -11829,6 +12085,14 @@
 				"trans": "您沒有權限設定幫派圖片"
 			},
 			"trans": "設定圖像"
+		},
+		"clanShopBuy": {
+			"eng": "Buy Gang Shop Items",
+			"noPermission": {
+				"eng": "You do not have permission to buy items from the Gang Shop",
+				"trans": "您沒有權限購買幫派商店物品"
+			},
+			"trans": "購買幫派商店物品"
 		},
 		"clanTogglePublic": {
 			"eng": "Toggle Public",
@@ -13307,10 +13571,6 @@
 				"eng": "This player has already been arrested",
 				"trans": "此玩家已遭逮捕"
 			},
-			"warCannotEngageAlt": {
-				"eng": "You cannot attack this player due to alt detection",
-				"trans": "由於偵測到備用帳號，您無法攻擊此玩家"
-			},
 			"warLevelTooDiff": {
 				"eng": "You are too high level to attack this player",
 				"trans": "你的等級過高無法攻擊該玩家"
@@ -13478,6 +13738,10 @@
 			"notOwnerKick": {
 				"eng": "You must be the owner of the lobby to kick players",
 				"trans": "您必須是大廳的擁有者才能踢出玩家"
+			},
+			"notOwnerUpdate": {
+				"eng": "You must be the owner of the lobby to update lobby settings",
+				"trans": "只有房主才能修改房間設定。"
 			},
 			"playerAlreadyInLobby": {
 				"eng": "Player is already in this lobby",
@@ -14421,6 +14685,16 @@
 				"eng": "Hideout Raid EXP Multiplier V",
 				"trans": "藏身處突襲經驗值倍增器 V"
 			}
+		},
+		"warIntel": {
+			"desc": {
+				"eng": "Reveals detailed war intelligence about enemy gangs",
+				"trans": "顯示敵對幫派的詳細戰事情報"
+			},
+			"name": {
+				"eng": "War Intel",
+				"trans": "戰況情報"
+			}
 		}
 	},
 	"statusEffectModal": {
@@ -15237,6 +15511,114 @@
 			"trans": "這是加密的屬性，用${item}解鎖，看清它的真面目。"
 		}
 	},
+	"traumaBay": {
+		"clanWp": {
+			"eng": "Gang WP: ${wp}",
+			"trans": "幫派標記：${wp}"
+		},
+		"confirmRevive": {
+			"confirm": {
+				"eng": "Revive",
+				"trans": "復活"
+			},
+			"description": {
+				"eng": "Revive ${name}? This will cost ${itemCost} Revival Kits and ${wpCost} WP.",
+				"trans": "確認復活 ${name}？將消耗 ${itemCost} 個復活包與 ${wpCost} WP。"
+			},
+			"title": {
+				"eng": "Confirm Revive",
+				"trans": "確認復活"
+			}
+		},
+		"costResetLabel": {
+			"eng": "Cost Reset",
+			"trans": "重置消耗"
+		},
+		"costResetReady": {
+			"eng": "READY (BASE COST)",
+			"trans": "就緒（基礎消耗）"
+		},
+		"donateButton": {
+			"eng": "Donate",
+			"trans": "贊助"
+		},
+		"donateModal": {
+			"confirm": {
+				"eng": "Donate",
+				"trans": "贊助"
+			},
+			"description": {
+				"eng": "Select the amount to donate from your inventory.",
+				"trans": "請從您的倉庫中選擇要捐贈的數量。"
+			},
+			"title": {
+				"eng": "Donate Revival Kits",
+				"trans": "贈送復活包"
+			}
+		},
+		"donateTitle": {
+			"eng": "Donate Revival Kits",
+			"trans": "贈送復活包"
+		},
+		"error": {
+			"noPermission": {
+				"eng": "You do not have permission to revive members.",
+				"trans": "您沒有權限復活隊員"
+			}
+		},
+		"hospitalizedLabel": {
+			"eng": "Hospitalized Members",
+			"trans": "住院成員"
+		},
+		"insufficientResources": {
+			"eng": "INSUFFICIENT",
+			"trans": "不足"
+		},
+		"nextCostLabel": {
+			"eng": "Next Revive Cost",
+			"trans": "下次復活費用"
+		},
+		"noData": {
+			"eng": "Failed to connect to tactical network.",
+			"trans": "無法連線至戰術網路。"
+		},
+		"noHospitalized": {
+			"eng": "No gang members currently hospitalized.",
+			"trans": "目前無幫派成員住院"
+		},
+		"realCostTip": {
+			"eng": "Reviving is a shared gang cost. It starts at ${base} kits and increases by ${increment} kit per revive. The cost resets after 6 hours of no Trauma Bay use.",
+			"trans": "復活為幫派共享消耗。起始費用為 ${base} 套，每次復活增加 ${increment} 套。若 6 小時內未使用急救室，消耗數值將重置。"
+		},
+		"recoveryPriceLabel": {
+			"eng": "Revive Cost",
+			"trans": "復活費用"
+		},
+		"stashAmount": {
+			"eng": "In Stash: ${amount}",
+			"trans": "倉庫：${amount}"
+		},
+		"stashLabel": {
+			"eng": "Trauma Bay Stash",
+			"trans": "創傷病房儲藏室"
+		},
+		"tapToRecover": {
+			"eng": "REVIVE ▸",
+			"trans": "復活 ▸"
+		},
+		"timeRemaining": {
+			"eng": "T-MINUS ${time}",
+			"trans": "倒數${time}"
+		},
+		"viewOnly": {
+			"eng": "VIEW ONLY",
+			"trans": "僅供查看"
+		},
+		"wpCostAmount": {
+			"eng": "${wp} WP",
+			"trans": "${wp} 導航點"
+		}
+	},
 	"travelToLocationModal": {
 		"alreadyAtLocation": {
 			"eng": "Already at location",
@@ -15890,6 +16272,14 @@
 			"eng": "Stored ${count} item(s) in vault",
 			"trans": "${count} 件物品已存入保險箱"
 		},
+		"withdrawPartial": {
+			"eng": "Moved ${moved} item(s) to inventory. Skipped ${skipped} item(s) that did not fit.",
+			"trans": "已將 ${moved} 件物品移至倉庫。${skipped} 件物品因容量不足跳過存放。"
+		},
+		"withdrawSkipped": {
+			"eng": "No selected items could be moved because they did not fit in inventory.",
+			"trans": "因背包空間不足，無法移動所選物品。"
+		},
 		"withdrawSuccess": {
 			"eng": "Retrieved ${count} item(s) from vault",
 			"trans": "已從保險箱取得 ${count} 件物品"
@@ -15905,6 +16295,20 @@
 		"emptyVault": {
 			"eng": "Your vault is empty",
 			"trans": "您的保險箱是空的。"
+		},
+		"multiSelect": {
+			"deposit": {
+				"title": {
+					"eng": "Store In Vault",
+					"trans": "存入保險箱"
+				}
+			},
+			"withdraw": {
+				"title": {
+					"eng": "Move To Inventory",
+					"trans": "移入倉庫"
+				}
+			}
 		},
 		"selectAddAmountModal": {
 			"title": {

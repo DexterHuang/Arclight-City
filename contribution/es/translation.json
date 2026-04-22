@@ -1391,6 +1391,78 @@
 			"trans": "Desbloquear Ahora"
 		}
 	},
+	"battleSupport": {
+		"chat": {
+			"revive": {
+				"eng": "${reviver} has revived ${target} through the Trauma Bay",
+				"trans": "${reviver} ha revivido a ${target} en la Sala de Trauma"
+			}
+		},
+		"donated": {
+			"eng": "Donated ${amount} Revival Kit(s) to the Trauma Bay stash",
+			"trans": "Has donado ${amount} kit(s) de reanimación al almacén del centro médico."
+		},
+		"error": {
+			"gangNotFound": {
+				"eng": "Your gang could not be found",
+				"trans": "No se pudo encontrar tu banda."
+			},
+			"notAMember": {
+				"eng": "You are not a member of this gang",
+				"trans": "No perteneces a esta banda."
+			},
+			"notEnoughItems": {
+				"eng": "You don't have enough Revival Kits to donate",
+				"trans": "No tienes suficientes Kits de Resurrección para donar."
+			},
+			"notEnoughStash": {
+				"eng": "Not enough Revival Kits in the Trauma Bay stash (need ${cost})",
+				"trans": "No hay suficientes kits de reanimación en la reserva de la Sala de Trauma (se requieren ${cost})"
+			},
+			"notEnoughWarPoints": {
+				"eng": "Not enough war points (need ${cost})",
+				"trans": "Faltan puntos de guerra (${cost} necesarios)"
+			},
+			"notHospitalized": {
+				"eng": "Target is not currently hospitalized",
+				"trans": "El objetivo no está hospitalizado actualmente."
+			},
+			"notInGang": {
+				"eng": "You must be in a gang to access the Trauma Bay",
+				"trans": "Debes pertenecer a una banda para acceder a la Sala de Trauma."
+			},
+			"stashFull": {
+				"eng": "The gang stash is full",
+				"trans": "La reserva de la banda está llena"
+			},
+			"targetNotFound": {
+				"eng": "Target member could not be found in your gang",
+				"trans": "El miembro indicado no se encuentra en tu banda."
+			},
+			"warStateRequired": {
+				"eng": "Your gang must be in war state to use the Trauma Bay",
+				"trans": "Tu banda debe estar en estado de guerra para utilizar la Sala de Trauma."
+			}
+		},
+		"mail": {
+			"revived": {
+				"eng": "${playerName} has revived you through the Trauma Bay",
+				"trans": "${playerName} te ha revivido mediante la Cámara de Trauma"
+			},
+			"reviver": {
+				"eng": "You have revived ${playerName} through the Trauma Bay",
+				"trans": "Has revivido a ${playerName} en la Sala de Trauma."
+			}
+		},
+		"supportSuccess": {
+			"eng": "Trauma Bay recovery completed for ${name}",
+			"trans": "Recuperación completada en la Sala de Trauma para ${name}"
+		},
+		"supported": {
+			"eng": "You have been instantly recovered through the Trauma Bay",
+			"trans": "Te has recuperado instantáneamente en la Sala de Trauma."
+		}
+	},
 	"blockedPlayerListPage": {
 		"emptyHint": {
 			"eng": "Block players from their profile to prevent them from contacting you",
@@ -1534,6 +1606,16 @@
 			"name": {
 				"eng": "PvP Money Loss Reduction III",
 				"trans": "Reducción de la pérdida de dinero PvP III"
+			}
+		},
+		"warIntel": {
+			"description": {
+				"eng": "Reveals detailed war intelligence about all enemy gangs for ${hours} hours, including war stacks, participant rosters, and war kill counts",
+				"trans": "Revela información bélica detallada sobre todas las pandillas enemigas durante ${hours} horas, incluyendo los niveles del conflicto, las listas de participantes y el número de bajas."
+			},
+			"name": {
+				"eng": "War Intel",
+				"trans": "Inteligencia de guerra"
 			}
 		}
 	},
@@ -2023,12 +2105,12 @@
 			"trans": "Recursos"
 		},
 		"upkeepTip": {
-			"eng": "Ensure there is enough resources and funds to avoid losing the gang on the next upkeep date.",
-			"trans": "Asegúrate de que haya suficientes recursos y fondos para evitar perder la banda en la próxima fecha de mantenimiento."
+			"eng": "Ensure the clan has enough resources and funds to avoid losing the gang. Note: Role upkeep uses war points; failing it causes war state reset and demotions, not gang deletion.",
+			"trans": "Asegúrate de que el clan cuente con suficientes recursos y fondos para evitar perder la pandilla. Nota: El mantenimiento de roles consume puntos de guerra; incumplirlo reinicia el estado de guerra y provoca degradaciones, pero no elimina a la pandilla."
 		},
 		"upkeepTipTitle": {
-			"eng": "Insufficient Upkeep Resources",
-			"trans": "Recursos de Mantenimiento Insuficientes"
+			"eng": "Insufficient Base Upkeep",
+			"trans": "Insuficiente mantenimiento de la base"
 		}
 	},
 	"clanDisplay": {
@@ -2281,6 +2363,112 @@
 			"trans": "Directorio de bandas"
 		}
 	},
+	"clanShop": {
+		"chat": {
+			"purchase": {
+				"eng": "${buyer} requisitioned ${itemName} for ${cost} war points and sent it to the gang stash",
+				"trans": "${buyer} solicitó ${itemName} por ${cost} puntos de guerra y lo envió al almacén de la banda"
+			}
+		},
+		"confirmButton": {
+			"eng": "Send to Stash",
+			"trans": "Enviar al almacén"
+		},
+		"confirmDescription": {
+			"eng": "Buy ${amount}x ${itemName} for ${cost} war points and send them to the gang stash?",
+			"trans": "¿Comprar ${amount}x ${itemName} por ${cost} puntos de guerra y enviarlos a la reserva de la banda?"
+		},
+		"confirmTitle": {
+			"eng": "Confirm Purchase",
+			"trans": "Confirmar compra"
+		},
+		"description": {
+			"eng": "Spend gang war points on shared supplies and deliver them directly into the gang stash",
+			"trans": "Gasta puntos de guerra de banda en suministros compartidos y deposítalos directamente en el almacén de la banda."
+		},
+		"destination": {
+			"eng": "All purchases go to shared stash",
+			"trans": "Todas las compras van al almacén compartido"
+		},
+		"empty": {
+			"eng": "No clan supplies are configured right now",
+			"trans": "Actualmente no hay suministros del clan configurados."
+		},
+		"error": {
+			"gangNotFound": {
+				"eng": "Your gang could not be found",
+				"trans": "No se pudo encontrar tu banda."
+			},
+			"notAMember": {
+				"eng": "You are not a member of this gang",
+				"trans": "No perteneces a esta banda."
+			},
+			"notEnoughWarPoints": {
+				"eng": "Your gang does not have enough war points",
+				"trans": "Tu banda no tiene suficientes puntos de guerra."
+			},
+			"notInGang": {
+				"eng": "You must be in a gang to access the Clan Shop",
+				"trans": "Debes pertenecer a una banda para acceder a la Tienda del Clan"
+			},
+			"soldOut": {
+				"eng": "This supply allocation is sold out for the current reset period",
+				"trans": "Esta asignación de suministros está agotada para el período de reinicio actual."
+			}
+		},
+		"notInGang": {
+			"eng": "You must be in a gang to access clan supplies.",
+			"trans": "Debes estar en una banda para acceder a los suministros del clan"
+		},
+		"restocksIn": {
+			"eng": "Restocks In",
+			"trans": "Reabastecimiento en"
+		},
+		"selectAmount": {
+			"eng": "Purchase Quantity",
+			"trans": "Cantidad de compra"
+		},
+		"selectAmountDesc": {
+			"eng": "How many ${itemName} do you want to purchase?",
+			"trans": "¿Cuántos ${itemName} deseas comprar?"
+		},
+		"selectAmountModel": {
+			"body": {
+				"eng": "You are about to purchase ${amount} ${item}, total: ${total}",
+				"trans": "Vas a comprar ${amount} ${item}, total: ${total}"
+			}
+		},
+		"stashLabel": {
+			"eng": "Gang Stash",
+			"trans": "Depósito de la Banda"
+		},
+		"stockRemaining": {
+			"eng": "${remaining} / ${limit} ${cycle} left",
+			"trans": "${remaining} / ${limit} ${cycle} restantes"
+		},
+		"stockSoldOut": {
+			"eng": "Sold Out",
+			"trans": "Agotado"
+		},
+		"success": {
+			"purchased": {
+				"eng": "Requisition approved. ${itemName} has been sent to the gang stash",
+				"trans": "Solicitud aprobada. ${itemName} ha sido enviado al almacén de la banda."
+			}
+		},
+		"title": {
+			"eng": "Clan Shop",
+			"trans": "Tienda del Clan"
+		},
+		"unlimited": {
+			"eng": "No stock limit",
+			"trans": "Sin límite de inventario"
+		},
+		"warPointsLabel": {
+			"eng": "Gang War Points",
+			"trans": "Puntos de Guerra de Bandas"
+		}
+	},
 	"clanTab": {
 		"invitePlayer": {
 			"eng": "invite player",
@@ -2451,6 +2639,32 @@
 		"tutorialLink": {
 			"eng": "Learn more about Gang War",
 			"trans": "Saber más sobre la Guerra de Banda"
+		}
+	},
+	"clanWarIntel": {
+		"activate": {
+			"desc": {
+				"eng": "Deploy tactical sensors to reveal enemy war stack and active combatants. Duration: 3 hours. Cost: 10 War Points.",
+				"trans": "Desplegar sensores tácticos para revelar la formación enemiga y los combatientes activos. Duración: 3 horas. Costo: 10 Puntos de Guerra."
+			}
+		},
+		"empty": {
+			"eng": "NO ACTIVE COMBATANTS",
+			"trans": "SIN COMBATIENTES ACTIVOS"
+		},
+		"header": {
+			"eng": "TACTICAL INTEL",
+			"trans": "INTELIGENCIA TÁCTICA"
+		},
+		"locked": {
+			"desc": {
+				"eng": "Deploy WAR INTEL buff to intercept enemy communications and reveal their stack and active combatants.",
+				"trans": "Despliega el buff de INTEL DE GUERRA para interceptar las comunicaciones enemigas y revelar su formación y combatientes activos."
+			},
+			"title": {
+				"eng": "INTEL CLASSIFIED",
+				"trans": "INTELIGENCIA CLASIFICADA"
+			}
 		}
 	},
 	"clanWarPage": {
@@ -2783,10 +2997,6 @@
 		"psychosis": {
 			"eng": "+ ${amount} psychosis",
 			"trans": "+ ${amount} psicosis"
-		},
-		"warPoints": {
-			"eng": "${amount} war points",
-			"trans": "${amount} puntos de guerra"
 		}
 	},
 	"coupon": {
@@ -6750,6 +6960,16 @@
 			"description": {
 				"eng": "Use to reset a ${tier} item with new random prefixes",
 				"trans": "Utilizar para reiniciar un objeto de ${tier} con nuevos prefijos aleatorios"
+			}
+		},
+		"revivalKit": {
+			"description": {
+				"eng": "A black-market trauma response package containing clot foam, combat stimulants, and neural reboot patches. Processed through the Trauma Bay, it instantly restores a hospitalized gang operative to active duty.",
+				"trans": "Kit médico del mercado negro que contiene espuma coagulante, estimulantes de combate y parches de reinicio neural. Al pasar por la Sala de Trauma, reincorpora instantáneamente al operativo de Banda hospitalizado al servicio activo."
+			},
+			"name": {
+				"eng": "Revival Kit",
+				"trans": "Kit de Resurrección"
 			}
 		},
 		"rewardCipher": {
@@ -11489,9 +11709,23 @@
 					"trans": "Despliegue de Mejoras de Guerra"
 				}
 			},
+			"clanShop": {
+				"description": {
+					"eng": "Purchase clan supplies and route them directly into the gang stash",
+					"trans": "Compra suministros del clan y envíalos directamente al almacén de la banda."
+				},
+				"label": {
+					"eng": "CLAN SHOP",
+					"trans": "TIENDA DEL CLAN"
+				},
+				"title": {
+					"eng": "Clan Shop",
+					"trans": "Tienda del Clan"
+				}
+			},
 			"description": {
-				"eng": "A secure war command terminal where your gang reviews active enhancements and deploys new combat support buffs.",
-				"trans": "Terminal de mando de guerra seguro donde tu banda revisa mejoras activas y despliega nuevas bonificaciones de soporte en combate."
+				"eng": "A fortified logistics hub where your gang coordinates war operations, deploys combat buffs, and reviews tactical intel.",
+				"trans": "Un centro logístico fortificado donde tu banda coordina operaciones bélicas, despliega mejoras en combate y revisa la inteligencia táctica."
 			},
 			"greetings": {
 				"eng": [
@@ -11506,8 +11740,8 @@
 				]
 			},
 			"locationName": {
-				"eng": "War Command Center",
-				"trans": "Centro de mando de guerra"
+				"eng": "War Quartermaster",
+				"trans": "Oficial de suministros bélicos"
 			},
 			"npcName": {
 				"eng": "Quartermaster Vane",
@@ -11525,6 +11759,20 @@
 				"title": {
 					"eng": "Rank Requisition",
 					"trans": "Requisición de Rango"
+				}
+			},
+			"traumaBay": {
+				"description": {
+					"eng": "Manage Revival Kits and instantly recover hospitalized gang members during war",
+					"trans": "Gestiona los kits de resurrección y recupera al instante a los miembros hospitalizados de la banda durante la guerra."
+				},
+				"label": {
+					"eng": "TRAUMA BAY",
+					"trans": "SALA DE TRAUMA"
+				},
+				"title": {
+					"eng": "Trauma Bay",
+					"trans": "Sala de Trauma"
 				}
 			}
 		},
@@ -11822,6 +12070,14 @@
 			},
 			"trans": "Promover/Demover miembros"
 		},
+		"clanReviveMember": {
+			"eng": "Revive Gang Member",
+			"noPermission": {
+				"eng": "You do not have permission to revive gang members",
+				"trans": "No tienes permiso para revivir a los miembros de la banda."
+			},
+			"trans": "Revivir miembro de banda"
+		},
 		"clanSetImage": {
 			"eng": "Set Image",
 			"noPermission": {
@@ -11829,6 +12085,14 @@
 				"trans": "No tienes permiso para establecer la imagen de la banda."
 			},
 			"trans": "Establecer Imagen"
+		},
+		"clanShopBuy": {
+			"eng": "Buy Gang Shop Items",
+			"noPermission": {
+				"eng": "You do not have permission to buy items from the Gang Shop",
+				"trans": "No tienes permiso para comprar artículos en la Tienda del Gang."
+			},
+			"trans": "Comprar artículos de la tienda de bandas"
 		},
 		"clanTogglePublic": {
 			"eng": "Toggle Public",
@@ -13307,10 +13571,6 @@
 				"eng": "This player has already been arrested",
 				"trans": "El jugador ha sido detenido"
 			},
-			"warCannotEngageAlt": {
-				"eng": "You cannot attack this player due to alt detection",
-				"trans": "No puedes atacar a este jugador debido a la detección de cuentas alternativas"
-			},
 			"warLevelTooDiff": {
 				"eng": "You are too high level to attack this player",
 				"trans": "Tu nivel es demasiado alto para atacar a este jugador"
@@ -13478,6 +13738,10 @@
 			"notOwnerKick": {
 				"eng": "You must be the owner of the lobby to kick players",
 				"trans": "Debes ser el dueño del lobby para expulsar a los jugadores"
+			},
+			"notOwnerUpdate": {
+				"eng": "You must be the owner of the lobby to update lobby settings",
+				"trans": "Debes ser el anfitrión para actualizar la configuración de la sala."
 			},
 			"playerAlreadyInLobby": {
 				"eng": "Player is already in this lobby",
@@ -14421,6 +14685,16 @@
 				"eng": "Hideout Raid EXP Multiplier V",
 				"trans": "Multiplicador de EXP de Incursión en Refugio V"
 			}
+		},
+		"warIntel": {
+			"desc": {
+				"eng": "Reveals detailed war intelligence about enemy gangs",
+				"trans": "Revela información bélica detallada sobre las bandas enemigas."
+			},
+			"name": {
+				"eng": "War Intel",
+				"trans": "Inteligencia de guerra"
+			}
 		}
 	},
 	"statusEffectModal": {
@@ -15237,6 +15511,114 @@
 			"trans": "Este es un rasgo encriptado, usa ${item} para descifrarlo e identificar su verdadero potencial"
 		}
 	},
+	"traumaBay": {
+		"clanWp": {
+			"eng": "Gang WP: ${wp}",
+			"trans": "Ruta de la Pandilla: ${wp}"
+		},
+		"confirmRevive": {
+			"confirm": {
+				"eng": "Revive",
+				"trans": "Reanimar"
+			},
+			"description": {
+				"eng": "Revive ${name}? This will cost ${itemCost} Revival Kits and ${wpCost} WP.",
+				"trans": "¿Revivir a ${name}? Esto costará ${itemCost} Kits de Resurrección y ${wpCost} WP."
+			},
+			"title": {
+				"eng": "Confirm Revive",
+				"trans": "Reactivar"
+			}
+		},
+		"costResetLabel": {
+			"eng": "Cost Reset",
+			"trans": "Restablecer costos"
+		},
+		"costResetReady": {
+			"eng": "READY (BASE COST)",
+			"trans": "LISTO (COSTE BASE)"
+		},
+		"donateButton": {
+			"eng": "Donate",
+			"trans": "Donar"
+		},
+		"donateModal": {
+			"confirm": {
+				"eng": "Donate",
+				"trans": "Donar"
+			},
+			"description": {
+				"eng": "Select the amount to donate from your inventory.",
+				"trans": "Selecciona la cantidad a donar de tu inventario."
+			},
+			"title": {
+				"eng": "Donate Revival Kits",
+				"trans": "Donar kits de resurrección"
+			}
+		},
+		"donateTitle": {
+			"eng": "Donate Revival Kits",
+			"trans": "Donar kits de resurrección"
+		},
+		"error": {
+			"noPermission": {
+				"eng": "You do not have permission to revive members.",
+				"trans": "No tienes permiso para revivir a los miembros."
+			}
+		},
+		"hospitalizedLabel": {
+			"eng": "Hospitalized Members",
+			"trans": "Miembros hospitalizados"
+		},
+		"insufficientResources": {
+			"eng": "INSUFFICIENT",
+			"trans": "INSUFICIENTE"
+		},
+		"nextCostLabel": {
+			"eng": "Next Revive Cost",
+			"trans": "Costo de la próxima resurrección"
+		},
+		"noData": {
+			"eng": "Failed to connect to tactical network.",
+			"trans": "Error al conectar a la red táctica."
+		},
+		"noHospitalized": {
+			"eng": "No gang members currently hospitalized.",
+			"trans": "Actualmente no hay miembros de la banda hospitalizados."
+		},
+		"realCostTip": {
+			"eng": "Reviving is a shared gang cost. It starts at ${base} kits and increases by ${increment} kit per revive. The cost resets after 6 hours of no Trauma Bay use.",
+			"trans": "Revivir es un coste compartido por la banda. Comienza con ${base} kits y aumenta en ${increment} kit por cada revive. El coste se reinicia tras 6 horas sin usar la Sala de Trauma."
+		},
+		"recoveryPriceLabel": {
+			"eng": "Revive Cost",
+			"trans": "Costo de Revivir"
+		},
+		"stashAmount": {
+			"eng": "In Stash: ${amount}",
+			"trans": "Almacén: ${amount}"
+		},
+		"stashLabel": {
+			"eng": "Trauma Bay Stash",
+			"trans": "Depósito de la Sala de Traumas"
+		},
+		"tapToRecover": {
+			"eng": "REVIVE ▸",
+			"trans": "RESUCITAR ▸"
+		},
+		"timeRemaining": {
+			"eng": "T-MINUS ${time}",
+			"trans": "CUENTA REGRESIVA: ${time}"
+		},
+		"viewOnly": {
+			"eng": "VIEW ONLY",
+			"trans": "Solo visualización"
+		},
+		"wpCostAmount": {
+			"eng": "${wp} WP",
+			"trans": "${wp} Puntos"
+		}
+	},
 	"travelToLocationModal": {
 		"alreadyAtLocation": {
 			"eng": "Already at location",
@@ -15890,6 +16272,14 @@
 			"eng": "Stored ${count} item(s) in vault",
 			"trans": "Almacenado ${count} ítem(es) en la bóveda."
 		},
+		"withdrawPartial": {
+			"eng": "Moved ${moved} item(s) to inventory. Skipped ${skipped} item(s) that did not fit.",
+			"trans": "Movidos ${moved} objeto(s) al inventario. Omitidos ${skipped} objeto(s) que no cabían."
+		},
+		"withdrawSkipped": {
+			"eng": "No selected items could be moved because they did not fit in inventory.",
+			"trans": "No se han podido trasladar los objetos seleccionados porque no caben en el inventario."
+		},
 		"withdrawSuccess": {
 			"eng": "Retrieved ${count} item(s) from vault",
 			"trans": "Recuperados ${count} objetos de la bóveda"
@@ -15905,6 +16295,20 @@
 		"emptyVault": {
 			"eng": "Your vault is empty",
 			"trans": "Tu bóveda está vacía"
+		},
+		"multiSelect": {
+			"deposit": {
+				"title": {
+					"eng": "Store In Vault",
+					"trans": "Guardar en Bóveda"
+				}
+			},
+			"withdraw": {
+				"title": {
+					"eng": "Move To Inventory",
+					"trans": "Mover al inventario"
+				}
+			}
 		},
 		"selectAddAmountModal": {
 			"title": {

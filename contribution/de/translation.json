@@ -1391,6 +1391,78 @@
 			"trans": "Jetzt freischalten"
 		}
 	},
+	"battleSupport": {
+		"chat": {
+			"revive": {
+				"eng": "${reviver} has revived ${target} through the Trauma Bay",
+				"trans": "${reviver} hat ${target} über die Traumstation wiederbelebt"
+			}
+		},
+		"donated": {
+			"eng": "Donated ${amount} Revival Kit(s) to the Trauma Bay stash",
+			"trans": "${amount} Wiederbelebungskits an das Lager der Trauma Bay gespendet"
+		},
+		"error": {
+			"gangNotFound": {
+				"eng": "Your gang could not be found",
+				"trans": "Deine Gang wurde nicht gefunden."
+			},
+			"notAMember": {
+				"eng": "You are not a member of this gang",
+				"trans": "Du bist kein Mitglied dieser Gang"
+			},
+			"notEnoughItems": {
+				"eng": "You don't have enough Revival Kits to donate",
+				"trans": "Du hast nicht genug Wiederbelebungskits zum Spenden."
+			},
+			"notEnoughStash": {
+				"eng": "Not enough Revival Kits in the Trauma Bay stash (need ${cost})",
+				"trans": "Nicht genügend Wiederbelebungskits im Trauma-Bay-Lager verfügbar (benötigt: ${cost})"
+			},
+			"notEnoughWarPoints": {
+				"eng": "Not enough war points (need ${cost})",
+				"trans": "Nicht genügend Kriegspunkte (benötigt ${cost})"
+			},
+			"notHospitalized": {
+				"eng": "Target is not currently hospitalized",
+				"trans": "Das Ziel befindet sich derzeit nicht im Krankenhaus."
+			},
+			"notInGang": {
+				"eng": "You must be in a gang to access the Trauma Bay",
+				"trans": "Du musst einer Gang angehören, um auf die Trauma-Bucht zugreifen zu können."
+			},
+			"stashFull": {
+				"eng": "The gang stash is full",
+				"trans": "Das Ganglager ist voll."
+			},
+			"targetNotFound": {
+				"eng": "Target member could not be found in your gang",
+				"trans": "Zielmitglied nicht in deiner Gang gefunden."
+			},
+			"warStateRequired": {
+				"eng": "Your gang must be in war state to use the Trauma Bay",
+				"trans": "Deine Gang muss sich im Kriegszustand befinden, um die Trauma-Station nutzen zu können."
+			}
+		},
+		"mail": {
+			"revived": {
+				"eng": "${playerName} has revived you through the Trauma Bay",
+				"trans": "${playerName} hat dich in der Trauma-Station wiederbelebt."
+			},
+			"reviver": {
+				"eng": "You have revived ${playerName} through the Trauma Bay",
+				"trans": "Du hast ${playerName} in der Traumazone wiederbelebt."
+			}
+		},
+		"supportSuccess": {
+			"eng": "Trauma Bay recovery completed for ${name}",
+			"trans": "Stabilisierung in der Traumazone für ${name} abgeschlossen"
+		},
+		"supported": {
+			"eng": "You have been instantly recovered through the Trauma Bay",
+			"trans": "Sie wurden sofort von der Trauma-Bay wiederhergestellt."
+		}
+	},
 	"blockedPlayerListPage": {
 		"emptyHint": {
 			"eng": "Block players from their profile to prevent them from contacting you",
@@ -1534,6 +1606,16 @@
 			"name": {
 				"eng": "PvP Money Loss Reduction III",
 				"trans": "PvP Geldverlust-Reduktion III"
+			}
+		},
+		"warIntel": {
+			"description": {
+				"eng": "Reveals detailed war intelligence about all enemy gangs for ${hours} hours, including war stacks, participant rosters, and war kill counts",
+				"trans": "Zeigt detaillierte Kriegsdaten zu allen feindlichen Gangs für ${hours} Stunden an, einschließlich Kriegsstapeln, Teilnehmerlisten und Kriegs-Killzahlen."
+			},
+			"name": {
+				"eng": "War Intel",
+				"trans": "Kriegsinformationen"
 			}
 		}
 	},
@@ -2023,12 +2105,12 @@
 			"trans": "Ressourcen"
 		},
 		"upkeepTip": {
-			"eng": "Ensure there is enough resources and funds to avoid losing the gang on the next upkeep date.",
-			"trans": "Stelle sicher, dass genügend Ressourcen und Geld vorhanden sind, um zu verhindern, dass die Gang beim nächsten Unterhaltsdatum verloren geht."
+			"eng": "Ensure the clan has enough resources and funds to avoid losing the gang. Note: Role upkeep uses war points; failing it causes war state reset and demotions, not gang deletion.",
+			"trans": "Stellen Sie sicher, dass der Clan über ausreichend Ressourcen und Mittel verfügt, um den Verlust der Gang zu vermeiden. Hinweis: Das Unterhalten von Rollen kostet Kriegspunkte; bei Nichterfüllung werden Kriegszustand zurückgesetzt sowie Herabstufungen verhängt, nicht jedoch die Gang gelöscht."
 		},
 		"upkeepTipTitle": {
-			"eng": "Insufficient Upkeep Resources",
-			"trans": "Unzureichende Instandhaltungsressourcen"
+			"eng": "Insufficient Base Upkeep",
+			"trans": "Unzureichender Basisunterhalt"
 		}
 	},
 	"clanDisplay": {
@@ -2281,6 +2363,112 @@
 			"trans": "Bandenverzeichnis"
 		}
 	},
+	"clanShop": {
+		"chat": {
+			"purchase": {
+				"eng": "${buyer} requisitioned ${itemName} for ${cost} war points and sent it to the gang stash",
+				"trans": "${buyer} hat ${itemName} für ${cost} Kriegspunkte beantragt und ins Gang-Lager geschickt."
+			}
+		},
+		"confirmButton": {
+			"eng": "Send to Stash",
+			"trans": "Ins Lager senden"
+		},
+		"confirmDescription": {
+			"eng": "Buy ${amount}x ${itemName} for ${cost} war points and send them to the gang stash?",
+			"trans": "${amount}x ${itemName} für ${cost} Kampfpunkte kaufen und ins Gang-Lager senden?"
+		},
+		"confirmTitle": {
+			"eng": "Confirm Purchase",
+			"trans": "Kauf bestätigen"
+		},
+		"description": {
+			"eng": "Spend gang war points on shared supplies and deliver them directly into the gang stash",
+			"trans": "Verwende Gang-Kriegspunkte für gemeinsame Vorräte und hinterlege sie direkt im Gang-Lager."
+		},
+		"destination": {
+			"eng": "All purchases go to shared stash",
+			"trans": "Alle Käufe landen im gemeinsamen Lager."
+		},
+		"empty": {
+			"eng": "No clan supplies are configured right now",
+			"trans": "Aktuell sind keine Clan-Versorgungsgüter konfiguriert."
+		},
+		"error": {
+			"gangNotFound": {
+				"eng": "Your gang could not be found",
+				"trans": "Deine Gang wurde nicht gefunden."
+			},
+			"notAMember": {
+				"eng": "You are not a member of this gang",
+				"trans": "Du bist kein Mitglied dieser Gang"
+			},
+			"notEnoughWarPoints": {
+				"eng": "Your gang does not have enough war points",
+				"trans": "Deine Gang hat nicht genug Kriegspunkte."
+			},
+			"notInGang": {
+				"eng": "You must be in a gang to access the Clan Shop",
+				"trans": "Du musst einer Gang angehören, um den Clan-Shop zu nutzen."
+			},
+			"soldOut": {
+				"eng": "This supply allocation is sold out for the current reset period",
+				"trans": "Dieses Kontingent ist für den aktuellen Reset-Zyklus ausverkauft."
+			}
+		},
+		"notInGang": {
+			"eng": "You must be in a gang to access clan supplies.",
+			"trans": "Du musst einer Gang angehören, um auf Clan-Vorräte zuzugreifen."
+		},
+		"restocksIn": {
+			"eng": "Restocks In",
+			"trans": "Verfügbar in"
+		},
+		"selectAmount": {
+			"eng": "Purchase Quantity",
+			"trans": "Kaufmenge"
+		},
+		"selectAmountDesc": {
+			"eng": "How many ${itemName} do you want to purchase?",
+			"trans": "Wie viele ${itemName} möchtest du kaufen?"
+		},
+		"selectAmountModel": {
+			"body": {
+				"eng": "You are about to purchase ${amount} ${item}, total: ${total}",
+				"trans": "Sie sind dabei, ${amount} ${item} zu kaufen, Gesamtsumme: ${total}"
+			}
+		},
+		"stashLabel": {
+			"eng": "Gang Stash",
+			"trans": "Ganglager"
+		},
+		"stockRemaining": {
+			"eng": "${remaining} / ${limit} ${cycle} left",
+			"trans": "${remaining} / ${limit} ${cycle} übrig"
+		},
+		"stockSoldOut": {
+			"eng": "Sold Out",
+			"trans": "Ausverkauft"
+		},
+		"success": {
+			"purchased": {
+				"eng": "Requisition approved. ${itemName} has been sent to the gang stash",
+				"trans": "Anforderung genehmigt. ${itemName} wurde ins Ganglager gesendet."
+			}
+		},
+		"title": {
+			"eng": "Clan Shop",
+			"trans": "Clanshop"
+		},
+		"unlimited": {
+			"eng": "No stock limit",
+			"trans": "Unbegrenzte Verfügbarkeit"
+		},
+		"warPointsLabel": {
+			"eng": "Gang War Points",
+			"trans": "Gangkriegspunkte"
+		}
+	},
 	"clanTab": {
 		"invitePlayer": {
 			"eng": "invite player",
@@ -2451,6 +2639,32 @@
 		"tutorialLink": {
 			"eng": "Learn more about Gang War",
 			"trans": "Mehr über den Gangkrieg erfahren"
+		}
+	},
+	"clanWarIntel": {
+		"activate": {
+			"desc": {
+				"eng": "Deploy tactical sensors to reveal enemy war stack and active combatants. Duration: 3 hours. Cost: 10 War Points.",
+				"trans": "Setze taktische Sensoren ein, um gegnerische Kampfverbände und aktive Kämpfer aufzudecken. Dauer: 3 Stunden. Kosten: 10 Kriegspunkte."
+			}
+		},
+		"empty": {
+			"eng": "NO ACTIVE COMBATANTS",
+			"trans": "KEINE AKTIVEN KÄMPFER"
+		},
+		"header": {
+			"eng": "TACTICAL INTEL",
+			"trans": "Taktische Aufklärung"
+		},
+		"locked": {
+			"desc": {
+				"eng": "Deploy WAR INTEL buff to intercept enemy communications and reveal their stack and active combatants.",
+				"trans": "Aktiviere den WAR INTEL-Buff, um feindliche Kommunikation abzufangen und Truppenverband sowie aktive Kämpfer aufzudecken."
+			},
+			"title": {
+				"eng": "INTEL CLASSIFIED",
+				"trans": "GEHEIM"
+			}
 		}
 	},
 	"clanWarPage": {
@@ -2783,10 +2997,6 @@
 		"psychosis": {
 			"eng": "+ ${amount} psychosis",
 			"trans": "+ ${amount} Psychose"
-		},
-		"warPoints": {
-			"eng": "${amount} war points",
-			"trans": "${amount} Kriegspunkte"
 		}
 	},
 	"coupon": {
@@ -6750,6 +6960,16 @@
 			"description": {
 				"eng": "Use to reset a ${tier} item with new random prefixes",
 				"trans": "Verwende, um einen ${tier}-Gegenstand mit neuen zufälligen Präfixen zurückzusetzen"
+			}
+		},
+		"revivalKit": {
+			"description": {
+				"eng": "A black-market trauma response package containing clot foam, combat stimulants, and neural reboot patches. Processed through the Trauma Bay, it instantly restores a hospitalized gang operative to active duty.",
+				"trans": "Ein Notfallset vom Schwarzmarkt mit Gerinnungsschaum, Kampfstimulanzien und neuronalen Reboot-Patches. Nach der Verarbeitung in der Trauma Station stellt es ein außer Gefecht gesetztes Gang-Mitglied augenblicklich wieder voll einsatzbereit."
+			},
+			"name": {
+				"eng": "Revival Kit",
+				"trans": "Wiederbelebungskit"
 			}
 		},
 		"rewardCipher": {
@@ -11489,9 +11709,23 @@
 					"trans": "Kriegsbuff-Einsatz"
 				}
 			},
+			"clanShop": {
+				"description": {
+					"eng": "Purchase clan supplies and route them directly into the gang stash",
+					"trans": "Clan-Vorräte kaufen und direkt ins Gang-Lager liefern."
+				},
+				"label": {
+					"eng": "CLAN SHOP",
+					"trans": "CLAN SHOP"
+				},
+				"title": {
+					"eng": "Clan Shop",
+					"trans": "Clanshop"
+				}
+			},
 			"description": {
-				"eng": "A secure war command terminal where your gang reviews active enhancements and deploys new combat support buffs.",
-				"trans": "Ein sicheres Kriegskommandoterminal, in dem deine Crew aktive Verbesserungen prüft und neue Kampfunterstützungs-Buffs einsetzt."
+				"eng": "A fortified logistics hub where your gang coordinates war operations, deploys combat buffs, and reviews tactical intel.",
+				"trans": "Ein stark befestigtes Logistikzentrum, in dem deine Gang Kampfeinsätze koordiniert, Kampfverbesserungen einsetzt und taktische Aufklärung auswertet."
 			},
 			"greetings": {
 				"eng": [
@@ -11506,8 +11740,8 @@
 				]
 			},
 			"locationName": {
-				"eng": "War Command Center",
-				"trans": "Kriegskommandozentrale"
+				"eng": "War Quartermaster",
+				"trans": "Kriegsnachschub"
 			},
 			"npcName": {
 				"eng": "Quartermaster Vane",
@@ -11525,6 +11759,20 @@
 				"title": {
 					"eng": "Rank Requisition",
 					"trans": "Ranganforderungen"
+				}
+			},
+			"traumaBay": {
+				"description": {
+					"eng": "Manage Revival Kits and instantly recover hospitalized gang members during war",
+					"trans": "Verwalte Wiederbelebungskits und stelle im Krieg verletzte Gangmitglieder sofort wieder her."
+				},
+				"label": {
+					"eng": "TRAUMA BAY",
+					"trans": "SCHOCKRAUM"
+				},
+				"title": {
+					"eng": "Trauma Bay",
+					"trans": "Notaufnahme"
 				}
 			}
 		},
@@ -11822,6 +12070,14 @@
 			},
 			"trans": "Mitglieder befördern/abstufen"
 		},
+		"clanReviveMember": {
+			"eng": "Revive Gang Member",
+			"noPermission": {
+				"eng": "You do not have permission to revive gang members",
+				"trans": "Du bist nicht berechtigt, Gangmitglieder wiederzubeleben."
+			},
+			"trans": "Gangmitglied wiederbeleben"
+		},
 		"clanSetImage": {
 			"eng": "Set Image",
 			"noPermission": {
@@ -11829,6 +12085,14 @@
 				"trans": "Du bist nicht berechtigt, das Gang-Bild festzulegen."
 			},
 			"trans": "Bild festlegen"
+		},
+		"clanShopBuy": {
+			"eng": "Buy Gang Shop Items",
+			"noPermission": {
+				"eng": "You do not have permission to buy items from the Gang Shop",
+				"trans": "Sie haben keine Berechtigung zum Kauf von Items im Gang Shop"
+			},
+			"trans": "Artikel im Gang Shop kaufen"
 		},
 		"clanTogglePublic": {
 			"eng": "Toggle Public",
@@ -13307,10 +13571,6 @@
 				"eng": "This player has already been arrested",
 				"trans": "Dieser Spieler wurde bereits verhaftet"
 			},
-			"warCannotEngageAlt": {
-				"eng": "You cannot attack this player due to alt detection",
-				"trans": "Du kannst diesen Spieler wegen Altdetektion nicht angreifen"
-			},
 			"warLevelTooDiff": {
 				"eng": "You are too high level to attack this player",
 				"trans": "Dein Level ist zu hoch, um diesen Spieler anzugreifen"
@@ -13478,6 +13738,10 @@
 			"notOwnerKick": {
 				"eng": "You must be the owner of the lobby to kick players",
 				"trans": "Nur der Besitzer der Lobby kann Spieler rausschmeißen"
+			},
+			"notOwnerUpdate": {
+				"eng": "You must be the owner of the lobby to update lobby settings",
+				"trans": "Du musst der Besitzer der Lobby sein, um die Lobbieeinstellungen zu ändern."
 			},
 			"playerAlreadyInLobby": {
 				"eng": "Player is already in this lobby",
@@ -14421,6 +14685,16 @@
 				"eng": "Hideout Raid EXP Multiplier V",
 				"trans": "Versteck Überfall EXP Multiplikator V"
 			}
+		},
+		"warIntel": {
+			"desc": {
+				"eng": "Reveals detailed war intelligence about enemy gangs",
+				"trans": "Zeigt detaillierte Kriegsinformationen über feindliche Gangs an."
+			},
+			"name": {
+				"eng": "War Intel",
+				"trans": "Kriegsinformationen"
+			}
 		}
 	},
 	"statusEffectModal": {
@@ -15237,6 +15511,114 @@
 			"trans": "Dies ist eine verschlüsselte Eigenschaft. Verwenden Sie ${item}, um sie zu entschlüsseln und ihr wahres Potential zu erkennen."
 		}
 	},
+	"traumaBay": {
+		"clanWp": {
+			"eng": "Gang WP: ${wp}",
+			"trans": "Gang WP: ${wp}"
+		},
+		"confirmRevive": {
+			"confirm": {
+				"eng": "Revive",
+				"trans": "Wiederbeleben"
+			},
+			"description": {
+				"eng": "Revive ${name}? This will cost ${itemCost} Revival Kits and ${wpCost} WP.",
+				"trans": "${name} wiederbeleben? Das kostet ${itemCost} Wiederbelebungskits und ${wpCost} WP."
+			},
+			"title": {
+				"eng": "Confirm Revive",
+				"trans": "Wiederbelebung bestätigen"
+			}
+		},
+		"costResetLabel": {
+			"eng": "Cost Reset",
+			"trans": "Kosten zurücksetzen"
+		},
+		"costResetReady": {
+			"eng": "READY (BASE COST)",
+			"trans": "BEREIT (BASISKOSTEN)"
+		},
+		"donateButton": {
+			"eng": "Donate",
+			"trans": "Spenden"
+		},
+		"donateModal": {
+			"confirm": {
+				"eng": "Donate",
+				"trans": "Spenden"
+			},
+			"description": {
+				"eng": "Select the amount to donate from your inventory.",
+				"trans": "Wähle den zu spendenden Betrag aus deinem Inventar."
+			},
+			"title": {
+				"eng": "Donate Revival Kits",
+				"trans": "Wiederbelebungskits spenden"
+			}
+		},
+		"donateTitle": {
+			"eng": "Donate Revival Kits",
+			"trans": "Wiederbelebungskits spenden"
+		},
+		"error": {
+			"noPermission": {
+				"eng": "You do not have permission to revive members.",
+				"trans": "Sie sind nicht berechtigt, Mitglieder wiederzubeleben."
+			}
+		},
+		"hospitalizedLabel": {
+			"eng": "Hospitalized Members",
+			"trans": "Mitglieder im Krankenhaus"
+		},
+		"insufficientResources": {
+			"eng": "INSUFFICIENT",
+			"trans": "UNGENÜGEND"
+		},
+		"nextCostLabel": {
+			"eng": "Next Revive Cost",
+			"trans": "Nächste Wiederbelebungskosten"
+		},
+		"noData": {
+			"eng": "Failed to connect to tactical network.",
+			"trans": "Verbindung zum taktischen Netzwerk fehlgeschlagen."
+		},
+		"noHospitalized": {
+			"eng": "No gang members currently hospitalized.",
+			"trans": "Derzeit keine Gangmitglieder im Krankenhaus."
+		},
+		"realCostTip": {
+			"eng": "Reviving is a shared gang cost. It starts at ${base} kits and increases by ${increment} kit per revive. The cost resets after 6 hours of no Trauma Bay use.",
+			"trans": "Die Kosten für das Wiederbeleben werden von der Gang gemeinsam getragen. Sie beginnen bei ${base} Kits und steigen pro Wiederbelebung um jeweils ${increment} Kit an. Nach 6 Stunden ohne Nutzung der Trauma-Bay werden die Kosten zurückgesetzt."
+		},
+		"recoveryPriceLabel": {
+			"eng": "Revive Cost",
+			"trans": "Wiederbelebungskosten"
+		},
+		"stashAmount": {
+			"eng": "In Stash: ${amount}",
+			"trans": "Im Lager: ${amount}"
+		},
+		"stashLabel": {
+			"eng": "Trauma Bay Stash",
+			"trans": "Traumadepot"
+		},
+		"tapToRecover": {
+			"eng": "REVIVE ▸",
+			"trans": "WIEDERBELEBEN ▸"
+		},
+		"timeRemaining": {
+			"eng": "T-MINUS ${time}",
+			"trans": "T-MINUS ${time}"
+		},
+		"viewOnly": {
+			"eng": "VIEW ONLY",
+			"trans": "NUR ANSEHEN"
+		},
+		"wpCostAmount": {
+			"eng": "${wp} WP",
+			"trans": "${wp} WP"
+		}
+	},
 	"travelToLocationModal": {
 		"alreadyAtLocation": {
 			"eng": "Already at location",
@@ -15890,6 +16272,14 @@
 			"eng": "Stored ${count} item(s) in vault",
 			"trans": "${count} Artikel im Tresor gespeichert"
 		},
+		"withdrawPartial": {
+			"eng": "Moved ${moved} item(s) to inventory. Skipped ${skipped} item(s) that did not fit.",
+			"trans": "${moved} Item(s) ins Inventar verschoben. ${skipped} Item(s) wurden übersprungen, da sie nicht gepasst haben."
+		},
+		"withdrawSkipped": {
+			"eng": "No selected items could be moved because they did not fit in inventory.",
+			"trans": "Die ausgewählten Gegenstände konnten nicht verschoben werden, da sie nicht ins Inventar passen."
+		},
 		"withdrawSuccess": {
 			"eng": "Retrieved ${count} item(s) from vault",
 			"trans": "${count} Gegenstand(e) aus dem Tresor entnommen"
@@ -15905,6 +16295,20 @@
 		"emptyVault": {
 			"eng": "Your vault is empty",
 			"trans": "Dein Tresor ist leer"
+		},
+		"multiSelect": {
+			"deposit": {
+				"title": {
+					"eng": "Store In Vault",
+					"trans": "Im Tresor lagern"
+				}
+			},
+			"withdraw": {
+				"title": {
+					"eng": "Move To Inventory",
+					"trans": "Ins Inventar verschieben"
+				}
+			}
 		},
 		"selectAddAmountModal": {
 			"title": {

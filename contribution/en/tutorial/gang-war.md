@@ -1,10 +1,12 @@
 ## What is Gang War?
 
-**Gang War** is a gang-versus-gang PvP system built around **war stacks**, **milestones**, **war score**, and **war points**. Your gang builds momentum by chaining valid war kills, reaching streak milestones, and converting that pressure into score and tactical advantages.
+**Gang War** is a gang-versus-gang PvP system built around **war stacks**, **milestones**, **war score**, **war points**, and war-only support tools. Your gang builds momentum by chaining valid war kills, reaching streak milestones, and spending that pressure on tactical advantages like buffs and battlefield recovery.
 
 ## Where can I find Gang War?
 
-You can access Gang War from your **Gang Details** page. The **War Panel** gives you a quick view of your gang's current war progress, and the dedicated Gang War page shows more detailed information like your current stack progress and war points.
+If your role has access, you can reach Gang War through your gang's war interface. The war view shows whether war is **active** or **inactive**, your current **season**, total **war score**, **stack**, **war points**, and milestone progress.
+
+If your enemy roster looks limited, that usually means some of their information is still **intel-locked** until you uncover it.
 
 ## How does the war stack work?
 
@@ -43,6 +45,22 @@ That means Gang War is really about maintaining streaks long enough to cash them
 
 You can manage them through the **War Quartermaster** on your gang's war page.
 
+## What is the War Quartermaster?
+
+The **War Quartermaster** is where you manage the war tools tied to your gang's active conflict. It gives you access to war buffs and the **Trauma Bay** card, which is the war-only recovery station for hospitalized gang members.
+
+## What is the Trauma Bay?
+
+The **Trauma Bay** is a war-only gang feature that helps you bring wounded members back into the fight faster. It lets you **donate Revival Kits**, see which gang members are hospitalized, and spend **Revival Kits** plus **war points** to instantly revive them during war.
+
+It also has a **stash and capacity** feel to it, so you may not be able to hold or use everything at once. The revive cost can also change over time, and the reset timing is shown in the feature so you can plan around it.
+
+## What is war intel?
+
+**War intel** controls how much detail you can see about the enemy gang. You will not always get a full roster breakdown or stack information right away.
+
+When your gang gains **WAR_INTEL**, it reveals more detailed enemy information for a limited time. If the enemy roster looks partially hidden, that is normal until enough intel is active.
+
 ## What counts as a war kill?
 
 A fight only advances Gang War if it qualifies as **war combat** and ends in a valid kill.
@@ -76,9 +94,9 @@ If your gang is in war, enemies can still attack you even when your own particip
 
 ## How do I enable or disable war mode?
 
-Only the **gang leader** can toggle war mode.
+War mode is controlled by an **authorized gang role**, so ordinary members cannot toggle it themselves.
 
-1. Open your **Gang Details** page.
+1. Open your **Gang Details** page if you have access to the war controls.
 2. Open the gang menu.
 3. Choose **Enable War Mode** or **Disable War Mode**.
 
@@ -128,7 +146,7 @@ These restrictions are there to stop gangs from abusing exits, kicks, or disband
 Your war status appears in a few different places:
 
 - The **War Panel** on your Gang Details page shows your current **war score** and **stack**.
-- The dedicated Gang War page shows your broader war overview, including **war points**.
+- The dedicated Gang War page shows your broader war overview, including **war points**, season state, and milestone progress.
 - Member-specific participation status and cooldown information can be checked from the gang member interface.
 
 Watching these screens helps you understand whether your gang is building momentum or losing it.
@@ -144,5 +162,7 @@ That makes it easier to judge whether your gang should press the attack or regro
 - **Chain your wins**: Gang War rewards streaks, so protecting your stack matters more than chasing random fights.
 - **Watch your timer**: If your stack expires, your gang has to rebuild from the start.
 - **Track milestone progress**: Use the Gang War page to see how close you are to the next reward.
+- **Use intel wisely**: If the enemy roster is partially hidden, wait for war intel before making assumptions.
+- **Keep the Trauma Bay stocked**: Revival Kits help your gang recover faster when members get hospitalized.
 - **Do not confuse opt-out with safety**: Turning participation off does not stop enemies from targeting you while your gang is still in war mode.
 - **Plan before disabling war mode**: Turning war mode off wipes your current war progress.

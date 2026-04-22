@@ -1391,6 +1391,78 @@
 			"trans": "지금 해제하기"
 		}
 	},
+	"battleSupport": {
+		"chat": {
+			"revive": {
+				"eng": "${reviver} has revived ${target} through the Trauma Bay",
+				"trans": "${reviver}이(가) ${target}을(를) 트라우마 베이에서 소생시켰습니다."
+			}
+		},
+		"donated": {
+			"eng": "Donated ${amount} Revival Kit(s) to the Trauma Bay stash",
+			"trans": "${amount}개의 부활 키트를 트라우마 베이 보관함에 기부했습니다."
+		},
+		"error": {
+			"gangNotFound": {
+				"eng": "Your gang could not be found",
+				"trans": "귀하의 패를 찾을 수 없습니다."
+			},
+			"notAMember": {
+				"eng": "You are not a member of this gang",
+				"trans": "이 갱의 구성원이 아닙니다."
+			},
+			"notEnoughItems": {
+				"eng": "You don't have enough Revival Kits to donate",
+				"trans": "기부할 부활 키트가 부족합니다."
+			},
+			"notEnoughStash": {
+				"eng": "Not enough Revival Kits in the Trauma Bay stash (need ${cost})",
+				"trans": "외상실 보관함에 부활 키트가 부족합니다 (${cost}개 필요)"
+			},
+			"notEnoughWarPoints": {
+				"eng": "Not enough war points (need ${cost})",
+				"trans": "전쟁 포인트가 부족합니다 (${cost} 필요합니다)"
+			},
+			"notHospitalized": {
+				"eng": "Target is not currently hospitalized",
+				"trans": "대상은 현재 입원 중이 아닙니다."
+			},
+			"notInGang": {
+				"eng": "You must be in a gang to access the Trauma Bay",
+				"trans": "트라우마 베이에 진입하려면 갱에 소속되어야 합니다."
+			},
+			"stashFull": {
+				"eng": "The gang stash is full",
+				"trans": "갱 저장고가 가득 찼습니다."
+			},
+			"targetNotFound": {
+				"eng": "Target member could not be found in your gang",
+				"trans": "내 갱에서 대상 멤버를 찾을 수 없습니다."
+			},
+			"warStateRequired": {
+				"eng": "Your gang must be in war state to use the Trauma Bay",
+				"trans": "트라우마 베이를 사용하려면 갱이 전쟁 상태여야 합니다."
+			}
+		},
+		"mail": {
+			"revived": {
+				"eng": "${playerName} has revived you through the Trauma Bay",
+				"trans": "${playerName}(이)가 트라우마베이에서 당신을 부활시켰습니다."
+			},
+			"reviver": {
+				"eng": "You have revived ${playerName} through the Trauma Bay",
+				"trans": "트라우마 베이를 통해 ${playerName}(을)를 부활시켰습니다."
+			}
+		},
+		"supportSuccess": {
+			"eng": "Trauma Bay recovery completed for ${name}",
+			"trans": "${name} 외상실 회복 완료"
+		},
+		"supported": {
+			"eng": "You have been instantly recovered through the Trauma Bay",
+			"trans": "트라우마 베이에서 즉시 회복되었습니다."
+		}
+	},
 	"blockedPlayerListPage": {
 		"emptyHint": {
 			"eng": "Block players from their profile to prevent them from contacting you",
@@ -1534,6 +1606,16 @@
 			"name": {
 				"eng": "PvP Money Loss Reduction III",
 				"trans": "PvP 돈 손실 감소 III"
+			}
+		},
+		"warIntel": {
+			"description": {
+				"eng": "Reveals detailed war intelligence about all enemy gangs for ${hours} hours, including war stacks, participant rosters, and war kill counts",
+				"trans": "모든 적대 갱단에 대한 상세 전황 정보를 ${hours}시간 동안 공개하며, 전쟁 스택, 참가자 명단 및 전염가를 포함합니다."
+			},
+			"name": {
+				"eng": "War Intel",
+				"trans": "전쟁 정보"
 			}
 		}
 	},
@@ -2023,12 +2105,12 @@
 			"trans": "자원"
 		},
 		"upkeepTip": {
-			"eng": "Ensure there is enough resources and funds to avoid losing the gang on the next upkeep date.",
-			"trans": "다음 유지보수 날에 갱을 잃지 않도록 충분한 자원과 자금을 확보해야 합니다."
+			"eng": "Ensure the clan has enough resources and funds to avoid losing the gang. Note: Role upkeep uses war points; failing it causes war state reset and demotions, not gang deletion.",
+			"trans": "클랜에 충분한 자원과 자금이 확보되도록 하십시오. 갱단이 유지되지 않을 경우 해산됩니다. 참고: 직위 유지는 전쟁 포인트를 소모합니다. 유지 비용 부족 시 교전 상태가 초기화되고 강등 조치되나, 갱단 자체는 삭제되지 않습니다."
 		},
 		"upkeepTipTitle": {
-			"eng": "Insufficient Upkeep Resources",
-			"trans": "유지보수 자원 부족"
+			"eng": "Insufficient Base Upkeep",
+			"trans": "기지 유지비 부족"
 		}
 	},
 	"clanDisplay": {
@@ -2281,6 +2363,112 @@
 			"trans": "갱단 목록"
 		}
 	},
+	"clanShop": {
+		"chat": {
+			"purchase": {
+				"eng": "${buyer} requisitioned ${itemName} for ${cost} war points and sent it to the gang stash",
+				"trans": "${buyer}(이)가 ${itemName}(을)를 전쟁 포인트 ${cost}(으)로 요청하여 갱 창고로 보냈습니다."
+			}
+		},
+		"confirmButton": {
+			"eng": "Send to Stash",
+			"trans": "보관함으로 이동"
+		},
+		"confirmDescription": {
+			"eng": "Buy ${amount}x ${itemName} for ${cost} war points and send them to the gang stash?",
+			"trans": "${amount}개 ${itemName}을(를) ${cost} 전쟁 포인트로 구매하고 갱 저장소로 보내시겠습니까?"
+		},
+		"confirmTitle": {
+			"eng": "Confirm Purchase",
+			"trans": "구매 확정"
+		},
+		"description": {
+			"eng": "Spend gang war points on shared supplies and deliver them directly into the gang stash",
+			"trans": "갱전 포인트를 공유 물자에 사용하여 갱 창고에 바로 적치하세요."
+		},
+		"destination": {
+			"eng": "All purchases go to shared stash",
+			"trans": "구매한 모든 항목은 공용 창고로 이동합니다."
+		},
+		"empty": {
+			"eng": "No clan supplies are configured right now",
+			"trans": "현재 클랜 보급품이 설정되어 있지 않습니다."
+		},
+		"error": {
+			"gangNotFound": {
+				"eng": "Your gang could not be found",
+				"trans": "귀하의 패를 찾을 수 없습니다."
+			},
+			"notAMember": {
+				"eng": "You are not a member of this gang",
+				"trans": "이 갱의 구성원이 아닙니다."
+			},
+			"notEnoughWarPoints": {
+				"eng": "Your gang does not have enough war points",
+				"trans": "내 갱의 전쟁 포인트가 부족합니다."
+			},
+			"notInGang": {
+				"eng": "You must be in a gang to access the Clan Shop",
+				"trans": "클랜에 소속되어야만 클랜 상점을 이용하실 수 있습니다."
+			},
+			"soldOut": {
+				"eng": "This supply allocation is sold out for the current reset period",
+				"trans": "현재 리셋 기간 내 할당 물량은 모두 소진되었습니다."
+			}
+		},
+		"notInGang": {
+			"eng": "You must be in a gang to access clan supplies.",
+			"trans": "클랜 자재를 이용하려면 갱에 소속되어야 합니다."
+		},
+		"restocksIn": {
+			"eng": "Restocks In",
+			"trans": "재고 갱신까지"
+		},
+		"selectAmount": {
+			"eng": "Purchase Quantity",
+			"trans": "구매 수량"
+		},
+		"selectAmountDesc": {
+			"eng": "How many ${itemName} do you want to purchase?",
+			"trans": "${itemName}을(를) 몇 개 구매하시겠습니까?"
+		},
+		"selectAmountModel": {
+			"body": {
+				"eng": "You are about to purchase ${amount} ${item}, total: ${total}",
+				"trans": "${amount} ${item} 구매, 총액: ${total}"
+			}
+		},
+		"stashLabel": {
+			"eng": "Gang Stash",
+			"trans": "갱 은닉창고"
+		},
+		"stockRemaining": {
+			"eng": "${remaining} / ${limit} ${cycle} left",
+			"trans": "${remaining} / ${limit} ${cycle} 남음"
+		},
+		"stockSoldOut": {
+			"eng": "Sold Out",
+			"trans": "품절"
+		},
+		"success": {
+			"purchased": {
+				"eng": "Requisition approved. ${itemName} has been sent to the gang stash",
+				"trans": "요청 승인 완료. ${itemName}(이)가 갱 창고로 전송되었습니다."
+			}
+		},
+		"title": {
+			"eng": "Clan Shop",
+			"trans": "클랜 상점"
+		},
+		"unlimited": {
+			"eng": "No stock limit",
+			"trans": "재고 제한 없음"
+		},
+		"warPointsLabel": {
+			"eng": "Gang War Points",
+			"trans": "갱전 포인트"
+		}
+	},
 	"clanTab": {
 		"invitePlayer": {
 			"eng": "invite player",
@@ -2451,6 +2639,32 @@
 		"tutorialLink": {
 			"eng": "Learn more about Gang War",
 			"trans": "갱 전쟁에 대해 자세히 알아보기"
+		}
+	},
+	"clanWarIntel": {
+		"activate": {
+			"desc": {
+				"eng": "Deploy tactical sensors to reveal enemy war stack and active combatants. Duration: 3 hours. Cost: 10 War Points.",
+				"trans": "전술 센서를 배치하여 적군 세력과 교전 중인 병력을 탐지합니다. 지속 시간: 3시간. 비용: 전쟁 점수 10."
+			}
+		},
+		"empty": {
+			"eng": "NO ACTIVE COMBATANTS",
+			"trans": "현재 전투 중 인원 없음"
+		},
+		"header": {
+			"eng": "TACTICAL INTEL",
+			"trans": "전술 정보"
+		},
+		"locked": {
+			"desc": {
+				"eng": "Deploy WAR INTEL buff to intercept enemy communications and reveal their stack and active combatants.",
+				"trans": "WAR INTEL 버프를 적용해 적의 통신을 가로채고 부대 편성 및 활동 중인 전투원을 노출하세요."
+			},
+			"title": {
+				"eng": "INTEL CLASSIFIED",
+				"trans": "기밀 정보"
+			}
 		}
 	},
 	"clanWarPage": {
@@ -2783,10 +2997,6 @@
 		"psychosis": {
 			"eng": "+ ${amount} psychosis",
 			"trans": "+ ${amount} 사이버 싸이코"
-		},
-		"warPoints": {
-			"eng": "${amount} war points",
-			"trans": "${amount} 전쟁 포인트"
 		}
 	},
 	"coupon": {
@@ -6750,6 +6960,16 @@
 			"description": {
 				"eng": "Use to reset a ${tier} item with new random prefixes",
 				"trans": "${tier} 아이템을 새로운 무작위 접두사로 재설정하는 데 사용합니다"
+			}
+		},
+		"revivalKit": {
+			"description": {
+				"eng": "A black-market trauma response package containing clot foam, combat stimulants, and neural reboot patches. Processed through the Trauma Bay, it instantly restores a hospitalized gang operative to active duty.",
+				"trans": "지혈 폼, 전투 각성제, 신경 재부팅 패치를 포함하는 암시장 외상 응급 처리 팩입니다. 트라우마 베이 처리 시 입원 중이던 갱단 요원을 즉시 작전 복귀시킵니다."
+			},
+			"name": {
+				"eng": "Revival Kit",
+				"trans": "부활 키트"
 			}
 		},
 		"rewardCipher": {
@@ -11489,9 +11709,23 @@
 					"trans": "전투 버프 배치"
 				}
 			},
+			"clanShop": {
+				"description": {
+					"eng": "Purchase clan supplies and route them directly into the gang stash",
+					"trans": "클랜 물자를 구매해 갱단 저장소로 바로 반입하세요."
+				},
+				"label": {
+					"eng": "CLAN SHOP",
+					"trans": "클랜 상점"
+				},
+				"title": {
+					"eng": "Clan Shop",
+					"trans": "클랜 상점"
+				}
+			},
 			"description": {
-				"eng": "A secure war command terminal where your gang reviews active enhancements and deploys new combat support buffs.",
-				"trans": "보안 전쟁 지휘 터미널에서 당신의 갱은 활성화된 강화 사항을 검토하고 새로운 전투 지원 버프를 전개합니다"
+				"eng": "A fortified logistics hub where your gang coordinates war operations, deploys combat buffs, and reviews tactical intel.",
+				"trans": "갱의 전쟁 작전 지휘, 전투 버프 적용, 전술 정보 분석을 위한 견고한 보급 거점입니다."
 			},
 			"greetings": {
 				"eng": [
@@ -11506,8 +11740,8 @@
 				]
 			},
 			"locationName": {
-				"eng": "War Command Center",
-				"trans": "전쟁 지휘 센터"
+				"eng": "War Quartermaster",
+				"trans": "군수담당관"
 			},
 			"npcName": {
 				"eng": "Quartermaster Vane",
@@ -11525,6 +11759,20 @@
 				"title": {
 					"eng": "Rank Requisition",
 					"trans": "랭크 조달"
+				}
+			},
+			"traumaBay": {
+				"description": {
+					"eng": "Manage Revival Kits and instantly recover hospitalized gang members during war",
+					"trans": "부활 키트를 관리하고 전쟁 중 입원한 갱 멤버를 즉시 회복하세요."
+				},
+				"label": {
+					"eng": "TRAUMA BAY",
+					"trans": "외상 치료실"
+				},
+				"title": {
+					"eng": "Trauma Bay",
+					"trans": "외상실"
 				}
 			}
 		},
@@ -11822,6 +12070,14 @@
 			},
 			"trans": "격상/격하 구성원"
 		},
+		"clanReviveMember": {
+			"eng": "Revive Gang Member",
+			"noPermission": {
+				"eng": "You do not have permission to revive gang members",
+				"trans": "갱단원을 부활시킬 권한이 없습니다."
+			},
+			"trans": "갱단원 소생"
+		},
 		"clanSetImage": {
 			"eng": "Set Image",
 			"noPermission": {
@@ -11829,6 +12085,14 @@
 				"trans": "갱 이미지를 설정할 권한이 없습니다"
 			},
 			"trans": "이미지 설정"
+		},
+		"clanShopBuy": {
+			"eng": "Buy Gang Shop Items",
+			"noPermission": {
+				"eng": "You do not have permission to buy items from the Gang Shop",
+				"trans": "갱 상점에서 아이템을 구매할 권한이 없습니다."
+			},
+			"trans": "갱 상점 아이템 구매"
 		},
 		"clanTogglePublic": {
 			"eng": "Toggle Public",
@@ -13307,10 +13571,6 @@
 				"eng": "This player has already been arrested",
 				"trans": "이 플레이어는 이미 체포되었습니다."
 			},
-			"warCannotEngageAlt": {
-				"eng": "You cannot attack this player due to alt detection",
-				"trans": "대체 계정 감지로 인해 이 플레이어를 공격할 수 없습니다."
-			},
 			"warLevelTooDiff": {
 				"eng": "You are too high level to attack this player",
 				"trans": "당신의 레벨이 너무 높아 이 플레이어를 공격할 수 없습니다."
@@ -13478,6 +13738,10 @@
 			"notOwnerKick": {
 				"eng": "You must be the owner of the lobby to kick players",
 				"trans": "플레이어를 추방하려면 로비의 소유자여야 합니다"
+			},
+			"notOwnerUpdate": {
+				"eng": "You must be the owner of the lobby to update lobby settings",
+				"trans": "로비 설정 변경은 방장만 가능합니다."
 			},
 			"playerAlreadyInLobby": {
 				"eng": "Player is already in this lobby",
@@ -14421,6 +14685,16 @@
 				"eng": "Hideout Raid EXP Multiplier V",
 				"trans": "은신처 습격 경험치 배율 V"
 			}
+		},
+		"warIntel": {
+			"desc": {
+				"eng": "Reveals detailed war intelligence about enemy gangs",
+				"trans": "적 갱단의 상세한 전황 정보를 공개합니다"
+			},
+			"name": {
+				"eng": "War Intel",
+				"trans": "전쟁 정보"
+			}
 		}
 	},
 	"statusEffectModal": {
@@ -15237,6 +15511,114 @@
 			"trans": "이것은 암호화된 특성입니다. 해독하고 진정한 잠재력을 확인하려면 ${item}을(를) 사용하세요."
 		}
 	},
+	"traumaBay": {
+		"clanWp": {
+			"eng": "Gang WP: ${wp}",
+			"trans": "갱 WP: ${wp}"
+		},
+		"confirmRevive": {
+			"confirm": {
+				"eng": "Revive",
+				"trans": "부활"
+			},
+			"description": {
+				"eng": "Revive ${name}? This will cost ${itemCost} Revival Kits and ${wpCost} WP.",
+				"trans": "${name}을(를) 부활시키시겠습니까? 이 작업에는 ${itemCost}개의 부활 키트와 ${wpCost} WP가 필요합니다."
+			},
+			"title": {
+				"eng": "Confirm Revive",
+				"trans": "부활 확인"
+			}
+		},
+		"costResetLabel": {
+			"eng": "Cost Reset",
+			"trans": "비용 초기화"
+		},
+		"costResetReady": {
+			"eng": "READY (BASE COST)",
+			"trans": "준비됨 (기본 비용)"
+		},
+		"donateButton": {
+			"eng": "Donate",
+			"trans": "기부하기"
+		},
+		"donateModal": {
+			"confirm": {
+				"eng": "Donate",
+				"trans": "기부하기"
+			},
+			"description": {
+				"eng": "Select the amount to donate from your inventory.",
+				"trans": "인벤토리에서 기부할 수량을 선택하세요."
+			},
+			"title": {
+				"eng": "Donate Revival Kits",
+				"trans": "부활 키트 기부"
+			}
+		},
+		"donateTitle": {
+			"eng": "Donate Revival Kits",
+			"trans": "부활 키트 기부"
+		},
+		"error": {
+			"noPermission": {
+				"eng": "You do not have permission to revive members.",
+				"trans": "팀원을 부활시킬 권한이 없습니다."
+			}
+		},
+		"hospitalizedLabel": {
+			"eng": "Hospitalized Members",
+			"trans": "입원 중인 멤버"
+		},
+		"insufficientResources": {
+			"eng": "INSUFFICIENT",
+			"trans": "부족"
+		},
+		"nextCostLabel": {
+			"eng": "Next Revive Cost",
+			"trans": "다음 부활 비용"
+		},
+		"noData": {
+			"eng": "Failed to connect to tactical network.",
+			"trans": "전술 네트워크에 연결하지 못했습니다."
+		},
+		"noHospitalized": {
+			"eng": "No gang members currently hospitalized.",
+			"trans": "현재 입원 중인 갱단원은 없습니다."
+		},
+		"realCostTip": {
+			"eng": "Reviving is a shared gang cost. It starts at ${base} kits and increases by ${increment} kit per revive. The cost resets after 6 hours of no Trauma Bay use.",
+			"trans": "부활은 갱 전체가 공유하는 비용입니다. 기본 비용은 ${base} 키트이며, 부활할 때마다 ${increment} 키트가 추가됩니다. 트라우마 베이 사용 중단 후 6시간이 경과하면 비용이 초기화됩니다."
+		},
+		"recoveryPriceLabel": {
+			"eng": "Revive Cost",
+			"trans": "부활 비용"
+		},
+		"stashAmount": {
+			"eng": "In Stash: ${amount}",
+			"trans": "저장고: ${amount}"
+		},
+		"stashLabel": {
+			"eng": "Trauma Bay Stash",
+			"trans": "외상실 보관함"
+		},
+		"tapToRecover": {
+			"eng": "REVIVE ▸",
+			"trans": "부활 ▸"
+		},
+		"timeRemaining": {
+			"eng": "T-MINUS ${time}",
+			"trans": "${time} 남음"
+		},
+		"viewOnly": {
+			"eng": "VIEW ONLY",
+			"trans": "보기 전용"
+		},
+		"wpCostAmount": {
+			"eng": "${wp} WP",
+			"trans": "${wp} WP"
+		}
+	},
 	"travelToLocationModal": {
 		"alreadyAtLocation": {
 			"eng": "Already at location",
@@ -15890,6 +16272,14 @@
 			"eng": "Stored ${count} item(s) in vault",
 			"trans": "금고에 ${count}개의 아이템을 저장했습니다."
 		},
+		"withdrawPartial": {
+			"eng": "Moved ${moved} item(s) to inventory. Skipped ${skipped} item(s) that did not fit.",
+			"trans": "인벤토리로 ${moved}개 아이템을 옮겼습니다. 공간 부족으로 ${skipped}개 아이템은 건너뛰었습니다."
+		},
+		"withdrawSkipped": {
+			"eng": "No selected items could be moved because they did not fit in inventory.",
+			"trans": "인벤토리 공간이 부족하여 선택한 아이템을 이동할 수 없습니다."
+		},
 		"withdrawSuccess": {
 			"eng": "Retrieved ${count} item(s) from vault",
 			"trans": "금고에서 ${count}개의 아이템을 인출했습니다."
@@ -15905,6 +16295,20 @@
 		"emptyVault": {
 			"eng": "Your vault is empty",
 			"trans": "당신의 금고는 비어 있습니다"
+		},
+		"multiSelect": {
+			"deposit": {
+				"title": {
+					"eng": "Store In Vault",
+					"trans": "금고 보관"
+				}
+			},
+			"withdraw": {
+				"title": {
+					"eng": "Move To Inventory",
+					"trans": "인벤토리로 이동"
+				}
+			}
 		},
 		"selectAddAmountModal": {
 			"title": {

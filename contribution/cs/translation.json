@@ -1391,6 +1391,78 @@
 			"trans": "Odemknout nyní"
 		}
 	},
+	"battleSupport": {
+		"chat": {
+			"revive": {
+				"eng": "${reviver} has revived ${target} through the Trauma Bay",
+				"trans": "${reviver} vzkřísil ${target} prostřednictvím služby Trauma Bay"
+			}
+		},
+		"donated": {
+			"eng": "Donated ${amount} Revival Kit(s) to the Trauma Bay stash",
+			"trans": "Daroval ${amount} oživovacích sad do skladu v Trauma Bay"
+		},
+		"error": {
+			"gangNotFound": {
+				"eng": "Your gang could not be found",
+				"trans": "Váš gang nebyl nalezen"
+			},
+			"notAMember": {
+				"eng": "You are not a member of this gang",
+				"trans": "Nejste členem tohoto gangu."
+			},
+			"notEnoughItems": {
+				"eng": "You don't have enough Revival Kits to donate",
+				"trans": "Nemáte dostatek oživovacích sad k darování"
+			},
+			"notEnoughStash": {
+				"eng": "Not enough Revival Kits in the Trauma Bay stash (need ${cost})",
+				"trans": "V úschovně Trauma Bay není dostatek oživovacích sad (potřebujete ${cost})"
+			},
+			"notEnoughWarPoints": {
+				"eng": "Not enough war points (need ${cost})",
+				"trans": "Nedostatek válečných bodů (chybí ${cost})"
+			},
+			"notHospitalized": {
+				"eng": "Target is not currently hospitalized",
+				"trans": "Cíl není momentálně hospitalizován."
+			},
+			"notInGang": {
+				"eng": "You must be in a gang to access the Trauma Bay",
+				"trans": "Pro přístup do Traumabay musíte být členem gangu."
+			},
+			"stashFull": {
+				"eng": "The gang stash is full",
+				"trans": "Úložiště gangu je plné."
+			},
+			"targetNotFound": {
+				"eng": "Target member could not be found in your gang",
+				"trans": "Cílový člen nebyl nalezen ve vašem gangu."
+			},
+			"warStateRequired": {
+				"eng": "Your gang must be in war state to use the Trauma Bay",
+				"trans": "Váš gang musí být ve válečném stavu k použití Trauma Bay."
+			}
+		},
+		"mail": {
+			"revived": {
+				"eng": "${playerName} has revived you through the Trauma Bay",
+				"trans": "${playerName} vás přivedl k životu prostřednictvím Trauma baru."
+			},
+			"reviver": {
+				"eng": "You have revived ${playerName} through the Trauma Bay",
+				"trans": "Oživili jste ${playerName} v traumacentru."
+			}
+		},
+		"supportSuccess": {
+			"eng": "Trauma Bay recovery completed for ${name}",
+			"trans": "Zotavení v traumacentru dokončeno pro ${name}"
+		},
+		"supported": {
+			"eng": "You have been instantly recovered through the Trauma Bay",
+			"trans": "Stav byl okamžitě obnoven pomocí traumové kabiny."
+		}
+	},
 	"blockedPlayerListPage": {
 		"emptyHint": {
 			"eng": "Block players from their profile to prevent them from contacting you",
@@ -1534,6 +1606,16 @@
 			"name": {
 				"eng": "PvP Money Loss Reduction III",
 				"trans": "Snížení ztráty peněz PvP III"
+			}
+		},
+		"warIntel": {
+			"description": {
+				"eng": "Reveals detailed war intelligence about all enemy gangs for ${hours} hours, including war stacks, participant rosters, and war kill counts",
+				"trans": "Odhalí detailní válečné informace o všech nepřátelských ganguích po dobu ${hours} hodin, včetně bojových skupin, seznamů účastníků a počtů zabitých."
+			},
+			"name": {
+				"eng": "War Intel",
+				"trans": "Válečné zpravodajství"
 			}
 		}
 	},
@@ -2023,12 +2105,12 @@
 			"trans": "Zdroje"
 		},
 		"upkeepTip": {
-			"eng": "Ensure there is enough resources and funds to avoid losing the gang on the next upkeep date.",
-			"trans": "Ujisti se, že máš dostatek zdrojů a finančních prostředků, abys při příštím termínu údržby nepřišel o gang."
+			"eng": "Ensure the clan has enough resources and funds to avoid losing the gang. Note: Role upkeep uses war points; failing it causes war state reset and demotions, not gang deletion.",
+			"trans": "Ujistěte se, že má klan dostatek zdrojů a financí, aby nedošlo ke ztrátě gangu. Poznámka: Údržba rolí vyžaduje válečné body; selhání vede k resetu válečného stavu a propadu ve funkcích, nikoliv ke zrušení gangu."
 		},
 		"upkeepTipTitle": {
-			"eng": "Insufficient Upkeep Resources",
-			"trans": "Nedostatek zdrojů pro údržbu"
+			"eng": "Insufficient Base Upkeep",
+			"trans": "Nedostatek prostředků na údržbu základny"
 		}
 	},
 	"clanDisplay": {
@@ -2281,6 +2363,112 @@
 			"trans": "Seznam gangů"
 		}
 	},
+	"clanShop": {
+		"chat": {
+			"purchase": {
+				"eng": "${buyer} requisitioned ${itemName} for ${cost} war points and sent it to the gang stash",
+				"trans": "${buyer} si vyžádal ${itemName} za ${cost} bojových bodů a odeslal jej do skladu gangu."
+			}
+		},
+		"confirmButton": {
+			"eng": "Send to Stash",
+			"trans": "Odeslat do úložiště"
+		},
+		"confirmDescription": {
+			"eng": "Buy ${amount}x ${itemName} for ${cost} war points and send them to the gang stash?",
+			"trans": "Koupit ${amount}x ${itemName} za ${cost} válečných bodů a odeslat je do úložiště gangu?"
+		},
+		"confirmTitle": {
+			"eng": "Confirm Purchase",
+			"trans": "Potvrdit nákup"
+		},
+		"description": {
+			"eng": "Spend gang war points on shared supplies and deliver them directly into the gang stash",
+			"trans": "Použijte body z gangových válek na sdílené zásoby a odešlete je přímo do úkrytu gangu"
+		},
+		"destination": {
+			"eng": "All purchases go to shared stash",
+			"trans": "Všechny nákupy končí ve sdíleném skladu."
+		},
+		"empty": {
+			"eng": "No clan supplies are configured right now",
+			"trans": "Aktuálně nejsou nastaveny žádné klanové zásoby."
+		},
+		"error": {
+			"gangNotFound": {
+				"eng": "Your gang could not be found",
+				"trans": "Vaše ganga nebyla nalezena."
+			},
+			"notAMember": {
+				"eng": "You are not a member of this gang",
+				"trans": "Nejste členem tohoto gangu."
+			},
+			"notEnoughWarPoints": {
+				"eng": "Your gang does not have enough war points",
+				"trans": "Váš gang nemá dostatek válečných bodů"
+			},
+			"notInGang": {
+				"eng": "You must be in a gang to access the Clan Shop",
+				"trans": "Pro přístup do klanového obchodu musíte být členem ganky."
+			},
+			"soldOut": {
+				"eng": "This supply allocation is sold out for the current reset period",
+				"trans": "Tento příděl zásob je vyprodán pro aktuální období obnovy."
+			}
+		},
+		"notInGang": {
+			"eng": "You must be in a gang to access clan supplies.",
+			"trans": "Pro přístup k klanným zásobám musíte být v gangu."
+		},
+		"restocksIn": {
+			"eng": "Restocks In",
+			"trans": "Obnoveno za"
+		},
+		"selectAmount": {
+			"eng": "Purchase Quantity",
+			"trans": "Nákupní množství"
+		},
+		"selectAmountDesc": {
+			"eng": "How many ${itemName} do you want to purchase?",
+			"trans": "Kolik ${itemName} si přejete zakoupit?"
+		},
+		"selectAmountModel": {
+			"body": {
+				"eng": "You are about to purchase ${amount} ${item}, total: ${total}",
+				"trans": "Chystáte se zakoupit ${amount} ${item}, celkem: ${total}"
+			}
+		},
+		"stashLabel": {
+			"eng": "Gang Stash",
+			"trans": "Úkryt gangu"
+		},
+		"stockRemaining": {
+			"eng": "${remaining} / ${limit} ${cycle} left",
+			"trans": "${remaining} / ${limit} ${cycle} zbývá"
+		},
+		"stockSoldOut": {
+			"eng": "Sold Out",
+			"trans": "Vyprodáno"
+		},
+		"success": {
+			"purchased": {
+				"eng": "Requisition approved. ${itemName} has been sent to the gang stash",
+				"trans": "Příkaz schválen. ${itemName} byl zaslán do úschovny gangu."
+			}
+		},
+		"title": {
+			"eng": "Clan Shop",
+			"trans": "Obchod klanu"
+		},
+		"unlimited": {
+			"eng": "No stock limit",
+			"trans": "Žádný limit množství"
+		},
+		"warPointsLabel": {
+			"eng": "Gang War Points",
+			"trans": "Válečné body gangů"
+		}
+	},
 	"clanTab": {
 		"invitePlayer": {
 			"eng": "invite player",
@@ -2451,6 +2639,32 @@
 		"tutorialLink": {
 			"eng": "Learn more about Gang War",
 			"trans": "Zjistit více o gangové válce"
+		}
+	},
+	"clanWarIntel": {
+		"activate": {
+			"desc": {
+				"eng": "Deploy tactical sensors to reveal enemy war stack and active combatants. Duration: 3 hours. Cost: 10 War Points.",
+				"trans": "Nasaďte taktické senzory k odhalení nepřátelské válečné skupiny a aktivních bojovníků. Trvání: 3 hodiny. Cena: 10 válečných bodů."
+			}
+		},
+		"empty": {
+			"eng": "NO ACTIVE COMBATANTS",
+			"trans": "ŽÁDNÍ AKTIVNÍ BOJOVNÍCI"
+		},
+		"header": {
+			"eng": "TACTICAL INTEL",
+			"trans": "TAKTICKÉ INFORMACE"
+		},
+		"locked": {
+			"desc": {
+				"eng": "Deploy WAR INTEL buff to intercept enemy communications and reveal their stack and active combatants.",
+				"trans": "Aktivujte buff WAR INTEL k zachycení nepřátelských komunikací a odhalení jejich seskupení i aktivních bojovníků."
+			},
+			"title": {
+				"eng": "INTEL CLASSIFIED",
+				"trans": "UTAJENÉ INFORMACE"
+			}
 		}
 	},
 	"clanWarPage": {
@@ -2783,10 +2997,6 @@
 		"psychosis": {
 			"eng": "+ ${amount} psychosis",
 			"trans": "+${amount} psychóza"
-		},
-		"warPoints": {
-			"eng": "${amount} war points",
-			"trans": "${amount} válečných bodů"
 		}
 	},
 	"coupon": {
@@ -6750,6 +6960,16 @@
 			"description": {
 				"eng": "Use to reset a ${tier} item with new random prefixes",
 				"trans": "Resetujte položku ${tier} s novými náhodnými prefixy."
+			}
+		},
+		"revivalKit": {
+			"description": {
+				"eng": "A black-market trauma response package containing clot foam, combat stimulants, and neural reboot patches. Processed through the Trauma Bay, it instantly restores a hospitalized gang operative to active duty.",
+				"trans": "Ilegální trauma sada obsahující koagulační pěnu, bojové stimulanty a neurální restartovací náplasti. Po použití v Trauma Sálu okamžitě uvede hospitalizovaného operativce gangu zpět do aktivní služby."
+			},
+			"name": {
+				"eng": "Revival Kit",
+				"trans": "Oživovací sada"
 			}
 		},
 		"rewardCipher": {
@@ -11489,9 +11709,23 @@
 					"trans": "Nasazení bojového buffu"
 				}
 			},
+			"clanShop": {
+				"description": {
+					"eng": "Purchase clan supplies and route them directly into the gang stash",
+					"trans": "Zakoupit zásoby pro klan a přesměrovat je přímo do trezoru gangu."
+				},
+				"label": {
+					"eng": "CLAN SHOP",
+					"trans": "KLÁNOVÝ OBCHOD"
+				},
+				"title": {
+					"eng": "Clan Shop",
+					"trans": "Obchod klanu"
+				}
+			},
 			"description": {
-				"eng": "A secure war command terminal where your gang reviews active enhancements and deploys new combat support buffs.",
-				"trans": "Bezpečný bojový řídicí terminál, kde váš gang přezkoumává aktivní vylepšení a nasazuje nové bojové podpůrné buffy."
+				"eng": "A fortified logistics hub where your gang coordinates war operations, deploys combat buffs, and reviews tactical intel.",
+				"trans": "Opevněná logistická základna, kde váš gang koordinuje válečné operace, nasazuje bojová vylepšení a přehledává taktické informace."
 			},
 			"greetings": {
 				"eng": [
@@ -11506,8 +11740,8 @@
 				]
 			},
 			"locationName": {
-				"eng": "War Command Center",
-				"trans": "Válečné řídicí středisko"
+				"eng": "War Quartermaster",
+				"trans": "Válečný logistik"
 			},
 			"npcName": {
 				"eng": "Quartermaster Vane",
@@ -11525,6 +11759,20 @@
 				"title": {
 					"eng": "Rank Requisition",
 					"trans": "Rekvizice pro rozestup"
+				}
+			},
+			"traumaBay": {
+				"description": {
+					"eng": "Manage Revival Kits and instantly recover hospitalized gang members during war",
+					"trans": "Spravujte oživovací sady a okamžitě uzdravte hospitalizované členy gangu během války."
+				},
+				"label": {
+					"eng": "TRAUMA BAY",
+					"trans": "TRAUMOVÁ MÍSTNOST"
+				},
+				"title": {
+					"eng": "Trauma Bay",
+					"trans": "Traumamístnost"
 				}
 			}
 		},
@@ -11822,6 +12070,14 @@
 			},
 			"trans": "Povýšit/Snížit členy"
 		},
+		"clanReviveMember": {
+			"eng": "Revive Gang Member",
+			"noPermission": {
+				"eng": "You do not have permission to revive gang members",
+				"trans": "Nemáte oprávnění k oživení členů gangu."
+			},
+			"trans": "Oživit člena gangu"
+		},
 		"clanSetImage": {
 			"eng": "Set Image",
 			"noPermission": {
@@ -11829,6 +12085,14 @@
 				"trans": "Nemáte oprávnění změnit obrázek bandy."
 			},
 			"trans": "Nastavit obrázek"
+		},
+		"clanShopBuy": {
+			"eng": "Buy Gang Shop Items",
+			"noPermission": {
+				"eng": "You do not have permission to buy items from the Gang Shop",
+				"trans": "K nákupu předmětů z Gang Shopu nemáte přístup."
+			},
+			"trans": "Koupit předměty v gangovém obchodě"
 		},
 		"clanTogglePublic": {
 			"eng": "Toggle Public",
@@ -13307,10 +13571,6 @@
 				"eng": "This player has already been arrested",
 				"trans": "Hráč již byl zatčen."
 			},
-			"warCannotEngageAlt": {
-				"eng": "You cannot attack this player due to alt detection",
-				"trans": "Nelze útočit na tohoto hráče kvůli detekci alt."
-			},
 			"warLevelTooDiff": {
 				"eng": "You are too high level to attack this player",
 				"trans": "Máte příliš vysokou úroveň k útoku na tohoto hráče."
@@ -13478,6 +13738,10 @@
 			"notOwnerKick": {
 				"eng": "You must be the owner of the lobby to kick players",
 				"trans": "Musíte být vlastníkem lobby, abyste mohli vyhodit hráče."
+			},
+			"notOwnerUpdate": {
+				"eng": "You must be the owner of the lobby to update lobby settings",
+				"trans": "K úpravě nastavení lobby musíte být jejím vlastníkem."
 			},
 			"playerAlreadyInLobby": {
 				"eng": "Player is already in this lobby",
@@ -14421,6 +14685,16 @@
 				"eng": "Hideout Raid EXP Multiplier V",
 				"trans": "Multiplikátor XP z útoku na úkryt V"
 			}
+		},
+		"warIntel": {
+			"desc": {
+				"eng": "Reveals detailed war intelligence about enemy gangs",
+				"trans": "Odhaluje detailní válečné zpravodajství o nepřátelských ganguch."
+			},
+			"name": {
+				"eng": "War Intel",
+				"trans": "Válečné zpravodajství"
+			}
 		}
 	},
 	"statusEffectModal": {
@@ -15237,6 +15511,114 @@
 			"trans": "Jedná se o šifrovanou vlastnost; použijte ${item}, abyste ji dešifrovali a odhalili její skutečný potenciál."
 		}
 	},
+	"traumaBay": {
+		"clanWp": {
+			"eng": "Gang WP: ${wp}",
+			"trans": "WP gangu: ${wp}"
+		},
+		"confirmRevive": {
+			"confirm": {
+				"eng": "Revive",
+				"trans": "Oživit"
+			},
+			"description": {
+				"eng": "Revive ${name}? This will cost ${itemCost} Revival Kits and ${wpCost} WP.",
+				"trans": "Oživit ${name}? Zaplatíte ${itemCost} Oživovacích sad a ${wpCost} WP."
+			},
+			"title": {
+				"eng": "Confirm Revive",
+				"trans": "Potvrdit oživení"
+			}
+		},
+		"costResetLabel": {
+			"eng": "Cost Reset",
+			"trans": "Obnova ceny"
+		},
+		"costResetReady": {
+			"eng": "READY (BASE COST)",
+			"trans": "PŘIPRAVENO (ZÁKLADNÍ CENA)"
+		},
+		"donateButton": {
+			"eng": "Donate",
+			"trans": "Přispět"
+		},
+		"donateModal": {
+			"confirm": {
+				"eng": "Donate",
+				"trans": "Přispět"
+			},
+			"description": {
+				"eng": "Select the amount to donate from your inventory.",
+				"trans": "Vyberte množství k darování z inventáře."
+			},
+			"title": {
+				"eng": "Donate Revival Kits",
+				"trans": "Darovat oživovací sady"
+			}
+		},
+		"donateTitle": {
+			"eng": "Donate Revival Kits",
+			"trans": "Darovat oživovací sady"
+		},
+		"error": {
+			"noPermission": {
+				"eng": "You do not have permission to revive members.",
+				"trans": "Nemáte oprávnění k oživení členů týmu."
+			}
+		},
+		"hospitalizedLabel": {
+			"eng": "Hospitalized Members",
+			"trans": "Hospitalizovaní členové"
+		},
+		"insufficientResources": {
+			"eng": "INSUFFICIENT",
+			"trans": "NEDOSTATEK"
+		},
+		"nextCostLabel": {
+			"eng": "Next Revive Cost",
+			"trans": "Cena dalšího oživení"
+		},
+		"noData": {
+			"eng": "Failed to connect to tactical network.",
+			"trans": "Nepodařilo se připojit k taktické síti."
+		},
+		"noHospitalized": {
+			"eng": "No gang members currently hospitalized.",
+			"trans": "Momentálně není žádný člen gangu na hospitalizaci."
+		},
+		"realCostTip": {
+			"eng": "Reviving is a shared gang cost. It starts at ${base} kits and increases by ${increment} kit per revive. The cost resets after 6 hours of no Trauma Bay use.",
+			"trans": "Cena za oživování je sdílená pro gildu. Začíná na ${base} balíčcích a každým oživením stoupá o ${increment} balíček. Náklady se resetují po 6 hodinách bez využití Trauma Bay."
+		},
+		"recoveryPriceLabel": {
+			"eng": "Revive Cost",
+			"trans": "Cena oživení"
+		},
+		"stashAmount": {
+			"eng": "In Stash: ${amount}",
+			"trans": "Ve skladu: ${amount}"
+		},
+		"stashLabel": {
+			"eng": "Trauma Bay Stash",
+			"trans": "Sklad traumatógie"
+		},
+		"tapToRecover": {
+			"eng": "REVIVE ▸",
+			"trans": "OŽIVIT ▸"
+		},
+		"timeRemaining": {
+			"eng": "T-MINUS ${time}",
+			"trans": "T-MINUS ${time}"
+		},
+		"viewOnly": {
+			"eng": "VIEW ONLY",
+			"trans": "POUZE PRO PROHLÍŽENÍ"
+		},
+		"wpCostAmount": {
+			"eng": "${wp} WP",
+			"trans": "${wp} WP"
+		}
+	},
 	"travelToLocationModal": {
 		"alreadyAtLocation": {
 			"eng": "Already at location",
@@ -15890,6 +16272,14 @@
 			"eng": "Stored ${count} item(s) in vault",
 			"trans": "Uloženo ${count} položek v trezoru"
 		},
+		"withdrawPartial": {
+			"eng": "Moved ${moved} item(s) to inventory. Skipped ${skipped} item(s) that did not fit.",
+			"trans": "Přesunuto ${moved} položek do inventáře. Přeskočeno ${skipped} položek kvůli nedostatku místa."
+		},
+		"withdrawSkipped": {
+			"eng": "No selected items could be moved because they did not fit in inventory.",
+			"trans": "Vybrané předměty nebylo možné přesunout, protože se nevešly do inventáře."
+		},
 		"withdrawSuccess": {
 			"eng": "Retrieved ${count} item(s) from vault",
 			"trans": "Získáno ${count} položek z trezoru"
@@ -15905,6 +16295,20 @@
 		"emptyVault": {
 			"eng": "Your vault is empty",
 			"trans": "Trezor je prázdný"
+		},
+		"multiSelect": {
+			"deposit": {
+				"title": {
+					"eng": "Store In Vault",
+					"trans": "Uložit do trezoru"
+				}
+			},
+			"withdraw": {
+				"title": {
+					"eng": "Move To Inventory",
+					"trans": "Přesunout do inventáře"
+				}
+			}
 		},
 		"selectAddAmountModal": {
 			"title": {

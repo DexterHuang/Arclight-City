@@ -1391,6 +1391,78 @@
 			"trans": "Разблокировать сейчас"
 		}
 	},
+	"battleSupport": {
+		"chat": {
+			"revive": {
+				"eng": "${reviver} has revived ${target} through the Trauma Bay",
+				"trans": "${reviver} реанимировал ${target} в отделении травмы"
+			}
+		},
+		"donated": {
+			"eng": "Donated ${amount} Revival Kit(s) to the Trauma Bay stash",
+			"trans": "Отправлено ${amount} наборов для воскрешения в тайник Травма-бэя"
+		},
+		"error": {
+			"gangNotFound": {
+				"eng": "Your gang could not be found",
+				"trans": "Ваша банда не найдена"
+			},
+			"notAMember": {
+				"eng": "You are not a member of this gang",
+				"trans": "Вы не состоите в этой банде"
+			},
+			"notEnoughItems": {
+				"eng": "You don't have enough Revival Kits to donate",
+				"trans": "У вас недостаточно наборов для воскрешения для пожертвования"
+			},
+			"notEnoughStash": {
+				"eng": "Not enough Revival Kits in the Trauma Bay stash (need ${cost})",
+				"trans": "Недостаточно наборов для воскрешения на складе Травма-центра (требуется ${cost})"
+			},
+			"notEnoughWarPoints": {
+				"eng": "Not enough war points (need ${cost})",
+				"trans": "Недостаточно очков сражений (требуется ${cost})"
+			},
+			"notHospitalized": {
+				"eng": "Target is not currently hospitalized",
+				"trans": "Цель сейчас не находится в больнице"
+			},
+			"notInGang": {
+				"eng": "You must be in a gang to access the Trauma Bay",
+				"trans": "Для доступа к травмпункту необходимо состоять в банде."
+			},
+			"stashFull": {
+				"eng": "The gang stash is full",
+				"trans": "Хранилище банды заполнено"
+			},
+			"targetNotFound": {
+				"eng": "Target member could not be found in your gang",
+				"trans": "Указанный участник не найден в вашей банде."
+			},
+			"warStateRequired": {
+				"eng": "Your gang must be in war state to use the Trauma Bay",
+				"trans": "Ваша банда должна находиться в состоянии войны, чтобы использовать Травматологическое отделение."
+			}
+		},
+		"mail": {
+			"revived": {
+				"eng": "${playerName} has revived you through the Trauma Bay",
+				"trans": "${playerName} вернул вас к жизни через отделение реанимации"
+			},
+			"reviver": {
+				"eng": "You have revived ${playerName} through the Trauma Bay",
+				"trans": "Вы вернули к жизни ${playerName} через отделение экстренной помощи"
+			}
+		},
+		"supportSuccess": {
+			"eng": "Trauma Bay recovery completed for ${name}",
+			"trans": "Восстановление в травмпункте завершено для ${name}"
+		},
+		"supported": {
+			"eng": "You have been instantly recovered through the Trauma Bay",
+			"trans": "Мгновенное восстановление через отделение реанимации"
+		}
+	},
 	"blockedPlayerListPage": {
 		"emptyHint": {
 			"eng": "Block players from their profile to prevent them from contacting you",
@@ -1534,6 +1606,16 @@
 			"name": {
 				"eng": "PvP Money Loss Reduction III",
 				"trans": "Снижение потерь денег в PvP III"
+			}
+		},
+		"warIntel": {
+			"description": {
+				"eng": "Reveals detailed war intelligence about all enemy gangs for ${hours} hours, including war stacks, participant rosters, and war kill counts",
+				"trans": "Показывает подробные военные разведданные обо всех вражеских бандах на ${hours} часов, включая боевые стаки, списки участников и количество убийств в войне."
+			},
+			"name": {
+				"eng": "War Intel",
+				"trans": "Военная разведка"
 			}
 		}
 	},
@@ -2023,12 +2105,12 @@
 			"trans": "Ресурсы"
 		},
 		"upkeepTip": {
-			"eng": "Ensure there is enough resources and funds to avoid losing the gang on the next upkeep date.",
-			"trans": "Убедитесь, что достаточно ресурсов и средств, чтобы избежать потери банды на следующей дате поддержки."
+			"eng": "Ensure the clan has enough resources and funds to avoid losing the gang. Note: Role upkeep uses war points; failing it causes war state reset and demotions, not gang deletion.",
+			"trans": "Убедитесь, что у клана достаточно ресурсов и средств для предотвращения потери банды. Примечание: содержание ролей требует боевых очков; невыполнение требований приведет к сбросу статуса войны и разжалованию, но не удалению банды."
 		},
 		"upkeepTipTitle": {
-			"eng": "Insufficient Upkeep Resources",
-			"trans": "Недостаточно ресурсов для обслуживания"
+			"eng": "Insufficient Base Upkeep",
+			"trans": "Недостаточно средств на содержание базы"
 		}
 	},
 	"clanDisplay": {
@@ -2281,6 +2363,112 @@
 			"trans": "Каталог банд"
 		}
 	},
+	"clanShop": {
+		"chat": {
+			"purchase": {
+				"eng": "${buyer} requisitioned ${itemName} for ${cost} war points and sent it to the gang stash",
+				"trans": "${buyer} потребовал ${itemName} за ${cost} очков войны и отправил его в тайник банды"
+			}
+		},
+		"confirmButton": {
+			"eng": "Send to Stash",
+			"trans": "Отправить на склад"
+		},
+		"confirmDescription": {
+			"eng": "Buy ${amount}x ${itemName} for ${cost} war points and send them to the gang stash?",
+			"trans": "Купить ${amount}x ${itemName} за ${cost} боевых очков и отправить их в тайник банды?"
+		},
+		"confirmTitle": {
+			"eng": "Confirm Purchase",
+			"trans": "Подтвердить покупку"
+		},
+		"description": {
+			"eng": "Spend gang war points on shared supplies and deliver them directly into the gang stash",
+			"trans": "Потратьте очки гангваров на общие припасы и доставьте их напрямую в тайник банды"
+		},
+		"destination": {
+			"eng": "All purchases go to shared stash",
+			"trans": "Все покупки поступают в общее хранилище."
+		},
+		"empty": {
+			"eng": "No clan supplies are configured right now",
+			"trans": "Ресурсы клана на данный момент не настроены"
+		},
+		"error": {
+			"gangNotFound": {
+				"eng": "Your gang could not be found",
+				"trans": "Ваша банда не найдена"
+			},
+			"notAMember": {
+				"eng": "You are not a member of this gang",
+				"trans": "Вы не состоите в этой банде."
+			},
+			"notEnoughWarPoints": {
+				"eng": "Your gang does not have enough war points",
+				"trans": "У вашей банды недостаточно очков войны"
+			},
+			"notInGang": {
+				"eng": "You must be in a gang to access the Clan Shop",
+				"trans": "Для доступа кмагазину клана необходимо состоять в банде."
+			},
+			"soldOut": {
+				"eng": "This supply allocation is sold out for the current reset period",
+				"trans": "Данная партия поставок распродана в рамках текущего периода сброса"
+			}
+		},
+		"notInGang": {
+			"eng": "You must be in a gang to access clan supplies.",
+			"trans": "Для доступа к припасам клана необходимо состоять в банде."
+		},
+		"restocksIn": {
+			"eng": "Restocks In",
+			"trans": "Пополнение через"
+		},
+		"selectAmount": {
+			"eng": "Purchase Quantity",
+			"trans": "Количество для покупки"
+		},
+		"selectAmountDesc": {
+			"eng": "How many ${itemName} do you want to purchase?",
+			"trans": "Сколько ${itemName} вы хотите купить?"
+		},
+		"selectAmountModel": {
+			"body": {
+				"eng": "You are about to purchase ${amount} ${item}, total: ${total}",
+				"trans": "Вы собираетесь приобрести ${amount} ${item}, итого: ${total}"
+			}
+		},
+		"stashLabel": {
+			"eng": "Gang Stash",
+			"trans": "Склад группировки"
+		},
+		"stockRemaining": {
+			"eng": "${remaining} / ${limit} ${cycle} left",
+			"trans": "${remaining} / ${limit} ${cycle} осталось"
+		},
+		"stockSoldOut": {
+			"eng": "Sold Out",
+			"trans": "Распродано"
+		},
+		"success": {
+			"purchased": {
+				"eng": "Requisition approved. ${itemName} has been sent to the gang stash",
+				"trans": "Заявка одобрена. ${itemName} отправлен в тайник банды."
+			}
+		},
+		"title": {
+			"eng": "Clan Shop",
+			"trans": "Магазин клана"
+		},
+		"unlimited": {
+			"eng": "No stock limit",
+			"trans": "Неограниченный запас"
+		},
+		"warPointsLabel": {
+			"eng": "Gang War Points",
+			"trans": "Очки войн банд"
+		}
+	},
 	"clanTab": {
 		"invitePlayer": {
 			"eng": "invite player",
@@ -2451,6 +2639,32 @@
 		"tutorialLink": {
 			"eng": "Learn more about Gang War",
 			"trans": "Узнать больше о войне банд"
+		}
+	},
+	"clanWarIntel": {
+		"activate": {
+			"desc": {
+				"eng": "Deploy tactical sensors to reveal enemy war stack and active combatants. Duration: 3 hours. Cost: 10 War Points.",
+				"trans": "Развернуть тактические датчики для выявления боевой группировки противника и активных участников боя. Длительность: 3 часа. Стоимость: 10 очков войны."
+			}
+		},
+		"empty": {
+			"eng": "NO ACTIVE COMBATANTS",
+			"trans": "Нет активных бойцов"
+		},
+		"header": {
+			"eng": "TACTICAL INTEL",
+			"trans": "ТАКТИЧЕСКИЕ ДАННЫЕ"
+		},
+		"locked": {
+			"desc": {
+				"eng": "Deploy WAR INTEL buff to intercept enemy communications and reveal their stack and active combatants.",
+				"trans": "Примените бафф WAR INTEL для перехвата связи противника и выявления состава отряда и активных участников боя."
+			},
+			"title": {
+				"eng": "INTEL CLASSIFIED",
+				"trans": "КЛАССИФИЦИРОВАННЫЕ ДАННЫЕ"
+			}
 		}
 	},
 	"clanWarPage": {
@@ -2783,10 +2997,6 @@
 		"psychosis": {
 			"eng": "+ ${amount} psychosis",
 			"trans": "+ ${amount} киберпсихоза"
-		},
-		"warPoints": {
-			"eng": "${amount} war points",
-			"trans": "${amount} очков войны"
 		}
 	},
 	"coupon": {
@@ -6750,6 +6960,16 @@
 			"description": {
 				"eng": "Use to reset a ${tier} item with new random prefixes",
 				"trans": "Используйте для сброса предмета ${tier} с новыми случайными префиксами"
+			}
+		},
+		"revivalKit": {
+			"description": {
+				"eng": "A black-market trauma response package containing clot foam, combat stimulants, and neural reboot patches. Processed through the Trauma Bay, it instantly restores a hospitalized gang operative to active duty.",
+				"trans": "Экстренный медицинский комплект с чёрного рынка, содержащий коагуляционную пену, боевые стимуляторы и нейропластыри для перезагрузки нервной системы. После процедуры в травматологическом отсеке он мгновенно возвращает раненого бойца банды из больницы обратно в строй."
+			},
+			"name": {
+				"eng": "Revival Kit",
+				"trans": "Набор для воскрешения"
 			}
 		},
 		"rewardCipher": {
@@ -11489,9 +11709,23 @@
 					"trans": "Развертывание боевых усилений"
 				}
 			},
+			"clanShop": {
+				"description": {
+					"eng": "Purchase clan supplies and route them directly into the gang stash",
+					"trans": "Закупить припасы клана и отправить их напрямую в тайник банды"
+				},
+				"label": {
+					"eng": "CLAN SHOP",
+					"trans": "МАГАЗИН КЛАНА"
+				},
+				"title": {
+					"eng": "Clan Shop",
+					"trans": "Магазин клана"
+				}
+			},
 			"description": {
-				"eng": "A secure war command terminal where your gang reviews active enhancements and deploys new combat support buffs.",
-				"trans": "Защищенный терминал боевого командования, где ваша банда контролирует активные улучшения и активирует новые боевые баффы поддержки"
+				"eng": "A fortified logistics hub where your gang coordinates war operations, deploys combat buffs, and reviews tactical intel.",
+				"trans": "Укрепленный логистический узел, где ваша банда координирует военные операции, активирует боевые усилители и анализирует тактические данные."
 			},
 			"greetings": {
 				"eng": [
@@ -11506,8 +11740,8 @@
 				]
 			},
 			"locationName": {
-				"eng": "War Command Center",
-				"trans": "Центр боевого командования"
+				"eng": "War Quartermaster",
+				"trans": "Военный квартирмейстер"
 			},
 			"npcName": {
 				"eng": "Quartermaster Vane",
@@ -11525,6 +11759,20 @@
 				"title": {
 					"eng": "Rank Requisition",
 					"trans": "Заказ на ранг"
+				}
+			},
+			"traumaBay": {
+				"description": {
+					"eng": "Manage Revival Kits and instantly recover hospitalized gang members during war",
+					"trans": "Управление наборами для воскрешения и мгновенное восстановление раненых членов банды во время войны"
+				},
+				"label": {
+					"eng": "TRAUMA BAY",
+					"trans": "ПАЛАТА ДЛЯ РАНЕНЫХ"
+				},
+				"title": {
+					"eng": "Trauma Bay",
+					"trans": "Отделение экстренной помощи"
 				}
 			}
 		},
@@ -11822,6 +12070,14 @@
 			},
 			"trans": "Повысить/Понизить членов"
 		},
+		"clanReviveMember": {
+			"eng": "Revive Gang Member",
+			"noPermission": {
+				"eng": "You do not have permission to revive gang members",
+				"trans": "Недостаточно прав для воскрешения членов банды"
+			},
+			"trans": "Оживить члена банды"
+		},
 		"clanSetImage": {
 			"eng": "Set Image",
 			"noPermission": {
@@ -11829,6 +12085,14 @@
 				"trans": "У вас нет разрешения на установку изображения банды"
 			},
 			"trans": "Установить изображение"
+		},
+		"clanShopBuy": {
+			"eng": "Buy Gang Shop Items",
+			"noPermission": {
+				"eng": "You do not have permission to buy items from the Gang Shop",
+				"trans": "У вас недостаточно прав для покупки товаров в магазине банды"
+			},
+			"trans": "Купить товары в магазине банды"
 		},
 		"clanTogglePublic": {
 			"eng": "Toggle Public",
@@ -13307,10 +13571,6 @@
 				"eng": "This player has already been arrested",
 				"trans": "Этот игрок уже был арестован"
 			},
-			"warCannotEngageAlt": {
-				"eng": "You cannot attack this player due to alt detection",
-				"trans": "Вы не можете атаковать этого игрока из-за обнаружения альтернативного аккаунта"
-			},
 			"warLevelTooDiff": {
 				"eng": "You are too high level to attack this player",
 				"trans": "Вы слишком высокого уровня, чтобы атаковать этого игрока."
@@ -13478,6 +13738,10 @@
 			"notOwnerKick": {
 				"eng": "You must be the owner of the lobby to kick players",
 				"trans": "Вы должны быть владельцем лобби, чтобы выгнать игроков"
+			},
+			"notOwnerUpdate": {
+				"eng": "You must be the owner of the lobby to update lobby settings",
+				"trans": "Вы должны быть владельцем лобби, чтобы изменить его настройки"
 			},
 			"playerAlreadyInLobby": {
 				"eng": "Player is already in this lobby",
@@ -14421,6 +14685,16 @@
 				"eng": "Hideout Raid EXP Multiplier V",
 				"trans": "Множитель опыта за рейд на укрытие V"
 			}
+		},
+		"warIntel": {
+			"desc": {
+				"eng": "Reveals detailed war intelligence about enemy gangs",
+				"trans": "Раскрывает подробные военные разведданные о вражеских бандах"
+			},
+			"name": {
+				"eng": "War Intel",
+				"trans": "Военная разведка"
+			}
 		}
 	},
 	"statusEffectModal": {
@@ -15237,6 +15511,114 @@
 			"trans": "Это зашифрованное свойство. Используйте ${item} для расшифровки и определения его истинного потенциала."
 		}
 	},
+	"traumaBay": {
+		"clanWp": {
+			"eng": "Gang WP: ${wp}",
+			"trans": "Метка банды: ${wp}"
+		},
+		"confirmRevive": {
+			"confirm": {
+				"eng": "Revive",
+				"trans": "Возродить"
+			},
+			"description": {
+				"eng": "Revive ${name}? This will cost ${itemCost} Revival Kits and ${wpCost} WP.",
+				"trans": "Воскресить ${name}? Для этого потребуется ${itemCost} наборов для воскрешения и ${wpCost} WP."
+			},
+			"title": {
+				"eng": "Confirm Revive",
+				"trans": "Возродить"
+			}
+		},
+		"costResetLabel": {
+			"eng": "Cost Reset",
+			"trans": "Сброс стоимости"
+		},
+		"costResetReady": {
+			"eng": "READY (BASE COST)",
+			"trans": "ГОТОВО (БАЗОВАЯ СТОИМОСТЬ)"
+		},
+		"donateButton": {
+			"eng": "Donate",
+			"trans": "Пожертвовать"
+		},
+		"donateModal": {
+			"confirm": {
+				"eng": "Donate",
+				"trans": "Пожертвовать"
+			},
+			"description": {
+				"eng": "Select the amount to donate from your inventory.",
+				"trans": "Укажите сумму для пожертвования из вашего инвентаря."
+			},
+			"title": {
+				"eng": "Donate Revival Kits",
+				"trans": "Пожертвовать наборы для воскрешения"
+			}
+		},
+		"donateTitle": {
+			"eng": "Donate Revival Kits",
+			"trans": "Пожертвовать наборы для воскрешения"
+		},
+		"error": {
+			"noPermission": {
+				"eng": "You do not have permission to revive members.",
+				"trans": "У вас недостаточно прав для воскрешения участников."
+			}
+		},
+		"hospitalizedLabel": {
+			"eng": "Hospitalized Members",
+			"trans": "Госпитализированные участники"
+		},
+		"insufficientResources": {
+			"eng": "INSUFFICIENT",
+			"trans": "НЕДОСТАТОЧНО"
+		},
+		"nextCostLabel": {
+			"eng": "Next Revive Cost",
+			"trans": "Стоимость следующего воскрешения"
+		},
+		"noData": {
+			"eng": "Failed to connect to tactical network.",
+			"trans": "Не удалось подключиться к тактической сети."
+		},
+		"noHospitalized": {
+			"eng": "No gang members currently hospitalized.",
+			"trans": "На данный момент членов банды нет в госпитале."
+		},
+		"realCostTip": {
+			"eng": "Reviving is a shared gang cost. It starts at ${base} kits and increases by ${increment} kit per revive. The cost resets after 6 hours of no Trauma Bay use.",
+			"trans": "Воскрешение оплачивается из общих ресурсов банды. Базовая стоимость составляет ${base} медкомлектов и увеличивается на ${increment} за каждое возращение. Она сбрасывается через 6 часов простоя травмпункта."
+		},
+		"recoveryPriceLabel": {
+			"eng": "Revive Cost",
+			"trans": "Стоимость воскрешения"
+		},
+		"stashAmount": {
+			"eng": "In Stash: ${amount}",
+			"trans": "Запасы: ${amount}"
+		},
+		"stashLabel": {
+			"eng": "Trauma Bay Stash",
+			"trans": "Запасы травмопункта"
+		},
+		"tapToRecover": {
+			"eng": "REVIVE ▸",
+			"trans": "ВОССТАНОВИТЬ ▸"
+		},
+		"timeRemaining": {
+			"eng": "T-MINUS ${time}",
+			"trans": "Т-МИНУС ${time}"
+		},
+		"viewOnly": {
+			"eng": "VIEW ONLY",
+			"trans": "ТОЛЬКО ПРОСМОТР"
+		},
+		"wpCostAmount": {
+			"eng": "${wp} WP",
+			"trans": "${wp} WP"
+		}
+	},
 	"travelToLocationModal": {
 		"alreadyAtLocation": {
 			"eng": "Already at location",
@@ -15890,6 +16272,14 @@
 			"eng": "Stored ${count} item(s) in vault",
 			"trans": "Сохранено ${count} предметов в хранилище"
 		},
+		"withdrawPartial": {
+			"eng": "Moved ${moved} item(s) to inventory. Skipped ${skipped} item(s) that did not fit.",
+			"trans": "Перемещено ${moved} предметов в инвентарь. Пропущено ${skipped}, которые не поместились."
+		},
+		"withdrawSkipped": {
+			"eng": "No selected items could be moved because they did not fit in inventory.",
+			"trans": "Невозможно переместить выбранные предметы из-за нехватки места в инвентаре."
+		},
 		"withdrawSuccess": {
 			"eng": "Retrieved ${count} item(s) from vault",
 			"trans": "Получено ${count} предметов из хранилища"
@@ -15905,6 +16295,20 @@
 		"emptyVault": {
 			"eng": "Your vault is empty",
 			"trans": "Ваше хранилище пусто"
+		},
+		"multiSelect": {
+			"deposit": {
+				"title": {
+					"eng": "Store In Vault",
+					"trans": "Поместить в хранилище"
+				}
+			},
+			"withdraw": {
+				"title": {
+					"eng": "Move To Inventory",
+					"trans": "Переместить в инвентарь"
+				}
+			}
 		},
 		"selectAddAmountModal": {
 			"title": {
