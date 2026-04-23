@@ -1,51 +1,69 @@
-## Was ist ein Bandenkrieg?
+## Was ist Bandenkrieg?
 
-**Bandenkrieg** ist ein Gang-gegen-Gang-PvP-System, das auf **Kriegsstapeln**, **Meilensteinen**, **Kriegspunktzahl** und **Kriegspunkten** basiert. Eure Gang baut Schwung auf, indem sie gültige Kriegskills aneinanderreiht, Serien-Meilensteine erreicht und diesen Druck in Punkte und taktische Vorteile umwandelt.
+**Bandenkrieg** ist ein PvP-System Gang gegen Gang, das auf **Kriegsstapeln**, **Meilensteinen**, **Kriegspunktzahl**, **Kriegspunkten** und kriegsbezogenen Hilfsmitteln basiert. Eure Gang baut Schwung auf, indem sie gültige Kriegstötungen aneinanderreiht, Serien-Meilensteine erreicht und diesen Druck in taktische Vorteile wie Kampfboni und Kampferholung umwandelt.
 
 ## Wo finde ich den Bandenkrieg?
 
-Du kannst den Bandenkrieg über deine Seite **Gangdetails** öffnen. Das **Kriegspanel** gibt dir einen schnellen Überblick über den aktuellen Kriegsfortschritt deiner Gang, und auf der eigenen Bandenkriegs-Seite siehst du mehr Details wie deinen aktuellen Stapelfortschritt und die Kriegspunkte.
+Wenn eure Rolle Zugriff hat, erreicht ihr den Bandenkrieg über die Kriegsoberfläche eurer Gang. Die Kriegsansicht zeigt, ob der Krieg **aktiv** oder **inaktiv** ist, eure aktuelle **Saison**, die gesamte **Kriegspunktzahl**, den **Stapel**, die **Kriegspunkte** und den Fortschritt der Meilensteine.
+
+Wenn eure Feindliste eingeschränkt aussieht, bedeutet das meist, dass einige Informationen noch durch Aufklärung gesperrt sind, bis ihr sie aufdeckt.
 
 ## Wie funktioniert der Kriegsstapel?
 
-Der **Kriegsstapel** verfolgt die aktuelle Serie gültiger Kriegskills deiner Gang.
+Der **Kriegsstapel** verfolgt die aktuelle Serie gültiger Kriegstötungen eurer Gang.
 
-- Jeder gültige Kriegskill erhöht deinen Stapel um **1**.
-- Der Stapel-Timer wird nach jedem gültigen Kriegskill aktualisiert.
-- Wenn deine Gang zu lange ohne einen weiteren gültigen Kriegskill bleibt, läuft der Stapel ab und wird zurückgesetzt.
+- Jede gültige Kriegstötung erhöht euren Stapel um **1**.
+- Der Stapel-Timer wird nach jeder gültigen Kriegstötung zurückgesetzt.
+- Wenn eure Gang zu lange ohne eine weitere gültige Kriegstötung bleibt, läuft der Stapel ab und wird zurückgesetzt.
 - Höhere Stapel schalten bessere Meilenstein-Belohnungen frei.
 
 Dieses System belohnt anhaltende Aggression und koordinierte Gang-Aktivität.
 
 ## Was sind Meilensteine?
 
-**Meilensteine** sind Belohnungsmarken, die an deinen Kriegsstapel gebunden sind. Wenn deine Gang einen erreicht, verdient ihr sowohl **Kriegspunktzahl** als auch **Kriegspunkte**.
+**Meilensteine** sind Belohnungspunkte, die an euren Kriegsstapel gebunden sind. Wenn eure Gang einen erreicht, erhaltet ihr sowohl **Kriegspunktzahl** als auch **Kriegspunkte**.
 
-Je höher eure Serie steigt, desto besser werden die Belohnungen. Deine Gang erhält außerdem eine Benachrichtigung, wenn ein Meilenstein erreicht wird, damit alle sehen können, wie das Momentum kippt.
+Je höher eure Serie steigt, desto besser werden die Belohnungen. Eure Gang erhält außerdem eine Benachrichtigung, wenn ein Meilenstein erreicht wird, damit alle sehen, wie sich das Momentum verschiebt.
 
 ## Wie funktioniert die Wertung?
 
-Deine Gang verdient **Kriegspunktzahl** durch Meilenstein-Belohnungen, nicht durch jeden einzelnen Kill.
+Eure Gang erhält **Kriegspunktzahl** über Meilenstein-Belohnungen, nicht durch jede einzelne Tötung.
 
-- Frühe Kills bauen deinen Stapel auf.
+- Frühe Tötungen bauen euren Stapel auf.
 - Meilensteine wandeln diesen Stapel in Punktzahl um.
 - Größere Serien führen zu höheren Punktgewinnen.
 
-Das bedeutet: Im Bandenkrieg geht es vor allem darum, Serien lange genug zu halten, um sie auszuzahlen.
+Das bedeutet, Bandenkrieg dreht sich vor allem darum, Serien lange genug aufrechtzuerhalten, um sie einzulösen.
 
 ## Was sind Kriegspunkte?
 
-**Kriegspunkte** werden zusammen mit der Kriegspunktzahl verdient, wann immer deine Gang einen Meilenstein erreicht. Im Gegensatz zur Kriegspunktzahl sind Kriegspunkte eine **ausgebbare Gang-Ressource**, die für kriegsbezogene Aufwertungen und Einsätze genutzt wird.
+**Kriegspunkte** werden zusammen mit der Kriegspunktzahl verdient, wenn eure Gang einen Meilenstein erreicht. Im Gegensatz zur Kriegspunktzahl sind Kriegspunkte eine **ausgebbare Gang-Ressource** für kriegsbezogene Verbesserungen und Einsätze.
 
-## Was sind Kriegs-Buffs?
+## Was sind Kriegsboni?
 
-**Kriegs-Buffs** sind gangweite Boni, die Anführer mit **Kriegspunkten** einsetzen können, solange sich deine Gang im Kriegsmodus befindet. Sie sollen die Leistung deiner Gang im Krieg stärken, und stärkere oder sich überschneidende Buffs können beeinflussen, welche Einsätze verfügbar sind.
+**Kriegsboni** sind gangweite Boni, die Anführer mit **Kriegspunkten** einsetzen können, solange eure Gang im Kriegsmodus ist. Sie sollen die Leistung eurer Gang im Krieg stärken, und stärkere oder überlappende Boni können beeinflussen, welche Einsätze verfügbar sind.
 
-Du verwaltest sie über den **Kriegsquartiermeister** auf der Kriegsseite deiner Gang.
+Ihr verwaltet sie über den **Kriegsquartiermeister** auf eurer Kriegsseite.
 
-## Was zählt als Kriegskill?
+## Was ist der Kriegsquartiermeister?
 
-Ein Kampf bringt den Bandenkrieg nur voran, wenn er als **Kriegskampf** gilt und mit einem gültigen Kill endet.
+Der **Kriegsquartiermeister** ist der Ort, an dem ihr die kriegsbezogenen Werkzeuge eurer Gang verwaltet. Dort habt ihr Zugriff auf Kriegsboni und die Karte **Traumastation**, die als kriegsinterne Erholungsstation für hospitalisierte Gangmitglieder dient.
+
+## Was ist die Traumastation?
+
+Die **Traumastation** ist eine nur im Krieg verfügbare Gang-Funktion, die verletzten Mitgliedern hilft, schneller zurück in den Kampf zu kommen. Dort könnt ihr **Wiederbelebungskits spenden**, sehen, welche Gangmitglieder hospitalisiert sind, und **Wiederbelebungskits** plus **Kriegspunkte** einsetzen, um sie während des Krieges sofort wiederzubeleben.
+
+Außerdem hat sie ein Gefühl von **Lager und Kapazität**, sodass ihr nicht alles gleichzeitig halten oder nutzen könnt. Die Wiederbelebungskosten können sich außerdem im Laufe der Zeit ändern, und der Zurücksetzungszeitpunkt wird in der Funktion angezeigt, damit ihr entsprechend planen könnt.
+
+## Was ist Kriegsaufklärung?
+
+**Kriegsaufklärung** bestimmt, wie viele Details ihr über den feindlichen Gang sehen könnt. Ihr bekommt nicht immer sofort eine vollständige Übersicht über die Mitgliederliste oder die Stapelinformationen.
+
+Wenn eure Gang **WAR_INTEL** erhält, werden für eine begrenzte Zeit mehr Details über den Feind freigeschaltet. Wenn die Feindliste teilweise verborgen aussieht, ist das normal, bis genug Kriegsaufklärung aktiv ist.
+
+## Was zählt als Kriegstötung?
+
+Ein Kampf bringt den Bandenkrieg nur voran, wenn er als **Kriegskampf** gilt und mit einer gültigen Tötung endet.
 
 In der Praxis bedeutet das:
 
@@ -53,16 +71,16 @@ In der Praxis bedeutet das:
 - beide Gangs müssen sich im Kriegsmodus befinden
 - der Angreifer muss die Kriegsteilnahme aktiviert haben
 
-Wenn ein Kampf diese Bedingungen nicht erfüllt, kann er sich immer noch wie normales PvP verhalten, aber er baut deinen Kriegsstapel nicht auf und gewährt keinen Kriegsfortschritt.
+Wenn ein Kampf diese Bedingungen nicht erfüllt, kann er sich trotzdem wie normales PvP verhalten, baut aber weder euren Kriegsstapel auf noch gewährt er Kriegsfortschritt.
 
 ## Was passiert, wenn ich im Krieg getötet werde?
 
-Wenn du einen gültigen Kriegskampf verlierst, wirst du **hospitalisiert** und vorübergehend aus dem Kampf entfernt. Während der Hospitalisierung:
+Wenn ihr einen gültigen Kriegskampf verliert, werdet ihr **hospitalisiert** und vorübergehend aus dem Kampf entfernt. Während der Hospitalisierung:
 
-- kannst du nicht am Kampf teilnehmen
-- kannst du nicht als gültiges Kriegsziel verwendet werden
+- könnt ihr nicht am Kampf teilnehmen
+- könnt ihr nicht als gültiges Kriegsziel verwendet werden
 
-Die grundlegende Erholungszeit beträgt **2 Stunden**, aber Effekte, die die Hospitalisierungszeit verkürzen, können diese Erholung verkürzen.
+Die grundlegende Erholungszeit beträgt **2 Stunden**, aber Effekte, die die Hospitalisierungszeit verkürzen, können diese Erholung reduzieren.
 
 ## Kann ich mich aus dem Krieg ausklinken?
 
@@ -72,35 +90,35 @@ Gang-Anführer können die Kriegsteilnahme eines Mitglieds ein- oder ausschalten
 - Das Ausschalten der Teilnahme verhindert, dass dieses Mitglied als Angreifer zum Kriegsfortschritt beiträgt.
 - Es macht dieses Mitglied **nicht** unangreifbar, solange die Gang weiterhin im Kriegsmodus ist.
 
-Wenn deine Gang im Krieg ist, können Feinde dich also weiterhin angreifen, selbst wenn deine eigene Teilnahme deaktiviert ist.
+Wenn eure Gang im Krieg ist, können Feinde euch also weiterhin angreifen, selbst wenn eure eigene Teilnahme deaktiviert ist.
 
 ## Wie aktiviere oder deaktiviere ich den Kriegsmodus?
 
-Nur der **Gang-Anführer** kann den Kriegsmodus umschalten.
+Der Kriegsmodus wird von einer **autorisierten Gang-Rolle** gesteuert, daher können gewöhnliche Mitglieder ihn nicht selbst umschalten.
 
-1. Öffne deine Seite **Gangdetails**.
-2. Öffne das Gangmenü.
-3. Wähle **Kriegsmodus aktivieren** oder **Kriegsmodus deaktivieren**.
+1. Öffnet eure Seite **Gang-Details**, wenn ihr Zugriff auf die Kriegssteuerung habt.
+2. Öffnet das Gangmenü.
+3. Wählt **Kriegsmodus aktivieren** oder **Kriegsmodus deaktivieren**.
 
 Sobald der Kriegsmodus eingeschaltet wurde, bleibt er für **24 Stunden** gesperrt, bevor er wieder ausgeschaltet werden kann.
 
-Das Deaktivieren des Kriegsmodus ist ein vollständiger Reset deines aktuellen Kriegsdurchlaufs. Es löscht die **Kriegspunktzahl**, **Kriegspunkte**, den **Kriegsstapel** und alle aktiven **Kriegs-Buffs**, die an den Kriegsstatus gebunden sind.
+Das Deaktivieren des Kriegsmodus ist ein vollständiger Reset eures aktuellen Kriegsdurchlaufs. Es löscht die **Kriegspunktzahl**, **Kriegspunkte**, den **Kriegsstapel** und alle aktiven **Kriegs-Buffs**, die an den Kriegsstatus gebunden sind.
 
 ## Was passiert mit der Kriegspunktzahl im Laufe der Zeit?
 
 Die Kriegspunktzahl **verfällt** mit der Zeit auf natürliche Weise, sodass inaktive Gangs langsam an Schwung verlieren.
 
-Wenn du deinen Rang halten willst, brauchst du stetige Kriegsaktivität.
+Wenn ihr euren Rang halten wollt, braucht ihr stetige Kriegsaktivität.
 
 ## Kann ich Mitglieder meiner eigenen Gang angreifen?
 
-Du kannst deine eigenen Gangmitglieder weiterhin über normale PvP-Aktionen angreifen, aber das zählt **nicht** als Fortschritt im Bandenkrieg. Nur Kämpfe gegen rivalisierende Gangs können deinen Kriegsstapel aufbauen und Meilensteine auslösen.
+Ihr könnt eure eigenen Gangmitglieder weiterhin über normale PvP-Aktionen angreifen, aber das zählt **nicht** als Fortschritt im Bandenkrieg. Nur Kämpfe gegen rivalisierende Gangs können euren Kriegsstapel aufbauen und Meilensteine auslösen.
 
 ## Wer kann am Bandenkrieg teilnehmen?
 
-Die Teilnahme am Bandenkrieg hängt sowohl vom Zustand der Gang als auch vom Zustand des Mitglieds ab.
+Die Teilnahme am Bandenkrieg hängt sowohl vom Gangstatus als auch vom Mitgliederstatus ab.
 
-- Deine Gang muss sich im Kriegsmodus befinden.
+- Eure Gang muss sich im Kriegsmodus befinden.
 - Das angreifende Mitglied muss die Kriegsteilnahme aktiviert haben.
 - Der Kampf muss als gültiger Kriegskampf gelten.
 
@@ -108,9 +126,9 @@ Wenn diese Bedingungen nicht erfüllt sind, trägt der Kampf nicht zum Kriegsfor
 
 ## Was ist die Gefechtsbindung?
 
-Wenn du als Angreifer an einem Kriegskampf teilnimmst, löst du eine **24-stündige Gefechtsbindung** aus.
+Wenn ihr als Angreifer an einem Kriegskampf teilnehmt, löst ihr eine **24-stündige Gefechtsbindung** aus.
 
-Während dieser Bindung giltst du als kürzlich im Krieg engagiert und kannst dich nicht einfach den Folgen dieser Handlung entziehen. Dadurch wird verhindert, dass Spieler im Krieg angreifen und dann sofort durch Gangverwaltungsaktionen Vergeltung ausweichen.
+Während dieser Bindung gilt ihr als kürzlich im Krieg aktiv und könnt euch nicht einfach den Folgen dieser Handlung entziehen. Dadurch wird verhindert, dass Spieler im Krieg angreifen und dann sofort durch Gang-Verwaltungsaktionen Vergeltung vermeiden.
 
 ## Welche Gang-Aktionen sind während des Krieges blockiert?
 
@@ -121,28 +139,28 @@ Der Bandenkrieg legt zusätzliche Einschränkungen auf die Gangverwaltung.
 - Eine Gang kann nicht **aufgelöst** werden, solange der Kriegsmodus aktiv ist.
 - Selbst nachdem der Kriegsmodus deaktiviert wurde, kann die Auflösung weiterhin blockiert sein, bis aktuelle Gefechtsbindungen abgelaufen sind.
 
-Diese Einschränkungen sollen verhindern, dass Gangs Austritte, Rauswürfe oder Auflösungen missbrauchen, um Kriegsfolgen zu vermeiden.
+Diese Einschränkungen sollen verhindern, dass Gangs Austritte, Rauswürfe oder Auflösungen missbrauchen, um Kriegsfolgen zu umgehen.
 
 ## Wie prüfe ich meinen Kriegsstatus?
 
-Dein Kriegsstatus erscheint an mehreren Stellen:
+Euer Kriegsstatus erscheint an mehreren Stellen:
 
-- Das **Kriegspanel** auf deiner Seite Gangdetails zeigt deine aktuelle **Kriegspunktzahl** und deinen **Stapel**.
-- Die eigene Bandenkriegs-Seite zeigt dir einen umfassenderen Überblick, einschließlich deiner **Kriegspunkte**.
-- Den mitgliedsspezifischen Teilnahmestatus und Abklingzeiten kannst du in der Mitgliederoberfläche der Gang prüfen.
+- Die **Kriegsübersicht** auf eurer Gang-Details-Seite zeigt eure aktuelle **Kriegspunktzahl** und euren **Stapel**.
+- Die eigene Bandenkriegs-Seite zeigt euch einen umfassenderen Überblick, einschließlich eurer **Kriegspunkte**, der Saison und des Status.
+- Den mitgliedsspezifischen Teilnahmestatus und Abklingzeiten könnt ihr in der Mitgliederoberfläche der Gang prüfen.
 
-Wenn du diese Ansichten im Blick behältst, verstehst du besser, ob deine Gang Schwung aufbaut oder verliert.
+Wenn ihr diese Ansichten im Blick behaltet, versteht ihr besser, ob eure Gang Schwung aufbaut oder verliert.
 
 ## Wo sehe ich den Meilenstein-Fortschritt?
 
-Du kannst den Meilenstein-Fortschritt auf der eigenen Bandenkriegs-Seite verfolgen. Dort gibt es eine Meilensteinansicht, die deinen aktuellen Stapel zeigt, welche Belohnungen du bereits erreicht hast und welcher Meilenstein als Nächstes kommt.
+Ihr könnt den Meilenstein-Fortschritt auf der eigenen Bandenkriegs-Seite verfolgen. Dort gibt es eine Meilensteinansicht, die euren aktuellen Stapel zeigt, welche Belohnungen ihr bereits erreicht habt und welcher Meilenstein als Nächstes kommt.
 
-So kannst du besser einschätzen, ob deine Gang weiter Druck machen oder sich lieber neu formieren sollte, bevor der Stapel abläuft.
+So könnt ihr besser einschätzen, ob eure Gang weiter Druck machen oder sich lieber neu formieren sollte, bevor der Stapel abläuft.
 
 ## Hast du Tipps für den Bandenkrieg?
 
-- **Verkette deine Siege**: Der Bandenkrieg belohnt Serien, daher ist der Schutz deines Stapels wichtiger als das Jagen zufälliger Kämpfe.
-- **Behalte deinen Timer im Blick**: Wenn dein Stapel abläuft, muss deine Gang wieder von vorne anfangen.
-- **Beobachte den Meilenstein-Fortschritt**: Nutze die Bandenkriegs-Seite, um zu sehen, wie nah du an der nächsten Belohnung bist.
-- **Verwechsle Opt-out nicht mit Sicherheit**: Das Deaktivieren der Teilnahme hindert Feinde nicht daran, dich anzugreifen, solange deine Gang im Kriegsmodus ist.
-- **Plane vor dem Deaktivieren des Kriegsmodus**: Das Ausschalten des Kriegsmodus löscht deinen aktuellen Kriegsfortschritt.
+- **Verkettet eure Siege**: Bandenkrieg belohnt Serien, daher ist der Schutz eures Stapels wichtiger als das Jagen zufälliger Kämpfe.
+- **Behaltet euren Timer im Blick**: Wenn euer Stapel abläuft, muss eure Gang wieder von vorne anfangen.
+- **Verfolgt den Meilenstein-Fortschritt**: Nutzt die Bandenkriegs-Seite, um zu sehen, wie nah ihr an der nächsten Belohnung seid.
+- **Verwechselt den Ausstieg nicht mit Sicherheit**: Das Deaktivieren der Teilnahme hindert Feinde nicht daran, euch anzugreifen, solange eure Gang im Kriegsmodus ist.
+- **Plant vor dem Deaktivieren des Kriegsmodus**: Das Ausschalten des Kriegsmodus löscht euren aktuellen Kriegsfortschritt.
