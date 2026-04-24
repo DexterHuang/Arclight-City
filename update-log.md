@@ -6,6 +6,27 @@
 
 **If you find an exploit, please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
+### 0.0.98
+
+-  Fixed an intermittent crash in the terminal hacking minigame caused by invalid keyword selection
+
+-  Improved `Vault` transfers:
+   -  You can now select multiple items at once when depositing to or withdrawing from your vault
+
+-  Improved dungeon lobby permissions:
+   -  Only the lobby owner can edit lobby settings
+   -  Public/private lobby controls are now locked for guests, making lobby ownership rules clearer
+
+-  Fixed notice button on gang chat not showing for leaders
+
+-  Improved gang war controls and warnings:
+   -  Clan War is now enabled in early beta. Please expect changes and balance adjustments as the system is tested, and feedback is welcome.
+   -  Gang war lock messages now clearly explain that starting war attacks can temporarily lock leaving or being kicked from a gang
+   -  Gang leaders now see clearer `War Attack Permission` controls that explain who can start war attacks, without implying protected members cannot be attacked
+   -  Enemy war stack and member attack details are now hidden unless your gang has access to detailed war intel
+
+-  Small UI polishes
+
 ### 0.0.97
 
 -  Improved quality-of-life UI details:
