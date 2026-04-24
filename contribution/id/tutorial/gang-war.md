@@ -69,7 +69,7 @@ Dalam praktiknya, itu berarti:
 
 - kedua pemain harus berasal dari geng yang berbeda
 - kedua geng harus berada dalam mode perang
-- penyerang harus mengaktifkan partisipasi perang
+- penyerang harus punya izin untuk memulai serangan perang
 
 Jika pertarungan tidak memenuhi syarat itu, pertarungan tersebut masih bisa berjalan seperti PvP biasa, tetapi tidak akan membangun tumpukan perang atau memberi progres perang.
 
@@ -82,15 +82,21 @@ Jika kamu kalah dalam pertarungan perang yang valid, kamu akan **dirawat di ruma
 
 Waktu pemulihan dasarnya adalah **2 jam**, tetapi efek yang mengurangi waktu rawat inap bisa mempersingkat pemulihan itu.
 
-## Apakah saya bisa memilih keluar dari perang?
+## Apakah saya bisa mengubah izin serangan perang?
 
-Pemimpin geng bisa mengaktifkan atau menonaktifkan partisipasi perang seorang anggota.
+Pemimpin geng bisa mengaktifkan atau menonaktifkan izin serangan perang seorang anggota.
 
-- Ada **waktu jeda 1 jam** antara perubahan partisipasi untuk anggota yang sama.
-- Menonaktifkan partisipasi menghentikan anggota itu untuk menyumbang progres perang sebagai penyerang.
+- Ada **waktu jeda 1 jam** antara perubahan izin untuk anggota yang sama.
+- Menonaktifkan izin ini menghentikan anggota itu untuk memulai serangan perang yang akan membuat atau memperbarui kunci keterlibatan.
 - Itu **tidak** membuat anggota tersebut tidak bisa ditargetkan selama geng masih dalam mode perang.
 
-Jika gengmu sedang berperang, musuh tetap bisa menyerangmu bahkan saat partisipasimu sendiri dinonaktifkan.
+- Para pemimpin memakai ini untuk mencegah anggota memperbarui kuncinya, supaya bisa dikeluarkan dengan aman setelah kuncinya habis.
+
+Musuh tetap bisa menyerang anggota itu selama geng masih dalam mode perang. Aturan ini dibuat untuk mencegah penyalahgunaan, misalnya menyerang saat perang lalu langsung keluar atau sengaja dikeluarkan supaya bisa menghindari balasan atau kunci waktu.
+
+Setelah waktu jeda dan jendela kuncinya habis, anggota itu bisa dihapus, dikeluarkan, atau keluar seperti biasa.
+
+Jika gengmu sedang berperang, musuh tetap bisa menyerangmu bahkan saat izin serangan perangmu sendiri dinonaktifkan.
 
 ## Bagaimana cara mengaktifkan atau menonaktifkan mode perang?
 
@@ -114,12 +120,12 @@ Kalau kamu ingin mempertahankan peringkatmu, kamu butuh aktivitas perang yang st
 
 Kamu tetap bisa menyerang anggota gengmu sendiri lewat aksi PvP normal, tetapi itu **tidak** dihitung sebagai progres Perang Geng. Hanya pertarungan melawan geng rival yang bisa membangun tumpukan perang dan memicu titik pencapaian.
 
-## Siapa yang bisa ikut Perang Geng?
+## Siapa yang bisa memulai serangan perang di Perang Geng?
 
-Partisipasi Perang Geng bergantung pada kondisi geng dan kondisi anggota.
+Izin serangan perang bergantung pada kondisi geng dan kondisi anggota.
 
 - Gengmu harus berada dalam mode perang.
-- Anggota yang menyerang harus mengaktifkan partisipasi perang.
+- Anggota yang menyerang harus punya izin untuk memulai serangan perang.
 - Pertarungan harus memenuhi syarat sebagai pertempuran perang yang valid.
 
 Jika syarat-syarat itu tidak terpenuhi, pertarungan tidak akan berkontribusi pada progres perang.
@@ -147,7 +153,7 @@ Status perangmu muncul di beberapa tempat:
 
 - **Panel Perang** di halaman **Detail Geng** milikmu menampilkan **skor perang** dan **tumpukan perang** saat ini.
 - Halaman khusus Perang Geng menampilkan gambaran perang yang lebih luas, termasuk **poin perang** milikmu.
-- Status partisipasi anggota tertentu dan informasi waktu jeda bisa dicek dari antarmuka anggota geng.
+- Status izin serangan perang anggota tertentu dan informasi waktu jeda bisa dicek dari antarmuka anggota geng.
 
 Memantau layar-layar ini membantumu memahami apakah gengmu sedang membangun momentum atau kehilangannya.
 
@@ -162,5 +168,5 @@ Itu memudahkanmu menilai apakah gengmu harus terus menekan atau berkumpul ulang 
 - **Rangkai kemenanganmu**: Perang Geng memberi hadiah pada rentetan, jadi menjaga tumpukan perang lebih penting daripada mengejar pertarungan acak.
 - **Awasi timermu**: Jika tumpukan perang habis, gengmu harus membangunnya lagi dari awal.
 - **Pantau progres titik pencapaian**: Gunakan halaman Perang Geng untuk melihat seberapa dekat kamu ke hadiah berikutnya.
-- **Jangan samakan tidak ikut dengan aman**: Menonaktifkan partisipasi tidak menghentikan musuh menargetkanmu selama gengmu masih dalam mode perang.
+- **Jangan samakan menonaktifkan izin dengan aman**: Menonaktifkan izin ini tidak menghentikan musuh menargetkanmu selama gengmu masih dalam mode perang.
 - **Rencanakan sebelum menonaktifkan mode perang**: Mematikan mode perang menghapus progres perangmu saat ini.

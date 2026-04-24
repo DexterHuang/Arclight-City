@@ -69,7 +69,7 @@ In der Praxis bedeutet das:
 
 - beide Spieler müssen unterschiedlichen Gangs angehören
 - beide Gangs müssen sich im Kriegsmodus befinden
-- der Angreifer muss die Kriegsteilnahme aktiviert haben
+- der Angreifer muss die Berechtigung haben, Kriegsangriffe zu starten
 
 Wenn ein Kampf diese Bedingungen nicht erfüllt, kann er sich trotzdem wie normales PvP verhalten, baut aber weder euren Kriegsstapel auf noch gewährt er Kriegsfortschritt.
 
@@ -82,15 +82,19 @@ Wenn ihr einen gültigen Kriegskampf verliert, werdet ihr **hospitalisiert** und
 
 Die grundlegende Erholungszeit beträgt **2 Stunden**, aber Effekte, die die Hospitalisierungszeit verkürzen, können diese Erholung reduzieren.
 
-## Kann ich mich aus dem Krieg ausklinken?
+## Kann ich die Kriegsangriffsberechtigung ändern?
 
-Gang-Anführer können die Kriegsteilnahme eines Mitglieds ein- oder ausschalten.
+Gang-Anführer können die Kriegsangriffsberechtigung eines Mitglieds ein- oder ausschalten.
 
-- Zwischen Teilnahmeänderungen für dasselbe Mitglied liegt eine **1-stündige Abklingzeit**.
-- Das Ausschalten der Teilnahme verhindert, dass dieses Mitglied als Angreifer zum Kriegsfortschritt beiträgt.
+- Zwischen Berechtigungsänderungen für dasselbe Mitglied liegt eine **1-stündige Abklingzeit**.
+- Das Ausschalten dieser Berechtigung verhindert, dass dieses Mitglied Kriegsangriffe startet, die die Gefechtsbindung erzeugen oder auffrischen würden.
 - Es macht dieses Mitglied **nicht** unangreifbar, solange die Gang weiterhin im Kriegsmodus ist.
 
-Wenn eure Gang im Krieg ist, können Feinde euch also weiterhin angreifen, selbst wenn eure eigene Teilnahme deaktiviert ist.
+- Anführer nutzen das, um zu verhindern, dass ein Mitglied seine Bindung auffrischt, damit es nach Ablauf sicher rausgeworfen werden kann.
+
+Feinde können dieses Mitglied also weiterhin angreifen, solange die Gang im Kriegsmodus bleibt. Das soll Missbrauch verhindern, etwa erst im Krieg angreifen und dann sofort gehen oder rausgeworfen werden, um Vergeltung oder Sperren zu umgehen.
+
+Sobald die relevanten Abklingzeiten und Sperrfenster abgelaufen sind, kann das Mitglied ganz normal entfernt, rausgeworfen oder selbst austreten.
 
 ## Wie aktiviere oder deaktiviere ich den Kriegsmodus?
 
@@ -114,12 +118,12 @@ Wenn ihr euren Rang halten wollt, braucht ihr stetige Kriegsaktivität.
 
 Ihr könnt eure eigenen Gangmitglieder weiterhin über normale PvP-Aktionen angreifen, aber das zählt **nicht** als Fortschritt im Bandenkrieg. Nur Kämpfe gegen rivalisierende Gangs können euren Kriegsstapel aufbauen und Meilensteine auslösen.
 
-## Wer kann am Bandenkrieg teilnehmen?
+## Wer kann im Bandenkrieg Kriegsangriffe starten?
 
-Die Teilnahme am Bandenkrieg hängt sowohl vom Gangstatus als auch vom Mitgliederstatus ab.
+Die Kriegsangriffsberechtigung hängt sowohl vom Gangstatus als auch vom Mitgliederstatus ab.
 
 - Eure Gang muss sich im Kriegsmodus befinden.
-- Das angreifende Mitglied muss die Kriegsteilnahme aktiviert haben.
+- Das angreifende Mitglied muss die Kriegsangriffsberechtigung haben.
 - Der Kampf muss als gültiger Kriegskampf gelten.
 
 Wenn diese Bedingungen nicht erfüllt sind, trägt der Kampf nicht zum Kriegsfortschritt bei.
@@ -147,7 +151,7 @@ Euer Kriegsstatus erscheint an mehreren Stellen:
 
 - Die **Kriegsübersicht** auf eurer Gang-Details-Seite zeigt eure aktuelle **Kriegspunktzahl** und euren **Stapel**.
 - Die eigene Bandenkriegs-Seite zeigt euch einen umfassenderen Überblick, einschließlich eurer **Kriegspunkte**, der Saison und des Status.
-- Den mitgliedsspezifischen Teilnahmestatus und Abklingzeiten könnt ihr in der Mitgliederoberfläche der Gang prüfen.
+- Den mitgliedsspezifischen Kriegsangriffsberechtigungsstatus und Abklingzeiten könnt ihr in der Mitgliederoberfläche der Gang prüfen.
 
 Wenn ihr diese Ansichten im Blick behaltet, versteht ihr besser, ob eure Gang Schwung aufbaut oder verliert.
 
@@ -162,5 +166,5 @@ So könnt ihr besser einschätzen, ob eure Gang weiter Druck machen oder sich li
 - **Verkettet eure Siege**: Bandenkrieg belohnt Serien, daher ist der Schutz eures Stapels wichtiger als das Jagen zufälliger Kämpfe.
 - **Behaltet euren Timer im Blick**: Wenn euer Stapel abläuft, muss eure Gang wieder von vorne anfangen.
 - **Verfolgt den Meilenstein-Fortschritt**: Nutzt die Bandenkriegs-Seite, um zu sehen, wie nah ihr an der nächsten Belohnung seid.
-- **Verwechselt den Ausstieg nicht mit Sicherheit**: Das Deaktivieren der Teilnahme hindert Feinde nicht daran, euch anzugreifen, solange eure Gang im Kriegsmodus ist.
+- **Verwechselt die Angriffsberechtigung nicht mit Sicherheit**: Das Deaktivieren dieser Berechtigung hindert Feinde nicht daran, euch anzugreifen, solange eure Gang im Kriegsmodus ist.
 - **Plant vor dem Deaktivieren des Kriegsmodus**: Das Ausschalten des Kriegsmodus löscht euren aktuellen Kriegsfortschritt.

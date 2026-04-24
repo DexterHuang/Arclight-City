@@ -69,7 +69,7 @@ In practice, that means:
 
 - both players must belong to different gangs
 - both gangs must be in war mode
-- the attacker must have war participation enabled 
+- the attacker must have permission to start war attacks
 
 If a fight does not meet those conditions, it can still behave like normal PvP, but it will not build your war stack or award war progress.
 
@@ -84,13 +84,18 @@ The base recovery time is **2 hours**, but effects that reduce hospitalization t
 
 ## Can I opt out of war?
 
-Gang leaders can toggle a member's war participation on or off.
+Gang leaders can turn a member's **permission to start war attacks** on or off.
 
-- There is a **1-hour cooldown** between participation changes for the same member.
-- Turning participation off stops that member from contributing war progress as an attacker.
-- It does **not** make that member untargetable while the gang is still in war mode.
+- There is a **1-hour cooldown** between permission changes for the same member.
+- Turning this permission off only stops that member from **starting** war attacks or refreshing their **engagement lock**.
+- It does **not** stop enemy gangs from attacking that member while the gang is still in war mode.
+- Leaders use this to stop a member from refreshing their lock so that member can be kicked safely once the lock clears.
 
-If your gang is in war, enemies can still attack you even when your own participation is disabled.
+Enemies can still attack that member while the gang remains in war mode. This helps prevent abuse, like attacking in war and then immediately leaving or getting kicked to dodge retaliation or lockouts.
+
+Once the relevant cooldown and lock windows expire, that member can be removed, kicked, or leave normally.
+
+If your gang is in war, enemies can still attack you even when your own permission to start war attacks is disabled.
 
 ## How do I enable or disable war mode?
 
@@ -114,12 +119,12 @@ If you want to hold your ranking, you need steady war activity.
 
 You can still attack your own gang members through normal PvP actions, but it does **not** count as Gang War progress. Only fights against rival gangs can build your war stack and trigger milestones.
 
-## Who can participate in Gang War?
+## Who can start war attacks in Gang War?
 
-Gang War participation depends on both gang state and member state.
+Your ability to start war attacks depends on both gang state and member state.
 
 - Your gang must be in war mode.
-- The attacking member must have war participation enabled.
+- The attacking member must have permission to start war attacks.
 - The fight must qualify as valid war combat.
 
 If those conditions are not met, the fight will not contribute to war progression.
@@ -147,7 +152,7 @@ Your war status appears in a few different places:
 
 - The **War Panel** on your Gang Details page shows your current **war score** and **stack**.
 - The dedicated Gang War page shows your broader war overview, including **war points**, season state, and milestone progress.
-- Member-specific participation status and cooldown information can be checked from the gang member interface.
+- Member-specific war attack permission status and cooldown information can be checked from the gang member interface.
 
 Watching these screens helps you understand whether your gang is building momentum or losing it.
 
@@ -164,5 +169,5 @@ That makes it easier to judge whether your gang should press the attack or regro
 - **Track milestone progress**: Use the Gang War page to see how close you are to the next reward.
 - **Use intel wisely**: If the enemy roster is partially hidden, wait for war intel before making assumptions.
 - **Keep the Trauma Bay stocked**: Revival Kits help your gang recover faster when members get hospitalized.
-- **Do not confuse opt-out with safety**: Turning participation off does not stop enemies from targeting you while your gang is still in war mode.
+- **Do not confuse attack permission with safety**: Turning this permission off does not stop enemies from targeting you while your gang is still in war mode.
 - **Plan before disabling war mode**: Turning war mode off wipes your current war progress.

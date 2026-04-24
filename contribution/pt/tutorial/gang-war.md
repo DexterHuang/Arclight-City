@@ -69,7 +69,7 @@ Na prática, isso significa:
 
 - ambos os jogadores devem pertencer a gangues diferentes
 - ambas as gangues devem estar em modo de guerra
-- o atacante deve ter a participação em guerra ativada
+- o atacante deve ter permissão para iniciar ataques de guerra
 
 Se uma luta não atender a essas condições, ela ainda pode se comportar como PvP normal, mas não vai aumentar sua sequência de guerra nem conceder progresso de guerra.
 
@@ -82,15 +82,19 @@ Se você perder uma luta de guerra válida, será **hospitalizado** e temporaria
 
 O tempo base de recuperação é de **2 horas**, mas efeitos que reduzem o tempo de hospitalização podem encurtar essa recuperação.
 
-## Posso ficar de fora da guerra?
+## Posso alterar a permissão de ataque de guerra?
 
-Líderes de gangue podem ativar ou desativar a participação em guerra de um membro.
+Líderes de gangue podem ativar ou desativar a permissão de ataque de guerra de um membro.
 
-- Existe um **tempo de recarga de 1 hora** entre mudanças de participação para o mesmo membro.
-- Desativar a participação impede que esse membro contribua para o progresso de guerra como atacante.
+- Existe um **tempo de recarga de 1 hora** entre mudanças de permissão para o mesmo membro.
+- Desativar essa permissão impede que esse membro inicie ataques de guerra que criariam ou renovariam o bloqueio de engajamento.
 - Isso **não** torna esse membro inalvejável enquanto a gangue ainda estiver em modo de guerra.
 
-Se sua gangue estiver em guerra, os inimigos ainda podem atacar você mesmo com sua própria participação desativada.
+- Os líderes usam isso para impedir que um membro renove o bloqueio, para poder expulsá-lo com segurança quando ele acabar.
+
+Os inimigos ainda podem atacar esse membro enquanto a gangue permanecer em modo de guerra. Isso serve para evitar abuso, como atacar na guerra e depois sair ou ser expulso imediatamente para escapar de retaliação ou bloqueios.
+
+Depois que a recarga e as janelas de bloqueio relevantes expirarem, o membro pode então ser removido, expulso ou sair normalmente.
 
 ## Como eu ativo ou desativo o modo de guerra?
 
@@ -114,12 +118,12 @@ Se você quiser manter sua colocação, vai precisar de atividade de guerra cons
 
 Você ainda pode atacar membros da sua própria gangue por meio de ações normais de PvP, mas isso **não** conta como progresso na Guerra de Gangues. Apenas lutas contra gangues rivais podem aumentar sua sequência de guerra e acionar marcos.
 
-## Quem pode participar da Guerra de Gangues?
+## Quem pode iniciar ataques de guerra na Guerra de Gangues?
 
-A participação na Guerra de Gangues depende tanto do estado da gangue quanto do estado do membro.
+A permissão de ataque de guerra depende tanto do estado da gangue quanto do estado do membro.
 
 - Sua gangue precisa estar em modo de guerra.
-- O membro atacante precisa estar com a participação em guerra ativada.
+- O membro atacante precisa ter permissão para iniciar ataques de guerra.
 - A luta precisa se qualificar como combate de guerra válido.
 
 Se essas condições não forem atendidas, a luta não vai contribuir para a progressão da guerra.
@@ -147,7 +151,7 @@ Seu status de guerra aparece em alguns lugares diferentes:
 
 - O **Painel de Guerra** na sua página de Detalhes da Gangue mostra sua **pontuação de guerra** atual e sua **sequência**.
 - A página dedicada da Guerra de Gangues mostra uma visão mais ampla da guerra, incluindo seus **pontos de guerra**, a temporada e o status.
-- O status de participação de cada membro e as informações de recarga podem ser consultados pela interface de membros da gangue.
+- O status de permissão de ataque de guerra de cada membro e as informações de recarga podem ser consultados pela interface de membros da gangue.
 
 Observar essas telas ajuda você a entender se sua gangue está ganhando ou perdendo impulso.
 
@@ -162,5 +166,5 @@ Isso facilita decidir se sua gangue deve continuar pressionando ou se reagrupar 
 - **Encadeie suas vitórias**: A Guerra de Gangues recompensa sequências, então proteger sua sequência importa mais do que perseguir lutas aleatórias.
 - **Fique de olho no cronômetro**: Se sua sequência expirar, sua gangue terá de reconstruí-la do zero.
 - **Acompanhe o progresso dos marcos**: Use a página da Guerra de Gangues para ver o quão perto você está da próxima recompensa.
-- **Não confunda desativar a participação com segurança**: Desativar a participação não impede que inimigos ataquem você enquanto sua gangue ainda estiver em modo de guerra.
+- **Não confunda desativar a permissão com segurança**: Desativar essa permissão não impede que inimigos ataquem você enquanto sua gangue ainda estiver em modo de guerra.
 - **Planeje antes de desativar o modo de guerra**: Desligar o modo de guerra apaga seu progresso atual de guerra.

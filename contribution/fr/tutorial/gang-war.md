@@ -69,7 +69,7 @@ En pratique, cela signifie :
 
 - les deux joueurs doivent appartenir à des gangs différents
 - les deux gangs doivent être en mode guerre
-- l’attaquant doit avoir la participation à la guerre activée
+- l’attaquant doit avoir l’autorisation de lancer des attaques de guerre
 
 Si un combat ne remplit pas ces conditions, il peut toujours se comporter comme un JcJ normal, mais il n’augmentera pas votre série de guerre et ne donnera aucune progression de guerre.
 
@@ -82,15 +82,19 @@ Si vous perdez un combat de guerre valide, vous êtes **hospitalisé** et tempor
 
 Le temps de récupération de base est de **2 heures**, mais les effets qui réduisent la durée d’hospitalisation peuvent raccourcir cette récupération.
 
-## Puis-je me retirer de la guerre ?
+## Puis-je modifier l’autorisation d’attaque de guerre ?
 
-Les chefs de gang peuvent activer ou désactiver la participation à la guerre d’un membre.
+Les chefs de gang peuvent activer ou désactiver l’autorisation d’attaque de guerre d’un membre.
 
-- Il y a un **temps de recharge d’1 heure** entre deux changements de participation pour un même membre.
-- Désactiver la participation empêche ce membre de contribuer à la progression de guerre en tant qu’attaquant.
+- Il y a un **temps de recharge d’1 heure** entre deux changements d’autorisation pour un même membre.
+- Désactiver cette autorisation empêche ce membre de lancer des attaques de guerre qui créeraient ou rafraîchiraient le verrou d’engagement.
 - Cela ne rend **pas** ce membre intouchable tant que le gang est toujours en mode guerre.
 
-Si votre gang est en guerre, les ennemis peuvent toujours vous attaquer même si votre propre participation est désactivée.
+- Les chefs utilisent cela pour empêcher un membre de rafraîchir son verrou, afin de pouvoir l’expulser en sécurité une fois le verrou levé.
+
+Les ennemis peuvent toujours attaquer ce membre tant que le gang reste en mode guerre. Cela sert à empêcher les abus, comme attaquer pendant la guerre puis partir ou se faire expulser aussitôt pour éviter les représailles ou les verrous.
+
+Une fois les temps de recharge et les fenêtres de verrouillage concernés écoulés, le membre peut alors être retiré, expulsé ou quitter le gang normalement.
 
 ## Comment activer ou désactiver le mode guerre ?
 
@@ -114,12 +118,12 @@ Si vous voulez conserver votre classement, vous avez besoin d’une activité de
 
 Vous pouvez toujours attaquer les membres de votre propre gang via les actions JcJ normales, mais cela ne compte **pas** dans la progression de la Guerre de Gang. Seuls les combats contre des gangs rivaux peuvent faire monter votre série de guerre et déclencher des paliers.
 
-## Qui peut participer à la Guerre de Gang ?
+## Qui peut lancer des attaques de guerre dans la Guerre de Gang ?
 
-La participation à la Guerre de Gang dépend à la fois de l’état du gang et de l’état du membre.
+L’autorisation d’attaque de guerre dépend à la fois de l’état du gang et de l’état du membre.
 
 - Votre gang doit être en mode guerre.
-- Le membre attaquant doit avoir la participation à la guerre activée.
+- Le membre attaquant doit avoir l’autorisation d’attaque de guerre.
 - Le combat doit être considéré comme un combat de guerre valide.
 
 Si ces conditions ne sont pas remplies, le combat ne contribuera pas à la progression de guerre.
@@ -147,7 +151,7 @@ Votre statut de guerre apparaît à plusieurs endroits :
 
 - Le **Panneau de guerre** sur votre page Détails du gang affiche votre **score de guerre** actuel et votre **série**.
 - La page dédiée à la Guerre de Gang affiche une vue d’ensemble plus large, y compris vos **points de guerre**, la saison et l’état.
-- Le statut de participation de chaque membre et les informations de recharge peuvent être consultés depuis l’interface des membres du gang.
+- Le statut d’autorisation d’attaque de guerre de chaque membre et les informations de recharge peuvent être consultés depuis l’interface des membres du gang.
 
 Surveiller ces écrans vous aide à comprendre si votre gang prend de l’élan ou en perd.
 
@@ -162,5 +166,5 @@ Cela permet de mieux décider si votre gang doit continuer à mettre la pression
 - **Enchaînez vos victoires** : La Guerre de Gang récompense les séries, donc protéger votre série est plus important que courir après des combats aléatoires.
 - **Gardez un œil sur votre minuteur** : Si votre série expire, votre gang doit tout reconstruire depuis le début.
 - **Suivez la progression des paliers** : Utilisez la page Guerre de Gang pour voir à quel point vous êtes proche de la prochaine récompense.
-- **Ne confondez pas retrait et sécurité** : Désactiver la participation n’empêche pas les ennemis de vous cibler tant que votre gang reste en mode guerre.
+- **Ne confondez pas l’autorisation d’attaque avec la sécurité** : Désactiver cette autorisation n’empêche pas les ennemis de vous cibler tant que votre gang reste en mode guerre.
 - **Planifiez avant de désactiver le mode guerre** : Désactiver le mode guerre efface votre progression de guerre actuelle.

@@ -69,7 +69,7 @@ En la práctica, eso significa:
 
 - ambos jugadores deben pertenecer a bandas distintas
 - ambas bandas deben estar en modo guerra
-- el atacante debe tener activada la participación en guerra
+- el atacante debe tener permiso para iniciar ataques de guerra
 
 Si una pelea no cumple esas condiciones, puede seguir comportándose como JcJ normal, pero no aumentará tu racha de guerra ni otorgará progreso de guerra.
 
@@ -82,15 +82,19 @@ Si pierdes una pelea de guerra válida, eres **hospitalizado** y quedas temporal
 
 El tiempo base de recuperación es de **2 horas**, pero los efectos que reducen el tiempo de hospitalización pueden acortar esa recuperación.
 
-## ¿Puedo quedar fuera de la guerra?
+## ¿Puedo cambiar el permiso de ataque de guerra?
 
-Los líderes de la banda pueden activar o desactivar la participación en guerra de un miembro.
+Los líderes de la banda pueden activar o desactivar el permiso de ataque de guerra de un miembro.
 
-- Hay un **tiempo de reutilización de 1 hora** entre cambios de participación para el mismo miembro.
-- Desactivar la participación evita que ese miembro contribuya al progreso de guerra como atacante.
+- Hay un **tiempo de reutilización de 1 hora** entre cambios de permiso para el mismo miembro.
+- Desactivar este permiso evita que ese miembro inicie ataques de guerra que crearían o renovarían el bloqueo de enfrentamiento.
 - **No** hace que ese miembro sea intocable mientras la banda siga en modo guerra.
 
-Si tu banda está en guerra, los enemigos pueden seguir atacándote incluso cuando tu propia participación esté desactivada.
+- Los líderes usan esto para evitar que un miembro renueve su bloqueo y así poder expulsarlo con seguridad cuando expire.
+
+Los enemigos pueden seguir atacando a ese miembro mientras la banda siga en modo guerra. Esto sirve para evitar abusos, como atacar en guerra y luego irse o ser expulsado de inmediato para esquivar represalias o bloqueos.
+
+Una vez que expiren el tiempo de reutilización y las ventanas de bloqueo correspondientes, ese miembro ya puede ser eliminado, expulsado o irse con normalidad.
 
 ## ¿Cómo activo o desactivo el modo guerra?
 
@@ -114,12 +118,12 @@ Si quieres mantener tu posición, necesitas actividad de guerra constante.
 
 Puedes seguir atacando a miembros de tu propia banda mediante acciones normales de JcJ, pero eso **no** cuenta como progreso de Guerra de Bandas. Solo las peleas contra bandas rivales pueden aumentar tu racha de guerra y activar hitos.
 
-## ¿Quién puede participar en la Guerra de Bandas?
+## ¿Quién puede iniciar ataques de guerra en la Guerra de Bandas?
 
-La participación en la Guerra de Bandas depende tanto del estado de la banda como del estado del miembro.
+El permiso de ataque de guerra depende tanto del estado de la banda como del estado del miembro.
 
 - Tu banda debe estar en modo guerra.
-- El miembro atacante debe tener activada la participación en guerra.
+- El miembro atacante debe tener permiso para iniciar ataques de guerra.
 - La pelea debe calificar como combate de guerra válido.
 
 Si no se cumplen esas condiciones, la pelea no contribuirá al progreso de guerra.
@@ -147,7 +151,7 @@ Tu estado de guerra aparece en varios lugares:
 
 - El **Panel de Guerra** en tu página de Detalles de la Banda muestra tu **puntuación de guerra** actual y tu **racha**.
 - La página dedicada de Guerra de Bandas muestra una vista más amplia de la guerra, incluidos tus **puntos de guerra**, la temporada y el estado.
-- El estado de participación de cada miembro y la información de reutilización se pueden revisar desde la interfaz de miembros de la banda.
+- El estado de permiso de ataque de guerra de cada miembro y la información de reutilización se pueden revisar desde la interfaz de miembros de la banda.
 
 Seguir estas pantallas te ayuda a entender si tu banda está ganando impulso o perdiéndolo.
 
@@ -162,5 +166,5 @@ Eso facilita decidir si tu banda debe seguir presionando o reagruparse antes de 
 - **Encadena tus victorias**: La Guerra de Bandas recompensa las rachas, así que proteger tu racha importa más que perseguir peleas al azar.
 - **Vigila tu temporizador**: Si tu racha expira, tu banda tendrá que reconstruirla desde cero.
 - **Sigue el progreso de los hitos**: Usa la página de Guerra de Bandas para ver qué tan cerca estás de la siguiente recompensa.
-- **No confundas salirte con estar a salvo**: Desactivar la participación no impide que los enemigos te apunten mientras tu banda siga en modo guerra.
+- **No confundas desactivar el permiso con estar a salvo**: Desactivar este permiso no impide que los enemigos te apunten mientras tu banda siga en modo guerra.
 - **Planifica antes de desactivar el modo guerra**: Desactivar el modo guerra borra tu progreso actual de guerra.
