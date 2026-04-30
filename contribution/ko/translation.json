@@ -1403,6 +1403,10 @@
 			"trans": "${amount}개의 부활 키트를 트라우마 베이 보관함에 기부했습니다."
 		},
 		"error": {
+			"cannotReviveSelf": {
+				"eng": "You cannot revive yourself through the Trauma Bay",
+				"trans": "트라우마 베이에서는 스스로를 부활시킬 수 없습니다."
+			},
 			"gangNotFound": {
 				"eng": "Your gang could not be found",
 				"trans": "귀하의 패를 찾을 수 없습니다."
@@ -1862,6 +1866,12 @@
 		}
 	},
 	"clan": {
+		"chat": {
+			"upkeepSoftReset": {
+				"eng": "Gang ranks have been reset because upkeep war points were insufficient.",
+				"trans": "전쟁 유지 포인트 부족으로 갱 랭크가 초기화되었습니다."
+			}
+		},
 		"disbandMail": {
 			"subject": {
 				"eng": "Your gang has been disbanded",
@@ -2009,9 +2019,9 @@
 			}
 		},
 		"disbandLocked": {
-			"engagementLocked": {
-				"eng": "Cannot disband while members have recently engaged in war combat",
-				"trans": "최근 전쟁 작전에 참여한 멤버가 있어 그룹을 해체할 수 없습니다."
+			"attackLocked": {
+				"eng": "Cannot disband while members have recently started war attacks",
+				"trans": "구성원이 전쟁 공격을 시작한 직후에는 해체할 수 없습니다."
 			},
 			"warActive": {
 				"eng": "Cannot disband while war mode is active. Disable war mode first.",
@@ -2019,9 +2029,9 @@
 			}
 		},
 		"disbandStatus": {
-			"engagementLocked": {
-				"eng": "Members recently engaged in war combat. Available in:",
-				"trans": "최근 전투에 참전한 대원들. 확인 가능 위치:"
+			"attackLocked": {
+				"eng": "Members recently started war attacks. Available in:",
+				"trans": "멤버들이 최근 전쟁 공격을 시작했습니다. 사용 가능까지:"
 			},
 			"title": {
 				"eng": "DISBAND LOCKED",
@@ -2144,8 +2154,8 @@
 	"clanMenuModal": {
 		"warWarning": {
 			"joinDescription": {
-				"eng": "This gang is in WAR MODE. Joining will expose you to War PvP attacks with ${hours} hours lock. Continue?",
-				"trans": "이 갱은 전쟁 모드입니다. 합류 시 전쟁 PvP 공격에 노출되며 ${hours} 시간 동안 로크됩니다. 계속?"
+				"eng": "This gang is in WAR MODE. Other gangs can attack you after you join, and starting war attacks can lock your leave or kick status for ${hours} hours. Continue?",
+				"trans": "이 갅은 현재 전쟁 모드입니다. 가입 후 다른 갅의 공격을 받을 수 있으며, 전쟁 발동 시 ${hours}시간 동안 퇴단 및 추방이 잠깁니다. 계속 진행하시겠습니까?"
 			}
 		}
 	},
@@ -2169,12 +2179,12 @@
 	},
 	"clanPlayerPopup": {
 		"disableWarParticipation": {
-			"eng": "Disable War Participation",
-			"trans": "전쟁 참여 비활성화"
+			"eng": "Disable War Attacks",
+			"trans": "전쟁 공격 비활성화"
 		},
 		"enableWarParticipation": {
-			"eng": "Enable War Participation",
-			"trans": "전쟁 참여 활성화"
+			"eng": "Enable War Attacks",
+			"trans": "전투 공격 활성화"
 		},
 		"kickPlayerButton": {
 			"eng": "kick player",
@@ -2189,12 +2199,12 @@
 			"trans": "랭크"
 		},
 		"statusActive": {
-			"eng": "ACTIVE",
-			"trans": "활성"
+			"eng": "ENABLED",
+			"trans": "활성화됨"
 		},
 		"statusInactive": {
-			"eng": "INACTIVE",
-			"trans": "비활성"
+			"eng": "DISABLED",
+			"trans": "비활성화"
 		},
 		"transferOwnership": {
 			"eng": "Transfer Ownership",
@@ -2208,9 +2218,13 @@
 			"eng": "Are you sure you want to transfer ownership of the gang to ${playerName}.\\nthis cannot be undone.",
 			"trans": "갱의 소유권을 ${playerName}에게 이전하시겠습니까?\n이는 되돌릴 수 없습니다."
 		},
+		"warPermissionHelp": {
+			"eng": "Controls whether this member can start war attacks. Disabling it does not stop other players from attacking them, and leaders can use it to prevent repeated attacks from refreshing the wartime kick lock.",
+			"trans": "이 멤버가 전쟁 공격을 시작할 수 있는지 여부를 설정합니다. 비활성화해도 다른 플레이어로부터의 공격은 차단되지 않으며, 리더는 이를 통해 반복 공격으로 인한 전쟁 중 퇴출 잠금 초기화를 방지할 수 있습니다."
+		},
 		"warStatus": {
-			"eng": "War Participation",
-			"trans": "전쟁 참여"
+			"eng": "War Attack Permission",
+			"trans": "전쟁 공격 허가"
 		},
 		"warToggleCooldown": {
 			"eng": "Cooldown: ${time}",
@@ -2504,8 +2518,8 @@
 	"clanTabNoClanContent": {
 		"warWarning": {
 			"joinDescription": {
-				"eng": "This gang is in WAR MODE. Joining will expose you to PvP attacks and 24h participation locks. Continue?",
-				"trans": "해당 갱은 전쟁 모드입니다. 합류하면 PVP 공격에 노출되며 24 시간 참여 잠금이 걸립니다. 계속?"
+				"eng": "This gang is in WAR MODE. Joining means other gangs can attack you, and starting war attacks can lock your leave or kick status for 24 hours. Continue?",
+				"trans": "이 갱은 전쟁 모드 상태입니다. 가입 시 다른 갱에게 공격당할 수 있으며, 전쟁 공격 시작 시 탈퇴 및 추방이 24시간 동안 잠금 처리됩니다. 계속하시겠습니까?"
 			}
 		}
 	},
@@ -2534,8 +2548,8 @@
 				"trans": "전쟁 모드 활성화 시 모든 갱원이 PvP 공격에 노출됩니다. 비활성화는 24 시간 동안 잠깁니다. 진행하시겠습니까?"
 			},
 			"requestDescription": {
-				"eng": "This gang is in WAR MODE. If accepted, joining will expose you to PvP attacks and 24h participation locks. Continue?",
-				"trans": "이 갱은 전쟁 모드입니다. 수락 시 합류하면 PvP 공격과 24 시간 참여 잠금에 노출됩니다. 계속 진행하시겠습니까?"
+				"eng": "This gang is in WAR MODE. If accepted, other gangs can attack you, and starting war attacks can lock your leave or kick status for 24 hours. Continue?",
+				"trans": "이 갱단은 현재 전쟁 모드입니다. 동의할 경우 다른 갱단의 공격을 받으며, 전쟁 공격 시작 시 탈퇴 및 제명 처리가 24시간 동안 잠깁니다. 계속 진행하시겠습니까?"
 			},
 			"title": {
 				"eng": "WAR MODE WARNING",
@@ -2553,17 +2567,29 @@
 			}
 		},
 		"error": {
+			"attackLockActive": {
+				"eng": "Cannot disable war mode while members have recently started war attacks. Recent attackers (time since attack): ${attackers}",
+				"trans": "구성원의 최근 공격 진행 중에는 전쟁 모드 해제를 할 수 없습니다. 최근 공격자(공격 경과 시간): ${attackers}",
+				"withMore": {
+					"eng": "Cannot disable war mode while members have recently started war attacks. Recent attackers (time since attack): ${attackers}, and ${count} more",
+					"trans": "멤버가 최근 전쟁 공격을 시작한 상태에서는战争 모드를 해제할 수 없습니다. 최근 공격자(공격 경과 시간): ${attackers}, 나머지 ${count}명"
+				}
+			},
+			"attackLockActiveBase": {
+				"eng": "Cannot disable war mode while members have recently started war attacks",
+				"trans": "멤버가 최근 공격을 시작한 상태에서는 전쟁 모드를 해제할 수 없습니다."
+			},
 			"buffAlreadyActive": {
 				"eng": "This war buff is already active",
 				"trans": "전쟁 버프가 이미 활성화되어 있습니다."
 			},
 			"cannotToggleMember": {
-				"eng": "Cannot toggle this member's participation. They may not exist or cooldown is active",
-				"trans": "해당 멤버의 참여 전환 불가. 해당 사용자가 존재하지 않거나 현재 쿨다운 상태입니다."
+				"eng": "Cannot change this member's war attack permission. They may not exist or cooldown is active",
+				"trans": "해당 멤버의 전쟁 공격 권한을 변경할 수 없습니다. 해당 멤버가 존재하지 않거나 쿨타임이 진행 중일 수 있습니다."
 			},
 			"disbandEngaged": {
-				"eng": "You cannot disband the gang while members have recently engaged in war combat",
-				"trans": "멤버들이 최근 전쟁 전투에 참여했으므로 갱을 해산할 수 없습니다."
+				"eng": "You cannot disband the gang while members have recently started war attacks",
+				"trans": "멤버들이 최근 전쟁 공격을 시작한 상태이므로 갱 해체가 불가능합니다."
 			},
 			"disbandWarActive": {
 				"eng": "You cannot disband the gang while war mode is active",
@@ -2574,16 +2600,16 @@
 				"trans": "이미 적용된 ${buffName} 버프의 등급이 더 높습니다."
 			},
 			"kickLocked": {
-				"eng": "Cannot kick a member who has recently engaged in war combat",
-				"trans": "최근 전투에 참여한 멤버는 추방할 수 없습니다."
+				"eng": "Cannot kick a member who has recently started a war attack",
+				"trans": "최근 전쟁 공격을 시작한 멤버는 추방할 수 없습니다."
 			},
 			"leaderOnly": {
 				"eng": "Only the gang leader can perform this action",
 				"trans": "오직 갱 리더만이 이 행동을 실행할 수 있습니다."
 			},
 			"leaveLocked": {
-				"eng": "You cannot leave the gang while you have recently engaged in war combat",
-				"trans": "최근 전투에 참여한 상태에서는 갱을 나가지 못합니다"
+				"eng": "You cannot leave the gang after recently starting a war attack for ${hours} hours",
+				"trans": "전쟁 공격 개시 후 ${hours}시간 동안은 갱을 탈퇴할 수 없습니다."
 			},
 			"notEnoughWarPoints": {
 				"eng": "Your gang does not have enough war points",
@@ -2600,10 +2626,6 @@
 			"warStateRequired": {
 				"eng": "Your gang must be in war state to deploy war buffs",
 				"trans": "전쟁 버프를 배포하려면 갱이 전쟁 상태여야 합니다."
-			},
-			"wip": {
-				"eng": "This feature is currently under development",
-				"trans": "이 기능은 현재 개발 중입니다."
 			}
 		},
 		"lockedFeedback": {
@@ -2620,12 +2642,12 @@
 				"trans": "당신의 갱이 ${count} 연속 킬을 달성하고 ${reward} 전쟁 점수를 획득했습니다!"
 			},
 			"participationDisabled": {
-				"eng": "You have been removed from war participation by your gang leader. Your kills will no longer count towards gang war score.",
-				"trans": "갱장님이 당신을 전쟁 참여에서 제외했습니다. 킬이 더 이상 갱전 점수에 반영되지 않습니다."
+				"eng": "Your gang leader disabled your war attack permission. You can no longer start war attacks, but other gangs can still attack you.",
+				"trans": "갱 리더가 전쟁 공격 권한을 해제했습니다. 이제 귀하는 더 이상 전쟁 공격을 시작할 수 없으나, 다른 갱은 여전히 공격해 올 수 있습니다."
 			},
 			"participationEnabled": {
-				"eng": "You have been added to war participation by your gang leader. You can now participate in gang wars.",
-				"trans": "당신의 갱 리더가 전쟁 참여자로 귀하를 등록했습니다. 이제 갱 전쟁에 참가할 수 있습니다."
+				"eng": "Your gang leader enabled your war attack permission. You can now start war attacks.",
+				"trans": "갱 리더가 당신의 전쟁 공격 권한을 부여했습니다. 이제 전쟁 공격을 시작할 수 있습니다."
 			},
 			"warStateOff": {
 				"eng": "Your gang leader has disabled war mode. Your gang is no longer a war target.",
@@ -3839,10 +3861,6 @@
 				"eng": "Public strongholds",
 				"trans": "공개된 아지트"
 			}
-		},
-		"notEnoughResources": {
-			"eng": "You do not have enough resources, you may try ${difficulty} instead, ${error}",
-			"trans": "자원이 충분하지 않습니다. 대신 ${difficulty}을(를) 시도해보세요, ${error}"
 		}
 	},
 	"dungeonUI": {
@@ -6899,9 +6917,9 @@
 			}
 		},
 		"pvpProtection": {
-			"description": {
-				"eng": "Whoever invokes the Token of Peace shall not be attacked, use this to receive ${day} day of PVP protection buff",
-				"trans": "평화의 증표를 발동 중인 자는 공격받지 않습니다. 사용하여 PVP 보호 버프를 ${day}일 동안 받을 수 있습니다"
+			"description2": {
+				"eng": "Whoever invokes the Token of Peace shall not be attacked, use this to receive ${day} day of PVP protection buff (This does not protect against gang war attacks)",
+				"trans": "평화의 증표 사용 시 공격을 받지 않으며, ${day}일 간의 PVP 방어 버프를 획득합니다. (갱전 공격에는 해당되지 않음)"
 			},
 			"name": {
 				"eng": "Token of Peace",
@@ -11088,8 +11106,8 @@
 		},
 		"warWarning": {
 			"joinDescription": {
-				"eng": "This gang is in WAR MODE. Joining will expose you to war PvP attacks for ${hours} hours lock. Continue?",
-				"trans": "이 갱은 전쟁 모드입니다. 참여 시 ${hours}시간 동안 전쟁 PvP 공격에 노출되며 해당 기간 강제 고정됩니다. 계속 진행하시겠습니까?"
+				"eng": "This gang is in WAR MODE. Other gangs can attack you after you join, and starting war attacks can lock your leave or kick status for ${hours} hours. Continue?",
+				"trans": "이 갱은 현재 전쟁 모드입니다. 가입 후 다른 갱에게 공격받을 수 있으며, 전쟁 공격 발동 시 탈퇴 및 추방이 ${hours}시간 동안 잠깁니다. 계속하시겠습니까?"
 			}
 		}
 	},
@@ -12030,6 +12048,14 @@
 		}
 	},
 	"permission": {
+		"clanDeployWarBuff": {
+			"eng": "Deploy Gang War Buffs",
+			"noPermission": {
+				"eng": "You do not have permission to deploy gang war buffs",
+				"trans": "갱 전쟁 버프 사용 권한이 없습니다."
+			},
+			"trans": "갱전 버프 발동"
+		},
 		"clanEditMotto": {
 			"eng": "Edit Motto",
 			"noPermission": {
@@ -13572,8 +13598,8 @@
 				"trans": "이 플레이어는 이미 체포되었습니다."
 			},
 			"warLevelTooDiff": {
-				"eng": "You are too high level to attack this player",
-				"trans": "당신의 레벨이 너무 높아 이 플레이어를 공격할 수 없습니다."
+				"eng": "You cannot engage a war target that is more than ${levelDiff} levels higher or below you",
+				"trans": "자신보다 레벨이 ${levelDiff} 이상 차이나는 대상은 공격할 수 없습니다."
 			}
 		},
 		"combatLog": {
@@ -15561,6 +15587,10 @@
 			"trans": "부활 키트 기부"
 		},
 		"error": {
+			"cannotReviveSelf": {
+				"eng": "You cannot revive yourself through the Trauma Bay.",
+				"trans": "트라우마 베이를 통해 스스로를 부활시킬 수 없습니다."
+			},
 			"noPermission": {
 				"eng": "You do not have permission to revive members.",
 				"trans": "팀원을 부활시킬 권한이 없습니다."
@@ -16366,10 +16396,6 @@
 			"higherTierAlreadyActive": {
 				"eng": "A higher-tier ${buffName} buff is already active",
 				"trans": "이미 적용된 ${buffName} 버프의 등급이 더 높습니다."
-			},
-			"leaderOnly": {
-				"eng": "Only the gang leader can deploy war buffs",
-				"trans": "갱장만이 전쟁 버프를 배치할 수 있습니다."
 			},
 			"notEnoughWarPoints": {
 				"eng": "Your gang does not have enough war points",

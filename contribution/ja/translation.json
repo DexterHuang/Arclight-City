@@ -1403,6 +1403,10 @@
 			"trans": "${amount}個の蘇生キットをトラウマベイ保管庫に寄付しました"
 		},
 		"error": {
+			"cannotReviveSelf": {
+				"eng": "You cannot revive yourself through the Trauma Bay",
+				"trans": "トラウマベイでの自己蘇生はできません。"
+			},
 			"gangNotFound": {
 				"eng": "Your gang could not be found",
 				"trans": "ギャングが見つかりませんでした"
@@ -1862,6 +1866,12 @@
 		}
 	},
 	"clan": {
+		"chat": {
+			"upkeepSoftReset": {
+				"eng": "Gang ranks have been reset because upkeep war points were insufficient.",
+				"trans": "ギャングランクは、維持用ワーポイントが不足したためリセットされました。"
+			}
+		},
 		"disbandMail": {
 			"subject": {
 				"eng": "Your gang has been disbanded",
@@ -2009,9 +2019,9 @@
 			}
 		},
 		"disbandLocked": {
-			"engagementLocked": {
-				"eng": "Cannot disband while members have recently engaged in war combat",
-				"trans": "メンバーが直近で戦闘に参加している間は解散できません"
+			"attackLocked": {
+				"eng": "Cannot disband while members have recently started war attacks",
+				"trans": "直近にメンバーが戦争攻撃を開始した際は解散不可です"
 			},
 			"warActive": {
 				"eng": "Cannot disband while war mode is active. Disable war mode first.",
@@ -2019,9 +2029,9 @@
 			}
 		},
 		"disbandStatus": {
-			"engagementLocked": {
-				"eng": "Members recently engaged in war combat. Available in:",
-				"trans": "最近戦闘に参加したメンバー。利用先："
+			"attackLocked": {
+				"eng": "Members recently started war attacks. Available in:",
+				"trans": "メンバーが攻撃を開始しました。利用可能まで："
 			},
 			"title": {
 				"eng": "DISBAND LOCKED",
@@ -2144,8 +2154,8 @@
 	"clanMenuModal": {
 		"warWarning": {
 			"joinDescription": {
-				"eng": "This gang is in WAR MODE. Joining will expose you to War PvP attacks with ${hours} hours lock. Continue?",
-				"trans": "このギャングは WAR MODE です。参加すると、${hours}時間のロック状態で WAR PvP 攻撃に晒されます。続ける？"
+				"eng": "This gang is in WAR MODE. Other gangs can attack you after you join, and starting war attacks can lock your leave or kick status for ${hours} hours. Continue?",
+				"trans": "このギャングはWARモード中です。加入後、他のギャングからの攻撃を受ける可能性があります。また、戦闘開始後は${hours}時間の間、脱退・追放がロックされます。続行しますか？"
 			}
 		}
 	},
@@ -2169,12 +2179,12 @@
 	},
 	"clanPlayerPopup": {
 		"disableWarParticipation": {
-			"eng": "Disable War Participation",
-			"trans": "戦争参加を無効化"
+			"eng": "Disable War Attacks",
+			"trans": "ウォア攻撃無効化"
 		},
 		"enableWarParticipation": {
-			"eng": "Enable War Participation",
-			"trans": "参戦の有効化"
+			"eng": "Enable War Attacks",
+			"trans": "軍事攻撃の有効化"
 		},
 		"kickPlayerButton": {
 			"eng": "kick player",
@@ -2189,12 +2199,12 @@
 			"trans": "ランク"
 		},
 		"statusActive": {
-			"eng": "ACTIVE",
-			"trans": "アクティブ"
+			"eng": "ENABLED",
+			"trans": "有効"
 		},
 		"statusInactive": {
-			"eng": "INACTIVE",
-			"trans": "非アクティブ"
+			"eng": "DISABLED",
+			"trans": "無効"
 		},
 		"transferOwnership": {
 			"eng": "Transfer Ownership",
@@ -2208,9 +2218,13 @@
 			"eng": "Are you sure you want to transfer ownership of the gang to ${playerName}.\\nthis cannot be undone.",
 			"trans": "ギャングの所有権を${playerName}に譲渡してもよろしいですか？この操作は元に戻せません。"
 		},
+		"warPermissionHelp": {
+			"eng": "Controls whether this member can start war attacks. Disabling it does not stop other players from attacking them, and leaders can use it to prevent repeated attacks from refreshing the wartime kick lock.",
+			"trans": "このメンバーが戦攻撃を開始できるかどうかを設定します。無効化しても他のプレイヤーからの攻撃を防ぐものではありません。リーダーはこの設定を使用して、連続攻撃による戦時中キックロックの更新を防止できます。"
+		},
 		"warStatus": {
-			"eng": "War Participation",
-			"trans": "戦闘参加"
+			"eng": "War Attack Permission",
+			"trans": "攻撃許可"
 		},
 		"warToggleCooldown": {
 			"eng": "Cooldown: ${time}",
@@ -2504,8 +2518,8 @@
 	"clanTabNoClanContent": {
 		"warWarning": {
 			"joinDescription": {
-				"eng": "This gang is in WAR MODE. Joining will expose you to PvP attacks and 24h participation locks. Continue?",
-				"trans": "このギャングは戦闘モード中です。加入すると PvP 攻撃に晒され、24時間の参加ロックがかかります。続行しますか？"
+				"eng": "This gang is in WAR MODE. Joining means other gangs can attack you, and starting war attacks can lock your leave or kick status for 24 hours. Continue?",
+				"trans": "このギャングは現在戦争モード中です。加入すると他ギャングから攻撃を受ける可能性があります。また、戦争攻撃を開始した場合、脱退・追放処理が24時間ロックされます。続行しますか？"
 			}
 		}
 	},
@@ -2534,8 +2548,8 @@
 				"trans": "WAR MODEを有効にすると、すべてのギャングメンバーがPvP攻撃の対象となります。無効にすると24時間ロックされます。続行しますか？"
 			},
 			"requestDescription": {
-				"eng": "This gang is in WAR MODE. If accepted, joining will expose you to PvP attacks and 24h participation locks. Continue?",
-				"trans": "このギャングはウォーモード中です。合意して加入すると、PvP 攻撃の標的となり、24時間の参加ロックがかかります。続行しますか？"
+				"eng": "This gang is in WAR MODE. If accepted, other gangs can attack you, and starting war attacks can lock your leave or kick status for 24 hours. Continue?",
+				"trans": "このギャングは戦争モード中です。有効化すると他のギャングから攻撃を受け、戦闘開始後は24時間脱退および追放が凍結されます。続行しますか？"
 			},
 			"title": {
 				"eng": "WAR MODE WARNING",
@@ -2553,17 +2567,29 @@
 			}
 		},
 		"error": {
+			"attackLockActive": {
+				"eng": "Cannot disable war mode while members have recently started war attacks. Recent attackers (time since attack): ${attackers}",
+				"trans": "直近でメンバーがウォア攻撃を行っている間は、ウォアモードを解除できません。直近の攻撃者（攻撃からの経過時間）：${attackers}",
+				"withMore": {
+					"eng": "Cannot disable war mode while members have recently started war attacks. Recent attackers (time since attack): ${attackers}, and ${count} more",
+					"trans": "メンバーが直近に攻撃を開始しているため、ウォーモードを解除できません。最近の攻撃者（経過時間）：${attackers}、他${count}名"
+				}
+			},
+			"attackLockActiveBase": {
+				"eng": "Cannot disable war mode while members have recently started war attacks",
+				"trans": "メンバーが直近で戦争攻撃を開始している間は、ウォーモードを解除できません。"
+			},
 			"buffAlreadyActive": {
 				"eng": "This war buff is already active",
 				"trans": "戦争バフは既に有効です"
 			},
 			"cannotToggleMember": {
-				"eng": "Cannot toggle this member's participation. They may not exist or cooldown is active",
-				"trans": "このメンバーの参加切り替えはできません。存在しないか、クールダウン中です。"
+				"eng": "Cannot change this member's war attack permission. They may not exist or cooldown is active",
+				"trans": "このメンバーの攻撃権限を変更できません。該当メンバーが存在しないか、クールダウン中です。"
 			},
 			"disbandEngaged": {
-				"eng": "You cannot disband the gang while members have recently engaged in war combat",
-				"trans": "メンバーが直近で戦闘に参加している間は、ギャングを解散できません。"
+				"eng": "You cannot disband the gang while members have recently started war attacks",
+				"trans": "直近にメンバーが戦争攻撃を開始しているため、ギャングの解散はできません。"
 			},
 			"disbandWarActive": {
 				"eng": "You cannot disband the gang while war mode is active",
@@ -2574,16 +2600,16 @@
 				"trans": "上位の${buffName}バフがすでに発動中です"
 			},
 			"kickLocked": {
-				"eng": "Cannot kick a member who has recently engaged in war combat",
-				"trans": "最近、戦闘に参加したメンバーをキックすることはできません。"
+				"eng": "Cannot kick a member who has recently started a war attack",
+				"trans": "攻撃を開始したばかりのメンバーは追放できません"
 			},
 			"leaderOnly": {
 				"eng": "Only the gang leader can perform this action",
 				"trans": "このアクションを実行できるのはギャングリーダーだけです"
 			},
 			"leaveLocked": {
-				"eng": "You cannot leave the gang while you have recently engaged in war combat",
-				"trans": "直近の戦闘に参加している間は、ギャングを離れることはできません。"
+				"eng": "You cannot leave the gang after recently starting a war attack for ${hours} hours",
+				"trans": "戦争攻撃を開始してから${hours}時間中は、ギャングを離脱できません"
 			},
 			"notEnoughWarPoints": {
 				"eng": "Your gang does not have enough war points",
@@ -2600,10 +2626,6 @@
 			"warStateRequired": {
 				"eng": "Your gang must be in war state to deploy war buffs",
 				"trans": "ウォーバフを展開するには、ギャングが戦争状態である必要があります"
-			},
-			"wip": {
-				"eng": "This feature is currently under development",
-				"trans": "この機能は現在開発中です"
 			}
 		},
 		"lockedFeedback": {
@@ -2620,12 +2642,12 @@
 				"trans": "あなたのギャングは${count}キルストリークを達成し、${reward}の戦闘スコアを獲得しました！"
 			},
 			"participationDisabled": {
-				"eng": "You have been removed from war participation by your gang leader. Your kills will no longer count towards gang war score.",
-				"trans": "ギャンクリーダーにより、戦争参加から除外されました。以降のキルは、ギャング戦争スコアにカウントされません。"
+				"eng": "Your gang leader disabled your war attack permission. You can no longer start war attacks, but other gangs can still attack you.",
+				"trans": "ギャング長があなたの襲撃権限を無効化しました。今後は襲撃を開始できなくなりますが、他のギャングからは引き続き攻撃を受けます。"
 			},
 			"participationEnabled": {
-				"eng": "You have been added to war participation by your gang leader. You can now participate in gang wars.",
-				"trans": "あなたのギャングリーダーによって、戦争への参加が許可されました。今から、ギャングWARに参加可能です。"
+				"eng": "Your gang leader enabled your war attack permission. You can now start war attacks.",
+				"trans": "ギャングリーダーがあなたの攻撃権限を有効化しました。これで戦争攻撃を開始できます。"
 			},
 			"warStateOff": {
 				"eng": "Your gang leader has disabled war mode. Your gang is no longer a war target.",
@@ -3839,10 +3861,6 @@
 				"eng": "Public strongholds",
 				"trans": "パブリックの要塞"
 			}
-		},
-		"notEnoughResources": {
-			"eng": "You do not have enough resources, you may try ${difficulty} instead, ${error}",
-			"trans": "リソースが足りません。代わりに${difficulty}を試してみてください。${error}"
 		}
 	},
 	"dungeonUI": {
@@ -6899,9 +6917,9 @@
 			}
 		},
 		"pvpProtection": {
-			"description": {
-				"eng": "Whoever invokes the Token of Peace shall not be attacked, use this to receive ${day} day of PVP protection buff",
-				"trans": "平和の証を発動した者は攻撃されません。${day}日間のPVP保護バフを受けることができます。"
+			"description2": {
+				"eng": "Whoever invokes the Token of Peace shall not be attacked, use this to receive ${day} day of PVP protection buff (This does not protect against gang war attacks)",
+				"trans": "「平和の証」を使用し、${day}日間のPvP保護バフを取得すると他のプレイヤーからの攻撃を受けなくなります。（ギャング戦での攻撃には効果ありません）"
 			},
 			"name": {
 				"eng": "Token of Peace",
@@ -11088,8 +11106,8 @@
 		},
 		"warWarning": {
 			"joinDescription": {
-				"eng": "This gang is in WAR MODE. Joining will expose you to war PvP attacks for ${hours} hours lock. Continue?",
-				"trans": "このギャングは戦争モードです。加入すると敵対プレイヤーの PvP 攻撃に晒され、${hours}時間のロック状態となります。続行しますか？"
+				"eng": "This gang is in WAR MODE. Other gangs can attack you after you join, and starting war attacks can lock your leave or kick status for ${hours} hours. Continue?",
+				"trans": "このギャングはWARモード中です。加入後、他のギャングからの攻撃を受ける可能性があります。また、戦闘開始後は${hours}時間の間、脱退・追放がロックされます。続行しますか？"
 			}
 		}
 	},
@@ -12030,6 +12048,14 @@
 		}
 	},
 	"permission": {
+		"clanDeployWarBuff": {
+			"eng": "Deploy Gang War Buffs",
+			"noPermission": {
+				"eng": "You do not have permission to deploy gang war buffs",
+				"trans": "ギャング戦バフを使用する権限がありません"
+			},
+			"trans": "ギャング戦バフ展開"
+		},
 		"clanEditMotto": {
 			"eng": "Edit Motto",
 			"noPermission": {
@@ -13572,8 +13598,8 @@
 				"trans": "プレイヤーはすでに捕まった"
 			},
 			"warLevelTooDiff": {
-				"eng": "You are too high level to attack this player",
-				"trans": "あなたのレベルが高すぎてこのプレイヤーを攻撃できません。"
+				"eng": "You cannot engage a war target that is more than ${levelDiff} levels higher or below you",
+				"trans": "レベル差が${levelDiff}を超えるウォア標的には交戦できません"
 			}
 		},
 		"combatLog": {
@@ -15561,6 +15587,10 @@
 			"trans": "蘇生キットを寄付"
 		},
 		"error": {
+			"cannotReviveSelf": {
+				"eng": "You cannot revive yourself through the Trauma Bay.",
+				"trans": "トラウマベイでは自分自身を蘇生できません。"
+			},
 			"noPermission": {
 				"eng": "You do not have permission to revive members.",
 				"trans": "メンバーを蘇生する権限がありません。"
@@ -16366,10 +16396,6 @@
 			"higherTierAlreadyActive": {
 				"eng": "A higher-tier ${buffName} buff is already active",
 				"trans": "上位の${buffName}バフがすでに発動中です"
-			},
-			"leaderOnly": {
-				"eng": "Only the gang leader can deploy war buffs",
-				"trans": "ギャングリーダーのみが戦闘バフを展開できます"
 			},
 			"notEnoughWarPoints": {
 				"eng": "Your gang does not have enough war points",

@@ -1403,6 +1403,10 @@
 			"trans": "Daroval ${amount} oživovacích sad do skladu v Trauma Bay"
 		},
 		"error": {
+			"cannotReviveSelf": {
+				"eng": "You cannot revive yourself through the Trauma Bay",
+				"trans": "Nemůžete se oživit pomocí traumové stanice."
+			},
 			"gangNotFound": {
 				"eng": "Your gang could not be found",
 				"trans": "Váš gang nebyl nalezen"
@@ -1862,6 +1866,12 @@
 		}
 	},
 	"clan": {
+		"chat": {
+			"upkeepSoftReset": {
+				"eng": "Gang ranks have been reset because upkeep war points were insufficient.",
+				"trans": "Gangové hodnosti byly resetovány kvůli nedostatku bodů na udržení války."
+			}
+		},
 		"disbandMail": {
 			"subject": {
 				"eng": "Your gang has been disbanded",
@@ -2009,9 +2019,9 @@
 			}
 		},
 		"disbandLocked": {
-			"engagementLocked": {
-				"eng": "Cannot disband while members have recently engaged in war combat",
-				"trans": "Nelze rozpustit, pokud se členové nedávno zapojili do boje."
+			"attackLocked": {
+				"eng": "Cannot disband while members have recently started war attacks",
+				"trans": "Nelze rozpustit, pokud členové nedávno zahájili válečné útoky."
 			},
 			"warActive": {
 				"eng": "Cannot disband while war mode is active. Disable war mode first.",
@@ -2019,9 +2029,9 @@
 			}
 		},
 		"disbandStatus": {
-			"engagementLocked": {
-				"eng": "Members recently engaged in war combat. Available in:",
-				"trans": "Členové se nedávno zapojili do boje ve válce. Dostupné v:"
+			"attackLocked": {
+				"eng": "Members recently started war attacks. Available in:",
+				"trans": "Členové právě zahájili válečné útoky. Dostupné za:"
 			},
 			"title": {
 				"eng": "DISBAND LOCKED",
@@ -2144,8 +2154,8 @@
 	"clanMenuModal": {
 		"warWarning": {
 			"joinDescription": {
-				"eng": "This gang is in WAR MODE. Joining will expose you to War PvP attacks with ${hours} hours lock. Continue?",
-				"trans": "Tento gang je ve válečném režimu. Přidání vás vystaví útokům PvP se ${hours}-hodinovým uzamčením. Pokračovat?"
+				"eng": "This gang is in WAR MODE. Other gangs can attack you after you join, and starting war attacks can lock your leave or kick status for ${hours} hours. Continue?",
+				"trans": "Tento gang je ve válečném režimu. Po přistoupení vás mohou napadnout jiné ganky a zahájení válečných útoků zablokuje možnost opustit gang nebo být vyhozen po dobu ${hours} hodin. Pokračovat?"
 			}
 		}
 	},
@@ -2169,12 +2179,12 @@
 	},
 	"clanPlayerPopup": {
 		"disableWarParticipation": {
-			"eng": "Disable War Participation",
-			"trans": "Zakázat účast ve válce"
+			"eng": "Disable War Attacks",
+			"trans": "Deaktivovat válečné útoky"
 		},
 		"enableWarParticipation": {
-			"eng": "Enable War Participation",
-			"trans": "Povolit účast ve válce"
+			"eng": "Enable War Attacks",
+			"trans": "Povolit válečné útoky"
 		},
 		"kickPlayerButton": {
 			"eng": "kick player",
@@ -2189,12 +2199,12 @@
 			"trans": "Hodnost"
 		},
 		"statusActive": {
-			"eng": "ACTIVE",
-			"trans": "aktivní"
+			"eng": "ENABLED",
+			"trans": "ZAPNUTO"
 		},
 		"statusInactive": {
-			"eng": "INACTIVE",
-			"trans": "NEAKTIVNÍ"
+			"eng": "DISABLED",
+			"trans": "VYPNUTO"
 		},
 		"transferOwnership": {
 			"eng": "Transfer Ownership",
@@ -2208,9 +2218,13 @@
 			"eng": "Are you sure you want to transfer ownership of the gang to ${playerName}.\\nthis cannot be undone.",
 			"trans": "Opravdu chcete převést vlastnictví gangu na ${playerName}?\nTuto akci nelze vrátit."
 		},
+		"warPermissionHelp": {
+			"eng": "Controls whether this member can start war attacks. Disabling it does not stop other players from attacking them, and leaders can use it to prevent repeated attacks from refreshing the wartime kick lock.",
+			"trans": "Řídí, zda může tento člen zahajovat válečné útoky. Zakázání této možnosti je neochrání před útoky ostatních hráčů a vedoucí ji mohou využít k tomu, aby opakované útoky neobnovovaly válečný zámek pro vyhození."
+		},
 		"warStatus": {
-			"eng": "War Participation",
-			"trans": "Účast ve válce"
+			"eng": "War Attack Permission",
+			"trans": "Oprávnění k válečnému útoku"
 		},
 		"warToggleCooldown": {
 			"eng": "Cooldown: ${time}",
@@ -2504,8 +2518,8 @@
 	"clanTabNoClanContent": {
 		"warWarning": {
 			"joinDescription": {
-				"eng": "This gang is in WAR MODE. Joining will expose you to PvP attacks and 24h participation locks. Continue?",
-				"trans": "Tento gang je v reżimu Válka. Připojením se vystavíte útokům PvP a zámku účasti na 24 hodin. Pokračovat?"
+				"eng": "This gang is in WAR MODE. Joining means other gangs can attack you, and starting war attacks can lock your leave or kick status for 24 hours. Continue?",
+				"trans": "Tento gang je ve válečném režimu. Přistoupení znamená, že vás mohou napadnout ostatní gangu. Zahájení válečných útoků může na 24 hodin uzamknout možnost opustit gang nebo být z něj vyhozen. Pokračovat?"
 			}
 		}
 	},
@@ -2534,8 +2548,8 @@
 				"trans": "Aktivací Režimu války se všichni členové vašeho gangu vystaví PvP útokům. Zrušení bude zablokováno na 24 hodin. Pokračovat?"
 			},
 			"requestDescription": {
-				"eng": "This gang is in WAR MODE. If accepted, joining will expose you to PvP attacks and 24h participation locks. Continue?",
-				"trans": "Tento gang je v režimu války. Přijetím se vystavíte PvP útokům a uzamčení účasti po dobu 24 h. Pokračovat?"
+				"eng": "This gang is in WAR MODE. If accepted, other gangs can attack you, and starting war attacks can lock your leave or kick status for 24 hours. Continue?",
+				"trans": "Tento gang je ve válečném režimu. Pokud souhlasíte, ostatní gangy vás mohou napadnout a zahájení války vám na 24 hodin zablokuje možnost opustit skupinu nebo být z ní vyhozen. Pokračovat?"
 			},
 			"title": {
 				"eng": "WAR MODE WARNING",
@@ -2553,17 +2567,29 @@
 			}
 		},
 		"error": {
+			"attackLockActive": {
+				"eng": "Cannot disable war mode while members have recently started war attacks. Recent attackers (time since attack): ${attackers}",
+				"trans": "Nelze vypnout režim války, dokud členové nedávno zahájili válečné útoky. Nedávní útočníci (čas od útoku): ${attackers}",
+				"withMore": {
+					"eng": "Cannot disable war mode while members have recently started war attacks. Recent attackers (time since attack): ${attackers}, and ${count} more",
+					"trans": "Nelze vypnout válečný režim, pokud členové nedávno zahájili válečné útoky. Nedávní útočníci (čas od útoku): ${attackers}, a dalších ${count}"
+				}
+			},
+			"attackLockActiveBase": {
+				"eng": "Cannot disable war mode while members have recently started war attacks",
+				"trans": "Režim války nelze vypnout, pokud členové právě zahájili válečné útoky."
+			},
 			"buffAlreadyActive": {
 				"eng": "This war buff is already active",
 				"trans": "Tento válečný buff je již aktivní"
 			},
 			"cannotToggleMember": {
-				"eng": "Cannot toggle this member's participation. They may not exist or cooldown is active",
-				"trans": "Nelze přepnout účast tohoto člena. Může neexistovat, nebo je aktivní cooldown."
+				"eng": "Cannot change this member's war attack permission. They may not exist or cooldown is active",
+				"trans": "Nelze změnit oprávnění tohoto člena pro útoky ve válce. Člen nemusí existovat nebo je aktivní cooldown."
 			},
 			"disbandEngaged": {
-				"eng": "You cannot disband the gang while members have recently engaged in war combat",
-				"trans": "Nelze rozpustit gang, když se jeho členové nedávno zapojili do bojů."
+				"eng": "You cannot disband the gang while members have recently started war attacks",
+				"trans": "Partu nelze rozpustit, pokud členové právě zahájili válečné útoky."
 			},
 			"disbandWarActive": {
 				"eng": "You cannot disband the gang while war mode is active",
@@ -2574,16 +2600,16 @@
 				"trans": "Vyšší úroveň ${buffName} bounfu je již aktivní"
 			},
 			"kickLocked": {
-				"eng": "Cannot kick a member who has recently engaged in war combat",
-				"trans": "Nelze vyloučit člena, který nedávno vstoupil do boje."
+				"eng": "Cannot kick a member who has recently started a war attack",
+				"trans": "Nelze vykopat člena, který právě zahájil válečný útok."
 			},
 			"leaderOnly": {
 				"eng": "Only the gang leader can perform this action",
 				"trans": "Pouze vedoucí gangu může tuto akci provést."
 			},
 			"leaveLocked": {
-				"eng": "You cannot leave the gang while you have recently engaged in war combat",
-				"trans": "Nelze odejít z bandy, když jsi v poslední době bojoval."
+				"eng": "You cannot leave the gang after recently starting a war attack for ${hours} hours",
+				"trans": "Po zahájení válečného útoku nemůžete gangu opustit po dobu ${hours} hodin."
 			},
 			"notEnoughWarPoints": {
 				"eng": "Your gang does not have enough war points",
@@ -2600,10 +2626,6 @@
 			"warStateRequired": {
 				"eng": "Your gang must be in war state to deploy war buffs",
 				"trans": "Váš gang musí být v bojovém stavu, aby mohl nasadit bojové bonusy."
-			},
-			"wip": {
-				"eng": "This feature is currently under development",
-				"trans": "Tato funkce je momentálně ve vývoji."
 			}
 		},
 		"lockedFeedback": {
@@ -2620,12 +2642,12 @@
 				"trans": "Váš gang dosáhl série zabití ${count} a získal ${reward} bodů válečného skóre!"
 			},
 			"participationDisabled": {
-				"eng": "You have been removed from war participation by your gang leader. Your kills will no longer count towards gang war score.",
-				"trans": "Byl jsi vyřazen ze současti války pod vedením svého gangového lídra. Všechna tvá zabití už nepočítají do skóre gangové války."
+				"eng": "Your gang leader disabled your war attack permission. You can no longer start war attacks, but other gangs can still attack you.",
+				"trans": "Vedoucí gangu ti zrušil povolení pro útoky ve válce. Již nemůžeš zahajovat vlastní útoky, ale jiné gangy tě mohou stále napadnout."
 			},
 			"participationEnabled": {
-				"eng": "You have been added to war participation by your gang leader. You can now participate in gang wars.",
-				"trans": "Váš gangový vůdce vás přidal do války. Můžete se nyní zúčastnit gangových válek."
+				"eng": "Your gang leader enabled your war attack permission. You can now start war attacks.",
+				"trans": "Lídr tvého gangu povolit oprávnění k válečným útokům. Nyní můžeš zahajovat válečné útoky."
 			},
 			"warStateOff": {
 				"eng": "Your gang leader has disabled war mode. Your gang is no longer a war target.",
@@ -3839,10 +3861,6 @@
 				"eng": "Public strongholds",
 				"trans": "Veřejné pevnosti"
 			}
-		},
-		"notEnoughResources": {
-			"eng": "You do not have enough resources, you may try ${difficulty} instead, ${error}",
-			"trans": "Nemáš dostatek prostředků, můžeš místo toho zkusit ${difficulty}, ${error}"
 		}
 	},
 	"dungeonUI": {
@@ -6899,9 +6917,9 @@
 			}
 		},
 		"pvpProtection": {
-			"description": {
-				"eng": "Whoever invokes the Token of Peace shall not be attacked, use this to receive ${day} day of PVP protection buff",
-				"trans": "Kdokoliv vyvolá Mírový žeton nebude útočen, použijte jej k získání ${day} dnů ochrany proti PvP."
+			"description2": {
+				"eng": "Whoever invokes the Token of Peace shall not be attacked, use this to receive ${day} day of PVP protection buff (This does not protect against gang war attacks)",
+				"trans": "Ten, kdo aktivuje Mírový žeton, je chráněn před útoky. Aktivací získáte ochranný buff proti HvH na ${day} dní (nechrání před útoky z válek gangů)."
 			},
 			"name": {
 				"eng": "Token of Peace",
@@ -11088,8 +11106,8 @@
 		},
 		"warWarning": {
 			"joinDescription": {
-				"eng": "This gang is in WAR MODE. Joining will expose you to war PvP attacks for ${hours} hours lock. Continue?",
-				"trans": "Tento gang je ve válečném režimu. Připojením se vystavíte útokům PvP po dobu ${hours} hodin s uzamčením. Pokračovat?"
+				"eng": "This gang is in WAR MODE. Other gangs can attack you after you join, and starting war attacks can lock your leave or kick status for ${hours} hours. Continue?",
+				"trans": "Tento gang je ve válečném režimu. Po přistoupení vás mohou napadnout jiné ganky a zahájení válečných útoků zablokuje možnost opustit gang nebo být vyhozen po dobu ${hours} hodin. Pokračovat?"
 			}
 		}
 	},
@@ -12030,6 +12048,14 @@
 		}
 	},
 	"permission": {
+		"clanDeployWarBuff": {
+			"eng": "Deploy Gang War Buffs",
+			"noPermission": {
+				"eng": "You do not have permission to deploy gang war buffs",
+				"trans": "Nemáte oprávnění aktivovat buffy pro války gangů"
+			},
+			"trans": "Aktivovat buffy války gangů"
+		},
 		"clanEditMotto": {
 			"eng": "Edit Motto",
 			"noPermission": {
@@ -13572,8 +13598,8 @@
 				"trans": "Hráč již byl zatčen."
 			},
 			"warLevelTooDiff": {
-				"eng": "You are too high level to attack this player",
-				"trans": "Máte příliš vysokou úroveň k útoku na tohoto hráče."
+				"eng": "You cannot engage a war target that is more than ${levelDiff} levels higher or below you",
+				"trans": "Nemůžeš napadnout válečný cíl, který je o více než ${levelDiff} úrovní výše nebo níže než ty."
 			}
 		},
 		"combatLog": {
@@ -15561,6 +15587,10 @@
 			"trans": "Darovat oživovací sady"
 		},
 		"error": {
+			"cannotReviveSelf": {
+				"eng": "You cannot revive yourself through the Trauma Bay.",
+				"trans": "Nemůžete se prostřednictvím Traumacentra sám oživit."
+			},
 			"noPermission": {
 				"eng": "You do not have permission to revive members.",
 				"trans": "Nemáte oprávnění k oživení členů týmu."
@@ -16366,10 +16396,6 @@
 			"higherTierAlreadyActive": {
 				"eng": "A higher-tier ${buffName} buff is already active",
 				"trans": "Vyšší úroveň ${buffName} bounfu je již aktivní"
-			},
-			"leaderOnly": {
-				"eng": "Only the gang leader can deploy war buffs",
-				"trans": "Pouze vedoucí gangu může nasadit bojové buffy."
 			},
 			"notEnoughWarPoints": {
 				"eng": "Your gang does not have enough war points",

@@ -1403,6 +1403,10 @@
 			"trans": "將 ${amount} 個復活包捐贈至創傷庫房"
 		},
 		"error": {
+			"cannotReviveSelf": {
+				"eng": "You cannot revive yourself through the Trauma Bay",
+				"trans": "無法透過創傷急救室自行復活。"
+			},
 			"gangNotFound": {
 				"eng": "Your gang could not be found",
 				"trans": "找不到您的幫派"
@@ -1862,6 +1866,12 @@
 		}
 	},
 	"clan": {
+		"chat": {
+			"upkeepSoftReset": {
+				"eng": "Gang ranks have been reset because upkeep war points were insufficient.",
+				"trans": "因維持戰點不足，幫派等級已重置。"
+			}
+		},
 		"disbandMail": {
 			"subject": {
 				"eng": "Your gang has been disbanded",
@@ -2009,9 +2019,9 @@
 			}
 		},
 		"disbandLocked": {
-			"engagementLocked": {
-				"eng": "Cannot disband while members have recently engaged in war combat",
-				"trans": "當成員近期參與過戰爭戰鬥時，無法解散"
+			"attackLocked": {
+				"eng": "Cannot disband while members have recently started war attacks",
+				"trans": "有成員近期已發起戰爭攻擊，目前無法解散"
 			},
 			"warActive": {
 				"eng": "Cannot disband while war mode is active. Disable war mode first.",
@@ -2019,9 +2029,9 @@
 			}
 		},
 		"disbandStatus": {
-			"engagementLocked": {
-				"eng": "Members recently engaged in war combat. Available in:",
-				"trans": "近期投入實戰的成員。可用於："
+			"attackLocked": {
+				"eng": "Members recently started war attacks. Available in:",
+				"trans": "成員已發起戰爭攻勢。開放時間："
 			},
 			"title": {
 				"eng": "DISBAND LOCKED",
@@ -2144,8 +2154,8 @@
 	"clanMenuModal": {
 		"warWarning": {
 			"joinDescription": {
-				"eng": "This gang is in WAR MODE. Joining will expose you to War PvP attacks with ${hours} hours lock. Continue?",
-				"trans": "此幫派處於戰爭模式。加入將使你面臨戰爭 PVP 攻擊，並有${hours}小時的鎖定限制。確定繼續？"
+				"eng": "This gang is in WAR MODE. Other gangs can attack you after you join, and starting war attacks can lock your leave or kick status for ${hours} hours. Continue?",
+				"trans": "該幫派已進入戰爭模式。加入後其他幫派可隨時攻擊你，且發起戰攻將鎖定你的離隊或被踢出狀態達${hours}小時。是否繼續？"
 			}
 		}
 	},
@@ -2169,12 +2179,12 @@
 	},
 	"clanPlayerPopup": {
 		"disableWarParticipation": {
-			"eng": "Disable War Participation",
-			"trans": "停止參與戰爭"
+			"eng": "Disable War Attacks",
+			"trans": "停用戰爭攻擊"
 		},
 		"enableWarParticipation": {
-			"eng": "Enable War Participation",
-			"trans": "啟用戰爭參與"
+			"eng": "Enable War Attacks",
+			"trans": "啟用戰爭攻擊"
 		},
 		"kickPlayerButton": {
 			"eng": "kick player",
@@ -2189,12 +2199,12 @@
 			"trans": "排名"
 		},
 		"statusActive": {
-			"eng": "ACTIVE",
-			"trans": "生效中"
+			"eng": "ENABLED",
+			"trans": "已啟用"
 		},
 		"statusInactive": {
-			"eng": "INACTIVE",
-			"trans": "非活躍"
+			"eng": "DISABLED",
+			"trans": "停用"
 		},
 		"transferOwnership": {
 			"eng": "Transfer Ownership",
@@ -2208,9 +2218,13 @@
 			"eng": "Are you sure you want to transfer ownership of the gang to ${playerName}.\\nthis cannot be undone.",
 			"trans": "您確定要將幫派所有權轉移給${playerName}嗎？\n此操作不可逆轉。"
 		},
+		"warPermissionHelp": {
+			"eng": "Controls whether this member can start war attacks. Disabling it does not stop other players from attacking them, and leaders can use it to prevent repeated attacks from refreshing the wartime kick lock.",
+			"trans": "控制該成員能否發起戰爭攻擊。停用此設定不會阻止其他玩家攻擊該成員，領袖可藉此避免反覆攻擊重置戰時踢除鎖定。"
+		},
 		"warStatus": {
-			"eng": "War Participation",
-			"trans": "戰爭參與"
+			"eng": "War Attack Permission",
+			"trans": "戰爭攻擊權限"
 		},
 		"warToggleCooldown": {
 			"eng": "Cooldown: ${time}",
@@ -2504,8 +2518,8 @@
 	"clanTabNoClanContent": {
 		"warWarning": {
 			"joinDescription": {
-				"eng": "This gang is in WAR MODE. Joining will expose you to PvP attacks and 24h participation locks. Continue?",
-				"trans": "此幫派處於戰爭模式。加入後將面臨 PVP 攻擊及 24 小時參與鎖定。確定繼續？"
+				"eng": "This gang is in WAR MODE. Joining means other gangs can attack you, and starting war attacks can lock your leave or kick status for 24 hours. Continue?",
+				"trans": "此幫派已進入戰爭模式。加入後其他幫派即可襲擊你，且若發起攻擊將鎖定你的離隊與被踢除狀態達24小時。確定繼續？"
 			}
 		}
 	},
@@ -2534,8 +2548,8 @@
 				"trans": "啟用 WAR MODE 將使所有幫派成員暴露於 PvP 攻擊之下。退出選項將在 24 小時內被鎖定。確定繼續？"
 			},
 			"requestDescription": {
-				"eng": "This gang is in WAR MODE. If accepted, joining will expose you to PvP attacks and 24h participation locks. Continue?",
-				"trans": "此幫派已進入戰爭模式。若確認加入，你將暴露於 PVP 攻擊及 24 小時參與鎖定下。是否繼續？"
+				"eng": "This gang is in WAR MODE. If accepted, other gangs can attack you, and starting war attacks can lock your leave or kick status for 24 hours. Continue?",
+				"trans": "本幫派已進入戰爭模式。確認後，其他幫派可對你發動攻擊；一旦發起攻擊，你的離隊與被踢除狀態將鎖定24小時。是否繼續？"
 			},
 			"title": {
 				"eng": "WAR MODE WARNING",
@@ -2553,17 +2567,29 @@
 			}
 		},
 		"error": {
+			"attackLockActive": {
+				"eng": "Cannot disable war mode while members have recently started war attacks. Recent attackers (time since attack): ${attackers}",
+				"trans": "因成員近期已發起進攻，暫無法關閉戰爭模式。近期攻擊者（距上次攻擊時間）：${attackers}",
+				"withMore": {
+					"eng": "Cannot disable war mode while members have recently started war attacks. Recent attackers (time since attack): ${attackers}, and ${count} more",
+					"trans": "因成員近期已發起戰爭攻擊，暫無法關閉戰爭模式。近期發起攻擊的成員（距攻擊時間）：${attackers}，及其他 ${count} 名。"
+				}
+			},
+			"attackLockActiveBase": {
+				"eng": "Cannot disable war mode while members have recently started war attacks",
+				"trans": "若有成員近期已發起戰爭攻擊，則無法停用戰爭模式"
+			},
 			"buffAlreadyActive": {
 				"eng": "This war buff is already active",
 				"trans": "此戰場增益已開啟"
 			},
 			"cannotToggleMember": {
-				"eng": "Cannot toggle this member's participation. They may not exist or cooldown is active",
-				"trans": "無法切換此成員的參與狀態。該成員可能不存在或是正處於冷卻時間中。"
+				"eng": "Cannot change this member's war attack permission. They may not exist or cooldown is active",
+				"trans": "無法修改此成員的戰爭攻擊權限。該成員可能不存在，或正處於冷卻狀態。"
 			},
 			"disbandEngaged": {
-				"eng": "You cannot disband the gang while members have recently engaged in war combat",
-				"trans": "當成員剛參與過戰爭戰鬥時，無法解散幫派。"
+				"eng": "You cannot disband the gang while members have recently started war attacks",
+				"trans": "若有成員近期已發起戰爭攻擊，則無法解散幫派。"
 			},
 			"disbandWarActive": {
 				"eng": "You cannot disband the gang while war mode is active",
@@ -2574,16 +2600,16 @@
 				"trans": "較高層級的${buffName}增益已經作用中"
 			},
 			"kickLocked": {
-				"eng": "Cannot kick a member who has recently engaged in war combat",
-				"trans": "無法將近期參與過戰爭的成員踢出。"
+				"eng": "Cannot kick a member who has recently started a war attack",
+				"trans": "無法踢出近期已發起戰攻的成員"
 			},
 			"leaderOnly": {
 				"eng": "Only the gang leader can perform this action",
 				"trans": "只有幫派首領才能執行此操作"
 			},
 			"leaveLocked": {
-				"eng": "You cannot leave the gang while you have recently engaged in war combat",
-				"trans": "近期參與戰爭期間無法退出帮派"
+				"eng": "You cannot leave the gang after recently starting a war attack for ${hours} hours",
+				"trans": "發動戰爭攻勢後，${hours}小時內無法退出幫派"
 			},
 			"notEnoughWarPoints": {
 				"eng": "Your gang does not have enough war points",
@@ -2600,10 +2626,6 @@
 			"warStateRequired": {
 				"eng": "Your gang must be in war state to deploy war buffs",
 				"trans": "您的幫派必須處於戰爭狀態才能部署戰時增益"
-			},
-			"wip": {
-				"eng": "This feature is currently under development",
-				"trans": "此功能目前正在開發中"
 			}
 		},
 		"lockedFeedback": {
@@ -2620,12 +2642,12 @@
 				"trans": "你的幫派已達成${count}連殺，並獲得${reward}戰爭分數！"
 			},
 			"participationDisabled": {
-				"eng": "You have been removed from war participation by your gang leader. Your kills will no longer count towards gang war score.",
-				"trans": "你已被你的幫派首領移除參戰資格。你的擊殺將不再計入幫派戰爭得分。"
+				"eng": "Your gang leader disabled your war attack permission. You can no longer start war attacks, but other gangs can still attack you.",
+				"trans": "你的幫主已撤銷你的戰爭進攻權限。你無法再主動發起攻擊，但其他幫派仍可襲擊你們。"
 			},
 			"participationEnabled": {
-				"eng": "You have been added to war participation by your gang leader. You can now participate in gang wars.",
-				"trans": "你的幫派首領已將你列入參戰名單，現可參與帮派戰爭。"
+				"eng": "Your gang leader enabled your war attack permission. You can now start war attacks.",
+				"trans": "你的幫派首領已開放參戰權限，現在即可發動戰爭攻擊。"
 			},
 			"warStateOff": {
 				"eng": "Your gang leader has disabled war mode. Your gang is no longer a war target.",
@@ -3839,10 +3861,6 @@
 				"eng": "Public strongholds",
 				"trans": "公共地城"
 			}
-		},
-		"notEnoughResources": {
-			"eng": "You do not have enough resources, you may try ${difficulty} instead, ${error}",
-			"trans": "你沒有足夠的資源，你可以嘗試${difficulty}，${error}"
 		}
 	},
 	"dungeonUI": {
@@ -6899,9 +6917,9 @@
 			}
 		},
 		"pvpProtection": {
-			"description": {
-				"eng": "Whoever invokes the Token of Peace shall not be attacked, use this to receive ${day} day of PVP protection buff",
-				"trans": "凡是使用和平令牌的人將不會受到攻擊，使用此令牌可獲得${day}天的PVP保護效果"
+			"description2": {
+				"eng": "Whoever invokes the Token of Peace shall not be attacked, use this to receive ${day} day of PVP protection buff (This does not protect against gang war attacks)",
+				"trans": "啟動和平徽章即可免受攻擊。使用此物品可獲得${day}天PVP保護增益（無法防禦幫派戰爭攻擊）"
 			},
 			"name": {
 				"eng": "Token of Peace",
@@ -11088,8 +11106,8 @@
 		},
 		"warWarning": {
 			"joinDescription": {
-				"eng": "This gang is in WAR MODE. Joining will expose you to war PvP attacks for ${hours} hours lock. Continue?",
-				"trans": "該帮派已進入戰爭模式。加入後，你將在 ${hours} 小時內暴露於 PvP 攻擊並被鎖定。繼續？"
+				"eng": "This gang is in WAR MODE. Other gangs can attack you after you join, and starting war attacks can lock your leave or kick status for ${hours} hours. Continue?",
+				"trans": "本幫派已處於戰爭模式。加入後即可能遭到其他幫派襲擊，且發起戰爭攻勢將鎖定離隊或踢出狀態達${hours}小時。是否繼續？"
 			}
 		}
 	},
@@ -12030,6 +12048,14 @@
 		}
 	},
 	"permission": {
+		"clanDeployWarBuff": {
+			"eng": "Deploy Gang War Buffs",
+			"noPermission": {
+				"eng": "You do not have permission to deploy gang war buffs",
+				"trans": "您無權啟用工會戰增益效果"
+			},
+			"trans": "啟動幫派戰增益"
+		},
 		"clanEditMotto": {
 			"eng": "Edit Motto",
 			"noPermission": {
@@ -13572,8 +13598,8 @@
 				"trans": "此玩家已遭逮捕"
 			},
 			"warLevelTooDiff": {
-				"eng": "You are too high level to attack this player",
-				"trans": "你的等級過高無法攻擊該玩家"
+				"eng": "You cannot engage a war target that is more than ${levelDiff} levels higher or below you",
+				"trans": "無法攻擊等級高於或低於你超過${levelDiff}級的戰爭目標"
 			}
 		},
 		"combatLog": {
@@ -15561,6 +15587,10 @@
 			"trans": "贈送復活包"
 		},
 		"error": {
+			"cannotReviveSelf": {
+				"eng": "You cannot revive yourself through the Trauma Bay.",
+				"trans": "您無法透過急救站自行復甦。"
+			},
 			"noPermission": {
 				"eng": "You do not have permission to revive members.",
 				"trans": "您沒有權限復活隊員"
@@ -16366,10 +16396,6 @@
 			"higherTierAlreadyActive": {
 				"eng": "A higher-tier ${buffName} buff is already active",
 				"trans": "較高層級的${buffName}增益已經作用中"
-			},
-			"leaderOnly": {
-				"eng": "Only the gang leader can deploy war buffs",
-				"trans": "僅限幫派首領可部署戰爭增益"
 			},
 			"notEnoughWarPoints": {
 				"eng": "Your gang does not have enough war points",

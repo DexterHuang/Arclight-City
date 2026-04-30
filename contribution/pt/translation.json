@@ -1403,6 +1403,10 @@
 			"trans": "Doou ${amount} Kit(s) de Ressurreição ao estoque da Sala de Trauma"
 		},
 		"error": {
+			"cannotReviveSelf": {
+				"eng": "You cannot revive yourself through the Trauma Bay",
+				"trans": "Não é possível reviver-se na Baía de Trauma."
+			},
 			"gangNotFound": {
 				"eng": "Your gang could not be found",
 				"trans": "Não foi possível encontrar sua gangue"
@@ -1862,6 +1866,12 @@
 		}
 	},
 	"clan": {
+		"chat": {
+			"upkeepSoftReset": {
+				"eng": "Gang ranks have been reset because upkeep war points were insufficient.",
+				"trans": "As patentes da gangue foram repostas devido à insuficiência de pontos de guerra de manutenção."
+			}
+		},
 		"disbandMail": {
 			"subject": {
 				"eng": "Your gang has been disbanded",
@@ -2009,9 +2019,9 @@
 			}
 		},
 		"disbandLocked": {
-			"engagementLocked": {
-				"eng": "Cannot disband while members have recently engaged in war combat",
-				"trans": "Não é possível dissolver enquanto os membros participaram de combate recentemente"
+			"attackLocked": {
+				"eng": "Cannot disband while members have recently started war attacks",
+				"trans": "Não é possível dissolver o grupo enquanto houver membros realizando ataques de guerra recentes."
 			},
 			"warActive": {
 				"eng": "Cannot disband while war mode is active. Disable war mode first.",
@@ -2019,9 +2029,9 @@
 			}
 		},
 		"disbandStatus": {
-			"engagementLocked": {
-				"eng": "Members recently engaged in war combat. Available in:",
-				"trans": "Membros que participaram recentemente de combate militar. Disponível em:"
+			"attackLocked": {
+				"eng": "Members recently started war attacks. Available in:",
+				"trans": "Membros iniciaram ataques de guerra recentemente. Disponível em:"
 			},
 			"title": {
 				"eng": "DISBAND LOCKED",
@@ -2144,8 +2154,8 @@
 	"clanMenuModal": {
 		"warWarning": {
 			"joinDescription": {
-				"eng": "This gang is in WAR MODE. Joining will expose you to War PvP attacks with ${hours} hours lock. Continue?",
-				"trans": "Esta gangue está em MODO DE GUERRA. Entrar expõe você a ataques PvP de Guerra com bloqueio de ${hours} horas. Continuar?"
+				"eng": "This gang is in WAR MODE. Other gangs can attack you after you join, and starting war attacks can lock your leave or kick status for ${hours} hours. Continue?",
+				"trans": "Esta gangue está no MODO DE GUERRA. Outras gangues podem atacá-lo após sua entrada, e iniciar ataques de guerra bloqueará sua saída ou expulsão por ${hours} horas. Continuar?"
 			}
 		}
 	},
@@ -2169,12 +2179,12 @@
 	},
 	"clanPlayerPopup": {
 		"disableWarParticipation": {
-			"eng": "Disable War Participation",
-			"trans": "Desativar Participação em Guerra"
+			"eng": "Disable War Attacks",
+			"trans": "Desativar Ataques de Guerra"
 		},
 		"enableWarParticipation": {
-			"eng": "Enable War Participation",
-			"trans": "Ativar Participação em Guerra"
+			"eng": "Enable War Attacks",
+			"trans": "Ativar Ataques de Guerra"
 		},
 		"kickPlayerButton": {
 			"eng": "kick player",
@@ -2189,12 +2199,12 @@
 			"trans": "Classificação"
 		},
 		"statusActive": {
-			"eng": "ACTIVE",
-			"trans": "Ativo"
+			"eng": "ENABLED",
+			"trans": "ATIVADO"
 		},
 		"statusInactive": {
-			"eng": "INACTIVE",
-			"trans": "Inativo"
+			"eng": "DISABLED",
+			"trans": "DESATIVADO"
 		},
 		"transferOwnership": {
 			"eng": "Transfer Ownership",
@@ -2208,9 +2218,13 @@
 			"eng": "Are you sure you want to transfer ownership of the gang to ${playerName}.\\nthis cannot be undone.",
 			"trans": "Tem certeza de que quer transferir a propriedade da gangue para ${playerName}.\\nIsso não pode ser desfeito."
 		},
+		"warPermissionHelp": {
+			"eng": "Controls whether this member can start war attacks. Disabling it does not stop other players from attacking them, and leaders can use it to prevent repeated attacks from refreshing the wartime kick lock.",
+			"trans": "Controla se este membro pode iniciar ataques de guerra. Desativar não impede que outros jogadores os ataquem, e os líderes podem usá-lo para evitar que ataques repetidos renovem o bloqueio de expulsão em guerra."
+		},
 		"warStatus": {
-			"eng": "War Participation",
-			"trans": "Participação em Guerra"
+			"eng": "War Attack Permission",
+			"trans": "Permissão de Ataque na Guerra"
 		},
 		"warToggleCooldown": {
 			"eng": "Cooldown: ${time}",
@@ -2504,8 +2518,8 @@
 	"clanTabNoClanContent": {
 		"warWarning": {
 			"joinDescription": {
-				"eng": "This gang is in WAR MODE. Joining will expose you to PvP attacks and 24h participation locks. Continue?",
-				"trans": "Esta gangue está em MODO DE GUERRA. Ao entrar, você ficará exposto a ataques de PvP e terá bloqueio de 24h na participação. Continuar?"
+				"eng": "This gang is in WAR MODE. Joining means other gangs can attack you, and starting war attacks can lock your leave or kick status for 24 hours. Continue?",
+				"trans": "Esta gangue está em MODO DE GUERRA. Entrar significa que outras gangues podem atacar você, e iniciar ataques de guerra bloqueará sua saída ou expulsão por 24 horas. Continuar?"
 			}
 		}
 	},
@@ -2534,8 +2548,8 @@
 				"trans": "Ativar MODO DE GUERRA expõe todos os membros da gangue a ataques PvP. Ao optar por não habilitar, a opção ficará bloqueada por 24 horas. Continuar?"
 			},
 			"requestDescription": {
-				"eng": "This gang is in WAR MODE. If accepted, joining will expose you to PvP attacks and 24h participation locks. Continue?",
-				"trans": "Esta gangue está no modo de guerra. Se aceitar, você será exposto a ataques PvP e terá bloqueio de participação por 24h. Continuar?"
+				"eng": "This gang is in WAR MODE. If accepted, other gangs can attack you, and starting war attacks can lock your leave or kick status for 24 hours. Continue?",
+				"trans": "Esta gangue está em MODO DE GUERRA. Ao aceitar, outras gangues poderão atacá-la e iniciar ataques de guerra bloqueará sua saída ou expulsão por 24 horas. Continuar?"
 			},
 			"title": {
 				"eng": "WAR MODE WARNING",
@@ -2553,17 +2567,29 @@
 			}
 		},
 		"error": {
+			"attackLockActive": {
+				"eng": "Cannot disable war mode while members have recently started war attacks. Recent attackers (time since attack): ${attackers}",
+				"trans": "Não é possível desativar o modo de guerra enquanto houver ataques recentes iniciados por membros. Atacantes recentes (tempo decorrido): ${attackers}",
+				"withMore": {
+					"eng": "Cannot disable war mode while members have recently started war attacks. Recent attackers (time since attack): ${attackers}, and ${count} more",
+					"trans": "Não é possível desativar o modo de guerra enquanto membros tiverem iniciado ataques recentemente. Atacantes recentes (tempo decorrido): ${attackers}, e mais ${count}"
+				}
+			},
+			"attackLockActiveBase": {
+				"eng": "Cannot disable war mode while members have recently started war attacks",
+				"trans": "Não é possível desativar o Modo Guerra enquanto houver membros que iniciaram ataques de guerra recentemente."
+			},
 			"buffAlreadyActive": {
 				"eng": "This war buff is already active",
 				"trans": "Este bônus de guerra já está ativo"
 			},
 			"cannotToggleMember": {
-				"eng": "Cannot toggle this member's participation. They may not exist or cooldown is active",
-				"trans": "Não é possível alternar a participação deste membro. Pode não existir ou o tempo de recarga está ativo."
+				"eng": "Cannot change this member's war attack permission. They may not exist or cooldown is active",
+				"trans": "Não foi possível alterar a permissão de ataque de guerra deste membro. Ele pode não existir ou o tempo de recarga está ativo."
 			},
 			"disbandEngaged": {
-				"eng": "You cannot disband the gang while members have recently engaged in war combat",
-				"trans": "Você não pode dissolver a gangue enquanto os membros tiverem participado recentemente de combates de guerra."
+				"eng": "You cannot disband the gang while members have recently started war attacks",
+				"trans": "Não é possível dissolver a gangue com membros que recentemente iniciaram ataques de guerra"
 			},
 			"disbandWarActive": {
 				"eng": "You cannot disband the gang while war mode is active",
@@ -2574,16 +2600,16 @@
 				"trans": "Um buff de nível superior de ${buffName} já está ativo"
 			},
 			"kickLocked": {
-				"eng": "Cannot kick a member who has recently engaged in war combat",
-				"trans": "Não é possível expulsar um membro que participou recentemente de combate em guerra."
+				"eng": "Cannot kick a member who has recently started a war attack",
+				"trans": "Não é possível expulsar um membro que iniciou recentemente um ataque de guerra."
 			},
 			"leaderOnly": {
 				"eng": "Only the gang leader can perform this action",
 				"trans": "Somente o líder da gangue pode executar esta ação"
 			},
 			"leaveLocked": {
-				"eng": "You cannot leave the gang while you have recently engaged in war combat",
-				"trans": "Você não pode sair da gangue enquanto esteve recentemente em combate militar."
+				"eng": "You cannot leave the gang after recently starting a war attack for ${hours} hours",
+				"trans": "Não é possível sair da gangue por ${hours} horas após iniciar um ataque de guerra."
 			},
 			"notEnoughWarPoints": {
 				"eng": "Your gang does not have enough war points",
@@ -2600,10 +2626,6 @@
 			"warStateRequired": {
 				"eng": "Your gang must be in war state to deploy war buffs",
 				"trans": "Seu gang precisa estar em modo de guerra para usar buffs de guerra."
-			},
-			"wip": {
-				"eng": "This feature is currently under development",
-				"trans": "Este recurso está atualmente em desenvolvimento"
 			}
 		},
 		"lockedFeedback": {
@@ -2620,12 +2642,12 @@
 				"trans": "Sua gangue atingiu uma sequência de ${count} mortes e ganhou ${reward} pontos de guerra!"
 			},
 			"participationDisabled": {
-				"eng": "You have been removed from war participation by your gang leader. Your kills will no longer count towards gang war score.",
-				"trans": "Você foi removido da participação na guerra pelo seu líder da gangue. Suas eliminações não contam mais para a pontuação da guerra de gangues."
+				"eng": "Your gang leader disabled your war attack permission. You can no longer start war attacks, but other gangs can still attack you.",
+				"trans": "O líder da sua gangue desativou a permissão para ataques de guerra. Você não poderá mais iniciá-los, mas outras gangues ainda podem atacar você."
 			},
 			"participationEnabled": {
-				"eng": "You have been added to war participation by your gang leader. You can now participate in gang wars.",
-				"trans": "Seu líder de gangue adicionou você ao grupo de guerreiros. Você agora pode participar das guerras da gangue."
+				"eng": "Your gang leader enabled your war attack permission. You can now start war attacks.",
+				"trans": "Seu líder de gangue ativou a permissão para ataques de guerra. Agora você pode iniciá-los."
 			},
 			"warStateOff": {
 				"eng": "Your gang leader has disabled war mode. Your gang is no longer a war target.",
@@ -3839,10 +3861,6 @@
 				"eng": "Public strongholds",
 				"trans": "Fortalezas públicas"
 			}
-		},
-		"notEnoughResources": {
-			"eng": "You do not have enough resources, you may try ${difficulty} instead, ${error}",
-			"trans": "Você não tem recursos suficientes, pode tentar ${difficulty} em vez disso, ${error}"
 		}
 	},
 	"dungeonUI": {
@@ -6899,9 +6917,9 @@
 			}
 		},
 		"pvpProtection": {
-			"description": {
-				"eng": "Whoever invokes the Token of Peace shall not be attacked, use this to receive ${day} day of PVP protection buff",
-				"trans": "Quem invocar o Token da Paz não será atacado, use isso para receber ${day} dias de proteção PVP"
+			"description2": {
+				"eng": "Whoever invokes the Token of Peace shall not be attacked, use this to receive ${day} day of PVP protection buff (This does not protect against gang war attacks)",
+				"trans": "Quem invocar o Token da Paz não será atacado. Use para receber um bônus de proteção ao PVP por ${day} dia(s). (Isso não protege contra ataques em guerras de gangues)"
 			},
 			"name": {
 				"eng": "Token of Peace",
@@ -11088,8 +11106,8 @@
 		},
 		"warWarning": {
 			"joinDescription": {
-				"eng": "This gang is in WAR MODE. Joining will expose you to war PvP attacks for ${hours} hours lock. Continue?",
-				"trans": "Esta gangue está em MODO DE GUERRA. Entrar expõe você a ataques PvP de guerra por ${hours} horas de bloqueio. Continuar?"
+				"eng": "This gang is in WAR MODE. Other gangs can attack you after you join, and starting war attacks can lock your leave or kick status for ${hours} hours. Continue?",
+				"trans": "Esta gangue está no MODO DE GUERRA. Outras gangues podem atacá-lo após sua entrada, e iniciar ataques de guerra bloqueará sua saída ou expulsão por ${hours} horas. Continuar?"
 			}
 		}
 	},
@@ -12030,6 +12048,14 @@
 		}
 	},
 	"permission": {
+		"clanDeployWarBuff": {
+			"eng": "Deploy Gang War Buffs",
+			"noPermission": {
+				"eng": "You do not have permission to deploy gang war buffs",
+				"trans": "Você não tem permissão para ativar os buffs de guerra de gangues."
+			},
+			"trans": "Ativar Reforços de Guerra entre Bandos"
+		},
 		"clanEditMotto": {
 			"eng": "Edit Motto",
 			"noPermission": {
@@ -13572,8 +13598,8 @@
 				"trans": "Este jogador já foi preso"
 			},
 			"warLevelTooDiff": {
-				"eng": "You are too high level to attack this player",
-				"trans": "Seu nível está muito alto para atacar este jogador"
+				"eng": "You cannot engage a war target that is more than ${levelDiff} levels higher or below you",
+				"trans": "Você não pode atacar um alvo de guerra que esteja mais de ${levelDiff} níveis acima ou abaixo do seu nível"
 			}
 		},
 		"combatLog": {
@@ -15561,6 +15587,10 @@
 			"trans": "Doar Kits de Ressurreição"
 		},
 		"error": {
+			"cannotReviveSelf": {
+				"eng": "You cannot revive yourself through the Trauma Bay.",
+				"trans": "Não é possível se reviver através da Baía de Trauma."
+			},
 			"noPermission": {
 				"eng": "You do not have permission to revive members.",
 				"trans": "Você não tem permissão para reviver membros."
@@ -16366,10 +16396,6 @@
 			"higherTierAlreadyActive": {
 				"eng": "A higher-tier ${buffName} buff is already active",
 				"trans": "Um buff de nível superior de ${buffName} já está ativo"
-			},
-			"leaderOnly": {
-				"eng": "Only the gang leader can deploy war buffs",
-				"trans": "Somente o líder da gangue pode usar buffs de guerra."
 			},
 			"notEnoughWarPoints": {
 				"eng": "Your gang does not have enough war points",

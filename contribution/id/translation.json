@@ -1403,6 +1403,10 @@
 			"trans": "Menyumbangkan ${amount} Kit Kebangkitan ke penyimpanan Ruang Trauma"
 		},
 		"error": {
+			"cannotReviveSelf": {
+				"eng": "You cannot revive yourself through the Trauma Bay",
+				"trans": "Anda tidak dapat menghidupkan kembali diri sendiri melalui Trauma Bay"
+			},
 			"gangNotFound": {
 				"eng": "Your gang could not be found",
 				"trans": "Gang Anda tidak ditemukan"
@@ -1862,6 +1866,12 @@
 		}
 	},
 	"clan": {
+		"chat": {
+			"upkeepSoftReset": {
+				"eng": "Gang ranks have been reset because upkeep war points were insufficient.",
+				"trans": "Peringkat geng telah direset karena poin perang untuk biaya pemeliharaan tidak mencukupi."
+			}
+		},
 		"disbandMail": {
 			"subject": {
 				"eng": "Your gang has been disbanded",
@@ -2009,9 +2019,9 @@
 			}
 		},
 		"disbandLocked": {
-			"engagementLocked": {
-				"eng": "Cannot disband while members have recently engaged in war combat",
-				"trans": "Tidak dapat dibubarkan saat anggota baru saja terlibat dalam pertempuran."
+			"attackLocked": {
+				"eng": "Cannot disband while members have recently started war attacks",
+				"trans": "Tidak dapat dibubarkan saat anggota baru saja memulai serangan perang."
 			},
 			"warActive": {
 				"eng": "Cannot disband while war mode is active. Disable war mode first.",
@@ -2019,9 +2029,9 @@
 			}
 		},
 		"disbandStatus": {
-			"engagementLocked": {
-				"eng": "Members recently engaged in war combat. Available in:",
-				"trans": "Anggota yang baru-baru ini terlibat dalam pertempuran perang. Tersedia di:"
+			"attackLocked": {
+				"eng": "Members recently started war attacks. Available in:",
+				"trans": "Anggota baru saja memulai serangan perang. Tersedia dalam:"
 			},
 			"title": {
 				"eng": "DISBAND LOCKED",
@@ -2144,8 +2154,8 @@
 	"clanMenuModal": {
 		"warWarning": {
 			"joinDescription": {
-				"eng": "This gang is in WAR MODE. Joining will expose you to War PvP attacks with ${hours} hours lock. Continue?",
-				"trans": "Geng ini dalam MODE PERANG. Bergabung akan menjadikan Anda target serangan PvP Perang dengan penguncian ${hours} jam. Lanjutkan?"
+				"eng": "This gang is in WAR MODE. Other gangs can attack you after you join, and starting war attacks can lock your leave or kick status for ${hours} hours. Continue?",
+				"trans": "Geng ini sedang dalam MODE PERANG. Geng lain dapat menyerang Anda setelah bergabung, dan memulai serangan perang akan mengunci status keluar atau ditendang Anda selama ${hours} jam. Lanjutkan?"
 			}
 		}
 	},
@@ -2169,12 +2179,12 @@
 	},
 	"clanPlayerPopup": {
 		"disableWarParticipation": {
-			"eng": "Disable War Participation",
-			"trans": "Nonaktifkan Partisipasi Perang"
+			"eng": "Disable War Attacks",
+			"trans": "Nonaktifkan Serangan Perang"
 		},
 		"enableWarParticipation": {
-			"eng": "Enable War Participation",
-			"trans": "Aktifkan Partisipasi Perang"
+			"eng": "Enable War Attacks",
+			"trans": "Aktifkan Serangan Perang"
 		},
 		"kickPlayerButton": {
 			"eng": "kick player",
@@ -2189,11 +2199,11 @@
 			"trans": "Peringkat"
 		},
 		"statusActive": {
-			"eng": "ACTIVE",
-			"trans": "AKTIF"
+			"eng": "ENABLED",
+			"trans": "DI AKTIF KAN"
 		},
 		"statusInactive": {
-			"eng": "INACTIVE",
+			"eng": "DISABLED",
 			"trans": "NONAKTIF"
 		},
 		"transferOwnership": {
@@ -2208,9 +2218,13 @@
 			"eng": "Are you sure you want to transfer ownership of the gang to ${playerName}.\\nthis cannot be undone.",
 			"trans": "Apakah Anda yakin ingin mengalihkan kepemilikan Geng ke ${playerName}. Ini tidak dapat dibatalkan."
 		},
+		"warPermissionHelp": {
+			"eng": "Controls whether this member can start war attacks. Disabling it does not stop other players from attacking them, and leaders can use it to prevent repeated attacks from refreshing the wartime kick lock.",
+			"trans": "Mengatur apakah anggota ini dapat memulai serangan perang. Mematikan opsi ini tidak mencegah pemain lain menyerang mereka, dan pemimpin dapat menggunakannya agar serangan berulang tidak memperbarui kunci kick masa perang."
+		},
 		"warStatus": {
-			"eng": "War Participation",
-			"trans": "Partisipasi Perang"
+			"eng": "War Attack Permission",
+			"trans": "Izin Serangan Perang"
 		},
 		"warToggleCooldown": {
 			"eng": "Cooldown: ${time}",
@@ -2504,8 +2518,8 @@
 	"clanTabNoClanContent": {
 		"warWarning": {
 			"joinDescription": {
-				"eng": "This gang is in WAR MODE. Joining will expose you to PvP attacks and 24h participation locks. Continue?",
-				"trans": "Geng ini dalam MODUS PERANG. Bergabung akan membuat Anda rentan terhadap serangan PvP dan terkunci selama 24 jam. Lanjut?"
+				"eng": "This gang is in WAR MODE. Joining means other gangs can attack you, and starting war attacks can lock your leave or kick status for 24 hours. Continue?",
+				"trans": "Geng ini berada dalam MODE PERANG. Bergabung berarti geng lain dapat menyerangmu, dan memulai serangan perang akan mengunci opsi keluar atau ditendang selama 24 jam. Lanjutkan?"
 			}
 		}
 	},
@@ -2534,8 +2548,8 @@
 				"trans": "Mengaktifkan WAR MODE akan menjadikan SEMUA anggota Geng target serangan PvP. Pilihan untuk keluar dari mode ini akan dikunci selama 24 jam. Lanjutkan?"
 			},
 			"requestDescription": {
-				"eng": "This gang is in WAR MODE. If accepted, joining will expose you to PvP attacks and 24h participation locks. Continue?",
-				"trans": "Geng ini dalam MODE PERANG. Jika disetujui, bergabung akan menjadikan Anda target serangan PvP dan terkunci untuk berpartisipasi selama 24 jam. Lanjutkan?"
+				"eng": "This gang is in WAR MODE. If accepted, other gangs can attack you, and starting war attacks can lock your leave or kick status for 24 hours. Continue?",
+				"trans": "Geng ini berada dalam MODUS PERANG. Jika disetujui, geng lain dapat menyerangmu, dan memulai serangan perang dapat mengunci status keluar atau ditendang selama 24 jam. Lanjutkan?"
 			},
 			"title": {
 				"eng": "WAR MODE WARNING",
@@ -2553,17 +2567,29 @@
 			}
 		},
 		"error": {
+			"attackLockActive": {
+				"eng": "Cannot disable war mode while members have recently started war attacks. Recent attackers (time since attack): ${attackers}",
+				"trans": "Tidak dapat menonaktifkan mode perang saat terdapat anggota yang baru saja memulai serangan perang. Penyerang terbaru (selang waktu sejak menyerang): ${attackers}",
+				"withMore": {
+					"eng": "Cannot disable war mode while members have recently started war attacks. Recent attackers (time since attack): ${attackers}, and ${count} more",
+					"trans": "Mode perang tidak dapat dinonaktifkan saat anggota baru saja memulai serangan. Penyerang terbaru (waktu sejak menyerang): ${attackers}, dan ${count} lainnya"
+				}
+			},
+			"attackLockActiveBase": {
+				"eng": "Cannot disable war mode while members have recently started war attacks",
+				"trans": "Tidak dapat menonaktifkan mode perang saat anggota baru saja memulai serangan perang"
+			},
 			"buffAlreadyActive": {
 				"eng": "This war buff is already active",
 				"trans": "Buff perang ini sudah aktif"
 			},
 			"cannotToggleMember": {
-				"eng": "Cannot toggle this member's participation. They may not exist or cooldown is active",
-				"trans": "Tidak dapat mengubah status partisipasi anggota ini. Anggota tersebut mungkin tidak ada atau masa tunggu sedang aktif."
+				"eng": "Cannot change this member's war attack permission. They may not exist or cooldown is active",
+				"trans": "Tidak dapat mengubah izin serangan perang anggota ini. Anggota tersebut mungkin tidak ditemukan atau cooldown masih berjalan."
 			},
 			"disbandEngaged": {
-				"eng": "You cannot disband the gang while members have recently engaged in war combat",
-				"trans": "Anda tidak dapat membubarkan Geng sementara anggota baru saja terlibat dalam pertempuran perang."
+				"eng": "You cannot disband the gang while members have recently started war attacks",
+				"trans": "Kamu tidak dapat membubarkan geng saat anggota baru saja memulai serangan perang."
 			},
 			"disbandWarActive": {
 				"eng": "You cannot disband the gang while war mode is active",
@@ -2574,16 +2600,16 @@
 				"trans": "Buff ${buffName} tingkat lebih tinggi sudah aktif"
 			},
 			"kickLocked": {
-				"eng": "Cannot kick a member who has recently engaged in war combat",
-				"trans": "Tidak dapat mengusir anggota yang baru saja terlibat dalam pertempuran perang"
+				"eng": "Cannot kick a member who has recently started a war attack",
+				"trans": "Tidak dapat menendang anggota yang baru saja memulai serangan perang."
 			},
 			"leaderOnly": {
 				"eng": "Only the gang leader can perform this action",
 				"trans": "Hanya pemimpin geng yang dapat melakukan aksi ini"
 			},
 			"leaveLocked": {
-				"eng": "You cannot leave the gang while you have recently engaged in war combat",
-				"trans": "Anda tidak dapat keluar dari geng saat baru saja terlibat dalam pertempuran"
+				"eng": "You cannot leave the gang after recently starting a war attack for ${hours} hours",
+				"trans": "Anda tidak dapat meninggalkan geng selama ${hours} jam setelah baru memulai serangan perang."
 			},
 			"notEnoughWarPoints": {
 				"eng": "Your gang does not have enough war points",
@@ -2600,10 +2626,6 @@
 			"warStateRequired": {
 				"eng": "Your gang must be in war state to deploy war buffs",
 				"trans": "Geng Anda harus dalam status perang untuk mengaktifkan bonus perang."
-			},
-			"wip": {
-				"eng": "This feature is currently under development",
-				"trans": "Fitur ini sedang dalam pengembangan"
 			}
 		},
 		"lockedFeedback": {
@@ -2620,12 +2642,12 @@
 				"trans": "Geng Anda telah mencapai ${count} pembunuhan beruntun dan meraih skor perang ${reward}!"
 			},
 			"participationDisabled": {
-				"eng": "You have been removed from war participation by your gang leader. Your kills will no longer count towards gang war score.",
-				"trans": "Anda telah dikeluarkan dari partisipasi perang oleh pemimpin geng Anda. Kill Anda tidak akan lagi dihitung dalam skor perang gang."
+				"eng": "Your gang leader disabled your war attack permission. You can no longer start war attacks, but other gangs can still attack you.",
+				"trans": "Pemimpin gengmu telah menonaktifkan izin serangan perang. Kamu tidak dapat lagi memulai serangan perang, namun geng lain masih bisa menyerangmu."
 			},
 			"participationEnabled": {
-				"eng": "You have been added to war participation by your gang leader. You can now participate in gang wars.",
-				"trans": "Anda telah ditambahkan untuk ikut serta dalam perang oleh Pemimpin Geng Anda. Kini Anda dapat berpartisipasi dalam Perang Geng."
+				"eng": "Your gang leader enabled your war attack permission. You can now start war attacks.",
+				"trans": "Pemimpin geng telah mengaktifkan izin serangan perang untukmu. Kini kamu dapat memulai serangan perang."
 			},
 			"warStateOff": {
 				"eng": "Your gang leader has disabled war mode. Your gang is no longer a war target.",
@@ -3839,10 +3861,6 @@
 				"eng": "Public strongholds",
 				"trans": "Benteng-benteng Publik"
 			}
-		},
-		"notEnoughResources": {
-			"eng": "You do not have enough resources, you may try ${difficulty} instead, ${error}",
-			"trans": "Kamu tidak memiliki cukup sumber daya, coba ${difficulty} saja, ${error}"
 		}
 	},
 	"dungeonUI": {
@@ -6899,9 +6917,9 @@
 			}
 		},
 		"pvpProtection": {
-			"description": {
-				"eng": "Whoever invokes the Token of Peace shall not be attacked, use this to receive ${day} day of PVP protection buff",
-				"trans": "Siapa pun yang memanggil Token of Peace tidak akan diserang, gunakan ini untuk menerima buff perlindungan PVP selama ${day} hari"
+			"description2": {
+				"eng": "Whoever invokes the Token of Peace shall not be attacked, use this to receive ${day} day of PVP protection buff (This does not protect against gang war attacks)",
+				"trans": "Siapa pun yang menggunakan Tanda Perdamaian tidak dapat diserang. Gunakan ini untuk mendapatkan buff perlindungan PVP selama ${day} hari (Tidak melindungi dari serangan perang geng)"
 			},
 			"name": {
 				"eng": "Token of Peace",
@@ -11088,8 +11106,8 @@
 		},
 		"warWarning": {
 			"joinDescription": {
-				"eng": "This gang is in WAR MODE. Joining will expose you to war PvP attacks for ${hours} hours lock. Continue?",
-				"trans": "Geng ini sedang dalam MODE PERANG. Bergabung akan memaparkan Anda pada serangan PvP dan terkunci selama ${hours} jam. Lanjutkan?"
+				"eng": "This gang is in WAR MODE. Other gangs can attack you after you join, and starting war attacks can lock your leave or kick status for ${hours} hours. Continue?",
+				"trans": "Geng ini sedang dalam MODE PERANG. Geng lain dapat menyerang Anda setelah bergabung, dan memulai serangan perang akan mengunci status keluar atau ditendang Anda selama ${hours} jam. Lanjutkan?"
 			}
 		}
 	},
@@ -12030,6 +12048,14 @@
 		}
 	},
 	"permission": {
+		"clanDeployWarBuff": {
+			"eng": "Deploy Gang War Buffs",
+			"noPermission": {
+				"eng": "You do not have permission to deploy gang war buffs",
+				"trans": "Anda tidak memiliki izin untuk mengaktifkan buff perang geng."
+			},
+			"trans": "Aktifkan Buff Perang Geng"
+		},
 		"clanEditMotto": {
 			"eng": "Edit Motto",
 			"noPermission": {
@@ -13572,8 +13598,8 @@
 				"trans": "Pemain ini telah ditangkap"
 			},
 			"warLevelTooDiff": {
-				"eng": "You are too high level to attack this player",
-				"trans": "Levelmu terlalu tinggi untuk menyerang pemain ini"
+				"eng": "You cannot engage a war target that is more than ${levelDiff} levels higher or below you",
+				"trans": "Anda tidak dapat menyerang target perang dengan selisih level lebih dari ${levelDiff}"
 			}
 		},
 		"combatLog": {
@@ -15561,6 +15587,10 @@
 			"trans": "Sumbangkan Kit Kebangkitan"
 		},
 		"error": {
+			"cannotReviveSelf": {
+				"eng": "You cannot revive yourself through the Trauma Bay.",
+				"trans": "Anda tidak dapat menghidupkan kembali diri sendiri melalui Trauma Bay."
+			},
 			"noPermission": {
 				"eng": "You do not have permission to revive members.",
 				"trans": "Anda tidak memiliki izin untuk membangkitkan anggota."
@@ -16366,10 +16396,6 @@
 			"higherTierAlreadyActive": {
 				"eng": "A higher-tier ${buffName} buff is already active",
 				"trans": "Buff ${buffName} tingkat lebih tinggi sudah aktif"
-			},
-			"leaderOnly": {
-				"eng": "Only the gang leader can deploy war buffs",
-				"trans": "Hanya Pemimpin Geng yang Dapat Mengaktifkan Buff Perang"
 			},
 			"notEnoughWarPoints": {
 				"eng": "Your gang does not have enough war points",

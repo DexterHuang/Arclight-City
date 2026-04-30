@@ -1403,6 +1403,10 @@
 			"trans": "บริจาค ${amount} อุปกรณ์ชุบชีพ ลงคลัง Trauma Bay"
 		},
 		"error": {
+			"cannotReviveSelf": {
+				"eng": "You cannot revive yourself through the Trauma Bay",
+				"trans": "ไม่สามารถฟื้นคืนชีพด้วยตนเองผ่านห้องกู้ชีพได้"
+			},
 			"gangNotFound": {
 				"eng": "Your gang could not be found",
 				"trans": "ไม่พบแก๊งของคุณ"
@@ -1862,6 +1866,12 @@
 		}
 	},
 	"clan": {
+		"chat": {
+			"upkeepSoftReset": {
+				"eng": "Gang ranks have been reset because upkeep war points were insufficient.",
+				"trans": "ระดับแก๊งถูกรีเซ็ตเนื่องจากคะแนนสงครามจ่ายค่าบำรุงไม่เพียงพอ"
+			}
+		},
 		"disbandMail": {
 			"subject": {
 				"eng": "Your gang has been disbanded",
@@ -2009,9 +2019,9 @@
 			}
 		},
 		"disbandLocked": {
-			"engagementLocked": {
-				"eng": "Cannot disband while members have recently engaged in war combat",
-				"trans": "ไม่สามารถยกเลิกกลุ่มได้ในขณะสมาชิกเพิ่งเข้าร่วมการต่อสู้"
+			"attackLocked": {
+				"eng": "Cannot disband while members have recently started war attacks",
+				"trans": "ไม่อนุญาตให้ยุบกลุ่มขณะที่สมาชิกเพิ่งเริ่มโจมตีในสงคราม"
 			},
 			"warActive": {
 				"eng": "Cannot disband while war mode is active. Disable war mode first.",
@@ -2019,9 +2029,9 @@
 			}
 		},
 		"disbandStatus": {
-			"engagementLocked": {
-				"eng": "Members recently engaged in war combat. Available in:",
-				"trans": "สมาชิกที่เข้าร่วมสงครามล่าสุด มีอยู่ใน:"
+			"attackLocked": {
+				"eng": "Members recently started war attacks. Available in:",
+				"trans": "สมาชิกเพิ่งเริ่มเปิดฉากโจมตีศึก พร้อมใช้งานภายใน:"
 			},
 			"title": {
 				"eng": "DISBAND LOCKED",
@@ -2144,8 +2154,8 @@
 	"clanMenuModal": {
 		"warWarning": {
 			"joinDescription": {
-				"eng": "This gang is in WAR MODE. Joining will expose you to War PvP attacks with ${hours} hours lock. Continue?",
-				"trans": "แก๊งนี้เข้าสู่โหมดสงครามแล้ว การเข้าร่วมจะทำให้คุณเสี่ยงต่อการโจมตี PvP แบบสงคราม พร้อมถูกล็อค ${hours} ชั่วโมง ยืนยันดำเนินการต่อไหม?"
+				"eng": "This gang is in WAR MODE. Other gangs can attack you after you join, and starting war attacks can lock your leave or kick status for ${hours} hours. Continue?",
+				"trans": "แก๊งนี้อยู่ในโหมดสงคราม เมื่อคุณเข้าร่วมแก๊งอื่นจะสามารถโจมตีคุณได้ และการเริ่มทำสงครามจะล็อกสถานะการลาออกหรือการถูกไล่ออกเป็นเวลา ${hours} ชั่วโมง ดำเนินการต่อ?"
 			}
 		}
 	},
@@ -2169,12 +2179,12 @@
 	},
 	"clanPlayerPopup": {
 		"disableWarParticipation": {
-			"eng": "Disable War Participation",
-			"trans": "ปิดการเข้าร่วมสงคราม"
+			"eng": "Disable War Attacks",
+			"trans": "ปิดการโจมตีสงคราม"
 		},
 		"enableWarParticipation": {
-			"eng": "Enable War Participation",
-			"trans": "เปิดเข้าร่วมสงคราม"
+			"eng": "Enable War Attacks",
+			"trans": "เปิดใช้งานการโจมตีสงคราม"
 		},
 		"kickPlayerButton": {
 			"eng": "kick player",
@@ -2189,12 +2199,12 @@
 			"trans": "เรท"
 		},
 		"statusActive": {
-			"eng": "ACTIVE",
-			"trans": "กำลังทำงาน"
+			"eng": "ENABLED",
+			"trans": "เปิดใช้งาน"
 		},
 		"statusInactive": {
-			"eng": "INACTIVE",
-			"trans": "ไม่ใช้งาน"
+			"eng": "DISABLED",
+			"trans": "ปิดใช้งาน"
 		},
 		"transferOwnership": {
 			"eng": "Transfer Ownership",
@@ -2208,9 +2218,13 @@
 			"eng": "Are you sure you want to transfer ownership of the gang to ${playerName}.\\nthis cannot be undone.",
 			"trans": "คุณแน่ใจหรือไม่ว่าต้องการโอนกรรมสิทธิ์ของแก๊งให้กับ ${playerName}.\\nทำเช่นนี้จะไม่สามารถย้อนกลับได้"
 		},
+		"warPermissionHelp": {
+			"eng": "Controls whether this member can start war attacks. Disabling it does not stop other players from attacking them, and leaders can use it to prevent repeated attacks from refreshing the wartime kick lock.",
+			"trans": "ควบคุมสิทธิ์เริ่มโจมตีสงครามของสมาชิก การปิดไม่ป้องกันไม่ให้ผู้เล่นอื่นเข้าโจมตี แต่หัวหน้าสามารถใช้เพื่อหยุดการโจมตีซ้ำที่อาจไปรีเซ็ตเวลาล็อกสถานะถูกไล่ออกชั่วคราวในช่วงสงครามได้"
+		},
 		"warStatus": {
-			"eng": "War Participation",
-			"trans": "การเข้าร่วมสงคราม"
+			"eng": "War Attack Permission",
+			"trans": "ขออนุญาตโจมตีในสงคราม"
 		},
 		"warToggleCooldown": {
 			"eng": "Cooldown: ${time}",
@@ -2504,8 +2518,8 @@
 	"clanTabNoClanContent": {
 		"warWarning": {
 			"joinDescription": {
-				"eng": "This gang is in WAR MODE. Joining will expose you to PvP attacks and 24h participation locks. Continue?",
-				"trans": "แก๊งนี้อยู่ในโหมดสงคราม การเข้าร่วมจะทำให้คุณเสี่ยงโดนโจมตี PvP และถูกล็อกการเข้าร่วม 24 ชม. ยืนยันดำเนินการต่อ?"
+				"eng": "This gang is in WAR MODE. Joining means other gangs can attack you, and starting war attacks can lock your leave or kick status for 24 hours. Continue?",
+				"trans": "แก๊งนี้เปิดโหมดสงครามแล้ว การเข้าร่วมจะทำให้แก๊งอื่นโจมตีคุณได้ และการเริ่มทำศึกอาจล็อกการขอถอนตัวหรือถูกไล่ออกเป็นเวลา 24 ชั่วโมง ดำเนินการต่อหรือไม่"
 			}
 		}
 	},
@@ -2534,8 +2548,8 @@
 				"trans": "เปิดโหมดสงครามจะทำให้สมาชิกกลุ่มทั้งหมดโดนโจมตีแบบ PvP หากออกจากโหมด จะถูกล็อกเป็นเวลา 24 ชั่วโมง คุณต้องการดำเนินการต่อ?"
 			},
 			"requestDescription": {
-				"eng": "This gang is in WAR MODE. If accepted, joining will expose you to PvP attacks and 24h participation locks. Continue?",
-				"trans": "กลุ่มนี้อยู่ในโหมดสงคราม หากยอมรับเข้าร่วม จะทำให้คุณโดนโจมตี PvP และถูกล็อกเข้าร่วมเป็นเวลา 24 ชั่วโมง ยืนยัน?"
+				"eng": "This gang is in WAR MODE. If accepted, other gangs can attack you, and starting war attacks can lock your leave or kick status for 24 hours. Continue?",
+				"trans": "แก๊งนี้อยู่ในโหมดสงคราม หากยอมรับ แก๊งอื่นจะสามารถโจมตีคุณได้ และการเริ่มศึกจะล็อกสถานะการลาออกหรือถูกเตะออกจากแก๊งเป็นเวลา 24 ชั่วโมง ยืนยันหรือไม่"
 			},
 			"title": {
 				"eng": "WAR MODE WARNING",
@@ -2553,17 +2567,29 @@
 			}
 		},
 		"error": {
+			"attackLockActive": {
+				"eng": "Cannot disable war mode while members have recently started war attacks. Recent attackers (time since attack): ${attackers}",
+				"trans": "ไม่สามารถปิดโหมดสงครามได้ เนื่องจากมีสมาชิกเพิ่งเริ่มโจมตีไม่นานนี้ ผู้โจมตีล่าสุด (เวลาหลังโจมตี): ${attackers}",
+				"withMore": {
+					"eng": "Cannot disable war mode while members have recently started war attacks. Recent attackers (time since attack): ${attackers}, and ${count} more",
+					"trans": "ไม่สามารถปิดโหมดสงครามได้ เนื่องจากสมาชิกเพิ่งเริ่มเปิดการโจมตีไม่นานมานี้ ผู้โจมตีล่าสุด (เวลาที่ผ่านไปแล้วนับตั้งแต่การโจมตี): ${attackers} และอีก ${count} ราย"
+				}
+			},
+			"attackLockActiveBase": {
+				"eng": "Cannot disable war mode while members have recently started war attacks",
+				"trans": "ไม่สามารถปิดโหมดสงครามได้ ขณะที่สมาชิกเพิ่งเริ่มทำการโจมตี"
+			},
 			"buffAlreadyActive": {
 				"eng": "This war buff is already active",
 				"trans": "บัฟสงครามนี้เปิดใช้งานอยู่แล้ว"
 			},
 			"cannotToggleMember": {
-				"eng": "Cannot toggle this member's participation. They may not exist or cooldown is active",
-				"trans": "ไม่สามารถสลับการเข้าร่วมของสมาชิกนี้ได้ พวกเขาอาจไม่มีอยู่หรือกำลังใช้คูลดาวน์"
+				"eng": "Cannot change this member's war attack permission. They may not exist or cooldown is active",
+				"trans": "ไม่สามารถเปลี่ยนสิทธิ์โจมตีสงครามของสมาชิกนี้ เนื่องจากอาจไม่อยู่ในระบบหรือกำลังอยู่ในช่วงคูลดาวน์"
 			},
 			"disbandEngaged": {
-				"eng": "You cannot disband the gang while members have recently engaged in war combat",
-				"trans": "คุณไม่สามารถยกเลิกแก๊งได้ในขณะที่สมาชิกมีส่วนร่วมในการต่อสู้สงครามเมื่อเร็ว ๆ นี้"
+				"eng": "You cannot disband the gang while members have recently started war attacks",
+				"trans": "ไม่สามารถยุบแก๊งได้เนื่องจากมีสมาชิกเพิ่งเริ่มโจมตีสงคราม"
 			},
 			"disbandWarActive": {
 				"eng": "You cannot disband the gang while war mode is active",
@@ -2574,16 +2600,16 @@
 				"trans": "บัฟ ${buffName} ระดับสูงกว่ากำลังทำงานอยู่แล้ว"
 			},
 			"kickLocked": {
-				"eng": "Cannot kick a member who has recently engaged in war combat",
-				"trans": "ไม่สามารถไล่ออกสมาชิกที่เพิ่งเข้าร่วมการต่อสู้ในสงครามได้"
+				"eng": "Cannot kick a member who has recently started a war attack",
+				"trans": "ไม่สามารถเตะสมาชิกที่เพิ่งเริ่มโจมตีสงครามออกได้"
 			},
 			"leaderOnly": {
 				"eng": "Only the gang leader can perform this action",
 				"trans": "เฉพาะหัวหน้าแก๊งเท่านั้นที่สามารถดำเนินการนี้ได้"
 			},
 			"leaveLocked": {
-				"eng": "You cannot leave the gang while you have recently engaged in war combat",
-				"trans": "คุณไม่สามารถออกจากแก๊งได้ขณะมีการต่อสู้สงคราม"
+				"eng": "You cannot leave the gang after recently starting a war attack for ${hours} hours",
+				"trans": "ห้ามออกจากแก๊งเป็นระยะเวลา ${hours} ชั่วโมง หลังจากเพิ่งเริ่มการโจมตีสงคราม"
 			},
 			"notEnoughWarPoints": {
 				"eng": "Your gang does not have enough war points",
@@ -2600,10 +2626,6 @@
 			"warStateRequired": {
 				"eng": "Your gang must be in war state to deploy war buffs",
 				"trans": "แก๊งของคุณต้องอยู่ในสภาวะสงครามเพื่อใช้งานบัฟสงคราม"
-			},
-			"wip": {
-				"eng": "This feature is currently under development",
-				"trans": "ฟีเจอร์นี้กำลังอยู่ระหว่างการพัฒนา"
 			}
 		},
 		"lockedFeedback": {
@@ -2620,12 +2642,12 @@
 				"trans": "กลุ่มของคุณทำลายศัตรูต่อเนื่อง ${count} ครั้งแล้วสะสมคะแนนสงคราม ${reward}!"
 			},
 			"participationDisabled": {
-				"eng": "You have been removed from war participation by your gang leader. Your kills will no longer count towards gang war score.",
-				"trans": "หัวหน้าแก๊งของคุณได้ยกเลิกการเข้าร่วมสงครามของคุณ. การฆ่าของคุณจะไม่ถูกนำมาคำนวณคะแนนสงครามแก๊ง."
+				"eng": "Your gang leader disabled your war attack permission. You can no longer start war attacks, but other gangs can still attack you.",
+				"trans": "หัวหน้าแก๊งปิดสิทธิ์การทำสงครามของคุณแล้ว ห้ามเริ่มบุกคนอื่นได้อีกต่อไป แต่แก๊งอื่นยังเข้าตี你得"
 			},
 			"participationEnabled": {
-				"eng": "You have been added to war participation by your gang leader. You can now participate in gang wars.",
-				"trans": "คุณได้รับการเพิ่มเข้าร่วมสงครามจากหัวหน้ากลุ่มของคุณแล้ว คุณสามารถเข้าร่วมสงครามกลุ่มได้เลย"
+				"eng": "Your gang leader enabled your war attack permission. You can now start war attacks.",
+				"trans": "หัวหน้าแก๊งเปิดสิทธิ์การโจมตีสงครามให้คุณแล้ว คุณสามารถเริ่มโจมตีได้ทันที"
 			},
 			"warStateOff": {
 				"eng": "Your gang leader has disabled war mode. Your gang is no longer a war target.",
@@ -3839,10 +3861,6 @@
 				"eng": "Public strongholds",
 				"trans": "ป้อมไซเบอร์สาธารณะ"
 			}
-		},
-		"notEnoughResources": {
-			"eng": "You do not have enough resources, you may try ${difficulty} instead, ${error}",
-			"trans": "ของไม่พอว่ะ! ลอง ${difficulty} ดูไหม, ${error}"
 		}
 	},
 	"dungeonUI": {
@@ -6899,9 +6917,9 @@
 			}
 		},
 		"pvpProtection": {
-			"description": {
-				"eng": "Whoever invokes the Token of Peace shall not be attacked, use this to receive ${day} day of PVP protection buff",
-				"trans": "ผู้ใดใช้โทเคนแห่งสันติ จะไม่ถูกโจมตี ใช้สิ่งนี้เพื่อรับบัฟป้องกัน PVP ${day} วัน"
+			"description2": {
+				"eng": "Whoever invokes the Token of Peace shall not be attacked, use this to receive ${day} day of PVP protection buff (This does not protect against gang war attacks)",
+				"trans": "ผู้ใช้โทkenแห่งสันติจะปลอดภัยจากการโจมตี ใช้เพื่อรับสถานะคุ้มครองพีวีพี ${day} วัน (ไม่สามารถป้องกันสงครามแก๊งได้)"
 			},
 			"name": {
 				"eng": "Token of Peace",
@@ -11088,8 +11106,8 @@
 		},
 		"warWarning": {
 			"joinDescription": {
-				"eng": "This gang is in WAR MODE. Joining will expose you to war PvP attacks for ${hours} hours lock. Continue?",
-				"trans": "แก๊งนี้อยู่ในโหมดสงคราม การเข้าร่วมจะทำให้คุณตกเป็นเป้าโจมตี PvP และถูกล็อกเป็นเวลา ${hours} ชั่วโมง ยืนยัน?"
+				"eng": "This gang is in WAR MODE. Other gangs can attack you after you join, and starting war attacks can lock your leave or kick status for ${hours} hours. Continue?",
+				"trans": "แก๊งนี้อยู่ในโหมดสงคราม เมื่อคุณเข้าร่วมแก๊งอื่นจะสามารถโจมตีคุณได้ และการเริ่มทำสงครามจะล็อกสถานะการลาออกหรือการถูกไล่ออกเป็นเวลา ${hours} ชั่วโมง ดำเนินการต่อ?"
 			}
 		}
 	},
@@ -12030,6 +12048,14 @@
 		}
 	},
 	"permission": {
+		"clanDeployWarBuff": {
+			"eng": "Deploy Gang War Buffs",
+			"noPermission": {
+				"eng": "You do not have permission to deploy gang war buffs",
+				"trans": "ไม่มีสิทธิ์เปิดใช้งานบัฟสงครามแก๊ง"
+			},
+			"trans": "เปิดใช้บัฟสงครามแก๊งค์"
+		},
 		"clanEditMotto": {
 			"eng": "Edit Motto",
 			"noPermission": {
@@ -13572,8 +13598,8 @@
 				"trans": "ผู้เล่นนี้ถูกจับแล้ว"
 			},
 			"warLevelTooDiff": {
-				"eng": "You are too high level to attack this player",
-				"trans": "ระดับของคุณสูงเกินไปที่จะโจมตีผู้เล่นคน deste"
+				"eng": "You cannot engage a war target that is more than ${levelDiff} levels higher or below you",
+				"trans": "ไม่สามารถโจมตีเป้าหมายสงครามที่ระดับสูงกว่าหรือต่ำกว่าคุณเกิน ${levelDiff} ได้"
 			}
 		},
 		"combatLog": {
@@ -15561,6 +15587,10 @@
 			"trans": "บริจาคอุปกรณ์ชุบชีพ"
 		},
 		"error": {
+			"cannotReviveSelf": {
+				"eng": "You cannot revive yourself through the Trauma Bay.",
+				"trans": "ไม่สามารถฟื้นคืนชีพตัวเองผ่าน Trauma Bay ได้"
+			},
 			"noPermission": {
 				"eng": "You do not have permission to revive members.",
 				"trans": "คุณไม่มีสิทธิ์ในการคืนชีพสมาชิก"
@@ -16366,10 +16396,6 @@
 			"higherTierAlreadyActive": {
 				"eng": "A higher-tier ${buffName} buff is already active",
 				"trans": "บัฟ ${buffName} ระดับสูงกว่ากำลังทำงานอยู่แล้ว"
-			},
-			"leaderOnly": {
-				"eng": "Only the gang leader can deploy war buffs",
-				"trans": "เฉพาะหัวหน้ากลุ่มเท่านั้นที่สามารถปล่อยบัฟสงคราม"
 			},
 			"notEnoughWarPoints": {
 				"eng": "Your gang does not have enough war points",

@@ -1403,6 +1403,10 @@
 			"trans": "Отправлено ${amount} наборов для воскрешения в тайник Травма-бэя"
 		},
 		"error": {
+			"cannotReviveSelf": {
+				"eng": "You cannot revive yourself through the Trauma Bay",
+				"trans": "Вы не можете возродиться через травмоотделение."
+			},
 			"gangNotFound": {
 				"eng": "Your gang could not be found",
 				"trans": "Ваша банда не найдена"
@@ -1862,6 +1866,12 @@
 		}
 	},
 	"clan": {
+		"chat": {
+			"upkeepSoftReset": {
+				"eng": "Gang ranks have been reset because upkeep war points were insufficient.",
+				"trans": "Ранги банды были сброшены из-за нехватки военных очков на содержание."
+			}
+		},
 		"disbandMail": {
 			"subject": {
 				"eng": "Your gang has been disbanded",
@@ -2009,9 +2019,9 @@
 			}
 		},
 		"disbandLocked": {
-			"engagementLocked": {
-				"eng": "Cannot disband while members have recently engaged in war combat",
-				"trans": "Невозможно расформировать отряд пока участники недавно участвовали в войне"
+			"attackLocked": {
+				"eng": "Cannot disband while members have recently started war attacks",
+				"trans": "Невозможно расформировать, так как участники недавно инициировали боевые атаки"
 			},
 			"warActive": {
 				"eng": "Cannot disband while war mode is active. Disable war mode first.",
@@ -2019,9 +2029,9 @@
 			}
 		},
 		"disbandStatus": {
-			"engagementLocked": {
-				"eng": "Members recently engaged in war combat. Available in:",
-				"trans": "Участники, недавно участвовавшие в боевых действиях. Доступно в:"
+			"attackLocked": {
+				"eng": "Members recently started war attacks. Available in:",
+				"trans": "Участники недавно начали военные атаки. Доступно через:"
 			},
 			"title": {
 				"eng": "DISBAND LOCKED",
@@ -2144,8 +2154,8 @@
 	"clanMenuModal": {
 		"warWarning": {
 			"joinDescription": {
-				"eng": "This gang is in WAR MODE. Joining will expose you to War PvP attacks with ${hours} hours lock. Continue?",
-				"trans": "Эта банда в режиме войны. Вступление подвергнет вас PvP-атакам режима войны с блокировкой на ${hours} часов. Продолжить?"
+				"eng": "This gang is in WAR MODE. Other gangs can attack you after you join, and starting war attacks can lock your leave or kick status for ${hours} hours. Continue?",
+				"trans": "Эта банда находится в РЕЖИМЕ ВОЙНЫ. Другие банды могут атаковать вас после вступления, а начало боевых действий заблокирует возможность выхода или исключения на ${hours} часов. Продолжить?"
 			}
 		}
 	},
@@ -2169,12 +2179,12 @@
 	},
 	"clanPlayerPopup": {
 		"disableWarParticipation": {
-			"eng": "Disable War Participation",
-			"trans": "Отключить участие в войне"
+			"eng": "Disable War Attacks",
+			"trans": "Отключить атаки в войне"
 		},
 		"enableWarParticipation": {
-			"eng": "Enable War Participation",
-			"trans": "Включить участие в войне"
+			"eng": "Enable War Attacks",
+			"trans": "Включить боевые атаки"
 		},
 		"kickPlayerButton": {
 			"eng": "kick player",
@@ -2189,12 +2199,12 @@
 			"trans": "Ранг"
 		},
 		"statusActive": {
-			"eng": "ACTIVE",
-			"trans": "АКТИВНО"
+			"eng": "ENABLED",
+			"trans": "ВКЛЮЧЕНО"
 		},
 		"statusInactive": {
-			"eng": "INACTIVE",
-			"trans": "Неактивен"
+			"eng": "DISABLED",
+			"trans": "ОТКЛЮЧЕНО"
 		},
 		"transferOwnership": {
 			"eng": "Transfer Ownership",
@@ -2208,9 +2218,13 @@
 			"eng": "Are you sure you want to transfer ownership of the gang to ${playerName}.\\nthis cannot be undone.",
 			"trans": "Вы уверены, что хотите передать владение бандой игроку ${playerName}?\nЭто действие необратимо."
 		},
+		"warPermissionHelp": {
+			"eng": "Controls whether this member can start war attacks. Disabling it does not stop other players from attacking them, and leaders can use it to prevent repeated attacks from refreshing the wartime kick lock.",
+			"trans": "Управляет возможностью участника инициировать военные атаки. Отключение этой опции не защищает его от атак других игроков, но позволяет руководителям предотвращать обновление таймера блокировки выгона в военное время при повторных атаках."
+		},
 		"warStatus": {
-			"eng": "War Participation",
-			"trans": "Участие в войне"
+			"eng": "War Attack Permission",
+			"trans": "Разрешение на военные атаки"
 		},
 		"warToggleCooldown": {
 			"eng": "Cooldown: ${time}",
@@ -2504,8 +2518,8 @@
 	"clanTabNoClanContent": {
 		"warWarning": {
 			"joinDescription": {
-				"eng": "This gang is in WAR MODE. Joining will expose you to PvP attacks and 24h participation locks. Continue?",
-				"trans": "Эта банда в режиме войны. Вступление сделает вас мишенью для атак PvP и заблокирует участие на 24 часа. Продолжить?"
+				"eng": "This gang is in WAR MODE. Joining means other gangs can attack you, and starting war attacks can lock your leave or kick status for 24 hours. Continue?",
+				"trans": "Эта банда находится в БОЕВОМ РЕЖИМЕ. После вступления другие банды смогут атаковать вас, а инициирование боев заблокирует возможность выхода или исключения из группы на 24 часа. Продолжить?"
 			}
 		}
 	},
@@ -2534,8 +2548,8 @@
 				"trans": "Включение режима ВОЙНА сделает ВСЕХ членов банды целью для атак PvP. Возможность выхода будет ЗАБЛОКИРОВАНА на 24 часа. Продолжить?"
 			},
 			"requestDescription": {
-				"eng": "This gang is in WAR MODE. If accepted, joining will expose you to PvP attacks and 24h participation locks. Continue?",
-				"trans": "Эта банда в режиме войны. Если присоединиться, вы подвергнетесь атакам PvP и блокировке участия на 24 часа. Продолжить?"
+				"eng": "This gang is in WAR MODE. If accepted, other gangs can attack you, and starting war attacks can lock your leave or kick status for 24 hours. Continue?",
+				"trans": "Эта банда находится в режиме войны. Если вы согласитесь, другие банды смогут атаковать вас, а начало боевых действий заблокирует выход или исключение из банды на 24 часа. Продолжить?"
 			},
 			"title": {
 				"eng": "WAR MODE WARNING",
@@ -2553,17 +2567,29 @@
 			}
 		},
 		"error": {
+			"attackLockActive": {
+				"eng": "Cannot disable war mode while members have recently started war attacks. Recent attackers (time since attack): ${attackers}",
+				"trans": "Невозможно отключить режим войны, так как участники недавно начали боевые атаки. Недавние нападающие (время с момента атаки): ${attackers}",
+				"withMore": {
+					"eng": "Cannot disable war mode while members have recently started war attacks. Recent attackers (time since attack): ${attackers}, and ${count} more",
+					"trans": "Невозможно отключить режим войны во время недавних боевых атак участников. Недавние нападавшие (время с момента атаки): ${attackers} и ещё ${count}"
+				}
+			},
+			"attackLockActiveBase": {
+				"eng": "Cannot disable war mode while members have recently started war attacks",
+				"trans": "Невозможно отключить режим войны до завершения недавно начатых участниками атак"
+			},
 			"buffAlreadyActive": {
 				"eng": "This war buff is already active",
 				"trans": "Этот боевой бафф уже активен"
 			},
 			"cannotToggleMember": {
-				"eng": "Cannot toggle this member's participation. They may not exist or cooldown is active",
-				"trans": "Нельзя переключить участие этого участника. Возможно, он не существует или действует кулдаун."
+				"eng": "Cannot change this member's war attack permission. They may not exist or cooldown is active",
+				"trans": "Не удалось изменить права на атаку в войне для этого участника. Возможно, он не найден или активен таймер восстановления."
 			},
 			"disbandEngaged": {
-				"eng": "You cannot disband the gang while members have recently engaged in war combat",
-				"trans": "Вы не можете распустить банду, пока членыRecently вели боевые действия"
+				"eng": "You cannot disband the gang while members have recently started war attacks",
+				"trans": "Вы не можете распустить банду, пока участники недавно начали боевые действия."
 			},
 			"disbandWarActive": {
 				"eng": "You cannot disband the gang while war mode is active",
@@ -2574,16 +2600,16 @@
 				"trans": "Бафф ${buffName} более высокого уровня уже активен"
 			},
 			"kickLocked": {
-				"eng": "Cannot kick a member who has recently engaged in war combat",
-				"trans": "Нельзя исключить участника, который недавно участвовал в боевых действиях."
+				"eng": "Cannot kick a member who has recently started a war attack",
+				"trans": "Невозможно выгнать участника, который недавно начал атаку в войне."
 			},
 			"leaderOnly": {
 				"eng": "Only the gang leader can perform this action",
 				"trans": "Только лидер банды может выполнить это действие"
 			},
 			"leaveLocked": {
-				"eng": "You cannot leave the gang while you have recently engaged in war combat",
-				"trans": "Вы не можете покинуть банду после недавних боевых действий"
+				"eng": "You cannot leave the gang after recently starting a war attack for ${hours} hours",
+				"trans": "Вы не можете покинуть банду в течение ${hours} часов после инициации атаки."
 			},
 			"notEnoughWarPoints": {
 				"eng": "Your gang does not have enough war points",
@@ -2600,10 +2626,6 @@
 			"warStateRequired": {
 				"eng": "Your gang must be in war state to deploy war buffs",
 				"trans": "Ваша банда должна находиться в состоянии войны для активации боевых баффов"
-			},
-			"wip": {
-				"eng": "This feature is currently under development",
-				"trans": "Эта функция в настоящее время находится в разработке"
 			}
 		},
 		"lockedFeedback": {
@@ -2620,12 +2642,12 @@
 				"trans": "Ваша банда достигла серии из ${count} убийств и заработала ${reward} очков войны!"
 			},
 			"participationDisabled": {
-				"eng": "You have been removed from war participation by your gang leader. Your kills will no longer count towards gang war score.",
-				"trans": "Вас отстранили от участия в войне лидером вашей банды. Ваши убийства больше не засчитываются в счет войны банды."
+				"eng": "Your gang leader disabled your war attack permission. You can no longer start war attacks, but other gangs can still attack you.",
+				"trans": "Лидер вашей банды отключил ваше разрешение на боевые атаки. Вы больше не можете начинать нападения, но другие банды всё ещё могут атаковать вас."
 			},
 			"participationEnabled": {
-				"eng": "You have been added to war participation by your gang leader. You can now participate in gang wars.",
-				"trans": "Лидер вашей банды включил вас в число участников войны. Теперь вы можете участвовать в войнах банд."
+				"eng": "Your gang leader enabled your war attack permission. You can now start war attacks.",
+				"trans": "Глава вашей банды предоставил вам разрешение на атаки во время войны. Теперь вы можете приступать к боевым действиям."
 			},
 			"warStateOff": {
 				"eng": "Your gang leader has disabled war mode. Your gang is no longer a war target.",
@@ -3839,10 +3861,6 @@
 				"eng": "Public strongholds",
 				"trans": "Общественные крепости"
 			}
-		},
-		"notEnoughResources": {
-			"eng": "You do not have enough resources, you may try ${difficulty} instead, ${error}",
-			"trans": "У вас недостаточно ресурсов, попробуйте вместо этого ${difficulty}, ${error}"
 		}
 	},
 	"dungeonUI": {
@@ -6899,9 +6917,9 @@
 			}
 		},
 		"pvpProtection": {
-			"description": {
-				"eng": "Whoever invokes the Token of Peace shall not be attacked, use this to receive ${day} day of PVP protection buff",
-				"trans": "Тот, кто призывает Токен Мира, не будет атакован, используйте его, чтобы получить ${day} дней баффа защиты в PVP"
+			"description2": {
+				"eng": "Whoever invokes the Token of Peace shall not be attacked, use this to receive ${day} day of PVP protection buff (This does not protect against gang war attacks)",
+				"trans": "Активация Знака мира защищает от атак. Используйте предмет для получения эффекта защиты в PvP на ${day} дн. (Не действует против атак в войнах банд)"
 			},
 			"name": {
 				"eng": "Token of Peace",
@@ -11088,8 +11106,8 @@
 		},
 		"warWarning": {
 			"joinDescription": {
-				"eng": "This gang is in WAR MODE. Joining will expose you to war PvP attacks for ${hours} hours lock. Continue?",
-				"trans": "Эта банда в режиме войны. Вступление сделает вас мишенью для PVP атак на ${hours} часов. Продолжить?"
+				"eng": "This gang is in WAR MODE. Other gangs can attack you after you join, and starting war attacks can lock your leave or kick status for ${hours} hours. Continue?",
+				"trans": "Эта банда находится в РЕЖИМЕ ВОЙНЫ. Другие банды могут атаковать вас после вступления, а начало боевых действий заблокирует возможность выхода или исключения на ${hours} часов. Продолжить?"
 			}
 		}
 	},
@@ -12030,6 +12048,14 @@
 		}
 	},
 	"permission": {
+		"clanDeployWarBuff": {
+			"eng": "Deploy Gang War Buffs",
+			"noPermission": {
+				"eng": "You do not have permission to deploy gang war buffs",
+				"trans": "У вас нет разрешения на активацию баффов для войн банд"
+			},
+			"trans": "Активировать усиления для войн банд"
+		},
 		"clanEditMotto": {
 			"eng": "Edit Motto",
 			"noPermission": {
@@ -13572,8 +13598,8 @@
 				"trans": "Этот игрок уже был арестован"
 			},
 			"warLevelTooDiff": {
-				"eng": "You are too high level to attack this player",
-				"trans": "Вы слишком высокого уровня, чтобы атаковать этого игрока."
+				"eng": "You cannot engage a war target that is more than ${levelDiff} levels higher or below you",
+				"trans": "Вы не можете атаковать цель войны, уровень которой выше или ниже вашего более чем на ${levelDiff} уровней."
 			}
 		},
 		"combatLog": {
@@ -15561,6 +15587,10 @@
 			"trans": "Пожертвовать наборы для воскрешения"
 		},
 		"error": {
+			"cannotReviveSelf": {
+				"eng": "You cannot revive yourself through the Trauma Bay.",
+				"trans": "Вы не можете возродиться через отделение реанимации."
+			},
 			"noPermission": {
 				"eng": "You do not have permission to revive members.",
 				"trans": "У вас недостаточно прав для воскрешения участников."
@@ -16366,10 +16396,6 @@
 			"higherTierAlreadyActive": {
 				"eng": "A higher-tier ${buffName} buff is already active",
 				"trans": "Бафф ${buffName} более высокого уровня уже активен"
-			},
-			"leaderOnly": {
-				"eng": "Only the gang leader can deploy war buffs",
-				"trans": "Только лидер банды может активировать боевые усиления"
 			},
 			"notEnoughWarPoints": {
 				"eng": "Your gang does not have enough war points",
