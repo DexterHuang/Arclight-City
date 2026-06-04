@@ -2115,8 +2115,8 @@
 			"trans": "Ressourcen"
 		},
 		"upkeepTip": {
-			"eng": "Ensure the clan has enough resources and funds to avoid losing the gang. Note: Role upkeep uses war points; failing it causes war state reset and demotions, not gang deletion.",
-			"trans": "Stellen Sie sicher, dass der Clan über ausreichend Ressourcen und Mittel verfügt, um den Verlust der Gang zu vermeiden. Hinweis: Das Unterhalten von Rollen kostet Kriegspunkte; bei Nichterfüllung werden Kriegszustand zurückgesetzt sowie Herabstufungen verhängt, nicht jedoch die Gang gelöscht."
+			"eng": "Ensure the clan has enough resources and funds to avoid losing the gang. Note: role upkeep uses war points; failing it causes rank demotions, not gang deletion.",
+			"trans": "Stellt sicher, dass der Clan über ausreichend Ressourcen und Mittel verfügt, um den Verlust der Gang zu vermeiden. Hinweis: Der Rollenunterhalt verbraucht Kriegspunkte; Ein Nichterfüllen führt zu Rangniederstufungen, nicht zur Löschung der Gang."
 		},
 		"upkeepTipTitle": {
 			"eng": "Insufficient Base Upkeep",
@@ -3187,6 +3187,28 @@
 				"eng": "Universal Dollars",
 				"trans": "Universal Dollars"
 			}
+		}
+	},
+	"dailyQuestProgressStrip": {
+		"complete": {
+			"eng": "Daily Set Complete",
+			"trans": "Tägliches Set abgeschlossen"
+		},
+		"pending": {
+			"eng": "Contracts Pending",
+			"trans": "Ausstehende Verträge"
+		},
+		"ready": {
+			"eng": "Ready To Claim",
+			"trans": "Bereit zum Einlösen"
+		},
+		"reset": {
+			"eng": "Reset T-",
+			"trans": "Zurücksetzen T-"
+		},
+		"title": {
+			"eng": "Daily Contracts",
+			"trans": "Tägliche Aufträge"
 		}
 	},
 	"dailyQuestTab": {
@@ -7358,8 +7380,8 @@
 		},
 		"zaraKhan": {
 			"biography": {
-				"eng": "Conflict isn't just fought on battlefields; it's waged in boardrooms, data streams, and the shadow networks tangled in the PAC-FSA cold war. I am Zara Khan. With a background dissecting global threats, I provide clear-eyed analysis of the forces, from Arclight's corpo council to offshore powers, vying for control.",
-				"trans": "Konflikte werden nicht nur auf Schlachtfeldern ausgetragen; sie werden in Vorstandsetagen, Datenströmen und den Schattennetzwerken des Pazifik-FSA-Kalten Krieges geführt. Ich bin Zara Khan. Mit einem Hintergrund in der Analyse globaler Bedrohungen liefere ich eine ungeschönte Analyse der Kräfte, von Arclights Konzernrat bis hin zu Offshore-Mächten, die um die Kontrolle wetteifern."
+				"eng": "Conflict isn't just fought on battlefields; it's waged in boardrooms, data streams, and the shadow networks tangled between the Pan-Asian Cooperative, American Federation, and Eastern Continental Alliance. I am Zara Khan. With a background dissecting global threats, I provide clear-eyed analysis of the forces, from Arclight's corpo council to offshore powers, vying for control.",
+				"trans": "Konflikte werden nicht nur auf Schlachtfeldern ausgetragen; sie finden in Konferenzräumen, Datenströmen und den Schattennetzen statt, die zwischen der Pan-Asiatischen Kooperation, der Amerikanischen Föderation und der Ostkontinentalallianz verflochten sind. Ich bin Zara Khan. Dank meiner Erfahrung in der Analyse globaler Bedrohungen liefere ich eine nüchterne Einschätzung der Kräfte, vom Korporatsrat Arclights bis zu den Offshore-Mächten, die um die Kontrolle kämpfen."
 			},
 			"displayName": {
 				"eng": "Zara Khan",
@@ -8512,13 +8534,29 @@
 		}
 	},
 	"loginStreak": {
+		"brokenStreakLabel": {
+			"eng": "Streak Broken",
+			"trans": "Serie unterbrochen"
+		},
+		"collectPendingRewardsFirst": {
+			"eng": "Collect pending rewards first",
+			"trans": "Hole zuerst ausstehende Belohnungen ab."
+		},
 		"collectReward": {
 			"eng": "Collect Reward",
 			"trans": "Belohnung sammeln"
 		},
+		"collectionOnlyCompactDescription": {
+			"eng": "Collect pending rewards to reset and resume unlocks.",
+			"trans": "Sammle ausstehende Belohnungen ein, um den Fortschritt zurückzusetzen und fortzuführen."
+		},
+		"collectionOnlyTitle": {
+			"eng": "Collection Only",
+			"trans": "Nur zur Sammlung"
+		},
 		"consecutiveDays": {
-			"eng": "Consecutive Days",
-			"trans": "Aufeinanderfolgende Tage"
+			"eng": "Unlocked Days",
+			"trans": "Entsperrte Tage"
 		},
 		"dayOfTotal": {
 			"eng": "Day ${day} / ${total}",
@@ -8552,9 +8590,9 @@
 			"eng": "Deployment Tracker",
 			"trans": "Einsatztracker"
 		},
-		"progressLabel": {
-			"eng": "Progress",
-			"trans": "Fortschritt"
+		"pendingRewardsCount": {
+			"eng": "${count} Pending",
+			"trans": "${count} Ausstehend"
 		},
 		"progressValue": {
 			"eng": "${current} / ${total}",
@@ -8567,6 +8605,14 @@
 		"rewardData": {
 			"eng": "Reward Data",
 			"trans": "Belohnungsdaten"
+		},
+		"statusActive": {
+			"eng": "Active",
+			"trans": "Aktiv"
+		},
+		"statusBlocked": {
+			"eng": "Blocked",
+			"trans": "Blockiert"
 		},
 		"statusClaimable": {
 			"eng": "Claimable",
@@ -10901,20 +10947,20 @@
 	},
 	"newsPage": {
 		"aboutAuthor": {
-			"eng": "ABOUT THE AUTHOR",
-			"trans": "ÜBER DEN AUTOR"
+			"eng": "OPERATIVE DOSSIER",
+			"trans": "AGENTENDOSSIER"
 		},
 		"backButton": {
-			"eng": "ALL NEWS",
-			"trans": "Alle Nachrichten"
+			"eng": "DISCONNECT / RETURN",
+			"trans": "VERBINDUNG TRENNEN / ZURÜCKKEHREN"
 		},
 		"backToList": {
 			"eng": "RETURN TO NEWS FEED",
 			"trans": "ZURÜCK ZU DEN NEWS"
 		},
 		"breaking": {
-			"eng": "BREAKING",
-			"trans": "Eilmeldung"
+			"eng": "URGENT INTELLIGENCE",
+			"trans": "DRINGLICHE AUFKLÄRUNG"
 		},
 		"emoji": {
 			"noEmojiYet": {
@@ -10932,13 +10978,9 @@
 				"trans": "Zugriff fehlgeschlagen: Nachrichten"
 			}
 		},
-		"featuredStory": {
-			"eng": "FEATURED STORY",
-			"trans": "FEATURED STORY"
-		},
 		"keyPoints": {
-			"eng": "KEY POINTS",
-			"trans": "KERNPUNKTE"
+			"eng": "EXTRACTED INTEL",
+			"trans": "EXTRAHIERTE INFORMATIONEN"
 		},
 		"latestNews": {
 			"eng": "LATEST REPORTS",
@@ -10953,8 +10995,8 @@
 			"trans": "DATEN NICHT VERFÜGBAR"
 		},
 		"published": {
-			"eng": "PUBLISHED",
-			"trans": "Veröffentlicht"
+			"eng": "DECRYPTED",
+			"trans": "ENTSCHLÜSSELT"
 		},
 		"reactions": {
 			"react": {
@@ -10967,12 +11009,8 @@
 			}
 		},
 		"readMore": {
-			"eng": "READ MORE",
-			"trans": "Mehr erfahren"
-		},
-		"reportBy": {
-			"eng": "REPORT BY",
-			"trans": "Quelle"
+			"eng": "ACCESS FILE",
+			"trans": "DATEIZUGRIFF"
 		},
 		"reportNotFound": {
 			"eng": "NEWS REPORT NOT FOUND",
@@ -10983,8 +11021,8 @@
 			"trans": "TEILEN"
 		},
 		"slogan": {
-			"eng": "YOUR TRUSTED SOURCE FOR ARCLIGHT CITY NEWS AND EVENTS",
-			"trans": "ARCLIGHT CITY AKTUELL: IHR VERTRAUTER NEWS- UND EVENT-SPOT"
+			"eng": "GLOBAL INFO_NET // ARCLIGHT BROADCAST",
+			"trans": "GLOBAL INFO_NET // ARCLIGHT-ÜBERTRAGUNG"
 		},
 		"totalReactions": {
 			"eng": "${totalReactions} reactions",
@@ -16616,6 +16654,18 @@
 		}
 	},
 	"wikiPage": {
+		"archiveStatus": {
+			"eng": "Archive",
+			"trans": "Archiv"
+		},
+		"commandBody": {
+			"eng": "Browse tactical tutorials and world dossiers without hunting through article links.",
+			"trans": "Durchsuchen Sie taktische Anleitungen und Weltdossiers, ohne durch Artikel-Links wühlen zu müssen."
+		},
+		"commandLabel": {
+			"eng": "Knowledge Index",
+			"trans": "Wissensindex"
+		},
 		"noResults": {
 			"eng": "No results found",
 			"trans": "Keine Ergebnisse gefunden"
@@ -16627,6 +16677,738 @@
 		"subtitle": {
 			"eng": "the free encyclopedia that anyone can edit",
 			"trans": "die freie Enzyklopädie, die jeder bearbeiten kann"
+		},
+		"worldDossiersTitle": {
+			"eng": "World Dossiers",
+			"trans": "Weltdossiers"
+		}
+	},
+	"worldEntity": {
+		"acpd": {
+			"eng": "Arclight City Police Department",
+			"trans": "Stadtpolizei Arclight City"
+		},
+		"akiraTanaka": {
+			"eng": "Chairman Akira Tanaka",
+			"trans": "Vorsitzender Akira Tanaka"
+		},
+		"americanFederation": {
+			"eng": "American Federation",
+			"trans": "Amerikanische Föderation"
+		},
+		"arcEnergyHoldings": {
+			"eng": "Arc Energy Holdings",
+			"trans": "Arc Energie Holding"
+		},
+		"arclightCity": {
+			"eng": "Arclight City",
+			"trans": "Arclight City"
+		},
+		"arclightCorporateCouncil": {
+			"eng": "Arclight Corporate Council",
+			"trans": "Arclight-Korporationsrat"
+		},
+		"arclightTimes": {
+			"eng": "Arclight Times",
+			"trans": "Arclight Times"
+		},
+		"biosynIndustries": {
+			"eng": "BioSyn Industries",
+			"trans": "BioSyn Industries"
+		},
+		"blackMarket": {
+			"eng": "Black Market",
+			"trans": "Schwarzer Markt"
+		},
+		"chirp": {
+			"eng": "Chirp",
+			"trans": "Chirp"
+		},
+		"churchOfPachinko": {
+			"eng": "Church of Pachinko",
+			"trans": "Pachinkokirche"
+		},
+		"churchOfTheSingularity": {
+			"eng": "Church of the Singularity",
+			"trans": "Kirche der Singularität"
+		},
+		"circuitbreak": {
+			"eng": "CircuitBreak",
+			"trans": "CircuitBreak"
+		},
+		"circuitbreakIntelligenceDivision": {
+			"eng": "CircuitBreak Intelligence Division",
+			"trans": "CircuitBreak Intelligenz-Division"
+		},
+		"easternContinentalAlliance": {
+			"eng": "Eastern Continental Alliance",
+			"trans": "Ostkontinentalallianz"
+		},
+		"elaraVoss": {
+			"eng": "Dr. Elara Voss",
+			"trans": "Dr. Elara Voss"
+		},
+		"elenaVasquez": {
+			"eng": "Governor Elena Vasquez",
+			"trans": "Gouverneurin Elena Vasquez"
+		},
+		"europeanFederation": {
+			"eng": "European Federation",
+			"trans": "Europäische Föderation"
+		},
+		"israeliTechRepublic": {
+			"eng": "Israeli Tech Republic",
+			"trans": "Israelische Tech-Republik"
+		},
+		"jacksonMorrison": {
+			"eng": "President Jackson Morrison",
+			"trans": "Präsident Jackson Morrison"
+		},
+		"liWei": {
+			"eng": "Premier Li Wei",
+			"trans": "Premierminister Li Wei"
+		},
+		"magnusLindqvist": {
+			"eng": "Chancellor Magnus Lindqvist",
+			"trans": "Kanzler Magnus Lindqvist"
+		},
+		"megaestate": {
+			"eng": "MegaEstate",
+			"trans": "MegaImmobilien"
+		},
+		"michelleChen": {
+			"eng": "President Dr. Michelle Chen",
+			"trans": "Präsidentin Dr. Michelle Chen"
+		},
+		"neoFormosa": {
+			"eng": "Neo Formosa",
+			"trans": "Neo Formosa"
+		},
+		"neoNippon": {
+			"eng": "Neo Nippon",
+			"trans": "Neo Nippon"
+		},
+		"newRepublicOfCalifornia": {
+			"eng": "New Republic of California",
+			"trans": "Neue Kalifornische Republik"
+		},
+		"ouroborosDynamics": {
+			"eng": "Ouroboros Dynamics",
+			"trans": "Ouroboros Dynamics"
+		},
+		"panAsianCooperative": {
+			"eng": "Pan-Asian Cooperative",
+			"trans": "Panasiatische Kooperation"
+		},
+		"persianGulfConsortium": {
+			"eng": "Persian Gulf Consortium",
+			"trans": "Konsortium des Persischen Golfs"
+		},
+		"rezaHosseini": {
+			"eng": "Supreme Leader Ayatollah Reza Hosseini",
+			"trans": "Oberster Führer Ayatollah Reza Hosseini"
+		},
+		"sarahGoldman": {
+			"eng": "Prime Minister-CEO Sarah Goldman",
+			"trans": "Bundeskanzlerin-CEO Sarah Goldman"
+		},
+		"shinkaiExchangeGroup": {
+			"eng": "SHINKAI Exchange Group",
+			"trans": "SHINKAI Börsengruppe"
+		},
+		"taixingCybernetic": {
+			"eng": "TaiXing Cybernetic",
+			"trans": "TaiXing Cybernetic"
+		},
+		"technomancers": {
+			"eng": "Technomancers",
+			"trans": "Technomanten"
+		},
+		"traumaTeam": {
+			"eng": "Trauma Team",
+			"trans": "Trauma-Team"
+		},
+		"type": {
+			"corporation": {
+				"eng": "Corporation",
+				"trans": "Korporation"
+			},
+			"organization": {
+				"eng": "Organization",
+				"trans": "Organisation"
+			},
+			"person": {
+				"eng": "Person",
+				"trans": "Person"
+			},
+			"politicalEntity": {
+				"eng": "Political Entity",
+				"trans": "Politische Einheit"
+			}
+		},
+		"viktorPetrov": {
+			"eng": "Marshal Viktor Petrov",
+			"trans": "Marschall Viktor Petrov"
+		}
+	},
+	"worldEntityAlias": {
+		"acpd": {
+			"arclightPolice": {
+				"eng": "Arclight police",
+				"trans": "Arclight Polizei"
+			},
+			"arclightPoliceDepartment": {
+				"eng": "Arclight Police Department",
+				"trans": "Polizeipräsidium Arclight"
+			}
+		},
+		"akiraTanaka": {
+			"akiraTanaka": {
+				"eng": "Akira Tanaka",
+				"trans": "Akira Tanaka"
+			},
+			"chairmanTanaka": {
+				"eng": "Chairman Tanaka",
+				"trans": "Vorsitzender Tanaka"
+			},
+			"tanaka": {
+				"eng": "Tanaka",
+				"trans": "Tanaka"
+			}
+		},
+		"americanFederation": {
+			"americanBloc": {
+				"eng": "American bloc",
+				"trans": "Amerikanischer Block"
+			},
+			"federation": {
+				"eng": "Federation",
+				"trans": "Föderation"
+			},
+			"federationGovernment": {
+				"eng": "Federation government",
+				"trans": "Bundesregierung"
+			},
+			"formerUnitedStates": {
+				"eng": "former United States",
+				"trans": "ehemalige Vereinigte Staaten"
+			}
+		},
+		"arcEnergyHoldings": {
+			"arcEnergy": {
+				"eng": "Arc Energy",
+				"trans": "Bogenenergie"
+			},
+			"arcEnergyCorporation": {
+				"eng": "Arc Energy corporation",
+				"trans": "Arc Energie Korporation"
+			},
+			"arcenergy": {
+				"eng": "ArcEnergy",
+				"trans": "Bogenenergie"
+			},
+			"arcenergyHoldings": {
+				"eng": "ArcEnergy Holdings",
+				"trans": "ArcEnergy Holdings"
+			}
+		},
+		"arclightCity": {
+			"arclight": {
+				"eng": "Arclight",
+				"trans": "Arclight"
+			},
+			"corporateCityState": {
+				"eng": "corporate city-state",
+				"trans": "Korporations-Stadtstaat"
+			}
+		},
+		"arclightCorporateCouncil": {
+			"arclightCorporateCouncil": {
+				"eng": "Arclight corporate council",
+				"trans": "Arclight Konzernrat"
+			},
+			"arclightCouncil": {
+				"eng": "Arclight council",
+				"trans": "Arclight Rat"
+			}
+		},
+		"arclightTimes": {
+			"arclightNewsOutlet": {
+				"eng": "Arclight news outlet",
+				"trans": "Arclight Nachrichtenagentur"
+			},
+			"theTimes": {
+				"eng": "The Times",
+				"trans": "Die Zeiten"
+			},
+			"times": {
+				"eng": "Times",
+				"trans": "Mal"
+			}
+		},
+		"biosynIndustries": {
+			"biosyn": {
+				"eng": "BioSyn",
+				"trans": "BioSyn"
+			},
+			"biosynLabs": {
+				"eng": "BioSyn Labs",
+				"trans": "BioSyn Labore"
+			}
+		},
+		"blackMarket": {
+			"arclightBlackMarket": {
+				"eng": "Arclight Black Market",
+				"trans": "Arclight Schwarzer Markt"
+			},
+			"theBlackMarket": {
+				"eng": "The Black Market",
+				"trans": "Der Schwarzmarkt"
+			},
+			"undergroundBlackMarket": {
+				"eng": "underground black market",
+				"trans": "unterirdischer Schwarzmarkt"
+			}
+		},
+		"chirp": {
+			"socialNetwork": {
+				"eng": "Chirp social network",
+				"trans": "Chirp soziales Netzwerk"
+			},
+			"socialPlatform": {
+				"eng": "Chirp social platform",
+				"trans": "Soziales Netzwerk Chirp"
+			}
+		},
+		"churchOfPachinko": {
+			"gamblingCult": {
+				"eng": "gambling cult",
+				"trans": "Glücksspielsekte"
+			},
+			"goddessOfPachinko": {
+				"eng": "Goddess of Pachinko",
+				"trans": "Pachinko-Göttin"
+			},
+			"pachinkoFaith": {
+				"eng": "Pachinko faith",
+				"trans": "Pachinko-Glaube"
+			}
+		},
+		"churchOfTheSingularity": {
+			"aiAscensionCult": {
+				"eng": "AI ascension cult",
+				"trans": "Kult des KI-Aufstiegs"
+			},
+			"churchOfSingularity": {
+				"eng": "Church of Singularity",
+				"trans": "Kirche der Singularität"
+			},
+			"singularityChurch": {
+				"eng": "Singularity Church",
+				"trans": "Kirche der Singularität"
+			},
+			"technoReligiousMovement": {
+				"eng": "techno-religious movement",
+				"trans": "Technoreligiöse Bewegung"
+			}
+		},
+		"circuitbreak": {
+			"circuitBreakSecurity": {
+				"eng": "CircuitBreak Security",
+				"trans": "CircuitBreak Sicherheit"
+			},
+			"securitySolutions": {
+				"eng": "CircuitBreak Security Solutions",
+				"trans": "CircuitBreak Sicherheitslösungen"
+			}
+		},
+		"circuitbreakIntelligenceDivision": {
+			"circuitbreakIntelligence": {
+				"eng": "CircuitBreak Intelligence",
+				"trans": "CircuitBreak-Intelligenz"
+			},
+			"circuitbreakIntelligenceUnit": {
+				"eng": "CircuitBreak intelligence unit",
+				"trans": "CircuitBreak Nachrichtendienst"
+			},
+			"intelligenceDivision": {
+				"eng": "Intelligence Division",
+				"trans": "Intelligenz-Division"
+			}
+		},
+		"easternContinentalAlliance": {
+			"continentalAlliance": {
+				"eng": "Continental Alliance",
+				"trans": "Kontinentale Allianz"
+			},
+			"easternBloc": {
+				"eng": "Eastern bloc",
+				"trans": "Ostblock"
+			}
+		},
+		"elaraVoss": {
+			"drVoss": {
+				"eng": "Dr. Voss",
+				"trans": "Dr. Voss"
+			},
+			"elaraVoss": {
+				"eng": "Elara Voss",
+				"trans": "Elara Voss"
+			},
+			"voss": {
+				"eng": "Voss",
+				"trans": "Voss"
+			}
+		},
+		"elenaVasquez": {
+			"elenaVasquez": {
+				"eng": "Elena Vasquez",
+				"trans": "Elena Vasquez"
+			},
+			"governorVasquez": {
+				"eng": "Governor Vasquez",
+				"trans": "Gouverneur Vasquez"
+			},
+			"vasquez": {
+				"eng": "Vasquez",
+				"trans": "Vasquez"
+			}
+		},
+		"europeanFederation": {
+			"europeanBloc": {
+				"eng": "European bloc",
+				"trans": "Europäischer Block"
+			},
+			"europeanSuperState": {
+				"eng": "European super-state",
+				"trans": "Europäischer Superstaat"
+			}
+		},
+		"israeliTechRepublic": {
+			"israel": {
+				"eng": "Israel",
+				"trans": "Israel"
+			},
+			"israeliTechnologyState": {
+				"eng": "Israeli technology state",
+				"trans": "Israelischer Technologiestatus"
+			},
+			"techRepublic": {
+				"eng": "Tech Republic",
+				"trans": "Technorepublik"
+			}
+		},
+		"jacksonMorrison": {
+			"jacksonMorrison": {
+				"eng": "Jackson Morrison",
+				"trans": "Jackson Morrison"
+			},
+			"morrison": {
+				"eng": "Morrison",
+				"trans": "Morrison"
+			},
+			"presidentMorrison": {
+				"eng": "President Morrison",
+				"trans": "Präsident Morrison"
+			}
+		},
+		"liWei": {
+			"li": {
+				"eng": "Li",
+				"trans": "Li"
+			},
+			"liWei": {
+				"eng": "Li Wei",
+				"trans": "Li Wei"
+			},
+			"premierLi": {
+				"eng": "Premier Li",
+				"trans": "Premier Li"
+			}
+		},
+		"magnusLindqvist": {
+			"chancellorLindqvist": {
+				"eng": "Chancellor Lindqvist",
+				"trans": "Kanzler Lindqvist"
+			},
+			"lindqvist": {
+				"eng": "Lindqvist",
+				"trans": "Lindqvist"
+			},
+			"magnusLindqvist": {
+				"eng": "Magnus Lindqvist",
+				"trans": "Magnus Lindqvist"
+			}
+		},
+		"megaestate": {
+			"housingAgency": {
+				"eng": "housing agency",
+				"trans": "Wohnungsagentur"
+			},
+			"megaEstate": {
+				"eng": "Mega Estate",
+				"trans": "Megaanwesen"
+			},
+			"propertyCorporation": {
+				"eng": "property corporation",
+				"trans": "Immobilienkonzern"
+			}
+		},
+		"michelleChen": {
+			"chen": {
+				"eng": "Chen",
+				"trans": "Chen"
+			},
+			"drChen": {
+				"eng": "Dr. Chen",
+				"trans": "Doktor Chen"
+			},
+			"michelleChen": {
+				"eng": "Michelle Chen",
+				"trans": "Michelle Chen"
+			},
+			"presidentChen": {
+				"eng": "President Chen",
+				"trans": "Präsident Chen"
+			}
+		},
+		"neoFormosa": {
+			"formosa": {
+				"eng": "Formosa",
+				"trans": "Formosa"
+			},
+			"taiwan": {
+				"eng": "Taiwan",
+				"trans": "Taiwan"
+			}
+		},
+		"neoNippon": {
+			"japan": {
+				"eng": "Japan",
+				"trans": "Japan"
+			},
+			"japaneseCorporateState": {
+				"eng": "Japanese corporate state",
+				"trans": "Japanischer Korporatenstaat"
+			},
+			"japaneseState": {
+				"eng": "Japanese state",
+				"trans": "Japanischer Staat"
+			},
+			"neoJapan": {
+				"eng": "Neo Japan",
+				"trans": "Neujapan"
+			},
+			"nippon": {
+				"eng": "Nippon",
+				"trans": "Japan"
+			}
+		},
+		"newRepublicOfCalifornia": {
+			"california": {
+				"eng": "California",
+				"trans": "Kalifornien"
+			},
+			"californiaRepublic": {
+				"eng": "California Republic",
+				"trans": "Kalifornische Republik"
+			},
+			"newRepublic": {
+				"eng": "New Republic",
+				"trans": "Neue Republik"
+			}
+		},
+		"ouroborosDynamics": {
+			"aiResearch": {
+				"eng": "Ouroboros AI research",
+				"trans": "Ouroboros KI-Forschung"
+			},
+			"consciousnessTransfer": {
+				"eng": "Ouroboros consciousness transfer",
+				"trans": "Ouroboros-Bewusstseinsübertragung"
+			},
+			"ouroboros": {
+				"eng": "Ouroboros",
+				"trans": "Ouroboros"
+			}
+		},
+		"panAsianCooperative": {
+			"eastAsianOceanicBloc": {
+				"eng": "East Asian and Oceanic bloc",
+				"trans": "ostasiatisch-ozeanischer Block"
+			},
+			"panAsianBloc": {
+				"eng": "Pan-Asian bloc",
+				"trans": "Panasiatischer Block"
+			},
+			"panAsianCooperative": {
+				"eng": "Pan Asian Cooperative",
+				"trans": "Panasiatische Kooperation"
+			}
+		},
+		"persianGulfConsortium": {
+			"gulfConsortium": {
+				"eng": "Gulf Consortium",
+				"trans": "Golfkonsortium"
+			},
+			"persianGulfBloc": {
+				"eng": "Persian Gulf bloc",
+				"trans": "Persischer Golfblock"
+			}
+		},
+		"rezaHosseini": {
+			"ayatollahHosseini": {
+				"eng": "Ayatollah Hosseini",
+				"trans": "Ayatollah Hosseini"
+			},
+			"hosseini": {
+				"eng": "Hosseini",
+				"trans": "Hosseini"
+			},
+			"rezaHosseini": {
+				"eng": "Reza Hosseini",
+				"trans": "Reza Hosseini"
+			},
+			"supremeLeaderHosseini": {
+				"eng": "Supreme Leader Hosseini",
+				"trans": "Oberster Führer Hosseini"
+			}
+		},
+		"sarahGoldman": {
+			"ceoGoldman": {
+				"eng": "CEO Goldman",
+				"trans": "Geschäftsführer Goldman"
+			},
+			"goldman": {
+				"eng": "Goldman",
+				"trans": "Goldman"
+			},
+			"primeMinisterGoldman": {
+				"eng": "Prime Minister Goldman",
+				"trans": "Premierminister Goldman"
+			},
+			"sarahGoldman": {
+				"eng": "Sarah Goldman",
+				"trans": "Sarah Goldman"
+			}
+		},
+		"shinkaiExchangeGroup": {
+			"arclightExchange": {
+				"eng": "Arclight exchange",
+				"trans": "Arclight-Börse"
+			},
+			"arclightStockExchange": {
+				"eng": "Arclight stock exchange",
+				"trans": "Arclight-Börse"
+			},
+			"exchangeGroup": {
+				"eng": "Exchange Group",
+				"trans": "Handelsallianz"
+			},
+			"shinkaiExchange": {
+				"eng": "SHINKAI Exchange",
+				"trans": "SHINKAI Börse"
+			}
+		},
+		"taixingCybernetic": {
+			"taixing": {
+				"eng": "TaiXing",
+				"trans": "TaiXing"
+			},
+			"taixingArclightRegionalHeadquarters": {
+				"eng": "TaiXing Cybernetic Arclight regional headquarters",
+				"trans": "Regionales Hauptquartier von TaiXing Cybernetic in Arclight"
+			},
+			"taixingCybernetics": {
+				"eng": "TaiXing Cybernetics",
+				"trans": "TaiXing Cybernetics"
+			}
+		},
+		"technomancers": {
+			"eliteHackerCollective": {
+				"eng": "Technomancer hacker collective",
+				"trans": "Technomant-Hackerkollektiv"
+			},
+			"netrunnerCollective": {
+				"eng": "Technomancer netrunner collective",
+				"trans": "Technomancer-Netrunner-Kollektiv"
+			},
+			"netrunners": {
+				"eng": "Technomancer netrunners",
+				"trans": "Technomancer-Netrunner"
+			}
+		},
+		"traumaTeam": {
+			"emergencyResponse": {
+				"eng": "Trauma Team emergency response",
+				"trans": "Trauma-Team Rettungsdienst"
+			},
+			"medicalResponse": {
+				"eng": "Trauma Team medical response",
+				"trans": "Trauma-Team-Rettungsdienst"
+			}
+		},
+		"viktorPetrov": {
+			"marshalPetrov": {
+				"eng": "Marshal Petrov",
+				"trans": "Marschall Petrov"
+			},
+			"petrov": {
+				"eng": "Petrov",
+				"trans": "Petrov"
+			},
+			"viktorPetrov": {
+				"eng": "Viktor Petrov",
+				"trans": "Viktor Petrov"
+			}
+		}
+	},
+	"worldEntityIndexPage": {
+		"noResults": {
+			"eng": "No dossiers found",
+			"trans": "Keine Dossiers gefunden"
+		},
+		"searchPlaceholder": {
+			"eng": "Search dossiers...",
+			"trans": "Dossiers durchsuchen..."
+		},
+		"sectionLabel": {
+			"eng": "CyberWiki Archive",
+			"trans": "CyberWiki Archiv"
+		},
+		"subtitle": {
+			"eng": "Browse verified people, factions, companies, city-state, and institutions referenced across Arclight City intelligence feeds.",
+			"trans": "Durchsucht verifizierte Personen, Fraktionen, Unternehmen, Stadtstaaten und Institutionen, die in den Intelligence-Feeds der Arclight City referenziert werden."
+		},
+		"title": {
+			"eng": "World Dossiers",
+			"trans": "Weltdossiers"
+		},
+		"totalLabel": {
+			"eng": "Entries",
+			"trans": "Einträge"
+		}
+	},
+	"worldEntityPage": {
+		"archiveIdLabel": {
+			"eng": "Archive ID",
+			"trans": "Archiv-ID"
+		},
+		"dossierLabel": {
+			"eng": "World Dossier",
+			"trans": "Weltakte"
+		},
+		"loading": {
+			"eng": "Loading Dossier",
+			"trans": "Dossier wird geladen"
+		},
+		"notFoundBody": {
+			"eng": "This dossier entry is not available.",
+			"trans": "Dieser Eintrag im Dossier ist nicht verfügbar."
+		},
+		"notFoundStatus": {
+			"eng": "Entity Missing",
+			"trans": "Fehlende Entität"
 		}
 	},
 	"worldEventType": {

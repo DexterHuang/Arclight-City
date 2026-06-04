@@ -2115,8 +2115,8 @@
 			"trans": "ทรัพยากร"
 		},
 		"upkeepTip": {
-			"eng": "Ensure the clan has enough resources and funds to avoid losing the gang. Note: Role upkeep uses war points; failing it causes war state reset and demotions, not gang deletion.",
-			"trans": "ตรวจสอบให้แน่ใจว่าแก๊งมีทรัพยากรและเงินทุนเพียงพอเพื่อป้องกันการถูกยุบ หมายเหตุ: ค่าบำรุงบทบาทใช้คะแนนสงคราม หากยอดไม่พอจะรีเซ็ตสถานะสงครามและลดระดับตำแหน่ง แต่จะไม่ทำให้แก๊งถูกลบ"
+			"eng": "Ensure the clan has enough resources and funds to avoid losing the gang. Note: role upkeep uses war points; failing it causes rank demotions, not gang deletion.",
+			"trans": "รักษาทรัพยากรและเงินทุนของคลานให้เพียงพอเพื่อป้องกันไม่ให้เสียแก๊ง หมายเหตุ: ค่าบำรุงบทบาทใช้แต้มสงคราม การไม่ชำระจะถูกลดขั้นยศ ไม่ใช่การยุบแก๊ง"
 		},
 		"upkeepTipTitle": {
 			"eng": "Insufficient Base Upkeep",
@@ -3187,6 +3187,28 @@
 				"eng": "Universal Dollars",
 				"trans": "ยูนิคอยน์"
 			}
+		}
+	},
+	"dailyQuestProgressStrip": {
+		"complete": {
+			"eng": "Daily Set Complete",
+			"trans": "เซตภารกิจรายวันเสร็จสิ้น"
+		},
+		"pending": {
+			"eng": "Contracts Pending",
+			"trans": "สัญญารอการดำเนินการ"
+		},
+		"ready": {
+			"eng": "Ready To Claim",
+			"trans": "พร้อมรับ"
+		},
+		"reset": {
+			"eng": "Reset T-",
+			"trans": "รีเซ็ต T-"
+		},
+		"title": {
+			"eng": "Daily Contracts",
+			"trans": "งานรับจ้างรายวัน"
 		}
 	},
 	"dailyQuestTab": {
@@ -7358,8 +7380,8 @@
 		},
 		"zaraKhan": {
 			"biography": {
-				"eng": "Conflict isn't just fought on battlefields; it's waged in boardrooms, data streams, and the shadow networks tangled in the PAC-FSA cold war. I am Zara Khan. With a background dissecting global threats, I provide clear-eyed analysis of the forces, from Arclight's corpo council to offshore powers, vying for control.",
-				"trans": "ความขัดแย้งไม่ได้เกิดขึ้นแค่ในสนามรบเท่านั้น แต่มันยังเกิดขึ้นในห้องประชุม กระแสข้อมูล และเครือข่ายเงามืดที่พันกันอยู่ในสงครามเย็นระหว่าง PAC-FSA ฉันคือ ซารา ข่าน ด้วยประสบการณ์ในการวิเคราะห์ภัยคุกคามระดับโลก ฉันจะให้การวิเคราะห์อย่างตรงไปตรงมาเกี่ยวกับกลุ่มอำนาจที่แย่งชิงการควบคุม ตั้งแต่สภาองค์กรของอาร์คไลท์ไปจนถึงกลุ่มอำนาจนอกชายฝั่ง"
+				"eng": "Conflict isn't just fought on battlefields; it's waged in boardrooms, data streams, and the shadow networks tangled between the Pan-Asian Cooperative, American Federation, and Eastern Continental Alliance. I am Zara Khan. With a background dissecting global threats, I provide clear-eyed analysis of the forces, from Arclight's corpo council to offshore powers, vying for control.",
+				"trans": "ความขัดแย้งไม่ได้เกิดขึ้นเพียงบนสนามรบ แต่ยังถูกดำเนินต่อในห้องประชุมระดับบริหาร สายข้อมูล และเครือข่ายเงาที่พันเกี่ยวซับซ้อนระหว่างสหกรณ์แพนเอเชีย สหพันธรัฐอเมริกา และพันธมิตรทวีปตะวันออก ดิฉันคือซาร่า คาน ด้วยประสบการณ์ในการชำแหละภัยคุกคามระดับโลก ดิฉันจะนำเสนอการวิเคราะห์อย่างตรงไปตรงมาเกี่ยวกับกลุ่มอำนาจต่างๆ ตั้งแต่สภาบรรษัทแห่งประกายอาร์ค ไปจนถึงกองกำลังนอกชายฝั่ง ที่ต่างแข่งขันกันเพื่อชิงความเป็นใหญ่"
 			},
 			"displayName": {
 				"eng": "Zara Khan",
@@ -8512,13 +8534,29 @@
 		}
 	},
 	"loginStreak": {
+		"brokenStreakLabel": {
+			"eng": "Streak Broken",
+			"trans": "สตรีคแตก"
+		},
+		"collectPendingRewardsFirst": {
+			"eng": "Collect pending rewards first",
+			"trans": "รับรางวัลค้างอยู่ก่อน"
+		},
 		"collectReward": {
 			"eng": "Collect Reward",
 			"trans": "รับโบนัส"
 		},
+		"collectionOnlyCompactDescription": {
+			"eng": "Collect pending rewards to reset and resume unlocks.",
+			"trans": "รับโบนัสที่ยังไม่ได้เก็บ เพื่อรีเซ็ตและเริ่มการปลดล็อคใหม่"
+		},
+		"collectionOnlyTitle": {
+			"eng": "Collection Only",
+			"trans": "สะสมเท่านั้น"
+		},
 		"consecutiveDays": {
-			"eng": "Consecutive Days",
-			"trans": "วันติดต่อกัน"
+			"eng": "Unlocked Days",
+			"trans": "วันปลดล็อก"
 		},
 		"dayOfTotal": {
 			"eng": "Day ${day} / ${total}",
@@ -8552,9 +8590,9 @@
 			"eng": "Deployment Tracker",
 			"trans": "ติดตามการส่ง"
 		},
-		"progressLabel": {
-			"eng": "Progress",
-			"trans": "ความคืบหน้า"
+		"pendingRewardsCount": {
+			"eng": "${count} Pending",
+			"trans": "${count} รอดำเนินการ"
 		},
 		"progressValue": {
 			"eng": "${current} / ${total}",
@@ -8567,6 +8605,14 @@
 		"rewardData": {
 			"eng": "Reward Data",
 			"trans": "ข้อมูลรางวัล"
+		},
+		"statusActive": {
+			"eng": "Active",
+			"trans": "เปิดใช้งาน"
+		},
+		"statusBlocked": {
+			"eng": "Blocked",
+			"trans": "ถูกบล็อก"
 		},
 		"statusClaimable": {
 			"eng": "Claimable",
@@ -10901,20 +10947,20 @@
 	},
 	"newsPage": {
 		"aboutAuthor": {
-			"eng": "ABOUT THE AUTHOR",
-			"trans": "ข้อมูลผู้สร้าง"
+			"eng": "OPERATIVE DOSSIER",
+			"trans": "แฟ้มประวัติผู้ปฏิบัติการ"
 		},
 		"backButton": {
-			"eng": "ALL NEWS",
-			"trans": "ข่าวทั้งหมด"
+			"eng": "DISCONNECT / RETURN",
+			"trans": "ตัดการเชื่อมต่อ / กลับ"
 		},
 		"backToList": {
 			"eng": "RETURN TO NEWS FEED",
 			"trans": "กลับสู่ฟีดข่าว"
 		},
 		"breaking": {
-			"eng": "BREAKING",
-			"trans": "ด่วน!"
+			"eng": "URGENT INTELLIGENCE",
+			"trans": "ข่าวกรองเร่งด่วน"
 		},
 		"emoji": {
 			"noEmojiYet": {
@@ -10932,13 +10978,9 @@
 				"trans": "ไม่มีรายงานข่าว"
 			}
 		},
-		"featuredStory": {
-			"eng": "FEATURED STORY",
-			"trans": "เรื่องเด่น"
-		},
 		"keyPoints": {
-			"eng": "KEY POINTS",
-			"trans": "ไฮไลท์"
+			"eng": "EXTRACTED INTEL",
+			"trans": "ข่าวกรองที่สกัดได้"
 		},
 		"latestNews": {
 			"eng": "LATEST REPORTS",
@@ -10953,8 +10995,8 @@
 			"trans": "ไม่มีข้อมูลพร้อมใช้งาน"
 		},
 		"published": {
-			"eng": "PUBLISHED",
-			"trans": "ปล่อย"
+			"eng": "DECRYPTED",
+			"trans": "ถอดรหัสแล้ว"
 		},
 		"reactions": {
 			"react": {
@@ -10967,12 +11009,8 @@
 			}
 		},
 		"readMore": {
-			"eng": "READ MORE",
-			"trans": "อ่านเพิ่มเติม"
-		},
-		"reportBy": {
-			"eng": "REPORT BY",
-			"trans": "รายงานโดย"
+			"eng": "ACCESS FILE",
+			"trans": "เข้าถึงไฟล์"
 		},
 		"reportNotFound": {
 			"eng": "NEWS REPORT NOT FOUND",
@@ -10983,8 +11021,8 @@
 			"trans": "แชร์"
 		},
 		"slogan": {
-			"eng": "YOUR TRUSTED SOURCE FOR ARCLIGHT CITY NEWS AND EVENTS",
-			"trans": "ข่าวสารนครราตรี: แหล่งข่าวที่คุณวางใจได้"
+			"eng": "GLOBAL INFO_NET // ARCLIGHT BROADCAST",
+			"trans": "เครือข่ายข้อมูลสากล // การแพร่สัญญาณประกายอาร์ค"
 		},
 		"totalReactions": {
 			"eng": "${totalReactions} reactions",
@@ -16616,6 +16654,18 @@
 		}
 	},
 	"wikiPage": {
+		"archiveStatus": {
+			"eng": "Archive",
+			"trans": "คลังข้อมูล"
+		},
+		"commandBody": {
+			"eng": "Browse tactical tutorials and world dossiers without hunting through article links.",
+			"trans": "เข้าถึงบทแนะนำเชิงยุทธวิธีและแฟ้มข้อมูลโลกได้โดยตรง โดยไม่ต้องเสียเวลาไล่ตามหาลิงก์บทความต่างๆ"
+		},
+		"commandLabel": {
+			"eng": "Knowledge Index",
+			"trans": "ฐานข้อมูลความรรู้"
+		},
 		"noResults": {
 			"eng": "No results found",
 			"trans": "ไม่พบผลลัพธ์"
@@ -16627,6 +16677,738 @@
 		"subtitle": {
 			"eng": "the free encyclopedia that anyone can edit",
 			"trans": "สารานุกรมเสรีที่ใครๆ ก็แก้ไขได้"
+		},
+		"worldDossiersTitle": {
+			"eng": "World Dossiers",
+			"trans": "แฟ้มข้อมูลโลก"
+		}
+	},
+	"worldEntity": {
+		"acpd": {
+			"eng": "Arclight City Police Department",
+			"trans": "ตำรวจนครราตรี"
+		},
+		"akiraTanaka": {
+			"eng": "Chairman Akira Tanaka",
+			"trans": "ประธานอาคิระ ทานากะ"
+		},
+		"americanFederation": {
+			"eng": "American Federation",
+			"trans": "สหพันธรัฐอเมริกา"
+		},
+		"arcEnergyHoldings": {
+			"eng": "Arc Energy Holdings",
+			"trans": "Arc Energy Holdings"
+		},
+		"arclightCity": {
+			"eng": "Arclight City",
+			"trans": "นครราตรี"
+		},
+		"arclightCorporateCouncil": {
+			"eng": "Arclight Corporate Council",
+			"trans": "สภาบรรษัทประกายอาร์ค"
+		},
+		"arclightTimes": {
+			"eng": "Arclight Times",
+			"trans": "ข่าวอาร์คลाइต์"
+		},
+		"biosynIndustries": {
+			"eng": "BioSyn Industries",
+			"trans": "ไบโอซิน อินดัสตรีส์"
+		},
+		"blackMarket": {
+			"eng": "Black Market",
+			"trans": "ตลาดมืด"
+		},
+		"chirp": {
+			"eng": "Chirp",
+			"trans": "จิ๊บ"
+		},
+		"churchOfPachinko": {
+			"eng": "Church of Pachinko",
+			"trans": "โบสถ์แห่งปาจิงโก"
+		},
+		"churchOfTheSingularity": {
+			"eng": "Church of the Singularity",
+			"trans": "ศาสนจักรแห่งซิงกูลาริตี้"
+		},
+		"circuitbreak": {
+			"eng": "CircuitBreak",
+			"trans": "ตัดวงจร"
+		},
+		"circuitbreakIntelligenceDivision": {
+			"eng": "CircuitBreak Intelligence Division",
+			"trans": "ฝ่ายข่าวกรอง CircuitBreak"
+		},
+		"easternContinentalAlliance": {
+			"eng": "Eastern Continental Alliance",
+			"trans": "พันธมิตรทวีปตะวันออก"
+		},
+		"elaraVoss": {
+			"eng": "Dr. Elara Voss",
+			"trans": "ด็อกเตอร์ อีลาอา วอส"
+		},
+		"elenaVasquez": {
+			"eng": "Governor Elena Vasquez",
+			"trans": "ผู้ว่าการ เอเลนา วาสเกซ"
+		},
+		"europeanFederation": {
+			"eng": "European Federation",
+			"trans": "สหพันธ์ยุโรป"
+		},
+		"israeliTechRepublic": {
+			"eng": "Israeli Tech Republic",
+			"trans": "สาธารณรัฐเทคโนโลยีอิสราเอล"
+		},
+		"jacksonMorrison": {
+			"eng": "President Jackson Morrison",
+			"trans": "ประธาน แจ็คสัน มอร์ริสัน"
+		},
+		"liWei": {
+			"eng": "Premier Li Wei",
+			"trans": "นายกรัฐมนตรีลีเว่ย"
+		},
+		"magnusLindqvist": {
+			"eng": "Chancellor Magnus Lindqvist",
+			"trans": "นายกรัฐมนตรีมักนุส ลินด์ควิสต์"
+		},
+		"megaestate": {
+			"eng": "MegaEstate",
+			"trans": "เมก้าเอสเตท"
+		},
+		"michelleChen": {
+			"eng": "President Dr. Michelle Chen",
+			"trans": "ประธาน ดร. มิเชลล์ เชน"
+		},
+		"neoFormosa": {
+			"eng": "Neo Formosa",
+			"trans": "นีโอฟอร์โมซา"
+		},
+		"neoNippon": {
+			"eng": "Neo Nippon",
+			"trans": "نیوญี่ปون"
+		},
+		"newRepublicOfCalifornia": {
+			"eng": "New Republic of California",
+			"trans": "สาธารณรัฐแคลิฟอร์เนียใหม่"
+		},
+		"ouroborosDynamics": {
+			"eng": "Ouroboros Dynamics",
+			"trans": "Ouroboros Dynamics"
+		},
+		"panAsianCooperative": {
+			"eng": "Pan-Asian Cooperative",
+			"trans": "สหกรณ์แพนเอเชีย"
+		},
+		"persianGulfConsortium": {
+			"eng": "Persian Gulf Consortium",
+			"trans": "คอนซอร์ติอัมอ่าวเปอร์เซีย"
+		},
+		"rezaHosseini": {
+			"eng": "Supreme Leader Ayatollah Reza Hosseini",
+			"trans": "ผู้นำสูงสุดอายะตุลเลาะห์เรซาฮอสเซินี"
+		},
+		"sarahGoldman": {
+			"eng": "Prime Minister-CEO Sarah Goldman",
+			"trans": "นายกรัฐมนตรีและซีอีโอ ซาราห์ โกลด์แมน"
+		},
+		"shinkaiExchangeGroup": {
+			"eng": "SHINKAI Exchange Group",
+			"trans": "SHINKAI Exchange Group"
+		},
+		"taixingCybernetic": {
+			"eng": "TaiXing Cybernetic",
+			"trans": "ไทซิง ไซเบอร์"
+		},
+		"technomancers": {
+			"eng": "Technomancers",
+			"trans": "เทคโนแมนเซอร์"
+		},
+		"traumaTeam": {
+			"eng": "Trauma Team",
+			"trans": "หน่วยทราวม่า"
+		},
+		"type": {
+			"corporation": {
+				"eng": "Corporation",
+				"trans": "บริษัท"
+			},
+			"organization": {
+				"eng": "Organization",
+				"trans": "องค์กร"
+			},
+			"person": {
+				"eng": "Person",
+				"trans": "บุคคล"
+			},
+			"politicalEntity": {
+				"eng": "Political Entity",
+				"trans": "หน่วยงานทางการเมือง"
+			}
+		},
+		"viktorPetrov": {
+			"eng": "Marshal Viktor Petrov",
+			"trans": "จอมพลวิกเตอร์เพโทรฟ"
+		}
+	},
+	"worldEntityAlias": {
+		"acpd": {
+			"arclightPolice": {
+				"eng": "Arclight police",
+				"trans": "ตำรวจอาร์คไลต์"
+			},
+			"arclightPoliceDepartment": {
+				"eng": "Arclight Police Department",
+				"trans": "แผนกตำรวจประกายอาร์ค"
+			}
+		},
+		"akiraTanaka": {
+			"akiraTanaka": {
+				"eng": "Akira Tanaka",
+				"trans": "อาคิระ ทานากะ"
+			},
+			"chairmanTanaka": {
+				"eng": "Chairman Tanaka",
+				"trans": "ประธานทานาคะ"
+			},
+			"tanaka": {
+				"eng": "Tanaka",
+				"trans": "ทานากะ"
+			}
+		},
+		"americanFederation": {
+			"americanBloc": {
+				"eng": "American bloc",
+				"trans": "พันธมิตรอเมริกัน"
+			},
+			"federation": {
+				"eng": "Federation",
+				"trans": "สหพันธรัฐ"
+			},
+			"federationGovernment": {
+				"eng": "Federation government",
+				"trans": "รัฐบาลสหพันธรัฐ"
+			},
+			"formerUnitedStates": {
+				"eng": "former United States",
+				"trans": "อดีตสหรัฐอเมริกา"
+			}
+		},
+		"arcEnergyHoldings": {
+			"arcEnergy": {
+				"eng": "Arc Energy",
+				"trans": "พลังงานอาร์ค"
+			},
+			"arcEnergyCorporation": {
+				"eng": "Arc Energy corporation",
+				"trans": "บริษัทพลังงานอาร์ค"
+			},
+			"arcenergy": {
+				"eng": "ArcEnergy",
+				"trans": "อาร์คเอ็นเนอร์จี้"
+			},
+			"arcenergyHoldings": {
+				"eng": "ArcEnergy Holdings",
+				"trans": "อาร์คเอนเนอร์ยี่โฮลดิ้งส"
+			}
+		},
+		"arclightCity": {
+			"arclight": {
+				"eng": "Arclight",
+				"trans": "ประกายอาร์ค"
+			},
+			"corporateCityState": {
+				"eng": "corporate city-state",
+				"trans": "นครรัฐบรรษัท"
+			}
+		},
+		"arclightCorporateCouncil": {
+			"arclightCorporateCouncil": {
+				"eng": "Arclight corporate council",
+				"trans": "สภาองค์กรประกายอาร์ค"
+			},
+			"arclightCouncil": {
+				"eng": "Arclight council",
+				"trans": "สภาอาร์คลайต์"
+			}
+		},
+		"arclightTimes": {
+			"arclightNewsOutlet": {
+				"eng": "Arclight news outlet",
+				"trans": "สำนักข่าวอาร์คลایت"
+			},
+			"theTimes": {
+				"eng": "The Times",
+				"trans": "เดอะไ霆ส์"
+			},
+			"times": {
+				"eng": "Times",
+				"trans": "ครั้ง"
+			}
+		},
+		"biosynIndustries": {
+			"biosyn": {
+				"eng": "BioSyn",
+				"trans": "ไบโอซิน"
+			},
+			"biosynLabs": {
+				"eng": "BioSyn Labs",
+				"trans": "ห้องปฏิบัติการไบโอซิน"
+			}
+		},
+		"blackMarket": {
+			"arclightBlackMarket": {
+				"eng": "Arclight Black Market",
+				"trans": "ตลาดมืดประกายอาร์ค"
+			},
+			"theBlackMarket": {
+				"eng": "The Black Market",
+				"trans": "ตลาดมืด"
+			},
+			"undergroundBlackMarket": {
+				"eng": "underground black market",
+				"trans": "ตลาดมืดใต้ดิน"
+			}
+		},
+		"chirp": {
+			"socialNetwork": {
+				"eng": "Chirp social network",
+				"trans": "ชิ๊ป โซเชียล"
+			},
+			"socialPlatform": {
+				"eng": "Chirp social platform",
+				"trans": "ชิ๊ป แพลตฟอร์มโซเชียล"
+			}
+		},
+		"churchOfPachinko": {
+			"gamblingCult": {
+				"eng": "gambling cult",
+				"trans": "ลัทธิการพนัน"
+			},
+			"goddessOfPachinko": {
+				"eng": "Goddess of Pachinko",
+				"trans": "เทพีแห่งพาชินโก"
+			},
+			"pachinkoFaith": {
+				"eng": "Pachinko faith",
+				"trans": "ศรัทธาในปาจิงโกะ"
+			}
+		},
+		"churchOfTheSingularity": {
+			"aiAscensionCult": {
+				"eng": "AI ascension cult",
+				"trans": "ลัทธิบูชาการก้าวข้ามของ AI"
+			},
+			"churchOfSingularity": {
+				"eng": "Church of Singularity",
+				"trans": "ศาสนจักรแห่งภาวะเอกฐาน"
+			},
+			"singularityChurch": {
+				"eng": "Singularity Church",
+				"trans": "ศาสนจักรซิงกูลาริตี้"
+			},
+			"technoReligiousMovement": {
+				"eng": "techno-religious movement",
+				"trans": "ขบวนการเทคโนศาสนา"
+			}
+		},
+		"circuitbreak": {
+			"circuitBreakSecurity": {
+				"eng": "CircuitBreak Security",
+				"trans": "ระบบรักษาความปลอดภัย CircuitBreak"
+			},
+			"securitySolutions": {
+				"eng": "CircuitBreak Security Solutions",
+				"trans": "บริการด้านความปลอดภัย ตัดวงจร"
+			}
+		},
+		"circuitbreakIntelligenceDivision": {
+			"circuitbreakIntelligence": {
+				"eng": "CircuitBreak Intelligence",
+				"trans": "การตัดวงจรอัจฉริยะ"
+			},
+			"circuitbreakIntelligenceUnit": {
+				"eng": "CircuitBreak intelligence unit",
+				"trans": "หน่วยประมวลผลอัจฉริยะ ตัดวงจร"
+			},
+			"intelligenceDivision": {
+				"eng": "Intelligence Division",
+				"trans": "แผนกข่าวกรอง"
+			}
+		},
+		"easternContinentalAlliance": {
+			"continentalAlliance": {
+				"eng": "Continental Alliance",
+				"trans": "พันธมิตรระดับทวีป"
+			},
+			"easternBloc": {
+				"eng": "Eastern bloc",
+				"trans": "กลุ่มตะวันออก"
+			}
+		},
+		"elaraVoss": {
+			"drVoss": {
+				"eng": "Dr. Voss",
+				"trans": "ด็อกเตอร์วอส"
+			},
+			"elaraVoss": {
+				"eng": "Elara Voss",
+				"trans": "อีลาร่า วอส"
+			},
+			"voss": {
+				"eng": "Voss",
+				"trans": "วอส"
+			}
+		},
+		"elenaVasquez": {
+			"elenaVasquez": {
+				"eng": "Elena Vasquez",
+				"trans": "เอเลน่า วัสเกซ"
+			},
+			"governorVasquez": {
+				"eng": "Governor Vasquez",
+				"trans": "ผู้ว่าราชการวาซเกซ"
+			},
+			"vasquez": {
+				"eng": "Vasquez",
+				"trans": "บัสเกซ"
+			}
+		},
+		"europeanFederation": {
+			"europeanBloc": {
+				"eng": "European bloc",
+				"trans": "กลุ่มพันธมิตรยุโรป"
+			},
+			"europeanSuperState": {
+				"eng": "European super-state",
+				"trans": "รัฐมหาอำนาจยุโรป"
+			}
+		},
+		"israeliTechRepublic": {
+			"israel": {
+				"eng": "Israel",
+				"trans": "อิสราเอล"
+			},
+			"israeliTechnologyState": {
+				"eng": "Israeli technology state",
+				"trans": "สถานะเทคโนโลยีอิสราเอล"
+			},
+			"techRepublic": {
+				"eng": "Tech Republic",
+				"trans": "สาธารณรัฐเทคโนโลยี"
+			}
+		},
+		"jacksonMorrison": {
+			"jacksonMorrison": {
+				"eng": "Jackson Morrison",
+				"trans": "แจ๊กสัน เมอร์ริสัน"
+			},
+			"morrison": {
+				"eng": "Morrison",
+				"trans": "โมริสัน"
+			},
+			"presidentMorrison": {
+				"eng": "President Morrison",
+				"trans": "ประธานมอร์ริสัน"
+			}
+		},
+		"liWei": {
+			"li": {
+				"eng": "Li",
+				"trans": "หลี่"
+			},
+			"liWei": {
+				"eng": "Li Wei",
+				"trans": "ลี่เว่ย"
+			},
+			"premierLi": {
+				"eng": "Premier Li",
+				"trans": "นายกรัฐมนตรีหลี่"
+			}
+		},
+		"magnusLindqvist": {
+			"chancellorLindqvist": {
+				"eng": "Chancellor Lindqvist",
+				"trans": "ชานเซลเลอร์ ลินด์ควิสต์"
+			},
+			"lindqvist": {
+				"eng": "Lindqvist",
+				"trans": "ลินดควิสต์"
+			},
+			"magnusLindqvist": {
+				"eng": "Magnus Lindqvist",
+				"trans": "แม็กนุส ลินด์ควิสต์"
+			}
+		},
+		"megaestate": {
+			"housingAgency": {
+				"eng": "housing agency",
+				"trans": "สำนักงานเคหะ"
+			},
+			"megaEstate": {
+				"eng": "Mega Estate",
+				"trans": "เมก้า อีสเตท"
+			},
+			"propertyCorporation": {
+				"eng": "property corporation",
+				"trans": "บริษัทอสังหาริมทรัพย์"
+			}
+		},
+		"michelleChen": {
+			"chen": {
+				"eng": "Chen",
+				"trans": "เฉิน"
+			},
+			"drChen": {
+				"eng": "Dr. Chen",
+				"trans": "ด็อกเตอร์เฉิน"
+			},
+			"michelleChen": {
+				"eng": "Michelle Chen",
+				"trans": "มิเชลล์ เฉิน"
+			},
+			"presidentChen": {
+				"eng": "President Chen",
+				"trans": "ประธานาธิบดีเฉิน"
+			}
+		},
+		"neoFormosa": {
+			"formosa": {
+				"eng": "Formosa",
+				"trans": "ฟอร์โมซา"
+			},
+			"taiwan": {
+				"eng": "Taiwan",
+				"trans": "ไต้หวัน"
+			}
+		},
+		"neoNippon": {
+			"japan": {
+				"eng": "Japan",
+				"trans": "ญี่ปุ่น"
+			},
+			"japaneseCorporateState": {
+				"eng": "Japanese corporate state",
+				"trans": "รัฐบรรษัทญี่ปุ่น"
+			},
+			"japaneseState": {
+				"eng": "Japanese state",
+				"trans": "รัฐญี่ปุ่น"
+			},
+			"neoJapan": {
+				"eng": "Neo Japan",
+				"trans": "นีโอญี่ปุ่น"
+			},
+			"nippon": {
+				"eng": "Nippon",
+				"trans": "ญี่ปุ่น"
+			}
+		},
+		"newRepublicOfCalifornia": {
+			"california": {
+				"eng": "California",
+				"trans": "แคลิฟอร์เนีย"
+			},
+			"californiaRepublic": {
+				"eng": "California Republic",
+				"trans": "สาธารณรัฐแคลิฟอร์เนีย"
+			},
+			"newRepublic": {
+				"eng": "New Republic",
+				"trans": "สาธารณรัฐใหม่"
+			}
+		},
+		"ouroborosDynamics": {
+			"aiResearch": {
+				"eng": "Ouroboros AI research",
+				"trans": "การวิจัย AI ของ Ouroboros"
+			},
+			"consciousnessTransfer": {
+				"eng": "Ouroboros consciousness transfer",
+				"trans": "การถ่ายโอนจิตสำนึก Ouroboros"
+			},
+			"ouroboros": {
+				"eng": "Ouroboros",
+				"trans": "อูโรบอรัส"
+			}
+		},
+		"panAsianCooperative": {
+			"eastAsianOceanicBloc": {
+				"eng": "East Asian and Oceanic bloc",
+				"trans": "บล็อกเอเชียตะวันออกและโอเชียนิก"
+			},
+			"panAsianBloc": {
+				"eng": "Pan-Asian bloc",
+				"trans": "กลุ่มชาติเอเชีย"
+			},
+			"panAsianCooperative": {
+				"eng": "Pan Asian Cooperative",
+				"trans": "องค์กรความร่วมมือระดับเอเชีย"
+			}
+		},
+		"persianGulfConsortium": {
+			"gulfConsortium": {
+				"eng": "Gulf Consortium",
+				"trans": "กลุ่มพันธมิตรอ่าว"
+			},
+			"persianGulfBloc": {
+				"eng": "Persian Gulf bloc",
+				"trans": "กลุ่มอ่าวเปอร์เซีย"
+			}
+		},
+		"rezaHosseini": {
+			"ayatollahHosseini": {
+				"eng": "Ayatollah Hosseini",
+				"trans": "อายะตอลเลาะห์ โฮสเซนีย์"
+			},
+			"hosseini": {
+				"eng": "Hosseini",
+				"trans": "โฮเซนี"
+			},
+			"rezaHosseini": {
+				"eng": "Reza Hosseini",
+				"trans": "เรซา ฮอสเซอินี"
+			},
+			"supremeLeaderHosseini": {
+				"eng": "Supreme Leader Hosseini",
+				"trans": "ผู้นำสูงสุดโฮเซี๊ยะ"
+			}
+		},
+		"sarahGoldman": {
+			"ceoGoldman": {
+				"eng": "CEO Goldman",
+				"trans": "CEO โกลด์แมน"
+			},
+			"goldman": {
+				"eng": "Goldman",
+				"trans": "โกลด์แมน"
+			},
+			"primeMinisterGoldman": {
+				"eng": "Prime Minister Goldman",
+				"trans": "นายกรัฐมนตรีโกลด์แมน"
+			},
+			"sarahGoldman": {
+				"eng": "Sarah Goldman",
+				"trans": "ซาราห์ โกลด์แมน"
+			}
+		},
+		"shinkaiExchangeGroup": {
+			"arclightExchange": {
+				"eng": "Arclight exchange",
+				"trans": "จุดแลกอาร์คไลท์"
+			},
+			"arclightStockExchange": {
+				"eng": "Arclight stock exchange",
+				"trans": "ตลาดหลักทรัพย์ประกายอาร์ค"
+			},
+			"exchangeGroup": {
+				"eng": "Exchange Group",
+				"trans": "กลุ่มแลกเปลี่ยน"
+			},
+			"shinkaiExchange": {
+				"eng": "SHINKAI Exchange",
+				"trans": "SHINKAI Exchange"
+			}
+		},
+		"taixingCybernetic": {
+			"taixing": {
+				"eng": "TaiXing",
+				"trans": "ไทซิง"
+			},
+			"taixingArclightRegionalHeadquarters": {
+				"eng": "TaiXing Cybernetic Arclight regional headquarters",
+				"trans": "สำนักงานใหญ่ประจำภูมิภาคไทซิง ไซเบอร์ อาร์คไลท์"
+			},
+			"taixingCybernetics": {
+				"eng": "TaiXing Cybernetics",
+				"trans": "ไทซิง ไซเบอร์"
+			}
+		},
+		"technomancers": {
+			"eliteHackerCollective": {
+				"eng": "Technomancer hacker collective",
+				"trans": "กลุ่มแฮกเกอร์เทคนอมันเซอร์"
+			},
+			"netrunnerCollective": {
+				"eng": "Technomancer netrunner collective",
+				"trans": "กลุ่มเทคโนแมนเซอร์และเน็ตรันเนอร์"
+			},
+			"netrunners": {
+				"eng": "Technomancer netrunners",
+				"trans": "เน็ตรันเนอร์สายเทคโนโลแมนเซอร์"
+			}
+		},
+		"traumaTeam": {
+			"emergencyResponse": {
+				"eng": "Trauma Team emergency response",
+				"trans": "บริการตอบสนองเหตุฉุกเฉิน หน่วยทราวม่า"
+			},
+			"medicalResponse": {
+				"eng": "Trauma Team medical response",
+				"trans": "การตอบสนองทางการแพทย์ของหน่วยทราวม่า"
+			}
+		},
+		"viktorPetrov": {
+			"marshalPetrov": {
+				"eng": "Marshal Petrov",
+				"trans": "จอมพลเพโทรฟ"
+			},
+			"petrov": {
+				"eng": "Petrov",
+				"trans": "เพโทรฟ"
+			},
+			"viktorPetrov": {
+				"eng": "Viktor Petrov",
+				"trans": "วิคเตอร์ เปโตรฟ"
+			}
+		}
+	},
+	"worldEntityIndexPage": {
+		"noResults": {
+			"eng": "No dossiers found",
+			"trans": "ไม่พบข้อมูล"
+		},
+		"searchPlaceholder": {
+			"eng": "Search dossiers...",
+			"trans": "ค้นหาแฟ้มข้อมูล..."
+		},
+		"sectionLabel": {
+			"eng": "CyberWiki Archive",
+			"trans": "คลังข้อมูลไซเบอร์วิกิ"
+		},
+		"subtitle": {
+			"eng": "Browse verified people, factions, companies, city-state, and institutions referenced across Arclight City intelligence feeds.",
+			"trans": "เรียกดูข้อมูลบุคคล กลุ่มอิทธิพล บริษัท นครรัฐ และสถาบันที่ได้รับการยืนยันแล้ว จากแหล่งข่าวกรองทั่วทั้งนครราตรี"
+		},
+		"title": {
+			"eng": "World Dossiers",
+			"trans": "แฟ้มข้อมูลโลก"
+		},
+		"totalLabel": {
+			"eng": "Entries",
+			"trans": "รายการ"
+		}
+	},
+	"worldEntityPage": {
+		"archiveIdLabel": {
+			"eng": "Archive ID",
+			"trans": "รหัสจัดเก็บ"
+		},
+		"dossierLabel": {
+			"eng": "World Dossier",
+			"trans": "ข้อมูลโลก"
+		},
+		"loading": {
+			"eng": "Loading Dossier",
+			"trans": "กำลังโหลดแฟ้มข้อมูล"
+		},
+		"notFoundBody": {
+			"eng": "This dossier entry is not available.",
+			"trans": "รายการในแฟ้มข้อมูลนี้ไม่พร้อมใช้งาน"
+		},
+		"notFoundStatus": {
+			"eng": "Entity Missing",
+			"trans": "ไม่พบเอนทิตี้"
 		}
 	},
 	"worldEventType": {

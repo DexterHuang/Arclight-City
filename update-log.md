@@ -6,6 +6,38 @@
 
 **If you find an exploit, please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
+### 0.0.102
+
+-  Added **World Dossiers** to CyberWiki:
+   -  Browse major factions, corporations, organizations, and public figures from the game world in one dossier index
+   -  Open linked dossier references directly from supported news report text
+   -  Dossiers include localized article content and dedicated images for easier world-background reading
+
+-  Improved CyberWiki and browser page layout for cleaner scrolling and stronger mobile readability
+
+-  Improved `Daily Quests` visibility:
+   -  The Quests page now shows daily quest completion progress, claim readiness, and the next reset timer in one compact panels
+
+### 0.0.101
+
+-  fixed `Login Streak Rewards` issues
+
+### 0.0.100
+
+-  Improved news and market readability:
+   -  News reports can now surface related stock tickers more clearly from report content
+   -  UI sizing has been normalized across many screens for more consistent responsive scaling
+
+### 0.0.99
+
+-  Improved the news experience with a sharper style layout, refreshed report cards, stronger report pages, fallback news imagery, and clearer reaction prompts.
+
+-  News articles can now show stock ticker links directly inside report text, making it easier to jump from market-related news to the relevant stock details.
+
+-  Added a **1 Year** view to the stock market chart so you can inspect longer-term stock trends.
+
+-  Improved localized news ticker handling so headline fallbacks stay readable when localized headlines are unavailable.
+
 ### 0.0.98
 
 -  Fixed an intermittent crash in the terminal hacking minigame caused by invalid keyword selection

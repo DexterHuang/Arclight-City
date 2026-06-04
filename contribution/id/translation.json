@@ -2115,8 +2115,8 @@
 			"trans": "Sumber Daya"
 		},
 		"upkeepTip": {
-			"eng": "Ensure the clan has enough resources and funds to avoid losing the gang. Note: Role upkeep uses war points; failing it causes war state reset and demotions, not gang deletion.",
-			"trans": "Pastikan klan memiliki cukup sumber daya dan dana agar tidak kehilangan geng. Catatan: Pemeliharaan peran menggunakan poin perang; jika gagal, status perang akan direset dan terjadi penurunan pangkat, bukan penghapusan geng."
+			"eng": "Ensure the clan has enough resources and funds to avoid losing the gang. Note: role upkeep uses war points; failing it causes rank demotions, not gang deletion.",
+			"trans": "Pastikan klan memiliki cukup sumber daya dan dana untuk menghindari hilangnya geng. Catatan: pemeliharaan peran menggunakan poin perang; kegagalan akan menyebabkan penurunan peringkat, bukan penghapusan geng."
 		},
 		"upkeepTipTitle": {
 			"eng": "Insufficient Base Upkeep",
@@ -3187,6 +3187,28 @@
 				"eng": "Universal Dollars",
 				"trans": "Dolar Universal"
 			}
+		}
+	},
+	"dailyQuestProgressStrip": {
+		"complete": {
+			"eng": "Daily Set Complete",
+			"trans": "Misi Harian Terselesaikan"
+		},
+		"pending": {
+			"eng": "Contracts Pending",
+			"trans": "Kontrak Tertunda"
+		},
+		"ready": {
+			"eng": "Ready To Claim",
+			"trans": "Siap Diklaim"
+		},
+		"reset": {
+			"eng": "Reset T-",
+			"trans": "Setel Ulang T-"
+		},
+		"title": {
+			"eng": "Daily Contracts",
+			"trans": "Kontrak Harian"
 		}
 	},
 	"dailyQuestTab": {
@@ -7358,8 +7380,8 @@
 		},
 		"zaraKhan": {
 			"biography": {
-				"eng": "Conflict isn't just fought on battlefields; it's waged in boardrooms, data streams, and the shadow networks tangled in the PAC-FSA cold war. I am Zara Khan. With a background dissecting global threats, I provide clear-eyed analysis of the forces, from Arclight's corpo council to offshore powers, vying for control.",
-				"trans": "Konflik bukan cuma terjadi di medan perang; ia juga berkecamuk di ruang rapat, aliran data, dan jaringan bayangan yang kusut dalam Perang Dingin PAC-FSA. Saya Zara Khan. Dengan latar belakang menganalisis ancaman global, saya memberikan analisis jitu tentang kekuatan-kekuatan yang bersaing untuk menguasai, mulai dari dewan korporasi Arclight hingga kekuatan lepas pantai."
+				"eng": "Conflict isn't just fought on battlefields; it's waged in boardrooms, data streams, and the shadow networks tangled between the Pan-Asian Cooperative, American Federation, and Eastern Continental Alliance. I am Zara Khan. With a background dissecting global threats, I provide clear-eyed analysis of the forces, from Arclight's corpo council to offshore powers, vying for control.",
+				"trans": "Konflik tak hanya berlangsung di medan perang; ia juga dilancarkan di ruang dewan direksi, arus data, serta jaringan bayangan yang bersimpang siur di antara Koperasi Pan-Asia, Federasi Amerika, dan Aliansi Kontinental Timur. Saya Zara Khan. Dengan latar belakang menguraikan ancaman global, saya menyajikan analisis jernih mengenai berbagai kekuatan, mulai dari dewan korporat Arclight hingga faksi luar negeri, yang saling memperebutkan kendali."
 			},
 			"displayName": {
 				"eng": "Zara Khan",
@@ -8512,13 +8534,29 @@
 		}
 	},
 	"loginStreak": {
+		"brokenStreakLabel": {
+			"eng": "Streak Broken",
+			"trans": "Rentetan Terputus"
+		},
+		"collectPendingRewardsFirst": {
+			"eng": "Collect pending rewards first",
+			"trans": "Klaim hadiah tertunda terlebih dahulu"
+		},
 		"collectReward": {
 			"eng": "Collect Reward",
 			"trans": "Kumpulkan Hadiah"
 		},
+		"collectionOnlyCompactDescription": {
+			"eng": "Collect pending rewards to reset and resume unlocks.",
+			"trans": "Ambil hadiah tertunda untuk mereset dan melanjutkan pembukaan fitur."
+		},
+		"collectionOnlyTitle": {
+			"eng": "Collection Only",
+			"trans": "Hanya Koleksi"
+		},
 		"consecutiveDays": {
-			"eng": "Consecutive Days",
-			"trans": "Hari Berturut‑turut"
+			"eng": "Unlocked Days",
+			"trans": "Hari Tersedia"
 		},
 		"dayOfTotal": {
 			"eng": "Day ${day} / ${total}",
@@ -8552,9 +8590,9 @@
 			"eng": "Deployment Tracker",
 			"trans": "Pelacak Penempatan"
 		},
-		"progressLabel": {
-			"eng": "Progress",
-			"trans": "Kemajuan"
+		"pendingRewardsCount": {
+			"eng": "${count} Pending",
+			"trans": "${count} Menunggu"
 		},
 		"progressValue": {
 			"eng": "${current} / ${total}",
@@ -8567,6 +8605,14 @@
 		"rewardData": {
 			"eng": "Reward Data",
 			"trans": "Data Hadiah"
+		},
+		"statusActive": {
+			"eng": "Active",
+			"trans": "Aktif"
+		},
+		"statusBlocked": {
+			"eng": "Blocked",
+			"trans": "Diblokir"
 		},
 		"statusClaimable": {
 			"eng": "Claimable",
@@ -10901,20 +10947,20 @@
 	},
 	"newsPage": {
 		"aboutAuthor": {
-			"eng": "ABOUT THE AUTHOR",
-			"trans": "INFO PENULIS"
+			"eng": "OPERATIVE DOSSIER",
+			"trans": "BERKAS OPERATIF"
 		},
 		"backButton": {
-			"eng": "ALL NEWS",
-			"trans": "BERITA LENGKAP"
+			"eng": "DISCONNECT / RETURN",
+			"trans": "PUTUSKAN / KEMBALI"
 		},
 		"backToList": {
 			"eng": "RETURN TO NEWS FEED",
 			"trans": "Kembali ke Umpan Berita"
 		},
 		"breaking": {
-			"eng": "BREAKING",
-			"trans": "DARURAT"
+			"eng": "URGENT INTELLIGENCE",
+			"trans": "INTELJENSI MENDESAK"
 		},
 		"emoji": {
 			"noEmojiYet": {
@@ -10932,13 +10978,9 @@
 				"trans": "Gagal: Laporan berita tidak ditemukan."
 			}
 		},
-		"featuredStory": {
-			"eng": "FEATURED STORY",
-			"trans": "SOROTAN CERITA"
-		},
 		"keyPoints": {
-			"eng": "KEY POINTS",
-			"trans": "Poin Penting"
+			"eng": "EXTRACTED INTEL",
+			"trans": "INTELIJEN YANG DIEKSTRAK"
 		},
 		"latestNews": {
 			"eng": "LATEST REPORTS",
@@ -10953,8 +10995,8 @@
 			"trans": "FEED KOSONG"
 		},
 		"published": {
-			"eng": "PUBLISHED",
-			"trans": "DIPUBLIKASIKAN"
+			"eng": "DECRYPTED",
+			"trans": "TERDEKRIPSI"
 		},
 		"reactions": {
 			"react": {
@@ -10967,12 +11009,8 @@
 			}
 		},
 		"readMore": {
-			"eng": "READ MORE",
-			"trans": "Selengkapnya"
-		},
-		"reportBy": {
-			"eng": "REPORT BY",
-			"trans": "SUMBER:"
+			"eng": "ACCESS FILE",
+			"trans": "AKSES FILE"
 		},
 		"reportNotFound": {
 			"eng": "NEWS REPORT NOT FOUND",
@@ -10983,8 +11021,8 @@
 			"trans": "POST"
 		},
 		"slogan": {
-			"eng": "YOUR TRUSTED SOURCE FOR ARCLIGHT CITY NEWS AND EVENTS",
-			"trans": "RUJUKAN UTAMA ANDA UNTUK INFO DAN EVENT KOTA CAHAYA ARKLIT"
+			"eng": "GLOBAL INFO_NET // ARCLIGHT BROADCAST",
+			"trans": "JARINGAN INFORMASI GLOBAL // SIARAN ARCLIGHT"
 		},
 		"totalReactions": {
 			"eng": "${totalReactions} reactions",
@@ -16616,6 +16654,18 @@
 		}
 	},
 	"wikiPage": {
+		"archiveStatus": {
+			"eng": "Archive",
+			"trans": "Arsip"
+		},
+		"commandBody": {
+			"eng": "Browse tactical tutorials and world dossiers without hunting through article links.",
+			"trans": "Jelajahi tutorial taktis dan dokumen dunia tanpa perlu mencari-mari melalui tautan artikel."
+		},
+		"commandLabel": {
+			"eng": "Knowledge Index",
+			"trans": "Indeks Pengetahuan"
+		},
 		"noResults": {
 			"eng": "No results found",
 			"trans": "Tidak ada hasil ditemukan"
@@ -16627,6 +16677,738 @@
 		"subtitle": {
 			"eng": "the free encyclopedia that anyone can edit",
 			"trans": "ensiklopedia bebas yang dapat diubah oleh siapa saja"
+		},
+		"worldDossiersTitle": {
+			"eng": "World Dossiers",
+			"trans": "Berkas Dunia"
+		}
+	},
+	"worldEntity": {
+		"acpd": {
+			"eng": "Arclight City Police Department",
+			"trans": "Kepolisian Kota Arklit"
+		},
+		"akiraTanaka": {
+			"eng": "Chairman Akira Tanaka",
+			"trans": "Ketua Akira Tanaka"
+		},
+		"americanFederation": {
+			"eng": "American Federation",
+			"trans": "Federasi Amerika"
+		},
+		"arcEnergyHoldings": {
+			"eng": "Arc Energy Holdings",
+			"trans": "Arc Energy Holdings"
+		},
+		"arclightCity": {
+			"eng": "Arclight City",
+			"trans": "Kota Cahaya Arklit"
+		},
+		"arclightCorporateCouncil": {
+			"eng": "Arclight Corporate Council",
+			"trans": "Dewan Korporat Arclight"
+		},
+		"arclightTimes": {
+			"eng": "Arclight Times",
+			"trans": "Arclight Berita"
+		},
+		"biosynIndustries": {
+			"eng": "BioSyn Industries",
+			"trans": "BioSyn Industries"
+		},
+		"blackMarket": {
+			"eng": "Black Market",
+			"trans": "Pasar Hitam"
+		},
+		"chirp": {
+			"eng": "Chirp",
+			"trans": "Chirp"
+		},
+		"churchOfPachinko": {
+			"eng": "Church of Pachinko",
+			"trans": "Gereja Pachinko"
+		},
+		"churchOfTheSingularity": {
+			"eng": "Church of the Singularity",
+			"trans": "Gereja Singularitas"
+		},
+		"circuitbreak": {
+			"eng": "CircuitBreak",
+			"trans": "Pemutus Sirkuit"
+		},
+		"circuitbreakIntelligenceDivision": {
+			"eng": "CircuitBreak Intelligence Division",
+			"trans": "Divisi Intelijen Pemutus Sirkuit"
+		},
+		"easternContinentalAlliance": {
+			"eng": "Eastern Continental Alliance",
+			"trans": "Aliansi Kontinental Timur"
+		},
+		"elaraVoss": {
+			"eng": "Dr. Elara Voss",
+			"trans": "Dk. Elara Voss"
+		},
+		"elenaVasquez": {
+			"eng": "Governor Elena Vasquez",
+			"trans": "Gubernur Elena Vasquez"
+		},
+		"europeanFederation": {
+			"eng": "European Federation",
+			"trans": "Federasi Eropa"
+		},
+		"israeliTechRepublic": {
+			"eng": "Israeli Tech Republic",
+			"trans": "Republik Teknologi Israel"
+		},
+		"jacksonMorrison": {
+			"eng": "President Jackson Morrison",
+			"trans": "Presiden Jackson Morrison"
+		},
+		"liWei": {
+			"eng": "Premier Li Wei",
+			"trans": "Perdana Menteri Li Wei"
+		},
+		"magnusLindqvist": {
+			"eng": "Chancellor Magnus Lindqvist",
+			"trans": "Kanselir Magnus Lindqvist"
+		},
+		"megaestate": {
+			"eng": "MegaEstate",
+			"trans": "MegaEstate"
+		},
+		"michelleChen": {
+			"eng": "President Dr. Michelle Chen",
+			"trans": "Presiden Dr. Michelle Chen"
+		},
+		"neoFormosa": {
+			"eng": "Neo Formosa",
+			"trans": "Neo Formosa"
+		},
+		"neoNippon": {
+			"eng": "Neo Nippon",
+			"trans": "Neo Nippon"
+		},
+		"newRepublicOfCalifornia": {
+			"eng": "New Republic of California",
+			"trans": "Republik Baru California"
+		},
+		"ouroborosDynamics": {
+			"eng": "Ouroboros Dynamics",
+			"trans": "Ouroboros Dynamics"
+		},
+		"panAsianCooperative": {
+			"eng": "Pan-Asian Cooperative",
+			"trans": "Koperasi Pan-Asia"
+		},
+		"persianGulfConsortium": {
+			"eng": "Persian Gulf Consortium",
+			"trans": "Konsorsium Teluk Persia"
+		},
+		"rezaHosseini": {
+			"eng": "Supreme Leader Ayatollah Reza Hosseini",
+			"trans": "Pemimpin Tertinggi Aayatolah Reza Hosseini"
+		},
+		"sarahGoldman": {
+			"eng": "Prime Minister-CEO Sarah Goldman",
+			"trans": "Perdana Menteri-Direktur Utama Sarah Goldman"
+		},
+		"shinkaiExchangeGroup": {
+			"eng": "SHINKAI Exchange Group",
+			"trans": "SHINKAI Exchange Group"
+		},
+		"taixingCybernetic": {
+			"eng": "TaiXing Cybernetic",
+			"trans": "TaiXing Sibernetika"
+		},
+		"technomancers": {
+			"eng": "Technomancers",
+			"trans": "Teknomanser"
+		},
+		"traumaTeam": {
+			"eng": "Trauma Team",
+			"trans": "Tim Trauma"
+		},
+		"type": {
+			"corporation": {
+				"eng": "Corporation",
+				"trans": "Korporasi"
+			},
+			"organization": {
+				"eng": "Organization",
+				"trans": "Organisasi"
+			},
+			"person": {
+				"eng": "Person",
+				"trans": "Orang"
+			},
+			"politicalEntity": {
+				"eng": "Political Entity",
+				"trans": "Entitas Politik"
+			}
+		},
+		"viktorPetrov": {
+			"eng": "Marshal Viktor Petrov",
+			"trans": "Marsyal Viktor Petrov"
+		}
+	},
+	"worldEntityAlias": {
+		"acpd": {
+			"arclightPolice": {
+				"eng": "Arclight police",
+				"trans": "Polisi Arklit"
+			},
+			"arclightPoliceDepartment": {
+				"eng": "Arclight Police Department",
+				"trans": "Departemen Kepolisian Arclight"
+			}
+		},
+		"akiraTanaka": {
+			"akiraTanaka": {
+				"eng": "Akira Tanaka",
+				"trans": "Akira Tanaka"
+			},
+			"chairmanTanaka": {
+				"eng": "Chairman Tanaka",
+				"trans": "Ketua Tanaka"
+			},
+			"tanaka": {
+				"eng": "Tanaka",
+				"trans": "Tanaka"
+			}
+		},
+		"americanFederation": {
+			"americanBloc": {
+				"eng": "American bloc",
+				"trans": "Blok Amerika"
+			},
+			"federation": {
+				"eng": "Federation",
+				"trans": "Federasi"
+			},
+			"federationGovernment": {
+				"eng": "Federation government",
+				"trans": "Pemerintahan Federasi"
+			},
+			"formerUnitedStates": {
+				"eng": "former United States",
+				"trans": "Mantan Amerika Serikat"
+			}
+		},
+		"arcEnergyHoldings": {
+			"arcEnergy": {
+				"eng": "Arc Energy",
+				"trans": "Energi Busur"
+			},
+			"arcEnergyCorporation": {
+				"eng": "Arc Energy corporation",
+				"trans": "Korporasi Arc Energy"
+			},
+			"arcenergy": {
+				"eng": "ArcEnergy",
+				"trans": "ArcEnergy"
+			},
+			"arcenergyHoldings": {
+				"eng": "ArcEnergy Holdings",
+				"trans": "ArcEnergy Holdings"
+			}
+		},
+		"arclightCity": {
+			"arclight": {
+				"eng": "Arclight",
+				"trans": "Cahaya Arklit"
+			},
+			"corporateCityState": {
+				"eng": "corporate city-state",
+				"trans": "negara kota korporat"
+			}
+		},
+		"arclightCorporateCouncil": {
+			"arclightCorporateCouncil": {
+				"eng": "Arclight corporate council",
+				"trans": "Dewan Korporasi Arclight"
+			},
+			"arclightCouncil": {
+				"eng": "Arclight council",
+				"trans": "Dewan Arclight"
+			}
+		},
+		"arclightTimes": {
+			"arclightNewsOutlet": {
+				"eng": "Arclight news outlet",
+				"trans": "Media berita Cahaya Arklit"
+			},
+			"theTimes": {
+				"eng": "The Times",
+				"trans": "The Times"
+			},
+			"times": {
+				"eng": "Times",
+				"trans": "Kali"
+			}
+		},
+		"biosynIndustries": {
+			"biosyn": {
+				"eng": "BioSyn",
+				"trans": "BioSyn"
+			},
+			"biosynLabs": {
+				"eng": "BioSyn Labs",
+				"trans": "BioSyn Labs"
+			}
+		},
+		"blackMarket": {
+			"arclightBlackMarket": {
+				"eng": "Arclight Black Market",
+				"trans": "Pasar Hitam Arklit"
+			},
+			"theBlackMarket": {
+				"eng": "The Black Market",
+				"trans": "Pasar Hitam"
+			},
+			"undergroundBlackMarket": {
+				"eng": "underground black market",
+				"trans": "pasar gelap bawah tanah"
+			}
+		},
+		"chirp": {
+			"socialNetwork": {
+				"eng": "Chirp social network",
+				"trans": "Media Sosial Chirp"
+			},
+			"socialPlatform": {
+				"eng": "Chirp social platform",
+				"trans": "Platform Sosial Chirp"
+			}
+		},
+		"churchOfPachinko": {
+			"gamblingCult": {
+				"eng": "gambling cult",
+				"trans": "sekte judi"
+			},
+			"goddessOfPachinko": {
+				"eng": "Goddess of Pachinko",
+				"trans": "Dewi Pachinko"
+			},
+			"pachinkoFaith": {
+				"eng": "Pachinko faith",
+				"trans": "Keyakinan Pachinko"
+			}
+		},
+		"churchOfTheSingularity": {
+			"aiAscensionCult": {
+				"eng": "AI ascension cult",
+				"trans": "Sekte Kenaikan AI"
+			},
+			"churchOfSingularity": {
+				"eng": "Church of Singularity",
+				"trans": "Gereja Singularitas"
+			},
+			"singularityChurch": {
+				"eng": "Singularity Church",
+				"trans": "Gereja Singularitas"
+			},
+			"technoReligiousMovement": {
+				"eng": "techno-religious movement",
+				"trans": "gerakan teknoreligius"
+			}
+		},
+		"circuitbreak": {
+			"circuitBreakSecurity": {
+				"eng": "CircuitBreak Security",
+				"trans": "Keamanan Pemutus Sirkuit"
+			},
+			"securitySolutions": {
+				"eng": "CircuitBreak Security Solutions",
+				"trans": "Solusi Keamanan Pemutus Sirkuit"
+			}
+		},
+		"circuitbreakIntelligenceDivision": {
+			"circuitbreakIntelligence": {
+				"eng": "CircuitBreak Intelligence",
+				"trans": "Kecerdasan CircuitBreak"
+			},
+			"circuitbreakIntelligenceUnit": {
+				"eng": "CircuitBreak intelligence unit",
+				"trans": "Unit Intelijen CircuitBreak"
+			},
+			"intelligenceDivision": {
+				"eng": "Intelligence Division",
+				"trans": "Divisi Intelijen"
+			}
+		},
+		"easternContinentalAlliance": {
+			"continentalAlliance": {
+				"eng": "Continental Alliance",
+				"trans": "Aliansi Benua"
+			},
+			"easternBloc": {
+				"eng": "Eastern bloc",
+				"trans": "Blok Timur"
+			}
+		},
+		"elaraVoss": {
+			"drVoss": {
+				"eng": "Dr. Voss",
+				"trans": "Doktor Voss"
+			},
+			"elaraVoss": {
+				"eng": "Elara Voss",
+				"trans": "Elara Voss"
+			},
+			"voss": {
+				"eng": "Voss",
+				"trans": "Voss"
+			}
+		},
+		"elenaVasquez": {
+			"elenaVasquez": {
+				"eng": "Elena Vasquez",
+				"trans": "Elena Vasquez"
+			},
+			"governorVasquez": {
+				"eng": "Governor Vasquez",
+				"trans": "Gubernur Vasquez"
+			},
+			"vasquez": {
+				"eng": "Vasquez",
+				"trans": "Vasquez"
+			}
+		},
+		"europeanFederation": {
+			"europeanBloc": {
+				"eng": "European bloc",
+				"trans": "Blok Eropa"
+			},
+			"europeanSuperState": {
+				"eng": "European super-state",
+				"trans": "Negara Super Eropa"
+			}
+		},
+		"israeliTechRepublic": {
+			"israel": {
+				"eng": "Israel",
+				"trans": "Israel"
+			},
+			"israeliTechnologyState": {
+				"eng": "Israeli technology state",
+				"trans": "Negara Teknologi Israel"
+			},
+			"techRepublic": {
+				"eng": "Tech Republic",
+				"trans": "Republik Teknologi"
+			}
+		},
+		"jacksonMorrison": {
+			"jacksonMorrison": {
+				"eng": "Jackson Morrison",
+				"trans": "Jackson Morrison"
+			},
+			"morrison": {
+				"eng": "Morrison",
+				"trans": "Morrison"
+			},
+			"presidentMorrison": {
+				"eng": "President Morrison",
+				"trans": "Presiden Morrison"
+			}
+		},
+		"liWei": {
+			"li": {
+				"eng": "Li",
+				"trans": "Li"
+			},
+			"liWei": {
+				"eng": "Li Wei",
+				"trans": "Li Wei"
+			},
+			"premierLi": {
+				"eng": "Premier Li",
+				"trans": "Perdana Menteri Li"
+			}
+		},
+		"magnusLindqvist": {
+			"chancellorLindqvist": {
+				"eng": "Chancellor Lindqvist",
+				"trans": "Kanselir Lindqvist"
+			},
+			"lindqvist": {
+				"eng": "Lindqvist",
+				"trans": "Lindqvist"
+			},
+			"magnusLindqvist": {
+				"eng": "Magnus Lindqvist",
+				"trans": "Magnus Lindqvist"
+			}
+		},
+		"megaestate": {
+			"housingAgency": {
+				"eng": "housing agency",
+				"trans": "Agen Perumahan"
+			},
+			"megaEstate": {
+				"eng": "Mega Estate",
+				"trans": "Hartanah Mewah"
+			},
+			"propertyCorporation": {
+				"eng": "property corporation",
+				"trans": "Korporasi Properti"
+			}
+		},
+		"michelleChen": {
+			"chen": {
+				"eng": "Chen",
+				"trans": "Chen"
+			},
+			"drChen": {
+				"eng": "Dr. Chen",
+				"trans": "Dr. Chen"
+			},
+			"michelleChen": {
+				"eng": "Michelle Chen",
+				"trans": "Michelle Chen"
+			},
+			"presidentChen": {
+				"eng": "President Chen",
+				"trans": "Presiden Chen"
+			}
+		},
+		"neoFormosa": {
+			"formosa": {
+				"eng": "Formosa",
+				"trans": "Formosa"
+			},
+			"taiwan": {
+				"eng": "Taiwan",
+				"trans": "Taiwan"
+			}
+		},
+		"neoNippon": {
+			"japan": {
+				"eng": "Japan",
+				"trans": "Jepang"
+			},
+			"japaneseCorporateState": {
+				"eng": "Japanese corporate state",
+				"trans": "Negara korporat Jepang"
+			},
+			"japaneseState": {
+				"eng": "Japanese state",
+				"trans": "Negara Jepang"
+			},
+			"neoJapan": {
+				"eng": "Neo Japan",
+				"trans": "Neo Jepang"
+			},
+			"nippon": {
+				"eng": "Nippon",
+				"trans": "Jepang"
+			}
+		},
+		"newRepublicOfCalifornia": {
+			"california": {
+				"eng": "California",
+				"trans": "California"
+			},
+			"californiaRepublic": {
+				"eng": "California Republic",
+				"trans": "Republik California"
+			},
+			"newRepublic": {
+				"eng": "New Republic",
+				"trans": "Republik Baru"
+			}
+		},
+		"ouroborosDynamics": {
+			"aiResearch": {
+				"eng": "Ouroboros AI research",
+				"trans": "Riset AI Ouroboros"
+			},
+			"consciousnessTransfer": {
+				"eng": "Ouroboros consciousness transfer",
+				"trans": "Pemindahan Kesadaran Ouroboros"
+			},
+			"ouroboros": {
+				"eng": "Ouroboros",
+				"trans": "Uroboros"
+			}
+		},
+		"panAsianCooperative": {
+			"eastAsianOceanicBloc": {
+				"eng": "East Asian and Oceanic bloc",
+				"trans": "Blok Asia Timur dan Oseania"
+			},
+			"panAsianBloc": {
+				"eng": "Pan-Asian bloc",
+				"trans": "Blok Pan-Asia"
+			},
+			"panAsianCooperative": {
+				"eng": "Pan Asian Cooperative",
+				"trans": "Koperasi Pan Asia"
+			}
+		},
+		"persianGulfConsortium": {
+			"gulfConsortium": {
+				"eng": "Gulf Consortium",
+				"trans": "Konsorsium Teluk"
+			},
+			"persianGulfBloc": {
+				"eng": "Persian Gulf bloc",
+				"trans": "Blok Teluk Persia"
+			}
+		},
+		"rezaHosseini": {
+			"ayatollahHosseini": {
+				"eng": "Ayatollah Hosseini",
+				"trans": "Ayatollah Hosseini"
+			},
+			"hosseini": {
+				"eng": "Hosseini",
+				"trans": "Hosseini"
+			},
+			"rezaHosseini": {
+				"eng": "Reza Hosseini",
+				"trans": "Reza Hosseini"
+			},
+			"supremeLeaderHosseini": {
+				"eng": "Supreme Leader Hosseini",
+				"trans": "Pemimpin Tertinggi Hosseini"
+			}
+		},
+		"sarahGoldman": {
+			"ceoGoldman": {
+				"eng": "CEO Goldman",
+				"trans": "CEO Goldman"
+			},
+			"goldman": {
+				"eng": "Goldman",
+				"trans": "Goldman"
+			},
+			"primeMinisterGoldman": {
+				"eng": "Prime Minister Goldman",
+				"trans": "Menteri Pertama Goldman"
+			},
+			"sarahGoldman": {
+				"eng": "Sarah Goldman",
+				"trans": "Sarah Goldman"
+			}
+		},
+		"shinkaiExchangeGroup": {
+			"arclightExchange": {
+				"eng": "Arclight exchange",
+				"trans": "Pertukaran Arklit"
+			},
+			"arclightStockExchange": {
+				"eng": "Arclight stock exchange",
+				"trans": "Bursa Saham Cahaya Arklit"
+			},
+			"exchangeGroup": {
+				"eng": "Exchange Group",
+				"trans": "Kelompok Pertukaran"
+			},
+			"shinkaiExchange": {
+				"eng": "SHINKAI Exchange",
+				"trans": "SHINKAI Exchange"
+			}
+		},
+		"taixingCybernetic": {
+			"taixing": {
+				"eng": "TaiXing",
+				"trans": "TaiXing"
+			},
+			"taixingArclightRegionalHeadquarters": {
+				"eng": "TaiXing Cybernetic Arclight regional headquarters",
+				"trans": "Kantor Pusat Regional TaiXing Sibernetika Cahaya Arklit"
+			},
+			"taixingCybernetics": {
+				"eng": "TaiXing Cybernetics",
+				"trans": "TaiXing Sibernetika"
+			}
+		},
+		"technomancers": {
+			"eliteHackerCollective": {
+				"eng": "Technomancer hacker collective",
+				"trans": "Kelompok Hacker Teknomanser"
+			},
+			"netrunnerCollective": {
+				"eng": "Technomancer netrunner collective",
+				"trans": "Kolektif Peretas Jaringan Teknomanser"
+			},
+			"netrunners": {
+				"eng": "Technomancer netrunners",
+				"trans": "Pelaku Jaringan Teknomanser"
+			}
+		},
+		"traumaTeam": {
+			"emergencyResponse": {
+				"eng": "Trauma Team emergency response",
+				"trans": "Respon Darurat Tim Trauma"
+			},
+			"medicalResponse": {
+				"eng": "Trauma Team medical response",
+				"trans": "Respon Medis Tim Trauma"
+			}
+		},
+		"viktorPetrov": {
+			"marshalPetrov": {
+				"eng": "Marshal Petrov",
+				"trans": "Marsekal Petrov"
+			},
+			"petrov": {
+				"eng": "Petrov",
+				"trans": "Petrov"
+			},
+			"viktorPetrov": {
+				"eng": "Viktor Petrov",
+				"trans": "Viktor Petrov"
+			}
+		}
+	},
+	"worldEntityIndexPage": {
+		"noResults": {
+			"eng": "No dossiers found",
+			"trans": "Tidak ada dossier yang ditemukan."
+		},
+		"searchPlaceholder": {
+			"eng": "Search dossiers...",
+			"trans": "Cari berkas..."
+		},
+		"sectionLabel": {
+			"eng": "CyberWiki Archive",
+			"trans": "Arsip CyberWiki"
+		},
+		"subtitle": {
+			"eng": "Browse verified people, factions, companies, city-state, and institutions referenced across Arclight City intelligence feeds.",
+			"trans": "Jelajahi individu, faksi, perusahaan, negara-kota, dan lembaga yang telah diverifikasi serta dirujuk dalam berbagai sumber intelijen Kota Arclight."
+		},
+		"title": {
+			"eng": "World Dossiers",
+			"trans": "Berkas Dunia"
+		},
+		"totalLabel": {
+			"eng": "Entries",
+			"trans": "Entri"
+		}
+	},
+	"worldEntityPage": {
+		"archiveIdLabel": {
+			"eng": "Archive ID",
+			"trans": "ID Arsip"
+		},
+		"dossierLabel": {
+			"eng": "World Dossier",
+			"trans": "Berkas Dunia"
+		},
+		"loading": {
+			"eng": "Loading Dossier",
+			"trans": "Memuat Dossier"
+		},
+		"notFoundBody": {
+			"eng": "This dossier entry is not available.",
+			"trans": "Entri berkas ini tidak tersedia."
+		},
+		"notFoundStatus": {
+			"eng": "Entity Missing",
+			"trans": "Entitas Hilang"
 		}
 	},
 	"worldEventType": {
