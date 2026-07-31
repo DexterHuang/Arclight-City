@@ -374,24 +374,40 @@
 			"displayName": {
 				"eng": "Slum Apartment",
 				"trans": "Apartemen Kumuh"
+			},
+			"websiteDisplayName": {
+				"eng": "Essential Housing",
+				"trans": "Hunian Pokok"
 			}
 		},
 		"apartment1": {
 			"displayName": {
 				"eng": "Low-end Apartment",
 				"trans": "Apartemen Murah"
+			},
+			"websiteDisplayName": {
+				"eng": "City Housing",
+				"trans": "Hunian Kota"
 			}
 		},
 		"apartment2": {
 			"displayName": {
 				"eng": "Budget Studio",
 				"trans": "Studio Anggaran"
+			},
+			"websiteDisplayName": {
+				"eng": "Urban Studio",
+				"trans": "Studio Perkotaan"
 			}
 		},
 		"apartment3": {
 			"displayName": {
 				"eng": "Downtown Apartment",
 				"trans": "Apartemen Kota Tengah"
+			},
+			"websiteDisplayName": {
+				"eng": "Central Residence",
+				"trans": "Residensi Pusat"
 			}
 		},
 		"chat": {
@@ -567,28 +583,6 @@
 				"eng": "Vault",
 				"trans": "Gudang"
 			}
-		}
-	},
-	"apartmentPurchasePage": {
-		"confirmDescription": {
-			"eng": "Are you sure you want to rent this apartment? if you already have an apartment, it will be dismissed.",
-			"trans": "Apakah kamu yakin ingin menyewa apartemen ini? kamu akan pindah dari apartemen lamamu."
-		},
-		"confirmTitle": {
-			"eng": "Confirm Rental",
-			"trans": "Konfirmasi Sewa"
-		},
-		"owned": {
-			"eng": "Owned",
-			"trans": "Dimiliki"
-		},
-		"perWeek": {
-			"eng": "Per week",
-			"trans": "Per minggu"
-		},
-		"rent": {
-			"eng": "Rent Now",
-			"trans": "Sewa Sekarang"
 		}
 	},
 	"appProductType": {
@@ -920,10 +914,14 @@
 			"eng": "Task completed",
 			"trans": "Tugas selesai"
 		},
+		"dismissButton": {
+			"eng": "Dismiss",
+			"trans": "Singkirkan"
+		},
 		"emptyTask": {
 			"description": {
-				"eng": "Click to choose a task",
-				"trans": "Klik untuk memilih tugas"
+				"eng": "Assign operation",
+				"trans": "Tugaskan Operasi"
 			},
 			"title": {
 				"eng": "Task slot available",
@@ -932,7 +930,7 @@
 		},
 		"inProgress": {
 			"eng": "Task in progress...",
-			"trans": "Tugas sedang berlangsung..."
+			"trans": "Tugas sedang berjalan..."
 		},
 		"instantFinish": {
 			"eng": "Finish Now",
@@ -941,6 +939,10 @@
 		"instantFinishConfirmTitle": {
 			"eng": "Finish task now?",
 			"trans": "Selesaikan tugas sekarang?"
+		},
+		"invalidated": {
+			"eng": "Operation invalidated",
+			"trans": "Operasi Tidak Valid"
 		}
 	},
 	"backgroundTaskPage": {
@@ -961,6 +963,10 @@
 		"cost": {
 			"eng": "Cost",
 			"trans": "Biaya"
+		},
+		"priorityOperationWarning": {
+			"eng": "Your gang must hold first place when this operation starts and settles. Start costs are not refunded if it is invalidated.",
+			"trans": "Geng Anda harus menduduki peringkat pertama saat operasi ini dimulai dan selesai. Biaya awal tidak dikembalikan jika batal."
 		},
 		"rewards": {
 			"eng": "possible rewards",
@@ -1024,6 +1030,16 @@
 				"trans": "Misi Ekstraksi"
 			}
 		},
+		"rogueAssetExtraction": {
+			"description": {
+				"eng": "Intercept a hostile augmentation shipment while your gang holds the highest war score. Losing first place before settlement invalidates the operation and forfeits its rewards.",
+				"trans": "Rampas pengiriman augmentasi musuh saat geng Anda menduduki peringkat teratas dalam skor perang. Kehilangan posisi pertama sebelum penyelesaian akan membatalkan operasi dan menghapus seluruh imbalan."
+			},
+			"displayName": {
+				"eng": "Rogue Asset Extraction",
+				"trans": "Ekstraksi Aset Liar"
+			}
+		},
 		"scavenge": {
 			"description": {
 				"eng": "Navigate hazardous junkyards, uncover hidden treasures, and salvage valuable tech",
@@ -1053,6 +1069,20 @@
 				"eng": "Thieving",
 				"trans": "Pencurian"
 			}
+		}
+	},
+	"backgroundTaskTypeDisplay": {
+		"afkOperation": {
+			"eng": "AFK Operation",
+			"trans": "Operasi AFK"
+		},
+		"firstPlaceRequired": {
+			"eng": "First-place gang",
+			"trans": "Geng peringkat pertama"
+		},
+		"priorityOperation": {
+			"eng": "Priority Operation",
+			"trans": "Operasi Prioritas"
 		}
 	},
 	"backgroundTaskUpgradePopup": {
@@ -1863,6 +1893,732 @@
 		"title": {
 			"eng": "Rotate the circle to unlock",
 			"trans": "Putar lingkaran untuk membuka kunci"
+		}
+	},
+	"circuitBreakWebsite": {
+		"about": {
+			"cid": {
+				"description": {
+					"eng": "CID handles controlled surveillance, intelligence collection, and sensitive recovery mandates under restricted authority.",
+					"trans": "CID menangani pengawasan terkendali, pengumpulan intelijen, dan mandat pemulihan sensitif di bawah wewenang terbatas."
+				},
+				"eyebrow": {
+					"eng": "Specialist division",
+					"trans": "Divisi spesialis"
+				},
+				"liaisonLabel": {
+					"eng": "Contractor liaison",
+					"trans": "Penghubung Kontraktor"
+				},
+				"liaisonName": {
+					"eng": "Vale",
+					"trans": "Vale"
+				},
+				"liaisonRole": {
+					"eng": "Intelligence operations",
+					"trans": "Operasi Intelijen"
+				},
+				"title": {
+					"eng": "CircuitBreak Intelligence Division",
+					"trans": "Divisi Intelijen Pemutus Sirkuit"
+				}
+			},
+			"eyebrow": {
+				"eng": "Company",
+				"trans": "Perusahaan"
+			},
+			"leadership": {
+				"kira": {
+					"biography": {
+						"eng": "Kira Nilsen directs security policy and operational standards across CircuitBreak.",
+						"trans": "Kira Nilsen mengelola kebijakan keamanan dan standar operasional di seluruh CircuitBreak."
+					},
+					"name": {
+						"eng": "Kira Nilsen",
+						"trans": "Kira Nilsen"
+					},
+					"role": {
+						"eng": "Director of Security",
+						"trans": "Direktur Keamanan"
+					}
+				},
+				"label": {
+					"eng": "Executive leadership",
+					"trans": "Pimpinan Eksekutif"
+				},
+				"lee": {
+					"biography": {
+						"eng": "Lee Jong-suk serves as Chief Executive Officer of CircuitBreak Security Solutions. A former Korean special-forces soldier, he built his career around protective operations, crisis command, and work conducted under strict information controls. At CircuitBreak, his leadership is defined by disciplined execution, limited public disclosure, and a belief that effective security is measured by what never reaches the public record.",
+						"trans": "Lee Jong-suk menjabat sebagai Chief Executive Officer di CircuitBreak Security Solutions. Sebagai mantan prajurit pasukan khusus Korea, ia membangun kariernya dalam operasi pengamanan, penanganan krisis, dan pekerjaan yang dilaksanakan dengan kendali informasi ketat. Di CircuitBreak, kepemimpinannya dicirikan oleh eksekusi yang disiplin, pembatasan informasi publik, serta keyakinan bahwa keamanan efektif diukur dari apa yang tidak pernah tercatat secara publik."
+					},
+					"imageAlt": {
+						"eng": "CircuitBreak chief executive Lee Jong-suk overseeing a night deployment",
+						"trans": "Ketua Eksekutif CircuitBreak Lee Jong-suk Mengawasi Operasi Malam"
+					},
+					"name": {
+						"eng": "Lee Jong-suk",
+						"trans": "Lee Jong-suk"
+					},
+					"role": {
+						"eng": "Chief Executive Officer",
+						"trans": "Direktur Utama"
+					}
+				},
+				"registerLabel": {
+					"eng": "Leadership register",
+					"trans": "Daftar Pimpinan"
+				}
+			},
+			"overview": {
+				"eng": "A listed Arclight security company providing executive protection, armed response, threat intelligence, and sensitive recovery.",
+				"trans": "Perusahaan keamanan Arclight yang terdaftar di bursa, menyediakan layanan perlindungan eksekutif, respons bersenjata, intelijen ancaman, dan pemulihan situasi sensitif."
+			},
+			"registry": {
+				"divisionLabel": {
+					"eng": "Specialist division",
+					"trans": "Divisi spesialis"
+				},
+				"divisionValue": {
+					"eng": "CID",
+					"trans": "CID"
+				},
+				"entityLabel": {
+					"eng": "Registered entity",
+					"trans": "Entitas Terdaftar"
+				},
+				"entityValue": {
+					"eng": "CircuitBreak Security Solutions",
+					"trans": "Pemutus Sirkuit Solusi Keamanan"
+				},
+				"label": {
+					"eng": "Corporate record",
+					"trans": "Arsip Korporasi"
+				},
+				"marketLabel": {
+					"eng": "Ticker",
+					"trans": "Info Berjalan"
+				},
+				"marketValue": {
+					"eng": "CBK",
+					"trans": "CBK"
+				}
+			},
+			"title": {
+				"eng": "CircuitBreak Security Solutions",
+				"trans": "Pemutus Sirkuit Solusi Keamanan"
+			}
+		},
+		"careers": {
+			"cid": {
+				"contactAction": {
+					"eng": "View liaison details",
+					"trans": "Lihat detail penghubung"
+				},
+				"description": {
+					"eng": "CID reviews sponsored operators for surveillance, intelligence collection, and sensitive recovery assignments. Intake requires a verified sponsor or approved liaison referral.",
+					"trans": "CID mengevaluasi operator tersponsori untuk tugas pengawasan, pengumpulan intelijen, dan misi pemulihan sensitif. Pendaftaran memerlukan sponsor terverifikasi atau rujukan dari perwakilan resmi yang disetujui."
+				},
+				"label": {
+					"eng": "Contract operators",
+					"trans": "Operator Kontrak"
+				},
+				"liaisonLabel": {
+					"eng": "Contractor liaison",
+					"trans": "Penghubung Kontraktor"
+				},
+				"liaisonName": {
+					"eng": "Vale",
+					"trans": "Vale"
+				},
+				"liaisonRole": {
+					"eng": "Intelligence operations",
+					"trans": "Operasi Intelijen"
+				},
+				"title": {
+					"eng": "CID contractor intake",
+					"trans": "Pendaftaran Kontraktor CID"
+				}
+			},
+			"eyebrow": {
+				"eng": "Careers",
+				"trans": "Profesi"
+			},
+			"imageAlt": {
+				"eng": "CircuitBreak operations candidate completing a professional assessment",
+				"trans": "Kandidat Operasi CircuitBreak menyelesaikan asesmen profesional"
+			},
+			"intro": {
+				"eng": "Permanent roles for security professionals who exercise sound judgment under pressure.",
+				"trans": "Posisi tetap untuk profesional keamanan yang mampu mengambil keputusan tepat di bawah tekanan."
+			},
+			"openRolesTitle": {
+				"eng": "Current openings",
+				"trans": "Lowongan Tersedia Saat Ini"
+			},
+			"recruitmentAction": {
+				"eng": "Contact recruitment",
+				"trans": "Rekrutmen Kontak"
+			},
+			"vacancies": {
+				"intelligence": {
+					"context": {
+						"eng": "Risk Intelligence / Arclight",
+						"trans": "Intelejensi Risiko / Cahaya Arklit"
+					},
+					"title": {
+						"eng": "Threat Intelligence Analyst",
+						"trans": "Analis Intelijen Ancaman"
+					}
+				},
+				"protective": {
+					"context": {
+						"eng": "Protective Operations / Arclight",
+						"trans": "Operasi Perlindungan / Cahaya Arklit"
+					},
+					"title": {
+						"eng": "Protective Operations Specialist",
+						"trans": "Ahli Perlindungan Operasional"
+					}
+				},
+				"response": {
+					"context": {
+						"eng": "Client Command / Arclight Response Centre",
+						"trans": "Perintah Klien / Pusat Respons Arclight"
+					},
+					"title": {
+						"eng": "Client Response Controller",
+						"trans": "Kontroler Respon Klien"
+					}
+				}
+			}
+		},
+		"contact": {
+			"directory": {
+				"cid": {
+					"access": {
+						"eng": "Sponsor only",
+						"trans": "Khusus Sponsor"
+					},
+					"description": {
+						"eng": "Sponsor-backed candidate references and approved contractor correspondence.",
+						"trans": "Referensi kandidat bersponsor dan korespondensi kontraktor yang disetujui."
+					},
+					"title": {
+						"eng": "CID contractor liaison",
+						"trans": "Penghubung Kontraktor CID"
+					}
+				},
+				"corporate": {
+					"access": {
+						"eng": "Public",
+						"trans": "Umum"
+					},
+					"address": {
+						"eng": "corporate@circuitbreak.com",
+						"trans": "corporate@circuitbreak.com"
+					},
+					"description": {
+						"eng": "Company records, procurement, legal notices, recruitment, and general correspondence.",
+						"trans": "Dokumen perusahaan, pengadaan, pemberitahuan hukum, rekrutmen, dan korespondensi umum."
+					},
+					"title": {
+						"eng": "Corporate and recruitment",
+						"trans": "Korporat dan Rekrutmen"
+					}
+				},
+				"protected": {
+					"access": {
+						"eng": "Private intake",
+						"trans": "Sesi Pribadi"
+					},
+					"action": {
+						"eng": "Open a private mandate",
+						"trans": "Buka mandat pribadi"
+					},
+					"description": {
+						"eng": "Submit a new private-client mandate for controlled assessment.",
+						"trans": "Kirim mandat klien pribadi baru untuk evaluasi terkendali."
+					},
+					"title": {
+						"eng": "Private mandate",
+						"trans": "mandat pribadi"
+					}
+				},
+				"response": {
+					"access": {
+						"eng": "Contracted clients",
+						"trans": "Klien Kontrak"
+					},
+					"description": {
+						"eng": "For active incidents under an existing mandate, use your assigned client relay. Public mail cannot dispatch field teams.",
+						"trans": "Untuk insiden aktif di bawah mandat berjalan, gunakan relay klien pribadi Anda. Sistem surat publik tidak dapat mengirimkan tim lapangan."
+					},
+					"reference": {
+						"eng": "Use assigned client relay",
+						"trans": "Gunakan relay klien yang ditugaskan"
+					},
+					"title": {
+						"eng": "Active client response",
+						"trans": "Respons Klien Aktif"
+					}
+				}
+			},
+			"directoryTitle": {
+				"eng": "Contact CircuitBreak",
+				"trans": "Hubungi Pemutus Sirkuit"
+			},
+			"eyebrow": {
+				"eng": "Contact",
+				"trans": "Kontak"
+			},
+			"intro": {
+				"eng": "Choose the channel matching your request. Restricted matters cannot be transferred from public enquiries.",
+				"trans": "Pilih saluran yang sesuai dengan permintaan Anda. Masalah sensitif tidak dapat dialihkan dari pertanyaan umum."
+			}
+		},
+		"contracts": {
+			"disclaimer": {
+				"eng": "Mandate availability and operator response are not guaranteed. CircuitBreak retains final network authority.",
+				"trans": "Ketersediaan mandat dan respons operator tidak dijamin. CircuitBreak memegang otoritas tertinggi atas jaringan."
+			},
+			"emptyAction": {
+				"eng": "Open a contract",
+				"trans": "Buka Kontrak"
+			},
+			"emptyCode": {
+				"eng": "Ledger status / Clear",
+				"trans": "Status Buku Besar / Hapus"
+			},
+			"emptyDescription": {
+				"eng": "No public mandate currently meets network requirements. Qualified clients may open a new contract.",
+				"trans": "Tidak ada mandat publik yang memenuhi persyaratan jaringan saat ini. Klien terverifikasi dapat membuka kontrak baru."
+			},
+			"eyebrow": {
+				"eng": "Private Client Network / Mandates",
+				"trans": "Jaringan Klien Privat / Penugasan"
+			},
+			"intro": {
+				"eng": "Active public mandates available to verified CircuitBreak operators. Select a target to review engagement options.",
+				"trans": "Mandat publik aktif yang tersedia bagi operator CircuitBreak terverifikasi. Pilih target untuk meninjau opsi interaksi."
+			},
+			"levelColumn": {
+				"eng": "Level",
+				"trans": "Level"
+			},
+			"loadingTitle": {
+				"eng": "Retrieving mandates",
+				"trans": "Mengambil mandat"
+			},
+			"openContract": {
+				"eng": "Place a Hit",
+				"trans": "Pesan Pembunuh Bayaran"
+			},
+			"sortLabel": {
+				"eng": "Sort: ${mode}",
+				"trans": "Urutkan: ${mode}"
+			},
+			"status": {
+				"eng": "Active ledger",
+				"trans": "Jurnal Aktif"
+			},
+			"targetColumn": {
+				"eng": "Target",
+				"trans": "Target"
+			},
+			"title": {
+				"eng": "Contract Board",
+				"trans": "Papan Kontrak"
+			},
+			"valueColumn": {
+				"eng": "Value",
+				"trans": "Nilai"
+			}
+		},
+		"home": {
+			"hero": {
+				"classification": {
+					"eng": "Integrated security / Arclight",
+					"trans": "Keamanan Terpadu / Cahaya Arklit"
+				},
+				"clientAccess": {
+					"eng": "Private client access",
+					"trans": "Akses Klien Privat"
+				},
+				"description": {
+					"eng": "CircuitBreak protects Arclight's most exposed institutions, assets, and executives. When deterrence fails, we resolve the exposure.",
+					"trans": "Pemutus Sirkuit mengamankan institusi, aset, dan eksekutif paling rentan di Arclight. Jika pencegahan gagal, kami netralisir kerentanannya."
+				},
+				"imageAlt": {
+					"eng": "CircuitBreak headquarters and executive protection detail in Arclight",
+					"trans": "Markas Pusat Pemutus Sirkuit dan Tim Pengamanan Eksekutif di Kota Cahaya Arklit"
+				},
+				"placeHit": {
+					"eng": "Place Hit",
+					"trans": "Tembak Tepat"
+				},
+				"title": {
+					"eng": "Power, applied.",
+					"trans": "Daya diterapkan."
+				},
+				"viewBoard": {
+					"eng": "View Board",
+					"trans": "Lihat Papan"
+				}
+			},
+			"services": {
+				"allServices": {
+					"eng": "View all services",
+					"trans": "Lihat Semua Layanan"
+				},
+				"highRisk": {
+					"description": {
+						"eng": "Integrated protection for critical sites and operations.",
+						"trans": "Perlindungan terpadu untuk lokasi dan operasi kritis."
+					},
+					"title": {
+						"eng": "High-risk security",
+						"trans": "Keamanan Berisiko Tinggi"
+					}
+				},
+				"label": {
+					"eng": "Capabilities",
+					"trans": "Kemampuan"
+				},
+				"protection": {
+					"description": {
+						"eng": "Protective teams and secure movement for exposed clients.",
+						"trans": "Tim pengawal dan perjalanan aman untuk klien yang terpapar."
+					},
+					"title": {
+						"eng": "Executive protection",
+						"trans": "Perlindungan Eksekutif"
+					}
+				},
+				"response": {
+					"description": {
+						"eng": "Rapid intervention when a material threat becomes active.",
+						"trans": "Intervensi cepat saat ancaman nyata aktif."
+					},
+					"title": {
+						"eng": "Armed response",
+						"trans": "Respons Bersenjata"
+					}
+				},
+				"title": {
+					"eng": "Protective services",
+					"trans": "Layanan Perlindungan"
+				}
+			}
+		},
+		"placeHit": {
+			"actionIntro": {
+				"eng": "Choose a target and contract value, then review the cost before authorization.",
+				"trans": "Pilih target dan nilai kontrak, lalu periksa biaya sebelum menyetujui."
+			},
+			"actionTitle": {
+				"eng": "Place a hit",
+				"trans": "Pasang Kontrak"
+			},
+			"amountModalTitle": {
+				"eng": "Contract value",
+				"trans": "Nilai Kontrak"
+			},
+			"availableFunds": {
+				"eng": "Available funds",
+				"trans": "Dana Tersedia"
+			},
+			"changeTarget": {
+				"eng": "Change",
+				"trans": "Ubah"
+			},
+			"changeValue": {
+				"eng": "Change",
+				"trans": "Ubah"
+			},
+			"formCode": {
+				"eng": "Form CB-17",
+				"trans": "Formulir CB-17"
+			},
+			"fundsStatus": {
+				"eng": "Available funds no longer cover this contract.",
+				"trans": "Dana tidak lagi mencukupi untuk kontrak ini."
+			},
+			"insufficientFundsStatus": {
+				"eng": "Available funds are below the ${amount} ${currency} contract minimum.",
+				"trans": "Dana yang tersedia berada di bawah batas minimum kontrak ${amount} ${currency}."
+			},
+			"levelRequirement": {
+				"eng": "Level ${level} is required to authorize a contract.",
+				"trans": "Level ${level} diperlukan untuk menyetujui kontrak."
+			},
+			"levelStatus": {
+				"eng": "Client authorization requires player level ${level}.",
+				"trans": "Otorisasi klien memerlukan level pemain ${level}."
+			},
+			"minimumStatus": {
+				"eng": "Set a contract value of at least ${amount} ${currency}.",
+				"trans": "Tetapkan nilai kontrak minimal ${amount} ${currency}."
+			},
+			"minimumValue": {
+				"eng": "Minimum ${amount}",
+				"trans": "Minimum ${amount}"
+			},
+			"networkLabel": {
+				"eng": "Private Client Network",
+				"trans": "Jaringan Klien Privat"
+			},
+			"readyStatus": {
+				"eng": "Contract is ready to review.",
+				"trans": "Kontrak siap ditinjau."
+			},
+			"required": {
+				"eng": "Required",
+				"trans": "Wajib"
+			},
+			"restrictedStatus": {
+				"eng": "System restrictions prevent contract authorization.",
+				"trans": "Batasan sistem mencegah otorisasi kontrak."
+			},
+			"reviewAction": {
+				"eng": "Review contract",
+				"trans": "Tinjau kontrak"
+			},
+			"selectTargetAction": {
+				"eng": "Select",
+				"trans": "Pilih"
+			},
+			"selectTargetStatus": {
+				"eng": "Select a target to continue.",
+				"trans": "Pilih target untuk melanjutkan."
+			},
+			"setValue": {
+				"eng": "Set value",
+				"trans": "Atur nilai"
+			},
+			"simpleTargetTitle": {
+				"eng": "1. Choose target",
+				"trans": "1. Pilih target"
+			},
+			"simpleValueTitle": {
+				"eng": "2. Set contract value",
+				"trans": "2. Atur nilai kontrak"
+			},
+			"targetEmpty": {
+				"eng": "Search verified player records",
+				"trans": "Cari data pemain terverifikasi"
+			},
+			"targetLevelStatus": {
+				"eng": "Targets below level ${level} cannot be listed.",
+				"trans": "Target di bawah level ${level} tidak dapat ditampilkan."
+			},
+			"targetSelected": {
+				"eng": "Verified identity selected",
+				"trans": "Identitas terverifikasi terpilih"
+			}
+		},
+		"reviewHit": {
+			"authorizeAction": {
+				"eng": "Authorize contract",
+				"trans": "Otorisasi Kontrak"
+			},
+			"editAction": {
+				"eng": "Edit details",
+				"trans": "Ubah detail"
+			},
+			"formCode": {
+				"eng": "Form CB-17 / Review",
+				"trans": "Formulir CB-17 / Peninjauan"
+			},
+			"fundsStatus": {
+				"eng": "Available funds no longer cover this contract.",
+				"trans": "Dana tidak lagi mencukupi untuk kontrak ini."
+			},
+			"intro": {
+				"eng": "Confirm the target and financial commitment before authorization.",
+				"trans": "Konfirmasi target dan komitmen keuangan sebelum otorisasi."
+			},
+			"invalidError": {
+				"eng": "Contract details changed. Return to the previous page and review them again.",
+				"trans": "Rincian kontrak telah diperbarui. Silakan kembali ke halaman sebelumnya untuk meninjau ulang."
+			},
+			"invalidStatus": {
+				"eng": "Contract details are incomplete or no longer valid.",
+				"trans": "Detail kontrak tidak lengkap atau sudah tidak berlaku."
+			},
+			"levelStatus": {
+				"eng": "Client authorization requires player level ${level}.",
+				"trans": "Otorisasi klien memerlukan level pemain ${level}."
+			},
+			"loadingStatus": {
+				"eng": "Verifying contract details...",
+				"trans": "Memverifikasi detail kontrak..."
+			},
+			"minimumStatus": {
+				"eng": "Contract value must be at least ${amount} ${currency}.",
+				"trans": "Nilai kontrak harus minimal ${amount} ${currency}."
+			},
+			"networkLabel": {
+				"eng": "Private Client Network",
+				"trans": "Jaringan Klien Privat"
+			},
+			"notice": {
+				"eng": "Authorization transfers the committed funds immediately and publishes the contract to the active Board. This action cannot be reversed.",
+				"trans": "Otorisasi akan segera mengalihkan dana terikat dan mempublikasikan kontrak ke Papan Aktif. Aksi ini tidak dapat dibatalkan."
+			},
+			"pendingTarget": {
+				"eng": "Unverified",
+				"trans": "Belum diverifikasi"
+			},
+			"readyStatus": {
+				"eng": "Contract is ready for authorization.",
+				"trans": "Kontrak siap diotorisasi."
+			},
+			"restrictedStatus": {
+				"eng": "System restrictions prevent contract authorization.",
+				"trans": "Batasan sistem mencegah otorisasi kontrak."
+			},
+			"target": {
+				"eng": "Target",
+				"trans": "Target"
+			},
+			"targetLevelStatus": {
+				"eng": "Targets below level ${level} cannot be listed.",
+				"trans": "Target di bawah level ${level} tidak dapat ditampilkan."
+			},
+			"title": {
+				"eng": "Review contract",
+				"trans": "Tinjau kontrak"
+			},
+			"value": {
+				"eng": "Contract value",
+				"trans": "Nilai Kontrak"
+			}
+		},
+		"services": {
+			"armedResponse": {
+				"description": {
+					"eng": "Disciplined intervention teams contain active threats, secure critical sites, and restore client control.",
+					"trans": "Tim intervensi terdisiplin mengendalikan ancaman aktif, mengamankan lokasi kritis, dan mengembalikan kendali klien."
+				},
+				"title": {
+					"eng": "Armed response",
+					"trans": "Respons Bersenjata"
+				}
+			},
+			"assetRecovery": {
+				"description": {
+					"eng": "Specialist recovery teams locate and return sensitive property while limiting exposure, delay, and attribution.",
+					"trans": "Tim pemulihan spesialis menemukan dan mengembalikan properti sensitif sambil meminimalkan risiko terungkap, keterlambatan, dan pelacakan identitas."
+				},
+				"title": {
+					"eng": "Asset recovery",
+					"trans": "Pemulihan Aset"
+				}
+			},
+			"authorizationNotice": {
+				"eng": "All engagements require an authorized client mandate.",
+				"trans": "Semua operasi memerlukan mandat klien resmi."
+			},
+			"executiveProtection": {
+				"description": {
+					"eng": "Low-profile close protection, route control, and secure movement for executives operating under elevated threat.",
+					"trans": "Perlindungan personal profil rendah, kontrol rute, dan perpindahan aman bagi eksekutif yang beroperasi di bawah tingkat ancaman tinggi."
+				},
+				"title": {
+					"eng": "Executive protection",
+					"trans": "Perlindungan Eksekutif"
+				}
+			},
+			"eyebrow": {
+				"eng": "Services",
+				"trans": "Layanan"
+			},
+			"imageAlt": {
+				"eng": "CircuitBreak close-protection team moving a client through a secure arrival",
+				"trans": "Unit Proteksi CircuitBreak mengantar klien melewati titik kedatangan terproteksi."
+			},
+			"intro": {
+				"eng": "CircuitBreak protects people, property, and continuity where ordinary security reaches its limit.",
+				"trans": "CircuitBreak melindungi orang, aset, dan kontinuitas ketika sistem keamanan konvensional mencapai batasnya."
+			},
+			"privateMandates": {
+				"action": {
+					"eng": "Open a private mandate",
+					"trans": "Buka mandat pribadi"
+				}
+			},
+			"threatIntelligence": {
+				"description": {
+					"eng": "Targeted surveillance and intelligence collection identify hostile intent before it becomes a public incident.",
+					"trans": "Surveilans terarah dan pengumpulan intelijen mengidentifikasi niat bermusuhan sebelum menjadi insiden publik."
+				},
+				"title": {
+					"eng": "Threat intelligence",
+					"trans": "Intelijen Ancaman"
+				}
+			},
+			"title": {
+				"eng": "Protective services",
+				"trans": "Layanan Perlindungan"
+			}
+		},
+		"shell": {
+			"footer": {
+				"careers": {
+					"eng": "Careers",
+					"trans": "Profesi"
+				},
+				"company": {
+					"eng": "CircuitBreak Security Solutions",
+					"trans": "Pemutus Sirkuit Solusi Keamanan"
+				},
+				"companyProfile": {
+					"eng": "Company profile",
+					"trans": "Profil Perusahaan"
+				},
+				"contact": {
+					"eng": "Contact CircuitBreak",
+					"trans": "Hubungi Pemutus Sirkuit"
+				},
+				"notice": {
+					"eng": "Client information is handled under strict confidentiality.",
+					"trans": "Informasi klien dijaga kerahasianya secara ketat."
+				}
+			},
+			"logoAlt": {
+				"eng": "CircuitBreak Security Solutions",
+				"trans": "Pemutus Sirkuit Solusi Keamanan"
+			},
+			"nav": {
+				"board": {
+					"eng": "Board",
+					"trans": "Papan"
+				},
+				"careers": {
+					"eng": "Careers",
+					"trans": "Profesi"
+				},
+				"company": {
+					"eng": "Company",
+					"trans": "Perusahaan"
+				},
+				"contact": {
+					"eng": "Contact",
+					"trans": "Kontak"
+				},
+				"home": {
+					"eng": "Home",
+					"trans": "Beranda"
+				},
+				"services": {
+					"eng": "Services",
+					"trans": "Layanan"
+				}
+			},
+			"placeHit": {
+				"eng": "Place Hit",
+				"trans": "Tembak Tepat"
+			}
 		}
 	},
 	"clan": {
@@ -2907,6 +3663,10 @@
 		"clanResource": {
 			"eng": "+ ${amount} Gang resource",
 			"trans": "+ ${amount} Sumber daya Geng"
+		},
+		"oneOf": {
+			"eng": "One of following:",
+			"trans": "Salah satu dari berikut ini:"
 		}
 	},
 	"confirmModal": {
@@ -4917,28 +5677,24 @@
 	},
 	"hitListPage": {
 		"bountyCount": {
-			"eng": "${count} bounties",
-			"trans": "${count} Tanda Ganjaran"
+			"eng": "${count} active",
+			"trans": "${count} Aktif"
 		},
 		"sort": {
 			"level": {
-				"eng": "Level",
-				"trans": "Tingkat"
+				"eng": "Target level",
+				"trans": "Level target"
 			},
 			"price": {
-				"eng": "Price",
-				"trans": "Harga"
+				"eng": "Contract value",
+				"trans": "Nilai Kontrak"
 			}
 		}
 	},
 	"hitlist": {
-		"loading": {
-			"eng": "Loading bounties...",
-			"trans": "Sedang memuat pencarian hadiah..."
-		},
 		"noBounties": {
-			"eng": "No bounties available",
-			"trans": "Tidak ada hadiah yang tersedia"
+			"eng": "No active contracts",
+			"trans": "Tidak ada kontrak aktif"
 		},
 		"optionsPopup": {
 			"attack": {
@@ -4949,23 +5705,13 @@
 				"eng": "View Profile",
 				"trans": "Lihat Profil"
 			}
-		},
-		"placeHitButton": {
-			"title": {
-				"eng": "Place Hit",
-				"trans": "Sasaran Pukulan"
-			}
-		},
-		"title": {
-			"eng": "Hit List",
-			"trans": "Daftar Sasaran"
 		}
 	},
 	"hitman": {
 		"error": {
 			"cannotPlaceBountyOnAdmin": {
-				"eng": "You cannot place bounty on this player",
-				"trans": "Kamu tidak dapat menempatkan hadiah pada pemain ini"
+				"eng": "You cannot place or control this player.",
+				"trans": "Anda tidak dapat menempatkan atau mengendalikan pemain ini."
 			},
 			"cannotPlaceBountyOnLowLevel": {
 				"eng": "You cannot place bounty on players lower than level ${level}",
@@ -5345,10 +6091,6 @@
 		"evidenceNumber": {
 			"eng": "Evidence #${number}",
 			"trans": "Bukti #${number}"
-		},
-		"goToVerdict": {
-			"eng": "Go to verdict ${num}",
-			"trans": "Pergi ke putusan ${num}"
 		},
 		"imageUnavailable": {
 			"eng": "Image Unavailable",
@@ -7977,10 +8719,6 @@
 				"eng": "News",
 				"trans": "Berita"
 			},
-			"goToNews": {
-				"eng": "Go to news ${index}",
-				"trans": "Buka berita ${index}"
-			},
 			"heading": {
 				"eng": "YOUR ACTIONS MAKE THE HEADLINES",
 				"trans": "Aksi Anda Membuat Judul Utama"
@@ -7993,10 +8731,6 @@
 				"eng": "Arclight Times",
 				"trans": "Arclight Berita"
 			},
-			"next": {
-				"eng": "Next news",
-				"trans": "Berita berikutnya"
-			},
 			"noNews": {
 				"eng": "No news available at the moment",
 				"trans": "Tidak ada berita tersedia saat ini"
@@ -8004,10 +8738,6 @@
 			"overline": {
 				"eng": "LIVE WORLD EVENTS // PLAYER-DRIVEN NARRATIVE",
 				"trans": "Acara Langsung di Dunia // Narasi Berbasis Pemain"
-			},
-			"previous": {
-				"eng": "Previous news",
-				"trans": "Berita Sebelumnya"
 			},
 			"reportBy": {
 				"eng": "REPORT BY",
@@ -9507,6 +10237,712 @@
 			"trans": "Filter"
 		}
 	},
+	"megaEstateWebsite": {
+		"careers": {
+			"description": {
+				"eng": "MegaEstate evaluates verified resident profiles continuously. If your payment, access and conduct history meets a role requirement, we will contact you. No submission is necessary.",
+				"trans": "MegaEstate terus mengevaluasi profil penghuni terverifikasi. Jika rekam jejak pembayaran, akses, dan perilaku Anda memenuhi kriteria peran tertentu, kami akan menghubungi Anda. Tidak perlu pengajuan."
+			},
+			"eyebrow": {
+				"eng": "Careers at MegaEstate",
+				"trans": "Karir di MegaEstate"
+			},
+			"hero": {
+				"imageAlt": {
+					"eng": "MegaEstate property operations team reviewing a residential building",
+					"trans": "Tim Operasional Properti MegaEstate Meninjau Gedung Tempat Tinggal"
+				}
+			},
+			"title": {
+				"eng": "Your record is your application.",
+				"trans": "Rekam jejakmu adalah lamaranmu."
+			},
+			"vacancies": {
+				"biometricAccess": {
+					"department": {
+						"eng": "Access infrastructure · Technical",
+						"trans": "Infrastruktur Akses · Teknis"
+					},
+					"description": {
+						"eng": "Maintain identity-linked entry systems, investigate access anomalies and revoke resident credentials across MegaEstate properties.",
+						"trans": "Pertahankan sistem akses berbasis identitas, telusuri anomali akses, dan cabut kredensial penghuni di seluruh properti MegaEstate."
+					},
+					"title": {
+						"eng": "Biometric Access Technician",
+						"trans": "Teknisi Akses Biometrik"
+					}
+				},
+				"count": {
+					"eng": "${count} active",
+					"trans": "${count} Aktif"
+				},
+				"eyebrow": {
+					"eng": "Open positions",
+					"trans": "Slot Tersedia"
+				},
+				"occupancyCompliance": {
+					"department": {
+						"eng": "Portfolio compliance · Field",
+						"trans": "Kepatuhan Portofolio · Bidang"
+					},
+					"description": {
+						"eng": "Conduct unannounced home inspections, document unregistered occupants and authorize access suspension when contract terms are breached.",
+						"trans": "Lakukan inspeksi rumah tanpa pemberitahuan, catat penghuni tidak terdaftar, dan otorisasi penangguhan akses apabila ketentuan kontrak dilanggar."
+					},
+					"title": {
+						"eng": "Occupancy Compliance Officer",
+						"trans": "Petugas Kepatuhan Penghunian"
+					}
+				},
+				"riskAnalyst": {
+					"department": {
+						"eng": "Resident intelligence · Analysis",
+						"trans": "Intelegensi Warga · Analisis"
+					},
+					"description": {
+						"eng": "Combine payment history, property access and contract activity to predict renewal risk and recommend intervention.",
+						"trans": "Gabungkan riwayat pembayaran, akses properti, dan aktivitas kontrak untuk memprediksi risiko perpanjangan serta merekomendasikan intervensi."
+					},
+					"title": {
+						"eng": "Resident Risk Analyst",
+						"trans": "Analis Risiko Residen"
+					}
+				},
+				"unitRecovery": {
+					"department": {
+						"eng": "Property recovery · Field",
+						"trans": "Pemulihan Properti · Medan"
+					},
+					"description": {
+						"eng": "Secure homes after lease termination, catalogue remaining property and return reclaimed units to inventory before the next billing cycle.",
+						"trans": "Amankan hunian setelah kontrak berakhir, inventarisasi properti sisa, dan kembalikan unit yang diambil alih ke Inventori sebelum siklus penagihan berikutnya."
+					},
+					"title": {
+						"eng": "Unit Recovery Coordinator",
+						"trans": "Koordinator Pemulihan Unit"
+					}
+				}
+			}
+		},
+		"company": {
+			"building": {
+				"caption": {
+					"eng": "Arclight lives here",
+					"trans": "Cahaya Arklit berada di sini"
+				},
+				"imageAlt": {
+					"eng": "Residents arriving at a MegaEstate property in Arclight",
+					"trans": "Penghuni tiba di properti MegaEstate di Arclight"
+				}
+			},
+			"eyebrow": {
+				"eng": "About MegaEstate",
+				"trans": "Tentang MegaEstate"
+			},
+			"introduction": {
+				"eng": "At MegaEstate, we bring rental homes across Arclight into one clear network. You can compare housing standards, see current availability and choose the address that works for you.",
+				"trans": "Di MegaEstate, kami menyatukan rumah sewa di seluruh Arclight menjadi satu jaringan terpadu dan transparan. Anda dapat membandingkan standar hunian, melihat ketersediaan terkini, dan memilih alamat yang sesuai dengan kebutuhan Anda."
+			},
+			"leadership": {
+				"description": {
+					"eng": "Robert Smith sets our long-term direction as Chief Executive Officer. His approach is simple: manage housing at city scale, keep occupancy responsible and make every part of renting answer to one accountable company. From listing to renewal, that company is MegaEstate.",
+					"trans": "Sebagai Direktur Utama, Robert Smith menetapkan arah jangka panjang kami. Pendekatannya sederhana: mengelola hunian berskala kota, menjaga tingkat okupansi secara bertanggung jawab, dan menyatukan seluruh proses penyewaan di bawah satu entitas yang bertanggung jawab penuh. Dari pencatatan unit hingga perpanjangan kontrak, semuanya ditangani oleh MegaEstate."
+				},
+				"eyebrow": {
+					"eng": "Leadership",
+					"trans": "Kepemimpinan"
+				},
+				"imageAlt": {
+					"eng": "Robert Smith, Chief Executive Officer of MegaEstate",
+					"trans": "Robert Smith, Direktur Utama MegaEstate"
+				},
+				"name": {
+					"eng": "Robert Smith",
+					"trans": "Robert Smith"
+				},
+				"role": {
+					"eng": "Chief Executive Officer",
+					"trans": "Direktur Utama"
+				}
+			},
+			"model": {
+				"description": {
+					"eng": "Our four housing standards give you room to choose without starting over. Essential Housing, City Housing, Urban Studio and Central Residence all follow the same straightforward seven-day rental cycle.",
+					"trans": "Empat standar hunian kami memberi Anda kebebasan memilih tanpa perlu memulai dari awal. Perumahan Esensial, Hunian Kota, Studio Perkotaan, dan Kediaman Pusat semuanya mengikuti jadwal sewa tujuh hari yang sama dan sederhana."
+				},
+				"eyebrow": {
+					"eng": "Made for life in Arclight",
+					"trans": "Dirancang khusus untuk kehidupan di Arclight"
+				},
+				"title": {
+					"eng": "A home for what comes next.",
+					"trans": "Rumah untuk langkah selanjutnya."
+				}
+			},
+			"portfolio": {
+				"eng": "From a first address to a Central Residence, we make every move familiar: one place to browse, one rental process and one company behind every home we manage.",
+				"trans": "Dari alamat pertama hingga Hunian Pusat, kami buat setiap perpindahan terasa familiar: satu tempat untuk menjelajah, satu proses penyewaan, dan satu perusahaan di balik setiap hunian yang kami kelola."
+			},
+			"title": {
+				"eng": "The city moves fast. Home should feel certain.",
+				"trans": "Kota bergerak cepat. Rumah harus terasa pasti."
+			}
+		},
+		"home": {
+			"city": {
+				"arclight": {
+					"eng": "Arclight City",
+					"trans": "Kota Arclight"
+				},
+				"international": {
+					"eng": "International cities — Unavailable",
+					"trans": "Kota Internasional — Tidak Tersedia"
+				},
+				"label": {
+					"eng": "City",
+					"trans": "Kota"
+				},
+				"otherNrc": {
+					"eng": "Other NRC cities — Unavailable",
+					"trans": "Kota NRC Lainnya — Tidak Tersedia"
+				}
+			},
+			"hero": {
+				"description": {
+					"eng": "Explore homes available now across our four housing standards.",
+					"trans": "Jelajahi hunian yang tersedia sekarang di keempat tingkatan hunian kami."
+				},
+				"eyebrow": {
+					"eng": "Rental homes in Arclight City",
+					"trans": "Rumah Sewa di Kota Cahaya Arklit"
+				},
+				"imageAlt": {
+					"eng": "Central Residence overlooking Arclight City",
+					"trans": "Residensi Pusat dengan Pemandangan Kota Arclight"
+				},
+				"title": {
+					"eng": "Find your place in Arclight.",
+					"trans": "Temukan tempatmu di Cahaya Arklit."
+				},
+				"viewListings": {
+					"eng": "Browse current listings",
+					"trans": "Lihat daftar saat ini"
+				}
+			},
+			"introduction": {
+				"availability": {
+					"description": {
+						"eng": "We only show homes currently available to rent in Arclight.",
+						"trans": "Kami hanya menampilkan hunian yang saat ini tersedia untuk disewakan di Arclight."
+					},
+					"title": {
+						"eng": "Current availability",
+						"trans": "Ketersediaan saat ini"
+					}
+				},
+				"description": {
+					"eng": "From essential housing to central residences, we bring Arclight's available rentals together in one place. Browse real homes, compare actual weekly rent and choose the standard that fits your life.",
+					"trans": "Dari hunian dasar hingga tempat tinggal di pusat kota, kami merangkum semua pilihan sewa di Arclight ke dalam satu tempat. Jelajahi hunian nyata, bandingkan biaya sewa mingguan, dan pilih standar hunian yang cocok dengan gaya hidup Anda."
+				},
+				"eyebrow": {
+					"eng": "Arclight residential rentals",
+					"trans": "Penyewaan Hunian Cahaya Arklit"
+				},
+				"pricing": {
+					"description": {
+						"eng": "See the actual weekly rent for every available home.",
+						"trans": "Lihat tarif sewa mingguan yang sebenarnya untuk setiap hunian tersedia."
+					},
+					"title": {
+						"eng": "Clear weekly pricing",
+						"trans": "Daftar Harga Mingguan"
+					}
+				},
+				"standards": {
+					"benefitsDescription": {
+						"eng": "Compare added inventory space, vault capacity and mercenary contact slots before choosing.",
+						"trans": "Bandingkan penambahan ruang inventori, kapasitas brankas, dan slot kontak prajurit bayaran sebelum memilih."
+					},
+					"title": {
+						"eng": "Four housing standards",
+						"trans": "Empat standar hunian"
+					}
+				},
+				"title": {
+					"eng": "A better way to find a home in Arclight.",
+					"trans": "Cara terbaik untuk menemukan hunian di Cahaya Arklit."
+				},
+				"viewListings": {
+					"eng": "Explore current listings",
+					"trans": "Telusuri penawaran terkini"
+				}
+			},
+			"renting": {
+				"description": {
+					"eng": "We charge your first seven-day period when the rental starts. After each period, we process renewal during the next scheduled billing check.",
+					"trans": "Biaya tujuh hari pertama dikenakan saat masa sewa dimulai. Perpanjangan akan diproses pada jadwal pembayaran berikutnya setelah setiap periode berakhir."
+				},
+				"eyebrow": {
+					"eng": "Renting with MegaEstate",
+					"trans": "Sewa melalui MegaEstate"
+				},
+				"guide": {
+					"eng": "See how renting works",
+					"trans": "Cara Kerja Penyewaan"
+				},
+				"title": {
+					"eng": "Choose today. Renew week by week.",
+					"trans": "Pilih hari ini. Perpanjang setiap minggu."
+				}
+			},
+			"standards": {
+				"compare": {
+					"eng": "Compare housing standards",
+					"trans": "Bandingkan Standar Hunian"
+				},
+				"description": {
+					"eng": "Each of our housing standards offers a different balance of space, storage and capacity. Compare them here, then see real homes and weekly rent in Listings.",
+					"trans": "Setiap standar hunian kami menawarkan keseimbangan berbeda antara luas ruang, penyimpanan, dan kapasitas. Bandingkan di sini, lalu lihat unit tersedia dan tarif sewa mingguan pada Daftar."
+				},
+				"eyebrow": {
+					"eng": "Housing standards",
+					"trans": "Standar Perumahan"
+				},
+				"mercenarySlots": {
+					"eng": "Merc slots",
+					"trans": "Slot Tentara Bayaran"
+				},
+				"storage": {
+					"eng": "Storage",
+					"trans": "Penyimpanan"
+				},
+				"title": {
+					"eng": "Four ways to live in Arclight.",
+					"trans": "Empat gaya hidup di Arclight."
+				},
+				"vault": {
+					"eng": "Vault",
+					"trans": "Brankas"
+				}
+			}
+		},
+		"homeDetails": {
+			"confirm": {
+				"action": {
+					"eng": "Rent this home",
+					"trans": "Sewa rumah ini"
+				},
+				"description": {
+					"eng": "Rent ${address} for ${price} ${currency} per week. We charge the first seven-day period when the rental starts.",
+					"trans": "Sewa ${address} seharga ${price} ${currency} per minggu. Biaya untuk tujuh hari pertama dibebankan saat penyewaan dimulai."
+				},
+				"perWeek": {
+					"eng": "per week",
+					"trans": "per minggu"
+				},
+				"replacementDescription": {
+					"eng": "Rent ${address} for ${price} ${currency} per week. We charge the first seven-day period when the rental starts, and this immediately replaces your current home.",
+					"trans": "Sewa ${address} seharga ${price} ${currency} per minggu. Biaya tujuh hari pertama dibebankan di awal saat penyewaan dimulai, dan rumah ini akan langsung menggantikan tempat tinggal Anda yang sekarang."
+				},
+				"title": {
+					"eng": "Rent this home?",
+					"trans": "Sewa rumah ini?"
+				},
+				"weeklyRent": {
+					"eng": "Weekly rent",
+					"trans": "sewa mingguan"
+				}
+			},
+			"currentHome": {
+				"eng": "Current home",
+				"trans": "Rumah Saat Ini"
+			},
+			"error": {
+				"description": {
+					"eng": "Return to Listings and try this home again when availability can be loaded.",
+					"trans": "Kembali ke daftar dan coba akses rumah ini kembali saat ketersediaan berhasil dimuat."
+				},
+				"title": {
+					"eng": "We couldn't check this home's availability",
+					"trans": "Tidak dapat memeriksa ketersediaan rumah ini."
+				}
+			},
+			"imageAlt": {
+				"eng": "Rental home at ${address}",
+				"trans": "Rumah sewaan di ${address}"
+			},
+			"invalid": {
+				"description": {
+					"eng": "Return to Listings to choose from homes currently available.",
+					"trans": "Kembali ke Daftar untuk memilih rumah yang tersedia saat ini."
+				},
+				"title": {
+					"eng": "We can't open this home",
+					"trans": "Kami tidak dapat membuka markas ini"
+				}
+			},
+			"mercenarySlots": {
+				"eng": "Merc slots",
+				"trans": "Slot Tentara Bayaran"
+			},
+			"metrics": {
+				"mercenarySlots": {
+					"description": {
+						"eng": "Adds ${count} mercenary contact slots to your recruitment limit.",
+						"trans": "Menambahkan ${count} slot kontak tentara bayaran ke batas rekrutmendom Anda."
+					}
+				},
+				"storage": {
+					"description": {
+						"eng": "Adds ${count} slots to your inventory.",
+						"trans": "Menambahkan ${count} slot ke inventori Anda."
+					}
+				},
+				"vault": {
+					"description": {
+						"eng": "Holds up to ${count} item stacks in your apartment vault.",
+						"trans": "Menyimpan hingga ${count} tumpukan item di brankas apartemen Anda."
+					}
+				}
+			},
+			"perWeek": {
+				"eng": "per week",
+				"trans": "per minggu"
+			},
+			"renewal": {
+				"description": {
+					"eng": "We charge the first seven-day period when your rental starts. After each period, we process renewal during the next scheduled billing check; insufficient funds end the lease.",
+					"trans": "Biaya untuk tujuh hari pertama dibebankan saat masa sewa Anda dimulai. Perpanjangan akan diproses pada jadwal penagihan berikutnya; masa sewa akan berakhir jika dana tidak mencukupi."
+				},
+				"eyebrow": {
+					"eng": "Seven-day rental cycle",
+					"trans": "Siklus Penyewaan Tujuh Hari"
+				}
+			},
+			"rent": {
+				"eng": "Rent this home",
+				"trans": "Sewa rumah ini"
+			},
+			"replacement": {
+				"description": {
+					"eng": "Starting this rental ends your existing lease immediately.",
+					"trans": "Memulai penyewaan ini akan langsung mengakhiri kontrak sewa Anda saat ini."
+				},
+				"title": {
+					"eng": "This replaces your current home",
+					"trans": "Ini akan mengganti markas Anda saat ini."
+				}
+			},
+			"storage": {
+				"eng": "Storage",
+				"trans": "Penyimpanan"
+			},
+			"unavailable": {
+				"description": {
+					"eng": "This listing is no longer available. Return to Listings to view current homes.",
+					"trans": "Daftar ini tidak lagi tersedia. Kembali ke Daftar untuk melihat hunian terkini."
+				},
+				"title": {
+					"eng": "This home is no longer available",
+					"trans": "Rumah ini tidak lagi tersedia"
+				}
+			},
+			"vault": {
+				"eng": "Vault",
+				"trans": "Brankas"
+			},
+			"weeklyRent": {
+				"eng": "Weekly rent",
+				"trans": "sewa mingguan"
+			}
+		},
+		"housingStandards": {
+			"a0": {
+				"description": {
+					"eng": "A practical first address with the essentials for independent city living.",
+					"trans": "Lokasi awal yang praktis dengan perlengkapan esensial untuk tinggal mandiri di kota."
+				}
+			},
+			"a1": {
+				"description": {
+					"eng": "A versatile city home with additional storage and vault space for an established routine.",
+					"trans": "Rumah kota serbaguna dengan penyimpanan tambahan dan ruang brankas untuk menunjang rutinitas teratur."
+				}
+			},
+			"a2": {
+				"description": {
+					"eng": "A focused urban home with generous storage for residents who need more from a compact address.",
+					"trans": "Tempat tinggal perkotaan yang efisien dengan ruang penyimpanan luas bagi penghuni yang menginginkan pemanfaatan maksimal dari tempat tinggal padat."
+				}
+			},
+			"a3": {
+				"description": {
+					"eng": "Our premier residence offers the most room for residents, belongings and protected storage.",
+					"trans": "Residensi premium kami menyediakan ruang terbesar bagi penghuni, barang pribadi, dan penyimpanan terproteksi."
+				}
+			},
+			"benefitsDescription": {
+				"eng": "Compare added inventory space, vault capacity and mercenary contact slots across every standard.",
+				"trans": "Bandingkan kapasitas inventaris tambahan, kapasitas brankas, dan slot kontak prajurit bayaran pada setiap standar."
+			},
+			"browseListings": {
+				"eng": "Browse current listings",
+				"trans": "Lihat daftar saat ini"
+			},
+			"eyebrow": {
+				"eng": "The MegaEstate range",
+				"trans": "Koleksi MegaEstate"
+			},
+			"imageAlt": {
+				"eng": "${standard} rental home",
+				"trans": "${standard} rumah sewa"
+			},
+			"imageCaption": {
+				"eng": "Standard ${code}",
+				"trans": "Standar ${code}"
+			},
+			"mercenarySlots": {
+				"eng": "Merc slots",
+				"trans": "Slot Tentara Bayaran"
+			},
+			"storage": {
+				"eng": "Storage",
+				"trans": "Penyimpanan"
+			},
+			"title": {
+				"eng": "A clear standard for every stage of city life.",
+				"trans": "Standar yang jelas untuk setiap fase kehidupan perkotaan."
+			},
+			"vault": {
+				"eng": "Vault",
+				"trans": "Brankas"
+			}
+		},
+		"listings": {
+			"availableCount": {
+				"eng": "Available listings: ${count}",
+				"trans": "Daftar tersedia: ${count}"
+			},
+			"empty": {
+				"description": {
+					"eng": "Choose another housing standard to view its current availability.",
+					"trans": "Pilih standar hunian lain untuk melihat ketersediannya saat ini."
+				},
+				"title": {
+					"eng": "No listings available in this standard",
+					"trans": "Tidak ada daftar yang tersedia di standar ini"
+				}
+			},
+			"error": {
+				"description": {
+					"eng": "Choose another housing standard or return later to check availability.",
+					"trans": "Pilih standar tempat tinggal lain atau kembali nanti untuk memeriksa ketersediaan."
+				},
+				"title": {
+					"eng": "We couldn't load current availability",
+					"trans": "Tidak dapat memuat ketersediaan terkini."
+				}
+			},
+			"eyebrow": {
+				"eng": "MegaEstate listings",
+				"trans": "Daftar MegaEstate"
+			},
+			"listing": {
+				"currentHome": {
+					"eng": "Current home",
+					"trans": "Rumah Saat Ini"
+				},
+				"imageAlt": {
+					"eng": "${standard} rental home",
+					"trans": "${standard} rumah sewa"
+				},
+				"perWeek": {
+					"eng": "per week",
+					"trans": "per minggu"
+				},
+				"weeklyRent": {
+					"eng": "Weekly rent",
+					"trans": "sewa mingguan"
+				}
+			},
+			"loadingCount": {
+				"eng": "Checking current availability…",
+				"trans": "Memeriksa ketersediaan saat ini…"
+			},
+			"standardLabel": {
+				"eng": "Housing standard",
+				"trans": "Standar hunian"
+			},
+			"title": {
+				"eng": "Find your next home in Arclight.",
+				"trans": "Temukan hunian berikutnya di Arclight."
+			}
+		},
+		"rentalGuide": {
+			"browseListings": {
+				"eng": "Browse current listings",
+				"trans": "Lihat daftar saat ini"
+			},
+			"compareStandards": {
+				"eng": "Compare housing standards",
+				"trans": "Bandingkan Standar Hunian"
+			},
+			"description": {
+				"eng": "One clear process for your first payment, every renewal and any move that follows.",
+				"trans": "Satu proses yang jelas untuk pembayaran pertama Anda, setiap perpanjangan, dan semua perpindahan berikutnya."
+			},
+			"eyebrow": {
+				"eng": "Rental guide",
+				"trans": "Panduan Sewa"
+			},
+			"guide": {
+				"change": {
+					"description": {
+						"eng": "When you rent a new home, we end your current lease immediately. Review your choice before starting the new rental.",
+						"trans": "Saat Anda menyewa hunian baru, kontrak sewa Anda saat ini akan langsung berakhir. Tinjau kembali pilihan Anda sebelum memulai penyewaan baru."
+					},
+					"title": {
+						"eng": "Changing your home",
+						"trans": "Ganti Rumah Anda"
+					}
+				},
+				"description": {
+					"eng": "Review these four details before you start a rental.",
+					"trans": "Periksa keempat rincian ini sebelum memulai proses sewa."
+				},
+				"eyebrow": {
+					"eng": "Before you rent",
+					"trans": "Sebelum Anda menyewa"
+				},
+				"funds": {
+					"description": {
+						"eng": "Keep enough funds available before renewal is due. If funds are insufficient, renewal fails and your lease ends immediately.",
+						"trans": "Pastikan dana cukup tersedia sebelum tenggat perpanjangan. Jika dana tidak mencukupi, perpanjangan akan gagal dan kontrak sewa Anda langsung berakhir."
+					},
+					"title": {
+						"eng": "If renewal funds are unavailable",
+						"trans": "Jika dana perpanjangan tidak tersedia"
+					}
+				},
+				"renewal": {
+					"description": {
+						"eng": "Each payment covers seven days. We process renewal during the next scheduled billing check and notify you when it succeeds or fails.",
+						"trans": "Setiap pembayaran berlaku selama tujuh hari. Kami memproses perpanjangan pada jadwal penagihan berikutnya dan memberi tahu Anda jika berhasil atau gagal."
+					},
+					"title": {
+						"eng": "Automatic weekly renewal",
+						"trans": "Perpanjangan Otomatis Mingguan"
+					}
+				},
+				"start": {
+					"description": {
+						"eng": "We charge the first seven-day period when your rental starts.",
+						"trans": "Biaya periode tujuh hari pertama akan dikenakan saat masa sewa Anda dimulai."
+					},
+					"title": {
+						"eng": "When your rental starts",
+						"trans": "Saat masa sewa Anda dimulai"
+					}
+				}
+			},
+			"nextStep": {
+				"description": {
+					"eng": "Compare housing standards or go directly to current availability.",
+					"trans": "Bandingkan standar hunian atau langsung lihat ketersediaan saat ini."
+				},
+				"eyebrow": {
+					"eng": "Next step",
+					"trans": "Selanjutnya"
+				},
+				"title": {
+					"eng": "Choose a home when you are ready.",
+					"trans": "Pilih rumah saat Anda sudah siap."
+				}
+			},
+			"title": {
+				"eng": "Renting with MegaEstate.",
+				"trans": "Sewa melalui MegaEstate."
+			}
+		},
+		"shell": {
+			"closeMenu": {
+				"eng": "Close",
+				"trans": "Tutup"
+			},
+			"directory": {
+				"eng": "Explore MegaEstate",
+				"trans": "Jelajahi MegaEstate"
+			},
+			"footer": {
+				"about": {
+					"eng": "About MegaEstate",
+					"trans": "Tentang MegaEstate"
+				},
+				"careers": {
+					"eng": "Careers",
+					"trans": "Profesi"
+				},
+				"company": {
+					"eng": "MegaEstate",
+					"trans": "MegaEstate"
+				},
+				"description": {
+					"eng": "Find your place in Arclight City.",
+					"trans": "Temukan tempatmu di Kota Cahaya Arklit."
+				},
+				"housingStandards": {
+					"eng": "Housing standards",
+					"trans": "Standar Perumahan"
+				},
+				"listings": {
+					"eng": "Listings",
+					"trans": "Daftar"
+				},
+				"overview": {
+					"eng": "Overview",
+					"trans": "Ikhtisar"
+				},
+				"renting": {
+					"eng": "How renting works",
+					"trans": "Cara kerja sewa"
+				}
+			},
+			"location": {
+				"eng": "Find your place in Arclight City.",
+				"trans": "Temukan tempatmu di Kota Cahaya Arklit."
+			},
+			"logoAlt": {
+				"eng": "MegaEstate",
+				"trans": "MegaEstate"
+			},
+			"nav": {
+				"about": {
+					"eng": "About MegaEstate",
+					"trans": "Tentang MegaEstate"
+				},
+				"careers": {
+					"eng": "Careers",
+					"trans": "Profesi"
+				},
+				"housingStandards": {
+					"eng": "Housing standards",
+					"trans": "Standar Perumahan"
+				},
+				"listings": {
+					"eng": "Listings",
+					"trans": "Daftar"
+				},
+				"renting": {
+					"eng": "How renting works",
+					"trans": "Cara kerja sewa"
+				}
+			},
+			"openMenu": {
+				"eng": "Menu",
+				"trans": "Menu"
+			}
+		}
+	},
 	"mercenary": {
 		"error": {
 			"firstDraw": {
@@ -10305,10 +11741,6 @@
 				"eng": "System Overload",
 				"trans": "Beban Sistem Berlebih"
 			},
-			"gaugeLabel": {
-				"eng": "Pressure gauge - hold to regulate",
-				"trans": "Pengukur tekanan – tahan untuk menyesuaikan"
-			},
 			"holdingHint": {
 				"eng": "Hold Active",
 				"trans": "Tahan Aktif"
@@ -10328,10 +11760,6 @@
 			"retry": {
 				"eng": "Reset System",
 				"trans": "Reset Sistem"
-			},
-			"retryLabel": {
-				"eng": "Reset system and try again",
-				"trans": "Reset sistem dan coba lagi"
 			},
 			"safeZone": {
 				"eng": "Target Zone",
@@ -10496,6 +11924,98 @@
 			"tip": {
 				"eng": "Activate all dots to unlock by clicking. The dots will rotate faster and faster.",
 				"trans": "Aktifkan semua titik untuk membuka kunci dengan mengeklik. Titik-titik akan berputar semakin cepat."
+			}
+		},
+		"vectorPress": {
+			"cassette": {
+				"verified": {
+					"eng": "Access Key Verified",
+					"trans": "Kunci Akses Terverifikasi"
+				}
+			},
+			"controls": {
+				"armed": {
+					"eng": "Input Armed",
+					"trans": "Input Siaga"
+				},
+				"locked": {
+					"eng": "Input Locked",
+					"trans": "Input Terkunci"
+				},
+				"title": {
+					"eng": "Manual Vector Input",
+					"trans": "Input Vektor Manual"
+				}
+			},
+			"direction": {
+				"down": {
+					"eng": "Down",
+					"trans": "Bawah"
+				},
+				"left": {
+					"eng": "Left",
+					"trans": "Kiri"
+				},
+				"right": {
+					"eng": "Right",
+					"trans": "Kanan"
+				},
+				"up": {
+					"eng": "Up",
+					"trans": "Atas"
+				}
+			},
+			"header": {
+				"progress": {
+					"eng": "Key Progress",
+					"trans": "Kemajuan Utama"
+				},
+				"protocol": {
+					"eng": "Access Protocol VP-06",
+					"trans": "Protokol Akses VP-06"
+				},
+				"title": {
+					"eng": "Vector Press",
+					"trans": "Vector Press"
+				}
+			},
+			"instruction": {
+				"eng": "Match each vector to punch the access key",
+				"trans": "Cocokkan setiap vektor untuk membuka kunci akses."
+			},
+			"status": {
+				"advancing": {
+					"eng": "Cassette advancing",
+					"trans": "Memajukan Kaset"
+				},
+				"currentDirection": {
+					"eng": "Current required vector: ${direction}",
+					"trans": "Vektor yang diperlukan saat ini: ${direction}"
+				},
+				"label": {
+					"eng": "SYS.VP//STATE",
+					"trans": "SYS.VP//STATE"
+				},
+				"punching": {
+					"eng": "Punch accepted",
+					"trans": "Pukulan diterima"
+				},
+				"ready": {
+					"eng": "Awaiting vector input",
+					"trans": "Menunggu input vektor"
+				},
+				"rejected": {
+					"eng": "Vector mismatch — retry",
+					"trans": "Vektor tidak cocok — Ulangi"
+				},
+				"verified": {
+					"eng": "Access key verified",
+					"trans": "Kunci akses diverifikasi"
+				},
+				"verifying": {
+					"eng": "Verifying access key",
+					"trans": "Memverifikasi kunci akses"
+				}
 			}
 		}
 	},
@@ -10940,9 +12460,17 @@
 		}
 	},
 	"newsCard": {
+		"decrypted": {
+			"eng": "DECRYPTED",
+			"trans": "TERDEKRIPSI"
+		},
 		"new": {
 			"eng": "NEW",
 			"trans": "BARU"
+		},
+		"operative": {
+			"eng": "OPERATIVE",
+			"trans": "AGEN"
 		}
 	},
 	"newsPage": {
@@ -12172,29 +13700,9 @@
 		}
 	},
 	"placeHitPage": {
-		"levelTooLow": {
-			"eng": "You need to be at least level ${level} to place a hit.",
-			"trans": "Kamu harus mencapai level ${level} untuk dapat melakukan serangan."
-		},
-		"notEnoughUnitError1": {
-			"eng": "Minimum hit bounty is ${minNormal}",
-			"trans": "Jumlah minimum hadiah yang diterima adalah ${minNormal}"
-		},
-		"placeHit": {
-			"eng": "Place hit",
-			"trans": "Sasaran Pukulan"
-		},
-		"selectPlayer": {
-			"eng": "Select player",
-			"trans": "Pilih pemain"
-		},
 		"selectPlayerClick": {
-			"eng": "Click to select a player",
-			"trans": "Klik untuk memilih pemain"
-		},
-		"tip": {
-			"eng": "You can place a hit on a player by paying a certain amount of money and/or unit.",
-			"trans": "Anda dapat membayar sejumlah uang dan/atau unit untuk menyewa pembunuh bayaran untuk membunuh pemain lain."
+			"eng": "Select target",
+			"trans": "Pilih target"
 		}
 	},
 	"player": {
@@ -15020,10 +16528,6 @@
 			"eng": "${current} / ${total}",
 			"trans": "${current} / ${total}"
 		},
-		"pageInputAriaLabel": {
-			"eng": "Enter page number",
-			"trans": "Masukkan nomor halaman"
-		},
 		"pageInputPlaceholder": {
 			"eng": "Page #",
 			"trans": "Halaman #"
@@ -15206,6 +16710,26 @@
 			"notIdle": {
 				"eng": "You are not idle",
 				"trans": "Anda tidak menganggur"
+			},
+			"priorityOperationAlreadyActive": {
+				"eng": "You already have a Priority Operation in progress",
+				"trans": "Operasi Prioritas sedang berlangsung."
+			},
+			"priorityOperationFirstPlaceRequired": {
+				"eng": "Your gang must hold the highest positive war score to start this operation",
+				"trans": "Geng Anda harus memiliki skor perang positif tertinggi untuk memulai operasi ini."
+			},
+			"priorityOperationGangRequired": {
+				"eng": "Only members of a first-place war gang can start this operation",
+				"trans": "Hanya anggota geng perang peringkat pertama yang dapat memulai operasi ini."
+			},
+			"priorityOperationInvalidated": {
+				"eng": "Priority Operation invalidated because your gang no longer held first place at settlement",
+				"trans": "Operasi Prioritas dibatalkan karena gengmu tidak lagi menempati peringkat pertama di pemukiman."
+			},
+			"priorityOperationSkipFirstPlaceRequired": {
+				"eng": "Your gang must still hold first place to finish this operation now",
+				"trans": "Gengmu harus tetap mempertahankan peringkat satu untuk menyelesaikan operasi ini."
 			}
 		},
 		"notification": {
@@ -16503,13 +18027,21 @@
 			}
 		},
 		"megaAd": {
-			"subtitle": {
-				"eng": "Mega Estate - the only agency that wont scam you!",
-				"trans": "Mega Estate - satu-satunya biro yang tidak akan menipu Anda!"
+			"action": {
+				"eng": "View current rental availability",
+				"trans": "Lihat ketersediaan sewa saat ini"
+			},
+			"backgroundAlt": {
+				"eng": "MegaEstate residence in Arclight City",
+				"trans": "Kediaman MegaEstate di Kota Cahaya Arklit"
+			},
+			"logoAlt": {
+				"eng": "MegaEstate",
+				"trans": "MegaEstate"
 			},
 			"title": {
-				"eng": "Cheap Price!!",
-				"trans": "Harga Murah!!"
+				"eng": "Homes across Arclight",
+				"trans": "Rumah di Seluruh Arclight"
 			}
 		},
 		"news": {
@@ -16764,6 +18296,10 @@
 			"eng": "President Jackson Morrison",
 			"trans": "Presiden Jackson Morrison"
 		},
+		"leeJongSuk": {
+			"eng": "CEO Lee Jong-suk",
+			"trans": "CEO Lee Jong-suk"
+		},
 		"liWei": {
 			"eng": "Premier Li Wei",
 			"trans": "Perdana Menteri Li Wei"
@@ -16807,6 +18343,10 @@
 		"rezaHosseini": {
 			"eng": "Supreme Leader Ayatollah Reza Hosseini",
 			"trans": "Pemimpin Tertinggi Aayatolah Reza Hosseini"
+		},
+		"robertSmith": {
+			"eng": "CEO Robert Smith",
+			"trans": "CEO Robert Smith"
 		},
 		"sarahGoldman": {
 			"eng": "Prime Minister-CEO Sarah Goldman",
@@ -17112,6 +18652,20 @@
 				"trans": "Presiden Morrison"
 			}
 		},
+		"leeJongSuk": {
+			"ceoLee": {
+				"eng": "CEO Lee",
+				"trans": "CEO Lee"
+			},
+			"circuitbreakCeo": {
+				"eng": "CircuitBreak CEO",
+				"trans": "Direktur Utama CircuitBreak"
+			},
+			"leeJongSuk": {
+				"eng": "Lee Jong-suk",
+				"trans": "Lee Jong-suk"
+			}
+		},
 		"liWei": {
 			"li": {
 				"eng": "Li",
@@ -17272,6 +18826,20 @@
 			"supremeLeaderHosseini": {
 				"eng": "Supreme Leader Hosseini",
 				"trans": "Pemimpin Tertinggi Hosseini"
+			}
+		},
+		"robertSmith": {
+			"ceoSmith": {
+				"eng": "CEO Smith",
+				"trans": "CEO Smith"
+			},
+			"megaestateCeo": {
+				"eng": "MegaEstate CEO",
+				"trans": "CEO MegaEstate"
+			},
+			"robertSmith": {
+				"eng": "Robert Smith",
+				"trans": "Robert Smith"
 			}
 		},
 		"sarahGoldman": {

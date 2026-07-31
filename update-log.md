@@ -6,6 +6,38 @@
 
 **If you find an exploit, please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
+### 0.0.104
+
+-  **Added `Rogue Asset Extraction` Priority Operation**:
+   -  Members of a gang tied for the highest war score can assign this operation through `AFK Tasks`
+   -  Your gang must still hold first place when the operation settles. Losing eligibility invalidates the operation, forfeits its rewards, and does not refund its start cost
+-  Updated start AFK task interface,`AFK Task` selection and active slots now use clearer compact layouts with refreshed operation artwork
+
+-  **Added `Vector Press` minigame**:
+   -  Match six directional prompts to punch and verify an access key
+-  Reworked `CircuitBreak` in-game website to create a more immersive experience.
+-  Reworked `MegaEstate` in-game website to create a more immersive experience.
+
+-  Improved `Arclight Times`:
+   -  News reports that can still grant a reaction reward now show a `NEW` marker 
+   -  Improve news headline generation
+
+-  Improved `Intelligence Contract` reliability when generating and caching weekly stories
+
+-  Improved item and requirement details:
+   -  Reward and cost items now open their source details above the current popup without closing it
+   -  Missing Stronghold entry resources now open their relevant source information
+
+-  Improved `Mercenary Resonance` sound effects and audio behavior when switching the game between foreground and background
+
+-  Security patch
+
+-  Fixed minor issue with NPC image rendering
+
+### 0.0.103
+
+-  Fixed news and chirp generation
+
 ### 0.0.102
 
 -  Added **World Dossiers** to CyberWiki:

@@ -374,24 +374,40 @@
 			"displayName": {
 				"eng": "Slum Apartment",
 				"trans": "貧民窟蟻居"
+			},
+			"websiteDisplayName": {
+				"eng": "Essential Housing",
+				"trans": "基礎住所"
 			}
 		},
 		"apartment1": {
 			"displayName": {
 				"eng": "Low-end Apartment",
 				"trans": "廉價雅房"
+			},
+			"websiteDisplayName": {
+				"eng": "City Housing",
+				"trans": "城市住宅"
 			}
 		},
 		"apartment2": {
 			"displayName": {
 				"eng": "Budget Studio",
 				"trans": "標準套房"
+			},
+			"websiteDisplayName": {
+				"eng": "Urban Studio",
+				"trans": "都會工作室"
 			}
 		},
 		"apartment3": {
 			"displayName": {
 				"eng": "Downtown Apartment",
 				"trans": "市中心公寓"
+			},
+			"websiteDisplayName": {
+				"eng": "Central Residence",
+				"trans": "中央居所"
 			}
 		},
 		"chat": {
@@ -567,28 +583,6 @@
 				"eng": "Vault",
 				"trans": "保險箱"
 			}
-		}
-	},
-	"apartmentPurchasePage": {
-		"confirmDescription": {
-			"eng": "Are you sure you want to rent this apartment? if you already have an apartment, it will be dismissed.",
-			"trans": "你確定要租這間公寓嗎？如果你已經有一間公寓，它將被取消。"
-		},
-		"confirmTitle": {
-			"eng": "Confirm Rental",
-			"trans": "確認租借"
-		},
-		"owned": {
-			"eng": "Owned",
-			"trans": "擁有的"
-		},
-		"perWeek": {
-			"eng": "Per week",
-			"trans": "每週"
-		},
-		"rent": {
-			"eng": "Rent Now",
-			"trans": "立即租借"
 		}
 	},
 	"appProductType": {
@@ -920,10 +914,14 @@
 			"eng": "Task completed",
 			"trans": "任務完成"
 		},
+		"dismissButton": {
+			"eng": "Dismiss",
+			"trans": "關閉"
+		},
 		"emptyTask": {
 			"description": {
-				"eng": "Click to choose a task",
-				"trans": "點擊以選擇任務。"
+				"eng": "Assign operation",
+				"trans": "指派行動"
 			},
 			"title": {
 				"eng": "Task slot available",
@@ -941,6 +939,10 @@
 		"instantFinishConfirmTitle": {
 			"eng": "Finish task now?",
 			"trans": "現在完成任務嗎？"
+		},
+		"invalidated": {
+			"eng": "Operation invalidated",
+			"trans": "操作已失效"
 		}
 	},
 	"backgroundTaskPage": {
@@ -961,6 +963,10 @@
 		"cost": {
 			"eng": "Cost",
 			"trans": "花費"
+		},
+		"priorityOperationWarning": {
+			"eng": "Your gang must hold first place when this operation starts and settles. Start costs are not refunded if it is invalidated.",
+			"trans": "本行動發起與結算時，您的幫派須維持排名第一。若未達標，啟動費用將不予退還。"
 		},
 		"rewards": {
 			"eng": "possible rewards",
@@ -1024,6 +1030,16 @@
 				"trans": "救援任務"
 			}
 		},
+		"rogueAssetExtraction": {
+			"description": {
+				"eng": "Intercept a hostile augmentation shipment while your gang holds the highest war score. Losing first place before settlement invalidates the operation and forfeits its rewards.",
+				"trans": "於你的幫派戰爭分數位居榜首期間，攔截敵方義體貨運。若在最終結算前失去第一名，本次任務將無效且無法取得報酬。"
+			},
+			"displayName": {
+				"eng": "Rogue Asset Extraction",
+				"trans": "非法資產提取"
+			}
+		},
 		"scavenge": {
 			"description": {
 				"eng": "Navigate hazardous junkyards, uncover hidden treasures, and salvage valuable tech",
@@ -1053,6 +1069,20 @@
 				"eng": "Thieving",
 				"trans": "偷竊"
 			}
+		}
+	},
+	"backgroundTaskTypeDisplay": {
+		"afkOperation": {
+			"eng": "AFK Operation",
+			"trans": "掛機作戰"
+		},
+		"firstPlaceRequired": {
+			"eng": "First-place gang",
+			"trans": "第一名幫派"
+		},
+		"priorityOperation": {
+			"eng": "Priority Operation",
+			"trans": "優先行動"
 		}
 	},
 	"backgroundTaskUpgradePopup": {
@@ -1863,6 +1893,732 @@
 		"title": {
 			"eng": "Rotate the circle to unlock",
 			"trans": "旋轉圓圈以解鎖"
+		}
+	},
+	"circuitBreakWebsite": {
+		"about": {
+			"cid": {
+				"description": {
+					"eng": "CID handles controlled surveillance, intelligence collection, and sensitive recovery mandates under restricted authority.",
+					"trans": "CID 於受限權限下，專責執行受控監控、情報蒐集與機密回收任務。"
+				},
+				"eyebrow": {
+					"eng": "Specialist division",
+					"trans": "專門單位"
+				},
+				"liaisonLabel": {
+					"eng": "Contractor liaison",
+					"trans": "承包商聯絡人"
+				},
+				"liaisonName": {
+					"eng": "Vale",
+					"trans": "山谷"
+				},
+				"liaisonRole": {
+					"eng": "Intelligence operations",
+					"trans": "情報行動"
+				},
+				"title": {
+					"eng": "CircuitBreak Intelligence Division",
+					"trans": "網路安全集團情報部"
+				}
+			},
+			"eyebrow": {
+				"eng": "Company",
+				"trans": "公司"
+			},
+			"leadership": {
+				"kira": {
+					"biography": {
+						"eng": "Kira Nilsen directs security policy and operational standards across CircuitBreak.",
+						"trans": "琪拉·尼爾森統籌CircuitBreak的安全政策與營運規範。"
+					},
+					"name": {
+						"eng": "Kira Nilsen",
+						"trans": "琪拉·尼爾森"
+					},
+					"role": {
+						"eng": "Director of Security",
+						"trans": "安防總監"
+					}
+				},
+				"label": {
+					"eng": "Executive leadership",
+					"trans": "高階領導層"
+				},
+				"lee": {
+					"biography": {
+						"eng": "Lee Jong-suk serves as Chief Executive Officer of CircuitBreak Security Solutions. A former Korean special-forces soldier, he built his career around protective operations, crisis command, and work conducted under strict information controls. At CircuitBreak, his leadership is defined by disciplined execution, limited public disclosure, and a belief that effective security is measured by what never reaches the public record.",
+						"trans": "李鐘碩現任網路安全集團執行長。曾服役於韓國特戰部隊，他將事業重心置於安保行動、危機指揮與高機密作業。在集團期間，其領導風格以嚴謹執行與極度低調為核心，深信真正有效的防護在於讓一切威脅根本不會見諸公眾。"
+					},
+					"imageAlt": {
+						"eng": "CircuitBreak chief executive Lee Jong-suk overseeing a night deployment",
+						"trans": "網路安全集團執行長李宗錫督導夜間部署"
+					},
+					"name": {
+						"eng": "Lee Jong-suk",
+						"trans": "李鍾碩"
+					},
+					"role": {
+						"eng": "Chief Executive Officer",
+						"trans": "執行長"
+					}
+				},
+				"registerLabel": {
+					"eng": "Leadership register",
+					"trans": "領導者名冊"
+				}
+			},
+			"overview": {
+				"eng": "A listed Arclight security company providing executive protection, armed response, threat intelligence, and sensitive recovery.",
+				"trans": "於幻光之城上市的安保公司，提供要員護衛、武裝應變、威脅情報與機密資產回收服務。"
+			},
+			"registry": {
+				"divisionLabel": {
+					"eng": "Specialist division",
+					"trans": "專門單位"
+				},
+				"divisionValue": {
+					"eng": "CID",
+					"trans": "CID"
+				},
+				"entityLabel": {
+					"eng": "Registered entity",
+					"trans": "已註冊實體"
+				},
+				"entityValue": {
+					"eng": "CircuitBreak Security Solutions",
+					"trans": "電路安防解決方案"
+				},
+				"label": {
+					"eng": "Corporate record",
+					"trans": "企業紀錄"
+				},
+				"marketLabel": {
+					"eng": "Ticker",
+					"trans": "跑馬燈"
+				},
+				"marketValue": {
+					"eng": "CBK",
+					"trans": "CBK"
+				}
+			},
+			"title": {
+				"eng": "CircuitBreak Security Solutions",
+				"trans": "電路安防解決方案"
+			}
+		},
+		"careers": {
+			"cid": {
+				"contactAction": {
+					"eng": "View liaison details",
+					"trans": "查看聯絡人詳情"
+				},
+				"description": {
+					"eng": "CID reviews sponsored operators for surveillance, intelligence collection, and sensitive recovery assignments. Intake requires a verified sponsor or approved liaison referral.",
+					"trans": "CID 審查獲保薦特勤人員，以執行監視、情報蒐集與高機密回收任務。入隊須經認證推薦人或已核准聯絡官之推薦。"
+				},
+				"label": {
+					"eng": "Contract operators",
+					"trans": "合約執行者"
+				},
+				"liaisonLabel": {
+					"eng": "Contractor liaison",
+					"trans": "承包商聯絡人"
+				},
+				"liaisonName": {
+					"eng": "Vale",
+					"trans": "山谷"
+				},
+				"liaisonRole": {
+					"eng": "Intelligence operations",
+					"trans": "情報行動"
+				},
+				"title": {
+					"eng": "CID contractor intake",
+					"trans": "CID承包商招募"
+				}
+			},
+			"eyebrow": {
+				"eng": "Careers",
+				"trans": "職業"
+			},
+			"imageAlt": {
+				"eng": "CircuitBreak operations candidate completing a professional assessment",
+				"trans": "網路安全集團特勤候補人員已完成專業考核"
+			},
+			"intro": {
+				"eng": "Permanent roles for security professionals who exercise sound judgment under pressure.",
+				"trans": "固定職缺：專聘能在高壓情境下保持正確判斷的安保專員"
+			},
+			"openRolesTitle": {
+				"eng": "Current openings",
+				"trans": "目前空缺"
+			},
+			"recruitmentAction": {
+				"eng": "Contact recruitment",
+				"trans": "聯絡人招募"
+			},
+			"vacancies": {
+				"intelligence": {
+					"context": {
+						"eng": "Risk Intelligence / Arclight",
+						"trans": "風險情報／幻光之城"
+					},
+					"title": {
+						"eng": "Threat Intelligence Analyst",
+						"trans": "威脅情報分析師"
+					}
+				},
+				"protective": {
+					"context": {
+						"eng": "Protective Operations / Arclight",
+						"trans": "保護行動 / 幻光之城"
+					},
+					"title": {
+						"eng": "Protective Operations Specialist",
+						"trans": "防護行動專員"
+					}
+				},
+				"response": {
+					"context": {
+						"eng": "Client Command / Arclight Response Centre",
+						"trans": "客戶端指令 / 幻光之城回應中心"
+					},
+					"title": {
+						"eng": "Client Response Controller",
+						"trans": "客戶端回應控制器"
+					}
+				}
+			}
+		},
+		"contact": {
+			"directory": {
+				"cid": {
+					"access": {
+						"eng": "Sponsor only",
+						"trans": "僅限贊助者"
+					},
+					"description": {
+						"eng": "Sponsor-backed candidate references and approved contractor correspondence.",
+						"trans": "贊助方背書之候選人推薦函與核准合約商通聯紀錄"
+					},
+					"title": {
+						"eng": "CID contractor liaison",
+						"trans": "CID 承包商聯絡人"
+					}
+				},
+				"corporate": {
+					"access": {
+						"eng": "Public",
+						"trans": "公開"
+					},
+					"address": {
+						"eng": "corporate@circuitbreak.com",
+						"trans": "corporate@circuitbreak.com"
+					},
+					"description": {
+						"eng": "Company records, procurement, legal notices, recruitment, and general correspondence.",
+						"trans": "公司檔案、採購、法務通告、招募與一般通訊。"
+					},
+					"title": {
+						"eng": "Corporate and recruitment",
+						"trans": "企業與招募"
+					}
+				},
+				"protected": {
+					"access": {
+						"eng": "Private intake",
+						"trans": "私人攝取"
+					},
+					"action": {
+						"eng": "Open a private mandate",
+						"trans": "開啟私人指令"
+					},
+					"description": {
+						"eng": "Submit a new private-client mandate for controlled assessment.",
+						"trans": "提交新的私人客戶委託案以進行受控評估。"
+					},
+					"title": {
+						"eng": "Private mandate",
+						"trans": "私人指令"
+					}
+				},
+				"response": {
+					"access": {
+						"eng": "Contracted clients",
+						"trans": "簽約客戶"
+					},
+					"description": {
+						"eng": "For active incidents under an existing mandate, use your assigned client relay. Public mail cannot dispatch field teams.",
+						"trans": "針對既有授權下的進行中事件，請使用指派的客戶中繼站。公共郵件無法派遣外勤小隊。"
+					},
+					"reference": {
+						"eng": "Use assigned client relay",
+						"trans": "使用指定的中繼節點"
+					},
+					"title": {
+						"eng": "Active client response",
+						"trans": "活躍客戶端回應"
+					}
+				}
+			},
+			"directoryTitle": {
+				"eng": "Contact CircuitBreak",
+				"trans": "聯絡 CircuitBreak"
+			},
+			"eyebrow": {
+				"eng": "Contact",
+				"trans": "聯絡"
+			},
+			"intro": {
+				"eng": "Choose the channel matching your request. Restricted matters cannot be transferred from public enquiries.",
+				"trans": "請選擇符合您需求的專屬頻道。機密事項無法由一般諮詢轉接。"
+			}
+		},
+		"contracts": {
+			"disclaimer": {
+				"eng": "Mandate availability and operator response are not guaranteed. CircuitBreak retains final network authority.",
+				"trans": "指令可用性及操作員回覆恕不保證。CircuitBreak保留最終網路控制權。"
+			},
+			"emptyAction": {
+				"eng": "Open a contract",
+				"trans": "開啟合約"
+			},
+			"emptyCode": {
+				"eng": "Ledger status / Clear",
+				"trans": "帳簿狀態/清除"
+			},
+			"emptyDescription": {
+				"eng": "No public mandate currently meets network requirements. Qualified clients may open a new contract.",
+				"trans": "目前無符合網路需求的公開委託。合格客戶可建立新合約。"
+			},
+			"eyebrow": {
+				"eng": "Private Client Network / Mandates",
+				"trans": "私人客戶網路／委託任務"
+			},
+			"intro": {
+				"eng": "Active public mandates available to verified CircuitBreak operators. Select a target to review engagement options.",
+				"trans": "目前可接取的公開任務僅限已驗證之 CircuitBreak 特勤人員。選定目標以查看互動選項。"
+			},
+			"levelColumn": {
+				"eng": "Level",
+				"trans": "等級"
+			},
+			"loadingTitle": {
+				"eng": "Retrieving mandates",
+				"trans": "正在取得指令"
+			},
+			"openContract": {
+				"eng": "Place a Hit",
+				"trans": "接洽暗殺"
+			},
+			"sortLabel": {
+				"eng": "Sort: ${mode}",
+				"trans": "排序: ${mode}"
+			},
+			"status": {
+				"eng": "Active ledger",
+				"trans": "當前帳本"
+			},
+			"targetColumn": {
+				"eng": "Target",
+				"trans": "目標"
+			},
+			"title": {
+				"eng": "Contract Board",
+				"trans": "合約看板"
+			},
+			"valueColumn": {
+				"eng": "Value",
+				"trans": "數值"
+			}
+		},
+		"home": {
+			"hero": {
+				"classification": {
+					"eng": "Integrated security / Arclight",
+					"trans": "整合安防 / 幻光之城"
+				},
+				"clientAccess": {
+					"eng": "Private client access",
+					"trans": "專屬客戶存取權限"
+				},
+				"description": {
+					"eng": "CircuitBreak protects Arclight's most exposed institutions, assets, and executives. When deterrence fails, we resolve the exposure.",
+					"trans": "網路安全集團守護幻光之城最關鍵且高風險的機構、資產與高管。當阻嚇機制失效，我們將直接介入並消除安全缺口。"
+				},
+				"imageAlt": {
+					"eng": "CircuitBreak headquarters and executive protection detail in Arclight",
+					"trans": "網路安全集團位於幻光之城的總部與高管安保組"
+				},
+				"placeHit": {
+					"eng": "Place Hit",
+					"trans": "下達懸賞"
+				},
+				"title": {
+					"eng": "Power, applied.",
+					"trans": "動力已啟動"
+				},
+				"viewBoard": {
+					"eng": "View Board",
+					"trans": "查看看板"
+				}
+			},
+			"services": {
+				"allServices": {
+					"eng": "View all services",
+					"trans": "查看所有服務"
+				},
+				"highRisk": {
+					"description": {
+						"eng": "Integrated protection for critical sites and operations.",
+						"trans": "統合防護涵蓋關鍵設施與戰術行動"
+					},
+					"title": {
+						"eng": "High-risk security",
+						"trans": "高危安防"
+					}
+				},
+				"label": {
+					"eng": "Capabilities",
+					"trans": "能力"
+				},
+				"protection": {
+					"description": {
+						"eng": "Protective teams and secure movement for exposed clients.",
+						"trans": "為暴露型客戶調派安保小組，並確保移動安全。"
+					},
+					"title": {
+						"eng": "Executive protection",
+						"trans": "高管保全"
+					}
+				},
+				"response": {
+					"description": {
+						"eng": "Rapid intervention when a material threat becomes active.",
+						"trans": "實際威脅觸發時快速介入。"
+					},
+					"title": {
+						"eng": "Armed response",
+						"trans": "武力反制"
+					}
+				},
+				"title": {
+					"eng": "Protective services",
+					"trans": "防護服務"
+				}
+			}
+		},
+		"placeHit": {
+			"actionIntro": {
+				"eng": "Choose a target and contract value, then review the cost before authorization.",
+				"trans": "指定目標與合約金額，查閱相關費用後再進行授權。"
+			},
+			"actionTitle": {
+				"eng": "Place a hit",
+				"trans": "下達暗殺令"
+			},
+			"amountModalTitle": {
+				"eng": "Contract value",
+				"trans": "合約價值"
+			},
+			"availableFunds": {
+				"eng": "Available funds",
+				"trans": "可用資金"
+			},
+			"changeTarget": {
+				"eng": "Change",
+				"trans": "變更"
+			},
+			"changeValue": {
+				"eng": "Change",
+				"trans": "變更"
+			},
+			"formCode": {
+				"eng": "Form CB-17",
+				"trans": "CB-17 表單"
+			},
+			"fundsStatus": {
+				"eng": "Available funds no longer cover this contract.",
+				"trans": "可用資金已不足以支付此合約。"
+			},
+			"insufficientFundsStatus": {
+				"eng": "Available funds are below the ${amount} ${currency} contract minimum.",
+				"trans": "可用資金不足，未達 ${amount} ${currency} 的合約門檻。"
+			},
+			"levelRequirement": {
+				"eng": "Level ${level} is required to authorize a contract.",
+				"trans": "需達到等級 ${level} 方可授權合約。"
+			},
+			"levelStatus": {
+				"eng": "Client authorization requires player level ${level}.",
+				"trans": "客戶端授權需達玩家等級${level}。"
+			},
+			"minimumStatus": {
+				"eng": "Set a contract value of at least ${amount} ${currency}.",
+				"trans": "設定合約價值至少為${amount} ${currency}。"
+			},
+			"minimumValue": {
+				"eng": "Minimum ${amount}",
+				"trans": "至少 ${amount}"
+			},
+			"networkLabel": {
+				"eng": "Private Client Network",
+				"trans": "私人客戶網路"
+			},
+			"readyStatus": {
+				"eng": "Contract is ready to review.",
+				"trans": "契約已就緒，可進行檢視"
+			},
+			"required": {
+				"eng": "Required",
+				"trans": "必要"
+			},
+			"restrictedStatus": {
+				"eng": "System restrictions prevent contract authorization.",
+				"trans": "受系統限制，無法進行合約授權。"
+			},
+			"reviewAction": {
+				"eng": "Review contract",
+				"trans": "檢視合約"
+			},
+			"selectTargetAction": {
+				"eng": "Select",
+				"trans": "選取"
+			},
+			"selectTargetStatus": {
+				"eng": "Select a target to continue.",
+				"trans": "選擇目標以繼續"
+			},
+			"setValue": {
+				"eng": "Set value",
+				"trans": "設定數值"
+			},
+			"simpleTargetTitle": {
+				"eng": "1. Choose target",
+				"trans": "1. 選擇目標"
+			},
+			"simpleValueTitle": {
+				"eng": "2. Set contract value",
+				"trans": "2. 設定合約價值"
+			},
+			"targetEmpty": {
+				"eng": "Search verified player records",
+				"trans": "搜尋已驗證玩家紀錄"
+			},
+			"targetLevelStatus": {
+				"eng": "Targets below level ${level} cannot be listed.",
+				"trans": "低於 ${level} 級的目標無法列出。"
+			},
+			"targetSelected": {
+				"eng": "Verified identity selected",
+				"trans": "已驗證身分已選取"
+			}
+		},
+		"reviewHit": {
+			"authorizeAction": {
+				"eng": "Authorize contract",
+				"trans": "簽署合約"
+			},
+			"editAction": {
+				"eng": "Edit details",
+				"trans": "編輯詳細資訊"
+			},
+			"formCode": {
+				"eng": "Form CB-17 / Review",
+				"trans": "CB-17表 / 審核"
+			},
+			"fundsStatus": {
+				"eng": "Available funds no longer cover this contract.",
+				"trans": "目前可用資金已不足以支付此合約費用。"
+			},
+			"intro": {
+				"eng": "Confirm the target and financial commitment before authorization.",
+				"trans": "授權前請確認目標與相關費用。"
+			},
+			"invalidError": {
+				"eng": "Contract details changed. Return to the previous page and review them again.",
+				"trans": "合約詳情已變更。請返回上一頁並再次確認。"
+			},
+			"invalidStatus": {
+				"eng": "Contract details are incomplete or no longer valid.",
+				"trans": "合約內容不完整或已失效。"
+			},
+			"levelStatus": {
+				"eng": "Client authorization requires player level ${level}.",
+				"trans": "客戶端授權需達到玩家等級${level}。"
+			},
+			"loadingStatus": {
+				"eng": "Verifying contract details...",
+				"trans": "正在驗證合約詳情..."
+			},
+			"minimumStatus": {
+				"eng": "Contract value must be at least ${amount} ${currency}.",
+				"trans": "合約金額不得低於 ${amount} ${currency}."
+			},
+			"networkLabel": {
+				"eng": "Private Client Network",
+				"trans": "私人客戶網路"
+			},
+			"notice": {
+				"eng": "Authorization transfers the committed funds immediately and publishes the contract to the active Board. This action cannot be reversed.",
+				"trans": "授權將立即轉移已承諾資金，並將合約公布至活躍看板。此操作無法逆轉。"
+			},
+			"pendingTarget": {
+				"eng": "Unverified",
+				"trans": "未驗證"
+			},
+			"readyStatus": {
+				"eng": "Contract is ready for authorization.",
+				"trans": "合約已就緒，等待授權。"
+			},
+			"restrictedStatus": {
+				"eng": "System restrictions prevent contract authorization.",
+				"trans": "系統限制無法進行合約授權"
+			},
+			"target": {
+				"eng": "Target",
+				"trans": "目標"
+			},
+			"targetLevelStatus": {
+				"eng": "Targets below level ${level} cannot be listed.",
+				"trans": "等級低於 ${level} 的目標無法列入清單。"
+			},
+			"title": {
+				"eng": "Review contract",
+				"trans": "檢視合約"
+			},
+			"value": {
+				"eng": "Contract value",
+				"trans": "合約報酬"
+			}
+		},
+		"services": {
+			"armedResponse": {
+				"description": {
+					"eng": "Disciplined intervention teams contain active threats, secure critical sites, and restore client control.",
+					"trans": "紀律嚴明的介入小隊壓制即時威脅，確保關鍵設施安全，並恢復客戶主控權。"
+				},
+				"title": {
+					"eng": "Armed response",
+					"trans": "武力反制"
+				}
+			},
+			"assetRecovery": {
+				"description": {
+					"eng": "Specialist recovery teams locate and return sensitive property while limiting exposure, delay, and attribution.",
+					"trans": "專業回收小組負責搜尋並歸還敏感資產，行動時嚴格控制暴露風險、縮短作業時間與避免溯源。"
+				},
+				"title": {
+					"eng": "Asset recovery",
+					"trans": "資產回收"
+				}
+			},
+			"authorizationNotice": {
+				"eng": "All engagements require an authorized client mandate.",
+				"trans": "所有任務均需取得客戶正式授權。"
+			},
+			"executiveProtection": {
+				"description": {
+					"eng": "Low-profile close protection, route control, and secure movement for executives operating under elevated threat.",
+					"trans": "低調貼身防護、路線管控與安全轉移，專為處於高威脅狀態的高階主管設計。"
+				},
+				"title": {
+					"eng": "Executive protection",
+					"trans": "高管保全"
+				}
+			},
+			"eyebrow": {
+				"eng": "Services",
+				"trans": "服務"
+			},
+			"imageAlt": {
+				"eng": "CircuitBreak close-protection team moving a client through a secure arrival",
+				"trans": "CircuitBreak 貼身安保團隊正護送客戶通過安全抵達區"
+			},
+			"intro": {
+				"eng": "CircuitBreak protects people, property, and continuity where ordinary security reaches its limit.",
+				"trans": "CircuitBreak 突破常規安防極限，守護人員、財產與營運延續"
+			},
+			"privateMandates": {
+				"action": {
+					"eng": "Open a private mandate",
+					"trans": "開啟私人指令"
+				}
+			},
+			"threatIntelligence": {
+				"description": {
+					"eng": "Targeted surveillance and intelligence collection identify hostile intent before it becomes a public incident.",
+					"trans": "針對性監控與情報蒐集可於釀成公共事件前識別敵對企圖。"
+				},
+				"title": {
+					"eng": "Threat intelligence",
+					"trans": "威脅情報"
+				}
+			},
+			"title": {
+				"eng": "Protective services",
+				"trans": "防護服務"
+			}
+		},
+		"shell": {
+			"footer": {
+				"careers": {
+					"eng": "Careers",
+					"trans": "職業"
+				},
+				"company": {
+					"eng": "CircuitBreak Security Solutions",
+					"trans": "電路突破安全解決方案"
+				},
+				"companyProfile": {
+					"eng": "Company profile",
+					"trans": "公司簡介"
+				},
+				"contact": {
+					"eng": "Contact CircuitBreak",
+					"trans": "聯繫網路安全集團"
+				},
+				"notice": {
+					"eng": "Client information is handled under strict confidentiality.",
+					"trans": "客戶資料將受到嚴格保密。"
+				}
+			},
+			"logoAlt": {
+				"eng": "CircuitBreak Security Solutions",
+				"trans": "斷線安防解決方案"
+			},
+			"nav": {
+				"board": {
+					"eng": "Board",
+					"trans": "資訊板"
+				},
+				"careers": {
+					"eng": "Careers",
+					"trans": "職業"
+				},
+				"company": {
+					"eng": "Company",
+					"trans": "公司"
+				},
+				"contact": {
+					"eng": "Contact",
+					"trans": "聯絡"
+				},
+				"home": {
+					"eng": "Home",
+					"trans": "首頁"
+				},
+				"services": {
+					"eng": "Services",
+					"trans": "服務"
+				}
+			},
+			"placeHit": {
+				"eng": "Place Hit",
+				"trans": "下達懸賞"
+			}
 		}
 	},
 	"clan": {
@@ -2907,6 +3663,10 @@
 		"clanResource": {
 			"eng": "+ ${amount} Gang resource",
 			"trans": "+ ${amount} 幫派資源"
+		},
+		"oneOf": {
+			"eng": "One of following:",
+			"trans": "下列擇一："
 		}
 	},
 	"confirmModal": {
@@ -4917,28 +5677,24 @@
 	},
 	"hitListPage": {
 		"bountyCount": {
-			"eng": "${count} bounties",
-			"trans": "${count} 項懸賞"
+			"eng": "${count} active",
+			"trans": "${count}個已啟用"
 		},
 		"sort": {
 			"level": {
-				"eng": "Level",
-				"trans": "等級"
+				"eng": "Target level",
+				"trans": "目標等級"
 			},
 			"price": {
-				"eng": "Price",
-				"trans": "價格"
+				"eng": "Contract value",
+				"trans": "合約報酬"
 			}
 		}
 	},
 	"hitlist": {
-		"loading": {
-			"eng": "Loading bounties...",
-			"trans": "載入賞金任務中..."
-		},
 		"noBounties": {
-			"eng": "No bounties available",
-			"trans": "沒有賞金可用"
+			"eng": "No active contracts",
+			"trans": "目前無進行中契約"
 		},
 		"optionsPopup": {
 			"attack": {
@@ -4949,23 +5705,13 @@
 				"eng": "View Profile",
 				"trans": "查看個人資料"
 			}
-		},
-		"placeHitButton": {
-			"title": {
-				"eng": "Place Hit",
-				"trans": "下達懸賞"
-			}
-		},
-		"title": {
-			"eng": "Hit List",
-			"trans": "懸賞名單"
 		}
 	},
 	"hitman": {
 		"error": {
 			"cannotPlaceBountyOnAdmin": {
-				"eng": "You cannot place bounty on this player",
-				"trans": "你無法對這位玩家懸賞"
+				"eng": "You cannot place or control this player.",
+				"trans": "無法部署或操控該玩家。"
 			},
 			"cannotPlaceBountyOnLowLevel": {
 				"eng": "You cannot place bounty on players lower than level ${level}",
@@ -5345,10 +6091,6 @@
 		"evidenceNumber": {
 			"eng": "Evidence #${number}",
 			"trans": "證據 #${number}"
-		},
-		"goToVerdict": {
-			"eng": "Go to verdict ${num}",
-			"trans": "前往判決${num}"
 		},
 		"imageUnavailable": {
 			"eng": "Image Unavailable",
@@ -7977,10 +8719,6 @@
 				"eng": "News",
 				"trans": "新聞"
 			},
-			"goToNews": {
-				"eng": "Go to news ${index}",
-				"trans": "前往新聞${index}"
-			},
 			"heading": {
 				"eng": "YOUR ACTIONS MAKE THE HEADLINES",
 				"trans": "你的每個舉動都能登上頭條"
@@ -7993,10 +8731,6 @@
 				"eng": "Arclight Times",
 				"trans": "幻光時報"
 			},
-			"next": {
-				"eng": "Next news",
-				"trans": "下一條新聞"
-			},
 			"noNews": {
 				"eng": "No news available at the moment",
 				"trans": "暫無新聞"
@@ -8004,10 +8738,6 @@
 			"overline": {
 				"eng": "LIVE WORLD EVENTS // PLAYER-DRIVEN NARRATIVE",
 				"trans": "即時世界事件 // 玩家主導的敘事"
-			},
-			"previous": {
-				"eng": "Previous news",
-				"trans": "往期新聞"
 			},
 			"reportBy": {
 				"eng": "REPORT BY",
@@ -9507,6 +10237,712 @@
 			"trans": "篩選器"
 		}
 	},
+	"megaEstateWebsite": {
+		"careers": {
+			"description": {
+				"eng": "MegaEstate evaluates verified resident profiles continuously. If your payment, access and conduct history meets a role requirement, we will contact you. No submission is necessary.",
+				"trans": "巨地產持續審核已驗證住戶檔案。若您的繳費、通行與行為紀錄符合對應資階標準，我們將主動聯繫您。無需另行申請。"
+			},
+			"eyebrow": {
+				"eng": "Careers at MegaEstate",
+				"trans": "巨地產招募"
+			},
+			"hero": {
+				"imageAlt": {
+					"eng": "MegaEstate property operations team reviewing a residential building",
+					"trans": "巨地產物業營運團隊正巡查住宅大樓"
+				}
+			},
+			"title": {
+				"eng": "Your record is your application.",
+				"trans": "你的紀錄就是你的履歷。"
+			},
+			"vacancies": {
+				"biometricAccess": {
+					"department": {
+						"eng": "Access infrastructure · Technical",
+						"trans": "存取基礎設施 · 技術"
+					},
+					"description": {
+						"eng": "Maintain identity-linked entry systems, investigate access anomalies and revoke resident credentials across MegaEstate properties.",
+						"trans": "維護身份綁定門禁系統，排查存取異常，並在所有巨地產管轄區域內撤銷住戶通行憑證。"
+					},
+					"title": {
+						"eng": "Biometric Access Technician",
+						"trans": "生物辨識技術員"
+					}
+				},
+				"count": {
+					"eng": "${count} active",
+					"trans": "${count}個已啟用"
+				},
+				"eyebrow": {
+					"eng": "Open positions",
+					"trans": "開放職缺"
+				},
+				"occupancyCompliance": {
+					"department": {
+						"eng": "Portfolio compliance · Field",
+						"trans": "組合合規性・領域"
+					},
+					"description": {
+						"eng": "Conduct unannounced home inspections, document unregistered occupants and authorize access suspension when contract terms are breached.",
+						"trans": "執行無預警住宅稽查，記錄未登記居住者資料，違反合約條款時授權暫停存取權限。"
+					},
+					"title": {
+						"eng": "Occupancy Compliance Officer",
+						"trans": "佔用合規專員"
+					}
+				},
+				"riskAnalyst": {
+					"department": {
+						"eng": "Resident intelligence · Analysis",
+						"trans": "居民智力 · 分析"
+					},
+					"description": {
+						"eng": "Combine payment history, property access and contract activity to predict renewal risk and recommend intervention.",
+						"trans": "整合付款紀錄、資產存取與合約活動，以預測續約風險並建議介入措施。"
+					},
+					"title": {
+						"eng": "Resident Risk Analyst",
+						"trans": "駐點風險分析師"
+					}
+				},
+				"unitRecovery": {
+					"department": {
+						"eng": "Property recovery · Field",
+						"trans": "屬性恢復·戰場"
+					},
+					"description": {
+						"eng": "Secure homes after lease termination, catalogue remaining property and return reclaimed units to inventory before the next billing cycle.",
+						"trans": "租約終止後封存住宅、登記遺留財物，並於下次計費週期前將收回的居住單元重新歸入庫存。"
+					},
+					"title": {
+						"eng": "Unit Recovery Coordinator",
+						"trans": "單位修復統籌官"
+					}
+				}
+			}
+		},
+		"company": {
+			"building": {
+				"caption": {
+					"eng": "Arclight lives here",
+					"trans": "此處即是幻光之城"
+				},
+				"imageAlt": {
+					"eng": "Residents arriving at a MegaEstate property in Arclight",
+					"trans": "居民抵達幻光之城的巨地產物業"
+				}
+			},
+			"eyebrow": {
+				"eng": "About MegaEstate",
+				"trans": "關於巨地產"
+			},
+			"introduction": {
+				"eng": "At MegaEstate, we bring rental homes across Arclight into one clear network. You can compare housing standards, see current availability and choose the address that works for you.",
+				"trans": "在巨地產，我們將幻光之城各地的出租住宅整合為清晰聯網。您可比對居住標準、查看即時可租狀態，並選定最適合您的理想居所。"
+			},
+			"leadership": {
+				"description": {
+					"eng": "Robert Smith sets our long-term direction as Chief Executive Officer. His approach is simple: manage housing at city scale, keep occupancy responsible and make every part of renting answer to one accountable company. From listing to renewal, that company is MegaEstate.",
+					"trans": "執行長羅伯特·史密斯為我們訂定長期發展方向。策略很簡單：以城市規模統籌房產、維持合理的出租率與租務規範，並將所有租賃環節交由單一負責任的公司全權接管。從房源上架到合約續簽，皆由巨地產統一負責。"
+				},
+				"eyebrow": {
+					"eng": "Leadership",
+					"trans": "領導力"
+				},
+				"imageAlt": {
+					"eng": "Robert Smith, Chief Executive Officer of MegaEstate",
+					"trans": "Robert Smith，巨地產首席執行長"
+				},
+				"name": {
+					"eng": "Robert Smith",
+					"trans": "羅伯特史密斯"
+				},
+				"role": {
+					"eng": "Chief Executive Officer",
+					"trans": "執行長"
+				}
+			},
+			"model": {
+				"description": {
+					"eng": "Our four housing standards give you room to choose without starting over. Essential Housing, City Housing, Urban Studio and Central Residence all follow the same straightforward seven-day rental cycle.",
+					"trans": "我們的四種住宅等級提供彈性挑選空間，無須重新開始即可自由選擇。基礎住房、都市住房、都會工作室與核心居宅均採用簡潔明瞭的七天租賃週期。"
+				},
+				"eyebrow": {
+					"eng": "Made for life in Arclight",
+					"trans": "專為在幻光之城的生活而設計"
+				},
+				"title": {
+					"eng": "A home for what comes next.",
+					"trans": "屬於未來的歸處。"
+				}
+			},
+			"portfolio": {
+				"eng": "From a first address to a Central Residence, we make every move familiar: one place to browse, one rental process and one company behind every home we manage.",
+				"trans": "從初次安家到中央核心住宅，我們讓每次搬遷都輕鬆上手：一站式瀏覽房源、統一租賃流程，並由同一家企業全權負責每處管理居所。"
+			},
+			"title": {
+				"eng": "The city moves fast. Home should feel certain.",
+				"trans": "都會節奏飛快，家理當令人感到安定。"
+			}
+		},
+		"home": {
+			"city": {
+				"arclight": {
+					"eng": "Arclight City",
+					"trans": "幻光之城"
+				},
+				"international": {
+					"eng": "International cities — Unavailable",
+					"trans": "國際城市 — 暫不可用"
+				},
+				"label": {
+					"eng": "City",
+					"trans": "城市"
+				},
+				"otherNrc": {
+					"eng": "Other NRC cities — Unavailable",
+					"trans": "其他新加州共和國城市 — 暫不可用"
+				}
+			},
+			"hero": {
+				"description": {
+					"eng": "Explore homes available now across our four housing standards.",
+					"trans": "探索四種住宅等級中，現正開放的房屋。"
+				},
+				"eyebrow": {
+					"eng": "Rental homes in Arclight City",
+					"trans": "幻光之城出租住宅"
+				},
+				"imageAlt": {
+					"eng": "Central Residence overlooking Arclight City",
+					"trans": "俯瞰幻光之城的中央住宅"
+				},
+				"title": {
+					"eng": "Find your place in Arclight.",
+					"trans": "在幻光之城中找到自己的立足之地。"
+				},
+				"viewListings": {
+					"eng": "Browse current listings",
+					"trans": "瀏覽當前清單"
+				}
+			},
+			"introduction": {
+				"availability": {
+					"description": {
+						"eng": "We only show homes currently available to rent in Arclight.",
+						"trans": "我們僅顯示目前於幻光之城可供出租的住宅。"
+					},
+					"title": {
+						"eng": "Current availability",
+						"trans": "當前可用數量"
+					}
+				},
+				"description": {
+					"eng": "From essential housing to central residences, we bring Arclight's available rentals together in one place. Browse real homes, compare actual weekly rent and choose the standard that fits your life.",
+					"trans": "從基礎住宅到核心區宅邸，我們將幻光之城的所有可租房源彙整於此。瀏覽真實房源、比對每週實際租金、挑選最契合您生活型態的居所"
+				},
+				"eyebrow": {
+					"eng": "Arclight residential rentals",
+					"trans": "幻光住宅租賃"
+				},
+				"pricing": {
+					"description": {
+						"eng": "See the actual weekly rent for every available home.",
+						"trans": "查看每間待租房屋的實際每週租金。"
+					},
+					"title": {
+						"eng": "Clear weekly pricing",
+						"trans": "清除每週定價"
+					}
+				},
+				"standards": {
+					"benefitsDescription": {
+						"eng": "Compare added inventory space, vault capacity and mercenary contact slots before choosing.",
+						"trans": "選擇前請比較新增的倉庫空間、保險箱容量與傭兵聯絡槽位。"
+					},
+					"title": {
+						"eng": "Four housing standards",
+						"trans": "四大居住標準"
+					}
+				},
+				"title": {
+					"eng": "A better way to find a home in Arclight.",
+					"trans": "在幻光之城找到理想居所的更佳方式"
+				},
+				"viewListings": {
+					"eng": "Explore current listings",
+					"trans": "瀏覽目前清單"
+				}
+			},
+			"renting": {
+				"description": {
+					"eng": "We charge your first seven-day period when the rental starts. After each period, we process renewal during the next scheduled billing check.",
+					"trans": "租賃啟動時即收取首個七天週期費用。此後每週期屆滿，系統將於下次定時計費時自動辦理續約。"
+				},
+				"eyebrow": {
+					"eng": "Renting with MegaEstate",
+					"trans": "使用巨地產租賃"
+				},
+				"guide": {
+					"eng": "See how renting works",
+					"trans": "查看租借說明"
+				},
+				"title": {
+					"eng": "Choose today. Renew week by week.",
+					"trans": "選擇今日內容。每週定期刷新。"
+				}
+			},
+			"standards": {
+				"compare": {
+					"eng": "Compare housing standards",
+					"trans": "比較居住標準"
+				},
+				"description": {
+					"eng": "Each of our housing standards offers a different balance of space, storage and capacity. Compare them here, then see real homes and weekly rent in Listings.",
+					"trans": "各住房規格在空間、儲物與容量上各有不同的最佳平衡。在此比較後，請前往房源列表查看實際房源及週租價格。"
+				},
+				"eyebrow": {
+					"eng": "Housing standards",
+					"trans": "住宅標準"
+				},
+				"mercenarySlots": {
+					"eng": "Merc slots",
+					"trans": "傭兵槽位"
+				},
+				"storage": {
+					"eng": "Storage",
+					"trans": "倉庫"
+				},
+				"title": {
+					"eng": "Four ways to live in Arclight.",
+					"trans": "幻光之城的四種生活方式"
+				},
+				"vault": {
+					"eng": "Vault",
+					"trans": "保險箱"
+				}
+			}
+		},
+		"homeDetails": {
+			"confirm": {
+				"action": {
+					"eng": "Rent this home",
+					"trans": "租用此住所"
+				},
+				"description": {
+					"eng": "Rent ${address} for ${price} ${currency} per week. We charge the first seven-day period when the rental starts.",
+					"trans": "租用 ${address}，每週租金為 ${price} ${currency}。租約啟動時將立即扣除首週費用。"
+				},
+				"perWeek": {
+					"eng": "per week",
+					"trans": "每週"
+				},
+				"replacementDescription": {
+					"eng": "Rent ${address} for ${price} ${currency} per week. We charge the first seven-day period when the rental starts, and this immediately replaces your current home.",
+					"trans": "租用 ${address} 需支付 ${price} ${currency}/週。起租時將預收首週費用，並立刻取代您目前的住所。"
+				},
+				"title": {
+					"eng": "Rent this home?",
+					"trans": "是否租用此住宅？"
+				},
+				"weeklyRent": {
+					"eng": "Weekly rent",
+					"trans": "每週租金"
+				}
+			},
+			"currentHome": {
+				"eng": "Current home",
+				"trans": "當前住所"
+			},
+			"error": {
+				"description": {
+					"eng": "Return to Listings and try this home again when availability can be loaded.",
+					"trans": "返回房源列表，待可用狀態成功載入後再此嘗試。"
+				},
+				"title": {
+					"eng": "We couldn't check this home's availability",
+					"trans": "無法查詢該住宅的可用狀態"
+				}
+			},
+			"imageAlt": {
+				"eng": "Rental home at ${address}",
+				"trans": "位於${address}的租屋處"
+			},
+			"invalid": {
+				"description": {
+					"eng": "Return to Listings to choose from homes currently available.",
+					"trans": "返回房源清單，挑選當前可用的住宅。"
+				},
+				"title": {
+					"eng": "We can't open this home",
+					"trans": "無法開啟此家園"
+				}
+			},
+			"mercenarySlots": {
+				"eng": "Merc slots",
+				"trans": "傭兵欄位"
+			},
+			"metrics": {
+				"mercenarySlots": {
+					"description": {
+						"eng": "Adds ${count} mercenary contact slots to your recruitment limit.",
+						"trans": "將傭兵招募名額提高 ${count}"
+					}
+				},
+				"storage": {
+					"description": {
+						"eng": "Adds ${count} slots to your inventory.",
+						"trans": "增加${count}個倉庫欄位"
+					}
+				},
+				"vault": {
+					"description": {
+						"eng": "Holds up to ${count} item stacks in your apartment vault.",
+						"trans": "您的公寓保險箱最多可儲存 ${count} 堆疊物品。"
+					}
+				}
+			},
+			"perWeek": {
+				"eng": "per week",
+				"trans": "每週"
+			},
+			"renewal": {
+				"description": {
+					"eng": "We charge the first seven-day period when your rental starts. After each period, we process renewal during the next scheduled billing check; insufficient funds end the lease.",
+					"trans": "租賃啟動時即收取首七日費用。每期屆滿後，系統將於下次帳務結算時自動續約；若餘額不足則終止租約。"
+				},
+				"eyebrow": {
+					"eng": "Seven-day rental cycle",
+					"trans": "七日租借週期"
+				}
+			},
+			"rent": {
+				"eng": "Rent this home",
+				"trans": "租用此住所"
+			},
+			"replacement": {
+				"description": {
+					"eng": "Starting this rental ends your existing lease immediately.",
+					"trans": "開始此次租賃將立即終止您現有的租約。"
+				},
+				"title": {
+					"eng": "This replaces your current home",
+					"trans": "此操作將取代您目前的住所"
+				}
+			},
+			"storage": {
+				"eng": "Storage",
+				"trans": "倉庫"
+			},
+			"unavailable": {
+				"description": {
+					"eng": "This listing is no longer available. Return to Listings to view current homes.",
+					"trans": "該房源已下架。返回房源列表查看當前可用房屋。"
+				},
+				"title": {
+					"eng": "This home is no longer available",
+					"trans": "此居所已無法使用"
+				}
+			},
+			"vault": {
+				"eng": "Vault",
+				"trans": "保險箱"
+			},
+			"weeklyRent": {
+				"eng": "Weekly rent",
+				"trans": "每週租金"
+			}
+		},
+		"housingStandards": {
+			"a0": {
+				"description": {
+					"eng": "A practical first address with the essentials for independent city living.",
+					"trans": "務實的首選據點，備齊獨立都市生活的必備物資。"
+				}
+			},
+			"a1": {
+				"description": {
+					"eng": "A versatile city home with additional storage and vault space for an established routine.",
+					"trans": "多功能都會住宅，配備額外儲物空間與保險庫，適合安定生活節奏。"
+				}
+			},
+			"a2": {
+				"description": {
+					"eng": "A focused urban home with generous storage for residents who need more from a compact address.",
+					"trans": "都會寓所配備充裕的儲存空間，專為在緊湊戶型中追求高實用性的居住者打造。"
+				}
+			},
+			"a3": {
+				"description": {
+					"eng": "Our premier residence offers the most room for residents, belongings and protected storage.",
+					"trans": "頂級居所提供最大空間，可容納住戶、私人物件及安全儲存設施"
+				}
+			},
+			"benefitsDescription": {
+				"eng": "Compare added inventory space, vault capacity and mercenary contact slots across every standard.",
+				"trans": "比較各標準新增的倉庫空間、保險箱容量與傭兵聯絡槽位。"
+			},
+			"browseListings": {
+				"eng": "Browse current listings",
+				"trans": "瀏覽當前清單"
+			},
+			"eyebrow": {
+				"eng": "The MegaEstate range",
+				"trans": "巨地產系列"
+			},
+			"imageAlt": {
+				"eng": "${standard} rental home",
+				"trans": "${standard}出租公寓"
+			},
+			"imageCaption": {
+				"eng": "Standard ${code}",
+				"trans": "標準 ${code}"
+			},
+			"mercenarySlots": {
+				"eng": "Merc slots",
+				"trans": "傭兵槽位"
+			},
+			"storage": {
+				"eng": "Storage",
+				"trans": "倉庫"
+			},
+			"title": {
+				"eng": "A clear standard for every stage of city life.",
+				"trans": "都會生活各階段的明確標準。"
+			},
+			"vault": {
+				"eng": "Vault",
+				"trans": "保險箱"
+			}
+		},
+		"listings": {
+			"availableCount": {
+				"eng": "Available listings: ${count}",
+				"trans": "目前上架：${count}"
+			},
+			"empty": {
+				"description": {
+					"eng": "Choose another housing standard to view its current availability.",
+					"trans": "選擇其他住宅規格，即可查看當前空房狀況。"
+				},
+				"title": {
+					"eng": "No listings available in this standard",
+					"trans": "此標準下暫無上架商品"
+				}
+			},
+			"error": {
+				"description": {
+					"eng": "Choose another housing standard or return later to check availability.",
+					"trans": "選擇其他住宅規格，或稍後再回來查看空位狀況。"
+				},
+				"title": {
+					"eng": "We couldn't load current availability",
+					"trans": "無法載入目前可用資訊"
+				}
+			},
+			"eyebrow": {
+				"eng": "MegaEstate listings",
+				"trans": "巨地產房源"
+			},
+			"listing": {
+				"currentHome": {
+					"eng": "Current home",
+					"trans": "當前住所"
+				},
+				"imageAlt": {
+					"eng": "${standard} rental home",
+					"trans": "${standard}出租公寓"
+				},
+				"perWeek": {
+					"eng": "per week",
+					"trans": "每週"
+				},
+				"weeklyRent": {
+					"eng": "Weekly rent",
+					"trans": "每週租金"
+				}
+			},
+			"loadingCount": {
+				"eng": "Checking current availability…",
+				"trans": "正在檢查目前可用狀態…"
+			},
+			"standardLabel": {
+				"eng": "Housing standard",
+				"trans": "住房標準"
+			},
+			"title": {
+				"eng": "Find your next home in Arclight.",
+				"trans": "在幻光之城尋找你的新家。"
+			}
+		},
+		"rentalGuide": {
+			"browseListings": {
+				"eng": "Browse current listings",
+				"trans": "瀏覽當前清單"
+			},
+			"compareStandards": {
+				"eng": "Compare housing standards",
+				"trans": "比較居住標準"
+			},
+			"description": {
+				"eng": "One clear process for your first payment, every renewal and any move that follows.",
+				"trans": "單一明確流程，適用於首次付款、每次續約與後續任何操作。"
+			},
+			"eyebrow": {
+				"eng": "Rental guide",
+				"trans": "租賃指南"
+			},
+			"guide": {
+				"change": {
+					"description": {
+						"eng": "When you rent a new home, we end your current lease immediately. Review your choice before starting the new rental.",
+						"trans": "租用新住所將立即解除現有租約。開始新租約前，請先確認您的選擇。"
+					},
+					"title": {
+						"eng": "Changing your home",
+						"trans": "變更住所"
+					}
+				},
+				"description": {
+					"eng": "Review these four details before you start a rental.",
+					"trans": "開始租賃前，請先確認這四項詳情。"
+				},
+				"eyebrow": {
+					"eng": "Before you rent",
+					"trans": "租借前注意事項"
+				},
+				"funds": {
+					"description": {
+						"eng": "Keep enough funds available before renewal is due. If funds are insufficient, renewal fails and your lease ends immediately.",
+						"trans": "續約前請確保資金充足。若因餘額不足導致續約失敗，您的租賃合約將立即終止。"
+					},
+					"title": {
+						"eng": "If renewal funds are unavailable",
+						"trans": "若續期資金不足"
+					}
+				},
+				"renewal": {
+					"description": {
+						"eng": "Each payment covers seven days. We process renewal during the next scheduled billing check and notify you when it succeeds or fails.",
+						"trans": "每次付款涵蓋七天。系統將於下次定時對帳檢查時處理續約，並於成功或失敗後發送通知告知您。"
+					},
+					"title": {
+						"eng": "Automatic weekly renewal",
+						"trans": "每週自動續訂"
+					}
+				},
+				"start": {
+					"description": {
+						"eng": "We charge the first seven-day period when your rental starts.",
+						"trans": "租賃啟動時即收取首七日費用。"
+					},
+					"title": {
+						"eng": "When your rental starts",
+						"trans": "當您的租賃開始時"
+					}
+				}
+			},
+			"nextStep": {
+				"description": {
+					"eng": "Compare housing standards or go directly to current availability.",
+					"trans": "比較住宅標準或直接查看當前可用房源。"
+				},
+				"eyebrow": {
+					"eng": "Next step",
+					"trans": "下一步"
+				},
+				"title": {
+					"eng": "Choose a home when you are ready.",
+					"trans": "準備好時即可選擇居所。"
+				}
+			},
+			"title": {
+				"eng": "Renting with MegaEstate.",
+				"trans": "透過巨地產租屋"
+			}
+		},
+		"shell": {
+			"closeMenu": {
+				"eng": "Close",
+				"trans": "關閉"
+			},
+			"directory": {
+				"eng": "Explore MegaEstate",
+				"trans": "探索巨地產"
+			},
+			"footer": {
+				"about": {
+					"eng": "About MegaEstate",
+					"trans": "關於巨地產"
+				},
+				"careers": {
+					"eng": "Careers",
+					"trans": "職業"
+				},
+				"company": {
+					"eng": "MegaEstate",
+					"trans": "巨大地產"
+				},
+				"description": {
+					"eng": "Find your place in Arclight City.",
+					"trans": "在幻光之城闖出一片天"
+				},
+				"housingStandards": {
+					"eng": "Housing standards",
+					"trans": "住宅標準"
+				},
+				"listings": {
+					"eng": "Listings",
+					"trans": "商品列表"
+				},
+				"overview": {
+					"eng": "Overview",
+					"trans": "總覽"
+				},
+				"renting": {
+					"eng": "How renting works",
+					"trans": "租賃運作方式"
+				}
+			},
+			"location": {
+				"eng": "Find your place in Arclight City.",
+				"trans": "在幻光之城闖出一片天"
+			},
+			"logoAlt": {
+				"eng": "MegaEstate",
+				"trans": "巨大地產"
+			},
+			"nav": {
+				"about": {
+					"eng": "About MegaEstate",
+					"trans": "關於巨地產"
+				},
+				"careers": {
+					"eng": "Careers",
+					"trans": "職業"
+				},
+				"housingStandards": {
+					"eng": "Housing standards",
+					"trans": "住宅標準"
+				},
+				"listings": {
+					"eng": "Listings",
+					"trans": "商品列表"
+				},
+				"renting": {
+					"eng": "How renting works",
+					"trans": "租賃運作方式"
+				}
+			},
+			"openMenu": {
+				"eng": "Menu",
+				"trans": "選單"
+			}
+		}
+	},
 	"mercenary": {
 		"error": {
 			"firstDraw": {
@@ -10305,10 +11741,6 @@
 				"eng": "System Overload",
 				"trans": "系統過載"
 			},
-			"gaugeLabel": {
-				"eng": "Pressure gauge - hold to regulate",
-				"trans": "壓力表-長按以調節"
-			},
 			"holdingHint": {
 				"eng": "Hold Active",
 				"trans": "持續激活"
@@ -10328,10 +11760,6 @@
 			"retry": {
 				"eng": "Reset System",
 				"trans": "重置系統"
-			},
-			"retryLabel": {
-				"eng": "Reset system and try again",
-				"trans": "重置系統並重新嘗試"
 			},
 			"safeZone": {
 				"eng": "Target Zone",
@@ -10496,6 +11924,98 @@
 			"tip": {
 				"eng": "Activate all dots to unlock by clicking. The dots will rotate faster and faster.",
 				"trans": "點擊以激活所有點以解鎖。點會旋轉得越來越快。"
+			}
+		},
+		"vectorPress": {
+			"cassette": {
+				"verified": {
+					"eng": "Access Key Verified",
+					"trans": "存取金鑰已驗證"
+				}
+			},
+			"controls": {
+				"armed": {
+					"eng": "Input Armed",
+					"trans": "輸入端已就緒"
+				},
+				"locked": {
+					"eng": "Input Locked",
+					"trans": "輸入已鎖定"
+				},
+				"title": {
+					"eng": "Manual Vector Input",
+					"trans": "手動向量輸入"
+				}
+			},
+			"direction": {
+				"down": {
+					"eng": "Down",
+					"trans": "下"
+				},
+				"left": {
+					"eng": "Left",
+					"trans": "左"
+				},
+				"right": {
+					"eng": "Right",
+					"trans": "右"
+				},
+				"up": {
+					"eng": "Up",
+					"trans": "上"
+				}
+			},
+			"header": {
+				"progress": {
+					"eng": "Key Progress",
+					"trans": "關鍵進度"
+				},
+				"protocol": {
+					"eng": "Access Protocol VP-06",
+					"trans": "存取協定 VP-06"
+				},
+				"title": {
+					"eng": "Vector Press",
+					"trans": "矢量壓制"
+				}
+			},
+			"instruction": {
+				"eng": "Match each vector to punch the access key",
+				"trans": "匹配各向量以輸入存取金鑰"
+			},
+			"status": {
+				"advancing": {
+					"eng": "Cassette advancing",
+					"trans": "卡帶推進中"
+				},
+				"currentDirection": {
+					"eng": "Current required vector: ${direction}",
+					"trans": "目前所需方向：${direction}"
+				},
+				"label": {
+					"eng": "SYS.VP//STATE",
+					"trans": "系統狀態"
+				},
+				"punching": {
+					"eng": "Punch accepted",
+					"trans": "拳擊已確認"
+				},
+				"ready": {
+					"eng": "Awaiting vector input",
+					"trans": "等待向量輸入"
+				},
+				"rejected": {
+					"eng": "Vector mismatch — retry",
+					"trans": "向量不匹配 — 重試"
+				},
+				"verified": {
+					"eng": "Access key verified",
+					"trans": "存取金鑰驗證通過"
+				},
+				"verifying": {
+					"eng": "Verifying access key",
+					"trans": "正在驗證存取金鑰"
+				}
 			}
 		}
 	},
@@ -10940,9 +12460,17 @@
 		}
 	},
 	"newsCard": {
+		"decrypted": {
+			"eng": "DECRYPTED",
+			"trans": "已解密"
+		},
 		"new": {
 			"eng": "NEW",
 			"trans": "新"
+		},
+		"operative": {
+			"eng": "OPERATIVE",
+			"trans": "特工"
 		}
 	},
 	"newsPage": {
@@ -12172,29 +13700,9 @@
 		}
 	},
 	"placeHitPage": {
-		"levelTooLow": {
-			"eng": "You need to be at least level ${level} to place a hit.",
-			"trans": "您需要達到至少${level}級才能發動攻擊。"
-		},
-		"notEnoughUnitError1": {
-			"eng": "Minimum hit bounty is ${minNormal}",
-			"trans": "最低擊殺賞金為${minNormal}"
-		},
-		"placeHit": {
-			"eng": "Place hit",
-			"trans": "下達懸賞"
-		},
-		"selectPlayer": {
-			"eng": "Select player",
-			"trans": "選擇玩家"
-		},
 		"selectPlayerClick": {
-			"eng": "Click to select a player",
-			"trans": "點擊選擇玩家"
-		},
-		"tip": {
-			"eng": "You can place a hit on a player by paying a certain amount of money and/or unit.",
-			"trans": "您可以支付一定金額和/或單位來懸賞玩家。"
+			"eng": "Select target",
+			"trans": "選擇目標"
 		}
 	},
 	"player": {
@@ -15020,10 +16528,6 @@
 			"eng": "${current} / ${total}",
 			"trans": "${current} / ${total}"
 		},
-		"pageInputAriaLabel": {
-			"eng": "Enter page number",
-			"trans": "輸入頁碼"
-		},
 		"pageInputPlaceholder": {
 			"eng": "Page #",
 			"trans": "第 # 頁"
@@ -15206,6 +16710,26 @@
 			"notIdle": {
 				"eng": "You are not idle",
 				"trans": "您沒有閒置"
+			},
+			"priorityOperationAlreadyActive": {
+				"eng": "You already have a Priority Operation in progress",
+				"trans": "你已有一項優先行動正在進行中"
+			},
+			"priorityOperationFirstPlaceRequired": {
+				"eng": "Your gang must hold the highest positive war score to start this operation",
+				"trans": "你的幫派必須擁有最高的正向戰績分，才能啟動此次行動。"
+			},
+			"priorityOperationGangRequired": {
+				"eng": "Only members of a first-place war gang can start this operation",
+				"trans": "僅限排名第一的戰幫成員方可執行此任務。"
+			},
+			"priorityOperationInvalidated": {
+				"eng": "Priority Operation invalidated because your gang no longer held first place at settlement",
+				"trans": "優先任務已失效，因您的幫派在結算時已不再排名第一"
+			},
+			"priorityOperationSkipFirstPlaceRequired": {
+				"eng": "Your gang must still hold first place to finish this operation now",
+				"trans": "您的幫派仍需穩居首位，方能立即完成此次任務。"
 			}
 		},
 		"notification": {
@@ -16503,13 +18027,21 @@
 			}
 		},
 		"megaAd": {
-			"subtitle": {
-				"eng": "Mega Estate - the only agency that wont scam you!",
-				"trans": "超級地產-唯一不會騙您的仲介！"
+			"action": {
+				"eng": "View current rental availability",
+				"trans": "查看目前租借狀態"
+			},
+			"backgroundAlt": {
+				"eng": "MegaEstate residence in Arclight City",
+				"trans": "幻光之城巨地產住宅"
+			},
+			"logoAlt": {
+				"eng": "MegaEstate",
+				"trans": "巨地產"
 			},
 			"title": {
-				"eng": "Cheap Price!!",
-				"trans": "超值價格！！"
+				"eng": "Homes across Arclight",
+				"trans": "遍布幻光之城的住宅"
 			}
 		},
 		"news": {
@@ -16764,6 +18296,10 @@
 			"eng": "President Jackson Morrison",
 			"trans": "傑克森·摩里遜總統"
 		},
+		"leeJongSuk": {
+			"eng": "CEO Lee Jong-suk",
+			"trans": "執行長李鍾錫"
+		},
 		"liWei": {
 			"eng": "Premier Li Wei",
 			"trans": "總理李偉"
@@ -16807,6 +18343,10 @@
 		"rezaHosseini": {
 			"eng": "Supreme Leader Ayatollah Reza Hosseini",
 			"trans": "最高領袖阿亞圖拉雷扎·侯賽尼"
+		},
+		"robertSmith": {
+			"eng": "CEO Robert Smith",
+			"trans": "企業執行長羅伯特·史密斯"
 		},
 		"sarahGoldman": {
 			"eng": "Prime Minister-CEO Sarah Goldman",
@@ -17112,6 +18652,20 @@
 				"trans": "莫里森總統"
 			}
 		},
+		"leeJongSuk": {
+			"ceoLee": {
+				"eng": "CEO Lee",
+				"trans": "李執行長"
+			},
+			"circuitbreakCeo": {
+				"eng": "CircuitBreak CEO",
+				"trans": "網路安全集團執行長"
+			},
+			"leeJongSuk": {
+				"eng": "Lee Jong-suk",
+				"trans": "李鐘碩"
+			}
+		},
 		"liWei": {
 			"li": {
 				"eng": "Li",
@@ -17272,6 +18826,20 @@
 			"supremeLeaderHosseini": {
 				"eng": "Supreme Leader Hosseini",
 				"trans": "最高領袖侯賽尼"
+			}
+		},
+		"robertSmith": {
+			"ceoSmith": {
+				"eng": "CEO Smith",
+				"trans": "執行長史密斯"
+			},
+			"megaestateCeo": {
+				"eng": "MegaEstate CEO",
+				"trans": "巨地產執行長"
+			},
+			"robertSmith": {
+				"eng": "Robert Smith",
+				"trans": "羅伯特·史密斯"
 			}
 		},
 		"sarahGoldman": {

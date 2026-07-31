@@ -374,24 +374,40 @@
 			"displayName": {
 				"eng": "Slum Apartment",
 				"trans": "Apartamento marginal"
+			},
+			"websiteDisplayName": {
+				"eng": "Essential Housing",
+				"trans": "Vivienda Esencial"
 			}
 		},
 		"apartment1": {
 			"displayName": {
 				"eng": "Low-end Apartment",
 				"trans": "Apartamento de baja gama"
+			},
+			"websiteDisplayName": {
+				"eng": "City Housing",
+				"trans": "Vivienda Urbana"
 			}
 		},
 		"apartment2": {
 			"displayName": {
 				"eng": "Budget Studio",
 				"trans": "Estudio de presupuesto"
+			},
+			"websiteDisplayName": {
+				"eng": "Urban Studio",
+				"trans": "Estudio Urbano"
 			}
 		},
 		"apartment3": {
 			"displayName": {
 				"eng": "Downtown Apartment",
 				"trans": "Apartamento del centro"
+			},
+			"websiteDisplayName": {
+				"eng": "Central Residence",
+				"trans": "Residencia Central"
 			}
 		},
 		"chat": {
@@ -567,28 +583,6 @@
 				"eng": "Vault",
 				"trans": "Bóveda"
 			}
-		}
-	},
-	"apartmentPurchasePage": {
-		"confirmDescription": {
-			"eng": "Are you sure you want to rent this apartment? if you already have an apartment, it will be dismissed.",
-			"trans": "¿Estás seguro/a de que quieres alquilar este apartamento? Si ya tienes un apartamento, se descartará."
-		},
-		"confirmTitle": {
-			"eng": "Confirm Rental",
-			"trans": "Confirmar Alquiler"
-		},
-		"owned": {
-			"eng": "Owned",
-			"trans": "Adquirido"
-		},
-		"perWeek": {
-			"eng": "Per week",
-			"trans": "Por semana"
-		},
-		"rent": {
-			"eng": "Rent Now",
-			"trans": "Alquilar Ahora"
 		}
 	},
 	"appProductType": {
@@ -920,10 +914,14 @@
 			"eng": "Task completed",
 			"trans": "Tarea completada"
 		},
+		"dismissButton": {
+			"eng": "Dismiss",
+			"trans": "Descartar"
+		},
 		"emptyTask": {
 			"description": {
-				"eng": "Click to choose a task",
-				"trans": "Haz clic para elegir una tarea"
+				"eng": "Assign operation",
+				"trans": "Asignar operación"
 			},
 			"title": {
 				"eng": "Task slot available",
@@ -932,7 +930,7 @@
 		},
 		"inProgress": {
 			"eng": "Task in progress...",
-			"trans": "Tarea en progreso..."
+			"trans": "Tarea en curso..."
 		},
 		"instantFinish": {
 			"eng": "Finish Now",
@@ -941,6 +939,10 @@
 		"instantFinishConfirmTitle": {
 			"eng": "Finish task now?",
 			"trans": "¿Terminar la tarea ahora?"
+		},
+		"invalidated": {
+			"eng": "Operation invalidated",
+			"trans": "Operación invalidada"
 		}
 	},
 	"backgroundTaskPage": {
@@ -961,6 +963,10 @@
 		"cost": {
 			"eng": "Cost",
 			"trans": "Costo"
+		},
+		"priorityOperationWarning": {
+			"eng": "Your gang must hold first place when this operation starts and settles. Start costs are not refunded if it is invalidated.",
+			"trans": "Tu banda debe mantener el primer lugar cuando comience y concluya esta operación. Los costos de inicio no se reembolsan si esta es anulada."
 		},
 		"rewards": {
 			"eng": "possible rewards",
@@ -1024,6 +1030,16 @@
 				"trans": "Misión de Extracción"
 			}
 		},
+		"rogueAssetExtraction": {
+			"description": {
+				"eng": "Intercept a hostile augmentation shipment while your gang holds the highest war score. Losing first place before settlement invalidates the operation and forfeits its rewards.",
+				"trans": "Intercepta un envío de mejoras enemigas mientras tu banda conserve la mayor puntuación de guerra. Perder el primer puesto antes de la liquidación anulará la operación y se perderán sus recompensas."
+			},
+			"displayName": {
+				"eng": "Rogue Asset Extraction",
+				"trans": "Extracción de activo desviado"
+			}
+		},
 		"scavenge": {
 			"description": {
 				"eng": "Navigate hazardous junkyards, uncover hidden treasures, and salvage valuable tech",
@@ -1053,6 +1069,20 @@
 				"eng": "Thieving",
 				"trans": "Robo"
 			}
+		}
+	},
+	"backgroundTaskTypeDisplay": {
+		"afkOperation": {
+			"eng": "AFK Operation",
+			"trans": "Operación AFK"
+		},
+		"firstPlaceRequired": {
+			"eng": "First-place gang",
+			"trans": "Banda del primer puesto"
+		},
+		"priorityOperation": {
+			"eng": "Priority Operation",
+			"trans": "Operación prioritaria"
 		}
 	},
 	"backgroundTaskUpgradePopup": {
@@ -1863,6 +1893,732 @@
 		"title": {
 			"eng": "Rotate the circle to unlock",
 			"trans": "Gira el círculo para desbloquear"
+		}
+	},
+	"circuitBreakWebsite": {
+		"about": {
+			"cid": {
+				"description": {
+					"eng": "CID handles controlled surveillance, intelligence collection, and sensitive recovery mandates under restricted authority.",
+					"trans": "CID gestiona la vigilancia controlada, la recopilación de inteligencia y los mandatos de recuperación sensibles bajo autoridad restringida."
+				},
+				"eyebrow": {
+					"eng": "Specialist division",
+					"trans": "División de especialistas"
+				},
+				"liaisonLabel": {
+					"eng": "Contractor liaison",
+					"trans": "Enlace con contratistas"
+				},
+				"liaisonName": {
+					"eng": "Vale",
+					"trans": "Vale"
+				},
+				"liaisonRole": {
+					"eng": "Intelligence operations",
+					"trans": "Operaciones de inteligencia"
+				},
+				"title": {
+					"eng": "CircuitBreak Intelligence Division",
+					"trans": "División de Inteligencia Interrupción de Circuito"
+				}
+			},
+			"eyebrow": {
+				"eng": "Company",
+				"trans": "Compañía"
+			},
+			"leadership": {
+				"kira": {
+					"biography": {
+						"eng": "Kira Nilsen directs security policy and operational standards across CircuitBreak.",
+						"trans": "Kira Nilsen dirige la política de seguridad y los estándares operativos en todo CircuitBreak."
+					},
+					"name": {
+						"eng": "Kira Nilsen",
+						"trans": "Kira Nilsen"
+					},
+					"role": {
+						"eng": "Director of Security",
+						"trans": "Director de Seguridad"
+					}
+				},
+				"label": {
+					"eng": "Executive leadership",
+					"trans": "Alta dirección"
+				},
+				"lee": {
+					"biography": {
+						"eng": "Lee Jong-suk serves as Chief Executive Officer of CircuitBreak Security Solutions. A former Korean special-forces soldier, he built his career around protective operations, crisis command, and work conducted under strict information controls. At CircuitBreak, his leadership is defined by disciplined execution, limited public disclosure, and a belief that effective security is measured by what never reaches the public record.",
+						"trans": "Lee Jong-suk ocupa el cargo de Director General de CircuitBreak Security Solutions. Exsoldado de las fuerzas especiales coreanas, centró su trayectoria en operaciones de protección, mando ante crisis y tareas realizadas bajo estrictos controles de información. En CircuitBreak, su liderazgo se define por la ejecución disciplinada, una divulgación pública limitada y la convicción de que la seguridad efectiva se mide por lo que jamás llega al registro público."
+					},
+					"imageAlt": {
+						"eng": "CircuitBreak chief executive Lee Jong-suk overseeing a night deployment",
+						"trans": "Director ejecutivo de CircuitBreak Lee Jong-suk supervisando un despliegue nocturno"
+					},
+					"name": {
+						"eng": "Lee Jong-suk",
+						"trans": "Lee Jong-suk"
+					},
+					"role": {
+						"eng": "Chief Executive Officer",
+						"trans": "Director Ejecutivo"
+					}
+				},
+				"registerLabel": {
+					"eng": "Leadership register",
+					"trans": "Registro de liderazgo"
+				}
+			},
+			"overview": {
+				"eng": "A listed Arclight security company providing executive protection, armed response, threat intelligence, and sensitive recovery.",
+				"trans": "Empresa de seguridad de Arclight cotizada en bolsa que ofrece protección ejecutiva, respuesta armada, inteligencia de amenazas y recuperación confidencial."
+			},
+			"registry": {
+				"divisionLabel": {
+					"eng": "Specialist division",
+					"trans": "División de especialistas"
+				},
+				"divisionValue": {
+					"eng": "CID",
+					"trans": "CID"
+				},
+				"entityLabel": {
+					"eng": "Registered entity",
+					"trans": "Entidad registrada"
+				},
+				"entityValue": {
+					"eng": "CircuitBreak Security Solutions",
+					"trans": "Soluciones de Seguridad CircuitBreak"
+				},
+				"label": {
+					"eng": "Corporate record",
+					"trans": "Registro corporativo"
+				},
+				"marketLabel": {
+					"eng": "Ticker",
+					"trans": "Cinta informativa"
+				},
+				"marketValue": {
+					"eng": "CBK",
+					"trans": "CBK"
+				}
+			},
+			"title": {
+				"eng": "CircuitBreak Security Solutions",
+				"trans": "Soluciones de Seguridad CircuitBreak"
+			}
+		},
+		"careers": {
+			"cid": {
+				"contactAction": {
+					"eng": "View liaison details",
+					"trans": "Ver detalles del enlace"
+				},
+				"description": {
+					"eng": "CID reviews sponsored operators for surveillance, intelligence collection, and sensitive recovery assignments. Intake requires a verified sponsor or approved liaison referral.",
+					"trans": "CID evalúa a los operadores patrocinados para misiones de vigilancia, recopilación de inteligencia y recuperación de activos sensibles. La admisión requiere un patrocinador verificado o una recomendación de enlace autorizado."
+				},
+				"label": {
+					"eng": "Contract operators",
+					"trans": "Operadores de contrato"
+				},
+				"liaisonLabel": {
+					"eng": "Contractor liaison",
+					"trans": "Enlace con contratistas"
+				},
+				"liaisonName": {
+					"eng": "Vale",
+					"trans": "Vale"
+				},
+				"liaisonRole": {
+					"eng": "Intelligence operations",
+					"trans": "Operaciones de inteligencia"
+				},
+				"title": {
+					"eng": "CID contractor intake",
+					"trans": "Reclutamiento de contratados CID"
+				}
+			},
+			"eyebrow": {
+				"eng": "Careers",
+				"trans": "Carreras"
+			},
+			"imageAlt": {
+				"eng": "CircuitBreak operations candidate completing a professional assessment",
+				"trans": "Candidato a operaciones de CircuitBreak completando evaluación profesional."
+			},
+			"intro": {
+				"eng": "Permanent roles for security professionals who exercise sound judgment under pressure.",
+				"trans": "Puestos permanentes para profesionales de la seguridad que toman decisiones acertadas bajo presión."
+			},
+			"openRolesTitle": {
+				"eng": "Current openings",
+				"trans": "Vacantes actuales"
+			},
+			"recruitmentAction": {
+				"eng": "Contact recruitment",
+				"trans": "Reclutamiento de contactos"
+			},
+			"vacancies": {
+				"intelligence": {
+					"context": {
+						"eng": "Risk Intelligence / Arclight",
+						"trans": "Inteligencia de riesgos / Arclight"
+					},
+					"title": {
+						"eng": "Threat Intelligence Analyst",
+						"trans": "Analista de Inteligencia de Amenazas"
+					}
+				},
+				"protective": {
+					"context": {
+						"eng": "Protective Operations / Arclight",
+						"trans": "Operaciones de protección / Arclight"
+					},
+					"title": {
+						"eng": "Protective Operations Specialist",
+						"trans": "Especialista en Operaciones de Protección"
+					}
+				},
+				"response": {
+					"context": {
+						"eng": "Client Command / Arclight Response Centre",
+						"trans": "Comando del Cliente / Centro de Respuesta Arclight"
+					},
+					"title": {
+						"eng": "Client Response Controller",
+						"trans": "Controlador de Respuesta del Cliente"
+					}
+				}
+			}
+		},
+		"contact": {
+			"directory": {
+				"cid": {
+					"access": {
+						"eng": "Sponsor only",
+						"trans": "Solo para patrocinadores"
+					},
+					"description": {
+						"eng": "Sponsor-backed candidate references and approved contractor correspondence.",
+						"trans": "Referencias de candidatos patrocinados y correspondencia de contratistas aprobados."
+					},
+					"title": {
+						"eng": "CID contractor liaison",
+						"trans": "Enlace de contratistas del CID"
+					}
+				},
+				"corporate": {
+					"access": {
+						"eng": "Public",
+						"trans": "Público"
+					},
+					"address": {
+						"eng": "corporate@circuitbreak.com",
+						"trans": "corporate@circuitbreak.com"
+					},
+					"description": {
+						"eng": "Company records, procurement, legal notices, recruitment, and general correspondence.",
+						"trans": "Registros corporativos, adquisiciones, avisos legales, reclutamiento y correspondencia general."
+					},
+					"title": {
+						"eng": "Corporate and recruitment",
+						"trans": "Corporaciones y reclutamiento"
+					}
+				},
+				"protected": {
+					"access": {
+						"eng": "Private intake",
+						"trans": "Recepción privada"
+					},
+					"action": {
+						"eng": "Open a private mandate",
+						"trans": "Abrir un mandato privado"
+					},
+					"description": {
+						"eng": "Submit a new private-client mandate for controlled assessment.",
+						"trans": "Enviar un nuevo mandato de cliente privado para evaluación controlada."
+					},
+					"title": {
+						"eng": "Private mandate",
+						"trans": "Mandato privado"
+					}
+				},
+				"response": {
+					"access": {
+						"eng": "Contracted clients",
+						"trans": "Clientes contratados"
+					},
+					"description": {
+						"eng": "For active incidents under an existing mandate, use your assigned client relay. Public mail cannot dispatch field teams.",
+						"trans": "Para incidentes activos bajo un mandato vigente, utiliza tu enlace asignado para el cliente. El correo público no puede desplegar equipos de campo."
+					},
+					"reference": {
+						"eng": "Use assigned client relay",
+						"trans": "Utilizar el relé asignado al cliente"
+					},
+					"title": {
+						"eng": "Active client response",
+						"trans": "Respuesta del cliente activo"
+					}
+				}
+			},
+			"directoryTitle": {
+				"eng": "Contact CircuitBreak",
+				"trans": "Contactar con CircuitBreak"
+			},
+			"eyebrow": {
+				"eng": "Contact",
+				"trans": "Contactos"
+			},
+			"intro": {
+				"eng": "Choose the channel matching your request. Restricted matters cannot be transferred from public enquiries.",
+				"trans": "Selecciona el canal correspondiente a tu solicitud. Los asuntos restringidos no se pueden derivar desde las consultas públicas."
+			}
+		},
+		"contracts": {
+			"disclaimer": {
+				"eng": "Mandate availability and operator response are not guaranteed. CircuitBreak retains final network authority.",
+				"trans": "No se garantiza la disponibilidad de los mandatos ni la respuesta del operador. CircuitBreak conserva la autoridad final sobre la red."
+			},
+			"emptyAction": {
+				"eng": "Open a contract",
+				"trans": "Iniciar un contrato"
+			},
+			"emptyCode": {
+				"eng": "Ledger status / Clear",
+				"trans": "Estado del registro / Limpiar"
+			},
+			"emptyDescription": {
+				"eng": "No public mandate currently meets network requirements. Qualified clients may open a new contract.",
+				"trans": "Actualmente ningún mandato público cumple los requisitos de la red. Los clientes cualificados pueden abrir un nuevo contrato."
+			},
+			"eyebrow": {
+				"eng": "Private Client Network / Mandates",
+				"trans": "Red de Clientes Privados / Mandatos"
+			},
+			"intro": {
+				"eng": "Active public mandates available to verified CircuitBreak operators. Select a target to review engagement options.",
+				"trans": "Mandos públicos activos disponibles para operadores verificados de CircuitBreak. Selecciona un objetivo para revisar las opciones de acción."
+			},
+			"levelColumn": {
+				"eng": "Level",
+				"trans": "Nivel"
+			},
+			"loadingTitle": {
+				"eng": "Retrieving mandates",
+				"trans": "Recuperando órdenes"
+			},
+			"openContract": {
+				"eng": "Place a Hit",
+				"trans": "Contratar un asesinato"
+			},
+			"sortLabel": {
+				"eng": "Sort: ${mode}",
+				"trans": "Ordenar: ${mode}"
+			},
+			"status": {
+				"eng": "Active ledger",
+				"trans": "Registro activo"
+			},
+			"targetColumn": {
+				"eng": "Target",
+				"trans": "Objetivo"
+			},
+			"title": {
+				"eng": "Contract Board",
+				"trans": "Tablero de contratos"
+			},
+			"valueColumn": {
+				"eng": "Value",
+				"trans": "Valor"
+			}
+		},
+		"home": {
+			"hero": {
+				"classification": {
+					"eng": "Integrated security / Arclight",
+					"trans": "Seguridad integrada / Arclight"
+				},
+				"clientAccess": {
+					"eng": "Private client access",
+					"trans": "Acceso exclusivo para clientes"
+				},
+				"description": {
+					"eng": "CircuitBreak protects Arclight's most exposed institutions, assets, and executives. When deterrence fails, we resolve the exposure.",
+					"trans": "CircuitBreak protege las instituciones, activos y ejecutivos más expuestos de Arclight. Cuando falla la disuasión, neutralizamos las vulnerabilidades."
+				},
+				"imageAlt": {
+					"eng": "CircuitBreak headquarters and executive protection detail in Arclight",
+					"trans": "Sede principal y unidad de protección ejecutiva de Interrupción de Circuito en Arclight"
+				},
+				"placeHit": {
+					"eng": "Place Hit",
+					"trans": "Colocar golpe"
+				},
+				"title": {
+					"eng": "Power, applied.",
+					"trans": "Energía aplicada."
+				},
+				"viewBoard": {
+					"eng": "View Board",
+					"trans": "Ver Tablero"
+				}
+			},
+			"services": {
+				"allServices": {
+					"eng": "View all services",
+					"trans": "Ver todos los servicios"
+				},
+				"highRisk": {
+					"description": {
+						"eng": "Integrated protection for critical sites and operations.",
+						"trans": "Protección integrada para sitios y operaciones críticas."
+					},
+					"title": {
+						"eng": "High-risk security",
+						"trans": "Seguridad de alto riesgo"
+					}
+				},
+				"label": {
+					"eng": "Capabilities",
+					"trans": "Capacidades"
+				},
+				"protection": {
+					"description": {
+						"eng": "Protective teams and secure movement for exposed clients.",
+						"trans": "Equipos de protección y movimiento seguro para clientes expuestos"
+					},
+					"title": {
+						"eng": "Executive protection",
+						"trans": "Protección ejecutiva"
+					}
+				},
+				"response": {
+					"description": {
+						"eng": "Rapid intervention when a material threat becomes active.",
+						"trans": "Intervención rápida cuando se activa una amenaza concreta."
+					},
+					"title": {
+						"eng": "Armed response",
+						"trans": "Respuesta armada"
+					}
+				},
+				"title": {
+					"eng": "Protective services",
+					"trans": "Servicios de protección"
+				}
+			}
+		},
+		"placeHit": {
+			"actionIntro": {
+				"eng": "Choose a target and contract value, then review the cost before authorization.",
+				"trans": "Selecciona un objetivo y el valor del contrato, revisa el costo antes de autorizar."
+			},
+			"actionTitle": {
+				"eng": "Place a hit",
+				"trans": "Encargar un asesinato"
+			},
+			"amountModalTitle": {
+				"eng": "Contract value",
+				"trans": "Valor del contrato"
+			},
+			"availableFunds": {
+				"eng": "Available funds",
+				"trans": "Fondos disponibles"
+			},
+			"changeTarget": {
+				"eng": "Change",
+				"trans": "Cambiar"
+			},
+			"changeValue": {
+				"eng": "Change",
+				"trans": "Cambiar"
+			},
+			"formCode": {
+				"eng": "Form CB-17",
+				"trans": "Formulario CB-17"
+			},
+			"fundsStatus": {
+				"eng": "Available funds no longer cover this contract.",
+				"trans": "Los fondos disponibles ya no cubren este contrato."
+			},
+			"insufficientFundsStatus": {
+				"eng": "Available funds are below the ${amount} ${currency} contract minimum.",
+				"trans": "Los fondos disponibles están por debajo del mínimo contractual de ${amount} ${currency}."
+			},
+			"levelRequirement": {
+				"eng": "Level ${level} is required to authorize a contract.",
+				"trans": "Se requiere el nivel ${level} para autorizar un contrato."
+			},
+			"levelStatus": {
+				"eng": "Client authorization requires player level ${level}.",
+				"trans": "La autorización del cliente requiere el nivel de jugador ${level}."
+			},
+			"minimumStatus": {
+				"eng": "Set a contract value of at least ${amount} ${currency}.",
+				"trans": "Establece un valor de contrato de al menos ${amount} ${currency}."
+			},
+			"minimumValue": {
+				"eng": "Minimum ${amount}",
+				"trans": "Mínimo ${amount}"
+			},
+			"networkLabel": {
+				"eng": "Private Client Network",
+				"trans": "Red privada de clientes"
+			},
+			"readyStatus": {
+				"eng": "Contract is ready to review.",
+				"trans": "El contrato está listo para su revisión."
+			},
+			"required": {
+				"eng": "Required",
+				"trans": "Requerido"
+			},
+			"restrictedStatus": {
+				"eng": "System restrictions prevent contract authorization.",
+				"trans": "Las restricciones del sistema impiden la autorización de contratos."
+			},
+			"reviewAction": {
+				"eng": "Review contract",
+				"trans": "Revisar contrato"
+			},
+			"selectTargetAction": {
+				"eng": "Select",
+				"trans": "Seleccionar"
+			},
+			"selectTargetStatus": {
+				"eng": "Select a target to continue.",
+				"trans": "Selecciona un objetivo para continuar."
+			},
+			"setValue": {
+				"eng": "Set value",
+				"trans": "Establecer valor"
+			},
+			"simpleTargetTitle": {
+				"eng": "1. Choose target",
+				"trans": "1. Selecciona objetivo"
+			},
+			"simpleValueTitle": {
+				"eng": "2. Set contract value",
+				"trans": "2. Establecer el valor del contrato"
+			},
+			"targetEmpty": {
+				"eng": "Search verified player records",
+				"trans": "Buscar registros de jugadores verificados"
+			},
+			"targetLevelStatus": {
+				"eng": "Targets below level ${level} cannot be listed.",
+				"trans": "Los objetivos con un nivel inferior a ${level} no aparecen en la lista."
+			},
+			"targetSelected": {
+				"eng": "Verified identity selected",
+				"trans": "Identidad verificada seleccionada"
+			}
+		},
+		"reviewHit": {
+			"authorizeAction": {
+				"eng": "Authorize contract",
+				"trans": "Autorizar contrato"
+			},
+			"editAction": {
+				"eng": "Edit details",
+				"trans": "Editar detalles"
+			},
+			"formCode": {
+				"eng": "Form CB-17 / Review",
+				"trans": "Formulario CB-17 / Revisión"
+			},
+			"fundsStatus": {
+				"eng": "Available funds no longer cover this contract.",
+				"trans": "Los fondos disponibles ya no cubren este contrato."
+			},
+			"intro": {
+				"eng": "Confirm the target and financial commitment before authorization.",
+				"trans": "Confirme el objetivo y el compromiso financiero antes de la autorización."
+			},
+			"invalidError": {
+				"eng": "Contract details changed. Return to the previous page and review them again.",
+				"trans": "Los detalles del contrato han cambiado. Regresa a la página anterior para revisarlos nuevamente."
+			},
+			"invalidStatus": {
+				"eng": "Contract details are incomplete or no longer valid.",
+				"trans": "Los detalles del contrato están incompletos o ya no son válidos."
+			},
+			"levelStatus": {
+				"eng": "Client authorization requires player level ${level}.",
+				"trans": "La autorización del cliente requiere el nivel de jugador ${level}."
+			},
+			"loadingStatus": {
+				"eng": "Verifying contract details...",
+				"trans": "Verificando los detalles del contrato..."
+			},
+			"minimumStatus": {
+				"eng": "Contract value must be at least ${amount} ${currency}.",
+				"trans": "El valor del contrato debe ser de al menos ${amount} ${currency}."
+			},
+			"networkLabel": {
+				"eng": "Private Client Network",
+				"trans": "Red privada de clientes"
+			},
+			"notice": {
+				"eng": "Authorization transfers the committed funds immediately and publishes the contract to the active Board. This action cannot be reversed.",
+				"trans": "La autorización transfiere los fondos comprometidos de inmediato y publica el contrato en el Consejo activo. Esta acción es irreversible."
+			},
+			"pendingTarget": {
+				"eng": "Unverified",
+				"trans": "Sin verificar"
+			},
+			"readyStatus": {
+				"eng": "Contract is ready for authorization.",
+				"trans": "El contrato está listo para autorización."
+			},
+			"restrictedStatus": {
+				"eng": "System restrictions prevent contract authorization.",
+				"trans": "Las restricciones del sistema impiden la autorización de contratos."
+			},
+			"target": {
+				"eng": "Target",
+				"trans": "Objetivo"
+			},
+			"targetLevelStatus": {
+				"eng": "Targets below level ${level} cannot be listed.",
+				"trans": "Los objetivos con un nivel inferior a ${level} no aparecen en la lista."
+			},
+			"title": {
+				"eng": "Review contract",
+				"trans": "Revisar contrato"
+			},
+			"value": {
+				"eng": "Contract value",
+				"trans": "Valor del contrato"
+			}
+		},
+		"services": {
+			"armedResponse": {
+				"description": {
+					"eng": "Disciplined intervention teams contain active threats, secure critical sites, and restore client control.",
+					"trans": "Las unidades de intervención disciplinadas contienen amenazas activas, aseguran instalaciones críticas y restauran el control del cliente."
+				},
+				"title": {
+					"eng": "Armed response",
+					"trans": "Respuesta armada"
+				}
+			},
+			"assetRecovery": {
+				"description": {
+					"eng": "Specialist recovery teams locate and return sensitive property while limiting exposure, delay, and attribution.",
+					"trans": "Equipos de recuperación especializados localizan y restituyen activos sensibles, minimizando exposición, retrasos y rastreabilidad."
+				},
+				"title": {
+					"eng": "Asset recovery",
+					"trans": "Recuperación de activos"
+				}
+			},
+			"authorizationNotice": {
+				"eng": "All engagements require an authorized client mandate.",
+				"trans": "Todas las operaciones requieren una autorización oficial del cliente."
+			},
+			"executiveProtection": {
+				"description": {
+					"eng": "Low-profile close protection, route control, and secure movement for executives operating under elevated threat.",
+					"trans": "Protección personal discreta, control de rutas y desplazamiento seguro para ejecutivos que operan bajo nivel de amenaza elevado."
+				},
+				"title": {
+					"eng": "Executive protection",
+					"trans": "Protección ejecutiva"
+				}
+			},
+			"eyebrow": {
+				"eng": "Services",
+				"trans": "Servicios"
+			},
+			"imageAlt": {
+				"eng": "CircuitBreak close-protection team moving a client through a secure arrival",
+				"trans": "Equipo de protección personal de CircuitBreak trasladando a un cliente por una entrada segura"
+			},
+			"intro": {
+				"eng": "CircuitBreak protects people, property, and continuity where ordinary security reaches its limit.",
+				"trans": "CircuitBreak protege personas, bienes y la continuidad donde la seguridad convencional llega a su límite."
+			},
+			"privateMandates": {
+				"action": {
+					"eng": "Open a private mandate",
+					"trans": "Abrir un mandato privado"
+				}
+			},
+			"threatIntelligence": {
+				"description": {
+					"eng": "Targeted surveillance and intelligence collection identify hostile intent before it becomes a public incident.",
+					"trans": "La vigilancia focalizada y la recopilación de inteligencia identifican intenciones hostiles antes de que se conviertan en un incidente público."
+				},
+				"title": {
+					"eng": "Threat intelligence",
+					"trans": "Inteligencia de amenazas"
+				}
+			},
+			"title": {
+				"eng": "Protective services",
+				"trans": "Servicios de protección"
+			}
+		},
+		"shell": {
+			"footer": {
+				"careers": {
+					"eng": "Careers",
+					"trans": "Carreras"
+				},
+				"company": {
+					"eng": "CircuitBreak Security Solutions",
+					"trans": "Soluciones de Seguridad CircuitBreak"
+				},
+				"companyProfile": {
+					"eng": "Company profile",
+					"trans": "Perfil de empresa"
+				},
+				"contact": {
+					"eng": "Contact CircuitBreak",
+					"trans": "Contactar con CircuitBreak"
+				},
+				"notice": {
+					"eng": "Client information is handled under strict confidentiality.",
+					"trans": "La información del cliente se gestiona con estricta confidencialidad."
+				}
+			},
+			"logoAlt": {
+				"eng": "CircuitBreak Security Solutions",
+				"trans": "Soluciones de Seguridad CircuitBreak"
+			},
+			"nav": {
+				"board": {
+					"eng": "Board",
+					"trans": "Tablero"
+				},
+				"careers": {
+					"eng": "Careers",
+					"trans": "Carreras"
+				},
+				"company": {
+					"eng": "Company",
+					"trans": "Compañía"
+				},
+				"contact": {
+					"eng": "Contact",
+					"trans": "Contactos"
+				},
+				"home": {
+					"eng": "Home",
+					"trans": "Inicio"
+				},
+				"services": {
+					"eng": "Services",
+					"trans": "Servicios"
+				}
+			},
+			"placeHit": {
+				"eng": "Place Hit",
+				"trans": "Colocar golpe"
+			}
 		}
 	},
 	"clan": {
@@ -2907,6 +3663,10 @@
 		"clanResource": {
 			"eng": "+ ${amount} Gang resource",
 			"trans": "+ ${amount} Recurso de banda"
+		},
+		"oneOf": {
+			"eng": "One of following:",
+			"trans": "Seleccione uno de los siguientes:"
 		}
 	},
 	"confirmModal": {
@@ -4917,28 +5677,24 @@
 	},
 	"hitListPage": {
 		"bountyCount": {
-			"eng": "${count} bounties",
-			"trans": "${count} recompensas"
+			"eng": "${count} active",
+			"trans": "${count} activos"
 		},
 		"sort": {
 			"level": {
-				"eng": "Level",
-				"trans": "Nivel"
+				"eng": "Target level",
+				"trans": "Nivel objetivo"
 			},
 			"price": {
-				"eng": "Price",
-				"trans": "Precio"
+				"eng": "Contract value",
+				"trans": "Valor del contrato"
 			}
 		}
 	},
 	"hitlist": {
-		"loading": {
-			"eng": "Loading bounties...",
-			"trans": "Cargando recompensas..."
-		},
 		"noBounties": {
-			"eng": "No bounties available",
-			"trans": "No hay recompensas disponibles"
+			"eng": "No active contracts",
+			"trans": "Sin contratos activos"
 		},
 		"optionsPopup": {
 			"attack": {
@@ -4949,23 +5705,13 @@
 				"eng": "View Profile",
 				"trans": "Ver Perfil"
 			}
-		},
-		"placeHitButton": {
-			"title": {
-				"eng": "Place Hit",
-				"trans": "Colocar golpe"
-			}
-		},
-		"title": {
-			"eng": "Hit List",
-			"trans": "Lista de Objetivos"
 		}
 	},
 	"hitman": {
 		"error": {
 			"cannotPlaceBountyOnAdmin": {
-				"eng": "You cannot place bounty on this player",
-				"trans": "No puedes poner una recompensa en este jugador"
+				"eng": "You cannot place or control this player.",
+				"trans": "No puedes colocar ni controlar a este jugador."
 			},
 			"cannotPlaceBountyOnLowLevel": {
 				"eng": "You cannot place bounty on players lower than level ${level}",
@@ -5345,10 +6091,6 @@
 		"evidenceNumber": {
 			"eng": "Evidence #${number}",
 			"trans": "Evidencia #${number}"
-		},
-		"goToVerdict": {
-			"eng": "Go to verdict ${num}",
-			"trans": "Ir al veredicto ${num}"
 		},
 		"imageUnavailable": {
 			"eng": "Image Unavailable",
@@ -7977,10 +8719,6 @@
 				"eng": "News",
 				"trans": "Noticias"
 			},
-			"goToNews": {
-				"eng": "Go to news ${index}",
-				"trans": "Ir a la noticia ${index}"
-			},
 			"heading": {
 				"eng": "YOUR ACTIONS MAKE THE HEADLINES",
 				"trans": "TUS ACCIONES HACEN LOS TITULARES"
@@ -7993,10 +8731,6 @@
 				"eng": "Arclight Times",
 				"trans": "Tiempos Arclight"
 			},
-			"next": {
-				"eng": "Next news",
-				"trans": "Siguiente noticia"
-			},
 			"noNews": {
 				"eng": "No news available at the moment",
 				"trans": "Sin noticias por el momento"
@@ -8004,10 +8738,6 @@
 			"overline": {
 				"eng": "LIVE WORLD EVENTS // PLAYER-DRIVEN NARRATIVE",
 				"trans": "EVENTOS EN VIVO DEL MUNDO // NARRATIVA IMPULSADA POR EL JUGADOR"
-			},
-			"previous": {
-				"eng": "Previous news",
-				"trans": "Noticias anteriores"
 			},
 			"reportBy": {
 				"eng": "REPORT BY",
@@ -9507,6 +10237,712 @@
 			"trans": "Filtros"
 		}
 	},
+	"megaEstateWebsite": {
+		"careers": {
+			"description": {
+				"eng": "MegaEstate evaluates verified resident profiles continuously. If your payment, access and conduct history meets a role requirement, we will contact you. No submission is necessary.",
+				"trans": "MegaEstate evalúa continuamente los perfiles de residentes verificados. Si su historial de pagos, acceso y conducta cumple con un requisito del puesto, nos comunicaremos con usted. No es necesario presentar solicitud."
+			},
+			"eyebrow": {
+				"eng": "Careers at MegaEstate",
+				"trans": "Ofertas laborales en MegaInmobiliaria"
+			},
+			"hero": {
+				"imageAlt": {
+					"eng": "MegaEstate property operations team reviewing a residential building",
+					"trans": "Equipo de operaciones inmobiliarias de MegaEstate revisando un edificio residencial"
+				}
+			},
+			"title": {
+				"eng": "Your record is your application.",
+				"trans": "Tu historial es tu solicitud."
+			},
+			"vacancies": {
+				"biometricAccess": {
+					"department": {
+						"eng": "Access infrastructure · Technical",
+						"trans": "Infraestructura de acceso · Técnico"
+					},
+					"description": {
+						"eng": "Maintain identity-linked entry systems, investigate access anomalies and revoke resident credentials across MegaEstate properties.",
+						"trans": "Mantener sistemas de entrada vinculados a la identidad, investigar anomalías de acceso y revocar credenciales de residentes en todas las propiedades de MegaInmobiliaria."
+					},
+					"title": {
+						"eng": "Biometric Access Technician",
+						"trans": "Técnico de acceso biométrico"
+					}
+				},
+				"count": {
+					"eng": "${count} active",
+					"trans": "${count} activos"
+				},
+				"eyebrow": {
+					"eng": "Open positions",
+					"trans": "Puestos disponibles"
+				},
+				"occupancyCompliance": {
+					"department": {
+						"eng": "Portfolio compliance · Field",
+						"trans": "Cumplimiento del portafolio · Campo"
+					},
+					"description": {
+						"eng": "Conduct unannounced home inspections, document unregistered occupants and authorize access suspension when contract terms are breached.",
+						"trans": "Realizar inspecciones domiciliarias sin previo aviso, documentar a los ocupantes no registrados y autorizar la suspensión del acceso ante el incumplimiento de las condiciones contractuales."
+					},
+					"title": {
+						"eng": "Occupancy Compliance Officer",
+						"trans": "Oficial de Cumplimiento de Ocupación"
+					}
+				},
+				"riskAnalyst": {
+					"department": {
+						"eng": "Resident intelligence · Analysis",
+						"trans": "Inteligencia residente · Análisis"
+					},
+					"description": {
+						"eng": "Combine payment history, property access and contract activity to predict renewal risk and recommend intervention.",
+						"trans": "Combina el historial de pagos, los accesos a la propiedad y la actividad contractual para predecir el riesgo de renovación y recomendar intervenciones."
+					},
+					"title": {
+						"eng": "Resident Risk Analyst",
+						"trans": "Analista de Riesgos Residente"
+					}
+				},
+				"unitRecovery": {
+					"department": {
+						"eng": "Property recovery · Field",
+						"trans": "Recuperación de propiedades · Exterior"
+					},
+					"description": {
+						"eng": "Secure homes after lease termination, catalogue remaining property and return reclaimed units to inventory before the next billing cycle.",
+						"trans": "Asegure las viviendas tras finalizar el contrato de arrendamiento, registre los bienes restantes y devuelva las unidades recuperadas al inventario antes del siguiente ciclo de facturación."
+					},
+					"title": {
+						"eng": "Unit Recovery Coordinator",
+						"trans": "Coordinador de Recuperación de Unidades"
+					}
+				}
+			}
+		},
+		"company": {
+			"building": {
+				"caption": {
+					"eng": "Arclight lives here",
+					"trans": "Arclight vive aquí"
+				},
+				"imageAlt": {
+					"eng": "Residents arriving at a MegaEstate property in Arclight",
+					"trans": "Los residentes llegan a una propiedad de MegaInmobiliaria en Arclight"
+				}
+			},
+			"eyebrow": {
+				"eng": "About MegaEstate",
+				"trans": "Acerca de MegaEstate"
+			},
+			"introduction": {
+				"eng": "At MegaEstate, we bring rental homes across Arclight into one clear network. You can compare housing standards, see current availability and choose the address that works for you.",
+				"trans": "En MegaEstate centralizamos en una única red todas las viviendas de alquiler por toda Arclight. Podrás comparar estándares habitacionales, verificar la disponibilidad actual y elegir la dirección que mejor te convenga."
+			},
+			"leadership": {
+				"description": {
+					"eng": "Robert Smith sets our long-term direction as Chief Executive Officer. His approach is simple: manage housing at city scale, keep occupancy responsible and make every part of renting answer to one accountable company. From listing to renewal, that company is MegaEstate.",
+					"trans": "Como Director Ejecutivo, Robert Smith traza nuestro rumbo a largo plazo. Su enfoque es claro: gestionar la vivienda a escala ciudad, mantener una ocupación responsable y centralizar cada etapa del alquiler bajo una única empresa responsable. Desde la publicación hasta la renovación, esa compañía es MegaEstate."
+				},
+				"eyebrow": {
+					"eng": "Leadership",
+					"trans": "Liderazgo"
+				},
+				"imageAlt": {
+					"eng": "Robert Smith, Chief Executive Officer of MegaEstate",
+					"trans": "Robert Smith, Director General de MegaEstate"
+				},
+				"name": {
+					"eng": "Robert Smith",
+					"trans": "Robert Smith"
+				},
+				"role": {
+					"eng": "Chief Executive Officer",
+					"trans": "Director Ejecutivo"
+				}
+			},
+			"model": {
+				"description": {
+					"eng": "Our four housing standards give you room to choose without starting over. Essential Housing, City Housing, Urban Studio and Central Residence all follow the same straightforward seven-day rental cycle.",
+					"trans": "Nuestras cuatro categorías de vivienda te permiten elegir sin volver a empezar. Vivienda Esencial, Vivienda de Ciudad, Estudio Urbano y Residencia Central siguen el mismo ciclo de alquiler semanal sencillo."
+				},
+				"eyebrow": {
+					"eng": "Made for life in Arclight",
+					"trans": "Diseñado para la vida en Arclight"
+				},
+				"title": {
+					"eng": "A home for what comes next.",
+					"trans": "Un refugio para lo que viene."
+				}
+			},
+			"portfolio": {
+				"eng": "From a first address to a Central Residence, we make every move familiar: one place to browse, one rental process and one company behind every home we manage.",
+				"trans": "Desde tu primer alojamiento hasta la Residencia Central, simplificamos cada mudanza: un solo lugar para explorar, un mismo proceso de alquiler y una única empresa detrás de cada vivienda que gestionamos."
+			},
+			"title": {
+				"eng": "The city moves fast. Home should feel certain.",
+				"trans": "La ciudad se mueve rápido. El hogar ha de dar seguridad."
+			}
+		},
+		"home": {
+			"city": {
+				"arclight": {
+					"eng": "Arclight City",
+					"trans": "Ciudad Arclight"
+				},
+				"international": {
+					"eng": "International cities — Unavailable",
+					"trans": "Ciudades internacionales — No disponibles"
+				},
+				"label": {
+					"eng": "City",
+					"trans": "Ciudad"
+				},
+				"otherNrc": {
+					"eng": "Other NRC cities — Unavailable",
+					"trans": "Otras ciudades de la NRC — No disponibles"
+				}
+			},
+			"hero": {
+				"description": {
+					"eng": "Explore homes available now across our four housing standards.",
+					"trans": "Explora las viviendas disponibles ahora en nuestras cuatro categorías."
+				},
+				"eyebrow": {
+					"eng": "Rental homes in Arclight City",
+					"trans": "Viviendas en alquiler en Ciudad Arclight"
+				},
+				"imageAlt": {
+					"eng": "Central Residence overlooking Arclight City",
+					"trans": "Residencia central con vistas a Ciudad Arclight"
+				},
+				"title": {
+					"eng": "Find your place in Arclight.",
+					"trans": "Encuentra tu lugar en Arclight."
+				},
+				"viewListings": {
+					"eng": "Browse current listings",
+					"trans": "Explorar listados actuales"
+				}
+			},
+			"introduction": {
+				"availability": {
+					"description": {
+						"eng": "We only show homes currently available to rent in Arclight.",
+						"trans": "Solo mostramos viviendas actualmente disponibles para alquilar en Arclight."
+					},
+					"title": {
+						"eng": "Current availability",
+						"trans": "Disponibilidad actual"
+					}
+				},
+				"description": {
+					"eng": "From essential housing to central residences, we bring Arclight's available rentals together in one place. Browse real homes, compare actual weekly rent and choose the standard that fits your life.",
+					"trans": "Desde alojamientos esenciales hasta residencias céntricas, agrupamos todos los alquileres disponibles en Arclight en un solo lugar. Explora viviendas reales, compara rentas semanales y elige la opción que mejor se adapte a tu estilo de vida."
+				},
+				"eyebrow": {
+					"eng": "Arclight residential rentals",
+					"trans": "Alquiler de viviendas Arclight"
+				},
+				"pricing": {
+					"description": {
+						"eng": "See the actual weekly rent for every available home.",
+						"trans": "Consulta el alquiler semanal real de cada vivienda disponible."
+					},
+					"title": {
+						"eng": "Clear weekly pricing",
+						"trans": "Restablecer precios semanales"
+					}
+				},
+				"standards": {
+					"benefitsDescription": {
+						"eng": "Compare added inventory space, vault capacity and mercenary contact slots before choosing.",
+						"trans": "Compara el espacio adicional en el inventario, la capacidad de la bóveda y las ranuras de contacto con mercenarios antes de elegir."
+					},
+					"title": {
+						"eng": "Four housing standards",
+						"trans": "Cuatro estándares de alojamiento"
+					}
+				},
+				"title": {
+					"eng": "A better way to find a home in Arclight.",
+					"trans": "Una mejor manera de encontrar un hogar en Arclight."
+				},
+				"viewListings": {
+					"eng": "Explore current listings",
+					"trans": "Explorar listado actual"
+				}
+			},
+			"renting": {
+				"description": {
+					"eng": "We charge your first seven-day period when the rental starts. After each period, we process renewal during the next scheduled billing check.",
+					"trans": "Cargamos tu primer periodo de siete días al iniciar el alquiler. Tras cada periodo, procesamos la renovación en el próximo cobro programado."
+				},
+				"eyebrow": {
+					"eng": "Renting with MegaEstate",
+					"trans": "Alquilar con MegaEstate"
+				},
+				"guide": {
+					"eng": "See how renting works",
+					"trans": "Ver cómo funciona el alquiler"
+				},
+				"title": {
+					"eng": "Choose today. Renew week by week.",
+					"trans": "Elige hoy. Se renueva cada semana."
+				}
+			},
+			"standards": {
+				"compare": {
+					"eng": "Compare housing standards",
+					"trans": "Comparar estándares de vivienda"
+				},
+				"description": {
+					"eng": "Each of our housing standards offers a different balance of space, storage and capacity. Compare them here, then see real homes and weekly rent in Listings.",
+					"trans": "Cada uno de nuestros estándares habitacionales ofrece un equilibrio distinto entre espacio, almacenamiento y capacidad. Compáralos aquí para ver viviendas reales y alquiler semanal en Listados."
+				},
+				"eyebrow": {
+					"eng": "Housing standards",
+					"trans": "Estándares de vivienda"
+				},
+				"mercenarySlots": {
+					"eng": "Merc slots",
+					"trans": "Ranuras de mercenarios"
+				},
+				"storage": {
+					"eng": "Storage",
+					"trans": "Almacén"
+				},
+				"title": {
+					"eng": "Four ways to live in Arclight.",
+					"trans": "Cuatro formas de vivir en Arclight."
+				},
+				"vault": {
+					"eng": "Vault",
+					"trans": "Bóveda"
+				}
+			}
+		},
+		"homeDetails": {
+			"confirm": {
+				"action": {
+					"eng": "Rent this home",
+					"trans": "Alquilar esta casa"
+				},
+				"description": {
+					"eng": "Rent ${address} for ${price} ${currency} per week. We charge the first seven-day period when the rental starts.",
+					"trans": "Alquila ${address} por ${price} ${currency} a la semana. Se cobra el primer periodo de siete días al iniciar el alquiler."
+				},
+				"perWeek": {
+					"eng": "per week",
+					"trans": "por semana"
+				},
+				"replacementDescription": {
+					"eng": "Rent ${address} for ${price} ${currency} per week. We charge the first seven-day period when the rental starts, and this immediately replaces your current home.",
+					"trans": "Alquila ${address} por ${price} ${currency} a la semana. Se cobra el primer periodo de siete días al iniciar el alquiler y este reemplaza inmediatamente tu vivienda actual."
+				},
+				"title": {
+					"eng": "Rent this home?",
+					"trans": "¿Alquilar esta casa?"
+				},
+				"weeklyRent": {
+					"eng": "Weekly rent",
+					"trans": "Alquiler semanal"
+				}
+			},
+			"currentHome": {
+				"eng": "Current home",
+				"trans": "Hogar actual"
+			},
+			"error": {
+				"description": {
+					"eng": "Return to Listings and try this home again when availability can be loaded.",
+					"trans": "Regrese al listado e intente acceder a esta vivienda nuevamente cuando se cargue la disponibilidad."
+				},
+				"title": {
+					"eng": "We couldn't check this home's availability",
+					"trans": "No se pudo comprobar la disponibilidad de esta vivienda."
+				}
+			},
+			"imageAlt": {
+				"eng": "Rental home at ${address}",
+				"trans": "Vivienda en alquiler en ${address}"
+			},
+			"invalid": {
+				"description": {
+					"eng": "Return to Listings to choose from homes currently available.",
+					"trans": "Regresa al listado para elegir entre las viviendas actualmente disponibles."
+				},
+				"title": {
+					"eng": "We can't open this home",
+					"trans": "No se puede abrir este refugio"
+				}
+			},
+			"mercenarySlots": {
+				"eng": "Merc slots",
+				"trans": "Ranuras de mercenarios"
+			},
+			"metrics": {
+				"mercenarySlots": {
+					"description": {
+						"eng": "Adds ${count} mercenary contact slots to your recruitment limit.",
+						"trans": "Añade ${count} plazas de contacto con mercenarios a tu límite de reclutamiento."
+					}
+				},
+				"storage": {
+					"description": {
+						"eng": "Adds ${count} slots to your inventory.",
+						"trans": "Añade ${count} espacios a tu inventario."
+					}
+				},
+				"vault": {
+					"description": {
+						"eng": "Holds up to ${count} item stacks in your apartment vault.",
+						"trans": "Almacena hasta ${count} pilas de objetos en la bóveda de tu apartamento."
+					}
+				}
+			},
+			"perWeek": {
+				"eng": "per week",
+				"trans": "por semana"
+			},
+			"renewal": {
+				"description": {
+					"eng": "We charge the first seven-day period when your rental starts. After each period, we process renewal during the next scheduled billing check; insufficient funds end the lease.",
+					"trans": "Se cobra el primer período de siete días al iniciar tu alquiler. Tras cada periodo, se renovará en la siguiente verificación de cobro programada; un saldo insuficiente cancelará el contrato."
+				},
+				"eyebrow": {
+					"eng": "Seven-day rental cycle",
+					"trans": "Ciclo de alquiler de siete días"
+				}
+			},
+			"rent": {
+				"eng": "Rent this home",
+				"trans": "Alquilar esta casa"
+			},
+			"replacement": {
+				"description": {
+					"eng": "Starting this rental ends your existing lease immediately.",
+					"trans": "Iniciar este alquiler cancelará de inmediato tu contrato vigente."
+				},
+				"title": {
+					"eng": "This replaces your current home",
+					"trans": "Esto sustituye tu base actual."
+				}
+			},
+			"storage": {
+				"eng": "Storage",
+				"trans": "Almacén"
+			},
+			"unavailable": {
+				"description": {
+					"eng": "This listing is no longer available. Return to Listings to view current homes.",
+					"trans": "Este anuncio ya no está disponible. Regresa a los listados para ver las viviendas actuales."
+				},
+				"title": {
+					"eng": "This home is no longer available",
+					"trans": "Este hogar ya no está disponible"
+				}
+			},
+			"vault": {
+				"eng": "Vault",
+				"trans": "Bóveda"
+			},
+			"weeklyRent": {
+				"eng": "Weekly rent",
+				"trans": "Alquiler semanal"
+			}
+		},
+		"housingStandards": {
+			"a0": {
+				"description": {
+					"eng": "A practical first address with the essentials for independent city living.",
+					"trans": "Una primera ubicación práctica con los esenciales para vivir de forma independiente en la ciudad."
+				}
+			},
+			"a1": {
+				"description": {
+					"eng": "A versatile city home with additional storage and vault space for an established routine.",
+					"trans": "Vivienda urbana versátil con espacio de almacenamiento adicional y bóveda para una rutina estable."
+				}
+			},
+			"a2": {
+				"description": {
+					"eng": "A focused urban home with generous storage for residents who need more from a compact address.",
+					"trans": "Apartamento urbano optimizado con amplio almacenamiento para residentes que buscan aprovechar al máximo un espacio compacto"
+				}
+			},
+			"a3": {
+				"description": {
+					"eng": "Our premier residence offers the most room for residents, belongings and protected storage.",
+					"trans": "Nuestra residencia premium ofrece el mayor espacio para residentes, pertenencias y almacenamiento protegido."
+				}
+			},
+			"benefitsDescription": {
+				"eng": "Compare added inventory space, vault capacity and mercenary contact slots across every standard.",
+				"trans": "Compara el espacio adicional de inventario, la capacidad de bóveda y las ranuras de contacto mercenario en cada estándar."
+			},
+			"browseListings": {
+				"eng": "Browse current listings",
+				"trans": "Explorar listados actuales"
+			},
+			"eyebrow": {
+				"eng": "The MegaEstate range",
+				"trans": "Gama MegaInmobiliaria"
+			},
+			"imageAlt": {
+				"eng": "${standard} rental home",
+				"trans": "${standard} vivienda de alquiler"
+			},
+			"imageCaption": {
+				"eng": "Standard ${code}",
+				"trans": "Estándar ${code}"
+			},
+			"mercenarySlots": {
+				"eng": "Merc slots",
+				"trans": "Ranuras de mercenarios"
+			},
+			"storage": {
+				"eng": "Storage",
+				"trans": "Almacén"
+			},
+			"title": {
+				"eng": "A clear standard for every stage of city life.",
+				"trans": "Un estándar claro para cada etapa de la vida en la ciudad."
+			},
+			"vault": {
+				"eng": "Vault",
+				"trans": "Bóveda"
+			}
+		},
+		"listings": {
+			"availableCount": {
+				"eng": "Available listings: ${count}",
+				"trans": "Listados disponibles: ${count}"
+			},
+			"empty": {
+				"description": {
+					"eng": "Choose another housing standard to view its current availability.",
+					"trans": "Selecciona otro estándar de vivienda para ver su disponibilidad actual."
+				},
+				"title": {
+					"eng": "No listings available in this standard",
+					"trans": "No hay listados disponibles en este estándar."
+				}
+			},
+			"error": {
+				"description": {
+					"eng": "Choose another housing standard or return later to check availability.",
+					"trans": "Selecciona otro estándar de vivienda o vuelve más tarde para verificar la disponibilidad."
+				},
+				"title": {
+					"eng": "We couldn't load current availability",
+					"trans": "No se pudo cargar la disponibilidad actual."
+				}
+			},
+			"eyebrow": {
+				"eng": "MegaEstate listings",
+				"trans": "Anuncios de MegaInmobiliaria"
+			},
+			"listing": {
+				"currentHome": {
+					"eng": "Current home",
+					"trans": "Hogar actual"
+				},
+				"imageAlt": {
+					"eng": "${standard} rental home",
+					"trans": "${standard} vivienda de alquiler"
+				},
+				"perWeek": {
+					"eng": "per week",
+					"trans": "por semana"
+				},
+				"weeklyRent": {
+					"eng": "Weekly rent",
+					"trans": "Alquiler semanal"
+				}
+			},
+			"loadingCount": {
+				"eng": "Checking current availability…",
+				"trans": "Verificando disponibilidad actual…"
+			},
+			"standardLabel": {
+				"eng": "Housing standard",
+				"trans": "Vivienda estándar"
+			},
+			"title": {
+				"eng": "Find your next home in Arclight.",
+				"trans": "Encuentra tu próximo hogar en Arclight."
+			}
+		},
+		"rentalGuide": {
+			"browseListings": {
+				"eng": "Browse current listings",
+				"trans": "Explorar listados actuales"
+			},
+			"compareStandards": {
+				"eng": "Compare housing standards",
+				"trans": "Comparar estándares de vivienda"
+			},
+			"description": {
+				"eng": "One clear process for your first payment, every renewal and any move that follows.",
+				"trans": "Un proceso único y claro para tu primer pago, cada renovación y cualquier traslado posterior."
+			},
+			"eyebrow": {
+				"eng": "Rental guide",
+				"trans": "Guía de alquiler"
+			},
+			"guide": {
+				"change": {
+					"description": {
+						"eng": "When you rent a new home, we end your current lease immediately. Review your choice before starting the new rental.",
+						"trans": "Al alquilar una nueva residencia, se cancelará tu contrato actual de inmediato. Revisa tu elección antes de iniciar el nuevo alquiler."
+					},
+					"title": {
+						"eng": "Changing your home",
+						"trans": "Cambiar vivienda"
+					}
+				},
+				"description": {
+					"eng": "Review these four details before you start a rental.",
+					"trans": "Revisa estos cuatro detalles antes de iniciar el alquiler."
+				},
+				"eyebrow": {
+					"eng": "Before you rent",
+					"trans": "Antes de alquilar"
+				},
+				"funds": {
+					"description": {
+						"eng": "Keep enough funds available before renewal is due. If funds are insufficient, renewal fails and your lease ends immediately.",
+						"trans": "Mantén fondos suficientes disponibles antes del vencimiento de la renovación. Si el saldo es insuficiente, la renovación fallará y tu contrato terminará inmediatamente."
+					},
+					"title": {
+						"eng": "If renewal funds are unavailable",
+						"trans": "Si no hay fondos para la renovación"
+					}
+				},
+				"renewal": {
+					"description": {
+						"eng": "Each payment covers seven days. We process renewal during the next scheduled billing check and notify you when it succeeds or fails.",
+						"trans": "Cada pago cubre siete días. La renovación se procesará en el próximo ciclo de facturación programado y te notificaremos si tiene éxito o falla."
+					},
+					"title": {
+						"eng": "Automatic weekly renewal",
+						"trans": "Renovación automática semanal"
+					}
+				},
+				"start": {
+					"description": {
+						"eng": "We charge the first seven-day period when your rental starts.",
+						"trans": "Se cobra el primer período de siete días al iniciar tu alquiler."
+					},
+					"title": {
+						"eng": "When your rental starts",
+						"trans": "Al iniciar el alquiler"
+					}
+				}
+			},
+			"nextStep": {
+				"description": {
+					"eng": "Compare housing standards or go directly to current availability.",
+					"trans": "Comparar estándares de vivienda o acceder directamente a la disponibilidad actual."
+				},
+				"eyebrow": {
+					"eng": "Next step",
+					"trans": "Siguiente paso"
+				},
+				"title": {
+					"eng": "Choose a home when you are ready.",
+					"trans": "Elige tu hogar cuando estés listo."
+				}
+			},
+			"title": {
+				"eng": "Renting with MegaEstate.",
+				"trans": "Alquiler con MegaInmobiliaria."
+			}
+		},
+		"shell": {
+			"closeMenu": {
+				"eng": "Close",
+				"trans": "Cerrar"
+			},
+			"directory": {
+				"eng": "Explore MegaEstate",
+				"trans": "Explorar MegaInmobiliaria"
+			},
+			"footer": {
+				"about": {
+					"eng": "About MegaEstate",
+					"trans": "Acerca de MegaEstate"
+				},
+				"careers": {
+					"eng": "Careers",
+					"trans": "Carreras"
+				},
+				"company": {
+					"eng": "MegaEstate",
+					"trans": "MegaInmobiliaria"
+				},
+				"description": {
+					"eng": "Find your place in Arclight City.",
+					"trans": "Encuentra tu lugar en Ciudad Arclight."
+				},
+				"housingStandards": {
+					"eng": "Housing standards",
+					"trans": "Estándares de vivienda"
+				},
+				"listings": {
+					"eng": "Listings",
+					"trans": "Publicaciones"
+				},
+				"overview": {
+					"eng": "Overview",
+					"trans": "Resumen"
+				},
+				"renting": {
+					"eng": "How renting works",
+					"trans": "Cómo funciona el alquiler"
+				}
+			},
+			"location": {
+				"eng": "Find your place in Arclight City.",
+				"trans": "Encuentra tu lugar en Ciudad Arclight."
+			},
+			"logoAlt": {
+				"eng": "MegaEstate",
+				"trans": "MegaInmobiliaria"
+			},
+			"nav": {
+				"about": {
+					"eng": "About MegaEstate",
+					"trans": "Acerca de MegaEstate"
+				},
+				"careers": {
+					"eng": "Careers",
+					"trans": "Carreras"
+				},
+				"housingStandards": {
+					"eng": "Housing standards",
+					"trans": "Estándares de vivienda"
+				},
+				"listings": {
+					"eng": "Listings",
+					"trans": "Publicaciones"
+				},
+				"renting": {
+					"eng": "How renting works",
+					"trans": "Cómo funciona el alquiler"
+				}
+			},
+			"openMenu": {
+				"eng": "Menu",
+				"trans": "Menú"
+			}
+		}
+	},
 	"mercenary": {
 		"error": {
 			"firstDraw": {
@@ -10305,10 +11741,6 @@
 				"eng": "System Overload",
 				"trans": "Sobrecarga del sistema"
 			},
-			"gaugeLabel": {
-				"eng": "Pressure gauge - hold to regulate",
-				"trans": "Manómetro - mantén pulsado para regular"
-			},
 			"holdingHint": {
 				"eng": "Hold Active",
 				"trans": "Mantener activo"
@@ -10328,10 +11760,6 @@
 			"retry": {
 				"eng": "Reset System",
 				"trans": "Reiniciar Sistema"
-			},
-			"retryLabel": {
-				"eng": "Reset system and try again",
-				"trans": "Reinicia el sistema e intenta de nuevo"
 			},
 			"safeZone": {
 				"eng": "Target Zone",
@@ -10496,6 +11924,98 @@
 			"tip": {
 				"eng": "Activate all dots to unlock by clicking. The dots will rotate faster and faster.",
 				"trans": "Activa todos los puntos para desbloquear haciendo clic. Los puntos girarán cada vez más rápido."
+			}
+		},
+		"vectorPress": {
+			"cassette": {
+				"verified": {
+					"eng": "Access Key Verified",
+					"trans": "Clave de acceso verificada"
+				}
+			},
+			"controls": {
+				"armed": {
+					"eng": "Input Armed",
+					"trans": "Entrada activada"
+				},
+				"locked": {
+					"eng": "Input Locked",
+					"trans": "Entrada bloqueada"
+				},
+				"title": {
+					"eng": "Manual Vector Input",
+					"trans": "Entrada manual de vectores"
+				}
+			},
+			"direction": {
+				"down": {
+					"eng": "Down",
+					"trans": "Abajo"
+				},
+				"left": {
+					"eng": "Left",
+					"trans": "Izquierda"
+				},
+				"right": {
+					"eng": "Right",
+					"trans": "Derecha"
+				},
+				"up": {
+					"eng": "Up",
+					"trans": "Arriba"
+				}
+			},
+			"header": {
+				"progress": {
+					"eng": "Key Progress",
+					"trans": "Progreso clave"
+				},
+				"protocol": {
+					"eng": "Access Protocol VP-06",
+					"trans": "Protocolo de acceso VP-06"
+				},
+				"title": {
+					"eng": "Vector Press",
+					"trans": "Vector Press"
+				}
+			},
+			"instruction": {
+				"eng": "Match each vector to punch the access key",
+				"trans": "Alinea cada vector para introducir la clave de acceso."
+			},
+			"status": {
+				"advancing": {
+					"eng": "Cassette advancing",
+					"trans": "Avanzando casete"
+				},
+				"currentDirection": {
+					"eng": "Current required vector: ${direction}",
+					"trans": "Vector requerido actual: ${direction}"
+				},
+				"label": {
+					"eng": "SYS.VP//STATE",
+					"trans": "SYS.VP//ESTADO"
+				},
+				"punching": {
+					"eng": "Punch accepted",
+					"trans": "De acuerdo"
+				},
+				"ready": {
+					"eng": "Awaiting vector input",
+					"trans": "Esperando entrada de vector"
+				},
+				"rejected": {
+					"eng": "Vector mismatch — retry",
+					"trans": "Desajuste de vector — Reintentar"
+				},
+				"verified": {
+					"eng": "Access key verified",
+					"trans": "Clave de acceso verificada"
+				},
+				"verifying": {
+					"eng": "Verifying access key",
+					"trans": "Verificando clave de acceso"
+				}
 			}
 		}
 	},
@@ -10940,9 +12460,17 @@
 		}
 	},
 	"newsCard": {
+		"decrypted": {
+			"eng": "DECRYPTED",
+			"trans": "DESCIFRADO"
+		},
 		"new": {
 			"eng": "NEW",
 			"trans": "NUEVO"
+		},
+		"operative": {
+			"eng": "OPERATIVE",
+			"trans": "Operativo"
 		}
 	},
 	"newsPage": {
@@ -12172,29 +13700,9 @@
 		}
 	},
 	"placeHitPage": {
-		"levelTooLow": {
-			"eng": "You need to be at least level ${level} to place a hit.",
-			"trans": "Necesitas ser al menos nivel ${level} para realizar un ataque."
-		},
-		"notEnoughUnitError1": {
-			"eng": "Minimum hit bounty is ${minNormal}",
-			"trans": "La recompensa mínima por golpe es de ${minNormal}"
-		},
-		"placeHit": {
-			"eng": "Place hit",
-			"trans": "Colocar golpe"
-		},
-		"selectPlayer": {
-			"eng": "Select player",
-			"trans": "Seleccionar jugador"
-		},
 		"selectPlayerClick": {
-			"eng": "Click to select a player",
-			"trans": "Haz clic para seleccionar un jugador"
-		},
-		"tip": {
-			"eng": "You can place a hit on a player by paying a certain amount of money and/or unit.",
-			"trans": "Puedes poner una orden de ataque en un jugador pagando una cierta cantidad de dinero y/o unidad."
+			"eng": "Select target",
+			"trans": "Seleccionar objetivo"
 		}
 	},
 	"player": {
@@ -15020,10 +16528,6 @@
 			"eng": "${current} / ${total}",
 			"trans": "${current} de ${total}"
 		},
-		"pageInputAriaLabel": {
-			"eng": "Enter page number",
-			"trans": "Ingrese el número de página"
-		},
 		"pageInputPlaceholder": {
 			"eng": "Page #",
 			"trans": "Página #"
@@ -15206,6 +16710,26 @@
 			"notIdle": {
 				"eng": "You are not idle",
 				"trans": "No estás inactivo"
+			},
+			"priorityOperationAlreadyActive": {
+				"eng": "You already have a Priority Operation in progress",
+				"trans": "Ya tienes una operación prioritaria en curso."
+			},
+			"priorityOperationFirstPlaceRequired": {
+				"eng": "Your gang must hold the highest positive war score to start this operation",
+				"trans": "Tu banda debe mantener la mayor puntuación de guerra positiva para iniciar esta operación."
+			},
+			"priorityOperationGangRequired": {
+				"eng": "Only members of a first-place war gang can start this operation",
+				"trans": "Solo los miembros de una banda de guerra en el primer lugar pueden iniciar esta operación."
+			},
+			"priorityOperationInvalidated": {
+				"eng": "Priority Operation invalidated because your gang no longer held first place at settlement",
+				"trans": "La operación prioritaria ha sido invalidada porque tu banda ya no ocupa el primer puesto en el asentamiento."
+			},
+			"priorityOperationSkipFirstPlaceRequired": {
+				"eng": "Your gang must still hold first place to finish this operation now",
+				"trans": "Tu banda debe mantenerse en el primer puesto para completar esta operación ahora mismo."
 			}
 		},
 		"notification": {
@@ -16503,13 +18027,21 @@
 			}
 		},
 		"megaAd": {
-			"subtitle": {
-				"eng": "Mega Estate - the only agency that wont scam you!",
-				"trans": "Mega Estate - ¡la única agencia que no te estafará!"
+			"action": {
+				"eng": "View current rental availability",
+				"trans": "Ver disponibilidad de alquiler actual"
+			},
+			"backgroundAlt": {
+				"eng": "MegaEstate residence in Arclight City",
+				"trans": "Residencia de MegaInmobiliaria en Ciudad Arclight"
+			},
+			"logoAlt": {
+				"eng": "MegaEstate",
+				"trans": "MegaInmobiliaria"
 			},
 			"title": {
-				"eng": "Cheap Price!!",
-				"trans": "¡Precio barato!"
+				"eng": "Homes across Arclight",
+				"trans": "Viviendas por toda Arclight"
 			}
 		},
 		"news": {
@@ -16764,6 +18296,10 @@
 			"eng": "President Jackson Morrison",
 			"trans": "Presidente Jackson Morrison"
 		},
+		"leeJongSuk": {
+			"eng": "CEO Lee Jong-suk",
+			"trans": "CEO Lee Jong-suk"
+		},
 		"liWei": {
 			"eng": "Premier Li Wei",
 			"trans": "Premier Li Wei"
@@ -16807,6 +18343,10 @@
 		"rezaHosseini": {
 			"eng": "Supreme Leader Ayatollah Reza Hosseini",
 			"trans": "Líder Supremo Ayatolá Reza Hosseini"
+		},
+		"robertSmith": {
+			"eng": "CEO Robert Smith",
+			"trans": "Director Ejecutivo Robert Smith"
 		},
 		"sarahGoldman": {
 			"eng": "Prime Minister-CEO Sarah Goldman",
@@ -17112,6 +18652,20 @@
 				"trans": "Presidente Morrison"
 			}
 		},
+		"leeJongSuk": {
+			"ceoLee": {
+				"eng": "CEO Lee",
+				"trans": "CEO Lee"
+			},
+			"circuitbreakCeo": {
+				"eng": "CircuitBreak CEO",
+				"trans": "CEO de Interrupción de Circuito"
+			},
+			"leeJongSuk": {
+				"eng": "Lee Jong-suk",
+				"trans": "Lee Jong-suk"
+			}
+		},
 		"liWei": {
 			"li": {
 				"eng": "Li",
@@ -17272,6 +18826,20 @@
 			"supremeLeaderHosseini": {
 				"eng": "Supreme Leader Hosseini",
 				"trans": "Líder Supremo Hosseini"
+			}
+		},
+		"robertSmith": {
+			"ceoSmith": {
+				"eng": "CEO Smith",
+				"trans": "Director General Smith"
+			},
+			"megaestateCeo": {
+				"eng": "MegaEstate CEO",
+				"trans": "Director de MegaInmobiliaria"
+			},
+			"robertSmith": {
+				"eng": "Robert Smith",
+				"trans": "Robert Smith"
 			}
 		},
 		"sarahGoldman": {

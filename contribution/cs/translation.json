@@ -374,24 +374,40 @@
 			"displayName": {
 				"eng": "Slum Apartment",
 				"trans": "Chudinský byt"
+			},
+			"websiteDisplayName": {
+				"eng": "Essential Housing",
+				"trans": "Základní bydlení"
 			}
 		},
 		"apartment1": {
 			"displayName": {
 				"eng": "Low-end Apartment",
 				"trans": "Levný byt"
+			},
+			"websiteDisplayName": {
+				"eng": "City Housing",
+				"trans": "Městské bydlení"
 			}
 		},
 		"apartment2": {
 			"displayName": {
 				"eng": "Budget Studio",
 				"trans": "Levné apartmá"
+			},
+			"websiteDisplayName": {
+				"eng": "Urban Studio",
+				"trans": "Městské studio"
 			}
 		},
 		"apartment3": {
 			"displayName": {
 				"eng": "Downtown Apartment",
 				"trans": "Byt v centru"
+			},
+			"websiteDisplayName": {
+				"eng": "Central Residence",
+				"trans": "Centrální rezidence"
 			}
 		},
 		"chat": {
@@ -567,28 +583,6 @@
 				"eng": "Vault",
 				"trans": "Trezor"
 			}
-		}
-	},
-	"apartmentPurchasePage": {
-		"confirmDescription": {
-			"eng": "Are you sure you want to rent this apartment? if you already have an apartment, it will be dismissed.",
-			"trans": "Vážně si chceš pronajmout tento byt? Pokud už máš pronajatý byt, bude jeho nájem zrušen."
-		},
-		"confirmTitle": {
-			"eng": "Confirm Rental",
-			"trans": "Potvrdit pronájem"
-		},
-		"owned": {
-			"eng": "Owned",
-			"trans": "Vlastní"
-		},
-		"perWeek": {
-			"eng": "Per week",
-			"trans": "týdně"
-		},
-		"rent": {
-			"eng": "Rent Now",
-			"trans": "Pronajmout hned"
 		}
 	},
 	"appProductType": {
@@ -920,10 +914,14 @@
 			"eng": "Task completed",
 			"trans": "Úkol dokončen"
 		},
+		"dismissButton": {
+			"eng": "Dismiss",
+			"trans": "Propustit"
+		},
 		"emptyTask": {
 			"description": {
-				"eng": "Click to choose a task",
-				"trans": "Klikem vybrat úkol"
+				"eng": "Assign operation",
+				"trans": "Přiřadit operaci"
 			},
 			"title": {
 				"eng": "Task slot available",
@@ -932,7 +930,7 @@
 		},
 		"inProgress": {
 			"eng": "Task in progress...",
-			"trans": "Úkol probíhá..."
+			"trans": "Práce na úkolu probíhá..."
 		},
 		"instantFinish": {
 			"eng": "Finish Now",
@@ -941,6 +939,10 @@
 		"instantFinishConfirmTitle": {
 			"eng": "Finish task now?",
 			"trans": "Dokončit úkol ihned?"
+		},
+		"invalidated": {
+			"eng": "Operation invalidated",
+			"trans": "Operace zneplatněna"
 		}
 	},
 	"backgroundTaskPage": {
@@ -961,6 +963,10 @@
 		"cost": {
 			"eng": "Cost",
 			"trans": "Cena"
+		},
+		"priorityOperationWarning": {
+			"eng": "Your gang must hold first place when this operation starts and settles. Start costs are not refunded if it is invalidated.",
+			"trans": "Vaše gang musí být na prvním místě jak při startu, tak po dokončení této operace. Počáteční náklady se nevrací v případě jejího zrušení."
 		},
 		"rewards": {
 			"eng": "possible rewards",
@@ -1024,6 +1030,16 @@
 				"trans": "Evakuace"
 			}
 		},
+		"rogueAssetExtraction": {
+			"description": {
+				"eng": "Intercept a hostile augmentation shipment while your gang holds the highest war score. Losing first place before settlement invalidates the operation and forfeits its rewards.",
+				"trans": "Zastavte nepřátelskou zásilku augmentací, zatímco váš gang vede v tabulce bojového skóre. Ztráta prvního místa před ukončením operace ji zneplatí a odměny budou zrušeny."
+			},
+			"displayName": {
+				"eng": "Rogue Asset Extraction",
+				"trans": "Vyzvednutí nezřízeného aktiva"
+			}
+		},
 		"scavenge": {
 			"description": {
 				"eng": "Navigate hazardous junkyards, uncover hidden treasures, and salvage valuable tech",
@@ -1053,6 +1069,20 @@
 				"eng": "Thieving",
 				"trans": "Krádeže"
 			}
+		}
+	},
+	"backgroundTaskTypeDisplay": {
+		"afkOperation": {
+			"eng": "AFK Operation",
+			"trans": "AFK operace"
+		},
+		"firstPlaceRequired": {
+			"eng": "First-place gang",
+			"trans": "Gang na prvním místě"
+		},
+		"priorityOperation": {
+			"eng": "Priority Operation",
+			"trans": "Prioritní operace"
 		}
 	},
 	"backgroundTaskUpgradePopup": {
@@ -1863,6 +1893,732 @@
 		"title": {
 			"eng": "Rotate the circle to unlock",
 			"trans": "Odemkni otočením kruhu"
+		}
+	},
+	"circuitBreakWebsite": {
+		"about": {
+			"cid": {
+				"description": {
+					"eng": "CID handles controlled surveillance, intelligence collection, and sensitive recovery mandates under restricted authority.",
+					"trans": "CID zajišťuje řízený dohled, získávání rozvědných informací a citlivé recuperační operace v rámci omezených pravomocí."
+				},
+				"eyebrow": {
+					"eng": "Specialist division",
+					"trans": "Divize specialistů"
+				},
+				"liaisonLabel": {
+					"eng": "Contractor liaison",
+					"trans": "Kontaktní osoba pro dodavatele"
+				},
+				"liaisonName": {
+					"eng": "Vale",
+					"trans": "Vale"
+				},
+				"liaisonRole": {
+					"eng": "Intelligence operations",
+					"trans": "Zpravodajské operace"
+				},
+				"title": {
+					"eng": "CircuitBreak Intelligence Division",
+					"trans": "CircuitBreak Zpravodajská divize"
+				}
+			},
+			"eyebrow": {
+				"eng": "Company",
+				"trans": "Společnost"
+			},
+			"leadership": {
+				"kira": {
+					"biography": {
+						"eng": "Kira Nilsen directs security policy and operational standards across CircuitBreak.",
+						"trans": "Kira Nilsen řídí bezpečnostní politiku a provozní normy v rámci celé organizace CircuitBreak."
+					},
+					"name": {
+						"eng": "Kira Nilsen",
+						"trans": "Kira Nilsen"
+					},
+					"role": {
+						"eng": "Director of Security",
+						"trans": "Ředitel bezpečnosti"
+					}
+				},
+				"label": {
+					"eng": "Executive leadership",
+					"trans": "Vrcholové vedení"
+				},
+				"lee": {
+					"biography": {
+						"eng": "Lee Jong-suk serves as Chief Executive Officer of CircuitBreak Security Solutions. A former Korean special-forces soldier, he built his career around protective operations, crisis command, and work conducted under strict information controls. At CircuitBreak, his leadership is defined by disciplined execution, limited public disclosure, and a belief that effective security is measured by what never reaches the public record.",
+						"trans": "Lee Jong-suk je generálním ředitelem společnosti CircuitBreak Security Solutions. Bývalý voják jihokorejských speciálních sil postavil svou kariéru na ochranných operacích, velení krizovým situacím a činnostech prováděných pod přísnou kontrolou utajení informací. V prostředí CircuitBreak jeho vedení definuje důsledné plnění úkolů, omezené zveřejňování informací a přesvědčení, že efektivitu bezpečnosti určuje to, co nikdy neskončí ve veřejných záznamech."
+					},
+					"imageAlt": {
+						"eng": "CircuitBreak chief executive Lee Jong-suk overseeing a night deployment",
+						"trans": "Generální ředitel společnosti CircuitBreak Lee Jong-suk dohlíží na noční nasazení."
+					},
+					"name": {
+						"eng": "Lee Jong-suk",
+						"trans": "Lee Jong-suk"
+					},
+					"role": {
+						"eng": "Chief Executive Officer",
+						"trans": "Generální ředitel"
+					}
+				},
+				"registerLabel": {
+					"eng": "Leadership register",
+					"trans": "Přehled vedení"
+				}
+			},
+			"overview": {
+				"eng": "A listed Arclight security company providing executive protection, armed response, threat intelligence, and sensitive recovery.",
+				"trans": "Registrovaná bezpečnostní firma z Arclightu poskytující ochranu osob, ozbrojenou zásahovou jednotku, analýzu hrozeb a citlivé operace."
+			},
+			"registry": {
+				"divisionLabel": {
+					"eng": "Specialist division",
+					"trans": "Divize specialistů"
+				},
+				"divisionValue": {
+					"eng": "CID",
+					"trans": "ID postavy"
+				},
+				"entityLabel": {
+					"eng": "Registered entity",
+					"trans": "Registrovaný subjekt"
+				},
+				"entityValue": {
+					"eng": "CircuitBreak Security Solutions",
+					"trans": "CircuitBreak Bezpečnostní řešení"
+				},
+				"label": {
+					"eng": "Corporate record",
+					"trans": "Korporátní záznam"
+				},
+				"marketLabel": {
+					"eng": "Ticker",
+					"trans": "Pás zpráv"
+				},
+				"marketValue": {
+					"eng": "CBK",
+					"trans": "CBK"
+				}
+			},
+			"title": {
+				"eng": "CircuitBreak Security Solutions",
+				"trans": "CircuitBreak Bezpečnostní řešení"
+			}
+		},
+		"careers": {
+			"cid": {
+				"contactAction": {
+					"eng": "View liaison details",
+					"trans": "Zobrazit detaily kontaktu"
+				},
+				"description": {
+					"eng": "CID reviews sponsored operators for surveillance, intelligence collection, and sensitive recovery assignments. Intake requires a verified sponsor or approved liaison referral.",
+					"trans": "CID posuzuje sponzorované operátory pro sledování, sběr rozvědných dat a citlivé mise na získání předmětů. Pro přijetí je vyžadován ověřený sponzor nebo doporučení schváleného kontaktního zástupce."
+				},
+				"label": {
+					"eng": "Contract operators",
+					"trans": "Kontraktní operátoři"
+				},
+				"liaisonLabel": {
+					"eng": "Contractor liaison",
+					"trans": "Kontaktní osoba pro dodavatele"
+				},
+				"liaisonName": {
+					"eng": "Vale",
+					"trans": "Vale"
+				},
+				"liaisonRole": {
+					"eng": "Intelligence operations",
+					"trans": "Zpravodajské operace"
+				},
+				"title": {
+					"eng": "CID contractor intake",
+					"trans": "Nábor kontraktorů CID"
+				}
+			},
+			"eyebrow": {
+				"eng": "Careers",
+				"trans": "Povolání"
+			},
+			"imageAlt": {
+				"eng": "CircuitBreak operations candidate completing a professional assessment",
+				"trans": "Kandidát do operačního týmu CircuitBreak dokončuje odborné vyhodnocení."
+			},
+			"intro": {
+				"eng": "Permanent roles for security professionals who exercise sound judgment under pressure.",
+				"trans": "Trvalá místa pro bezpečnostní profesionály zachovávající zdravý úsudek i pod tlakem."
+			},
+			"openRolesTitle": {
+				"eng": "Current openings",
+				"trans": "Aktuální nabídky"
+			},
+			"recruitmentAction": {
+				"eng": "Contact recruitment",
+				"trans": "Nábor kontaktů"
+			},
+			"vacancies": {
+				"intelligence": {
+					"context": {
+						"eng": "Risk Intelligence / Arclight",
+						"trans": "Riziková inteligence / Arclight"
+					},
+					"title": {
+						"eng": "Threat Intelligence Analyst",
+						"trans": "Analytik kybernetických hrozeb"
+					}
+				},
+				"protective": {
+					"context": {
+						"eng": "Protective Operations / Arclight",
+						"trans": "Ochranné operace / Arclight"
+					},
+					"title": {
+						"eng": "Protective Operations Specialist",
+						"trans": "Specialista na ochranné operace"
+					}
+				},
+				"response": {
+					"context": {
+						"eng": "Client Command / Arclight Response Centre",
+						"trans": "Klientský příkaz / Operační centrum Arclight"
+					},
+					"title": {
+						"eng": "Client Response Controller",
+						"trans": "Ovladač odezvy klienta"
+					}
+				}
+			}
+		},
+		"contact": {
+			"directory": {
+				"cid": {
+					"access": {
+						"eng": "Sponsor only",
+						"trans": "Pouze pro sponzory"
+					},
+					"description": {
+						"eng": "Sponsor-backed candidate references and approved contractor correspondence.",
+						"trans": "Reference sponzorovaných kandidátů a schválená korespondence s kontraktory."
+					},
+					"title": {
+						"eng": "CID contractor liaison",
+						"trans": "Koordinátor kontaktů s dodavateli CID"
+					}
+				},
+				"corporate": {
+					"access": {
+						"eng": "Public",
+						"trans": "Veřejný"
+					},
+					"address": {
+						"eng": "corporate@circuitbreak.com",
+						"trans": "corporate@circuitbreak.com"
+					},
+					"description": {
+						"eng": "Company records, procurement, legal notices, recruitment, and general correspondence.",
+						"trans": "Firemní záznamy, nákupy, právní oznámení, nábor personálu a běžná korespondence."
+					},
+					"title": {
+						"eng": "Corporate and recruitment",
+						"trans": "Korporace a nábor"
+					}
+				},
+				"protected": {
+					"access": {
+						"eng": "Private intake",
+						"trans": "Přijímání jako soukromník"
+					},
+					"action": {
+						"eng": "Open a private mandate",
+						"trans": "Otevřít soukromý mandát"
+					},
+					"description": {
+						"eng": "Submit a new private-client mandate for controlled assessment.",
+						"trans": "Odeslat nový mandát pro soukromého klienta k řízenému vyhodnocení."
+					},
+					"title": {
+						"eng": "Private mandate",
+						"trans": "Soukromé pověření"
+					}
+				},
+				"response": {
+					"access": {
+						"eng": "Contracted clients",
+						"trans": "Smluvní klienti"
+					},
+					"description": {
+						"eng": "For active incidents under an existing mandate, use your assigned client relay. Public mail cannot dispatch field teams.",
+						"trans": "Pro aktivní incidenty v rámci platného mandátu používejte přiřazené klientské spojení. Veřejná pošta nemůže nasazovat terénní týmy."
+					},
+					"reference": {
+						"eng": "Use assigned client relay",
+						"trans": "Použít přiřazený klientský relay"
+					},
+					"title": {
+						"eng": "Active client response",
+						"trans": "Aktivní odezva klienta"
+					}
+				}
+			},
+			"directoryTitle": {
+				"eng": "Contact CircuitBreak",
+				"trans": "Kontaktovat CircuitBreak"
+			},
+			"eyebrow": {
+				"eng": "Contact",
+				"trans": "Kontakt"
+			},
+			"intro": {
+				"eng": "Choose the channel matching your request. Restricted matters cannot be transferred from public enquiries.",
+				"trans": "Zvolte kanál odpovídající vašemu požadavku. Citlivé záležitosti nelze převést z veřejných dotazů."
+			}
+		},
+		"contracts": {
+			"disclaimer": {
+				"eng": "Mandate availability and operator response are not guaranteed. CircuitBreak retains final network authority.",
+				"trans": "Dostupnost mandatu a reakce operátora nejsou zaručeny. CircuitBreak si vyhrazuje konečnou pravomoc nad sítí."
+			},
+			"emptyAction": {
+				"eng": "Open a contract",
+				"trans": "Otevřít kontrakt"
+			},
+			"emptyCode": {
+				"eng": "Ledger status / Clear",
+				"trans": "Stav záznamů / Vyčistit"
+			},
+			"emptyDescription": {
+				"eng": "No public mandate currently meets network requirements. Qualified clients may open a new contract.",
+				"trans": "Aktuálně žádný veřejný mandát nevyhovuje síťovým požadavkům. Kvalifikovaní klienti mohou otevřít nový kontrakt."
+			},
+			"eyebrow": {
+				"eng": "Private Client Network / Mandates",
+				"trans": "Privátní klientská síť / Mandáty"
+			},
+			"intro": {
+				"eng": "Active public mandates available to verified CircuitBreak operators. Select a target to review engagement options.",
+				"trans": "Aktivní veřejné mandáty dostupné ověřeným operátorům CircuitBreak. Vyberte cíl pro kontrolu možností střetu."
+			},
+			"levelColumn": {
+				"eng": "Level",
+				"trans": "Úroveň"
+			},
+			"loadingTitle": {
+				"eng": "Retrieving mandates",
+				"trans": "Načítání mandátů"
+			},
+			"openContract": {
+				"eng": "Place a Hit",
+				"trans": "Zasáhnout"
+			},
+			"sortLabel": {
+				"eng": "Sort: ${mode}",
+				"trans": "Seřadit: ${mode}"
+			},
+			"status": {
+				"eng": "Active ledger",
+				"trans": "Aktivní záznamy"
+			},
+			"targetColumn": {
+				"eng": "Target",
+				"trans": "Cíl"
+			},
+			"title": {
+				"eng": "Contract Board",
+				"trans": "Seznam zakázek"
+			},
+			"valueColumn": {
+				"eng": "Value",
+				"trans": "Hodnota"
+			}
+		},
+		"home": {
+			"hero": {
+				"classification": {
+					"eng": "Integrated security / Arclight",
+					"trans": "Integrované zabezpečení / Arclight"
+				},
+				"clientAccess": {
+					"eng": "Private client access",
+					"trans": "Soukromý přístup klienta"
+				},
+				"description": {
+					"eng": "CircuitBreak protects Arclight's most exposed institutions, assets, and executives. When deterrence fails, we resolve the exposure.",
+					"trans": "CircuitBreak zajišťuje ochranu nejvíce ohrožených institucí, aktiv a čelních představitelů Arclightu. Při selhání odstrašení řešíme slabá místa."
+				},
+				"imageAlt": {
+					"eng": "CircuitBreak headquarters and executive protection detail in Arclight",
+					"trans": "Hlavní stanice CircuitBreak a oddíl ochrany vedení v Arclightu"
+				},
+				"placeHit": {
+					"eng": "Place Hit",
+					"trans": "Vyhlásit odměnu"
+				},
+				"title": {
+					"eng": "Power, applied.",
+					"trans": "Napájení připojeno."
+				},
+				"viewBoard": {
+					"eng": "View Board",
+					"trans": "Zobrazit desku"
+				}
+			},
+			"services": {
+				"allServices": {
+					"eng": "View all services",
+					"trans": "Zobrazit všechny služby"
+				},
+				"highRisk": {
+					"description": {
+						"eng": "Integrated protection for critical sites and operations.",
+						"trans": "Integrovaná ochrana kritických objektů a operací."
+					},
+					"title": {
+						"eng": "High-risk security",
+						"trans": "Vysoce rizikové zabezpečení"
+					}
+				},
+				"label": {
+					"eng": "Capabilities",
+					"trans": "Schopnosti"
+				},
+				"protection": {
+					"description": {
+						"eng": "Protective teams and secure movement for exposed clients.",
+						"trans": "Ochranné týmy a zabezpečený přesun pro klienty v ohrožení."
+					},
+					"title": {
+						"eng": "Executive protection",
+						"trans": "Ochrana představitelů"
+					}
+				},
+				"response": {
+					"description": {
+						"eng": "Rapid intervention when a material threat becomes active.",
+						"trans": "Okamžitý zásah při aktivaci reálné hrozby."
+					},
+					"title": {
+						"eng": "Armed response",
+						"trans": "Ozbrojený zásah"
+					}
+				},
+				"title": {
+					"eng": "Protective services",
+					"trans": "Ochranné služby"
+				}
+			}
+		},
+		"placeHit": {
+			"actionIntro": {
+				"eng": "Choose a target and contract value, then review the cost before authorization.",
+				"trans": "Vyberte cíl a hodnotu kontraktu, poté zkontrolujte náklady před schválením."
+			},
+			"actionTitle": {
+				"eng": "Place a hit",
+				"trans": "Uzavřít kontrakt na likvidaci"
+			},
+			"amountModalTitle": {
+				"eng": "Contract value",
+				"trans": "Hodnota kontraktu"
+			},
+			"availableFunds": {
+				"eng": "Available funds",
+				"trans": "Dostupné prostředky"
+			},
+			"changeTarget": {
+				"eng": "Change",
+				"trans": "Změnit"
+			},
+			"changeValue": {
+				"eng": "Change",
+				"trans": "Změnit"
+			},
+			"formCode": {
+				"eng": "Form CB-17",
+				"trans": "Formulář CB-17"
+			},
+			"fundsStatus": {
+				"eng": "Available funds no longer cover this contract.",
+				"trans": "Dostupné prostředky již nestačí na tento kontrakt."
+			},
+			"insufficientFundsStatus": {
+				"eng": "Available funds are below the ${amount} ${currency} contract minimum.",
+				"trans": "Dostupné prostředky jsou nižší než minimální limit pro uzavření smlouvy ve výši ${amount} ${currency}."
+			},
+			"levelRequirement": {
+				"eng": "Level ${level} is required to authorize a contract.",
+				"trans": "Úroveň ${level} je vyžadována k autorizaci kontraktu."
+			},
+			"levelStatus": {
+				"eng": "Client authorization requires player level ${level}.",
+				"trans": "Autorizace klienta vyžaduje úroveň hráče ${level}."
+			},
+			"minimumStatus": {
+				"eng": "Set a contract value of at least ${amount} ${currency}.",
+				"trans": "Nastav hodnotu kontraktu alespoň na ${amount} ${currency}."
+			},
+			"minimumValue": {
+				"eng": "Minimum ${amount}",
+				"trans": "Minimálně ${amount}"
+			},
+			"networkLabel": {
+				"eng": "Private Client Network",
+				"trans": "Soukromá klientská síť"
+			},
+			"readyStatus": {
+				"eng": "Contract is ready to review.",
+				"trans": "Smlouvu lze nyní zkontrolovat."
+			},
+			"required": {
+				"eng": "Required",
+				"trans": "Nutné"
+			},
+			"restrictedStatus": {
+				"eng": "System restrictions prevent contract authorization.",
+				"trans": "Systémová omezení znemožňují autorizaci kontraktu."
+			},
+			"reviewAction": {
+				"eng": "Review contract",
+				"trans": "Zkontrolovat smlouvu"
+			},
+			"selectTargetAction": {
+				"eng": "Select",
+				"trans": "Vybrat"
+			},
+			"selectTargetStatus": {
+				"eng": "Select a target to continue.",
+				"trans": "Vyberte cíl pro pokračování."
+			},
+			"setValue": {
+				"eng": "Set value",
+				"trans": "Nastavit hodnotu"
+			},
+			"simpleTargetTitle": {
+				"eng": "1. Choose target",
+				"trans": "1. Vyberte cíl"
+			},
+			"simpleValueTitle": {
+				"eng": "2. Set contract value",
+				"trans": "2. Nastavit hodnotu kontraktu"
+			},
+			"targetEmpty": {
+				"eng": "Search verified player records",
+				"trans": "Vyhledat ověřené záznamy hráčů"
+			},
+			"targetLevelStatus": {
+				"eng": "Targets below level ${level} cannot be listed.",
+				"trans": "Cíle pod úrovní ${level} nelze zařadit do seznamu."
+			},
+			"targetSelected": {
+				"eng": "Verified identity selected",
+				"trans": "Ověřená identita vybrána"
+			}
+		},
+		"reviewHit": {
+			"authorizeAction": {
+				"eng": "Authorize contract",
+				"trans": "Schválit smlouvu"
+			},
+			"editAction": {
+				"eng": "Edit details",
+				"trans": "Upravit údaje"
+			},
+			"formCode": {
+				"eng": "Form CB-17 / Review",
+				"trans": "Formulář CB-17 / Kontrola"
+			},
+			"fundsStatus": {
+				"eng": "Available funds no longer cover this contract.",
+				"trans": "Dostupné prostředky již nestačí na tento kontrakt."
+			},
+			"intro": {
+				"eng": "Confirm the target and financial commitment before authorization.",
+				"trans": "Potvrďte cíl a finanční závazek před autorizací."
+			},
+			"invalidError": {
+				"eng": "Contract details changed. Return to the previous page and review them again.",
+				"trans": "Změnily se detaily zakázky. Přejděte zpět na předchozí obrazovku a znovu je zkontrolujte."
+			},
+			"invalidStatus": {
+				"eng": "Contract details are incomplete or no longer valid.",
+				"trans": "Detaily kontraktu jsou neúplné nebo již neplatné."
+			},
+			"levelStatus": {
+				"eng": "Client authorization requires player level ${level}.",
+				"trans": "Autorizace klienta vyžaduje úroveň hráče ${level}."
+			},
+			"loadingStatus": {
+				"eng": "Verifying contract details...",
+				"trans": "Ověřování detailů smlouvy..."
+			},
+			"minimumStatus": {
+				"eng": "Contract value must be at least ${amount} ${currency}.",
+				"trans": "Hodnota kontraktu musí činit alespoň ${amount} ${currency}."
+			},
+			"networkLabel": {
+				"eng": "Private Client Network",
+				"trans": "Soukromá klientská síť"
+			},
+			"notice": {
+				"eng": "Authorization transfers the committed funds immediately and publishes the contract to the active Board. This action cannot be reversed.",
+				"trans": "Autorizace okamžitě převede vyčleněné prostředky a zveřejní smlouvu na aktivní desce. Tuto akci nelze zvrátit."
+			},
+			"pendingTarget": {
+				"eng": "Unverified",
+				"trans": "Neověřeno"
+			},
+			"readyStatus": {
+				"eng": "Contract is ready for authorization.",
+				"trans": "Zakázka je připravena ke schválení."
+			},
+			"restrictedStatus": {
+				"eng": "System restrictions prevent contract authorization.",
+				"trans": "Systémová omezení znemožňují autorizaci kontraktu."
+			},
+			"target": {
+				"eng": "Target",
+				"trans": "Cíl"
+			},
+			"targetLevelStatus": {
+				"eng": "Targets below level ${level} cannot be listed.",
+				"trans": "Cíle pod úrovní ${level} nelze zařadit do seznamu."
+			},
+			"title": {
+				"eng": "Review contract",
+				"trans": "Zkontrolovat smlouvu"
+			},
+			"value": {
+				"eng": "Contract value",
+				"trans": "Hodnota kontraktu"
+			}
+		},
+		"services": {
+			"armedResponse": {
+				"description": {
+					"eng": "Disciplined intervention teams contain active threats, secure critical sites, and restore client control.",
+					"trans": "Disciplinované intervenční týmy neutralizují aktivní hrozby, zabezpečují klíčové lokality a obnovují kontrolu klienta."
+				},
+				"title": {
+					"eng": "Armed response",
+					"trans": "Ozbrojený zásah"
+				}
+			},
+			"assetRecovery": {
+				"description": {
+					"eng": "Specialist recovery teams locate and return sensitive property while limiting exposure, delay, and attribution.",
+					"trans": "Specializované tímy lokalizují a vracejí citlivý majetek s důrazem na omezení odhalení, zpoždění a sledovatelnosti."
+				},
+				"title": {
+					"eng": "Asset recovery",
+					"trans": "Obnova majetku"
+				}
+			},
+			"authorizationNotice": {
+				"eng": "All engagements require an authorized client mandate.",
+				"trans": "Všechny operace vyžadují autorizovaný mandát klienta."
+			},
+			"executiveProtection": {
+				"description": {
+					"eng": "Low-profile close protection, route control, and secure movement for executives operating under elevated threat.",
+					"trans": "Diskrétní osobní ochrana, kontrola tras a bezpečný přesun pro vedení čelící vysokému ohrožení."
+				},
+				"title": {
+					"eng": "Executive protection",
+					"trans": "Ochrana představitelů"
+				}
+			},
+			"eyebrow": {
+				"eng": "Services",
+				"trans": "Služby"
+			},
+			"imageAlt": {
+				"eng": "CircuitBreak close-protection team moving a client through a secure arrival",
+				"trans": "Ochranný tým CircuitBreak přemisťuje klienta přes zabezpečenou zónu příjezdu."
+			},
+			"intro": {
+				"eng": "CircuitBreak protects people, property, and continuity where ordinary security reaches its limit.",
+				"trans": "CircuitBreak chrání osoby, majetek a provozní kontinuitu tam, kde běžné zabezpečení dosahuje svých limitů."
+			},
+			"privateMandates": {
+				"action": {
+					"eng": "Open a private mandate",
+					"trans": "Otevřít soukromý mandát"
+				}
+			},
+			"threatIntelligence": {
+				"description": {
+					"eng": "Targeted surveillance and intelligence collection identify hostile intent before it becomes a public incident.",
+					"trans": "Cílené sledování a sběr informací odhalují nepřátelské záměry dříve, než se stanou veřejným incidentem."
+				},
+				"title": {
+					"eng": "Threat intelligence",
+					"trans": "Zpravodajství o hrozbách"
+				}
+			},
+			"title": {
+				"eng": "Protective services",
+				"trans": "Ochranné služby"
+			}
+		},
+		"shell": {
+			"footer": {
+				"careers": {
+					"eng": "Careers",
+					"trans": "Povolání"
+				},
+				"company": {
+					"eng": "CircuitBreak Security Solutions",
+					"trans": "CircuitBreak Bezpečnostní řešení"
+				},
+				"companyProfile": {
+					"eng": "Company profile",
+					"trans": "Profil společnosti"
+				},
+				"contact": {
+					"eng": "Contact CircuitBreak",
+					"trans": "Kontaktovat CircuitBreak"
+				},
+				"notice": {
+					"eng": "Client information is handled under strict confidentiality.",
+					"trans": "Informace o klientovi jsou zpracovávány s přísnou důvěrností."
+				}
+			},
+			"logoAlt": {
+				"eng": "CircuitBreak Security Solutions",
+				"trans": "CircuitBreak Bezpečnostní řešení"
+			},
+			"nav": {
+				"board": {
+					"eng": "Board",
+					"trans": "Nástěnka"
+				},
+				"careers": {
+					"eng": "Careers",
+					"trans": "Povolání"
+				},
+				"company": {
+					"eng": "Company",
+					"trans": "Společnost"
+				},
+				"contact": {
+					"eng": "Contact",
+					"trans": "Kontakt"
+				},
+				"home": {
+					"eng": "Home",
+					"trans": "Domů"
+				},
+				"services": {
+					"eng": "Services",
+					"trans": "Služby"
+				}
+			},
+			"placeHit": {
+				"eng": "Place Hit",
+				"trans": "Vyhlásit odměnu"
+			}
 		}
 	},
 	"clan": {
@@ -2907,6 +3663,10 @@
 		"clanResource": {
 			"eng": "+ ${amount} Gang resource",
 			"trans": "+ ${amount} zdrojů gangu"
+		},
+		"oneOf": {
+			"eng": "One of following:",
+			"trans": "Jedna z následujících možností:"
 		}
 	},
 	"confirmModal": {
@@ -4917,28 +5677,24 @@
 	},
 	"hitListPage": {
 		"bountyCount": {
-			"eng": "${count} bounties",
-			"trans": "${count} cen"
+			"eng": "${count} active",
+			"trans": "${count} aktivních"
 		},
 		"sort": {
 			"level": {
-				"eng": "Level",
-				"trans": "Úroveň"
+				"eng": "Target level",
+				"trans": "Cílová úroveň"
 			},
 			"price": {
-				"eng": "Price",
-				"trans": "Cena"
+				"eng": "Contract value",
+				"trans": "Hodnota kontraktu"
 			}
 		}
 	},
 	"hitlist": {
-		"loading": {
-			"eng": "Loading bounties...",
-			"trans": "Načítání odměn..."
-		},
 		"noBounties": {
-			"eng": "No bounties available",
-			"trans": "Žádné odměny k dispozici"
+			"eng": "No active contracts",
+			"trans": "Žádné aktivní zakázky"
 		},
 		"optionsPopup": {
 			"attack": {
@@ -4949,23 +5705,13 @@
 				"eng": "View Profile",
 				"trans": "Zobrazit profil"
 			}
-		},
-		"placeHitButton": {
-			"title": {
-				"eng": "Place Hit",
-				"trans": "Vyhlásit odměnu"
-			}
-		},
-		"title": {
-			"eng": "Hit List",
-			"trans": "Seznam cílů"
 		}
 	},
 	"hitman": {
 		"error": {
 			"cannotPlaceBountyOnAdmin": {
-				"eng": "You cannot place bounty on this player",
-				"trans": "Nelze na tohoto hráče nastavit odměnu."
+				"eng": "You cannot place or control this player.",
+				"trans": "Nemůžete tohoto hráče umístit ani ovládat."
 			},
 			"cannotPlaceBountyOnLowLevel": {
 				"eng": "You cannot place bounty on players lower than level ${level}",
@@ -5345,10 +6091,6 @@
 		"evidenceNumber": {
 			"eng": "Evidence #${number}",
 			"trans": "Důkaz #${number}"
-		},
-		"goToVerdict": {
-			"eng": "Go to verdict ${num}",
-			"trans": "Přejít na rozsudek ${num}"
 		},
 		"imageUnavailable": {
 			"eng": "Image Unavailable",
@@ -7977,10 +8719,6 @@
 				"eng": "News",
 				"trans": "Zprávy"
 			},
-			"goToNews": {
-				"eng": "Go to news ${index}",
-				"trans": "Přejít na zprávu ${index}"
-			},
 			"heading": {
 				"eng": "YOUR ACTIONS MAKE THE HEADLINES",
 				"trans": "Tvé akce jsou v titulcích"
@@ -7993,10 +8731,6 @@
 				"eng": "Arclight Times",
 				"trans": "Časy Arclight"
 			},
-			"next": {
-				"eng": "Next news",
-				"trans": "Další zpráva"
-			},
 			"noNews": {
 				"eng": "No news available at the moment",
 				"trans": "Momentálně nejsou k dispozici žádné novinky."
@@ -8004,10 +8738,6 @@
 			"overline": {
 				"eng": "LIVE WORLD EVENTS // PLAYER-DRIVEN NARRATIVE",
 				"trans": "Živé události ve světě // Hráčově řízený příběh"
-			},
-			"previous": {
-				"eng": "Previous news",
-				"trans": "Předchozí zprávy"
 			},
 			"reportBy": {
 				"eng": "REPORT BY",
@@ -9507,6 +10237,712 @@
 			"trans": "Filtry"
 		}
 	},
+	"megaEstateWebsite": {
+		"careers": {
+			"description": {
+				"eng": "MegaEstate evaluates verified resident profiles continuously. If your payment, access and conduct history meets a role requirement, we will contact you. No submission is necessary.",
+				"trans": "MegaEstate průběžně vyhodnocuje ověřené profily rezidentů. Pokud historie vašich plateb, přístupu a chování bude odpovídat požadavkům na danou roli, kontaktujeme vás. Žádost není nutné podávat."
+			},
+			"eyebrow": {
+				"eng": "Careers at MegaEstate",
+				"trans": "Kariéra v MegaEstate"
+			},
+			"hero": {
+				"imageAlt": {
+					"eng": "MegaEstate property operations team reviewing a residential building",
+					"trans": "Tým správy nemovitostí MegaEstate kontroluje obytný komplex."
+				}
+			},
+			"title": {
+				"eng": "Your record is your application.",
+				"trans": "Vaše historie je váš životopis."
+			},
+			"vacancies": {
+				"biometricAccess": {
+					"department": {
+						"eng": "Access infrastructure · Technical",
+						"trans": "Přístupová infrastruktura · Technické"
+					},
+					"description": {
+						"eng": "Maintain identity-linked entry systems, investigate access anomalies and revoke resident credentials across MegaEstate properties.",
+						"trans": "Spravujte identifikační vstupní systémy, vyšetřujte anomálie přístupu a zrušujte oprávnění rezidentů ve všech objektech společnosti MegaEstate."
+					},
+					"title": {
+						"eng": "Biometric Access Technician",
+						"trans": "Biometrický přístupový technik"
+					}
+				},
+				"count": {
+					"eng": "${count} active",
+					"trans": "${count} aktivních"
+				},
+				"eyebrow": {
+					"eng": "Open positions",
+					"trans": "Volná místa"
+				},
+				"occupancyCompliance": {
+					"department": {
+						"eng": "Portfolio compliance · Field",
+						"trans": "Soulad portfolia · Terén"
+					},
+					"description": {
+						"eng": "Conduct unannounced home inspections, document unregistered occupants and authorize access suspension when contract terms are breached.",
+						"trans": "Provést neohlášené kontroly obydlí, evidovat neregistrované obyvatele a autorizovat pozastavení přístupu při porušení smluvních podmínek."
+					},
+					"title": {
+						"eng": "Occupancy Compliance Officer",
+						"trans": "Kontrolor limitů obsazenosti"
+					}
+				},
+				"riskAnalyst": {
+					"department": {
+						"eng": "Resident intelligence · Analysis",
+						"trans": "Rezidentská inteligence · Analýza"
+					},
+					"description": {
+						"eng": "Combine payment history, property access and contract activity to predict renewal risk and recommend intervention.",
+						"trans": "Propojte historii plateb, přístup k majetku a smluvní aktivity pro predikci rizika neobnovení a doporučení cílených zásahů."
+					},
+					"title": {
+						"eng": "Resident Risk Analyst",
+						"trans": "Rezidentní analytik rizik"
+					}
+				},
+				"unitRecovery": {
+					"department": {
+						"eng": "Property recovery · Field",
+						"trans": "Návrat majetku · Areál"
+					},
+					"description": {
+						"eng": "Secure homes after lease termination, catalogue remaining property and return reclaimed units to inventory before the next billing cycle.",
+						"trans": "Po skončení nájmu zabezpečte bytové jednotky, katalogizujte zbývající majetek a vraťte získané jednotky do inventáře před zahájením dalšího fakturačního období."
+					},
+					"title": {
+						"eng": "Unit Recovery Coordinator",
+						"trans": "Koordinátor obnovy jednotek"
+					}
+				}
+			}
+		},
+		"company": {
+			"building": {
+				"caption": {
+					"eng": "Arclight lives here",
+					"trans": "Tady žije Arclight"
+				},
+				"imageAlt": {
+					"eng": "Residents arriving at a MegaEstate property in Arclight",
+					"trans": "Rezidenti právě dorazili k areálu MegaEstate v Arclightu."
+				}
+			},
+			"eyebrow": {
+				"eng": "About MegaEstate",
+				"trans": "O MegaEstate"
+			},
+			"introduction": {
+				"eng": "At MegaEstate, we bring rental homes across Arclight into one clear network. You can compare housing standards, see current availability and choose the address that works for you.",
+				"trans": "Ve službě MegaEstate sdružujeme všechny nájemní byty v Arclightu do jednoho přehledného systému. Porovnáte standardy ubytování, zkontrolujete aktuální dostupnost a vyberete si adresu, která vám nejlépe vyhovuje."
+			},
+			"leadership": {
+				"description": {
+					"eng": "Robert Smith sets our long-term direction as Chief Executive Officer. His approach is simple: manage housing at city scale, keep occupancy responsible and make every part of renting answer to one accountable company. From listing to renewal, that company is MegaEstate.",
+					"trans": "Robert Smith jako generální ředitel určuje naši dlouhodobou strategii. Jeho přístup je jednoduchý: spravovat bydlení v celoměstském měřítku, udržet obsazovanost pod kontrolou a sjednotit veškeré nájemní procesy pod jednu odpovědnou společnost. Od zveřejnění nabídky až po obnovu nájmu je to firma MegaEstate."
+				},
+				"eyebrow": {
+					"eng": "Leadership",
+					"trans": "Liderství"
+				},
+				"imageAlt": {
+					"eng": "Robert Smith, Chief Executive Officer of MegaEstate",
+					"trans": "Robert Smith, generální ředitel společnosti MegaEstate"
+				},
+				"name": {
+					"eng": "Robert Smith",
+					"trans": "Robert Smith"
+				},
+				"role": {
+					"eng": "Chief Executive Officer",
+					"trans": "Generální ředitel"
+				}
+			},
+			"model": {
+				"description": {
+					"eng": "Our four housing standards give you room to choose without starting over. Essential Housing, City Housing, Urban Studio and Central Residence all follow the same straightforward seven-day rental cycle.",
+					"trans": "Naše čtyři úrovně ubytování umožňují volný výběr bez nutnosti začínat znovu. Základní ubytování, městské ubytování, Urban Studio a Centrální rezidence se řídí stejným jednoduchým sedmidenním nájemním cyklem."
+				},
+				"eyebrow": {
+					"eng": "Made for life in Arclight",
+					"trans": "Navrženo pro život v Arclightu"
+				},
+				"title": {
+					"eng": "A home for what comes next.",
+					"trans": "Útočiště pro nadcházející éru."
+				}
+			},
+			"portfolio": {
+				"eng": "From a first address to a Central Residence, we make every move familiar: one place to browse, one rental process and one company behind every home we manage.",
+				"trans": "Od první adresy až k Centrální rezidenci zjednodušujeme každý přesun: jedno místo pro prohlížení, jeden pronájemní proces a jedna společnost za každým domovem, který spravujeme."
+			},
+			"title": {
+				"eng": "The city moves fast. Home should feel certain.",
+				"trans": "Ve městě panuje vysoké tempo. V domově se cítíte jistě."
+			}
+		},
+		"home": {
+			"city": {
+				"arclight": {
+					"eng": "Arclight City",
+					"trans": "Město Arclight"
+				},
+				"international": {
+					"eng": "International cities — Unavailable",
+					"trans": "Mezinárodní města — Nedostupné"
+				},
+				"label": {
+					"eng": "City",
+					"trans": "Město"
+				},
+				"otherNrc": {
+					"eng": "Other NRC cities — Unavailable",
+					"trans": "Ostatní města NRC — Nedostupná"
+				}
+			},
+			"hero": {
+				"description": {
+					"eng": "Explore homes available now across our four housing standards.",
+					"trans": "Prozkoumejte dostupná obydlí ve všech čtyřech úrovních bydlení."
+				},
+				"eyebrow": {
+					"eng": "Rental homes in Arclight City",
+					"trans": "Domy na pronájem ve městě Arclight"
+				},
+				"imageAlt": {
+					"eng": "Central Residence overlooking Arclight City",
+					"trans": "Centrální rezidence s výhledem na město Arclight"
+				},
+				"title": {
+					"eng": "Find your place in Arclight.",
+					"trans": "Najdi si své místo v Arclight."
+				},
+				"viewListings": {
+					"eng": "Browse current listings",
+					"trans": "Prohlížet aktuální nabídky"
+				}
+			},
+			"introduction": {
+				"availability": {
+					"description": {
+						"eng": "We only show homes currently available to rent in Arclight.",
+						"trans": "Zobrazujeme pouze nemovitosti aktuálně dostupné k pronájmu ve městě Arclight."
+					},
+					"title": {
+						"eng": "Current availability",
+						"trans": "Aktuální dostupnost"
+					}
+				},
+				"description": {
+					"eng": "From essential housing to central residences, we bring Arclight's available rentals together in one place. Browse real homes, compare actual weekly rent and choose the standard that fits your life.",
+					"trans": "Od základního ubytování až po rezidence v centru spojujeme všechny dostupné nájmy v Arclightu na jednom místě. Procházejte skutečné nemovitosti, srovnejte aktuální týdenní nájemné a zvolte si úroveň bydlení podle vašeho životního stylu."
+				},
+				"eyebrow": {
+					"eng": "Arclight residential rentals",
+					"trans": "Rezidenční pronájmy v Arclightu"
+				},
+				"pricing": {
+					"description": {
+						"eng": "See the actual weekly rent for every available home.",
+						"trans": "Zobrazte si skutečné týdenní nájemné za všechny dostupné byty."
+					},
+					"title": {
+						"eng": "Clear weekly pricing",
+						"trans": "Transparentní týdenní ceny"
+					}
+				},
+				"standards": {
+					"benefitsDescription": {
+						"eng": "Compare added inventory space, vault capacity and mercenary contact slots before choosing.",
+						"trans": "Před výběrem si porovnejte přidělený prostor inventáře, kapacitu trezoru a nové kontaktní sloty pro zbrojně."
+					},
+					"title": {
+						"eng": "Four housing standards",
+						"trans": "Čtyři standardy bydlení"
+					}
+				},
+				"title": {
+					"eng": "A better way to find a home in Arclight.",
+					"trans": "Lepší způsob, jak najít bydlení v Arclightu."
+				},
+				"viewListings": {
+					"eng": "Explore current listings",
+					"trans": "Prozkoumat aktuální nabídky"
+				}
+			},
+			"renting": {
+				"description": {
+					"eng": "We charge your first seven-day period when the rental starts. After each period, we process renewal during the next scheduled billing check.",
+					"trans": "Poplatek za první sedmidenní období je stržen ihned při zahájení pronájmu. Obnovení pronájmu po každém období zpracujeme v rámci následujícího plánovaného kontrolního cyklu fakturace."
+				},
+				"eyebrow": {
+					"eng": "Renting with MegaEstate",
+					"trans": "Pronájem s MegaEstate"
+				},
+				"guide": {
+					"eng": "See how renting works",
+					"trans": "Jak funguje pronájem"
+				},
+				"title": {
+					"eng": "Choose today. Renew week by week.",
+					"trans": "Vyberte dnes. Obnovuje se každý týden."
+				}
+			},
+			"standards": {
+				"compare": {
+					"eng": "Compare housing standards",
+					"trans": "Porovnat úroveň bydlení"
+				},
+				"description": {
+					"eng": "Each of our housing standards offers a different balance of space, storage and capacity. Compare them here, then see real homes and weekly rent in Listings.",
+					"trans": "Každý z našich standardů ubytování nabízí jiný poměr prostoru, úložiště a kapacity. Porovnejte je zde a v sekci Nabídky si prohlédněte dostupné byty s výší týdenního nájmu."
+				},
+				"eyebrow": {
+					"eng": "Housing standards",
+					"trans": "Normy bydlení"
+				},
+				"mercenarySlots": {
+					"eng": "Merc slots",
+					"trans": "Sloty mercenářů"
+				},
+				"storage": {
+					"eng": "Storage",
+					"trans": "Úložiště"
+				},
+				"title": {
+					"eng": "Four ways to live in Arclight.",
+					"trans": "Čtyři způsoby života v Arclightu."
+				},
+				"vault": {
+					"eng": "Vault",
+					"trans": "Trezor"
+				}
+			}
+		},
+		"homeDetails": {
+			"confirm": {
+				"action": {
+					"eng": "Rent this home",
+					"trans": "Pronajmout tento dům"
+				},
+				"description": {
+					"eng": "Rent ${address} for ${price} ${currency} per week. We charge the first seven-day period when the rental starts.",
+					"trans": "Pronajměte ${address} za ${price} ${currency} týdně. Úhrada prvního týdne se účtuje ihned po zahájení nájmu."
+				},
+				"perWeek": {
+					"eng": "per week",
+					"trans": "týdně"
+				},
+				"replacementDescription": {
+					"eng": "Rent ${address} for ${price} ${currency} per week. We charge the first seven-day period when the rental starts, and this immediately replaces your current home.",
+					"trans": "Pronajmi si ${address} za ${price} ${currency} týdně. Poplatek za první týden se platí ihned při zahájení nájmu a tento prostor okamžitě nahradí váš současný domov."
+				},
+				"title": {
+					"eng": "Rent this home?",
+					"trans": "Pronajmout toto obydlí?"
+				},
+				"weeklyRent": {
+					"eng": "Weekly rent",
+					"trans": "Týdenní nájemné"
+				}
+			},
+			"currentHome": {
+				"eng": "Current home",
+				"trans": "Aktuální domov"
+			},
+			"error": {
+				"description": {
+					"eng": "Return to Listings and try this home again when availability can be loaded.",
+					"trans": "Vraťte se do přehledu nabídek a zkuste tento dům vybrat znovu po načtení údajů o dostupnosti."
+				},
+				"title": {
+					"eng": "We couldn't check this home's availability",
+					"trans": "Dostupnost této nemovitosti se nepodařilo ověřit."
+				}
+			},
+			"imageAlt": {
+				"eng": "Rental home at ${address}",
+				"trans": "Dům k pronájmu na adrese ${address}"
+			},
+			"invalid": {
+				"description": {
+					"eng": "Return to Listings to choose from homes currently available.",
+					"trans": "Vraťte se do nabídky pro výběr z aktuálně dostupných nemovitostí."
+				},
+				"title": {
+					"eng": "We can't open this home",
+					"trans": "Tento domov nelze otevřít."
+				}
+			},
+			"mercenarySlots": {
+				"eng": "Merc slots",
+				"trans": "Sloty mercenářů"
+			},
+			"metrics": {
+				"mercenarySlots": {
+					"description": {
+						"eng": "Adds ${count} mercenary contact slots to your recruitment limit.",
+						"trans": "Přidá ${count} míst k limitu náboru žoldnéřů."
+					}
+				},
+				"storage": {
+					"description": {
+						"eng": "Adds ${count} slots to your inventory.",
+						"trans": "Přidá ${count} slotů do vašeho inventáře."
+					}
+				},
+				"vault": {
+					"description": {
+						"eng": "Holds up to ${count} item stacks in your apartment vault.",
+						"trans": "Uchová až ${count} hromádek předmětů ve vašem bytovém trezoru."
+					}
+				}
+			},
+			"perWeek": {
+				"eng": "per week",
+				"trans": "týdně"
+			},
+			"renewal": {
+				"description": {
+					"eng": "We charge the first seven-day period when your rental starts. After each period, we process renewal during the next scheduled billing check; insufficient funds end the lease.",
+					"trans": "Poplatek za první sedmidenní období je stržen okamžitě po spuštění nájmu. Obnovení probíhá při další plánované platbě; nedostatek prostředků nájem ukončí."
+				},
+				"eyebrow": {
+					"eng": "Seven-day rental cycle",
+					"trans": "Týdenní cyklus pronájmu"
+				}
+			},
+			"rent": {
+				"eng": "Rent this home",
+				"trans": "Pronajmout tento dům"
+			},
+			"replacement": {
+				"description": {
+					"eng": "Starting this rental ends your existing lease immediately.",
+					"trans": "Aktivace tohoto pronájmu okamžitě ukončí váš stávající nájem."
+				},
+				"title": {
+					"eng": "This replaces your current home",
+					"trans": "Nahradí to vaše současné bydliště"
+				}
+			},
+			"storage": {
+				"eng": "Storage",
+				"trans": "Úložiště"
+			},
+			"unavailable": {
+				"description": {
+					"eng": "This listing is no longer available. Return to Listings to view current homes.",
+					"trans": "Tato nabídka již není k dispozici. Vraťte se do přehledu nabídek pro zobrazení aktuálních domů."
+				},
+				"title": {
+					"eng": "This home is no longer available",
+					"trans": "Toto útočiště již není k dispozici."
+				}
+			},
+			"vault": {
+				"eng": "Vault",
+				"trans": "Trezor"
+			},
+			"weeklyRent": {
+				"eng": "Weekly rent",
+				"trans": "Týdenní nájemné"
+			}
+		},
+		"housingStandards": {
+			"a0": {
+				"description": {
+					"eng": "A practical first address with the essentials for independent city living.",
+					"trans": "Praktické první bydlení s nezbytnostmi pro nezávislý život ve městě."
+				}
+			},
+			"a1": {
+				"description": {
+					"eng": "A versatile city home with additional storage and vault space for an established routine.",
+					"trans": "Univerzální městský byt s přídavným úložným prostorem a trezorem pro ustálený režim."
+				}
+			},
+			"a2": {
+				"description": {
+					"eng": "A focused urban home with generous storage for residents who need more from a compact address.",
+					"trans": "Optimalizovaný městský byt s dostatkem úložných prostor pro obyvatele, kteří vyžadují maximum z kompaktního bydlení."
+				}
+			},
+			"a3": {
+				"description": {
+					"eng": "Our premier residence offers the most room for residents, belongings and protected storage.",
+					"trans": "Naše elitní rezidence nabízí maximální prostor pro obyvatele, majetek a zabezpečené úložiště."
+				}
+			},
+			"benefitsDescription": {
+				"eng": "Compare added inventory space, vault capacity and mercenary contact slots across every standard.",
+				"trans": "Porovnej přidané místo v inventáři, kapacitu trezoru a kontaktní sloty pro zbrojniki napříč všemi standardy."
+			},
+			"browseListings": {
+				"eng": "Browse current listings",
+				"trans": "Prohlížet aktuální nabídky"
+			},
+			"eyebrow": {
+				"eng": "The MegaEstate range",
+				"trans": "Řada MegaEstate"
+			},
+			"imageAlt": {
+				"eng": "${standard} rental home",
+				"trans": "${standard} nájemní byt"
+			},
+			"imageCaption": {
+				"eng": "Standard ${code}",
+				"trans": "Standartní ${code}"
+			},
+			"mercenarySlots": {
+				"eng": "Merc slots",
+				"trans": "Sloty mercenářů"
+			},
+			"storage": {
+				"eng": "Storage",
+				"trans": "Úložiště"
+			},
+			"title": {
+				"eng": "A clear standard for every stage of city life.",
+				"trans": "Jasný standard pro každou etapu městského života."
+			},
+			"vault": {
+				"eng": "Vault",
+				"trans": "Trezor"
+			}
+		},
+		"listings": {
+			"availableCount": {
+				"eng": "Available listings: ${count}",
+				"trans": "Dostupné nabídky: ${count}"
+			},
+			"empty": {
+				"description": {
+					"eng": "Choose another housing standard to view its current availability.",
+					"trans": "Zvolte jiný standard ubytování pro zobrazení aktuální dostupnosti."
+				},
+				"title": {
+					"eng": "No listings available in this standard",
+					"trans": "V tomto standardu nejsou k dispozici žádné nabídky."
+				}
+			},
+			"error": {
+				"description": {
+					"eng": "Choose another housing standard or return later to check availability.",
+					"trans": "Zvolte jiný typ ubytování nebo se vraťte později a zkontrolujte dostupnost."
+				},
+				"title": {
+					"eng": "We couldn't load current availability",
+					"trans": "Nelze načíst aktuální dostupnost."
+				}
+			},
+			"eyebrow": {
+				"eng": "MegaEstate listings",
+				"trans": "Inzeráty MegaEstate"
+			},
+			"listing": {
+				"currentHome": {
+					"eng": "Current home",
+					"trans": "Aktuální domov"
+				},
+				"imageAlt": {
+					"eng": "${standard} rental home",
+					"trans": "${standard} nájemní byt"
+				},
+				"perWeek": {
+					"eng": "per week",
+					"trans": "týdně"
+				},
+				"weeklyRent": {
+					"eng": "Weekly rent",
+					"trans": "Týdenní nájemné"
+				}
+			},
+			"loadingCount": {
+				"eng": "Checking current availability…",
+				"trans": "Kontrola aktuální dostupnosti…"
+			},
+			"standardLabel": {
+				"eng": "Housing standard",
+				"trans": "Standard bydlení"
+			},
+			"title": {
+				"eng": "Find your next home in Arclight.",
+				"trans": "Získejte nové bydlení v Arclightu."
+			}
+		},
+		"rentalGuide": {
+			"browseListings": {
+				"eng": "Browse current listings",
+				"trans": "Prohlížet aktuální nabídky"
+			},
+			"compareStandards": {
+				"eng": "Compare housing standards",
+				"trans": "Porovnat úroveň bydlení"
+			},
+			"description": {
+				"eng": "One clear process for your first payment, every renewal and any move that follows.",
+				"trans": "Jeden přehledný postup pro první platbu, každé obnovení i jakýkoli následný přesun."
+			},
+			"eyebrow": {
+				"eng": "Rental guide",
+				"trans": "Návod k pronájmu"
+			},
+			"guide": {
+				"change": {
+					"description": {
+						"eng": "When you rent a new home, we end your current lease immediately. Review your choice before starting the new rental.",
+						"trans": "Při pronájmu nového bydlení okamžitě zrušíme vaši současnou nájemní smlouvu. Před zahájením nového nájmu si ověřte svůj výběr."
+					},
+					"title": {
+						"eng": "Changing your home",
+						"trans": "Změna domova"
+					}
+				},
+				"description": {
+					"eng": "Review these four details before you start a rental.",
+					"trans": "Projděte si tyto čtyři informace před spuštěním pronájmu."
+				},
+				"eyebrow": {
+					"eng": "Before you rent",
+					"trans": "Před pronájmem"
+				},
+				"funds": {
+					"description": {
+						"eng": "Keep enough funds available before renewal is due. If funds are insufficient, renewal fails and your lease ends immediately.",
+						"trans": "Před splatností obnovy mějte k dispozici dostatečný zůstatek. Pokud prostředky nestačí, obnova selže a pronájem okamžitě skončí."
+					},
+					"title": {
+						"eng": "If renewal funds are unavailable",
+						"trans": "Pokud nejsou k dispozici obnovovací prostředky"
+					}
+				},
+				"renewal": {
+					"description": {
+						"eng": "Each payment covers seven days. We process renewal during the next scheduled billing check and notify you when it succeeds or fails.",
+						"trans": "Platba je platná po dobu sedmi dnů. Obnovení zpracujeme při příští plánované platobní kontrole a zašleme vám oznámení o úspěchu či selhání."
+					},
+					"title": {
+						"eng": "Automatic weekly renewal",
+						"trans": "Automatické týdenní prodlužování"
+					}
+				},
+				"start": {
+					"description": {
+						"eng": "We charge the first seven-day period when your rental starts.",
+						"trans": "Poplatek za prvních sedm dní pronájmu je účtován od jeho začátku."
+					},
+					"title": {
+						"eng": "When your rental starts",
+						"trans": "Začátek pronájmu"
+					}
+				}
+			},
+			"nextStep": {
+				"description": {
+					"eng": "Compare housing standards or go directly to current availability.",
+					"trans": "Porovnejte parametry ubytování nebo přejděte přímo na aktuální dostupnost."
+				},
+				"eyebrow": {
+					"eng": "Next step",
+					"trans": "Další krok"
+				},
+				"title": {
+					"eng": "Choose a home when you are ready.",
+					"trans": "Zvolte si domov, až budete připraveni."
+				}
+			},
+			"title": {
+				"eng": "Renting with MegaEstate.",
+				"trans": "Pronájem přes MegaEstate."
+			}
+		},
+		"shell": {
+			"closeMenu": {
+				"eng": "Close",
+				"trans": "Zavřít"
+			},
+			"directory": {
+				"eng": "Explore MegaEstate",
+				"trans": "Prozkoumejte MegaEstate"
+			},
+			"footer": {
+				"about": {
+					"eng": "About MegaEstate",
+					"trans": "O MegaEstate"
+				},
+				"careers": {
+					"eng": "Careers",
+					"trans": "Povolání"
+				},
+				"company": {
+					"eng": "MegaEstate",
+					"trans": "MegaEstate"
+				},
+				"description": {
+					"eng": "Find your place in Arclight City.",
+					"trans": "Najdi si své místo v Městě Arclight."
+				},
+				"housingStandards": {
+					"eng": "Housing standards",
+					"trans": "Normy bydlení"
+				},
+				"listings": {
+					"eng": "Listings",
+					"trans": "Nabídky"
+				},
+				"overview": {
+					"eng": "Overview",
+					"trans": "Přehled"
+				},
+				"renting": {
+					"eng": "How renting works",
+					"trans": "Jak funguje pronájem"
+				}
+			},
+			"location": {
+				"eng": "Find your place in Arclight City.",
+				"trans": "Najdi si své místo v Městě Arclight."
+			},
+			"logoAlt": {
+				"eng": "MegaEstate",
+				"trans": "MegaEstate"
+			},
+			"nav": {
+				"about": {
+					"eng": "About MegaEstate",
+					"trans": "O MegaEstate"
+				},
+				"careers": {
+					"eng": "Careers",
+					"trans": "Povolání"
+				},
+				"housingStandards": {
+					"eng": "Housing standards",
+					"trans": "Normy bydlení"
+				},
+				"listings": {
+					"eng": "Listings",
+					"trans": "Nabídky"
+				},
+				"renting": {
+					"eng": "How renting works",
+					"trans": "Jak funguje pronájem"
+				}
+			},
+			"openMenu": {
+				"eng": "Menu",
+				"trans": "Nabídka"
+			}
+		}
+	},
 	"mercenary": {
 		"error": {
 			"firstDraw": {
@@ -10305,10 +11741,6 @@
 				"eng": "System Overload",
 				"trans": "Přetížení systému"
 			},
-			"gaugeLabel": {
-				"eng": "Pressure gauge - hold to regulate",
-				"trans": "Měřič tlaku – držte pro regulaci"
-			},
 			"holdingHint": {
 				"eng": "Hold Active",
 				"trans": "Drž aktivní"
@@ -10328,10 +11760,6 @@
 			"retry": {
 				"eng": "Reset System",
 				"trans": "Resetovat systém"
-			},
-			"retryLabel": {
-				"eng": "Reset system and try again",
-				"trans": "Resetuj systém a zkus to znovu."
 			},
 			"safeZone": {
 				"eng": "Target Zone",
@@ -10496,6 +11924,98 @@
 			"tip": {
 				"eng": "Activate all dots to unlock by clicking. The dots will rotate faster and faster.",
 				"trans": "Klikněte na všechny body, aby se aktivovaly a odemkly. Body se budou otáčet stále rychleji."
+			}
+		},
+		"vectorPress": {
+			"cassette": {
+				"verified": {
+					"eng": "Access Key Verified",
+					"trans": "Přístupový klíč ověřen"
+				}
+			},
+			"controls": {
+				"armed": {
+					"eng": "Input Armed",
+					"trans": "Vstup aktivován"
+				},
+				"locked": {
+					"eng": "Input Locked",
+					"trans": "Ovládání zablokováno"
+				},
+				"title": {
+					"eng": "Manual Vector Input",
+					"trans": "Ruční zadání vektoru"
+				}
+			},
+			"direction": {
+				"down": {
+					"eng": "Down",
+					"trans": "Dolů"
+				},
+				"left": {
+					"eng": "Left",
+					"trans": "Doleva"
+				},
+				"right": {
+					"eng": "Right",
+					"trans": "Vpravo"
+				},
+				"up": {
+					"eng": "Up",
+					"trans": "Nahoru"
+				}
+			},
+			"header": {
+				"progress": {
+					"eng": "Key Progress",
+					"trans": "Hlavní postup"
+				},
+				"protocol": {
+					"eng": "Access Protocol VP-06",
+					"trans": "Přístupový protokol VP-06"
+				},
+				"title": {
+					"eng": "Vector Press",
+					"trans": "Vector Press"
+				}
+			},
+			"instruction": {
+				"eng": "Match each vector to punch the access key",
+				"trans": "Sestavte všechny vektory pro zadání přístupového klíče."
+			},
+			"status": {
+				"advancing": {
+					"eng": "Cassette advancing",
+					"trans": "Přepouštění kazety"
+				},
+				"currentDirection": {
+					"eng": "Current required vector: ${direction}",
+					"trans": "Aktuální požadovaný vektor: ${direction}"
+				},
+				"label": {
+					"eng": "SYS.VP//STATE",
+					"trans": "SYS.VP//STATE"
+				},
+				"punching": {
+					"eng": "Punch accepted",
+					"trans": "Výzva přijata"
+				},
+				"ready": {
+					"eng": "Awaiting vector input",
+					"trans": "Čeká se na vektorový vstup."
+				},
+				"rejected": {
+					"eng": "Vector mismatch — retry",
+					"trans": "Nesoulad vektorů — Zkusit znovu"
+				},
+				"verified": {
+					"eng": "Access key verified",
+					"trans": "Přístupový klíč ověřen"
+				},
+				"verifying": {
+					"eng": "Verifying access key",
+					"trans": "Ověřování přístupového klíče"
+				}
 			}
 		}
 	},
@@ -10940,9 +12460,17 @@
 		}
 	},
 	"newsCard": {
+		"decrypted": {
+			"eng": "DECRYPTED",
+			"trans": "Dekryptováno"
+		},
 		"new": {
 			"eng": "NEW",
 			"trans": "NOVÉ"
+		},
+		"operative": {
+			"eng": "OPERATIVE",
+			"trans": "AGENT"
 		}
 	},
 	"newsPage": {
@@ -12172,29 +13700,9 @@
 		}
 	},
 	"placeHitPage": {
-		"levelTooLow": {
-			"eng": "You need to be at least level ${level} to place a hit.",
-			"trans": "Musíte mít alespoň úroveň ${level} pro provedení zásahu."
-		},
-		"notEnoughUnitError1": {
-			"eng": "Minimum hit bounty is ${minNormal}",
-			"trans": "Minimální odměna za zásah je ${minNormal}"
-		},
-		"placeHit": {
-			"eng": "Place hit",
-			"trans": "Vyhlásit odměnu"
-		},
-		"selectPlayer": {
-			"eng": "Select player",
-			"trans": "Vyber hráče"
-		},
 		"selectPlayerClick": {
-			"eng": "Click to select a player",
-			"trans": "Klikněte pro výběr hráče"
-		},
-		"tip": {
-			"eng": "You can place a hit on a player by paying a certain amount of money and/or unit.",
-			"trans": "Na hráče můžeš nastavit hit zaplacením určité částky peněz a/nebo jednotek."
+			"eng": "Select target",
+			"trans": "Vybrat cíl"
 		}
 	},
 	"player": {
@@ -15020,10 +16528,6 @@
 			"eng": "${current} / ${total}",
 			"trans": "${current} / ${total}"
 		},
-		"pageInputAriaLabel": {
-			"eng": "Enter page number",
-			"trans": "Zadejte číslo stránky"
-		},
 		"pageInputPlaceholder": {
 			"eng": "Page #",
 			"trans": "Stránka #"
@@ -15206,6 +16710,26 @@
 			"notIdle": {
 				"eng": "You are not idle",
 				"trans": "Nejsi nečinný"
+			},
+			"priorityOperationAlreadyActive": {
+				"eng": "You already have a Priority Operation in progress",
+				"trans": "Máte již aktivní Prioritní operaci."
+			},
+			"priorityOperationFirstPlaceRequired": {
+				"eng": "Your gang must hold the highest positive war score to start this operation",
+				"trans": "Váš gang musí mít nejvyšší kladné válečné skóre pro zahájení této operace."
+			},
+			"priorityOperationGangRequired": {
+				"eng": "Only members of a first-place war gang can start this operation",
+				"trans": "Pouze členové válečného gangu na prvenství mohou tuto operaci zahájit."
+			},
+			"priorityOperationInvalidated": {
+				"eng": "Priority Operation invalidated because your gang no longer held first place at settlement",
+				"trans": "Prioritní operace zrušena, protože váš gang již neobsazuje první místo v hodnocení sídla."
+			},
+			"priorityOperationSkipFirstPlaceRequired": {
+				"eng": "Your gang must still hold first place to finish this operation now",
+				"trans": "Váš gang musí zůstat na prvním místě k dokončení této operace."
 			}
 		},
 		"notification": {
@@ -16503,13 +18027,21 @@
 			}
 		},
 		"megaAd": {
-			"subtitle": {
-				"eng": "Mega Estate - the only agency that wont scam you!",
-				"trans": "Mega Estate – jediná agentura, která vás neklamá!"
+			"action": {
+				"eng": "View current rental availability",
+				"trans": "Zobrazit aktuální dostupnost pronájmů"
+			},
+			"backgroundAlt": {
+				"eng": "MegaEstate residence in Arclight City",
+				"trans": "Rezidence MegaEstate ve městě Arclight"
+			},
+			"logoAlt": {
+				"eng": "MegaEstate",
+				"trans": "MegaEstate"
 			},
 			"title": {
-				"eng": "Cheap Price!!",
-				"trans": "Levná cena!"
+				"eng": "Homes across Arclight",
+				"trans": "Rezidence napříč Arclightem"
 			}
 		},
 		"news": {
@@ -16764,6 +18296,10 @@
 			"eng": "President Jackson Morrison",
 			"trans": "Prezident Jackson Morrison"
 		},
+		"leeJongSuk": {
+			"eng": "CEO Lee Jong-suk",
+			"trans": "CEO Lee Jong-suk"
+		},
 		"liWei": {
 			"eng": "Premier Li Wei",
 			"trans": "Preiér Li Wei"
@@ -16807,6 +18343,10 @@
 		"rezaHosseini": {
 			"eng": "Supreme Leader Ayatollah Reza Hosseini",
 			"trans": "Nejvyšší vůdce ajatolláh Reza Hosseini"
+		},
+		"robertSmith": {
+			"eng": "CEO Robert Smith",
+			"trans": "CEO Robert Smith"
 		},
 		"sarahGoldman": {
 			"eng": "Prime Minister-CEO Sarah Goldman",
@@ -17112,6 +18652,20 @@
 				"trans": "Prezident Morrison"
 			}
 		},
+		"leeJongSuk": {
+			"ceoLee": {
+				"eng": "CEO Lee",
+				"trans": "CEO Lee"
+			},
+			"circuitbreakCeo": {
+				"eng": "CircuitBreak CEO",
+				"trans": "CircuitBreak Generální ředitel"
+			},
+			"leeJongSuk": {
+				"eng": "Lee Jong-suk",
+				"trans": "Lee Jong-suk"
+			}
+		},
 		"liWei": {
 			"li": {
 				"eng": "Li",
@@ -17272,6 +18826,20 @@
 			"supremeLeaderHosseini": {
 				"eng": "Supreme Leader Hosseini",
 				"trans": "Nejvyšší vůdce Hosseini"
+			}
+		},
+		"robertSmith": {
+			"ceoSmith": {
+				"eng": "CEO Smith",
+				"trans": "Generální ředitel Smith"
+			},
+			"megaestateCeo": {
+				"eng": "MegaEstate CEO",
+				"trans": "Generální ředitel MegaEstate"
+			},
+			"robertSmith": {
+				"eng": "Robert Smith",
+				"trans": "Robert Smith"
 			}
 		},
 		"sarahGoldman": {

@@ -28,7 +28,7 @@ Intrigued by these clues, you decide to delve deeper into Lethia Flores' history
 > 
 > "Dear Lethia,
 > 
-> I know what you're going through, and I want you to know that there is hope. The MegaEstate company has been ripping people off for far too long, and someone needs to put a stop to it. We can start by taking down their CEO, Adriaens Clark. His office is located in the downtown metropolis - a perfect opportunity to strike back against those who think they're untouchable.
+> I know what you're going through, and I want you to know that there is hope. The MegaEstate company has been ripping people off for far too long, and someone needs to put a stop to it. We can start by taking down MegaEstate's CEO at the time, Adriaens Clark. His office is located in the downtown metropolis - a perfect opportunity to strike back against those who think they're untouchable.
 > 
 > Together, we can make Arclight City a better place for everyone. I believe in you, Lethia.
 > 

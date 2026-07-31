@@ -374,24 +374,40 @@
 			"displayName": {
 				"eng": "Slum Apartment",
 				"trans": "ห้องเช่าโทรม"
+			},
+			"websiteDisplayName": {
+				"eng": "Essential Housing",
+				"trans": "ที่อยู่อาศัยพื้นฐาน"
 			}
 		},
 		"apartment1": {
 			"displayName": {
 				"eng": "Low-end Apartment",
 				"trans": "ห้องแถว"
+			},
+			"websiteDisplayName": {
+				"eng": "City Housing",
+				"trans": "ที่พักในเมือง"
 			}
 		},
 		"apartment2": {
 			"displayName": {
 				"eng": "Budget Studio",
 				"trans": "สตูดิโอราคาถูก"
+			},
+			"websiteDisplayName": {
+				"eng": "Urban Studio",
+				"trans": "สตูดิโอย่านเมือง"
 			}
 		},
 		"apartment3": {
 			"displayName": {
 				"eng": "Downtown Apartment",
 				"trans": "คอนโดกลางเมือง"
+			},
+			"websiteDisplayName": {
+				"eng": "Central Residence",
+				"trans": "ที่พักกลาง"
 			}
 		},
 		"chat": {
@@ -567,28 +583,6 @@
 				"eng": "Vault",
 				"trans": "เซฟ"
 			}
-		}
-	},
-	"apartmentPurchasePage": {
-		"confirmDescription": {
-			"eng": "Are you sure you want to rent this apartment? if you already have an apartment, it will be dismissed.",
-			"trans": "คุณแน่ใจหรือไม่ว่าต้องการเช่าอพาร์ตเมนต์นี้? หากคุณมีอพาร์ตเมนต์อยู่แล้ว อพาร์ตเมนต์เดิมจะถูกยกเลิก"
-		},
-		"confirmTitle": {
-			"eng": "Confirm Rental",
-			"trans": "เช่าเลย"
-		},
-		"owned": {
-			"eng": "Owned",
-			"trans": "ครอบครอง"
-		},
-		"perWeek": {
-			"eng": "Per week",
-			"trans": "ต่อสัปดาห์"
-		},
-		"rent": {
-			"eng": "Rent Now",
-			"trans": "กดเช่า"
 		}
 	},
 	"appProductType": {
@@ -920,10 +914,14 @@
 			"eng": "Task completed",
 			"trans": "สำเร็จ"
 		},
+		"dismissButton": {
+			"eng": "Dismiss",
+			"trans": "ยกเลิก"
+		},
 		"emptyTask": {
 			"description": {
-				"eng": "Click to choose a task",
-				"trans": "เลือกงาน"
+				"eng": "Assign operation",
+				"trans": "มอบหมายปฏิบัติการ"
 			},
 			"title": {
 				"eng": "Task slot available",
@@ -932,7 +930,7 @@
 		},
 		"inProgress": {
 			"eng": "Task in progress...",
-			"trans": "กำลังทำอยู่..."
+			"trans": "กำลังดำเนินการ"
 		},
 		"instantFinish": {
 			"eng": "Finish Now",
@@ -941,6 +939,10 @@
 		"instantFinishConfirmTitle": {
 			"eng": "Finish task now?",
 			"trans": "เสร็จงานเลยไหม?"
+		},
+		"invalidated": {
+			"eng": "Operation invalidated",
+			"trans": "การดำเนินการไม่ถูกต้องแล้ว"
 		}
 	},
 	"backgroundTaskPage": {
@@ -961,6 +963,10 @@
 		"cost": {
 			"eng": "Cost",
 			"trans": "ราคา"
+		},
+		"priorityOperationWarning": {
+			"eng": "Your gang must hold first place when this operation starts and settles. Start costs are not refunded if it is invalidated.",
+			"trans": "แก๊งของคุณต้องครองอันดับที่ 1 ในช่วงเริ่มและสิ้นสุดปฏิบัติการ หากการเข้าร่วมถูกเพิกถอนสิทธิ์จะไม่มีการคืนค่าธรรมเนียมเริ่มต้น"
 		},
 		"rewards": {
 			"eng": "possible rewards",
@@ -1024,6 +1030,16 @@
 				"trans": "ภารกิจดึงตัว"
 			}
 		},
+		"rogueAssetExtraction": {
+			"description": {
+				"eng": "Intercept a hostile augmentation shipment while your gang holds the highest war score. Losing first place before settlement invalidates the operation and forfeits its rewards.",
+				"trans": "ขัดขวางการจัดส่งอุปกรณ์ดัดแปลงร่างกายของศัตรู ขณะที่ยกของคุณครองอันดับคะแนนสงครามสูงสุด หากหลุดจากรั้งนำก่อนการสรุปผล ปฏิบัติการนี้จะถูกยกเลิกและตัดสิทธิ์รับรางวัลทั้งหมด"
+			},
+			"displayName": {
+				"eng": "Rogue Asset Extraction",
+				"trans": "การดึงกลับสินทรัพย์อิสระ"
+			}
+		},
 		"scavenge": {
 			"description": {
 				"eng": "Navigate hazardous junkyards, uncover hidden treasures, and salvage valuable tech",
@@ -1053,6 +1069,20 @@
 				"eng": "Thieving",
 				"trans": "ปล้น"
 			}
+		}
+	},
+	"backgroundTaskTypeDisplay": {
+		"afkOperation": {
+			"eng": "AFK Operation",
+			"trans": "ปฏิบัติการ AFK"
+		},
+		"firstPlaceRequired": {
+			"eng": "First-place gang",
+			"trans": "แก๊งอันดับ 1"
+		},
+		"priorityOperation": {
+			"eng": "Priority Operation",
+			"trans": "ปฏิบัติการเร่งด่วน"
 		}
 	},
 	"backgroundTaskUpgradePopup": {
@@ -1863,6 +1893,732 @@
 		"title": {
 			"eng": "Rotate the circle to unlock",
 			"trans": "หมุนวงกลมเพื่อปลดล็อค"
+		}
+	},
+	"circuitBreakWebsite": {
+		"about": {
+			"cid": {
+				"description": {
+					"eng": "CID handles controlled surveillance, intelligence collection, and sensitive recovery mandates under restricted authority.",
+					"trans": "CID ดำเนินการเฝ้าระวังภายใต้การควบคุม เก็บรวบรวมข้อมูลข่าวกรอง และจัดการภารกิจกู้คืนข้อมูลที่อ่อนไหว ภายใต้ขอบเขตอำนาจที่จำกัด"
+				},
+				"eyebrow": {
+					"eng": "Specialist division",
+					"trans": "หน่วยผู้เชี่ยวชาญ"
+				},
+				"liaisonLabel": {
+					"eng": "Contractor liaison",
+					"trans": "ผู้ประสานงานผู้รับจ้าง"
+				},
+				"liaisonName": {
+					"eng": "Vale",
+					"trans": "เวล"
+				},
+				"liaisonRole": {
+					"eng": "Intelligence operations",
+					"trans": "ปฏิบัติการข่าวกรอง"
+				},
+				"title": {
+					"eng": "CircuitBreak Intelligence Division",
+					"trans": "แผนกข่าวกรอง ตัดวงจร"
+				}
+			},
+			"eyebrow": {
+				"eng": "Company",
+				"trans": "บริษัท"
+			},
+			"leadership": {
+				"kira": {
+					"biography": {
+						"eng": "Kira Nilsen directs security policy and operational standards across CircuitBreak.",
+						"trans": "คีรา นิลเซ็น กำกับดูแลนโยบายรักษาความปลอดภัยและมาตรฐานการปฏิบัติงานทั่วทั้งเซอร์กิตเบรก"
+					},
+					"name": {
+						"eng": "Kira Nilsen",
+						"trans": "คิระ นิลเซ่น"
+					},
+					"role": {
+						"eng": "Director of Security",
+						"trans": "ผู้อำนวยการฝ่ายรักษาความปลอดภัย"
+					}
+				},
+				"label": {
+					"eng": "Executive leadership",
+					"trans": "คณะผู้บริหารระดับสูง"
+				},
+				"lee": {
+					"biography": {
+						"eng": "Lee Jong-suk serves as Chief Executive Officer of CircuitBreak Security Solutions. A former Korean special-forces soldier, he built his career around protective operations, crisis command, and work conducted under strict information controls. At CircuitBreak, his leadership is defined by disciplined execution, limited public disclosure, and a belief that effective security is measured by what never reaches the public record.",
+						"trans": "ลีจองซ็อกดำรงตำแหน่งซีอีโอของเซอร์กิตเบรก ซีเคียวริตี โซลูชันส์ ในฐานะอดีตทหารหน่วยรบพิเศษเกาหลีใต้ เขามีเส้นทางอาชีพที่เชี่ยวชาญด้านการปฏิบัติการป้องกันภัย การบัญชาการภาวะวิกฤต และงานภายใต้กฎควบคุมข้อมูลอย่างเข้มงวด ในการบริหารทีมที่เซอร์กิตเบรก เขายึดหลักการทำงานอย่างเป็นระบบ การเปิดเผยข้อมูลที่จำกัด และความเชื่อที่ว่าความปลอดภัยที่มีประสิทธิภาพนั้น วัดกันที่ความสำเร็จในการปิดบังไม่ให้ปัญหาใดๆ เล็ดลอดสู่สาธารณชน"
+					},
+					"imageAlt": {
+						"eng": "CircuitBreak chief executive Lee Jong-suk overseeing a night deployment",
+						"trans": "ซีอีโอ CircuitBreak ลี จองซุก กำลังสั่งการปฏิบัติการกลางคืน"
+					},
+					"name": {
+						"eng": "Lee Jong-suk",
+						"trans": "ลีจองซ็อก"
+					},
+					"role": {
+						"eng": "Chief Executive Officer",
+						"trans": "ซีอีโอ"
+					}
+				},
+				"registerLabel": {
+					"eng": "Leadership register",
+					"trans": "บัญชีรายชื่อผู้บังคับบัญชา"
+				}
+			},
+			"overview": {
+				"eng": "A listed Arclight security company providing executive protection, armed response, threat intelligence, and sensitive recovery.",
+				"trans": "บริษัทความมั่นคงอาร์คลายต์จดทะเบียนในตลาดหลักทรัพย์ ให้บริการคุ้มกันผู้บริหารระดับสูง ตอบโต้เหตุฉุกเฉินแบบติดอาวุธ วิเคราะห์ข่าวกรองภัยคุกคาม และกู้คืนวัตถุลับและข้อมูลสำคัญ"
+			},
+			"registry": {
+				"divisionLabel": {
+					"eng": "Specialist division",
+					"trans": "หน่วยผู้เชี่ยวชาญ"
+				},
+				"divisionValue": {
+					"eng": "CID",
+					"trans": "CID"
+				},
+				"entityLabel": {
+					"eng": "Registered entity",
+					"trans": "หน่วยงานที่ลงทะเบียน"
+				},
+				"entityValue": {
+					"eng": "CircuitBreak Security Solutions",
+					"trans": "เซอร์กิตเบรค โซลูชันส์ด้านความปลอดภัย"
+				},
+				"label": {
+					"eng": "Corporate record",
+					"trans": "บันทึกองค์กร"
+				},
+				"marketLabel": {
+					"eng": "Ticker",
+					"trans": "ฟีดข้อมูล"
+				},
+				"marketValue": {
+					"eng": "CBK",
+					"trans": "CBK"
+				}
+			},
+			"title": {
+				"eng": "CircuitBreak Security Solutions",
+				"trans": "เซอร์กิตเบรค โซลูชันส์ด้านความปลอดภัย"
+			}
+		},
+		"careers": {
+			"cid": {
+				"contactAction": {
+					"eng": "View liaison details",
+					"trans": "ดูรายละเอียดผู้ประสานงาน"
+				},
+				"description": {
+					"eng": "CID reviews sponsored operators for surveillance, intelligence collection, and sensitive recovery assignments. Intake requires a verified sponsor or approved liaison referral.",
+					"trans": "ฝ่าย CID คัดกรองโอเปอเรเตอร์ที่ได้รับการสนับสนุนเพื่อภารกิจเฝ้าระวัง รวบรวมข่าวกรอง และปฏิบัติการกู้คืนข้อมูลลับ การรับเข้าระบบจำเป็นต้องมีสปอนเซอร์ยืนยันตัวตนหรือคำรับรองจากเจ้าหน้าที่ประสานงานที่ได้รับอนุญาต"
+				},
+				"label": {
+					"eng": "Contract operators",
+					"trans": "นักปฏิบัติการรับสัญญา"
+				},
+				"liaisonLabel": {
+					"eng": "Contractor liaison",
+					"trans": "ผู้ประสานงานผู้รับจ้าง"
+				},
+				"liaisonName": {
+					"eng": "Vale",
+					"trans": "เวล"
+				},
+				"liaisonRole": {
+					"eng": "Intelligence operations",
+					"trans": "ปฏิบัติการข่าวกรอง"
+				},
+				"title": {
+					"eng": "CID contractor intake",
+					"trans": "การรับสมัครคอนแทรคเตอร์ CID"
+				}
+			},
+			"eyebrow": {
+				"eng": "Careers",
+				"trans": "อาชีพ"
+			},
+			"imageAlt": {
+				"eng": "CircuitBreak operations candidate completing a professional assessment",
+				"trans": "ผู้สมัครปฏิบัติการตัดวงจร กำลังดำเนินการประเมินระดับมืออาชีพ"
+			},
+			"intro": {
+				"eng": "Permanent roles for security professionals who exercise sound judgment under pressure.",
+				"trans": "ตำแหน่งประจำสำหรับบุคลากรด้านความมั่นคงที่ตัดสินใจได้รอบคอบภายใต้แรงกดดัน"
+			},
+			"openRolesTitle": {
+				"eng": "Current openings",
+				"trans": "ตำแหน่งว่างปัจจุบัน"
+			},
+			"recruitmentAction": {
+				"eng": "Contact recruitment",
+				"trans": "รับสมัครพันธมิตร"
+			},
+			"vacancies": {
+				"intelligence": {
+					"context": {
+						"eng": "Risk Intelligence / Arclight",
+						"trans": "ปัญญาวิเคราะห์ความเสี่ยง / ประกายอาร์ค"
+					},
+					"title": {
+						"eng": "Threat Intelligence Analyst",
+						"trans": "นักวิเคราะห์ข่าวกรองภัยคุกคาม"
+					}
+				},
+				"protective": {
+					"context": {
+						"eng": "Protective Operations / Arclight",
+						"trans": "ปฏิบัติการป้องกัน / ประกายอาร์ค"
+					},
+					"title": {
+						"eng": "Protective Operations Specialist",
+						"trans": "เชี่ยวชาญด้านการปฏิบัติการป้องกัน"
+					}
+				},
+				"response": {
+					"context": {
+						"eng": "Client Command / Arclight Response Centre",
+						"trans": "ศูนย์สั่งการไคลเอนต์ / ศูนย์ประสานงานประกายอาร์ค"
+					},
+					"title": {
+						"eng": "Client Response Controller",
+						"trans": "ตัวควบคุมการตอบกลับไคลเอนต์"
+					}
+				}
+			}
+		},
+		"contact": {
+			"directory": {
+				"cid": {
+					"access": {
+						"eng": "Sponsor only",
+						"trans": "สำหรับผู้สนับสนุนเท่านั้น"
+					},
+					"description": {
+						"eng": "Sponsor-backed candidate references and approved contractor correspondence.",
+						"trans": "คำรับรองผู้สมัครที่สปอนเซอร์สนับสนุน และเอกสารติดต่อผู้รับเหมาที่ได้รับการอนุมัติแล้ว"
+					},
+					"title": {
+						"eng": "CID contractor liaison",
+						"trans": "ผู้ประสานงานผู้รับจ้าง CID"
+					}
+				},
+				"corporate": {
+					"access": {
+						"eng": "Public",
+						"trans": "สาธารณะ"
+					},
+					"address": {
+						"eng": "corporate@circuitbreak.com",
+						"trans": "corporate@circuitbreak.com"
+					},
+					"description": {
+						"eng": "Company records, procurement, legal notices, recruitment, and general correspondence.",
+						"trans": "บันทึกบริษัท, การจัดซื้อจัดจ้าง, ประกาศทางกฎหมาย, การสรรหาบุคลากร และการติดต่อทั่วไป"
+					},
+					"title": {
+						"eng": "Corporate and recruitment",
+						"trans": "องค์กรและการรับสมัคร"
+					}
+				},
+				"protected": {
+					"access": {
+						"eng": "Private intake",
+						"trans": "การตรวจรักษาส่วนตัว"
+					},
+					"action": {
+						"eng": "Open a private mandate",
+						"trans": "เปิดคำสั่งส่วนตัว"
+					},
+					"description": {
+						"eng": "Submit a new private-client mandate for controlled assessment.",
+						"trans": "ส่งมอบหมายงานลูกค้าส่วนตัวใหม่เพื่อประเมินผลภายใต้การควบคุม"
+					},
+					"title": {
+						"eng": "Private mandate",
+						"trans": "ภารกิจส่วนตัว"
+					}
+				},
+				"response": {
+					"access": {
+						"eng": "Contracted clients",
+						"trans": "ลูกค้าตามสัญญาจ้าง"
+					},
+					"description": {
+						"eng": "For active incidents under an existing mandate, use your assigned client relay. Public mail cannot dispatch field teams.",
+						"trans": "สำหรับเหตุการณ์ที่กำลังดำเนินอยู่ภายใต้สัญญาประจำ กรุณาใช้ช่องติดต่อกับลูกค้าที่ได้รับมอบหมาย ระบบข้อความสาธารณะไม่สามารถสั่งการทีมภาคสนามได้"
+					},
+					"reference": {
+						"eng": "Use assigned client relay",
+						"trans": "ใช้รีเลย์ไคลเอนต์ที่กำหนดให้"
+					},
+					"title": {
+						"eng": "Active client response",
+						"trans": "การตอบกลับจากไคลเอนต์ที่ใช้งานอยู่"
+					}
+				}
+			},
+			"directoryTitle": {
+				"eng": "Contact CircuitBreak",
+				"trans": "ติดต่อเซอร์กิตเบรก"
+			},
+			"eyebrow": {
+				"eng": "Contact",
+				"trans": "ติดต่อ"
+			},
+			"intro": {
+				"eng": "Choose the channel matching your request. Restricted matters cannot be transferred from public enquiries.",
+				"trans": "เลือกช่องทางที่ตรงกับความต้องการของคุณ เรื่องละเอียดอ่อนไม่สามารถโอนต่อจากช่องสอบถามทั่วไป"
+			}
+		},
+		"contracts": {
+			"disclaimer": {
+				"eng": "Mandate availability and operator response are not guaranteed. CircuitBreak retains final network authority.",
+				"trans": "ไม่อาจรับประกันความพร้อมของคำสั่งและการติดต่อจากผู้ควบคุมได้ CircuitBreak ยังคงมีอำนาจเด็ดขาดเหนือเครือข่าย"
+			},
+			"emptyAction": {
+				"eng": "Open a contract",
+				"trans": "เปิดสัญญา"
+			},
+			"emptyCode": {
+				"eng": "Ledger status / Clear",
+				"trans": "สถานะระบบบันทึก / ล้างข้อมูล"
+			},
+			"emptyDescription": {
+				"eng": "No public mandate currently meets network requirements. Qualified clients may open a new contract.",
+				"trans": "ปัจจุบันไม่มีสัญญาสาธารณะใดตรงกับข้อกำหนดเครือข่าย ผู้ใช้งานที่มีคุณสมบัติสามารถเปิดสัญญาใหม่ได้"
+			},
+			"eyebrow": {
+				"eng": "Private Client Network / Mandates",
+				"trans": "เครือข่ายลูกค้าส่วนตัว / งานที่ได้รับมอบหมาย"
+			},
+			"intro": {
+				"eng": "Active public mandates available to verified CircuitBreak operators. Select a target to review engagement options.",
+				"trans": "ภารกิจสาธารณะที่เปิดรับสำหรับนักปฏิบัติการ CircuitBreak ที่ผ่านการรับรอง เลือกเป้าหมายเพื่อตรวจสอบตัวเลือกการเข้าปะทะ"
+			},
+			"levelColumn": {
+				"eng": "Level",
+				"trans": "เลเวล"
+			},
+			"loadingTitle": {
+				"eng": "Retrieving mandates",
+				"trans": "กำลังดึงข้อมูลคำสั่ง"
+			},
+			"openContract": {
+				"eng": "Place a Hit",
+				"trans": "จ้างลอบสังหาร"
+			},
+			"sortLabel": {
+				"eng": "Sort: ${mode}",
+				"trans": "เรียงลำดับ: ${mode}"
+			},
+			"status": {
+				"eng": "Active ledger",
+				"trans": "สมุดบันทึกที่เปิดใช้งาน"
+			},
+			"targetColumn": {
+				"eng": "Target",
+				"trans": "เป้าหมาย"
+			},
+			"title": {
+				"eng": "Contract Board",
+				"trans": "บอร์ดสัญญา"
+			},
+			"valueColumn": {
+				"eng": "Value",
+				"trans": "ค่า"
+			}
+		},
+		"home": {
+			"hero": {
+				"classification": {
+					"eng": "Integrated security / Arclight",
+					"trans": "ระบบรักษาความปลอดภัยบูรณาการ / ประกายอาร์ค"
+				},
+				"clientAccess": {
+					"eng": "Private client access",
+					"trans": "การเข้าถึงไคลเอนต์ส่วนตัว"
+				},
+				"description": {
+					"eng": "CircuitBreak protects Arclight's most exposed institutions, assets, and executives. When deterrence fails, we resolve the exposure.",
+					"trans": "ตัดวงจรปกป้องสถาบัน ทรัพย์สิน และผู้บริหารระดับสูงของประกายอาร์คที่เผชิญความเสี่ยงสูงสุด หากการป้องปรามล้มเหลว เราจะจัดการกับจุดเสี่ยงนั้นทันที"
+				},
+				"imageAlt": {
+					"eng": "CircuitBreak headquarters and executive protection detail in Arclight",
+					"trans": "สำนักงานใหญ่และหน่วยอารักขาผู้บริหารของตัดวงจรในนครราตรี"
+				},
+				"placeHit": {
+					"eng": "Place Hit",
+					"trans": "สั่งเก็บ"
+				},
+				"title": {
+					"eng": "Power, applied.",
+					"trans": "จ่ายพลังงานเรียบร้อย"
+				},
+				"viewBoard": {
+					"eng": "View Board",
+					"trans": "ดูบอร์ด"
+				}
+			},
+			"services": {
+				"allServices": {
+					"eng": "View all services",
+					"trans": "ดูบริการทั้งหมด"
+				},
+				"highRisk": {
+					"description": {
+						"eng": "Integrated protection for critical sites and operations.",
+						"trans": "ระบบป้องกันแบบบูรณาการสำหรับสถานที่สำคัญและปฏิบัติการ"
+					},
+					"title": {
+						"eng": "High-risk security",
+						"trans": "ระบบป้องกันภัยความเสี่ยงสูง"
+					}
+				},
+				"label": {
+					"eng": "Capabilities",
+					"trans": "ความสามารถ"
+				},
+				"protection": {
+					"description": {
+						"eng": "Protective teams and secure movement for exposed clients.",
+						"trans": "หน่วยคุ้มกันพร้อมพาตัวปลอดภัยสำหรับลูกค้ากลุ่มเสี่ยง"
+					},
+					"title": {
+						"eng": "Executive protection",
+						"trans": "การคุ้มครองผู้บริหาร"
+					}
+				},
+				"response": {
+					"description": {
+						"eng": "Rapid intervention when a material threat becomes active.",
+						"trans": "การแทรกแซงทันทีเมื่อพบภัยคุกคามระดับสูง"
+					},
+					"title": {
+						"eng": "Armed response",
+						"trans": "การตอบโต้ติดอาวุธ"
+					}
+				},
+				"title": {
+					"eng": "Protective services",
+					"trans": "บริการป้องกันภัย"
+				}
+			}
+		},
+		"placeHit": {
+			"actionIntro": {
+				"eng": "Choose a target and contract value, then review the cost before authorization.",
+				"trans": "เลือกเป้าหมายและมูลค่าสัญญา จากนั้นตรวจสอบค่าใช้จ่ายก่อนยืนยันคำสั่ง"
+			},
+			"actionTitle": {
+				"eng": "Place a hit",
+				"trans": "ออกงานลอบสังหาร"
+			},
+			"amountModalTitle": {
+				"eng": "Contract value",
+				"trans": "มูลค่าสัญญา"
+			},
+			"availableFunds": {
+				"eng": "Available funds",
+				"trans": "ยอดเงินคงเหลือ"
+			},
+			"changeTarget": {
+				"eng": "Change",
+				"trans": "เปลี่ยน"
+			},
+			"changeValue": {
+				"eng": "Change",
+				"trans": "เปลี่ยน"
+			},
+			"formCode": {
+				"eng": "Form CB-17",
+				"trans": "แบบฟอร์ม CB-17"
+			},
+			"fundsStatus": {
+				"eng": "Available funds no longer cover this contract.",
+				"trans": "ยอดเงินคงเหลือไม่เพียงพอต่อสัญญาฉบับนี้แล้ว"
+			},
+			"insufficientFundsStatus": {
+				"eng": "Available funds are below the ${amount} ${currency} contract minimum.",
+				"trans": "ยอดเงินคงเหลือต่ำกว่าขั้นต่ำของสัญญา ${amount} ${currency}"
+			},
+			"levelRequirement": {
+				"eng": "Level ${level} is required to authorize a contract.",
+				"trans": "ต้องใช้ระดับ ${level} เพื่อลงนามในสัญญา"
+			},
+			"levelStatus": {
+				"eng": "Client authorization requires player level ${level}.",
+				"trans": "การอนุญาตเข้าใช้ไคลเอนต์ต้องผ่านระดับผู้เล่น ${level}"
+			},
+			"minimumStatus": {
+				"eng": "Set a contract value of at least ${amount} ${currency}.",
+				"trans": "กำหนดมูลค่าสัญญาอย่างน้อย ${amount} ${currency}"
+			},
+			"minimumValue": {
+				"eng": "Minimum ${amount}",
+				"trans": "ขั้นต่ำ ${amount}"
+			},
+			"networkLabel": {
+				"eng": "Private Client Network",
+				"trans": "เครือข่ายไคลเอนต์ส่วนตัว"
+			},
+			"readyStatus": {
+				"eng": "Contract is ready to review.",
+				"trans": "สัญญาพร้อมให้ตรวจสอบแล้ว"
+			},
+			"required": {
+				"eng": "Required",
+				"trans": "จำเป็น"
+			},
+			"restrictedStatus": {
+				"eng": "System restrictions prevent contract authorization.",
+				"trans": "ข้อจำกัดของระบบขัดขวางการอนุมัติสัญญา"
+			},
+			"reviewAction": {
+				"eng": "Review contract",
+				"trans": "ตรวจสอบสัญญา"
+			},
+			"selectTargetAction": {
+				"eng": "Select",
+				"trans": "เลือก"
+			},
+			"selectTargetStatus": {
+				"eng": "Select a target to continue.",
+				"trans": "เลือกเป้าหมายเพื่อดำเนินการต่อ"
+			},
+			"setValue": {
+				"eng": "Set value",
+				"trans": "ตั้งค่า"
+			},
+			"simpleTargetTitle": {
+				"eng": "1. Choose target",
+				"trans": "1. เลือกเป้าหมาย"
+			},
+			"simpleValueTitle": {
+				"eng": "2. Set contract value",
+				"trans": "2. กำหนดมูลค่าสัญญา"
+			},
+			"targetEmpty": {
+				"eng": "Search verified player records",
+				"trans": "ค้นหาข้อมูลผู้เล่นที่ผ่านการยืนยัน"
+			},
+			"targetLevelStatus": {
+				"eng": "Targets below level ${level} cannot be listed.",
+				"trans": "เป้าหมายระดับต่ำกว่า ${level} ไม่ปรากฏในรายการ"
+			},
+			"targetSelected": {
+				"eng": "Verified identity selected",
+				"trans": "เลือกตัวตนที่ยืนยันแล้ว"
+			}
+		},
+		"reviewHit": {
+			"authorizeAction": {
+				"eng": "Authorize contract",
+				"trans": "อนุมัติสัญญา"
+			},
+			"editAction": {
+				"eng": "Edit details",
+				"trans": "แก้ไขรายละเอียด"
+			},
+			"formCode": {
+				"eng": "Form CB-17 / Review",
+				"trans": "แบบฟอร์ม CB-17 / ทบทวน"
+			},
+			"fundsStatus": {
+				"eng": "Available funds no longer cover this contract.",
+				"trans": "ยอดเงินคงเหลือไม่เพียงพอต่อสัญญาฉบับนี้แล้ว"
+			},
+			"intro": {
+				"eng": "Confirm the target and financial commitment before authorization.",
+				"trans": "ตรวจสอบเป้าหมายและงบประมาณให้ชัดเจนก่อนอนุมัติ"
+			},
+			"invalidError": {
+				"eng": "Contract details changed. Return to the previous page and review them again.",
+				"trans": "รายละเอียดสัญญาเปลี่ยนแปลงแล้ว โปรดย้อนกลับไปที่หน้าก่อนหน้าเพื่อตรวจสอบอีกครั้ง"
+			},
+			"invalidStatus": {
+				"eng": "Contract details are incomplete or no longer valid.",
+				"trans": "รายละเอียดสัญญาไม่สมบูรณ์หรือไม่มีผลบังคับใช้อีกต่อไป"
+			},
+			"levelStatus": {
+				"eng": "Client authorization requires player level ${level}.",
+				"trans": "การอนุญาตเข้าใช้ไคลเอนต์ต้องผ่านระดับผู้เล่น ${level}"
+			},
+			"loadingStatus": {
+				"eng": "Verifying contract details...",
+				"trans": "กำลังตรวจสอบรายละเอียดสัญญา..."
+			},
+			"minimumStatus": {
+				"eng": "Contract value must be at least ${amount} ${currency}.",
+				"trans": "มูลค่าสัญญาต้องไม่ต่ำกว่า ${amount} ${currency}."
+			},
+			"networkLabel": {
+				"eng": "Private Client Network",
+				"trans": "เครือข่ายไคลเอนต์ส่วนตัว"
+			},
+			"notice": {
+				"eng": "Authorization transfers the committed funds immediately and publishes the contract to the active Board. This action cannot be reversed.",
+				"trans": "การอนุมัติจะโอนเงินที่ผูกมัดไว้ทันทีและเผยแพร่สัญญาไปยังบอร์ดที่ใช้งานอยู่ การดำเนินการนี้ไม่สามารถย้อนกลับได้"
+			},
+			"pendingTarget": {
+				"eng": "Unverified",
+				"trans": "ยังไม่ยืนยัน"
+			},
+			"readyStatus": {
+				"eng": "Contract is ready for authorization.",
+				"trans": "สัญญาพร้อมอนุมัติแล้ว"
+			},
+			"restrictedStatus": {
+				"eng": "System restrictions prevent contract authorization.",
+				"trans": "ข้อจำกัดของระบบขัดขวางการอนุมัติสัญญา"
+			},
+			"target": {
+				"eng": "Target",
+				"trans": "เป้าหมาย"
+			},
+			"targetLevelStatus": {
+				"eng": "Targets below level ${level} cannot be listed.",
+				"trans": "เป้าหมายระดับต่ำกว่า ${level} ไม่ปรากฏในรายการ"
+			},
+			"title": {
+				"eng": "Review contract",
+				"trans": "ตรวจสอบสัญญา"
+			},
+			"value": {
+				"eng": "Contract value",
+				"trans": "มูลค่าสัญญา"
+			}
+		},
+		"services": {
+			"armedResponse": {
+				"description": {
+					"eng": "Disciplined intervention teams contain active threats, secure critical sites, and restore client control.",
+					"trans": "ทีมปฏิบัติการแทรกแคงระดับมืออาชีพจำกัดภัยคุกคามที่ปะทุอยู่ รักษาความปลอดภัยสถานที่สำคัญ และคืนอำนาจการควบคุมให้ลูกค้า"
+				},
+				"title": {
+					"eng": "Armed response",
+					"trans": "การตอบโต้ติดอาวุธ"
+				}
+			},
+			"assetRecovery": {
+				"description": {
+					"eng": "Specialist recovery teams locate and return sensitive property while limiting exposure, delay, and attribution.",
+					"trans": "หน่วยกู้คืนเฉพาะทางค้นหาและนำทรัพย์สินละเอียดอ่อนกลับ โดยลดการถูกตรวจจับ ความล่าช้า และการสืบย้อนกลับหาต้นตอให้ได้มากที่สุด"
+				},
+				"title": {
+					"eng": "Asset recovery",
+					"trans": "กู้คืนสินทรัพย์"
+				}
+			},
+			"authorizationNotice": {
+				"eng": "All engagements require an authorized client mandate.",
+				"trans": "ทุกการปฏิบัติการณ์ต้องได้รับคำสั่งอนุมัติจากผู้ว่าจ้างอย่างเป็นทางการเท่านั้น"
+			},
+			"executiveProtection": {
+				"description": {
+					"eng": "Low-profile close protection, route control, and secure movement for executives operating under elevated threat.",
+					"trans": "การอารักขาแบบแฝงตัว ควบคุมเส้นทาง และเคลื่อนย้ายปลอดภัย สำหรับผู้บริหารภายใต้ภาวะคุกคามสูง"
+				},
+				"title": {
+					"eng": "Executive protection",
+					"trans": "การคุ้มครองผู้บริหาร"
+				}
+			},
+			"eyebrow": {
+				"eng": "Services",
+				"trans": "บริการ"
+			},
+			"imageAlt": {
+				"eng": "CircuitBreak close-protection team moving a client through a secure arrival",
+				"trans": "หน่วยคุ้มกัน CircuitBreak กำลังนำตัวลูกค้ายานผ่านจุดเข้าพื้นที่ปลอดภัย"
+			},
+			"intro": {
+				"eng": "CircuitBreak protects people, property, and continuity where ordinary security reaches its limit.",
+				"trans": "CircuitBreak ปกป้องชีวิต ทรัพย์สิน และความต่อเนื่องของการดำเนินงาน เมื่อระบบรักษาความปลอดภัยทั่วไปถึงขีดจำกัด"
+			},
+			"privateMandates": {
+				"action": {
+					"eng": "Open a private mandate",
+					"trans": "เปิดคำสั่งส่วนตัว"
+				}
+			},
+			"threatIntelligence": {
+				"description": {
+					"eng": "Targeted surveillance and intelligence collection identify hostile intent before it becomes a public incident.",
+					"trans": "การเฝ้าระวังแบบเจาะจงและการรวบรวมข้อมูลข่าวกรองจะตรวจจับเจตนาโจมตีได้ล่วงหน้า ก่อนลุกลามเป็นเหตุสาธารณะ"
+				},
+				"title": {
+					"eng": "Threat intelligence",
+					"trans": "ข่าวกรองภัยคุกคาม"
+				}
+			},
+			"title": {
+				"eng": "Protective services",
+				"trans": "บริการป้องกันภัย"
+			}
+		},
+		"shell": {
+			"footer": {
+				"careers": {
+					"eng": "Careers",
+					"trans": "อาชีพ"
+				},
+				"company": {
+					"eng": "CircuitBreak Security Solutions",
+					"trans": "เซอร์กิตเบรค โซลูชันส์ด้านความปลอดภัย"
+				},
+				"companyProfile": {
+					"eng": "Company profile",
+					"trans": "ข้อมูลบริษัท"
+				},
+				"contact": {
+					"eng": "Contact CircuitBreak",
+					"trans": "ติดต่อเซอร์กิตเบรก"
+				},
+				"notice": {
+					"eng": "Client information is handled under strict confidentiality.",
+					"trans": "ข้อมูลไคลเอนต์ถูกรักษาความลับอย่างเคร่งครัด"
+				}
+			},
+			"logoAlt": {
+				"eng": "CircuitBreak Security Solutions",
+				"trans": "เซอร์กิตเบรค โซลูชันส์ด้านความปลอดภัย"
+			},
+			"nav": {
+				"board": {
+					"eng": "Board",
+					"trans": "กระดาน"
+				},
+				"careers": {
+					"eng": "Careers",
+					"trans": "อาชีพ"
+				},
+				"company": {
+					"eng": "Company",
+					"trans": "บริษัท"
+				},
+				"contact": {
+					"eng": "Contact",
+					"trans": "ติดต่อ"
+				},
+				"home": {
+					"eng": "Home",
+					"trans": "หน้าแรก"
+				},
+				"services": {
+					"eng": "Services",
+					"trans": "บริการ"
+				}
+			},
+			"placeHit": {
+				"eng": "Place Hit",
+				"trans": "สั่งเก็บ"
+			}
 		}
 	},
 	"clan": {
@@ -2907,6 +3663,10 @@
 		"clanResource": {
 			"eng": "+ ${amount} Gang resource",
 			"trans": "ทรัพยากรแก๊งค์ +${amount}"
+		},
+		"oneOf": {
+			"eng": "One of following:",
+			"trans": "หนึ่งในตัวเลือกต่อไปนี้:"
 		}
 	},
 	"confirmModal": {
@@ -4917,28 +5677,24 @@
 	},
 	"hitListPage": {
 		"bountyCount": {
-			"eng": "${count} bounties",
-			"trans": "${count} รางวัล"
+			"eng": "${count} active",
+			"trans": "${count} ที่ใช้งานอยู่"
 		},
 		"sort": {
 			"level": {
-				"eng": "Level",
-				"trans": "เลเวล"
+				"eng": "Target level",
+				"trans": "ระดับเป้าหมาย"
 			},
 			"price": {
-				"eng": "Price",
-				"trans": "ราคา"
+				"eng": "Contract value",
+				"trans": "มูลค่าสัญญา"
 			}
 		}
 	},
 	"hitlist": {
-		"loading": {
-			"eng": "Loading bounties...",
-			"trans": "บาวนตี้กำลังโหลด..."
-		},
 		"noBounties": {
-			"eng": "No bounties available",
-			"trans": "ไม่มีงาน"
+			"eng": "No active contracts",
+			"trans": "ยังไม่มีสัญญาที่ใช้งานอยู่"
 		},
 		"optionsPopup": {
 			"attack": {
@@ -4949,23 +5705,13 @@
 				"eng": "View Profile",
 				"trans": "ดูโปรไฟล์"
 			}
-		},
-		"placeHitButton": {
-			"title": {
-				"eng": "Place Hit",
-				"trans": "ล็อกเป้า"
-			}
-		},
-		"title": {
-			"eng": "Hit List",
-			"trans": "บัญชีดำ"
 		}
 	},
 	"hitman": {
 		"error": {
 			"cannotPlaceBountyOnAdmin": {
-				"eng": "You cannot place bounty on this player",
-				"trans": "คุณไม่สามารถแปะค่าหัวให้หมอนี่ได้"
+				"eng": "You cannot place or control this player.",
+				"trans": "ไม่สามารถวางหรือควบคุมผู้เล่นนี้ได้"
 			},
 			"cannotPlaceBountyOnLowLevel": {
 				"eng": "You cannot place bounty on players lower than level ${level}",
@@ -5345,10 +6091,6 @@
 		"evidenceNumber": {
 			"eng": "Evidence #${number}",
 			"trans": "หลักฐาน #${number}"
-		},
-		"goToVerdict": {
-			"eng": "Go to verdict ${num}",
-			"trans": "ไปยังคำพิพากษา ${num}"
 		},
 		"imageUnavailable": {
 			"eng": "Image Unavailable",
@@ -7977,10 +8719,6 @@
 				"eng": "News",
 				"trans": "ข่าว"
 			},
-			"goToNews": {
-				"eng": "Go to news ${index}",
-				"trans": "ดูข่าว ${index}"
-			},
 			"heading": {
 				"eng": "YOUR ACTIONS MAKE THE HEADLINES",
 				"trans": "การกระทำของคุณสร้างหัวข้อข่าว"
@@ -7993,10 +8731,6 @@
 				"eng": "Arclight Times",
 				"trans": "ข่าวแอคลายต์"
 			},
-			"next": {
-				"eng": "Next news",
-				"trans": "ข่าวถัดไป"
-			},
 			"noNews": {
 				"eng": "No news available at the moment",
 				"trans": "ยังไม่มีข่าว"
@@ -8004,10 +8738,6 @@
 			"overline": {
 				"eng": "LIVE WORLD EVENTS // PLAYER-DRIVEN NARRATIVE",
 				"trans": "อีเวนต์โลกสด // เนื้อเรื่องตามผู้เล่น"
-			},
-			"previous": {
-				"eng": "Previous news",
-				"trans": "ข่าวก่อนหน้า"
 			},
 			"reportBy": {
 				"eng": "REPORT BY",
@@ -9507,6 +10237,712 @@
 			"trans": "ตัวกรอง"
 		}
 	},
+	"megaEstateWebsite": {
+		"careers": {
+			"description": {
+				"eng": "MegaEstate evaluates verified resident profiles continuously. If your payment, access and conduct history meets a role requirement, we will contact you. No submission is necessary.",
+				"trans": "เมก้าเอสเตทจะประเมินข้อมูลผู้พักอาศัยที่ผ่านการยืนยันอย่างต่อเนื่อง หากประวัติการชำระเงิน สิทธิ์การเข้าถึง และพฤติกรรมของคุณตรงกับข้อกำหนดของตำแหน่งงาน เราจะเป็นฝ่ายติดต่อกลับ ไม่จำเป็นต้องยื่นเรื่องด้วยตนเอง"
+			},
+			"eyebrow": {
+				"eng": "Careers at MegaEstate",
+				"trans": "เส้นทางอาชีพที่เมก้าเอสเตท"
+			},
+			"hero": {
+				"imageAlt": {
+					"eng": "MegaEstate property operations team reviewing a residential building",
+					"trans": "ทีมปฏิบัติการอสังหาริมทรัพย์ เมก้าเอสเตท กำลังตรวจสอบอาคารพักอาศัย"
+				}
+			},
+			"title": {
+				"eng": "Your record is your application.",
+				"trans": "ผลงานของคุณคือใบสมัคร"
+			},
+			"vacancies": {
+				"biometricAccess": {
+					"department": {
+						"eng": "Access infrastructure · Technical",
+						"trans": "โครงสร้างพื้นฐานการเข้าถึง · ด้านเทคนิค"
+					},
+					"description": {
+						"eng": "Maintain identity-linked entry systems, investigate access anomalies and revoke resident credentials across MegaEstate properties.",
+						"trans": "ดูแลระบบยืนยันตัวตนทางเข้า ตรวจสอบการเข้าใช้ที่ผิดปกติ และเพิกถอนสิทธิ์ผู้พักอาศัย ทั่วพื้นที่เมก้าเอสเตททั้งหมด"
+					},
+					"title": {
+						"eng": "Biometric Access Technician",
+						"trans": "ช่างเทคนิคชีวมิติ"
+					}
+				},
+				"count": {
+					"eng": "${count} active",
+					"trans": "${count} ที่ใช้งานอยู่"
+				},
+				"eyebrow": {
+					"eng": "Open positions",
+					"trans": "ตำแหน่งว่าง"
+				},
+				"occupancyCompliance": {
+					"department": {
+						"eng": "Portfolio compliance · Field",
+						"trans": "ความสอดคล้องของพอร์ตโฟลิโอ · ฟิลด์"
+					},
+					"description": {
+						"eng": "Conduct unannounced home inspections, document unregistered occupants and authorize access suspension when contract terms are breached.",
+						"trans": "ตรวจสอบที่พักโดยไม่แจ้งล่วงหน้า บันทึกข้อมูลผู้พักอาศัยที่ไม่ขึ้นทะเบียน และออกคำสั่งระงับสิทธิ์การเข้าถึงหากผิดเงื่อนไขสัญญา"
+					},
+					"title": {
+						"eng": "Occupancy Compliance Officer",
+						"trans": "เจ้าหน้าที่กำกับดูแลการเข้าใช้พื้นที่"
+					}
+				},
+				"riskAnalyst": {
+					"department": {
+						"eng": "Resident intelligence · Analysis",
+						"trans": "ข้อมูลท้องถิ่น · การวิเคราะห์"
+					},
+					"description": {
+						"eng": "Combine payment history, property access and contract activity to predict renewal risk and recommend intervention.",
+						"trans": "รวบรวมประวัติการชำระเงิน ประวัติการเข้าถึงทรัพย์สิน และกิจกรรมสัญญา เพื่อคาดการณ์ความเสี่ยงในการต่ออายุและแนะนำมาตรการแก้ไข"
+					},
+					"title": {
+						"eng": "Resident Risk Analyst",
+						"trans": "นักวิเคราะห์ความเสี่ยงประจำ"
+					}
+				},
+				"unitRecovery": {
+					"department": {
+						"eng": "Property recovery · Field",
+						"trans": "การกู้คืนทรัพย์สิน · ภาคสนาม"
+					},
+					"description": {
+						"eng": "Secure homes after lease termination, catalogue remaining property and return reclaimed units to inventory before the next billing cycle.",
+						"trans": "หลังสัญญาเช่าสิ้นสุด ให้ล็อครักษาที่พักอาศัย บันทึกทรัพย์สินคงเหลือ และนำอุปกรณ์ที่รวบรวมได้เข้าคลังสินค้า ก่อนรอบบิลถัดไป"
+					},
+					"title": {
+						"eng": "Unit Recovery Coordinator",
+						"trans": "ผู้ประสานงานกู้คืนหน่วย"
+					}
+				}
+			}
+		},
+		"company": {
+			"building": {
+				"caption": {
+					"eng": "Arclight lives here",
+					"trans": "ประกายอาร์คตั้งอยู่ที่นี่"
+				},
+				"imageAlt": {
+					"eng": "Residents arriving at a MegaEstate property in Arclight",
+					"trans": "ผู้อยู่อาศัยกำลังเดินทางมาถึงโครงการเมก้าเอสเตท นครราตรี"
+				}
+			},
+			"eyebrow": {
+				"eng": "About MegaEstate",
+				"trans": "เกี่ยวกับเมก้าเอสเตท"
+			},
+			"introduction": {
+				"eng": "At MegaEstate, we bring rental homes across Arclight into one clear network. You can compare housing standards, see current availability and choose the address that works for you.",
+				"trans": "เมก้าเอสเตทรวบรวมที่อยู่อาศัยให้เช่าทั่วมหานครประกายอาร์คไว้ในระบบเครือข่ายกลางเดียว ที่ให้คุณเปรียบเทียบมาตรฐานที่พัก ตรวจเช็คว่ามีห้องว่าง และเลือกที่อยู่ที่เหมาะกับคุณที่สุด"
+			},
+			"leadership": {
+				"description": {
+					"eng": "Robert Smith sets our long-term direction as Chief Executive Officer. His approach is simple: manage housing at city scale, keep occupancy responsible and make every part of renting answer to one accountable company. From listing to renewal, that company is MegaEstate.",
+					"trans": "โรเบิร์ต สมิธ กำหนดทิศทางระยะยาวให้กับองค์กรในตำแหน่งประธานเจ้าหน้าที่บริหาร แนวทางของเขาเรียบง่าย: จัดการที่อยู่อาศัยระดับเมือง ดูแลผู้เช่าอย่างมีมาตรฐาน และรวมทุกกระบวนการให้เช่าไว้ภายใต้บริษัทเดียวที่รับผิดชอบเต็มรูปแบบ ทุกขั้นตอนตั้งแต่การลงรายการจนถึงการต่อสัญญา ต่างอยู่ภายใต้ เมก้าเอสเตท"
+				},
+				"eyebrow": {
+					"eng": "Leadership",
+					"trans": "ภาวะผู้นำ"
+				},
+				"imageAlt": {
+					"eng": "Robert Smith, Chief Executive Officer of MegaEstate",
+					"trans": "โรเบิร์ต สมิธ ซีอีโอแห่งเมก้าเอสเตท"
+				},
+				"name": {
+					"eng": "Robert Smith",
+					"trans": "โรเบิร์ต สมิธ"
+				},
+				"role": {
+					"eng": "Chief Executive Officer",
+					"trans": "ซีอีโอ"
+				}
+			},
+			"model": {
+				"description": {
+					"eng": "Our four housing standards give you room to choose without starting over. Essential Housing, City Housing, Urban Studio and Central Residence all follow the same straightforward seven-day rental cycle.",
+					"trans": "ระดับที่อยู่อาศัยทั้ง 4 แบบให้คุณเลือกได้อย่างอิสระ โดยไม่ต้องเริ่มต้นใหม่ทั้งหมด ที่พักพื้นฐาน เมือง ยูรบันสตูดิโอ และพักใจกลางเมือง ใช้ระบบรอบการเช่าระยะ 7 วันเหมือนกันทุกประเภท"
+				},
+				"eyebrow": {
+					"eng": "Made for life in Arclight",
+					"trans": "ออกแบบมาเพื่อชีวิตในอาร์คลายต์"
+				},
+				"title": {
+					"eng": "A home for what comes next.",
+					"trans": "ที่มั่นสำหรับก้าวต่อไป"
+				}
+			},
+			"portfolio": {
+				"eng": "From a first address to a Central Residence, we make every move familiar: one place to browse, one rental process and one company behind every home we manage.",
+				"trans": "จากที่อยู่แรกจนถึงที่พักหลัก เราทำให้ทุกการย้ายที่ราบรื่นและคุ้นเคย: เลือกดูที่พักได้ที่เดียว ระบบเช่าเพียงหนึ่งเดียว และทีมดูแลรายเดียวสำหรับทุกห้องที่เราจัดการ"
+			},
+			"title": {
+				"eng": "The city moves fast. Home should feel certain.",
+				"trans": "เมืองหมุนเร็วไร้หยุดนิ่ง บ้านต้องเป็นที่มั่นที่แน่นอน"
+			}
+		},
+		"home": {
+			"city": {
+				"arclight": {
+					"eng": "Arclight City",
+					"trans": "นครราตรี"
+				},
+				"international": {
+					"eng": "International cities — Unavailable",
+					"trans": "เมืองนานาชาติ — ไม่พร้อมใช้งาน"
+				},
+				"label": {
+					"eng": "City",
+					"trans": "เมือง"
+				},
+				"otherNrc": {
+					"eng": "Other NRC cities — Unavailable",
+					"trans": "เมือง NRC อื่นๆ — ไม่พร้อมใช้งาน"
+				}
+			},
+			"hero": {
+				"description": {
+					"eng": "Explore homes available now across our four housing standards.",
+					"trans": "เลือกชมที่พักที่พร้อมเข้าอยู่ได้ใน 4 ระดับมาตรฐาน"
+				},
+				"eyebrow": {
+					"eng": "Rental homes in Arclight City",
+					"trans": "บ้านเช่าในนครราตรี"
+				},
+				"imageAlt": {
+					"eng": "Central Residence overlooking Arclight City",
+					"trans": "ที่พักกลางเมือง พร้อมชมทิวทัศน์นครราตรี"
+				},
+				"title": {
+					"eng": "Find your place in Arclight.",
+					"trans": "หาที่ทางของตัวเองในนครอาร์คไลท์"
+				},
+				"viewListings": {
+					"eng": "Browse current listings",
+					"trans": "เรียกดูรายการปัจจุบัน"
+				}
+			},
+			"introduction": {
+				"availability": {
+					"description": {
+						"eng": "We only show homes currently available to rent in Arclight.",
+						"trans": "แสดงเฉพาะที่พักให้เช่าที่มีอยู่ในอาร์คลายต์เท่านั้น"
+					},
+					"title": {
+						"eng": "Current availability",
+						"trans": "ความพร้อมใช้งานปัจจุบัน"
+					}
+				},
+				"description": {
+					"eng": "From essential housing to central residences, we bring Arclight's available rentals together in one place. Browse real homes, compare actual weekly rent and choose the standard that fits your life.",
+					"trans": "จากที่พักพื้นฐานไปจนถึงที่อยู่อาศัยใจกลางเมือง เราจึงรวบรวมที่พักให้เช่าทั่วนครอาร์คลายต์มารวมไว้ที่นี่ที่เดียว เลือกชมที่อยู่จริง เปรียบเทียบค่าเช่ารายสัปดาห์อย่างละเอียด และเลือกที่พักที่ตอบโจทย์ไลฟ์สไตล์ของคุณ"
+				},
+				"eyebrow": {
+					"eng": "Arclight residential rentals",
+					"trans": "เช่าที่อยู่อาศัย ย่านอาร์คไลท์"
+				},
+				"pricing": {
+					"description": {
+						"eng": "See the actual weekly rent for every available home.",
+						"trans": "ดูอัตราค่าเช่ารายสัปดาห์จริงสำหรับที่พักที่เปิดให้เช่าทุกรายการ"
+					},
+					"title": {
+						"eng": "Clear weekly pricing",
+						"trans": "รายการราคาสัปดาห์นี้"
+					}
+				},
+				"standards": {
+					"benefitsDescription": {
+						"eng": "Compare added inventory space, vault capacity and mercenary contact slots before choosing.",
+						"trans": "เปรียบเทียบพื้นที่อินเวนทอรี่เพิ่มเติม ความจุเซฟ และช่องติดต่อผู้รับจ้างก่อนเลือก"
+					},
+					"title": {
+						"eng": "Four housing standards",
+						"trans": "มาตรฐานที่พัก 4 แบบ"
+					}
+				},
+				"title": {
+					"eng": "A better way to find a home in Arclight.",
+					"trans": "ทางเลือกที่เหนือกว่าในการหาบ้านในนครราตรี"
+				},
+				"viewListings": {
+					"eng": "Explore current listings",
+					"trans": "เลือกดูรายการปัจจุบัน"
+				}
+			},
+			"renting": {
+				"description": {
+					"eng": "We charge your first seven-day period when the rental starts. After each period, we process renewal during the next scheduled billing check.",
+					"trans": "เราตัดเงินค่าเช่า 7 วันแรกทันทีเมื่อเริ่มเช่า หลังจากจบแต่ละรอบ ระบบจะดำเนินการต่ออายุในการเรียกเก็บเงินตามรอบบิลถัดไปตามกำหนด"
+				},
+				"eyebrow": {
+					"eng": "Renting with MegaEstate",
+					"trans": "เช่ากับเมก้าเอสเตท"
+				},
+				"guide": {
+					"eng": "See how renting works",
+					"trans": "ดูวิธีการเช่า"
+				},
+				"title": {
+					"eng": "Choose today. Renew week by week.",
+					"trans": "เลือกวันนี้ อัปเดตใหม่ทุกสัปดาห์"
+				}
+			},
+			"standards": {
+				"compare": {
+					"eng": "Compare housing standards",
+					"trans": "เปรียบเทียบมาตรฐานที่อยู่อาศัย"
+				},
+				"description": {
+					"eng": "Each of our housing standards offers a different balance of space, storage and capacity. Compare them here, then see real homes and weekly rent in Listings.",
+					"trans": "แต่ละระดับที่พักมีสมดุลของพื้นที่ ที่เก็บของ และความจุที่แตกต่างกัน เปรียบเทียบได้ที่นี่ แล้วชมที่พักจริงพร้อมค่าเช่ารายสัปดาห์ที่หน้า Listings"
+				},
+				"eyebrow": {
+					"eng": "Housing standards",
+					"trans": "มาตรฐานที่อยู่อาศัย"
+				},
+				"mercenarySlots": {
+					"eng": "Merc slots",
+					"trans": "ช่องทหารรับจ้าง"
+				},
+				"storage": {
+					"eng": "Storage",
+					"trans": "ที่เก็บของ"
+				},
+				"title": {
+					"eng": "Four ways to live in Arclight.",
+					"trans": "4 สไตล์การใช้ชีวิตในนครอาร์คไลท์"
+				},
+				"vault": {
+					"eng": "Vault",
+					"trans": "เซฟ"
+				}
+			}
+		},
+		"homeDetails": {
+			"confirm": {
+				"action": {
+					"eng": "Rent this home",
+					"trans": "เช่าที่พักนี้"
+				},
+				"description": {
+					"eng": "Rent ${address} for ${price} ${currency} per week. We charge the first seven-day period when the rental starts.",
+					"trans": "เช่า ${address} ในราคา ${price} ${currency} ต่อสัปดาห์ คิดค่าเช่า 7 วันแรกทันทีเมื่อเริ่มสัญญาเช่า"
+				},
+				"perWeek": {
+					"eng": "per week",
+					"trans": "ต่อสัปดาห์"
+				},
+				"replacementDescription": {
+					"eng": "Rent ${address} for ${price} ${currency} per week. We charge the first seven-day period when the rental starts, and this immediately replaces your current home.",
+					"trans": "เช่า ${address} ในราคา ${price} ${currency}/สัปดาห์ ระบบจะตัดค่าเช่า 7 วันแรกทันทีเมื่อเริ่มใช้งาน และที่อยู่ปัจจุบันจะถูกแทนที่ทันที"
+				},
+				"title": {
+					"eng": "Rent this home?",
+					"trans": "เช่าที่พักแห่งนี้ใช่หรือไม่"
+				},
+				"weeklyRent": {
+					"eng": "Weekly rent",
+					"trans": "ค่าเช่ารายสัปดาห์"
+				}
+			},
+			"currentHome": {
+				"eng": "Current home",
+				"trans": "บ้านปัจจุบัน"
+			},
+			"error": {
+				"description": {
+					"eng": "Return to Listings and try this home again when availability can be loaded.",
+					"trans": "กลับไปหน้ารายการที่พักและลองดูที่พักหลังนี้ใหม่อีกครั้งเมื่อข้อมูลพร้อมใช้งาน"
+				},
+				"title": {
+					"eng": "We couldn't check this home's availability",
+					"trans": "ไม่สามารถตรวจสอบสถานะการว่างของที่พักนี้ได้"
+				}
+			},
+			"imageAlt": {
+				"eng": "Rental home at ${address}",
+				"trans": "บ้านเช่าที่ ${address}"
+			},
+			"invalid": {
+				"description": {
+					"eng": "Return to Listings to choose from homes currently available.",
+					"trans": "กลับไปที่รายการเพื่อเลือกที่พักอาศัยที่ว่างอยู่ในปัจจุบัน"
+				},
+				"title": {
+					"eng": "We can't open this home",
+					"trans": "เข้าไม่ถึงบ้านนี้"
+				}
+			},
+			"mercenarySlots": {
+				"eng": "Merc slots",
+				"trans": "ช่องทหารรับจ้าง"
+			},
+			"metrics": {
+				"mercenarySlots": {
+					"description": {
+						"eng": "Adds ${count} mercenary contact slots to your recruitment limit.",
+						"trans": "เพิ่มช่องติดต่อทหารรับจ้างในขีดจำกัดการรับสมัครอีก ${count} ช่อง"
+					}
+				},
+				"storage": {
+					"description": {
+						"eng": "Adds ${count} slots to your inventory.",
+						"trans": "เพิ่ม ${count} ช่องในกระเป๋าของคุณ"
+					}
+				},
+				"vault": {
+					"description": {
+						"eng": "Holds up to ${count} item stacks in your apartment vault.",
+						"trans": "จัดเก็บไอเทมในเซฟห้องชุดได้สูงสุด ${count} ช่อง"
+					}
+				}
+			},
+			"perWeek": {
+				"eng": "per week",
+				"trans": "ต่อสัปดาห์"
+			},
+			"renewal": {
+				"description": {
+					"eng": "We charge the first seven-day period when your rental starts. After each period, we process renewal during the next scheduled billing check; insufficient funds end the lease.",
+					"trans": "เรียกเก็บค่าสำหรับช่วงแรก 7 วันตามวันเริ่มเช่า ระบบจะดำเนินการต่ออายุในงวดบิลถัดไป หากยอดเงินไม่เพียงพอ สัญญาเช่าจะสิ้นสุดลง"
+				},
+				"eyebrow": {
+					"eng": "Seven-day rental cycle",
+					"trans": "รอบเช่า 7 วัน"
+				}
+			},
+			"rent": {
+				"eng": "Rent this home",
+				"trans": "เช่าที่พักนี้"
+			},
+			"replacement": {
+				"description": {
+					"eng": "Starting this rental ends your existing lease immediately.",
+					"trans": "การเริ่มต้นเช่านี้จะทำให้สัญญาเช่าปัจจุบันของคุณสิ้นสุดลงทันที"
+				},
+				"title": {
+					"eng": "This replaces your current home",
+					"trans": "สิ่งนี้จะแทนที่ที่อยู่ปัจจุบันของคุณ"
+				}
+			},
+			"storage": {
+				"eng": "Storage",
+				"trans": "ที่เก็บของ"
+			},
+			"unavailable": {
+				"description": {
+					"eng": "This listing is no longer available. Return to Listings to view current homes.",
+					"trans": "รายการนี้ไม่สามารถเข้าถึงได้แล้ว โปรดกลับไปที่หน้ารายการเพื่อดูที่พักปัจจุบัน"
+				},
+				"title": {
+					"eng": "This home is no longer available",
+					"trans": "ที่พักนี้ไม่พร้อมใช้งานอีกต่อไป"
+				}
+			},
+			"vault": {
+				"eng": "Vault",
+				"trans": "เซฟ"
+			},
+			"weeklyRent": {
+				"eng": "Weekly rent",
+				"trans": "ค่าเช่ารายสัปดาห์"
+			}
+		},
+		"housingStandards": {
+			"a0": {
+				"description": {
+					"eng": "A practical first address with the essentials for independent city living.",
+					"trans": "ที่พักเบื้องต้นที่ใช้งานได้จริง พร้อมสิ่งจำเป็นสำหรับการใช้ชีวิตในเมืองอย่างอิสระ"
+				}
+			},
+			"a1": {
+				"description": {
+					"eng": "A versatile city home with additional storage and vault space for an established routine.",
+					"trans": "ที่อยู่อาศัยในเมืองอเนกประสงค์ พร้อมพื้นที่เก็บของและห้องนิรภัยเพิ่มเติม รองรับการใช้ชีวิตประจำวันที่มั่นคงเป็นระบบ"
+				}
+			},
+			"a2": {
+				"description": {
+					"eng": "A focused urban home with generous storage for residents who need more from a compact address.",
+					"trans": "ที่พักในเมืองที่จัดสรรพื้นที่อย่างมีประสิทธิภาพ พร้อมช่องเก็บของกว้างขวาง สำหรับผู้พักอาศัยที่ต้องการใช้พื้นที่กะทัดรัดให้ได้ประโยชน์สูงสุด"
+				}
+			},
+			"a3": {
+				"description": {
+					"eng": "Our premier residence offers the most room for residents, belongings and protected storage.",
+					"trans": "ที่พักชั้นนำมอบพื้นที่ใช้สอยสูงสุดสำหรับผู้อยู่อาศัย ทรัพย์สิน และพื้นที่จัดเก็บปลอดภัย"
+				}
+			},
+			"benefitsDescription": {
+				"eng": "Compare added inventory space, vault capacity and mercenary contact slots across every standard.",
+				"trans": "เปรียบเทียบพื้นที่กระเป๋าที่เพิ่มขึ้น ความจุห้องนิรภัย และช่องติดต่อผู้รับจ้างในทุกมาตรฐาน"
+			},
+			"browseListings": {
+				"eng": "Browse current listings",
+				"trans": "เรียกดูรายการปัจจุบัน"
+			},
+			"eyebrow": {
+				"eng": "The MegaEstate range",
+				"trans": "ซีรีส์เมก้าเอสเตท"
+			},
+			"imageAlt": {
+				"eng": "${standard} rental home",
+				"trans": "${standard} บ้านให้เช่า"
+			},
+			"imageCaption": {
+				"eng": "Standard ${code}",
+				"trans": "มาตรฐาน ${code}"
+			},
+			"mercenarySlots": {
+				"eng": "Merc slots",
+				"trans": "ช่องทหารรับจ้าง"
+			},
+			"storage": {
+				"eng": "Storage",
+				"trans": "ที่เก็บของ"
+			},
+			"title": {
+				"eng": "A clear standard for every stage of city life.",
+				"trans": "มาตรฐานที่ชัดเจนสำหรับทุกขั้นตอนการใช้ชีวิตในเมือง"
+			},
+			"vault": {
+				"eng": "Vault",
+				"trans": "เซฟ"
+			}
+		},
+		"listings": {
+			"availableCount": {
+				"eng": "Available listings: ${count}",
+				"trans": "รายการที่พร้อมใช้งาน: ${count}"
+			},
+			"empty": {
+				"description": {
+					"eng": "Choose another housing standard to view its current availability.",
+					"trans": "เลือกมาตรฐานที่พักอื่นเพื่อตรวจสอบความพร้อมใช้งานปัจจุบัน"
+				},
+				"title": {
+					"eng": "No listings available in this standard",
+					"trans": "ยังไม่มีรายการในมาตรฐานนี้"
+				}
+			},
+			"error": {
+				"description": {
+					"eng": "Choose another housing standard or return later to check availability.",
+					"trans": "เลือกประเภทที่พักพิงอื่นหรือกลับเข้ามาตรวจสอบสถานะภายหลัง"
+				},
+				"title": {
+					"eng": "We couldn't load current availability",
+					"trans": "ไม่สามารถโหลดข้อมูลความพร้อมปัจจุบันได้"
+				}
+			},
+			"eyebrow": {
+				"eng": "MegaEstate listings",
+				"trans": "ประกาศเมก้าเอสเตท"
+			},
+			"listing": {
+				"currentHome": {
+					"eng": "Current home",
+					"trans": "บ้านปัจจุบัน"
+				},
+				"imageAlt": {
+					"eng": "${standard} rental home",
+					"trans": "${standard} บ้านให้เช่า"
+				},
+				"perWeek": {
+					"eng": "per week",
+					"trans": "ต่อสัปดาห์"
+				},
+				"weeklyRent": {
+					"eng": "Weekly rent",
+					"trans": "ค่าเช่ารายสัปดาห์"
+				}
+			},
+			"loadingCount": {
+				"eng": "Checking current availability…",
+				"trans": "กำลังตรวจสอบความพร้อมปัจจุบัน…"
+			},
+			"standardLabel": {
+				"eng": "Housing standard",
+				"trans": "ระดับที่พักอาศัย"
+			},
+			"title": {
+				"eng": "Find your next home in Arclight.",
+				"trans": "ค้นพบที่พักพิงใหม่ในนครราตรี"
+			}
+		},
+		"rentalGuide": {
+			"browseListings": {
+				"eng": "Browse current listings",
+				"trans": "เรียกดูรายการปัจจุบัน"
+			},
+			"compareStandards": {
+				"eng": "Compare housing standards",
+				"trans": "เปรียบเทียบมาตรฐานที่อยู่อาศัย"
+			},
+			"description": {
+				"eng": "One clear process for your first payment, every renewal and any move that follows.",
+				"trans": "ขั้นตอนเดียวที่ชัดเจน สำหรับการชำระเงินครั้งแรก การต่ออายุทุกครั้ง และทุกกรณีที่ต้องดำเนินการที่ลงมา"
+			},
+			"eyebrow": {
+				"eng": "Rental guide",
+				"trans": "คู่มือการเช่า"
+			},
+			"guide": {
+				"change": {
+					"description": {
+						"eng": "When you rent a new home, we end your current lease immediately. Review your choice before starting the new rental.",
+						"trans": "เมื่อคุณเช่าที่อยู่อาศัยใหม่ สัญญาเช่าปัจจุบันจะถูกยกเลิกทันที โปรดตรวจสอบให้แน่ใจก่อนเริ่มเช่าใหม่"
+					},
+					"title": {
+						"eng": "Changing your home",
+						"trans": "เปลี่ยนบ้าน"
+					}
+				},
+				"description": {
+					"eng": "Review these four details before you start a rental.",
+					"trans": "ตรวจสอบรายละเอียดทั้ง 4 รายการนี้ก่อนเริ่มการเช่า"
+				},
+				"eyebrow": {
+					"eng": "Before you rent",
+					"trans": "ก่อนเช่า"
+				},
+				"funds": {
+					"description": {
+						"eng": "Keep enough funds available before renewal is due. If funds are insufficient, renewal fails and your lease ends immediately.",
+						"trans": "ควรเตรียมยอดเงินไว้ให้เพียงพอก่อนถึงกำหนดต่อสัญญา หากเงินไม่เพียงพอ การดำเนินการต่อสัญญาจะล้มเหลวและสัญญาเช่าของคุณจะสิ้นสุดทันที"
+					},
+					"title": {
+						"eng": "If renewal funds are unavailable",
+						"trans": "หากเงินทุนสำหรับการต่ออายุไม่พร้อมใช้งาน"
+					}
+				},
+				"renewal": {
+					"description": {
+						"eng": "Each payment covers seven days. We process renewal during the next scheduled billing check and notify you when it succeeds or fails.",
+						"trans": "การชำระเงินแต่ละครั้งครอบคลุมระยะเวลา 7 วัน ระบบจะประมวลผลการต่ออายุในรอบบิลถัดไป พร้อมแจ้งสถานะสำเร็จหรือไม่สำเร็จให้ทราบ"
+					},
+					"title": {
+						"eng": "Automatic weekly renewal",
+						"trans": "ต่ออายุอัตโนมัติรายสัปดาห์"
+					}
+				},
+				"start": {
+					"description": {
+						"eng": "We charge the first seven-day period when your rental starts.",
+						"trans": "จะเริ่มคิดค่าเช่า 7 วันแรกนับจากวันที่เริ่มเช่า"
+					},
+					"title": {
+						"eng": "When your rental starts",
+						"trans": "เมื่อเริ่มเช่า"
+					}
+				}
+			},
+			"nextStep": {
+				"description": {
+					"eng": "Compare housing standards or go directly to current availability.",
+					"trans": "เปรียบเทียบมาตรฐานที่พัก หรือข้ามไปยังรายการที่พักที่ว่างทันที"
+				},
+				"eyebrow": {
+					"eng": "Next step",
+					"trans": "ขั้นตอนถัดไป"
+				},
+				"title": {
+					"eng": "Choose a home when you are ready.",
+					"trans": "เลือกบ้านเมื่อพร้อมแล้ว"
+				}
+			},
+			"title": {
+				"eng": "Renting with MegaEstate.",
+				"trans": "เช่าผ่านเมก้าเอสเตท"
+			}
+		},
+		"shell": {
+			"closeMenu": {
+				"eng": "Close",
+				"trans": "ปิด"
+			},
+			"directory": {
+				"eng": "Explore MegaEstate",
+				"trans": "สำรวจเมก้าเอสเตท"
+			},
+			"footer": {
+				"about": {
+					"eng": "About MegaEstate",
+					"trans": "เกี่ยวกับเมก้าเอสเตท"
+				},
+				"careers": {
+					"eng": "Careers",
+					"trans": "อาชีพ"
+				},
+				"company": {
+					"eng": "MegaEstate",
+					"trans": "เมก้าเอสเตท"
+				},
+				"description": {
+					"eng": "Find your place in Arclight City.",
+					"trans": "ค้นหาที่ทางของคุณในนครราตรี"
+				},
+				"housingStandards": {
+					"eng": "Housing standards",
+					"trans": "มาตรฐานที่อยู่อาศัย"
+				},
+				"listings": {
+					"eng": "Listings",
+					"trans": "ประกาศขาย"
+				},
+				"overview": {
+					"eng": "Overview",
+					"trans": "ภาพรวม"
+				},
+				"renting": {
+					"eng": "How renting works",
+					"trans": "วิธีการเช่า"
+				}
+			},
+			"location": {
+				"eng": "Find your place in Arclight City.",
+				"trans": "ค้นหาที่ทางของคุณในนครราตรี"
+			},
+			"logoAlt": {
+				"eng": "MegaEstate",
+				"trans": "เมก้าเอสเตท"
+			},
+			"nav": {
+				"about": {
+					"eng": "About MegaEstate",
+					"trans": "เกี่ยวกับเมก้าเอสเตท"
+				},
+				"careers": {
+					"eng": "Careers",
+					"trans": "อาชีพ"
+				},
+				"housingStandards": {
+					"eng": "Housing standards",
+					"trans": "มาตรฐานที่อยู่อาศัย"
+				},
+				"listings": {
+					"eng": "Listings",
+					"trans": "ประกาศขาย"
+				},
+				"renting": {
+					"eng": "How renting works",
+					"trans": "วิธีการเช่า"
+				}
+			},
+			"openMenu": {
+				"eng": "Menu",
+				"trans": "เมนู"
+			}
+		}
+	},
 	"mercenary": {
 		"error": {
 			"firstDraw": {
@@ -10305,10 +11741,6 @@
 				"eng": "System Overload",
 				"trans": "ระบบเกินกำลัง"
 			},
-			"gaugeLabel": {
-				"eng": "Pressure gauge - hold to regulate",
-				"trans": "เครื่องวัดความดัน - กดค้างเพื่อปรับ"
-			},
 			"holdingHint": {
 				"eng": "Hold Active",
 				"trans": "กดค้างใช้งาน"
@@ -10328,10 +11760,6 @@
 			"retry": {
 				"eng": "Reset System",
 				"trans": "รีเซ็ตระบบ"
-			},
-			"retryLabel": {
-				"eng": "Reset system and try again",
-				"trans": "รีเซ็ตระบบแล้วลองใหม่"
 			},
 			"safeZone": {
 				"eng": "Target Zone",
@@ -10496,6 +11924,98 @@
 			"tip": {
 				"eng": "Activate all dots to unlock by clicking. The dots will rotate faster and faster.",
 				"trans": "คลิกเพื่อเปิดจุดทั้งหมดเพื่อปลดล็อก จุดจะหมุนเร็วขึ้นเรื่อยๆ"
+			}
+		},
+		"vectorPress": {
+			"cassette": {
+				"verified": {
+					"eng": "Access Key Verified",
+					"trans": "คีย์การเข้าถึงถูกต้องแล้ว"
+				}
+			},
+			"controls": {
+				"armed": {
+					"eng": "Input Armed",
+					"trans": "อินพุตเปิดใช้งาน"
+				},
+				"locked": {
+					"eng": "Input Locked",
+					"trans": "การรับข้อมูลถูกล็อก"
+				},
+				"title": {
+					"eng": "Manual Vector Input",
+					"trans": "การป้อนค่าเวกเตอร์ด้วยตนเอง"
+				}
+			},
+			"direction": {
+				"down": {
+					"eng": "Down",
+					"trans": "ลง"
+				},
+				"left": {
+					"eng": "Left",
+					"trans": "ซ้าย"
+				},
+				"right": {
+					"eng": "Right",
+					"trans": "ขวา"
+				},
+				"up": {
+					"eng": "Up",
+					"trans": "ขึ้น"
+				}
+			},
+			"header": {
+				"progress": {
+					"eng": "Key Progress",
+					"trans": "ความคืบหน้าหลัก"
+				},
+				"protocol": {
+					"eng": "Access Protocol VP-06",
+					"trans": "โปรโตคอลเข้าใช้งาน VP-06"
+				},
+				"title": {
+					"eng": "Vector Press",
+					"trans": "เวกเตอร์เพรส"
+				}
+			},
+			"instruction": {
+				"eng": "Match each vector to punch the access key",
+				"trans": "จัดแนวเวกเตอร์แต่ละเส้นเพื่อปลดล็อกคีย์เข้าระบบ"
+			},
+			"status": {
+				"advancing": {
+					"eng": "Cassette advancing",
+					"trans": "กำลังเลื่อนตลับต่อไป"
+				},
+				"currentDirection": {
+					"eng": "Current required vector: ${direction}",
+					"trans": "เวกเตอร์ที่ต้องใช้ปัจจุบัน: ${direction}"
+				},
+				"label": {
+					"eng": "SYS.VP//STATE",
+					"trans": "SYS.VP//STATE"
+				},
+				"punching": {
+					"eng": "Punch accepted",
+					"trans": "รับหมัดแล้ว"
+				},
+				"ready": {
+					"eng": "Awaiting vector input",
+					"trans": "กำลังรอรับค่าเวกเตอร์"
+				},
+				"rejected": {
+					"eng": "Vector mismatch — retry",
+					"trans": "เวกเตอร์ไม่ตรงกัน — ลองใหม่"
+				},
+				"verified": {
+					"eng": "Access key verified",
+					"trans": "ยืนยันคีย์การเข้าถึงแล้ว"
+				},
+				"verifying": {
+					"eng": "Verifying access key",
+					"trans": "กำลังตรวจสอบคีย์การเข้าถึง"
+				}
 			}
 		}
 	},
@@ -10940,9 +12460,17 @@
 		}
 	},
 	"newsCard": {
+		"decrypted": {
+			"eng": "DECRYPTED",
+			"trans": "ถอดรหัสสำเร็จ"
+		},
 		"new": {
 			"eng": "NEW",
 			"trans": "ใหม่"
+		},
+		"operative": {
+			"eng": "OPERATIVE",
+			"trans": "ผู้ปฏิบัติการ"
 		}
 	},
 	"newsPage": {
@@ -12172,29 +13700,9 @@
 		}
 	},
 	"placeHitPage": {
-		"levelTooLow": {
-			"eng": "You need to be at least level ${level} to place a hit.",
-			"trans": "เลเวลไม่ถึง ${level} อย่าหวังจะโจมตี"
-		},
-		"notEnoughUnitError1": {
-			"eng": "Minimum hit bounty is ${minNormal}",
-			"trans": "ค่าหัวขั้นต่ำ ${minNormal}"
-		},
-		"placeHit": {
-			"eng": "Place hit",
-			"trans": "จัดหนัก"
-		},
-		"selectPlayer": {
-			"eng": "Select player",
-			"trans": "เลือกผู้เล่น"
-		},
 		"selectPlayerClick": {
-			"eng": "Click to select a player",
-			"trans": "คลิกเพื่อเลือกผู้เล่น"
-		},
-		"tip": {
-			"eng": "You can place a hit on a player by paying a certain amount of money and/or unit.",
-			"trans": "คุณสามารถสั่งเก็บผู้เล่นได้ โดยจ่ายเงินจำนวนหนึ่งและ/หรือหน่วย"
+			"eng": "Select target",
+			"trans": "เลือกเป้าหมาย"
 		}
 	},
 	"player": {
@@ -15020,10 +16528,6 @@
 			"eng": "${current} / ${total}",
 			"trans": "`${current} / ${total}`"
 		},
-		"pageInputAriaLabel": {
-			"eng": "Enter page number",
-			"trans": "ป้อนหมายเลขหน้า"
-		},
 		"pageInputPlaceholder": {
 			"eng": "Page #",
 			"trans": "หน้า [number]"
@@ -15206,6 +16710,26 @@
 			"notIdle": {
 				"eng": "You are not idle",
 				"trans": "ไม่ว่างนะ"
+			},
+			"priorityOperationAlreadyActive": {
+				"eng": "You already have a Priority Operation in progress",
+				"trans": "คุณยังมีปฏิบัติการเร่งด่วนที่กำลังดำเนินการอยู่"
+			},
+			"priorityOperationFirstPlaceRequired": {
+				"eng": "Your gang must hold the highest positive war score to start this operation",
+				"trans": "แก๊งของคุณต้องมีคะแนนสงครามเชิงบวกสูงที่สุดจึงจะเริ่มปฏิบัติการนี้ได้"
+			},
+			"priorityOperationGangRequired": {
+				"eng": "Only members of a first-place war gang can start this operation",
+				"trans": "มีเพียงสมาชิกของแก๊งสงครามอันดับหนึ่งเท่านั้นที่สามารถเริ่มปฏิบัติการนี้ได้"
+			},
+			"priorityOperationInvalidated": {
+				"eng": "Priority Operation invalidated because your gang no longer held first place at settlement",
+				"trans": "ปฏิบัติการสำคัญถูกยกเลิกเนื่องจากแก๊งของคุณไม่ครองอันดับหนึ่งในนิคมอีกต่อไปแล้ว"
+			},
+			"priorityOperationSkipFirstPlaceRequired": {
+				"eng": "Your gang must still hold first place to finish this operation now",
+				"trans": "แก๊งของคุณยังคงต้องครองอันดับ 1 เพื่อจบปฏิบัติการนี้"
 			}
 		},
 		"notification": {
@@ -16503,13 +18027,21 @@
 			}
 		},
 		"megaAd": {
-			"subtitle": {
-				"eng": "Mega Estate - the only agency that wont scam you!",
-				"trans": "เมกาเอสเตท - ที่เดียวที่ไว้ใจได้ ไม่โดนฟัน!"
+			"action": {
+				"eng": "View current rental availability",
+				"trans": "ตรวจสอบความพร้อมในการเช่าปัจจุบัน"
+			},
+			"backgroundAlt": {
+				"eng": "MegaEstate residence in Arclight City",
+				"trans": "ที่พักเมก้าเอสเตทในนครราตรี"
+			},
+			"logoAlt": {
+				"eng": "MegaEstate",
+				"trans": "เมก้าเอสเตท"
 			},
 			"title": {
-				"eng": "Cheap Price!!",
-				"trans": "ถูกสุดๆ!!"
+				"eng": "Homes across Arclight",
+				"trans": "ที่พักทั่วเมืองอาร์คไลท์"
 			}
 		},
 		"news": {
@@ -16764,6 +18296,10 @@
 			"eng": "President Jackson Morrison",
 			"trans": "ประธาน แจ็คสัน มอร์ริสัน"
 		},
+		"leeJongSuk": {
+			"eng": "CEO Lee Jong-suk",
+			"trans": "ซีอีโอลี จงซ็อก"
+		},
 		"liWei": {
 			"eng": "Premier Li Wei",
 			"trans": "นายกรัฐมนตรีลีเว่ย"
@@ -16807,6 +18343,10 @@
 		"rezaHosseini": {
 			"eng": "Supreme Leader Ayatollah Reza Hosseini",
 			"trans": "ผู้นำสูงสุดอายะตุลเลาะห์เรซาฮอสเซินี"
+		},
+		"robertSmith": {
+			"eng": "CEO Robert Smith",
+			"trans": "ซีอีโอ โรเบิร์ต สมิธ"
 		},
 		"sarahGoldman": {
 			"eng": "Prime Minister-CEO Sarah Goldman",
@@ -17112,6 +18652,20 @@
 				"trans": "ประธานมอร์ริสัน"
 			}
 		},
+		"leeJongSuk": {
+			"ceoLee": {
+				"eng": "CEO Lee",
+				"trans": "ซีอีโอลี"
+			},
+			"circuitbreakCeo": {
+				"eng": "CircuitBreak CEO",
+				"trans": "ตัดวงจร CEO"
+			},
+			"leeJongSuk": {
+				"eng": "Lee Jong-suk",
+				"trans": "ลีจองซ็อก"
+			}
+		},
 		"liWei": {
 			"li": {
 				"eng": "Li",
@@ -17272,6 +18826,20 @@
 			"supremeLeaderHosseini": {
 				"eng": "Supreme Leader Hosseini",
 				"trans": "ผู้นำสูงสุดโฮเซี๊ยะ"
+			}
+		},
+		"robertSmith": {
+			"ceoSmith": {
+				"eng": "CEO Smith",
+				"trans": "ซีอีโอ สมิธ"
+			},
+			"megaestateCeo": {
+				"eng": "MegaEstate CEO",
+				"trans": "เมก้าเอสเตท ซีอีโอ"
+			},
+			"robertSmith": {
+				"eng": "Robert Smith",
+				"trans": "โรเบิร์ต สมิธ"
 			}
 		},
 		"sarahGoldman": {

@@ -374,24 +374,40 @@
 			"displayName": {
 				"eng": "Slum Apartment",
 				"trans": "スラムのアパート"
+			},
+			"websiteDisplayName": {
+				"eng": "Essential Housing",
+				"trans": "基本住居"
 			}
 		},
 		"apartment1": {
 			"displayName": {
 				"eng": "Low-end Apartment",
 				"trans": "お手頃なアパート"
+			},
+			"websiteDisplayName": {
+				"eng": "City Housing",
+				"trans": "都市住宅"
 			}
 		},
 		"apartment2": {
 			"displayName": {
 				"eng": "Budget Studio",
 				"trans": "普通のアパート"
+			},
+			"websiteDisplayName": {
+				"eng": "Urban Studio",
+				"trans": "アーバンスタジオ"
 			}
 		},
 		"apartment3": {
 			"displayName": {
 				"eng": "Downtown Apartment",
 				"trans": "ダウンタウンのアパート"
+			},
+			"websiteDisplayName": {
+				"eng": "Central Residence",
+				"trans": "中央住宅地区"
 			}
 		},
 		"chat": {
@@ -567,28 +583,6 @@
 				"eng": "Vault",
 				"trans": "倉庫"
 			}
-		}
-	},
-	"apartmentPurchasePage": {
-		"confirmDescription": {
-			"eng": "Are you sure you want to rent this apartment? if you already have an apartment, it will be dismissed.",
-			"trans": "このアパートを借りますか？すでにアパートを持っている場合は、無効になります。"
-		},
-		"confirmTitle": {
-			"eng": "Confirm Rental",
-			"trans": "賃貸契約の確認"
-		},
-		"owned": {
-			"eng": "Owned",
-			"trans": "所有済み"
-		},
-		"perWeek": {
-			"eng": "Per week",
-			"trans": "週ごとに"
-		},
-		"rent": {
-			"eng": "Rent Now",
-			"trans": "今すぐ借りる"
 		}
 	},
 	"appProductType": {
@@ -920,10 +914,14 @@
 			"eng": "Task completed",
 			"trans": "タスクが完了しました"
 		},
+		"dismissButton": {
+			"eng": "Dismiss",
+			"trans": "解除"
+		},
 		"emptyTask": {
 			"description": {
-				"eng": "Click to choose a task",
-				"trans": "タスクを選択するためにクリックしてください"
+				"eng": "Assign operation",
+				"trans": "運用割り当て"
 			},
 			"title": {
 				"eng": "Task slot available",
@@ -941,6 +939,10 @@
 		"instantFinishConfirmTitle": {
 			"eng": "Finish task now?",
 			"trans": "今すぐタスクを完了しますか？"
+		},
+		"invalidated": {
+			"eng": "Operation invalidated",
+			"trans": "操作が無効化されました"
 		}
 	},
 	"backgroundTaskPage": {
@@ -961,6 +963,10 @@
 		"cost": {
 			"eng": "Cost",
 			"trans": "コスト"
+		},
+		"priorityOperationWarning": {
+			"eng": "Your gang must hold first place when this operation starts and settles. Start costs are not refunded if it is invalidated.",
+			"trans": "この作戦の開始時および終了時点で、あなたのギャングが1位である必要があります。無効化された場合は開始費用は返金されません。"
 		},
 		"rewards": {
 			"eng": "possible rewards",
@@ -1024,6 +1030,16 @@
 				"trans": "救出ミッション"
 			}
 		},
+		"rogueAssetExtraction": {
+			"description": {
+				"eng": "Intercept a hostile augmentation shipment while your gang holds the highest war score. Losing first place before settlement invalidates the operation and forfeits its rewards.",
+				"trans": "自ギャングが戦争スコア1位を維持している間に、敵対陣営の強化装置貨物を奪取せよ。集計終了までに首位から外れると、本任務は無効化され報酬も没収される。"
+			},
+			"displayName": {
+				"eng": "Rogue Asset Extraction",
+				"trans": "ロウグアセット回収"
+			}
+		},
 		"scavenge": {
 			"description": {
 				"eng": "Navigate hazardous junkyards, uncover hidden treasures, and salvage valuable tech",
@@ -1053,6 +1069,20 @@
 				"eng": "Thieving",
 				"trans": "窃盗"
 			}
+		}
+	},
+	"backgroundTaskTypeDisplay": {
+		"afkOperation": {
+			"eng": "AFK Operation",
+			"trans": "AFK作戦"
+		},
+		"firstPlaceRequired": {
+			"eng": "First-place gang",
+			"trans": "1位ギャング"
+		},
+		"priorityOperation": {
+			"eng": "Priority Operation",
+			"trans": "優先任務"
 		}
 	},
 	"backgroundTaskUpgradePopup": {
@@ -1863,6 +1893,732 @@
 		"title": {
 			"eng": "Rotate the circle to unlock",
 			"trans": "円を回して解除してください。"
+		}
+	},
+	"circuitBreakWebsite": {
+		"about": {
+			"cid": {
+				"description": {
+					"eng": "CID handles controlled surveillance, intelligence collection, and sensitive recovery mandates under restricted authority.",
+					"trans": "CIDは限定権限のもとで、統制された監視活動、情報収集、および機密回収任務を担当する。"
+				},
+				"eyebrow": {
+					"eng": "Specialist division",
+					"trans": "専門部門"
+				},
+				"liaisonLabel": {
+					"eng": "Contractor liaison",
+					"trans": "請負業者担当"
+				},
+				"liaisonName": {
+					"eng": "Vale",
+					"trans": "ヴェイル"
+				},
+				"liaisonRole": {
+					"eng": "Intelligence operations",
+					"trans": "情報作戦"
+				},
+				"title": {
+					"eng": "CircuitBreak Intelligence Division",
+					"trans": "サーキットブレイク情報部"
+				}
+			},
+			"eyebrow": {
+				"eng": "Company",
+				"trans": "企業"
+			},
+			"leadership": {
+				"kira": {
+					"biography": {
+						"eng": "Kira Nilsen directs security policy and operational standards across CircuitBreak.",
+						"trans": "キラ・ニルセンは、サーキットブレイク全社のセキュリティポリシーと運用基準を統括している。"
+					},
+					"name": {
+						"eng": "Kira Nilsen",
+						"trans": "キラ ニルセン"
+					},
+					"role": {
+						"eng": "Director of Security",
+						"trans": "セキュリティディレクター"
+					}
+				},
+				"label": {
+					"eng": "Executive leadership",
+					"trans": "エグゼクティブ指導力"
+				},
+				"lee": {
+					"biography": {
+						"eng": "Lee Jong-suk serves as Chief Executive Officer of CircuitBreak Security Solutions. A former Korean special-forces soldier, he built his career around protective operations, crisis command, and work conducted under strict information controls. At CircuitBreak, his leadership is defined by disciplined execution, limited public disclosure, and a belief that effective security is measured by what never reaches the public record.",
+						"trans": "リー・ジョンソクはサーキットブレイク・セキュリティソリューションズのCEOを務める。元韓国特殊部隊隊員として、彼は要人護衛、危機指揮、厳格な情報統制下での任務を軸にキャリアを築いてきた。サーキットブレイクにおける彼のリーダーシップは、規律ある遂行能力と最小限の情報開示、そして「真に効果的なセキュリティとは一般の記録に残らないことで測られる」という信念によって特徴づけられている。"
+					},
+					"imageAlt": {
+						"eng": "CircuitBreak chief executive Lee Jong-suk overseeing a night deployment",
+						"trans": "サーキットブレイクCEOリーの・ジョンスクの夜間展開指揮"
+					},
+					"name": {
+						"eng": "Lee Jong-suk",
+						"trans": "イ・ジョンスク"
+					},
+					"role": {
+						"eng": "Chief Executive Officer",
+						"trans": "最高経営責任者"
+					}
+				},
+				"registerLabel": {
+					"eng": "Leadership register",
+					"trans": "リーダーシップ台帳"
+				}
+			},
+			"overview": {
+				"eng": "A listed Arclight security company providing executive protection, armed response, threat intelligence, and sensitive recovery.",
+				"trans": "アークライトに上場する警備企業であり、要人保護、武装対応、脅威情報収集、機密資産の回収を手がけている。"
+			},
+			"registry": {
+				"divisionLabel": {
+					"eng": "Specialist division",
+					"trans": "専門部門"
+				},
+				"divisionValue": {
+					"eng": "CID",
+					"trans": "CID"
+				},
+				"entityLabel": {
+					"eng": "Registered entity",
+					"trans": "登録済みエンティティ"
+				},
+				"entityValue": {
+					"eng": "CircuitBreak Security Solutions",
+					"trans": "サーキットブレイク セキュリティソリューションズ"
+				},
+				"label": {
+					"eng": "Corporate record",
+					"trans": "企業記録"
+				},
+				"marketLabel": {
+					"eng": "Ticker",
+					"trans": "ティッカー"
+				},
+				"marketValue": {
+					"eng": "CBK",
+					"trans": "CBK"
+				}
+			},
+			"title": {
+				"eng": "CircuitBreak Security Solutions",
+				"trans": "サーキットブレイク セキュリティソリューションズ"
+			}
+		},
+		"careers": {
+			"cid": {
+				"contactAction": {
+					"eng": "View liaison details",
+					"trans": "仲介者の詳細を表示"
+				},
+				"description": {
+					"eng": "CID reviews sponsored operators for surveillance, intelligence collection, and sensitive recovery assignments. Intake requires a verified sponsor or approved liaison referral.",
+					"trans": "CIDは監視・情報収集・機密回収任務のため、スポンサー付き作戦員を審査します。入隊には認証済みスポンサーまたは承認済み連絡員の紹介が必須です。"
+				},
+				"label": {
+					"eng": "Contract operators",
+					"trans": "コントラクトオペレーター"
+				},
+				"liaisonLabel": {
+					"eng": "Contractor liaison",
+					"trans": "請負業者担当"
+				},
+				"liaisonName": {
+					"eng": "Vale",
+					"trans": "ヴェイル"
+				},
+				"liaisonRole": {
+					"eng": "Intelligence operations",
+					"trans": "情報作戦"
+				},
+				"title": {
+					"eng": "CID contractor intake",
+					"trans": "CID契約者受付"
+				}
+			},
+			"eyebrow": {
+				"eng": "Careers",
+				"trans": "職業"
+			},
+			"imageAlt": {
+				"eng": "CircuitBreak operations candidate completing a professional assessment",
+				"trans": "サーキットブレイク運用候補者の専門評価進行中"
+			},
+			"intro": {
+				"eng": "Permanent roles for security professionals who exercise sound judgment under pressure.",
+				"trans": "緊迫した状況下でも的確な判断ができるセキュリティ専門家の常設ポジション。"
+			},
+			"openRolesTitle": {
+				"eng": "Current openings",
+				"trans": "現在の募集枠"
+			},
+			"recruitmentAction": {
+				"eng": "Contact recruitment",
+				"trans": "採用窓口へ連絡"
+			},
+			"vacancies": {
+				"intelligence": {
+					"context": {
+						"eng": "Risk Intelligence / Arclight",
+						"trans": "リスクインテリジェンス / アークライト"
+					},
+					"title": {
+						"eng": "Threat Intelligence Analyst",
+						"trans": "脅威インテリジェンスアナリスト"
+					}
+				},
+				"protective": {
+					"context": {
+						"eng": "Protective Operations / Arclight",
+						"trans": "警護運用 / アークライト"
+					},
+					"title": {
+						"eng": "Protective Operations Specialist",
+						"trans": "防衛運用専門職"
+					}
+				},
+				"response": {
+					"context": {
+						"eng": "Client Command / Arclight Response Centre",
+						"trans": "クライアント司令部/アークライト対応センター"
+					},
+					"title": {
+						"eng": "Client Response Controller",
+						"trans": "クライアント応答コントローラー"
+					}
+				}
+			}
+		},
+		"contact": {
+			"directory": {
+				"cid": {
+					"access": {
+						"eng": "Sponsor only",
+						"trans": "スポンサー限定"
+					},
+					"description": {
+						"eng": "Sponsor-backed candidate references and approved contractor correspondence.",
+						"trans": "スポンサー支援候補者の推薦状と、承認済み契約業者との通信記録。"
+					},
+					"title": {
+						"eng": "CID contractor liaison",
+						"trans": "CID外部業者調整役"
+					}
+				},
+				"corporate": {
+					"access": {
+						"eng": "Public",
+						"trans": "公開"
+					},
+					"address": {
+						"eng": "corporate@circuitbreak.com",
+						"trans": "corporate@circuitbreak.com"
+					},
+					"description": {
+						"eng": "Company records, procurement, legal notices, recruitment, and general correspondence.",
+						"trans": "社内文書、調達、法的通知、採用、ならびに一般通信。"
+					},
+					"title": {
+						"eng": "Corporate and recruitment",
+						"trans": "企業と採用"
+					}
+				},
+				"protected": {
+					"access": {
+						"eng": "Private intake",
+						"trans": "非公開受入"
+					},
+					"action": {
+						"eng": "Open a private mandate",
+						"trans": "個別契約を開始"
+					},
+					"description": {
+						"eng": "Submit a new private-client mandate for controlled assessment.",
+						"trans": "管理評価用の新規プライベートクライアント指令を提出する"
+					},
+					"title": {
+						"eng": "Private mandate",
+						"trans": "プライベート任務"
+					}
+				},
+				"response": {
+					"access": {
+						"eng": "Contracted clients",
+						"trans": "契約クライアント"
+					},
+					"description": {
+						"eng": "For active incidents under an existing mandate, use your assigned client relay. Public mail cannot dispatch field teams.",
+						"trans": "既存の指令下にある進行中のインシデントについては、担当クライアントのリレイを使用してください。一般メールからはフィールドチームを派遣できません。"
+					},
+					"reference": {
+						"eng": "Use assigned client relay",
+						"trans": "割り当てられたクライアントリレーを使用する"
+					},
+					"title": {
+						"eng": "Active client response",
+						"trans": "アクティブクライアントの応答"
+					}
+				}
+			},
+			"directoryTitle": {
+				"eng": "Contact CircuitBreak",
+				"trans": "サーキットブレイク社への連絡"
+			},
+			"eyebrow": {
+				"eng": "Contact",
+				"trans": "コンタクト"
+			},
+			"intro": {
+				"eng": "Choose the channel matching your request. Restricted matters cannot be transferred from public enquiries.",
+				"trans": "ご用件に応じたチャネルを選択してください。制限対象の件は、一般問い合わせからの移管ができません。"
+			}
+		},
+		"contracts": {
+			"disclaimer": {
+				"eng": "Mandate availability and operator response are not guaranteed. CircuitBreak retains final network authority.",
+				"trans": "指令の提供と担当者の応答は保証されません。ネットワークに関する最終権限はサーキットブレイク社が保有します。"
+			},
+			"emptyAction": {
+				"eng": "Open a contract",
+				"trans": "契約を開く"
+			},
+			"emptyCode": {
+				"eng": "Ledger status / Clear",
+				"trans": "台帳ステータス / クリア"
+			},
+			"emptyDescription": {
+				"eng": "No public mandate currently meets network requirements. Qualified clients may open a new contract.",
+				"trans": "現在、ネットワーク要件を満たす公開委託はありません。認証済みクライアントは新規契約を締結可能です。"
+			},
+			"eyebrow": {
+				"eng": "Private Client Network / Mandates",
+				"trans": "プライベートクライアントネットワーク／指令"
+			},
+			"intro": {
+				"eng": "Active public mandates available to verified CircuitBreak operators. Select a target to review engagement options.",
+				"trans": "認証済みサーキットブレイクオペレーターが利用可能な公開任務。対象を選択して対応オプションを確認してください。"
+			},
+			"levelColumn": {
+				"eng": "Level",
+				"trans": "レベル"
+			},
+			"loadingTitle": {
+				"eng": "Retrieving mandates",
+				"trans": "指令を取得中"
+			},
+			"openContract": {
+				"eng": "Place a Hit",
+				"trans": "ヒットを決める"
+			},
+			"sortLabel": {
+				"eng": "Sort: ${mode}",
+				"trans": "ソート: ${mode}"
+			},
+			"status": {
+				"eng": "Active ledger",
+				"trans": "アクティブな台帳"
+			},
+			"targetColumn": {
+				"eng": "Target",
+				"trans": "ターゲット"
+			},
+			"title": {
+				"eng": "Contract Board",
+				"trans": "契約掲示板"
+			},
+			"valueColumn": {
+				"eng": "Value",
+				"trans": "バリュー"
+			}
+		},
+		"home": {
+			"hero": {
+				"classification": {
+					"eng": "Integrated security / Arclight",
+					"trans": "統合セキュリティ / アークライト"
+				},
+				"clientAccess": {
+					"eng": "Private client access",
+					"trans": "プライベートクライアントアクセス"
+				},
+				"description": {
+					"eng": "CircuitBreak protects Arclight's most exposed institutions, assets, and executives. When deterrence fails, we resolve the exposure.",
+					"trans": "サーキットブレイクはアークライトの最も危険に晒されている組織・資産・幹部を護衛する。抑止が通用しない場合も、我々が即座に対処しリスクを解消する。"
+				},
+				"imageAlt": {
+					"eng": "CircuitBreak headquarters and executive protection detail in Arclight",
+					"trans": "アークライトのサーキットブレイク本社および執行部警護隊"
+				},
+				"placeHit": {
+					"eng": "Place Hit",
+					"trans": "ヒットマンへ依頼"
+				},
+				"title": {
+					"eng": "Power, applied.",
+					"trans": "電源投入完了"
+				},
+				"viewBoard": {
+					"eng": "View Board",
+					"trans": "掲示板を表示"
+				}
+			},
+			"services": {
+				"allServices": {
+					"eng": "View all services",
+					"trans": "すべてのサービスを表示"
+				},
+				"highRisk": {
+					"description": {
+						"eng": "Integrated protection for critical sites and operations.",
+						"trans": "重要拠点および運用への統合型防護"
+					},
+					"title": {
+						"eng": "High-risk security",
+						"trans": "ハイリスクセキュリティ"
+					}
+				},
+				"label": {
+					"eng": "Capabilities",
+					"trans": "能力"
+				},
+				"protection": {
+					"description": {
+						"eng": "Protective teams and secure movement for exposed clients.",
+						"trans": "危険に晒されたクライアント向けの護衛部隊と安全移送。"
+					},
+					"title": {
+						"eng": "Executive protection",
+						"trans": "要人警護"
+					}
+				},
+				"response": {
+					"description": {
+						"eng": "Rapid intervention when a material threat becomes active.",
+						"trans": "物理的脅威が発動した場合の迅速な介入"
+					},
+					"title": {
+						"eng": "Armed response",
+						"trans": "武装対応"
+					}
+				},
+				"title": {
+					"eng": "Protective services",
+					"trans": "防護サービス"
+				}
+			}
+		},
+		"placeHit": {
+			"actionIntro": {
+				"eng": "Choose a target and contract value, then review the cost before authorization.",
+				"trans": "標的と契約額を選択し、承認前にコストを確認してください。"
+			},
+			"actionTitle": {
+				"eng": "Place a hit",
+				"trans": "暗殺依頼"
+			},
+			"amountModalTitle": {
+				"eng": "Contract value",
+				"trans": "契約額"
+			},
+			"availableFunds": {
+				"eng": "Available funds",
+				"trans": "利用可能な資金"
+			},
+			"changeTarget": {
+				"eng": "Change",
+				"trans": "変更"
+			},
+			"changeValue": {
+				"eng": "Change",
+				"trans": "変更"
+			},
+			"formCode": {
+				"eng": "Form CB-17",
+				"trans": "フォームCB-17"
+			},
+			"fundsStatus": {
+				"eng": "Available funds no longer cover this contract.",
+				"trans": "この契約には利用可能資金が不足しています。"
+			},
+			"insufficientFundsStatus": {
+				"eng": "Available funds are below the ${amount} ${currency} contract minimum.",
+				"trans": "現在のお手持ち資金は、契約最低額の${amount}${currency}を下回っています。"
+			},
+			"levelRequirement": {
+				"eng": "Level ${level} is required to authorize a contract.",
+				"trans": "契約を認証するにはレベル${level}が必要です。"
+			},
+			"levelStatus": {
+				"eng": "Client authorization requires player level ${level}.",
+				"trans": "クライアント認証にはプレイヤーレベル${level}が必要です。"
+			},
+			"minimumStatus": {
+				"eng": "Set a contract value of at least ${amount} ${currency}.",
+				"trans": "契約報酬額を最低${amount} ${currency}に設定してください。"
+			},
+			"minimumValue": {
+				"eng": "Minimum ${amount}",
+				"trans": "最低 ${amount}"
+			},
+			"networkLabel": {
+				"eng": "Private Client Network",
+				"trans": "クライアント専用ネットワーク"
+			},
+			"readyStatus": {
+				"eng": "Contract is ready to review.",
+				"trans": "契約内容の確認が可能です"
+			},
+			"required": {
+				"eng": "Required",
+				"trans": "必要"
+			},
+			"restrictedStatus": {
+				"eng": "System restrictions prevent contract authorization.",
+				"trans": "システム制限により、契約承認は許可されません。"
+			},
+			"reviewAction": {
+				"eng": "Review contract",
+				"trans": "契約内容を確認"
+			},
+			"selectTargetAction": {
+				"eng": "Select",
+				"trans": "選択"
+			},
+			"selectTargetStatus": {
+				"eng": "Select a target to continue.",
+				"trans": "ターゲットを選択して続行"
+			},
+			"setValue": {
+				"eng": "Set value",
+				"trans": "値を設定"
+			},
+			"simpleTargetTitle": {
+				"eng": "1. Choose target",
+				"trans": "1. ターゲットを選択"
+			},
+			"simpleValueTitle": {
+				"eng": "2. Set contract value",
+				"trans": "2. 契約金額を設定"
+			},
+			"targetEmpty": {
+				"eng": "Search verified player records",
+				"trans": "認証済みプレイヤー記録を検索"
+			},
+			"targetLevelStatus": {
+				"eng": "Targets below level ${level} cannot be listed.",
+				"trans": "レベル${level}未満のターゲットは一覧に表示されません"
+			},
+			"targetSelected": {
+				"eng": "Verified identity selected",
+				"trans": "認証済みアイデンティティを選択しました"
+			}
+		},
+		"reviewHit": {
+			"authorizeAction": {
+				"eng": "Authorize contract",
+				"trans": "契約承認"
+			},
+			"editAction": {
+				"eng": "Edit details",
+				"trans": "詳細を編集"
+			},
+			"formCode": {
+				"eng": "Form CB-17 / Review",
+				"trans": "CB-17様式 / 審査"
+			},
+			"fundsStatus": {
+				"eng": "Available funds no longer cover this contract.",
+				"trans": "利用可能資金はこの契約の費用を下回っています。"
+			},
+			"intro": {
+				"eng": "Confirm the target and financial commitment before authorization.",
+				"trans": "承認前にターゲットと費用負担を確認してください。"
+			},
+			"invalidError": {
+				"eng": "Contract details changed. Return to the previous page and review them again.",
+				"trans": "契約詳細が変更されました。前の画面に戻って、再度確認ください。"
+			},
+			"invalidStatus": {
+				"eng": "Contract details are incomplete or no longer valid.",
+				"trans": "契約の詳細情報が不完全か、すでに失効しています。"
+			},
+			"levelStatus": {
+				"eng": "Client authorization requires player level ${level}.",
+				"trans": "クライアント認証には、プレイヤーレベル${level}以上が必要です。"
+			},
+			"loadingStatus": {
+				"eng": "Verifying contract details...",
+				"trans": "契約詳細を検証中..."
+			},
+			"minimumStatus": {
+				"eng": "Contract value must be at least ${amount} ${currency}.",
+				"trans": "契約金額は最低でも ${amount} ${currency} でなければなりません。"
+			},
+			"networkLabel": {
+				"eng": "Private Client Network",
+				"trans": "クライアント専用ネットワーク"
+			},
+			"notice": {
+				"eng": "Authorization transfers the committed funds immediately and publishes the contract to the active Board. This action cannot be reversed.",
+				"trans": "承認によりコミット資金が即時転送され、契約内容がアクティブボードへ公開されます。この操作は取り消せません。"
+			},
+			"pendingTarget": {
+				"eng": "Unverified",
+				"trans": "未認証"
+			},
+			"readyStatus": {
+				"eng": "Contract is ready for authorization.",
+				"trans": "契約書の承認準備が整いました。"
+			},
+			"restrictedStatus": {
+				"eng": "System restrictions prevent contract authorization.",
+				"trans": "システム制限により、契約の承認は許可されません。"
+			},
+			"target": {
+				"eng": "Target",
+				"trans": "ターゲット"
+			},
+			"targetLevelStatus": {
+				"eng": "Targets below level ${level} cannot be listed.",
+				"trans": "レベル${level}未満のターゲットはリストに表示できません。"
+			},
+			"title": {
+				"eng": "Review contract",
+				"trans": "契約内容を確認"
+			},
+			"value": {
+				"eng": "Contract value",
+				"trans": "契約額"
+			}
+		},
+		"services": {
+			"armedResponse": {
+				"description": {
+					"eng": "Disciplined intervention teams contain active threats, secure critical sites, and restore client control.",
+					"trans": "規律ある介入部隊が活動中の脅威を封じ込め、重要拠点を確保してクライアントの制御権限を回復します。"
+				},
+				"title": {
+					"eng": "Armed response",
+					"trans": "武装出動"
+				}
+			},
+			"assetRecovery": {
+				"description": {
+					"eng": "Specialist recovery teams locate and return sensitive property while limiting exposure, delay, and attribution.",
+					"trans": "専門回収チームが機密資産の発見と返還を実施し、露見・遅延・身元追跡を極小化します。"
+				},
+				"title": {
+					"eng": "Asset recovery",
+					"trans": "資産回収"
+				}
+			},
+			"authorizationNotice": {
+				"eng": "All engagements require an authorized client mandate.",
+				"trans": "すべての任務はクライアントの公式認可が必要です。"
+			},
+			"executiveProtection": {
+				"description": {
+					"eng": "Low-profile close protection, route control, and secure movement for executives operating under elevated threat.",
+					"trans": "高脅威環境下における経営陣向け、目立たない近接警備・経路管理・安全移動"
+				},
+				"title": {
+					"eng": "Executive protection",
+					"trans": "VIP警護"
+				}
+			},
+			"eyebrow": {
+				"eng": "Services",
+				"trans": "サービス"
+			},
+			"imageAlt": {
+				"eng": "CircuitBreak close-protection team moving a client through a secure arrival",
+				"trans": "サーキットブレイク社護衛班によるクライアントのセキュア到着経路への移送中"
+			},
+			"intro": {
+				"eng": "CircuitBreak protects people, property, and continuity where ordinary security reaches its limit.",
+				"trans": "一般警備が限界に達する現場でも、サーキットブレイクは人々と財産、そして事業継続を守ります"
+			},
+			"privateMandates": {
+				"action": {
+					"eng": "Open a private mandate",
+					"trans": "プライベート指令を開く"
+				}
+			},
+			"threatIntelligence": {
+				"description": {
+					"eng": "Targeted surveillance and intelligence collection identify hostile intent before it becomes a public incident.",
+					"trans": "重点監視と情報収集により、敵対意図が表沙汰になる前に察知する"
+				},
+				"title": {
+					"eng": "Threat intelligence",
+					"trans": "脅威インテリジェンス"
+				}
+			},
+			"title": {
+				"eng": "Protective services",
+				"trans": "警護サービス"
+			}
+		},
+		"shell": {
+			"footer": {
+				"careers": {
+					"eng": "Careers",
+					"trans": "職業"
+				},
+				"company": {
+					"eng": "CircuitBreak Security Solutions",
+					"trans": "サーキットブレイク セキュリティソリューションズ"
+				},
+				"companyProfile": {
+					"eng": "Company profile",
+					"trans": "会社概要"
+				},
+				"contact": {
+					"eng": "Contact CircuitBreak",
+					"trans": "サーキットブレイク社への連絡"
+				},
+				"notice": {
+					"eng": "Client information is handled under strict confidentiality.",
+					"trans": "クライアント情報は厳重に機密管理されています。"
+				}
+			},
+			"logoAlt": {
+				"eng": "CircuitBreak Security Solutions",
+				"trans": "サーキットブレイク セキュリティソリューションズ"
+			},
+			"nav": {
+				"board": {
+					"eng": "Board",
+					"trans": "掲示板"
+				},
+				"careers": {
+					"eng": "Careers",
+					"trans": "職業"
+				},
+				"company": {
+					"eng": "Company",
+					"trans": "企業"
+				},
+				"contact": {
+					"eng": "Contact",
+					"trans": "コンタクト"
+				},
+				"home": {
+					"eng": "Home",
+					"trans": "ホーム"
+				},
+				"services": {
+					"eng": "Services",
+					"trans": "サービス"
+				}
+			},
+			"placeHit": {
+				"eng": "Place Hit",
+				"trans": "ヒットマンへ依頼"
+			}
 		}
 	},
 	"clan": {
@@ -2907,6 +3663,10 @@
 		"clanResource": {
 			"eng": "+ ${amount} Gang resource",
 			"trans": "+ ${amount}のギャングリソース"
+		},
+		"oneOf": {
+			"eng": "One of following:",
+			"trans": "以下のいずれか："
 		}
 	},
 	"confirmModal": {
@@ -4917,28 +5677,24 @@
 	},
 	"hitListPage": {
 		"bountyCount": {
-			"eng": "${count} bounties",
-			"trans": "${count} 件のバウンティ"
+			"eng": "${count} active",
+			"trans": "${count} アクティブ"
 		},
 		"sort": {
 			"level": {
-				"eng": "Level",
-				"trans": "レベル"
+				"eng": "Target level",
+				"trans": "目標レベル"
 			},
 			"price": {
-				"eng": "Price",
-				"trans": "価格"
+				"eng": "Contract value",
+				"trans": "契約額"
 			}
 		}
 	},
 	"hitlist": {
-		"loading": {
-			"eng": "Loading bounties...",
-			"trans": "ボウティー情報を取得中..."
-		},
 		"noBounties": {
-			"eng": "No bounties available",
-			"trans": "バウンティは利用できません"
+			"eng": "No active contracts",
+			"trans": "有効な契約はありません"
 		},
 		"optionsPopup": {
 			"attack": {
@@ -4949,23 +5705,13 @@
 				"eng": "View Profile",
 				"trans": "プロフィールを表示する"
 			}
-		},
-		"placeHitButton": {
-			"title": {
-				"eng": "Place Hit",
-				"trans": "命令を下す"
-			}
-		},
-		"title": {
-			"eng": "Hit List",
-			"trans": "暗殺依頼"
 		}
 	},
 	"hitman": {
 		"error": {
 			"cannotPlaceBountyOnAdmin": {
-				"eng": "You cannot place bounty on this player",
-				"trans": "このプレイヤーには賞金をかけることはできません。"
+				"eng": "You cannot place or control this player.",
+				"trans": "このプレイヤーの配置および操作はできません。"
 			},
 			"cannotPlaceBountyOnLowLevel": {
 				"eng": "You cannot place bounty on players lower than level ${level}",
@@ -5345,10 +6091,6 @@
 		"evidenceNumber": {
 			"eng": "Evidence #${number}",
 			"trans": "証拠 #${number}"
-		},
-		"goToVerdict": {
-			"eng": "Go to verdict ${num}",
-			"trans": "判決${num}へ"
 		},
 		"imageUnavailable": {
 			"eng": "Image Unavailable",
@@ -7977,10 +8719,6 @@
 				"eng": "News",
 				"trans": "ニュース"
 			},
-			"goToNews": {
-				"eng": "Go to news ${index}",
-				"trans": "ニュース${index}を開く"
-			},
 			"heading": {
 				"eng": "YOUR ACTIONS MAKE THE HEADLINES",
 				"trans": "あなたの行動が見出しになる"
@@ -7993,10 +8731,6 @@
 				"eng": "Arclight Times",
 				"trans": "アークライト・タイムズ"
 			},
-			"next": {
-				"eng": "Next news",
-				"trans": "次のニュース"
-			},
 			"noNews": {
 				"eng": "No news available at the moment",
 				"trans": "現在、最新情報はありません"
@@ -8004,10 +8738,6 @@
 			"overline": {
 				"eng": "LIVE WORLD EVENTS // PLAYER-DRIVEN NARRATIVE",
 				"trans": "ライブ世界イベント // プレイヤー主導の物語"
-			},
-			"previous": {
-				"eng": "Previous news",
-				"trans": "過去のニュース"
 			},
 			"reportBy": {
 				"eng": "REPORT BY",
@@ -9507,6 +10237,712 @@
 			"trans": "フィルター"
 		}
 	},
+	"megaEstateWebsite": {
+		"careers": {
+			"description": {
+				"eng": "MegaEstate evaluates verified resident profiles continuously. If your payment, access and conduct history meets a role requirement, we will contact you. No submission is necessary.",
+				"trans": "メガエステートは認証済み居住者データを随時審査しています。支払い、アクセス権限、行動履歴が該当する役職の基準を満たした場合、こちらからご連絡いたします。申請は不要です。"
+			},
+			"eyebrow": {
+				"eng": "Careers at MegaEstate",
+				"trans": "メガエステートの採用"
+			},
+			"hero": {
+				"imageAlt": {
+					"eng": "MegaEstate property operations team reviewing a residential building",
+					"trans": "メガエステート物件運営チームによる住宅ビル査察"
+				}
+			},
+			"title": {
+				"eng": "Your record is your application.",
+				"trans": "実績があなたの履歴書です。"
+			},
+			"vacancies": {
+				"biometricAccess": {
+					"department": {
+						"eng": "Access infrastructure · Technical",
+						"trans": "アクセスインフラ・技術"
+					},
+					"description": {
+						"eng": "Maintain identity-linked entry systems, investigate access anomalies and revoke resident credentials across MegaEstate properties.",
+						"trans": "メガエステート全域におけるID連動型エントリーシステムの維持 アクセス異常の調査および居住者認証情報の無効化"
+					},
+					"title": {
+						"eng": "Biometric Access Technician",
+						"trans": "生体認証技師"
+					}
+				},
+				"count": {
+					"eng": "${count} active",
+					"trans": "${count} アクティブ"
+				},
+				"eyebrow": {
+					"eng": "Open positions",
+					"trans": "採用枠"
+				},
+				"occupancyCompliance": {
+					"department": {
+						"eng": "Portfolio compliance · Field",
+						"trans": "ポートフォリオコンプライアンス・フィールド"
+					},
+					"description": {
+						"eng": "Conduct unannounced home inspections, document unregistered occupants and authorize access suspension when contract terms are breached.",
+						"trans": "無通告の立入調査を実施し、未登録居住者を記録する。契約違反時にはアクセス権限停止を認可する。"
+					},
+					"title": {
+						"eng": "Occupancy Compliance Officer",
+						"trans": "入居適合監査官"
+					}
+				},
+				"riskAnalyst": {
+					"department": {
+						"eng": "Resident intelligence · Analysis",
+						"trans": "居住者インテリジェンス・解析"
+					},
+					"description": {
+						"eng": "Combine payment history, property access and contract activity to predict renewal risk and recommend intervention.",
+						"trans": "支払い履歴、アクセス記録、契約活動を統合し更新リスクを予測して介入策を提案します。"
+					},
+					"title": {
+						"eng": "Resident Risk Analyst",
+						"trans": "常駐リスクアナリスト"
+					}
+				},
+				"unitRecovery": {
+					"department": {
+						"eng": "Property recovery · Field",
+						"trans": "資産回収・フィールド"
+					},
+					"description": {
+						"eng": "Secure homes after lease termination, catalogue remaining property and return reclaimed units to inventory before the next billing cycle.",
+						"trans": "契約解除後は住居を封鎖・確保し、残存物件を棚卸しして、回収したユニットを次回の課金サイクルまでにインベントリへ返納してください。"
+					},
+					"title": {
+						"eng": "Unit Recovery Coordinator",
+						"trans": "ユニット回収コーディネーター"
+					}
+				}
+			}
+		},
+		"company": {
+			"building": {
+				"caption": {
+					"eng": "Arclight lives here",
+					"trans": "ここがアークライトの本拠点地だ"
+				},
+				"imageAlt": {
+					"eng": "Residents arriving at a MegaEstate property in Arclight",
+					"trans": "アークライト内メガエステート物件への居住者到着"
+				}
+			},
+			"eyebrow": {
+				"eng": "About MegaEstate",
+				"trans": "メガエステートについて"
+			},
+			"introduction": {
+				"eng": "At MegaEstate, we bring rental homes across Arclight into one clear network. You can compare housing standards, see current availability and choose the address that works for you.",
+				"trans": "メガエステートでは、アークライト全域の賃貸住宅を一つの明確なネットワークに集約しています。居住基準を比較し、空室状況を確認して、あなたに適した住所を選択できます。"
+			},
+			"leadership": {
+				"description": {
+					"eng": "Robert Smith sets our long-term direction as Chief Executive Officer. His approach is simple: manage housing at city scale, keep occupancy responsible and make every part of renting answer to one accountable company. From listing to renewal, that company is MegaEstate.",
+					"trans": "CEOロバート・スミスが当社の長期方針を定めています。基本アプローチはシンプルです。都市規模での住宅管理を行い、責任ある入居運営を実施します。賃貸業務の全過程を責任ある単一企業で一元管理します。募集から更新に至るまで、全てを担当するのはメガエステートです。"
+				},
+				"eyebrow": {
+					"eng": "Leadership",
+					"trans": "リーダーシップ"
+				},
+				"imageAlt": {
+					"eng": "Robert Smith, Chief Executive Officer of MegaEstate",
+					"trans": "ロバート・スミス メガエステート最高経営責任者"
+				},
+				"name": {
+					"eng": "Robert Smith",
+					"trans": "ロバートスミス"
+				},
+				"role": {
+					"eng": "Chief Executive Officer",
+					"trans": "最高経営責任者"
+				}
+			},
+			"model": {
+				"description": {
+					"eng": "Our four housing standards give you room to choose without starting over. Essential Housing, City Housing, Urban Studio and Central Residence all follow the same straightforward seven-day rental cycle.",
+					"trans": "4つの居住規格により、最初からやり直すことなく自由に選べます。エッセンシャル住宅、シティ住宅、アーバンスタジオ、セントラルレジデンスはすべて同じシンプルな7日間レンタルサイクルを採用しています。"
+				},
+				"eyebrow": {
+					"eng": "Made for life in Arclight",
+					"trans": "アークライトでの生活に最適化された設計"
+				},
+				"title": {
+					"eng": "A home for what comes next.",
+					"trans": "次世代の隠れ家"
+				}
+			},
+			"portfolio": {
+				"eng": "From a first address to a Central Residence, we make every move familiar: one place to browse, one rental process and one company behind every home we manage.",
+				"trans": "最初の住まいからセントラルレジデンスまで、引っ越しをいつでもスムーズに。物件検索と賃貸手続きは一元化され、管理するすべての住まいの運営を一社が担います。"
+			},
+			"title": {
+				"eng": "The city moves fast. Home should feel certain.",
+				"trans": "都会は疾走する。帰る家こそが確かな居場所となるべきだ。"
+			}
+		},
+		"home": {
+			"city": {
+				"arclight": {
+					"eng": "Arclight City",
+					"trans": "アークライトシティ"
+				},
+				"international": {
+					"eng": "International cities — Unavailable",
+					"trans": "国際都市 — 利用不可"
+				},
+				"label": {
+					"eng": "City",
+					"trans": "都市"
+				},
+				"otherNrc": {
+					"eng": "Other NRC cities — Unavailable",
+					"trans": "その他のNRC都市 — 利用不可"
+				}
+			},
+			"hero": {
+				"description": {
+					"eng": "Explore homes available now across our four housing standards.",
+					"trans": "現在利用可能な住居を、全4つの居住規格から探索してください。"
+				},
+				"eyebrow": {
+					"eng": "Rental homes in Arclight City",
+					"trans": "アーカライトシティの賃貸住宅"
+				},
+				"imageAlt": {
+					"eng": "Central Residence overlooking Arclight City",
+					"trans": "アークライトシティを一望する都心邸宅"
+				},
+				"title": {
+					"eng": "Find your place in Arclight.",
+					"trans": "アークライトで自分の居場所を見つけよ。"
+				},
+				"viewListings": {
+					"eng": "Browse current listings",
+					"trans": "現在の出品リスト"
+				}
+			},
+			"introduction": {
+				"availability": {
+					"description": {
+						"eng": "We only show homes currently available to rent in Arclight.",
+						"trans": "アークライトで現在貸出可能な住居のみを表示します。"
+					},
+					"title": {
+						"eng": "Current availability",
+						"trans": "現在の可用性"
+					}
+				},
+				"description": {
+					"eng": "From essential housing to central residences, we bring Arclight's available rentals together in one place. Browse real homes, compare actual weekly rent and choose the standard that fits your life.",
+					"trans": "ベーシックな住居から都心部のレジデンスまで、アークライト市内の賃貸物件を一箇所にまとめました。実際の住宅を閲覧し、週額の家賃を比較して、あなたの暮らしに合った住環境を選んでください。"
+				},
+				"eyebrow": {
+					"eng": "Arclight residential rentals",
+					"trans": "アークライト住宅賃貸"
+				},
+				"pricing": {
+					"description": {
+						"eng": "See the actual weekly rent for every available home.",
+						"trans": "利用可能な全住居の実際の週額家賃を確認"
+					},
+					"title": {
+						"eng": "Clear weekly pricing",
+						"trans": "週間価格をクリア"
+					}
+				},
+				"standards": {
+					"benefitsDescription": {
+						"eng": "Compare added inventory space, vault capacity and mercenary contact slots before choosing.",
+						"trans": "インベントリ枠と倉庫容量およびメルク連絡枠の増加分を選択前に比較してください"
+					},
+					"title": {
+						"eng": "Four housing standards",
+						"trans": "4つの住宅基準"
+					}
+				},
+				"title": {
+					"eng": "A better way to find a home in Arclight.",
+					"trans": "アークライトでの住まい探しのより良い方法。"
+				},
+				"viewListings": {
+					"eng": "Explore current listings",
+					"trans": "現在の出品一覧を閲覧"
+				}
+			},
+			"renting": {
+				"description": {
+					"eng": "We charge your first seven-day period when the rental starts. After each period, we process renewal during the next scheduled billing check.",
+					"trans": "レンタル開始時に初回7日間分の料金を課金します。各期間終了後は次回定期請求時に自動的に更新されます。"
+				},
+				"eyebrow": {
+					"eng": "Renting with MegaEstate",
+					"trans": "メガエステートでのレンタル"
+				},
+				"guide": {
+					"eng": "See how renting works",
+					"trans": "レンタルの仕組みを見る"
+				},
+				"title": {
+					"eng": "Choose today. Renew week by week.",
+					"trans": "本日の選択。毎週自動継続。"
+				}
+			},
+			"standards": {
+				"compare": {
+					"eng": "Compare housing standards",
+					"trans": "居住基準を比較"
+				},
+				"description": {
+					"eng": "Each of our housing standards offers a different balance of space, storage and capacity. Compare them here, then see real homes and weekly rent in Listings.",
+					"trans": "各住宅規格はスペース、収納、容量のバランスが異なります。こちらで比較後、一覧画面から実際の物件と週間家賃をご確認ください。"
+				},
+				"eyebrow": {
+					"eng": "Housing standards",
+					"trans": "住宅基準"
+				},
+				"mercenarySlots": {
+					"eng": "Merc slots",
+					"trans": "傭兵枠"
+				},
+				"storage": {
+					"eng": "Storage",
+					"trans": "ストレージ"
+				},
+				"title": {
+					"eng": "Four ways to live in Arclight.",
+					"trans": "アークライトを生きる4つの道。"
+				},
+				"vault": {
+					"eng": "Vault",
+					"trans": "倉庫"
+				}
+			}
+		},
+		"homeDetails": {
+			"confirm": {
+				"action": {
+					"eng": "Rent this home",
+					"trans": "この家を貸す"
+				},
+				"description": {
+					"eng": "Rent ${address} for ${price} ${currency} per week. We charge the first seven-day period when the rental starts.",
+					"trans": "${address}を週${price}${currency}でレンタルできます。利用開始時に、最初の7日間の料金を一括請求します。"
+				},
+				"perWeek": {
+					"eng": "per week",
+					"trans": "毎週"
+				},
+				"replacementDescription": {
+					"eng": "Rent ${address} for ${price} ${currency} per week. We charge the first seven-day period when the rental starts, and this immediately replaces your current home.",
+					"trans": "${address} を週 ${price} ${currency} で賃貸します。契約開始時に初7日分の料金が課金され、現在の住居は即時に切り替わります。"
+				},
+				"title": {
+					"eng": "Rent this home?",
+					"trans": "この住宅をレンタルしますか？"
+				},
+				"weeklyRent": {
+					"eng": "Weekly rent",
+					"trans": "週の家賃"
+				}
+			},
+			"currentHome": {
+				"eng": "Current home",
+				"trans": "現在のホーム"
+			},
+			"error": {
+				"description": {
+					"eng": "Return to Listings and try this home again when availability can be loaded.",
+					"trans": "リスト画面に戻り、空き状況の読込完了後にこの物件を再度お試しください。"
+				},
+				"title": {
+					"eng": "We couldn't check this home's availability",
+					"trans": "この住居の空き状況を確認できませんでした"
+				}
+			},
+			"imageAlt": {
+				"eng": "Rental home at ${address}",
+				"trans": "${address}の賃貸住宅"
+			},
+			"invalid": {
+				"description": {
+					"eng": "Return to Listings to choose from homes currently available.",
+					"trans": "物件一覧へ戻り、現在利用可能な住居からお選びください。"
+				},
+				"title": {
+					"eng": "We can't open this home",
+					"trans": "この拠点にはアクセスできません"
+				}
+			},
+			"mercenarySlots": {
+				"eng": "Merc slots",
+				"trans": "傭兵枠"
+			},
+			"metrics": {
+				"mercenarySlots": {
+					"description": {
+						"eng": "Adds ${count} mercenary contact slots to your recruitment limit.",
+						"trans": "メルセナリー採用枠の上限を${count}増加させます。"
+					}
+				},
+				"storage": {
+					"description": {
+						"eng": "Adds ${count} slots to your inventory.",
+						"trans": "インベントリの容量が${count}増加します。"
+					}
+				},
+				"vault": {
+					"description": {
+						"eng": "Holds up to ${count} item stacks in your apartment vault.",
+						"trans": "アパート金庫には最大${count}スタックのアイテムを収納可能。"
+					}
+				}
+			},
+			"perWeek": {
+				"eng": "per week",
+				"trans": "毎週"
+			},
+			"renewal": {
+				"description": {
+					"eng": "We charge the first seven-day period when your rental starts. After each period, we process renewal during the next scheduled billing check; insufficient funds end the lease.",
+					"trans": "レンタル開始時に初回7日間分の料金を請求します。各期間終了後は次回決済タイミングで更新が処理され、残高不足により決済に失敗した場合、契約は自動的に解除されます。"
+				},
+				"eyebrow": {
+					"eng": "Seven-day rental cycle",
+					"trans": "7日間レンタルサイクル"
+				}
+			},
+			"rent": {
+				"eng": "Rent this home",
+				"trans": "この家を貸す"
+			},
+			"replacement": {
+				"description": {
+					"eng": "Starting this rental ends your existing lease immediately.",
+					"trans": "このレンタルを開始すると、現在の契約は即時解除されます。"
+				},
+				"title": {
+					"eng": "This replaces your current home",
+					"trans": "現在のホームが置き換えられます"
+				}
+			},
+			"storage": {
+				"eng": "Storage",
+				"trans": "ストレージ"
+			},
+			"unavailable": {
+				"description": {
+					"eng": "This listing is no longer available. Return to Listings to view current homes.",
+					"trans": "この情報は現在ご利用いただけません。一覧画面へ戻り、現在の住宅をご覧ください。"
+				},
+				"title": {
+					"eng": "This home is no longer available",
+					"trans": "この住居は利用できなくなりました"
+				}
+			},
+			"vault": {
+				"eng": "Vault",
+				"trans": "倉庫"
+			},
+			"weeklyRent": {
+				"eng": "Weekly rent",
+				"trans": "週の家賃"
+			}
+		},
+		"housingStandards": {
+			"a0": {
+				"description": {
+					"eng": "A practical first address with the essentials for independent city living.",
+					"trans": "都市での自立生活に必要なアイテムが揃った、実践的な第一拠点。"
+				}
+			},
+			"a1": {
+				"description": {
+					"eng": "A versatile city home with additional storage and vault space for an established routine.",
+					"trans": "追加収納と金庫スペースを備え、安定した日常生活に最適な多機能な都市型住居"
+				}
+			},
+			"a2": {
+				"description": {
+					"eng": "A focused urban home with generous storage for residents who need more from a compact address.",
+					"trans": "機能に特化した都会住まい。コンパクトな空間でありながら十分な収納を実現し、最大限の利便性を実現したい居住者向け。"
+				}
+			},
+			"a3": {
+				"description": {
+					"eng": "Our premier residence offers the most room for residents, belongings and protected storage.",
+					"trans": "プレミアム住宅は、入居者・所持品・安全な格納庫のための最大のスペースを提供します。"
+				}
+			},
+			"benefitsDescription": {
+				"eng": "Compare added inventory space, vault capacity and mercenary contact slots across every standard.",
+				"trans": "すべての標準規格において、追加インベントリ容量・倉庫容量・傭兵コンタクト枠を比較する。"
+			},
+			"browseListings": {
+				"eng": "Browse current listings",
+				"trans": "現在の出品リスト"
+			},
+			"eyebrow": {
+				"eng": "The MegaEstate range",
+				"trans": "メガエステート ラインナップ"
+			},
+			"imageAlt": {
+				"eng": "${standard} rental home",
+				"trans": "${standard}賃貸住宅"
+			},
+			"imageCaption": {
+				"eng": "Standard ${code}",
+				"trans": "標準 ${code}"
+			},
+			"mercenarySlots": {
+				"eng": "Merc slots",
+				"trans": "傭兵枠"
+			},
+			"storage": {
+				"eng": "Storage",
+				"trans": "ストレージ"
+			},
+			"title": {
+				"eng": "A clear standard for every stage of city life.",
+				"trans": "都市生活のすべての段階に明確な基準を"
+			},
+			"vault": {
+				"eng": "Vault",
+				"trans": "倉庫"
+			}
+		},
+		"listings": {
+			"availableCount": {
+				"eng": "Available listings: ${count}",
+				"trans": "出品数：${count}"
+			},
+			"empty": {
+				"description": {
+					"eng": "Choose another housing standard to view its current availability.",
+					"trans": "他の住宅規格を選択して、現在の空き状況を表示します。"
+				},
+				"title": {
+					"eng": "No listings available in this standard",
+					"trans": "該当する標準では出品物がありません。"
+				}
+			},
+			"error": {
+				"description": {
+					"eng": "Choose another housing standard or return later to check availability.",
+					"trans": "他の住居ランクを選択するか、後ほど再度空き状況を確認してください。"
+				},
+				"title": {
+					"eng": "We couldn't load current availability",
+					"trans": "現在の利用状況を読み込めませんでした"
+				}
+			},
+			"eyebrow": {
+				"eng": "MegaEstate listings",
+				"trans": "メガエステート物件一覧"
+			},
+			"listing": {
+				"currentHome": {
+					"eng": "Current home",
+					"trans": "現在のホーム"
+				},
+				"imageAlt": {
+					"eng": "${standard} rental home",
+					"trans": "${standard}賃貸住宅"
+				},
+				"perWeek": {
+					"eng": "per week",
+					"trans": "毎週"
+				},
+				"weeklyRent": {
+					"eng": "Weekly rent",
+					"trans": "週の家賃"
+				}
+			},
+			"loadingCount": {
+				"eng": "Checking current availability…",
+				"trans": "現在利用可能状況を確認中…"
+			},
+			"standardLabel": {
+				"eng": "Housing standard",
+				"trans": "住居等級"
+			},
+			"title": {
+				"eng": "Find your next home in Arclight.",
+				"trans": "アークライトで新しい住まいを見つけよう"
+			}
+		},
+		"rentalGuide": {
+			"browseListings": {
+				"eng": "Browse current listings",
+				"trans": "現在の出品リスト"
+			},
+			"compareStandards": {
+				"eng": "Compare housing standards",
+				"trans": "居住基準を比較"
+			},
+			"description": {
+				"eng": "One clear process for your first payment, every renewal and any move that follows.",
+				"trans": "初回決済から毎回の更新、その後の一切の変更手続きまでを、ひとつの明確な手順で対応します。"
+			},
+			"eyebrow": {
+				"eng": "Rental guide",
+				"trans": "レンタルガイド"
+			},
+			"guide": {
+				"change": {
+					"description": {
+						"eng": "When you rent a new home, we end your current lease immediately. Review your choice before starting the new rental.",
+						"trans": "新しい住居を契約すると、現在の契約は即時解除されます。新しい契約を開始する前に、選択内容をご確認ください。"
+					},
+					"title": {
+						"eng": "Changing your home",
+						"trans": "住まいの変更"
+					}
+				},
+				"description": {
+					"eng": "Review these four details before you start a rental.",
+					"trans": "レンタルを開始する前に、これら4つの詳細を確認してください。"
+				},
+				"eyebrow": {
+					"eng": "Before you rent",
+					"trans": "レンタルの前に"
+				},
+				"funds": {
+					"description": {
+						"eng": "Keep enough funds available before renewal is due. If funds are insufficient, renewal fails and your lease ends immediately.",
+						"trans": "更新期限までに十分な資金を確保してください。資金不足の場合、更新は失敗しリースは直ちに終了します。"
+					},
+					"title": {
+						"eng": "If renewal funds are unavailable",
+						"trans": "更新資金が不足している場合"
+					}
+				},
+				"renewal": {
+					"description": {
+						"eng": "Each payment covers seven days. We process renewal during the next scheduled billing check and notify you when it succeeds or fails.",
+						"trans": "1回の決済で7日間有効です。次回のお支払い確認時に更新を処理し、成功または失敗の場合にご案内します。"
+					},
+					"title": {
+						"eng": "Automatic weekly renewal",
+						"trans": "毎週自動更新"
+					}
+				},
+				"start": {
+					"description": {
+						"eng": "We charge the first seven-day period when your rental starts.",
+						"trans": "レンタル開始時に最初の7日間分の料金を一括で請求いたします。"
+					},
+					"title": {
+						"eng": "When your rental starts",
+						"trans": "レンタル開始時"
+					}
+				}
+			},
+			"nextStep": {
+				"description": {
+					"eng": "Compare housing standards or go directly to current availability.",
+					"trans": "居住スペックを比較するか、現在の空室へ直接移動。"
+				},
+				"eyebrow": {
+					"eng": "Next step",
+					"trans": "次のステップ"
+				},
+				"title": {
+					"eng": "Choose a home when you are ready.",
+					"trans": "準備ができたらホームを選択してください"
+				}
+			},
+			"title": {
+				"eng": "Renting with MegaEstate.",
+				"trans": "メガエステートでのレンタル。"
+			}
+		},
+		"shell": {
+			"closeMenu": {
+				"eng": "Close",
+				"trans": "閉じる"
+			},
+			"directory": {
+				"eng": "Explore MegaEstate",
+				"trans": "メガエステートを探索"
+			},
+			"footer": {
+				"about": {
+					"eng": "About MegaEstate",
+					"trans": "メガエステートの概要"
+				},
+				"careers": {
+					"eng": "Careers",
+					"trans": "職業"
+				},
+				"company": {
+					"eng": "MegaEstate",
+					"trans": "メガエステート"
+				},
+				"description": {
+					"eng": "Find your place in Arclight City.",
+					"trans": "アークライト・シティで、あなたの居場所を見つけろ。"
+				},
+				"housingStandards": {
+					"eng": "Housing standards",
+					"trans": "住居基準"
+				},
+				"listings": {
+					"eng": "Listings",
+					"trans": "出品一覧"
+				},
+				"overview": {
+					"eng": "Overview",
+					"trans": "概要"
+				},
+				"renting": {
+					"eng": "How renting works",
+					"trans": "レンタルの仕組み"
+				}
+			},
+			"location": {
+				"eng": "Find your place in Arclight City.",
+				"trans": "アークライト・シティで、あなたの居場所を見つけろ。"
+			},
+			"logoAlt": {
+				"eng": "MegaEstate",
+				"trans": "メガエステート"
+			},
+			"nav": {
+				"about": {
+					"eng": "About MegaEstate",
+					"trans": "メガエステートの概要"
+				},
+				"careers": {
+					"eng": "Careers",
+					"trans": "職業"
+				},
+				"housingStandards": {
+					"eng": "Housing standards",
+					"trans": "住居基準"
+				},
+				"listings": {
+					"eng": "Listings",
+					"trans": "出品一覧"
+				},
+				"renting": {
+					"eng": "How renting works",
+					"trans": "レンタルの仕組み"
+				}
+			},
+			"openMenu": {
+				"eng": "Menu",
+				"trans": "メニュー"
+			}
+		}
+	},
 	"mercenary": {
 		"error": {
 			"firstDraw": {
@@ -10305,10 +11741,6 @@
 				"eng": "System Overload",
 				"trans": "システム過負荷"
 			},
-			"gaugeLabel": {
-				"eng": "Pressure gauge - hold to regulate",
-				"trans": "圧力計 - 長押しで調整"
-			},
 			"holdingHint": {
 				"eng": "Hold Active",
 				"trans": "長押しで有効化"
@@ -10328,10 +11760,6 @@
 			"retry": {
 				"eng": "Reset System",
 				"trans": "システムリセット"
-			},
-			"retryLabel": {
-				"eng": "Reset system and try again",
-				"trans": "システムをリセットして再試行"
 			},
 			"safeZone": {
 				"eng": "Target Zone",
@@ -10496,6 +11924,98 @@
 			"tip": {
 				"eng": "Activate all dots to unlock by clicking. The dots will rotate faster and faster.",
 				"trans": "すべてのアクティブなドットをクリックしてロックを解除します。ドットの回転速度はどんどん速くなります。"
+			}
+		},
+		"vectorPress": {
+			"cassette": {
+				"verified": {
+					"eng": "Access Key Verified",
+					"trans": "アクセスキー認証完了"
+				}
+			},
+			"controls": {
+				"armed": {
+					"eng": "Input Armed",
+					"trans": "入力待機中"
+				},
+				"locked": {
+					"eng": "Input Locked",
+					"trans": "入力ロック中"
+				},
+				"title": {
+					"eng": "Manual Vector Input",
+					"trans": "手動ベクトル入力"
+				}
+			},
+			"direction": {
+				"down": {
+					"eng": "Down",
+					"trans": "ダウン"
+				},
+				"left": {
+					"eng": "Left",
+					"trans": "左"
+				},
+				"right": {
+					"eng": "Right",
+					"trans": "右"
+				},
+				"up": {
+					"eng": "Up",
+					"trans": "上"
+				}
+			},
+			"header": {
+				"progress": {
+					"eng": "Key Progress",
+					"trans": "主要任務進捗"
+				},
+				"protocol": {
+					"eng": "Access Protocol VP-06",
+					"trans": "アクセスプロトコル VP-06"
+				},
+				"title": {
+					"eng": "Vector Press",
+					"trans": "ベクトルプレス"
+				}
+			},
+			"instruction": {
+				"eng": "Match each vector to punch the access key",
+				"trans": "各ベクターを一致させ、アクセキーを入力"
+			},
+			"status": {
+				"advancing": {
+					"eng": "Cassette advancing",
+					"trans": "カセット進行中"
+				},
+				"currentDirection": {
+					"eng": "Current required vector: ${direction}",
+					"trans": "現在必要ベクトル: ${direction}"
+				},
+				"label": {
+					"eng": "SYS.VP//STATE",
+					"trans": "SYS.VP//状態"
+				},
+				"punching": {
+					"eng": "Punch accepted",
+					"trans": "パンチ受理"
+				},
+				"ready": {
+					"eng": "Awaiting vector input",
+					"trans": "ベクトル入力待ち"
+				},
+				"rejected": {
+					"eng": "Vector mismatch — retry",
+					"trans": "ベクトル不一致 — 再試行"
+				},
+				"verified": {
+					"eng": "Access key verified",
+					"trans": "アクセスキー認証完了"
+				},
+				"verifying": {
+					"eng": "Verifying access key",
+					"trans": "アクセスキーの確認中"
+				}
 			}
 		}
 	},
@@ -10940,9 +12460,17 @@
 		}
 	},
 	"newsCard": {
+		"decrypted": {
+			"eng": "DECRYPTED",
+			"trans": "解読完了"
+		},
 		"new": {
 			"eng": "NEW",
 			"trans": "新着"
+		},
+		"operative": {
+			"eng": "OPERATIVE",
+			"trans": "オペレーター"
 		}
 	},
 	"newsPage": {
@@ -12172,29 +13700,9 @@
 		}
 	},
 	"placeHitPage": {
-		"levelTooLow": {
-			"eng": "You need to be at least level ${level} to place a hit.",
-			"trans": "ヒットを発動するには、少なくともレベル${level}に達する必要があります。"
-		},
-		"notEnoughUnitError1": {
-			"eng": "Minimum hit bounty is ${minNormal}",
-			"trans": "最低ヒット報酬は${minNormal}です。"
-		},
-		"placeHit": {
-			"eng": "Place hit",
-			"trans": "暗殺依頼"
-		},
-		"selectPlayer": {
-			"eng": "Select player",
-			"trans": "プレイヤーを選択してください"
-		},
 		"selectPlayerClick": {
-			"eng": "Click to select a player",
-			"trans": "プレイヤーを選択するにはクリックしてください"
-		},
-		"tip": {
-			"eng": "You can place a hit on a player by paying a certain amount of money and/or unit.",
-			"trans": "特定の金額と/またはユニットを支払うことで、プレイヤーに対して命中を行うことができます。"
+			"eng": "Select target",
+			"trans": "ターゲット選択"
 		}
 	},
 	"player": {
@@ -15020,10 +16528,6 @@
 			"eng": "${current} / ${total}",
 			"trans": "${current}中${total}"
 		},
-		"pageInputAriaLabel": {
-			"eng": "Enter page number",
-			"trans": "ページ番号を入力してください"
-		},
 		"pageInputPlaceholder": {
 			"eng": "Page #",
 			"trans": "ページ #"
@@ -15206,6 +16710,26 @@
 			"notIdle": {
 				"eng": "You are not idle",
 				"trans": "有効状態ではありません"
+			},
+			"priorityOperationAlreadyActive": {
+				"eng": "You already have a Priority Operation in progress",
+				"trans": "既に優先作戦が進行中です"
+			},
+			"priorityOperationFirstPlaceRequired": {
+				"eng": "Your gang must hold the highest positive war score to start this operation",
+				"trans": "この作戦を開始するには、あなたのギャングが最も高い正の戦争スコアを保持している必要があります。"
+			},
+			"priorityOperationGangRequired": {
+				"eng": "Only members of a first-place war gang can start this operation",
+				"trans": "本作戦は首位のウォーギャング構成員のみが開始できます"
+			},
+			"priorityOperationInvalidated": {
+				"eng": "Priority Operation invalidated because your gang no longer held first place at settlement",
+				"trans": "優先作戦は、あなたのギャングが集落で1位を維持できなくなったため無効化されました。"
+			},
+			"priorityOperationSkipFirstPlaceRequired": {
+				"eng": "Your gang must still hold first place to finish this operation now",
+				"trans": "本作戦を完了するには、所属ギャングが現在も首位を保っている必要があります。"
 			}
 		},
 		"notification": {
@@ -16503,13 +18027,21 @@
 			}
 		},
 		"megaAd": {
-			"subtitle": {
-				"eng": "Mega Estate - the only agency that wont scam you!",
-				"trans": "メガエステート社 ─ 唯一詐欺をしない企業！"
+			"action": {
+				"eng": "View current rental availability",
+				"trans": "現在のレンタル可能状況を表示"
+			},
+			"backgroundAlt": {
+				"eng": "MegaEstate residence in Arclight City",
+				"trans": "アークライト・シティのメガエステート邸宅"
+			},
+			"logoAlt": {
+				"eng": "MegaEstate",
+				"trans": "メガエステート"
 			},
 			"title": {
-				"eng": "Cheap Price!!",
-				"trans": "お手頃価格！！"
+				"eng": "Homes across Arclight",
+				"trans": "アークライト各地の住宅"
 			}
 		},
 		"news": {
@@ -16764,6 +18296,10 @@
 			"eng": "President Jackson Morrison",
 			"trans": "ジャクソン・モリソン 大統領"
 		},
+		"leeJongSuk": {
+			"eng": "CEO Lee Jong-suk",
+			"trans": "CEO イ・ジョンソク"
+		},
 		"liWei": {
 			"eng": "Premier Li Wei",
 			"trans": "リーウェイ首相"
@@ -16807,6 +18343,10 @@
 		"rezaHosseini": {
 			"eng": "Supreme Leader Ayatollah Reza Hosseini",
 			"trans": "最高指導者 アヤトッラー レザ ホッセイニ"
+		},
+		"robertSmith": {
+			"eng": "CEO Robert Smith",
+			"trans": "CEOロバート・スミス"
 		},
 		"sarahGoldman": {
 			"eng": "Prime Minister-CEO Sarah Goldman",
@@ -17112,6 +18652,20 @@
 				"trans": "モーリソン大統領"
 			}
 		},
+		"leeJongSuk": {
+			"ceoLee": {
+				"eng": "CEO Lee",
+				"trans": "リーCEO"
+			},
+			"circuitbreakCeo": {
+				"eng": "CircuitBreak CEO",
+				"trans": "サーキットブレイクCEO"
+			},
+			"leeJongSuk": {
+				"eng": "Lee Jong-suk",
+				"trans": "イ・ジョンスク"
+			}
+		},
 		"liWei": {
 			"li": {
 				"eng": "Li",
@@ -17272,6 +18826,20 @@
 			"supremeLeaderHosseini": {
 				"eng": "Supreme Leader Hosseini",
 				"trans": "最高指導者ホッシーニ"
+			}
+		},
+		"robertSmith": {
+			"ceoSmith": {
+				"eng": "CEO Smith",
+				"trans": "CEOスミス"
+			},
+			"megaestateCeo": {
+				"eng": "MegaEstate CEO",
+				"trans": "メガエステートCEO"
+			},
+			"robertSmith": {
+				"eng": "Robert Smith",
+				"trans": "ロバート スミス"
 			}
 		},
 		"sarahGoldman": {

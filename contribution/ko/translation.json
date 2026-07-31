@@ -374,24 +374,40 @@
 			"displayName": {
 				"eng": "Slum Apartment",
 				"trans": "빈민가 아파트"
+			},
+			"websiteDisplayName": {
+				"eng": "Essential Housing",
+				"trans": "필수 주택"
 			}
 		},
 		"apartment1": {
 			"displayName": {
 				"eng": "Low-end Apartment",
 				"trans": "저가 아파트"
+			},
+			"websiteDisplayName": {
+				"eng": "City Housing",
+				"trans": "주택"
 			}
 		},
 		"apartment2": {
 			"displayName": {
 				"eng": "Budget Studio",
 				"trans": "공동 주택"
+			},
+			"websiteDisplayName": {
+				"eng": "Urban Studio",
+				"trans": "도시 스튜디오"
 			}
 		},
 		"apartment3": {
 			"displayName": {
 				"eng": "Downtown Apartment",
 				"trans": "중심가 아파트"
+			},
+			"websiteDisplayName": {
+				"eng": "Central Residence",
+				"trans": "중앙 관저"
 			}
 		},
 		"chat": {
@@ -567,28 +583,6 @@
 				"eng": "Vault",
 				"trans": "금고"
 			}
-		}
-	},
-	"apartmentPurchasePage": {
-		"confirmDescription": {
-			"eng": "Are you sure you want to rent this apartment? if you already have an apartment, it will be dismissed.",
-			"trans": "이 아파트를 빌리시겠습니까? 이미 아파트를 가지고 있다면, 그 아파트의 대여는 취소될 것입니다."
-		},
-		"confirmTitle": {
-			"eng": "Confirm Rental",
-			"trans": "대여 확인"
-		},
-		"owned": {
-			"eng": "Owned",
-			"trans": "소유함"
-		},
-		"perWeek": {
-			"eng": "Per week",
-			"trans": "주당"
-		},
-		"rent": {
-			"eng": "Rent Now",
-			"trans": "지금 빌리기"
 		}
 	},
 	"appProductType": {
@@ -920,10 +914,14 @@
 			"eng": "Task completed",
 			"trans": "작업 완료"
 		},
+		"dismissButton": {
+			"eng": "Dismiss",
+			"trans": "닫기"
+		},
 		"emptyTask": {
 			"description": {
-				"eng": "Click to choose a task",
-				"trans": "작업을 선택하려면 클릭하세요"
+				"eng": "Assign operation",
+				"trans": "작전 할당"
 			},
 			"title": {
 				"eng": "Task slot available",
@@ -932,7 +930,7 @@
 		},
 		"inProgress": {
 			"eng": "Task in progress...",
-			"trans": "진행 중인 작업..."
+			"trans": "작업 진행 중..."
 		},
 		"instantFinish": {
 			"eng": "Finish Now",
@@ -941,6 +939,10 @@
 		"instantFinishConfirmTitle": {
 			"eng": "Finish task now?",
 			"trans": "지금 작업을 완료하시겠습니까?"
+		},
+		"invalidated": {
+			"eng": "Operation invalidated",
+			"trans": "작업이 무효화되었습니다"
 		}
 	},
 	"backgroundTaskPage": {
@@ -961,6 +963,10 @@
 		"cost": {
 			"eng": "Cost",
 			"trans": "비용"
+		},
+		"priorityOperationWarning": {
+			"eng": "Your gang must hold first place when this operation starts and settles. Start costs are not refunded if it is invalidated.",
+			"trans": "당신의 갱은 이 작전 시작 및 정산 시 반드시 1위를 유지해야 합니다. 무효화될 경우 시작 비용은 환불되지 않습니다."
 		},
 		"rewards": {
 			"eng": "possible rewards",
@@ -1024,6 +1030,16 @@
 				"trans": "구출 임무"
 			}
 		},
+		"rogueAssetExtraction": {
+			"description": {
+				"eng": "Intercept a hostile augmentation shipment while your gang holds the highest war score. Losing first place before settlement invalidates the operation and forfeits its rewards.",
+				"trans": "자신의 갅이 전쟁 점수 1위를 유지하는 동안 적의 증강 장비 수송을 저지하세요. 정산 완료 전까지 1위 자리를 잃으면 임무가 무효화되어 보상을 상실합니다."
+			},
+			"displayName": {
+				"eng": "Rogue Asset Extraction",
+				"trans": "이탈 자산 회수"
+			}
+		},
 		"scavenge": {
 			"description": {
 				"eng": "Navigate hazardous junkyards, uncover hidden treasures, and salvage valuable tech",
@@ -1053,6 +1069,20 @@
 				"eng": "Thieving",
 				"trans": "도둑질"
 			}
+		}
+	},
+	"backgroundTaskTypeDisplay": {
+		"afkOperation": {
+			"eng": "AFK Operation",
+			"trans": "AFK 작전"
+		},
+		"firstPlaceRequired": {
+			"eng": "First-place gang",
+			"trans": "1위 갅"
+		},
+		"priorityOperation": {
+			"eng": "Priority Operation",
+			"trans": "최우선 작전"
 		}
 	},
 	"backgroundTaskUpgradePopup": {
@@ -1863,6 +1893,732 @@
 		"title": {
 			"eng": "Rotate the circle to unlock",
 			"trans": "원을 돌려서 잠금 해제하세요"
+		}
+	},
+	"circuitBreakWebsite": {
+		"about": {
+			"cid": {
+				"description": {
+					"eng": "CID handles controlled surveillance, intelligence collection, and sensitive recovery mandates under restricted authority.",
+					"trans": "CID는 제한된 권한 하에서 통제 감시, 정보 수집 및 기밀 회수 임무를 수행합니다."
+				},
+				"eyebrow": {
+					"eng": "Specialist division",
+					"trans": "전문 부서"
+				},
+				"liaisonLabel": {
+					"eng": "Contractor liaison",
+					"trans": "계약사 접점"
+				},
+				"liaisonName": {
+					"eng": "Vale",
+					"trans": "베일"
+				},
+				"liaisonRole": {
+					"eng": "Intelligence operations",
+					"trans": "정보 작전"
+				},
+				"title": {
+					"eng": "CircuitBreak Intelligence Division",
+					"trans": "회로 차단기 정보본부"
+				}
+			},
+			"eyebrow": {
+				"eng": "Company",
+				"trans": "회사"
+			},
+			"leadership": {
+				"kira": {
+					"biography": {
+						"eng": "Kira Nilsen directs security policy and operational standards across CircuitBreak.",
+						"trans": "키라 닐슨이 CircuitBreak의 보안 정책 및 운영 기준을 총괄합니다."
+					},
+					"name": {
+						"eng": "Kira Nilsen",
+						"trans": "키라 닐슨"
+					},
+					"role": {
+						"eng": "Director of Security",
+						"trans": "보안 책임자"
+					}
+				},
+				"label": {
+					"eng": "Executive leadership",
+					"trans": "임원진"
+				},
+				"lee": {
+					"biography": {
+						"eng": "Lee Jong-suk serves as Chief Executive Officer of CircuitBreak Security Solutions. A former Korean special-forces soldier, he built his career around protective operations, crisis command, and work conducted under strict information controls. At CircuitBreak, his leadership is defined by disciplined execution, limited public disclosure, and a belief that effective security is measured by what never reaches the public record.",
+						"trans": "이종석은 서킷브레이크 시큐리티 솔루션즈의 최고경영자입니다. 전직 특수부대 출신으로 그는 보호 작전과 위기 지휘, 엄격한 정보 관리 하에서의 업무 경험을 바탕으로 경력을 쌓아 왔습니다. 서킷브레이크에서 그의 리더십은 철저한 집행력과 제한된 공개 원칙이 특징이며, 효과적인 보안은 대중에게 기록되지 않는 결과로 평가된다는 신념을 중시합니다."
+					},
+					"imageAlt": {
+						"eng": "CircuitBreak chief executive Lee Jong-suk overseeing a night deployment",
+						"trans": "CircuitBreak 대표이사 이종식 야간 투입 지휘 중"
+					},
+					"name": {
+						"eng": "Lee Jong-suk",
+						"trans": "이종석"
+					},
+					"role": {
+						"eng": "Chief Executive Officer",
+						"trans": "대표이사"
+					}
+				},
+				"registerLabel": {
+					"eng": "Leadership register",
+					"trans": "리더십 레지스터"
+				}
+			},
+			"overview": {
+				"eng": "A listed Arclight security company providing executive protection, armed response, threat intelligence, and sensitive recovery.",
+				"trans": "상장된 아크라이트 보안 기업으로 임원 경호, 무장 대응, 위협 분석 및 기밀 자산 회수 서비스를 제공합니다."
+			},
+			"registry": {
+				"divisionLabel": {
+					"eng": "Specialist division",
+					"trans": "전문 부서"
+				},
+				"divisionValue": {
+					"eng": "CID",
+					"trans": "CID"
+				},
+				"entityLabel": {
+					"eng": "Registered entity",
+					"trans": "등록된 개체"
+				},
+				"entityValue": {
+					"eng": "CircuitBreak Security Solutions",
+					"trans": "서킷브레이크 보안 솔루션"
+				},
+				"label": {
+					"eng": "Corporate record",
+					"trans": "기업 기록"
+				},
+				"marketLabel": {
+					"eng": "Ticker",
+					"trans": "티커"
+				},
+				"marketValue": {
+					"eng": "CBK",
+					"trans": "CBK"
+				}
+			},
+			"title": {
+				"eng": "CircuitBreak Security Solutions",
+				"trans": "서킷브레이크 보안 솔루션"
+			}
+		},
+		"careers": {
+			"cid": {
+				"contactAction": {
+					"eng": "View liaison details",
+					"trans": "연락관 상세 정보 확인"
+				},
+				"description": {
+					"eng": "CID reviews sponsored operators for surveillance, intelligence collection, and sensitive recovery assignments. Intake requires a verified sponsor or approved liaison referral.",
+					"trans": "CID는 후원된 오퍼레이터를 대상으로 감시·정보 수집·기밀 회수 임무 적합성을 심사합니다. 입부 자격은 인증된 후원자 또는 승인된 연락관 추천이 필요합니다."
+				},
+				"label": {
+					"eng": "Contract operators",
+					"trans": "계약 운영자"
+				},
+				"liaisonLabel": {
+					"eng": "Contractor liaison",
+					"trans": "계약사 접점"
+				},
+				"liaisonName": {
+					"eng": "Vale",
+					"trans": "베일"
+				},
+				"liaisonRole": {
+					"eng": "Intelligence operations",
+					"trans": "정보 작전"
+				},
+				"title": {
+					"eng": "CID contractor intake",
+					"trans": "CID 컨트랙터 신규 채용"
+				}
+			},
+			"eyebrow": {
+				"eng": "Careers",
+				"trans": "직업"
+			},
+			"imageAlt": {
+				"eng": "CircuitBreak operations candidate completing a professional assessment",
+				"trans": "서킷브레이크 작전 후보자 전문 평가 완료"
+			},
+			"intro": {
+				"eng": "Permanent roles for security professionals who exercise sound judgment under pressure.",
+				"trans": "압박 상황에서도 냉철한 판단력을 발휘하는 보안 전문가용 정규 직위"
+			},
+			"openRolesTitle": {
+				"eng": "Current openings",
+				"trans": "현재 공석"
+			},
+			"recruitmentAction": {
+				"eng": "Contact recruitment",
+				"trans": "협력자 모집"
+			},
+			"vacancies": {
+				"intelligence": {
+					"context": {
+						"eng": "Risk Intelligence / Arclight",
+						"trans": "위험 분석 / 아akra이트"
+					},
+					"title": {
+						"eng": "Threat Intelligence Analyst",
+						"trans": "위협 정보 분석가"
+					}
+				},
+				"protective": {
+					"context": {
+						"eng": "Protective Operations / Arclight",
+						"trans": "보호 작전 / 아크라이트"
+					},
+					"title": {
+						"eng": "Protective Operations Specialist",
+						"trans": "보호 작전 전문가"
+					}
+				},
+				"response": {
+					"context": {
+						"eng": "Client Command / Arclight Response Centre",
+						"trans": "클라이언트 지휘소 / 아크라이트 대응센터"
+					},
+					"title": {
+						"eng": "Client Response Controller",
+						"trans": "클라이언트 응답 제어기"
+					}
+				}
+			}
+		},
+		"contact": {
+			"directory": {
+				"cid": {
+					"access": {
+						"eng": "Sponsor only",
+						"trans": "후원자 전용"
+					},
+					"description": {
+						"eng": "Sponsor-backed candidate references and approved contractor correspondence.",
+						"trans": "후원 지원 후보 추천서 및 승인 계약 업체 연락 기록"
+					},
+					"title": {
+						"eng": "CID contractor liaison",
+						"trans": "CID 계약업체 연락관"
+					}
+				},
+				"corporate": {
+					"access": {
+						"eng": "Public",
+						"trans": "공개"
+					},
+					"address": {
+						"eng": "corporate@circuitbreak.com",
+						"trans": "기업@circuitbreak.com"
+					},
+					"description": {
+						"eng": "Company records, procurement, legal notices, recruitment, and general correspondence.",
+						"trans": "기업 기록, 조달, 법적 통지, 채용 및 일반 서신."
+					},
+					"title": {
+						"eng": "Corporate and recruitment",
+						"trans": "기업 및 채용"
+					}
+				},
+				"protected": {
+					"access": {
+						"eng": "Private intake",
+						"trans": "개인 섭취"
+					},
+					"action": {
+						"eng": "Open a private mandate",
+						"trans": "비공개 지시 열기"
+					},
+					"description": {
+						"eng": "Submit a new private-client mandate for controlled assessment.",
+						"trans": "통제 심사용 신규 사적 의뢰서를 제출하십시오."
+					},
+					"title": {
+						"eng": "Private mandate",
+						"trans": "개인 임무"
+					}
+				},
+				"response": {
+					"access": {
+						"eng": "Contracted clients",
+						"trans": "계약 의뢰인"
+					},
+					"description": {
+						"eng": "For active incidents under an existing mandate, use your assigned client relay. Public mail cannot dispatch field teams.",
+						"trans": "진행 중인 사안은 기존 명령에 따라 지정된 클라이언트 중계국을 사용하십시오. 일반 우편으로는 현장 팀을 파견할 수 없습니다."
+					},
+					"reference": {
+						"eng": "Use assigned client relay",
+						"trans": "할당된 클라이언트 중계 사용"
+					},
+					"title": {
+						"eng": "Active client response",
+						"trans": "활성 클라이언트 응답"
+					}
+				}
+			},
+			"directoryTitle": {
+				"eng": "Contact CircuitBreak",
+				"trans": "CircuitBreak에 연락"
+			},
+			"eyebrow": {
+				"eng": "Contact",
+				"trans": "연락처"
+			},
+			"intro": {
+				"eng": "Choose the channel matching your request. Restricted matters cannot be transferred from public enquiries.",
+				"trans": "요청하신 내용에 맞는 채널을 선택하세요. 제한 대상 문의는 일반 문의를 통해 이관할 수 없습니다."
+			}
+		},
+		"contracts": {
+			"disclaimer": {
+				"eng": "Mandate availability and operator response are not guaranteed. CircuitBreak retains final network authority.",
+				"trans": "명령 제공 및 운영자 응답은 보장되지 않습니다. 최종 네트워크 권한은 CircuitBreak에 있습니다."
+			},
+			"emptyAction": {
+				"eng": "Open a contract",
+				"trans": "계약 열기"
+			},
+			"emptyCode": {
+				"eng": "Ledger status / Clear",
+				"trans": "원장 상태 / 초기화"
+			},
+			"emptyDescription": {
+				"eng": "No public mandate currently meets network requirements. Qualified clients may open a new contract.",
+				"trans": "현재 공개 요청은 네트워크 요구사항을 충족하지 않습니다. 자격 있는 클라이언트는 신규 계약을 체결할 수 있습니다."
+			},
+			"eyebrow": {
+				"eng": "Private Client Network / Mandates",
+				"trans": "프라이빗 클라이언트 네트워크 / 의뢰사항"
+			},
+			"intro": {
+				"eng": "Active public mandates available to verified CircuitBreak operators. Select a target to review engagement options.",
+				"trans": "인증된 서킷브레이크 운영자용 활성 공개 명령입니다. 대상을 선택하여 상호작용 옵션을 확인하세요."
+			},
+			"levelColumn": {
+				"eng": "Level",
+				"trans": "레벨"
+			},
+			"loadingTitle": {
+				"eng": "Retrieving mandates",
+				"trans": "작전 명령 조회 중"
+			},
+			"openContract": {
+				"eng": "Place a Hit",
+				"trans": "암살 의뢰"
+			},
+			"sortLabel": {
+				"eng": "Sort: ${mode}",
+				"trans": "정렬: ${mode}"
+			},
+			"status": {
+				"eng": "Active ledger",
+				"trans": "활성 대장"
+			},
+			"targetColumn": {
+				"eng": "Target",
+				"trans": "타겟"
+			},
+			"title": {
+				"eng": "Contract Board",
+				"trans": "계약 게시판"
+			},
+			"valueColumn": {
+				"eng": "Value",
+				"trans": "가치"
+			}
+		},
+		"home": {
+			"hero": {
+				"classification": {
+					"eng": "Integrated security / Arclight",
+					"trans": "통합 보안 / 아크라이트"
+				},
+				"clientAccess": {
+					"eng": "Private client access",
+					"trans": "개인 클라이언트 접근 권한"
+				},
+				"description": {
+					"eng": "CircuitBreak protects Arclight's most exposed institutions, assets, and executives. When deterrence fails, we resolve the exposure.",
+					"trans": "회로 차단기는 아크라이트의 가장 위험에 노출된 기관과 자산, 임원을 보호합니다. 억제 실패 시 노출된 위협을 저희가 해결합니다."
+				},
+				"imageAlt": {
+					"eng": "CircuitBreak headquarters and executive protection detail in Arclight",
+					"trans": "회로 차단기 본부 및 아크라이트 임원 경호대"
+				},
+				"placeHit": {
+					"eng": "Place Hit",
+					"trans": "현상금 의뢰"
+				},
+				"title": {
+					"eng": "Power, applied.",
+					"trans": "전원 인가 완료"
+				},
+				"viewBoard": {
+					"eng": "View Board",
+					"trans": "게시판"
+				}
+			},
+			"services": {
+				"allServices": {
+					"eng": "View all services",
+					"trans": "모든 서비스 보기"
+				},
+				"highRisk": {
+					"description": {
+						"eng": "Integrated protection for critical sites and operations.",
+						"trans": "주요 시설 및 작전용 통합 보호 체계"
+					},
+					"title": {
+						"eng": "High-risk security",
+						"trans": "고위험 보안"
+					}
+				},
+				"label": {
+					"eng": "Capabilities",
+					"trans": "능력"
+				},
+				"protection": {
+					"description": {
+						"eng": "Protective teams and secure movement for exposed clients.",
+						"trans": "위험에 노출된 클라이언트 대상 경호팀 지원 및 안전한 이동 보장"
+					},
+					"title": {
+						"eng": "Executive protection",
+						"trans": "임원 경호"
+					}
+				},
+				"response": {
+					"description": {
+						"eng": "Rapid intervention when a material threat becomes active.",
+						"trans": "실질적 위협 활성화 시 즉각 대응"
+					},
+					"title": {
+						"eng": "Armed response",
+						"trans": "무장 대응"
+					}
+				},
+				"title": {
+					"eng": "Protective services",
+					"trans": "보안 서비스"
+				}
+			}
+		},
+		"placeHit": {
+			"actionIntro": {
+				"eng": "Choose a target and contract value, then review the cost before authorization.",
+				"trans": "대상과 계약 금액을 선택한 후 승인 전에 비용을 확인하세요."
+			},
+			"actionTitle": {
+				"eng": "Place a hit",
+				"trans": "암살 의뢰"
+			},
+			"amountModalTitle": {
+				"eng": "Contract value",
+				"trans": "계약 금액"
+			},
+			"availableFunds": {
+				"eng": "Available funds",
+				"trans": "사용 가능 자금"
+			},
+			"changeTarget": {
+				"eng": "Change",
+				"trans": "변경"
+			},
+			"changeValue": {
+				"eng": "Change",
+				"trans": "변경"
+			},
+			"formCode": {
+				"eng": "Form CB-17",
+				"trans": "양식 CB-17"
+			},
+			"fundsStatus": {
+				"eng": "Available funds no longer cover this contract.",
+				"trans": "현재 자금으로는 이 계약 비용을 감당할 수 없습니다."
+			},
+			"insufficientFundsStatus": {
+				"eng": "Available funds are below the ${amount} ${currency} contract minimum.",
+				"trans": "보유 자금이 ${amount} ${currency} 계약 최소 금액에 미달합니다."
+			},
+			"levelRequirement": {
+				"eng": "Level ${level} is required to authorize a contract.",
+				"trans": "계약을 승인하려면 레벨 ${level}이 필요합니다."
+			},
+			"levelStatus": {
+				"eng": "Client authorization requires player level ${level}.",
+				"trans": "클라이언트 인증을 위해서는 플레이어 레벨 ${level}이 필요합니다."
+			},
+			"minimumStatus": {
+				"eng": "Set a contract value of at least ${amount} ${currency}.",
+				"trans": "최소 ${amount} ${currency} 이상의 계약 금액을 설정하세요."
+			},
+			"minimumValue": {
+				"eng": "Minimum ${amount}",
+				"trans": "최소 ${amount}"
+			},
+			"networkLabel": {
+				"eng": "Private Client Network",
+				"trans": "사설 클라이언트 네트워크"
+			},
+			"readyStatus": {
+				"eng": "Contract is ready to review.",
+				"trans": "계약서 검토가 가능합니다."
+			},
+			"required": {
+				"eng": "Required",
+				"trans": "필수"
+			},
+			"restrictedStatus": {
+				"eng": "System restrictions prevent contract authorization.",
+				"trans": "시스템 제한으로 계약 승인이 불가능합니다."
+			},
+			"reviewAction": {
+				"eng": "Review contract",
+				"trans": "계약서 확인"
+			},
+			"selectTargetAction": {
+				"eng": "Select",
+				"trans": "선택"
+			},
+			"selectTargetStatus": {
+				"eng": "Select a target to continue.",
+				"trans": "계속하려면 대상을 선택하세요."
+			},
+			"setValue": {
+				"eng": "Set value",
+				"trans": "값 설정"
+			},
+			"simpleTargetTitle": {
+				"eng": "1. Choose target",
+				"trans": "1. 대상 선택"
+			},
+			"simpleValueTitle": {
+				"eng": "2. Set contract value",
+				"trans": "2. 계약 금액 설정"
+			},
+			"targetEmpty": {
+				"eng": "Search verified player records",
+				"trans": "인증된 플레이어 기록 검색"
+			},
+			"targetLevelStatus": {
+				"eng": "Targets below level ${level} cannot be listed.",
+				"trans": "레벨 ${level} 미만의 대상은 목록에 표시되지 않습니다."
+			},
+			"targetSelected": {
+				"eng": "Verified identity selected",
+				"trans": "인증된 신원이 선택되었습니다"
+			}
+		},
+		"reviewHit": {
+			"authorizeAction": {
+				"eng": "Authorize contract",
+				"trans": "계약 승인"
+			},
+			"editAction": {
+				"eng": "Edit details",
+				"trans": "상세 정보 수정"
+			},
+			"formCode": {
+				"eng": "Form CB-17 / Review",
+				"trans": "양식 CB-17 / 검토"
+			},
+			"fundsStatus": {
+				"eng": "Available funds no longer cover this contract.",
+				"trans": "현재 자금으로는 이 계약 비용을 감당할 수 없습니다."
+			},
+			"intro": {
+				"eng": "Confirm the target and financial commitment before authorization.",
+				"trans": "승인 전에 목표와 재정 조건을 확인하십시오."
+			},
+			"invalidError": {
+				"eng": "Contract details changed. Return to the previous page and review them again.",
+				"trans": "계약 세부 사항이 변경되었습니다. 이전 페이지로 돌아가 다시 확인하세요."
+			},
+			"invalidStatus": {
+				"eng": "Contract details are incomplete or no longer valid.",
+				"trans": "계약 세부 정보가 누락되었거나 더 이상 유효하지 않습니다."
+			},
+			"levelStatus": {
+				"eng": "Client authorization requires player level ${level}.",
+				"trans": "클라이언트 인증을 위해서는 플레이어 레벨 ${level}이 필요합니다."
+			},
+			"loadingStatus": {
+				"eng": "Verifying contract details...",
+				"trans": "계약 세부 정보 확인 중..."
+			},
+			"minimumStatus": {
+				"eng": "Contract value must be at least ${amount} ${currency}.",
+				"trans": "계약 금액은 최소 ${amount} ${currency} 이상이어야 합니다."
+			},
+			"networkLabel": {
+				"eng": "Private Client Network",
+				"trans": "사설 클라이언트 네트워크"
+			},
+			"notice": {
+				"eng": "Authorization transfers the committed funds immediately and publishes the contract to the active Board. This action cannot be reversed.",
+				"trans": "승인 처리 시 예약된 자금이 즉시 이동하며 계약이 활성 보드에 게시됩니다. 이 작업은 되돌릴 수 없습니다."
+			},
+			"pendingTarget": {
+				"eng": "Unverified",
+				"trans": "미확인"
+			},
+			"readyStatus": {
+				"eng": "Contract is ready for authorization.",
+				"trans": "계약서 승인 준비 완료"
+			},
+			"restrictedStatus": {
+				"eng": "System restrictions prevent contract authorization.",
+				"trans": "시스템 제한으로 계약 승인이 불가능합니다."
+			},
+			"target": {
+				"eng": "Target",
+				"trans": "타겟"
+			},
+			"targetLevelStatus": {
+				"eng": "Targets below level ${level} cannot be listed.",
+				"trans": "레벨 ${level} 미만의 대상은 목록에 표시되지 않습니다."
+			},
+			"title": {
+				"eng": "Review contract",
+				"trans": "계약서 확인"
+			},
+			"value": {
+				"eng": "Contract value",
+				"trans": "계약 금액"
+			}
+		},
+		"services": {
+			"armedResponse": {
+				"description": {
+					"eng": "Disciplined intervention teams contain active threats, secure critical sites, and restore client control.",
+					"trans": "규율이 엄격한 개입팀은 진행 중인 위협을 봉쇄하고 핵심 시설을 장악하며 클라이언트의 통제권을 복원합니다."
+				},
+				"title": {
+					"eng": "Armed response",
+					"trans": "무장 대응"
+				}
+			},
+			"assetRecovery": {
+				"description": {
+					"eng": "Specialist recovery teams locate and return sensitive property while limiting exposure, delay, and attribution.",
+					"trans": "전문 회수팀은 기밀 자산을 찾아 반환하며 노출, 지연 및 연루를 최소화합니다."
+				},
+				"title": {
+					"eng": "Asset recovery",
+					"trans": "자산 회수"
+				}
+			},
+			"authorizationNotice": {
+				"eng": "All engagements require an authorized client mandate.",
+				"trans": "모든 작업에는 승인된 클라이언트 지시가 필요합니다."
+			},
+			"executiveProtection": {
+				"description": {
+					"eng": "Low-profile close protection, route control, and secure movement for executives operating under elevated threat.",
+					"trans": "고위험 환경에서 활동하는 임원을 위한 은밀 측근 경호, 경로 통제 및 안전 이동."
+				},
+				"title": {
+					"eng": "Executive protection",
+					"trans": "임원 경호"
+				}
+			},
+			"eyebrow": {
+				"eng": "Services",
+				"trans": "서비스"
+			},
+			"imageAlt": {
+				"eng": "CircuitBreak close-protection team moving a client through a secure arrival",
+				"trans": "CircuitBreak 경호팀이 의뢰인을 보안 도착 지점으로 이동 중입니다"
+			},
+			"intro": {
+				"eng": "CircuitBreak protects people, property, and continuity where ordinary security reaches its limit.",
+				"trans": "CircuitBreak는 기존 보안의 한계를 넘어 인명과 재산, 시스템 연속성을 보호합니다."
+			},
+			"privateMandates": {
+				"action": {
+					"eng": "Open a private mandate",
+					"trans": "비공개 지시 열기"
+				}
+			},
+			"threatIntelligence": {
+				"description": {
+					"eng": "Targeted surveillance and intelligence collection identify hostile intent before it becomes a public incident.",
+					"trans": "정밀 감시와 정보 수집을 통해 적대 의도가 사회적 사건으로 번지기 전 사전에 정확히 파악합니다"
+				},
+				"title": {
+					"eng": "Threat intelligence",
+					"trans": "위협 인텔리전스"
+				}
+			},
+			"title": {
+				"eng": "Protective services",
+				"trans": "보안 서비스"
+			}
+		},
+		"shell": {
+			"footer": {
+				"careers": {
+					"eng": "Careers",
+					"trans": "직업"
+				},
+				"company": {
+					"eng": "CircuitBreak Security Solutions",
+					"trans": "서킷브레이크 보안 솔루션"
+				},
+				"companyProfile": {
+					"eng": "Company profile",
+					"trans": "회사 프로필"
+				},
+				"contact": {
+					"eng": "Contact CircuitBreak",
+					"trans": "CircuitBreak에 연락"
+				},
+				"notice": {
+					"eng": "Client information is handled under strict confidentiality.",
+					"trans": "고객 정보는 철저한 기밀로 관리됩니다."
+				}
+			},
+			"logoAlt": {
+				"eng": "CircuitBreak Security Solutions",
+				"trans": "서킷브레이크 보안 솔루션"
+			},
+			"nav": {
+				"board": {
+					"eng": "Board",
+					"trans": "게시판"
+				},
+				"careers": {
+					"eng": "Careers",
+					"trans": "직업"
+				},
+				"company": {
+					"eng": "Company",
+					"trans": "회사"
+				},
+				"contact": {
+					"eng": "Contact",
+					"trans": "연락처"
+				},
+				"home": {
+					"eng": "Home",
+					"trans": "홈"
+				},
+				"services": {
+					"eng": "Services",
+					"trans": "서비스"
+				}
+			},
+			"placeHit": {
+				"eng": "Place Hit",
+				"trans": "현상금 의뢰"
+			}
 		}
 	},
 	"clan": {
@@ -2907,6 +3663,10 @@
 		"clanResource": {
 			"eng": "+ ${amount} Gang resource",
 			"trans": "+ ${amount} 갱 자원"
+		},
+		"oneOf": {
+			"eng": "One of following:",
+			"trans": "다음 중 선택:"
 		}
 	},
 	"confirmModal": {
@@ -4917,28 +5677,24 @@
 	},
 	"hitListPage": {
 		"bountyCount": {
-			"eng": "${count} bounties",
-			"trans": "${count} 건의 수배"
+			"eng": "${count} active",
+			"trans": "${count}개 활성"
 		},
 		"sort": {
 			"level": {
-				"eng": "Level",
-				"trans": "레벨"
+				"eng": "Target level",
+				"trans": "목표 레벨"
 			},
 			"price": {
-				"eng": "Price",
-				"trans": "가격"
+				"eng": "Contract value",
+				"trans": "계약 금액"
 			}
 		}
 	},
 	"hitlist": {
-		"loading": {
-			"eng": "Loading bounties...",
-			"trans": "현상금 정보를 로드 중..."
-		},
 		"noBounties": {
-			"eng": "No bounties available",
-			"trans": "사냥 대상이 없습니다"
+			"eng": "No active contracts",
+			"trans": "현재 활성화된 계약이 없습니다."
 		},
 		"optionsPopup": {
 			"attack": {
@@ -4949,23 +5705,13 @@
 				"eng": "View Profile",
 				"trans": "프로필 보기"
 			}
-		},
-		"placeHitButton": {
-			"title": {
-				"eng": "Place Hit",
-				"trans": "현상금 의뢰소"
-			}
-		},
-		"title": {
-			"eng": "Hit List",
-			"trans": "현상금 목록"
 		}
 	},
 	"hitman": {
 		"error": {
 			"cannotPlaceBountyOnAdmin": {
-				"eng": "You cannot place bounty on this player",
-				"trans": "이 플레이어에게는 현상금을 걸 수 없습니다"
+				"eng": "You cannot place or control this player.",
+				"trans": "이 플레이어를 배치하거나 조종할 수 없습니다."
 			},
 			"cannotPlaceBountyOnLowLevel": {
 				"eng": "You cannot place bounty on players lower than level ${level}",
@@ -5345,10 +6091,6 @@
 		"evidenceNumber": {
 			"eng": "Evidence #${number}",
 			"trans": "증거 #${number}"
-		},
-		"goToVerdict": {
-			"eng": "Go to verdict ${num}",
-			"trans": "판결 ${num}으로 이동"
 		},
 		"imageUnavailable": {
 			"eng": "Image Unavailable",
@@ -7977,10 +8719,6 @@
 				"eng": "News",
 				"trans": "뉴스"
 			},
-			"goToNews": {
-				"eng": "Go to news ${index}",
-				"trans": "뉴스 ${index}으로 이동"
-			},
 			"heading": {
 				"eng": "YOUR ACTIONS MAKE THE HEADLINES",
 				"trans": "당신의 행동이 헤드라인을 만든다."
@@ -7993,10 +8731,6 @@
 				"eng": "Arclight Times",
 				"trans": "아크라이트 타임스"
 			},
-			"next": {
-				"eng": "Next news",
-				"trans": "다음 뉴스"
-			},
 			"noNews": {
 				"eng": "No news available at the moment",
 				"trans": "현재 뉴스가 없습니다."
@@ -8004,10 +8738,6 @@
 			"overline": {
 				"eng": "LIVE WORLD EVENTS // PLAYER-DRIVEN NARRATIVE",
 				"trans": "실시간 세계 이벤트 // 플레이어 중심 스토리"
-			},
-			"previous": {
-				"eng": "Previous news",
-				"trans": "이전 뉴스"
 			},
 			"reportBy": {
 				"eng": "REPORT BY",
@@ -9507,6 +10237,712 @@
 			"trans": "필터"
 		}
 	},
+	"megaEstateWebsite": {
+		"careers": {
+			"description": {
+				"eng": "MegaEstate evaluates verified resident profiles continuously. If your payment, access and conduct history meets a role requirement, we will contact you. No submission is necessary.",
+				"trans": "메가에스테이트에서는 검증된 거주자 프로필을 상시 평가합니다. 결제, 출입 및 활동 기록이 해당 역할 요건을 충족할 경우 연락드리겠습니다. 별도 제출은 필요하지 않습니다."
+			},
+			"eyebrow": {
+				"eng": "Careers at MegaEstate",
+				"trans": "메가에스테이트 채용"
+			},
+			"hero": {
+				"imageAlt": {
+					"eng": "MegaEstate property operations team reviewing a residential building",
+					"trans": "메가에스테이트 부동산 운영팀이 주거 건물을 검토 중입니다."
+				}
+			},
+			"title": {
+				"eng": "Your record is your application.",
+				"trans": "기록이 곧 지원서입니다."
+			},
+			"vacancies": {
+				"biometricAccess": {
+					"department": {
+						"eng": "Access infrastructure · Technical",
+						"trans": "접근 인프라 · 기술"
+					},
+					"description": {
+						"eng": "Maintain identity-linked entry systems, investigate access anomalies and revoke resident credentials across MegaEstate properties.",
+						"trans": "메가에스테이트단지 전역에서 신원 연동 출입 시스템을 유지하고 비정상 접근 징후를 조사하며 거주자 자격 증명을 무효화하십시오."
+					},
+					"title": {
+						"eng": "Biometric Access Technician",
+						"trans": "생체 접근 기술자"
+					}
+				},
+				"count": {
+					"eng": "${count} active",
+					"trans": "${count}개 활성"
+				},
+				"eyebrow": {
+					"eng": "Open positions",
+					"trans": "모집 중"
+				},
+				"occupancyCompliance": {
+					"department": {
+						"eng": "Portfolio compliance · Field",
+						"trans": "포트폴리오 규정 준수 · 필드"
+					},
+					"description": {
+						"eng": "Conduct unannounced home inspections, document unregistered occupants and authorize access suspension when contract terms are breached.",
+						"trans": "사전 통보 없이 주거지를 점검하고 미등록 거주자를 기록하며, 계약 조건 위반 시 접근 권한을 정지합니다."
+					},
+					"title": {
+						"eng": "Occupancy Compliance Officer",
+						"trans": "입실 규정 준수 담당관"
+					}
+				},
+				"riskAnalyst": {
+					"department": {
+						"eng": "Resident intelligence · Analysis",
+						"trans": "입주민 지능 · 분석"
+					},
+					"description": {
+						"eng": "Combine payment history, property access and contract activity to predict renewal risk and recommend intervention.",
+						"trans": "결제 내역, 재산 접근 기록 및 계약 활동을 통합하여 재계약 리스크를 예측하고 개입 조치를 권장합니다."
+					},
+					"title": {
+						"eng": "Resident Risk Analyst",
+						"trans": "상주 리스크 분석가"
+					}
+				},
+				"unitRecovery": {
+					"department": {
+						"eng": "Property recovery · Field",
+						"trans": "속성 회복 · 현장"
+					},
+					"description": {
+						"eng": "Secure homes after lease termination, catalogue remaining property and return reclaimed units to inventory before the next billing cycle.",
+						"trans": "임대 계약 종료 후 주택 잠금 처리, 잔여 자산 목록 작성 및 회수 단지를 다음 청구 일자 이전에 재고에 반환"
+					},
+					"title": {
+						"eng": "Unit Recovery Coordinator",
+						"trans": "유닛 복구 조정관"
+					}
+				}
+			}
+		},
+		"company": {
+			"building": {
+				"caption": {
+					"eng": "Arclight lives here",
+					"trans": "아크라이트는 이곳에 거주합니다."
+				},
+				"imageAlt": {
+					"eng": "Residents arriving at a MegaEstate property in Arclight",
+					"trans": "아크라이트 메가에스테이트 부지에 거주민이 도착함"
+				}
+			},
+			"eyebrow": {
+				"eng": "About MegaEstate",
+				"trans": "메가에스테이트 소개"
+			},
+			"introduction": {
+				"eng": "At MegaEstate, we bring rental homes across Arclight into one clear network. You can compare housing standards, see current availability and choose the address that works for you.",
+				"trans": "메가에스테이트는 아르클라이트 전역의 임대 주택을 하나의 통합 네트워크로 연결합니다. 주거 기준을 비교하고 현재 입주가 가능한 매물을 확인해 적합한 주소를 선택하세요."
+			},
+			"leadership": {
+				"description": {
+					"eng": "Robert Smith sets our long-term direction as Chief Executive Officer. His approach is simple: manage housing at city scale, keep occupancy responsible and make every part of renting answer to one accountable company. From listing to renewal, that company is MegaEstate.",
+					"trans": "로버트 스미프 대표이사가 회사의 장기 경영 방향을 설정합니다. 운영 원칙은 단순합니다. 도시 규모로 주거 시설을 관리하고, 적정 입지 관리를 유지하며, 임대 업무 전 과정을 단일 법인에서 총괄합니다. 매물 등록부터 계약 갱신까지 모든 단계는 메가에스테이트가 책임집니다."
+				},
+				"eyebrow": {
+					"eng": "Leadership",
+					"trans": "리더십"
+				},
+				"imageAlt": {
+					"eng": "Robert Smith, Chief Executive Officer of MegaEstate",
+					"trans": "로버트 스미스, 메가에스테이트 최고경영자"
+				},
+				"name": {
+					"eng": "Robert Smith",
+					"trans": "로버트 스미스"
+				},
+				"role": {
+					"eng": "Chief Executive Officer",
+					"trans": "대표이사"
+				}
+			},
+			"model": {
+				"description": {
+					"eng": "Our four housing standards give you room to choose without starting over. Essential Housing, City Housing, Urban Studio and Central Residence all follow the same straightforward seven-day rental cycle.",
+					"trans": "네 가지 주택 유형은 재시작 없이도 자유롭게 선택하실 수 있습니다. 필수 주택, 시티 하우스, 어반 스튜디오, 센트럴 레지던스는 모두 동일한 간단한 7일 임대 주기를 따릅니다."
+				},
+				"eyebrow": {
+					"eng": "Made for life in Arclight",
+					"trans": "아크라이트 생활을 위해 설계됨"
+				},
+				"title": {
+					"eng": "A home for what comes next.",
+					"trans": "다가올 것을 위한 안식처"
+				}
+			},
+			"portfolio": {
+				"eng": "From a first address to a Central Residence, we make every move familiar: one place to browse, one rental process and one company behind every home we manage.",
+				"trans": "첫 주거지에서 센트럴 레지던스까지, 모든 이주 과정을 편안게 만듭니다. 하나의 공간에서 주택을 탐색하고, 단일 절차로 임대하며 관리하는 모든 공간 뒤에 단 한 곳의 회사가 있습니다."
+			},
+			"title": {
+				"eng": "The city moves fast. Home should feel certain.",
+				"trans": "도시는 빠르게 흐른다. 집만큼은 확실해야 한다."
+			}
+		},
+		"home": {
+			"city": {
+				"arclight": {
+					"eng": "Arclight City",
+					"trans": "아크라이트 시티"
+				},
+				"international": {
+					"eng": "International cities — Unavailable",
+					"trans": "국제 도시 — 사용 불가"
+				},
+				"label": {
+					"eng": "City",
+					"trans": "도시"
+				},
+				"otherNrc": {
+					"eng": "Other NRC cities — Unavailable",
+					"trans": "기타 NRC 도시 — 이용 불가"
+				}
+			},
+			"hero": {
+				"description": {
+					"eng": "Explore homes available now across our four housing standards.",
+					"trans": "현재 이용 가능한 네 가지 주택 등급의 가옥을 확인해 보세요."
+				},
+				"eyebrow": {
+					"eng": "Rental homes in Arclight City",
+					"trans": "아크라이트 시티 임대주택"
+				},
+				"imageAlt": {
+					"eng": "Central Residence overlooking Arclight City",
+					"trans": "아크라이트시티 조망 중앙주택"
+				},
+				"title": {
+					"eng": "Find your place in Arclight.",
+					"trans": "아크라이트에서 당신의 자리를 찾아보세요."
+				},
+				"viewListings": {
+					"eng": "Browse current listings",
+					"trans": "현재 목록 확인하기"
+				}
+			},
+			"introduction": {
+				"availability": {
+					"description": {
+						"eng": "We only show homes currently available to rent in Arclight.",
+						"trans": "현재 아르클라이트에서 임대 가능한 주택만 표시됩니다."
+					},
+					"title": {
+						"eng": "Current availability",
+						"trans": "현재 가용량"
+					}
+				},
+				"description": {
+					"eng": "From essential housing to central residences, we bring Arclight's available rentals together in one place. Browse real homes, compare actual weekly rent and choose the standard that fits your life.",
+					"trans": "기본 주택부터 핵심 거주지까지 Arclight의 이용 가능한 임대 주택을 한 곳에 모았습니다. 실제 입주 가능 주택을 확인하고 주간 임대료를 비교하여 내 생활에 꼭 맞는 공간을 선택하세요."
+				},
+				"eyebrow": {
+					"eng": "Arclight residential rentals",
+					"trans": "아크라이트 주택 임대"
+				},
+				"pricing": {
+					"description": {
+						"eng": "See the actual weekly rent for every available home.",
+						"trans": "이용 가능한 모든 주택의 실제 주간 임대료를 확인하세요."
+					},
+					"title": {
+						"eng": "Clear weekly pricing",
+						"trans": "명확한 주간 요금제"
+					}
+				},
+				"standards": {
+					"benefitsDescription": {
+						"eng": "Compare added inventory space, vault capacity and mercenary contact slots before choosing.",
+						"trans": "선택 전에 추가 인벤토리 공간, 금고 용량 및 용병 연락처 슬롯을 비교하세요"
+					},
+					"title": {
+						"eng": "Four housing standards",
+						"trans": "주거 기준 4단계"
+					}
+				},
+				"title": {
+					"eng": "A better way to find a home in Arclight.",
+					"trans": "아크라이트에서 더 나은 거처를 찾는 방법"
+				},
+				"viewListings": {
+					"eng": "Explore current listings",
+					"trans": "현재 등록된 항목 탐색"
+				}
+			},
+			"renting": {
+				"description": {
+					"eng": "We charge your first seven-day period when the rental starts. After each period, we process renewal during the next scheduled billing check.",
+					"trans": "렌탈 시작 시 첫 7일 치 요금이 부과되며, 각 기간 종료 후 다음 정기 결제 시점에 자동 갱신이 처리됩니다."
+				},
+				"eyebrow": {
+					"eng": "Renting with MegaEstate",
+					"trans": "메가에스테이트로 임대"
+				},
+				"guide": {
+					"eng": "See how renting works",
+					"trans": "대여 시스템 확인하기"
+				},
+				"title": {
+					"eng": "Choose today. Renew week by week.",
+					"trans": "오늘 선택하세요. 매주 갱신됩니다."
+				}
+			},
+			"standards": {
+				"compare": {
+					"eng": "Compare housing standards",
+					"trans": "주거지 수준 비교"
+				},
+				"description": {
+					"eng": "Each of our housing standards offers a different balance of space, storage and capacity. Compare them here, then see real homes and weekly rent in Listings.",
+					"trans": "각 주거 등급은 공간, 수납, 수용 능력의 균형을 달리합니다. 여기서 비교한 후 목록에서 실제 거주지와 주간 임대료를 확인하세요."
+				},
+				"eyebrow": {
+					"eng": "Housing standards",
+					"trans": "주택 기준"
+				},
+				"mercenarySlots": {
+					"eng": "Merc slots",
+					"trans": "용병 슬롯"
+				},
+				"storage": {
+					"eng": "Storage",
+					"trans": "창고"
+				},
+				"title": {
+					"eng": "Four ways to live in Arclight.",
+					"trans": "아크라이트에서 살아가는 4가지 방법"
+				},
+				"vault": {
+					"eng": "Vault",
+					"trans": "금고"
+				}
+			}
+		},
+		"homeDetails": {
+			"confirm": {
+				"action": {
+					"eng": "Rent this home",
+					"trans": "이 집 임대하기"
+				},
+				"description": {
+					"eng": "Rent ${address} for ${price} ${currency} per week. We charge the first seven-day period when the rental starts.",
+					"trans": "${address} 주 ${price} ${currency}로 대여합니다. 대여 시작 시 첫 7일 치 요금이 선결제됩니다."
+				},
+				"perWeek": {
+					"eng": "per week",
+					"trans": "주당"
+				},
+				"replacementDescription": {
+					"eng": "Rent ${address} for ${price} ${currency} per week. We charge the first seven-day period when the rental starts, and this immediately replaces your current home.",
+					"trans": "${address}을 주 ${price} ${currency}에 임대합니다. 임대 시작 시 첫 7일 요금이 선결제되며 현재 집을 즉시 대체합니다."
+				},
+				"title": {
+					"eng": "Rent this home?",
+					"trans": "이 집을 임대하시겠습니까?"
+				},
+				"weeklyRent": {
+					"eng": "Weekly rent",
+					"trans": "주간 임대료"
+				}
+			},
+			"currentHome": {
+				"eng": "Current home",
+				"trans": "현재 거처"
+			},
+			"error": {
+				"description": {
+					"eng": "Return to Listings and try this home again when availability can be loaded.",
+					"trans": "목록으로 돌아가서 이용 가능 정보가 로드되면 해당 주택을 다시 시도해 보세요."
+				},
+				"title": {
+					"eng": "We couldn't check this home's availability",
+					"trans": "해당 홈의 사용 가능 여부를 확인하지 못했습니다."
+				}
+			},
+			"imageAlt": {
+				"eng": "Rental home at ${address}",
+				"trans": "${address} 소재 임대 주택"
+			},
+			"invalid": {
+				"description": {
+					"eng": "Return to Listings to choose from homes currently available.",
+					"trans": "매물 목록으로 돌아가 현재 입주 가능한 주택을 선택하세요."
+				},
+				"title": {
+					"eng": "We can't open this home",
+					"trans": "이 홈을 열 수 없습니다"
+				}
+			},
+			"mercenarySlots": {
+				"eng": "Merc slots",
+				"trans": "용병 슬롯"
+			},
+			"metrics": {
+				"mercenarySlots": {
+					"description": {
+						"eng": "Adds ${count} mercenary contact slots to your recruitment limit.",
+						"trans": "용병 모집 슬롯이 ${count}개 추가됩니다."
+					}
+				},
+				"storage": {
+					"description": {
+						"eng": "Adds ${count} slots to your inventory.",
+						"trans": "인베토리 슬롯이 ${count}개 추가됩니다."
+					}
+				},
+				"vault": {
+					"description": {
+						"eng": "Holds up to ${count} item stacks in your apartment vault.",
+						"trans": "아파트 금고에 최대 ${count}개의 아이템을 보관할 수 있습니다."
+					}
+				}
+			},
+			"perWeek": {
+				"eng": "per week",
+				"trans": "주당"
+			},
+			"renewal": {
+				"description": {
+					"eng": "We charge the first seven-day period when your rental starts. After each period, we process renewal during the next scheduled billing check; insufficient funds end the lease.",
+					"trans": "대여 시작 시 첫 7일 요금이 청구됩니다. 이후 갱신은 다음 결제 시점에 자동 처리되며, 잔액 부족 시 계약이 종료됩니다."
+				},
+				"eyebrow": {
+					"eng": "Seven-day rental cycle",
+					"trans": "7일 대여 주기"
+				}
+			},
+			"rent": {
+				"eng": "Rent this home",
+				"trans": "이 집 임대하기"
+			},
+			"replacement": {
+				"description": {
+					"eng": "Starting this rental ends your existing lease immediately.",
+					"trans": "해당 대여를 시작하면 기존 임대 계약이 즉시 종료됩니다."
+				},
+				"title": {
+					"eng": "This replaces your current home",
+					"trans": "현재 주거지를 교체합니다"
+				}
+			},
+			"storage": {
+				"eng": "Storage",
+				"trans": "창고"
+			},
+			"unavailable": {
+				"description": {
+					"eng": "This listing is no longer available. Return to Listings to view current homes.",
+					"trans": "해당 매물은 더 이상 등록되지 않았습니다. 목록으로 돌아가 현재 주택을 확인하세요."
+				},
+				"title": {
+					"eng": "This home is no longer available",
+					"trans": "해당 거주지는 현재 이용이 불가능합니다"
+				}
+			},
+			"vault": {
+				"eng": "Vault",
+				"trans": "금고"
+			},
+			"weeklyRent": {
+				"eng": "Weekly rent",
+				"trans": "주간 임대료"
+			}
+		},
+		"housingStandards": {
+			"a0": {
+				"description": {
+					"eng": "A practical first address with the essentials for independent city living.",
+					"trans": "자립형 도시 생활에 필요한 필수 요소가 갖춰진 실용적인 첫 시작지점."
+				}
+			},
+			"a1": {
+				"description": {
+					"eng": "A versatile city home with additional storage and vault space for an established routine.",
+					"trans": "안정적인 일상을 위한 다목적 도시형 주거공간으로, 별도 수납 공간과 금고실을 포함합니다."
+				}
+			},
+			"a2": {
+				"description": {
+					"eng": "A focused urban home with generous storage for residents who need more from a compact address.",
+					"trans": "효율적인 도심형 주택으로, 제한된 면적에서도 넉넉한 수납 공간이 필요한 거주자에게 최적화되었습니다."
+				}
+			},
+			"a3": {
+				"description": {
+					"eng": "Our premier residence offers the most room for residents, belongings and protected storage.",
+					"trans": "프리미엄 레지던스는 거주자 및 소지품을 위한 최대 규모의 공간과 보안 저장실을 제공합니다."
+				}
+			},
+			"benefitsDescription": {
+				"eng": "Compare added inventory space, vault capacity and mercenary contact slots across every standard.",
+				"trans": "추가 인벤토리 공간, 금고 용량 및 용병 연락 슬롯을 모든 기준별로 비교하세요."
+			},
+			"browseListings": {
+				"eng": "Browse current listings",
+				"trans": "현재 목록 확인하기"
+			},
+			"eyebrow": {
+				"eng": "The MegaEstate range",
+				"trans": "메가에스테이트 계열"
+			},
+			"imageAlt": {
+				"eng": "${standard} rental home",
+				"trans": "${standard} 임대주택"
+			},
+			"imageCaption": {
+				"eng": "Standard ${code}",
+				"trans": "표준 ${code}"
+			},
+			"mercenarySlots": {
+				"eng": "Merc slots",
+				"trans": "용병 슬롯"
+			},
+			"storage": {
+				"eng": "Storage",
+				"trans": "창고"
+			},
+			"title": {
+				"eng": "A clear standard for every stage of city life.",
+				"trans": "도시 생활의 모든 단계에 대한 명확한 기준"
+			},
+			"vault": {
+				"eng": "Vault",
+				"trans": "금고"
+			}
+		},
+		"listings": {
+			"availableCount": {
+				"eng": "Available listings: ${count}",
+				"trans": "현재 등록 항목: ${count}"
+			},
+			"empty": {
+				"description": {
+					"eng": "Choose another housing standard to view its current availability.",
+					"trans": "다른 주택 등급을 선택하여 현재 사용 가능 여부를 확인하세요."
+				},
+				"title": {
+					"eng": "No listings available in this standard",
+					"trans": "해당 기준에 해당하는 등록품을 찾을 수 없습니다."
+				}
+			},
+			"error": {
+				"description": {
+					"eng": "Choose another housing standard or return later to check availability.",
+					"trans": "다른 주택 등급을 선택하거나 나중에 재방문하여 입주 가능 여부를 확인하세요"
+				},
+				"title": {
+					"eng": "We couldn't load current availability",
+					"trans": "현재 이용 가능 상태를 불러오지 못했습니다."
+				}
+			},
+			"eyebrow": {
+				"eng": "MegaEstate listings",
+				"trans": "메가에스테이트 매물"
+			},
+			"listing": {
+				"currentHome": {
+					"eng": "Current home",
+					"trans": "현재 거처"
+				},
+				"imageAlt": {
+					"eng": "${standard} rental home",
+					"trans": "${standard} 임대주택"
+				},
+				"perWeek": {
+					"eng": "per week",
+					"trans": "주당"
+				},
+				"weeklyRent": {
+					"eng": "Weekly rent",
+					"trans": "주간 임대료"
+				}
+			},
+			"loadingCount": {
+				"eng": "Checking current availability…",
+				"trans": "현재 이용 가능 여부 확인 중…"
+			},
+			"standardLabel": {
+				"eng": "Housing standard",
+				"trans": "주택 기준"
+			},
+			"title": {
+				"eng": "Find your next home in Arclight.",
+				"trans": "아크라이트에서 새로운 터전을 찾아보세요."
+			}
+		},
+		"rentalGuide": {
+			"browseListings": {
+				"eng": "Browse current listings",
+				"trans": "현재 목록 확인하기"
+			},
+			"compareStandards": {
+				"eng": "Compare housing standards",
+				"trans": "주거지 수준 비교"
+			},
+			"description": {
+				"eng": "One clear process for your first payment, every renewal and any move that follows.",
+				"trans": "최초 결제부터 모든 갱신, 그리고 이후 발생하는 모든 이전까지 단 하나의 명확한 절차로 처리합니다."
+			},
+			"eyebrow": {
+				"eng": "Rental guide",
+				"trans": "렌탈 안내"
+			},
+			"guide": {
+				"change": {
+					"description": {
+						"eng": "When you rent a new home, we end your current lease immediately. Review your choice before starting the new rental.",
+						"trans": "새로운 주택을 임대하면 기존 계약이 즉시 종료됩니다. 신규 임대를 시작하기 전에 선택 사항을 확인해 주세요."
+					},
+					"title": {
+						"eng": "Changing your home",
+						"trans": "거주지 변경"
+					}
+				},
+				"description": {
+					"eng": "Review these four details before you start a rental.",
+					"trans": "대여를 시작하기 전에 이 4가지 세부 내용을 확인하세요"
+				},
+				"eyebrow": {
+					"eng": "Before you rent",
+					"trans": "임대하기 전에"
+				},
+				"funds": {
+					"description": {
+						"eng": "Keep enough funds available before renewal is due. If funds are insufficient, renewal fails and your lease ends immediately.",
+						"trans": "갱신 기한 전에 충분한 자금을 확보해 두십시오. 자금 부족 시 갱신이 실패하며 계약이 즉시 종료됩니다."
+					},
+					"title": {
+						"eng": "If renewal funds are unavailable",
+						"trans": "갱신 자금이 없는 경우"
+					}
+				},
+				"renewal": {
+					"description": {
+						"eng": "Each payment covers seven days. We process renewal during the next scheduled billing check and notify you when it succeeds or fails.",
+						"trans": "각 결제는 7일 동안 유효합니다. 다음 정기 결제 시 자동으로 갱신이 처리되며, 성공 또는 실패 여부를 알림으로 전송됩니다."
+					},
+					"title": {
+						"eng": "Automatic weekly renewal",
+						"trans": "주간 자동 갱신"
+					}
+				},
+				"start": {
+					"description": {
+						"eng": "We charge the first seven-day period when your rental starts.",
+						"trans": "대여 시작 시 첫 7일 치 요금이 부과됩니다."
+					},
+					"title": {
+						"eng": "When your rental starts",
+						"trans": "렌탈 시작 시"
+					}
+				}
+			},
+			"nextStep": {
+				"description": {
+					"eng": "Compare housing standards or go directly to current availability.",
+					"trans": "주택 스펙을 비교하거나 현재 이용 가능 숙소로 바로 이동"
+				},
+				"eyebrow": {
+					"eng": "Next step",
+					"trans": "다음 단계"
+				},
+				"title": {
+					"eng": "Choose a home when you are ready.",
+					"trans": "준비가 되면 거처를 선택하세요."
+				}
+			},
+			"title": {
+				"eng": "Renting with MegaEstate.",
+				"trans": "메가에스테이트를 통한 임대."
+			}
+		},
+		"shell": {
+			"closeMenu": {
+				"eng": "Close",
+				"trans": "닫기"
+			},
+			"directory": {
+				"eng": "Explore MegaEstate",
+				"trans": "메가에스테이트 탐험"
+			},
+			"footer": {
+				"about": {
+					"eng": "About MegaEstate",
+					"trans": "메가에스테이트 소개"
+				},
+				"careers": {
+					"eng": "Careers",
+					"trans": "직업"
+				},
+				"company": {
+					"eng": "MegaEstate",
+					"trans": "메가에스테이트"
+				},
+				"description": {
+					"eng": "Find your place in Arclight City.",
+					"trans": "아크라이트 시티에서 당신의 자리를 찾으세요."
+				},
+				"housingStandards": {
+					"eng": "Housing standards",
+					"trans": "주택 기준"
+				},
+				"listings": {
+					"eng": "Listings",
+					"trans": "판매 물품"
+				},
+				"overview": {
+					"eng": "Overview",
+					"trans": "개요"
+				},
+				"renting": {
+					"eng": "How renting works",
+					"trans": "대여 이용 방법"
+				}
+			},
+			"location": {
+				"eng": "Find your place in Arclight City.",
+				"trans": "아크라이트 시티에서 당신의 자리를 찾으세요."
+			},
+			"logoAlt": {
+				"eng": "MegaEstate",
+				"trans": "메가에스테이트"
+			},
+			"nav": {
+				"about": {
+					"eng": "About MegaEstate",
+					"trans": "메가에스테이트 소개"
+				},
+				"careers": {
+					"eng": "Careers",
+					"trans": "직업"
+				},
+				"housingStandards": {
+					"eng": "Housing standards",
+					"trans": "주택 기준"
+				},
+				"listings": {
+					"eng": "Listings",
+					"trans": "판매 물품"
+				},
+				"renting": {
+					"eng": "How renting works",
+					"trans": "대여 이용 방법"
+				}
+			},
+			"openMenu": {
+				"eng": "Menu",
+				"trans": "메뉴"
+			}
+		}
+	},
 	"mercenary": {
 		"error": {
 			"firstDraw": {
@@ -10305,10 +11741,6 @@
 				"eng": "System Overload",
 				"trans": "시스템 과부하"
 			},
-			"gaugeLabel": {
-				"eng": "Pressure gauge - hold to regulate",
-				"trans": "압력 게이지 - 길게 눌러 조정"
-			},
 			"holdingHint": {
 				"eng": "Hold Active",
 				"trans": "활성화 유지"
@@ -10328,10 +11760,6 @@
 			"retry": {
 				"eng": "Reset System",
 				"trans": "시스템 재설정"
-			},
-			"retryLabel": {
-				"eng": "Reset system and try again",
-				"trans": "시스템을 초기화하고 다시 시도하세요."
 			},
 			"safeZone": {
 				"eng": "Target Zone",
@@ -10496,6 +11924,98 @@
 			"tip": {
 				"eng": "Activate all dots to unlock by clicking. The dots will rotate faster and faster.",
 				"trans": "클릭으로 모든 점을 활성화하면 잠금이 해제됩니다. 점들은 점점 더 빠르게 회전합니다."
+			}
+		},
+		"vectorPress": {
+			"cassette": {
+				"verified": {
+					"eng": "Access Key Verified",
+					"trans": "접근 키 인증 완료"
+				}
+			},
+			"controls": {
+				"armed": {
+					"eng": "Input Armed",
+					"trans": "입력 활성화됨"
+				},
+				"locked": {
+					"eng": "Input Locked",
+					"trans": "입력 잠김"
+				},
+				"title": {
+					"eng": "Manual Vector Input",
+					"trans": "수동 벡터 입력"
+				}
+			},
+			"direction": {
+				"down": {
+					"eng": "Down",
+					"trans": "아래"
+				},
+				"left": {
+					"eng": "Left",
+					"trans": "왼쪽"
+				},
+				"right": {
+					"eng": "Right",
+					"trans": "오른쪽"
+				},
+				"up": {
+					"eng": "Up",
+					"trans": "위로"
+				}
+			},
+			"header": {
+				"progress": {
+					"eng": "Key Progress",
+					"trans": "핵심 진행"
+				},
+				"protocol": {
+					"eng": "Access Protocol VP-06",
+					"trans": "접근 프로토콜 VP-06"
+				},
+				"title": {
+					"eng": "Vector Press",
+					"trans": "벡터프렘스"
+				}
+			},
+			"instruction": {
+				"eng": "Match each vector to punch the access key",
+				"trans": "각 벡터를 일치시켜 접근키를 입력하세요"
+			},
+			"status": {
+				"advancing": {
+					"eng": "Cassette advancing",
+					"trans": "카세트 진행 중"
+				},
+				"currentDirection": {
+					"eng": "Current required vector: ${direction}",
+					"trans": "현재 필요 벡터: ${direction}"
+				},
+				"label": {
+					"eng": "SYS.VP//STATE",
+					"trans": "시스템.VP//상태"
+				},
+				"punching": {
+					"eng": "Punch accepted",
+					"trans": "펀치가 처리되었습니다"
+				},
+				"ready": {
+					"eng": "Awaiting vector input",
+					"trans": "벡터 입력 대기 중"
+				},
+				"rejected": {
+					"eng": "Vector mismatch — retry",
+					"trans": "벡터 불일치 — 재시도"
+				},
+				"verified": {
+					"eng": "Access key verified",
+					"trans": "액세스 키 확인됨"
+				},
+				"verifying": {
+					"eng": "Verifying access key",
+					"trans": "접근 키 검증 중"
+				}
 			}
 		}
 	},
@@ -10940,9 +12460,17 @@
 		}
 	},
 	"newsCard": {
+		"decrypted": {
+			"eng": "DECRYPTED",
+			"trans": "해독됨"
+		},
 		"new": {
 			"eng": "NEW",
 			"trans": "신규"
+		},
+		"operative": {
+			"eng": "OPERATIVE",
+			"trans": "작전요원"
 		}
 	},
 	"newsPage": {
@@ -12172,29 +13700,9 @@
 		}
 	},
 	"placeHitPage": {
-		"levelTooLow": {
-			"eng": "You need to be at least level ${level} to place a hit.",
-			"trans": "현상금을 걸기 위해선 ${level}레벨 이상이어야 합니다."
-		},
-		"notEnoughUnitError1": {
-			"eng": "Minimum hit bounty is ${minNormal}",
-			"trans": "최소 현상금은 ${minNormal}입니다"
-		},
-		"placeHit": {
-			"eng": "Place hit",
-			"trans": "현상금 의뢰"
-		},
-		"selectPlayer": {
-			"eng": "Select player",
-			"trans": "플레이어 선택"
-		},
 		"selectPlayerClick": {
-			"eng": "Click to select a player",
-			"trans": "플레이어를 선택하려면 클릭하세요"
-		},
-		"tip": {
-			"eng": "You can place a hit on a player by paying a certain amount of money and/or unit.",
-			"trans": "일정 금액의 돈과(또는) 유닛을 지불하여 플레이어에게 현상금을 걸 수 있습니다."
+			"eng": "Select target",
+			"trans": "대상 선택"
 		}
 	},
 	"player": {
@@ -15020,10 +16528,6 @@
 			"eng": "${current} / ${total}",
 			"trans": "${current} / 총 ${total}"
 		},
-		"pageInputAriaLabel": {
-			"eng": "Enter page number",
-			"trans": "페이지 번호를 입력해 주세요."
-		},
 		"pageInputPlaceholder": {
 			"eng": "Page #",
 			"trans": "페이지 #"
@@ -15206,6 +16710,26 @@
 			"notIdle": {
 				"eng": "You are not idle",
 				"trans": "대기 상태가 아닙니다"
+			},
+			"priorityOperationAlreadyActive": {
+				"eng": "You already have a Priority Operation in progress",
+				"trans": "이미 우선 작전이 진행 중입니다."
+			},
+			"priorityOperationFirstPlaceRequired": {
+				"eng": "Your gang must hold the highest positive war score to start this operation",
+				"trans": "작전을 시작하려면 갱단이 가장 높은 양의 전쟁 점수를 보유해야 합니다."
+			},
+			"priorityOperationGangRequired": {
+				"eng": "Only members of a first-place war gang can start this operation",
+				"trans": "1위 전쟁 갱단 소속자만 해당 작전을 시작할 수 있습니다."
+			},
+			"priorityOperationInvalidated": {
+				"eng": "Priority Operation invalidated because your gang no longer held first place at settlement",
+				"trans": "정산 시 소속 갅이 더 이상 1위를 유지하지 못해 우선작업이 취소되었습니다."
+			},
+			"priorityOperationSkipFirstPlaceRequired": {
+				"eng": "Your gang must still hold first place to finish this operation now",
+				"trans": "현재 이 작전을 완료하려면 여러분의 갱은 여전히 1위를 유지해야 합니다."
 			}
 		},
 		"notification": {
@@ -16503,13 +18027,21 @@
 			}
 		},
 		"megaAd": {
-			"subtitle": {
-				"eng": "Mega Estate - the only agency that wont scam you!",
-				"trans": "메가 부동산 - 당신이 사기 당하지 않을 유일한 중개사!"
+			"action": {
+				"eng": "View current rental availability",
+				"trans": "현재 대여 가능 현황 확인"
+			},
+			"backgroundAlt": {
+				"eng": "MegaEstate residence in Arclight City",
+				"trans": "아크라이트 시티 내 메가에스테이트 주거지"
+			},
+			"logoAlt": {
+				"eng": "MegaEstate",
+				"trans": "메가에스테이트"
 			},
 			"title": {
-				"eng": "Cheap Price!!",
-				"trans": "싸다!!"
+				"eng": "Homes across Arclight",
+				"trans": "아크라이트 전역 주거지"
 			}
 		},
 		"news": {
@@ -16764,6 +18296,10 @@
 			"eng": "President Jackson Morrison",
 			"trans": "잭슨 모리슨 대통령"
 		},
+		"leeJongSuk": {
+			"eng": "CEO Lee Jong-suk",
+			"trans": "이종석 대표"
+		},
 		"liWei": {
 			"eng": "Premier Li Wei",
 			"trans": "총리 리웨이"
@@ -16807,6 +18343,10 @@
 		"rezaHosseini": {
 			"eng": "Supreme Leader Ayatollah Reza Hosseini",
 			"trans": "최고 지도자 아야톨라 레자 호세이니"
+		},
+		"robertSmith": {
+			"eng": "CEO Robert Smith",
+			"trans": "CEO 로버트 스미스"
 		},
 		"sarahGoldman": {
 			"eng": "Prime Minister-CEO Sarah Goldman",
@@ -17112,6 +18652,20 @@
 				"trans": "모리슨 대통령"
 			}
 		},
+		"leeJongSuk": {
+			"ceoLee": {
+				"eng": "CEO Lee",
+				"trans": "이대표이사"
+			},
+			"circuitbreakCeo": {
+				"eng": "CircuitBreak CEO",
+				"trans": "회로 차단기 CEO"
+			},
+			"leeJongSuk": {
+				"eng": "Lee Jong-suk",
+				"trans": "이종석"
+			}
+		},
 		"liWei": {
 			"li": {
 				"eng": "Li",
@@ -17272,6 +18826,20 @@
 			"supremeLeaderHosseini": {
 				"eng": "Supreme Leader Hosseini",
 				"trans": "최고지도자 호세이니"
+			}
+		},
+		"robertSmith": {
+			"ceoSmith": {
+				"eng": "CEO Smith",
+				"trans": "스미스 CEO"
+			},
+			"megaestateCeo": {
+				"eng": "MegaEstate CEO",
+				"trans": "메가에스테이트 대표이사"
+			},
+			"robertSmith": {
+				"eng": "Robert Smith",
+				"trans": "로버트 스미스"
 			}
 		},
 		"sarahGoldman": {

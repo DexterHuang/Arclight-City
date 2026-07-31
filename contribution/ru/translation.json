@@ -374,24 +374,40 @@
 			"displayName": {
 				"eng": "Slum Apartment",
 				"trans": "Трущобная квартира"
+			},
+			"websiteDisplayName": {
+				"eng": "Essential Housing",
+				"trans": "Базовое жильё"
 			}
 		},
 		"apartment1": {
 			"displayName": {
 				"eng": "Low-end Apartment",
 				"trans": "Недорогая квартира"
+			},
+			"websiteDisplayName": {
+				"eng": "City Housing",
+				"trans": "Городское жильё"
 			}
 		},
 		"apartment2": {
 			"displayName": {
 				"eng": "Budget Studio",
 				"trans": "Бюджетная студия"
+			},
+			"websiteDisplayName": {
+				"eng": "Urban Studio",
+				"trans": "Городская студия"
 			}
 		},
 		"apartment3": {
 			"displayName": {
 				"eng": "Downtown Apartment",
 				"trans": "Квартира в центре города"
+			},
+			"websiteDisplayName": {
+				"eng": "Central Residence",
+				"trans": "Центральная резиденция"
 			}
 		},
 		"chat": {
@@ -567,28 +583,6 @@
 				"eng": "Vault",
 				"trans": "Хранилище"
 			}
-		}
-	},
-	"apartmentPurchasePage": {
-		"confirmDescription": {
-			"eng": "Are you sure you want to rent this apartment? if you already have an apartment, it will be dismissed.",
-			"trans": "Ты уверен, что хочешь арендовать эту квартиру? Если у тебя уже есть квартира, она будет отменена."
-		},
-		"confirmTitle": {
-			"eng": "Confirm Rental",
-			"trans": "Подтвердить аренду"
-		},
-		"owned": {
-			"eng": "Owned",
-			"trans": "Владеет"
-		},
-		"perWeek": {
-			"eng": "Per week",
-			"trans": "В неделю"
-		},
-		"rent": {
-			"eng": "Rent Now",
-			"trans": "Арендовать сейчас"
 		}
 	},
 	"appProductType": {
@@ -920,10 +914,14 @@
 			"eng": "Task completed",
 			"trans": "Задание выполнено"
 		},
+		"dismissButton": {
+			"eng": "Dismiss",
+			"trans": "Закрыть"
+		},
 		"emptyTask": {
 			"description": {
-				"eng": "Click to choose a task",
-				"trans": "Нажмите, чтобы выбрать задание"
+				"eng": "Assign operation",
+				"trans": "Назначить операцию"
 			},
 			"title": {
 				"eng": "Task slot available",
@@ -932,7 +930,7 @@
 		},
 		"inProgress": {
 			"eng": "Task in progress...",
-			"trans": "Задача в процессе..."
+			"trans": "Задание выполняется..."
 		},
 		"instantFinish": {
 			"eng": "Finish Now",
@@ -941,6 +939,10 @@
 		"instantFinishConfirmTitle": {
 			"eng": "Finish task now?",
 			"trans": "Закончить задание сейчас?"
+		},
+		"invalidated": {
+			"eng": "Operation invalidated",
+			"trans": "Операция аннулирована"
 		}
 	},
 	"backgroundTaskPage": {
@@ -961,6 +963,10 @@
 		"cost": {
 			"eng": "Cost",
 			"trans": "Стоимость"
+		},
+		"priorityOperationWarning": {
+			"eng": "Your gang must hold first place when this operation starts and settles. Start costs are not refunded if it is invalidated.",
+			"trans": "Ваша банда должна занимать первое место при старте и завершении операции. Стартовые затраты возврату не подлежат в случае аннулирования."
 		},
 		"rewards": {
 			"eng": "possible rewards",
@@ -1024,6 +1030,16 @@
 				"trans": "Спасательная операция"
 			}
 		},
+		"rogueAssetExtraction": {
+			"description": {
+				"eng": "Intercept a hostile augmentation shipment while your gang holds the highest war score. Losing first place before settlement invalidates the operation and forfeits its rewards.",
+				"trans": "Перехватите поставку вражеских аугментаций, пока ваша банда удерживает первое место по очкам войны. Потеря лидерства до расчёта аннулирует операцию и лишает наград."
+			},
+			"displayName": {
+				"eng": "Rogue Asset Extraction",
+				"trans": "Извлечение отколовшегося актива"
+			}
+		},
 		"scavenge": {
 			"description": {
 				"eng": "Navigate hazardous junkyards, uncover hidden treasures, and salvage valuable tech",
@@ -1053,6 +1069,20 @@
 				"eng": "Thieving",
 				"trans": "Воровство"
 			}
+		}
+	},
+	"backgroundTaskTypeDisplay": {
+		"afkOperation": {
+			"eng": "AFK Operation",
+			"trans": "AFK операция"
+		},
+		"firstPlaceRequired": {
+			"eng": "First-place gang",
+			"trans": "Банда первого места"
+		},
+		"priorityOperation": {
+			"eng": "Priority Operation",
+			"trans": "Приоритетная операция"
 		}
 	},
 	"backgroundTaskUpgradePopup": {
@@ -1863,6 +1893,732 @@
 		"title": {
 			"eng": "Rotate the circle to unlock",
 			"trans": "Поверните круг, чтобы разблокировать"
+		}
+	},
+	"circuitBreakWebsite": {
+		"about": {
+			"cid": {
+				"description": {
+					"eng": "CID handles controlled surveillance, intelligence collection, and sensitive recovery mandates under restricted authority.",
+					"trans": "CID осуществляет контролируемое наблюдение, сбор разведданных и конфиденциальные операции по изъятию в рамках ограниченных полномочий."
+				},
+				"eyebrow": {
+					"eng": "Specialist division",
+					"trans": "Подразделение специалистов"
+				},
+				"liaisonLabel": {
+					"eng": "Contractor liaison",
+					"trans": "Связь с подрядчиками"
+				},
+				"liaisonName": {
+					"eng": "Vale",
+					"trans": "Вейл"
+				},
+				"liaisonRole": {
+					"eng": "Intelligence operations",
+					"trans": "Разведывательные операции"
+				},
+				"title": {
+					"eng": "CircuitBreak Intelligence Division",
+					"trans": "Управление Разведки РазрывЦепи"
+				}
+			},
+			"eyebrow": {
+				"eng": "Company",
+				"trans": "Компания"
+			},
+			"leadership": {
+				"kira": {
+					"biography": {
+						"eng": "Kira Nilsen directs security policy and operational standards across CircuitBreak.",
+						"trans": "Кира Нилсен курирует политику безопасности и операционные стандарты во всех подразделениях CircuitBreak."
+					},
+					"name": {
+						"eng": "Kira Nilsen",
+						"trans": "Кира Нильсен"
+					},
+					"role": {
+						"eng": "Director of Security",
+						"trans": "Директор по безопасности"
+					}
+				},
+				"label": {
+					"eng": "Executive leadership",
+					"trans": "Высшее руководство"
+				},
+				"lee": {
+					"biography": {
+						"eng": "Lee Jong-suk serves as Chief Executive Officer of CircuitBreak Security Solutions. A former Korean special-forces soldier, he built his career around protective operations, crisis command, and work conducted under strict information controls. At CircuitBreak, his leadership is defined by disciplined execution, limited public disclosure, and a belief that effective security is measured by what never reaches the public record.",
+						"trans": "Ли Чжон Сук занимает пост генерального директора CircuitBreak Security Solutions. Бывший боец корейских спецподразделений, он посвятил карьеру операциям по защите, кризис-менеджменту и работе в условиях строгой информационной секретности. В CircuitBreak его стиль руководства характеризуется жесткой дисциплиной, минимумом публичной огласки и убеждением, что эффективность безопасности оценивается по тому, что никогда не станет достоянием общественности."
+					},
+					"imageAlt": {
+						"eng": "CircuitBreak chief executive Lee Jong-suk overseeing a night deployment",
+						"trans": "Генеральный директор CircuitBreak Ли Чжон Сук курирует ночное развертывание"
+					},
+					"name": {
+						"eng": "Lee Jong-suk",
+						"trans": "Ли Чон Сук"
+					},
+					"role": {
+						"eng": "Chief Executive Officer",
+						"trans": "Генеральный директор"
+					}
+				},
+				"registerLabel": {
+					"eng": "Leadership register",
+					"trans": "Реестр руководства"
+				}
+			},
+			"overview": {
+				"eng": "A listed Arclight security company providing executive protection, armed response, threat intelligence, and sensitive recovery.",
+				"trans": "Частная охранная компания Арклайт предоставляет услуги личной охраны, вооруженного реагирования, оценки угроз и конфиденциального возврата активов."
+			},
+			"registry": {
+				"divisionLabel": {
+					"eng": "Specialist division",
+					"trans": "Подразделение специалистов"
+				},
+				"divisionValue": {
+					"eng": "CID",
+					"trans": "CID"
+				},
+				"entityLabel": {
+					"eng": "Registered entity",
+					"trans": "Зарегистрированный объект"
+				},
+				"entityValue": {
+					"eng": "CircuitBreak Security Solutions",
+					"trans": "РазрывЦепи Системы Безопасности"
+				},
+				"label": {
+					"eng": "Corporate record",
+					"trans": "Корпоративная запись"
+				},
+				"marketLabel": {
+					"eng": "Ticker",
+					"trans": "Тикер"
+				},
+				"marketValue": {
+					"eng": "CBK",
+					"trans": "CBK"
+				}
+			},
+			"title": {
+				"eng": "CircuitBreak Security Solutions",
+				"trans": "РазрывЦепи Системы Безопасности"
+			}
+		},
+		"careers": {
+			"cid": {
+				"contactAction": {
+					"eng": "View liaison details",
+					"trans": "Сведения о связном"
+				},
+				"description": {
+					"eng": "CID reviews sponsored operators for surveillance, intelligence collection, and sensitive recovery assignments. Intake requires a verified sponsor or approved liaison referral.",
+					"trans": "CID рассматривает спонсируемых операторов на участие в операциях по наблюдению, сбору разведданных и конфиденциальному изъятию объектов. Для зачисления требуется подтверждённый спонсор или рекомендация утверждённого связного."
+				},
+				"label": {
+					"eng": "Contract operators",
+					"trans": "Контрактные операторы"
+				},
+				"liaisonLabel": {
+					"eng": "Contractor liaison",
+					"trans": "Связь с подрядчиками"
+				},
+				"liaisonName": {
+					"eng": "Vale",
+					"trans": "Вейл"
+				},
+				"liaisonRole": {
+					"eng": "Intelligence operations",
+					"trans": "Разведывательные операции"
+				},
+				"title": {
+					"eng": "CID contractor intake",
+					"trans": "Приём контрактников CID"
+				}
+			},
+			"eyebrow": {
+				"eng": "Careers",
+				"trans": "Профессии"
+			},
+			"imageAlt": {
+				"eng": "CircuitBreak operations candidate completing a professional assessment",
+				"trans": "Кандидат в оперативники РазрывЦепи завершает профессиональную аттестацию"
+			},
+			"intro": {
+				"eng": "Permanent roles for security professionals who exercise sound judgment under pressure.",
+				"trans": "Постоянные должности для сотрудников службы безопасности, принимающих взвешенные решения под давлением"
+			},
+			"openRolesTitle": {
+				"eng": "Current openings",
+				"trans": "Текущие вакансии"
+			},
+			"recruitmentAction": {
+				"eng": "Contact recruitment",
+				"trans": "Вербовка контактов"
+			},
+			"vacancies": {
+				"intelligence": {
+					"context": {
+						"eng": "Risk Intelligence / Arclight",
+						"trans": "Аналитика рисков / Арклайт"
+					},
+					"title": {
+						"eng": "Threat Intelligence Analyst",
+						"trans": "Аналитик разведки угроз"
+					}
+				},
+				"protective": {
+					"context": {
+						"eng": "Protective Operations / Arclight",
+						"trans": "Защитные операции / Арклайт"
+					},
+					"title": {
+						"eng": "Protective Operations Specialist",
+						"trans": "Специалист по оперативной защите"
+					}
+				},
+				"response": {
+					"context": {
+						"eng": "Client Command / Arclight Response Centre",
+						"trans": "Директивы клиента / Центр реагирования Арклайт"
+					},
+					"title": {
+						"eng": "Client Response Controller",
+						"trans": "Контроллер ответа клиента"
+					}
+				}
+			}
+		},
+		"contact": {
+			"directory": {
+				"cid": {
+					"access": {
+						"eng": "Sponsor only",
+						"trans": "Только для спонсоров"
+					},
+					"description": {
+						"eng": "Sponsor-backed candidate references and approved contractor correspondence.",
+						"trans": "Рекомендации по кандидатам при поддержке спонсора и утвержденная переписка с подрядчиками."
+					},
+					"title": {
+						"eng": "CID contractor liaison",
+						"trans": "Связной CID по работе с контрактниками"
+					}
+				},
+				"corporate": {
+					"access": {
+						"eng": "Public",
+						"trans": "Публичный"
+					},
+					"address": {
+						"eng": "corporate@circuitbreak.com",
+						"trans": "корпоративный@разрывцепи.com"
+					},
+					"description": {
+						"eng": "Company records, procurement, legal notices, recruitment, and general correspondence.",
+						"trans": "Корпоративная документация, закупки, правовые уведомления, набор персонала и общая переписка."
+					},
+					"title": {
+						"eng": "Corporate and recruitment",
+						"trans": "Корпорации и вербовка"
+					}
+				},
+				"protected": {
+					"access": {
+						"eng": "Private intake",
+						"trans": "Закрытый приём"
+					},
+					"action": {
+						"eng": "Open a private mandate",
+						"trans": "Открыть приватное задание"
+					},
+					"description": {
+						"eng": "Submit a new private-client mandate for controlled assessment.",
+						"trans": "Отправить новое поручение частного клиента для контролируемой оценки."
+					},
+					"title": {
+						"eng": "Private mandate",
+						"trans": "Личное задание"
+					}
+				},
+				"response": {
+					"access": {
+						"eng": "Contracted clients",
+						"trans": "Клиенты по контракту"
+					},
+					"description": {
+						"eng": "For active incidents under an existing mandate, use your assigned client relay. Public mail cannot dispatch field teams.",
+						"trans": "Для активных инцидентов в рамках действующего мандата используйте назначенный клиентский ретранслятор. Служба общей почты не может направлять полевые группы."
+					},
+					"reference": {
+						"eng": "Use assigned client relay",
+						"trans": "Использовать назначенный клиентский ретранслятор"
+					},
+					"title": {
+						"eng": "Active client response",
+						"trans": "Активный ответ клиента"
+					}
+				}
+			},
+			"directoryTitle": {
+				"eng": "Contact CircuitBreak",
+				"trans": "Связь с РазрывЦепи"
+			},
+			"eyebrow": {
+				"eng": "Contact",
+				"trans": "Связь"
+			},
+			"intro": {
+				"eng": "Choose the channel matching your request. Restricted matters cannot be transferred from public enquiries.",
+				"trans": "Выберите канал, соответствующий вашему запросу. Ограниченные вопросы нельзя перенаправить из публичных обращений."
+			}
+		},
+		"contracts": {
+			"disclaimer": {
+				"eng": "Mandate availability and operator response are not guaranteed. CircuitBreak retains final network authority.",
+				"trans": "Доступность директив и ответ оператора не гарантируется. CircuitBreak сохраняет окончательный контроль над сетью."
+			},
+			"emptyAction": {
+				"eng": "Open a contract",
+				"trans": "Открыть контракт"
+			},
+			"emptyCode": {
+				"eng": "Ledger status / Clear",
+				"trans": "Статус реестра / Очистить"
+			},
+			"emptyDescription": {
+				"eng": "No public mandate currently meets network requirements. Qualified clients may open a new contract.",
+				"trans": "На данный момент нет публичных контрактов, соответствующих сетевым требованиям. Квалифицированные клиенты могут открыть новый контракт."
+			},
+			"eyebrow": {
+				"eng": "Private Client Network / Mandates",
+				"trans": "Частная клиентская сеть / Поручения"
+			},
+			"intro": {
+				"eng": "Active public mandates available to verified CircuitBreak operators. Select a target to review engagement options.",
+				"trans": "Активные публичные мандаты доступны верифицированным операторам CircuitBreak. Выберите цель для просмотра вариантов взаимодействия."
+			},
+			"levelColumn": {
+				"eng": "Level",
+				"trans": "Уровень"
+			},
+			"loadingTitle": {
+				"eng": "Retrieving mandates",
+				"trans": "Загрузка мандатов"
+			},
+			"openContract": {
+				"eng": "Place a Hit",
+				"trans": "Заказать устранение"
+			},
+			"sortLabel": {
+				"eng": "Sort: ${mode}",
+				"trans": "Сортировка: ${mode}"
+			},
+			"status": {
+				"eng": "Active ledger",
+				"trans": "Активный реестр"
+			},
+			"targetColumn": {
+				"eng": "Target",
+				"trans": "Цель"
+			},
+			"title": {
+				"eng": "Contract Board",
+				"trans": "Доска контрактов"
+			},
+			"valueColumn": {
+				"eng": "Value",
+				"trans": "Значение"
+			}
+		},
+		"home": {
+			"hero": {
+				"classification": {
+					"eng": "Integrated security / Arclight",
+					"trans": "Интегрированная безопасность / Арклайт"
+				},
+				"clientAccess": {
+					"eng": "Private client access",
+					"trans": "Доступ приватного клиента"
+				},
+				"description": {
+					"eng": "CircuitBreak protects Arclight's most exposed institutions, assets, and executives. When deterrence fails, we resolve the exposure.",
+					"trans": "РазрывЦепи защищает наиболее уязвимые учреждения, активы и руководителей Арклайта. Когда сдерживание не работает, мы устраняем угрозу напрямую."
+				},
+				"imageAlt": {
+					"eng": "CircuitBreak headquarters and executive protection detail in Arclight",
+					"trans": "Штаб-квартира РазрывЦепи и служба охраны высшего руководства в Арклайте"
+				},
+				"placeHit": {
+					"eng": "Place Hit",
+					"trans": "Назначить цель"
+				},
+				"title": {
+					"eng": "Power, applied.",
+					"trans": "Питание подано."
+				},
+				"viewBoard": {
+					"eng": "View Board",
+					"trans": "Просмотр доски"
+				}
+			},
+			"services": {
+				"allServices": {
+					"eng": "View all services",
+					"trans": "Показать все услуги"
+				},
+				"highRisk": {
+					"description": {
+						"eng": "Integrated protection for critical sites and operations.",
+						"trans": "Интегрированная защита критических объектов и операций."
+					},
+					"title": {
+						"eng": "High-risk security",
+						"trans": "Система повышенной опасности"
+					}
+				},
+				"label": {
+					"eng": "Capabilities",
+					"trans": "Способности"
+				},
+				"protection": {
+					"description": {
+						"eng": "Protective teams and secure movement for exposed clients.",
+						"trans": "Охранные группы и безопасное перемещение для незащищённых клиентов."
+					},
+					"title": {
+						"eng": "Executive protection",
+						"trans": "Охрана руководителей"
+					}
+				},
+				"response": {
+					"description": {
+						"eng": "Rapid intervention when a material threat becomes active.",
+						"trans": "Быстрое вмешательство при появлении серьёзной угрозы."
+					},
+					"title": {
+						"eng": "Armed response",
+						"trans": "Вооружённый ответ"
+					}
+				},
+				"title": {
+					"eng": "Protective services",
+					"trans": "Охранные услуги"
+				}
+			}
+		},
+		"placeHit": {
+			"actionIntro": {
+				"eng": "Choose a target and contract value, then review the cost before authorization.",
+				"trans": "Выберите цель и сумму контракта, затем проверьте стоимость перед подтверждением."
+			},
+			"actionTitle": {
+				"eng": "Place a hit",
+				"trans": "Оформить контракт"
+			},
+			"amountModalTitle": {
+				"eng": "Contract value",
+				"trans": "Стоимость контракта"
+			},
+			"availableFunds": {
+				"eng": "Available funds",
+				"trans": "Доступные средства"
+			},
+			"changeTarget": {
+				"eng": "Change",
+				"trans": "Изменить"
+			},
+			"changeValue": {
+				"eng": "Change",
+				"trans": "Изменить"
+			},
+			"formCode": {
+				"eng": "Form CB-17",
+				"trans": "Форма CB-17"
+			},
+			"fundsStatus": {
+				"eng": "Available funds no longer cover this contract.",
+				"trans": "Доступных средств теперь недостаточно для данного контракта."
+			},
+			"insufficientFundsStatus": {
+				"eng": "Available funds are below the ${amount} ${currency} contract minimum.",
+				"trans": "Доступные средства не достигают минимальной суммы контракта в ${amount} ${currency}."
+			},
+			"levelRequirement": {
+				"eng": "Level ${level} is required to authorize a contract.",
+				"trans": "Требуется уровень ${level} для авторизации контракта."
+			},
+			"levelStatus": {
+				"eng": "Client authorization requires player level ${level}.",
+				"trans": "Для авторизации клиента требуется уровень игрока ${level}."
+			},
+			"minimumStatus": {
+				"eng": "Set a contract value of at least ${amount} ${currency}.",
+				"trans": "Установите стоимость контракта не менее ${amount} ${currency}."
+			},
+			"minimumValue": {
+				"eng": "Minimum ${amount}",
+				"trans": "Минимум ${amount}"
+			},
+			"networkLabel": {
+				"eng": "Private Client Network",
+				"trans": "Закрытая клиентская сеть"
+			},
+			"readyStatus": {
+				"eng": "Contract is ready to review.",
+				"trans": "Контракт готов к просмотру."
+			},
+			"required": {
+				"eng": "Required",
+				"trans": "Требуется"
+			},
+			"restrictedStatus": {
+				"eng": "System restrictions prevent contract authorization.",
+				"trans": "Системные ограничения не позволяют подтвердить контракт."
+			},
+			"reviewAction": {
+				"eng": "Review contract",
+				"trans": "Изучить контракт"
+			},
+			"selectTargetAction": {
+				"eng": "Select",
+				"trans": "Выбрать"
+			},
+			"selectTargetStatus": {
+				"eng": "Select a target to continue.",
+				"trans": "Выберите цель, чтобы продолжить."
+			},
+			"setValue": {
+				"eng": "Set value",
+				"trans": "Установить значение"
+			},
+			"simpleTargetTitle": {
+				"eng": "1. Choose target",
+				"trans": "1. Выберите цель"
+			},
+			"simpleValueTitle": {
+				"eng": "2. Set contract value",
+				"trans": "2. Установить стоимость контракта"
+			},
+			"targetEmpty": {
+				"eng": "Search verified player records",
+				"trans": "Поиск проверенных записей игроков"
+			},
+			"targetLevelStatus": {
+				"eng": "Targets below level ${level} cannot be listed.",
+				"trans": "Цели ниже уровня ${level} не отображаются в списке."
+			},
+			"targetSelected": {
+				"eng": "Verified identity selected",
+				"trans": "Подтверждённая личность выбрана"
+			}
+		},
+		"reviewHit": {
+			"authorizeAction": {
+				"eng": "Authorize contract",
+				"trans": "Одобрить контракт"
+			},
+			"editAction": {
+				"eng": "Edit details",
+				"trans": "Изменить данные"
+			},
+			"formCode": {
+				"eng": "Form CB-17 / Review",
+				"trans": "Форма CB-17 / Обзор"
+			},
+			"fundsStatus": {
+				"eng": "Available funds no longer cover this contract.",
+				"trans": "Доступных средств теперь недостаточно для данного контракта."
+			},
+			"intro": {
+				"eng": "Confirm the target and financial commitment before authorization.",
+				"trans": "Подтвердите цель и финансовые обязательства перед авторизацией."
+			},
+			"invalidError": {
+				"eng": "Contract details changed. Return to the previous page and review them again.",
+				"trans": "Условия контракта изменены. Вернитесь на предыдущую страницу и проверьте их заново."
+			},
+			"invalidStatus": {
+				"eng": "Contract details are incomplete or no longer valid.",
+				"trans": "Данные контракта указаны не полностью или больше недействительны."
+			},
+			"levelStatus": {
+				"eng": "Client authorization requires player level ${level}.",
+				"trans": "Для авторизации клиента требуется уровень игрока ${level}."
+			},
+			"loadingStatus": {
+				"eng": "Verifying contract details...",
+				"trans": "Проверка деталей контракта..."
+			},
+			"minimumStatus": {
+				"eng": "Contract value must be at least ${amount} ${currency}.",
+				"trans": "Стоимость контракта должна быть не менее ${amount} ${currency}."
+			},
+			"networkLabel": {
+				"eng": "Private Client Network",
+				"trans": "Закрытая клиентская сеть"
+			},
+			"notice": {
+				"eng": "Authorization transfers the committed funds immediately and publishes the contract to the active Board. This action cannot be reversed.",
+				"trans": "Подтверждение мгновенно переведёт зарезервированные средства и опубликует контракт в активном реестре. Это действие необратимо."
+			},
+			"pendingTarget": {
+				"eng": "Unverified",
+				"trans": "Неподтверждённый"
+			},
+			"readyStatus": {
+				"eng": "Contract is ready for authorization.",
+				"trans": "Контракт готов к утверждению."
+			},
+			"restrictedStatus": {
+				"eng": "System restrictions prevent contract authorization.",
+				"trans": "Системные ограничения не позволяют подтвердить контракт."
+			},
+			"target": {
+				"eng": "Target",
+				"trans": "Цель"
+			},
+			"targetLevelStatus": {
+				"eng": "Targets below level ${level} cannot be listed.",
+				"trans": "Цели ниже уровня ${level} не отображаются в списке."
+			},
+			"title": {
+				"eng": "Review contract",
+				"trans": "Изучить контракт"
+			},
+			"value": {
+				"eng": "Contract value",
+				"trans": "Стоимость контракта"
+			}
+		},
+		"services": {
+			"armedResponse": {
+				"description": {
+					"eng": "Disciplined intervention teams contain active threats, secure critical sites, and restore client control.",
+					"trans": "Дисциплинированные отряды реагирования локализуют активные угрозы, защищают ключевые объекты и восстанавливают контроль клиента."
+				},
+				"title": {
+					"eng": "Armed response",
+					"trans": "Вооружённый ответ"
+				}
+			},
+			"assetRecovery": {
+				"description": {
+					"eng": "Specialist recovery teams locate and return sensitive property while limiting exposure, delay, and attribution.",
+					"trans": "Специализированные отряды изъятия находят и возвращают конфиденциальное имущество, минимизируя риск обнаружения, задержек и прослеживаемости."
+				},
+				"title": {
+					"eng": "Asset recovery",
+					"trans": "Возврат активов"
+				}
+			},
+			"authorizationNotice": {
+				"eng": "All engagements require an authorized client mandate.",
+				"trans": "Любые операции требуют официального поручения заказчика."
+			},
+			"executiveProtection": {
+				"description": {
+					"eng": "Low-profile close protection, route control, and secure movement for executives operating under elevated threat.",
+					"trans": "Скрытая личная охрана, контроль маршрутов и безопасное перемещение для руководителей в условиях повышенной угрозы."
+				},
+				"title": {
+					"eng": "Executive protection",
+					"trans": "Охрана руководителей"
+				}
+			},
+			"eyebrow": {
+				"eng": "Services",
+				"trans": "Услуги"
+			},
+			"imageAlt": {
+				"eng": "CircuitBreak close-protection team moving a client through a secure arrival",
+				"trans": "Группа сопровождения CircuitBreak проводит клиента через защищённый пункт прибытия"
+			},
+			"intro": {
+				"eng": "CircuitBreak protects people, property, and continuity where ordinary security reaches its limit.",
+				"trans": "CircuitBreak защищает людей, имущество и непрерывность работы там, где обычная безопасность исчерпывает себя."
+			},
+			"privateMandates": {
+				"action": {
+					"eng": "Open a private mandate",
+					"trans": "Открыть приватное задание"
+				}
+			},
+			"threatIntelligence": {
+				"description": {
+					"eng": "Targeted surveillance and intelligence collection identify hostile intent before it becomes a public incident.",
+					"trans": "Прицельный мониторинг и сбор разведданных выявляют враждебные намерения до того, как они станут публичным инцидентом."
+				},
+				"title": {
+					"eng": "Threat intelligence",
+					"trans": "Разведка угроз"
+				}
+			},
+			"title": {
+				"eng": "Protective services",
+				"trans": "Охранные услуги"
+			}
+		},
+		"shell": {
+			"footer": {
+				"careers": {
+					"eng": "Careers",
+					"trans": "Профессии"
+				},
+				"company": {
+					"eng": "CircuitBreak Security Solutions",
+					"trans": "РазрывЦепи Системы Безопасности"
+				},
+				"companyProfile": {
+					"eng": "Company profile",
+					"trans": "Профиль компании"
+				},
+				"contact": {
+					"eng": "Contact CircuitBreak",
+					"trans": "Связь с РазрывЦепи"
+				},
+				"notice": {
+					"eng": "Client information is handled under strict confidentiality.",
+					"trans": "Данные клиента защищены строжайшей конфиденциальностью."
+				}
+			},
+			"logoAlt": {
+				"eng": "CircuitBreak Security Solutions",
+				"trans": "РазрывЦепи Системы Безопасности"
+			},
+			"nav": {
+				"board": {
+					"eng": "Board",
+					"trans": "Доска"
+				},
+				"careers": {
+					"eng": "Careers",
+					"trans": "Профессии"
+				},
+				"company": {
+					"eng": "Company",
+					"trans": "Компания"
+				},
+				"contact": {
+					"eng": "Contact",
+					"trans": "Связь"
+				},
+				"home": {
+					"eng": "Home",
+					"trans": "Главная"
+				},
+				"services": {
+					"eng": "Services",
+					"trans": "Услуги"
+				}
+			},
+			"placeHit": {
+				"eng": "Place Hit",
+				"trans": "Назначить цель"
+			}
 		}
 	},
 	"clan": {
@@ -2907,6 +3663,10 @@
 		"clanResource": {
 			"eng": "+ ${amount} Gang resource",
 			"trans": "+ ${amount} Ресурсов банды"
+		},
+		"oneOf": {
+			"eng": "One of following:",
+			"trans": "Выберите один из следующих вариантов:"
 		}
 	},
 	"confirmModal": {
@@ -4917,28 +5677,24 @@
 	},
 	"hitListPage": {
 		"bountyCount": {
-			"eng": "${count} bounties",
-			"trans": "${count} контрактов"
+			"eng": "${count} active",
+			"trans": "${count} активных"
 		},
 		"sort": {
 			"level": {
-				"eng": "Level",
-				"trans": "Уровень"
+				"eng": "Target level",
+				"trans": "Целевой уровень"
 			},
 			"price": {
-				"eng": "Price",
-				"trans": "Цена"
+				"eng": "Contract value",
+				"trans": "Стоимость контракта"
 			}
 		}
 	},
 	"hitlist": {
-		"loading": {
-			"eng": "Loading bounties...",
-			"trans": "Загрузка наград..."
-		},
 		"noBounties": {
-			"eng": "No bounties available",
-			"trans": "Нет доступных наград"
+			"eng": "No active contracts",
+			"trans": "Нет активных контрактов"
 		},
 		"optionsPopup": {
 			"attack": {
@@ -4949,23 +5705,13 @@
 				"eng": "View Profile",
 				"trans": "Просмотреть профиль"
 			}
-		},
-		"placeHitButton": {
-			"title": {
-				"eng": "Place Hit",
-				"trans": "Ударить"
-			}
-		},
-		"title": {
-			"eng": "Hit List",
-			"trans": "Список целей"
 		}
 	},
 	"hitman": {
 		"error": {
 			"cannotPlaceBountyOnAdmin": {
-				"eng": "You cannot place bounty on this player",
-				"trans": "Вы не можете назначить награду на этого игрока"
+				"eng": "You cannot place or control this player.",
+				"trans": "Вы не можете разместить или управлять этим игроком."
 			},
 			"cannotPlaceBountyOnLowLevel": {
 				"eng": "You cannot place bounty on players lower than level ${level}",
@@ -5345,10 +6091,6 @@
 		"evidenceNumber": {
 			"eng": "Evidence #${number}",
 			"trans": "Улика #${number}"
-		},
-		"goToVerdict": {
-			"eng": "Go to verdict ${num}",
-			"trans": "Перейти к вердикту ${num}"
 		},
 		"imageUnavailable": {
 			"eng": "Image Unavailable",
@@ -7977,10 +8719,6 @@
 				"eng": "News",
 				"trans": "Новости"
 			},
-			"goToNews": {
-				"eng": "Go to news ${index}",
-				"trans": "Перейти к новостям ${index}"
-			},
 			"heading": {
 				"eng": "YOUR ACTIONS MAKE THE HEADLINES",
 				"trans": "Твои действия становятся новостными заголовками"
@@ -7993,10 +8731,6 @@
 				"eng": "Arclight Times",
 				"trans": "Арклайт Таймс"
 			},
-			"next": {
-				"eng": "Next news",
-				"trans": "Следующая новость"
-			},
 			"noNews": {
 				"eng": "No news available at the moment",
 				"trans": "Нет новостей на данный момент"
@@ -8004,10 +8738,6 @@
 			"overline": {
 				"eng": "LIVE WORLD EVENTS // PLAYER-DRIVEN NARRATIVE",
 				"trans": "Живые события мира // Сюжет, управляемый игроком"
-			},
-			"previous": {
-				"eng": "Previous news",
-				"trans": "Предыдущие новости"
 			},
 			"reportBy": {
 				"eng": "REPORT BY",
@@ -9507,6 +10237,712 @@
 			"trans": "Фильтры"
 		}
 	},
+	"megaEstateWebsite": {
+		"careers": {
+			"description": {
+				"eng": "MegaEstate evaluates verified resident profiles continuously. If your payment, access and conduct history meets a role requirement, we will contact you. No submission is necessary.",
+				"trans": "МегаНедвижимость непрерывно оценивает профили верифицированных резидентов. Если ваша история платежей, доступов и поведения соответствует требованиям роли, мы свяжемся с вами самостоятельно. Отдельная подача заявки не требуется."
+			},
+			"eyebrow": {
+				"eng": "Careers at MegaEstate",
+				"trans": "Карьера в МегаНедвижимости"
+			},
+			"hero": {
+				"imageAlt": {
+					"eng": "MegaEstate property operations team reviewing a residential building",
+					"trans": "Операционная команда МегаНедвижимость инспектирует жилой комплекс"
+				}
+			},
+			"title": {
+				"eng": "Your record is your application.",
+				"trans": "Ваша репутация — ваше резюме."
+			},
+			"vacancies": {
+				"biometricAccess": {
+					"department": {
+						"eng": "Access infrastructure · Technical",
+						"trans": "Доступ к инфраструктуре · Технические данные"
+					},
+					"description": {
+						"eng": "Maintain identity-linked entry systems, investigate access anomalies and revoke resident credentials across MegaEstate properties.",
+						"trans": "Поддерживайте системы контроля доступа по личному идентификатору, расследуйте аномалии доступа и отзывайте пропуски жильцов на всех объектах МегаНедвижимость."
+					},
+					"title": {
+						"eng": "Biometric Access Technician",
+						"trans": "Специалист по биометрическому доступу"
+					}
+				},
+				"count": {
+					"eng": "${count} active",
+					"trans": "${count} активных"
+				},
+				"eyebrow": {
+					"eng": "Open positions",
+					"trans": "Свободные позиции"
+				},
+				"occupancyCompliance": {
+					"department": {
+						"eng": "Portfolio compliance · Field",
+						"trans": "Соответствие портфолио · Поле"
+					},
+					"description": {
+						"eng": "Conduct unannounced home inspections, document unregistered occupants and authorize access suspension when contract terms are breached.",
+						"trans": "Проводить внезапные проверки жилых помещений, фиксировать незарегистрированных жильцов и санкционировать приостановку доступа при нарушении условий контракта."
+					},
+					"title": {
+						"eng": "Occupancy Compliance Officer",
+						"trans": "Офицер контроля заселения"
+					}
+				},
+				"riskAnalyst": {
+					"department": {
+						"eng": "Resident intelligence · Analysis",
+						"trans": "Интеллект резидентов · Анализ"
+					},
+					"description": {
+						"eng": "Combine payment history, property access and contract activity to predict renewal risk and recommend intervention.",
+						"trans": "Объедините историю платежей, доступ к объектам и активность по контрактам для прогнозирования риска непродления и рекомендаций по вмешательству."
+					},
+					"title": {
+						"eng": "Resident Risk Analyst",
+						"trans": "Штатный аналитик рисков"
+					}
+				},
+				"unitRecovery": {
+					"department": {
+						"eng": "Property recovery · Field",
+						"trans": "Возврат имущества · Открытая местность"
+					},
+					"description": {
+						"eng": "Secure homes after lease termination, catalogue remaining property and return reclaimed units to inventory before the next billing cycle.",
+						"trans": "Обезопасьте жилье после расторжения договора аренды, составьте опись оставшегося имущества и верните изъятые ячейки в инвентарь до начала следующего расчетного периода."
+					},
+					"title": {
+						"eng": "Unit Recovery Coordinator",
+						"trans": "Координатор восстановления отрядов"
+					}
+				}
+			}
+		},
+		"company": {
+			"building": {
+				"caption": {
+					"eng": "Arclight lives here",
+					"trans": "Арклайт живёт здесь"
+				},
+				"imageAlt": {
+					"eng": "Residents arriving at a MegaEstate property in Arclight",
+					"trans": "Жители прибывают в объекты недвижимости MegaEstate в Арклайте"
+				}
+			},
+			"eyebrow": {
+				"eng": "About MegaEstate",
+				"trans": "О компании МегаНедвижимость"
+			},
+			"introduction": {
+				"eng": "At MegaEstate, we bring rental homes across Arclight into one clear network. You can compare housing standards, see current availability and choose the address that works for you.",
+				"trans": "В МегаНедвижимости мы объединили все арендное жилье Арклайта в единую сеть. Сравнивайте параметры жилья, отслеживайте текущую доступность и выбирайте адрес под свои нужды."
+			},
+			"leadership": {
+				"description": {
+					"eng": "Robert Smith sets our long-term direction as Chief Executive Officer. His approach is simple: manage housing at city scale, keep occupancy responsible and make every part of renting answer to one accountable company. From listing to renewal, that company is MegaEstate.",
+					"trans": "На посту генерального директора Роберт Смит определяет долгосрочный курс развития компании. Его подход прост: управлять жилым фондом в городском масштабе, строго контролировать загрузку объектов и централизовать все арендные процессы под одной ответственной компанией. Весь цикл от первого объявления до продления договора сосредоточен в MegaEstate."
+				},
+				"eyebrow": {
+					"eng": "Leadership",
+					"trans": "Лидерство"
+				},
+				"imageAlt": {
+					"eng": "Robert Smith, Chief Executive Officer of MegaEstate",
+					"trans": "Роберт Смит, генеральный директор компании MegaEstate"
+				},
+				"name": {
+					"eng": "Robert Smith",
+					"trans": "Роберт Смит"
+				},
+				"role": {
+					"eng": "Chief Executive Officer",
+					"trans": "Генеральный директор"
+				}
+			},
+			"model": {
+				"description": {
+					"eng": "Our four housing standards give you room to choose without starting over. Essential Housing, City Housing, Urban Studio and Central Residence all follow the same straightforward seven-day rental cycle.",
+					"trans": "Четыре класса жилья позволяют выбрать подходящий вариант без необходимости начинать с нуля. Базовое жильё, Городское жильё, Городская студия и Центральная резиденция работают по единому семидневному графику аренды."
+				},
+				"eyebrow": {
+					"eng": "Made for life in Arclight",
+					"trans": "Создан для жизни в Арклайте"
+				},
+				"title": {
+					"eng": "A home for what comes next.",
+					"trans": "Пристанище на будущее"
+				}
+			},
+			"portfolio": {
+				"eng": "From a first address to a Central Residence, we make every move familiar: one place to browse, one rental process and one company behind every home we manage.",
+				"trans": "От первого адреса до Центральной резиденции мы упрощаем любой переезд: единая площадка для поиска, отлаженный процесс аренды и одна управляющая компания за каждым объектом."
+			},
+			"title": {
+				"eng": "The city moves fast. Home should feel certain.",
+				"trans": "В городе всё идёт стремительно. Дом должен быть местом стабильности."
+			}
+		},
+		"home": {
+			"city": {
+				"arclight": {
+					"eng": "Arclight City",
+					"trans": "Арклайт"
+				},
+				"international": {
+					"eng": "International cities — Unavailable",
+					"trans": "Международные города — Недоступно"
+				},
+				"label": {
+					"eng": "City",
+					"trans": "Город"
+				},
+				"otherNrc": {
+					"eng": "Other NRC cities — Unavailable",
+					"trans": "Другие города NRC недоступно"
+				}
+			},
+			"hero": {
+				"description": {
+					"eng": "Explore homes available now across our four housing standards.",
+					"trans": "Ознакомьтесь с доступными квартирами по четырём стандартам жилья"
+				},
+				"eyebrow": {
+					"eng": "Rental homes in Arclight City",
+					"trans": "Жильё в аренду в Арклайте"
+				},
+				"imageAlt": {
+					"eng": "Central Residence overlooking Arclight City",
+					"trans": "Центральная резиденция с видом на Арклайт"
+				},
+				"title": {
+					"eng": "Find your place in Arclight.",
+					"trans": "Найди своё место в Арклайте."
+				},
+				"viewListings": {
+					"eng": "Browse current listings",
+					"trans": "Посмотреть текущие предложения"
+				}
+			},
+			"introduction": {
+				"availability": {
+					"description": {
+						"eng": "We only show homes currently available to rent in Arclight.",
+						"trans": "Отображаются только квартиры, доступные для аренды в Арклайте."
+					},
+					"title": {
+						"eng": "Current availability",
+						"trans": "Текущая доступность"
+					}
+				},
+				"description": {
+					"eng": "From essential housing to central residences, we bring Arclight's available rentals together in one place. Browse real homes, compare actual weekly rent and choose the standard that fits your life.",
+					"trans": "От базового жилья до центральных резиденций мы собрали все доступные варианты аренды Арклайта в одном месте. Просматривайте реальные предложения, сравнивайте актуальную стоимость аренды за неделю и выбирайте уровень комфорта под ваш образ жизни."
+				},
+				"eyebrow": {
+					"eng": "Arclight residential rentals",
+					"trans": "Жилье в аренду Арклайт"
+				},
+				"pricing": {
+					"description": {
+						"eng": "See the actual weekly rent for every available home.",
+						"trans": "Узнайте актуальную стоимость еженедельной аренды за каждое доступное жильё."
+					},
+					"title": {
+						"eng": "Clear weekly pricing",
+						"trans": "Прозрачные еженедельные цены"
+					}
+				},
+				"standards": {
+					"benefitsDescription": {
+						"eng": "Compare added inventory space, vault capacity and mercenary contact slots before choosing.",
+						"trans": "Сравните дополнительное место в инвентаре, вместимость хранилища и слоты контактов наемников перед выбором."
+					},
+					"title": {
+						"eng": "Four housing standards",
+						"trans": "Четыре стандарта жилья"
+					}
+				},
+				"title": {
+					"eng": "A better way to find a home in Arclight.",
+					"trans": "Лучший способ найти жилье в Арклайте."
+				},
+				"viewListings": {
+					"eng": "Explore current listings",
+					"trans": "Исследуйте текущие предложения"
+				}
+			},
+			"renting": {
+				"description": {
+					"eng": "We charge your first seven-day period when the rental starts. After each period, we process renewal during the next scheduled billing check.",
+					"trans": "Оплата за первые семь дней списывается в момент начала аренды. После каждого периода продление обрабатывается при следующем плановом расчёте."
+				},
+				"eyebrow": {
+					"eng": "Renting with MegaEstate",
+					"trans": "Аренда через МегаНедвижимость"
+				},
+				"guide": {
+					"eng": "See how renting works",
+					"trans": "Как работает аренда"
+				},
+				"title": {
+					"eng": "Choose today. Renew week by week.",
+					"trans": "Выбирай сегодня. Обновление каждую неделю."
+				}
+			},
+			"standards": {
+				"compare": {
+					"eng": "Compare housing standards",
+					"trans": "Сравнить стандарты жилья"
+				},
+				"description": {
+					"eng": "Each of our housing standards offers a different balance of space, storage and capacity. Compare them here, then see real homes and weekly rent in Listings.",
+					"trans": "Каждый тип жилья предлагает своё сочетание площади, места для хранения и вместимости. Сравните варианты здесь, а затем просмотрите доступные квартиры и еженедельную арендную плату в каталоге."
+				},
+				"eyebrow": {
+					"eng": "Housing standards",
+					"trans": "Стандарты жилья"
+				},
+				"mercenarySlots": {
+					"eng": "Merc slots",
+					"trans": "Слоты наёмников"
+				},
+				"storage": {
+					"eng": "Storage",
+					"trans": "Хранилище"
+				},
+				"title": {
+					"eng": "Four ways to live in Arclight.",
+					"trans": "Четыре стиля жизни в Арклайте."
+				},
+				"vault": {
+					"eng": "Vault",
+					"trans": "Хранилище"
+				}
+			}
+		},
+		"homeDetails": {
+			"confirm": {
+				"action": {
+					"eng": "Rent this home",
+					"trans": "Снять этот дом"
+				},
+				"description": {
+					"eng": "Rent ${address} for ${price} ${currency} per week. We charge the first seven-day period when the rental starts.",
+					"trans": "Аренда ${address} за ${price} ${currency} в неделю. Оплата за первые семь дней взимается при начале аренды."
+				},
+				"perWeek": {
+					"eng": "per week",
+					"trans": "в неделю"
+				},
+				"replacementDescription": {
+					"eng": "Rent ${address} for ${price} ${currency} per week. We charge the first seven-day period when the rental starts, and this immediately replaces your current home.",
+					"trans": "Арендовать ${address} за ${price} ${currency} в неделю. Оплата за первые семь дней списывается сразу при старте аренды, а выбранное жилье мгновенно заменит ваше текущее."
+				},
+				"title": {
+					"eng": "Rent this home?",
+					"trans": "Снять это жильё?"
+				},
+				"weeklyRent": {
+					"eng": "Weekly rent",
+					"trans": "Еженедельная аренда"
+				}
+			},
+			"currentHome": {
+				"eng": "Current home",
+				"trans": "Текущий дом"
+			},
+			"error": {
+				"description": {
+					"eng": "Return to Listings and try this home again when availability can be loaded.",
+					"trans": "Вернитесь в список и повторите попытку после обновления статуса доступности."
+				},
+				"title": {
+					"eng": "We couldn't check this home's availability",
+					"trans": "Не удалось проверить доступность этого жилья"
+				}
+			},
+			"imageAlt": {
+				"eng": "Rental home at ${address}",
+				"trans": "Жильё в аренду по адресу ${address}"
+			},
+			"invalid": {
+				"description": {
+					"eng": "Return to Listings to choose from homes currently available.",
+					"trans": "Вернитесь в список, чтобы выбрать доступное жильё."
+				},
+				"title": {
+					"eng": "We can't open this home",
+					"trans": "Невозможно открыть этот дом"
+				}
+			},
+			"mercenarySlots": {
+				"eng": "Merc slots",
+				"trans": "Слоты наёмников"
+			},
+			"metrics": {
+				"mercenarySlots": {
+					"description": {
+						"eng": "Adds ${count} mercenary contact slots to your recruitment limit.",
+						"trans": "Добавляет ${count} контактных слотов с наёмниками к лимиту вербовки."
+					}
+				},
+				"storage": {
+					"description": {
+						"eng": "Adds ${count} slots to your inventory.",
+						"trans": "Добавляет ${count} слотов в ваш инвентарь."
+					}
+				},
+				"vault": {
+					"description": {
+						"eng": "Holds up to ${count} item stacks in your apartment vault.",
+						"trans": "Вмещает до ${count} стопок предметов в вашем квартирном хранилище."
+					}
+				}
+			},
+			"perWeek": {
+				"eng": "per week",
+				"trans": "в неделю"
+			},
+			"renewal": {
+				"description": {
+					"eng": "We charge the first seven-day period when your rental starts. After each period, we process renewal during the next scheduled billing check; insufficient funds end the lease.",
+					"trans": "Оплата первого семидневного периода списывается с момента начала аренды. Продление каждого периода обрабатывается при следующем плановом списании; нехватка средств приводит к расторжению договора аренды."
+				},
+				"eyebrow": {
+					"eng": "Seven-day rental cycle",
+					"trans": "Цикл аренды на 7 дней"
+				}
+			},
+			"rent": {
+				"eng": "Rent this home",
+				"trans": "Снять этот дом"
+			},
+			"replacement": {
+				"description": {
+					"eng": "Starting this rental ends your existing lease immediately.",
+					"trans": "Начало аренды немедленно прекращает действие вашего текущего договора."
+				},
+				"title": {
+					"eng": "This replaces your current home",
+					"trans": "Это заменит ваш текущий дом"
+				}
+			},
+			"storage": {
+				"eng": "Storage",
+				"trans": "Хранилище"
+			},
+			"unavailable": {
+				"description": {
+					"eng": "This listing is no longer available. Return to Listings to view current homes.",
+					"trans": "Это объявление больше не доступно. Вернитесь в список для просмотра актуальных домов."
+				},
+				"title": {
+					"eng": "This home is no longer available",
+					"trans": "Этот дом недоступен"
+				}
+			},
+			"vault": {
+				"eng": "Vault",
+				"trans": "Хранилище"
+			},
+			"weeklyRent": {
+				"eng": "Weekly rent",
+				"trans": "Еженедельная аренда"
+			}
+		},
+		"housingStandards": {
+			"a0": {
+				"description": {
+					"eng": "A practical first address with the essentials for independent city living.",
+					"trans": "Практичное стартовое жильё со всем необходимым для самостоятельной жизни в городе."
+				}
+			},
+			"a1": {
+				"description": {
+					"eng": "A versatile city home with additional storage and vault space for an established routine.",
+					"trans": "Многофункциональная городская квартира с дополнительным местом для хранения и сейфом для налаженного быта."
+				}
+			},
+			"a2": {
+				"description": {
+					"eng": "A focused urban home with generous storage for residents who need more from a compact address.",
+					"trans": "Продуманная городская квартира с вместительными системами хранения для жильцов, которым нужно больше из компактного пространства."
+				}
+			},
+			"a3": {
+				"description": {
+					"eng": "Our premier residence offers the most room for residents, belongings and protected storage.",
+					"trans": "Наша премиальная резиденция обеспечивает максимум пространства для жильцов, личных вещей и защищённого хранения."
+				}
+			},
+			"benefitsDescription": {
+				"eng": "Compare added inventory space, vault capacity and mercenary contact slots across every standard.",
+				"trans": "Сравните дополнительное место в инвентаре, вместимость хранилища и слоты контактов наёмников для каждого стандарта."
+			},
+			"browseListings": {
+				"eng": "Browse current listings",
+				"trans": "Посмотреть текущие предложения"
+			},
+			"eyebrow": {
+				"eng": "The MegaEstate range",
+				"trans": "Линейка МегаНедвижимости"
+			},
+			"imageAlt": {
+				"eng": "${standard} rental home",
+				"trans": "${standard} арендуемое жилье"
+			},
+			"imageCaption": {
+				"eng": "Standard ${code}",
+				"trans": "Стандартный ${code}"
+			},
+			"mercenarySlots": {
+				"eng": "Merc slots",
+				"trans": "Слоты наёмников"
+			},
+			"storage": {
+				"eng": "Storage",
+				"trans": "Хранилище"
+			},
+			"title": {
+				"eng": "A clear standard for every stage of city life.",
+				"trans": "Четкий стандарт для каждого этапа городской жизни."
+			},
+			"vault": {
+				"eng": "Vault",
+				"trans": "Хранилище"
+			}
+		},
+		"listings": {
+			"availableCount": {
+				"eng": "Available listings: ${count}",
+				"trans": "Доступные лоты: ${count}"
+			},
+			"empty": {
+				"description": {
+					"eng": "Choose another housing standard to view its current availability.",
+					"trans": "Выберите другой тип жилья, чтобы просмотреть его текущую доступность."
+				},
+				"title": {
+					"eng": "No listings available in this standard",
+					"trans": "Предложений по этому стандарту нет."
+				}
+			},
+			"error": {
+				"description": {
+					"eng": "Choose another housing standard or return later to check availability.",
+					"trans": "Выберите иной класс жилья или вернитесь позже для проверки доступности."
+				},
+				"title": {
+					"eng": "We couldn't load current availability",
+					"trans": "Не удалось загрузить текущую доступность"
+				}
+			},
+			"eyebrow": {
+				"eng": "MegaEstate listings",
+				"trans": "Объявления МегаНедвижимости"
+			},
+			"listing": {
+				"currentHome": {
+					"eng": "Current home",
+					"trans": "Текущий дом"
+				},
+				"imageAlt": {
+					"eng": "${standard} rental home",
+					"trans": "${standard} арендуемое жилье"
+				},
+				"perWeek": {
+					"eng": "per week",
+					"trans": "в неделю"
+				},
+				"weeklyRent": {
+					"eng": "Weekly rent",
+					"trans": "Еженедельная аренда"
+				}
+			},
+			"loadingCount": {
+				"eng": "Checking current availability…",
+				"trans": "Проверка текущей доступности…"
+			},
+			"standardLabel": {
+				"eng": "Housing standard",
+				"trans": "Стандарт жилья"
+			},
+			"title": {
+				"eng": "Find your next home in Arclight.",
+				"trans": "Найди свой новый дом в Арклайте."
+			}
+		},
+		"rentalGuide": {
+			"browseListings": {
+				"eng": "Browse current listings",
+				"trans": "Посмотреть текущие предложения"
+			},
+			"compareStandards": {
+				"eng": "Compare housing standards",
+				"trans": "Сравнить стандарты жилья"
+			},
+			"description": {
+				"eng": "One clear process for your first payment, every renewal and any move that follows.",
+				"trans": "Единая понятная процедура для первого платежа, каждого продления и любого последующего переноса."
+			},
+			"eyebrow": {
+				"eng": "Rental guide",
+				"trans": "Руководство по аренде"
+			},
+			"guide": {
+				"change": {
+					"description": {
+						"eng": "When you rent a new home, we end your current lease immediately. Review your choice before starting the new rental.",
+						"trans": "При аренде нового жилья ваш текущий договор будет немедленно расторгнут. Проверьте выбор перед началом новой аренды."
+					},
+					"title": {
+						"eng": "Changing your home",
+						"trans": "Смена дома"
+					}
+				},
+				"description": {
+					"eng": "Review these four details before you start a rental.",
+					"trans": "Проверьте эти четыре пункта перед началом аренды."
+				},
+				"eyebrow": {
+					"eng": "Before you rent",
+					"trans": "Перед арендой"
+				},
+				"funds": {
+					"description": {
+						"eng": "Keep enough funds available before renewal is due. If funds are insufficient, renewal fails and your lease ends immediately.",
+						"trans": "Обеспечьте наличие достаточных средств до даты продления. В случае нехватки средств продление не состоится, а договор аренды немедленно расторгнут."
+					},
+					"title": {
+						"eng": "If renewal funds are unavailable",
+						"trans": "Если средств на продление недостаточно"
+					}
+				},
+				"renewal": {
+					"description": {
+						"eng": "Each payment covers seven days. We process renewal during the next scheduled billing check and notify you when it succeeds or fails.",
+						"trans": "Оплата действует в течение семи дней. Продление обрабатывается при следующем плановом расчете, после чего вы получите оповещение об успехе или сбое."
+					},
+					"title": {
+						"eng": "Automatic weekly renewal",
+						"trans": "Еженедельное автопродление"
+					}
+				},
+				"start": {
+					"description": {
+						"eng": "We charge the first seven-day period when your rental starts.",
+						"trans": "Оплата за первые семь суток начинает списываться с момента активации вашей аренды."
+					},
+					"title": {
+						"eng": "When your rental starts",
+						"trans": "Когда начинается ваша аренда"
+					}
+				}
+			},
+			"nextStep": {
+				"description": {
+					"eng": "Compare housing standards or go directly to current availability.",
+					"trans": "Сравните уровни жилья или сразу перейдите к доступным вариантам."
+				},
+				"eyebrow": {
+					"eng": "Next step",
+					"trans": "Следующий шаг"
+				},
+				"title": {
+					"eng": "Choose a home when you are ready.",
+					"trans": "Выберите жилье, когда будете готовы."
+				}
+			},
+			"title": {
+				"eng": "Renting with MegaEstate.",
+				"trans": "Аренда через МегаНедвижимость."
+			}
+		},
+		"shell": {
+			"closeMenu": {
+				"eng": "Close",
+				"trans": "Закрыть"
+			},
+			"directory": {
+				"eng": "Explore MegaEstate",
+				"trans": "Исследовать МегаНедвижимость"
+			},
+			"footer": {
+				"about": {
+					"eng": "About MegaEstate",
+					"trans": "О компании МегаНедвижимость"
+				},
+				"careers": {
+					"eng": "Careers",
+					"trans": "Профессии"
+				},
+				"company": {
+					"eng": "MegaEstate",
+					"trans": "МегаНедвижимость"
+				},
+				"description": {
+					"eng": "Find your place in Arclight City.",
+					"trans": "Найди своё место в Арклайте."
+				},
+				"housingStandards": {
+					"eng": "Housing standards",
+					"trans": "Стандарты жилья"
+				},
+				"listings": {
+					"eng": "Listings",
+					"trans": "Объявления"
+				},
+				"overview": {
+					"eng": "Overview",
+					"trans": "Обзор"
+				},
+				"renting": {
+					"eng": "How renting works",
+					"trans": "Как работает аренда"
+				}
+			},
+			"location": {
+				"eng": "Find your place in Arclight City.",
+				"trans": "Найди своё место в Арклайте."
+			},
+			"logoAlt": {
+				"eng": "MegaEstate",
+				"trans": "МегаНедвижимость"
+			},
+			"nav": {
+				"about": {
+					"eng": "About MegaEstate",
+					"trans": "О компании МегаНедвижимость"
+				},
+				"careers": {
+					"eng": "Careers",
+					"trans": "Профессии"
+				},
+				"housingStandards": {
+					"eng": "Housing standards",
+					"trans": "Стандарты жилья"
+				},
+				"listings": {
+					"eng": "Listings",
+					"trans": "Объявления"
+				},
+				"renting": {
+					"eng": "How renting works",
+					"trans": "Как работает аренда"
+				}
+			},
+			"openMenu": {
+				"eng": "Menu",
+				"trans": "Меню"
+			}
+		}
+	},
 	"mercenary": {
 		"error": {
 			"firstDraw": {
@@ -10305,10 +11741,6 @@
 				"eng": "System Overload",
 				"trans": "Перегрузка системы"
 			},
-			"gaugeLabel": {
-				"eng": "Pressure gauge - hold to regulate",
-				"trans": "Манометр — держите для регулировки"
-			},
 			"holdingHint": {
 				"eng": "Hold Active",
 				"trans": "Удержание активно"
@@ -10328,10 +11760,6 @@
 			"retry": {
 				"eng": "Reset System",
 				"trans": "Сбросить систему"
-			},
-			"retryLabel": {
-				"eng": "Reset system and try again",
-				"trans": "Перезагрузить систему и попробовать снова"
 			},
 			"safeZone": {
 				"eng": "Target Zone",
@@ -10496,6 +11924,98 @@
 			"tip": {
 				"eng": "Activate all dots to unlock by clicking. The dots will rotate faster and faster.",
 				"trans": "Активируйте все точки, чтобы разблокировать их, нажимая на них. Точки будут вращаться все быстрее и быстрее."
+			}
+		},
+		"vectorPress": {
+			"cassette": {
+				"verified": {
+					"eng": "Access Key Verified",
+					"trans": "Ключ доступа подтвержден"
+				}
+			},
+			"controls": {
+				"armed": {
+					"eng": "Input Armed",
+					"trans": "Ввод активирован"
+				},
+				"locked": {
+					"eng": "Input Locked",
+					"trans": "Управление заблокировано"
+				},
+				"title": {
+					"eng": "Manual Vector Input",
+					"trans": "Ручной ввод вектора"
+				}
+			},
+			"direction": {
+				"down": {
+					"eng": "Down",
+					"trans": "Вниз"
+				},
+				"left": {
+					"eng": "Left",
+					"trans": "Влево"
+				},
+				"right": {
+					"eng": "Right",
+					"trans": "Вправо"
+				},
+				"up": {
+					"eng": "Up",
+					"trans": "Вверх"
+				}
+			},
+			"header": {
+				"progress": {
+					"eng": "Key Progress",
+					"trans": "Ключевой прогресс"
+				},
+				"protocol": {
+					"eng": "Access Protocol VP-06",
+					"trans": "Протокол доступа VP-06"
+				},
+				"title": {
+					"eng": "Vector Press",
+					"trans": "Вектор Пресс"
+				}
+			},
+			"instruction": {
+				"eng": "Match each vector to punch the access key",
+				"trans": "Соотнесите каждый вектор, чтобы получить ключ доступа."
+			},
+			"status": {
+				"advancing": {
+					"eng": "Cassette advancing",
+					"trans": "Перемотка кассеты"
+				},
+				"currentDirection": {
+					"eng": "Current required vector: ${direction}",
+					"trans": "Текущий требуемый вектор: ${direction}"
+				},
+				"label": {
+					"eng": "SYS.VP//STATE",
+					"trans": "СИСТ.ВП//СОСТОЯНИЕ"
+				},
+				"punching": {
+					"eng": "Punch accepted",
+					"trans": "Удар принят"
+				},
+				"ready": {
+					"eng": "Awaiting vector input",
+					"trans": "Ожидание ввода вектора"
+				},
+				"rejected": {
+					"eng": "Vector mismatch — retry",
+					"trans": "Несоответствие вектора — повторите"
+				},
+				"verified": {
+					"eng": "Access key verified",
+					"trans": "Ключ доступа подтверждён"
+				},
+				"verifying": {
+					"eng": "Verifying access key",
+					"trans": "Проверка ключа доступа"
+				}
 			}
 		}
 	},
@@ -10940,9 +12460,17 @@
 		}
 	},
 	"newsCard": {
+		"decrypted": {
+			"eng": "DECRYPTED",
+			"trans": "РАСШИФРОВАНО"
+		},
 		"new": {
 			"eng": "NEW",
 			"trans": "НОВ."
+		},
+		"operative": {
+			"eng": "OPERATIVE",
+			"trans": "ОПЕРАТИВНИК"
 		}
 	},
 	"newsPage": {
@@ -12172,29 +13700,9 @@
 		}
 	},
 	"placeHitPage": {
-		"levelTooLow": {
-			"eng": "You need to be at least level ${level} to place a hit.",
-			"trans": "Для совершения удара необходимо иметь уровень не ниже ${level}."
-		},
-		"notEnoughUnitError1": {
-			"eng": "Minimum hit bounty is ${minNormal}",
-			"trans": "Минимальная награда за попадание составляет ${minNormal}"
-		},
-		"placeHit": {
-			"eng": "Place hit",
-			"trans": "Ударить"
-		},
-		"selectPlayer": {
-			"eng": "Select player",
-			"trans": "Выбрать игрока"
-		},
 		"selectPlayerClick": {
-			"eng": "Click to select a player",
-			"trans": "Нажмите, чтобы выбрать игрока"
-		},
-		"tip": {
-			"eng": "You can place a hit on a player by paying a certain amount of money and/or unit.",
-			"trans": "Вы можете нанести удар по игроку, заплатив определенную сумму денег и/или единиц."
+			"eng": "Select target",
+			"trans": "Выбрать цель"
 		}
 	},
 	"player": {
@@ -15020,10 +16528,6 @@
 			"eng": "${current} / ${total}",
 			"trans": "${current} из ${total}"
 		},
-		"pageInputAriaLabel": {
-			"eng": "Enter page number",
-			"trans": "Введите номер страницы"
-		},
 		"pageInputPlaceholder": {
 			"eng": "Page #",
 			"trans": "Страница #"
@@ -15206,6 +16710,26 @@
 			"notIdle": {
 				"eng": "You are not idle",
 				"trans": "Вы не бездействуете"
+			},
+			"priorityOperationAlreadyActive": {
+				"eng": "You already have a Priority Operation in progress",
+				"trans": "Вы уже выполняете приоритетную операцию."
+			},
+			"priorityOperationFirstPlaceRequired": {
+				"eng": "Your gang must hold the highest positive war score to start this operation",
+				"trans": "Ваша банда должна иметь наивысший положительный боевой счет для начала этой операции"
+			},
+			"priorityOperationGangRequired": {
+				"eng": "Only members of a first-place war gang can start this operation",
+				"trans": "Начать эту операцию могут только члены банды, занявшей первое место в войне."
+			},
+			"priorityOperationInvalidated": {
+				"eng": "Priority Operation invalidated because your gang no longer held first place at settlement",
+				"trans": "Приоритетная операция аннулирована, так как ваша банда больше не занимает первое место в поселении."
+			},
+			"priorityOperationSkipFirstPlaceRequired": {
+				"eng": "Your gang must still hold first place to finish this operation now",
+				"trans": "Ваша банда должна по-прежнему удерживать первое место для завершения этой операции."
 			}
 		},
 		"notification": {
@@ -16503,13 +18027,21 @@
 			}
 		},
 		"megaAd": {
-			"subtitle": {
-				"eng": "Mega Estate - the only agency that wont scam you!",
-				"trans": "Мега-агентство - единственное, которое не обманет вас!"
+			"action": {
+				"eng": "View current rental availability",
+				"trans": "Проверить текущую доступность аренды"
+			},
+			"backgroundAlt": {
+				"eng": "MegaEstate residence in Arclight City",
+				"trans": "Резиденция МегаНедвижимости в Арклайте"
+			},
+			"logoAlt": {
+				"eng": "MegaEstate",
+				"trans": "МегаНедвижимость"
 			},
 			"title": {
-				"eng": "Cheap Price!!",
-				"trans": "Дешевая цена!!"
+				"eng": "Homes across Arclight",
+				"trans": "Жильё по всему Арклайту"
 			}
 		},
 		"news": {
@@ -16764,6 +18296,10 @@
 			"eng": "President Jackson Morrison",
 			"trans": "Президент Джексон Моррисон"
 		},
+		"leeJongSuk": {
+			"eng": "CEO Lee Jong-suk",
+			"trans": "Генеральный директор Ли Чжон Сук"
+		},
 		"liWei": {
 			"eng": "Premier Li Wei",
 			"trans": "Премьер Ли Вэй"
@@ -16807,6 +18343,10 @@
 		"rezaHosseini": {
 			"eng": "Supreme Leader Ayatollah Reza Hosseini",
 			"trans": "Верховный лидер Аятолла Реза Хоссейни"
+		},
+		"robertSmith": {
+			"eng": "CEO Robert Smith",
+			"trans": "Генеральный директор Роберт Смит"
 		},
 		"sarahGoldman": {
 			"eng": "Prime Minister-CEO Sarah Goldman",
@@ -17112,6 +18652,20 @@
 				"trans": "Президент Моррисон"
 			}
 		},
+		"leeJongSuk": {
+			"ceoLee": {
+				"eng": "CEO Lee",
+				"trans": "Генеральный директор Ли"
+			},
+			"circuitbreakCeo": {
+				"eng": "CircuitBreak CEO",
+				"trans": "Генеральный директор РазрывЦепи"
+			},
+			"leeJongSuk": {
+				"eng": "Lee Jong-suk",
+				"trans": "Ли Чон Сук"
+			}
+		},
 		"liWei": {
 			"li": {
 				"eng": "Li",
@@ -17272,6 +18826,20 @@
 			"supremeLeaderHosseini": {
 				"eng": "Supreme Leader Hosseini",
 				"trans": "Верховный лидер Хоссейни"
+			}
+		},
+		"robertSmith": {
+			"ceoSmith": {
+				"eng": "CEO Smith",
+				"trans": "Генеральный директор Смит"
+			},
+			"megaestateCeo": {
+				"eng": "MegaEstate CEO",
+				"trans": "Генеральный директор МегаНедвижимости"
+			},
+			"robertSmith": {
+				"eng": "Robert Smith",
+				"trans": "Роберт Смит"
 			}
 		},
 		"sarahGoldman": {
