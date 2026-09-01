@@ -351,6 +351,574 @@
 			}
 		}
 	},
+	"acpdWebsite": {
+		"about": {
+			"careersEyebrow": {
+				"eng": "Careers",
+				"trans": "キャリア"
+			},
+			"careersStatus": {
+				"eng": "Terminal intake only",
+				"trans": "ターミナルでのみ受信可能"
+			},
+			"careersTitle": {
+				"eng": "Join the department",
+				"trans": "部署に参加する"
+			},
+			"coordinationShort": {
+				"eng": "Licensed response partners",
+				"trans": "認可済み対応パートナー"
+			},
+			"coordinationTitle": {
+				"eng": "Security liaison",
+				"trans": "警備連絡係"
+			},
+			"description": {
+				"eng": "Public service coordinated across Arclight's districts.",
+				"trans": "アークライトの各区域で公共サービスが調整されています。"
+			},
+			"evidenceShort": {
+				"eng": "Storage and disclosure",
+				"trans": "保存と開示"
+			},
+			"evidenceTitle": {
+				"eng": "Evidence custody",
+				"trans": "証拠管理"
+			},
+			"eyebrow": {
+				"eng": "Department",
+				"trans": "部門"
+			},
+			"imageAlt": {
+				"eng": "ACPD liaison meeting residents during a community response programme",
+				"trans": "地域対応プログラム中のアークライト市警察連絡担当官と住民との面談"
+			},
+			"investigationsShort": {
+				"eng": "Case and evidence review",
+				"trans": "事案と証拠の確認"
+			},
+			"investigationsTitle": {
+				"eng": "Investigations",
+				"trans": "調査"
+			},
+			"mandateDescription": {
+				"eng": "ACPD works with district operators, infrastructure partners and licensed response providers to maintain continuity of service.",
+				"trans": "アークライト市警察は地区事業者、インフラパートナー、認定対応プロバイダと連携し、サービス継続を確保します。"
+			},
+			"mandateEyebrow": {
+				"eng": "Mandate",
+				"trans": "指令"
+			},
+			"mandateTitle": {
+				"eng": "One city. Coordinated response.",
+				"trans": "一都市。連携対応。"
+			},
+			"responsibilitiesEyebrow": {
+				"eng": "Operational remit",
+				"trans": "運用権限"
+			},
+			"title": {
+				"eng": "About ACPD",
+				"trans": "アークライト市警察について"
+			},
+			"warrantsShort": {
+				"eng": "Citizen response registry",
+				"trans": "市民反応台帳"
+			},
+			"warrantsTitle": {
+				"eng": "Public warrants",
+				"trans": "公開令状"
+			}
+		},
+		"form": {
+			"awaiting": {
+				"eng": "Awaiting departmental acknowledgement",
+				"trans": "所属部署の確認待ち"
+			},
+			"reference": {
+				"eng": "Reference ${code}",
+				"trans": "参照${code}"
+			},
+			"rejected": {
+				"eng": "Submission rejected",
+				"trans": "提出が拒否されました"
+			},
+			"return": {
+				"eng": "Return to service",
+				"trans": "任務に戻る"
+			},
+			"routing": {
+				"eng": "Routing submission",
+				"trans": "ルーティング送信"
+			},
+			"secureUplink": {
+				"eng": "Secure civic uplink",
+				"trans": "市民用アップリンク確保"
+			}
+		},
+		"home": {
+			"active": {
+				"eng": "active",
+				"trans": "アクティブ"
+			},
+			"citizenEnforcementRegistry": {
+				"eng": "Citizen enforcement registry",
+				"trans": "市民執行台帳"
+			},
+			"explore": {
+				"eng": "Explore ACPD",
+				"trans": "アークライト市警察を探索"
+			},
+			"heroAlt": {
+				"eng": "ACPD officer assisting a resident at a public access terminal",
+				"trans": "アークライト市警察の警官が公共アクセス端末で住民を支援中"
+			},
+			"heroDescription": {
+				"eng": "Review listed targets and attempt an authorized arrest through the live registry.",
+				"trans": "リストされた対象を確認し、ライブレジストリ経由で正規の逮捕を試みよ。"
+			},
+			"heroTitle": {
+				"eng": "Warrants open for citizen action",
+				"trans": "市民対応可能な令状が発効中です"
+			},
+			"openWantedBoard": {
+				"eng": "Open wanted board",
+				"trans": "指名掲示板を開く"
+			},
+			"publicAccess": {
+				"eng": "Public access",
+				"trans": "パブリックアクセス"
+			}
+		},
+		"news": {
+			"appealCategory": {
+				"eng": "Public directive",
+				"trans": "公開指令"
+			},
+			"appealSummary": {
+				"eng": "Verify warrant status before contact. Claims require current registry confirmation.",
+				"trans": "接触前に令状の状態を確認。クレームには最新のレジストリによる確認が必要。"
+			},
+			"appealTitle": {
+				"eng": "Citizen enforcement authorizations remain active",
+				"trans": "市民の執法権限は引き続き有効です"
+			},
+			"description": {
+				"eng": "Current directives, service notices and appeals.",
+				"trans": "現在の指令、サービス通知および異議申立。"
+			},
+			"eyebrow": {
+				"eng": "Public notices",
+				"trans": "公示"
+			},
+			"imageAlt": {
+				"eng": "Residents directed along a controlled pedestrian route beside a private vehicle lane",
+				"trans": "住民は私用車両レーン脇の管制された歩行者通路へ誘導される"
+			},
+			"latest": {
+				"eng": "Current issue",
+				"trans": "現在の課題"
+			},
+			"recordsCategory": {
+				"eng": "Access notice",
+				"trans": "アクセス通知"
+			},
+			"recordsSummary": {
+				"eng": "Follow marked public routes while managed access remains in effect.",
+				"trans": "管理アクセスが有効の間は、マークされた公共ルートを通ってください。"
+			},
+			"recordsTitle": {
+				"eng": "Pedestrian routing active near commercial corridors",
+				"trans": "商業地区付近で歩行者導線が有効です"
+			},
+			"registryCategory": {
+				"eng": "Service advisory",
+				"trans": "整備通知"
+			},
+			"registrySummary": {
+				"eng": "Dispatch coverage may change during infrastructure-priority incidents.",
+				"trans": "インフラ優先の事象発生中はディスパッチ対応範囲が変更されることがあります"
+			},
+			"registryTitle": {
+				"eng": "Response availability updated by service zone",
+				"trans": "サービスゾーンによって対応可能状況が更新されました"
+			},
+			"title": {
+				"eng": "News and appeals",
+				"trans": "ニュースと申し立て"
+			}
+		},
+		"report": {
+			"description": {
+				"eng": "Secure intake for incidents, intelligence and report updates.",
+				"trans": "インシデント、情報およびレポート更新のセキュア受付"
+			},
+			"details": {
+				"eng": "What happened?",
+				"trans": "何があった?"
+			},
+			"detailsPlaceholder": {
+				"eng": "Describe what you saw, heard or received.",
+				"trans": "見たもの、聞いたもの、受け取ったものを説明してください。"
+			},
+			"emergencyDescription": {
+				"eng": "Leave the area and use local emergency channels.",
+				"trans": "その場所から離れ、地域の緊急チャンネルを使用してください。"
+			},
+			"emergencyTitle": {
+				"eng": "Immediate danger",
+				"trans": "即時危険"
+			},
+			"eyebrow": {
+				"eng": "Public intake",
+				"trans": "公衆受付"
+			},
+			"failureMessage": {
+				"eng": "No response allocation is available for this service zone. Your report was not retained.",
+				"trans": "このサービス区域では対応割当が利用できません。報告は保存されませんでした。"
+			},
+			"failureTitle": {
+				"eng": "Dispatch allocation unavailable",
+				"trans": "派遣割り当ては利用できません"
+			},
+			"formDescription": {
+				"eng": "A reference is issued only after departmental acknowledgement.",
+				"trans": "リファレンスは部署の確認後にのみ発行されます。"
+			},
+			"formEyebrow": {
+				"eng": "Secure intake",
+				"trans": "安全受入"
+			},
+			"formTitle": {
+				"eng": "Start report",
+				"trans": "レポート開始"
+			},
+			"imageAlt": {
+				"eng": "A resident transferring a data chip through a secured intake channel",
+				"trans": "保護された受け入れ経路を通じて住民がデータチップを移送中"
+			},
+			"location": {
+				"eng": "Location or access point",
+				"trans": "場所またはアクセスポイント"
+			},
+			"locationPlaceholder": {
+				"eng": "Where did this happen?",
+				"trans": "これはどこで起きたのか？"
+			},
+			"option": {
+				"incident": {
+					"eng": "Crime or public-safety incident",
+					"trans": "犯罪または公共の安全に関わる事件"
+				},
+				"intelligence": {
+					"eng": "Suspicious activity or intelligence",
+					"trans": "不審な行動または情報"
+				},
+				"intrusion": {
+					"eng": "Cybernetic or network intrusion",
+					"trans": "サイバネティックまたはネットワークへの侵入"
+				},
+				"update": {
+					"eng": "Information for an existing report",
+					"trans": "既存のレポートの情報"
+				}
+			},
+			"selectType": {
+				"eng": "Select report type",
+				"trans": "通報タイプを選択"
+			},
+			"submit": {
+				"eng": "Send report",
+				"trans": "レポート送信"
+			},
+			"title": {
+				"eng": "Report an incident",
+				"trans": "インシデントを報告"
+			},
+			"type": {
+				"eng": "Report type",
+				"trans": "報告の種類"
+			}
+		},
+		"safety": {
+			"contact": {
+				"identity": {
+					"eng": "Match the listed identity before acting.",
+					"trans": "行動前に、アイデンティティを記載されたものと一致させてください。"
+				},
+				"risk": {
+					"eng": "Check threat level. Never approach alone.",
+					"trans": "脅威レベルを確認せよ。決して単独で接近するな。"
+				},
+				"verify": {
+					"eng": "Verify that the warrant is still active.",
+					"trans": "逮捕令状がまだ有効か確認せよ。"
+				}
+			},
+			"contactTitle": {
+				"eng": "Before contact",
+				"trans": "接触前"
+			},
+			"description": {
+				"eng": "Live warrants, public alerts and contact guidance.",
+				"trans": "発効中の指名手配、公衆向けアラート、連絡先のご案内"
+			},
+			"eyebrow": {
+				"eng": "Live information",
+				"trans": "リアルタイム情報"
+			},
+			"guidance": {
+				"cyberDescription": {
+					"eng": "Isolate compromised hardware and preserve access logs.",
+					"trans": "侵害されたハードウェアを隔離し、アクセスログを保全せよ。"
+				},
+				"cyberTitle": {
+					"eng": "Cybernetic intrusion",
+					"trans": "サイバネティック侵入"
+				},
+				"missingDescription": {
+					"eng": "Review current public appeals.",
+					"trans": "現在の公開要請を確認する。"
+				},
+				"missingTitle": {
+					"eng": "Missing-person appeals",
+					"trans": "行方不明者捜索依頼"
+				}
+			},
+			"guidanceEyebrow": {
+				"eng": "Safety guidance",
+				"trans": "安全ガイドライン"
+			},
+			"imageAlt": {
+				"eng": "Residents moving through an ACPD-controlled street corridor at night",
+				"trans": "夜間、アークライト市警察管理下の通りを通行する住民"
+			},
+			"openRegistry": {
+				"eng": "Open",
+				"trans": "開く"
+			},
+			"registryEyebrow": {
+				"eng": "Live registry",
+				"trans": "ライブレジストリ"
+			},
+			"registryTitle": {
+				"eng": "Active warrant board",
+				"trans": "発効中の指名手配ボード"
+			},
+			"title": {
+				"eng": "Public safety",
+				"trans": "公共安全"
+			}
+		},
+		"services": {
+			"description": {
+				"eng": "Records, permits and controlled public access.",
+				"trans": "記録、許可証、および制御された一般公開アクセス。"
+			},
+			"evidenceRelease": {
+				"eng": "Evidence release",
+				"trans": "証拠公開"
+			},
+			"eyebrow": {
+				"eng": "Public access",
+				"trans": "パブリックアクセス"
+			},
+			"facilityAccessOnly": {
+				"eng": "Facility access only",
+				"trans": "施設関係者のみ立入可"
+			},
+			"facilityIssued": {
+				"eng": "Facility issued",
+				"trans": "施設支給"
+			},
+			"historicWarrants": {
+				"eng": "Historic warrants",
+				"trans": "歴史的令状"
+			},
+			"imageAlt": {
+				"eng": "Automated ACPD service counters awaiting public access",
+				"trans": "アークライト市警察の自動サービス窓口が一般開放を待機中"
+			},
+			"inPersonOnly": {
+				"eng": "In person only",
+				"trans": "対面のみ"
+			},
+			"incidentRecords": {
+				"eng": "Incident records",
+				"trans": "事件記録"
+			},
+			"permitsTitle": {
+				"eng": "Access permits",
+				"trans": "入域許可証"
+			},
+			"propertyTitle": {
+				"eng": "Evidence release",
+				"trans": "証拠公開"
+			},
+			"recordsEyebrow": {
+				"eng": "Public records",
+				"trans": "公開記録"
+			},
+			"recordsTitle": {
+				"eng": "Records access",
+				"trans": "記録アクセス"
+			},
+			"restrictedArchive": {
+				"eng": "Restricted archive",
+				"trans": "非公開アーカイブ"
+			},
+			"title": {
+				"eng": "Public services",
+				"trans": "公共サービス"
+			}
+		},
+		"shell": {
+			"about": {
+				"eng": "About ACPD",
+				"trans": "アークライト市警察について"
+			},
+			"directory": {
+				"eng": "Service index",
+				"trans": "サービス指数"
+			},
+			"footer": {
+				"eng": "Public access // Standard tier",
+				"trans": "パブリックアクセス // スタンダードティア"
+			},
+			"home": {
+				"eng": "Home",
+				"trans": "ホーム"
+			},
+			"menu": {
+				"eng": "Menu",
+				"trans": "メニュー"
+			},
+			"openWarrants": {
+				"eng": "Wanted board",
+				"trans": "指名手配掲示板"
+			}
+		},
+		"transparency": {
+			"contractTitle": {
+				"eng": "Licensed response coordination",
+				"trans": "認可済み対応調整"
+			},
+			"current": {
+				"eng": "Current",
+				"trans": "現在"
+			},
+			"currentCycle": {
+				"eng": "Current cycle",
+				"trans": "現在のサイクル"
+			},
+			"description": {
+				"eng": "Policy records, public standards and review scope.",
+				"trans": "方針記録、公開基準、および審査範囲。"
+			},
+			"enforcementTitle": {
+				"eng": "Citizen enforcement standard",
+				"trans": "市民取り締まり基準"
+			},
+			"evidenceTitle": {
+				"eng": "Evidence custody and disclosure",
+				"trans": "証拠の保管と開示"
+			},
+			"eyebrow": {
+				"eng": "Standards and oversight",
+				"trans": "基準と監督"
+			},
+			"feedbackEyebrow": {
+				"eng": "Oversight access",
+				"trans": "監視アクセス"
+			},
+			"forceTitle": {
+				"eng": "District response allocation",
+				"trans": "地区対応割り当て"
+			},
+			"imageAlt": {
+				"eng": "An empty ACPD public review chamber",
+				"trans": "空っぽのアークライト市警察の公開審査室"
+			},
+			"partialRelease": {
+				"eng": "Partial release",
+				"trans": "一部解放"
+			},
+			"publications": {
+				"eng": "Policy register",
+				"trans": "ポリシー登録"
+			},
+			"reference": {
+				"eng": "Reference",
+				"trans": "参照"
+			},
+			"restricted": {
+				"eng": "Restricted",
+				"trans": "制限中"
+			},
+			"restrictedMessage": {
+				"eng": "Contract-managed incidents fall outside this disclosure interface.",
+				"trans": "契約管理対象のインシデントはこの開示インターフェースの対象外です。"
+			},
+			"restrictedStatus": {
+				"eng": "Public review channel unavailable",
+				"trans": "公開レビューチャンネルは利用できません"
+			},
+			"title": {
+				"eng": "Transparency",
+				"trans": "透明度"
+			}
+		},
+		"wanted": {
+			"currentRegistry": {
+				"eng": "Live board",
+				"trans": "ライブボード"
+			},
+			"description": {
+				"eng": "Live records for identity verification and citizen enforcement.",
+				"trans": "本人確認と市民統制のためのリアルタイム記録。"
+			},
+			"emptyDescription": {
+				"eng": "No active public warrants are currently listed.",
+				"trans": "現在、有効な公開手配は登録されていません。"
+			},
+			"emptyTitle": {
+				"eng": "Registry clear",
+				"trans": "レジストリクリア"
+			},
+			"eyebrow": {
+				"eng": "Warrant registry",
+				"trans": "令状登録簿"
+			},
+			"imageAlt": {
+				"eng": "ACPD officers securing a public checkpoint outside department headquarters",
+				"trans": "アークライト市警察の警官が本庁舎外の公的な検問所で警備中"
+			},
+			"loadError": {
+				"eng": "The warrant registry could not be loaded.",
+				"trans": "指名手配台帳を読み込めませんでした。"
+			},
+			"notice": {
+				"eng": "Contact warning",
+				"trans": "接触警告"
+			},
+			"noticeDescription": {
+				"eng": "Verify identity and active status. Never approach alone.",
+				"trans": "身分とアクティブ状態を確認せよ。単独で接近するな。"
+			},
+			"records": {
+				"eng": "${count} active records",
+				"trans": "${count}件のアクティブレコード"
+			},
+			"title": {
+				"eng": "Active warrants",
+				"trans": "有効な令状"
+			},
+			"warrant": {
+				"eng": "Warrant ${level}",
+				"trans": "令状レベル${level}"
+			}
+		}
+	},
 	"adminModule": {
 		"error": {
 			"playerNotFound": {
@@ -1020,6 +1588,26 @@
 				"trans": "ギャングのメンテナンス"
 			}
 		},
+		"culinarySupplyRun": {
+			"description": {
+				"eng": "Decode a guarded supplier route with a Data Core and recover farm goods for local kitchens. Saffron, truffles, or vanilla beans are rarely included.",
+				"trans": "データコアで警備された供給ルートを解読し、近隣の厨房向けの農産物を回収する。サフラン、トリュフ、バニラビーンズは稀に含まれる。"
+			},
+			"displayName": {
+				"eng": "Culinary Supply Run",
+				"trans": "食材調達任務"
+			}
+		},
+		"farmWork": {
+			"description": {
+				"eng": "Tend a vertical hydroponic farm and harvest lettuce, tomatoes, carrots, or strawberries for local kitchens.",
+				"trans": "立体水耕農園を管理し、レタス、トマト、ニンジン、イチゴのいずれかを近隣のキッチン向けに収穫する"
+			},
+			"displayName": {
+				"eng": "Farm Work",
+				"trans": "農作業"
+			}
+		},
 		"hospital": {
 			"description": {
 				"eng": "Work as a part-time extraction force for Trauma Team, with the only goal of extracting ensured client from lethal situations. ",
@@ -1661,6 +2249,10 @@
 		"hospitalizationReduction": {
 			"eng": "Hospitalization Reduction",
 			"trans": "入院軽減"
+		},
+		"meal": {
+			"eng": "Meal",
+			"trans": "食事"
 		},
 		"pvpMoneyLossReduction": {
 			"eng": "PvP Money Loss Reduction",
@@ -3634,14 +4226,6 @@
 		}
 	},
 	"common": {
-		"close": {
-			"eng": "Close",
-			"trans": "閉じる"
-		},
-		"error": {
-			"eng": "Error loading investigation data",
-			"trans": "調査データの読み込みに失敗しました"
-		},
 		"loading": {
 			"eng": "Loading...",
 			"trans": "読み込み中..."
@@ -3754,21 +4338,191 @@
 		}
 	},
 	"cookingPage": {
-		"cook": {
-			"eng": "Cook",
-			"trans": "料理する"
+		"bench": {
+			"addOther": {
+				"eng": "Other",
+				"trans": "その他"
+			},
+			"capacity": {
+				"eng": "${current} / ${capacity}",
+				"trans": "${current} / ${capacity}"
+			},
+			"chooseIngredient": {
+				"eng": "Choose ingredient",
+				"trans": "素材を選択"
+			},
+			"exact": {
+				"eng": "Exact match. Dish ready to cook.",
+				"trans": "完全一致。料理は調理可能。"
+			},
+			"excess": {
+				"eng": "Remove excess units: ${count}.",
+				"trans": "余剰ユニットを除去：${count}個。"
+			},
+			"freeAssembly": {
+				"eng": "Choose ingredient",
+				"trans": "素材を選択"
+			},
+			"inventoryChanged": {
+				"eng": "Ingredients changed. Restore the required inventory before cooking.",
+				"trans": "食材が変更されました。調理前に必要なインベントリを元に戻してください"
+			},
+			"inventoryHint": {
+				"eng": "Owned / needed",
+				"trans": "所持数 / 必要数"
+			},
+			"missing": {
+				"eng": "Add required units: ${count}.",
+				"trans": "必要ユニット追加数: ${count}"
+			},
+			"pot": {
+				"eng": "Assembly pot",
+				"trans": "組立ポット"
+			},
+			"potRemoveHint": {
+				"eng": "Tap ingredient to remove",
+				"trans": "素材をタップで削除"
+			},
+			"requirementCorrect": {
+				"eng": "Correct",
+				"trans": "正しい"
+			},
+			"requirementExcess": {
+				"eng": "Excess ${count}",
+				"trans": "超過${count}"
+			},
+			"requirementInventoryCount": {
+				"eng": "${owned}/${required}",
+				"trans": "${owned}/${required}"
+			},
+			"requirementMissing": {
+				"eng": "Missing ${count}",
+				"trans": "不足 ${count}"
+			},
+			"requirements": {
+				"eng": "Recipe ingredients",
+				"trans": "レシピの材料"
+			},
+			"startAssembly": {
+				"eng": "Pin a recipe for hints, or assemble from memory.",
+				"trans": "レシピを固定してヒントを確認するか、記憶だけで組み立てる。"
+			},
+			"unidentified": {
+				"eng": "No dish identified yet.",
+				"trans": "まだ料理が特定されていません。"
+			},
+			"wrong": {
+				"eng": "Remove wrong units: ${count}.",
+				"trans": "誤ったユニットを削除：${count}個。"
+			}
 		},
-		"recipes": {
-			"eng": "Recipes",
-			"trans": "レシピ"
+		"cookAddIngredients": {
+			"eng": "Add ingredients to begin",
+			"trans": "材料を追加して開始"
+		},
+		"cookIncomplete": {
+			"eng": "Complete recipe to cook",
+			"trans": "レシピを完成させて調理する"
+		},
+		"cookItem": {
+			"eng": "Cook ${itemName}",
+			"trans": "${itemName}を調理する"
+		},
+		"cookUnavailable": {
+			"eng": "Ingredients unavailable",
+			"trans": "材料が不足しています"
+		},
+		"ingredientSelector": {
+			"description": {
+				"eng": "Add one owned ingredient to the pot.",
+				"trans": "手持ちの食材を1つ鍋に加える。"
+			},
+			"empty": {
+				"eng": "No cooking ingredients available.",
+				"trans": "調理用の食材がありません。"
+			},
+			"owned": {
+				"eng": "×${owned}",
+				"trans": "×${owned}"
+			},
+			"title": {
+				"eng": "Choose ingredient",
+				"trans": "素材を選択"
+			}
+		},
+		"recipeInput": {
+			"browse": {
+				"eng": "Browse recipes",
+				"trans": "レシピを見る"
+			},
+			"check": {
+				"eng": "Check recipe",
+				"trans": "レシピを確認"
+			},
+			"empty": {
+				"eng": "No recipe selected",
+				"trans": "レシピが選択されていません"
+			},
+			"label": {
+				"eng": "Recipe target",
+				"trans": "レシピのターゲット"
+			},
+			"unpin": {
+				"eng": "Unpin",
+				"trans": "ピン留め解除"
+			}
+		},
+		"recipeSelector": {
+			"chooseRecipe": {
+				"eng": "Choose recipe",
+				"trans": "レシピを選択"
+			},
+			"pinRecipe": {
+				"eng": "Pin recipe",
+				"trans": "レシピをピン留めする"
+			},
+			"pinRecipeClearPot": {
+				"eng": "Pin recipe · clear pot",
+				"trans": "レシピ固定・鍋の中身を空にする"
+			},
+			"recipeTier": {
+				"eng": "${tier} recipe",
+				"trans": "${tier}のレシピ"
+			}
+		},
+		"recipeUnavailable": {
+			"eng": "This recipe is no longer available.",
+			"trans": "このレシピはもう利用できません。"
+		},
+		"result": {
+			"exact": {
+				"eng": "Dish identified",
+				"trans": "ディッシュを特定しました"
+			},
+			"pending": {
+				"eng": "Dish unidentified",
+				"trans": "未識別の料理"
+			},
+			"pendingHint": {
+				"eng": "Complete a recipe to reveal the result.",
+				"trans": "レシピを完成させると結果が表示されます。"
+			}
 		},
 		"selectAmount": {
+			"confirm": {
+				"eng": "Cook batch",
+				"trans": "一括調理"
+			},
 			"eng": "Select amount",
 			"trans": "金額を選択してください"
 		},
-		"selectRecipe": {
-			"eng": "Select a recipe below",
-			"trans": "下のレシピを選択してください"
+		"stationLabel": {
+			"eng": "Assembly bench",
+			"trans": "組立作業台"
+		},
+		"title": {
+			"eng": "Cooking",
+			"trans": "調理"
 		}
 	},
 	"costDisplay": {
@@ -5776,12 +6530,8 @@
 			"eng": "Attempt Arrest",
 			"trans": "逮捕を試みる"
 		},
-		"description": {
-			"eng": "Join the fight for justice in Arclight City! The ACPD calls upon vigilant citizens to aid in the pursuit of wanted criminals. Your city needs you! Bring in the fugitives, dead or alive, and earn substantial rewards. Together, we'll make Arclight City safer for all. 🌃👮‍♂️\\n#CitizenArrest #ACPDJustice",
-			"trans": "アークライト・シティで正義の戦いに参加しましょう！ACPDは善良な市民に、逃亡犯の追跡を手助けするよう呼びかけています。街はあなたの力を必要としています！逃亡犯を生け捕りにして報酬を得ましょう。一緒に、アークライトシティをより安全な場所にしましょう。🌃👮‍♂️\\n#犯罪者の逮捕 #ACPDは正義！#ピンクの先輩！"
-		},
 		"expire": {
-			"eng": "expire date",
+			"eng": "Expires",
 			"trans": "有効期限"
 		},
 		"level": {
@@ -5792,25 +6542,9 @@
 			"eng": "Loading...",
 			"trans": "読み込み中..."
 		},
-		"name": {
-			"eng": "Name",
-			"trans": "名前"
-		},
-		"noPlayers": {
-			"eng": "No criminals with active arrest warrant.",
-			"trans": "逮捕状を持つ犯罪者はいません。"
-		},
-		"title": {
-			"eng": "Wanted Criminals",
-			"trans": "指名手配犯"
-		},
 		"viewProfile": {
 			"eng": "View profile",
 			"trans": "プロフィールを見る"
-		},
-		"wantedLevel": {
-			"eng": "Wanted level",
-			"trans": "手配度"
 		}
 	},
 	"infoModal": {
@@ -5903,6 +6637,296 @@
 			"trans": "${name}が不十分です。"
 		}
 	},
+	"intelMarket": {
+		"archive": {
+			"loading": {
+				"eng": "Opening resolution ledger",
+				"trans": "解決台帳を開く"
+			},
+			"solvedCases": {
+				"eng": "Solved cases",
+				"trans": "解決済み事件"
+			}
+		},
+		"clueDetail": {
+			"closeEvidence": {
+				"eng": "Close evidence",
+				"trans": "証拠を閉じる"
+			},
+			"context": {
+				"eng": "${caseName} // evidence ${progress}",
+				"trans": "${caseName} // 証拠 ${progress}"
+			}
+		},
+		"conclusion": {
+			"choose": {
+				"eng": "Select a conclusion",
+				"trans": "結論を選択"
+			},
+			"confirm": {
+				"cancel": {
+					"eng": "Cancel",
+					"trans": "キャンセル"
+				},
+				"consequence": {
+					"eng": "One permit is consumed. Rejection closes this dossier.",
+					"trans": "許可証を1枚消費します。却下でこのファイルを閉じます。"
+				},
+				"cost": {
+					"eng": "Permit cost",
+					"trans": "許可証のコスト"
+				},
+				"submit": {
+					"eng": "Submit conclusion",
+					"trans": "結論を提出する"
+				}
+			},
+			"imageAlt": {
+				"eng": "Conclusion ${number}",
+				"trans": "結論${number}"
+			},
+			"position": {
+				"eng": "CONCLUSION ${current} / ${total}",
+				"trans": "結論 ${current} / ${total}"
+			},
+			"selectNumber": {
+				"eng": "Select conclusion ${number}",
+				"trans": "結論${number}を選択"
+			}
+		},
+		"connection": {
+			"blindRelay": {
+				"eng": "BLIND",
+				"trans": "ブラインド"
+			},
+			"channelOpen": {
+				"eng": "CHANNEL OPEN",
+				"trans": "チャネル開通"
+			},
+			"edgeRelay": {
+				"eng": "EDGE",
+				"trans": "エッジ"
+			},
+			"identity": {
+				"eng": "IDENTITY // ${name}",
+				"trans": "アイデンティティ // ${name}"
+			},
+			"rootRelay": {
+				"eng": "ROOT",
+				"trans": "ルート"
+			},
+			"unlistedRelay": {
+				"eng": "UNLISTED RELAY",
+				"trans": "未登録リレー"
+			}
+		},
+		"discovery": {
+			"closeEvidence": {
+				"eng": "Close evidence",
+				"trans": "証拠を閉じる"
+			},
+			"dossierComplete": {
+				"eng": "DOSSIER COMPLETE",
+				"trans": "資料完了"
+			},
+			"evidenceIntake": {
+				"eng": "INTEL MARKET // EVIDENCE INTAKE",
+				"trans": "情報市場 // 証拠受付"
+			},
+			"evidenceRecovered": {
+				"eng": "EVIDENCE RECOVERED",
+				"trans": "証拠を回収済み"
+			},
+			"loadError": {
+				"eng": "Evidence recovery failed.",
+				"trans": "証拠の回収に失敗しました"
+			},
+			"moreEvidenceNeeded": {
+				"eng": "Evidence incomplete. Continue the stronghold sweep.",
+				"trans": "証拠が不十分です。要塞の捜索を続けてください。"
+			},
+			"newDossier": {
+				"eng": "NEW DOSSIER MATCHED",
+				"trans": "新しいファイルが一致しました"
+			},
+			"readyToConclude": {
+				"eng": "All evidence is recovered. Review the dossier before transmitting a conclusion.",
+				"trans": "全証拠を確保しました。結論を送信する前に資料を確認してください。"
+			}
+		},
+		"dossier": {
+			"abandonAction": {
+				"eng": "Abandon dossier",
+				"trans": "資料を破棄"
+			},
+			"abandonConfirm": {
+				"confirm": {
+					"eng": "Abandon dossier",
+					"trans": "資料を破棄"
+				},
+				"message": {
+					"eng": "All recovered evidence will be discarded. Your next piece of evidence will be matched to another dossier.",
+					"trans": "回収済みの証拠はすべて破棄されます。次の証拠は別の案件ファイルに紐付けられます。"
+				},
+				"title": {
+					"eng": "Abandon dossier?",
+					"trans": "資料を破棄しますか?"
+				}
+			},
+			"abandonFailed": {
+				"eng": "Failed to abandon dossier. Please try again.",
+				"trans": "資料の放棄に失敗しました。再試行してください。"
+			},
+			"abandoned": {
+				"eng": "Dossier abandoned. Recovered evidence was discarded.",
+				"trans": "調査ファイルは放棄されました。回収された証拠は破棄されました。"
+			},
+			"active": {
+				"eng": "Active blackfile",
+				"trans": "アクティブなブラックファイル"
+			},
+			"empty": {
+				"eng": "No active case",
+				"trans": "現在処理中の案件はありません"
+			},
+			"evidence": {
+				"eng": "Evidence",
+				"trans": "証拠"
+			},
+			"loading": {
+				"eng": "Retrieving blackfile",
+				"trans": "ブラックファイルを取得中"
+			},
+			"openEvidence": {
+				"eng": "Open evidence: ${name}",
+				"trans": "証拠を開く: ${name}"
+			},
+			"recoverEvidenceTip": {
+				"eng": "Recover all evidence to submit a conclusion.",
+				"trans": "全証拠を回収し、結論を提出せよ"
+			},
+			"transmitConclusion": {
+				"eng": "Transmit conclusion",
+				"trans": "結論を送信"
+			},
+			"unidentified": {
+				"eng": "Unidentified",
+				"trans": "未識別"
+			}
+		},
+		"failure": {
+			"close": {
+				"eng": "Close contract",
+				"trans": "契約終了"
+			},
+			"consequence": {
+				"eng": "CONTRACT CONSEQUENCE",
+				"trans": "契約の帰結"
+			},
+			"dossier": {
+				"eng": "DOSSIER",
+				"trans": "調査資料"
+			},
+			"evidenceReview": {
+				"eng": "EVIDENCE REVIEW",
+				"trans": "証拠レビュー"
+			},
+			"exchange": {
+				"eng": "INTEL MARKET // CONCLUSION EXCHANGE",
+				"trans": "情報市場 // 結論取引所"
+			},
+			"footer": {
+				"eng": "ROOT BREACH RELAY // SESSION CLOSED",
+				"trans": "ルート侵入リレー // セッション終了"
+			},
+			"mismatch": {
+				"eng": "The submitted conclusion conflicts with the recovered evidence.",
+				"trans": "提出された結論は回収された証拠と矛盾しています"
+			},
+			"rejected": {
+				"eng": "CONCLUSION REJECTED",
+				"trans": "結論が却下されました"
+			},
+			"status": {
+				"eng": "CONTRACT STATUS // VOID",
+				"trans": "契約ステータス // 無効"
+			},
+			"voided": {
+				"eng": "The market has voided this dossier. Recovered evidence is no longer available.",
+				"trans": "マーケットがこの資料を無効化しました。回収された証拠はもう入手できません。"
+			}
+		},
+		"pending": {
+			"completeCurrentDossier": {
+				"eng": "This dossier is complete. Transmit a conclusion before recovering more evidence.",
+				"trans": "この調査ファイルは完了しました。追加の証拠を取得する前に、結論を送信してください。"
+			},
+			"dossierComplete": {
+				"eng": "INTEL MARKET // DOSSIER COMPLETE",
+				"trans": "情報市場 // 調査ファイル完成"
+			},
+			"evidenceRecovered": {
+				"eng": "EVIDENCE RECOVERED",
+				"trans": "証拠を回収済み"
+			},
+			"noCompleteDossier": {
+				"eng": "No complete dossier is pending.",
+				"trans": "保留中の完全な資料はありません。"
+			},
+			"openIntelMarket": {
+				"eng": "Open INTEL MARKET",
+				"trans": "情報市場を開く"
+			},
+			"return": {
+				"eng": "Return to stronghold",
+				"trans": "要塞へ戻る"
+			}
+		},
+		"portal": {
+			"activeCase": {
+				"eng": "Active Case",
+				"trans": "進行中の案件"
+			},
+			"network": {
+				"eng": "Independent dossier relay",
+				"trans": "独立資料中継"
+			},
+			"resolver": {
+				"eng": "Resolver",
+				"trans": "リゾルバー"
+			},
+			"solvedCases": {
+				"eng": "Solved Cases",
+				"trans": "解決済み事件"
+			},
+			"title": {
+				"eng": "Intel Market",
+				"trans": "情報市場"
+			}
+		},
+		"success": {
+			"close": {
+				"eng": "Close contract",
+				"trans": "契約終了"
+			},
+			"conclusionAccepted": {
+				"eng": "Conclusion accepted. The source has released the sealed record.",
+				"trans": "結論が承認されました。情報源は封印された記録を解放しました。"
+			},
+			"dossierResolved": {
+				"eng": "INTEL MARKET // DOSSIER RESOLVED",
+				"trans": "情報市場 // 資料クローズ"
+			},
+			"marketPayout": {
+				"eng": "MARKET PAYOUT",
+				"trans": "市場報酬"
+			},
+			"sealedRecord": {
+				"eng": "SEALED RECORD",
+				"trans": "封印記録"
+			}
+		}
+	},
 	"inventory": {
 		"discard": {
 			"modal": {
@@ -5967,130 +6991,58 @@
 					}
 				}
 			}
+		},
+		"use": {
+			"refreshCulinary": {
+				"confirm": {
+					"eng": "Use anyway",
+					"trans": "それでも使う"
+				},
+				"description": {
+					"eng": "${effect} is already active. Using this item will reset its remaining duration instead of extending it.",
+					"trans": "${effect}はすでに発動中です。このアイテムを使用すると、残り時間は延長されずリセットされます。"
+				},
+				"title": {
+					"eng": "Food effect already active",
+					"trans": "食事効果はすでに発動中です"
+				}
+			},
+			"replaceCulinary": {
+				"confirm": {
+					"eng": "Use and replace",
+					"trans": "使用して差し替える"
+				},
+				"currentEffect": {
+					"eng": "Active food effect",
+					"trans": "発動中の食事効果"
+				},
+				"description": {
+					"eng": "Using ${newEffect} will replace the active effect shown below.",
+					"trans": "${newEffect}を使用すると、下に表示されている発動中エフェクトが上書きされます。"
+				},
+				"remaining": {
+					"eng": "${duration} remaining",
+					"trans": "残り${duration}"
+				},
+				"title": {
+					"eng": "Replace active food effect?",
+					"trans": "適用中の食事効果を差し替えますか?"
+				}
+			}
 		}
 	},
 	"investigation": {
-		"abandon": {
-			"eng": "Abandon",
-			"trans": "放棄"
-		},
-		"abandonConfirm": {
-			"confirm": {
-				"eng": "Abandon",
-				"trans": "放棄"
-			},
-			"message": {
-				"eng": "Are you sure you want to abandon this case? All collected clues will be lost and you'll need to start over with a new case.",
-				"trans": "この案件を放棄してもよろしいですか？収集した手がかりはすべて失われ、新しいケースからやり直さなければなりません。"
-			},
-			"title": {
-				"eng": "Abandon Investigation?",
-				"trans": "調査を中止しますか？"
-			}
-		},
-		"abandonFailed": {
-			"eng": "Failed to abandon investigation. Please try again.",
-			"trans": "調査を中止できませんでした。再試行してください。"
-		},
-		"abandoned": {
-			"eng": "Investigation abandoned. You can start a new case anytime.",
-			"trans": "調査を放棄しました。いつでも新しいケースを始められます。"
-		},
-		"acknowledgeFailure": {
-			"eng": "ACKNOWLEDGE",
-			"trans": "了解"
-		},
-		"allCluesCollected": {
-			"eng": "ALL CLUES COLLECTED",
-			"trans": "全手がかり取得済み"
-		},
-		"analysisComplete": {
-			"eng": "ANALYSIS COMPLETE",
-			"trans": "分析完了"
-		},
-		"analysisResult": {
-			"eng": "ANALYSIS RESULT",
-			"trans": "解析結果"
-		},
-		"analyzingEvidence": {
-			"eng": "ANALYZING EVIDENCE...",
-			"trans": "証拠を解析中…"
-		},
 		"caseId": {
 			"eng": "Case ${id}",
 			"trans": "ケース ${id}"
-		},
-		"caseId2": {
-			"eng": "CASE ID",
-			"trans": "ケースID"
-		},
-		"caseResolved": {
-			"eng": "ACPD Case Resolved",
-			"trans": "アークライト市警察事件解決済み"
 		},
 		"caseSolved": {
 			"eng": "Investigation solved! ${caseName}",
 			"trans": "調査完了！${caseName}"
 		},
-		"caseStatus": {
-			"eng": "CASE STATUS",
-			"trans": "案件ステータス"
-		},
-		"close": {
-			"eng": "Close",
-			"trans": "閉じる"
-		},
-		"closed": {
-			"eng": "CLOSED - FAILED",
-			"trans": "閉鎖 - 失敗"
-		},
 		"clueCollected": {
 			"eng": "Clue discovered: ${clueName}",
 			"trans": "手がかりを発見：${clueName}"
-		},
-		"clueFound": {
-			"eng": "CLUE DISCOVERED",
-			"trans": "手がかり発見"
-		},
-		"collectedClues": {
-			"eng": "Collected Clues",
-			"trans": "収集済みの手がかり"
-		},
-		"continue": {
-			"eng": "Continue",
-			"trans": "続ける"
-		},
-		"contradictoryElements": {
-			"eng": "Multiple contradictory elements detected in the proposed verdict.",
-			"trans": "提案された判決に矛盾する要素が複数検出されました。"
-		},
-		"correctVerdict": {
-			"eng": "Your deduction was correct. The truth has been uncovered.",
-			"trans": "あなたの推理は正しかった。真実が明らかになりました。"
-		},
-		"deliverVerdict": {
-			"eng": "Deliver Your Verdict",
-			"trans": "判決を下せ"
-		},
-		"errorCode": {
-			"eng": "ERROR CODE",
-			"trans": "エラーコード"
-		},
-		"errorLoadingClue": {
-			"eng": "Error loading clue",
-			"trans": "手がかりの読み込みに失敗しました"
-		},
-		"evidenceAcquired": {
-			"eng": "Evidence Logged - ACPD Database",
-			"trans": "証拠ログ - ACPDデータベース"
-		},
-		"evidenceMismatch": {
-			"eng": "The submitted conclusion does not align with available evidence patterns.",
-			"trans": "提出された結論は、利用可能な証拠パターンと一致しません。"
-		},
-		"evidenceNumber": {
-			"eng": "Evidence #${number}",
-			"trans": "証拠 #${number}"
 		},
 		"imageUnavailable": {
 			"eng": "Image Unavailable",
@@ -6099,90 +7051,6 @@
 		"investigationAbandoned": {
 			"eng": "Investigation abandoned. You can start a new case anytime.",
 			"trans": "調査は中止されました。いつでも新しい案件を開始できます。"
-		},
-		"investigationClosed": {
-			"eng": "Investigation terminated. Case file closed. Evidence confiscated.",
-			"trans": "調査終了。ケースファイルを閉じました。証拠を押収しました。"
-		},
-		"investigationStatus": {
-			"eng": "INVESTIGATION STATUS",
-			"trans": "調査状況"
-		},
-		"moreCluesNeeded": {
-			"eng": "Continue exploring to find more clues...",
-			"trans": "さらに手がかりを探すには探索を続けてください"
-		},
-		"needMoreClues": {
-			"short": {
-				"eng": "Find more clues in dungeons",
-				"trans": "ダンジョンでさらに手がかりを探す"
-			}
-		},
-		"newCase": {
-			"eng": "New Case",
-			"trans": "新規案件"
-		},
-		"noActiveCase": {
-			"header": {
-				"eng": "ACPD INVESTIGATION TERMINAL",
-				"trans": "ACPD捜査ターミナル"
-			},
-			"intelBody1": {
-				"eng": "This console activates automatically once you capture your first clue.",
-				"trans": "最初の手がかりを取得すると、このコンソールは自動で起動します。"
-			},
-			"intelBody2": {
-				"eng": "Track the entire case from here—clues, summaries, and final verdict submission.",
-				"trans": "ここから事件全体を追跡：手がかり・概要・最終判決提出"
-			},
-			"intelHeader": {
-				"eng": "INTEL DISPATCH",
-				"trans": "情報送信"
-			},
-			"requirement": {
-				"eng": "4 clues required per case",
-				"trans": "ケースごとに4つの手がかりが必要"
-			},
-			"statusInline": {
-				"eng": "Case Slot Open • Permit required to submit verdict",
-				"trans": "ケーススロットオープン • 判決提出に許可証が必須"
-			},
-			"timelineAcquire": {
-				"desc": {
-					"eng": "Stronghold investigation points feed clues directly into this console.",
-					"trans": "要塞調査ポイントは、このコンソールへ手掛かりを直送します。"
-				},
-				"eng": "Acquire Intel",
-				"trans": "情報入手"
-			},
-			"timelineAssemble": {
-				"desc": {
-					"eng": "Collect all four clues to unlock the verdict authorization rail.",
-					"trans": "全4つの手がかりを集め、判決許可レールをアンロック"
-				},
-				"eng": "Assemble Evidence",
-				"trans": "証拠収集"
-			},
-			"timelineSubmit": {
-				"desc": {
-					"eng": "Spend one Investigation Access Permit to commit your conclusion.",
-					"trans": "調査アクセス許可証を1枚消費して結論を確定"
-				},
-				"eng": "Deliver Verdict",
-				"trans": "判決を下す"
-			},
-			"tipBody": {
-				"eng": "Tap to open the Investigation field manual and review how cases operate.",
-				"trans": "タップして調査フィールドマニュアルを開き、ケースの運用方法を確認してください。"
-			},
-			"tipTitle": {
-				"eng": "Need a briefing?",
-				"trans": "ブリーフィングが必要ですか？"
-			},
-			"totalSolved": {
-				"eng": "Solved dossiers: ${count}",
-				"trans": "解決済み案件数：${count}"
-			}
 		},
 		"noActiveInvestigation": {
 			"eng": "You have no active investigation to abandon.",
@@ -6204,22 +7072,6 @@
 			"eng": "You must collect all clues before solving the case.",
 			"trans": "事件を解決する前に、すべての手がかりを集める必要があります。"
 		},
-		"processingVerdict": {
-			"eng": "PROCESSING VERDICT...",
-			"trans": "判定処理中…"
-		},
-		"readyToSolve": {
-			"eng": "You have all the evidence. Review your findings and solve the case.",
-			"trans": "証拠はすべて揃いました。調査結果を確認して事件を解決してください。"
-		},
-		"rewards": {
-			"eng": "Rewards",
-			"trans": "報酬"
-		},
-		"selectChoice": {
-			"eng": "Please select a conclusion",
-			"trans": "結論を選択してください"
-		},
 		"solveCasesHint": {
 			"eng": "Complete investigations to see them here",
 			"trans": "調査完了で閲覧可能"
@@ -6228,77 +7080,9 @@
 			"eng": "Solved ${time}",
 			"trans": "解決済み ${time}"
 		},
-		"solvedCases": {
-			"description": {
-				"eng": "Review completed cases and revisit final reports.",
-				"trans": "完了案件を確認し、最終レポートへ戻る"
-			},
-			"header": {
-				"eng": "Solved Investigations Registry",
-				"trans": "解決済み調査一覧"
-			},
-			"solved": {
-				"eng": "solved",
-				"trans": "解決済み"
-			}
-		},
-		"submit": {
-			"eng": "Submit Verdict",
-			"trans": "判決送信"
-		},
 		"submitError": {
 			"eng": "Failed to submit verdict. Please try again.",
 			"trans": "判定の送信に失敗しました。もう一度お試しください。"
-		},
-		"submitVerdict": {
-			"eng": "Submit Your Verdict",
-			"trans": "判決を送信"
-		},
-		"systemPrefix": {
-			"eng": "SYS",
-			"trans": "システム"
-		},
-		"terminalFooter": {
-			"eng": "ARCLIGHT CITY INVESTIGATION BUREAU // CLASSIFIED",
-			"trans": "アークライト・シティ調査局 // 機密"
-		},
-		"terminalHeader": {
-			"eng": "ACPD INVESTIGATION ANALYSIS SYSTEM",
-			"trans": "ACPD調査分析システム"
-		},
-		"theStory": {
-			"eng": "The Full Story",
-			"trans": "フルストーリー"
-		},
-		"verdictImage": {
-			"eng": "Verdict ${num} investigation image",
-			"trans": "判定${num}調査画像"
-		},
-		"verdictRejected": {
-			"eng": "VERDICT REJECTED",
-			"trans": "判決拒否"
-		}
-	},
-	"investigationPendingModal": {
-		"allCluesCollectedMessage": {
-			"eng": "You have collected all evidence for your current investigation. Complete this case before starting a new one.",
-			"trans": "現在の調査に必要な証拠はすべて集めました。新しい案件へ進む前に、このケースを完了してください。"
-		},
-		"caseReadyToSolve": {
-			"eng": "ACPD Case Ready to Solve",
-			"trans": "ACPDケース 解決準備完了"
-		},
-		"continueExploring": {
-			"eng": "Continue Exploring",
-			"trans": "探索を続ける"
-		},
-		"evidenceCollected": {
-			"eng": "Evidence Collected",
-			"trans": "証拠取得済み"
-		},
-		"solveFromInvestigationLog": {
-			"eng": "Visit your Investigation Log to review evidence and solve the case.",
-			"trans": "調査ログを開いて証拠を確認し、事件を解決しましょう。"
 		}
 	},
 	"item": {
@@ -6872,6 +7656,12 @@
 				"trans": "素材"
 			}
 		},
+		"meal": {
+			"name": {
+				"eng": "Meal",
+				"trans": "食事"
+			}
+		},
 		"meat": {
 			"name": {
 				"eng": "Meat",
@@ -7052,6 +7842,26 @@
 				"trans": "オート収集ブースト"
 			}
 		},
+		"bibimbap": {
+			"description": {
+				"eng": "Rice topped with braised pork, egg, and hydroponic vegetables.",
+				"trans": "豚角煮、卵、水耕栽培野菜をのせたご飯"
+			},
+			"name": {
+				"eng": "Bibimbap",
+				"trans": "ビビンバ"
+			}
+		},
+		"blackTruffle": {
+			"description": {
+				"eng": "An intensely aromatic truffle reserved for exceptional cooking.",
+				"trans": "芳醇な香りを放つ、特別な料理用のトリュフ"
+			},
+			"name": {
+				"eng": "Black Truffle",
+				"trans": "黒トリュフ"
+			}
+		},
 		"boots": {
 			"description": {
 				"eng": "A piece of equipment that protects the feet.",
@@ -7060,6 +7870,16 @@
 			"name": {
 				"eng": "Boots",
 				"trans": "ブーツ"
+			}
+		},
+		"bouillabaisse": {
+			"description": {
+				"eng": "A saffron fish stew simmered with tomato and vegetables.",
+				"trans": "トマトと野菜を一緒にじっくり煮込んだサフラン入りフィッシュシチュー"
+			},
+			"name": {
+				"eng": "Bouillabaisse",
+				"trans": "ブイヤベース"
 			}
 		},
 		"braisedPorkRice": {
@@ -7090,6 +7910,16 @@
 			"name": {
 				"eng": "Bread",
 				"trans": "パン"
+			}
+		},
+		"breadedFish": {
+			"description": {
+				"eng": "Fish coated in crisp breadcrumbs and fried until golden.",
+				"trans": "サクサクのパン粉に衣をつけ、黄金色になるまで揚げた魚。"
+			},
+			"name": {
+				"eng": "Breaded Fish",
+				"trans": "パン粉をまぶした魚"
 			}
 		},
 		"burger": {
@@ -7130,6 +7960,26 @@
 			"name": {
 				"eng": "Calibration Stabilizer",
 				"trans": "キャリブレーションスタビライザー"
+			}
+		},
+		"carrot": {
+			"description": {
+				"eng": "A crisp hydroponic root used in seasoned rice and stock.",
+				"trans": "シャキシャキした水耕栽培の根菜は味付けご飯やスープに使用されます。"
+			},
+			"name": {
+				"eng": "Carrot",
+				"trans": "ニンジン"
+			}
+		},
+		"cheesecake": {
+			"description": {
+				"eng": "A rich vanilla cream filling baked over a tender cake base.",
+				"trans": "濃厚なバニラクリームフィリングをふんわりとしたケーキの土台の上に焼き固めた"
+			},
+			"name": {
+				"eng": "Cheesecake",
+				"trans": "チーズケーキ"
 			}
 		},
 		"christmasEliteKey": {
@@ -7202,6 +8052,26 @@
 				"trans": "コモン・レベルシャード"
 			}
 		},
+		"cremeBrulee": {
+			"description": {
+				"eng": "Vanilla custard finished beneath a thin caramelized crust.",
+				"trans": "薄くキャラメリゼした皮をまとったバニラカスタード。"
+			},
+			"name": {
+				"eng": "Crème Brûlée",
+				"trans": "クレームブリュレ"
+			}
+		},
+		"crispyFishSalad": {
+			"description": {
+				"eng": "Breaded fish served over crisp lettuce and tomato.",
+				"trans": "衣をつけた魚を、シャキシャキとしたレタスとトマトの上に盛ってあります。"
+			},
+			"name": {
+				"eng": "Crispy Fish Salad",
+				"trans": "揚げ魚サラダ"
+			}
+		},
 		"dataCore": {
 			"description": {
 				"eng": "Military grade datacubes containing encrypted intelligence data. Highly valuable to information brokers.",
@@ -7240,6 +8110,26 @@
 			"name": {
 				"eng": "Egg",
 				"trans": "卵"
+			}
+		},
+		"eggSandwich": {
+			"description": {
+				"eng": "Tea-seasoned egg, fresh produce, and bread served as a compact sandwich.",
+				"trans": "茶香卵、新鮮な野菜、パンを詰め込んだコンパクトなサンドイッチ。"
+			},
+			"name": {
+				"eng": "Egg Sandwich",
+				"trans": "卵サンド"
+			}
+		},
+		"eggsBenedict": {
+			"description": {
+				"eng": "Poached egg and pork on toasted bread finished with warm truffle butter.",
+				"trans": "温かいトリュフバターで仕上げたトーストのポーチドエッグと豚肉"
+			},
+			"name": {
+				"eng": "Eggs Benedict",
+				"trans": "エッグベネディクト"
 			}
 		},
 		"emergencyMedkit": {
@@ -7300,6 +8190,16 @@
 				"trans": "”ヤバイ”お魚"
 			}
 		},
+		"fishChowder": {
+			"description": {
+				"eng": "A thick soup made with fish, milk, and flour.",
+				"trans": "魚とミルクと小麦粉で作ったとろみのあるスープ。"
+			},
+			"name": {
+				"eng": "Fish Chowder",
+				"trans": "魚のチョウダー"
+			}
+		},
 		"flour": {
 			"description": {
 				"eng": "A basic ingredient used in baking.",
@@ -7308,6 +8208,26 @@
 			"name": {
 				"eng": "Flour",
 				"trans": "小麦粉"
+			}
+		},
+		"fruitTrifle": {
+			"description": {
+				"eng": "Layers of cake, sweetened milk cream, and hydroponic fruit.",
+				"trans": "何層にも重なったケーキ、甘いミルククリーム、水耕栽培フルーツ。"
+			},
+			"name": {
+				"eng": "Fruit Trifle",
+				"trans": "フルーツトライフル"
+			}
+		},
+		"fullBreakfast": {
+			"description": {
+				"eng": "A filling plate of grilled meat, egg, bread, and hydroponic produce.",
+				"trans": "焼き肉と卵とパンと水耕野菜が並んだ腹一杯のプレート"
+			},
+			"name": {
+				"eng": "Full Breakfast",
+				"trans": "フルブレイファスト"
 			}
 		},
 		"gangControlResource": {
@@ -7410,8 +8330,8 @@
 		},
 		"investigationAccessPermit": {
 			"description": {
-				"eng": "ACPD investigation system access authorization. Required to submit case verdicts. Consumed upon submission regardless of outcome.",
-				"trans": "ACPD調査システムアクセス認証。ケース判決の提出が必要です。提出時に消費され、結果に関係なく使用不可となります。"
+				"eng": "INTEL MARKET conclusion access credential. Required to transmit a dossier conclusion. Consumed upon submission regardless of outcome.",
+				"trans": "情報市場用 結論アクセス認証証。調査資料の結論送信に必要です。提出時に結果を問わず消費されます。"
 			},
 			"name": {
 				"eng": "Investigation Access Permit",
@@ -7474,6 +8394,16 @@
 			"name": {
 				"eng": "Unique Key Fragment",
 				"trans": "ユニーク・キーの欠片"
+			}
+		},
+		"lettuce": {
+			"description": {
+				"eng": "Crisp hydroponic leaves used in bowls and sandwiches.",
+				"trans": "ボウルやサンドイッチに使われる、シャキッと食感の水耕栽培の葉野菜。"
+			},
+			"name": {
+				"eng": "Lettuce",
+				"trans": "レタス"
 			}
 		},
 		"levelLootBox1": {
@@ -7614,6 +8544,16 @@
 				"trans": "ミシック・アップグレードシャード"
 			}
 		},
+		"nasiGoreng": {
+			"description": {
+				"eng": "Fried rice with satay and hydroponic vegetables.",
+				"trans": "サテーと水耕栽培野菜の炒飯"
+			},
+			"name": {
+				"eng": "Nasi Goreng",
+				"trans": "ナシゴレン"
+			}
+		},
 		"netcoin": {
 			"description": {
 				"eng": "NetCoin is a digital currency mainly used in black market transactions. It is untraceable and can be used to purchase illegal goods and services.",
@@ -7640,6 +8580,16 @@
 				"trans": "ペンダント"
 			}
 		},
+		"pokeBowl": {
+			"description": {
+				"eng": "Raw fish, rice, and hydroponic vegetables arranged in a fresh bowl.",
+				"trans": "生魚とご飯、水耕栽培の野菜を新鮮な丼に盛り付けた"
+			},
+			"name": {
+				"eng": "Poke Bowl",
+				"trans": "ポケボウル"
+			}
+		},
 		"pork": {
 			"description": {
 				"eng": "Slice of ordinary synthetic pork",
@@ -7648,6 +8598,26 @@
 			"name": {
 				"eng": "Pork",
 				"trans": "豚肉"
+			}
+		},
+		"porkBiryani": {
+			"description": {
+				"eng": "Spiced pork and rice cooked together with fragrant saffron stock.",
+				"trans": "香辛料を効かせた豚肉と米を、香り高いサフランのスープで一緒に炊いた"
+			},
+			"name": {
+				"eng": "Pork Biryani",
+				"trans": "豚ビリヤニ"
+			}
+		},
+		"porkWellington": {
+			"description": {
+				"eng": "Tender pork and truffle butter sealed inside a crisp pastry crust.",
+				"trans": "サクサクのパイ生地に包まれた柔らかな豚肉とトリュフバター"
+			},
+			"name": {
+				"eng": "Pork Wellington",
+				"trans": "ポークウェリントン"
 			}
 		},
 		"prefixInjectorShard": {
@@ -7774,10 +8744,50 @@
 				"trans": "お米"
 			}
 		},
+		"riceCake": {
+			"description": {
+				"eng": "A soft steamed cake made from rice and flour.",
+				"trans": "米粉と小麦粉でふんわり仕上げた蒸しケーキ。"
+			},
+			"name": {
+				"eng": "Rice Cake",
+				"trans": "おもち"
+			}
+		},
+		"ricePudding": {
+			"description": {
+				"eng": "A sweet pudding made from rice and milk.",
+				"trans": "米と牛乳で作った甘いプリン。"
+			},
+			"name": {
+				"eng": "Rice Pudding",
+				"trans": "米プリン"
+			}
+		},
 		"ring": {
 			"name": {
 				"eng": "Ring",
 				"trans": "リング"
+			}
+		},
+		"saffronStock": {
+			"description": {
+				"eng": "A rich vegetable stock infused with saffron.",
+				"trans": "サフランを効かせたコクのある野菜スープ"
+			},
+			"name": {
+				"eng": "Saffron Stock",
+				"trans": "サフラン株"
+			}
+		},
+		"saffronThreads": {
+			"description": {
+				"eng": "Fragrant crimson threads used to prepare deeply seasoned stocks.",
+				"trans": "深みのあるスープに用いる、香り豊かな緋色の細糸"
+			},
+			"name": {
+				"eng": "Saffron Threads",
+				"trans": "サフランの糸"
 			}
 		},
 		"saleCreditChip": {
@@ -7800,6 +8810,16 @@
 				"trans": "サテー"
 			}
 		},
+		"seafoodPaella": {
+			"description": {
+				"eng": "Saffron rice cooked with fish, vegetables, and a deeply seasoned stock.",
+				"trans": "魚と野菜、深みのある出汁で炊いたサフランライス"
+			},
+			"name": {
+				"eng": "Seafood Paella",
+				"trans": "シーフードパエリア"
+			}
+		},
 		"shadowToken": {
 			"description": {
 				"eng": "A token can be used to trade with the merchants in strongholds.",
@@ -7808,6 +8828,46 @@
 			"name": {
 				"eng": "Shadow Token",
 				"trans": "シャドウトークン"
+			}
+		},
+		"soupAndSalad": {
+			"description": {
+				"eng": "Tomato soup served with a fresh lettuce salad and bread.",
+				"trans": "新鮮なレタスサラダとパンを添えたトマトスープ。"
+			},
+			"name": {
+				"eng": "Soup and Salad",
+				"trans": "スープとサラダ"
+			}
+		},
+		"strawberries": {
+			"description": {
+				"eng": "Sweet hydroponic berries used in layered desserts.",
+				"trans": "水耕栽培された甘いベリー。層状デザートに使用されます。"
+			},
+			"name": {
+				"eng": "Strawberries",
+				"trans": "苺"
+			}
+		},
+		"strawberryMilleFeuille": {
+			"description": {
+				"eng": "Crisp pastry layered with vanilla cream and strawberries.",
+				"trans": "バニラクリームとイチゴを重ねたサクサクのパイ"
+			},
+			"name": {
+				"eng": "Strawberry Mille-Feuille",
+				"trans": "いちごミルフィーユ"
+			}
+		},
+		"strawberryMochi": {
+			"description": {
+				"eng": "Soft rice cakes wrapped around whole strawberries.",
+				"trans": "ふわふわの餅で丸ごとのイチゴを包んだもの"
+			},
+			"name": {
+				"eng": "Strawberry Mochi",
+				"trans": "ストロベリー餅"
 			}
 		},
 		"sushi": {
@@ -7868,6 +8928,46 @@
 			"name": {
 				"eng": "Tech Scrap",
 				"trans": "テックスクラップ"
+			}
+		},
+		"tomato": {
+			"description": {
+				"eng": "A ripe hydroponic tomato used in breakfasts and rice dishes.",
+				"trans": "水耕栽培で育てた完熟トマト。朝食や米料理に使用される。"
+			},
+			"name": {
+				"eng": "Tomato",
+				"trans": "トマト"
+			}
+		},
+		"tomatoSoup": {
+			"description": {
+				"eng": "A smooth tomato and carrot soup served hot.",
+				"trans": "熱々のなめらかなトマトとニンジンのスープ"
+			},
+			"name": {
+				"eng": "Tomato Soup",
+				"trans": "トマトスープ"
+			}
+		},
+		"truffleBruschetta": {
+			"description": {
+				"eng": "Toasted bread spread with truffle butter and topped with tomato.",
+				"trans": "トラッフルバターを塗り、トマトをのせたトースト。"
+			},
+			"name": {
+				"eng": "Truffle Bruschetta",
+				"trans": "トリュフのブルスケッタ"
+			}
+		},
+		"truffleButter": {
+			"description": {
+				"eng": "Creamy butter worked with finely shaved black truffle.",
+				"trans": "クリーミーなバターに、黒トリュフを細く削って練り込みました。"
+			},
+			"name": {
+				"eng": "Truffle Butter",
+				"trans": "トリュフバター"
 			}
 		},
 		"turkeyDinner": {
@@ -7970,6 +9070,26 @@
 			"name": {
 				"eng": "Upper Armor",
 				"trans": "上衣アーマー"
+			}
+		},
+		"vanillaBeans": {
+			"description": {
+				"eng": "Fragrant whole vanilla pods used in rich creams and desserts.",
+				"trans": "香り豊かなバニラ豆。濃厚なクリームやデザートに使われます。"
+			},
+			"name": {
+				"eng": "Vanilla Beans",
+				"trans": "バニラビーンズ"
+			}
+		},
+		"vanillaCream": {
+			"description": {
+				"eng": "A smooth egg and milk cream steeped with whole vanilla beans.",
+				"trans": "丸ごとのバニラビーンズの香りをじっくり染み込ませたなめらかな卵と牛乳のクリーム"
+			},
+			"name": {
+				"eng": "Vanilla Cream",
+				"trans": "バニラクリーム"
 			}
 		}
 	},
@@ -9484,25 +10604,167 @@
 		}
 	},
 	"luckyDraw": {
-		"betterLuck": {
-			"eng": "BETTER LUCK NEXT TIME",
-			"trans": "次は運が味方するよ"
+		"catchGame": {
+			"close": {
+				"eng": "CLOSE DRAW",
+				"trans": "ドローを閉じる"
+			},
+			"collectorAlt": {
+				"eng": "Magnetic collector",
+				"trans": "磁気コレクター"
+			},
+			"corruptionAlt": {
+				"eng": "Corrupted fragment",
+				"trans": "破損した断片"
+			},
+			"corruptionCaughtText": {
+				"eng": "CORRUPTION CAUGHT",
+				"trans": "腐敗を検出した"
+			},
+			"corruptionGoal": {
+				"eng": "LIMIT 03",
+				"trans": "上限03"
+			},
+			"corruptionHudAlt": {
+				"eng": "Corrupted fragment",
+				"trans": "破損した断片"
+			},
+			"corruptionHudCompact": {
+				"eng": "CORRUPT ${caught}/${limit}",
+				"trans": "破損 ${caught}/${limit}"
+			},
+			"corruptionLegend": {
+				"eng": "CORRUPTION",
+				"trans": "腐敗"
+			},
+			"corruptionMissedSafe": {
+				"eng": "CORRUPTION MISSED // NO PENALTY",
+				"trans": "腐食回避 // ペナルティなし"
+			},
+			"creditAlt": {
+				"eng": "Credit fragment",
+				"trans": "クレジット欠片"
+			},
+			"creditCaughtText": {
+				"eng": "CREDIT FRAGMENT CAUGHT",
+				"trans": "クレジットフラグメントを捕獲"
+			},
+			"creditGoal": {
+				"eng": "COLLECT 06",
+				"trans": "回収 06"
+			},
+			"creditHud": {
+				"eng": "CREDIT ${caught}/${target}",
+				"trans": "クレジット ${caught}/${target}"
+			},
+			"creditHudAlt": {
+				"eng": "Credit fragment",
+				"trans": "クレジット欠片"
+			},
+			"creditLegend": {
+				"eng": "CREDIT FRAGMENT",
+				"trans": "クレジットフラグメント"
+			},
+			"creditMissedSafe": {
+				"eng": "CREDIT MISSED // NO PENALTY",
+				"trans": "クレジット見逃し//ペナルティなし"
+			},
+			"dragActive": {
+				"eng": "DRAG TO ALIGN // COLLECTION ACTIVE",
+				"trans": "ドラッグで整列 // 収集中"
+			},
+			"expiredClose": {
+				"eng": "CLOSE",
+				"trans": "閉じる"
+			},
+			"expiredDescription": {
+				"eng": "This collection run can no longer be started.",
+				"trans": "このコレクションランはもう開始できません"
+			},
+			"expiredTitle": {
+				"eng": "COLLECTION WINDOW EXPIRED",
+				"trans": "収集可能期間が切れました"
+			},
+			"instructionsDrag": {
+				"eng": "DRAG across the chute to align the collector. Catch 6 credit fragments; 3 corruptions end the run. Misses are safe.",
+				"trans": "スローを横にドラッグしてコレクターを位置合わせ。クレジットの欠片6個、破損3回でラン終了。外しても安全。"
+			},
+			"lostDescriptionRun": {
+				"eng": "Three corrupted fragments ended the collection run.",
+				"trans": "破損したフラグメント3つにより、コレクションランが終了しました。"
+			},
+			"lostTitle": {
+				"eng": "COLLECTOR CORRUPTED",
+				"trans": "コレクターが破損しました"
+			},
+			"readyTitleStandby": {
+				"eng": "COLLECTOR STANDBY",
+				"trans": "コレクター待機中"
+			},
+			"runCorrupted": {
+				"eng": "COLLECTOR CORRUPTED // RUN ENDED",
+				"trans": "コレクター破損 // ラン終了"
+			},
+			"runExpired": {
+				"eng": "COLLECTION WINDOW EXPIRED",
+				"trans": "収集可能期間が切れました"
+			},
+			"runReady": {
+				"eng": "COLLECTION RUN READY",
+				"trans": "収集ラン準備完了"
+			},
+			"start": {
+				"eng": "START COLLECTION",
+				"trans": "コレクション開始"
+			}
 		},
-		"drawLost": {
-			"eng": "TRY AGAIN LATER",
-			"trans": "少し待ってからまたお試しください"
+		"claim": {
+			"assemblingDescription": {
+				"eng": "The collected credits are being assembled into one chip. Keep this window open.",
+				"trans": "収集したクレジットを1つのチップに統合しています。このウィンドウは開いたままにしてください。"
+			},
+			"assemblingTitle": {
+				"eng": "ASSEMBLING CREDIT CHIP",
+				"trans": "クレジットチップを組立中"
+			},
+			"assemblyHeader": {
+				"eng": "CREDIT CHIP ASSEMBLY // IN PROGRESS",
+				"trans": "クレジットチップ組み立て // 進行中"
+			},
+			"assemblyStatus": {
+				"eng": "CHIP ASSEMBLY IN PROGRESS // EXIT LOCKED",
+				"trans": "チップ組立中 // 出口ロック"
+			},
+			"chipAlt": {
+				"eng": "Assembled credit chip",
+				"trans": "組立済みのクレジットチップ"
+			},
+			"fragmentAlt": {
+				"eng": "Credit fragment",
+				"trans": "クレジット欠片"
+			},
+			"unconfirmedDescription": {
+				"eng": "The chip may still be in your inventory. Close this window, then check your inventory.",
+				"trans": "チップはまだインベントリに残っている可能性があります。このウィンドウを閉じてから、インベントリを確認してください。"
+			},
+			"unconfirmedHeader": {
+				"eng": "CREDIT CHIP ASSEMBLY // UNCONFIRMED",
+				"trans": "クレジットチップ組み立て // 未確認"
+			},
+			"unconfirmedTitle": {
+				"eng": "UNABLE TO CONFIRM CLAIM",
+				"trans": "クレームを確認できません"
+			}
 		},
-		"drawWon": {
-			"eng": "SUCCESS!",
-			"trans": "成功しました！"
-		},
-		"expired": {
-			"eng": "EXPIRED",
-			"trans": "期限切れ"
-		},
-		"expiresLabel": {
-			"eng": "EXPIRES: ",
-			"trans": "期限"
+		"expiration": {
+			"expired": {
+				"eng": "EXPIRED",
+				"trans": "期限切れ"
+			},
+			"startWindowLabel": {
+				"eng": "START WINDOW: ",
+				"trans": "起動ウィンドウ:"
+			}
 		},
 		"flashSale": {
 			"description": {
@@ -9514,21 +10776,9 @@
 				"trans": "フラッシュセール ラッキードロー"
 			}
 		},
-		"idle": {
-			"eng": "IDLE",
-			"trans": "アイドル状態"
-		},
 		"invalidType": {
 			"eng": "Invalid lucky draw type",
 			"trans": "ガチャの種類が無効です"
-		},
-		"itemsReceived": {
-			"eng": "ITEMS RECEIVED:",
-			"trans": "入手したアイテム"
-		},
-		"noRewards": {
-			"eng": "NO REWARDS THIS TIME",
-			"trans": "今回は報酬がありません"
 		},
 		"notEligible": {
 			"eng": "You are not eligible for this lucky draw",
@@ -9538,33 +10788,39 @@
 			"eng": "This lucky draw is on cooldown. Try again later!",
 			"trans": "このガチャはクールダウン中です。後でまた試してください。"
 		},
-		"processing": {
-			"eng": "Processing...",
-			"trans": "処理中..."
-		},
-		"processing1": {
-			"eng": "PROCESSING",
-			"trans": "処理中"
-		},
-		"rewardUnlocked": {
-			"eng": "REWARD UNLOCKED!",
-			"trans": "REWARD UNLOCKED!"
-		},
-		"statusSuccess": {
-			"eng": "STATUS: SUCCESS",
-			"trans": "ステータス：成功"
-		},
-		"statusUnsuccessful": {
-			"eng": "STATUS: UNSUCCESSFUL",
-			"trans": "ステータス：失敗"
-		},
-		"swipeToUnlock": {
-			"eng": "Swipe to initiate lucky draw",
-			"trans": "スワイプでラッキードローを開始"
-		},
-		"transactionComplete": {
-			"eng": "TRANSACTION COMPLETE",
-			"trans": "処理完了"
+		"result": {
+			"assembledDescription": {
+				"eng": "The collection run is complete. Your reward is shown below.",
+				"trans": "コレクションランが完了しました。報酬は以下のとおりです。"
+			},
+			"assembledHeader": {
+				"eng": "CREDIT CHIP ASSEMBLY // COMPLETE",
+				"trans": "クレジットチップ組立 // 完了"
+			},
+			"assembledTitle": {
+				"eng": "CHIP ASSEMBLED",
+				"trans": "チップ組立完了"
+			},
+			"close": {
+				"eng": "CLOSE",
+				"trans": "閉じる"
+			},
+			"failedDescription": {
+				"eng": "The collection run completed, but no reward was assembled.",
+				"trans": "収集ランは完了しましたが、報酬が組み立てられませんでした。"
+			},
+			"failedHeader": {
+				"eng": "CREDIT CHIP ASSEMBLY // FAILED",
+				"trans": "クレジットチップ組立 // 失敗"
+			},
+			"failedTitle": {
+				"eng": "CHIP ASSEMBLY FAILED",
+				"trans": "チップの組み立てに失敗しました"
+			},
+			"rewardReceived": {
+				"eng": "REWARD RECEIVED",
+				"trans": "報酬を受け取りました"
+			}
 		}
 	},
 	"mail": {
@@ -11658,6 +12914,118 @@
 			"title": {
 				"eng": "SYSTEM CALIBRATION",
 				"trans": "システムキャリブレーション"
+			}
+		},
+		"gridBreach": {
+			"header": {
+				"progress": {
+					"eng": "Captures",
+					"trans": "捕獲"
+				},
+				"protocol": {
+					"eng": "Access Protocol GB-04",
+					"trans": "アクセスプロトコルGB-04"
+				},
+				"title": {
+					"eng": "Grid Breach",
+					"trans": "グリッド侵入"
+				}
+			},
+			"instruction": {
+				"tapAnywhere": {
+					"eng": "Tap anywhere while the cursor overlaps the marked cell",
+					"trans": "カーソルがマークされたセルと重なった状態でどこでもタップしてください"
+				}
+			},
+			"loss": {
+				"errors": {
+					"eng": "Error limit reached.",
+					"trans": "エラーの上限に達しました。"
+				},
+				"eyebrow": {
+					"eng": "Signal terminated",
+					"trans": "シグナル終了"
+				},
+				"focus": {
+					"eng": "Signal focus was lost.",
+					"trans": "シグナルフォーカスを失いました。"
+				},
+				"restart": {
+					"eng": "Restart breach",
+					"trans": "侵入を再実行"
+				},
+				"sweep": {
+					"eng": "Sweep expired before verification completed.",
+					"trans": "検証完了前にスイープの期限が切れました"
+				},
+				"title": {
+					"eng": "Breach failed",
+					"trans": "侵入失敗"
+				}
+			},
+			"status": {
+				"captured": {
+					"eng": "Signal captured",
+					"trans": "シグナル取得"
+				},
+				"complete": {
+					"eng": "Grid breach complete",
+					"trans": "グリッドブリーチ完了"
+				},
+				"errorLimit": {
+					"eng": "Error limit reached",
+					"trans": "エラーの上限に達しました"
+				},
+				"label": {
+					"eng": "SYS.GB//STATE",
+					"trans": "SYS.GB//ステート"
+				},
+				"lost": {
+					"eng": "Signal terminated",
+					"trans": "シグナル終了"
+				},
+				"missed": {
+					"eng": "Window missed — reacquiring",
+					"trans": "タイミングを逃しました 再取得中"
+				},
+				"rejected": {
+					"eng": "Input rejected",
+					"trans": "入力を拒否しました"
+				},
+				"scanning": {
+					"eng": "Scanning authentication grid",
+					"trans": "認証グリッドをスキャン中"
+				},
+				"targetAligned": {
+					"eng": "Target aligned",
+					"trans": "ターゲットアライメント完了"
+				}
+			},
+			"sweep": {
+				"pass": {
+					"eng": "One pass",
+					"trans": "ワンパス"
+				},
+				"remaining": {
+					"eng": "Sweep remaining",
+					"trans": "残りを一掃"
+				}
+			},
+			"telemetry": {
+				"errors": {
+					"eng": "Errors",
+					"trans": "エラー"
+				},
+				"scan": {
+					"eng": "Sweep",
+					"trans": "掃討"
+				}
+			},
+			"verification": {
+				"complete": {
+					"eng": "Grid verified",
+					"trans": "グリッド検証済み"
+				}
 			}
 		},
 		"neonFuse": {
@@ -14969,6 +16337,16 @@
 		"reducePsychosis": {
 			"eng": "Reduce psychosis by ${reducePsychosis}",
 			"trans": "${reducePsychosis}によってサイコシスを軽減する"
+		},
+		"uniqueEffect": {
+			"description": {
+				"eng": "Only one ${uniqueEffect} can be active. Gaining a different one replaces the current effect.",
+				"trans": "同時に有効な${uniqueEffect}は1つだけです。別のものを獲得すると、現在の効果が上書きされます。"
+			},
+			"name": {
+				"eng": "${group} Unique Effect",
+				"trans": "${group}固有効果"
+			}
 		}
 	},
 	"rewardConfigItemDisplay": {
@@ -15380,6 +16758,18 @@
 				"trans": "サーバーはアップデートのため再起動しています。数分後に再試行してください。"
 			}
 		},
+		"inventory": {
+			"useItem": {
+				"cooldown": {
+					"eng": "You can only use one healing item per combat turn",
+					"trans": "戦闘ターンでは回復アイテムを1つだけ使用できます"
+				},
+				"success": {
+					"eng": "Used ${itemName}",
+					"trans": "${itemName}を使用した"
+				}
+			}
+		},
 		"player": {
 			"currencyFull": {
 				"eng": "${currencyName} is full",
@@ -15485,6 +16875,14 @@
 		"deleteCharacter": {
 			"eng": "Delete character",
 			"trans": "キャラクターを削除します。"
+		},
+		"enable3DItemPreview": {
+			"eng": "Enable 3D Item Previews",
+			"trans": "3Dアイテムプレビューを有効にする"
+		},
+		"enable3DItemPreviewDescription": {
+			"eng": "Show interactive 3D item icons in item details. Disable to use flat icons instead",
+			"trans": "アイテム詳細でインタラクティブな3Dアイテムアイコンを表示します。無効にすると代わりにフラットアイコンが表示されます。"
 		},
 		"enableAttackBarPopup": {
 			"eng": "Enable Attack Bar popup",
@@ -16070,6 +17468,16 @@
 				"trans": "防御力増加"
 			}
 		},
+		"evasion1": {
+			"desc": {
+				"eng": "Escape chance +${points} percentage points",
+				"trans": "逃走成功率+${points}パーセントポイント"
+			},
+			"name": {
+				"eng": "Evasion I",
+				"trans": "回避I"
+			}
+		},
 		"gatherExpMult1": {
 			"desc": {
 				"eng": "Increases the EXP you receive from auto gather by ${percent}%",
@@ -16098,6 +17506,26 @@
 			"name": {
 				"eng": "Auto Gather EXP Multiplier III",
 				"trans": "自動EXP獲得量III"
+			}
+		},
+		"gathering1": {
+			"desc": {
+				"eng": "Gain ${percent}% more Auto Gather EXP",
+				"trans": "自動収集EXPを${percent}%多く獲得"
+			},
+			"name": {
+				"eng": "Gathering I",
+				"trans": "収集I"
+			}
+		},
+		"guard1": {
+			"desc": {
+				"eng": "Block chance +${points} percentage points",
+				"trans": "防御の確率 +${points}パーセントポイント"
+			},
+			"name": {
+				"eng": "Guard I",
+				"trans": "ガードI"
 			}
 		},
 		"heal": {
@@ -16164,6 +17592,96 @@
 				"trans": "ルート増加"
 			}
 		},
+		"mealAssault": {
+			"desc": {
+				"eng": "Deal ${damagePercent}% more damage and ${criticalDamagePercent}% more critical damage",
+				"trans": "与えるダメージが${damagePercent}%、与えるクリティカルダメージが${criticalDamagePercent}%上昇します"
+			},
+			"name": {
+				"eng": "Assault Meal",
+				"trans": "アサルトミール"
+			}
+		},
+		"mealBulwark": {
+			"desc": {
+				"eng": "Add ${points} percentage points to block chance and block strength",
+				"trans": "防御の確率とブロック強度を${points}パーセントポイント加算します"
+			},
+			"name": {
+				"eng": "Bulwark Meal",
+				"trans": "防壁ミール"
+			}
+		},
+		"mealOperator": {
+			"desc": {
+				"eng": "Gain ${gatherPercent}% more Auto Gather EXP and ${taskPercent}% more AFK Task EXP",
+				"trans": "自動収集EXPを${gatherPercent}%、AFKタスクEXPを${taskPercent}%多く獲得"
+			},
+			"name": {
+				"eng": "Operator Meal",
+				"trans": "オペレーター用ミール"
+			}
+		},
+		"mealOverclock": {
+			"desc": {
+				"eng": "Deal ${autoDamagePercent}% more auto-attack damage and ${damagePercent}% more damage",
+				"trans": "通常攻撃のダメージを${autoDamagePercent}%、全ダメージを${damagePercent}%増加させます"
+			},
+			"name": {
+				"eng": "Overclock Meal",
+				"trans": "オーバークロック食料"
+			}
+		},
+		"mealPrecision": {
+			"desc": {
+				"eng": "Headshot multiplier +${headshotPoints} percentage points, critical chance +${criticalChancePoints} percentage points, and critical damage +${criticalDamagePercent}%",
+				"trans": "ヘッドショット倍率+${headshotPoints}パーセントポイント、クリティカル発生率+${criticalChancePoints}パーセントポイント、クリティカルダメージ+${criticalDamagePercent}%"
+			},
+			"name": {
+				"eng": "Precision Meal",
+				"trans": "精密食"
+			}
+		},
+		"mealSentinel": {
+			"desc": {
+				"eng": "Deal ${autoDamagePercent}% more auto-attack damage and take ${damageReductionPercent}% less damage",
+				"trans": "通常攻撃ダメージを${autoDamagePercent}%上昇させ、被ダメージを${damageReductionPercent}%軽減する"
+			},
+			"name": {
+				"eng": "Sentinel Meal",
+				"trans": "センチネルミール"
+			}
+		},
+		"mealSkirmisher": {
+			"desc": {
+				"eng": "Add ${headshotPoints} percentage points to headshot multiplier and ${escapePoints} percentage points to escape chance",
+				"trans": "ヘッドショット倍率が${headshotPoints}パーセントポイント、逃走成功率が${escapePoints}パーセントポイント上昇する"
+			},
+			"name": {
+				"eng": "Skirmisher Meal",
+				"trans": "遊撃兵用食料"
+			}
+		},
+		"mealSurvivor": {
+			"desc": {
+				"eng": "Take ${damageReductionPercent}% less damage and add ${escapePoints} percentage points to escape chance",
+				"trans": "被ダメージを${damageReductionPercent}%軽減し、逃走成功率に${escapePoints}パーセントポイント加算"
+			},
+			"name": {
+				"eng": "Survivor Meal",
+				"trans": "生存者食"
+			}
+		},
+		"mealVanguard": {
+			"desc": {
+				"eng": "Deal ${damagePercent}% more damage and add ${blockChancePoints} percentage points to block chance",
+				"trans": "与えるダメージを${damagePercent}%増やし、防御の確率に${blockChancePoints}パーセントポイントを追加する"
+			},
+			"name": {
+				"eng": "Vanguard Meal",
+				"trans": "バンガードミール"
+			}
+		},
 		"muted": {
 			"desc": {
 				"eng": "This player have been muted by the system.",
@@ -16172,6 +17690,16 @@
 			"name": {
 				"eng": "Muted",
 				"trans": "ミュート"
+			}
+		},
+		"overclock1": {
+			"desc": {
+				"eng": "Deal ${percent}% more auto-attack damage",
+				"trans": "通常攻撃の与ダメージが${percent}%上昇します"
+			},
+			"name": {
+				"eng": "Overclock I",
+				"trans": "オーバークロック I"
 			}
 		},
 		"poison": {
@@ -16196,6 +17724,26 @@
 			"name": {
 				"eng": "Power I",
 				"trans": "パワー I"
+			}
+		},
+		"precision1": {
+			"desc": {
+				"eng": "Headshot multiplier +${points} percentage points",
+				"trans": "ヘッドショット倍率+${points}パーセントポイント"
+			},
+			"name": {
+				"eng": "Precision I",
+				"trans": "精密I"
+			}
+		},
+		"pumpkinFeast": {
+			"desc": {
+				"eng": "Critical chance +${criticalChancePoints} percentage points and critical damage +${criticalDamagePercent}%",
+				"trans": "クリティカル確率+${criticalChancePoints}% クリティカルダメージ+${criticalDamagePercent}%"
+			},
+			"name": {
+				"eng": "Pumpkin Feast",
+				"trans": "パンプキンの饗宴"
 			}
 		},
 		"pvp": {
@@ -16256,6 +17804,116 @@
 			"name": {
 				"eng": "Hideout Raid EXP Multiplier V",
 				"trans": "隠れ家襲撃経験値倍率V"
+			}
+		},
+		"specialtyMealAssault": {
+			"desc": {
+				"eng": "Deal ${damagePercent}% more damage and ${criticalDamagePercent}% more critical damage",
+				"trans": "与えるダメージが${damagePercent}%、与えるクリティカルダメージが${criticalDamagePercent}%上昇します"
+			},
+			"name": {
+				"eng": "Specialty Assault Meal",
+				"trans": "特製アサルトミール"
+			}
+		},
+		"specialtyMealBulwark": {
+			"desc": {
+				"eng": "Add ${points} percentage points to block chance and block strength",
+				"trans": "防御の確率とブロック強度を${points}パーセントポイント加算します"
+			},
+			"name": {
+				"eng": "Specialty Bulwark Meal",
+				"trans": "バルウォーク特製ミール"
+			}
+		},
+		"specialtyMealOperator": {
+			"desc": {
+				"eng": "Gain ${gatherPercent}% more Auto Gather EXP and ${taskPercent}% more AFK Task EXP",
+				"trans": "自動収集EXPを${gatherPercent}%、AFKタスクEXPを${taskPercent}%多く獲得"
+			},
+			"name": {
+				"eng": "Specialty Operator Meal",
+				"trans": "特製オペレーター用食事"
+			}
+		},
+		"specialtyMealOverclock": {
+			"desc": {
+				"eng": "Deal ${autoDamagePercent}% more auto-attack damage and ${damagePercent}% more damage",
+				"trans": "通常攻撃のダメージを${autoDamagePercent}%、全ダメージを${damagePercent}%増加させます"
+			},
+			"name": {
+				"eng": "Specialty Overclock Meal",
+				"trans": "特製オーバークロックミール"
+			}
+		},
+		"specialtyMealPrecision": {
+			"desc": {
+				"eng": "Headshot multiplier +${headshotPoints} percentage points, critical chance +${criticalChancePoints} percentage points, and critical damage +${criticalDamagePercent}%",
+				"trans": "ヘッドショット倍率+${headshotPoints}パーセントポイント、クリティカル発生率+${criticalChancePoints}パーセントポイント、クリティカルダメージ+${criticalDamagePercent}%"
+			},
+			"name": {
+				"eng": "Specialty Precision Meal",
+				"trans": "特製精密ミール"
+			}
+		},
+		"specialtyMealSentinel": {
+			"desc": {
+				"eng": "Deal ${autoDamagePercent}% more auto-attack damage and take ${damageReductionPercent}% less damage",
+				"trans": "通常攻撃ダメージを${autoDamagePercent}%上昇させ、被ダメージを${damageReductionPercent}%軽減する"
+			},
+			"name": {
+				"eng": "Specialty Sentinel Meal",
+				"trans": "特製センチネルミール"
+			}
+		},
+		"specialtyMealSkirmisher": {
+			"desc": {
+				"eng": "Add ${headshotPoints} percentage points to headshot multiplier and ${escapePoints} percentage points to escape chance",
+				"trans": "ヘッドショット倍率が${headshotPoints}パーセントポイント、逃走成功率が${escapePoints}パーセントポイント上昇する"
+			},
+			"name": {
+				"eng": "Specialty Skirmisher Meal",
+				"trans": "特製遊撃兵用食事"
+			}
+		},
+		"specialtyMealSurvivor": {
+			"desc": {
+				"eng": "Take ${damageReductionPercent}% less damage and add ${escapePoints} percentage points to escape chance",
+				"trans": "被ダメージを${damageReductionPercent}%軽減し、逃走成功率に${escapePoints}パーセントポイント加算"
+			},
+			"name": {
+				"eng": "Specialty Survivor Meal",
+				"trans": "特製サバイバーミール"
+			}
+		},
+		"specialtyMealVanguard": {
+			"desc": {
+				"eng": "Deal ${damagePercent}% more damage and add ${blockChancePoints} percentage points to block chance",
+				"trans": "与えるダメージを${damagePercent}%増やし、防御の確率に${blockChancePoints}パーセントポイントを追加する"
+			},
+			"name": {
+				"eng": "Specialty Vanguard Meal",
+				"trans": "特製ヴァンガードミール"
+			}
+		},
+		"taskFocus1": {
+			"desc": {
+				"eng": "Gain ${percent}% more AFK Task EXP",
+				"trans": "AFKタスクの経験値を${percent}%多く獲得"
+			},
+			"name": {
+				"eng": "Task Focus I",
+				"trans": "タスクフォーカスI"
+			}
+		},
+		"turkeyFeast": {
+			"desc": {
+				"eng": "Take ${reductionPercent}% less damage and gain ${blockChancePoints} percentage points of block chance",
+				"trans": "被ダメージを${reductionPercent}%軽減し、防御の確率を${blockChancePoints}ポイント上昇させる"
+			},
+			"name": {
+				"eng": "Turkey Feast",
+				"trans": "七面鳥の宴"
 			}
 		},
 		"warIntel": {
@@ -17651,9 +19309,9 @@
 				"eng": "Gift Code",
 				"trans": "ギフトコード"
 			},
-			"investigations": {
-				"eng": "Investigations",
-				"trans": "調査"
+			"intelMarket": {
+				"eng": "INTEL MARKET",
+				"trans": "情報市場"
 			},
 			"leaderboard": {
 				"eng": "leaderboard",
@@ -18018,12 +19676,12 @@
 		},
 		"hostilePlayerList": {
 			"subtitle": {
-				"eng": "Arrest wanted criminals and get paid!",
-				"trans": "指名手配犯を逮捕して報酬を受け取ろう！"
+				"eng": "Alerts, services and active warrants",
+				"trans": "アラート、サービスおよび有効な令状"
 			},
 			"title": {
-				"eng": "Your safety, our mission.",
-				"trans": "あなたの安全は、私たちの使命"
+				"eng": "ACPD Public Network",
+				"trans": "アークライト市警察 パブリックネットワーク"
 			}
 		},
 		"megaAd": {

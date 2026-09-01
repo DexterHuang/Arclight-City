@@ -351,6 +351,574 @@
 			}
 		}
 	},
+	"acpdWebsite": {
+		"about": {
+			"careersEyebrow": {
+				"eng": "Careers",
+				"trans": "커리어"
+			},
+			"careersStatus": {
+				"eng": "Terminal intake only",
+				"trans": "터미널 전용 접수"
+			},
+			"careersTitle": {
+				"eng": "Join the department",
+				"trans": "부서에 합류하세요"
+			},
+			"coordinationShort": {
+				"eng": "Licensed response partners",
+				"trans": "허가된 대응 파트너"
+			},
+			"coordinationTitle": {
+				"eng": "Security liaison",
+				"trans": "보안 연락관"
+			},
+			"description": {
+				"eng": "Public service coordinated across Arclight's districts.",
+				"trans": "아크라이트 전 구역을 아우르는 연계형 공공 서비스"
+			},
+			"evidenceShort": {
+				"eng": "Storage and disclosure",
+				"trans": "보관 및 공개"
+			},
+			"evidenceTitle": {
+				"eng": "Evidence custody",
+				"trans": "증거 보관"
+			},
+			"eyebrow": {
+				"eng": "Department",
+				"trans": "부서"
+			},
+			"imageAlt": {
+				"eng": "ACPD liaison meeting residents during a community response programme",
+				"trans": "지역사회 대응 프로그램 진행 중 아클라이트시 경찰서 연락관의 주민 면담"
+			},
+			"investigationsShort": {
+				"eng": "Case and evidence review",
+				"trans": "사건 및 증거 검토"
+			},
+			"investigationsTitle": {
+				"eng": "Investigations",
+				"trans": "조사"
+			},
+			"mandateDescription": {
+				"eng": "ACPD works with district operators, infrastructure partners and licensed response providers to maintain continuity of service.",
+				"trans": "아크라이트시티경찰서는 구역 운영사, 인프라 협력사 및 인가된 대응 업체와 협력하여 서비스 연속성을 유지합니다."
+			},
+			"mandateEyebrow": {
+				"eng": "Mandate",
+				"trans": "명령"
+			},
+			"mandateTitle": {
+				"eng": "One city. Coordinated response.",
+				"trans": "하나의 도시. 통합 대응."
+			},
+			"responsibilitiesEyebrow": {
+				"eng": "Operational remit",
+				"trans": "작전 권한"
+			},
+			"title": {
+				"eng": "About ACPD",
+				"trans": "아클라이트시 경찰서 소개"
+			},
+			"warrantsShort": {
+				"eng": "Citizen response registry",
+				"trans": "시민 대응 등록부"
+			},
+			"warrantsTitle": {
+				"eng": "Public warrants",
+				"trans": "공개 수배령"
+			}
+		},
+		"form": {
+			"awaiting": {
+				"eng": "Awaiting departmental acknowledgement",
+				"trans": "부서 확인 대기 중"
+			},
+			"reference": {
+				"eng": "Reference ${code}",
+				"trans": "참조 ${code}"
+			},
+			"rejected": {
+				"eng": "Submission rejected",
+				"trans": "제출이 거부되었습니다."
+			},
+			"return": {
+				"eng": "Return to service",
+				"trans": "업무 복귀"
+			},
+			"routing": {
+				"eng": "Routing submission",
+				"trans": "라우팅 제출"
+			},
+			"secureUplink": {
+				"eng": "Secure civic uplink",
+				"trans": "시민 업링크 보호"
+			}
+		},
+		"home": {
+			"active": {
+				"eng": "active",
+				"trans": "활성"
+			},
+			"citizenEnforcementRegistry": {
+				"eng": "Citizen enforcement registry",
+				"trans": "시민 단속 등록부"
+			},
+			"explore": {
+				"eng": "Explore ACPD",
+				"trans": "아클라이트시 경찰서 탐색"
+			},
+			"heroAlt": {
+				"eng": "ACPD officer assisting a resident at a public access terminal",
+				"trans": "공용 접속 터미널에서 시민을 돕고 있는 아크라이트 시티 경찰관"
+			},
+			"heroDescription": {
+				"eng": "Review listed targets and attempt an authorized arrest through the live registry.",
+				"trans": "등재된 대상을 검토하고 실시간 등록부를 통해 적법한 체포를 시도하십시오."
+			},
+			"heroTitle": {
+				"eng": "Warrants open for citizen action",
+				"trans": "시민 조치가 가능한 수배령"
+			},
+			"openWantedBoard": {
+				"eng": "Open wanted board",
+				"trans": "수배 게시판 열기"
+			},
+			"publicAccess": {
+				"eng": "Public access",
+				"trans": "공개 접근"
+			}
+		},
+		"news": {
+			"appealCategory": {
+				"eng": "Public directive",
+				"trans": "공개 지시"
+			},
+			"appealSummary": {
+				"eng": "Verify warrant status before contact. Claims require current registry confirmation.",
+				"trans": "접촉 전 영장 상태를 확인하세요. 청구에는 최신 등록부 확인이 필요합니다."
+			},
+			"appealTitle": {
+				"eng": "Citizen enforcement authorizations remain active",
+				"trans": "시민 단속 인가가 여전히 유효합니다."
+			},
+			"description": {
+				"eng": "Current directives, service notices and appeals.",
+				"trans": "현재 지침, 서비스 공지 및 이의신청."
+			},
+			"eyebrow": {
+				"eng": "Public notices",
+				"trans": "공개 공지"
+			},
+			"imageAlt": {
+				"eng": "Residents directed along a controlled pedestrian route beside a private vehicle lane",
+				"trans": "주민들은 개인 차량 차선 옆의 통제된 보행로로 유도됩니다"
+			},
+			"latest": {
+				"eng": "Current issue",
+				"trans": "현재 문제"
+			},
+			"recordsCategory": {
+				"eng": "Access notice",
+				"trans": "접근 알림"
+			},
+			"recordsSummary": {
+				"eng": "Follow marked public routes while managed access remains in effect.",
+				"trans": "관리형 접근이 유지되는 동안에는 지정된 공개 경로를 따르세요."
+			},
+			"recordsTitle": {
+				"eng": "Pedestrian routing active near commercial corridors",
+				"trans": "상업 회랑 인근 보행자 동선 유도 가동 중"
+			},
+			"registryCategory": {
+				"eng": "Service advisory",
+				"trans": "서비스 공지"
+			},
+			"registrySummary": {
+				"eng": "Dispatch coverage may change during infrastructure-priority incidents.",
+				"trans": "기반시설 우선 사건의 경우 배정 범위가 변경될 수 있습니다."
+			},
+			"registryTitle": {
+				"eng": "Response availability updated by service zone",
+				"trans": "응답 가용성이 서비스 존에서 갱신되었습니다"
+			},
+			"title": {
+				"eng": "News and appeals",
+				"trans": "뉴스 및 청원"
+			}
+		},
+		"report": {
+			"description": {
+				"eng": "Secure intake for incidents, intelligence and report updates.",
+				"trans": "사고, 정보 및 보고서 업데이트의 안전한 접수."
+			},
+			"details": {
+				"eng": "What happened?",
+				"trans": "무슨 일이 있었나요?"
+			},
+			"detailsPlaceholder": {
+				"eng": "Describe what you saw, heard or received.",
+				"trans": "본 것, 들은 것 또는 수신한 것에 대해 설명하세요."
+			},
+			"emergencyDescription": {
+				"eng": "Leave the area and use local emergency channels.",
+				"trans": "해당 지역을 떠나 현지 비상 채널을 사용하세요."
+			},
+			"emergencyTitle": {
+				"eng": "Immediate danger",
+				"trans": "즉각적 위협"
+			},
+			"eyebrow": {
+				"eng": "Public intake",
+				"trans": "일반 접수"
+			},
+			"failureMessage": {
+				"eng": "No response allocation is available for this service zone. Your report was not retained.",
+				"trans": "해당 서비스 구역에는 가용한 대응 배정이 없습니다. 신고 내용이 저장되지 않았습니다."
+			},
+			"failureTitle": {
+				"eng": "Dispatch allocation unavailable",
+				"trans": "디스패치 배정 사용 불가"
+			},
+			"formDescription": {
+				"eng": "A reference is issued only after departmental acknowledgement.",
+				"trans": "부서 확인 완료 후에만 추천서가 발급됩니다."
+			},
+			"formEyebrow": {
+				"eng": "Secure intake",
+				"trans": "보안 수신"
+			},
+			"formTitle": {
+				"eng": "Start report",
+				"trans": "리포트 시작"
+			},
+			"imageAlt": {
+				"eng": "A resident transferring a data chip through a secured intake channel",
+				"trans": "보안 수납 채널을 통해 데이터 칩을 전달하는 주민"
+			},
+			"location": {
+				"eng": "Location or access point",
+				"trans": "위치 또는 액세스 포인트"
+			},
+			"locationPlaceholder": {
+				"eng": "Where did this happen?",
+				"trans": "이 일은 어디에서 일어났나요?"
+			},
+			"option": {
+				"incident": {
+					"eng": "Crime or public-safety incident",
+					"trans": "범죄 또는 공중안전 사건"
+				},
+				"intelligence": {
+					"eng": "Suspicious activity or intelligence",
+					"trans": "의심스러운 활동 또는 정보"
+				},
+				"intrusion": {
+					"eng": "Cybernetic or network intrusion",
+					"trans": "사이버네틱 또는 네트워크 침입"
+				},
+				"update": {
+					"eng": "Information for an existing report",
+					"trans": "기존 보고서 정보"
+				}
+			},
+			"selectType": {
+				"eng": "Select report type",
+				"trans": "신고 유형을 선택하세요"
+			},
+			"submit": {
+				"eng": "Send report",
+				"trans": "보고서 보내기"
+			},
+			"title": {
+				"eng": "Report an incident",
+				"trans": "사건 신고"
+			},
+			"type": {
+				"eng": "Report type",
+				"trans": "신고 유형"
+			}
+		},
+		"safety": {
+			"contact": {
+				"identity": {
+					"eng": "Match the listed identity before acting.",
+					"trans": "행동 전에 목록의 신원과 일치시키세요."
+				},
+				"risk": {
+					"eng": "Check threat level. Never approach alone.",
+					"trans": "위협 수위를 확인하세요. 절대 홀로 접근하지 마세요."
+				},
+				"verify": {
+					"eng": "Verify that the warrant is still active.",
+					"trans": "영장이 여전히 유효한지 확인하세요."
+				}
+			},
+			"contactTitle": {
+				"eng": "Before contact",
+				"trans": "접촉 전"
+			},
+			"description": {
+				"eng": "Live warrants, public alerts and contact guidance.",
+				"trans": "실시간 체포영장, 공개 경보 및 연락처 안내."
+			},
+			"eyebrow": {
+				"eng": "Live information",
+				"trans": "실시간 정보"
+			},
+			"guidance": {
+				"cyberDescription": {
+					"eng": "Isolate compromised hardware and preserve access logs.",
+					"trans": "보안 침해가 발생한 하드웨어를 격리하고 접근 로그를 보존하세요."
+				},
+				"cyberTitle": {
+					"eng": "Cybernetic intrusion",
+					"trans": "사이버네틱 침입"
+				},
+				"missingDescription": {
+					"eng": "Review current public appeals.",
+					"trans": "현재 공개 청원을 검토합니다."
+				},
+				"missingTitle": {
+					"eng": "Missing-person appeals",
+					"trans": "실종 신고"
+				}
+			},
+			"guidanceEyebrow": {
+				"eng": "Safety guidance",
+				"trans": "안전 안내"
+			},
+			"imageAlt": {
+				"eng": "Residents moving through an ACPD-controlled street corridor at night",
+				"trans": "아클라이트시 경찰서가 통제하는 야간 거리 복도를 지나는 주민들"
+			},
+			"openRegistry": {
+				"eng": "Open",
+				"trans": "열기"
+			},
+			"registryEyebrow": {
+				"eng": "Live registry",
+				"trans": "실시간 등록부"
+			},
+			"registryTitle": {
+				"eng": "Active warrant board",
+				"trans": "유효한 체포영장 게시판"
+			},
+			"title": {
+				"eng": "Public safety",
+				"trans": "공공 안전"
+			}
+		},
+		"services": {
+			"description": {
+				"eng": "Records, permits and controlled public access.",
+				"trans": "기록, 허가 및 대중 출입 통제."
+			},
+			"evidenceRelease": {
+				"eng": "Evidence release",
+				"trans": "증거 공개"
+			},
+			"eyebrow": {
+				"eng": "Public access",
+				"trans": "공개 접근"
+			},
+			"facilityAccessOnly": {
+				"eng": "Facility access only",
+				"trans": "시설 출입 전용"
+			},
+			"facilityIssued": {
+				"eng": "Facility issued",
+				"trans": "시설 지급"
+			},
+			"historicWarrants": {
+				"eng": "Historic warrants",
+				"trans": "과거 체포영장"
+			},
+			"imageAlt": {
+				"eng": "Automated ACPD service counters awaiting public access",
+				"trans": "자동화된 아클라이트시 경찰서 민원 창구가 시민 이용을 기다리고 있습니다"
+			},
+			"inPersonOnly": {
+				"eng": "In person only",
+				"trans": "대면 전용"
+			},
+			"incidentRecords": {
+				"eng": "Incident records",
+				"trans": "사건 기록"
+			},
+			"permitsTitle": {
+				"eng": "Access permits",
+				"trans": "접근 허가"
+			},
+			"propertyTitle": {
+				"eng": "Evidence release",
+				"trans": "증거 공개"
+			},
+			"recordsEyebrow": {
+				"eng": "Public records",
+				"trans": "공공 기록"
+			},
+			"recordsTitle": {
+				"eng": "Records access",
+				"trans": "기록 접근"
+			},
+			"restrictedArchive": {
+				"eng": "Restricted archive",
+				"trans": "접근 제한 아카이브"
+			},
+			"title": {
+				"eng": "Public services",
+				"trans": "공공 서비스"
+			}
+		},
+		"shell": {
+			"about": {
+				"eng": "About ACPD",
+				"trans": "아클라이트시 경찰서 소개"
+			},
+			"directory": {
+				"eng": "Service index",
+				"trans": "서비스 인덱스"
+			},
+			"footer": {
+				"eng": "Public access // Standard tier",
+				"trans": "공개 접근 // 표준 등급"
+			},
+			"home": {
+				"eng": "Home",
+				"trans": "홈"
+			},
+			"menu": {
+				"eng": "Menu",
+				"trans": "메뉴"
+			},
+			"openWarrants": {
+				"eng": "Wanted board",
+				"trans": "수배 게시판"
+			}
+		},
+		"transparency": {
+			"contractTitle": {
+				"eng": "Licensed response coordination",
+				"trans": "허가된 대응 조율"
+			},
+			"current": {
+				"eng": "Current",
+				"trans": "현재"
+			},
+			"currentCycle": {
+				"eng": "Current cycle",
+				"trans": "현재 사이클"
+			},
+			"description": {
+				"eng": "Policy records, public standards and review scope.",
+				"trans": "정책 기록, 공개 표준 및 검토 범위."
+			},
+			"enforcementTitle": {
+				"eng": "Citizen enforcement standard",
+				"trans": "시민 단속 기준"
+			},
+			"evidenceTitle": {
+				"eng": "Evidence custody and disclosure",
+				"trans": "증거 보관 및 공개"
+			},
+			"eyebrow": {
+				"eng": "Standards and oversight",
+				"trans": "기준 및 감독"
+			},
+			"feedbackEyebrow": {
+				"eng": "Oversight access",
+				"trans": "감시 권한"
+			},
+			"forceTitle": {
+				"eng": "District response allocation",
+				"trans": "구역별 대응 배정"
+			},
+			"imageAlt": {
+				"eng": "An empty ACPD public review chamber",
+				"trans": "비어 있는 아클라이트시 경찰서 공개 심의실"
+			},
+			"partialRelease": {
+				"eng": "Partial release",
+				"trans": "부분 해제"
+			},
+			"publications": {
+				"eng": "Policy register",
+				"trans": "정책 등록부"
+			},
+			"reference": {
+				"eng": "Reference",
+				"trans": "참고"
+			},
+			"restricted": {
+				"eng": "Restricted",
+				"trans": "제한됨"
+			},
+			"restrictedMessage": {
+				"eng": "Contract-managed incidents fall outside this disclosure interface.",
+				"trans": "계약 관제 사건은 이 정보 공개 인터페이스의 적용 대상에서 제외됩니다."
+			},
+			"restrictedStatus": {
+				"eng": "Public review channel unavailable",
+				"trans": "공개 리뷰 채널 사용 불가"
+			},
+			"title": {
+				"eng": "Transparency",
+				"trans": "투명도"
+			}
+		},
+		"wanted": {
+			"currentRegistry": {
+				"eng": "Live board",
+				"trans": "실시간 순위판"
+			},
+			"description": {
+				"eng": "Live records for identity verification and citizen enforcement.",
+				"trans": "신원 확인 및 시민 단속용 실시간 기록."
+			},
+			"emptyDescription": {
+				"eng": "No active public warrants are currently listed.",
+				"trans": "현재 유효한 공개수배가 등재되어 있지 않습니다"
+			},
+			"emptyTitle": {
+				"eng": "Registry clear",
+				"trans": "레지스트리 초기화"
+			},
+			"eyebrow": {
+				"eng": "Warrant registry",
+				"trans": "영장 등록부"
+			},
+			"imageAlt": {
+				"eng": "ACPD officers securing a public checkpoint outside department headquarters",
+				"trans": "아클라이트시 경찰서 소속 경관들이 본부 밖의 공공 검문소를 경비 중입니다"
+			},
+			"loadError": {
+				"eng": "The warrant registry could not be loaded.",
+				"trans": "체포영장 대장을 불러올 수 없습니다."
+			},
+			"notice": {
+				"eng": "Contact warning",
+				"trans": "접촉 경고"
+			},
+			"noticeDescription": {
+				"eng": "Verify identity and active status. Never approach alone.",
+				"trans": "정체와 활동 상태 확인. 절대 단독 접근 금지."
+			},
+			"records": {
+				"eng": "${count} active records",
+				"trans": "활성 기록 ${count}건"
+			},
+			"title": {
+				"eng": "Active warrants",
+				"trans": "유효한 수배령"
+			},
+			"warrant": {
+				"eng": "Warrant ${level}",
+				"trans": "체포영장 ${level}"
+			}
+		}
+	},
 	"adminModule": {
 		"error": {
 			"playerNotFound": {
@@ -1020,6 +1588,26 @@
 				"trans": "갱 유지보수"
 			}
 		},
+		"culinarySupplyRun": {
+			"description": {
+				"eng": "Decode a guarded supplier route with a Data Core and recover farm goods for local kitchens. Saffron, truffles, or vanilla beans are rarely included.",
+				"trans": "데이터 코어로 경비 중인 공급 라인을 해독하고 지역 식당용 농산물을 회수하십시오. 샤프론, 트러플 또는 바닐라 빈은 드물게 포함됩니다."
+			},
+			"displayName": {
+				"eng": "Culinary Supply Run",
+				"trans": "조리용 물자 수송"
+			}
+		},
+		"farmWork": {
+			"description": {
+				"eng": "Tend a vertical hydroponic farm and harvest lettuce, tomatoes, carrots, or strawberries for local kitchens.",
+				"trans": "수직형 수경농장을 관리하고, 상추, 토마토, 당근, 딸기를 주변 식당용으로 수확하세요."
+			},
+			"displayName": {
+				"eng": "Farm Work",
+				"trans": "농장 작업"
+			}
+		},
 		"hospital": {
 			"description": {
 				"eng": "Work as a part-time extraction force for Trauma Team, with the only goal of extracting ensured client from lethal situations. ",
@@ -1661,6 +2249,10 @@
 		"hospitalizationReduction": {
 			"eng": "Hospitalization Reduction",
 			"trans": "입원 감소"
+		},
+		"meal": {
+			"eng": "Meal",
+			"trans": "식사"
 		},
 		"pvpMoneyLossReduction": {
 			"eng": "PvP Money Loss Reduction",
@@ -3634,14 +4226,6 @@
 		}
 	},
 	"common": {
-		"close": {
-			"eng": "Close",
-			"trans": "닫기"
-		},
-		"error": {
-			"eng": "Error loading investigation data",
-			"trans": "조사 데이터를 불러오는 중 오류가 발생했습니다."
-		},
 		"loading": {
 			"eng": "Loading...",
 			"trans": "로딩 중…"
@@ -3754,21 +4338,191 @@
 		}
 	},
 	"cookingPage": {
-		"cook": {
-			"eng": "Cook",
-			"trans": "요리"
+		"bench": {
+			"addOther": {
+				"eng": "Other",
+				"trans": "기타"
+			},
+			"capacity": {
+				"eng": "${current} / ${capacity}",
+				"trans": "${current} / ${capacity}"
+			},
+			"chooseIngredient": {
+				"eng": "Choose ingredient",
+				"trans": "재료를 선택하세요"
+			},
+			"exact": {
+				"eng": "Exact match. Dish ready to cook.",
+				"trans": "완벽한 매칭입니다. 메뉴 조리가 가능합니다."
+			},
+			"excess": {
+				"eng": "Remove excess units: ${count}.",
+				"trans": "과잉 유닛 제거: ${count}."
+			},
+			"freeAssembly": {
+				"eng": "Choose ingredient",
+				"trans": "재료를 선택하세요"
+			},
+			"inventoryChanged": {
+				"eng": "Ingredients changed. Restore the required inventory before cooking.",
+				"trans": "재료가 변경되었습니다. 요리 전 필요한 인벤토리를 복구하세요."
+			},
+			"inventoryHint": {
+				"eng": "Owned / needed",
+				"trans": "보유 / 필요"
+			},
+			"missing": {
+				"eng": "Add required units: ${count}.",
+				"trans": "필요한 유닛 추가: ${count}."
+			},
+			"pot": {
+				"eng": "Assembly pot",
+				"trans": "조립 포트"
+			},
+			"potRemoveHint": {
+				"eng": "Tap ingredient to remove",
+				"trans": "재료를 탭하면 제거됩니다"
+			},
+			"requirementCorrect": {
+				"eng": "Correct",
+				"trans": "올바름"
+			},
+			"requirementExcess": {
+				"eng": "Excess ${count}",
+				"trans": "초과 ${count}"
+			},
+			"requirementInventoryCount": {
+				"eng": "${owned}/${required}",
+				"trans": "${owned}/${required}"
+			},
+			"requirementMissing": {
+				"eng": "Missing ${count}",
+				"trans": "${count}개 누락"
+			},
+			"requirements": {
+				"eng": "Recipe ingredients",
+				"trans": "레시피 재료"
+			},
+			"startAssembly": {
+				"eng": "Pin a recipe for hints, or assemble from memory.",
+				"trans": "레시피를 고정하여 힌트를 받거나, 기억만으로 조립하세요."
+			},
+			"unidentified": {
+				"eng": "No dish identified yet.",
+				"trans": "아직 식별된 요리가 없습니다."
+			},
+			"wrong": {
+				"eng": "Remove wrong units: ${count}.",
+				"trans": "잘못된 유닛 삭제: ${count}개."
+			}
 		},
-		"recipes": {
-			"eng": "Recipes",
-			"trans": "레시피"
+		"cookAddIngredients": {
+			"eng": "Add ingredients to begin",
+			"trans": "재료를 추가하고 시작하세요"
+		},
+		"cookIncomplete": {
+			"eng": "Complete recipe to cook",
+			"trans": "조리를 위해 레시피를 완성하세요"
+		},
+		"cookItem": {
+			"eng": "Cook ${itemName}",
+			"trans": "${itemName} 조리"
+		},
+		"cookUnavailable": {
+			"eng": "Ingredients unavailable",
+			"trans": "재료 사용 불가"
+		},
+		"ingredientSelector": {
+			"description": {
+				"eng": "Add one owned ingredient to the pot.",
+				"trans": "보유 중인 재료를 하나 냄비에 넣으세요."
+			},
+			"empty": {
+				"eng": "No cooking ingredients available.",
+				"trans": "요리 재료가 없습니다."
+			},
+			"owned": {
+				"eng": "×${owned}",
+				"trans": "×${owned}"
+			},
+			"title": {
+				"eng": "Choose ingredient",
+				"trans": "재료를 선택하세요"
+			}
+		},
+		"recipeInput": {
+			"browse": {
+				"eng": "Browse recipes",
+				"trans": "레시피 보기"
+			},
+			"check": {
+				"eng": "Check recipe",
+				"trans": "레시피 확인"
+			},
+			"empty": {
+				"eng": "No recipe selected",
+				"trans": "선택된 레시피가 없습니다"
+			},
+			"label": {
+				"eng": "Recipe target",
+				"trans": "제작 대상"
+			},
+			"unpin": {
+				"eng": "Unpin",
+				"trans": "고정 해제"
+			}
+		},
+		"recipeSelector": {
+			"chooseRecipe": {
+				"eng": "Choose recipe",
+				"trans": "레시피 선택"
+			},
+			"pinRecipe": {
+				"eng": "Pin recipe",
+				"trans": "레시피 고정"
+			},
+			"pinRecipeClearPot": {
+				"eng": "Pin recipe · clear pot",
+				"trans": "레시피 고정 · 냄비 비우기"
+			},
+			"recipeTier": {
+				"eng": "${tier} recipe",
+				"trans": "${tier} 제조법"
+			}
+		},
+		"recipeUnavailable": {
+			"eng": "This recipe is no longer available.",
+			"trans": "이 레시피는 더 이상 사용할 수 없습니다."
+		},
+		"result": {
+			"exact": {
+				"eng": "Dish identified",
+				"trans": "접식 식벌 완료"
+			},
+			"pending": {
+				"eng": "Dish unidentified",
+				"trans": "미확인 요리"
+			},
+			"pendingHint": {
+				"eng": "Complete a recipe to reveal the result.",
+				"trans": "레시피를 완성하면 결과가 공개됩니다."
+			}
 		},
 		"selectAmount": {
+			"confirm": {
+				"eng": "Cook batch",
+				"trans": "일괄 조리"
+			},
 			"eng": "Select amount",
 			"trans": "수량 선택"
 		},
-		"selectRecipe": {
-			"eng": "Select a recipe below",
-			"trans": "아래에서 레시피를 선택하세요"
+		"stationLabel": {
+			"eng": "Assembly bench",
+			"trans": "조립대"
+		},
+		"title": {
+			"eng": "Cooking",
+			"trans": "요리"
 		}
 	},
 	"costDisplay": {
@@ -5776,13 +6530,9 @@
 			"eng": "Attempt Arrest",
 			"trans": "체포 시도"
 		},
-		"description": {
-			"eng": "Join the fight for justice in Arclight City! The ACPD calls upon vigilant citizens to aid in the pursuit of wanted criminals. Your city needs you! Bring in the fugitives, dead or alive, and earn substantial rewards. Together, we'll make Arclight City safer for all. 🌃👮‍♂️\\n#CitizenArrest #ACPDJustice",
-			"trans": "아크라이트 시티의 정의를 위한 전투에 참여하세요! ACPD는 원하는 범죄자를 추적하는 데 도움을 줄 수 있는 경계심이 있는 시민들을 모집합니다. 당신의 도시가 당신을 필요로 합니다! 생사불문 도망자를 체포하고 상당한 보상을 받으세요. 함께 아크라이트 시티를 모두를 위해 더 안전하게 만들어 갑시다. 🌃👮‍♂️\\n#시민체포 #ACPD정의"
-		},
 		"expire": {
-			"eng": "expire date",
-			"trans": "만료일"
+			"eng": "Expires",
+			"trans": "만료됨"
 		},
 		"level": {
 			"eng": "Level",
@@ -5792,25 +6542,9 @@
 			"eng": "Loading...",
 			"trans": "`로딩 중...`"
 		},
-		"name": {
-			"eng": "Name",
-			"trans": "이름"
-		},
-		"noPlayers": {
-			"eng": "No criminals with active arrest warrant.",
-			"trans": "활성화된 체포 영장을 가진 범죄자는 없습니다."
-		},
-		"title": {
-			"eng": "Wanted Criminals",
-			"trans": "수배범"
-		},
 		"viewProfile": {
 			"eng": "View profile",
 			"trans": "프로필 보기"
-		},
-		"wantedLevel": {
-			"eng": "Wanted level",
-			"trans": "수배 레벨"
 		}
 	},
 	"infoModal": {
@@ -5903,6 +6637,296 @@
 			"trans": "${name}이(가) 부족합니다"
 		}
 	},
+	"intelMarket": {
+		"archive": {
+			"loading": {
+				"eng": "Opening resolution ledger",
+				"trans": "해결 대장을 여는 중"
+			},
+			"solvedCases": {
+				"eng": "Solved cases",
+				"trans": "해결된 사건"
+			}
+		},
+		"clueDetail": {
+			"closeEvidence": {
+				"eng": "Close evidence",
+				"trans": "증거 닫기"
+			},
+			"context": {
+				"eng": "${caseName} // evidence ${progress}",
+				"trans": "${caseName} // 증거 ${progress}"
+			}
+		},
+		"conclusion": {
+			"choose": {
+				"eng": "Select a conclusion",
+				"trans": "결론을 선택하세요"
+			},
+			"confirm": {
+				"cancel": {
+					"eng": "Cancel",
+					"trans": "취소"
+				},
+				"consequence": {
+					"eng": "One permit is consumed. Rejection closes this dossier.",
+					"trans": "허가증 1장이 소모됩니다. 거절 시 이 사건 파일이 폐쇄됩니다."
+				},
+				"cost": {
+					"eng": "Permit cost",
+					"trans": "허가 비용"
+				},
+				"submit": {
+					"eng": "Submit conclusion",
+					"trans": "결론 제출"
+				}
+			},
+			"imageAlt": {
+				"eng": "Conclusion ${number}",
+				"trans": "결론 ${number}"
+			},
+			"position": {
+				"eng": "CONCLUSION ${current} / ${total}",
+				"trans": "결론 ${current} / ${total}"
+			},
+			"selectNumber": {
+				"eng": "Select conclusion ${number}",
+				"trans": "결론 ${number} 선택"
+			}
+		},
+		"connection": {
+			"blindRelay": {
+				"eng": "BLIND",
+				"trans": "실명"
+			},
+			"channelOpen": {
+				"eng": "CHANNEL OPEN",
+				"trans": "채널 개방"
+			},
+			"edgeRelay": {
+				"eng": "EDGE",
+				"trans": "첨단"
+			},
+			"identity": {
+				"eng": "IDENTITY // ${name}",
+				"trans": "신원 // ${name}"
+			},
+			"rootRelay": {
+				"eng": "ROOT",
+				"trans": "ROOT"
+			},
+			"unlistedRelay": {
+				"eng": "UNLISTED RELAY",
+				"trans": "미등재 중계기"
+			}
+		},
+		"discovery": {
+			"closeEvidence": {
+				"eng": "Close evidence",
+				"trans": "증거 닫기"
+			},
+			"dossierComplete": {
+				"eng": "DOSSIER COMPLETE",
+				"trans": "파일 완료"
+			},
+			"evidenceIntake": {
+				"eng": "INTEL MARKET // EVIDENCE INTAKE",
+				"trans": "정보 시장 // 증거 접수"
+			},
+			"evidenceRecovered": {
+				"eng": "EVIDENCE RECOVERED",
+				"trans": "증거 회수"
+			},
+			"loadError": {
+				"eng": "Evidence recovery failed.",
+				"trans": "증거 복구 실패"
+			},
+			"moreEvidenceNeeded": {
+				"eng": "Evidence incomplete. Continue the stronghold sweep.",
+				"trans": "증거가 부족합니다. 아지트 수색을 계속하세요."
+			},
+			"newDossier": {
+				"eng": "NEW DOSSIER MATCHED",
+				"trans": "새로운 사건 파일이 일치했습니다"
+			},
+			"readyToConclude": {
+				"eng": "All evidence is recovered. Review the dossier before transmitting a conclusion.",
+				"trans": "모든 증거가 회수되었습니다. 결론을 전송하기 전에 기록 파일을 검토하세요."
+			}
+		},
+		"dossier": {
+			"abandonAction": {
+				"eng": "Abandon dossier",
+				"trans": "자료 포기"
+			},
+			"abandonConfirm": {
+				"confirm": {
+					"eng": "Abandon dossier",
+					"trans": "자료 포기"
+				},
+				"message": {
+					"eng": "All recovered evidence will be discarded. Your next piece of evidence will be matched to another dossier.",
+					"trans": "회수된 모든 증거는 폐기됩니다. 당신이 다음에 획득할 증거는 다른 사건 파일에 배정됩니다."
+				},
+				"title": {
+					"eng": "Abandon dossier?",
+					"trans": "문서를 폐기하시겠습니까?"
+				}
+			},
+			"abandonFailed": {
+				"eng": "Failed to abandon dossier. Please try again.",
+				"trans": "문서 포기에 실패했습니다. 다시 시도해 주세요."
+			},
+			"abandoned": {
+				"eng": "Dossier abandoned. Recovered evidence was discarded.",
+				"trans": "문서 폐기됨. 회수한 증거물 폐기됨."
+			},
+			"active": {
+				"eng": "Active blackfile",
+				"trans": "활성 블랙파일"
+			},
+			"empty": {
+				"eng": "No active case",
+				"trans": "진행 중인 사건 없음"
+			},
+			"evidence": {
+				"eng": "Evidence",
+				"trans": "증거"
+			},
+			"loading": {
+				"eng": "Retrieving blackfile",
+				"trans": "블랙파일 불러오는 중"
+			},
+			"openEvidence": {
+				"eng": "Open evidence: ${name}",
+				"trans": "증거 열기: ${name}"
+			},
+			"recoverEvidenceTip": {
+				"eng": "Recover all evidence to submit a conclusion.",
+				"trans": "모든 증거를 회수하여 결론을 제출하세요."
+			},
+			"transmitConclusion": {
+				"eng": "Transmit conclusion",
+				"trans": "결론 전송"
+			},
+			"unidentified": {
+				"eng": "Unidentified",
+				"trans": "미확인"
+			}
+		},
+		"failure": {
+			"close": {
+				"eng": "Close contract",
+				"trans": "계약 종료"
+			},
+			"consequence": {
+				"eng": "CONTRACT CONSEQUENCE",
+				"trans": "계약 결과"
+			},
+			"dossier": {
+				"eng": "DOSSIER",
+				"trans": "기록"
+			},
+			"evidenceReview": {
+				"eng": "EVIDENCE REVIEW",
+				"trans": "증거 검토"
+			},
+			"exchange": {
+				"eng": "INTEL MARKET // CONCLUSION EXCHANGE",
+				"trans": "정보 시장 // 결론 교환"
+			},
+			"footer": {
+				"eng": "ROOT BREACH RELAY // SESSION CLOSED",
+				"trans": "루트 침투 중계 // 세션 종료"
+			},
+			"mismatch": {
+				"eng": "The submitted conclusion conflicts with the recovered evidence.",
+				"trans": "제출된 결론은 회수된 증거와 모순됩니다."
+			},
+			"rejected": {
+				"eng": "CONCLUSION REJECTED",
+				"trans": "결론 기각"
+			},
+			"status": {
+				"eng": "CONTRACT STATUS // VOID",
+				"trans": "계약 상태 // 무효"
+			},
+			"voided": {
+				"eng": "The market has voided this dossier. Recovered evidence is no longer available.",
+				"trans": "시장은 이 문서를 무효화했습니다. 복구된 증거는 더 이상 제공되지 않습니다."
+			}
+		},
+		"pending": {
+			"completeCurrentDossier": {
+				"eng": "This dossier is complete. Transmit a conclusion before recovering more evidence.",
+				"trans": "사건 파일이 완성되었습니다. 추가 증거를 확보하기 전에 결론을 전송하십시오."
+			},
+			"dossierComplete": {
+				"eng": "INTEL MARKET // DOSSIER COMPLETE",
+				"trans": "정보 시장 // 자료 완료"
+			},
+			"evidenceRecovered": {
+				"eng": "EVIDENCE RECOVERED",
+				"trans": "증거 회수"
+			},
+			"noCompleteDossier": {
+				"eng": "No complete dossier is pending.",
+				"trans": "대기 중인 완성된 서류가 없습니다."
+			},
+			"openIntelMarket": {
+				"eng": "Open INTEL MARKET",
+				"trans": "정보 시장 열기"
+			},
+			"return": {
+				"eng": "Return to stronghold",
+				"trans": "아지트로 돌아가기"
+			}
+		},
+		"portal": {
+			"activeCase": {
+				"eng": "Active Case",
+				"trans": "진행 중인 사건"
+			},
+			"network": {
+				"eng": "Independent dossier relay",
+				"trans": "독립형 정보 파일 중계"
+			},
+			"resolver": {
+				"eng": "Resolver",
+				"trans": "해결자"
+			},
+			"solvedCases": {
+				"eng": "Solved Cases",
+				"trans": "해결된 사건"
+			},
+			"title": {
+				"eng": "Intel Market",
+				"trans": "정보 시장"
+			}
+		},
+		"success": {
+			"close": {
+				"eng": "Close contract",
+				"trans": "계약 종료"
+			},
+			"conclusionAccepted": {
+				"eng": "Conclusion accepted. The source has released the sealed record.",
+				"trans": "결론 수락됨. 출처가 봉인된 기록을 해제했습니다."
+			},
+			"dossierResolved": {
+				"eng": "INTEL MARKET // DOSSIER RESOLVED",
+				"trans": "정보 시장 // 파일 처리 완료"
+			},
+			"marketPayout": {
+				"eng": "MARKET PAYOUT",
+				"trans": "시장 지급액"
+			},
+			"sealedRecord": {
+				"eng": "SEALED RECORD",
+				"trans": "봉인된 기록"
+			}
+		}
+	},
 	"inventory": {
 		"discard": {
 			"modal": {
@@ -5967,130 +6991,58 @@
 					}
 				}
 			}
+		},
+		"use": {
+			"refreshCulinary": {
+				"confirm": {
+					"eng": "Use anyway",
+					"trans": "그래도 사용"
+				},
+				"description": {
+					"eng": "${effect} is already active. Using this item will reset its remaining duration instead of extending it.",
+					"trans": "${effect} 상태가 이미 활성화되어 있습니다. 이 아이템을 사용하면 남은 지속 시간이 연장되는 대신 초기화됩니다."
+				},
+				"title": {
+					"eng": "Food effect already active",
+					"trans": "음식効果が 이미 활성화되어 있습니다"
+				}
+			},
+			"replaceCulinary": {
+				"confirm": {
+					"eng": "Use and replace",
+					"trans": "사용 후 교체"
+				},
+				"currentEffect": {
+					"eng": "Active food effect",
+					"trans": "활성화된 음식 효과"
+				},
+				"description": {
+					"eng": "Using ${newEffect} will replace the active effect shown below.",
+					"trans": "${newEffect} 사용 시 아래에 표시된 활성 효과가 대체됩니다."
+				},
+				"remaining": {
+					"eng": "${duration} remaining",
+					"trans": "남은 시간 ${duration}"
+				},
+				"title": {
+					"eng": "Replace active food effect?",
+					"trans": "현재 활성화된 음식効果を 대체할까요?"
+				}
+			}
 		}
 	},
 	"investigation": {
-		"abandon": {
-			"eng": "Abandon",
-			"trans": "포기"
-		},
-		"abandonConfirm": {
-			"confirm": {
-				"eng": "Abandon",
-				"trans": "포기"
-			},
-			"message": {
-				"eng": "Are you sure you want to abandon this case? All collected clues will be lost and you'll need to start over with a new case.",
-				"trans": "이 사건을 포기하시겠습니까? 수집한 모든 단서는 사라지며 새 사건으로 다시 시작해야 합니다."
-			},
-			"title": {
-				"eng": "Abandon Investigation?",
-				"trans": "조사를 포기하시겠습니까?"
-			}
-		},
-		"abandonFailed": {
-			"eng": "Failed to abandon investigation. Please try again.",
-			"trans": "조사 중단에 실패했습니다. 다시 시도하세요."
-		},
-		"abandoned": {
-			"eng": "Investigation abandoned. You can start a new case anytime.",
-			"trans": "조사가 중단되었습니다. 언제든 새 사건을 시작하세요."
-		},
-		"acknowledgeFailure": {
-			"eng": "ACKNOWLEDGE",
-			"trans": "확인"
-		},
-		"allCluesCollected": {
-			"eng": "ALL CLUES COLLECTED",
-			"trans": "모든 단서 수집 완료"
-		},
-		"analysisComplete": {
-			"eng": "ANALYSIS COMPLETE",
-			"trans": "분석 완료"
-		},
-		"analysisResult": {
-			"eng": "ANALYSIS RESULT",
-			"trans": "분석 결과"
-		},
-		"analyzingEvidence": {
-			"eng": "ANALYZING EVIDENCE...",
-			"trans": "증거 분석 중…"
-		},
 		"caseId": {
 			"eng": "Case ${id}",
 			"trans": "케이스 ${id}"
-		},
-		"caseId2": {
-			"eng": "CASE ID",
-			"trans": "케이스 ID"
-		},
-		"caseResolved": {
-			"eng": "ACPD Case Resolved",
-			"trans": "ACPD 사건 해결"
 		},
 		"caseSolved": {
 			"eng": "Investigation solved! ${caseName}",
 			"trans": "수사 완료! ${caseName}"
 		},
-		"caseStatus": {
-			"eng": "CASE STATUS",
-			"trans": "사건 상태"
-		},
-		"close": {
-			"eng": "Close",
-			"trans": "닫기"
-		},
-		"closed": {
-			"eng": "CLOSED - FAILED",
-			"trans": "닫힘 - 실패"
-		},
 		"clueCollected": {
 			"eng": "Clue discovered: ${clueName}",
 			"trans": "단서 발견: ${clueName}"
-		},
-		"clueFound": {
-			"eng": "CLUE DISCOVERED",
-			"trans": "단서 발견"
-		},
-		"collectedClues": {
-			"eng": "Collected Clues",
-			"trans": "수집된 단서"
-		},
-		"continue": {
-			"eng": "Continue",
-			"trans": "계속"
-		},
-		"contradictoryElements": {
-			"eng": "Multiple contradictory elements detected in the proposed verdict.",
-			"trans": "제안된 판단에 모순되는 요소가 여러 개 감지되었습니다."
-		},
-		"correctVerdict": {
-			"eng": "Your deduction was correct. The truth has been uncovered.",
-			"trans": "추론이 정확했습니다. 진실이 밝혀졌습니다."
-		},
-		"deliverVerdict": {
-			"eng": "Deliver Your Verdict",
-			"trans": "판단 제출"
-		},
-		"errorCode": {
-			"eng": "ERROR CODE",
-			"trans": "오류 코드"
-		},
-		"errorLoadingClue": {
-			"eng": "Error loading clue",
-			"trans": "힌트 불러오기 실패"
-		},
-		"evidenceAcquired": {
-			"eng": "Evidence Logged - ACPD Database",
-			"trans": "증거 기록됨 - 아클라이트시 경찰서 데이터베이스"
-		},
-		"evidenceMismatch": {
-			"eng": "The submitted conclusion does not align with available evidence patterns.",
-			"trans": "제출된 결론이 사용 가능한 증거 패턴과 일치하지 않습니다."
-		},
-		"evidenceNumber": {
-			"eng": "Evidence #${number}",
-			"trans": "증거 #${number}"
 		},
 		"imageUnavailable": {
 			"eng": "Image Unavailable",
@@ -6099,90 +7051,6 @@
 		"investigationAbandoned": {
 			"eng": "Investigation abandoned. You can start a new case anytime.",
 			"trans": "조사가 중단되었습니다. 언제든 새 사건을 시작하세요."
-		},
-		"investigationClosed": {
-			"eng": "Investigation terminated. Case file closed. Evidence confiscated.",
-			"trans": "조사가 종료되었습니다. 사건 파일이 닫혔습니다. 증거가 압수되었습니다."
-		},
-		"investigationStatus": {
-			"eng": "INVESTIGATION STATUS",
-			"trans": "조사 현황"
-		},
-		"moreCluesNeeded": {
-			"eng": "Continue exploring to find more clues...",
-			"trans": "계속 탐험해서 더 많은 단서를 찾으세요."
-		},
-		"needMoreClues": {
-			"short": {
-				"eng": "Find more clues in dungeons",
-				"trans": "던전에서 더 많은 단서를 찾아보세요."
-			}
-		},
-		"newCase": {
-			"eng": "New Case",
-			"trans": "새 케이스"
-		},
-		"noActiveCase": {
-			"header": {
-				"eng": "ACPD INVESTIGATION TERMINAL",
-				"trans": "아클라이트시 경찰서 조사 터미널"
-			},
-			"intelBody1": {
-				"eng": "This console activates automatically once you capture your first clue.",
-				"trans": "첫 단서를 확보하면 이 콘솔이 자동으로 활성화됩니다."
-			},
-			"intelBody2": {
-				"eng": "Track the entire case from here—clues, summaries, and final verdict submission.",
-				"trans": "여기에서 사건 전체를 추적하세요 — 단서, 요약 및 최종 판결 제출."
-			},
-			"intelHeader": {
-				"eng": "INTEL DISPATCH",
-				"trans": "정보 전송"
-			},
-			"requirement": {
-				"eng": "4 clues required per case",
-				"trans": "각 사건에 4개의 단서가 필요합니다."
-			},
-			"statusInline": {
-				"eng": "Case Slot Open • Permit required to submit verdict",
-				"trans": "사건 슬롯 개방 • 판결 제출 시 허가 필요"
-			},
-			"timelineAcquire": {
-				"desc": {
-					"eng": "Stronghold investigation points feed clues directly into this console.",
-					"trans": "아지트 조사 포인트가 이 콘솔에 단서를 직접 전달합니다."
-				},
-				"eng": "Acquire Intel",
-				"trans": "정보 확보"
-			},
-			"timelineAssemble": {
-				"desc": {
-					"eng": "Collect all four clues to unlock the verdict authorization rail.",
-					"trans": "모든 4개의 단서를 수집해 판결 승인 레일을 잠금 해제하세요."
-				},
-				"eng": "Assemble Evidence",
-				"trans": "증거 수집"
-			},
-			"timelineSubmit": {
-				"desc": {
-					"eng": "Spend one Investigation Access Permit to commit your conclusion.",
-					"trans": "조사 접근 허가증 1개를 사용해 결론을 확정하세요."
-				},
-				"eng": "Deliver Verdict",
-				"trans": "판결 내리기"
-			},
-			"tipBody": {
-				"eng": "Tap to open the Investigation field manual and review how cases operate.",
-				"trans": "탭하면 조사 현장 매뉴얼을 열고 사건 진행 방식을 확인하세요."
-			},
-			"tipTitle": {
-				"eng": "Need a briefing?",
-				"trans": "브리핑이 필요하신가요?"
-			},
-			"totalSolved": {
-				"eng": "Solved dossiers: ${count}",
-				"trans": "해결한 파일: ${count}"
-			}
 		},
 		"noActiveInvestigation": {
 			"eng": "You have no active investigation to abandon.",
@@ -6204,22 +7072,6 @@
 			"eng": "You must collect all clues before solving the case.",
 			"trans": "사건을 해결하기 전에 모든 단서를 수집하세요."
 		},
-		"processingVerdict": {
-			"eng": "PROCESSING VERDICT...",
-			"trans": "판단 처리 중..."
-		},
-		"readyToSolve": {
-			"eng": "You have all the evidence. Review your findings and solve the case.",
-			"trans": "모든 증거를 확보했습니다. 결과를 검토하고 사건을 해결하세요."
-		},
-		"rewards": {
-			"eng": "Rewards",
-			"trans": "보상"
-		},
-		"selectChoice": {
-			"eng": "Please select a conclusion",
-			"trans": "결론을 선택하세요"
-		},
 		"solveCasesHint": {
 			"eng": "Complete investigations to see them here",
 			"trans": "조사를 마치고 여기에서 확인하세요"
@@ -6228,77 +7080,9 @@
 			"eng": "Solved ${time}",
 			"trans": "완료 ${time}"
 		},
-		"solvedCases": {
-			"description": {
-				"eng": "Review completed cases and revisit final reports.",
-				"trans": "완료된 사건을 검토하고 최종 보고서를 다시 확인하세요."
-			},
-			"header": {
-				"eng": "Solved Investigations Registry",
-				"trans": "해결된 조사 목록"
-			},
-			"solved": {
-				"eng": "solved",
-				"trans": "해결됨"
-			}
-		},
-		"submit": {
-			"eng": "Submit Verdict",
-			"trans": "판결 제출"
-		},
 		"submitError": {
 			"eng": "Failed to submit verdict. Please try again.",
 			"trans": "판단 전송에 실패했습니다. 다시 시도하세요."
-		},
-		"submitVerdict": {
-			"eng": "Submit Your Verdict",
-			"trans": "판단 제출"
-		},
-		"systemPrefix": {
-			"eng": "SYS",
-			"trans": "시스템"
-		},
-		"terminalFooter": {
-			"eng": "ARCLIGHT CITY INVESTIGATION BUREAU // CLASSIFIED",
-			"trans": "아크라이트 시티 수사국 // 기밀"
-		},
-		"terminalHeader": {
-			"eng": "ACPD INVESTIGATION ANALYSIS SYSTEM",
-			"trans": "ACPD 수사 분석 시스템"
-		},
-		"theStory": {
-			"eng": "The Full Story",
-			"trans": "전체 스토리"
-		},
-		"verdictImage": {
-			"eng": "Verdict ${num} investigation image",
-			"trans": "판단 ${num} 조사 이미지"
-		},
-		"verdictRejected": {
-			"eng": "VERDICT REJECTED",
-			"trans": "판결 거부됨"
-		}
-	},
-	"investigationPendingModal": {
-		"allCluesCollectedMessage": {
-			"eng": "You have collected all evidence for your current investigation. Complete this case before starting a new one.",
-			"trans": "현재 조사의 모든 증거를 수집했습니다. 새 사건을 시작하기 전 이 사건을 마무리하세요."
-		},
-		"caseReadyToSolve": {
-			"eng": "ACPD Case Ready to Solve",
-			"trans": "ACPD 사건 해결 준비 완료"
-		},
-		"continueExploring": {
-			"eng": "Continue Exploring",
-			"trans": "계속 탐험"
-		},
-		"evidenceCollected": {
-			"eng": "Evidence Collected",
-			"trans": "증거 수집 완료"
-		},
-		"solveFromInvestigationLog": {
-			"eng": "Visit your Investigation Log to review evidence and solve the case.",
-			"trans": "조사 로그에서 증거를 검토하고 사건을 해결하세요."
 		}
 	},
 	"item": {
@@ -6872,6 +7656,12 @@
 				"trans": "재료"
 			}
 		},
+		"meal": {
+			"name": {
+				"eng": "Meal",
+				"trans": "식사"
+			}
+		},
 		"meat": {
 			"name": {
 				"eng": "Meat",
@@ -7052,6 +7842,26 @@
 				"trans": "자동 수집 부스트"
 			}
 		},
+		"bibimbap": {
+			"description": {
+				"eng": "Rice topped with braised pork, egg, and hydroponic vegetables.",
+				"trans": "돼지고기 장조림과 달걀, 수경재배 채소를 올린 밥"
+			},
+			"name": {
+				"eng": "Bibimbap",
+				"trans": "비빔밥"
+			}
+		},
+		"blackTruffle": {
+			"description": {
+				"eng": "An intensely aromatic truffle reserved for exceptional cooking.",
+				"trans": "향기가 매우 짙어 뛰어난 요리에만 쓰이는 트러플."
+			},
+			"name": {
+				"eng": "Black Truffle",
+				"trans": "블랙 트러플"
+			}
+		},
 		"boots": {
 			"description": {
 				"eng": "A piece of equipment that protects the feet.",
@@ -7060,6 +7870,16 @@
 			"name": {
 				"eng": "Boots",
 				"trans": "신발"
+			}
+		},
+		"bouillabaisse": {
+			"description": {
+				"eng": "A saffron fish stew simmered with tomato and vegetables.",
+				"trans": "사프란을 넣어 토마토와 채소를 푹 끓인 생선 스튜"
+			},
+			"name": {
+				"eng": "Bouillabaisse",
+				"trans": "부야베스"
 			}
 		},
 		"braisedPorkRice": {
@@ -7090,6 +7910,16 @@
 			"name": {
 				"eng": "Bread",
 				"trans": "빵"
+			}
+		},
+		"breadedFish": {
+			"description": {
+				"eng": "Fish coated in crisp breadcrumbs and fried until golden.",
+				"trans": "바삭한 빵가루를 입혀 노릇하게 튀긴 생선"
+			},
+			"name": {
+				"eng": "Breaded Fish",
+				"trans": "빵가루 코팅 생선"
 			}
 		},
 		"burger": {
@@ -7130,6 +7960,26 @@
 			"name": {
 				"eng": "Calibration Stabilizer",
 				"trans": "교정 안정 장치"
+			}
+		},
+		"carrot": {
+			"description": {
+				"eng": "A crisp hydroponic root used in seasoned rice and stock.",
+				"trans": "양념밥과 육수에 사용하는 아삭한 수경재배 뿌리"
+			},
+			"name": {
+				"eng": "Carrot",
+				"trans": "당근"
+			}
+		},
+		"cheesecake": {
+			"description": {
+				"eng": "A rich vanilla cream filling baked over a tender cake base.",
+				"trans": "부드러운 케이크 베이스 위에 진한 바닐라 크림 필링을 올려 구운 디저트."
+			},
+			"name": {
+				"eng": "Cheesecake",
+				"trans": "치즈케이크"
 			}
 		},
 		"christmasEliteKey": {
@@ -7202,6 +8052,26 @@
 				"trans": "평범한 레벨 샤드"
 			}
 		},
+		"cremeBrulee": {
+			"description": {
+				"eng": "Vanilla custard finished beneath a thin caramelized crust.",
+				"trans": "바닐라 커스터드는 얇은 캐러라이즈된 껍질로 덮여 마무리되어 있다."
+			},
+			"name": {
+				"eng": "Crème Brûlée",
+				"trans": "크레브르르"
+			}
+		},
+		"crispyFishSalad": {
+			"description": {
+				"eng": "Breaded fish served over crisp lettuce and tomato.",
+				"trans": "아삭한 상추와 토마토 위에 바삭하게 빵가루를 입힌 생선튀김을 올려 낸다."
+			},
+			"name": {
+				"eng": "Crispy Fish Salad",
+				"trans": "바삭한 생선 샐러드"
+			}
+		},
 		"dataCore": {
 			"description": {
 				"eng": "Military grade datacubes containing encrypted intelligence data. Highly valuable to information brokers.",
@@ -7240,6 +8110,26 @@
 			"name": {
 				"eng": "Egg",
 				"trans": "계란"
+			}
+		},
+		"eggSandwich": {
+			"description": {
+				"eng": "Tea-seasoned egg, fresh produce, and bread served as a compact sandwich.",
+				"trans": "차향 달걀과 신선한 채소를 넣은 빵으로 만든 컴팩트 샌드위치"
+			},
+			"name": {
+				"eng": "Egg Sandwich",
+				"trans": "계란 샌드위치"
+			}
+		},
+		"eggsBenedict": {
+			"description": {
+				"eng": "Poached egg and pork on toasted bread finished with warm truffle butter.",
+				"trans": "토스트에 수란과 돼지고기를 올려 따뜻한 트러플 버터로 마무리한 요리."
+			},
+			"name": {
+				"eng": "Eggs Benedict",
+				"trans": "에그 베네딕트"
 			}
 		},
 		"emergencyMedkit": {
@@ -7300,6 +8190,16 @@
 				"trans": "물고기"
 			}
 		},
+		"fishChowder": {
+			"description": {
+				"eng": "A thick soup made with fish, milk, and flour.",
+				"trans": "생선, 우유, 밀가루로 만든 진한 수프."
+			},
+			"name": {
+				"eng": "Fish Chowder",
+				"trans": "생선 스프"
+			}
+		},
 		"flour": {
 			"description": {
 				"eng": "A basic ingredient used in baking.",
@@ -7308,6 +8208,26 @@
 			"name": {
 				"eng": "Flour",
 				"trans": "밀가루"
+			}
+		},
+		"fruitTrifle": {
+			"description": {
+				"eng": "Layers of cake, sweetened milk cream, and hydroponic fruit.",
+				"trans": "겹겹이 쌓인 케이크, 달콤한 우유 크림, 수경재배 과일."
+			},
+			"name": {
+				"eng": "Fruit Trifle",
+				"trans": "과일 트라이플"
+			}
+		},
+		"fullBreakfast": {
+			"description": {
+				"eng": "A filling plate of grilled meat, egg, bread, and hydroponic produce.",
+				"trans": "구운 고기, 달걀, 빵, 수경 채소로 가득 찬 든든한 한 접시"
+			},
+			"name": {
+				"eng": "Full Breakfast",
+				"trans": "풍성한 아침 식사"
 			}
 		},
 		"gangControlResource": {
@@ -7410,8 +8330,8 @@
 		},
 		"investigationAccessPermit": {
 			"description": {
-				"eng": "ACPD investigation system access authorization. Required to submit case verdicts. Consumed upon submission regardless of outcome.",
-				"trans": "아클라이트시 경찰서 조사 시스템 접근 인증. 사건 판결을 제출해야 합니다. 결과와 상관없이 소모됩니다."
+				"eng": "INTEL MARKET conclusion access credential. Required to transmit a dossier conclusion. Consumed upon submission regardless of outcome.",
+				"trans": "정보 시장의 결론 접근 권한 증표입니다. 수사 자료의 결론 전송에 필요합니다. 제출 시 결과와 무관하게 소모됩니다."
 			},
 			"name": {
 				"eng": "Investigation Access Permit",
@@ -7474,6 +8394,16 @@
 			"name": {
 				"eng": "Unique Key Fragment",
 				"trans": "유일한 열쇠 조각"
+			}
+		},
+		"lettuce": {
+			"description": {
+				"eng": "Crisp hydroponic leaves used in bowls and sandwiches.",
+				"trans": "볼과 샌드위치에 사용되는 아삭한 수경재배 잎"
+			},
+			"name": {
+				"eng": "Lettuce",
+				"trans": "상추"
 			}
 		},
 		"levelLootBox1": {
@@ -7614,6 +8544,16 @@
 				"trans": "신화적 업그레이드 샤드"
 			}
 		},
+		"nasiGoreng": {
+			"description": {
+				"eng": "Fried rice with satay and hydroponic vegetables.",
+				"trans": "사테와 수경 재배 채소가 들어간 볶음밥"
+			},
+			"name": {
+				"eng": "Nasi Goreng",
+				"trans": "나시고랭"
+			}
+		},
 		"netcoin": {
 			"description": {
 				"eng": "NetCoin is a digital currency mainly used in black market transactions. It is untraceable and can be used to purchase illegal goods and services.",
@@ -7640,6 +8580,16 @@
 				"trans": "펜던트"
 			}
 		},
+		"pokeBowl": {
+			"description": {
+				"eng": "Raw fish, rice, and hydroponic vegetables arranged in a fresh bowl.",
+				"trans": "신선한 그릇에 담긴 날생선, 밥, 수경재배 채소"
+			},
+			"name": {
+				"eng": "Poke Bowl",
+				"trans": "포케볼"
+			}
+		},
 		"pork": {
 			"description": {
 				"eng": "Slice of ordinary synthetic pork",
@@ -7648,6 +8598,26 @@
 			"name": {
 				"eng": "Pork",
 				"trans": "돼지고기"
+			}
+		},
+		"porkBiryani": {
+			"description": {
+				"eng": "Spiced pork and rice cooked together with fragrant saffron stock.",
+				"trans": "향긋한 사프란 육수에 양념 돼지고기와 쌀을 함께 넣어 조린 요리"
+			},
+			"name": {
+				"eng": "Pork Biryani",
+				"trans": "돼지고기 비리야니"
+			}
+		},
+		"porkWellington": {
+			"description": {
+				"eng": "Tender pork and truffle butter sealed inside a crisp pastry crust.",
+				"trans": "부드러운 돼지고기와 트러플 버터를 바삭하게 구운 페이스트리 껍질에 넣어 밀봉했다."
+			},
+			"name": {
+				"eng": "Pork Wellington",
+				"trans": "포크 웰링턴"
 			}
 		},
 		"prefixInjectorShard": {
@@ -7774,10 +8744,50 @@
 				"trans": "쌀"
 			}
 		},
+		"riceCake": {
+			"description": {
+				"eng": "A soft steamed cake made from rice and flour.",
+				"trans": "쌀과 밀가루로 만든 부드러운 찐 케이크."
+			},
+			"name": {
+				"eng": "Rice Cake",
+				"trans": "떡"
+			}
+		},
+		"ricePudding": {
+			"description": {
+				"eng": "A sweet pudding made from rice and milk.",
+				"trans": "쌀과 우유로 만든 달콤한 푸딩"
+			},
+			"name": {
+				"eng": "Rice Pudding",
+				"trans": "라이스 푸딩"
+			}
+		},
 		"ring": {
 			"name": {
 				"eng": "Ring",
 				"trans": "반지"
+			}
+		},
+		"saffronStock": {
+			"description": {
+				"eng": "A rich vegetable stock infused with saffron.",
+				"trans": "샤프론이 스며든 진한 채소 육수."
+			},
+			"name": {
+				"eng": "Saffron Stock",
+				"trans": "사프란 육수"
+			}
+		},
+		"saffronThreads": {
+			"description": {
+				"eng": "Fragrant crimson threads used to prepare deeply seasoned stocks.",
+				"trans": "풍미가 깊은 국물을 낼 때 사용하는 향긋한 붉은 실입니다."
+			},
+			"name": {
+				"eng": "Saffron Threads",
+				"trans": "사프렌 실"
 			}
 		},
 		"saleCreditChip": {
@@ -7800,6 +8810,16 @@
 				"trans": "사테"
 			}
 		},
+		"seafoodPaella": {
+			"description": {
+				"eng": "Saffron rice cooked with fish, vegetables, and a deeply seasoned stock.",
+				"trans": "생선과 채소를 넣고 진한 풍미의 육수로 지은 샤프란 라이스"
+			},
+			"name": {
+				"eng": "Seafood Paella",
+				"trans": "해물 파에야"
+			}
+		},
 		"shadowToken": {
 			"description": {
 				"eng": "A token can be used to trade with the merchants in strongholds.",
@@ -7808,6 +8828,46 @@
 			"name": {
 				"eng": "Shadow Token",
 				"trans": "그림자 토큰"
+			}
+		},
+		"soupAndSalad": {
+			"description": {
+				"eng": "Tomato soup served with a fresh lettuce salad and bread.",
+				"trans": "신선한 양상채 샐러드와 빵과 함께 제공되는 토마토 수프."
+			},
+			"name": {
+				"eng": "Soup and Salad",
+				"trans": "수프와 샐러드"
+			}
+		},
+		"strawberries": {
+			"description": {
+				"eng": "Sweet hydroponic berries used in layered desserts.",
+				"trans": "레이어 디저트에 쓰이는 달콤한 수경 재배 베리"
+			},
+			"name": {
+				"eng": "Strawberries",
+				"trans": "딸기"
+			}
+		},
+		"strawberryMilleFeuille": {
+			"description": {
+				"eng": "Crisp pastry layered with vanilla cream and strawberries.",
+				"trans": "바삭하게 구운 페이스트리 사이에 바닐라 크림과 딸기를 겹겹이 올렸습니다."
+			},
+			"name": {
+				"eng": "Strawberry Mille-Feuille",
+				"trans": "딸기 밀푀유"
+			}
+		},
+		"strawberryMochi": {
+			"description": {
+				"eng": "Soft rice cakes wrapped around whole strawberries.",
+				"trans": "통딸기를 감싼 부드러운 떡"
+			},
+			"name": {
+				"eng": "Strawberry Mochi",
+				"trans": "딸기 모찌"
 			}
 		},
 		"sushi": {
@@ -7868,6 +8928,46 @@
 			"name": {
 				"eng": "Tech Scrap",
 				"trans": "공학 조각"
+			}
+		},
+		"tomato": {
+			"description": {
+				"eng": "A ripe hydroponic tomato used in breakfasts and rice dishes.",
+				"trans": "잘 익은 수경 재배 토마토로, 아침 식사와 밥 요리에 사용됩니다."
+			},
+			"name": {
+				"eng": "Tomato",
+				"trans": "토마토"
+			}
+		},
+		"tomatoSoup": {
+			"description": {
+				"eng": "A smooth tomato and carrot soup served hot.",
+				"trans": "부드러운 토마토와 당근 수프가 따뜻하게 제공됩니다."
+			},
+			"name": {
+				"eng": "Tomato Soup",
+				"trans": "토마토 스프"
+			}
+		},
+		"truffleBruschetta": {
+			"description": {
+				"eng": "Toasted bread spread with truffle butter and topped with tomato.",
+				"trans": "트러플 버터를 바르고 토마토를 올린 그릴드 브레드"
+			},
+			"name": {
+				"eng": "Truffle Bruschetta",
+				"trans": "트러플 브루스케타"
+			}
+		},
+		"truffleButter": {
+			"description": {
+				"eng": "Creamy butter worked with finely shaved black truffle.",
+				"trans": "크리미한 버터에 가늘게 슬라이스한 블랙 트러플을 더해 완성했습니다."
+			},
+			"name": {
+				"eng": "Truffle Butter",
+				"trans": "트러플 버터"
 			}
 		},
 		"turkeyDinner": {
@@ -7970,6 +9070,26 @@
 			"name": {
 				"eng": "Upper Armor",
 				"trans": "상의 방어구"
+			}
+		},
+		"vanillaBeans": {
+			"description": {
+				"eng": "Fragrant whole vanilla pods used in rich creams and desserts.",
+				"trans": "진한 크림과 디저트에 사용되는 향긋한 통 바닐라 팟."
+			},
+			"name": {
+				"eng": "Vanilla Beans",
+				"trans": "바닐라 빈"
+			}
+		},
+		"vanillaCream": {
+			"description": {
+				"eng": "A smooth egg and milk cream steeped with whole vanilla beans.",
+				"trans": "통 바닐라를 우려낸 부드러운 계란 우유 크림."
+			},
+			"name": {
+				"eng": "Vanilla Cream",
+				"trans": "바닐라 크림"
 			}
 		}
 	},
@@ -9484,25 +10604,167 @@
 		}
 	},
 	"luckyDraw": {
-		"betterLuck": {
-			"eng": "BETTER LUCK NEXT TIME",
-			"trans": "다음에 luck이 있을 거예요"
+		"catchGame": {
+			"close": {
+				"eng": "CLOSE DRAW",
+				"trans": "드로우 닫기"
+			},
+			"collectorAlt": {
+				"eng": "Magnetic collector",
+				"trans": "자기 수집기"
+			},
+			"corruptionAlt": {
+				"eng": "Corrupted fragment",
+				"trans": "손상된 파편"
+			},
+			"corruptionCaughtText": {
+				"eng": "CORRUPTION CAUGHT",
+				"trans": "손상 탐지됨"
+			},
+			"corruptionGoal": {
+				"eng": "LIMIT 03",
+				"trans": "제한 03"
+			},
+			"corruptionHudAlt": {
+				"eng": "Corrupted fragment",
+				"trans": "손상된 파편"
+			},
+			"corruptionHudCompact": {
+				"eng": "CORRUPT ${caught}/${limit}",
+				"trans": "손상 ${caught}/${limit}"
+			},
+			"corruptionLegend": {
+				"eng": "CORRUPTION",
+				"trans": "오염"
+			},
+			"corruptionMissedSafe": {
+				"eng": "CORRUPTION MISSED // NO PENALTY",
+				"trans": "오염 회피 // 페널티 없음"
+			},
+			"creditAlt": {
+				"eng": "Credit fragment",
+				"trans": "크레딧 조각"
+			},
+			"creditCaughtText": {
+				"eng": "CREDIT FRAGMENT CAUGHT",
+				"trans": "크레딧 조각 포착"
+			},
+			"creditGoal": {
+				"eng": "COLLECT 06",
+				"trans": "수집 06"
+			},
+			"creditHud": {
+				"eng": "CREDIT ${caught}/${target}",
+				"trans": "크레딧 ${caught}/${target}"
+			},
+			"creditHudAlt": {
+				"eng": "Credit fragment",
+				"trans": "크레딧 조각"
+			},
+			"creditLegend": {
+				"eng": "CREDIT FRAGMENT",
+				"trans": "크레딧 조각"
+			},
+			"creditMissedSafe": {
+				"eng": "CREDIT MISSED // NO PENALTY",
+				"trans": "크레딧 누락 // 패널티 없음"
+			},
+			"dragActive": {
+				"eng": "DRAG TO ALIGN // COLLECTION ACTIVE",
+				"trans": "드래그하여 정렬 // 수집 활성화"
+			},
+			"expiredClose": {
+				"eng": "CLOSE",
+				"trans": "닫기"
+			},
+			"expiredDescription": {
+				"eng": "This collection run can no longer be started.",
+				"trans": "이 수집 런은 더 이상 시작할 수 없습니다."
+			},
+			"expiredTitle": {
+				"eng": "COLLECTION WINDOW EXPIRED",
+				"trans": "수집 기한이 만료되었습니다."
+			},
+			"instructionsDrag": {
+				"eng": "DRAG across the chute to align the collector. Catch 6 credit fragments; 3 corruptions end the run. Misses are safe.",
+				"trans": "낙하로를 가로지르며 드래그해 수집기를 정렬하세요. 크레딧 조각 6개를 수거해야 하며, 오염이 3번 발생하면 실행이 종료됩니다. 놓쳐도 안전합니다."
+			},
+			"lostDescriptionRun": {
+				"eng": "Three corrupted fragments ended the collection run.",
+				"trans": "손상된 조각 3개로 인해 수집 실행이 종료되었습니다."
+			},
+			"lostTitle": {
+				"eng": "COLLECTOR CORRUPTED",
+				"trans": "수집자 손상됨"
+			},
+			"readyTitleStandby": {
+				"eng": "COLLECTOR STANDBY",
+				"trans": "수집기 대기"
+			},
+			"runCorrupted": {
+				"eng": "COLLECTOR CORRUPTED // RUN ENDED",
+				"trans": "수집자 손상 // 런 종료"
+			},
+			"runExpired": {
+				"eng": "COLLECTION WINDOW EXPIRED",
+				"trans": "수집 기한이 만료되었습니다."
+			},
+			"runReady": {
+				"eng": "COLLECTION RUN READY",
+				"trans": "수집 임무 준비 완료"
+			},
+			"start": {
+				"eng": "START COLLECTION",
+				"trans": "수집 시작"
+			}
 		},
-		"drawLost": {
-			"eng": "TRY AGAIN LATER",
-			"trans": "조금 후에 다시 시도해 주세요"
+		"claim": {
+			"assemblingDescription": {
+				"eng": "The collected credits are being assembled into one chip. Keep this window open.",
+				"trans": "수집된 크레딧이 하나의 칩으로 조립되고 있습니다. 이 창을 닫지 마세요."
+			},
+			"assemblingTitle": {
+				"eng": "ASSEMBLING CREDIT CHIP",
+				"trans": "크레딧 칩 조립 중"
+			},
+			"assemblyHeader": {
+				"eng": "CREDIT CHIP ASSEMBLY // IN PROGRESS",
+				"trans": "크레딧 칩 조립 // 진행 중"
+			},
+			"assemblyStatus": {
+				"eng": "CHIP ASSEMBLY IN PROGRESS // EXIT LOCKED",
+				"trans": "칩 조립 진행 중 // 출구 잠금"
+			},
+			"chipAlt": {
+				"eng": "Assembled credit chip",
+				"trans": "조립된 크레딧칩"
+			},
+			"fragmentAlt": {
+				"eng": "Credit fragment",
+				"trans": "크레딧 조각"
+			},
+			"unconfirmedDescription": {
+				"eng": "The chip may still be in your inventory. Close this window, then check your inventory.",
+				"trans": "칩이 여전히 인벤토리에 있을 수 있습니다. 이 창을 닫고 인벤토리를 확인하세요."
+			},
+			"unconfirmedHeader": {
+				"eng": "CREDIT CHIP ASSEMBLY // UNCONFIRMED",
+				"trans": "크레딧 칩 조립 // 미확인"
+			},
+			"unconfirmedTitle": {
+				"eng": "UNABLE TO CONFIRM CLAIM",
+				"trans": "청구 확인 불가"
+			}
 		},
-		"drawWon": {
-			"eng": "SUCCESS!",
-			"trans": "성공!"
-		},
-		"expired": {
-			"eng": "EXPIRED",
-			"trans": "만료"
-		},
-		"expiresLabel": {
-			"eng": "EXPIRES: ",
-			"trans": "만료:"
+		"expiration": {
+			"expired": {
+				"eng": "EXPIRED",
+				"trans": "만료"
+			},
+			"startWindowLabel": {
+				"eng": "START WINDOW: ",
+				"trans": "시작 창:"
+			}
 		},
 		"flashSale": {
 			"description": {
@@ -9514,21 +10776,9 @@
 				"trans": "플래시 세일 로또"
 			}
 		},
-		"idle": {
-			"eng": "IDLE",
-			"trans": "대기"
-		},
 		"invalidType": {
 			"eng": "Invalid lucky draw type",
 			"trans": "행운의 추첨 유형이 잘못되었습니다"
-		},
-		"itemsReceived": {
-			"eng": "ITEMS RECEIVED:",
-			"trans": "아이템 수령"
-		},
-		"noRewards": {
-			"eng": "NO REWARDS THIS TIME",
-			"trans": "이번엔 보상이 없습니다"
 		},
 		"notEligible": {
 			"eng": "You are not eligible for this lucky draw",
@@ -9538,33 +10788,39 @@
 			"eng": "This lucky draw is on cooldown. Try again later!",
 			"trans": "행운의 드라우가 쿨타임 중입니다. 나중에 다시 시도해 보세요."
 		},
-		"processing": {
-			"eng": "Processing...",
-			"trans": "처리 중…"
-		},
-		"processing1": {
-			"eng": "PROCESSING",
-			"trans": "처리 중"
-		},
-		"rewardUnlocked": {
-			"eng": "REWARD UNLOCKED!",
-			"trans": "보상 해금!"
-		},
-		"statusSuccess": {
-			"eng": "STATUS: SUCCESS",
-			"trans": "STATUS: 성공"
-		},
-		"statusUnsuccessful": {
-			"eng": "STATUS: UNSUCCESSFUL",
-			"trans": "상태: 실패"
-		},
-		"swipeToUnlock": {
-			"eng": "Swipe to initiate lucky draw",
-			"trans": "스와이프로 추첨을 시작하세요"
-		},
-		"transactionComplete": {
-			"eng": "TRANSACTION COMPLETE",
-			"trans": "거래 완료"
+		"result": {
+			"assembledDescription": {
+				"eng": "The collection run is complete. Your reward is shown below.",
+				"trans": "수집이 완료되었습니다. 보상은 아래와 같습니다."
+			},
+			"assembledHeader": {
+				"eng": "CREDIT CHIP ASSEMBLY // COMPLETE",
+				"trans": "크레딧 칩 조립 // 완료"
+			},
+			"assembledTitle": {
+				"eng": "CHIP ASSEMBLED",
+				"trans": "칩 조립 완료"
+			},
+			"close": {
+				"eng": "CLOSE",
+				"trans": "닫기"
+			},
+			"failedDescription": {
+				"eng": "The collection run completed, but no reward was assembled.",
+				"trans": "수집 임무가 완료되었지만 보상이 조립되지 않았습니다."
+			},
+			"failedHeader": {
+				"eng": "CREDIT CHIP ASSEMBLY // FAILED",
+				"trans": "크레딧 칩 조립 // 실패"
+			},
+			"failedTitle": {
+				"eng": "CHIP ASSEMBLY FAILED",
+				"trans": "칩 조립 실패"
+			},
+			"rewardReceived": {
+				"eng": "REWARD RECEIVED",
+				"trans": "보상 획득"
+			}
 		}
 	},
 	"mail": {
@@ -11658,6 +12914,118 @@
 			"title": {
 				"eng": "SYSTEM CALIBRATION",
 				"trans": "시스템 교정"
+			}
+		},
+		"gridBreach": {
+			"header": {
+				"progress": {
+					"eng": "Captures",
+					"trans": "캡처"
+				},
+				"protocol": {
+					"eng": "Access Protocol GB-04",
+					"trans": "접근 프로토콜 GB-04"
+				},
+				"title": {
+					"eng": "Grid Breach",
+					"trans": "그리드 침투"
+				}
+			},
+			"instruction": {
+				"tapAnywhere": {
+					"eng": "Tap anywhere while the cursor overlaps the marked cell",
+					"trans": "커서가 표시된 셀과 겹칠 때 아무 곳이나 탭하세요"
+				}
+			},
+			"loss": {
+				"errors": {
+					"eng": "Error limit reached.",
+					"trans": "오류 한도에 도달했습니다."
+				},
+				"eyebrow": {
+					"eng": "Signal terminated",
+					"trans": "신호 종료"
+				},
+				"focus": {
+					"eng": "Signal focus was lost.",
+					"trans": "신호 집중이 상실되었습니다."
+				},
+				"restart": {
+					"eng": "Restart breach",
+					"trans": "침투 재시작"
+				},
+				"sweep": {
+					"eng": "Sweep expired before verification completed.",
+					"trans": "인증 완료 전에 스위프가 만료되었습니다."
+				},
+				"title": {
+					"eng": "Breach failed",
+					"trans": "침투 실패"
+				}
+			},
+			"status": {
+				"captured": {
+					"eng": "Signal captured",
+					"trans": "시그널 포착"
+				},
+				"complete": {
+					"eng": "Grid breach complete",
+					"trans": "그리드 침투 완료"
+				},
+				"errorLimit": {
+					"eng": "Error limit reached",
+					"trans": "오류 한도에 도달했습니다"
+				},
+				"label": {
+					"eng": "SYS.GB//STATE",
+					"trans": "시스템.GB//상태"
+				},
+				"lost": {
+					"eng": "Signal terminated",
+					"trans": "신호 종료"
+				},
+				"missed": {
+					"eng": "Window missed — reacquiring",
+					"trans": "타격 윈도우 미스 — 재인식 중"
+				},
+				"rejected": {
+					"eng": "Input rejected",
+					"trans": "입력이 거부되었습니다."
+				},
+				"scanning": {
+					"eng": "Scanning authentication grid",
+					"trans": "인증 그리드 스캔 중"
+				},
+				"targetAligned": {
+					"eng": "Target aligned",
+					"trans": "대상 정렬됨"
+				}
+			},
+			"sweep": {
+				"pass": {
+					"eng": "One pass",
+					"trans": "통과 1회"
+				},
+				"remaining": {
+					"eng": "Sweep remaining",
+					"trans": "나머지 쓸어내기"
+				}
+			},
+			"telemetry": {
+				"errors": {
+					"eng": "Errors",
+					"trans": "오류"
+				},
+				"scan": {
+					"eng": "Sweep",
+					"trans": "소탕"
+				}
+			},
+			"verification": {
+				"complete": {
+					"eng": "Grid verified",
+					"trans": "그리드 검증됨"
+				}
 			}
 		},
 		"neonFuse": {
@@ -14969,6 +16337,16 @@
 		"reducePsychosis": {
 			"eng": "Reduce psychosis by ${reducePsychosis}",
 			"trans": "사이코 싸이코를 ${reducePsychosis} 감소시킵니다"
+		},
+		"uniqueEffect": {
+			"description": {
+				"eng": "Only one ${uniqueEffect} can be active. Gaining a different one replaces the current effect.",
+				"trans": "${uniqueEffect}은(는) 동시에 1개만 활성화될 수 있습니다. 다른 효과를 획득하면 현재 효과가 교체됩니다."
+			},
+			"name": {
+				"eng": "${group} Unique Effect",
+				"trans": "${group} 고유 효과"
+			}
 		}
 	},
 	"rewardConfigItemDisplay": {
@@ -15380,6 +16758,18 @@
 				"trans": "서버가 업데이트를 위해 재시작 중입니다. 몇 분 후에 다시 시도해주세요"
 			}
 		},
+		"inventory": {
+			"useItem": {
+				"cooldown": {
+					"eng": "You can only use one healing item per combat turn",
+					"trans": "전투 턴당 회복 아이템은 1개만 사용할 수 있습니다."
+				},
+				"success": {
+					"eng": "Used ${itemName}",
+					"trans": "${itemName} 사용"
+				}
+			}
+		},
 		"player": {
 			"currencyFull": {
 				"eng": "${currencyName} is full",
@@ -15485,6 +16875,14 @@
 		"deleteCharacter": {
 			"eng": "Delete character",
 			"trans": "캐릭터 삭제"
+		},
+		"enable3DItemPreview": {
+			"eng": "Enable 3D Item Previews",
+			"trans": "3D 아이템 미리보기 활성화"
+		},
+		"enable3DItemPreviewDescription": {
+			"eng": "Show interactive 3D item icons in item details. Disable to use flat icons instead",
+			"trans": "아이템 상세 정보에서 인터랙티브 3D 아이템 아이콘을 표시합니다. 비활성화하면 평면 아이콘이 표시됩니다."
 		},
 		"enableAttackBarPopup": {
 			"eng": "Enable Attack Bar popup",
@@ -16070,6 +17468,16 @@
 				"trans": "방어력 증가"
 			}
 		},
+		"evasion1": {
+			"desc": {
+				"eng": "Escape chance +${points} percentage points",
+				"trans": "탈출 확률 +${points}퍼센트 포인트"
+			},
+			"name": {
+				"eng": "Evasion I",
+				"trans": "회피 I"
+			}
+		},
 		"gatherExpMult1": {
 			"desc": {
 				"eng": "Increases the EXP you receive from auto gather by ${percent}%",
@@ -16098,6 +17506,26 @@
 			"name": {
 				"eng": "Auto Gather EXP Multiplier III",
 				"trans": "자동 경험치 수집 배율 III"
+			}
+		},
+		"gathering1": {
+			"desc": {
+				"eng": "Gain ${percent}% more Auto Gather EXP",
+				"trans": "자동 수집 EXP를 ${percent}% 추가로 획득합니다"
+			},
+			"name": {
+				"eng": "Gathering I",
+				"trans": "채집 I"
+			}
+		},
+		"guard1": {
+			"desc": {
+				"eng": "Block chance +${points} percentage points",
+				"trans": "방해 확률 +${points}퍼센트 포인트"
+			},
+			"name": {
+				"eng": "Guard I",
+				"trans": "가드 1"
 			}
 		},
 		"heal": {
@@ -16164,6 +17592,96 @@
 				"trans": "전리품 증가"
 			}
 		},
+		"mealAssault": {
+			"desc": {
+				"eng": "Deal ${damagePercent}% more damage and ${criticalDamagePercent}% more critical damage",
+				"trans": "피해를 ${damagePercent}% 추가로 증가시키고 치명타 피해를 ${criticalDamagePercent}% 추가로 증가시킵니다"
+			},
+			"name": {
+				"eng": "Assault Meal",
+				"trans": "돌격식"
+			}
+		},
+		"mealBulwark": {
+			"desc": {
+				"eng": "Add ${points} percentage points to block chance and block strength",
+				"trans": "방해 확률 및 차단력에 ${points}퍼센트 포인트를 추가합니다"
+			},
+			"name": {
+				"eng": "Bulwark Meal",
+				"trans": "방벽 식사"
+			}
+		},
+		"mealOperator": {
+			"desc": {
+				"eng": "Gain ${gatherPercent}% more Auto Gather EXP and ${taskPercent}% more AFK Task EXP",
+				"trans": "${gatherPercent}% 더 많은 자동 수집 경험치와 ${taskPercent}% 더 많은 AFK 작업 경험치를 획득합니다."
+			},
+			"name": {
+				"eng": "Operator Meal",
+				"trans": "조종사 식사"
+			}
+		},
+		"mealOverclock": {
+			"desc": {
+				"eng": "Deal ${autoDamagePercent}% more auto-attack damage and ${damagePercent}% more damage",
+				"trans": "자동 공격 피해가 ${autoDamagePercent}% 증가하고, 피해량이 ${damagePercent}% 증가합니다."
+			},
+			"name": {
+				"eng": "Overclock Meal",
+				"trans": "오버클럭 식사"
+			}
+		},
+		"mealPrecision": {
+			"desc": {
+				"eng": "Headshot multiplier +${headshotPoints} percentage points, critical chance +${criticalChancePoints} percentage points, and critical damage +${criticalDamagePercent}%",
+				"trans": "헤드샷 배율 +${headshotPoints}%p, 치명타 확률 +${criticalChancePoints}%p, 치명타 피해량 +${criticalDamagePercent}%"
+			},
+			"name": {
+				"eng": "Precision Meal",
+				"trans": "정밀 식사"
+			}
+		},
+		"mealSentinel": {
+			"desc": {
+				"eng": "Deal ${autoDamagePercent}% more auto-attack damage and take ${damageReductionPercent}% less damage",
+				"trans": "자동 공격으로 ${autoDamagePercent}% 추가 피해를 입히고, 받는 피해는 ${damageReductionPercent}% 감소합니다."
+			},
+			"name": {
+				"eng": "Sentinel Meal",
+				"trans": "센티넬 식사"
+			}
+		},
+		"mealSkirmisher": {
+			"desc": {
+				"eng": "Add ${headshotPoints} percentage points to headshot multiplier and ${escapePoints} percentage points to escape chance",
+				"trans": "헤드샷 배율에 ${headshotPoints} 백분점을 추가하고 탈출 확률에 ${escapePoints} 백분점을 추가합니다"
+			},
+			"name": {
+				"eng": "Skirmisher Meal",
+				"trans": "기동정찰병 식사"
+			}
+		},
+		"mealSurvivor": {
+			"desc": {
+				"eng": "Take ${damageReductionPercent}% less damage and add ${escapePoints} percentage points to escape chance",
+				"trans": "받는 피해 ${damageReductionPercent}% 감소 및 탈출 확률 ${escapePoints}퍼센트포인트 증가"
+			},
+			"name": {
+				"eng": "Survivor Meal",
+				"trans": "생존 식량"
+			}
+		},
+		"mealVanguard": {
+			"desc": {
+				"eng": "Deal ${damagePercent}% more damage and add ${blockChancePoints} percentage points to block chance",
+				"trans": "피해를 ${damagePercent}% 증가시키고 방해 확률을 ${blockChancePoints}p 증가시킵니다."
+			},
+			"name": {
+				"eng": "Vanguard Meal",
+				"trans": "선봉대의 식사"
+			}
+		},
 		"muted": {
 			"desc": {
 				"eng": "This player have been muted by the system.",
@@ -16172,6 +17690,16 @@
 			"name": {
 				"eng": "Muted",
 				"trans": "뮤트"
+			}
+		},
+		"overclock1": {
+			"desc": {
+				"eng": "Deal ${percent}% more auto-attack damage",
+				"trans": "자동 공격 피해가 ${percent}% 증가합니다"
+			},
+			"name": {
+				"eng": "Overclock I",
+				"trans": "오버클록 1"
 			}
 		},
 		"poison": {
@@ -16196,6 +17724,26 @@
 			"name": {
 				"eng": "Power I",
 				"trans": "파워 I"
+			}
+		},
+		"precision1": {
+			"desc": {
+				"eng": "Headshot multiplier +${points} percentage points",
+				"trans": "헤드샷 배율 +${points}%p"
+			},
+			"name": {
+				"eng": "Precision I",
+				"trans": "정밀 I"
+			}
+		},
+		"pumpkinFeast": {
+			"desc": {
+				"eng": "Critical chance +${criticalChancePoints} percentage points and critical damage +${criticalDamagePercent}%",
+				"trans": "크리티컬 확률 +${criticalChancePoints}%, 크리티컬 대미지 +${criticalDamagePercent}%"
+			},
+			"name": {
+				"eng": "Pumpkin Feast",
+				"trans": "호박 잔치"
 			}
 		},
 		"pvp": {
@@ -16256,6 +17804,116 @@
 			"name": {
 				"eng": "Hideout Raid EXP Multiplier V",
 				"trans": "은신처 습격 경험치 배율 V"
+			}
+		},
+		"specialtyMealAssault": {
+			"desc": {
+				"eng": "Deal ${damagePercent}% more damage and ${criticalDamagePercent}% more critical damage",
+				"trans": "피해를 ${damagePercent}% 추가로 증가시키고 치명타 피해를 ${criticalDamagePercent}% 추가로 증가시킵니다"
+			},
+			"name": {
+				"eng": "Specialty Assault Meal",
+				"trans": "특제 돌격 식사"
+			}
+		},
+		"specialtyMealBulwark": {
+			"desc": {
+				"eng": "Add ${points} percentage points to block chance and block strength",
+				"trans": "방해 확률 및 차단력에 ${points}퍼센트 포인트를 추가합니다"
+			},
+			"name": {
+				"eng": "Specialty Bulwark Meal",
+				"trans": "특선 보루 식사"
+			}
+		},
+		"specialtyMealOperator": {
+			"desc": {
+				"eng": "Gain ${gatherPercent}% more Auto Gather EXP and ${taskPercent}% more AFK Task EXP",
+				"trans": "${gatherPercent}% 더 많은 자동 수집 경험치와 ${taskPercent}% 더 많은 AFK 작업 경험치를 획득합니다."
+			},
+			"name": {
+				"eng": "Specialty Operator Meal",
+				"trans": "특제 운영자 식사"
+			}
+		},
+		"specialtyMealOverclock": {
+			"desc": {
+				"eng": "Deal ${autoDamagePercent}% more auto-attack damage and ${damagePercent}% more damage",
+				"trans": "자동 공격 피해가 ${autoDamagePercent}% 증가하고, 피해량이 ${damagePercent}% 증가합니다."
+			},
+			"name": {
+				"eng": "Specialty Overclock Meal",
+				"trans": "특제 오버클럭 식사"
+			}
+		},
+		"specialtyMealPrecision": {
+			"desc": {
+				"eng": "Headshot multiplier +${headshotPoints} percentage points, critical chance +${criticalChancePoints} percentage points, and critical damage +${criticalDamagePercent}%",
+				"trans": "헤드샷 배율 +${headshotPoints}%p, 치명타 확률 +${criticalChancePoints}%p, 치명타 피해량 +${criticalDamagePercent}%"
+			},
+			"name": {
+				"eng": "Specialty Precision Meal",
+				"trans": "특화 정밀 식사"
+			}
+		},
+		"specialtyMealSentinel": {
+			"desc": {
+				"eng": "Deal ${autoDamagePercent}% more auto-attack damage and take ${damageReductionPercent}% less damage",
+				"trans": "자동 공격으로 ${autoDamagePercent}% 추가 피해를 입히고, 받는 피해는 ${damageReductionPercent}% 감소합니다."
+			},
+			"name": {
+				"eng": "Specialty Sentinel Meal",
+				"trans": "특선 파수병 식사"
+			}
+		},
+		"specialtyMealSkirmisher": {
+			"desc": {
+				"eng": "Add ${headshotPoints} percentage points to headshot multiplier and ${escapePoints} percentage points to escape chance",
+				"trans": "헤드샷 배율에 ${headshotPoints} 백분점을 추가하고 탈출 확률에 ${escapePoints} 백분점을 추가합니다"
+			},
+			"name": {
+				"eng": "Specialty Skirmisher Meal",
+				"trans": "특제 교전병 식사"
+			}
+		},
+		"specialtyMealSurvivor": {
+			"desc": {
+				"eng": "Take ${damageReductionPercent}% less damage and add ${escapePoints} percentage points to escape chance",
+				"trans": "받는 피해 ${damageReductionPercent}% 감소 및 탈출 확률 ${escapePoints}퍼센트포인트 증가"
+			},
+			"name": {
+				"eng": "Specialty Survivor Meal",
+				"trans": "특제 생존식"
+			}
+		},
+		"specialtyMealVanguard": {
+			"desc": {
+				"eng": "Deal ${damagePercent}% more damage and add ${blockChancePoints} percentage points to block chance",
+				"trans": "피해를 ${damagePercent}% 증가시키고 방해 확률을 ${blockChancePoints}p 증가시킵니다."
+			},
+			"name": {
+				"eng": "Specialty Vanguard Meal",
+				"trans": "특선 선봉 식사"
+			}
+		},
+		"taskFocus1": {
+			"desc": {
+				"eng": "Gain ${percent}% more AFK Task EXP",
+				"trans": "AFK 작업 EXP 획득량 ${percent}% 증가"
+			},
+			"name": {
+				"eng": "Task Focus I",
+				"trans": "임무 집중 I"
+			}
+		},
+		"turkeyFeast": {
+			"desc": {
+				"eng": "Take ${reductionPercent}% less damage and gain ${blockChancePoints} percentage points of block chance",
+				"trans": "받는 피해가 ${reductionPercent}% 감소하고, 방해 확률이 ${blockChancePoints}%p 증가합니다."
+			},
+			"name": {
+				"eng": "Turkey Feast",
+				"trans": "칠면조 향연"
 			}
 		},
 		"warIntel": {
@@ -17651,9 +19309,9 @@
 				"eng": "Gift Code",
 				"trans": "선물 코드"
 			},
-			"investigations": {
-				"eng": "Investigations",
-				"trans": "조사"
+			"intelMarket": {
+				"eng": "INTEL MARKET",
+				"trans": "정보 시장"
 			},
 			"leaderboard": {
 				"eng": "leaderboard",
@@ -18018,12 +19676,12 @@
 		},
 		"hostilePlayerList": {
 			"subtitle": {
-				"eng": "Arrest wanted criminals and get paid!",
-				"trans": "수배 중인 범죄자를 체포하고 보상을 받으세요!"
+				"eng": "Alerts, services and active warrants",
+				"trans": "알림, 서비스 및 유효한 영장"
 			},
 			"title": {
-				"eng": "Your safety, our mission.",
-				"trans": "당신의 안전, 우리의 미션입니다."
+				"eng": "ACPD Public Network",
+				"trans": "아크라이트 시티 경찰 공개 네트워크"
 			}
 		},
 		"megaAd": {
