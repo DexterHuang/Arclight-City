@@ -6,6 +6,29 @@
 
 **If you find an exploit, please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
+### 0.0.105
+
+-  **Added the `Intel Market` investigation portal**:
+   -  Review active dossiers, recovered evidence, and solved cases through one dedicated workflow
+   -  Investigation records now render as readable evidence within case clues
+
+-  **Updated the ACPD public website**:
+   -  Browse public safety guidance, incident reporting, services, news and appeals, and transparency information
+   -  Open the wanted board directly from ACPD pages
+
+-  **Added `Grid Breach` minigame**:
+   -  Capture five targets as the scan crosses the grid; three errors or an expired sweep ends the attempt
+
+-  **Reworked Cooking**:
+   -  Assemble ingredients freely or pin a recipe for guidance, then cook batches of new dishes in your apartment kitchen
+   -  Added new produce, multi-stage recipes, culinary buffs, and `Farm Work` / `Culinary Supply Run` AFK tasks
+   -  Both gathering tasks take one hour and allow up to 8 repeats; `Culinary Supply Run`
+   -  Some meals have Unique effects or buffs, that provides stronger effects, however only one can be active at a time
+
+-  Added interactive 3D equipment previews with drag rotation, tier and calibration effects, destroyed-item visuals, and flat-icon fallback support
+-  Reworked equipment icons with higher quality and consistent look
+-  Corrected MegaEstate housing information so apartment standards and listings show accurate mercenary slot benefits
+
 ### 0.0.104
 
 -  **Added `Rogue Asset Extraction` Priority Operation**:
