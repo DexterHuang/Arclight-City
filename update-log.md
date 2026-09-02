@@ -6,6 +6,11 @@
 
 **If you find an exploit, please do not spread it to others and directly email the details to the developer at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)**
 
+### 0.0.106
+
+-  You can now view full item details for equipment and display-shelf items on other player profiles
+-  Improved stock trading with a more compact trade window and a clearer warning that market prices may change before execution
+
 ### 0.0.105
 
 -  **Added the `Intel Market` investigation portal**:
